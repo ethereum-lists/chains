@@ -1,0 +1,107 @@
+{
+  "1": {
+    "name": "Ethereum Mainnet",
+    "chain": "eth",
+    "network": "mainnet",
+    "chainId": 1,
+    "networkId": 1
+  },
+  "2": {
+    "name": "Expanse Network Mainnet (previously Morden)",
+    "chain": "exp",
+    "network": "mainnet",
+    "chainId": 2,
+    "networkId": 1
+  },
+  "3": {
+    "name": "Ethereum Ropsten",
+    "chain": "eth",
+    "network": "ropsten",
+    "chainId": 3,
+    "networkId": 3
+  },
+  "4": {
+    "name": "Ethereum Rinkeby",
+    "chain": "eth",
+    "network": "rinkeby",
+    "chainId": 4,
+    "networkId": 4
+  },
+  "8": {
+    "name": "Ubiq Network Mainnet",
+    "chain": "ubq",
+    "network": "mainnet",
+    "chainId": 8,
+    "networkId": 1
+  },
+  "9": {
+    "name": "Ubiq Network Testnet",
+    "chain": "ubq",
+    "network": "mainnet",
+    "chainId": 9,
+    "networkId": 2
+  },
+  "30": {
+    "name": "Rootsock Mainnet",
+    "chain": "rsk",
+    "network": "mainnet",
+    "chainId": 30,
+    "networkId": 1
+  },
+  "31": {
+    "name": "Rootsock Testnet",
+    "chain": "rsk",
+    "network": "testnet",
+    "chainId": 30,
+    "networkId": 2
+  },
+  "61": {
+    "name": "Ethereum Classic Mainnet",
+    "chain": "etc",
+    "network": "mainnet",
+    "chainId": 61,
+    "networkId": 1
+  },
+  "62": {
+    "name": "Ethereum Classic Testnet",
+    "chain": "etc",
+    "network": "testnet",
+    "chainId": 62,
+    "networkId": 2
+  },
+  "77": {
+    "name": "POA Network Sokol",
+    "chain": "poa",
+    "network": "sokol",
+    "chainId": 77,
+    "networkId": 1
+  },
+  "99": {
+    "name": "POA Network Core",
+    "chain": "poa",
+    "network": "core",
+    "chainId": 99,
+    "networkId": 2
+  },
+  "820": {
+    "name": "Callisto Mainnet",
+    "chain": "clo",
+    "network": "mainnet",
+    "chainId": 820,
+    "networkId": 1
+  },
+  "821": {
+    "name": "Callisto Testnet",
+    "chain": "clo",
+    "network": "testnet",
+    "chainId": 821,
+    "networkId": 2
+  },
+  "6284": {
+    "name": "Ethereum Görli",
+    "chain": "eth",
+    "network": "gorli",
+    "chainId": 6284,
+    "networkId": 6284
+  }
+}
