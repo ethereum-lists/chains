@@ -1,0 +1,186 @@
+[
+  {
+    "name": "Ethereum Mainnet",
+    "short_name": "eth",
+    "chain": "ETH",
+    "network": "mainnet",
+    "chain_id": 1,
+    "network_id": 1
+  },
+  {
+    "name": "Expanse Network",
+    "short_name": "exp",
+    "chain": "EXP",
+    "network": "mainnet",
+    "chain_id": 2,
+    "network_id": 1
+  },
+  {
+    "name": "Ethereum Testnet Ropsten",
+    "short_name": "rop",
+    "chain": "ETH",
+    "network": "ropsten",
+    "chain_id": 3,
+    "network_id": 3
+  },
+  {
+    "name": "Ethereum Testnet Rinkeby",
+    "short_name": "rin",
+    "chain": "ETH",
+    "network": "rinkeby",
+    "chain_id": 4,
+    "network_id": 4
+  },
+  {
+    "name": "Ethereum Testnet Görli",
+    "short_name": "gor",
+    "chain": "ETH",
+    "network": "goerli",
+    "chain_id": 5,
+    "network_id": 5
+  },
+  {
+    "name": "Ubiq Network Mainnet",
+    "short_name": "ubq",
+    "chain": "UBQ",
+    "network": "mainnet",
+    "chain_id": 8,
+    "network_id": 1
+  },
+  {
+    "name": "Ubiq Network Testnet",
+    "short_name": "tubq",
+    "chain": "UBQ",
+    "network": "mainnet",
+    "chain_id": 9,
+    "network_id": 2
+  },
+  {
+    "name": "Ethereum Social",
+    "short_name": "etsc",
+    "chain": "ETSC",
+    "network": "mainnet",
+    "chain_id": 28,
+    "network_id": 1
+  },
+  {
+    "name": "Rootstock Mainnet",
+    "short_name": "rsk",
+    "chain": "RSK",
+    "network": "mainnet",
+    "chain_id": 30,
+    "network_id": 1
+  },
+  {
+    "name": "Rootstock Testnet",
+    "short_name": "trsk",
+    "chain": "RSK",
+    "network": "testnet",
+    "chain_id": 30,
+    "network_id": 2
+  },
+  {
+    "name": "GoChain",
+    "short_name": "go",
+    "chain": "GO",
+    "network": "mainnet",
+    "chain_id": 30,
+    "network_id": 1
+  },
+  {
+    "name": "Ethereum Classic Mainnet",
+    "short_name": "etc",
+    "chain": "ETC",
+    "network": "mainnet",
+    "chain_id": 61,
+    "network_id": 1
+  },
+  {
+    "name": "Ethereum Classic Testnet",
+    "short_name": "tetc",
+    "chain": "ETC",
+    "network": "testnet",
+    "chain_id": 62,
+    "network_id": 2
+  },
+  {
+    "name": "Ellaism",
+    "short_name": "ella",
+    "chain": "ELLA",
+    "network": "mainnet",
+    "chain_id": 64,
+    "network_id": 1
+  },
+  {
+    "name": "Mix",
+    "short_name": "mix",
+    "chain": "MIX",
+    "network": "mainnet",
+    "chain_id": 76,
+    "network_id": 1
+  },
+  {
+    "name": "POA Network Sokol",
+    "short_name": "poa",
+    "chain": "POA",
+    "network": "sokol",
+    "chain_id": 77,
+    "network_id": 1
+  },
+  {
+    "name": "POA Network Core",
+    "short_name": "skl",
+    "chain": "POA",
+    "network": "core",
+    "chain_id": 99,
+    "network_id": 2
+  },
+  {
+    "name": "xDAI Chain",
+    "short_name": "dai",
+    "chain": "DAI",
+    "network": "mainnet",
+    "chain_id": 100,
+    "network_id": 1
+  },
+  {
+    "name": "Callisto Mainnet",
+    "short_name": "CLO",
+    "chain": "CLO",
+    "network": "mainnet",
+    "chain_id": 820,
+    "network_id": 1
+  },
+  {
+    "name": "Callisto Testnet",
+    "short_name": "tclo",
+    "chain": "CLO",
+    "network": "testnet",
+    "chain_id": 821,
+    "network_id": 2
+  },
+  {
+    "name": "Atheios",
+    "short_name": "ath",
+    "chain": "ATH",
+    "network": "mainnet",
+    "chain_id": 1620,
+    "network_id": 1
+  },
+  {
+    "name": "EtherGem",
+    "short_name": "egem",
+    "chain": "EGEM",
+    "network": "mainnet",
+    "chain_id": 1987,
+    "network_id": 1
+  },
+  {
+    "name": "EOS Classic",
+    "short_name": "eosc",
+    "chain": "EOSC",
+    "network": "mainnet",
+    "chain_id": 2018,
+    "network_id": 1
+  }
+]
