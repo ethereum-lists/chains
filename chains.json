@@ -1,114 +1,186 @@
 {
   "1": {
     "name": "Ethereum Mainnet",
-    "chain": "eth",
+    "short_name": "eth",
+    "chain": "ETH",
     "network": "mainnet",
-    "chainId": 1,
-    "networkId": 1
+    "chain_id": 1,
+    "network_id": 1
   },
   "2": {
     "name": "Expanse Network Mainnet (previously Morden)",
-    "chain": "exp",
+    "short_name": "exp",
+    "chain": "EXP",
     "network": "mainnet",
-    "chainId": 2,
-    "networkId": 1
+    "chain_id": 2,
+    "network_id": 1
   },
   "3": {
-    "name": "Ethereum Ropsten",
-    "chain": "eth",
+    "name": "Ethereum Testnet Ropsten",
+    "short_name": "rop",
+    "chain": "ETH",
     "network": "ropsten",
-    "chainId": 3,
-    "networkId": 3
+    "chain_id": 3,
+    "network_id": 3
   },
   "4": {
-    "name": "Ethereum Rinkeby",
-    "chain": "eth",
+    "name": "Ethereum Testnet Rinkeby",
+    "short_name": "rin",
+    "chain": "ETH",
     "network": "rinkeby",
-    "chainId": 4,
-    "networkId": 4
+    "chain_id": 4,
+    "network_id": 4
+  },
+  "5": {
+    "name": "Ethereum Testnet Görli",
+    "short_name": "gor",
+    "chain": "ETH",
+    "network": "gorli",
+    "chain_id": 5,
+    "network_id": 5
   },
   "8": {
     "name": "Ubiq Network Mainnet",
-    "chain": "ubq",
+    "short_name": "ubq",
+    "chain": "UBQ",
     "network": "mainnet",
-    "chainId": 8,
-    "networkId": 1
+    "chain_id": 8,
+    "network_id": 1
   },
   "9": {
     "name": "Ubiq Network Testnet",
-    "chain": "ubq",
+    "short_name": "tubq",
+    "chain": "UBQ",
     "network": "mainnet",
-    "chainId": 9,
-    "networkId": 2
+    "chain_id": 9,
+    "network_id": 2
+  },
+  "28": {
+    "name": "Ethereum Social",
+    "short_name": "etsc",
+    "chain": "ETSC",
+    "network": "mainnet",
+    "chain_id": 28,
+    "network_id": 1
   },
   "30": {
     "name": "Rootsock Mainnet",
-    "chain": "rsk",
+    "short_name": "rsk",
+    "chain": "RSK",
     "network": "mainnet",
-    "chainId": 30,
-    "networkId": 1
+    "chain_id": 30,
+    "network_id": 1
   },
   "31": {
     "name": "Rootsock Testnet",
-    "chain": "rsk",
+    "short_name": "trsk",
+    "chain": "RSK",
     "network": "testnet",
-    "chainId": 30,
-    "networkId": 2
+    "chain_id": 30,
+    "network_id": 2
+  },
+  "60": {
+    "name": "GoChain",
+    "short_name": "go",
+    "chain": "GO",
+    "network": "mainnet",
+    "chain_id": 30,
+    "network_id": 1
   },
   "61": {
     "name": "Ethereum Classic Mainnet",
-    "chain": "etc",
+    "short_name": "etc",
+    "chain": "ETC",
     "network": "mainnet",
-    "chainId": 61,
-    "networkId": 1
+    "chain_id": 61,
+    "network_id": 1
   },
   "62": {
     "name": "Ethereum Classic Testnet",
-    "chain": "etc",
+    "short_name": "tetc",
+    "chain": "ETC",
     "network": "testnet",
-    "chainId": 62,
-    "networkId": 2
+    "chain_id": 62,
+    "network_id": 2
+  },
+  "64": {
+    "name": "Ellaism",
+    "short_name": "ella",
+    "chain": "ELLA",
+    "network": "mainnet",
+    "chain_id": 64,
+    "network_id": 1
+  },
+  "76": {
+    "name": "Mix",
+    "short_name": "mix",
+    "chain": "MIX",
+    "network": "mainnet",
+    "chain_id": 76,
+    "network_id": 1
   },
   "77": {
     "name": "POA Network Sokol",
-    "chain": "poa",
+    "short_name": "poa",
+    "chain": "POA",
     "network": "sokol",
-    "chainId": 77,
-    "networkId": 1
+    "chain_id": 77,
+    "network_id": 1
   },
   "99": {
     "name": "POA Network Core",
-    "chain": "poa",
+    "short_name": "skl",
+    "chain": "POA",
     "network": "core",
-    "chainId": 99,
-    "networkId": 2
+    "chain_id": 99,
+    "network_id": 2
   },
   "100": {
     "name": "xDAI Chain",
-    "chain": "dai",
+    "short_name": "dai",
+    "chain": "DAI",
     "network": "mainnet",
-    "chainId": 100,
-    "networkId": 1
+    "chain_id": 100,
+    "network_id": 1
   },
   "820": {
     "name": "Callisto Mainnet",
-    "chain": "clo",
+    "short_name": "CLO",
+    "chain": "CLO",
     "network": "mainnet",
-    "chainId": 820,
-    "networkId": 1
+    "chain_id": 820,
+    "network_id": 1
   },
   "821": {
     "name": "Callisto Testnet",
-    "chain": "clo",
+    "short_name": "tclo",
+    "chain": "CLO",
     "network": "testnet",
-    "chainId": 821,
-    "networkId": 2
+    "chain_id": 821,
+    "network_id": 2
   },
-  "6284": {
-    "name": "Ethereum Görli",
-    "chain": "eth",
-    "network": "gorli",
-    "chainId": 6284,
-    "networkId": 6284
+  "1620": {
+    "name": "Atheios",
+    "short_name": "ath",
+    "chain": "ATH",
+    "network": "mainnet",
+    "chain_id": 1620,
+    "network_id": 1
+  },
+  "1987": {
+    "name": "EtherGem",
+    "short_name": "egem",
+    "chain": "EGEM",
+    "network": "mainnet",
+    "chain_id": 1987,
+    "network_id": 1
+  },
+  "2018": {
+    "name": "EOS Classic",
+    "short_name": "eosc",
+    "chain": "EOSC",
+    "network": "mainnet",
+    "chain_id": 2018,
+    "network_id": 1
   }
 }
