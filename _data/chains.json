@@ -84,8 +84,8 @@
     "short_name": "go",
     "chain": "GO",
     "network": "mainnet",
-    "chain_id": 30,
-    "network_id": 1
+    "chain_id": 60,
+    "network_id": 60
   },
   {
     "name": "Ethereum Classic Mainnet",
@@ -109,7 +109,7 @@
     "chain": "ELLA",
     "network": "mainnet",
     "chain_id": 64,
-    "network_id": 1
+    "network_id": 64
   },
   {
     "name": "Mix",
@@ -117,7 +117,7 @@
     "chain": "MIX",
     "network": "mainnet",
     "chain_id": 76,
-    "network_id": 1
+    "network_id": 76
   },
   {
     "name": "POA Network Sokol",
@@ -165,7 +165,7 @@
     "chain": "ATH",
     "network": "mainnet",
     "chain_id": 1620,
-    "network_id": 1
+    "network_id": 11235813
   },
   {
     "name": "EtherGem",
@@ -173,7 +173,7 @@
     "chain": "EGEM",
     "network": "mainnet",
     "chain_id": 1987,
-    "network_id": 1
+    "network_id": 1987
   },
   {
     "name": "EOS Classic",
@@ -198,5 +198,77 @@
     "network": "tau1",
     "chain_id": 246785,
     "network_id": 246785
+  },
+  {
+    "name": "TomoChain",
+    "short_name": "tomo",
+    "chain": "TOMO",
+    "network": "mainnet",
+    "chain_id": 88,
+    "network_id": 88
+  },
+  {
+    "name": "Webchain",
+    "short_name": "web",
+    "chain": "WEB",
+    "network": "mainnet",
+    "chain_id": 101,
+    "network_id": 37129
+  },
+  {
+    "name": "EtherInc",
+    "short_name": "web",
+    "chain": "WEB",
+    "network": "mainnet",
+    "chain_id": 101,
+    "network_id": 1
+  },
+  {
+    "name": "Ethersocial Network",
+    "short_name": "esn",
+    "chain": "ESN",
+    "network": "mainnet",
+    "chain_id": 31102,
+    "network_id": 1
+  },
+  {
+    "name": "Akaroma",
+    "short_name": "aka",
+    "chain": "AKA",
+    "network": "mainnet",
+    "chain_id": 200625,
+    "network_id": 200625
+  },
+  {
+    "name": "Ether-1",
+    "short_name": "etho",
+    "chain": "ETHO",
+    "network": "mainnet",
+    "chain_id": 1313114,
+    "network_id": 1313114
+  },
+  {
+    "name": "Musicoin",
+    "short_name": "music",
+    "chain": "MUSIC",
+    "network": "mainnet",
+    "chain_id": 7762959,
+    "network_id": 7762959
+  },
+  {
+    "name": "IOLite",
+    "short_name": "ilt",
+    "chain": "ILT",
+    "network": "mainnet",
+    "chain_id": 18289463,
+    "network_id": 18289463
+  },
+  {
+    "name": "Pirl",
+    "short_name": "pirl",
+    "chain": "PIRL",
+    "network": "mainnet",
+    "chain_id": 3125659152,
+    "network_id": 3125659152
   }
 ]
