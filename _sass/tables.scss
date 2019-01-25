@@ -1,0 +1,78 @@
+//
+// Tables
+//
+// stylelint-disable max-nesting-depth, selector-no-type, selector-max-type
+
+table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: $sp-5;
+  overflow-x: auto;
+  border-collapse: separate;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07), 0 4px 14px rgba(0, 0, 0, 0.05);
+
+  @include mq(sm) {
+    display: table;
+  }
+}
+
+th,
+td {
+  @include fs-3;
+  min-width: 120px;
+  padding-top: $sp-2;
+  padding-right: $sp-3;
+  padding-bottom: $sp-2;
+  padding-left: $sp-3;
+  background-color: lighten($body-background-color, 2%);
+  border-bottom: $border rgba($border-color, 0.5);
+  border-left: $border $border-color;
+
+  &:first-of-type {
+    border-left: 0;
+  }
+}
+
+thead,
+tbody:first-child {
+  tr {
+    &:first-of-type {
+      th,
+      td {
+        &:first-of-type {
+          border-top-left-radius: $border-radius;
+        }
+
+        &:last-of-type {
+          border-top-right-radius: $border-radius;
+        }
+      }
+    }
+  }
+}
+
+tbody {
+  tr {
+    &:last-of-type {
+      th,
+      td {
+        border-bottom: 0;
+
+        &:first-of-type {
+          border-bottom-left-radius: $border-radius;
+        }
+
+        &:last-of-type {
+          border-bottom-right-radius: $border-radius;
+        }
+      }
+    }
+  }
+}
+
+thead {
+  th {
+    border-bottom: 1px solid $border-color;
+  }
+}
