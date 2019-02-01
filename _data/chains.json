@@ -88,6 +88,14 @@
     "network_id": 2
   },
   {
+    "name": "Ethereum Testnet Kovan",
+    "short_name": "kov",
+    "chain": "ETH",
+    "network": "kovan",
+    "chain_id": 42,
+    "network_id": 42
+  },
+  {
     "name": "GoChain",
     "short_name": "go",
     "chain": "GO",
@@ -286,5 +294,5 @@
     "network": "mainnet",
     "chain_id": 1856,
     "network_id": 1856
-  }  
+  }
 ]
