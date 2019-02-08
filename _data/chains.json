@@ -5,7 +5,8 @@
     "chain": "ETH",
     "network": "mainnet",
     "chain_id": 1,
-    "network_id": 1
+    "network_id": 1,
+    "rpc_url": "https://mainnet.infura.io/"
   },
   {
     "name": "Expanse Network",
@@ -13,7 +14,8 @@
     "chain": "EXP",
     "network": "mainnet",
     "chain_id": 2,
-    "network_id": 1
+    "network_id": 1,
+    "rpc_url": ""
   },
   {
     "name": "Ethereum Testnet Ropsten",
@@ -21,7 +23,8 @@
     "chain": "ETH",
     "network": "ropsten",
     "chain_id": 3,
-    "network_id": 3
+    "network_id": 3,
+    "rpc_url": "https://ropsten.infura.io/"
   },
   {
     "name": "Ethereum Testnet Rinkeby",
@@ -29,7 +32,8 @@
     "chain": "ETH",
     "network": "rinkeby",
     "chain_id": 4,
-    "network_id": 4
+    "network_id": 4,
+    "rpc_url": "https://rinkeby.infura.io/"
   },
   {
     "name": "Ethereum Testnet Görli",
@@ -37,7 +41,8 @@
     "chain": "ETH",
     "network": "goerli",
     "chain_id": 5,
-    "network_id": 5
+    "network_id": 5,
+    "rpc_url": "https://rpc.goerli.mudit.blog/"
   },
   {
     "name": "Ethereum Classic Testnet Kotti",
@@ -45,7 +50,8 @@
     "chain": "ETC",
     "network": "kotti",
     "chain_id": 6,
-    "network_id": 6
+    "network_id": 6,
+    "rpc_url": ""
   },
   {
     "name": "Ubiq Network Mainnet",
@@ -53,7 +59,8 @@
     "chain": "UBQ",
     "network": "mainnet",
     "chain_id": 8,
-    "network_id": 1
+    "network_id": 1,
+    "rpc_url": ""
   },
   {
     "name": "Ubiq Network Testnet",
@@ -61,7 +68,8 @@
     "chain": "UBQ",
     "network": "mainnet",
     "chain_id": 9,
-    "network_id": 2
+    "network_id": 2,
+    "rpc_url": ""
   },
   {
     "name": "Ethereum Social",
@@ -69,7 +77,8 @@
     "chain": "ETSC",
     "network": "mainnet",
     "chain_id": 28,
-    "network_id": 1
+    "network_id": 1,
+    "rpc_url": ""
   },
   {
     "name": "Rootstock Mainnet",
@@ -77,7 +86,8 @@
     "chain": "RSK",
     "network": "mainnet",
     "chain_id": 30,
-    "network_id": 1
+    "network_id": 1,
+    "rpc_url": ""
   },
   {
     "name": "Rootstock Testnet",
@@ -85,7 +95,8 @@
     "chain": "RSK",
     "network": "testnet",
     "chain_id": 30,
-    "network_id": 2
+    "network_id": 2,
+    "rpc_url": ""
   },
   {
     "name": "Ethereum Testnet Kovan",
@@ -93,7 +104,8 @@
     "chain": "ETH",
     "network": "kovan",
     "chain_id": 42,
-    "network_id": 42
+    "network_id": 42,
+    "rpc_url": "https://kovan.infura.io/"
   },
   {
     "name": "GoChain",
@@ -101,7 +113,8 @@
     "chain": "GO",
     "network": "mainnet",
     "chain_id": 60,
-    "network_id": 60
+    "network_id": 60,
+    "rpc_url": ""
   },
   {
     "name": "Ethereum Classic Mainnet",
@@ -109,7 +122,8 @@
     "chain": "ETC",
     "network": "mainnet",
     "chain_id": 61,
-    "network_id": 1
+    "network_id": 1,
+    "rpc_url": "https://ethereumclassic.network"
   },
   {
     "name": "Ethereum Classic Testnet",
@@ -117,7 +131,8 @@
     "chain": "ETC",
     "network": "testnet",
     "chain_id": 62,
-    "network_id": 2
+    "network_id": 2,
+    "rpc_url": ""
   },
   {
     "name": "Ellaism",
@@ -125,7 +140,8 @@
     "chain": "ELLA",
     "network": "mainnet",
     "chain_id": 64,
-    "network_id": 64
+    "network_id": 64,
+    "rpc_url": ""
   },
   {
     "name": "Mix",
@@ -133,7 +149,8 @@
     "chain": "MIX",
     "network": "mainnet",
     "chain_id": 76,
-    "network_id": 76
+    "network_id": 76,
+    "rpc_url": ""
   },
   {
     "name": "POA Network Sokol",
@@ -141,7 +158,8 @@
     "chain": "POA",
     "network": "sokol",
     "chain_id": 77,
-    "network_id": 1
+    "network_id": 1,
+    "rpc_url": "https://sokol.poa.network"
   },
   {
     "name": "POA Network Core",
@@ -149,7 +167,8 @@
     "chain": "POA",
     "network": "core",
     "chain_id": 99,
-    "network_id": 2
+    "network_id": 2,
+    "rpc_url": "https://core.poa.network"
   },
   {
     "name": "xDAI Chain",
@@ -157,7 +176,8 @@
     "chain": "DAI",
     "network": "mainnet",
     "chain_id": 100,
-    "network_id": 1
+    "network_id": 1,
+    "rpc_url": "https://dai.poa.network"
   },
   {
     "name": "Callisto Mainnet",
@@ -165,7 +185,8 @@
     "chain": "CLO",
     "network": "mainnet",
     "chain_id": 820,
-    "network_id": 1
+    "network_id": 1,
+    "rpc_url": ""
   },
   {
     "name": "Callisto Testnet",
@@ -173,7 +194,8 @@
     "chain": "CLO",
     "network": "testnet",
     "chain_id": 821,
-    "network_id": 2
+    "network_id": 2,
+    "rpc_url": ""
   },
   {
     "name": "Atheios",
@@ -181,7 +203,8 @@
     "chain": "ATH",
     "network": "mainnet",
     "chain_id": 1620,
-    "network_id": 11235813
+    "network_id": 11235813,
+    "rpc_url": ""
   },
   {
     "name": "EtherGem",
@@ -189,7 +212,8 @@
     "chain": "EGEM",
     "network": "mainnet",
     "chain_id": 1987,
-    "network_id": 1987
+    "network_id": 1987,
+    "rpc_url": ""
   },
   {
     "name": "EOS Classic",
@@ -197,7 +221,8 @@
     "chain": "EOSC",
     "network": "mainnet",
     "chain_id": 2018,
-    "network_id": 1
+    "network_id": 1,
+    "rpc_url": ""
   },
   {
     "name": "ARTIS sigma1",
@@ -205,7 +230,8 @@
     "chain": "ARTIS",
     "network": "sigma1",
     "chain_id": 246529,
-    "network_id": 246529
+    "network_id": 246529,
+    "rpc_url": ""
   },
   {
     "name": "ARTIS tau1",
@@ -213,7 +239,8 @@
     "chain": "ARTIS",
     "network": "tau1",
     "chain_id": 246785,
-    "network_id": 246785
+    "network_id": 246785,
+    "rpc_url": ""
   },
   {
     "name": "TomoChain",
@@ -221,7 +248,8 @@
     "chain": "TOMO",
     "network": "mainnet",
     "chain_id": 88,
-    "network_id": 88
+    "network_id": 88,
+    "rpc_url": ""
   },
   {
     "name": "Webchain",
@@ -229,7 +257,8 @@
     "chain": "WEB",
     "network": "mainnet",
     "chain_id": 101,
-    "network_id": 37129
+    "network_id": 37129,
+    "rpc_url": ""
   },
   {
     "name": "EtherInc",
@@ -237,7 +266,8 @@
     "chain": "WEB",
     "network": "mainnet",
     "chain_id": 101,
-    "network_id": 1
+    "network_id": 1,
+    "rpc_url": ""
   },
   {
     "name": "Ethersocial Network",
@@ -245,7 +275,8 @@
     "chain": "ESN",
     "network": "mainnet",
     "chain_id": 31102,
-    "network_id": 1
+    "network_id": 1,
+    "rpc_url": ""
   },
   {
     "name": "Akaroma",
@@ -253,7 +284,8 @@
     "chain": "AKA",
     "network": "mainnet",
     "chain_id": 200625,
-    "network_id": 200625
+    "network_id": 200625,
+    "rpc_url": ""
   },
   {
     "name": "Ether-1",
@@ -261,7 +293,8 @@
     "chain": "ETHO",
     "network": "mainnet",
     "chain_id": 1313114,
-    "network_id": 1313114
+    "network_id": 1313114,
+    "rpc_url": ""
   },
   {
     "name": "Musicoin",
@@ -269,7 +302,8 @@
     "chain": "MUSIC",
     "network": "mainnet",
     "chain_id": 7762959,
-    "network_id": 7762959
+    "network_id": 7762959,
+    "rpc_url": ""
   },
   {
     "name": "IOLite",
@@ -277,7 +311,8 @@
     "chain": "ILT",
     "network": "mainnet",
     "chain_id": 18289463,
-    "network_id": 18289463
+    "network_id": 18289463,
+    "rpc_url": ""
   },
   {
     "name": "Pirl",
@@ -285,7 +320,8 @@
     "chain": "PIRL",
     "network": "mainnet",
     "chain_id": 3125659152,
-    "network_id": 3125659152
+    "network_id": 3125659152,
+    "rpc_url": ""
   },
   {
     "name": "Teslafunds",
@@ -293,6 +329,7 @@
     "chain": "TSF",
     "network": "mainnet",
     "chain_id": 1856,
-    "network_id": 1856
+    "network_id": 1856,
+    "rpc_url": ""
   }
 ]
