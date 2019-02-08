@@ -14,6 +14,6 @@ Example Format
   "network": "mainnet",
   "chain_id": 1,
   "network_id": 1,
-  "rpc_url": ["https://mainnet.infura.io/"]
+  "rpc": ["https://mainnet.infura.io/"]
 }
 ```
