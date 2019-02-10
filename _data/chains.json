@@ -6,7 +6,7 @@
     "network": "mainnet",
     "chain_id": 1,
     "network_id": 1,
-    "rpc": ["https://mainnet.infura.io/"]
+    "rpc": ["https://mainnet.infura.io/", "https://api.mycryptoapi.com/eth"]
   },
   {
     "name": "Expanse Network",
@@ -42,7 +42,11 @@
     "network": "goerli",
     "chain_id": 5,
     "network_id": 5,
-    "rpc": ["https://rpc.goerli.mudit.blog/"]
+    "rpc": [
+      "https://rpc.goerli.mudit.blog/",
+      "https://rpc.slock.it/goerli ",
+      "https://goerli.prylabs.net/"
+    ]
   },
   {
     "name": "Ethereum Classic Testnet Kotti",
@@ -60,7 +64,7 @@
     "network": "mainnet",
     "chain_id": 8,
     "network_id": 1,
-    "rpc": []
+    "rpc": ["https://pyrus2.ubiqscan.io"]
   },
   {
     "name": "Ubiq Network Testnet",
@@ -87,7 +91,7 @@
     "network": "mainnet",
     "chain_id": 30,
     "network_id": 1,
-    "rpc": []
+    "rpc": ["https://mycrypto.rsk.co/"]
   },
   {
     "name": "Rootstock Testnet",
@@ -96,7 +100,7 @@
     "network": "testnet",
     "chain_id": 30,
     "network_id": 2,
-    "rpc": []
+    "rpc": ["https://mycrypto.testnet.rsk.co/"]
   },
   {
     "name": "Ethereum Testnet Kovan",
@@ -114,7 +118,7 @@
     "network": "mainnet",
     "chain_id": 60,
     "network_id": 60,
-    "rpc": []
+    "rpc": ["https://rpc.gochain.io/"]
   },
   {
     "name": "Ethereum Classic Mainnet",
@@ -141,7 +145,7 @@
     "network": "mainnet",
     "chain_id": 64,
     "network_id": 64,
-    "rpc": []
+    "rpc": ["https://jsonrpc.ellaism.org"]
   },
   {
     "name": "Mix",
@@ -162,6 +166,15 @@
     "rpc": ["https://sokol.poa.network"]
   },
   {
+    "name": "TomoChain",
+    "short_name": "tomo",
+    "chain": "TOMO",
+    "network": "mainnet",
+    "chain_id": 88,
+    "network_id": 88,
+    "rpc": ["https://core.tomocoin.io"]
+  },
+  {
     "name": "POA Network Core",
     "short_name": "skl",
     "chain": "POA",
@@ -178,78 +191,6 @@
     "chain_id": 100,
     "network_id": 1,
     "rpc": ["https://dai.poa.network"]
-  },
-  {
-    "name": "Callisto Mainnet",
-    "short_name": "clo",
-    "chain": "CLO",
-    "network": "mainnet",
-    "chain_id": 820,
-    "network_id": 1,
-    "rpc": []
-  },
-  {
-    "name": "Callisto Testnet",
-    "short_name": "tclo",
-    "chain": "CLO",
-    "network": "testnet",
-    "chain_id": 821,
-    "network_id": 2,
-    "rpc": []
-  },
-  {
-    "name": "Atheios",
-    "short_name": "ath",
-    "chain": "ATH",
-    "network": "mainnet",
-    "chain_id": 1620,
-    "network_id": 11235813,
-    "rpc": []
-  },
-  {
-    "name": "EtherGem",
-    "short_name": "egem",
-    "chain": "EGEM",
-    "network": "mainnet",
-    "chain_id": 1987,
-    "network_id": 1987,
-    "rpc": []
-  },
-  {
-    "name": "EOS Classic",
-    "short_name": "eosc",
-    "chain": "EOSC",
-    "network": "mainnet",
-    "chain_id": 2018,
-    "network_id": 1,
-    "rpc": []
-  },
-  {
-    "name": "ARTIS sigma1",
-    "short_name": "ats",
-    "chain": "ARTIS",
-    "network": "sigma1",
-    "chain_id": 246529,
-    "network_id": 246529,
-    "rpc": []
-  },
-  {
-    "name": "ARTIS tau1",
-    "short_name": "ats",
-    "chain": "ARTIS",
-    "network": "tau1",
-    "chain_id": 246785,
-    "network_id": 246785,
-    "rpc": []
-  },
-  {
-    "name": "TomoChain",
-    "short_name": "tomo",
-    "chain": "TOMO",
-    "network": "mainnet",
-    "chain_id": 88,
-    "network_id": 88,
-    "rpc": []
   },
   {
     "name": "Webchain",
@@ -270,13 +211,67 @@
     "rpc": []
   },
   {
+    "name": "Callisto Mainnet",
+    "short_name": "clo",
+    "chain": "CLO",
+    "network": "mainnet",
+    "chain_id": 820,
+    "network_id": 1,
+    "rpc": ["https://clo-geth.0xinfra.com/"]
+  },
+  {
+    "name": "Callisto Testnet",
+    "short_name": "tclo",
+    "chain": "CLO",
+    "network": "testnet",
+    "chain_id": 821,
+    "network_id": 2,
+    "rpc": []
+  },
+  {
+    "name": "Atheios",
+    "short_name": "ath",
+    "chain": "ATH",
+    "network": "mainnet",
+    "chain_id": 1620,
+    "network_id": 11235813,
+    "rpc": []
+  },
+  {
+    "name": "Teslafunds",
+    "short_name": "tsf",
+    "chain": "TSF",
+    "network": "mainnet",
+    "chain_id": 1856,
+    "network_id": 1856,
+    "rpc": []
+  },
+  {
+    "name": "EtherGem",
+    "short_name": "egem",
+    "chain": "EGEM",
+    "network": "mainnet",
+    "chain_id": 1987,
+    "network_id": 1987,
+    "rpc": ["https://jsonrpc.egem.io/custom"]
+  },
+  {
+    "name": "EOS Classic",
+    "short_name": "eosc",
+    "chain": "EOSC",
+    "network": "mainnet",
+    "chain_id": 2018,
+    "network_id": 1,
+    "rpc": []
+  },
+  {
     "name": "Ethersocial Network",
     "short_name": "esn",
     "chain": "ESN",
     "network": "mainnet",
     "chain_id": 31102,
     "network_id": 1,
-    "rpc": []
+    "rpc": ["https://api.esn.gonspool.com"]
   },
   {
     "name": "Akaroma",
@@ -286,6 +281,24 @@
     "chain_id": 200625,
     "network_id": 200625,
     "rpc": []
+  },
+  {
+    "name": "ARTIS sigma1",
+    "short_name": "ats",
+    "chain": "ARTIS",
+    "network": "sigma1",
+    "chain_id": 246529,
+    "network_id": 246529,
+    "rpc": ["https://rpc.sigma1.artis.network"]
+  },
+  {
+    "name": "ARTIS tau1",
+    "short_name": "ats",
+    "chain": "ARTIS",
+    "network": "tau1",
+    "chain_id": 246785,
+    "network_id": 246785,
+    "rpc": ["https://rpc.tau1.artis.network"]
   },
   {
     "name": "Ether-1",
@@ -303,7 +316,7 @@
     "network": "mainnet",
     "chain_id": 7762959,
     "network_id": 7762959,
-    "rpc": []
+    "rpc": ["https://mewapi.musicoin.tw"]
   },
   {
     "name": "IOLite",
@@ -321,15 +334,6 @@
     "network": "mainnet",
     "chain_id": 3125659152,
     "network_id": 3125659152,
-    "rpc": []
-  },
-  {
-    "name": "Teslafunds",
-    "short_name": "tsf",
-    "chain": "TSF",
-    "network": "mainnet",
-    "chain_id": 1856,
-    "network_id": 1856,
     "rpc": []
   }
 ]
