@@ -15,7 +15,7 @@
     "network": "mainnet",
     "chain_id": 2,
     "network_id": 1,
-    "rpc": []
+    "rpc": ["https://node.expanse.tech/"]
   },
   {
     "name": "Ethereum Testnet Ropsten",
@@ -144,7 +144,7 @@
     "chain": "ELLA",
     "network": "mainnet",
     "chain_id": 64,
-    "network_id": 64,
+    "network_id": 1,
     "rpc": ["https://jsonrpc.ellaism.org"]
   },
   {
@@ -153,8 +153,8 @@
     "chain": "MIX",
     "network": "mainnet",
     "chain_id": 76,
-    "network_id": 76,
-    "rpc": []
+    "network_id": 1,
+    "rpc": ["https://rpc2.mix-blockchain.org:8647"]
   },
   {
     "name": "POA Network Sokol",
@@ -199,16 +199,16 @@
     "network": "mainnet",
     "chain_id": 101,
     "network_id": 37129,
-    "rpc": []
+    "rpc": ["https://node1.webchain.network"]
   },
   {
     "name": "EtherInc",
-    "short_name": "web",
-    "chain": "WEB",
+    "short_name": "eti",
+    "chain": "ETI",
     "network": "mainnet",
     "chain_id": 101,
     "network_id": 1,
-    "rpc": []
+    "rpc": ["https://api.einc.io/jsonrpc/mainnet"]
   },
   {
     "name": "Callisto Mainnet",
@@ -235,7 +235,7 @@
     "network": "mainnet",
     "chain_id": 1620,
     "network_id": 11235813,
-    "rpc": []
+    "rpc": ["https://wallet.atheios.com:8797"]
   },
   {
     "name": "Teslafunds",
@@ -243,8 +243,8 @@
     "chain": "TSF",
     "network": "mainnet",
     "chain_id": 1856,
-    "network_id": 1856,
-    "rpc": []
+    "network_id": 1,
+    "rpc": ["https://tsfapi.europool.me"]
   },
   {
     "name": "EtherGem",
@@ -280,7 +280,7 @@
     "network": "mainnet",
     "chain_id": 200625,
     "network_id": 200625,
-    "rpc": []
+    "rpc": ["https://remote.akroma.io"]
   },
   {
     "name": "ARTIS sigma1",
@@ -307,7 +307,7 @@
     "network": "mainnet",
     "chain_id": 1313114,
     "network_id": 1313114,
-    "rpc": []
+    "rpc": ["https://rpc.ether1.org"]
   },
   {
     "name": "Musicoin",
@@ -325,7 +325,7 @@
     "network": "mainnet",
     "chain_id": 18289463,
     "network_id": 18289463,
-    "rpc": []
+    "rpc": ["https://net.iolite.io"]
   },
   {
     "name": "Pirl",
@@ -334,6 +334,6 @@
     "network": "mainnet",
     "chain_id": 3125659152,
     "network_id": 3125659152,
-    "rpc": []
+    "rpc": ["https://wallrpc.pirl.io"]
   }
 ]
