@@ -265,6 +265,15 @@
     "rpc": []
   },
   {
+    "name": "Webchain (after block xxxxxxx)",
+    "short_name": "web",
+    "chain": "WEB",
+    "network": "mainnet",
+    "chain_id": 24484,
+    "network_id": 37129,
+    "rpc": ["https://node1.webchain.network"]
+  },
+  {
     "name": "Ethersocial Network",
     "short_name": "esn",
     "chain": "ESN",
