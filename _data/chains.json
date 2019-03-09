@@ -353,5 +353,23 @@
     "chain_id": 385,
     "network_id": 385,
     "rpc": ["https://rpc-bitfalls1.lisinski.online"]
+  },
+  {
+    "name": "ThunderCore Mainnet",
+    "short_name": "TT",
+    "chain": "TT",
+    "network": "mainnet",
+    "chain_id": 108,
+    "network_id": 108,
+    "rpc": ["https://mainnet-rpc.thundercore.com"]
+  },
+  {
+    "name": "ThunderCore Testnet",
+    "short_name": "TST",
+    "chain": "TST",
+    "network": "testnet",
+    "chain_id": 18,
+    "network_id": 18,
+    "rpc": ["https://testnet-rpc.thundercore.com:8544"]
   }
 ]
