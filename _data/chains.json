@@ -371,5 +371,23 @@
     "chain_id": 18,
     "network_id": 18,
     "rpc": ["https://testnet-rpc.thundercore.com:8544"]
-  }
+  },
+  {
+  "name": "Metadium Mainnet",
+  "short_name": "meta",
+  "chain": "META",
+  "network": "mainnet",
+  "chain_id": 11,
+  "network_id": 11,
+  "rpc": ["https://api.metadium.com/prod"]
+},
+{
+  "name": "Metadium Testnet",
+  "short_name": "kal",
+  "chain": "META",
+  "network": "testnet",
+  "chain_id": 12,
+  "network_id": 12,
+  "rpc": ["https://api.metadium.com/dev"]
+}
 ]
