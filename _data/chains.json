@@ -85,22 +85,22 @@
     "rpc": []
   },
   {
-    "name": "Rootstock Mainnet",
+    "name": "RSK Mainnet",
     "short_name": "rsk",
     "chain": "RSK",
     "network": "mainnet",
     "chain_id": 30,
-    "network_id": 1,
-    "rpc": ["https://mycrypto.rsk.co/"]
+    "network_id": 137,
+    "rpc": ["https://public-node.rsk.co/","https://mycrypto.rsk.co/"]
   },
   {
-    "name": "Rootstock Testnet",
+    "name": "RSK Testnet",
     "short_name": "trsk",
     "chain": "RSK",
     "network": "testnet",
-    "chain_id": 30,
-    "network_id": 2,
-    "rpc": ["https://mycrypto.testnet.rsk.co/"]
+    "chain_id": 31,
+    "network_id": 37310,
+    "rpc": ["https://public-node.testnet.rsk.co/","https://mycrypto.testnet.rsk.co/"]
   },
   {
     "name": "Ethereum Testnet Kovan",
