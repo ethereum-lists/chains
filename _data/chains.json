@@ -389,5 +389,14 @@
   "chain_id": 12,
   "network_id": 12,
   "rpc": ["https://api.metadium.com/dev"]
-}
+},
+{
+    "name": "PepChain Churchill",
+    "short_name": "tpep",
+    "chain": "PEP",
+    "network": "testnet",
+    "chain_id": 13371337,
+    "network_id": 13371337,
+    "rpc": ["https://churchill-rpc.pepchain.io/"]
+  },
 ]
