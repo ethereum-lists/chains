@@ -380,8 +380,8 @@
   "chain_id": 11,
   "network_id": 11,
   "rpc": ["https://api.metadium.com/prod"]
-},
-{
+  },
+  {
   "name": "Metadium Testnet",
   "short_name": "kal",
   "chain": "META",
@@ -389,8 +389,8 @@
   "chain_id": 12,
   "network_id": 12,
   "rpc": ["https://api.metadium.com/dev"]
-},
-{
+  },
+  {
     "name": "PepChain Churchill",
     "short_name": "tpep",
     "chain": "PEP",
