@@ -6,7 +6,10 @@
     "network": "mainnet",
     "chain_id": 1,
     "network_id": 1,
-    "rpc": ["https://mainnet.infura.io/", "https://api.mycryptoapi.com/eth"]
+    "rpc": [
+      "https://mainnet.infura.io/v3/%API_KEY%",
+      "https://api.mycryptoapi.com/eth"
+    ]
   },
   {
     "name": "Expanse Network",
@@ -24,7 +27,7 @@
     "network": "ropsten",
     "chain_id": 3,
     "network_id": 3,
-    "rpc": ["https://ropsten.infura.io/"]
+    "rpc": ["https://ropsten.infura.io/v3/%API_KEY%"]
   },
   {
     "name": "Ethereum Testnet Rinkeby",
@@ -33,7 +36,7 @@
     "network": "rinkeby",
     "chain_id": 4,
     "network_id": 4,
-    "rpc": ["https://rinkeby.infura.io/"]
+    "rpc": ["https://rinkeby.infura.io/v3/%API_KEY%"]
   },
   {
     "name": "Ethereum Testnet Görli",
@@ -91,7 +94,7 @@
     "network": "mainnet",
     "chain_id": 30,
     "network_id": 775,
-    "rpc": ["https://public-node.rsk.co/","https://mycrypto.rsk.co/"]
+    "rpc": ["https://public-node.rsk.co/", "https://mycrypto.rsk.co/"]
   },
   {
     "name": "RSK Testnet",
@@ -100,7 +103,10 @@
     "network": "testnet",
     "chain_id": 31,
     "network_id": 8052,
-    "rpc": ["https://public-node.testnet.rsk.co/","https://mycrypto.testnet.rsk.co/"]
+    "rpc": [
+      "https://public-node.testnet.rsk.co/",
+      "https://mycrypto.testnet.rsk.co/"
+    ]
   },
   {
     "name": "Ethereum Testnet Kovan",
@@ -109,7 +115,7 @@
     "network": "kovan",
     "chain_id": 42,
     "network_id": 42,
-    "rpc": ["https://kovan.infura.io/"]
+    "rpc": ["https://kovan.infura.io/v3/%API_KEY%"]
   },
   {
     "name": "GoChain",
@@ -373,22 +379,22 @@
     "rpc": ["https://testnet-rpc.thundercore.com:8544"]
   },
   {
-  "name": "Metadium Mainnet",
-  "short_name": "meta",
-  "chain": "META",
-  "network": "mainnet",
-  "chain_id": 11,
-  "network_id": 11,
-  "rpc": ["https://api.metadium.com/prod"]
+    "name": "Metadium Mainnet",
+    "short_name": "meta",
+    "chain": "META",
+    "network": "mainnet",
+    "chain_id": 11,
+    "network_id": 11,
+    "rpc": ["https://api.metadium.com/prod"]
   },
   {
-  "name": "Metadium Testnet",
-  "short_name": "kal",
-  "chain": "META",
-  "network": "testnet",
-  "chain_id": 12,
-  "network_id": 12,
-  "rpc": ["https://api.metadium.com/dev"]
+    "name": "Metadium Testnet",
+    "short_name": "kal",
+    "chain": "META",
+    "network": "testnet",
+    "chain_id": 12,
+    "network_id": 12,
+    "rpc": ["https://api.metadium.com/dev"]
   },
   {
     "name": "PepChain Churchill",
