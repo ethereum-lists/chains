@@ -6,7 +6,7 @@
     "network": "mainnet",
     "chain_id": 1,
     "network_id": 1,
-    "rpc": ["https://mainnet.infura.io/", "https://api.mycryptoapi.com/eth"]
+    "rpc": ["https://mainnet.infura.io/v3/${INFURA_API_KEY}", "https://api.mycryptoapi.com/eth"]
   },
   {
     "name": "Expanse Network",
@@ -24,7 +24,7 @@
     "network": "ropsten",
     "chain_id": 3,
     "network_id": 3,
-    "rpc": ["https://ropsten.infura.io/"]
+    "rpc": ["https://ropsten.infura.io/v3/${INFURA_API_KEY}"]
   },
   {
     "name": "Ethereum Testnet Rinkeby",
@@ -33,7 +33,7 @@
     "network": "rinkeby",
     "chain_id": 4,
     "network_id": 4,
-    "rpc": ["https://rinkeby.infura.io/"]
+    "rpc": ["https://rinkeby.infura.io/v3/${INFURA_API_KEY}"]
   },
   {
     "name": "Ethereum Testnet Görli",
@@ -109,7 +109,7 @@
     "network": "kovan",
     "chain_id": 42,
     "network_id": 42,
-    "rpc": ["https://kovan.infura.io/"]
+    "rpc": ["https://kovan.infura.io/v3/${INFURA_API_KEY}"]
   },
   {
     "name": "GoChain",
