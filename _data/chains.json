@@ -261,18 +261,6 @@
     "faucets": []
   },
   {
-    "name": "Webchain",
-    "short_name": "web",
-    "chain": "WEB",
-    "network": "mainnet",
-    "chain_id": 101,
-    "network_id": 37129,
-    "rpc": [
-      "https://node1.webchain.network"
-    ],
-    "faucets": []
-  },
-  {
     "name": "EtherInc",
     "short_name": "eti",
     "chain": "ETI",
@@ -353,7 +341,7 @@
     "faucets": []
   },
   {
-    "name": "Webchain (after block 2,022,222)",
+    "name": "Webchain",
     "short_name": "web",
     "chain": "WEB",
     "network": "mainnet",
