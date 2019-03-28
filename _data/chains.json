@@ -6,7 +6,11 @@
     "network": "mainnet",
     "chain_id": 1,
     "network_id": 1,
-    "rpc": ["https://mainnet.infura.io/v3/${INFURA_API_KEY}", "https://api.mycryptoapi.com/eth"]
+    "rpc": [
+      "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
+      "https://api.mycryptoapi.com/eth"
+    ],
+    "faucets": []
   },
   {
     "name": "Expanse Network",
@@ -15,7 +19,10 @@
     "network": "mainnet",
     "chain_id": 2,
     "network_id": 1,
-    "rpc": ["https://node.expanse.tech/"]
+    "rpc": [
+      "https://node.expanse.tech/"
+    ],
+    "faucets": []
   },
   {
     "name": "Ethereum Testnet Ropsten",
@@ -24,7 +31,12 @@
     "network": "ropsten",
     "chain_id": 3,
     "network_id": 3,
-    "rpc": ["https://ropsten.infura.io/v3/${INFURA_API_KEY}"]
+    "rpc": [
+      "https://ropsten.infura.io/v3/${INFURA_API_KEY}"
+    ],
+    "faucets": [
+      "https://faucet.ropsten.be?${ADDRESS}"
+    ]
   },
   {
     "name": "Ethereum Testnet Rinkeby",
@@ -33,7 +45,12 @@
     "network": "rinkeby",
     "chain_id": 4,
     "network_id": 4,
-    "rpc": ["https://rinkeby.infura.io/v3/${INFURA_API_KEY}"]
+    "rpc": [
+      "https://rinkeby.infura.io/v3/${INFURA_API_KEY}"
+    ],
+    "faucets": [
+      "https://faucet.rinkeby.io"
+    ]
   },
   {
     "name": "Ethereum Testnet Görli",
@@ -46,6 +63,10 @@
       "https://rpc.goerli.mudit.blog/",
       "https://rpc.slock.it/goerli ",
       "https://goerli.prylabs.net/"
+    ],
+    "faucets": [
+      "https://goerli-faucet.slock.it/?address=${ADDRESS}",
+      "https://faucet.goerli.mudit.blog"
     ]
   },
   {
@@ -55,7 +76,8 @@
     "network": "kotti",
     "chain_id": 6,
     "network_id": 6,
-    "rpc": []
+    "rpc": [],
+    "faucets": []
   },
   {
     "name": "Ubiq Network Mainnet",
@@ -64,7 +86,10 @@
     "network": "mainnet",
     "chain_id": 8,
     "network_id": 1,
-    "rpc": ["https://pyrus2.ubiqscan.io"]
+    "rpc": [
+      "https://pyrus2.ubiqscan.io"
+    ],
+    "faucets": []
   },
   {
     "name": "Ubiq Network Testnet",
@@ -73,7 +98,8 @@
     "network": "mainnet",
     "chain_id": 9,
     "network_id": 2,
-    "rpc": []
+    "rpc": [],
+    "faucets": []
   },
   {
     "name": "Ethereum Social",
@@ -82,7 +108,8 @@
     "network": "mainnet",
     "chain_id": 28,
     "network_id": 1,
-    "rpc": []
+    "rpc": [],
+    "faucets": []
   },
   {
     "name": "RSK Mainnet",
@@ -91,7 +118,11 @@
     "network": "mainnet",
     "chain_id": 30,
     "network_id": 775,
-    "rpc": ["https://public-node.rsk.co/","https://mycrypto.rsk.co/"]
+    "rpc": [
+      "https://public-node.rsk.co/",
+      "https://mycrypto.rsk.co/"
+    ],
+    "faucets": []
   },
   {
     "name": "RSK Testnet",
@@ -100,7 +131,11 @@
     "network": "testnet",
     "chain_id": 31,
     "network_id": 8052,
-    "rpc": ["https://public-node.testnet.rsk.co/","https://mycrypto.testnet.rsk.co/"]
+    "rpc": [
+      "https://public-node.testnet.rsk.co/",
+      "https://mycrypto.testnet.rsk.co/"
+    ],
+    "faucets": []
   },
   {
     "name": "Ethereum Testnet Kovan",
@@ -109,7 +144,13 @@
     "network": "kovan",
     "chain_id": 42,
     "network_id": 42,
-    "rpc": ["https://kovan.infura.io/v3/${INFURA_API_KEY}"]
+    "rpc": [
+      "https://kovan.infura.io/v3/${INFURA_API_KEY}"
+    ],
+    "faucets": [
+      "https://faucet.kovan.network",
+      "https://gitter.im/kovan-testnet/faucet"
+    ]
   },
   {
     "name": "GoChain",
@@ -118,7 +159,10 @@
     "network": "mainnet",
     "chain_id": 60,
     "network_id": 60,
-    "rpc": ["https://rpc.gochain.io/"]
+    "rpc": [
+      "https://rpc.gochain.io/"
+    ],
+    "faucets": []
   },
   {
     "name": "Ethereum Classic Mainnet",
@@ -127,7 +171,10 @@
     "network": "mainnet",
     "chain_id": 61,
     "network_id": 1,
-    "rpc": ["https://ethereumclassic.network"]
+    "rpc": [
+      "https://ethereumclassic.network"
+    ],
+    "faucets": []
   },
   {
     "name": "Ethereum Classic Testnet",
@@ -136,7 +183,8 @@
     "network": "testnet",
     "chain_id": 62,
     "network_id": 2,
-    "rpc": []
+    "rpc": [],
+    "faucets": []
   },
   {
     "name": "Ellaism",
@@ -145,7 +193,10 @@
     "network": "mainnet",
     "chain_id": 64,
     "network_id": 1,
-    "rpc": ["https://jsonrpc.ellaism.org"]
+    "rpc": [
+      "https://jsonrpc.ellaism.org"
+    ],
+    "faucets": []
   },
   {
     "name": "Mix",
@@ -154,7 +205,10 @@
     "network": "mainnet",
     "chain_id": 76,
     "network_id": 1,
-    "rpc": ["https://rpc2.mix-blockchain.org:8647"]
+    "rpc": [
+      "https://rpc2.mix-blockchain.org:8647"
+    ],
+    "faucets": []
   },
   {
     "name": "POA Network Sokol",
@@ -163,7 +217,12 @@
     "network": "sokol",
     "chain_id": 77,
     "network_id": 1,
-    "rpc": ["https://sokol.poa.network"]
+    "rpc": [
+      "https://sokol.poa.network"
+    ],
+    "faucets": [
+      "https://faucet-sokol.herokuapp.com"
+    ]
   },
   {
     "name": "TomoChain",
@@ -172,7 +231,10 @@
     "network": "mainnet",
     "chain_id": 88,
     "network_id": 88,
-    "rpc": ["https://core.tomocoin.io"]
+    "rpc": [
+      "https://core.tomocoin.io"
+    ],
+    "faucets": []
   },
   {
     "name": "POA Network Core",
@@ -181,7 +243,10 @@
     "network": "core",
     "chain_id": 99,
     "network_id": 2,
-    "rpc": ["https://core.poa.network"]
+    "rpc": [
+      "https://core.poa.network"
+    ],
+    "faucets": []
   },
   {
     "name": "xDAI Chain",
@@ -190,7 +255,10 @@
     "network": "mainnet",
     "chain_id": 100,
     "network_id": 1,
-    "rpc": ["https://dai.poa.network"]
+    "rpc": [
+      "https://dai.poa.network"
+    ],
+    "faucets": []
   },
   {
     "name": "Webchain",
@@ -199,7 +267,10 @@
     "network": "mainnet",
     "chain_id": 101,
     "network_id": 37129,
-    "rpc": ["https://node1.webchain.network"]
+    "rpc": [
+      "https://node1.webchain.network"
+    ],
+    "faucets": []
   },
   {
     "name": "EtherInc",
@@ -208,7 +279,10 @@
     "network": "mainnet",
     "chain_id": 101,
     "network_id": 1,
-    "rpc": ["https://api.einc.io/jsonrpc/mainnet"]
+    "rpc": [
+      "https://api.einc.io/jsonrpc/mainnet"
+    ],
+    "faucets": []
   },
   {
     "name": "Callisto Mainnet",
@@ -217,7 +291,10 @@
     "network": "mainnet",
     "chain_id": 820,
     "network_id": 1,
-    "rpc": ["https://clo-geth.0xinfra.com/"]
+    "rpc": [
+      "https://clo-geth.0xinfra.com/"
+    ],
+    "faucets": []
   },
   {
     "name": "Callisto Testnet",
@@ -226,7 +303,8 @@
     "network": "testnet",
     "chain_id": 821,
     "network_id": 2,
-    "rpc": []
+    "rpc": [],
+    "faucets": []
   },
   {
     "name": "Atheios",
@@ -235,7 +313,10 @@
     "network": "mainnet",
     "chain_id": 1620,
     "network_id": 11235813,
-    "rpc": ["https://wallet.atheios.com:8797"]
+    "rpc": [
+      "https://wallet.atheios.com:8797"
+    ],
+    "faucets": []
   },
   {
     "name": "Teslafunds",
@@ -244,7 +325,10 @@
     "network": "mainnet",
     "chain_id": 1856,
     "network_id": 1,
-    "rpc": ["https://tsfapi.europool.me"]
+    "rpc": [
+      "https://tsfapi.europool.me"
+    ],
+    "faucets": []
   },
   {
     "name": "EtherGem",
@@ -253,7 +337,10 @@
     "network": "mainnet",
     "chain_id": 1987,
     "network_id": 1987,
-    "rpc": ["https://jsonrpc.egem.io/custom"]
+    "rpc": [
+      "https://jsonrpc.egem.io/custom"
+    ],
+    "faucets": []
   },
   {
     "name": "EOS Classic",
@@ -262,7 +349,8 @@
     "network": "mainnet",
     "chain_id": 2018,
     "network_id": 1,
-    "rpc": []
+    "rpc": [],
+    "faucets": []
   },
   {
     "name": "Webchain (after block 2,022,222)",
@@ -271,7 +359,10 @@
     "network": "mainnet",
     "chain_id": 24484,
     "network_id": 37129,
-    "rpc": ["https://node1.webchain.network"]
+    "rpc": [
+      "https://node1.webchain.network"
+    ],
+    "faucets": []
   },
   {
     "name": "Ethersocial Network",
@@ -280,7 +371,10 @@
     "network": "mainnet",
     "chain_id": 31102,
     "network_id": 1,
-    "rpc": ["https://api.esn.gonspool.com"]
+    "rpc": [
+      "https://api.esn.gonspool.com"
+    ],
+    "faucets": []
   },
   {
     "name": "Akaroma",
@@ -289,7 +383,10 @@
     "network": "mainnet",
     "chain_id": 200625,
     "network_id": 200625,
-    "rpc": ["https://remote.akroma.io"]
+    "rpc": [
+      "https://remote.akroma.io"
+    ],
+    "faucets": []
   },
   {
     "name": "ARTIS sigma1",
@@ -298,7 +395,10 @@
     "network": "sigma1",
     "chain_id": 246529,
     "network_id": 246529,
-    "rpc": ["https://rpc.sigma1.artis.network"]
+    "rpc": [
+      "https://rpc.sigma1.artis.network"
+    ],
+    "faucets": []
   },
   {
     "name": "ARTIS tau1",
@@ -307,7 +407,10 @@
     "network": "tau1",
     "chain_id": 246785,
     "network_id": 246785,
-    "rpc": ["https://rpc.tau1.artis.network"]
+    "rpc": [
+      "https://rpc.tau1.artis.network"
+    ],
+    "faucets": []
   },
   {
     "name": "Ether-1",
@@ -316,7 +419,10 @@
     "network": "mainnet",
     "chain_id": 1313114,
     "network_id": 1313114,
-    "rpc": ["https://rpc.ether1.org"]
+    "rpc": [
+      "https://rpc.ether1.org"
+    ],
+    "faucets": []
   },
   {
     "name": "Musicoin",
@@ -325,7 +431,10 @@
     "network": "mainnet",
     "chain_id": 7762959,
     "network_id": 7762959,
-    "rpc": ["https://mewapi.musicoin.tw"]
+    "rpc": [
+      "https://mewapi.musicoin.tw"
+    ],
+    "faucets": []
   },
   {
     "name": "IOLite",
@@ -334,7 +443,10 @@
     "network": "mainnet",
     "chain_id": 18289463,
     "network_id": 18289463,
-    "rpc": ["https://net.iolite.io"]
+    "rpc": [
+      "https://net.iolite.io"
+    ],
+    "faucets": []
   },
   {
     "name": "Pirl",
@@ -343,7 +455,10 @@
     "network": "mainnet",
     "chain_id": 3125659152,
     "network_id": 3125659152,
-    "rpc": ["https://wallrpc.pirl.io"]
+    "rpc": [
+      "https://wallrpc.pirl.io"
+    ],
+    "faucets": []
   },
   {
     "name": "Lisinski",
@@ -352,7 +467,12 @@
     "network": "mainnet",
     "chain_id": 385,
     "network_id": 385,
-    "rpc": ["https://rpc-bitfalls1.lisinski.online"]
+    "rpc": [
+      "https://rpc-bitfalls1.lisinski.online"
+    ],
+    "faucets": [
+      "https://pipa.lisinski.online"
+    ]
   },
   {
     "name": "ThunderCore Mainnet",
@@ -361,7 +481,12 @@
     "network": "mainnet",
     "chain_id": 108,
     "network_id": 108,
-    "rpc": ["https://mainnet-rpc.thundercore.com"]
+    "rpc": [
+      "https://mainnet-rpc.thundercore.com"
+    ],
+    "faucets": [
+      "https://faucet-testnet.thundercore.com"
+    ]
   },
   {
     "name": "ThunderCore Testnet",
@@ -370,25 +495,34 @@
     "network": "testnet",
     "chain_id": 18,
     "network_id": 18,
-    "rpc": ["https://testnet-rpc.thundercore.com:8544"]
+    "rpc": [
+      "https://testnet-rpc.thundercore.com:8544"
+    ],
+    "faucets": []
   },
   {
-  "name": "Metadium Mainnet",
-  "short_name": "meta",
-  "chain": "META",
-  "network": "mainnet",
-  "chain_id": 11,
-  "network_id": 11,
-  "rpc": ["https://api.metadium.com/prod"]
+    "name": "Metadium Mainnet",
+    "short_name": "meta",
+    "chain": "META",
+    "network": "mainnet",
+    "chain_id": 11,
+    "network_id": 11,
+    "rpc": [
+      "https://api.metadium.com/prod"
+    ],
+    "faucets": []
   },
   {
-  "name": "Metadium Testnet",
-  "short_name": "kal",
-  "chain": "META",
-  "network": "testnet",
-  "chain_id": 12,
-  "network_id": 12,
-  "rpc": ["https://api.metadium.com/dev"]
+    "name": "Metadium Testnet",
+    "short_name": "kal",
+    "chain": "META",
+    "network": "testnet",
+    "chain_id": 12,
+    "network_id": 12,
+    "rpc": [
+      "https://api.metadium.com/dev"
+    ],
+    "faucets": []
   },
   {
     "name": "PepChain Churchill",
@@ -397,6 +531,9 @@
     "network": "testnet",
     "chain_id": 13371337,
     "network_id": 13371337,
-    "rpc": ["https://churchill-rpc.pepchain.io/"]
+    "rpc": [
+      "https://churchill-rpc.pepchain.io/"
+    ],
+    "faucets": []
   }
 ]
