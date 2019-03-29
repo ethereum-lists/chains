@@ -533,5 +533,21 @@
       "https://churchill-rpc.pepchain.io/"
     ],
     "faucets": []
+  },
+  {
+    "name": "Nepal Blockchain Network",
+    "short_name": "nbft",
+    "chain": "NBFT",
+    "network": "mainnet",
+    "chain_id": 977,
+    "network_id": 977,
+    "rpc": [
+      "https://api.nepalblockchain.dev",
+      "https://api.nepalblockchain.network"
+    ],
+    "faucets": [
+      "https://faucet.nepalblockchain.network"
+    ],
+    "info_url": "https://nepalblockchain.network"
   }
 ]
