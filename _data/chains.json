@@ -10,7 +10,8 @@
       "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
       "https://api.mycryptoapi.com/eth"
     ],
-    "faucets": []
+    "faucets": [],
+    "info_url": "https://ethereum.org"
   },
   {
     "name": "Expanse Network",
@@ -20,9 +21,10 @@
     "chain_id": 2,
     "network_id": 1,
     "rpc": [
-      "https://node.expanse.tech/"
+      "https://node.expanse.tech"
     ],
-    "faucets": []
+    "faucets": [],
+    "info_url": "https://expanse.tech"
   },
   {
     "name": "Ethereum Testnet Ropsten",
@@ -36,7 +38,8 @@
     ],
     "faucets": [
       "https://faucet.ropsten.be?${ADDRESS}"
-    ]
+    ],
+    "info_url": "https://github.com/ethereum/ropsten"
   },
   {
     "name": "Ethereum Testnet Rinkeby",
@@ -50,7 +53,8 @@
     ],
     "faucets": [
       "https://faucet.rinkeby.io"
-    ]
+    ],
+    "info_url": "https://www.rinkeby.io"
   },
   {
     "name": "Ethereum Testnet Görli",
@@ -67,7 +71,8 @@
     "faucets": [
       "https://goerli-faucet.slock.it/?address=${ADDRESS}",
       "https://faucet.goerli.mudit.blog"
-    ]
+    ],
+    "info_url": "https://goerli.net/#about"
   },
   {
     "name": "Ethereum Classic Testnet Kotti",
@@ -150,7 +155,8 @@
     "faucets": [
       "https://faucet.kovan.network",
       "https://gitter.im/kovan-testnet/faucet"
-    ]
+    ],
+    "info_url": "https://kovan-testnet.github.io/website"
   },
   {
     "name": "GoChain",
@@ -174,7 +180,8 @@
     "rpc": [
       "https://ethereumclassic.network"
     ],
-    "faucets": []
+    "faucets": [],
+    "info_url": "https://ethereumclassic.org"
   },
   {
     "name": "Ethereum Classic Testnet",
@@ -222,7 +229,8 @@
     ],
     "faucets": [
       "https://faucet-sokol.herokuapp.com"
-    ]
+    ],
+    "info_url": "https://poa.network"
   },
   {
     "name": "TomoChain",
@@ -246,7 +254,8 @@
     "rpc": [
       "https://core.poa.network"
     ],
-    "faucets": []
+    "faucets": [],
+    "info_url": "https://poa.network"
   },
   {
     "name": "xDAI Chain",
@@ -258,7 +267,8 @@
     "rpc": [
       "https://dai.poa.network"
     ],
-    "faucets": []
+    "faucets": [],
+    "info_url": "https://forum.poa.network/c/xdai-chain"
   },
   {
     "name": "EtherInc",
