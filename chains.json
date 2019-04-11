@@ -2,4 +2,13 @@
 layout: none
 permalink: chains.json
 ---
-{% include_relative _data/chains.json %}
+[{% for json in site.data.chains %}{% assign chain = json[1] %}
+  {
+    "name": "{{ chain.name }}",
+    "chain_id": "{{ chain.chain_id }}",
+    "short_name": "{{ chain.short_name }}",
+    "chain": "{{ chain.chain }}",
+    "network": "{{ chain.network }}",
+    "network_id": "{{ chain.network_id }}"
+  }{% unless forloop.last %},{% endunless %}{% endfor %}
+]
