@@ -533,5 +533,17 @@
       "https://churchill-rpc.pepchain.io/"
     ],
     "faucets": []
+  },
+  {
+    "name": "High Performance Blockchain",
+    "short_name": "hpb",
+    "chain": "HPB",
+    "network": "mainnet",
+    "chain_id": 100,
+    "network_id": 269,
+    "rpc": [
+      "https://node.hpb.blue"
+    ],
+    "faucets": []
   }
 ]
