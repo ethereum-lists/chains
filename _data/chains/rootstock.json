@@ -1,8 +1,10 @@
-  {
-    "name": "Rootstock Mainnet",
-    "short_name": "rsk",
-    "chain": "RSK",
-    "network": "mainnet",
-    "chain_id": 30,
-    "network_id": 1
-  }
+{
+  "name": "RSK Mainnet",
+  "short_name": "rsk",
+  "chain": "RSK",
+  "network": "mainnet",
+  "chain_id": 30,
+  "network_id": 775,
+  "rpc": ["https://public-node.rsk.co/", "https://mycrypto.rsk.co/"],
+  "faucets": []
+}

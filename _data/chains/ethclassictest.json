@@ -1,8 +1,10 @@
-  {
-    "name": "Ethereum Classic Testnet",
-    "short_name": "tetc",
-    "chain": "ETC",
-    "network": "testnet",
-    "chain_id": 62,
-    "network_id": 2
-  }
+{
+  "name": "Ethereum Classic Testnet",
+  "short_name": "tetc",
+  "chain": "ETC",
+  "network": "testnet",
+  "chain_id": 62,
+  "network_id": 2,
+  "rpc": [],
+  "faucets": []
+}

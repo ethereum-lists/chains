@@ -16,6 +16,7 @@ assignees: ''
   "chain": "ETH",
   "network": "mainnet",
   "chain_id": 1,
-  "network_id": 1
+  "network_id": 1,
+  "rpc": ["https://mainnet.infura.io"]
 }
 ```

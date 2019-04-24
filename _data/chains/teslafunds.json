@@ -1,8 +1,10 @@
-  {
-    "name": "Teslafunds",
-    "short_name": "tsf",
-    "chain": "TSF",
-    "network": "mainnet",
-    "chain_id": 1856,
-    "network_id": 1856
-  }
+{
+  "name": "Teslafunds",
+  "short_name": "tsf",
+  "chain": "TSF",
+  "network": "mainnet",
+  "chain_id": 1856,
+  "network_id": 1,
+  "rpc": ["https://tsfapi.europool.me"],
+  "faucets": []
+}

@@ -12,6 +12,7 @@ List of chains in block format. You can link directly to each section using the 
 {% assign chain = json[1] %}
 {% assign chainlink = chain.name | downcase | replace: " ", "-" | append: "-" | append: chain.short_name | append: "-" | append: chain.network_id %}
 <a name="{{ chainlink }}"/>
+
 <h2><a href="#{{ chainlink }}">{{ chain.name }} ({{ chain.short_name }})</a></h2>
 <ul>
 <li>Short Name: {{ chain.short_name }}</li>

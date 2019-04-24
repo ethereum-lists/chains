@@ -1,0 +1,10 @@
+{
+  "name": "ThunderCore Testnet",
+  "short_name": "TST",
+  "chain": "TST",
+  "network": "testnet",
+  "chain_id": 18,
+  "network_id": 18,
+  "rpc": ["https://testnet-rpc.thundercore.com:8544"],
+  "faucets": []
+}

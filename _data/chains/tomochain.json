@@ -1,8 +1,10 @@
-  {
-    "name": "TomoChain",
-    "short_name": "tomo",
-    "chain": "TOMO",
-    "network": "mainnet",
-    "chain_id": 88,
-    "network_id": 88
-  }
+{
+  "name": "TomoChain",
+  "short_name": "tomo",
+  "chain": "TOMO",
+  "network": "mainnet",
+  "chain_id": 88,
+  "network_id": 88,
+  "rpc": ["https://core.tomocoin.io"],
+  "faucets": []
+}

@@ -1,8 +1,10 @@
-  {
-    "name": "Callisto Testnet",
-    "short_name": "tclo",
-    "chain": "CLO",
-    "network": "testnet",
-    "chain_id": 821,
-    "network_id": 2
-  }
+{
+  "name": "Callisto Testnet",
+  "short_name": "tclo",
+  "chain": "CLO",
+  "network": "testnet",
+  "chain_id": 821,
+  "network_id": 2,
+  "rpc": [],
+  "faucets": []
+}

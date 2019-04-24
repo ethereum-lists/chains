@@ -1,8 +1,10 @@
-  {
-    "name": "GoChain",
-    "short_name": "go",
-    "chain": "GO",
-    "network": "mainnet",
-    "chain_id": 60,
-    "network_id": 60
-  }
+{
+  "name": "GoChain",
+  "short_name": "go",
+  "chain": "GO",
+  "network": "mainnet",
+  "chain_id": 60,
+  "network_id": 60,
+  "rpc": ["https://rpc.gochain.io/"],
+  "faucets": []
+}

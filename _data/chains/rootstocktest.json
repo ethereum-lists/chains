@@ -1,8 +1,13 @@
-  {
-    "name": "Rootstock Testnet",
-    "short_name": "trsk",
-    "chain": "RSK",
-    "network": "testnet",
-    "chain_id": 30,
-    "network_id": 2
-  }
+{
+  "name": "RSK Testnet",
+  "short_name": "trsk",
+  "chain": "RSK",
+  "network": "testnet",
+  "chain_id": 31,
+  "network_id": 8052,
+  "rpc": [
+    "https://public-node.testnet.rsk.co/",
+    "https://mycrypto.testnet.rsk.co/"
+  ],
+  "faucets": []
+}

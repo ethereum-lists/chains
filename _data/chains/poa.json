@@ -1,8 +1,11 @@
-  {
-    "name": "POA Network Core",
-    "short_name": "skl",
-    "chain": "POA",
-    "network": "core",
-    "chain_id": 99,
-    "network_id": 2
-  }
+{
+  "name": "POA Network Core",
+  "short_name": "skl",
+  "chain": "POA",
+  "network": "core",
+  "chain_id": 99,
+  "network_id": 2,
+  "rpc": ["https://core.poa.network"],
+  "faucets": [],
+  "info_url": "https://poa.network"
+}

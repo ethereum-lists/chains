@@ -1,8 +1,11 @@
-  {
-    "name": "Ethereum Testnet Rinkeby",
-    "short_name": "rin",
-    "chain": "ETH",
-    "network": "rinkeby",
-    "chain_id": 4,
-    "network_id": 4
-  }
+{
+  "name": "Ethereum Testnet Rinkeby",
+  "short_name": "rin",
+  "chain": "ETH",
+  "network": "rinkeby",
+  "chain_id": 4,
+  "network_id": 4,
+  "rpc": ["https://rinkeby.infura.io/v3/${INFURA_API_KEY}"],
+  "faucets": ["https://faucet.rinkeby.io"],
+  "info_url": "https://www.rinkeby.io"
+}

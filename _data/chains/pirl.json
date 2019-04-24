@@ -1,9 +1,10 @@
-  {
-    "name": "Pirl",
-    "short_name": "pirl",
-    "chain": "PIRL",
-    "network": "mainnet",
-    "chain_id": 3125659152,
-    "network_id": 3125659152
-  }
-  
+{
+  "name": "Pirl",
+  "short_name": "pirl",
+  "chain": "PIRL",
+  "network": "mainnet",
+  "chain_id": 3125659152,
+  "network_id": 3125659152,
+  "rpc": ["https://wallrpc.pirl.io"],
+  "faucets": []
+}

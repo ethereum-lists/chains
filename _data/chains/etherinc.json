@@ -1,8 +1,10 @@
-  {
-    "name": "EtherInc",
-    "short_name": "web",
-    "chain": "WEB",
-    "network": "mainnet",
-    "chain_id": 101,
-    "network_id": 1
-  }
+{
+  "name": "EtherInc",
+  "short_name": "eti",
+  "chain": "ETI",
+  "network": "mainnet",
+  "chain_id": 101,
+  "network_id": 1,
+  "rpc": ["https://api.einc.io/jsonrpc/mainnet"],
+  "faucets": []
+}
