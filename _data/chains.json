@@ -545,5 +545,21 @@
       "https://node.hpb.blue"
     ],
     "faucets": []
+  },
+  {
+    "name": "Aquachain",
+    "short_name": "aqua",
+    "chain": "AQUA",
+    "network": "mainnet",
+    "chain_id": 61717561,
+    "network_id": 61717561,
+    "rpc": [
+      "https://c.onical.org",
+      "https://tx.aquacha.in/api"
+    ],
+    "faucets": [
+		"https://aquacha.in/faucet"
+	],
+    "info_url": "https://aquachain.github.io"
   }
 ]
