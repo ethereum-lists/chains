@@ -1,0 +1,18 @@
+{
+  "name": "Ethereum Testnet Görli",
+  "short_name": "gor",
+  "chain": "ETH",
+  "network": "goerli",
+  "chain_id": 5,
+  "network_id": 5,
+  "rpc": [
+    "https://rpc.goerli.mudit.blog/",
+    "https://rpc.slock.it/goerli ",
+    "https://goerli.prylabs.net/"
+  ],
+  "faucets": [
+    "https://goerli-faucet.slock.it/?address=${ADDRESS}",
+    "https://faucet.goerli.mudit.blog"
+  ],
+  "info_url": "https://goerli.net/#about"
+}

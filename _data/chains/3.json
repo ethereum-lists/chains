@@ -1,0 +1,11 @@
+{
+  "name": "Ethereum Testnet Ropsten",
+  "short_name": "rop",
+  "chain": "ETH",
+  "network": "ropsten",
+  "chain_id": 3,
+  "network_id": 3,
+  "rpc": ["https://ropsten.infura.io/v3/${INFURA_API_KEY}"],
+  "faucets": ["https://faucet.ropsten.be?${ADDRESS}"],
+  "info_url": "https://github.com/ethereum/ropsten"
+}
