@@ -6,8 +6,9 @@
   "chain_id": 31,
   "network_id": 8052,
   "rpc": [
-    "https://public-node.testnet.rsk.co/",
-    "https://mycrypto.testnet.rsk.co/"
+    "https://public-node.testnet.rsk.co",
+    "https://mycrypto.testnet.rsk.co"
   ],
-  "faucets": []
+  "faucets": ["https://faucet.testnet.rsk.co"],
+  "info_url": "https://rsk.co"
 }

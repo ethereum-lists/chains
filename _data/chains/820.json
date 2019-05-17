@@ -5,6 +5,7 @@
   "network": "mainnet",
   "chain_id": 820,
   "network_id": 1,
-  "rpc": ["https://clo-geth.0xinfra.com/"],
-  "faucets": []
+  "rpc": ["https://clo-geth.0xinfra.com"],
+  "faucets": [],
+  "info_url": "https://callisto.network"
 }
