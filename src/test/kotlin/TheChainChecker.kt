@@ -1,8 +1,5 @@
 
-import org.ethereum.lists.chains.FileNameMustMatchChainId
-import org.ethereum.lists.chains.ShouldHaveNoExtraFields
-import org.ethereum.lists.chains.ShouldHaveNoMissingFields
-import org.ethereum.lists.chains.checkChain
+import org.ethereum.lists.chains.*
 import org.junit.Test
 import java.io.File
 
@@ -39,6 +36,13 @@ class TheChainChecker {
     @Test(expected = ShouldHaveNoMissingFields::class)
     fun shouldFailForMissingField() {
         val file = getFile("invalid/4.json")
+
+        checkChain(file)
+    }
+
+    @Test(expected = ExtensionMustBeJSON::class)
+    fun shouldFailFoNonJSON() {
+        val file = getFile("invalid/1.nojson")
 
         checkChain(file)
     }

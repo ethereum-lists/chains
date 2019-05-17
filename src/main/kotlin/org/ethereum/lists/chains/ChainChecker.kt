@@ -2,7 +2,9 @@ package org.ethereum.lists.chains
 
 import com.beust.klaxon.JsonObject
 import com.beust.klaxon.Klaxon
+import org.kethereum.rpc.EthereumRPC
 import java.io.File
+import java.math.BigInteger
 
 val all_fields = listOf(
         "name",
@@ -16,9 +18,12 @@ val all_fields = listOf(
         "info_url"
 )
 
-class FileNameMustMatchChainId: Exception("chain_id must match the filename")
-class ShouldHaveNoExtraFields(fields: Set<String>): Exception("should have no extra field $fields")
-class ShouldHaveNoMissingFields(fields: Set<String>): Exception("missing field(s) $fields")
+class FileNameMustMatchChainId : Exception("chain_id must match the filename")
+class ExtensionMustBeJSON : Exception("filename extension must be json")
+class ShouldHaveNoExtraFields(fields: Set<String>) : Exception("should have no extra field $fields")
+class ShouldHaveNoMissingFields(fields: Set<String>) : Exception("missing field(s) $fields")
+class RPCMustBeList : Exception("rpc must be a list")
+class RPCMustBeListOfStrings : Exception("rpc must be a list of strings")
 
 fun checkChain(it: File) {
     println("processing $it")
@@ -27,6 +32,10 @@ fun checkChain(it: File) {
 
     if (chainAsLong != it.nameWithoutExtension.toLongOrNull()) {
         throw(FileNameMustMatchChainId())
+    }
+
+    if (it.extension != "json") {
+        throw(ExtensionMustBeJSON())
     }
 
     getNumber(jsonObject, "network_id")
@@ -40,29 +49,25 @@ fun checkChain(it: File) {
     if (missingFields.isNotEmpty()) {
         throw ShouldHaveNoMissingFields(missingFields)
     }
-}
 
-
-private fun getNumber(jsonObject: JsonObject, field: String): Long {
-    return when (val chainId = jsonObject[field]) {
-        is Int -> chainId.toLong()
-        is Long -> chainId
-        else -> throw(Exception("chain_id must be a number"))
+    if (jsonObject["rpc"] is List<*>) {
+        (jsonObject["rpc"] as List<*>).forEach {
+            if (it !is String) {
+                throw(RPCMustBeListOfStrings())
+            } else {
+                println("connecting to $it")
+                val ethereumRPC = EthereumRPC(it)
+                println("Client:" + ethereumRPC.clientVersion()?.result)
+                println("BlockNumber:" + ethereumRPC.blockNumber()?.result?.tryBigint())
+                println("GasPrice:" + ethereumRPC.gasPrice()?.result?.tryBigint())
+            }
+        }
+        println()
+    } else {
+        throw(RPCMustBeList())
     }
 }
 
-/*
-
-open class InvalidTokenException(message: String) : IllegalArgumentException(message)
-class InvalidChecksum(message: String) : InvalidTokenException("The address is not valid with ERC-55 checksum $message")
-
-class InvalidAddress(address: Address) : InvalidTokenException("The address is not valid $address")
-class InvalidDecimals : InvalidTokenException("Decimals must be a number")
-class InvalidFileName : InvalidTokenException("Filename must be the address + .json")
-class InvalidWebsite : InvalidTokenException("Website invalid")
-class InvalidJSON(message: String?) : InvalidTokenException("JSON invalid $message")
-class InvalidDeprecationMigrationType : InvalidTokenException("Invalid Deprecation Migration type - currently only auto and instructions: is allowed")
-class InvalidDeprecationTime : InvalidTokenException("Invalid Deprecation Time - Must be ISO8601")
 
 fun String.tryBigint() = if (startsWith("0x")) {
     try {
@@ -73,25 +78,10 @@ fun String.tryBigint() = if (startsWith("0x")) {
 } else {
     null
 }
-
-fun checkChainsFile(file: File) {
-    val moshi = Moshi.Builder().build()
-
-
-    val listMyData = Types.newParameterizedType(List::class.java, Chain::class.java)
-    val foo: JsonAdapter<List<Chain>> = moshi.adapter(listMyData)
-
-    foo.fromJson(Okio.buffer(Okio.source(file)))?.forEach {
-        println()
-        println(it.name)
-        for (s in it.rpc) {
-            val ethereumRPC = EthereumRPC(s)
-            println("Client:" + ethereumRPC.clientVersion()?.result)
-            println("BlockNumber:" + ethereumRPC.blockNumber()?.result?.tryBigint())
-            println("GasPrice:" + ethereumRPC.gasPrice()?.result?.tryBigint())
-        }
-
+private fun getNumber(jsonObject: JsonObject, field: String): Long {
+    return when (val chainId = jsonObject[field]) {
+        is Int -> chainId.toLong()
+        is Long -> chainId
+        else -> throw(Exception("chain_id must be a number"))
     }
 }
-
- */
