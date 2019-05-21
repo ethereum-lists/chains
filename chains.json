@@ -5,11 +5,11 @@ permalink: chains.json
 [{% for json in site.data.chains %}{% assign chain = json[1] %}
   {
     "name": "{{ chain.name }}",
-    "chain_id": "{{ chain.chain_id }}",
+    "chain_id": {{ chain.chain_id }},
     "short_name": "{{ chain.short_name }}",
     "chain": "{{ chain.chain }}",
     "network": "{{ chain.network }}",
-    "network_id": "{{ chain.network_id }}",
+    "network_id": {{ chain.network_id }},
     "name": "EtherInc",
     "rpc":  [{% for rpc in chain.rpc %}"{{ rpc }}"{% unless forloop.last %},{% endunless %}{%endfor%}],
     "faucets": [{% for faucet in chain.faucets %}"{{ faucet }}"{% unless forloop.last %},{% endunless %}{%endfor%}],
