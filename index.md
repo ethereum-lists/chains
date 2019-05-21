@@ -20,7 +20,7 @@ This table is also available as a JSON feed at [chains.json](/chains.json).
     <th>Network ID</th>
   </tr>
 {% for json in site.data.chains %}
-  {% assign chain = json[1] %}
+  {% assign chain = (json[1] | sort: 'chain_id') %}
   <tr>
     <td>{{ chain.chain_id }}</td>
     <td>{{ chain.name }}</td>
