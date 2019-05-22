@@ -1,11 +1,16 @@
 {
   "name": "Ether-1",
-  "short_name": "etho",
   "chain": "ETHO",
   "network": "mainnet",
-  "chain_id": 1313114,
-  "network_id": 1313114,
   "rpc": ["https://rpc.ether1.org"],
   "faucets": [],
-  "info_url": "https://ether1.org"
+  "nativeCurrency": {
+    "name": "Ether-1 Ether",
+    "symbol": "ETHO",
+    "decimals": 18
+  },
+  "infoURL": "https://ether1.org",
+  "shortName": "etho",
+  "chainId": 1313114,
+  "networkId": 1313114
 }

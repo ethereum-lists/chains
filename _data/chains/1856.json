@@ -1,11 +1,16 @@
 {
   "name": "Teslafunds",
-  "short_name": "tsf",
   "chain": "TSF",
   "network": "mainnet",
-  "chain_id": 1856,
-  "network_id": 1,
   "rpc": ["https://tsfapi.europool.me"],
   "faucets": [],
-  "info_url": "https://teslafunds.io"
+  "nativeCurrency": {
+    "name": "Teslafunds Ether",
+    "symbol": "TSF",
+    "decimals": 18
+  },
+  "infoURL": "https://teslafunds.io",
+  "shortName": "tsf",
+  "chainId": 1856,
+  "networkId": 1
 }

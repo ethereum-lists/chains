@@ -1,10 +1,10 @@
 {
   "name": "Ethereum Mainnet",
-  "short_name": "eth",
+  "shortName": "eth",
   "chain": "ETH",
   "network": "mainnet",
-  "chain_id": 4,
-  "network_id": 4,
+  "chainId": 4,
+  "networkId": 4,
   "rpc": [
     "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
     "https://api.mycryptoapi.com/eth"

@@ -1,11 +1,16 @@
 {
   "name": "IOLite",
-  "short_name": "ilt",
   "chain": "ILT",
   "network": "mainnet",
-  "chain_id": 18289463,
-  "network_id": 18289463,
   "rpc": ["https://net.iolite.io"],
   "faucets": [],
-  "info_url": "https://iolite.io"
+  "nativeCurrency": {
+    "name": "IOLite Ether",
+    "symbol": "ILT",
+    "decimals": 18
+  },
+  "infoURL": "https://iolite.io",
+  "shortName": "ilt",
+  "chainId": 18289463,
+  "networkId": 18289463
 }

@@ -1,11 +1,16 @@
 {
   "name": "ARTIS sigma1",
-  "short_name": "ats",
   "chain": "ARTIS",
   "network": "sigma1",
-  "chain_id": 246529,
-  "network_id": 246529,
   "rpc": ["https://rpc.sigma1.artis.network"],
   "faucets": [],
-  "info_url": "https://artis.eco"
+  "nativeCurrency": {
+    "name": "ARTIS sigma1 Ether",
+    "symbol": "ATS",
+    "decimals": 18
+  },
+  "infoURL": "https://artis.eco",
+  "shortName": "ats",
+  "chainId": 246529,
+  "networkId": 246529
 }

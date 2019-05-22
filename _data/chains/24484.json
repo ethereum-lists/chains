@@ -1,11 +1,16 @@
 {
   "name": "Webchain",
-  "short_name": "web",
   "chain": "WEB",
   "network": "mainnet",
-  "chain_id": 24484,
-  "network_id": 37129,
   "rpc": ["https://node1.webchain.network"],
   "faucets": [],
-  "info_url": "https://webchain.network"
+  "nativeCurrency": {
+    "name": "Webchain Ether",
+    "symbol": "WEB",
+    "decimals": 18
+  },
+  "infoURL": "https://webchain.network",
+  "shortName": "web",
+  "chainId": 24484,
+  "networkId": 37129
 }

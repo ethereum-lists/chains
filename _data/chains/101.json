@@ -1,11 +1,16 @@
 {
   "name": "EtherInc",
-  "short_name": "eti",
   "chain": "ETI",
   "network": "mainnet",
-  "chain_id": 101,
-  "network_id": 1,
   "rpc": ["https://api.einc.io/jsonrpc/mainnet"],
   "faucets": [],
-  "info_url": "https://einc.io"
+  "nativeCurrency": {
+    "name": "EtherInc Ether",
+    "symbol": "ETI",
+    "decimals": 18
+  },
+  "infoURL": "https://einc.io",
+  "shortName": "eti",
+  "chainId": 101,
+  "networkId": 1
 }

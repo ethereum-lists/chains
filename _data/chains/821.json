@@ -1,11 +1,16 @@
 {
   "name": "Callisto Testnet",
-  "short_name": "tclo",
   "chain": "CLO",
   "network": "testnet",
-  "chain_id": 821,
-  "network_id": 2,
   "rpc": [],
   "faucets": [],
-  "info_url": "https://callisto.network"
+  "nativeCurrency": {
+    "name": "Callisto Testnet Ether",
+    "symbol": "TCLO",
+    "decimals": 18
+  },
+  "infoURL": "https://callisto.network",
+  "shortName": "tclo",
+  "chainId": 821,
+  "networkId": 2
 }

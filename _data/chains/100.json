@@ -1,11 +1,16 @@
 {
   "name": "xDAI Chain",
-  "short_name": "xdai",
   "chain": "XDAI",
   "network": "mainnet",
-  "chain_id": 100,
-  "network_id": 1,
   "rpc": ["https://dai.poa.network"],
   "faucets": [],
-  "info_url": "https://forum.poa.network/c/xdai-chain"
+  "nativeCurrency": {
+    "name": "xDAI",
+    "symbol": "xDAI",
+    "decimals": 18
+  },
+  "infoURL": "https://forum.poa.network/c/xdai-chain",
+  "shortName": "xdai",
+  "chainId": 100,
+  "networkId": 1
 }

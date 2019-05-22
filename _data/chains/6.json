@@ -1,11 +1,16 @@
 {
   "name": "Ethereum Classic Testnet Kotti",
-  "short_name": "kot",
   "chain": "ETC",
   "network": "kotti",
-  "chain_id": 6,
-  "network_id": 6,
   "rpc": [],
   "faucets": [],
-  "info_url": "https://kottiexplorer.ethernode.io"
+  "nativeCurrency": {
+    "name": "Kotti Ether",
+    "symbol": "KOT",
+    "decimals": 18
+  },
+  "infoURL": "https://kottiexplorer.ethernode.io",
+  "shortName": "kot",
+  "chainId": 6,
+  "networkId": 6
 }

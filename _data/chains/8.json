@@ -1,11 +1,16 @@
 {
   "name": "Ubiq Network Mainnet",
-  "short_name": "ubq",
   "chain": "UBQ",
   "network": "mainnet",
-  "chain_id": 8,
-  "network_id": 1,
   "rpc": ["https://pyrus2.ubiqscan.io"],
   "faucets": [],
-  "info_url": "https://ubiqsmart.com"
+  "nativeCurrency": {
+    "name": "Ubiq Ether",
+    "symbol": "UBQ",
+    "decimals": 18
+  },
+  "infoURL": "https://ubiqsmart.com",
+  "shortName": "ubq",
+  "chainId": 8,
+  "networkId": 1
 }

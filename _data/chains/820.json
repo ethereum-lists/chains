@@ -1,11 +1,16 @@
 {
   "name": "Callisto Mainnet",
-  "short_name": "clo",
   "chain": "CLO",
   "network": "mainnet",
-  "chain_id": 820,
-  "network_id": 1,
   "rpc": ["https://clo-geth.0xinfra.com"],
   "faucets": [],
-  "info_url": "https://callisto.network"
+  "nativeCurrency": {
+    "name": "Callisto Mainnet Ether",
+    "symbol": "CLO",
+    "decimals": 18
+  },
+  "infoURL": "https://callisto.network",
+  "shortName": "clo",
+  "chainId": 820,
+  "networkId": 1
 }

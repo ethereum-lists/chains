@@ -1,11 +1,16 @@
 {
   "name": "Atheios",
-  "short_name": "ath",
   "chain": "ATH",
   "network": "mainnet",
-  "chain_id": 1620,
-  "network_id": 11235813,
   "rpc": ["https://wallet.atheios.com:8797"],
   "faucets": [],
-  "info_url": "https://atheios.com"
+  "nativeCurrency": {
+    "name": "Atheios Ether",
+    "symbol": "ATH",
+    "decimals": 18
+  },
+  "infoURL": "https://atheios.com",
+  "shortName": "ath",
+  "chainId": 1620,
+  "networkId": 11235813
 }

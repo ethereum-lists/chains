@@ -12,11 +12,14 @@ assignees: ''
 ```
 {
   "name": "Ethereum Mainnet",
-  "short_name": "eth",
+  "shortName": "eth",
   "chain": "ETH",
   "network": "mainnet",
-  "chain_id": 1,
-  "network_id": 1,
-  "rpc": ["https://mainnet.infura.io"]
+  "chainId": 1,
+  "networkId": 1,
+  "rpc": ["https://mainnet.infura.io"],
+  "faucets": [],
+  "infoURL: "https://ethereum.org",
+  "nativeCurrency": {"name":"Ether","symbol":"ETH","decimals":18}
 }
 ```

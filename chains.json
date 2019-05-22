@@ -2,16 +2,17 @@
 layout: none
 permalink: chains.json
 ---
-[{% for json in site.data.chains %}{% assign chain = json[1] %}
+[{% assign chains = site.data.chains | sort %}{% for json in chains %}{% assign chain = json[1] %}
   {
     "name": "{{ chain.name }}",
-    "chain_id": {{ chain.chain_id }},
-    "short_name": "{{ chain.short_name }}",
+    "chainId": {{ chain.chainId }},
+    "shortName": "{{ chain.shortName }}",
     "chain": "{{ chain.chain }}",
     "network": "{{ chain.network }}",
-    "network_id": {{ chain.network_id }},
-    "rpc":  [{% for rpc in chain.rpc %}"{{ rpc }}"{% unless forloop.last %},{% endunless %}{%endfor%}],
+    "networkId": {{ chain.networkId }},
+    "nativeCurrency": {"name":"{{chain.nativeCurrency["name"]}}","symbol":"{{chain.nativeCurrency["symbol"]}}","decimals":{{chain.nativeCurrency["decimals"]}}},
+    "rpc": [{% for rpc in chain.rpc %}"{{ rpc }}"{% unless forloop.last %},{% endunless %}{%endfor%}],
     "faucets": [{% for faucet in chain.faucets %}"{{ faucet }}"{% unless forloop.last %},{% endunless %}{%endfor%}],
-    "info_url": "{{ chain.info_url }}"
+    "infoURL": "{{ chain.infoURL }}"
   }{% unless forloop.last %},{% endunless %}{% endfor %}
 ]

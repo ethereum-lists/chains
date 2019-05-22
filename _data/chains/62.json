@@ -1,11 +1,16 @@
 {
   "name": "Ethereum Classic Testnet",
-  "short_name": "tetc",
   "chain": "ETC",
   "network": "testnet",
-  "chain_id": 62,
-  "network_id": 2,
   "rpc": [],
   "faucets": [],
-  "info_url": "https://ethereumclassic.org"
+  "nativeCurrency": {
+    "name": "Ethereum Classic Testnet Ether",
+    "symbol": "TETC",
+    "decimals": 18
+  },
+  "infoURL": "https://ethereumclassic.org",
+  "shortName": "tetc",
+  "chainId": 62,
+  "networkId": 2
 }

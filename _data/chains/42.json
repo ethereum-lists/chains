@@ -1,14 +1,16 @@
 {
   "name": "Ethereum Testnet Kovan",
-  "short_name": "kov",
   "chain": "ETH",
   "network": "kovan",
-  "chain_id": 42,
-  "network_id": 42,
   "rpc": ["https://kovan.infura.io/v3/${INFURA_API_KEY}"],
-  "faucets": [
-    "https://faucet.kovan.network",
-    "https://gitter.im/kovan-testnet/faucet"
-  ],
-  "info_url": "https://kovan-testnet.github.io/website"
+  "faucets": ["https://faucet.kovan.network", "https://gitter.im/kovan-testnet/faucet"],
+  "nativeCurrency": {
+    "name": "Kovan Ether",
+    "symbol": "KOV",
+    "decimals": 18
+  },
+  "infoURL": "https://kovan-testnet.github.io/website",
+  "shortName": "kov",
+  "chainId": 42,
+  "networkId": 42
 }

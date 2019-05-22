@@ -1,11 +1,16 @@
 {
   "name": "Ubiq Network Testnet",
-  "short_name": "tubq",
   "chain": "UBQ",
   "network": "mainnet",
-  "chain_id": 9,
-  "network_id": 2,
   "rpc": [],
   "faucets": [],
-  "info_url": "https://ethersocial.org"
+  "nativeCurrency": {
+    "name": "Ubiq Testnet Ether",
+    "symbol": "TUBQ",
+    "decimals": 18
+  },
+  "infoURL": "https://ethersocial.org",
+  "shortName": "tubq",
+  "chainId": 9,
+  "networkId": 2
 }

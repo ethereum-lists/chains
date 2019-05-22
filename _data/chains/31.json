@@ -1,14 +1,16 @@
 {
   "name": "RSK Testnet",
-  "short_name": "trsk",
   "chain": "RSK",
   "network": "testnet",
-  "chain_id": 31,
-  "network_id": 8052,
-  "rpc": [
-    "https://public-node.testnet.rsk.co",
-    "https://mycrypto.testnet.rsk.co"
-  ],
+  "rpc": ["https://public-node.testnet.rsk.co", "https://mycrypto.testnet.rsk.co"],
   "faucets": ["https://faucet.testnet.rsk.co"],
-  "info_url": "https://rsk.co"
+  "nativeCurrency": {
+    "name": "RSK Testnet Ether",
+    "symbol": "TRSK",
+    "decimals": 18
+  },
+  "infoURL": "https://rsk.co",
+  "shortName": "trsk",
+  "chainId": 31,
+  "networkId": 8052
 }

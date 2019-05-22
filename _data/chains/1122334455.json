@@ -1,11 +1,16 @@
 {
   "name": "IPOS Network",
-  "short_name": "ipos",
   "chain": "IPOS",
   "network": "mainnet",
-  "chain_id": 1122334455,
-  "network_id": 1122334455,
-  "rpc": ["https://rpc.iposlab.com","https://rpc2.iposlab.com"],
+  "rpc": ["https://rpc.iposlab.com", "https://rpc2.iposlab.com"],
   "faucets": [],
-  "info_url": "https://iposlab.com"
+  "nativeCurrency": {
+    "name": "IPOS Network Ether",
+    "symbol": "IPOS",
+    "decimals": 18
+  },
+  "infoURL": "https://iposlab.com",
+  "shortName": "ipos",
+  "chainId": 1122334455,
+  "networkId": 1122334455
 }

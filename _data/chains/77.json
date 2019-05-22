@@ -1,11 +1,16 @@
 {
   "name": "POA Network Sokol",
-  "short_name": "poa",
   "chain": "POA",
   "network": "sokol",
-  "chain_id": 77,
-  "network_id": 1,
   "rpc": ["https://sokol.poa.network"],
   "faucets": ["https://faucet-sokol.herokuapp.com"],
-  "info_url": "https://poa.network"
+  "nativeCurrency": {
+    "name": "POA Sokol Ether",
+    "symbol": "POA",
+    "decimals": 18
+  },
+  "infoURL": "https://poa.network",
+  "shortName": "poa",
+  "chainId": 77,
+  "networkId": 1
 }

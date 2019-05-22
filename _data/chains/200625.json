@@ -1,11 +1,16 @@
 {
   "name": "Akaroma",
-  "short_name": "aka",
   "chain": "AKA",
   "network": "mainnet",
-  "chain_id": 200625,
-  "network_id": 200625,
   "rpc": ["https://remote.akroma.io"],
   "faucets": [],
-  "info_url": "https://akroma.io"
+  "nativeCurrency": {
+    "name": "Akaroma Ether",
+    "symbol": "AKA",
+    "decimals": 18
+  },
+  "infoURL": "https://akroma.io",
+  "shortName": "aka",
+  "chainId": 200625,
+  "networkId": 200625
 }

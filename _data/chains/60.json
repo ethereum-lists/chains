@@ -1,11 +1,16 @@
 {
   "name": "GoChain",
-  "short_name": "go",
   "chain": "GO",
   "network": "mainnet",
-  "chain_id": 60,
-  "network_id": 60,
   "rpc": ["https://rpc.gochain.io"],
   "faucets": [],
-  "info_url": "https://gochain.io"
+  "nativeCurrency": {
+    "name": "GoChain Ether",
+    "symbol": "GO",
+    "decimals": 18
+  },
+  "infoURL": "https://gochain.io",
+  "shortName": "go",
+  "chainId": 60,
+  "networkId": 60
 }

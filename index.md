@@ -19,15 +19,16 @@ This table is also available as a JSON feed at [chains.json](/chains.json).
     <th>Network</th>
     <th>Network ID</th>
   </tr>
-{% for json in site.data.chains %}
+{% assign chains = site.data.chains | sort %}
+{% for json in chains %}
   {% assign chain = json[1] %}
   <tr>
-    <td>{{ chain.chain_id }}</td>
+    <td>{{ chain.chainId }}</td>
     <td>{{ chain.name }}</td>
-    <td>{{ chain.short_name }}</td>
+    <td>{{ chain.shortName }}</td>
     <td>{{ chain.chain }}</td>
     <td>{{ chain.network }}</td>
-    <td>{{ chain.network_id }}</td>
+    <td>{{ chain.networkId }}</td>
   </tr>
 {% endfor %}
 </table>

@@ -1,11 +1,16 @@
 {
   "name": "ThunderCore Testnet",
-  "short_name": "TST",
   "chain": "TST",
   "network": "testnet",
-  "chain_id": 18,
-  "network_id": 18,
   "rpc": ["https://testnet-rpc.thundercore.com:8544"],
   "faucets": [],
-  "info_url": "https://thundercore.com"
+  "nativeCurrency": {
+    "name": "ThunderCore Testnet Ether",
+    "symbol": "TST",
+    "decimals": 18
+  },
+  "infoURL": "https://thundercore.com",
+  "shortName": "TST",
+  "chainId": 18,
+  "networkId": 18
 }

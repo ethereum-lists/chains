@@ -1,11 +1,16 @@
 {
   "name": "ThunderCore Mainnet",
-  "short_name": "TT",
   "chain": "TT",
   "network": "mainnet",
-  "chain_id": 108,
-  "network_id": 108,
   "rpc": ["https://mainnet-rpc.thundercore.com"],
   "faucets": ["https://faucet-testnet.thundercore.com"],
-  "info_url": "https://thundercore.com"
+  "nativeCurrency": {
+    "name": "ThunderCore Mainnet Ether",
+    "symbol": "TT",
+    "decimals": 18
+  },
+  "infoURL": "https://thundercore.com",
+  "shortName": "TT",
+  "chainId": 108,
+  "networkId": 108
 }

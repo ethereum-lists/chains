@@ -6,7 +6,7 @@ import java.io.File
 fun main() {
 
     File("_data/chains").listFiles().forEach {
-        checkChain(it)
+        checkChain(it, false)
     }
 
 }
