@@ -10,7 +10,6 @@ permalink: chains.json
     "chain": "{{ chain.chain }}",
     "network": "{{ chain.network }}",
     "network_id": {{ chain.network_id }},
-    "name": "EtherInc",
     "rpc":  [{% for rpc in chain.rpc %}"{{ rpc }}"{% unless forloop.last %},{% endunless %}{%endfor%}],
     "faucets": [{% for faucet in chain.faucets %}"{{ faucet }}"{% unless forloop.last %},{% endunless %}{%endfor%}],
     "info_url": "{{ chain.info_url }}"
