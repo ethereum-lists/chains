@@ -2,7 +2,9 @@
   "name": "High Performance Blockchain",
   "chain": "HPB",
   "network": "mainnet",
-  "rpc": ["https://node.hpb.blue"],
+  "rpc": [
+    "https://node.hpb.blue"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "High Performance Blockchain Ether",

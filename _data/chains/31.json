@@ -2,8 +2,13 @@
   "name": "RSK Testnet",
   "chain": "RSK",
   "network": "testnet",
-  "rpc": ["https://public-node.testnet.rsk.co", "https://mycrypto.testnet.rsk.co"],
-  "faucets": ["https://faucet.testnet.rsk.co"],
+  "rpc": [
+    "https://public-node.testnet.rsk.co",
+    "https://mycrypto.testnet.rsk.co"
+  ],
+  "faucets": [
+    "https://faucet.testnet.rsk.co"
+  ],
   "nativeCurrency": {
     "name": "RSK Testnet Ether",
     "symbol": "TRSK",

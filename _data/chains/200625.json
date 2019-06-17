@@ -2,7 +2,9 @@
   "name": "Akaroma",
   "chain": "AKA",
   "network": "mainnet",
-  "rpc": ["https://remote.akroma.io"],
+  "rpc": [
+    "https://remote.akroma.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Akaroma Ether",

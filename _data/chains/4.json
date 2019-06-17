@@ -2,8 +2,12 @@
   "name": "Ethereum Testnet Rinkeby",
   "chain": "ETH",
   "network": "rinkeby",
-  "rpc": ["https://rinkeby.infura.io/v3/${INFURA_API_KEY}"],
-  "faucets": ["https://faucet.rinkeby.io"],
+  "rpc": [
+    "https://rinkeby.infura.io/v3/${INFURA_API_KEY}"
+  ],
+  "faucets": [
+    "https://faucet.rinkeby.io"
+  ],
   "nativeCurrency": {
     "name": "Rinkeby Ether",
     "symbol": "RIN",
