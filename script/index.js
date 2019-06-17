@@ -31,7 +31,7 @@ function formatRpcUrl (rpcUrl) {
 }
 
 async function writeJson (filePath, json) {
-  console.log('Overwriting', filePath)
+  // console.log('Overwriting', filePath)
   return new Promise((resolve, reject) => {
     const data = JSON.stringify(json, null, 2)
     fs.writeFile(filePath, data, (err, res) => {
@@ -91,6 +91,38 @@ async function getChainId (rpcUrl) {
   }
 }
 
+async function queryMulti (urls, apiCall) {
+  let result = null
+  let results = await Promise.all(
+    urls.map(async url => {
+      try {
+        return await apiCall(url)
+      } catch (error) {
+        return null
+      }
+    })
+  )
+  if (results && results.length) {
+    results = results.filter(x => !!x)
+    result = results[0] || null
+  }
+  return result
+}
+
+async function verifyJson (json) {
+  if (json.rpc && json.rpc.length) {
+    const chainId = await queryMulti(json.rpc, getChainId)
+    if (chainId) {
+      json.chainId = chainId
+    }
+    const networkId = await queryMulti(json.rpc, getNetworkId)
+    if (networkId) {
+      json.networkId = networkId
+    }
+  }
+  return json
+}
+
 fs.readdir(CHAINS_DIRECTORY, function (err, files) {
   if (err) {
     console.error('Could not list the directory.', err)
@@ -108,43 +140,17 @@ fs.readdir(CHAINS_DIRECTORY, function (err, files) {
 
       const ext = path.extname(file)
       if (stat.isFile() && ext === '.json') {
-        const json = require(filePath)
-        console.log('Verifying file', file, 'through file name')
+        let json = require(filePath)
         const fileName = file.replace(ext, '')
-        if (toNumber(fileName) !== toNumber(json.chainId)) {
-          console.log(`File ${file} chainId doesn't match file name`)
+        if (toNumber(fileName)) {
           json.chainId = toNumber(fileName)
         }
-
-        if (json.rpc && json.rpc.length) {
-          console.log('Verifying file', file, 'through rpc url')
-          try {
-            const chainIdArr = await Promise.all(
-              json.rpc.map(rpcUrl => getChainId(rpcUrl))
-            ).filter(x => !!x)
-            const chainId =
-              chainIdArr && chainIdArr.length ? chainIdArr[0] : null
-            if (chainId && chainId !== toNumber(json.chainId)) {
-              console.log(`File ${file} chainId doesn't match rpc response`)
-              json.chainId = chainId
-            }
-          } catch (error) {
-            // do nothing
-          }
-          try {
-            const networkIdArr = await Promise.all(
-              json.rpc.map(rpcUrl => getNetworkId(rpcUrl))
-            ).filter(x => !!x)
-            const networkId =
-              networkIdArr && networkIdArr.length ? networkIdArr[0] : null
-            if (networkId && networkId !== toNumber(json.networkId)) {
-              console.log(`File ${file} networkId doesn't match rpc response`)
-              json.networkId = networkId
-            }
-          } catch (error) {
-            // do nothing
-          }
-        }
+        json = await verifyJson(json)
+        console.log(
+          `${json.chain.toUpperCase()} chainId=${json.chainId} networId=${
+            json.networkId
+          }`
+        )
         await writeJson(filePath, json)
       }
     })
