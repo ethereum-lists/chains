@@ -2,7 +2,9 @@
   "name": "Ellaism",
   "chain": "ELLA",
   "network": "mainnet",
-  "rpc": ["https://jsonrpc.ellaism.org"],
+  "rpc": [
+    "https://jsonrpc.ellaism.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ellaism Ether",
@@ -12,5 +14,5 @@
   "infoURL": "https://ellaism.org",
   "shortName": "ella",
   "chainId": 64,
-  "networkId": 1
+  "networkId": 64
 }

@@ -2,7 +2,9 @@
   "name": "Ubiq Network Mainnet",
   "chain": "UBQ",
   "network": "mainnet",
-  "rpc": ["https://pyrus2.ubiqscan.io"],
+  "rpc": [
+    "https://pyrus2.ubiqscan.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ubiq Ether",

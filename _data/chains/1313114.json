@@ -2,7 +2,9 @@
   "name": "Ether-1",
   "chain": "ETHO",
   "network": "mainnet",
-  "rpc": ["https://rpc.ether1.org"],
+  "rpc": [
+    "https://rpc.ether1.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether-1 Ether",

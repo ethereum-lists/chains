@@ -2,7 +2,9 @@
   "name": "Atheios",
   "chain": "ATH",
   "network": "mainnet",
-  "rpc": ["https://wallet.atheios.com:8797"],
+  "rpc": [
+    "https://wallet.atheios.com:8797"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Atheios Ether",

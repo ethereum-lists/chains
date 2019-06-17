@@ -2,7 +2,9 @@
   "name": "GoChain",
   "chain": "GO",
   "network": "mainnet",
-  "rpc": ["https://rpc.gochain.io"],
+  "rpc": [
+    "https://rpc.gochain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "GoChain Ether",

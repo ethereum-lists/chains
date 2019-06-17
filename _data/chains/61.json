@@ -2,7 +2,9 @@
   "name": "Ethereum Classic Mainnet",
   "chain": "ETC",
   "network": "mainnet",
-  "rpc": ["https://ethereumclassic.network"],
+  "rpc": [
+    "https://ethereumclassic.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ethereum Classic Ether",

@@ -2,7 +2,9 @@
   "name": "ARTIS sigma1",
   "chain": "ARTIS",
   "network": "sigma1",
-  "rpc": ["https://rpc.sigma1.artis.network"],
+  "rpc": [
+    "https://rpc.sigma1.artis.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ARTIS sigma1 Ether",

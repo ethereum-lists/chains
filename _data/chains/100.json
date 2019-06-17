@@ -2,7 +2,9 @@
   "name": "xDAI Chain",
   "chain": "XDAI",
   "network": "mainnet",
-  "rpc": ["https://dai.poa.network"],
+  "rpc": [
+    "https://dai.poa.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "xDAI",
@@ -12,5 +14,5 @@
   "infoURL": "https://forum.poa.network/c/xdai-chain",
   "shortName": "xdai",
   "chainId": 100,
-  "networkId": 1
+  "networkId": 100
 }
