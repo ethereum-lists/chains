@@ -5,7 +5,7 @@ const BigNumber = require('bignumber.js')
 
 require('dotenv').config()
 
-const ROOT_DIRECTORY = path.join(__dirname, '../')
+const ROOT_DIRECTORY = path.join(__dirname, '../../')
 
 const CHAINS_DIRECTORY = path.join(ROOT_DIRECTORY, './_data/chains')
 
@@ -21,6 +21,41 @@ const CHAIN_ID_REQ = {
   jsonrpc: '2.0',
   method: 'eth_chainId',
   params: []
+}
+
+function padRight (n, width, z) {
+  z = z || '0'
+  n = n + ''
+  return n.length >= width ? n : n + new Array(width - n.length + 1).join(z)
+}
+
+function paddedLog (...args) {
+  let output = ''
+  args.forEach(arg => {
+    output += padRight(`${arg}`, 32, ' ')
+  })
+  console.log(output)
+}
+
+function tableLog (array) {
+  console.log('\n')
+  paddedLog('Name', 'Chain', 'ChainId', 'NetworkId')
+  console.log('\n')
+  array.map(json =>
+    paddedLog(json.name, json.chain, json.chainId, json.networkId)
+  )
+  console.log('\n')
+}
+
+function stat (filePath) {
+  return new Promise((resolve, reject) => {
+    fs.stat(filePath, function (error, stat) {
+      if (error) {
+        return reject(error)
+      }
+      resolve(stat)
+    })
+  })
 }
 
 function formatRpcUrl (rpcUrl) {
@@ -123,36 +158,21 @@ async function verifyJson (json) {
   return json
 }
 
-fs.readdir(CHAINS_DIRECTORY, function (err, files) {
-  if (err) {
-    console.error('Could not list the directory.', err)
-    process.exit(1)
-  }
-
-  files.forEach(function (file, index) {
-    const filePath = path.join(CHAINS_DIRECTORY, file)
-
-    fs.stat(filePath, async function (error, stat) {
-      if (error) {
-        console.error('Error stating file.', error)
-        return
-      }
-
-      const ext = path.extname(file)
-      if (stat.isFile() && ext === '.json') {
-        let json = require(filePath)
-        const fileName = file.replace(ext, '')
-        if (toNumber(fileName)) {
-          json.chainId = toNumber(fileName)
-        }
-        json = await verifyJson(json)
-        console.log(
-          `${json.chain.toUpperCase()} chainId=${json.chainId} networId=${
-            json.networkId
-          }`
-        )
-        await writeJson(filePath, json)
-      }
-    })
-  })
-})
+module.exports = {
+  ROOT_DIRECTORY,
+  CHAINS_DIRECTORY,
+  NET_VERSION_REQ,
+  CHAIN_ID_REQ,
+  padRight,
+  paddedLog,
+  tableLog,
+  stat,
+  formatRpcUrl,
+  writeJson,
+  rpcRequest,
+  toNumber,
+  getNetworkId,
+  getChainId,
+  queryMulti,
+  verifyJson
+}
