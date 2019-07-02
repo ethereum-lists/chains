@@ -17,7 +17,7 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
     process.exit(1)
   }
 
-  startSpinner(`Verifying ${CHAINS_DIRECTORY}`)
+  startSpinner(`Verifying ${CHAINS_DIRECTORY} files`)
 
   let result = []
 
@@ -45,6 +45,8 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
   tableLog(result)
 
   console.log(
-    `Successfully verified ${files.length} file${files.length > 1 ? 's' : ''}`
+    `Successfully verified and wrote ${files.length} file${
+      files.length > 1 ? 's' : ''
+    }`
   )
 })
