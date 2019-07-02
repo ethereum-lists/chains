@@ -2,6 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const axios = require('axios')
 const BigNumber = require('bignumber.js')
+const sortBy = require('lodash.sortby')
 
 require('dotenv').config()
 
@@ -37,11 +38,12 @@ function paddedLog (...args) {
   console.log(output)
 }
 
-function tableLog (array) {
+function tableLog (chains) {
+  chains = sortBy(chains, ['chainId'])
   console.log('\n')
   paddedLog('Name', 'Chain', 'ChainId', 'NetworkId')
   console.log('\n')
-  array.map(json =>
+  chains.map(json =>
     paddedLog(json.name, json.chain, json.chainId, json.networkId)
   )
   console.log('\n')
