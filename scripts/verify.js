@@ -2,6 +2,8 @@ const fs = require('fs')
 const path = require('path')
 const {
   CHAINS_DIRECTORY,
+  startSpinner,
+  stopSpinner,
   tableLog,
   stat,
   writeJson,
@@ -15,7 +17,7 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
     process.exit(1)
   }
 
-  console.log('Verifying:', CHAINS_DIRECTORY)
+  startSpinner(`Verifying ${CHAINS_DIRECTORY}`)
 
   let result = []
 
@@ -37,6 +39,8 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
       return fileStat
     })
   )
+
+  stopSpinner()
 
   tableLog(result)
 

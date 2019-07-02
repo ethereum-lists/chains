@@ -13,7 +13,8 @@
     "axios": "^0.19.0",
     "bignumber.js": "^9.0.0",
     "dotenv": "^8.0.0",
-    "lodash.sortby": "^4.7.0"
+    "lodash.sortby": "^4.7.0",
+    "ora": "^3.4.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0",

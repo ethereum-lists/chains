@@ -1,6 +1,13 @@
 const fs = require('fs')
 const path = require('path')
-const { CHAINS_DIRECTORY, stat, tableLog, toNumber } = require('./shared')
+const {
+  CHAINS_DIRECTORY,
+  startSpinner,
+  stopSpinner,
+  stat,
+  tableLog,
+  toNumber
+} = require('./shared')
 
 fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
   if (err) {
@@ -9,6 +16,8 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
   }
 
   let matches = []
+
+  startSpinner(`Counting ${CHAINS_DIRECTORY}`)
 
   await Promise.all(
     files.map(async function (file, index) {
@@ -24,6 +33,8 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
       return fileStat
     })
   )
+
+  stopSpinner()
 
   console.log(
     `There are ${files.length} known EVM chains from which ${

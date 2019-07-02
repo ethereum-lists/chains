@@ -3,6 +3,7 @@ const path = require('path')
 const axios = require('axios')
 const BigNumber = require('bignumber.js')
 const sortBy = require('lodash.sortby')
+const ora = require('ora')
 
 require('dotenv').config()
 
@@ -22,6 +23,18 @@ const CHAIN_ID_REQ = {
   jsonrpc: '2.0',
   method: 'eth_chainId',
   params: []
+}
+
+let spinner = null
+
+function startSpinner (message) {
+  spinner = ora(message).start()
+}
+
+function stopSpinner () {
+  if (spinner) {
+    spinner.stop()
+  }
 }
 
 function padRight (n, width, z) {
@@ -165,6 +178,8 @@ module.exports = {
   CHAINS_DIRECTORY,
   NET_VERSION_REQ,
   CHAIN_ID_REQ,
+  startSpinner,
+  stopSpinner,
   padRight,
   paddedLog,
   tableLog,
