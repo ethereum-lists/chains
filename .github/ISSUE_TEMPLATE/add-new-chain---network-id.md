@@ -11,15 +11,15 @@ assignees: ''
 
 ```
 {
-  "name": "Ethereum Mainnet",
-  "shortName": "eth",
-  "chain": "ETH",
-  "network": "mainnet",
-  "chainId": 1,
-  "networkId": 1,
-  "rpc": ["https://mainnet.infura.io"],
+  "name": "Aethereum LiveNet",
+  "shortName": "aeth",
+  "chain": "AETH",
+  "network": "livenet",
+  "chainId": 0,
+  "networkId": 0,
+  "rpc": ["https://api.myetherapi.com/eth"],
   "faucets": [],
-  "infoURL: "https://ethereum.org",
-  "nativeCurrency": {"name":"Ether","symbol":"ETH","decimals":18}
+  "infoURL: "https://www.myetherapi.com",
+  "nativeCurrency": {"name":"Aether","symbol":"AETH","decimals":18}
 }
 ```
