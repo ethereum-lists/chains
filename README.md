@@ -27,17 +27,3 @@ Data source available on `_data/chains.json`
   "networkId": 1
 }
 ```
-
-## Scripts
-
-1. Install dependencies
-
-```sh
-cd scripts && npm install
-```
-
-2. Verify chainId and networkId
-
-```sh
-node scripts/verify.js
-```
