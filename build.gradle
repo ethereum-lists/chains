@@ -35,7 +35,7 @@ dependencies {
     implementation "com.github.komputing.kethereum:functions:${KETHEREUM_VERSION}"
     implementation "com.github.komputing.kethereum:crypto_impl_bouncycastle:${KETHEREUM_VERSION}"
 
-    implementation 'com.beust:klaxon:5.0.11'
+    implementation 'com.beust:klaxon:5.0.13'
     implementation 'com.squareup.moshi:moshi-kotlin:1.8.0'
     implementation 'com.squareup.okhttp3:okhttp:4.2.2'
 
