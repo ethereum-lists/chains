@@ -1,0 +1,20 @@
+{
+  "name": "Athereum",
+  "chain": "ATH",
+  "network": "athereum",
+  "rpc": [
+    "https://ava.network/ext/evm/rpc"
+  ],
+  "faucets": [
+    "http://athfaucet.ava.network//?address=${ADDRESS}"
+  ],
+  "nativeCurrency": {
+    "name": "Athereum Ether",
+    "symbol": "ATH",
+    "decimals": 18
+  },
+  "infoURL": "https://athereum.ava.network",
+  "shortName": "ath",
+  "chainId": 43110,
+  "networkId": 43110
+}
