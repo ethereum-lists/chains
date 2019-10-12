@@ -3,7 +3,7 @@
   "chain": "ATH",
   "network": "athereum",
   "rpc": [
-    "https://ava.network/ext/evm/rpc"
+    "https://ava.network:21015/ext/evm/rpc"
   ],
   "faucets": [
     "http://athfaucet.ava.network//?address=${ADDRESS}"
