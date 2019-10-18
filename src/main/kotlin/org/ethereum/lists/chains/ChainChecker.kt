@@ -6,7 +6,7 @@ import org.kethereum.rpc.HttpEthereumRPC
 import java.io.File
 import java.math.BigInteger
 
-val all_fields = listOf(
+val mandatory_fields = listOf(
         "name",
         "shortName",
         "chain",
@@ -17,6 +17,9 @@ val all_fields = listOf(
         "faucets",
         "infoURL",
         "nativeCurrency"
+)
+val optionalFields = listOf(
+        "slip44"
 )
 
 class FileNameMustMatchChainId : Exception("chainId must match the filename")
@@ -41,12 +44,12 @@ fun checkChain(it: File, connectRPC: Boolean) {
 
     getNumber(jsonObject, "networkId")
 
-    val extraFields = jsonObject.map.keys.subtract(all_fields)
+    val extraFields = jsonObject.map.keys.subtract(mandatory_fields).subtract(optionalFields)
     if (extraFields.isNotEmpty()) {
         throw ShouldHaveNoExtraFields(extraFields)
     }
 
-    val missingFields = all_fields.subtract(jsonObject.map.keys)
+    val missingFields = mandatory_fields.subtract(jsonObject.map.keys)
     if (missingFields.isNotEmpty()) {
         throw ShouldHaveNoMissingFields(missingFields)
     }
