@@ -39,6 +39,35 @@ class TheChainChecker {
         checkChain(file, false)
     }
 
+
+    @Test(expected = ENSRegistryAddressMustBeValid::class)
+    fun shouldFailForInvalidENSAddress() {
+        val file = getFile("invalid/99.json")
+
+        checkChain(file, false)
+    }
+
+    @Test(expected = ENSMustHaveOnlyRegistry::class)
+    fun shouldFailForExtraENSFields() {
+        val file = getFile("invalid/100.json")
+
+        checkChain(file, false)
+    }
+
+    @Test(expected = ENSMustHaveOnlyRegistry::class)
+    fun shouldFailForNoRegistryField() {
+        val file = getFile("invalid/101.json")
+
+        checkChain(file, false)
+    }
+
+    @Test(expected = ENSMustBeObject::class)
+    fun shouldFailForENSISNotObject() {
+        val file = getFile("invalid/102.json")
+
+        checkChain(file, false)
+    }
+
     @Test(expected = ExtensionMustBeJSON::class)
     fun shouldFailFoNonJSON() {
         val file = getFile("invalid/1.nojson")

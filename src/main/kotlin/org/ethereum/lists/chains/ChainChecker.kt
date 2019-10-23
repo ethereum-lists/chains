@@ -2,6 +2,8 @@ package org.ethereum.lists.chains
 
 import com.beust.klaxon.JsonObject
 import com.beust.klaxon.Klaxon
+import org.kethereum.functions.isValid
+import org.kethereum.model.Address
 import org.kethereum.rpc.HttpEthereumRPC
 import java.io.File
 import java.math.BigInteger
@@ -19,7 +21,8 @@ val mandatory_fields = listOf(
         "nativeCurrency"
 )
 val optionalFields = listOf(
-        "slip44"
+        "slip44",
+        "ens"
 )
 
 class FileNameMustMatchChainId : Exception("chainId must match the filename")
@@ -28,6 +31,9 @@ class ShouldHaveNoExtraFields(fields: Set<String>) : Exception("should have no e
 class ShouldHaveNoMissingFields(fields: Set<String>) : Exception("missing field(s) $fields")
 class RPCMustBeList : Exception("rpc must be a list")
 class RPCMustBeListOfStrings : Exception("rpc must be a list of strings")
+class ENSMustBeObject: Exception("ens must be an object")
+class ENSMustHaveOnlyRegistry: Exception("ens can only have a registry currently")
+class ENSRegistryAddressMustBeValid: Exception("ens registry must have valid address")
 
 fun checkChain(it: File, connectRPC: Boolean) {
     println("processing $it")
@@ -53,6 +59,21 @@ fun checkChain(it: File, connectRPC: Boolean) {
     if (missingFields.isNotEmpty()) {
         throw ShouldHaveNoMissingFields(missingFields)
     }
+
+    jsonObject["ens"]?.let {
+        if (it !is JsonObject) {
+            throw ENSMustBeObject()
+        }
+        if (it.keys != mutableSetOf("registry")) {
+            throw ENSMustHaveOnlyRegistry()
+        }
+
+        val address = Address(it["registry"] as String)
+        if (!address.isValid()) {
+            throw ENSRegistryAddressMustBeValid()
+        }
+    }
+
     if (connectRPC) {
         if (jsonObject["rpc"] is List<*>) {
             (jsonObject["rpc"] as List<*>).forEach {
