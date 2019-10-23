@@ -5,7 +5,7 @@ import java.io.File
 
 fun main() {
 
-    File("_data/chains").listFiles().forEach {
+    File("_data/chains").listFiles()?.forEach {
         checkChain(it, false)
     }
 
