@@ -1,0 +1,16 @@
+{
+  "name": "Ethereum Classic Testnet Mordor",
+  "chain": "ETC",
+  "network": "testnet",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Mordor Classic Testnet Ether",
+    "symbol": "METC",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/eth-classic/mordor/",
+  "shortName": "metc",
+  "chainId": 63,
+  "networkId": 7
+}
