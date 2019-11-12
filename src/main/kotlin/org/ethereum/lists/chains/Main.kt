@@ -3,10 +3,10 @@ package org.ethereum.lists.chains
 import java.io.File
 
 
-fun main() {
+fun main(args: Array<String>) {
 
     File("_data/chains").listFiles()?.forEach {
-        checkChain(it, false)
+        checkChain(it, args.contains("rpcConnect"))
     }
 
 }
