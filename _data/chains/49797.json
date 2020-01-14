@@ -1,0 +1,19 @@
+{
+  "name": "Energi Testnet",
+  "chain": "NRG",
+  "network": "testnet",
+  "rpc": [
+    "https://nodeapi.test3.energi.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Energi",
+    "symbol": "tNRG",
+    "decimals": 18
+  },
+  "infoURL": "https://www.energi.world/",
+  "shortName": "tnrg",
+  "chainId": 49797,
+  "networkId": 49797,
+  "slip44": 49797
+}
