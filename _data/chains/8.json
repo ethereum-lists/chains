@@ -3,6 +3,7 @@
   "chain": "UBQ",
   "network": "mainnet",
   "rpc": [
+    "https://rpc.octano.dev",
     "https://pyrus2.ubiqscan.io"
   ],
   "faucets": [],
@@ -14,5 +15,5 @@
   "infoURL": "https://ubiqsmart.com",
   "shortName": "ubq",
   "chainId": 8,
-  "networkId": 1
+  "networkId": 88
 }
