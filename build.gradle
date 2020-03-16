@@ -1,7 +1,7 @@
 buildscript {
     ext {
         KOTLIN_VERSION = "1.3.70"
-        KETHEREUM_VERSION = "0.77.1"
+        KETHEREUM_VERSION = "0.81.4"
     }
 
     repositories {
@@ -32,7 +32,7 @@ dependencies {
 
     implementation "com.github.komputing.kethereum:rpc:${KETHEREUM_VERSION}"
     implementation "com.github.komputing.kethereum:model:${KETHEREUM_VERSION}"
-    implementation "com.github.komputing.kethereum:functions:${KETHEREUM_VERSION}"
+    implementation "com.github.komputing.kethereum:erc55:${KETHEREUM_VERSION}"
     implementation "com.github.komputing.kethereum:crypto_impl_bouncycastle:${KETHEREUM_VERSION}"
 
     implementation 'com.beust:klaxon:5.2'

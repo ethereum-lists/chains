@@ -2,7 +2,7 @@ package org.ethereum.lists.chains
 
 import com.beust.klaxon.JsonObject
 import com.beust.klaxon.Klaxon
-import org.kethereum.functions.isValid
+import org.kethereum.erc55.isValid
 import org.kethereum.model.Address
 import org.kethereum.rpc.HttpEthereumRPC
 import java.io.File
@@ -82,9 +82,9 @@ fun checkChain(it: File, connectRPC: Boolean) {
                 } else {
                     println("connecting to $it")
                     val ethereumRPC = HttpEthereumRPC(it)
-                    println("Client:" + ethereumRPC.clientVersion()?.result)
-                    println("BlockNumber:" + ethereumRPC.blockNumber()?.result?.tryBigint())
-                    println("GasPrice:" + ethereumRPC.gasPrice()?.result?.tryBigint())
+                    println("Client:" + ethereumRPC.clientVersion())
+                    println("BlockNumber:" + ethereumRPC.blockNumber())
+                    println("GasPrice:" + ethereumRPC.gasPrice())
                 }
             }
             println()
