@@ -1,0 +1,16 @@
+{
+  "name": "Ethereum Beacon Chain",
+  "chain": "EBC",
+  "network": "beaconchain",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/ethereum/eth2.0-specs/blob/dev/specs/phase0/beacon-chain.md",
+  "shortName": "eth",
+  "chainId": 235,
+  "networkId": 235
+}
