@@ -28,7 +28,6 @@ repositories {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:${KOTLIN_VERSION}"
-    implementation "com.github.ethereum-lists:cilib:1.0"
 
     implementation "com.github.komputing.kethereum:rpc:${KETHEREUM_VERSION}"
     implementation "com.github.komputing.kethereum:model:${KETHEREUM_VERSION}"
