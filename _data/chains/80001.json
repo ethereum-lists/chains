@@ -1,0 +1,21 @@
+{
+    "name": "Matic Mumbai",
+    "chain": "Matic",
+    "network": "testnet",
+    "rpc": [
+        "https://rpc-mumbai.matic.today",
+        "wss://ws-mumbai.matic.today"
+    ],
+    "faucets": [
+        "https://faucet.matic.network/"
+    ],
+    "nativeCurrency": {
+        "name": "Matic",
+        "symbol": "MATIC",
+        "decimals": 18
+    },
+    "infoURL": "https://matic.network/",
+    "shortName": "matic",
+    "chainId": 80001,
+    "networkId": 80001
+}
