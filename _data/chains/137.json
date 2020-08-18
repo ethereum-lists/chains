@@ -1,0 +1,19 @@
+{
+    "name": "Matic Mainnet",
+    "chain": "Matic",
+    "network": "mainnet",
+    "rpc": [
+        "https://rpc-mainnet.matic.network",
+        "wss://ws-mainnet.matic.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "Matic",
+        "symbol": "MATIC",
+        "decimals": 18
+    },
+    "infoURL": "https://matic.network/",
+    "shortName": "matic",
+    "chainId": 137,
+    "networkId": 137
+}
