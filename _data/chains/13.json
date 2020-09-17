@@ -1,0 +1,19 @@
+{
+  "name": "Diode Staging",
+  "chain": "DIO",
+  "network": "testnet",
+  "rpc": [
+    "https://staging.diode.io:8443/",
+    "wss://staging.diode.io:8443/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Staging Diodes",
+    "symbol": "DIO",
+    "decimals": 18
+  },
+  "infoURL": "https://diode.io/staging",
+  "shortName": "dstg",
+  "chainId": 13,
+  "networkId": 13
+}
