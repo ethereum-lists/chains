@@ -3,7 +3,10 @@
   "chain": "POA",
   "network": "core",
   "rpc": [
-    "https://core.poa.network"
+    "https://core.poanetwork.dev",
+    "http://core.poanetwork.dev:8545",
+    "https://core.poa.network",
+    "ws://core.poanetwork.dev:8546"
   ],
   "faucets": [],
   "nativeCurrency": {

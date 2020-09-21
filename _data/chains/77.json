@@ -3,7 +3,9 @@
   "chain": "POA",
   "network": "sokol",
   "rpc": [
-    "https://sokol.poa.network"
+    "https://sokol.poa.network",
+    "wss://sokol.poa.network/wss",
+    "ws://sokol.poa.network:8546"
   ],
   "faucets": [
     "https://faucet-sokol.herokuapp.com"
