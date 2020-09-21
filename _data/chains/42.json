@@ -3,7 +3,11 @@
   "chain": "ETH",
   "network": "kovan",
   "rpc": [
-    "https://kovan.infura.io/v3/${INFURA_API_KEY}"
+    "https://kovan.poa.network",
+    "http://kovan.poa.network:8545",
+    "https://kovan.infura.io/v3/${INFURA_API_KEY}",
+    "wss://kovan.infura.io/ws/v3/${INFURA_API_KEY}",
+    "ws://kovan.poa.network:8546"
   ],
   "faucets": [
     "https://faucet.kovan.network",
