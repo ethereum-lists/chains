@@ -1,0 +1,19 @@
+{
+  "name": "NEAR MainNet",
+  "chain": "NEAR",
+  "network": "mainnet",
+  "rpc": [
+    "https://rpc.mainnet.near.org"
+  ],
+  "faucets": [
+  ],
+  "nativeCurrency": {
+    "name": "NEAR",
+    "symbol": "NEAR",
+    "decimals": 24
+  },
+  "infoURL": "https://near.org/",
+  "shortName": "near",
+  "chainId": 1313161554,
+  "networkId": 1313161554
+}
