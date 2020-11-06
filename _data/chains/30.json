@@ -9,11 +9,12 @@
   "faucets": [],
   "nativeCurrency": {
     "name": "RSK Mainnet Ether",
-    "symbol": "RSK",
+    "symbol": "RBTC",
     "decimals": 18
   },
   "infoURL": "https://rsk.co",
   "shortName": "rsk",
   "chainId": 30,
-  "networkId": 30
+  "networkId": 30,
+  "slip44": 137
 }
