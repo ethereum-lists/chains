@@ -1,0 +1,19 @@
+{
+  "name": "Wegochain Rubidium Mainnet",
+  "chain": "RBD",
+  "network": "mainnet",
+  "rpc": [
+    "https://proxy.wegochain.io",
+    "http://wallet.wegochain.io:7764"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Rubid",
+    "symbol": "RBD",
+    "decimals": 18
+  },
+  "infoURL": "http://wegochain.io",
+  "shortName": "rbd",
+  "chainId": 5869,
+  "networkId": 5869
+}
