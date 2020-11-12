@@ -1,5 +1,5 @@
 {
-    "name": "Matic Mumbai",
+    "name": "Matic Testnet Mumbai",
     "chain": "Matic",
     "network": "testnet",
     "rpc": [
@@ -11,11 +11,11 @@
     ],
     "nativeCurrency": {
         "name": "Matic",
-        "symbol": "MATIC",
+        "symbol": "tMATIC",
         "decimals": 18
     },
     "infoURL": "https://matic.network/",
-    "shortName": "matic",
+    "shortName": "maticmum",
     "chainId": 80001,
     "networkId": 80001
 }
