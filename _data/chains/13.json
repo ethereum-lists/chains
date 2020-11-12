@@ -1,5 +1,5 @@
 {
-  "name": "Diode Staging",
+  "name": "Diode Testnet Staging",
   "chain": "DIO",
   "network": "testnet",
   "rpc": [
@@ -9,7 +9,7 @@
   "faucets": [],
   "nativeCurrency": {
     "name": "Staging Diodes",
-    "symbol": "DIO",
+    "symbol": "sDIO",
     "decimals": 18
   },
   "infoURL": "https://diode.io/staging",
