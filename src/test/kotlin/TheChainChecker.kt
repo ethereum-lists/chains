@@ -1,5 +1,6 @@
 import com.squareup.moshi.JsonEncodingException
 import org.ethereum.lists.chains.*
+import org.ethereum.lists.chains.model.*
 import org.junit.Test
 import java.io.File
 
