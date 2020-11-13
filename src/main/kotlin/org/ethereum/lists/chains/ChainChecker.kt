@@ -6,7 +6,6 @@ import org.kethereum.erc55.isValid
 import org.kethereum.model.Address
 import org.kethereum.rpc.HttpEthereumRPC
 import java.io.File
-import java.math.BigInteger
 
 val mandatory_fields = listOf(
         "name",
@@ -92,17 +91,6 @@ fun checkChain(it: File, connectRPC: Boolean) {
             throw(RPCMustBeList())
         }
     }
-}
-
-
-fun String.tryBigint() = if (startsWith("0x")) {
-    try {
-        BigInteger(removePrefix("0x"), 16)
-    } catch (e: NumberFormatException) {
-        null
-    }
-} else {
-    null
 }
 
 private fun getNumber(jsonObject: JsonObject, field: String): Long {
