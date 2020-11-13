@@ -1,10 +1,17 @@
 import com.squareup.moshi.JsonEncodingException
 import org.ethereum.lists.chains.*
 import org.ethereum.lists.chains.model.*
+import org.junit.Before
 import org.junit.Test
 import java.io.File
 
 class TheChainChecker {
+
+    @Before
+    fun setup() {
+        parsedNames.clear()
+        parsedShortNames.clear()
+    }
 
     @Test
     fun shouldPassForValidChain() {
@@ -84,6 +91,23 @@ class TheChainChecker {
         checkChain(file, false)
     }
 
+    @Test(expected = NameMustBeUnique::class)
+    fun shouldFailOnNonUniqueName() {
+        checkChain(getFile("valid/1.json"), false)
+        checkChain(getFile("valid/1.json"), false)
+    }
+
+    @Test(expected = ShortNameMustBeUnique::class)
+    fun shouldFailOnNonUniqueShortName() {
+        checkChain(getFile("invalid/sameshortname/5.json"), false)
+        checkChain(getFile("invalid/sameshortname/1.json"), false)
+    }
+
+    @Test
+    fun canParse2chains() {
+        checkChain(getFile("valid/1.json"), false)
+        checkChain(getFile("valid/5.json"), false)
+    }
 
     private fun getFile(s: String) = File(javaClass.classLoader.getResource("test_chains/$s").file)
 

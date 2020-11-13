@@ -8,6 +8,9 @@ import org.kethereum.erc55.isValid
 import org.kethereum.model.Address
 import org.kethereum.rpc.HttpEthereumRPC
 
+val parsedShortNames= mutableSetOf<String>()
+val parsedNames= mutableSetOf<String>()
+
 fun main(args: Array<String>) {
 
     File("_data/chains").listFiles()?.forEach {
@@ -83,7 +86,16 @@ moshi fails for extra commas
 https://github.com/ethereum-lists/chains/issues/126
 */
 private fun parseWithMoshi(fileToParse: File) {
-    moshi.adapter(Chain::class.java).fromJson(fileToParse.readText())
+    val parsedChain = chainAdapter.fromJson(fileToParse.readText())
+    if (parsedNames.contains(parsedChain!!.name)) {
+        throw NameMustBeUnique(parsedChain.name)
+    }
+    parsedNames.add(parsedChain.name)
+
+    if (parsedShortNames.contains(parsedChain.shortName)) {
+        throw ShortNameMustBeUnique(parsedChain.shortName)
+    }
+    parsedShortNames.add(parsedChain.shortName)
 }
 
 private fun getNumber(jsonObject: JsonObject, field: String): Long {
