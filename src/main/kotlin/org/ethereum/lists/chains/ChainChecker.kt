@@ -2,6 +2,9 @@ package org.ethereum.lists.chains
 
 import com.beust.klaxon.JsonObject
 import com.beust.klaxon.Klaxon
+import com.squareup.moshi.Moshi
+import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
+import org.ethereum.lists.chains.model.Chain
 import org.kethereum.erc55.isValid
 import org.kethereum.model.Address
 import org.kethereum.rpc.HttpEthereumRPC
@@ -36,6 +39,9 @@ class ENSRegistryAddressMustBeValid: Exception("ens registry must have valid add
 
 fun checkChain(it: File, connectRPC: Boolean) {
     println("processing $it")
+
+    parseWithMoshi(it)
+
     val jsonObject = Klaxon().parseJsonObject(it.reader())
     val chainAsLong = getNumber(jsonObject, "chainId")
 
@@ -91,6 +97,15 @@ fun checkChain(it: File, connectRPC: Boolean) {
             throw(RPCMustBeList())
         }
     }
+}
+
+/*
+moshi fails for extra commas
+https://github.com/ethereum-lists/chains/issues/126
+*/
+private fun parseWithMoshi(fileToParse: File) {
+    val moshi = Moshi.Builder().add(KotlinJsonAdapterFactory()).build()
+    moshi.adapter(Chain::class.java).fromJson(fileToParse.readText())
 }
 
 private fun getNumber(jsonObject: JsonObject, field: String): Long {

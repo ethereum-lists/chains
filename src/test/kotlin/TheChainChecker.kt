@@ -1,3 +1,4 @@
+import com.squareup.moshi.JsonEncodingException
 import org.ethereum.lists.chains.*
 import org.junit.Test
 import java.io.File
@@ -69,8 +70,15 @@ class TheChainChecker {
     }
 
     @Test(expected = ExtensionMustBeJSON::class)
-    fun shouldFailFoNonJSON() {
+    fun shouldFailForNonJSON() {
         val file = getFile("invalid/1.nojson")
+
+        checkChain(file, false)
+    }
+
+    @Test(expected = JsonEncodingException::class)
+    fun shouldFailForExtraComma() {
+        val file = getFile("invalid/extracomma.json")
 
         checkChain(file, false)
     }

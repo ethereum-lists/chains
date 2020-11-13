@@ -3,12 +3,12 @@
   "shortName": "eth",
   "chain": "ETH",
   "network": "mainnet",
-  "chainId": 4,
-  "networkId": 4,
+  "chainId": 1,
+  "networkId": 1,
   "rpc": [
     "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
     "https://api.mycryptoapi.com/eth"
   ],
   "faucets": [],
-  "infoURL": "https://ethereum.org"
+  "infoURL": "https://ethereum.org",
 }
