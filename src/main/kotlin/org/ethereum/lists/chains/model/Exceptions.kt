@@ -11,3 +11,4 @@ class ENSMustHaveOnlyRegistry: Exception("ens can only have a registry currently
 class ENSRegistryAddressMustBeValid: Exception("ens registry must have valid address")
 class NameMustBeUnique(dup: String): Exception(" name must be unique - but found `$dup` more than once")
 class ShortNameMustBeUnique(dup: String): Exception("short name must be unique - but found `$dup` more than once")
+class UnsupportedNamespace(): Exception("So far only the EIP155 namespace is supported")
