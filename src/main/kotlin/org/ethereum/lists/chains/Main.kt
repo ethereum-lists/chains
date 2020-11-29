@@ -27,8 +27,12 @@ fun checkChain(it: File, connectRPC: Boolean) {
     val jsonObject = Klaxon().parseJsonObject(it.reader())
     val chainAsLong = getNumber(jsonObject, "chainId")
 
-    if (chainAsLong != it.nameWithoutExtension.toLongOrNull()) {
-        throw(FileNameMustMatchChainId())
+    if (it.nameWithoutExtension.startsWith("eip155-")) {
+        if (chainAsLong != it.nameWithoutExtension.replace("eip155-","").toLongOrNull()) {
+            throw(FileNameMustMatchChainId())
+        }
+    } else {
+        throw(UnsupportedNamespace())
     }
 
     if (it.extension != "json") {
