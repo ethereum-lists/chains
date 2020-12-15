@@ -1,5 +1,5 @@
 {
-  "name": "XDCNetwork",
+  "name": "XinFin Network Mainnet",
   "chain": "XDC",
   "network": "mainnet",
   "rpc": [
@@ -7,12 +7,12 @@
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "XDCNetwork Ether",
+    "name": "XinFin",
     "symbol": "XDC",
     "decimals": 18
   },
   "infoURL": "https://xinfin.org",
-  "shortName": "XDC",
+  "shortName": "xdc",
   "chainId": 50,
   "networkId": 50
 }
