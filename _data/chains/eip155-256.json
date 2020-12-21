@@ -1,0 +1,21 @@
+{
+  "name": "Huobi ECO Chain Testnet",
+  "chain": "Heco",
+  "network": "testnet",
+  "rpc": [
+    "https://http-testnet.hecochain.com",
+    "wss://ws-testnet.hecochain.com"
+  ],
+  "faucets": [
+    "https://scan-testnet.hecochain.com/faucet"
+  ],
+  "nativeCurrency": {
+    "name": "Huobi ECO Chain Native Token",
+    "symbol": "ht",
+    "decimals": 18
+  },
+  "infoURL": "https://www.hecochain.com",
+  "shortName": "ht",
+  "chainId": 256,
+  "networkId": 256
+}
