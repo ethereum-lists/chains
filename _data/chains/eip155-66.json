@@ -1,0 +1,18 @@
+{
+  "name": "OKExChain Mainnet",
+  "chain": "okexchain",
+  "network": "mainnet",
+  "rpc": [
+    "https://www.okex.com/okexchain-rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OKExChain Global Utility Token",
+    "symbol": "OKT",
+    "decimals": 18
+  },
+  "infoURL": "https://www.okex.com/okexchain",
+  "shortName": "okt",
+  "chainId": 66,
+  "networkId": 66
+}
