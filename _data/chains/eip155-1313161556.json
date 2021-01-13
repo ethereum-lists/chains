@@ -1,0 +1,18 @@
+{
+  "name": "NEAR BetaNet",
+  "chain": "NEAR",
+  "network": "betanet",
+  "rpc": [
+  ],
+  "faucets": [
+  ],
+  "nativeCurrency": {
+    "name": "NEAR",
+    "symbol": "bNEAR",
+    "decimals": 24
+  },
+  "infoURL": "https://near.org/",
+  "shortName": "nearb",
+  "chainId": 1313161556,
+  "networkId": 1313161556
+}
