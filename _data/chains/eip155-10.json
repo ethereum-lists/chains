@@ -1,7 +1,7 @@
 {
-  "name": "Optimistic Ethereum Testnet Goerli",
+  "name": "Optimistic Ethereum",
   "chain": "ETH",
-  "network": "goerli",
+  "network": "mainnet",
   "rpc": [],
   "faucets": [],
   "nativeCurrency": {
@@ -11,6 +11,6 @@
   },
   "infoURL": "https://optimism.io",
   "shortName": "oeth",
-  "chainId": 420,
-  "networkId": 420
+  "chainId": 10,
+  "networkId": 10
 }
