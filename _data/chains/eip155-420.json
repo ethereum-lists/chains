@@ -1,16 +1,19 @@
 {
-  "name": "Optimistic Ethereum",
+  "name": "Optimistic Ethereum Testnet Goerli",
   "chain": "ETH",
-  "network": "mainnet",
+  "network": "goerli",
   "rpc": [],
-  "faucets": [],
+  "faucets": [
+    "https://goerli-faucet.slock.it/?address=${ADDRESS}",
+    "https://faucet.goerli.mudit.blog"
+  ],
   "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "OETH",
+    "name": "Görli Ether",
+    "symbol": "GOR",
     "decimals": 18
   },
   "infoURL": "https://optimism.io",
-  "shortName": "oeth",
+  "shortName": "ogor",
   "chainId": 420,
   "networkId": 420
 }
