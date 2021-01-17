@@ -3,10 +3,7 @@
   "chain": "ETH",
   "network": "goerli",
   "rpc": [],
-  "faucets": [
-    "https://goerli-faucet.slock.it/?address=${ADDRESS}",
-    "https://faucet.goerli.mudit.blog"
-  ],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Görli Ether",
     "symbol": "GOR",
