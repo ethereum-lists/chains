@@ -2,7 +2,7 @@
 layout: none
 permalink: chains.json
 ---
-[{% assign chains = site.data.chains | sort %}{% for json in chains %}{% assign chain = json[1] %}
+[{% assign chains = site.data.chains | sort %}{% for json in chains %}{% if json[0] != "deprecated" %}{% assign chain = json[1] %}
   {
     "name": "{{ chain.name }}",
     "chainId": {{ chain.chainId }},
@@ -14,5 +14,5 @@ permalink: chains.json
     "rpc": [{% for rpc in chain.rpc %}"{{ rpc }}"{% unless forloop.last %},{% endunless %}{%endfor%}],
     "faucets": [{% for faucet in chain.faucets %}"{{ faucet }}"{% unless forloop.last %},{% endunless %}{%endfor%}],
     "infoURL": "{{ chain.infoURL }}"
-  }{% unless forloop.last %},{% endunless %}{% endfor %}
+  }{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
 ]
