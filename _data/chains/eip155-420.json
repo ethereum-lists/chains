@@ -2,7 +2,7 @@
   "name": "Optimistic Ethereum Testnet Goerli",
   "chain": "ETH",
   "network": "goerli",
-  "rpc": [],
+  "rpc": ["https://goerli.optimism.io/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Görli Ether",
