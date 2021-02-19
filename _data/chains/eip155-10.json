@@ -2,7 +2,7 @@
   "name": "Optimistic Ethereum",
   "chain": "ETH",
   "network": "mainnet",
-  "rpc": [],
+  "rpc": ["https://mainnet.optimism.io/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
