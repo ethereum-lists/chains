@@ -1,0 +1,20 @@
+{
+  "name": "Darwinia Pangolin Testnet",
+  "chain": "pangolin",
+  "network": "free testnet",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency1": {
+    "name": "Pangolin RING",
+    "symbol": "PRING",
+    "decimals": 9
+  },
+  "nativeCurrency2": {
+    "name": "Pangolin KTON",
+    "symbol": "PKTON",
+    "decimals": 9
+  },
+  "infoURL": "https://darwinia.network/",
+  "chainId": 43,
+  "networkId": 43
+}
