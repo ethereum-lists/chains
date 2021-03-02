@@ -1,0 +1,21 @@
+{
+  "name": "Moonbeam Polkadot",
+  "chain": "MOON",
+  "network": "moonbeam",
+  "rpc": [
+    "",
+    ""
+  ],
+  "faucets": [
+    ""
+  ],
+  "nativeCurrency": {
+    "name": "Glimmer",
+    "symbol": "GLMR",
+    "decimals": 18
+  },
+  "infoURL": "https://moonbeam.network/networks/moonbeam/",
+  "shortName": "??",
+  "chainId": 1284,
+  "networkId": 1284
+}

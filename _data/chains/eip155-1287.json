@@ -1,0 +1,21 @@
+{
+  "name": "Moonbeam Testnet Moonbase Alpha",
+  "chain": "MOON",
+  "network": "moonbase",
+  "rpc": [
+    "https://rpc.testnet.moonbeam.network",
+    "wss://wss.testnet.moonbeam.network"
+  ],
+  "faucets": [
+    ""
+  ],
+  "nativeCurrency": {
+    "name": "??",
+    "symbol": "DEV",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.moonbeam.network/networks/testnet/",
+  "shortName": "??",
+  "chainId": 1287,
+  "networkId": 1287
+}
