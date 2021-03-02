@@ -1,0 +1,21 @@
+{
+  "name": "Moonriver Kusama",
+  "chain": "MOON",
+  "network": "moonriver",
+  "rpc": [
+    "",
+    ""
+  ],
+  "faucets": [
+    ""
+  ],
+  "nativeCurrency": {
+    "name": "River",
+    "symbol": "RIVER",
+    "decimals": 18
+  },
+  "infoURL": "https://moonbeam.network/networks/moonriver/",
+  "shortName": "??",
+  "chainId": 1285,
+  "networkId": 1285
+}
