@@ -21,5 +21,8 @@
   "shortName": "xdai",
   "chainId": 100,
   "networkId": 100,
-  "slip44": 700
+  "slip44": 700,
+  "blockExplorerUrls": [
+    "https://blockscout.com/xdai/mainnet"
+  ],
 }
