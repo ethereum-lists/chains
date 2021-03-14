@@ -27,3 +27,10 @@ Data source available on `_data/chains.json`
   "networkId": 1
 }
 ```
+
+## Usages
+
+ * [chainid.network](https://chainid.network)
+ * [WallETH](https://walleth.org)
+ * [TREZOR](https://trezor.io)
+ * Your project - contact us to add it here!
