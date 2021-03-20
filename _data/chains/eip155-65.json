@@ -3,12 +3,12 @@
   "chain": "okexchain",
   "network": "testnet",
   "rpc": [
-    "https://www.okex.com/okexchain-rpc-testnet"
+    "https://exchaintest.okexcn.com"
   ],
   "faucets": ["https://www.okex.com/drawdex"],
   "nativeCurrency": {
     "name": "OKExChain Global Utility Token in testnet",
-    "symbol": "TOKT",
+    "symbol": "OKT",
     "decimals": 18
   },
   "infoURL": "https://www.okex.com/okexchain",
