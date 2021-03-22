@@ -6,8 +6,7 @@
     "https://testnet.telos.net/evm"
   ],
   "faucets": [
-    "https://app.telos.net/testnet/developers",
-    "https://api.telos.net/v1/docs/index.html#/testnet/get_v1_testnet_evmFaucet__evmAddress_"
+    "https://app.telos.net/testnet/developers"
   ],
   "nativeCurrency": {
     "name": "Telos",
@@ -17,7 +16,5 @@
   "infoURL": "https://telos.net",
   "shortName": "Telos EVM Testnet",
   "chainId": 41,
-  "networkId": 41,
-  "ens": {
-  }    
+  "networkId": 41
 }
