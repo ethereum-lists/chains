@@ -1,0 +1,19 @@
+{
+  "name": "IoTeX Network Testnet",
+  "chain": "IOTX",
+  "network": "testnet",
+  "rpc": [
+    "https://babel-api.testnet.iotex.one"
+  ],
+  "faucets": [
+  ],
+  "nativeCurrency": {
+    "name": "IoTeX",
+    "symbol": "IOTX",
+    "decimals": 18
+  },
+  "infoURL": "https://iotex.io",
+  "shortName": "iotex-testnet",
+  "chainId": 4690,
+  "networkId": 4690
+}

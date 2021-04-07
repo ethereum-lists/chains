@@ -27,3 +27,11 @@ Data source available on `_data/chains.json`
   "networkId": 1
 }
 ```
+
+## Usages
+
+ * [chainlist.org](https://chainlist.org) or [networklist-org.vercel.app](https://networklist-org.vercel.app) as a staging version with a more up-to-date list
+ * [chainid.network](https://chainid.network)
+ * [WallETH](https://walleth.org)
+ * [TREZOR](https://trezor.io)
+ * Your project - contact us to add it here!

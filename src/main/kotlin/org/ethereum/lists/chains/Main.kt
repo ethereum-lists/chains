@@ -13,10 +13,16 @@ val parsedNames= mutableSetOf<String>()
 
 fun main(args: Array<String>) {
 
-    File("_data/chains").listFiles()?.forEach {
+    val allFiles = File("_data/chains").listFiles()?:return
+    allFiles.filter { !it.isDirectory }.forEach {
         checkChain(it, args.contains("rpcConnect"))
     }
 
+    allFiles.filter { it.isDirectory }.forEach {
+        if (it.name != "deprecated") {
+            error("the only directory allowed is 'deprecated'")
+        }
+    }
 }
 
 fun checkChain(it: File, connectRPC: Boolean) {

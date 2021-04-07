@@ -1,0 +1,19 @@
+{
+  "name": "Harmony Mainnet Shard 3",
+  "chain": "Harmony",
+  "network": "mainnet",
+  "rpc": [
+    "https://s3.api.harmony.one"
+  ],
+  "faucets": [
+  ],
+  "nativeCurrency": {
+    "name": "ONE",
+    "symbol": "ONE",
+    "decimals": 18
+  },
+  "infoURL": "https://www.harmony.one/",
+  "shortName": "hmy-s3",
+  "chainId": 1666600003,
+  "networkId": 1666600003
+}

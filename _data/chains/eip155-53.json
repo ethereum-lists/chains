@@ -1,0 +1,18 @@
+{
+  "name": "CoinEx Smart Chain Testnet",
+  "chain": "CSC",
+  "network": "testnet",
+  "rpc": [
+    "https://rpc-testnet.coinex.net"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CoinEx Chain Test Native Token",
+    "symbol": "cett",
+    "decimals": 18
+  },
+  "infoURL": "http://www.coinex.org/",
+  "shortName": "tcet",
+  "chainId": 53,
+  "networkId": 53
+}

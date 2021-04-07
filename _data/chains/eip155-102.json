@@ -1,0 +1,16 @@
+{
+    "name": "SGC Testnet",
+    "chain": "SGC",
+    "network": "SGC testnet",
+    "rpc": ["https://substrate.org.cn"],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "SGC",
+        "symbol": "SGC",
+        "decimals": 18
+    },
+    "infoURL": "https://web3games.blockspaper.com/en/",
+    "shortName": "sgc",
+    "chainId": 102,
+    "networkId": 102
+}

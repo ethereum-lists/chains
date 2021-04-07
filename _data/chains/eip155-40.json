@@ -1,0 +1,19 @@
+{
+  "name": "Telos EVM Mainnet",
+  "chain": "TLOS",
+  "network": "mainnet",
+  "rpc": [
+    "https://mainnet.telos.net/evm"
+  ],
+  "faucets": [
+  ],
+  "nativeCurrency": {
+    "name": "Telos",
+    "symbol": "TLOS",
+    "decimals": 18
+  },
+  "infoURL": "https://telos.net",
+  "shortName": "Telos EVM",
+  "chainId": 40,
+  "networkId": 40
+}
