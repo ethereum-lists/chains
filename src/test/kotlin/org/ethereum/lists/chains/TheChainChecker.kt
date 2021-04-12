@@ -1,5 +1,6 @@
+package org.ethereum.lists.chains
+
 import com.squareup.moshi.JsonEncodingException
-import org.ethereum.lists.chains.*
 import org.ethereum.lists.chains.model.*
 import org.junit.Before
 import org.junit.Test
@@ -16,6 +17,13 @@ class TheChainChecker {
     @Test
     fun shouldPassForValidChain() {
         val file = getFile("valid/eip155-1.json")
+
+        checkChain(file, false)
+    }
+
+    @Test
+    fun shouldPassForValidChainWithExplorers() {
+        val file = getFile("valid/withexplorer/eip155-1.json")
 
         checkChain(file, false)
     }
@@ -101,6 +109,31 @@ class TheChainChecker {
     fun shouldFailOnNonUniqueShortName() {
         checkChain(getFile("invalid/sameshortname/eip155-5.json"), false)
         checkChain(getFile("invalid/sameshortname/eip155-1.json"), false)
+    }
+
+    @Test(expected = ExplorersMustBeArray::class)
+    fun shouldFailWhenExplorerIsNotArray() {
+        checkChain(getFile("invalid/explorersnotarray/eip155-1.json"), false)
+    }
+
+    @Test(expected = ExplorerStandardMustBeEIP3091::class)
+    fun shouldFailOnWrongExplorerStandard() {
+        checkChain(getFile("invalid/wrongexplorerstandard/eip155-1.json"), false)
+    }
+
+    @Test(expected = ExplorerMustHaveName::class)
+    fun shouldFailOnNoExplorerName() {
+        checkChain(getFile("invalid/explorernoname/eip155-1.json"), false)
+    }
+
+    @Test(expected = ExplorerInvalidUrl::class)
+    fun shouldFailOnInvalidUrl() {
+        checkChain(getFile("invalid/explorerinvalidurl/eip155-1.json"), false)
+    }
+
+    @Test(expected = ExplorerInvalidUrl::class)
+    fun shouldFailOnMissingURL() {
+        checkChain(getFile("invalid/explorermissingurl/eip155-1.json"), false)
     }
 
     @Test

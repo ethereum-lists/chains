@@ -103,11 +103,35 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
     }
 
     jsonObject["icon"]?.let {
-        if (!File(iconsPath,"$it.json").exists()) {
+        if (!File(iconsPath, "$it.json").exists()) {
             error("The Icon $it does not exist - was used in ${chainFile.name}")
         }
     }
 
+    jsonObject["explorers"]?.let {
+        if (it !is JsonArray<*>) {
+            throw (ExplorersMustBeArray())
+        }
+
+        it.forEach { explorer ->
+            if (explorer !is JsonObject) {
+                error("explorer must be object")
+            }
+
+            if (explorer["name"] == null) {
+                throw(ExplorerMustHaveName())
+            }
+
+            val url = explorer["url"]
+            if (url == null || url !is String || !url.startsWith("https://")) {
+                throw(ExplorerInvalidUrl())
+            }
+
+            if (explorer["standard"] != "EIP3091") {
+                throw(ExplorerStandardMustBeEIP3091())
+            }
+        }
+    }
     jsonObject["ens"]?.let {
         if (it !is JsonObject) {
             throw ENSMustBeObject()
