@@ -14,12 +14,10 @@
   "infoURL": "https://hpb.io",
   "shortName": "HPB",
   "chainId": 269,
-  "networkId": 100,
-  "icon": "HPB",
+  "networkId": 100
   "explorers": [{
     "name": "hpbscan",
     "url": "https://hpbscan.org",
-    "icon": "hpbscan",
     "standard": "EIP3091"
   }]
 }
