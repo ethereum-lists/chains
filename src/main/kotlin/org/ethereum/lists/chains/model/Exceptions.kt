@@ -12,3 +12,7 @@ class ENSRegistryAddressMustBeValid: Exception("ens registry must have valid add
 class NameMustBeUnique(dup: String): Exception(" name must be unique - but found `$dup` more than once")
 class ShortNameMustBeUnique(dup: String): Exception("short name must be unique - but found `$dup` more than once")
 class UnsupportedNamespace(): Exception("So far only the EIP155 namespace is supported")
+class ExplorersMustBeArray: Exception("explorers must be an array")
+class ExplorerMustHaveName: Exception("Explorer must have name")
+class ExplorerInvalidUrl: Exception("Explorer have url starting with https://")
+class ExplorerStandardMustBeEIP3091: Exception("explorer standard must be EIP3091 - currently the only one supported")

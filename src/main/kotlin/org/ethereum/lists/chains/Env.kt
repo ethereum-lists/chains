@@ -19,7 +19,9 @@ val mandatory_fields = listOf(
 )
 val optionalFields = listOf(
         "slip44",
-        "ens"
+        "ens",
+        "icon",
+        "explorers"
 )
 
 val moshi: Moshi = Moshi.Builder().add(KotlinJsonAdapterFactory()).build()

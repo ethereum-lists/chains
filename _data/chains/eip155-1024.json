@@ -2,7 +2,11 @@
     "name": "Clover Mainnet",
     "chain": "Clover",
     "network": "clover mainnet",
-    "rpc": [],
+    "rpc": [
+      "https://rpc-ivy.clover.finance",
+      "https://rpc-ivy-2.clover.finance",
+      "https://rpc-ivy-3.clover.finance"
+    ],
     "faucets": [],
     "nativeCurrency": {
         "name": "Clover",
