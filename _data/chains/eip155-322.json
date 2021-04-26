@@ -1,0 +1,24 @@
+{
+  "name": "KuCoin Community Chain Testnet",
+  "chain": "KCC",
+  "network": "testnet",
+  "rpc": [
+    "https://rpc-testnet.kucoin.one",
+  ],
+  "faucets": [
+    "https://faucet-testnet.kucoin.one"
+  ],
+  "nativeCurrency": {
+    "name": "KuCoin Testnet Token",
+    "symbol": "KCS",
+    "decimals": 18
+  },
+  "infoURL": "https://scan-testnet.kucoin.one",
+  "shortName": "kcc",
+  "chainId": 322,
+  "networkId": 322,
+  "explorers": [{
+    "name": "kcc-scan",
+    "url": "https://scan-testnet.kucoin.one",
+  }]
+}
