@@ -17,9 +17,15 @@
     "symbol": "xDAI",
     "decimals": 18
   },
-  "infoURL": "https://www.blockscout.com/xdai/mainnet/",
+  "infoURL": "https://forum.poa.network/c/xdai-chain",
   "shortName": "xdai",
   "chainId": 100,
   "networkId": 100,
-  "slip44": 700
+  "slip44": 700,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://www.blockscout.com/xdai/mainnet/"
+    }
+  ]
 }
