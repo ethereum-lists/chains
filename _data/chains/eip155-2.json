@@ -2,14 +2,10 @@
   "name": "Expanse Network",
   "chain": "EXP",
   "network": "mainnet",
-    "icon": "expanse",
+  "icon": "expanse",
   "rpc": [
     "https://node.expanse.tech"
   ],
- "explorers": [{
-    "name": "Expanscout",
-    "url": "https://expanscout.com/"
-  }]
   "nativeCurrency": {
     "name": "Expanse Network Ether - gWei",
     "symbol": "EXP",
