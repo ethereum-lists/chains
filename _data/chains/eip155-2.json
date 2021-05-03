@@ -5,9 +5,12 @@
   "rpc": [
     "https://node.expanse.tech"
   ],
-  "faucets": [],
+ "explorers": [{
+    "name": "Expanscout",
+    "url": "https://expanscout.com/"
+  }]
   "nativeCurrency": {
-    "name": "Expanse Network Ether",
+    "name": "Expanse Network Ether - gWei",
     "symbol": "EXP",
     "decimals": 18
   },
