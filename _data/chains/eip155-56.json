@@ -26,5 +26,10 @@
   "infoURL": "https://www.binance.org",
   "shortName": "bnb",
   "chainId": 56,
-  "networkId": 56
+  "networkId": 56,
+  "explorers": [{
+    "name": "bscscan",
+    "url": "https://bscscan.com",
+    "icon": "bscscan"
+  }]
 }
