@@ -21,5 +21,10 @@
   "infoURL": "https://testnet.binance.org/",
   "shortName": "bnbt",
   "chainId": 97,
-  "networkId": 97
+  "networkId": 97,
+  "explorers": [{
+    "name": "bscscan-testnet",
+    "url": "https://testnet.bscscan.com",
+    "icon": "bscscan",
+  }]
 }
