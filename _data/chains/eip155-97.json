@@ -25,6 +25,7 @@
   "explorers": [{
     "name": "bscscan-testnet",
     "url": "https://testnet.bscscan.com",
-    "icon": "bscscan"
+    "icon": "bscscan",
+    "standard": "EIP3091"
   }]
 }
