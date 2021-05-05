@@ -15,5 +15,10 @@
     "infoURL": "https://matic.network/",
     "shortName": "matic",
     "chainId": 137,
-    "networkId": 137
+    "networkId": 137,
+    "explorers": [{
+        "name": "maticvigil",
+        "url": "https://explorer-mainnet.maticvigil.com",
+        "standard": "EIP3091"
+    }]
 }
