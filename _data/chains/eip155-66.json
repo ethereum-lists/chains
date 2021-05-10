@@ -14,5 +14,10 @@
   "infoURL": "https://www.okex.com/okexchain",
   "shortName": "okt",
   "chainId": 66,
-  "networkId": 66
+  "networkId": 66,
+  "explorers": [{
+    "name": "OKLink",
+    "url": "https://www.oklink.com/okexchain",
+    "standard": "EIP3091"
+  }]
 }
