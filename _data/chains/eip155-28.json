@@ -1,0 +1,22 @@
+{
+  "name": "OMG Network Testnet Rinkeby",
+  "chain": "ETH",
+  "network": "rinkeby",
+  "rpc": ["https://rinkeby.omgx.network/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Rinkeby Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "icon": "omgx",
+  "infoURL": "https://www.omgx.network/",
+  "shortName": "omgx",
+  "chainId": 28,
+  "networkId": 28,
+  "explorers": [{
+    "name": "etherscan",
+    "url": "https://blockexplorer.rinkeby.omgx.network",
+    "standard": "EIP3091"
+  }]
+}
