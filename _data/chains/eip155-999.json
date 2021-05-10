@@ -1,4 +1,29 @@
 {
+  "name": "Lucid Network",
+  "chain": "LUCID",
+  "network": "mainnet",
+  "rpc": [
+    "https://rpc.lucidcoin.io"
+  ],
+  "faucets": [
+    "https://faucet.lucidcoin.io"
+  ],
+  "nativeCurrency": {
+    "name": "Lucid",
+    "symbol": "LUCID",
+    "decimals": 18
+  },
+  "infoURL": "https://explorer.lucidcoin.io",
+  "shortName": "LUCID",
+  "chainId": 999,
+  "networkId": 999,
+  "explorers": [{
+    "name": "Lucid Explorer",
+    "url": "https://explorer.lucidcoin.io"
+  }]
+}
+
+{
   "name": "Wanchain Testnet",
   "chain": "WAN",
   "network": "testnet",
