@@ -14,5 +14,10 @@
   "infoURL": "https://www.okex.com/okexchain",
   "shortName": "tokt",
   "chainId": 65,
-  "networkId": 65
+  "networkId": 65,
+  "explorers": [{
+    "name": "OKLink",
+    "url": "https://www.oklink.com/okexchain-test",
+    "standard": "EIP3091"
+  }]
 }
