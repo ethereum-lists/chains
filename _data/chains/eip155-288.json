@@ -1,0 +1,18 @@
+{
+  "name": "OMG Network",
+  "chain": "ETH",
+  "network": "mainnet",
+  "rpc": ["https://omgx.network/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "OETH",
+    "decimals": 18
+  },
+  "icon": "omgx",
+  "infoURL": "https://www.omgx.network/",
+  "shortName": "omgx",
+  "chainId": 288,
+  "networkId": 288,
+  "explorers": []
+}
