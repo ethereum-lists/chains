@@ -1,6 +1,6 @@
 {
   "name": "GeneChain Adenine Testnet",
-  "chain": "GeneChainAdn",
+  "chain": "GeneChain",
   "network": "adenine",
   "rpc": [
     "https://rpc-testnet.genechain.io"
@@ -14,7 +14,7 @@
     "decimals": 18
   },
   "infoURL": "https://scan-testnet.genechain.io/",
-  "shortName": "GeneChain",
+  "shortName": "GeneChainAdn",
   "chainId": 8080,
   "networkId": 8080,
   "explorers": [{
