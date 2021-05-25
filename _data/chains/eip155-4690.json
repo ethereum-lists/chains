@@ -1,11 +1,12 @@
 {
   "name": "IoTeX Network Testnet",
-  "chain": "IOTX",
+  "chain": "iotex.io",
   "network": "testnet",
   "rpc": [
-    "https://babel-api.testnet.iotex.one"
+    "https://babel-api.testnet.iotex.io"
   ],
   "faucets": [
+    "https://faucet.iotex.io/"
   ],
   "nativeCurrency": {
     "name": "IoTeX",
