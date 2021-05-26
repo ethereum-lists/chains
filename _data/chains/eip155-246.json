@@ -6,7 +6,9 @@
     "https://rpc.energyweb.org",
     "wss://rpc.energyweb.org/ws"
   ],
-  "faucets": [],
+  "faucets": [
+    "https://faucet.carbonswap.exchange/"
+  ],
   "nativeCurrency": {
     "name": "Energy Web Token",
     "symbol": "EWT",
