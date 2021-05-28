@@ -1,0 +1,19 @@
+{
+  "name": "Arbitrum One",
+  "chainId": 42161,
+  "shortName": "arb1",
+  "chain": "ETH",
+  "network": "mainnet",
+  "networkId": 42161,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [
+    "https://arb1.arbitrum.io/rpc",
+    "wss://arb1.arbitrum.io/ws"
+  ],
+  "faucets": [],
+  "infoURL": "https://arbitrum.io"
+}
