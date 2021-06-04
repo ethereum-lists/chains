@@ -1,0 +1,20 @@
+{
+  "name": "Telos EVM Testnet",
+  "chain": "TLOS",
+  "network": "testnet",
+  "rpc": [
+    "https://testnet.telos.net/evm"
+  ],
+  "faucets": [
+    "https://app.telos.net/testnet/developers"
+  ],
+  "nativeCurrency": {
+    "name": "Telos",
+    "symbol": "TLOS",
+    "decimals": 18
+  },
+  "infoURL": "https://telos.net",
+  "shortName": "Telos EVM Testnet",
+  "chainId": 41,
+  "networkId": 41
+}

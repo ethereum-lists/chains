@@ -1,7 +1,7 @@
 buildscript {
     ext {
-        KOTLIN_VERSION = "1.4.30"
-        KETHEREUM_VERSION = "0.83.4"
+        KOTLIN_VERSION = "1.5.10"
+        KETHEREUM_VERSION = "0.83.6"
     }
 
     repositories {
@@ -35,7 +35,7 @@ dependencies {
     implementation "com.github.komputing.kethereum:crypto_impl_bouncycastle:${KETHEREUM_VERSION}"
 
     implementation 'com.beust:klaxon:5.4'
-    implementation 'com.squareup.moshi:moshi-kotlin:1.11.0'
+    implementation 'com.squareup.moshi:moshi-kotlin:1.12.0'
     implementation 'com.squareup.okhttp3:okhttp:4.7.2'
 
     testImplementation "org.jetbrains.kotlin:kotlin-test"

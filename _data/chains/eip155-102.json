@@ -1,0 +1,16 @@
+{
+    "name": "Web3Games Testnet",
+    "chain": "Web3Games",
+    "network": "testnet",
+    "rpc": ["https://substrate.org.cn"],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "Web3Games",
+        "symbol": "W3G",
+        "decimals": 18
+    },
+    "infoURL": "https://web3games.org/",
+    "shortName": "w3g",
+    "chainId": 102,
+    "networkId": 102
+}

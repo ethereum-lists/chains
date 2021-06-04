@@ -1,0 +1,19 @@
+{
+  "name": "Fusion Mainnet",
+  "chain": "FSN",
+  "network": "mainnet",
+  "rpc": [
+    "https://mainnet.anyswap.exchange",
+    "https://fsn.dev/api"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Fusion",
+    "symbol": "FSN",
+    "decimals": 18
+  },
+  "infoURL": "https://www.fusion.org/",
+  "shortName": "fsn",
+  "chainId": 32659,
+  "networkId": 32659
+}

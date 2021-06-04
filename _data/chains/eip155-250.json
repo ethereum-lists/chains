@@ -2,10 +2,7 @@
   "name": "Fantom Opera",
   "chain": "FTM",
   "network": "mainnet",
-  "rpc": [
-    "https://rpc.fantom.network",
-    "https://fantomscan.io/rpc"
-  ],
+  "rpc": ["https://rpcapi.fantom.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Fantom",
@@ -15,5 +12,14 @@
   "infoURL": "https://fantom.foundation",
   "shortName": "ftm",
   "chainId": 250,
-  "networkId": 250
+  "networkId": 250,
+  "icon": "fantom",
+  "explorers": [
+    {
+      "name": "ftmscan",
+      "url": "https://ftmscan.com",
+      "icon": "ftmscan",
+      "standard": "EIP3091"
+    }
+  ]
 }
