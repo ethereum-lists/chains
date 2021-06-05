@@ -66,4 +66,5 @@ There are also aggregated json files with all chains automatically assembled:
  * [WallETH](https://walleth.org)
  * [TREZOR](https://trezor.io)
  * [networks.vercel.app](https://networks.vercel.app)
+ * [eth-chains](https://github.com/taylorjdawson/eth-chains)
  * Your project - contact us to add it here!
