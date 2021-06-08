@@ -1,19 +1,18 @@
 {
-  "name": "NEAR TestNet",
+  "name": "Aurora TestNet",
   "chain": "NEAR",
   "network": "testnet",
   "rpc": [
+    "https://rpc.testnet.aurora.dev:8545"
   ],
-  "faucets": [
-    "https://wallet.testnet.near.org"
-  ],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "NEAR",
-    "symbol": "tNEAR",
-    "decimals": 24
+    "name": "Ether",
+    "symbol": "aETH",
+    "decimals": 18
   },
-  "infoURL": "https://near.org/",
-  "shortName": "neart",
+  "infoURL": "https://aurora.dev",
+  "shortName": "aurora-testnet",
   "chainId": 1313161555,
   "networkId": 1313161555
 }
