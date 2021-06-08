@@ -3,7 +3,8 @@
   "chain": "KCC",
   "network": "mainnet",
   "rpc": [
-    "https://rpc-mainnet.kcc.network"
+    "https://rpc-mainnet.kcc.network",
+    "wss://rpc-ws-mainnet.kcc.network"
   ],
   "faucets": [],
   "nativeCurrency": {
