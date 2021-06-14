@@ -15,10 +15,5 @@
     "infoURL": "https://protonchain.com",
     "shortName": "Proton Testnet",
     "chainId": 110,
-    "networkId": 110,
-    "explorers": [{
-      "name": "Proton Testnet Network",
-      "url": "https://monitor.testnet.protonchain.com",
-      "standard": "EIP3091"
-    }]
+    "networkId": 110
   }
