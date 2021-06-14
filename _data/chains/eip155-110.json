@@ -1,0 +1,19 @@
+{
+    "name": "Proton Testnet",
+    "chain": "proton",
+    "network": "testnet",
+    "rpc": [
+      "https://testnet.protonchain.com"
+    ],
+    "faucets": [
+    ],
+    "nativeCurrency": {
+      "name": "Proton",
+      "symbol": "XPR",
+      "decimals": 4
+    },
+    "infoURL": "https://protonchain.com",
+    "shortName": "Proton Testnet",
+    "chainId": 110,
+    "networkId": 110
+  }
