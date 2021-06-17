@@ -1,0 +1,19 @@
+{
+    "name": "Kortho Mainnet",
+    "chain": "Kortho",
+    "network": "mainnet",
+    "rpc": [
+        "https://www.kortho-chain.com"
+    ],
+    "faucets": [
+    ],
+    "nativeCurrency": {
+    "name": "Kortho",
+    "symbol": "KTO",
+    "decimals": 11
+    },
+    "infoURL": "https://www.kortho.io/",
+    "shortName": "Kortho",
+    "chainId": 2559,
+    "networkId": 2559
+}
