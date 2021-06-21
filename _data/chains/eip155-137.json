@@ -15,5 +15,10 @@
     "infoURL": "https://matic.network/",
     "shortName": "matic",
     "chainId": 137,
-    "networkId": 137
+    "networkId": 137,
+    "explorers": [{
+        "name": "polygonscan",
+        "url": "https://polygonscan.com",
+        "standard": "EIP3091"
+    }]
 }
