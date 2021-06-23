@@ -1,0 +1,20 @@
+{
+  "name": "HOO Smart Chain Miannet",
+  "chain": "ETH",
+  "network": "mainnet",
+  "rpc": [
+    "https://http-mainnet.hoosmartchain.com"
+  ],
+  "faucets": [
+    "https://faucet-mainnet.hscscan.com/"
+  ],
+  "nativeCurrency": {
+    "name": "HOO",
+    "symbol": "HOO",
+    "decimals": 18
+  },
+  "infoURL": "https://www.hoosmartchain.com",
+  "shortName": "hoosmartchain",
+  "chainId": 70,
+  "networkId": 70
+}
