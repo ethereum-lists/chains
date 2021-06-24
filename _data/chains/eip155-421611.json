@@ -11,8 +11,16 @@
     "decimals": 18
   },
   "rpc": [
-    "https://rinkeby.arbitrum.io/rpc"
+    "https://rinkeby.arbitrum.io/rpc",
+    "wss://rinkeby.arbitrum.io/ws",
   ],
   "faucets": [],
-  "infoURL": "https://arbitrum.io"
+  "infoURL": "https://arbitrum.io",
+  "explorers": [
+    {
+      "name": "arbitrum-rinkeby",
+      "url": "https://rinkeby-explorer.arbitrum.io",
+      "standard": "EIP3091"
+    }
+  ]
 }
