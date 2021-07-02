@@ -5,7 +5,7 @@ buildscript {
     }
 
     repositories {
-        jcenter()
+        gradlePluginPortal()
     }
 
     dependencies {
@@ -21,7 +21,7 @@ apply plugin: "com.github.ben-manes.versions"
 mainClassName = "org.ethereum.lists.chains.MainKt"
 
 repositories {
-    jcenter()
+    mavenCentral()
     maven { url 'https://jitpack.io' }
     maven { url "https://kotlin.bintray.com/kotlinx" }
 }
