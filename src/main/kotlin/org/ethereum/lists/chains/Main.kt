@@ -14,11 +14,70 @@ val parsedNames = mutableSetOf<String>()
 
 val iconsPath = File("_data/icons")
 
+val chainsPath = File("_data/chains")
+private val allFiles = chainsPath.listFiles() ?: error("$chainsPath must contain the chain json files - but it does not")
+private val allChainFiles = allFiles.filter { !it.isDirectory }
+
 fun main(args: Array<String>) {
 
-    val allFiles = File("_data/chains").listFiles() ?: return
-    allFiles.filter { !it.isDirectory }.forEach {
-        checkChain(it, args.contains("rpcConnect"))
+    doChecks(doRPCConnect = args.contains("rpcConnect"))
+
+    createOutputFiles()
+}
+
+private fun createOutputFiles() {
+    val buildPath = File("output")
+    buildPath.mkdir()
+
+    val fullJSONFile = File(buildPath, "chains.json")
+    val prettyJSONFile = File(buildPath, "chains_pretty.json")
+    val miniJSONFile = File(buildPath, "chains_mini.json")
+    val prettyMiniJSONFile = File(buildPath, "chains_mini_pretty.json")
+
+    val chainJSONArray = JsonArray<JsonObject>()
+    val miniChainJSONArray = JsonArray<JsonObject>()
+
+    allChainFiles.forEach {
+        val jsonObject = Klaxon().parseJsonObject(it.reader())
+        chainJSONArray.add(jsonObject)
+        fullJSONFile.writeText(chainJSONArray.toJsonString())
+        prettyJSONFile.writeText(chainJSONArray.toJsonString(prettyPrint = true))
+
+        val miniJSON = JsonObject()
+        listOf("name", "chainId", "shortName", "networkId", "nativeCurrency", "rpc", "faucet", "infoURL").forEach { field ->
+            jsonObject[field]?.let { content ->
+                miniJSON[field] = content
+            }
+        }
+        miniChainJSONArray.add(miniJSON)
+
+        miniJSONFile.writeText(miniChainJSONArray.toJsonString())
+        prettyMiniJSONFile.writeText(miniChainJSONArray.toJsonString(prettyPrint = true))
+    }
+
+    File(buildPath, "index.html").writeText(
+        """
+            <!DOCTYPE HTML>
+            <html lang="en-US">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="refresh" content="0; url=https://chainlist.org">
+                    <script type="text/javascript">
+                        window.location.href = "https://chainlist.org"
+                    </script>
+                    <title>Page Redirection</title>
+                </head>
+                <body>
+                    If you are not redirected automatically, follow this <a href='https://chainlist.org'>link to chainlist.org</a>.
+                </body>
+            </html>
+    """.trimIndent()
+    )
+}
+
+private fun doChecks(doRPCConnect: Boolean) {
+    allChainFiles.forEach {
+        checkChain(it, doRPCConnect)
     }
 
     val allIcons = iconsPath.listFiles() ?: return
