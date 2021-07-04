@@ -73,6 +73,8 @@ private fun createOutputFiles() {
             </html>
     """.trimIndent()
     )
+
+    File(buildPath, "CNAME").writeText("chainid.network")
 }
 
 private fun doChecks(doRPCConnect: Boolean) {
