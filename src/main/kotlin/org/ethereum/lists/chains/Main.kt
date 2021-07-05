@@ -44,7 +44,7 @@ private fun createOutputFiles() {
         prettyJSONFile.writeText(chainJSONArray.toJsonString(prettyPrint = true))
 
         val miniJSON = JsonObject()
-        listOf("name", "chainId", "shortName", "networkId", "nativeCurrency", "rpc", "faucet", "infoURL").forEach { field ->
+        listOf("name", "chainId", "shortName", "networkId", "nativeCurrency", "rpc", "faucets", "infoURL").forEach { field ->
             jsonObject[field]?.let { content ->
                 miniJSON[field] = content
             }
