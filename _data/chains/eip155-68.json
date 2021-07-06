@@ -1,19 +1,19 @@
 {
-  "name": "SoterOne Mainnet",
-  "chain": "SOTER",
-  "network": "mainnet",
+  "name": "GoodData Testnet",
+  "chain": "GooD",
+  "network": "testnet",
   "rpc": [
-    "https://rpc.soter.one"
+    "https://test.goodata.io"
   ],
   "faucets": [
   ],
   "nativeCurrency": {
-    "name": "SoterOne Mainnet Ether",
-    "symbol": "SOTER",
+    "name": "GoodData Testnet Ether",
+    "symbol": "GooD",
     "decimals": 18
   },
-  "infoURL": "https://www.soterone.com",
-  "shortName": "SO1",
+  "infoURL": "https://www.goodata.org",
+  "shortName": "GooD",
   "chainId": 68,
   "networkId": 68
 }
