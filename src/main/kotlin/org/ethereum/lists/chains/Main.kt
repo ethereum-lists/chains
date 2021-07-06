@@ -8,6 +8,7 @@ import org.ethereum.lists.chains.model.*
 import org.kethereum.erc55.isValid
 import org.kethereum.model.Address
 import org.kethereum.rpc.HttpEthereumRPC
+import java.lang.IllegalArgumentException
 
 val parsedShortNames = mutableSetOf<String>()
 val parsedNames = mutableSetOf<String>()
@@ -205,6 +206,25 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
         if (!address.isValid()) {
             throw ENSRegistryAddressMustBeValid()
         }
+    }
+
+    jsonObject["parent"]?.let {
+        if (it !is JsonObject) {
+            throw ParentMustBeObject()
+        }
+
+        if (it.keys != mutableSetOf("chain", "type")) {
+            throw ParentMustHaveChainAndType()
+        }
+
+        if (!setOf("L2", "shard").contains(it["type"])) {
+            throw ParentHasInvalidType(it["type"] as? String)
+        }
+
+        if (!File(chainFile.parentFile, it["chain"] as String + ".json").exists()) {
+            throw ParentChainDoesNotExist(it["chain"] as String)
+        }
+
     }
 
     if (connectRPC) {

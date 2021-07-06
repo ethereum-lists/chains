@@ -21,7 +21,8 @@ val optionalFields = listOf(
         "slip44",
         "ens",
         "icon",
-        "explorers"
+        "explorers",
+        "parent"
 )
 
 val moshi: Moshi = Moshi.Builder().add(KotlinJsonAdapterFactory()).build()

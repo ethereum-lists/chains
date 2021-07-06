@@ -28,6 +28,35 @@ class TheChainChecker {
         checkChain(file, false)
     }
 
+    @Test
+    fun shouldPassForValidChainWithParent() {
+        val file = getFile("valid/withparent/eip155-2.json")
+
+        checkChain(file, false)
+    }
+
+    @Test(expected = ParentMustBeObject::class)
+    fun shouldFailForParentNoObject() {
+        val file = getFile("invalid/withparentnobject/eip155-2.json")
+
+        checkChain(file, false)
+    }
+
+    @Test(expected = ParentHasInvalidType::class)
+    fun shouldFailForParentWithInvalidType() {
+        val file = getFile("invalid/withparentinvalidtype/eip155-2.json")
+
+        checkChain(file, false)
+    }
+
+
+    @Test(expected = ParentChainDoesNotExist::class)
+    fun shouldFailIfParentChainDoesNotExist() {
+        val file = getFile("invalid/withparentchaindoesnotexist/eip155-2.json")
+
+        checkChain(file, false)
+    }
+
     @Test(expected = FileNameMustMatchChainId::class)
     fun shouldFailForInvalidFilename() {
         val file = getFile("invalid/eip155-invalid_filename.json")
