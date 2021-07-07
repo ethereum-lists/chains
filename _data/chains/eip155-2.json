@@ -2,12 +2,12 @@
   "name": "Expanse Network",
   "chain": "EXP",
   "network": "mainnet",
+  "icon": "expanse",
   "rpc": [
     "https://node.expanse.tech"
   ],
-  "faucets": [],
   "nativeCurrency": {
-    "name": "Expanse Network Ether",
+    "name": "Expanse Network Ether - gWei",
     "symbol": "EXP",
     "decimals": 18
   },
