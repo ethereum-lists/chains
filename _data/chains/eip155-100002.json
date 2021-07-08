@@ -15,5 +15,9 @@
   "infoURL": "https://www.quarkchain.io/",
   "shortName": "qkc-s1",
   "chainId": 100002,
-  "networkId": 100002
+  "networkId": 100002,
+  "parent": {
+    "chain": "eip155-100000",
+    "type": "shard"
+  }
 }
