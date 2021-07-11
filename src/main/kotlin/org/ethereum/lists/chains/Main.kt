@@ -38,23 +38,25 @@ private fun createOutputFiles() {
     val chainJSONArray = JsonArray<JsonObject>()
     val miniChainJSONArray = JsonArray<JsonObject>()
 
-    allChainFiles.forEach {
-        val jsonObject = Klaxon().parseJsonObject(it.reader())
-        chainJSONArray.add(jsonObject)
-        fullJSONFile.writeText(chainJSONArray.toJsonString())
-        prettyJSONFile.writeText(chainJSONArray.toJsonString(prettyPrint = true))
+    allChainFiles
+        .map { Klaxon().parseJsonObject(it.reader()) }
+        .sortedBy { (it["chainId"] as Number).toLong()  }
+        .forEach { jsonObject ->
+            chainJSONArray.add(jsonObject)
+            fullJSONFile.writeText(chainJSONArray.toJsonString())
+            prettyJSONFile.writeText(chainJSONArray.toJsonString(prettyPrint = true))
 
-        val miniJSON = JsonObject()
-        listOf("name", "chainId", "shortName", "networkId", "nativeCurrency", "rpc", "faucets", "infoURL").forEach { field ->
-            jsonObject[field]?.let { content ->
-                miniJSON[field] = content
+            val miniJSON = JsonObject()
+            listOf("name", "chainId", "shortName", "networkId", "nativeCurrency", "rpc", "faucets", "infoURL").forEach { field ->
+                jsonObject[field]?.let { content ->
+                    miniJSON[field] = content
+                }
             }
-        }
-        miniChainJSONArray.add(miniJSON)
+            miniChainJSONArray.add(miniJSON)
 
-        miniJSONFile.writeText(miniChainJSONArray.toJsonString())
-        prettyMiniJSONFile.writeText(miniChainJSONArray.toJsonString(prettyPrint = true))
-    }
+            miniJSONFile.writeText(miniChainJSONArray.toJsonString())
+            prettyMiniJSONFile.writeText(miniChainJSONArray.toJsonString(prettyPrint = true))
+        }
 
     File(buildPath, "index.html").writeText(
         """
