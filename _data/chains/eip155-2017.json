@@ -1,0 +1,22 @@
+{
+  "name": "Orbit Chain",
+  "chain": "ORC",
+  "network": "mainnet",
+  "rpc": [
+    "https://rpc.orbitchain.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ORC",
+    "symbol": "ORC",
+    "decimals": 18
+  },
+  "infoURL": "https://orbitchain.io/",
+  "shortName": "orc",
+  "chainId": 2017,
+  "networkId": 2017,
+  "explorers": [{
+    "name": "explorer",
+    "url": "https://explorer.orbitchain.io"
+  }]
+}
