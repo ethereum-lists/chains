@@ -1,0 +1,24 @@
+{
+  "name": "Plian Testnet Subchain 1",
+  "chain": "PI",
+  "network": "testnet",
+  "rpc": [
+    "http://testnet.plian.io:6969/child_test",
+    "https://testnet.plian.io/child_test"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Plian Native Token",
+    "symbol": "PI",
+    "decimals": 18
+  },
+  "infoURL": "https://plian.org/",
+  "shortName": "pi",
+  "chainId": 10067275,
+  "networkId": 10067275,
+  "explorers": [{
+    "name": "piscan",
+    "url": "https://testnet.plian.org/child_test",
+    "standard": "EIP3091"
+  }]
+}

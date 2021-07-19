@@ -1,0 +1,24 @@
+{
+  "name": "Plian Testnet Main Chain",
+  "chain": "PI",
+  "network": "testnet",
+  "rpc": [
+    "http://testnet.plian.io:6969/testnet",
+    "https://testnet.plian.io/testnet"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Plian Native Token",
+    "symbol": "PI",
+    "decimals": 18
+  },
+  "infoURL": "https://plian.org",
+  "shortName": "pi",
+  "chainId": 16658437,
+  "networkId": 16658437,
+  "explorers": [{
+    "name": "piscan",
+    "url": "https://testnet.plian.org/testnet",
+    "standard": "EIP3091"
+  }]
+}
