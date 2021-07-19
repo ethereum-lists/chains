@@ -1,0 +1,24 @@
+{
+  "name": "Plian Mainnet Main Chain",
+  "chain": "PI",
+  "network": "mainnet",
+  "rpc": [
+    "https://mainnet.plian.io/pchain",
+    "http://mainnet.plian.io:6969/pchain"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Plian Native Token",
+    "symbol": "PI",
+    "decimals": 18
+  },
+  "infoURL": "https://plian.org/",
+  "shortName": "pi",
+  "chainId": 2099156,
+  "networkId": 2099156,
+  "explorers": [{
+    "name": "piscan",
+    "url": "https://piscan.plian.org/pchain",
+    "standard": "EIP3091"
+  }]
+}
