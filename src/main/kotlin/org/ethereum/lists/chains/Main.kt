@@ -8,17 +8,81 @@ import org.ethereum.lists.chains.model.*
 import org.kethereum.erc55.isValid
 import org.kethereum.model.Address
 import org.kethereum.rpc.HttpEthereumRPC
+import java.lang.IllegalArgumentException
 
 val parsedShortNames = mutableSetOf<String>()
 val parsedNames = mutableSetOf<String>()
 
 val iconsPath = File("_data/icons")
 
+val chainsPath = File("_data/chains")
+private val allFiles = chainsPath.listFiles() ?: error("$chainsPath must contain the chain json files - but it does not")
+private val allChainFiles = allFiles.filter { !it.isDirectory }
+
 fun main(args: Array<String>) {
 
-    val allFiles = File("_data/chains").listFiles() ?: return
-    allFiles.filter { !it.isDirectory }.forEach {
-        checkChain(it, args.contains("rpcConnect"))
+    doChecks(doRPCConnect = args.contains("rpcConnect"))
+
+    createOutputFiles()
+}
+
+private fun createOutputFiles() {
+    val buildPath = File("output")
+    buildPath.mkdir()
+
+    val fullJSONFile = File(buildPath, "chains.json")
+    val prettyJSONFile = File(buildPath, "chains_pretty.json")
+    val miniJSONFile = File(buildPath, "chains_mini.json")
+    val prettyMiniJSONFile = File(buildPath, "chains_mini_pretty.json")
+
+    val chainJSONArray = JsonArray<JsonObject>()
+    val miniChainJSONArray = JsonArray<JsonObject>()
+
+    allChainFiles
+        .map { Klaxon().parseJsonObject(it.reader()) }
+        .sortedBy { (it["chainId"] as Number).toLong()  }
+        .forEach { jsonObject ->
+            chainJSONArray.add(jsonObject)
+            fullJSONFile.writeText(chainJSONArray.toJsonString())
+            prettyJSONFile.writeText(chainJSONArray.toJsonString(prettyPrint = true))
+
+            val miniJSON = JsonObject()
+            listOf("name", "chainId", "shortName", "networkId", "nativeCurrency", "rpc", "faucets", "infoURL").forEach { field ->
+                jsonObject[field]?.let { content ->
+                    miniJSON[field] = content
+                }
+            }
+            miniChainJSONArray.add(miniJSON)
+
+            miniJSONFile.writeText(miniChainJSONArray.toJsonString())
+            prettyMiniJSONFile.writeText(miniChainJSONArray.toJsonString(prettyPrint = true))
+        }
+
+    File(buildPath, "index.html").writeText(
+        """
+            <!DOCTYPE HTML>
+            <html lang="en-US">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="refresh" content="0; url=https://chainlist.org">
+                    <script type="text/javascript">
+                        window.location.href = "https://chainlist.org"
+                    </script>
+                    <title>Page Redirection</title>
+                </head>
+                <body>
+                    If you are not redirected automatically, follow this <a href='https://chainlist.org'>link to chainlist.org</a>.
+                </body>
+            </html>
+    """.trimIndent()
+    )
+
+    File(buildPath, "CNAME").writeText("chainid.network")
+}
+
+private fun doChecks(doRPCConnect: Boolean) {
+    allChainFiles.forEach {
+        checkChain(it, doRPCConnect)
     }
 
     val allIcons = iconsPath.listFiles() ?: return
@@ -144,6 +208,25 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
         if (!address.isValid()) {
             throw ENSRegistryAddressMustBeValid()
         }
+    }
+
+    jsonObject["parent"]?.let {
+        if (it !is JsonObject) {
+            throw ParentMustBeObject()
+        }
+
+        if (it.keys != mutableSetOf("chain", "type")) {
+            throw ParentMustHaveChainAndType()
+        }
+
+        if (!setOf("L2", "shard").contains(it["type"])) {
+            throw ParentHasInvalidType(it["type"] as? String)
+        }
+
+        if (!File(chainFile.parentFile, it["chain"] as String + ".json").exists()) {
+            throw ParentChainDoesNotExist(it["chain"] as String)
+        }
+
     }
 
     if (connectRPC) {

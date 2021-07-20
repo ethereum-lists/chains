@@ -1,0 +1,19 @@
+{
+  "name": "Theta Sapphire Testnet",
+  "chain": "Theta",
+  "network": "testnet_sapphire",
+  "rpc": [
+    "https://eth-rpc-api-sapphire.thetatoken.org"
+  ],
+  "faucets": [
+  ],
+  "nativeCurrency": {
+    "name": "Theta Fuel",
+    "symbol": "TFUEL",
+    "decimals": 18
+  },
+  "infoURL": "https://www.thetatoken.org/",
+  "shortName": "theta-sapphire",
+  "chainId": 363,
+  "networkId": 363
+}

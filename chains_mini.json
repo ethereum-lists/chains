@@ -1,5 +1,0 @@
----
-layout: none
-permalink: chains_mini.json
----
-[{% assign chains = site.data.chains | sort %}{% for json in chains %}{% if json[0] != "deprecated" %}{% assign chain = json[1] %}{"name":"{{chain.name}}","chainId":{{chain.chainId}},"shortName":"{{chain.shortName}}","networkId":{{chain.networkId}},"nativeCurrency":{"name":"{{chain.nativeCurrency["name"]}}","symbol":"{{chain.nativeCurrency["symbol"]}}","decimals":{{chain.nativeCurrency["decimals"]}}},"rpc":[{% for rpc in chain.rpc %}"{{rpc}}"{% unless forloop.last %},{% endunless %}{%endfor%}],"faucets":[{% for faucet in chain.faucets %}"{{faucet}}"{% unless forloop.last %},{% endunless %}{%endfor%}],"infoURL":"{{chain.infoURL}}"}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
