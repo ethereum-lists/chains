@@ -20,5 +20,9 @@
     "name": "piscan",
     "url": "https://piscan.plian.org/child_0",
     "standard": "EIP3091"
-  }]
+  }],
+  "parent": {
+    "chain": "eip155-2099156",
+    "type": "L2"
+  }
 }

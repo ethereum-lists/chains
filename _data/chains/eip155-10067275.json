@@ -20,5 +20,9 @@
     "name": "piscan",
     "url": "https://testnet.plian.org/child_test",
     "standard": "EIP3091"
-  }]
+  }],
+  "parent": {
+    "chain": "eip155-16658437",
+    "type": "L2"
+  }
 }
