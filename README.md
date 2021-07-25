@@ -59,6 +59,10 @@ There are also aggregated json files with all chains automatically assembled:
  * https://chainid.network/chains.json
  * https://chainid.network/chains_mini.json (miniaturized - fewer fields for smaller filesize)
 
+## Collision management
+
+ If different chains have the same chainID we list the one with the oldest genesis.
+
 ## Usages
 
  * [chainlist.org](https://chainlist.org) or [networklist-org.vercel.app](https://networklist-org.vercel.app) as a staging version with a more up-to-date list
