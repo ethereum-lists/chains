@@ -3,7 +3,7 @@
   "chain": "QuarkChain",
   "network": "mainnet",
   "rpc": [
-    "http://jrpc.mainnet.quarkchain.io:39007/"
+    "http://eth-jrpc.mainnet.quarkchain.io:39007/"
   ],
   "faucets": [
   ],
@@ -19,5 +19,10 @@
   "parent": {
     "chain": "eip155-100000",
     "type": "shard"
-  }
+  },
+  "explorers": [{
+    "name": "quarkchain-mainnet",
+    "url": "https://mainnet.quarkchain.io/7",
+    "standard": "EIP3091"
+  }]
 }
