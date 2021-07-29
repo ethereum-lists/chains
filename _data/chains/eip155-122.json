@@ -14,5 +14,12 @@
   "infoURL": "https://fuse.io/",
   "shortName": "fuse",
   "chainId": 122,
-  "networkId": 122
+  "networkId": 122,
+  "explorers": [
+      {
+        "name": "Fuse Explorer",
+        "url": "https://explorer.fuse.io",
+        "standard": "EIP3091"
+      }
+    ]
 }
