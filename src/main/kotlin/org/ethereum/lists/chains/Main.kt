@@ -8,7 +8,6 @@ import org.ethereum.lists.chains.model.*
 import org.kethereum.erc55.isValid
 import org.kethereum.model.Address
 import org.kethereum.rpc.HttpEthereumRPC
-import java.lang.IllegalArgumentException
 
 val parsedShortNames = mutableSetOf<String>()
 val parsedNames = mutableSetOf<String>()
@@ -27,14 +26,7 @@ fun main(args: Array<String>) {
 }
 
 private fun createOutputFiles() {
-    val buildPath = File("output")
-    buildPath.mkdir()
-
-    val fullJSONFile = File(buildPath, "chains.json")
-    val prettyJSONFile = File(buildPath, "chains_pretty.json")
-    val miniJSONFile = File(buildPath, "chains_mini.json")
-    val prettyMiniJSONFile = File(buildPath, "chains_mini_pretty.json")
-    val shortNameMappingJSONFIle = File(buildPath, "shortNameMapping.json")
+    val buildPath = File("output").apply { mkdir() }
 
     val chainJSONArray = JsonArray<JsonObject>()
     val miniChainJSONArray = JsonArray<JsonObject>()
@@ -45,8 +37,7 @@ private fun createOutputFiles() {
         .sortedBy { (it["chainId"] as Number).toLong()  }
         .forEach { jsonObject ->
             chainJSONArray.add(jsonObject)
-            fullJSONFile.writeText(chainJSONArray.toJsonString())
-            prettyJSONFile.writeText(chainJSONArray.toJsonString(prettyPrint = true))
+
 
             val miniJSON = JsonObject()
             listOf("name", "chainId", "shortName", "networkId", "nativeCurrency", "rpc", "faucets", "infoURL").forEach { field ->
@@ -57,11 +48,16 @@ private fun createOutputFiles() {
             miniChainJSONArray.add(miniJSON)
 
             shortNameMapping[jsonObject["shortName"] as String] = "eip155:" + jsonObject["chainId"]
-            miniJSONFile.writeText(miniChainJSONArray.toJsonString())
-            prettyMiniJSONFile.writeText(miniChainJSONArray.toJsonString(prettyPrint = true))
+
         }
 
-    shortNameMappingJSONFIle.writeText(shortNameMapping.toJsonString(prettyPrint = true))
+    File(buildPath, "chains.json").writeText(chainJSONArray.toJsonString())
+    File(buildPath, "chains_pretty.json").writeText(chainJSONArray.toJsonString(prettyPrint = true))
+
+    File(buildPath, "chains_mini.json").writeText(miniChainJSONArray.toJsonString())
+    File(buildPath, "chains_mini_pretty.json").writeText(miniChainJSONArray.toJsonString(prettyPrint = true))
+
+    File(buildPath, "shortNameMapping.json").writeText(shortNameMapping.toJsonString(prettyPrint = true))
     File(buildPath, "index.html").writeText(
         """
             <!DOCTYPE HTML>
