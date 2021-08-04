@@ -34,9 +34,11 @@ private fun createOutputFiles() {
     val prettyJSONFile = File(buildPath, "chains_pretty.json")
     val miniJSONFile = File(buildPath, "chains_mini.json")
     val prettyMiniJSONFile = File(buildPath, "chains_mini_pretty.json")
+    val shortNameMappingJSONFIle = File(buildPath, "shortNameMapping.json")
 
     val chainJSONArray = JsonArray<JsonObject>()
     val miniChainJSONArray = JsonArray<JsonObject>()
+    val shortNameMapping = JsonObject()
 
     allChainFiles
         .map { Klaxon().parseJsonObject(it.reader()) }
@@ -54,10 +56,12 @@ private fun createOutputFiles() {
             }
             miniChainJSONArray.add(miniJSON)
 
+            shortNameMapping[jsonObject["shortName"] as String] = "eip155:" + jsonObject["chainId"]
             miniJSONFile.writeText(miniChainJSONArray.toJsonString())
             prettyMiniJSONFile.writeText(miniChainJSONArray.toJsonString(prettyPrint = true))
         }
 
+    shortNameMappingJSONFIle.writeText(shortNameMapping.toJsonString(prettyPrint = true))
     File(buildPath, "index.html").writeText(
         """
             <!DOCTYPE HTML>
