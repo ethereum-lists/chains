@@ -15,5 +15,9 @@
   "infoURL": "https://iotex.io",
   "shortName": "iotex-mainnet",
   "chainId": 4689,
-  "networkId": 4689
+  "networkId": 4689,
+  "explorers": [{
+    "name": "iotexscan",
+    "url": "http://iotexscan.io"
+  }]
 }

@@ -16,5 +16,9 @@
   "infoURL": "https://iotex.io",
   "shortName": "iotex-testnet",
   "chainId": 4690,
-  "networkId": 4690
+  "networkId": 4690,
+  "explorers": [{
+    "name": "testnet iotexscan",
+    "url": "http://testnet.iotexscan.io"
+  }]
 }
