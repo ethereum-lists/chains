@@ -1,0 +1,19 @@
+{
+    "name": "Proton Testnet",
+    "chain": "XPR",
+    "network": "testnet",
+    "rpc": [
+      "https://protontestnet.greymass.com/"
+    ],
+    "faucets": [
+    ],
+    "nativeCurrency": {
+      "name": "Proton",
+      "symbol": "XPR",
+      "decimals": 4
+    },
+    "infoURL": "https://protonchain.com",
+    "shortName": "xpr",
+    "chainId": 110,
+    "networkId": 110
+  }
