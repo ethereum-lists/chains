@@ -1,0 +1,22 @@
+{
+    "name": "Proton Mainnet",
+    "chain": "XPR",
+    "network": "mainnet",
+    "rpc": [
+      "https://protonscan.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Proton",
+      "symbol": "XPR",
+      "decimals": 4
+    },
+    "infoURL": "https://protonchain.com",
+    "shortName": "xpr",
+    "chainId": 49,
+    "networkId": 49,
+    "explorers": [{
+      "name": "protonscan",
+      "url": "https://protonscan.io"
+    }]
+  }
