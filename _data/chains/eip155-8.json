@@ -16,5 +16,10 @@
   "shortName": "ubq",
   "chainId": 8,
   "networkId": 8,
-  "slip44": 108
+  "slip44": 108,
+  "explorers": [{
+    "name": "ubiqscan",
+    "url": "https://ubiqscan.io",
+    "standard": "EIP3091"
+  }]
 }
