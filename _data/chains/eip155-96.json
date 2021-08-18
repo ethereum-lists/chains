@@ -1,0 +1,25 @@
+{
+  "name": "Bitkub Chain Mainnet",
+  "shortName": "bkc",
+  "chain": "BKC",
+  "network": "mainnet",
+  "chainId": 96,
+  "networkId": 96,
+  "infoURL": "https://www.bitkubchain.com/",
+  "rpc": [
+    "https://rpc.bitkubchain.io",
+    "wss://wss.bitkubchain.io"
+  ],
+  "nativeCurrency": {
+    "name": "Bitkub Coin",
+    "symbol": "KUB",
+    "decimals": 18
+  },
+  "explorers": [
+    {
+      "name": "BKCScan",
+      "url": "https://www.bkcscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
