@@ -1,0 +1,25 @@
+{
+    "name": "Scallop Testnet",
+    "chain": "Scallop",
+    "network": "testnet",
+    "rpc": [
+      "https://testnet.scallopx.com:26657"
+    ],
+    "faucets": [
+        "https://faucet.scallopx.com/"
+    ],
+    "nativeCurrency": {
+      "name": "Scallop",
+      "symbol": "SCLP",
+      "decimals": 18
+    },
+    "infoURL": "https://www.scallopx.com/",
+    "shortName": "scp",
+    "chainId": 91,
+    "networkId": 91,
+    "explorers": [{
+      "name": "Scallop Block Explorer",
+      "url": "https://explorer.scallopx.com",
+      "standard": "EIP3091"
+    }]
+}

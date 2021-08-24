@@ -1,0 +1,23 @@
+{
+  "name": "Ethereum Mainnet",
+  "shortName": "eth",
+  "chain": "ETH",
+  "network": "mainnet",
+  "chainId": 100,
+  "networkId": 1,
+  "rpc": [
+    "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
+    "https://api.mycryptoapi.com/eth"
+  ],
+  "faucets": [],
+  "infoURL": "https://ethereum.org",
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "ens": {
+    "registry":"0x112234455c3a32fd11230c42e7bccd4a84e02010",
+    "yolo": 1
+  }
+}
