@@ -3,22 +3,20 @@
   "chain": "SYS",
   "network": "testnet",
   "rpc": [
-    "https://tanenbaum.io/api",
-    "wss://???.io/ws"
+    "https://tanenbaum.io/api/eth-rpc"
   ],
   "faucets": ["https://faucet.tanenbaum.io"]
   "nativeCurrency": {
-    "name": "Syscoin",
-    "symbol": "SYS",
+    "name": "Testnet Syscoin",
+    "symbol": "tSYS",
     "decimals": 18
   },
-  "infoURL": "https://www.syscoin.org",
+  "infoURL": "https://syscoin.org",
   "shortName": "sys",
-  "chainId": 5800,
-  "networkId": 5800,
+  "chainId": 5700,
+  "networkId": 5700,
   "explorers": [{
     "name": "syscoin explorer",
-    "url": "https://syscoin.readme.io/",
-    "standard": "EIP3091???"
+    "url": "https://tanenbaum.io"
   }]
 }

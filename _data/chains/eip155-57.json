@@ -3,10 +3,11 @@
   "chain": "SYS",
   "network": "mainnet",
   "rpc": [
-    "https://tanenbaum.io/api",
-    "wss://???.io/ws"
+    "https://nevm.syscoin.org/api/eth-rpc",
+    "https://web3.syscoin.org",
+    "wss://web3.syscoin.org"
   ],
-  "faucets": ["https://faucet.tanenbaum.io"]
+  "faucets": ["https://faucet.syscoin.org"]
   "nativeCurrency": {
     "name": "Syscoin",
     "symbol": "SYS",
@@ -18,7 +19,6 @@
   "networkId": 57,
   "explorers": [{
     "name": "syscoin explorer",
-    "url": "https://tanenbaum.io",
-    "standard": "EIP3091???"
+    "url": "https://nevm.syscoin.org"
   }]
 }
