@@ -1,0 +1,23 @@
+{
+  "name": "QuarkChain Mainnet Shard 5",
+  "chain": "QuarkChain",
+  "network": "mainnet",
+  "rpc": [
+    "http://jrpc.mainnet.quarkchain.io:39005/"
+  ],
+  "faucets": [
+  ],
+  "nativeCurrency": {
+    "name": "QKC",
+    "symbol": "QKC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.quarkchain.io/",
+  "shortName": "qkc-s5",
+  "chainId": 100006,
+  "networkId": 100006,
+  "parent": {
+    "chain": "eip155-100000",
+    "type": "shard"
+  }
+}

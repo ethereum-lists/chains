@@ -1,0 +1,21 @@
+{
+    "name": "MetaDot Testnet",
+    "chain": "MTTTest",
+    "network": "devnet",
+    "rpc": [
+      "https://testnet.metadot.network"
+    ],
+    "faucets": [
+      "https://faucet.metadot.network/"
+    ],
+    "nativeCurrency": {
+      "name": "MetaDot Token TestNet",
+      "symbol": "MTT-test",
+      "decimals": 18
+    },
+    "infoURL": "https://metadot.network",
+    "shortName": "mtttest",
+    "chainId": 16001,
+    "networkId": 16001
+  }
+  

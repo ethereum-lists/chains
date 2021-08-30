@@ -14,11 +14,75 @@ val parsedNames = mutableSetOf<String>()
 
 val iconsPath = File("_data/icons")
 
+val chainsPath = File("_data/chains")
+private val allFiles = chainsPath.listFiles() ?: error("$chainsPath must contain the chain json files - but it does not")
+private val allChainFiles = allFiles.filter { !it.isDirectory }
+
 fun main(args: Array<String>) {
 
-    val allFiles = File("_data/chains").listFiles() ?: return
-    allFiles.filter { !it.isDirectory }.forEach {
-        checkChain(it, args.contains("rpcConnect"))
+    doChecks(doRPCConnect = args.contains("rpcConnect"))
+
+    createOutputFiles()
+}
+
+private fun createOutputFiles() {
+    val buildPath = File("output").apply { mkdir() }
+
+    val chainJSONArray = JsonArray<JsonObject>()
+    val miniChainJSONArray = JsonArray<JsonObject>()
+    val shortNameMapping = JsonObject()
+
+    allChainFiles
+        .map { Klaxon().parseJsonObject(it.reader()) }
+        .sortedBy { (it["chainId"] as Number).toLong()  }
+        .forEach { jsonObject ->
+            chainJSONArray.add(jsonObject)
+
+
+            val miniJSON = JsonObject()
+            listOf("name", "chainId", "shortName", "networkId", "nativeCurrency", "rpc", "faucets", "infoURL").forEach { field ->
+                jsonObject[field]?.let { content ->
+                    miniJSON[field] = content
+                }
+            }
+            miniChainJSONArray.add(miniJSON)
+
+            shortNameMapping[jsonObject["shortName"] as String] = "eip155:" + jsonObject["chainId"]
+
+        }
+
+    File(buildPath, "chains.json").writeText(chainJSONArray.toJsonString())
+    File(buildPath, "chains_pretty.json").writeText(chainJSONArray.toJsonString(prettyPrint = true))
+
+    File(buildPath, "chains_mini.json").writeText(miniChainJSONArray.toJsonString())
+    File(buildPath, "chains_mini_pretty.json").writeText(miniChainJSONArray.toJsonString(prettyPrint = true))
+
+    File(buildPath, "shortNameMapping.json").writeText(shortNameMapping.toJsonString(prettyPrint = true))
+    File(buildPath, "index.html").writeText(
+        """
+            <!DOCTYPE HTML>
+            <html lang="en-US">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="refresh" content="0; url=https://chainlist.org">
+                    <script type="text/javascript">
+                        window.location.href = "https://chainlist.org"
+                    </script>
+                    <title>Page Redirection</title>
+                </head>
+                <body>
+                    If you are not redirected automatically, follow this <a href='https://chainlist.org'>link to chainlist.org</a>.
+                </body>
+            </html>
+    """.trimIndent()
+    )
+
+    File(buildPath, "CNAME").writeText("chainid.network")
+}
+
+private fun doChecks(doRPCConnect: Boolean) {
+    allChainFiles.forEach {
+        checkChain(it, doRPCConnect)
     }
 
     val allIcons = iconsPath.listFiles() ?: return
@@ -144,6 +208,25 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
         if (!address.isValid()) {
             throw ENSRegistryAddressMustBeValid()
         }
+    }
+
+    jsonObject["parent"]?.let {
+        if (it !is JsonObject) {
+            throw ParentMustBeObject()
+        }
+
+        if (it.keys != mutableSetOf("chain", "type")) {
+            throw ParentMustHaveChainAndType()
+        }
+
+        if (!setOf("L2", "shard").contains(it["type"])) {
+            throw ParentHasInvalidType(it["type"] as? String)
+        }
+
+        if (!File(chainFile.parentFile, it["chain"] as String + ".json").exists()) {
+            throw ParentChainDoesNotExist(it["chain"] as String)
+        }
+
     }
 
     if (connectRPC) {
