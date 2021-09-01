@@ -5,7 +5,7 @@
   "rpc": [
     "https://tanenbaum.io/api/eth-rpc"
   ],
-  "faucets": ["https://faucet.tanenbaum.io"]
+  "faucets": ["https://faucet.tanenbaum.io"],
   "nativeCurrency": {
     "name": "Testnet Syscoin",
     "symbol": "tSYS",
@@ -14,9 +14,5 @@
   "infoURL": "https://syscoin.org",
   "shortName": "sys",
   "chainId": 5700,
-  "networkId": 5700,
-  "explorers": [{
-    "name": "syscoin explorer",
-    "url": "https://tanenbaum.io"
-  }]
+  "networkId": 5700
 }
