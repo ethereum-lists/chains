@@ -1,10 +1,10 @@
 {
-  "name": "OneLedger Nexus Mainnet",
+  "name": "OneLedger Mainnet",
   "chain": "OLT",
   "network": "mainnet",
   "icon": "oneledger",
   "rpc": [
-    "https://nexus-rpc.oneledger.network"
+    "https://mainnet-rpc.oneledger.network"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,13 +13,13 @@
     "decimals": 18
   },
   "infoURL": "https://oneledger.io",
-  "shortName": "nexus",
+  "shortName": "oneledger",
   "chainId": 311752642,
   "networkId": 311752642,
   "explorers": [
     {
       "name": "OneLedger Block Explorer",
-      "url": "https://nexus-explorer.oneledger.network",
+      "url": "https://mainnet-explorer.oneledger.network",
       "standard": "EIP3091"
     }
   ]
