@@ -1,18 +1,22 @@
 {
-  "name": "OMG Network",
+  "name": "Boba Network",
   "chain": "ETH",
   "network": "mainnet",
-  "rpc": ["https://omgx.network/"],
+  "rpc": ["https://boba.network/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "OETH",
     "decimals": 18
   },
-  "icon": "omgx",
-  "infoURL": "https://www.omgx.network/",
-  "shortName": "omgx",
+  "icon": "boba",
+  "infoURL": "https://www.boba.network/",
+  "shortName": "boba",
   "chainId": 288,
   "networkId": 288,
-  "explorers": []
+  "explorers": [{
+      "name": "boba",
+      "url": "https://blockexplorer.boba.network",
+      "standard": "EIP3091"
+    }]
 }

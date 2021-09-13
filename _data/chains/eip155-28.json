@@ -1,22 +1,22 @@
 {
-  "name": "OMG Network Testnet Rinkeby",
+  "name": "Boba Network Testnet Rinkeby",
   "chain": "ETH",
   "network": "rinkeby",
-  "rpc": ["https://rinkeby.omgx.network/"],
+  "rpc": ["https://rinkeby.boba.network/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Rinkeby Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "icon": "omgx",
-  "infoURL": "https://www.omgx.network/",
-  "shortName": "omgx",
+  "icon": "boba",
+  "infoURL": "https://www.boba.network/",
+  "shortName": "boba",
   "chainId": 28,
   "networkId": 28,
   "explorers": [{
-    "name": "omgx",
-    "url": "https://blockexplorer.rinkeby.omgx.network",
+    "name": "boba",
+    "url": "https://blockexplorer.rinkeby.boba.network",
     "standard": "EIP3091"
   }]
 }
