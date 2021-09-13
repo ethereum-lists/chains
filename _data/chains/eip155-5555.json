@@ -1,0 +1,19 @@
+{
+  "name": "Pulse Chain Testnet",
+  "shortName": "pls",
+  "chain": "PLS",
+  "network": "testnet",
+  "chainId": 5555,
+  "networkId": 5555,
+  "infoURL": "https://pulsechain.com/",
+  "rpc": [
+    "https://rpc.testnet.pulsechain.com/v1/${PULSECHAIN_API_KEY}",
+    "wss://rpc.testnet.pulsechain.com/ws/v1/${PULSECHAIN_API_KEY}"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Pulse",
+    "symbol": "PLS",
+    "decimals": 18
+  }
+}
