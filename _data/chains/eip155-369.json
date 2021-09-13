@@ -7,8 +7,8 @@
   "networkId": 369,
   "infoURL": "https://pulsechain.com/",
   "rpc": [
-    "https://mainnet.pulsechain.com/v1/${PULSECHAIN_API_KEY}",
-    "wss://mainnet.pulsechain.com/ws/v1/${PULSECHAIN_API_KEY}"
+    "https://rpc.mainnet.pulsechain.com/v1/${PULSECHAIN_API_KEY}",
+    "wss://rpc.mainnet.pulsechain.com/ws/v1/${PULSECHAIN_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
