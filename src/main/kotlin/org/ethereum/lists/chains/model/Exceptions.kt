@@ -19,4 +19,8 @@ class ExplorerStandardMustBeEIP3091: Exception("explorer standard must be EIP309
 class ParentHasInvalidType(type: String?): Exception("Parent has invalid type $type - only L2 or shard allowed")
 class ParentMustBeObject: Exception("parent must be an object")
 class ParentMustHaveChainAndType: Exception("parent must have fields 'chain' and 'type'")
+class ParentHasExtraFields(fields: Set<String>): Exception("parent has extra field: $fields")
+class ParentBridgeNoArray: Exception("parent bridge must be array")
+class BridgeNoObject: Exception("parent bridges must be array consisting of json objects")
+class BridgeOnlyURL: Exception("parent bridge only contain an URL")
 class ParentChainDoesNotExist(chain: String): Exception("Referenced parent chain ($chain) does not exist")
