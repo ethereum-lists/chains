@@ -10,7 +10,7 @@
     "https://myhpbwallet.com/"
   ],
   "nativeCurrency": {
-    "name": "High Performance Blockchain Ether",
+    "name": "HPB",
     "symbol": "HPB",
     "decimals": 18
   },
@@ -18,9 +18,11 @@
   "shortName": "hpb",
   "chainId": 269,
   "networkId": 269,
-  "slip44": 269,
+  "slip44": 269
+  "icon": "High Performance Blockchain",
   "explorers": [{
     "name": "hpbscan",
-    "url": "https://hpbscan.org/"
+    "url": "https://hpbscan.org/",
+    "standard": "EIP3091"
   }]
 }
