@@ -1,0 +1,20 @@
+{
+  "name": "RSK Mainnet",
+  "chain": "RSK",
+  "network": "mainnet",
+  "rpc": [
+    "https://public-node.rsk.co",
+    "https://mycrypto.rsk.co"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "RSK Mainnet Ether",
+    "symbol": "RBTC",
+    "decimals": 18
+  },
+  "infoURL": "https://rsk.co",
+  "shortName": "rsk",
+  "chainId": 30,
+  "networkId": 30,
+  "slip44": 137
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Ether-1",
+  "chain": "ETHO",
+  "network": "mainnet",
+  "rpc": [
+    "https://rpc.ether1.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether-1 Ether",
+    "symbol": "ETHO",
+    "decimals": 18
+  },
+  "infoURL": "https://ether1.org",
+  "shortName": "etho",
+  "chainId": 1313114,
+  "networkId": 1313114,
+  "slip44": 1313114
+}

@@ -1,0 +1,25 @@
+{
+  "name": "xDAI Chain",
+  "chain": "XDAI",
+  "network": "mainnet",
+  "rpc": [
+    "https://rpc.xdaichain.com",
+    "https://xdai.poanetwork.dev",
+    "wss://rpc.xdaichain.com/wss",
+    "wss://xdai.poanetwork.dev/wss",
+    "http://xdai.poanetwork.dev",
+    "https://dai.poa.network",
+    "ws://xdai.poanetwork.dev:8546"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "xDAI",
+    "symbol": "xDAI",
+    "decimals": 18
+  },
+  "infoURL": "https://forum.poa.network/c/xdai-chain",
+  "shortName": "xdai",
+  "chainId": 100,
+  "networkId": 100,
+  "slip44": 700
+}

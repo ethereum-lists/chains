@@ -1,0 +1,20 @@
+{
+  "name": "bloxberg",
+  "chain": "bloxberg",
+  "network": "mainnet",
+  "rpc": [
+    "https://core.bloxberg.org"
+  ],
+  "faucets": [
+    "https://faucet.bloxberg.org/"
+  ],
+  "nativeCurrency": {
+    "name": "BERG",
+    "symbol": "U+25B3",
+    "decimals": 18
+  },
+  "infoURL": "https://bloxberg.org",
+  "shortName": "berg",
+  "chainId": 8995,
+  "networkId": 8995
+}

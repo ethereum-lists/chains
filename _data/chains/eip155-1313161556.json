@@ -1,0 +1,18 @@
+{
+  "name": "Aurora BetaNet",
+  "chain": "NEAR",
+  "network": "betanet",
+  "rpc": [
+    "https://rpc.betanet.aurora.dev:8545"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "aETH",
+    "decimals": 18
+  },
+  "infoURL": "https://aurora.dev",
+  "shortName": "aurora-betanet",
+  "chainId": 1313161556,
+  "networkId": 1313161556
+}

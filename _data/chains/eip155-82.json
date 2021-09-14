@@ -1,0 +1,19 @@
+{
+  "name": "Meter Mainnet",
+  "chain": "METER",
+  "network": "mainnet",
+  "rpc": [
+    "https://rpc.meter.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Meter",
+    "symbol": "MTR",
+    "decimals": 18
+  },
+  "infoURL": "https://www.meter.io",
+  "shortName": "Meter",
+  "chainId": 82,
+  "networkId": 82
+}
+

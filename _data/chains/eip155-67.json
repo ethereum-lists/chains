@@ -1,0 +1,18 @@
+{
+  "name": "DBChain Testnet",
+  "chain": "DBM",
+  "network": "testnet",
+  "rpc": [
+    "http://test-rpc.dbmbp.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DBChain Testnet",
+    "symbol": "DBM",
+    "decimals": 18
+  },
+  "infoURL": "http://test.dbmbp.com",
+  "shortName": "dbm",
+  "chainId": 67,
+  "networkId": 67
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ELA-ETH-Sidechain Testnet",
+  "chain": "ETH",
+  "network": "testnet",
+  "rpc": [
+    "https://rpc.elaeth.io"
+  ],
+  "faucets": [
+    "https://faucet.elaeth.io/"
+  ],
+  "nativeCurrency": {
+    "name": "Elastos",
+    "symbol": "tELA",
+    "decimals": 18
+  },
+  "infoURL": "https://elaeth.io/",
+  "shortName": "elaetht",
+  "chainId": 21,
+  "networkId": 21
+}

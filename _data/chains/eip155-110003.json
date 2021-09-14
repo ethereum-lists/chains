@@ -1,0 +1,23 @@
+{
+  "name": "QuarkChain Devnet Shard 2",
+  "chain": "QuarkChain",
+  "network": "devnet",
+  "rpc": [
+    "http://jrpc.devnet.quarkchain.io:39002/"
+  ],
+  "faucets": [
+  ],
+  "nativeCurrency": {
+    "name": "QKC",
+    "symbol": "QKC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.quarkchain.io/",
+  "shortName": "qkc-d-s2",
+  "chainId": 110003,
+  "networkId": 110003,
+  "parent": {
+    "chain": "eip155-110000",
+    "type": "shard"
+  }
+}

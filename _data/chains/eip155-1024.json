@@ -1,0 +1,20 @@
+{
+    "name": "Clover Mainnet",
+    "chain": "Clover",
+    "network": "clover mainnet",
+    "rpc": [
+      "https://rpc-ivy.clover.finance",
+      "https://rpc-ivy-2.clover.finance",
+      "https://rpc-ivy-3.clover.finance"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "Clover",
+        "symbol": "CLV",
+        "decimals": 18
+    },
+    "infoURL": "https://clover.finance",
+    "shortName": "clv",
+    "chainId": 1024,
+    "networkId": 1024
+}

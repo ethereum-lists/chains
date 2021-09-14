@@ -1,0 +1,20 @@
+{
+  "name": "Lisinski",
+  "chain": "CRO",
+  "network": "mainnet",
+  "rpc": [
+    "https://rpc-bitfalls1.lisinski.online"
+  ],
+  "faucets": [
+    "https://pipa.lisinski.online"
+  ],
+  "nativeCurrency": {
+    "name": "Lisinski Ether",
+    "symbol": "LISINSKI",
+    "decimals": 18
+  },
+  "infoURL": "https://lisinski.online",
+  "shortName": "lisinski",
+  "chainId": 385,
+  "networkId": 385
+}

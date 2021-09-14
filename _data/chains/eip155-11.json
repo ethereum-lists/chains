@@ -1,0 +1,19 @@
+{
+  "name": "Metadium Mainnet",
+  "chain": "META",
+  "network": "mainnet",
+  "rpc": [
+    "https://api.metadium.com/prod"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Metadium Mainnet Ether",
+    "symbol": "META",
+    "decimals": 18
+  },
+  "infoURL": "https://metadium.com",
+  "shortName": "meta",
+  "chainId": 11,
+  "networkId": 11,
+  "slip44": 916
+}

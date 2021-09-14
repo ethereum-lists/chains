@@ -1,0 +1,25 @@
+{
+  "name": "Ubiq",
+  "chain": "UBQ",
+  "network": "mainnet",
+  "rpc": [
+    "https://rpc.octano.dev",
+    "https://pyrus2.ubiqscan.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ubiq Ether",
+    "symbol": "UBQ",
+    "decimals": 18
+  },
+  "infoURL": "https://ubiqsmart.com",
+  "shortName": "ubq",
+  "chainId": 8,
+  "networkId": 8,
+  "slip44": 108,
+  "explorers": [{
+    "name": "ubiqscan",
+    "url": "https://ubiqscan.io",
+    "standard": "EIP3091"
+  }]
+}

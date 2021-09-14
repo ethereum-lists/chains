@@ -1,0 +1,21 @@
+{
+  "name": "Polis Testnet",
+  "chain": "Sparta",
+  "network": "testnet",
+  "icon": "polis",
+  "rpc": [
+    "https://sparta-rpc.polis.tech"
+  ],
+  "faucets": [
+    "https://faucet.polis.tech"
+  ],
+  "nativeCurrency": {
+    "name": "tPolis",
+    "symbol": "tPOLIS",
+    "decimals": 18
+  },
+  "infoURL": "https://polis.tech",
+  "shortName": "sparta",
+  "chainId": 333888,
+  "networkId": 333888
+}

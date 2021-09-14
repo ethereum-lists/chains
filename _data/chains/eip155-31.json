@@ -1,0 +1,21 @@
+{
+  "name": "RSK Testnet",
+  "chain": "RSK",
+  "network": "testnet",
+  "rpc": [
+    "https://public-node.testnet.rsk.co",
+    "https://mycrypto.testnet.rsk.co"
+  ],
+  "faucets": [
+    "https://faucet.testnet.rsk.co"
+  ],
+  "nativeCurrency": {
+    "name": "RSK Testnet Ether",
+    "symbol": "tRBTC",
+    "decimals": 18
+  },
+  "infoURL": "https://rsk.co",
+  "shortName": "trsk",
+  "chainId": 31,
+  "networkId": 31
+}

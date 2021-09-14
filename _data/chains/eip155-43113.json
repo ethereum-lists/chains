@@ -1,0 +1,20 @@
+{
+  "name": "Avalanche Fuji Testnet",
+  "chain": "AVAX",
+  "network": "testnet",
+  "rpc": [
+    "https://api.avax-test.network/ext/bc/C/rpc"
+  ],
+  "faucets": [
+    "https://faucet.avax-test.network/"
+  ],
+  "nativeCurrency": {
+    "name": "Avalanche",
+    "symbol": "AVAX",
+    "decimals": 18
+  },
+  "infoURL": "https://cchain.explorer.avax-test.network",
+  "shortName": "Fuji",
+  "chainId": 43113,
+  "networkId": 1
+}

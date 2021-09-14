@@ -1,0 +1,19 @@
+{
+  "name": "Flare Testnet Coston",
+  "chain": "FLR",
+  "network": "coston",
+  "rpc": [
+  ],
+  "faucets": [
+    "https://faucet.towolabs.com"
+  ],
+  "nativeCurrency": {
+    "name": "Coston Spark",
+    "symbol": "CFLR",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/flare-eng/coston",
+  "shortName": "cflr",
+  "chainId": 16,
+  "networkId": 16
+}

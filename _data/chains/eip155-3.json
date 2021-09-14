@@ -1,0 +1,24 @@
+{
+  "name": "Ethereum Testnet Ropsten",
+  "chain": "ETH",
+  "network": "ropsten",
+  "rpc": [
+    "https://ropsten.infura.io/v3/${INFURA_API_KEY}",
+    "wss://ropsten.infura.io/ws/v3/${INFURA_API_KEY}"
+  ],
+  "faucets": [
+    "https://faucet.ropsten.be?${ADDRESS}"
+  ],
+  "nativeCurrency": {
+    "name": "Ropsten Ether",
+    "symbol": "ROP",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/ethereum/ropsten",
+  "shortName": "rop",
+  "chainId": 3,
+  "networkId": 3,
+  "ens": {
+    "registry":"0x112234455c3a32fd11230c42e7bccd4a84e02010"
+  }    
+}

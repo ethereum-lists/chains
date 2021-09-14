@@ -1,0 +1,21 @@
+{
+  "name": "POA Network Core",
+  "chain": "POA",
+  "network": "core",
+  "rpc": [
+    "https://core.poanetwork.dev",
+    "http://core.poanetwork.dev:8545",
+    "https://core.poa.network",
+    "ws://core.poanetwork.dev:8546"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "POA Network Core Ether",
+    "symbol": "SKL",
+    "decimals": 18
+  },
+  "infoURL": "https://poa.network",
+  "shortName": "skl",
+  "chainId": 99,
+  "networkId": 99
+}

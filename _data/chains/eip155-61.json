@@ -1,0 +1,19 @@
+{
+  "name": "Ethereum Classic Mainnet",
+  "chain": "ETC",
+  "network": "mainnet",
+  "rpc": [
+    "https://ethereumclassic.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ethereum Classic Ether",
+    "symbol": "ETC",
+    "decimals": 18
+  },
+  "infoURL": "https://ethereumclassic.org",
+  "shortName": "etc",
+  "chainId": 61,
+  "networkId": 1,
+  "slip44": 61
+}

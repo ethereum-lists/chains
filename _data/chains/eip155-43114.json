@@ -1,0 +1,18 @@
+{
+  "name": "Avalanche Mainnet",
+  "chain": "AVAX",
+  "network": "mainnet",
+  "rpc": [
+    "https://api.avax.network/ext/bc/C/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Avalanche",
+    "symbol": "AVAX",
+    "decimals": 18
+  },
+  "infoURL": "https://cchain.explorer.avax.network/",
+  "shortName": "Avalanche",
+  "chainId": 43114,
+  "networkId": 1    
+}

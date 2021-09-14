@@ -1,0 +1,22 @@
+{
+  "name": "Aquachain",
+  "chain": "AQUA",
+  "network": "mainnet",
+  "rpc": [
+    "https://c.onical.org",
+    "https://tx.aquacha.in/api"
+  ],
+  "faucets": [
+    "https://aquacha.in/faucet"
+  ],
+  "nativeCurrency": {
+    "name": "Aquachain Ether",
+    "symbol": "AQUA",
+    "decimals": 18
+  },
+  "infoURL": "https://aquachain.github.io",
+  "shortName": "aqua",
+  "chainId": 61717561,
+  "networkId": 61717561,
+  "slip44": 61717561
+}

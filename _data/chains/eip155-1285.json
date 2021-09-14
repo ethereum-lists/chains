@@ -1,0 +1,19 @@
+{
+  "name": "Moonriver",
+  "chain": "MOON",
+  "network": "moonriver",
+  "rpc": [
+    "https://rpc.moonriver.moonbeam.network",
+    "wss://wss.moonriver.moonbeam.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Moonriver",
+    "symbol": "MOVR",
+    "decimals": 18
+  },
+  "infoURL": "https://moonbeam.network/networks/moonriver/",
+  "shortName": "mriver",
+  "chainId": 1285,
+  "networkId": 1285
+}
