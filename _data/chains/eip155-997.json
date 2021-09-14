@@ -1,0 +1,24 @@
+{
+  "name": "Crypto Chain Mainnet",
+  "chain": "CTC",
+  "network": "mainnet",
+  "rpc": [
+    "https://rpc.cryptoth.io/",
+    "wss://wsnode.cryptoth.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Crypto Chain Token",
+    "symbol": "CTH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.cryptoth.io",
+  "shortName": "cth",
+  "chainId": 997,
+  "networkId": 997,
+  "explorers": [{
+    "name": "cryptoth",
+    "url": "https://explorers.cryptoth.io",
+    "standard": "EIP3091"
+  }]
+}
