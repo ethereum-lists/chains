@@ -53,6 +53,22 @@ where:
  * width and height are optional - but when one is there then the other must be there also
  * format is either "png", "jpg" or "svg"
 
+If the chain is an L2 you can link it to the parent chain like this:
+
+
+```json
+{
+  ...
+  "parent": {
+   "type" : "L2",
+   "parent": "eip155-1",
+   "bridges": [ {"url":"https://bridge.arbitrum.io"} ]
+  }
+}
+```
+
+where you need to specify type 2 and the reference to an existing parent. The field about bridges is optional.
+
 ## Aggregation  
 
 There are also aggregated json files with all chains automatically assembled:
