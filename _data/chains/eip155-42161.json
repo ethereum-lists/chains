@@ -32,7 +32,7 @@
   "infoURL": "https://arbitrum.io",
   "parent": {
      "type" : "L2",
-     "parent": "eip155-1",
+     "chain": "eip155-1",
      "bridges": [ {"url":"https://bridge.arbitrum.io"} ]
   }
 }
