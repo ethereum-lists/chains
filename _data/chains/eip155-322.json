@@ -1,9 +1,10 @@
 {
-  "name": "KuCoin Community Chain Testnet",
+  "name": "KCC Testnet",
   "chain": "KCC",
   "network": "testnet",
   "rpc": [
-    "https://rpc-testnet.kcc.network"
+    "https://rpc-testnet.kcc.network",
+    "wss://rpc-ws-testnet.kcc.network"
   ],
   "faucets": [
     "https://faucet-testnet.kcc.network"

@@ -3,7 +3,7 @@
   "chain": "Theta",
   "network": "testnet_amber",
   "rpc": [
-    "https://eth-rpc-api-amber.thetatoken.org"
+    "https://eth-rpc-api-amber.thetatoken.org/rpc"
   ],
   "faucets": [
   ],
@@ -15,5 +15,10 @@
   "infoURL": "https://www.thetatoken.org/",
   "shortName": "theta-amber",
   "chainId": 364,
-  "networkId": 364
+  "networkId": 364,
+  "explorers": [{
+    "name": "Theta Amber Testnet Explorer",
+    "url": "https://guardian-testnet-amber-explorer.thetatoken.org",
+    "standard": "EIP3091"
+  }]
 }

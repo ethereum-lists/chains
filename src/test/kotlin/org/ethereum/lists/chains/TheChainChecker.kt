@@ -35,6 +35,20 @@ class TheChainChecker {
         checkChain(file, false)
     }
 
+    @Test
+    fun shouldPassForValidChainWithParentBridge() {
+        val file = getFile("valid/withparentbridge/eip155-2.json")
+
+        checkChain(file, false)
+    }
+
+    @Test(expected = BridgeNoObject::class)
+    fun shouldFailForParentBridgeElementNoObject() {
+        val file = getFile("invalid/withparentextrabridgeelementnoobject/eip155-2.json")
+
+        checkChain(file, false)
+    }
+
     @Test(expected = ParentMustBeObject::class)
     fun shouldFailForParentNoObject() {
         val file = getFile("invalid/withparentnobject/eip155-2.json")
@@ -49,6 +63,33 @@ class TheChainChecker {
         checkChain(file, false)
     }
 
+    @Test(expected = ParentHasExtraFields::class)
+    fun shouldFailForParentWithExtraParentField() {
+        val file = getFile("invalid/withparentextrafield/eip155-2.json")
+
+        checkChain(file, false)
+    }
+
+    @Test(expected = ParentHasExtraFields::class)
+    fun shouldFailForParentWithExtraField() {
+        val file = getFile("invalid/withparentextrafield/eip155-2.json")
+
+        checkChain(file, false)
+    }
+
+    @Test(expected = BridgeOnlyURL::class)
+    fun shouldFailForParentWithExtraBridgesField() {
+        val file = getFile("invalid/withparentextrabridgesfield/eip155-2.json")
+
+        checkChain(file, false)
+    }
+
+    @Test(expected = ParentBridgeNoArray::class)
+    fun shouldFailForParentWithExtraBridgeNoArray() {
+        val file = getFile("invalid/withparentextrabridgesnoarray/eip155-2.json")
+
+        checkChain(file, false)
+    }
 
     @Test(expected = ParentChainDoesNotExist::class)
     fun shouldFailIfParentChainDoesNotExist() {

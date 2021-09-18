@@ -1,0 +1,26 @@
+{
+  "name": "OneLedger Mainnet",
+  "chain": "OLT",
+  "network": "mainnet",
+  "icon": "oneledger",
+  "rpc": [
+    "https://mainnet-rpc.oneledger.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OLT",
+    "symbol": "OLT",
+    "decimals": 18
+  },
+  "infoURL": "https://oneledger.io",
+  "shortName": "oneledger",
+  "chainId": 311752642,
+  "networkId": 311752642,
+  "explorers": [
+    {
+      "name": "OneLedger Block Explorer",
+      "url": "https://mainnet-explorer.oneledger.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

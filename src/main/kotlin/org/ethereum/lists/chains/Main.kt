@@ -8,7 +8,6 @@ import org.ethereum.lists.chains.model.*
 import org.kethereum.erc55.isValid
 import org.kethereum.model.Address
 import org.kethereum.rpc.HttpEthereumRPC
-import java.lang.IllegalArgumentException
 
 val parsedShortNames = mutableSetOf<String>()
 val parsedNames = mutableSetOf<String>()
@@ -27,24 +26,18 @@ fun main(args: Array<String>) {
 }
 
 private fun createOutputFiles() {
-    val buildPath = File("output")
-    buildPath.mkdir()
-
-    val fullJSONFile = File(buildPath, "chains.json")
-    val prettyJSONFile = File(buildPath, "chains_pretty.json")
-    val miniJSONFile = File(buildPath, "chains_mini.json")
-    val prettyMiniJSONFile = File(buildPath, "chains_mini_pretty.json")
+    val buildPath = File("output").apply { mkdir() }
 
     val chainJSONArray = JsonArray<JsonObject>()
     val miniChainJSONArray = JsonArray<JsonObject>()
+    val shortNameMapping = JsonObject()
 
     allChainFiles
         .map { Klaxon().parseJsonObject(it.reader()) }
-        .sortedBy { (it["chainId"] as Number).toLong()  }
+        .sortedBy { (it["chainId"] as Number).toLong() }
         .forEach { jsonObject ->
             chainJSONArray.add(jsonObject)
-            fullJSONFile.writeText(chainJSONArray.toJsonString())
-            prettyJSONFile.writeText(chainJSONArray.toJsonString(prettyPrint = true))
+
 
             val miniJSON = JsonObject()
             listOf("name", "chainId", "shortName", "networkId", "nativeCurrency", "rpc", "faucets", "infoURL").forEach { field ->
@@ -54,10 +47,17 @@ private fun createOutputFiles() {
             }
             miniChainJSONArray.add(miniJSON)
 
-            miniJSONFile.writeText(miniChainJSONArray.toJsonString())
-            prettyMiniJSONFile.writeText(miniChainJSONArray.toJsonString(prettyPrint = true))
+            shortNameMapping[jsonObject["shortName"] as String] = "eip155:" + jsonObject["chainId"]
+
         }
 
+    File(buildPath, "chains.json").writeText(chainJSONArray.toJsonString())
+    File(buildPath, "chains_pretty.json").writeText(chainJSONArray.toJsonString(prettyPrint = true))
+
+    File(buildPath, "chains_mini.json").writeText(miniChainJSONArray.toJsonString())
+    File(buildPath, "chains_mini_pretty.json").writeText(miniChainJSONArray.toJsonString(prettyPrint = true))
+
+    File(buildPath, "shortNameMapping.json").writeText(shortNameMapping.toJsonString(prettyPrint = true))
     File(buildPath, "index.html").writeText(
         """
             <!DOCTYPE HTML>
@@ -215,8 +215,26 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
             throw ParentMustBeObject()
         }
 
-        if (it.keys != mutableSetOf("chain", "type")) {
+        if (!it.keys.containsAll(setOf("chain", "type"))) {
             throw ParentMustHaveChainAndType()
+        }
+
+        val extraFields = it.keys - setOf("chain", "type", "bridges")
+        if (extraFields.isNotEmpty()) {
+            throw ParentHasExtraFields(extraFields)
+        }
+
+        val bridges = it["bridges"]
+        if (bridges != null && bridges !is List<*>) {
+            throw ParentBridgeNoArray()
+        }
+        (bridges as? JsonArray<*>)?.forEach { bridge ->
+            if (bridge !is JsonObject) {
+                throw BridgeNoObject()
+            }
+            if (bridge.keys.size != 1 || bridge.keys.first() != "url") {
+                throw BridgeOnlyURL()
+            }
         }
 
         if (!setOf("L2", "shard").contains(it["type"])) {

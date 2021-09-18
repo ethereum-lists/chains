@@ -1,0 +1,20 @@
+{
+  "name": "Syscoin Mainnet",
+  "chain": "SYS",
+  "network": "mainnet",
+  "rpc": [
+    "https://nevm.syscoin.org/api/eth-rpc",
+    "https://web3.syscoin.org",
+    "wss://web3.syscoin.org"
+  ],
+  "faucets": ["https://faucet.syscoin.org"],
+  "nativeCurrency": {
+    "name": "Syscoin",
+    "symbol": "SYS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.syscoin.org",
+  "shortName": "sys",
+  "chainId": 57,
+  "networkId": 57
+}

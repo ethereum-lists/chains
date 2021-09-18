@@ -1,0 +1,24 @@
+{
+  "name": "TOOL Global Mainnet",
+  "chain": "OLO",
+  "network": "mainnet",
+  "rpc": [
+    "https://mainnet-web3.wolot.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TOOL Global",
+    "symbol": "OLO",
+    "decimals": 18
+  },
+  "infoURL": "https://ibdt.io",
+  "shortName": "olo",
+  "chainId": 8723,
+  "networkId": 8723,
+  "slip44": 479,
+  "explorers": [{
+    "name": "OLO Block Explorer",
+    "url": "https://www.olo.network",
+    "standard": "EIP3091"
+  }]
+}

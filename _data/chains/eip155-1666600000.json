@@ -15,5 +15,10 @@
   "infoURL": "https://www.harmony.one/",
   "shortName": "hmy-s0",
   "chainId": 1666600000,
-  "networkId": 1666600000
+  "networkId": 1666600000,
+  "explorers": [{
+    "name": "Harmony Block Explorer",
+    "url": "https://explorer.harmony.one",
+    "standard": "EIP3091"
+  }]
 }

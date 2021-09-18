@@ -3,17 +3,26 @@
   "chain": "HPB",
   "network": "mainnet",
   "rpc": [
-    "https://hpb.app"
+   "https://hpbnode.com",
+    "wss://ws.hpbnode.com"
   ],
-  "faucets": [],
+  "faucets": [
+    "https://myhpbwallet.com/"
+  ],
   "nativeCurrency": {
     "name": "High Performance Blockchain Ether",
     "symbol": "HPB",
     "decimals": 18
   },
-  "infoURL": "https://hpbscan.org/",
+  "infoURL": "https://hpb.io",
   "shortName": "hpb",
   "chainId": 269,
-  "networkId": 100,
-  "slip44": 269
+  "networkId": 269,
+  "slip44": 269,
+  "explorers": [{
+    "name": "hpbscan",
+    "url": "https://hpbscan.org/",
+    "standard": "EIP3091"
+  }]
+  
 }
