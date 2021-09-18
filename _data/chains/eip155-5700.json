@@ -3,7 +3,8 @@
   "chain": "SYS",
   "network": "testnet",
   "rpc": [
-    "https://tanenbaum.io/api/eth-rpc"
+    "https://rpc.tanenbaum.io",
+    "wss://rpc.tanenbaum.io/wss"
   ],
   "faucets": ["https://faucet.tanenbaum.io"],
   "nativeCurrency": {
