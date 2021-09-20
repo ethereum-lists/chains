@@ -1,0 +1,15 @@
+{
+   "name": "Velocity Network Mainnet",
+   "chain": "VNET",
+   "network": "mainnet",
+   "rpc": [
+     "https://rpc.velocitynetwork.foundation/",
+     "wss://wsnode.velocitynetwork.foundation"
+   ],
+   "infoURL": "https://velocitynetwork.foundation",
+   "shortName": "vnet",
+   "chainId": 1482,
+   "networkId": 1482,
+   "icon": "velocitynetwork",
+   "explorers": []
+ }
