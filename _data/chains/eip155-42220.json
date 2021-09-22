@@ -13,4 +13,9 @@
   "rpc": ["https://forno.celo.org", "wss://forno.celo.org/ws"],
   "faucets": [],
   "infoURL": "https://explorer.celo.org/"
+  "explorers": [{
+    "name": "Celo Explorer",
+    "url": "https://explorer.celo.org/",
+    "standard": "EIP3091"
+  }]
 }
