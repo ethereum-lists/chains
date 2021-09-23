@@ -3,9 +3,8 @@
   "chain": "SYS",
   "network": "mainnet",
   "rpc": [
-    "https://nevm.syscoin.org/api/eth-rpc",
-    "https://web3.syscoin.org",
-    "wss://web3.syscoin.org"
+    "https://rpc.syscoin.org",
+    "wss://rpc.syscoin.org/wss"
   ],
   "faucets": ["https://faucet.syscoin.org"],
   "nativeCurrency": {
