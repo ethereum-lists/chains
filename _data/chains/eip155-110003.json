@@ -3,7 +3,7 @@
   "chain": "QuarkChain",
   "network": "devnet",
   "rpc": [
-    "http://jrpc.devnet.quarkchain.io:39002/"
+    "http://eth-jrpc.devnet.quarkchain.io:39902/"
   ],
   "faucets": [
   ],
@@ -19,5 +19,10 @@
   "parent": {
     "chain": "eip155-110000",
     "type": "shard"
-  }
+  },
+  "explorers": [{
+    "name": "quarkchain-devnet",
+    "url": "https://devnet.quarkchain.io/2",
+    "standard": "EIP3091"
+  }]
 }
