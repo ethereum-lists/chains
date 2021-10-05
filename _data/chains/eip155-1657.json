@@ -1,0 +1,29 @@
+{
+    "name": "BtacChain Mainnet",
+    "chain": "BtaChain",
+    "network": "mainnet",
+    "rpc": [
+      "http://rpc.btachain.com/"
+    ],
+    "faucets": [
+    ],
+    "nativeCurrency": {
+      "name": "Bitcoin Asset",
+      "symbol": "BTA",
+      "decimals": 18
+    },
+    "infoURL": "https://bitcoinasset.io/",
+    "shortName": "bta",
+    "chainId": 1657,
+    "networkId": 1657,
+    "parent": {
+      "chain": "eip155-1657",
+      "type": "node"
+    },
+    "explorers": [{
+      "name": "btachain-mainnet",
+      "url": "https://btachain.com/",
+      "standard": "EIP-1193"
+    }]
+  }
+
