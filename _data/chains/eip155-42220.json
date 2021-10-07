@@ -11,6 +11,12 @@
     "decimals": 18
   },
   "rpc": ["https://forno.celo.org", "wss://forno.celo.org/ws"],
-  "faucets": [],
-  "infoURL": "https://docs.celo.org/"
+  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "infoURL": "https://docs.celo.org/",
+
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.celo.org",
+    "standard": "EIP3091"
+  }]
 }
