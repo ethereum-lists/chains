@@ -191,8 +191,8 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
                 throw(ExplorerInvalidUrl())
             }
 
-            if (explorer["standard"] != "EIP3091") {
-                throw(ExplorerStandardMustBeEIP3091())
+            if (explorer["standard"] != "EIP3091" && explorer["standard"] != "none") {
+                throw(ExplorerStandardMustBeEIP3091OrNone())
             }
         }
     }
