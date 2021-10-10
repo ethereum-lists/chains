@@ -29,6 +29,14 @@ class TheChainChecker {
     }
 
     @Test
+    fun shouldPassForValidChainWithExplorersNoStandard() {
+        val file = getFile("valid/withexplorer/eip155-2.json")
+
+        checkChain(file, false)
+    }
+
+
+    @Test
     fun shouldPassForValidChainWithParent() {
         val file = getFile("valid/withparent/eip155-2.json")
 
@@ -186,7 +194,7 @@ class TheChainChecker {
         checkChain(getFile("invalid/explorersnotarray/eip155-1.json"), false)
     }
 
-    @Test(expected = ExplorerStandardMustBeEIP3091::class)
+    @Test(expected = ExplorerStandardMustBeEIP3091OrNone::class)
     fun shouldFailOnWrongExplorerStandard() {
         checkChain(getFile("invalid/wrongexplorerstandard/eip155-1.json"), false)
     }

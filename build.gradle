@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        KOTLIN_VERSION = "1.5.30"
+        KOTLIN_VERSION = "1.5.31"
         KETHEREUM_VERSION = "0.85.3"
     }
 
@@ -35,9 +35,9 @@ dependencies {
 
     implementation 'com.beust:klaxon:5.5'
     implementation 'com.squareup.moshi:moshi-kotlin:1.12.0'
-    implementation 'com.squareup.okhttp3:okhttp:4.7.2'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.2'
 
-    testImplementation "org.jetbrains.kotlin:kotlin-test"
-    testImplementation "org.jetbrains.kotlin:kotlin-test-junit"
+    testImplementation "org.jetbrains.kotlin:kotlin-test:${KOTLIN_VERSION}"
+    testImplementation "org.jetbrains.kotlin:kotlin-test-junit:${KOTLIN_VERSION}"
 }
 

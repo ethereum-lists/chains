@@ -15,7 +15,7 @@ class UnsupportedNamespace(): Exception("So far only the EIP155 namespace is sup
 class ExplorersMustBeArray: Exception("explorers must be an array")
 class ExplorerMustHaveName: Exception("Explorer must have name")
 class ExplorerInvalidUrl: Exception("Explorer have url starting with https://")
-class ExplorerStandardMustBeEIP3091: Exception("explorer standard must be EIP3091 - currently the only one supported")
+class ExplorerStandardMustBeEIP3091OrNone: Exception("explorer standard must be 'none' or 'EIP3091'")
 class ParentHasInvalidType(type: String?): Exception("Parent has invalid type $type - only L2 or shard allowed")
 class ParentMustBeObject: Exception("parent must be an object")
 class ParentMustHaveChainAndType: Exception("parent must have fields 'chain' and 'type'")
