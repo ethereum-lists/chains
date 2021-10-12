@@ -1,0 +1,26 @@
+{
+  "name": "MITRA_ETH",
+  "chain": "ETH",
+  "network": "mainnet",
+  "rpc": [
+    "https://mainnet.infura.io/v3/b7927146d78c4a61ae49d0604c7f6344",
+    "https://api.mycryptoapi.com/eth"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MITRA",
+    "symbol": "MITRA",
+    "decimals": 8
+  },
+  "infoURL": "https://ethereum.org",
+  "shortName": "eth",
+  "chainId": 1,
+  "networkId": 1,
+  "icon": "ethereum",
+  "explorers": [{
+    "name": "etherscan",
+    "url": "https://etherscan.io",
+    "icon": "etherscan",
+    "standard": "EIP3091"
+  }]
+}
