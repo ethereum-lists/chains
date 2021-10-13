@@ -1,0 +1,26 @@
+{
+    "name": "Shiden",
+    "chain": "SDN",
+    "network": "shiden",
+    "rpc": [
+        "https://rpc.shiden.astar.network:8545",
+        "wss://shiden.api.onfinality.io/public-ws"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "Shiden",
+        "symbol": "SDN",
+        "decimals": 18
+    },
+    "infoURL": "https://shiden.astar.network/",
+    "shortName": "sdn",
+    "chainId": 336,
+    "networkId": 336,
+    "explorers": [
+        {
+            "name": "subscan",
+            "url": "https://shiden.subscan.io",
+            "standard": "none"
+        }
+    ]
+}
