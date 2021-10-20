@@ -2,7 +2,7 @@
   "name": "Evmos Testnet",
   "chain": "Evmos",
   "network": "testnet",
-  "rpc": [],
+  "rpc": ["http://arsiamons.rpc.evmos.org:8545/"],
   "faucets": ["https://faucet.evmos.org"],
   "nativeCurrency": {
     "name": "Photon",
