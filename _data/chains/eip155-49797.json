@@ -3,12 +3,12 @@
   "chain": "NRG",
   "network": "testnet",
   "rpc": [
-    "https://nodeapi.test3.energi.network"
+    "https://nodeapi.test.energi.network"
   ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Energi",
-    "symbol": "tNRG",
+    "symbol": "NRG",
     "decimals": 18
   },
   "infoURL": "https://www.energi.world/",
