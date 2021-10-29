@@ -2,7 +2,6 @@
   "name": "BitTorrent Chain Testnet",
   "chain": "BTTC",
   "network": "testnet",
-  "icon": "bittorrent",
   "rpc": [
     "https://testrpc.bittorrentchain.io/"
   ],
@@ -13,11 +12,11 @@
     "decimals": 18
   },
   "infoURL": "https://bittorrentchain.io/",
-  "shortName": "BTT",
+  "shortName": "tbtt",
   "chainId": 1028,
   "networkId": 1028,
   "explorers": [{
-    "name": "bttcscan",
+    "name": "testbttcscan",
     "url": "https://testscan.bittorrentchain.io/",
     "standard": "none"
   }]
