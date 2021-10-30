@@ -1,0 +1,33 @@
+{
+    "name": "Lucky Network",
+    "chain": "LN",
+    "network": "mainnet",
+    "rpc": [
+        "https://rpc.luckynetwork.org",
+        "wss://ws.lnscan.org",
+        "https://rpc.lnscan.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "Lucky",
+        "symbol": "L99",
+        "decimals": 18
+    },
+    "infoURL": "https://luckynetwork.org",
+    "shortName": "ln",
+    "chainId": 998,
+    "networkId": 998,
+    "icon": "lucky",
+    "explorers": [
+        {
+            "name": "blockscout",
+            "url": "https://explorer.luckynetwork.org",
+            "standard": "none"
+        },
+        {
+            "name": "expedition",
+            "url": "https://lnscan.org",
+            "standard": "none"
+        }
+    ]
+}
