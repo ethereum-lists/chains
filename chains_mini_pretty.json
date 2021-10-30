@@ -1455,6 +1455,19 @@
   "faucets": ["https://faucet.nepalblockchain.network"],
   "infoURL": "https://nepalblockchain.network"
 }, {
+  "name": "Lucky Network",
+  "chainId": 998,
+  "shortName": "ln",
+  "networkId": 998,
+  "nativeCurrency": {
+    "name": "Lucky",
+    "symbol": "L99",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.luckynetwork.org", "wss://ws.lnscan.org", "https://rpc.lnscan.org"],
+  "faucets": [],
+  "infoURL": "https://luckynetwork.org"
+}, {
   "name": "Wanchain Testnet",
   "chainId": 999,
   "shortName": "twan",
