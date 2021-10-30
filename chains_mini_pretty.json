@@ -493,6 +493,19 @@
   "faucets": [],
   "infoURL": "http://www.coinex.org/"
 }, {
+  "name": "Zyx Mainnet",
+  "chainId": 55,
+  "shortName": "ZYX",
+  "networkId": 55,
+  "nativeCurrency": {
+    "name": "Zyx",
+    "symbol": "ZYX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-1.zyx.network/", "https://rpc-2.zyx.network/", "https://rpc-3.zyx.network/", "https://rpc-4.zyx.network/", "https://rpc-5.zyx.network/", "https://rpc-6.zyx.network/"],
+  "faucets": [],
+  "infoURL": "https://zyx.network/"
+}, {
   "name": "Binance Smart Chain Mainnet",
   "chainId": 56,
   "shortName": "bnb",
