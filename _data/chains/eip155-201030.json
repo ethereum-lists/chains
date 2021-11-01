@@ -6,7 +6,9 @@
     "https://devnetopenapi.alaya.network/rpc",
 	"wss://devnetopenapi.alaya.network/ws"
   ],
-  "faucets": [],
+  "faucets": [
+  "https://faucet.alaya.network/faucet/?id=f93426c0887f11eb83b900163e06151c"
+  ],
   "nativeCurrency": {
     "name": "ATP",
     "symbol": "atp",
