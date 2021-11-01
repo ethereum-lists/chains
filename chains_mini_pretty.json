@@ -298,6 +298,19 @@
   "faucets": [],
   "infoURL": "https://elaeth.io/"
 }, {
+  "name": "Boba Network Rinkeby Testnet",
+  "chainId": 28,
+  "shortName": "Boba Rinkeby",
+  "networkId": 28,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rinkeby.boba.network/"],
+  "faucets": [],
+  "infoURL": "https://boba.network"
+}, {
   "name": "RSK Mainnet",
   "chainId": 30,
   "shortName": "rsk",
@@ -1155,6 +1168,19 @@
   "rpc": ["https://hpbnode.com", "wss://ws.hpbnode.com"],
   "faucets": ["https://myhpbwallet.com/"],
   "infoURL": "https://hpb.io"
+}, {
+  "name": "Boba Network",
+  "chainId": 288,
+  "shortName": "Boba",
+  "networkId": 288,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.boba.network/"],
+  "faucets": [],
+  "infoURL": "https://boba.network"
 }, {
   "name": "KCC Mainnet",
   "chainId": 321,
