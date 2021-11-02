@@ -1,0 +1,24 @@
+{
+    "name": "Thinkium Mainnet Chain 2",
+    "chain": "Thinkium",
+    "network": "mainnet",
+    "rpc": [
+        "https://proxy2.thinkiumrpc.net/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "TKM",
+        "symbol": "TKM",
+        "decimals": 18
+    },
+    "infoURL": "https://thinkium.net/",
+    "shortName": "TKM",
+    "chainId": 70002,
+    "networkId": 70002,
+    "slip44": 966,
+    "explorers": [{
+        "name": "thinkiumscan",
+        "url": "https://www.thinkiumscan.net/",
+        "standard": "EIP3091"
+    }]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Thinkium Testnet Chain 1",
+    "chain": "Thinkium",
+    "network": "testnet",
+    "rpc": [
+        "https://test1.thinkiumrpc.net/"
+    ],
+    "faucets": [
+        "https://www.thinkiumdev.net/faucet"
+    ],
+    "nativeCurrency": {
+        "name": "TKM",
+        "symbol": "TKM",
+        "decimals": 18
+    },
+    "infoURL": "https://thinkium.net/",
+    "shortName": "tkm",
+    "chainId": 60001,
+    "networkId": 60001,
+    "explorers": [{
+        "name": "thinkiumscan",
+        "url": "https://browser.thinkiumdev.net/",
+        "standard": "EIP3091"
+    }]
+}
