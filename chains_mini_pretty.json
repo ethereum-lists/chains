@@ -1052,6 +1052,19 @@
   "faucets": ["https://faucet.latam-blockchain.com"],
   "infoURL": "https://latam-blockchain.com"
 }, {
+  "name": "Seele Mainnet",
+  "chainId": 186,
+  "shortName": "Seele",
+  "networkId": 186,
+  "nativeCurrency": {
+    "name": "Seele",
+    "symbol": "Seele",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.seelen.pro/"],
+  "faucets": [],
+  "infoURL": "https://seelen.pro/"
+}, {
   "name": "BitTorrent Chain Mainnet",
   "chainId": 199,
   "shortName": "BTT",
