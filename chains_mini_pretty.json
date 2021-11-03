@@ -1689,6 +1689,19 @@
   "faucets": [],
   "infoURL": "https://popcateum.org"
 }, {
+  "name": "HALO Mainnet",
+  "chainId": 1280,
+  "shortName": "HO",
+  "networkId": 1280,
+  "nativeCurrency": {
+    "name": "HALO",
+    "symbol": "HO",
+    "decimals": 18
+  },
+  "rpc": ["https://https://nodes.halo.land"],
+  "faucets": [],
+  "infoURL": "https://halo.land/#/"
+}, {
   "name": "Moonbeam",
   "chainId": 1284,
   "shortName": "mbeam",
