@@ -1,0 +1,25 @@
+{
+  "name": "Singularity ZERO Testnet",
+  "chain": "ZERO",
+  "network": "testnet",
+  "rpc": [
+    "http://betaenv.singularity.gold:8545"
+  ],
+  "faucets": [
+    "http://web.dev.singularity.gold:10001"
+  ],
+  "nativeCurrency": {
+    "name": "ZERO",
+    "symbol": "tZERO",
+    "decimals": 18
+  },
+  "infoURL": "https://www.singularity.gold",
+  "shortName": "tZERO",
+  "chainId": 12051,
+  "networkId": 12051,
+  "explorers": [{
+    "name": "zeroscan",
+    "url": "http://betaenv.singularity.gold:8002",
+    "standard": "EIP3091"
+  }]
+}
