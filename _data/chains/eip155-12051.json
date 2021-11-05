@@ -3,7 +3,7 @@
   "chain": "ZERO",
   "network": "testnet",
   "rpc": [
-    "http://betaenv.singularity.gold:8545"
+    "https://betaenv.singularity.gold:18545"
   ],
   "faucets": [
     "https://nft.singularity.gold"
@@ -19,7 +19,7 @@
   "networkId": 12051,
   "explorers": [{
     "name": "zeroscan",
-    "url": "http://betaenv.singularity.gold:8002",
+    "url": "https://betaenv.singularity.gold:18002",
     "standard": "EIP3091"
   }]
 }
