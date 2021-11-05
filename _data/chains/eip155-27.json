@@ -14,5 +14,10 @@
   "infoURL": "https://www.shibachain.net",
   "shortName": "shib",
   "chainId": 27,
-  "networkId": 27
+  "networkId": 27,
+  "explorers": [{
+    "name": "Shiba Exploror",
+    "url": "https://exp.shibachain.net/",
+    "standard": "EIP3091"
+  }]
 }
