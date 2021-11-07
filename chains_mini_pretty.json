@@ -298,6 +298,19 @@
   "faucets": [],
   "infoURL": "https://elaeth.io/"
 }, {
+  "name": "ShibaChain",
+  "chainId": 27,
+  "shortName": "shib",
+  "networkId": 27,
+  "nativeCurrency": {
+    "name": "SHIBA INU COIN",
+    "symbol": "SHIB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.shibachain.net"],
+  "faucets": [],
+  "infoURL": "https://www.shibachain.net"
+}, {
   "name": "Boba Network Rinkeby Testnet",
   "chainId": 28,
   "shortName": "Boba Rinkeby",
