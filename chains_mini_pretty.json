@@ -298,6 +298,19 @@
   "faucets": [],
   "infoURL": "https://elaeth.io/"
 }, {
+  "name": "Cronos Mainnet Beta",
+  "chainId": 25,
+  "shortName": "cro",
+  "networkId": 25,
+  "nativeCurrency": {
+    "name": "Crypto.org Coin",
+    "symbol": "CRO",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-cronos.crypto.org"],
+  "faucets": [],
+  "infoURL": "https://cronos.crypto.org"
+}, {
   "name": "ShibaChain",
   "chainId": 27,
   "shortName": "shib",

@@ -391,6 +391,26 @@
   "chainId": 23,
   "networkId": 23
 }, {
+  "name": "Cronos Mainnet Beta",
+  "chain": "CRO",
+  "network": "mainnet",
+  "rpc": ["https://evm-cronos.crypto.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Crypto.org Coin",
+    "symbol": "CRO",
+    "decimals": 18
+  },
+  "infoURL": "https://cronos.crypto.org",
+  "shortName": "cro",
+  "chainId": 25,
+  "networkId": 25,
+  "explorers": [{
+    "name": "Cronos Explorer",
+    "url": "https://cronos.crypto.org/explorer",
+    "standard": "none"
+  }]
+}, {
   "name": "ShibaChain",
   "chain": "SHIB",
   "network": "mainnet",
@@ -1709,7 +1729,7 @@
   "networkId": 338,
   "explorers": [{
     "name": "Cronos Testnet Explorer",
-    "url": "https://cronos.crypto.org/explorer",
+    "url": "https://cronos.crypto.org/explorer/testnet3",
     "standard": "none"
   }]
 }, {
