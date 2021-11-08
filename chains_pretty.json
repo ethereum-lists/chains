@@ -1019,7 +1019,7 @@
   "chain": "METER",
   "network": "mainnet",
   "rpc": ["https://rpc.meter.io"],
-  "faucets": [],
+  "faucets": ["https://faucet.meter.io"],
   "nativeCurrency": {
     "name": "Meter",
     "symbol": "MTR",
@@ -1028,7 +1028,32 @@
   "infoURL": "https://www.meter.io",
   "shortName": "Meter",
   "chainId": 82,
-  "networkId": 82
+  "networkId": 82,
+  "explorers": [{
+    "name": "Meter Mainnet Scan",
+    "url": "https://scan.meter.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Meter Testnet",
+  "chain": "METER Testnet",
+  "network": "testnet",
+  "rpc": ["https://rpctest.meter.io"],
+  "faucets": ["https://faucet-warringstakes.meter.io"],
+  "nativeCurrency": {
+    "name": "Meter",
+    "symbol": "MTR",
+    "decimals": 18
+  },
+  "infoURL": "https://www.meter.io",
+  "shortName": "MeterTest",
+  "chainId": 83,
+  "networkId": 83,
+  "explorers": [{
+    "name": "Meter Testnet Scan",
+    "url": "https://scan-warringstakes.meter.io",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "GateChain Testnet",
   "chainId": 85,

@@ -776,7 +776,20 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.meter.io"],
-  "faucets": [],
+  "faucets": ["https://faucet.meter.io"],
+  "infoURL": "https://www.meter.io"
+}, {
+  "name": "Meter Testnet",
+  "chainId": 83,
+  "shortName": "MeterTest",
+  "networkId": 83,
+  "nativeCurrency": {
+    "name": "Meter",
+    "symbol": "MTR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpctest.meter.io"],
+  "faucets": ["https://faucet-warringstakes.meter.io"],
   "infoURL": "https://www.meter.io"
 }, {
   "name": "GateChain Testnet",
