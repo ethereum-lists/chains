@@ -16,9 +16,11 @@
   "chainId": 43114,
   "networkId": 43114,
   "slip44": 9000,
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://cchain.explorer.avax.network",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "snowtrace",
+      "url": "https://snowtrace.io/",
+      "standard": "EIP3091"
+    }
+  ]
 }
