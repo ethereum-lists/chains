@@ -2417,6 +2417,58 @@
   "faucets": [],
   "infoURL": "https://www.energi.world/"
 }, {
+  "name": "Thinkium Testnet Chain 0",
+  "chainId": 60000,
+  "shortName": "TKM-test0",
+  "networkId": 60000,
+  "nativeCurrency": {
+    "name": "TKM",
+    "symbol": "TKM",
+    "decimals": 18
+  },
+  "rpc": ["https://test.thinkiumrpc.net/"],
+  "faucets": ["https://www.thinkiumdev.net/faucet"],
+  "infoURL": "https://thinkium.net/"
+}, {
+  "name": "Thinkium Testnet Chain 1",
+  "chainId": 60001,
+  "shortName": "TKM-test1",
+  "networkId": 60001,
+  "nativeCurrency": {
+    "name": "TKM",
+    "symbol": "TKM",
+    "decimals": 18
+  },
+  "rpc": ["https://test1.thinkiumrpc.net/"],
+  "faucets": ["https://www.thinkiumdev.net/faucet"],
+  "infoURL": "https://thinkium.net/"
+}, {
+  "name": "Thinkium Testnet Chain 2",
+  "chainId": 60002,
+  "shortName": "TKM-test2",
+  "networkId": 60002,
+  "nativeCurrency": {
+    "name": "TKM",
+    "symbol": "TKM",
+    "decimals": 18
+  },
+  "rpc": ["https://test2.thinkiumrpc.net/"],
+  "faucets": ["https://www.thinkiumdev.net/faucet"],
+  "infoURL": "https://thinkium.net/"
+}, {
+  "name": "Thinkium Testnet Chain 103",
+  "chainId": 60103,
+  "shortName": "TKM-test103",
+  "networkId": 60103,
+  "nativeCurrency": {
+    "name": "TKM",
+    "symbol": "TKM",
+    "decimals": 18
+  },
+  "rpc": ["https://test103.thinkiumrpc.net/"],
+  "faucets": ["https://www.thinkiumdev.net/faucet"],
+  "infoURL": "https://thinkium.net/"
+}, {
   "name": "Celo Baklava Testnet",
   "chainId": 62320,
   "shortName": "BKLV",
@@ -2429,6 +2481,58 @@
   "rpc": ["https://baklava-forno.celo-testnet.org"],
   "faucets": ["https://docs.google.com/forms/d/e/1FAIpQLSdfr1BwUTYepVmmvfVUDRCwALejZ-TUva2YujNpvrEmPAX2pg/viewform", "https://cauldron.pretoriaresearchlab.io/baklava-faucet"],
   "infoURL": "https://docs.celo.org/"
+}, {
+  "name": "Thinkium Mainnet Chain 0",
+  "chainId": 70000,
+  "shortName": "TKM0",
+  "networkId": 70000,
+  "nativeCurrency": {
+    "name": "TKM",
+    "symbol": "TKM",
+    "decimals": 18
+  },
+  "rpc": ["https://proxy.thinkiumrpc.net/"],
+  "faucets": [],
+  "infoURL": "https://thinkium.net/"
+}, {
+  "name": "Thinkium Mainnet Chain 1",
+  "chainId": 70001,
+  "shortName": "TKM1",
+  "networkId": 70001,
+  "nativeCurrency": {
+    "name": "TKM",
+    "symbol": "TKM",
+    "decimals": 18
+  },
+  "rpc": ["https://proxy1.thinkiumrpc.net/"],
+  "faucets": [],
+  "infoURL": "https://thinkium.net/"
+}, {
+  "name": "Thinkium Mainnet Chain 2",
+  "chainId": 70002,
+  "shortName": "TKM2",
+  "networkId": 70002,
+  "nativeCurrency": {
+    "name": "TKM",
+    "symbol": "TKM",
+    "decimals": 18
+  },
+  "rpc": ["https://proxy2.thinkiumrpc.net/"],
+  "faucets": [],
+  "infoURL": "https://thinkium.net/"
+}, {
+  "name": "Thinkium Mainnet Chain 103",
+  "chainId": 70103,
+  "shortName": "TKM103",
+  "networkId": 70103,
+  "nativeCurrency": {
+    "name": "TKM",
+    "symbol": "TKM",
+    "decimals": 18
+  },
+  "rpc": ["https://proxy103.thinkiumrpc.net/"],
+  "faucets": [],
+  "infoURL": "https://thinkium.net/"
 }, {
   "name": "Polyjuice Testnet",
   "chainId": 71393,
