@@ -3135,7 +3135,12 @@
   "infoURL": "https://cchain.explorer.avax-test.network",
   "shortName": "Fuji",
   "chainId": 43113,
-  "networkId": 1
+  "networkId": 1,
+  "explorers": [{
+    "name": "snowtrace",
+    "url": "https://testnet.snowtrace.io/",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Avalanche Mainnet",
   "chain": "AVAX",
@@ -3153,9 +3158,9 @@
   "networkId": 43114,
   "slip44": 9000,
   "explorers": [{
-    "name": "blockscout",
-    "url": "https://cchain.explorer.avax.network",
-    "standard": "none"
+    "name": "snowtrace",
+    "url": "https://snowtrace.io/",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Celo Alfajores Testnet",
