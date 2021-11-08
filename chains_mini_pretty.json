@@ -298,32 +298,6 @@
   "faucets": [],
   "infoURL": "https://elaeth.io/"
 }, {
-  "name": "Cronos Mainnet Beta",
-  "chainId": 25,
-  "shortName": "cro",
-  "networkId": 25,
-  "nativeCurrency": {
-    "name": "Crypto.org Coin",
-    "symbol": "CRO",
-    "decimals": 18
-  },
-  "rpc": ["https://evm-cronos.crypto.org"],
-  "faucets": [],
-  "infoURL": "https://cronos.crypto.org"
-}, {
-  "name": "ShibaChain",
-  "chainId": 27,
-  "shortName": "shib",
-  "networkId": 27,
-  "nativeCurrency": {
-    "name": "SHIBA INU COIN",
-    "symbol": "SHIB",
-    "decimals": 18
-  },
-  "rpc": ["https://rpc.shibachain.net"],
-  "faucets": [],
-  "infoURL": "https://www.shibachain.net"
-}, {
   "name": "Boba Network Rinkeby Testnet",
   "chainId": 28,
   "shortName": "Boba Rinkeby",
@@ -2182,6 +2156,19 @@
   "rpc": ["https://eu.mainnet.xixoio.com", "https://us.mainnet.xixoio.com", "https://asia.mainnet.xixoio.com"],
   "faucets": [],
   "infoURL": "https://www.xixoio.com/"
+}, {
+  "name": "Singularity ZERO Testnet",
+  "chainId": 12051,
+  "shortName": "tZERO",
+  "networkId": 12051,
+  "nativeCurrency": {
+    "name": "ZERO",
+    "symbol": "tZERO",
+    "decimals": 18
+  },
+  "rpc": ["https://betaenv.singularity.gold:18545"],
+  "faucets": ["https://nft.singularity.gold"],
+  "infoURL": "https://www.singularity.gold"
 }, {
   "name": "MetaDot Mainnet",
   "chainId": 16000,

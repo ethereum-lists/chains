@@ -391,46 +391,6 @@
   "chainId": 23,
   "networkId": 23
 }, {
-  "name": "Cronos Mainnet Beta",
-  "chain": "CRO",
-  "network": "mainnet",
-  "rpc": ["https://evm-cronos.crypto.org"],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "Crypto.org Coin",
-    "symbol": "CRO",
-    "decimals": 18
-  },
-  "infoURL": "https://cronos.crypto.org",
-  "shortName": "cro",
-  "chainId": 25,
-  "networkId": 25,
-  "explorers": [{
-    "name": "Cronos Explorer",
-    "url": "https://cronos.crypto.org/explorer",
-    "standard": "none"
-  }]
-}, {
-  "name": "ShibaChain",
-  "chain": "SHIB",
-  "network": "mainnet",
-  "rpc": ["https://rpc.shibachain.net"],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "SHIBA INU COIN",
-    "symbol": "SHIB",
-    "decimals": 18
-  },
-  "infoURL": "https://www.shibachain.net",
-  "shortName": "shib",
-  "chainId": 27,
-  "networkId": 27,
-  "explorers": [{
-    "name": "Shiba Explorer",
-    "url": "https://exp.shibachain.net/",
-    "standard": "none"
-  }]
-}, {
   "name": "Boba Network Rinkeby Testnet",
   "chain": "ETH",
   "network": "rinkeby",
@@ -1729,7 +1689,7 @@
   "networkId": 338,
   "explorers": [{
     "name": "Cronos Testnet Explorer",
-    "url": "https://cronos.crypto.org/explorer/testnet3",
+    "url": "https://cronos.crypto.org/explorer",
     "standard": "none"
   }]
 }, {
@@ -2912,6 +2872,26 @@
   "chainId": 10101,
   "networkId": 10101
 }, {
+  "name": "Singularity ZERO Testnet",
+  "chain": "ZERO",
+  "network": "testnet",
+  "rpc": ["https://betaenv.singularity.gold:18545"],
+  "faucets": ["https://nft.singularity.gold"],
+  "nativeCurrency": {
+    "name": "ZERO",
+    "symbol": "tZERO",
+    "decimals": 18
+  },
+  "infoURL": "https://www.singularity.gold",
+  "shortName": "tZERO",
+  "chainId": 12051,
+  "networkId": 12051,
+  "explorers": [{
+    "name": "zeroscan",
+    "url": "https://betaenv.singularity.gold:18002",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "MetaDot Mainnet",
   "chain": "MTT",
   "network": "mainnet",
@@ -3135,12 +3115,7 @@
   "infoURL": "https://cchain.explorer.avax-test.network",
   "shortName": "Fuji",
   "chainId": 43113,
-  "networkId": 1,
-  "explorers": [{
-    "name": "snowtrace",
-    "url": "https://testnet.snowtrace.io/",
-    "standard": "EIP3091"
-  }]
+  "networkId": 1
 }, {
   "name": "Avalanche Mainnet",
   "chain": "AVAX",
@@ -3158,9 +3133,9 @@
   "networkId": 43114,
   "slip44": 9000,
   "explorers": [{
-    "name": "snowtrace",
-    "url": "https://snowtrace.io/",
-    "standard": "EIP3091"
+    "name": "blockscout",
+    "url": "https://cchain.explorer.avax.network",
+    "standard": "none"
   }]
 }, {
   "name": "Celo Alfajores Testnet",
