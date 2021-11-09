@@ -1,0 +1,25 @@
+{
+    "name": "Hazlor Testnet",
+    "chain": "Hazlor",
+    "network": "testnet",
+    "rpc": ["http://testnet.rpc.hazlor.com:8545/"],
+    "faucets": ["https://faucet.hazlor.com"],
+    "nativeCurrency": {
+      "name": "tScas",
+      "symbol": "tSCAS",
+      "decimals": 18
+    },
+    "infoURL": "https://hazlor.com",
+    "shortName": "hazlor-testnet",
+    "chainId": 7878,
+    "networkId": 7878,
+    "explorers": [
+      {
+        "name": "Hazlor Explorer (BigDipper)",
+        "url": "https://explorer.hazlor.com",
+        "standard": "none"
+      },
+
+    ]
+  }
+  
