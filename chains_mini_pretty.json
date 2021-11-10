@@ -2040,6 +2040,19 @@
   "faucets": [],
   "infoURL": "http://wegochain.io"
 }, {
+  "name": "Hazlor Testnet",
+  "chainId": 7878,
+  "shortName": "hazlor-hatlas",
+  "networkId": 7878,
+  "nativeCurrency": {
+    "name": "Planet",
+    "symbol": "PLANET",
+    "decimals": 18
+  },
+  "rpc": ["http://hatlas.rpc.hazlor.com:8545/"],
+  "faucets": ["https://faucet.hazlor.com"],
+  "infoURL": "https://hazlor.com"
+}, {
   "name": "MDGL Testnet",
   "chainId": 8029,
   "shortName": "mdgl",
