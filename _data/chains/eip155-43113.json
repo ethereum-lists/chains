@@ -16,5 +16,12 @@
   "infoURL": "https://cchain.explorer.avax-test.network",
   "shortName": "Fuji",
   "chainId": 43113,
-  "networkId": 1
+  "networkId": 1,
+  "explorers": [
+    {
+      "name": "snowtrace",
+      "url": "https://testnet.snowtrace.io/",
+      "standard": "EIP3091"
+    }
+  ]
 }

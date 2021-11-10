@@ -5,7 +5,9 @@
   "rpc": [
     "https://rpc.meter.io"
   ],
-  "faucets": [],
+  "faucets": [
+    "https://faucet.meter.io"
+  ],
   "nativeCurrency": {
     "name": "Meter",
     "symbol": "MTR",
@@ -14,6 +16,11 @@
   "infoURL": "https://www.meter.io",
   "shortName": "Meter",
   "chainId": 82,
-  "networkId": 82
+  "networkId": 82,
+  "explorers": [{
+    "name": "Meter Mainnet Scan",
+    "url": "https://scan.meter.io",
+    "standard": "EIP3091"
+  }]
 }
 
