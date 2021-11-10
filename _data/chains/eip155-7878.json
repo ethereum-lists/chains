@@ -1,0 +1,23 @@
+{
+  "name": "Hazlor Testnet",
+  "chain": "Hazlor",
+  "network": "testnet",
+  "rpc": ["http://hatlas.rpc.hazlor.com:8545/"],
+  "faucets": ["https://faucet.hazlor.com"],
+  "nativeCurrency": {
+    "name": "Planet",
+    "symbol": "PLANET",
+    "decimals": 18
+  },
+  "infoURL": "https://hazlor.com",
+  "shortName": "hazlor-hatlas",
+  "chainId": 7878,
+  "networkId": 7878,
+  "explorers": [
+    {
+      "name": "Hazlor Explorer ",
+      "url": "https://explorer.hazlor.com",
+      "standard": "none"
+    }
+  ]
+}
