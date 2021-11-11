@@ -1,0 +1,18 @@
+{
+  "name": "myOwn Testnet",
+  "chain": "myOwn",
+  "network": "testnet",
+  "rpc": [
+    "https://de151b9d-43f1-4204-ae44-119de0d9996c.cdegswtfk0ji0uq1ym3r3guz6.ep.stage.bccloud.net:8545"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.bccloud.net/",
+  "shortName": "eth",
+  "chainId": 1337,
+  "networkId": 1609610177
+}
