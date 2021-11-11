@@ -844,6 +844,19 @@
   "faucets": [],
   "infoURL": "https://www.cryptokylin.io/"
 }, {
+  "name": "NEXT Smart Chain",
+  "chainId": 96,
+  "shortName": "nsc",
+  "networkId": 96,
+  "nativeCurrency": {
+    "name": "NEXT",
+    "symbol": "NEXT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.nextsmartchain.com"],
+  "faucets": ["https://faucet.nextsmartchain.com"],
+  "infoURL": "https://www.nextsmartchain.com/"
+}, {
   "name": "Binance Smart Chain Testnet",
   "chainId": 97,
   "shortName": "bnbt",
