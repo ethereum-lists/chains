@@ -729,11 +729,11 @@
 }, {
   "name": "POA Network Sokol",
   "chainId": 77,
-  "shortName": "poa",
+  "shortName": "skl",
   "networkId": 77,
   "nativeCurrency": {
     "name": "POA Sokol Ether",
-    "symbol": "POA",
+    "symbol": "SKL",
     "decimals": 18
   },
   "rpc": ["https://sokol.poa.network", "wss://sokol.poa.network/wss", "ws://sokol.poa.network:8546"],
@@ -872,11 +872,11 @@
 }, {
   "name": "POA Network Core",
   "chainId": 99,
-  "shortName": "skl",
+  "shortName": "poa",
   "networkId": 99,
   "nativeCurrency": {
     "name": "POA Network Core Ether",
-    "symbol": "SKL",
+    "symbol": "POA",
     "decimals": 18
   },
   "rpc": ["https://core.poanetwork.dev", "http://core.poanetwork.dev:8545", "https://core.poa.network", "ws://core.poanetwork.dev:8546"],

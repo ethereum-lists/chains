@@ -972,11 +972,11 @@
   "faucets": ["https://faucet-sokol.herokuapp.com"],
   "nativeCurrency": {
     "name": "POA Sokol Ether",
-    "symbol": "POA",
+    "symbol": "SKL",
     "decimals": 18
   },
   "infoURL": "https://poa.network",
-  "shortName": "poa",
+  "shortName": "skl",
   "chainId": 77,
   "networkId": 77,
   "explorers": [{
@@ -1183,11 +1183,11 @@
   "faucets": [],
   "nativeCurrency": {
     "name": "POA Network Core Ether",
-    "symbol": "SKL",
+    "symbol": "POA",
     "decimals": 18
   },
   "infoURL": "https://poa.network",
-  "shortName": "skl",
+  "shortName": "poa",
   "chainId": 99,
   "networkId": 99,
   "slip44": 178,
