@@ -77,6 +77,7 @@ private fun createOutputFiles() {
     """.trimIndent()
     )
 
+    File(buildPath, ".nojekyll").createNewFile()
     File(buildPath, "CNAME").writeText("chainid.network")
 }
 
