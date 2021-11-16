@@ -1332,6 +1332,21 @@
   "chainId": 122,
   "networkId": 122
 }, {
+  "name": "Fuse Sparknet",
+  "chain": "fuse",
+  "network": "testnet",
+  "rpc": ["https://rpc.fusespark.io"],
+  "faucets": ["https://get.fusespark.io"],
+  "nativeCurrency": {
+    "name": "Spark",
+    "symbol": "SPARK",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.fuse.io/general/fuse-network-blockchain/fuse-testnet",
+  "shortName": "spark",
+  "chainId": 123,
+  "networkId": 123
+}, {
   "name": "Decentralized Web Mainnet",
   "shortName": "dwu",
   "chain": "DWU",
