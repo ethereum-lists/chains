@@ -1975,6 +1975,19 @@
   "faucets": [],
   "infoURL": "https://www.kortho.io/"
 }, {
+  "name": "ZCore Testnet",
+  "chainId": 3331,
+  "shortName": "zcrbeach",
+  "networkId": 3331,
+  "nativeCurrency": {
+    "name": "ZCore",
+    "symbol": "ZCR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.zcore.cash"],
+  "faucets": ["https://faucet.zcore.cash"],
+  "infoURL": "https://zcore.cash"
+}, {
   "name": "Fantom Testnet",
   "chainId": 4002,
   "shortName": "tftm",
