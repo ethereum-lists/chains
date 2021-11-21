@@ -3378,4 +3378,17 @@
   "rpc": [],
   "faucets": [],
   "infoURL": "https://palm.io"
+}, {
+  "name": "Molereum Network",
+  "chainId": 6022140761023,
+  "shortName": "mole",
+  "networkId": 6022140761023,
+  "nativeCurrency": {
+    "name": "Molereum Ether",
+    "symbol": "MOLE",
+    "decimals": 18
+  },
+  "rpc": ["https://molereum.jdubedition.com"],
+  "faucets": [],
+  "infoURL": "https://github.com/Jdubedition/molereum"
 }]
