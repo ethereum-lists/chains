@@ -10,7 +10,7 @@
     "decimals": 18
   },
   "infoURL": "https://www.metis.io",
-  "shortName": "metis",
+  "shortName": "metis-rinkeby",
   "chainId": 588,
   "networkId": 588,
   "explorers": [{
@@ -20,7 +20,7 @@
   }],
   "parent": {
     "type" : "L2",
-    "chain": "eip155-1",
+    "chain": "eip155-4",
     "bridges": [ {"url":"https://bridge.metis.io"} ]
    }
 }
