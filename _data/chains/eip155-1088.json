@@ -1,0 +1,22 @@
+{
+  "name": "Metis",
+  "chain": "METIS",
+  "network": "mainnet",
+  "rpc": ["https://andromeda.metis.io/?owner=1088"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Metis",
+    "symbol": "METIS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.metis.io",
+  "shortName": "metis",
+  "chainId": 1088,
+  "networkId": 1088,
+
+  "explorers": [{
+    "name": "blockscan",
+    "url": "https://andromeda-explorer.metis.io/",
+    "standard": "none"
+  }]
+}
