@@ -1741,6 +1741,19 @@
   "faucets": [],
   "infoURL": "https://bittorrentchain.io/"
 }, {
+  "name": "Metis",
+  "chainId": 1088,
+  "shortName": "metis",
+  "networkId": 1088,
+  "nativeCurrency": {
+    "name": "Metis",
+    "symbol": "METIS",
+    "decimals": 18
+  },
+  "rpc": ["https://andromeda.metis.io/?owner=1088"],
+  "faucets": [],
+  "infoURL": "https://www.metis.io"
+}, {
   "name": "MathChain",
   "chainId": 1139,
   "shortName": "MATH",
