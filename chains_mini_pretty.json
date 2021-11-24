@@ -1455,6 +1455,19 @@
   "faucets": [],
   "infoURL": "https://tao.network"
 }, {
+  "name": "Metis Testnet Rinkeby",
+  "chainId": 588,
+  "shortName": "metis-rinkeby",
+  "networkId": 588,
+  "nativeCurrency": {
+    "name": "tMetis",
+    "symbol": "METIS",
+    "decimals": 18
+  },
+  "rpc": ["https://stardust.metis.io/?owner=588"],
+  "faucets": [],
+  "infoURL": "https://www.metis.io"
+}, {
   "name": "Acala Mandala Testnet",
   "chainId": 595,
   "shortName": "maca",
