@@ -2313,6 +2313,19 @@
   "faucets": ["https://nft.singularity.gold"],
   "infoURL": "https://www.singularity.gold"
 }, {
+  "name": "Singularity ZERO Mainnet",
+  "chainId": 12052,
+  "shortName": "ZERO",
+  "networkId": 12052,
+  "nativeCurrency": {
+    "name": "ZERO",
+    "symbol": "ZERO",
+    "decimals": 18
+  },
+  "rpc": ["https://zerorpc.singularity.gold"],
+  "faucets": ["https://zeroscan.singularity.gold"],
+  "infoURL": "https://www.singularity.gold"
+}, {
   "name": "MetaDot Mainnet",
   "chainId": 16000,
   "shortName": "mtt",
