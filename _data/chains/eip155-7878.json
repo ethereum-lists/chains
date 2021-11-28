@@ -1,12 +1,12 @@
 {
   "name": "Hazlor Testnet",
-  "chain": "Hazlor",
+  "chain": "SCAS",
   "network": "testnet",
-  "rpc": ["http://hatlas.rpc.hazlor.com:8545/"],
+  "rpc": ["https://hatlas.rpc.hazlor.com:8545/"],
   "faucets": ["https://faucet.hazlor.com"],
   "nativeCurrency": {
-    "name": "Planet",
-    "symbol": "PLANET",
+    "name": "Hazlor Test Coin",
+    "symbol": "TSCAS",
     "decimals": 18
   },
   "infoURL": "https://hazlor.com",
