@@ -2136,11 +2136,11 @@
   "shortName": "hazlor-hatlas",
   "networkId": 7878,
   "nativeCurrency": {
-    "name": "Planet",
-    "symbol": "PLANET",
+    "name": "Hazlor Test Coin",
+    "symbol": "TSCAS",
     "decimals": 18
   },
-  "rpc": ["http://hatlas.rpc.hazlor.com:8545/"],
+  "rpc": ["https://hatlas.rpc.hazlor.com:8545/"],
   "faucets": ["https://faucet.hazlor.com"],
   "infoURL": "https://hazlor.com"
 }, {
