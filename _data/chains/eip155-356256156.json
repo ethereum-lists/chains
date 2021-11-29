@@ -1,0 +1,23 @@
+{
+  "name": "Gather Tesnet Network",
+  "chain": "GTH",
+  "network": "testnet",
+  "rpc": [
+    "https://testnet.gather.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Gather",
+    "symbol": "GTH",
+    "decimals": 18
+  },
+  "infoURL": "https://gather.network",
+  "shortName": "tGTH",
+  "chainId": 356256156,
+  "networkId": 356256156,
+  "explorers": [{
+    "name": "Blockscout",
+    "url": "https://testnet-explorer.gather.network/",
+    "standard": "none"
+  }]
+}
