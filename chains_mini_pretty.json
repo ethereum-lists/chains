@@ -3223,6 +3223,19 @@
   "faucets": ["https://faucet.joys.digital/"],
   "infoURL": "https://joys.digital"
 }, {
+  "name": "Gather Mainnet Network",
+  "chainId": 192837465,
+  "shortName": "GTH",
+  "networkId": 192837465,
+  "nativeCurrency": {
+    "name": "Gather",
+    "symbol": "GTH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.gather.network"],
+  "faucets": [],
+  "infoURL": "https://gather.network"
+}, {
   "name": "Neon EVM DevNet",
   "chainId": 245022926,
   "shortName": "neonevm-devnet",
@@ -3274,6 +3287,32 @@
   "rpc": ["https://mainnet-rpc.oneledger.network"],
   "faucets": [],
   "infoURL": "https://oneledger.io"
+}, {
+  "name": "Gather Tesnet Network",
+  "chainId": 356256156,
+  "shortName": "tGTH",
+  "networkId": 356256156,
+  "nativeCurrency": {
+    "name": "Gather",
+    "symbol": "GTH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.gather.network"],
+  "faucets": [],
+  "infoURL": "https://gather.network"
+}, {
+  "name": "Gather Devnet Network",
+  "chainId": 486217935,
+  "shortName": "dGTH",
+  "networkId": 486217935,
+  "nativeCurrency": {
+    "name": "Gather",
+    "symbol": "GTH",
+    "decimals": 18
+  },
+  "rpc": ["https://devnet.gather.network"],
+  "faucets": [],
+  "infoURL": "https://gather.network"
 }, {
   "name": "IPOS Network",
   "chainId": 1122334455,

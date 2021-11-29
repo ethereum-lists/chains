@@ -4464,6 +4464,26 @@
   "chainId": 99415706,
   "networkId": 99415706
 }, {
+  "name": "Gather Mainnet Network",
+  "chain": "GTH",
+  "network": "mainnet",
+  "rpc": ["https://mainnet.gather.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Gather",
+    "symbol": "GTH",
+    "decimals": 18
+  },
+  "infoURL": "https://gather.network",
+  "shortName": "GTH",
+  "chainId": 192837465,
+  "networkId": 192837465,
+  "explorers": [{
+    "name": "Blockscout",
+    "url": "https://explorer.gather.network/",
+    "standard": "none"
+  }]
+}, {
   "name": "Neon EVM DevNet",
   "chain": "Solana",
   "network": "devnet",
@@ -4528,6 +4548,46 @@
     "name": "OneLedger Block Explorer",
     "url": "https://mainnet-explorer.oneledger.network",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Gather Tesnet Network",
+  "chain": "GTH",
+  "network": "testnet",
+  "rpc": ["https://testnet.gather.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Gather",
+    "symbol": "GTH",
+    "decimals": 18
+  },
+  "infoURL": "https://gather.network",
+  "shortName": "tGTH",
+  "chainId": 356256156,
+  "networkId": 356256156,
+  "explorers": [{
+    "name": "Blockscout",
+    "url": "https://testnet-explorer.gather.network/",
+    "standard": "none"
+  }]
+}, {
+  "name": "Gather Devnet Network",
+  "chain": "GTH",
+  "network": "devnet",
+  "rpc": ["https://devnet.gather.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Gather",
+    "symbol": "GTH",
+    "decimals": 18
+  },
+  "infoURL": "https://gather.network",
+  "shortName": "dGTH",
+  "chainId": 486217935,
+  "networkId": 486217935,
+  "explorers": [{
+    "name": "Blockscout",
+    "url": "https://devnet-explorer.gather.network/",
+    "standard": "none"
   }]
 }, {
   "name": "IPOS Network",
