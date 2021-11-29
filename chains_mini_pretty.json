@@ -2105,6 +2105,19 @@
   "faucets": [],
   "infoURL": "https://eraswap.info/"
 }, {
+  "name": "Uzmi Network Mainnet",
+  "chainId": 5315,
+  "shortName": "UZMI",
+  "networkId": 5315,
+  "nativeCurrency": {
+    "name": "UZMI",
+    "symbol": "UZMI",
+    "decimals": 18
+  },
+  "rpc": ["https://network.uzmigames.com.br/"],
+  "faucets": [],
+  "infoURL": "https://uzmigames.com.br/"
+}, {
   "name": "Syscoin Tanenbaum Testnet",
   "chainId": 5700,
   "shortName": "tsys",
