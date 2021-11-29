@@ -17,8 +17,8 @@
   "chainId": 6626,
   "networkId": 6626,
   "explorers": [{
-    "name": "pixie-chain",
+    "name": "blockscout",
     "url": "https://scan.chain.pixie.xyz",
-    "standard": "EIP3091"
+    "standard": "none"
   }]
 }
