@@ -1481,6 +1481,19 @@
   "faucets": [],
   "infoURL": "https://acala.network"
 }, {
+  "name": "Pixie Chain Testnet",
+  "chainId": 666,
+  "shortName": "pixie-chain-testnet",
+  "networkId": 666,
+  "nativeCurrency": {
+    "name": "Pixie Chain Testnet Native Token",
+    "symbol": "PCTT",
+    "decimals": 18
+  },
+  "rpc": ["https://http-testnet.chain.pixie.xyz", "wss://ws-testnet.chain.pixie.xyz"],
+  "faucets": ["https://chain.pixie.xyz/faucet"],
+  "infoURL": "https://scan-testnet.chain.pixie.xyz"
+}, {
   "name": "Karura Network",
   "chainId": 686,
   "shortName": "kar",
@@ -2130,6 +2143,19 @@
   "rpc": ["https://proxy.wegochain.io", "http://wallet.wegochain.io:7764"],
   "faucets": [],
   "infoURL": "http://wegochain.io"
+}, {
+  "name": "Pixie Chain Mainnet",
+  "chainId": 6626,
+  "shortName": "pixie-chain",
+  "networkId": 6626,
+  "nativeCurrency": {
+    "name": "Pixie Chain Native Token",
+    "symbol": "PIX",
+    "decimals": 18
+  },
+  "rpc": ["https://http-mainnet.chain.pixie.xyz", "wss://ws-mainnet.chain.pixie.xyz"],
+  "faucets": [],
+  "infoURL": "https://chain.pixie.xyz"
 }, {
   "name": "Hazlor Testnet",
   "chainId": 7878,
