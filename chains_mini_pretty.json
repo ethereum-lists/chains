@@ -3548,6 +3548,32 @@
   "faucets": [],
   "infoURL": "https://palm.io"
 }, {
+  "name": "Ntity Mainnet",
+  "chainId": 197710212030,
+  "shortName": "ntt",
+  "networkId": 197710212030,
+  "nativeCurrency": {
+    "name": "Ntity",
+    "symbol": "NTT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.ntity.io"],
+  "faucets": [],
+  "infoURL": "https://ntity.io"
+}, {
+  "name": "Haradev Testnet",
+  "chainId": 197710212031,
+  "shortName": "ntt-haradev",
+  "networkId": 197710212031,
+  "nativeCurrency": {
+    "name": "Ntity Haradev",
+    "symbol": "NTTH",
+    "decimals": 18
+  },
+  "rpc": ["https://blockchain.haradev.com"],
+  "faucets": [],
+  "infoURL": "https://ntity.io"
+}, {
   "name": "Molereum Network",
   "chainId": 6022140761023,
   "shortName": "mole",

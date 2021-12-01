@@ -4877,6 +4877,50 @@
   "chainId": 11297108109,
   "networkId": 11297108109
 }, {
+  "name": "Ntity Mainnet",
+  "chain": "Ntity",
+  "network": "mainnet",
+  "rpc": ["https://rpc.ntity.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ntity",
+    "symbol": "NTT",
+    "decimals": 18
+  },
+  "infoURL": "https://ntity.io",
+  "shortName": "ntt",
+  "chainId": 197710212030,
+  "networkId": 197710212030,
+  "icon": "ntity",
+  "explorers": [{
+    "name": "Ntity Blockscout",
+    "url": "https://blockscout.ntity.io",
+    "icon": "ntity",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Haradev Testnet",
+  "chain": "Ntity",
+  "network": "testnet",
+  "rpc": ["https://blockchain.haradev.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ntity Haradev",
+    "symbol": "NTTH",
+    "decimals": 18
+  },
+  "infoURL": "https://ntity.io",
+  "shortName": "ntt-haradev",
+  "chainId": 197710212031,
+  "networkId": 197710212031,
+  "icon": "ntity",
+  "explorers": [{
+    "name": "Ntity Haradev Blockscout",
+    "url": "https://blockscout.haradev.com",
+    "icon": "ntity",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Molereum Network",
   "chain": "ETH",
   "network": "molereum",
