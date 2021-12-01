@@ -2300,6 +2300,19 @@
   "faucets": ["https://faucet.evmos.org"],
   "infoURL": "https://evmos.org"
 }, {
+  "name": "myOwn Testnet",
+  "chainId": 9999,
+  "shortName": "myn",
+  "networkId": 9999,
+  "nativeCurrency": {
+    "name": "MYN",
+    "symbol": "MYN",
+    "decimals": 18
+  },
+  "rpc": ["https://fe693b0f-b1c4-45ec-aac1-5c4b913fc51e.cdegswtfk0ji0uq1ym3r3guz6.ep.stage.bccloud.net:8545"],
+  "faucets": [],
+  "infoURL": "https://docs.bccloud.net/"
+}, {
   "name": "Smart Bitcoin Cash",
   "chainId": 10000,
   "shortName": "smartbch",
