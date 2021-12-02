@@ -755,15 +755,15 @@
 }, {
   "name": "POA Network Sokol",
   "chainId": 77,
-  "shortName": "skl",
+  "shortName": "spoa",
   "networkId": 77,
   "nativeCurrency": {
     "name": "POA Sokol Ether",
-    "symbol": "SKL",
+    "symbol": "SPOA",
     "decimals": 18
   },
   "rpc": ["https://sokol.poa.network", "wss://sokol.poa.network/wss", "ws://sokol.poa.network:8546"],
-  "faucets": ["https://faucet-sokol.herokuapp.com"],
+  "faucets": ["https://faucet.poa.network"],
   "infoURL": "https://poa.network"
 }, {
   "name": "PrimusChain mainnet",
