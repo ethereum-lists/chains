@@ -5,7 +5,7 @@
   "rpc": [
     "https://ethereumclassic.network"
   ],
-  "faucets": [],
+"faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/?"],
   "nativeCurrency": {
     "name": "Ethereum Classic Ether",
     "symbol": "ETC",
@@ -15,5 +15,11 @@
   "shortName": "etc",
   "chainId": 61,
   "networkId": 1,
-  "slip44": 61
+  "slip44": 61,
+
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout.com/etc/mainnet",
+    "standard": "none"
+  }]
 }

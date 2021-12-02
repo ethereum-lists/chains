@@ -1,16 +1,25 @@
 {
-  "name": "Moonriver Kusama",
+  "name": "Moonriver",
   "chain": "MOON",
   "network": "moonriver",
-  "rpc": [],
-  "faucets": [],
+  "rpc": [
+    "https://rpc.moonriver.moonbeam.network",
+    "wss://wss.moonriver.moonbeam.network"
+  ],
+  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "nativeCurrency": {
-    "name": "River",
-    "symbol": "RIVER",
+    "name": "Moonriver",
+    "symbol": "MOVR",
     "decimals": 18
   },
   "infoURL": "https://moonbeam.network/networks/moonriver/",
   "shortName": "mriver",
   "chainId": 1285,
-  "networkId": 1285
+  "networkId": 1285,
+
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout.moonriver.moonbeam.network",
+    "standard": "none"
+  }]
 }

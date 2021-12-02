@@ -1,0 +1,12 @@
+{
+  "name": "Decentralized Web Mainnet",
+  "shortName": "dwu",
+  "chain": "DWU",
+  "network": "mainnet",
+ "chainId": 124,
+  "networkId": 124,
+  "rpc": ["https://decentralized-web.tech/dw_rpc.php"],
+  "faucets": [],
+  "infoURL": "https://decentralized-web.tech/dw_chain.php",
+  "nativeCurrency": {"name":"Decentralized Web Utility","symbol":"DWU","decimals":18}
+}

@@ -1,0 +1,19 @@
+{
+  "name": "QuarkChain Mainnet Root",
+  "chain": "QuarkChain",
+  "network": "mainnet",
+  "rpc": [
+    "http://jrpc.mainnet.quarkchain.io:38391/"
+  ],
+  "faucets": [
+  ],
+  "nativeCurrency": {
+    "name": "QKC",
+    "symbol": "QKC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.quarkchain.io/",
+  "shortName": "qkc-r",
+  "chainId": 100000,
+  "networkId": 100000
+}

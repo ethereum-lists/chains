@@ -1,0 +1,27 @@
+{
+  "name": "Ontology Mainnet",
+  "chain": "Ontology",
+  "network": "mainnet",
+  "rpc": [
+    "https://dappnode1.ont.io:20339",
+    "https://dappnode2.ont.io:20339",
+    "https://dappnode3.ont.io:20339",
+    "https://dappnode4.ont.io:20339"
+  ],
+  "faucets": [
+  ],
+  "nativeCurrency": {
+    "name": "ONG",
+    "symbol": "ONG",
+    "decimals": 9
+  },
+  "infoURL": "https://ont.io/",
+  "shortName": "Ontology Mainnet",
+  "chainId": 58,
+  "networkId": 58,
+  "explorers": [{
+    "name": "explorer",
+    "url": "https://explorer.ont.io/",
+    "standard": "EIP3091"
+  }]
+}

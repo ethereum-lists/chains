@@ -1,0 +1,23 @@
+{
+  "name": "Ambros Chain Mainnet",
+  "chain": "ambroschain",
+  "network": "mainnet",
+  "rpc": [
+    "https://mainnet.ambroschain.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+      "name": "AMBROS",
+      "symbol": "AMBR",
+      "decimals": 18
+  },
+  "infoURL": "https://bcmhunt.com/",
+  "shortName": "ambros",
+  "chainId": 880,
+  "networkId": 880,
+  "explorers": [{
+    "name": "Ambros Chain Explorer",
+    "url": "https://explorer.ambroschain.com",
+    "standard": "none"
+  }]
+}

@@ -1,9 +1,9 @@
 {
   "name": "IoTeX Network Mainnet",
-  "chain": "IOTX",
+  "chain": "iotex.io",
   "network": "mainnet",
   "rpc": [
-    "https://babel-api.mainnet.iotex.one"
+    "https://babel-api.mainnet.iotex.io"
   ],
   "faucets": [
   ],
@@ -15,5 +15,10 @@
   "infoURL": "https://iotex.io",
   "shortName": "iotex-mainnet",
   "chainId": 4689,
-  "networkId": 4689
+  "networkId": 4689,
+  "explorers": [{
+    "name": "iotexscan",
+    "url": "https://iotexscan.io",
+    "standard": "EIP3091"
+  }]
 }

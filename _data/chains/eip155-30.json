@@ -6,7 +6,7 @@
     "https://public-node.rsk.co",
     "https://mycrypto.rsk.co"
   ],
-  "faucets": [],
+  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "nativeCurrency": {
     "name": "RSK Mainnet Ether",
     "symbol": "RBTC",
@@ -16,5 +16,11 @@
   "shortName": "rsk",
   "chainId": 30,
   "networkId": 30,
-  "slip44": 137
+  "slip44": 137,
+
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.rsk.co",
+    "standard": "EIP3091"
+  }]
 }

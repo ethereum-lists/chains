@@ -1,21 +1,27 @@
 {
-    "name": "Matic Testnet Mumbai",
-    "chain": "Matic",
+    "name": "Polygon Testnet Mumbai",
+    "chain": "Polygon",
     "network": "testnet",
     "rpc": [
-        "https://rpc-mumbai.matic.today",
-        "wss://ws-mumbai.matic.today"
+        "https://matic-mumbai.chainstacklabs.com",
+        "https://rpc-mumbai.maticvigil.com",
+        "https://matic-testnet-archive-rpc.bwarelabs.com"
     ],
     "faucets": [
-        "https://faucet.matic.network/"
+        "https://faucet.polygon.technology/"
     ],
     "nativeCurrency": {
-        "name": "Matic",
-        "symbol": "tMATIC",
+        "name": "MATIC",
+        "symbol": "MATIC",
         "decimals": 18
     },
-    "infoURL": "https://matic.network/",
+    "infoURL": "https://polygon.technology/",
     "shortName": "maticmum",
     "chainId": 80001,
-    "networkId": 80001
+    "networkId": 80001,
+    "explorers": [{
+        "name": "polygonscan",
+        "url": "https://mumbai.polygonscan.com/",
+        "standard": "EIP3091"
+    }]
 }
