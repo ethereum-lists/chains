@@ -1806,6 +1806,19 @@
   "faucets": ["https://scan.boka.network/#/Galois/faucet"],
   "infoURL": "https://mathchain.org"
 }, {
+  "name": "World Trade Technical Chain Mainnet",
+  "chainId": 1202,
+  "shortName": "wtt",
+  "networkId": 2048,
+  "nativeCurrency": {
+    "name": "World Trade Token",
+    "symbol": "WTT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.cadaut.com", "wss://rpc.cadaut.com/ws"],
+  "faucets": [],
+  "infoURL": "http://www.cadaut.com"
+}, {
   "name": "Popcateum Mainnet",
   "chainId": 1213,
   "shortName": "popcat",
