@@ -3015,9 +3015,22 @@
   "faucets": [],
   "infoURL": "https://akroma.io"
 }, {
+  "name": "Alaya Mainnet",
+  "chainId": 201018,
+  "shortName": "alaya",
+  "networkId": 1,
+  "nativeCurrency": {
+    "name": "ATP",
+    "symbol": "atp",
+    "decimals": 18
+  },
+  "rpc": ["https://openapi.alaya.network/rpc", "wss://openapi.alaya.network/ws"],
+  "faucets": [],
+  "infoURL": "https://www.alaya.network/"
+}, {
   "name": "Alaya Dev Testnet",
   "chainId": 201030,
-  "shortName": "alaya",
+  "shortName": "alayadev",
   "networkId": 1,
   "nativeCurrency": {
     "name": "ATP",
