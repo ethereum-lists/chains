@@ -29,8 +29,30 @@ class TheChainChecker {
     }
 
     @Test
+    fun shouldPassForValidChainWithExplorersNoStandard() {
+        val file = getFile("valid/withexplorer/eip155-2.json")
+
+        checkChain(file, false)
+    }
+
+
+    @Test
     fun shouldPassForValidChainWithParent() {
         val file = getFile("valid/withparent/eip155-2.json")
+
+        checkChain(file, false)
+    }
+
+    @Test
+    fun shouldPassForValidChainWithParentBridge() {
+        val file = getFile("valid/withparentbridge/eip155-2.json")
+
+        checkChain(file, false)
+    }
+
+    @Test(expected = BridgeNoObject::class)
+    fun shouldFailForParentBridgeElementNoObject() {
+        val file = getFile("invalid/withparentextrabridgeelementnoobject/eip155-2.json")
 
         checkChain(file, false)
     }
@@ -49,6 +71,33 @@ class TheChainChecker {
         checkChain(file, false)
     }
 
+    @Test(expected = ParentHasExtraFields::class)
+    fun shouldFailForParentWithExtraParentField() {
+        val file = getFile("invalid/withparentextrafield/eip155-2.json")
+
+        checkChain(file, false)
+    }
+
+    @Test(expected = ParentHasExtraFields::class)
+    fun shouldFailForParentWithExtraField() {
+        val file = getFile("invalid/withparentextrafield/eip155-2.json")
+
+        checkChain(file, false)
+    }
+
+    @Test(expected = BridgeOnlyURL::class)
+    fun shouldFailForParentWithExtraBridgesField() {
+        val file = getFile("invalid/withparentextrabridgesfield/eip155-2.json")
+
+        checkChain(file, false)
+    }
+
+    @Test(expected = ParentBridgeNoArray::class)
+    fun shouldFailForParentWithExtraBridgeNoArray() {
+        val file = getFile("invalid/withparentextrabridgesnoarray/eip155-2.json")
+
+        checkChain(file, false)
+    }
 
     @Test(expected = ParentChainDoesNotExist::class)
     fun shouldFailIfParentChainDoesNotExist() {
@@ -145,7 +194,7 @@ class TheChainChecker {
         checkChain(getFile("invalid/explorersnotarray/eip155-1.json"), false)
     }
 
-    @Test(expected = ExplorerStandardMustBeEIP3091::class)
+    @Test(expected = ExplorerStandardMustBeEIP3091OrNone::class)
     fun shouldFailOnWrongExplorerStandard() {
         checkChain(getFile("invalid/wrongexplorerstandard/eip155-1.json"), false)
     }

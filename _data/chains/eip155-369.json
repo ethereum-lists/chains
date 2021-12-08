@@ -1,0 +1,19 @@
+{
+  "name": "PulseChain Mainnet",
+  "shortName": "pls",
+  "chain": "PLS",
+  "network": "mainnet",
+  "chainId": 369,
+  "networkId": 369,
+  "infoURL": "https://pulsechain.com/",
+  "rpc": [
+    "https://rpc.mainnet.pulsechain.com/v1/${PULSECHAIN_API_KEY}",
+    "wss://rpc.mainnet.pulsechain.com/ws/v1/${PULSECHAIN_API_KEY}"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Pulse",
+    "symbol": "PLS",
+    "decimals": 18
+  }
+}

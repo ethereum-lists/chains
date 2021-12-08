@@ -3,9 +3,9 @@
   "chain": "SGB",
   "network": "songbird",
   "rpc": [
+    "https://songbird.towolabs.com/rpc"
   ],
-  "faucets": [
-  ],
+  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "nativeCurrency": {
     "name": "Songbird",
     "symbol": "SGB",
@@ -14,5 +14,11 @@
   "infoURL": "https://flare.xyz",
   "shortName": "sgb",
   "chainId": 19,
-  "networkId": 19
+  "networkId": 19,
+
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://songbird-explorer.flare.network",
+    "standard": "none"
+  }]
 }

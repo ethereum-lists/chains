@@ -4,7 +4,8 @@
   "network": "goerli",
   "rpc": [
     "https://rpc.goerli.mudit.blog/",
-    "https://rpc.slock.it/goerli ",
+    "https://rpc.slock.it/goerli",
+
     "https://goerli.prylabs.net/"
   ],
   "faucets": [
@@ -22,5 +23,12 @@
   "networkId": 5,
   "ens": {
     "registry":"0x112234455c3a32fd11230c42e7bccd4a84e02010"
-  }
+  },
+  "explorers": [
+    {
+      "name": "etherscan-goerli",
+      "url": "https://goerli.etherscan.io",
+      "standard": "EIP3091"
+    }
+  ]
 }

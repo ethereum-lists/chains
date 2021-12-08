@@ -34,7 +34,7 @@ private fun createOutputFiles() {
 
     allChainFiles
         .map { Klaxon().parseJsonObject(it.reader()) }
-        .sortedBy { (it["chainId"] as Number).toLong()  }
+        .sortedBy { (it["chainId"] as Number).toLong() }
         .forEach { jsonObject ->
             chainJSONArray.add(jsonObject)
 
@@ -77,6 +77,7 @@ private fun createOutputFiles() {
     """.trimIndent()
     )
 
+    File(buildPath, ".nojekyll").createNewFile()
     File(buildPath, "CNAME").writeText("chainid.network")
 }
 
@@ -191,8 +192,8 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
                 throw(ExplorerInvalidUrl())
             }
 
-            if (explorer["standard"] != "EIP3091") {
-                throw(ExplorerStandardMustBeEIP3091())
+            if (explorer["standard"] != "EIP3091" && explorer["standard"] != "none") {
+                throw(ExplorerStandardMustBeEIP3091OrNone())
             }
         }
     }
@@ -215,8 +216,26 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
             throw ParentMustBeObject()
         }
 
-        if (it.keys != mutableSetOf("chain", "type")) {
+        if (!it.keys.containsAll(setOf("chain", "type"))) {
             throw ParentMustHaveChainAndType()
+        }
+
+        val extraFields = it.keys - setOf("chain", "type", "bridges")
+        if (extraFields.isNotEmpty()) {
+            throw ParentHasExtraFields(extraFields)
+        }
+
+        val bridges = it["bridges"]
+        if (bridges != null && bridges !is List<*>) {
+            throw ParentBridgeNoArray()
+        }
+        (bridges as? JsonArray<*>)?.forEach { bridge ->
+            if (bridge !is JsonObject) {
+                throw BridgeNoObject()
+            }
+            if (bridge.keys.size != 1 || bridge.keys.first() != "url") {
+                throw BridgeOnlyURL()
+            }
         }
 
         if (!setOf("L2", "shard").contains(it["type"])) {
