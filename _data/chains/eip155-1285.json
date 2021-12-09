@@ -6,7 +6,7 @@
     "https://rpc.moonriver.moonbeam.network",
     "wss://wss.moonriver.moonbeam.network"
   ],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Moonriver",
     "symbol": "MOVR",
@@ -16,10 +16,11 @@
   "shortName": "mriver",
   "chainId": 1285,
   "networkId": 1285,
-
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://blockscout.moonriver.moonbeam.network",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "moonscan",
+      "url": "https://moonriver.moonscan.io/",
+      "standard": "none"
+    }
+  ]
 }
