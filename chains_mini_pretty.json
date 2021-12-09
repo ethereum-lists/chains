@@ -2417,6 +2417,19 @@
   "faucets": ["https://faucet.metadot.network/"],
   "infoURL": "https://metadot.network"
 }, {
+  "name": "BTCIX Network",
+  "chainId": 19845,
+  "shortName": "btcix",
+  "networkId": 19845,
+  "nativeCurrency": {
+    "name": "BTCIX Network",
+    "symbol": "BTCIX",
+    "decimals": 18
+  },
+  "rpc": ["https://seed.btcix.org/rpc"],
+  "faucets": [],
+  "infoURL": "https://bitcolojix.org"
+}, {
   "name": "Webchain",
   "chainId": 24484,
   "shortName": "web",
