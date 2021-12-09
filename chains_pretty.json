@@ -648,32 +648,42 @@
   "name": "Darwinia Pangolin Testnet",
   "chain": "pangolin",
   "network": "free testnet",
-  "rpc": [],
-  "faucets": [],
+  "rpc": ["http://pangolin-rpc.darwinia.network"],
+  "faucets": ["https://docs.crab.network/dvm/wallets/dvm-metamask#apply-for-the-test-token"],
   "nativeCurrency": {
-    "name": "Pangolin RING",
+    "name": "Pangolin Network Native Token\u201d",
     "symbol": "PRING",
     "decimals": 9
   },
   "infoURL": "https://darwinia.network/",
   "shortName": "darwinia",
   "chainId": 43,
-  "networkId": 43
+  "networkId": 43,
+  "explorers": [{
+    "name": "subscan",
+    "url": "https://pangolin.subscan.io",
+    "standard": "none"
+  }]
 }, {
   "name": "Darwinia Crab Network",
   "chain": "crab",
   "network": "Crab network",
-  "rpc": [],
+  "rpc": ["http://crab-rpc.darwinia.network"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Crab Token",
-    "symbol": "CRING",
+    "name": "Crab Network Native Token",
+    "symbol": "CRAB",
     "decimals": 9
   },
   "infoURL": "https://crab.network/",
   "shortName": "crab",
   "chainId": 44,
-  "networkId": 44
+  "networkId": 44,
+  "explorers": [{
+    "name": "subscan",
+    "url": "https://crab.subscan.io",
+    "standard": "none"
+  }]
 }, {
   "name": "XinFin Network Mainnet",
   "chain": "XDC",

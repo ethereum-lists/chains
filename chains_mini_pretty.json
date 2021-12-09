@@ -485,12 +485,12 @@
   "shortName": "darwinia",
   "networkId": 43,
   "nativeCurrency": {
-    "name": "Pangolin RING",
+    "name": "Pangolin Network Native Token\u201d",
     "symbol": "PRING",
     "decimals": 9
   },
-  "rpc": [],
-  "faucets": [],
+  "rpc": ["http://pangolin-rpc.darwinia.network"],
+  "faucets": ["https://docs.crab.network/dvm/wallets/dvm-metamask#apply-for-the-test-token"],
   "infoURL": "https://darwinia.network/"
 }, {
   "name": "Darwinia Crab Network",
@@ -498,11 +498,11 @@
   "shortName": "crab",
   "networkId": 44,
   "nativeCurrency": {
-    "name": "Crab Token",
-    "symbol": "CRING",
+    "name": "Crab Network Native Token",
+    "symbol": "CRAB",
     "decimals": 9
   },
-  "rpc": [],
+  "rpc": ["http://crab-rpc.darwinia.network"],
   "faucets": [],
   "infoURL": "https://crab.network/"
 }, {
