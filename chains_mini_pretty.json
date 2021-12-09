@@ -1867,7 +1867,7 @@
     "symbol": "GLMR",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.api.moonbeam.network", "wss://wss.api.moonbeam.network"],
   "faucets": [],
   "infoURL": "https://moonbeam.network/networks/moonbeam/"
 }, {
@@ -1881,7 +1881,7 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.moonriver.moonbeam.network", "wss://wss.moonriver.moonbeam.network"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "infoURL": "https://moonbeam.network/networks/moonriver/"
 }, {
   "name": "Moonrock",

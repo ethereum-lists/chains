@@ -2542,7 +2542,7 @@
   "name": "Moonbeam",
   "chain": "MOON",
   "network": "moonbeam",
-  "rpc": [],
+  "rpc": ["https://rpc.api.moonbeam.network", "wss://wss.api.moonbeam.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Glimmer",
@@ -2558,7 +2558,7 @@
   "chain": "MOON",
   "network": "moonriver",
   "rpc": ["https://rpc.moonriver.moonbeam.network", "wss://wss.moonriver.moonbeam.network"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Moonriver",
     "symbol": "MOVR",
@@ -2569,8 +2569,8 @@
   "chainId": 1285,
   "networkId": 1285,
   "explorers": [{
-    "name": "blockscout",
-    "url": "https://blockscout.moonriver.moonbeam.network",
+    "name": "moonscan",
+    "url": "https://moonriver.moonscan.io/",
     "standard": "none"
   }]
 }, {
@@ -2602,7 +2602,12 @@
   "infoURL": "https://docs.moonbeam.network/networks/testnet/",
   "shortName": "mbase",
   "chainId": 1287,
-  "networkId": 1287
+  "networkId": 1287,
+  "explorers": [{
+    "name": "moonscan",
+    "url": "https://moonbase.moonscan.io/",
+    "standard": "none"
+  }]
 }, {
   "name": "Moonshadow",
   "chain": "MOON",
