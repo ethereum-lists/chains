@@ -584,6 +584,19 @@
   "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "infoURL": "https://www.binance.org"
 }, {
+  "name": "Syscoin Mainnet",
+  "chainId": 57,
+  "shortName": "sys",
+  "networkId": 57,
+  "nativeCurrency": {
+    "name": "Syscoin",
+    "symbol": "SYS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.syscoin.org", "wss://rpc.syscoin.org/wss"],
+  "faucets": ["https://faucet.syscoin.org"],
+  "infoURL": "https://www.syscoin.org"
+}, {
   "name": "Ontology Mainnet",
   "chainId": 58,
   "shortName": "Ontology Mainnet",
