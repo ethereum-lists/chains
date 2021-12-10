@@ -1,0 +1,26 @@
+{
+  "name": "Bittex Mainnet",
+  "chain": "BTTX",
+  "network": "mainnet",
+  "rpc": [
+    "https://rpc1.bittexscan.info",
+    "https://rpc2.bittexscan.info"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bittex",
+    "symbol": "BTTX",
+    "decimals": 18
+  },
+  "infoURL": "https://bittexscan.com",
+  "shortName": "bttx",
+  "chainId": 3690,
+  "networkId": 3690,
+  "icon": "ethereum",
+  "explorers": [{
+    "name": "bittexscan",
+    "url": "https://bittexscan.com",
+    "icon": "etherscan",
+    "standard": "EIP3091"
+  }]
+}
