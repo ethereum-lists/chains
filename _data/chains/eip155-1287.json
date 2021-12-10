@@ -15,5 +15,12 @@
   "infoURL": "https://docs.moonbeam.network/networks/testnet/",
   "shortName": "mbase",
   "chainId": 1287,
-  "networkId": 1287
+  "networkId": 1287,
+  "explorers": [
+    {
+      "name": "moonscan",
+      "url": "https://moonbase.moonscan.io/",
+      "standard": "none"
+    }
+  ]
 }
