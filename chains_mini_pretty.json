@@ -2079,6 +2079,19 @@
   "faucets": ["https://faucet.zcore.cash"],
   "infoURL": "https://zcore.cash"
 }, {
+  "name": "Bittex Mainnet",
+  "chainId": 3690,
+  "shortName": "bttx",
+  "networkId": 3690,
+  "nativeCurrency": {
+    "name": "Bittex",
+    "symbol": "BTTX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1.bittexscan.info", "https://rpc2.bittexscan.info"],
+  "faucets": [],
+  "infoURL": "https://bittexscan.com"
+}, {
   "name": "Fantom Testnet",
   "chainId": 4002,
   "shortName": "tftm",
