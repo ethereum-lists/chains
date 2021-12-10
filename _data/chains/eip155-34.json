@@ -21,6 +21,8 @@
   "ens": {},
   "explorers": [{
     "name": "ditherscan",
-    "url": "https://testnet.ditherscan.com"
+    "url": "https://testnet.ditherscan.com",
+    "icon": "ditherscan",
+    "standard": "EIP3091"
   }]
 }
