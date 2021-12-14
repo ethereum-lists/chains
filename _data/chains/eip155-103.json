@@ -1,0 +1,26 @@
+{
+    "name": "Voltium main Network",
+    "chain": "voltium",
+    "network": "mainnet",
+    "rpc": [
+      "https://10002-cs-554083353705-default.cs-europe-west1-onse.cloudshell.dev/?authuser=0",
+      "https://10002-cs-554083353705-default.cs-europe-west1-onse.cloudshell.dev/?authuser=0"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Voltium",
+      "symbol": "VLTM",
+      "decimals": 8
+    },
+    "infoURL": "https://voltiumcorporation.com",
+    "shortName": "vltm",
+    "chainId": 103,
+    "networkId": 103,
+    "icon": "ethereum",
+    "explorers": [{
+      "name": "etherscan",
+      "url": "https://vltmscan.com",
+      "icon": "vltmscan",
+      "standard": "EIP3091"
+    }]
+  }
