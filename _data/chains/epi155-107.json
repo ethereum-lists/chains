@@ -1,0 +1,25 @@
+{
+    "name": "Katana Chain",
+    "chain": "shinja",
+    "network": "mainnet",
+    "rpc": [
+      "https://mainnet.kusairchain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Shinja",
+      "symbol": "SHINJA",
+      "decimals": 18
+    },
+    "infoURL": "https://kusairchain.com",
+    "shortName": "shinja",
+    "chainId": 107,
+    "networkId": 107,
+    "icon": "katana",
+    "explorers": [{
+      "name": "katana",
+      "url": "https://kusariscan.com",
+      "icon": "vltmscan",
+      "standard": "EIP3091"
+    }]
+  }
