@@ -743,7 +743,12 @@
   "infoURL": "https://www.coinex.org/",
   "shortName": "tcet",
   "chainId": 53,
-  "networkId": 53
+  "networkId": 53,
+  "explorers": [{
+    "name": "coinexscan",
+    "url": "https://testnet.coinex.net/",
+    "standard": "none"
+  }]
 }, {
   "name": "Zyx Mainnet",
   "chain": "ZYX",
