@@ -15,4 +15,9 @@
   "shortName": "cet",
   "chainId": 52,
   "networkId": 52
+  "explorers": [{
+    "name": "coinexscan",
+    "url": "https://www.coinex.net/",
+    "standard": "none"
+  }]
 }
