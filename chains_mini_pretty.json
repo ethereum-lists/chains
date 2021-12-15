@@ -2211,14 +2211,14 @@
 }, {
   "name": "Hazlor Testnet",
   "chainId": 7878,
-  "shortName": "hazlor-hatlas",
+  "shortName": "tscas",
   "networkId": 7878,
   "nativeCurrency": {
     "name": "Hazlor Test Coin",
     "symbol": "TSCAS",
     "decimals": 18
   },
-  "rpc": ["https://hatlas.rpc.hazlor.com:8545/"],
+  "rpc": ["https://hatlas.rpc.hazlor.com:8545", "wss://hatlas.rpc.hazlor.com:8546"],
   "faucets": ["https://faucet.hazlor.com"],
   "infoURL": "https://hazlor.com"
 }, {
