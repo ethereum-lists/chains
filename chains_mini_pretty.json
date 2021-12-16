@@ -1169,6 +1169,19 @@
   "faucets": [],
   "infoURL": "https://seelen.pro/"
 }, {
+  "name": "BMC Mainnet",
+  "chainId": 188,
+  "shortName": "BMC",
+  "networkId": 188,
+  "nativeCurrency": {
+    "name": "BTM",
+    "symbol": "BTM",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.bmcchain.com/"],
+  "faucets": [],
+  "infoURL": "https://bmc.bytom.io/"
+}, {
   "name": "BitTorrent Chain Mainnet",
   "chainId": 199,
   "shortName": "BTT",
