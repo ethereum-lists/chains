@@ -4958,6 +4958,21 @@
   "chainId": 1666700003,
   "networkId": 1666700003
 }, {
+  "name": "DataHopper",
+  "chain": "HOP",
+  "network": "hopnet",
+  "rpc": ["https://23.92.21.121:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DataHoppers",
+    "symbol": "HOP",
+    "decimals": 18
+  },
+  "infoURL": "https://www.DataHopper.com",
+  "shortName": "hop",
+  "chainId": 2021121117,
+  "networkId": 2021121117
+}, {
   "name": "Pirl",
   "chain": "PIRL",
   "network": "mainnet",

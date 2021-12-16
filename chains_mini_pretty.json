@@ -3574,6 +3574,19 @@
   "faucets": [],
   "infoURL": "https://www.harmony.one/"
 }, {
+  "name": "DataHopper",
+  "chainId": 2021121117,
+  "shortName": "hop",
+  "networkId": 2021121117,
+  "nativeCurrency": {
+    "name": "DataHoppers",
+    "symbol": "HOP",
+    "decimals": 18
+  },
+  "rpc": ["https://23.92.21.121:8545"],
+  "faucets": [],
+  "infoURL": "https://www.DataHopper.com"
+}, {
   "name": "Pirl",
   "chainId": 3125659152,
   "shortName": "pirl",
