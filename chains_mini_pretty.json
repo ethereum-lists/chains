@@ -1182,6 +1182,19 @@
   "faucets": [],
   "infoURL": "https://bmc.bytom.io/"
 }, {
+  "name": "BMC Testnet",
+  "chainId": 189,
+  "shortName": "BMCT",
+  "networkId": 189,
+  "nativeCurrency": {
+    "name": "BTM",
+    "symbol": "BTM",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.bmcchain.com"],
+  "faucets": [],
+  "infoURL": "https://bmc.bytom.io/"
+}, {
   "name": "BitTorrent Chain Mainnet",
   "chainId": 199,
   "shortName": "BTT",
