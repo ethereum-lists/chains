@@ -2378,6 +2378,19 @@
   "faucets": ["https://faucet.evmos.org"],
   "infoURL": "https://evmos.org"
 }, {
+  "name": "Rangers Protocol Testnet Robin",
+  "chainId": 9527,
+  "shortName": "trpg",
+  "networkId": 9527,
+  "nativeCurrency": {
+    "name": "Rangers Protocol Gas",
+    "symbol": "tRPG",
+    "decimals": 18
+  },
+  "rpc": ["https://robin.rangersprotocol.com/api/jsonrpc"],
+  "faucets": ["https://robin-faucet.rangersprotocol.com"],
+  "infoURL": "https://rangersprotocol.com"
+}, {
   "name": "myOwn Testnet",
   "chainId": 9999,
   "shortName": "myn",
