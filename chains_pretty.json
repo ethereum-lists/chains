@@ -2776,6 +2776,27 @@
   "chainId": 2022,
   "networkId": 2022
 }, {
+  "name": "Rangers Protocol Mainnet",
+  "chain": "Rangers",
+  "network": "mainnet",
+  "rpc": ["https://mainnet.rangersprotocol.com/api/jsonrpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Rangers Protocol Gas",
+    "symbol": "RPG",
+    "decimals": 18
+  },
+  "infoURL": "https://rangersprotocol.com",
+  "shortName": "rpg",
+  "chainId": 2025,
+  "networkId": 2025,
+  "slip44": 1008,
+  "explorers": [{
+    "name": "rangersscan",
+    "url": "https://scan.rangersprotocol.com",
+    "standard": "none"
+  }]
+}, {
   "name": "Ecoball Mainnet",
   "chain": "ECO",
   "network": "mainnet",

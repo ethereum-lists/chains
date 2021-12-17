@@ -2040,6 +2040,19 @@
   "faucets": [],
   "infoURL": "http://edgewa.re"
 }, {
+  "name": "Rangers Protocol Mainnet",
+  "chainId": 2025,
+  "shortName": "rpg",
+  "networkId": 2025,
+  "nativeCurrency": {
+    "name": "Rangers Protocol Gas",
+    "symbol": "RPG",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.rangersprotocol.com/api/jsonrpc"],
+  "faucets": [],
+  "infoURL": "https://rangersprotocol.com"
+}, {
   "name": "Ecoball Mainnet",
   "chainId": 2100,
   "shortName": "eco",
