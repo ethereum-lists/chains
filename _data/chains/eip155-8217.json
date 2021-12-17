@@ -3,7 +3,7 @@
   "chain": "KLAY",
   "network": "cypress",
   "rpc": [
-    "https://node-api.klaytnapi.com/v1/klaytn"
+    "https://api.cypress.ozys.net:8651"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -15,5 +15,10 @@
   "shortName": "Cypress",
   "chainId": 8217,
   "networkId": 8217,
-  "slip44": 8217
+  "slip44": 8217,
+  "explorers": [{
+    "name": "Klaytnscope",
+    "url": "https://scope.klaytn.com",
+    "standard": "none"
+  }]
 }
