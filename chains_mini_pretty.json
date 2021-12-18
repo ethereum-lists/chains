@@ -3262,6 +3262,19 @@
   "faucets": [],
   "infoURL": "https://xerom.org"
 }, {
+  "name": "Kintsugi merge testnet",
+  "chainId": 1337702,
+  "shortName": "kintsugi",
+  "networkId": 1337702,
+  "nativeCurrency": {
+    "name": "kintsugi Ethere",
+    "symbol": "kiETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.kintsugi.themerge.dev"],
+  "faucets": ["https://faucet.kintsugi.themerge.dev"],
+  "infoURL": "https://kintsugi.themerge.dev/"
+}, {
   "name": "Musicoin",
   "chainId": 7762959,
   "shortName": "music",
