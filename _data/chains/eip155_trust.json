@@ -4,8 +4,8 @@
   "network": "mainnet",
   "icon": "ethereum",
   "rpc": [
-    "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
-    "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
+    "https://mainnet.infura.io/v3/f688403580d04543879d4dccb3231600:8545}",
+    "wss://mainnet.infura.io/ws/v3/f688403580d04543879d4dccb3231600:8545}",
     "https://api.mycryptoapi.com/eth",
     "https://cloudflare-eth.com"
   ],
@@ -21,7 +21,7 @@
   "networkId": 1,
   "slip44": 60,
   "ens": {
-    "registry":"0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
+    "registry":"0x63E9aECF414270107Dd841B2B5816eC415Ba00D1"
   },
   "explorers": [{
     "name": "etherscan",
