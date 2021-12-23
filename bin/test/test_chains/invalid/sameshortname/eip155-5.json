@@ -1,0 +1,26 @@
+{
+  "name": "Ethereum Testnet Görli",
+  "chain": "ETH",
+  "network": "goerli",
+  "rpc": [
+    "https://rpc.goerli.mudit.blog/",
+    "https://rpc.slock.it/goerli ",
+    "https://goerli.prylabs.net"
+  ],
+  "faucets": [
+    "https://goerli-faucet.slock.it/?address=${ADDRESS}",
+    "https://faucet.goerli.mudit.blog"
+  ],
+  "nativeCurrency": {
+    "name": "Görli Ether",
+    "symbol": "GOR",
+    "decimals": 18
+  },
+  "infoURL": "https://goerli.net/#about",
+  "shortName": "willfail",
+  "chainId": 5,
+  "networkId": 5,
+  "ens": {
+    "registry":"0x112234455c3a32fd11230c42e7bccd4a84e02010"
+  }
+}
