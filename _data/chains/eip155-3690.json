@@ -1,6 +1,6 @@
 {
   "name": "Bittex Mainnet",
-  "chain": "BTTX",
+  "chain": "BTX",
   "network": "mainnet",
   "rpc": [
     "https://rpc1.bittexscan.info",
@@ -9,11 +9,11 @@
   "faucets": [],
   "nativeCurrency": {
     "name": "Bittex",
-    "symbol": "BTTX",
+    "symbol": "BTX",
     "decimals": 18
   },
   "infoURL": "https://bittexscan.com",
-  "shortName": "bttx",
+  "shortName": "btx",
   "chainId": 3690,
   "networkId": 3690,
   "icon": "ethereum",
