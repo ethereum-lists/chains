@@ -2133,11 +2133,11 @@
 }, {
   "name": "Bittex Mainnet",
   "chainId": 3690,
-  "shortName": "bttx",
+  "shortName": "btx",
   "networkId": 3690,
   "nativeCurrency": {
     "name": "Bittex",
-    "symbol": "BTTX",
+    "symbol": "BTX",
     "decimals": 18
   },
   "rpc": ["https://rpc1.bittexscan.info", "https://rpc2.bittexscan.info"],
