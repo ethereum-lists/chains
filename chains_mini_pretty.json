@@ -1724,7 +1724,7 @@
     "symbol": "KLAY",
     "decimals": 18
   },
-  "rpc": ["https://node-api.klaytnapi.com/v1/klaytn"],
+  "rpc": ["https://api.baobab.klaytn.net:8651"],
   "faucets": ["https://baobab.wallet.klaytn.com/access?next=faucet"],
   "infoURL": "https://www.klaytn.com/"
 }, {
@@ -2309,7 +2309,7 @@
     "symbol": "KLAY",
     "decimals": 18
   },
-  "rpc": ["https://api.cypress.ozys.net:8651"],
+  "rpc": ["https://public-node-api.klaytnapi.com/v1/cypress"],
   "faucets": [],
   "infoURL": "https://www.klaytn.com/"
 }, {
