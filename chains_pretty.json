@@ -314,8 +314,8 @@
   "name": "Songbird Canary-Network",
   "chain": "SGB",
   "network": "songbird",
-  "rpc": ["https://songbird.towolabs.com/rpc"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "rpc": ["https://songbird.towolabs.com/rpc", "https://sgb.ftso.com.au/ext/bc/C/rpc", "https://sgb.lightft.so/rpc", "https://sgb-rpc.ftso.eu"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Songbird",
     "symbol": "SGB",
