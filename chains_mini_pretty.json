@@ -2638,6 +2638,32 @@
   "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "infoURL": "https://docs.celo.org/"
 }, {
+  "name": "Emerald Paratime Testnet",
+  "chainId": 42261,
+  "shortName": "emerald",
+  "networkId": 42261,
+  "nativeCurrency": {
+    "name": "Emerald Rose",
+    "symbol": "ROSE",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.emerald.oasis.dev/", "wss://testnet.emerald.oasis.dev/ws"],
+  "faucets": [],
+  "infoURL": "https://docs.oasis.dev/general/developer-resources/overview"
+}, {
+  "name": "Emerald Paratime Mainnet",
+  "chainId": 42262,
+  "shortName": "oasis",
+  "networkId": 42262,
+  "nativeCurrency": {
+    "name": "Emerald Rose",
+    "symbol": "ROSE",
+    "decimals": 18
+  },
+  "rpc": ["https://emerald.oasis.dev", "wss://emerald.oasis.dev/ws"],
+  "faucets": [],
+  "infoURL": "https://docs.oasis.dev/general/developer-resources/overview"
+}, {
   "name": "Athereum",
   "chainId": 43110,
   "shortName": "avaeth",
