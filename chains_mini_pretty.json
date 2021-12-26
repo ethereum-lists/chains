@@ -298,6 +298,19 @@
   "faucets": [],
   "infoURL": "https://elaeth.io/"
 }, {
+  "name": "Dithereum Mainnet",
+  "chainId": 24,
+  "shortName": "dthmainnet",
+  "networkId": 24,
+  "nativeCurrency": {
+    "name": "Dither",
+    "symbol": "DTH",
+    "decimals": 18
+  },
+  "rpc": ["https://node-mainnet.dithereum.io"],
+  "faucets": ["https://faucet.dithereum.org"],
+  "infoURL": "https://dithereum.org"
+}, {
   "name": "Cronos Mainnet Beta",
   "chainId": 25,
   "shortName": "cro",
