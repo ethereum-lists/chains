@@ -220,9 +220,9 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
             throw ParentMustHaveChainAndType()
         }
 
-        val extraFields = it.keys - setOf("chain", "type", "bridges")
-        if (extraFields.isNotEmpty()) {
-            throw ParentHasExtraFields(extraFields)
+        val extraParentFields = it.keys - setOf("chain", "type", "bridges")
+        if (extraParentFields.isNotEmpty()) {
+            throw ParentHasExtraFields(extraParentFields)
         }
 
         val bridges = it["bridges"]
