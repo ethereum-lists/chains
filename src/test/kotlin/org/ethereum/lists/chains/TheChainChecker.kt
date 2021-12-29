@@ -172,7 +172,7 @@ class TheChainChecker {
 
     @Test(expected = JsonEncodingException::class)
     fun shouldFailForExtraComma() {
-        val file = getFile("invalid/eip155-extracomma.json")
+        val file = getFile("invalid/extracomma/eip155-1.json")
 
         checkChain(file, false)
     }

@@ -9,6 +9,11 @@
     "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
     "https://api.mycryptoapi.com/eth"
   ],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
   "faucets": [],
   "infoURL": "https://ethereum.org",
 }

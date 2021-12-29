@@ -138,8 +138,6 @@ fun checkIcon(icon: File) {
 fun checkChain(chainFile: File, connectRPC: Boolean) {
     println("processing $chainFile")
 
-    parseWithMoshi(chainFile)
-
     val jsonObject = Klaxon().parseJsonObject(chainFile.reader())
     val chainAsLong = getNumber(jsonObject, "chainId")
 
@@ -247,6 +245,8 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
         }
 
     }
+
+    parseWithMoshi(chainFile)
 
     if (connectRPC) {
         if (jsonObject["rpc"] is List<*>) {
