@@ -1,18 +1,18 @@
 {
-  "name": "Evmos Testnet",
+  "name": "Evmos",
   "chain": "Evmos",
-  "network": "testnet",
-  "rpc": ["https://ethereum.rpc.evmos.dev"],
-  "faucets": ["https://faucet.evmos.org"],
+  "network": "mainnet",
+  "rpc": ["https://ethereum.rpc.evmos.org"],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "Photon",
-    "symbol": "PHOTON",
+    "name": "Evmos",
+    "symbol": "EVMOS",
     "decimals": 18
   },
   "infoURL": "https://evmos.org",
-  "shortName": "evmos-mons",
-  "chainId": 9000,
-  "networkId": 9000,
+  "shortName": "evmos",
+  "chainId": 9001,
+  "networkId": 9001,
   "explorers": [
     {
       "name": "Evmos EVM Explorer (Blockscout)",
