@@ -2404,6 +2404,19 @@
   "faucets": ["https://faucet.evmos.org"],
   "infoURL": "https://evmos.org"
 }, {
+  "name": "Genesis Coin",
+  "chainId": 9100,
+  "shortName": "GENEC",
+  "networkId": 9100,
+  "nativeCurrency": {
+    "name": "GN Coin",
+    "symbol": "GNC",
+    "decimals": 18
+  },
+  "rpc": ["https://genesis-gn.com", "wss://genesis-gn.com"],
+  "faucets": [],
+  "infoURL": "https://genesis-gn.com"
+}, {
   "name": "Rangers Protocol Testnet Robin",
   "chainId": 9527,
   "shortName": "trpg",
