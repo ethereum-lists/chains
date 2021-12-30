@@ -14,4 +14,13 @@ buildscript {
     }
 }
 
+subprojects {
+    apply plugin: "kotlin"
+
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+
 apply plugin: "com.github.ben-manes.versions"

@@ -1,5 +1,8 @@
 package org.ethereum.lists.chains.model
 
+import com.squareup.moshi.JsonClass
+
+@JsonClass(generateAdapter = true)
 data class Chain(
     val name: String,
     val shortName: String,

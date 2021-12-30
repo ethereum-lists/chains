@@ -2,7 +2,6 @@ package org.ethereum.lists.chains
 
 import com.squareup.moshi.JsonAdapter
 import com.squareup.moshi.Moshi
-import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import org.ethereum.lists.chains.model.Chain
 
 val mandatory_fields = listOf(
@@ -25,5 +24,5 @@ val optionalFields = listOf(
         "parent"
 )
 
-val moshi: Moshi = Moshi.Builder().add(KotlinJsonAdapterFactory()).build()
+val moshi: Moshi = Moshi.Builder().build()
 val chainAdapter: JsonAdapter<Chain> = moshi.adapter(Chain::class.java)
