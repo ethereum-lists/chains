@@ -12,9 +12,11 @@ import org.kethereum.rpc.HttpEthereumRPC
 val parsedShortNames = mutableSetOf<String>()
 val parsedNames = mutableSetOf<String>()
 
-val iconsPath = File("_data/icons")
+val basePath = File("..")
+val dataPath = File(basePath, "_data")
+val iconsPath = File(dataPath, "icons")
 
-val chainsPath = File("_data/chains")
+val chainsPath = File(dataPath, "chains")
 private val allFiles = chainsPath.listFiles() ?: error("$chainsPath must contain the chain json files - but it does not")
 private val allChainFiles = allFiles.filter { !it.isDirectory }
 
@@ -26,7 +28,7 @@ fun main(args: Array<String>) {
 }
 
 private fun createOutputFiles() {
-    val buildPath = File("output").apply { mkdir() }
+    val buildPath = File(basePath, "output").apply { mkdir() }
 
     val chainJSONArray = JsonArray<JsonObject>()
     val miniChainJSONArray = JsonArray<JsonObject>()
