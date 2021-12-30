@@ -3,7 +3,7 @@
   "chain": "CSC",
   "network": "mainnet",
   "rpc": [
-    "https://rpc-mainnet.coinex.net"
+    "https://rpc.coinex.net"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -11,8 +11,13 @@
     "symbol": "cet",
     "decimals": 18
   },
-  "infoURL": "http://www.coinex.org/",
+  "infoURL": "https://www.coinex.org/",
   "shortName": "cet",
   "chainId": 52,
-  "networkId": 52
+  "networkId": 52,
+  "explorers": [{
+    "name": "coinexscan",
+    "url": "https://www.coinex.net/",
+    "standard": "none"
+  }]
 }
