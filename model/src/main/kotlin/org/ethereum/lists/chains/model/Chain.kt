@@ -14,4 +14,5 @@ data class Chain(
     val faucets: List<String>,
     val explorers: List<Explorer>?,
     val infoURL: String,
+    val title: String?
 )
