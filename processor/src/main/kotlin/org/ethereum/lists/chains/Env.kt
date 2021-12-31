@@ -8,7 +8,6 @@ val mandatory_fields = listOf(
         "name",
         "shortName",
         "chain",
-        "network",
         "chainId",
         "networkId",
         "rpc",
@@ -22,6 +21,7 @@ val optionalFields = listOf(
         "icon",
         "explorers",
         "title",
+        "network",
         "parent"
 )
 
