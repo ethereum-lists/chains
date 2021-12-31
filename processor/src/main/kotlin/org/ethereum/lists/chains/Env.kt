@@ -21,6 +21,7 @@ val optionalFields = listOf(
         "ens",
         "icon",
         "explorers",
+        "title",
         "parent"
 )
 
