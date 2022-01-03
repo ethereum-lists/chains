@@ -13,16 +13,19 @@
   "shortName": "evmos-mons",
   "chainId": 9000,
   "networkId": 9000,
+  "icon": "evmos",
   "explorers": [
     {
       "name": "Evmos EVM Explorer (Blockscout)",
       "url": "https://evm.evmos.org",
-      "standard": "none"
+      "standard": "none",
+      "icon": "evmos"
     },
     {
       "name": "Evmos Cosmos Explorer (Big Dipper)",
       "url": "https://explorer.evmos.org",
-      "standard": "none"
+      "standard": "none",
+      "icon": "evmos"
     }
   ]
 }
