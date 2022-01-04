@@ -1,0 +1,23 @@
+{
+    "name": "Conflux",
+    "chain": "Conflux",
+    "network": "mainnet",
+    "rpc": ["https://ethcore.confluxrpc.com"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "CFX",
+      "symbol": "CFX",
+      "decimals": 18
+    },
+    "infoURL": "https://confluxnetwork.org",
+    "shortName": "cfx",
+    "chainId": 1030,
+    "networkId": 1030,
+    "explorers": [
+      {
+        "name": "Conflux Scan",
+        "url": "https://confluxscan.io",
+        "standard": "none"
+      }
+    ]
+  }
