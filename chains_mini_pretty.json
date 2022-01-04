@@ -1832,6 +1832,19 @@
   "faucets": [],
   "infoURL": "https://bittorrentchain.io/"
 }, {
+  "name": "Conflux",
+  "chainId": 1030,
+  "shortName": "cfx",
+  "networkId": 1030,
+  "nativeCurrency": {
+    "name": "CFX",
+    "symbol": "CFX",
+    "decimals": 18
+  },
+  "rpc": ["https://ethcore.confluxrpc.com"],
+  "faucets": [],
+  "infoURL": "https://confluxnetwork.org"
+}, {
   "name": "Metis Andromeda Mainnet",
   "chainId": 1088,
   "shortName": "metis-andromeda",
