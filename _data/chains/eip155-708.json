@@ -1,0 +1,26 @@
+{
+    "name": "BlockChain Station Testnet",
+    "chain": "BCS",
+    "network": "testnet",
+    "rpc": [
+      "https://rpc-testnet.bcsdev.io",
+      "wss://rpc-ws-testnet.bcsdev.io"
+    ],
+    "faucets": [
+      "https://faucet.bcsdev.io"
+    ],
+    "nativeCurrency": {
+      "name": "BCS Testnet Token",
+      "symbol": "tPLAY",
+      "decimals": 18
+    },
+    "infoURL": "https://blockchainstation.io",
+    "shortName": "tplay",
+    "chainId": 708,
+    "networkId": 708,
+    "explorers": [{
+      "name": "BlockChain Station Explorer",
+      "url": "https://testnet.bcsdev.io",
+      "standard": "EIP3091"
+    }]
+  }
