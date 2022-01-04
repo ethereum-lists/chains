@@ -2179,6 +2179,46 @@
   "networkId": 686,
   "slip44": 686
 }, {
+  "name": "BlockChain Station Mainnet",
+  "chain": "BCS",
+  "network": "mainnet",
+  "rpc": ["https://rpc-mainnet.bcsdev.io", "wss://rpc-ws-mainnet.bcsdev.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BCS Token",
+    "symbol": "PLAY",
+    "decimals": 18
+  },
+  "infoURL": "https://blockchainstation.io",
+  "shortName": "play",
+  "chainId": 707,
+  "networkId": 707,
+  "explorers": [{
+    "name": "BlockChain Station Explorer",
+    "url": "https://explorer.bcsdev.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "BlockChain Station Testnet",
+  "chain": "BCS",
+  "network": "testnet",
+  "rpc": ["https://rpc-testnet.bcsdev.io", "wss://rpc-ws-testnet.bcsdev.io"],
+  "faucets": ["https://faucet.bcsdev.io"],
+  "nativeCurrency": {
+    "name": "BCS Testnet Token",
+    "symbol": "tPLAY",
+    "decimals": 18
+  },
+  "infoURL": "https://blockchainstation.io",
+  "shortName": "tplay",
+  "chainId": 708,
+  "networkId": 708,
+  "explorers": [{
+    "name": "BlockChain Station Explorer",
+    "url": "https://testnet.bcsdev.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Factory 127 Testnet",
   "chain": "FETH",
   "network": "factory127 testnet",
@@ -3308,14 +3348,17 @@
   "shortName": "evmos-mons",
   "chainId": 9000,
   "networkId": 9000,
+  "icon": "evmos",
   "explorers": [{
     "name": "Evmos EVM Explorer (Blockscout)",
     "url": "https://evm.evmos.org",
-    "standard": "none"
+    "standard": "none",
+    "icon": "evmos"
   }, {
     "name": "Evmos Cosmos Explorer (Big Dipper)",
     "url": "https://explorer.evmos.org",
-    "standard": "none"
+    "standard": "none",
+    "icon": "evmos"
   }]
 }, {
   "name": "Evmos",
@@ -3332,14 +3375,17 @@
   "shortName": "evmos",
   "chainId": 9001,
   "networkId": 9001,
+  "icon": "evmos",
   "explorers": [{
     "name": "Evmos EVM Explorer (Blockscout)",
     "url": "https://evm.evmos.org",
-    "standard": "none"
+    "standard": "none",
+    "icon": "evmos"
   }, {
     "name": "Evmos Cosmos Explorer (Big Dipper)",
     "url": "https://explorer.evmos.org",
-    "standard": "none"
+    "standard": "none",
+    "icon": "evmos"
   }]
 }, {
   "name": "Genesis Coin",

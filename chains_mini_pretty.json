@@ -1572,6 +1572,32 @@
   "faucets": [],
   "infoURL": "https://karura.network"
 }, {
+  "name": "BlockChain Station Mainnet",
+  "chainId": 707,
+  "shortName": "play",
+  "networkId": 707,
+  "nativeCurrency": {
+    "name": "BCS Token",
+    "symbol": "PLAY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet.bcsdev.io", "wss://rpc-ws-mainnet.bcsdev.io"],
+  "faucets": [],
+  "infoURL": "https://blockchainstation.io"
+}, {
+  "name": "BlockChain Station Testnet",
+  "chainId": 708,
+  "shortName": "tplay",
+  "networkId": 708,
+  "nativeCurrency": {
+    "name": "BCS Testnet Token",
+    "symbol": "tPLAY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.bcsdev.io", "wss://rpc-ws-testnet.bcsdev.io"],
+  "faucets": ["https://faucet.bcsdev.io"],
+  "infoURL": "https://blockchainstation.io"
+}, {
   "name": "Factory 127 Testnet",
   "chainId": 721,
   "shortName": "tfeth",
