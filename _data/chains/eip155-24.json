@@ -1,0 +1,20 @@
+{
+  "name": "Dithereum Mainnet",
+  "chain": "DTH",
+  "icon": "dithereum",
+  "rpc": [
+    "https://node-mainnet.dithereum.io"
+  ],
+  "faucets": [
+	"https://faucet.dithereum.org"
+  ],
+  "nativeCurrency": {
+    "name": "Dither",
+    "symbol": "DTH",
+    "decimals": 18
+  },
+  "infoURL": "https://dithereum.org",
+  "shortName": "dthmainnet",
+  "chainId": 24,
+  "networkId": 24
+}

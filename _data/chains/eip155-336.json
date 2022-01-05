@@ -1,7 +1,6 @@
 {
     "name": "Shiden",
     "chain": "SDN",
-    "network": "shiden",
     "rpc": [
         "https://rpc.shiden.astar.network:8545",
         "wss://shiden.api.onfinality.io/public-ws"

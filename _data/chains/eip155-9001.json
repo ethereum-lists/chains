@@ -1,0 +1,30 @@
+{
+  "name": "Evmos",
+  "chain": "Evmos",
+  "rpc": ["https://ethereum.rpc.evmos.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Evmos",
+    "symbol": "EVMOS",
+    "decimals": 18
+  },
+  "infoURL": "https://evmos.org",
+  "shortName": "evmos",
+  "chainId": 9001,
+  "networkId": 9001,
+  "icon": "evmos",
+  "explorers": [
+    {
+      "name": "Evmos EVM Explorer (Blockscout)",
+      "url": "https://evm.evmos.org",
+      "standard": "none",
+      "icon": "evmos"
+    },
+    {
+      "name": "Evmos Cosmos Explorer (Big Dipper)",
+      "url": "https://explorer.evmos.org",
+      "standard": "none",
+      "icon": "evmos"
+    }
+  ]
+}
