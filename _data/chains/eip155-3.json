@@ -1,7 +1,6 @@
 {
   "name": "Ethereum Testnet Ropsten",
   "chain": "ETH",
-  "network": "ropsten",
   "rpc": [
     "https://ropsten.infura.io/v3/${INFURA_API_KEY}",
     "wss://ropsten.infura.io/ws/v3/${INFURA_API_KEY}"

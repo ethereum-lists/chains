@@ -1,7 +1,7 @@
 {
-  "name": "Optimistic Ethereum Testnet Kovan",
+  "name": "Optimistic Kovan",
+  "title": "Optimistic Ethereum Testnet Kovan",
   "chain": "ETH",
-  "network": "kovan",
   "rpc": ["https://kovan.optimism.io/"],
   "faucets": [],
   "nativeCurrency": {

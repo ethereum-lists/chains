@@ -1,12 +1,11 @@
 {
-  "name": "Ethereum Testnet Görli",
+  "name": "Görli",
+  "title": "Ethereum Testnet Görli",
   "chain": "ETH",
-  "network": "goerli",
   "rpc": [
-    "https://rpc.goerli.mudit.blog/",
-    "https://rpc.slock.it/goerli",
-
-    "https://goerli.prylabs.net/"
+    "https://goerli.infura.io/v3/${INFURA_API_KEY}",      
+    "wss://goerli.infura.io/v3/${INFURA_API_KEY}",      
+    "https://rpc.goerli.mudit.blog/"     
   ],
   "faucets": [
     "https://goerli-faucet.slock.it/?address=${ADDRESS}",
