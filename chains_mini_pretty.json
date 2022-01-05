@@ -38,7 +38,7 @@
   "faucets": ["https://faucet.ropsten.be?${ADDRESS}"],
   "infoURL": "https://github.com/ethereum/ropsten"
 }, {
-  "name": "Ethereum Testnet Rinkeby",
+  "name": "Rinkeby",
   "chainId": 4,
   "shortName": "rin",
   "networkId": 4,
@@ -60,7 +60,7 @@
     "symbol": "GOR",
     "decimals": 18
   },
-  "rpc": ["https://rpc.goerli.mudit.blog/", "https://rpc.slock.it/goerli", "https://goerli.prylabs.net/"],
+  "rpc": ["https://goerli.infura.io/v3/${INFURA_API_KEY}", "wss://goerli.infura.io/v3/${INFURA_API_KEY}", "https://rpc.goerli.mudit.blog/"],
   "faucets": ["https://goerli-faucet.slock.it/?address=${ADDRESS}", "https://faucet.goerli.mudit.blog"],
   "infoURL": "https://goerli.net/#about"
 }, {
@@ -493,7 +493,7 @@
   "faucets": ["https://app.telos.net/testnet/developers"],
   "infoURL": "https://telos.net"
 }, {
-  "name": "Ethereum Testnet Kovan",
+  "name": "Kovan",
   "chainId": 42,
   "shortName": "kov",
   "networkId": 42,
@@ -766,7 +766,7 @@
   "faucets": [],
   "infoURL": "https://www.soterone.com"
 }, {
-  "name": "Optimistic Ethereum Testnet Kovan",
+  "name": "Optimistic Kovan",
   "chainId": 69,
   "shortName": "okov",
   "networkId": 69,
@@ -3327,7 +3327,7 @@
   "faucets": ["https://faucet.polis.tech"],
   "infoURL": "https://polis.tech"
 }, {
-  "name": "Arbitrum Testnet Rinkeby",
+  "name": "Arbitrum Rinkeby",
   "chainId": 421611,
   "shortName": "arb-rinkeby",
   "networkId": 421611,
