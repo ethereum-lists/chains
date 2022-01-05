@@ -1,14 +1,17 @@
 {
   "name": "Moonrock",
   "chain": "MOON",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.api.moonrock.moonbeam.network",
+    "wss://wss.api.moonrock.moonbeam.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Rocs",
     "symbol": "ROC",
     "decimals": 18
   },
-  "infoURL": "",
+  "infoURL": "https://docs.moonbeam.network/learn/platform/networks/overview/",
   "shortName": "mrock",
   "chainId": 1286,
   "networkId": 1286
