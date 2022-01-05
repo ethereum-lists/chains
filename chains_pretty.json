@@ -1005,6 +1005,11 @@
     "symbol": "KOR",
     "decimals": 18
   },
+  "explorers": [{
+    "name": "etherscan",
+    "url": "https://kovan-optimistic.etherscan.io",
+    "standard": "EIP3091"
+  }],
   "infoURL": "https://optimism.io",
   "shortName": "okov",
   "chainId": 69,
