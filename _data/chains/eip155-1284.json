@@ -14,5 +14,17 @@
   "infoURL": "https://moonbeam.network/networks/moonbeam/",
   "shortName": "mbeam",
   "chainId": 1284,
-  "networkId": 1284
+  "networkId": 1284,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockscout.moonbeam.network/",
+      "standard": "none"
+    },
+    {
+      "name": "moonscan",
+      "url": "https://moonbeam.moonscan.io/",
+      "standard": "none"
+    }
+  ]
 }
