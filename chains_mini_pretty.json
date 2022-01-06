@@ -1975,19 +1975,6 @@
   "faucets": [],
   "infoURL": "https://moonbeam.network/networks/moonriver/"
 }, {
-  "name": "Moonrock",
-  "chainId": 1286,
-  "shortName": "mrock",
-  "networkId": 1286,
-  "nativeCurrency": {
-    "name": "Rocs",
-    "symbol": "ROC",
-    "decimals": 18
-  },
-  "rpc": [],
-  "faucets": [],
-  "infoURL": ""
-}, {
   "name": "Moonbase Alpha",
   "chainId": 1287,
   "shortName": "mbase",
@@ -2001,18 +1988,18 @@
   "faucets": [],
   "infoURL": "https://docs.moonbeam.network/networks/testnet/"
 }, {
-  "name": "Moonshadow",
+  "name": "Moonrock",
   "chainId": 1288,
-  "shortName": "mshadow",
+  "shortName": "mrock",
   "networkId": 1288,
   "nativeCurrency": {
-    "name": "Moonshadow",
-    "symbol": "MSHD",
+    "name": "Rocs",
+    "symbol": "ROC",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.api.moonrock.moonbeam.network", "wss://wss.api.moonrock.moonbeam.network"],
   "faucets": [],
-  "infoURL": "https://docs.moonbeam.network/networks/overview/"
+  "infoURL": "https://docs.moonbeam.network/learn/platform/networks/overview/"
 }, {
   "name": "Catecoin Chain Mainnet",
   "chainId": 1618,

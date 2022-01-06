@@ -2557,7 +2557,16 @@
   "infoURL": "https://moonbeam.network/networks/moonbeam/",
   "shortName": "mbeam",
   "chainId": 1284,
-  "networkId": 1284
+  "networkId": 1284,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout.moonbeam.network/",
+    "standard": "none"
+  }, {
+    "name": "moonscan",
+    "url": "https://moonbeam.moonscan.io/",
+    "standard": "none"
+  }]
 }, {
   "name": "Moonriver",
   "chain": "MOON",
@@ -2578,20 +2587,6 @@
     "standard": "none"
   }]
 }, {
-  "name": "Moonrock",
-  "chain": "MOON",
-  "rpc": [],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "Rocs",
-    "symbol": "ROC",
-    "decimals": 18
-  },
-  "infoURL": "",
-  "shortName": "mrock",
-  "chainId": 1286,
-  "networkId": 1286
-}, {
   "name": "Moonbase Alpha",
   "chain": "MOON",
   "rpc": ["https://rpc.api.moonbase.moonbeam.network", "wss://wss.api.moonbase.moonbeam.network"],
@@ -2611,17 +2606,17 @@
     "standard": "none"
   }]
 }, {
-  "name": "Moonshadow",
+  "name": "Moonrock",
   "chain": "MOON",
-  "rpc": [],
+  "rpc": ["https://rpc.api.moonrock.moonbeam.network", "wss://wss.api.moonrock.moonbeam.network"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Moonshadow",
-    "symbol": "MSHD",
+    "name": "Rocs",
+    "symbol": "ROC",
     "decimals": 18
   },
-  "infoURL": "https://docs.moonbeam.network/networks/overview/",
-  "shortName": "mshadow",
+  "infoURL": "https://docs.moonbeam.network/learn/platform/networks/overview/",
+  "shortName": "mrock",
   "chainId": 1288,
   "networkId": 1288
 }, {
