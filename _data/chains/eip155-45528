@@ -1,0 +1,27 @@
+{
+  "name": "Everest Mainnet",
+  "chain": "EverChain",
+  "icon": "everest",
+  "rpc": [
+    "https://mainnet.infura.io/v3/26cd24cf418043168d2745ac859b5f02",
+     ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Everest ID",
+    "symbol": "ID",
+    "decimals": 18
+  },
+  "infoURL": "https://everest.org",
+  "shortName": "everest",
+  "chainId": 45528,
+  "networkId": 45528,
+  "slip44": 45528,
+  "ens": {
+    "registry":"0x4976fb03C32e5B8cfe2b6cCB31c09Ba78EBaBa41"
+  },
+  "explorers": [{
+    "name": "everestscan",
+    "url": "https://scan.everest.org",
+    "standard": "EIP3091"
+  }]
+} 
