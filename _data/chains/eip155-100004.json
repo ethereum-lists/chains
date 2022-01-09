@@ -2,6 +2,7 @@
   "name": "QuarkChain Mainnet Shard 3",
   "chain": "QuarkChain",
   "rpc": [
+    "https://mainnet-s3-ethapi.quarkchain.io",
     "http://eth-jrpc.mainnet.quarkchain.io:39003/"
   ],
   "faucets": [
