@@ -48,7 +48,7 @@
     "decimals": 18
   },
   "rpc": ["https://rinkeby.infura.io/v3/${INFURA_API_KEY}", "wss://rinkeby.infura.io/ws/v3/${INFURA_API_KEY}"],
-  "faucets": ["https://faucet.rinkeby.io"],
+  "faucets": ["http://fauceth.komputing.org?chain=4&address=${ADDRESS}", "https://faucet.rinkeby.io"],
   "infoURL": "https://www.rinkeby.io"
 }, {
   "name": "Görli",
@@ -61,7 +61,7 @@
     "decimals": 18
   },
   "rpc": ["https://goerli.infura.io/v3/${INFURA_API_KEY}", "wss://goerli.infura.io/v3/${INFURA_API_KEY}", "https://rpc.goerli.mudit.blog/"],
-  "faucets": ["https://goerli-faucet.slock.it/?address=${ADDRESS}", "https://faucet.goerli.mudit.blog"],
+  "faucets": ["http://fauceth.komputing.org?chain=5&address=${ADDRESS}", "https://goerli-faucet.slock.it?address=${ADDRESS}", "https://faucet.goerli.mudit.blog"],
   "infoURL": "https://goerli.net/#about"
 }, {
   "name": "Ethereum Classic Testnet Kotti",
@@ -503,7 +503,7 @@
     "decimals": 18
   },
   "rpc": ["https://kovan.poa.network", "http://kovan.poa.network:8545", "https://kovan.infura.io/v3/${INFURA_API_KEY}", "wss://kovan.infura.io/ws/v3/${INFURA_API_KEY}", "ws://kovan.poa.network:8546"],
-  "faucets": ["https://faucet.kovan.network", "https://gitter.im/kovan-testnet/faucet"],
+  "faucets": ["http://fauceth.komputing.org?chain=42&address=${ADDRESS}", "https://faucet.kovan.network", "https://gitter.im/kovan-testnet/faucet"],
   "infoURL": "https://kovan-testnet.github.io/website"
 }, {
   "name": "Darwinia Pangolin Testnet",
@@ -776,7 +776,7 @@
     "decimals": 18
   },
   "rpc": ["https://kovan.optimism.io/"],
-  "faucets": [],
+  "faucets": ["http://fauceth.komputing.org?chain=69&address=${ADDRESS}"],
   "infoURL": "https://optimism.io"
 }, {
   "name": "Mix",
@@ -3323,7 +3323,7 @@
     "symbol": "ARETH",
     "decimals": 18
   },
-  "rpc": ["https://rinkeby.arbitrum.io/rpc", "wss://rinkeby.arbitrum.io/ws"],
+  "rpc": ["http://fauceth.komputing.org?chain=421611&address=${ADDRESS}", "https://rinkeby.arbitrum.io/rpc", "wss://rinkeby.arbitrum.io/ws"],
   "faucets": [],
   "infoURL": "https://arbitrum.io"
 }, {
@@ -3376,7 +3376,7 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.kintsugi.themerge.dev"],
-  "faucets": ["https://faucet.kintsugi.themerge.dev"],
+  "faucets": ["http://fauceth.komputing.org?chain=1337702&address=${ADDRESS}", "https://faucet.kintsugi.themerge.dev"],
   "infoURL": "https://kintsugi.themerge.dev/"
 }, {
   "name": "Musicoin",
