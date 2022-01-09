@@ -177,6 +177,13 @@ class TheChainChecker {
         checkChain(file, false)
     }
 
+    @Test(expected = ShortNameMustNotBeStar::class)
+    fun shouldFailForStarShortName() {
+        val file = getFile("invalid/shortNameMustNotBeStar/eip155-1.json")
+
+        checkChain(file, false)
+    }
+
     @Test(expected = NameMustBeUnique::class)
     fun shouldFailOnNonUniqueName() {
         checkChain(getFile("valid/eip155-1.json"), false)
