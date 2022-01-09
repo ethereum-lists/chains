@@ -5,8 +5,9 @@
   "rpc": [
     "https://rpc.kintsugi.themerge.dev"
   ],
-  "faucets": [
-    "https://faucet.kintsugi.themerge.dev"
+ "faucets": [
+    "http://fauceth.komputing.org?chain=1337702&address=${ADDRESS}",
+    "https://faucet.kintsugi.themerge.dev"    
   ],
   "nativeCurrency": {
     "name": "kintsugi Ethere",

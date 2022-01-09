@@ -3,7 +3,9 @@
   "title": "Optimistic Ethereum Testnet Kovan",
   "chain": "ETH",
   "rpc": ["https://kovan.optimism.io/"],
-  "faucets": [],
+  "faucets": [
+    "http://fauceth.komputing.org?chain=69&address=${ADDRESS}"
+  ],
   "nativeCurrency": {
     "name": "Kovan Ether",
     "symbol": "KOR",

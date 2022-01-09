@@ -10,6 +10,7 @@
     "ws://kovan.poa.network:8546"
   ],
   "faucets": [
+    "http://fauceth.komputing.org?chain=42&address=${ADDRESS}",
     "https://faucet.kovan.network",
     "https://gitter.im/kovan-testnet/faucet"
   ],
