@@ -87,4 +87,6 @@ There are also aggregated json files with all chains automatically assembled:
  * [TREZOR](https://trezor.io)
  * [networks.vercel.app](https://networks.vercel.app)
  * [eth-chains](https://github.com/taylorjdawson/eth-chains)
+ * [EVM-BOX](https://github.com/izayl/evm-box)
+ * [FaucETH](https://github.com/komputing/FaucETH)
  * Your project - contact us to add it here!

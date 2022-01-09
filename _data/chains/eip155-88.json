@@ -1,7 +1,6 @@
 {
   "name": "TomoChain",
   "chain": "TOMO",
-  "network": "mainnet",
   "rpc": [
     "https://rpc.tomochain.com"
   ],
@@ -14,5 +13,6 @@
   "infoURL": "https://tomocoin.io",
   "shortName": "tomo",
   "chainId": 88,
-  "networkId": 88
+  "networkId": 88,
+  "slip44": 889
 }

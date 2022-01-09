@@ -1,9 +1,8 @@
 {
   "name": "Aurora TestNet",
   "chain": "NEAR",
-  "network": "testnet",
   "rpc": [
-    "https://rpc.testnet.aurora.dev:8545"
+    "https://testnet.aurora.dev/"
   ],
   "faucets": [],
   "nativeCurrency": {

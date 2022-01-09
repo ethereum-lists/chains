@@ -1,7 +1,6 @@
 {
   "name": "Telos EVM Mainnet",
   "chain": "TLOS",
-  "network": "mainnet",
   "rpc": [
     "https://mainnet.telos.net/evm"
   ],
@@ -15,5 +14,10 @@
   "infoURL": "https://telos.net",
   "shortName": "Telos EVM",
   "chainId": 40,
-  "networkId": 40
+  "networkId": 40,
+  "explorers": [{
+    "name": "teloscan",
+    "url": "https://teloscan.io",
+    "standard": "EIP3091"
+  }]
 }

@@ -1,7 +1,6 @@
 {
   "name": "Webchain",
   "chain": "WEB",
-  "network": "mainnet",
   "rpc": [
     "https://node1.webchain.network"
   ],
@@ -14,5 +13,6 @@
   "infoURL": "https://webchain.network",
   "shortName": "web",
   "chainId": 24484,
-  "networkId": 37129
+  "networkId": 37129,
+  "slip44": 227
 }

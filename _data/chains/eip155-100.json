@@ -1,7 +1,6 @@
 {
-  "name": "xDAI Chain",
-  "chain": "XDAI",
-  "network": "mainnet",
+  "name": "Gnosis Chain (formerly xDai)",
+  "chain": "Gnosis",
   "rpc": [
     "https://rpc.xdaichain.com",
     "https://xdai.poanetwork.dev",
@@ -11,15 +10,21 @@
     "https://dai.poa.network",
     "ws://xdai.poanetwork.dev:8546"
   ],
-  "faucets": [],
+  "faucets": ["https://faucet.gimlu.com/gnosis", "https://stakely.io/faucet/xdai-chain", "https://faucet.prussia.dev/xdai"],
   "nativeCurrency": {
     "name": "xDAI",
     "symbol": "xDAI",
     "decimals": 18
   },
-  "infoURL": "https://forum.poa.network/c/xdai-chain",
-  "shortName": "xdai",
+  "infoURL": "https://www.xdaichain.com/",
+  "shortName": "gno",
   "chainId": 100,
   "networkId": 100,
-  "slip44": 700
+  "slip44": 700,
+
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout.com/xdai/mainnet",
+    "standard": "EIP3091"
+  }]
 }

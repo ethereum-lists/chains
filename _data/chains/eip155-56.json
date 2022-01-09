@@ -1,7 +1,6 @@
 {
   "name": "Binance Smart Chain Mainnet",
   "chain": "BSC",
-  "network": "mainnet",
   "rpc": [
     "https://bsc-dataseed1.binance.org",
     "https://bsc-dataseed2.binance.org",
@@ -17,7 +16,7 @@
     "https://bsc-dataseed4.ninicoin.io",
     "wss://bsc-ws-node.nariox.org"
   ],
-  "faucets": [],
+  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],  
   "nativeCurrency": {
     "name": "Binance Chain Native Token",
     "symbol": "BNB",
@@ -27,6 +26,7 @@
   "shortName": "bnb",
   "chainId": 56,
   "networkId": 56,
+  "slip44": 714,
   "explorers": [{
     "name": "bscscan",
     "url": "https://bscscan.com",

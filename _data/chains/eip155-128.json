@@ -1,12 +1,11 @@
 {
   "name": "Huobi ECO Chain Mainnet",
   "chain": "Heco",
-  "network": "mainnet",
   "rpc": [
     "https://http-mainnet.hecochain.com",
     "wss://ws-mainnet.hecochain.com"
   ],
-  "faucets": [],
+  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "nativeCurrency": {
     "name": "Huobi ECO Chain Native Token",
     "symbol": "HT",
@@ -16,6 +15,7 @@
   "shortName": "heco",
   "chainId": 128,
   "networkId": 128,
+  "slip44": 1010,
   "explorers": [{
     "name": "hecoinfo",
     "url": "https://hecoinfo.com",

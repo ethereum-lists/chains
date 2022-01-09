@@ -1,7 +1,6 @@
 {
   "name": "High Performance Blockchain",
   "chain": "HPB",
-  "network": "mainnet",
   "rpc": [
    "https://hpbnode.com",
     "wss://ws.hpbnode.com"
@@ -20,8 +19,8 @@
   "networkId": 269,
   "slip44": 269,
   "explorers": [{
-    "name": "hpbscan",
-    "url": "https://hpbscan.org/",
+    "name": "hscan",
+    "url": "https://hscan.org/",
     "standard": "EIP3091"
   }]
   

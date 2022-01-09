@@ -1,7 +1,7 @@
 {
-  "name": "Optimistic Ethereum Testnet Kovan",
+  "name": "Optimistic Kovan",
+  "title": "Optimistic Ethereum Testnet Kovan",
   "chain": "ETH",
-  "network": "kovan",
   "rpc": ["https://kovan.optimism.io/"],
   "faucets": [],
   "nativeCurrency": {
@@ -9,6 +9,11 @@
     "symbol": "KOR",
     "decimals": 18
   },
+  "explorers": [{
+    "name": "etherscan",
+    "url": "https://kovan-optimistic.etherscan.io",
+    "standard": "EIP3091"
+  }],
   "infoURL": "https://optimism.io",
   "shortName": "okov",
   "chainId": 69,

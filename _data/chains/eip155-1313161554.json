@@ -1,9 +1,8 @@
 {
   "name": "Aurora MainNet",
   "chain": "NEAR",
-  "network": "mainnet",
   "rpc": [
-    "https://rpc.mainnet.aurora.dev:8545"
+    "https://mainnet.aurora.dev"
   ],
   "faucets": [],
   "nativeCurrency": {

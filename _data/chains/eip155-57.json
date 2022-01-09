@@ -1,7 +1,6 @@
 {
   "name": "Syscoin Mainnet",
   "chain": "SYS",
-  "network": "mainnet",
   "rpc": [
     "https://rpc.syscoin.org",
     "wss://rpc.syscoin.org/wss"
@@ -15,5 +14,12 @@
   "infoURL": "https://www.syscoin.org",
   "shortName": "sys",
   "chainId": 57,
-  "networkId": 57
+  "networkId": 57,
+  "explorers": [
+    {
+      "name": "Syscoin Block Explorer",
+      "url": "https://explorer.syscoin.org",
+      "standard": "EIP3091"
+    }
+  ]
 }
