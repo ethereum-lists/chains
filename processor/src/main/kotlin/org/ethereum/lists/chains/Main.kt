@@ -284,6 +284,11 @@ private fun parseWithMoshi(fileToParse: File) {
     if (parsedShortNames.contains(parsedChain.shortName)) {
         throw ShortNameMustBeUnique(parsedChain.shortName)
     }
+
+    if (parsedChain.shortName == "*") {
+        throw ShortNameMustNotBeStar()
+    }
+
     parsedShortNames.add(parsedChain.shortName)
 }
 
