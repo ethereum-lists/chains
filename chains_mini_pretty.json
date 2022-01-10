@@ -203,9 +203,9 @@
     "symbol": "CFLR",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://coston-api.flare.network/ext/bc/C/rpc"],
   "faucets": ["https://faucet.towolabs.com"],
-  "infoURL": "https://github.com/flare-eng/coston"
+  "infoURL": "https://flare.xyz"
 }, {
   "name": "ThaiChain 2.0 ThaiFi",
   "chainId": 17,
