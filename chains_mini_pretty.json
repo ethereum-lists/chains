@@ -2781,6 +2781,19 @@
   "faucets": ["https://celo.org/developers/faucet", "https://cauldron.pretoriaresearchlab.io/alfajores-faucet"],
   "infoURL": "https://docs.celo.org/"
 }, {
+  "name": "REI Network",
+  "chainId": 47805,
+  "shortName": "REI",
+  "networkId": 47805,
+  "nativeCurrency": {
+    "name": "REI",
+    "symbol": "REI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.rei.network", "wss://rpc.rei.network"],
+  "faucets": [],
+  "infoURL": "https://rei.network/"
+}, {
   "name": "Energi Testnet",
   "chainId": 49797,
   "shortName": "tnrg",
