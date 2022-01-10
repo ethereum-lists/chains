@@ -2998,7 +2998,7 @@
     "symbol": "QKC",
     "decimals": 18
   },
-  "rpc": ["http://eth-jrpc.mainnet.quarkchain.io:39000/"],
+  "rpc": ["https://mainnet-s0-ethapi.quarkchain.io", "http://eth-jrpc.mainnet.quarkchain.io:39000/"],
   "faucets": [],
   "infoURL": "https://www.quarkchain.io/"
 }, {
@@ -3011,7 +3011,7 @@
     "symbol": "QKC",
     "decimals": 18
   },
-  "rpc": ["http://eth-jrpc.mainnet.quarkchain.io:39001/"],
+  "rpc": ["https://mainnet-s1-ethapi.quarkchain.io", "http://eth-jrpc.mainnet.quarkchain.io:39001/"],
   "faucets": [],
   "infoURL": "https://www.quarkchain.io/"
 }, {
@@ -3024,7 +3024,7 @@
     "symbol": "QKC",
     "decimals": 18
   },
-  "rpc": ["http://eth-jrpc.mainnet.quarkchain.io:39002/"],
+  "rpc": ["https://mainnet-s2-ethapi.quarkchain.io", "http://eth-jrpc.mainnet.quarkchain.io:39002/"],
   "faucets": [],
   "infoURL": "https://www.quarkchain.io/"
 }, {
@@ -3037,7 +3037,7 @@
     "symbol": "QKC",
     "decimals": 18
   },
-  "rpc": ["http://eth-jrpc.mainnet.quarkchain.io:39003/"],
+  "rpc": ["https://mainnet-s3-ethapi.quarkchain.io", "http://eth-jrpc.mainnet.quarkchain.io:39003/"],
   "faucets": [],
   "infoURL": "https://www.quarkchain.io/"
 }, {
@@ -3050,7 +3050,7 @@
     "symbol": "QKC",
     "decimals": 18
   },
-  "rpc": ["http://eth-jrpc.mainnet.quarkchain.io:39004/"],
+  "rpc": ["https://mainnet-s4-ethapi.quarkchain.io", "http://eth-jrpc.mainnet.quarkchain.io:39004/"],
   "faucets": [],
   "infoURL": "https://www.quarkchain.io/"
 }, {
@@ -3063,7 +3063,7 @@
     "symbol": "QKC",
     "decimals": 18
   },
-  "rpc": ["http://eth-jrpc.mainnet.quarkchain.io:39005/"],
+  "rpc": ["https://mainnet-s5-ethapi.quarkchain.io", "http://eth-jrpc.mainnet.quarkchain.io:39005/"],
   "faucets": [],
   "infoURL": "https://www.quarkchain.io/"
 }, {
@@ -3076,7 +3076,7 @@
     "symbol": "QKC",
     "decimals": 18
   },
-  "rpc": ["http://eth-jrpc.mainnet.quarkchain.io:39006/"],
+  "rpc": ["https://mainnet-s6-ethapi.quarkchain.io", "http://eth-jrpc.mainnet.quarkchain.io:39006/"],
   "faucets": [],
   "infoURL": "https://www.quarkchain.io/"
 }, {
@@ -3089,7 +3089,7 @@
     "symbol": "QKC",
     "decimals": 18
   },
-  "rpc": ["http://eth-jrpc.mainnet.quarkchain.io:39007/"],
+  "rpc": ["https://mainnet-s7-ethapi.quarkchain.io", "http://eth-jrpc.mainnet.quarkchain.io:39007/"],
   "faucets": [],
   "infoURL": "https://www.quarkchain.io/"
 }, {
@@ -3115,7 +3115,7 @@
     "symbol": "QKC",
     "decimals": 18
   },
-  "rpc": ["http://eth-jrpc.devnet.quarkchain.io:39900/"],
+  "rpc": ["https://devnet-s0-ethapi.quarkchain.io", "http://eth-jrpc.devnet.quarkchain.io:39900/"],
   "faucets": [],
   "infoURL": "https://www.quarkchain.io/"
 }, {
@@ -3128,7 +3128,7 @@
     "symbol": "QKC",
     "decimals": 18
   },
-  "rpc": ["http://eth-jrpc.devnet.quarkchain.io:39901/"],
+  "rpc": ["https://devnet-s1-ethapi.quarkchain.io", "http://eth-jrpc.devnet.quarkchain.io:39901/"],
   "faucets": [],
   "infoURL": "https://www.quarkchain.io/"
 }, {
@@ -3141,7 +3141,7 @@
     "symbol": "QKC",
     "decimals": 18
   },
-  "rpc": ["http://eth-jrpc.devnet.quarkchain.io:39902/"],
+  "rpc": ["https://devnet-s2-ethapi.quarkchain.io", "http://eth-jrpc.devnet.quarkchain.io:39902/"],
   "faucets": [],
   "infoURL": "https://www.quarkchain.io/"
 }, {
@@ -3154,7 +3154,7 @@
     "symbol": "QKC",
     "decimals": 18
   },
-  "rpc": ["http://eth-jrpc.devnet.quarkchain.io:39903/"],
+  "rpc": ["https://devnet-s3-ethapi.quarkchain.io", "http://eth-jrpc.devnet.quarkchain.io:39903/"],
   "faucets": [],
   "infoURL": "https://www.quarkchain.io/"
 }, {
@@ -3167,7 +3167,7 @@
     "symbol": "QKC",
     "decimals": 18
   },
-  "rpc": ["http://eth-jrpc.devnet.quarkchain.io:39904/"],
+  "rpc": ["https://devnet-s4-ethapi.quarkchain.io", "http://eth-jrpc.devnet.quarkchain.io:39904/"],
   "faucets": [],
   "infoURL": "https://www.quarkchain.io/"
 }, {
@@ -3180,7 +3180,7 @@
     "symbol": "QKC",
     "decimals": 18
   },
-  "rpc": ["http://eth-jrpc.devnet.quarkchain.io:39905/"],
+  "rpc": ["https://devnet-s5-ethapi.quarkchain.io", "http://eth-jrpc.devnet.quarkchain.io:39905/"],
   "faucets": [],
   "infoURL": "https://www.quarkchain.io/"
 }, {
@@ -3193,7 +3193,7 @@
     "symbol": "QKC",
     "decimals": 18
   },
-  "rpc": ["http://eth-jrpc.devnet.quarkchain.io:39906/"],
+  "rpc": ["https://devnet-s6-ethapi.quarkchain.io", "http://eth-jrpc.devnet.quarkchain.io:39906/"],
   "faucets": [],
   "infoURL": "https://www.quarkchain.io/"
 }, {
@@ -3206,7 +3206,7 @@
     "symbol": "QKC",
     "decimals": 18
   },
-  "rpc": ["http://eth-jrpc.devnet.quarkchain.io:39907/"],
+  "rpc": ["https://devnet-s7-ethapi.quarkchain.io", "http://eth-jrpc.devnet.quarkchain.io:39907/"],
   "faucets": [],
   "infoURL": "https://www.quarkchain.io/"
 }, {

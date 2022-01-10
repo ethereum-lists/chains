@@ -3925,7 +3925,7 @@
 }, {
   "name": "QuarkChain Mainnet Shard 0",
   "chain": "QuarkChain",
-  "rpc": ["http://eth-jrpc.mainnet.quarkchain.io:39000/"],
+  "rpc": ["https://mainnet-s0-ethapi.quarkchain.io", "http://eth-jrpc.mainnet.quarkchain.io:39000/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "QKC",
@@ -3948,7 +3948,7 @@
 }, {
   "name": "QuarkChain Mainnet Shard 1",
   "chain": "QuarkChain",
-  "rpc": ["http://eth-jrpc.mainnet.quarkchain.io:39001/"],
+  "rpc": ["https://mainnet-s1-ethapi.quarkchain.io", "http://eth-jrpc.mainnet.quarkchain.io:39001/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "QKC",
@@ -3971,7 +3971,7 @@
 }, {
   "name": "QuarkChain Mainnet Shard 2",
   "chain": "QuarkChain",
-  "rpc": ["http://eth-jrpc.mainnet.quarkchain.io:39002/"],
+  "rpc": ["https://mainnet-s2-ethapi.quarkchain.io", "http://eth-jrpc.mainnet.quarkchain.io:39002/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "QKC",
@@ -3994,7 +3994,7 @@
 }, {
   "name": "QuarkChain Mainnet Shard 3",
   "chain": "QuarkChain",
-  "rpc": ["http://eth-jrpc.mainnet.quarkchain.io:39003/"],
+  "rpc": ["https://mainnet-s3-ethapi.quarkchain.io", "http://eth-jrpc.mainnet.quarkchain.io:39003/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "QKC",
@@ -4017,7 +4017,7 @@
 }, {
   "name": "QuarkChain Mainnet Shard 4",
   "chain": "QuarkChain",
-  "rpc": ["http://eth-jrpc.mainnet.quarkchain.io:39004/"],
+  "rpc": ["https://mainnet-s4-ethapi.quarkchain.io", "http://eth-jrpc.mainnet.quarkchain.io:39004/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "QKC",
@@ -4040,7 +4040,7 @@
 }, {
   "name": "QuarkChain Mainnet Shard 5",
   "chain": "QuarkChain",
-  "rpc": ["http://eth-jrpc.mainnet.quarkchain.io:39005/"],
+  "rpc": ["https://mainnet-s5-ethapi.quarkchain.io", "http://eth-jrpc.mainnet.quarkchain.io:39005/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "QKC",
@@ -4063,7 +4063,7 @@
 }, {
   "name": "QuarkChain Mainnet Shard 6",
   "chain": "QuarkChain",
-  "rpc": ["http://eth-jrpc.mainnet.quarkchain.io:39006/"],
+  "rpc": ["https://mainnet-s6-ethapi.quarkchain.io", "http://eth-jrpc.mainnet.quarkchain.io:39006/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "QKC",
@@ -4086,7 +4086,7 @@
 }, {
   "name": "QuarkChain Mainnet Shard 7",
   "chain": "QuarkChain",
-  "rpc": ["http://eth-jrpc.mainnet.quarkchain.io:39007/"],
+  "rpc": ["https://mainnet-s7-ethapi.quarkchain.io", "http://eth-jrpc.mainnet.quarkchain.io:39007/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "QKC",
@@ -4123,7 +4123,7 @@
 }, {
   "name": "QuarkChain Devnet Shard 0",
   "chain": "QuarkChain",
-  "rpc": ["http://eth-jrpc.devnet.quarkchain.io:39900/"],
+  "rpc": ["https://devnet-s0-ethapi.quarkchain.io", "http://eth-jrpc.devnet.quarkchain.io:39900/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "QKC",
@@ -4146,7 +4146,7 @@
 }, {
   "name": "QuarkChain Devnet Shard 1",
   "chain": "QuarkChain",
-  "rpc": ["http://eth-jrpc.devnet.quarkchain.io:39901/"],
+  "rpc": ["https://devnet-s1-ethapi.quarkchain.io", "http://eth-jrpc.devnet.quarkchain.io:39901/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "QKC",
@@ -4169,7 +4169,7 @@
 }, {
   "name": "QuarkChain Devnet Shard 2",
   "chain": "QuarkChain",
-  "rpc": ["http://eth-jrpc.devnet.quarkchain.io:39902/"],
+  "rpc": ["https://devnet-s2-ethapi.quarkchain.io", "http://eth-jrpc.devnet.quarkchain.io:39902/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "QKC",
@@ -4192,7 +4192,7 @@
 }, {
   "name": "QuarkChain Devnet Shard 3",
   "chain": "QuarkChain",
-  "rpc": ["http://eth-jrpc.devnet.quarkchain.io:39903/"],
+  "rpc": ["https://devnet-s3-ethapi.quarkchain.io", "http://eth-jrpc.devnet.quarkchain.io:39903/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "QKC",
@@ -4215,7 +4215,7 @@
 }, {
   "name": "QuarkChain Devnet Shard 4",
   "chain": "QuarkChain",
-  "rpc": ["http://eth-jrpc.devnet.quarkchain.io:39904/"],
+  "rpc": ["https://devnet-s4-ethapi.quarkchain.io", "http://eth-jrpc.devnet.quarkchain.io:39904/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "QKC",
@@ -4238,7 +4238,7 @@
 }, {
   "name": "QuarkChain Devnet Shard 5",
   "chain": "QuarkChain",
-  "rpc": ["http://eth-jrpc.devnet.quarkchain.io:39905/"],
+  "rpc": ["https://devnet-s5-ethapi.quarkchain.io", "http://eth-jrpc.devnet.quarkchain.io:39905/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "QKC",
@@ -4261,7 +4261,7 @@
 }, {
   "name": "QuarkChain Devnet Shard 6",
   "chain": "QuarkChain",
-  "rpc": ["http://eth-jrpc.devnet.quarkchain.io:39906/"],
+  "rpc": ["https://devnet-s6-ethapi.quarkchain.io", "http://eth-jrpc.devnet.quarkchain.io:39906/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "QKC",
@@ -4284,7 +4284,7 @@
 }, {
   "name": "QuarkChain Devnet Shard 7",
   "chain": "QuarkChain",
-  "rpc": ["http://eth-jrpc.devnet.quarkchain.io:39907/"],
+  "rpc": ["https://devnet-s7-ethapi.quarkchain.io", "http://eth-jrpc.devnet.quarkchain.io:39907/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "QKC",
