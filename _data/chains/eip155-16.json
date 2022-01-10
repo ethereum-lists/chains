@@ -2,6 +2,7 @@
   "name": "Flare Testnet Coston",
   "chain": "FLR",
   "rpc": [
+    "https://coston-api.flare.network/ext/bc/C/rpc"
   ],
   "faucets": [
     "https://faucet.towolabs.com"
@@ -11,8 +12,13 @@
     "symbol": "CFLR",
     "decimals": 18
   },
-  "infoURL": "https://github.com/flare-eng/coston",
+  "infoURL": "https://flare.xyz",
   "shortName": "cflr",
   "chainId": 16,
-  "networkId": 16
+  "networkId": 16,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://coston-explorer.flare.network",
+    "standard": "EIP3091"
+  }]
 }
