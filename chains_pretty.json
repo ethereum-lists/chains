@@ -227,6 +227,7 @@
 }, {
   "name": "Flare Mainnet",
   "chain": "FLR",
+  "icon": "flare",
   "rpc": [],
   "faucets": [],
   "nativeCurrency": {
@@ -302,6 +303,7 @@
 }, {
   "name": "Songbird Canary-Network",
   "chain": "SGB",
+  "icon": "songbird",
   "rpc": ["https://songbird.towolabs.com/rpc", "https://sgb.ftso.com.au/ext/bc/C/rpc", "https://sgb.lightft.so/rpc", "https://sgb-rpc.ftso.eu"],
   "faucets": [],
   "nativeCurrency": {
