@@ -1,0 +1,19 @@
+{
+    "name": "Vision - Mainnet",
+    "chain": "Vision",
+    "rpc": [
+      "https://infragrid.v.network/ethereum/compatible"
+    ],
+    "faucets": [
+    ],
+    "nativeCurrency": {
+      "name": "VS",
+      "symbol": "VS",
+      "decimals": 6
+    },
+    "infoURL": "https://visionscan.org",
+    "shortName": "vision",
+    "chainId": 888888,
+    "networkId": 888888,
+    "slip44": 60
+  }
