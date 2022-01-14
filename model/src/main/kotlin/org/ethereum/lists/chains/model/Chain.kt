@@ -17,3 +17,5 @@ data class Chain(
     val infoURL: String,
     val title: String?
 )
+
+fun List<Chain>.filterEIP3019Explorers() = map { it.copy(explorers = it.explorers?.filterEIP3019()) }
