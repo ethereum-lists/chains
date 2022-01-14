@@ -1,0 +1,19 @@
+{
+  "name": "Tusima Testnet",
+  "chain": "TSMtestnet",
+  "rpc": [
+    "http://164.52.51.12:8545",
+   
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Tusima",
+    "symbol": "TSM",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet.tusima.network/explorer",
+  
+  "shortName": "TusimaTstnet",
+  "chainId": 98,
+  "networkId": 10001
+}
