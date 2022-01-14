@@ -211,12 +211,12 @@ class TheChainChecker {
         checkChain(getFile("invalid/explorernoname/eip155-1.json"), false)
     }
 
-    @Test(expected = ExplorerInvalidUrl::class)
+    @Test(expected = ExplorerMustWithHttps::class)
     fun shouldFailOnInvalidUrl() {
         checkChain(getFile("invalid/explorerinvalidurl/eip155-1.json"), false)
     }
 
-    @Test(expected = ExplorerInvalidUrl::class)
+    @Test(expected = ExplorerMustWithHttps::class)
     fun shouldFailOnMissingURL() {
         checkChain(getFile("invalid/explorermissingurl/eip155-1.json"), false)
     }
@@ -227,6 +227,6 @@ class TheChainChecker {
         checkChain(getFile("valid/eip155-5.json"), false)
     }
 
-    private fun getFile(s: String) = File(javaClass.classLoader.getResource("test_chains/$s").file)
+    private fun getFile(s: String) = File(javaClass.classLoader.getResource("test_chains/$s")!!.file)
 
 }

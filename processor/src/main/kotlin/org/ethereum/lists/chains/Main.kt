@@ -189,7 +189,11 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
 
             val url = explorer["url"]
             if (url == null || url !is String || !url.startsWith("https://")) {
-                throw(ExplorerInvalidUrl())
+                throw(ExplorerMustWithHttps())
+            }
+
+            if (url.endsWith("/")) {
+                throw(ExplorerCannotEndInSlash())
             }
 
             if (explorer["standard"] != "EIP3091" && explorer["standard"] != "none") {
