@@ -3340,6 +3340,32 @@
   "faucets": [],
   "infoURL": "https://arbitrum.io"
 }, {
+  "name": "Vision - Vpioneer Test Chain",
+  "chainId": 666666,
+  "shortName": "vpioneer",
+  "networkId": 666666,
+  "nativeCurrency": {
+    "name": "VS",
+    "symbol": "VS",
+    "decimals": 6
+  },
+  "rpc": ["https://vpioneer.infragrid.v.network/ethereum/compatible"],
+  "faucets": ["https://vpioneerfaucet.visionscan.org"],
+  "infoURL": "https://visionscan.org"
+}, {
+  "name": "Vision - Mainnet",
+  "chainId": 888888,
+  "shortName": "vision",
+  "networkId": 888888,
+  "nativeCurrency": {
+    "name": "VS",
+    "symbol": "VS",
+    "decimals": 6
+  },
+  "rpc": ["https://infragrid.v.network/ethereum/compatible"],
+  "faucets": [],
+  "infoURL": "https://visionscan.org"
+}, {
   "name": "Eluvio Content Fabric",
   "chainId": 955305,
   "shortName": "elv",

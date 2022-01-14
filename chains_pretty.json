@@ -4488,6 +4488,36 @@
     }]
   }
 }, {
+  "name": "Vision - Vpioneer Test Chain",
+  "chain": "Vision-Vpioneer",
+  "rpc": ["https://vpioneer.infragrid.v.network/ethereum/compatible"],
+  "faucets": ["https://vpioneerfaucet.visionscan.org"],
+  "nativeCurrency": {
+    "name": "VS",
+    "symbol": "VS",
+    "decimals": 6
+  },
+  "infoURL": "https://visionscan.org",
+  "shortName": "vpioneer",
+  "chainId": 666666,
+  "networkId": 666666,
+  "slip44": 60
+}, {
+  "name": "Vision - Mainnet",
+  "chain": "Vision",
+  "rpc": ["https://infragrid.v.network/ethereum/compatible"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "VS",
+    "symbol": "VS",
+    "decimals": 6
+  },
+  "infoURL": "https://visionscan.org",
+  "shortName": "vision",
+  "chainId": 888888,
+  "networkId": 888888,
+  "slip44": 60
+}, {
   "name": "Eluvio Content Fabric",
   "chain": "Eluvio",
   "rpc": ["https://host-76-74-28-226.contentfabric.io/eth/", "https://host-76-74-28-232.contentfabric.io/eth/", "https://host-76-74-29-2.contentfabric.io/eth/", "https://host-76-74-29-8.contentfabric.io/eth/", "https://host-76-74-29-34.contentfabric.io/eth/", "https://host-76-74-29-35.contentfabric.io/eth/", "https://host-154-14-211-98.contentfabric.io/eth/", "https://host-154-14-192-66.contentfabric.io/eth/", "https://host-60-240-133-202.contentfabric.io/eth/", "https://host-64-235-250-98.contentfabric.io/eth/"],
