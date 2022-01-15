@@ -1936,6 +1936,19 @@
   "faucets": [],
   "infoURL": "https://popcateum.org"
 }, {
+  "name": "EnterChain Mainnet",
+  "chainId": 1214,
+  "shortName": "enter",
+  "networkId": 1214,
+  "nativeCurrency": {
+    "name": "EnterCoin",
+    "symbol": "ENTER",
+    "decimals": 18
+  },
+  "rpc": ["https://tapi.entercoin.net/"],
+  "faucets": [],
+  "infoURL": "https://entercoin.net"
+}, {
   "name": "HALO Mainnet",
   "chainId": 1280,
   "shortName": "HO",
