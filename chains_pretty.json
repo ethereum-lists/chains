@@ -4852,7 +4852,12 @@
   "infoURL": "https://aurora.dev",
   "shortName": "aurora",
   "chainId": 1313161554,
-  "networkId": 1313161554
+  "networkId": 1313161554,
+  "explorers": [{
+    "name": "explorer.aurora.dev",
+    "url": "https://explorer.mainnet.aurora.dev",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Aurora TestNet",
   "chain": "NEAR",
@@ -4866,7 +4871,12 @@
   "infoURL": "https://aurora.dev",
   "shortName": "aurora-testnet",
   "chainId": 1313161555,
-  "networkId": 1313161555
+  "networkId": 1313161555,
+  "explorers": [{
+    "name": "explorer.aurora.dev",
+    "url": "https://explorer.testnet.aurora.dev",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Aurora BetaNet",
   "chain": "NEAR",
