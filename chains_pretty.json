@@ -663,7 +663,7 @@
     "decimals": 9
   },
   "infoURL": "https://darwinia.network/",
-  "shortName": "darwinia",
+  "shortName": "pangolin",
   "chainId": 43,
   "networkId": 43,
   "explorers": [{
@@ -688,6 +688,25 @@
   "explorers": [{
     "name": "subscan",
     "url": "https://crab.subscan.io",
+    "standard": "none"
+  }]
+}, {
+  "name": "Darwinia Pangoro Testnet",
+  "chain": "pangoro",
+  "rpc": ["http://pangoro-rpc.darwinia.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Pangoro Network Native Token\u201d",
+    "symbol": "ORING",
+    "decimals": 9
+  },
+  "infoURL": "https://darwinia.network/",
+  "shortName": "pangoro",
+  "chainId": 45,
+  "networkId": 45,
+  "explorers": [{
+    "name": "subscan",
+    "url": "https://pangoro.subscan.io",
     "standard": "none"
   }]
 }, {

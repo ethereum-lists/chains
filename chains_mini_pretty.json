@@ -508,7 +508,7 @@
 }, {
   "name": "Darwinia Pangolin Testnet",
   "chainId": 43,
-  "shortName": "darwinia",
+  "shortName": "pangolin",
   "networkId": 43,
   "nativeCurrency": {
     "name": "Pangolin Network Native Token\u201d",
@@ -531,6 +531,19 @@
   "rpc": ["http://crab-rpc.darwinia.network"],
   "faucets": [],
   "infoURL": "https://crab.network/"
+}, {
+  "name": "Darwinia Pangoro Testnet",
+  "chainId": 45,
+  "shortName": "pangoro",
+  "networkId": 45,
+  "nativeCurrency": {
+    "name": "Pangoro Network Native Token\u201d",
+    "symbol": "ORING",
+    "decimals": 9
+  },
+  "rpc": ["http://pangoro-rpc.darwinia.network"],
+  "faucets": [],
+  "infoURL": "https://darwinia.network/"
 }, {
   "name": "XinFin Network Mainnet",
   "chainId": 50,
