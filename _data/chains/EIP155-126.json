@@ -1,8 +1,8 @@
 {
     "name": "OYchain Testnet",
     "chain": "OYchain",
-    "rpc": [https://rpc.cntop3.com],
-    "faucets": [http://faucet.cntop3.com],
+    "rpc": ["https://rpc.cntop3.com"],
+    "faucets": ["http://faucet.cntop3.com"],
     "nativeCurrency": {
       "name": "OYchain Token",
       "symbol": "OY",
