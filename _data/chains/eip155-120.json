@@ -1,0 +1,24 @@
+{
+    "name": "AVO Mainnet",
+    "chain": "AVO",
+    "network": "mainnet",
+    "rpc": [
+      "https://rpc-mainnet.avo.network",
+      "wss://rpc-ws-mainnet.avo.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "AVO Token",
+      "symbol": "AVO",
+      "decimals": 18
+    },
+    "infoURL": "https://avo.network",
+    "shortName": "avo",
+    "chainId": 120,
+    "networkId": 120,
+    "explorers": [{
+      "name": "AVO Explorer",
+      "url": "https://scan.avo.network",
+      "standard": "EIP3091"
+    }]
+  }
