@@ -1,0 +1,26 @@
+{
+    "name": "AVO Testnet",
+    "chain": "AVO",
+    "network": "testnet",
+    "rpc": [
+      "https://rpc-test.avo.network",
+      "wss://rpc-ws-test.avo.network"
+    ],
+    "faucets": [
+      "https://faucet.avo.network"
+    ],
+    "nativeCurrency": {
+      "name": "AVO Testnet Token",
+      "symbol": "TAVO",
+      "decimals": 18
+    },
+    "infoURL": "https://avo.network",
+    "shortName": "tavo",
+    "chainId": 121,
+    "networkId": 121,
+    "explorers": [{
+      "name": "AVO Explorer",
+      "url": "https://testnet.avo.network",
+      "standard": "EIP3091"
+    }]
+  }
