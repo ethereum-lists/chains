@@ -3362,8 +3362,8 @@
     "symbol": "ARETH",
     "decimals": 18
   },
-  "rpc": ["http://fauceth.komputing.org?chain=421611&address=${ADDRESS}", "https://rinkeby.arbitrum.io/rpc", "wss://rinkeby.arbitrum.io/ws"],
-  "faucets": [],
+  "rpc": ["https://rinkeby.arbitrum.io/rpc", "wss://rinkeby.arbitrum.io/ws"],
+  "faucets": ["http://fauceth.komputing.org?chain=421611&address=${ADDRESS}"],
   "infoURL": "https://arbitrum.io"
 }, {
   "name": "Vision - Vpioneer Test Chain",
