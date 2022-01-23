@@ -246,7 +246,7 @@
   "faucets": [],
   "infoURL": "https://flare.xyz"
 }, {
-  "name": "ELA-ETH-Sidechain Mainnet",
+  "name": "Elastos Smart Chain",
   "chainId": 20,
   "shortName": "elaeth",
   "networkId": 20,
@@ -255,8 +255,8 @@
     "symbol": "ELA",
     "decimals": 18
   },
-  "rpc": ["https://mainrpc.elaeth.io"],
-  "faucets": [],
+  "rpc": ["https://api.elastos.io/eth"],
+  "faucets": ["https://faucet.elastos.org/"],
   "infoURL": "https://www.elastos.org/"
 }, {
   "name": "ELA-ETH-Sidechain Testnet",

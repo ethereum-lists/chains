@@ -321,10 +321,10 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "ELA-ETH-Sidechain Mainnet",
+  "name": "Elastos Smart Chain",
   "chain": "ETH",
-  "rpc": ["https://mainrpc.elaeth.io"],
-  "faucets": [],
+  "rpc": ["https://api.elastos.io/eth"],
+  "faucets": ["https://faucet.elastos.org/"],
   "nativeCurrency": {
     "name": "Elastos",
     "symbol": "ELA",
@@ -333,7 +333,12 @@
   "infoURL": "https://www.elastos.org/",
   "shortName": "elaeth",
   "chainId": 20,
-  "networkId": 20
+  "networkId": 20,
+  "explorers": [{
+    "name": "elastos eth explorer",
+    "url": "https://eth.elastos.io",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "ELA-ETH-Sidechain Testnet",
   "chain": "ETH",
