@@ -3002,6 +3002,32 @@
   "faucets": ["https://faucet.polygon.technology/"],
   "infoURL": "https://polygon.technology/"
 }, {
+  "name": "UB Smart Chain(testnet)",
+  "chainId": 99998,
+  "shortName": "usctest",
+  "networkId": 99998,
+  "nativeCurrency": {
+    "name": "UBC",
+    "symbol": "UBC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.rpc.uschain.network"],
+  "faucets": [],
+  "infoURL": "https://www.ubchain.site"
+}, {
+  "name": "UB Smart Chain",
+  "chainId": 99999,
+  "shortName": "usc",
+  "networkId": 99999,
+  "nativeCurrency": {
+    "name": "UBC",
+    "symbol": "UBC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.uschain.network"],
+  "faucets": [],
+  "infoURL": "https://www.ubchain.site/"
+}, {
   "name": "QuarkChain Mainnet Root",
   "chainId": 100000,
   "shortName": "qkc-r",

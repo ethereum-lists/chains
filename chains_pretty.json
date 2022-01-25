@@ -3962,6 +3962,36 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "UB Smart Chain(testnet)",
+  "chain": "USC",
+  "network": "testnet",
+  "rpc": ["https://testnet.rpc.uschain.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "UBC",
+    "symbol": "UBC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.ubchain.site",
+  "shortName": "usctest",
+  "chainId": 99998,
+  "networkId": 99998
+}, {
+  "name": "UB Smart Chain",
+  "chain": "USC",
+  "network": "mainnet",
+  "rpc": ["https://rpc.uschain.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "UBC",
+    "symbol": "UBC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.ubchain.site/",
+  "shortName": "usc",
+  "chainId": 99999,
+  "networkId": 99999
+}, {
   "name": "QuarkChain Mainnet Root",
   "chain": "QuarkChain",
   "rpc": ["http://jrpc.mainnet.quarkchain.io:38391/"],
