@@ -1,7 +1,8 @@
 {
-    "name": "Conflux Mainnet",
+    "name": "Conflux Testnet",
     "chain": "Conflux",
-    "rpc": ["https://evm.confluxrpc.com"],
+    "network": "testnet",
+    "rpc": ["https://evmtest.confluxrpc.com"],
     "faucets": [],
     "nativeCurrency": {
       "name": "CFX",
@@ -10,13 +11,13 @@
     },
     "infoURL": "https://confluxnetwork.org",
     "shortName": "cfx",
-    "chainId": 1030,
-    "networkId": 1030,
+    "chainId": 71,
+    "networkId": 71,
     "icon": "conflux",
     "explorers": [
       {
         "name": "Conflux Scan",
-        "url": "https://confluxscan.io",
+        "url": "https://testnet.confluxscan.io",
         "standard": "none"
       }
     ]
