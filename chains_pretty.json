@@ -1046,6 +1046,27 @@
   "chainId": 69,
   "networkId": 69
 }, {
+  "name": "Conflux Testnet",
+  "chain": "Conflux",
+  "network": "testnet",
+  "rpc": ["https://evmtestnet.confluxrpc.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CFX",
+    "symbol": "CFX",
+    "decimals": 18
+  },
+  "infoURL": "https://confluxnetwork.org",
+  "shortName": "cfxtest",
+  "chainId": 71,
+  "networkId": 71,
+  "icon": "conflux",
+  "explorers": [{
+    "name": "Conflux Scan",
+    "url": "https://evmtestnet.confluxscan.io",
+    "standard": "none"
+  }]
+}, {
   "name": "Mix",
   "chain": "MIX",
   "rpc": ["https://rpc2.mix-blockchain.org:8647"],
@@ -2461,9 +2482,9 @@
     "standard": "none"
   }]
 }, {
-  "name": "Conflux",
+  "name": "Conflux Mainnet",
   "chain": "Conflux",
-  "rpc": ["https://ethcore.confluxrpc.com"],
+  "rpc": ["https://evm.confluxrpc.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "CFX",
@@ -2474,9 +2495,10 @@
   "shortName": "cfx",
   "chainId": 1030,
   "networkId": 1030,
+  "icon": "conflux",
   "explorers": [{
     "name": "Conflux Scan",
-    "url": "https://confluxscan.io",
+    "url": "https://evm.confluxscan.io",
     "standard": "none"
   }]
 }, {

@@ -792,6 +792,19 @@
   "faucets": ["http://fauceth.komputing.org?chain=69&address=${ADDRESS}"],
   "infoURL": "https://optimism.io"
 }, {
+  "name": "Conflux Testnet",
+  "chainId": 71,
+  "shortName": "cfxtest",
+  "networkId": 71,
+  "nativeCurrency": {
+    "name": "CFX",
+    "symbol": "CFX",
+    "decimals": 18
+  },
+  "rpc": ["https://evmtestnet.confluxrpc.com"],
+  "faucets": [],
+  "infoURL": "https://confluxnetwork.org"
+}, {
   "name": "Mix",
   "chainId": 76,
   "shortName": "mix",
@@ -1884,7 +1897,7 @@
   "faucets": [],
   "infoURL": "https://bittorrentchain.io/"
 }, {
-  "name": "Conflux",
+  "name": "Conflux Mainnet",
   "chainId": 1030,
   "shortName": "cfx",
   "networkId": 1030,
@@ -1893,7 +1906,7 @@
     "symbol": "CFX",
     "decimals": 18
   },
-  "rpc": ["https://ethcore.confluxrpc.com"],
+  "rpc": ["https://evm.confluxrpc.com"],
   "faucets": [],
   "infoURL": "https://confluxnetwork.org"
 }, {
