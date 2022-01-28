@@ -13,7 +13,7 @@
     "decimals": 18
   },
   "infoURL": "https://garizon.com",
-  "shortName": "gar",
+  "shortName": "gar-s1",
   "chainId": 91,
   "networkId": 91,
   "explorers": [{
@@ -21,5 +21,9 @@
     "url": "https://explorer.garizon.com",
     "icon": "garizon",
     "standard": "EIP3091"
-  }]
+  }],
+  "parent": {
+    "chain": "eip155-90",
+    "type": "shard"
+  }
 }

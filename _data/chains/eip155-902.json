@@ -15,7 +15,7 @@
     "decimals": 18
   },
   "infoURL": "https://garizon.com",
-  "shortName": "gar",
+  "shortName": "gar-test-s2",
   "chainId": 902,
   "networkId": 902,
   "explorers": [{
@@ -23,5 +23,9 @@
     "url": "https://explorer-testnet.garizon.com",
     "icon": "garizon",
     "standard": "EIP3091"
-  }]
+  }],
+  "parent": {
+    "chain": "eip155-900",
+    "type": "shard"
+  }
 }
