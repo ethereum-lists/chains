@@ -901,13 +901,26 @@
   "shortName": "tomo",
   "networkId": 88,
   "nativeCurrency": {
-    "name": "TomoChain Ether",
+    "name": "TomoChain",
     "symbol": "TOMO",
     "decimals": 18
   },
   "rpc": ["https://rpc.tomochain.com"],
   "faucets": [],
-  "infoURL": "https://tomocoin.io"
+  "infoURL": "https://tomochain.com"
+}, {
+  "name": "TomoChain Testnet",
+  "chainId": 89,
+  "shortName": "tomot",
+  "networkId": 89,
+  "nativeCurrency": {
+    "name": "TomoChain",
+    "symbol": "TOMO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.tomochain.com"],
+  "faucets": [],
+  "infoURL": "https://tomochain.com"
 }, {
   "name": "CryptoKylin Testnet",
   "chainId": 95,
