@@ -935,6 +935,58 @@
   "faucets": [],
   "infoURL": "https://tomochain.com"
 }, {
+  "name": "Garizon Stage0",
+  "chainId": 90,
+  "shortName": "gar-s0",
+  "networkId": 90,
+  "nativeCurrency": {
+    "name": "Garizon",
+    "symbol": "GAR",
+    "decimals": 18
+  },
+  "rpc": ["https://s0.garizon.net/rpc"],
+  "faucets": [],
+  "infoURL": "https://garizon.com"
+}, {
+  "name": "Garizon Stage1",
+  "chainId": 91,
+  "shortName": "gar-s1",
+  "networkId": 91,
+  "nativeCurrency": {
+    "name": "Garizon",
+    "symbol": "GAR",
+    "decimals": 18
+  },
+  "rpc": ["https://s1.garizon.net/rpc"],
+  "faucets": [],
+  "infoURL": "https://garizon.com"
+}, {
+  "name": "Garizon Stage2",
+  "chainId": 92,
+  "shortName": "gar-s2",
+  "networkId": 92,
+  "nativeCurrency": {
+    "name": "Garizon",
+    "symbol": "GAR",
+    "decimals": 18
+  },
+  "rpc": ["https://s2.garizon.net/rpc"],
+  "faucets": [],
+  "infoURL": "https://garizon.com"
+}, {
+  "name": "Garizon Stage3",
+  "chainId": 93,
+  "shortName": "gar-s3",
+  "networkId": 93,
+  "nativeCurrency": {
+    "name": "Garizon",
+    "symbol": "GAR",
+    "decimals": 18
+  },
+  "rpc": ["https://s3.garizon.net/rpc"],
+  "faucets": [],
+  "infoURL": "https://garizon.com"
+}, {
   "name": "CryptoKylin Testnet",
   "chainId": 95,
   "shortName": "Kylin Testnet",
@@ -1740,6 +1792,58 @@
   "rpc": ["https://gwan-ssl.wandevs.org:56891/"],
   "faucets": [],
   "infoURL": "https://www.wanscan.org"
+}, {
+  "name": "Garizon Testnet Stage0",
+  "chainId": 900,
+  "shortName": "gar-test-s0",
+  "networkId": 900,
+  "nativeCurrency": {
+    "name": "Garizon",
+    "symbol": "GAR",
+    "decimals": 18
+  },
+  "rpc": ["https://s0-testnet.garizon.net/rpc"],
+  "faucets": ["https://faucet-testnet.garizon.com"],
+  "infoURL": "https://garizon.com"
+}, {
+  "name": "Garizon Testnet Stage1",
+  "chainId": 901,
+  "shortName": "gar-test-s1",
+  "networkId": 901,
+  "nativeCurrency": {
+    "name": "Garizon",
+    "symbol": "GAR",
+    "decimals": 18
+  },
+  "rpc": ["https://s1-testnet.garizon.net/rpc"],
+  "faucets": ["https://faucet-testnet.garizon.com"],
+  "infoURL": "https://garizon.com"
+}, {
+  "name": "Garizon Testnet Stage2",
+  "chainId": 902,
+  "shortName": "gar-test-s2",
+  "networkId": 902,
+  "nativeCurrency": {
+    "name": "Garizon",
+    "symbol": "GAR",
+    "decimals": 18
+  },
+  "rpc": ["https://s2-testnet.garizon.net/rpc"],
+  "faucets": ["https://faucet-testnet.garizon.com"],
+  "infoURL": "https://garizon.com"
+}, {
+  "name": "Garizon Testnet Stage3",
+  "chainId": 903,
+  "shortName": "gar-test-s3",
+  "networkId": 903,
+  "nativeCurrency": {
+    "name": "Garizon",
+    "symbol": "GAR",
+    "decimals": 18
+  },
+  "rpc": ["https://s3-testnet.garizon.net/rpc"],
+  "faucets": ["https://faucet-testnet.garizon.com"],
+  "infoURL": "https://garizon.com"
 }, {
   "name": "PulseChain Testnet",
   "chainId": 940,
