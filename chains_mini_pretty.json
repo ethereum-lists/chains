@@ -2677,6 +2677,19 @@
   "faucets": [],
   "infoURL": "https://www.xixoio.com/"
 }, {
+  "name": "WAGMI",
+  "chainId": 11111,
+  "shortName": "WAGMI",
+  "networkId": 11111,
+  "nativeCurrency": {
+    "name": "WAGMI",
+    "symbol": "WGM",
+    "decimals": 18
+  },
+  "rpc": ["https://api.trywagmi.xyz/rpc"],
+  "faucets": [],
+  "infoURL": "https://trywagmi.xyz"
+}, {
   "name": "Singularity ZERO Testnet",
   "chainId": 12051,
   "shortName": "tZERO",
