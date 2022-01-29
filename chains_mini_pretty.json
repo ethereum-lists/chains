@@ -1678,11 +1678,11 @@
 }, {
   "name": "BlockChain Station Testnet",
   "chainId": 708,
-  "shortName": "tplay",
+  "shortName": "tbcs",
   "networkId": 708,
   "nativeCurrency": {
     "name": "BCS Testnet Token",
-    "symbol": "tPLAY",
+    "symbol": "tBCS",
     "decimals": 18
   },
   "rpc": ["https://rpc-testnet.bcsdev.io", "wss://rpc-ws-testnet.bcsdev.io"],
