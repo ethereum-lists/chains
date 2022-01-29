@@ -1665,11 +1665,11 @@
 }, {
   "name": "BlockChain Station Mainnet",
   "chainId": 707,
-  "shortName": "play",
+  "shortName": "bcs",
   "networkId": 707,
   "nativeCurrency": {
     "name": "BCS Token",
-    "symbol": "PLAY",
+    "symbol": "BCS",
     "decimals": 18
   },
   "rpc": ["https://rpc-mainnet.bcsdev.io", "wss://rpc-ws-mainnet.bcsdev.io"],
