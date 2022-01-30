@@ -25,7 +25,7 @@
   "faucets": [],
   "infoURL": "https://expanse.tech"
 }, {
-  "name": "Ethereum Testnet Ropsten",
+  "name": "Ropsten",
   "chainId": 3,
   "shortName": "rop",
   "networkId": 3,
@@ -35,7 +35,7 @@
     "decimals": 18
   },
   "rpc": ["https://ropsten.infura.io/v3/${INFURA_API_KEY}", "wss://ropsten.infura.io/ws/v3/${INFURA_API_KEY}"],
-  "faucets": ["https://faucet.ropsten.be?${ADDRESS}"],
+  "faucets": ["http://fauceth.komputing.org?chain=3&address=${ADDRESS}", "https://faucet.ropsten.be?${ADDRESS}"],
   "infoURL": "https://github.com/ethereum/ropsten"
 }, {
   "name": "Rinkeby",
