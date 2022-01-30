@@ -1,0 +1,26 @@
+{
+    "name": "OYchain Testnet",
+    "chain": "OYchain",
+    "icon": "oychain",
+    "rpc": [
+        "https://rpc.cntop3.com"
+           ],
+    "faucets": [
+        "https://faucet.cntop3.com"
+                ],
+    "nativeCurrency": {
+      "name": "OYchain Token",
+      "symbol": "OY",
+      "decimals": 18
+    },
+    "infoURL": "https://www.cntop3.com",
+    "shortName": "oychain",
+    "chainId": 126,
+    "networkId": 126,
+    "slip44": 126,
+     "explorers": [{
+          "name": "OYchain Explorer",
+          "url": "https://scan.cntop3.com",
+          "standard": "none"
+  }]
+  }
