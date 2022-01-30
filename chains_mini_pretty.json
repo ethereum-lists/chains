@@ -1169,6 +1169,19 @@
   "faucets": [],
   "infoURL": "https://decentralized-web.tech/dw_chain.php"
 }, {
+  "name": "OYchain Testnet",
+  "chainId": 126,
+  "shortName": "oychain",
+  "networkId": 126,
+  "nativeCurrency": {
+    "name": "OYchain Token",
+    "symbol": "OY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.cntop3.com"],
+  "faucets": ["https://faucet.cntop3.com"],
+  "infoURL": "https://www.cntop3.com"
+}, {
   "name": "Factory 127 Mainnet",
   "chainId": 127,
   "shortName": "feth",
