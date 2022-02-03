@@ -1,6 +1,6 @@
 {
-    "name": "IDChain",
-    "chain": "ETH",
+    "name": "IDChain Mainnet",
+    "chain": "IDChain",
     "network": "mainnet",
     "rpc": [
       "https://idchain.one/rpc/",
@@ -12,13 +12,12 @@
       "symbol": "EIDI",
       "decimals": 18
     },
-    "infoURL": "https://idchain.one/",
-    "shortName": "eth",
+    "infoURL": "https://idchain.one/begin/",
+    "shortName": "idchain",
     "chainId": 74,
-    "networkId": 1,
-    "icon": "idchain",
+    "networkId": 74,
     "explorers": [{
-      "name": "etherscan",
+      "name": "explorer",
       "url": "https://explorer.idchain.one",
       "icon": "etherscan",
       "standard": "EIP3091"
