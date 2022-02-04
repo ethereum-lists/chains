@@ -4130,6 +4130,46 @@
   "faucets": ["https://docs.google.com/forms/d/e/1FAIpQLSdfr1BwUTYepVmmvfVUDRCwALejZ-TUva2YujNpvrEmPAX2pg/viewform", "https://cauldron.pretoriaresearchlab.io/baklava-faucet"],
   "infoURL": "https://docs.celo.org/"
 }, {
+  "name": "eCredits Mainnet",
+  "chain": "ECS",
+  "network": "mainnet",
+  "rpc": ["https://rpc.ecredits.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "eCredits",
+    "symbol": "ECS",
+    "decimals": 18
+  },
+  "infoURL": "https://ecredits.com",
+  "shortName": "ecs",
+  "chainId": 63000,
+  "networkId": 63000,
+  "explorers": [{
+    "name": "eCredits MainNet Explorer",
+    "url": "https://explorer.ecredits.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "eCredits Testnet",
+  "chain": "ECS",
+  "network": "testnet",
+  "rpc": ["https://rpc.tst.ecredits.com"],
+  "faucets": ["https://faucet.tst.ecredits.com"],
+  "nativeCurrency": {
+    "name": "eCredits",
+    "symbol": "ECS",
+    "decimals": 18
+  },
+  "infoURL": "https://ecredits.com",
+  "shortName": "ecs-testnet",
+  "chainId": 63001,
+  "networkId": 63001,
+  "explorers": [{
+    "name": "eCredits TestNet Explorer",
+    "url": "https://explorer.tst.ecredits.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Thinkium Mainnet Chain 0",
   "chain": "Thinkium",
   "rpc": ["https://proxy.thinkiumrpc.net/"],

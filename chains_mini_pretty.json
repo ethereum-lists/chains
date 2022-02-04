@@ -3067,6 +3067,32 @@
   "faucets": ["https://docs.google.com/forms/d/e/1FAIpQLSdfr1BwUTYepVmmvfVUDRCwALejZ-TUva2YujNpvrEmPAX2pg/viewform", "https://cauldron.pretoriaresearchlab.io/baklava-faucet"],
   "infoURL": "https://docs.celo.org/"
 }, {
+  "name": "eCredits Mainnet",
+  "chainId": 63000,
+  "shortName": "ecs",
+  "networkId": 63000,
+  "nativeCurrency": {
+    "name": "eCredits",
+    "symbol": "ECS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.ecredits.com"],
+  "faucets": [],
+  "infoURL": "https://ecredits.com"
+}, {
+  "name": "eCredits Testnet",
+  "chainId": 63001,
+  "shortName": "ecs-testnet",
+  "networkId": 63001,
+  "nativeCurrency": {
+    "name": "eCredits",
+    "symbol": "ECS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.tst.ecredits.com"],
+  "faucets": ["https://faucet.tst.ecredits.com"],
+  "infoURL": "https://ecredits.com"
+}, {
   "name": "Thinkium Mainnet Chain 0",
   "chainId": 70000,
   "shortName": "TKM0",
