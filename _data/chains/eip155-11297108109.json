@@ -1,7 +1,9 @@
 {
   "name": "Palm",
   "chain": "Palm",
-  "rpc": [],
+  "rpc": [
+    "https://palm-mainnet.infura.io/v3/{INFURA_API_KEY}"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "PALM",
