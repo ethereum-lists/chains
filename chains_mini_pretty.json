@@ -805,6 +805,19 @@
   "faucets": [],
   "infoURL": "https://confluxnetwork.org"
 }, {
+  "name": "IDChain Mainnet",
+  "chainId": 74,
+  "shortName": "idchain",
+  "networkId": 74,
+  "nativeCurrency": {
+    "name": "EIDI",
+    "symbol": "EIDI",
+    "decimals": 18
+  },
+  "rpc": ["https://idchain.one/rpc/", "wss://idchain.one/ws/"],
+  "faucets": [],
+  "infoURL": "https://idchain.one/begin/"
+}, {
   "name": "Mix",
   "chainId": 76,
   "shortName": "mix",
