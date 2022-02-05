@@ -25,7 +25,8 @@
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://www.blockscout.com/xdai/mainnet/"
+      "url": "https://www.blockscout.com/xdai/mainnet/",
+      "standard": "EIP3091"
     }
   ]
 }
