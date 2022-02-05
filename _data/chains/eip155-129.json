@@ -1,0 +1,25 @@
+{
+    "name": "OYchain Testnet",
+    "chain": "OYchain",
+    "rpc": [
+        "https://rpc-testnet.oychain.io"
+           ],
+    "faucets": [
+     "https://faucet.oychain.io"
+               ],
+    "nativeCurrency": {
+      "name": "OYchain Token",
+      "symbol": "OY",
+      "decimals": 18
+    },
+    "infoURL": "https://www.oychain.io",
+    "shortName": "oychain",
+    "chainId": 129,
+    "networkId": 129,
+    "slip44": 129,
+     "explorers": [{
+          "name": "OYchain Explorer",
+          "url": "https://explorer.testnet.oychain.io",
+          "standard": "none"
+  }]
+  }
