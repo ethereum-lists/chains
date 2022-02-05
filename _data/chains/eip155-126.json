@@ -3,7 +3,8 @@
     "chain": "OYchain",
     "icon": "oychain",
     "rpc": [
-        "https://rpc-mainnet.oychain.io"
+        "https://rpc-mainnet.oychain.io",
+         "https://rpc.oychain.io",
            ],
     "faucets": [ ],
     "nativeCurrency": {
@@ -17,7 +18,7 @@
     "networkId": 126,
     "slip44": 126,
      "explorers": [{
-          "name": "OYchain Explorer",
+          "name": "OYchain Mainnet Explorer",
           "url": "https://explorer.oychain.io",
           "standard": "none"
   }]
