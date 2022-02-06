@@ -6,11 +6,13 @@
         "https://rpc.mainnet.oychain.io"
            ],
     "faucets": [ ],
+
     "nativeCurrency": {
       "name": "OYchain Token",
       "symbol": "OY",
       "decimals": 18
     },
+
     "infoURL": "https://www.oychain.io",
     "shortName": "oychain mainnet",
     "chainId": 126,
