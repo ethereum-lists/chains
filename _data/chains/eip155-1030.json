@@ -1,6 +1,7 @@
 {
-    "name": "Conflux Mainnet",
+    "name": "Conflux eSpace",
     "chain": "Conflux",
+    "network": "mainnet",
     "rpc": ["https://evm.confluxrpc.com"],
     "faucets": [],
     "nativeCurrency": {
@@ -16,7 +17,7 @@
     "explorers": [
       {
         "name": "Conflux Scan",
-        "url": "https://evm.confluxscan.io",
+        "url": "https://evm.confluxscan.net",
         "standard": "none"
       }
     ]
