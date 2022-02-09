@@ -3381,6 +3381,27 @@
     "standard": "none"
   }]
 }, {
+  "name": "Shyft Mainnet",
+  "chain": "SHYFT",
+  "icon": "shyft",
+  "rpc": ["https://rpc.shyft.network/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Shyft",
+    "symbol": "SHYFT",
+    "decimals": 18
+  },
+  "infoURL": "https://shyft.network",
+  "shortName": "shyft",
+  "chainId": 7341,
+  "networkId": 7341,
+  "slip44": 2147490989,
+  "explorers": [{
+    "name": "Shyft BX",
+    "url": "https://bx.shyft.network",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Hazlor Testnet",
   "chain": "SCAS",
   "rpc": ["https://hatlas.rpc.hazlor.com:8545", "wss://hatlas.rpc.hazlor.com:8546"],
@@ -3695,6 +3716,26 @@
     "name": "WAGMI Explorer",
     "url": "https://trywagmi.xyz",
     "standard": "none"
+  }]
+}, {
+  "name": "Shyft Testnet",
+  "chain": "SHYFTT",
+  "icon": "shyft",
+  "rpc": ["https://rpc.testnet.shyft.network/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Shyft Test Token",
+    "symbol": "SHYFTT",
+    "decimals": 18
+  },
+  "infoURL": "https://shyft.network",
+  "shortName": "shyftt",
+  "chainId": 11437,
+  "networkId": 11437,
+  "explorers": [{
+    "name": "Shyft Testnet BX",
+    "url": "https://bx.testnet.shyft.network",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Singularity ZERO Testnet",

@@ -2508,6 +2508,19 @@
   "faucets": [],
   "infoURL": "https://chain.pixie.xyz"
 }, {
+  "name": "Shyft Mainnet",
+  "chainId": 7341,
+  "shortName": "shyft",
+  "networkId": 7341,
+  "nativeCurrency": {
+    "name": "Shyft",
+    "symbol": "SHYFT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.shyft.network/"],
+  "faucets": [],
+  "infoURL": "https://shyft.network"
+}, {
   "name": "Hazlor Testnet",
   "chainId": 7878,
   "shortName": "tscas",
@@ -2741,6 +2754,19 @@
   "rpc": ["https://api.trywagmi.xyz/rpc"],
   "faucets": [],
   "infoURL": "https://trywagmi.xyz"
+}, {
+  "name": "Shyft Testnet",
+  "chainId": 11437,
+  "shortName": "shyftt",
+  "networkId": 11437,
+  "nativeCurrency": {
+    "name": "Shyft Test Token",
+    "symbol": "SHYFTT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.shyft.network/"],
+  "faucets": [],
+  "infoURL": "https://shyft.network"
 }, {
   "name": "Singularity ZERO Testnet",
   "chainId": 12051,
