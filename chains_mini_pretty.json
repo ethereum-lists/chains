@@ -1637,6 +1637,19 @@
   "faucets": [],
   "infoURL": "https://www.rupx.io"
 }, {
+  "name": "Vela1 Chain Mainnet",
+  "chainId": 555,
+  "shortName": "CLASS",
+  "networkId": 555,
+  "nativeCurrency": {
+    "name": "CLASS COIN",
+    "symbol": "CLASS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.velaverse.io"],
+  "faucets": [],
+  "infoURL": "https://velaverse.io"
+}, {
   "name": "Tao Network",
   "chainId": 558,
   "shortName": "tao",
