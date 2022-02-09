@@ -792,7 +792,7 @@
   "faucets": ["http://fauceth.komputing.org?chain=69&address=${ADDRESS}"],
   "infoURL": "https://optimism.io"
 }, {
-  "name": "Conflux Testnet",
+  "name": "Conflux eSpace (Testnet)",
   "chainId": 71,
   "shortName": "cfxtest",
   "networkId": 71,
@@ -802,7 +802,7 @@
     "decimals": 18
   },
   "rpc": ["https://evmtestnet.confluxrpc.com"],
-  "faucets": [],
+  "faucets": ["https://faucet.confluxnetwork.org"],
   "infoURL": "https://confluxnetwork.org"
 }, {
   "name": "IDChain Mainnet",
@@ -2053,7 +2053,7 @@
   "faucets": [],
   "infoURL": "https://bittorrentchain.io/"
 }, {
-  "name": "Conflux Mainnet",
+  "name": "Conflux eSpace",
   "chainId": 1030,
   "shortName": "cfx",
   "networkId": 1030,

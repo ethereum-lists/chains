@@ -1052,11 +1052,11 @@
   "chainId": 69,
   "networkId": 69
 }, {
-  "name": "Conflux Testnet",
+  "name": "Conflux eSpace (Testnet)",
   "chain": "Conflux",
   "network": "testnet",
   "rpc": ["https://evmtestnet.confluxrpc.com"],
-  "faucets": [],
+  "faucets": ["https://faucet.confluxnetwork.org"],
   "nativeCurrency": {
     "name": "CFX",
     "symbol": "CFX",
@@ -1069,7 +1069,7 @@
   "icon": "conflux",
   "explorers": [{
     "name": "Conflux Scan",
-    "url": "https://evmtestnet.confluxscan.io",
+    "url": "https://evmtestnet.confluxscan.net",
     "standard": "none"
   }]
 }, {
@@ -2770,8 +2770,9 @@
     "standard": "none"
   }]
 }, {
-  "name": "Conflux Mainnet",
+  "name": "Conflux eSpace",
   "chain": "Conflux",
+  "network": "mainnet",
   "rpc": ["https://evm.confluxrpc.com"],
   "faucets": [],
   "nativeCurrency": {
@@ -2786,7 +2787,7 @@
   "icon": "conflux",
   "explorers": [{
     "name": "Conflux Scan",
-    "url": "https://evm.confluxscan.io",
+    "url": "https://evm.confluxscan.net",
     "standard": "none"
   }]
 }, {
