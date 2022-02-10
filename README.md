@@ -89,4 +89,5 @@ There are also aggregated json files with all chains automatically assembled:
  * [eth-chains](https://github.com/taylorjdawson/eth-chains)
  * [EVM-BOX](https://github.com/izayl/evm-box)
  * [FaucETH](https://github.com/komputing/FaucETH)
+ * [Sourcify playground](https://playground.sourcify.dev)
  * Your project - contact us to add it here!

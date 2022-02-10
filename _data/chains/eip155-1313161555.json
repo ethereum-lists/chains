@@ -13,5 +13,12 @@
   "infoURL": "https://aurora.dev",
   "shortName": "aurora-testnet",
   "chainId": 1313161555,
-  "networkId": 1313161555
+  "networkId": 1313161555,
+  "explorers": [
+    {
+      "name": "explorer.aurora.dev",
+      "url": "https://explorer.testnet.aurora.dev",
+      "standard": "EIP3091"
+    }
+  ]
 }

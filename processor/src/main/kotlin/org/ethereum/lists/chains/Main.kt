@@ -189,7 +189,11 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
 
             val url = explorer["url"]
             if (url == null || url !is String || !url.startsWith("https://")) {
-                throw(ExplorerInvalidUrl())
+                throw(ExplorerMustWithHttps())
+            }
+
+            if (url.endsWith("/")) {
+                throw(ExplorerCannotEndInSlash())
             }
 
             if (explorer["standard"] != "EIP3091" && explorer["standard"] != "none") {
@@ -284,6 +288,11 @@ private fun parseWithMoshi(fileToParse: File) {
     if (parsedShortNames.contains(parsedChain.shortName)) {
         throw ShortNameMustBeUnique(parsedChain.shortName)
     }
+
+    if (parsedChain.shortName == "*") {
+        throw ShortNameMustNotBeStar()
+    }
+
     parsedShortNames.add(parsedChain.shortName)
 }
 

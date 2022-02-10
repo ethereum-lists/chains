@@ -1,5 +1,6 @@
 {
-    "name": "Polygon Testnet Mumbai",
+    "name": "Mumbai",
+    "title": "Polygon Testnet Mumbai",
     "chain": "Polygon",
     "rpc": [
         "https://matic-mumbai.chainstacklabs.com",
@@ -20,7 +21,7 @@
     "networkId": 80001,
     "explorers": [{
         "name": "polygonscan",
-        "url": "https://mumbai.polygonscan.com/",
+        "url": "https://mumbai.polygonscan.com",
         "standard": "EIP3091"
     }]
 }
