@@ -922,6 +922,19 @@
   "faucets": ["https://www.gatescan.org/faucet"],
   "infoURL": "https://www.gatechain.io"
 }, {
+  "name": "Nova Network",
+  "chainId": 87,
+  "shortName": "nbx",
+  "networkId": 87,
+  "nativeCurrency": {
+    "name": "Nebula X",
+    "symbol": "NBX",
+    "decimals": 18
+  },
+  "rpc": ["http://rpc.novanetwork.io:8545/", "http://82.165.54.110:8545/"],
+  "faucets": [],
+  "infoURL": "https://novanetwork.io/"
+}, {
   "name": "TomoChain",
   "chainId": 88,
   "shortName": "tomo",
