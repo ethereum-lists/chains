@@ -3054,6 +3054,32 @@
   "faucets": [],
   "infoURL": "https://www.energi.world/"
 }, {
+  "name": "REI Chain Mainnet",
+  "chainId": 55555,
+  "shortName": "rei",
+  "networkId": 55555,
+  "nativeCurrency": {
+    "name": "Rei",
+    "symbol": "REI",
+    "decimals": 18
+  },
+  "rpc": ["https://rei-rpc.moonrhythm.io"],
+  "faucets": ["http://kururu.finance/faucet?chainId=55555"],
+  "infoURL": "https://reichain.io"
+}, {
+  "name": "REI Chain Testnet",
+  "chainId": 55556,
+  "shortName": "trei",
+  "networkId": 55556,
+  "nativeCurrency": {
+    "name": "tRei",
+    "symbol": "tREI",
+    "decimals": 18
+  },
+  "rpc": ["https://rei-testnet-rpc.moonrhythm.io"],
+  "faucets": ["http://kururu.finance/faucet?chainId=55556"],
+  "infoURL": "https://reichain.io"
+}, {
   "name": "Thinkium Testnet Chain 0",
   "chainId": 60000,
   "shortName": "TKM-test0",
