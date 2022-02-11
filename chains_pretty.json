@@ -2313,6 +2313,20 @@
   "chainId": 595,
   "networkId": 595
 }, {
+  "name": "Mos elections testnet",
+  "chain": "METestChain",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Mos Elections Testnet Native Token",
+    "symbol": "METNT",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "me-chain-testnet",
+  "chainId": 600,
+  "networkId": 600
+}, {
   "name": "Pixie Chain Testnet",
   "chain": "PixieChain",
   "rpc": ["https://http-testnet.chain.pixie.xyz", "wss://ws-testnet.chain.pixie.xyz"],
