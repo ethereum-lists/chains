@@ -1,0 +1,19 @@
+{
+  "name": "Nova Network",
+  "chain": "NBX",
+  "icon": "novanetwork",
+  "rpc": [
+    "http://rpc.novanetwork.io:8545/",
+    "http://82.165.54.110:8545/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Nebula X",
+    "symbol": "NBX",
+    "decimals": 18
+  },
+  "infoURL": "https://novanetwork.io/",
+  "shortName": "nbx",
+  "chainId": 87,
+  "networkId": 87
+}
