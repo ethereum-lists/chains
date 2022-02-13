@@ -3,17 +3,16 @@
   "chain": "NBX",
   "icon": "nebulatestnet",
   "rpc": [
-    "http://testnet.rpc.novanetwork.io:8545/",
-    "http://74.208.29.238:8545/"
+    "http://testnet.rpc.novanetwork.io:8545",
+    "http://74.208.29.238:8545"
   ],
-  "faucets": [],
   "nativeCurrency": {
     "name": "Nebula X",
     "symbol": "NBX",
     "decimals": 18
   },
-  "infoURL": "https://novanetwork.io/",
-  "shortName": "nbx",
+  "infoURL": "https://novanetwork.io",
+  "shortName": "ntn",
   "chainId": 107,
   "networkId": 107
 }
