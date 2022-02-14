@@ -1,6 +1,6 @@
 {
   "name": "Nova Network",
-  "chain": "NBX",
+  "chain": "NNW",
   "icon": "novanetwork",
   "rpc": [
     "https://rpc.novanetwork.io:9070",
@@ -8,12 +8,12 @@
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Nebula X",
-    "symbol": "NBX",
+    "name": "Supernova",
+    "symbol": "SNT",
     "decimals": 18
   },
   "infoURL": "https://novanetwork.io",
-  "shortName": "nbx",
+  "shortName": "nnw",
   "chainId": 87,
   "networkId": 87,
   "explorers": [{
