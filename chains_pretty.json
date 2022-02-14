@@ -1239,19 +1239,24 @@
   "infoURL": "https://www.gatechain.io"
 }, {
   "name": "Nova Network",
-  "chain": "NBX",
+  "chain": "NNW",
   "icon": "novanetwork",
-  "rpc": ["http://rpc.novanetwork.io:8545/", "http://82.165.54.110:8545/"],
+  "rpc": ["https://rpc.novanetwork.io:9070", "http://nova.genyrpc.info:8545"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Nebula X",
-    "symbol": "NBX",
+    "name": "Supernova",
+    "symbol": "SNT",
     "decimals": 18
   },
-  "infoURL": "https://novanetwork.io/",
-  "shortName": "nbx",
+  "infoURL": "https://novanetwork.io",
+  "shortName": "nnw",
   "chainId": 87,
-  "networkId": 87
+  "networkId": 87,
+  "explorers": [{
+    "name": "novanetwork",
+    "url": "https://explorer.novanetwork.io",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "TomoChain",
   "chain": "TOMO",

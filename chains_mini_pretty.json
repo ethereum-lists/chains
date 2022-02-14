@@ -924,16 +924,16 @@
 }, {
   "name": "Nova Network",
   "chainId": 87,
-  "shortName": "nbx",
+  "shortName": "nnw",
   "networkId": 87,
   "nativeCurrency": {
-    "name": "Nebula X",
-    "symbol": "NBX",
+    "name": "Supernova",
+    "symbol": "SNT",
     "decimals": 18
   },
-  "rpc": ["http://rpc.novanetwork.io:8545/", "http://82.165.54.110:8545/"],
+  "rpc": ["https://rpc.novanetwork.io:9070", "http://nova.genyrpc.info:8545"],
   "faucets": [],
-  "infoURL": "https://novanetwork.io/"
+  "infoURL": "https://novanetwork.io"
 }, {
   "name": "TomoChain",
   "chainId": 88,
