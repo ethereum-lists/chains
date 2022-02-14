@@ -3444,6 +3444,19 @@
   "faucets": [],
   "infoURL": "https://www.quarkchain.io/"
 }, {
+  "name": "BROChain Mainnet",
+  "chainId": 108801,
+  "shortName": "bro",
+  "networkId": 108801,
+  "nativeCurrency": {
+    "name": "Brother",
+    "symbol": "BRO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.brochain.org", "http://rpc.brochain.org", "https://rpc.brochain.org/mainnet", "http://rpc.brochain.org/mainnet"],
+  "faucets": [],
+  "infoURL": "https://brochain.org"
+}, {
   "name": "QuarkChain Devnet Root",
   "chainId": 110000,
   "shortName": "qkc-d-r",
