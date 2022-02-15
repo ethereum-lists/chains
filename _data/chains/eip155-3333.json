@@ -1,0 +1,23 @@
+{
+  "name": "W3Q Testnet",
+  "chain": "W3Q",
+  "rpc": [
+    "https://testnet.web3q.io:8545"
+  ],
+  "faucets": [
+  ],
+  "nativeCurrency": {
+    "name": "W3Q",
+    "symbol": "W3Q",
+    "decimals": 18
+  },
+  "infoURL": "https://web3q.io",
+  "shortName": "w3q-t",
+  "chainId": 3333,
+  "networkId": 3333,
+  "explorers": [{
+    "name": "w3q-testnet",
+    "url": "http://explorer.testnet.web3q.io",
+    "standard": "EIP3091"
+  }]
+}

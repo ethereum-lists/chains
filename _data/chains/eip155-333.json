@@ -1,0 +1,23 @@
+{
+  "name": "W3Q Mainnet",
+  "chain": "W3Q",
+  "rpc": [
+    "https://mainnet.web3q.io:8545"
+  ],
+  "faucets": [
+  ],
+  "nativeCurrency": {
+    "name": "W3Q",
+    "symbol": "W3Q",
+    "decimals": 18
+  },
+  "infoURL": "https://web3q.io",
+  "shortName": "w3q",
+  "chainId": 333,
+  "networkId": 333,
+  "explorers": [{
+    "name": "w3q-mainnet",
+    "url": "http://explorer.mainnet.web3q.io",
+    "standard": "EIP3091"
+  }]
+}
