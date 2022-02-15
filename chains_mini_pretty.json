@@ -1117,6 +1117,19 @@
   "faucets": [],
   "infoURL": "https://velas.com"
 }, {
+  "name": "Nebula Testnet",
+  "chainId": 107,
+  "shortName": "ntn",
+  "networkId": 107,
+  "nativeCurrency": {
+    "name": "Nebula X",
+    "symbol": "NBX",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.rpc.novanetwork.io:9070", "http://testnet.rpc.novanetwork.io:8545"],
+  "faucets": [],
+  "infoURL": "https://novanetwork.io"
+}, {
   "name": "ThunderCore Mainnet",
   "chainId": 108,
   "shortName": "TT",
