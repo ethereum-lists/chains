@@ -10,6 +10,7 @@ jobs:
       - uses: actions/stale@v4
         with:
           stale-issue-message: 'This issue has no activity in a while - it will be closed soon.'
+          exempt-issue-labels: enhancement
           stale-pr-message: 'This PR has no activity in a while - it will be closed soon.'
           days-before-stale: 42
           days-before-close: 7
