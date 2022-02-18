@@ -1,0 +1,16 @@
+{
+  "name": "Iora Chain",
+  "chain": "IORA",
+  "network": "iorachain",
+  "icon": "iorachain",
+  "rpc": ["https://dataseed.iorachain.com"],
+  "nativeCurrency": {
+    "name": "Iora",
+    "symbol": "IORA",
+    "decimals": 18
+  },
+  "infoURL": "https://iorachain.com",
+  "shortName": "iora",
+  "chainId": 1197,
+  "networkId": 1197
+}
