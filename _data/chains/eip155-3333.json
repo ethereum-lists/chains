@@ -1,13 +1,13 @@
 {
-  "name": "W3Q Testnet",
-  "chain": "W3Q",
+  "name": "Web3Q Testnet",
+  "chain": "Web3Q",
   "rpc": [
     "https://testnet.web3q.io:8545"
   ],
   "faucets": [
   ],
   "nativeCurrency": {
-    "name": "W3Q",
+    "name": "Web3Q",
     "symbol": "W3Q",
     "decimals": 18
   },
