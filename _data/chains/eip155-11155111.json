@@ -1,0 +1,25 @@
+{
+  "name": "Sepolia",
+  "title": "Ethereum Testnet Sepolia",
+  "chain": "ETH",
+  "rpc": [
+  ],
+  "faucets": [
+  ],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "SEP",
+    "decimals": 18
+  },
+  "infoURL": "https://sepolia.otterscan.io",
+  "shortName": "sep",
+  "chainId": 11155111,
+  "networkId": 11155111,
+  "explorers": [
+    {
+      "name": "otterscan-sepolia",
+      "url": "https://sepolia.otterscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
