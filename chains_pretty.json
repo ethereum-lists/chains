@@ -2899,6 +2899,22 @@
   "chainId": 1140,
   "networkId": 1140
 }, {
+  "name": "Iora Chain",
+  "chain": "IORA",
+  "network": "iorachain",
+  "icon": "iorachain",
+  "rpc": ["https://dataseed.iorachain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Iora",
+    "symbol": "IORA",
+    "decimals": 18
+  },
+  "infoURL": "https://iorachain.com",
+  "shortName": "iora",
+  "chainId": 1197,
+  "networkId": 1197
+}, {
   "name": "World Trade Technical Chain Mainnet",
   "chain": "WTT",
   "rpc": ["https://rpc.cadaut.com", "wss://rpc.cadaut.com/ws"],

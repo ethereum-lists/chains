@@ -2144,6 +2144,19 @@
   "faucets": ["https://scan.boka.network/#/Galois/faucet"],
   "infoURL": "https://mathchain.org"
 }, {
+  "name": "Iora Chain",
+  "chainId": 1197,
+  "shortName": "iora",
+  "networkId": 1197,
+  "nativeCurrency": {
+    "name": "Iora",
+    "symbol": "IORA",
+    "decimals": 18
+  },
+  "rpc": ["https://dataseed.iorachain.com"],
+  "faucets": [],
+  "infoURL": "https://iorachain.com"
+}, {
   "name": "World Trade Technical Chain Mainnet",
   "chainId": 1202,
   "shortName": "wtt",
