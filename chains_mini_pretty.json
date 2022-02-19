@@ -3821,6 +3821,19 @@
   "faucets": [],
   "infoURL": "https://musicoin.tw"
 }, {
+  "name": "Sepolia",
+  "chainId": 11155111,
+  "shortName": "sep",
+  "networkId": 11155111,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "SEP",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://sepolia.otterscan.io"
+}, {
   "name": "PepChain Churchill",
   "chainId": 13371337,
   "shortName": "tpep",
