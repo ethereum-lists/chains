@@ -13,5 +13,13 @@
   "infoURL": "https://iorachain.com",
   "shortName": "iora",
   "chainId": 1197,
-  "networkId": 1197
+  "networkId": 1197,
+  "explorers": [
+    {
+      "name": "ioraexplorer",
+      "url": "https://explorer.iorachain.com",
+      "standard": "EIP3091"
+    }
+  ]
 }
+
