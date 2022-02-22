@@ -2586,6 +2586,19 @@
   "faucets": ["https://faucet.hazlor.com"],
   "infoURL": "https://hazlor.com"
 }, {
+  "name": "Teleport",
+  "chainId": 8000,
+  "shortName": "teleport",
+  "networkId": 8000,
+  "nativeCurrency": {
+    "name": "Tele",
+    "symbol": "TELE",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-rpc.teleport.network"],
+  "faucets": [],
+  "infoURL": "https://teleport.network"
+}, {
   "name": "Teleport Testnet",
   "chainId": 8001,
   "shortName": "teleport-testnet",
@@ -2597,7 +2610,7 @@
   },
   "rpc": ["https://evm-rpc.testnet.teleport.network"],
   "faucets": ["https://chain-docs.teleport.network/testnet/faucet.html"],
-  "infoURL": "https://teleport.network/"
+  "infoURL": "https://teleport.network"
 }, {
   "name": "MDGL Testnet",
   "chainId": 8029,
