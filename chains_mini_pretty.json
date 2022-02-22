@@ -1533,6 +1533,19 @@
   "faucets": ["https://faucet-testnet.kcc.network"],
   "infoURL": "https://scan-testnet.kcc.network"
 }, {
+  "name": "Web3Q Mainnet",
+  "chainId": 333,
+  "shortName": "w3q",
+  "networkId": 333,
+  "nativeCurrency": {
+    "name": "Web3Q",
+    "symbol": "W3Q",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.web3q.io:8545"],
+  "faucets": [],
+  "infoURL": "https://web3q.io/home.w3q/"
+}, {
   "name": "Shiden",
   "chainId": 336,
   "shortName": "sdn",
@@ -2429,6 +2442,19 @@
   "rpc": ["https://rpc-testnet.zcore.cash"],
   "faucets": ["https://faucet.zcore.cash"],
   "infoURL": "https://zcore.cash"
+}, {
+  "name": "Web3Q Testnet",
+  "chainId": 3333,
+  "shortName": "w3q-t",
+  "networkId": 3333,
+  "nativeCurrency": {
+    "name": "Web3Q",
+    "symbol": "W3Q",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.web3q.io:8545"],
+  "faucets": [],
+  "infoURL": "https://web3q.io/home.w3q/"
 }, {
   "name": "Bittex Mainnet",
   "chainId": 3690,
