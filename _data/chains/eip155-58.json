@@ -5,7 +5,11 @@
     "http://dappnode1.ont.io:20339",
     "http://dappnode2.ont.io:20339",
     "http://dappnode3.ont.io:20339",
-    "http://dappnode4.ont.io:20339"
+    "http://dappnode4.ont.io:20339",
+    "https://dappnode1.ont.io:10339",
+    "https://dappnode2.ont.io:10339",
+    "https://dappnode3.ont.io:10339",
+    "https://dappnode4.ont.io:10339"
   ],
   "faucets": [
   ],
@@ -18,9 +22,11 @@
   "shortName": "Ontology Mainnet",
   "chainId": 58,
   "networkId": 58,
-  "explorers": [{
-    "name": "explorer",
-    "url": "https://explorer.ont.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "explorer",
+      "url": "https://explorer.ont.io",
+      "standard": "EIP3091"
+    }
+  ]
 }
