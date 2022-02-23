@@ -2744,15 +2744,15 @@
 }, {
   "name": "Evmos Testnet",
   "chainId": 9000,
-  "shortName": "evmos-mons",
+  "shortName": "evmos-testnet",
   "networkId": 9000,
   "nativeCurrency": {
     "name": "Photon",
     "symbol": "PHOTON",
     "decimals": 18
   },
-  "rpc": ["https://ethereum.rpc.evmos.dev"],
-  "faucets": ["https://faucet.evmos.org"],
+  "rpc": ["https://evmos-archive-testnet.api.bdnodes.net:8545"],
+  "faucets": ["https://faucet.evmos.dev"],
   "infoURL": "https://evmos.org"
 }, {
   "name": "Evmos",
