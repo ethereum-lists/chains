@@ -2747,8 +2747,8 @@
   "shortName": "evmos-testnet",
   "networkId": 9000,
   "nativeCurrency": {
-    "name": "Photon",
-    "symbol": "PHOTON",
+    "name": "test-Evmos",
+    "symbol": "tEVMOS",
     "decimals": 18
   },
   "rpc": ["https://evmos-archive-testnet.api.bdnodes.net:8545"],
