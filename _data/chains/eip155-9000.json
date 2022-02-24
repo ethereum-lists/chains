@@ -4,8 +4,8 @@
   "rpc": ["https://evmos-archive-testnet.api.bdnodes.net:8545"],
   "faucets": ["https://faucet.evmos.dev"],
   "nativeCurrency": {
-    "name": "Photon",
-    "symbol": "PHOTON",
+    "name": "test-Evmos",
+    "symbol": "tEVMOS",
     "decimals": 18
   },
   "infoURL": "https://evmos.org",
