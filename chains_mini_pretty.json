@@ -316,13 +316,13 @@
   "shortName": "cro",
   "networkId": 25,
   "nativeCurrency": {
-    "name": "Crypto.org Coin",
+    "name": "Cronos",
     "symbol": "CRO",
     "decimals": 18
   },
-  "rpc": ["https://evm-cronos.crypto.org"],
+  "rpc": ["https://evm.cronos.org"],
   "faucets": [],
-  "infoURL": "https://cronos.crypto.org"
+  "infoURL": "https://cronos.org/"
 }, {
   "name": "Genesis L1 testnet",
   "chainId": 26,
