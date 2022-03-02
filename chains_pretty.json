@@ -2939,6 +2939,21 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "AVIS Testnet",
+  "chain": "AVIS Testnet",
+  "network": "avis",
+  "rpc": ["https://seed5.evanesco.org:8547"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AVIS",
+    "symbol": "AVIS",
+    "decimals": 18
+  },
+  "infoURL": "https://evanesco.org/",
+  "shortName": "avis",
+  "chainId": 1201,
+  "networkId": 1201
+}, {
   "name": "World Trade Technical Chain Mainnet",
   "chain": "WTT",
   "rpc": ["https://rpc.cadaut.com", "wss://rpc.cadaut.com/ws"],
@@ -3260,6 +3275,27 @@
     "name": "Ecoball Testnet Explorer",
     "url": "https://espuma-scan.ecoball.org",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Evanesco Mainnet",
+  "chain": "EVA",
+  "network": "mainnet",
+  "rpc": ["https://seed4.evanesco.org:8546"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EVA",
+    "symbol": "EVA",
+    "decimals": 18
+  },
+  "infoURL": "https://evanesco.org/",
+  "shortName": "evanesco",
+  "chainId": 2213,
+  "networkId": 2213,
+  "icon": "evanesco",
+  "explorers": [{
+    "name": "Evanesco Explorer",
+    "url": "https://explorer.evanesco.org",
+    "standard": "none"
   }]
 }, {
   "name": "Kortho Mainnet",

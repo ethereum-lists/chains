@@ -2170,6 +2170,19 @@
   "faucets": [],
   "infoURL": "https://iorachain.com"
 }, {
+  "name": "AVIS Testnet",
+  "chainId": 1201,
+  "shortName": "avis",
+  "networkId": 1201,
+  "nativeCurrency": {
+    "name": "AVIS",
+    "symbol": "AVIS",
+    "decimals": 18
+  },
+  "rpc": ["https://seed5.evanesco.org:8547"],
+  "faucets": [],
+  "infoURL": "https://evanesco.org/"
+}, {
   "name": "World Trade Technical Chain Mainnet",
   "chainId": 1202,
   "shortName": "wtt",
@@ -2416,6 +2429,19 @@
   "rpc": ["https://api.ecoball.org/espuma/"],
   "faucets": [],
   "infoURL": "https://ecoball.org"
+}, {
+  "name": "Evanesco Mainnet",
+  "chainId": 2213,
+  "shortName": "evanesco",
+  "networkId": 2213,
+  "nativeCurrency": {
+    "name": "EVA",
+    "symbol": "EVA",
+    "decimals": 18
+  },
+  "rpc": ["https://seed4.evanesco.org:8546"],
+  "faucets": [],
+  "infoURL": "https://evanesco.org/"
 }, {
   "name": "Kortho Mainnet",
   "chainId": 2559,
