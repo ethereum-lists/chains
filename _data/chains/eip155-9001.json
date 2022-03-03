@@ -1,7 +1,7 @@
 {
   "name": "Evmos",
   "chain": "Evmos",
-  "rpc": ["https://ethereum.rpc.evmos.org"],
+  "rpc": ["https://eth.bd.evmos.org:8545"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Evmos",
@@ -21,8 +21,8 @@
       "icon": "evmos"
     },
     {
-      "name": "Evmos Cosmos Explorer (Big Dipper)",
-      "url": "https://explorer.evmos.org",
+      "name": "Evmos Cosmos Explorer (Mintscan)",
+      "url": "https://www.mintscan.io/evmos",
       "standard": "none",
       "icon": "evmos"
     }
