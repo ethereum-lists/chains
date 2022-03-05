@@ -90,4 +90,5 @@ There are also aggregated json files with all chains automatically assembled:
  * [EVM-BOX](https://github.com/izayl/evm-box)
  * [FaucETH](https://github.com/komputing/FaucETH)
  * [Sourcify playground](https://playground.sourcify.dev)
+ * [chaindirectory.xyz](https://www.chaindirectory.xyz)
  * Your project - contact us to add it here!
