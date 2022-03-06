@@ -81,7 +81,7 @@ There are also aggregated json files with all chains automatically assembled:
 
 ## Usages
 
- * [https://evmchainlist.com](https://evmchainlist.com)
+ * [https://evmchainlist.org](https://evmchainlist.org) or [https://evmchainlist.com](https://evmchainlist.com)
  * [WallETH](https://walleth.org)
  * [TREZOR](https://trezor.io)
  * [networks.vercel.app](https://networks.vercel.app)
