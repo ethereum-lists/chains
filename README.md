@@ -91,5 +91,6 @@ There are also aggregated json files with all chains automatically assembled:
  * [FaucETH](https://github.com/komputing/FaucETH)
  * [Sourcify playground](https://playground.sourcify.dev)
  * [chaindirectory.xyz](https://www.chaindirectory.xyz)
+ * [chain-list.org](https://chain-list.org)
  * [DefiLlama's chainlist](https://chainlist.defillama.com/)
  * Your project - contact us to add it here!
