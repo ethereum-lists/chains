@@ -39,7 +39,7 @@ when an icon is used in either the network or a explorer there must be a json in
 
 [
     {
-      "url": "ipfs://QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt", 
+      "url": "ipfs://QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt",
       "width": 1000,
       "height": 1628,
       "format": "png"
@@ -69,7 +69,7 @@ If the chain is an L2 or a shard of another chain you can link it to the parent 
 
 where you need to specify type 2 and the reference to an existing parent. The field about bridges is optional.
 
-## Aggregation  
+## Aggregation
 
 There are also aggregated json files with all chains automatically assembled:
  * https://chainid.network/chains.json
@@ -90,4 +90,7 @@ There are also aggregated json files with all chains automatically assembled:
  * [FaucETH](https://github.com/komputing/FaucETH)
  * [Sourcify playground](https://playground.sourcify.dev)
  * [chaindirectory.xyz](https://www.chaindirectory.xyz)
+ * [chain-list.org](https://chain-list.org)
+ * [DefiLlama's chainlist](https://chainlist.defillama.com/)
+ * [chainlist.network](https://chainlist.network/)
  * Your project - contact us to add it here!
