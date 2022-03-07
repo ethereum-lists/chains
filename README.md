@@ -81,7 +81,8 @@ There are also aggregated json files with all chains automatically assembled:
 
 ## Usages
 
- * [https://evmchainlist.org](https://evmchainlist.org) or [https://evmchainlist.com](https://evmchainlist.com)
+ * [chainlist.org](https://chainlist.org) or [networklist-org.vercel.app](https://networklist-org.vercel.app) as a staging version with a more up-to-date list
+ * [chainid.network](https://chainid.network)
  * [WallETH](https://walleth.org)
  * [TREZOR](https://trezor.io)
  * [networks.vercel.app](https://networks.vercel.app)
@@ -93,4 +94,6 @@ There are also aggregated json files with all chains automatically assembled:
  * [chain-list.org](https://chain-list.org)
  * [DefiLlama's chainlist](https://chainlist.defillama.com/)
  * [chainlist.network](https://chainlist.network/)
+ * [https://evmchainlist.org](https://evmchainlist.org)
+ * [https://evmchainlist.com](https://evmchainlist.com)
  * Your project - contact us to add it here!
