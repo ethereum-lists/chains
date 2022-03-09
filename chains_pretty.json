@@ -2298,6 +2298,26 @@
   "networkId": 499,
   "slip44": 499
 }, {
+  "name": "Double-A Chain Mainnet",
+  "chain": "AAC",
+  "rpc": ["https://rpc.acuteangle.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Acuteangle Native Token",
+    "symbol": "AAC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.acuteangle.com/",
+  "shortName": "aac",
+  "chainId": 512,
+  "networkId": 512,
+  "slip44": 1512,
+  "explorers": [{
+    "name": "aacscan",
+    "url": "https://scan.acuteangle.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Vela1 Chain Mainnet",
   "chain": "VELA1",
   "rpc": ["https://rpc.velaverse.io"],

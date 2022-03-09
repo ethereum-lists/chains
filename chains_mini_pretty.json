@@ -1689,6 +1689,19 @@
   "faucets": [],
   "infoURL": "https://www.rupx.io"
 }, {
+  "name": "Double-A Chain Mainnet",
+  "chainId": 512,
+  "shortName": "aac",
+  "networkId": 512,
+  "nativeCurrency": {
+    "name": "Acuteangle Native Token",
+    "symbol": "AAC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.acuteangle.com"],
+  "faucets": [],
+  "infoURL": "https://www.acuteangle.com/"
+}, {
   "name": "Vela1 Chain Mainnet",
   "chainId": 555,
   "shortName": "CLASS",
