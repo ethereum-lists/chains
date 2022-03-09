@@ -1468,6 +1468,19 @@
   "faucets": ["https://scan-testnet.hecochain.com/faucet"],
   "infoURL": "https://testnet.hecoinfo.com"
 }, {
+  "name": "Setheum",
+  "chainId": 258,
+  "shortName": "setm",
+  "networkId": 258,
+  "nativeCurrency": {
+    "name": "Setheum",
+    "symbol": "SETM",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://setheum.xyz"
+}, {
   "name": "SUR Blockchain Network",
   "chainId": 262,
   "shortName": "SUR",
