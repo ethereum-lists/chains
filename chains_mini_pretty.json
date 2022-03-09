@@ -3002,6 +3002,19 @@
   "faucets": [],
   "infoURL": "https://bitcolojix.org"
 }, {
+  "name": "omChain Mainnet",
+  "chainId": 21816,
+  "shortName": "oml",
+  "networkId": 21816,
+  "nativeCurrency": {
+    "name": "Omlira",
+    "symbol": "OML",
+    "decimals": 18
+  },
+  "rpc": ["https://seed.omlira.com"],
+  "faucets": [],
+  "infoURL": "https://omlira.com"
+}, {
   "name": "Webchain",
   "chainId": 24484,
   "shortName": "web",
