@@ -1,0 +1,24 @@
+{
+  "name": "Nova Network",
+  "chain": "NNW",
+  "icon": "novanetwork",
+  "rpc": [
+    "https://rpc.novanetwork.io:9070",
+    "http://nova.genyrpc.info:8545"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Supernova",
+    "symbol": "SNT",
+    "decimals": 18
+  },
+  "infoURL": "https://novanetwork.io",
+  "shortName": "nnw",
+  "chainId": 87,
+  "networkId": 87,
+  "explorers": [{
+    "name": "novanetwork",
+    "url": "https://explorer.novanetwork.io",
+    "standard": "EIP3091"
+  }]
+}
