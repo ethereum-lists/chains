@@ -1,0 +1,23 @@
+{
+  "name": "omChain Mainnet",
+  "chain": "OML",
+  "icon": "omlira",
+  "rpc": [
+    "https://seed.omlira.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Omlira",
+    "symbol": "OML",
+    "decimals": 18
+  },
+  "infoURL": "https://omlira.com",
+  "shortName": "oml",
+  "chainId": 21816,
+  "networkId": 21816,
+  "explorers": [{
+    "name": "omChain Explorer",
+    "url": "https://explorer.omlira.com",
+    "standard": "EIP3091"
+  }]
+}
