@@ -1702,6 +1702,19 @@
   "faucets": [],
   "infoURL": "https://www.acuteangle.com/"
 }, {
+  "name": "Double-A Chain Testnet",
+  "chainId": 513,
+  "shortName": "aact",
+  "networkId": 513,
+  "nativeCurrency": {
+    "name": "Acuteangle Native Token",
+    "symbol": "AAC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.acuteangle.com"],
+  "faucets": ["https://scan-testnet.acuteangle.com/faucet"],
+  "infoURL": "https://www.acuteangle.com/"
+}, {
   "name": "Vela1 Chain Mainnet",
   "chainId": 555,
   "shortName": "CLASS",
