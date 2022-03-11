@@ -98,4 +98,5 @@ There are also aggregated json files with all chains automatically assembled:
  * [evmchainlist.com](https://evmchainlist.com)
  * [thechainlist.io](https://thechainlist.io)
  * [chainlist.info](https://chainlist.info)
+ * [chainmap.io](https://chainmap.io) 
  * Your project - contact us to add it here!
