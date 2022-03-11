@@ -1,0 +1,25 @@
+{
+  "name": "Hupayx Mainnet",
+  "chain": "HPX",
+  "rpc": [
+    "http://rpc.hupayx.io",
+    "ws://rpc-ws.hupayx.io"
+  ],
+  "faucets": [
+
+  ],
+  "nativeCurrency": {
+    "name": "Hupayx",
+    "symbol": "HPX",
+    "decimals": 18
+  },
+  "infoURL": "http://hupayx.io",
+  "shortName": "hpx",
+  "chainId": 22023,
+  "networkId": 22023,
+  "explorers": [{
+    "name": "HPX Explorer",
+    "url": "https://scan.hupayx.io",
+    "standard": "EIP3091"
+  }]
+}
