@@ -4185,39 +4185,39 @@
   "faucets": [],
   "infoURL": "https://iposlab.com"
 }, {
-  "name": "Aurora MainNet",
+  "name": "Aurora Mainnet",
   "chainId": 1313161554,
   "shortName": "aurora",
   "networkId": 1313161554,
   "nativeCurrency": {
     "name": "Ether",
-    "symbol": "aETH",
+    "symbol": "ETH",
     "decimals": 18
   },
   "rpc": ["https://mainnet.aurora.dev"],
   "faucets": [],
   "infoURL": "https://aurora.dev"
 }, {
-  "name": "Aurora TestNet",
+  "name": "Aurora Testnet",
   "chainId": 1313161555,
   "shortName": "aurora-testnet",
   "networkId": 1313161555,
   "nativeCurrency": {
     "name": "Ether",
-    "symbol": "aETH",
+    "symbol": "ETH",
     "decimals": 18
   },
   "rpc": ["https://testnet.aurora.dev/"],
   "faucets": [],
   "infoURL": "https://aurora.dev"
 }, {
-  "name": "Aurora BetaNet",
+  "name": "Aurora Betanet",
   "chainId": 1313161556,
   "shortName": "aurora-betanet",
   "networkId": 1313161556,
   "nativeCurrency": {
     "name": "Ether",
-    "symbol": "aETH",
+    "symbol": "ETH",
     "decimals": 18
   },
   "rpc": ["https://betanet.aurora.dev/"],
