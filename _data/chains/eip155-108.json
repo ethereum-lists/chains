@@ -17,4 +17,10 @@
   "chainId": 108,
   "networkId": 108,
   "slip44": 1001
+  
+  "explorers": [{
+  "name": "ThundercoreScan",
+  "url": "https://scan.thundercore.com/",
+  "standard": "EIP3091"
+  }]
 }
