@@ -2,8 +2,8 @@
   "name": "Hupayx Mainnet",
   "chain": "HPX",
   "rpc": [
-    "http://rpc.hupayx.io",
-    "ws://rpc-ws.hupayx.io"
+    "https://rpc.hupayx.io:8545",
+    "wss://rpc-ws.hupayx.io:8546"
   ],
   "faucets": [
 

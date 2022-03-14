@@ -2,25 +2,24 @@
   "name": "Hupayx Testnet",
   "chain": "HPX",
   "rpc": [
-    "http://rpc-test.hupayx.io",
-    "ws://rpc-ws-test.hupayx.io"
+    "http://rpc-test.hupayx.io:8545",
+    "ws://rpc-ws-test.hupayx.io:8546"
   ],
   "faucets": [
-
+    "http://faucet-test.hupayx.io/"
   ],
   "nativeCurrency": {
-    "name": "Hupayx",
-    "symbol": "HPX",
+    "name": "Hupayx Test Coin",
+    "symbol": "THPX",
     "decimals": 18
   },
   "infoURL": "http://hupayx.io",
-  "shortName": "hpx",
+  "shortName": "thpx",
   "chainId": 2023,
   "networkId": 2023,
-  "icon": "hupayx",
   "explorers": [{
-    "name": "HPX Explorer",
-    "url": "https://scan-test.hupayx.io",
+    "name": "HPX Test Explorer",
+    "url": "http://evmscan-test.hupayx.io/",
     "standard": "EIP3091"
   }]
 }
