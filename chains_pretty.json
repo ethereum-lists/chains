@@ -3411,6 +3411,50 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Paribu Net Mainnet",
+  "chain": "PRB",
+  "network": "Paribu Net",
+  "rpc": ["https://rpc.paribu.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PRB",
+    "symbol": "PRB",
+    "decimals": 18
+  },
+  "infoURL": "https://net.paribu.com",
+  "shortName": "prb",
+  "chainId": 3400,
+  "networkId": 3400,
+  "icon": "prb",
+  "explorers": [{
+    "name": "Paribu Net Explorer",
+    "url": "https://explorer.paribu.network",
+    "icon": "explorer",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Paribu Net Testnet",
+  "chain": "PRB",
+  "network": "Paribu Net",
+  "rpc": ["https://rpc.testnet.paribuscan.com"],
+  "faucets": ["https://faucet.paribuscan.com"],
+  "nativeCurrency": {
+    "name": "PRB",
+    "symbol": "PRB",
+    "decimals": 18
+  },
+  "infoURL": "https://net.paribu.com",
+  "shortName": "prbtestnet",
+  "chainId": 3500,
+  "networkId": 3500,
+  "icon": "prb",
+  "explorers": [{
+    "name": "Paribu Net Testnet Explorer",
+    "url": "https://testnet.paribuscan.com",
+    "icon": "explorer",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Bittex Mainnet",
   "chain": "BTX",
   "rpc": ["https://rpc1.bittexscan.info", "https://rpc2.bittexscan.info"],
@@ -4210,50 +4254,6 @@
   "shortName": "fsn",
   "chainId": 32659,
   "networkId": 32659
-}, {
-  "name": "Paribu Net Mainnet",
-  "chain": "PRB",
-  "network": "Paribu Net",
-  "rpc": ["https://rpc.paribu.network"],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "PRB",
-    "symbol": "PRB",
-    "decimals": 18
-  },
-  "infoURL": "https://net.paribu.com",
-  "shortName": "prb",
-  "chainId": 34000,
-  "networkId": 34000,
-  "icon": "prb",
-  "explorers": [{
-    "name": "Paribu Net Explorer",
-    "url": "https://explorer.paribu.network",
-    "icon": "explorer",
-    "standard": "EIP3091"
-  }]
-}, {
-  "name": "Paribu Net Testnet",
-  "chain": "PRB",
-  "network": "Paribu Net",
-  "rpc": ["https://rpc.testnet.paribuscan.com"],
-  "faucets": ["https://faucet.paribuscan.com"],
-  "nativeCurrency": {
-    "name": "PRB",
-    "symbol": "PRB",
-    "decimals": 18
-  },
-  "infoURL": "https://net.paribu.com",
-  "shortName": "prbtestnet",
-  "chainId": 35000,
-  "networkId": 35000,
-  "icon": "prb",
-  "explorers": [{
-    "name": "Paribu Net Testnet Explorer",
-    "url": "https://testnet.paribuscan.com",
-    "icon": "explorer",
-    "standard": "EIP3091"
-  }]
 }, {
   "name": "Energi Mainnet",
   "chain": "NRG",

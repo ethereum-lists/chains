@@ -2521,6 +2521,32 @@
   "faucets": [],
   "infoURL": "https://web3q.io/home.w3q/"
 }, {
+  "name": "Paribu Net Mainnet",
+  "chainId": 3400,
+  "shortName": "prb",
+  "networkId": 3400,
+  "nativeCurrency": {
+    "name": "PRB",
+    "symbol": "PRB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.paribu.network"],
+  "faucets": [],
+  "infoURL": "https://net.paribu.com"
+}, {
+  "name": "Paribu Net Testnet",
+  "chainId": 3500,
+  "shortName": "prbtestnet",
+  "networkId": 3500,
+  "nativeCurrency": {
+    "name": "PRB",
+    "symbol": "PRB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.paribuscan.com"],
+  "faucets": ["https://faucet.paribuscan.com"],
+  "infoURL": "https://net.paribu.com"
+}, {
   "name": "Bittex Mainnet",
   "chainId": 3690,
   "shortName": "btx",
@@ -3092,32 +3118,6 @@
   "rpc": ["https://mainnet.anyswap.exchange", "https://fsn.dev/api"],
   "faucets": [],
   "infoURL": "https://www.fusion.org/"
-}, {
-  "name": "Paribu Net Mainnet",
-  "chainId": 34000,
-  "shortName": "prb",
-  "networkId": 34000,
-  "nativeCurrency": {
-    "name": "PRB",
-    "symbol": "PRB",
-    "decimals": 18
-  },
-  "rpc": ["https://rpc.paribu.network"],
-  "faucets": [],
-  "infoURL": "https://net.paribu.com"
-}, {
-  "name": "Paribu Net Testnet",
-  "chainId": 35000,
-  "shortName": "prbtestnet",
-  "networkId": 35000,
-  "nativeCurrency": {
-    "name": "PRB",
-    "symbol": "PRB",
-    "decimals": 18
-  },
-  "rpc": ["https://rpc.testnet.paribuscan.com"],
-  "faucets": ["https://faucet.paribuscan.com"],
-  "infoURL": "https://net.paribu.com"
 }, {
   "name": "Energi Mainnet",
   "chainId": 39797,
