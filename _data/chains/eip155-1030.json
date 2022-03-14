@@ -1,7 +1,8 @@
 {
-    "name": "Conflux",
+    "name": "Conflux eSpace",
     "chain": "Conflux",
-    "rpc": ["https://ethcore.confluxrpc.com"],
+    "network": "mainnet",
+    "rpc": ["https://evm.confluxrpc.com"],
     "faucets": [],
     "nativeCurrency": {
       "name": "CFX",
@@ -12,10 +13,11 @@
     "shortName": "cfx",
     "chainId": 1030,
     "networkId": 1030,
+    "icon": "conflux",
     "explorers": [
       {
         "name": "Conflux Scan",
-        "url": "https://confluxscan.io",
+        "url": "https://evm.confluxscan.net",
         "standard": "none"
       }
     ]

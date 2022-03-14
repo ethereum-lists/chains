@@ -1,0 +1,25 @@
+{
+  "name": "WAGMI",
+  "chain": "WAGMI",
+  "icon": "wagmi",
+  "rpc": [
+    "https://api.trywagmi.xyz/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WAGMI",
+    "symbol": "WGM",
+    "decimals": 18
+  },
+  "infoURL": "https://trywagmi.xyz",
+  "shortName": "WAGMI",
+  "chainId": 11111,
+  "networkId": 11111,
+  "explorers": [
+    {
+      "name": "WAGMI Explorer",
+      "url": "https://trywagmi.xyz",
+      "standard": "none"
+    }
+  ]
+}

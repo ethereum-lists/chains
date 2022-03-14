@@ -2,15 +2,15 @@
   "name": "Gnosis Chain (formerly xDai)",
   "chain": "Gnosis",
   "rpc": [
-    "https://rpc.xdaichain.com",
+    "https://rpc.gnosischain.com",
     "https://xdai.poanetwork.dev",
-    "wss://rpc.xdaichain.com/wss",
+    "wss://rpc.gnosischain.com/wss",
     "wss://xdai.poanetwork.dev/wss",
     "http://xdai.poanetwork.dev",
     "https://dai.poa.network",
     "ws://xdai.poanetwork.dev:8546"
   ],
-  "faucets": ["https://faucet.gimlu.com/gnosis", "https://stakely.io/faucet/xdai-chain", "https://faucet.prussia.dev/xdai"],
+  "faucets": ["https://faucet.gimlu.com/gnosis", "https://stakely.io/faucet/gnosis-chain-xdai", "https://faucet.prussia.dev/xdai"],
   "nativeCurrency": {
     "name": "xDAI",
     "symbol": "xDAI",
