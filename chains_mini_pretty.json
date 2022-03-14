@@ -3093,6 +3093,32 @@
   "faucets": [],
   "infoURL": "https://www.fusion.org/"
 }, {
+  "name": "Paribu Net Mainnet",
+  "chainId": 34000,
+  "shortName": "prb",
+  "networkId": 34000,
+  "nativeCurrency": {
+    "name": "PRB",
+    "symbol": "PRB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.paribu.network"],
+  "faucets": [],
+  "infoURL": "https://net.paribu.com"
+}, {
+  "name": "Paribu Net Testnet",
+  "chainId": 35000,
+  "shortName": "prbtestnet",
+  "networkId": 35000,
+  "nativeCurrency": {
+    "name": "PRB",
+    "symbol": "PRB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.paribuscan.com"],
+  "faucets": ["https://faucet.paribuscan.com"],
+  "infoURL": "https://net.paribu.com"
+}, {
   "name": "Energi Mainnet",
   "chainId": 39797,
   "shortName": "nrg",
