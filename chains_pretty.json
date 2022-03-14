@@ -671,7 +671,7 @@
 }, {
   "name": "Darwinia Pangolin Testnet",
   "chain": "pangolin",
-  "rpc": ["http://pangolin-rpc.darwinia.network"],
+  "rpc": ["https://pangolin-rpc.darwinia.network"],
   "faucets": ["https://docs.crab.network/dvm/wallets/dvm-metamask#apply-for-the-test-token"],
   "nativeCurrency": {
     "name": "Pangolin Network Native Token\u201d",
@@ -690,7 +690,7 @@
 }, {
   "name": "Darwinia Crab Network",
   "chain": "crab",
-  "rpc": ["http://crab-rpc.darwinia.network"],
+  "rpc": ["https://crab-rpc.darwinia.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Crab Network Native Token",

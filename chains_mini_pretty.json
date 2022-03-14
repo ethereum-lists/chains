@@ -515,7 +515,7 @@
     "symbol": "PRING",
     "decimals": 18
   },
-  "rpc": ["http://pangolin-rpc.darwinia.network"],
+  "rpc": ["https://pangolin-rpc.darwinia.network"],
   "faucets": ["https://docs.crab.network/dvm/wallets/dvm-metamask#apply-for-the-test-token"],
   "infoURL": "https://darwinia.network/"
 }, {
@@ -528,7 +528,7 @@
     "symbol": "CRAB",
     "decimals": 18
   },
-  "rpc": ["http://crab-rpc.darwinia.network"],
+  "rpc": ["https://crab-rpc.darwinia.network"],
   "faucets": [],
   "infoURL": "https://crab.network/"
 }, {
