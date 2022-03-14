@@ -3834,6 +3834,19 @@
   "faucets": [],
   "infoURL": "https://www.platon.network"
 }, {
+  "name": "Haymo Testnet",
+  "chainId": 234666,
+  "shortName": "hym",
+  "networkId": 234666,
+  "nativeCurrency": {
+    "name": "HAYMO",
+    "symbol": "HYM",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet1.haymo.network"],
+  "faucets": [],
+  "infoURL": "https://haymoswap.web.app/"
+}, {
   "name": "ARTIS sigma1",
   "chainId": 246529,
   "shortName": "ats",
