@@ -1,0 +1,18 @@
+{
+  "name": "Frost Testnet",
+  "chain": "Frost",
+  "rpc": [
+    "https://frost-rpc.icenetwork.io:9933/",
+    "https://frost-rpc-1.icenetwork.io:9933/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ICZ",
+    "symbol": "ICZ",
+    "decimals": 18
+  },
+  "infoURL": "https://icenetwork.io/",
+  "shortName": "ICZ",
+  "chainId": 553,
+  "networkId": 553
+}
