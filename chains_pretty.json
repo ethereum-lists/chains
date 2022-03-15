@@ -2257,7 +2257,7 @@
   "chainId": 369,
   "networkId": 369,
   "infoURL": "https://pulsechain.com/",
-  "rpc": ["https://rpc.mainnet.pulsechain.com/v1/${PULSECHAIN_API_KEY}", "wss://rpc.mainnet.pulsechain.com/ws/v1/${PULSECHAIN_API_KEY}"],
+  "rpc": ["https://rpc.mainnet.pulsechain.com/", "wss://rpc.mainnet.pulsechain.com/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Pulse",
@@ -2730,8 +2730,8 @@
   "chainId": 940,
   "networkId": 940,
   "infoURL": "https://pulsechain.com/",
-  "rpc": ["https://rpc.testnet.pulsechain.com/v1/${PULSECHAIN_API_KEY}", "wss://rpc.testnet.pulsechain.com/ws/v1/${PULSECHAIN_API_KEY}"],
-  "faucets": [],
+  "rpc": ["https://rpc.v2.testnet.pulsechain.com/", "wss://rpc.v2.testnet.pulsechain.com/"],
+  "faucets": ["https://faucet.v2.testnet.pulsechain.com/"],
   "nativeCurrency": {
     "name": "Test Pulse",
     "symbol": "tPLS",
