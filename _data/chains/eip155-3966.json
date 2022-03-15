@@ -4,7 +4,9 @@
   "rpc": [
     "https://api.dynoprotocol.com",
   ],
-  "faucets": [],
+    "faucets": [
+      "https://faucet.dynoscan.io"
+    ],
   "nativeCurrency": {
     "name": "DYNO Token",
     "symbol": "DYNO",
