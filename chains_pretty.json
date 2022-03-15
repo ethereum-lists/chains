@@ -3476,6 +3476,44 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "DYNO Mainnet",
+  "chain": "DYNO",
+  "rpc": ["https://api.dynoprotocol.com"],
+  "faucets": ["https://faucet.dynoscan.io"],
+  "nativeCurrency": {
+    "name": "DYNO Token",
+    "symbol": "DYNO",
+    "decimals": 18
+  },
+  "infoURL": "https://dynoprotocol.com",
+  "shortName": "dyno",
+  "chainId": 3966,
+  "networkId": 3966,
+  "explorers": [{
+    "name": "DYNO Explorer",
+    "url": "https://dynoscan.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "DYNO Testnet",
+  "chain": "DYNO",
+  "rpc": ["https://tapi.dynoprotocol.com"],
+  "faucets": ["https://faucet.dynoscan.io"],
+  "nativeCurrency": {
+    "name": "DYNO Token",
+    "symbol": "tDYNO",
+    "decimals": 18
+  },
+  "infoURL": "https://dynoprotocol.com",
+  "shortName": "tdyno",
+  "chainId": 3967,
+  "networkId": 3967,
+  "explorers": [{
+    "name": "DYNO Explorer",
+    "url": "https://testnet.dynoscan.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Fantom Testnet",
   "chain": "FTM",
   "rpc": ["https://rpc.testnet.fantom.network"],

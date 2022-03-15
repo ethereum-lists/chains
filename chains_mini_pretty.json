@@ -2560,6 +2560,32 @@
   "faucets": [],
   "infoURL": "https://bittexscan.com"
 }, {
+  "name": "DYNO Mainnet",
+  "chainId": 3966,
+  "shortName": "dyno",
+  "networkId": 3966,
+  "nativeCurrency": {
+    "name": "DYNO Token",
+    "symbol": "DYNO",
+    "decimals": 18
+  },
+  "rpc": ["https://api.dynoprotocol.com"],
+  "faucets": ["https://faucet.dynoscan.io"],
+  "infoURL": "https://dynoprotocol.com"
+}, {
+  "name": "DYNO Testnet",
+  "chainId": 3967,
+  "shortName": "tdyno",
+  "networkId": 3967,
+  "nativeCurrency": {
+    "name": "DYNO Token",
+    "symbol": "tDYNO",
+    "decimals": 18
+  },
+  "rpc": ["https://tapi.dynoprotocol.com"],
+  "faucets": ["https://faucet.dynoscan.io"],
+  "infoURL": "https://dynoprotocol.com"
+}, {
   "name": "Fantom Testnet",
   "chainId": 4002,
   "shortName": "tftm",
