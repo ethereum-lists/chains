@@ -6,10 +6,12 @@
   "networkId": 940,
   "infoURL": "https://pulsechain.com/",
   "rpc": [
-    "https://rpc.testnet.pulsechain.com/v1/${PULSECHAIN_API_KEY}",
-    "wss://rpc.testnet.pulsechain.com/ws/v1/${PULSECHAIN_API_KEY}"
+    "https://rpc.v2.testnet.pulsechain.com/",
+    "wss://rpc.v2.testnet.pulsechain.com/"
   ],
-  "faucets": [],
+  "faucets": [
+    "https://faucet.v2.testnet.pulsechain.com/"
+  ],
   "nativeCurrency": {
     "name": "Test Pulse",
     "symbol": "tPLS",
