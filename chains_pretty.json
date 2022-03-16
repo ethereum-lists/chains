@@ -2738,6 +2738,36 @@
     "decimals": 18
   }
 }, {
+  "name": "PulseChain Testnet v2b",
+  "shortName": "t2bpls",
+  "chain": "t2bPLS",
+  "network": "testnet-2b",
+  "chainId": 941,
+  "networkId": 941,
+  "infoURL": "https://pulsechain.com/",
+  "rpc": ["https://rpc.v2b.testnet.pulsechain.com/", "wss://rpc.v2b.testnet.pulsechain.com/"],
+  "faucets": ["https://faucet.v2b.testnet.pulsechain.com/"],
+  "nativeCurrency": {
+    "name": "Test Pulse",
+    "symbol": "tPLS",
+    "decimals": 18
+  }
+}, {
+  "name": "PulseChain Testnet v3",
+  "shortName": "t3pls",
+  "chain": "t3PLS",
+  "network": "testnet-3",
+  "chainId": 942,
+  "networkId": 942,
+  "infoURL": "https://pulsechain.com/",
+  "rpc": ["https://rpc.v3.testnet.pulsechain.com/", "wss://rpc.v3.testnet.pulsechain.com/"],
+  "faucets": ["https://faucet.v3.testnet.pulsechain.com/"],
+  "nativeCurrency": {
+    "name": "Test Pulse",
+    "symbol": "tPLS",
+    "decimals": 18
+  }
+}, {
   "name": "Nepal Blockchain Network",
   "chain": "YETI",
   "rpc": ["https://api.nepalblockchain.dev", "https://api.nepalblockchain.network"],
