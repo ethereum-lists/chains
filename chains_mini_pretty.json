@@ -2651,6 +2651,19 @@
   "faucets": ["https://faucet.iotex.io/"],
   "infoURL": "https://iotex.io"
 }, {
+  "name": "Venidium Testnet",
+  "chainId": 4918,
+  "shortName": "xvm",
+  "networkId": 4918,
+  "nativeCurrency": {
+    "name": "Venidium",
+    "symbol": "XVM",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-evm-testnet.venidium.io"],
+  "faucets": [],
+  "infoURL": "https://venidium.io"
+}, {
   "name": "EraSwap Mainnet",
   "chainId": 5197,
   "shortName": "es",
