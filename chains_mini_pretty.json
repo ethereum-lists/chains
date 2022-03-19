@@ -3002,6 +3002,19 @@
   "faucets": [],
   "infoURL": "https://www.xixoio.com/"
 }, {
+  "name": "CryptoCoinPay",
+  "chainId": 10823,
+  "shortName": "CCP",
+  "networkId": 10823,
+  "nativeCurrency": {
+    "name": "CryptoCoinPay",
+    "symbol": "CCP",
+    "decimals": 18
+  },
+  "rpc": ["http://node106.cryptocoinpay.info:8545", "ws://node106.cryptocoinpay.info:8546"],
+  "faucets": [],
+  "infoURL": "https://www.cryptocoinpay.co"
+}, {
   "name": "WAGMI",
   "chainId": 11111,
   "shortName": "WAGMI",
