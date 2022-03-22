@@ -100,4 +100,5 @@ There are also aggregated json files with all chains automatically assembled:
  * [chainlist.info](https://chainlist.info)
  * [chainmap.io](https://chainmap.io) 
  * [chainlist.in](https://www.chainlist.in)
+ * [chainz.me](https://chainz.me)
  * Your project - contact us to add it here!
