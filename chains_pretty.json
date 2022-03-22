@@ -109,7 +109,7 @@
 }, {
   "name": "Ethereum Classic Testnet Kotti",
   "chain": "ETC",
-  "rpc": [],
+  "rpc": ["https://www.ethercluster.com/kotti"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Kotti Ether",
@@ -910,7 +910,7 @@
 }, {
   "name": "Ethereum Classic Mainnet",
   "chain": "ETC",
-  "rpc": ["https://ethereumclassic.network"],
+  "rpc": ["https://www.ethercluster.com/etc"],
   "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/?"],
   "nativeCurrency": {
     "name": "Ethereum Classic Ether",
@@ -944,7 +944,7 @@
 }, {
   "name": "Ethereum Classic Testnet Mordor",
   "chain": "ETC",
-  "rpc": [],
+  "rpc": ["https://www.ethercluster.com/mordor"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Mordor Classic Testnet Ether",

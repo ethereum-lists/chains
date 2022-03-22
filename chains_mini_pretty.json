@@ -73,7 +73,7 @@
     "symbol": "KOT",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://www.ethercluster.com/kotti"],
   "faucets": [],
   "infoURL": "https://explorer.jade.builders/?network=kotti"
 }, {
@@ -684,7 +684,7 @@
     "symbol": "ETC",
     "decimals": 18
   },
-  "rpc": ["https://ethereumclassic.network"],
+  "rpc": ["https://www.ethercluster.com/etc"],
   "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/?"],
   "infoURL": "https://ethereumclassic.org"
 }, {
@@ -710,7 +710,7 @@
     "symbol": "METC",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://www.ethercluster.com/mordor"],
   "faucets": [],
   "infoURL": "https://github.com/eth-classic/mordor/"
 }, {
