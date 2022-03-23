@@ -2545,7 +2545,20 @@
   },
   "rpc": ["https://testnet.web3q.io:8545"],
   "faucets": [],
-  "infoURL": "https://web3q.io/home.w3q/"
+  "infoURL": "https://testnet.web3q.io/home.w3q/"
+}, {
+  "name": "Web3Q Galileo",
+  "chainId": 3334,
+  "shortName": "w3q-g",
+  "networkId": 3334,
+  "nativeCurrency": {
+    "name": "Web3Q",
+    "symbol": "W3Q",
+    "decimals": 18
+  },
+  "rpc": ["https://galileo.web3q.io:8545"],
+  "faucets": [],
+  "infoURL": "https://galileo.web3q.io/home.w3q/"
 }, {
   "name": "Paribu Net Mainnet",
   "chainId": 3400,
