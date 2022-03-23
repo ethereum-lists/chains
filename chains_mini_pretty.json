@@ -1093,7 +1093,7 @@
 }, {
   "name": "Web3Games Testnet",
   "chainId": 102,
-  "shortName": "w3g",
+  "shortName": "tw3g",
   "networkId": 102,
   "nativeCurrency": {
     "name": "Web3Games",
@@ -1101,6 +1101,19 @@
     "decimals": 18
   },
   "rpc": ["https://testnet.web3games.org/evm"],
+  "faucets": [],
+  "infoURL": "https://web3games.org/"
+}, {
+  "name": "Web3Games Devnet",
+  "chainId": 105,
+  "shortName": "dw3g",
+  "networkId": 105,
+  "nativeCurrency": {
+    "name": "Web3Games",
+    "symbol": "W3G",
+    "decimals": 18
+  },
+  "rpc": ["https://devnet.web3games.org/evm"],
   "faucets": [],
   "infoURL": "https://web3games.org/"
 }, {
