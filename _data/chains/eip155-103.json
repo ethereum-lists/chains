@@ -1,8 +1,8 @@
 {
-    "name": "Web3Games Testnet",
+    "name": "Web3Games Mainnet",
     "chain": "Web3Games",
     "icon": "web3games",
-    "rpc": ["https://testnet.web3games.org/evm"],
+    "rpc": ["https://mainnet.web3games.org/evm"],
     "faucets": [],
     "nativeCurrency": {
         "name": "Web3Games",
@@ -11,11 +11,11 @@
     },
     "infoURL": "https://web3games.org/",
     "shortName": "w3g",
-    "chainId": 102,
-    "networkId": 102,
+    "chainId": 103,
+    "networkId": 103,
     "explorers": [{
         "name": "Web3Games Explorer",
-        "url": "https://explorer-testnet.web3games.org/",
+        "url": "https://explorer.web3games.org/",
         "standard": "EIP1559"
     }]
 }
