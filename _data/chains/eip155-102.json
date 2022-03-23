@@ -1,6 +1,7 @@
 {
     "name": "Web3Games Testnet",
     "chain": "Web3Games",
+    "icon": "web3games",
     "rpc": ["https://testnet.web3games.org/evm"],
     "faucets": [],
     "nativeCurrency": {
@@ -9,7 +10,7 @@
         "decimals": 18
     },
     "infoURL": "https://web3games.org/",
-    "shortName": "w3g",
+    "shortName": "tw3g",
     "chainId": 102,
     "networkId": 102
 }
