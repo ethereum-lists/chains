@@ -2,20 +2,20 @@
   "name": "BON Network",
   "chain": "BON",
   "network": "testnet",
-  "rpc": ["http://rpc.boyanet.org:8545/"],
+  "rpc": ["http://8.210.150.70:8545/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BOYACoin",
     "symbol": "BOY",
     "decimals": 18
   },
-  "infoURL": "http://boyanet.org",
+  "infoURL": "http://boyanet.org/",
   "shortName": "boya",
   "chainId": 1898,
   "networkId": 1,
   "explorers": [{
     "name": "explorer",
-    "url": "http://explorer.boyanet.org:4000",
+    "url": "http://explorer.boyanet.org:4000/",
     "standard": "EIP3091"
   }]
 }
