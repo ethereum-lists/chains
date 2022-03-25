@@ -9,13 +9,13 @@
     "symbol": "BOY",
     "decimals": 18
   },
-  "infoURL": "http://boyanet.org/",
+  "infoURL": "https://boyanet.org/",
   "shortName": "boya",
   "chainId": 1898,
   "networkId": 1,
   "explorers": [{
     "name": "explorer",
-    "url": "http://explorer.boyanet.org:4000/",
+    "url": "https://explorer.boyanet.org:4001/",
     "standard": "EIP3091"
   }]
 }
