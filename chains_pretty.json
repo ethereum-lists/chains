@@ -2158,6 +2158,28 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "DFK Chain Test",
+  "chain": "DFK",
+  "icon": "dfk",
+  "network": "testnet",
+  "rpc": ["https://api-dfk.avax-test.network/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Jewel",
+    "symbol": "JEWEL",
+    "decimals": 18
+  },
+  "infoURL": "https://defikingdoms.com",
+  "shortName": "DFKTEST",
+  "chainId": 335,
+  "networkId": 335,
+  "explorers": [{
+    "name": "ethernal",
+    "url": "https://explorer-test.dfkchain.com",
+    "icon": "ethereum",
+    "standard": "none"
+  }]
+}, {
   "name": "Shiden",
   "chain": "SDN",
   "rpc": ["https://rpc.shiden.astar.network:8545", "wss://shiden.api.onfinality.io/public-ws"],
@@ -4620,6 +4642,28 @@
   "chainId": 49797,
   "networkId": 49797,
   "slip44": 49797
+}, {
+  "name": "DFK Chain",
+  "chain": "DFK",
+  "icon": "dfk",
+  "network": "mainnet",
+  "rpc": ["https://api-dfk.avax.network/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Jewel",
+    "symbol": "JEWEL",
+    "decimals": 18
+  },
+  "infoURL": "https://defikingdoms.com",
+  "shortName": "DFK",
+  "chainId": 53935,
+  "networkId": 53935,
+  "explorers": [{
+    "name": "ethernal",
+    "url": "https://explorer.dfkchain.com",
+    "icon": "ethereum",
+    "standard": "none"
+  }]
 }, {
   "name": "REI Chain Mainnet",
   "chain": "REI",

@@ -1572,6 +1572,19 @@
   "faucets": [],
   "infoURL": "https://web3q.io/home.w3q/"
 }, {
+  "name": "DFK Chain Test",
+  "chainId": 335,
+  "shortName": "DFKTEST",
+  "networkId": 335,
+  "nativeCurrency": {
+    "name": "Jewel",
+    "symbol": "JEWEL",
+    "decimals": 18
+  },
+  "rpc": ["https://api-dfk.avax-test.network/rpc"],
+  "faucets": [],
+  "infoURL": "https://defikingdoms.com"
+}, {
   "name": "Shiden",
   "chainId": 336,
   "shortName": "sdn",
@@ -3378,6 +3391,19 @@
   "rpc": ["https://nodeapi.test.energi.network"],
   "faucets": [],
   "infoURL": "https://www.energi.world/"
+}, {
+  "name": "DFK Chain",
+  "chainId": 53935,
+  "shortName": "DFK",
+  "networkId": 53935,
+  "nativeCurrency": {
+    "name": "Jewel",
+    "symbol": "JEWEL",
+    "decimals": 18
+  },
+  "rpc": ["https://api-dfk.avax.network/rpc"],
+  "faucets": [],
+  "infoURL": "https://defikingdoms.com"
 }, {
   "name": "REI Chain Mainnet",
   "chainId": 55555,
