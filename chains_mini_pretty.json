@@ -2430,6 +2430,19 @@
   "faucets": [],
   "infoURL": "https://teslafunds.io"
 }, {
+  "name": "BON Network",
+  "chainId": 1898,
+  "shortName": "boya",
+  "networkId": 1,
+  "nativeCurrency": {
+    "name": "BOYACoin",
+    "symbol": "BOY",
+    "decimals": 18
+  },
+  "rpc": ["http://8.210.150.70:8545"],
+  "faucets": [],
+  "infoURL": "https://boyanet.org"
+}, {
   "name": "EtherGem",
   "chainId": 1987,
   "shortName": "egem",
