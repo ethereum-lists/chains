@@ -1965,6 +1965,46 @@
   "networkId": 2221,
   "slip44": 2221
 }, {
+  "name": "LACHAIN Mainnet",
+  "chain": "LA",
+  "icon": "lachain",
+  "rpc": ["https://rpc-mainnet.lachain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LA",
+    "symbol": "LA",
+    "decimals": 18
+  },
+  "infoURL": "https://lachain.io",
+  "shortName": "LA",
+  "chainId": 225,
+  "networkId": 225,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://scan.lachain.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "LACHAIN Testnet",
+  "chain": "TLA",
+  "icon": "lachain",
+  "rpc": ["https://rpc-testnet.lachain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TLA",
+    "symbol": "TLA",
+    "decimals": 18
+  },
+  "infoURL": "https://lachain.io",
+  "shortName": "TLA",
+  "chainId": 226,
+  "networkId": 226,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://scan-test.lachain.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Energy Web Chain",
   "chain": "Energy Web Chain",
   "rpc": ["https://rpc.energyweb.org", "wss://rpc.energyweb.org/ws"],

@@ -1442,6 +1442,32 @@
   "faucets": [],
   "infoURL": "https://permission.io/"
 }, {
+  "name": "LACHAIN Mainnet",
+  "chainId": 225,
+  "shortName": "LA",
+  "networkId": 225,
+  "nativeCurrency": {
+    "name": "LA",
+    "symbol": "LA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet.lachain.io"],
+  "faucets": [],
+  "infoURL": "https://lachain.io"
+}, {
+  "name": "LACHAIN Testnet",
+  "chainId": 226,
+  "shortName": "TLA",
+  "networkId": 226,
+  "nativeCurrency": {
+    "name": "TLA",
+    "symbol": "TLA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.lachain.io"],
+  "faucets": [],
+  "infoURL": "https://lachain.io"
+}, {
   "name": "Energy Web Chain",
   "chainId": 246,
   "shortName": "ewt",
