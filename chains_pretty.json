@@ -1563,7 +1563,7 @@
   "name": "Nebula Testnet",
   "chain": "NTN",
   "icon": "nebulatestnet",
-  "rpc": ["https://testnet.rpc.novanetwork.io:9070", "http://testnet.rpc.novanetwork.io:8545"],
+  "rpc": ["https://testnet.rpc.novanetwork.io:9070"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Nebula X",
