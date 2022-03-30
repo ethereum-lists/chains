@@ -2625,6 +2625,19 @@
   "faucets": [],
   "infoURL": "https://evanesco.org/"
 }, {
+  "name": "Kava EVM Testnet",
+  "chainId": 2221,
+  "shortName": "kava",
+  "networkId": 2221,
+  "nativeCurrency": {
+    "name": "Kava",
+    "symbol": "KAVA",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.evm-alpha.kava.io", "wss://evm-ws.evm-alpha.kava.io"],
+  "faucets": ["https://faucet.kava.io"],
+  "infoURL": "https://www.kava.io"
+}, {
   "name": "Kortho Mainnet",
   "chainId": 2559,
   "shortName": "ktoc",
@@ -3482,6 +3495,19 @@
   "rpc": ["https://alfajores-forno.celo-testnet.org", "wss://alfajores-forno.celo-testnet.org/ws"],
   "faucets": ["https://celo.org/developers/faucet", "https://cauldron.pretoriaresearchlab.io/alfajores-faucet"],
   "infoURL": "https://docs.celo.org/"
+}, {
+  "name": "Autobahn Network",
+  "chainId": 45000,
+  "shortName": "autobahn",
+  "networkId": 45000,
+  "nativeCurrency": {
+    "name": "BNB",
+    "symbol": "BNB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.autobahn.network"],
+  "faucets": [],
+  "infoURL": "https://autobahn.network"
 }, {
   "name": "REI Network",
   "chainId": 47805,

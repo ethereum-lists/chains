@@ -3582,6 +3582,28 @@
     "standard": "none"
   }]
 }, {
+  "name": "Kava EVM Testnet",
+  "chain": "KAVA",
+  "network": "testnet",
+  "rpc": ["https://evm.evm-alpha.kava.io", "wss://evm-ws.evm-alpha.kava.io"],
+  "faucets": ["https://faucet.kava.io"],
+  "nativeCurrency": {
+    "name": "Kava",
+    "symbol": "KAVA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.kava.io",
+  "shortName": "kava",
+  "chainId": 2221,
+  "networkId": 2221,
+  "icon": "kava",
+  "explorers": [{
+    "name": "Kava Testnet Explorer",
+    "url": "https://explorer.evm-alpha.kava.io",
+    "standard": "EIP3091",
+    "icon": "kava"
+  }]
+}, {
   "name": "Kortho Mainnet",
   "chain": "Kortho Chain",
   "rpc": ["https://www.kortho-chain.com"],
@@ -4791,6 +4813,28 @@
   "rpc": ["https://alfajores-forno.celo-testnet.org", "wss://alfajores-forno.celo-testnet.org/ws"],
   "faucets": ["https://celo.org/developers/faucet", "https://cauldron.pretoriaresearchlab.io/alfajores-faucet"],
   "infoURL": "https://docs.celo.org/"
+}, {
+  "name": "Autobahn Network",
+  "chain": "BNB",
+  "network": "mainnet",
+  "rpc": ["https://rpc.autobahn.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BNB",
+    "symbol": "BNB",
+    "decimals": 18
+  },
+  "infoURL": "https://autobahn.network",
+  "shortName": "autobahn",
+  "chainId": 45000,
+  "networkId": 45000,
+  "icon": "autobahn",
+  "explorers": [{
+    "name": "autobahn explorer",
+    "url": "https://explorer.autobahn.network",
+    "icon": "autobahn",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "REI Network",
   "chain": "REI",
