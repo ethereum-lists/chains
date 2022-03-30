@@ -792,6 +792,27 @@
     "standard": "none"
   }]
 }, {
+  "name": "Openpiece Mainnet",
+  "chain": "OPENPIECE",
+  "icon": "openpiece",
+  "network": "mainnet",
+  "rpc": ["https://mainnet.openpiece.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Belly",
+    "symbol": "BELLY",
+    "decimals": 18
+  },
+  "infoURL": "https://cryptopiece.online",
+  "shortName": "OP",
+  "chainId": 54,
+  "networkId": 54,
+  "explorers": [{
+    "name": "Belly Scan",
+    "url": "https://bellyscan.com",
+    "standard": "none"
+  }]
+}, {
   "name": "Zyx Mainnet",
   "chain": "ZYX",
   "rpc": ["https://rpc-1.zyx.network/", "https://rpc-2.zyx.network/", "https://rpc-3.zyx.network/", "https://rpc-4.zyx.network/", "https://rpc-5.zyx.network/", "https://rpc-6.zyx.network/"],
@@ -1765,6 +1786,27 @@
     "name": "polygonscan",
     "url": "https://polygonscan.com",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Openpiece Testnet",
+  "chain": "OPENPIECE",
+  "icon": "openpiece",
+  "network": "testnet",
+  "rpc": ["https://testnet.openpiece.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Belly",
+    "symbol": "BELLY",
+    "decimals": 18
+  },
+  "infoURL": "https://cryptopiece.online",
+  "shortName": "OPtest",
+  "chainId": 141,
+  "networkId": 141,
+  "explorers": [{
+    "name": "Belly Scan",
+    "url": "https://testnet.bellyscan.com",
+    "standard": "none"
   }]
 }, {
   "name": "DAX CHAIN",

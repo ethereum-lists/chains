@@ -597,6 +597,19 @@
   "faucets": [],
   "infoURL": "https://www.coinex.org/"
 }, {
+  "name": "Openpiece Mainnet",
+  "chainId": 54,
+  "shortName": "OP",
+  "networkId": 54,
+  "nativeCurrency": {
+    "name": "Belly",
+    "symbol": "BELLY",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.openpiece.io"],
+  "faucets": [],
+  "infoURL": "https://cryptopiece.online"
+}, {
   "name": "Zyx Mainnet",
   "chainId": 55,
   "shortName": "ZYX",
@@ -1285,6 +1298,19 @@
   "rpc": ["https://polygon-rpc.com/", "https://rpc-mainnet.matic.network", "https://matic-mainnet.chainstacklabs.com", "https://rpc-mainnet.maticvigil.com", "https://rpc-mainnet.matic.quiknode.pro", "https://matic-mainnet-full-rpc.bwarelabs.com"],
   "faucets": [],
   "infoURL": "https://polygon.technology/"
+}, {
+  "name": "Openpiece Testnet",
+  "chainId": 141,
+  "shortName": "OPtest",
+  "networkId": 141,
+  "nativeCurrency": {
+    "name": "Belly",
+    "symbol": "BELLY",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.openpiece.io"],
+  "faucets": [],
+  "infoURL": "https://cryptopiece.online"
 }, {
   "name": "DAX CHAIN",
   "chainId": 142,
