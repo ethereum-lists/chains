@@ -2482,6 +2482,19 @@
   "faucets": [],
   "infoURL": "https://egem.io"
 }, {
+  "name": "Milkomeda Cardano (C1)",
+  "chainId": 2001,
+  "shortName": "milkomeda-c1",
+  "networkId": 2001,
+  "nativeCurrency": {
+    "name": "milkADA",
+    "symbol": "milkADA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet-cardano-evm.c1.milkomeda.com"],
+  "faucets": [],
+  "infoURL": "https://www.milkomeda.com/"
+}, {
   "name": "420coin",
   "chainId": 2020,
   "shortName": "420",
@@ -3937,6 +3950,19 @@
   "rpc": ["https://devnet-s7-ethapi.quarkchain.io", "http://eth-jrpc.devnet.quarkchain.io:39907/"],
   "faucets": [],
   "infoURL": "https://www.quarkchain.io/"
+}, {
+  "name": "Milkomeda Cardano Testnet",
+  "chainId": 200101,
+  "shortName": "milkomeda-c1-testnet",
+  "networkId": 200101,
+  "nativeCurrency": {
+    "name": "milkTADA",
+    "symbol": "milkTADA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-devnet-cardano-evm.c1.milkomeda.com"],
+  "faucets": [],
+  "infoURL": "https://www.milkomeda.com/"
 }, {
   "name": "Akroma",
   "chainId": 200625,

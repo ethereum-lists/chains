@@ -3374,6 +3374,27 @@
   "networkId": 1987,
   "slip44": 1987
 }, {
+  "name": "Milkomeda Cardano (C1)",
+  "chain": "Milkomeda",
+  "icon": "milkomeda",
+  "network": "testnet",
+  "rpc": ["https://rpc-mainnet-cardano-evm.c1.milkomeda.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "milkADA",
+    "symbol": "milkADA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.milkomeda.com/",
+  "shortName": "milkomeda-c1",
+  "chainId": 2001,
+  "networkId": 2001,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer-mainnet-cardano-evm.c1.milkomeda.com",
+    "standard": "none"
+  }]
+}, {
   "name": "420coin",
   "chain": "420",
   "rpc": [],
@@ -5478,6 +5499,27 @@
     "name": "quarkchain-devnet",
     "url": "https://devnet.quarkchain.io/7",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Milkomeda Cardano Testnet",
+  "chain": "Milkomeda",
+  "icon": "milkomeda",
+  "network": "mainnet",
+  "rpc": ["https://rpc-devnet-cardano-evm.c1.milkomeda.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "milkTADA",
+    "symbol": "milkTADA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.milkomeda.com/",
+  "shortName": "milkomeda-c1-testnet",
+  "chainId": 200101,
+  "networkId": 200101,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer-devnet-cardano-evm.c1.milkomeda.com",
+    "standard": "none"
   }]
 }, {
   "name": "Akroma",
