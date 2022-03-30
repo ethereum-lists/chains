@@ -2,9 +2,7 @@
   "name": "Findora Testnet",
   "chain": "Testnet-anvil",
   "network": "testnet",
-  "rpc": [
-    "https://prod-testnet.prod.findora.org:8545/"
-  ],
+  "rpc": ["https://prod-testnet.prod.findora.org:8545/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "FRA",
@@ -12,7 +10,7 @@
     "decimals": 18
   },
   "infoURL": "https://findora.org/",
-  "shortName": "fra",
+  "shortName": "findora-testnet",
   "chainId": 2153,
   "networkId": 2153,
   "explorers": [
