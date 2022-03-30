@@ -2430,6 +2430,19 @@
   "faucets": [],
   "infoURL": "https://docs.moonbeam.network/learn/platform/networks/overview/"
 }, {
+  "name": "CENNZnet Azalea",
+  "chainId": 1337,
+  "shortName": "cennz-a",
+  "networkId": 1337,
+  "nativeCurrency": {
+    "name": "CPAY",
+    "symbol": "CPAY",
+    "decimals": 18
+  },
+  "rpc": ["https://cennznet.unfrastructure.io/public"],
+  "faucets": [],
+  "infoURL": "https://cennz.net"
+}, {
   "name": "Catecoin Chain Mainnet",
   "chainId": 1618,
   "shortName": "cate",
@@ -2624,6 +2637,32 @@
   "rpc": ["https://www.kortho-chain.com"],
   "faucets": [],
   "infoURL": "https://www.kortho.io/"
+}, {
+  "name": "CENNZnet Rata",
+  "chainId": 3000,
+  "shortName": "cennz-r",
+  "networkId": 3000,
+  "nativeCurrency": {
+    "name": "CPAY",
+    "symbol": "CPAY",
+    "decimals": 18
+  },
+  "rpc": ["https://rata.centrality.me/public"],
+  "faucets": ["https://app-faucet.centrality.me"],
+  "infoURL": "https://cennz.net"
+}, {
+  "name": "CENNZnet Nikau",
+  "chainId": 3001,
+  "shortName": "cennz-n",
+  "networkId": 3001,
+  "nativeCurrency": {
+    "name": "CPAY",
+    "symbol": "CPAY",
+    "decimals": 18
+  },
+  "rpc": ["https://nikau.centrality.me/public"],
+  "faucets": ["https://app-faucet.centrality.me"],
+  "infoURL": "https://cennz.net"
 }, {
   "name": "ZCore Testnet",
   "chainId": 3331,
