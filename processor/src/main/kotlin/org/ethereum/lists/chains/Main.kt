@@ -93,10 +93,8 @@ private fun doChecks(doRPCConnect: Boolean) {
         checkIcon(it)
     }
 
-    allFiles.filter { it.isDirectory }.forEach {
-        if (it.name != "deprecated") {
-            error("the only directory allowed is 'deprecated'")
-        }
+    allFiles.filter { it.isDirectory }.forEach { _ ->
+        error("should not contain a directory")
     }
 }
 
@@ -214,7 +212,11 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
             throw ENSRegistryAddressMustBeValid()
         }
     }
-
+    jsonObject["deprecated"]?.let {
+        if (it !is Boolean) {
+            throw DeprecatedMustBeBoolean()
+        }
+    }
     jsonObject["parent"]?.let {
         if (it !is JsonObject) {
             throw ParentMustBeObject()

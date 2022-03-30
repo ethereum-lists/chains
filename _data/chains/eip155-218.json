@@ -1,5 +1,5 @@
 {
-  "name": "SoterOne Mainnet",
+  "name": "SoterOne Mainnet old",
   "chain": "SOTER",
   "rpc": [
     "https://rpc.soter.one"
@@ -12,7 +12,8 @@
     "decimals": 18
   },
   "infoURL": "https://www.soterone.com",
-  "shortName": "SO1",
+  "shortName": "SO1-old",
   "chainId": 218,
-  "networkId": 218
+  "networkId": 218,
+  "deprecated": true  
 }
