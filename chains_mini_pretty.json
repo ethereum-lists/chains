@@ -3496,19 +3496,6 @@
   "faucets": ["https://celo.org/developers/faucet", "https://cauldron.pretoriaresearchlab.io/alfajores-faucet"],
   "infoURL": "https://docs.celo.org/"
 }, {
-  "name": "Autobahn Network",
-  "chainId": 45000,
-  "shortName": "autobahn",
-  "networkId": 45000,
-  "nativeCurrency": {
-    "name": "BNB",
-    "symbol": "BNB",
-    "decimals": 18
-  },
-  "rpc": ["https://rpc.autobahn.network"],
-  "faucets": [],
-  "infoURL": "https://autobahn.network"
-}, {
   "name": "REI Network",
   "chainId": 47805,
   "shortName": "REI",
