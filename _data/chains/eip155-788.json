@@ -1,0 +1,25 @@
+{
+    "name": "AEROCHAIN TESTNET",
+    "chain": "AEROCHAIN",
+    "network": "testnet",
+    "rpc": [
+      "https://trpc.aerochaincoin.org/",
+      "https://trpc.aerochain.id/"
+    ], 
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "AEROCHAIN",
+      "symbol": "ARC",
+      "decimals": 18
+    },
+    "infoURL": "https://aerochaincoin.org/",
+    "shortName": "arc",
+    "chainId": 788,
+    "networkId": 788,
+    "explorers": [{
+      "name": "aeroscan",
+      "url": "https://testnet.aeroscan.id",
+      "standard": "EIP3091"
+    }]
+}
+
