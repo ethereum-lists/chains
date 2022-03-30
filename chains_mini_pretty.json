@@ -1455,6 +1455,19 @@
   "faucets": ["http://faucet.freight.sh"],
   "infoURL": "https://freighttrust.com"
 }, {
+  "name": "SoterOne Mainnet old",
+  "chainId": 218,
+  "shortName": "SO1-old",
+  "networkId": 218,
+  "nativeCurrency": {
+    "name": "SoterOne Mainnet Ether",
+    "symbol": "SOTER",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.soter.one"],
+  "faucets": [],
+  "infoURL": "https://www.soterone.com"
+}, {
   "name": "Permission",
   "chainId": 222,
   "shortName": "ASK",
@@ -2416,6 +2429,19 @@
   "rpc": ["https://rpc.api.moonriver.moonbeam.network", "wss://wss.api.moonriver.moonbeam.network"],
   "faucets": [],
   "infoURL": "https://moonbeam.network/networks/moonriver/"
+}, {
+  "name": "Moonrock old",
+  "chainId": 1286,
+  "shortName": "mrock-old",
+  "networkId": 1286,
+  "nativeCurrency": {
+    "name": "Rocs",
+    "symbol": "ROC",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": ""
 }, {
   "name": "Moonbase Alpha",
   "chainId": 1287,
