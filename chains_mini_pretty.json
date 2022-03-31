@@ -2911,6 +2911,19 @@
   "faucets": ["https://faucet.tanenbaum.io"],
   "infoURL": "https://syscoin.org"
 }, {
+  "name": "Digest Swarm Chain",
+  "chainId": 5777,
+  "shortName": "dgcc",
+  "networkId": 5777,
+  "nativeCurrency": {
+    "name": "DigestCoin",
+    "symbol": "DGCC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.digestgroup.ltd"],
+  "faucets": [],
+  "infoURL": "https://digestgroup.ltd"
+}, {
   "name": "Ontology Testnet",
   "chainId": 5851,
   "shortName": "Ontology Testnet",
