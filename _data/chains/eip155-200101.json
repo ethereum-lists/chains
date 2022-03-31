@@ -1,24 +1,25 @@
 {
-  "name": "Milkomeda Cardano Testnet",
-  "chain": "Milkomeda",
+  "name": "Milkomeda C1 Testnet",
+  "chain": "milkTAda",
   "icon": "milkomeda",
-  "network": "mainnet",
+  "network": "testnet",
   "rpc": [
-    "https://rpc-devnet-cardano-evm.c1.milkomeda.com"
+    "https://rpc-devnet-cardano-evm.c1.milkomeda.com",
+    "wss://rpc-devnet-cardano-evm.c1.milkomeda.com"
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "milkTADA",
-    "symbol": "milkTADA",
+    "name": "milkTAda",
+    "symbol": "milkTAda",
     "decimals": 18
   },
-  "infoURL": "https://www.milkomeda.com/",
-  "shortName": "milkomeda-c1-testnet",
+  "infoURL": "https://milkomeda.com",
+  "shortName": "milkTAda",
   "chainId": 200101,
   "networkId": 200101,
   "explorers": [
     {
-      "name": "blockscout",
+      "name": "Blockscout",
       "url": "https://explorer-devnet-cardano-evm.c1.milkomeda.com",
       "standard": "none"
     }
