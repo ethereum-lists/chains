@@ -4436,8 +4436,8 @@
   "name": "WAGMI",
   "chain": "WAGMI",
   "icon": "wagmi",
-  "rpc": ["https://api.trywagmi.xyz/rpc"],
-  "faucets": [],
+  "rpc": ["https://subnets.avax.network/wagmi/wagmi-chain-testnet/rpc"],
+  "faucets": ["https://faucet.trywagmi.xyz"],
   "nativeCurrency": {
     "name": "WAGMI",
     "symbol": "WGM",
@@ -4449,8 +4449,8 @@
   "networkId": 11111,
   "explorers": [{
     "name": "WAGMI Explorer",
-    "url": "https://trywagmi.xyz",
-    "standard": "none"
+    "url": "https://subnets.avax.network/wagmi/wagmi-chain-testnet/explorer",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Shyft Testnet",
