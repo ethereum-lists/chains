@@ -1,19 +1,20 @@
 {
-    "name": "AEROCHAIN TESTNET",
-    "chain": "AEROCHAIN",
+    "name": "Aerochain Testnet",
+    "chain": "Aerochain",
     "network": "testnet",
     "rpc": [
-      "https://trpc.aerochaincoin.org/",
-      "https://trpc.aerochain.id/"
+      "https://testnet-rpc.aerochain.id/" 
     ], 
-    "faucets": [],
+    "faucets": [
+      "https://faucet.aerochain.id/"
+    ],
     "nativeCurrency": {
-      "name": "AEROCHAIN",
-      "symbol": "ARC",
+      "name": "Aerochain Testnet",
+      "symbol": "TAero",
       "decimals": 18
     },
     "infoURL": "https://aerochaincoin.org/",
-    "shortName": "arc",
+    "shortName": "taero",
     "chainId": 788,
     "networkId": 788,
     "explorers": [{
