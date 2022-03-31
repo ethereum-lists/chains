@@ -1962,17 +1962,17 @@
   "faucets": [],
   "infoURL": "https://acala.network"
 }, {
-  "name": "AEROCHAIN TESTNET",
+  "name": "Aerochain Testnet",
   "chainId": 788,
-  "shortName": "arc",
+  "shortName": "taero",
   "networkId": 788,
   "nativeCurrency": {
-    "name": "AEROCHAIN",
-    "symbol": "ARC",
+    "name": "Aerochain Testnet",
+    "symbol": "TAero",
     "decimals": 18
   },
-  "rpc": ["https://trpc.aerochaincoin.org/", "https://trpc.aerochain.id/"],
-  "faucets": [],
+  "rpc": ["https://testnet-rpc.aerochain.id/"],
+  "faucets": ["https://faucet.aerochain.id/"],
   "infoURL": "https://aerochaincoin.org/"
 }, {
   "name": "Haic",
