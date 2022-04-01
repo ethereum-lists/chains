@@ -1351,6 +1351,19 @@
   "faucets": [],
   "infoURL": "https://explorer.lightstreams.io"
 }, {
+  "name": "AIOZ Network",
+  "chainId": 168,
+  "shortName": "aioz",
+  "networkId": 168,
+  "nativeCurrency": {
+    "name": "AIOZ",
+    "symbol": "AIOZ",
+    "decimals": 18
+  },
+  "rpc": ["https://eth-dataseed.aioz.network"],
+  "faucets": [],
+  "infoURL": "https://aioz.network"
+}, {
   "name": "HOO Smart Chain Testnet",
   "chainId": 170,
   "shortName": "hoosmartchain",
@@ -2832,6 +2845,19 @@
   "rpc": ["https://rpc.testnet.fantom.network"],
   "faucets": ["https://faucet.fantom.network"],
   "infoURL": "https://docs.fantom.foundation/quick-start/short-guide#fantom-testnet"
+}, {
+  "name": "AIOZ Network Testnet",
+  "chainId": 4102,
+  "shortName": "aioz-testnet",
+  "networkId": 4102,
+  "nativeCurrency": {
+    "name": "testAIOZ",
+    "symbol": "AIOZ",
+    "decimals": 18
+  },
+  "rpc": ["https://eth-ds.testnet.aioz.network"],
+  "faucets": [],
+  "infoURL": "https://aioz.network"
 }, {
   "name": "IoTeX Network Mainnet",
   "chainId": 4689,

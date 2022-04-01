@@ -1853,6 +1853,28 @@
   "chainId": 163,
   "networkId": 163
 }, {
+  "name": "AIOZ Network",
+  "chain": "AIOZ",
+  "network": "mainnet",
+  "icon": "aioz",
+  "rpc": ["https://eth-dataseed.aioz.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AIOZ",
+    "symbol": "AIOZ",
+    "decimals": 18
+  },
+  "infoURL": "https://aioz.network",
+  "shortName": "aioz",
+  "chainId": 168,
+  "networkId": 168,
+  "slip44": 60,
+  "explorers": [{
+    "name": "AIOZ Network Explorer",
+    "url": "https://explorer.aioz.network",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "HOO Smart Chain Testnet",
   "chain": "ETH",
   "rpc": ["https://http-testnet.hoosmartchain.com"],
@@ -3879,6 +3901,28 @@
     "name": "ftmscan",
     "url": "https://testnet.ftmscan.com",
     "icon": "ftmscan",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "AIOZ Network Testnet",
+  "chain": "AIOZ",
+  "network": "testnet",
+  "icon": "aioz",
+  "rpc": ["https://eth-ds.testnet.aioz.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "testAIOZ",
+    "symbol": "AIOZ",
+    "decimals": 18
+  },
+  "infoURL": "https://aioz.network",
+  "shortName": "aioz-testnet",
+  "chainId": 4102,
+  "networkId": 4102,
+  "slip44": 60,
+  "explorers": [{
+    "name": "AIOZ Network Testnet Explorer",
+    "url": "https://testnet.explorer.aioz.network",
     "standard": "EIP3091"
   }]
 }, {
