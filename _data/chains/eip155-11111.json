@@ -3,9 +3,11 @@
   "chain": "WAGMI",
   "icon": "wagmi",
   "rpc": [
-    "https://api.trywagmi.xyz/rpc"
+    "https://subnets.avax.network/wagmi/wagmi-chain-testnet/rpc"
   ],
-  "faucets": [],
+  "faucets": [
+    "https://faucet.trywagmi.xyz"
+  ],
   "nativeCurrency": {
     "name": "WAGMI",
     "symbol": "WGM",
@@ -18,8 +20,8 @@
   "explorers": [
     {
       "name": "WAGMI Explorer",
-      "url": "https://trywagmi.xyz",
-      "standard": "none"
+      "url": "https://subnets.avax.network/wagmi/wagmi-chain-testnet/explorer",
+      "standard": "EIP3091"
     }
   ]
 }
