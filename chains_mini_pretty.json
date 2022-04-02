@@ -4172,19 +4172,6 @@
   "faucets": ["https://faucet.alaya.network/faucet/?id=f93426c0887f11eb83b900163e06151c"],
   "infoURL": "https://www.alaya.network/"
 }, {
-  "name": "PlatON Dev Testnet",
-  "chainId": 210309,
-  "shortName": "platondev",
-  "networkId": 1,
-  "nativeCurrency": {
-    "name": "LAT",
-    "symbol": "lat",
-    "decimals": 18
-  },
-  "rpc": ["https://devnetopenapi.platon.network/rpc", "wss://devnetopenapi.platon.network/ws"],
-  "faucets": ["https://faucet.platon.network/faucet/?id=e5d32df10aee11ec911142010a667c03"],
-  "infoURL": "https://www.platon.network"
-}, {
   "name": "PlatON Mainnet",
   "chainId": 210425,
   "shortName": "platon",
@@ -4379,6 +4366,19 @@
   "rpc": ["https://rpc.kintsugi.themerge.dev"],
   "faucets": ["http://fauceth.komputing.org?chain=1337702&address=${ADDRESS}", "https://faucet.kintsugi.themerge.dev"],
   "infoURL": "https://kintsugi.themerge.dev/"
+}, {
+  "name": "PlatON Dev Testnet",
+  "chainId": 2203181,
+  "shortName": "platondev",
+  "networkId": 1,
+  "nativeCurrency": {
+    "name": "LAT",
+    "symbol": "lat",
+    "decimals": 18
+  },
+  "rpc": ["https://devnetopenapi.platon.network/rpc", "wss://devnetopenapi.platon.network/ws"],
+  "faucets": ["https://faucet.platon.network/faucet/?id=e5d32df10aee11ec911142010a667c03"],
+  "infoURL": "https://www.platon.network"
 }, {
   "name": "Musicoin",
   "chainId": 7762959,
