@@ -1,0 +1,27 @@
+{
+  "name": "radiofixer net",
+  "chain": "radio",
+  "icon": "radiofixer",
+  "network": "mainnet",
+  "rpc": [
+    "https://rpc-radiofixer.github.io",
+    "wss://rpc-radiofixer.github.io"
+  ],
+  "faucets": [faucets.radiofixer.github.io],
+  "nativeCurrency": {
+    "name": "radiofixer",
+    "symbol": "RAF",
+    "decimals": 18
+  },
+  "infoURL": "https://radiofixer.github.io/",
+  "shortName": "radiofixer",
+  "chainId": 202242,
+  "networkId": 202242,
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://explorer.radiofixer.github.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
