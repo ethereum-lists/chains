@@ -5,6 +5,7 @@
   "rpc": [
   ],
   "faucets": [
+    "http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"
   ],
   "nativeCurrency": {
     "name": "Sepolia Ether",
