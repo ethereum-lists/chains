@@ -4403,7 +4403,7 @@
     "decimals": 18
   },
   "rpc": [],
-  "faucets": [],
+  "faucets": ["http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"],
   "infoURL": "https://sepolia.otterscan.io"
 }, {
   "name": "PepChain Churchill",
