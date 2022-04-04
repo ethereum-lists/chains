@@ -2209,6 +2209,19 @@
   "faucets": [],
   "infoURL": "https://www.newtonproject.org/"
 }, {
+  "name": "Eurus Mainnet",
+  "chainId": 1008,
+  "shortName": "eun",
+  "networkId": 1008,
+  "nativeCurrency": {
+    "name": "Eurus",
+    "symbol": "EUN",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.eurus.network/"],
+  "faucets": [],
+  "infoURL": "https://eurus.network"
+}, {
   "name": "Evrice Network",
   "chainId": 1010,
   "shortName": "EVC",
