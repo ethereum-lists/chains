@@ -1,6 +1,6 @@
 {
   "name": "Optimism on Gnosis Chain",
-  "chain": "OoG",
+  "chain": "OGC",
   "rpc": [
     "https://optimism.gnosischain.com",
     "wss://optimism.gnosischain.com/wss"
@@ -12,7 +12,7 @@
     "decimals": 18
   },
   "infoURL": "https://www.xdaichain.com/for-developers/optimism-optimistic-rollups-on-gc",
-  "shortName": "oog",
+  "shortName": "ogc",
   "chainId": 300,
   "networkId": 300,
   "explorers": [{
