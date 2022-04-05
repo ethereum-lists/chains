@@ -1611,6 +1611,19 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "Optimism on Gnosis Chain",
+  "chainId": 300,
+  "shortName": "ogc",
+  "networkId": 300,
+  "nativeCurrency": {
+    "name": "xDAI",
+    "symbol": "xDAI",
+    "decimals": 18
+  },
+  "rpc": ["https://optimism.gnosischain.com", "wss://optimism.gnosischain.com/wss"],
+  "faucets": ["https://faucet.gimlu.com/gnosis"],
+  "infoURL": "https://www.xdaichain.com/for-developers/optimism-optimistic-rollups-on-gc"
+}, {
   "name": "KCC Mainnet",
   "chainId": 321,
   "shortName": "kcs",
