@@ -2599,6 +2599,19 @@
   "faucets": [],
   "infoURL": "https://boyanet.org"
 }, {
+  "name": "Eurus Testnet",
+  "chainId": 1984,
+  "shortName": "euntest",
+  "networkId": 1984,
+  "nativeCurrency": {
+    "name": "Eurus",
+    "symbol": "EUN",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.eurus.network"],
+  "faucets": [],
+  "infoURL": "https://eurus.network"
+}, {
   "name": "EtherGem",
   "chainId": 1987,
   "shortName": "egem",
