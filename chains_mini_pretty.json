@@ -2508,16 +2508,16 @@
   "faucets": [],
   "infoURL": "https://docs.moonbeam.network/learn/platform/networks/overview/"
 }, {
-  "name": "CENNZnet Azalea",
+  "name": "CENNZnet old",
   "chainId": 1337,
-  "shortName": "cennz-a",
+  "shortName": "cennz-old",
   "networkId": 1337,
   "nativeCurrency": {
     "name": "CPAY",
     "symbol": "CPAY",
     "decimals": 18
   },
-  "rpc": ["https://cennznet.unfrastructure.io/public"],
+  "rpc": [],
   "faucets": [],
   "infoURL": "https://cennz.net"
 }, {
@@ -3417,6 +3417,19 @@
   "rpc": ["https://seed.btcix.org/rpc"],
   "faucets": [],
   "infoURL": "https://bitcolojix.org"
+}, {
+  "name": "CENNZnet Azalea",
+  "chainId": 21337,
+  "shortName": "cennz-a",
+  "networkId": 21337,
+  "nativeCurrency": {
+    "name": "CPAY",
+    "symbol": "CPAY",
+    "decimals": 18
+  },
+  "rpc": ["https://cennznet.unfrastructure.io/public"],
+  "faucets": [],
+  "infoURL": "https://cennz.net"
 }, {
   "name": "omChain Mainnet",
   "chainId": 21816,

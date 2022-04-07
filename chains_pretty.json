@@ -3444,10 +3444,9 @@
   "chainId": 1288,
   "networkId": 1288
 }, {
-  "name": "CENNZnet Azalea",
+  "name": "CENNZnet old",
   "chain": "CENNZnet",
-  "network": "azalea",
-  "rpc": ["https://cennznet.unfrastructure.io/public"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "CPAY",
@@ -3455,15 +3454,10 @@
     "decimals": 18
   },
   "infoURL": "https://cennz.net",
-  "shortName": "cennz-a",
+  "shortName": "cennz-old",
   "chainId": 1337,
   "networkId": 1337,
-  "icon": "cennz",
-  "explorers": [{
-    "name": "UNcover",
-    "url": "https://uncoverexplorer.com",
-    "standard": "none"
-  }]
+  "deprecated": true
 }, {
   "name": "Catecoin Chain Mainnet",
   "chain": "Catechain",
@@ -4725,6 +4719,27 @@
   "explorers": [{
     "name": "BTCIXScan",
     "url": "https://btcixscan.com",
+    "standard": "none"
+  }]
+}, {
+  "name": "CENNZnet Azalea",
+  "chain": "CENNZnet",
+  "network": "azalea",
+  "rpc": ["https://cennznet.unfrastructure.io/public"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CPAY",
+    "symbol": "CPAY",
+    "decimals": 18
+  },
+  "infoURL": "https://cennz.net",
+  "shortName": "cennz-a",
+  "chainId": 21337,
+  "networkId": 21337,
+  "icon": "cennz",
+  "explorers": [{
+    "name": "UNcover",
+    "url": "https://uncoverexplorer.com",
     "standard": "none"
   }]
 }, {
