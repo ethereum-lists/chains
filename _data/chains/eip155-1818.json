@@ -1,0 +1,24 @@
+{
+  "name": "Cube Chain Mainnet",
+  "chain": "Cube",
+  "rpc": [
+    "https://http-mainnet.cube.network",
+    "wss://ws-mainnet.cube.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Cube Chain Native Token",
+    "symbol": "CUBE",
+    "decimals": 18
+  },
+  "infoURL": "https://www.cube.network",
+  "shortName": "cube",
+  "chainId": 1818,
+  "networkId": 1818,
+  "slip44": 1818,
+  "explorers": [{
+    "name": "cubescan",
+    "url": "https://scan.cube.network",
+    "standard": "EIP3091"
+  }]
+}
