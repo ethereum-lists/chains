@@ -1,10 +1,7 @@
 {
-  "name": "CENNZnet Azalea",
+  "name": "CENNZnet old",
   "chain": "CENNZnet",
-  "network": "azalea",
-  "rpc": [
-    "https://cennznet.unfrastructure.io/public"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "CPAY",
@@ -12,16 +9,8 @@
     "decimals": 18
   },
   "infoURL": "https://cennz.net",
-  "shortName": "cennz-a",
+  "shortName": "cennz-old",
   "chainId": 1337,
   "networkId": 1337,
-  "icon": "cennz",
-  "explorers": [
-    {
-      "name": "UNcover",
-      "url": "https://uncoverexplorer.com",
-      "standard": "none"
-    }
-  ],
   "deprecated": true
 }
