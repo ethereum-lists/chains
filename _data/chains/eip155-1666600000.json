@@ -2,7 +2,8 @@
   "name": "Harmony Mainnet Shard 0",
   "chain": "Harmony",
   "rpc": [
-    "https://api.harmony.one"
+    "https://api.harmony.one",
+    "https://api.s0.t.hmny.io"
   ],
   "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "nativeCurrency": {
