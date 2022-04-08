@@ -656,9 +656,9 @@
   "nativeCurrency": {
     "name": "ONG",
     "symbol": "ONG",
-    "decimals": 9
+    "decimals": 18
   },
-  "rpc": ["https://dappnode1.ont.io:20339", "https://dappnode2.ont.io:20339", "https://dappnode3.ont.io:20339", "https://dappnode4.ont.io:20339"],
+  "rpc": ["http://dappnode1.ont.io:20339", "http://dappnode2.ont.io:20339", "http://dappnode3.ont.io:20339", "http://dappnode4.ont.io:20339", "https://dappnode1.ont.io:10339", "https://dappnode2.ont.io:10339", "https://dappnode3.ont.io:10339", "https://dappnode4.ont.io:10339"],
   "faucets": [],
   "infoURL": "https://ont.io/"
 }, {
@@ -3035,9 +3035,9 @@
   "nativeCurrency": {
     "name": "ONG",
     "symbol": "ONG",
-    "decimals": 9
+    "decimals": 18
   },
-  "rpc": ["https://polaris1.ont.io:20339", "https://polaris2.ont.io:20339", "https://polaris3.ont.io:20339", "https://polaris4.ont.io:20339"],
+  "rpc": ["http://polaris1.ont.io:20339", "http://polaris2.ont.io:20339", "http://polaris3.ont.io:20339", "http://polaris4.ont.io:20339", "https://polaris1.ont.io:10339", "https://polaris2.ont.io:10339", "https://polaris3.ont.io:10339", "https://polaris4.ont.io:10339"],
   "faucets": ["https://developer.ont.io/"],
   "infoURL": "https://ont.io/"
 }, {
