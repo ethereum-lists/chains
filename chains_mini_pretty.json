@@ -4714,7 +4714,7 @@
     "symbol": "ONE",
     "decimals": 18
   },
-  "rpc": ["https://api.harmony.one"],
+  "rpc": ["https://api.harmony.one", "https://api.s0.t.hmny.io"],
   "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "infoURL": "https://www.harmony.one/"
 }, {
@@ -4727,7 +4727,7 @@
     "symbol": "ONE",
     "decimals": 18
   },
-  "rpc": ["https://s1.api.harmony.one"],
+  "rpc": ["https://api.s1.t.hmny.io"],
   "faucets": [],
   "infoURL": "https://www.harmony.one/"
 }, {
@@ -4740,7 +4740,7 @@
     "symbol": "ONE",
     "decimals": 18
   },
-  "rpc": ["https://s2.api.harmony.one"],
+  "rpc": ["https://api.s2.t.hmny.io"],
   "faucets": [],
   "infoURL": "https://www.harmony.one/"
 }, {
@@ -4753,7 +4753,7 @@
     "symbol": "ONE",
     "decimals": 18
   },
-  "rpc": ["https://s3.api.harmony.one"],
+  "rpc": ["https://api.s3.t.hmny.io"],
   "faucets": [],
   "infoURL": "https://www.harmony.one/"
 }, {
