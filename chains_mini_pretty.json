@@ -870,6 +870,19 @@
   "faucets": [],
   "infoURL": "https://primusmoney.com"
 }, {
+  "name": "Zenith Mainnet",
+  "chainId": 79,
+  "shortName": "zenith",
+  "networkId": 79,
+  "nativeCurrency": {
+    "name": "ZENITH",
+    "symbol": "ZENITH",
+    "decimals": 18
+  },
+  "rpc": ["https://dataserver-1.zenithchain.co/", "https://dataserver-us-1.zenithchain.co/"],
+  "faucets": [],
+  "infoURL": "https://www.zenithchain.co/"
+}, {
   "name": "GeneChain",
   "chainId": 80,
   "shortName": "GeneChain",
@@ -882,6 +895,19 @@
   "rpc": ["https://rpc.genechain.io"],
   "faucets": [],
   "infoURL": "https://scan.genechain.io/"
+}, {
+  "name": "Zenith Testnet",
+  "chainId": 81,
+  "shortName": "tzenith",
+  "networkId": 81,
+  "nativeCurrency": {
+    "name": "test ZENITH",
+    "symbol": "tZENITH",
+    "decimals": 18
+  },
+  "rpc": ["https://vilinius.zenithchain.co/http"],
+  "faucets": ["https://faucet.zenithchain.co/"],
+  "infoURL": "https://www.zenithchain.co/"
 }, {
   "name": "Meter Mainnet",
   "chainId": 82,

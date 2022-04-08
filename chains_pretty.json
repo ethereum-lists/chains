@@ -1173,6 +1173,25 @@
   "chainId": 78,
   "networkId": 78
 }, {
+  "name": "Zenith Mainnet",
+  "chain": "Zenith Mainnet",
+  "rpc": ["https://dataserver-1.zenithchain.co/", "https://dataserver-us-1.zenithchain.co/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ZENITH",
+    "symbol": "ZENITH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.zenithchain.co/",
+  "chainId": 79,
+  "networkId": 79,
+  "shortName": "zenith",
+  "explorers": [{
+    "name": "zenith scan",
+    "url": "https://scan.zenithchain.co",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "GeneChain",
   "chain": "GeneChain",
   "rpc": ["https://rpc.genechain.io"],
@@ -1189,6 +1208,25 @@
   "explorers": [{
     "name": "GeneChain Scan",
     "url": "https://scan.genechain.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Zenith Testnet",
+  "chain": "Zenith Testnet",
+  "rpc": ["https://vilinius.zenithchain.co/http"],
+  "faucets": ["https://faucet.zenithchain.co/"],
+  "nativeCurrency": {
+    "name": "test ZENITH",
+    "symbol": "tZENITH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.zenithchain.co/",
+  "chainId": 81,
+  "networkId": 81,
+  "shortName": "tzenith",
+  "explorers": [{
+    "name": "villinius zenith scan",
+    "url": "https://vilinius.scan.zenithchain.co",
     "standard": "EIP3091"
   }]
 }, {
