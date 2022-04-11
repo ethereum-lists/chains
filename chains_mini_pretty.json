@@ -1949,6 +1949,19 @@
   "faucets": [],
   "infoURL": "https://karura.network"
 }, {
+  "name": "Star Social Testnet",
+  "chainId": 700,
+  "shortName": "SNS",
+  "networkId": 700,
+  "nativeCurrency": {
+    "name": "Social",
+    "symbol": "SNS",
+    "decimals": 18
+  },
+  "rpc": ["https://avastar.cc/ext/bc/C/rpc"],
+  "faucets": [],
+  "infoURL": "https://info.avastar.cc"
+}, {
   "name": "BlockChain Station Mainnet",
   "chainId": 707,
   "shortName": "bcs",
