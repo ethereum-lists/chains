@@ -4,8 +4,8 @@
   "icon": "radiofixer",
   "network": "mainnet",
   "rpc": [
-    "https://rpc-radiofixer.github.io",
-    "wss://rpc-radiofixer.github.io"
+    "http://rpc.radiofixer.xyz:8545",
+    "wss://rpc.radiofixer.xyz:8546",
   ],
   "faucets": ["faucets.radiofixer.github.io"],
   "nativeCurrency": {
@@ -20,7 +20,7 @@
   "explorers": [
     {
       "name": "Blockscout",
-      "url": "https://explorer.radiofixer.github.io",
+      "url": "http://explorer.radiofixer.xyz",
       "standard": "EIP3091"
     }
   ]
