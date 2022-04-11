@@ -171,6 +171,29 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
         }
     }
 
+    jsonObject["nativeCurrency"]?.let {
+        if (it !is JsonObject) {
+            throw NativeCurrencyMustBeObject()
+        }
+        val symbol = it["symbol"]
+        if (symbol !is String) {
+            throw NativeCurrencySymbolMustBeString()
+        }
+
+        if (symbol.length >= 7) {
+            throw NativeCurrencySymbolMustHaveLessThan7Chars()
+        }
+        if (it.keys != setOf("symbol","decimals","name")) {
+            throw NativeCurrencyCanOnlyHaveSymbolNameAndDecimals()
+        }
+        if (it["decimals"] !is Int) {
+            throw NativeCurrencyDecimalMustBeInt()
+        }
+        if (it["name"] !is String) {
+            throw NativeCurrencyNameMustBeString()
+        }
+    }
+
     jsonObject["explorers"]?.let {
         if (it !is JsonArray<*>) {
             throw (ExplorersMustBeArray())
