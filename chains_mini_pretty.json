@@ -896,13 +896,13 @@
   "faucets": [],
   "infoURL": "https://scan.genechain.io/"
 }, {
-  "name": "Zenith Testnet",
+  "name": "Villinius",
   "chainId": 81,
-  "shortName": "tzenith",
+  "shortName": "VIL",
   "networkId": 81,
   "nativeCurrency": {
-    "name": "test ZENITH",
-    "symbol": "tZENITH",
+    "name": "Villinius",
+    "symbol": "VIL",
     "decimals": 18
   },
   "rpc": ["https://vilinius.zenithchain.co/http"],
