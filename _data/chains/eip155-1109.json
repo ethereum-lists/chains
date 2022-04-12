@@ -1,0 +1,23 @@
+{
+  "name": "Ambrosus",
+  "chain": "AMB-NET",
+  "rpc": ["https://network.ambrosus.io"],
+  "nativeCurrency": {
+    "name": "Ambrosus",
+    "symbol": "AMB",
+    "decimals": 18
+  },
+  "infoURL": "https://ambrosus.io",
+  "shortName": "amb",
+  "chainId": 30741,
+  "networkId": 30741,
+  "icon": "ambrosus",
+  "explorers": [
+    {
+      "name": "Ambrosus",
+      "url": "https://explorer.ambrosus.io/",
+      "icon": "ambrosus",
+      "standard": ""
+    }
+  ]
+}
