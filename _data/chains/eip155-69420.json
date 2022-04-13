@@ -2,7 +2,9 @@
   "name": "Condrieu",
   "title": "Ethereum Verkle Testnet Condrieu",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+     "https://rpc.condrieu.ethdevops.io:8545"
+  ],
   "faucets": [
     "https://faucet.condrieu.ethdevops.io"
   ],
@@ -15,5 +17,7 @@
   "shortName": "cndr",
   "chainId": 69420,
   "networkId": 69420,
-  "explorers": []
+  "explorers": [
+     "https://explorer.condrieu.ethdevops.io"
+  ]
 }
