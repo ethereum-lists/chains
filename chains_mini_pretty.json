@@ -2755,6 +2755,32 @@
   "faucets": [],
   "infoURL": "https://ecoball.org"
 }, {
+  "name": "Findora Mainnet",
+  "chainId": 2152,
+  "shortName": "fra",
+  "networkId": 2152,
+  "nativeCurrency": {
+    "name": "FRA",
+    "symbol": "FRA",
+    "decimals": 18
+  },
+  "rpc": ["https://prod-mainnet.prod.findora.org:8545"],
+  "faucets": [],
+  "infoURL": "https://findora.org/"
+}, {
+  "name": "Findora Testnet",
+  "chainId": 2153,
+  "shortName": "findora-testnet",
+  "networkId": 2153,
+  "nativeCurrency": {
+    "name": "FRA",
+    "symbol": "FRA",
+    "decimals": 18
+  },
+  "rpc": ["https://prod-testnet.prod.findora.org:8545/"],
+  "faucets": [],
+  "infoURL": "https://findora.org/"
+}, {
   "name": "Evanesco Mainnet",
   "chainId": 2213,
   "shortName": "evanesco",
