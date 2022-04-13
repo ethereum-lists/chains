@@ -2,7 +2,10 @@
   "name": "BON Network",
   "chain": "BON",
   "network": "testnet",
-  "rpc": ["http://8.210.150.70:8545"],
+  "rpc": [
+    "http://rpc.boyanet.org:8545",
+    "ws://rpc.boyanet.org:8546"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BOYACoin",
