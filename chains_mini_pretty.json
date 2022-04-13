@@ -3873,6 +3873,19 @@
   "faucets": ["https://faucet.tst.ecredits.com"],
   "infoURL": "https://ecredits.com"
 }, {
+  "name": "Condrieu",
+  "chainId": 69420,
+  "shortName": "cndr",
+  "networkId": 69420,
+  "nativeCurrency": {
+    "name": "Condrieu Testnet Ether",
+    "symbol": "CTE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.condrieu.ethdevops.io:8545"],
+  "faucets": ["https://faucet.condrieu.ethdevops.io"],
+  "infoURL": "https://condrieu.ethdevops.io"
+}, {
   "name": "Thinkium Mainnet Chain 0",
   "chainId": 70000,
   "shortName": "TKM0",
