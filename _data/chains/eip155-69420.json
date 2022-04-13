@@ -18,6 +18,8 @@
   "chainId": 69420,
   "networkId": 69420,
   "explorers": [
-     "https://explorer.condrieu.ethdevops.io"
+     "name": "Condrieu explorer",
+     "https://explorer.condrieu.ethdevops.io",
+     "standard": "none"
   ]
 }
