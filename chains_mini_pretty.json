@@ -2326,18 +2326,18 @@
   "faucets": [],
   "infoURL": "https://clover.finance"
 }, {
-  "name": "Clover Mainnet",
+  "name": "CLV Parachain",
   "chainId": 1024,
   "shortName": "clv",
   "networkId": 1024,
   "nativeCurrency": {
-    "name": "Clover",
+    "name": "CLV",
     "symbol": "CLV",
     "decimals": 18
   },
-  "rpc": ["https://rpc-ivy.clover.finance", "https://rpc-ivy-2.clover.finance", "https://rpc-ivy-3.clover.finance"],
+  "rpc": ["https://api-para.clover.finance"],
   "faucets": [],
-  "infoURL": "https://clover.finance"
+  "infoURL": "https://clv.org"
 }, {
   "name": "BitTorrent Chain Testnet",
   "chainId": 1028,
