@@ -1,0 +1,23 @@
+{
+    "name": "Villinius",
+    "chain": "Zenith",
+    "rpc": [
+      "https://vilinius.zenithchain.co/http"
+    ],
+    "faucets": ["https://faucet.zenithchain.co/"],
+    "nativeCurrency": {
+      "name": "Villinius",
+      "symbol": "VIL",
+      "decimals": 18
+    },
+    "infoURL": "https://www.zenithchain.co/",
+    "chainId": 81,
+    "networkId": 81,
+    "shortName": "VIL",
+    "explorers": [{
+      "name": "villinius zenith scan",
+      "url": "https://vilinius.scan.zenithchain.co",
+      "standard": "EIP3091"
+    }]
+  }
+  

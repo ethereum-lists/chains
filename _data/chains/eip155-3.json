@@ -2,6 +2,7 @@
   "name": "Ropsten",
   "title": "Ethereum Testnet Ropsten",
   "chain": "ETH",
+  "network": "testnet",
   "rpc": [
     "https://ropsten.infura.io/v3/${INFURA_API_KEY}",
     "wss://ropsten.infura.io/ws/v3/${INFURA_API_KEY}"
