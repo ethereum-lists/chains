@@ -1,6 +1,7 @@
 {
   "name": "Piece testnet",
   "chain": "PieceNetwork",
+  "icon": "piecechain",
   "rpc": ["https://testnet-rpc0.piecenetwork.com"],
   "faucets": ["https://piecenetwork.com/faucet"],
   "nativeCurrency": {
