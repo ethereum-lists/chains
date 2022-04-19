@@ -2807,6 +2807,19 @@
   "faucets": ["https://faucet.kava.io"],
   "infoURL": "https://www.kava.io"
 }, {
+  "name": "VChain Mainnet",
+  "chainId": 2223,
+  "shortName": "VChain",
+  "networkId": 2223,
+  "nativeCurrency": {
+    "name": "VNDT",
+    "symbol": "VNDT",
+    "decimals": 18
+  },
+  "rpc": ["https://bc.vcex.xyz"],
+  "faucets": [],
+  "infoURL": "https://bo.vcex.xyz/"
+}, {
   "name": "Kortho Mainnet",
   "chainId": 2559,
   "shortName": "ktoc",
