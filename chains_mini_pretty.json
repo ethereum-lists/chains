@@ -3054,6 +3054,32 @@
   "faucets": [],
   "infoURL": "https://uzmigames.com.br/"
 }, {
+  "name": "Nahmii Mainnet",
+  "chainId": 5551,
+  "shortName": "Nahmii",
+  "networkId": 5551,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://l2.nahmii.io"],
+  "faucets": [],
+  "infoURL": "https://nahmii.io"
+}, {
+  "name": "Nahmii Testnet",
+  "chainId": 5553,
+  "shortName": "Nahmii testnet",
+  "networkId": 5553,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://l2.testnet.nahmii.io"],
+  "faucets": [],
+  "infoURL": "https://nahmii.io"
+}, {
   "name": "Syscoin Tanenbaum Testnet",
   "chainId": 5700,
   "shortName": "tsys",

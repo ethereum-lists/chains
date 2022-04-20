@@ -4205,6 +4205,64 @@
   "chainId": 5315,
   "networkId": 5315
 }, {
+  "name": "Nahmii Mainnet",
+  "chain": "Nahmii",
+  "network": "mainnet",
+  "rpc": ["https://l2.nahmii.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://nahmii.io",
+  "shortName": "Nahmii",
+  "chainId": 5551,
+  "networkId": 5551,
+  "icon": "nahmii",
+  "explorers": [{
+    "name": "Nahmii mainnet explorer",
+    "url": "https://explorer.nahmii.io",
+    "icon": "nahmii",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://bridge.nahmii.io"
+    }]
+  }
+}, {
+  "name": "Nahmii Testnet",
+  "chain": "Nahmii",
+  "network": "testnet",
+  "rpc": ["https://l2.testnet.nahmii.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://nahmii.io",
+  "shortName": "Nahmii testnet",
+  "chainId": 5553,
+  "networkId": 5553,
+  "icon": "nahmii",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.testnet.nahmii.io",
+    "icon": "nahmii",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-3",
+    "bridges": [{
+      "url": "https://bridge.nahmii.io"
+    }]
+  }
+}, {
   "name": "Syscoin Tanenbaum Testnet",
   "chain": "SYS",
   "rpc": ["https://rpc.tanenbaum.io", "wss://rpc.tanenbaum.io/wss"],
