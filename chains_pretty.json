@@ -6478,6 +6478,25 @@
   "chainId": 18289463,
   "networkId": 18289463
 }, {
+  "name": "SmartMesh Mainnet",
+  "chain": "Spectrum",
+  "rpc": ["https://jsonapi1.smartmesh.cn"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SmartMesh Native Token",
+    "symbol": "SMT",
+    "decimals": 18
+  },
+  "infoURL": "https://smartmesh.io",
+  "shortName": "spectrum",
+  "chainId": 20180430,
+  "networkId": 1,
+  "explorers": [{
+    "name": "spectrum",
+    "url": "https://spectrum.pub",
+    "standard": "none"
+  }]
+}, {
   "name": "quarkblockchain",
   "chain": "QKI",
   "rpc": ["https://hz.rpc.qkiscan.cn", "https://jp.rpc.qkiscan.io"],

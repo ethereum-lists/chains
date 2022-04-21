@@ -4614,6 +4614,19 @@
   "faucets": [],
   "infoURL": "https://iolite.io"
 }, {
+  "name": "SmartMesh Mainnet",
+  "chainId": 20180430,
+  "shortName": "spectrum",
+  "networkId": 1,
+  "nativeCurrency": {
+    "name": "SmartMesh Native Token",
+    "symbol": "SMT",
+    "decimals": 18
+  },
+  "rpc": ["https://jsonapi1.smartmesh.cn"],
+  "faucets": [],
+  "infoURL": "https://smartmesh.io"
+}, {
   "name": "quarkblockchain",
   "chainId": 20181205,
   "shortName": "qki",
