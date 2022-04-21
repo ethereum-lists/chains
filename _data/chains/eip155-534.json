@@ -1,28 +1,24 @@
 {
-    "name": "Polygon Mainnet",
-    "chain": "Polygon",
+    "name": "Candle Mainnet",
+    "chain": "Candle",
     "rpc": [
-        "https://polygon-rpc.com/",
-        "https://rpc-mainnet.matic.network",
-        "https://matic-mainnet.chainstacklabs.com",
-        "https://rpc-mainnet.maticvigil.com",
-        "https://rpc-mainnet.matic.quiknode.pro",
-        "https://matic-mainnet-full-rpc.bwarelabs.com"
+        "https://candle-rpc.com/",
+        "https://rpc.cndlchain.com",
     ],
     "faucets": [],
     "nativeCurrency": {
-        "name": "MATIC",
-        "symbol": "MATIC",
+        "name": "CANDLE",
+        "symbol": "CNDL",
         "decimals": 18
     },
-    "infoURL": "https://polygon.technology/",
-    "shortName": "MATIC",
-    "chainId": 137,
-    "networkId": 137,
-    "slip44": 966,
+    "infoURL": "https://candlelabs.org/",
+    "shortName": "CNDL",
+    "chainId": 534,
+    "networkId": 534,
+    "slip44": 674,
     "explorers": [{
-        "name": "polygonscan",
-        "url": "https://polygonscan.com",
+        "name": "candlescan",
+        "url": "https://cndlchain.com",
         "standard": "EIP3091"
     }]
 }
