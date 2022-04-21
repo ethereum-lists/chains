@@ -1,0 +1,25 @@
+{
+    "name": "Taiko Mainnet",
+    "chain": "ETH",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://taikocha.in/",
+    "shortName": "taiko",
+    "chainId": 500,
+    "networkId": 500,
+    "explorers": [{
+      "name": "taikoscan",
+      "url": "https://taikoscan.io",
+      "standard": "EIP3091"
+    }],
+    "parent": {
+        "type" : "L2",
+        "chain": "eip155-1",
+        "bridges": [ {"url":"https://bridge.taikoscan.io"} ]
+    }
+  }

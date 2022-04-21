@@ -1,0 +1,25 @@
+{
+    "name": "Taiko Goerli Testnet",
+    "chain": "ETH",
+    "rpc": [],
+    "faucets": ["https://faucet.taikocha.in"],
+    "nativeCurrency": {
+      "name": "Goerli Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://taikocha.in/",
+    "shortName": "taiko-goerli",
+    "chainId": 50002,
+    "networkId": 50002,
+    "explorers": [{
+      "name": "taikoscan",
+      "url": "https://taikoscan.io",
+      "standard": "EIP3091"
+    }],
+    "parent": {
+        "type" : "L2",
+        "chain": "eip155-420",
+        "bridges": [ {"url":"https://bridge.goerli.taikoscan.io"} ]
+    }
+  }
