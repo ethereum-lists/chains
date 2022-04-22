@@ -3,8 +3,7 @@
     "chain": "voltium",
     "network": "mainnet",
     "rpc": [
-      "https://10002-cs-554083353705-default.cs-europe-west1-onse.cloudshell.dev/?authuser=0",
-      "https://10002-cs-554083353705-default.cs-europe-west1-onse.cloudshell.dev/?authuser=0"
+      "https://voltiumcluster.com/rpc"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -18,9 +17,9 @@
     "networkId": 103,
     "icon": "ethereum",
     "explorers": [{
-      "name": "etherscan",
-      "url": "https://vltmscan.com",
-      "icon": "vltmscan",
+      "name": "Voltium Explorer",
+      "url": "http://voltiumexplorer.com:3000",
+      "icon": "https://voltiumcorporation.com/images/logo-default-244x117.png",
       "standard": "EIP3091"
     }]
-  }
+  } 
