@@ -805,6 +805,19 @@
   "faucets": ["http://fauceth.komputing.org?chain=69&address=${ADDRESS}"],
   "infoURL": "https://optimism.io"
 }, {
+  "name": "Hoo Smart Chain",
+  "chainId": 70,
+  "shortName": "hsc",
+  "networkId": 70,
+  "nativeCurrency": {
+    "name": "Hoo Smart Chain Native Token",
+    "symbol": "HOO",
+    "decimals": 18
+  },
+  "rpc": ["https://http-mainnet.hoosmartchain.com", "https://http-mainnet2.hoosmartchain.com", "wss://ws-mainnet.hoosmartchain.com", "wss://ws-mainnet2.hoosmartchain.com"],
+  "faucets": [],
+  "infoURL": "https://www.hoosmartchain.com"
+}, {
   "name": "Conflux eSpace (Testnet)",
   "chainId": 71,
   "shortName": "cfxtest",
