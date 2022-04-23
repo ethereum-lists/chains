@@ -1,0 +1,25 @@
+{
+    "name": "Shibnobi",
+    "chain": "SHINJA",
+    "network": "mainnet",
+    "rpc": [
+      "https://shinja.com/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Shibnobi Blockchain",
+      "symbol": "SHINJA",
+      "decimals": 9
+    },
+    "infoURL": "https://shibnobi.com/",
+    "shortName": "SHINJA",
+    "chainId": 774,
+    "networkId": 774,
+    "icon": "https://shibnobi.com/images/favicon.png",
+    "explorers": [{
+      "name": "shinjascan",
+      "url": "https://shinjascan.com/",
+      "icon": "https://shibnobi.com/images/favicon.png",
+      "standard": "EIP3091"
+    }]
+  }
