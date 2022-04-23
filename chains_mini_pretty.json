@@ -4471,6 +4471,19 @@
   "faucets": ["https://faucet.weelink.gw002.oneitfarm.com"],
   "infoURL": "https://weelink.cloud"
 }, {
+  "name": "CMP-Testnet",
+  "chainId": 512512,
+  "shortName": "cmp",
+  "networkId": 512512,
+  "nativeCurrency": {
+    "name": "Caduceus Testnet Token",
+    "symbol": "CMP",
+    "decimals": 18
+  },
+  "rpc": ["https://galaxy.block.caduceus.foundation", "wss://galaxy.block.caduceus.foundation"],
+  "faucets": ["https://dev.caduceus.foundation/testNetwork"],
+  "infoURL": "https://caduceus.foundation/"
+}, {
   "name": "Vision - Vpioneer Test Chain",
   "chainId": 666666,
   "shortName": "vpioneer",
