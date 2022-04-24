@@ -3912,6 +3912,19 @@
   "faucets": ["https://docs.google.com/forms/d/e/1FAIpQLSdfr1BwUTYepVmmvfVUDRCwALejZ-TUva2YujNpvrEmPAX2pg/viewform", "https://cauldron.pretoriaresearchlab.io/baklava-faucet"],
   "infoURL": "https://docs.celo.org/"
 }, {
+  "name": "MultiVAC Mainnet",
+  "chainId": 62621,
+  "shortName": "mtv",
+  "networkId": 62621,
+  "nativeCurrency": {
+    "name": "MultiVAC",
+    "symbol": "MTV",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mtv.ac", "https://rpc-eu.mtv.ac"],
+  "faucets": [],
+  "infoURL": "https://mtv.ac"
+}, {
   "name": "eCredits Mainnet",
   "chainId": 63000,
   "shortName": "ecs",
