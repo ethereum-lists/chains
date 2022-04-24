@@ -2846,6 +2846,19 @@
   "faucets": [],
   "infoURL": "https://www.kortho.io/"
 }, {
+  "name": "TechPay Mainnet",
+  "chainId": 2569,
+  "shortName": "tpc",
+  "networkId": 2569,
+  "nativeCurrency": {
+    "name": "TechPay",
+    "symbol": "TPC",
+    "decimals": 18
+  },
+  "rpc": ["https://api.techpay.io/"],
+  "faucets": [],
+  "infoURL": "https://techpay.io/"
+}, {
   "name": "CENNZnet Rata",
   "chainId": 3000,
   "shortName": "cennz-r",
