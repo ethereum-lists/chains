@@ -22,7 +22,8 @@ val optionalFields = listOf(
         "explorers",
         "title",
         "network",
-        "parent"
+        "parent",
+        "deprecated"
 )
 
 val moshi: Moshi = Moshi.Builder().build()
