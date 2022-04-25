@@ -1,0 +1,24 @@
+{
+  "name": "Uptick",
+  "chain": "Uptick",
+  "rpc": ["https://rpc.uptick.network:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Uptick",
+    "symbol": "UPTICK",
+    "decimals": 18
+  },
+  "infoURL": "https://www.uptick.network",
+  "shortName": "uptick",
+  "chainId": 7777,
+  "networkId": 7777,
+  "icon": "uptick",
+  "explorers": [
+    {
+      "name": "Uptick EVM Explorer",
+      "url": "https://evm-explorer.uptick.network",
+      "standard": "EIP3091",
+      "icon": "uptick"
+    }
+  ]
+}
