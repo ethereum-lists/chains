@@ -18,6 +18,12 @@
   "networkId": 335,
   "explorers": [
     {
+      "name": "Ava Labs",
+      "url": "https://subnets.avax.network/defi-kingdoms/dfk-chain-testnet/explorer",
+      "icon": "ethereum",
+      "standard": "none"
+    },
+    {
       "name": "ethernal",
       "url": "https://explorer-test.dfkchain.com",
       "icon": "ethereum",

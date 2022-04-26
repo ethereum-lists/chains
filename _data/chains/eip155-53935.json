@@ -18,6 +18,18 @@
   "networkId": 53935,
   "explorers": [
     {
+      "name": "Avascan",
+      "url": "https://avascan.info/blockchain/dfk",
+      "icon": "ethereum",
+      "standard": "none"
+    },
+    {
+      "name": "Ava Labs",
+      "url": "https://subnets.avax.network/defi-kingdoms/dfk-chain/explorer",
+      "icon": "ethereum",
+      "standard": "none"
+    },
+    {
       "name": "ethernal",
       "url": "https://explorer.dfkchain.com",
       "icon": "ethereum",
