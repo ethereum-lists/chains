@@ -1,26 +1,28 @@
 {
-  "name": "Hupayx Mainnet",
-  "chain": "HPX",
+  "name": "Taycan",
+  "chain": "Taycan",
+  "network": "mainnet",
   "rpc": [
-    "https://rpc.hupayx.io:8545",
-    "wss://rpc-ws.hupayx.io:8546"
+    "https://taycan-rpc.hupayx.io:8545"
   ],
-  "faucets": [
-
-  ],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "Hupayx",
-    "symbol": "HPX",
+    "name": "shuffle",
+    "symbol": "SFL",
     "decimals": 18
   },
   "infoURL": "http://hupayx.io",
-  "shortName": "hpx",
+  "shortName": "SFL",
   "chainId": 22023,
   "networkId": 22023,
-  "icon": "hupayx",
   "explorers": [{
-    "name": "HPX Explorer",
-    "url": "https://scan.hupayx.io",
-    "standard": "EIP3091"
+    "name": "Taycan Explorer(Blockscout)",
+    "url": "http://taycan-evmscan.hupayx.io/",
+    "standard": "none"
+  },
+  {
+      "name": "Taycan Cosmos Explorer(BigDipper)",
+      "url": "http://taycan-cosmoscan.hupayx.io/",
+      "standard": "none"
   }]
 }

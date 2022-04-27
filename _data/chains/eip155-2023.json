@@ -1,25 +1,31 @@
 {
-  "name": "Hupayx Testnet",
-  "chain": "HPX",
+  "name": "Taycan Testnet",
+  "chain": "Taycan",
   "rpc": [
-    "http://rpc-test.hupayx.io:8545",
-    "ws://rpc-ws-test.hupayx.io:8546"
+    "https://test-taycan.hupayx.io",
+    "http://ttaycan-ws.hupayx.io:8546"
   ],
   "faucets": [
-    "http://faucet-test.hupayx.io/"
+    "http://ttaycan-faucet.hupayx.io/"
   ],
   "nativeCurrency": {
-    "name": "Hupayx Test Coin",
-    "symbol": "THPX",
+    "name": "test-Shuffle",
+    "symbol": "tSFL",
     "decimals": 18
   },
   "infoURL": "http://hupayx.io",
-  "shortName": "thpx",
+  "shortName": "taycan-testnet",
   "chainId": 2023,
   "networkId": 2023,
   "explorers": [{
-    "name": "HPX Test Explorer",
+    "name": "Taycan Explorer(Blockscout)",
     "url": "http://evmscan-test.hupayx.io/",
-    "standard": "EIP3091"
-  }]
+    "standard": "none"
+  },
+  {
+      "name": "Taycan Cosmos Explorer",
+      "url": "http://cosmoscan-test.hupayx.io/",
+      "standard": "none"
+  }
+  ]
 }
