@@ -1,0 +1,24 @@
+{
+    "name": "Memolabs Abbas Mainnet",
+    "chain": "ABBAS",
+    "icon": "abbas",
+    "rpc": [
+      "https://chain.abbas.network:8501"
+    ],
+    "faucets": [
+  ],
+    "nativeCurrency": {
+      "name": " Abbas",
+      "symbol": "ABBAS",
+      "decimals": 18
+    },
+    "infoURL": "https://www.abbas.network/",
+    "shortName": "abbaschain",
+    "chainId": 985,
+    "networkId": 985,
+      "explorers": [{
+      "name": "Mainnet explorer",
+      "url": "https://scan.abbas.network:8080/",
+      "standard": "EIP3091"
+    }]
+}
