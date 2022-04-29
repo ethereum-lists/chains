@@ -18,11 +18,6 @@
   "networkId": 18,
   "explorers": [
     {
-      "name": "thunderscan-testnet",
-      "url": "https://scan-testnet.thundercore.com",
-      "standard": "EIP3091"
-    },
-    {
       "name": "thundercore-blockscout-testnet",
       "url": "https://explorer-testnet.thundercore.com",
       "standard": "EIP3091"
