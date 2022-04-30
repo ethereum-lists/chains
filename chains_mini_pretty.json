@@ -3314,6 +3314,19 @@
   "faucets": [],
   "infoURL": "https://bcmhunt.com/"
 }, {
+  "name": "Mammoth",
+  "chainId": 8898,
+  "shortName": "mmt",
+  "networkId": 8898,
+  "nativeCurrency": {
+    "name": "Mammoth Token",
+    "symbol": "MMT",
+    "decimals": 18
+  },
+  "rpc": ["https://dataseed.mmtscan.io", "https://dataseed1.mmtscan.io", "https://dataseed2.mmtscan.io"],
+  "faucets": ["https://faucet.mmtscan.io/"],
+  "infoURL": "https://mmtchain.io/"
+}, {
   "name": "bloxberg",
   "chainId": 8995,
   "shortName": "berg",
