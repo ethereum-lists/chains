@@ -1,0 +1,23 @@
+{
+    "name": "Classzz",
+    "chain": "Classzz",
+    "rpc": [
+      "https://node.classzz.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Classzz",
+      "symbol": "CZZ",
+      "decimals": 18
+    },
+    "infoURL": "https://classzz.com",
+    "shortName": "czz",
+    "chainId": 2019,
+    "networkId": 2019,
+    "slip44": 1025,
+    "explorers": [{
+      "name": "Classzz",
+      "url": "https://classzz.com",
+      "standard": "EIP3091"
+    }]
+}
