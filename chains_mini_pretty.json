@@ -3639,6 +3639,19 @@
   "faucets": [],
   "infoURL": "https://gochain.io"
 }, {
+  "name": "Bitgert Mainnet",
+  "chainId": 32520,
+  "shortName": "Brise",
+  "networkId": 32520,
+  "nativeCurrency": {
+    "name": "Bitrise Token",
+    "symbol": "Brise",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.brisescan.com"],
+  "faucets": [],
+  "infoURL": "https://bitgert.com/"
+}, {
   "name": "Fusion Mainnet",
   "chainId": 32659,
   "shortName": "fsn",
