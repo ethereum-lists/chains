@@ -1871,6 +1871,19 @@
   "faucets": ["https://scan-testnet.acuteangle.com/faucet"],
   "infoURL": "https://www.acuteangle.com/"
 }, {
+  "name": "Candle Mainnet",
+  "chainId": 534,
+  "shortName": "CNDL",
+  "networkId": 534,
+  "nativeCurrency": {
+    "name": "CANDLE",
+    "symbol": "CNDL",
+    "decimals": 18
+  },
+  "rpc": ["https://candle-rpc.com/", "https://rpc.cndlchain.com"],
+  "faucets": [],
+  "infoURL": "https://candlelabs.org/"
+}, {
   "name": "Vela1 Chain Mainnet",
   "chainId": 555,
   "shortName": "CLASS",
