@@ -1923,6 +1923,19 @@
   "faucets": [],
   "infoURL": "https://www.metis.io"
 }, {
+  "name": "Astar",
+  "chainId": 592,
+  "shortName": "astr",
+  "networkId": 592,
+  "nativeCurrency": {
+    "name": "Astar",
+    "symbol": "ASTR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.astar.network:8545"],
+  "faucets": [],
+  "infoURL": "https://astar.network/"
+}, {
   "name": "Acala Mandala Testnet",
   "chainId": 595,
   "shortName": "maca",
