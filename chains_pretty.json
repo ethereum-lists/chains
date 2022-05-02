@@ -5568,9 +5568,11 @@
   "shortName": "ecs",
   "chainId": 63000,
   "networkId": 63000,
+  "icon": "ecredits",
   "explorers": [{
     "name": "eCredits MainNet Explorer",
     "url": "https://explorer.ecredits.com",
+    "icon": "ecredits",
     "standard": "EIP3091"
   }]
 }, {
@@ -5588,9 +5590,11 @@
   "shortName": "ecs-testnet",
   "chainId": 63001,
   "networkId": 63001,
+  "icon": "ecredits",
   "explorers": [{
     "name": "eCredits TestNet Explorer",
     "url": "https://explorer.tst.ecredits.com",
+    "icon": "ecredits",
     "standard": "EIP3091"
   }]
 }, {
