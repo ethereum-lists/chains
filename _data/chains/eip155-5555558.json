@@ -1,0 +1,26 @@
+{
+  "name": "Imversed Testnet",
+  "chain": "Imversed",
+  "rpc": [
+    "http://qt.imversed.com:8545"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Imversed Token",
+    "symbol": "IMV",
+    "decimals": 18
+  },
+  "infoURL": "https://imversed.com",
+  "shortName": "Imversed",
+  "chainId": 5555558,
+  "networkId": 5555558,
+  "icon": "imversed",
+  "explorers": [
+    {
+      "name": "Big Dipper",
+      "url": "https://tex-t.imversed.com",
+      "icon": "brise",
+      "standard": "imversed"
+    }
+  ]
+}
