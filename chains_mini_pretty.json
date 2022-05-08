@@ -758,13 +758,13 @@
   "shortName": "okt",
   "networkId": 66,
   "nativeCurrency": {
-    "name": "OKExChain Global Utility Token",
+    "name": "OKXChain Global Utility Token",
     "symbol": "OKT",
     "decimals": 18
   },
-  "rpc": ["https://exchainrpc.okex.org"],
+  "rpc": ["https://exchainrpc.okex.org", "https://okc-mainnet.gateway.pokt.network/v1/lb/6275309bea1b320039c893ff"],
   "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/?"],
-  "infoURL": "https://www.okex.com/okexchain"
+  "infoURL": "https://www.okex.com/okc"
 }, {
   "name": "DBChain Testnet",
   "chainId": 67,
