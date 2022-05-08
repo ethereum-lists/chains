@@ -2768,6 +2768,19 @@
   "faucets": [],
   "infoURL": "http://edgewa.re"
 }, {
+  "name": "Taycan Testnet",
+  "chainId": 2023,
+  "shortName": "taycan-testnet",
+  "networkId": 2023,
+  "nativeCurrency": {
+    "name": "test-Shuffle",
+    "symbol": "tSFL",
+    "decimals": 18
+  },
+  "rpc": ["https://test-taycan.hupayx.io"],
+  "faucets": ["https://ttaycan-faucet.hupayx.io/"],
+  "infoURL": "https://hupayx.io"
+}, {
   "name": "Rangers Protocol Mainnet",
   "chainId": 2025,
   "shortName": "rpg",
@@ -3625,6 +3638,19 @@
   "rpc": ["https://seed.omlira.com"],
   "faucets": [],
   "infoURL": "https://omlira.com"
+}, {
+  "name": "Taycan",
+  "chainId": 22023,
+  "shortName": "SFL",
+  "networkId": 22023,
+  "nativeCurrency": {
+    "name": "shuffle",
+    "symbol": "SFL",
+    "decimals": 18
+  },
+  "rpc": ["https://taycan-rpc.hupayx.io:8545"],
+  "faucets": [],
+  "infoURL": "https://hupayx.io"
 }, {
   "name": "Webchain",
   "chainId": 24484,
