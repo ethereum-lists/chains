@@ -2911,6 +2911,32 @@
   "faucets": [],
   "infoURL": "https://techpay.io/"
 }, {
+  "name": "EZChain C-Chain Mainnet",
+  "chainId": 2612,
+  "shortName": "EZChain",
+  "networkId": 2612,
+  "nativeCurrency": {
+    "name": "EZChain",
+    "symbol": "EZC",
+    "decimals": 18
+  },
+  "rpc": ["https://api.ezchain.com/ext/bc/C/rpc"],
+  "faucets": [],
+  "infoURL": "https://ezchain.com"
+}, {
+  "name": "EZChain C-Chain Testnet",
+  "chainId": 2613,
+  "shortName": "Fuji-EZChain",
+  "networkId": 2613,
+  "nativeCurrency": {
+    "name": "EZChain",
+    "symbol": "EZC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-api.ezchain.com/ext/bc/C/rpc"],
+  "faucets": ["https://testnet-faucet.ezchain.com"],
+  "infoURL": "https://ezchain.com"
+}, {
   "name": "CENNZnet Rata",
   "chainId": 3000,
   "shortName": "cennz-r",

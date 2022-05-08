@@ -4010,6 +4010,46 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "EZChain C-Chain Mainnet",
+  "chain": "EZC",
+  "rpc": ["https://api.ezchain.com/ext/bc/C/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EZChain",
+    "symbol": "EZC",
+    "decimals": 18
+  },
+  "infoURL": "https://ezchain.com",
+  "shortName": "EZChain",
+  "chainId": 2612,
+  "networkId": 2612,
+  "icon": "ezchain",
+  "explorers": [{
+    "name": "ezchain",
+    "url": "https://cchain-explorer.ezchain.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "EZChain C-Chain Testnet",
+  "chain": "EZC",
+  "rpc": ["https://testnet-api.ezchain.com/ext/bc/C/rpc"],
+  "faucets": ["https://testnet-faucet.ezchain.com"],
+  "nativeCurrency": {
+    "name": "EZChain",
+    "symbol": "EZC",
+    "decimals": 18
+  },
+  "infoURL": "https://ezchain.com",
+  "shortName": "Fuji-EZChain",
+  "chainId": 2613,
+  "networkId": 2613,
+  "icon": "ezchain",
+  "explorers": [{
+    "name": "ezchain",
+    "url": "https://testnet-cchain-explorer.ezchain.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "CENNZnet Rata",
   "chain": "CENNZnet",
   "network": "rata",
