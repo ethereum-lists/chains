@@ -2939,20 +2939,20 @@
 }, {
   "name": "Ambros Chain Mainnet",
   "chain": "ambroschain",
-  "rpc": ["https://mainnet.ambroschain.com"],
+  "rpc": ["https://api.ambros.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "AMBROS",
     "symbol": "AMBR",
     "decimals": 18
   },
-  "infoURL": "https://bcmhunt.com/",
+  "infoURL": "https://ambros.network",
   "shortName": "ambros",
   "chainId": 880,
   "networkId": 880,
   "explorers": [{
     "name": "Ambros Chain Explorer",
-    "url": "https://explorer.ambroschain.com",
+    "url": "https://ambrosscan.com",
     "standard": "none"
   }]
 }, {
@@ -4659,20 +4659,20 @@
 }, {
   "name": "Ambros Chain Testnet",
   "chain": "ambroschain",
-  "rpc": ["https://testnet.ambroschain.com"],
+  "rpc": ["https://api.testnet.ambros.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "AMBROS",
     "symbol": "AMBR",
     "decimals": 18
   },
-  "infoURL": "https://bcmhunt.com/",
+  "infoURL": "https://test.ambros.network",
   "shortName": "ambrostestnet",
   "chainId": 8888,
   "networkId": 8888,
   "explorers": [{
     "name": "Ambros Chain Explorer",
-    "url": "https://testexplorer.ambroschain.com",
+    "url": "https://testnet.ambrosscan.com",
     "standard": "none"
   }]
 }, {

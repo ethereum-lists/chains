@@ -2140,9 +2140,9 @@
     "symbol": "AMBR",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.ambroschain.com"],
+  "rpc": ["https://api.ambros.network"],
   "faucets": [],
-  "infoURL": "https://bcmhunt.com/"
+  "infoURL": "https://ambros.network"
 }, {
   "name": "Wanchain",
   "chainId": 888,
@@ -3349,9 +3349,9 @@
     "symbol": "AMBR",
     "decimals": 18
   },
-  "rpc": ["https://testnet.ambroschain.com"],
+  "rpc": ["https://api.testnet.ambros.network"],
   "faucets": [],
-  "infoURL": "https://bcmhunt.com/"
+  "infoURL": "https://test.ambros.network"
 }, {
   "name": "Mammoth",
   "chainId": 8898,
