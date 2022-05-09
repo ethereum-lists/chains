@@ -909,16 +909,16 @@
   "faucets": [],
   "infoURL": "https://scan.genechain.io/"
 }, {
-  "name": "Villinius",
+  "name": "Zenith Testnet (Vilnius)",
   "chainId": 81,
   "shortName": "VIL",
   "networkId": 81,
   "nativeCurrency": {
-    "name": "Villinius",
+    "name": "Vilnius",
     "symbol": "VIL",
     "decimals": 18
   },
-  "rpc": ["https://vilinius.zenithchain.co/http"],
+  "rpc": ["https://vilnius.zenithchain.co/http"],
   "faucets": ["https://faucet.zenithchain.co/"],
   "infoURL": "https://www.zenithchain.co/"
 }, {

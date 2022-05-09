@@ -1231,12 +1231,12 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Villinius",
+  "name": "Zenith Testnet (Vilnius)",
   "chain": "Zenith",
-  "rpc": ["https://vilinius.zenithchain.co/http"],
+  "rpc": ["https://vilnius.zenithchain.co/http"],
   "faucets": ["https://faucet.zenithchain.co/"],
   "nativeCurrency": {
-    "name": "Villinius",
+    "name": "Vilnius",
     "symbol": "VIL",
     "decimals": 18
   },
@@ -1245,8 +1245,8 @@
   "networkId": 81,
   "shortName": "VIL",
   "explorers": [{
-    "name": "villinius zenith scan",
-    "url": "https://vilinius.scan.zenithchain.co",
+    "name": "vilnius scan",
+    "url": "https://vilnius.scan.zenithchain.co",
     "standard": "EIP3091"
   }]
 }, {
