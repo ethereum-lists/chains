@@ -2711,6 +2711,36 @@
   "chainId": 595,
   "networkId": 595
 }, {
+  "name": "Karura Network Testnet",
+  "chain": "KAR",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Karura Token",
+    "symbol": "KAR",
+    "decimals": 18
+  },
+  "infoURL": "https://karura.network",
+  "shortName": "tkar",
+  "chainId": 596,
+  "networkId": 596,
+  "slip44": 596
+}, {
+  "name": "Acala Network Testnet",
+  "chain": "ACA",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Acala Token",
+    "symbol": "ACA",
+    "decimals": 18
+  },
+  "infoURL": "https://acala.network",
+  "shortName": "taca",
+  "chainId": 597,
+  "networkId": 597,
+  "slip44": 597
+}, {
   "name": "Meshnyan testnet",
   "chain": "MeshTestChain",
   "rpc": [],
