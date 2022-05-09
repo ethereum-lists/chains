@@ -1,8 +1,8 @@
 {
-  "name": "Godwoken Testnet (V1)",
+  "name": "Godwoken Mainnet",
   "chain": "GWT",
   "rpc": [
-    "https://godwoken-testnet-web3-v1-rpc.ckbapp.dev"
+    "https://godwoken-testnet-v1.ckbapp.dev"
   ],
   "faucets": [
     "https://homura.github.io/light-godwoken"
@@ -13,9 +13,9 @@
     "decimals": 8
   },
   "infoURL": "https://www.nervos.org",
-  "shortName": "gw-testnet-v1",
-  "chainId": 868455272153094,
-  "networkId": 868455272153094,
+  "shortName": "gw-mainnet-v1",
+  "chainId": 71402,
+  "networkId": 71402,
   "explorers": [
     {
       "name": "GWScan Block Explorer",
