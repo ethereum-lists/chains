@@ -2755,6 +2755,32 @@
   "faucets": [],
   "infoURL": "https://milkomeda.com"
 }, {
+  "name": "CloudWalk Testnet",
+  "chainId": 2008,
+  "shortName": "cloudwalk_testnet",
+  "networkId": 2008,
+  "nativeCurrency": {
+    "name": "CloudWalk Native Token",
+    "symbol": "CWN",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://cloudwalk.io"
+}, {
+  "name": "CloudWalk Mainnet",
+  "chainId": 2009,
+  "shortName": "cloudwalk_mainnet",
+  "networkId": 2009,
+  "nativeCurrency": {
+    "name": "CloudWalk Native Token",
+    "symbol": "CWN",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://cloudwalk.io"
+}, {
   "name": "420coin",
   "chainId": 2020,
   "shortName": "420",
