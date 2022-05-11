@@ -1,0 +1,25 @@
+{
+  "name": "IVAREX Chain Testnet",
+  "chain": "IVAREX",
+  "icon": "ivarex",
+  "rpc": [
+    "https://testnet.ivarex.com"
+  ],
+  "faucets": [
+    "https://tfaucet.ivarex.com/"
+  ],
+  "nativeCurrency": {
+    "name": "tIvar",
+    "symbol": "tIVAR",
+    "decimals": 18
+  },
+  "infoURL": "https://ivarex.com",
+  "shortName": "tivar",
+  "chainId": 16888,
+  "networkId": 16888,
+  "explorers": [{
+    "name": "ivarscan",
+    "url": "https://testnet.ivarscan.com",
+    "standard": "EIP3091"
+  }]
+}
