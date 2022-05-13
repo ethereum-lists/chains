@@ -1559,6 +1559,19 @@
   "faucets": [],
   "infoURL": "https://lachain.io"
 }, {
+  "name": "Aitd Testnet",
+  "chainId": 239,
+  "shortName": "AITD",
+  "networkId": 239,
+  "nativeCurrency": {
+    "name": "AITD Testnet",
+    "symbol": "AITD",
+    "decimals": 18
+  },
+  "rpc": ["http://http-testnet.aitd.io"],
+  "faucets": ["https://aitd-faucet-pre.aitdcoin.com/"],
+  "infoURL": "https://www.aitd.io/"
+}, {
   "name": "Energy Web Chain",
   "chainId": 246,
   "shortName": "ewt",
