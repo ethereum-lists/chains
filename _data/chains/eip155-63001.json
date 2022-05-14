@@ -17,9 +17,11 @@
   "shortName": "ecs-testnet",
   "chainId": 63001,
   "networkId": 63001,
+  "icon": "ecredits",
   "explorers": [{
     "name": "eCredits TestNet Explorer",
     "url": "https://explorer.tst.ecredits.com",
+	"icon": "ecredits",
     "standard": "EIP3091"
   }]
 }

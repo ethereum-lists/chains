@@ -1,7 +1,11 @@
 {
   "name": "Bitgert Mainnet",
   "chain": "Brise",
-  "rpc": ["https://mainnet-rpc.brisescan.com"],
+  "rpc": [
+    "https://mainnet-rpc.brisescan.com",
+    "https://chainrpc.com",
+    "https://serverrpc.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitrise Token",
@@ -12,10 +16,12 @@
   "shortName": "Brise",
   "chainId": 32520,
   "networkId": 32520,
+  "icon": "brise",
   "explorers": [
     {
       "name": "Brise Scan",
       "url": "https://brisescan.com",
+      "icon": "brise",
       "standard": "EIP3091"
     }
   ]
