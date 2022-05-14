@@ -1,0 +1,21 @@
+{
+  "name": "Bobabeam",
+  "chain": "MOON",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Glimmer",
+    "symbol": "GLMR",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.boba.network/for-developers/network-moonbeam",
+  "shortName": "bobabeam",
+  "chainId": 1294,
+  "networkId": 1294,
+  "explorers": [],
+  "parent": {
+     "type" : "L2",
+     "chain": "eip155-1285",
+     "bridges": []
+  }
+}

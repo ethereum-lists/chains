@@ -1,0 +1,28 @@
+{
+  "name": "Bobabase",
+  "chain": "MOON",
+  "rpc": [
+    "https://bobabase.boba.network",
+    "wss://wss.bobabase.boba.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dev",
+    "symbol": "DEV",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.boba.network/for-developers/network-moonbeam",
+  "shortName": "bobabase",
+  "chainId": 1297,
+  "networkId": 1297,
+  "explorers": [{
+    "name": "Blockscout",
+    "url": "https://blockexplorer.bobabase.boba.network/",
+    "standard": "none"
+  }],
+  "parent": {
+    "type" : "L2",
+    "chain": "eip155-1287",
+    "bridges": [ {"url":"https://gateway.bobabase.boba.network/"} ]
+}
+}
