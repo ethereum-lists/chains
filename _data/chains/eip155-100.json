@@ -1,6 +1,7 @@
 {
   "name": "Gnosis Chain (formerly xDai)",
   "chain": "Gnosis",
+  "icon": "gnosis",
   "rpc": [
     "https://rpc.gnosischain.com",
     "https://xdai.poanetwork.dev",
@@ -21,10 +22,10 @@
   "chainId": 100,
   "networkId": 100,
   "slip44": 700,
-
   "explorers": [{
     "name": "blockscout",
     "url": "https://blockscout.com/xdai/mainnet",
+    "icon": "blockscout",
     "standard": "EIP3091"
   }]
 }

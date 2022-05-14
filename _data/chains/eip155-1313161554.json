@@ -1,5 +1,5 @@
 {
-  "name": "Aurora MainNet",
+  "name": "Aurora Mainnet",
   "chain": "NEAR",
   "rpc": [
     "https://mainnet.aurora.dev"
@@ -7,7 +7,7 @@
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
-    "symbol": "aETH",
+    "symbol": "ETH",
     "decimals": 18
   },
   "infoURL": "https://aurora.dev",
@@ -16,8 +16,8 @@
   "networkId": 1313161554,
   "explorers": [
     {
-      "name": "explorer.aurora.dev",
-      "url": "https://explorer.mainnet.aurora.dev",
+      "name": "aurorascan.dev",
+      "url": "https://aurorascan.dev",
       "standard": "EIP3091"
     }
   ]
