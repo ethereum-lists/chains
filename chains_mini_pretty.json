@@ -3732,16 +3732,16 @@
 }, {
   "name": "omChain Mainnet",
   "chainId": 21816,
-  "shortName": "oml",
+  "shortName": "omc",
   "networkId": 21816,
   "nativeCurrency": {
-    "name": "Omlira",
-    "symbol": "OML",
+    "name": "omChain",
+    "symbol": "OMC",
     "decimals": 18
   },
-  "rpc": ["https://seed.omlira.com"],
+  "rpc": ["https://seed.omchain.io"],
   "faucets": [],
-  "infoURL": "https://omlira.com"
+  "infoURL": "https://omchain.io"
 }, {
   "name": "Taycan",
   "chainId": 22023,
