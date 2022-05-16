@@ -225,7 +225,7 @@
   "shortName": "TST",
   "networkId": 18,
   "nativeCurrency": {
-    "name": "ThunderCore Testnet Ether",
+    "name": "ThunderCore Testnet Token",
     "symbol": "TST",
     "decimals": 18
   },
@@ -1200,11 +1200,11 @@
   "shortName": "TT",
   "networkId": 108,
   "nativeCurrency": {
-    "name": "ThunderCore Mainnet Ether",
+    "name": "ThunderCore Token",
     "symbol": "TT",
     "decimals": 18
   },
-  "rpc": ["https://mainnet-rpc.thundercore.com"],
+  "rpc": ["https://mainnet-rpc.thundercore.com", "https://mainnet-rpc.thundertoken.net", "https://mainnet-rpc.thundercore.io"],
   "faucets": ["https://faucet.thundercore.com"],
   "infoURL": "https://thundercore.com"
 }, {
