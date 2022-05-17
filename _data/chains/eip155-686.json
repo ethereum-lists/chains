@@ -12,5 +12,11 @@
   "shortName": "kar",
   "chainId": 686,
   "networkId": 686,
-  "slip44": 686
+  "slip44": 686,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout.karura.network/",
+    "icon": "blockscout",
+    "standard": "none"
+  }]
 }
