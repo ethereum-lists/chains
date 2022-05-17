@@ -1,15 +1,15 @@
 {
   "name": "Acala Mandala Testnet",
   "chain": "mACA",
-  "rpc": [],
+  "rpc": ["https://tc7-eth.aca-dev.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Acala Mandala Token",
-    "symbol": "mACA",
+    "symbol": "MDA",
     "decimals": 18
   },
   "infoURL": "https://acala.network",
-  "shortName": "maca",
+  "shortName": "mda",
   "chainId": 595,
   "networkId": 595
 }

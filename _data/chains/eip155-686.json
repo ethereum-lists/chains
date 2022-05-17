@@ -1,7 +1,7 @@
 {
   "name": "Karura Network",
   "chain": "KAR",
-  "rpc": [],
+  "rpc": ["https://eth-rpc-karura.aca-api.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Karura Token",

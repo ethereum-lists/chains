@@ -1,7 +1,7 @@
 {
   "name": "Acala Network Testnet",
   "chain": "ACA",
-  "rpc": [],
+  "rpc": ["https://acala-dev.aca-dev.network/eth/http"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Acala Token",
