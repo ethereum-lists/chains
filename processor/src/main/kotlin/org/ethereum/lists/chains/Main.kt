@@ -17,7 +17,7 @@ val dataPath = File(basePath, "_data")
 val iconsPath = File(dataPath, "icons")
 
 val chainsPath = File(dataPath, "chains")
-private val allFiles = chainsPath.listFiles() ?: error("$chainsPath must contain the chain json files - but it does not")
+private val allFiles = chainsPath.listFiles() ?: error("${chainsPath.absolutePath} must contain the chain json files - but it does not")
 private val allChainFiles = allFiles.filter { !it.isDirectory }
 
 fun main(args: Array<String>) {
@@ -235,9 +235,12 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
             throw ENSRegistryAddressMustBeValid()
         }
     }
-    jsonObject["deprecated"]?.let {
-        if (it !is Boolean) {
-            throw DeprecatedMustBeBoolean()
+    jsonObject["status"]?.let {
+        if (it !is String) {
+            throw StatusMustBeString()
+        }
+        if (!setOf("incubating","active","deprecated").contains(it)) {
+            throw StatusMustBeIncubatingActiveOrDeprecated()
         }
     }
     jsonObject["parent"]?.let {

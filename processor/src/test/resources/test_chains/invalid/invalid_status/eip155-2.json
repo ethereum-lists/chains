@@ -3,8 +3,8 @@
   "shortName": "eth",
   "chain": "ETH",
   "network": "mainnet",
-  "chainId": 1,
-  "networkId": 1,
+  "chainId": 2,
+  "networkId": 2,
   "rpc": [
     "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
     "https://api.mycryptoapi.com/eth"
@@ -15,5 +15,7 @@
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
-  }
+  },
+  "explorers": [],
+  "status": "yolo"
 }
