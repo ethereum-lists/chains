@@ -3782,6 +3782,19 @@
   "faucets": [],
   "infoURL": "https://www.mintme.com"
 }, {
+  "name": "Piece testnet",
+  "chainId": 30067,
+  "shortName": "Piece",
+  "networkId": 30067,
+  "nativeCurrency": {
+    "name": "ECE",
+    "symbol": "ECE",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc0.piecenetwork.com"],
+  "faucets": ["https://piecenetwork.com/faucet"],
+  "infoURL": "https://piecenetwork.com"
+}, {
   "name": "Ethersocial Network",
   "chainId": 31102,
   "shortName": "esn",
@@ -3966,11 +3979,11 @@
 }, {
   "name": "Autobahn Network",
   "chainId": 45000,
-  "shortName": "autobahn",
+  "shortName": "Autobahn Network",
   "networkId": 45000,
   "nativeCurrency": {
-    "name": "BNB",
-    "symbol": "BNB",
+    "name": "TXL",
+    "symbol": "TXL",
     "decimals": 18
   },
   "rpc": ["https://rpc.autobahn.network"],
