@@ -1,0 +1,26 @@
+{
+  "name": "PHI Smart Chain",
+  "chain": "PHI",
+  "network": "mainnet",
+  "rpc": [
+    "https://rpc1.phi.network",
+    "https://rpc2.phi.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PHI",
+    "symbol": "Φ",
+    "decimals": 18
+  },
+  "infoURL": "https://phi.network",
+  "shortName": "PHI",
+  "chainId": 4181,
+  "networkId": 4181,
+  "icon": "Φ",
+  "explorers": [{
+    "name": "PHI Explorer",
+    "url": "https://explorer.phi.network",
+    "icon": "Phi",
+    "standard": "none"
+  }]
+}
