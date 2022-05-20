@@ -1,18 +1,18 @@
 {
   "name": "Autobahn Network",
-  "chain": "BNB",
+  "chain": "TXL",
   "network": "mainnet",
   "rpc": [
     "https://rpc.autobahn.network"
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "BNB",
-    "symbol": "BNB",
+    "name": "TXL",
+    "symbol": "TXL",
     "decimals": 18
   },
   "infoURL": "https://autobahn.network",
-  "shortName": "autobahn",
+  "shortName": "Autobahn Network",
   "chainId": 45000,
   "networkId": 45000,
   "icon": "autobahn",

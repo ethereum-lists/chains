@@ -69,6 +69,9 @@ If the chain is an L2 or a shard of another chain you can link it to the parent 
 
 where you need to specify type 2 and the reference to an existing parent. The field about bridges is optional.
 
+You can add a `status` field e.g. to `deprecate` a chain (a chain should never be deleted as this would open the door to replay attacks)
+Other options for `status` are `active` (default) or `incubating`
+
 ## Aggregation
 
 There are also aggregated json files with all chains automatically assembled:
