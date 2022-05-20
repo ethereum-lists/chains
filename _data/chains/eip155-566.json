@@ -1,0 +1,19 @@
+{
+  "name": "Excoincial Mainnet",
+  "chain": "EXL",
+  "icon": "excoincial",
+  "rpc": [
+      "https://chain.exlwallet.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Excoincial",
+    "symbol": "EXL",
+    "decimals": 18
+  },
+  "infoURL": "https://excoincial.com",
+  "shortName": "exl",
+  "chainId": 566,
+  "networkId": 566,
+  "slip44": 566
+}
