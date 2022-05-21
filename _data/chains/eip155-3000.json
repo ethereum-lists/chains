@@ -4,10 +4,11 @@
     "network": "Echelon",
     "rpc": [
       "https://rpc.ech.network",
-      "https://evm.ech.network"
+      "https://evm.ech.network",
+      "https://draco.ech.network"
     ],
     "faucets": [
-      "https://bridge.ech.network"
+      "https://app.ech.network/faucet"
     ],
     "nativeCurrency": {
       "name": "ECH",
