@@ -2,10 +2,7 @@
   "name": "SolarChainTestnet",
   "chain": "SC",
   "network": "testnet",
-  "rpc": [
-    "https://testsc-baseseed1.starnet.ltd",
-    "https://testsc-baseseed2.starnet.ltd"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "SolarChain",
@@ -20,6 +17,7 @@
   "explorers": [{
     "name": "sctscan",
     "url": "https://sctsan.starnet.ltd",
-    "icon": "sc"
+    "icon": "sc",
+    "standard": "EIP3091"
   }]
 }
