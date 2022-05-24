@@ -1,0 +1,18 @@
+{
+  "name": "NxtMeta Testnet",
+  "chain": "NXT",
+  "rpc": [
+    "https://api.xntmeta.com/dev"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NxtMeta Testnet Ether",
+    "symbol": "NXT",
+    "decimals": 18
+  },
+  "infoURL": "https://nxtmeta.com",
+  "shortName": "nxt",
+  "chainId": 111112,
+  "networkId": 111112,
+  "slip44": 901
+}
