@@ -1,0 +1,23 @@
+{
+  "name": "PolySmartChain Mainnet",
+  "chain": "PSC",
+  "network": "mainnet",
+  "rpc": [
+    "https://seed0.polysmartchain.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PolySmartChain",
+    "symbol": "PSC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.polysmartchain.com",
+  "shortName": "PSC",
+  "chainId": 6999,
+  "icon": "PSC",
+  "explorers": [{
+    "name": "PSCscan",
+    "url": "https://scan.polysmartchain.com",
+    "icon": "PSCscan"
+  }]
+}
