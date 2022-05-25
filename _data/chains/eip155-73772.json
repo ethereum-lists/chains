@@ -1,0 +1,41 @@
+{
+  "name": "Swimmer network",
+  "chain": "SWIMMER",
+  "icon": "swimmer",
+  "network": "mainnet",
+  "rpc": [
+    "https://avax-cra-rpc.gateway.pokt.network",
+    "https://subnets.avax.network/swimmer/mainnet/rpc",
+    "https://rpc.swimmer.network/ext/bc/2K33xS9AyP9oCDiHYKVrHe7F54h2La5D8erpTChaAhdzeSu2RX/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Treasure Under Sea",
+    "symbol": "TUS",
+    "decimals": 18
+  },
+  "infoURL": "https://swimmer.network",
+  "shortName": "Swimmer",
+  "chainId": 73772,
+  "networkId": 73772,
+  "explorers": [
+    {
+      "name": "avascan",
+      "url": "https://avascan.info/blockchain/swimmer/",
+      "icon": "swimmer",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "avax-subnet",
+      "url": "https://subnets.avax.network/swimmer/mainnet/explorer/",
+      "icon": "swimmer",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "swimmer",
+      "url": "https://explorer.swimmer.network/",
+      "icon": "swimmer",
+      "standard": "EIP3091"
+    }
+  ]
+}
