@@ -1,0 +1,22 @@
+{
+  "name": "Ignite Mainnet",
+  "chain": "IGT",
+  "icon": "ignite",
+  "rpc": [
+    "https://ignite-rpc.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ignite",
+    "symbol": "IGT",
+    "decimals": 18
+  },
+  "infoURL": "https://ignite.info",
+  "shortName": "igt",
+  "chainId": 1991,
+  "networkId": 1991,
+  "explorers": [{
+    "name": "ignitescan",
+    "url": "https://ignitescan.com"
+  }]
+}
