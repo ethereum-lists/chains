@@ -1,21 +1,23 @@
 {
-    "name": "CENNZnet Rata",
-    "chain": "CENNZnet",
-    "network": "rata",
+    "name": "Echelon",
+    "chain": "Echelon",
+    "network": "Echelon",
     "rpc": [
-      "https://rata.centrality.me/public"
+      "https://rpc.ech.network",
+      "https://evm.ech.network",
+      "https://draco.ech.network"
     ],
     "faucets": [
-      "https://app-faucet.centrality.me"
+      "https://app.ech.network/faucet"
     ],
     "nativeCurrency": {
-      "name": "CPAY",
-      "symbol": "CPAY",
+      "name": "ECH",
+      "symbol": "ECH",
       "decimals": 18
     },
-    "infoURL": "https://cennz.net",
-    "shortName": "cennz-r",
+    "infoURL": "https://ech.network",
+    "shortName": "echelon",
     "chainId": 3000,
     "networkId": 3000,
-    "icon": "cennz"
+    "icon": "echelon"
   }
