@@ -3171,6 +3171,19 @@
   "faucets": [],
   "infoURL": "https://aioz.network"
 }, {
+  "name": "PHI Network",
+  "chainId": 4181,
+  "shortName": "PHI",
+  "networkId": 4181,
+  "nativeCurrency": {
+    "name": "PHI",
+    "symbol": "Φ",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1.phi.network", "https://rpc2.phi.network"],
+  "faucets": [],
+  "infoURL": "https://phi.network"
+}, {
   "name": "IoTeX Network Mainnet",
   "chainId": 4689,
   "shortName": "iotex-mainnet",
