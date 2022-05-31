@@ -1,7 +1,7 @@
 {
   "name": "Acala Network",
   "chain": "ACA",
-  "rpc": [],
+  "rpc": ["https://eth-rpc-acala.aca-api.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Acala Token",
@@ -12,5 +12,11 @@
   "shortName": "aca",
   "chainId": 787,
   "networkId": 787,
-  "slip44": 787
+  "slip44": 787,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout.acala.network",
+    "icon": "blockscout",
+    "standard": "none"
+  }]
 }
