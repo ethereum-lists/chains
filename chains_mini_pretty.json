@@ -2651,6 +2651,32 @@
   "faucets": [],
   "infoURL": "https://cennz.net"
 }, {
+  "name": "Sherpax Mainnet",
+  "chainId": 1506,
+  "shortName": "Sherpax",
+  "networkId": 1506,
+  "nativeCurrency": {
+    "name": "KSX",
+    "symbol": "KSX",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.sherpax.io/rpc"],
+  "faucets": [],
+  "infoURL": "https://sherpax.io/"
+}, {
+  "name": "Sherpax Testnet",
+  "chainId": 1507,
+  "shortName": "Sherpax Testnet",
+  "networkId": 1507,
+  "nativeCurrency": {
+    "name": "KSX",
+    "symbol": "KSX",
+    "decimals": 18
+  },
+  "rpc": ["https://sherpax-testnet.chainx.org/rpc"],
+  "faucets": [],
+  "infoURL": "https://sherpax.io/"
+}, {
   "name": "Catecoin Chain Mainnet",
   "chainId": 1618,
   "shortName": "cate",
