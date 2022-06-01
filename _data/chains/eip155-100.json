@@ -1,14 +1,15 @@
 {
-  "name": "Gnosis Chain (formerly xDai)",
+  "name": "Gnosis",
   "chain": "Gnosis",
   "icon": "gnosis",
   "rpc": [
     "https://rpc.gnosischain.com",
     "https://xdai.poanetwork.dev",
+    "https://dai.poa.network",
+    "https://rpc.ankr.com/gnosis",
+    "https://gnosischain-rpc.gateway.pokt.network",
     "wss://rpc.gnosischain.com/wss",
     "wss://xdai.poanetwork.dev/wss",
-    "http://xdai.poanetwork.dev",
-    "https://dai.poa.network",
     "ws://xdai.poanetwork.dev:8546"
   ],
   "faucets": ["https://faucet.gimlu.com/gnosis", "https://stakely.io/faucet/gnosis-chain-xdai", "https://faucet.prussia.dev/xdai"],
@@ -17,7 +18,7 @@
     "symbol": "xDAI",
     "decimals": 18
   },
-  "infoURL": "https://www.xdaichain.com/",
+  "infoURL": "https://developers.gnosischain.com",
   "shortName": "gno",
   "chainId": 100,
   "networkId": 100,
