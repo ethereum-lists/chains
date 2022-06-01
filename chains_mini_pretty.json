@@ -5015,7 +5015,7 @@
   },
   "rpc": ["https://proxy.devnet.neonlabs.org/solana"],
   "faucets": ["https://neonswap.live/#/get-tokens"],
-  "infoURL": "https://neon-labs.org/"
+  "infoURL": "https://neon-labs.org"
 }, {
   "name": "Neon EVM MainNet",
   "chainId": 245022934,
@@ -5028,7 +5028,7 @@
   },
   "rpc": ["https://proxy.mainnet.neonlabs.org/solana"],
   "faucets": [],
-  "infoURL": "https://neon-labs.org/"
+  "infoURL": "https://neon-labs.org"
 }, {
   "name": "Neon EVM TestNet",
   "chainId": 245022940,
@@ -5041,7 +5041,7 @@
   },
   "rpc": ["https://proxy.testnet.neonlabs.org/solana"],
   "faucets": [],
-  "infoURL": "https://neon-labs.org/"
+  "infoURL": "https://neon-labs.org"
 }, {
   "name": "OneLedger Mainnet",
   "chainId": 311752642,
