@@ -1,0 +1,25 @@
+{
+  "name": "Chainx Mainnet",
+  "chain": "Chainx Mainnet",
+  "rpc": [
+    "https://mainnet.chainx.org/rpc"
+  ],
+  "faucets": [
+  ],
+  "nativeCurrency": {
+    "name": "PCX",
+    "symbol": "PCX",
+    "decimals": 18
+  },
+  "infoURL": "https://chainx.org/",
+  "shortName": "Chainx",
+  "chainId": 1501,
+  "networkId": 1501,
+  "explorers": [
+    {
+      "name": "Chainx Mainnet Explorer",
+      "url": "https://evm.chainx.org",
+      "standard": "none"
+    }
+  ]
+}

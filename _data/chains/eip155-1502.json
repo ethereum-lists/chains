@@ -1,0 +1,26 @@
+{
+  "name": "Chainx Testnet",
+  "chain": "Chainx Testnet",
+  "rpc": [
+    "https://testnet3.chainx.org/rpc"
+  ],
+  "faucets": [
+  ],
+  "nativeCurrency": {
+    "name": "PCX",
+    "symbol": "PCX",
+    "decimals": 18
+  },
+  "infoURL": "https://chainx.org/",
+  "shortName": "Chainx Testnet",
+  "chainId": 1502,
+  "networkId": 1502,
+  "explorers": [
+    {
+      "name": "Chainx Testnet Explorer",
+      "url": "https://evm-pre.chainx.cc",
+      "standard": "none"
+    }
+  ]
+}
+
