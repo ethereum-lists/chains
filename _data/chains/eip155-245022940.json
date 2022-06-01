@@ -5,13 +5,23 @@
     "https://proxy.testnet.neonlabs.org/solana"
   ],
   "faucets": [],
+  "icon": "neon",
   "nativeCurrency": {
     "name": "Neon",
     "symbol": "NEON",
     "decimals": 18
   },
-  "infoURL": "https://neon-labs.org/",
+  "infoURL": "https://neon-labs.org",
   "shortName": "neonevm-testnet",
   "chainId": 245022940,
-  "networkId": 245022940
+  "networkId": 245022940,
+  "explorers": [{
+    "name": "native",
+    "url": "https://testnet.explorer.neon-labs.org",
+    "standard": "EIP3091"
+  }, {
+    "name": "neonscan",
+    "url": "https://testnet.neonscan.org",
+    "standard": "EIP3091"
+  }]
 }
