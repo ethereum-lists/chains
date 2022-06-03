@@ -3,7 +3,7 @@
   "chain": "QuarkChain",
   "rpc": [
     "https://devnet-s1-ethapi.quarkchain.io",
-    "http://eth-jrpc.devnet.quarkchain.io:39901/"
+    "http://eth-jrpc.devnet.quarkchain.io:39901"
   ],
   "faucets": [
   ],
@@ -12,7 +12,7 @@
     "symbol": "QKC",
     "decimals": 18
   },
-  "infoURL": "https://www.quarkchain.io/",
+  "infoURL": "https://www.quarkchain.io",
   "shortName": "qkc-d-s1",
   "chainId": 110002,
   "networkId": 110002,

@@ -2,7 +2,7 @@
   "name": "QuarkChain Mainnet Root",
   "chain": "QuarkChain",
   "rpc": [
-    "http://jrpc.mainnet.quarkchain.io:38391/"
+    "http://jrpc.mainnet.quarkchain.io:38391"
   ],
   "faucets": [
   ],
@@ -11,7 +11,7 @@
     "symbol": "QKC",
     "decimals": 18
   },
-  "infoURL": "https://www.quarkchain.io/",
+  "infoURL": "https://www.quarkchain.io",
   "shortName": "qkc-r",
   "chainId": 100000,
   "networkId": 100000
