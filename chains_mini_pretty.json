@@ -4783,6 +4783,19 @@
   "faucets": ["https://faucet.weelink.gw002.oneitfarm.com"],
   "infoURL": "https://weelink.cloud"
 }, {
+  "name": "OpenChain Mainnet",
+  "chainId": 474142,
+  "shortName": "oc",
+  "networkId": 474142,
+  "nativeCurrency": {
+    "name": "OpenCoin",
+    "symbol": "OPC",
+    "decimals": 10
+  },
+  "rpc": ["https://baas-rpc.luniverse.io:18545?lChainId=1641349324562974539"],
+  "faucets": [],
+  "infoURL": "https://www.openchain.live"
+}, {
   "name": "CMP-Testnet",
   "chainId": 512512,
   "shortName": "cmp",
