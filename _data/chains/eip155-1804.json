@@ -3,6 +3,7 @@
   "title": "Proof of Carbon Reduction testnet",
   "chain": "CRC",
   "network": "testnet",
+  "status": "incubating",
   "rpc": [
     "https://cacib-saturn-test.francecentral.cloudapp.azure.com",
     "wss://cacib-saturn-test.francecentral.cloudapp.azure.com:9443"
@@ -19,9 +20,5 @@
   "shortName": "kerleano",
   "chainId": 1804,
   "networkId": 1804,
-  "explorers": [{
-    "name": "lite explorer",
-    "url": "https://ethereum-pocr.github.io/explorer",
-    "standard": "EIP3091"
-  }]
+  "explorers": []
 }
