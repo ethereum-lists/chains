@@ -3652,6 +3652,32 @@
   "faucets": [],
   "infoURL": "https://www.cryptocoinpay.co"
 }, {
+  "name": "Quadrans Blockchain",
+  "chainId": 10946,
+  "shortName": "quadrans",
+  "networkId": 10946,
+  "nativeCurrency": {
+    "name": "Quadrans Coin",
+    "symbol": "QDC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.quadrans.io", "https://rpcna.quadrans.io", "https://explorer.quadrans.io"],
+  "faucets": [],
+  "infoURL": "https://quadrans.io"
+}, {
+  "name": "Quadrans Blockchain Testnet",
+  "chainId": 10947,
+  "shortName": "quadranstestnet",
+  "networkId": 10947,
+  "nativeCurrency": {
+    "name": "Quadrans Testnet Coin",
+    "symbol": "tQDC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpctest.quadrans.io", "https://explorer.testnet.quadrans.io"],
+  "faucets": ["https://faucetpage.quadrans.io"],
+  "infoURL": "https://quadrans.io"
+}, {
   "name": "WAGMI",
   "chainId": 11111,
   "shortName": "WAGMI",
