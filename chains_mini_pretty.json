@@ -4276,6 +4276,32 @@
   "faucets": ["https://faucet.nervos.org/"],
   "infoURL": "https://github.com/nervosnetwork/godwoken"
 }, {
+  "name": "Godwoken Testnet (V1.1)",
+  "chainId": 71401,
+  "shortName": "gw-testnet-v1",
+  "networkId": 71401,
+  "nativeCurrency": {
+    "name": "CKB",
+    "symbol": "CKB",
+    "decimals": 18
+  },
+  "rpc": ["https://godwoken-testnet-v1.ckbapp.dev"],
+  "faucets": ["https://testnet.bridge.godwoken.io"],
+  "infoURL": "https://www.nervos.org"
+}, {
+  "name": "Godwoken Mainnet",
+  "chainId": 71402,
+  "shortName": "gw-mainnet-v1",
+  "networkId": 71402,
+  "nativeCurrency": {
+    "name": "CKB",
+    "symbol": "CKB",
+    "decimals": 18
+  },
+  "rpc": ["https://godwoken-testnet-v1.ckbapp.dev"],
+  "faucets": ["https://testnet.bridge.godwoken.io"],
+  "infoURL": "https://www.nervos.org"
+}, {
   "name": "Energy Web Volta Testnet",
   "chainId": 73799,
   "shortName": "vt",
@@ -5344,7 +5370,7 @@
 }, {
   "name": "Godwoken Testnet (V1)",
   "chainId": 868455272153094,
-  "shortName": "gw-testnet-v1",
+  "shortName": "gw-testnet-v1-deprecated",
   "networkId": 868455272153094,
   "nativeCurrency": {
     "name": "CKB",
