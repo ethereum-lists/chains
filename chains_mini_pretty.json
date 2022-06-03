@@ -3821,6 +3821,19 @@
   "faucets": [],
   "infoURL": "https://www.mintme.com"
 }, {
+  "name": "OasisChain Mainnet",
+  "chainId": 26863,
+  "shortName": "OAC",
+  "networkId": 26863,
+  "nativeCurrency": {
+    "name": "OAC",
+    "symbol": "OAC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1.oasischain.io", "https://rpc2.oasischain.io", "https://rpc3.oasischain.io"],
+  "faucets": ["http://faucet.oasischain.io"],
+  "infoURL": "https://scan.oasischain.io"
+}, {
   "name": "Piece testnet",
   "chainId": 30067,
   "shortName": "Piece",
