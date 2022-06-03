@@ -4939,6 +4939,19 @@
   "faucets": ["http://fauceth.komputing.org?chain=1337702&address=${ADDRESS}", "https://faucet.kintsugi.themerge.dev"],
   "infoURL": "https://kintsugi.themerge.dev/"
 }, {
+  "name": "Kiln",
+  "chainId": 1337802,
+  "shortName": "kiln",
+  "networkId": 1337802,
+  "nativeCurrency": {
+    "name": "Testnet ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.kiln.themerge.dev"],
+  "faucets": ["https://faucet.kiln.themerge.dev", "https://kiln-faucet.pk910.de", "https://kilnfaucet.com"],
+  "infoURL": "https://kiln.themerge.dev/"
+}, {
   "name": "PlatON Dev Testnet",
   "chainId": 2203181,
   "shortName": "platondev",
