@@ -3041,18 +3041,18 @@
   "faucets": ["https://testnet-faucet.ezchain.com"],
   "infoURL": "https://ezchain.com"
 }, {
-  "name": "Echelon",
+  "name": "CENNZnet Rata",
   "chainId": 3000,
-  "shortName": "echelon",
+  "shortName": "cennz-r",
   "networkId": 3000,
   "nativeCurrency": {
-    "name": "ECH",
-    "symbol": "ECH",
+    "name": "CPAY",
+    "symbol": "CPAY",
     "decimals": 18
   },
-  "rpc": ["https://rpc.ech.network", "https://evm.ech.network", "https://draco.ech.network"],
-  "faucets": ["https://app.ech.network/faucet"],
-  "infoURL": "https://ech.network"
+  "rpc": ["https://rata.centrality.me/public"],
+  "faucets": ["https://app-faucet.centrality.me"],
+  "infoURL": "https://cennz.net"
 }, {
   "name": "CENNZnet Nikau",
   "chainId": 3001,
