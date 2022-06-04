@@ -1,0 +1,23 @@
+{
+  "name": "IoTeX Network Nightly",
+  "chain": "iotex.io",
+  "rpc": [
+    "https://babel-nightly.iotex.io "
+  ],
+  "faucets": [
+  ],
+  "nativeCurrency": {
+    "name": "IoTeX",
+    "symbol": "IOTX",
+    "decimals": 18
+  },
+  "infoURL": "https://iotex.io",
+  "shortName": "iotex-nightly",
+  "chainId": 4691,
+  "networkId": 4691,
+  "explorers": [{
+    "name": "nightly iotexscan",
+    "url": "https://nightly.iotexscan.io",
+    "standard": "EIP3091"
+  }]
+}
