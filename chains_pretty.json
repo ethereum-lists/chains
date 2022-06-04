@@ -5539,7 +5539,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}", "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}", "https://arb1.arbitrum.io/rpc", "wss://arb1.arbitrum.io/ws"],
+  "rpc": ["https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}", "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}", "https://arb1.arbitrum.io/rpc"],
   "faucets": [],
   "explorers": [{
     "name": "Arbiscan",
@@ -6797,7 +6797,7 @@
     "symbol": "ARETH",
     "decimals": 18
   },
-  "rpc": ["https://rinkeby.arbitrum.io/rpc", "wss://rinkeby.arbitrum.io/ws"],
+  "rpc": ["https://rinkeby.arbitrum.io/rpc"],
   "faucets": ["http://fauceth.komputing.org?chain=421611&address=${ADDRESS}"],
   "infoURL": "https://arbitrum.io",
   "explorers": [{
