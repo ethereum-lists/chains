@@ -1,5 +1,6 @@
 {
-  "name": "DFK Chain",
+  "name": "Avalanche DFK Chain",
+  "title": "Avalanche DFK Chain in DeFi Kingdoms Subnet",
   "chain": "DFK",
   "icon": "dfk",
   "network": "mainnet",
@@ -17,6 +18,12 @@
   "chainId": 53935,
   "networkId": 53935,
   "explorers": [
+    {
+      "name": "avascan",
+      "url": "https://avascan.info/blockchain/dfk",
+      "icon": "avascan",
+      "standard": "EIP3091"
+    },
     {
       "name": "ethernal",
       "url": "https://explorer.dfkchain.com",

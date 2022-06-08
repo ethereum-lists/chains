@@ -1,6 +1,8 @@
 {
-  "name": "Avalanche Fuji Testnet",
+  "name": "Avalanche Fuji C-Chain",
+  "title": "Avalanche Fuji C-Chain in Primary Network",
   "chain": "AVAX",
+  "network": "testnet",
   "rpc": [
     "https://api.avax-test.network/ext/bc/C/rpc"
   ],
@@ -13,10 +15,16 @@
     "decimals": 18
   },
   "infoURL": "https://cchain.explorer.avax-test.network",
-  "shortName": "Fuji",
+  "shortName": "C-Chain Fuji",
   "chainId": 43113,
   "networkId": 1,
   "explorers": [
+    {
+      "name": "avascan",
+      "url": "https://testnet.avascan.info/blockchain/c",
+      "icon": "avascan",
+      "standard": "EIP3091"
+    },
     {
       "name": "snowtrace",
       "url": "https://testnet.snowtrace.io",

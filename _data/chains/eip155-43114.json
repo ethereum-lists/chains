@@ -1,6 +1,8 @@
 {
   "name": "Avalanche C-Chain",
+  "title": "Avalanche C-Chain in Primary Network",
   "chain": "AVAX",
+  "network": "mainnet",
   "rpc": [
     "https://api.avax.network/ext/bc/C/rpc"
   ],
@@ -11,11 +13,17 @@
     "decimals": 18
   },
   "infoURL": "https://www.avax.network/",
-  "shortName": "Avalanche",
+  "shortName": "C-Chain",
   "chainId": 43114,
   "networkId": 43114,
   "slip44": 9005,
   "explorers": [
+    {
+      "name": "avascan",
+      "url": "https://avascan.info/blockchain/c",
+      "icon": "avascan",
+      "standard": "EIP3091"
+    },
     {
       "name": "snowtrace",
       "url": "https://snowtrace.io",

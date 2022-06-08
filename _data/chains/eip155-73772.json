@@ -1,0 +1,28 @@
+{
+  "name": "Avalanche Swimmer",
+  "title": "Avalanche Swimmer in Swimmer Subnet",
+  "chain": "SWIMMER",
+  "icon": "swimmer",
+  "network": "mainnet",
+  "rpc": [
+    "https://subnets.avax.network/swimmer/mainnet/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Treasure Under Sea",
+    "symbol": "TUS",
+    "decimals": 18
+  },
+  "infoURL": "https://swimmer.network",
+  "shortName": "SWIMMER",
+  "chainId": 73772,
+  "networkId": 73772,
+  "explorers": [
+    {
+      "name": "avascan",
+      "url": "https://testnet.avascan.info/blockchain/swimmer",
+      "icon": "avascan",
+      "standard": "EIP3091"
+    },
+  ]
+}
