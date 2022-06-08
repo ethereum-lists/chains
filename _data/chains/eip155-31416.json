@@ -1,0 +1,27 @@
+{
+  "name": "Avalanche Castle Crush Test",
+  "title": "Avalanche Castle Crush Test in Castle Crush Subnet",
+  "chain": "CASTLECRUSH",
+  "network": "testnet",
+  "rpc": [
+    "https://subnets.avax.network/castle-crush/testnet/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ascension Crystals",
+    "symbol": "ACS",
+    "decimals": 18
+  },
+  "infoURL": "https://castlecrushgame.com/",
+  "shortName": "CASTLECRUSH",
+  "chainId": 31416,
+  "networkId": 31416,
+  "explorers": [
+    {
+      "name": "avascan",
+      "url": "https://testnet.avascan.info/blockchain/castlecrush",
+      "icon": "avascan",
+      "standard": "EIP3091"
+    },
+  ]
+}
