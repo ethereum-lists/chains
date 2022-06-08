@@ -1,0 +1,27 @@
+{
+  "name": "Avalanche Kaira Test",
+  "title": "Avalanche Kaira Test in Kaira Subnet",
+  "chain": "KAIRA",
+  "network": "testnet",
+  "rpc": [
+    "https://testnet.kairachain.com/ext/bc/2MB17w7YPjx1ZUrgQ838cJvpjC322YZGgBxMEWE2h2aGeqBNAm/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Kaira Token",
+    "symbol": "KAIRA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.kaira.network",
+  "shortName": "KAIRA",
+  "chainId": 71524,
+  "networkId": 71524,
+  "explorers": [
+    {
+      "name": "avascan",
+      "url": "https://testnet.avascan.info/blockchain/kaira",
+      "icon": "avascan",
+      "standard": "EIP3091"
+    },
+  ]
+}
