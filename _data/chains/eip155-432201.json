@@ -1,5 +1,6 @@
 {
- "name": "Dexalot Testnet",
+ "name": "Avalanche Dexalot Test",
+ "title": "Avalanche Dexalot Test in Dexalot Subnet"
  "chain": "DEXALOT",
  "network": "testnet",
  "rpc": [
@@ -16,10 +17,16 @@
  "chainId": 432201,
  "networkId": 432201,
  "explorers": [
-    {
-    "name": "Avalanche Subnet Explorer",
-    "url": "https://subnets.avax.network/dexalot/testnet/explorer",
-    "standard": "EIP3091"
+   {
+     "name": "avascan",
+     "url": "https://testnet.avascan.info/blockchain/dexalot",
+     "icon": "avascan",
+     "standard": "EIP3091"
+   },
+   {
+     "name": "Avalanche Subnet Explorer",
+     "url": "https://subnets.avax.network/dexalot/testnet/explorer",
+     "standard": "EIP3091"
     }
  ]
 }
