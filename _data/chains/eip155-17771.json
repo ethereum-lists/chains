@@ -1,0 +1,27 @@
+{
+  "name": "Avalanche Hero Test",
+  "title": "Avalanche Hero Test in Hero Subnet",
+  "chain": "HERO",
+  "network": "testnet",
+  "rpc": [
+    "https://herotestnet.heroesofnft.com/ext/bc/2kdzD7eps9QRC449zypVGBbrzkwFrefLzmt24tS8MxmvEBuWvP/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Heroes Reward Money",
+    "symbol": "HRM",
+    "decimals": 18
+  },
+  "infoURL": "https://heroesofnft.com/",
+  "shortName": "HERO",
+  "chainId": 17771,
+  "networkId": 17771,
+  "explorers": [
+    {
+      "name": "avascan",
+      "url": "https://testnet.avascan.info/blockchain/hero",
+      "icon": "avascan",
+      "standard": "EIP3091"
+    },
+  ]
+}
