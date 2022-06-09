@@ -5,7 +5,7 @@
     "https://http-mainnet.cube.network",
     "wss://ws-mainnet.cube.network",
     "https://http-mainnet-sg.cube.network",
-    "wwss://ws-mainnet-sg.cube.network",
+    "wss://ws-mainnet-sg.cube.network",
     "https://http-mainnet-us.cube.network",
     "wss://ws-mainnet-us.cube.network"
   ],
@@ -19,6 +19,7 @@
   "shortName": "cube",
   "chainId": 1818,
   "networkId": 1818,
+  "icon": "cube",
   "slip44": 1818,
   "explorers": [{
     "name": "cubemain-scan",
