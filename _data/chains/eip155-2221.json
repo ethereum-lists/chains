@@ -5,12 +5,12 @@
   "rpc": ["https://evm.evm-alpha.kava.io", "wss://evm-ws.evm-alpha.kava.io"],
   "faucets": ["https://faucet.kava.io"],
   "nativeCurrency": {
-    "name": "Kava",
-    "symbol": "KAVA",
+    "name": "TKava",
+    "symbol": "TKAVA",
     "decimals": 18
   },
   "infoURL": "https://www.kava.io",
-  "shortName": "kava",
+  "shortName": "tkava",
   "chainId": 2221,
   "networkId": 2221,
   "icon": "kava",
