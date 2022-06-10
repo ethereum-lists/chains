@@ -1,5 +1,5 @@
 {
-    "name": "Candle Mainnet",
+    "name": "Candle",
     "chain": "Candle",
     "rpc": [
         "https://candle-rpc.com/",
@@ -17,8 +17,8 @@
     "networkId": 534,
     "slip44": 674,
     "explorers": [{
-        "name": "candlescan",
-        "url": "https://cndlchain.com",
-        "standard": "none"
+        "name": "candleexplorer",
+        "url": "https://candleexplorer.com",
+        "standard": "EIP3091"
     }]
 }
