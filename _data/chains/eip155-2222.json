@@ -2,7 +2,12 @@
   "name": "Kava EVM",
   "chain": "KAVA",
   "network": "mainnet",
-  "rpc": ["https://evm.kava.io", "wss://wevm.kava.io"],
+  "rpc": [
+    "https://evm.kava.io",
+    "https://evm2.kava.io",
+    "wss://wevm.kava.io",
+    "wss://wevm2.kava.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Kava",
