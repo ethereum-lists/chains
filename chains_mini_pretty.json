@@ -3238,7 +3238,7 @@
 }, {
   "name": "Venidium Testnet",
   "chainId": 4918,
-  "shortName": "xvm",
+  "shortName": "txvm",
   "networkId": 4918,
   "nativeCurrency": {
     "name": "Venidium",
@@ -3246,6 +3246,19 @@
     "decimals": 18
   },
   "rpc": ["https://rpc-evm-testnet.venidium.io"],
+  "faucets": [],
+  "infoURL": "https://venidium.io"
+}, {
+  "name": "Venidium Mainnet",
+  "chainId": 4919,
+  "shortName": "xvm",
+  "networkId": 4919,
+  "nativeCurrency": {
+    "name": "Venidium",
+    "symbol": "XVM",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.venidium.io"],
   "faucets": [],
   "infoURL": "https://venidium.io"
 }, {
