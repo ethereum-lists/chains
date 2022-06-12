@@ -2300,6 +2300,32 @@
   "faucets": ["https://faucet.nepalblockchain.network"],
   "infoURL": "https://nepalblockchain.network"
 }, {
+  "name": "TOP Mainnet EVM",
+  "chainId": 980,
+  "shortName": "top_evm",
+  "networkId": 0,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["ethapi.topnetwork.org"],
+  "faucets": [],
+  "infoURL": "https://www.topnetwork.org/"
+}, {
+  "name": "TOP Mainnet",
+  "chainId": 989,
+  "shortName": "top",
+  "networkId": 0,
+  "nativeCurrency": {
+    "name": "TOP",
+    "symbol": "TOP",
+    "decimals": 6
+  },
+  "rpc": ["topapi.topnetwork.org"],
+  "faucets": [],
+  "infoURL": "https://www.topnetwork.org/"
+}, {
   "name": "Lucky Network",
   "chainId": 998,
   "shortName": "ln",
