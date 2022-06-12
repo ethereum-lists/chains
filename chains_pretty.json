@@ -2617,7 +2617,7 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Candle Mainnet",
+  "name": "Candle",
   "chain": "Candle",
   "rpc": ["https://candle-rpc.com/", "https://rpc.cndlchain.com"],
   "faucets": [],
@@ -2632,9 +2632,9 @@
   "networkId": 534,
   "slip44": 674,
   "explorers": [{
-    "name": "candlescan",
-    "url": "https://cndlchain.com",
-    "standard": "none"
+    "name": "candleexplorer",
+    "url": "https://candleexplorer.com",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Vela1 Chain Mainnet",
