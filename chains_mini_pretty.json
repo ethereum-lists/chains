@@ -4562,6 +4562,19 @@
   "faucets": [],
   "infoURL": "https://www.quarkchain.io"
 }, {
+  "name": "Crystaleum",
+  "chainId": 103090,
+  "shortName": "CRFI",
+  "networkId": 1,
+  "nativeCurrency": {
+    "name": "CRFI",
+    "symbol": "◈",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.cryptocurrencydevs.org", "https://rpc.crystaleum.org"],
+  "faucets": [],
+  "infoURL": "https://crystaleum.org"
+}, {
   "name": "BROChain Mainnet",
   "chainId": 108801,
   "shortName": "bro",
