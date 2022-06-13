@@ -3405,6 +3405,19 @@
   "faucets": [],
   "infoURL": "https://chain.pixie.xyz"
 }, {
+  "name": "Ella the heart",
+  "chainId": 7027,
+  "shortName": "ELLA",
+  "networkId": 7027,
+  "nativeCurrency": {
+    "name": "Ella",
+    "symbol": "ELLA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.ella.network"],
+  "faucets": [],
+  "infoURL": "https://ella.network"
+}, {
   "name": "Shyft Mainnet",
   "chainId": 7341,
   "shortName": "shyft",
