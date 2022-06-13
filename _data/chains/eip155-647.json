@@ -2,6 +2,7 @@
   "name": "SX Network Testnet",
   "chain": "SX",
   "icon": "SX",
+  "network": "testnet",
   "rpc": [
     "https://rpc.toronto.sx.technology"
   ],
@@ -14,7 +15,7 @@
     "decimals": 18
   },
   "infoURL": "https://www.sx.technology",
-  "shortName": "SX",
+  "shortName": "SX-Testnet",
   "chainId": 647,
   "networkId": 647,
   "explorers": [{
