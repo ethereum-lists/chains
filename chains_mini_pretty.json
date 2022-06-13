@@ -3821,6 +3821,19 @@
   "faucets": ["https://faucet.metadot.network/"],
   "infoURL": "https://metadot.network"
 }, {
+  "name": "IVAR Chain Testnet",
+  "chainId": 16888,
+  "shortName": "tivar",
+  "networkId": 16888,
+  "nativeCurrency": {
+    "name": "tIvar",
+    "symbol": "tIVAR",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.ivarex.com"],
+  "faucets": ["https://tfaucet.ivarex.com/"],
+  "infoURL": "https://ivarex.com"
+}, {
   "name": "BTCIX Network",
   "chainId": 19845,
   "shortName": "btcix",
@@ -4431,6 +4444,19 @@
   "rpc": ["https://matic-mumbai.chainstacklabs.com", "https://rpc-mumbai.maticvigil.com", "https://matic-testnet-archive-rpc.bwarelabs.com"],
   "faucets": ["https://faucet.polygon.technology/"],
   "infoURL": "https://polygon.technology/"
+}, {
+  "name": "IVAR Chain Mainnet",
+  "chainId": 88888,
+  "shortName": "ivar",
+  "networkId": 88888,
+  "nativeCurrency": {
+    "name": "Ivar",
+    "symbol": "IVAR",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.ivarex.com"],
+  "faucets": ["https://faucet.ivarex.com/"],
+  "infoURL": "https://ivarex.com"
 }, {
   "name": "UB Smart Chain(testnet)",
   "chainId": 99998,

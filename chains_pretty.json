@@ -5358,6 +5358,26 @@
   "chainId": 16001,
   "networkId": 16001
 }, {
+  "name": "IVAR Chain Testnet",
+  "chain": "IVAR",
+  "icon": "ivar",
+  "rpc": ["https://testnet-rpc.ivarex.com"],
+  "faucets": ["https://tfaucet.ivarex.com/"],
+  "nativeCurrency": {
+    "name": "tIvar",
+    "symbol": "tIVAR",
+    "decimals": 18
+  },
+  "infoURL": "https://ivarex.com",
+  "shortName": "tivar",
+  "chainId": 16888,
+  "networkId": 16888,
+  "explorers": [{
+    "name": "ivarscan",
+    "url": "https://testnet.ivarscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "BTCIX Network",
   "chain": "BTCIX",
   "rpc": ["https://seed.btcix.org/rpc"],
@@ -6231,6 +6251,26 @@
   "explorers": [{
     "name": "polygonscan",
     "url": "https://mumbai.polygonscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "IVAR Chain Mainnet",
+  "chain": "IVAR",
+  "icon": "ivar",
+  "rpc": ["https://mainnet-rpc.ivarex.com"],
+  "faucets": ["https://faucet.ivarex.com/"],
+  "nativeCurrency": {
+    "name": "Ivar",
+    "symbol": "IVAR",
+    "decimals": 18
+  },
+  "infoURL": "https://ivarex.com",
+  "shortName": "ivar",
+  "chainId": 88888,
+  "networkId": 88888,
+  "explorers": [{
+    "name": "ivarscan",
+    "url": "https://ivarscan.com",
     "standard": "EIP3091"
   }]
 }, {
