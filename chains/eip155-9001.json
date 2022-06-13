@@ -1,0 +1,30 @@
+{
+  "name": "Evmos",
+  "chain": "Evmos",
+  "rpc": ["https://eth.bd.evmos.org:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Evmos",
+    "symbol": "EVMOS",
+    "decimals": 18
+  },
+  "infoURL": "https://evmos.org",
+  "shortName": "evmos",
+  "chainId": 9001,
+  "networkId": 9001,
+  "icon": "evmos",
+  "explorers": [
+    {
+      "name": "Evmos EVM Explorer (Blockscout)",
+      "url": "https://evm.evmos.org",
+      "standard": "none",
+      "icon": "evmos"
+    },
+    {
+      "name": "Evmos Cosmos Explorer (Mintscan)",
+      "url": "https://www.mintscan.io/evmos",
+      "standard": "none",
+      "icon": "evmos"
+    }
+  ]
+}

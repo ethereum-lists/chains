@@ -1,0 +1,25 @@
+{
+  "name": "Kava EVM Testnet",
+  "chain": "KAVA",
+  "network": "testnet",
+  "rpc": ["https://evm.evm-alpha.kava.io", "wss://evm-ws.evm-alpha.kava.io"],
+  "faucets": ["https://faucet.kava.io"],
+  "nativeCurrency": {
+    "name": "Kava",
+    "symbol": "KAVA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.kava.io",
+  "shortName": "kava",
+  "chainId": 2221,
+  "networkId": 2221,
+  "icon": "kava",
+  "explorers": [
+    {
+      "name": "Kava Testnet Explorer",
+      "url": "https://explorer.evm-alpha.kava.io",
+      "standard": "EIP3091",
+      "icon": "kava"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Emerald Paratime Testnet",
+  "chain": "Emerald",
+  "icon": "oasis",
+  "rpc": [
+    "https://testnet.emerald.oasis.dev/",
+    "wss://testnet.emerald.oasis.dev/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Emerald Rose",
+    "symbol": "ROSE",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.oasis.dev/general/developer-resources/overview",
+  "shortName": "emerald",
+  "chainId": 42261,
+  "networkId": 42261,
+  "explorers": [{
+    "name": "Emerald Paratime Testnet Explorer",
+    "url": "https://testnet.explorer.emerald.oasis.dev",
+    "standard": "EIP3091"
+  }]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Celo Mainnet",
+  "chainId": 42220,
+  "shortName": "CELO",
+  "chain": "CELO",
+  "networkId": 42220,
+  "nativeCurrency": {
+    "name": "CELO",
+    "symbol": "CELO",
+    "decimals": 18
+  },
+  "rpc": ["https://forno.celo.org", "wss://forno.celo.org/ws"],
+  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "infoURL": "https://docs.celo.org/",
+
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.celo.org",
+    "standard": "none"
+  }]
+}

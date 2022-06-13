@@ -1,0 +1,30 @@
+{
+  "name": "Evmos Testnet",
+  "chain": "Evmos",
+  "rpc": ["https://eth.bd.evmos.dev:8545"],
+  "faucets": ["https://faucet.evmos.dev"],
+  "nativeCurrency": {
+    "name": "test-Evmos",
+    "symbol": "tEVMOS",
+    "decimals": 18
+  },
+  "infoURL": "https://evmos.org",
+  "shortName": "evmos-testnet",
+  "chainId": 9000,
+  "networkId": 9000,
+  "icon": "evmos",
+  "explorers": [
+    {
+      "name": "Evmos EVM Explorer",
+      "url": "https://evm.evmos.dev",
+      "standard": "EIP3091",
+      "icon": "evmos"
+    },
+    {
+      "name": "Evmos Cosmos Explorer",
+      "url": "https://explorer.evmos.dev",
+      "standard": "none",
+      "icon": "evmos"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "XinFin Apothem Testnet",
+  "chain": "TXDC",
+  "rpc": [
+    "https://rpc.apothem.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "XinFinTest",
+    "symbol": "TXDC",
+    "decimals": 18
+  },
+  "infoURL": "https://xinfin.org",
+  "shortName": "TXDC",
+  "chainId": 51,
+  "networkId": 51
+}

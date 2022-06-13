@@ -1,0 +1,22 @@
+{
+  "name": "Ambros Chain Testnet",
+  "chain": "ambroschain",
+  "rpc": [
+    "https://api.testnet.ambros.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+      "name": "AMBROS",
+      "symbol": "AMBROS",
+      "decimals": 18
+  },
+  "infoURL": "https://test.ambros.network",
+  "shortName": "ambrostestnet",
+  "chainId": 8888,
+  "networkId": 8888,
+  "explorers": [{
+    "name": "Ambros Chain Explorer",
+    "url": "https://testnet.ambrosscan.com",
+    "standard": "none"
+  }]
+}
