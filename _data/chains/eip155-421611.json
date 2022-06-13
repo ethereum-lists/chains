@@ -19,6 +19,11 @@
   "infoURL": "https://arbitrum.io",
   "explorers": [
     {
+      "name": "arbiscan-testnet",
+      "url": "https://testnet.arbiscan.io",
+      "standard": "EIP3091"
+    },
+    {
       "name": "arbitrum-rinkeby",
       "url": "https://rinkeby-explorer.arbitrum.io",
       "standard": "EIP3091"
