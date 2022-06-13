@@ -2768,6 +2768,19 @@
   "faucets": [],
   "infoURL": "https://www.ludan.org/"
 }, {
+  "name": "Cube Chain Mainnet",
+  "chainId": 1818,
+  "shortName": "cube",
+  "networkId": 1818,
+  "nativeCurrency": {
+    "name": "Cube Chain Native Token",
+    "symbol": "CUBE",
+    "decimals": 18
+  },
+  "rpc": ["https://http-mainnet.cube.network", "wss://ws-mainnet.cube.network", "https://http-mainnet-sg.cube.network", "wss://ws-mainnet-sg.cube.network", "https://http-mainnet-us.cube.network", "wss://ws-mainnet-us.cube.network"],
+  "faucets": [],
+  "infoURL": "https://www.cube.network"
+}, {
   "name": "Cube Chain Testnet",
   "chainId": 1819,
   "shortName": "cubet",

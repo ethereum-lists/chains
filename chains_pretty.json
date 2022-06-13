@@ -3803,8 +3803,30 @@
   "chainId": 1688,
   "networkId": 1688
 }, {
+  "name": "Cube Chain Mainnet",
+  "chain": "Cube",
+  "icon": "cube",
+  "rpc": ["https://http-mainnet.cube.network", "wss://ws-mainnet.cube.network", "https://http-mainnet-sg.cube.network", "wss://ws-mainnet-sg.cube.network", "https://http-mainnet-us.cube.network", "wss://ws-mainnet-us.cube.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Cube Chain Native Token",
+    "symbol": "CUBE",
+    "decimals": 18
+  },
+  "infoURL": "https://www.cube.network",
+  "shortName": "cube",
+  "chainId": 1818,
+  "networkId": 1818,
+  "slip44": 1818,
+  "explorers": [{
+    "name": "cube-scan",
+    "url": "https://cubescan.network",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Cube Chain Testnet",
   "chain": "Cube",
+  "icon": "cube",
   "rpc": ["https://http-testnet.cube.network", "wss://ws-testnet.cube.network", "https://http-testnet-sg.cube.network", "wss://ws-testnet-sg.cube.network", "https://http-testnet-jp.cube.network", "wss://ws-testnet-jp.cube.network", "https://http-testnet-us.cube.network", "wss://ws-testnet-us.cube.network"],
   "faucets": ["https://faucet.cube.network"],
   "nativeCurrency": {
