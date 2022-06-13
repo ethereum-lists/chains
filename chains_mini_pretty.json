@@ -3700,7 +3700,7 @@
     "symbol": "QDC",
     "decimals": 18
   },
-  "rpc": ["https://rpc.quadrans.io", "https://rpcna.quadrans.io", "https://explorer.quadrans.io"],
+  "rpc": ["https://rpc.quadrans.io", "https://rpcna.quadrans.io", "https://rpceu.quadrans.io"],
   "faucets": [],
   "infoURL": "https://quadrans.io"
 }, {
@@ -3713,7 +3713,7 @@
     "symbol": "tQDC",
     "decimals": 18
   },
-  "rpc": ["https://rpctest.quadrans.io", "https://explorer.testnet.quadrans.io"],
+  "rpc": ["https://rpctest.quadrans.io", "https://rpctest2.quadrans.io"],
   "faucets": ["https://faucetpage.quadrans.io"],
   "infoURL": "https://quadrans.io"
 }, {

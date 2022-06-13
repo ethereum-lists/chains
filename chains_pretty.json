@@ -5169,7 +5169,7 @@
   "chain": "QDC",
   "network": "mainnet",
   "icon": "quadrans",
-  "rpc": ["https://rpc.quadrans.io", "https://rpcna.quadrans.io", "https://explorer.quadrans.io"],
+  "rpc": ["https://rpc.quadrans.io", "https://rpcna.quadrans.io", "https://rpceu.quadrans.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Quadrans Coin",
@@ -5191,7 +5191,7 @@
   "chain": "tQDC",
   "network": "testnet",
   "icon": "quadrans",
-  "rpc": ["https://rpctest.quadrans.io", "https://explorer.testnet.quadrans.io"],
+  "rpc": ["https://rpctest.quadrans.io", "https://rpctest2.quadrans.io"],
   "faucets": ["https://faucetpage.quadrans.io"],
   "nativeCurrency": {
     "name": "Quadrans Testnet Coin",
