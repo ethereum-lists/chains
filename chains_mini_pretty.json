@@ -3431,6 +3431,19 @@
   "faucets": [],
   "infoURL": "https://shyft.network"
 }, {
+  "name": "Rise of the Warbots Testnet",
+  "chainId": 7777,
+  "shortName": "Rise of the Warbots Testnet",
+  "networkId": 7777,
+  "nativeCurrency": {
+    "name": "Nano Machines",
+    "symbol": "NMAC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet1.riseofthewarbots.com", "https://testnet2.riseofthewarbots.com", "https://testnet3.riseofthewarbots.com", "https://testnet4.riseofthewarbots.com", "https://testnet5.riseofthewarbots.com"],
+  "faucets": [],
+  "infoURL": "https://riseofthewarbots.com/"
+}, {
   "name": "Hazlor Testnet",
   "chainId": 7878,
   "shortName": "tscas",
