@@ -1429,6 +1429,19 @@
   "faucets": ["https://faucet.latam-blockchain.com"],
   "infoURL": "https://latam-blockchain.com"
 }, {
+  "name": "AME Chain Mainnet",
+  "chainId": 180,
+  "shortName": "ame",
+  "networkId": 180,
+  "nativeCurrency": {
+    "name": "AME",
+    "symbol": "AME",
+    "decimals": 18
+  },
+  "rpc": ["https://node1.amechain.io/"],
+  "faucets": [],
+  "infoURL": "https://amechain.io/"
+}, {
   "name": "Seele Mainnet",
   "chainId": 186,
   "shortName": "Seele",
