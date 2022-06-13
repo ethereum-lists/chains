@@ -34,6 +34,7 @@ private fun createOutputFiles() {
     val miniChainJSONArray = JsonArray<JsonObject>()
     val shortNameMapping = JsonObject()
 
+    File(basePath, "_data").copyRecursively(buildPath)
     allChainFiles
         .map { Klaxon().parseJsonObject(it.reader()) }
         .sortedBy { (it["chainId"] as Number).toLong() }
