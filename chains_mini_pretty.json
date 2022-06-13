@@ -3379,6 +3379,19 @@
   "faucets": [],
   "infoURL": "https://venidium.io"
 }, {
+  "name": "TLChain Network Mainnet",
+  "chainId": 5177,
+  "shortName": "tlc",
+  "networkId": 5177,
+  "nativeCurrency": {
+    "name": "TLChain Network",
+    "symbol": "TLC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.tlxscan.com/"],
+  "faucets": [],
+  "infoURL": "https://tlchain.network/"
+}, {
   "name": "EraSwap Mainnet",
   "chainId": 5197,
   "shortName": "es",
