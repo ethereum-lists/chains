@@ -12,7 +12,7 @@ dependencies {
 
     implementation 'com.beust:klaxon:5.6'
     implementation 'com.squareup.moshi:moshi:1.13.0'
-    implementation 'com.squareup.okhttp3:okhttp:4.9.3'
+    implementation 'com.squareup.okhttp3:okhttp:4.10.0'
 
     implementation project(":model")
 
