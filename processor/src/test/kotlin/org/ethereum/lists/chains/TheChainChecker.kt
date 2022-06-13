@@ -221,9 +221,14 @@ class TheChainChecker {
         checkChain(getFile("invalid/explorermissingurl/eip155-1.json"), false)
     }
 
-    @Test(expected = DeprecatedMustBeBoolean::class)
-    fun shouldFailOnInvalidDeprecation() {
-        checkChain(getFile("invalid/invalid_deprecation/eip155-1.json"), false)
+    @Test(expected = StatusMustBeString::class)
+    fun shouldFailOnInvalidStatusType() {
+        checkChain(getFile("invalid/invalid_status/eip155-1.json"), false)
+    }
+
+    @Test(expected = StatusMustBeIncubatingActiveOrDeprecated::class)
+    fun shouldFailOnInvalidStatus() {
+        checkChain(getFile("invalid/invalid_status/eip155-2.json"), false)
     }
 
     @Test

@@ -69,6 +69,9 @@ If the chain is an L2 or a shard of another chain you can link it to the parent 
 
 where you need to specify type 2 and the reference to an existing parent. The field about bridges is optional.
 
+You can add a `status` field e.g. to `deprecate` a chain (a chain should never be deleted as this would open the door to replay attacks)
+Other options for `status` are `active` (default) or `incubating`
+
 ## Aggregation
 
 There are also aggregated json files with all chains automatically assembled:
@@ -80,16 +83,25 @@ There are also aggregated json files with all chains automatically assembled:
  If different chains have the same chainID we list the one with the oldest genesis.
 
 ## Usages
-
- * [chainlist.org](https://chainlist.org) or [networklist-org.vercel.app](https://networklist-org.vercel.app) as a staging version with a more up-to-date list
- * [chainid.network](https://chainid.network)
+### Wallets
  * [WallETH](https://walleth.org)
  * [TREZOR](https://trezor.io)
+
+### Explorers
+ * [Otterscan](https://otterscan.io)
+
+### EIPs
+ * EIP-155
+ * EIP-3014
+ * EIP-3770
+ * EIP-4527
+
+### Listing sites 
+ * [chainlist.org](https://chainlist.org) or [networklist-org.vercel.app](https://networklist-org.vercel.app) as a staging version with a more up-to-date list
+ * [chainid.network](https://chainid.network)
  * [networks.vercel.app](https://networks.vercel.app)
  * [eth-chains](https://github.com/taylorjdawson/eth-chains)
  * [EVM-BOX](https://github.com/izayl/evm-box)
- * [FaucETH](https://github.com/komputing/FaucETH)
- * [Sourcify playground](https://playground.sourcify.dev)
  * [chaindirectory.xyz](https://www.chaindirectory.xyz)
  * [chain-list.org](https://chain-list.org)
  * [DefiLlama's chainlist](https://chainlist.defillama.com/)
@@ -101,5 +113,10 @@ There are also aggregated json files with all chains automatically assembled:
  * [chainmap.io](https://chainmap.io) 
  * [chainlist.in](https://www.chainlist.in)
  * [chainz.me](https://chainz.me)
- * [Otterscan](https://otterscan.io)
+
+### Other
+ * [FaucETH](https://github.com/komputing/FaucETH)
+ * [Sourcify playground](https://playground.sourcify.dev)
+
+
  * Your project - contact us to add it here!
