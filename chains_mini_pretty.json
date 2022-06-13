@@ -3184,6 +3184,19 @@
   "faucets": [],
   "infoURL": "https://bittexscan.com"
 }, {
+  "name": "Crossbell",
+  "chainId": 3737,
+  "shortName": "csb",
+  "networkId": 3737,
+  "nativeCurrency": {
+    "name": "Crossbell Token",
+    "symbol": "CSB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.crossbell.io"],
+  "faucets": ["https://faucet.crossbell.io"],
+  "infoURL": "https://crossbell.io"
+}, {
   "name": "DYNO Mainnet",
   "chainId": 3966,
   "shortName": "dyno",
