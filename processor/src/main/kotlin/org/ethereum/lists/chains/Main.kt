@@ -13,6 +13,7 @@ import org.kethereum.erc55.isValid
 import org.kethereum.model.Address
 import org.kethereum.rpc.HttpEthereumRPC
 import java.time.Duration
+import kotlin.io.OnErrorAction.*
 
 val parsedShortNames = mutableSetOf<String>()
 val parsedNames = mutableSetOf<String>()
@@ -39,7 +40,8 @@ private fun createOutputFiles() {
     val miniChainJSONArray = JsonArray<JsonObject>()
     val shortNameMapping = JsonObject()
 
-    File(basePath, "_data").copyRecursively(buildPath)
+    // copy raw data so e.g. icons are available - SKIP errors
+    File(basePath, "_data").copyRecursively(buildPath, onError = { _, _ -> SKIP })
     allChainFiles
         .map { Klaxon().parseJsonObject(it.reader()) }
         .sortedBy { (it["chainId"] as Number).toLong() }
