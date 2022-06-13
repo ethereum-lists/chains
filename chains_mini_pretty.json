@@ -5069,6 +5069,19 @@
   "faucets": ["https://faucet.platon.network/faucet/?id=e5d32df10aee11ec911142010a667c03"],
   "infoURL": "https://www.platon.network"
 }, {
+  "name": "PlatON Dev Testnet2",
+  "chainId": 2206132,
+  "shortName": "platondev2",
+  "networkId": 1,
+  "nativeCurrency": {
+    "name": "LAT",
+    "symbol": "lat",
+    "decimals": 18
+  },
+  "rpc": ["https://devnet2openapi.platon.network/rpc", "wss://devnet2openapi.platon.network/ws"],
+  "faucets": ["https://devnet2faucet.platon.network/faucet"],
+  "infoURL": "https://www.platon.network"
+}, {
   "name": "Musicoin",
   "chainId": 7762959,
   "shortName": "music",
