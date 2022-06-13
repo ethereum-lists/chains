@@ -1845,6 +1845,19 @@
   "faucets": ["https://pipa.lisinski.online"],
   "infoURL": "https://lisinski.online"
 }, {
+  "name": "SX Network Mainnet",
+  "chainId": 416,
+  "shortName": "SX",
+  "networkId": 416,
+  "nativeCurrency": {
+    "name": "SX Network",
+    "symbol": "SX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.sx.technology"],
+  "faucets": [],
+  "infoURL": "https://www.sx.technology"
+}, {
   "name": "Optimistic Ethereum Testnet Goerli",
   "chainId": 420,
   "shortName": "ogor",
@@ -2013,6 +2026,19 @@
   "rpc": [],
   "faucets": [],
   "infoURL": ""
+}, {
+  "name": "SX Network Testnet",
+  "chainId": 647,
+  "shortName": "SX-Testnet",
+  "networkId": 647,
+  "nativeCurrency": {
+    "name": "SX Network",
+    "symbol": "SX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.toronto.sx.technology"],
+  "faucets": ["https://faucet.toronto.sx.technology"],
+  "infoURL": "https://www.sx.technology"
 }, {
   "name": "Pixie Chain Testnet",
   "chainId": 666,

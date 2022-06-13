@@ -2566,6 +2566,27 @@
   "chainId": 385,
   "networkId": 385
 }, {
+  "name": "SX Network Mainnet",
+  "chain": "SX",
+  "icon": "SX",
+  "network": "mainnet",
+  "rpc": ["https://rpc.sx.technology"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SX Network",
+    "symbol": "SX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.sx.technology",
+  "shortName": "SX",
+  "chainId": 416,
+  "networkId": 416,
+  "explorers": [{
+    "name": "SX Network Explorer",
+    "url": "https://explorer.sx.technology",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Optimistic Ethereum Testnet Goerli",
   "chain": "ETH",
   "rpc": ["https://goerli.optimism.io/"],
@@ -2793,6 +2814,27 @@
   "shortName": "mesh-chain-testnet",
   "chainId": 600,
   "networkId": 600
+}, {
+  "name": "SX Network Testnet",
+  "chain": "SX",
+  "icon": "SX",
+  "network": "testnet",
+  "rpc": ["https://rpc.toronto.sx.technology"],
+  "faucets": ["https://faucet.toronto.sx.technology"],
+  "nativeCurrency": {
+    "name": "SX Network",
+    "symbol": "SX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.sx.technology",
+  "shortName": "SX-Testnet",
+  "chainId": 647,
+  "networkId": 647,
+  "explorers": [{
+    "name": "SX Network Toronto Explorer",
+    "url": "https://explorer.toronto.sx.technology",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Pixie Chain Testnet",
   "chain": "PixieChain",
