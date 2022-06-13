@@ -3249,6 +3249,19 @@
   "faucets": ["https://faucet.dynoscan.io"],
   "infoURL": "https://dynoprotocol.com"
 }, {
+  "name": "YuanChain Mainnet",
+  "chainId": 3999,
+  "shortName": "ycc",
+  "networkId": 3999,
+  "nativeCurrency": {
+    "name": "YCC",
+    "symbol": "YCC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.yuan.org/eth"],
+  "faucets": [],
+  "infoURL": "https://www.yuan.org"
+}, {
   "name": "Fantom Testnet",
   "chainId": 4002,
   "shortName": "tftm",
