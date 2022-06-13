@@ -355,6 +355,6 @@ private fun getNumber(jsonObject: JsonObject, field: String): Long {
     return when (val chainId = jsonObject[field]) {
         is Int -> chainId.toLong()
         is Long -> chainId
-        else -> throw (Exception("chain_id must be a number"))
+        else -> throw(Exception("not a number at $field"))
     }
 }
