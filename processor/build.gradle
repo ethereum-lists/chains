@@ -18,5 +18,7 @@ dependencies {
 
     testImplementation "org.jetbrains.kotlin:kotlin-test:${KOTLIN_VERSION}"
     testImplementation "org.jetbrains.kotlin:kotlin-test-junit:${KOTLIN_VERSION}"
+
+    implementation 'com.github.ligi:ipfs-api-kotlin:0.15'
 }
 
