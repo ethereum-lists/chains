@@ -1923,6 +1923,19 @@
   "faucets": ["https://scan-testnet.acuteangle.com/faucet"],
   "infoURL": "https://www.acuteangle.com/"
 }, {
+  "name": "XT Smart Chain Mainnet",
+  "chainId": 520,
+  "shortName": "xt",
+  "networkId": 1024,
+  "nativeCurrency": {
+    "name": "XT Smart Chain Native Token",
+    "symbol": "XT",
+    "decimals": 18
+  },
+  "rpc": ["https://datarpc1.xsc.pub", "https://datarpc2.xsc.pub", "https://datarpc3.xsc.pub"],
+  "faucets": ["https://xsc.pub/faucet"],
+  "infoURL": "https://xsc.pub/"
+}, {
   "name": "Candle",
   "chainId": 534,
   "shortName": "CNDL",
