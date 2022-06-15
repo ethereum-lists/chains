@@ -1481,6 +1481,19 @@
   "faucets": [],
   "infoURL": "https://bmc.bytom.io/"
 }, {
+  "name": "Crypto Emergency",
+  "chainId": 193,
+  "shortName": "cem",
+  "networkId": 193,
+  "nativeCurrency": {
+    "name": "Crypto Emergency",
+    "symbol": "CEM",
+    "decimals": 18
+  },
+  "rpc": ["https://cemchain.com"],
+  "faucets": [],
+  "infoURL": "https://cemblockchain.com/"
+}, {
   "name": "BitTorrent Chain Mainnet",
   "chainId": 199,
   "shortName": "BTT",
