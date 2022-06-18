@@ -4562,6 +4562,19 @@
   "faucets": ["https://voltafaucet.energyweb.org"],
   "infoURL": "https://energyweb.org"
 }, {
+  "name": "Mixin Virtual Machine",
+  "chainId": 73927,
+  "shortName": "mvm",
+  "networkId": 73927,
+  "nativeCurrency": {
+    "name": "Mixin",
+    "symbol": "XIN",
+    "decimals": 8
+  },
+  "rpc": ["https://geth.mvm.dev"],
+  "faucets": [],
+  "infoURL": "https://mvm.dev"
+}, {
   "name": "Firenze test network",
   "chainId": 78110,
   "shortName": "firenze",

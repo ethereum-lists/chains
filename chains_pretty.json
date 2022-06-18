@@ -6445,6 +6445,28 @@
   "chainId": 73799,
   "networkId": 73799
 }, {
+  "name": "Mixin Virtual Machine",
+  "chain": "MVM",
+  "network": "mainnet",
+  "rpc": ["https://geth.mvm.dev"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Mixin",
+    "symbol": "XIN",
+    "decimals": 8
+  },
+  "infoURL": "https://mvm.dev",
+  "shortName": "mvm",
+  "chainId": 73927,
+  "networkId": 73927,
+  "icon": "mvm",
+  "explorers": [{
+    "name": "mvmscan",
+    "url": "https://scan.mvm.dev",
+    "icon": "mvm",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Firenze test network",
   "chain": "ETH",
   "rpc": ["https://ethnode.primusmoney.com/firenze"],
