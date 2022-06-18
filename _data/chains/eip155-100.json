@@ -4,13 +4,10 @@
   "icon": "gnosis",
   "rpc": [
     "https://rpc.gnosischain.com",
-    "https://xdai.poanetwork.dev",
-    "https://dai.poa.network",
     "https://rpc.ankr.com/gnosis",
     "https://gnosischain-rpc.gateway.pokt.network",
-    "wss://rpc.gnosischain.com/wss",
-    "wss://xdai.poanetwork.dev/wss",
-    "ws://xdai.poanetwork.dev:8546"
+    "https://gnosis-mainnet.public.blastapi.io",
+    "wss://rpc.gnosischain.com/wss"
   ],
   "faucets": ["https://faucet.gimlu.com/gnosis", "https://stakely.io/faucet/gnosis-chain-xdai", "https://faucet.prussia.dev/xdai"],
   "nativeCurrency": {
