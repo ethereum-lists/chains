@@ -1,0 +1,24 @@
+{
+  "name": "C4EI Mainnet",
+  "chain": "C4EI",
+  "icon": "c4ei",
+  "rpc": [
+    "https://rpc.c4ei.net"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "C4EI",
+    "symbol": "C4EI",
+    "decimals": 18
+  },
+  "infoURL": "https://c4ei.net",
+  "shortName": "c4ei",
+  "chainId": 21004,
+  "networkId": 21004,
+  "explorers": [{
+    "name": "c4eiscan",
+    "url": "https://exp.c4ei.net",
+    "icon": "c4ei",
+    "standard": "EIP3091"
+  }]
+}
