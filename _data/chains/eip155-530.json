@@ -1,0 +1,28 @@
+{
+    "name": "XT Smart Chain Testnet",
+    "chain": "XSC",
+    "icon": "xsc",
+    "rpc": [
+        "https://testnet1.xtvip.top",
+        "https://testnet2.xtvip.top",
+        "https://testnet3.xtvip.top",
+        "https://testnet4.xtvip.top",
+        "https://testnet5.xtvip.top",
+        "https://testnet6.xtvip.top"
+    ],
+    "faucets": ["https://xsc.pub/faucet"],
+    "nativeCurrency": {
+      "name": "XT Smart Chain Testnet Native Token",
+      "symbol": "XT",
+      "decimals": 18
+    },
+    "infoURL": "https://xsc.pub",
+    "shortName": "xt-test",
+    "chainId": 530,
+    "networkId": 530,
+    "explorers": [{
+      "name": "xscscan-testnet",
+      "url": "https://test-browser.xtvip.top",
+      "standard": "EIP3091"
+    }]
+  }
