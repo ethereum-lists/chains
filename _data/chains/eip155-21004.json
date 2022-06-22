@@ -16,8 +16,9 @@
   "chainId": 21004,
   "networkId": 21004,
   "explorers": [{
-    "name": "c4eiChain Explorer",
+    "name": "c4eiscan",
     "url": "https://exp.c4ei.net",
-    "standard": "none"
+    "icon": "c4ei",
+    "standard": "EIP3091"
   }]
 }

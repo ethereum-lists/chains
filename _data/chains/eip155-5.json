@@ -2,6 +2,7 @@
   "name": "Görli",
   "title": "Ethereum Testnet Görli",
   "chain": "ETH",
+  "network": "testnet",
   "rpc": [
     "https://goerli.infura.io/v3/${INFURA_API_KEY}",      
     "wss://goerli.infura.io/v3/${INFURA_API_KEY}",      

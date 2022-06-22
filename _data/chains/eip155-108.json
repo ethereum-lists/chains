@@ -2,13 +2,15 @@
   "name": "ThunderCore Mainnet",
   "chain": "TT",
   "rpc": [
-    "https://mainnet-rpc.thundercore.com"
+    "https://mainnet-rpc.thundercore.com",
+    "https://mainnet-rpc.thundertoken.net",
+    "https://mainnet-rpc.thundercore.io"
   ],
   "faucets": [
     "https://faucet.thundercore.com"
   ],
   "nativeCurrency": {
-    "name": "ThunderCore Mainnet Ether",
+    "name": "ThunderCore Token",
     "symbol": "TT",
     "decimals": 18
   },
@@ -18,9 +20,11 @@
   "networkId": 108,
   "slip44": 1001,
   
-  "explorers": [{
-  "name": "ThundercoreScan",
-  "url": "https://scan.thundercore.com",
-  "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "thundercore-viewblock",
+      "url": "https://viewblock.io/thundercore",
+      "standard": "EIP3091"
+    }
+  ]
 }

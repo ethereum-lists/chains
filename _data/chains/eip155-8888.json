@@ -2,21 +2,21 @@
   "name": "Ambros Chain Testnet",
   "chain": "ambroschain",
   "rpc": [
-    "https://testnet.ambroschain.com"
+    "https://api.testnet.ambros.network"
   ],
   "faucets": [],
   "nativeCurrency": {
       "name": "AMBROS",
-      "symbol": "AMBR",
+      "symbol": "AMBROS",
       "decimals": 18
   },
-  "infoURL": "https://bcmhunt.com/",
+  "infoURL": "https://test.ambros.network",
   "shortName": "ambrostestnet",
   "chainId": 8888,
   "networkId": 8888,
   "explorers": [{
     "name": "Ambros Chain Explorer",
-    "url": "https://testexplorer.ambroschain.com",
+    "url": "https://testnet.ambrosscan.com",
     "standard": "none"
   }]
 }

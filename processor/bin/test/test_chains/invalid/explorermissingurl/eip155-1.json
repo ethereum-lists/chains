@@ -16,6 +16,8 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "explorers": [],
-  "deprecated": "yolo"
+  "explorers": [{
+    "name": "yolo",
+    "standard": "EIP3091"
+  }]
 }

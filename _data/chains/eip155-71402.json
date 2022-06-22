@@ -1,0 +1,26 @@
+{
+  "name": "Godwoken Mainnet",
+  "chain": "GWT",
+  "rpc": [
+    "https://godwoken-testnet-v1.ckbapp.dev"
+  ],
+  "faucets": [
+    "https://testnet.bridge.godwoken.io"
+  ],
+  "nativeCurrency": {
+    "name": "CKB",
+    "symbol": "CKB",
+    "decimals": 18
+  },
+  "infoURL": "https://www.nervos.org",
+  "shortName": "gw-mainnet-v1",
+  "chainId": 71402,
+  "networkId": 71402,
+  "explorers": [
+    {
+      "name": "GWScan Block Explorer",
+      "url": "https://v1.aggron.gwscan.com",
+      "standard": "none"
+    }
+  ]
+}
