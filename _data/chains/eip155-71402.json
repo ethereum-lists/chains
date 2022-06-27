@@ -2,10 +2,10 @@
   "name": "Godwoken Mainnet",
   "chain": "GWT",
   "rpc": [
-    "https://godwoken-testnet-v1.ckbapp.dev"
+    "https://v1.mainnet.godwoken.io/rpc"
   ],
   "faucets": [
-    "https://testnet.bridge.godwoken.io"
+    "https://bridge.godwoken.io"
   ],
   "nativeCurrency": {
     "name": "CKB",
@@ -19,7 +19,7 @@
   "explorers": [
     {
       "name": "GWScan Block Explorer",
-      "url": "https://v1.aggron.gwscan.com",
+      "url": "https://v1.gwscan.com",
       "standard": "none"
     }
   ]
