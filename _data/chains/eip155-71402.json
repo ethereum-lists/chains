@@ -4,12 +4,10 @@
   "rpc": [
     "https://v1.mainnet.godwoken.io/rpc"
   ],
-  "faucets": [
-    "https://bridge.godwoken.io"
-  ],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "CKB",
-    "symbol": "CKB",
+    "name": "pCKB",
+    "symbol": "pCKB",
     "decimals": 18
   },
   "infoURL": "https://www.nervos.org",
