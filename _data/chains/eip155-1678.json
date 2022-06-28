@@ -1,0 +1,23 @@
+{
+  "name": "Arkon Chain",
+  "chain": "arkon",
+  "icon": "arkon",
+  "rpc": [
+    "https://rpc-testnet.arkon.network/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Arkon Coin",
+    "symbol": "KON",
+    "decimals": 18
+  },
+  "infoURL": "https://arkon.network/",
+  "shortName": "kon",
+  "chainId": 1678,
+  "networkId": 1678,
+  "explorers": [{
+    "name": "Arkon Explorer",
+    "url": "https://testnet.arkscan.net/",
+    "standard": "EIP3091"
+  }]
+}
