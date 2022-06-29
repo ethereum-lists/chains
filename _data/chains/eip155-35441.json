@@ -1,0 +1,22 @@
+{
+  "name": "Q Mainnet",
+  "chain": "Q",
+  "network": "mainnet",
+  "rpc": [
+    "https://rpc.q.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Q Token",
+    "symbol": "Q",
+  },
+  "infoURL": "https://q.org",
+  "shortName": "Q Mainnet",
+  "chainId": 35441,
+  "networkId": 35441,
+  "explorers": [{
+    "name": "qexplorer",
+    "url": "https://explorer.q.org",
+    "standard": "none"
+  }]
+}
