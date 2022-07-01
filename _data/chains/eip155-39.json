@@ -1,0 +1,24 @@
+{
+    "name": "Spectre Chain",
+    "chain": "SPC",
+    "icon": "spectre",
+    "rpc": [
+      "https://spectre-rpc.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Spectre Chain",
+      "symbol": "SPC",
+      "decimals": 18
+    },
+    "infoURL": "https://spectre-bc.io/",
+    "shortName": "spc",
+    "chainId": 39,
+    "networkId": 39,
+    "explorers": [{
+        "name": "Spectre BS",
+        "url": "https://spectre-scan.io/",
+        "standard": "EIP3091"
+      }]
+  }
+  
