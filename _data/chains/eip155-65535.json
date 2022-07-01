@@ -1,0 +1,23 @@
+{
+  "name": "SolarChainTestnet",
+  "chain": "SC",
+  "network": "testnet",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SolarChain",
+    "symbol": "SC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.starnet.ltd",
+  "shortName": "sct",
+  "chainId": 65535,
+  "networkId": 65535,
+  "icon": "sc",
+  "explorers": [{
+    "name": "sctscan",
+    "url": "https://sctsan.starnet.ltd",
+    "icon": "sc",
+    "standard": "EIP3091"
+  }]
+}
