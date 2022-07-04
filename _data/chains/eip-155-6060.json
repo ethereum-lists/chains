@@ -1,0 +1,17 @@
+{
+  "name": "Kitabu Chain",
+  "chain": "kitabu",
+  "rpc": [
+    "https://rpc.sarafu.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ukurasa",
+    "symbol": "UKU",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.grassecon.org/software/kitabu",
+  "shortName": "kitabu",
+  "chainId": 6060,
+  "networkId": 6060
+}
