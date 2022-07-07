@@ -1,0 +1,24 @@
+{
+  "name": "WrapTag Chain",
+  "chain": "WRAPTAG",
+  "rpc": [
+    "https://rpc.metheus.network/ext/bc/21Z7pN9Z6VfmMo8jjhDQYyYJS5MB7MftZSuKrmenhmwADCWWJH/rpc",
+    "wss://rpc.metheus.network/ext/bc/21Z7pN9Z6VfmMo8jjhDQYyYJS5MB7MftZSuKrmenhmwADCWWJH/ws"
+  ],
+  "faucets": ["https://faucet.metheus.network"],
+  "nativeCurrency": {
+    "name": "WrapTag",
+    "symbol": "WPT",
+    "decimals": 18
+  },
+  "infoURL": "https://metheus.network",
+  "shortName": "WrapTag",
+  "chainId": 24052022,
+  "networkId": 24052022,
+  "icon": "wraptag",
+  "explorers": [{
+    "name": "METHEUS SCAN",
+    "url": "https://scan.metheus.network/wraptag",
+    "standard": "none"
+  }]
+}
