@@ -2,7 +2,7 @@
   "name": "Kava EVM Testnet",
   "chain": "KAVA",
   "network": "testnet",
-  "rpc": ["https://evm.evm-alpha.kava.io", "wss://evm-ws.evm-alpha.kava.io"],
+  "rpc": ["https://evm.testnet.kava.io", "wss://wevm.testnet.kava.io"],
   "faucets": ["https://faucet.kava.io"],
   "nativeCurrency": {
     "name": "TKava",
@@ -17,7 +17,7 @@
   "explorers": [
     {
       "name": "Kava Testnet Explorer",
-      "url": "https://explorer.evm-alpha.kava.io",
+      "url": "https://explorer.testnet.kava.io",
       "standard": "EIP3091",
       "icon": "kava"
     }
