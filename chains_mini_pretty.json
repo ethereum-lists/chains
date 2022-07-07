@@ -2651,6 +2651,19 @@
   "faucets": [],
   "infoURL": "https://entercoin.net"
 }, {
+  "name": "OM Chain Mainnet",
+  "chainId": 1246,
+  "shortName": "om",
+  "networkId": 1246,
+  "nativeCurrency": {
+    "name": "OMCOIN",
+    "symbol": "OM",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-cnx.omplatform.com/"],
+  "faucets": [],
+  "infoURL": "https://omplatform.com/"
+}, {
   "name": "HALO Mainnet",
   "chainId": 1280,
   "shortName": "HO",
