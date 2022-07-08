@@ -730,6 +730,26 @@
     "standard": "none"
   }]
 }, {
+  "name": "Darwinia Network",
+  "chain": "darwinia",
+  "network": "darwinia network",
+  "rpc": ["https://darwinia-rpc.darwinia.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Darwinia Network Native Token",
+    "symbol": "RING",
+    "decimals": 18
+  },
+  "infoURL": "https://darwinia.network/",
+  "shortName": "darwinia",
+  "chainId": 46,
+  "networkId": 46,
+  "explorers": [{
+    "name": "subscan",
+    "url": "https://darwinia.subscan.io",
+    "standard": "none"
+  }]
+}, {
   "name": "XinFin Network Mainnet",
   "chain": "XDC",
   "rpc": ["https://rpc.xinfin.network"],
@@ -4979,6 +4999,32 @@
     "url": "https://scan.chain.pixie.xyz",
     "standard": "none"
   }]
+}, {
+  "name": "Tomb Chain Mainnet",
+  "chain": "Tomb Chain",
+  "rpc": ["https://rpc.tombchain.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Tomb",
+    "symbol": "TOMB",
+    "decimals": 18
+  },
+  "infoURL": "https://tombchain.com/",
+  "shortName": "tombchain",
+  "chainId": 6969,
+  "networkId": 6969,
+  "explorers": [{
+    "name": "tombscout",
+    "url": "https://tombscout.com",
+    "standard": "none"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-250",
+    "bridges": [{
+      "url": "https://beta-bridge.lif3.com/"
+    }]
+  }
 }, {
   "name": "Ella the heart",
   "chain": "ella",

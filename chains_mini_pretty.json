@@ -545,6 +545,19 @@
   "faucets": [],
   "infoURL": "https://darwinia.network/"
 }, {
+  "name": "Darwinia Network",
+  "chainId": 46,
+  "shortName": "darwinia",
+  "networkId": 46,
+  "nativeCurrency": {
+    "name": "Darwinia Network Native Token",
+    "symbol": "RING",
+    "decimals": 18
+  },
+  "rpc": ["https://darwinia-rpc.darwinia.network"],
+  "faucets": [],
+  "infoURL": "https://darwinia.network/"
+}, {
   "name": "XinFin Network Mainnet",
   "chainId": 50,
   "shortName": "xdc",
@@ -3547,6 +3560,19 @@
   "rpc": ["https://http-mainnet.chain.pixie.xyz", "wss://ws-mainnet.chain.pixie.xyz"],
   "faucets": [],
   "infoURL": "https://chain.pixie.xyz"
+}, {
+  "name": "Tomb Chain Mainnet",
+  "chainId": 6969,
+  "shortName": "tombchain",
+  "networkId": 6969,
+  "nativeCurrency": {
+    "name": "Tomb",
+    "symbol": "TOMB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.tombchain.com/"],
+  "faucets": [],
+  "infoURL": "https://tombchain.com/"
 }, {
   "name": "Ella the heart",
   "chainId": 7027,
