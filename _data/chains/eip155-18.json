@@ -8,7 +8,7 @@
     "https://faucet-testnet.thundercore.com"
   ],
   "nativeCurrency": {
-    "name": "ThunderCore Testnet Ether",
+    "name": "ThunderCore Testnet Token",
     "symbol": "TST",
     "decimals": 18
   },
@@ -16,9 +16,11 @@
   "shortName": "TST",
   "chainId": 18,
   "networkId": 18,
-  "explorers": [{
-    "name": "ThundercoreTestNetScanner",
-    "url": "https://scan-testnet.thundercore.com",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "thundercore-blockscout-testnet",
+      "url": "https://explorer-testnet.thundercore.com",
+      "standard": "EIP3091"
+    }
+  ]
 }

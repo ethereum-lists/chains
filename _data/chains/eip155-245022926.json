@@ -5,15 +5,25 @@
     "https://proxy.devnet.neonlabs.org/solana"
   ],
   "faucets": [
-    "https://neonswap.live/#/get-tokens" 
+    "https://neonswap.live/#/get-tokens"
   ],
+  "icon": "neon",
   "nativeCurrency": {
     "name": "Neon",
     "symbol": "NEON",
     "decimals": 18
   },
-  "infoURL": "https://neon-labs.org/",
+  "infoURL": "https://neon-labs.org",
   "shortName": "neonevm-devnet",
   "chainId": 245022926,
-  "networkId": 245022926
+  "networkId": 245022926,
+  "explorers": [{
+    "name": "native",
+    "url": "https://devnet.explorer.neon-labs.org",
+    "standard": "EIP3091"
+  }, {
+    "name": "neonscan",
+    "url": "https://devnet.neonscan.org",
+    "standard": "EIP3091"
+  }]
 }
