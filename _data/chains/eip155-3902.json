@@ -1,23 +1,23 @@
 {
-  "name": "GoHeal Testnet",
+  "name": "GoHeal Mainnet",
   "chain": "GoHeal",
-  "rpc": ["https://rpc.testnet.gohchain.com"],
-  "faucets": ["https://faucet.testnet.gohchain.com/"],
+  "rpc": ["https://rpc.gohchain.com"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "GoHeal",
     "symbol": "GOH",
     "decimals": 18
   },
 
-  "infoURL": "https://explorer.testnet.gohchain.com",
-  "shortName": "tgoh",
-  "chainId": 3902,
-  "networkId": 3902,
+  "infoURL": "https://explorer.gohchain.com",
+  "shortName": "goh",
+  "chainId": 3901,
+  "networkId": 3901,
   "icon": "goheal",
   "explorers": [
     {
-      "name": "GoHeal Testnet Explorer",
-      "url": "https://explorer.testnet.gohchain.com/",
+      "name": "GoHeal Mainnet Explorer",
+      "url": "https://explorer.gohchain.com/",
       "icon": "goheal",
       "standard": "EIP3091"
     }
