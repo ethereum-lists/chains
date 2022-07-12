@@ -1,0 +1,17 @@
+{
+    "name": "EPEE Testnet",
+    "chain": "EPEE",
+    "rpc": [
+      "https://testnet-rpc.epeescan.com"
+    ],
+    "faucets": ["https://faucet.epeescan.com/"],
+    "nativeCurrency": {
+      "name": "EPEE Network",
+      "symbol": "tEPE",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.epeescan.com/",
+    "shortName": "epee",
+    "chainId": 16777,
+    "networkId": 16777
+  }
