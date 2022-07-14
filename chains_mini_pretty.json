@@ -1205,7 +1205,7 @@
     "decimals": 18
   },
   "rpc": ["https://testnet.rpc.novanetwork.io:9070"],
-  "faucets": [],
+  "faucets": ["https://faucet.novanetwork.io"],
   "infoURL": "https://novanetwork.io"
 }, {
   "name": "ThunderCore Mainnet",
