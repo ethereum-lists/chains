@@ -5,7 +5,9 @@
   "rpc": [
     "https://testnet.rpc.novanetwork.io:9070"
   ],
-  "faucets": [],
+  "faucets": [
+    "https://faucet.novanetwork.io"
+  ],
   "nativeCurrency": {
     "name": "Nebula X",
     "symbol": "NBX",
