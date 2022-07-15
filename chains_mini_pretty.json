@@ -1598,19 +1598,6 @@
   "faucets": [],
   "infoURL": "https://lachain.io"
 }, {
-  "name": "Aitd Testnet",
-  "chainId": 239,
-  "shortName": "AITD",
-  "networkId": 239,
-  "nativeCurrency": {
-    "name": "AITD Testnet",
-    "symbol": "AITD",
-    "decimals": 18
-  },
-  "rpc": ["http://http-testnet.aitd.io"],
-  "faucets": ["https://aitd-faucet-pre.aitdcoin.com/"],
-  "infoURL": "https://www.aitd.io/"
-}, {
   "name": "Energy Web Chain",
   "chainId": 246,
   "shortName": "ewt",
@@ -2767,6 +2754,32 @@
   "rpc": ["https://bobabase.boba.network", "wss://wss.bobabase.boba.network", "https://replica.bobabase.boba.network", "wss://replica-wss.bobabase.boba.network"],
   "faucets": [],
   "infoURL": "https://boba.network"
+}, {
+  "name": "Aitd Mainnet",
+  "chainId": 1319,
+  "shortName": "aitd",
+  "networkId": 1319,
+  "nativeCurrency": {
+    "name": "AITD Mainnet",
+    "symbol": "AITD",
+    "decimals": 18
+  },
+  "rpc": ["http://walletrpc.aitd.io", "http://node.aitd.io"],
+  "faucets": [],
+  "infoURL": "https://www.aitd.io/"
+}, {
+  "name": "Aitd Testnet",
+  "chainId": 1320,
+  "shortName": "aitdtestnet",
+  "networkId": 1320,
+  "nativeCurrency": {
+    "name": "AITD Testnet",
+    "symbol": "AITD",
+    "decimals": 18
+  },
+  "rpc": ["http://http-testnet.aitd.io"],
+  "faucets": ["https://aitd-faucet-pre.aitdcoin.com/"],
+  "infoURL": "https://www.aitd.io/"
 }, {
   "name": "CENNZnet old",
   "chainId": 1337,

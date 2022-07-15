@@ -2211,26 +2211,6 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Aitd Testnet",
-  "chain": "AITD",
-  "icon": "aitd",
-  "rpc": ["http://http-testnet.aitd.io"],
-  "faucets": ["https://aitd-faucet-pre.aitdcoin.com/"],
-  "nativeCurrency": {
-    "name": "AITD Testnet",
-    "symbol": "AITD",
-    "decimals": 18
-  },
-  "infoURL": "https://www.aitd.io/",
-  "shortName": "AITD",
-  "chainId": 239,
-  "networkId": 239,
-  "explorers": [{
-    "name": "AITD Chain Explorer",
-    "url": "https://aitd-explorer-pre.aitdcoin.com",
-    "standard": "EIP3091"
-  }]
-}, {
   "name": "Energy Web Chain",
   "chain": "Energy Web Chain",
   "rpc": ["https://rpc.energyweb.org", "wss://rpc.energyweb.org/ws"],
@@ -3835,6 +3815,46 @@
     "name": "Blockscout",
     "url": "https://blockexplorer.bobabase.boba.network",
     "standard": "none"
+  }]
+}, {
+  "name": "Aitd Mainnet",
+  "chain": "AITD",
+  "icon": "aitd",
+  "rpc": ["http://walletrpc.aitd.io", "http://node.aitd.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AITD Mainnet",
+    "symbol": "AITD",
+    "decimals": 18
+  },
+  "infoURL": "https://www.aitd.io/",
+  "shortName": "aitd",
+  "chainId": 1319,
+  "networkId": 1319,
+  "explorers": [{
+    "name": "AITD Chain Explorer Mainnet",
+    "url": "https://aitd-explorer-new.aitd.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Aitd Testnet",
+  "chain": "AITD",
+  "icon": "aitd",
+  "rpc": ["http://http-testnet.aitd.io"],
+  "faucets": ["https://aitd-faucet-pre.aitdcoin.com/"],
+  "nativeCurrency": {
+    "name": "AITD Testnet",
+    "symbol": "AITD",
+    "decimals": 18
+  },
+  "infoURL": "https://www.aitd.io/",
+  "shortName": "aitdtestnet",
+  "chainId": 1320,
+  "networkId": 1320,
+  "explorers": [{
+    "name": "AITD Chain Explorer Testnet",
+    "url": "https://block-explorer-testnet.aitd.io",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "CENNZnet old",
