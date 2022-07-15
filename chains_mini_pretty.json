@@ -4198,6 +4198,32 @@
   "faucets": [],
   "infoURL": "https://www.fusion.org/"
 }, {
+  "name": "Q Mainnet",
+  "chainId": 35441,
+  "shortName": "q",
+  "networkId": 35441,
+  "nativeCurrency": {
+    "name": "Q token",
+    "symbol": "Q",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.q.org"],
+  "faucets": [],
+  "infoURL": "https://q.org"
+}, {
+  "name": "Q Testnet",
+  "chainId": 35443,
+  "shortName": "q-testnet",
+  "networkId": 35443,
+  "nativeCurrency": {
+    "name": "Q token",
+    "symbol": "Q",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.qtestnet.org"],
+  "faucets": [],
+  "infoURL": "https://q.org/"
+}, {
   "name": "Energi Mainnet",
   "chainId": 39797,
   "shortName": "nrg",

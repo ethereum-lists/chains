@@ -5934,6 +5934,50 @@
   "chainId": 32659,
   "networkId": 32659
 }, {
+  "name": "Q Mainnet",
+  "chain": "Q",
+  "network": "mainnet",
+  "rpc": ["https://rpc.q.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Q token",
+    "symbol": "Q",
+    "decimals": 18
+  },
+  "infoURL": "https://q.org",
+  "shortName": "q",
+  "chainId": 35441,
+  "networkId": 35441,
+  "icon": "q",
+  "explorers": [{
+    "name": "Q explorer",
+    "url": "https://explorer.q.org",
+    "icon": "q",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Q Testnet",
+  "chain": "Q",
+  "network": "testnet",
+  "rpc": ["https://rpc.qtestnet.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Q token",
+    "symbol": "Q",
+    "decimals": 18
+  },
+  "infoURL": "https://q.org/",
+  "shortName": "q-testnet",
+  "chainId": 35443,
+  "networkId": 35443,
+  "icon": "q",
+  "explorers": [{
+    "name": "Q explorer",
+    "url": "https://explorer.qtestnet.org",
+    "icon": "q",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Energi Mainnet",
   "chain": "NRG",
   "rpc": ["https://nodeapi.energi.network"],
