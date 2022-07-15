@@ -2755,6 +2755,19 @@
   "faucets": [],
   "infoURL": "https://docs.moonbeam.network/learn/platform/networks/overview/"
 }, {
+  "name": "Boba Network Bobabase",
+  "chainId": 1297,
+  "shortName": "Bobabase",
+  "networkId": 1297,
+  "nativeCurrency": {
+    "name": "Boba Token",
+    "symbol": "BOBA",
+    "decimals": 18
+  },
+  "rpc": ["https://bobabase.boba.network", "wss://wss.bobabase.boba.network", "https://replica.bobabase.boba.network", "wss://replica-wss.bobabase.boba.network"],
+  "faucets": [],
+  "infoURL": "https://boba.network"
+}, {
   "name": "CENNZnet old",
   "chainId": 1337,
   "shortName": "cennz-old",
@@ -3352,6 +3365,19 @@
   "rpc": ["https://rpc.testnet.fantom.network"],
   "faucets": ["https://faucet.fantom.network"],
   "infoURL": "https://docs.fantom.foundation/quick-start/short-guide#fantom-testnet"
+}, {
+  "name": "Boba Network Bobaopera Testnet",
+  "chainId": 4051,
+  "shortName": "Bobaopera Testnet",
+  "networkId": 4051,
+  "nativeCurrency": {
+    "name": "Boba Token",
+    "symbol": "BOBA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.bobaopera.boba.network", "wss://wss.testnet.bobaopera.boba.network", "https://replica.testnet.bobaopera.boba.network", "wss://replica-wss.testnet.bobaopera.boba.network"],
+  "faucets": [],
+  "infoURL": "https://boba.network"
 }, {
   "name": "AIOZ Network Testnet",
   "chainId": 4102,
