@@ -1884,13 +1884,13 @@
   "faucets": [],
   "infoURL": "https://www.sx.technology"
 }, {
-  "name": "Optimistic Ethereum Testnet Goerli",
+  "name": "Optimism Goerli Testnet",
   "chainId": 420,
   "shortName": "ogor",
   "networkId": 420,
   "nativeCurrency": {
     "name": "Görli Ether",
-    "symbol": "GOR",
+    "symbol": "ETH",
     "decimals": 18
   },
   "rpc": ["https://goerli.optimism.io/"],
