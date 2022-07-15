@@ -1,0 +1,26 @@
+{
+  "name": "Q Mainnet",
+  "chain": "Q",
+  "network": "mainnet",
+  "icon": "q",
+  "rpc": [
+    "https://rpc.q.org"
+  ],
+  "nativeCurrency": {
+    "name": "Q token",
+    "symbol": "Q",
+    "decimals": 18
+  },
+  "infoURL": "https://q.org",
+  "shortName": "q-mainnet",
+  "chainId": 32441,
+  "networkId": 32441,
+  "explorers": [
+    {
+      "name": "Q explorer",
+      "url": "https://explorer.q.org",
+      "icon": "etherscan",
+      "standard": "EIP3091"
+    }
+  ]
+}
