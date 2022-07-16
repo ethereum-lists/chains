@@ -1,18 +1,25 @@
 {
-  "name": "Diode Testnet Staging",
-  "chain": "DIODE",
+  "name": "Dehvo",
+  "chain": "Dehvo",
+  "network": "mainnet",
   "rpc": [
-    "https://staging.diode.io:8443/",
-    "wss://staging.diode.io:8443/ws"
+    "https://connect.dehvo.com",
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Staging Diodes",
-    "symbol": "sDIODE",
+    "name": "Dehvo",
+    "symbol": "Deh",
     "decimals": 18
   },
-  "infoURL": "https://diode.io/staging",
-  "shortName": "dstg",
+  "infoURL": "https://dehvo.com",
+  "shortName": "Dehvo",
   "chainId": 13,
-  "networkId": 13
+  "networkId": 13,
+  "icon": "phi",
+  "explorers": [{
+    "name": "Dehvo Explorer",
+    "url": "https://explorer.dehvo.com",
+    "icon": "dehvo",
+    "standard": "none"
+  }]
 }
