@@ -7,12 +7,17 @@
   "faucets": [
   ],
   "nativeCurrency": {
-    "name": "Spark",
+    "name": "FLR",
     "symbol": "FLR",
     "decimals": 18
   },
   "infoURL": "https://flare.xyz",
   "shortName": "flr",
   "chainId": 14,
-  "networkId": 14
+  "networkId": 14,
+   "explorers": [{
+    "name": "blockscout",
+    "url": "https://flare-explorer.flare.network",
+    "standard": "EIP3091"
+  }]
 }

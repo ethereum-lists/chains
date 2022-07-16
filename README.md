@@ -113,6 +113,7 @@ There are also aggregated json files with all chains automatically assembled:
  * [chainmap.io](https://chainmap.io) 
  * [chainlist.in](https://www.chainlist.in)
  * [chainz.me](https://chainz.me)
+ * [Chainlink docs](https://docs.chain.link/)
 
 ### Other
  * [FaucETH](https://github.com/komputing/FaucETH)
