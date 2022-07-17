@@ -17,4 +17,12 @@
   "shortName": "trsk",
   "chainId": 31,
   "networkId": 31
+
+  "explorers": [{
+    "name": "RSK Testnet Explorer",
+    "url": "https://explorer.testnet.rsk.co",
+    "standard": "EIP3091"
+  }]
+  
 }
+
