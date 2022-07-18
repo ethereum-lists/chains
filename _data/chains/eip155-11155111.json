@@ -4,6 +4,11 @@
   "chain": "ETH",
   "network": "testnet",
   "rpc": [
+    "https://rpc.sepolia.dev",
+    "https://rpc.sepolia.online",
+    "https://www.sepoliarpc.space",
+    "https://rpc.sepolia.org",
+    "https://rpc-sepolia.rockx.com"
   ],
   "faucets": [
     "http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"
