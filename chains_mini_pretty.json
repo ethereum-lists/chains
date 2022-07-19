@@ -5043,6 +5043,19 @@
   "faucets": [],
   "infoURL": "https://www.quarkchain.io"
 }, {
+  "name": "ETND Chain Mainnets",
+  "chainId": 131419,
+  "shortName": "ETND",
+  "networkId": 131419,
+  "nativeCurrency": {
+    "name": "ETND",
+    "symbol": "ETND",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.node1.etnd.pro/"],
+  "faucets": [],
+  "infoURL": "https://www.etnd.pro"
+}, {
   "name": "Milkomeda C1 Testnet",
   "chainId": 200101,
   "shortName": "milkTAda",
