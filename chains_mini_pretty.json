@@ -1936,6 +1936,19 @@
   "faucets": ["https://xsc.pub/faucet"],
   "infoURL": "https://xsc.pub/"
 }, {
+  "name": "F(x)Core Mainnet Network",
+  "chainId": 530,
+  "shortName": "f(x)Core",
+  "networkId": 530,
+  "nativeCurrency": {
+    "name": "Function X",
+    "symbol": "FX",
+    "decimals": 18
+  },
+  "rpc": ["https://fx-json-web3.functionx.io:8545"],
+  "faucets": [],
+  "infoURL": "https://functionx.io/"
+}, {
   "name": "Candle",
   "chainId": 534,
   "shortName": "CNDL",
