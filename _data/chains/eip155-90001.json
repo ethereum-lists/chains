@@ -1,0 +1,23 @@
+{
+    "name": "FxCore Testnet Network",
+    "chain": "Dhobyghaut",
+    "network": "testnet",
+    "rpc": [
+        "https://testnet-fx-json-web3.functionx.io:8545"
+    ],
+    "faucets": ["https://dhobyghaut-faucet.functionx.io/"],
+    "nativeCurrency": {
+      "name": "Function X Testnet Native Token",
+      "symbol": "FX",
+      "decimals": 18
+    },
+    "infoURL": "https://testnet-fx-json-web3.functionx.io:8545",
+    "shortName": "Dhobyghaut-Testnet",
+    "chainId": 90001,
+    "networkId": 90001,
+    "explorers": [{
+      "name": "FxScan-testnet",
+      "url": "https://testnet-fxscan.functionx.io",
+      "standard": "none"
+    }]
+  }
