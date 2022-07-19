@@ -3314,6 +3314,19 @@
   "faucets": ["https://faucet.paribuscan.com"],
   "infoURL": "https://net.paribu.com"
 }, {
+  "name": "JFIN Chain",
+  "chainId": 3501,
+  "shortName": "jfin",
+  "networkId": 3501,
+  "nativeCurrency": {
+    "name": "JFIN Coin",
+    "symbol": "jfin",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.jfinchain.com"],
+  "faucets": [],
+  "infoURL": "https://jfinchain.com"
+}, {
   "name": "Bittex Mainnet",
   "chainId": 3690,
   "shortName": "btx",
