@@ -1169,6 +1169,19 @@
   "faucets": [],
   "infoURL": "https://web3games.org/"
 }, {
+  "name": "Kaiba Lightning Chain Testnet",
+  "chainId": 104,
+  "shortName": "tklc",
+  "networkId": 104,
+  "nativeCurrency": {
+    "name": "Kaiba Testnet Token",
+    "symbol": "tKAIBA",
+    "decimals": 18
+  },
+  "rpc": ["https://klc.live/"],
+  "faucets": [],
+  "infoURL": "https://kaibadefi.com"
+}, {
   "name": "Web3Games Devnet",
   "chainId": 105,
   "shortName": "dw3g",
