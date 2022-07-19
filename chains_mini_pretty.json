@@ -3847,6 +3847,19 @@
   "faucets": [],
   "infoURL": "https://evmos.org"
 }, {
+  "name": "BerylBit Mainnet",
+  "chainId": 9012,
+  "shortName": "brb",
+  "networkId": 9012,
+  "nativeCurrency": {
+    "name": "BerylBit Chain Native Token",
+    "symbol": "BRB",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.berylbit.io"],
+  "faucets": ["https://t.me/BerylBit"],
+  "infoURL": "https://www.beryl-bit.com"
+}, {
   "name": "Genesis Coin",
   "chainId": 9100,
   "shortName": "GENEC",
