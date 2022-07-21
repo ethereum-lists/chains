@@ -6,7 +6,9 @@
   "rpc": [
     "https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc"
   ],
-  "faucets": [],
+  "faucets": [
+    "https://faucet.avax.network/?subnet=dfk"
+  ],
   "nativeCurrency": {
     "name": "Jewel",
     "symbol": "JEWEL",
