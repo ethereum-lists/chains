@@ -1,5 +1,5 @@
 {
-  "name": "DFK Chain",
+  "name": "DFK Subnet",
   "chain": "DFK",
   "icon": "dfk",
   "network": "mainnet",
@@ -18,10 +18,9 @@
   "networkId": 53935,
   "explorers": [
     {
-      "name": "ethernal",
-      "url": "https://explorer.dfkchain.com",
-      "icon": "ethereum",
-      "standard": "none"
+      "name": "Avalanche Subnet Explorer",
+      "url": "https://subnets.avax.network/defi-kingdoms",
+      "standard": "EIP3091"
     }
   ]
 }
