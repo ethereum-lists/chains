@@ -1,0 +1,25 @@
+{
+  "name": "Portal Fantasy Subnet Testnet",
+  "chain": "PORTALFANTASY",
+  "network": "testnet",
+  "rpc": [
+    "https://subnets.avax.network/portal-fantasy/testnet/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Portal Fantasy Token",
+    "symbol": "PFT",
+    "decimals": 18
+  },
+  "infoURL": "https://portalfantasy.io/",
+  "shortName": "Portal Fantasy Testnet",
+  "chainId": 73773,
+  "networkId": 73773,
+  "explorers": [
+    {
+      "name": "Avalanche Subnet Explorer",
+      "url": "https://subnets-test.avax.network/portal-fantasy",
+      "standard": "EIP3091"
+    }
+  ]
+}
