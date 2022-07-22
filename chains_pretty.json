@@ -609,6 +609,20 @@
   "chainId": 35,
   "networkId": 35
 }, {
+  "name": "Dxchain Mainnet",
+  "chain": "Dxchain",
+  "rpc": ["https://www.mainnet.dxchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dxchain",
+    "symbol": "DX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.dxchain.com/",
+  "shortName": "dx",
+  "chainId": 36,
+  "networkId": 36
+}, {
   "name": "Valorbit",
   "chain": "VAL",
   "rpc": ["https://rpc.valorbit.com/v2"],
@@ -1147,6 +1161,20 @@
     "url": "https://evmtestnet.confluxscan.net",
     "standard": "none"
   }]
+}, {
+  "name": "DxChain Testnet",
+  "chain": "DxChain",
+  "rpc": ["https://testnet-http.dxchain.com"],
+  "faucets": ["https://faucet.dxscan.io"],
+  "nativeCurrency": {
+    "name": "DxChain Testnet",
+    "symbol": "DX",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet.dxscan.io/",
+  "shortName": "dxc",
+  "chainId": 72,
+  "networkId": 72
 }, {
   "name": "IDChain Mainnet",
   "chain": "IDChain",
