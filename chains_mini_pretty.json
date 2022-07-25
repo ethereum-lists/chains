@@ -2261,6 +2261,19 @@
   "faucets": [],
   "infoURL": "https://www.haichain.io/"
 }, {
+  "name": "Portal Fantasy Chain Test",
+  "chainId": 808,
+  "shortName": "PFTEST",
+  "networkId": 808,
+  "nativeCurrency": {
+    "name": "Portal Fantasy Token",
+    "symbol": "PFT",
+    "decimals": 18
+  },
+  "rpc": ["http://3.212.233.100:9650/ext/bc/2FJX3r1hWwyMWSo12j429g8HTVH1nrC8twatkLgtaCXtRD4GLq/rpc"],
+  "faucets": [],
+  "infoURL": "https://portalfantasy.io"
+}, {
   "name": "Callisto Mainnet",
   "chainId": 820,
   "shortName": "clo",
@@ -2364,6 +2377,19 @@
   "rpc": ["https://s3-testnet.garizon.net/rpc"],
   "faucets": ["https://faucet-testnet.garizon.com"],
   "infoURL": "https://garizon.com"
+}, {
+  "name": "Portal Fantasy Chain",
+  "chainId": 909,
+  "shortName": "PF",
+  "networkId": 909,
+  "nativeCurrency": {
+    "name": "Portal Fantasy Token",
+    "symbol": "PFT",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://portalfantasy.io"
 }, {
   "name": "PulseChain Testnet",
   "chainId": 940,
