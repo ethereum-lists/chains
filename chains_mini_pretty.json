@@ -4736,8 +4736,8 @@
   "shortName": "gw-testnet-v1",
   "networkId": 71401,
   "nativeCurrency": {
-    "name": "CKB",
-    "symbol": "CKB",
+    "name": "pCKB",
+    "symbol": "pCKB",
     "decimals": 18
   },
   "rpc": ["https://godwoken-testnet-v1.ckbapp.dev"],
@@ -4749,12 +4749,12 @@
   "shortName": "gw-mainnet-v1",
   "networkId": 71402,
   "nativeCurrency": {
-    "name": "CKB",
-    "symbol": "CKB",
+    "name": "pCKB",
+    "symbol": "pCKB",
     "decimals": 18
   },
-  "rpc": ["https://godwoken-testnet-v1.ckbapp.dev"],
-  "faucets": ["https://testnet.bridge.godwoken.io"],
+  "rpc": ["https://v1.mainnet.godwoken.io/rpc"],
+  "faucets": [],
   "infoURL": "https://www.nervos.org"
 }, {
   "name": "Energy Web Volta Testnet",
