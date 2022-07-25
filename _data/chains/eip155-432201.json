@@ -1,11 +1,15 @@
 {
- "name": "Dexalot Testnet",
+ "name": "Dexalot Subnet Testnet",
  "chain": "DEXALOT",
+ "icon": "dexalot",
  "network": "testnet",
  "rpc": [
     "https://subnets.avax.network/dexalot/testnet/rpc"
  ],
- "faucets": ["https://sfaucet.dexalot-test.com"],
+ "faucets": [
+   "https://faucet.avax.network/?subnet=dexalot",
+   "https://sfaucet.dexalot-test.com"
+],
  "nativeCurrency": {
     "name": "Dexalot",
     "symbol": "ALOT",
