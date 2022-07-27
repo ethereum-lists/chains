@@ -11,10 +11,10 @@
     "decimals": 18
   },
   "rpc": [  
-    "https://goerli-rollup.arbitrum.io/rpc"
+    "https://goerli-rollup.arbitrum.io/rpc/"
   ],
   "faucets": [],
-  "infoURL": "https://arbitrum.io",
+  "infoURL": "https://arbitrum.io/",
   "explorers": [
     {
       "name": "Arbitrum Görli Rollup Explorer",
@@ -25,6 +25,6 @@
   "parent": {
       "type" : "L2",
       "chain": "eip155-5",
-      "bridges": [ {"url":"https://bridge.arbitrum.io"} ]
+      "bridges": [ {"url":"https://bridge.arbitrum.io/"} ]
   }
 }
