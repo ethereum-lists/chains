@@ -11,7 +11,7 @@
     "decimals": 18
   },
   "infoURL": "https://gton.capital",
-  "shortName": "gton",
+  "shortName": "tgton",
   "chainId": 50021,
   "networkId": 50021,
   "explorers": [
@@ -20,5 +20,9 @@
         "url": "https://explorer.testnet.gton.network",
         "standard": "EIP3091"
     }
-]
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-3"
+  }
 }
