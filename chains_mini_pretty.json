@@ -2495,6 +2495,19 @@
   "faucets": [],
   "infoURL": "https://testnet.wanscan.org"
 }, {
+  "name": "GTON Mainnet",
+  "chainId": 1000,
+  "shortName": "gton",
+  "networkId": 1000,
+  "nativeCurrency": {
+    "name": "GCD",
+    "symbol": "GCD",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.gton.network/"],
+  "faucets": [],
+  "infoURL": "https://gton.capital"
+}, {
   "name": "Klaytn Testnet Baobab",
   "chainId": 1001,
   "shortName": "Baobab",
@@ -4509,6 +4522,19 @@
   "rpc": ["https://nodeapi.test.energi.network"],
   "faucets": [],
   "infoURL": "https://www.energi.world/"
+}, {
+  "name": "GTON Testnet",
+  "chainId": 50021,
+  "shortName": "tgton",
+  "networkId": 50021,
+  "nativeCurrency": {
+    "name": "GCD",
+    "symbol": "GCD",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.gton.network/"],
+  "faucets": [],
+  "infoURL": "https://gton.capital"
 }, {
   "name": "DFK Chain",
   "chainId": 53935,
