@@ -13,12 +13,11 @@
   "rpc": [  
     "https://goerli-rollup.arbitrum.io/rpc"
   ],
-  "faucets": [
-  ],
+  "faucets": [],
   "infoURL": "https://arbitrum.io",
   "explorers": [
     {
-      "name": "arbitrum-goerli",
+      "name": "Arbitrum Görli Rollup Explorer",
       "url": "https://goerli-rollup-explorer.arbitrum.io/",
       "standard": "EIP3091"
     }
