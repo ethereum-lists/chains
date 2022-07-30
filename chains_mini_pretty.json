@@ -5650,8 +5650,8 @@
     "symbol": "NEON",
     "decimals": 18
   },
-  "rpc": ["https://devnet.neonevm.org"],
-  "faucets": ["https://neonfaucet.org"],
+  "rpc": ["https://proxy.devnet.neonlabs.org/solana"],
+  "faucets": ["https://neonswap.live/#/get-tokens"],
   "infoURL": "https://neon-labs.org"
 }, {
   "name": "Neon EVM MainNet",
@@ -5663,7 +5663,7 @@
     "symbol": "NEON",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.neonevm.org"],
+  "rpc": ["https://proxy.mainnet.neonlabs.org/solana"],
   "faucets": [],
   "infoURL": "https://neon-labs.org"
 }, {
@@ -5676,7 +5676,7 @@
     "symbol": "NEON",
     "decimals": 18
   },
-  "rpc": ["https://testnet.neonevm.org"],
+  "rpc": ["https://proxy.testnet.neonlabs.org/solana"],
   "faucets": [],
   "infoURL": "https://neon-labs.org"
 }, {

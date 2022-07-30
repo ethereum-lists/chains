@@ -8079,8 +8079,8 @@
 }, {
   "name": "Neon EVM DevNet",
   "chain": "Solana",
-  "rpc": ["https://devnet.neonevm.org"],
-  "faucets": ["https://neonfaucet.org"],
+  "rpc": ["https://proxy.devnet.neonlabs.org/solana"],
+  "faucets": ["https://neonswap.live/#/get-tokens"],
   "icon": "neon",
   "nativeCurrency": {
     "name": "Neon",
@@ -8103,7 +8103,7 @@
 }, {
   "name": "Neon EVM MainNet",
   "chain": "Solana",
-  "rpc": ["https://mainnet.neonevm.org"],
+  "rpc": ["https://proxy.mainnet.neonlabs.org/solana"],
   "faucets": [],
   "icon": "neon",
   "nativeCurrency": {
@@ -8127,7 +8127,7 @@
 }, {
   "name": "Neon EVM TestNet",
   "chain": "Solana",
-  "rpc": ["https://testnet.neonevm.org"],
+  "rpc": ["https://proxy.testnet.neonlabs.org/solana"],
   "faucets": [],
   "icon": "neon",
   "nativeCurrency": {

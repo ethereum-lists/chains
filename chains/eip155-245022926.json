@@ -2,10 +2,10 @@
   "name": "Neon EVM DevNet",
   "chain": "Solana",
   "rpc": [
-    "https://devnet.neonevm.org"
+    "https://proxy.devnet.neonlabs.org/solana"
   ],
   "faucets": [
-    "https://neonfaucet.org"
+    "https://neonswap.live/#/get-tokens"
   ],
   "icon": "neon",
   "nativeCurrency": {
