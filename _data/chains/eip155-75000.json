@@ -16,6 +16,7 @@
   "networkId": 75000,
   "explorers": [{
     "name": "ResinScan",
-    "url": "https://explorer.resincoin.ml"
+    "url": "https://explorer.resincoin.ml",
+    "standard": "EIP3091"
   }]
 }
