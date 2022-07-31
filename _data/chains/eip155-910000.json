@@ -1,9 +1,9 @@
 {
-  "name": "Posichain Mainnet",
+  "name": "Posichain Testnet Shard 0",
   "chain": "POSI",
-  "network": "mainnet",
+  "network": "testnet",
   "rpc": [
-    "https://api.posichain.org"
+    "https://api.s0.t.posichain.org"
   ],
   "faucets": ["https://faucet.posichain.org/"],
   "nativeCurrency": {
@@ -12,14 +12,14 @@
     "decimals": 18
   },
   "infoURL": "https://posichain.org",
-  "shortName": "posi-s0",
-  "chainId": 900000,
-  "networkId": 900000,
+  "shortName": "posi-t-s0",
+  "chainId": 910000,
+  "networkId": 910000,
   "icon": "posichain",
   "explorers": [
     {
-      "name": "Posichain Explorer",
-      "url": "https://explorer.posichain.org",
+      "name": "Posichain Testnet Explorer",
+      "url": "https://explorer-testnet.posichain.org",
       "icon": "posichain",
       "standard": "EIP3091"
     }
