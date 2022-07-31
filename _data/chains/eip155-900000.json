@@ -1,0 +1,25 @@
+{
+  "name": "Posichain Mainnet Shard 0",
+  "chain": "POSI",
+  "network": "mainnet",
+  "rpc": [
+    "https://api.posichain.org",
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "POSI",
+    "symbol": "POSI",
+    "decimals": 18
+  },
+  "infoURL": "https://posichain.org",
+  "shortName": "posi",
+  "chainId": 900000,
+  "networkId": 900000,
+  "icon": "posichain",
+  "explorers": [{
+    "name": "Posichain Explorer",
+    "url": "https://explorer.posichain.org",
+    "icon": "posichain",
+    "standard": "EIP3091"
+  }]
+}
