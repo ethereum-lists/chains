@@ -1,0 +1,25 @@
+{
+  "name": "Doge Chain Testnet",
+  "chain": "DC",
+  "rpc": [
+    "https://rpc-testnet.dogechain.dog"
+  ],
+  "faucets": [
+    "https://faucet.dogechain.dog"
+  ],
+  "nativeCurrency": {
+    "name": "Doge Chain Wrap Token",
+    "symbol": "wDoge",
+    "decimals": 18
+  },
+  "infoURL": "https://dogechain.dog",
+  "shortName": "dogechain",
+  "chainId": 568,
+  "networkId": 568,
+  "icon": "dogechain",
+  "explorers": [{
+    "name": "dogechain-testnet",
+    "url": "https://explorer-testnet.dogechain.dog",
+    "standard": "EIP3091"
+  }]
+}

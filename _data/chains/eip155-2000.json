@@ -1,0 +1,25 @@
+{
+  "name": "Doge Chain Mainnet",
+  "chain": "DC",
+  "rpc": [
+    "https://rpc01-sg.dogechain.dog",
+    "https://rpc02-sg.dogechain.dog",
+    "https://rpc03-sg.dogechain.dog"
+  ],
+  "faucets": ["https://bridge.dogechain.dog"],  
+  "nativeCurrency": {
+    "name": "Doge Chain Wrap Token",
+    "symbol": "wDoge",
+    "decimals": 18
+  },
+  "infoURL": "https://dogechain.dog",
+  "shortName": "dogechain",
+  "chainId": 2000,
+  "networkId": 2000,
+  "icon": "dogechain",
+  "explorers": [{
+    "name": "dogechain",
+    "url": "https://explorer.dogechain.dog",
+    "standard": "EIP3091"
+  }]
+}
