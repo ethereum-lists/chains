@@ -7747,6 +7747,20 @@
   "networkId": 666666,
   "slip44": 60
 }, {
+  "name": "4GoodNetwork",
+  "chain": "4GN",
+  "rpc": ["https://chain.deptofgood.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "APTA",
+    "symbol": "APTA",
+    "decimals": 18
+  },
+  "infoURL": "https://bloqs4good.com",
+  "shortName": "bloqs4good",
+  "chainId": 846000,
+  "networkId": 846000
+}, {
   "name": "Vision - Mainnet",
   "chain": "Vision",
   "rpc": ["https://infragrid.v.network/ethereum/compatible"],
@@ -8079,8 +8093,8 @@
 }, {
   "name": "Neon EVM DevNet",
   "chain": "Solana",
-  "rpc": ["https://proxy.devnet.neonlabs.org/solana"],
-  "faucets": ["https://neonswap.live/#/get-tokens"],
+  "rpc": ["https://devnet.neonevm.org"],
+  "faucets": ["https://neonfaucet.org"],
   "icon": "neon",
   "nativeCurrency": {
     "name": "Neon",
@@ -8103,7 +8117,7 @@
 }, {
   "name": "Neon EVM MainNet",
   "chain": "Solana",
-  "rpc": ["https://proxy.mainnet.neonlabs.org/solana"],
+  "rpc": ["https://mainnet.neonevm.org"],
   "faucets": [],
   "icon": "neon",
   "nativeCurrency": {
@@ -8127,7 +8141,7 @@
 }, {
   "name": "Neon EVM TestNet",
   "chain": "Solana",
-  "rpc": ["https://proxy.testnet.neonlabs.org/solana"],
+  "rpc": ["https://testnet.neonevm.org"],
   "faucets": [],
   "icon": "neon",
   "nativeCurrency": {
