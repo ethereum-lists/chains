@@ -329,26 +329,30 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
     }
 }
 
+fun String.normalizeName() = replace(" ","").uppercase()
+
 /*
 moshi fails for extra commas
 https://github.com/ethereum-lists/chains/issues/126
 */
 private fun parseWithMoshi(fileToParse: File) {
     val parsedChain = chainAdapter.fromJson(fileToParse.readText())
-    if (parsedNames.contains(parsedChain!!.name)) {
-        throw NameMustBeUnique(parsedChain.name)
+    val parsedChainNormalizedName = parsedChain!!.name.normalizeName()
+    if (parsedNames.contains(parsedChainNormalizedName)) {
+        throw NameMustBeUnique(parsedChainNormalizedName)
     }
-    parsedNames.add(parsedChain.name)
+    parsedNames.add(parsedChainNormalizedName)
 
-    if (parsedShortNames.contains(parsedChain.shortName)) {
-        throw ShortNameMustBeUnique(parsedChain.shortName)
+    val parsedChainNormalizedShortName = parsedChain.shortName.normalizeName()
+    if (parsedShortNames.contains(parsedChainNormalizedShortName)) {
+        throw ShortNameMustBeUnique(parsedChainNormalizedShortName)
     }
 
-    if (parsedChain.shortName == "*") {
+    if (parsedChainNormalizedShortName == "*") {
         throw ShortNameMustNotBeStar()
     }
 
-    parsedShortNames.add(parsedChain.shortName)
+    parsedShortNames.add(parsedChainNormalizedShortName)
 }
 
 private fun getNumber(jsonObject: JsonObject, field: String): Long {
