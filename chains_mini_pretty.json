@@ -1715,6 +1715,19 @@
   "faucets": ["https://myhpbwallet.com/"],
   "infoURL": "https://hpb.io"
 }, {
+  "name": "zkSync alpha testnet",
+  "chainId": 280,
+  "shortName": "zksync-goerli",
+  "networkId": 280,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://zksync2-testnet.zksync.dev"],
+  "faucets": ["https://portal.zksync.io/faucet"],
+  "infoURL": "https://v2-docs.zksync.io/"
+}, {
   "name": "Boba Network",
   "chainId": 288,
   "shortName": "Boba",
