@@ -31,7 +31,7 @@
   "networkId": 3,
   "nativeCurrency": {
     "name": "Ropsten Ether",
-    "symbol": "ROP",
+    "symbol": "ETH",
     "decimals": 18
   },
   "rpc": ["https://ropsten.infura.io/v3/${INFURA_API_KEY}", "wss://ropsten.infura.io/ws/v3/${INFURA_API_KEY}"],
@@ -44,7 +44,7 @@
   "networkId": 4,
   "nativeCurrency": {
     "name": "Rinkeby Ether",
-    "symbol": "RIN",
+    "symbol": "ETH",
     "decimals": 18
   },
   "rpc": ["https://rinkeby.infura.io/v3/${INFURA_API_KEY}", "wss://rinkeby.infura.io/ws/v3/${INFURA_API_KEY}"],
@@ -57,7 +57,7 @@
   "networkId": 5,
   "nativeCurrency": {
     "name": "Görli Ether",
-    "symbol": "GOR",
+    "symbol": "ETH",
     "decimals": 18
   },
   "rpc": ["https://goerli.infura.io/v3/${INFURA_API_KEY}", "wss://goerli.infura.io/v3/${INFURA_API_KEY}", "https://rpc.goerli.mudit.blog/"],
@@ -512,7 +512,7 @@
   "networkId": 42,
   "nativeCurrency": {
     "name": "Kovan Ether",
-    "symbol": "KOV",
+    "symbol": "ETH",
     "decimals": 18
   },
   "rpc": ["https://kovan.poa.network", "http://kovan.poa.network:8545", "https://kovan.infura.io/v3/${INFURA_API_KEY}", "wss://kovan.infura.io/ws/v3/${INFURA_API_KEY}", "ws://kovan.poa.network:8546"],
@@ -824,7 +824,7 @@
   "networkId": 69,
   "nativeCurrency": {
     "name": "Kovan Ether",
-    "symbol": "KOR",
+    "symbol": "ETH",
     "decimals": 18
   },
   "rpc": ["https://kovan.optimism.io/"],
@@ -5322,7 +5322,7 @@
   "networkId": 421611,
   "nativeCurrency": {
     "name": "Arbitrum Rinkeby Ether",
-    "symbol": "ARETH",
+    "symbol": "ETH",
     "decimals": 18
   },
   "rpc": ["https://rinkeby.arbitrum.io/rpc"],

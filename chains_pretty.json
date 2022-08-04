@@ -46,7 +46,7 @@
   "faucets": ["http://fauceth.komputing.org?chain=3&address=${ADDRESS}", "https://faucet.ropsten.be?${ADDRESS}"],
   "nativeCurrency": {
     "name": "Ropsten Ether",
-    "symbol": "ROP",
+    "symbol": "ETH",
     "decimals": 18
   },
   "infoURL": "https://github.com/ethereum/ropsten",
@@ -70,7 +70,7 @@
   "faucets": ["http://fauceth.komputing.org?chain=4&address=${ADDRESS}", "https://faucet.rinkeby.io"],
   "nativeCurrency": {
     "name": "Rinkeby Ether",
-    "symbol": "RIN",
+    "symbol": "ETH",
     "decimals": 18
   },
   "infoURL": "https://www.rinkeby.io",
@@ -94,7 +94,7 @@
   "faucets": ["http://fauceth.komputing.org?chain=5&address=${ADDRESS}", "https://goerli-faucet.slock.it?address=${ADDRESS}", "https://faucet.goerli.mudit.blog"],
   "nativeCurrency": {
     "name": "Görli Ether",
-    "symbol": "GOR",
+    "symbol": "ETH",
     "decimals": 18
   },
   "infoURL": "https://goerli.net/#about",
@@ -679,7 +679,7 @@
   "faucets": ["http://fauceth.komputing.org?chain=42&address=${ADDRESS}", "https://faucet.kovan.network", "https://gitter.im/kovan-testnet/faucet"],
   "nativeCurrency": {
     "name": "Kovan Ether",
-    "symbol": "KOV",
+    "symbol": "ETH",
     "decimals": 18
   },
   "explorers": [{
@@ -1108,7 +1108,7 @@
   "faucets": ["http://fauceth.komputing.org?chain=69&address=${ADDRESS}"],
   "nativeCurrency": {
     "name": "Kovan Ether",
-    "symbol": "KOR",
+    "symbol": "ETH",
     "decimals": 18
   },
   "explorers": [{
@@ -7625,7 +7625,7 @@
   "networkId": 421611,
   "nativeCurrency": {
     "name": "Arbitrum Rinkeby Ether",
-    "symbol": "ARETH",
+    "symbol": "ETH",
     "decimals": 18
   },
   "rpc": ["https://rinkeby.arbitrum.io/rpc"],
