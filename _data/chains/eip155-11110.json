@@ -1,11 +1,11 @@
 {
   "name": "Astra",
   "chain": "Astra",
-  "rpc": ["https://rpc.astranaut.io"],
+  "rpc": ["https://rpc.astranaut.io", "https://rpc1.astranaut.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Astra",
-    "symbol": "ASTRA",
+    "symbol": "ASA",
     "decimals": 18
   },
   "infoURL": "https://astranaut.io",
