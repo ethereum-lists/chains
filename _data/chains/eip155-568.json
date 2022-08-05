@@ -1,5 +1,5 @@
 {
-  "name": "Doge Chain Testnet",
+  "name": "Dogechain Testnet",
   "chain": "DC",
   "rpc": [
     "https://rpc-testnet.dogechain.dog"
@@ -8,7 +8,7 @@
     "https://faucet.dogechain.dog"
   ],
   "nativeCurrency": {
-    "name": "Doge Chain Wrap Token",
+    "name": "DogeCoin Wrapped Token",
     "symbol": "wDoge",
     "decimals": 18
   },

@@ -1,14 +1,14 @@
 {
-  "name": "Doge Chain Mainnet",
+  "name": "Dogechain Mainnet",
   "chain": "DC",
   "rpc": [
     "https://rpc01-sg.dogechain.dog",
     "https://rpc02-sg.dogechain.dog",
     "https://rpc03-sg.dogechain.dog"
   ],
-  "faucets": ["https://bridge.dogechain.dog"],  
+  "bridge": ["https://bridge.dogechain.dog"],  
   "nativeCurrency": {
-    "name": "Doge Chain Wrap Token",
+    "name": "DogeCoin Wrapped Token",
     "symbol": "wDoge",
     "decimals": 18
   },
