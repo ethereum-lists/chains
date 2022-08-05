@@ -1,0 +1,25 @@
+{
+  "name": "Peculiar Chain",
+  "chain": "peculiar",
+  "network": "mainnet",
+  "icon": "peculiar",
+  "rpc": ["https://rpc.qiyichain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PEC",
+    "symbol": "PEC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.qiyichain.com",
+  "shortName": "pec",
+  "chainId": 2285,
+  "networkId": 2285,
+  "explorers": [
+    {
+      "name": "peculiar-explorer",
+      "url": "https://scan.qiyichain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
+
