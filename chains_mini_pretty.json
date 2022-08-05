@@ -4835,6 +4835,19 @@
   "faucets": [],
   "infoURL": "https://mvm.dev"
 }, {
+  "name": "ResinCoin Mainnet",
+  "chainId": 75000,
+  "shortName": "resin",
+  "networkId": 75000,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "RESIN",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.resincoin.ml/"],
+  "faucets": [],
+  "infoURL": "https://resincoin.ml"
+}, {
   "name": "Firenze test network",
   "chainId": 78110,
   "shortName": "firenze",

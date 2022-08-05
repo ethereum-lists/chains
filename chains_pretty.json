@@ -6887,6 +6887,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "ResinCoin Mainnet",
+  "chain": "RESIN",
+  "rpc": ["https://mainnet.resincoin.ml/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "RESIN",
+    "decimals": 18
+  },
+  "infoURL": "https://resincoin.ml",
+  "shortName": "resin",
+  "chainId": 75000,
+  "networkId": 75000,
+  "explorers": [{
+    "name": "ResinScan",
+    "url": "https://explorer.resincoin.ml",
+    "standard": "none"
+  }]
+}, {
   "name": "Firenze test network",
   "chain": "ETH",
   "rpc": ["https://ethnode.primusmoney.com/firenze"],
