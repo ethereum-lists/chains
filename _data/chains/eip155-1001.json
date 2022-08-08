@@ -2,18 +2,23 @@
   "name": "Klaytn Testnet Baobab",
   "chain": "KLAY",
   "rpc": [
-    "https://api.baobab.klaytn.net:8651"
+    "https://public-node-api.klaytnapi.com/v1/baobab"
   ],
   "faucets": [
-    "https://baobab.wallet.klaytn.com/access?next=faucet"
+    "https://baobab.wallet.klaytn.foundation/faucet"
   ],
   "nativeCurrency": {
     "name": "KLAY",
     "symbol": "KLAY",
     "decimals": 18
   },
-  "infoURL": "https://www.klaytn.com/",
+  "infoURL": "https://klaytn.foundation/",
   "shortName": "Baobab",
   "chainId": 1001,
-  "networkId": 1001
+  "networkId": 1001,
+  "explorers": [{
+    "name": "Klaytnscope",
+    "url": "https://baobab.scope.klaytn.com",
+    "standard": "none"
+  }]
 }
