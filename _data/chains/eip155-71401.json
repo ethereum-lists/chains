@@ -8,8 +8,8 @@
     "https://testnet.bridge.godwoken.io"
   ],
   "nativeCurrency": {
-    "name": "CKB",
-    "symbol": "CKB",
+    "name": "pCKB",
+    "symbol": "pCKB",
     "decimals": 18
   },
   "infoURL": "https://www.nervos.org",
@@ -18,8 +18,13 @@
   "networkId": 71401,
   "explorers": [
     {
+      "name": "GWScout Explorer",
+      "url": "https://gw-testnet-explorer.nervosdao.community",
+      "standard": "none"
+    },
+    {
       "name": "GWScan Block Explorer",
-      "url": "https://v1.aggron.gwscan.com",
+      "url": "https://v1.testnet.gwscan.com",
       "standard": "none"
     }
   ]
