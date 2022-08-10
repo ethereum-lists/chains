@@ -1,0 +1,19 @@
+{
+  "name": "Credit Smart Chain",
+  "chain": "CREDIT",
+  "network": "mainnet",
+  "rpc": [
+    "https://mainnet-rpc.cscscan.io/"
+  ],
+  "faucets": [
+  ],
+  "nativeCurrency": {
+    "name": "CREDIT",
+    "symbol": "CREDIT",
+    "decimals": 18
+  },
+  "infoURL": "https://explorer.cscscan.io",
+  "shortName": "usc",
+  "chainId": 13308,
+  "networkId": 13308
+}
