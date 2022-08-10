@@ -1,0 +1,20 @@
+{
+  "name": "Credit SmartChain Testnet",
+  "chain": "CREDIT",
+  "network": "testnet",
+  "rpc": [
+    "https://testnet-rpc.cscscan.io/"
+  ],
+  "faucets": [
+    "https://faucet.cscscan.io/"
+  ],
+  "nativeCurrency": {
+    "name": "CREDIT",
+    "symbol": "CREDIT",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet-explorer.cscscan.io/",
+  "shortName": "credit",
+  "chainId": 40627,
+  "networkId": 40627
+}
