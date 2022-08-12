@@ -1,6 +1,7 @@
 {
-    "name": "CMP-Testnet",
-    "chain": "CMP",
+    "name": "Caduceus Testnet",
+    "chain": "Caduceus",
+    "icon": "caduceus",
     "network": "testnet",
     "rpc": [
       "https://galaxy.block.caduceus.foundation",
@@ -21,6 +22,6 @@
     "explorers": [{
       "name": "Galaxy Scan",
       "url": "https://galaxy.scan.caduceus.foundation",
-      "standard": "none"
+      "standard": "EIP3091"
     }]
   }

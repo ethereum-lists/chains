@@ -1,0 +1,23 @@
+{
+    "name": "Caduceus Mainnet",
+    "chain": "Caduceus",
+    "icon": "caduceus",
+    "rpc": [
+        "https://mainnet.block.caduceus.foundation"
+    ],
+    "faucets": ["https://dev.caduceus.foundation/testNetwork/"],
+    "nativeCurrency": {
+        "name": "Caduceus",
+        "symbol": "CMP",
+        "decimals": 18
+    },
+    "infoURL": "https://caduceus.foundation/",
+    "shortName": "Caduceus",
+    "chainId": 256256,
+    "networkId": 256256,
+    "explorers": [{
+        "name": "Caduceus Chain Explorer",
+        "url": "https://mainnet.scan.caduceus.foundation/",
+        "standard": "EIP3091"
+    }]
+}
