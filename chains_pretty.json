@@ -7917,6 +7917,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Plian Mainnet Main",
+  "chain": "Plian",
+  "network": "mainnet",
+  "rpc": ["https://mainnet.plian.io/pchain"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Plian Token",
+    "symbol": "PI",
+    "decimals": 18
+  },
+  "infoURL": "https://plian.org/",
+  "shortName": "plian-mainnet",
+  "chainId": 2099156,
+  "networkId": 2099156,
+  "explorers": [{
+    "name": "piscan",
+    "url": "https://piscan.plian.org/pchain",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "PlatON Dev Testnet",
   "chain": "PlatON",
   "rpc": ["https://devnetopenapi2.platon.network/rpc", "wss://devnetopenapi2.platon.network/ws"],
@@ -7972,6 +7992,54 @@
   "networkId": 7762959,
   "slip44": 184
 }, {
+  "name": "Plian Mainnet Subchain 1",
+  "chain": "Plian",
+  "network": "mainnet",
+  "rpc": ["https://mainnet.plian.io/child_0"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Plian Token",
+    "symbol": "PI",
+    "decimals": 18
+  },
+  "infoURL": "https://plian.org",
+  "shortName": "plian-mainnet-l2",
+  "chainId": 8007736,
+  "networkId": 8007736,
+  "explorers": [{
+    "name": "piscan",
+    "url": "https://piscan.plian.org/child_0",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "chain": "eip155-2099156",
+    "type": "L2"
+  }
+}, {
+  "name": "Plian Testnet Subchain 1",
+  "chain": "Plian",
+  "network": "testnet",
+  "rpc": ["https://testnet.plian.io/child_test"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Plian Token",
+    "symbol": "TPI",
+    "decimals": 18
+  },
+  "infoURL": "https://plian.org/",
+  "shortName": "plian-testnet-l2",
+  "chainId": 10067275,
+  "networkId": 10067275,
+  "explorers": [{
+    "name": "piscan",
+    "url": "https://testnet.plian.org/child_test",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "chain": "eip155-16658437",
+    "type": "L2"
+  }
+}, {
   "name": "Sepolia",
   "title": "Ethereum Testnet Sepolia",
   "chain": "ETH",
@@ -8006,6 +8074,26 @@
   "shortName": "tpep",
   "chainId": 13371337,
   "networkId": 13371337
+}, {
+  "name": "Plian Testnet Main",
+  "chain": "Plian",
+  "network": "testnet",
+  "rpc": ["https://testnet.plian.io/testnet"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Plian Testnet Token",
+    "symbol": "TPI",
+    "decimals": 18
+  },
+  "infoURL": "https://plian.org",
+  "shortName": "plian-testnet",
+  "chainId": 16658437,
+  "networkId": 16658437,
+  "explorers": [{
+    "name": "piscan",
+    "url": "https://testnet.plian.org/testnet",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "IOLite",
   "chain": "ILT",

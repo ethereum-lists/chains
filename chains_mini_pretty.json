@@ -5511,6 +5511,19 @@
   "faucets": ["https://faucet.kiln.themerge.dev", "https://kiln-faucet.pk910.de", "https://kilnfaucet.com"],
   "infoURL": "https://kiln.themerge.dev/"
 }, {
+  "name": "Plian Mainnet Main",
+  "chainId": 2099156,
+  "shortName": "plian-mainnet",
+  "networkId": 2099156,
+  "nativeCurrency": {
+    "name": "Plian Token",
+    "symbol": "PI",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.plian.io/pchain"],
+  "faucets": [],
+  "infoURL": "https://plian.org/"
+}, {
   "name": "PlatON Dev Testnet",
   "chainId": 2203181,
   "shortName": "platondev",
@@ -5550,6 +5563,32 @@
   "faucets": [],
   "infoURL": "https://musicoin.tw"
 }, {
+  "name": "Plian Mainnet Subchain 1",
+  "chainId": 8007736,
+  "shortName": "plian-mainnet-l2",
+  "networkId": 8007736,
+  "nativeCurrency": {
+    "name": "Plian Token",
+    "symbol": "PI",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.plian.io/child_0"],
+  "faucets": [],
+  "infoURL": "https://plian.org"
+}, {
+  "name": "Plian Testnet Subchain 1",
+  "chainId": 10067275,
+  "shortName": "plian-testnet-l2",
+  "networkId": 10067275,
+  "nativeCurrency": {
+    "name": "Plian Token",
+    "symbol": "TPI",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.plian.io/child_test"],
+  "faucets": [],
+  "infoURL": "https://plian.org/"
+}, {
   "name": "Sepolia",
   "chainId": 11155111,
   "shortName": "sep",
@@ -5575,6 +5614,19 @@
   "rpc": ["https://churchill-rpc.pepchain.io"],
   "faucets": [],
   "infoURL": "https://pepchain.io"
+}, {
+  "name": "Plian Testnet Main",
+  "chainId": 16658437,
+  "shortName": "plian-testnet",
+  "networkId": 16658437,
+  "nativeCurrency": {
+    "name": "Plian Testnet Token",
+    "symbol": "TPI",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.plian.io/testnet"],
+  "faucets": [],
+  "infoURL": "https://plian.org"
 }, {
   "name": "IOLite",
   "chainId": 18289463,
