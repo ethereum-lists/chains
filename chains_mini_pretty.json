@@ -5966,6 +5966,19 @@
   "faucets": [],
   "infoURL": "https://www.harmony.one/"
 }, {
+  "name": "Harmony Devnet Shard 0",
+  "chainId": 1666900000,
+  "shortName": "hmy-ps-s0",
+  "networkId": 1666900000,
+  "nativeCurrency": {
+    "name": "ONE",
+    "symbol": "ONE",
+    "decimals": 18
+  },
+  "rpc": ["https://api.s1.ps.hmny.io", "https://api.s1.ps.hmny.io"],
+  "faucets": ["http://dev.faucet.easynode.one/"],
+  "infoURL": "https://www.harmony.one/"
+}, {
   "name": "DataHopper",
   "chainId": 2021121117,
   "shortName": "hop",

@@ -8537,6 +8537,25 @@
   "chainId": 1666700003,
   "networkId": 1666700003
 }, {
+  "name": "Harmony Devnet Shard 0",
+  "chain": "Harmony",
+  "rpc": ["https://api.s1.ps.hmny.io", "https://api.s1.ps.hmny.io"],
+  "faucets": ["http://dev.faucet.easynode.one/"],
+  "nativeCurrency": {
+    "name": "ONE",
+    "symbol": "ONE",
+    "decimals": 18
+  },
+  "infoURL": "https://www.harmony.one/",
+  "shortName": "hmy-ps-s0",
+  "chainId": 1666900000,
+  "networkId": 1666900000,
+  "explorers": [{
+    "name": "Harmony Block Explorer",
+    "url": "https://explorer.ps.hmny.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "DataHopper",
   "chain": "HOP",
   "rpc": ["https://23.92.21.121:8545"],
