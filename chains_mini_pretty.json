@@ -571,7 +571,7 @@
   "faucets": [],
   "infoURL": "https://darwinia.network/"
 }, {
-  "name": "XinFin Network Mainnet",
+  "name": "XinFin XDC Network",
   "chainId": 50,
   "shortName": "xdc",
   "networkId": 50,
@@ -580,21 +580,21 @@
     "symbol": "XDC",
     "decimals": 18
   },
-  "rpc": ["https://rpc.xinfin.network"],
+  "rpc": ["https://erpc.xinfin.network", "https://rpc.xinfin.network", "https://rpc1.xinfin.network"],
   "faucets": [],
   "infoURL": "https://xinfin.org"
 }, {
-  "name": "XinFin Apothem Testnet",
+  "name": "XDC Apothem Network",
   "chainId": 51,
-  "shortName": "TXDC",
+  "shortName": "txdc",
   "networkId": 51,
   "nativeCurrency": {
-    "name": "XinFinTest",
+    "name": "XinFin",
     "symbol": "TXDC",
     "decimals": 18
   },
-  "rpc": ["https://rpc.apothem.network"],
-  "faucets": [],
+  "rpc": ["https://rpc.apothem.network", "https://erpc.apothem.network"],
+  "faucets": ["https://faucet.apothem.network"],
   "infoURL": "https://xinfin.org"
 }, {
   "name": "CoinEx Smart Chain Mainnet",
