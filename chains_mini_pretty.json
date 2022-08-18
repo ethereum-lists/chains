@@ -1156,7 +1156,7 @@
   "faucets": [],
   "infoURL": "https://poa.network"
 }, {
-  "name": "Gnosis Chain",
+  "name": "Gnosis",
   "chainId": 100,
   "shortName": "gno",
   "networkId": 100,
@@ -1166,8 +1166,8 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.gnosischain.com", "https://rpc.ankr.com/gnosis", "https://gnosischain-rpc.gateway.pokt.network", "https://gnosis-mainnet.public.blastapi.io", "wss://rpc.gnosischain.com/wss"],
-  "faucets": ["https://faucet.gimlu.com/gnosis", "https://stakely.io/faucet/gnosis-chain-xdai", "https://faucet.prussia.dev/xdai"],
-  "infoURL": "https://developers.gnosischain.com"
+  "faucets": ["https://gnosisfaucet.com", "https://faucet.gimlu.com/gnosis", "https://stakely.io/faucet/gnosis-chain-xdai", "https://faucet.prussia.dev/xdai"],
+  "infoURL": "https://docs.gnosischain.com"
 }, {
   "name": "EtherInc",
   "chainId": 101,
@@ -1741,7 +1741,7 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
-  "name": "Optimism on Gnosis Chain",
+  "name": "Optimism on Gnosis",
   "chainId": 300,
   "shortName": "ogc",
   "networkId": 300,
@@ -5055,6 +5055,19 @@
   "rpc": ["https://mainnet-s7-ethapi.quarkchain.io", "http://eth-jrpc.mainnet.quarkchain.io:39007"],
   "faucets": [],
   "infoURL": "https://www.quarkchain.io"
+}, {
+  "name": "Chiado Testnet",
+  "chainId": 100100,
+  "shortName": "chi",
+  "networkId": 100100,
+  "nativeCurrency": {
+    "name": "Chiado xDAI",
+    "symbol": "xDAI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-chiado.gnosistestnet.com"],
+  "faucets": ["https://gnosisfaucet.com"],
+  "infoURL": "https://docs.gnosischain.com"
 }, {
   "name": "Crystaleum",
   "chainId": 103090,
