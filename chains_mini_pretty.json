@@ -1416,6 +1416,19 @@
   "faucets": [],
   "infoURL": "https://prodax.io/"
 }, {
+  "name": "PHI Network v2",
+  "chainId": 144,
+  "shortName": "PHI",
+  "networkId": 144,
+  "nativeCurrency": {
+    "name": "PHI",
+    "symbol": "Φ",
+    "decimals": 18
+  },
+  "rpc": ["https://connect.phi.network", ""],
+  "faucets": [],
+  "infoURL": "https://phi.network"
+}, {
   "name": "Lightstreams Testnet",
   "chainId": 162,
   "shortName": "tpht",
@@ -3548,9 +3561,9 @@
   "faucets": [],
   "infoURL": "https://aioz.network"
 }, {
-  "name": "PHI Network",
+  "name": "PHI Network V1",
   "chainId": 4181,
-  "shortName": "PHI",
+  "shortName": "PHIv1",
   "networkId": 4181,
   "nativeCurrency": {
     "name": "PHI",

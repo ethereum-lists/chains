@@ -1993,6 +1993,28 @@
   "chainId": 142,
   "networkId": 142
 }, {
+  "name": "PHI Network v2",
+  "chain": "PHI",
+  "network": "mainnet",
+  "rpc": ["https://connect.phi.network", ""],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PHI",
+    "symbol": "Φ",
+    "decimals": 18
+  },
+  "infoURL": "https://phi.network",
+  "shortName": "PHI",
+  "chainId": 144,
+  "networkId": 144,
+  "icon": "phi",
+  "explorers": [{
+    "name": "Phiscan",
+    "url": "https://phiscan.com",
+    "icon": "phi",
+    "standard": "none"
+  }]
+}, {
   "name": "Lightstreams Testnet",
   "chain": "PHT",
   "rpc": ["https://node.sirius.lightstreams.io"],
@@ -4993,8 +5015,8 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "PHI Network",
-  "chain": "PHI",
+  "name": "PHI Network V1",
+  "chain": "PHI V1",
   "network": "mainnet",
   "rpc": ["https://rpc1.phi.network", "https://rpc2.phi.network"],
   "faucets": [],
@@ -5004,7 +5026,7 @@
     "decimals": 18
   },
   "infoURL": "https://phi.network",
-  "shortName": "PHI",
+  "shortName": "PHIv1",
   "chainId": 4181,
   "networkId": 4181,
   "icon": "phi",
