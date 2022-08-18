@@ -1,10 +1,9 @@
 {
-  "name": "Posichain Mainnet Shard 0",
+  "name": "Posichain Devnet Shard 0",
   "chain": "Posichain",
-  "network": "mainnet",
+  "network": "devnet",
   "rpc": [
-    "https://api.posichain.org",
-    "https://api.s0.posichain.org"
+    "https://api.s0.d.posichain.org"
   ],
   "faucets": [
     "https://faucet.posichain.org/"
@@ -15,14 +14,14 @@
     "decimals": 18
   },
   "infoURL": "https://posichain.org",
-  "shortName": "posi-s0",
-  "chainId": 900000,
-  "networkId": 900000,
+  "shortName": "posi-d-s0",
+  "chainId": 920000,
+  "networkId": 920000,
   "icon": "posichain",
   "explorers": [
     {
-      "name": "Posichain Explorer",
-      "url": "https://explorer.posichain.org",
+      "name": "Posichain Devnet Explorer",
+      "url": "https://explorer-devnet.posichain.org",
       "icon": "posichain",
       "standard": "EIP3091"
     }
