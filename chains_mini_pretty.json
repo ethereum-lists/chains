@@ -5485,6 +5485,58 @@
   "faucets": [],
   "infoURL": "https://www.v.network"
 }, {
+  "name": "Posichain Mainnet Shard 0",
+  "chainId": 900000,
+  "shortName": "psc-s0",
+  "networkId": 900000,
+  "nativeCurrency": {
+    "name": "Posichain Native Token",
+    "symbol": "POSI",
+    "decimals": 18
+  },
+  "rpc": ["https://api.posichain.org", "https://api.s0.posichain.org"],
+  "faucets": ["https://faucet.posichain.org/"],
+  "infoURL": "https://posichain.org"
+}, {
+  "name": "Posichain Testnet Shard 0",
+  "chainId": 910000,
+  "shortName": "psc-t-s0",
+  "networkId": 910000,
+  "nativeCurrency": {
+    "name": "Posichain Native Token",
+    "symbol": "POSI",
+    "decimals": 18
+  },
+  "rpc": ["https://api.s0.t.posichain.org"],
+  "faucets": ["https://faucet.posichain.org/"],
+  "infoURL": "https://posichain.org"
+}, {
+  "name": "Posichain Devnet Shard 0",
+  "chainId": 920000,
+  "shortName": "psc-d-s0",
+  "networkId": 920000,
+  "nativeCurrency": {
+    "name": "Posichain Native Token",
+    "symbol": "POSI",
+    "decimals": 18
+  },
+  "rpc": ["https://api.s0.d.posichain.org"],
+  "faucets": ["https://faucet.posichain.org/"],
+  "infoURL": "https://posichain.org"
+}, {
+  "name": "Posichain Devnet Shard 1",
+  "chainId": 920001,
+  "shortName": "psc-d-s1",
+  "networkId": 920001,
+  "nativeCurrency": {
+    "name": "Posichain Native Token",
+    "symbol": "POSI",
+    "decimals": 18
+  },
+  "rpc": ["https://api.s1.d.posichain.org"],
+  "faucets": ["https://faucet.posichain.org/"],
+  "infoURL": "https://posichain.org"
+}, {
   "name": "Eluvio Content Fabric",
   "chainId": 955305,
   "shortName": "elv",

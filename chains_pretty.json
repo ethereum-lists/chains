@@ -7906,6 +7906,94 @@
   "networkId": 888888,
   "slip44": 60
 }, {
+  "name": "Posichain Mainnet Shard 0",
+  "chain": "PSC",
+  "network": "mainnet",
+  "rpc": ["https://api.posichain.org", "https://api.s0.posichain.org"],
+  "faucets": ["https://faucet.posichain.org/"],
+  "nativeCurrency": {
+    "name": "Posichain Native Token",
+    "symbol": "POSI",
+    "decimals": 18
+  },
+  "infoURL": "https://posichain.org",
+  "shortName": "psc-s0",
+  "chainId": 900000,
+  "networkId": 900000,
+  "icon": "posichain",
+  "explorers": [{
+    "name": "Posichain Explorer",
+    "url": "https://explorer.posichain.org",
+    "icon": "posichain",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Posichain Testnet Shard 0",
+  "chain": "PSC",
+  "network": "testnet",
+  "rpc": ["https://api.s0.t.posichain.org"],
+  "faucets": ["https://faucet.posichain.org/"],
+  "nativeCurrency": {
+    "name": "Posichain Native Token",
+    "symbol": "POSI",
+    "decimals": 18
+  },
+  "infoURL": "https://posichain.org",
+  "shortName": "psc-t-s0",
+  "chainId": 910000,
+  "networkId": 910000,
+  "icon": "posichain",
+  "explorers": [{
+    "name": "Posichain Explorer Testnet",
+    "url": "https://explorer-testnet.posichain.org",
+    "icon": "posichain",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Posichain Devnet Shard 0",
+  "chain": "PSC",
+  "network": "devnet",
+  "rpc": ["https://api.s0.d.posichain.org"],
+  "faucets": ["https://faucet.posichain.org/"],
+  "nativeCurrency": {
+    "name": "Posichain Native Token",
+    "symbol": "POSI",
+    "decimals": 18
+  },
+  "infoURL": "https://posichain.org",
+  "shortName": "psc-d-s0",
+  "chainId": 920000,
+  "networkId": 920000,
+  "icon": "posichain",
+  "explorers": [{
+    "name": "Posichain Explorer Devnet",
+    "url": "https://explorer-devnet.posichain.org",
+    "icon": "posichain",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Posichain Devnet Shard 1",
+  "chain": "PSC",
+  "network": "devnet",
+  "rpc": ["https://api.s1.d.posichain.org"],
+  "faucets": ["https://faucet.posichain.org/"],
+  "nativeCurrency": {
+    "name": "Posichain Native Token",
+    "symbol": "POSI",
+    "decimals": 18
+  },
+  "infoURL": "https://posichain.org",
+  "shortName": "psc-d-s1",
+  "chainId": 920001,
+  "networkId": 920001,
+  "icon": "posichain",
+  "explorers": [{
+    "name": "Posichain Explorer Devnet",
+    "url": "https://explorer-devnet.posichain.org",
+    "icon": "posichain",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Eluvio Content Fabric",
   "chain": "Eluvio",
   "rpc": ["https://host-76-74-28-226.contentfabric.io/eth/", "https://host-76-74-28-232.contentfabric.io/eth/", "https://host-76-74-29-2.contentfabric.io/eth/", "https://host-76-74-29-8.contentfabric.io/eth/", "https://host-76-74-29-34.contentfabric.io/eth/", "https://host-76-74-29-35.contentfabric.io/eth/", "https://host-154-14-211-98.contentfabric.io/eth/", "https://host-154-14-192-66.contentfabric.io/eth/", "https://host-60-240-133-202.contentfabric.io/eth/", "https://host-64-235-250-98.contentfabric.io/eth/"],
