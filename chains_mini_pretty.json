@@ -2443,6 +2443,32 @@
   "faucets": ["https://faucet.v3.testnet.pulsechain.com/"],
   "infoURL": "https://pulsechain.com/"
 }, {
+  "name": "CCN",
+  "chainId": 970,
+  "shortName": "ccn",
+  "networkId": 970,
+  "nativeCurrency": {
+    "name": "ComputeCoin",
+    "symbol": "CCN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mainnet.computecoin.com"],
+  "faucets": [],
+  "infoURL": "http://computecoin.com/"
+}, {
+  "name": "CCN Beta",
+  "chainId": 971,
+  "shortName": "ccnbeta",
+  "networkId": 971,
+  "nativeCurrency": {
+    "name": "ComputeCoin",
+    "symbol": "CCN",
+    "decimals": 18
+  },
+  "rpc": ["https://beta-rpc.mainnet.computecoin.com"],
+  "faucets": [],
+  "infoURL": "http://computecoin.com/"
+}, {
   "name": "Nepal Blockchain Network",
   "chainId": 977,
   "shortName": "yeti",

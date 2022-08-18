@@ -3423,6 +3423,38 @@
     "decimals": 18
   }
 }, {
+  "name": "CCN",
+  "title": "ComputeCoin Main Network",
+  "chain": "CCN",
+  "rpc": ["https://rpc.mainnet.computecoin.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ComputeCoin",
+    "symbol": "CCN",
+    "decimals": 18
+  },
+  "infoURL": "http://computecoin.com/",
+  "shortName": "ccn",
+  "chainId": 970,
+  "networkId": 970,
+  "icon": "ccn"
+}, {
+  "name": "CCN Beta",
+  "title": "ComputeCoin Beta Network",
+  "chain": "CCN Beta",
+  "rpc": ["https://beta-rpc.mainnet.computecoin.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ComputeCoin",
+    "symbol": "CCN",
+    "decimals": 18
+  },
+  "infoURL": "http://computecoin.com/",
+  "shortName": "ccnbeta",
+  "chainId": 971,
+  "networkId": 971,
+  "icon": "ccn"
+}, {
   "name": "Nepal Blockchain Network",
   "chain": "YETI",
   "rpc": ["https://api.nepalblockchain.dev", "https://api.nepalblockchain.network"],
