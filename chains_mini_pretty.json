@@ -5238,6 +5238,19 @@
   "faucets": [],
   "infoURL": "https://milkomeda.com"
 }, {
+  "name": "Milkomeda A1 Testnet",
+  "chainId": 200202,
+  "shortName": "milkTAlgo",
+  "networkId": 200202,
+  "nativeCurrency": {
+    "name": "milkTAlgo",
+    "symbol": "mTAlgo",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-devnet-algorand-rollup.a1.milkomeda.com"],
+  "faucets": [],
+  "infoURL": "https://milkomeda.com"
+}, {
   "name": "Akroma",
   "chainId": 200625,
   "shortName": "aka",
