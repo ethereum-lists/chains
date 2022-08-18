@@ -1,6 +1,6 @@
 {
   "name": "Posichain Mainnet Shard 0",
-  "chain": "Posichain",
+  "chain": "PSC",
   "network": "mainnet",
   "rpc": [
     "https://api.posichain.org",
@@ -15,7 +15,7 @@
     "decimals": 18
   },
   "infoURL": "https://posichain.org",
-  "shortName": "posi-s0",
+  "shortName": "psc-s0",
   "chainId": 900000,
   "networkId": 900000,
   "icon": "posichain",

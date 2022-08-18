@@ -1,6 +1,6 @@
 {
   "name": "Posichain Devnet Shard 0",
-  "chain": "Posichain",
+  "chain": "PSC",
   "network": "devnet",
   "rpc": [
     "https://api.s0.d.posichain.org"
@@ -14,13 +14,13 @@
     "decimals": 18
   },
   "infoURL": "https://posichain.org",
-  "shortName": "posi-d-s0",
+  "shortName": "psc-d-s0",
   "chainId": 920000,
   "networkId": 920000,
   "icon": "posichain",
   "explorers": [
     {
-      "name": "Posichain Devnet Explorer",
+      "name": "Posichain Explorer Devnet",
       "url": "https://explorer-devnet.posichain.org",
       "icon": "posichain",
       "standard": "EIP3091"
