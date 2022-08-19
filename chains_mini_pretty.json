@@ -4926,6 +4926,19 @@
   "faucets": ["https://faucet.ivarex.com/"],
   "infoURL": "https://ivarex.com"
 }, {
+  "name": "Lambda Testnet",
+  "chainId": 92001,
+  "shortName": "lambda-testnet",
+  "networkId": 92001,
+  "nativeCurrency": {
+    "name": "test-Lamb",
+    "symbol": "LAMB",
+    "decimals": 18
+  },
+  "rpc": ["http://18.143.13.243:8545"],
+  "faucets": ["https://faucet.lambda.top"],
+  "infoURL": "https://lambda.im"
+}, {
   "name": "UB Smart Chain(testnet)",
   "chainId": 99998,
   "shortName": "usctest",
