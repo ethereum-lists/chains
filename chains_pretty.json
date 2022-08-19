@@ -4146,6 +4146,20 @@
     "standard": "none"
   }]
 }, {
+  "name": "Beagle Messaging Chain",
+  "chain": "BeagleChain",
+  "rpc": ["https://beagle.chat/eth"],
+  "faucets": ["https://faucet.beagle.chat/"],
+  "nativeCurrency": {
+    "name": "Beagle",
+    "symbol": "BG",
+    "decimals": 18
+  },
+  "infoURL": "https://beagle.chat/",
+  "shortName": "beagle",
+  "chainId": 1515,
+  "networkId": 1515
+}, {
   "name": "Catecoin Chain Mainnet",
   "chain": "Catechain",
   "rpc": ["https://send.catechain.com"],
