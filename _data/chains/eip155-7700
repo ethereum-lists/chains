@@ -1,0 +1,26 @@
+{
+  "name": "Canto Mainnet",
+  "chain": "CANTO",
+  "network": "mainnet",
+  "rpc": [
+    "https://canto.evm.chandrastation.com/",
+    "https://canto.slingshot.finance/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Canto",
+    "symbol": "CANTO",
+    "decimals": 18
+  },
+  "infoURL": "https://canto.io",
+  "shortName": "canto",
+  "chainId": 7700,
+  "networkId": 700,
+  "icon": "canto",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://evm.explorer.canto.io/",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}
