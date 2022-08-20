@@ -4263,6 +4263,19 @@
   "faucets": [],
   "infoURL": "https://cryptophoenix.org/phoenix"
 }, {
+  "name": "Trust EVM Testnet",
+  "chainId": 15555,
+  "shortName": "Trust testnet",
+  "networkId": 15555,
+  "nativeCurrency": {
+    "name": "Trust EVM",
+    "symbol": "EVM",
+    "decimals": 18
+  },
+  "rpc": ["https://api.testnet-dev.trust.one"],
+  "faucets": ["https://faucet.testnet-dev.trust.one/"],
+  "infoURL": "https://www.trust.one/"
+}, {
   "name": "MetaDot Mainnet",
   "chainId": 16000,
   "shortName": "mtt",
