@@ -3268,10 +3268,10 @@
 }, {
   "name": "Callisto Mainnet",
   "chain": "CLO",
-  "rpc": ["https://clo-geth.0xinfra.com"],
+  "rpc": ["https://rpc.callisto.network/"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Callisto Mainnet Ether",
+    "name": "Callisto",
     "symbol": "CLO",
     "decimals": 18
   },
@@ -3281,7 +3281,7 @@
   "networkId": 1,
   "slip44": 820
 }, {
-  "name": "Callisto Testnet",
+  "name": "Callisto Testnet Deprecated",
   "chain": "CLO",
   "rpc": [],
   "faucets": [],
@@ -3293,7 +3293,8 @@
   "infoURL": "https://callisto.network",
   "shortName": "tclo",
   "chainId": 821,
-  "networkId": 2
+  "networkId": 2,
+  "status": "deprecated"
 }, {
   "name": "Ambros Chain Mainnet",
   "chain": "ambroschain",
@@ -6149,6 +6150,20 @@
     "url": "https://btcixscan.com",
     "standard": "none"
   }]
+}, {
+  "name": "Callisto Testnet",
+  "chain": "CLO",
+  "rpc": ["https://testnet-rpc.callisto.network/"],
+  "faucets": ["https://faucet.callisto.network/"],
+  "nativeCurrency": {
+    "name": "Callisto",
+    "symbol": "CLO",
+    "decimals": 18
+  },
+  "infoURL": "https://callisto.network",
+  "shortName": "clo testnet",
+  "chainId": 20729,
+  "networkId": 79
 }, {
   "name": "CENNZnet Azalea",
   "chain": "CENNZnet",

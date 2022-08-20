@@ -2331,15 +2331,15 @@
   "shortName": "clo",
   "networkId": 1,
   "nativeCurrency": {
-    "name": "Callisto Mainnet Ether",
+    "name": "Callisto",
     "symbol": "CLO",
     "decimals": 18
   },
-  "rpc": ["https://clo-geth.0xinfra.com"],
+  "rpc": ["https://rpc.callisto.network/"],
   "faucets": [],
   "infoURL": "https://callisto.network"
 }, {
-  "name": "Callisto Testnet",
+  "name": "Callisto Testnet Deprecated",
   "chainId": 821,
   "shortName": "tclo",
   "networkId": 2,
@@ -4314,6 +4314,19 @@
   "rpc": ["https://seed.btcix.org/rpc"],
   "faucets": [],
   "infoURL": "https://bitcolojix.org"
+}, {
+  "name": "Callisto Testnet",
+  "chainId": 20729,
+  "shortName": "clo testnet",
+  "networkId": 79,
+  "nativeCurrency": {
+    "name": "Callisto",
+    "symbol": "CLO",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.callisto.network/"],
+  "faucets": ["https://faucet.callisto.network/"],
+  "infoURL": "https://callisto.network"
 }, {
   "name": "CENNZnet Azalea",
   "chainId": 21337,
