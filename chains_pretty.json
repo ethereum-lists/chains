@@ -521,9 +521,9 @@
   "name": "RSK Mainnet",
   "chain": "RSK",
   "rpc": ["https://public-node.rsk.co", "https://mycrypto.rsk.co"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": ["https://faucet.rsk.co/"],
   "nativeCurrency": {
-    "name": "RSK Mainnet Ether",
+    "name": "Smart Bitcoin",
     "symbol": "RBTC",
     "decimals": 18
   },
@@ -533,7 +533,7 @@
   "networkId": 30,
   "slip44": 137,
   "explorers": [{
-    "name": "blockscout",
+    "name": "RSK Explorer",
     "url": "https://explorer.rsk.co",
     "standard": "EIP3091"
   }]
@@ -541,16 +541,21 @@
   "name": "RSK Testnet",
   "chain": "RSK",
   "rpc": ["https://public-node.testnet.rsk.co", "https://mycrypto.testnet.rsk.co"],
-  "faucets": ["https://faucet.testnet.rsk.co"],
+  "faucets": ["https://faucet.rsk.co/"],
   "nativeCurrency": {
-    "name": "RSK Testnet Ether",
+    "name": "Testnet Smart Bitcoin",
     "symbol": "tRBTC",
     "decimals": 18
   },
   "infoURL": "https://rsk.co",
   "shortName": "trsk",
   "chainId": 31,
-  "networkId": 31
+  "networkId": 31,
+  "explorers": [{
+    "name": "RSK Testnet Explorer",
+    "url": "https://explorer.testnet.rsk.co",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "GoodData Testnet",
   "chain": "GooD",
