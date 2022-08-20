@@ -4159,6 +4159,19 @@
   "faucets": [],
   "infoURL": "https://shyft.network"
 }, {
+  "name": "SanR Chain",
+  "chainId": 11888,
+  "shortName": "SAN",
+  "networkId": 11888,
+  "nativeCurrency": {
+    "name": "nSAN",
+    "symbol": "nSAN",
+    "decimals": 18
+  },
+  "rpc": ["https://sanrchain-node.santiment.net"],
+  "faucets": [],
+  "infoURL": "https://sanr.app"
+}, {
   "name": "Singularity ZERO Testnet",
   "chainId": 12051,
   "shortName": "tZERO",
