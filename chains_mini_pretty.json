@@ -2053,6 +2053,19 @@
   "faucets": [],
   "infoURL": "https://tao.network"
 }, {
+  "name": "Dogechain Testnet",
+  "chainId": 568,
+  "shortName": "dct",
+  "networkId": 568,
+  "nativeCurrency": {
+    "name": "Wrapped Dogecoin",
+    "symbol": "wDOGE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.dogechain.dog"],
+  "faucets": ["https://faucet.dogechain.dog"],
+  "infoURL": "https://dogechain.dog"
+}, {
   "name": "Metis Stardust Testnet",
   "chainId": 588,
   "shortName": "metis-stardust",
@@ -3118,6 +3131,19 @@
   "rpc": ["https://jsonrpc.egem.io/custom"],
   "faucets": [],
   "infoURL": "https://egem.io"
+}, {
+  "name": "Dogechain Mainnet",
+  "chainId": 2000,
+  "shortName": "dc",
+  "networkId": 2000,
+  "nativeCurrency": {
+    "name": "Wrapped Dogecoin",
+    "symbol": "wDOGE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-sg.dogechain.dog", "https://rpc-us.dogechain.dog", "https://rpc.dogechain.dog", "https://rpc01-sg.dogechain.dog", "https://rpc02-sg.dogechain.dog", "https://rpc03-sg.dogechain.dog"],
+  "faucets": [],
+  "infoURL": "https://dogechain.dog"
 }, {
   "name": "Milkomeda C1 Mainnet",
   "chainId": 2001,
