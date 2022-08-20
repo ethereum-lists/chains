@@ -1,0 +1,20 @@
+{
+    "name": "SeedCoin-Network",
+    "chain": "SeedCoin-Network",
+    "network": "mainnet",
+    "rpc": [
+        "https://node.seedcoin.network"
+    ],
+    "faucets": [
+    ],
+    "nativeCurrency": {
+      "name": "SeedCoin",
+      "symbol": "SEED",
+      "decimals": 8
+    },
+    "infoURL": "https://www.seedcoin.network/",
+    "shortName": "SEED",
+    "icon": "seedcoin",
+    "chainId": 37,
+    "networkId": 37
+}

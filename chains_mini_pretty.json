@@ -467,6 +467,19 @@
   "faucets": [],
   "infoURL": "https://www.dxchain.com/"
 }, {
+  "name": "SeedCoin-Network",
+  "chainId": 37,
+  "shortName": "SEED",
+  "networkId": 37,
+  "nativeCurrency": {
+    "name": "SeedCoin",
+    "symbol": "SEED",
+    "decimals": 8
+  },
+  "rpc": ["https://node.seedcoin.network"],
+  "faucets": [],
+  "infoURL": "https://www.seedcoin.network/"
+}, {
   "name": "Valorbit",
   "chainId": 38,
   "shortName": "val",
