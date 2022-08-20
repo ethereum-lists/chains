@@ -5407,6 +5407,19 @@
   "faucets": [],
   "infoURL": "https://artis.network"
 }, {
+  "name": "CMP-Mainnet",
+  "chainId": 256256,
+  "shortName": "cmp-mainnet",
+  "networkId": 256256,
+  "nativeCurrency": {
+    "name": "Caduceus Token",
+    "symbol": "CMP",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.block.caduceus.foundation", "wss://mainnet.block.caduceus.foundation"],
+  "faucets": [],
+  "infoURL": "https://caduceus.foundation/"
+}, {
   "name": "Social Smart Chain Mainnet",
   "chainId": 281121,
   "shortName": "SoChain",
