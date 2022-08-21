@@ -1,5 +1,7 @@
 package org.ethereum.lists.chains.model
 
+import java.io.File
+
 class FileNameMustMatchChainId : Exception("chainId must match the filename")
 class ExtensionMustBeJSON : Exception("filename extension must be json")
 class ShouldHaveNoExtraFields(fields: Set<String>) : Exception("should have no extra field $fields")
@@ -34,3 +36,5 @@ class NativeCurrencySymbolMustHaveLessThan7Chars: Exception("Native currency sym
 class NativeCurrencyCanOnlyHaveSymbolNameAndDecimals: Exception("Native currency can only have symbol decimals and name")
 class NativeCurrencyDecimalMustBeInt: Exception("Native currency decimals must be int")
 class NativeCurrencyNameMustBeString: Exception("Native currency name must be string")
+
+class UnreferencedIcon(fileName: String, iconsDownloadPath: File): Exception("Found file $fileName in $iconsDownloadPath that is not referenced")

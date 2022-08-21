@@ -8,17 +8,16 @@
     "https://faucet.dogechain.dog"
   ],
   "nativeCurrency": {
-    "name": "DogeCoin Wrapped Token",
-    "symbol": "wDoge",
+    "name": "Wrapped Dogecoin",
+    "symbol": "wDOGE",
     "decimals": 18
   },
   "infoURL": "https://dogechain.dog",
-  "shortName": "dogechain",
+  "shortName": "dct",
   "chainId": 568,
   "networkId": 568,
-  "icon": "dogechain",
   "explorers": [{
-    "name": "dogechain-testnet",
+    "name": "dogechain testnet explorer",
     "url": "https://explorer-testnet.dogechain.dog",
     "standard": "EIP3091"
   }]
