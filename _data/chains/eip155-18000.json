@@ -1,6 +1,6 @@
 {
   "name": "Frontier of Dreams Testnet",
-  "chain": "ZKST",
+  "chain": "Game Network",
   "rpc": [
     "https://rpc.fod.games/"
   ],
@@ -15,7 +15,7 @@
   "networkId": 18000,
   "infoURL": "https://goexosphere.com",
   "explorers": [{
-    "name": "Frontier of Dreams",
+    "name": "Game Network",
     "url": "https://explorer.fod.games/",
     "standard": "EIP3091"
   }]
