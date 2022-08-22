@@ -8103,6 +8103,21 @@
     "standard": "none"
   }]
 }, {
+  "name": "ethereum Fair",
+  "chainId": 513100,
+  "networkId": 1,
+  "shortName": "etf",
+  "chain": "ETF",
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.etherfair.org"],
+  "faucets": [],
+  "explorers": [],
+  "infoURL": "https://etherfair.org"
+}, {
   "name": "Vision - Vpioneer Test Chain",
   "chain": "Vision-Vpioneer",
   "rpc": ["https://vpioneer.infragrid.v.network/ethereum/compatible"],
