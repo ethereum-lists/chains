@@ -3392,6 +3392,19 @@
   "faucets": [],
   "infoURL": "https://techpay.io/"
 }, {
+  "name": "Redlight Chain Mainnet",
+  "chainId": 2611,
+  "shortName": "REDLC",
+  "networkId": 2611,
+  "nativeCurrency": {
+    "name": "Redlight Coin",
+    "symbol": "REDLC",
+    "decimals": 18
+  },
+  "rpc": ["https://dataseed2.redlightscan.finance"],
+  "faucets": [],
+  "infoURL": "https://redlight.finance/"
+}, {
   "name": "EZChain C-Chain Mainnet",
   "chainId": 2612,
   "shortName": "EZChain",
