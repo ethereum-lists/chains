@@ -4146,6 +4146,19 @@
   "faucets": [],
   "infoURL": "http://smartbch.org/"
 }, {
+  "name": "Gon Chain",
+  "chainId": 10024,
+  "shortName": "gon",
+  "networkId": 10024,
+  "nativeCurrency": {
+    "name": "Gon Token",
+    "symbol": "GT",
+    "decimals": 18
+  },
+  "rpc": ["https://node1.testnet.gaiaopen.network"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Blockchain Genesis Mainnet",
   "chainId": 10101,
   "shortName": "GEN",

@@ -5905,6 +5905,21 @@
   "chainId": 10001,
   "networkId": 10001
 }, {
+  "name": "Gon Chain",
+  "chain": "GonChain",
+  "icon": "gonchain",
+  "rpc": ["https://node1.testnet.gaiaopen.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Gon Token",
+    "symbol": "GT",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "gon",
+  "chainId": 10024,
+  "networkId": 10024
+}, {
   "name": "Blockchain Genesis Mainnet",
   "chain": "GEN",
   "rpc": ["https://eu.mainnet.xixoio.com", "https://us.mainnet.xixoio.com", "https://asia.mainnet.xixoio.com"],
