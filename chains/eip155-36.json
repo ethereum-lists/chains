@@ -14,5 +14,10 @@
     "infoURL": "https://www.dxchain.com/",
     "shortName": "dx",
     "chainId": 36,
-    "networkId": 36
+    "networkId": 36,
+    "explorers": [{
+        "name": "dxscan",
+        "url": "https://dxscan.io",
+        "standard": "EIP3091"
+      }]
 }
