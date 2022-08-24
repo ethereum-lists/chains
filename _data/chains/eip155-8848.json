@@ -1,0 +1,15 @@
+{
+    "name": "Vmeta3 Kovan Testnet",
+    "chain": "VMT",
+    "rpc": ["https://kovan.vmeta3.com/rpc"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Vmeta3 Testnet Token",
+      "symbol": "VMT",
+      "decimals": 18
+    },
+    "infoURL": "https://vmeta3.com",
+    "shortName": "VMT-Testnet",
+    "chainId": 8848,
+    "networkId": 8848
+}
