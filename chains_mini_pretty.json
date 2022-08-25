@@ -3314,6 +3314,19 @@
   "faucets": [],
   "infoURL": "https://findora.org/"
 }, {
+  "name": "Bitcoin EVM",
+  "chainId": 2203,
+  "shortName": "eBTC",
+  "networkId": 2203,
+  "nativeCurrency": {
+    "name": "Bitcoin",
+    "symbol": "eBTC",
+    "decimals": 18
+  },
+  "rpc": ["https://connect.bitcoinevm.com", ""],
+  "faucets": [],
+  "infoURL": "https://bitcoinevm.com"
+}, {
   "name": "Evanesco Mainnet",
   "chainId": 2213,
   "shortName": "evanesco",
