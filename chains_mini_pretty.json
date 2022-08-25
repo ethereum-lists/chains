@@ -5563,6 +5563,19 @@
   "faucets": ["https://faucet.polis.tech"],
   "infoURL": "https://polis.tech"
 }, {
+  "name": "Kekchain",
+  "chainId": 420666,
+  "shortName": "KEK",
+  "networkId": 1,
+  "nativeCurrency": {
+    "name": "KEK",
+    "symbol": "KEK",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.kekchain.com"],
+  "faucets": [],
+  "infoURL": "https://kekchain.com"
+}, {
   "name": "Arbitrum Rinkeby",
   "chainId": 421611,
   "shortName": "arb-rinkeby",
