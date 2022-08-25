@@ -2924,7 +2924,20 @@
   "faucets": [],
   "infoURL": "https://docs.moonbeam.network/learn/platform/networks/overview/"
 }, {
-  "name": "Boba Network Bobabase",
+  "name": "Boba Network Bobabeam",
+  "chainId": 1294,
+  "shortName": "Bobabeam",
+  "networkId": 1294,
+  "nativeCurrency": {
+    "name": "Boba Token",
+    "symbol": "BOBA",
+    "decimals": 18
+  },
+  "rpc": ["https://bobabeam.boba.network", "wss://wss.bobabeam.boba.network", "https://replica.bobabeam.boba.network", "wss://replica-wss.bobabeam.boba.network"],
+  "faucets": [],
+  "infoURL": "https://boba.network"
+}, {
+  "name": "Boba Network Bobabase Testnet",
   "chainId": 1297,
   "shortName": "Bobabase",
   "networkId": 1297,
@@ -3665,6 +3678,19 @@
   "faucets": [],
   "infoURL": "https://phi.network"
 }, {
+  "name": "Boba Network Bobafuji Testnet",
+  "chainId": 4328,
+  "shortName": "Bobafuji Testnet",
+  "networkId": 4328,
+  "nativeCurrency": {
+    "name": "Boba Token",
+    "symbol": "BOBA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.avax.boba.network", "wss://wss.testnet.avax.boba.network", "https://replica.testnet.avax.boba.network", "wss://replica-wss.testnet.avax.boba.network"],
+  "faucets": [],
+  "infoURL": "https://boba.network"
+}, {
   "name": "IoTeX Network Mainnet",
   "chainId": 4689,
   "shortName": "iotex-mainnet",
@@ -4119,6 +4145,19 @@
   "rpc": ["https://robin.rangersprotocol.com/api/jsonrpc"],
   "faucets": ["https://robin-faucet.rangersprotocol.com"],
   "infoURL": "https://rangersprotocol.com"
+}, {
+  "name": "Boba Network BNB Testnet",
+  "chainId": 9728,
+  "shortName": "Boba BNB Testnet",
+  "networkId": 9728,
+  "nativeCurrency": {
+    "name": "Boba Token",
+    "symbol": "BOBA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.bnb.boba.network", "wss://wss.testnet.bnb.boba.network", "https://replica.testnet.bnb.boba.network", "wss://replica-wss.testnet.bnb.boba.network"],
+  "faucets": [],
+  "infoURL": "https://boba.network"
 }, {
   "name": "myOwn Testnet",
   "chainId": 9999,
