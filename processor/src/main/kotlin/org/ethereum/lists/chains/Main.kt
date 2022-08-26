@@ -4,15 +4,10 @@ import com.beust.klaxon.JsonArray
 import java.io.File
 import com.beust.klaxon.JsonObject
 import com.beust.klaxon.Klaxon
-import com.squareup.moshi.Moshi
-import io.ipfs.kotlin.IPFS
-import io.ipfs.kotlin.IPFSConfiguration
-import okhttp3.OkHttpClient
 import org.ethereum.lists.chains.model.*
 import org.kethereum.erc55.isValid
 import org.kethereum.model.Address
 import org.kethereum.rpc.HttpEthereumRPC
-import java.time.Duration
 import kotlin.io.OnErrorAction.*
 
 val parsedShortNames = mutableSetOf<String>()
@@ -97,8 +92,13 @@ private fun doChecks(doRPCConnect: Boolean, doIconDownload: Boolean) {
     }
 
     val allIcons = iconsPath.listFiles() ?: return
+    val allIconCIDs = mutableSetOf<String>()
     allIcons.forEach {
-        checkIcon(it, doIconDownload)
+        checkIcon(it, doIconDownload, allIconCIDs)
+    }
+
+    iconsDownloadPath.listFiles().forEach {
+        if (!allIconCIDs.contains(it.name)) throw UnreferencedIcon(it.name, iconsDownloadPath)
     }
 
     allFiles.filter { it.isDirectory }.forEach { _ ->
@@ -106,7 +106,7 @@ private fun doChecks(doRPCConnect: Boolean, doIconDownload: Boolean) {
     }
 }
 
-fun checkIcon(icon: File, withIconDownload: Boolean) {
+fun checkIcon(icon: File, withIconDownload: Boolean, allIconCIDs: MutableSet<String>) {
     println("checking Icon " + icon.name)
     val obj: JsonArray<*> = Klaxon().parseJsonArray(icon.reader())
     println("found variants " + obj.size)
@@ -120,6 +120,8 @@ fun checkIcon(icon: File, withIconDownload: Boolean) {
         if (url !is String || !url.startsWith("ipfs://")) {
             error("url must start with ipfs://")
         }
+
+        allIconCIDs.add(url.removePrefix("ipfs://"))
 
         if (withIconDownload) {
 
@@ -329,32 +331,36 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
     }
 }
 
+fun String.normalizeName() = replace(" ", "").uppercase()
+
 /*
 moshi fails for extra commas
 https://github.com/ethereum-lists/chains/issues/126
 */
 private fun parseWithMoshi(fileToParse: File) {
     val parsedChain = chainAdapter.fromJson(fileToParse.readText())
-    if (parsedNames.contains(parsedChain!!.name)) {
-        throw NameMustBeUnique(parsedChain.name)
+    val parsedChainNormalizedName = parsedChain!!.name.normalizeName()
+    if (parsedNames.contains(parsedChainNormalizedName)) {
+        throw NameMustBeUnique(parsedChainNormalizedName)
     }
-    parsedNames.add(parsedChain.name)
+    parsedNames.add(parsedChainNormalizedName)
 
-    if (parsedShortNames.contains(parsedChain.shortName)) {
-        throw ShortNameMustBeUnique(parsedChain.shortName)
+    val parsedChainNormalizedShortName = parsedChain.shortName.normalizeName()
+    if (parsedShortNames.contains(parsedChainNormalizedShortName)) {
+        throw ShortNameMustBeUnique(parsedChainNormalizedShortName)
     }
 
-    if (parsedChain.shortName == "*") {
+    if (parsedChainNormalizedShortName == "*") {
         throw ShortNameMustNotBeStar()
     }
 
-    parsedShortNames.add(parsedChain.shortName)
+    parsedShortNames.add(parsedChainNormalizedShortName)
 }
 
 private fun getNumber(jsonObject: JsonObject, field: String): Long {
     return when (val chainId = jsonObject[field]) {
         is Int -> chainId.toLong()
         is Long -> chainId
-        else -> throw(Exception("not a number at $field"))
+        else -> throw (Exception("not a number at $field"))
     }
 }
