@@ -1,0 +1,25 @@
+{
+  "name": "xMltec",
+  "chain": "xMLTEC",
+  "icon": "xmltec",
+  "rpc": [
+    "http://116.204.64.12:8545"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "xMLTEC",
+    "symbol": "xMLTEC",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.mylandtec.com",
+  "shortName": "XMT",
+  "chainId": 10522,
+  "networkId": 10522,
+  "slip44": 700,
+  "explorers": [{
+    "name": "xmltecscan",
+    "url": "https://e.mylandtec.com",
+    "icon": "xmltecscan",
+    "standard": "EIP3091"
+  }]
+}
