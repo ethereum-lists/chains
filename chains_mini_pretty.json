@@ -3795,6 +3795,19 @@
   "faucets": [],
   "infoURL": "https://eraswap.info/"
 }, {
+  "name": "Humanode Mainnet",
+  "chainId": 5234,
+  "shortName": "hmnd",
+  "networkId": 5234,
+  "nativeCurrency": {
+    "name": "HMND",
+    "symbol": "HMND",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://humanode.io"
+}, {
   "name": "Uzmi Network Mainnet",
   "chainId": 5315,
   "shortName": "UZMI",

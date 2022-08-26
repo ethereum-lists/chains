@@ -5378,6 +5378,21 @@
   "chainId": 5197,
   "networkId": 5197
 }, {
+  "name": "Humanode Mainnet",
+  "chain": "HMND",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "HMND",
+    "symbol": "HMND",
+    "decimals": 18
+  },
+  "infoURL": "https://humanode.io",
+  "shortName": "hmnd",
+  "chainId": 5234,
+  "networkId": 5234,
+  "explorers": []
+}, {
   "name": "Uzmi Network Mainnet",
   "chain": "UZMI",
   "rpc": ["https://network.uzmigames.com.br/"],
