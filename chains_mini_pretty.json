@@ -2833,6 +2833,19 @@
   "faucets": [],
   "infoURL": "https://entercoin.net"
 }, {
+  "name": "Ultron Testnet",
+  "chainId": 1230,
+  "shortName": "Ultron Testnet",
+  "networkId": 1230,
+  "nativeCurrency": {
+    "name": "Ultron",
+    "symbol": "ULX",
+    "decimals": 18
+  },
+  "rpc": ["https://ultron-dev.io"],
+  "faucets": [],
+  "infoURL": "https://ultron.foundation"
+}, {
   "name": "Ultron Mainnet",
   "chainId": 1231,
   "shortName": "Utron Mainnet",
