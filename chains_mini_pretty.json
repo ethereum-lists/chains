@@ -2833,6 +2833,19 @@
   "faucets": [],
   "infoURL": "https://entercoin.net"
 }, {
+  "name": "Ultron Mainnet",
+  "chainId": 1231,
+  "shortName": "Utron Mainnet",
+  "networkId": 1231,
+  "nativeCurrency": {
+    "name": "Ultron",
+    "symbol": "ULX",
+    "decimals": 18
+  },
+  "rpc": ["https://ultron-rpc.net"],
+  "faucets": [],
+  "infoURL": "https://ultron.foundation"
+}, {
   "name": "OM Platform Mainnet",
   "chainId": 1246,
   "shortName": "om",
