@@ -1,1 +1,26 @@
-enuls testnet
+{
+  "name": "ENULS Testnet",
+  "chain": "ENULS",
+  "network": "testnet",
+  "rpc": [
+    "https://beta.evmapi.nuls.io",
+    "https://beta.evmapi2.nuls.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ENULS",
+    "symbol": "ENULS",
+    "decimals": 18
+  },
+  "infoURL": "https://nuls.io",
+  "shortName": "enuls",
+  "chainId": 120,
+  "networkId": 120,
+  "icon": "enuls",
+  "explorers": [{
+    "name": "enulsscan",
+    "url": "https://beta.evmscan.nuls.io",
+    "icon": "enuls",
+    "standard": "EIP3091"
+  }]
+}
