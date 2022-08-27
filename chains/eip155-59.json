@@ -1,11 +1,8 @@
 {
   "name": "EOS Mainnet",
   "chain": "EOS",
-  "rpc": [
-    "https://api.eosargentina.io"
-  ],
-  "faucets": [
-  ],
+  "rpc": ["https://api.eosargentina.io"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "EOS",
     "symbol": "EOS",
@@ -15,9 +12,11 @@
   "shortName": "EOS Mainnet",
   "chainId": 59,
   "networkId": 59,
-  "explorers": [{
-    "name": "bloks",
-    "url": "https://bloks.eosargentina.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "bloks",
+      "url": "https://bloks.eosargentina.io",
+      "standard": "EIP3091"
+    }
+  ]
 }

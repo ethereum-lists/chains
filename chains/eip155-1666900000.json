@@ -1,10 +1,7 @@
 {
   "name": "Harmony Devnet Shard 0",
   "chain": "Harmony",
-  "rpc": [
-    "https://api.s1.ps.hmny.io",
-    "https://api.s1.ps.hmny.io"
-  ],
+  "rpc": ["https://api.s1.ps.hmny.io", "https://api.s1.ps.hmny.io"],
   "faucets": ["http://dev.faucet.easynode.one/"],
   "nativeCurrency": {
     "name": "ONE",
@@ -15,9 +12,11 @@
   "shortName": "hmy-ps-s0",
   "chainId": 1666900000,
   "networkId": 1666900000,
-  "explorers": [{
-    "name": "Harmony Block Explorer",
-    "url": "https://explorer.ps.hmny.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "Harmony Block Explorer",
+      "url": "https://explorer.ps.hmny.io",
+      "standard": "EIP3091"
+    }
+  ]
 }
