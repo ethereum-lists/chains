@@ -1,7 +1,6 @@
 {
   "name": "IDChain Mainnet",
   "chain": "IDChain",
-  "network": "mainnet",
   "rpc": ["https://idchain.one/rpc/", "wss://idchain.one/ws/"],
   "faucets": [],
   "nativeCurrency": {
