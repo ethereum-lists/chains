@@ -1,9 +1,7 @@
 {
   "name": "MintMe.com Coin",
   "chain": "MINTME",
-  "rpc": [
-    "https://node1.mintme.com"
-  ],
+  "rpc": ["https://node1.mintme.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "MintMe.com Coin",

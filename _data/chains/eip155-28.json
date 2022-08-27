@@ -13,14 +13,16 @@
   "chainId": 28,
   "networkId": 28,
 
-  "explorers": [{
-    "name": "Blockscout",
-    "url": "https://blockexplorer.rinkeby.boba.network",
-    "standard": "none"
-  }],
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://blockexplorer.rinkeby.boba.network",
+      "standard": "none"
+    }
+  ],
   "parent": {
-     "type" : "L2",
-     "chain": "eip155-4",
-     "bridges": [ {"url":"https://gateway.rinkeby.boba.network"} ]
+    "type": "L2",
+    "chain": "eip155-4",
+    "bridges": [{ "url": "https://gateway.rinkeby.boba.network" }]
   }
 }

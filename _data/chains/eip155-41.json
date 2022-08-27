@@ -1,12 +1,8 @@
 {
   "name": "Telos EVM Testnet",
   "chain": "TLOS",
-  "rpc": [
-    "https://testnet.telos.net/evm"
-  ],
-  "faucets": [
-    "https://app.telos.net/testnet/developers"
-  ],
+  "rpc": ["https://testnet.telos.net/evm"],
+  "faucets": ["https://app.telos.net/testnet/developers"],
   "nativeCurrency": {
     "name": "Telos",
     "symbol": "TLOS",
