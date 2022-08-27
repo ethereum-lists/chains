@@ -2,12 +2,8 @@
   "name": "Dogechain Testnet",
   "chain": "DC",
   "icon": "dogechain",
-  "rpc": [
-    "https://rpc-testnet.dogechain.dog"
-  ],
-  "faucets": [
-    "https://faucet.dogechain.dog"
-  ],
+  "rpc": ["https://rpc-testnet.dogechain.dog"],
+  "faucets": ["https://faucet.dogechain.dog"],
   "nativeCurrency": {
     "name": "Wrapped Dogecoin",
     "symbol": "wDOGE",
@@ -17,9 +13,11 @@
   "shortName": "dct",
   "chainId": 568,
   "networkId": 568,
-  "explorers": [{
-    "name": "dogechain testnet explorer",
-    "url": "https://explorer-testnet.dogechain.dog",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "dogechain testnet explorer",
+      "url": "https://explorer-testnet.dogechain.dog",
+      "standard": "EIP3091"
+    }
+  ]
 }

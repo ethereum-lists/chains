@@ -18,16 +18,18 @@
   "chainId": 50,
   "networkId": 50,
   "icon": "xdc",
-  "explorers": [{
-    "name": "xdcscan",
-    "url": "https://xdcscan.io",
-    "icon": "blocksscan",
-    "standard": "EIP3091"
-  },
-  {
-    "name": "blocksscan",
-    "url": "https://xdc.blocksscan.io",
-    "icon": "blocksscan",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "xdcscan",
+      "url": "https://xdcscan.io",
+      "icon": "blocksscan",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "blocksscan",
+      "url": "https://xdc.blocksscan.io",
+      "icon": "blocksscan",
+      "standard": "EIP3091"
+    }
+  ]
 }

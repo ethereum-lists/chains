@@ -20,9 +20,11 @@
   "chainId": 19,
   "networkId": 19,
 
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://songbird-explorer.flare.network",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://songbird-explorer.flare.network",
+      "standard": "EIP3091"
+    }
+  ]
 }

@@ -11,9 +11,7 @@
     "https://polaris3.ont.io:10339",
     "https://polaris4.ont.io:10339"
   ],
-  "faucets": [
-    "https://developer.ont.io/"
-  ],
+  "faucets": ["https://developer.ont.io/"],
   "nativeCurrency": {
     "name": "ONG",
     "symbol": "ONG",
@@ -23,9 +21,11 @@
   "shortName": "Ontology Testnet",
   "chainId": 5851,
   "networkId": 5851,
-  "explorers": [{
-    "name": "explorer",
-    "url": "https://explorer.ont.io/testnet",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "explorer",
+      "url": "https://explorer.ont.io/testnet",
+      "standard": "EIP3091"
+    }
+  ]
 }

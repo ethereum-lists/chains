@@ -18,10 +18,12 @@
   "shortName": "quadrans",
   "chainId": 10946,
   "networkId": 10946,
-  "explorers": [{
-    "name": "explorer",
-    "url": "https://explorer.quadrans.io",
-    "icon": "quadrans",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "explorer",
+      "url": "https://explorer.quadrans.io",
+      "icon": "quadrans",
+      "standard": "EIP3091"
+    }
+  ]
 }

@@ -5,9 +5,7 @@
     "https://cronos-testnet-3.crypto.org:8545",
     "wss://cronos-testnet-3.crypto.org:8546"
   ],
-  "faucets": [
-    "https://cronos.crypto.org/faucet"
-  ],
+  "faucets": ["https://cronos.crypto.org/faucet"],
   "nativeCurrency": {
     "name": "Crypto.org Test Coin",
     "symbol": "TCRO",
@@ -17,9 +15,11 @@
   "shortName": "tcro",
   "chainId": 338,
   "networkId": 338,
-  "explorers": [{
-    "name": "Cronos Testnet Explorer",
-    "url": "https://cronos.crypto.org/explorer/testnet3",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "Cronos Testnet Explorer",
+      "url": "https://cronos.crypto.org/explorer/testnet3",
+      "standard": "none"
+    }
+  ]
 }

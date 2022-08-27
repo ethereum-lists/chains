@@ -1,9 +1,15 @@
 {
+ patch-17
   "name": "Dehvo,
   "chain": "Dehvo",
   "rpc": [
     "https://connect.dehvo.com"
   ],
+
+  "name": "Dehvo",
+  "chain": "Dehvo",
+  "rpc": ["https://connect.dehvo.com", ""],
+ master
   "faucets": [],
   "nativeCurrency": {
     "name": "Dehvo",
