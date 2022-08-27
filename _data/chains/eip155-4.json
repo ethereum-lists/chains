@@ -8,7 +8,7 @@
     "wss://rinkeby.infura.io/ws/v3/${INFURA_API_KEY}"
   ],
   "faucets": [
-    "http://fauceth.komputing.org?chain=4&address=${ADDRESS}",	
+    "http://fauceth.komputing.org?chain=4&address=${ADDRESS}",
     "https://faucet.rinkeby.io"
   ],
   "nativeCurrency": {

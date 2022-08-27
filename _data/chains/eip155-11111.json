@@ -2,12 +2,8 @@
   "name": "WAGMI",
   "chain": "WAGMI",
   "icon": "wagmi",
-  "rpc": [
-    "https://subnets.avax.network/wagmi/wagmi-chain-testnet/rpc"
-  ],
-  "faucets": [
-    "https://faucet.trywagmi.xyz"
-  ],
+  "rpc": ["https://subnets.avax.network/wagmi/wagmi-chain-testnet/rpc"],
+  "faucets": ["https://faucet.trywagmi.xyz"],
   "nativeCurrency": {
     "name": "WAGMI",
     "symbol": "WGM",
