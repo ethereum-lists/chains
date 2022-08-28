@@ -21,4 +21,4 @@ jobs:
       working-directory: ./tools
       run: |-
         npm install
-        node index.js
+        node schemaCheck.js
