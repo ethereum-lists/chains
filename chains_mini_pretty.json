@@ -4055,6 +4055,32 @@
   "faucets": [],
   "infoURL": "https://www.kortho.io/"
 }, {
+  "name": "Toki Network",
+  "chainId": 8654,
+  "shortName": "toki",
+  "networkId": 8654,
+  "nativeCurrency": {
+    "name": "Toki",
+    "symbol": "TOKI",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.buildwithtoki.com/v0/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.buildwithtoki.com"
+}, {
+  "name": "Toki Testnet",
+  "chainId": 8655,
+  "shortName": "toki-testnet",
+  "networkId": 8655,
+  "nativeCurrency": {
+    "name": "Toki",
+    "symbol": "TOKI",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.buildwithtoki.com/v0/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.buildwithtoki.com"
+}, {
   "name": "TOOL Global Mainnet",
   "chainId": 8723,
   "shortName": "olo",
