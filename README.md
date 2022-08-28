@@ -49,7 +49,7 @@ when an icon is used in either the network or a explorer there must be a json in
 
 where:
  * the URL must be a IPFS url that is publicly resolveable
- * width and height are optional - but when one is there then the other must be there also
+ * width and height are positive integers
  * format is either "png", "jpg" or "svg"
 
 If the chain is an L2 or a shard of another chain you can link it to the parent chain like this:
