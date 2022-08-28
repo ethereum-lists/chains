@@ -5,9 +5,7 @@
     "http://mainnet.openchain.info:8545",
     "https://mainnet1.openchain.info"
   ],
-  "faucets": [
-    "https://faucet.openchain.info/"
-  ],
+  "faucets": ["https://faucet.openchain.info/"],
   "nativeCurrency": {
     "name": "Openchain Testnet",
     "symbol": "TOPC",

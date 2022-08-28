@@ -16,9 +16,11 @@
   "shortName": "emerald",
   "chainId": 42261,
   "networkId": 42261,
-  "explorers": [{
-    "name": "Emerald Paratime Testnet Explorer",
-    "url": "https://testnet.explorer.emerald.oasis.dev",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "Emerald Paratime Testnet Explorer",
+      "url": "https://testnet.explorer.emerald.oasis.dev",
+      "standard": "EIP3091"
+    }
+  ]
 }

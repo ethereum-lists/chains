@@ -1,11 +1,8 @@
 {
   "name": "Garizon Stage3",
   "chain": "GAR",
-  "network": "mainnet",
   "icon": "garizon",
-  "rpc": [
-    "https://s3.garizon.net/rpc"
-  ],
+  "rpc": ["https://s3.garizon.net/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Garizon",
@@ -16,12 +13,14 @@
   "shortName": "gar-s3",
   "chainId": 93,
   "networkId": 93,
-  "explorers": [{
-    "name": "explorer",
-    "url": "https://explorer.garizon.com",
-    "icon": "garizon",
-    "standard": "EIP3091"
-  }],
+  "explorers": [
+    {
+      "name": "explorer",
+      "url": "https://explorer.garizon.com",
+      "icon": "garizon",
+      "standard": "EIP3091"
+    }
+  ],
   "parent": {
     "chain": "eip155-90",
     "type": "shard"

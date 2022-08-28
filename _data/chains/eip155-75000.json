@@ -1,9 +1,7 @@
 {
   "name": "ResinCoin Mainnet",
   "chain": "RESIN",
-  "rpc": [
-    "https://mainnet.resincoin.ml"
-  ],
+  "rpc": ["https://mainnet.resincoin.ml"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -14,9 +12,11 @@
   "shortName": "resin",
   "chainId": 75000,
   "networkId": 75000,
-  "explorers": [{
-    "name": "ResinScan",
-    "url": "https://explorer.resincoin.ml",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "ResinScan",
+      "url": "https://explorer.resincoin.ml",
+      "standard": "none"
+    }
+  ]
 }
