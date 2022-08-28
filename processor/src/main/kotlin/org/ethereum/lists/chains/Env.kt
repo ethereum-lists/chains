@@ -25,7 +25,6 @@ val optionalFields = listOf(
     "icon",
     "explorers",
     "title",
-    "network",
     "parent",
     "status"
 )
