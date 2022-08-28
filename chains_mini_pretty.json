@@ -4016,18 +4016,18 @@
   "faucets": [],
   "infoURL": "https://mdgl.io"
 }, {
-  "name": "GeneChain Adenine Testnet",
+  "name": "Shardeum Liberty 1.3",
   "chainId": 8080,
-  "shortName": "GeneChainAdn",
+  "shortName": "ShardeumSHM",
   "networkId": 8080,
   "nativeCurrency": {
-    "name": "Testnet RNA",
-    "symbol": "tRNA",
+    "name": "Shardeum SHM",
+    "symbol": "SHM",
     "decimals": 18
   },
-  "rpc": ["https://rpc-testnet.genechain.io"],
-  "faucets": ["https://faucet.genechain.io"],
-  "infoURL": "https://scan-testnet.genechain.io/"
+  "rpc": ["https://liberty10.shardeum.org/"],
+  "faucets": ["https://faucet.liberty10.shardeum.org"],
+  "infoURL": "https://docs.shardeum.org/"
 }, {
   "name": "Klaytn Mainnet Cypress",
   "chainId": 8217,

@@ -1,22 +1,23 @@
 {
-  "name": "GeneChain Adenine Testnet",
-  "chain": "GeneChain",
-  "rpc": ["https://rpc-testnet.genechain.io"],
-  "faucets": ["https://faucet.genechain.io"],
+  "name": "Shardeum Liberty 1.3",
+  "chain": "Shardeum",
+  "rpc": ["https://liberty10.shardeum.org/"],
+  "faucets": ["https://faucet.liberty10.shardeum.org"],
   "nativeCurrency": {
-    "name": "Testnet RNA",
-    "symbol": "tRNA",
+    "name": "Shardeum SHM",
+    "symbol": "SHM",
     "decimals": 18
   },
-  "infoURL": "https://scan-testnet.genechain.io/",
-  "shortName": "GeneChainAdn",
+  "infoURL": "https://docs.shardeum.org/",
+  "shortName": "ShardeumSHM",
   "chainId": 8080,
   "networkId": 8080,
   "explorers": [
     {
-      "name": "GeneChain Adenine Testnet Scan",
-      "url": "https://scan-testnet.genechain.io",
+      "name": "Sharedum Scan",
+      "url": "https://explorer.liberty10.shardeum.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "redFlags": ["reusedChainId"]
 }
