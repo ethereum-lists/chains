@@ -8,6 +8,9 @@
             "type":"string",
             "description": "Name of the Network"
         },
+        "shortName":{
+            "type":"string"
+        },
         "title":{
             "type":"string",
             "description": "Optional title for the Network"
@@ -52,9 +55,6 @@
         "infoURL":{
             "type":"string",
             "description": "infoURL"
-        },
-        "shortName":{
-            "type":"string"
         },
         "chainId":{
             "type":"number",
