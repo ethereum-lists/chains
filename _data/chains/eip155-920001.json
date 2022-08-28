@@ -1,7 +1,6 @@
 {
   "name": "Posichain Devnet Shard 1",
   "chain": "PSC",
-  "network": "devnet",
   "rpc": ["https://api.s1.d.posichain.org"],
   "faucets": ["https://faucet.posichain.org/"],
   "nativeCurrency": {

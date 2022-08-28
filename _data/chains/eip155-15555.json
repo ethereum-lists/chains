@@ -1,7 +1,6 @@
 {
   "name": "Trust EVM Testnet",
   "chain": "Trust EVM Testnet",
-  "network": "testnet",
   "rpc": ["https://api.testnet-dev.trust.one"],
   "faucets": ["https://faucet.testnet-dev.trust.one/"],
   "nativeCurrency": {
