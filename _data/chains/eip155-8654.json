@@ -1,9 +1,7 @@
 {
   "name": "Toki Network",
   "chain": "TOKI",
-  "rpc": [
-    "https://mainnet.buildwithtoki.com/v0/rpc"
-  ],
+  "rpc": ["https://mainnet.buildwithtoki.com/v0/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Toki",
