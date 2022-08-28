@@ -1,12 +1,8 @@
 {
   "name": "GeneChain Adenine Testnet",
   "chain": "GeneChain",
-  "rpc": [
-    "https://rpc-testnet.genechain.io"
-  ],
-  "faucets": [
-    "https://faucet.genechain.io"
-  ],
+  "rpc": ["https://rpc-testnet.genechain.io"],
+  "faucets": ["https://faucet.genechain.io"],
   "nativeCurrency": {
     "name": "Testnet RNA",
     "symbol": "tRNA",
@@ -16,9 +12,11 @@
   "shortName": "GeneChainAdn",
   "chainId": 8080,
   "networkId": 8080,
-  "explorers": [{
-    "name": "GeneChain Adenine Testnet Scan",
-    "url": "https://scan-testnet.genechain.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "GeneChain Adenine Testnet Scan",
+      "url": "https://scan-testnet.genechain.io",
+      "standard": "EIP3091"
+    }
+  ]
 }
