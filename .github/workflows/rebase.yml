@@ -13,12 +13,14 @@ jobs:
         contains(github.event.comment.body, '/autosquash')
       )
     steps:
-    - name: Checkout the latest code
-      uses: actions/checkout@v2
-      with:
-        token: ${{ secrets.PAT_TOKEN }}
-        fetch-depth: 0 # otherwise, you will fail to push refs to dest repo
-    - name: Automatic Rebase
-      uses: cirrus-actions/rebase@1.5
-      env:
-        GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+      - name: Checkout the latest code
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0 # otherwise, you will fail to push refs to dest repo
+      - name: Automatic Rebase
+        uses: cirrus-actions/rebase@1.7
+        with:
+          autosquash: ${{ contains(github.event.comment.body, '/autosquash') || contains(github.event.comment.body, '/rebase-autosquash') }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
