@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/schema#",
     "title": "EIP155 Chain Data",
     "type":"object",
-    "required": ["name","chain","rpc","nativeCurrency","chainId","networkId"],
+    "required": ["name","shortName","chain","chainId","networkId","rpc","faucets","infoURL","nativeCurrency"],
     "properties": {
         "name":{
             "type":"string",
