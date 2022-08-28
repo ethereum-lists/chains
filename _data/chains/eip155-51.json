@@ -1,7 +1,6 @@
 {
   "name": "XDC Apothem Network",
   "chain": "XDC",
-  "network": "testnet",
   "rpc": ["https://rpc.apothem.network", "https://erpc.apothem.network"],
   "faucets": ["https://faucet.apothem.network"],
   "nativeCurrency": {
