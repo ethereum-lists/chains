@@ -101,6 +101,17 @@
                 },
                 "chain":{
                     "type":"string"
+                },
+                "bridges":{
+                    "type":"array",
+                    "items": {
+                        "type":"object",
+                        "properties":{
+                            "url": {
+                                "type":"string"
+                            }
+                        }
+                    }
                 }
             }
         },
