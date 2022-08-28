@@ -2071,8 +2071,8 @@
   "shortName": "dct",
   "networkId": 568,
   "nativeCurrency": {
-    "name": "Wrapped Dogecoin",
-    "symbol": "wDOGE",
+    "name": "Dogecoin",
+    "symbol": "DOGE",
     "decimals": 18
   },
   "rpc": ["https://rpc-testnet.dogechain.dog"],
@@ -3189,8 +3189,8 @@
   "shortName": "dc",
   "networkId": 2000,
   "nativeCurrency": {
-    "name": "Wrapped Dogecoin",
-    "symbol": "wDOGE",
+    "name": "Dogecoin",
+    "symbol": "DOGE",
     "decimals": 18
   },
   "rpc": ["https://rpc-sg.dogechain.dog", "https://rpc-us.dogechain.dog", "https://rpc.dogechain.dog", "https://rpc01-sg.dogechain.dog", "https://rpc02-sg.dogechain.dog", "https://rpc03-sg.dogechain.dog"],
