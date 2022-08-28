@@ -1,11 +1,11 @@
-name: Check JavaScript for conformance with Prettier
+name: Check JSON Schemaact -j
 
 on:
   push:
   pull_request:
 
 jobs:
-  prettier:
+  validate_json:
     runs-on: ubuntu-latest
     steps:
     - name: Check out repo
@@ -14,9 +14,11 @@ jobs:
       name: Configure npm caching
       with:
         path: ~/.npm
-        key: ${{ runner.os }}-npm-${{ hashFiles('**/workflows/prettier.yml') }}
+        key: ${{ runner.os }}-npm-${{ hashFiles('**/workflows/validate_json.yml') }}
         restore-keys: |
           ${{ runner.os }}-npm-
-    - name: Run prettier
+    - name: Run JSON Validation
+      working-directory: ./tools
       run: |-
-        npx prettier --check '_data/*/*.json'	
+        npm install
+        node index.js
