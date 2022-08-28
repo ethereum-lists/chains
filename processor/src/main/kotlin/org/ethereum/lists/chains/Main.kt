@@ -272,6 +272,21 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
             throw StatusMustBeIncubatingActiveOrDeprecated()
         }
     }
+
+    jsonObject["redFlags"]?.let { redFlags ->
+        if (redFlags !is List<*>) {
+            throw RedFlagsMustBeArray()
+        }
+        redFlags.forEach {
+            if (it !is String) {
+                throw RedFlagMustBeString()
+            }
+
+            if (!allowedRedFlags.contains(it))
+                throw(InvalidRedFlags(it))
+        }
+    }
+
     jsonObject["parent"]?.let {
         if (it !is JsonObject) {
             throw ParentMustBeObject()
@@ -285,6 +300,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
         if (extraParentFields.isNotEmpty()) {
             throw ParentHasExtraFields(extraParentFields)
         }
+
 
         val bridges = it["bridges"]
         if (bridges != null && bridges !is List<*>) {
