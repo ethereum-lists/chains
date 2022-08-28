@@ -20,3 +20,7 @@ jobs:
     - name: Run prettier
       run: |-
         npx prettier --check '_data/*/*.json'	
+    - name: Run JSON Validation
+      run: |-
+        cd tools/ & npm i 
+        node index.js
