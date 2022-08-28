@@ -1,7 +1,7 @@
 const fs = require('fs');
 const Ajv = require("ajv")
 const ajv = new Ajv()
-const schema = require('./chainSchema.json')
+const schema = require('./schema/chainSchema.json')
 const chainFiles = fs.readdirSync('../_data/chains/');
 
 for(const chainFile of chainFiles){

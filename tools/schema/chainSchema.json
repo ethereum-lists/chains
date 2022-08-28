@@ -8,6 +8,10 @@
             "type":"string",
             "description": "Name of the Network"
         },
+        "title":{
+            "type":"string",
+            "description": "Optional title for the Network"
+        },
         "chain":{
             "type":"string",
             "description": "Name of the Network"
@@ -88,6 +92,20 @@
                     }
                 }
             }
+        },
+        "parent":{
+            "type":"object",
+            "properties": {
+                "type":{
+                    "type":"string"
+                },
+                "chain":{
+                    "type":"string"
+                }
+            }
+        },
+        "status":{
+            "type":"string"
         }
     },
     "additionalProperties": false
