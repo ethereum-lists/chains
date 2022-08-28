@@ -117,6 +117,14 @@
         },
         "status":{
             "type":"string"
+        },
+        "redFlags":{
+            "type":"array",
+            "items":{
+                "type":"string",
+                "enum": ["reusedChainId"]
+            }
+           
         }
     },
     "additionalProperties": false
