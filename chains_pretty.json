@@ -6112,6 +6112,32 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Astra",
+  "chain": "Astra",
+  "rpc": ["https://rpc.astranaut.io", "https://rpc1.astranaut.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Astra",
+    "symbol": "ASA",
+    "decimals": 18
+  },
+  "infoURL": "https://astranaut.io",
+  "shortName": "astra",
+  "chainId": 11110,
+  "networkId": 11110,
+  "icon": "astra",
+  "explorers": [{
+    "name": "Astra EVM Explorer (Blockscout)",
+    "url": "https://explorer.astranaut.io",
+    "standard": "none",
+    "icon": "astra"
+  }, {
+    "name": "Astra PingPub Explorer",
+    "url": "https://ping.astranaut.io/astra",
+    "standard": "none",
+    "icon": "astra"
+  }]
+}, {
   "name": "WAGMI",
   "chain": "WAGMI",
   "icon": "wagmi",
@@ -6130,6 +6156,32 @@
     "name": "WAGMI Explorer",
     "url": "https://subnets.avax.network/wagmi/wagmi-chain-testnet/explorer",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Astra Testnet",
+  "chain": "Astra",
+  "rpc": ["https://rpc.astranaut.dev"],
+  "faucets": ["https://faucet.astranaut.dev"],
+  "nativeCurrency": {
+    "name": "test-Astra",
+    "symbol": "tASA",
+    "decimals": 18
+  },
+  "infoURL": "https://astranaut.io",
+  "shortName": "astra-testnet",
+  "chainId": 11115,
+  "networkId": 11115,
+  "icon": "astra",
+  "explorers": [{
+    "name": "Astra EVM Explorer",
+    "url": "https://explorer.astranaut.dev",
+    "standard": "EIP3091",
+    "icon": "astra"
+  }, {
+    "name": "Astra PingPub Explorer",
+    "url": "https://ping.astranaut.dev/astra",
+    "standard": "none",
+    "icon": "astra"
   }]
 }, {
   "name": "Shyft Testnet",

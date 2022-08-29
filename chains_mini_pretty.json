@@ -4328,6 +4328,19 @@
   "faucets": ["https://faucetpage.quadrans.io"],
   "infoURL": "https://quadrans.io"
 }, {
+  "name": "Astra",
+  "chainId": 11110,
+  "shortName": "astra",
+  "networkId": 11110,
+  "nativeCurrency": {
+    "name": "Astra",
+    "symbol": "ASA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.astranaut.io", "https://rpc1.astranaut.io"],
+  "faucets": [],
+  "infoURL": "https://astranaut.io"
+}, {
   "name": "WAGMI",
   "chainId": 11111,
   "shortName": "WAGMI",
@@ -4340,6 +4353,19 @@
   "rpc": ["https://subnets.avax.network/wagmi/wagmi-chain-testnet/rpc"],
   "faucets": ["https://faucet.trywagmi.xyz"],
   "infoURL": "https://trywagmi.xyz"
+}, {
+  "name": "Astra Testnet",
+  "chainId": 11115,
+  "shortName": "astra-testnet",
+  "networkId": 11115,
+  "nativeCurrency": {
+    "name": "test-Astra",
+    "symbol": "tASA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.astranaut.dev"],
+  "faucets": ["https://faucet.astranaut.dev"],
+  "infoURL": "https://astranaut.io"
 }, {
   "name": "Shyft Testnet",
   "chainId": 11437,
