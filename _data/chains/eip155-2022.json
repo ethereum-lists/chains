@@ -1,9 +1,7 @@
 {
   "name": "Beresheet Testnet",
   "chain": "EDG",
-  "rpc": [
-    "https://beresheet1.edgewa.re"
-  ],
+  "rpc": ["https://beresheet1.edgewa.re"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Testnet Edge",

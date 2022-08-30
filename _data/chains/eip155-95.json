@@ -1,11 +1,8 @@
 {
   "name": "CryptoKylin Testnet",
   "chain": "EOS",
-  "rpc": [
-    "https://kylin.eosargentina.io"
-  ],
-  "faucets": [
-  ],
+  "rpc": ["https://kylin.eosargentina.io"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "EOS",
     "symbol": "EOS",
@@ -15,9 +12,11 @@
   "shortName": "Kylin Testnet",
   "chainId": 95,
   "networkId": 95,
-  "explorers": [{
-    "name": "eosq",
-    "url": "https://kylin.eosargentina.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "eosq",
+      "url": "https://kylin.eosargentina.io",
+      "standard": "EIP3091"
+    }
+  ]
 }

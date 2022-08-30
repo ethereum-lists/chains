@@ -2,9 +2,7 @@
   "name": "OneLedger Mainnet",
   "chain": "OLT",
   "icon": "oneledger",
-  "rpc": [
-    "https://mainnet-rpc.oneledger.network"
-  ],
+  "rpc": ["https://mainnet-rpc.oneledger.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "OLT",

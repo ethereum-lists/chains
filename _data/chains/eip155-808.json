@@ -3,12 +3,8 @@
   "chain": "PF",
   "icon": "portalfantasy",
   "network": "testnet",
-  "rpc": [
-    "https://subnets.avax.network/portal-fantasy/testnet/rpc"
-  ],
-  "faucets": [
-    "https://faucet.avax.network/?subnet=PFT"
-  ],
+  "rpc": ["https://subnets.avax.network/portal-fantasy/testnet/rpc"],
+  "faucets": ["https://faucet.avax.network/?subnet=PFT"],
   "nativeCurrency": {
     "name": "Portal Fantasy Token",
     "symbol": "PFT",
@@ -18,7 +14,5 @@
   "shortName": "PFTEST",
   "chainId": 808,
   "networkId": 808,
-  "explorers": [
-    "https://subnets-test.avax.network/portal-fantasy"
-  ]
+  "explorers": ["https://subnets-test.avax.network/portal-fantasy"]
 }

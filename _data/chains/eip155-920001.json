@@ -1,0 +1,24 @@
+{
+  "name": "Posichain Devnet Shard 1",
+  "chain": "PSC",
+  "rpc": ["https://api.s1.d.posichain.org"],
+  "faucets": ["https://faucet.posichain.org/"],
+  "nativeCurrency": {
+    "name": "Posichain Native Token",
+    "symbol": "POSI",
+    "decimals": 18
+  },
+  "infoURL": "https://posichain.org",
+  "shortName": "psc-d-s1",
+  "chainId": 920001,
+  "networkId": 920001,
+  "icon": "posichain",
+  "explorers": [
+    {
+      "name": "Posichain Explorer Devnet",
+      "url": "https://explorer-devnet.posichain.org",
+      "icon": "posichain",
+      "standard": "EIP3091"
+    }
+  ]
+}
