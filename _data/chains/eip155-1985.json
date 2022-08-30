@@ -1,23 +1,23 @@
 {
-    "name": "Memolabs Abbas Testnet",
-    "chain": "ABBAS",
-    "icon": "abbas",
-    "rpc": [
-      "https://testchain.metamemo.one:24180/"
-    ],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": " ABBAS",
-      "symbol": "ABBAS",
-      "decimals": 18
-    },
-    "infoURL": "https://www.metamemo.one/",
-    "shortName": " abbas",
-    "chainId": 1985,
-    "networkId": 1985,
-      "explorers": [{
-      "name": "Testnet explorer",
-      "url": "https://testscan.metamemo.one:8080/",
-      "standard": "EIP3091"
-    }]
+  "name": "Memo Smart Chain Testnet",
+  "chain": "MEMO",
+  "icon": "memo",
+  "rpc": [
+    "https://testchain.metamemo.one:24180/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": " Memo",
+    "symbol": "MEMO",
+    "decimals": 18
+  },
+  "infoURL": "www.memolabs.org",
+  "shortName": " memochain",
+  "chainId": 1985,
+  "networkId": 1985,
+    "explorers": [{
+    "name": "Memo Testnet Explorer",
+    "url": "https://testscan.metamemo.one:8080/",
+    "standard": "EIP3091"
+  }]
 }
