@@ -9,7 +9,8 @@
             "description": "Name of the Network"
         },
         "shortName":{
-            "type":"string"
+            "type":"string",
+            "pattern": "^[A-Za-z0-9-_]{1,64}$"
         },
         "title":{
             "type":"string",
