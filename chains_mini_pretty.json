@@ -3951,6 +3951,19 @@
   "faucets": [],
   "infoURL": "https://shyft.network"
 }, {
+  "name": "Canto",
+  "chainId": 7700,
+  "shortName": "canto",
+  "networkId": 7700,
+  "nativeCurrency": {
+    "name": "Canto",
+    "symbol": "CANTO",
+    "decimals": 18
+  },
+  "rpc": ["https://canto.evm.chandrastation.com"],
+  "faucets": [],
+  "infoURL": "https://canto.io"
+}, {
   "name": "Rise of the Warbots Testnet",
   "chainId": 7777,
   "shortName": "RiseOfTheWarbotsTestnet",
