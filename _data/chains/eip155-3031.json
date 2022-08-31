@@ -1,9 +1,7 @@
 {
   "name": "Orlando Chain",
   "chain": "ORL",
-  "rpc": [
-    "https://rpc-testnet.orlchain.com"
-  ],
+  "rpc": ["https://rpc-testnet.orlchain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Orlando",
@@ -15,10 +13,12 @@
   "chainId": 3031,
   "networkId": 3031,
   "icon": "orl",
-  "explorers": [{
-    "name": "Orlando (ORL) Blockchain Explorer",
-    "url": "https://orlscan.com",
-    "icon": "orl",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "Orlando (ORL) Blockchain Explorer",
+      "url": "https://orlscan.com",
+      "icon": "orl",
+      "standard": "EIP3091"
+    }
+  ]
 }
