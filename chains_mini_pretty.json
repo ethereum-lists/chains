@@ -4377,8 +4377,8 @@
     "decimals": 18
   },
   "rpc": ["https://subnets.avax.network/wagmi/wagmi-chain-testnet/rpc"],
-  "faucets": ["https://faucet.trywagmi.xyz"],
-  "infoURL": "https://trywagmi.xyz"
+  "faucets": ["https://faucet.avax.network/?subnet=wagmi"],
+  "infoURL": "https://subnets-test.avax.network/wagmi/details"
 }, {
   "name": "Astra Testnet",
   "chainId": 11115,
