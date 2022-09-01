@@ -2,13 +2,8 @@
   "name": "Castle Crush Subnet Testnet",
   "chain": "CASTLECRUSH",
   "icon": "castlecrush",
-  "network": "testnet",
-  "rpc": [
-    "https://subnets.avax.network/castle-crush/testnet/rpc"
-  ],
-  "faucets": [
-    "https://faucet.avax.network/?subnet=castlecrush"
-  ],
+  "rpc": ["https://subnets.avax.network/castle-crush/testnet/rpc"],
+  "faucets": ["https://faucet.avax.network/?subnet=castlecrush"],
   "nativeCurrency": {
     "name": "CastleCrush",
     "symbol": "ACS",

@@ -2,10 +2,7 @@
   "name": "Swimmer Network Subnet Testnet",
   "chain": "SWIMMER",
   "icon": "swimmer",
-  "network": "testnet",
-  "rpc": [
-    "https://subnets.avax.network/swimmer/testnet/rpc"
-  ],
+  "rpc": ["https://subnets.avax.network/swimmer/testnet/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Treasure Under Sea",
