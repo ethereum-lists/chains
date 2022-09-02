@@ -1,10 +1,7 @@
 {
   "name": "Q Testnet",
   "chain": "Q",
-  "network": "testnet",
-  "rpc": [
-    "https://rpc.qtestnet.org"
-  ],
+  "rpc": ["https://rpc.qtestnet.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Q token",

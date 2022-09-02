@@ -1,11 +1,7 @@
 {
   "name": "Crystaleum",
   "chain": "crystal",
-  "network": "mainnet",
-  "rpc": [
-    "https://evm.cryptocurrencydevs.org",
-    "https://rpc.crystaleum.org"
-  ],
+  "rpc": ["https://evm.cryptocurrencydevs.org", "https://rpc.crystaleum.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "CRFI",
@@ -17,10 +13,12 @@
   "chainId": 103090,
   "networkId": 1,
   "icon": "crystal",
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://scan.crystaleum.org",
-    "icon": "crystal",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://scan.crystaleum.org",
+      "icon": "crystal",
+      "standard": "EIP3091"
+    }
+  ]
 }

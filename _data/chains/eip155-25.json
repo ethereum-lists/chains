@@ -1,9 +1,7 @@
 {
   "name": "Cronos Mainnet Beta",
   "chain": "CRO",
-  "rpc": [
-    "https://evm.cronos.org"
-  ],
+  "rpc": ["https://evm.cronos.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Cronos",
