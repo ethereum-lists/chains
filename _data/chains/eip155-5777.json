@@ -2,9 +2,7 @@
   "name": "Digest Swarm Chain",
   "chain": "DSC",
   "icon": "swarmchain",
-  "rpc": [
-    "https://rpc.digestgroup.ltd"
-  ],
+  "rpc": ["https://rpc.digestgroup.ltd"],
   "faucets": [],
   "nativeCurrency": {
     "name": "DigestCoin",
@@ -23,4 +21,3 @@
     }
   ]
 }
-  
