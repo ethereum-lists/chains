@@ -1,0 +1,17 @@
+{
+  "name": "CTEX SCAN",
+  "chain": "CTEX",
+  "rpc": [
+    "https://mainnet-rpc.ctexscan.com/",
+    ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Crypto Tex",
+    "symbol": "CTEX",
+    "decimals": 18
+  },
+  "infoURL": "https://ctexscan.com",
+  "shortName": "ctex",
+  "chainId": 1455,
+  "networkId": 1455
+}
