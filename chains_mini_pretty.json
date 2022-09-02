@@ -4575,6 +4575,19 @@
   "faucets": [],
   "infoURL": "https://hupayx.io"
 }, {
+  "name": "Opside Testnet",
+  "chainId": 23118,
+  "shortName": "opside",
+  "networkId": 23118,
+  "nativeCurrency": {
+    "name": "IDE",
+    "symbol": "IDE",
+    "decimals": 18
+  },
+  "rpc": ["https://testrpc.opside.network"],
+  "faucets": ["https://faucet.opside.network"],
+  "infoURL": "https://opside.network"
+}, {
   "name": "Webchain",
   "chainId": 24484,
   "shortName": "web",
