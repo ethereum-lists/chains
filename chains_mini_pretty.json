@@ -3314,6 +3314,19 @@
   "faucets": [],
   "infoURL": "https://rangersprotocol.com"
 }, {
+  "name": "Quokkacoin Mainnet",
+  "chainId": 2077,
+  "shortName": "QKA",
+  "networkId": 2077,
+  "nativeCurrency": {
+    "name": "Qkacoin",
+    "symbol": "QKA",
+    "decimals": 18
+  },
+  "rpc": ["http://rpc.qkacoin.org:8548"],
+  "faucets": [],
+  "infoURL": "https://qkacoin.org"
+}, {
   "name": "Ecoball Mainnet",
   "chainId": 2100,
   "shortName": "eco",
