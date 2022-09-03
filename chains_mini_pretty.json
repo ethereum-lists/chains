@@ -3535,6 +3535,19 @@
   "faucets": ["https://app-faucet.centrality.me"],
   "infoURL": "https://cennz.net"
 }, {
+  "name": "Orlando Chain",
+  "chainId": 3031,
+  "shortName": "ORL",
+  "networkId": 3031,
+  "nativeCurrency": {
+    "name": "Orlando",
+    "symbol": "ORL",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.orlchain.com"],
+  "faucets": [],
+  "infoURL": "https://orlchain.com"
+}, {
   "name": "ZCore Testnet",
   "chainId": 3331,
   "shortName": "zcrbeach",
