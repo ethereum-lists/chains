@@ -2248,6 +2248,19 @@
   "faucets": [],
   "infoURL": "https://www.factory127.com"
 }, {
+  "name": "Lycan Chain",
+  "chainId": 721,
+  "shortName": "LYC",
+  "networkId": 721,
+  "nativeCurrency": {
+    "name": "Lycan",
+    "symbol": "LYC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.lycanchain.com/"],
+  "faucets": [],
+  "infoURL": "https://lycanchain.com"
+}, {
   "name": "OpenChain Testnet",
   "chainId": 776,
   "shortName": "opc",
