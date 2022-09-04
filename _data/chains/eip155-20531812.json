@@ -1,0 +1,21 @@
+{
+    "name": "TecraCoin Mainnet",
+    "chain": "Tecra",
+    "rpc": [
+        "https://tsc-01.tecra.space"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "Tecra",
+        "symbol": "TCR",
+        "decimals": 8
+    },
+    "infoURL": "https://tecra.space",
+    "shortName": "tecra",
+    "chainId": 20531812,
+    "networkId": 20531812,
+    "explorers": [{
+        "name": "tecraspace",
+        "url": "https://explorer.tecra.space"
+    }]
+}
