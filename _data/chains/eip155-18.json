@@ -1,12 +1,8 @@
 {
   "name": "ThunderCore Testnet",
   "chain": "TST",
-  "rpc": [
-    "https://testnet-rpc.thundercore.com"
-  ],
-  "faucets": [
-    "https://faucet-testnet.thundercore.com"
-  ],
+  "rpc": ["https://testnet-rpc.thundercore.com"],
+  "faucets": ["https://faucet-testnet.thundercore.com"],
   "nativeCurrency": {
     "name": "ThunderCore Testnet Token",
     "symbol": "TST",
