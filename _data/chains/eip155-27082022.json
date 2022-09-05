@@ -3,9 +3,7 @@
   "chain": "EXL",
   "network": "mainnet",
   "icon": "exl",
-  "rpc": [
-    "https://rpc.exlscan.com"
-  ],
+  "rpc": ["https://rpc.exlscan.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Exlcoin",
@@ -16,10 +14,12 @@
   "shortName": "exl",
   "chainId": 27082022,
   "networkId": 27082022,
-  "explorers": [{
-    "name": "exlscan",
-    "url": "https://exlscan.com",
-    "icon": "exl",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "exlscan",
+      "url": "https://exlscan.com",
+      "icon": "exl",
+      "standard": "EIP3091"
+    }
+  ]
 }
