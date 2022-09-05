@@ -15,9 +15,11 @@
   "shortName": "vsl",
   "chainId": 7355310,
   "networkId": 7355310,
-  "explorers": [{
-    "name": "openvessel-mainnet",
-    "url": "https://mainnet-explorer.openvessel.io",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "openvessel-mainnet",
+      "url": "https://mainnet-explorer.openvessel.io",
+      "standard": "none"
+    }
+  ]
 }
