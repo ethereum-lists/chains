@@ -1,0 +1,30 @@
+{
+  "name": "Point",
+  "chain": "Point",
+  "rpc": ["https:rpc-mainnet-1.point.space"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Point",
+    "symbol": "POINT",
+    "decimals": 18
+  },
+  "infoURL": "https://evmos.org",
+  "shortName": "point",
+  "chainId": 10687,
+  "networkId": 10687,
+  "icon": "point",
+  "explorers": [
+    {
+      "name": "Point EVM Explorer (Blockscout)",
+      "url": "https://explorer.pointnetwork.io/",
+      "standard": "none",
+      "icon": "point"
+    },
+    {
+      "name": "Point Cosmos Explorer (Ping Pub)",
+      "url": "https://cosmos.pointnetwork.io/point",
+      "standard": "none",
+      "icon": "point"
+    }
+  ]
+}
