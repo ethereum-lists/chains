@@ -1,0 +1,23 @@
+{
+  "name": "ethw-iceberg-testnet",
+  "chain": "ETHW",
+  "rpc": [
+    "https://iceberg.ethereumpow.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EthereumPoW",
+    "symbol": "ETHW",
+    "decimals": 18
+  },
+  "infoURL": "https://ethereumpow.org/",
+  "shortName": "ethw",
+  "chainId": 10002,
+  "explorers": [
+    {
+      "name": "iceberg.ethwscan",
+      "url": "http://iceberg.ethwscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
