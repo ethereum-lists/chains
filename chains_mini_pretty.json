@@ -4562,6 +4562,19 @@
   "faucets": ["https://tfaucet.ivarex.com/"],
   "infoURL": "https://ivarex.com"
 }, {
+  "name": "Frontier of Dreams Testnet",
+  "chainId": 18000,
+  "shortName": "ZKST",
+  "networkId": 18000,
+  "nativeCurrency": {
+    "name": "ZKST",
+    "symbol": "ZKST",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.fod.games/"],
+  "faucets": [],
+  "infoURL": "https://goexosphere.com"
+}, {
   "name": "BTCIX Network",
   "chainId": 19845,
   "shortName": "btcix",
