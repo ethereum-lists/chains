@@ -1,18 +1,15 @@
 {
   "name": "Sherpax Testnet",
   "chain": "Sherpax Testnet",
-  "rpc": [
-    "https://sherpax-testnet.chainx.org/rpc"
-  ],
-  "faucets": [
-  ],
+  "rpc": ["https://sherpax-testnet.chainx.org/rpc"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "KSX",
     "symbol": "KSX",
     "decimals": 18
   },
   "infoURL": "https://sherpax.io/",
-  "shortName": "Sherpax Testnet",
+  "shortName": "SherpaxTestnet",
   "chainId": 1507,
   "networkId": 1507,
   "explorers": [
@@ -23,4 +20,3 @@
     }
   ]
 }
-

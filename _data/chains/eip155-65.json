@@ -1,9 +1,7 @@
 {
   "name": "OKExChain Testnet",
   "chain": "okexchain",
-  "rpc": [
-    "https://exchaintestrpc.okex.org"
-  ],
+  "rpc": ["https://exchaintestrpc.okex.org"],
   "faucets": ["https://www.okex.com/drawdex"],
   "nativeCurrency": {
     "name": "OKExChain Global Utility Token in testnet",
@@ -14,9 +12,11 @@
   "shortName": "tokt",
   "chainId": 65,
   "networkId": 65,
-  "explorers": [{
-    "name": "OKLink",
-    "url": "https://www.oklink.com/okexchain-test",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "OKLink",
+      "url": "https://www.oklink.com/okexchain-test",
+      "standard": "EIP3091"
+    }
+  ]
 }
