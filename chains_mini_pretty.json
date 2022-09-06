@@ -3119,6 +3119,19 @@
   "faucets": [],
   "infoURL": "https://www.ludan.org/"
 }, {
+  "name": "Rabbit Analog Testnet Chain",
+  "chainId": 1807,
+  "shortName": "rAna",
+  "networkId": 1807,
+  "nativeCurrency": {
+    "name": "Rabbit Analog Test Chain Native Token ",
+    "symbol": "rAna",
+    "decimals": 18
+  },
+  "rpc": ["https://rabbit.analog-rpc.com"],
+  "faucets": ["https://analogfaucet.com"],
+  "infoURL": "https://rabbit.analogscan.com"
+}, {
   "name": "Cube Chain Mainnet",
   "chainId": 1818,
   "shortName": "cube",
