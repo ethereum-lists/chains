@@ -3,7 +3,7 @@
   "chain": "rAna",
   "icon": "rabbit",
   "rpc": ["https://rabbit.analog-rpc.com"],
-  "faucets": [],
+  "faucets": ["https://analogfaucet.com"],
   "nativeCurrency": {
     "name": "Rabbit Analog Test Chain Native Token ",
     "symbol": "rAna",
