@@ -4796,6 +4796,19 @@
   "faucets": [],
   "infoURL": "https://www.energi.world/"
 }, {
+  "name": "Opulent-X BETA",
+  "chainId": 41500,
+  "shortName": "ox-beta",
+  "networkId": 41500,
+  "nativeCurrency": {
+    "name": "Oxyn Gas",
+    "symbol": "OXYN",
+    "decimals": 18
+  },
+  "rpc": ["https://connect.opulent-x.com"],
+  "faucets": [],
+  "infoURL": "https://beta.opulent-x.com"
+}, {
   "name": "pegglecoin",
   "chainId": 42069,
   "shortName": "PC",
