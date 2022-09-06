@@ -6200,6 +6200,32 @@
   "faucets": [],
   "infoURL": "https://quarkblockchain.org/"
 }, {
+  "name": "Excoincial Chain Volta-Testnet",
+  "chainId": 27082017,
+  "shortName": "exlvolta",
+  "networkId": 27082017,
+  "nativeCurrency": {
+    "name": "TExlcoin",
+    "symbol": "TEXL",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.exlscan.com"],
+  "faucets": ["https://faucet.exlscan.com"],
+  "infoURL": ""
+}, {
+  "name": "Excoincial Chain Mainnet",
+  "chainId": 27082022,
+  "shortName": "exl",
+  "networkId": 27082022,
+  "nativeCurrency": {
+    "name": "Exlcoin",
+    "symbol": "EXL",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.exlscan.com"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Auxilium Network Mainnet",
   "chainId": 28945486,
   "shortName": "auxi",
