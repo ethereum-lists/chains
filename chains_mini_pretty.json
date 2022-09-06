@@ -4822,9 +4822,9 @@
   "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "infoURL": "https://docs.celo.org/"
 }, {
-  "name": "Emerald Paratime Testnet",
+  "name": "Oasis Emerald ParaTime Testnet",
   "chainId": 42261,
-  "shortName": "emerald",
+  "shortName": "emerald-testnet",
   "networkId": 42261,
   "nativeCurrency": {
     "name": "Emerald Rose",
@@ -4832,12 +4832,12 @@
     "decimals": 18
   },
   "rpc": ["https://testnet.emerald.oasis.dev/", "wss://testnet.emerald.oasis.dev/ws"],
-  "faucets": [],
+  "faucets": ["https://faucet.testnet.oasis.dev/"],
   "infoURL": "https://docs.oasis.dev/general/developer-resources/overview"
 }, {
-  "name": "Emerald Paratime Mainnet",
+  "name": "Oasis Emerald ParaTime Mainnet",
   "chainId": 42262,
-  "shortName": "oasis",
+  "shortName": "emerald",
   "networkId": 42262,
   "nativeCurrency": {
     "name": "Emerald Rose",
