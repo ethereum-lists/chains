@@ -1,0 +1,29 @@
+{
+  "name": "Filecoin — Calibration testnet",
+  "chain": "FIL",
+  "status": "incubating",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "tFIL",
+    "symbol": "tFIL",
+    "decimals": 18
+  },
+  "infoURL": "https://filecoin.io",
+  "shortName": "filecoin",
+  "icon": "filecoin",
+  "chainId": 314159,
+  "networkId": 314159,
+  "explorers": [
+    {
+      "name": "Filscan",
+      "url": "https://calibration.filscan.io/",
+      "standard": "none"
+    },
+    {
+      "name": "Filscout",
+      "url": "https://calibration.filscout.com/en",
+      "standard": "none"
+    }
+  ]
+}
