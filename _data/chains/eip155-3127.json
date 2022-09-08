@@ -1,0 +1,24 @@
+{
+  "name": "Planet Memes Chain",
+  "chain": "PMC",
+  "rpc": ["https://rpc.planetmemes.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Planet Memes Chain",
+    "symbol": "PMC",
+    "decimals": 18
+  },
+  "infoURL": "https://orlchain.com",
+  "shortName": "ORL",
+  "chainId": 3127,
+  "networkId": 3127,
+  "icon": "pmc",
+  "explorers": [
+    {
+      "name": "Planet memes chain (PMC) Explorer",
+      "url": "https://pmcscan.com",
+      "icon": "pmc",
+      "standard": "EIP3091"
+    }
+  ]
+}
