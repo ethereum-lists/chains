@@ -3,7 +3,7 @@
   "chain": "FLR",
   "icon": "coston2",
   "rpc": ["https://coston2-api.flare.network/ext/bc/C/rpc"],
-  "faucets": [],
+  "faucets": ["https://coston2-faucet.towolabs.com"],
   "nativeCurrency": {
     "name": "Coston2 Flare",
     "symbol": "C2FLR",
