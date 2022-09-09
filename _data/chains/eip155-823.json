@@ -2,7 +2,8 @@
   "name": "DART's Chain",
   "chain": "DART's",
   "rpc": [
-    "{RPC_ENDPOINT_TO_BE_ADDED}"
+    "http://main.darts-chain.com:31545",
+    "http://main.darts-chain.com:31645"
   ],
   "faucets": [],
   "nativeCurrency": {
