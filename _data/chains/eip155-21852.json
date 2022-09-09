@@ -1,0 +1,23 @@
+{
+  "name": "Shibchain testnet",
+  "chain": "WSHIB",
+  "icon": "shibchain",
+  "rpc": ["https://rpc-testnet.shibchain.app"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Shibchain",
+    "symbol": "WSHIB",
+    "decimals": 18
+  },
+  "infoURL": "https://shibchain.app",
+  "shortName": "shibchain",
+  "chainId": 21852,
+  "networkId": 21852,
+  "explorers": [
+    {
+      "name": "Shibchain Explorer",
+      "url": "https://explorer-testnet.shibchain.app/",
+      "standard": "EIP3091"
+    }
+  ]
+}
