@@ -1,0 +1,24 @@
+{
+  "name": "Motif Blockchain",
+  "chain": "motif",
+  "rpc": [
+    "https://rpc.motif.foundation" 
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Motif",
+    "symbol": "motif",
+    "decimals": 18
+  },
+  "infoURL": "https://motif.foundation",
+  "shortName": "motif",
+  "chainId": 7018,
+  "networkId": 7018,
+  "icon": "motif",
+  "explorers": [{
+    "name": "motif",
+    "url": "https://explorer.motif.foundation",
+    "icon": "motif",
+    "standard": "EIP3091"
+  }]
+}
