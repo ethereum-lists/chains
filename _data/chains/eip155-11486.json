@@ -1,0 +1,17 @@
+{
+  "name": "Galaxy Chain",
+  "chain": "GC",
+  "rpc": ["http://103.30.17.23:8545","http://rpc.galaxychain.homes"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Galaxy Chain",
+    "symbol": "GALAXY",
+    "decimals": 18
+  },
+  "infoURL": "https://galaxychain.link",
+  "shortName": "GALAXY",
+  "chainId": 11486,
+  "networkId": 11486,
+  "icon": "orl",
+  "explorers": []
+}
