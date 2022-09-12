@@ -1,0 +1,26 @@
+{
+  "name": "Highrise Blockchain Testnet",
+  "chain": "Highrise Blockchain Testnet",
+  "icon": "highrise_testnet",
+  "rpc": [
+    "https://subnets.avax.network/pocket-worlds/testnet/rpc",
+    "wss://subnets.avax.network/pocket-worlds/testnet/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Highrise World",
+    "symbol": "RISE",
+    "decimals": 18
+  },
+  "infoURL": "https://www.highrise.game",
+  "shortName": "Highrise Testnet",
+  "chainId": 8184,
+  "networkId": 8184,
+  "explorers": [
+    {
+      "name": "Avalanche Subnet Explorer",
+      "url": "https://subnets-test.avax.network/highrise",
+      "standard": "EIP3091"
+    }
+  ]
+}
