@@ -14,3 +14,6 @@ jobs:
     steps:
       - name: Prettier Action
         uses: creyD/prettier_action@v4.2
+        with:
+          prettier_options: --write _data/*/*.json
+          only_changed: True
