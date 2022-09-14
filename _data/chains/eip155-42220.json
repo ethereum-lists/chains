@@ -13,9 +13,11 @@
   "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "infoURL": "https://docs.celo.org/",
 
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://explorer.celo.org",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.celo.org",
+      "standard": "none"
+    }
+  ]
 }

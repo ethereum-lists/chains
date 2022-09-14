@@ -2,12 +2,8 @@
   "name": "SX Network Mainnet",
   "chain": "SX",
   "icon": "SX",
-  "network": "mainnet",
-  "rpc": [
-    "https://rpc.sx.technology"
-  ],
-  "faucets": [
-  ],
+  "rpc": ["https://rpc.sx.technology"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "SX Network",
     "symbol": "SX",
@@ -17,9 +13,11 @@
   "shortName": "SX",
   "chainId": 416,
   "networkId": 416,
-  "explorers": [{
-    "name": "SX Network Explorer",
-    "url": "https://explorer.sx.technology",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "SX Network Explorer",
+      "url": "https://explorer.sx.technology",
+      "standard": "EIP3091"
+    }
+  ]
 }

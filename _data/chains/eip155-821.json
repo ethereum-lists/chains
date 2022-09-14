@@ -1,5 +1,5 @@
 {
-  "name": "Callisto Testnet",
+  "name": "Callisto Testnet Deprecated",
   "chain": "CLO",
   "rpc": [],
   "faucets": [],
@@ -11,5 +11,6 @@
   "infoURL": "https://callisto.network",
   "shortName": "tclo",
   "chainId": 821,
-  "networkId": 2
+  "networkId": 2,
+  "status": "deprecated"
 }

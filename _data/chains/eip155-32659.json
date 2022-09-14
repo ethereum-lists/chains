@@ -1,10 +1,7 @@
 {
   "name": "Fusion Mainnet",
   "chain": "FSN",
-  "rpc": [
-    "https://mainnet.anyswap.exchange",
-    "https://fsn.dev/api"
-  ],
+  "rpc": ["https://mainnet.anyswap.exchange", "https://fsn.dev/api"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Fusion",

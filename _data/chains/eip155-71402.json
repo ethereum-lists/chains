@@ -1,15 +1,11 @@
 {
   "name": "Godwoken Mainnet",
   "chain": "GWT",
-  "rpc": [
-    "https://godwoken-testnet-v1.ckbapp.dev"
-  ],
-  "faucets": [
-    "https://testnet.bridge.godwoken.io"
-  ],
+  "rpc": ["https://v1.mainnet.godwoken.io/rpc"],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "CKB",
-    "symbol": "CKB",
+    "name": "pCKB",
+    "symbol": "pCKB",
     "decimals": 18
   },
   "infoURL": "https://www.nervos.org",
@@ -18,8 +14,13 @@
   "networkId": 71402,
   "explorers": [
     {
+      "name": "GWScout Explorer",
+      "url": "https://gw-mainnet-explorer.nervosdao.community",
+      "standard": "none"
+    },
+    {
       "name": "GWScan Block Explorer",
-      "url": "https://v1.aggron.gwscan.com",
+      "url": "https://v1.gwscan.com",
       "standard": "none"
     }
   ]

@@ -1,13 +1,10 @@
 {
   "name": "RSK Mainnet",
   "chain": "RSK",
-  "rpc": [
-    "https://public-node.rsk.co",
-    "https://mycrypto.rsk.co"
-  ],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "rpc": ["https://public-node.rsk.co", "https://mycrypto.rsk.co"],
+  "faucets": ["https://faucet.rsk.co/"],
   "nativeCurrency": {
-    "name": "RSK Mainnet Ether",
+    "name": "Smart Bitcoin",
     "symbol": "RBTC",
     "decimals": 18
   },
@@ -17,9 +14,11 @@
   "networkId": 30,
   "slip44": 137,
 
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://explorer.rsk.co",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "RSK Explorer",
+      "url": "https://explorer.rsk.co",
+      "standard": "EIP3091"
+    }
+  ]
 }
