@@ -1,9 +1,7 @@
 {
   "name": "Avalanche C-Chain",
   "chain": "AVAX",
-  "rpc": [
-    "https://api.avax.network/ext/bc/C/rpc"
-  ],
+  "rpc": ["https://api.avax.network/ext/bc/C/rpc"],
   "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "nativeCurrency": {
     "name": "Avalanche",
@@ -11,7 +9,7 @@
     "decimals": 18
   },
   "infoURL": "https://www.avax.network/",
-  "shortName": "Avalanche",
+  "shortName": "avax",
   "chainId": 43114,
   "networkId": 43114,
   "slip44": 9005,

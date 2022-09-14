@@ -1,0 +1,17 @@
+{
+  "name": "CCN",
+  "title": "ComputeCoin Main Network",
+  "chain": "CCN",
+  "rpc": ["https://rpc.mainnet.computecoin.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ComputeCoin",
+    "symbol": "CCN",
+    "decimals": 18
+  },
+  "infoURL": "https://computecoin.com/",
+  "shortName": "ccn",
+  "chainId": 970,
+  "networkId": 970,
+  "icon": "ccn"
+}

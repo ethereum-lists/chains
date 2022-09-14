@@ -1,9 +1,7 @@
 {
   "name": "AME Chain Mainnet",
   "chain": "AME",
-  "rpc": [
-    "https://node1.amechain.io/"
-  ],
+  "rpc": ["https://node1.amechain.io/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "AME",

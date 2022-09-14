@@ -1,5 +1,5 @@
 plugins {
-    id("com.google.devtools.ksp").version("1.7.0-1.0.6")
+    id("com.google.devtools.ksp").version("1.7.10-1.0.6")
     id("maven-publish")
 }
 
@@ -15,9 +15,5 @@ publishing {
 
 dependencies {
     ksp("com.squareup.moshi:moshi-kotlin-codegen:1.13.0")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.6.10")
-
     implementation("com.squareup.moshi:moshi:1.13.0")
-    implementation("com.squareup.okhttp3:okhttp:4.9.3")
 }
-

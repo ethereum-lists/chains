@@ -1,13 +1,8 @@
 {
   "name": "Crossbell",
   "chain": "Crossbell",
-  "network": "mainnet",
-  "rpc": [
-    "https://rpc.crossbell.io"
-  ],
-  "faucets": [
-    "https://faucet.crossbell.io"
-  ],
+  "rpc": ["https://rpc.crossbell.io"],
+  "faucets": ["https://faucet.crossbell.io"],
   "nativeCurrency": {
     "name": "Crossbell Token",
     "symbol": "CSB",
@@ -26,4 +21,3 @@
     }
   ]
 }
-
