@@ -1,11 +1,10 @@
 {
   "name": "Ekta",
   "chain": "EKTA",
-  "network": "testnet",
   "rpc": [
     "https://test.ekta.io:8545"
   ],
-    "faucets": [],
+  "faucets": [],
   "nativeCurrency": {
     "name": "EKTA",
     "symbol": "EKTA",
