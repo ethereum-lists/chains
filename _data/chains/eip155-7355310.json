@@ -3,7 +3,7 @@
   "chain": "VSL",
   "icon": "vsl",
   "rpc": [
-    "https://mainnet-external.openvessel.io/"
+    "https://mainnet-external.openvessel.io"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -11,7 +11,7 @@
     "symbol": "VETH",
     "decimals": 18
   },
-  "infoURL": "https://www.openvessel.io/",
+  "infoURL": "https://www.openvessel.io",
   "shortName": "vsl",
   "chainId": 7355310,
   "networkId": 7355310,
