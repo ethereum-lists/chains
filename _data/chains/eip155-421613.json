@@ -10,9 +10,7 @@
     "symbol": "AGOR",
     "decimals": 18
   },
-  "rpc": [  
-    "https://goerli-rollup.arbitrum.io/rpc/"
-  ],
+  "rpc": ["https://goerli-rollup.arbitrum.io/rpc/"],
   "faucets": [],
   "infoURL": "https://arbitrum.io/",
   "explorers": [
@@ -23,8 +21,8 @@
     }
   ],
   "parent": {
-      "type" : "L2",
-      "chain": "eip155-5",
-      "bridges": [ {"url":"https://bridge.arbitrum.io/"} ]
+    "type": "L2",
+    "chain": "eip155-5",
+    "bridges": [{ "url": "https://bridge.arbitrum.io/" }]
   }
 }

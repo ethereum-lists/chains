@@ -1,11 +1,7 @@
 {
   "name": "PHI Network v2",
   "chain": "PHI",
-  "network": "mainnet",
-  "rpc": [
-    "https://connect.phi.network",
-    ""
-  ],
+  "rpc": ["https://connect.phi.network", ""],
   "faucets": [],
   "nativeCurrency": {
     "name": "PHI",
@@ -17,10 +13,12 @@
   "chainId": 144,
   "networkId": 144,
   "icon": "phi",
-  "explorers": [{
-    "name": "Phiscan",
-    "url": "https://phiscan.com",
-    "icon": "phi",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "Phiscan",
+      "url": "https://phiscan.com",
+      "icon": "phi",
+      "standard": "none"
+    }
+  ]
 }

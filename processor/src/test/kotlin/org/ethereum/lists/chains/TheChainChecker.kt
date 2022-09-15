@@ -71,6 +71,21 @@ class TheChainChecker {
         checkChain(file, false)
     }
 
+
+    @Test(expected = RedFlagsMustBeArray::class)
+    fun shouldFailForInvalidRedFlagsNotArray() {
+        val file = getFile("invalid/invalid_redFlags/eip155-2.json")
+
+        checkChain(file, false)
+    }
+
+    @Test(expected = InvalidRedFlags::class)
+    fun shouldFailForInvalidRedFlag() {
+        val file = getFile("invalid/invalid_redFlags/eip155-3.json")
+
+        checkChain(file, false)
+    }
+
     @Test(expected = ParentHasExtraFields::class)
     fun shouldFailForParentWithExtraParentField() {
         val file = getFile("invalid/withparentextrafield/eip155-2.json")

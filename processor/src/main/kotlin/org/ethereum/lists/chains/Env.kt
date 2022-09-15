@@ -25,10 +25,12 @@ val optionalFields = listOf(
     "icon",
     "explorers",
     "title",
-    "network",
     "parent",
-    "status"
+    "status",
+    "redFlags"
 )
+
+val allowedRedFlags = listOf("reusedChainId")
 
 val moshi: Moshi = Moshi.Builder().build()
 val chainAdapter: JsonAdapter<Chain> = moshi.adapter(Chain::class.java)
