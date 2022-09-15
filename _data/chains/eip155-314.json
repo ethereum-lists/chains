@@ -2,7 +2,9 @@
   "name": "Filecoin — Mainnet",
   "chain": "FIL",
   "status": "incubating",
-  "rpc": [],
+  "rpc": [
+    "https://api.node.glif.io/rpc/v0"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "FIL",

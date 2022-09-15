@@ -2,7 +2,9 @@
   "name": "Filecoin — Calibration testnet",
   "chain": "FIL",
   "status": "incubating",
-  "rpc": [],
+  "rpc": [
+    "https://api.calibration.node.glif.io/rpc/v0"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "tFIL",
