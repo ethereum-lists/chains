@@ -1,0 +1,21 @@
+{
+  "name": "ShimmerEVM Testchain",
+  "chain": "SMR",
+  "icon": "shimmer",
+  "rpc": [
+    "https://api.sc.testnet.shimmer.network/chain/rms1pzc5j8hq7ahgw6h9mn3jaq9wuv3zp0e2lxydj9a5f6yuvqhsvleyyym9f4z/evm/jsonrpc"
+  ],
+  "faucets": [
+    "https://deposit.sc.testnet.shimmer.network/",
+    "https://faucet.testnet.shimmer.network/"
+  ],
+  "nativeCurrency": {
+    "name": "SMR",
+    "symbol": "SMR",
+    "decimals": 18
+  },
+  "infoURL": "https://shimmer.network",
+  "shortName": "smr-test",
+  "chainId": 1076,
+  "networkId": 1076
+}
