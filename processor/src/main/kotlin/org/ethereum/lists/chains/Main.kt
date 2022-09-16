@@ -22,6 +22,9 @@ val chainsPath = File(dataPath, "chains")
 private val allFiles = chainsPath.listFiles() ?: error("${chainsPath.absolutePath} must contain the chain json files - but it does not")
 private val allChainFiles = allFiles.filter { !it.isDirectory }
 
+private val allIconFilesList = iconsPath.listFiles() ?:  error("${iconsPath.absolutePath} must contain the icon json files - but it does not")
+private val allIconFiles = allIconFilesList.filter { !it.isDirectory }
+
 fun main(args: Array<String>) {
 
     doChecks(doRPCConnect = args.contains("rpcConnect"), doIconDownload = args.contains("iconDownload"))
@@ -33,6 +36,10 @@ private fun createOutputFiles() {
 
     val chainJSONArray = JsonArray<JsonObject>()
     val miniChainJSONArray = JsonArray<JsonObject>()
+
+    val chainIconJSONArray = JsonArray<JsonObject>()
+    val miniChainIconJSONArray = JsonArray<JsonObject>()
+    
     val shortNameMapping = JsonObject()
 
     // copy raw data so e.g. icons are available - SKIP errors
@@ -42,7 +49,6 @@ private fun createOutputFiles() {
         .sortedBy { (it["chainId"] as Number).toLong() }
         .forEach { jsonObject ->
             chainJSONArray.add(jsonObject)
-
 
             val miniJSON = JsonObject()
             listOf("name", "chainId", "shortName", "networkId", "nativeCurrency", "rpc", "faucets", "infoURL").forEach { field ->
@@ -55,12 +61,30 @@ private fun createOutputFiles() {
             shortNameMapping[jsonObject["shortName"] as String] = "eip155:" + jsonObject["chainId"]
 
         }
+    
+    allIconFiles
+        .forEach { iconLocation -> 
+
+            val jsonData = Klaxon().parseJsonArray(iconLocation.reader())
+            val iconName = iconLocation.toString().replace("../_data/icons/","").replace(".json","")
+
+            val iconJson = JsonObject()
+            iconJson["name"] = iconName
+            iconJson["icons"] = jsonData
+
+            chainIconJSONArray.add(iconJson)
+        }
+
+    File(buildPath, "chains.json").writeText(chainJSONArray.toJsonString())
 
     File(buildPath, "chains.json").writeText(chainJSONArray.toJsonString())
     File(buildPath, "chains_pretty.json").writeText(chainJSONArray.toJsonString(prettyPrint = true))
 
     File(buildPath, "chains_mini.json").writeText(miniChainJSONArray.toJsonString())
     File(buildPath, "chains_mini_pretty.json").writeText(miniChainJSONArray.toJsonString(prettyPrint = true))
+
+    File(buildPath, "chain_icons_mini.json").writeText(chainIconJSONArray.toJsonString())
+    File(buildPath, "chain_icons.json").writeText(chainIconJSONArray.toJsonString(prettyPrint = true))
 
     File(buildPath, "shortNameMapping.json").writeText(shortNameMapping.toJsonString(prettyPrint = true))
     File(buildPath, "index.html").writeText(
@@ -272,6 +296,21 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
             throw StatusMustBeIncubatingActiveOrDeprecated()
         }
     }
+
+    jsonObject["redFlags"]?.let { redFlags ->
+        if (redFlags !is List<*>) {
+            throw RedFlagsMustBeArray()
+        }
+        redFlags.forEach {
+            if (it !is String) {
+                throw RedFlagMustBeString()
+            }
+
+            if (!allowedRedFlags.contains(it))
+                throw(InvalidRedFlags(it))
+        }
+    }
+
     jsonObject["parent"]?.let {
         if (it !is JsonObject) {
             throw ParentMustBeObject()
@@ -285,6 +324,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
         if (extraParentFields.isNotEmpty()) {
             throw ParentHasExtraFields(extraParentFields)
         }
+
 
         val bridges = it["bridges"]
         if (bridges != null && bridges !is List<*>) {
