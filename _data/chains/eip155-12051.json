@@ -1,12 +1,8 @@
 {
   "name": "Singularity ZERO Testnet",
   "chain": "ZERO",
-  "rpc": [
-    "https://betaenv.singularity.gold:18545"
-  ],
-  "faucets": [
-    "https://nft.singularity.gold"
-  ],
+  "rpc": ["https://betaenv.singularity.gold:18545"],
+  "faucets": ["https://nft.singularity.gold"],
   "nativeCurrency": {
     "name": "ZERO",
     "symbol": "tZERO",
@@ -16,9 +12,11 @@
   "shortName": "tZERO",
   "chainId": 12051,
   "networkId": 12051,
-  "explorers": [{
-    "name": "zeroscan",
-    "url": "https://betaenv.singularity.gold:18002",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "zeroscan",
+      "url": "https://betaenv.singularity.gold:18002",
+      "standard": "EIP3091"
+    }
+  ]
 }

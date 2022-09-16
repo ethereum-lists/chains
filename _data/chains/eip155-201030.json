@@ -3,10 +3,10 @@
   "chain": "Alaya",
   "rpc": [
     "https://devnetopenapi.alaya.network/rpc",
-	"wss://devnetopenapi.alaya.network/ws"
+    "wss://devnetopenapi.alaya.network/ws"
   ],
   "faucets": [
-  "https://faucet.alaya.network/faucet/?id=f93426c0887f11eb83b900163e06151c"
+    "https://faucet.alaya.network/faucet/?id=f93426c0887f11eb83b900163e06151c"
   ],
   "nativeCurrency": {
     "name": "ATP",
