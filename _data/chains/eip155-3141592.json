@@ -3,7 +3,9 @@
   "chain": "FIL",
   "status": "incubating",
   "rpc": [],
-  "faucets": [],
+  "faucets": [
+    "https://faucet.butterfly.fildev.network/"
+  ],
   "nativeCurrency": {
     "name": "testnet filecoin",
     "symbol": "tFIL",
