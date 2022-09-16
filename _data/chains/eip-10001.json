@@ -1,0 +1,21 @@
+{
+  "name": "Ethereum Proof of Work Mainnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://mainnet.ethereumpow.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether PoW",
+    "symbol": "ETHW",
+    "decimals": 18
+  },
+  "infoURL": "https://ethereumpow.org/",
+  "chainId": 10001,
+  "networkId": 10001,
+  "explorers": [{
+    "name": "OKLink",
+    "url": "https://www.oklink.com/en/ethw/",
+    "standard": "EIP3091"
+  }]
+}
