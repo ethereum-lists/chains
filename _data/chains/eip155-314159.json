@@ -2,12 +2,8 @@
   "name": "Filecoin — Calibration testnet",
   "chain": "FIL",
   "status": "incubating",
-  "rpc": [
-    "https://api.calibration.node.glif.io/rpc/v0"
-  ],
-  "faucets": [
-    "https://faucet.calibration.fildev.network/"
-  ],
+  "rpc": ["https://api.calibration.node.glif.io/rpc/v0"],
+  "faucets": ["https://faucet.calibration.fildev.network/"],
   "nativeCurrency": {
     "name": "testnet filecoin",
     "symbol": "tFIL",
@@ -22,7 +18,7 @@
   "explorers": [
     {
       "name": "Filscan",
-      "url": "https://calibration.filscan.io/",
+      "url": "https://calibration.filscan.io",
       "standard": "none"
     },
     {
