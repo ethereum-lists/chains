@@ -1,0 +1,19 @@
+{
+  "name": "DART's Chain",
+  "chain": "DART's",
+  "icon": "darts",
+  "rpc": [
+    "http://main.darts-chain.com:31545",
+    "http://main.darts-chain.com:31645"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Currency Basket Index Token",
+    "symbol": "CBIT",
+    "decimals": 18
+  },
+  "infoURL": "https://darts.ne.jp/",
+  "shortName": "DART's",
+  "chainId": 823,
+  "networkId": 10
+}
