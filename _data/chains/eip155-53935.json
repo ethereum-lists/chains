@@ -1,9 +1,9 @@
 {
-  "name": "DFK Chain",
+  "name": "DFK Subnet",
   "chain": "DFK",
   "icon": "dfk",
   "rpc": ["https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc"],
-  "faucets": [],
+  "faucets": ["https://faucet.avax.network/?subnet=dfk"],
   "nativeCurrency": {
     "name": "Jewel",
     "symbol": "JEWEL",
@@ -15,10 +15,9 @@
   "networkId": 53935,
   "explorers": [
     {
-      "name": "ethernal",
-      "url": "https://explorer.dfkchain.com",
-      "icon": "ethereum",
-      "standard": "none"
+      "name": "Avalanche Subnet Explorer",
+      "url": "https://subnets.avax.network/defi-kingdoms",
+      "standard": "EIP3091"
     }
   ]
 }

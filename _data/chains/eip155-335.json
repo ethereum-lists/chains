@@ -1,5 +1,5 @@
 {
-  "name": "DFK Chain Test",
+  "name": "DFK Subnet Testnet",
   "chain": "DFK",
   "icon": "dfk",
   "rpc": ["https://subnets.avax.network/defi-kingdoms/dfk-chain-testnet/rpc"],
@@ -15,10 +15,9 @@
   "networkId": 335,
   "explorers": [
     {
-      "name": "ethernal",
-      "url": "https://explorer-test.dfkchain.com",
-      "icon": "ethereum",
-      "standard": "none"
+      "name": "Avalanche Subnet Explorer",
+      "url": "https://subnets-test.avax.network/defi-kingdoms",
+      "standard": "EIP3091"
     }
   ]
 }
