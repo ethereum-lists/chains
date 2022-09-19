@@ -5316,6 +5316,19 @@
   "faucets": ["https://faucet.ivarex.com/"],
   "infoURL": "https://ivarex.com"
 }, {
+  "name": "Beverly Hills",
+  "chainId": 90210,
+  "shortName": "bvhl",
+  "networkId": 90210,
+  "nativeCurrency": {
+    "name": "Beverly Hills Testnet Ether",
+    "symbol": "BVE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.beverlyhills.ethdevops.io:8545"],
+  "faucets": ["https://faucet.beverlyhills.ethdevops.io"],
+  "infoURL": "https://beverlyhills.ethdevops.io"
+}, {
   "name": "Lambda Testnet",
   "chainId": 92001,
   "shortName": "lambda-testnet",
