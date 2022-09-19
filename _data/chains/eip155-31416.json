@@ -1,0 +1,23 @@
+{
+  "name": "Castle Crush Subnet Testnet",
+  "chain": "CASTLECRUSH",
+  "icon": "castlecrush",
+  "rpc": ["https://subnets.avax.network/castle-crush/testnet/rpc"],
+  "faucets": ["https://faucet.avax.network/?subnet=castlecrush"],
+  "nativeCurrency": {
+    "name": "CastleCrush",
+    "symbol": "ACS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.castlecrushgame.com/",
+  "shortName": "WAGMI",
+  "chainId": 31416,
+  "networkId": 31416,
+  "explorers": [
+    {
+      "name": "Avalanche Subnet Explorer",
+      "url": "https://subnets-test.avax.network/castle-crush",
+      "standard": "EIP3091"
+    }
+  ]
+}
