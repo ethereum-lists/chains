@@ -1,0 +1,28 @@
+{
+  "name": "Taiko",
+  "title": "Taiko(Walnut) on Goerli",
+  "chainId": 167002,
+  "shortName": "taiko-walnut",
+  "chain": "ETH",
+  "networkId": 167002,
+  "nativeCurrency": {
+    "name": "Test Ether on Taiko(Walnut)",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://walnut.rpc.taiko.xyz"],
+  "faucets": [],
+  "infoURL": "https://taiko.xyz",
+  "explorers": [
+    {
+      "name": "Taiko(Walnut) on Goerli",
+      "url": "https://walnut.explorer.taiko.xyz",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-5",
+    "bridges": [{ "url": "https://walnut.bridge.taiko.xyz" }]
+  }
+}

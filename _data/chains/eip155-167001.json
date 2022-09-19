@@ -1,0 +1,28 @@
+{
+  "name": "Taiko",
+  "title": "Taiko(Maple) on Goerli",
+  "chainId": 167001,
+  "shortName": "taiko-maple",
+  "chain": "ETH",
+  "networkId": 167001,
+  "nativeCurrency": {
+    "name": "Test Ether on Taiko(Maple)",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://maple.rpc.taiko.xyz"],
+  "faucets": [],
+  "infoURL": "https://taiko.xyz",
+  "explorers": [
+    {
+      "name": "Taiko(Maple) on Goerli",
+      "url": "https://maple.explorer.taiko.xyz",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-5",
+    "bridges": [{ "url": "https://maple.bridge.taiko.xyz" }]
+  }
+}

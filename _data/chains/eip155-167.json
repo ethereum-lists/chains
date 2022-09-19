@@ -1,0 +1,28 @@
+{
+  "name": "Taiko",
+  "title": "Taiko Mainnet",
+  "chainId": 167,
+  "shortName": "taiko-mainnet",
+  "chain": "ETH",
+  "networkId": 167,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.taiko.xyz"],
+  "faucets": [],
+  "infoURL": "https://taiko.xyz",
+  "explorers": [
+    {
+      "name": "Taiko Mainnet",
+      "url": "https://explorer.taiko.xyz",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.taiko.xyz" }]
+  }
+}
