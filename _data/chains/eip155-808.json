@@ -1,7 +1,7 @@
 {
-  "name": "Portal Fantasy Chain Test",
+  "name": "Portal Fantasy Subnet Testnet",
   "chain": "PF",
-  "icon": "pf",
+  "icon": "portalfantasy",
   "rpc": ["https://subnets.avax.network/portal-fantasy/testnet/rpc"],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +13,11 @@
   "shortName": "PFTEST",
   "chainId": 808,
   "networkId": 808,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "Avalanche Subnet Explorer",
+      "url": "https://subnets-test.avax.network/portal-fantasy",
+      "standard": "EIP3091"
+    }
+  ]
 }
