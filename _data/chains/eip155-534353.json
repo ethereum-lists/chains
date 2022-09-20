@@ -1,12 +1,8 @@
 {
   "name": "Scroll Pre-Alpha Testnet",
   "chain": "ETH",
-  "rpc": [
-    "https://prealpha.scroll.io/l2"
-  ],
-  "faucets": [
-    "https://prealpha.scroll.io"
-  ],
+  "rpc": ["https://prealpha.scroll.io/l2"],
+  "faucets": ["https://prealpha.scroll.io"],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
