@@ -1,0 +1,23 @@
+{
+  "name": "Swimmer Network Subnet Testnet",
+  "chain": "SWIMMER",
+  "icon": "swimmer",
+  "rpc": ["https://subnets.avax.network/swimmer/testnet/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Treasure Under Sea",
+    "symbol": "TUS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.swimmer.network",
+  "shortName": "Swimmer Testnet",
+  "chainId": 73773,
+  "networkId": 73773,
+  "explorers": [
+    {
+      "name": "Avalanche Subnet Explorer",
+      "url": "https://subnets-test.avax.network/swimmer",
+      "standard": "EIP3091"
+    }
+  ]
+}
