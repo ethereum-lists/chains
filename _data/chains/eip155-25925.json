@@ -1,25 +1,25 @@
 {
-  "name": "Bitkub Chain Mainnet",
+  "name": "Bitkub Chain Testnet",
   "chain": "BKC",
   "icon": "bkc",
   "rpc": [
     "https://rpc-testnet.bitkubchain.io",
     "wss://wss-testnet.bitkubchain.io"
   ],
-  "faucets": [],
+  "faucets": ["https://faucet.bitkubchain.com"],
   "nativeCurrency": {
     "name": "Bitkub Coin",
-    "symbol": "KUB",
+    "symbol": "TKUB",
     "decimals": 18
   },
   "infoURL": "https://www.bitkubchain.com/",
   "shortName": "bkc",
-  "chainId": 96,
-  "networkId": 96,
+  "chainId": 25925,
+  "networkId": 25925,
   "explorers": [
     {
       "name": "bkcscan",
-      "url": "https://bkcscan.com",
+      "url": "https://testnet.bkcscan.com",
       "standard": "none",
       "icon": "bkc"
     }
