@@ -1,22 +1,27 @@
 {
-  "name": "NEXT Smart Chain",
-  "chain": "NSC",
-  "rpc": ["https://rpc.nextsmartchain.com"],
-  "faucets": ["https://faucet.nextsmartchain.com"],
+  "name": "Bitkub Chain Mainnet",
+  "chain": "BKC",
+  "icon": "bkc",
+  "rpc": [
+    "https://rpc-testnet.bitkubchain.io",
+    "wss://wss-testnet.bitkubchain.io"
+  ],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "NEXT",
-    "symbol": "NEXT",
+    "name": "Bitkub Coin",
+    "symbol": "KUB",
     "decimals": 18
   },
-  "infoURL": "https://www.nextsmartchain.com/",
-  "shortName": "nsc",
+  "infoURL": "https://www.bitkubchain.com/",
+  "shortName": "bkc",
   "chainId": 96,
   "networkId": 96,
   "explorers": [
     {
-      "name": "Next Smart Chain Explorer",
-      "url": "https://explorer.nextsmartchain.com",
-      "standard": "none"
+      "name": "bkcscan",
+      "url": "https://bkcscan.com",
+      "standard": "none",
+      "icon": "bkc"
     }
   ]
 }
