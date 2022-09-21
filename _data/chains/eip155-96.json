@@ -2,10 +2,7 @@
   "name": "Bitkub Chain Mainnet",
   "chain": "BKC",
   "icon": "bkc",
-  "rpc": [
-    "https://rpc-testnet.bitkubchain.io",
-    "wss://wss-testnet.bitkubchain.io"
-  ],
+  "rpc": ["https://rpc.bitkubchain.io", "wss://wss.bitkubchain.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitkub Coin",
