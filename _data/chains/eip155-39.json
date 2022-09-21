@@ -1,0 +1,21 @@
+{
+  "name": "Business Chain",
+  "chain": "BSC",
+  "rpc": ["https://geth.xmax.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BusinessChain",
+    "symbol": "BSC",
+    "decimals": 18
+  },
+  "infoURL": "http://bschain.io",
+  "shortName": "BSC",
+  "chainId": 39,
+  "networkId": 39,
+  "explorers": [{
+    "name": "Business Chain Scan",
+    "url": "http://bschain.io",
+    "icon": "bschain",
+    "standard": "none"
+  }]
+}
