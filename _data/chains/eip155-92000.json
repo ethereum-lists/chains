@@ -1,24 +1,24 @@
 {
-    "name": "Lambda Testnet",
+    "name": "Lambda Mainnet",
     "chain": "Lambda",
     "rpc": [
-        "https://evm.lambda.top/"
+        "https://evm.lambda.im/"
     ],
     "faucets": [],
     "nativeCurrency": {
-        "name": "test-Lamb",
+        "name": "Lamb",
         "symbol": "LAMB",
         "decimals": 18
     },
     "infoURL": "https://lambda.im",
-    "shortName": "lambda-testnet",
-    "chainId": 92001,
-    "networkId": 92001,
+    "shortName": "lambda-mainnet",
+    "chainId": 92000,
+    "networkId": 92000,
     "icon": "lambda",
     "explorers": [
         {
             "name": "Lambda EVM Explorer",
-            "url": "https://explorer.lambda.top",
+            "url": "https://explorer.lambda.im",
             "standard": "EIP3091",
             "icon": "lambda"
         }
