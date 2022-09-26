@@ -1,0 +1,24 @@
+{
+    "name": "GoldRatsChain",
+    "chain": "GRC",
+    "icon": "grc",
+    "rpc": ["https://rpc-testnode.goldratschain.xyz"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "GRC",
+      "symbol": "GRC",
+      "decimals": 18
+    },
+    "infoURL": "https://goldratschain.xyz/",
+    "shortName": "GRC",
+    "chainId": 1337,
+    "networkId": 1337,
+    "explorers": [
+      {
+        "name": "GoldRatsChain Expolrer",
+        "url": "https://explorer.goldratschain.xyz/",
+        "standard": "EIP3091"
+      }
+    ]
+  }
+  
