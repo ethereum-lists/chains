@@ -1,0 +1,30 @@
+{
+  "name": "Uptick Testnet",
+  "chain": "Uptick",
+  "rpc": ["https://peer0.testnet.uptick.network:8645"],
+  "faucets": ["https://docs.uptick.network/testnet/faucet"],
+  "nativeCurrency": {
+    "name": "Uptick Testnet",
+    "symbol": "auptick",
+    "decimals": 18
+  },
+  "infoURL": "https://www.uptick.network",
+  "shortName": "Uptick Testnet",
+  "chainId": 7000,
+  "networkId": 7000,
+  "icon": "uptick",
+  "explorers": [
+    {
+      "name": "Uptick EVM Explorer",
+      "url": "https://evm-explorer.testnet.uptick.network",
+      "standard": "EIP3091",
+      "icon": "uptick"
+    },
+    {
+      "name": "Uptick Cosmos Explorer",
+      "url": "https://explorer.testnet.uptick.network",
+      "standard": "none",
+      "icon": "uptick"
+    }
+  ]
+}
