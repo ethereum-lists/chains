@@ -1,8 +1,11 @@
 {
   "name": "DYNO Mainnet",
-  "chain": "DND",
-  "rpc": ["https://rpc.dynochain.io"],
-  "faucets": ["https://faucet.dynochain.io"],
+  "chain": "DYNO",
+  "rpc": [
+    "https://rpc.dynochain.io",
+    "https://faucet.dynochain.io"
+  ],
+  "faucets": [],
   "nativeCurrency": {
     "name": "DYNO Token",
     "symbol": "DND",
@@ -12,11 +15,11 @@
   "shortName": "dnd",
   "chainId": 7363,
   "networkId": 7363,
-  "explorers": [
-    {
-      "name": "DYNO Explorer",
-      "url": "https://dynoscan.io",
-      "standard": "EIP3091"
-    }
-  ]
+  "icon": "dynoscan",
+  "explorers": [{
+    "name": "dynoscan",
+    "url": "https://dynoscan.io",
+    "icon": "dynochain",
+    "standard": "EIP3091"
+  }]
 }
