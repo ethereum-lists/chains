@@ -1,8 +1,11 @@
 {
   "name": "DYNO Testnet",
   "chain": "DYNO",
-  "rpc": ["https://rpctest.dynochain.io"],
-  "faucets": ["https://faucet.dynochain.io"],
+  "rpc": [
+    "https://rpctest.dynochain.io",
+    "https://faucet.dynochain.io"
+  ],
+  "faucets": [],
   "nativeCurrency": {
     "name": "DYNO Token",
     "symbol": "tDND",
@@ -12,11 +15,11 @@
   "shortName": "tdnd",
   "chainId": 7364,
   "networkId": 7364,
-  "explorers": [
-    {
-      "name": "DYNO Explorer",
-      "url": "https://testnet.dynoscan.io",
-      "standard": "EIP3091"
-    }
-  ]
+  "icon": "dynoscan",
+  "explorers": [{
+    "name": "dynoscan",
+    "url": "https://testnet.dynoscan.io",
+    "icon": "dynochain",
+    "standard": "EIP3091"
+  }]
 }
