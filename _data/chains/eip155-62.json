@@ -1,15 +1,22 @@
 {
-  "name": "Ethereum Classic Testnet Morden",
-  "chain": "ETC",
-  "rpc": [],
-  "faucets": [],
+  "name": "FNCY Mainnet",
+  "chain": "FNCY Chain",
+  "rpc": ["https://fncy-seed1.fncy.world"],
+  "faucets": ["https://faucet-testnet.fncy.world"],
   "nativeCurrency": {
-    "name": "Ethereum Classic Testnet Ether",
-    "symbol": "TETC",
+    "name": "FNCY",
+    "symbol": "FNCY",
     "decimals": 18
   },
-  "infoURL": "https://ethereumclassic.org",
-  "shortName": "tetc",
+  "infoURL": "https://fncy.world",
+  "shortName": "FNCY",
   "chainId": 62,
-  "networkId": 2
+  "networkId": 62,
+  "explorers": [
+    {
+      "name": "fncyscan",
+      "url": "https://fncyscan.fncy.world",
+      "standard": "none"
+    }
+  ]
 }
