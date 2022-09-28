@@ -12,9 +12,11 @@
   "shortName": "meertest",
   "chainId": 8131,
   "networkId": 8131,
-  "explorers": [{
-    "name": "meerscan",
-    "url": "https://testnet.qng.meerscan.io",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "meerscan",
+      "url": "https://testnet.qng.meerscan.io",
+      "standard": "none"
+    }
+  ]
 }

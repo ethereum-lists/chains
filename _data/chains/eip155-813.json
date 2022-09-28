@@ -13,9 +13,12 @@
   "chainId": 813,
   "networkId": 813,
   "slip44": 813,
-  "explorers": [{
-    "name": "meerscan",
-    "url": "https://meerscan.io",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "meerscan",
+      "url": "https://meerscan.io",
+      "standard": "none"
+    }
+  ]
 }
+
