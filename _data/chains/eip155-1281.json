@@ -1,0 +1,24 @@
+{
+  "name": "Bullchain Testnet",
+  "chain": "BULL",
+  "rpc": ["https://testnet.bullchain.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bull",
+    "symbol": "BULL",
+    "decimals": 18
+  },
+  "infoURL": "https://bullchain.org",
+  "shortName": "bullchain",
+  "chainId": 1281,
+  "networkId": 1281,
+  "icon": "bullchain",
+  "explorers": [
+    {
+      "name": "bullexplorer",
+      "url": "https://explorer.bullchain.org",
+      "icon": "bullchain",
+      "standard": "EIP3091"
+    }
+  ]
+}
