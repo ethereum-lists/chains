@@ -1,0 +1,24 @@
+{
+  "name": "Apex Mainnet",
+  "chain": "OMNIA",
+  "rpc": [
+    "https://rpc.omniaverse.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OMNIA",
+    "symbol": "OMNIA",
+    "decimals": 18
+  },
+  "infoURL": "https://theapexchain.org",
+  "shortName": "apex",
+  "chainId": 1501795822,
+  "networkId": 1501795822,
+  "icon": "apex",
+  "explorers": [{
+    "name": "apexscan",
+    "url": "https://explorer.us-east-2.omniaverse.io",
+    "icon": "apexscan",
+    "standard": "EIP3091"
+  }]
+}
