@@ -1,0 +1,17 @@
+{
+    "name": "Bitcoin Mainnet",
+    "chain": "BTC",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "decimals": 8
+    },
+    "infoURL": "https://bitcoin.org",
+    "shortName": "btc",
+    "chainId": "000000000019d6689c085ae165831e93",
+    "networkId": "000000000019d6689c085ae165831e93",
+    "slip44": 0,
+    "explorers": []
+}
