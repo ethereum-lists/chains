@@ -1,0 +1,25 @@
+{
+  "name": "MO Chain Testnet",
+  "chain": "MO",
+  "icon": "mochaintestnet",
+  "rpc": [
+    "https://testnet-rpc.motestnet.app/",
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MO Chain Testnet",
+    "symbol": "MO",
+    "decimals": 18
+  },
+  "infoURL": "https://mochain.app",
+  "shortName": "mo",
+  "chainId": 22936,
+  "networkId": 22936,
+  "explorers": [
+    {
+      "name": "Mochain Testnet Explorer",
+      "url": "https://motestnet.app/",
+      "standard": "EIP3091"
+    }
+  ]
+}
