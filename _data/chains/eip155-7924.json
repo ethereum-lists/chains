@@ -1,0 +1,25 @@
+{
+  "name": "MO Chain Mainnet",
+  "chain": "MO",
+  "icon": "mochain",
+  "rpc": [
+    "https://mainnet-rpc.moscan.app/",
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MO Chain",
+    "symbol": "MO",
+    "decimals": 18
+  },
+  "infoURL": "https://mochain.app",
+  "shortName": "mo",
+  "chainId": 7924,
+  "networkId": 7924,
+  "explorers": [
+    {
+      "name": "Mochain Explorer",
+      "url": "https://moscan.app",
+      "standard": "EIP3091"
+    }
+  ]
+}
