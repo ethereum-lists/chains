@@ -2,7 +2,7 @@
   "name": "Tres Leches Testnet",
   "chain": "TresLeches",
   "rpc": ["https://rpc-test.tresleches.finance/"],
-  "faucets": [],
+  "faucets": ["http://faucet.tresleches.finance:8080"],
   "nativeCurrency": {
     "name": "Tres Leches",
     "symbol": "3Leches",
