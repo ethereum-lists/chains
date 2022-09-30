@@ -1,0 +1,24 @@
+{
+  "name": "Agora testnet",
+  "chain": "Agora",
+  "rpc": ["https://testnet.bosagora.org"],
+  "faucets": ["https://faucet.bosagora.org/request/"],
+  "nativeCurrency": {
+    "name": "BOSAGORA",
+    "symbol": "BOA",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.bosagora.org",
+  "shortName": "boa",
+  "chainId": 2019,
+  "networkId": 2019,
+  "icon": "agora",
+  "explorers": [
+    {
+      "name": "BOAScan testnet",
+      "url": "https://testnet.boascan.io",
+      "icon": "agora",
+      "standard": "EIP3091"
+    }
+  ]
+}
