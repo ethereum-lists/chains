@@ -1,0 +1,26 @@
+{
+    "name": "SesaChain Ferry Testnet",
+    "chain": "FERRY",
+    "rpc": [
+      "https://test01.sesachain.com"
+    ],
+    "faucets": [
+        "https://faucet.sesachain.com"
+    ],
+    "nativeCurrency": {
+      "name": "SESA FERRY",
+      "symbol": "SESA",
+      "decimals": 18
+    },
+    "infoURL": "https://www.sesachain.com",
+    "shortName": "SesaChain Ferry Testnet",
+    "chainId": 294,
+    "networkId": 294,
+    "icon": "sesachain",
+    "explorers": [{
+      "name": "SesaScan Ferry Testnet",
+      "url": "https://ferry.sesachain.com",
+      "icon": "sesascan",
+      "standard": "EIP3091"
+    }]
+  }
