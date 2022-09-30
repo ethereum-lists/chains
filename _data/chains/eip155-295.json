@@ -2,7 +2,7 @@
     "name": "SesaChain",
     "chain": "SESA",
     "rpc": [
-      "https://rpc.sesachain.com"
+      "https://node.sesachain.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -14,11 +14,11 @@
     "shortName": "SesaChain",
     "chainId": 295,
     "networkId": 295,
-    "icon": "SesaChain",
+    "icon": "sesachain",
     "explorers": [{
       "name": "SesaScan",
       "url": "https://explorer.sesachain.com",
-      "icon": "SesaScan",
+      "icon": "sesascan",
       "standard": "EIP3091"
     }]
   }
