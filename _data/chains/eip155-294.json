@@ -2,7 +2,7 @@
     "name": "SesaChain Ferry Testnet",
     "chain": "FERRY",
     "rpc": [
-      "https://nodeferry.sesachain.com"
+      "https://ferry.sesachain.com"
     ],
     "faucets": [
         "https://faucet.sesachain.com"
@@ -19,7 +19,7 @@
     "icon": "sesachain",
     "explorers": [{
       "name": "SesaScan Ferry Testnet",
-      "url": "https://ferry.sesachain.com",
+      "url": "https://ferry.sesascan.com",
       "standard": "EIP3091"
     }]
   }
