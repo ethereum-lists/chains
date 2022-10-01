@@ -2235,19 +2235,6 @@
   "faucets": ["https://faucet.bcsdev.io"],
   "infoURL": "https://blockchainstation.io"
 }, {
-  "name": "Factory 127 Testnet",
-  "chainId": 721,
-  "shortName": "tfeth",
-  "networkId": 721,
-  "nativeCurrency": {
-    "name": "Factory 127 Token",
-    "symbol": "FETH",
-    "decimals": 18
-  },
-  "rpc": [],
-  "faucets": [],
-  "infoURL": "https://www.factory127.com"
-}, {
   "name": "Lycan Chain",
   "chainId": 721,
   "shortName": "LYC",
