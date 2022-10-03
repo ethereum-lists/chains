@@ -4354,6 +4354,19 @@
   "faucets": [],
   "infoURL": "https://www.xixoio.com/"
 }, {
+  "name": "0XTade",
+  "chainId": 10248,
+  "shortName": "0xt",
+  "networkId": 10248,
+  "nativeCurrency": {
+    "name": "0XT",
+    "symbol": "0XT",
+    "decimals": 18
+  },
+  "rpc": ["https://node.0xtchain.com"],
+  "faucets": [],
+  "infoURL": "https://www.0xtrade.finance/"
+}, {
   "name": "CryptoCoinPay",
   "chainId": 10823,
   "shortName": "CCP",
