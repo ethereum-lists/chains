@@ -1,7 +1,7 @@
 {
   "name": "WEMIX3.0 Testnet",
   "chain": "TWEMIX",
-  "rpc": ["https://api.test.wemix.com", "wss://ws.test.wemi.com"],
+  "rpc": ["https://api.test.wemix.com", "wss://ws.test.wemix.com"],
   "faucets": ["https://wallet.test.wemix.com/faucet"],
   "nativeCurrency": {
     "name": "TestnetWEMIX",
