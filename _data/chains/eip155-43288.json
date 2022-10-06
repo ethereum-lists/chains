@@ -1,0 +1,27 @@
+{
+  "name": "Bobaavax",
+  "chain": "Bobaavax",
+  "rpc": [
+    "https://avax.boba.network",
+    "wss://wss.avax.boba.network",
+    "https://replica.avax.boba.network",
+    "wss://replica-wss.avax.boba.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Boba Token",
+    "symbol": "BOBA",
+    "decimals": 18
+  },
+  "infoURL": "https://boba.network",
+  "shortName": "Bobaavax",
+  "chainId": 43288,
+  "networkId": 43288,
+  "explorers": [
+    {
+      "name": "Bobaavax block explorer",
+      "url": "https://blockexplorer.avax.boba.network",
+      "standard": "none"
+    }
+  ]
+}
