@@ -1,0 +1,24 @@
+{
+  "name": "Fahrenheit Chain Mainnet",
+  "chain": "FAC",
+  "rpc": ["https://rpc-mainnet.fahrenheitchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Fac",
+    "symbol": "FAC",
+    "decimals": 18
+  },
+  "infoURL": "https://fahrenheitchain.com",
+  "shortName": "fac",
+  "chainId": 1924,
+  "networkId": 1924,
+  "icon": "fahrenheitchain",
+  "explorers": [
+    {
+      "name": "Facscan",
+      "url": "https://facscan.fahrenheitchain.com",
+      "icon": "fahrenheitchain",
+      "standard": "EIP3091"
+    }
+  ]
+}
