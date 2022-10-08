@@ -1,10 +1,7 @@
 {
   "name": "ETND Chain Mainnets",
   "chain": "ETND",
-  "network": "mainnet",
-  "rpc": [
-    "https://rpc.node1.etnd.pro/"
-  ],
+  "rpc": ["https://rpc.node1.etnd.pro/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETND",
@@ -16,10 +13,12 @@
   "chainId": 131419,
   "networkId": 131419,
   "icon": "ETND",
-  "explorers": [{
-    "name": "etndscan",
-    "url": "https://scan.etnd.pro",
-    "icon": "ETND",
-    "standard": "none"
-  }]
-} 
+  "explorers": [
+    {
+      "name": "etndscan",
+      "url": "https://scan.etnd.pro",
+      "icon": "ETND",
+      "standard": "none"
+    }
+  ]
+}

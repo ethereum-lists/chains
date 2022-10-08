@@ -1,9 +1,7 @@
 {
   "name": "SanR Chain",
   "chain": "SanRChain",
-  "rpc": [
-    "https://sanrchain-node.santiment.net"
-  ],
+  "rpc": ["https://sanrchain-node.santiment.net"],
   "faucets": [],
   "nativeCurrency": {
     "name": "nSAN",
