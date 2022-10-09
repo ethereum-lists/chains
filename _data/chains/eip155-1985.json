@@ -1,12 +1,12 @@
 {
   "name": "Memo Smart Chain Testnet",
-  "chain": "MEMO",
+  "chain": "CMEMO",
   "icon": "memo",
   "rpc": ["https://testchain.metamemo.one:24180/"],
   "faucets": [],
   "nativeCurrency": {
     "name": " Memo",
-    "symbol": "MEMO",
+    "symbol": "CMEMO",
     "decimals": 18
   },
   "infoURL": "www.memolabs.org",
