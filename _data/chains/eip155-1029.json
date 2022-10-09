@@ -1,0 +1,27 @@
+{
+  "name": "BitTorrent Chain Testnet",
+  "chain": "BTTC",
+  "rpc": ["https://pre-rpc.bt.io/"],
+  "faucets": ["https://testfaucet.bt.io"],
+  "nativeCurrency": {
+    "name": "BitTorrent",
+    "symbol": "BTT",
+    "decimals": 18
+  },
+  "infoURL": "https://bt.io/",
+  "shortName": "tbtt",
+  "chainId": 1029,
+  "networkId": 1029,
+  "explorers": [
+    {
+      "name": "Bttc Scan Testnet",
+      "url": "https://testnet.bttcscan.com/",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Bttc Scan Donau Testnet",
+      "url": "https://testscan.bt.io/",
+      "standard": "none"
+    }
+  ]
+}
