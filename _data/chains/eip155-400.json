@@ -2,12 +2,8 @@
   "name": "HyperonChain TestNet",
   "chain": "HPN",
   "icon": "hyperonchain",
-  "rpc": [
-    "https://testnet-rpc.hyperonchain.com"
-  ],
-  "faucets": [
-    "https://faucet.hyperonchain.com"
-  ],
+  "rpc": ["https://testnet-rpc.hyperonchain.com"],
+  "faucets": ["https://faucet.hyperonchain.com"],
   "nativeCurrency": {
     "name": "HyperonChain",
     "symbol": "HPN",
