@@ -1,0 +1,26 @@
+{
+  "name": "HyperonChain TestNet",
+  "chain": "HPN",
+  "rpc": [
+    "https://testnet-rpc.hyperonchain.com"
+  ],
+  "faucets": [
+    "https://faucet.hyperonchain.com/"
+  ],
+  "nativeCurrency": {
+    "name": "HyperonChain",
+    "symbol": "HPN",
+    "decimals": 18
+  },
+  "infoURL": "https://www.hyperonchain.com",
+  "shortName": "hpn",
+  "chainId": 400,
+  "networkId": 400,
+  "icon": "hyperonchain",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://testnet.hyperonchain.com",
+    "icon": "hyperonchain",
+    "standard": "EIP3091"
+  }]
+}
