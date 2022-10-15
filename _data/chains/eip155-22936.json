@@ -3,7 +3,8 @@
   "chain": "MO",
   "icon": "mochaintestnet",
   "rpc": [
-    "https://testnet-rpc.motestnet.app/"
+    "https://testnet-rpc.motestnet.app/",
+    "https://mainnet-rpc.moscan.app/"
   ],
   "faucets": [],
   "nativeCurrency": {
