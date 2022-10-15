@@ -1936,6 +1936,19 @@
   "faucets": ["https://pipa.lisinski.online"],
   "infoURL": "https://lisinski.online"
 }, {
+  "name": "HyperonChain TestNet",
+  "chainId": 400,
+  "shortName": "hpn",
+  "networkId": 400,
+  "nativeCurrency": {
+    "name": "HyperonChain",
+    "symbol": "HPN",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.hyperonchain.com"],
+  "faucets": ["https://faucet.hyperonchain.com"],
+  "infoURL": "https://docs.hyperonchain.com"
+}, {
   "name": "SX Network Mainnet",
   "chainId": 416,
   "shortName": "SX",
