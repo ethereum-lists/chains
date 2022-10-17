@@ -1,0 +1,23 @@
+{
+  "name": "Digest Swarm Chain",
+  "chain": "DSC",
+  "icon": "swarmchain",
+  "rpc": ["https://rpc.digestgroup.ltd"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DigestCoin",
+    "symbol": "DGCC",
+    "decimals": 18
+  },
+  "infoURL": "https://digestgroup.ltd",
+  "shortName": "dgcc",
+  "chainId": 5777,
+  "networkId": 5777,
+  "explorers": [
+    {
+      "name": "swarmexplorer",
+      "url": "https://explorer.digestgroup.ltd",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -15,9 +15,11 @@
   "shortName": "kcs",
   "chainId": 321,
   "networkId": 1,
-  "explorers": [{
-    "name": "KCC Explorer",
-    "url": "https://explorer.kcc.io/en",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "KCC Explorer",
+      "url": "https://explorer.kcc.io/en",
+      "standard": "EIP3091"
+    }
+  ]
 }

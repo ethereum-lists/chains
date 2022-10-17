@@ -1,0 +1,24 @@
+{
+  "name": "TechPay Mainnet",
+  "chain": "TPC",
+  "rpc": ["https://api.techpay.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TechPay",
+    "symbol": "TPC",
+    "decimals": 18
+  },
+  "infoURL": "https://techpay.io/",
+  "shortName": "tpc",
+  "chainId": 2569,
+  "networkId": 2569,
+  "icon": "techpay",
+  "explorers": [
+    {
+      "name": "tpcscan",
+      "url": "https://tpcscan.com",
+      "icon": "techpay",
+      "standard": "EIP3091"
+    }
+  ]
+}

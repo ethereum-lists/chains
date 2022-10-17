@@ -1,0 +1,23 @@
+{
+  "name": "IVAR Chain Mainnet",
+  "chain": "IVAR",
+  "icon": "ivar",
+  "rpc": ["https://mainnet-rpc.ivarex.com"],
+  "faucets": ["https://faucet.ivarex.com/"],
+  "nativeCurrency": {
+    "name": "Ivar",
+    "symbol": "IVAR",
+    "decimals": 18
+  },
+  "infoURL": "https://ivarex.com",
+  "shortName": "ivar",
+  "chainId": 88888,
+  "networkId": 88888,
+  "explorers": [
+    {
+      "name": "ivarscan",
+      "url": "https://ivarscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

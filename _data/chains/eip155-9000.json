@@ -1,7 +1,7 @@
 {
   "name": "Evmos Testnet",
   "chain": "Evmos",
-  "rpc": ["https://evmos-archive-testnet.api.bdnodes.net:8545"],
+  "rpc": ["https://eth.bd.evmos.dev:8545"],
   "faucets": ["https://faucet.evmos.dev"],
   "nativeCurrency": {
     "name": "test-Evmos",
@@ -15,9 +15,9 @@
   "icon": "evmos",
   "explorers": [
     {
-      "name": "Evmos EVM Explorer (Blockscout)",
+      "name": "Evmos EVM Explorer",
       "url": "https://evm.evmos.dev",
-      "standard": "none",
+      "standard": "EIP3091",
       "icon": "evmos"
     },
     {

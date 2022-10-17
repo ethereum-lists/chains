@@ -1,0 +1,24 @@
+{
+  "name": "Eurus Mainnet",
+  "chain": "EUN",
+  "rpc": ["https://mainnet.eurus.network/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Eurus",
+    "symbol": "EUN",
+    "decimals": 18
+  },
+  "infoURL": "https://eurus.network",
+  "shortName": "eun",
+  "chainId": 1008,
+  "networkId": 1008,
+  "icon": "eurus",
+  "explorers": [
+    {
+      "name": "eurusexplorer",
+      "url": "https://explorer.eurus.network",
+      "icon": "eurus",
+      "standard": "none"
+    }
+  ]
+}

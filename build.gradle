@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        KOTLIN_VERSION = "1.6.10"
+        KOTLIN_VERSION = "1.7.20"
         KETHEREUM_VERSION = "0.85.7"
     }
 
@@ -23,4 +23,4 @@ subprojects {
     }
 }
 
-apply plugin: "com.github.ben-manes.versions"
+apply from: 'https://raw.githubusercontent.com/ligi/gradle-common/master/versions_plugin_stable_only.gradle'

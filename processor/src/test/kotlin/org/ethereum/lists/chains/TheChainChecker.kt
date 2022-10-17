@@ -71,6 +71,21 @@ class TheChainChecker {
         checkChain(file, false)
     }
 
+
+    @Test(expected = RedFlagsMustBeArray::class)
+    fun shouldFailForInvalidRedFlagsNotArray() {
+        val file = getFile("invalid/invalid_redFlags/eip155-2.json")
+
+        checkChain(file, false)
+    }
+
+    @Test(expected = InvalidRedFlags::class)
+    fun shouldFailForInvalidRedFlag() {
+        val file = getFile("invalid/invalid_redFlags/eip155-3.json")
+
+        checkChain(file, false)
+    }
+
     @Test(expected = ParentHasExtraFields::class)
     fun shouldFailForParentWithExtraParentField() {
         val file = getFile("invalid/withparentextrafield/eip155-2.json")
@@ -219,6 +234,16 @@ class TheChainChecker {
     @Test(expected = ExplorerMustWithHttps::class)
     fun shouldFailOnMissingURL() {
         checkChain(getFile("invalid/explorermissingurl/eip155-1.json"), false)
+    }
+
+    @Test(expected = StatusMustBeString::class)
+    fun shouldFailOnInvalidStatusType() {
+        checkChain(getFile("invalid/invalid_status/eip155-1.json"), false)
+    }
+
+    @Test(expected = StatusMustBeIncubatingActiveOrDeprecated::class)
+    fun shouldFailOnInvalidStatus() {
+        checkChain(getFile("invalid/invalid_status/eip155-2.json"), false)
     }
 
     @Test
