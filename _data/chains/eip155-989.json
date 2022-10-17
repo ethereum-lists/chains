@@ -1,0 +1,23 @@
+{
+  "name": "TOP Mainnet",
+  "chain": "TOP",
+  "icon": "top",
+  "rpc": ["topapi.topnetwork.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TOP",
+    "symbol": "TOP",
+    "decimals": 6
+  },
+  "infoURL": "https://www.topnetwork.org/",
+  "shortName": "top",
+  "chainId": 989,
+  "networkId": 0,
+  "explorers": [
+    {
+      "name": "topscan.dev",
+      "url": "https://www.topscan.io",
+      "standard": "none"
+    }
+  ]
+}

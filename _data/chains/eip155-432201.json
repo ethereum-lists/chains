@@ -1,0 +1,22 @@
+{
+  "name": "Dexalot Testnet",
+  "chain": "DEXALOT",
+  "rpc": ["https://subnets.avax.network/dexalot/testnet/rpc"],
+  "faucets": ["https://sfaucet.dexalot-test.com"],
+  "nativeCurrency": {
+    "name": "Dexalot",
+    "symbol": "ALOT",
+    "decimals": 18
+  },
+  "infoURL": "https://dexalot.com",
+  "shortName": "Dexalot",
+  "chainId": 432201,
+  "networkId": 432201,
+  "explorers": [
+    {
+      "name": "Avalanche Subnet Explorer",
+      "url": "https://subnets.avax.network/dexalot/testnet/explorer",
+      "standard": "EIP3091"
+    }
+  ]
+}

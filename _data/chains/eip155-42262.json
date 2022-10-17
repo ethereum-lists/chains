@@ -1,11 +1,8 @@
 {
-  "name": "Emerald Paratime Mainnet",
+  "name": "Oasis Emerald ParaTime Mainnet",
   "chain": "Emerald",
   "icon": "oasis",
-  "rpc": [
-    "https://emerald.oasis.dev",
-    "wss://emerald.oasis.dev/ws"
-  ],
+  "rpc": ["https://emerald.oasis.dev", "wss://emerald.oasis.dev/ws"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Emerald Rose",
@@ -13,12 +10,14 @@
     "decimals": 18
   },
   "infoURL": "https://docs.oasis.dev/general/developer-resources/overview",
-  "shortName": "oasis",
+  "shortName": "emerald",
   "chainId": 42262,
   "networkId": 42262,
-  "explorers": [{
-    "name": "Emerald Paratime Mainnet Explorer",
-    "url": "https://explorer.emerald.oasis.dev",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "Emerald ParaTime Mainnet Explorer",
+      "url": "https://explorer.emerald.oasis.dev",
+      "standard": "EIP3091"
+    }
+  ]
 }

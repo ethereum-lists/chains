@@ -16,14 +16,16 @@
   ],
   "nativeCurrency": {
     "name": "Kovan Ether",
-    "symbol": "KOV",
+    "symbol": "ETH",
     "decimals": 18
   },
-   "explorers": [{
-    "name": "etherscan",
-    "url": "https://kovan.etherscan.io",
-    "standard": "EIP3091"
-  }],
+  "explorers": [
+    {
+      "name": "etherscan",
+      "url": "https://kovan.etherscan.io",
+      "standard": "EIP3091"
+    }
+  ],
   "infoURL": "https://kovan-testnet.github.io/website",
   "shortName": "kov",
   "chainId": 42,

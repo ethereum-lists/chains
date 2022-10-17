@@ -1,0 +1,23 @@
+{
+  "name": "TOP Mainnet EVM",
+  "chain": "TOP",
+  "icon": "top",
+  "rpc": ["ethapi.topnetwork.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.topnetwork.org/",
+  "shortName": "top_evm",
+  "chainId": 980,
+  "networkId": 0,
+  "explorers": [
+    {
+      "name": "topscan.dev",
+      "url": "https://www.topscan.io",
+      "standard": "none"
+    }
+  ]
+}
