@@ -1,0 +1,23 @@
+{
+  "name": "zkEVM",
+  "title": "Polygon zkEVM Testnet",
+  "chain": "Polygon",
+  "rpc": ["https://public.zkevm-test.net:2083"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://polygon.technology/solutions/polygon-zkevm/",
+  "shortName": "zkEVM",
+  "chainId": 1402,
+  "networkId": 1402,
+  "explorers": [
+    {
+      "name": "polygonscan",
+      "url": "https://public.zkevm-test.net:8443",
+      "standard": "EIP3091"
+    }
+  ]
+}
