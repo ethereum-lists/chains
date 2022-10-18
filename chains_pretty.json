@@ -5907,6 +5907,26 @@
   "networkId": 8724,
   "slip44": 479
 }, {
+  "name": "Alph Network",
+  "chain": "ALPH",
+  "rpc": ["http://rpc.alph.network:8545", "ws://rpc.alph.network:8546"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Alph Network",
+    "symbol": "ALPH",
+    "decimals": 18
+  },
+  "infoURL": "https://alph.network",
+  "shortName": "alph",
+  "chainId": 8738,
+  "networkId": 8738,
+  "explorers": [{
+    "name": "alphscan",
+    "url": "https://explorer.alph.network",
+    "icon": "alphscan",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Ambros Chain Testnet",
   "chain": "ambroschain",
   "rpc": ["https://api.testnet.ambros.network"],

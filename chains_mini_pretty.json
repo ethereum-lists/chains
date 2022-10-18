@@ -4172,6 +4172,19 @@
   "faucets": ["https://testnet-explorer.wolot.io"],
   "infoURL": "https://testnet-explorer.wolot.io"
 }, {
+  "name": "Alph Network",
+  "chainId": 8738,
+  "shortName": "alph",
+  "networkId": 8738,
+  "nativeCurrency": {
+    "name": "Alph Network",
+    "symbol": "ALPH",
+    "decimals": 18
+  },
+  "rpc": ["http://rpc.alph.network:8545", "ws://rpc.alph.network:8546"],
+  "faucets": [],
+  "infoURL": "https://alph.network"
+}, {
   "name": "Ambros Chain Testnet",
   "chainId": 8888,
   "shortName": "ambrostestnet",
