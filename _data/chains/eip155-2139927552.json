@@ -1,0 +1,25 @@
+{
+  "name": "Exorde Network",
+  "chain": "EXORDE",
+  "network": "mainnet",
+  "rpc": [
+    "https://mainnet.skalenodes.com/v1/light-vast-diphda",
+    "wss://mainnet.skalenodes.com/v1/ws/light-vast-diphda"
+  ],
+  "faucets": ["http://faucet.exorde.network/"],
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "infoURL": "https://exorde.network/",
+  "shortName": "exorde-network",
+  "chainId": 2139927552,
+  "networkId": 2139927552,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://light-vast-diphda.explorer.mainnet.skalenodes.com/",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}
