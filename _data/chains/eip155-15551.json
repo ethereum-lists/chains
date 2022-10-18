@@ -1,0 +1,24 @@
+{
+  "name": "LOOP Chain Mainnet",
+  "chain": "LOOP",
+  "rpc": ["https://api.mainnetloop.com", "wss://api.mainnetloop.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Loop",
+    "symbol": "LOOP",
+    "decimals": 18
+  },
+  "infoURL": "https://www.theloopnetwork.org/",
+  "shortName": "loop",
+  "chainId": 15551,
+  "networkId": 15551,
+  "icon": "loop",
+  "explorers": [
+    {
+      "name": "LOOP Explorer",
+      "url": "https://explorer.mainnetloop.com/",
+      "icon": "loopexplorer",
+      "standard": "EIP3091"
+    }
+  ]
+}
