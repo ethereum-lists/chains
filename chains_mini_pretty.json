@@ -4952,6 +4952,19 @@
   "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "infoURL": "https://www.avax.network/"
 }, {
+  "name": "Boba Avax",
+  "chainId": 43288,
+  "shortName": "bobaavax",
+  "networkId": 43288,
+  "nativeCurrency": {
+    "name": "Boba Token",
+    "symbol": "BOBA",
+    "decimals": 18
+  },
+  "rpc": ["https://avax.boba.network", "wss://wss.avax.boba.network", "https://replica.avax.boba.network"],
+  "faucets": [],
+  "infoURL": "https://docs.boba.network/for-developers/network-avalanche"
+}, {
   "name": "Celo Alfajores Testnet",
   "chainId": 44787,
   "shortName": "ALFA",
