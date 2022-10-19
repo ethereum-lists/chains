@@ -2504,6 +2504,36 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Filecoin \u2014 Mainnet",
+  "chain": "FIL",
+  "status": "incubating",
+  "rpc": ["https://api.node.glif.io/rpc/v0"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "filecoin",
+    "symbol": "FIL",
+    "decimals": 18
+  },
+  "infoURL": "https://filecoin.io",
+  "shortName": "filecoin",
+  "icon": "filecoin",
+  "chainId": 314,
+  "networkId": 314,
+  "slip44": 461,
+  "explorers": [{
+    "name": "Filfox",
+    "url": "https://filfox.info/en",
+    "standard": "none"
+  }, {
+    "name": "Filscan",
+    "url": "https://filscan.io",
+    "standard": "none"
+  }, {
+    "name": "Filscout",
+    "url": "https://filscout.io/en",
+    "standard": "none"
+  }]
+}, {
   "name": "KCC Mainnet",
   "chain": "KCC",
   "rpc": ["https://rpc-mainnet.kcc.network", "wss://rpc-ws-mainnet.kcc.network"],
@@ -4985,6 +5015,24 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Filecoin \u2014 Buildernet",
+  "chain": "FIL",
+  "status": "incubating",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "filecoin",
+    "symbol": "FIL",
+    "decimals": 18
+  },
+  "infoURL": "https://filecoin.io",
+  "shortName": "filecoin-buildernet",
+  "icon": "filecoin",
+  "chainId": 3141,
+  "networkId": 3141,
+  "slip44": 1,
+  "explorers": []
+}, {
   "name": "ZCore Testnet",
   "chain": "Beach",
   "icon": "zcore",
@@ -6762,6 +6810,28 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Filecoin \u2014 Wallaby testnet",
+  "chain": "FIL",
+  "status": "incubating",
+  "rpc": ["https://wallaby.node.glif.io/rpc/v0"],
+  "faucets": ["https://wallaby.network/#faucet"],
+  "nativeCurrency": {
+    "name": "testnet filecoin",
+    "symbol": "tFIL",
+    "decimals": 18
+  },
+  "infoURL": "https://filecoin.io",
+  "shortName": "filecoin-wallaby",
+  "icon": "filecoin",
+  "chainId": 31415,
+  "networkId": 31415,
+  "slip44": 1,
+  "explorers": [{
+    "name": "Filscan",
+    "url": "https://wallaby.filscan.io",
+    "standard": "none"
+  }]
+}, {
   "name": "Bitgert Mainnet",
   "chain": "Brise",
   "rpc": ["https://rpc.icecreamswap.com", "https://mainnet-rpc.brisescan.com", "https://chainrpc.com", "https://serverrpc.com"],
@@ -8412,6 +8482,32 @@
   "networkId": 281121,
   "explorers": []
 }, {
+  "name": "Filecoin \u2014 Calibration testnet",
+  "chain": "FIL",
+  "status": "incubating",
+  "rpc": ["https://api.calibration.node.glif.io/rpc/v0"],
+  "faucets": ["https://faucet.calibration.fildev.network/"],
+  "nativeCurrency": {
+    "name": "testnet filecoin",
+    "symbol": "tFIL",
+    "decimals": 18
+  },
+  "infoURL": "https://filecoin.io",
+  "shortName": "filecoin-calibration",
+  "icon": "filecoin",
+  "chainId": 314159,
+  "networkId": 314159,
+  "slip44": 1,
+  "explorers": [{
+    "name": "Filscan",
+    "url": "https://calibration.filscan.io",
+    "standard": "none"
+  }, {
+    "name": "Filscout",
+    "url": "https://calibration.filscout.com/en",
+    "standard": "none"
+  }]
+}, {
   "name": "Polis Testnet",
   "chain": "Sparta",
   "icon": "polis",
@@ -8939,6 +9035,24 @@
     "standard": "none"
   }]
 }, {
+  "name": "Filecoin \u2014 Butterfly testnet",
+  "chain": "FIL",
+  "status": "incubating",
+  "rpc": [],
+  "faucets": ["https://faucet.butterfly.fildev.network"],
+  "nativeCurrency": {
+    "name": "testnet filecoin",
+    "symbol": "tFIL",
+    "decimals": 18
+  },
+  "infoURL": "https://filecoin.io",
+  "shortName": "filecoin-butterfly",
+  "icon": "filecoin",
+  "chainId": 3141592,
+  "networkId": 3141592,
+  "slip44": 1,
+  "explorers": []
+}, {
   "name": "Musicoin",
   "chain": "MUSIC",
   "rpc": ["https://mewapi.musicoin.tw"],
@@ -9156,6 +9270,24 @@
   "chainId": 28945486,
   "networkId": 28945486,
   "slip44": 344
+}, {
+  "name": "Filecoin \u2014 Local testnet",
+  "chain": "FIL",
+  "status": "incubating",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "testnet filecoin",
+    "symbol": "tFIL",
+    "decimals": 18
+  },
+  "infoURL": "https://filecoin.io",
+  "shortName": "filecoin-local",
+  "icon": "filecoin",
+  "chainId": 31415926,
+  "networkId": 31415926,
+  "slip44": 1,
+  "explorers": []
 }, {
   "name": "Joys Digital Mainnet",
   "chain": "JOYS",

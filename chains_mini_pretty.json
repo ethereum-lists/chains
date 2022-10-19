@@ -1780,6 +1780,19 @@
   "faucets": ["https://faucet.gimlu.com/gnosis"],
   "infoURL": "https://www.xdaichain.com/for-developers/optimism-optimistic-rollups-on-gc"
 }, {
+  "name": "Filecoin \u2014 Mainnet",
+  "chainId": 314,
+  "shortName": "filecoin",
+  "networkId": 314,
+  "nativeCurrency": {
+    "name": "filecoin",
+    "symbol": "FIL",
+    "decimals": 18
+  },
+  "rpc": ["https://api.node.glif.io/rpc/v0"],
+  "faucets": [],
+  "infoURL": "https://filecoin.io"
+}, {
   "name": "KCC Mainnet",
   "chainId": 321,
   "shortName": "kcs",
@@ -3561,6 +3574,19 @@
   "faucets": [],
   "infoURL": "https://orlchain.com"
 }, {
+  "name": "Filecoin \u2014 Buildernet",
+  "chainId": 3141,
+  "shortName": "filecoin-buildernet",
+  "networkId": 3141,
+  "nativeCurrency": {
+    "name": "filecoin",
+    "symbol": "FIL",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://filecoin.io"
+}, {
   "name": "ZCore Testnet",
   "chainId": 3331,
   "shortName": "zcrbeach",
@@ -4757,6 +4783,19 @@
   "faucets": [],
   "infoURL": "https://gochain.io"
 }, {
+  "name": "Filecoin \u2014 Wallaby testnet",
+  "chainId": 31415,
+  "shortName": "filecoin-wallaby",
+  "networkId": 31415,
+  "nativeCurrency": {
+    "name": "testnet filecoin",
+    "symbol": "tFIL",
+    "decimals": 18
+  },
+  "rpc": ["https://wallaby.node.glif.io/rpc/v0"],
+  "faucets": ["https://wallaby.network/#faucet"],
+  "infoURL": "https://filecoin.io"
+}, {
   "name": "Bitgert Mainnet",
   "chainId": 32520,
   "shortName": "Brise",
@@ -5849,6 +5888,19 @@
   "faucets": [],
   "infoURL": "https://digitalnext.business/SocialSmartChain"
 }, {
+  "name": "Filecoin \u2014 Calibration testnet",
+  "chainId": 314159,
+  "shortName": "filecoin-calibration",
+  "networkId": 314159,
+  "nativeCurrency": {
+    "name": "testnet filecoin",
+    "symbol": "tFIL",
+    "decimals": 18
+  },
+  "rpc": ["https://api.calibration.node.glif.io/rpc/v0"],
+  "faucets": ["https://faucet.calibration.fildev.network/"],
+  "infoURL": "https://filecoin.io"
+}, {
   "name": "Polis Testnet",
   "chainId": 333888,
   "shortName": "sparta",
@@ -6200,6 +6252,19 @@
   "faucets": ["https://devnet2faucet.platon.network/faucet"],
   "infoURL": "https://www.platon.network"
 }, {
+  "name": "Filecoin \u2014 Butterfly testnet",
+  "chainId": 3141592,
+  "shortName": "filecoin-butterfly",
+  "networkId": 3141592,
+  "nativeCurrency": {
+    "name": "testnet filecoin",
+    "symbol": "tFIL",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": ["https://faucet.butterfly.fildev.network"],
+  "infoURL": "https://filecoin.io"
+}, {
   "name": "Musicoin",
   "chainId": 7762959,
   "shortName": "music",
@@ -6355,6 +6420,19 @@
   "rpc": ["https://rpc.auxilium.global"],
   "faucets": [],
   "infoURL": "https://auxilium.global"
+}, {
+  "name": "Filecoin \u2014 Local testnet",
+  "chainId": 31415926,
+  "shortName": "filecoin-local",
+  "networkId": 31415926,
+  "nativeCurrency": {
+    "name": "testnet filecoin",
+    "symbol": "tFIL",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://filecoin.io"
 }, {
   "name": "Joys Digital Mainnet",
   "chainId": 35855456,
