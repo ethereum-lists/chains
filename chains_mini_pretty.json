@@ -2170,6 +2170,19 @@
   "faucets": [],
   "infoURL": "https://acala.network"
 }, {
+  "name": "Metis Goerli Testnet",
+  "chainId": 599,
+  "shortName": "metis-goerli",
+  "networkId": 599,
+  "nativeCurrency": {
+    "name": "Goerli Metis",
+    "symbol": "METIS",
+    "decimals": 18
+  },
+  "rpc": ["https://goerli.gateway.metisdevops.link"],
+  "faucets": ["https://goerli.faucet.metisdevops.link"],
+  "infoURL": "https://www.metis.io"
+}, {
   "name": "Meshnyan testnet",
   "chainId": 600,
   "shortName": "mesh-chain-testnet",
