@@ -5875,6 +5875,32 @@
   "faucets": ["https://faucet.polis.tech"],
   "infoURL": "https://polis.tech"
 }, {
+  "name": "Metal C-Chain",
+  "chainId": 381931,
+  "shortName": "metal",
+  "networkId": 381931,
+  "nativeCurrency": {
+    "name": "Metal",
+    "symbol": "METAL",
+    "decimals": 18
+  },
+  "rpc": ["https://api.metalblockchain.org/ext/bc/C/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.metalblockchain.org/"
+}, {
+  "name": "Metal Tahoe C-Chain",
+  "chainId": 381932,
+  "shortName": "Tahoe",
+  "networkId": 381932,
+  "nativeCurrency": {
+    "name": "Metal",
+    "symbol": "METAL",
+    "decimals": 18
+  },
+  "rpc": ["https://tahoe.metalblockchain.org/ext/bc/C/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.metalblockchain.org/"
+}, {
   "name": "Kekchain",
   "chainId": 420666,
   "shortName": "KEK",
