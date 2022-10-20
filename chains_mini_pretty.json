@@ -3262,6 +3262,19 @@
   "faucets": [],
   "infoURL": "https://milkomeda.com"
 }, {
+  "name": "Milkomeda A1 Mainnet",
+  "chainId": 2002,
+  "shortName": "milkALGO",
+  "networkId": 2002,
+  "nativeCurrency": {
+    "name": "milkALGO",
+    "symbol": "mALGO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet-algorand-rollup.a1.milkomeda.com", "wss://rpc-mainnet-algorand-rollup.a1.milkomeda.com/ws"],
+  "faucets": [],
+  "infoURL": "https://milkomeda.com"
+}, {
   "name": "CloudWalk Testnet",
   "chainId": 2008,
   "shortName": "cloudwalk_testnet",
