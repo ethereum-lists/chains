@@ -1,22 +1,22 @@
 {
-    "name": "EXZO Testnet",
-    "chain": "XZO",
-    "rpc": ["https://testnet.exzo.technology"],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "EXZO",
-      "symbol": "XZO",
-      "decimals": 18
-    },
-    "infoURL": "https://www.exzo.network",
-    "shortName": "xzo",
-    "chainId": 2370,
-    "networkId": 2370,
-    "icon": "exzo",
-    "explorers": [{
-      "name": "ExzoScan",
-      "url": "https://testnet.exzoscan.io/",
-      "icon": "exzoscan",
-      "standard": "EIP3091"
-    }]
-  }
+  "name": "EXZO Testnet",
+  "chain": "XZO",
+  "rpc": ["https://testnet.exzo.technology"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EXZO",
+    "symbol": "XZO",
+    "decimals": 18
+  },
+  "infoURL": "https://www.exzo.network",
+  "shortName": "xzo",
+  "chainId": 2370,
+  "networkId": 2370,
+  "icon": "exzo",
+  "explorers": [{
+    "name": "ExzoScan",
+    "url": "https://testnet.exzoscan.io/",
+    "icon": "exzoscan",
+    "standard": "EIP3091"
+  }]
+}
