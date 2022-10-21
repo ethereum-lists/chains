@@ -1,18 +1,22 @@
 {
-  "name": "Smart Bitcoin Cash Testnet",
-  "chain": "smartBCHTest",
-  "rpc": [
-    "https://rpc-testnet.smartbch.org",
-    "https://smartbch.devops.cash/testnet"
-  ],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "Bitcoin Cash Test Token",
-    "symbol": "BCHT",
-    "decimals": 18
-  },
-  "infoURL": "http://smartbch.org/",
-  "shortName": "smartbchtest",
-  "chainId": 10001,
-  "networkId": 10001
+	"name": "EthereumPoW Mainnet",
+	"chain": "ETHW",
+	"rpc": [
+		"https://mainnet.ethereumpow.org"
+	],
+	"faucets": [],
+	"nativeCurrency": {
+		"name": "ETHW",
+		"symbol": "ETHW",
+		"decimals": 18
+	},
+	"infoURL": "https://ethereumpow.org",
+	"shortName": "ethw",
+	"chainId": 10001,
+	"networkId": 10001,
+	"explorers": [{
+		"name": "ethwscan",
+		"url": "https://mainnet.ethwscan.com",
+		"standard": "EIP3091"
+	}]
 }
