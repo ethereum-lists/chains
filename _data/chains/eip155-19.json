@@ -4,6 +4,7 @@
   "icon": "songbird",
   "rpc": [
     "https://songbird.towolabs.com/rpc",
+    "https://songbird-api.flare.network/ext/C/rpc",
     "https://sgb.ftso.com.au/ext/bc/C/rpc",
     "https://sgb.lightft.so/rpc",
     "https://sgb-rpc.ftso.eu"
@@ -19,9 +20,11 @@
   "chainId": 19,
   "networkId": 19,
 
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://songbird-explorer.flare.network",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://songbird-explorer.flare.network",
+      "standard": "EIP3091"
+    }
+  ]
 }

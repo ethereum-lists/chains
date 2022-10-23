@@ -1,0 +1,29 @@
+{
+  "name": "Kava EVM",
+  "chain": "KAVA",
+  "rpc": [
+    "https://evm.kava.io",
+    "https://evm2.kava.io",
+    "wss://wevm.kava.io",
+    "wss://wevm2.kava.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Kava",
+    "symbol": "KAVA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.kava.io",
+  "shortName": "kava",
+  "chainId": 2222,
+  "networkId": 2222,
+  "icon": "kava",
+  "explorers": [
+    {
+      "name": "Kava EVM Explorer",
+      "url": "https://explorer.kava.io",
+      "standard": "EIP3091",
+      "icon": "kava"
+    }
+  ]
+}

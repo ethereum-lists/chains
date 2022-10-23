@@ -8,7 +8,6 @@ The source data is in _data/chains. Each chain has its own file with the filenam
 {
   "name": "Ethereum Mainnet",
   "chain": "ETH",
-  "network": "mainnet",
   "rpc": [
     "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
     "https://api.mycryptoapi.com/eth"
@@ -50,7 +49,7 @@ when an icon is used in either the network or a explorer there must be a json in
 
 where:
  * the URL must be a IPFS url that is publicly resolveable
- * width and height are optional - but when one is there then the other must be there also
+ * width and height are positive integers
  * format is either "png", "jpg" or "svg"
 
 If the chain is an L2 or a shard of another chain you can link it to the parent chain like this:
@@ -83,16 +82,25 @@ There are also aggregated json files with all chains automatically assembled:
  If different chains have the same chainID we list the one with the oldest genesis.
 
 ## Usages
-
- * [chainlist.org](https://chainlist.org) or [networklist-org.vercel.app](https://networklist-org.vercel.app) as a staging version with a more up-to-date list
- * [chainid.network](https://chainid.network)
+### Wallets
  * [WallETH](https://walleth.org)
  * [TREZOR](https://trezor.io)
+
+### Explorers
+ * [Otterscan](https://otterscan.io)
+
+### EIPs
+ * EIP-155
+ * EIP-3014
+ * EIP-3770
+ * EIP-4527
+
+### Listing sites 
+ * [chainlist.org](https://chainlist.org) or [networklist-org.vercel.app](https://networklist-org.vercel.app) as a staging version with a more up-to-date list
+ * [chainid.network](https://chainid.network)
  * [networks.vercel.app](https://networks.vercel.app)
  * [eth-chains](https://github.com/taylorjdawson/eth-chains)
  * [EVM-BOX](https://github.com/izayl/evm-box)
- * [FaucETH](https://github.com/komputing/FaucETH)
- * [Sourcify playground](https://playground.sourcify.dev)
  * [chaindirectory.xyz](https://www.chaindirectory.xyz)
  * [chain-list.org](https://chain-list.org)
  * [DefiLlama's chainlist](https://chainlist.defillama.com/)
@@ -104,5 +112,12 @@ There are also aggregated json files with all chains automatically assembled:
  * [chainmap.io](https://chainmap.io) 
  * [chainlist.in](https://www.chainlist.in)
  * [chainz.me](https://chainz.me)
- * [Otterscan](https://otterscan.io)
+ * [Chainlink docs](https://docs.chain.link/)
+ * [Wagmi compatible chain configurations](https://spenhouet.com/chains)
+
+### Other
+ * [FaucETH](https://github.com/komputing/FaucETH)
+ * [Sourcify playground](https://playground.sourcify.dev)
+
+
  * Your project - contact us to add it here!

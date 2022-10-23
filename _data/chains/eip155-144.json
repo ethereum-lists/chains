@@ -1,0 +1,24 @@
+{
+  "name": "PHI Network v2",
+  "chain": "PHI",
+  "rpc": ["https://connect.phi.network", ""],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PHI",
+    "symbol": "Φ",
+    "decimals": 18
+  },
+  "infoURL": "https://phi.network",
+  "shortName": "PHI",
+  "chainId": 144,
+  "networkId": 144,
+  "icon": "phi",
+  "explorers": [
+    {
+      "name": "Phiscan",
+      "url": "https://phiscan.com",
+      "icon": "phi",
+      "standard": "none"
+    }
+  ]
+}
