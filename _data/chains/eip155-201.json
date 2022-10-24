@@ -1,0 +1,22 @@
+{
+  "name": "MOAC testnet",
+  "chain": "MOAC",
+  "rpc": ["http://gateway.moac.io/testnet:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MOAC",
+    "symbol": "MOAC",
+    "decimals": 18
+  },
+  "infoURL": "https://moac.io",
+  "shortName": "moac",
+  "chainId": 201,
+  "networkId": 201,
+  "explorers": [
+    {
+      "name": "moac testnet explorer",
+      "url": "https://testnet.moac.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
