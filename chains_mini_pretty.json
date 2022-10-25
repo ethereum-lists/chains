@@ -4497,6 +4497,32 @@
   "faucets": [],
   "infoURL": "https://www.0xtrade.finance/"
 }, {
+  "name": "Numbers Mainnet",
+  "chainId": 10507,
+  "shortName": "Jade",
+  "networkId": 10507,
+  "nativeCurrency": {
+    "name": "NUM Token",
+    "symbol": "NUM",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnetrpc.num.network"],
+  "faucets": [],
+  "infoURL": "https://numbersprotocol.io"
+}, {
+  "name": "Numbers Testnet",
+  "chainId": 10508,
+  "shortName": "Snow",
+  "networkId": 10508,
+  "nativeCurrency": {
+    "name": "NUM Token",
+    "symbol": "NUM",
+    "decimals": 18
+  },
+  "rpc": ["https://testnetrpc.num.network"],
+  "faucets": ["https://faucet.avax.network/?subnet=num", "https://faucet.num.network"],
+  "infoURL": "https://numbersprotocol.io"
+}, {
   "name": "CryptoCoinPay",
   "chainId": 10823,
   "shortName": "CCP",
