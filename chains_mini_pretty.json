@@ -4302,6 +4302,19 @@
   "faucets": [],
   "infoURL": "https://test.ambros.network"
 }, {
+  "name": "Vyvo Smart Chain",
+  "chainId": 8889,
+  "shortName": "vsc",
+  "networkId": 8889,
+  "nativeCurrency": {
+    "name": "VSC",
+    "symbol": "VSC",
+    "decimals": 18
+  },
+  "rpc": ["https://vsc-dataseed.vyvo.org:8889"],
+  "faucets": [],
+  "infoURL": "https://vsc-dataseed.vyvo.org"
+}, {
   "name": "Mammoth Mainnet",
   "chainId": 8898,
   "shortName": "mmt",
