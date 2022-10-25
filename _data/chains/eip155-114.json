@@ -1,7 +1,9 @@
 {
   "name": "Flare Testnet Coston2",
   "chain": "FLR",
-  "rpc": ["https://coston2-api.flare.network/ext/C/rpc"],
+  "rpc": [
+    "https://coston2-api.flare.network/ext/C/rpc"
+  ],
   "faucets": [
     "https://coston2-faucet.towolabs.com"
   ],
