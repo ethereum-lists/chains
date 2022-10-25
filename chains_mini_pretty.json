@@ -5082,6 +5082,19 @@
   "faucets": [],
   "infoURL": "https://rei.network/"
 }, {
+  "name": "Bifrost Testnet1",
+  "chainId": 49088,
+  "shortName": "BIT",
+  "networkId": 49088,
+  "nativeCurrency": {
+    "name": "Bifrost",
+    "symbol": "BFC",
+    "decimals": 18
+  },
+  "rpc": ["https://public-01.testnet.thebifrost.io/rpc", "https://public-02.testnet.thebifrost.io/rpc", "https://private.chain.thebifrost.io/rpc"],
+  "faucets": [],
+  "infoURL": "https://testnet.thebifrost.io"
+}, {
   "name": "Energi Testnet",
   "chainId": 49797,
   "shortName": "tnrg",
