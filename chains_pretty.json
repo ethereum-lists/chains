@@ -3335,6 +3335,26 @@
   "networkId": 808,
   "explorers": []
 }, {
+  "name": "Qitmeer",
+  "chain": "MEER",
+  "rpc": ["https://evm-dataseed3.meerscan.io", "https://evm-dataseed1.meerscan.com", "https://evm-dataseed.meerscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Qitmeer",
+    "symbol": "MEER",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/Qitmeer",
+  "shortName": "meer",
+  "chainId": 813,
+  "networkId": 813,
+  "slip44": 813,
+  "explorers": [{
+    "name": "meerscan",
+    "url": "https://evm.meerscan.com",
+    "standard": "none"
+  }]
+}, {
   "name": "Callisto Mainnet",
   "chain": "CLO",
   "rpc": ["https://rpc.callisto.network/"],
@@ -5921,6 +5941,25 @@
     "standard": "EIP3091"
   }],
   "redFlags": ["reusedChainId"]
+}, {
+  "name": "Qitmeer Network Testnet",
+  "chain": "MEER",
+  "rpc": ["https://explorer.qitmeer.io/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Qitmeer Testnet",
+    "symbol": "MEER-T",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/Qitmeer",
+  "shortName": "meertest",
+  "chainId": 8131,
+  "networkId": 8131,
+  "explorers": [{
+    "name": "meerscan testnet",
+    "url": "https://testnet.qng.meerscan.io",
+    "standard": "none"
+  }]
 }, {
   "name": "Klaytn Mainnet Cypress",
   "chain": "KLAY",

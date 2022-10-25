@@ -2365,6 +2365,19 @@
   "faucets": [],
   "infoURL": "https://portalfantasy.io"
 }, {
+  "name": "Qitmeer",
+  "chainId": 813,
+  "shortName": "meer",
+  "networkId": 813,
+  "nativeCurrency": {
+    "name": "Qitmeer",
+    "symbol": "MEER",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-dataseed3.meerscan.io", "https://evm-dataseed1.meerscan.com", "https://evm-dataseed.meerscan.com"],
+  "faucets": [],
+  "infoURL": "https://github.com/Qitmeer"
+}, {
   "name": "Callisto Mainnet",
   "chainId": 820,
   "shortName": "clo",
@@ -4158,6 +4171,19 @@
   "rpc": ["https://liberty10.shardeum.org/"],
   "faucets": ["https://faucet.liberty10.shardeum.org"],
   "infoURL": "https://docs.shardeum.org/"
+}, {
+  "name": "Qitmeer Network Testnet",
+  "chainId": 8131,
+  "shortName": "meertest",
+  "networkId": 8131,
+  "nativeCurrency": {
+    "name": "Qitmeer Testnet",
+    "symbol": "MEER-T",
+    "decimals": 18
+  },
+  "rpc": ["https://explorer.qitmeer.io/rpc"],
+  "faucets": [],
+  "infoURL": "https://github.com/Qitmeer"
 }, {
   "name": "Klaytn Mainnet Cypress",
   "chainId": 8217,
