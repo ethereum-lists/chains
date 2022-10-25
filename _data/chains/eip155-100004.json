@@ -5,8 +5,7 @@
     "https://mainnet-s3-ethapi.quarkchain.io",
     "http://eth-jrpc.mainnet.quarkchain.io:39003"
   ],
-  "faucets": [
-  ],
+  "faucets": [],
   "nativeCurrency": {
     "name": "QKC",
     "symbol": "QKC",
@@ -20,9 +19,11 @@
     "chain": "eip155-100000",
     "type": "shard"
   },
-  "explorers": [{
-    "name": "quarkchain-mainnet",
-    "url": "https://mainnet.quarkchain.io/3",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "quarkchain-mainnet",
+      "url": "https://mainnet.quarkchain.io/3",
+      "standard": "EIP3091"
+    }
+  ]
 }

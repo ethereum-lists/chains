@@ -1,9 +1,7 @@
 {
   "name": "Darwinia Pangolin Testnet",
   "chain": "pangolin",
-  "rpc": [
-    "https://pangolin-rpc.darwinia.network"
-  ],
+  "rpc": ["https://pangolin-rpc.darwinia.network"],
   "faucets": [
     "https://docs.crab.network/dvm/wallets/dvm-metamask#apply-for-the-test-token"
   ],
@@ -16,9 +14,11 @@
   "shortName": "pangolin",
   "chainId": 43,
   "networkId": 43,
-  "explorers": [{
-    "name": "subscan",
-    "url": "https://pangolin.subscan.io",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "subscan",
+      "url": "https://pangolin.subscan.io",
+      "standard": "none"
+    }
+  ]
 }

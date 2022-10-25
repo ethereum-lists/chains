@@ -1,10 +1,7 @@
 {
   "name": "Syscoin Mainnet",
   "chain": "SYS",
-  "rpc": [
-    "https://rpc.syscoin.org",
-    "wss://rpc.syscoin.org/wss"
-  ],
+  "rpc": ["https://rpc.syscoin.org", "wss://rpc.syscoin.org/wss"],
   "faucets": ["https://faucet.syscoin.org"],
   "nativeCurrency": {
     "name": "Syscoin",
