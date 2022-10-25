@@ -10,7 +10,11 @@ for(const chainFile of chainFiles){
     const fileData = fs.readFileSync(fileLocation,'utf8')
     const fileDataJson = JSON.parse(fileData)
     const chainIdFromFileName = chainFile.match(/eip155-(\d+)\.json/)[1]
-    if(chainIdFromFileName != fileDataJson.chainId){
+    const parsedChainId = parseInt(chainIdFromFileName, 10);
+    if(chainIdFromFileName != parsedChainId.toString()){
+        throw new Error(`File name does not match parsed ChainID ${parsedChainId} in ${chainFile}`)
+    }
+    if(parsedChainId !== fileDataJson.chainId){
         throw new Error(`File Name does not match with ChainID in ${chainFile}`)
     }
     const valid = ajv.validate(schema, fileDataJson)
