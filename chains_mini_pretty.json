@@ -4770,6 +4770,19 @@
   "faucets": [],
   "infoURL": "https://goexosphere.com"
 }, {
+  "name": "Proof Of Memes",
+  "chainId": 18159,
+  "shortName": "pom",
+  "networkId": 18159,
+  "nativeCurrency": {
+    "name": "Proof Of Memes",
+    "symbol": "POM",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.memescan.io"],
+  "faucets": [],
+  "infoURL": "https://proofofmemes.org"
+}, {
   "name": "BTCIX Network",
   "chainId": 19845,
   "shortName": "btcix",
