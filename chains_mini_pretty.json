@@ -3340,18 +3340,44 @@
   "faucets": [],
   "infoURL": "https://cloudwalk.io"
 }, {
-  "name": "420coin",
-  "chainId": 2020,
-  "shortName": "420",
-  "networkId": 2020,
+  "name": "PublicMint Devnet",
+  "chainId": 2018,
+  "shortName": "pmint_dev",
+  "networkId": 2018,
   "nativeCurrency": {
-    "name": "Fourtwenty",
-    "symbol": "420",
+    "name": "USD",
+    "symbol": "USD",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.dev.publicmint.io:8545"],
   "faucets": [],
-  "infoURL": "https://420integrated.com"
+  "infoURL": "https://publicmint.com"
+}, {
+  "name": "PublicMint Testnet",
+  "chainId": 2019,
+  "shortName": "pmint_test",
+  "networkId": 2019,
+  "nativeCurrency": {
+    "name": "USD",
+    "symbol": "USD",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.tst.publicmint.io:8545"],
+  "faucets": [],
+  "infoURL": "https://publicmint.com"
+}, {
+  "name": "PublicMint Mainnet",
+  "chainId": 2020,
+  "shortName": "pmint",
+  "networkId": 2020,
+  "nativeCurrency": {
+    "name": "USD",
+    "symbol": "USD",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.publicmint.io:8545"],
+  "faucets": [],
+  "infoURL": "https://publicmint.com"
 }, {
   "name": "Edgeware Mainnet",
   "chainId": 2021,
