@@ -248,7 +248,7 @@
 }, {
   "name": "Elastos Smart Chain",
   "chainId": 20,
-  "shortName": "elaeth",
+  "shortName": "esc",
   "networkId": 20,
   "nativeCurrency": {
     "name": "Elastos",
@@ -259,18 +259,18 @@
   "faucets": ["https://faucet.elastos.org/"],
   "infoURL": "https://www.elastos.org/"
 }, {
-  "name": "ELA-ETH-Sidechain Testnet",
+  "name": "Elastos Smart Chain Testnet",
   "chainId": 21,
-  "shortName": "elaetht",
+  "shortName": "esct",
   "networkId": 21,
   "nativeCurrency": {
     "name": "Elastos",
     "symbol": "tELA",
     "decimals": 18
   },
-  "rpc": ["https://rpc.elaeth.io"],
-  "faucets": ["https://faucet.elaeth.io/"],
-  "infoURL": "https://elaeth.io/"
+  "rpc": ["https://api-testnet.elastos.io/eth"],
+  "faucets": ["https://esc-faucet.elastos.io/"],
+  "infoURL": "https://www.elastos.org/"
 }, {
   "name": "ELA-DID-Sidechain Mainnet",
   "chainId": 22,
