@@ -1,0 +1,22 @@
+{
+  "name": "Mantle Görli Testnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc.goerli.mantlenetwork.io"],
+  "faucets": ["https://faucet.goerli.mantlenetwork.io"],
+  "nativeCurrency": {
+    "name": "Görli BitDAO",
+    "symbol": "BIT",
+    "decimals": 18
+  },
+  "infoURL": "https://mantlenetwork.io",
+  "shortName": "mantle",
+  "chainId": 5001,
+  "networkId": 5001,
+  "explorers": [
+    {
+      "name": "Mantle Görli Explorer",
+      "url": "https://explorer.goerli.mantlenetwork.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
