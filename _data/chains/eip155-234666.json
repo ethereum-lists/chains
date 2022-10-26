@@ -1,12 +1,8 @@
 {
   "name": "Haymo Testnet",
   "chain": "tHYM",
-  "network": "testnet",
-  "rpc": [
-    "https://testnet1.haymo.network"
-  ],
-  "faucets": [
-  ],
+  "rpc": ["https://testnet1.haymo.network"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "HAYMO",
     "symbol": "HYM",

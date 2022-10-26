@@ -2,9 +2,7 @@
   "name": "Shyft Mainnet",
   "chain": "SHYFT",
   "icon": "shyft",
-  "rpc": [
-    "https://rpc.shyft.network/"
-  ],
+  "rpc": ["https://rpc.shyft.network/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Shyft",
@@ -16,9 +14,11 @@
   "chainId": 7341,
   "networkId": 7341,
   "slip44": 2147490989,
-  "explorers": [{
-    "name": "Shyft BX",
-    "url": "https://bx.shyft.network",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "Shyft BX",
+      "url": "https://bx.shyft.network",
+      "standard": "EIP3091"
+    }
+  ]
 }

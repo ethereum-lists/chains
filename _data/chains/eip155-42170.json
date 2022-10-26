@@ -9,9 +9,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [
-    "https://nova.arbitrum.io/rpc"
-  ],
+  "rpc": ["https://nova.arbitrum.io/rpc"],
   "faucets": [],
   "explorers": [
     {
@@ -23,8 +21,8 @@
   ],
   "infoURL": "https://arbitrum.io",
   "parent": {
-     "type" : "L2",
-     "chain": "eip155-1",
-     "bridges": [ {"url":"https://bridge.arbitrum.io"} ]
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.arbitrum.io" }]
   }
 }

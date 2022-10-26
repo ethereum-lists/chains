@@ -1,9 +1,7 @@
 {
   "name": "Crypto Emergency",
   "chain": "CEM",
-  "rpc": [
-    "https://cemchain.com"
-  ],
+  "rpc": ["https://cemchain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Crypto Emergency",
@@ -14,9 +12,11 @@
   "shortName": "cem",
   "chainId": 193,
   "networkId": 193,
-  "explorers": [{
-    "name": "cemscan",
-    "url": "https://cemscan.com",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "cemscan",
+      "url": "https://cemscan.com",
+      "standard": "EIP3091"
+    }
+  ]
 }

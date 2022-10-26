@@ -1,11 +1,7 @@
 {
   "name": "Bitcoin EVM",
   "chain": "Bitcoin EVM",
-  "network": "mainnet",
-  "rpc": [
-    "https://connect.bitcoinevm.com",
-    ""
-  ],
+  "rpc": ["https://connect.bitcoinevm.com", ""],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin",
@@ -17,10 +13,12 @@
   "chainId": 2203,
   "networkId": 2203,
   "icon": "ebtc",
-  "explorers": [{
-    "name": "Explorer",
-    "url": "https://explorer.bitcoinevm.com",
-    "icon": "ebtc",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "Explorer",
+      "url": "https://explorer.bitcoinevm.com",
+      "icon": "ebtc",
+      "standard": "none"
+    }
+  ]
 }
