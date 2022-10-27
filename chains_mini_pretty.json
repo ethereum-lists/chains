@@ -4913,6 +4913,19 @@
   "faucets": ["http://faucet.oasischain.io"],
   "infoURL": "https://scan.oasischain.io"
 }, {
+  "name": "Optimism Bedrock: Goerli Alpha Testnet",
+  "chainId": 28528,
+  "shortName": "obgor",
+  "networkId": 28528,
+  "nativeCurrency": {
+    "name": "Görli Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://alpha-1-replica-0.bedrock-goerli.optimism.io", "https://alpha-1-replica-1.bedrock-goerli.optimism.io", "https://alpha-1-replica-2.bedrock-goerli.optimism.io", "https://alpha-1-replica-2.bedrock-goerli.optimism.io"],
+  "faucets": [],
+  "infoURL": "https://community.optimism.io/docs/developers/bedrock"
+}, {
   "name": "Piece testnet",
   "chainId": 30067,
   "shortName": "Piece",
