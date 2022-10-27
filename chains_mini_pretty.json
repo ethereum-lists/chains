@@ -2807,6 +2807,19 @@
   "faucets": [],
   "infoURL": "https://www.metis.io"
 }, {
+  "name": "WEMIX3.0 Mainnet",
+  "chainId": 1111,
+  "shortName": "wemix",
+  "networkId": 1111,
+  "nativeCurrency": {
+    "name": "WEMIX",
+    "symbol": "WEMIX",
+    "decimals": 18
+  },
+  "rpc": ["https://api.wemix.com", "wss://ws.wemix.com"],
+  "faucets": [],
+  "infoURL": "https://wemix.com"
+}, {
   "name": "WEMIX3.0 Testnet",
   "chainId": 1112,
   "shortName": "twemix",
