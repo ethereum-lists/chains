@@ -1,8 +1,8 @@
 {
-  "name": "PublicMint Mainnet",
-  "title": "Public Mint Mainnet",
+  "name": "PublicMint Devnet",
+  "title": "Public Mint Devnet",
   "chain": "PublicMint",
-  "rpc": ["https://rpc.publicmint.io:8545"],
+  "rpc": ["https://rpc.dev.publicmint.io:8545"],
   "faucets": [],
   "nativeCurrency": {
     "name": "USD",
@@ -10,14 +10,14 @@
     "decimals": 18
   },
   "infoURL": "https://publicmint.com",
-  "shortName": "pmint",
-  "chainId": 2020,
-  "networkId": 2020,
+  "shortName": "pmint_dev",
+  "chainId": 2018,
+  "networkId": 2018,
   "slip44": 60,
   "explorers": [
     {
       "name": "PublicMint Explorer",
-      "url": "https://explorer.publicmint.io",
+      "url": "https://explorer.dev.publicmint.io",
       "standard": "EIP3091"
     }
   ]
