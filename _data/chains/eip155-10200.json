@@ -2,7 +2,10 @@
   "name": "Chiado Testnet",
   "chain": "CHI",
   "icon": "gnosis",
-  "rpc": ["https://rpc.chiadochain.net","https://rpc.eu-central-2.gateway.fm/v3/gnosis/archival/chiado"],
+  "rpc": [
+    "https://rpc.chiadochain.net",
+    "https://rpc.eu-central-2.gateway.fm/v3/gnosis/archival/chiado"
+  ],
   "faucets": ["https://gnosisfaucet.com"],
   "nativeCurrency": {
     "name": "Chiado xDAI",
