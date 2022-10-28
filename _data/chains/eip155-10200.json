@@ -6,7 +6,9 @@
   "rpc": [
     "https://rpc.chiadochain.net"
   ],
-  "faucets": ["https://gnosisfaucet.com"],
+  "faucets": [
+    "https://gnosisfaucet.com"
+  ],
   "nativeCurrency": {
     "name": "Chiado xDAI",
     "symbol": "xDAI",
@@ -16,10 +18,12 @@
   "shortName": "chi",
   "chainId": 10200,
   "networkId": 10200,
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://blockscout.chiadochain.net/",
-    "icon": "blockscout",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockscout.chiadochain.net/",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
 }
