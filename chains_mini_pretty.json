@@ -5927,6 +5927,19 @@
   "faucets": [],
   "infoURL": "https://www.etnd.pro"
 }, {
+  "name": "Condor Test Network",
+  "chainId": 188881,
+  "shortName": "condor",
+  "networkId": 188881,
+  "nativeCurrency": {
+    "name": "Condor Native Token",
+    "symbol": "CONDOR",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.condor.systems/rpc"],
+  "faucets": [],
+  "infoURL": "https://condor.systems"
+}, {
   "name": "Milkomeda C1 Testnet",
   "chainId": 200101,
   "shortName": "milkTAda",
