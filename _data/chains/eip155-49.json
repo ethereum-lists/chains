@@ -1,9 +1,7 @@
 {
   "name": "Ennothem Testnet Pioneer",
   "chain": "ETMP",
-  "rpc": [
-    "https://rpc.pioneer.etm.network"
-  ],
+  "rpc": ["https://rpc.pioneer.etm.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ennothem",
@@ -11,7 +9,7 @@
     "decimals": 18
   },
   "infoURL": "https://etm.network",
-  "shortName": "etmp",
+  "shortName": "etmpTest",
   "chainId": 49,
   "networkId": 49,
   "icon": "etmp",
