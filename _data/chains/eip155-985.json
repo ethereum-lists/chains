@@ -1,10 +1,7 @@
 {
   "name": "Memo Smart Chain Mainnet",
   "chain": "MEMO",
-  "rpc": [
-     "https://chain.metamemo.one:8501",
-     "wss://chain.metamemo.one:16801"
-  ],
+  "rpc": ["https://chain.metamemo.one:8501", "wss://chain.metamemo.one:16801"],
   "faucets": ["https://faucet.metamemo.one/"],
   "nativeCurrency": {
     "name": "Memo",
