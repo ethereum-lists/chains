@@ -5937,7 +5937,7 @@
     "decimals": 18
   },
   "rpc": ["https://testnet.condor.systems/rpc"],
-  "faucets": [],
+  "faucets": ["https://faucet.condor.systems"],
   "infoURL": "https://condor.systems"
 }, {
   "name": "Milkomeda C1 Testnet",
