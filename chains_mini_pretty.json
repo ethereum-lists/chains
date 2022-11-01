@@ -1676,6 +1676,19 @@
   "faucets": ["https://faucet.carbonswap.exchange", "https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "infoURL": "https://energyweb.org"
 }, {
+  "name": "Oasys Mainnet",
+  "chainId": 248,
+  "shortName": "OAS",
+  "networkId": 248,
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet.oasys.games"],
+  "faucets": [],
+  "infoURL": "https://oasys.games"
+}, {
   "name": "Fantom Opera",
   "chainId": 250,
   "shortName": "ftm",
