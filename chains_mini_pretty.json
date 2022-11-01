@@ -3509,6 +3509,19 @@
   "faucets": [],
   "infoURL": "https://findora.org/"
 }, {
+  "name": "Findora Forge",
+  "chainId": 2154,
+  "shortName": "findora-forge",
+  "networkId": 2154,
+  "nativeCurrency": {
+    "name": "FRA",
+    "symbol": "FRA",
+    "decimals": 18
+  },
+  "rpc": ["https://prod-forge.prod.findora.org:8545/"],
+  "faucets": [],
+  "infoURL": "https://findora.org/"
+}, {
   "name": "Bitcoin EVM",
   "chainId": 2203,
   "shortName": "eBTC",
