@@ -1,8 +1,8 @@
 {
-  "name": "Taraxa Testnet",
+  "name": "Taraxa Mainnet",
   "chain": "Tara",
   "icon": "taraxa",
-  "rpc": ["https://rpc.testnet.taraxa.io/"],
+  "rpc": ["https://rpc.mainnet.taraxa.io/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Tara",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "Taraxa Explorer",
-      "url": "https://explorer.testnet.taraxa.io",
+      "url": "https://explorer.mainnet.taraxa.io",
       "standard": "EIP3091"
     }
   ]

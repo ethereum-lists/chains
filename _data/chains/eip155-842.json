@@ -1,8 +1,8 @@
 {
-  "name": "Taraxa Mainnet",
+  "name": "Taraxa Testnet",
   "chain": "Tara",
   "icon": "taraxa",
-  "rpc": ["https://rpc.mainnet.taraxa.io/"],
+  "rpc": ["https://rpc.testnet.taraxa.io/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Tara",
@@ -11,12 +11,12 @@
   },
   "infoURL": "https://taraxa.io",
   "shortName": "tara",
-  "chainId": 840,
-  "networkId": 840,
+  "chainId": 842,
+  "networkId": 842,
   "explorers": [
     {
       "name": "Taraxa Explorer",
-      "url": "https://explorer.mainnet.taraxa.io",
+      "url": "https://explorer.testnet.taraxa.io",
       "standard": "EIP3091"
     }
   ]
