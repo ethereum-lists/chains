@@ -883,6 +883,19 @@
   "faucets": ["https://faucet.dxscan.io"],
   "infoURL": "https://testnet.dxscan.io/"
 }, {
+  "name": "FNCY",
+  "chainId": 73,
+  "shortName": "FNCY",
+  "networkId": 73,
+  "nativeCurrency": {
+    "name": "FNCY",
+    "symbol": "FNCY",
+    "decimals": 18
+  },
+  "rpc": ["https://fncy-seed1.fncy.world"],
+  "faucets": ["https://faucet-testnet.fncy.world"],
+  "infoURL": "https://fncyscan.fncy.world"
+}, {
   "name": "IDChain Mainnet",
   "chainId": 74,
   "shortName": "idchain",

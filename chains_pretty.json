@@ -1224,6 +1224,27 @@
   "chainId": 72,
   "networkId": 72
 }, {
+  "name": "FNCY",
+  "chain": "FNCY",
+  "rpc": ["https://fncy-seed1.fncy.world"],
+  "faucets": ["https://faucet-testnet.fncy.world"],
+  "nativeCurrency": {
+    "name": "FNCY",
+    "symbol": "FNCY",
+    "decimals": 18
+  },
+  "infoURL": "https://fncyscan.fncy.world",
+  "shortName": "FNCY",
+  "chainId": 73,
+  "networkId": 73,
+  "icon": "ethereum",
+  "explorers": [{
+    "name": "fncy scan",
+    "url": "https://fncyscan.fncy.world",
+    "icon": "ethereum",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "IDChain Mainnet",
   "chain": "IDChain",
   "rpc": ["https://idchain.one/rpc/", "wss://idchain.one/ws/"],
