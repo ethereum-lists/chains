@@ -3223,6 +3223,32 @@
   "faucets": [],
   "infoURL": "https://www.ludan.org/"
 }, {
+  "name": "TBSI Mainnet",
+  "chainId": 1707,
+  "shortName": "TBSI",
+  "networkId": 1707,
+  "nativeCurrency": {
+    "name": "Jinda",
+    "symbol": "JINDA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.blockchain.or.th"],
+  "faucets": [],
+  "infoURL": "https://blockchain.or.th"
+}, {
+  "name": "TBSI Testnet",
+  "chainId": 1708,
+  "shortName": "tTBSI",
+  "networkId": 1708,
+  "nativeCurrency": {
+    "name": "Jinda",
+    "symbol": "JINDA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.blockchain.or.th"],
+  "faucets": ["https://faucet.blockchain.or.th"],
+  "infoURL": "https://blockchain.or.th"
+}, {
   "name": "Rabbit Analog Testnet Chain",
   "chainId": 1807,
   "shortName": "rAna",

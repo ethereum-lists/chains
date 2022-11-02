@@ -4527,6 +4527,36 @@
   "chainId": 1688,
   "networkId": 1688
 }, {
+  "name": "TBSI Mainnet",
+  "title": "Thai Blockchain Service Infrastructure Mainnet",
+  "chain": "TBSI",
+  "rpc": ["https://rpc.blockchain.or.th"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Jinda",
+    "symbol": "JINDA",
+    "decimals": 18
+  },
+  "infoURL": "https://blockchain.or.th",
+  "shortName": "TBSI",
+  "chainId": 1707,
+  "networkId": 1707
+}, {
+  "name": "TBSI Testnet",
+  "title": "Thai Blockchain Service Infrastructure Testnet",
+  "chain": "TBSI",
+  "rpc": ["https://rpc.testnet.blockchain.or.th"],
+  "faucets": ["https://faucet.blockchain.or.th"],
+  "nativeCurrency": {
+    "name": "Jinda",
+    "symbol": "JINDA",
+    "decimals": 18
+  },
+  "infoURL": "https://blockchain.or.th",
+  "shortName": "tTBSI",
+  "chainId": 1708,
+  "networkId": 1708
+}, {
   "name": "Rabbit Analog Testnet Chain",
   "chain": "rAna",
   "icon": "rabbit",
