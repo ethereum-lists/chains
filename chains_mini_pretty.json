@@ -4510,6 +4510,19 @@
   "faucets": ["https://robin-faucet.rangersprotocol.com"],
   "infoURL": "https://rangersprotocol.com"
 }, {
+  "name": "QEasyWeb3 Testnet",
+  "chainId": 9528,
+  "shortName": "QETTest",
+  "networkId": 9528,
+  "nativeCurrency": {
+    "name": "QET",
+    "symbol": "QET",
+    "decimals": 18
+  },
+  "rpc": ["https://qeasyweb3.com"],
+  "faucets": ["http://faucet.qeasyweb3.com"],
+  "infoURL": "https://www.qeasyweb3.com"
+}, {
   "name": "Boba Network BNB Testnet",
   "chainId": 9728,
   "shortName": "BobaBNBTestnet",
