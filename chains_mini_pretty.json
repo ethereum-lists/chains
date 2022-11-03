@@ -584,6 +584,32 @@
   "faucets": [],
   "infoURL": "https://darwinia.network/"
 }, {
+  "name": "Ennothem Mainnet Proterozoic",
+  "chainId": 48,
+  "shortName": "etmp",
+  "networkId": 48,
+  "nativeCurrency": {
+    "name": "Ennothem",
+    "symbol": "ETMP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.etm.network"],
+  "faucets": [],
+  "infoURL": "https://etm.network"
+}, {
+  "name": "Ennothem Testnet Pioneer",
+  "chainId": 49,
+  "shortName": "etmpTest",
+  "networkId": 49,
+  "nativeCurrency": {
+    "name": "Ennothem",
+    "symbol": "ETMP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.pioneer.etm.network"],
+  "faucets": [],
+  "infoURL": "https://etm.network"
+}, {
   "name": "XinFin XDC Network",
   "chainId": 50,
   "shortName": "xdc",

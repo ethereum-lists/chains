@@ -795,6 +795,48 @@
     "standard": "none"
   }]
 }, {
+  "name": "Ennothem Mainnet Proterozoic",
+  "chain": "ETMP",
+  "rpc": ["https://rpc.etm.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ennothem",
+    "symbol": "ETMP",
+    "decimals": 18
+  },
+  "infoURL": "https://etm.network",
+  "shortName": "etmp",
+  "chainId": 48,
+  "networkId": 48,
+  "icon": "etmp",
+  "explorers": [{
+    "name": "etmpscan",
+    "url": "https://etmscan.network",
+    "icon": "etmp",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Ennothem Testnet Pioneer",
+  "chain": "ETMP",
+  "rpc": ["https://rpc.pioneer.etm.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ennothem",
+    "symbol": "ETMP",
+    "decimals": 18
+  },
+  "infoURL": "https://etm.network",
+  "shortName": "etmpTest",
+  "chainId": 49,
+  "networkId": 49,
+  "icon": "etmp",
+  "explorers": [{
+    "name": "etmp",
+    "url": "https://pioneer.etmscan.network",
+    "icon": "etmpscan",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "XinFin XDC Network",
   "chain": "XDC",
   "rpc": ["https://erpc.xinfin.network", "https://rpc.xinfin.network", "https://rpc1.xinfin.network"],
