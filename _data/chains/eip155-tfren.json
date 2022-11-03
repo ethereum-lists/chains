@@ -1,0 +1,24 @@
+{
+  "name": "Frenchain",
+  "chain": "fren",
+  "rpc": ["https://rpc-01tn.frenchain.app"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "tFREN",
+    "symbol": "tFREN",
+    "decimals": 18
+  },
+  "infoURL": "https://frenchain.app",
+  "shortName": "tFREN",
+  "chainId": 69420,
+  "networkId": 69420,
+  "icon": "fren",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://testnet.frenscan.io",
+      "icon": "fren",
+      "standard": "EIP3091"
+    }
+  ]
+}
