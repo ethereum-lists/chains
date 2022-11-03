@@ -4614,6 +4614,19 @@
   "faucets": [],
   "infoURL": "https://www.xixoio.com/"
 }, {
+  "name": "Chiado Testnet",
+  "chainId": 10200,
+  "shortName": "chi",
+  "networkId": 10200,
+  "nativeCurrency": {
+    "name": "Chiado xDAI",
+    "symbol": "xDAI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.chiadochain.net", "https://rpc.eu-central-2.gateway.fm/v3/gnosis/archival/chiado"],
+  "faucets": ["https://gnosisfaucet.com"],
+  "infoURL": "https://docs.gnosischain.com"
+}, {
   "name": "0XTade",
   "chainId": 10248,
   "shortName": "0xt",
@@ -5836,9 +5849,9 @@
   "faucets": [],
   "infoURL": "https://www.quarkchain.io"
 }, {
-  "name": "Chiado Testnet",
+  "name": "Chiado 1 Testnet",
   "chainId": 100100,
-  "shortName": "chi",
+  "shortName": "chi1",
   "networkId": 100100,
   "nativeCurrency": {
     "name": "Chiado xDAI",
