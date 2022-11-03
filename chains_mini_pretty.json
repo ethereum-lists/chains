@@ -6279,12 +6279,25 @@
   "infoURL": "https://www.metalblockchain.org/"
 }, {
   "name": "Kekchain",
-  "chainId": 420666,
+  "chainId": 420420,
   "shortName": "KEK",
-  "networkId": 1,
+  "networkId": 103090,
   "nativeCurrency": {
     "name": "KEK",
     "symbol": "KEK",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.kekchain.com"],
+  "faucets": [],
+  "infoURL": "https://kekchain.com"
+}, {
+  "name": "Kekchain (kektest)",
+  "chainId": 420666,
+  "shortName": "tKEK",
+  "networkId": 1,
+  "nativeCurrency": {
+    "name": "tKEK",
+    "symbol": "tKEK",
     "decimals": 18
   },
   "rpc": ["https://testnet.kekchain.com"],

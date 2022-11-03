@@ -9093,7 +9093,7 @@
 }, {
   "name": "Kekchain",
   "chain": "kek",
-  "rpc": ["https://testnet.kekchain.com"],
+  "rpc": ["https://mainnet.kekchain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "KEK",
@@ -9102,6 +9102,27 @@
   },
   "infoURL": "https://kekchain.com",
   "shortName": "KEK",
+  "chainId": 420420,
+  "networkId": 103090,
+  "icon": "kek",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://mainnet-explorer.kekchain.com",
+    "icon": "kek",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Kekchain (kektest)",
+  "chain": "kek",
+  "rpc": ["https://testnet.kekchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "tKEK",
+    "symbol": "tKEK",
+    "decimals": 18
+  },
+  "infoURL": "https://kekchain.com",
+  "shortName": "tKEK",
   "chainId": 420666,
   "networkId": 1,
   "icon": "kek",
