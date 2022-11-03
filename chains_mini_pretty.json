@@ -3561,6 +3561,19 @@
   "faucets": [],
   "infoURL": "https://ecoball.org"
 }, {
+  "name": "BOSagora Mainnet",
+  "chainId": 2151,
+  "shortName": "boa",
+  "networkId": 2151,
+  "nativeCurrency": {
+    "name": "BOSAGORA",
+    "symbol": "BOA",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.bosagora.org", "https://rpc.bosagora.org"],
+  "faucets": [],
+  "infoURL": "https://docs.bosagora.org"
+}, {
   "name": "Findora Mainnet",
   "chainId": 2152,
   "shortName": "fra",
