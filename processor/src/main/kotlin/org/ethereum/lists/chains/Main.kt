@@ -38,8 +38,7 @@ private fun createOutputFiles() {
     val miniChainJSONArray = JsonArray<JsonObject>()
 
     val chainIconJSONArray = JsonArray<JsonObject>()
-    val miniChainIconJSONArray = JsonArray<JsonObject>()
-    
+
     val shortNameMapping = JsonObject()
 
     // copy raw data so e.g. icons are available - SKIP errors
