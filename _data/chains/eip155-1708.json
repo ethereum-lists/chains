@@ -1,0 +1,16 @@
+{
+  "name": "TBSI Testnet",
+  "title": "Thai Blockchain Service Infrastructure Testnet",
+  "chain": "TBSI",
+  "rpc": ["https://rpc.testnet.blockchain.or.th"],
+  "faucets": ["https://faucet.blockchain.or.th"],
+  "nativeCurrency": {
+    "name": "Jinda",
+    "symbol": "JINDA",
+    "decimals": 18
+  },
+  "infoURL": "https://blockchain.or.th",
+  "shortName": "tTBSI",
+  "chainId": 1708,
+  "networkId": 1708
+}
