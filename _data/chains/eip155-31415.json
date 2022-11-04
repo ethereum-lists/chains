@@ -17,6 +17,11 @@
   "slip44": 1,
   "explorers": [
     {
+      "name": "Glif Explorer",
+      "url": "https://explorer.glif.io/wallaby",
+      "standard": "none"
+    },
+    {
       "name": "Filscan",
       "url": "https://wallaby.filscan.io",
       "standard": "none"
