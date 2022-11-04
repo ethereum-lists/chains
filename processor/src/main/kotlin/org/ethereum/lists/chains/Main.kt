@@ -262,8 +262,8 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
             }
 
             val url = explorer["url"]
-            if (url == null || url !is String || !url.startsWith("https://")) {
-                throw (ExplorerMustWithHttps())
+            if (url == null || url !is String || !(url.startsWith("https://") || url.startsWith("http://"))) {
+                throw (ExplorerMustWithHttpsOrHttp())
             }
 
             if (url.endsWith("/")) {
