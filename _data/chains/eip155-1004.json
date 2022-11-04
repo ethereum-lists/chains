@@ -15,10 +15,12 @@
   "chainId": 1004,
   "networkId": 1004,
   "icon": "ekta",
-  "explorers": [{
-    "name": "ektascan",
-    "url": "https://test.ektascan.io",
-    "icon": "ekta",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "ektascan",
+      "url": "https://test.ektascan.io",
+      "icon": "ekta",
+      "standard": "EIP3091"
+    }
+  ]
 }
