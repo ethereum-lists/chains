@@ -6447,6 +6447,45 @@
   "faucets": [],
   "infoURL": "https://etherfair.org"
 }, {
+  "name": "Scroll",
+  "chainId": 534352,
+  "shortName": "scr",
+  "networkId": 534352,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://scroll.io"
+}, {
+  "name": "Scroll Görli Testnet",
+  "chainId": 534353,
+  "shortName": "scr-goerli",
+  "networkId": 534353,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://scroll.io"
+}, {
+  "name": "Scroll Pre-Alpha Testnet",
+  "chainId": 534354,
+  "shortName": "scr-prealpha",
+  "networkId": 534354,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://prealpha.scroll.io/l2"],
+  "faucets": ["https://prealpha.scroll.io"],
+  "infoURL": "https://scroll.io"
+}, {
   "name": "Vision - Vpioneer Test Chain",
   "chainId": 666666,
   "shortName": "vpioneer",

@@ -9365,6 +9365,65 @@
   "explorers": [],
   "infoURL": "https://etherfair.org"
 }, {
+  "name": "Scroll",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://scroll.io",
+  "shortName": "scr",
+  "chainId": 534352,
+  "networkId": 534352,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  }
+}, {
+  "name": "Scroll Görli Testnet",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://scroll.io",
+  "shortName": "scr-goerli",
+  "chainId": 534353,
+  "networkId": 534353,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-5",
+    "bridges": []
+  }
+}, {
+  "name": "Scroll Pre-Alpha Testnet",
+  "chain": "ETH",
+  "rpc": ["https://prealpha.scroll.io/l2"],
+  "faucets": ["https://prealpha.scroll.io"],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://scroll.io",
+  "shortName": "scr-prealpha",
+  "chainId": 534354,
+  "networkId": 534354,
+  "explorers": [{
+    "name": "Scroll L2 Block Explorer",
+    "url": "https://l2scan.scroll.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Vision - Vpioneer Test Chain",
   "chain": "Vision-Vpioneer",
   "rpc": ["https://vpioneer.infragrid.v.network/ethereum/compatible"],
