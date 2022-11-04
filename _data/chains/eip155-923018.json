@@ -1,22 +1,22 @@
 {
-  "name": "FNCY",
+  "name": "FNCY Testnet",
   "chain": "FNCY",
-  "rpc": ["https://fncy-seed1.fncy.world"],
+  "rpc": ["https://fncy-testnet-seed.fncy.world"],
   "faucets": ["https://faucet-testnet.fncy.world"],
   "nativeCurrency": {
     "name": "FNCY",
     "symbol": "FNCY",
     "decimals": 18
   },
-  "infoURL": "https://fncyscan.fncy.world",
+  "infoURL": "https://fncyscan-testnet.fncy.world",
   "shortName": "FNCY",
-  "chainId": 73,
-  "networkId": 73,
+  "chainId": 923018,
+  "networkId": 923018,
   "icon": "fncy",
   "explorers": [
     {
-      "name": "fncy scan",
-      "url": "https://fncyscan.fncy.world",
+      "name": "fncy scan testnet",
+      "url": "https://fncyscan-testnet.fncy.world",
       "icon": "fncy",
       "standard": "EIP3091"
     }
