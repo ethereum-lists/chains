@@ -4185,6 +4185,32 @@
   "faucets": [],
   "infoURL": "https://www.wegochain.io"
 }, {
+  "name": "Tres Leches Testnet",
+  "chainId": 6065,
+  "shortName": "TRESTEST",
+  "networkId": 6065,
+  "nativeCurrency": {
+    "name": "Tres Leches",
+    "symbol": "TRES",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-test.tresleches.finance/"],
+  "faucets": ["http://faucet.tresleches.finance:8080"],
+  "infoURL": "https://tresleches.finance"
+}, {
+  "name": "Tres Leches Mainnet",
+  "chainId": 6066,
+  "shortName": "TRESMAIN",
+  "networkId": 6066,
+  "nativeCurrency": {
+    "name": "Tres Leches",
+    "symbol": "TRES",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.tresleches.finance/"],
+  "faucets": [],
+  "infoURL": "https://tresleches.finance"
+}, {
   "name": "Pixie Chain Mainnet",
   "chainId": 6626,
   "shortName": "pixie-chain",

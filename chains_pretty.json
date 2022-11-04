@@ -5956,6 +5956,48 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Tres Leches Testnet",
+  "chain": "TresLeches",
+  "rpc": ["https://rpc-test.tresleches.finance/"],
+  "faucets": ["http://faucet.tresleches.finance:8080"],
+  "nativeCurrency": {
+    "name": "Tres Leches",
+    "symbol": "TRES",
+    "decimals": 18
+  },
+  "infoURL": "https://tresleches.finance",
+  "shortName": "TRESTEST",
+  "chainId": 6065,
+  "networkId": 6065,
+  "icon": "tresleches",
+  "explorers": [{
+    "name": "treslechesexplorer",
+    "url": "https://explorer-test.tresleches.finance",
+    "icon": "treslechesexplorer",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Tres Leches Mainnet",
+  "chain": "TresLeches",
+  "rpc": ["https://rpc.tresleches.finance/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Tres Leches",
+    "symbol": "TRES",
+    "decimals": 18
+  },
+  "infoURL": "https://tresleches.finance",
+  "shortName": "TRESMAIN",
+  "chainId": 6066,
+  "networkId": 6066,
+  "icon": "tresleches",
+  "explorers": [{
+    "name": "treslechesexplorer",
+    "url": "https://explorer.tresleches.finance",
+    "icon": "treslechesexplorer",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Pixie Chain Mainnet",
   "chain": "PixieChain",
   "rpc": ["https://http-mainnet.chain.pixie.xyz", "wss://ws-mainnet.chain.pixie.xyz"],
