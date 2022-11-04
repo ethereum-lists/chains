@@ -21,6 +21,11 @@
   "networkId": 11155111,
   "explorers": [
     {
+      "name": "etherscan-sepolia",
+      "url": "https://sepolia.etherscan.io",
+      "standard": "EIP3091"
+    },
+    {
       "name": "otterscan-sepolia",
       "url": "https://sepolia.otterscan.io",
       "standard": "EIP3091"
