@@ -27,7 +27,11 @@ private val allIconFiles = allIconFilesList.filter { !it.isDirectory }
 
 fun main(args: Array<String>) {
 
-    doChecks(doRPCConnect = args.contains("rpcConnect"), doIconDownload = args.contains("iconDownload"))
+    doChecks(
+        doRPCConnect = args.contains("rpcConnect"),
+        doIconDownload = args.contains("iconDownload"),
+        verbose = args.contains("verbose")
+    )
     createOutputFiles()
 }
 
@@ -60,9 +64,9 @@ private fun createOutputFiles() {
             shortNameMapping[jsonObject["shortName"] as String] = "eip155:" + jsonObject["chainId"]
 
         }
-    
+
     allIconFiles
-        .forEach { iconLocation -> 
+        .forEach { iconLocation ->
 
             val jsonData = Klaxon().parseJsonArray(iconLocation.reader())
             val iconName = iconLocation.toString().replace("../_data/icons/","").replace(".json","")
@@ -109,15 +113,15 @@ private fun createOutputFiles() {
     File(buildPath, "CNAME").writeText("chainid.network")
 }
 
-private fun doChecks(doRPCConnect: Boolean, doIconDownload: Boolean) {
+private fun doChecks(doRPCConnect: Boolean, doIconDownload: Boolean, verbose: Boolean) {
     allChainFiles.forEach {
-        checkChain(it, doRPCConnect)
+        checkChain(it, doRPCConnect, verbose)
     }
 
     val allIcons = iconsPath.listFiles() ?: return
     val allIconCIDs = mutableSetOf<String>()
     allIcons.forEach {
-        checkIcon(it, doIconDownload, allIconCIDs)
+        checkIcon(it, doIconDownload, allIconCIDs, verbose)
     }
 
     iconsDownloadPath.listFiles().forEach {
@@ -129,10 +133,12 @@ private fun doChecks(doRPCConnect: Boolean, doIconDownload: Boolean) {
     }
 }
 
-fun checkIcon(icon: File, withIconDownload: Boolean, allIconCIDs: MutableSet<String>) {
-    println("checking Icon " + icon.name)
+fun checkIcon(icon: File, withIconDownload: Boolean, allIconCIDs: MutableSet<String>, verbose: Boolean) {
     val obj: JsonArray<*> = Klaxon().parseJsonArray(icon.reader())
-    println("found variants " + obj.size)
+    if (verbose) {
+        println("checking Icon " + icon.name)
+        println("found variants " + obj.size)
+    }
     obj.forEach { it ->
         if (it !is JsonObject) {
             error("Icon variant must be an object")
@@ -187,8 +193,10 @@ fun checkIcon(icon: File, withIconDownload: Boolean, allIconCIDs: MutableSet<Str
     }
 }
 
-fun checkChain(chainFile: File, connectRPC: Boolean) {
-    println("processing $chainFile")
+fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
+    if (verbose) {
+        println("processing $chainFile")
+    }
 
     val jsonObject = Klaxon().parseJsonObject(chainFile.reader())
     val chainAsLong = getNumber(jsonObject, "chainId")
