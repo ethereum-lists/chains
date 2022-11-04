@@ -113,6 +113,7 @@ There are also aggregated json files with all chains automatically assembled:
  * [chainlist.in](https://www.chainlist.in)
  * [chainz.me](https://chainz.me)
  * [Chainlink docs](https://docs.chain.link/)
+ * [Wagmi compatible chain configurations](https://spenhouet.com/chains)
 
 ### Other
  * [FaucETH](https://github.com/komputing/FaucETH)
