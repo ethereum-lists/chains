@@ -3002,6 +3002,19 @@
   "faucets": [],
   "infoURL": "https://ultron.foundation"
 }, {
+  "name": "Step Network",
+  "chainId": 1234,
+  "shortName": "step",
+  "networkId": 1234,
+  "nativeCurrency": {
+    "name": "FITFI",
+    "symbol": "FITFI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.step.network"],
+  "faucets": [],
+  "infoURL": "https://step.network"
+}, {
   "name": "OM Platform Mainnet",
   "chainId": 1246,
   "shortName": "om",
@@ -4873,6 +4886,19 @@
   "rpc": ["https://zerorpc.singularity.gold"],
   "faucets": ["https://zeroscan.singularity.gold"],
   "infoURL": "https://www.singularity.gold"
+}, {
+  "name": "Step Testnet",
+  "chainId": 12345,
+  "shortName": "steptest",
+  "networkId": 12345,
+  "nativeCurrency": {
+    "name": "FITFI",
+    "symbol": "FITFI",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.rpc.step.network"],
+  "faucets": ["https://faucet.step.network"],
+  "infoURL": "https://step.network"
 }, {
   "name": "Phoenix Mainnet",
   "chainId": 13381,
