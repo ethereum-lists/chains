@@ -4341,9 +4341,9 @@
   "faucets": [],
   "infoURL": "https://mdgl.io"
 }, {
-  "name": "Shardeum Liberty",
+  "name": "Shardeum Liberty 1.5",
   "chainId": 8080,
-  "shortName": "ShardeumSHM",
+  "shortName": "Liberty10",
   "networkId": 8080,
   "nativeCurrency": {
     "name": "Shardeum SHM",
@@ -4352,6 +4352,19 @@
   },
   "rpc": ["https://liberty10.shardeum.org/"],
   "faucets": ["https://faucet.liberty10.shardeum.org"],
+  "infoURL": "https://docs.shardeum.org/"
+}, {
+  "name": "Shardeum Liberty 2.0",
+  "chainId": 8081,
+  "shortName": "Liberty20",
+  "networkId": 8081,
+  "nativeCurrency": {
+    "name": "Shardeum SHM",
+    "symbol": "SHM",
+    "decimals": 18
+  },
+  "rpc": ["https://liberty20.shardeum.org/"],
+  "faucets": ["https://faucet.liberty20.shardeum.org"],
   "infoURL": "https://docs.shardeum.org/"
 }, {
   "name": "Qitmeer Network Testnet",
