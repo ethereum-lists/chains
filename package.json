@@ -2,11 +2,14 @@
   "devDependencies": {
     "ajv": "^8.11.0",
     "husky": "^8.0.0",
+    "image-parser": "^1.2.8",
+    "ipfs-core": "^0.17.0",
     "prettier": "^2.7.1"
   },
   "scripts": {
     "prepare": "husky install",
     "format": "prettier --write _data/*/*.json",
-    "test": "node tools/schemaCheck.js"
+    "test": "node tools/schemaCheck.js",
+    "icons": "node tools/checkIcons.mjs"
   }
 }
