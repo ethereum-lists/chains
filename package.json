@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "ajv": "^8.11.0",
+    "husky": "^8.0.0",
+    "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "format": "prettier --write _data/*/*.json",
+    "test": "node tools/schemaCheck.js"
+  }
+}
