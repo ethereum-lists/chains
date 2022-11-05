@@ -1,16 +1,21 @@
 {
-  "name": "CENNZnet old",
-  "chain": "CENNZnet",
-  "rpc": [],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "CPAY",
-    "symbol": "CPAY",
-    "decimals": 18
-  },
-  "infoURL": "https://cennz.net",
-  "shortName": "cennz-old",
-  "chainId": 1337,
-  "networkId": 1337,
-  "status": "deprecated"
+  {
+    "name": "Ganache",
+    "title": "Ganache CLI Ethereum Testnet",
+    "chain": "ETH",
+    "icon": "ganache",
+    "rpc": ["https://127.0.0.1:8545"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ganache Test Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://trufflesuite.com/ganache/",
+    "shortName": "gcli",
+    "chainId": 1337,
+    "networkId": 1337,
+    "explorers": [
+    ]
+  }
 }
