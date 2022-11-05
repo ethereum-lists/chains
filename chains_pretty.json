@@ -1279,11 +1279,11 @@
   "shortName": "FNCY",
   "chainId": 73,
   "networkId": 73,
-  "icon": "ethereum",
+  "icon": "fncy",
   "explorers": [{
     "name": "fncy scan",
     "url": "https://fncyscan.fncy.world",
-    "icon": "ethereum",
+    "icon": "fncy",
     "standard": "EIP3091"
   }]
 }, {
@@ -9609,6 +9609,27 @@
     "name": "Posichain Explorer Devnet",
     "url": "https://explorer-devnet.posichain.org",
     "icon": "posichain",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "FNCY Testnet",
+  "chain": "FNCY",
+  "rpc": ["https://fncy-testnet-seed.fncy.world"],
+  "faucets": ["https://faucet-testnet.fncy.world"],
+  "nativeCurrency": {
+    "name": "FNCY",
+    "symbol": "FNCY",
+    "decimals": 18
+  },
+  "infoURL": "https://fncyscan-testnet.fncy.world",
+  "shortName": "tFNCY",
+  "chainId": 923018,
+  "networkId": 923018,
+  "icon": "fncy",
+  "explorers": [{
+    "name": "fncy scan testnet",
+    "url": "https://fncyscan-testnet.fncy.world",
+    "icon": "fncy",
     "standard": "EIP3091"
   }]
 }, {
