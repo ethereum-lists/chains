@@ -1,11 +1,11 @@
 {
   "name": "MOAC mainnet",
   "chain": "MOAC",
-  "rpc": ["http://gateway.moac.io/mainnet:8545"],
+  "rpc": ["http://gateway.moac.io/mainnet"],
   "faucets": [],
   "nativeCurrency": {
     "name": "MOAC",
-    "symbol": "MOAC",
+    "symbol": "mc",
     "decimals": 18
   },
   "infoURL": "https://moac.io",
