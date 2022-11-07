@@ -1,0 +1,24 @@
+{
+  "name": "Tres Leches Testnet",
+  "chain": "TresLeches",
+  "rpc": ["https://rpc-test.tresleches.finance/"],
+  "faucets": ["http://faucet.tresleches.finance:8080"],
+  "nativeCurrency": {
+    "name": "Tres Leches",
+    "symbol": "TRES",
+    "decimals": 18
+  },
+  "infoURL": "https://tresleches.finance",
+  "shortName": "TRESTEST",
+  "chainId": 6065,
+  "networkId": 6065,
+  "icon": "tresleches",
+  "explorers": [
+    {
+      "name": "treslechesexplorer",
+      "url": "https://explorer-test.tresleches.finance",
+      "icon": "treslechesexplorer",
+      "standard": "EIP3091"
+    }
+  ]
+}
