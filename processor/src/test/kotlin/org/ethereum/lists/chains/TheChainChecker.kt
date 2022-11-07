@@ -129,6 +129,13 @@ class TheChainChecker {
     }
 
     @Test(expected = FileNameMustMatchChainId::class)
+    fun shouldFailForFilenameWithLeadingZero() {
+        val file = getFile("invalid/leadingzero/eip155-01.json")
+
+        checkChain(file, false)
+    }
+
+    @Test(expected = FileNameMustMatchChainId::class)
     fun shouldFailForChainNotMatchingFilename() {
         val file = getFile("invalid/eip155-3.json")
 
