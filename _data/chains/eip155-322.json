@@ -1,9 +1,7 @@
 {
   "name": "KCC Testnet",
   "chain": "KCC",
-  "rpc": [
-    "https://rpc-testnet.kcc.network"
-  ],
+  "rpc": ["https://rpc-testnet.kcc.network"],
   "faucets": ["https://faucet-testnet.kcc.network"],
   "nativeCurrency": {
     "name": "KuCoin Testnet Token",
