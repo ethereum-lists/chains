@@ -1848,14 +1848,14 @@
   "name": "KCC Mainnet",
   "chainId": 321,
   "shortName": "kcs",
-  "networkId": 1,
+  "networkId": 321,
   "nativeCurrency": {
     "name": "KuCoin Token",
     "symbol": "KCS",
     "decimals": 18
   },
-  "rpc": ["https://rpc-mainnet.kcc.network", "wss://rpc-ws-mainnet.kcc.network"],
-  "faucets": [],
+  "rpc": ["https://rpc-mainnet.kcc.network", "https://kcc.mytokenpocket.vip", "https://public-rpc.blockpi.io/http/kcc"],
+  "faucets": ["https://faucet.kcc.io/", "https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "infoURL": "https://kcc.io"
 }, {
   "name": "KCC Testnet",
@@ -1867,7 +1867,7 @@
     "symbol": "tKCS",
     "decimals": 18
   },
-  "rpc": ["https://rpc-testnet.kcc.network", "wss://rpc-ws-testnet.kcc.network"],
+  "rpc": ["https://rpc-testnet.kcc.network"],
   "faucets": ["https://faucet-testnet.kcc.network"],
   "infoURL": "https://scan-testnet.kcc.network"
 }, {

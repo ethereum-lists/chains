@@ -2624,8 +2624,8 @@
 }, {
   "name": "KCC Mainnet",
   "chain": "KCC",
-  "rpc": ["https://rpc-mainnet.kcc.network", "wss://rpc-ws-mainnet.kcc.network"],
-  "faucets": [],
+  "rpc": ["https://rpc-mainnet.kcc.network", "https://kcc.mytokenpocket.vip", "https://public-rpc.blockpi.io/http/kcc"],
+  "faucets": ["https://faucet.kcc.io/", "https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "nativeCurrency": {
     "name": "KuCoin Token",
     "symbol": "KCS",
@@ -2634,7 +2634,8 @@
   "infoURL": "https://kcc.io",
   "shortName": "kcs",
   "chainId": 321,
-  "networkId": 1,
+  "networkId": 321,
+  "slip44": 641,
   "explorers": [{
     "name": "KCC Explorer",
     "url": "https://explorer.kcc.io/en",
@@ -2643,7 +2644,7 @@
 }, {
   "name": "KCC Testnet",
   "chain": "KCC",
-  "rpc": ["https://rpc-testnet.kcc.network", "wss://rpc-ws-testnet.kcc.network"],
+  "rpc": ["https://rpc-testnet.kcc.network"],
   "faucets": ["https://faucet-testnet.kcc.network"],
   "nativeCurrency": {
     "name": "KuCoin Testnet Token",
@@ -2655,7 +2656,7 @@
   "chainId": 322,
   "networkId": 322,
   "explorers": [{
-    "name": "kcc-scan",
+    "name": "kcc-scan-testnet",
     "url": "https://scan-testnet.kcc.network",
     "standard": "EIP3091"
   }]
