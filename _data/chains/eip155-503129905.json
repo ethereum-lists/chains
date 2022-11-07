@@ -1,0 +1,25 @@
+{
+  "name": "Nebula Gaming HUB",
+  "chain": "NEBULA",
+  "network": "staging",
+  "rpc": [
+    "https://staging-v3.skalenodes.com/v1/staging-faint-slimy-achird",
+    "wss://staging-v3.skalenodes.com/v1/ws/staging-faint-slimy-achird"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "infoURL": "https://nebulachain.io/",
+  "shortName": "nebula-gaming",
+  "chainId": 503129905,
+  "networkId": 503129905,
+  "explorers": [{
+    "name": "nebula",
+    "url": "https://green-giddy-denebola.explorer.mainnet.skalenodes.com/",
+    "icon": "nebula",
+    "standard": "EIP3091"
+  }]
+}
