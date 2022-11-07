@@ -1,0 +1,20 @@
+{
+  "name": "Obscuro Network",
+  "chain": "OBS",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OBX",
+    "symbol": "OBX",
+    "decimals": 18
+  },
+  "infoURL": "https://obscu.ro/",
+  "shortName": "obs",
+  "chainId": 341,
+  "networkId": 341,
+  "explorers": [],
+  "parent": {
+    "type" : "L2",
+    "chain": "eip155-1"
+  }
+}
