@@ -4532,7 +4532,7 @@
     "symbol": "ALPH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.alph.network"],
+  "rpc": ["https://rpc.alph.network", "wss://rpc.alph.network"],
   "faucets": [],
   "infoURL": "https://alph.network"
 }, {
