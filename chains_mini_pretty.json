@@ -3197,6 +3197,19 @@
   "faucets": [],
   "infoURL": "https://geth.ethereum.org"
 }, {
+  "name": "Polygon zkEVM Testnet",
+  "chainId": 1402,
+  "shortName": "zkevmtest",
+  "networkId": 1402,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.public.zkevm-test.net"],
+  "faucets": [],
+  "infoURL": "https://polygon.technology/solutions/polygon-zkevm/"
+}, {
   "name": "Sherpax Mainnet",
   "chainId": 1506,
   "shortName": "Sherpax",
