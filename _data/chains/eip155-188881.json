@@ -1,0 +1,23 @@
+{
+  "name": "Condor Test Network",
+  "chain": "CONDOR",
+  "icon": "condor",
+  "rpc": ["https://testnet.condor.systems/rpc"],
+  "faucets": ["https://faucet.condor.systems"],
+  "nativeCurrency": {
+    "name": "Condor Native Token",
+    "symbol": "CONDOR",
+    "decimals": 18
+  },
+  "infoURL": "https://condor.systems",
+  "shortName": "condor",
+  "chainId": 188881,
+  "networkId": 188881,
+  "explorers": [
+    {
+      "name": "CondorScan",
+      "url": "https://explorer.condor.systems",
+      "standard": "none"
+    }
+  ]
+}
