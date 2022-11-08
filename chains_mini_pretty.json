@@ -3314,6 +3314,19 @@
   "faucets": [],
   "infoURL": "https://www.ludan.org/"
 }, {
+  "name": "Anytype EVM Chain",
+  "chainId": 1701,
+  "shortName": "AnytypeChain",
+  "networkId": 1701,
+  "nativeCurrency": {
+    "name": "ANY",
+    "symbol": "ANY",
+    "decimals": 18
+  },
+  "rpc": ["https://geth.anytype.io"],
+  "faucets": ["https://evm.anytype.io/faucet"],
+  "infoURL": "https://evm.anytype.io"
+}, {
   "name": "TBSI Mainnet",
   "chainId": 1707,
   "shortName": "TBSI",
