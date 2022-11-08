@@ -3158,6 +3158,19 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "Dos Fuji Subnet",
+  "chainId": 1311,
+  "shortName": "DOS",
+  "networkId": 1311,
+  "nativeCurrency": {
+    "name": "Dos Native Token",
+    "symbol": "DOS",
+    "decimals": 18
+  },
+  "rpc": ["https://test.doschain.com/jsonrpc"],
+  "faucets": [],
+  "infoURL": "http://doschain.io/"
+}, {
   "name": "Aitd Mainnet",
   "chainId": 1319,
   "shortName": "aitd",
