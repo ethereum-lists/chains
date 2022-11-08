@@ -77,6 +77,13 @@ There are also aggregated json files with all chains automatically assembled:
  * https://chainid.network/chains.json
  * https://chainid.network/chains_mini.json (miniaturized - fewer fields for smaller filesize)
 
+## Constraints
+
+ * the shortName and name MUST be unique - see e.g. EIP-3770 on why
+ * if referencing a parent chain - the chain MUST exist in the repo
+ * if using a IPFS CID for the icon - the CID MUST be retrievable via `ipfs get` - not only through some gateway (means please do not use pinata for now)
+ * for more constraints you can look into the CI
+ 
 ## Collision management
 
  If different chains have the same chainID we list the one with the oldest genesis.
@@ -113,6 +120,7 @@ There are also aggregated json files with all chains automatically assembled:
  * [chainlist.in](https://www.chainlist.in)
  * [chainz.me](https://chainz.me)
  * [Chainlink docs](https://docs.chain.link/)
+ * [Wagmi compatible chain configurations](https://spenhouet.com/chains)
 
 ### Other
  * [FaucETH](https://github.com/komputing/FaucETH)
