@@ -6798,6 +6798,32 @@
   "faucets": ["https://faucet.butterfly.fildev.network"],
   "infoURL": "https://filecoin.io"
 }, {
+  "name": "Imversed Canary",
+  "chainId": 5555555,
+  "shortName": "imversed",
+  "networkId": 5555555,
+  "nativeCurrency": {
+    "name": "Imversed Token",
+    "symbol": "IMV",
+    "decimals": 18
+  },
+  "rpc": ["https://jsonrpc-endpoint-canary.imversed.com"],
+  "faucets": [],
+  "infoURL": "https://imversed.com"
+}, {
+  "name": "Imversed Testnet",
+  "chainId": 5555558,
+  "shortName": "imversed-testnet",
+  "networkId": 5555558,
+  "nativeCurrency": {
+    "name": "Imversed Token",
+    "symbol": "IMV",
+    "decimals": 18
+  },
+  "rpc": ["https://jsonrpc-endpoint-test.imversed.com"],
+  "faucets": [],
+  "infoURL": "https://imversed.com"
+}, {
   "name": "Musicoin",
   "chainId": 7762959,
   "shortName": "music",
