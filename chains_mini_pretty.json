@@ -1637,6 +1637,19 @@
   "faucets": [],
   "infoURL": "https://xdaichain.com"
 }, {
+  "name": "MOAC testnet",
+  "chainId": 201,
+  "shortName": "moactest",
+  "networkId": 201,
+  "nativeCurrency": {
+    "name": "MOAC",
+    "symbol": "mc",
+    "decimals": 18
+  },
+  "rpc": ["http://gateway.moac.io/testnet"],
+  "faucets": [],
+  "infoURL": "https://moac.io"
+}, {
   "name": "Freight Trust Network",
   "chainId": 211,
   "shortName": "EDI",
@@ -2858,6 +2871,19 @@
   "rpc": ["https://andromeda.metis.io/?owner=1088"],
   "faucets": [],
   "infoURL": "https://www.metis.io"
+}, {
+  "name": "MOAC mainnet",
+  "chainId": 1099,
+  "shortName": "moac",
+  "networkId": 1099,
+  "nativeCurrency": {
+    "name": "MOAC",
+    "symbol": "mc",
+    "decimals": 18
+  },
+  "rpc": ["http://gateway.moac.io/mainnet"],
+  "faucets": [],
+  "infoURL": "https://moac.io"
 }, {
   "name": "WEMIX3.0 Mainnet",
   "chainId": 1111,

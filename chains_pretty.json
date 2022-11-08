@@ -2306,6 +2306,25 @@
     "type": "L2"
   }
 }, {
+  "name": "MOAC testnet",
+  "chain": "MOAC",
+  "rpc": ["http://gateway.moac.io/testnet"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MOAC",
+    "symbol": "mc",
+    "decimals": 18
+  },
+  "infoURL": "https://moac.io",
+  "shortName": "moactest",
+  "chainId": 201,
+  "networkId": 201,
+  "explorers": [{
+    "name": "moac testnet explorer",
+    "url": "https://testnet.moac.io",
+    "standard": "none"
+  }]
+}, {
   "name": "Freight Trust Network",
   "chain": "EDI",
   "rpc": ["http://13.57.207.168:3435", "https://app.freighttrust.net/ftn/${API_KEY}"],
@@ -4036,6 +4055,26 @@
       "url": "https://bridge.metis.io"
     }]
   }
+}, {
+  "name": "MOAC mainnet",
+  "chain": "MOAC",
+  "rpc": ["http://gateway.moac.io/mainnet"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MOAC",
+    "symbol": "mc",
+    "decimals": 18
+  },
+  "infoURL": "https://moac.io",
+  "shortName": "moac",
+  "chainId": 1099,
+  "networkId": 1099,
+  "slip44": 314,
+  "explorers": [{
+    "name": "moac explorer",
+    "url": "https://explorer.moac.io",
+    "standard": "none"
+  }]
 }, {
   "name": "WEMIX3.0 Mainnet",
   "chain": "WEMIX",
