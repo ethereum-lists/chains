@@ -1,5 +1,5 @@
 {
-  "name": "Nebula Gaming HUB",
+  "name": "Nebula Gaming Mainnet",
   "chain": "NEBULA",
   "rpc": [
     "https://mainnet.skalenodes.com/v1/green-giddy-denebola",
@@ -15,10 +15,12 @@
   "shortName": "nebula-gaming",
   "chainId": 1482601649,
   "networkId": 1482601649,
-  "explorers": [{
-    "name": "nebula",
-    "url": "https://green-giddy-denebola.explorer.mainnet.skalenodes.com",
-    "icon": "nebula",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "nebula",
+      "url": "https://green-giddy-denebola.explorer.mainnet.skalenodes.com",
+      "icon": "nebula",
+      "standard": "EIP3091"
+    }
+  ]
 }

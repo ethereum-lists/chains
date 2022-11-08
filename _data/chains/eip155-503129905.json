@@ -1,5 +1,5 @@
 {
-  "name": "Nebula Gaming HUB",
+  "name": "Nebula Gaming Staging",
   "chain": "NEBULA",
   "rpc": [
     "https://staging-v3.skalenodes.com/v1/staging-faint-slimy-achird",
@@ -15,10 +15,12 @@
   "shortName": "nebula-gaming",
   "chainId": 503129905,
   "networkId": 503129905,
-  "explorers": [{
-    "name": "nebula",
-    "url": "https://staging-faint-slimy-achird.explorer.staging-v3.skalenodes.com",
-    "icon": "nebula",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "nebula",
+      "url": "https://staging-faint-slimy-achird.explorer.staging-v3.skalenodes.com",
+      "icon": "nebula",
+      "standard": "EIP3091"
+    }
+  ]
 }
