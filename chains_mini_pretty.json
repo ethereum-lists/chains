@@ -5615,6 +5615,19 @@
   "faucets": ["https://www.thinkiumdev.net/faucet"],
   "infoURL": "https://thinkium.net/"
 }, {
+  "name": "DoKEN Super Chain Mainnet",
+  "chainId": 61916,
+  "shortName": "DoKEN",
+  "networkId": 61916,
+  "nativeCurrency": {
+    "name": "DoKEN",
+    "symbol": "DKN",
+    "decimals": 18
+  },
+  "rpc": ["https://sgrpc.doken.dev", "https://nyrpc.doken.dev", "https://ukrpc.doken.dev"],
+  "faucets": [],
+  "infoURL": "https://doken.dev/"
+}, {
   "name": "Celo Baklava Testnet",
   "chainId": 62320,
   "shortName": "BKLV",
