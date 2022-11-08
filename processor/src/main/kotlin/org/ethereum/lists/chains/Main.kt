@@ -22,7 +22,7 @@ val chainsPath = File(dataPath, "chains")
 private val allFiles = chainsPath.listFiles() ?: error("${chainsPath.absolutePath} must contain the chain json files - but it does not")
 private val allChainFiles = allFiles.filter { !it.isDirectory }
 
-private val allIconFilesList = iconsPath.listFiles() ?:  error("${iconsPath.absolutePath} must contain the icon json files - but it does not")
+private val allIconFilesList = iconsPath.listFiles() ?: error("${iconsPath.absolutePath} must contain the icon json files - but it does not")
 private val allIconFiles = allIconFilesList.filter { !it.isDirectory }
 
 fun main(args: Array<String>) {
@@ -69,7 +69,7 @@ private fun createOutputFiles() {
         .forEach { iconLocation ->
 
             val jsonData = Klaxon().parseJsonArray(iconLocation.reader())
-            val iconName = iconLocation.toString().replace("../_data/icons/","").replace(".json","")
+            val iconName = iconLocation.toString().replace("../_data/icons/", "").replace(".json", "")
 
             val iconJson = JsonObject()
             iconJson["name"] = iconName
@@ -202,7 +202,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
     val chainAsLong = getNumber(jsonObject, "chainId")
 
     if (chainFile.nameWithoutExtension.startsWith("eip155-")) {
-        if (chainAsLong != chainFile.nameWithoutExtension.replace("eip155-", "").toLongOrNull()) {
+        if (chainAsLong.toString() != chainFile.nameWithoutExtension.replace("eip155-", "")) {
             throw (FileNameMustMatchChainId())
         }
     } else {
@@ -314,7 +314,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
             }
 
             if (!allowedRedFlags.contains(it))
-                throw(InvalidRedFlags(it))
+                throw (InvalidRedFlags(it))
         }
     }
 
