@@ -10411,6 +10411,27 @@
     "standard": "none"
   }]
 }, {
+  "name": "staging-faint-slimy-achird",
+  "title": "Nebula Staging",
+  "chain": "staging-faint-slimy-achird",
+  "rpc": ["https://staging-v3.skalenodes.com/v1/staging-faint-slimy-achird", "wss://staging-v3.skalenodes.com/v1/ws/staging-faint-slimy-achird"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "infoURL": "https://nebulachain.io/",
+  "shortName": "nebula-staging",
+  "chainId": 503129905,
+  "networkId": 503129905,
+  "explorers": [{
+    "name": "nebula",
+    "url": "https://staging-faint-slimy-achird.explorer.staging-v3.skalenodes.com",
+    "icon": "nebula",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "IPOS Network",
   "chain": "IPOS",
   "rpc": ["https://rpc.iposlab.com", "https://rpc2.iposlab.com"],
@@ -10476,6 +10497,27 @@
   "shortName": "aurora-betanet",
   "chainId": 1313161556,
   "networkId": 1313161556
+}, {
+  "name": "green-giddy-denebola",
+  "title": "Nebula Mainnet",
+  "chain": "green-giddy-denebola",
+  "rpc": ["https://mainnet.skalenodes.com/v1/green-giddy-denebola", "wss://mainnet-proxy.skalenodes.com/v1/ws/green-giddy-denebola"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "infoURL": "https://nebulachain.io/",
+  "shortName": "nebula-mainnet",
+  "chainId": 1482601649,
+  "networkId": 1482601649,
+  "explorers": [{
+    "name": "nebula",
+    "url": "https://green-giddy-denebola.explorer.mainnet.skalenodes.com",
+    "icon": "nebula",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Harmony Mainnet Shard 0",
   "chain": "Harmony",
