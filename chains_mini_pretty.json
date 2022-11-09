@@ -2651,6 +2651,19 @@
   "faucets": [],
   "infoURL": "https://www.topnetwork.org/"
 }, {
+  "name": "Memo Smart Chain Mainnet",
+  "chainId": 985,
+  "shortName": "memochain",
+  "networkId": 985,
+  "nativeCurrency": {
+    "name": "Memo",
+    "symbol": "CMEMO",
+    "decimals": 18
+  },
+  "rpc": ["https://chain.metamemo.one:8501", "wss://chain.metamemo.one:16801"],
+  "faucets": ["https://faucet.metamemo.one/"],
+  "infoURL": "www.memolabs.org"
+}, {
   "name": "TOP Mainnet",
   "chainId": 989,
   "shortName": "top",
