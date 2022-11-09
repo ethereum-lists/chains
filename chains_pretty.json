@@ -5635,6 +5635,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Metacodechain",
+  "chain": "metacode",
+  "rpc": ["https://j.blockcoach.com:8503"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "J",
+    "symbol": "J",
+    "decimals": 18
+  },
+  "infoURL": "https://j.blockcoach.com:8089",
+  "shortName": "metacode",
+  "chainId": 3666,
+  "networkId": 3666,
+  "explorers": [{
+    "name": "meta",
+    "url": "https://j.blockcoach.com:8089",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Bittex Mainnet",
   "chain": "BTX",
   "rpc": ["https://rpc1.bittexscan.info", "https://rpc2.bittexscan.info"],

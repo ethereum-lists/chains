@@ -3964,6 +3964,19 @@
   "faucets": [],
   "infoURL": "https://jfinchain.com"
 }, {
+  "name": "Metacodechain",
+  "chainId": 3666,
+  "shortName": "metacode",
+  "networkId": 3666,
+  "nativeCurrency": {
+    "name": "J",
+    "symbol": "J",
+    "decimals": 18
+  },
+  "rpc": ["https://j.blockcoach.com:8503"],
+  "faucets": [],
+  "infoURL": "https://j.blockcoach.com:8089"
+}, {
   "name": "Bittex Mainnet",
   "chainId": 3690,
   "shortName": "btx",
