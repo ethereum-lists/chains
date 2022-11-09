@@ -1,0 +1,23 @@
+{
+    "name": "Pando Mainnet",
+    "chain": "Pando",
+    "rpc": ["http://3.1.51.143:18888/rpc"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Pando token ",
+      "symbol": "PTX",
+      "decimals": 18
+    },
+    "infoURL": "https://www.pandoproject.org/",
+    "shortName": "pando-mainnet",
+    "chainId": 3601,
+    "networkId": 3601,
+    "explorers": [
+      {
+        "name": "Pando Mainnet Explorer",
+        "url": "https://explorer.pandoproject.org/",
+        "standard": "EIP3091"
+      }
+    ]
+  }
+  
