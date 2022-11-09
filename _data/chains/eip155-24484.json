@@ -1,9 +1,7 @@
 {
   "name": "Webchain",
   "chain": "WEB",
-  "rpc": [
-    "https://node1.webchain.network"
-  ],
+  "rpc": ["https://node1.webchain.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Webchain Ether",
