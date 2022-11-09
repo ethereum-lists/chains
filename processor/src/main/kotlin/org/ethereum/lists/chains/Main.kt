@@ -8,6 +8,7 @@ import org.ethereum.lists.chains.model.*
 import org.kethereum.erc55.isValid
 import org.kethereum.model.Address
 import org.kethereum.rpc.HttpEthereumRPC
+import kotlin.io.OnErrorAction.*
 
 val parsedShortNames = mutableSetOf<String>()
 val parsedNames = mutableSetOf<String>()
@@ -15,15 +16,22 @@ val parsedNames = mutableSetOf<String>()
 val basePath = File("..")
 val dataPath = File(basePath, "_data")
 val iconsPath = File(dataPath, "icons")
+val iconsDownloadPath = File(dataPath, "iconsDownload")
 
 val chainsPath = File(dataPath, "chains")
 private val allFiles = chainsPath.listFiles() ?: error("${chainsPath.absolutePath} must contain the chain json files - but it does not")
 private val allChainFiles = allFiles.filter { !it.isDirectory }
 
+private val allIconFilesList = iconsPath.listFiles() ?: error("${iconsPath.absolutePath} must contain the icon json files - but it does not")
+private val allIconFiles = allIconFilesList.filter { !it.isDirectory }
+
 fun main(args: Array<String>) {
 
-    doChecks(doRPCConnect = args.contains("rpcConnect"))
-
+    doChecks(
+        doRPCConnect = args.contains("rpcConnect"),
+        doIconDownload = args.contains("iconDownload"),
+        verbose = args.contains("verbose")
+    )
     createOutputFiles()
 }
 
@@ -32,14 +40,18 @@ private fun createOutputFiles() {
 
     val chainJSONArray = JsonArray<JsonObject>()
     val miniChainJSONArray = JsonArray<JsonObject>()
+
+    val chainIconJSONArray = JsonArray<JsonObject>()
+
     val shortNameMapping = JsonObject()
 
+    // copy raw data so e.g. icons are available - SKIP errors
+    File(basePath, "_data").copyRecursively(buildPath, onError = { _, _ -> SKIP })
     allChainFiles
         .map { Klaxon().parseJsonObject(it.reader()) }
         .sortedBy { (it["chainId"] as Number).toLong() }
         .forEach { jsonObject ->
             chainJSONArray.add(jsonObject)
-
 
             val miniJSON = JsonObject()
             listOf("name", "chainId", "shortName", "networkId", "nativeCurrency", "rpc", "faucets", "infoURL").forEach { field ->
@@ -53,11 +65,29 @@ private fun createOutputFiles() {
 
         }
 
+    allIconFiles
+        .forEach { iconLocation ->
+
+            val jsonData = Klaxon().parseJsonArray(iconLocation.reader())
+            val iconName = iconLocation.toString().replace("../_data/icons/", "").replace(".json", "")
+
+            val iconJson = JsonObject()
+            iconJson["name"] = iconName
+            iconJson["icons"] = jsonData
+
+            chainIconJSONArray.add(iconJson)
+        }
+
+    File(buildPath, "chains.json").writeText(chainJSONArray.toJsonString())
+
     File(buildPath, "chains.json").writeText(chainJSONArray.toJsonString())
     File(buildPath, "chains_pretty.json").writeText(chainJSONArray.toJsonString(prettyPrint = true))
 
     File(buildPath, "chains_mini.json").writeText(miniChainJSONArray.toJsonString())
     File(buildPath, "chains_mini_pretty.json").writeText(miniChainJSONArray.toJsonString(prettyPrint = true))
+
+    File(buildPath, "chain_icons_mini.json").writeText(chainIconJSONArray.toJsonString())
+    File(buildPath, "chain_icons.json").writeText(chainIconJSONArray.toJsonString(prettyPrint = true))
 
     File(buildPath, "shortNameMapping.json").writeText(shortNameMapping.toJsonString(prettyPrint = true))
     File(buildPath, "index.html").writeText(
@@ -83,14 +113,19 @@ private fun createOutputFiles() {
     File(buildPath, "CNAME").writeText("chainid.network")
 }
 
-private fun doChecks(doRPCConnect: Boolean) {
+private fun doChecks(doRPCConnect: Boolean, doIconDownload: Boolean, verbose: Boolean) {
     allChainFiles.forEach {
-        checkChain(it, doRPCConnect)
+        checkChain(it, doRPCConnect, verbose)
     }
 
     val allIcons = iconsPath.listFiles() ?: return
+    val allIconCIDs = mutableSetOf<String>()
     allIcons.forEach {
-        checkIcon(it)
+        checkIcon(it, doIconDownload, allIconCIDs, verbose)
+    }
+
+    iconsDownloadPath.listFiles().forEach {
+        if (!allIconCIDs.contains(it.name)) throw UnreferencedIcon(it.name, iconsDownloadPath)
     }
 
     allFiles.filter { it.isDirectory }.forEach { _ ->
@@ -98,10 +133,12 @@ private fun doChecks(doRPCConnect: Boolean) {
     }
 }
 
-fun checkIcon(icon: File) {
-    println("checking Icon " + icon.name)
+fun checkIcon(icon: File, withIconDownload: Boolean, allIconCIDs: MutableSet<String>, verbose: Boolean) {
     val obj: JsonArray<*> = Klaxon().parseJsonArray(icon.reader())
-    println("found variants " + obj.size)
+    if (verbose) {
+        println("checking Icon " + icon.name)
+        println("found variants " + obj.size)
+    }
     obj.forEach { it ->
         if (it !is JsonObject) {
             error("Icon variant must be an object")
@@ -111,6 +148,27 @@ fun checkIcon(icon: File) {
 
         if (url !is String || !url.startsWith("ipfs://")) {
             error("url must start with ipfs://")
+        }
+
+        allIconCIDs.add(url.removePrefix("ipfs://"))
+
+        if (withIconDownload) {
+
+
+            val iconCID = url.removePrefix("ipfs://")
+            try {
+
+                println("fetching Icon from IPFS $iconCID")
+
+                val iconBytes = ipfs.get.catBytes(iconCID)
+                println("Icon size" + iconBytes.size)
+
+                val outFile = File(iconsDownloadPath, iconCID)
+                outFile.createNewFile()
+                outFile.writeBytes(iconBytes)
+            } catch (e: Exception) {
+                println("could not fetch icon from IPFS")
+            }
         }
 
         val width = it["width"]
@@ -135,22 +193,24 @@ fun checkIcon(icon: File) {
     }
 }
 
-fun checkChain(chainFile: File, connectRPC: Boolean) {
-    println("processing $chainFile")
+fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
+    if (verbose) {
+        println("processing $chainFile")
+    }
 
     val jsonObject = Klaxon().parseJsonObject(chainFile.reader())
     val chainAsLong = getNumber(jsonObject, "chainId")
 
     if (chainFile.nameWithoutExtension.startsWith("eip155-")) {
-        if (chainAsLong != chainFile.nameWithoutExtension.replace("eip155-", "").toLongOrNull()) {
-            throw(FileNameMustMatchChainId())
+        if (chainAsLong.toString() != chainFile.nameWithoutExtension.replace("eip155-", "")) {
+            throw (FileNameMustMatchChainId())
         }
     } else {
-        throw(UnsupportedNamespace())
+        throw (UnsupportedNamespace())
     }
 
     if (chainFile.extension != "json") {
-        throw(ExtensionMustBeJSON())
+        throw (ExtensionMustBeJSON())
     }
 
     getNumber(jsonObject, "networkId")
@@ -183,7 +243,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
         if (symbol.length >= 7) {
             throw NativeCurrencySymbolMustHaveLessThan7Chars()
         }
-        if (it.keys != setOf("symbol","decimals","name")) {
+        if (it.keys != setOf("symbol", "decimals", "name")) {
             throw NativeCurrencyCanOnlyHaveSymbolNameAndDecimals()
         }
         if (it["decimals"] !is Int) {
@@ -205,20 +265,20 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
             }
 
             if (explorer["name"] == null) {
-                throw(ExplorerMustHaveName())
+                throw (ExplorerMustHaveName())
             }
 
             val url = explorer["url"]
-            if (url == null || url !is String || !url.startsWith("https://")) {
-                throw(ExplorerMustWithHttps())
+            if (url == null || url !is String || !(url.startsWith("https://") || url.startsWith("http://"))) {
+                throw (ExplorerMustWithHttpsOrHttp())
             }
 
             if (url.endsWith("/")) {
-                throw(ExplorerCannotEndInSlash())
+                throw (ExplorerCannotEndInSlash())
             }
 
             if (explorer["standard"] != "EIP3091" && explorer["standard"] != "none") {
-                throw(ExplorerStandardMustBeEIP3091OrNone())
+                throw (ExplorerStandardMustBeEIP3091OrNone())
             }
         }
     }
@@ -239,10 +299,25 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
         if (it !is String) {
             throw StatusMustBeString()
         }
-        if (!setOf("incubating","active","deprecated").contains(it)) {
+        if (!setOf("incubating", "active", "deprecated").contains(it)) {
             throw StatusMustBeIncubatingActiveOrDeprecated()
         }
     }
+
+    jsonObject["redFlags"]?.let { redFlags ->
+        if (redFlags !is List<*>) {
+            throw RedFlagsMustBeArray()
+        }
+        redFlags.forEach {
+            if (it !is String) {
+                throw RedFlagMustBeString()
+            }
+
+            if (!allowedRedFlags.contains(it))
+                throw (InvalidRedFlags(it))
+        }
+    }
+
     jsonObject["parent"]?.let {
         if (it !is JsonObject) {
             throw ParentMustBeObject()
@@ -256,6 +331,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
         if (extraParentFields.isNotEmpty()) {
             throw ParentHasExtraFields(extraParentFields)
         }
+
 
         val bridges = it["bridges"]
         if (bridges != null && bridges !is List<*>) {
@@ -286,7 +362,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
         if (jsonObject["rpc"] is List<*>) {
             (jsonObject["rpc"] as List<*>).forEach {
                 if (it !is String) {
-                    throw(RPCMustBeListOfStrings())
+                    throw (RPCMustBeListOfStrings())
                 } else {
                     println("connecting to $it")
                     val ethereumRPC = HttpEthereumRPC(it)
@@ -297,10 +373,12 @@ fun checkChain(chainFile: File, connectRPC: Boolean) {
             }
             println()
         } else {
-            throw(RPCMustBeList())
+            throw (RPCMustBeList())
         }
     }
 }
+
+fun String.normalizeName() = replace(" ", "").uppercase()
 
 /*
 moshi fails for extra commas
@@ -308,26 +386,28 @@ https://github.com/ethereum-lists/chains/issues/126
 */
 private fun parseWithMoshi(fileToParse: File) {
     val parsedChain = chainAdapter.fromJson(fileToParse.readText())
-    if (parsedNames.contains(parsedChain!!.name)) {
-        throw NameMustBeUnique(parsedChain.name)
+    val parsedChainNormalizedName = parsedChain!!.name.normalizeName()
+    if (parsedNames.contains(parsedChainNormalizedName)) {
+        throw NameMustBeUnique(parsedChainNormalizedName)
     }
-    parsedNames.add(parsedChain.name)
+    parsedNames.add(parsedChainNormalizedName)
 
-    if (parsedShortNames.contains(parsedChain.shortName)) {
-        throw ShortNameMustBeUnique(parsedChain.shortName)
+    val parsedChainNormalizedShortName = parsedChain.shortName.normalizeName()
+    if (parsedShortNames.contains(parsedChainNormalizedShortName)) {
+        throw ShortNameMustBeUnique(parsedChainNormalizedShortName)
     }
 
-    if (parsedChain.shortName == "*") {
+    if (parsedChainNormalizedShortName == "*") {
         throw ShortNameMustNotBeStar()
     }
 
-    parsedShortNames.add(parsedChain.shortName)
+    parsedShortNames.add(parsedChainNormalizedShortName)
 }
 
 private fun getNumber(jsonObject: JsonObject, field: String): Long {
     return when (val chainId = jsonObject[field]) {
         is Int -> chainId.toLong()
         is Long -> chainId
-        else -> throw(Exception("chain_id must be a number"))
+        else -> throw (Exception("not a number at $field"))
     }
 }

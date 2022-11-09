@@ -13,14 +13,21 @@
   "chainId": 288,
   "networkId": 288,
 
-  "explorers": [{
-    "name": "Blockscout",
-    "url": "https://blockexplorer.boba.network",
-    "standard": "none"
-  }],
+  "explorers": [
+    {
+      "name": "Bobascan",
+      "url": "https://bobascan.com",
+      "standard": "none"
+    },
+    {
+      "name": "Blockscout",
+      "url": "https://blockexplorer.boba.network",
+      "standard": "none"
+    }
+  ],
   "parent": {
-     "type" : "L2",
-     "chain": "eip155-1",
-     "bridges": [ {"url":"https://gateway.boba.network"} ]
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://gateway.boba.network" }]
   }
 }

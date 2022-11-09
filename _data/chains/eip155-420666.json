@@ -1,0 +1,24 @@
+{
+  "name": "Kekchain (kektest)",
+  "chain": "kek",
+  "rpc": ["https://testnet.kekchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "tKEK",
+    "symbol": "tKEK",
+    "decimals": 18
+  },
+  "infoURL": "https://kekchain.com",
+  "shortName": "tKEK",
+  "chainId": 420666,
+  "networkId": 1,
+  "icon": "kek",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://testnet-explorer.kekchain.com",
+      "icon": "kek",
+      "standard": "EIP3091"
+    }
+  ]
+}

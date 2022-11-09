@@ -2,12 +2,14 @@
   "name": "Sepolia",
   "title": "Ethereum Testnet Sepolia",
   "chain": "ETH",
-  "network": "testnet",
   "rpc": [
+    "https://rpc.sepolia.dev",
+    "https://rpc.sepolia.online",
+    "https://www.sepoliarpc.space",
+    "https://rpc.sepolia.org",
+    "https://rpc-sepolia.rockx.com"
   ],
-  "faucets": [
-    "http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"
-  ],
+  "faucets": ["http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "SEP",
@@ -18,6 +20,11 @@
   "chainId": 11155111,
   "networkId": 11155111,
   "explorers": [
+    {
+      "name": "etherscan-sepolia",
+      "url": "https://sepolia.etherscan.io",
+      "standard": "EIP3091"
+    },
     {
       "name": "otterscan-sepolia",
       "url": "https://sepolia.otterscan.io",
