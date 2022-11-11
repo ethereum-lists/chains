@@ -19,4 +19,4 @@ jobs:
             ${{ runner.os }}-npm-
       - name: Run prettier
         run: |-
-          npx prettier --check '_data/chains/eip-155-67390.json'
+          npx prettier --check '_data/*/*.json'
