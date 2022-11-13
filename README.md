@@ -8,7 +8,6 @@ The source data is in _data/chains. Each chain has its own file with the filenam
 {
   "name": "Ethereum Mainnet",
   "chain": "ETH",
-  "network": "mainnet",
   "rpc": [
     "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
     "https://api.mycryptoapi.com/eth"
@@ -50,7 +49,7 @@ when an icon is used in either the network or a explorer there must be a json in
 
 where:
  * the URL must be a IPFS url that is publicly resolveable
- * width and height are optional - but when one is there then the other must be there also
+ * width and height are positive integers
  * format is either "png", "jpg" or "svg"
 
 If the chain is an L2 or a shard of another chain you can link it to the parent chain like this:
@@ -78,6 +77,13 @@ There are also aggregated json files with all chains automatically assembled:
  * https://chainid.network/chains.json
  * https://chainid.network/chains_mini.json (miniaturized - fewer fields for smaller filesize)
 
+## Constraints
+
+ * the shortName and name MUST be unique - see e.g. EIP-3770 on why
+ * if referencing a parent chain - the chain MUST exist in the repo
+ * if using a IPFS CID for the icon - the CID MUST be retrievable via `ipfs get` - not only through some gateway (means please do not use pinata for now)
+ * for more constraints you can look into the CI
+ 
 ## Collision management
 
  If different chains have the same chainID we list the one with the oldest genesis.
@@ -114,6 +120,7 @@ There are also aggregated json files with all chains automatically assembled:
  * [chainlist.in](https://www.chainlist.in)
  * [chainz.me](https://chainz.me)
  * [Chainlink docs](https://docs.chain.link/)
+ * [Wagmi compatible chain configurations](https://spenhouet.com/chains)
 
 ### Other
  * [FaucETH](https://github.com/komputing/FaucETH)

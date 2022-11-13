@@ -5,8 +5,7 @@
     "https://devnet-s5-ethapi.quarkchain.io",
     "http://eth-jrpc.devnet.quarkchain.io:39905"
   ],
-  "faucets": [
-  ],
+  "faucets": [],
   "nativeCurrency": {
     "name": "QKC",
     "symbol": "QKC",
@@ -20,9 +19,11 @@
     "chain": "eip155-110000",
     "type": "shard"
   },
-  "explorers": [{
-    "name": "quarkchain-devnet",
-    "url": "https://devnet.quarkchain.io/5",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "quarkchain-devnet",
+      "url": "https://devnet.quarkchain.io/5",
+      "standard": "EIP3091"
+    }
+  ]
 }

@@ -1,11 +1,8 @@
 {
   "name": "AIOZ Network Testnet",
   "chain": "AIOZ",
-  "network": "testnet",
   "icon": "aioz",
-  "rpc": [
-    "https://eth-ds.testnet.aioz.network"
-  ],
+  "rpc": ["https://eth-ds.testnet.aioz.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "testAIOZ",
@@ -17,9 +14,11 @@
   "chainId": 4102,
   "networkId": 4102,
   "slip44": 60,
-  "explorers": [{
-    "name": "AIOZ Network Testnet Explorer",
-    "url": "https://testnet.explorer.aioz.network",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "AIOZ Network Testnet Explorer",
+      "url": "https://testnet.explorer.aioz.network",
+      "standard": "EIP3091"
+    }
+  ]
 }
