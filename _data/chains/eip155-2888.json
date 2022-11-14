@@ -1,9 +1,7 @@
 {
   "name": "Boba Network Goerli Testnet",
   "chain": "ETH",
-  "rpc": [
-    "https://goerli.boba.network/"
-  ],
+  "rpc": ["https://goerli.boba.network/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Görli Ether",
