@@ -3886,6 +3886,19 @@
   "faucets": [],
   "infoURL": "https://filecoin.io"
 }, {
+  "name": "Debounce Subnet Testnet",
+  "chainId": 3306,
+  "shortName": "debounce-devnet",
+  "networkId": 3306,
+  "nativeCurrency": {
+    "name": "Debounce Network",
+    "symbol": "DB",
+    "decimals": 18
+  },
+  "rpc": ["https://dev-rpc.debounce.network"],
+  "faucets": [],
+  "infoURL": "https://debounce.network"
+}, {
   "name": "ZCore Testnet",
   "chainId": 3331,
   "shortName": "zcrbeach",
