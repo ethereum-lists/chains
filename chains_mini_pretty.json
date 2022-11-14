@@ -5719,6 +5719,19 @@
   "faucets": ["https://faucet.tst.ecredits.com"],
   "infoURL": "https://ecredits.com"
 }, {
+  "name": "SiriusNet",
+  "chainId": 67390,
+  "shortName": "mcl",
+  "networkId": 67390,
+  "nativeCurrency": {
+    "name": "MCD",
+    "symbol": "MCD",
+    "decimals": 18
+  },
+  "rpc": ["https://u0tnafcv6j:o2T045sxuCNXL878RDQLp5__Zj-es2cvdjtgkl4etn0@u0v7kwtvtg-u0wj114sve-rpc.us0-aws.kaleido.io/"],
+  "faucets": [],
+  "infoURL": "https://macaucasinolisboa.xyz"
+}, {
   "name": "Condrieu",
   "chainId": 69420,
   "shortName": "cndr",
