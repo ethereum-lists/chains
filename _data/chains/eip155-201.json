@@ -1,7 +1,7 @@
 {
   "name": "MOAC testnet",
   "chain": "MOAC",
-  "rpc": ["http://gateway.moac.io/testnet"],
+  "rpc": ["https://gateway.moac.io/testnet"],
   "faucets": [],
   "nativeCurrency": {
     "name": "MOAC",
