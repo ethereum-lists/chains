@@ -6551,9 +6551,9 @@
   "faucets": [],
   "infoURL": "https://arbitrum.io/"
 }, {
-  "name": "Dexalot Testnet",
+  "name": "Dexalot Subnet Testnet",
   "chainId": 432201,
-  "shortName": "Dexalot",
+  "shortName": "dexalot-testnet",
   "networkId": 432201,
   "nativeCurrency": {
     "name": "Dexalot",
@@ -6561,7 +6561,20 @@
     "decimals": 18
   },
   "rpc": ["https://subnets.avax.network/dexalot/testnet/rpc"],
-  "faucets": ["https://sfaucet.dexalot-test.com"],
+  "faucets": ["https://faucet.avax.network/?subnet=dexalot"],
+  "infoURL": "https://dexalot.com"
+}, {
+  "name": "Dexalot Subnet",
+  "chainId": 432204,
+  "shortName": "dexalot",
+  "networkId": 432204,
+  "nativeCurrency": {
+    "name": "Dexalot",
+    "symbol": "ALOT",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/dexalot/mainnet/rpc"],
+  "faucets": [],
   "infoURL": "https://dexalot.com"
 }, {
   "name": "Weelink Testnet",
