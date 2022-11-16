@@ -8,6 +8,7 @@ import org.ethereum.lists.chains.model.*
 import org.kethereum.erc55.isValid
 import org.kethereum.model.Address
 import org.kethereum.rpc.HttpEthereumRPC
+import javax.imageio.ImageIO
 import kotlin.io.OnErrorAction.*
 
 val parsedShortNames = mutableSetOf<String>()
@@ -152,10 +153,11 @@ fun checkIcon(icon: File, withIconDownload: Boolean, allIconCIDs: MutableSet<Str
 
         allIconCIDs.add(url.removePrefix("ipfs://"))
 
-        if (withIconDownload) {
+        val iconCID = url.removePrefix("ipfs://")
+        val iconDownloadFile = File(iconsDownloadPath, iconCID)
 
+        if (!iconDownloadFile.exists() && withIconDownload) {
 
-            val iconCID = url.removePrefix("ipfs://")
             try {
 
                 println("fetching Icon from IPFS $iconCID")
@@ -163,13 +165,14 @@ fun checkIcon(icon: File, withIconDownload: Boolean, allIconCIDs: MutableSet<Str
                 val iconBytes = ipfs.get.catBytes(iconCID)
                 println("Icon size" + iconBytes.size)
 
-                val outFile = File(iconsDownloadPath, iconCID)
-                outFile.createNewFile()
-                outFile.writeBytes(iconBytes)
+
+                iconDownloadFile.createNewFile()
+                iconDownloadFile.writeBytes(iconBytes)
             } catch (e: Exception) {
                 println("could not fetch icon from IPFS")
             }
         }
+
 
         val width = it["width"]
         val height = it["height"]
@@ -189,6 +192,28 @@ fun checkIcon(icon: File, withIconDownload: Boolean, allIconCIDs: MutableSet<Str
         val format = it["format"]
         if (format !is String || (format != "png" && format != "svg")) {
             error("Icon format must be a png or svg but was $format")
+        }
+
+        if (iconDownloadFile.exists()) {
+            try {
+                val imageInputStream = ImageIO.createImageInputStream(iconDownloadFile)
+                val imageReader = ImageIO.getImageReaders(imageInputStream).next()
+                val image = ImageIO.read(imageInputStream)
+
+                if (imageReader.formatName != format) {
+                    error("format in json ($icon) is $format but actually is in imageDownload ${imageReader.formatName}")
+                }
+                if (image.width != width) {
+                    error("width in json ($icon) is $width but actually is in imageDownload ${image.width}")
+                }
+
+                if (image.raster.height != height) {
+                    error("width in json ($icon) is $height but actually is in imageDownload ${image.height}")
+                }
+            } catch (e: Exception) {
+                e.printStackTrace()
+                error("problem with image $iconDownloadFile")
+            }
         }
     }
 }
