@@ -3444,6 +3444,32 @@
   "faucets": [],
   "infoURL": "https://boyanet.org"
 }, {
+  "name": "ONUS Chain Testnet",
+  "chainId": 1945,
+  "shortName": "onus-testnet",
+  "networkId": 1945,
+  "nativeCurrency": {
+    "name": "ONUS",
+    "symbol": "ONUS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.onuschain.io"],
+  "faucets": [],
+  "infoURL": "https://onuschain.io"
+}, {
+  "name": "ONUS Chain Mainnet",
+  "chainId": 1975,
+  "shortName": "onus-mainnet",
+  "networkId": 1975,
+  "nativeCurrency": {
+    "name": "ONUS",
+    "symbol": "ONUS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.onuschain.io", "wss://ws.onuschain.io"],
+  "faucets": [],
+  "infoURL": "https://onuschain.io"
+}, {
   "name": "Eurus Testnet",
   "chainId": 1984,
   "shortName": "euntest",
