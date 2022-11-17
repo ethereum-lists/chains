@@ -1,9 +1,7 @@
 {
   "name": "Aurora Betanet",
   "chain": "NEAR",
-  "rpc": [
-    "https://betanet.aurora.dev/"
-  ],
+  "rpc": ["https://betanet.aurora.dev/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

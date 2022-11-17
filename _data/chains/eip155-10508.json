@@ -1,0 +1,26 @@
+{
+  "name": "Numbers Testnet",
+  "chain": "NUM",
+  "icon": "num",
+  "rpc": ["https://testnetrpc.num.network"],
+  "faucets": [
+    "https://faucet.avax.network/?subnet=num",
+    "https://faucet.num.network"
+  ],
+  "nativeCurrency": {
+    "name": "NUM Token",
+    "symbol": "NUM",
+    "decimals": 18
+  },
+  "infoURL": "https://numbersprotocol.io",
+  "shortName": "Snow",
+  "chainId": 10508,
+  "networkId": 10508,
+  "explorers": [
+    {
+      "name": "ethernal",
+      "url": "https://testnet.num.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

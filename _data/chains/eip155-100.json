@@ -1,5 +1,5 @@
 {
-  "name": "Gnosis Chain",
+  "name": "Gnosis",
   "chain": "GNO",
   "icon": "gnosis",
   "rpc": [
@@ -9,21 +9,34 @@
     "https://gnosis-mainnet.public.blastapi.io",
     "wss://rpc.gnosischain.com/wss"
   ],
-  "faucets": ["https://faucet.gimlu.com/gnosis", "https://stakely.io/faucet/gnosis-chain-xdai", "https://faucet.prussia.dev/xdai"],
+  "faucets": [
+    "https://gnosisfaucet.com",
+    "https://faucet.gimlu.com/gnosis",
+    "https://stakely.io/faucet/gnosis-chain-xdai",
+    "https://faucet.prussia.dev/xdai"
+  ],
   "nativeCurrency": {
     "name": "xDAI",
     "symbol": "xDAI",
     "decimals": 18
   },
-  "infoURL": "https://developers.gnosischain.com",
+  "infoURL": "https://docs.gnosischain.com",
   "shortName": "gno",
   "chainId": 100,
   "networkId": 100,
   "slip44": 700,
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://blockscout.com/xdai/mainnet",
-    "icon": "blockscout",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "gnosisscan",
+      "url": "https://gnosisscan.io",
+      "icon": "gnosisscan",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "blockscout",
+      "url": "https://blockscout.com/xdai/mainnet",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
 }

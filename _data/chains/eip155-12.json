@@ -1,9 +1,7 @@
 {
   "name": "Metadium Testnet",
   "chain": "META",
-  "rpc": [
-    "https://api.metadium.com/dev"
-  ],
+  "rpc": ["https://api.metadium.com/dev"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Metadium Testnet Ether",

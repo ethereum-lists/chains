@@ -24,9 +24,11 @@
   "chainId": 955305,
   "networkId": 955305,
   "slip44": 1011,
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://explorer.eluv.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.eluv.io",
+      "standard": "EIP3091"
+    }
+  ]
 }
