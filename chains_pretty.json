@@ -759,7 +759,7 @@
 }, {
   "name": "Darwinia Pangoro Testnet",
   "chain": "pangoro",
-  "rpc": ["http://pangoro-rpc.darwinia.network"],
+  "rpc": ["https://pangoro-rpc.darwinia.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Pangoro Network Native Token\u201d",
@@ -778,7 +778,7 @@
 }, {
   "name": "Darwinia Network",
   "chain": "darwinia",
-  "rpc": ["https://darwinia-rpc.darwinia.network"],
+  "rpc": ["https://rpc.darwinia.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Darwinia Network Native Token",
