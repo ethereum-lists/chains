@@ -798,7 +798,7 @@
 }, {
   "name": "Ennothem Mainnet Proterozoic",
   "chain": "ETMP",
-  "rpc": ["https://rpc.etm.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ennothem",
@@ -4074,7 +4074,7 @@
 }, {
   "name": "Bronos Mainnet",
   "chain": "Bronos",
-  "rpc": ["https://evm.bronos.org"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "BRO",
@@ -4121,7 +4121,7 @@
 }, {
   "name": "MOAC mainnet",
   "chain": "MOAC",
-  "rpc": ["https://gateway.moac.io/mainnet"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "MOAC",
@@ -6567,7 +6567,7 @@
 }, {
   "name": "Qitmeer Network Testnet",
   "chain": "MEER",
-  "rpc": ["https://explorer.qitmeer.io/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Qitmeer Testnet",
@@ -7243,7 +7243,7 @@
   "name": "Shyft Testnet",
   "chain": "SHYFTT",
   "icon": "shyft",
-  "rpc": ["https://rpc.testnet.shyft.network/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Shyft Test Token",
@@ -7622,7 +7622,7 @@
 }, {
   "name": "Webchain",
   "chain": "WEB",
-  "rpc": ["https://node1.webchain.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Webchain Ether",
@@ -10759,7 +10759,7 @@
 }, {
   "name": "Aurora Betanet",
   "chain": "NEAR",
-  "rpc": ["https://betanet.aurora.dev/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
