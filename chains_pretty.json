@@ -9830,11 +9830,9 @@
   "shortName": "psc-s0",
   "chainId": 900000,
   "networkId": 900000,
-  "icon": "posichain",
   "explorers": [{
     "name": "Posichain Explorer",
     "url": "https://explorer.posichain.org",
-    "icon": "posichain",
     "standard": "EIP3091"
   }]
 }, {
@@ -9851,11 +9849,9 @@
   "shortName": "psc-t-s0",
   "chainId": 910000,
   "networkId": 910000,
-  "icon": "posichain",
   "explorers": [{
     "name": "Posichain Explorer Testnet",
     "url": "https://explorer-testnet.posichain.org",
-    "icon": "posichain",
     "standard": "EIP3091"
   }]
 }, {
@@ -9872,11 +9868,9 @@
   "shortName": "psc-d-s0",
   "chainId": 920000,
   "networkId": 920000,
-  "icon": "posichain",
   "explorers": [{
     "name": "Posichain Explorer Devnet",
     "url": "https://explorer-devnet.posichain.org",
-    "icon": "posichain",
     "standard": "EIP3091"
   }]
 }, {
@@ -9893,11 +9887,9 @@
   "shortName": "psc-d-s1",
   "chainId": 920001,
   "networkId": 920001,
-  "icon": "posichain",
   "explorers": [{
     "name": "Posichain Explorer Devnet",
     "url": "https://explorer-devnet.posichain.org",
-    "icon": "posichain",
     "standard": "EIP3091"
   }]
 }, {
@@ -10871,7 +10863,6 @@
 }, {
   "name": "Palm Testnet",
   "chain": "Palm",
-  "icon": "palm",
   "rpc": ["https://palm-testnet.infura.io/v3/${INFURA_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
@@ -10886,13 +10877,11 @@
   "explorers": [{
     "name": "Palm Testnet Explorer",
     "url": "https://explorer.palm-uat.xyz",
-    "standard": "EIP3091",
-    "icon": "palm"
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Palm",
   "chain": "Palm",
-  "icon": "palm",
   "rpc": ["https://palm-mainnet.infura.io/v3/${INFURA_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
@@ -10907,8 +10896,7 @@
   "explorers": [{
     "name": "Palm Explorer",
     "url": "https://explorer.palm.io",
-    "standard": "EIP3091",
-    "icon": "palm"
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Ntity Mainnet",
