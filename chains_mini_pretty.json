@@ -298,18 +298,18 @@
   "faucets": [],
   "infoURL": "https://elaeth.io/"
 }, {
-  "name": "Dithereum Mainnet",
+  "name": "KardiaChain Mainnet",
   "chainId": 24,
-  "shortName": "dthmainnet",
-  "networkId": 24,
+  "shortName": "kardiachain",
+  "networkId": 0,
   "nativeCurrency": {
-    "name": "Dither",
-    "symbol": "DTH",
+    "name": "KardiaChain",
+    "symbol": "KAI",
     "decimals": 18
   },
-  "rpc": ["https://node-mainnet.dithereum.io"],
-  "faucets": ["https://faucet.dithereum.org"],
-  "infoURL": "https://dithereum.org"
+  "rpc": ["https://rpc.kardiachain.io"],
+  "faucets": [],
+  "infoURL": "https://kardiachain.io"
 }, {
   "name": "Cronos Mainnet Beta",
   "chainId": 25,
