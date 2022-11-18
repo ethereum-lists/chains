@@ -1676,6 +1676,19 @@
   "faucets": ["http://faucet.freight.sh"],
   "infoURL": "https://freighttrust.com"
 }, {
+  "name": "MAP Makalu",
+  "chainId": 212,
+  "shortName": "makalu",
+  "networkId": 212,
+  "nativeCurrency": {
+    "name": "Makalu MAP",
+    "symbol": "MAP",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.maplabs.io"],
+  "faucets": ["https://faucet.maplabs.io"],
+  "infoURL": "https://maplabs.io"
+}, {
   "name": "SoterOne Mainnet old",
   "chainId": 218,
   "shortName": "SO1-old",
@@ -5198,6 +5211,19 @@
   "rpc": ["https://taycan-rpc.hupayx.io:8545"],
   "faucets": [],
   "infoURL": "https://hupayx.io"
+}, {
+  "name": "MAP Mainnet",
+  "chainId": 22776,
+  "shortName": "map",
+  "networkId": 22776,
+  "nativeCurrency": {
+    "name": "MAP",
+    "symbol": "MAP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.maplabs.io"],
+  "faucets": [],
+  "infoURL": "https://maplabs.io"
 }, {
   "name": "Opside Testnet",
   "chainId": 23118,

@@ -2360,6 +2360,26 @@
   "chainId": 211,
   "networkId": 0
 }, {
+  "name": "MAP Makalu",
+  "title": "MAP Testnet Makalu",
+  "chain": "MAP",
+  "rpc": ["https://testnet-rpc.maplabs.io"],
+  "faucets": ["https://faucet.maplabs.io"],
+  "nativeCurrency": {
+    "name": "Makalu MAP",
+    "symbol": "MAP",
+    "decimals": 18
+  },
+  "infoURL": "https://maplabs.io",
+  "shortName": "makalu",
+  "chainId": 212,
+  "networkId": 212,
+  "explorers": [{
+    "name": "mapscan",
+    "url": "https://testnet.mapscan.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "SoterOne Mainnet old",
   "chain": "SOTER",
   "rpc": ["https://rpc.soter.one"],
@@ -7503,6 +7523,27 @@
     "url": "https://taycan-cosmoscan.hupayx.io",
     "standard": "none",
     "icon": "shuffle"
+  }]
+}, {
+  "name": "MAP Mainnet",
+  "chain": "MAP",
+  "icon": "map",
+  "rpc": ["https://rpc.maplabs.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MAP",
+    "symbol": "MAP",
+    "decimals": 18
+  },
+  "infoURL": "https://maplabs.io",
+  "shortName": "map",
+  "chainId": 22776,
+  "networkId": 22776,
+  "slip44": 60,
+  "explorers": [{
+    "name": "mapscan",
+    "url": "https://mapscan.io",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Opside Testnet",
