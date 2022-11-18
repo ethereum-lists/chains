@@ -7214,6 +7214,19 @@
   "faucets": [],
   "infoURL": "https://oneledger.io"
 }, {
+  "name": "Calypso NFT Hub | SKALE Testnet",
+  "chainId": 344106930,
+  "shortName": "calypso-testnet",
+  "networkId": 344106930,
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "rpc": ["https://staging-v3.skalenodes.com/v1/staging-utter-unripe-menkar"],
+  "faucets": ["https://sfuel.dirtroad.dev/staging"],
+  "infoURL": "https://calypsohub.network/"
+}, {
   "name": "Gather Testnet Network",
   "chainId": 356256156,
   "shortName": "tGTH",
@@ -7317,6 +7330,19 @@
   "rpc": ["https://mainnet.skalenodes.com/v1/green-giddy-denebola", "wss://mainnet-proxy.skalenodes.com/v1/ws/green-giddy-denebola"],
   "faucets": [],
   "infoURL": "https://nebulachain.io/"
+}, {
+  "name": "Calypso NFT Hub | SKALE",
+  "chainId": 1564830818,
+  "shortName": "calypso-mainnet",
+  "networkId": 1564830818,
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.skalenodes.com/v1/honorable-steel-rasalhague"],
+  "faucets": ["https://sfuel.dirtroad.dev"],
+  "infoURL": "https://calypsohub.network/"
 }, {
   "name": "Harmony Mainnet Shard 0",
   "chainId": 1666600000,
