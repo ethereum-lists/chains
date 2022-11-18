@@ -3704,6 +3704,19 @@
   "faucets": [],
   "infoURL": "https://ecoball.org"
 }, {
+  "name": "Exosama Network",
+  "chainId": 2109,
+  "shortName": "exn",
+  "networkId": 2109,
+  "nativeCurrency": {
+    "name": "Sama Token",
+    "symbol": "SAMA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.exosama.com", "wss://rpc.exosama.com"],
+  "faucets": [],
+  "infoURL": "https://moonsama.com"
+}, {
   "name": "BOSagora Mainnet",
   "chainId": 2151,
   "shortName": "boa",
