@@ -1,9 +1,11 @@
 {
   "name": "PolySmartChain",
   "chain": "PSC",
-  "rpc": ["https://seed0.polysmartchain.com/",
-          "https://seed1.polysmartchain.com/",
-          "https://seed2.polysmartchain.com/"],
+  "rpc": [
+    "https://seed0.polysmartchain.com/",
+    "https://seed1.polysmartchain.com/",
+    "https://seed2.polysmartchain.com/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "PSC",
