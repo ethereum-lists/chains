@@ -6085,6 +6085,22 @@
   "networkId": 5234,
   "explorers": []
 }, {
+  "name": "Firechain Mainnet",
+  "chain": "FIRE",
+  "icon": "firechain",
+  "rpc": ["https://mainnet.rpc1.thefirechain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Firechain",
+    "symbol": "FIRE",
+    "decimals": 18
+  },
+  "infoURL": "https://thefirechain.com",
+  "shortName": "fire",
+  "chainId": 5290,
+  "networkId": 5290,
+  "explorers": []
+}, {
   "name": "Uzmi Network Mainnet",
   "chain": "UZMI",
   "rpc": ["https://network.uzmigames.com.br/"],
@@ -6822,6 +6838,22 @@
   "shortName": "GENEC",
   "chainId": 9100,
   "networkId": 9100
+}, {
+  "name": "Rinia Testnet",
+  "chain": "FIRE",
+  "icon": "rinia",
+  "rpc": ["https://rinia.rpc1.thefirechain.com"],
+  "faucets": ["https://faucet.thefirechain.com"],
+  "nativeCurrency": {
+    "name": "Firechain",
+    "symbol": "FIRE",
+    "decimals": 18
+  },
+  "infoURL": "https://thefirechain.com",
+  "shortName": "tfire",
+  "chainId": 9170,
+  "networkId": 9170,
+  "explorers": []
 }, {
   "name": "Rangers Protocol Testnet Robin",
   "chain": "Rangers",

@@ -4263,6 +4263,19 @@
   "faucets": [],
   "infoURL": "https://humanode.io"
 }, {
+  "name": "Firechain Mainnet",
+  "chainId": 5290,
+  "shortName": "fire",
+  "networkId": 5290,
+  "nativeCurrency": {
+    "name": "Firechain",
+    "symbol": "FIRE",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.rpc1.thefirechain.com"],
+  "faucets": [],
+  "infoURL": "https://thefirechain.com"
+}, {
   "name": "Uzmi Network Mainnet",
   "chainId": 5315,
   "shortName": "UZMI",
@@ -4743,6 +4756,19 @@
   "rpc": ["https://genesis-gn.com", "wss://genesis-gn.com"],
   "faucets": [],
   "infoURL": "https://genesis-gn.com"
+}, {
+  "name": "Rinia Testnet",
+  "chainId": 9170,
+  "shortName": "tfire",
+  "networkId": 9170,
+  "nativeCurrency": {
+    "name": "Firechain",
+    "symbol": "FIRE",
+    "decimals": 18
+  },
+  "rpc": ["https://rinia.rpc1.thefirechain.com"],
+  "faucets": ["https://faucet.thefirechain.com"],
+  "infoURL": "https://thefirechain.com"
 }, {
   "name": "Rangers Protocol Testnet Robin",
   "chainId": 9527,
