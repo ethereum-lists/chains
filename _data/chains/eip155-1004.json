@@ -1,9 +1,8 @@
 {
   "name": "T-Ekta",
+  "title": "Ekta Testnet T-Ekta",
   "chain": "T-EKTA",
-  "rpc": [
-    "https://test.ekta.io:8545"
-  ],
+  "rpc": ["https://test.ekta.io:8545"],
   "faucets": [],
   "nativeCurrency": {
     "name": "T-EKTA",
