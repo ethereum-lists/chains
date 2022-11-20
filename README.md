@@ -92,6 +92,7 @@ There are also aggregated json files with all chains automatically assembled:
 ### Wallets
  * [WallETH](https://walleth.org)
  * [TREZOR](https://trezor.io)
+ * [Minerva Wallet](https://minerva.digital)
 
 ### Explorers
  * [Otterscan](https://otterscan.io)
