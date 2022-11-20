@@ -8,6 +8,7 @@ import org.ethereum.lists.chains.model.*
 import org.kethereum.erc55.isValid
 import org.kethereum.model.Address
 import org.kethereum.rpc.HttpEthereumRPC
+import java.math.BigInteger
 import javax.imageio.ImageIO
 import kotlin.io.OnErrorAction.*
 
@@ -224,10 +225,10 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
     }
 
     val jsonObject = Klaxon().parseJsonObject(chainFile.reader())
-    val chainAsLong = getNumber(jsonObject, "chainId")
+    val chainIdAsLong = getNumber(jsonObject, "chainId")
 
     if (chainFile.nameWithoutExtension.startsWith("eip155-")) {
-        if (chainAsLong.toString() != chainFile.nameWithoutExtension.replace("eip155-", "")) {
+        if (chainIdAsLong.toString() != chainFile.nameWithoutExtension.replace("eip155-", "")) {
             throw (FileNameMustMatchChainId())
         }
     } else {
@@ -389,11 +390,24 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
                 if (it !is String) {
                     throw (RPCMustBeListOfStrings())
                 } else {
-                    println("connecting to $it")
-                    val ethereumRPC = HttpEthereumRPC(it)
-                    println("Client:" + ethereumRPC.clientVersion())
-                    println("BlockNumber:" + ethereumRPC.blockNumber())
-                    println("GasPrice:" + ethereumRPC.gasPrice())
+                    var chainId: BigInteger? = null
+                    try {
+                        println("connecting to $it")
+                        val ethereumRPC = HttpEthereumRPC(it)
+
+                        println("Client:" + ethereumRPC.clientVersion())
+                        println("BlockNumber:" + ethereumRPC.blockNumber())
+                        println("GasPrice:" + ethereumRPC.gasPrice())
+
+                        chainId = ethereumRPC.chainId()?.value
+                    } catch (e: Exception) {
+
+                    }
+                    chainId?.let { chainId ->
+                        if (chainIdAsLong != chainId.toLong()) {
+                            error("RPC chainId (${chainId.toLong()}) does not match chainId from json ($chainIdAsLong)")
+                        }
+                    }
                 }
             }
             println()
