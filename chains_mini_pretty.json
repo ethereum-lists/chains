@@ -1351,6 +1351,32 @@
   "faucets": ["https://buy.dehvo.com"],
   "infoURL": "https://dehvo.com"
 }, {
+  "name": "DeBank Testnet",
+  "chainId": 115,
+  "shortName": "debank-testnet",
+  "networkId": 115,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": ""
+}, {
+  "name": "DeBank Mainnet",
+  "chainId": 116,
+  "shortName": "debank-mainnet",
+  "networkId": 116,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Fuse Mainnet",
   "chainId": 122,
   "shortName": "fuse",
