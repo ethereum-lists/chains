@@ -1,6 +1,6 @@
 {
-  "name": "Alyx Testnet",
-  "chain": "Alyx Testnet",
+  "name": "Alyx Chain Testnet",
+  "chain": "Alyx Chain Testnet",
   "rpc": [
     "https://testnet-rpc.alyxchain.com"
   ],
@@ -13,12 +13,12 @@
     "decimals": 18
   },
   "infoURL": "https://www.alyxchain.com",
-  "shortName": "alyx",
+  "shortName": "alyx testnet",
   "chainId": 135,
   "networkId": 135,
   "explorers": [
     {
-      "name": "alyxscan",
+      "name": "alyx testnet scan",
       "url": "https://testnet.alyxscan.com",
       "standard": "EIP3091"
     }
