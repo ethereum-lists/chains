@@ -4484,6 +4484,19 @@
   "faucets": [],
   "infoURL": "https://tombchain.com/"
 }, {
+  "name": "PolySmartChain",
+  "chainId": 6999,
+  "shortName": "psc",
+  "networkId": 6999,
+  "nativeCurrency": {
+    "name": "PSC",
+    "symbol": "PSC",
+    "decimals": 18
+  },
+  "rpc": ["https://seed0.polysmartchain.com/", "https://seed1.polysmartchain.com/", "https://seed2.polysmartchain.com/"],
+  "faucets": [],
+  "infoURL": "https://www.polysmartchain.com/"
+}, {
   "name": "Ella the heart",
   "chainId": 7027,
   "shortName": "ELLA",
