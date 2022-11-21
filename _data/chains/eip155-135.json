@@ -1,0 +1,26 @@
+{
+  "name": "Alyx Testnet",
+  "chain": "Alyx Testnet",
+  "rpc": [
+    "https://testnet-rpc.alyxchain.com"
+  ],
+  "faucets": [
+    "https://faucet.alyxchain.com"
+  ],
+  "nativeCurrency": {
+    "name": "Alyx Testnet Native Token",
+    "symbol": "ALYX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.alyxchain.com",
+  "shortName": "alyx",
+  "chainId": 135,
+  "networkId": 135,
+  "explorers": [
+    {
+      "name": "alyxscan",
+      "url": "https://testnet.alyxscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
