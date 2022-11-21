@@ -4068,6 +4068,32 @@
   "faucets": [],
   "infoURL": "https://jfinchain.com"
 }, {
+  "name": "Pandonet",
+  "chainId": 3601,
+  "shortName": "pando-mainnet",
+  "networkId": 3601,
+  "nativeCurrency": {
+    "name": "Pando token ",
+    "symbol": "PTX",
+    "decimals": 18
+  },
+  "rpc": ["https://eth-rpc-api.pandoproject.org/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.pandoproject.org/"
+}, {
+  "name": "Pando Testnet",
+  "chainId": 3602,
+  "shortName": "pando-testnet",
+  "networkId": 3602,
+  "nativeCurrency": {
+    "name": "Pando token ",
+    "symbol": "PTX",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.ethrpc.pandoproject.org/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.pandoproject.org/"
+}, {
   "name": "Metacodechain",
   "chainId": 3666,
   "shortName": "metacode",
