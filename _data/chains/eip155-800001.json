@@ -1,10 +1,7 @@
 {
   "name": "OctaSpace",
   "chain": "OCTA",
-  "rpc": [
-    "https://rpc.octa.space",
-    "wss://rpc.octa.space"
-  ],
+  "rpc": ["https://rpc.octa.space", "wss://rpc.octa.space"],
   "faucets": [],
   "nativeCurrency": {
     "name": "OctaSpace",
