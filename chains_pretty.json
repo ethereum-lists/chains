@@ -5868,6 +5868,7 @@
 }, {
   "name": "Pandonet",
   "chain": "Pando",
+  "icon": "pando",
   "rpc": ["https://eth-rpc-api.pandoproject.org/rpc"],
   "faucets": [],
   "nativeCurrency": {
@@ -5887,6 +5888,7 @@
 }, {
   "name": "Pando Testnet",
   "chain": "Pando",
+  "icon": "pando",
   "rpc": ["https://testnet.ethrpc.pandoproject.org/rpc"],
   "faucets": [],
   "nativeCurrency": {
