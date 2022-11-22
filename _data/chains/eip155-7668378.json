@@ -1,6 +1,7 @@
 {
     "name": "QL1 Testnet",
     "chain": "QOM",
+    "status": "incubating",
     "rpc": [
       "https://testnet.qom.one:8545"
     ],
@@ -14,7 +15,7 @@
     "shortName": "qom",
     "chainId": 7668378,
     "networkId": 7668378,
-    "icon": "qom",
+    "icon": "tqom",
     "explorers": [{
       "name": "QL1 Testnet Explorer",
       "url": "https://testnet.qom.one",
