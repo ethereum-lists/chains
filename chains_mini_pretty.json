@@ -1468,6 +1468,19 @@
   "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "infoURL": "https://www.hecochain.com"
 }, {
+  "name": "Alyx Chain Testnet",
+  "chainId": 135,
+  "shortName": "AlyxTestnet",
+  "networkId": 135,
+  "nativeCurrency": {
+    "name": "Alyx Testnet Native Token",
+    "symbol": "ALYX",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.alyxchain.com"],
+  "faucets": ["https://faucet.alyxchain.com"],
+  "infoURL": "https://www.alyxchain.com"
+}, {
   "name": "Polygon Mainnet",
   "chainId": 137,
   "shortName": "matic",
@@ -3235,6 +3248,19 @@
   "rpc": ["https://test.doschain.com/jsonrpc"],
   "faucets": [],
   "infoURL": "http://doschain.io/"
+}, {
+  "name": "Alyx Mainnet",
+  "chainId": 1314,
+  "shortName": "alyx",
+  "networkId": 1314,
+  "nativeCurrency": {
+    "name": "Alyx Chain Native Token",
+    "symbol": "ALYX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.alyxchain.com"],
+  "faucets": [],
+  "infoURL": "https://www.alyxchain.com"
 }, {
   "name": "Aitd Mainnet",
   "chainId": 1319,

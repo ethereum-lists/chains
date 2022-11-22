@@ -2068,6 +2068,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Alyx Chain Testnet",
+  "chain": "Alyx Chain Testnet",
+  "rpc": ["https://testnet-rpc.alyxchain.com"],
+  "faucets": ["https://faucet.alyxchain.com"],
+  "nativeCurrency": {
+    "name": "Alyx Testnet Native Token",
+    "symbol": "ALYX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.alyxchain.com",
+  "shortName": "AlyxTestnet",
+  "chainId": 135,
+  "networkId": 135,
+  "explorers": [{
+    "name": "alyx testnet scan",
+    "url": "https://testnet.alyxscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Polygon Mainnet",
   "chain": "Polygon",
   "rpc": ["https://polygon-rpc.com/", "https://rpc-mainnet.matic.network", "https://matic-mainnet.chainstacklabs.com", "https://rpc-mainnet.maticvigil.com", "https://rpc-mainnet.matic.quiknode.pro", "https://matic-mainnet-full-rpc.bwarelabs.com", "https://polygon-bor.publicnode.com"],
@@ -4577,6 +4596,25 @@
   "explorers": [{
     "name": "dos-testnet",
     "url": "https://test.doscan.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Alyx Mainnet",
+  "chain": "ALYX",
+  "rpc": ["https://rpc.alyxchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Alyx Chain Native Token",
+    "symbol": "ALYX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.alyxchain.com",
+  "shortName": "alyx",
+  "chainId": 1314,
+  "networkId": 1314,
+  "explorers": [{
+    "name": "alyxscan",
+    "url": "https://www.alyxscan.com",
     "standard": "EIP3091"
   }]
 }, {
