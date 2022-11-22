@@ -4226,6 +4226,41 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "DeFiChain EVM Network Mainnet",
+  "chain": "defichain-evm",
+  "status": "incubating",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DeFiChain",
+    "symbol": "DFI",
+    "decimals": 18
+  },
+  "infoURL": "https://meta.defichain.com/",
+  "shortName": "DFI",
+  "chainId": 1130,
+  "networkId": 1130,
+  "slip44": 1130,
+  "icon": "defichain-network",
+  "explorers": []
+}, {
+  "name": "DeFiChain EVM Network Testnet",
+  "chain": "defichain-evm-testnet",
+  "status": "incubating",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DeFiChain",
+    "symbol": "DFI",
+    "decimals": 18
+  },
+  "infoURL": "https://meta.defichain.com/",
+  "shortName": "DFI-T",
+  "chainId": 1131,
+  "networkId": 1131,
+  "icon": "defichain-network",
+  "explorers": []
+}, {
   "name": "MathChain",
   "chain": "MATH",
   "rpc": ["https://mathchain-asia.maiziqianbao.net/rpc", "https://mathchain-us.maiziqianbao.net/rpc"],

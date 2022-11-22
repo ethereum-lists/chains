@@ -2989,6 +2989,32 @@
   "faucets": ["https://wallet.test.wemix.com/faucet"],
   "infoURL": "https://wemix.com"
 }, {
+  "name": "DeFiChain EVM Network Mainnet",
+  "chainId": 1130,
+  "shortName": "DFI",
+  "networkId": 1130,
+  "nativeCurrency": {
+    "name": "DeFiChain",
+    "symbol": "DFI",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://meta.defichain.com/"
+}, {
+  "name": "DeFiChain EVM Network Testnet",
+  "chainId": 1131,
+  "shortName": "DFI-T",
+  "networkId": 1131,
+  "nativeCurrency": {
+    "name": "DeFiChain",
+    "symbol": "DFI",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://meta.defichain.com/"
+}, {
   "name": "MathChain",
   "chainId": 1139,
   "shortName": "MATH",
