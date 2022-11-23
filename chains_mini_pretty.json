@@ -2417,6 +2417,19 @@
   "faucets": [],
   "infoURL": "https://lycanchain.com"
 }, {
+  "name": "QL1",
+  "chainId": 766,
+  "shortName": "qom",
+  "networkId": 766,
+  "nativeCurrency": {
+    "name": "Shiba Predator",
+    "symbol": "QOM",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.qom.one:8545"],
+  "faucets": [],
+  "infoURL": "https://qom.one"
+}, {
   "name": "OpenChain Testnet",
   "chainId": 776,
   "shortName": "opc",
@@ -7122,6 +7135,19 @@
   "rpc": ["https://jsonrpc-endpoint-test.imversed.com"],
   "faucets": [],
   "infoURL": "https://imversed.com"
+}, {
+  "name": "QL1 Testnet",
+  "chainId": 7668378,
+  "shortName": "tqom",
+  "networkId": 7668378,
+  "nativeCurrency": {
+    "name": "Shiba Predator",
+    "symbol": "QOM",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.qom.one:8545"],
+  "faucets": ["https://faucet.qom.one"],
+  "infoURL": "https://qom.one"
 }, {
   "name": "Musicoin",
   "chainId": 7762959,

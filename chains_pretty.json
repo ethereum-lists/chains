@@ -3438,6 +3438,28 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "QL1",
+  "chain": "QOM",
+  "status": "incubating",
+  "rpc": ["https://mainnet.qom.one:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Shiba Predator",
+    "symbol": "QOM",
+    "decimals": 18
+  },
+  "infoURL": "https://qom.one",
+  "shortName": "qom",
+  "chainId": 766,
+  "networkId": 766,
+  "icon": "qom",
+  "explorers": [{
+    "name": "QL1 Mainnet Explorer",
+    "url": "https://mainnet.qom.one",
+    "icon": "qom",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "OpenChain Testnet",
   "chain": "OpenChain Testnet",
   "rpc": ["http://mainnet.openchain.info:8545", "https://mainnet1.openchain.info"],
@@ -10389,6 +10411,28 @@
     "url": "https://tex-t.imversed.com",
     "icon": "imversed",
     "standard": "none"
+  }]
+}, {
+  "name": "QL1 Testnet",
+  "chain": "QOM",
+  "status": "incubating",
+  "rpc": ["https://testnet.qom.one:8545"],
+  "faucets": ["https://faucet.qom.one"],
+  "nativeCurrency": {
+    "name": "Shiba Predator",
+    "symbol": "QOM",
+    "decimals": 18
+  },
+  "infoURL": "https://qom.one",
+  "shortName": "tqom",
+  "chainId": 7668378,
+  "networkId": 7668378,
+  "icon": "qom",
+  "explorers": [{
+    "name": "QL1 Testnet Explorer",
+    "url": "https://testnet.qom.one",
+    "icon": "qom",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Musicoin",
