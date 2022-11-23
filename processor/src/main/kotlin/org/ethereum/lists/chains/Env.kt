@@ -20,6 +20,7 @@ val mandatory_fields = listOf(
     "nativeCurrency"
 )
 val optionalFields = listOf(
+    "features",
     "slip44",
     "ens",
     "icon",
