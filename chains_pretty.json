@@ -725,7 +725,7 @@
   "rpc": ["https://pangolin-rpc.darwinia.network"],
   "faucets": ["https://docs.crab.network/dvm/wallets/dvm-metamask#apply-for-the-test-token"],
   "nativeCurrency": {
-    "name": "Pangolin Network Native Token\u201d",
+    "name": "Pangolin Network Native Token",
     "symbol": "PRING",
     "decimals": 18
   },
@@ -763,7 +763,7 @@
   "rpc": ["https://pangoro-rpc.darwinia.network"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Pangoro Network Native Token\u201d",
+    "name": "Pangoro Network Native Token",
     "symbol": "ORING",
     "decimals": 18
   },
@@ -2703,7 +2703,7 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Filecoin \u2014 Mainnet",
+  "name": "Filecoin - Mainnet",
   "chain": "FIL",
   "status": "incubating",
   "rpc": ["https://api.node.glif.io/rpc/v0"],
@@ -5736,7 +5736,7 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Filecoin \u2014 Buildernet",
+  "name": "Filecoin - Buildernet",
   "chain": "FIL",
   "status": "incubating",
   "rpc": [],
@@ -7849,7 +7849,7 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Optimism Bedrock: Goerli Alpha Testnet",
+  "name": "Optimism Bedrock (Goerli Alpha Testnet)",
   "chain": "ETH",
   "rpc": ["https://alpha-1-replica-0.bedrock-goerli.optimism.io", "https://alpha-1-replica-1.bedrock-goerli.optimism.io", "https://alpha-1-replica-2.bedrock-goerli.optimism.io", "https://alpha-1-replica-2.bedrock-goerli.optimism.io"],
   "faucets": [],
@@ -7923,7 +7923,7 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Filecoin \u2014 Wallaby testnet",
+  "name": "Filecoin - Wallaby testnet",
   "chain": "FIL",
   "status": "incubating",
   "rpc": ["https://wallaby.node.glif.io/rpc/v0"],
@@ -9680,7 +9680,7 @@
   "networkId": 281121,
   "explorers": []
 }, {
-  "name": "Filecoin \u2014 Calibration testnet",
+  "name": "Filecoin - Calibration testnet",
   "chain": "FIL",
   "status": "incubating",
   "rpc": ["https://api.calibration.node.glif.io/rpc/v0"],
@@ -10369,7 +10369,7 @@
     "standard": "none"
   }]
 }, {
-  "name": "Filecoin \u2014 Butterfly testnet",
+  "name": "Filecoin - Butterfly testnet",
   "chain": "FIL",
   "status": "incubating",
   "rpc": [],
@@ -10678,7 +10678,7 @@
   "networkId": 28945486,
   "slip44": 344
 }, {
-  "name": "Filecoin \u2014 Local testnet",
+  "name": "Filecoin - Local testnet",
   "chain": "FIL",
   "status": "incubating",
   "rpc": [],
@@ -10850,7 +10850,7 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Calypso NFT Hub | SKALE Testnet",
+  "name": "Calypso NFT Hub (SKALE Testnet)",
   "title": "Calypso NFT Hub Testnet",
   "chain": "staging-utter-unripe-menkar",
   "rpc": ["https://staging-v3.skalenodes.com/v1/staging-utter-unripe-menkar"],
@@ -11015,7 +11015,7 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Calypso NFT Hub | SKALE",
+  "name": "Calypso NFT Hub (SKALE)",
   "title": "Calypso NFT Hub Mainnet",
   "chain": "honorable-steel-rasalhague",
   "rpc": ["https://mainnet.skalenodes.com/v1/honorable-steel-rasalhague"],
