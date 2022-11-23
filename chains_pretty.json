@@ -10062,6 +10062,27 @@
   "networkId": 666666,
   "slip44": 60
 }, {
+  "name": "OctaSpace",
+  "chain": "OCTA",
+  "rpc": ["https://rpc.octa.space", "wss://rpc.octa.space"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OctaSpace",
+    "symbol": "OCTA",
+    "decimals": 18
+  },
+  "infoURL": "https://octa.space",
+  "shortName": "octa",
+  "chainId": 800001,
+  "networkId": 800001,
+  "icon": "octaspace",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.octa.space",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "4GoodNetwork",
   "chain": "4GN",
   "rpc": ["https://chain.deptofgood.com"],

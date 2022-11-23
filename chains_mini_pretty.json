@@ -6902,6 +6902,19 @@
   "faucets": ["https://vpioneerfaucet.visionscan.org"],
   "infoURL": "https://visionscan.org"
 }, {
+  "name": "OctaSpace",
+  "chainId": 800001,
+  "shortName": "octa",
+  "networkId": 800001,
+  "nativeCurrency": {
+    "name": "OctaSpace",
+    "symbol": "OCTA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.octa.space", "wss://rpc.octa.space"],
+  "faucets": [],
+  "infoURL": "https://octa.space"
+}, {
   "name": "4GoodNetwork",
   "chainId": 846000,
   "shortName": "bloqs4good",
