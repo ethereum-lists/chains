@@ -40,4 +40,8 @@ class NativeCurrencyCanOnlyHaveSymbolNameAndDecimals: Exception("Native currency
 class NativeCurrencyDecimalMustBeInt: Exception("Native currency decimals must be int")
 class NativeCurrencyNameMustBeString: Exception("Native currency name must be string")
 
+class ChainNameMustBeString: Exception("Name must be string")
+
+class IllegalName(type: String,name: String): Exception("Invalid $type: $name")
+
 class UnreferencedIcon(fileName: String, iconsDownloadPath: File): Exception("Found file $fileName in $iconsDownloadPath that is not referenced")

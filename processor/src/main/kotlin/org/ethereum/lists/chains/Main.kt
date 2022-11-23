@@ -257,6 +257,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
         }
     }
 
+    val nameRegex = Regex("^[a-zA-Z0-9\\-\\.\\(\\) ]+$")
     jsonObject["nativeCurrency"]?.let {
         if (it !is JsonObject) {
             throw NativeCurrencyMustBeObject()
@@ -275,9 +276,23 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
         if (it["decimals"] !is Int) {
             throw NativeCurrencyDecimalMustBeInt()
         }
-        if (it["name"] !is String) {
+        val currencyName = it["name"]
+        if (currencyName !is String) {
             throw NativeCurrencyNameMustBeString()
         }
+
+        if (!nameRegex.matches(currencyName)) {
+            throw IllegalName("currencyName", currencyName)
+        }
+    }
+
+    val chainName = jsonObject["name"]
+    if (chainName !is String) {
+        throw ChainNameMustBeString()
+    }
+
+    if (!nameRegex.matches(chainName)) {
+        throw IllegalName("chain name", chainName)
     }
 
     jsonObject["explorers"]?.let {
