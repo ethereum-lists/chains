@@ -3990,6 +3990,19 @@
   "faucets": ["https://testnet-faucet.ezchain.com"],
   "infoURL": "https://ezchain.com"
 }, {
+  "name": "BitYuan Mainnet",
+  "chainId": 2999,
+  "shortName": "bty",
+  "networkId": 2999,
+  "nativeCurrency": {
+    "name": "BTY",
+    "symbol": "BTY",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.bityuan.com/eth"],
+  "faucets": [],
+  "infoURL": "https://www.bityuan.com"
+}, {
   "name": "CENNZnet Rata",
   "chainId": 3000,
   "shortName": "cennz-r",
