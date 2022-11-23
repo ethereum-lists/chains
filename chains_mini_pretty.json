@@ -51,12 +51,12 @@
   "faucets": ["http://fauceth.komputing.org?chain=4&address=${ADDRESS}", "https://faucet.rinkeby.io"],
   "infoURL": "https://www.rinkeby.io"
 }, {
-  "name": "Görli",
+  "name": "Goerli",
   "chainId": 5,
   "shortName": "gor",
   "networkId": 5,
   "nativeCurrency": {
-    "name": "Görli Ether",
+    "name": "Goerli Ether",
     "symbol": "ETH",
     "decimals": 18
   },
@@ -2110,7 +2110,7 @@
   "shortName": "ogor",
   "networkId": 420,
   "nativeCurrency": {
-    "name": "Görli Ether",
+    "name": "Goerli Ether",
     "symbol": "ETH",
     "decimals": 18
   },
@@ -5451,7 +5451,7 @@
   "shortName": "obgor",
   "networkId": 28528,
   "nativeCurrency": {
-    "name": "Görli Ether",
+    "name": "Goerli Ether",
     "symbol": "ETH",
     "decimals": 18
   },
@@ -6759,12 +6759,12 @@
   "faucets": ["http://fauceth.komputing.org?chain=421611&address=${ADDRESS}"],
   "infoURL": "https://arbitrum.io"
 }, {
-  "name": "Arbitrum Görli",
+  "name": "Arbitrum Goerli",
   "chainId": 421613,
   "shortName": "arb-goerli",
   "networkId": 421613,
   "nativeCurrency": {
-    "name": "Arbitrum Görli Ether",
+    "name": "Arbitrum Goerli Ether",
     "symbol": "AGOR",
     "decimals": 18
   },
@@ -6863,7 +6863,7 @@
   "faucets": [],
   "infoURL": "https://scroll.io"
 }, {
-  "name": "Scroll Görli Testnet",
+  "name": "Scroll Goerli Testnet",
   "chainId": 534353,
   "shortName": "scr-goerli",
   "networkId": 534353,

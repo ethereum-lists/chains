@@ -84,13 +84,13 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Görli",
-  "title": "Ethereum Testnet Görli",
+  "name": "Goerli",
+  "title": "Ethereum Testnet Goerli",
   "chain": "ETH",
   "rpc": ["https://goerli.infura.io/v3/${INFURA_API_KEY}", "wss://goerli.infura.io/v3/${INFURA_API_KEY}", "https://rpc.goerli.mudit.blog/"],
   "faucets": ["http://fauceth.komputing.org?chain=5&address=${ADDRESS}", "https://goerli-faucet.slock.it?address=${ADDRESS}", "https://faucet.goerli.mudit.blog"],
   "nativeCurrency": {
-    "name": "Görli Ether",
+    "name": "Goerli Ether",
     "symbol": "ETH",
     "decimals": 18
   },
@@ -3002,7 +3002,7 @@
   "rpc": ["https://goerli.optimism.io/"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Görli Ether",
+    "name": "Goerli Ether",
     "symbol": "ETH",
     "decimals": 18
   },
@@ -7854,7 +7854,7 @@
   "rpc": ["https://alpha-1-replica-0.bedrock-goerli.optimism.io", "https://alpha-1-replica-1.bedrock-goerli.optimism.io", "https://alpha-1-replica-2.bedrock-goerli.optimism.io", "https://alpha-1-replica-2.bedrock-goerli.optimism.io"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Görli Ether",
+    "name": "Goerli Ether",
     "symbol": "ETH",
     "decimals": 18
   },
@@ -9849,14 +9849,14 @@
     }]
   }
 }, {
-  "name": "Arbitrum Görli",
-  "title": "Arbitrum Görli Rollup Testnet",
+  "name": "Arbitrum Goerli",
+  "title": "Arbitrum Goerli Rollup Testnet",
   "chainId": 421613,
   "shortName": "arb-goerli",
   "chain": "ETH",
   "networkId": 421613,
   "nativeCurrency": {
-    "name": "Arbitrum Görli Ether",
+    "name": "Arbitrum Goerli Ether",
     "symbol": "AGOR",
     "decimals": 18
   },
@@ -9864,7 +9864,7 @@
   "faucets": [],
   "infoURL": "https://arbitrum.io/",
   "explorers": [{
-    "name": "Arbitrum Görli Rollup Explorer",
+    "name": "Arbitrum Goerli Rollup Explorer",
     "url": "https://goerli-rollup-explorer.arbitrum.io",
     "standard": "EIP3091"
   }],
@@ -10008,7 +10008,7 @@
     "bridges": []
   }
 }, {
-  "name": "Scroll Görli Testnet",
+  "name": "Scroll Goerli Testnet",
   "chain": "ETH",
   "rpc": [],
   "faucets": [],
