@@ -2,16 +2,14 @@
   "name": "Excelon Mainnet",
   "chain": "XLON",
   "icon": "xlon",
-  "rpc": [
-    "http://wallet2.xlon.org:8545"
-  ],
+  "rpc": ["http://wallet2.xlon.org:8545"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Excelon",
-    "symbol": "XLON",
+    "symbol": "xlon",
     "decimals": 18
   },
-  "infoURL": "https://excelon.io",
+  "infoURL": "https://xlon.org",
   "shortName": "xlon",
   "chainId": 22052002,
   "networkId": 22052002,
