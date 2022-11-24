@@ -7292,6 +7292,19 @@
   "faucets": [],
   "infoURL": "https://quarkblockchain.org/"
 }, {
+  "name": "Excelon Mainnet",
+  "chainId": 22052002,
+  "shortName": "xlon",
+  "networkId": 22052002,
+  "nativeCurrency": {
+    "name": "Excelon",
+    "symbol": "xlon",
+    "decimals": 18
+  },
+  "rpc": ["http://wallet2.xlon.org:8545"],
+  "faucets": [],
+  "infoURL": "https://xlon.org"
+}, {
   "name": "Excoincial Chain Volta-Testnet",
   "chainId": 27082017,
   "shortName": "exlvolta",

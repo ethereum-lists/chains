@@ -10646,6 +10646,26 @@
   "chainId": 20181205,
   "networkId": 20181205
 }, {
+  "name": "Excelon Mainnet",
+  "chain": "XLON",
+  "icon": "xlon",
+  "rpc": ["http://wallet2.xlon.org:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Excelon",
+    "symbol": "xlon",
+    "decimals": 18
+  },
+  "infoURL": "https://xlon.org",
+  "shortName": "xlon",
+  "chainId": 22052002,
+  "networkId": 22052002,
+  "explorers": [{
+    "name": "Excelon explorer",
+    "url": "https://explorer.excelon.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Excoincial Chain Volta-Testnet",
   "chain": "TEXL",
   "icon": "exl",
