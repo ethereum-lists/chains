@@ -1,7 +1,7 @@
 {
   "name": "Qitmeer Network Testnet",
   "chain": "MEER",
-  "rpc": ["https://explorer.qitmeer.io/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Qitmeer Testnet",
@@ -12,6 +12,7 @@
   "shortName": "meertest",
   "chainId": 8131,
   "networkId": 8131,
+  "icon": "meer",
   "explorers": [
     {
       "name": "meerscan testnet",
