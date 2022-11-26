@@ -2151,7 +2151,7 @@
 }, {
   "name": "PHI Network v2",
   "chain": "PHI",
-  "rpc": ["https://connect.phi.network", ""],
+  "rpc": ["https://connect.phi.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "PHI",
@@ -5492,7 +5492,7 @@
 }, {
   "name": "Bitcoin EVM",
   "chain": "Bitcoin EVM",
-  "rpc": ["https://connect.bitcoinevm.com", ""],
+  "rpc": ["https://connect.bitcoinevm.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin",
