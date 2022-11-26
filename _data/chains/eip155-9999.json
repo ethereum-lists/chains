@@ -1,9 +1,7 @@
 {
   "name": "myOwn Testnet",
   "chain": "myOwn",
-  "rpc": [
-    "https://geth.dev.bccloud.net"
-  ],
+  "rpc": ["https://geth.dev.bccloud.net"],
   "faucets": [],
   "nativeCurrency": {
     "name": "MYN",

@@ -1,9 +1,7 @@
 {
   "name": "Elastos Smart Chain",
   "chain": "ETH",
-  "rpc": [
-    "https://api.elastos.io/eth"
-  ],
+  "rpc": ["https://api.elastos.io/eth"],
   "faucets": ["https://faucet.elastos.org/"],
   "nativeCurrency": {
     "name": "Elastos",
@@ -11,12 +9,14 @@
     "decimals": 18
   },
   "infoURL": "https://www.elastos.org/",
-  "shortName": "elaeth",
+  "shortName": "esc",
   "chainId": 20,
   "networkId": 20,
-  "explorers": [{
-    "name": "elastos eth explorer",
-    "url": "https://eth.elastos.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "elastos esc explorer",
+      "url": "https://esc.elastos.io",
+      "standard": "EIP3091"
+    }
+  ]
 }

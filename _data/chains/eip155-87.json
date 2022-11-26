@@ -17,9 +17,11 @@
   "shortName": "nnw",
   "chainId": 87,
   "networkId": 87,
-  "explorers": [{
-    "name": "novanetwork",
-    "url": "https://explorer.novanetwork.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "novanetwork",
+      "url": "https://explorer.novanetwork.io",
+      "standard": "EIP3091"
+    }
+  ]
 }

@@ -1,10 +1,7 @@
 {
   "name": "Nahmii Mainnet",
   "chain": "Nahmii",
-  "network": "mainnet",
-  "rpc": [
-    "https://l2.nahmii.io"
-  ],
+  "rpc": ["https://l2.nahmii.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -16,17 +13,21 @@
   "chainId": 5551,
   "networkId": 5551,
   "icon": "nahmii",
-  "explorers": [{
-    "name": "Nahmii mainnet explorer",
-    "url": "https://explorer.nahmii.io",
-    "icon": "nahmii",
-    "standard": "EIP3091"
-  }],
+  "explorers": [
+    {
+      "name": "Nahmii mainnet explorer",
+      "url": "https://explorer.nahmii.io",
+      "icon": "nahmii",
+      "standard": "EIP3091"
+    }
+  ],
   "parent": {
-    "type" : "L2",
+    "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{
-      "url":"https://bridge.nahmii.io"
-    }]
+    "bridges": [
+      {
+        "url": "https://bridge.nahmii.io"
+      }
+    ]
   }
 }
