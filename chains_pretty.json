@@ -8236,6 +8236,7 @@
 }, {
   "name": "Avalanche Fuji Testnet",
   "chain": "AVAX",
+  "icon": "avax",
   "rpc": ["https://api.avax-test.network/ext/bc/C/rpc"],
   "faucets": ["https://faucet.avax-test.network/"],
   "nativeCurrency": {
@@ -8255,6 +8256,7 @@
 }, {
   "name": "Avalanche C-Chain",
   "chain": "AVAX",
+  "icon": "avax",
   "rpc": ["https://api.avax.network/ext/bc/C/rpc"],
   "features": [{
     "name": "EIP1559"
