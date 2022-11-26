@@ -2157,6 +2157,19 @@
   "faucets": ["https://scan-testnet.acuteangle.com/faucet"],
   "infoURL": "https://www.acuteangle.com/"
 }, {
+  "name": "Gear Zero Network Mainnet",
+  "chainId": 516,
+  "shortName": "gz-mainnet",
+  "networkId": 516,
+  "nativeCurrency": {
+    "name": "Gear Zero Network Native Token",
+    "symbol": "GZN",
+    "decimals": 18
+  },
+  "rpc": ["https://gzn.linksme.info"],
+  "faucets": [],
+  "infoURL": "https://token.gearzero.ca/mainnet"
+}, {
   "name": "XT Smart Chain Mainnet",
   "chainId": 520,
   "shortName": "xt",
@@ -6654,6 +6667,19 @@
   "rpc": ["https://mainnet.block.caduceus.foundation", "wss://mainnet.block.caduceus.foundation"],
   "faucets": [],
   "infoURL": "https://caduceus.foundation/"
+}, {
+  "name": "Gear Zero Network Testnet",
+  "chainId": 266256,
+  "shortName": "gz-testnet",
+  "networkId": 266256,
+  "nativeCurrency": {
+    "name": "Gear Zero Network Native Token",
+    "symbol": "GZN",
+    "decimals": 18
+  },
+  "rpc": ["https://gzn-test.linksme.info"],
+  "faucets": [],
+  "infoURL": "https://token.gearzero.ca/testnet"
 }, {
   "name": "Social Smart Chain Mainnet",
   "chainId": 281121,
