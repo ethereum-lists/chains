@@ -116,8 +116,13 @@ private fun createOutputFiles() {
 }
 
 private fun doChecks(doRPCConnect: Boolean, doIconDownload: Boolean, verbose: Boolean) {
-    allChainFiles.forEach {
-        checkChain(it, doRPCConnect, verbose)
+    allChainFiles.forEach { file ->
+        try {
+            checkChain(file, doRPCConnect, verbose)
+        } catch (exception: Exception) {
+            println("Problem with $file")
+            throw exception
+        }
     }
 
     val allIcons = iconsPath.listFiles() ?: return
@@ -399,12 +404,16 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
 
     parseWithMoshi(chainFile)
 
-    if (connectRPC) {
-        if (jsonObject["rpc"] is List<*>) {
-            (jsonObject["rpc"] as List<*>).forEach {
-                if (it !is String) {
-                    throw (RPCMustBeListOfStrings())
-                } else {
+    if (jsonObject["rpc"] !is List<*>) {
+        throw (RPCMustBeList())
+    } else {
+        (jsonObject["rpc"] as List<*>).forEach {
+            if (it !is String) {
+                throw (RPCMustBeListOfStrings())
+            } else if (it.isEmpty()) {
+                throw (RPCCannotBeEmpty())
+            } else {
+                if (connectRPC) {
                     var chainId: BigInteger? = null
                     try {
                         println("connecting to $it")
@@ -425,9 +434,6 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
                     }
                 }
             }
-            println()
-        } else {
-            throw (RPCMustBeList())
         }
     }
 }
