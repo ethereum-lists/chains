@@ -2096,6 +2096,7 @@
 }, {
   "name": "Polygon Mainnet",
   "chain": "Polygon",
+  "icon": "polygon",
   "rpc": ["https://polygon-rpc.com/", "https://rpc-mainnet.matic.network", "https://matic-mainnet.chainstacklabs.com", "https://rpc-mainnet.maticvigil.com", "https://rpc-mainnet.matic.quiknode.pro", "https://matic-mainnet-full-rpc.bwarelabs.com", "https://polygon-bor.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
@@ -8888,6 +8889,7 @@
   "name": "Mumbai",
   "title": "Polygon Testnet Mumbai",
   "chain": "Polygon",
+  "icon": "polygon",
   "rpc": ["https://matic-mumbai.chainstacklabs.com", "https://rpc-mumbai.maticvigil.com", "https://matic-testnet-archive-rpc.bwarelabs.com"],
   "faucets": ["https://faucet.polygon.technology/"],
   "nativeCurrency": {
