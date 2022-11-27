@@ -315,7 +315,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
             }
 
             val url = explorer["url"]
-            if (url == null || url !is String || !(url.startsWith("https://") || url.startsWith("http://"))) {
+            if (url == null || url !is String || httpPrefixes.none { prefix -> url.startsWith(prefix) } ) {
                 throw (ExplorerMustWithHttpsOrHttp())
             }
 
@@ -412,6 +412,8 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
                 throw (RPCMustBeListOfStrings())
             } else if (it.isBlank()) {
                 throw (RPCCannotBeEmpty())
+            } else if (rpcPrefixes.none { prefix -> it.startsWith(prefix) }) {
+                throw (InvalidRPCPrefix(it))
             } else {
                 if (connectRPC) {
                     var chainId: BigInteger? = null
