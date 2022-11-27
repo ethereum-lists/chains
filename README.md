@@ -18,6 +18,7 @@ The source data is in _data/chains. Each chain has its own file with the filenam
     "symbol": "ETH",
     "decimals": 18
   },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://ethereum.org",
   "shortName": "eth",
   "chainId": 1,
