@@ -2452,7 +2452,7 @@
     "symbol": "TOPC",
     "decimals": 18
   },
-  "rpc": ["http://mainnet.openchain.info:8545", "https://mainnet1.openchain.info"],
+  "rpc": [],
   "faucets": ["https://faucet.openchain.info/"],
   "infoURL": "https://testnet.openchain.info/"
 }, {
@@ -2738,7 +2738,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["ethapi.topnetwork.org"],
+  "rpc": ["https://ethapi.topnetwork.org"],
   "faucets": [],
   "infoURL": "https://www.topnetwork.org/"
 }, {
@@ -2764,7 +2764,7 @@
     "symbol": "TOP",
     "decimals": 6
   },
-  "rpc": ["topapi.topnetwork.org"],
+  "rpc": [],
   "faucets": [],
   "infoURL": "https://www.topnetwork.org/"
 }, {
@@ -4714,7 +4714,7 @@
     "symbol": "SHM",
     "decimals": 18
   },
-  "rpc": ["https://liberty20.shardeum.org/"],
+  "rpc": [],
   "faucets": ["https://faucet.liberty20.shardeum.org"],
   "infoURL": "https://docs.shardeum.org/"
 }, {

@@ -3484,7 +3484,7 @@
 }, {
   "name": "OpenChain Testnet",
   "chain": "OpenChain Testnet",
-  "rpc": ["http://mainnet.openchain.info:8545", "https://mainnet1.openchain.info"],
+  "rpc": [],
   "faucets": ["https://faucet.openchain.info/"],
   "nativeCurrency": {
     "name": "Openchain Testnet",
@@ -3868,7 +3868,7 @@
   "name": "TOP Mainnet EVM",
   "chain": "TOP",
   "icon": "top",
-  "rpc": ["ethapi.topnetwork.org"],
+  "rpc": ["https://ethapi.topnetwork.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -3909,7 +3909,7 @@
   "name": "TOP Mainnet",
   "chain": "TOP",
   "icon": "top",
-  "rpc": ["topapi.topnetwork.org"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "TOP",
@@ -6770,7 +6770,7 @@
 }, {
   "name": "Shardeum Liberty 2.0",
   "chain": "Shardeum",
-  "rpc": ["https://liberty20.shardeum.org/"],
+  "rpc": [],
   "faucets": ["https://faucet.liberty20.shardeum.org"],
   "nativeCurrency": {
     "name": "Shardeum SHM",
