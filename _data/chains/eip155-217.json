@@ -1,0 +1,24 @@
+{
+  "name": "SiriusNet V2",
+  "chain": "SIN2",
+  "rpc": [
+    "https://u0zpw2zdzz:uf4y-ZGiQP_CJJgY6Vea2mSaeXOa1vFvfQ1PZhaDQ9M@u0iclv2dgh-u0jlczjhef-rpc.us0-aws.kaleido.io/"
+  ],
+  "logo": "siriusnet",
+  "nativeCurrency": {
+    "name": "D",
+    "symbol": "D",
+    "decimals": 18
+  },
+  "infoURL": "https://siriusnet.io",
+  "shortName": "mcl",
+  "chainId": 217,
+  "networkId": 217,
+  "explorers": [
+    {
+      "name": "siriusnet explorer",
+      "url": "http://rpc.siriusnet.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
