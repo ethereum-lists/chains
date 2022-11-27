@@ -6,8 +6,8 @@
   ],
   "icon": "siriusnet",
   "nativeCurrency": {
-    "name": "D",
-    "symbol": "D",
+    "name": "MCD",
+    "symbol": "MCD",
     "decimals": 18
   },
   "infoURL": "https://siriusnet.io",
@@ -18,7 +18,7 @@
     {
       "name": "siriusnet explorer",
       "url": "http://rpc.siriusnet.io",
-      "standard": "EIP3091"
+      "standard": "none"
     }
   ]
 }
