@@ -1,0 +1,24 @@
+{
+  "name": "Proof Of Apes",
+  "title": "Proof Of Apes Mainnet",
+  "chain": "POA",
+  "icon": "poa",
+  "rpc": ["https://rpc.proofofapes.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Proof Of Apes",
+    "symbol": "POA",
+    "decimals": 18
+  },
+  "infoURL": "https://proofofapes.com",
+  "shortName": "poa",
+  "chainId": 493,
+  "networkId": 493,
+  "explorers": [
+    {
+      "name": "Explorer Proof of Apes",
+      "url": "https://explorer.proofofapes.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
