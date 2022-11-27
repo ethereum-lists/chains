@@ -410,7 +410,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
         (jsonObject["rpc"] as List<*>).forEach {
             if (it !is String) {
                 throw (RPCMustBeListOfStrings())
-            } else if (it.isEmpty()) {
+            } else if (it.isBlank()) {
                 throw (RPCCannotBeEmpty())
             } else {
                 if (connectRPC) {
