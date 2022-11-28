@@ -1,10 +1,10 @@
 {
   "name": "Darwinia Pangoro Testnet",
   "chain": "pangoro",
-  "rpc": ["http://pangoro-rpc.darwinia.network"],
+  "rpc": ["https://pangoro-rpc.darwinia.network"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Pangoro Network Native Token”",
+    "name": "Pangoro Network Native Token",
     "symbol": "ORING",
     "decimals": 18
   },
