@@ -10451,9 +10451,9 @@
   "slip44": 1,
   "explorers": []
 }, {
-  "name": "Imversed Canary",
+  "name": "Imversed Mainnet",
   "chain": "Imversed",
-  "rpc": ["https://jsonrpc-endpoint-canary.imversed.com"],
+  "rpc": ["https://jsonrpc.imversed.network", "https://ws-jsonrpc.imversed.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Imversed Token",
@@ -10466,6 +10466,11 @@
   "networkId": 5555555,
   "icon": "imversed",
   "explorers": [{
+    "name": "Imversed EVM explorer (Blockscout)",
+    "url": "https://txe.imversed.network",
+    "icon": "imversed",
+    "standard": "EIP3091"
+  }, {
     "name": "Imversed Cosmos Explorer (Big Dipper)",
     "url": "https://tex-c.imversed.com",
     "icon": "imversed",
@@ -10474,7 +10479,7 @@
 }, {
   "name": "Imversed Testnet",
   "chain": "Imversed",
-  "rpc": ["https://jsonrpc-endpoint-test.imversed.com"],
+  "rpc": ["https://jsonrpc-test.imversed.network", "https://ws-jsonrpc-test.imversed.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Imversed Token",
@@ -10488,9 +10493,9 @@
   "icon": "imversed",
   "explorers": [{
     "name": "Imversed EVM Explorer (Blockscout)",
-    "url": "https://txe-test.imversed.com",
+    "url": "https://txe-test.imversed.network",
     "icon": "imversed",
-    "standard": "none"
+    "standard": "EIP3091"
   }, {
     "name": "Imversed Cosmos Explorer (Big Dipper)",
     "url": "https://tex-t.imversed.com",

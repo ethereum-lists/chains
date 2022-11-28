@@ -7162,7 +7162,7 @@
   "faucets": ["https://faucet.butterfly.fildev.network"],
   "infoURL": "https://filecoin.io"
 }, {
-  "name": "Imversed Canary",
+  "name": "Imversed Mainnet",
   "chainId": 5555555,
   "shortName": "imversed",
   "networkId": 5555555,
@@ -7171,7 +7171,7 @@
     "symbol": "IMV",
     "decimals": 18
   },
-  "rpc": ["https://jsonrpc-endpoint-canary.imversed.com"],
+  "rpc": ["https://jsonrpc.imversed.network", "https://ws-jsonrpc.imversed.network"],
   "faucets": [],
   "infoURL": "https://imversed.com"
 }, {
@@ -7184,7 +7184,7 @@
     "symbol": "IMV",
     "decimals": 18
   },
-  "rpc": ["https://jsonrpc-endpoint-test.imversed.com"],
+  "rpc": ["https://jsonrpc-test.imversed.network", "https://ws-jsonrpc-test.imversed.network"],
   "faucets": [],
   "infoURL": "https://imversed.com"
 }, {
