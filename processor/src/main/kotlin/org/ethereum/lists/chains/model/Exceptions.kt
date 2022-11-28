@@ -1,5 +1,6 @@
 package org.ethereum.lists.chains.model
 
+import org.ethereum.lists.chains.rpcPrefixes
 import java.io.File
 
 class FileNameMustMatchChainId : Exception("chainId must match the filename")
@@ -8,6 +9,8 @@ class ShouldHaveNoExtraFields(fields: Set<String>) : Exception("should have no e
 class ShouldHaveNoMissingFields(fields: Set<String>) : Exception("missing field(s) $fields")
 class RPCMustBeList : Exception("rpc must be a list")
 class RPCMustBeListOfStrings : Exception("rpc must be a list of strings")
+class RPCCannotBeEmpty : Exception("rpc cannot be empty")
+class InvalidRPCPrefix(prefix: String) : Exception("rpc has invalid prefix: $prefix - must be any of $rpcPrefixes")
 class ENSMustBeObject: Exception("ens must be an object")
 class ENSMustHaveOnlyRegistry: Exception("ens can only have a registry currently")
 class ENSRegistryAddressMustBeValid: Exception("ens registry must have valid address")
