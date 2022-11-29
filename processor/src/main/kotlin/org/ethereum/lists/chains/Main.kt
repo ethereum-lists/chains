@@ -116,8 +116,13 @@ private fun createOutputFiles() {
 }
 
 private fun doChecks(doRPCConnect: Boolean, doIconDownload: Boolean, verbose: Boolean) {
-    allChainFiles.forEach {
-        checkChain(it, doRPCConnect, verbose)
+    allChainFiles.forEach { file ->
+        try {
+            checkChain(file, doRPCConnect, verbose)
+        } catch (exception: Exception) {
+            println("Problem with $file")
+            throw exception
+        }
     }
 
     val allIcons = iconsPath.listFiles() ?: return
@@ -257,6 +262,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
         }
     }
 
+    val nameRegex = Regex("^[a-zA-Z0-9\\-\\.\\(\\) ]+$")
     jsonObject["nativeCurrency"]?.let {
         if (it !is JsonObject) {
             throw NativeCurrencyMustBeObject()
@@ -275,9 +281,23 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
         if (it["decimals"] !is Int) {
             throw NativeCurrencyDecimalMustBeInt()
         }
-        if (it["name"] !is String) {
+        val currencyName = it["name"]
+        if (currencyName !is String) {
             throw NativeCurrencyNameMustBeString()
         }
+
+        if (!nameRegex.matches(currencyName)) {
+            throw IllegalName("currencyName", currencyName)
+        }
+    }
+
+    val chainName = jsonObject["name"]
+    if (chainName !is String) {
+        throw ChainNameMustBeString()
+    }
+
+    if (!nameRegex.matches(chainName)) {
+        throw IllegalName("chain name", chainName)
     }
 
     jsonObject["explorers"]?.let {
@@ -295,7 +315,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
             }
 
             val url = explorer["url"]
-            if (url == null || url !is String || !(url.startsWith("https://") || url.startsWith("http://"))) {
+            if (url == null || url !is String || httpPrefixes.none { prefix -> url.startsWith(prefix) } ) {
                 throw (ExplorerMustWithHttpsOrHttp())
             }
 
@@ -384,12 +404,18 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
 
     parseWithMoshi(chainFile)
 
-    if (connectRPC) {
-        if (jsonObject["rpc"] is List<*>) {
-            (jsonObject["rpc"] as List<*>).forEach {
-                if (it !is String) {
-                    throw (RPCMustBeListOfStrings())
-                } else {
+    if (jsonObject["rpc"] !is List<*>) {
+        throw (RPCMustBeList())
+    } else {
+        (jsonObject["rpc"] as List<*>).forEach {
+            if (it !is String) {
+                throw (RPCMustBeListOfStrings())
+            } else if (it.isBlank()) {
+                throw (RPCCannotBeEmpty())
+            } else if (rpcPrefixes.none { prefix -> it.startsWith(prefix) }) {
+                throw (InvalidRPCPrefix(it))
+            } else {
+                if (connectRPC) {
                     var chainId: BigInteger? = null
                     try {
                         println("connecting to $it")
@@ -410,9 +436,6 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
                     }
                 }
             }
-            println()
-        } else {
-            throw (RPCMustBeList())
         }
     }
 }
