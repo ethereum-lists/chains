@@ -7599,6 +7599,26 @@
     "chain": "eip155-43113"
   }
 }, {
+  "name": "SPS",
+  "chain": "SPS",
+  "rpc": ["https://marketplace.ssquad.games"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ECG",
+    "symbol": "ECG",
+    "decimals": 18
+  },
+  "infoURL": "https://ssquad.games/",
+  "shortName": "SPS",
+  "chainId": 13000,
+  "networkId": 13000,
+  "explorers": [{
+    "name": "SPS Explorer",
+    "url": "http://spsscan.ssquad.games",
+    "standard": "EIP3091"
+  }],
+  "status": "incubating"
+}, {
   "name": "Phoenix Mainnet",
   "chain": "Phoenix",
   "rpc": ["https://rpc.phoenixplorer.com/"],
@@ -7617,6 +7637,25 @@
     "name": "phoenixplorer",
     "url": "https://phoenixplorer.com",
     "icon": "phoenixplorer",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "SPS Testnet",
+  "chain": "SPS-Testnet",
+  "rpc": ["https://www.3sps.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ECG",
+    "symbol": "ECG",
+    "decimals": 18
+  },
+  "infoURL": "https://ssquad.games/",
+  "shortName": "SPS-Test",
+  "chainId": 14000,
+  "networkId": 14000,
+  "explorers": [{
+    "name": "SPS Test Explorer",
+    "url": "https://explorer.3sps.net",
     "standard": "EIP3091"
   }]
 }, {

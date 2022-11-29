@@ -5264,6 +5264,19 @@
   "faucets": ["https://faucet.step.network"],
   "infoURL": "https://step.network"
 }, {
+  "name": "SPS",
+  "chainId": 13000,
+  "shortName": "SPS",
+  "networkId": 13000,
+  "nativeCurrency": {
+    "name": "ECG",
+    "symbol": "ECG",
+    "decimals": 18
+  },
+  "rpc": ["https://marketplace.ssquad.games"],
+  "faucets": [],
+  "infoURL": "https://ssquad.games/"
+}, {
   "name": "Phoenix Mainnet",
   "chainId": 13381,
   "shortName": "Phoenix",
@@ -5276,6 +5289,19 @@
   "rpc": ["https://rpc.phoenixplorer.com/"],
   "faucets": [],
   "infoURL": "https://cryptophoenix.org/phoenix"
+}, {
+  "name": "SPS Testnet",
+  "chainId": 14000,
+  "shortName": "SPS-Test",
+  "networkId": 14000,
+  "nativeCurrency": {
+    "name": "ECG",
+    "symbol": "ECG",
+    "decimals": 18
+  },
+  "rpc": ["https://www.3sps.net"],
+  "faucets": [],
+  "infoURL": "https://ssquad.games/"
 }, {
   "name": "Trust EVM Testnet",
   "chainId": 15555,
