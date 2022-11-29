@@ -4601,6 +4601,19 @@
   "faucets": [],
   "infoURL": "https://ella.network"
 }, {
+  "name": "Planq Mainnet",
+  "chainId": 7070,
+  "shortName": "planq",
+  "networkId": 7070,
+  "nativeCurrency": {
+    "name": "Planq",
+    "symbol": "PLQ",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-rpc.planq.network"],
+  "faucets": [],
+  "infoURL": "https://planq.network"
+}, {
   "name": "Shyft Mainnet",
   "chainId": 7341,
   "shortName": "shyft",
