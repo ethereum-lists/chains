@@ -2,7 +2,6 @@
   "name": "Ethereum Mainnet",
   "shortName": "willfail",
   "chain": "ETH",
-  "network": "mainnet",
   "chainId": 1,
   "networkId": 1,
   "rpc": [
@@ -10,7 +9,7 @@
     "https://api.mycryptoapi.com/eth"
   ],
   "nativeCurrency": {
-    "name": "Görli Ether",
+    "name": "Goerli Ether",
     "symbol": "GOR",
     "decimals": 18
   },

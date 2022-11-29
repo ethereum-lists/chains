@@ -5,5 +5,9 @@ _site
 .env
 node_modules
 .idea
+output
 .gradle
-*/bin/*
+model/bin
+model/build
+processor/bin
+processor/build

@@ -2,9 +2,7 @@
   "name": "Shyft Testnet",
   "chain": "SHYFTT",
   "icon": "shyft",
-  "rpc": [
-    "https://rpc.testnet.shyft.network/"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Shyft Test Token",
@@ -15,9 +13,11 @@
   "shortName": "shyftt",
   "chainId": 11437,
   "networkId": 11437,
-  "explorers": [{
-    "name": "Shyft Testnet BX",
-    "url": "https://bx.testnet.shyft.network",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "Shyft Testnet BX",
+      "url": "https://bx.testnet.shyft.network",
+      "standard": "EIP3091"
+    }
+  ]
 }

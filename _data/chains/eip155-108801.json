@@ -1,7 +1,6 @@
 {
   "name": "BROChain Mainnet",
   "chain": "BRO",
-  "network": "mainnet",
   "rpc": [
     "https://rpc.brochain.org",
     "http://rpc.brochain.org",
@@ -18,9 +17,11 @@
   "shortName": "bro",
   "chainId": 108801,
   "networkId": 108801,
-  "explorers": [{
-    "name": "BROChain Explorer",
-    "url": "https://explorer.brochain.org",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "BROChain Explorer",
+      "url": "https://explorer.brochain.org",
+      "standard": "EIP3091"
+    }
+  ]
 }
