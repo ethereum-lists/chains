@@ -1,8 +1,8 @@
 {
-  "name": "Armonia Eva Chain Mainnet",
-  "chain": "Eva",
+  "name": "Armonia Eva Chain Testnet",
+  "chain": "Wall-e",
   "rpc": [
-    "https://evascan.io/api/eth-rpc/"
+    "https://testnet.evascan.io/api/eth-rpc/"
   ],
   "faucets": [""],  
   "nativeCurrency": {
@@ -11,12 +11,12 @@
     "decimals": 18
   },
   "infoURL": "https://amax.network",
-  "shortName": "eva",
-  "chainId": 160,
-  "networkId": 160,
+  "shortName": "wall-e",
+  "chainId": 161,
+  "networkId": 161,
   "explorers": [{
     "name": "blockscout - evascan",
-    "url": "https://evascan.io",
+    "url": "https://testnet.evascan.io",
     "standard": "EIP3091"
   }]
 }
