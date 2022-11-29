@@ -1,10 +1,10 @@
 {
-  "name": "Mantle Görli Testnet",
+  "name": "Mantle Goerli Testnet",
   "chain": "ETH",
   "rpc": ["https://rpc.goerli.mantlenetwork.io"],
   "faucets": ["https://faucet.goerli.mantlenetwork.io"],
   "nativeCurrency": {
-    "name": "Görli BitDAO",
+    "name": "Goerli BitDAO",
     "symbol": "BIT",
     "decimals": 18
   },
