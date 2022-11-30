@@ -4588,6 +4588,32 @@
   "faucets": [],
   "infoURL": "https://www.polysmartchain.com/"
 }, {
+  "name": "ZetaChain Mainnet",
+  "chainId": 7000,
+  "shortName": "zetachain-mainnet",
+  "networkId": 7000,
+  "nativeCurrency": {
+    "name": "Zeta",
+    "symbol": "ZETA",
+    "decimals": 18
+  },
+  "rpc": ["https://api.mainnet.zetachain.com/evm"],
+  "faucets": [],
+  "infoURL": "https://docs.zetachain.com/"
+}, {
+  "name": "ZetaChain Athens Testnet",
+  "chainId": 7001,
+  "shortName": "zetachain-athens",
+  "networkId": 7001,
+  "nativeCurrency": {
+    "name": "Zeta",
+    "symbol": "aZETA",
+    "decimals": 18
+  },
+  "rpc": ["https://api.athens2.zetachain.com/evm"],
+  "faucets": ["https://labs.zetachain.com/get-zeta"],
+  "infoURL": "https://docs.zetachain.com/"
+}, {
   "name": "Ella the heart",
   "chainId": 7027,
   "shortName": "ELLA",
