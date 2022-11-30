@@ -1,35 +1,42 @@
 {
-    "name": "Gitshock Testnet",
-    "chain": "Gitshock Chain",
-    "icon": "gitshockchain",
-    "rpc": [
-        "https://rpc-testnet.gitshock.com/cartenz",
-        "https://rpc-testnet.gitshock.com/pasai",
-        "https://rpc-testnet.gitshock.com/buitenzorg"
-    ],
-    "faucets": [
-        "https://faucet-testnet.gitshock.com",
-        "https://gtfx-faucet.space"
-    ],
-    "nativeCurrency": {
-      "name": "Gitshock",
-      "symbol": "GTFX",
-      "decimals": 18
+  "name": "Gitshock Testnet",
+  "chain": "Gitshock Chain",
+  "icon": "gitshockchain",
+  "rpc": [
+    "https://rpc-testnet.gitshock.com/cartenz",
+    "https://rpc-testnet.gitshock.com/pasai",
+    "https://rpc-testnet.gitshock.com/buitenzorg"
+  ],
+  "faucets": [
+    "https://faucet-testnet.gitshock.com",
+    "https://gtfx-faucet.space"
+  ],
+  "nativeCurrency": {
+    "name": "Gitshock",
+    "symbol": "GTFX",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
     },
-    "features": [
-        {"name": "EIP155"},
-        {"name": "EIP1559"},
-        {"name": "EIP1898"}
-    ],
-    "infoURL": "https://gitshock.com",
-    "shortName": "gtfx",
-    "chainId": 212,
-    "networkId": 212,
-    "explorers": [
-      {
-        "name": "blockscout",
-        "url": "https://scan.gitshock.com",
-        "icon": "gitshockscan",
-        "standard": "none"
-      }]
+    {
+      "name": "EIP1559"
+    },
+    {
+      "name": "EIP1898"
+    }
+  ],
+  "infoURL": "https://gitshock.com",
+  "shortName": "gtfx",
+  "chainId": 212,
+  "networkId": 212,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://scan.gitshock.com",
+      "icon": "gitshockscan",
+      "standard": "none"
+    }
+  ]
 }
