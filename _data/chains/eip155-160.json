@@ -1,10 +1,8 @@
 {
   "name": "Armonia Eva Chain Mainnet",
   "chain": "Eva",
-  "rpc": [
-    "https://evascan.io/api/eth-rpc/"
-  ],
-  "faucets": [""],  
+  "rpc": ["https://evascan.io/api/eth-rpc/"],
+  "faucets": [""],
   "nativeCurrency": {
     "name": "Armonia Multichain Native Token",
     "symbol": "AMAX",
@@ -14,9 +12,11 @@
   "shortName": "eva",
   "chainId": 160,
   "networkId": 160,
-  "explorers": [{
-    "name": "blockscout - evascan",
-    "url": "https://evascan.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "blockscout - evascan",
+      "url": "https://evascan.io",
+      "standard": "EIP3091"
+    }
+  ]
 }
