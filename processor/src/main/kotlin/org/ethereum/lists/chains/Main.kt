@@ -8,6 +8,7 @@ import org.ethereum.lists.chains.model.*
 import org.kethereum.erc55.isValid
 import org.kethereum.model.Address
 import org.kethereum.rpc.HttpEthereumRPC
+import java.math.BigInteger
 import javax.imageio.ImageIO
 import kotlin.io.OnErrorAction.*
 
@@ -115,8 +116,13 @@ private fun createOutputFiles() {
 }
 
 private fun doChecks(doRPCConnect: Boolean, doIconDownload: Boolean, verbose: Boolean) {
-    allChainFiles.forEach {
-        checkChain(it, doRPCConnect, verbose)
+    allChainFiles.forEach { file ->
+        try {
+            checkChain(file, doRPCConnect, verbose)
+        } catch (exception: Exception) {
+            println("Problem with $file")
+            throw exception
+        }
     }
 
     val allIcons = iconsPath.listFiles() ?: return
@@ -224,10 +230,10 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
     }
 
     val jsonObject = Klaxon().parseJsonObject(chainFile.reader())
-    val chainAsLong = getNumber(jsonObject, "chainId")
+    val chainIdAsLong = getNumber(jsonObject, "chainId")
 
     if (chainFile.nameWithoutExtension.startsWith("eip155-")) {
-        if (chainAsLong.toString() != chainFile.nameWithoutExtension.replace("eip155-", "")) {
+        if (chainIdAsLong.toString() != chainFile.nameWithoutExtension.replace("eip155-", "")) {
             throw (FileNameMustMatchChainId())
         }
     } else {
@@ -256,6 +262,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
         }
     }
 
+    val nameRegex = Regex("^[a-zA-Z0-9\\-\\.\\(\\) ]+$")
     jsonObject["nativeCurrency"]?.let {
         if (it !is JsonObject) {
             throw NativeCurrencyMustBeObject()
@@ -274,9 +281,23 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
         if (it["decimals"] !is Int) {
             throw NativeCurrencyDecimalMustBeInt()
         }
-        if (it["name"] !is String) {
+        val currencyName = it["name"]
+        if (currencyName !is String) {
             throw NativeCurrencyNameMustBeString()
         }
+
+        if (!nameRegex.matches(currencyName)) {
+            throw IllegalName("currencyName", currencyName)
+        }
+    }
+
+    val chainName = jsonObject["name"]
+    if (chainName !is String) {
+        throw ChainNameMustBeString()
+    }
+
+    if (!nameRegex.matches(chainName)) {
+        throw IllegalName("chain name", chainName)
     }
 
     jsonObject["explorers"]?.let {
@@ -294,7 +315,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
             }
 
             val url = explorer["url"]
-            if (url == null || url !is String || !(url.startsWith("https://") || url.startsWith("http://"))) {
+            if (url == null || url !is String || httpPrefixes.none { prefix -> url.startsWith(prefix) }) {
                 throw (ExplorerMustWithHttpsOrHttp())
             }
 
@@ -327,6 +348,23 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
         if (!setOf("incubating", "active", "deprecated").contains(it)) {
             throw StatusMustBeIncubatingActiveOrDeprecated()
         }
+    }
+
+    jsonObject["faucets"]?.let { faucets ->
+        if (faucets !is List<*>) {
+            throw FaucetsMustBeArray()
+        }
+
+        faucets.forEach {
+            if (it !is String) {
+                throw FaucetMustBeString()
+            }
+
+            if (it.isBlank()) {
+                throw FaucetMustBeString()
+            }
+        }
+
     }
 
     jsonObject["redFlags"]?.let { redFlags ->
@@ -383,22 +421,38 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
 
     parseWithMoshi(chainFile)
 
-    if (connectRPC) {
-        if (jsonObject["rpc"] is List<*>) {
-            (jsonObject["rpc"] as List<*>).forEach {
-                if (it !is String) {
-                    throw (RPCMustBeListOfStrings())
-                } else {
-                    println("connecting to $it")
-                    val ethereumRPC = HttpEthereumRPC(it)
-                    println("Client:" + ethereumRPC.clientVersion())
-                    println("BlockNumber:" + ethereumRPC.blockNumber())
-                    println("GasPrice:" + ethereumRPC.gasPrice())
+    if (jsonObject["rpc"] !is List<*>) {
+        throw (RPCMustBeList())
+    } else {
+        (jsonObject["rpc"] as List<*>).forEach {
+            if (it !is String) {
+                throw (RPCMustBeListOfStrings())
+            } else if (it.isBlank()) {
+                throw (RPCCannotBeEmpty())
+            } else if (rpcPrefixes.none { prefix -> it.startsWith(prefix) }) {
+                throw (InvalidRPCPrefix(it))
+            } else {
+                if (connectRPC) {
+                    var chainId: BigInteger? = null
+                    try {
+                        println("connecting to $it")
+                        val ethereumRPC = HttpEthereumRPC(it)
+
+                        println("Client:" + ethereumRPC.clientVersion())
+                        println("BlockNumber:" + ethereumRPC.blockNumber())
+                        println("GasPrice:" + ethereumRPC.gasPrice())
+
+                        chainId = ethereumRPC.chainId()?.value
+                    } catch (e: Exception) {
+
+                    }
+                    chainId?.let { chainId ->
+                        if (chainIdAsLong != chainId.toLong()) {
+                            error("RPC chainId (${chainId.toLong()}) does not match chainId from json ($chainIdAsLong)")
+                        }
+                    }
                 }
             }
-            println()
-        } else {
-            throw (RPCMustBeList())
         }
     }
 }

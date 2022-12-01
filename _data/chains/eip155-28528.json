@@ -1,5 +1,5 @@
 {
-  "name": "Optimism Bedrock: Goerli Alpha Testnet",
+  "name": "Optimism Bedrock (Goerli Alpha Testnet)",
   "chain": "ETH",
   "rpc": [
     "https://alpha-1-replica-0.bedrock-goerli.optimism.io",
@@ -9,7 +9,7 @@
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Görli Ether",
+    "name": "Goerli Ether",
     "symbol": "ETH",
     "decimals": 18
   },
