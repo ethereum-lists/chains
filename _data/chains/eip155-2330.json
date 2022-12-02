@@ -1,10 +1,7 @@
 {
   "name": "Altcoinchain",
   "chain": "mainnet",
-  "rpc": [
-    "http://161.35.101.221:8545",
-    "https://rpc0.altcoinchain.org"
-  ],
+  "rpc": ["http://161.35.101.221:8545", "https://rpc0.altcoinchain.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Altcoin",
@@ -17,10 +14,12 @@
   "networkId": 12345,
   "icon": "altcoinchain",
   "status": "incubating",
-  "explorers": [{
-    "name": "expedition",
-    "url": "https://expedition.altcoinchain.org",
-    "icon": "altcoinchain",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "expedition",
+      "url": "https://expedition.altcoinchain.org",
+      "icon": "altcoinchain",
+      "standard": "none"
+    }
+  ]
 }
