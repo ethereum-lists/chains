@@ -11,10 +11,12 @@
   },
   "rpc": ["https://rpc.etherfair.org"],
   "faucets": [],
-  "explorers": [{
-    "name": "etherfair",
-    "url": "https://explorer.etherfair.org",
-    "standard": "EIP3091"
-  }],
+  "explorers": [
+    {
+      "name": "etherfair",
+      "url": "https://explorer.etherfair.org",
+      "standard": "EIP3091"
+    }
+  ],
   "infoURL": "https://etherfair.org"
 }
