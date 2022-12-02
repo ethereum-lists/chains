@@ -5641,6 +5641,19 @@
   "faucets": [],
   "infoURL": "https://www.fusion.org/"
 }, {
+  "name": "Aves Mainnet",
+  "chainId": 33333,
+  "shortName": "avs",
+  "networkId": 33333,
+  "nativeCurrency": {
+    "name": "Aves",
+    "symbol": "AVS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.avescoin.io"],
+  "faucets": [],
+  "infoURL": "https://avescoin.io"
+}, {
   "name": "Q Mainnet",
   "chainId": 35441,
   "shortName": "q",
