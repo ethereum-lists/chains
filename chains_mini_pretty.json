@@ -5511,6 +5511,32 @@
   "faucets": ["https://faucet.opside.network"],
   "infoURL": "https://opside.network"
 }, {
+  "name": "Oasis Sapphire",
+  "chainId": 23294,
+  "shortName": "sapphire",
+  "networkId": 23294,
+  "nativeCurrency": {
+    "name": "Sapphire Rose",
+    "symbol": "ROSE",
+    "decimals": 18
+  },
+  "rpc": ["https://sapphire.oasis.dev", "wss://sapphire.oasis.dev/ws"],
+  "faucets": [],
+  "infoURL": "https://docs.oasis.io/dapp/sapphire"
+}, {
+  "name": "Oasis Sapphire Testnet",
+  "chainId": 23295,
+  "shortName": "sapphire-testnet",
+  "networkId": 23295,
+  "nativeCurrency": {
+    "name": "Sapphire Test Rose",
+    "symbol": "TEST",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.sapphire.oasis.dev", "wss://testnet.sapphire.oasis.dev/ws"],
+  "faucets": [],
+  "infoURL": "https://docs.oasis.io/dapp/sapphire"
+}, {
   "name": "Webchain",
   "chainId": 24484,
   "shortName": "web",
