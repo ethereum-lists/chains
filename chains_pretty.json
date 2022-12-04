@@ -4552,6 +4552,25 @@
     "standard": "none"
   }]
 }, {
+  "name": "CIC Chain Testnet",
+  "chain": "CICT",
+  "rpc": ["https://testapi.cicscan.com"],
+  "faucets": ["https://cicfaucet.com"],
+  "nativeCurrency": {
+    "name": "Crazy Internet Coin",
+    "symbol": "CICT",
+    "decimals": 18
+  },
+  "infoURL": "https://www.cicchain.net",
+  "shortName": "CICT",
+  "chainId": 1252,
+  "networkId": 1252,
+  "explorers": [{
+    "name": "CICscan",
+    "url": "https://testnet.cicscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "HALO Mainnet",
   "chain": "HALO",
   "rpc": ["https://nodes.halo.land"],
@@ -4787,6 +4806,25 @@
   "shortName": "geth",
   "chainId": 1337,
   "networkId": 1337
+}, {
+  "name": "CIC Chain Mainnet",
+  "chain": "CIC",
+  "rpc": ["https://xapi.cicscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Crazy Internet Coin",
+    "symbol": "CIC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.cicchain.net",
+  "shortName": "CIC",
+  "chainId": 1353,
+  "networkId": 1353,
+  "explorers": [{
+    "name": "CICscan",
+    "url": "https://cicscan.com",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Polygon zkEVM Testnet",
   "title": "Polygon zkEVM Testnet",
