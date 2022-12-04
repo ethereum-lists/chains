@@ -5641,6 +5641,32 @@
   "faucets": [],
   "infoURL": "https://ethersocial.org"
 }, {
+  "name": "CloudTx Mainnet",
+  "chainId": 31223,
+  "shortName": "CLDTX",
+  "networkId": 31223,
+  "nativeCurrency": {
+    "name": "CloudTx",
+    "symbol": "CLD",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnetrpc.num.network"],
+  "faucets": [],
+  "infoURL": "https://cloudtx.finance"
+}, {
+  "name": "CloudTx Testnet",
+  "chainId": 31224,
+  "shortName": "CLD",
+  "networkId": 31224,
+  "nativeCurrency": {
+    "name": "CloudTx",
+    "symbol": "CLOUD",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.cloudtx.finance"],
+  "faucets": ["https://faucet.cloudtx.finance"],
+  "infoURL": "https://cloudtx.finance/"
+}, {
   "name": "GoChain Testnet",
   "chainId": 31337,
   "shortName": "got",

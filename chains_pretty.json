@@ -8142,6 +8142,47 @@
   "networkId": 1,
   "slip44": 31102
 }, {
+  "name": "CloudTx Mainnet",
+  "chain": "CLD",
+  "icon": "cloudtx",
+  "rpc": ["https://mainnetrpc.num.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CloudTx",
+    "symbol": "CLD",
+    "decimals": 18
+  },
+  "infoURL": "https://cloudtx.finance",
+  "shortName": "CLDTX",
+  "chainId": 31223,
+  "networkId": 31223,
+  "explorers": [{
+    "name": "cloudtxscan",
+    "url": "https://scan.cloudtx.finance",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "CloudTx Testnet",
+  "chain": "CloudTx",
+  "rpc": ["https://testnet-rpc.cloudtx.finance"],
+  "faucets": ["https://faucet.cloudtx.finance"],
+  "nativeCurrency": {
+    "name": "CloudTx",
+    "symbol": "CLOUD",
+    "decimals": 18
+  },
+  "infoURL": "https://cloudtx.finance/",
+  "shortName": "CLD",
+  "chainId": 31224,
+  "networkId": 31224,
+  "icon": "cloudtx",
+  "explorers": [{
+    "name": "cloudtxexplorer",
+    "url": "https://explorer.cloudtx.finance      ",
+    "icon": "cloudtx",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "GoChain Testnet",
   "chain": "GO",
   "rpc": ["https://testnet-rpc.gochain.io"],
