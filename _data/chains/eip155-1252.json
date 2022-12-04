@@ -1,8 +1,12 @@
 {
   "name": "CIC Chain Testnet",
   "chain": "CICT",
-  "rpc": [ "https://testapi.cicscan.com/" ],
-  "faucets": [ "https://cicfaucet.com/" ],
+  "rpc": [
+    "https://testapi.cicscan.com/"
+  ],
+  "faucets": [
+    "https://cicfaucet.com/"
+  ],
   "nativeCurrency": {
     "name": "Crazy Internet Coin",
     "symbol": "CICT",
@@ -15,7 +19,7 @@
   "explorers": [
     {
       "name": "CICscan",
-      "url": "https://testnet.cicscan.com",
+      "url": "https://testnet.cicscan.com/",
       "standard": "EIP3091"
     }
   ]
