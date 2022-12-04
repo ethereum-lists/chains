@@ -116,8 +116,13 @@ private fun createOutputFiles() {
 }
 
 private fun doChecks(doRPCConnect: Boolean, doIconDownload: Boolean, verbose: Boolean) {
-    allChainFiles.forEach {
-        checkChain(it, doRPCConnect, verbose)
+    allChainFiles.forEach { file ->
+        try {
+            checkChain(file, doRPCConnect, verbose)
+        } catch (exception: Exception) {
+            println("Problem with $file")
+            throw exception
+        }
     }
 
     val allIcons = iconsPath.listFiles() ?: return
@@ -310,7 +315,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
             }
 
             val url = explorer["url"]
-            if (url == null || url !is String || !(url.startsWith("https://") || url.startsWith("http://"))) {
+            if (url == null || url !is String || httpPrefixes.none { prefix -> url.startsWith(prefix) }) {
                 throw (ExplorerMustWithHttpsOrHttp())
             }
 
@@ -343,6 +348,23 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
         if (!setOf("incubating", "active", "deprecated").contains(it)) {
             throw StatusMustBeIncubatingActiveOrDeprecated()
         }
+    }
+
+    jsonObject["faucets"]?.let { faucets ->
+        if (faucets !is List<*>) {
+            throw FaucetsMustBeArray()
+        }
+
+        faucets.forEach {
+            if (it !is String) {
+                throw FaucetMustBeString()
+            }
+
+            if (it.isBlank()) {
+                throw FaucetMustBeString()
+            }
+        }
+
     }
 
     jsonObject["redFlags"]?.let { redFlags ->
@@ -399,12 +421,18 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
 
     parseWithMoshi(chainFile)
 
-    if (connectRPC) {
-        if (jsonObject["rpc"] is List<*>) {
-            (jsonObject["rpc"] as List<*>).forEach {
-                if (it !is String) {
-                    throw (RPCMustBeListOfStrings())
-                } else {
+    if (jsonObject["rpc"] !is List<*>) {
+        throw (RPCMustBeList())
+    } else {
+        (jsonObject["rpc"] as List<*>).forEach {
+            if (it !is String) {
+                throw (RPCMustBeListOfStrings())
+            } else if (it.isBlank()) {
+                throw (RPCCannotBeEmpty())
+            } else if (rpcPrefixes.none { prefix -> it.startsWith(prefix) }) {
+                throw (InvalidRPCPrefix(it))
+            } else {
+                if (connectRPC) {
                     var chainId: BigInteger? = null
                     try {
                         println("connecting to $it")
@@ -425,9 +453,6 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
                     }
                 }
             }
-            println()
-        } else {
-            throw (RPCMustBeList())
         }
     }
 }
