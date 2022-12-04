@@ -1728,6 +1728,19 @@
   "faucets": ["https://faucet.maplabs.io"],
   "infoURL": "https://maplabs.io"
 }, {
+  "name": "SiriusNet V2",
+  "chainId": 217,
+  "shortName": "SIN2",
+  "networkId": 217,
+  "nativeCurrency": {
+    "name": "MCD",
+    "symbol": "MCD",
+    "decimals": 18
+  },
+  "rpc": ["https://u0zpw2zdzz:uf4y-ZGiQP_CJJgY6Vea2mSaeXOa1vFvfQ1PZhaDQ9M@u0iclv2dgh-u0jlczjhef-rpc.us0-aws.kaleido.io/"],
+  "faucets": [],
+  "infoURL": "https://siriusnet.io"
+}, {
   "name": "SoterOne Mainnet old",
   "chainId": 218,
   "shortName": "SO1-old",
