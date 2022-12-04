@@ -315,7 +315,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
             }
 
             val url = explorer["url"]
-            if (url == null || url !is String || httpPrefixes.none { prefix -> url.startsWith(prefix) } ) {
+            if (url == null || url !is String || httpPrefixes.none { prefix -> url.startsWith(prefix) }) {
                 throw (ExplorerMustWithHttpsOrHttp())
             }
 
@@ -348,6 +348,23 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
         if (!setOf("incubating", "active", "deprecated").contains(it)) {
             throw StatusMustBeIncubatingActiveOrDeprecated()
         }
+    }
+
+    jsonObject["faucets"]?.let { faucets ->
+        if (faucets !is List<*>) {
+            throw FaucetsMustBeArray()
+        }
+
+        faucets.forEach {
+            if (it !is String) {
+                throw FaucetMustBeString()
+            }
+
+            if (it.isBlank()) {
+                throw FaucetMustBeString()
+            }
+        }
+
     }
 
     jsonObject["redFlags"]?.let { redFlags ->

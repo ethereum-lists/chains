@@ -104,7 +104,8 @@ There are also aggregated json files with all chains automatically assembled:
  * EIP-3770
  * EIP-4527
 
-### Listing sites 
+### Listing sites
+ * [chainlist.wtf](https://chainlist.wtf)
  * [chainlist.org](https://chainlist.org) or [networklist-org.vercel.app](https://networklist-org.vercel.app) as a staging version with a more up-to-date list
  * [chainid.network](https://chainid.network)
  * [networks.vercel.app](https://networks.vercel.app)
