@@ -446,9 +446,9 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
                     } catch (e: Exception) {
 
                     }
-                    chainId?.let { chainId ->
-                        if (chainIdAsLong != chainId.toLong()) {
-                            error("RPC chainId (${chainId.toLong()}) does not match chainId from json ($chainIdAsLong)")
+                    chainId?.let { nonNullChainId ->
+                        if (chainIdAsLong != nonNullChainId.toLong()) {
+                            error("RPC chainId (${nonNullChainId.toLong()}) does not match chainId from json ($chainIdAsLong)")
                         }
                     }
                 }
