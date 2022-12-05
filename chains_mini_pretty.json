@@ -5674,9 +5674,9 @@
   "nativeCurrency": {
     "name": "CloudTx",
     "symbol": "CLD",
-    "decimals": 18
+    "decimals": 9
   },
-  "rpc": ["https://mainnetrpc.num.network"],
+  "rpc": ["https://mainnet-rpc.cloudtx.finance"],
   "faucets": [],
   "infoURL": "https://cloudtx.finance"
 }, {
@@ -5687,7 +5687,7 @@
   "nativeCurrency": {
     "name": "CloudTx",
     "symbol": "CLOUD",
-    "decimals": 18
+    "decimals": 9
   },
   "rpc": ["https://testnet-rpc.cloudtx.finance"],
   "faucets": ["https://faucet.cloudtx.finance"],
