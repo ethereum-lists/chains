@@ -2452,7 +2452,7 @@
     "symbol": "QOM",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.qom.one:8545"],
+  "rpc": ["https://rpc.qom.one:8545"],
   "faucets": [],
   "infoURL": "https://qom.one"
 }, {
@@ -7392,7 +7392,7 @@
     "symbol": "QOM",
     "decimals": 18
   },
-  "rpc": ["https://testnet.qom.one:8545"],
+  "rpc": ["https://rpct.qom.one:8545"],
   "faucets": ["https://faucet.qom.one"],
   "infoURL": "https://qom.one"
 }, {
