@@ -2144,6 +2144,32 @@
   "faucets": [],
   "infoURL": "https://www.rupx.io"
 }, {
+  "name": "Camino C-Chain",
+  "chainId": 500,
+  "shortName": "Camino",
+  "networkId": 1000,
+  "nativeCurrency": {
+    "name": "Camino",
+    "symbol": "CAM",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.camino.foundation/ext/bc/C/rpc"],
+  "faucets": [],
+  "infoURL": "https://camino.foundation/"
+}, {
+  "name": "Columbus Test Network",
+  "chainId": 501,
+  "shortName": "Columbus",
+  "networkId": 1001,
+  "nativeCurrency": {
+    "name": "Camino",
+    "symbol": "CAM",
+    "decimals": 18
+  },
+  "rpc": ["https://columbus.camino.foundation/ext/bc/C/rpc"],
+  "faucets": [],
+  "infoURL": "https://camino.foundation/"
+}, {
   "name": "Double-A Chain Mainnet",
   "chainId": 512,
   "shortName": "aac",
