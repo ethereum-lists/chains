@@ -6265,7 +6265,7 @@
   "faucets": ["https://faucet.nervos.org/"],
   "infoURL": "https://github.com/nervosnetwork/godwoken"
 }, {
-  "name": "Godwoken Testnet (V1.1)",
+  "name": "Godwoken Testnet v1",
   "chainId": 71401,
   "shortName": "gw-testnet-v1",
   "networkId": 71401,
@@ -6274,7 +6274,7 @@
     "symbol": "pCKB",
     "decimals": 18
   },
-  "rpc": ["https://godwoken-testnet-v1.ckbapp.dev"],
+  "rpc": ["https://godwoken-testnet-v1.ckbapp.dev", "https://v1.testnet.godwoken.io/rpc"],
   "faucets": ["https://testnet.bridge.godwoken.io"],
   "infoURL": "https://www.nervos.org"
 }, {
