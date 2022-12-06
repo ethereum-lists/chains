@@ -5797,6 +5797,19 @@
   "faucets": [],
   "infoURL": "https://www.energi.world/"
 }, {
+  "name": "OHO Mainnet",
+  "chainId": 39815,
+  "shortName": "oho",
+  "networkId": 39815,
+  "nativeCurrency": {
+    "name": "OHO",
+    "symbol": "OHO",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.oho.ai"],
+  "faucets": [],
+  "infoURL": "https://oho.ai"
+}, {
   "name": "Opulent-X BETA",
   "chainId": 41500,
   "shortName": "ox-beta",
