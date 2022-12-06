@@ -1,6 +1,7 @@
 {
   "name": "CloudTx Testnet",
   "chain": "CloudTx",
+  "icon": "cloudtx",
   "rpc": ["https://testnet-rpc.cloudtx.finance"],
   "faucets": ["https://faucet.cloudtx.finance"],
   "nativeCurrency": {
@@ -12,12 +13,10 @@
   "shortName": "CLD",
   "chainId": 31224,
   "networkId": 31224,
-  "icon": "cloudtx",
   "explorers": [
     {
       "name": "cloudtxexplorer",
       "url": "https://explorer.cloudtx.finance",
-      "icon": "cloudtx",
       "standard": "EIP3091"
     }
   ]
