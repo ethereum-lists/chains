@@ -1,0 +1,17 @@
+{
+  "name": "Oasis Sapphire",
+  "chain": "Sapphire",
+  "icon": "oasis",
+  "rpc": ["https://sapphire.oasis.dev", "wss://sapphire.oasis.dev/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sapphire Rose",
+    "symbol": "ROSE",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.oasis.io/dapp/sapphire",
+  "shortName": "sapphire",
+  "chainId": 23294,
+  "networkId": 23294,
+  "status": "incubating"
+}
