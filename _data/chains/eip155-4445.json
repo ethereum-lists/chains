@@ -1,0 +1,25 @@
+{
+  "name": "Htmlcoin",
+  "chain": "testnet",
+  "rpc": ["https://testnet.htmlcoin.com/janus/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Htmlcoin",
+    "symbol": "HTML",
+    "decimals": 8
+  },
+  "infoURL": "https://htmlcoin.com",
+  "shortName": "html",
+  "chainId": 4445,
+  "networkId": 4445,
+  "icon": "htmlcoin",
+  "status": "active",
+  "explorers": [
+    {
+      "name": "htmlcoin",
+      "url": "https://testnet.htmlcoin.com",
+      "icon": "htmlcoin",
+      "standard": "none"
+    }
+  ]
+}
