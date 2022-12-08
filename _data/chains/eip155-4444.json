@@ -2,7 +2,7 @@
   "name": "Htmlcoin",
   "chain": "mainnet",
   "rpc": ["https://janus.htmlcoin.com/api/"],
-  "faucets": [],
+  "faucets": ["https://gruvin.me/htmlcoin"],
   "nativeCurrency": {
     "name": "Htmlcoin",
     "symbol": "HTML",
