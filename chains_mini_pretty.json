@@ -4419,6 +4419,19 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "Htmlcoin Mainnet",
+  "chainId": 4444,
+  "shortName": "html",
+  "networkId": 4444,
+  "nativeCurrency": {
+    "name": "Htmlcoin",
+    "symbol": "HTML",
+    "decimals": 8
+  },
+  "rpc": ["https://janus.htmlcoin.com/api/"],
+  "faucets": ["https://gruvin.me/htmlcoin"],
+  "infoURL": "https://htmlcoin.com"
+}, {
   "name": "IoTeX Network Mainnet",
   "chainId": 4689,
   "shortName": "iotex-mainnet",
