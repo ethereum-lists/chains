@@ -7796,7 +7796,7 @@
 }, {
   "name": "SPS",
   "chain": "SPS",
-  "rpc": ["https://marketplace.ssquad.games"],
+  "rpc": ["https://rpc.ssquad.games"],
   "faucets": [],
   "nativeCurrency": {
     "name": "ECG",
@@ -7811,8 +7811,7 @@
     "name": "SPS Explorer",
     "url": "http://spsscan.ssquad.games",
     "standard": "EIP3091"
-  }],
-  "status": "incubating"
+  }]
 }, {
   "name": "Phoenix Mainnet",
   "chain": "Phoenix",
