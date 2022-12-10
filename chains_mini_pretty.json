@@ -2599,6 +2599,19 @@
   "faucets": [],
   "infoURL": "https://callisto.network"
 }, {
+  "name": "Dexit Network",
+  "chainId": 877,
+  "shortName": "DXT",
+  "networkId": 877,
+  "nativeCurrency": {
+    "name": "Dexit network",
+    "symbol": "DXT",
+    "decimals": 18
+  },
+  "rpc": ["https://dxt.dexit.network"],
+  "faucets": ["https://faucet.dexit.network"],
+  "infoURL": "https://dexit.network"
+}, {
   "name": "Ambros Chain Mainnet",
   "chainId": 880,
   "shortName": "ambros",
