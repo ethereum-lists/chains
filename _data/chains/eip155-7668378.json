@@ -2,7 +2,7 @@
   "name": "QL1 Testnet",
   "chain": "QOM",
   "status": "incubating",
-  "rpc": ["https://testnet.qom.one:8545"],
+  "rpc": ["https://rpct.qom.one:8545"],
   "faucets": ["https://faucet.qom.one"],
   "nativeCurrency": {
     "name": "Shiba Predator",
