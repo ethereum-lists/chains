@@ -12,10 +12,12 @@
   "shortName": "CICT",
   "chainId": 1252,
   "networkId": 1252,
+  "icon": "cicchain",
   "explorers": [
     {
       "name": "CICscan",
       "url": "https://testnet.cicscan.com",
+      "icon": "cicchain",
       "standard": "EIP3091"
     }
   ]
