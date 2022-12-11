@@ -12,12 +12,10 @@
   "shortName": "psc-t-s0",
   "chainId": 910000,
   "networkId": 910000,
-  "icon": "posichain",
   "explorers": [
     {
       "name": "Posichain Explorer Testnet",
       "url": "https://explorer-testnet.posichain.org",
-      "icon": "posichain",
       "standard": "EIP3091"
     }
   ]
