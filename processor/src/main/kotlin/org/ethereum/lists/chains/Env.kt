@@ -20,6 +20,7 @@ val mandatory_fields = listOf(
     "nativeCurrency"
 )
 val optionalFields = listOf(
+    "features",
     "slip44",
     "ens",
     "icon",
@@ -44,3 +45,6 @@ val ipfs by lazy {
         )
     )
 }
+
+val httpPrefixes = listOf("https://", "http://")
+val rpcPrefixes = httpPrefixes + listOf("wss://", "ws://")
