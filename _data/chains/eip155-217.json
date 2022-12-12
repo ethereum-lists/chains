@@ -1,0 +1,25 @@
+{
+  "name": "SiriusNet V2",
+  "chain": "SIN2",
+  "faucets": [],
+  "rpc": [
+    "https://u0zpw2zdzz:uf4y-ZGiQP_CJJgY6Vea2mSaeXOa1vFvfQ1PZhaDQ9M@u0iclv2dgh-u0jlczjhef-rpc.us0-aws.kaleido.io/"
+  ],
+  "icon": "siriusnet",
+  "nativeCurrency": {
+    "name": "MCD",
+    "symbol": "MCD",
+    "decimals": 18
+  },
+  "infoURL": "https://siriusnet.io",
+  "shortName": "SIN2",
+  "chainId": 217,
+  "networkId": 217,
+  "explorers": [
+    {
+      "name": "siriusnet explorer",
+      "url": "http://rpc.siriusnet.io",
+      "standard": "none"
+    }
+  ]
+}
