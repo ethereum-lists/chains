@@ -1,0 +1,18 @@
+{
+  "name": "OriginTrail Parachain",
+  "chain": "OTP",
+  "rpc": [
+    "https://astrosat.origintrail.network",
+    "wss://parachain-rpc.origin-trail.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OriginTrail Parachain Token",
+    "symbol": "OTP",
+    "decimals": 12
+  },
+  "infoURL": "https://parachain.origintrail.io",
+  "shortName": "otp",
+  "chainId": 2043,
+  "networkId": 2043
+}
