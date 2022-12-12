@@ -1,0 +1,19 @@
+{
+  "name": "Filecoin - Buildernet",
+  "chain": "FIL",
+  "status": "incubating",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "filecoin",
+    "symbol": "FIL",
+    "decimals": 18
+  },
+  "infoURL": "https://filecoin.io",
+  "shortName": "filecoin-buildernet",
+  "icon": "filecoin",
+  "chainId": 3141,
+  "networkId": 3141,
+  "slip44": 1,
+  "explorers": []
+}
