@@ -3197,6 +3197,19 @@
   "faucets": [],
   "infoURL": "https://entercoin.net"
 }, {
+  "name": "Exzo Network Mainnet",
+  "chainId": 1229,
+  "shortName": "xzo",
+  "networkId": 1229,
+  "nativeCurrency": {
+    "name": "Exzo",
+    "symbol": "XZO",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.exzo.technology"],
+  "faucets": [],
+  "infoURL": "https://exzo.network"
+}, {
   "name": "Ultron Testnet",
   "chainId": 1230,
   "shortName": "UltronTestnet",
