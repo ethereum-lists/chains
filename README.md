@@ -18,6 +18,7 @@ The source data is in _data/chains. Each chain has its own file with the filenam
     "symbol": "ETH",
     "decimals": 18
   },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://ethereum.org",
   "shortName": "eth",
   "chainId": 1,
@@ -77,6 +78,13 @@ There are also aggregated json files with all chains automatically assembled:
  * https://chainid.network/chains.json
  * https://chainid.network/chains_mini.json (miniaturized - fewer fields for smaller filesize)
 
+## Constraints
+
+ * the shortName and name MUST be unique - see e.g. EIP-3770 on why
+ * if referencing a parent chain - the chain MUST exist in the repo
+ * if using a IPFS CID for the icon - the CID MUST be retrievable via `ipfs get` - not only through some gateway (means please do not use pinata for now)
+ * for more constraints you can look into the CI
+ 
 ## Collision management
 
  If different chains have the same chainID we list the one with the oldest genesis.
@@ -85,6 +93,7 @@ There are also aggregated json files with all chains automatically assembled:
 ### Wallets
  * [WallETH](https://walleth.org)
  * [TREZOR](https://trezor.io)
+ * [Minerva Wallet](https://minerva.digital)
 
 ### Explorers
  * [Otterscan](https://otterscan.io)
@@ -95,7 +104,8 @@ There are also aggregated json files with all chains automatically assembled:
  * EIP-3770
  * EIP-4527
 
-### Listing sites 
+### Listing sites
+ * [chainlist.wtf](https://chainlist.wtf)
  * [chainlist.org](https://chainlist.org) or [networklist-org.vercel.app](https://networklist-org.vercel.app) as a staging version with a more up-to-date list
  * [chainid.network](https://chainid.network)
  * [networks.vercel.app](https://networks.vercel.app)
