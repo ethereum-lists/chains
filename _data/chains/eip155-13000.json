@@ -1,7 +1,7 @@
 {
   "name": "SPS",
   "chain": "SPS",
-  "rpc": ["https://marketplace.ssquad.games"],
+  "rpc": ["https://rpc.ssquad.games"],
   "faucets": [],
   "nativeCurrency": {
     "name": "ECG",
@@ -18,6 +18,5 @@
       "url": "http://spsscan.ssquad.games",
       "standard": "EIP3091"
     }
-  ],
-  "status": "incubating"
+  ]
 }
