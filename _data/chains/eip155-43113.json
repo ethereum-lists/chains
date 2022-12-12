@@ -1,6 +1,7 @@
 {
   "name": "Avalanche Fuji Testnet",
   "chain": "AVAX",
+  "icon": "avax",
   "rpc": ["https://api.avax-test.network/ext/bc/C/rpc"],
   "faucets": ["https://faucet.avax-test.network/"],
   "nativeCurrency": {
