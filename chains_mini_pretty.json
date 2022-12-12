@@ -2885,6 +2885,19 @@
   "faucets": ["https://baobab.wallet.klaytn.com/access?next=faucet"],
   "infoURL": "https://www.klaytn.com/"
 }, {
+  "name": "T-EKTA",
+  "chainId": 1004,
+  "shortName": "t-ekta",
+  "networkId": 1004,
+  "nativeCurrency": {
+    "name": "T-EKTA",
+    "symbol": "T-EKTA",
+    "decimals": 18
+  },
+  "rpc": ["https://test.ekta.io:8545"],
+  "faucets": [],
+  "infoURL": "https://www.ekta.io"
+}, {
   "name": "Newton Testnet",
   "chainId": 1007,
   "shortName": "tnew",
@@ -3716,6 +3729,19 @@
   "rpc": ["https://jsonrpc.egem.io/custom"],
   "faucets": [],
   "infoURL": "https://egem.io"
+}, {
+  "name": "Ekta",
+  "chainId": 1994,
+  "shortName": "ekta",
+  "networkId": 1994,
+  "nativeCurrency": {
+    "name": "EKTA",
+    "symbol": "EKTA",
+    "decimals": 18
+  },
+  "rpc": ["https://main.ekta.io"],
+  "faucets": [],
+  "infoURL": "https://www.ekta.io"
 }, {
   "name": "Dogechain Mainnet",
   "chainId": 2000,
