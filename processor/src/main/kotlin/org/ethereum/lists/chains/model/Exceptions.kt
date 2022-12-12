@@ -1,5 +1,6 @@
 package org.ethereum.lists.chains.model
 
+import org.ethereum.lists.chains.rpcPrefixes
 import java.io.File
 
 class FileNameMustMatchChainId : Exception("chainId must match the filename")
@@ -9,6 +10,7 @@ class ShouldHaveNoMissingFields(fields: Set<String>) : Exception("missing field(
 class RPCMustBeList : Exception("rpc must be a list")
 class RPCMustBeListOfStrings : Exception("rpc must be a list of strings")
 class RPCCannotBeEmpty : Exception("rpc cannot be empty")
+class InvalidRPCPrefix(prefix: String) : Exception("rpc has invalid prefix: $prefix - must be any of $rpcPrefixes")
 class ENSMustBeObject: Exception("ens must be an object")
 class ENSMustHaveOnlyRegistry: Exception("ens can only have a registry currently")
 class ENSRegistryAddressMustBeValid: Exception("ens registry must have valid address")
@@ -20,10 +22,16 @@ class ExplorersMustBeArray: Exception("explorers must be an array")
 class ExplorerMustHaveName: Exception("Explorer must have name")
 class ExplorerMustWithHttpsOrHttp: Exception("Explorer have url starting with https:// or http://")
 class ExplorerCannotEndInSlash: Exception("Explorer cannot have a slash on the end")
+class StringCannotBeBlank(which: String): Exception("$which cannot be blank")
+
+class StringCannotHaveExtraSpaces(which: String): Exception("$which cannot have leading or tailing spaces")
 class ExplorerStandardMustBeEIP3091OrNone: Exception("explorer standard must be 'none' or 'EIP3091'")
 class ParentHasInvalidType(type: String?): Exception("Parent has invalid type $type - only L2 or shard allowed")
 class RedFlagsMustBeArray: Exception("redFlags not an array")
+class FaucetsMustBeArray: Exception("faucets not an array")
 class RedFlagMustBeString: Exception("redFlag not an string")
+class FaucetMustBeString: Exception("faucet not an string")
+class FaucetCannotBeBlank: Exception("faucet cannot be blank")
 class InvalidRedFlags(flag: String): Exception("redFlags invalid $flag")
 class ParentMustBeObject: Exception("parent must be an object")
 class ParentMustHaveChainAndType: Exception("parent must have fields 'chain' and 'type'")
