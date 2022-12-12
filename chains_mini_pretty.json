@@ -5615,6 +5615,19 @@
   "faucets": ["https://faucet.callisto.network/"],
   "infoURL": "https://callisto.network"
 }, {
+  "name": "P12 Chain",
+  "chainId": 20736,
+  "shortName": "p12",
+  "networkId": 20736,
+  "nativeCurrency": {
+    "name": "Hooked P12",
+    "symbol": "hP12",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-chain.p12.games"],
+  "faucets": [],
+  "infoURL": "https://p12.network"
+}, {
   "name": "CENNZnet Azalea",
   "chainId": 21337,
   "shortName": "cennz-a",
