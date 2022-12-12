@@ -5394,6 +5394,19 @@
   "faucets": ["https://faucet.astranaut.dev"],
   "infoURL": "https://astranaut.io"
 }, {
+  "name": "Haqq Network",
+  "chainId": 11235,
+  "shortName": "ISLM",
+  "networkId": 11235,
+  "nativeCurrency": {
+    "name": "Islamic Coin",
+    "symbol": "ISLM",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.eth.haqq.network"],
+  "faucets": [],
+  "infoURL": "https://islamiccoin.net"
+}, {
   "name": "Shyft Testnet",
   "chainId": 11437,
   "shortName": "shyftt",
@@ -6147,6 +6160,19 @@
   "rpc": ["https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc"],
   "faucets": [],
   "infoURL": "https://defikingdoms.com"
+}, {
+  "name": "Haqq Chain Testnet",
+  "chainId": 54211,
+  "shortName": "ISLMT",
+  "networkId": 54211,
+  "nativeCurrency": {
+    "name": "Islamic Coin",
+    "symbol": "ISLMT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.eth.testedge2.haqq.network"],
+  "faucets": ["https://testedge2.haqq.network"],
+  "infoURL": "https://islamiccoin.net"
 }, {
   "name": "REI Chain Mainnet",
   "chainId": 55555,
