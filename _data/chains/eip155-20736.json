@@ -1,6 +1,6 @@
 {
-  "name": "P12 Pudge",
-  "chain": "pudge",
+  "name": "P12 Chain",
+  "chain": "P12",
   "rpc": ["https://rpc-chain.p12.games"],
   "faucets": [],
   "nativeCurrency": {
@@ -10,12 +10,12 @@
   },
   "infoURL": "https://p12.network",
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "shortName": "pudge",
+  "shortName": "p12",
   "chainId": 20736,
   "networkId": 20736,
   "explorers": [
     {
-      "name": "P12 Pudge Explorer",
+      "name": "P12 Chain Explorer",
       "url": "https://explorer.p12.games",
       "standard": "EIP3091"
     }
