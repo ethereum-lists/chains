@@ -14,8 +14,7 @@
     },
     "infoURL": "https://drac.io/",
     "shortName": "drac",
-    "features": [
-        {
+    "features": [{
             "name": "EIP155"
         },
         {
@@ -25,12 +24,10 @@
     "chainId": 3912,
     "networkId": 3912,
     "icon": "drac",
-    "explorers": [
-        {
-            "name": "DRAC_Network Scan",
-            "url": "https://www.dracscan.com",
-            "icon": "DRAC",
-            "standard": "EIP3091"
-        }
-    ]
+    "explorers": [{
+        "name": "DRAC_Network Scan",
+        "url": "https://www.dracscan.com",
+        "icon": "DRAC",
+        "standard": "EIP3091"
+    }]
 }
