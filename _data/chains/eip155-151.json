@@ -1,0 +1,23 @@
+{
+  "name": "Mythical Chain",
+  "chain": "MYTH",
+  "rpc": [ "https://chain-rpc.mythicalgames.com" ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Mythos",
+    "symbol": "MYTH",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://mythicalgames.com/",
+  "shortName": "myth",
+  "chainId": 151,
+  "networkId": 1,
+  "icon": "mythical",
+  "explorers": [{
+    "name": "Mythical Chain Explorer",
+    "url": "https://explorer.mythicalgames.com/",
+    "icon": "mythical",
+    "standard": "EIP3091"
+  }]
+}
