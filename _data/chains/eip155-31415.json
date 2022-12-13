@@ -2,7 +2,10 @@
   "name": "Filecoin - Wallaby testnet",
   "chain": "FIL",
   "status": "incubating",
-  "rpc": ["https://wallaby.filfox.info/rpc/v0", "https://wallaby.node.glif.io/rpc/v0"],
+  "rpc": [
+    "https://wallaby.filfox.info/rpc/v0",
+    "https://wallaby.node.glif.io/rpc/v0"
+  ],
   "faucets": ["https://wallaby.network/#faucet"],
   "nativeCurrency": {
     "name": "testnet filecoin",
