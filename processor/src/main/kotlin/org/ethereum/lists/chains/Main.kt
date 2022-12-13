@@ -320,8 +320,10 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
             }
 
             if (url.endsWith("/")) {
-                throw (ExplorerCannotEndInSlash())
+                throw ExplorerCannotEndInSlash()
             }
+
+            url.checkString("Explorer URL")
 
             if (explorer["standard"] != "EIP3091" && explorer["standard"] != "none") {
                 throw (ExplorerStandardMustBeEIP3091OrNone())
@@ -360,9 +362,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
                 throw FaucetMustBeString()
             }
 
-            if (it.isBlank()) {
-                throw FaucetMustBeString()
-            }
+            it.checkString("Faucet URL")
         }
 
     }
@@ -376,6 +376,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
                 throw RedFlagMustBeString()
             }
 
+            it.checkString("Red flag")
             if (!allowedRedFlags.contains(it))
                 throw (InvalidRedFlags(it))
         }
@@ -427,11 +428,10 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
         (jsonObject["rpc"] as List<*>).forEach {
             if (it !is String) {
                 throw (RPCMustBeListOfStrings())
-            } else if (it.isBlank()) {
-                throw (RPCCannotBeEmpty())
             } else if (rpcPrefixes.none { prefix -> it.startsWith(prefix) }) {
                 throw (InvalidRPCPrefix(it))
             } else {
+                it.checkString("RPC URL")
                 if (connectRPC) {
                     var chainId: BigInteger? = null
                     try {
@@ -446,14 +446,24 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
                     } catch (e: Exception) {
 
                     }
-                    chainId?.let { chainId ->
-                        if (chainIdAsLong != chainId.toLong()) {
-                            error("RPC chainId (${chainId.toLong()}) does not match chainId from json ($chainIdAsLong)")
+                    chainId?.let { nonNullChainId ->
+                        if (chainIdAsLong != nonNullChainId.toLong()) {
+                            error("RPC chainId (${nonNullChainId.toLong()}) does not match chainId from json ($chainIdAsLong)")
                         }
                     }
                 }
             }
         }
+    }
+}
+
+private fun String.checkString(which: String) {
+    if (isBlank()) {
+        throw StringCannotBeBlank(which)
+    }
+
+    if (trim() != this) {
+        throw StringCannotHaveExtraSpaces(which)
     }
 }
 
