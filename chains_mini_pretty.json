@@ -4107,6 +4107,19 @@
   "faucets": [],
   "infoURL": "https://bo.vcex.xyz/"
 }, {
+  "name": "BOMB Chain",
+  "chainId": 2300,
+  "shortName": "bomb",
+  "networkId": 2300,
+  "nativeCurrency": {
+    "name": "BOMB Token",
+    "symbol": "BOMB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.bombchain.com"],
+  "faucets": [],
+  "infoURL": "https://www.bombchain.com"
+}, {
   "name": "Altcoinchain",
   "chainId": 2330,
   "shortName": "alt",
@@ -4119,6 +4132,19 @@
   "rpc": ["https://rpc0.altcoinchain.org/rpc"],
   "faucets": [],
   "infoURL": "https://altcoinchain.org"
+}, {
+  "name": "BOMB Chain Testnet",
+  "chainId": 2399,
+  "shortName": "bombt",
+  "networkId": 2399,
+  "nativeCurrency": {
+    "name": "BOMB Token",
+    "symbol": "tBOMB",
+    "decimals": 18
+  },
+  "rpc": ["https://bombchain-testnet.ankr.com/bas_full_rpc_1"],
+  "faucets": ["https://faucet.bombchain-testnet.ankr.com/"],
+  "infoURL": "https://www.bombmoney.com"
 }, {
   "name": "Kortho Mainnet",
   "chainId": 2559,
