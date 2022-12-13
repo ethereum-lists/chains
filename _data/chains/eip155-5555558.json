@@ -1,7 +1,10 @@
 {
   "name": "Imversed Testnet",
   "chain": "Imversed",
-  "rpc": ["https://jsonrpc-endpoint-test.imversed.com"],
+  "rpc": [
+    "https://jsonrpc-test.imversed.network",
+    "https://ws-jsonrpc-test.imversed.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Imversed Token",
@@ -16,9 +19,9 @@
   "explorers": [
     {
       "name": "Imversed EVM Explorer (Blockscout)",
-      "url": "https://txe-test.imversed.com",
+      "url": "https://txe-test.imversed.network",
       "icon": "imversed",
-      "standard": "none"
+      "standard": "EIP3091"
     },
     {
       "name": "Imversed Cosmos Explorer (Big Dipper)",
