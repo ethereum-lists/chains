@@ -2729,6 +2729,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Bobaopera",
+  "chain": "Bobaopera",
+  "rpc": ["https://bobaopera.boba.network", "wss://wss.bobaopera.boba.network", "https://replica.bobaopera.boba.network", "wss://replica-wss.bobaopera.boba.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Boba Token",
+    "symbol": "BOBA",
+    "decimals": 18
+  },
+  "infoURL": "https://boba.network",
+  "shortName": "Bobaopera",
+  "chainId": 301,
+  "networkId": 301,
+  "explorers": [{
+    "name": "Bobaopera block explorer",
+    "url": "https://blockexplorer.bobaopera.boba.network",
+    "standard": "none"
+  }]
+}, {
   "name": "Filecoin - Mainnet",
   "chain": "FIL",
   "status": "incubating",
@@ -4805,7 +4824,7 @@
   "chainId": 1288,
   "networkId": 1288
 }, {
-  "name": "Boba Network Bobabeam",
+  "name": "Bobabeam",
   "chain": "Bobabeam",
   "rpc": ["https://bobabeam.boba.network", "wss://wss.bobabeam.boba.network", "https://replica.bobabeam.boba.network", "wss://replica-wss.bobabeam.boba.network"],
   "faucets": [],
@@ -4824,7 +4843,7 @@
     "standard": "none"
   }]
 }, {
-  "name": "Boba Network Bobabase Testnet",
+  "name": "Bobabase Testnet",
   "chain": "Bobabase Testnet",
   "rpc": ["https://bobabase.boba.network", "wss://wss.bobabase.boba.network", "https://replica.bobabase.boba.network", "wss://replica-wss.bobabase.boba.network"],
   "faucets": [],
@@ -5948,6 +5967,32 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Boba Network Goerli Testnet",
+  "chain": "ETH",
+  "rpc": ["https://goerli.boba.network/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Goerli Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://boba.network",
+  "shortName": "Bobagoerli",
+  "chainId": 2888,
+  "networkId": 2888,
+  "explorers": [{
+    "name": "Blockscout",
+    "url": "https://testnet.bobascan.com",
+    "standard": "none"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-5",
+    "bridges": [{
+      "url": "https://gateway.goerli.boba.network"
+    }]
+  }
+}, {
   "name": "BitYuan Mainnet",
   "chain": "BTY",
   "rpc": ["https://mainnet.bityuan.com/eth"],
@@ -6355,7 +6400,7 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Boba Network Bobaopera Testnet",
+  "name": "Bobaopera Testnet",
   "chain": "Bobaopera Testnet",
   "rpc": ["https://testnet.bobaopera.boba.network", "wss://wss.testnet.bobaopera.boba.network", "https://replica.testnet.bobaopera.boba.network", "wss://replica-wss.testnet.bobaopera.boba.network"],
   "faucets": [],
@@ -6416,7 +6461,7 @@
     "standard": "none"
   }]
 }, {
-  "name": "Boba Network Bobafuji Testnet",
+  "name": "Bobafuji Testnet",
   "chain": "Bobafuji Testnet",
   "rpc": ["https://testnet.avax.boba.network", "wss://wss.testnet.avax.boba.network", "https://replica.testnet.avax.boba.network", "wss://replica-wss.testnet.avax.boba.network"],
   "faucets": [],
@@ -6426,7 +6471,7 @@
     "decimals": 18
   },
   "infoURL": "https://boba.network",
-  "shortName": "BobafujiTestnet",
+  "shortName": "BobaFujiTestnet",
   "chainId": 4328,
   "networkId": 4328,
   "explorers": [{
@@ -7471,7 +7516,7 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Boba Network BNB Testnet",
+  "name": "Boba BNB Testnet",
   "chain": "Boba BNB Testnet",
   "rpc": ["https://testnet.bnb.boba.network", "wss://wss.testnet.bnb.boba.network", "https://replica.testnet.bnb.boba.network", "wss://replica-wss.testnet.bnb.boba.network"],
   "faucets": [],
@@ -7481,7 +7526,7 @@
     "decimals": 18
   },
   "infoURL": "https://boba.network",
-  "shortName": "BobaBNBTestnet",
+  "shortName": "BobaBnbTestnet",
   "chainId": 9728,
   "networkId": 9728,
   "explorers": [{
@@ -8832,7 +8877,7 @@
 }, {
   "name": "Boba Avax",
   "chain": "Boba Avax",
-  "rpc": ["https://avax.boba.network", "wss://wss.avax.boba.network", "https://replica.avax.boba.network"],
+  "rpc": ["https://avax.boba.network", "wss://wss.avax.boba.network", "https://replica.avax.boba.network", "wss://replica-wss.avax.boba.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Boba Token",
@@ -9545,6 +9590,25 @@
     "url": "https://explorer.lambda.top",
     "standard": "EIP3091",
     "icon": "lambda"
+  }]
+}, {
+  "name": "Boba BNB Mainnet",
+  "chain": "Boba BNB Mainnet",
+  "rpc": ["https://bnb.boba.network", "wss://wss.bnb.boba.network", "https://replica.bnb.boba.network", "wss://replica-wss.bnb.boba.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Boba Token",
+    "symbol": "BOBA",
+    "decimals": 18
+  },
+  "infoURL": "https://boba.network",
+  "shortName": "BobaBnb",
+  "chainId": 97288,
+  "networkId": 97288,
+  "explorers": [{
+    "name": "Boba BNB block explorer",
+    "url": "https://blockexplorer.bnb.boba.network",
+    "standard": "none"
   }]
 }, {
   "name": "UB Smart Chain(testnet)",

@@ -1923,6 +1923,19 @@
   "faucets": ["https://faucet.gimlu.com/gnosis"],
   "infoURL": "https://www.xdaichain.com/for-developers/optimism-optimistic-rollups-on-gc"
 }, {
+  "name": "Bobaopera",
+  "chainId": 301,
+  "shortName": "Bobaopera",
+  "networkId": 301,
+  "nativeCurrency": {
+    "name": "Boba Token",
+    "symbol": "BOBA",
+    "decimals": 18
+  },
+  "rpc": ["https://bobaopera.boba.network", "wss://wss.bobaopera.boba.network", "https://replica.bobaopera.boba.network", "wss://replica-wss.bobaopera.boba.network"],
+  "faucets": [],
+  "infoURL": "https://boba.network"
+}, {
   "name": "Filecoin - Mainnet",
   "chainId": 314,
   "shortName": "filecoin",
@@ -3379,7 +3392,7 @@
   "faucets": [],
   "infoURL": "https://docs.moonbeam.network/learn/platform/networks/overview/"
 }, {
-  "name": "Boba Network Bobabeam",
+  "name": "Bobabeam",
   "chainId": 1294,
   "shortName": "Bobabeam",
   "networkId": 1294,
@@ -3392,7 +3405,7 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
-  "name": "Boba Network Bobabase Testnet",
+  "name": "Bobabase Testnet",
   "chainId": 1297,
   "shortName": "Bobabase",
   "networkId": 1297,
@@ -4159,6 +4172,19 @@
   "faucets": ["https://testnet-faucet.ezchain.com"],
   "infoURL": "https://ezchain.com"
 }, {
+  "name": "Boba Network Goerli Testnet",
+  "chainId": 2888,
+  "shortName": "Bobagoerli",
+  "networkId": 2888,
+  "nativeCurrency": {
+    "name": "Goerli Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://goerli.boba.network/"],
+  "faucets": [],
+  "infoURL": "https://boba.network"
+}, {
   "name": "BitYuan Mainnet",
   "chainId": 2999,
   "shortName": "bty",
@@ -4432,7 +4458,7 @@
   "faucets": ["https://faucet.fantom.network"],
   "infoURL": "https://docs.fantom.foundation/quick-start/short-guide#fantom-testnet"
 }, {
-  "name": "Boba Network Bobaopera Testnet",
+  "name": "Bobaopera Testnet",
   "chainId": 4051,
   "shortName": "BobaoperaTestnet",
   "networkId": 4051,
@@ -4471,9 +4497,9 @@
   "faucets": [],
   "infoURL": "https://phi.network"
 }, {
-  "name": "Boba Network Bobafuji Testnet",
+  "name": "Bobafuji Testnet",
   "chainId": 4328,
-  "shortName": "BobafujiTestnet",
+  "shortName": "BobaFujiTestnet",
   "networkId": 4328,
   "nativeCurrency": {
     "name": "Boba Token",
@@ -5173,9 +5199,9 @@
   "faucets": ["http://faucet.qeasyweb3.com"],
   "infoURL": "https://www.qeasyweb3.com"
 }, {
-  "name": "Boba Network BNB Testnet",
+  "name": "Boba BNB Testnet",
   "chainId": 9728,
-  "shortName": "BobaBNBTestnet",
+  "shortName": "BobaBnbTestnet",
   "networkId": 9728,
   "nativeCurrency": {
     "name": "Boba Token",
@@ -6079,7 +6105,7 @@
     "symbol": "BOBA",
     "decimals": 18
   },
-  "rpc": ["https://avax.boba.network", "wss://wss.avax.boba.network", "https://replica.avax.boba.network"],
+  "rpc": ["https://avax.boba.network", "wss://wss.avax.boba.network", "https://replica.avax.boba.network", "wss://replica-wss.avax.boba.network"],
   "faucets": [],
   "infoURL": "https://docs.boba.network/for-developers/network-avalanche"
 }, {
@@ -6550,6 +6576,19 @@
   "rpc": ["https://evm.lambda.top/"],
   "faucets": ["https://faucet.lambda.top"],
   "infoURL": "https://lambda.im"
+}, {
+  "name": "Boba BNB Mainnet",
+  "chainId": 97288,
+  "shortName": "BobaBnb",
+  "networkId": 97288,
+  "nativeCurrency": {
+    "name": "Boba Token",
+    "symbol": "BOBA",
+    "decimals": 18
+  },
+  "rpc": ["https://bnb.boba.network", "wss://wss.bnb.boba.network", "https://replica.bnb.boba.network", "wss://replica-wss.bnb.boba.network"],
+  "faucets": [],
+  "infoURL": "https://boba.network"
 }, {
   "name": "UB Smart Chain(testnet)",
   "chainId": 99998,
