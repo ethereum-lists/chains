@@ -3569,7 +3569,7 @@
   "name": "QL1",
   "chain": "QOM",
   "status": "incubating",
-  "rpc": ["https://rpc.qom.one:8545"],
+  "rpc": ["https://rpc.qom.one"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Shiba Predator",
@@ -11192,7 +11192,7 @@
   "name": "QL1 Testnet",
   "chain": "QOM",
   "status": "incubating",
-  "rpc": ["https://rpct.qom.one:8545"],
+  "rpc": ["https://rpc.testnet.qom.one"],
   "faucets": ["https://faucet.qom.one"],
   "nativeCurrency": {
     "name": "Shiba Predator",
