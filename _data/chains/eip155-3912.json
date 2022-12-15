@@ -2,7 +2,7 @@
   "name": "DRAC Network",
   "chain": "DRAC",
   "rpc": ["https://www.dracscan.com/rpc"],
-  "faucets": ["https://www.dracscan.com/faucet"],
+  "faucets": ["https://www.dracscan.io/faucet"],
   "nativeCurrency": {
     "name": "DRAC",
     "symbol": "DRAC",
@@ -24,7 +24,7 @@
   "explorers": [
     {
       "name": "DRAC_Network Scan",
-      "url": "https://www.dracscan.com",
+      "url": "https://www.dracscan.io",
       "icon": "DRAC",
       "standard": "EIP3091"
     }
