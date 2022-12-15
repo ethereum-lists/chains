@@ -5979,6 +5979,19 @@
   "faucets": [],
   "infoURL": "https://avescoin.io"
 }, {
+  "name": "J2O Taro",
+  "chainId": 35011,
+  "shortName": "j2o",
+  "networkId": 35011,
+  "nativeCurrency": {
+    "name": "TARO Coin",
+    "symbol": "taro",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.j2o.io"],
+  "faucets": [],
+  "infoURL": "https://j2o.io"
+}, {
   "name": "Q Mainnet",
   "chainId": 35441,
   "shortName": "q",
