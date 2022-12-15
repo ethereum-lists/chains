@@ -2157,6 +2157,19 @@
   "faucets": [],
   "infoURL": "https://optimism.io"
 }, {
+  "name": "Zeeth Chain",
+  "chainId": 427,
+  "shortName": "zeeth",
+  "networkId": 427,
+  "nativeCurrency": {
+    "name": "Zeeth Token",
+    "symbol": "ZTH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zeeth.io"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Rupaya",
   "chainId": 499,
   "shortName": "rupx",
@@ -2624,6 +2637,19 @@
   "rpc": [],
   "faucets": [],
   "infoURL": "https://callisto.network"
+}, {
+  "name": "Zeeth Chain Dev",
+  "chainId": 859,
+  "shortName": "zeethdev",
+  "networkId": 859,
+  "nativeCurrency": {
+    "name": "Zeeth Token",
+    "symbol": "ZTH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.dev.zeeth.io"],
+  "faucets": [],
+  "infoURL": ""
 }, {
   "name": "Dexit Network",
   "chainId": 877,
