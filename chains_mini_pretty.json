@@ -8293,6 +8293,19 @@
   "faucets": [],
   "infoURL": "https://ntity.io"
 }, {
+  "name": "PDC mainnet",
+  "chainId": 666301171999,
+  "shortName": "ipdc",
+  "networkId": 666301171999,
+  "nativeCurrency": {
+    "name": "PDC",
+    "symbol": "PDC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.ipdc.io/"],
+  "faucets": [],
+  "infoURL": "https://ipdc.io"
+}, {
   "name": "Molereum Network",
   "chainId": 6022140761023,
   "shortName": "mole",
