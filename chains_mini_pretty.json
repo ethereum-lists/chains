@@ -2261,6 +2261,19 @@
   "faucets": ["https://xsc.pub/faucet"],
   "infoURL": "https://xsc.pub/"
 }, {
+  "name": "Firechain Mainnet",
+  "chainId": 529,
+  "shortName": "fire",
+  "networkId": 529,
+  "nativeCurrency": {
+    "name": "Firechain",
+    "symbol": "FIRE",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.rpc1.thefirechain.com"],
+  "faucets": [],
+  "infoURL": "https://thefirechain.com"
+}, {
   "name": "F(x)Core Mainnet Network",
   "chainId": 530,
   "shortName": "FxCore",
@@ -2754,6 +2767,19 @@
   "rpc": [],
   "faucets": [],
   "infoURL": "https://portalfantasy.io"
+}, {
+  "name": "Rinia Testnet",
+  "chainId": 917,
+  "shortName": "tfire",
+  "networkId": 917,
+  "nativeCurrency": {
+    "name": "Firechain",
+    "symbol": "FIRE",
+    "decimals": 18
+  },
+  "rpc": ["https://rinia.rpc1.thefirechain.com"],
+  "faucets": ["https://faucet.thefirechain.com"],
+  "infoURL": "https://thefirechain.com"
 }, {
   "name": "PulseChain Testnet",
   "chainId": 940,
@@ -4679,9 +4705,9 @@
   "faucets": [],
   "infoURL": "https://humanode.io"
 }, {
-  "name": "Firechain Mainnet",
+  "name": "Firechain Mainnet Old",
   "chainId": 5290,
-  "shortName": "fire",
+  "shortName": "_old_fire",
   "networkId": 5290,
   "nativeCurrency": {
     "name": "Firechain",
@@ -5225,9 +5251,9 @@
   "faucets": [],
   "infoURL": "https://genesis-gn.com"
 }, {
-  "name": "Rinia Testnet",
+  "name": "Rinia Testnet Old",
   "chainId": 9170,
-  "shortName": "tfire",
+  "shortName": "_old_tfire",
   "networkId": 9170,
   "nativeCurrency": {
     "name": "Firechain",
