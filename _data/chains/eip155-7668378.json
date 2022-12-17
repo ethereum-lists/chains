@@ -1,0 +1,25 @@
+{
+  "name": "QL1 Testnet",
+  "chain": "QOM",
+  "status": "incubating",
+  "rpc": ["https://rpc.testnet.qom.one"],
+  "faucets": ["https://faucet.qom.one"],
+  "nativeCurrency": {
+    "name": "Shiba Predator",
+    "symbol": "QOM",
+    "decimals": 18
+  },
+  "infoURL": "https://qom.one",
+  "shortName": "tqom",
+  "chainId": 7668378,
+  "networkId": 7668378,
+  "icon": "qom",
+  "explorers": [
+    {
+      "name": "QL1 Testnet Explorer",
+      "url": "https://testnet.qom.one",
+      "icon": "qom",
+      "standard": "EIP3091"
+    }
+  ]
+}
