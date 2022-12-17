@@ -1,0 +1,24 @@
+{
+  "name": "ZetaChain Mainnet",
+  "chain": "ZetaChain",
+  "icon": "zetachain",
+  "rpc": ["https://api.mainnet.zetachain.com/evm"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Zeta",
+    "symbol": "ZETA",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.zetachain.com/",
+  "shortName": "zetachain-mainnet",
+  "chainId": 7000,
+  "networkId": 7000,
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "ZetaChain Mainnet Explorer",
+      "url": "https://explorer.mainnet.zetachain.com",
+      "standard": "none"
+    }
+  ]
+}
