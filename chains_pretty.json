@@ -3782,6 +3782,46 @@
   "networkId": 2,
   "status": "deprecated"
 }, {
+  "name": "Taraxa Mainnet",
+  "chain": "Tara",
+  "icon": "taraxa",
+  "rpc": ["https://rpc.mainnet.taraxa.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Tara",
+    "symbol": "TARA",
+    "decimals": 18
+  },
+  "infoURL": "https://taraxa.io",
+  "shortName": "tara",
+  "chainId": 841,
+  "networkId": 841,
+  "explorers": [{
+    "name": "Taraxa Explorer",
+    "url": "https://explorer.mainnet.taraxa.io",
+    "standard": "none"
+  }]
+}, {
+  "name": "Taraxa Testnet",
+  "chain": "Tara",
+  "icon": "taraxa",
+  "rpc": ["https://rpc.testnet.taraxa.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Tara",
+    "symbol": "TARA",
+    "decimals": 18
+  },
+  "infoURL": "https://taraxa.io",
+  "shortName": "taratest",
+  "chainId": 842,
+  "networkId": 842,
+  "explorers": [{
+    "name": "Taraxa Explorer",
+    "url": "https://explorer.testnet.taraxa.io",
+    "standard": "none"
+  }]
+}, {
   "name": "Zeeth Chain Dev",
   "chain": "ZeethChainDev",
   "rpc": ["https://rpc.dev.zeeth.io"],

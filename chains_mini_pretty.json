@@ -2651,6 +2651,32 @@
   "faucets": [],
   "infoURL": "https://callisto.network"
 }, {
+  "name": "Taraxa Mainnet",
+  "chainId": 841,
+  "shortName": "tara",
+  "networkId": 841,
+  "nativeCurrency": {
+    "name": "Tara",
+    "symbol": "TARA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mainnet.taraxa.io/"],
+  "faucets": [],
+  "infoURL": "https://taraxa.io"
+}, {
+  "name": "Taraxa Testnet",
+  "chainId": 842,
+  "shortName": "taratest",
+  "networkId": 842,
+  "nativeCurrency": {
+    "name": "Tara",
+    "symbol": "TARA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.taraxa.io/"],
+  "faucets": [],
+  "infoURL": "https://taraxa.io"
+}, {
   "name": "Zeeth Chain Dev",
   "chainId": 859,
   "shortName": "zeethdev",
