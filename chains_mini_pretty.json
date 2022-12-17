@@ -4523,6 +4523,19 @@
   "faucets": ["https://faucet.crossbell.io"],
   "infoURL": "https://crossbell.io"
 }, {
+  "name": "DRAC Network",
+  "chainId": 3912,
+  "shortName": "drac",
+  "networkId": 3912,
+  "nativeCurrency": {
+    "name": "DRAC",
+    "symbol": "DRAC",
+    "decimals": 18
+  },
+  "rpc": ["https://www.dracscan.com/rpc"],
+  "faucets": ["https://www.dracscan.io/faucet"],
+  "infoURL": "https://drac.io/"
+}, {
   "name": "DYNO Mainnet",
   "chainId": 3966,
   "shortName": "dyno",
