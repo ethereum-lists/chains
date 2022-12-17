@@ -1,14 +1,14 @@
 {
-  "name": "Firechain Mainnet Old",
+  "name": "Firechain Mainnet",
   "chain": "FIRE",
   "icon": "firechain",
   "rpc": ["https://mainnet.rpc1.thefirechain.com"],
   "faucets": [],
   "nativeCurrency": { "name": "Firechain", "symbol": "FIRE", "decimals": 18 },
   "infoURL": "https://thefirechain.com",
-  "shortName": "_old_fire",
-  "chainId": 5290,
-  "networkId": 5290,
+  "shortName": "fire",
+  "chainId": 529,
+  "networkId": 529,
   "explorers": [],
-  "status": "deprecated"
+  "status": "incubating"
 }
