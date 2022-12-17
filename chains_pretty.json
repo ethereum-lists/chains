@@ -282,6 +282,7 @@
 }, {
   "name": "Flare Testnet Coston",
   "chain": "FLR",
+  "icon": "coston",
   "rpc": ["https://coston-api.flare.network/ext/bc/C/rpc"],
   "faucets": ["https://faucet.towolabs.com", "https://fauceth.komputing.org?chain=16&address=${ADDRESS}"],
   "nativeCurrency": {
@@ -335,7 +336,7 @@
   "name": "Songbird Canary-Network",
   "chain": "SGB",
   "icon": "songbird",
-  "rpc": ["https://songbird.towolabs.com/rpc", "https://songbird-api.flare.network/ext/C/rpc", "https://sgb.ftso.com.au/ext/bc/C/rpc", "https://sgb.lightft.so/rpc", "https://sgb-rpc.ftso.eu"],
+  "rpc": ["https://songbird-api.flare.network/ext/C/rpc", "https://songbird.towolabs.com/ext/C/rpc", "https://sgb.ftso.com.au/ext/bc/C/rpc", "https://sgb.lightft.so/rpc", "https://sgb-rpc.ftso.eu"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Songbird",
@@ -1932,6 +1933,26 @@
   "explorers": [{
     "name": "Dehvo Explorer",
     "url": "https://explorer.dehvo.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Flare Testnet Coston2",
+  "chain": "FLR",
+  "icon": "coston2",
+  "rpc": ["https://coston2-api.flare.network/ext/bc/C/rpc"],
+  "faucets": ["https://coston2-faucet.towolabs.com"],
+  "nativeCurrency": {
+    "name": "Coston2 Flare",
+    "symbol": "C2FLR",
+    "decimals": 18
+  },
+  "infoURL": "https://flare.xyz",
+  "shortName": "c2flr",
+  "chainId": 114,
+  "networkId": 114,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://coston2-explorer.flare.network",
     "standard": "EIP3091"
   }]
 }, {
