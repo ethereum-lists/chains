@@ -3717,6 +3717,19 @@
   "faucets": ["https://faucet.blockchain.or.th"],
   "infoURL": "https://blockchain.or.th"
 }, {
+  "name": "Kerleano",
+  "chainId": 1804,
+  "shortName": "kerleano",
+  "networkId": 1804,
+  "nativeCurrency": {
+    "name": "Carbon Reduction Coin",
+    "symbol": "CRC",
+    "decimals": 18
+  },
+  "rpc": ["https://cacib-saturn-test.francecentral.cloudapp.azure.com", "wss://cacib-saturn-test.francecentral.cloudapp.azure.com:9443"],
+  "faucets": [],
+  "infoURL": "https://github.com/ethereum-pocr/kerleano"
+}, {
   "name": "Rabbit Analog Testnet Chain",
   "chainId": 1807,
   "shortName": "rAna",
@@ -4249,6 +4262,19 @@
   "rpc": ["https://api.techpay.io/"],
   "faucets": [],
   "infoURL": "https://techpay.io/"
+}, {
+  "name": "PoCRNet",
+  "chainId": 2606,
+  "shortName": "pocrnet",
+  "networkId": 2606,
+  "nativeCurrency": {
+    "name": "Carbon Reduction Coin",
+    "symbol": "CRC",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://github.com/ethereum-pocr"
 }, {
   "name": "Redlight Chain Mainnet",
   "chainId": 2611,

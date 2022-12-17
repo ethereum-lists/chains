@@ -1,0 +1,21 @@
+{
+  "name": "Kerleano",
+  "title": "Proof of Carbon Reduction testnet",
+  "chain": "CRC",
+  "status": "incubating",
+  "rpc": [
+    "https://cacib-saturn-test.francecentral.cloudapp.azure.com",
+    "wss://cacib-saturn-test.francecentral.cloudapp.azure.com:9443"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Carbon Reduction Coin",
+    "symbol": "CRC",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/ethereum-pocr/kerleano",
+  "shortName": "kerleano",
+  "chainId": 1804,
+  "networkId": 1804,
+  "explorers": []
+}
