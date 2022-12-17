@@ -4692,6 +4692,32 @@
   "faucets": [],
   "infoURL": "https://venidium.io"
 }, {
+  "name": "Mantle",
+  "chainId": 5000,
+  "shortName": "mantle",
+  "networkId": 5000,
+  "nativeCurrency": {
+    "name": "BitDAO",
+    "symbol": "BIT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mantle.xyz"],
+  "faucets": [],
+  "infoURL": "https://mantle.xyz"
+}, {
+  "name": "Mantle Testnet",
+  "chainId": 5001,
+  "shortName": "mantle-testnet",
+  "networkId": 5001,
+  "nativeCurrency": {
+    "name": "Testnet BitDAO",
+    "symbol": "BIT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.mantle.xyz"],
+  "faucets": ["https://faucet.testnet.mantle.xyz"],
+  "infoURL": "https://mantle.xyz"
+}, {
   "name": "TLChain Network Mainnet",
   "chainId": 5177,
   "shortName": "tlc",
