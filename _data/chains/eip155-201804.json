@@ -1,7 +1,7 @@
 {
   "name": "Mythical Chain",
   "chain": "MYTH",
-  "rpc": [ "https://chain-rpc.mythicalgames.com" ],
+  "rpc": ["https://chain-rpc.mythicalgames.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Mythos",
@@ -14,10 +14,12 @@
   "chainId": 201804,
   "networkId": 201804,
   "icon": "mythical",
-  "explorers": [{
-    "name": "Mythical Chain Explorer",
-    "url": "https://explorer.mythicalgames.com",
-    "icon": "mythical",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "Mythical Chain Explorer",
+      "url": "https://explorer.mythicalgames.com",
+      "icon": "mythical",
+      "standard": "EIP3091"
+    }
+  ]
 }
