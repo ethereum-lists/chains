@@ -1,9 +1,7 @@
 {
   "name": "Hammer Chain Mainnet",
   "chain": "HammerChain",
-  "rpc": [
-    "https://www.hammerchain.io/rpc"
-  ],
+  "rpc": ["https://www.hammerchain.io/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "GOLDT",
