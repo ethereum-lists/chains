@@ -5966,6 +5966,19 @@
   "faucets": [],
   "infoURL": "https://www.mintme.com"
 }, {
+  "name": "Hammer Chain Mainnet",
+  "chainId": 25888,
+  "shortName": "GOLDT",
+  "networkId": 25888,
+  "nativeCurrency": {
+    "name": "GOLDT",
+    "symbol": "GOLDT",
+    "decimals": 18
+  },
+  "rpc": ["https://www.hammerchain.io/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.hammerchain.io"
+}, {
   "name": "OasisChain Mainnet",
   "chainId": 26863,
   "shortName": "OAC",

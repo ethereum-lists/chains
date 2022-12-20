@@ -8670,6 +8670,25 @@
   "chainId": 24734,
   "networkId": 37480
 }, {
+  "name": "Hammer Chain Mainnet",
+  "chain": "HammerChain",
+  "rpc": ["https://www.hammerchain.io/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GOLDT",
+    "symbol": "GOLDT",
+    "decimals": 18
+  },
+  "infoURL": "https://www.hammerchain.io",
+  "shortName": "GOLDT",
+  "chainId": 25888,
+  "networkId": 25888,
+  "explorers": [{
+    "name": "Hammer Chain Explorer",
+    "url": "https://www.hammerchain.io",
+    "standard": "none"
+  }]
+}, {
   "name": "OasisChain Mainnet",
   "chain": "OasisChain",
   "rpc": ["https://rpc1.oasischain.io", "https://rpc2.oasischain.io", "https://rpc3.oasischain.io"],
