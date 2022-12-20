@@ -1,0 +1,22 @@
+{
+  "name": "Chain Verse Mainnet",
+  "chain": "CVERSE",
+  "network": "mainnet",
+  "icon": "chain_verse",
+  "rpc": ["https://rpc.chainverse.info/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "No Gas Required",
+    "symbol": "Gasless",
+    "decimals": 18
+  },
+  "infoURL": "https://chainverse.info/",
+  "shortName": "CVERSE",
+  "chainId": 5555,
+  "networkId": 5555,
+  "explorers": [{
+      "name": "Chain Verse Explorer",
+      "url": "https://explorer.chainverse.info/",
+      "standard": "EIP3091"
+    }]
+}
