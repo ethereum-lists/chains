@@ -1,7 +1,7 @@
 {
   "name": "Humanode Mainnet",
   "chain": "HMND",
-  "rpc": [],
+  "rpc": ["https://explorer-rpc-http.mainnet.stages.humanode.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "HMND",
