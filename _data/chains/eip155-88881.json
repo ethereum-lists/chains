@@ -10,16 +10,15 @@
       "symbol": "XETA",
       "decimals": 18
     },
-    "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+
     "infoURL": "https://xanachain.xana.net/",
     "shortName": "XANAChain",
     "chainId": 8888,
     "networkId": 8888,
-    "icon": "xeta",
+    "icon": "xana",
     "explorers": [{
       "name": "XANAChain",
       "url": "https://xanachain.xana.net/",
-      "icon": "XANAChain",
       "standard": "EIP3091"
     }]
   }
