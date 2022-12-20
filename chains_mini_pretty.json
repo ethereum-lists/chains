@@ -8020,6 +8020,19 @@
   "faucets": [],
   "infoURL": "https://joys.digital"
 }, {
+  "name": "maistestsubnet",
+  "chainId": 43214913,
+  "shortName": "mais",
+  "networkId": 43214913,
+  "nativeCurrency": {
+    "name": "maistestsubnet",
+    "symbol": "MAI",
+    "decimals": 18
+  },
+  "rpc": ["http://174.138.9.169:9650/ext/bc/VUKSzFZKckx4PoZF9gX5QAqLPxbLzvu1vcssPG5QuodaJtdHT/rpc"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Aquachain",
   "chainId": 61717561,
   "shortName": "aqua",
