@@ -8,17 +8,17 @@ jobs:
   validate_json:
     runs-on: ubuntu-latest
     steps:
-    - name: Check out repo
-      uses: actions/checkout@v2
-    - uses: actions/cache@v2
-      name: Configure npm caching
-      with:
-        path: ~/.npm
-        key: ${{ runner.os }}-npm-${{ hashFiles('**/workflows/validate_json.yml') }}
-        restore-keys: |
-          ${{ runner.os }}-npm-
-    - name: Run JSON Validation
-      working-directory: ./tools
-      run: |-
-        npm install
-        node schemaCheck.js
+      - name: Check out repo
+        uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        name: Configure npm caching
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/workflows/validate_json.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+      - name: Run JSON Validation
+        working-directory: ./tools
+        run: |-
+          npm install
+          node schemaCheck.js

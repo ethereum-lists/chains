@@ -11,12 +11,12 @@ jobs:
         run: |
           ./gradlew run
 
-# deploy to github pages only when on master
+  # deploy to github pages only when on master
   deploy:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Extract branch name	
+      - name: Extract branch name
         shell: bash
         run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF##*/})"
         id: extract_branch
@@ -26,7 +26,7 @@ jobs:
       - name: Build
         run: |
           ./gradlew run
-        if: ${{ github.event_name != 'pull_request' && steps.extract_branch.outputs.branch == 'master' }}	  
+        if: ${{ github.event_name != 'pull_request' && steps.extract_branch.outputs.branch == 'master' }}
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
