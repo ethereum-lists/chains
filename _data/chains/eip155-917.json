@@ -1,14 +1,14 @@
 {
-  "name": "Rinia Testnet Old",
+  "name": "Rinia Testnet",
   "chain": "FIRE",
   "icon": "rinia",
   "rpc": ["https://rinia.rpc1.thefirechain.com"],
   "faucets": ["https://faucet.thefirechain.com"],
   "nativeCurrency": { "name": "Firechain", "symbol": "FIRE", "decimals": 18 },
   "infoURL": "https://thefirechain.com",
-  "shortName": "_old_tfire",
-  "chainId": 9170,
-  "networkId": 9170,
+  "shortName": "tfire",
+  "chainId": 917,
+  "networkId": 917,
   "explorers": [],
-  "status": "deprecated"
+  "status": "incubating"
 }
