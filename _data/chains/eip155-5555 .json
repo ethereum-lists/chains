@@ -3,20 +3,20 @@
   "chain": "CVERSE",
   "network": "mainnet",
   "icon": "chain_verse",
-  "rpc": ["https://rpc.chainverse.info/"],
+  "rpc": ["https://rpc.chainverse.info"],
   "faucets": [],
   "nativeCurrency": {
     "name": "No Gas Required",
     "symbol": "Gasless",
     "decimals": 18
   },
-  "infoURL": "https://chainverse.info/",
+  "infoURL": "https://chainverse.info",
   "shortName": "cverse",
   "chainId": 5555,
   "networkId": 5555,
   "explorers": [{
       "name": "Chain Verse Explorer",
-      "url": "https://explorer.chainverse.info/",
+      "url": "https://explorer.chainverse.info",
       "standard": "EIP3091"
     }]
 }
