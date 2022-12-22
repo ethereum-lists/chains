@@ -30,11 +30,12 @@ for (const chainFile of chainFiles) {
 }
 
 if (filesWithErrors.length > 0) {
-  filesWithErrors.forEach((file) => {
+  filesWithErrors.forEach(file => {
     console.error(`Invalid JSON Schema in ${file}`)
   })
-  exit(-1)
-} else {
-  console.info("Schema check completed successfully")
-  exit(0)
+  exit(-1);
+}
+else {
+  console.info("Schema check completed successfully");
+  exit(0);
 }
