@@ -1,9 +1,7 @@
 {
   "name": "Decimal Smart Chain Mainnet",
   "chain": "DSC",
-  "rpc": [
-    "https://node.decimalchain.com/web3"
-  ],
+  "rpc": ["https://node.decimalchain.com/web3"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Decimal",
@@ -16,10 +14,12 @@
   "chainId": 75,
   "networkId": 75,
   "icon": "dsc",
-  "explorers": [{
-    "name": "DSC Explorer Mainnet",
-    "url": "https://explorer.decimalchain.com",
-    "icon": "dsc",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "DSC Explorer Mainnet",
+      "url": "https://explorer.decimalchain.com",
+      "icon": "dsc",
+      "standard": "EIP3091"
+    }
+  ]
 }
