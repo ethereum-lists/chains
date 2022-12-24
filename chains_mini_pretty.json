@@ -935,6 +935,19 @@
   "faucets": [],
   "infoURL": "https://idchain.one/begin/"
 }, {
+  "name": "Decimal Smart Chain Mainnet",
+  "chainId": 75,
+  "shortName": "DSC",
+  "networkId": 75,
+  "nativeCurrency": {
+    "name": "Decimal",
+    "symbol": "DEL",
+    "decimals": 18
+  },
+  "rpc": ["https://node.decimalchain.com/web3"],
+  "faucets": [],
+  "infoURL": "https://decimalchain.com"
+}, {
   "name": "Mix",
   "chainId": 76,
   "shortName": "mix",
@@ -7213,6 +7226,19 @@
   "rpc": ["https://chain-rpc.mythicalgames.com"],
   "faucets": [],
   "infoURL": "https://mythicalgames.com/"
+}, {
+  "name": "Decimal Smart Chain Testnet",
+  "chainId": 202020,
+  "shortName": "tDSC",
+  "networkId": 202020,
+  "nativeCurrency": {
+    "name": "Decimal",
+    "symbol": "tDEL",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-val.decimalchain.com/web3"],
+  "faucets": [],
+  "infoURL": "https://decimalchain.com"
 }, {
   "name": "Jellie",
   "chainId": 202624,
