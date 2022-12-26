@@ -2885,31 +2885,44 @@
   "faucets": [],
   "infoURL": "https://munode.dev/"
 }, {
-  "name": "CCN",
+  "name": "Oort Mainnet",
   "chainId": 970,
   "shortName": "ccn",
   "networkId": 970,
   "nativeCurrency": {
-    "name": "ComputeCoin",
+    "name": "Oort",
     "symbol": "CCN",
     "decimals": 18
   },
-  "rpc": ["https://rpc.mainnet.computecoin.com"],
+  "rpc": ["https://rpc.oortech.com"],
   "faucets": [],
-  "infoURL": "https://computecoin.com/"
+  "infoURL": "https://oortech.com"
 }, {
-  "name": "CCN Beta",
+  "name": "Oort Huygens",
   "chainId": 971,
-  "shortName": "ccnbeta",
+  "shortName": "Huygens",
   "networkId": 971,
   "nativeCurrency": {
-    "name": "ComputeCoin",
+    "name": "Oort",
     "symbol": "CCN",
     "decimals": 18
   },
-  "rpc": ["https://beta-rpc.mainnet.computecoin.com"],
+  "rpc": ["https://huygens-rpc.oortech.com"],
   "faucets": [],
-  "infoURL": "https://computecoin.com/"
+  "infoURL": "https://oortech.com"
+}, {
+  "name": "Oort Ascraeus",
+  "chainId": 972,
+  "shortName": "Ascraeus",
+  "networkId": 972,
+  "nativeCurrency": {
+    "name": "Oort",
+    "symbol": "CCNA",
+    "decimals": 18
+  },
+  "rpc": ["https://ascraeus-rpc.oortech.com"],
+  "faucets": [],
+  "infoURL": "https://oortech.com"
 }, {
   "name": "Nepal Blockchain Network",
   "chainId": 977,
@@ -5406,6 +5419,19 @@
   "rpc": ["https://qeasyweb3.com"],
   "faucets": ["http://faucet.qeasyweb3.com"],
   "infoURL": "https://www.qeasyweb3.com"
+}, {
+  "name": "Oort MainnetDev",
+  "chainId": 9700,
+  "shortName": "MainnetDev",
+  "networkId": 9700,
+  "nativeCurrency": {
+    "name": "Oort",
+    "symbol": "CCN",
+    "decimals": 18
+  },
+  "rpc": ["https://dev-rpc.oortech.com"],
+  "faucets": [],
+  "infoURL": "https://oortech.com"
 }, {
   "name": "Boba BNB Testnet",
   "chainId": 9728,
