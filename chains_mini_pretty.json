@@ -3899,6 +3899,19 @@
   "faucets": [],
   "infoURL": "https://www.ekta.io"
 }, {
+  "name": "edeXa Testnet",
+  "chainId": 1995,
+  "shortName": "edx",
+  "networkId": 1995,
+  "nativeCurrency": {
+    "name": "EDEXA",
+    "symbol": "EDX",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.edexa.com/rpc"],
+  "faucets": ["https://faucet.edexa.com/"],
+  "infoURL": "https://edexa.com/"
+}, {
   "name": "Dogechain Mainnet",
   "chainId": 2000,
   "shortName": "dc",
