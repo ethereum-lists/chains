@@ -3288,6 +3288,19 @@
   "faucets": ["https://scan.boka.network/#/Galois/faucet"],
   "infoURL": "https://mathchain.org"
 }, {
+  "name": "Smart Host Teknoloji TESTNET",
+  "chainId": 1177,
+  "shortName": "sht",
+  "networkId": 1177,
+  "nativeCurrency": {
+    "name": "Smart Host Teknoloji TESTNET",
+    "symbol": "tSHT",
+    "decimals": 18
+  },
+  "rpc": ["https://s2.tl.web.tr:4041"],
+  "faucets": [],
+  "infoURL": "https://smart-host.com.tr"
+}, {
   "name": "Iora Chain",
   "chainId": 1197,
   "shortName": "iora",
