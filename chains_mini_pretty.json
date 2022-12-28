@@ -2547,6 +2547,19 @@
   "faucets": [],
   "infoURL": "https://lycanchain.com"
 }, {
+  "name": "Vention Smart Chain Testnet",
+  "chainId": 741,
+  "shortName": "vsct",
+  "networkId": 741,
+  "nativeCurrency": {
+    "name": "VNT",
+    "symbol": "VNT",
+    "decimals": 18
+  },
+  "rpc": ["https://node-testnet.vention.network"],
+  "faucets": ["https://faucet.vention.network"],
+  "infoURL": "https://testnet.ventionscan.io"
+}, {
   "name": "QL1",
   "chainId": 766,
   "shortName": "qom",
@@ -6797,6 +6810,19 @@
   "rpc": ["https://mainnet.resincoin.dev"],
   "faucets": [],
   "infoURL": "https://resincoin.dev"
+}, {
+  "name": "Vention Smart Chain Mainnet",
+  "chainId": 77612,
+  "shortName": "vscm",
+  "networkId": 77612,
+  "nativeCurrency": {
+    "name": "VNT",
+    "symbol": "VNT",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.vention.network"],
+  "faucets": ["https://faucet.vention.network"],
+  "infoURL": "https://ventionscan.io"
 }, {
   "name": "Firenze test network",
   "chainId": 78110,
