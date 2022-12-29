@@ -5355,6 +5355,19 @@
   "faucets": ["https://faucet.mmtscan.io/"],
   "infoURL": "https://mmtchain.io/"
 }, {
+  "name": "JIBCHAIN L1",
+  "chainId": 8899,
+  "shortName": "jbc",
+  "networkId": 8899,
+  "nativeCurrency": {
+    "name": "JIBCOIN",
+    "symbol": "JBC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-l1.jibchain.net"],
+  "faucets": [],
+  "infoURL": "https://jibchain.net"
+}, {
   "name": "bloxberg",
   "chainId": 8995,
   "shortName": "berg",
