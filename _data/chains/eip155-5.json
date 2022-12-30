@@ -1,8 +1,7 @@
 {
-  "name": "Görli",
-  "title": "Ethereum Testnet Görli",
+  "name": "Goerli",
+  "title": "Ethereum Testnet Goerli",
   "chain": "ETH",
-  "network": "testnet",
   "rpc": [
     "https://goerli.infura.io/v3/${INFURA_API_KEY}",
     "wss://goerli.infura.io/v3/${INFURA_API_KEY}",
@@ -14,7 +13,7 @@
     "https://faucet.goerli.mudit.blog"
   ],
   "nativeCurrency": {
-    "name": "Görli Ether",
+    "name": "Goerli Ether",
     "symbol": "ETH",
     "decimals": 18
   },

@@ -23,5 +23,6 @@
     "type": "L2",
     "chain": "eip155-4",
     "bridges": [{ "url": "https://bridge.metis.io" }]
-  }
+  },
+  "status": "deprecated"
 }

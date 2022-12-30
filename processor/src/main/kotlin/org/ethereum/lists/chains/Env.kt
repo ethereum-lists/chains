@@ -20,15 +20,18 @@ val mandatory_fields = listOf(
     "nativeCurrency"
 )
 val optionalFields = listOf(
+    "features",
     "slip44",
     "ens",
     "icon",
     "explorers",
     "title",
-    "network",
     "parent",
-    "status"
+    "status",
+    "redFlags"
 )
+
+val allowedRedFlags = listOf("reusedChainId")
 
 val moshi: Moshi = Moshi.Builder().build()
 val chainAdapter: JsonAdapter<Chain> = moshi.adapter(Chain::class.java)
@@ -42,3 +45,6 @@ val ipfs by lazy {
         )
     )
 }
+
+val httpPrefixes = listOf("https://", "http://")
+val rpcPrefixes = httpPrefixes + listOf("wss://", "ws://")

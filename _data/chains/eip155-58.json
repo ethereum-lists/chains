@@ -1,6 +1,7 @@
 {
   "name": "Ontology Mainnet",
   "chain": "Ontology",
+  "icon": "ontology",
   "rpc": [
     "http://dappnode1.ont.io:20339",
     "http://dappnode2.ont.io:20339",
@@ -18,7 +19,7 @@
     "decimals": 18
   },
   "infoURL": "https://ont.io/",
-  "shortName": "Ontology Mainnet",
+  "shortName": "OntologyMainnet",
   "chainId": 58,
   "networkId": 58,
   "explorers": [
