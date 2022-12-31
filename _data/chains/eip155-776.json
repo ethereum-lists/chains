@@ -1,13 +1,8 @@
 {
   "name": "OpenChain Testnet",
   "chain": "OpenChain Testnet",
-  "rpc": [
-    "http://mainnet.openchain.info:8545",
-    "https://mainnet1.openchain.info"
-  ],
-  "faucets": [
-    "https://faucet.openchain.info/"
-  ],
+  "rpc": [],
+  "faucets": ["https://faucet.openchain.info/"],
   "nativeCurrency": {
     "name": "Openchain Testnet",
     "symbol": "TOPC",

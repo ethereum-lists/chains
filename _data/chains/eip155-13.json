@@ -1,10 +1,7 @@
 {
   "name": "Diode Testnet Staging",
   "chain": "DIODE",
-  "rpc": [
-    "https://staging.diode.io:8443/",
-    "wss://staging.diode.io:8443/ws"
-  ],
+  "rpc": ["https://staging.diode.io:8443/", "wss://staging.diode.io:8443/ws"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Staging Diodes",

@@ -1,11 +1,8 @@
 {
   "name": "AIOZ Network",
   "chain": "AIOZ",
-  "network": "mainnet",
   "icon": "aioz",
-  "rpc": [
-    "https://eth-dataseed.aioz.network"
-  ],
+  "rpc": ["https://eth-dataseed.aioz.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "AIOZ",
@@ -17,9 +14,11 @@
   "chainId": 168,
   "networkId": 168,
   "slip44": 60,
-  "explorers": [{
-    "name": "AIOZ Network Explorer",
-    "url": "https://explorer.aioz.network",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "AIOZ Network Explorer",
+      "url": "https://explorer.aioz.network",
+      "standard": "EIP3091"
+    }
+  ]
 }

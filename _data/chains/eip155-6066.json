@@ -1,0 +1,24 @@
+{
+  "name": "Tres Leches Mainnet",
+  "chain": "TresLeches",
+  "rpc": ["https://rpc.tresleches.finance/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Tres Leches",
+    "symbol": "TRES",
+    "decimals": 18
+  },
+  "infoURL": "https://tresleches.finance",
+  "shortName": "TRESMAIN",
+  "chainId": 6066,
+  "networkId": 6066,
+  "icon": "tresleches",
+  "explorers": [
+    {
+      "name": "treslechesexplorer",
+      "url": "https://explorer.tresleches.finance",
+      "icon": "treslechesexplorer",
+      "standard": "EIP3091"
+    }
+  ]
+}

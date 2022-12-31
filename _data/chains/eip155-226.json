@@ -2,9 +2,7 @@
   "name": "LACHAIN Testnet",
   "chain": "TLA",
   "icon": "lachain",
-  "rpc": [
-    "https://rpc-testnet.lachain.io"
-  ],
+  "rpc": ["https://rpc-testnet.lachain.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "TLA",
@@ -15,9 +13,11 @@
   "shortName": "TLA",
   "chainId": 226,
   "networkId": 226,
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://scan-test.lachain.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://scan-test.lachain.io",
+      "standard": "EIP3091"
+    }
+  ]
 }

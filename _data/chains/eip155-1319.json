@@ -2,10 +2,7 @@
   "name": "Aitd Mainnet",
   "chain": "AITD",
   "icon": "aitd",
-  "rpc": [
-    "https://walletrpc.aitd.io",
-    "https://node.aitd.io"
-  ],
+  "rpc": ["https://walletrpc.aitd.io", "https://node.aitd.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "AITD Mainnet",
@@ -17,9 +14,11 @@
   "chainId": 1319,
   "networkId": 1319,
 
-  "explorers": [{
-    "name": "AITD Chain Explorer Mainnet",
-    "url": "https://aitd-explorer-new.aitd.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "AITD Chain Explorer Mainnet",
+      "url": "https://aitd-explorer-new.aitd.io",
+      "standard": "EIP3091"
+    }
+  ]
 }

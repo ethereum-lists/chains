@@ -1,0 +1,18 @@
+{
+  "name": "DeFiChain EVM Network Testnet",
+  "chain": "defichain-evm-testnet",
+  "status": "incubating",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DeFiChain",
+    "symbol": "DFI",
+    "decimals": 18
+  },
+  "infoURL": "https://meta.defichain.com/",
+  "shortName": "DFI-T",
+  "chainId": 1131,
+  "networkId": 1131,
+  "icon": "defichain-network",
+  "explorers": []
+}

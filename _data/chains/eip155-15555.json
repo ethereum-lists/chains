@@ -1,25 +1,22 @@
 {
   "name": "Trust EVM Testnet",
   "chain": "Trust EVM Testnet",
-  "network": "testnet",
-  "rpc": [
-    "https://api.testnet-dev.trust.one"
-  ],
-"faucets": [
-    "https://faucet.testnet-dev.trust.one/"
-  ],
+  "rpc": ["https://api.testnet-dev.trust.one"],
+  "faucets": ["https://faucet.testnet-dev.trust.one/"],
   "nativeCurrency": {
     "name": "Trust EVM",
     "symbol": "EVM",
     "decimals": 18
   },
   "infoURL": "https://www.trust.one/",
-  "shortName": "Trust testnet",
+  "shortName": "TrustTestnet",
   "chainId": 15555,
   "networkId": 15555,
-  "explorers": [{
-    "name": "Trust EVM Explorer",
-    "url": "https://trustscan.one",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "Trust EVM Explorer",
+      "url": "https://trustscan.one",
+      "standard": "EIP3091"
+    }
+  ]
 }

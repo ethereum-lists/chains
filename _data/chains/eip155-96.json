@@ -1,12 +1,8 @@
 {
   "name": "NEXT Smart Chain",
   "chain": "NSC",
-  "rpc": [
-    "https://rpc.nextsmartchain.com"
-  ],
-  "faucets": [
-    "https://faucet.nextsmartchain.com"
-  ],
+  "rpc": ["https://rpc.nextsmartchain.com"],
+  "faucets": ["https://faucet.nextsmartchain.com"],
   "nativeCurrency": {
     "name": "NEXT",
     "symbol": "NEXT",
@@ -16,9 +12,11 @@
   "shortName": "nsc",
   "chainId": 96,
   "networkId": 96,
-  "explorers": [{
-    "name": "Next Smart Chain Explorer",
-    "url": "https://explorer.nextsmartchain.com",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "Next Smart Chain Explorer",
+      "url": "https://explorer.nextsmartchain.com",
+      "standard": "none"
+    }
+  ]
 }

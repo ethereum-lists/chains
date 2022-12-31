@@ -1,11 +1,8 @@
 {
   "name": "Theta Testnet",
   "chain": "Theta",
-  "rpc": [
-    "https://eth-rpc-api-testnet.thetatoken.org/rpc"
-  ],
-  "faucets": [
-  ],
+  "rpc": ["https://eth-rpc-api-testnet.thetatoken.org/rpc"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Theta Fuel",
     "symbol": "TFUEL",
@@ -15,9 +12,11 @@
   "shortName": "theta-testnet",
   "chainId": 365,
   "networkId": 365,
-  "explorers": [{
-    "name": "Theta Testnet Explorer",
-    "url": "https://testnet-explorer.thetatoken.org",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "Theta Testnet Explorer",
+      "url": "https://testnet-explorer.thetatoken.org",
+      "standard": "EIP3091"
+    }
+  ]
 }

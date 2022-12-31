@@ -2,7 +2,6 @@
   "name": "Kovan",
   "title": "Ethereum Testnet Kovan",
   "chain": "ETH",
-  "network": "testnet",
   "rpc": [
     "https://kovan.poa.network",
     "http://kovan.poa.network:8545",
@@ -20,11 +19,13 @@
     "symbol": "ETH",
     "decimals": 18
   },
-   "explorers": [{
-    "name": "etherscan",
-    "url": "https://kovan.etherscan.io",
-    "standard": "EIP3091"
-  }],
+  "explorers": [
+    {
+      "name": "etherscan",
+      "url": "https://kovan.etherscan.io",
+      "standard": "EIP3091"
+    }
+  ],
   "infoURL": "https://kovan-testnet.github.io/website",
   "shortName": "kov",
   "chainId": 42,

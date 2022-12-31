@@ -5,9 +5,7 @@
     "https://volta-rpc.energyweb.org",
     "wss://volta-rpc.energyweb.org/ws"
   ],
-  "faucets": [
-      "https://voltafaucet.energyweb.org"
-  ],
+  "faucets": ["https://voltafaucet.energyweb.org"],
   "nativeCurrency": {
     "name": "Volta Token",
     "symbol": "VT",

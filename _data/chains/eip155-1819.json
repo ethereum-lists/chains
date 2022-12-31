@@ -23,9 +23,11 @@
   "chainId": 1819,
   "networkId": 1819,
   "slip44": 1819,
-  "explorers": [{
-    "name": "cubetest-scan",
-    "url": "https://testnet.cubescan.network",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "cubetest-scan",
+      "url": "https://testnet.cubescan.network",
+      "standard": "EIP3091"
+    }
+  ]
 }

@@ -1,9 +1,8 @@
 {
   "name": "Redlight Chain Mainnet",
   "chain": "REDLC",
-  "network": "mainnet",
   "rpc": ["https://dataseed2.redlightscan.finance"],
-  "faucets":[],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Redlight Coin",
     "symbol": "REDLC",
@@ -15,9 +14,9 @@
   "networkId": 2611,
   "explorers": [
     {
-        "name": "REDLC Explorer",
-        "url": "https://redlightscan.finance",
-        "standard": "EIP3091"
+      "name": "REDLC Explorer",
+      "url": "https://redlightscan.finance",
+      "standard": "EIP3091"
     }
   ]
 }

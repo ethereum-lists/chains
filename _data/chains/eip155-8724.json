@@ -1,12 +1,8 @@
 {
   "name": "TOOL Global Testnet",
   "chain": "OLO",
-  "rpc": [
-    "https://testnet-web3.wolot.io"
-  ],
-  "faucets": [
-    "https://testnet-explorer.wolot.io"
-  ],
+  "rpc": ["https://testnet-web3.wolot.io"],
+  "faucets": ["https://testnet-explorer.wolot.io"],
   "nativeCurrency": {
     "name": "TOOL Global",
     "symbol": "OLO",

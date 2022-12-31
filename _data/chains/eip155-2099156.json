@@ -1,10 +1,7 @@
 {
   "name": "Plian Mainnet Main",
   "chain": "Plian",
-  "network": "mainnet",
-  "rpc": [
-    "https://mainnet.plian.io/pchain"
-  ],
+  "rpc": ["https://mainnet.plian.io/pchain"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Plian Token",
@@ -15,9 +12,11 @@
   "shortName": "plian-mainnet",
   "chainId": 2099156,
   "networkId": 2099156,
-  "explorers": [{
-    "name": "piscan",
-    "url": "https://piscan.plian.org/pchain",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "piscan",
+      "url": "https://piscan.plian.org/pchain",
+      "standard": "EIP3091"
+    }
+  ]
 }

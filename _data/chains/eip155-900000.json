@@ -1,14 +1,8 @@
 {
   "name": "Posichain Mainnet Shard 0",
   "chain": "PSC",
-  "network": "mainnet",
-  "rpc": [
-    "https://api.posichain.org",
-    "https://api.s0.posichain.org"
-  ],
-  "faucets": [
-    "https://faucet.posichain.org/"
-  ],
+  "rpc": ["https://api.posichain.org", "https://api.s0.posichain.org"],
+  "faucets": ["https://faucet.posichain.org/"],
   "nativeCurrency": {
     "name": "Posichain Native Token",
     "symbol": "POSI",
@@ -18,12 +12,10 @@
   "shortName": "psc-s0",
   "chainId": 900000,
   "networkId": 900000,
-  "icon": "posichain",
   "explorers": [
     {
       "name": "Posichain Explorer",
       "url": "https://explorer.posichain.org",
-      "icon": "posichain",
       "standard": "EIP3091"
     }
   ]

@@ -16,7 +16,7 @@
     "https://bsc-dataseed4.ninicoin.io",
     "wss://bsc-ws-node.nariox.org"
   ],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],  
+  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "nativeCurrency": {
     "name": "Binance Chain Native Token",
     "symbol": "BNB",
@@ -27,9 +27,11 @@
   "chainId": 56,
   "networkId": 56,
   "slip44": 714,
-  "explorers": [{
-    "name": "bscscan",
-    "url": "https://bscscan.com",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "bscscan",
+      "url": "https://bscscan.com",
+      "standard": "EIP3091"
+    }
+  ]
 }

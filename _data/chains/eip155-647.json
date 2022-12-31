@@ -2,13 +2,8 @@
   "name": "SX Network Testnet",
   "chain": "SX",
   "icon": "SX",
-  "network": "testnet",
-  "rpc": [
-    "https://rpc.toronto.sx.technology"
-  ],
-  "faucets": [
-    "https://faucet.toronto.sx.technology"
-  ],
+  "rpc": ["https://rpc.toronto.sx.technology"],
+  "faucets": ["https://faucet.toronto.sx.technology"],
   "nativeCurrency": {
     "name": "SX Network",
     "symbol": "SX",
@@ -18,9 +13,11 @@
   "shortName": "SX-Testnet",
   "chainId": 647,
   "networkId": 647,
-  "explorers": [{
-    "name": "SX Network Toronto Explorer",
-    "url": "https://explorer.toronto.sx.technology",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "SX Network Toronto Explorer",
+      "url": "https://explorer.toronto.sx.technology",
+      "standard": "EIP3091"
+    }
+  ]
 }

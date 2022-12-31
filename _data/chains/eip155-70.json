@@ -18,9 +18,11 @@
   "chainId": 70,
   "networkId": 70,
   "slip44": 1170,
-  "explorers": [{
-    "name": "hooscan",
-    "url": "https://www.hooscan.com",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "hooscan",
+      "url": "https://www.hooscan.com",
+      "standard": "EIP3091"
+    }
+  ]
 }

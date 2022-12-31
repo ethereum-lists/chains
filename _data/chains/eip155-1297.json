@@ -1,6 +1,6 @@
 {
-  "name": "Boba Network Bobabase",
-  "chain": "Bobabase",
+  "name": "Bobabase Testnet",
+  "chain": "Bobabase Testnet",
   "rpc": [
     "https://bobabase.boba.network",
     "wss://wss.bobabase.boba.network",
@@ -19,7 +19,7 @@
   "networkId": 1297,
   "explorers": [
     {
-      "name": "Blockscout",
+      "name": "Bobabase block explorer",
       "url": "https://blockexplorer.bobabase.boba.network",
       "standard": "none"
     }

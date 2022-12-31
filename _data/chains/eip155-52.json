@@ -1,9 +1,7 @@
 {
   "name": "CoinEx Smart Chain Mainnet",
   "chain": "CSC",
-  "rpc": [
-    "https://rpc.coinex.net"
-  ],
+  "rpc": ["https://rpc.coinex.net"],
   "faucets": [],
   "nativeCurrency": {
     "name": "CoinEx Chain Native Token",
@@ -14,9 +12,11 @@
   "shortName": "cet",
   "chainId": 52,
   "networkId": 52,
-  "explorers": [{
-    "name": "coinexscan",
-    "url": "https://www.coinex.net",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "coinexscan",
+      "url": "https://www.coinex.net",
+      "standard": "none"
+    }
+  ]
 }

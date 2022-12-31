@@ -1,9 +1,7 @@
 {
   "name": "GeneChain",
   "chain": "GeneChain",
-  "rpc": [
-    "https://rpc.genechain.io"
-  ],
+  "rpc": ["https://rpc.genechain.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "RNA",
@@ -14,9 +12,11 @@
   "shortName": "GeneChain",
   "chainId": 80,
   "networkId": 80,
-  "explorers": [{
-    "name": "GeneChain Scan",
-    "url": "https://scan.genechain.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "GeneChain Scan",
+      "url": "https://scan.genechain.io",
+      "standard": "EIP3091"
+    }
+  ]
 }

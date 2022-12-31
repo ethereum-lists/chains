@@ -1,16 +1,23 @@
 {
-    "name": "Factory 127 Testnet",
-    "chain": "FETH",
-    "rpc": [],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "Factory 127 Token",
-      "symbol": "FETH",
-      "decimals": 18
-    },
-    "infoURL": "https://www.factory127.com",
-    "shortName": "tfeth",
-    "chainId": 721,
-    "networkId": 721,
-    "slip44": 721
-  }
+  "name": "Lycan Chain",
+  "chain": "LYC",
+  "rpc": ["https://rpc.lycanchain.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lycan",
+    "symbol": "LYC",
+    "decimals": 18
+  },
+  "infoURL": "https://lycanchain.com",
+  "shortName": "LYC",
+  "chainId": 721,
+  "networkId": 721,
+  "icon": "lycanchain",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.lycanchain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

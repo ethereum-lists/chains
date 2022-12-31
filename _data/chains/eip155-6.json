@@ -1,9 +1,7 @@
 {
   "name": "Ethereum Classic Testnet Kotti",
   "chain": "ETC",
-  "rpc": [
-    "https://www.ethercluster.com/kotti"
-  ],
+  "rpc": ["https://www.ethercluster.com/kotti"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Kotti Ether",
