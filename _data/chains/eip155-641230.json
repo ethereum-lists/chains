@@ -1,9 +1,7 @@
 {
   "name": "Bear Network Chain Mainnet",
   "chain": "BRNKC",
-  "rpc": [
-    "https://brnkc-mainnet.bearnetwork.net"
-  ],
+  "rpc": ["https://brnkc-mainnet.bearnetwork.net"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bear Network Chain Native Token",
