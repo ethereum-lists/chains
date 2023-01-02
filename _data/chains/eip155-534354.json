@@ -1,11 +1,11 @@
 {
   "name": "Scroll Pre-Alpha Testnet",
   "chain": "ETH",
-  "rpc": ["https://prealpha.scroll.io/l2"],
-  "faucets": ["https://prealpha.scroll.io"],
+  "rpc": ["https://prealpha-rpc.scroll.io/l2"],
+  "faucets": ["https://prealpha.scroll.io/faucet"],
   "nativeCurrency": {
     "name": "Ether",
-    "symbol": "ETH",
+    "symbol": "TSETH",
     "decimals": 18
   },
   "infoURL": "https://scroll.io",
