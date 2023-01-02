@@ -5316,18 +5316,18 @@
   "faucets": [],
   "infoURL": "https://alph.network"
 }, {
-  "name": "Ambros Chain Testnet",
+  "name": "XANAChain",
   "chainId": 8888,
-  "shortName": "ambrostestnet",
+  "shortName": "XANAChain",
   "networkId": 8888,
   "nativeCurrency": {
-    "name": "AMBROS",
-    "symbol": "AMBROS",
+    "name": "XETA",
+    "symbol": "XETA",
     "decimals": 18
   },
-  "rpc": ["https://api.testnet.ambros.network"],
+  "rpc": ["https://mainnet.xana.net/rpc"],
   "faucets": [],
-  "infoURL": "https://test.ambros.network"
+  "infoURL": "https://xanachain.xana.net/"
 }, {
   "name": "Vyvo Smart Chain",
   "chainId": 8889,
