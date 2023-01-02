@@ -7662,11 +7662,11 @@
   "networkId": 534354,
   "nativeCurrency": {
     "name": "Ether",
-    "symbol": "ETH",
+    "symbol": "TSETH",
     "decimals": 18
   },
-  "rpc": ["https://prealpha.scroll.io/l2"],
-  "faucets": ["https://prealpha.scroll.io"],
+  "rpc": ["https://prealpha-rpc.scroll.io/l2"],
+  "faucets": ["https://prealpha.scroll.io/faucet"],
   "infoURL": "https://scroll.io"
 }, {
   "name": "Vision - Vpioneer Test Chain",
