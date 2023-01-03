@@ -1,9 +1,7 @@
 {
   "name": "Hertz Network Mainnet",
   "chain": "HTZ",
-  "rpc": [
-    "https://mainnet-rpc.hertzscan.com"
-  ],
+  "rpc": ["https://mainnet-rpc.hertzscan.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Hertz",
@@ -16,10 +14,12 @@
   "chainId": 26600,
   "networkId": 26600,
   "icon": "hertz-network",
-  "explorers": [{
-    "name": "Hertz Scan",
-    "url": "https://hertzscan.com",
-    "icon": "hertz-network",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "Hertz Scan",
+      "url": "https://hertzscan.com",
+      "icon": "hertz-network",
+      "standard": "EIP3091"
+    }
+  ]
 }
