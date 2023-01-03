@@ -8007,6 +8007,19 @@
   "faucets": [],
   "infoURL": "https://pepchain.io"
 }, {
+  "name": "Anduschain Mainnet",
+  "chainId": 14288640,
+  "shortName": "anduschain-mainnet",
+  "networkId": 14288640,
+  "nativeCurrency": {
+    "name": "DAON",
+    "symbol": "DEB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.anduschain.io/rpc", "wss://rpc.anduschain.io/ws"],
+  "faucets": [],
+  "infoURL": "https://anduschain.io/"
+}, {
   "name": "Plian Testnet Main",
   "chainId": 16658437,
   "shortName": "plian-testnet",
