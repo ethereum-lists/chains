@@ -4926,6 +4926,19 @@
   "faucets": [],
   "infoURL": "https://nahmii.io"
 }, {
+  "name": "Chain Verse Mainnet",
+  "chainId": 5555,
+  "shortName": "cverse",
+  "networkId": 5555,
+  "nativeCurrency": {
+    "name": "Oasys",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.chainverse.info"],
+  "faucets": [],
+  "infoURL": "https://chainverse.info"
+}, {
   "name": "Syscoin Tanenbaum Testnet",
   "chainId": 5700,
   "shortName": "tsys",
