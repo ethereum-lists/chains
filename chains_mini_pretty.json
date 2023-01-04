@@ -6083,6 +6083,19 @@
   "faucets": [],
   "infoURL": "https://www.hammerchain.io"
 }, {
+  "name": "Hertz Network Mainnet",
+  "chainId": 26600,
+  "shortName": "HTZ",
+  "networkId": 26600,
+  "nativeCurrency": {
+    "name": "Hertz",
+    "symbol": "HTZ",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.hertzscan.com"],
+  "faucets": [],
+  "infoURL": "https://www.hertz-network.com"
+}, {
   "name": "OasisChain Mainnet",
   "chainId": 26863,
   "shortName": "OAC",
