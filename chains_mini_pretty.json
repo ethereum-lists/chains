@@ -8579,6 +8579,19 @@
   "faucets": [],
   "infoURL": "https://www.DataHopper.com"
 }, {
+  "name": "Europa SKALE Chain",
+  "chainId": 2046399126,
+  "shortName": "europa",
+  "networkId": 2046399126,
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.skalenodes.com/v1/elated-tan-skat", "wss://mainnet.skalenodes.com/v1/elated-tan-skat"],
+  "faucets": ["https://ruby.exchange/faucet.html", "https://sfuel.mylilius.com/"],
+  "infoURL": "https://europahub.network/"
+}, {
   "name": "Pirl",
   "chainId": 3125659152,
   "shortName": "pirl",
