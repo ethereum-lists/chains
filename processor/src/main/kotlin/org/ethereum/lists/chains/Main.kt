@@ -214,7 +214,7 @@ fun checkIcon(icon: File, withIconDownload: Boolean, allIconCIDs: MutableSet<Str
                 }
 
                 if (image.raster.height != height) {
-                    error("width in json ($icon) is $height but actually is in imageDownload ${image.height}")
+                    error("height in json ($icon) is $height but actually is in imageDownload ${image.height}")
                 }
             } catch (e: Exception) {
                 e.printStackTrace()
