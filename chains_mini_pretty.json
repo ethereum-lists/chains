@@ -5836,6 +5836,19 @@
   "faucets": [],
   "infoURL": "https://cryptophoenix.org/phoenix"
 }, {
+  "name": "Susono",
+  "chainId": 13812,
+  "shortName": "sus",
+  "networkId": 13812,
+  "nativeCurrency": {
+    "name": "Susono",
+    "symbol": "OPN",
+    "decimals": 18
+  },
+  "rpc": ["https://gateway.opn.network/node/ext/bc/2VsZe5DstWw2bfgdx3YbjKcMsJnNDjni95sZorBEdk9L9Qr9Fr/rpc"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "SPS Testnet",
   "chainId": 14000,
   "shortName": "SPS-Test",
