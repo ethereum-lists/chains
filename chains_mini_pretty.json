@@ -7955,6 +7955,19 @@
   "faucets": [],
   "infoURL": "https://imversed.com"
 }, {
+  "name": "OpenVessel",
+  "chainId": 7355310,
+  "shortName": "vsl",
+  "networkId": 7355310,
+  "nativeCurrency": {
+    "name": "Vessel ETH",
+    "symbol": "VETH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-external.openvessel.io"],
+  "faucets": [],
+  "infoURL": "https://www.openvessel.io"
+}, {
   "name": "QL1 Testnet",
   "chainId": 7668378,
   "shortName": "tqom",
