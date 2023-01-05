@@ -1,5 +1,5 @@
 {
-  "name": "Mas Mainnet",
+  "name": "Master Bank Mainnet",
   "chain": "MAS",
   "rpc": [
     "http://node.masnet.ai:8545"
@@ -15,11 +15,11 @@
   "shortName": "mas",
   "chainId": 220315,
   "networkId": 1,
-  "icon": "mas",
+  "icon": "ethereum",
   "explorers": [{
-    "name": "explorer masnet",
+    "name": "MASNET",
     "url": "https://explorer.masnet.ai/",
-    "icon": "explorer",
+    "icon": "mas",
     "standard": "EIP3091"
   }]
 }
