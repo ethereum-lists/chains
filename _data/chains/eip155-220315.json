@@ -1,9 +1,7 @@
 {
-  "name": "Master Bank Mainnet",
+  "name": "Mas Mainnet",
   "chain": "MAS",
-  "rpc": [
-    "http://node.masnet.ai:8545"
-  ],
+  "rpc": ["http://node.masnet.ai:8545"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Master Bank",
@@ -15,11 +13,13 @@
   "shortName": "mas",
   "chainId": 220315,
   "networkId": 1,
-  "icon": "ethereum",
-  "explorers": [{
-    "name": "MASNET",
-    "url": "https://explorer.masnet.ai/",
-    "icon": "mas",
-    "standard": "EIP3091"
-  }]
+  "icon": "mas",
+  "explorers": [
+    {
+      "name": "explorer masnet",
+      "url": "https://explorer.masnet.ai",
+      "icon": "explorer",
+      "standard": "EIP3091"
+    }
+  ]
 }
