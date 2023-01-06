@@ -1,23 +1,22 @@
 {
-    "name": "EightBox Testnet",
-    "chain": "EGB-Testnet",
-    "rpc": ["https://rpc.eightbox.org"],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "Eightbox Testnet",
-      "symbol": "EGB",
-      "decimals": 18
-    },
-    "infoURL": "https://eightbox.org",
-    "shortName": "Eightbox-Testnet",
-    "chainId": 14093,
-    "networkId": 14093,
-    "explorers": [
-      {
-        "name": "Eightbox Testnet Explorer",
-        "url": "https://testnet.eightbox.org",
-        "standard": "EIP3091"
-      }
-    ]
-  }
-  
+  "name": "EightBox Testnet",
+  "chain": "EGB-Testnet",
+  "rpc": ["https://rpc.eightbox.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Eightbox Testnet",
+    "symbol": "EGB",
+    "decimals": 18
+  },
+  "infoURL": "https://eightbox.org",
+  "shortName": "Eightbox-Testnet",
+  "chainId": 14093,
+  "networkId": 14093,
+  "explorers": [
+    {
+      "name": "Eightbox Testnet Explorer",
+      "url": "https://testnet.eightbox.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
