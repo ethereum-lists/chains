@@ -1,7 +1,11 @@
 {
   "name": "CIC Chain Mainnet",
   "chain": "CIC",
-  "rpc": ["https://xapi.cicscan.com"],
+  "rpc": [
+  "https://xapi.cicscan.com",
+  "https://usrpc01.cicscan.com",
+  "https://usrpc02.cicscan.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Crazy Internet Coin",
