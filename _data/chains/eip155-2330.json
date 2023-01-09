@@ -1,7 +1,7 @@
 {
   "name": "Altcoinchain",
   "chain": "mainnet",
-  "rpc": ["http://161.35.101.221:8547", "https://rpc0.altcoinchain.org"],
+  "rpc": ["https://rpc0.altcoinchain.org/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Altcoin",
@@ -17,7 +17,7 @@
   "explorers": [
     {
       "name": "expedition",
-      "url": "https://expedition.altcoinchain.org",
+      "url": "http://expedition.altcoinchain.org",
       "icon": "altcoinchain",
       "standard": "none"
     }
