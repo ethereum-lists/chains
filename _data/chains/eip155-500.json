@@ -1,23 +1,23 @@
 {
-  "name": "Camino C-Chain",
-  "chain": "CAM",
-  "rpc": ["https://mainnet.camino.foundation/ext/bc/C/rpc"],
-  "faucets": [],
+  "name": "HyperonChain Mainnet",
+  "chain": "HPN",
+  "icon": "hyperonchain",
+  "rpc": ["https://mainnet-rpc.hyperonchain.com"],
+  "faucets": ["https://faucet.hyperonchain.com"],
   "nativeCurrency": {
-    "name": "Camino",
-    "symbol": "CAM",
+    "name": "HPN",
+    "symbol": "HPN",
     "decimals": 18
   },
-  "infoURL": "https://camino.foundation/",
-  "shortName": "Camino",
+  "infoURL": "https://hyperonscan.com",
+  "shortName": "hpnm",
   "chainId": 500,
-  "networkId": 1000,
-  "icon": "camino",
+  "networkId": 500,
   "explorers": [
     {
-      "name": "blockexplorer",
-      "url": "https://explorer.camino.foundation/mainnet",
-      "standard": "none"
+      "name": "hyperonscan",
+      "url": "https://hyperonscan.io",
+      "standard": "EIP3091"
     }
   ]
 }
