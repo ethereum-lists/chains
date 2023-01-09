@@ -2,9 +2,7 @@
   "name": "SiriusNet V2",
   "chain": "SIN2",
   "faucets": [],
-  "rpc": [
-    "https://u0zpw2zdzz:uf4y-ZGiQP_CJJgY6Vea2mSaeXOa1vFvfQ1PZhaDQ9M@u0iclv2dgh-u0jlczjhef-rpc.us0-aws.kaleido.io/"
-  ],
+  "rpc": ["https://rpc2.siriusnet.io"],
   "icon": "siriusnet",
   "nativeCurrency": {
     "name": "MCD",
@@ -18,7 +16,7 @@
   "explorers": [
     {
       "name": "siriusnet explorer",
-      "url": "http://rpc.siriusnet.io",
+      "url": "https://scan.siriusnet.io",
       "standard": "none"
     }
   ]
