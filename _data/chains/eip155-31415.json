@@ -1,12 +1,13 @@
 {
   "name": "Filecoin - Wallaby testnet",
   "chain": "FIL",
-  "status": "incubating",
+  "icon": "filecoin",
   "rpc": [
-    "https://wallaby.filfox.info/rpc/v0",
     "https://wallaby.node.glif.io/rpc/v0"
   ],
-  "faucets": ["https://wallaby.network/#faucet"],
+  "faucets": [
+    "https://wallaby.network/#faucet"
+  ],
   "nativeCurrency": {
     "name": "testnet filecoin",
     "symbol": "tFIL",
@@ -14,24 +15,23 @@
   },
   "infoURL": "https://filecoin.io",
   "shortName": "filecoin-wallaby",
-  "icon": "filecoin",
   "chainId": 31415,
   "networkId": 31415,
   "slip44": 1,
   "explorers": [
     {
-      "name": "Filfox",
-      "url": "https://wallaby.filfox.info",
+      "name": "Glif Explorer - Wallaby",
+      "url": "https://explorer.glif.io/?network=wallaby",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Filfox - Wallaby",
+      "url": "https://wallaby.filfox.info/en",
       "standard": "none"
     },
     {
-      "name": "Glif Explorer",
-      "url": "https://explorer.glif.io/wallaby",
-      "standard": "none"
-    },
-    {
-      "name": "Filscan",
-      "url": "https://wallaby.filscan.io",
+      "name": "Filscan - Wallaby",
+      "url": "https://wallaby.filscan.io/",
       "standard": "none"
     }
   ]
