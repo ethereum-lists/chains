@@ -4003,6 +4003,19 @@
   "faucets": [],
   "infoURL": "https://cloudwalk.io"
 }, {
+  "name": "MainnetZ Mainnet",
+  "chainId": 2016,
+  "shortName": "NetZm",
+  "networkId": 2016,
+  "nativeCurrency": {
+    "name": "MainnetZ",
+    "symbol": "NetZ",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.mainnetz.io"],
+  "faucets": ["https://faucet.mainnetz.io"],
+  "infoURL": "https://mainnetz.io"
+}, {
   "name": "PublicMint Devnet",
   "chainId": 2018,
   "shortName": "pmint_dev",
@@ -5524,6 +5537,19 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "MainnetZ Testnet",
+  "chainId": 9768,
+  "shortName": "NetZt",
+  "networkId": 9768,
+  "nativeCurrency": {
+    "name": "MainnetZ",
+    "symbol": "NetZ",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.mainnetz.io"],
+  "faucets": ["https://faucet.mainnetz.io"],
+  "infoURL": "https://testnet.mainnetz.io"
+}, {
   "name": "myOwn Testnet",
   "chainId": 9999,
   "shortName": "myn",
@@ -5757,6 +5783,19 @@
   "rpc": [],
   "faucets": [],
   "infoURL": "https://shyft.network"
+}, {
+  "name": "Sardis Testnet",
+  "chainId": 11612,
+  "shortName": "SRDXt",
+  "networkId": 11612,
+  "nativeCurrency": {
+    "name": "Sardis",
+    "symbol": "SRDX",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.sardisnetwork.com"],
+  "faucets": ["https://faucet.sardisnetwork.com"],
+  "infoURL": "https://mysardis.com"
 }, {
   "name": "SanR Chain",
   "chainId": 11888,
@@ -6551,6 +6590,19 @@
   "faucets": [],
   "infoURL": "https://gton.capital"
 }, {
+  "name": "Sardis Mainnet",
+  "chainId": 51712,
+  "shortName": "SRDXm",
+  "networkId": 51712,
+  "nativeCurrency": {
+    "name": "Sardis",
+    "symbol": "SRDX",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.sardisnetwork.com"],
+  "faucets": ["https://faucet.sardisnetwork.com"],
+  "infoURL": "https://mysardis.com"
+}, {
   "name": "DFK Chain",
   "chainId": 53935,
   "shortName": "DFK",
@@ -7122,6 +7174,19 @@
   "rpc": ["https://rpc-chiado.gnosistestnet.com"],
   "faucets": ["https://gnosisfaucet.com"],
   "infoURL": "https://docs.gnosischain.com"
+}, {
+  "name": "Soverun Testnet",
+  "chainId": 101010,
+  "shortName": "SVRNt",
+  "networkId": 101010,
+  "nativeCurrency": {
+    "name": "Soverun",
+    "symbol": "SVRN",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.soverun.com"],
+  "faucets": ["https://faucet.soverun.com"],
+  "infoURL": "https://soverun.com"
 }, {
   "name": "Crystaleum",
   "chainId": 103090,
@@ -8058,6 +8123,19 @@
   "rpc": ["https://testnet.plian.io/child_test"],
   "faucets": [],
   "infoURL": "https://plian.org/"
+}, {
+  "name": "Soverun Mainnet",
+  "chainId": 10101010,
+  "shortName": "SVRNm",
+  "networkId": 10101010,
+  "nativeCurrency": {
+    "name": "Soverun",
+    "symbol": "SVRN",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.soverun.com"],
+  "faucets": ["https://faucet.soverun.com"],
+  "infoURL": "https://soverun.com"
 }, {
   "name": "Sepolia",
   "chainId": 11155111,

@@ -5726,6 +5726,26 @@
     "standard": "none"
   }]
 }, {
+  "name": "MainnetZ Mainnet",
+  "chain": "NetZ",
+  "icon": "mainnetz",
+  "rpc": ["https://mainnet-rpc.mainnetz.io"],
+  "faucets": ["https://faucet.mainnetz.io"],
+  "nativeCurrency": {
+    "name": "MainnetZ",
+    "symbol": "NetZ",
+    "decimals": 18
+  },
+  "infoURL": "https://mainnetz.io",
+  "shortName": "NetZm",
+  "chainId": 2016,
+  "networkId": 2016,
+  "explorers": [{
+    "name": "MainnetZ",
+    "url": "https://explorer.mainnetz.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "PublicMint Devnet",
   "title": "Public Mint Devnet",
   "chain": "PublicMint",
@@ -8023,6 +8043,26 @@
     "standard": "none"
   }]
 }, {
+  "name": "MainnetZ Testnet",
+  "chain": "NetZ",
+  "icon": "mainnetzTestnet",
+  "rpc": ["https://testnet-rpc.mainnetz.io"],
+  "faucets": ["https://faucet.mainnetz.io"],
+  "nativeCurrency": {
+    "name": "MainnetZ",
+    "symbol": "NetZ",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet.mainnetz.io",
+  "shortName": "NetZt",
+  "chainId": 9768,
+  "networkId": 9768,
+  "explorers": [{
+    "name": "MainnetZ",
+    "url": "https://testnet.mainnetz.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "myOwn Testnet",
   "chain": "myOwn",
   "rpc": ["https://geth.dev.bccloud.net"],
@@ -8363,6 +8403,26 @@
   "explorers": [{
     "name": "Shyft Testnet BX",
     "url": "https://bx.testnet.shyft.network",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Sardis Testnet",
+  "chain": "SRDX",
+  "icon": "sardisTestnet",
+  "rpc": ["https://testnet-rpc.sardisnetwork.com"],
+  "faucets": ["https://faucet.sardisnetwork.com"],
+  "nativeCurrency": {
+    "name": "Sardis",
+    "symbol": "SRDX",
+    "decimals": 18
+  },
+  "infoURL": "https://mysardis.com",
+  "shortName": "SRDXt",
+  "chainId": 11612,
+  "networkId": 11612,
+  "explorers": [{
+    "name": "Sardis",
+    "url": "https://testnet.sardisnetwork.com",
     "standard": "EIP3091"
   }]
 }, {
@@ -9592,6 +9652,26 @@
     "chain": "eip155-3"
   }
 }, {
+  "name": "Sardis Mainnet",
+  "chain": "SRDX",
+  "icon": "sardis",
+  "rpc": ["https://mainnet-rpc.sardisnetwork.com"],
+  "faucets": ["https://faucet.sardisnetwork.com"],
+  "nativeCurrency": {
+    "name": "Sardis",
+    "symbol": "SRDX",
+    "decimals": 18
+  },
+  "infoURL": "https://mysardis.com",
+  "shortName": "SRDXm",
+  "chainId": 51712,
+  "networkId": 51712,
+  "explorers": [{
+    "name": "Sardis",
+    "url": "https://contract-mainnet.sardisnetwork.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "DFK Chain",
   "chain": "DFK",
   "icon": "dfk",
@@ -10459,6 +10539,26 @@
     "standard": "EIP3091"
   }],
   "status": "deprecated"
+}, {
+  "name": "Soverun Testnet",
+  "chain": "SVRN",
+  "icon": "soverunTestnet",
+  "rpc": ["https://testnet-rpc.soverun.com"],
+  "faucets": ["https://faucet.soverun.com"],
+  "nativeCurrency": {
+    "name": "Soverun",
+    "symbol": "SVRN",
+    "decimals": 18
+  },
+  "infoURL": "https://soverun.com",
+  "shortName": "SVRNt",
+  "chainId": 101010,
+  "networkId": 101010,
+  "explorers": [{
+    "name": "Soverun",
+    "url": "https://testnet.soverun.com",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Crystaleum",
   "chain": "crystal",
@@ -11912,6 +12012,26 @@
     "chain": "eip155-16658437",
     "type": "L2"
   }
+}, {
+  "name": "Soverun Mainnet",
+  "chain": "SVRN",
+  "icon": "soverun",
+  "rpc": ["https://mainnet-rpc.soverun.com"],
+  "faucets": ["https://faucet.soverun.com"],
+  "nativeCurrency": {
+    "name": "Soverun",
+    "symbol": "SVRN",
+    "decimals": 18
+  },
+  "infoURL": "https://soverun.com",
+  "shortName": "SVRNm",
+  "chainId": 10101010,
+  "networkId": 10101010,
+  "explorers": [{
+    "name": "Soverun",
+    "url": "https://explorer.soverun.com",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Sepolia",
   "title": "Ethereum Testnet Sepolia",
