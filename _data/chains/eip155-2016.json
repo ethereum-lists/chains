@@ -1,16 +1,16 @@
 {
   "name": "MainnetZ Mainnet",
-  "chain": "MNZ",
+  "chain": "NetZ",
   "icon": "mainnetz",
   "rpc": ["https://mainnet-rpc.mainnetz.io"],
   "faucets": ["https://faucet.mainnetz.io"],
   "nativeCurrency": {
     "name": "MainnetZ",
-    "symbol": "MNZ",
+    "symbol": "NetZ",
     "decimals": 18
   },
   "infoURL": "https://mainnetz.io",
-  "shortName": "MNZm",
+  "shortName": "NetZm",
   "chainId": 2016,
   "networkId": 2016,
   "explorers": [
