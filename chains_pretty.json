@@ -2833,8 +2833,8 @@
 }, {
   "name": "Filecoin - Mainnet",
   "chain": "FIL",
-  "status": "incubating",
-  "rpc": ["https://api.node.glif.io/rpc/v0"],
+  "icon": "filecoin",
+  "rpc": ["https://api.node.glif.io/", "https://rpc.ankr.com/filecoin"],
   "faucets": [],
   "nativeCurrency": {
     "name": "filecoin",
@@ -2843,7 +2843,6 @@
   },
   "infoURL": "https://filecoin.io",
   "shortName": "filecoin",
-  "icon": "filecoin",
   "chainId": 314,
   "networkId": 314,
   "slip44": 461,
@@ -6455,23 +6454,42 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Filecoin - Buildernet",
+  "name": "Filecoin - Hyperspace testnet",
   "chain": "FIL",
-  "status": "incubating",
-  "rpc": [],
-  "faucets": [],
+  "icon": "filecoin",
+  "rpc": ["https://hyperspace.node.glif.io/rpc/v0"],
+  "faucets": ["https://hyperspace.filtest.network/#faucet"],
   "nativeCurrency": {
-    "name": "filecoin",
-    "symbol": "FIL",
+    "name": "testnet filecoin",
+    "symbol": "tFIL",
     "decimals": 18
   },
   "infoURL": "https://filecoin.io",
-  "shortName": "filecoin-buildernet",
-  "icon": "filecoin",
+  "shortName": "filecoin-hyperspace",
   "chainId": 3141,
   "networkId": 3141,
   "slip44": 1,
-  "explorers": []
+  "explorers": [{
+    "name": "Filfox - Hyperspace",
+    "url": "https://hyperspace.filfox.info/en",
+    "standard": "none"
+  }, {
+    "name": "Glif Explorer - Hyperspace",
+    "url": "https://explorer.glif.io/?network=hyperspace",
+    "standard": "none"
+  }, {
+    "name": "Beryx",
+    "url": "https://beryx.zondax.ch",
+    "standard": "none"
+  }, {
+    "name": "Filmine",
+    "url": "https://explorer.filmine.io",
+    "standard": "none"
+  }, {
+    "name": "Filscan - Hyperspace",
+    "url": "https://hyperspace.filscan.io",
+    "standard": "none"
+  }]
 }, {
   "name": "Debounce Subnet Testnet",
   "chain": "Debounce Network",
@@ -9154,8 +9172,8 @@
 }, {
   "name": "Filecoin - Wallaby testnet",
   "chain": "FIL",
-  "status": "incubating",
-  "rpc": ["https://wallaby.filfox.info/rpc/v0", "https://wallaby.node.glif.io/rpc/v0"],
+  "icon": "filecoin",
+  "rpc": ["https://wallaby.node.glif.io/rpc/v0"],
   "faucets": ["https://wallaby.network/#faucet"],
   "nativeCurrency": {
     "name": "testnet filecoin",
@@ -9164,23 +9182,10 @@
   },
   "infoURL": "https://filecoin.io",
   "shortName": "filecoin-wallaby",
-  "icon": "filecoin",
   "chainId": 31415,
   "networkId": 31415,
   "slip44": 1,
-  "explorers": [{
-    "name": "Filfox",
-    "url": "https://wallaby.filfox.info",
-    "standard": "none"
-  }, {
-    "name": "Glif Explorer",
-    "url": "https://explorer.glif.io/wallaby",
-    "standard": "none"
-  }, {
-    "name": "Filscan",
-    "url": "https://wallaby.filscan.io",
-    "standard": "none"
-  }]
+  "explorers": []
 }, {
   "name": "Bitgert Mainnet",
   "chain": "Brise",
@@ -11210,7 +11215,7 @@
 }, {
   "name": "Filecoin - Calibration testnet",
   "chain": "FIL",
-  "status": "incubating",
+  "icon": "filecoin",
   "rpc": ["https://api.calibration.node.glif.io/rpc/v0"],
   "faucets": ["https://faucet.calibration.fildev.network/"],
   "nativeCurrency": {
@@ -11220,16 +11225,15 @@
   },
   "infoURL": "https://filecoin.io",
   "shortName": "filecoin-calibration",
-  "icon": "filecoin",
   "chainId": 314159,
   "networkId": 314159,
   "slip44": 1,
   "explorers": [{
-    "name": "Filscan",
+    "name": "Filscan - Calibration",
     "url": "https://calibration.filscan.io",
     "standard": "none"
   }, {
-    "name": "Filscout",
+    "name": "Filscout - Calibration",
     "url": "https://calibration.filscout.com/en",
     "standard": "none"
   }]

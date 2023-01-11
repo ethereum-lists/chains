@@ -1984,7 +1984,7 @@
     "symbol": "FIL",
     "decimals": 18
   },
-  "rpc": ["https://api.node.glif.io/rpc/v0"],
+  "rpc": ["https://api.node.glif.io/", "https://rpc.ankr.com/filecoin"],
   "faucets": [],
   "infoURL": "https://filecoin.io"
 }, {
@@ -4484,17 +4484,17 @@
   "faucets": [],
   "infoURL": "https://orlchain.com"
 }, {
-  "name": "Filecoin - Buildernet",
+  "name": "Filecoin - Hyperspace testnet",
   "chainId": 3141,
-  "shortName": "filecoin-buildernet",
+  "shortName": "filecoin-hyperspace",
   "networkId": 3141,
   "nativeCurrency": {
-    "name": "filecoin",
-    "symbol": "FIL",
+    "name": "testnet filecoin",
+    "symbol": "tFIL",
     "decimals": 18
   },
-  "rpc": [],
-  "faucets": [],
+  "rpc": ["https://hyperspace.node.glif.io/rpc/v0"],
+  "faucets": ["https://hyperspace.filtest.network/#faucet"],
   "infoURL": "https://filecoin.io"
 }, {
   "name": "Debounce Subnet Testnet",
@@ -6287,7 +6287,7 @@
     "symbol": "tFIL",
     "decimals": 18
   },
-  "rpc": ["https://wallaby.filfox.info/rpc/v0", "https://wallaby.node.glif.io/rpc/v0"],
+  "rpc": ["https://wallaby.node.glif.io/rpc/v0"],
   "faucets": ["https://wallaby.network/#faucet"],
   "infoURL": "https://filecoin.io"
 }, {
