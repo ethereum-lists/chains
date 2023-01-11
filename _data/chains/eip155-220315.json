@@ -1,0 +1,25 @@
+{
+  "name": "Mas Mainnet",
+  "chain": "MAS",
+  "rpc": ["http://node.masnet.ai:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Master Bank",
+    "symbol": "MAS",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://masterbank.org",
+  "shortName": "mas",
+  "chainId": 220315,
+  "networkId": 220315,
+  "icon": "mas",
+  "explorers": [
+    {
+      "name": "explorer masnet",
+      "url": "https://explorer.masnet.ai",
+      "icon": "explorer",
+      "standard": "EIP3091"
+    }
+  ]
+}

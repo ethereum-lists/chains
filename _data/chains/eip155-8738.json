@@ -1,7 +1,7 @@
 {
   "name": "Alph Network",
   "chain": "ALPH",
-  "rpc": ["https://rpc.alph.network"],
+  "rpc": ["https://rpc.alph.network", "wss://rpc.alph.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Alph Network",
