@@ -493,6 +493,19 @@
   "faucets": [],
   "infoURL": "https://valorbit.com"
 }, {
+  "name": "Unicorn Ultra Testnet",
+  "chainId": 39,
+  "shortName": "u2u",
+  "networkId": 39,
+  "nativeCurrency": {
+    "name": "Unicorn Ultra",
+    "symbol": "U2U",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.uniultra.xyz"],
+  "faucets": ["https://faucet.uniultra.xyz"],
+  "infoURL": "https://uniultra.xyz"
+}, {
   "name": "Telos EVM Mainnet",
   "chainId": 40,
   "shortName": "TelosEVM",
