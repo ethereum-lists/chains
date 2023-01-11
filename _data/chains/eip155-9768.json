@@ -1,21 +1,21 @@
 {
   "name": "MainnetZ Testnet",
-  "chain": "MNZ",
+  "chain": "NetZ",
   "icon": "mainnetzTestnet",
   "rpc": ["https://testnet-rpc.mainnetz.io"],
   "faucets": ["https://faucet.mainnetz.io"],
   "nativeCurrency": {
     "name": "MainnetZ",
-    "symbol": "MNZ",
+    "symbol": "NetZ",
     "decimals": 18
   },
   "infoURL": "https://testnet.mainnetz.io",
-  "shortName": "MNZt",
+  "shortName": "NetZt",
   "chainId": 9768,
   "networkId": 9768,
   "explorers": [
     {
-      "name": "mainnetz",
+      "name": "MainnetZ",
       "url": "https://testnet.mainnetz.io",
       "standard": "EIP3091"
     }
