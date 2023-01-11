@@ -3180,7 +3180,7 @@
 }, {
   "name": "Camino C-Chain",
   "chain": "CAM",
-  "rpc": ["https://mainnet.camino.foundation/ext/bc/C/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Camino",
@@ -3200,7 +3200,7 @@
 }, {
   "name": "Columbus Test Network",
   "chain": "CAM",
-  "rpc": ["https://columbus.camino.foundation/ext/bc/C/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Camino",
@@ -4168,7 +4168,7 @@
 }, {
   "name": "Oort Huygens",
   "chain": "Huygens",
-  "rpc": ["https://huygens-rpc.oortech.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Oort",
@@ -5214,7 +5214,7 @@
   "name": "Polygon zkEVM Testnet",
   "title": "Polygon zkEVM Testnet",
   "chain": "Polygon",
-  "rpc": ["https://rpc.public.zkevm-test.net"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -6360,7 +6360,7 @@
 }, {
   "name": "CENNZnet Rata",
   "chain": "CENNZnet",
-  "rpc": ["https://rata.centrality.me/public"],
+  "rpc": [],
   "faucets": ["https://app-faucet.centrality.me"],
   "nativeCurrency": {
     "name": "CPAY",
@@ -7934,7 +7934,7 @@
   "name": "Rinia Testnet Old",
   "chain": "FIRE",
   "icon": "rinia",
-  "rpc": ["https://rinia.rpc1.thefirechain.com"],
+  "rpc": [],
   "faucets": ["https://faucet.thefirechain.com"],
   "nativeCurrency": {
     "name": "Firechain",
@@ -7991,7 +7991,7 @@
   "name": "Oort MainnetDev",
   "title": "Oort MainnetDev",
   "chain": "MainnetDev",
-  "rpc": ["https://dev-rpc.oortech.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Oort",
@@ -10195,7 +10195,7 @@
 }, {
   "name": "Boba BNB Mainnet",
   "chain": "Boba BNB Mainnet",
-  "rpc": ["https://bnb.boba.network", "wss://wss.bnb.boba.network", "https://replica.bnb.boba.network", "wss://replica-wss.bnb.boba.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Boba Token",
