@@ -2638,6 +2638,19 @@
   "faucets": ["https://faucet.aerochain.id/"],
   "infoURL": "https://aerochaincoin.org/"
 }, {
+  "name": "Lucid Blockchain",
+  "chainId": 800,
+  "shortName": "LUCID",
+  "networkId": 800,
+  "nativeCurrency": {
+    "name": "LUCID",
+    "symbol": "LUCID",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.lucidcoin.io"],
+  "faucets": ["https://faucet.lucidcoin.io"],
+  "infoURL": "https://lucidcoin.io"
+}, {
   "name": "Haic",
   "chainId": 803,
   "shortName": "haic",
