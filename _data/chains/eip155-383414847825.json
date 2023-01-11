@@ -1,12 +1,8 @@
 {
   "name": "Zeniq",
   "chain": "ZENIQ",
-  "rpc": [
-    "https://smart.zeniq.network:9545"
-  ],
-  "faucets": [
-    "https://faucet.zeniq.net/"
-  ],
+  "rpc": ["https://smart.zeniq.network:9545"],
+  "faucets": ["https://faucet.zeniq.net/"],
   "nativeCurrency": {
     "name": "Zeniq",
     "symbol": "ZENIQ",
