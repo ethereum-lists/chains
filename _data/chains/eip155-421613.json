@@ -1,12 +1,12 @@
 {
-  "name": "Arbitrum Görli",
-  "title": "Arbitrum Görli Rollup Testnet",
+  "name": "Arbitrum Goerli",
+  "title": "Arbitrum Goerli Rollup Testnet",
   "chainId": 421613,
   "shortName": "arb-goerli",
   "chain": "ETH",
   "networkId": 421613,
   "nativeCurrency": {
-    "name": "Arbitrum Görli Ether",
+    "name": "Arbitrum Goerli Ether",
     "symbol": "AGOR",
     "decimals": 18
   },
@@ -15,7 +15,7 @@
   "infoURL": "https://arbitrum.io/",
   "explorers": [
     {
-      "name": "Arbitrum Görli Rollup Explorer",
+      "name": "Arbitrum Goerli Rollup Explorer",
       "url": "https://goerli-rollup-explorer.arbitrum.io",
       "standard": "EIP3091"
     }

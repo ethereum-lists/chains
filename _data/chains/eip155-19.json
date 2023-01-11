@@ -3,8 +3,8 @@
   "chain": "SGB",
   "icon": "songbird",
   "rpc": [
-    "https://songbird.towolabs.com/rpc",
     "https://songbird-api.flare.network/ext/C/rpc",
+    "https://songbird.towolabs.com/ext/C/rpc",
     "https://sgb.ftso.com.au/ext/bc/C/rpc",
     "https://sgb.lightft.so/rpc",
     "https://sgb-rpc.ftso.eu"
