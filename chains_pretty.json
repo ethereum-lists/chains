@@ -7322,6 +7322,26 @@
     "standard": "none"
   }]
 }, {
+  "name": "Gold Smart Chain Mainnet",
+  "chain": "STAND",
+  "icon": "stand",
+  "rpc": ["https://rpc-mainnet.goldsmartchain.com"],
+  "faucets": ["https://faucet.goldsmartchain.com"],
+  "nativeCurrency": {
+    "name": "Standard in Gold",
+    "symbol": "STAND",
+    "decimals": 18
+  },
+  "infoURL": "https://goldsmartchain.com",
+  "shortName": "STANDm",
+  "chainId": 6789,
+  "networkId": 6789,
+  "explorers": [{
+    "name": "Gold Smart Chain",
+    "url": "https://mainnet.goldsmartchain.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Tomb Chain Mainnet",
   "chain": "Tomb Chain",
   "rpc": ["https://rpc.tombchain.com/"],
@@ -10210,6 +10230,26 @@
   "shortName": "firenze",
   "chainId": 78110,
   "networkId": 78110
+}, {
+  "name": "Gold Smart Chain Testnet",
+  "chain": "STAND",
+  "icon": "standTestnet",
+  "rpc": ["https://rpc-testnet.goldsmartchain.com"],
+  "faucets": ["https://faucet.goldsmartchain.com"],
+  "nativeCurrency": {
+    "name": "Standard in Gold",
+    "symbol": "STAND",
+    "decimals": 18
+  },
+  "infoURL": "https://goldsmartchain.com",
+  "shortName": "STANDt",
+  "chainId": 79879,
+  "networkId": 79879,
+  "explorers": [{
+    "name": "Gold Smart Chain",
+    "url": "https://testnet.goldsmartchain.com",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Mumbai",
   "title": "Polygon Testnet Mumbai",

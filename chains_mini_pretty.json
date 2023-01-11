@@ -5056,6 +5056,19 @@
   "faucets": [],
   "infoURL": "https://chain.pixie.xyz"
 }, {
+  "name": "Gold Smart Chain Mainnet",
+  "chainId": 6789,
+  "shortName": "STANDm",
+  "networkId": 6789,
+  "nativeCurrency": {
+    "name": "Standard in Gold",
+    "symbol": "STAND",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet.goldsmartchain.com"],
+  "faucets": ["https://faucet.goldsmartchain.com"],
+  "infoURL": "https://goldsmartchain.com"
+}, {
   "name": "Tomb Chain Mainnet",
   "chainId": 6969,
   "shortName": "tombchain",
@@ -6966,6 +6979,19 @@
   "rpc": ["https://ethnode.primusmoney.com/firenze"],
   "faucets": [],
   "infoURL": "https://primusmoney.com"
+}, {
+  "name": "Gold Smart Chain Testnet",
+  "chainId": 79879,
+  "shortName": "STANDt",
+  "networkId": 79879,
+  "nativeCurrency": {
+    "name": "Standard in Gold",
+    "symbol": "STAND",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.goldsmartchain.com"],
+  "faucets": ["https://faucet.goldsmartchain.com"],
+  "infoURL": "https://goldsmartchain.com"
 }, {
   "name": "Mumbai",
   "chainId": 80001,
