@@ -14,21 +14,5 @@
   "chainId": 31415,
   "networkId": 31415,
   "slip44": 1,
-  "explorers": [
-    {
-      "name": "Glif Explorer - Wallaby",
-      "url": "https://explorer.glif.io/?network=wallaby",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "Filfox - Wallaby",
-      "url": "https://wallaby.filfox.info/en",
-      "standard": "none"
-    },
-    {
-      "name": "Filscan - Wallaby",
-      "url": "https://wallaby.filscan.io",
-      "standard": "none"
-    }
-  ]
+  "explorers": []
 }
