@@ -3678,6 +3678,19 @@
   "faucets": [],
   "infoURL": "https://polygon.technology/solutions/polygon-zkevm/"
 }, {
+  "name": "Ctex Scan Blockchain",
+  "chainId": 1455,
+  "shortName": "CTEX",
+  "networkId": 1455,
+  "nativeCurrency": {
+    "name": "CTEX",
+    "symbol": "CTEX",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.ctexscan.com/"],
+  "faucets": ["https://faucet.ctexscan.com"],
+  "infoURL": "https://ctextoken.io"
+}, {
   "name": "Sherpax Mainnet",
   "chainId": 1506,
   "shortName": "Sherpax",
