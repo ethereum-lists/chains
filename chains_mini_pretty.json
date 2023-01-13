@@ -8826,6 +8826,19 @@
   "faucets": [],
   "infoURL": "https://ntity.io"
 }, {
+  "name": "Zeniq",
+  "chainId": 383414847825,
+  "shortName": "zeniq",
+  "networkId": 383414847825,
+  "nativeCurrency": {
+    "name": "Zeniq",
+    "symbol": "ZENIQ",
+    "decimals": 18
+  },
+  "rpc": ["https://smart.zeniq.network:9545"],
+  "faucets": ["https://faucet.zeniq.net/"],
+  "infoURL": "https://www.zeniq.dev/"
+}, {
   "name": "PDC Mainnet",
   "chainId": 666301171999,
   "shortName": "ipdc",
