@@ -3912,6 +3912,19 @@
   "faucets": [],
   "infoURL": "https://onuschain.io"
 }, {
+  "name": "D-Chain Mainnet",
+  "chainId": 1951,
+  "shortName": "dchain-mainnet",
+  "networkId": 1951,
+  "nativeCurrency": {
+    "name": "DOINX",
+    "symbol": "DOINX",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.d-chain.network/ext/bc/2ZiR1Bro5E59siVuwdNuRFzqL95NkvkbzyLBdrsYR9BLSHV7H4/rpc"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "ONUS Chain Mainnet",
   "chainId": 1975,
   "shortName": "onus-mainnet",
