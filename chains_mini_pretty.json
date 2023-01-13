@@ -5043,31 +5043,31 @@
   "faucets": [],
   "infoURL": "https://www.wegochain.io"
 }, {
-  "name": "Tres Leches Testnet",
+  "name": "Tres Testnet",
   "chainId": 6065,
   "shortName": "TRESTEST",
   "networkId": 6065,
   "nativeCurrency": {
-    "name": "Tres Leches",
+    "name": "TRES",
     "symbol": "TRES",
     "decimals": 18
   },
   "rpc": ["https://rpc-test.tresleches.finance/"],
   "faucets": ["http://faucet.tresleches.finance:8080"],
-  "infoURL": "https://tresleches.finance"
+  "infoURL": "https://treschain.com"
 }, {
-  "name": "Tres Leches Mainnet",
+  "name": "Tres Mainnet",
   "chainId": 6066,
   "shortName": "TRESMAIN",
   "networkId": 6066,
   "nativeCurrency": {
-    "name": "Tres Leches",
+    "name": "TRES",
     "symbol": "TRES",
     "decimals": 18
   },
-  "rpc": ["https://rpc.tresleches.finance/"],
+  "rpc": ["https://rpc.tresleches.finance/", "https://rpc.treschain.io/"],
   "faucets": [],
-  "infoURL": "https://tresleches.finance"
+  "infoURL": "https://treschain.com"
 }, {
   "name": "Pixie Chain Mainnet",
   "chainId": 6626,
