@@ -7864,6 +7864,19 @@
   "faucets": ["https://prealpha.scroll.io/faucet"],
   "infoURL": "https://scroll.io"
 }, {
+  "name": "Bear Network Chain Mainnet",
+  "chainId": 641230,
+  "shortName": "BRNKC",
+  "networkId": 641230,
+  "nativeCurrency": {
+    "name": "Bear Network Chain Native Token",
+    "symbol": "BRNKC",
+    "decimals": 18
+  },
+  "rpc": ["https://brnkc-mainnet.bearnetwork.net", "https://brnkc-mainnet1.bearnetwork.net"],
+  "faucets": [],
+  "infoURL": "https://bearnetwork.net"
+}, {
   "name": "Vision - Vpioneer Test Chain",
   "chainId": 666666,
   "shortName": "vpioneer",
