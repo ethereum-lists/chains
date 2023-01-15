@@ -2,10 +2,7 @@
   "name": "Fusion Testnet",
   "chain": "FSN",
   "icon": "fusion",
-  "rpc": [
-    "https://testnet.fusionnetwork.io",
-    "wss://testnet.fusionnetwork.io"
-  ],
+  "rpc": ["https://testnet.fusionnetwork.io", "wss://testnet.fusionnetwork.io"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
