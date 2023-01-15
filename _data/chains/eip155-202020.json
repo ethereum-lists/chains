@@ -1,0 +1,25 @@
+{
+  "name": "Decimal Smart Chain Testnet",
+  "chain": "tDSC",
+  "rpc": ["https://testnet-val.decimalchain.com/web3"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Decimal",
+    "symbol": "tDEL",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://decimalchain.com",
+  "shortName": "tDSC",
+  "chainId": 202020,
+  "networkId": 202020,
+  "icon": "dsc",
+  "explorers": [
+    {
+      "name": "DSC Explorer Testnet",
+      "url": "https://testnet.explorer.decimalchain.com",
+      "icon": "dsc",
+      "standard": "EIP3091"
+    }
+  ]
+}
