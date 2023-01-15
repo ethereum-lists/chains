@@ -6365,9 +6365,9 @@
     "symbol": "FSN",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.anyswap.exchange", "https://fsn.dev/api"],
+  "rpc": ["https://mainnet.fusionnetwork.io", "wss://mainnet.fusionnetwork.io"],
   "faucets": [],
-  "infoURL": "https://www.fusion.org/"
+  "infoURL": "https://fusion.org"
 }, {
   "name": "Aves Mainnet",
   "chainId": 33333,
@@ -6615,6 +6615,19 @@
   "rpc": ["https://rpc.autobahn.network"],
   "faucets": [],
   "infoURL": "https://autobahn.network"
+}, {
+  "name": "Fusion Testnet",
+  "chainId": 46688,
+  "shortName": "tfsn",
+  "networkId": 46688,
+  "nativeCurrency": {
+    "name": "Testnet Fusion",
+    "symbol": "T-FSN",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.fusionnetwork.io", "wss://testnet.fusionnetwork.io"],
+  "faucets": [],
+  "infoURL": "https://fusion.org"
 }, {
   "name": "REI Network",
   "chainId": 47805,
