@@ -3925,6 +3925,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Atelier",
+  "chainId": 1971,
+  "shortName": "atlr",
+  "networkId": 1971,
+  "nativeCurrency": {
+    "name": "ATLR",
+    "symbol": "ATLR",
+    "decimals": 18
+  },
+  "rpc": ["https://1971.network/atlr", "wss://1971.network/atlr"],
+  "faucets": [],
+  "infoURL": "https://1971.network/"
+}, {
   "name": "ONUS Chain Mainnet",
   "chainId": 1975,
   "shortName": "onus-mainnet",
