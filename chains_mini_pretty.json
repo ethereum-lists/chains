@@ -5498,6 +5498,19 @@
   "faucets": [],
   "infoURL": "https://jibchain.net"
 }, {
+  "name": "Giant Mammoth Mainnet",
+  "chainId": 8989,
+  "shortName": "gmmt",
+  "networkId": 8989,
+  "nativeCurrency": {
+    "name": "Giant Mammoth Coin",
+    "symbol": "GMMT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-asia.gmmtchain.io"],
+  "faucets": [],
+  "infoURL": "https://gmmtchain.io/"
+}, {
   "name": "bloxberg",
   "chainId": 8995,
   "shortName": "berg",
