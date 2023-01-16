@@ -5342,6 +5342,19 @@
   "faucets": [],
   "infoURL": "https://github.com/Qitmeer"
 }, {
+  "name": "BeOne Chain Testnet",
+  "chainId": 8181,
+  "shortName": "tBOC",
+  "networkId": 8181,
+  "nativeCurrency": {
+    "name": "BeOne Chain Testnet",
+    "symbol": "BOC",
+    "decimals": 18
+  },
+  "rpc": ["https://pre-boc1.beonechain.com", "https://pre-boc2.beonechain.com", "https://pre-boc3.beonechain.com"],
+  "faucets": ["https://testnet.beonescan.com/faucet"],
+  "infoURL": "https://testnet.beonescan.com"
+}, {
   "name": "Klaytn Mainnet Cypress",
   "chainId": 8217,
   "shortName": "Cypress",
