@@ -1,5 +1,5 @@
 {
-  "name": "Oasis Emerald ParaTime Testnet",
+  "name": "Oasis Emerald Testnet",
   "chain": "Emerald",
   "icon": "oasis",
   "rpc": [
@@ -12,13 +12,13 @@
     "symbol": "ROSE",
     "decimals": 18
   },
-  "infoURL": "https://docs.oasis.dev/general/developer-resources/overview",
+  "infoURL": "https://docs.oasis.io/dapp/emerald",
   "shortName": "emerald-testnet",
   "chainId": 42261,
   "networkId": 42261,
   "explorers": [
     {
-      "name": "Emerald ParaTime Testnet Explorer",
+      "name": "Oasis Emerald Testnet Explorer",
       "url": "https://testnet.explorer.emerald.oasis.dev",
       "standard": "EIP3091"
     }
