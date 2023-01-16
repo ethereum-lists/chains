@@ -9,16 +9,16 @@
   "faucets": ["https://faucet.bitkubchain.com"],
   "nativeCurrency": {
     "name": "Bitkub Coin",
-    "symbol": "TKUB",
+    "symbol": "tKUB",
     "decimals": 18
   },
   "infoURL": "https://www.bitkubchain.com/",
-  "shortName": "bkc",
+  "shortName": "bkct",
   "chainId": 25925,
   "networkId": 25925,
   "explorers": [
     {
-      "name": "bkcscan",
+      "name": "bkcscan-testnet",
       "url": "https://testnet.bkcscan.com",
       "standard": "none",
       "icon": "bkc"

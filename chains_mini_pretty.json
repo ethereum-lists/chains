@@ -6228,11 +6228,11 @@
 }, {
   "name": "Bitkub Chain Testnet",
   "chainId": 25925,
-  "shortName": "bkc",
+  "shortName": "bkct",
   "networkId": 25925,
   "nativeCurrency": {
     "name": "Bitkub Coin",
-    "symbol": "TKUB",
+    "symbol": "tKUB",
     "decimals": 18
   },
   "rpc": ["https://rpc-testnet.bitkubchain.io", "wss://wss-testnet.bitkubchain.io"],
