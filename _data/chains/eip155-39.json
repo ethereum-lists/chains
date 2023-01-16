@@ -1,0 +1,24 @@
+{
+  "name": "Unicorn Ultra Testnet",
+  "chain": "u2u",
+  "rpc": ["https://rpc-testnet.uniultra.xyz"],
+  "faucets": ["https://faucet.uniultra.xyz"],
+  "nativeCurrency": {
+    "name": "Unicorn Ultra",
+    "symbol": "U2U",
+    "decimals": 18
+  },
+  "infoURL": "https://uniultra.xyz",
+  "shortName": "u2u",
+  "chainId": 39,
+  "networkId": 39,
+  "icon": "u2u",
+  "explorers": [
+    {
+      "icon": "u2u",
+      "name": "U2U Explorer",
+      "url": "https://testnet.uniultra.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}

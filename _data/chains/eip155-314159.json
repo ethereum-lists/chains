@@ -1,7 +1,7 @@
 {
   "name": "Filecoin - Calibration testnet",
   "chain": "FIL",
-  "status": "incubating",
+  "icon": "filecoin",
   "rpc": ["https://api.calibration.node.glif.io/rpc/v0"],
   "faucets": ["https://faucet.calibration.fildev.network/"],
   "nativeCurrency": {
@@ -11,18 +11,17 @@
   },
   "infoURL": "https://filecoin.io",
   "shortName": "filecoin-calibration",
-  "icon": "filecoin",
   "chainId": 314159,
   "networkId": 314159,
   "slip44": 1,
   "explorers": [
     {
-      "name": "Filscan",
+      "name": "Filscan - Calibration",
       "url": "https://calibration.filscan.io",
       "standard": "none"
     },
     {
-      "name": "Filscout",
+      "name": "Filscout - Calibration",
       "url": "https://calibration.filscout.com/en",
       "standard": "none"
     }
