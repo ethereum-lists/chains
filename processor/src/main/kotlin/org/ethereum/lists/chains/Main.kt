@@ -29,12 +29,23 @@ private val allIconFiles = allIconFilesList.filter { !it.isDirectory }
 
 fun main(args: Array<String>) {
 
-    doChecks(
-        doRPCConnect = args.contains("rpcConnect"),
-        doIconDownload = args.contains("iconDownload"),
-        verbose = args.contains("verbose")
-    )
-    createOutputFiles()
+    val argsList = args.toMutableList()
+
+    val verbose = argsList.contains("verbose").also { argsList.remove("verbose") }
+    if (argsList.firstOrNull() == "singleChainCheck") {
+        val file = File(File(".."), args.last())
+        if (file.exists() && file.parentFile == chainsPath ) {
+            println("checking single chain " + args.last())
+            checkChain(file, true, verbose)
+        }
+    } else {
+        doChecks(
+            verbose = verbose,
+            doRPCConnect = argsList.firstOrNull() == "rpcConnect",
+            doIconDownload = argsList.firstOrNull() == "iconDownload",
+        )
+        createOutputFiles()
+    }
 }
 
 private fun createOutputFiles() {
@@ -131,7 +142,7 @@ private fun doChecks(doRPCConnect: Boolean, doIconDownload: Boolean, verbose: Bo
         checkIcon(it, doIconDownload, allIconCIDs, verbose)
     }
 
-    iconsDownloadPath.listFiles().forEach {
+    iconsDownloadPath.listFiles()?.forEach {
         if (!allIconCIDs.contains(it.name)) throw UnreferencedIcon(it.name, iconsDownloadPath)
     }
 
@@ -425,18 +436,18 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
     if (jsonObject["rpc"] !is List<*>) {
         throw (RPCMustBeList())
     } else {
-        (jsonObject["rpc"] as List<*>).forEach {
-            if (it !is String) {
+        (jsonObject["rpc"] as List<*>).forEach { rpcURL ->
+            if (rpcURL !is String) {
                 throw (RPCMustBeListOfStrings())
-            } else if (rpcPrefixes.none { prefix -> it.startsWith(prefix) }) {
-                throw (InvalidRPCPrefix(it))
+            } else if (rpcPrefixes.none { prefix -> rpcURL.startsWith(prefix) }) {
+                throw (InvalidRPCPrefix(rpcURL))
             } else {
-                it.checkString("RPC URL")
+                rpcURL.checkString("RPC URL")
                 if (connectRPC) {
                     var chainId: BigInteger? = null
                     try {
-                        println("connecting to $it")
-                        val ethereumRPC = HttpEthereumRPC(it)
+                        println("connecting to $rpcURL")
+                        val ethereumRPC = HttpEthereumRPC(rpcURL)
 
                         println("Client:" + ethereumRPC.clientVersion())
                         println("BlockNumber:" + ethereumRPC.blockNumber())

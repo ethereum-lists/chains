@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "Giant Mammoth Mainnet",
   "title": "Giant Mammoth Chain",
   "chain": "GMMT",
@@ -23,3 +24,31 @@
     }
   ]
 }
+=======
+    "name": "Giant Mammoth Mainnet",
+    "title": "Giant Mammoth Chain",
+    "chain": "GMMT",
+    "rpc": [
+      "https://rpc-asia.gmmtchain.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Giant Mammoth Coin",
+      "symbol": "GMMT",
+      "decimals": 18
+    },
+    "infoURL": "https://gmmtchain.io/",
+    "shortName": "gmmt",
+    "chainId": 8989,
+    "networkId": 8989,
+    "icon": "gmmt",
+    "explorers": [
+      {
+        "name": "gmmtscan",
+        "url": "https://scan.gmmtchain.io",
+        "standard": "EIP3091",
+        "icon": "gmmt"
+      }
+    ]
+}
+>>>>>>> 9a6b6cedf23f920253a95a4570f27a64c35c10e7
