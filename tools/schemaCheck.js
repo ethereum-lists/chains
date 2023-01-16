@@ -2,6 +2,7 @@ const fs = require("fs")
 const Ajv = require("ajv")
 const ajv = new Ajv()
 const schema = require("./schema/chainSchema.json")
+const { exit } = require("process")
 const chainFiles = fs.readdirSync("../_data/chains/")
 
 // https://chainagnostic.org/CAIPs/caip-2
@@ -29,9 +30,12 @@ for (const chainFile of chainFiles) {
 }
 
 if (filesWithErrors.length > 0) {
-  throw new Error(
-    `Invalid JSON Schema in ${
-      filesWithErrors.length
-    } files at ${filesWithErrors.join(",")}`
-  )
+  filesWithErrors.forEach(file => {
+    console.error(`Invalid JSON Schema in ${file}`)
+  })
+  exit(-1);
+}
+else {
+  console.info("Schema check completed successfully");
+  exit(0);
 }
