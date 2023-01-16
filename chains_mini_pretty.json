@@ -6226,6 +6226,19 @@
   "faucets": [],
   "infoURL": "https://www.hammerchain.io"
 }, {
+  "name": "Bitkub Chain Testnet",
+  "chainId": 25925,
+  "shortName": "bkc",
+  "networkId": 25925,
+  "nativeCurrency": {
+    "name": "Bitkub Coin",
+    "symbol": "TKUB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.bitkubchain.io", "wss://wss-testnet.bitkubchain.io"],
+  "faucets": ["https://faucet.bitkubchain.com"],
+  "infoURL": "https://www.bitkubchain.com/"
+}, {
   "name": "Hertz Network Mainnet",
   "chainId": 26600,
   "shortName": "HTZ",
