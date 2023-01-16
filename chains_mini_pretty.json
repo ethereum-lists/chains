@@ -6785,6 +6785,19 @@
   "faucets": ["http://kururu.finance/faucet?chainId=55556"],
   "infoURL": "https://reichain.io"
 }, {
+  "name": "Boba BNB Mainnet",
+  "chainId": 56288,
+  "shortName": "BobaBnb",
+  "networkId": 56288,
+  "nativeCurrency": {
+    "name": "Boba Token",
+    "symbol": "BOBA",
+    "decimals": 18
+  },
+  "rpc": ["https://bnb.boba.network", "wss://wss.bnb.boba.network", "https://replica.bnb.boba.network", "wss://replica-wss.bnb.boba.network"],
+  "faucets": [],
+  "infoURL": "https://boba.network"
+}, {
   "name": "Thinkium Testnet Chain 0",
   "chainId": 60000,
   "shortName": "TKM-test0",
@@ -7149,9 +7162,9 @@
   "faucets": ["https://faucet.lambda.top"],
   "infoURL": "https://lambda.im"
 }, {
-  "name": "Boba BNB Mainnet",
+  "name": "Boba BNB Mainnet Old",
   "chainId": 97288,
-  "shortName": "BobaBnb",
+  "shortName": "BobaBnbOld",
   "networkId": 97288,
   "nativeCurrency": {
     "name": "Boba Token",
