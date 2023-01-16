@@ -1,15 +1,13 @@
 {
-  "name": "Gitshock Testnet",
-  "chain": "Gitshock Chain",
+  "name": "Gitshock Chain Testnet",
+  "chain": "Gitshock Cartenz",
   "icon": "gitshockchain",
   "rpc": [
-    "https://rpc-testnet.gitshock.com/cartenz",
-    "https://rpc-testnet.gitshock.com/pasai",
-    "https://rpc-testnet.gitshock.com/buitenzorg"
+    "https://rpc.cartenz.works",
+    "https://rpc-us.cartenz.works"
   ],
   "faucets": [
-    "https://faucet-testnet.gitshock.com",
-    "https://gtfx-faucet.space"
+    "https://testnet-faucet.gitshock.com"
   ],
   "nativeCurrency": {
     "name": "Gitshock",
@@ -29,12 +27,12 @@
   ],
   "infoURL": "https://gitshock.com",
   "shortName": "gtfx",
-  "chainId": 212,
-  "networkId": 212,
+  "chainId": 1881,
+  "networkId": 1881,
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://scan.gitshock.com",
+      "url": "https://scan.cartenz.works",
       "icon": "gitshockscan",
       "standard": "none"
     }
