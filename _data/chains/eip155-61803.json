@@ -2,7 +2,10 @@
   "name": "Etica Mainnet",
   "chain": "Etica Protocol (ETI/EGAZ)",
   "icon": "etica",
-  "rpc": ["https://eticamainnet.eticascan.org", "https://eticamainnet.eticaprotocol.org"],
+  "rpc": [
+    "https://eticamainnet.eticascan.org",
+    "https://eticamainnet.eticaprotocol.org"
+  ],
   "faucets": ["http://faucet.etica-stats.org/"],
   "nativeCurrency": {
     "name": "EGAZ",
