@@ -2,9 +2,7 @@
   "name": "Gitshock Cartenz Testnet",
   "chain": "Gitshock Cartenz",
   "icon": "gitshockchain",
-  "rpc": [
-    "https://rpc.cartenz.works"
-  ],
+  "rpc": ["https://rpc.cartenz.works"],
   "features": [
     {
       "name": "EIP155"
