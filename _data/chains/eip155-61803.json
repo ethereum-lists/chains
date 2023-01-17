@@ -1,6 +1,6 @@
 {
-  "name": "Etica (ETI/EGAZ)",
-  "chain": "Etica Protocol",
+  "name": "Etica Mainnet",
+  "chain": "Etica Protocol (ETI/EGAZ)",
   "icon": "etica",
   "rpc": ["https://eticamainnet.eticascan.org", "https://eticamainnet.eticaprotocol.org"],
   "faucets": ["http://faucet.etica-stats.org/"],
@@ -12,7 +12,7 @@
   "infoURL": "https://eticaprotocol.org",
   "shortName": "Etica",
   "chainId": 61803,
-  "networkId": 1,
+  "networkId": 61803,
 
   "explorers": [
     {
