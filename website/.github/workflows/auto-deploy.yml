@@ -1,0 +1,17 @@
+name: Auto Deploy
+
+on:
+  schedule:
+    - cron:  '0 0 * * *'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Check if deployment is needed
+        shell: bash
+        env:
+          BUILD_HOOK: ${{ secrets.NETLIFY_BUILD_HOOK }}
+        run: ./scripts/check-deploy.sh
