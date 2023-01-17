@@ -3197,6 +3197,19 @@
   "faucets": [],
   "infoURL": "https://confluxnetwork.org"
 }, {
+  "name": "Proxy Network Testnet",
+  "chainId": 1031,
+  "shortName": "prx",
+  "networkId": 1031,
+  "nativeCurrency": {
+    "name": "PRX",
+    "symbol": "PRX",
+    "decimals": 18
+  },
+  "rpc": ["http://128.199.94.183:8041"],
+  "faucets": [],
+  "infoURL": "https://theproxy.network"
+}, {
   "name": "Bronos Testnet",
   "chainId": 1038,
   "shortName": "bronos-testnet",
