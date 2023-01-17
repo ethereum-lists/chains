@@ -1,0 +1,23 @@
+{
+  "name": "Adil Chain",
+  "chain": "ADIL",
+  "icon": "adil",
+  "rpc": ["https://adilchain-rpc.io", "wss://adilchain-rpc.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Adil Chain",
+    "symbol": "ADIL",
+    "decimals": 18
+  },
+  "infoURL": "https://adilchain-scan.io/",
+  "shortName": "adil",
+  "chainId": 75,
+  "networkId": 75,
+  "explorers": [
+    {
+      "name": "Adil scan",
+      "url": "https://adilchain-scan.io/",
+      "standard": "EIP3091"
+    }
+  ]
+}
