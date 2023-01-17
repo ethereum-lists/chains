@@ -1,0 +1,54 @@
+{
+  "name": "chainlist",
+  "version": "1.0.0",
+  "private": true,
+  "description": "chainlist",
+  "author": "Frederik Bolding",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@chakra-ui/gatsby-plugin": "^2.0.4",
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.6",
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@ethersproject/providers": "^5.5.3",
+    "@walletconnect/web3-provider": "^1.7.3",
+    "assert": "^2.0.0",
+    "crypto-browserify": "^3.12.0",
+    "framer-motion": "^6.2.8",
+    "gatsby": "^4.9.0",
+    "gatsby-plugin-emotion": "^7.9.0",
+    "gatsby-plugin-netlify": "^4.1.0",
+    "gatsby-plugin-react-helmet": "^5.9.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0",
+    "util": "^0.12.4",
+    "web3modal": "^1.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.14",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-helmet": "^6.1.5",
+    "gatsby-source-filesystem": "^4.9.0",
+    "gatsby-transformer-json": "^4.9.0",
+    "typescript": "^4.5.5"
+  }
+}
