@@ -6044,6 +6044,19 @@
   "faucets": [],
   "infoURL": "https://ssquad.games/"
 }, {
+  "name": "Credit Smartchain Mainnet",
+  "chainId": 13308,
+  "shortName": "Credit",
+  "networkId": 1,
+  "nativeCurrency": {
+    "name": "Credit",
+    "symbol": "CREDIT",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.cscscan.io"],
+  "faucets": [],
+  "infoURL": "https://creditsmartchain.com"
+}, {
   "name": "Phoenix Mainnet",
   "chainId": 13381,
   "shortName": "Phoenix",

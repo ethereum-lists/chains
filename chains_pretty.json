@@ -8834,6 +8834,32 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Credit Smartchain Mainnet",
+  "chain": "CREDIT",
+  "rpc": ["https://mainnet-rpc.cscscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Credit",
+    "symbol": "CREDIT",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://creditsmartchain.com",
+  "shortName": "Credit",
+  "chainId": 13308,
+  "networkId": 1,
+  "icon": "credit",
+  "explorers": [{
+    "name": "CSC Scan",
+    "url": "https://explorer.cscscan.io",
+    "icon": "credit",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Phoenix Mainnet",
   "chain": "Phoenix",
   "rpc": ["https://rpc.phoenixplorer.com/"],
