@@ -9,6 +9,7 @@
     "https://asia-rpc-quartz.unique.network",
     "https://us-rpc-quartz.unique.network"
   ],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Quartz",
     "symbol": "QTZ",
@@ -18,8 +19,11 @@
   "shortName": "qtz",
   "chainId": 8881,
   "networkId": 8881,
-  "explorers": [{
-    "name": "Unique Scan / Quartz",
-    "url": "https://uniquescan.io/quartz"
-  }]
+  "explorers": [
+    {
+      "name": "Unique Scan / Quartz",
+      "url": "https://uniquescan.io/quartz",
+      "standard": "none"
+    }
+  ]
 }

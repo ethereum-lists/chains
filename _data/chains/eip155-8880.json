@@ -8,6 +8,7 @@
     "https://asia-rpc.unique.network",
     "https://us-rpc.unique.network"
   ],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Unique",
     "symbol": "UNQ",
@@ -17,8 +18,11 @@
   "shortName": "unq",
   "chainId": 8880,
   "networkId": 8880,
-  "explorers": [{
-    "name": "Unique Scan",
-    "url": "https://uniquescan.io/unique/"
-  }]
+  "explorers": [
+    {
+      "name": "Unique Scan",
+      "url": "https://uniquescan.io/unique",
+      "standard": "none"
+    }
+  ]
 }
