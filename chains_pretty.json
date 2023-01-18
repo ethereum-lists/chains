@@ -7965,6 +7965,86 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Unique",
+  "icon": "unique",
+  "chain": "UNQ",
+  "rpc": ["https://rpc.unique.network", "https://eu-rpc.unique.network", "https://asia-rpc.unique.network", "https://us-rpc.unique.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Unique",
+    "symbol": "UNQ",
+    "decimals": 18
+  },
+  "infoURL": "https://unique.network",
+  "shortName": "unq",
+  "chainId": 8880,
+  "networkId": 8880,
+  "explorers": [{
+    "name": "Unique Scan",
+    "url": "https://uniquescan.io/unique",
+    "standard": "none"
+  }]
+}, {
+  "name": "Quartz by Unique",
+  "icon": "quartz",
+  "chain": "UNQ",
+  "rpc": ["https://rpc-quartz.unique.network", "https://quartz.api.onfinality.io/public-ws", "https://eu-rpc-quartz.unique.network", "https://asia-rpc-quartz.unique.network", "https://us-rpc-quartz.unique.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Quartz",
+    "symbol": "QTZ",
+    "decimals": 18
+  },
+  "infoURL": "https://unique.network",
+  "shortName": "qtz",
+  "chainId": 8881,
+  "networkId": 8881,
+  "explorers": [{
+    "name": "Unique Scan / Quartz",
+    "url": "https://uniquescan.io/quartz",
+    "standard": "none"
+  }]
+}, {
+  "name": "Opal testnet by Unique",
+  "icon": "opal",
+  "chain": "UNQ",
+  "rpc": ["https://rpc-opal.unique.network", "https://us-rpc-opal.unique.network", "https://eu-rpc-opal.unique.network", "https://asia-rpc-opal.unique.network"],
+  "faucets": ["https://t.me/unique2faucet_opal_bot"],
+  "nativeCurrency": {
+    "name": "Opal",
+    "symbol": "UNQ",
+    "decimals": 18
+  },
+  "infoURL": "https://unique.network",
+  "shortName": "opl",
+  "chainId": 8882,
+  "networkId": 8882,
+  "explorers": [{
+    "name": "Unique Scan / Opal",
+    "url": "https://uniquescan.io/opal",
+    "standard": "none"
+  }]
+}, {
+  "name": "Sapphire by Unique",
+  "icon": "sapphire",
+  "chain": "UNQ",
+  "rpc": ["https://rpc-sapphire.unique.network", "https://us-rpc-sapphire.unique.network", "https://eu-rpc-sapphire.unique.network", "https://asia-rpc-sapphire.unique.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Quartz",
+    "symbol": "QTZ",
+    "decimals": 18
+  },
+  "infoURL": "https://unique.network",
+  "shortName": "sph",
+  "chainId": 8883,
+  "networkId": 8883,
+  "explorers": [{
+    "name": "Unique Scan / Sapphire",
+    "url": "https://uniquescan.io/sapphire",
+    "standard": "none"
+  }]
+}, {
   "name": "XANAChain",
   "chain": "XANAChain",
   "rpc": ["https://mainnet.xana.net/rpc"],

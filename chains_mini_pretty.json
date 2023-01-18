@@ -5472,6 +5472,58 @@
   "faucets": [],
   "infoURL": "https://alph.network"
 }, {
+  "name": "Unique",
+  "chainId": 8880,
+  "shortName": "unq",
+  "networkId": 8880,
+  "nativeCurrency": {
+    "name": "Unique",
+    "symbol": "UNQ",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.unique.network", "https://eu-rpc.unique.network", "https://asia-rpc.unique.network", "https://us-rpc.unique.network"],
+  "faucets": [],
+  "infoURL": "https://unique.network"
+}, {
+  "name": "Quartz by Unique",
+  "chainId": 8881,
+  "shortName": "qtz",
+  "networkId": 8881,
+  "nativeCurrency": {
+    "name": "Quartz",
+    "symbol": "QTZ",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-quartz.unique.network", "https://quartz.api.onfinality.io/public-ws", "https://eu-rpc-quartz.unique.network", "https://asia-rpc-quartz.unique.network", "https://us-rpc-quartz.unique.network"],
+  "faucets": [],
+  "infoURL": "https://unique.network"
+}, {
+  "name": "Opal testnet by Unique",
+  "chainId": 8882,
+  "shortName": "opl",
+  "networkId": 8882,
+  "nativeCurrency": {
+    "name": "Opal",
+    "symbol": "UNQ",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-opal.unique.network", "https://us-rpc-opal.unique.network", "https://eu-rpc-opal.unique.network", "https://asia-rpc-opal.unique.network"],
+  "faucets": ["https://t.me/unique2faucet_opal_bot"],
+  "infoURL": "https://unique.network"
+}, {
+  "name": "Sapphire by Unique",
+  "chainId": 8883,
+  "shortName": "sph",
+  "networkId": 8883,
+  "nativeCurrency": {
+    "name": "Quartz",
+    "symbol": "QTZ",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-sapphire.unique.network", "https://us-rpc-sapphire.unique.network", "https://eu-rpc-sapphire.unique.network", "https://asia-rpc-sapphire.unique.network"],
+  "faucets": [],
+  "infoURL": "https://unique.network"
+}, {
   "name": "XANAChain",
   "chainId": 8888,
   "shortName": "XANAChain",
