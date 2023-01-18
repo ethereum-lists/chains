@@ -1,9 +1,7 @@
 {
   "name": "Credit Smartchain Mainnet",
   "chain": "CREDIT",
-  "rpc": [
-    "https://mainnet-rpc.cscscan.io"
-  ],
+  "rpc": ["https://mainnet-rpc.cscscan.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Credit",
@@ -16,10 +14,12 @@
   "chainId": 13308,
   "networkId": 1,
   "icon": "credit",
-  "explorers": [{
-    "name": "CSC Scan",
-    "url": "https://explorer.cscscan.io",
-    "icon": "credit",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "CSC Scan",
+      "url": "https://explorer.cscscan.io",
+      "icon": "credit",
+      "standard": "EIP3091"
+    }
+  ]
 }
