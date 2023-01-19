@@ -6200,6 +6200,19 @@
   "faucets": [],
   "infoURL": "https://proofofmemes.org"
 }, {
+  "name": "HOME Verse Mainnet",
+  "chainId": 19011,
+  "shortName": "HMV",
+  "networkId": 19011,
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mainnet.oasys.homeverse.games/"],
+  "faucets": [],
+  "infoURL": "https://www.homeverse.games/"
+}, {
   "name": "BTCIX Network",
   "chainId": 19845,
   "shortName": "btcix",
