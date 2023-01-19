@@ -1572,6 +1572,32 @@
   "faucets": [],
   "infoURL": "https://phi.network"
 }, {
+  "name": "Armonia Eva Chain Mainnet",
+  "chainId": 160,
+  "shortName": "eva",
+  "networkId": 160,
+  "nativeCurrency": {
+    "name": "Armonia Multichain Native Token",
+    "symbol": "AMAX",
+    "decimals": 18
+  },
+  "rpc": ["https://evascan.io/api/eth-rpc/"],
+  "faucets": [],
+  "infoURL": "https://amax.network"
+}, {
+  "name": "Armonia Eva Chain Testnet",
+  "chainId": 161,
+  "shortName": "wall-e",
+  "networkId": 161,
+  "nativeCurrency": {
+    "name": "Armonia Multichain Native Token",
+    "symbol": "AMAX",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.evascan.io/api/eth-rpc/"],
+  "faucets": [],
+  "infoURL": "https://amax.network"
+}, {
   "name": "Lightstreams Testnet",
   "chainId": 162,
   "shortName": "tpht",
