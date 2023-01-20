@@ -1,0 +1,28 @@
+{
+  "name": "Sapphire by Unique",
+  "icon": "sapphire",
+  "chain": "UNQ",
+  "rpc": [
+    "https://rpc-sapphire.unique.network",
+    "https://us-rpc-sapphire.unique.network",
+    "https://eu-rpc-sapphire.unique.network",
+    "https://asia-rpc-sapphire.unique.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Quartz",
+    "symbol": "QTZ",
+    "decimals": 18
+  },
+  "infoURL": "https://unique.network",
+  "shortName": "sph",
+  "chainId": 8883,
+  "networkId": 8883,
+  "explorers": [
+    {
+      "name": "Unique Scan / Sapphire",
+      "url": "https://uniquescan.io/sapphire",
+      "standard": "none"
+    }
+  ]
+}

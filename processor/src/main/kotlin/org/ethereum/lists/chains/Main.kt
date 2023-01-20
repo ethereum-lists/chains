@@ -29,12 +29,23 @@ private val allIconFiles = allIconFilesList.filter { !it.isDirectory }
 
 fun main(args: Array<String>) {
 
-    doChecks(
-        doRPCConnect = args.contains("rpcConnect"),
-        doIconDownload = args.contains("iconDownload"),
-        verbose = args.contains("verbose")
-    )
-    createOutputFiles()
+    val argsList = args.toMutableList()
+
+    val verbose = argsList.contains("verbose").also { argsList.remove("verbose") }
+    if (argsList.firstOrNull() == "singleChainCheck") {
+        val file = File(File(".."), args.last())
+        if (file.exists() && file.parentFile == chainsPath ) {
+            println("checking single chain " + args.last())
+            checkChain(file, true, verbose)
+        }
+    } else {
+        doChecks(
+            verbose = verbose,
+            doRPCConnect = argsList.firstOrNull() == "rpcConnect",
+            doIconDownload = argsList.firstOrNull() == "iconDownload",
+        )
+        createOutputFiles()
+    }
 }
 
 private fun createOutputFiles() {
@@ -116,8 +127,13 @@ private fun createOutputFiles() {
 }
 
 private fun doChecks(doRPCConnect: Boolean, doIconDownload: Boolean, verbose: Boolean) {
-    allChainFiles.forEach {
-        checkChain(it, doRPCConnect, verbose)
+    allChainFiles.forEach { file ->
+        try {
+            checkChain(file, doRPCConnect, verbose)
+        } catch (exception: Exception) {
+            println("Problem with $file")
+            throw exception
+        }
     }
 
     val allIcons = iconsPath.listFiles() ?: return
@@ -126,7 +142,7 @@ private fun doChecks(doRPCConnect: Boolean, doIconDownload: Boolean, verbose: Bo
         checkIcon(it, doIconDownload, allIconCIDs, verbose)
     }
 
-    iconsDownloadPath.listFiles().forEach {
+    iconsDownloadPath.listFiles()?.forEach {
         if (!allIconCIDs.contains(it.name)) throw UnreferencedIcon(it.name, iconsDownloadPath)
     }
 
@@ -209,7 +225,7 @@ fun checkIcon(icon: File, withIconDownload: Boolean, allIconCIDs: MutableSet<Str
                 }
 
                 if (image.raster.height != height) {
-                    error("width in json ($icon) is $height but actually is in imageDownload ${image.height}")
+                    error("height in json ($icon) is $height but actually is in imageDownload ${image.height}")
                 }
             } catch (e: Exception) {
                 e.printStackTrace()
@@ -257,6 +273,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
         }
     }
 
+    val nameRegex = Regex("^[a-zA-Z0-9\\-\\.\\(\\) ]+$")
     jsonObject["nativeCurrency"]?.let {
         if (it !is JsonObject) {
             throw NativeCurrencyMustBeObject()
@@ -275,9 +292,23 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
         if (it["decimals"] !is Int) {
             throw NativeCurrencyDecimalMustBeInt()
         }
-        if (it["name"] !is String) {
+        val currencyName = it["name"]
+        if (currencyName !is String) {
             throw NativeCurrencyNameMustBeString()
         }
+
+        if (!nameRegex.matches(currencyName)) {
+            throw IllegalName("currencyName", currencyName)
+        }
+    }
+
+    val chainName = jsonObject["name"]
+    if (chainName !is String) {
+        throw ChainNameMustBeString()
+    }
+
+    if (!nameRegex.matches(chainName)) {
+        throw IllegalName("chain name", chainName)
     }
 
     jsonObject["explorers"]?.let {
@@ -295,13 +326,15 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
             }
 
             val url = explorer["url"]
-            if (url == null || url !is String || !(url.startsWith("https://") || url.startsWith("http://"))) {
+            if (url == null || url !is String || httpPrefixes.none { prefix -> url.startsWith(prefix) }) {
                 throw (ExplorerMustWithHttpsOrHttp())
             }
 
             if (url.endsWith("/")) {
-                throw (ExplorerCannotEndInSlash())
+                throw ExplorerCannotEndInSlash()
             }
+
+            url.checkString("Explorer URL")
 
             if (explorer["standard"] != "EIP3091" && explorer["standard"] != "none") {
                 throw (ExplorerStandardMustBeEIP3091OrNone())
@@ -330,6 +363,21 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
         }
     }
 
+    jsonObject["faucets"]?.let { faucets ->
+        if (faucets !is List<*>) {
+            throw FaucetsMustBeArray()
+        }
+
+        faucets.forEach {
+            if (it !is String) {
+                throw FaucetMustBeString()
+            }
+
+            it.checkString("Faucet URL")
+        }
+
+    }
+
     jsonObject["redFlags"]?.let { redFlags ->
         if (redFlags !is List<*>) {
             throw RedFlagsMustBeArray()
@@ -339,6 +387,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
                 throw RedFlagMustBeString()
             }
 
+            it.checkString("Red flag")
             if (!allowedRedFlags.contains(it))
                 throw (InvalidRedFlags(it))
         }
@@ -384,16 +433,21 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
 
     parseWithMoshi(chainFile)
 
-    if (connectRPC) {
-        if (jsonObject["rpc"] is List<*>) {
-            (jsonObject["rpc"] as List<*>).forEach {
-                if (it !is String) {
-                    throw (RPCMustBeListOfStrings())
-                } else {
+    if (jsonObject["rpc"] !is List<*>) {
+        throw (RPCMustBeList())
+    } else {
+        (jsonObject["rpc"] as List<*>).forEach { rpcURL ->
+            if (rpcURL !is String) {
+                throw (RPCMustBeListOfStrings())
+            } else if (rpcPrefixes.none { prefix -> rpcURL.startsWith(prefix) }) {
+                throw (InvalidRPCPrefix(rpcURL))
+            } else {
+                rpcURL.checkString("RPC URL")
+                if (connectRPC) {
                     var chainId: BigInteger? = null
                     try {
-                        println("connecting to $it")
-                        val ethereumRPC = HttpEthereumRPC(it)
+                        println("connecting to $rpcURL")
+                        val ethereumRPC = HttpEthereumRPC(rpcURL)
 
                         println("Client:" + ethereumRPC.clientVersion())
                         println("BlockNumber:" + ethereumRPC.blockNumber())
@@ -403,17 +457,24 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
                     } catch (e: Exception) {
 
                     }
-                    chainId?.let { chainId ->
-                        if (chainIdAsLong != chainId.toLong()) {
-                            error("RPC chainId (${chainId.toLong()}) does not match chainId from json ($chainIdAsLong)")
+                    chainId?.let { nonNullChainId ->
+                        if (chainIdAsLong != nonNullChainId.toLong()) {
+                            error("RPC chainId (${nonNullChainId.toLong()}) does not match chainId from json ($chainIdAsLong)")
                         }
                     }
                 }
             }
-            println()
-        } else {
-            throw (RPCMustBeList())
         }
+    }
+}
+
+private fun String.checkString(which: String) {
+    if (isBlank()) {
+        throw StringCannotBeBlank(which)
+    }
+
+    if (trim() != this) {
+        throw StringCannotHaveExtraSpaces(which)
     }
 }
 
