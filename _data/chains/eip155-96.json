@@ -1,5 +1,5 @@
 {
-  "name": "Bitkub Chain Mainnet",
+  "name": "Bitkub Chain",
   "chain": "BKC",
   "icon": "bkc",
   "rpc": ["https://rpc.bitkubchain.io", "wss://wss.bitkubchain.io"],
@@ -15,7 +15,7 @@
   "networkId": 96,
   "explorers": [
     {
-      "name": "bkcscan",
+      "name": "Bitkub Chain Explorer",
       "url": "https://bkcscan.com",
       "standard": "none",
       "icon": "bkc"
