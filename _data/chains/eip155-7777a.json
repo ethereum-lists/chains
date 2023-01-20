@@ -1,0 +1,39 @@
+{
+  "name": "Global Digital Cluster Coin Mainet",
+  "chain": "GDCC",
+  "rpc": [
+    "https://mainnet-rpc1.gdccoin.io",
+    
+    "https://mainnet-rpc2.gdccoin.io",
+    
+    "https://mainnet-rpc3.gdccoin.io",
+    
+    "https://mainnet-rpc4.gdccoin.io",
+    
+    "wss://mainnet-rpc1.gdccoin.io/v1/",
+    
+    "wss://mainnet-rpc2.gdccoin.io/v1/",
+    
+    "wss://mainnet-rpc3.gdccoin.io/v1/",
+    
+    "wss://mainnet-rpc4.gdccoin.io/v1/"
+  ],
+
+  "nativeCurrency": {
+    "name": "GDCC Mainet",
+    "symbol": "GDCC",
+    "decimals": 17
+  },
+  "infoURL": "https://www.gdccoin.io/",
+  "shortName": "gdcc",
+  "chainId": 7777,
+  "networkId": 7777,
+  "slip44": 714,
+  "explorers": [
+    {
+      "name": "gdccmainet",
+      "url": "https://gdccscan.io/",
+      "standard": "EIP3091"
+    }
+  ]
+}

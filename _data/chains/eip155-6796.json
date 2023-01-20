@@ -1,0 +1,25 @@
+{
+  "name": "GDCC Testnet",
+  "chain": "GDCC",
+  "rpc": [
+    "https://data-seed1.gdccoin.io/"
+  ],
+  "faucets": ["https://www.gdccfaucet.com/"],
+  "nativeCurrency": {
+    "name": "GDCC Testnet",
+    "symbol": "GDCC",
+    "decimals": 17
+  },
+  "infoURL": "https://www.gdccoin.io/",
+  "shortName": "gdcc",
+  "chainId": 6796,
+  "networkId": 6796,
+  "slip44": 714,
+  "explorers": [
+    {
+      "name": "gdcctestnet",
+      "url": "https://testnet.gdccscan.io/",
+      "standard": "EIP3091"
+    }
+  ]
+}
