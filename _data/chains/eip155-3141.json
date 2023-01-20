@@ -2,8 +2,11 @@
   "name": "Filecoin - Hyperspace testnet",
   "chain": "FIL",
   "icon": "filecoin",
-  "rpc": ["https://api.hyperspace.node.glif.io/rpc/v0"],
-  "faucets": ["https://hyperspace.filtest.network/#faucet"],
+  "rpc": [
+    "https://api.hyperspace.node.glif.io/rpc/v1",
+    "https://filecoin-hyperspace.chainstacklabs.com/rpc/v1"
+  ],
+  "faucets": ["https://hyperspace.yoga/#faucet"],
   "nativeCurrency": {
     "name": "testnet filecoin",
     "symbol": "tFIL",
