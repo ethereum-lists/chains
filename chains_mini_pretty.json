@@ -2001,6 +2001,19 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "Omax Mainnet",
+  "chainId": 311,
+  "shortName": "omax",
+  "networkId": 311,
+  "nativeCurrency": {
+    "name": "OMAX COIN",
+    "symbol": "OMAX",
+    "decimals": 18
+  },
+  "rpc": ["https://mainapi.omaxray.com"],
+  "faucets": ["https://faucet.omaxray.com/"],
+  "infoURL": "https://www.omaxcoin.com/"
+}, {
   "name": "Filecoin - Mainnet",
   "chainId": 314,
   "shortName": "filecoin",
