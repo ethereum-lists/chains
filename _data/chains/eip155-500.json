@@ -21,3 +21,37 @@
     }
   ]
 }
+
+{
+  "name": "HyperonChain MainNet",
+  "chain": "HPN",
+  "icon": "hyperonchain",
+  "rpc": ["https://mainnet-rpc.hyperonchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "HyperonChain",
+    "symbol": "HPN",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.hyperonchain.com",
+  "shortName": "hpn",
+  "chainId": 500,
+  "networkId": 500,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://hyperonscan.com/",
+      "icon": "hyperonchain",
+      "standard": "none"
+    }
+  ]
+  "parent": {
+    "type": "L1",
+    "chain": "eip155-500",
+    "bridges": [
+      {
+        "url": "https://bridge.hyperonchain.com/"
+      }
+    ]
+  }
+}
