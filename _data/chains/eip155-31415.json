@@ -2,8 +2,8 @@
   "name": "Filecoin - Wallaby testnet",
   "chain": "FIL",
   "icon": "filecoin",
-  "rpc": ["https://wallaby.node.glif.io/rpc/v0"],
-  "faucets": ["https://wallaby.network/#faucet"],
+  "rpc": ["https://wallaby.node.glif.io/rpc/v1"],
+  "faucets": ["https://wallaby.yoga/#faucet"],
   "nativeCurrency": {
     "name": "testnet filecoin",
     "symbol": "tFIL",
