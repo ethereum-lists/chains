@@ -5420,6 +5420,19 @@
   "faucets": [],
   "infoURL": "https://www.klaytn.com/"
 }, {
+  "name": "Blockton Blockchain",
+  "chainId": 8272,
+  "shortName": "BTON",
+  "networkId": 8272,
+  "nativeCurrency": {
+    "name": "BLOCKTON",
+    "symbol": "BTON",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.blocktonscan.com/"],
+  "faucets": ["https://faucet.blocktonscan.com/"],
+  "infoURL": "https://blocktoncoin.com"
+}, {
   "name": "KorthoTest",
   "chainId": 8285,
   "shortName": "Kortho",
