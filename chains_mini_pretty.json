@@ -2794,6 +2794,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Fantasia Chain Mainnet",
+  "chainId": 868,
+  "shortName": "FSCMainnet",
+  "networkId": 868,
+  "nativeCurrency": {
+    "name": "FST",
+    "symbol": "FST",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-data1.fantasiachain.com/", "https://mainnet-data2.fantasiachain.com/", "https://mainnet-data3.fantasiachain.com/"],
+  "faucets": [],
+  "infoURL": "https://fantasia.technology/"
+}, {
   "name": "Dexit Network",
   "chainId": 877,
   "shortName": "DXT",
