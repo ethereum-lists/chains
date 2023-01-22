@@ -10103,6 +10103,21 @@
   "networkId": 49797,
   "slip44": 49797
 }, {
+  "name": "Liveplex OracleEVM",
+  "chain": "Liveplex OracleEVM Network",
+  "rpc": ["http://129.153.75.68:5000"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "LOE",
+  "chainId": 50001,
+  "networkId": 50001,
+  "explorers": []
+}, {
   "name": "GTON Testnet",
   "chain": "GTON Testnet",
   "rpc": ["https://testnet.gton.network/"],
