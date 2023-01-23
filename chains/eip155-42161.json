@@ -1,0 +1,36 @@
+{
+  "name": "Arbitrum One",
+  "chainId": 42161,
+  "shortName": "arb1",
+  "chain": "ETH",
+  "networkId": 42161,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [
+    "https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}",
+    "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
+    "https://arb1.arbitrum.io/rpc"
+  ],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "Arbiscan",
+      "url": "https://arbiscan.io",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Arbitrum Explorer",
+      "url": "https://explorer.arbitrum.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://arbitrum.io",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.arbitrum.io" }]
+  }
+}

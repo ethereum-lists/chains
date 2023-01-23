@@ -1,0 +1,27 @@
+{
+  "name": "Energy Web Chain",
+  "chain": "Energy Web Chain",
+  "rpc": ["https://rpc.energyweb.org", "wss://rpc.energyweb.org/ws"],
+  "faucets": [
+    "https://faucet.carbonswap.exchange",
+    "https://free-online-app.com/faucet-for-eth-evm-chains/"
+  ],
+  "nativeCurrency": {
+    "name": "Energy Web Token",
+    "symbol": "EWT",
+    "decimals": 18
+  },
+  "infoURL": "https://energyweb.org",
+  "shortName": "ewt",
+  "chainId": 246,
+  "networkId": 246,
+  "slip44": 246,
+
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.energyweb.org",
+      "standard": "none"
+    }
+  ]
+}

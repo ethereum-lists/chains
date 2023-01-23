@@ -1,0 +1,15 @@
+{
+  "name": "MDGL Testnet",
+  "chain": "MDGL",
+  "rpc": ["https://testnet.mdgl.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MDGL Token",
+    "symbol": "MDGLT",
+    "decimals": 18
+  },
+  "infoURL": "https://mdgl.io",
+  "shortName": "mdgl",
+  "chainId": 8029,
+  "networkId": 8029
+}

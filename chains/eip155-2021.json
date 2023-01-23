@@ -1,0 +1,15 @@
+{
+  "name": "Edgeware Mainnet",
+  "chain": "EDG",
+  "rpc": ["https://mainnet1.edgewa.re"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Edge",
+    "symbol": "EDG",
+    "decimals": 18
+  },
+  "infoURL": "http://edgewa.re",
+  "shortName": "edg",
+  "chainId": 2021,
+  "networkId": 2021
+}

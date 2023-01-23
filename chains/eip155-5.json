@@ -1,0 +1,34 @@
+{
+  "name": "Goerli",
+  "title": "Ethereum Testnet Goerli",
+  "chain": "ETH",
+  "rpc": [
+    "https://goerli.infura.io/v3/${INFURA_API_KEY}",
+    "wss://goerli.infura.io/v3/${INFURA_API_KEY}",
+    "https://rpc.goerli.mudit.blog/"
+  ],
+  "faucets": [
+    "http://fauceth.komputing.org?chain=5&address=${ADDRESS}",
+    "https://goerli-faucet.slock.it?address=${ADDRESS}",
+    "https://faucet.goerli.mudit.blog"
+  ],
+  "nativeCurrency": {
+    "name": "Goerli Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://goerli.net/#about",
+  "shortName": "gor",
+  "chainId": 5,
+  "networkId": 5,
+  "ens": {
+    "registry": "0x112234455c3a32fd11230c42e7bccd4a84e02010"
+  },
+  "explorers": [
+    {
+      "name": "etherscan-goerli",
+      "url": "https://goerli.etherscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Songbird Canary-Network",
+  "chain": "SGB",
+  "icon": "songbird",
+  "rpc": [
+    "https://songbird-api.flare.network/ext/C/rpc",
+    "https://songbird.towolabs.com/ext/C/rpc",
+    "https://sgb.ftso.com.au/ext/bc/C/rpc",
+    "https://sgb.lightft.so/rpc",
+    "https://sgb-rpc.ftso.eu"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Songbird",
+    "symbol": "SGB",
+    "decimals": 18
+  },
+  "infoURL": "https://flare.xyz",
+  "shortName": "sgb",
+  "chainId": 19,
+  "networkId": 19,
+
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://songbird-explorer.flare.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

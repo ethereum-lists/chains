@@ -1,0 +1,24 @@
+{
+  "name": "Aitd Testnet",
+  "chain": "AITD",
+  "icon": "aitd",
+  "rpc": ["http://http-testnet.aitd.io"],
+  "faucets": ["https://aitd-faucet-pre.aitdcoin.com/"],
+  "nativeCurrency": {
+    "name": "AITD Testnet",
+    "symbol": "AITD",
+    "decimals": 18
+  },
+  "infoURL": "https://www.aitd.io/",
+  "shortName": "aitdtestnet",
+  "chainId": 1320,
+  "networkId": 1320,
+
+  "explorers": [
+    {
+      "name": "AITD Chain Explorer Testnet",
+      "url": "https://block-explorer-testnet.aitd.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

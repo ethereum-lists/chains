@@ -1,0 +1,23 @@
+{
+  "name": "Openpiece Mainnet",
+  "chain": "OPENPIECE",
+  "icon": "openpiece",
+  "rpc": ["https://mainnet.openpiece.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Belly",
+    "symbol": "BELLY",
+    "decimals": 18
+  },
+  "infoURL": "https://cryptopiece.online",
+  "shortName": "OP",
+  "chainId": 54,
+  "networkId": 54,
+  "explorers": [
+    {
+      "name": "Belly Scan",
+      "url": "https://bellyscan.com",
+      "standard": "none"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Alaya Dev Testnet",
+  "chain": "Alaya",
+  "rpc": [
+    "https://devnetopenapi.alaya.network/rpc",
+    "wss://devnetopenapi.alaya.network/ws"
+  ],
+  "faucets": [
+    "https://faucet.alaya.network/faucet/?id=f93426c0887f11eb83b900163e06151c"
+  ],
+  "nativeCurrency": {
+    "name": "ATP",
+    "symbol": "atp",
+    "decimals": 18
+  },
+  "infoURL": "https://www.alaya.network/",
+  "shortName": "alayadev",
+  "chainId": 201030,
+  "networkId": 1,
+  "icon": "alaya",
+  "explorers": [
+    {
+      "name": "alaya explorer",
+      "url": "https://devnetscan.alaya.network",
+      "standard": "none"
+    }
+  ]
+}

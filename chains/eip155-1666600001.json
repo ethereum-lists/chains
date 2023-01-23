@@ -1,0 +1,15 @@
+{
+  "name": "Harmony Mainnet Shard 1",
+  "chain": "Harmony",
+  "rpc": ["https://api.s1.t.hmny.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ONE",
+    "symbol": "ONE",
+    "decimals": 18
+  },
+  "infoURL": "https://www.harmony.one/",
+  "shortName": "hmy-s1",
+  "chainId": 1666600001,
+  "networkId": 1666600001
+}

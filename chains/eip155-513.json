@@ -1,0 +1,23 @@
+{
+  "name": "Double-A Chain Testnet",
+  "chain": "AAC",
+  "icon": "aac",
+  "rpc": ["https://rpc-testnet.acuteangle.com"],
+  "faucets": ["https://scan-testnet.acuteangle.com/faucet"],
+  "nativeCurrency": {
+    "name": "Acuteangle Native Token",
+    "symbol": "AAC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.acuteangle.com/",
+  "shortName": "aact",
+  "chainId": 513,
+  "networkId": 513,
+  "explorers": [
+    {
+      "name": "aacscan-testnet",
+      "url": "https://scan-testnet.acuteangle.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

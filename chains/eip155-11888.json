@@ -1,0 +1,32 @@
+{
+  "name": "SanR Chain",
+  "chain": "SanRChain",
+  "rpc": ["https://sanrchain-node.santiment.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "nSAN",
+    "symbol": "nSAN",
+    "decimals": 18
+  },
+  "infoURL": "https://sanr.app",
+  "shortName": "SAN",
+  "chainId": 11888,
+  "networkId": 11888,
+  "icon": "sanrchain",
+  "parent": {
+    "chain": "eip155-1",
+    "type": "L2",
+    "bridges": [
+      {
+        "url": "https://sanr.app"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "name": "SanR Chain Explorer",
+      "url": "https://sanrchain-explorer.santiment.net",
+      "standard": "none"
+    }
+  ]
+}

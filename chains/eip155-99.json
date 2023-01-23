@@ -1,0 +1,23 @@
+{
+  "name": "POA Network Core",
+  "chain": "POA",
+  "rpc": ["https://core.poa.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "POA Network Core Ether",
+    "symbol": "POA",
+    "decimals": 18
+  },
+  "infoURL": "https://poa.network",
+  "shortName": "poa",
+  "chainId": 99,
+  "networkId": 99,
+  "slip44": 178,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockscout.com/poa/core",
+      "standard": "none"
+    }
+  ]
+}

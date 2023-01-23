@@ -1,0 +1,23 @@
+{
+  "name": "MultiVAC Mainnet",
+  "chain": "MultiVAC",
+  "icon": "multivac",
+  "rpc": ["https://rpc.mtv.ac", "https://rpc-eu.mtv.ac"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MultiVAC",
+    "symbol": "MTV",
+    "decimals": 18
+  },
+  "infoURL": "https://mtv.ac",
+  "shortName": "mtv",
+  "chainId": 62621,
+  "networkId": 62621,
+  "explorers": [
+    {
+      "name": "MultiVAC Explorer",
+      "url": "https://e.mtv.ac",
+      "standard": "none"
+    }
+  ]
+}

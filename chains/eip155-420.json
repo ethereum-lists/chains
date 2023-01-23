@@ -1,0 +1,15 @@
+{
+  "name": "Optimism Goerli Testnet",
+  "chain": "ETH",
+  "rpc": ["https://goerli.optimism.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Goerli Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://optimism.io",
+  "shortName": "ogor",
+  "chainId": 420,
+  "networkId": 420
+}

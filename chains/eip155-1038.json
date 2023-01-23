@@ -1,0 +1,24 @@
+{
+  "name": "Bronos Testnet",
+  "chain": "Bronos",
+  "rpc": ["https://evm-testnet.bronos.org"],
+  "faucets": ["https://faucet.bronos.org"],
+  "nativeCurrency": {
+    "name": "tBRO",
+    "symbol": "tBRO",
+    "decimals": 18
+  },
+  "infoURL": "https://bronos.org",
+  "shortName": "bronos-testnet",
+  "chainId": 1038,
+  "networkId": 1038,
+  "icon": "bronos",
+  "explorers": [
+    {
+      "name": "Bronos Testnet Explorer",
+      "url": "https://tbroscan.bronos.org",
+      "standard": "none",
+      "icon": "bronos"
+    }
+  ]
+}

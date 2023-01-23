@@ -1,0 +1,25 @@
+{
+  "name": "Deprecated Chiado Testnet",
+  "chain": "CHI1",
+  "icon": "gnosis",
+  "rpc": ["https://rpc-chiado.gnosistestnet.com"],
+  "faucets": ["https://gnosisfaucet.com"],
+  "nativeCurrency": {
+    "name": "Chiado xDAI",
+    "symbol": "xDAI",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.gnosischain.com",
+  "shortName": "chi1",
+  "chainId": 100100,
+  "networkId": 100100,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockscout-chiado.gnosistestnet.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "deprecated"
+}

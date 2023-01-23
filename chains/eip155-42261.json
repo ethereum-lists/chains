@@ -1,0 +1,26 @@
+{
+  "name": "Oasis Emerald Testnet",
+  "chain": "Emerald",
+  "icon": "oasis",
+  "rpc": [
+    "https://testnet.emerald.oasis.dev/",
+    "wss://testnet.emerald.oasis.dev/ws"
+  ],
+  "faucets": ["https://faucet.testnet.oasis.dev/"],
+  "nativeCurrency": {
+    "name": "Emerald Rose",
+    "symbol": "ROSE",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.oasis.io/dapp/emerald",
+  "shortName": "emerald-testnet",
+  "chainId": 42261,
+  "networkId": 42261,
+  "explorers": [
+    {
+      "name": "Oasis Emerald Testnet Explorer",
+      "url": "https://testnet.explorer.emerald.oasis.dev",
+      "standard": "EIP3091"
+    }
+  ]
+}

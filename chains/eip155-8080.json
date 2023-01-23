@@ -1,0 +1,23 @@
+{
+  "name": "Shardeum Liberty 1.X",
+  "chain": "Shardeum",
+  "rpc": ["https://liberty10.shardeum.org/"],
+  "faucets": ["https://faucet.liberty10.shardeum.org"],
+  "nativeCurrency": {
+    "name": "Shardeum SHM",
+    "symbol": "SHM",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.shardeum.org/",
+  "shortName": "Liberty10",
+  "chainId": 8080,
+  "networkId": 8080,
+  "explorers": [
+    {
+      "name": "Sharedum Scan",
+      "url": "https://explorer-liberty10.shardeum.org",
+      "standard": "EIP3091"
+    }
+  ],
+  "redFlags": ["reusedChainId"]
+}

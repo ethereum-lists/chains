@@ -1,0 +1,16 @@
+{
+  "name": "Oort Mainnet",
+  "chain": "Oort Mainnet",
+  "rpc": ["https://rpc.oortech.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Oort",
+    "symbol": "CCN",
+    "decimals": 18
+  },
+  "infoURL": "https://oortech.com",
+  "shortName": "ccn",
+  "chainId": 970,
+  "networkId": 970,
+  "icon": "ccn"
+}

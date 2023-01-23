@@ -1,0 +1,23 @@
+{
+  "name": "Flare Mainnet",
+  "chain": "FLR",
+  "icon": "flare",
+  "rpc": ["https://flare-api.flare.network/ext/C/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Flare",
+    "symbol": "FLR",
+    "decimals": 18
+  },
+  "infoURL": "https://flare.xyz",
+  "shortName": "flr",
+  "chainId": 14,
+  "networkId": 14,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://flare-explorer.flare.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

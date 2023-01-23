@@ -1,0 +1,23 @@
+{
+  "name": "Columbus Test Network",
+  "chain": "CAM",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Camino",
+    "symbol": "CAM",
+    "decimals": 18
+  },
+  "infoURL": "https://camino.foundation/",
+  "shortName": "Columbus",
+  "chainId": 501,
+  "networkId": 1001,
+  "icon": "camino",
+  "explorers": [
+    {
+      "name": "blockexplorer",
+      "url": "https://explorer.camino.foundation",
+      "standard": "none"
+    }
+  ]
+}

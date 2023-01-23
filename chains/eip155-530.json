@@ -1,0 +1,23 @@
+{
+  "name": "F(x)Core Mainnet Network",
+  "chain": "Fxcore",
+  "rpc": ["https://fx-json-web3.functionx.io:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Function X",
+    "symbol": "FX",
+    "decimals": 18
+  },
+  "infoURL": "https://functionx.io/",
+  "shortName": "FxCore",
+  "chainId": 530,
+  "networkId": 530,
+  "icon": "fxcore",
+  "explorers": [
+    {
+      "name": "FunctionX Explorer",
+      "url": "https://fx-evm.functionx.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
