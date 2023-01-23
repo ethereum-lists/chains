@@ -112,7 +112,6 @@ There are also aggregated json files with all chains automatically assembled:
  * [EVM-BOX](https://github.com/izayl/evm-box)
  * [chaindirectory.xyz](https://www.chaindirectory.xyz)
  * [chain-list.org](https://chain-list.org)
- * [DefiLlama's chainlist](https://chainlist.defillama.com/)
  * [chainlist.network](https://chainlist.network/)
  * [evmchainlist.org](https://evmchainlist.org)
  * [evmchainlist.com](https://evmchainlist.com)
