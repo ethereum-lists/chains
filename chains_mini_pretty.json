@@ -8657,6 +8657,19 @@
   "faucets": [],
   "infoURL": "https://auxilium.global"
 }, {
+  "name": "Flachain Mainnet",
+  "chainId": 29032022,
+  "shortName": "fla",
+  "networkId": 29032022,
+  "nativeCurrency": {
+    "name": "Flacoin",
+    "symbol": "FLA",
+    "decimals": 18
+  },
+  "rpc": ["https://flachain.flaexchange.top/"],
+  "faucets": [],
+  "infoURL": "https://www.flaexchange.top"
+}, {
   "name": "Filecoin - Local testnet",
   "chainId": 31415926,
   "shortName": "filecoin-local",
