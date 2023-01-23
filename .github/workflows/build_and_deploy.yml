@@ -37,18 +37,24 @@ jobs:
         with:
           submodules: recursive
         if: ${{ github.event_name != 'pull_request' && steps.extract_branch.outputs.branch == 'master' }}	    
-      - name: Run install
+      - name: Build
+        run: |
+          ./gradlew run
+      - name: Run yarn install
         uses: borales/actions-yarn@v4
         with:
          dir: 'website'
          cmd: install # will run `yarn install` command
         if: ${{ github.event_name != 'pull_request' && steps.extract_branch.outputs.branch == 'master' }}	   
-      - name: Test the app
+      - name: Run yarn build
         uses: borales/actions-yarn@v4
         with:
           dir: 'website'
           cmd: run build # will run `yarn test` command     
-        if: ${{ github.event_name != 'pull_request' && steps.extract_branch.outputs.branch == 'master' }}	  
+        if: ${{ github.event_name != 'pull_request' && steps.extract_branch.outputs.branch == 'master' }}
+      - name: Merge
+        run: |
+          cp -a output/. website/public/
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
