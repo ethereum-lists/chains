@@ -105,9 +105,8 @@ There are also aggregated json files with all chains automatically assembled:
  * EIP-4527
 
 ### Listing sites
- * [chainlist.wtf](https://chainlist.wtf)
- * [chainlist.org](https://chainlist.org) or [networklist-org.vercel.app](https://networklist-org.vercel.app) as a staging version with a more up-to-date list
- * [chainid.network](https://chainid.network)
+ * [chainid.network](https://chainid.network) / [chainlist.wtf](https://chainlist.wtf)
+ * [chainlist.org](https://chainlist.org)
  * [networks.vercel.app](https://networks.vercel.app)
  * [eth-chains](https://github.com/taylorjdawson/eth-chains)
  * [EVM-BOX](https://github.com/izayl/evm-box)
