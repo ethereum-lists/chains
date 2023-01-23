@@ -18,16 +18,17 @@ jobs:
         with:
          dir: 'website'
          cmd: install # will run `yarn install` command
-      - name: Run yarn build
-        uses: borales/actions-yarn@v4
-        with:
-          dir: 'website'
-          cmd: run build # will run `yarn test` command     
-      - name: Merge
-        run: |
-          cp -a output/. website/public/
+#      - name: Run yarn build
+#        uses: borales/actions-yarn@v4
+#        with:
+#          dir: 'website'
+#          cmd: run build # will run `yarn test` command     
+#      - name: Merge
+#        run: |
+#          cp -a output/. website/public/
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           branch: gh-pages
-          folder: website/public
+#          folder: website/public
+          folder: output
