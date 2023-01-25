@@ -4484,6 +4484,19 @@
   "faucets": [],
   "infoURL": "https://tcgverse.xyz/"
 }, {
+  "name": "XODEX",
+  "chainId": 2415,
+  "shortName": "xodex",
+  "networkId": 10,
+  "nativeCurrency": {
+    "name": "XODEX Native Token",
+    "symbol": "XODEX",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.xo-dex.com/rpc", "https://xo-dex.io"],
+  "faucets": [],
+  "infoURL": "https://xo-dex.com"
+}, {
   "name": "Kortho Mainnet",
   "chainId": 2559,
   "shortName": "ktoc",
