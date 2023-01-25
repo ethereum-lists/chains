@@ -4471,6 +4471,19 @@
   "faucets": ["https://faucet.bombchain-testnet.ankr.com/"],
   "infoURL": "https://www.bombmoney.com"
 }, {
+  "name": "TCG Verse Mainnet",
+  "chainId": 2400,
+  "shortName": "TCGV",
+  "networkId": 2400,
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.tcgverse.xyz"],
+  "faucets": [],
+  "infoURL": "https://tcgverse.xyz/"
+}, {
   "name": "Kortho Mainnet",
   "chainId": 2559,
   "shortName": "ktoc",
