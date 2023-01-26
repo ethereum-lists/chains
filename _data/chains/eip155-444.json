@@ -1,26 +1,21 @@
 {
-  "name": "FrenChain",
-  "chain": "tFREN",
-  "icon": "fren",
-  "rpc": [
-    "https://rpc-01tn.frenchain.app"
-  ],
-  "faucets": [
-    "https://faucet.frenchain.app"
-  ],
+  "name": "Frenchain",
+  "chain": "tfren",
+  "rpc": ["https://rpc-01tn.frenchain.app"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "tFREN",
-    "symbol": "tFREN",
+    "symbol": "FtREN",
     "decimals": 18
   },
   "infoURL": "https://frenchain.app",
-  "shortName": "fren",
+  "shortName": "tFREN",
   "chainId": 444,
   "networkId": 444,
-  "slip44": 700,
+  "icon": "fren",
   "explorers": [
     {
-      "name": "frenscan",
+      "name": "blockscout",
       "url": "https://testnet.frenscan.io",
       "icon": "fren",
       "standard": "EIP3091"
