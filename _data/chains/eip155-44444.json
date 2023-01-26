@@ -3,7 +3,7 @@
   "chain": "FREN",
   "icon": "fren",
   "rpc": [
-    "https://rpc-02.frenscan.io/"
+    "https://rpc-02.frenscan.io"
   ],
   "faucets": [
     "https://faucet.frenchain.app"
@@ -14,7 +14,7 @@
     "decimals": 18
   },
   "infoURL": "https://frenchain.app",
-  "shortName": "gno",
+  "shortName": "fren",
   "chainId": 44444,
   "networkId": 44444,
   "slip44": 700,
