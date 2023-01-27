@@ -1,6 +1,6 @@
 {
   "name": "Bitindi Mainnet",
-  "chain": "BNI",
+  "chain": "BITINDI",
   "rpc": [
     "https://rpc-mainnet.bitindi.org"
   ],
@@ -15,7 +15,6 @@
   "shortName": "bni",
   "chainId": 4099,
   "networkId": 4099,
-  "icon": "bitindi",
   "explorers": [{
     "name": "bitindiscan",
     "url": "https://bitindiscan.com",
