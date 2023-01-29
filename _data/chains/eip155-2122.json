@@ -1,0 +1,25 @@
+{
+    "name": "Metaplayerone Mainnet",
+    "chain": "Metaplayerone Mainnet",
+    "icon": "metad",
+    "rpc": [
+      "https://rpc.metaplayer.one/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "METAD",
+      "symbol": "METAD",
+      "decimals": 18
+    },
+    "infoURL": "https://metaplayer.one/",
+    "shortName": "metad",
+    "chainId": 2122,
+    "networkId": 2122,
+    "explorers": [
+      {
+        "name": "Metaplayerone Scan",
+        "url": "https://scan.metaplayer.one",
+        "standard": "EIP3091"
+      }
+    ]
+  }
