@@ -4315,6 +4315,19 @@
   "faucets": [],
   "infoURL": "https://moonsama.com"
 }, {
+  "name": "Metaplayerone Mainnet",
+  "chainId": 2122,
+  "shortName": "Metad",
+  "networkId": 2122,
+  "nativeCurrency": {
+    "name": "METAD",
+    "symbol": "METAD",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.metaplayer.one/"],
+  "faucets": [],
+  "infoURL": "https://docs.metaplayer.one/"
+}, {
   "name": "BOSagora Mainnet",
   "chainId": 2151,
   "shortName": "boa",
