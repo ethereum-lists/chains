@@ -8384,6 +8384,19 @@
   "faucets": ["https://faucet.kiln.themerge.dev", "https://kiln-faucet.pk910.de", "https://kilnfaucet.com"],
   "infoURL": "https://kiln.themerge.dev/"
 }, {
+  "name": "Zhejiang",
+  "chainId": 1337803,
+  "shortName": "zhejiang",
+  "networkId": 1337803,
+  "nativeCurrency": {
+    "name": "Testnet ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zhejiang.ethpandaops.io"],
+  "faucets": ["https://faucet.zhejiang.ethpandaops.io", "https://zhejiang-faucet.pk910.de"],
+  "infoURL": "https://zhejiang.ethpandaops.io"
+}, {
   "name": "Plian Mainnet Main",
   "chainId": 2099156,
   "shortName": "plian-mainnet",
