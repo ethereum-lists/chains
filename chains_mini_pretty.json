@@ -4796,6 +4796,19 @@
   "faucets": [],
   "infoURL": "https://bittexscan.com"
 }, {
+  "name": "Empire Network",
+  "chainId": 3693,
+  "shortName": "empire",
+  "networkId": 3693,
+  "nativeCurrency": {
+    "name": "Empire",
+    "symbol": "EMPIRE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.empirenetwork.io"],
+  "faucets": [],
+  "infoURL": "https://www.empirenetwork.io/"
+}, {
   "name": "Crossbell",
   "chainId": 3737,
   "shortName": "csb",
