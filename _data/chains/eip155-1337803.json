@@ -1,7 +1,9 @@
 {
     "name": "Zhejiang",
     "chain": "ETH",
-    "rpc": ["https://rpc.zhejiang.ethpandaops.io"],
+    "rpc": [
+      "https://rpc.zhejiang.ethpandaops.io"
+    ],
     "faucets": [
       "https://faucet.zhejiang.ethpandaops.io"
     ],
@@ -23,5 +25,4 @@
         "standard": "EIP3091"
       }
     ]
-  }
-  
+}
