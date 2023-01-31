@@ -12,5 +12,11 @@
   "shortName": "LOE",
   "chainId": 50001,
   "networkId": 50001,
-  "explorers": []
+  "explorers": [
+  {
+      "name": "Liveplex OracleEVM Scan",
+      "url": "https://marketplace-dev8278-phx.blockchain.ocp.oraclecloud.com:7443/?root=channel",
+      "standard": "EIP3091"
+    }
+]
 }
