@@ -3340,6 +3340,19 @@
   "faucets": ["https://wallet.test.wemix.com/faucet"],
   "infoURL": "https://wemix.com"
 }, {
+  "name": "Core Blockchain Mainnet",
+  "chainId": 1116,
+  "shortName": "core",
+  "networkId": 1116,
+  "nativeCurrency": {
+    "name": "Core Blockchain Native Token",
+    "symbol": "CORE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.coredao.org/"],
+  "faucets": [],
+  "infoURL": "https://www.coredao.org"
+}, {
   "name": "DeFiChain EVM Network Mainnet",
   "chainId": 1130,
   "shortName": "DFI",
