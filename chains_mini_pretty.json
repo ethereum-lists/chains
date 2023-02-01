@@ -1624,6 +1624,19 @@
   "faucets": [],
   "infoURL": "https://explorer.lightstreams.io"
 }, {
+  "name": "Atoshi Testnet",
+  "chainId": 167,
+  "shortName": "atoshi",
+  "networkId": 167,
+  "nativeCurrency": {
+    "name": "ATOSHI",
+    "symbol": "ATOS",
+    "decimals": 18
+  },
+  "rpc": ["https://node.atoshi.io/"],
+  "faucets": [],
+  "infoURL": "https://atoshi.org"
+}, {
   "name": "AIOZ Network",
   "chainId": 168,
   "shortName": "aioz",
