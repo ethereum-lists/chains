@@ -17,9 +17,11 @@
   "shortName": "pocrnet",
   "chainId": 2606,
   "networkId": 2606,
-  "explorers": [{
-    "name": "Lite Explorer",
-    "url": "https://ethereum-pocr.github.io/explorer/pocrnet",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "Lite Explorer",
+      "url": "https://ethereum-pocr.github.io/explorer/pocrnet",
+      "standard": "EIP3091"
+    }
+  ]
 }

@@ -19,9 +19,11 @@
   "shortName": "kerleano",
   "chainId": 1804,
   "networkId": 1804,
-  "explorers": [{
-    "name": "Lite Explorer",
-    "url": "https://ethereum-pocr.github.io/explorer/kerleano",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "Lite Explorer",
+      "url": "https://ethereum-pocr.github.io/explorer/kerleano",
+      "standard": "EIP3091"
+    }
+  ]
 }
