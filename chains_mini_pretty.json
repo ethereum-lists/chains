@@ -5602,6 +5602,19 @@
   "faucets": [],
   "infoURL": "https://alph.network"
 }, {
+  "name": "TMY Chain",
+  "chainId": 8768,
+  "shortName": "tmy",
+  "networkId": 8768,
+  "nativeCurrency": {
+    "name": "TMY",
+    "symbol": "TMY",
+    "decimals": 18
+  },
+  "rpc": ["https://node1.tmyblockchain.org/rpc"],
+  "faucets": ["https://faucet.tmychain.org/"],
+  "infoURL": "https://tmychain.org/"
+}, {
   "name": "Unique",
   "chainId": 8880,
   "shortName": "unq",
