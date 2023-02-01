@@ -7,7 +7,9 @@
     "https://cacib-saturn-test.francecentral.cloudapp.azure.com",
     "wss://cacib-saturn-test.francecentral.cloudapp.azure.com:9443"
   ],
-  "faucets": [],
+  "faucets": [
+    "https://github.com/ethereum-pocr/kerleano/blob/main/docs/faucet.md"
+  ],
   "nativeCurrency": {
     "name": "Carbon Reduction Coin",
     "symbol": "CRC",
