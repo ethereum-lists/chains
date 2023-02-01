@@ -3922,7 +3922,7 @@
     "decimals": 18
   },
   "rpc": ["https://cacib-saturn-test.francecentral.cloudapp.azure.com", "wss://cacib-saturn-test.francecentral.cloudapp.azure.com:9443"],
-  "faucets": [],
+  "faucets": ["https://github.com/ethereum-pocr/kerleano/blob/main/docs/faucet.md"],
   "infoURL": "https://github.com/ethereum-pocr/kerleano"
 }, {
   "name": "Rabbit Analog Testnet Chain",
@@ -4571,9 +4571,9 @@
     "symbol": "CRC",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://pocrnet.westeurope.cloudapp.azure.com/http", "wss://pocrnet.westeurope.cloudapp.azure.com/ws"],
   "faucets": [],
-  "infoURL": "https://github.com/ethereum-pocr"
+  "infoURL": "https://github.com/ethereum-pocr/pocrnet"
 }, {
   "name": "Redlight Chain Mainnet",
   "chainId": 2611,
