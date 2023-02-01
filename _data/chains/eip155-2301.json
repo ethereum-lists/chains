@@ -1,0 +1,25 @@
+{
+    "name": "Evolune Testnetnet",
+    "chain": "ETH",
+    "rpc": [
+      "http://74.208.142.115:8545",
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Evolune",
+      "symbol": "ELO",
+      "decimals": 18
+    },
+    "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+    "infoURL": "https://evolune.co",
+    "shortName": "ELO",
+    "chainId": 2301,
+    "networkId": 2301,
+    "icon": "evolune",
+    "explorers": [{
+      "name": "evoscan",
+      "url": "http://evoscan.co",
+      "icon": "evoscan",
+      "standard": "EIP3091"
+    }]
+  }
