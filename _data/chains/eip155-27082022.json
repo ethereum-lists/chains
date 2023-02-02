@@ -1,0 +1,24 @@
+{
+  "name": "Excoincial Chain Mainnet",
+  "chain": "EXL",
+  "icon": "exl",
+  "rpc": ["https://rpc.exlscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Exlcoin",
+    "symbol": "EXL",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "exl",
+  "chainId": 27082022,
+  "networkId": 27082022,
+  "explorers": [
+    {
+      "name": "exlscan",
+      "url": "https://exlscan.com",
+      "icon": "exl",
+      "standard": "EIP3091"
+    }
+  ]
+}

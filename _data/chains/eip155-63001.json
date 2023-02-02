@@ -1,13 +1,8 @@
 {
   "name": "eCredits Testnet",
   "chain": "ECS",
-  "network": "testnet",
-  "rpc": [
-    "https://rpc.tst.ecredits.com"
-  ],
-  "faucets": [
-    "https://faucet.tst.ecredits.com"
-  ],
+  "rpc": ["https://rpc.tst.ecredits.com"],
+  "faucets": ["https://faucet.tst.ecredits.com"],
   "nativeCurrency": {
     "name": "eCredits",
     "symbol": "ECS",
@@ -18,10 +13,12 @@
   "chainId": 63001,
   "networkId": 63001,
   "icon": "ecredits",
-  "explorers": [{
-    "name": "eCredits TestNet Explorer",
-    "url": "https://explorer.tst.ecredits.com",
-	"icon": "ecredits",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "eCredits TestNet Explorer",
+      "url": "https://explorer.tst.ecredits.com",
+      "icon": "ecredits",
+      "standard": "EIP3091"
+    }
+  ]
 }

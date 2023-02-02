@@ -1,9 +1,7 @@
 {
   "name": "GTON Testnet",
   "chain": "GTON Testnet",
-  "rpc": [
-    "https://testnet.gton.network/"
-  ],
+  "rpc": ["https://testnet.gton.network/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "GCD",
@@ -16,9 +14,9 @@
   "networkId": 50021,
   "explorers": [
     {
-        "name": "GTON Testnet Network Explorer",
-        "url": "https://explorer.testnet.gton.network",
-        "standard": "EIP3091"
+      "name": "GTON Testnet Network Explorer",
+      "url": "https://explorer.testnet.gton.network",
+      "standard": "EIP3091"
     }
   ],
   "parent": {

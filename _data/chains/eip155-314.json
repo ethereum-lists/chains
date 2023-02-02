@@ -1,0 +1,34 @@
+{
+  "name": "Filecoin - Mainnet",
+  "chain": "FIL",
+  "icon": "filecoin",
+  "rpc": ["https://api.node.glif.io/", "https://rpc.ankr.com/filecoin"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "filecoin",
+    "symbol": "FIL",
+    "decimals": 18
+  },
+  "infoURL": "https://filecoin.io",
+  "shortName": "filecoin",
+  "chainId": 314,
+  "networkId": 314,
+  "slip44": 461,
+  "explorers": [
+    {
+      "name": "Filfox",
+      "url": "https://filfox.info/en",
+      "standard": "none"
+    },
+    {
+      "name": "Filscan",
+      "url": "https://filscan.io",
+      "standard": "none"
+    },
+    {
+      "name": "Filscout",
+      "url": "https://filscout.io/en",
+      "standard": "none"
+    }
+  ]
+}

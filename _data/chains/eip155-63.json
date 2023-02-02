@@ -1,9 +1,7 @@
 {
   "name": "Ethereum Classic Testnet Mordor",
   "chain": "ETC",
-  "rpc": [
-    "https://www.ethercluster.com/mordor"
-  ],
+  "rpc": ["https://www.ethercluster.com/mordor"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Mordor Classic Testnet Ether",

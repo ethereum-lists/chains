@@ -1,12 +1,8 @@
 {
   "name": "zkSync alpha testnet",
   "chain": "ETH",
-  "rpc": [
-    "https://zksync2-testnet.zksync.dev"
-  ],
-  "faucets": [
-    "https://portal.zksync.io/faucet"
-  ],
+  "rpc": ["https://zksync2-testnet.zksync.dev"],
+  "faucets": ["https://portal.zksync.io/faucet"],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
@@ -17,10 +13,12 @@
   "chainId": 280,
   "networkId": 280,
   "icon": "ethereum",
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://zksync2-testnet.zkscan.io",
-    "icon": "blockscout",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://zksync2-testnet.zkscan.io",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
 }

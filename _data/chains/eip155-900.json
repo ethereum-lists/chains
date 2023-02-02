@@ -1,14 +1,9 @@
 {
   "name": "Garizon Testnet Stage0",
   "chain": "GAR",
-  "network": "testnet",
   "icon": "garizon",
-  "rpc": [
-    "https://s0-testnet.garizon.net/rpc"
-  ],
-  "faucets": [
-    "https://faucet-testnet.garizon.com"
-  ],
+  "rpc": ["https://s0-testnet.garizon.net/rpc"],
+  "faucets": ["https://faucet-testnet.garizon.com"],
   "nativeCurrency": {
     "name": "Garizon",
     "symbol": "GAR",
@@ -18,10 +13,12 @@
   "shortName": "gar-test-s0",
   "chainId": 900,
   "networkId": 900,
-  "explorers": [{
-    "name": "explorer",
-    "url": "https://explorer-testnet.garizon.com",
-    "icon": "garizon",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "explorer",
+      "url": "https://explorer-testnet.garizon.com",
+      "icon": "garizon",
+      "standard": "EIP3091"
+    }
+  ]
 }

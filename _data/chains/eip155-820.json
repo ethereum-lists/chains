@@ -1,9 +1,7 @@
 {
   "name": "Callisto Mainnet",
   "chain": "CLO",
-  "rpc": [
-    "https://rpc.callisto.network/"
-  ],
+  "rpc": ["https://rpc.callisto.network/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Callisto",

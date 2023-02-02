@@ -2,9 +2,7 @@
   "name": "Rangers Protocol Mainnet",
   "chain": "Rangers",
   "icon": "rangers",
-  "rpc": [
-    "https://mainnet.rangersprotocol.com/api/jsonrpc"
-  ],
+  "rpc": ["https://mainnet.rangersprotocol.com/api/jsonrpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Rangers Protocol Gas",
@@ -16,9 +14,11 @@
   "chainId": 2025,
   "networkId": 2025,
   "slip44": 1008,
-  "explorers": [{
-    "name": "rangersscan",
-    "url": "https://scan.rangersprotocol.com",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "rangersscan",
+      "url": "https://scan.rangersprotocol.com",
+      "standard": "none"
+    }
+  ]
 }

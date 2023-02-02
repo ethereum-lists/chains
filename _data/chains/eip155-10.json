@@ -13,9 +13,11 @@
   "chainId": 10,
   "networkId": 10,
 
-  "explorers": [{
-    "name": "etherscan",
-    "url": "https://optimistic.etherscan.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "etherscan",
+      "url": "https://optimistic.etherscan.io",
+      "standard": "EIP3091"
+    }
+  ]
 }

@@ -2,12 +2,8 @@
   "name": "Polis Testnet",
   "chain": "Sparta",
   "icon": "polis",
-  "rpc": [
-    "https://sparta-rpc.polis.tech"
-  ],
-  "faucets": [
-    "https://faucet.polis.tech"
-  ],
+  "rpc": ["https://sparta-rpc.polis.tech"],
+  "faucets": ["https://faucet.polis.tech"],
   "nativeCurrency": {
     "name": "tPolis",
     "symbol": "tPOLIS",

@@ -1,12 +1,7 @@
 {
   "name": "POA Network Core",
   "chain": "POA",
-  "rpc": [
-    "https://core.poanetwork.dev",
-    "http://core.poanetwork.dev:8545",
-    "https://core.poa.network",
-    "ws://core.poanetwork.dev:8546"
-  ],
+  "rpc": ["https://core.poa.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "POA Network Core Ether",
@@ -18,9 +13,11 @@
   "chainId": 99,
   "networkId": 99,
   "slip44": 178,
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://blockscout.com/poa/core",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockscout.com/poa/core",
+      "standard": "none"
+    }
+  ]
 }

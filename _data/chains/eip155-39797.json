@@ -1,9 +1,7 @@
 {
   "name": "Energi Mainnet",
   "chain": "NRG",
-  "rpc": [
-    "https://nodeapi.energi.network"
-  ],
+  "rpc": ["https://nodeapi.energi.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Energi",

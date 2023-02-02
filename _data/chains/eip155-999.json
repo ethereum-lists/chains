@@ -1,9 +1,7 @@
 {
   "name": "Wanchain Testnet",
   "chain": "WAN",
-  "rpc": [
-    "https://gwan-ssl.wandevs.org:46891/"
-  ],
+  "rpc": ["https://gwan-ssl.wandevs.org:46891/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Wancoin",

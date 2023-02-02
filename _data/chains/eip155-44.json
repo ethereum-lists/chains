@@ -1,9 +1,7 @@
 {
   "name": "Darwinia Crab Network",
   "chain": "crab",
-  "rpc": [
-    "https://crab-rpc.darwinia.network"
-  ],
+  "rpc": ["https://crab-rpc.darwinia.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Crab Network Native Token",
@@ -14,9 +12,11 @@
   "shortName": "crab",
   "chainId": 44,
   "networkId": 44,
-  "explorers": [{
-    "name": "subscan",
-    "url": "https://crab.subscan.io",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "subscan",
+      "url": "https://crab.subscan.io",
+      "standard": "none"
+    }
+  ]
 }

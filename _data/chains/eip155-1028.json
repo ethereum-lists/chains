@@ -1,9 +1,7 @@
 {
   "name": "BitTorrent Chain Testnet",
   "chain": "BTTC",
-  "rpc": [
-    "https://testrpc.bittorrentchain.io/"
-  ],
+  "rpc": ["https://testrpc.bittorrentchain.io/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BitTorrent",
@@ -14,9 +12,11 @@
   "shortName": "tbtt",
   "chainId": 1028,
   "networkId": 1028,
-  "explorers": [{
-    "name": "testbttcscan",
-    "url": "https://testscan.bittorrentchain.io",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "testbttcscan",
+      "url": "https://testscan.bittorrentchain.io",
+      "standard": "none"
+    }
+  ]
 }

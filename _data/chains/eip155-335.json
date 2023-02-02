@@ -2,10 +2,7 @@
   "name": "DFK Chain Test",
   "chain": "DFK",
   "icon": "dfk",
-  "network": "testnet",
-  "rpc": [
-    "https://subnets.avax.network/defi-kingdoms/dfk-chain-testnet/rpc"
-  ],
+  "rpc": ["https://subnets.avax.network/defi-kingdoms/dfk-chain-testnet/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Jewel",

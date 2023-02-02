@@ -1,11 +1,8 @@
 {
   "name": "Web3Q Testnet",
   "chain": "Web3Q",
-  "rpc": [
-    "https://testnet.web3q.io:8545"
-  ],
-  "faucets": [
-  ],
+  "rpc": ["https://testnet.web3q.io:8545"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Web3Q",
     "symbol": "W3Q",
@@ -15,9 +12,11 @@
   "shortName": "w3q-t",
   "chainId": 3333,
   "networkId": 3333,
-  "explorers": [{
-    "name": "w3q-testnet",
-    "url": "https://explorer.testnet.web3q.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "w3q-testnet",
+      "url": "https://explorer.testnet.web3q.io",
+      "standard": "EIP3091"
+    }
+  ]
 }

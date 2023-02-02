@@ -1,12 +1,8 @@
 {
   "name": "Meter Mainnet",
   "chain": "METER",
-  "rpc": [
-    "https://rpc.meter.io"
-  ],
-  "faucets": [
-    "https://faucet.meter.io"
-  ],
+  "rpc": ["https://rpc.meter.io"],
+  "faucets": ["https://faucet.meter.io"],
   "nativeCurrency": {
     "name": "Meter",
     "symbol": "MTR",
@@ -16,10 +12,11 @@
   "shortName": "Meter",
   "chainId": 82,
   "networkId": 82,
-  "explorers": [{
-    "name": "Meter Mainnet Scan",
-    "url": "https://scan.meter.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "Meter Mainnet Scan",
+      "url": "https://scan.meter.io",
+      "standard": "EIP3091"
+    }
+  ]
 }
-
