@@ -1,12 +1,12 @@
 name: Build
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout	
+      - name: Checkout
         uses: actions/checkout@v2.3.1
         with:
           submodules: recursive
@@ -16,13 +16,13 @@ jobs:
       - name: Run yarn install
         uses: borales/actions-yarn@v4
         with:
-         dir: 'website'
-         cmd: install # will run `yarn install` command
+          dir: "website"
+          cmd: install # will run `yarn install` command
       - name: Run yarn build
         uses: borales/actions-yarn@v4
         with:
-          dir: 'website'
-          cmd: run build # will run `yarn test` command     
+          dir: "website"
+          cmd: run build # will run `yarn test` command
       - name: Merge
         run: |
           cp -a output/. website/public/
