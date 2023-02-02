@@ -2,17 +2,26 @@
   "name": "PoCRNet",
   "title": "Proof of Carbon Reduction mainnet",
   "chain": "CRC",
-  "status": "incubating",
-  "rpc": [],
+  "status": "active",
+  "rpc": [
+    "https://pocrnet.westeurope.cloudapp.azure.com/http",
+    "wss://pocrnet.westeurope.cloudapp.azure.com/ws"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Carbon Reduction Coin",
     "symbol": "CRC",
     "decimals": 18
   },
-  "infoURL": "https://github.com/ethereum-pocr",
+  "infoURL": "https://github.com/ethereum-pocr/pocrnet",
   "shortName": "pocrnet",
   "chainId": 2606,
   "networkId": 2606,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "Lite Explorer",
+      "url": "https://ethereum-pocr.github.io/explorer/pocrnet",
+      "standard": "EIP3091"
+    }
+  ]
 }
