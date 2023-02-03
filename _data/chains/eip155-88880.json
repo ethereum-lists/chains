@@ -1,9 +1,7 @@
 {
   "name": "Chiliz Scoville Testnet",
   "chain": "CHZ",
-  "rpc": [
-    "https://scoville-rpc.chiliz.com"
-  ],
+  "rpc": ["https://scoville-rpc.chiliz.com"],
   "faucets": ["https://scoville-faucet.chiliz.com"],
   "nativeCurrency": {
     "name": "Chiliz",
