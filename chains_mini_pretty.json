@@ -7435,6 +7435,19 @@
   "faucets": ["https://faucet.polygon.technology/"],
   "infoURL": "https://polygon.technology/"
 }, {
+  "name": "Chiliz Scoville Testnet",
+  "chainId": 88880,
+  "shortName": "chz",
+  "networkId": 88880,
+  "nativeCurrency": {
+    "name": "Chiliz",
+    "symbol": "CHZ",
+    "decimals": 18
+  },
+  "rpc": ["https://scoville-rpc.chiliz.com"],
+  "faucets": ["https://scoville-faucet.chiliz.com"],
+  "infoURL": "https://www.chiliz.com/en/chain"
+}, {
   "name": "IVAR Chain Mainnet",
   "chainId": 88888,
   "shortName": "ivar",
