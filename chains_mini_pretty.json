@@ -1416,6 +1416,32 @@
   "faucets": [],
   "infoURL": "https://debank.com"
 }, {
+  "name": "ENULS Mainnet",
+  "chainId": 119,
+  "shortName": "enuls",
+  "networkId": 119,
+  "nativeCurrency": {
+    "name": "NULS",
+    "symbol": "NULS",
+    "decimals": 18
+  },
+  "rpc": ["https://evmapi.nuls.io", "https://evmapi2.nuls.io"],
+  "faucets": [],
+  "infoURL": "https://nuls.io"
+}, {
+  "name": "ENULS Testnet",
+  "chainId": 120,
+  "shortName": "enulst",
+  "networkId": 120,
+  "nativeCurrency": {
+    "name": "NULS",
+    "symbol": "NULS",
+    "decimals": 18
+  },
+  "rpc": ["https://beta.evmapi.nuls.io", "https://beta.evmapi2.nuls.io"],
+  "faucets": ["http://faucet.nuls.io"],
+  "infoURL": "https://nuls.io"
+}, {
   "name": "Fuse Mainnet",
   "chainId": 122,
   "shortName": "fuse",
