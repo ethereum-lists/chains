@@ -3431,6 +3431,19 @@
   "faucets": [],
   "infoURL": "https://www.coredao.org"
 }, {
+  "name": "Dogcoin Mainnet",
+  "chainId": 1117,
+  "shortName": "DOGSm",
+  "networkId": 1117,
+  "nativeCurrency": {
+    "name": "Dogcoin",
+    "symbol": "DOGS",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.dogcoin.network"],
+  "faucets": ["https://faucet.dogcoin.network"],
+  "infoURL": "https://dogcoin.network"
+}, {
   "name": "DeFiChain EVM Network Mainnet",
   "chainId": 1130,
   "shortName": "DFI",
@@ -5004,6 +5017,32 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "Bitindi Testnet",
+  "chainId": 4096,
+  "shortName": "BNIt",
+  "networkId": 4096,
+  "nativeCurrency": {
+    "name": "BNI",
+    "symbol": "$BNI",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.bitindi.org"],
+  "faucets": ["https://faucet.bitindi.org"],
+  "infoURL": "https://bitindi.org"
+}, {
+  "name": "Bitindi Mainnet",
+  "chainId": 4099,
+  "shortName": "BNIm",
+  "networkId": 4099,
+  "nativeCurrency": {
+    "name": "BNI",
+    "symbol": "$BNI",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.bitindi.org"],
+  "faucets": ["https://faucet.bitindi.org"],
+  "infoURL": "https://bitindi.org"
+}, {
   "name": "AIOZ Network Testnet",
   "chainId": 4102,
   "shortName": "aioz-testnet",
@@ -5900,6 +5939,19 @@
   "rpc": [],
   "faucets": ["https://faucet.thefirechain.com"],
   "infoURL": "https://thefirechain.com"
+}, {
+  "name": "Dogcoin Testnet",
+  "chainId": 9339,
+  "shortName": "DOGSt",
+  "networkId": 9339,
+  "nativeCurrency": {
+    "name": "Dogcoin",
+    "symbol": "DOGS",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.dogcoin.network"],
+  "faucets": ["https://faucet.dogcoin.network"],
+  "infoURL": "https://dogcoin.network"
 }, {
   "name": "Rangers Protocol Testnet Robin",
   "chainId": 9527,

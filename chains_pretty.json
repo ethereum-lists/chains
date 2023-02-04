@@ -4916,6 +4916,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Dogcoin Mainnet",
+  "chain": "DOGS",
+  "icon": "dogs",
+  "rpc": ["https://mainnet-rpc.dogcoin.network"],
+  "faucets": ["https://faucet.dogcoin.network"],
+  "nativeCurrency": {
+    "name": "Dogcoin",
+    "symbol": "DOGS",
+    "decimals": 18
+  },
+  "infoURL": "https://dogcoin.network",
+  "shortName": "DOGSm",
+  "chainId": 1117,
+  "networkId": 1117,
+  "explorers": [{
+    "name": "Dogcoin",
+    "url": "https://explorer.dogcoin.network",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "DeFiChain EVM Network Mainnet",
   "chain": "defichain-evm",
   "status": "incubating",
@@ -7274,6 +7294,46 @@
     "standard": "none"
   }]
 }, {
+  "name": "Bitindi Testnet",
+  "chain": "BNI",
+  "icon": "bitindiTestnet",
+  "rpc": ["https://testnet-rpc.bitindi.org"],
+  "faucets": ["https://faucet.bitindi.org"],
+  "nativeCurrency": {
+    "name": "BNI",
+    "symbol": "$BNI",
+    "decimals": 18
+  },
+  "infoURL": "https://bitindi.org",
+  "shortName": "BNIt",
+  "chainId": 4096,
+  "networkId": 4096,
+  "explorers": [{
+    "name": "Bitindi",
+    "url": "https://testnet.bitindiscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Bitindi Mainnet",
+  "chain": "BNI",
+  "icon": "bitindi",
+  "rpc": ["https://mainnet-rpc.bitindi.org"],
+  "faucets": ["https://faucet.bitindi.org"],
+  "nativeCurrency": {
+    "name": "BNI",
+    "symbol": "$BNI",
+    "decimals": 18
+  },
+  "infoURL": "https://bitindi.org",
+  "shortName": "BNIm",
+  "chainId": 4099,
+  "networkId": 4099,
+  "explorers": [{
+    "name": "Bitindi",
+    "url": "https://bitindiscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "AIOZ Network Testnet",
   "chain": "AIOZ",
   "icon": "aioz",
@@ -8632,6 +8692,26 @@
   "networkId": 9170,
   "explorers": [],
   "status": "deprecated"
+}, {
+  "name": "Dogcoin Testnet",
+  "chain": "DOGS",
+  "icon": "dogs",
+  "rpc": ["https://testnet-rpc.dogcoin.network"],
+  "faucets": ["https://faucet.dogcoin.network"],
+  "nativeCurrency": {
+    "name": "Dogcoin",
+    "symbol": "DOGS",
+    "decimals": 18
+  },
+  "infoURL": "https://dogcoin.network",
+  "shortName": "DOGSt",
+  "chainId": 9339,
+  "networkId": 9339,
+  "explorers": [{
+    "name": "Dogcoin",
+    "url": "https://testnet.dogcoin.network",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Rangers Protocol Testnet Robin",
   "chain": "Rangers",
