@@ -2222,6 +2222,19 @@
   "faucets": [],
   "infoURL": "https://pulsechain.com/"
 }, {
+  "name": "Consta Testnet",
+  "chainId": 371,
+  "shortName": "tCNT",
+  "networkId": 371,
+  "nativeCurrency": {
+    "name": "tCNT",
+    "symbol": "tCNT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.theconsta.com"],
+  "faucets": [],
+  "infoURL": "http://theconsta.com"
+}, {
   "name": "Lisinski",
   "chainId": 385,
   "shortName": "lisinski",

@@ -3212,6 +3212,26 @@
     "decimals": 18
   }
 }, {
+  "name": "Consta Testnet",
+  "chain": "tCNT",
+  "rpc": ["https://rpc-testnet.theconsta.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "tCNT",
+    "symbol": "tCNT",
+    "decimals": 18
+  },
+  "infoURL": "http://theconsta.com",
+  "shortName": "tCNT",
+  "chainId": 371,
+  "networkId": 371,
+  "icon": "constachain",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer-testnet.theconsta.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Lisinski",
   "chain": "CRO",
   "rpc": ["https://rpc-bitfalls1.lisinski.online"],
