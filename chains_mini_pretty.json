@@ -8059,6 +8059,19 @@
   "faucets": [],
   "infoURL": "https://artis.network"
 }, {
+  "name": "Saakuru Testnet",
+  "chainId": 247253,
+  "shortName": "saakuru-testnet",
+  "networkId": 247253,
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.saakuru.network"],
+  "faucets": [],
+  "infoURL": "https://saakuru.network"
+}, {
   "name": "CMP-Mainnet",
   "chainId": 256256,
   "shortName": "cmp-mainnet",
@@ -8617,6 +8630,19 @@
   "rpc": ["https://jsonrpc-test.imversed.network", "https://ws-jsonrpc-test.imversed.network"],
   "faucets": [],
   "infoURL": "https://imversed.com"
+}, {
+  "name": "Saakuru Mainnet",
+  "chainId": 7225878,
+  "shortName": "saakuru",
+  "networkId": 7225878,
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.saakuru.network"],
+  "faucets": [],
+  "infoURL": "https://saakuru.network"
 }, {
   "name": "OpenVessel",
   "chainId": 7355310,
