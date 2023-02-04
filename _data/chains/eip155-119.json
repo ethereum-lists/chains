@@ -5,7 +5,7 @@
     "https://evmapi.nuls.io",
     "https://evmapi2.nuls.io"
   ],
-  "faucets": [],
+  "faucets": ["http://faucet.nuls.io"],
   "nativeCurrency": {
     "name": "NULS",
     "symbol": "NULS",
