@@ -1,7 +1,7 @@
 {
   "name": "Fastex Chain testnet",
-  "chain": "FTN",
-  "icon": "ftn",
+  "chain": "FastexChain",
+  "icon": "FastexChain",
   "rpc": ["https://rpc.testnet.fastexchain.com"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
