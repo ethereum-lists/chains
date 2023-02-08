@@ -4367,6 +4367,19 @@
   "faucets": [],
   "infoURL": "https://parachain.origintrail.io"
 }, {
+  "name": "Stratos Mainnet",
+  "chainId": 2048,
+  "shortName": "stos-mainnet",
+  "networkId": 2048,
+  "nativeCurrency": {
+    "name": "STOS",
+    "symbol": "STOS",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://www.thestratos.org"
+}, {
   "name": "Quokkacoin Mainnet",
   "chainId": 2077,
   "shortName": "QKA",
