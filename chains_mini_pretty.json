@@ -4367,6 +4367,19 @@
   "faucets": [],
   "infoURL": "https://parachain.origintrail.io"
 }, {
+  "name": "Stratos Testnet",
+  "chainId": 2047,
+  "shortName": "stos-testnet",
+  "networkId": 2047,
+  "nativeCurrency": {
+    "name": "STOS",
+    "symbol": "STOS",
+    "decimals": 18
+  },
+  "rpc": ["https://web3-testnet-rpc.thestratos.org"],
+  "faucets": [],
+  "infoURL": "https://www.thestratos.org"
+}, {
   "name": "Stratos Mainnet",
   "chainId": 2048,
   "shortName": "stos-mainnet",
