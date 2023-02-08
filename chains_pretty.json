@@ -5507,6 +5507,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "AmStar Mainnet",
+  "chain": "AmStar",
+  "icon": "amstar",
+  "rpc": ["https://mainnet-rpc.amstarscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SINSO",
+    "symbol": "SINSO",
+    "decimals": 18
+  },
+  "infoURL": "https://sinso.io",
+  "shortName": "ASAR",
+  "chainId": 1388,
+  "networkId": 1388,
+  "explorers": [{
+    "name": "amstarscan",
+    "url": "https://mainnet.amstarscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Polygon zkEVM Testnet",
   "title": "Polygon zkEVM Testnet",
   "chain": "Polygon",

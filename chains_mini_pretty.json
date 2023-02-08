@@ -3834,6 +3834,19 @@
   "faucets": [],
   "infoURL": "https://www.cicchain.net"
 }, {
+  "name": "AmStar Mainnet",
+  "chainId": 1388,
+  "shortName": "ASAR",
+  "networkId": 1388,
+  "nativeCurrency": {
+    "name": "SINSO",
+    "symbol": "SINSO",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.amstarscan.com"],
+  "faucets": [],
+  "infoURL": "https://sinso.io"
+}, {
   "name": "Polygon zkEVM Testnet",
   "chainId": 1402,
   "shortName": "zkevmtest",
