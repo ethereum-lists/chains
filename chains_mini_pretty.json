@@ -7123,18 +7123,18 @@
   "faucets": [],
   "infoURL": "https://wireshape.org"
 }, {
-  "name": "Bifrost Testnet1",
+  "name": "Bifrost Testnet",
   "chainId": 49088,
-  "shortName": "BIT",
+  "shortName": "bfc",
   "networkId": 49088,
   "nativeCurrency": {
     "name": "Bifrost",
     "symbol": "BFC",
     "decimals": 18
   },
-  "rpc": ["https://public-01.testnet.thebifrost.io/rpc", "https://public-02.testnet.thebifrost.io/rpc", "https://private.chain.thebifrost.io/rpc"],
+  "rpc": ["https://public-01.testnet.thebifrost.io/rpc", "https://public-02.testnet.thebifrost.io/rpc"],
   "faucets": [],
-  "infoURL": "https://testnet.thebifrost.io"
+  "infoURL": "https://thebifrost.io"
 }, {
   "name": "Energi Testnet",
   "chainId": 49797,
