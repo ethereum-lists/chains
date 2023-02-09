@@ -8423,16 +8423,16 @@
   "faucets": [],
   "infoURL": "https://scroll.io"
 }, {
-  "name": "Scroll Goerli Testnet",
+  "name": "Scroll Alpha Testnet",
   "chainId": 534353,
-  "shortName": "scr-goerli",
+  "shortName": "scr-alpha",
   "networkId": 534353,
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://alpha-rpc.scroll.io/l2"],
   "faucets": [],
   "infoURL": "https://scroll.io"
 }, {
