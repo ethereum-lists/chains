@@ -4796,6 +4796,19 @@
   "faucets": [],
   "infoURL": "https://orlchain.com"
 }, {
+  "name": "Bifrost Mainnet",
+  "chainId": 3068,
+  "shortName": "bfc",
+  "networkId": 3068,
+  "nativeCurrency": {
+    "name": "Bifrost",
+    "symbol": "BFC",
+    "decimals": 18
+  },
+  "rpc": ["https://public-01.mainnet.thebifrost.io/rpc", "https://public-02.mainnet.thebifrost.io/rpc"],
+  "faucets": [],
+  "infoURL": "https://thebifrost.io"
+}, {
   "name": "Filecoin - Hyperspace testnet",
   "chainId": 3141,
   "shortName": "filecoin-hyperspace",
