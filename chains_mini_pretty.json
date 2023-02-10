@@ -8527,6 +8527,19 @@
   "faucets": ["https://vpioneerfaucet.visionscan.org"],
   "infoURL": "https://visionscan.org"
 }, {
+  "name": "Bear Network Chain Testnet",
+  "chainId": 751230,
+  "shortName": "BRNKCTEST",
+  "networkId": 751230,
+  "nativeCurrency": {
+    "name": "Bear Network Chain Testnet Token",
+    "symbol": "tBRNKC",
+    "decimals": 18
+  },
+  "rpc": ["https://brnkc-test.bearnetwork.net"],
+  "faucets": [],
+  "infoURL": "https://bearnetwork.net"
+}, {
   "name": "OctaSpace",
   "chainId": 800001,
   "shortName": "octa",

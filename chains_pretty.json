@@ -12690,6 +12690,26 @@
   "networkId": 666666,
   "slip44": 60
 }, {
+  "name": "Bear Network Chain Testnet",
+  "chain": "BRNKCTEST",
+  "icon": "brnkc",
+  "rpc": ["https://brnkc-test.bearnetwork.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bear Network Chain Testnet Token",
+    "symbol": "tBRNKC",
+    "decimals": 18
+  },
+  "infoURL": "https://bearnetwork.net",
+  "shortName": "BRNKCTEST",
+  "chainId": 751230,
+  "networkId": 751230,
+  "explorers": [{
+    "name": "brnktestscan",
+    "url": "https://brnktest-scan.bearnetwork.net",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "OctaSpace",
   "chain": "OCTA",
   "rpc": ["https://rpc.octa.space", "wss://rpc.octa.space"],
