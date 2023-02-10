@@ -8345,6 +8345,19 @@
   "faucets": [],
   "infoURL": "https://arbitrum.io/"
 }, {
+  "name": "Fastex Chain testnet",
+  "chainId": 424242,
+  "shortName": "ftn",
+  "networkId": 424242,
+  "nativeCurrency": {
+    "name": "FTN",
+    "symbol": "FTN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.fastexchain.com"],
+  "faucets": [],
+  "infoURL": "https://fastex.com"
+}, {
   "name": "Dexalot Subnet Testnet",
   "chainId": 432201,
   "shortName": "dexalot-testnet",
