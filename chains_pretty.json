@@ -3320,6 +3320,27 @@
     "standard": "none"
   }]
 }, {
+  "name": "Frenchain Testnet",
+  "chain": "tfren",
+  "rpc": ["https://rpc-01tn.frenchain.app"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "tFREN",
+    "symbol": "FtREN",
+    "decimals": 18
+  },
+  "infoURL": "https://frenchain.app",
+  "shortName": "tFREN",
+  "chainId": 444,
+  "networkId": 444,
+  "icon": "fren",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://testnet.frenscan.io",
+    "icon": "fren",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Rupaya",
   "chain": "RUPX",
   "rpc": [],
@@ -10432,6 +10453,27 @@
     "name": "Boba Avax Explorer",
     "url": "https://blockexplorer.avax.boba.network",
     "standard": "none"
+  }]
+}, {
+  "name": "Frenchain",
+  "chain": "fren",
+  "rpc": ["https://rpc-02.frenscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FREN",
+    "symbol": "FREN",
+    "decimals": 18
+  },
+  "infoURL": "https://frenchain.app",
+  "shortName": "FREN",
+  "chainId": 44444,
+  "networkId": 44444,
+  "icon": "fren",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://frenscan.io",
+    "icon": "fren",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Celo Alfajores Testnet",

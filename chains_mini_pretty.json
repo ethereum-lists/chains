@@ -2300,6 +2300,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Frenchain Testnet",
+  "chainId": 444,
+  "shortName": "tFREN",
+  "networkId": 444,
+  "nativeCurrency": {
+    "name": "tFREN",
+    "symbol": "FtREN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-01tn.frenchain.app"],
+  "faucets": [],
+  "infoURL": "https://frenchain.app"
+}, {
   "name": "Rupaya",
   "chainId": 499,
   "shortName": "rupx",
@@ -7070,6 +7083,19 @@
   "rpc": ["https://avax.boba.network", "wss://wss.avax.boba.network", "https://replica.avax.boba.network", "wss://replica-wss.avax.boba.network"],
   "faucets": [],
   "infoURL": "https://docs.boba.network/for-developers/network-avalanche"
+}, {
+  "name": "Frenchain",
+  "chainId": 44444,
+  "shortName": "FREN",
+  "networkId": 44444,
+  "nativeCurrency": {
+    "name": "FREN",
+    "symbol": "FREN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-02.frenscan.io"],
+  "faucets": [],
+  "infoURL": "https://frenchain.app"
 }, {
   "name": "Celo Alfajores Testnet",
   "chainId": 44787,
