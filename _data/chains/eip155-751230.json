@@ -1,6 +1,6 @@
 {
   "name": "Bear Network Chain Testnet",
-  "chain": "BRNKC",
+  "chain": "BRNKCTEST",
   "icon": "brnkc",
   "rpc": ["https://brnkc-test.bearnetwork.net"],
   "faucets": [],
@@ -10,7 +10,7 @@
     "decimals": 18
   },
   "infoURL": "https://bearnetwork.net",
-  "shortName": "BRNKC",
+  "shortName": "BRNKCTEST",
   "chainId": 751230,
   "networkId": 751230,
   "explorers": [
