@@ -1,0 +1,23 @@
+{
+  "name": "Atoshi Testnet",
+  "chain": "ATOSHI",
+  "icon": "atoshi",
+  "rpc": ["https://node.atoshi.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ATOSHI",
+    "symbol": "ATOS",
+    "decimals": 18
+  },
+  "infoURL": "https://atoshi.org",
+  "shortName": "atoshi",
+  "chainId": 167,
+  "networkId": 167,
+  "explorers": [
+    {
+      "name": "atoshiscan",
+      "url": "https://scan.atoverse.info",
+      "standard": "EIP3091"
+    }
+  ]
+}
