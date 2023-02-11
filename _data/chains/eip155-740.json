@@ -1,0 +1,22 @@
+{
+  "name": "Canto",
+  "chain": "Canto",
+  "rpc": ["https://eth.plexnode.wtf/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Canto",
+    "symbol": "CANTO",
+    "decimals": 18
+  },
+  "infoURL": "https://canto.io",
+  "shortName": "canto",
+  "chainId": 7400,
+  "networkId": 7400,
+  "explorers": [
+    {
+      "name": "Canto Tesnet Explorer (Neobase)",
+      "url": "http://testnet-explorer.canto.neobase.one",
+      "standard": "none"
+    }
+  ]
+}
