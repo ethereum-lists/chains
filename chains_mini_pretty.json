@@ -2885,6 +2885,19 @@
   "faucets": [],
   "infoURL": "https://fantasia.technology/"
 }, {
+  "name": "Bandai Namco Research Verse Mainnet",
+  "chainId": 876,
+  "shortName": "BNKEN",
+  "networkId": 876,
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.main.oasvrs.bnken.net"],
+  "faucets": [],
+  "infoURL": "https://www.bandainamco-mirai.com/en/"
+}, {
   "name": "Dexit Network",
   "chainId": 877,
   "shortName": "DXT",
