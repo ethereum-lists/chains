@@ -1,6 +1,6 @@
 {
   "name": "AirDAO Testnet",
-  "chain": "ambnet",
+  "chain": "ambnet-test",
   "icon": "airdao",
   "rpc": ["https://network.ambrosus-test.io"],
   "faucets": [],
@@ -10,7 +10,7 @@
     "decimals": 18
   },
   "infoURL": "https://testnet.airdao.io",
-  "shortName": "airdao",
+  "shortName": "airdao-test",
   "chainId": 22040,
   "networkId": 22040,
   "explorers": [
