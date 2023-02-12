@@ -2677,6 +2677,19 @@
   "faucets": [],
   "infoURL": "https://lycanchain.com"
 }, {
+  "name": "Canto Testnet",
+  "chainId": 740,
+  "shortName": "tcanto",
+  "networkId": 740,
+  "nativeCurrency": {
+    "name": "Canto",
+    "symbol": "CANTO",
+    "decimals": 18
+  },
+  "rpc": ["https://eth.plexnode.wtf/"],
+  "faucets": [],
+  "infoURL": "https://canto.io"
+}, {
   "name": "Vention Smart Chain Testnet",
   "chainId": 741,
   "shortName": "vsct",
