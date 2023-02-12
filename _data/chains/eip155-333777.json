@@ -1,12 +1,8 @@
 {
   "name": "Oone Chain Testnet",
   "chain": "OONE",
-  "rpc": [
-    "https://blockchain-test.adigium.world"
-  ],
-  "faucets": [
-    "https://apps-test.adigium.com/faucet"
-  ],
+  "rpc": ["https://blockchain-test.adigium.world"],
+  "faucets": ["https://apps-test.adigium.com/faucet"],
   "nativeCurrency": {
     "name": "Oone",
     "symbol": "tOONE",
@@ -19,7 +15,7 @@
   "explorers": [
     {
       "name": "expedition",
-      "url": "https://explorer-test.adigium.world/",
+      "url": "https://explorer-test.adigium.world",
       "standard": "none"
     }
   ]
