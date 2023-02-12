@@ -9557,6 +9557,26 @@
   "chainId": 16001,
   "networkId": 16001
 }, {
+  "name": "AirDAO Mainnet",
+  "chain": "ambnet",
+  "icon": "airdao",
+  "rpc": ["https://network.ambrosus.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Amber",
+    "symbol": "AMB",
+    "decimals": 18
+  },
+  "infoURL": "https://airdao.io",
+  "shortName": "airdao",
+  "chainId": 16718,
+  "networkId": 16718,
+  "explorers": [{
+    "name": "AirDAO Network Explorer",
+    "url": "https://airdao.io/explorer",
+    "standard": "none"
+  }]
+}, {
   "name": "IVAR Chain Testnet",
   "chain": "IVAR",
   "icon": "ivar",
@@ -9763,6 +9783,26 @@
     "url": "https://taycan-cosmoscan.hupayx.io",
     "standard": "none",
     "icon": "shuffle"
+  }]
+}, {
+  "name": "AirDAO Testnet",
+  "chain": "ambnet-test",
+  "icon": "airdao",
+  "rpc": ["https://network.ambrosus-test.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Amber",
+    "symbol": "AMB",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet.airdao.io",
+  "shortName": "airdao-test",
+  "chainId": 22040,
+  "networkId": 22040,
+  "explorers": [{
+    "name": "AirDAO Network Explorer",
+    "url": "https://testnet.airdao.io/explorer",
+    "standard": "none"
   }]
 }, {
   "name": "MAP Mainnet",
