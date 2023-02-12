@@ -11689,6 +11689,48 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "VeChain",
+  "chain": "VeChain",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "VeChain",
+    "symbol": "VET",
+    "decimals": 18
+  },
+  "infoURL": "https://vechain.org",
+  "shortName": "vechain",
+  "chainId": 100009,
+  "networkId": 100009,
+  "explorers": [{
+    "name": "VeChain Stats",
+    "url": "https://vechainstats.com",
+    "standard": "none"
+  }, {
+    "name": "VeChain Explorer",
+    "url": "https://explore.vechain.org",
+    "standard": "none"
+  }]
+}, {
+  "name": "VeChain Testnet",
+  "chain": "VeChain",
+  "rpc": [],
+  "faucets": ["https://faucet.vecha.in"],
+  "nativeCurrency": {
+    "name": "VeChain",
+    "symbol": "VET",
+    "decimals": 18
+  },
+  "infoURL": "https://vechain.org",
+  "shortName": "vechain-testnet",
+  "chainId": 100010,
+  "networkId": 100010,
+  "explorers": [{
+    "name": "VeChain Explorer",
+    "url": "https://explore-testnet.vechain.org",
+    "standard": "none"
+  }]
+}, {
   "name": "Deprecated Chiado Testnet",
   "chain": "CHI1",
   "icon": "gnosis",

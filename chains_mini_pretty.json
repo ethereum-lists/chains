@@ -7890,6 +7890,32 @@
   "faucets": [],
   "infoURL": "https://www.quarkchain.io"
 }, {
+  "name": "VeChain",
+  "chainId": 100009,
+  "shortName": "vechain",
+  "networkId": 100009,
+  "nativeCurrency": {
+    "name": "VeChain",
+    "symbol": "VET",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://vechain.org"
+}, {
+  "name": "VeChain Testnet",
+  "chainId": 100010,
+  "shortName": "vechain-testnet",
+  "networkId": 100010,
+  "nativeCurrency": {
+    "name": "VeChain",
+    "symbol": "VET",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": ["https://faucet.vecha.in"],
+  "infoURL": "https://vechain.org"
+}, {
   "name": "Deprecated Chiado Testnet",
   "chainId": 100100,
   "shortName": "chi1",
