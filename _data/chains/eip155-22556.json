@@ -1,0 +1,22 @@
+{
+  "name": "DogeWow",
+  "chainId": 22556,
+  "networkId": 22556,
+  "shortName": "dogew",
+  "chain": "DOGEW",
+  "nativeCurrency": {
+    "name": "DogeWow",
+    "symbol": "DOGEW",
+    "decimals": 18
+  },
+  "rpc": [""],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "DogeWow",
+      "url": "",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": ""
+}
