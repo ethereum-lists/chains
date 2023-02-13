@@ -19,10 +19,12 @@
   "chainId": 4999,
   "networkId": 4999,
   "icon": "bxn",
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://explorer.blackfort.network",
-    "icon": "blockscout",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.blackfort.network",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
 }

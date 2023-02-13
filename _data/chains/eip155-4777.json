@@ -1,9 +1,7 @@
 {
   "name": "BlackFort Exchange Network Testnet",
   "chain": "TBXN",
-  "rpc": [
-    "https://testnet.blackfort.network/rpc"
-  ],
+  "rpc": ["https://testnet.blackfort.network/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BlackFort Testnet Token",
@@ -16,10 +14,12 @@
   "chainId": 4777,
   "networkId": 4777,
   "icon": "bxn",
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://testnet-explorer.blackfort.network",
-    "icon": "blockscout",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://testnet-explorer.blackfort.network",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
 }
