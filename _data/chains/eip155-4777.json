@@ -1,0 +1,25 @@
+{
+  "name": "BlackFort Exchange Network Testnet",
+  "chain": "TBXN",
+  "rpc": ["https://testnet.blackfort.network/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BlackFort Testnet Token",
+    "symbol": "TBXN",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://blackfort.exchange",
+  "shortName": "TBXN",
+  "chainId": 4777,
+  "networkId": 4777,
+  "icon": "bxn",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://testnet-explorer.blackfort.network",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
