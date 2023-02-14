@@ -3860,6 +3860,32 @@
   "faucets": [],
   "infoURL": "https://geth.ethereum.org"
 }, {
+  "name": "Elysium Testnet",
+  "chainId": 1338,
+  "shortName": "ELST",
+  "networkId": 1338,
+  "nativeCurrency": {
+    "name": "LAVA",
+    "symbol": "LAVA",
+    "decimals": 18
+  },
+  "rpc": ["https://elysium-test-rpc.vulcanforged.com"],
+  "faucets": [],
+  "infoURL": "https://elysiumscan.vulcanforged.com"
+}, {
+  "name": "Elysium Mainnet",
+  "chainId": 1339,
+  "shortName": "ELSM",
+  "networkId": 1339,
+  "nativeCurrency": {
+    "name": "LAVA",
+    "symbol": "LAVA",
+    "decimals": 18
+  },
+  "rpc": ["https://elysium-rpc.vulcanforged.com"],
+  "faucets": [],
+  "infoURL": "https://elysiumscan.vulcanforged.com"
+}, {
   "name": "CIC Chain Mainnet",
   "chainId": 1353,
   "shortName": "CIC",
