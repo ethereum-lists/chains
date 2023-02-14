@@ -1722,25 +1722,6 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "NEXT Smart Chain",
-  "chain": "NSC",
-  "rpc": ["https://rpc.nextsmartchain.com"],
-  "faucets": ["https://faucet.nextsmartchain.com"],
-  "nativeCurrency": {
-    "name": "NEXT",
-    "symbol": "NEXT",
-    "decimals": 18
-  },
-  "infoURL": "https://www.nextsmartchain.com/",
-  "shortName": "nsc",
-  "chainId": 96,
-  "networkId": 96,
-  "explorers": [{
-    "name": "Next Smart Chain Explorer",
-    "url": "https://explorer.nextsmartchain.com",
-    "standard": "none"
-  }]
-}, {
   "name": "Binance Smart Chain Testnet",
   "chain": "BSC",
   "rpc": ["https://data-seed-prebsc-1-s1.binance.org:8545", "https://data-seed-prebsc-2-s1.binance.org:8545", "https://data-seed-prebsc-1-s2.binance.org:8545", "https://data-seed-prebsc-2-s2.binance.org:8545", "https://data-seed-prebsc-1-s3.binance.org:8545", "https://data-seed-prebsc-2-s3.binance.org:8545"],
