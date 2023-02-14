@@ -7619,6 +7619,32 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "BlackFort Exchange Network Testnet",
+  "chain": "TBXN",
+  "rpc": ["https://testnet.blackfort.network/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BlackFort Testnet Token",
+    "symbol": "TBXN",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://blackfort.exchange",
+  "shortName": "TBXN",
+  "chainId": 4777,
+  "networkId": 4777,
+  "icon": "bxn",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://testnet-explorer.blackfort.network",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Venidium Testnet",
   "chain": "XVM",
   "rpc": ["https://rpc-evm-testnet.venidium.io"],
@@ -7655,6 +7681,32 @@
   "explorers": [{
     "name": "Venidium Explorer",
     "url": "https://evm.venidiumexplorer.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "BlackFort Exchange Network",
+  "chain": "BXN",
+  "rpc": ["https://mainnet.blackfort.network/rpc", "https://mainnet-1.blackfort.network/rpc", "https://mainnet-2.blackfort.network/rpc", "https://mainnet-3.blackfort.network/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BlackFort Token",
+    "symbol": "BXN",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://blackfort.exchange",
+  "shortName": "BXN",
+  "chainId": 4999,
+  "networkId": 4999,
+  "icon": "bxn",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.blackfort.network",
+    "icon": "blockscout",
     "standard": "EIP3091"
   }]
 }, {

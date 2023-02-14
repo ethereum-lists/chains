@@ -5225,6 +5225,19 @@
   "faucets": ["https://faucet.iotex.io/"],
   "infoURL": "https://iotex.io"
 }, {
+  "name": "BlackFort Exchange Network Testnet",
+  "chainId": 4777,
+  "shortName": "TBXN",
+  "networkId": 4777,
+  "nativeCurrency": {
+    "name": "BlackFort Testnet Token",
+    "symbol": "TBXN",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.blackfort.network/rpc"],
+  "faucets": [],
+  "infoURL": "https://blackfort.exchange"
+}, {
   "name": "Venidium Testnet",
   "chainId": 4918,
   "shortName": "txvm",
@@ -5250,6 +5263,19 @@
   "rpc": ["https://rpc.venidium.io"],
   "faucets": [],
   "infoURL": "https://venidium.io"
+}, {
+  "name": "BlackFort Exchange Network",
+  "chainId": 4999,
+  "shortName": "BXN",
+  "networkId": 4999,
+  "nativeCurrency": {
+    "name": "BlackFort Token",
+    "symbol": "BXN",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.blackfort.network/rpc", "https://mainnet-1.blackfort.network/rpc", "https://mainnet-2.blackfort.network/rpc", "https://mainnet-3.blackfort.network/rpc"],
+  "faucets": [],
+  "infoURL": "https://blackfort.exchange"
 }, {
   "name": "Mantle",
   "chainId": 5000,
