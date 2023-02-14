@@ -1,5 +1,5 @@
 {
-  "name": "Elysium",
+  "name": "Elysium Mainnet",
   "title": "An L1, carbon-neutral, tree-planting, metaverse dedicated blockchain created by VulcanForged",
   "chain": "Elysium",
   "rpc": ["https://elysium-rpc.vulcanforged.com"],
@@ -10,7 +10,7 @@
     "decimals": 18
   },
   "infoURL": "https://elysiumscan.vulcanforged.com",
-  "shortName": "ELS",
+  "shortName": "ELSM",
   "chainId": 1339,
   "networkId": 1339,
   "explorers": [
@@ -19,5 +19,5 @@
       "url": "https://explorer.elysiumchain.tech",
       "standard": "none"
     }
-    ]
+  ]
 }
