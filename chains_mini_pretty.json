@@ -8371,6 +8371,19 @@
   "faucets": ["https://faucet.calibration.fildev.network/"],
   "infoURL": "https://filecoin.io"
 }, {
+  "name": "Oone Chain Testnet",
+  "chainId": 333777,
+  "shortName": "oonetest",
+  "networkId": 333777,
+  "nativeCurrency": {
+    "name": "Oone",
+    "symbol": "tOONE",
+    "decimals": 18
+  },
+  "rpc": ["https://blockchain-test.adigium.world"],
+  "faucets": ["https://apps-test.adigium.com/faucet"],
+  "infoURL": "https://oone.world"
+}, {
   "name": "Polis Testnet",
   "chainId": 333888,
   "shortName": "sparta",
