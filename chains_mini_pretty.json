@@ -1429,6 +1429,19 @@
   "faucets": ["http://faucet.nuls.io"],
   "infoURL": "https://nuls.io"
 }, {
+  "name": "Realchain Mainnet",
+  "chainId": 121,
+  "shortName": "REAL",
+  "networkId": 121,
+  "nativeCurrency": {
+    "name": "Realchain",
+    "symbol": "REAL",
+    "decimals": 18
+  },
+  "rpc": ["https://rcl-dataseed1.rclsidechain.com", "https://rcl-dataseed2.rclsidechain.com", "https://rcl-dataseed3.rclsidechain.com", "https://rcl-dataseed4.rclsidechain.com", "wss://rcl-dataseed1.rclsidechain.com/v1/", "wss://rcl-dataseed2.rclsidechain.com/v1/", "wss://rcl-dataseed3.rclsidechain.com/v1/", "wss://rcl-dataseed4.rclsidechain.com/v1/"],
+  "faucets": ["https://faucet.rclsidechain.com"],
+  "infoURL": "https://www.rclsidechain.com/"
+}, {
   "name": "Fuse Mainnet",
   "chainId": 122,
   "shortName": "fuse",
