@@ -22,8 +22,8 @@
     }
   ],
   "parent": {
-    "type" : "L2",
+    "type": "L2",
     "chain": "eip155-1",
-    "bridges": [ {"url":"https://goerli.portal.zksync.io/bridge"} ]
-   }
+    "bridges": [{ "url": "https://goerli.portal.zksync.io/bridge" }]
+  }
 }
