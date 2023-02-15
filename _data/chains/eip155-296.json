@@ -1,0 +1,46 @@
+{
+  "name": "Hedera Testnet",
+  "chain": "Hedera",
+  "icon": "hedera",
+  "rpc": ["https://testnet.hashio.io/api"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": ["https://portal.hedera.com"],
+  "nativeCurrency": {
+    "name": "hbar",
+    "symbol": "HBAR",
+    "decimals": 8
+  },
+  "infoURL": "https://hedera.com",
+  "shortName": "Hedera",
+  "chainId": 296,
+  "networkId": 296,
+  "slip44": 3030,
+  "ens": {},
+  "explorers": [
+    {
+      "name": "HashScan",
+      "url": "https://hashscan.io/testnet",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Arkhia Explorer",
+      "url": "https://explorer.arkhia.io",
+      "standard": ""
+    },
+    {
+      "name": "DragonGlass",
+      "url": "https://app.dragonglass.me",
+      "standard": ""
+    },
+    {
+      "name": "Hedera Explorer",
+      "url": "https://hederaexplorer.io",
+      "standard": ""
+    },
+    {
+      "name": "Ledger Works Explore",
+      "url": "https://explore.lworks.io",
+      "standard": ""
+    }
+  ]
+}
