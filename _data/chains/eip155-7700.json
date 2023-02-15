@@ -1,7 +1,11 @@
 {
   "name": "Canto",
   "chain": "Canto",
-  "rpc": ["https://canto.slingshot.finance"],
+  "rpc": [
+    "https://canto.slingshot.finance",
+    "https://canto.neobase.one",
+    "https://mainnode.plexnode.org:8545"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Canto",
