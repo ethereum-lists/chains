@@ -5632,7 +5632,7 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Polygon zkEVM Testnet",
+  "name": "Polygon zkEVM Testnet old",
   "title": "Polygon zkEVM Testnet",
   "chain": "Polygon",
   "rpc": [],
@@ -5648,6 +5648,27 @@
   "networkId": 1402,
   "explorers": [{
     "name": "blockscout",
+    "url": "https://explorer.public.zkevm-test.net",
+    "standard": "EIP3091"
+  }],
+  "status": "deprecated"
+}, {
+  "name": "Polygon zkEVM Testnet",
+  "title": "Polygon zkEVM Testnet",
+  "chain": "Polygon",
+  "rpc": ["https://rpc.public.zkevm-test.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://polygon.technology/solutions/polygon-zkevm/",
+  "shortName": "testnet-zkEVM-mango",
+  "chainId": 1422,
+  "networkId": 1422,
+  "explorers": [{
+    "name": "Polygon zkEVM explorer",
     "url": "https://explorer.public.zkevm-test.net",
     "standard": "EIP3091"
   }]

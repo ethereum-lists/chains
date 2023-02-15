@@ -3912,7 +3912,7 @@
   "faucets": [],
   "infoURL": "https://sinso.io"
 }, {
-  "name": "Polygon zkEVM Testnet",
+  "name": "Polygon zkEVM Testnet old",
   "chainId": 1402,
   "shortName": "zkevmtest",
   "networkId": 1402,
@@ -3922,6 +3922,19 @@
     "decimals": 18
   },
   "rpc": [],
+  "faucets": [],
+  "infoURL": "https://polygon.technology/solutions/polygon-zkevm/"
+}, {
+  "name": "Polygon zkEVM Testnet",
+  "chainId": 1422,
+  "shortName": "testnet-zkEVM-mango",
+  "networkId": 1422,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.public.zkevm-test.net"],
   "faucets": [],
   "infoURL": "https://polygon.technology/solutions/polygon-zkevm/"
 }, {
