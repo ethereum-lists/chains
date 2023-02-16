@@ -94,7 +94,7 @@ There are also aggregated json files with all chains automatically assembled:
 
 ## PR verification
 
-Before submitting a PR, please verify you can successfully build the project with:
+Before submitting a PR, please verify that checks pass with:
 
 ```bash
 $ ./gradlew run
