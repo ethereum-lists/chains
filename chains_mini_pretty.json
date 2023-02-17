@@ -2014,6 +2014,58 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "Hedera Mainnet",
+  "chainId": 295,
+  "shortName": "hedera-mainnet",
+  "networkId": 295,
+  "nativeCurrency": {
+    "name": "hbar",
+    "symbol": "HBAR",
+    "decimals": 8
+  },
+  "rpc": ["https://mainnet.hashio.io/api"],
+  "faucets": [],
+  "infoURL": "https://hedera.com"
+}, {
+  "name": "Hedera Testnet",
+  "chainId": 296,
+  "shortName": "hedera-testnet",
+  "networkId": 296,
+  "nativeCurrency": {
+    "name": "hbar",
+    "symbol": "HBAR",
+    "decimals": 8
+  },
+  "rpc": ["https://testnet.hashio.io/api"],
+  "faucets": ["https://portal.hedera.com"],
+  "infoURL": "https://hedera.com"
+}, {
+  "name": "Hedera Previewnet",
+  "chainId": 297,
+  "shortName": "hedera-previewnet",
+  "networkId": 297,
+  "nativeCurrency": {
+    "name": "hbar",
+    "symbol": "HBAR",
+    "decimals": 8
+  },
+  "rpc": ["https://previewnet.hashio.io/api"],
+  "faucets": ["https://portal.hedera.com"],
+  "infoURL": "https://hedera.com"
+}, {
+  "name": "Hedera Localnet",
+  "chainId": 298,
+  "shortName": "hedera-localnet",
+  "networkId": 298,
+  "nativeCurrency": {
+    "name": "hbar",
+    "symbol": "HBAR",
+    "decimals": 8
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://hedera.com"
+}, {
   "name": "Optimism on Gnosis",
   "chainId": 300,
   "shortName": "ogc",
