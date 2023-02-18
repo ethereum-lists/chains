@@ -3,7 +3,7 @@
   "chain": "BRNKCTEST",
   "icon": "brnkc",
   "rpc": ["https://brnkc-test.bearnetwork.net"],
-  "faucets": [],
+  "faucets": ["https://faucet.bearnetwork.net"],
   "nativeCurrency": {
     "name": "Bear Network Chain Testnet Token",
     "symbol": "tBRNKC",
