@@ -5966,6 +5966,19 @@
   "faucets": ["https://faucet.tmychain.org/"],
   "infoURL": "https://tmychain.org/"
 }, {
+  "name": "MARO Blockchain Mainnet",
+  "chainId": 8848,
+  "shortName": "maro",
+  "networkId": 8848,
+  "nativeCurrency": {
+    "name": "MARO",
+    "symbol": "MARO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet.ma.ro"],
+  "faucets": [],
+  "infoURL": "https://ma.ro/"
+}, {
   "name": "Unique",
   "chainId": 8880,
   "shortName": "unq",
