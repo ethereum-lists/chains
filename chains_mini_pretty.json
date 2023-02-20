@@ -6551,6 +6551,19 @@
   "faucets": ["https://zeroscan.singularity.gold"],
   "infoURL": "https://www.singularity.gold"
 }, {
+  "name": "BLG Testnet",
+  "chainId": 12321,
+  "shortName": "blgchain",
+  "networkId": 12321,
+  "nativeCurrency": {
+    "name": "Blg",
+    "symbol": "BLG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.blgchain.com"],
+  "faucets": ["https://faucet.blgchain.com"],
+  "infoURL": "https://blgchain.com"
+}, {
   "name": "Step Testnet",
   "chainId": 12345,
   "shortName": "steptest",

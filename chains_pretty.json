@@ -9698,6 +9698,21 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "BLG Testnet",
+  "chain": "BLG",
+  "icon": "blg",
+  "rpc": ["https://rpc.blgchain.com"],
+  "faucets": ["https://faucet.blgchain.com"],
+  "nativeCurrency": {
+    "name": "Blg",
+    "symbol": "BLG",
+    "decimals": 18
+  },
+  "infoURL": "https://blgchain.com",
+  "shortName": "blgchain",
+  "chainId": 12321,
+  "networkId": 12321
+}, {
   "name": "Step Testnet",
   "title": "Step Test Network",
   "chain": "STEP",
