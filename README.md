@@ -91,7 +91,18 @@ There are also aggregated json files with all chains automatically assembled:
  The first pull request gets the chainID assigned. When creating a chain we can expect that you read EIP155 which states this repo.
  All pull request trying to replace a chainID because they think their chain is better than the other will be closed.
  The only way to get a chain reassigned is when the old chain gets deprecated. This can e.g. be used for testnets that are short lived. But then you will get the redFlag "reusedChaiID" that should be displayed in clients to warn them about the dangers here.
- 
+
+## PR verification
+
+Before submitting a PR, please verify that checks pass with:
+
+```bash
+$ ./gradlew run
+
+BUILD SUCCESSFUL in 7s
+9 actionable tasks: 9 executed
+```
+
 ## Usages
 ### Wallets
  * [WallETH](https://walleth.org)
