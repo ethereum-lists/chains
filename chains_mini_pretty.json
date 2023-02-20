@@ -2625,6 +2625,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Graphlinq Blockchain Mainnet",
+  "chainId": 614,
+  "shortName": "glq",
+  "networkId": 614,
+  "nativeCurrency": {
+    "name": "GLQ",
+    "symbol": "GLQ",
+    "decimals": 18
+  },
+  "rpc": ["https://glq-dataseed.graphlinq.io"],
+  "faucets": [],
+  "infoURL": "https://graphlinq.io"
+}, {
   "name": "SX Network Testnet",
   "chainId": 647,
   "shortName": "SX-Testnet",
