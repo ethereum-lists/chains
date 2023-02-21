@@ -1195,6 +1195,19 @@
   "faucets": [],
   "infoURL": "https://www.cryptokylin.io/"
 }, {
+  "name": "Bitkub Chain",
+  "chainId": 96,
+  "shortName": "bkc",
+  "networkId": 96,
+  "nativeCurrency": {
+    "name": "Bitkub Coin",
+    "symbol": "KUB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.bitkubchain.io", "wss://wss.bitkubchain.io"],
+  "faucets": [],
+  "infoURL": "https://www.bitkubchain.com/"
+}, {
   "name": "Binance Smart Chain Testnet",
   "chainId": 97,
   "shortName": "bnbt",
