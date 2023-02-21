@@ -1,0 +1,23 @@
+{
+  "name": "Hika Testnet",
+  "chain": "HIK",
+  "icon": "hikatestnet",
+  "rpc": ["https://testnet.rpc.hika.network"],
+  "faucets": ["https://faucet.hika.network"],
+  "nativeCurrency": {
+    "name": "Hika Network",
+    "symbol": "HIK",
+    "decimals": 18
+  },
+  "infoURL": "https://hika.network",
+  "shortName": "hik",
+  "chainId": 5729,
+  "networkId": 5729,
+  "explorers": [
+    {
+      "name": "hikatestnet",
+      "url": "https://scan-testnet.hika.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
