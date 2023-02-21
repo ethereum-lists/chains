@@ -82,7 +82,12 @@ private fun createOutputFiles() {
         .forEach { iconLocation ->
 
             val jsonData = Klaxon().parseJsonArray(iconLocation.reader())
-            val iconName = iconLocation.toString().replace("../_data/icons/", "").replace(".json", "")
+
+            if (iconLocation.extension != "json") {
+                error("Icon must be json " + iconLocation)
+            }
+
+            val iconName = iconLocation.toString().removePrefix("../_data/icons/").removeSuffix(".json")
 
             val iconJson = JsonObject()
             iconJson["name"] = iconName
