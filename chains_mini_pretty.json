@@ -1416,6 +1416,19 @@
   "faucets": [],
   "infoURL": "https://debank.com"
 }, {
+  "name": "Arcology Testnet",
+  "chainId": 118,
+  "shortName": "arcology",
+  "networkId": 118,
+  "nativeCurrency": {
+    "name": "Arcology Coin",
+    "symbol": "Acol",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.arcology.network/rpc"],
+  "faucets": [],
+  "infoURL": "https://arcology.network/"
+}, {
   "name": "ENULS Mainnet",
   "chainId": 119,
   "shortName": "enuls",
