@@ -5537,6 +5537,19 @@
   "faucets": ["https://faucet.tanenbaum.io"],
   "infoURL": "https://syscoin.org"
 }, {
+  "name": "Hika Devnet",
+  "chainId": 5729,
+  "shortName": "hik",
+  "networkId": 5729,
+  "nativeCurrency": {
+    "name": "Hik Token",
+    "symbol": "HIK",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.hika.network/"],
+  "faucets": [],
+  "infoURL": "https://hika.network/"
+}, {
   "name": "Ganache",
   "chainId": 5777,
   "shortName": "ggui",
