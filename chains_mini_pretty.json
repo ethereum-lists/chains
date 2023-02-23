@@ -4276,6 +4276,32 @@
   "faucets": [],
   "infoURL": "https://boyanet.org"
 }, {
+  "name": "Bitcichain Mainnet",
+  "chainId": 1907,
+  "shortName": "bitci",
+  "networkId": 1907,
+  "nativeCurrency": {
+    "name": "Bitci",
+    "symbol": "BITCI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.bitci.com"],
+  "faucets": [],
+  "infoURL": "https://www.bitcichain.com"
+}, {
+  "name": "Bitcichain Testnet",
+  "chainId": 1908,
+  "shortName": "tbitci",
+  "networkId": 1908,
+  "nativeCurrency": {
+    "name": "Test Bitci",
+    "symbol": "TBITCI",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.bitcichain.com"],
+  "faucets": ["https://faucet.bitcichain.com"],
+  "infoURL": "https://www.bitcichain.com"
+}, {
   "name": "ONUS Chain Testnet",
   "chainId": 1945,
   "shortName": "onus-testnet",

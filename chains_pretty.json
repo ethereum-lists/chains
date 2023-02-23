@@ -6222,6 +6222,46 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Bitcichain Mainnet",
+  "chain": "BITCI",
+  "icon": "bitci",
+  "rpc": ["https://rpc.bitci.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bitci",
+    "symbol": "BITCI",
+    "decimals": 18
+  },
+  "infoURL": "https://www.bitcichain.com",
+  "shortName": "bitci",
+  "chainId": 1907,
+  "networkId": 1907,
+  "explorers": [{
+    "name": "Bitci Explorer",
+    "url": "https://bitciexplorer.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Bitcichain Testnet",
+  "chain": "TBITCI",
+  "icon": "bitci",
+  "rpc": ["https://testnet.bitcichain.com"],
+  "faucets": ["https://faucet.bitcichain.com"],
+  "nativeCurrency": {
+    "name": "Test Bitci",
+    "symbol": "TBITCI",
+    "decimals": 18
+  },
+  "infoURL": "https://www.bitcichain.com",
+  "shortName": "tbitci",
+  "chainId": 1908,
+  "networkId": 1908,
+  "explorers": [{
+    "name": "Bitci Explorer Testnet",
+    "url": "https://testnet.bitciexplorer.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "ONUS Chain Testnet",
   "title": "ONUS Chain Testnet",
   "chain": "onus",
