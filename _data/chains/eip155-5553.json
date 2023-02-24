@@ -1,10 +1,7 @@
 {
   "name": "Nahmii Testnet",
   "chain": "Nahmii",
-  "network": "testnet",
-  "rpc": [
-    "https://l2.testnet.nahmii.io"
-  ],
+  "rpc": ["https://l2.testnet.nahmii.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -12,21 +9,25 @@
     "decimals": 18
   },
   "infoURL": "https://nahmii.io",
-  "shortName": "Nahmii testnet",
+  "shortName": "NahmiiTestnet",
   "chainId": 5553,
   "networkId": 5553,
   "icon": "nahmii",
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://explorer.testnet.nahmii.io",
-    "icon": "nahmii",
-    "standard": "EIP3091"
-  }],
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.testnet.nahmii.io",
+      "icon": "nahmii",
+      "standard": "EIP3091"
+    }
+  ],
   "parent": {
-    "type" : "L2",
+    "type": "L2",
     "chain": "eip155-3",
-    "bridges": [{
-      "url":"https://bridge.nahmii.io"
-    }]
+    "bridges": [
+      {
+        "url": "https://bridge.nahmii.io"
+      }
+    ]
   }
 }

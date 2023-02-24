@@ -1,9 +1,7 @@
 {
   "name": "Newton",
   "chain": "NEW",
-  "rpc": [
-    "https://global.rpc.mainnet.newtonproject.org"
-  ],
+  "rpc": ["https://global.rpc.mainnet.newtonproject.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Newton",

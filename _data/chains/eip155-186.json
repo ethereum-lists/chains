@@ -1,9 +1,7 @@
 {
   "name": "Seele Mainnet",
   "chain": "Seele",
-  "rpc": [
-    "https://rpc.seelen.pro/"
-  ],
+  "rpc": ["https://rpc.seelen.pro/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Seele",
@@ -14,9 +12,11 @@
   "shortName": "Seele",
   "chainId": 186,
   "networkId": 186,
-  "explorers": [{
-    "name": "seeleview",
-    "url": "https://seeleview.net",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "seeleview",
+      "url": "https://seeleview.net",
+      "standard": "none"
+    }
+  ]
 }

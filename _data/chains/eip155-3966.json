@@ -1,12 +1,8 @@
 {
   "name": "DYNO Mainnet",
   "chain": "DYNO",
-  "rpc": [
-    "https://api.dynoprotocol.com"
-  ],
-    "faucets": [
-      "https://faucet.dynoscan.io"
-    ],
+  "rpc": ["https://api.dynoprotocol.com"],
+  "faucets": ["https://faucet.dynoscan.io"],
   "nativeCurrency": {
     "name": "DYNO Token",
     "symbol": "DYNO",
@@ -16,9 +12,11 @@
   "shortName": "dyno",
   "chainId": 3966,
   "networkId": 3966,
-  "explorers": [{
-    "name": "DYNO Explorer",
-    "url": "https://dynoscan.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "DYNO Explorer",
+      "url": "https://dynoscan.io",
+      "standard": "EIP3091"
+    }
+  ]
 }

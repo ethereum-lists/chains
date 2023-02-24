@@ -1,0 +1,24 @@
+{
+  "name": "Ennothem Mainnet Proterozoic",
+  "chain": "ETMP",
+  "rpc": ["https://rpc.etm.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ennothem",
+    "symbol": "ETMP",
+    "decimals": 18
+  },
+  "infoURL": "https://etm.network",
+  "shortName": "etmp",
+  "chainId": 48,
+  "networkId": 48,
+  "icon": "etmp",
+  "explorers": [
+    {
+      "name": "etmpscan",
+      "url": "https://etmscan.network",
+      "icon": "etmp",
+      "standard": "EIP3091"
+    }
+  ]
+}

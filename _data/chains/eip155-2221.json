@@ -1,7 +1,6 @@
 {
   "name": "Kava EVM Testnet",
   "chain": "KAVA",
-  "network": "testnet",
   "rpc": ["https://evm.testnet.kava.io", "wss://wevm.testnet.kava.io"],
   "faucets": ["https://faucet.kava.io"],
   "nativeCurrency": {

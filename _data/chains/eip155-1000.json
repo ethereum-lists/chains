@@ -1,9 +1,7 @@
 {
   "name": "GTON Mainnet",
   "chain": "GTON",
-  "rpc": [
-    "https://rpc.gton.network/"
-  ],
+  "rpc": ["https://rpc.gton.network/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "GCD",
@@ -16,9 +14,9 @@
   "networkId": 1000,
   "explorers": [
     {
-        "name": "GTON Network Explorer",
-        "url": "https://explorer.gton.network",
-        "standard": "EIP3091"
+      "name": "GTON Network Explorer",
+      "url": "https://explorer.gton.network",
+      "standard": "EIP3091"
     }
   ],
   "parent": {

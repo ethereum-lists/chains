@@ -1,9 +1,7 @@
 {
   "name": "EtherInc",
   "chain": "ETI",
-  "rpc": [
-    "https://api.einc.io/jsonrpc/mainnet"
-  ],
+  "rpc": ["https://api.einc.io/jsonrpc/mainnet"],
   "faucets": [],
   "nativeCurrency": {
     "name": "EtherInc Ether",

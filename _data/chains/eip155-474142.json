@@ -1,9 +1,7 @@
 {
   "name": "OpenChain Mainnet",
   "chain": "OpenChain",
-  "rpc": [
-	"https://baas-rpc.luniverse.io:18545?lChainId=1641349324562974539"
-  ],
+  "rpc": ["https://baas-rpc.luniverse.io:18545?lChainId=1641349324562974539"],
   "faucets": [],
   "nativeCurrency": {
     "name": "OpenCoin",
@@ -14,9 +12,11 @@
   "shortName": "oc",
   "chainId": 474142,
   "networkId": 474142,
-  "explorers": [{
-    "name": "SIDE SCAN",
-    "url": "https://sidescan.luniverse.io/1641349324562974539",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "SIDE SCAN",
+      "url": "https://sidescan.luniverse.io/1641349324562974539",
+      "standard": "none"
+    }
+  ]
 }

@@ -1,12 +1,8 @@
 {
   "name": "EZChain C-Chain Testnet",
   "chain": "EZC",
-  "rpc": [
-    "https://testnet-api.ezchain.com/ext/bc/C/rpc"
-  ],
-  "faucets": [
-    "https://testnet-faucet.ezchain.com"
-  ],
+  "rpc": ["https://testnet-api.ezchain.com/ext/bc/C/rpc"],
+  "faucets": ["https://testnet-faucet.ezchain.com"],
   "nativeCurrency": {
     "name": "EZChain",
     "symbol": "EZC",

@@ -1,15 +1,24 @@
 {
-    "name": "420coin",
-    "chain": "420",
-    "rpc": [],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "Fourtwenty",
-      "symbol": "420",
-      "decimals": 18
-    },
-    "infoURL": "https://420integrated.com",
-    "shortName": "420",
-    "chainId": 2020,
-    "networkId": 2020
+  "name": "PublicMint Mainnet",
+  "title": "Public Mint Mainnet",
+  "chain": "PublicMint",
+  "rpc": ["https://rpc.publicmint.io:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USD",
+    "symbol": "USD",
+    "decimals": 18
+  },
+  "infoURL": "https://publicmint.com",
+  "shortName": "pmint",
+  "chainId": 2020,
+  "networkId": 2020,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "PublicMint Explorer",
+      "url": "https://explorer.publicmint.io",
+      "standard": "EIP3091"
+    }
+  ]
 }

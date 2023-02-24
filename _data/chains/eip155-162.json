@@ -1,12 +1,8 @@
 {
   "name": "Lightstreams Testnet",
   "chain": "PHT",
-  "rpc": [
-    "https://node.sirius.lightstreams.io"
-  ],
-  "faucets": [
-    "https://discuss.lightstreams.network/t/request-test-tokens"
-  ],
+  "rpc": ["https://node.sirius.lightstreams.io"],
+  "faucets": ["https://discuss.lightstreams.network/t/request-test-tokens"],
   "nativeCurrency": {
     "name": "Lightstreams PHT",
     "symbol": "PHT",

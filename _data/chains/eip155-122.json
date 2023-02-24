@@ -1,9 +1,7 @@
 {
   "name": "Fuse Mainnet",
   "chain": "FUSE",
-  "rpc": [
-    "https://rpc.fuse.io"
-  ],
+  "rpc": ["https://rpc.fuse.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Fuse",

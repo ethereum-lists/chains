@@ -1,9 +1,7 @@
 {
   "name": "Gather Mainnet Network",
   "chain": "GTH",
-  "rpc": [
-    "https://mainnet.gather.network"
-  ],
+  "rpc": ["https://mainnet.gather.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Gather",
@@ -14,9 +12,11 @@
   "shortName": "GTH",
   "chainId": 192837465,
   "networkId": 192837465,
-  "explorers": [{
-    "name": "Blockscout",
-    "url": "https://explorer.gather.network",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://explorer.gather.network",
+      "standard": "none"
+    }
+  ]
 }

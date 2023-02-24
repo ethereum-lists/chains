@@ -5,9 +5,7 @@
     "https://http-testnet.chain.pixie.xyz",
     "wss://ws-testnet.chain.pixie.xyz"
   ],
-  "faucets": [
-    "https://chain.pixie.xyz/faucet"
-  ],
+  "faucets": ["https://chain.pixie.xyz/faucet"],
   "nativeCurrency": {
     "name": "Pixie Chain Testnet Native Token",
     "symbol": "PCTT",

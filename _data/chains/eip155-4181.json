@@ -1,11 +1,7 @@
 {
   "name": "PHI Network V1",
   "chain": "PHI V1",
-  "network": "mainnet",
-  "rpc": [
-    "https://rpc1.phi.network",
-    "https://rpc2.phi.network"
-  ],
+  "rpc": ["https://rpc1.phi.network", "https://rpc2.phi.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "PHI",
@@ -17,10 +13,12 @@
   "chainId": 4181,
   "networkId": 4181,
   "icon": "phi",
-  "explorers": [{
-    "name": "PHI Explorer",
-    "url": "https://explorer.phi.network",
-    "icon": "phi",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "PHI Explorer",
+      "url": "https://explorer.phi.network",
+      "icon": "phi",
+      "standard": "none"
+    }
+  ]
 }

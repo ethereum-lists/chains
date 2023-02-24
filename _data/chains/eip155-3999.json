@@ -1,10 +1,7 @@
 {
   "name": "YuanChain Mainnet",
   "chain": "YCC",
-  "network": "mainnet",
-  "rpc": [
-    "https://mainnet.yuan.org/eth"
-  ],
+  "rpc": ["https://mainnet.yuan.org/eth"],
   "faucets": [],
   "nativeCurrency": {
     "name": "YCC",
@@ -16,9 +13,11 @@
   "chainId": 3999,
   "networkId": 3999,
   "icon": "ycc",
-  "explorers": [{
-    "name": "YuanChain Explorer",
-    "url": "https://mainnet.yuan.org",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "YuanChain Explorer",
+      "url": "https://mainnet.yuan.org",
+      "standard": "none"
+    }
+  ]
 }

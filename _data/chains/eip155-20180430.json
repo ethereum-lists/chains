@@ -1,9 +1,7 @@
 {
   "name": "SmartMesh Mainnet",
   "chain": "Spectrum",
-  "rpc": [
-    "https://jsonapi1.smartmesh.cn"
-  ],
+  "rpc": ["https://jsonapi1.smartmesh.cn"],
   "faucets": [],
   "nativeCurrency": {
     "name": "SmartMesh Native Token",
@@ -14,9 +12,11 @@
   "shortName": "spectrum",
   "chainId": 20180430,
   "networkId": 1,
-  "explorers": [{
-    "name": "spectrum",
-    "url": "https://spectrum.pub",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "spectrum",
+      "url": "https://spectrum.pub",
+      "standard": "none"
+    }
+  ]
 }
