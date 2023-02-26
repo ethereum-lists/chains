@@ -1,26 +1,28 @@
 {
+  "name": "KLYNTAR",
+  "chain": "KLY",
+  "rpc": [
+    "https://evm.klyntar.org/kly_evm_rpc",
+    "https://evm.klyntarscan.org/kly_evm_rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
     "name": "KLYNTAR",
-    "chain": "KLY",
-    "rpc": [
-      "https://evm.klyntar.org/kly_evm_rpc",
-      "https://evm.klyntarscan.org/kly_evm_rpc"
-    ],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "KLYNTAR",
-      "symbol": "KLY",
-      "decimals": 18
-    },
-    "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-    "infoURL": "https://klyntar.org",
-    "shortName": "kly",
-    "chainId":7331,
-    "networkId":7331,
-    "icon": "klyntar",
-    "explorers": [{
+    "symbol": "KLY",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://klyntar.org",
+  "shortName": "kly",
+  "chainId": 7331,
+  "networkId": 7331,
+  "icon": "klyntar",
+  "explorers": [
+    {
       "name": "klyntarscan",
       "url": "https://klyntarscan.org",
       "icon": "klyntarscan",
       "standard": "EIP3091"
-    }]
-  }
+    }
+  ]
+}
