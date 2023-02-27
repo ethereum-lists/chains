@@ -2,10 +2,7 @@
   "name": "Core Blockchain Mainnet",
   "chain": "Core",
   "icon": "core",
-  "rpc": [
-    "https://rpc.coredao.org/",
-    "https://rpc-core.icecreamswap.com"
-  ],
+  "rpc": ["https://rpc.coredao.org/", "https://rpc-core.icecreamswap.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Core Blockchain Native Token",
