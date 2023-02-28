@@ -1,0 +1,23 @@
+{
+  "name": "Gamverse Testnet",
+  "chain": "Gamverse",
+  "icon": "gamverse",
+  "rpc": ["https://rpc.testnet.gamverse.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "infoURL": "https://gamverse.net",
+  "shortName": "GAM",
+  "chainId": 28282,
+  "networkId": 28282,
+  "explorers": [
+    {
+      "name": "Gamverse Testnet Explorer",
+      "url": "https://testnet.explorer.gamverse.net",
+      "standard": "EIP3091"
+    }
+  ]
+}
