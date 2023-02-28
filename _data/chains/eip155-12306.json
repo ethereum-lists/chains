@@ -2,9 +2,7 @@
   "name": "Fibonacci Mainnet",
   "chain": "FIBO",
   "icon": "fibonacci",
-  "rpc": [
-    "https://node1.fibo-api.asia"
-  ],
+  "rpc": ["https://node1.fibo-api.asia"],
   "faucets": [],
   "nativeCurrency": {
     "name": "FIBONACCI UTILITY TOKEN",
