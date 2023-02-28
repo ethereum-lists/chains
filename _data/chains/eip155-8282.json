@@ -1,0 +1,27 @@
+{
+  "name": "Gamverse Mainnet",
+  "chain": "Gamverse",
+  "icon": "gamverse",
+  "rpc": ["https://rpc.mainnet.gamverse.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "infoURL": "https://gamverse.net",
+  "shortName": "GAM",
+  "chainId": 8282,
+  "networkId": 8282,
+  "explorers": [
+    {
+      "name": "Gamverse Explorer",
+      "url": "https://explorer.gamverse.net",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-248"
+  }
+}
