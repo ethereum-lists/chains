@@ -1,0 +1,25 @@
+{
+  "name": "EtherOne",
+  "chain": "mainnet",
+  "rpc": ["https://rpc003.etherone.one/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EtherOne",
+    "symbol": "ETHONE",
+    "decimals": 18
+  },
+  "infoURL": "https://altcoinchain.org",
+  "shortName": "alt",
+  "chainId": 4949
+  "networkId": 4949,
+  "icon": "etherone",
+  "status": "active",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockscout2.etherone.one/",
+      "icon": "etherone",
+      "standard": "none"
+    }
+  ]
+}
