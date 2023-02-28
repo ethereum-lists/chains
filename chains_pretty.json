@@ -7865,6 +7865,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Tipboxcoin Testnet",
+  "chain": "TPBX",
+  "icon": "tipboxcoinIcon",
+  "rpc": ["https://testnet-rpc.tipboxcoin.net"],
+  "faucets": ["https://faucet.tipboxcoin.net"],
+  "nativeCurrency": {
+    "name": "Tipboxcoin",
+    "symbol": "TPBX",
+    "decimals": 18
+  },
+  "infoURL": "https://tipboxcoin.net",
+  "shortName": "TPBXt",
+  "chainId": 4141,
+  "networkId": 4141,
+  "explorers": [{
+    "name": "Tipboxcoin",
+    "url": "https://testnet.tipboxcoin.net",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "PHI Network V1",
   "chain": "PHI V1",
   "rpc": ["https://rpc1.phi.network", "https://rpc2.phi.network"],
@@ -13009,6 +13029,26 @@
   "explorers": [{
     "name": "metalscan",
     "url": "https://tahoe.metalscan.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Tipboxcoin Mainnet",
+  "chain": "TPBX",
+  "icon": "tipboxcoinIcon",
+  "rpc": ["https://mainnet-rpc.tipboxcoin.net"],
+  "faucets": ["https://faucet.tipboxcoin.net"],
+  "nativeCurrency": {
+    "name": "Tipboxcoin",
+    "symbol": "TPBX",
+    "decimals": 18
+  },
+  "infoURL": "https://tipboxcoin.net",
+  "shortName": "TPBXm",
+  "chainId": 404040,
+  "networkId": 404040,
+  "explorers": [{
+    "name": "Tipboxcoin",
+    "url": "https://tipboxcoin.net",
     "standard": "EIP3091"
   }]
 }, {

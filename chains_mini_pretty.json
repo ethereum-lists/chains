@@ -5342,6 +5342,19 @@
   "faucets": [],
   "infoURL": "https://aioz.network"
 }, {
+  "name": "Tipboxcoin Testnet",
+  "chainId": 4141,
+  "shortName": "TPBXt",
+  "networkId": 4141,
+  "nativeCurrency": {
+    "name": "Tipboxcoin",
+    "symbol": "TPBX",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.tipboxcoin.net"],
+  "faucets": ["https://faucet.tipboxcoin.net"],
+  "infoURL": "https://tipboxcoin.net"
+}, {
   "name": "PHI Network V1",
   "chainId": 4181,
   "shortName": "PHIv1",
@@ -8695,6 +8708,19 @@
   "rpc": ["https://tahoe.metalblockchain.org/ext/bc/C/rpc"],
   "faucets": [],
   "infoURL": "https://www.metalblockchain.org/"
+}, {
+  "name": "Tipboxcoin Mainnet",
+  "chainId": 404040,
+  "shortName": "TPBXm",
+  "networkId": 404040,
+  "nativeCurrency": {
+    "name": "Tipboxcoin",
+    "symbol": "TPBX",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.tipboxcoin.net"],
+  "faucets": ["https://faucet.tipboxcoin.net"],
+  "infoURL": "https://tipboxcoin.net"
 }, {
   "name": "Kekchain",
   "chainId": 420420,
