@@ -5797,6 +5797,19 @@
   "faucets": [],
   "infoURL": "https://planq.network"
 }, {
+  "name": "KLYNTAR",
+  "chainId": 7331,
+  "shortName": "kly",
+  "networkId": 7331,
+  "nativeCurrency": {
+    "name": "KLYNTAR",
+    "symbol": "KLY",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.klyntar.org/kly_evm_rpc", "https://evm.klyntarscan.org/kly_evm_rpc"],
+  "faucets": [],
+  "infoURL": "https://klyntar.org"
+}, {
   "name": "Shyft Mainnet",
   "chainId": 7341,
   "shortName": "shyft",
