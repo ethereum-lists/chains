@@ -8384,6 +8384,19 @@
   "faucets": [],
   "infoURL": "https://www.quarkchain.io"
 }, {
+  "name": "Siberium Network",
+  "chainId": 111111,
+  "shortName": "sbr",
+  "networkId": 111111,
+  "nativeCurrency": {
+    "name": "Siberium",
+    "symbol": "SBR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.main.siberium.net", "https://rpc.main.siberium.net.ru"],
+  "faucets": [],
+  "infoURL": "https://siberium.net"
+}, {
   "name": "ETND Chain Mainnets",
   "chainId": 131419,
   "shortName": "ETND",
