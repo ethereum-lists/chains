@@ -1,9 +1,7 @@
 {
   "name": "Ferrum Testnet",
   "chain": "tFRM",
-  "rpc": [
-    "http://testnet.dev.svcs.ferrumnetwork.io:9933"
-  ],
+  "rpc": ["http://testnet.dev.svcs.ferrumnetwork.io:9933"],
   "faucets": ["https://testnet.faucet.ferrumnetwork.io"],
   "nativeCurrency": {
     "name": "Ferrum",
@@ -15,9 +13,11 @@
   "shortName": "frm",
   "chainId": 26026,
   "networkId": 26026,
-  "explorers": [{
-    "name": "polkadotjs",
-    "url": "https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftestnet.dev.svcs.ferrumnetwork.io#/explorer",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "polkadotjs",
+      "url": "https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftestnet.dev.svcs.ferrumnetwork.io#/explorer",
+      "standard": "none"
+    }
+  ]
 }
