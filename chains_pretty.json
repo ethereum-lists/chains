@@ -3150,6 +3150,18 @@
     "url": "https://filfox.info/en",
     "standard": "none"
   }, {
+    "name": "Beryx",
+    "url": "https://beryx.zondax.ch",
+    "standard": "none"
+  }, {
+    "name": "Glif Explorer",
+    "url": "https://explorer.glif.io",
+    "standard": "EIP3091"
+  }, {
+    "name": "Filmine",
+    "url": "https://explorer.filmine.io",
+    "standard": "none"
+  }, {
     "name": "Filscan",
     "url": "https://filscan.io",
     "standard": "none"
@@ -7393,7 +7405,7 @@
   "name": "Filecoin - Hyperspace testnet",
   "chain": "FIL",
   "icon": "filecoin",
-  "rpc": ["https://api.hyperspace.node.glif.io/rpc/v1", "https://filecoin-hyperspace.chainstacklabs.com/rpc/v1"],
+  "rpc": ["https://api.hyperspace.node.glif.io/rpc/v1", "https://rpc.ankr.com/filecoin_testnet", "https://filecoin-hyperspace.chainstacklabs.com/rpc/v1"],
   "faucets": ["https://hyperspace.yoga/#faucet"],
   "nativeCurrency": {
     "name": "testnet filecoin",
