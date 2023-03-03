@@ -4341,6 +4341,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Eleanor",
+  "chainId": 1967,
+  "shortName": "mtc",
+  "networkId": 1967,
+  "nativeCurrency": {
+    "name": "Eleanor Metacoin",
+    "symbol": "MTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.metatime.com/eleanor", "wss://ws.metatime.com/eleanor"],
+  "faucets": ["https://faucet.metatime.com/eleanor"],
+  "infoURL": "https://eleanor.metatime.com"
+}, {
   "name": "Atelier",
   "chainId": 1971,
   "shortName": "atlr",
