@@ -6694,6 +6694,19 @@
   "faucets": ["https://zeroscan.singularity.gold"],
   "infoURL": "https://www.singularity.gold"
 }, {
+  "name": "Fibonacci Mainnet",
+  "chainId": 12306,
+  "shortName": "fibo",
+  "networkId": 1230,
+  "nativeCurrency": {
+    "name": "FIBONACCI UTILITY TOKEN",
+    "symbol": "FIBO",
+    "decimals": 18
+  },
+  "rpc": ["https://node1.fibo-api.asia"],
+  "faucets": [],
+  "infoURL": "https://fibochain.org"
+}, {
   "name": "BLG Testnet",
   "chainId": 12321,
   "shortName": "blgchain",
