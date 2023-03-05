@@ -10,8 +10,7 @@
     "name": "BeanEco SmartChain",
     "symbol": "BESC",
     "decimals": 18
-  },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  ]
   "infoURL": "https://besceco.finance",
   "shortName": "BESC",
   "chainId": 535037,
@@ -26,10 +25,4 @@
 }
 
 [
-    {
-      "url": "https://ipfs.io/ipns/k51qzi5uqu5dibct3a1l93y1qkzn6ixrrhjha3j9wusm1ntb0w4mi0c4kz01o5",
-      "width": 640,
-      "height": 640,
-      "format": "png"
-    }
-]
+    
