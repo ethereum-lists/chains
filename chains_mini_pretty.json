@@ -8956,6 +8956,19 @@
   "faucets": ["https://prealpha.scroll.io/faucet"],
   "infoURL": "https://scroll.io"
 }, {
+  "name": "BeanEco SmartChain",
+  "chainId": 535037,
+  "shortName": "BESC",
+  "networkId": 535037,
+  "nativeCurrency": {
+    "name": "BeanEco SmartChain",
+    "symbol": "BESC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.bescscan.io"],
+  "faucets": ["faucet.bescscan.ion"],
+  "infoURL": "besceco.finance"
+}, {
   "name": "Bear Network Chain Mainnet",
   "chainId": 641230,
   "shortName": "BRNKC",
