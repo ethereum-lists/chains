@@ -13,6 +13,11 @@
    "shortName": "BESC",
    "chainId":535037,
    "networkId":535037,
+    "explorers": [
+     {
+       "name": "bescscan",
+       "url": "https://Bescscan.io",
+       "standard": "EIP3091"
      }
    ]
  }
