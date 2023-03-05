@@ -1,28 +1,27 @@
 {
   "name": "BeanEco SmartChain",
   "chain": "BESC",
-  "rpc": [
-    "https://mainnet-rpc.bescscan.io/",
-    "https://thegraph.bescscan.io/"
-  ],
+  "rpc": ["https://mainnet-rpc.bescscan.io"],
+    
+  },
   "faucets": "https://faucet.bescscan.io/",
   "nativeCurrency": {
     "name": "BeanEco SmartChain",
     "symbol": "BESC",
     "decimals": 18
-  
-  "infoURL": "https://besceco.finance",
+  },
+  "infoURL": "https://wwww.besceco.finance",
   "shortName": "BESC",
-  "chainId": 535037,
+  "chainId": 535037, 
   "networkId":535037,
   "icon": "BESC",
   "explorers": [{
     "name": "Bescscan",
-    "url": "https://Bescscan.io",
+    "url": "https://www.bescscan.io",
     "icon": "bescscan",
-    "standard": "EIP3091"
-  }]
-}
+    
+  }
+
 
 
     
