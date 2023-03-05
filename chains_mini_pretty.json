@@ -6616,6 +6616,19 @@
   "faucets": ["https://faucet.astranaut.dev"],
   "infoURL": "https://astranaut.io"
 }, {
+  "name": "HashBit Mainnet",
+  "chainId": 11119,
+  "shortName": "hbit",
+  "networkId": 11119,
+  "nativeCurrency": {
+    "name": "HashBit Native Token",
+    "symbol": "HBIT",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.hashbit.org", "https://rpc.hashbit.org"],
+  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "infoURL": "https://hashbit.org"
+}, {
   "name": "Haqq Network",
   "chainId": 11235,
   "shortName": "ISLM",
