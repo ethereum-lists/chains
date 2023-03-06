@@ -138,7 +138,6 @@ BUILD SUCCESSFUL in 7s
  * [Wagmi compatible chain configurations](https://spenhouet.com/chains)
  * [evmchain.info](https://evmchain.info)
 
-
 ### Other
  * [FaucETH](https://github.com/komputing/FaucETH)
  * [Sourcify playground](https://playground.sourcify.dev)
