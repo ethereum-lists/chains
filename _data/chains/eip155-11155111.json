@@ -3,8 +3,8 @@
   "title": "Ethereum Testnet Sepolia",
   "chain": "ETH",
   "rpc": [
-    "https://rpc.sepolia.org", 
-    "https://rpc2.sepolia.org", 
+    "https://rpc.sepolia.org",
+    "https://rpc2.sepolia.org",
     "https://rpc-sepolia.rockx.com"
   ],
   "faucets": ["http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"],
