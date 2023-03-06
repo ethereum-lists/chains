@@ -5316,6 +5316,32 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "Nahmii 3 Mainnet",
+  "chainId": 4061,
+  "shortName": "Nahmii3Mainnet",
+  "networkId": 4061,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://nahmii.io"
+}, {
+  "name": "Nahmii 3 Testnet",
+  "chainId": 4062,
+  "shortName": "Nahmii3Testnet",
+  "networkId": 4062,
+  "nativeCurrency": {
+    "name": "Goerli Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://ngeth.testnet.n3.nahmii.io"],
+  "faucets": [],
+  "infoURL": "https://nahmii.io"
+}, {
   "name": "Bitindi Testnet",
   "chainId": 4096,
   "shortName": "BNIt",
