@@ -1,10 +1,10 @@
 {
-  "name": "PawChain Testnet",
-  "chain": "PawChain",
+  "name": "Paw Chain Testnet",
+  "chain": "Paw Chain",
   "rpc": ["https://testnet-rpc.pawchain.org"],
   "faucets": ["https://faucet.pawchain.org"],
   "nativeCurrency": {
-    "name": "PawChain",
+    "name": "Paw Chain",
     "symbol": "PAW",
     "decimals": 18
   },
@@ -17,7 +17,6 @@
     {
       "name": "explorerpawchain",
       "url": "https://explorer.pawchain.org",
-      "icon": "pawchain",
       "standard": "EIP3091"
     }
   ]
