@@ -1,0 +1,24 @@
+{
+  "name": "DOS Chain",
+  "chain": "DOS",
+  "rpc": [
+    "https://main.doschain.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DOS Native Token",
+    "symbol": "DOS",
+    "decimals": 18
+  },
+  "infoURL": "https://doschain.io/",
+  "shortName": "DOS Mainnet",
+  "chainId": 7979,
+  "networkId": 7979,
+  "explorers": [
+    {
+      "name": "dos-mainnet",
+      "url": "https://doscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
