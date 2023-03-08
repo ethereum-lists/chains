@@ -3,8 +3,7 @@
   "chain": "Bellecour",
   "icon": "rlc",
   "rpc": [
-    "https://bellecour.iex.ec",
-    "https://bellecour2.iex.ec"
+    "https://bellecour.iex.ec"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -19,7 +18,7 @@
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://blockscout-bellecour.iex.ec/",
+      "url": "https://blockscout.bellecour.iex.ec/",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
