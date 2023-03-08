@@ -4198,6 +4198,19 @@
   "faucets": ["https://faucet.blockchain.or.th"],
   "infoURL": "https://blockchain.or.th"
 }, {
+  "name": "Palette Chain Mainnet",
+  "chainId": 1718,
+  "shortName": "PaletteChain",
+  "networkId": 1718,
+  "nativeCurrency": {
+    "name": "Palette Token",
+    "symbol": "PLT",
+    "decimals": 18
+  },
+  "rpc": ["https://palette-rpc.com:22000"],
+  "faucets": [],
+  "infoURL": "https://hashpalette.com/"
+}, {
   "name": "Kerleano",
   "chainId": 1804,
   "shortName": "kerleano",

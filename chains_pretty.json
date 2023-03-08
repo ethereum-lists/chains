@@ -6120,6 +6120,28 @@
   "chainId": 1708,
   "networkId": 1708
 }, {
+  "name": "Palette Chain Mainnet",
+  "chain": "PLT",
+  "rpc": ["https://palette-rpc.com:22000"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Palette Token",
+    "symbol": "PLT",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://hashpalette.com/",
+  "shortName": "PaletteChain",
+  "chainId": 1718,
+  "networkId": 1718,
+  "icon": "PLT",
+  "explorers": [{
+    "name": "Palettescan",
+    "url": "https://palettescan.com",
+    "icon": "PLT",
+    "standard": "none"
+  }]
+}, {
   "name": "Kerleano",
   "title": "Proof of Carbon Reduction testnet",
   "chain": "CRC",
