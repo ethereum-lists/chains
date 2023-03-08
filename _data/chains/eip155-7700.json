@@ -1,7 +1,11 @@
 {
   "name": "Canto",
   "chain": "Canto",
-  "rpc": ["https://canto.slingshot.finance"],
+  "rpc": [
+    "https://canto.slingshot.finance",
+    "https://canto.neobase.one",
+    "https://mainnode.plexnode.org:8545"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Canto",
@@ -19,8 +23,13 @@
       "standard": "none"
     },
     {
-      "name": "Canto Cosmos Explorer (BigDipper)",
-      "url": "https://cosmos.explorer.canto.io",
+      "name": "Canto Cosmos Explorer",
+      "url": "https://cosmos-explorers.neobase.one",
+      "standard": "none"
+    },
+    {
+      "name": "Canto EVM Explorer (Blockscout)",
+      "url": "https://tuber.build",
       "standard": "none"
     }
   ]
