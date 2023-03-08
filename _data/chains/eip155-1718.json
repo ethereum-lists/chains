@@ -1,9 +1,7 @@
 {
   "name": "Palette Chain Mainnet",
   "chain": "PLT",
-  "rpc": [
-    "https://palette-rpc.com:22000"
-  ],
+  "rpc": ["https://palette-rpc.com:22000"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Palette Token",
