@@ -3,7 +3,7 @@
   "chain": "RESIN",
   "icon": "resincoin",
   "rpc": [],
-  "faucets": [],
+  "faucets": ["https://mainnet.resincoin.dev"],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "RESIN",
@@ -11,12 +11,12 @@
   },
   "infoURL": "https://resincoin.dev",
   "shortName": "resin",
-  "chainId": 75000,
-  "networkId": 75000,
+  "chainId": 75001,
+  "networkId": 75001,
   "explorers": [
     {
       "name": "ResinScan",
-      "url": "https://explorer.resincoin.dev",
+      "url": "https://scout.resincoin.dev",
       "standard": "none"
     }
   ]
