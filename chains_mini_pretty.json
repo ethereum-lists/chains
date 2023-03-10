@@ -1559,6 +1559,19 @@
   "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "infoURL": "https://www.hecochain.com"
 }, {
+  "name": "iExec Sidechain",
+  "chainId": 134,
+  "shortName": "rlc",
+  "networkId": 134,
+  "nativeCurrency": {
+    "name": "xRLC",
+    "symbol": "xRLC",
+    "decimals": 18
+  },
+  "rpc": ["https://bellecour.iex.ec"],
+  "faucets": [],
+  "infoURL": "https://iex.ec"
+}, {
   "name": "Alyx Chain Testnet",
   "chainId": 135,
   "shortName": "AlyxTestnet",
