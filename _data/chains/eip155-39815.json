@@ -1,6 +1,7 @@
 {
   "name": "OHO Mainnet",
   "chain": "OHO",
+  "icon": "oho",
   "rpc": ["https://mainnet.oho.ai"],
   "faucets": [],
   "nativeCurrency": {
@@ -12,7 +13,6 @@
   "shortName": "oho",
   "chainId": 39815,
   "networkId": 39815,
-  "icon": "oho",
   "explorers": [
     {
       "name": "ohoscan",
