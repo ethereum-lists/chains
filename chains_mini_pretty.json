@@ -8826,6 +8826,19 @@
   "faucets": ["https://faucet.polis.tech"],
   "infoURL": "https://polis.tech"
 }, {
+  "name": "HAPchain Testnet",
+  "chainId": 373737,
+  "shortName": "hap-testnet",
+  "networkId": 373737,
+  "nativeCurrency": {
+    "name": "HAP",
+    "symbol": "HAP",
+    "decimals": 18
+  },
+  "rpc": ["https://jsonrpc-test.hap.land"],
+  "faucets": [],
+  "infoURL": "https://hap.land"
+}, {
   "name": "Metal C-Chain",
   "chainId": 381931,
   "shortName": "metal",
@@ -9423,6 +9436,19 @@
   "rpc": ["https://mainnet.plian.io/child_0"],
   "faucets": [],
   "infoURL": "https://plian.org"
+}, {
+  "name": "HAPchain",
+  "chainId": 8794598,
+  "shortName": "hap",
+  "networkId": 8794598,
+  "nativeCurrency": {
+    "name": "HAP",
+    "symbol": "HAP",
+    "decimals": 18
+  },
+  "rpc": ["https://jsonrpc.hap.land"],
+  "faucets": [],
+  "infoURL": "https://hap.land"
 }, {
   "name": "Plian Testnet Subchain 1",
   "chainId": 10067275,
