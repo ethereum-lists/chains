@@ -1,0 +1,23 @@
+{
+  "name": "Fibonacci Mainnet",
+  "chain": "FIBO",
+  "icon": "fibonacci",
+  "rpc": ["https://node1.fibo-api.asia"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FIBONACCI UTILITY TOKEN",
+    "symbol": "FIBO",
+    "decimals": 18
+  },
+  "infoURL": "https://fibochain.org",
+  "shortName": "fibo",
+  "chainId": 12306,
+  "networkId": 1230,
+  "explorers": [
+    {
+      "name": "fiboscan",
+      "url": "https://scan.fibochain.org",
+      "standard": "EIP3091"
+    }
+  ]
+}

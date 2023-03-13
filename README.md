@@ -136,6 +136,7 @@ BUILD SUCCESSFUL in 7s
  * [chainz.me](https://chainz.me)
  * [Chainlink docs](https://docs.chain.link/)
  * [Wagmi compatible chain configurations](https://spenhouet.com/chains)
+ * [evmchain.info](https://evmchain.info)
 
 ### Other
  * [FaucETH](https://github.com/komputing/FaucETH)
