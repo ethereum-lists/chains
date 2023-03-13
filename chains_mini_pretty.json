@@ -9853,6 +9853,19 @@
   "faucets": [],
   "infoURL": "https://iposlab.com"
 }, {
+  "name": "CyberdeckNet",
+  "chainId": 1146703430,
+  "shortName": "cyb",
+  "networkId": 1146703430,
+  "nativeCurrency": {
+    "name": "Cyb",
+    "symbol": "CYB",
+    "decimals": 18
+  },
+  "rpc": ["http://cybeth1.cyberdeck.eu:8545"],
+  "faucets": [],
+  "infoURL": "https://cyberdeck.eu"
+}, {
   "name": "Aurora Mainnet",
   "chainId": 1313161554,
   "shortName": "aurora",
