@@ -135,7 +135,7 @@ private fun doChecks(doRPCConnect: Boolean, doIconDownload: Boolean, verbose: Bo
         if (!allIconCIDs.contains(it.name)) unusedIconDownload.add(it.name)
     }
     if (unusedIconDownload.isNotEmpty()) {
-        throw UnreferencedIcon(unusedIconDownload.joinToString (" ") , iconsDownloadPath)
+        throw UnreferencedIcon(unusedIconDownload.joinToString(" "), iconsDownloadPath)
     }
     allFiles.filter { it.isDirectory }.forEach { _ ->
         error("should not contain a directory")
@@ -269,13 +269,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
     }
 
     jsonObject["icon"]?.let {
-        if (it !is String) {
-            error("icon must be string")
-        }
-        if (!File(iconsPath, "$it.json").exists()) {
-            error("The Icon $it does not exist - was used in ${chainFile.name}")
-        }
-        allUsedIcons.add(it)
+        processIcon(it, chainFile)
     }
 
     val nameRegex = Regex("^[a-zA-Z0-9\\-\\.\\(\\) ]+$")
@@ -330,8 +324,8 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
                 throw (ExplorerMustHaveName())
             }
 
-            if (explorer["icon"] != null) {
-                allUsedIcons.add(explorer["icon"].toString())
+            explorer["icon"]?.let { explorerIcon ->
+                processIcon(explorerIcon, chainFile)
             }
 
             val url = explorer["url"]
@@ -475,6 +469,16 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
             }
         }
     }
+}
+
+private fun processIcon(it: Any, chainFile: File): Boolean {
+    if (it !is String) {
+        error("icon must be string")
+    }
+    if (!File(iconsPath, "$it.json").exists()) {
+        error("The Icon $it does not exist - was used in ${chainFile.name}")
+    }
+    return allUsedIcons.add(it)
 }
 
 private fun String.checkString(which: String) {
