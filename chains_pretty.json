@@ -874,7 +874,6 @@
   "explorers": [{
     "name": "etmp",
     "url": "https://pioneer.etmscan.network",
-    "icon": "etmpscan",
     "standard": "EIP3091"
   }]
 }, {
@@ -1346,7 +1345,6 @@
   "explorers": [{
     "name": "explorer",
     "url": "https://explorer.idchain.one",
-    "icon": "etherscan",
     "standard": "EIP3091"
   }]
 }, {
@@ -1801,7 +1799,6 @@
   "explorers": [{
     "name": "gnosisscan",
     "url": "https://gnosisscan.io",
-    "icon": "gnosisscan",
     "standard": "EIP3091"
   }, {
     "name": "blockscout",
@@ -2584,6 +2581,40 @@
     "url": "https://cemscan.com",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "OKBChain Testnet",
+  "chain": "okbchain",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OKBChain Global Utility Token in testnet",
+    "symbol": "OKB",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://www.okex.com/okc",
+  "shortName": "tokb",
+  "chainId": 195,
+  "networkId": 195,
+  "explorers": [],
+  "status": "incubating"
+}, {
+  "name": "OKBChain Mainnet",
+  "chain": "okbchain",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OKBChain Global Utility Token",
+    "symbol": "OKB",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://www.okex.com/okc",
+  "shortName": "okb",
+  "chainId": 196,
+  "networkId": 196,
+  "explorers": [],
+  "status": "incubating"
 }, {
   "name": "BitTorrent Chain Mainnet",
   "chain": "BTTC",
@@ -4763,7 +4794,7 @@
   "explorers": [{
     "name": "Memo Mainnet Explorer",
     "url": "https://scan.metamemo.one:8080",
-    "icon": "memoscan",
+    "icon": "memo",
     "standard": "EIP3091"
   }]
 }, {
@@ -7592,7 +7623,6 @@
   "explorers": [{
     "name": "Paribu Net Explorer",
     "url": "https://explorer.paribu.network",
-    "icon": "explorer",
     "standard": "EIP3091"
   }]
 }, {
@@ -7613,7 +7643,6 @@
   "explorers": [{
     "name": "Paribu Net Testnet Explorer",
     "url": "https://testnet.paribuscan.com",
-    "icon": "explorer",
     "standard": "EIP3091"
   }]
 }, {
@@ -7708,11 +7737,9 @@
   "shortName": "btx",
   "chainId": 3690,
   "networkId": 3690,
-  "icon": "ethereum",
   "explorers": [{
     "name": "bittexscan",
     "url": "https://bittexscan.com",
-    "icon": "etherscan",
     "standard": "EIP3091"
   }]
 }, {
@@ -7777,7 +7804,6 @@
   "explorers": [{
     "name": "DRAC_Network Scan",
     "url": "https://www.dracscan.io",
-    "icon": "DRAC",
     "standard": "EIP3091"
   }]
 }, {
@@ -9144,7 +9170,6 @@
   "explorers": [{
     "name": "alphscan",
     "url": "https://explorer.alph.network",
-    "icon": "alphscan",
     "standard": "EIP3091"
   }]
 }, {
@@ -9539,7 +9564,6 @@
   "explorers": [{
     "name": "QEasyWeb3 Explorer",
     "url": "https://www.qeasyweb3.com",
-    "icon": "qetscan",
     "standard": "EIP3091"
   }]
 }, {
@@ -10169,7 +10193,6 @@
   "explorers": [{
     "name": "phoenixplorer",
     "url": "https://phoenixplorer.com",
-    "icon": "phoenixplorer",
     "standard": "EIP3091"
   }]
 }, {
@@ -13014,7 +13037,6 @@
   "explorers": [{
     "name": "explorer masnet",
     "url": "https://explorer.masnet.ai",
-    "icon": "explorer",
     "standard": "EIP3091"
   }]
 }, {

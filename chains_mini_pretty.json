@@ -1806,6 +1806,32 @@
   "faucets": [],
   "infoURL": "https://cemblockchain.com/"
 }, {
+  "name": "OKBChain Testnet",
+  "chainId": 195,
+  "shortName": "tokb",
+  "networkId": 195,
+  "nativeCurrency": {
+    "name": "OKBChain Global Utility Token in testnet",
+    "symbol": "OKB",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://www.okex.com/okc"
+}, {
+  "name": "OKBChain Mainnet",
+  "chainId": 196,
+  "shortName": "okb",
+  "networkId": 196,
+  "nativeCurrency": {
+    "name": "OKBChain Global Utility Token",
+    "symbol": "OKB",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://www.okex.com/okc"
+}, {
   "name": "BitTorrent Chain Mainnet",
   "chainId": 199,
   "shortName": "BTT",
