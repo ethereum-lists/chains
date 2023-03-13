@@ -1,9 +1,7 @@
 {
   "name": "HAPchain Testnet",
   "chain": "HAPchain",
-  "rpc": [
-    "https://jsonrpc-test.hap.land"
-  ],
+  "rpc": ["https://jsonrpc-test.hap.land"],
   "faucets": [],
   "nativeCurrency": {
     "name": "HAP",
