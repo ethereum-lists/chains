@@ -1,0 +1,24 @@
+{
+    "name": "Rikeza Network Testnet",
+    "chain": "RIK",
+    "rpc": ["https://testnet-rpc.rikscan.com/"],
+    "faucets": [],
+    "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+    "nativeCurrency": {
+      "name": "Rikeza Testnet",
+      "symbol": "RIK",
+      "decimals": 18
+    },
+    "infoURL": "https://rikeza.io",
+    "shortName": "rik",
+    "chainId": 12715,
+    "networkId": 12715,
+    "explorers": [
+      {
+        "name": "RIK Scan Explorer",
+        "url": "https://testnet.rikscan.com/",
+        "standard": "EIP3091"
+      }
+    ]
+  }
+  
