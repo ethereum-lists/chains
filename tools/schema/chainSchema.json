@@ -36,7 +36,19 @@
                 "type":"string"
             }
         },
-        "nativeCurrency":{
+        "features":{
+	    "type":"array",
+            "items":{
+                "type":"object",
+                "properties": {
+                    "name":{
+                        "type":"string",
+			"description": "feature name - e.g. EIP155"
+                    }
+                }
+	    }
+	},
+        "nativeCurrency":{	    
             "type":"object",
             "properties": {
                 "name":{
@@ -89,7 +101,8 @@
                         "type":"string"
                     },
                     "standard":{
-                        "type":"string"
+                        "type":"string",
+			"description": "EIP3091 or none"
                     }
                 }
             }
