@@ -1,9 +1,7 @@
 {
   "name": "LA Testnet",
   "chain": "LATestnet",
-  "rpc": [
-    "https://rpc.testnet.lachain.network"
-  ],
+  "rpc": ["https://rpc.testnet.lachain.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Test La Coin",
