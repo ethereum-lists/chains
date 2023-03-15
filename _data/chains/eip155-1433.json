@@ -1,0 +1,24 @@
+{
+    "name": "Rikeza Network Mainnet",
+    "chain": "RIK",
+    "rpc": ["https://rpc.rikscan.com"],
+    "faucets": [],
+    "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+    "nativeCurrency": {
+      "name": "Rikeza",
+      "symbol": "RIK",
+      "decimals": 18
+    },
+    "infoURL": "https://rikeza.io",
+    "shortName": "rik",
+    "chainId": 1433,
+    "networkId": 1433,
+    "explorers": [
+      {
+        "name": "RIK Scan Explorer",
+        "url": "https://rikscan.com",
+        "standard": "EIP3091"
+      }
+    ]
+  }
+  
