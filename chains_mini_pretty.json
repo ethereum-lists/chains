@@ -4081,10 +4081,23 @@
   "faucets": [],
   "infoURL": "https://polygon.technology/solutions/polygon-zkevm/"
 }, {
-  "name": "Polygon zkEVM Testnet",
+  "name": "Polygon zkEVM Testnet Pre Audit-Upgraded",
   "chainId": 1422,
-  "shortName": "testnet-zkEVM-mango",
+  "shortName": "testnet-zkEVM-mango-pre-audit-upgraded",
   "networkId": 1422,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://polygon.technology/solutions/polygon-zkevm/"
+}, {
+  "name": "Polygon zkEVM Testnet",
+  "chainId": 1442,
+  "shortName": "testnet-zkEVM-mango",
+  "networkId": 1442,
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
