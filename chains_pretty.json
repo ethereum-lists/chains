@@ -3535,6 +3535,24 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "LA Testnet",
+  "chain": "LATestnet",
+  "rpc": ["https://rpc.testnet.lachain.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Test La Coin",
+    "symbol": "TLA",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "",
+  "shortName": "latestnet",
+  "chainId": 418,
+  "networkId": 418,
+  "explorers": []
+}, {
   "name": "Optimism Goerli Testnet",
   "chain": "ETH",
   "rpc": ["https://goerli.optimism.io/"],

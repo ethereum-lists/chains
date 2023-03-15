@@ -2391,6 +2391,19 @@
   "faucets": [],
   "infoURL": "https://www.sx.technology"
 }, {
+  "name": "LA Testnet",
+  "chainId": 418,
+  "shortName": "latestnet",
+  "networkId": 418,
+  "nativeCurrency": {
+    "name": "Test La Coin",
+    "symbol": "TLA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.lachain.network"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Optimism Goerli Testnet",
   "chainId": 420,
   "shortName": "ogor",
