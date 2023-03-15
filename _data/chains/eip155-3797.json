@@ -2,10 +2,7 @@
   "name": "AlveyChain Mainnet",
   "chain": "ALV",
   "icon": "alveychain",
-  "rpc": [
-    "https://rpc.alveychain.com/rpc",
-    "https://rpc2.alvey.io/rpc"
-  ],
+  "rpc": ["https://rpc.alveychain.com/rpc", "https://rpc2.alvey.io/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "AlveyCoin",
