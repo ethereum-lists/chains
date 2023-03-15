@@ -3185,7 +3185,7 @@
   "name": "Filecoin - Mainnet",
   "chain": "FIL",
   "icon": "filecoin",
-  "rpc": ["https://api.node.glif.io/", "https://rpc.ankr.com/filecoin"],
+  "rpc": ["https://api.node.glif.io/", "https://rpc.ankr.com/filecoin, https://filecoin-mainnet.chainstacklabs.com/rpc/v1"],
   "faucets": [],
   "nativeCurrency": {
     "name": "filecoin",
@@ -3210,8 +3210,8 @@
     "url": "https://explorer.glif.io",
     "standard": "EIP3091"
   }, {
-    "name": "Filmine",
-    "url": "https://explorer.filmine.io",
+    "name": "Dev.storage",
+    "url": "https://dev.storage",
     "standard": "none"
   }, {
     "name": "Filscan",
@@ -7542,8 +7542,8 @@
     "url": "https://beryx.zondax.ch",
     "standard": "none"
   }, {
-    "name": "Filmine",
-    "url": "https://explorer.filmine.io",
+    "name": "Dev.storage",
+    "url": "https://dev.storage",
     "standard": "none"
   }, {
     "name": "Filscan - Hyperspace",
@@ -13193,6 +13193,10 @@
   }, {
     "name": "Filscout - Calibration",
     "url": "https://calibration.filscout.com/en",
+    "standard": "none"
+  }, {
+    "name": "Filfox - Calibration",
+    "url": "https://calibration.filfox.info",
     "standard": "none"
   }]
 }, {
