@@ -7383,6 +7383,19 @@
   "faucets": [],
   "infoURL": "https://fusion.org"
 }, {
+  "name": "Zilliqa EVM Testnet",
+  "chainId": 33101,
+  "shortName": "zil-testnet",
+  "networkId": 33101,
+  "nativeCurrency": {
+    "name": "Zilliqa",
+    "symbol": "ZIL",
+    "decimals": 18
+  },
+  "rpc": ["https://dev-api.zilliqa.com"],
+  "faucets": ["https://dev-wallet.zilliqa.com/faucet?network=testnet"],
+  "infoURL": "https://www.zilliqa.com/"
+}, {
   "name": "Aves Mainnet",
   "chainId": 33333,
   "shortName": "avs",
