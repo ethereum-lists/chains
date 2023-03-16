@@ -1,6 +1,6 @@
 {
-  "name": "Scolcoin Testnet",
-  "chain": "SCOL",
+  "name": "Scolcoin WeiChain Testnet",
+  "chain": "SCOLWEI",
   "rpc": ["https://testnet-rpc.scolcoin.com"],
   "faucets": ["https://faucet.scolcoin.com"],
   "nativeCurrency": {
@@ -9,12 +9,12 @@
     "decimals": 18
   },
   "infoURL": "https://scolcoin.com",
-  "shortName": "scol",
+  "shortName": "SRC",
   "chainId": 6552,
   "networkId": 6552,
   "explorers": [
     {
-    "name": "Scolcoin Testnet Explorer",
+    "name": "Scolscan Testnet Explorer",
     "url": "https://testnet-explorer.scolcoin.com",
     "standard": "EIP3091"
     }
