@@ -1,0 +1,24 @@
+{
+  "name": "Scolcoin Testnet",
+  "title": "Scolcoin Testnet",
+  "chain": "SCOL",
+  "rpc": [
+    "https://testnet-rpc.scolcoin.com"
+  ],
+  "faucets": [ "https://faucet.scolcoin.com" ],
+  "nativeCurrency": {
+    "name": "Scolcoin",
+    "symbol": "SCOL",
+    "decimals": 18
+  },
+  "infoURL": "https://scolcoin.com",
+  "shortName": "scol",
+  "chainId": 6552,
+  "networkId": 6552,
+  "icon": "scolcoin",
+  "explorers": [{
+    "name": "Scolcoin Testnet Explorer",
+    "url": "https://testnet-explorer.scolcoin.com",
+    "standard": "EIP3091"
+  }]
+}
