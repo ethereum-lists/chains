@@ -4094,6 +4094,19 @@
   "faucets": [],
   "infoURL": "https://polygon.technology/solutions/polygon-zkevm/"
 }, {
+  "name": "Rikeza Network Mainnet",
+  "chainId": 1433,
+  "shortName": "RIK",
+  "networkId": 1433,
+  "nativeCurrency": {
+    "name": "Rikeza",
+    "symbol": "RIK",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.rikscan.com"],
+  "faucets": [],
+  "infoURL": "https://rikeza.io"
+}, {
   "name": "Polygon zkEVM Testnet",
   "chainId": 1442,
   "shortName": "testnet-zkEVM-mango",
@@ -6849,6 +6862,19 @@
   "rpc": ["https://rpc.testnet.step.network"],
   "faucets": ["https://faucet.step.network"],
   "infoURL": "https://step.network"
+}, {
+  "name": "Rikeza Network Testnet",
+  "chainId": 12715,
+  "shortName": "tRIK",
+  "networkId": 12715,
+  "nativeCurrency": {
+    "name": "Rikeza",
+    "symbol": "RIK",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.rikscan.com"],
+  "faucets": [],
+  "infoURL": "https://rikeza.io"
 }, {
   "name": "SPS",
   "chainId": 13000,

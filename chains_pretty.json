@@ -5978,6 +5978,26 @@
   }],
   "status": "deprecated"
 }, {
+  "name": "Rikeza Network Mainnet",
+  "title": "Rikeza Network Mainnet",
+  "chain": "Rikeza",
+  "rpc": ["https://rpc.rikscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Rikeza",
+    "symbol": "RIK",
+    "decimals": 18
+  },
+  "infoURL": "https://rikeza.io",
+  "shortName": "RIK",
+  "chainId": 1433,
+  "networkId": 1433,
+  "explorers": [{
+    "name": "Rikeza Blockchain explorer",
+    "url": "https://rikscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Polygon zkEVM Testnet",
   "title": "Polygon zkEVM Testnet",
   "chain": "Polygon",
@@ -10169,6 +10189,26 @@
     "type": "L2",
     "chain": "eip155-43113"
   }
+}, {
+  "name": "Rikeza Network Testnet",
+  "title": "Rikeza Network Testnet",
+  "chain": "Rikeza",
+  "rpc": ["https://testnet-rpc.rikscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Rikeza",
+    "symbol": "RIK",
+    "decimals": 18
+  },
+  "infoURL": "https://rikeza.io",
+  "shortName": "tRIK",
+  "chainId": 12715,
+  "networkId": 12715,
+  "explorers": [{
+    "name": "Rikeza Blockchain explorer",
+    "url": "https://testnet.rikscan.com",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "SPS",
   "chain": "SPS",
