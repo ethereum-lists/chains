@@ -14,9 +14,11 @@
   "chainId": 65450,
   "networkId": 65450,
   "icon": "scolcoin",
-  "explorers": [{
+  "explorers": [
+    {
     "name": "Scolcoin Mainnet Explorer",
     "url": "https://explorer.scolcoin.com/",
     "standard": "EIP3091"
-  }]
+    }
+  ]
 }
