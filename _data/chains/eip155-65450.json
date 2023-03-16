@@ -1,6 +1,6 @@
 {
   "name": "Scolcoin Mainnet",
-  "chain": "SCOL",
+  "chain": "SCOLWEI",
   "rpc": ["https://mainnet-rpc.scolcoin.com"],
   "faucets": [],
   "nativeCurrency": {
@@ -9,12 +9,13 @@
     "decimals": 18
   },
   "infoURL": "https://scolcoin.com",
-  "shortName": "scol",
+  "shortName": "SRC",
   "chainId": 65450,
   "networkId": 65450,
+  "icon": "scolcoin",  
   "explorers": [
     {
-    "name": "Scolcoin Mainnet Explorer",
+    "name": "Scolscan Explorer",
     "url": "https://explorer.scolcoin.com",
     "standard": "EIP3091"
     }
