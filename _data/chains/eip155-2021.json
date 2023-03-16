@@ -9,10 +9,10 @@
     "https://mainnet4.edgewa.re/evm",
     "https://mainnet5.edgewa.re/evm",
     "wss://edgeware.jelliedowl.net",
-    "wss://mainnet2.edgewa.re/",
-    "wss://mainnet3.edgewa.re/",
-    "wss://mainnet4.edgewa.re/",
-    "wss://mainnet5.edgewa.re/"
+    "wss://mainnet2.edgewa.re",
+    "wss://mainnet3.edgewa.re",
+    "wss://mainnet4.edgewa.re",
+    "wss://mainnet5.edgewa.re"
   ],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
@@ -31,6 +31,12 @@
       "name": "Edgscan by Bharathcoorg",
       "url": "https://edgscan.live",
       "standard": "EIP3091"
+    },
+    {
+      "name": "Subscan",
+      "url": "https://edgeware.subscan.io",
+      "standard": "none",
+      "icon": "subscan"
     }
   ]
 }
