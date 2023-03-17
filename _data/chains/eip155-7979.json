@@ -1,9 +1,7 @@
 {
   "name": "DOS Chain",
   "chain": "DOS",
-  "rpc": [
-    "https://main.doschain.com"
-  ],
+  "rpc": ["https://main.doschain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "DOS Native Token",
