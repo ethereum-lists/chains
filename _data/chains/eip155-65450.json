@@ -12,12 +12,12 @@
   "shortName": "SRC",
   "chainId": 65450,
   "networkId": 65450,
-  "icon": "scolcoin",  
+  "icon": "scolcoin",
   "explorers": [
     {
-    "name": "Scolscan Explorer",
-    "url": "https://explorer.scolcoin.com",
-    "standard": "EIP3091"
+      "name": "Scolscan Explorer",
+      "url": "https://explorer.scolcoin.com",
+      "standard": "EIP3091"
     }
   ]
 }

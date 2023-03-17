@@ -12,12 +12,12 @@
   "shortName": "SRC-test",
   "chainId": 6552,
   "networkId": 6552,
-  "icon": "scolcoin", 
+  "icon": "scolcoin",
   "explorers": [
     {
-    "name": "Scolscan Testnet Explorer",
-    "url": "https://testnet-explorer.scolcoin.com",
-    "standard": "EIP3091"
+      "name": "Scolscan Testnet Explorer",
+      "url": "https://testnet-explorer.scolcoin.com",
+      "standard": "EIP3091"
     }
   ]
 }
