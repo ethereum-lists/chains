@@ -9957,6 +9957,19 @@
   "faucets": [],
   "infoURL": "https://cyberdeck.eu"
 }, {
+  "name": "HUMAN Protocol",
+  "chainId": 1273227453,
+  "shortName": "human-mainnet",
+  "networkId": 1273227453,
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.skalenodes.com/v1/wan-red-ain"],
+  "faucets": ["https://dashboard.humanprotocol.org/faucet"],
+  "infoURL": "https://www.humanprotocol.org"
+}, {
   "name": "Aurora Mainnet",
   "chainId": 1313161554,
   "shortName": "aurora",
