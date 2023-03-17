@@ -5823,6 +5823,19 @@
   "faucets": [],
   "infoURL": "https://treschain.com"
 }, {
+  "name": "Scolcoin WeiChain Testnet",
+  "chainId": 6552,
+  "shortName": "SRC-test",
+  "networkId": 6552,
+  "nativeCurrency": {
+    "name": "Scolcoin",
+    "symbol": "SCOL",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.scolcoin.com"],
+  "faucets": ["https://faucet.scolcoin.com"],
+  "infoURL": "https://scolcoin.com"
+}, {
   "name": "Pixie Chain Mainnet",
   "chainId": 6626,
   "shortName": "pixie-chain",
@@ -7954,6 +7967,19 @@
   "rpc": ["https://rpc.tst.ecredits.com"],
   "faucets": ["https://faucet.tst.ecredits.com"],
   "infoURL": "https://ecredits.com"
+}, {
+  "name": "Scolcoin Mainnet",
+  "chainId": 65450,
+  "shortName": "SRC",
+  "networkId": 65450,
+  "nativeCurrency": {
+    "name": "Scolcoin",
+    "symbol": "SCOL",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.scolcoin.com"],
+  "faucets": [],
+  "infoURL": "https://scolcoin.com"
 }, {
   "name": "SiriusNet",
   "chainId": 67390,

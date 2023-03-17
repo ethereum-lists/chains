@@ -8642,6 +8642,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Scolcoin WeiChain Testnet",
+  "chain": "SCOLWEI-testnet",
+  "rpc": ["https://testnet-rpc.scolcoin.com"],
+  "faucets": ["https://faucet.scolcoin.com"],
+  "nativeCurrency": {
+    "name": "Scolcoin",
+    "symbol": "SCOL",
+    "decimals": 18
+  },
+  "infoURL": "https://scolcoin.com",
+  "shortName": "SRC-test",
+  "chainId": 6552,
+  "networkId": 6552,
+  "icon": "scolcoin",
+  "explorers": [{
+    "name": "Scolscan Testnet Explorer",
+    "url": "https://testnet-explorer.scolcoin.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Pixie Chain Mainnet",
   "chain": "PixieChain",
   "rpc": ["https://http-mainnet.chain.pixie.xyz", "wss://ws-mainnet.chain.pixie.xyz"],
@@ -11896,6 +11916,26 @@
     "name": "eCredits TestNet Explorer",
     "url": "https://explorer.tst.ecredits.com",
     "icon": "ecredits",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Scolcoin Mainnet",
+  "chain": "SCOLWEI",
+  "rpc": ["https://mainnet-rpc.scolcoin.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Scolcoin",
+    "symbol": "SCOL",
+    "decimals": 18
+  },
+  "infoURL": "https://scolcoin.com",
+  "shortName": "SRC",
+  "chainId": 65450,
+  "networkId": 65450,
+  "icon": "scolcoin",
+  "explorers": [{
+    "name": "Scolscan Explorer",
+    "url": "https://explorer.scolcoin.com",
     "standard": "EIP3091"
   }]
 }, {
