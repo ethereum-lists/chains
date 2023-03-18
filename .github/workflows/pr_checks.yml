@@ -88,3 +88,37 @@ jobs:
           fi
         done
         exit $BAD
+
+  validate_formatting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - uses: nrwl/nx-set-shas@v3
+      id: last_successful_commit_push
+      with:
+        main-branch-name: master
+        workflow-id: 'pr_checks.yml'
+
+    - name: Get changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v35
+      with:
+        files: _data/*/*.json
+        base_sha: ${{ steps.last_successful_commit_push.outputs.base }}
+
+    - run: sudo npm i -g prettier
+
+    - name: Verify the changed icons
+      if: steps.changed-files.outputs.any_changed == 'true'
+      run: |
+        set -euo pipefail
+
+        BAD=0
+
+        for CHANGED_FILE in ${{ steps.changed-files.outputs.all_changed_files }}; do
+          echo "Checking $CHANGED_FILE"
+          diff -u "$CHANGED_FILE" <(prettier "$CHANGED_FILE")
+        done
