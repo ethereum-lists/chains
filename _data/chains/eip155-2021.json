@@ -1,15 +1,42 @@
 {
-  "name": "Edgeware Mainnet",
+  "name": "Edgeware EdgeEVM Mainnet",
   "chain": "EDG",
-  "rpc": ["https://mainnet1.edgewa.re"],
+  "icon": "edgeware",
+  "rpc": [
+    "https://edgeware-evm.jelliedowl.net",
+    "https://mainnet2.edgewa.re/evm",
+    "https://mainnet3.edgewa.re/evm",
+    "https://mainnet4.edgewa.re/evm",
+    "https://mainnet5.edgewa.re/evm",
+    "wss://edgeware.jelliedowl.net",
+    "wss://mainnet2.edgewa.re",
+    "wss://mainnet3.edgewa.re",
+    "wss://mainnet4.edgewa.re",
+    "wss://mainnet5.edgewa.re"
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Edge",
+    "name": "Edgeware",
     "symbol": "EDG",
     "decimals": 18
   },
-  "infoURL": "http://edgewa.re",
+  "infoURL": "https://edgeware.io",
   "shortName": "edg",
   "chainId": 2021,
-  "networkId": 2021
+  "networkId": 2021,
+  "slip44": 523,
+  "explorers": [
+    {
+      "name": "Edgscan by Bharathcoorg",
+      "url": "https://edgscan.live",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Subscan",
+      "url": "https://edgeware.subscan.io",
+      "standard": "none",
+      "icon": "subscan"
+    }
+  ]
 }
