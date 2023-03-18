@@ -2,8 +2,8 @@
   "name": "Taiko (Alpha-2 Testnet)",
   "chain": "ETH",
   "icon": "taiko",
-  "rpc": ["https://l2rpc.a2.taiko.xyz"],
-  "faucets": ["https://l2faucet.a2.taiko.xyz"],
+  "rpc": ["https://rpc.a2.taiko.xyz"],
+  "faucets": ["https://faucet.a2.taiko.xyz"],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://l2explorer.a2.taiko.xyz",
+      "url": "https://explorer.a2.taiko.xyz",
       "standard": "EIP3091"
     }
   ]
