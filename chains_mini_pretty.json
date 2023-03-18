@@ -6161,6 +6161,19 @@
   "faucets": [],
   "infoURL": "https://www.kortho.io/"
 }, {
+  "name": "Dracones Financial Services",
+  "chainId": 8387,
+  "shortName": "fuck",
+  "networkId": 8387,
+  "nativeCurrency": {
+    "name": "Functionally Universal Coin Kind",
+    "symbol": "FUCK",
+    "decimals": 18
+  },
+  "rpc": ["https://api.dracones.net/"],
+  "faucets": [],
+  "infoURL": "https://wolfery.com"
+}, {
   "name": "Base",
   "chainId": 8453,
   "shortName": "base",
