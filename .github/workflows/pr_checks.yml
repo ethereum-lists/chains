@@ -24,15 +24,6 @@ jobs:
         files: _data/icons/*.json
         base_sha: ${{ steps.last_successful_commit_push.outputs.base }}
 
-    - name: Configure npm Caching
-      uses: actions/cache@v2
-      if: steps.changed-icons.outputs.any_changed == 'true'
-      with:
-        path: ~/.npm
-        key: ${{ runner.os }}-npm-${{ hashFiles('**/workflows/validate_json.yml') }}
-        restore-keys: |
-          ${{ runner.os }}-npm-
-
     - run: sudo apt-get -y install jq curl exiftool
 
     - name: Verify the changed icons
