@@ -1,0 +1,18 @@
+{
+  "name": "D-Chain Mainnet",
+  "chain": "D-Chain",
+  "rpc": [
+    "https://mainnet.d-chain.network/ext/bc/2ZiR1Bro5E59siVuwdNuRFzqL95NkvkbzyLBdrsYR9BLSHV7H4/rpc"
+  ],
+  "nativeCurrency": {
+    "name": "DOINX",
+    "symbol": "DOINX",
+    "decimals": 18
+  },
+  "shortName": "dchain-mainnet",
+  "chainId": 1951,
+  "networkId": 1951,
+  "icon": "dchain",
+  "faucets": [],
+  "infoURL": ""
+}

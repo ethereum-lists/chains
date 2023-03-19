@@ -1,0 +1,24 @@
+{
+  "name": "Crystaleum",
+  "chain": "crystal",
+  "rpc": ["https://evm.cryptocurrencydevs.org", "https://rpc.crystaleum.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CRFI",
+    "symbol": "◈",
+    "decimals": 18
+  },
+  "infoURL": "https://crystaleum.org",
+  "shortName": "CRFI",
+  "chainId": 103090,
+  "networkId": 1,
+  "icon": "crystal",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://scan.crystaleum.org",
+      "icon": "crystal",
+      "standard": "EIP3091"
+    }
+  ]
+}

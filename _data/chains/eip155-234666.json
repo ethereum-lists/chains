@@ -1,0 +1,15 @@
+{
+  "name": "Haymo Testnet",
+  "chain": "tHYM",
+  "rpc": ["https://testnet1.haymo.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "HAYMO",
+    "symbol": "HYM",
+    "decimals": 18
+  },
+  "infoURL": "https://haymoswap.web.app/",
+  "shortName": "hym",
+  "chainId": 234666,
+  "networkId": 234666
+}

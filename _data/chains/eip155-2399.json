@@ -1,0 +1,24 @@
+{
+  "name": "BOMB Chain Testnet",
+  "chain": "BOMB",
+  "rpc": ["https://bombchain-testnet.ankr.com/bas_full_rpc_1"],
+  "faucets": ["https://faucet.bombchain-testnet.ankr.com/"],
+  "nativeCurrency": {
+    "name": "BOMB Token",
+    "symbol": "tBOMB",
+    "decimals": 18
+  },
+  "infoURL": "https://www.bombmoney.com",
+  "shortName": "bombt",
+  "chainId": 2399,
+  "networkId": 2399,
+  "icon": "bomb",
+  "explorers": [
+    {
+      "name": "bombscan-testnet",
+      "icon": "bomb",
+      "url": "https://explorer.bombchain-testnet.ankr.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Dithereum Testnet",
+  "chain": "DTH",
+  "icon": "dithereum",
+  "rpc": ["https://node-testnet.dithereum.io"],
+  "faucets": ["https://faucet.dithereum.org"],
+  "nativeCurrency": {
+    "name": "Dither",
+    "symbol": "DTH",
+    "decimals": 18
+  },
+  "infoURL": "https://dithereum.org",
+  "shortName": "dth",
+  "chainId": 34,
+  "networkId": 34
+}

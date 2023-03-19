@@ -1,0 +1,24 @@
+{
+  "name": "Mixin Virtual Machine",
+  "chain": "MVM",
+  "rpc": ["https://geth.mvm.dev"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://mvm.dev",
+  "shortName": "mvm",
+  "chainId": 73927,
+  "networkId": 73927,
+  "icon": "mvm",
+  "explorers": [
+    {
+      "name": "mvmscan",
+      "url": "https://scan.mvm.dev",
+      "icon": "mvm",
+      "standard": "EIP3091"
+    }
+  ]
+}

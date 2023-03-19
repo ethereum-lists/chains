@@ -1,0 +1,23 @@
+{
+  "name": "Crossbell",
+  "chain": "Crossbell",
+  "rpc": ["https://rpc.crossbell.io"],
+  "faucets": ["https://faucet.crossbell.io"],
+  "nativeCurrency": {
+    "name": "Crossbell Token",
+    "symbol": "CSB",
+    "decimals": 18
+  },
+  "infoURL": "https://crossbell.io",
+  "shortName": "csb",
+  "chainId": 3737,
+  "networkId": 3737,
+  "icon": "crossbell",
+  "explorers": [
+    {
+      "name": "Crossbell Explorer",
+      "url": "https://scan.crossbell.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

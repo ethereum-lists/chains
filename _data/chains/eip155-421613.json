@@ -1,0 +1,28 @@
+{
+  "name": "Arbitrum Goerli",
+  "title": "Arbitrum Goerli Rollup Testnet",
+  "chainId": 421613,
+  "shortName": "arb-goerli",
+  "chain": "ETH",
+  "networkId": 421613,
+  "nativeCurrency": {
+    "name": "Arbitrum Goerli Ether",
+    "symbol": "AGOR",
+    "decimals": 18
+  },
+  "rpc": ["https://goerli-rollup.arbitrum.io/rpc/"],
+  "faucets": [],
+  "infoURL": "https://arbitrum.io/",
+  "explorers": [
+    {
+      "name": "Arbitrum Goerli Rollup Explorer",
+      "url": "https://goerli-rollup-explorer.arbitrum.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-5",
+    "bridges": [{ "url": "https://bridge.arbitrum.io/" }]
+  }
+}

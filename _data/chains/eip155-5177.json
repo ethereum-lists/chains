@@ -1,0 +1,23 @@
+{
+  "name": "TLChain Network Mainnet",
+  "chain": "TLC",
+  "icon": "tlc",
+  "rpc": ["https://mainnet-rpc.tlxscan.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TLChain Network",
+    "symbol": "TLC",
+    "decimals": 18
+  },
+  "infoURL": "https://tlchain.network/",
+  "shortName": "tlc",
+  "chainId": 5177,
+  "networkId": 5177,
+  "explorers": [
+    {
+      "name": "TLChain Explorer",
+      "url": "https://explorer.tlchain.network",
+      "standard": "none"
+    }
+  ]
+}

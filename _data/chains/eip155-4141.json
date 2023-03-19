@@ -1,0 +1,23 @@
+{
+  "name": "Tipboxcoin Testnet",
+  "chain": "TPBX",
+  "icon": "tipboxcoinIcon",
+  "rpc": ["https://testnet-rpc.tipboxcoin.net"],
+  "faucets": ["https://faucet.tipboxcoin.net"],
+  "nativeCurrency": {
+    "name": "Tipboxcoin",
+    "symbol": "TPBX",
+    "decimals": 18
+  },
+  "infoURL": "https://tipboxcoin.net",
+  "shortName": "TPBXt",
+  "chainId": 4141,
+  "networkId": 4141,
+  "explorers": [
+    {
+      "name": "Tipboxcoin",
+      "url": "https://testnet.tipboxcoin.net",
+      "standard": "EIP3091"
+    }
+  ]
+}

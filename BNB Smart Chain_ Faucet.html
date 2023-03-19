@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://testnet.bnbchain.org/faucet-smart -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>BNB Smart Chain: Faucet</title>
+
+		<link href="./BNB Smart Chain_ Faucet_files/bootstrap.min.css" rel="stylesheet">
+		<link href="./BNB Smart Chain_ Faucet_files/font-awesome.min.css" rel="stylesheet">
+
+		<script src="./BNB Smart Chain_ Faucet_files/jquery.min.js.download"></script>
+		<script src="./BNB Smart Chain_ Faucet_files/jquery.noty.packaged.min.js.download"></script>
+		<script src="./BNB Smart Chain_ Faucet_files/bootstrap.min.js.download"></script>
+		<script src="./BNB Smart Chain_ Faucet_files/moment.min.js.download"></script>
+
+		<style>
+			.vertical-center {
+				min-height: 100%;
+				min-height: 100vh;
+				display: flex;
+				align-items: center;
+			}
+			.progress {
+				position: relative;
+			}
+			.progress span {
+				position: absolute;
+				display: block;
+				width: 100%;
+				color: white;
+			 }
+			 pre {
+				 padding: 6px;
+				 margin: 0;
+			 }
+		</style>
+	</head>
+
+	<body>
+	<div id="recaptcha_element" style="display: none;"><iframe src="./BNB Smart Chain_ Faucet_files/hcaptcha.html" tabindex="0" frameborder="0" scrolling="no" title="Widget containing checkbox for hCaptcha security challenge" data-hcaptcha-widget-id="079zl3ctu36t" data-hcaptcha-response="" style="width: 303px; height: 78px; overflow: hidden;"></iframe><textarea id="g-recaptcha-response-079zl3ctu36t" name="g-recaptcha-response" style="display: none;"></textarea><textarea id="h-captcha-response-079zl3ctu36t" name="h-captcha-response" style="display: none;"></textarea></div>
+
+	<div id="contendBody" class="vertical-center" style="display: block;">
+			<div class="container">
+				<div class="row" style="margin-bottom: 16px;">
+					<div class="col-lg-12">
+						<h1 style="text-align: center;"><i class="fa fa-bath" aria-hidden="true"></i> BNB Smart Chain Faucet</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="input-group">
+							<input id="url" name="url" type="text" class="form-control" placeholder="Input your BNB Smart Chain address..." autocomplete="off">
+							<span class="input-group-btn">
+								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Give me BNB	<i class="fa fa-caret-down" aria-hidden="true"></i></button>
+				        <ul class="dropdown-menu dropdown-menu-right">
+						  
+				          <li><a style="text-align: center;" onclick="tier= 0 ;symbol=&#39;BNB&#39;;submit()">0.5 BNBs</a></li>
+				        </ul>
+							</span>
+							<span class="input-group-btn">
+								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Peggy tokens<i class="fa fa-caret-down" aria-hidden="true"></i></button>
+				        <ul class="dropdown-menu dropdown-menu-right"> 
+								<li><a style="text-align: center;" onclick="symbol=&quot;BTC&quot;; submit()">0.1 BTC</a></li>
+								<li><a style="text-align: center;" onclick="symbol=&quot;BUSD&quot;; submit()">10 BUSD</a></li>
+								<li><a style="text-align: center;" onclick="symbol=&quot;DAI&quot;; submit()">10 DAI</a></li>
+								<li><a style="text-align: center;" onclick="symbol=&quot;ETH&quot;; submit()">0.1 ETH</a></li>
+								<li><a style="text-align: center;" onclick="symbol=&quot;USDC&quot;; submit()">10 USDC</a></li>
+								<li><a style="text-align: center;" onclick="symbol=&quot;USDT&quot;; submit()">10 USDT</a></li>
+								<li><a style="text-align: center;" onclick="symbol=&quot;XRP&quot;; submit()">10 XRP</a></li>
+				        </ul>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="row" style="margin-top: 32px;">
+						<div class="col-lg-6 col-lg-offset-3">
+						<div class="panel panel-small panel-default">
+							<div class="panel-body" style="padding: 0; overflow: auto; max-height: 300px;">
+								<table id="requests" class="table table-condensed" style="margin: 0;"><tbody><tr id="0xf10e58cdf4a6500e8755e26314c26f9b56c1b3537745f2e45941f8b4b8088b21">  <td><div style="background: url(&#39;&#39;); background-size: cover; width:32px; height: 32px; border-radius: 4px;"></div></td>  <td><pre>0xe81387472f2f48ebc93c9ed312a6e766f715ed79</pre></td>  <td style="width: 100%; text-align: center; vertical-align: middle;">    funded    <div class="progress" style="height: 4px; margin: 0;">      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="30" style="width:100%;"></div>    </div>  </td></tr></tbody></table>
+							</div>
+							<div class="panel-footer">
+								<table style="width: 100%"><tbody><tr>
+									<td style="text-align: center;"><i class="fa fa-rss" aria-hidden="true"></i> <span id="peers">1</span> peers</td>
+									<td style="text-align: center;"><i class="fa fa-database" aria-hidden="true"></i> <span id="block">27562579</span> blocks</td>
+									<td style="text-align: center;"><i class="fa fa-heartbeat" aria-hidden="true"></i> <span id="funds">238110</span> BNBs</td>
+									<td style="text-align: center;"><i class="fa fa-university" aria-hidden="true"></i> <span id="funded">7319453</span> funded</td>
+								</tr></tbody></table>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row" style="margin-top: 32px;">
+					<div class="col-lg-12">
+						<h3>How does this work?</h3>
+						<p><a href="https://testnet.bscscan.com/address/0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8">BTC</a>,<a href="https://testnet.bscscan.com/address/0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378">ETH</a>,<a href="https://testnet.bscscan.com/address/0xa83575490D7df4E2F47b7D38ef351a2722cA45b9">XRP</a>,<a href="https://testnet.bscscan.com/address/0xed24fc36d5ee211ea25a80239fb8c4cfd80f12ee">BUSD</a>,<a href="https://testnet.bscscan.com/address/0x337610d27c682E347C9cD60BD4b3b107C9d34dDd">USDT</a>,<a href="https://testnet.bscscan.com/address/0x64544969ed7EBf5f083679233325356EbE738930">USDC</a>,<a href="https://testnet.bscscan.com/address/0xEC5dCb5Dbf4B114C9d0F65BcCAb49EC54F6A0867">DAI</a> are issued as BEP20 token.</p>
+						<p> Click to get detail about <a href="https://github.com/bnb-chain/BEPs/blob/master/BEP20.md">BEP20</a>.</p>
+
+						<p> Support Discord: <a href="http://discord.gg/bnbchain"> discord.gg/bnbchain </a> </p>
+						<em>The faucet is running reCaptcha protection against bots.</em>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			
+			var attempt = 0;
+			var server;
+			var tier = 0;
+			var symbol="";
+			var requests = [];
+			var captcha;
+
+			
+			var dropper = function(hash) {
+				return function() {
+					for (var i=0; i<requests.length; i++) {
+						if (requests[i].tx.hash == hash) {
+							requests.splice(i, 1);
+							break;
+						}
+					}
+				}
+			};
+
+			document.getElementById("contendBody").style.display = "none";
+
+			var recaptchaCallback = function() {
+				hcaptcha.render('recaptcha_element', {
+					'sitekey' : 'd9a9ee67-74da-4601-9f31-efe6a297a5cc',
+					'callback' : assignCallback,
+				});
+			};
+
+			var assignCallback = function(gcaptcha) {
+				document.getElementById("contendBody").style.display = "block";
+				document.getElementById("recaptcha_element").style.display = "none";
+				captcha = gcaptcha;
+			};
+			
+			var submit = function() {
+				server.send(JSON.stringify({url: $("#url")[0].value, symbol: symbol, tier: tier, captcha: captcha}));
+				hcaptcha.reset();
+			};
+			
+			var reconnect = function() {
+				server = new WebSocket(((window.location.protocol === "https:") ? "wss://" : "ws://") + window.location.host + "/faucet-smart/api");
+
+				server.onmessage = function(event) {
+					var msg = JSON.parse(event.data);
+					if (msg === null) {
+						return;
+					}
+
+					if (msg.funds !== undefined) {
+						$("#funds").text(msg.funds);
+					}
+					if (msg.funded !== undefined) {
+						$("#funded").text(msg.funded);
+					}
+					if (msg.peers !== undefined) {
+						$("#peers").text(msg.peers);
+					}
+					if (msg.number !== undefined) {
+						$("#block").text(parseInt(msg.number, 16));
+					}
+					if (msg.error !== undefined) {
+						noty({layout: 'topCenter', text: msg.error, type: 'error', timeout: 5000, progressBar: true});
+					}
+					if (msg.success !== undefined) {
+						noty({layout: 'topCenter', text: msg.success, type: 'success', timeout: 5000, progressBar: true});
+					}
+					if (msg.requests !== undefined && msg.requests !== null) {
+						
+						for (var i=0; i<requests.length; i++) {
+							if (msg.requests.length > 0 && msg.requests[0].tx.hash == requests[i].tx.hash) {
+								break;
+							}
+							if (requests[i].time != "") {
+								requests[i].time = "";
+								setTimeout(dropper(requests[i].tx.hash), 3000);
+							}
+						}
+						
+						var common = -1;
+						if (requests.length > 0) {
+							for (var i=0; i<msg.requests.length; i++) {
+								if (requests[requests.length-1].tx.hash == msg.requests[i].tx.hash) {
+									common = i;
+									break;
+								}
+							}
+						}
+						for (var i=common+1; i<msg.requests.length; i++) {
+							requests.push(msg.requests[i]);
+						}
+						
+						var content = "";
+						for (var i=0; i<requests.length; i++) {
+							var done    = requests[i].time == "";
+							var elapsed = moment().unix()-moment(requests[i].time).unix();
+
+							content += "<tr id='" + requests[i].tx.hash + "'>";
+							content += "  <td><div style=\"background: url('" + requests[i].avatar + "'); background-size: cover; width:32px; height: 32px; border-radius: 4px;\"></div></td>";
+							content += "  <td><pre>" + requests[i].account + "</pre></td>";
+							content += "  <td style=\"width: 100%; text-align: center; vertical-align: middle;\">";
+							if (done) {
+								content += "    funded";
+							} else {
+								content += "    <span id='time-" + i + "' class='timer'>" + moment.duration(-elapsed, 'seconds').humanize(true) + "</span>";
+							}
+							content += "    <div class='progress' style='height: 4px; margin: 0;'>";
+							if (done) {
+								content += "      <div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='30' style='width:100%;'></div>";
+							} else if (elapsed > 30) {
+								content += "      <div class='progress-bar progress-bar-danger progress-bar-striped active' role='progressbar' aria-valuenow='30' style='width:100%;'></div>";
+							} else {
+								content += "      <div class='progress-bar progress-bar-striped active' role='progressbar' aria-valuenow='" + elapsed + "' style='width:" + (elapsed * 100 / 30) + "%;'></div>";
+							}
+							content += "    </div>";
+							content += "  </td>";
+							content += "</tr>";
+						}
+						$("#requests").html("<tbody>" + content + "</tbody>");
+					}
+				}
+				server.onclose = function() { setTimeout(reconnect, 3000); };
+			}
+			
+			setInterval(function() {
+				$('.progress-bar').each(function() {
+					var progress = Number($(this).attr('aria-valuenow')) + 1;
+					if (progress < 30) {
+						$(this).attr('aria-valuenow', progress);
+						$(this).css('width', (progress * 100 / 30) + '%');
+					} else if (progress == 30) {
+						$(this).css('width', '100%');
+						$(this).addClass("progress-bar-danger");
+					}
+				})
+				$('.timer').each(function() {
+					var index = Number($(this).attr('id').substring(5));
+					$(this).html(moment.duration(moment(requests[index].time).unix()-moment().unix(), 'seconds').humanize(true));
+				})
+			}, 1000);
+
+			
+			reconnect();
+		</script>
+		<script src="./BNB Smart Chain_ Faucet_files/api.js.download" async="" defer=""></script>
+	
+
+<iframe frameborder="0" scrolling="no" style="background-color: transparent; border: 0px; display: none;" src="./BNB Smart Chain_ Faucet_files/saved_resource.html"></iframe><div id="GOOGLE_INPUT_CHEXT_FLAG" input="" input_stat="{&quot;tlang&quot;:true,&quot;tsbc&quot;:true,&quot;pun&quot;:true,&quot;mk&quot;:true,&quot;ss&quot;:true}" style="display: none;"></div><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(215, 215, 215); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 4px; border-radius: 4px; left: auto; top: -10000px; z-index: -2147483648; position: absolute; transition: opacity 0.15s ease-out 0s; opacity: 0; visibility: hidden; display: block;" aria-hidden="true"><div style="position: relative; z-index: 1; width: 400px; height: 590px;"><iframe src="./BNB Smart Chain_ Faucet_files/hcaptcha(1).html" frameborder="0" scrolling="no" title="Main content of the hCaptcha challenge" style="border: 0px; z-index: 2000000000; position: relative; width: 400px; height: 590px;"></iframe></div><div style="width: 100%; height: 100%; position: fixed; pointer-events: none; top: 0px; left: 0px; z-index: 0; background-color: rgb(255, 255, 255); opacity: 0.05; cursor: default;"></div><div style="border-width: 11px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 1; right: 100%; top: 18px;"><div style="border-width: 10px; border-style: solid; border-color: transparent rgb(255, 255, 255) transparent transparent; position: relative; top: 10px; z-index: 1; display: block;"></div><div style="border-width: 11px; border-style: solid; border-color: transparent rgb(215, 215, 215) transparent transparent; position: relative; top: -11px; z-index: 0; display: block;"></div></div></div></body></html>

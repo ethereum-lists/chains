@@ -1,0 +1,15 @@
+{
+  "name": "myOwn Testnet",
+  "chain": "myOwn",
+  "rpc": ["https://geth.dev.bccloud.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MYN",
+    "symbol": "MYN",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.bccloud.net/",
+  "shortName": "myn",
+  "chainId": 9999,
+  "networkId": 9999
+}

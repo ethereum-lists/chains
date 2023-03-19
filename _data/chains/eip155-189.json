@@ -1,0 +1,22 @@
+{
+  "name": "BMC Testnet",
+  "chain": "BMC",
+  "rpc": ["https://testnet.bmcchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTM",
+    "symbol": "BTM",
+    "decimals": 18
+  },
+  "infoURL": "https://bmc.bytom.io/",
+  "shortName": "BMCT",
+  "chainId": 189,
+  "networkId": 189,
+  "explorers": [
+    {
+      "name": "Blockmeta",
+      "url": "https://bmctestnet.blockmeta.com",
+      "standard": "none"
+    }
+  ]
+}

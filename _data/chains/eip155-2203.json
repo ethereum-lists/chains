@@ -1,0 +1,24 @@
+{
+  "name": "Bitcoin EVM",
+  "chain": "Bitcoin EVM",
+  "rpc": ["https://connect.bitcoinevm.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bitcoin",
+    "symbol": "eBTC",
+    "decimals": 18
+  },
+  "infoURL": "https://bitcoinevm.com",
+  "shortName": "eBTC",
+  "chainId": 2203,
+  "networkId": 2203,
+  "icon": "ebtc",
+  "explorers": [
+    {
+      "name": "Explorer",
+      "url": "https://explorer.bitcoinevm.com",
+      "icon": "ebtc",
+      "standard": "none"
+    }
+  ]
+}
