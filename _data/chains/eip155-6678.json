@@ -1,0 +1,25 @@
+{
+  "name": "Babacoin",
+  "chain": "BBC",
+  "rpc": ["https://rpc.babacoin.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Babacoin",
+    "symbol": "BBC",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://babacoin.network",
+  "shortName": "bbc",
+  "chainId": 6678,
+  "networkId": 6678,
+  "icon": "bbc",
+  "explorers": [
+    {
+      "name": "explorer",
+      "url": "https://explorer.babacoin.network",
+      "icon": "bbc",
+      "standard": "EIP3091"
+    }
+  ]
+}
