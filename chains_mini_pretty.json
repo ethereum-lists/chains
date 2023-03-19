@@ -6967,6 +6967,19 @@
   "faucets": [],
   "infoURL": "https://ssquad.games/"
 }, {
+  "name": "LoopNetwork Mainnet",
+  "chainId": 15551,
+  "shortName": "loop",
+  "networkId": 15551,
+  "nativeCurrency": {
+    "name": "LOOP",
+    "symbol": "LOOP",
+    "decimals": 18
+  },
+  "rpc": ["https://api.mainnetloop.com"],
+  "faucets": [],
+  "infoURL": "http://theloopnetwork.org/"
+}, {
   "name": "Trust EVM Testnet",
   "chainId": 15555,
   "shortName": "TrustTestnet",
