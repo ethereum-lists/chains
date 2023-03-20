@@ -1,7 +1,10 @@
 {
   "name": "Syscoin Rollux Testnet",
   "chain": "SYS",
-  "rpc": ["https://rpc-tanenbaum.rollux.com", "wss://rpc-tanenbaum.rollux.com/wss"],
+  "rpc": [
+    "https://rpc-tanenbaum.rollux.com",
+    "wss://rpc-tanenbaum.rollux.com/wss"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Rollux Testnet Syscoin",
