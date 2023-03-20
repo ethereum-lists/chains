@@ -7864,6 +7864,19 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "Syscoin Rollux Testnet",
+  "chainId": 57000,
+  "shortName": "tsys-rollux",
+  "networkId": 57000,
+  "nativeCurrency": {
+    "name": "Rollux Testnet Syscoin",
+    "symbol": "tSYS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-tanenbaum.rollux.com", "wss://rpc-tanenbaum.rollux.com/wss"],
+  "faucets": [],
+  "infoURL": "https://syscoin.org"
+}, {
   "name": "Thinkium Testnet Chain 0",
   "chainId": 60000,
   "shortName": "TKM-test0",
