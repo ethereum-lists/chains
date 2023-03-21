@@ -6375,6 +6375,54 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Lightlink Phoenix Mainnet",
+  "chain": "Lightlink Phoenix Mainnet",
+  "icon": "lightlink",
+  "rpc": ["https://replicator-01.phoenix.lightlink.io/rpc/v1", "https://replicator-02.phoenix.lightlink.io/rpc/v1"],
+  "features": [{
+    "name": "EIP155"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://lightlink.io",
+  "shortName": "lightlink_phoenix",
+  "chainId": 1890,
+  "networkId": 1890,
+  "explorers": [{
+    "name": "phoenix",
+    "url": "https://phoenix.lightlink.io",
+    "icon": "lightlink",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Lightlink Pegasus Testnet",
+  "chain": "Lightlink Pegasus Testnet",
+  "icon": "lightlink",
+  "rpc": ["https://replicator-01.pegasus.lightlink.io/rpc/v1", "https://replicator-02.pegasus.lightlink.io/rpc/v1"],
+  "features": [{
+    "name": "EIP155"
+  }],
+  "faucets": ["https://pegasus-faucet-react.vercel.app"],
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://lightlink.io",
+  "shortName": "lightlink_pegasus",
+  "chainId": 1891,
+  "networkId": 1891,
+  "explorers": [{
+    "name": "pegasus",
+    "url": "https://pegasus.lightlink.io",
+    "icon": "lightlink",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "BON Network",
   "chain": "BON",
   "rpc": ["http://rpc.boyanet.org:8545", "ws://rpc.boyanet.org:8546"],

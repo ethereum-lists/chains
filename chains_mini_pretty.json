@@ -4367,6 +4367,32 @@
   "faucets": [],
   "infoURL": "https://gitshock.com"
 }, {
+  "name": "Lightlink Phoenix Mainnet",
+  "chainId": 1890,
+  "shortName": "lightlink_phoenix",
+  "networkId": 1890,
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://replicator-01.phoenix.lightlink.io/rpc/v1", "https://replicator-02.phoenix.lightlink.io/rpc/v1"],
+  "faucets": [],
+  "infoURL": "https://lightlink.io"
+}, {
+  "name": "Lightlink Pegasus Testnet",
+  "chainId": 1891,
+  "shortName": "lightlink_pegasus",
+  "networkId": 1891,
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://replicator-01.pegasus.lightlink.io/rpc/v1", "https://replicator-02.pegasus.lightlink.io/rpc/v1"],
+  "faucets": ["https://pegasus-faucet-react.vercel.app"],
+  "infoURL": "https://lightlink.io"
+}, {
   "name": "BON Network",
   "chainId": 1898,
   "shortName": "boya",
