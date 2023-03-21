@@ -1,7 +1,7 @@
 {
-  "name": "zkSync v2",
+  "name": "zkSync Era Mainnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": ["https://zksync2-mainnet.zksync.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -12,18 +12,18 @@
   "shortName": "zksync",
   "chainId": 324,
   "networkId": 324,
-  "icon": "ethereum",
+  "icon": "zksync-era",
   "explorers": [
     {
-      "name": "zkSync v2 Block Explorer",
+      "name": "zkSync Era Block Explorer",
       "url": "https://explorer.zksync.io",
+      "icon": "zksync-era",
       "standard": "EIP3091"
     }
   ],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": []
-  },
-  "status": "incubating"
+    "bridges": [{ "url": "https://portal.zksync.io/bridge" }]
+  }
 }

@@ -26,6 +26,7 @@ private val allChainFiles = allFiles.filter { !it.isDirectory }
 
 private val allIconFilesList = iconsPath.listFiles() ?: error("${iconsPath.absolutePath} must contain the icon json files - but it does not")
 private val allIconFiles = allIconFilesList.filter { !it.isDirectory }
+private val allUsedIcons = mutableSetOf<String>()
 
 fun main(args: Array<String>) {
 
@@ -34,7 +35,7 @@ fun main(args: Array<String>) {
     val verbose = argsList.contains("verbose").also { argsList.remove("verbose") }
     if (argsList.firstOrNull() == "singleChainCheck") {
         val file = File(File(".."), args.last())
-        if (file.exists() && file.parentFile == chainsPath ) {
+        if (file.exists() && file.parentFile == chainsPath) {
             println("checking single chain " + args.last())
             checkChain(file, true, verbose)
         }
@@ -82,7 +83,12 @@ private fun createOutputFiles() {
         .forEach { iconLocation ->
 
             val jsonData = Klaxon().parseJsonArray(iconLocation.reader())
-            val iconName = iconLocation.toString().replace("../_data/icons/", "").replace(".json", "")
+
+            if (iconLocation.extension != "json") {
+                error("Icon must be json " + iconLocation)
+            }
+
+            val iconName = iconLocation.toString().removePrefix("../_data/icons/").removeSuffix(".json")
 
             val iconJson = JsonObject()
             iconJson["name"] = iconName
@@ -103,24 +109,6 @@ private fun createOutputFiles() {
     File(buildPath, "chain_icons.json").writeText(chainIconJSONArray.toJsonString(prettyPrint = true))
 
     File(buildPath, "shortNameMapping.json").writeText(shortNameMapping.toJsonString(prettyPrint = true))
-    File(buildPath, "index.html").writeText(
-        """
-            <!DOCTYPE HTML>
-            <html lang="en-US">
-                <head>
-                    <meta charset="UTF-8">
-                    <meta http-equiv="refresh" content="0; url=https://chainlist.org">
-                    <script type="text/javascript">
-                        window.location.href = "https://chainlist.org"
-                    </script>
-                    <title>Page Redirection</title>
-                </head>
-                <body>
-                    If you are not redirected automatically, follow this <a href='https://chainlist.org'>link to chainlist.org</a>.
-                </body>
-            </html>
-    """.trimIndent()
-    )
 
     File(buildPath, ".nojekyll").createNewFile()
     File(buildPath, "CNAME").writeText("chainid.network")
@@ -142,12 +130,25 @@ private fun doChecks(doRPCConnect: Boolean, doIconDownload: Boolean, verbose: Bo
         checkIcon(it, doIconDownload, allIconCIDs, verbose)
     }
 
+    val unusedIconDownload = mutableSetOf<String>()
     iconsDownloadPath.listFiles()?.forEach {
-        if (!allIconCIDs.contains(it.name)) throw UnreferencedIcon(it.name, iconsDownloadPath)
+        if (!allIconCIDs.contains(it.name)) unusedIconDownload.add(it.name)
     }
-
+    if (unusedIconDownload.isNotEmpty()) {
+        throw UnreferencedIcon(unusedIconDownload.joinToString(" "), iconsDownloadPath)
+    }
     allFiles.filter { it.isDirectory }.forEach { _ ->
         error("should not contain a directory")
+    }
+
+    val unusedIcons = mutableSetOf<String>()
+    iconsPath.listFiles().forEach {
+        if (!allUsedIcons.contains(it.name.toString().removeSuffix(".json"))) {
+            unusedIcons.add(it.toString())
+        }
+    }
+    if (unusedIcons.isNotEmpty()) {
+        error("error: unused icons ${unusedIcons.joinToString(" ")}")
     }
 }
 
@@ -268,9 +269,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
     }
 
     jsonObject["icon"]?.let {
-        if (!File(iconsPath, "$it.json").exists()) {
-            error("The Icon $it does not exist - was used in ${chainFile.name}")
-        }
+        processIcon(it, chainFile)
     }
 
     val nameRegex = Regex("^[a-zA-Z0-9\\-\\.\\(\\) ]+$")
@@ -323,6 +322,10 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
 
             if (explorer["name"] == null) {
                 throw (ExplorerMustHaveName())
+            }
+
+            explorer["icon"]?.let { explorerIcon ->
+                processIcon(explorerIcon, chainFile)
             }
 
             val url = explorer["url"]
@@ -466,6 +469,16 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
             }
         }
     }
+}
+
+private fun processIcon(it: Any, chainFile: File): Boolean {
+    if (it !is String) {
+        error("icon must be string")
+    }
+    if (!File(iconsPath, "$it.json").exists()) {
+        error("The Icon $it does not exist - was used in ${chainFile.name}")
+    }
+    return allUsedIcons.add(it)
 }
 
 private fun String.checkString(which: String) {
