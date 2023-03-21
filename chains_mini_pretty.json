@@ -8267,6 +8267,19 @@
   "faucets": ["https://www.coinbase.com/faucets/base-ethereum-goerli-faucet"],
   "infoURL": "https://base.org"
 }, {
+  "name": "CYBERTRUST",
+  "chainId": 85449,
+  "shortName": "Cyber",
+  "networkId": 48501,
+  "nativeCurrency": {
+    "name": "Cyber Trust",
+    "symbol": "CYBER",
+    "decimals": 18
+  },
+  "rpc": ["http://testnet.cybertrust.space:48501"],
+  "faucets": [],
+  "infoURL": "https://cybertrust.space"
+}, {
   "name": "Chiliz Scoville Testnet",
   "chainId": 88880,
   "shortName": "chz",
