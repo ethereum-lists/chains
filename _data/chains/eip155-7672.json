@@ -1,7 +1,10 @@
 {
   "name": "The Root Network - Porcini Testnet",
   "chain": "TRN",
-  "rpc": ["https://porcini.rootnet.app/archive", "wss://porcini.rootnet.app/archive/ws"],
+  "rpc": [
+    "https://porcini.rootnet.app/archive",
+    "wss://porcini.rootnet.app/archive/ws"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "XRP",

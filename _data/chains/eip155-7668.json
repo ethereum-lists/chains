@@ -1,7 +1,10 @@
 {
   "name": "The Root Network - Mainnet",
   "chain": "TRN",
-  "rpc": ["https://root.rootnet.live/archive", "wss://root.rootnet.live/archive/ws"],
+  "rpc": [
+    "https://root.rootnet.live/archive",
+    "wss://root.rootnet.live/archive/ws"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "XRP",
