@@ -9866,6 +9866,19 @@
   "faucets": ["https://faucet.autonity.org/"],
   "infoURL": "https://autonity.org/"
 }, {
+  "name": "T.E.A.M Blockchain",
+  "chainId": 88888888,
+  "shortName": "team",
+  "networkId": 88888888,
+  "nativeCurrency": {
+    "name": "TEAM",
+    "symbol": "$TEAM",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.teamblockchain.team"],
+  "faucets": [],
+  "infoURL": "https://teamblockchain.team"
+}, {
   "name": "Joys Digital TestNet",
   "chainId": 99415706,
   "shortName": "TOYS",
