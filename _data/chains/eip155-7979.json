@@ -2,14 +2,14 @@
   "name": "DOS Chain",
   "chain": "DOS",
   "rpc": ["https://main.doschain.com"],
-  "faucets": [],
+  "fsaucets": [],
   "nativeCurrency": {
     "name": "DOS Native Token",
     "symbol": "DOS",
     "decimals": 18
   },
   "infoURL": "https://doschain.io",
-  "shortName": "DOS Chain Mainnet",
+  "shortName": "DOSChain",
   "chainId": 7979,
   "networkId": 7979,
   "explorers": [
