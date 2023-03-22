@@ -5355,6 +5355,19 @@
   "faucets": ["https://faucet.crossbell.io"],
   "infoURL": "https://crossbell.io"
 }, {
+  "name": "AlveyChain Mainnet",
+  "chainId": 3797,
+  "shortName": "alv",
+  "networkId": 3797,
+  "nativeCurrency": {
+    "name": "AlveyCoin",
+    "symbol": "ALV",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.alveychain.com/rpc", "https://rpc2.alvey.io/rpc"],
+  "faucets": [],
+  "infoURL": "https://alveyscan.com/rpc"
+}, {
   "name": "DRAC Network",
   "chainId": 3912,
   "shortName": "drac",
