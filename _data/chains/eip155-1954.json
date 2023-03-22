@@ -1,0 +1,22 @@
+{
+  "name": "Dexilla Testnet",
+  "chain": "Dexilla",
+  "rpc": ["https://rpc.dexilla.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dexilla Native Token",
+    "symbol": "DXZ",
+    "decimals": 18
+  },
+  "infoURL": "https://dexilla.com",
+  "shortName": "Dexilla",
+  "chainId": 7979,
+  "networkId": 7979,
+  "explorers": [
+    {
+      "name": "dos-mainnet",
+      "url": "https://exp.dexilla.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
