@@ -8904,6 +8904,19 @@
   "faucets": [],
   "infoURL": "https://masterbank.org"
 }, {
+  "name": "HashKey Chain Testnet",
+  "chainId": 230315,
+  "shortName": "hsktest",
+  "networkId": 230315,
+  "nativeCurrency": {
+    "name": "HashKey Token",
+    "symbol": "tHSK",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.hashkeychain/rpc"],
+  "faucets": ["https://testnet.hashkeychain/faucet"],
+  "infoURL": "https://www.hashkey.com"
+}, {
   "name": "Haymo Testnet",
   "chainId": 234666,
   "shortName": "hym",
