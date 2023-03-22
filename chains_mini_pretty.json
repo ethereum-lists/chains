@@ -1598,6 +1598,19 @@
   "faucets": [],
   "infoURL": "https://polygon.technology/"
 }, {
+  "name": "WoopChain Mainnet",
+  "chainId": 139,
+  "shortName": "woop",
+  "networkId": 139,
+  "nativeCurrency": {
+    "name": "WoopCoin",
+    "symbol": "WOOC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.woop.ai/rpc"],
+  "faucets": [],
+  "infoURL": "https://wikiwoop.com"
+}, {
   "name": "Openpiece Testnet",
   "chainId": 141,
   "shortName": "OPtest",
