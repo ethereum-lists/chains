@@ -5992,6 +5992,32 @@
   "faucets": [],
   "infoURL": "https://shyft.network"
 }, {
+  "name": "The Root Network - Mainnet",
+  "chainId": 7668,
+  "shortName": "trn-mainnet",
+  "networkId": 7668,
+  "nativeCurrency": {
+    "name": "XRP",
+    "symbol": "XRP",
+    "decimals": 6
+  },
+  "rpc": ["https://root.rootnet.live/archive", "wss://root.rootnet.live/archive/ws"],
+  "faucets": [],
+  "infoURL": "https://www.futureverse.com/technology/root"
+}, {
+  "name": "The Root Network - Porcini Testnet",
+  "chainId": 7672,
+  "shortName": "trn-porcini",
+  "networkId": 7672,
+  "nativeCurrency": {
+    "name": "XRP",
+    "symbol": "XRP",
+    "decimals": 6
+  },
+  "rpc": ["https://porcini.rootnet.app/archive", "wss://porcini.rootnet.app/archive/ws"],
+  "faucets": [],
+  "infoURL": "https://www.futureverse.com/technology/root"
+}, {
   "name": "Canto",
   "chainId": 7700,
   "shortName": "canto",

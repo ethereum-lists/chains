@@ -8918,6 +8918,44 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "The Root Network - Mainnet",
+  "chain": "TRN",
+  "rpc": ["https://root.rootnet.live/archive", "wss://root.rootnet.live/archive/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "XRP",
+    "symbol": "XRP",
+    "decimals": 6
+  },
+  "infoURL": "https://www.futureverse.com/technology/root",
+  "shortName": "trn-mainnet",
+  "chainId": 7668,
+  "networkId": 7668,
+  "explorers": [{
+    "name": "rootnet",
+    "url": "https://explorer.rootnet.live",
+    "standard": "none"
+  }]
+}, {
+  "name": "The Root Network - Porcini Testnet",
+  "chain": "TRN",
+  "rpc": ["https://porcini.rootnet.app/archive", "wss://porcini.rootnet.app/archive/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "XRP",
+    "symbol": "XRP",
+    "decimals": 6
+  },
+  "infoURL": "https://www.futureverse.com/technology/root",
+  "shortName": "trn-porcini",
+  "chainId": 7672,
+  "networkId": 7672,
+  "explorers": [{
+    "name": "rootnet",
+    "url": "https://explorer.rootnet.cloud",
+    "standard": "none"
+  }]
+}, {
   "name": "Canto",
   "chain": "Canto",
   "rpc": ["https://canto.slingshot.finance", "https://canto.neobase.one", "https://mainnode.plexnode.org:8545"],
