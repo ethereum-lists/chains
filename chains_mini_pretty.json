@@ -8748,6 +8748,19 @@
   "faucets": [],
   "infoURL": "https://siberium.net"
 }, {
+  "name": "ADIL Devnet",
+  "chainId": 123456,
+  "shortName": "dadil",
+  "networkId": 123456,
+  "nativeCurrency": {
+    "name": "Devnet ADIL",
+    "symbol": "ADIL",
+    "decimals": 18
+  },
+  "rpc": ["https://devnet.adilchain-rpc.io"],
+  "faucets": [],
+  "infoURL": "https://adilchain.io"
+}, {
   "name": "ETND Chain Mainnets",
   "chainId": 131419,
   "shortName": "ETND",
