@@ -1,0 +1,24 @@
+{
+  "name": "Bonerium Chain",
+  "chain": "BONE",
+  "rpc": [
+    "https://rpc.boneriumtech.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bone",
+    "symbol": "BONE",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.boneriumtech.com/",
+  "shortName": "bone",
+  "chainId": 9117,
+  "networkId": 9117,
+  "explorers": [
+    {
+      "name": "Bonerscan",
+      "url": "https://bonerscan.com",
+      "standard": "none"
+    }
+  ]
+}
