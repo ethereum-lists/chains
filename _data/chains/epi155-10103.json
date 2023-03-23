@@ -1,0 +1,23 @@
+{
+    "name": "Siriusnet",
+    "chain": "SIS",
+    "faucets": [],
+    "rpc": ["https://rpc2.siriusnet.io"],
+    "icon": "siriusnet",
+    "nativeCurrency": {
+      "name": "MCD",
+      "symbol": "MCD",
+      "decimals": 18
+    },
+    "infoURL": "https://siriusnet.io",
+    "shortName": "SIS",
+    "chainId": 10103,
+    "networkId": 10103,
+    "explorers": [
+      {
+        "name": "siriusnet explorer",
+        "url": "https://scan.siriusnet.io",
+        "standard": "none"
+      }
+    ]
+  }
