@@ -1,7 +1,7 @@
 {
   "name": "zkSync Era Testnet",
   "chain": "ETH",
-  "rpc": ["https://zksync2-testnet.zksync.dev"],
+  "rpc": ["https://testnet.era.zksync.dev"],
   "faucets": ["https://goerli.portal.zksync.io/faucet"],
   "nativeCurrency": {
     "name": "Ether",
