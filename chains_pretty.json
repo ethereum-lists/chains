@@ -2959,7 +2959,7 @@
 }, {
   "name": "zkSync Era Testnet",
   "chain": "ETH",
-  "rpc": ["https://zksync2-testnet.zksync.dev"],
+  "rpc": ["https://testnet.era.zksync.dev"],
   "faucets": ["https://goerli.portal.zksync.io/faucet"],
   "nativeCurrency": {
     "name": "Ether",
@@ -3289,7 +3289,7 @@
 }, {
   "name": "zkSync Era Mainnet",
   "chain": "ETH",
-  "rpc": ["https://zksync2-mainnet.zksync.io"],
+  "rpc": ["https://mainnet.era.zksync.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -3311,7 +3311,7 @@
     "type": "L2",
     "chain": "eip155-1",
     "bridges": [{
-      "url": "https://portal.zksync.io/bridge"
+      "url": "https://bridge.zksync.io/"
     }]
   }
 }, {

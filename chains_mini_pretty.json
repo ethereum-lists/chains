@@ -2075,7 +2075,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://zksync2-testnet.zksync.dev"],
+  "rpc": ["https://testnet.era.zksync.dev"],
   "faucets": ["https://goerli.portal.zksync.io/faucet"],
   "infoURL": "https://era.zksync.io/docs/"
 }, {
@@ -2231,7 +2231,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://zksync2-mainnet.zksync.io"],
+  "rpc": ["https://mainnet.era.zksync.io"],
   "faucets": [],
   "infoURL": "https://zksync.io/"
 }, {
