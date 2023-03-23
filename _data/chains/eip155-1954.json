@@ -3,6 +3,7 @@
   "chain": "Dexilla",
   "rpc": ["https://rpc.dexilla.com"],
   "faucets": [],
+  "icon": "dxz",
   "nativeCurrency": {
     "name": "Dexilla Native Token",
     "symbol": "DXZ",
@@ -20,8 +21,8 @@
     }
   ],
   "parent": {
-   "type" : "L2",
-   "chain": "eip155-11155111",
-   "bridges": [ {"url":"https://bridge.dexilla.com"} ]
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "https://bridge.dexilla.com" }]
   }
 }
