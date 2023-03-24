@@ -4471,6 +4471,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Dexilla Testnet",
+  "chainId": 1954,
+  "shortName": "Dexilla",
+  "networkId": 1954,
+  "nativeCurrency": {
+    "name": "Dexilla Native Token",
+    "symbol": "DXZ",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.dexilla.com"],
+  "faucets": [],
+  "infoURL": "https://dexilla.com"
+}, {
   "name": "Eleanor",
   "chainId": 1967,
   "shortName": "mtc",
@@ -10229,6 +10242,19 @@
   "rpc": [],
   "faucets": [],
   "infoURL": "https://aurora.dev"
+}, {
+  "name": "RaptorChain",
+  "chainId": 1380996178,
+  "shortName": "rptr",
+  "networkId": 1380996178,
+  "nativeCurrency": {
+    "name": "Raptor",
+    "symbol": "RPTR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.raptorchain.io/web3"],
+  "faucets": [],
+  "infoURL": "https://raptorchain.io"
 }, {
   "name": "Nebula Mainnet",
   "chainId": 1482601649,

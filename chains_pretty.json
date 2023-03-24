@@ -6543,6 +6543,33 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Dexilla Testnet",
+  "chain": "Dexilla",
+  "rpc": ["https://rpc.dexilla.com"],
+  "faucets": [],
+  "icon": "dxz",
+  "nativeCurrency": {
+    "name": "Dexilla Native Token",
+    "symbol": "DXZ",
+    "decimals": 18
+  },
+  "infoURL": "https://dexilla.com",
+  "shortName": "Dexilla",
+  "chainId": 1954,
+  "networkId": 1954,
+  "explorers": [{
+    "name": "dos-mainnet",
+    "url": "https://exp.dexilla.com",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{
+      "url": "https://bridge.dexilla.com"
+    }]
+  }
+}, {
   "name": "Eleanor",
   "title": "Metatime Testnet Eleanor",
   "chain": "MTC",
@@ -15402,6 +15429,30 @@
   "shortName": "aurora-betanet",
   "chainId": 1313161556,
   "networkId": 1313161556
+}, {
+  "name": "RaptorChain",
+  "chain": "RPTR",
+  "rpc": ["https://rpc.raptorchain.io/web3"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Raptor",
+    "symbol": "RPTR",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "https://raptorchain.io",
+  "shortName": "rptr",
+  "chainId": 1380996178,
+  "networkId": 1380996178,
+  "icon": "raptorchain",
+  "explorers": [{
+    "name": "RaptorChain Explorer",
+    "url": "https://explorer.raptorchain.io",
+    "icon": "raptorchain_explorer",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Nebula Mainnet",
   "chain": "green-giddy-denebola",
