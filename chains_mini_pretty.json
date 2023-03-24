@@ -4471,19 +4471,6 @@
   "faucets": [],
   "infoURL": ""
 }, {
-  "name": "Dexilla Testnet",
-  "chainId": 1954,
-  "shortName": "Dexilla",
-  "networkId": 1954,
-  "nativeCurrency": {
-    "name": "Dexilla Native Token",
-    "symbol": "DXZ",
-    "decimals": 18
-  },
-  "rpc": ["https://rpc.dexilla.com"],
-  "faucets": [],
-  "infoURL": "https://dexilla.com"
-}, {
   "name": "Eleanor",
   "chainId": 1967,
   "shortName": "mtc",
@@ -7226,19 +7213,6 @@
   "rpc": ["https://seed.btcix.org/rpc"],
   "faucets": [],
   "infoURL": "https://bitcolojix.org"
-}, {
-  "name": "CamelArk Mainnet",
-  "chainId": 20001,
-  "shortName": "CamelArk",
-  "networkId": 20001,
-  "nativeCurrency": {
-    "name": "EthereumPoW",
-    "symbol": "ETHW",
-    "decimals": 18
-  },
-  "rpc": ["https://mainnet-http-rpc.camelark.com"],
-  "faucets": [],
-  "infoURL": "https://www.camelark.com"
 }, {
   "name": "Callisto Testnet",
   "chainId": 20729,
