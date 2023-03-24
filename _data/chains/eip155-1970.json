@@ -1,0 +1,32 @@
+{
+  "name": "Super Smart Chain Mainnet",
+  "chain": "SCS",
+  "rpc": [
+    "http://superexchain.superex.com:8545"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Super Chain Native Token",
+    "symbol": "SCS",
+    "decimals": 18
+  },
+  "infoURL": "http://superexchain.superex.com",
+  "shortName": "scs",
+  "chainId": 1970,
+  "networkId": 1970,
+  "explorers": [
+    {
+      "name": "scsscan",
+      "url": "http://superexchain.superex.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
