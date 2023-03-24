@@ -5796,7 +5796,7 @@
     "decimals": 18
   },
   "infoURL": "http://doschain.io/",
-  "shortName": "DOS",
+  "shortName": "TDOS",
   "chainId": 1311,
   "networkId": 1311,
   "explorers": [{
@@ -7981,6 +7981,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "DOS Tesnet",
+  "chain": "DOS",
+  "rpc": ["https://test.doschain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DOS",
+    "symbol": "DOS",
+    "decimals": 18
+  },
+  "infoURL": "http://doschain.io/",
+  "shortName": "dost",
+  "chainId": 3939,
+  "networkId": 3939,
+  "explorers": [{
+    "name": "DOScan-Test",
+    "url": "https://test.doscan.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "DYNO Mainnet",
   "chain": "DYNO",
   "rpc": ["https://api.dynoprotocol.com"],
@@ -9084,6 +9103,25 @@
     "name": "Hazlor Testnet Explorer",
     "url": "https://explorer.hazlor.com",
     "standard": "none"
+  }]
+}, {
+  "name": "DOS Chain",
+  "chain": "DOS",
+  "rpc": ["https://main.doschain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DOS",
+    "symbol": "DOS",
+    "decimals": 18
+  },
+  "infoURL": "https://doschain.io",
+  "shortName": "dos",
+  "chainId": 7979,
+  "networkId": 7979,
+  "explorers": [{
+    "name": "DOScan",
+    "url": "https://doscan.io",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Teleport",

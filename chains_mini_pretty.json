@@ -3966,7 +3966,7 @@
 }, {
   "name": "Dos Fuji Subnet",
   "chainId": 1311,
-  "shortName": "DOS",
+  "shortName": "TDOS",
   "networkId": 1311,
   "nativeCurrency": {
     "name": "Dos Native Token",
@@ -5394,6 +5394,19 @@
   "faucets": ["https://www.dracscan.io/faucet"],
   "infoURL": "https://drac.io/"
 }, {
+  "name": "DOS Tesnet",
+  "chainId": 3939,
+  "shortName": "dost",
+  "networkId": 3939,
+  "nativeCurrency": {
+    "name": "DOS",
+    "symbol": "DOS",
+    "decimals": 18
+  },
+  "rpc": ["https://test.doschain.com"],
+  "faucets": [],
+  "infoURL": "http://doschain.io/"
+}, {
   "name": "DYNO Mainnet",
   "chainId": 3966,
   "shortName": "dyno",
@@ -6095,6 +6108,19 @@
   "rpc": ["https://hatlas.rpc.hazlor.com:8545", "wss://hatlas.rpc.hazlor.com:8546"],
   "faucets": ["https://faucet.hazlor.com"],
   "infoURL": "https://hazlor.com"
+}, {
+  "name": "DOS Chain",
+  "chainId": 7979,
+  "shortName": "dos",
+  "networkId": 7979,
+  "nativeCurrency": {
+    "name": "DOS",
+    "symbol": "DOS",
+    "decimals": 18
+  },
+  "rpc": ["https://main.doschain.com"],
+  "faucets": [],
+  "infoURL": "https://doschain.io"
 }, {
   "name": "Teleport",
   "chainId": 8000,
