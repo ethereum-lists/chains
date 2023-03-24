@@ -9,12 +9,12 @@
     "decimals": 18
   },
   "infoURL": "https://doschain.io",
-  "shortName": "doschain-main",
+  "shortName": "dos",
   "chainId": 7979,
   "networkId": 7979,
   "explorers": [
     {
-      "name": "dos-mainnet",
+      "name": "doscan",
       "url": "https://doscan.io",
       "standard": "EIP3091"
     }
