@@ -4,7 +4,7 @@
   "rpc": ["https://main.doschain.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "DOS Native Token",
+    "name": "DOS",
     "symbol": "DOS",
     "decimals": 18
   },
@@ -14,7 +14,7 @@
   "networkId": 7979,
   "explorers": [
     {
-      "name": "doscan",
+      "name": "DOScan",
       "url": "https://doscan.io",
       "standard": "EIP3091"
     }

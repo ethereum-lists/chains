@@ -1,20 +1,20 @@
 {
-  "name": "DOS Fuji Subnet",
+  "name": "DOS Tesnet",
   "chain": "DOS",
   "rpc": ["https://test.doschain.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "DOS Native Token",
+    "name": "DOS",
     "symbol": "DOS",
     "decimals": 18
   },
   "infoURL": "http://doschain.io/",
-  "shortName": "TDOS",
+  "shortName": "dost",
   "chainId": 3939,
   "networkId": 3939,
   "explorers": [
     {
-      "name": "dos-testnet",
+      "name": "DOScan-Test",
       "url": "https://test.doscan.io",
       "standard": "EIP3091"
     }
