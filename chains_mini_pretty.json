@@ -6018,6 +6018,19 @@
   "faucets": [],
   "infoURL": "https://shyft.network"
 }, {
+  "name": "ADIL Testnet",
+  "chainId": 7575,
+  "shortName": "tadil",
+  "networkId": 7575,
+  "nativeCurrency": {
+    "name": "Testnet ADIL",
+    "symbol": "ADIL",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.adilchain-rpc.io"],
+  "faucets": ["https://testnet-faucet.adil-scan.io"],
+  "infoURL": "https://adilchain.io"
+}, {
   "name": "The Root Network - Mainnet",
   "chainId": 7668,
   "shortName": "trn-mainnet",
