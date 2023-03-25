@@ -4,14 +4,6 @@
   "rpc": [
     "http://superexchain.superex.com:8545"
   ],
-  "features": [
-    {
-      "name": "EIP155"
-    },
-    {
-      "name": "EIP1559"
-    }
-  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Super Chain Native Token",
