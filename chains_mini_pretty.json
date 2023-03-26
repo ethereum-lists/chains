@@ -9775,6 +9775,32 @@
   "faucets": [],
   "infoURL": "https://hap.land"
 }, {
+  "name": "Quarix Testnet",
+  "chainId": 8888881,
+  "shortName": "quarix-testnet",
+  "networkId": 8888881,
+  "nativeCurrency": {
+    "name": "Q",
+    "symbol": "Q",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": ""
+}, {
+  "name": "Quarix",
+  "chainId": 8888888,
+  "shortName": "quarix",
+  "networkId": 8888888,
+  "nativeCurrency": {
+    "name": "Q",
+    "symbol": "Q",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Plian Testnet Subchain 1",
   "chainId": 10067275,
   "shortName": "plian-testnet-l2",

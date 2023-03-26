@@ -14740,6 +14740,40 @@
     "icon": "hap"
   }]
 }, {
+  "name": "Quarix Testnet",
+  "chain": "Quarix",
+  "status": "incubating",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Q",
+    "symbol": "Q",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "quarix-testnet",
+  "chainId": 8888881,
+  "networkId": 8888881,
+  "icon": "quarix",
+  "explorers": []
+}, {
+  "name": "Quarix",
+  "chain": "Quarix",
+  "status": "incubating",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Q",
+    "symbol": "Q",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "quarix",
+  "chainId": 8888888,
+  "networkId": 8888888,
+  "icon": "quarix",
+  "explorers": []
+}, {
   "name": "Plian Testnet Subchain 1",
   "chain": "Plian",
   "rpc": ["https://testnet.plian.io/child_test"],
