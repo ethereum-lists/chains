@@ -12,10 +12,12 @@
   "shortName": "dost",
   "chainId": 3939,
   "networkId": 3939,
+  "icon": "doschain",
   "explorers": [
     {
       "name": "DOScan-Test",
       "url": "https://test.doscan.io",
+      "icon": "doschain",
       "standard": "EIP3091"
     }
   ]
