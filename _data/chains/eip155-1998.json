@@ -1,0 +1,23 @@
+{
+  "name": "Kyoto Blockchain Testnet",
+  "chain": "Kyoto Testnet",
+  "rpc": [""],
+  "faucets": [""],
+  "nativeCurrency": {
+    "name": "KYOTO",
+    "symbol": "KYOTO",
+    "decimals": 18
+  },
+  "infoURL": "https://kyotoprotocol.io/",
+  "shortName": "kyoto testnet",
+  "chainId": 1998,
+  "networkId": 1998,
+  "icon": "kyoto",
+  "explorers": [
+    {
+      "name": "kyotoscan",
+      "url": "",
+      "standard": "EIP3091"
+    }
+  ]
+}

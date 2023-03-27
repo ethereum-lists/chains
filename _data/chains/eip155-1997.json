@@ -1,0 +1,23 @@
+{
+  "name": "Kyoto Blockchain Mainnet",
+  "chain": "Kyoto Mainnet",
+  "rpc": [""],
+  "faucets": [""],
+  "nativeCurrency": {
+    "name": "KYOTO",
+    "symbol": "KYOTO",
+    "decimals": 18
+  },
+  "infoURL": "https://kyotoprotocol.io/",
+  "shortName": "kyoto",
+  "chainId": 1997,
+  "networkId": 1997,
+  "icon": "kyoto",
+  "explorers": [
+    {
+      "name": "kyotoscan",
+      "url": "",
+      "standard": "EIP3091"
+    }
+  ]
+}
