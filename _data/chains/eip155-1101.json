@@ -16,13 +16,13 @@
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://zkevm.polygonscan.com/",
+      "url": "https://zkevm.polygonscan.com",
       "standard": "EIP3091"
     }
   ],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.zkevm-rpc.com/" }]
+    "bridges": [{ "url": "https://bridge.zkevm-rpc.com" }]
   }
 }
