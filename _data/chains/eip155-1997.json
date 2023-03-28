@@ -1,8 +1,8 @@
 {
   "name": "Kyoto Blockchain Mainnet",
   "chain": "Kyoto Mainnet",
-  "rpc": [""],
-  "faucets": [""],
+  "rpc": [],
+  "faucets": [],
   "nativeCurrency": {
     "name": "KYOTO",
     "symbol": "KYOTO",
@@ -13,6 +13,7 @@
   "chainId": 1997,
   "networkId": 1997,
   "icon": "kyoto",
+  "status": "incubating",
   "explorers": [
     {
       "name": "kyotoscan",
