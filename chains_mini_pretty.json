@@ -3574,6 +3574,19 @@
   "faucets": [],
   "infoURL": "https://moac.io"
 }, {
+  "name": "Polygon zkEVM",
+  "chainId": 1101,
+  "shortName": "zkevm",
+  "networkId": 1101,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://zkevm-rpc.com"],
+  "faucets": [],
+  "infoURL": "https://polygon.technology/polygon-zkevm"
+}, {
   "name": "WEMIX3.0 Mainnet",
   "chainId": 1111,
   "shortName": "wemix",
