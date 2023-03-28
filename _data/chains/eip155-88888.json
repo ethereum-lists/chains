@@ -1,22 +1,22 @@
 {
-  "name": "IVAR Chain Mainnet",
-  "chain": "IVAR",
-  "icon": "ivar",
-  "rpc": ["https://mainnet-rpc.ivarex.com"],
-  "faucets": ["https://faucet.ivarex.com/"],
+  "name": "Chiliz Chain 2.0 Mainnet",
+  "chain": "CC2",
+  "icon": "cc2",
+  "rpc": ["https://rpc.chiliz.com"],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "Ivar",
-    "symbol": "IVAR",
+    "name": "Chiliz",
+    "symbol": "CHZ",
     "decimals": 18
   },
-  "infoURL": "https://ivarex.com",
-  "shortName": "ivar",
+  "infoURL": "https://chiliz.com/chiliz-chain-2-0/",
+  "shortName": "cc2",
   "chainId": 88888,
   "networkId": 88888,
   "explorers": [
     {
-      "name": "ivarscan",
-      "url": "https://ivarscan.com",
+      "name": "cc2scan",
+      "url": "https://scan.chiliz.com",
       "standard": "EIP3091"
     }
   ]
