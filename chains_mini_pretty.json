@@ -8046,6 +8046,19 @@
   "faucets": [],
   "infoURL": "https://syscoin.org"
 }, {
+  "name": "Linea Testnet",
+  "chainId": 59140,
+  "shortName": "linea-testnet",
+  "networkId": 59140,
+  "nativeCurrency": {
+    "name": "Goerli Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.goerli.linea.build"],
+  "faucets": ["https://faucetlink.to/goerli"],
+  "infoURL": "https://linea.build"
+}, {
   "name": "Thinkium Testnet Chain 0",
   "chainId": 60000,
   "shortName": "TKM-test0",
