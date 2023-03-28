@@ -1828,9 +1828,9 @@
     "symbol": "OKB",
     "decimals": 18
   },
-  "rpc": [],
-  "faucets": [],
-  "infoURL": "https://www.okex.com/okc"
+  "rpc": ["https://okbtestrpc.okbchain.org"],
+  "faucets": ["https://www.oklink.com/okbc-test"],
+  "infoURL": "https://www.okx.com/okbc/docs/dev/quick-start/introduction/introduction-to-okbchain"
 }, {
   "name": "OKBChain Mainnet",
   "chainId": 196,
