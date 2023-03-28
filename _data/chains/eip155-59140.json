@@ -15,9 +15,13 @@
   "networkId": 59140,
   "icon": "linea",
   "parent": {
-    "type" : "L2",
+    "type": "L2",
     "chain": "eip155-5",
-    "bridges": [ {"url":"https://goerli.hop.exchange/#/send?token=ETH&sourceNetwork=ethereum&destNetwork=linea"} ]
+    "bridges": [
+      {
+        "url":"https://goerli.hop.exchange/#/send?token=ETH&sourceNetwork=ethereum&destNetwork=linea"
+      }
+    ]
   },
   "explorers": [
     {
