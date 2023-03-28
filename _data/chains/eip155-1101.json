@@ -13,10 +13,12 @@
   "shortName": "zkevm",
   "chainId": 1101,
   "networkId": 1101,
+  "icon": "zkevm",
   "explorers": [
     {
       "name": "blockscout",
       "url": "https://zkevm.polygonscan.com",
+      "icon": "zkevm",
       "standard": "EIP3091"
     }
   ],
