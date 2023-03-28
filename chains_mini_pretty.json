@@ -5576,6 +5576,19 @@
   "faucets": [],
   "infoURL": "https://phi.network"
 }, {
+  "name": "Nexi Mainnet",
+  "chainId": 4242,
+  "shortName": "nexi",
+  "networkId": 4242,
+  "nativeCurrency": {
+    "name": "Nexi",
+    "symbol": "NEXI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.chain.nexi.technology/", "https://chain.nexilix.com", "https://chain.nexi.evmnode.online"],
+  "faucets": [],
+  "infoURL": "https://www.nexi.technology/"
+}, {
   "name": "Bobafuji Testnet",
   "chainId": 4328,
   "shortName": "BobaFujiTestnet",
