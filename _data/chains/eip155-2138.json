@@ -1,18 +1,18 @@
 {
-   "name": "Defi Oracle Meta Testnet",
-   "chain": "defiometatest",
-   "icon": "defioraclemeta",
-   "rpc": [
+  "name": "Defi Oracle Meta Testnet",
+  "chain": "defiometatest",
+  "icon": "defioraclemeta",
+  "rpc": [
     "https://rpc.public-2138.defi-oracle.io",
     "wss://rpc.public-2138.defi-oracle.io"
-   ],
-   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-   "faucets": [],
-   "nativeCurrency": {
-       "name": "testEther",
-       "symbol": "ETH",
-       "decimals": 18
-   },
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "testEther",
+    "symbol": "ETH",
+    "decimals": 18
+  },
   "infoURL": "https://defi-oracle.io/",
   "shortName": "dfio-meta-test",
   "chainId": 2138,
