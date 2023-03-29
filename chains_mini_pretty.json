@@ -2480,7 +2480,7 @@
   },
   "rpc": [],
   "faucets": [],
-  "infoURL": "https://camino.foundation/"
+  "infoURL": "https://camino.network/"
 }, {
   "name": "Columbus Test Network",
   "chainId": 501,
@@ -2491,9 +2491,9 @@
     "symbol": "CAM",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://columbus.camino.network/ext/bc/C/rpc"],
   "faucets": [],
-  "infoURL": "https://camino.foundation/"
+  "infoURL": "https://camino.network/"
 }, {
   "name": "Double-A Chain Mainnet",
   "chainId": 512,
