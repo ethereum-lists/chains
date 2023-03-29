@@ -4510,6 +4510,32 @@
   "faucets": ["https://faucet.metatime.com/eleanor"],
   "infoURL": "https://eleanor.metatime.com"
 }, {
+  "name": "Super Smart Chain Testnet",
+  "chainId": 1969,
+  "shortName": "tscs",
+  "networkId": 1969,
+  "nativeCurrency": {
+    "name": "Super Chain Native Token",
+    "symbol": "TSCS",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.superexchain.com:8544"],
+  "faucets": ["https://testnet.superexchain.com"],
+  "infoURL": "https://testnet.superexchain.com"
+}, {
+  "name": "Super Smart Chain Mainnet",
+  "chainId": 1970,
+  "shortName": "scs",
+  "networkId": 1970,
+  "nativeCurrency": {
+    "name": "Super Chain Native Token",
+    "symbol": "SCS",
+    "decimals": 18
+  },
+  "rpc": ["https://superexchain.com:8545"],
+  "faucets": [],
+  "infoURL": "https://superexchain.com"
+}, {
   "name": "Atelier",
   "chainId": 1971,
   "shortName": "atlr",
