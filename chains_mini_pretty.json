@@ -1416,6 +1416,19 @@
   "faucets": [],
   "infoURL": "https://debank.com"
 }, {
+  "name": "Uptick Mainnet",
+  "chainId": 117,
+  "shortName": "auptick",
+  "networkId": 117,
+  "nativeCurrency": {
+    "name": "Uptick",
+    "symbol": "UPTICK",
+    "decimals": 18
+  },
+  "rpc": ["https://json-rpc.uptick.network"],
+  "faucets": [],
+  "infoURL": "https://www.uptick.network"
+}, {
   "name": "Arcology Testnet",
   "chainId": 118,
   "shortName": "arcology",
