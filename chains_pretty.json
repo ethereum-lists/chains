@@ -4369,6 +4369,7 @@
   "icon": "meer",
   "explorers": [{
     "name": "meerscan",
+    "icon": "meer",
     "url": "https://evm.meerscan.com",
     "standard": "none"
   }]
@@ -9368,9 +9369,90 @@
   "icon": "meer",
   "explorers": [{
     "name": "meerscan testnet",
+    "icon": "meer",
     "url": "https://testnet.qng.meerscan.io",
     "standard": "none"
   }]
+}, {
+  "name": "Qitmeer Network Mixnext",
+  "chain": "MEER",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Qitmeer Mixnet",
+    "symbol": "MEER-M",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/Qitmeer",
+  "shortName": "meermix",
+  "icon": "meer",
+  "chainId": 8132,
+  "networkId": 8132,
+  "status": "incubating"
+}, {
+  "name": "Qitmeer Network Privnet",
+  "chain": "MEER",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Qitmeer Privnet",
+    "symbol": "MEER-P",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/Qitmeer",
+  "shortName": "meerpriv",
+  "icon": "meer",
+  "chainId": 8133,
+  "networkId": 8133,
+  "status": "incubating"
+}, {
+  "name": "Amana",
+  "chain": "MEER",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Amana Mainnet",
+    "symbol": "MEER",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/Qitmeer",
+  "shortName": "amana",
+  "icon": "meer",
+  "chainId": 8134,
+  "networkId": 8134,
+  "status": "incubating"
+}, {
+  "name": "Flana",
+  "chain": "MEER",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Flana Mainnet",
+    "symbol": "MEER",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/Qitmeer",
+  "shortName": "flana",
+  "icon": "meer",
+  "chainId": 8135,
+  "networkId": 8135,
+  "status": "incubating"
+}, {
+  "name": "Mizana",
+  "chain": "MEER",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Mizana Mainnet",
+    "symbol": "MEER",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/Qitmeer",
+  "shortName": "mizana",
+  "icon": "meer",
+  "chainId": 8136,
+  "networkId": 8136,
+  "status": "incubating"
 }, {
   "name": "BeOne Chain Testnet",
   "chain": "BOC",
@@ -12624,6 +12706,150 @@
     "url": "https://mumbai.polygonscan.com",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Amana Testnet",
+  "chain": "MEER",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Amana Testnet",
+    "symbol": "MEER-t",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/Qitmeer",
+  "shortName": "amanatest",
+  "icon": "meer",
+  "chainId": 81341,
+  "networkId": 81341,
+  "status": "incubating"
+}, {
+  "name": "Amana Mixnet",
+  "chain": "MEER",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Amana Mixnet",
+    "symbol": "MEER-m",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/Qitmeer",
+  "shortName": "amanamix",
+  "icon": "meer",
+  "chainId": 81342,
+  "networkId": 81342,
+  "status": "incubating"
+}, {
+  "name": "Amana Privnet",
+  "chain": "MEER",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Amana Privnet",
+    "symbol": "MEER-p",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/Qitmeer",
+  "shortName": "amanapriv",
+  "icon": "meer",
+  "chainId": 81343,
+  "networkId": 81343,
+  "status": "incubating"
+}, {
+  "name": "Flana Testnet",
+  "chain": "MEER",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Flana Testnet",
+    "symbol": "MEER-t",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/Qitmeer",
+  "shortName": "flanatest",
+  "icon": "meer",
+  "chainId": 81351,
+  "networkId": 81351,
+  "status": "incubating"
+}, {
+  "name": "Flana Mixnet",
+  "chain": "MEER",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Flana Mixnet",
+    "symbol": "MEER-m",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/Qitmeer",
+  "shortName": "flanamix",
+  "icon": "meer",
+  "chainId": 81352,
+  "networkId": 81352,
+  "status": "incubating"
+}, {
+  "name": "Flana Privnet",
+  "chain": "MEER",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Flana Privnet",
+    "symbol": "MEER-p",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/Qitmeer",
+  "shortName": "flanapriv",
+  "icon": "meer",
+  "chainId": 81353,
+  "networkId": 81353,
+  "status": "incubating"
+}, {
+  "name": "Mizana Testnet",
+  "chain": "MEER",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Mizana Testnet",
+    "symbol": "MEER-t",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/Qitmeer",
+  "shortName": "mizanatest",
+  "icon": "meer",
+  "chainId": 81361,
+  "networkId": 81361,
+  "status": "incubating"
+}, {
+  "name": "Mizana Mixnet",
+  "chain": "MEER",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Mizana Mixnet",
+    "symbol": "MEER-m",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/Qitmeer",
+  "shortName": "mizanamix",
+  "icon": "meer",
+  "chainId": 81362,
+  "networkId": 81362,
+  "status": "incubating"
+}, {
+  "name": "Mizana Privnet",
+  "chain": "MEER",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Mizana Privnet",
+    "symbol": "MEER-p",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/Qitmeer",
+  "shortName": "mizanapriv",
+  "icon": "meer",
+  "chainId": 81363,
+  "networkId": 81363,
+  "status": "incubating"
 }, {
   "name": "Base Goerli Testnet",
   "chain": "ETH",
