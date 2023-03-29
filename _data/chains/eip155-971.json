@@ -1,16 +1,15 @@
 {
-  "name": "CCN Beta",
-  "title": "ComputeCoin Beta Network",
-  "chain": "CCN Beta",
-  "rpc": ["https://beta-rpc.mainnet.computecoin.com"],
+  "name": "Oort Huygens",
+  "chain": "Huygens",
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
-    "name": "ComputeCoin",
+    "name": "Oort",
     "symbol": "CCN",
     "decimals": 18
   },
-  "infoURL": "https://computecoin.com/",
-  "shortName": "ccnbeta",
+  "infoURL": "https://oortech.com",
+  "shortName": "Huygens",
   "chainId": 971,
   "networkId": 971,
   "icon": "ccn"

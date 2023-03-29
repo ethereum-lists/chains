@@ -1,11 +1,11 @@
 {
   "name": "Bronos Testnet",
   "chain": "Bronos",
-  "rpc": ["https://testnet-json-rpc.bronos.org"],
+  "rpc": ["https://evm-testnet.bronos.org"],
   "faucets": ["https://faucet.bronos.org"],
   "nativeCurrency": {
-    "name": "BRO",
-    "symbol": "BRO",
+    "name": "tBRO",
+    "symbol": "tBRO",
     "decimals": 18
   },
   "infoURL": "https://bronos.org",

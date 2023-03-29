@@ -1,0 +1,22 @@
+{
+  "name": "Metacodechain",
+  "chain": "metacode",
+  "rpc": ["https://j.blockcoach.com:8503"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "J",
+    "symbol": "J",
+    "decimals": 18
+  },
+  "infoURL": "https://j.blockcoach.com:8089",
+  "shortName": "metacode",
+  "chainId": 3666,
+  "networkId": 3666,
+  "explorers": [
+    {
+      "name": "meta",
+      "url": "https://j.blockcoach.com:8089",
+      "standard": "EIP3091"
+    }
+  ]
+}

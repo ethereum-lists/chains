@@ -1,7 +1,8 @@
 {
   "name": "Cronos Mainnet Beta",
   "chain": "CRO",
-  "rpc": ["https://evm.cronos.org"],
+  "rpc": ["https://evm.cronos.org", "https://cronos-evm.publicnode.com"],
+  "features": [{ "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
     "name": "Cronos",
@@ -15,7 +16,7 @@
   "explorers": [
     {
       "name": "Cronos Explorer",
-      "url": "https://cronos.org/explorer",
+      "url": "https://cronoscan.com",
       "standard": "none"
     }
   ]

@@ -2,8 +2,12 @@
   "name": "Shiden",
   "chain": "SDN",
   "rpc": [
-    "https://rpc.shiden.astar.network:8545",
-    "wss://shiden.api.onfinality.io/public-ws"
+    "https://shiden.api.onfinality.io/public",
+    "https://shiden-rpc.dwellir.com",
+    "https://shiden.public.blastapi.io",
+    "wss://shiden.api.onfinality.io/public-ws",
+    "wss://shiden.public.blastapi.io",
+    "wss://shiden-rpc.dwellir.com"
   ],
   "faucets": [],
   "nativeCurrency": {
