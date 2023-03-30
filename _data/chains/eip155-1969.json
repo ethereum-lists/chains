@@ -1,0 +1,23 @@
+{
+  "name": "Super Smart Chain Testnet",
+  "chain": "TSCS",
+  "rpc": ["https://testnet.superexchain.com:8544"],
+  "faucets": ["https://testnet.superexchain.com"],
+  "nativeCurrency": {
+    "name": "Super Chain Native Token",
+    "symbol": "TSCS",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet.superexchain.com",
+  "shortName": "tscs",
+  "chainId": 1969,
+  "networkId": 1969,
+  "icon": "super",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://testnetscan.superexchain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
