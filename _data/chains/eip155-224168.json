@@ -1,0 +1,26 @@
+{
+  "name": "TAF ECO Chain Mainnet",
+  "chain": "TAF",
+  "rpc": [
+    "https://mainnet.tafchain.com/v1"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TAF Chain Token",
+    "symbol": "TAFT",
+    "decimals": 18
+  },
+  "infoURL": "https://www.tafchain.com/",
+  "shortName": "TAF",
+  "chainId": 224168,
+  "networkId": 224168,
+  "icon": "taf",
+  "slip44": 981,
+  "explorers": [
+    {
+      "name": "tafscan",
+      "url": "https://ecoscan.tafchain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
