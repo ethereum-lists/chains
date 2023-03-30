@@ -1,17 +1,17 @@
 {
   "name": "TAF ECO Chain Mainnet",
-  "chain": "TAFECOchain",
+  "chain": "TafECOChain",
   "rpc": [
     "https://mainnet.tafchain.com/v1"
   ],
   "faucets": [],
   "nativeCurrency": {
     "name": "TAFT",
-    "symbol": "TAFT",
+    "symbol": "TAFECO",
     "decimals": 18
   },
   "infoURL": "https://www.tafchain.com/",
-  "shortName": "taf-eco",
+  "shortName": "tafeco",
   "chainId": 224168,
   "networkId": 224168,
   "icon": "taf",
