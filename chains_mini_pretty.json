@@ -1611,6 +1611,19 @@
   "faucets": [],
   "infoURL": "https://polygon.technology/"
 }, {
+  "name": "Defi Oracle Meta Mainnet",
+  "chainId": 138,
+  "shortName": "dfio-meta-main",
+  "networkId": 1,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.public-0138.defi-oracle.io", "wss://rpc.public-0138.defi-oracle.io"],
+  "faucets": [],
+  "infoURL": "https://defi-oracle.io/"
+}, {
   "name": "WoopChain Mainnet",
   "chainId": 139,
   "shortName": "woop",
@@ -4899,6 +4912,19 @@
   "rpc": ["https://rpc.metaplayer.one/"],
   "faucets": [],
   "infoURL": "https://docs.metaplayer.one/"
+}, {
+  "name": "Defi Oracle Meta Testnet",
+  "chainId": 2138,
+  "shortName": "dfio-meta-test",
+  "networkId": 21,
+  "nativeCurrency": {
+    "name": "testEther",
+    "symbol": "tETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.public-2138.defi-oracle.io", "wss://rpc.public-2138.defi-oracle.io"],
+  "faucets": [],
+  "infoURL": "https://defi-oracle.io/"
 }, {
   "name": "BOSagora Mainnet",
   "chainId": 2151,
