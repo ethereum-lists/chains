@@ -5095,6 +5095,19 @@
   "faucets": [],
   "infoURL": "https://altcoinchain.org"
 }, {
+  "name": "WEMIX Kanvas Sepolia",
+  "chainId": 2357,
+  "shortName": "kanvas-aqua",
+  "networkId": 2357,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://api.aqua.wemixkanvas.io"],
+  "faucets": [],
+  "infoURL": "https://wemixkanvas.io"
+}, {
   "name": "BOMB Chain Testnet",
   "chainId": 2399,
   "shortName": "bombt",
