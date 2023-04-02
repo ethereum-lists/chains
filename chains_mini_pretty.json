@@ -6161,6 +6161,19 @@
   "faucets": [],
   "infoURL": "https://canto.io"
 }, {
+  "name": "Canto Tesnet",
+  "chainId": 7701,
+  "shortName": "TestnetCanto",
+  "networkId": 7701,
+  "nativeCurrency": {
+    "name": "Testnet Canto",
+    "symbol": "CANTO",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-archive.plexnode.wtf"],
+  "faucets": [],
+  "infoURL": "https://canto.io"
+}, {
   "name": "Rise of the Warbots Testnet",
   "chainId": 7777,
   "shortName": "RiseOfTheWarbotsTestnet",
