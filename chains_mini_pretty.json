@@ -597,6 +597,19 @@
   "faucets": [],
   "infoURL": "https://darwinia.network/"
 }, {
+  "name": "Acria IntelliChain",
+  "chainId": 47,
+  "shortName": "aic",
+  "networkId": 47,
+  "nativeCurrency": {
+    "name": "ACRIA",
+    "symbol": "ACRIA",
+    "decimals": 18
+  },
+  "rpc": ["https://aic.acria.ai"],
+  "faucets": [],
+  "infoURL": "https://acria.ai"
+}, {
   "name": "Ennothem Mainnet Proterozoic",
   "chainId": 48,
   "shortName": "etmp",
