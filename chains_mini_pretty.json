@@ -3600,6 +3600,19 @@
   "faucets": [],
   "infoURL": "https://bronos.org"
 }, {
+  "name": "ShimmerEVM Testnet",
+  "chainId": 1071,
+  "shortName": "shimmerevm-testnet",
+  "networkId": 1071,
+  "nativeCurrency": {
+    "name": "SMR",
+    "symbol": "SMR",
+    "decimals": 18
+  },
+  "rpc": ["https://json-rpc.evm.testnet.shimmer.network"],
+  "faucets": ["https://evm-toolkit.evm.testnet.shimmer.network", "https://evm-faucet.testnet.shimmer.network"],
+  "infoURL": "https://shimmer.network"
+}, {
   "name": "Metis Andromeda Mainnet",
   "chainId": 1088,
   "shortName": "metis-andromeda",
@@ -9332,6 +9345,19 @@
   "rpc": ["http://node.masnet.ai:8545"],
   "faucets": [],
   "infoURL": "https://masterbank.org"
+}, {
+  "name": "Taf ECO Chain Mainnet",
+  "chainId": 224168,
+  "shortName": "TAFECO",
+  "networkId": 224168,
+  "nativeCurrency": {
+    "name": "Taf ECO Chain Mainnet",
+    "symbol": "TAFECO",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.tafchain.com/v1"],
+  "faucets": [],
+  "infoURL": "https://www.tafchain.com"
 }, {
   "name": "HashKey Chain Testnet",
   "chainId": 230315,
