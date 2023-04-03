@@ -20,7 +20,8 @@
   "explorers": [
     {
       "name": "explorer",
-      "url": "https://explorer.evm.testnet.shimmer.network"
+      "url": "https://explorer.evm.testnet.shimmer.network",
+      "standard": "EIP3091"
     }
   ]
 }
