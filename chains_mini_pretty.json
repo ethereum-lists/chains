@@ -9333,19 +9333,6 @@
   "faucets": [],
   "infoURL": "https://masterbank.org"
 }, {
-  "name": "Taf ECO Chain Mainnet",
-  "chainId": 224168,
-  "shortName": "TAFECO",
-  "networkId": 224168,
-  "nativeCurrency": {
-    "name": "Taf ECO Chain Mainnet",
-    "symbol": "TAFECO",
-    "decimals": 18
-  },
-  "rpc": ["https://mainnet.tafchain.com/v1"],
-  "faucets": [],
-  "infoURL": "https://www.tafchain.com"
-}, {
   "name": "HashKey Chain Testnet",
   "chainId": 230315,
   "shortName": "hsktest",
