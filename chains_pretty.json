@@ -4747,6 +4747,20 @@
   "explorers": [],
   "status": "incubating"
 }, {
+  "name": "DecentraBone Layer1 Testnet",
+  "chain": "DBONE",
+  "rpc": ["https://layer1test.decentrabone.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DecentraBone",
+    "symbol": "DBONE",
+    "decimals": 18
+  },
+  "infoURL": "https://decentrabone.com",
+  "shortName": "DBONE",
+  "chainId": 910,
+  "networkId": 910
+}, {
   "name": "Rinia Testnet",
   "chain": "FIRE",
   "icon": "rinia",
@@ -14046,6 +14060,26 @@
   "explorers": [{
     "name": "explorer masnet",
     "url": "https://explorer.masnet.ai",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Taf ECO Chain Mainnet",
+  "chain": "Taf ECO Chain",
+  "icon": "taf",
+  "rpc": ["https://mainnet.tafchain.com/v1"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Taf ECO Chain Mainnet",
+    "symbol": "TAFECO",
+    "decimals": 18
+  },
+  "infoURL": "https://www.tafchain.com",
+  "shortName": "TAFECO",
+  "chainId": 224168,
+  "networkId": 224168,
+  "explorers": [{
+    "name": "Taf ECO Chain Mainnet",
+    "url": "https://ecoscan.tafchain.com",
     "standard": "EIP3091"
   }]
 }, {
