@@ -13,10 +13,12 @@
   "rpc": ["https://api.aqua.wemixkanvas.io"],
   "faucets": [],
   "infoURL": "https://wemixkanvas.io",
+  "icon": "wemixkanvas",
   "explorers": [
     {
       "name": "blockscout",
       "url": "https://blockscout.aqua.wemixkanvas.io",
+      "icon": "wemixkanvas",
       "standard": "EIP3091"
     }
   ],
