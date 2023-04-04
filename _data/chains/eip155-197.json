@@ -1,7 +1,6 @@
 {
   "name": "Neutrinos TestNet",
   "chain": "NEUTR",
-  "icon": "neutrinos",
   "rpc": ["https://testnet-rpc.neutrinoschain.com"],
   "faucets": ["https://neutrinoschain.com/faucet"],
   "nativeCurrency": {
@@ -17,7 +16,6 @@
     {
       "name": "blockscout",
       "url": "https://testnet.neutrinoschain.com",
-      "icon": "neutrinos",
       "standard": "EIP3091"
     }
   ]
