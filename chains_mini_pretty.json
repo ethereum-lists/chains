@@ -1884,6 +1884,19 @@
   "faucets": [],
   "infoURL": "https://www.okex.com/okc"
 }, {
+  "name": "Neutrinos TestNet",
+  "chainId": 197,
+  "shortName": "NEUTR",
+  "networkId": 197,
+  "nativeCurrency": {
+    "name": "Neutrinos",
+    "symbol": "NEUTR",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.neutrinoschain.com"],
+  "faucets": ["https://neutrinoschain.com/faucet"],
+  "infoURL": "https://docs.neutrinoschain.com"
+}, {
   "name": "BitTorrent Chain Mainnet",
   "chainId": 199,
   "shortName": "BTT",
