@@ -1,6 +1,6 @@
 # EVM-based Chains
 
-The source data is in _data/chains. Each chain has its own file with the filename being the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) representation as name and `.json` ans extension.
+The source data is in _data/chains. Each chain has its own file with the filename being the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) representation as name and `.json` as extension.
 
 ## Example
 
@@ -33,7 +33,7 @@ The source data is in _data/chains. Each chain has its own file with the filenam
 }
 ```
 
-when an icon is used in either the network or a explorer there must be a json in _data/icons with the name used (e.g. in the above example there must be a `ethereum.json` and a `etherscan.json` in there) - the icon jsons look like this:
+when an icon is used in either the network or an explorer there must be a json in _data/icons with the name used (e.g. in the above example there must be a `ethereum.json` and a `etherscan.json` in there) - the icon jsons look like this:
 
 ```json
 
@@ -49,7 +49,7 @@ when an icon is used in either the network or a explorer there must be a json in
 ```
 
 where:
- * the URL must be a IPFS url that is publicly resolveable
+ * the URL must be an IPFS url that is publicly resolvable
  * width and height are positive integers
  * format is either "png", "jpg" or "svg"
 
@@ -64,7 +64,7 @@ If the chain is an L2 or a shard of another chain you can link it to the parent 
    "chain": "eip155-1",
    "bridges": [ {"url":"https://bridge.arbitrum.io"} ]
   }
-}
+}n
 ```
 
 where you need to specify type 2 and the reference to an existing parent. The field about bridges is optional.
@@ -89,8 +89,8 @@ There are also aggregated json files with all chains automatically assembled:
 
  We cannot allow more than one chain with the same chainID - this would open the door to replay attacks.
  The first pull request gets the chainID assigned. When creating a chain we can expect that you read EIP155 which states this repo.
- All pull request trying to replace a chainID because they think their chain is better than the other will be closed.
- The only way to get a chain reassigned is when the old chain gets deprecated. This can e.g. be used for testnets that are short lived. But then you will get the redFlag "reusedChaiID" that should be displayed in clients to warn them about the dangers here.
+ All pull requests trying to replace a chainID because they think their chain is better than the other will be closed.
+ The only way to get a chain reassigned is when the old chain gets deprecated. This can e.g. be used for testnets that are short-lived. But then you will get the redFlag "reusedChaiID" that should be displayed in clients to warn them about the dangers here.
 
 ## PR verification
 
