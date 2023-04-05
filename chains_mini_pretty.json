@@ -3028,6 +3028,19 @@
   "faucets": [],
   "infoURL": "https://github.com/Qitmeer"
 }, {
+  "name": "BeOne Chain Mainnet",
+  "chainId": 818,
+  "shortName": "BOC",
+  "networkId": 818,
+  "nativeCurrency": {
+    "name": "BeOne Chain Mainnet",
+    "symbol": "BOC",
+    "decimals": 18
+  },
+  "rpc": ["https://dataseed1.beonechain.com", "https://dataseed2.beonechain.com", "https://dataseed-us1.beonechain.com", "https://dataseed-us2.beonechain.com", "https://dataseed-uk1.beonechain.com", "https://dataseed-uk2.beonechain.com"],
+  "faucets": [],
+  "infoURL": "https://beonechain.com"
+}, {
   "name": "Callisto Mainnet",
   "chainId": 820,
   "shortName": "clo",
