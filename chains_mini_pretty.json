@@ -6226,6 +6226,19 @@
   "faucets": ["https://testnet-faucet.adil-scan.io"],
   "infoURL": "https://adilchain.io"
 }, {
+  "name": "ADIL Mainnet",
+  "chainId": 7576,
+  "shortName": "adil",
+  "networkId": 7576,
+  "nativeCurrency": {
+    "name": "ADIL",
+    "symbol": "ADIL",
+    "decimals": 18
+  },
+  "rpc": ["https://s2.adilchain-rpc.io"],
+  "faucets": [],
+  "infoURL": "https://adilchain.io"
+}, {
   "name": "The Root Network - Mainnet",
   "chainId": 7668,
   "shortName": "trn-mainnet",
