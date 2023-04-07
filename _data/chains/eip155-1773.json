@@ -1,7 +1,7 @@
 {
   "name": "PartyChain",
   "chain": "mainnet",
-  "rpc": ["https://tea.mining4people.com/rpc", "http://172.104.194.36:8545/"],
+  "rpc": ["https://tea.mining4people.com/rpc", "http://172.104.194.36:8545"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Grams",
@@ -17,7 +17,7 @@
   "explorers": [
     {
       "name": "PartyExplorer",
-      "url": "https://partyexplorer.co/",
+      "url": "https://partyexplorer.co",
       "icon": "grams",
       "standard": "EIP3091"
     }
