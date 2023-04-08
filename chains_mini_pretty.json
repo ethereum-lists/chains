@@ -4406,6 +4406,19 @@
   "faucets": [],
   "infoURL": "https://hashpalette.com/"
 }, {
+  "name": "PartyChain",
+  "chainId": 1773,
+  "shortName": "TeaParty",
+  "networkId": 1773,
+  "nativeCurrency": {
+    "name": "Grams",
+    "symbol": "GRAMS",
+    "decimals": 18
+  },
+  "rpc": ["https://tea.mining4people.com/rpc", "http://172.104.194.36:8545"],
+  "faucets": [],
+  "infoURL": "TeaPartyCrypto.com"
+}, {
   "name": "Kerleano",
   "chainId": 1804,
   "shortName": "kerleano",

@@ -6462,6 +6462,28 @@
     "standard": "none"
   }]
 }, {
+  "name": "PartyChain",
+  "chain": "mainnet",
+  "rpc": ["https://tea.mining4people.com/rpc", "http://172.104.194.36:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Grams",
+    "symbol": "GRAMS",
+    "decimals": 18
+  },
+  "infoURL": "TeaPartyCrypto.com",
+  "shortName": "TeaParty",
+  "chainId": 1773,
+  "networkId": 1773,
+  "icon": "grams",
+  "status": "incubating",
+  "explorers": [{
+    "name": "PartyExplorer",
+    "url": "https://partyexplorer.co",
+    "icon": "grams",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Kerleano",
   "title": "Proof of Carbon Reduction testnet",
   "chain": "CRC",
