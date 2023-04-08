@@ -10074,19 +10074,6 @@
   "faucets": ["https://faucet.butterfly.fildev.network"],
   "infoURL": "https://filecoin.io"
 }, {
-  "name": "MXC Wannsee zkEVM Testnet",
-  "chainId": 5167003,
-  "shortName": "MXC",
-  "networkId": 5167003,
-  "nativeCurrency": {
-    "name": "MXC Wannsee zkEVM Testnet",
-    "symbol": "MXC",
-    "decimals": 18
-  },
-  "rpc": ["https://wannsee-rpc.mxc.com"],
-  "faucets": [],
-  "infoURL": "https://wannsee.mxc.com/docs/intro"
-}, {
   "name": "Imversed Mainnet",
   "chainId": 5555555,
   "shortName": "imversed",
