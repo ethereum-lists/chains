@@ -208,8 +208,8 @@ fun checkIcon(icon: File, withIconDownload: Boolean, allIconCIDs: MutableSet<Str
         }
 
         val format = it["format"]
-        if (format !is String || (format != "png" && format != "svg")) {
-            error("Icon format must be a png or svg but was $format")
+        if (format !is String || (!setOf("png", "svg", "jpg").contains(format))) {
+            error("Icon format must be a png, svg or jpg but was $format")
         }
 
         if (iconDownloadFile.exists()) {
