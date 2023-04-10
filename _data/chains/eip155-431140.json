@@ -2,9 +2,7 @@
   "name": "Markr Go",
   "chain": "Unified",
   "icon": "markrgo",
-  "rpc": [
-    "https://rpc.markr.io/ext/"
-  ],
+  "rpc": ["https://rpc.markr.io/ext/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Avalanche",
@@ -15,5 +13,6 @@
   "shortName": "markr-go",
   "chainId": 431140,
   "networkId": 431140,
-  "explorers": []
+  "explorers": [],
+  "status": "incubating"
 }
