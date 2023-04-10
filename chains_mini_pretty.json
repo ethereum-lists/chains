@@ -9684,6 +9684,19 @@
   "faucets": [],
   "infoURL": "https://fastex.com"
 }, {
+  "name": "Markr Go",
+  "chainId": 431140,
+  "shortName": "markr-go",
+  "networkId": 431140,
+  "nativeCurrency": {
+    "name": "Avalanche",
+    "symbol": "AVAX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.markr.io/ext/"],
+  "faucets": [],
+  "infoURL": "https://www.markr.io/"
+}, {
   "name": "Dexalot Subnet Testnet",
   "chainId": 432201,
   "shortName": "dexalot-testnet",
