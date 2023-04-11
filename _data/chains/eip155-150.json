@@ -2,9 +2,7 @@
   "name": "Six Protocol Testnet",
   "chain": "FIVENET",
   "icon": "six",
-  "rpc": [
-    "https://rpc-evm.fivenet.sixprotocol.net"
-  ],
+  "rpc": ["https://rpc-evm.fivenet.sixprotocol.net"],
   "faucets": ["https://faucet.sixprotocol.net"],
   "nativeCurrency": {
     "name": "SIX testnet evm token",

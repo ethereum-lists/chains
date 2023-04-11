@@ -2,9 +2,7 @@
   "name": "Six Protocol",
   "chain": "SIXNET",
   "icon": "six",
-  "rpc": [
-    "https://sixnet-rpc-evm.sixprotocol.net"
-  ],
+  "rpc": ["https://sixnet-rpc-evm.sixprotocol.net"],
   "faucets": [],
   "nativeCurrency": {
     "name": "SIX evm token",
