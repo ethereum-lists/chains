@@ -1,0 +1,28 @@
+{
+    "name": "IRIShub Testnet",
+    "chain": "IRIShub",
+    "network": "testnet",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "Eris",
+        "symbol": "ERIS",
+        "decimals": 18
+    },
+    "infoURL": "https://www.irisnet.org",
+    "shortName": "",
+    "chainId": 16688,
+    "networkId": 16688,
+    "explorers": [
+        {
+            "name": "IRISHub EVM Explorer",
+            "url": "",
+            "standard": "none"
+        },
+        {
+            "name": "IRISHub Cosmos Explorer (IOBScan)",
+            "url": "",
+            "standard": "none"
+        }
+    ]
+}
