@@ -1,28 +1,31 @@
 {
-    "name": "IRIShub",
-    "chain": "IRIShub",
-    "network": "mainnet",
-    "rpc": [],
-    "faucets": [],
-    "nativeCurrency": {
-        "name": "Eris",
-        "symbol": "ERIS",
-        "decimals": 18
+  "name": "IRIShub",
+  "chain": "IRIShub",
+  "rpc": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Eris",
+    "symbol": "ERIS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.irisnet.org",
+  "shortName": "iris",
+  "chainId": 6688,
+  "networkId": 6688,
+  "icon":"iris",
+  "explorers": [
+    {
+      "name": "IRISHub EVM Explorer",
+      "url": "",
+      "standard": "none",
+      "icon": "iris",
     },
-    "infoURL": "https://www.irisnet.org",
-    "shortName": "iris",
-    "chainId": 6688,
-    "networkId": 6688,
-    "explorers": [
-        {
-            "name": "IRISHub EVM Explorer",
-            "url": "",
-            "standard": "none"
-        },
-        {
-            "name": "IRISHub Cosmos Explorer (IOBScan)",
-            "url": "https://irishub.iobscan.io",
-            "standard": "none"
-        }
-    ]
+    {
+      "name": "IRISHub Cosmos Explorer (IOBScan)",
+      "url": "https://irishub.iobscan.io",
+      "standard": "none",
+      "icon": "iris"
+    }
+  ]
 }
