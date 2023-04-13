@@ -7422,6 +7422,19 @@
   "faucets": ["https://faucet.metadot.network/"],
   "infoURL": "https://metadot.network"
 }, {
+  "name": "IRIShub Testnet",
+  "chainId": 16688,
+  "shortName": "nyancat",
+  "networkId": 16688,
+  "nativeCurrency": {
+    "name": "Eris",
+    "symbol": "ERIS",
+    "decimals": 18
+  },
+  "rpc": ["http://34.80.202.172:8545"],
+  "faucets": [],
+  "infoURL": "https://www.irisnet.org"
+}, {
   "name": "AirDAO Mainnet",
   "chainId": 16718,
   "shortName": "airdao",
