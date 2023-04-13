@@ -1,9 +1,7 @@
 {
   "name": "IRIShub Testnet",
   "chain": "IRIShub",
-  "rpc": [
-    "http://34.80.202.172:8545"
-  ],
+  "rpc": ["http://34.80.202.172:8545"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
@@ -15,14 +13,8 @@
   "shortName": "nyancat",
   "chainId": 16688,
   "networkId": 16688,
-  "icon":"nyancat",
+  "icon": "nyancat",
   "explorers": [
-    {
-      "name": "IRISHub Testnet EVM Explorer",
-      "url": "",
-      "standard": "none",
-      "icon": "nyancat",
-    },
     {
       "name": "IRISHub Testnet Cosmos Explorer (IOBScan)",
       "url": "https://nyancat.iobscan.io",
