@@ -1,0 +1,25 @@
+{
+  "name": "OEBlock Testnet",
+  "chain": "OEBt",
+  "rpc": [
+    "https://testnet-rpc.oeblock.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OEBlock",
+    "symbol": "OEB",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://www.oeblock.com/",
+  "shortName": "oeb",
+  "chainId": 156,
+  "networkId": 156,
+  "icon": "oescan",
+  "explorers": [{
+    "name": "oescan",
+    "url": "https://testnet.oescan.io/",
+    "icon": "oescan",
+    "standard": "EIP3091"
+  }]
+}
