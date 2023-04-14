@@ -1689,6 +1689,19 @@
   "faucets": [],
   "infoURL": "https://phi.network"
 }, {
+  "name": "OEBlock Testnet",
+  "chainId": 156,
+  "shortName": "obe",
+  "networkId": 156,
+  "nativeCurrency": {
+    "name": "OEBlock",
+    "symbol": "OEB",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.oeblock.com/"],
+  "faucets": [],
+  "infoURL": "https://www.oeblock.com/"
+}, {
   "name": "Armonia Eva Chain Mainnet",
   "chainId": 160,
   "shortName": "eva",

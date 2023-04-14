@@ -2455,6 +2455,26 @@
     "standard": "none"
   }]
 }, {
+  "name": "OEBlock Testnet",
+  "chain": "OEBt",
+  "rpc": ["https://testnet-rpc.oeblock.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OEBlock",
+    "symbol": "OEB",
+    "decimals": 18
+  },
+  "infoURL": "https://www.oeblock.com/",
+  "shortName": "obe",
+  "chainId": 156,
+  "networkId": 156,
+  "icon": "oescan",
+  "explorers": [{
+    "name": "OEScan explorer",
+    "url": "https://testnet.oescan.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Armonia Eva Chain Mainnet",
   "chain": "Eva",
   "rpc": ["https://evascan.io/api/eth-rpc/"],
