@@ -1078,6 +1078,19 @@
   "faucets": ["https://faucet-warringstakes.meter.io"],
   "infoURL": "https://www.meter.io"
 }, {
+  "name": "Linqto Devnet",
+  "chainId": 84,
+  "shortName": "linqto-devnet",
+  "networkId": 84,
+  "nativeCurrency": {
+    "name": "XRP",
+    "symbol": "XRP",
+    "decimals": 18
+  },
+  "rpc": ["https://linqto-dev.com"],
+  "faucets": [],
+  "infoURL": "https://linqto.com"
+}, {
   "name": "GateChain Testnet",
   "chainId": 85,
   "shortName": "gttest",
