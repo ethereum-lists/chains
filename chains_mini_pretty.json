@@ -3314,6 +3314,19 @@
   "faucets": ["https://faucet.v3.testnet.pulsechain.com/"],
   "infoURL": "https://pulsechain.com/"
 }, {
+  "name": "PulseChain Testnet v4",
+  "chainId": 943,
+  "shortName": "t4pls",
+  "networkId": 943,
+  "nativeCurrency": {
+    "name": "Test Pulse",
+    "symbol": "tPLS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.v4.testnet.pulsechain.com/", "wss://rpc.v4.testnet.pulsechain.com/"],
+  "faucets": ["https://faucet.v4.testnet.pulsechain.com/"],
+  "infoURL": "https://pulsechain.com"
+}, {
   "name": "muNode Testnet",
   "chainId": 956,
   "shortName": "munode",
