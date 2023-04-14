@@ -13,19 +13,13 @@
   "shortName": "iris",
   "chainId": 6688,
   "networkId": 6688,
-  "icon":"iris",
+  "icon":"irishub",
   "explorers": [
-    {
-      "name": "IRISHub EVM Explorer",
-      "url": "",
-      "standard": "none",
-      "icon": "iris",
-    },
     {
       "name": "IRISHub Cosmos Explorer (IOBScan)",
       "url": "https://irishub.iobscan.io",
       "standard": "none",
-      "icon": "iris"
+      "icon": "irishub"
     }
   ]
 }
