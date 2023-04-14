@@ -15,13 +15,8 @@
   "ens": {
     "registry": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
   },
-  "explorers": [
-    {
-      "name": "blockscout",
-      "url": "https://scan.v4.testnet.pulsechain.com",
-      "standard": "EIP3091"
-    }
-  ],
+  "status": "incubating",
+  "explorers": [],
   "nativeCurrency": {
     "name": "Test Pulse",
     "symbol": "tPLS",
