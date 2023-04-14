@@ -1,0 +1,30 @@
+{
+  "name": "PulseChain Testnet v4",
+  "shortName": "t4pls",
+  "chain": "t4PLS",
+  "network": "testnet-4",
+  "chainId": 943,
+  "icon": "ethereum",
+  "networkId": 943,
+  "infoURL": "https://pulsechain.com/",
+  "rpc": [
+    "https://rpc.v4.testnet.pulsechain.com/",
+    "wss://rpc.v4.testnet.pulsechain.com/"
+  ],
+  "faucets": [
+    "https://faucet.v4.testnet.pulsechain.com/"
+  ],
+  "ens": {
+    "registry":"0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
+  },
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://scan.v4.testnet.pulsechain.com",
+    "standard": "none"
+  }],
+  "nativeCurrency": {
+    "name": "Test Pulse",
+    "symbol": "tPLS",
+    "decimals": 18
+  }
+}
