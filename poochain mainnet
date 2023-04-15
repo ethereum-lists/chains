@@ -1,0 +1,25 @@
+
+{
+  "name": "PooChain Mainnet",
+  "chain": "PooChain",
+  "rpc": ["https://mainnet.poochain.co/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "POOP",
+    "symbol": "POOP",
+    "decimals": 18
+  },
+  "infoURL": "https://www.poochain.co/",
+  "shortName": "PooChain",
+  "chainId": 20202021,
+  "networkId": 20202021,
+  "icon": "poochain",
+  "explorers": [
+    {
+      "name": "PooChain Explorer",
+      "url": "https://pooscan.co",
+      "icon": "poochain",
+      "standard": "EIP3091"
+    }
+  ]
+}
