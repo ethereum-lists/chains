@@ -1,23 +1,24 @@
 {
   "name": "TTcoin Smart Chain Mainnet",
   "chain": "TSC",
+  "icon": "tscscan",
   "rpc": ["https://mainnet-rpc.tscscan.com"],
-  "faucets": [],
+  "faucets": ["https://faucet.tscscan.com"],
   "nativeCurrency": {
-    "name": "TTcoin (TSC)",
+    "name": "TTcoin",
     "symbol": "TC",
     "decimals": 18
   },
-  "infoURL": "https://ttcoin.info",
+  "infoURL": "https://ttcoin.info/",
   "shortName": "tc",
   "chainId": 330844,
   "networkId": 330844,
   "explorers": [
     {
-      "name": "TTcoin Smart Chain Explorer",
+      "name": "tscscan",
       "url": "https://tscscan.com",
-      "icon": "tscscan",
-      "standard": "EIP3091"
+      "standard": "EIP3091",
+      "icon": "tscscan"
     }
   ]
 }
