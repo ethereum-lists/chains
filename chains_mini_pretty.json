@@ -10607,6 +10607,19 @@
   "faucets": [],
   "infoURL": "https://gather.network"
 }, {
+  "name": "Kanazawa",
+  "chainId": 222000222,
+  "shortName": "meld",
+  "networkId": 222000222,
+  "nativeCurrency": {
+    "name": "gMeld",
+    "symbol": "gMELD",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-kanazawa.meldlabs.dev/ext/bc/2Ci7VYrUd4fTBqGA5D2HA6UPHzQ4LQyr8rZQww9MGSv9rNkRzn/rpc"],
+  "faucets": [],
+  "infoURL": "https://meld.com"
+}, {
   "name": "Neon EVM DevNet",
   "chainId": 245022926,
   "shortName": "neonevm-devnet",
