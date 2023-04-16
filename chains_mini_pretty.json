@@ -8514,6 +8514,19 @@
   "faucets": [],
   "infoURL": "https://macaucasinolisboa.xyz"
 }, {
+  "name": "Cosmic Chain",
+  "chainId": 67588,
+  "shortName": "Cosmic",
+  "networkId": 3344,
+  "nativeCurrency": {
+    "name": "Cosmic Chain",
+    "symbol": "COSMIC",
+    "decimals": 18
+  },
+  "rpc": ["http://testnet.cosmicchain.site:3344"],
+  "faucets": [],
+  "infoURL": "https://cosmicchain.site"
+}, {
   "name": "Condrieu",
   "chainId": 69420,
   "shortName": "cndr",
