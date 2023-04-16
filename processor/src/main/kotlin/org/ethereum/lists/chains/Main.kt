@@ -26,6 +26,7 @@ private val allChainFiles = allFiles.filter { !it.isDirectory }
 
 private val allIconFilesList = iconsPath.listFiles() ?: error("${iconsPath.absolutePath} must contain the icon json files - but it does not")
 private val allIconFiles = allIconFilesList.filter { !it.isDirectory }
+private val allUsedIcons = mutableSetOf<String>()
 
 fun main(args: Array<String>) {
 
@@ -34,7 +35,7 @@ fun main(args: Array<String>) {
     val verbose = argsList.contains("verbose").also { argsList.remove("verbose") }
     if (argsList.firstOrNull() == "singleChainCheck") {
         val file = File(File(".."), args.last())
-        if (file.exists() && file.parentFile == chainsPath ) {
+        if (file.exists() && file.parentFile == chainsPath) {
             println("checking single chain " + args.last())
             checkChain(file, true, verbose)
         }
@@ -129,12 +130,25 @@ private fun doChecks(doRPCConnect: Boolean, doIconDownload: Boolean, verbose: Bo
         checkIcon(it, doIconDownload, allIconCIDs, verbose)
     }
 
+    val unusedIconDownload = mutableSetOf<String>()
     iconsDownloadPath.listFiles()?.forEach {
-        if (!allIconCIDs.contains(it.name)) throw UnreferencedIcon(it.name, iconsDownloadPath)
+        if (!allIconCIDs.contains(it.name)) unusedIconDownload.add(it.name)
     }
-
+    if (unusedIconDownload.isNotEmpty()) {
+        throw UnreferencedIcon(unusedIconDownload.joinToString(" "), iconsDownloadPath)
+    }
     allFiles.filter { it.isDirectory }.forEach { _ ->
         error("should not contain a directory")
+    }
+
+    val unusedIcons = mutableSetOf<String>()
+    iconsPath.listFiles().forEach {
+        if (!allUsedIcons.contains(it.name.toString().removeSuffix(".json"))) {
+            unusedIcons.add(it.toString())
+        }
+    }
+    if (unusedIcons.isNotEmpty()) {
+        error("error: unused icons ${unusedIcons.joinToString(" ")}")
     }
 }
 
@@ -194,8 +208,8 @@ fun checkIcon(icon: File, withIconDownload: Boolean, allIconCIDs: MutableSet<Str
         }
 
         val format = it["format"]
-        if (format !is String || (format != "png" && format != "svg")) {
-            error("Icon format must be a png or svg but was $format")
+        if (format !is String || (!setOf("png", "svg", "jpg").contains(format))) {
+            error("Icon format must be a png, svg or jpg but was $format")
         }
 
         if (iconDownloadFile.exists()) {
@@ -204,8 +218,9 @@ fun checkIcon(icon: File, withIconDownload: Boolean, allIconCIDs: MutableSet<Str
                 val imageReader = ImageIO.getImageReaders(imageInputStream).next()
                 val image = ImageIO.read(imageInputStream)
 
-                if (imageReader.formatName != format) {
-                    error("format in json ($icon) is $format but actually is in imageDownload ${imageReader.formatName}")
+                val formatOfIconDownload = imageReader.formatName.replace("JPEG", "jpg")
+                if (formatOfIconDownload != format) {
+                    error("format in json ($icon) is $format but actually is in imageDownload $formatOfIconDownload")
                 }
                 if (image.width != width) {
                     error("width in json ($icon) is $width but actually is in imageDownload ${image.width}")
@@ -255,9 +270,7 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
     }
 
     jsonObject["icon"]?.let {
-        if (!File(iconsPath, "$it.json").exists()) {
-            error("The Icon $it does not exist - was used in ${chainFile.name}")
-        }
+        processIcon(it, chainFile)
     }
 
     val nameRegex = Regex("^[a-zA-Z0-9\\-\\.\\(\\) ]+$")
@@ -310,6 +323,10 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
 
             if (explorer["name"] == null) {
                 throw (ExplorerMustHaveName())
+            }
+
+            explorer["icon"]?.let { explorerIcon ->
+                processIcon(explorerIcon, chainFile)
             }
 
             val url = explorer["url"]
@@ -453,6 +470,16 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
             }
         }
     }
+}
+
+private fun processIcon(it: Any, chainFile: File): Boolean {
+    if (it !is String) {
+        error("icon must be string")
+    }
+    if (!File(iconsPath, "$it.json").exists()) {
+        error("The Icon $it does not exist - was used in ${chainFile.name}")
+    }
+    return allUsedIcons.add(it)
 }
 
 private fun String.checkString(which: String) {
