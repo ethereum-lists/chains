@@ -1,10 +1,12 @@
 {
   "name": "Gaura Chain Mainnet",
   "chain": "GAURA",
-  "rpc": ["https://mainnet-rpc.gaurascan.com"],
-  "faucets": ["https://faucet.gaurascan.com"],
+  "rpc": [
+    "https://mainnet-rpc.gaurascan.com/"
+  ],
+  "faucets": ["https://faucet.gaurascan.com/"],
   "nativeCurrency": {
-    "name": "GAURA",
+    "name": "Gaura",
     "symbol": "GAURA",
     "decimals": 18
   },
@@ -12,11 +14,10 @@
   "shortName": "gaura",
   "chainId": 61115,
   "networkId": 61115,
-  "explorers": [
-    {
-      "name": "gaurascan",
-      "url": "https://gaurascan.com",
-      "standard": "EIP3091"
-    }
-  ]
+  "icon": "gaura",
+  "explorers": [{
+    "name": "gaurascan",
+    "url": "https://gaurascan.com",
+    "standard": "EIP3091"
+  }]
 }
