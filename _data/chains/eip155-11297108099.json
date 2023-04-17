@@ -1,6 +1,7 @@
 {
   "name": "Palm Testnet",
   "chain": "Palm",
+  "icon": "palm",
   "rpc": ["https://palm-testnet.infura.io/v3/${INFURA_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
