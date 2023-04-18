@@ -9645,6 +9645,19 @@
   "faucets": ["https://faucet.calibration.fildev.network/"],
   "infoURL": "https://filecoin.io"
 }, {
+  "name": "TTcoin Smart Chain Mainnet",
+  "chainId": 330844,
+  "shortName": "tc",
+  "networkId": 330844,
+  "nativeCurrency": {
+    "name": "TTcoin",
+    "symbol": "TC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.tscscan.com"],
+  "faucets": ["https://faucet.tscscan.com"],
+  "infoURL": "https://ttcoin.info/"
+}, {
   "name": "Oone Chain Testnet",
   "chainId": 333777,
   "shortName": "oonetest",
