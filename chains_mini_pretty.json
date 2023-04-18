@@ -6161,6 +6161,19 @@
   "faucets": [],
   "infoURL": "https://chain.pixie.xyz"
 }, {
+  "name": "IRIShub",
+  "chainId": 6688,
+  "shortName": "iris",
+  "networkId": 6688,
+  "nativeCurrency": {
+    "name": "Eris",
+    "symbol": "ERIS",
+    "decimals": 18
+  },
+  "rpc": ["https://evmrpc.irishub-1.irisnet.org"],
+  "faucets": [],
+  "infoURL": "https://www.irisnet.org"
+}, {
   "name": "Gold Smart Chain Mainnet",
   "chainId": 6789,
   "shortName": "STANDm",
