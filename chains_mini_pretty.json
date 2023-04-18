@@ -10867,6 +10867,19 @@
   "faucets": [],
   "infoURL": "https://aurora.dev"
 }, {
+  "name": "Chaos (SKALE Testnet)",
+  "chainId": 1351057110,
+  "shortName": "chaos-tenet",
+  "networkId": 1351057110,
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "rpc": ["https://staging-v3.skalenodes.com/v1/staging-fast-active-bellatrix"],
+  "faucets": ["https://sfuel.skale.network/staging/chaos"],
+  "infoURL": "https://docs.skale.network/develop/"
+}, {
   "name": "RaptorChain",
   "chainId": 1380996178,
   "shortName": "rptr",
