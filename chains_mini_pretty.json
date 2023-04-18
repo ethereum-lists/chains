@@ -2118,6 +2118,19 @@
   "faucets": [],
   "infoURL": "https://setheum.xyz"
 }, {
+  "name": "Neonlink Mainnet",
+  "chainId": 259,
+  "shortName": "neon",
+  "networkId": 259,
+  "nativeCurrency": {
+    "name": "Neonlink Native Token",
+    "symbol": "NEON",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.neonlink.io"],
+  "faucets": [],
+  "infoURL": "https://neonlink.io"
+}, {
   "name": "SUR Blockchain Network",
   "chainId": 262,
   "shortName": "SUR",
@@ -6953,6 +6966,19 @@
   "rpc": ["https://qeasyweb3.com"],
   "faucets": ["http://faucet.qeasyweb3.com"],
   "infoURL": "https://www.qeasyweb3.com"
+}, {
+  "name": "Neonlink Testnet",
+  "chainId": 9559,
+  "shortName": "testneon",
+  "networkId": 9559,
+  "nativeCurrency": {
+    "name": "Neonlink Native Token",
+    "symbol": "tNEON",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.neonlink.io"],
+  "faucets": ["https://faucet.neonlink.io/"],
+  "infoURL": "https://neonlink.io"
 }, {
   "name": "Oort MainnetDev",
   "chainId": 9700,
