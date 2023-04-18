@@ -4434,7 +4434,7 @@
 }, {
   "name": "Palette Chain Mainnet",
   "chainId": 1718,
-  "shortName": "PaletteChain",
+  "shortName": "PCM",
   "networkId": 1718,
   "nativeCurrency": {
     "name": "Palette Token",
@@ -7499,6 +7499,19 @@
   "rpc": ["https://testnet-rpc.ivarex.com"],
   "faucets": ["https://tfaucet.ivarex.com/"],
   "infoURL": "https://ivarex.com"
+}, {
+  "name": "Palette Chain Testnet",
+  "chainId": 17180,
+  "shortName": "PCT",
+  "networkId": 17180,
+  "nativeCurrency": {
+    "name": "Palette Token",
+    "symbol": "PLT",
+    "decimals": 18
+  },
+  "rpc": ["https://palette-opennet.com:22000"],
+  "faucets": [],
+  "infoURL": "https://hashpalette.com/"
 }, {
   "name": "Frontier of Dreams Testnet",
   "chainId": 18000,

@@ -6522,7 +6522,7 @@
   },
   "features": [],
   "infoURL": "https://hashpalette.com/",
-  "shortName": "PaletteChain",
+  "shortName": "PCM",
   "chainId": 1718,
   "networkId": 1718,
   "icon": "PLT",
@@ -11238,6 +11238,28 @@
     "name": "ivarscan",
     "url": "https://testnet.ivarscan.com",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Palette Chain Testnet",
+  "chain": "PLT",
+  "rpc": ["https://palette-opennet.com:22000"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Palette Token",
+    "symbol": "PLT",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://hashpalette.com/",
+  "shortName": "PCT",
+  "chainId": 17180,
+  "networkId": 17180,
+  "icon": "PLT",
+  "explorers": [{
+    "name": "Palettescan",
+    "url": "https://testnet.palettescan.com",
+    "icon": "PLT",
+    "standard": "none"
   }]
 }, {
   "name": "Frontier of Dreams Testnet",
