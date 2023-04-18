@@ -12,12 +12,6 @@
   "shortName": "kylin",
   "chainId": 95,
   "networkId": 95,
-  "explorers": [
-    {
-      "name": "eosq Block Explorer",
-      "url": "https://kylin.eosq.eosnation.io",
-      "standard": "EIP3091"
-    }
-  ],
+  "explorers": [],
   "status": "deprecated"
 }
