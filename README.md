@@ -64,12 +64,12 @@ If the chain is an L2 or a shard of another chain you can link it to the parent 
    "chain": "eip155-1",
    "bridges": [ {"url":"https://bridge.arbitrum.io"} ]
   }
-}n
+}
 ```
 
 where you need to specify type 2 and the reference to an existing parent. The field about bridges is optional.
 
-You can add a `status` field e.g. to `deprecate` a chain (a chain should never be deleted as this would open the door to replay attacks)
+You can add a `status` field e.g. to deprecate (via status `deprecated`) a chain (a chain should never be deleted as this would open the door to replay attacks)
 Other options for `status` are `active` (default) or `incubating`
 
 ## Aggregation
@@ -84,7 +84,7 @@ There are also aggregated json files with all chains automatically assembled:
  * if referencing a parent chain - the chain MUST exist in the repo
  * if using a IPFS CID for the icon - the CID MUST be retrievable via `ipfs get` - not only through some gateway (means please do not use pinata for now)
  * for more constraints you can look into the CI
- 
+
 ## Collision management
 
  We cannot allow more than one chain with the same chainID - this would open the door to replay attacks.
@@ -131,7 +131,7 @@ BUILD SUCCESSFUL in 7s
  * [evmchainlist.com](https://evmchainlist.com)
  * [thechainlist.io](https://thechainlist.io)
  * [chainlist.info](https://chainlist.info)
- * [chainmap.io](https://chainmap.io) 
+ * [chainmap.io](https://chainmap.io)
  * [chainlist.in](https://www.chainlist.in)
  * [chainz.me](https://chainz.me)
  * [Chainlink docs](https://docs.chain.link/)
