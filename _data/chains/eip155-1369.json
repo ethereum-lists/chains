@@ -1,9 +1,8 @@
 {
   "name": "Zafirium Mainnet",
   "chain": "ZAFIC",
-  "rpc": [
-    "https://mainnet.zakumi.io"
-  ],
+  "icon": "zafirium",
+  "rpc": ["https://mainnet.zakumi.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Zakumi Chain Native Token",
