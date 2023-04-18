@@ -21,10 +21,8 @@
     }
   ],
   "parent": {
-    "type" : "L2",
+    "type": "L2",
     "chain": "eip155-1",
-    "bridges": [
-      {"url": "https://bridge.testnet.evm.eosnetwork.com"}
-    ]
+    "bridges": [{"url": "https://bridge.testnet.evm.eosnetwork.com"}]
   }
 }
