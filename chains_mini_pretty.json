@@ -4224,6 +4224,19 @@
   "faucets": [],
   "infoURL": "https://www.cicchain.net"
 }, {
+  "name": "Zafirium Mainnet",
+  "chainId": 1369,
+  "shortName": "zafic",
+  "networkId": 1369,
+  "nativeCurrency": {
+    "name": "Zakumi Chain Native Token",
+    "symbol": "ZAFIC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.zakumi.io"],
+  "faucets": [],
+  "infoURL": "https://www.zakumi.io"
+}, {
   "name": "AmStar Mainnet",
   "chainId": 1388,
   "shortName": "ASAR",
