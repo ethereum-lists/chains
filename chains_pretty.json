@@ -10545,6 +10545,38 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Carbon EVM",
+  "chain": "Carbon",
+  "icon": "carbon",
+  "rpc": ["https://evm-api.carbon.network/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "swth",
+    "symbol": "SWTH",
+    "decimals": 18
+  },
+  "infoURL": "https://carbon.network/",
+  "shortName": "carbon",
+  "chainId": 9790,
+  "networkId": 9790,
+  "explorers": []
+}, {
+  "name": "Carbon EVM Testnet",
+  "chain": "Carbon",
+  "icon": "carbon",
+  "rpc": ["https://test-evm-api.carbon.network/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "swth",
+    "symbol": "SWTH",
+    "decimals": 18
+  },
+  "infoURL": "https://carbon.network/",
+  "shortName": "carbon-testnet",
+  "chainId": 9792,
+  "networkId": 9792,
+  "explorers": []
+}, {
   "name": "myOwn Testnet",
   "chain": "myOwn",
   "rpc": ["https://geth.dev.bccloud.net"],

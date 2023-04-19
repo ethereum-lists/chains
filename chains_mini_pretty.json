@@ -7032,6 +7032,32 @@
   "faucets": ["https://faucet.mainnetz.io"],
   "infoURL": "https://testnet.mainnetz.io"
 }, {
+  "name": "Carbon EVM",
+  "chainId": 9790,
+  "shortName": "carbon",
+  "networkId": 9790,
+  "nativeCurrency": {
+    "name": "swth",
+    "symbol": "SWTH",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-api.carbon.network/"],
+  "faucets": [],
+  "infoURL": "https://carbon.network/"
+}, {
+  "name": "Carbon EVM Testnet",
+  "chainId": 9792,
+  "shortName": "carbon-testnet",
+  "networkId": 9792,
+  "nativeCurrency": {
+    "name": "swth",
+    "symbol": "SWTH",
+    "decimals": 18
+  },
+  "rpc": ["https://test-evm-api.carbon.network/"],
+  "faucets": [],
+  "infoURL": "https://carbon.network/"
+}, {
   "name": "myOwn Testnet",
   "chainId": 9999,
   "shortName": "myn",
