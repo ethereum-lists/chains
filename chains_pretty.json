@@ -1089,7 +1089,7 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "EOS Mainnet",
+  "name": "EOS EVM Legacy",
   "chain": "EOS",
   "rpc": ["https://api.eosargentina.io"],
   "faucets": [],
@@ -1098,15 +1098,12 @@
     "symbol": "EOS",
     "decimals": 18
   },
-  "infoURL": "https://eoscommunity.org/",
-  "shortName": "EOSMainnet",
+  "infoURL": "https://eosargentina.io",
+  "shortName": "eos-legacy",
   "chainId": 59,
   "networkId": 59,
-  "explorers": [{
-    "name": "bloks",
-    "url": "https://bloks.eosargentina.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": [],
+  "status": "deprecated"
 }, {
   "name": "GoChain",
   "chain": "GO",
@@ -1754,14 +1751,11 @@
     "decimals": 18
   },
   "infoURL": "https://www.cryptokylin.io/",
-  "shortName": "KylinTestnet",
+  "shortName": "kylin",
   "chainId": 95,
   "networkId": 95,
-  "explorers": [{
-    "name": "eosq",
-    "url": "https://kylin.eosargentina.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": [],
+  "status": "deprecated"
 }, {
   "name": "Bitkub Chain",
   "chain": "BKC",
@@ -11295,6 +11289,33 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "EOS EVM Network Testnet",
+  "chain": "EOS",
+  "icon": "eos",
+  "rpc": ["https://api.testnet.evm.eosnetwork.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EOS",
+    "symbol": "EOS",
+    "decimals": 18
+  },
+  "infoURL": "https://eosnetwork.com/eos-evm",
+  "shortName": "eos-testnet",
+  "chainId": 15557,
+  "networkId": 15557,
+  "explorers": [{
+    "name": "EOS EVM Explorer",
+    "url": "https://explorer.testnet.evm.eosnetwork.com",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://bridge.testnet.evm.eosnetwork.com"
+    }]
+  }
+}, {
   "name": "MetaDot Mainnet",
   "chain": "MTT",
   "rpc": ["https://mainnet.metadot.network"],
@@ -11410,6 +11431,35 @@
     "icon": "PLT",
     "standard": "none"
   }]
+}, {
+  "name": "EOS EVM Network",
+  "chain": "EOS",
+  "icon": "eos",
+  "rpc": ["https://api.evm.eosnetwork.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EOS",
+    "symbol": "EOS",
+    "decimals": 18
+  },
+  "infoURL": "https://eosnetwork.com/eos-evm",
+  "shortName": "eos",
+  "chainId": 17777,
+  "networkId": 17777,
+  "explorers": [{
+    "name": "EOS EVM Explorer",
+    "url": "https://explorer.evm.eosnetwork.com",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://bridge.evm.eosnetwork.com"
+    }, {
+      "url": "https://app.multichain.org"
+    }]
+  }
 }, {
   "name": "Frontier of Dreams Testnet",
   "chain": "Game Network",

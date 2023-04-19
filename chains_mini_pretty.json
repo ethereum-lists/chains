@@ -753,9 +753,9 @@
   "faucets": [],
   "infoURL": "https://ont.io/"
 }, {
-  "name": "EOS Mainnet",
+  "name": "EOS EVM Legacy",
   "chainId": 59,
-  "shortName": "EOSMainnet",
+  "shortName": "eos-legacy",
   "networkId": 59,
   "nativeCurrency": {
     "name": "EOS",
@@ -764,7 +764,7 @@
   },
   "rpc": ["https://api.eosargentina.io"],
   "faucets": [],
-  "infoURL": "https://eoscommunity.org/"
+  "infoURL": "https://eosargentina.io"
 }, {
   "name": "GoChain",
   "chainId": 60,
@@ -1210,7 +1210,7 @@
 }, {
   "name": "CryptoKylin Testnet",
   "chainId": 95,
-  "shortName": "KylinTestnet",
+  "shortName": "kylin",
   "networkId": 95,
   "nativeCurrency": {
     "name": "EOS",
@@ -7526,6 +7526,19 @@
   "faucets": ["https://faucet.testnet-dev.trust.one/"],
   "infoURL": "https://www.trust.one/"
 }, {
+  "name": "EOS EVM Network Testnet",
+  "chainId": 15557,
+  "shortName": "eos-testnet",
+  "networkId": 15557,
+  "nativeCurrency": {
+    "name": "EOS",
+    "symbol": "EOS",
+    "decimals": 18
+  },
+  "rpc": ["https://api.testnet.evm.eosnetwork.com"],
+  "faucets": [],
+  "infoURL": "https://eosnetwork.com/eos-evm"
+}, {
   "name": "MetaDot Mainnet",
   "chainId": 16000,
   "shortName": "mtt",
@@ -7603,6 +7616,19 @@
   "rpc": ["https://palette-opennet.com:22000"],
   "faucets": [],
   "infoURL": "https://hashpalette.com/"
+}, {
+  "name": "EOS EVM Network",
+  "chainId": 17777,
+  "shortName": "eos",
+  "networkId": 17777,
+  "nativeCurrency": {
+    "name": "EOS",
+    "symbol": "EOS",
+    "decimals": 18
+  },
+  "rpc": ["https://api.evm.eosnetwork.com"],
+  "faucets": [],
+  "infoURL": "https://eosnetwork.com/eos-evm"
 }, {
   "name": "Frontier of Dreams Testnet",
   "chainId": 18000,
