@@ -1,0 +1,30 @@
+{
+  "name": "Polygon zkEVM",
+  "title": "Polygon zkEVM",
+  "chain": "Polygon",
+  "rpc": ["https://zkevm-rpc.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://polygon.technology/polygon-zkevm",
+  "shortName": "zkevm",
+  "chainId": 1101,
+  "networkId": 1101,
+  "icon": "zkevm",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://zkevm.polygonscan.com",
+      "icon": "zkevm",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.zkevm-rpc.com" }]
+  }
+}
