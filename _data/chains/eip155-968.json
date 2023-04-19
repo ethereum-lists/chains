@@ -1,0 +1,22 @@
+{
+  "name": "Waltonchain Mainnet",
+  "chain": "Waltonchain",
+  "rpc": ["https://node.waltonchain.pro"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WTC",
+    "symbol": "WTC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.waltonchain.org",
+  "shortName": "wtc",
+  "chainId": 15,
+  "networkId": 15,
+  "explorers": [
+    {
+      "name": "Waltonchain Mainnet",
+      "url": "https://www.waltonchain.pro",
+      "standard": "EIP3091"
+    }
+  ]
+}
