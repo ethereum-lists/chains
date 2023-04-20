@@ -1,7 +1,6 @@
 {
   "name": "Symplexia Smart Chain",
   "chain": "Plexchain",
-  "icon": "plexchain",
   "rpc": ["https://plex-rpc.plexfinance.us"],
   "faucets": [],
   "nativeCurrency": {
@@ -13,10 +12,12 @@
   "shortName": "Plexchain",
   "chainId": 1149,
   "networkId": 1149,
+  "icon": "plexchain",
   "explorers": [
     {
       "name": "Plexchain Explorer",
       "url": "https://explorer.plexfinance.us",
+      "icon": "plexchain",
       "standard": "EIP3091"
     }
   ]
