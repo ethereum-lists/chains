@@ -8020,6 +8020,19 @@
   "faucets": [],
   "infoURL": "https://fusion.org"
 }, {
+  "name": "Zilliqa EVM",
+  "chainId": 32769,
+  "shortName": "zil",
+  "networkId": 32769,
+  "nativeCurrency": {
+    "name": "Zilliqa",
+    "symbol": "ZIL",
+    "decimals": 18
+  },
+  "rpc": ["https://api.zilliqa.com"],
+  "faucets": [],
+  "infoURL": "https://www.zilliqa.com/"
+}, {
   "name": "Zilliqa EVM Testnet",
   "chainId": 33101,
   "shortName": "zil-testnet",
