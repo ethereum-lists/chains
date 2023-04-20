@@ -8480,11 +8480,11 @@
   "shortName": "linea-testnet",
   "networkId": 59140,
   "nativeCurrency": {
-    "name": "Goerli Ether",
+    "name": "Linea Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.goerli.linea.build"],
+  "rpc": ["https://rpc.goerli.linea.build", "wss://rpc.goerli.linea.build", "https://consensys-zkevm-goerli-prealpha.infura.io/v3/${INFURA_API_KEY}", "wss://consensys-zkevm-goerli-prealpha.infura.io/v3/${INFURA_API_KEY}"],
   "faucets": ["https://faucetlink.to/goerli"],
   "infoURL": "https://linea.build"
 }, {
