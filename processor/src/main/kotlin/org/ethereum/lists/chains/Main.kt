@@ -218,8 +218,9 @@ fun checkIcon(icon: File, withIconDownload: Boolean, allIconCIDs: MutableSet<Str
                 val imageReader = ImageIO.getImageReaders(imageInputStream).next()
                 val image = ImageIO.read(imageInputStream)
 
-                if (imageReader.formatName != format) {
-                    error("format in json ($icon) is $format but actually is in imageDownload ${imageReader.formatName}")
+                val formatOfIconDownload = imageReader.formatName.replace("JPEG", "jpg")
+                if (formatOfIconDownload != format) {
+                    error("format in json ($icon) is $format but actually is in imageDownload $formatOfIconDownload")
                 }
                 if (image.width != width) {
                     error("width in json ($icon) is $width but actually is in imageDownload ${image.width}")
