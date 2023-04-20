@@ -7877,6 +7877,19 @@
   "faucets": ["https://faucet.bitkubchain.com"],
   "infoURL": "https://www.bitkubchain.com/"
 }, {
+  "name": "Ferrum Testnet",
+  "chainId": 26026,
+  "shortName": "frm",
+  "networkId": 26026,
+  "nativeCurrency": {
+    "name": "Ferrum",
+    "symbol": "tFRM",
+    "decimals": 18
+  },
+  "rpc": ["http://testnet.dev.svcs.ferrumnetwork.io:9933"],
+  "faucets": ["https://testnet.faucet.ferrumnetwork.io"],
+  "infoURL": "https://ferrum.network"
+}, {
   "name": "Hertz Network Mainnet",
   "chainId": 26600,
   "shortName": "HTZ",
