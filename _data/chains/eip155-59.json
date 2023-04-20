@@ -1,5 +1,5 @@
 {
-  "name": "EOS Mainnet",
+  "name": "EOS EVM Legacy",
   "chain": "EOS",
   "rpc": ["https://api.eosargentina.io"],
   "faucets": [],
@@ -8,15 +8,10 @@
     "symbol": "EOS",
     "decimals": 18
   },
-  "infoURL": "https://eoscommunity.org/",
-  "shortName": "EOSMainnet",
+  "infoURL": "https://eosargentina.io",
+  "shortName": "eos-legacy",
   "chainId": 59,
   "networkId": 59,
-  "explorers": [
-    {
-      "name": "bloks",
-      "url": "https://bloks.eosargentina.io",
-      "standard": "EIP3091"
-    }
-  ]
+  "explorers": [],
+  "status": "deprecated"
 }
