@@ -5069,6 +5069,19 @@
   "faucets": [],
   "infoURL": "https://docs.metaplayer.one/"
 }, {
+  "name": "Metaplayerone Network",
+  "chainId": 2124,
+  "shortName": "MEU",
+  "networkId": 2124,
+  "nativeCurrency": {
+    "name": "Metaunit",
+    "symbol": "MEU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-dubai.mp1network.com/"],
+  "faucets": [],
+  "infoURL": "https://docs.metaplayer.one/"
+}, {
   "name": "Defi Oracle Meta Testnet",
   "chainId": 2138,
   "shortName": "dfio-meta-test",
