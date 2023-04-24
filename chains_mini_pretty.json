@@ -6122,6 +6122,19 @@
   "faucets": [],
   "infoURL": "https://hika.network/"
 }, {
+  "name": "SatoshiChain Testnet",
+  "chainId": 5758,
+  "shortName": "sats",
+  "networkId": 5758,
+  "nativeCurrency": {
+    "name": "SatoshiChain Coin",
+    "symbol": "SATS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.satoshichain.io"],
+  "faucets": ["https://faucet.satoshichain.io"],
+  "infoURL": "https://satoshichain.net"
+}, {
   "name": "Ganache",
   "chainId": 5777,
   "shortName": "ggui",
