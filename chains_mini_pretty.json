@@ -10830,7 +10830,7 @@
 }, {
   "name": "Kanazawa",
   "chainId": 222000222,
-  "shortName": "meld",
+  "shortName": "kanazawa",
   "networkId": 222000222,
   "nativeCurrency": {
     "name": "gMeld",
@@ -10892,6 +10892,19 @@
   "rpc": ["https://mainnet-rpc.oneledger.network"],
   "faucets": [],
   "infoURL": "https://oneledger.io"
+}, {
+  "name": "Meld",
+  "chainId": 333000333,
+  "shortName": "meld",
+  "networkId": 333000333,
+  "nativeCurrency": {
+    "name": "gMeld",
+    "symbol": "gMELD",
+    "decimals": 18
+  },
+  "rpc": ["https://network-rpc.meld.com"],
+  "faucets": [],
+  "infoURL": "https://meld.com"
 }, {
   "name": "Calypso NFT Hub (SKALE Testnet)",
   "chainId": 344106930,
