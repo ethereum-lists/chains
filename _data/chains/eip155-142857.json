@@ -1,0 +1,23 @@
+{
+  "name": "ICPlaza Mainnet",
+  "chain": "ICPlaza",
+  "icon": "ICPlaza",
+  "rpc": ["https://rpcmainnet.ic-plaza.org/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ict",
+    "symbol": "ict",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.ic-plaza.org/",
+  "shortName": "ICPlaza",
+  "chainId": 142857,
+  "networkId": 142857,
+  "explorers": [
+    {
+      "name": "ICPlaza",
+      "url": "https://browseevm.ic-plaza.org/",
+      "standard": "EIP3091"
+    }
+  ]
+}
