@@ -14,15 +14,28 @@
     "wss://alfajores-forno.celo-testnet.org/ws"
   ],
   "faucets": [
-    "https://celo.org/developers/faucet",
+    "https://faucet.celo.org/alfajores",
     "https://cauldron.pretoriaresearchlab.io/alfajores-faucet"
   ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
   "infoURL": "https://docs.celo.org/",
   "explorers": [
     {
       "name": "Celoscan",
       "url": "https://celoscan.io",
       "standard": "EIP3091"
+    },
+    {
+      "name": "Celo Explorer",
+      "url": "https://explorer.celo.org/alfajores",
+      "standard": "none"
     }
   ]
 }
