@@ -9502,6 +9502,19 @@
   "faucets": [],
   "infoURL": "https://www.etnd.pro"
 }, {
+  "name": "ICPlaza Mainnet",
+  "chainId": 142857,
+  "shortName": "ICPlaza",
+  "networkId": 142857,
+  "nativeCurrency": {
+    "name": "ict",
+    "symbol": "ict",
+    "decimals": 18
+  },
+  "rpc": ["https://rpcmainnet.ic-plaza.org/"],
+  "faucets": [],
+  "infoURL": "https://docs.ic-plaza.org/"
+}, {
   "name": "Taiko (Alpha-2 Testnet)",
   "chainId": 167004,
   "shortName": "taiko-a2",
