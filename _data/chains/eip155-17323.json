@@ -1,0 +1,35 @@
+{
+  "name": "Celo Cannoli Testnet",
+  "chainId": 17323,
+  "shortName": "CANNOLI",
+  "chain": "CANNOLI",
+  "networkId": 17323,
+  "nativeCurrency": {
+    "name": "CELO",
+    "symbol": "CELO",
+    "decimals": 18
+  },
+  "rpc": [
+    "https://forno.cannoli.celo-testnet.org",
+    "wss://forno.cannoli.celo-testnet.org/ws"
+  ],
+  "faucets": [
+    "https://faucet.celo.org/cannoli"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://docs.celo.org/",
+  "explorers": [
+    {
+      "name": "Celo Explorer",
+      "url": "https://explorer.celo.org/cannoli",
+      "standard": "none"
+    }
+  ]
+}
