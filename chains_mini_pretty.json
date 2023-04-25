@@ -3873,6 +3873,19 @@
   "faucets": ["https://scan.boka.network/#/Galois/faucet"],
   "infoURL": "https://mathchain.org"
 }, {
+  "name": "Symplexia Smart Chain",
+  "chainId": 1149,
+  "shortName": "Plexchain",
+  "networkId": 1149,
+  "nativeCurrency": {
+    "name": "Plex Native Token",
+    "symbol": "PLEX",
+    "decimals": 18
+  },
+  "rpc": ["https://plex-rpc.plexfinance.us"],
+  "faucets": [],
+  "infoURL": "https://plexfinance.us/"
+}, {
   "name": "Smart Host Teknoloji TESTNET",
   "chainId": 1177,
   "shortName": "sht",
