@@ -3,6 +3,7 @@
   "chain": "ARC",
   "icon": "arc",
   "rpc": ["https://rpc-main-1.archiechain.io"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "ARC",
     "symbol": "ARC",
@@ -15,7 +16,7 @@
   "explorers": [
     {
       "name": "archiescan",
-      "url": "https://archiescan.io",
+      "url": "https://app.archiescan.io",
       "standard": "none"
     }
   ]
