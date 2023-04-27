@@ -2066,19 +2066,6 @@
   "faucets": [],
   "infoURL": "https://lachain.io"
 }, {
-  "name": "SwapDEX",
-  "chainId": 230,
-  "shortName": "SDX",
-  "networkId": 230,
-  "nativeCurrency": {
-    "name": "SwapDEX",
-    "symbol": "SDX",
-    "decimals": 18
-  },
-  "rpc": ["https://rpc.swapdex.network", "wss://ss.swapdex.network"],
-  "faucets": [],
-  "infoURL": "https://swapdex.network/"
-}, {
   "name": "Energy Web Chain",
   "chainId": 246,
   "shortName": "ewt",
