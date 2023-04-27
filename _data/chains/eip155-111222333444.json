@@ -2,7 +2,12 @@
     "name": "Alphabet Mainnet",
     "chain": "Alphabet Network",
     "icon": "alphabetnetwork",
-    "rpc": ["https://londonpublic.alphabetnetwork.org"],
+    "rpc": [
+      "https://londonpublic.alphabetnetwork.org",
+      "wss://londonpublic.alphabetnetwork.org/ws/",
+      "https://main-rpc.com",
+      "wss://main-rpc.com/ws/"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "ALT",
