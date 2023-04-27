@@ -1938,7 +1938,7 @@
   "name": "Nebula Testnet",
   "chain": "NTN",
   "icon": "nebulatestnet",
-  "rpc": ["https://testnet.rpc.novanetwork.io:9070"],
+  "rpc": ["https://testnet.rpc.novanetwork.io"],
   "faucets": ["https://faucet.novanetwork.io"],
   "nativeCurrency": {
     "name": "Nebula X",
@@ -2981,6 +2981,25 @@
     "name": "blockscout",
     "url": "https://scan-test.lachain.io",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "SwapDEX",
+  "chain": "SDX",
+  "rpc": ["https://rpc.swapdex.network", "wss://ss.swapdex.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SwapDEX",
+    "symbol": "SDX",
+    "decimals": 18
+  },
+  "infoURL": "https://swapdex.network/",
+  "shortName": "SDX",
+  "chainId": 230,
+  "networkId": 230,
+  "explorers": [{
+    "name": "SwapDEX",
+    "url": "https://evm.swapdex.network",
+    "standard": "none"
   }]
 }, {
   "name": "Energy Web Chain",

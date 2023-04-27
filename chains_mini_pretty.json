@@ -1347,7 +1347,7 @@
     "symbol": "NBX",
     "decimals": 18
   },
-  "rpc": ["https://testnet.rpc.novanetwork.io:9070"],
+  "rpc": ["https://testnet.rpc.novanetwork.io"],
   "faucets": ["https://faucet.novanetwork.io"],
   "infoURL": "https://novanetwork.io"
 }, {
@@ -2065,6 +2065,19 @@
   "rpc": ["https://rpc-testnet.lachain.io"],
   "faucets": [],
   "infoURL": "https://lachain.io"
+}, {
+  "name": "SwapDEX",
+  "chainId": 230,
+  "shortName": "SDX",
+  "networkId": 230,
+  "nativeCurrency": {
+    "name": "SwapDEX",
+    "symbol": "SDX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.swapdex.network", "wss://ss.swapdex.network"],
+  "faucets": [],
+  "infoURL": "https://swapdex.network/"
 }, {
   "name": "Energy Web Chain",
   "chainId": 246,
