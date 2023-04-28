@@ -1,0 +1,26 @@
+{
+  "name": "Deamchain Mainnet",
+  "chain": "DEAM",
+  "icon": "deam",
+  "rpc": [
+    "https://mainnet.deamchain.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Deam",
+    "symbol": "DEAM",
+    "decimals": 18
+  },
+  "infoURL": "https://deamchain.com",
+  "shortName": "deam",
+  "chainId": 136,
+  "networkId": 136,
+
+  "explorers": [
+    {
+      "name": "deamscan",
+      "url": "https://scan.deamchain.com",
+      "standard": "none"
+    }
+  ]
+}
