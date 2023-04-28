@@ -16,10 +16,12 @@
   "chainId": 112,
   "networkId": 112,
   "icon": "coinbit",
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://explorer.chain.coinbit.id/",
-    "icon": "blockscout",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.chain.coinbit.id",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
 }
