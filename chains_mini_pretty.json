@@ -11335,6 +11335,19 @@
   "faucets": [],
   "infoURL": "https://palm.io"
 }, {
+  "name": "Alphabet Mainnet",
+  "chainId": 111222333444,
+  "shortName": "alphabet",
+  "networkId": 111222333444,
+  "nativeCurrency": {
+    "name": "ALT",
+    "symbol": "ALT",
+    "decimals": 18
+  },
+  "rpc": ["https://londonpublic.alphabetnetwork.org", "wss://londonpublic.alphabetnetwork.org/ws/", "https://main-rpc.com", "wss://main-rpc.com/ws/"],
+  "faucets": [],
+  "infoURL": "https://alphabetnetwork.org"
+}, {
   "name": "Ntity Mainnet",
   "chainId": 197710212030,
   "shortName": "ntt",
