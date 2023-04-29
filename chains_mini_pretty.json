@@ -2066,6 +2066,19 @@
   "faucets": [],
   "infoURL": "https://lachain.io"
 }, {
+  "name": "SwapDEX",
+  "chainId": 230,
+  "shortName": "SDX",
+  "networkId": 230,
+  "nativeCurrency": {
+    "name": "SwapDEX",
+    "symbol": "SDX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.swapdex.network", "wss://ss.swapdex.network"],
+  "faucets": [],
+  "infoURL": "https://swapdex.network/"
+}, {
   "name": "Energy Web Chain",
   "chainId": 246,
   "shortName": "ewt",
@@ -6225,6 +6238,19 @@
   "rpc": ["https://rpc.tresleches.finance/", "https://rpc.treschain.io/"],
   "faucets": [],
   "infoURL": "https://treschain.com"
+}, {
+  "name": "Peerpay",
+  "chainId": 6502,
+  "shortName": "Peerpay",
+  "networkId": 6502,
+  "nativeCurrency": {
+    "name": "Peerpay",
+    "symbol": "P2P",
+    "decimals": 18
+  },
+  "rpc": ["https://peerpay.su.gy/p2p"],
+  "faucets": [],
+  "infoURL": "https://peerpay.su.gy"
 }, {
   "name": "Scolcoin WeiChain Testnet",
   "chainId": 6552,

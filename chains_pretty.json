@@ -2983,6 +2983,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "SwapDEX",
+  "chain": "SDX",
+  "rpc": ["https://rpc.swapdex.network", "wss://ss.swapdex.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SwapDEX",
+    "symbol": "SDX",
+    "decimals": 18
+  },
+  "infoURL": "https://swapdex.network/",
+  "shortName": "SDX",
+  "chainId": 230,
+  "networkId": 230,
+  "explorers": [{
+    "name": "SwapDEX",
+    "url": "https://evm.swapdex.network",
+    "standard": "none"
+  }]
+}, {
   "name": "Energy Web Chain",
   "chain": "Energy Web Chain",
   "rpc": ["https://rpc.energyweb.org", "wss://rpc.energyweb.org/ws"],
@@ -9345,6 +9364,21 @@
     "icon": "treslechesexplorer",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Peerpay",
+  "chain": "P2P",
+  "rpc": ["https://peerpay.su.gy/p2p"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Peerpay",
+    "symbol": "P2P",
+    "decimals": 18
+  },
+  "infoURL": "https://peerpay.su.gy",
+  "shortName": "Peerpay",
+  "chainId": 6502,
+  "networkId": 6502,
+  "explorers": []
 }, {
   "name": "Scolcoin WeiChain Testnet",
   "chain": "SCOLWEI-testnet",
