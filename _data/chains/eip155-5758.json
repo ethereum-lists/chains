@@ -1,0 +1,23 @@
+{
+  "name": "SatoshiChain Testnet",
+  "chain": "SATS",
+  "icon": "satoshichain",
+  "rpc": ["https://rpc.satoshichain.io"],
+  "faucets": ["https://faucet.satoshichain.io"],
+  "nativeCurrency": {
+    "name": "SatoshiChain Coin",
+    "symbol": "SATS",
+    "decimals": 18
+  },
+  "infoURL": "https://satoshichain.net",
+  "shortName": "sats",
+  "chainId": 5758,
+  "networkId": 5758,
+  "explorers": [
+    {
+      "name": "SatoshiChain Explorer",
+      "url": "https://satoshiscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
