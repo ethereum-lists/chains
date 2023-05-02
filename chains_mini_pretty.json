@@ -1247,6 +1247,19 @@
   "faucets": ["https://testnet.binance.org/faucet-smart"],
   "infoURL": "https://testnet.binance.org/"
 }, {
+  "name": "Six Protocol",
+  "chainId": 98,
+  "shortName": "six",
+  "networkId": 98,
+  "nativeCurrency": {
+    "name": "SIX evm token",
+    "symbol": "SIX",
+    "decimals": 18
+  },
+  "rpc": ["https://sixnet-rpc-evm.sixprotocol.net"],
+  "faucets": [],
+  "infoURL": "https://six.network/"
+}, {
   "name": "POA Network Core",
   "chainId": 99,
   "shortName": "poa",
