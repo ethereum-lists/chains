@@ -1,13 +1,13 @@
 {
   "name": "Deamchain Mainnet",
-  "chain": "DEAM",
+  "chain": "Deamchain",
   "icon": "deam",
   "rpc": [
     "https://mainnet.deamchain.com"
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Deam",
+    "name": "Deamchain Native Token",
     "symbol": "DEAM",
     "decimals": 18
   },
@@ -18,9 +18,10 @@
 
   "explorers": [
     {
-      "name": "deamscan",
+      "name": "Deamchain Block Explorer",
       "url": "https://scan.deamchain.com",
-      "standard": "none"
+      "standard": "EIP3091",
+      "icon": "deam"
     }
   ]
 }
