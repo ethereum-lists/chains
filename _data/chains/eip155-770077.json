@@ -1,0 +1,25 @@
+{
+  "name": "GroveChain Mainnet",
+  "chain": "GRV",
+  "rpc": [
+    "https://mainnet.grovechain.io/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Grove",
+    "symbol": "GRV",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP1559" }],
+  "infoURL": "https://grovetoken.com",
+  "shortName": "grv",
+  "chainId": 770077,
+  "networkId": 770077,
+  "icon": "",
+  "explorers": [{
+    "name": "grvscan",
+    "url": "https://grvscan.io/",
+    "icon": "",
+    "standard": "EIP1559"
+  }]
+}
