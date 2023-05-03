@@ -1637,6 +1637,19 @@
   "faucets": ["https://faucet.alyxchain.com"],
   "infoURL": "https://www.alyxchain.com"
 }, {
+  "name": "Deamchain Mainnet",
+  "chainId": 136,
+  "shortName": "deam",
+  "networkId": 136,
+  "nativeCurrency": {
+    "name": "Deamchain Native Token",
+    "symbol": "DEAM",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.deamchain.com"],
+  "faucets": [],
+  "infoURL": "https://deamchain.com"
+}, {
   "name": "Polygon Mainnet",
   "chainId": 137,
   "shortName": "matic",
@@ -2091,6 +2104,19 @@
   "rpc": ["https://rpc.swapdex.network", "wss://ss.swapdex.network"],
   "faucets": [],
   "infoURL": "https://swapdex.network/"
+}, {
+  "name": "Deamchain Testnet",
+  "chainId": 236,
+  "shortName": "deamtest",
+  "networkId": 236,
+  "nativeCurrency": {
+    "name": "Deamchain Native Token",
+    "symbol": "DEAM",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.deamchain.com"],
+  "faucets": ["https://faucet.deamchain.com"],
+  "infoURL": "https://deamchain.com"
 }, {
   "name": "Energy Web Chain",
   "chainId": 246,
