@@ -1,11 +1,16 @@
 {
   "name": "Linea Testnet",
-  "title": "Linea Testnet",
+  "title": "Linea Goerli Testnet",
   "chain": "ETH",
-  "rpc": ["https://rpc.goerli.linea.build"],
+  "rpc": [
+    "https://rpc.goerli.linea.build",
+    "wss://rpc.goerli.linea.build",
+    "https://consensys-zkevm-goerli-prealpha.infura.io/v3/${INFURA_API_KEY}",
+    "wss://consensys-zkevm-goerli-prealpha.infura.io/v3/${INFURA_API_KEY}"
+  ],
   "faucets": ["https://faucetlink.to/goerli"],
   "nativeCurrency": {
-    "name": "Goerli Ether",
+    "name": "Linea Ether",
     "symbol": "ETH",
     "decimals": 18
   },
@@ -25,7 +30,7 @@
   },
   "explorers": [
     {
-      "name": "Linea Testnet Explorer",
+      "name": "blockscout",
       "url": "https://explorer.goerli.linea.build",
       "standard": "EIP3091",
       "icon": "linea"
