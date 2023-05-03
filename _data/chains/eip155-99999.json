@@ -1,15 +1,15 @@
 {
-  "name": "UB Smart Chain",
-  "chain": "USC",
-  "rpc": ["https://rpc.uschain.network"],
+  "name": "ETHEREUM MAINNET",
+  "chain": "ETH",
+  "rpc": ["https://192.168.1.124:8545"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "UBC",
-    "symbol": "UBC",
+    "name": "ETHEREUM",
+    "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "https://www.ubchain.site/",
-  "shortName": "usc",
-  "chainId": 99999,
-  "networkId": 99999
+  "infoURL": "https://",
+  "shortName": "ETH",
+  "chainId": 1,
+  "networkId": 1
 }
