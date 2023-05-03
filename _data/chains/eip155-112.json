@@ -1,15 +1,12 @@
 {
   "name": "Coinbit Mainnet",
   "chain": "Coinbit",
-  "rpc": [
-    "https://rpc-mainnet.chain.sbcrypto.app",
-    "https://rpc-mainnet.chain.coinbit.id"
-  ],
+  "rpc": ["https://coinbit-rpc-mainnet.chain.sbcrypto.app"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Gas IDR",
     "symbol": "GIDR",
-    "decimals": 2
+    "decimals": 18
   },
   "infoURL": "https://crypto.stockbit.com/",
   "shortName": "coinbit",
