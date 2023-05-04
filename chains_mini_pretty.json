@@ -1403,6 +1403,19 @@
   "faucets": ["https://etherlite.org/faucets"],
   "infoURL": "https://etherlite.org"
 }, {
+  "name": "Coinbit Mainnet",
+  "chainId": 112,
+  "shortName": "coinbit",
+  "networkId": 112,
+  "nativeCurrency": {
+    "name": "Gas IDR",
+    "symbol": "GIDR",
+    "decimals": 18
+  },
+  "rpc": ["https://coinbit-rpc-mainnet.chain.sbcrypto.app"],
+  "faucets": [],
+  "infoURL": "https://crypto.stockbit.com/"
+}, {
   "name": "Dehvo",
   "chainId": 113,
   "shortName": "deh",
