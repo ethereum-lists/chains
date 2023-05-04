@@ -1,0 +1,22 @@
+{
+  "name": "Gridiron Highbury",
+  "title": "Gridiron Highbury Mainnet",
+  "chainId": 710,
+  "shortName": "highbury",
+  "chain": "FURY",
+  "networkId": 710,
+  "nativeCurrency": {
+    "name": "Gridiron Highbury Fury",
+    "symbol": "FURY",
+    "decimals": 18
+  },
+  "rpc": ["http://rpc.gridiron.zone:26657/"],
+  "infoURL": "https://gridiron.zone",
+  "icon": "gridironclockend",
+  "explorers": [
+    {
+      "name": "gridiron-explorer",
+      "url": "https://explorer.gridiron.zone",
+      "standard": "EIP3091"
+    }]
+}
