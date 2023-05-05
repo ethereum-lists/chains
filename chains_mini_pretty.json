@@ -2596,7 +2596,7 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.testnet.lachain.network"],
-  "faucets": [],
+  "faucets": ["https://faucet.lachain.network"],
   "infoURL": ""
 }, {
   "name": "Optimism Goerli Testnet",

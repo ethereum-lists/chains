@@ -3865,7 +3865,7 @@
   "name": "LA Testnet",
   "chain": "LATestnet",
   "rpc": ["https://rpc.testnet.lachain.network"],
-  "faucets": [],
+  "faucets": ["https://faucet.lachain.network"],
   "nativeCurrency": {
     "name": "Test La Coin",
     "symbol": "TLA",
@@ -3878,7 +3878,11 @@
   "shortName": "latestnet",
   "chainId": 418,
   "networkId": 418,
-  "explorers": []
+  "explorers": [{
+    "name": "LA Testnet Explorer",
+    "url": "https://testexplorer.lachain.network",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Optimism Goerli Testnet",
   "chain": "ETH",
