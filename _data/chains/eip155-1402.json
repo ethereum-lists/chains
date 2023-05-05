@@ -1,5 +1,5 @@
 {
-  "name": "Polygon zkEVM Testnet",
+  "name": "Polygon zkEVM Testnet old",
   "title": "Polygon zkEVM Testnet",
   "chain": "Polygon",
   "rpc": [],
@@ -19,5 +19,6 @@
       "url": "https://explorer.public.zkevm-test.net",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "status": "deprecated"
 }

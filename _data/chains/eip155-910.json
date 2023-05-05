@@ -1,0 +1,15 @@
+{
+  "name": "DecentraBone Layer1 Testnet",
+  "chain": "DBONE",
+  "rpc": ["https://layer1test.decentrabone.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DecentraBone",
+    "symbol": "DBONE",
+    "decimals": 18
+  },
+  "infoURL": "https://decentrabone.com",
+  "shortName": "DBONE",
+  "chainId": 910,
+  "networkId": 910
+}
