@@ -1754,6 +1754,19 @@
   "faucets": ["https://faucet.sixprotocol.net"],
   "infoURL": "https://six.network/"
 }, {
+  "name": "Tenet Testnet",
+  "chainId": 155,
+  "shortName": "tenet-testnet",
+  "networkId": 155,
+  "nativeCurrency": {
+    "name": "TENET",
+    "symbol": "TENET",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.tenet.org"],
+  "faucets": ["https://faucet.testnet.tenet.org"],
+  "infoURL": "https://tenet.org/"
+}, {
   "name": "OEBlock Testnet",
   "chainId": 156,
   "shortName": "obe",
@@ -4457,6 +4470,19 @@
   "rpc": ["https://beagle.chat/eth"],
   "faucets": ["https://faucet.beagle.chat/"],
   "infoURL": "https://beagle.chat/"
+}, {
+  "name": "Tenet",
+  "chainId": 1559,
+  "shortName": "tenet",
+  "networkId": 1559,
+  "nativeCurrency": {
+    "name": "TENET",
+    "symbol": "TENET",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.tenet.org"],
+  "faucets": [],
+  "infoURL": "https://tenet.org/"
 }, {
   "name": "Catecoin Chain Mainnet",
   "chainId": 1618,
