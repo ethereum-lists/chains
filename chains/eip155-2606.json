@@ -1,6 +1,6 @@
 {
   "name": "PoCRNet",
-  "title": "Proof of Climate awaReness mainnet",
+  "title": "Proof of Carbon Reduction mainnet",
   "chain": "CRC",
   "status": "active",
   "rpc": [
@@ -9,7 +9,7 @@
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Climate awaReness Coin",
+    "name": "Carbon Reduction Coin",
     "symbol": "CRC",
     "decimals": 18
   },
@@ -17,12 +17,10 @@
   "shortName": "pocrnet",
   "chainId": 2606,
   "networkId": 2606,
-  "icon": "pocr",
   "explorers": [
     {
       "name": "Lite Explorer",
       "url": "https://ethereum-pocr.github.io/explorer/pocrnet",
-      "icon": "pocr",
       "standard": "EIP3091"
     }
   ]

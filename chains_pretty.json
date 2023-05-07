@@ -6833,13 +6833,13 @@
   }]
 }, {
   "name": "Kerleano",
-  "title": "Proof of Climate awaReness testnet",
+  "title": "Proof of Carbon Reduction testnet",
   "chain": "CRC",
   "status": "active",
   "rpc": ["https://cacib-saturn-test.francecentral.cloudapp.azure.com", "wss://cacib-saturn-test.francecentral.cloudapp.azure.com:9443"],
   "faucets": ["https://github.com/ethereum-pocr/kerleano/blob/main/docs/faucet.md"],
   "nativeCurrency": {
-    "name": "Climate awaReness Coin",
+    "name": "Carbon Reduction Coin",
     "symbol": "CRC",
     "decimals": 18
   },
@@ -6847,11 +6847,9 @@
   "shortName": "kerleano",
   "chainId": 1804,
   "networkId": 1804,
-  "icon": "pocr",
   "explorers": [{
     "name": "Lite Explorer",
     "url": "https://ethereum-pocr.github.io/explorer/kerleano",
-    "icon": "pocr",
     "standard": "EIP3091"
   }]
 }, {
@@ -8150,13 +8148,13 @@
   }]
 }, {
   "name": "PoCRNet",
-  "title": "Proof of Climate awaReness mainnet",
+  "title": "Proof of Carbon Reduction mainnet",
   "chain": "CRC",
   "status": "active",
   "rpc": ["https://pocrnet.westeurope.cloudapp.azure.com/http", "wss://pocrnet.westeurope.cloudapp.azure.com/ws"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Climate awaReness Coin",
+    "name": "Carbon Reduction Coin",
     "symbol": "CRC",
     "decimals": 18
   },
@@ -8164,11 +8162,9 @@
   "shortName": "pocrnet",
   "chainId": 2606,
   "networkId": 2606,
-  "icon": "pocr",
   "explorers": [{
     "name": "Lite Explorer",
     "url": "https://ethereum-pocr.github.io/explorer/pocrnet",
-    "icon": "pocr",
     "standard": "EIP3091"
   }]
 }, {
