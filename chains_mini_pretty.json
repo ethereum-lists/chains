@@ -4107,6 +4107,32 @@
   "faucets": [],
   "infoURL": "https://step.network"
 }, {
+  "name": "ARC Mainnet",
+  "chainId": 1243,
+  "shortName": "ARC",
+  "networkId": 1243,
+  "nativeCurrency": {
+    "name": "ARC",
+    "symbol": "ARC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-main-1.archiechain.io"],
+  "faucets": [],
+  "infoURL": "https://archiechain.io/"
+}, {
+  "name": "ARC Testnet",
+  "chainId": 1244,
+  "shortName": "TARC",
+  "networkId": 1244,
+  "nativeCurrency": {
+    "name": "ARC",
+    "symbol": "ARC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-test-1.archiechain.io"],
+  "faucets": ["https://faucet.archiechain.io"],
+  "infoURL": "https://archiechain.io/"
+}, {
   "name": "OM Platform Mainnet",
   "chainId": 1246,
   "shortName": "om",
