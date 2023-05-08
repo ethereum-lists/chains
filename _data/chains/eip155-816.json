@@ -1,0 +1,26 @@
+{
+  "name": "OM Testnet",
+  "title": "OM Testnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://test-rpc.omtch.com"
+  ],
+  "faucets": ["https://faucet.omtch.com"],
+  "nativeCurrency": {
+    "name": "tOMN",
+    "symbol": "tOMN",
+    "decimals": 18
+  },
+  "infoURL": "https://omtch.com",
+  "shortName": "om-testnet",
+  "chainId": 816,
+  "networkId": 816,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://test-explorer.omtch.com",
+      "standard": "EIP155",
+    }
+  ],
+  "status": "active"
+}
