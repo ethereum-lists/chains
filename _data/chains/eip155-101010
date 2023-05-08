@@ -1,0 +1,28 @@
+{
+  "name": "Router-chain",
+  "chain": "ROUTE",
+  "icon": "",
+  "rpc": [
+    "https://devnet-alpha.lcd.routerprotocol.com"
+  ],
+  "faucets": [
+    "https://devnet-faucet.routerprotocol.com"
+  ],
+  "nativeCurrency": {
+    "name": "ROUTE",
+    "symbol": "ROUTE",
+    "decimals": 18
+  },
+  "infoURL": "https://router-chain-docs.vercel.app/",
+  "shortName": "ROUTE",
+  "chainId": 101,
+  "networkId": 101,
+  "slip44": 701,
+  "explorers": [
+    {
+      "name": "Routerscan",
+      "url": "https://devnet-explorer.routerprotocol.com/",
+      "standard": "EIP3091"
+    }
+  ]
+}
