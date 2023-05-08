@@ -1,9 +1,7 @@
 {
   "name": "AltLayer Testnet",
   "chain": "ETH",
-  "rpc": [
-    "https://testnet-rollup-api.altlayer.io/"
-  ],
+  "rpc": ["https://testnet-rollup-api.altlayer.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -11,15 +9,17 @@
     "decimals": 18
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "infoURL": "https://altlayer.io/",
+  "infoURL": "https://altlayer.io",
   "shortName": "alt-testnet",
   "chainId": 9997,
   "networkId": 9997,
   "icon": "altlayer",
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://testnet-rollup-explorer.altlayer.io/",
-    "icon": "blockscout",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://testnet-rollup-explorer.altlayer.io",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
 }
