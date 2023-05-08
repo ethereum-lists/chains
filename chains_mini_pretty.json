@@ -4419,6 +4419,19 @@
   "faucets": [],
   "infoURL": "https://polygon.technology/solutions/polygon-zkevm/"
 }, {
+  "name": "GIL Testnet",
+  "chainId": 1452,
+  "shortName": "gil",
+  "networkId": 1452,
+  "nativeCurrency": {
+    "name": "GANG",
+    "symbol": "GANG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.giltestnet.com"],
+  "faucets": [],
+  "infoURL": "https://gaussgang.com/"
+}, {
   "name": "Ctex Scan Blockchain",
   "chainId": 1455,
   "shortName": "CTEX",
@@ -4626,6 +4639,19 @@
   "rpc": ["https://tea.mining4people.com/rpc", "http://172.104.194.36:8545"],
   "faucets": [],
   "infoURL": "TeaPartyCrypto.com"
+}, {
+  "name": "Gauss Mainnet",
+  "chainId": 1777,
+  "shortName": "gauss",
+  "networkId": 1777,
+  "nativeCurrency": {
+    "name": "GANG",
+    "symbol": "GANG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.gaussgang.com"],
+  "faucets": [],
+  "infoURL": "https://gaussgang.com/"
 }, {
   "name": "Kerleano",
   "chainId": 1804,
