@@ -1,0 +1,23 @@
+{
+  "name": "The Nordek Blockchain",
+  "chain": "NRK",
+  "rpc": ["https://mainnet-rpc.nordekscan.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NRK",
+    "symbol": "NRK",
+    "decimals": 18
+  },
+  "infoURL": "https://nordekscan.com/",
+  "shortName": "NRK-81041",
+  "chainId": 81041,
+  "networkId": 81041,
+  "status": "deprecated",
+  "explorers": [
+    {
+      "name": "Nordek",
+      "url": "https://nordekscan.com/",
+      "standard": "ERC721"
+    }
+  ]
+}
