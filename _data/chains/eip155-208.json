@@ -1,9 +1,7 @@
 {
     "name": "Structx Mainnet",
     "chain": "utx",
-        "rpc": [
-        "https://mainnet.structx.io"
-    ],
+    "rpc": ["https://mainnet.structx.io"],
     "faucets": [],
     "nativeCurrency": {
         "name": "Notes",
