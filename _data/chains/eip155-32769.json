@@ -1,0 +1,23 @@
+{
+  "name": "Zilliqa EVM",
+  "chain": "ZIL",
+  "rpc": ["https://api.zilliqa.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Zilliqa",
+    "symbol": "ZIL",
+    "decimals": 18
+  },
+  "infoURL": "https://www.zilliqa.com/",
+  "shortName": "zil",
+  "chainId": 32769,
+  "networkId": 32769,
+  "icon": "zilliqa",
+  "explorers": [
+    {
+      "name": "Zilliqa EVM Explorer",
+      "url": "https://evmx.zilliqa.com",
+      "standard": "none"
+    }
+  ]
+}
