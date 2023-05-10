@@ -6161,6 +6161,19 @@
   "faucets": ["https://faucet.testnet.mantle.xyz"],
   "infoURL": "https://mantle.xyz"
 }, {
+  "name": "Sahara",
+  "chainId": 5165,
+  "shortName": "ftn",
+  "networkId": 5165,
+  "nativeCurrency": {
+    "name": "FTN",
+    "symbol": "FTN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1.sahara.bahamutchain.com", "https://rpc2.sahara.bahamutchain.com"],
+  "faucets": [],
+  "infoURL": "https://fastexchain.com"
+}, {
   "name": "TLChain Network Mainnet",
   "chainId": 5177,
   "shortName": "tlc",
