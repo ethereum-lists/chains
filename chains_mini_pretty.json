@@ -6538,6 +6538,19 @@
   "faucets": [],
   "infoURL": "https://shyft.network"
 }, {
+  "name": "Raba Network Mainnet",
+  "chainId": 7484,
+  "shortName": "raba",
+  "networkId": 7484,
+  "nativeCurrency": {
+    "name": "Raba",
+    "symbol": "RABA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.x.raba.app/", "wss://rpc.x.raba.app/ws/"],
+  "faucets": [],
+  "infoURL": "https://x.raba.app/"
+}, {
   "name": "ADIL Testnet",
   "chainId": 7575,
   "shortName": "tadil",
