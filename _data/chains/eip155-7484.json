@@ -2,14 +2,14 @@
   "name": "RABA Mainnet",
   "chain": "RABA",
   "icon": "raba",
-  "rpc": ["https://rpc.x.raba.app/", "wss://rpc.x.raba.app/ws"],
+  "rpc": ["https://rpc.x.raba.app/", "wss://rpc.x.raba.app/ws/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "RABA",
     "symbol": "RABA",
     "decimals": 18
   },
-  "infoURL": "https://x.raba.app",
+  "infoURL": "https://x.raba.app/",
   "shortName": "raba",
   "chainId": 7484,
   "networkId": 7484,
