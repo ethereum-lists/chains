@@ -5953,7 +5953,7 @@
   "faucets": [],
   "infoURL": "https://nahmii.io"
 }, {
-  "name": "Oasis",
+  "name": "Oasis Testnet",
   "chainId": 4090,
   "shortName": "Oasis",
   "networkId": 4090,
@@ -5963,7 +5963,7 @@
     "decimals": 18
   },
   "rpc": ["https://rpc1.oasis.bahamutchain.com"],
-  "faucets": [],
+  "faucets": ["https://faucet.oasis.fastexchain.com"],
   "infoURL": "https://fastexchain.com"
 }, {
   "name": "Bitindi Testnet",
