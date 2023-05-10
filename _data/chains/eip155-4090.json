@@ -1,11 +1,11 @@
 {
-  "name": "Oasis",
-  "title": "Bahamut testnet Oasis",
+  "name": "Oasis Testnet",
+  "title": "Bahamut Testnet Oasis",
   "icon": "bahamut",
   "chain": "Bahamut",
   "rpc": ["https://rpc1.oasis.bahamutchain.com"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "faucets": [],
+  "faucets": ["https://faucet.oasis.fastexchain.com"],
   "nativeCurrency": {
     "name": "FTN",
     "symbol": "FTN",
