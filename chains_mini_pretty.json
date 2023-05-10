@@ -5953,6 +5953,19 @@
   "faucets": [],
   "infoURL": "https://nahmii.io"
 }, {
+  "name": "Oasis",
+  "chainId": 4090,
+  "shortName": "Oasis",
+  "networkId": 4090,
+  "nativeCurrency": {
+    "name": "FTN",
+    "symbol": "FTN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1.oasis.bahamutchain.com"],
+  "faucets": [],
+  "infoURL": "https://fastexchain.com"
+}, {
   "name": "Bitindi Testnet",
   "chainId": 4096,
   "shortName": "BNIt",
