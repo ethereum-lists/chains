@@ -1,8 +1,8 @@
 {
   "name": "Oasis",
   "title": "Bahamut testnet Oasis",
-  "chain": "Bahamut",
   "icon": "bahamut",
+  "chain": "Bahamut",
   "rpc": ["https://rpc1.oasis.bahamutchain.com"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
