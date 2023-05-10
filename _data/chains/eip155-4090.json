@@ -2,6 +2,7 @@
   "name": "Oasis",
   "title": "Bahamut testnet Oasis",
   "chain": "Bahamut",
+  "icon": "bahamut",
   "rpc": ["https://rpc1.oasis.bahamutchain.com"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
@@ -11,7 +12,7 @@
     "decimals": 18
   },
   "infoURL": "https://fastexchain.com",
-  "shortName": "oas",
+  "shortName": "Oasis",
   "chainId": 4090,
   "networkId": 4090,
   "explorers": [
