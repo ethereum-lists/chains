@@ -1,13 +1,13 @@
 {
-  "name": "PulseChain Mainnet",
+  "name": "PulseChain",
   "shortName": "pls",
   "chain": "PLS",
   "chainId": 369,
   "networkId": 369,
   "infoURL": "https://pulsechain.com/",
   "rpc": [
-    "https://rpc.mainnet.pulsechain.com/",
-    "wss://rpc.mainnet.pulsechain.com/"
+    "https://rpc.pulsechain.com/",
+    "wss://rpc.pulsechain.com/"
   ],
   "faucets": [],
   "nativeCurrency": {
