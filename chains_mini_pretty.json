@@ -9008,6 +9008,19 @@
   "faucets": [],
   "infoURL": "https://thinkium.net/"
 }, {
+  "name": "GuapcoinX",
+  "chainId": 71111,
+  "shortName": "GuapX",
+  "networkId": 71111,
+  "nativeCurrency": {
+    "name": "GuapcoinX",
+    "symbol": "GuapX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet.guapcoinx.com/", "https://rpc-mainnet-1.guapcoinx.com/", "https://rpc-mainnet-2.guapcoinx.com/"],
+  "faucets": [],
+  "infoURL": "https://guapcoin.org/"
+}, {
   "name": "Polyjuice Testnet",
   "chainId": 71393,
   "shortName": "ckb",
