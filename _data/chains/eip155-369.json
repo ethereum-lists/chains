@@ -9,7 +9,11 @@
     "https://rpc.pulsechain.com/",
     "wss://rpc.pulsechain.com/"
   ],
-  "faucets": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "ens": {
+    "registry": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
+  },
+  "status": "incubating",
   "nativeCurrency": {
     "name": "Pulse",
     "symbol": "PLS",
