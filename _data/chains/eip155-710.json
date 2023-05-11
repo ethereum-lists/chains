@@ -1,9 +1,7 @@
 {
   "name": "Gridiron Highbury",
   "chain": "Gridiron",
-  "rpc": [
-    "https://rpc.gridiron.zone:26657"
-  ],
+  "rpc": ["https://rpc.gridiron.zone:26657"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Fury",

@@ -1,9 +1,7 @@
 {
   "name": "Gridiron Clockend",
   "chain": "Gridiron",
-  "rpc": [
-    "https://testnet.gridiron.zone:26657"
-  ],
+  "rpc": ["https://testnet.gridiron.zone:26657"],
   "faucets": [],
   "nativeCurrency": {
     "name": "xFury",
