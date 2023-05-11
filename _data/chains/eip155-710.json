@@ -1,25 +1,26 @@
 {
   "name": "Gridiron Highbury",
-  "title": "Gridiron Highbury Mainnet",
-  "chainId": 710,
-  "shortName": "highbury",
-  "chain": "FURY",
-  "networkId": 710,
-  "nativeCurrency": {
-    "name": "Gridiron Highbury Fury",
-    "symbol": "FURY",
-    "decimals": 18
-  },
+  "chain": "Gridiron",
   "rpc": [
     "https://rpc.gridiron.zone:26657"
   ],
   "faucets": [],
+  "nativeCurrency": {
+    "name": "Fury",
+    "symbol": "FURY",
+    "decimals": 18
+  },
   "infoURL": "https://gridiron.zone",
+  "shortName": "Gridiron",
+  "chainId": 710,
+  "networkId": 710,
+  "icon": "gridiron",
   "explorers": [
     {
-      "name": "gridiron-explorer",
+      "name": "Grid Explorer",
       "url": "https://explorer.gridiron.zone",
-      "standard": "EIP3091"
+      "standard": "EIP3091",
+      "icon": "gridiron"
     }
   ]
 }
