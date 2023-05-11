@@ -2261,6 +2261,19 @@
   "faucets": ["https://myhpbwallet.com/"],
   "infoURL": "https://hpb.io"
 }, {
+  "name": "LaChain",
+  "chainId": 274,
+  "shortName": "lachain",
+  "networkId": 274,
+  "nativeCurrency": {
+    "name": "LaCoin",
+    "symbol": "LAC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1.mainnet.lachain.network", "https://rpc2.mainnet.lachain.network"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "zkSync Era Testnet",
   "chainId": 280,
   "shortName": "zksync-goerli",
