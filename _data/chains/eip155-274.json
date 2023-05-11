@@ -1,7 +1,10 @@
 {
   "name": "LaChain",
   "chain": "LaChain",
-  "rpc": ["https://rpc1.mainnet.lachain.network", "https://rpc2.mainnet.lachain.network"],
+  "rpc": [
+    "https://rpc1.mainnet.lachain.network",
+    "https://rpc2.mainnet.lachain.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "LaCoin",
