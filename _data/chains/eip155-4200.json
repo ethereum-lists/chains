@@ -1,27 +1,26 @@
 {
   "name": "Gridiron Clockend",
-  "title": "Gridiron Testnet Clockend",
-  "chainId": 4200,
-  "shortName": "clockend-testnet",
-  "chain": "FURY",
-  "networkId": 4200,
-  "nativeCurrency": {
-    "name": "Gridiron Clockend Fury",
-    "symbol": "xFURY",
-    "decimals": 18
-  },
+  "chain": "Gridiron",
   "rpc": [
     "https://testnet.gridiron.zone:26657"
   ],
-  "faucets": [
-    "clockend-faucet.gridiron.zone"
-  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "xFury",
+    "symbol": "XFURY",
+    "decimals": 18
+  },
   "infoURL": "https://gridiron.zone",
+  "shortName": "Clockend",
+  "chainId": 4200,
+  "networkId": 4200,
+  "icon": "gridiron",
   "explorers": [
     {
-      "name": "clockend-testnet",
-      "url": "https://testnet-explorer.gridiron.zone",
-      "standard": "EIP3091"
+      "name": "Clockend Explorer",
+      "url": "https://clockend-explorer.gridiron.zone",
+      "standard": "EIP3091",
+      "icon": "gridiron"
     }
   ]
 }
