@@ -11140,6 +11140,19 @@
   "faucets": [],
   "infoURL": "https://neon-labs.org"
 }, {
+  "name": "Razor Skale Chain",
+  "chainId": 278611351,
+  "shortName": "razor",
+  "networkId": 278611351,
+  "nativeCurrency": {
+    "name": "sFuel",
+    "symbol": "SFUEL",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.skalenodes.com/v1/turbulent-unique-scheat"],
+  "faucets": ["https://faucet.razorscan.io/"],
+  "infoURL": "https://razor.network"
+}, {
   "name": "OneLedger Mainnet",
   "chainId": 311752642,
   "shortName": "oneledger",
