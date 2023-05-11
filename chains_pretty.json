@@ -2943,6 +2943,20 @@
     "standard": "none"
   }]
 }, {
+  "name": "Structx Mainnet",
+  "chain": "utx",
+  "rpc": ["https://mainnet.structx.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Notes",
+    "symbol": "utx",
+    "decimals": 18
+  },
+  "infoURL": "https://structx.io",
+  "shortName": "utx",
+  "chainId": 208,
+  "networkId": 208
+}, {
   "name": "Freight Trust Network",
   "chain": "EDI",
   "rpc": ["http://13.57.207.168:3435", "https://app.freighttrust.net/ftn/${API_KEY}"],
@@ -3773,14 +3787,23 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "PulseChain Mainnet",
+  "name": "PulseChain",
   "shortName": "pls",
   "chain": "PLS",
   "chainId": 369,
   "networkId": 369,
   "infoURL": "https://pulsechain.com/",
-  "rpc": ["https://rpc.mainnet.pulsechain.com/", "wss://rpc.mainnet.pulsechain.com/"],
+  "rpc": ["https://rpc.pulsechain.com/", "wss://rpc.pulsechain.com/"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
   "faucets": [],
+  "ens": {
+    "registry": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
+  },
+  "status": "incubating",
   "nativeCurrency": {
     "name": "Pulse",
     "symbol": "PLS",

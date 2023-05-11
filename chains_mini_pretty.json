@@ -2027,6 +2027,19 @@
   "faucets": [],
   "infoURL": "https://moac.io"
 }, {
+  "name": "Structx Mainnet",
+  "chainId": 208,
+  "shortName": "utx",
+  "networkId": 208,
+  "nativeCurrency": {
+    "name": "Notes",
+    "symbol": "utx",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.structx.io"],
+  "faucets": [],
+  "infoURL": "https://structx.io"
+}, {
   "name": "Freight Trust Network",
   "chainId": 211,
   "shortName": "EDI",
@@ -2521,7 +2534,7 @@
   "faucets": [],
   "infoURL": "https://www.thetatoken.org/"
 }, {
-  "name": "PulseChain Mainnet",
+  "name": "PulseChain",
   "chainId": 369,
   "shortName": "pls",
   "networkId": 369,
@@ -2530,7 +2543,7 @@
     "symbol": "PLS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.mainnet.pulsechain.com/", "wss://rpc.mainnet.pulsechain.com/"],
+  "rpc": ["https://rpc.pulsechain.com/", "wss://rpc.pulsechain.com/"],
   "faucets": [],
   "infoURL": "https://pulsechain.com/"
 }, {
