@@ -1,27 +1,24 @@
 {
-  "name": "Sahara",
-  "title": "Bahamut mainnet Sahara",
-  "chain": "Bahamut",
+  "name": "Oasis Testnet",
+  "title": "Bahamut Testnet Oasis",
   "icon": "bahamut",
-  "rpc": [
-    "https://rpc1.sahara.bahamutchain.com",
-    "https://rpc2.sahara.bahamutchain.com"
-  ],
+  "chain": "Bahamut",
+  "rpc": ["https://rpc1.oasis.bahamutchain.com"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "faucets": [],
+  "faucets": ["https://faucet.oasis.fastexchain.com"],
   "nativeCurrency": {
     "name": "FTN",
     "symbol": "FTN",
     "decimals": 18
   },
-  "shortName": "ftn",
   "infoURL": "https://fastexchain.com",
-  "chainId": 5165,
-  "networkId": 5165,
+  "shortName": "Oasis",
+  "chainId": 4090,
+  "networkId": 4090,
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://ftnscan.com",
+      "url": "https://oasis.ftnscan.com",
       "standard": "none"
     }
   ]
