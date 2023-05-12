@@ -16815,7 +16815,7 @@
   "name": "Kanazawa",
   "title": "Meld Testnet Kanazawa",
   "chain": "Kanazawa",
-  "rpc": ["https://rpc-kanazawa.meldlabs.dev/ext/bc/2Ci7VYrUd4fTBqGA5D2HA6UPHzQ4LQyr8rZQww9MGSv9rNkRzn/rpc"],
+  "rpc": ["https://subnets.avax.network/meld/testnet/rpc"],
   "faucets": [],
   "features": [],
   "nativeCurrency": {
@@ -16828,7 +16828,12 @@
   "shortName": "kanazawa",
   "chainId": 222000222,
   "networkId": 222000222,
-  "explorers": []
+  "explorers": [{
+    "name": "explorer",
+    "url": "https://subnets-test.avax.network/meld",
+    "icon": "meld",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Neon EVM DevNet",
   "chain": "Solana",
@@ -16945,7 +16950,7 @@
   "name": "Meld",
   "title": "Meld Mainnet",
   "chain": "MELD",
-  "rpc": ["https://network-rpc.meld.com"],
+  "rpc": ["https://subnets.avax.network/meld/mainnet/rpc"],
   "faucets": [],
   "features": [],
   "nativeCurrency": {
@@ -16958,7 +16963,12 @@
   "shortName": "meld",
   "chainId": 333000333,
   "networkId": 333000333,
-  "explorers": []
+  "explorers": [{
+    "name": "explorer",
+    "url": "https://subnets.avax.network/meld",
+    "icon": "meld",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Calypso NFT Hub (SKALE Testnet)",
   "title": "Calypso NFT Hub Testnet",
