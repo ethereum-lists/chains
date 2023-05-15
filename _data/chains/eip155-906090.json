@@ -1,0 +1,23 @@
+{
+  "name": "Pepechain L2 Testnet",
+  "chain": "pepechain-testnet",
+  "rpc": ["https://l2-pepechain-testnet-8uk55qlld4.t.conduit.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "pepETH",
+    "symbol": "pepETH",
+    "decimals": 18
+  },
+  "infoURL": "https://ezchain.com",
+  "shortName": "pepechain-testnet",
+  "chainId": 906090,
+  "networkId": 906090,
+  "icon": "pepechain",
+  "explorers": [
+    {
+      "name": "pepechain-testnet",
+      "url": "https://explorerl2-pepechain-testnet-8uk55qlld4.t.conduit.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
