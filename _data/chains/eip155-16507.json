@@ -1,12 +1,10 @@
 {
     "name": "Genesys Mainnet",
     "chain": "Genesys",
-    "rpc": [
-      "https://rpc.genesys.network"
-    ],
+    "rpc": ["https://rpc.genesys.network"],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Genesys",
+      "name": "GSYS",
       "symbol": "GSYS",
       "decimals": 18
     },
@@ -19,7 +17,6 @@
       {
         "name": "Gchain Explorer",
         "url": "https://gchainexplorer.genesys.network",
-        "icon": "genesys",
         "standard": "EIP3091"
       }
     ]
