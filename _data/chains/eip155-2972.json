@@ -1,0 +1,22 @@
+{
+  "name": "GPEX Mainnet",
+  "chain": "GPEX",
+  "rpc": ["https://rpc.gpexdev.com"],
+  "faucets":[],
+  "nativeCurrency": {
+    "name": "GPEX",
+    "symbol": "GPX",
+    "decimals": 18
+  },
+  "infoURL": "https://gpex.io",
+  "shortName": "gpx",
+  "chainId": 2972,
+  "networkId": 2972,
+  "icon": "gpex",
+  "explorers": [{
+    "name": "gpexscan",
+    "url": "https://gpexscan.com",
+    "icon": "gpex",
+    "standard": "none"
+  }]
+}

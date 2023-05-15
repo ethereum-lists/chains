@@ -1,0 +1,21 @@
+{
+  "name": "GPEX Testnet",
+  "chain": "GPEX",
+  "rpc": ["https://testnet.rpc.gb.gpexdev.com"],
+  "faucets":[],
+  "nativeCurrency": {
+    "name": "GPEX",
+    "symbol": "TGPX",
+    "decimals": 18
+  },
+  "infoURL": "https://gpex.io",
+  "shortName": "tgpx",
+  "chainId": 2973,
+  "networkId": 2973,
+  "explorers": [{
+    "name": "tgpexscan",
+    "url": "https://testnet.gb.gpexscan.com",
+    "icon": "gpex",
+    "standard": "none"
+  }]
+}
