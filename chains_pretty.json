@@ -92,7 +92,7 @@
   "name": "Goerli",
   "title": "Ethereum Testnet Goerli",
   "chain": "ETH",
-  "rpc": ["https://goerli.infura.io/v3/${INFURA_API_KEY}", "wss://goerli.infura.io/v3/${INFURA_API_KEY}", "https://rpc.goerli.mudit.blog/"],
+  "rpc": ["https://goerli.infura.io/v3/${INFURA_API_KEY}", "wss://goerli.infura.io/v3/${INFURA_API_KEY}", "https://rpc.goerli.mudit.blog/", "https://ethereum-goerli.publicnode.com"],
   "faucets": ["http://fauceth.komputing.org?chain=5&address=${ADDRESS}", "https://goerli-faucet.slock.it?address=${ADDRESS}", "https://faucet.goerli.mudit.blog"],
   "nativeCurrency": {
     "name": "Goerli Ether",
@@ -7855,7 +7855,7 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Metaplayerone Network",
+  "name": "Metaplayerone Dubai Testnet",
   "chain": "MP1 Dubai-Testnet",
   "icon": "meu",
   "rpc": ["https://rpc-dubai.mp1network.com/"],
@@ -8891,7 +8891,7 @@
 }, {
   "name": "Fantom Testnet",
   "chain": "FTM",
-  "rpc": ["https://rpc.testnet.fantom.network"],
+  "rpc": ["https://rpc.testnet.fantom.network", "https://fantom-testnet.publicnode.com"],
   "faucets": ["https://faucet.fantom.network"],
   "nativeCurrency": {
     "name": "Fantom",
@@ -12922,7 +12922,7 @@
   "name": "Avalanche Fuji Testnet",
   "chain": "AVAX",
   "icon": "avax",
-  "rpc": ["https://api.avax-test.network/ext/bc/C/rpc"],
+  "rpc": ["https://api.avax-test.network/ext/bc/C/rpc", "https://avalanche-fuji-c-chain.publicnode.com"],
   "faucets": ["https://faucet.avax-test.network/"],
   "nativeCurrency": {
     "name": "Avalanche",
@@ -13885,7 +13885,7 @@
   "title": "Polygon Testnet Mumbai",
   "chain": "Polygon",
   "icon": "polygon",
-  "rpc": ["https://matic-mumbai.chainstacklabs.com", "https://rpc-mumbai.maticvigil.com", "https://matic-testnet-archive-rpc.bwarelabs.com"],
+  "rpc": ["https://matic-mumbai.chainstacklabs.com", "https://rpc-mumbai.maticvigil.com", "https://matic-testnet-archive-rpc.bwarelabs.com", "https://polygon-mumbai-bor.publicnode.com"],
   "faucets": ["https://faucet.polygon.technology/"],
   "nativeCurrency": {
     "name": "MATIC",
@@ -15822,6 +15822,26 @@
     "name": "blockscout",
     "url": "https://explorer.octa.space",
     "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "CURVE Mainnet",
+  "chain": "CURVE",
+  "icon": "curveIcon",
+  "rpc": ["https://mainnet-rpc.curvescan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Curve",
+    "symbol": "CURVE",
+    "decimals": 18
+  },
+  "infoURL": "https://curvescan.io",
+  "shortName": "CURVEm",
+  "chainId": 827431,
+  "networkId": 827431,
+  "explorers": [{
+    "name": "CURVE Mainnet",
+    "url": "https://curvescan.io",
     "standard": "EIP3091"
   }]
 }, {
