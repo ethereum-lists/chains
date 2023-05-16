@@ -4419,6 +4419,19 @@
   "faucets": [],
   "infoURL": "https://sinso.io"
 }, {
+  "name": "Joseon Mainnet",
+  "chainId": 1392,
+  "shortName": "mun",
+  "networkId": 1392,
+  "nativeCurrency": {
+    "name": "Joseon Mun",
+    "symbol": "JSM",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.modchain.net/blockchain.joseon.com/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.joseon.com/"
+}, {
   "name": "Polygon zkEVM Testnet old",
   "chainId": 1402,
   "shortName": "zkevmtest",
