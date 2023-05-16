@@ -1,0 +1,28 @@
+{
+  "name": "Nautilus Chain",
+  "title": "Nautilus Trition Testnet",
+  "chain": "ETH",
+  "icon": "nautilus",
+  "rpc": [
+    "https://api.evm.zebec.eclipsenetwork.xyz/solana"
+  ],
+  "faucets": [
+    "https://faucet.eclipse.builders"
+  ],
+  "nativeCurrency": {
+    "name": "Nautilus Zebec Testnet Tokens",
+    "symbol": "tZBC",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/ethereum/ropsten",
+  "shortName": "NAUT",
+  "chainId": 91002,
+  "networkId": 91002,
+  "explorers": [
+    {
+      "name": "Nautscan",
+      "url": "https://triton.nautscan.com/",
+      "standard": "EIP3091"
+    }
+  ]
+}
