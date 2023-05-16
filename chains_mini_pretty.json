@@ -2664,6 +2664,19 @@
   "faucets": [],
   "infoURL": "https://frenchain.app"
 }, {
+  "name": "ARZIO Chain",
+  "chainId": 456,
+  "shortName": "arzio",
+  "networkId": 456,
+  "nativeCurrency": {
+    "name": "ARZIO",
+    "symbol": "AZO",
+    "decimals": 18
+  },
+  "rpc": ["https://chain-rpc.arzio.co"],
+  "faucets": [],
+  "infoURL": "https://chain.arzio.co"
+}, {
   "name": "Rupaya",
   "chainId": 499,
   "shortName": "rupx",

@@ -3983,6 +3983,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "ARZIO Chain",
+  "chain": "ARZIO",
+  "icon": "arzio",
+  "rpc": ["https://chain-rpc.arzio.co"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ARZIO",
+    "symbol": "AZO",
+    "decimals": 18
+  },
+  "infoURL": "https://chain.arzio.co",
+  "shortName": "arzio",
+  "chainId": 456,
+  "networkId": 456,
+  "explorers": [{
+    "name": "ARZIO Scan",
+    "url": "https://scan.arzio.co",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Rupaya",
   "chain": "RUPX",
   "rpc": [],
