@@ -6837,6 +6837,19 @@
   "faucets": ["https://faucet-sphinx.shardeum.org/"],
   "infoURL": "https://docs.shardeum.org/"
 }, {
+  "name": "BitEth",
+  "chainId": 8086,
+  "shortName": "BitEth",
+  "networkId": 8086,
+  "nativeCurrency": {
+    "name": "BitEth",
+    "symbol": "BTE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.biteth.org"],
+  "faucets": [],
+  "infoURL": "https://biteth.org"
+}, {
   "name": "StreamuX Blockchain",
   "chainId": 8098,
   "shortName": "StreamuX",
