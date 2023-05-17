@@ -4,7 +4,7 @@
   "chain": "ETH",
   "icon": "nautilus",
   "rpc": [
-    "https://api.evm.zebec.eclipsenetwork.xyz/solana"
+    "https://triton.api.nautchain.xyz"
   ],
   "faucets": [
     "https://faucet.eclipse.builders"
@@ -14,7 +14,7 @@
     "symbol": "tZBC",
     "decimals": 18
   },
-  "infoURL": "https://github.com/ethereum/ropsten",
+  "infoURL": "https://docs.nautchain.xyz",
   "shortName": "NAUT",
   "chainId": 91002,
   "networkId": 91002,
