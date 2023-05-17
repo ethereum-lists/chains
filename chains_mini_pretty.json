@@ -5472,6 +5472,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "SOMA Network Testnet",
+  "chainId": 2323,
+  "shortName": "sma",
+  "networkId": 2323,
+  "nativeCurrency": {
+    "name": "SMA",
+    "symbol": "tSMA",
+    "decimals": 18
+  },
+  "rpc": ["https://data-testnet-v1.somanetwork.io/"],
+  "faucets": ["https://faucet.somanetwork.io"],
+  "infoURL": "https://somanetwork.io"
+}, {
   "name": "Altcoinchain",
   "chainId": 2330,
   "shortName": "alt",
