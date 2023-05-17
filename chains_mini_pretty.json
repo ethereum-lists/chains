@@ -7890,6 +7890,19 @@
   "faucets": ["https://faucet.metadot.network/"],
   "infoURL": "https://metadot.network"
 }, {
+  "name": "Genesys Mainnet",
+  "chainId": 16507,
+  "shortName": "Genesys",
+  "networkId": 16507,
+  "nativeCurrency": {
+    "name": "Genesys",
+    "symbol": "GSYS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.genesys.network"],
+  "faucets": [],
+  "infoURL": "https://www.genesys.network/"
+}, {
   "name": "IRIShub Testnet",
   "chainId": 16688,
   "shortName": "nyancat",
