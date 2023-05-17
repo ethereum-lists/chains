@@ -1,9 +1,7 @@
 {
   "name": "Worlds Caldera",
   "chain": "WCal",
-  "rpc": [
-    "https://worlds-test.calderachain.xyz/http"
-  ],
+  "rpc": ["https://worlds-test.calderachain.xyz/http"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -12,7 +10,7 @@
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://caldera.xyz/",
-  "shortName": "eth",
+  "shortName": "worldscal",
   "chainId": 4281033,
   "networkId": 4281033,
   "icon": "ethereum",
