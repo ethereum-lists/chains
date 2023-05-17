@@ -8748,6 +8748,19 @@
   "faucets": [],
   "infoURL": "https://gton.capital"
 }, {
+  "name": "Opside Testnet Pre-Alpha",
+  "chainId": 51178,
+  "shortName": "Opside-Testnet",
+  "networkId": 51178,
+  "nativeCurrency": {
+    "name": "IDE Test Token",
+    "symbol": "IDE",
+    "decimals": 18
+  },
+  "rpc": ["https://pre-alpha-us-http-geth.opside.network", "https://pre-alpha-hk-http-geth.opside.network"],
+  "faucets": [],
+  "infoURL": "https://opsi.de/"
+}, {
   "name": "Sardis Mainnet",
   "chainId": 51712,
   "shortName": "SRDXm",
