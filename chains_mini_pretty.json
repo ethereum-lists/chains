@@ -1208,6 +1208,19 @@
   "faucets": [],
   "infoURL": "https://garizon.com"
 }, {
+  "name": "SwissDLT",
+  "chainId": 94,
+  "shortName": "sdlt",
+  "networkId": 94,
+  "nativeCurrency": {
+    "name": "BCTS",
+    "symbol": "BCTS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.swissdlt.ch"],
+  "faucets": [],
+  "infoURL": "https://bcts.ch"
+}, {
   "name": "CryptoKylin Testnet",
   "chainId": 95,
   "shortName": "kylin",
