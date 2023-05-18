@@ -1,9 +1,7 @@
 {
   "name": "SwissDLT",
   "chain": "SDLT",
-  "rpc": [
-    "https://rpc.swissdlt.ch"
-  ],
+  "rpc": ["https://rpc.swissdlt.ch"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BCTS",
@@ -16,10 +14,12 @@
   "chainId": 94,
   "networkId": 94,
   "icon": "bcts",
-  "explorers": [{
-    "name": "SwissDLT Explorer",
-    "url": "https://explorer.swissdlt.ch",
-    "icon": "bcts",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "SwissDLT Explorer",
+      "url": "https://explorer.swissdlt.ch",
+      "icon": "bcts",
+      "standard": "EIP3091"
+    }
+  ]
 }
