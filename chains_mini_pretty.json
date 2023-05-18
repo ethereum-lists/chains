@@ -5498,6 +5498,19 @@
   "faucets": [],
   "infoURL": "https://altcoinchain.org"
 }, {
+  "name": "SOMA Network Mainnet",
+  "chainId": 2332,
+  "shortName": "smam",
+  "networkId": 2332,
+  "nativeCurrency": {
+    "name": "Soma Native Token",
+    "symbol": "SMA",
+    "decimals": 18
+  },
+  "rpc": ["https://data-mainnet-v1.somanetwork.io/"],
+  "faucets": ["https://airdrop.somanetwork.io"],
+  "infoURL": "https://somanetwork.io"
+}, {
   "name": "Kroma Sepolia",
   "chainId": 2357,
   "shortName": "kroma-sepolia",
