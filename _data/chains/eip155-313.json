@@ -17,10 +17,12 @@
   "chainId": 313,
   "networkId": 313,
   "icon": "neurochain",
-  "explorers": [{
-    "name": "neuroscan",
-    "url": "https://ncnscan.com",
-    "icon": "neurochain",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "neuroscan",
+      "url": "https://ncnscan.com",
+      "icon": "neurochain",
+      "standard": "EIP3091"
+    }
+  ]
 }
