@@ -1,0 +1,25 @@
+{
+  "name": "FOX Network Mainnet",
+  "chain": "FOX",
+  "rpc": ["https://rpc-mainnet-v1.foxchain.app/"],
+  "faucets": ["https://rewards.foxchain.app"],
+  "nativeCurrency": {
+    "name": "FOX CHAIN",
+    "symbol": "FOX",
+    "decimals": 18
+  },
+  "infoURL": "https://foxchain.app",
+  "shortName": "fox",
+  "chainId": 101112,
+  "networkId": 101112,
+  "icon": "fox",
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "FOX Explorer Mainnet",
+      "icon": "fox",
+      "url": "https://foxscan.app",
+      "standard": "none"
+    }
+  ]
+}
