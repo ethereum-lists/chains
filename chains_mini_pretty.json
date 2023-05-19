@@ -2391,6 +2391,19 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "Neurochain Testnet",
+  "chainId": 303,
+  "shortName": "ncnt",
+  "networkId": 303,
+  "nativeCurrency": {
+    "name": "Neurochain",
+    "symbol": "tNCN",
+    "decimals": 18
+  },
+  "rpc": ["https://nc-rpc-test1.neurochain.io"],
+  "faucets": [],
+  "infoURL": "https://www.neurochain.ai"
+}, {
   "name": "Omax Mainnet",
   "chainId": 311,
   "shortName": "omax",
@@ -2403,6 +2416,19 @@
   "rpc": ["https://mainapi.omaxray.com"],
   "faucets": ["https://faucet.omaxray.com/"],
   "infoURL": "https://www.omaxcoin.com/"
+}, {
+  "name": "Neurochain Mainnet",
+  "chainId": 313,
+  "shortName": "ncn",
+  "networkId": 313,
+  "nativeCurrency": {
+    "name": "Neurochain",
+    "symbol": "NCN",
+    "decimals": 18
+  },
+  "rpc": ["https://nc-rpc-prd1.neurochain.io", "https://nc-rpc-prd2.neurochain.io"],
+  "faucets": [],
+  "infoURL": "https://www.neurochain.ai"
 }, {
   "name": "Filecoin - Mainnet",
   "chainId": 314,
