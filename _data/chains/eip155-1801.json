@@ -1,0 +1,23 @@
+{
+  "name": "Fox Mainnet Network",
+  "chain": "FOX",
+  "icon": "fox",
+  "rpc": ["https://rpc-mainnet-v1.foxchain.app"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FOX",
+    "symbol": "FOX",
+    "decimals": 18
+  },
+  "infoURL": "https://foxchain.app/",
+  "shortName": "fox",
+  "chainId": 1801,
+  "networkId": 1801,
+  "explorers": [
+    {
+      "name": "Fox Mainnet Explorer",
+      "url": "https://foxscan.app",
+      "standard": "EIP3091"
+    }
+  ]
+}
