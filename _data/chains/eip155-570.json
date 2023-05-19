@@ -1,10 +1,7 @@
 {
   "name": "Rollux Mainnet",
   "chain": "SYS",
-  "rpc": [
-    "https://rpc.rollux.com",
-    "wss://wss.rollux.com/wss"
-  ],
+  "rpc": ["https://rpc.rollux.com", "wss://wss.rollux.com/wss"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Syscoin",
