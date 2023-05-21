@@ -1,0 +1,25 @@
+{
+  "name": "ButaneDAO Mainnet",
+  "chain": "BBC",
+  "rpc": [
+    "https://mainnet-rpc.bbcscan.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ButaneDAO",
+    "symbol": "BBC",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://butane.net",
+  "shortName": "bbc",
+  "chainId": 1,
+  "networkId": 1,
+  "icon": "butanedao",
+  "explorers": [{
+    "name": "bbcscan",
+    "url": "https://bbcscan.io",
+    "icon": "bbcscan",
+    "standard": "EIP3091"
+  }]
+}
