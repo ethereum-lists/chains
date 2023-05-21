@@ -1,24 +1,24 @@
 {
-  "name": "ButaneDAO Mainnet",
-  "chain": "BBC",
+  "name": "ButaneDAO Testnet",
+  "chain": "tBBC",
   "rpc": [
-    "https://mainnet-rpc.bbcscan.io"
+    "https://testnet-rpc.bbcscan.io/"
   ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ButaneDAO",
-    "symbol": "BBC",
+    "symbol": "tBBC",
     "decimals": 18
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://butane.net",
-  "shortName": "bbc",
-  "chainId": 1978,
-  "networkId": 1978,
+  "shortName": "tbbc",
+  "chainId": 197878,
+  "networkId": 197878,
   "icon": "butanedao",
   "explorers": [{
     "name": "bbcscan",
-    "url": "https://bbcscan.io",
+    "url": "https://testnet.bbcscan.io",
     "icon": "bbcscan",
     "standard": "EIP3091"
   }]
