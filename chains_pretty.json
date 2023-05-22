@@ -14110,6 +14110,27 @@
   "chainId": 78110,
   "networkId": 78110
 }, {
+  "name": "Dragonfly Mainnet (Hexapod)",
+  "chain": "Dragonfly",
+  "icon": "dragonfly",
+  "rpc": ["https://dragonfly-rpc.switch.ch", "https://dragonfly-rpc.kore-technologies.ch", "https://dragonfly-rpc.phoenix-systems.io", "https://dragonfly-rpc.block-spirit.ch"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dragonfly",
+    "symbol": "DFLY",
+    "decimals": 18
+  },
+  "infoURL": "https://hexapod.network",
+  "shortName": "dfly",
+  "chainId": 78281,
+  "networkId": 78281,
+  "explorers": [{
+    "name": "Dragonfly Blockscout",
+    "url": "https://blockscout.dragonfly.hexapod.network",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Gold Smart Chain Testnet",
   "chain": "STAND",
   "icon": "standTestnet",
@@ -14412,6 +14433,27 @@
     "url": "https://explorer.lambda.top",
     "standard": "EIP3091",
     "icon": "lambda"
+  }]
+}, {
+  "name": "Mantis Testnet (Hexapod)",
+  "chain": "Mantis",
+  "icon": "mantis",
+  "rpc": ["https://mantis-rpc.switch.ch", "https://mantis-rpc.kore-technologies.ch", "https://mantis-rpc.phoenix-systems.io"],
+  "faucets": ["https://mantis.switch.ch/faucet", "https://mantis.kore-technologies.ch/faucet", "https://mantis.phoenix-systems.io/faucet", "https://mantis.block-spirit.ch/faucet"],
+  "nativeCurrency": {
+    "name": "Mantis",
+    "symbol": "MANTIS",
+    "decimals": 18
+  },
+  "infoURL": "https://hexapod.network",
+  "shortName": "mantis",
+  "chainId": 96970,
+  "networkId": 96970,
+  "explorers": [{
+    "name": "Mantis Blockscout",
+    "url": "https://blockscout.mantis.hexapod.network",
+    "icon": "blockscout",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Boba BNB Mainnet Old",
