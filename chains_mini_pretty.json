@@ -5836,6 +5836,19 @@
   "faucets": [],
   "infoURL": "https://net.paribu.com"
 }, {
+  "name": "SecureChain Testnet",
+  "chainId": 3434,
+  "shortName": "SCAIt",
+  "networkId": 3434,
+  "nativeCurrency": {
+    "name": "SCAI",
+    "symbol": "SCAI",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.securechain.ai"],
+  "faucets": ["https://faucet.securechain.ai"],
+  "infoURL": "https://securechain.ai"
+}, {
   "name": "Paribu Net Testnet",
   "chainId": 3500,
   "shortName": "prbtestnet",

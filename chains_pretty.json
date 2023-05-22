@@ -8777,6 +8777,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "SecureChain Testnet",
+  "chain": "SCAI",
+  "icon": "scaiIcon",
+  "rpc": ["https://testnet-rpc.securechain.ai"],
+  "faucets": ["https://faucet.securechain.ai"],
+  "nativeCurrency": {
+    "name": "SCAI",
+    "symbol": "SCAI",
+    "decimals": 18
+  },
+  "infoURL": "https://securechain.ai",
+  "shortName": "SCAIt",
+  "chainId": 3434,
+  "networkId": 3434,
+  "explorers": [{
+    "name": "SecureChain",
+    "url": "https://testnet.securechain.ai",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Paribu Net Testnet",
   "chain": "PRB",
   "rpc": ["https://rpc.testnet.paribuscan.com"],
