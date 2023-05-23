@@ -10321,6 +10321,19 @@
   "faucets": ["https://faucet.polis.tech"],
   "infoURL": "https://polis.tech"
 }, {
+  "name": "Bitfinity Network Testnet",
+  "chainId": 355113,
+  "shortName": "Bitfinity",
+  "networkId": 355113,
+  "nativeCurrency": {
+    "name": "BITFINITY",
+    "symbol": "BFT",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.bitfinity.network"],
+  "faucets": ["https://bitfinity.network/faucet"],
+  "infoURL": "https://bitfinity.network"
+}, {
   "name": "HAPchain Testnet",
   "chainId": 373737,
   "shortName": "hap-testnet",
