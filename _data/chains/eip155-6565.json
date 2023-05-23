@@ -15,5 +15,14 @@
   "infoURL": "https://foxchain.app",
   "shortName": "fox",
   "chainId": 6565,
-  "networkId": 6565
+  "networkId": 6565,
+  "icon": "fox",
+  "explorers": [
+    {
+      "name": "FOX Testnet Explorer",
+      "icon": "fox",
+      "url": "https://testnet.foxscan.app",
+      "standard": "none"
+    }
+  ]
 }
