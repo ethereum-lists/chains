@@ -1,6 +1,7 @@
 {
   "name": "Scroll Pre-Alpha Testnet",
   "chain": "ETH",
+  "status": "deprecated",
   "rpc": ["https://prealpha-rpc.scroll.io/l2"],
   "faucets": ["https://prealpha.scroll.io/faucet"],
   "nativeCurrency": {

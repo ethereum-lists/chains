@@ -1,5 +1,5 @@
 {
-  "name": "Scroll",
+  "name": "Scroll Sepolia Testnet",
   "chain": "ETH",
   "status": "incubating",
   "rpc": [],
@@ -10,13 +10,13 @@
     "decimals": 18
   },
   "infoURL": "https://scroll.io",
-  "shortName": "scr",
-  "chainId": 534352,
-  "networkId": 534352,
+  "shortName": "scr-sepolia",
+  "chainId": 534351,
+  "networkId": 534351,
   "explorers": [],
   "parent": {
     "type": "L2",
-    "chain": "eip155-1",
+    "chain": "eip155-11155111",
     "bridges": []
   }
 }
