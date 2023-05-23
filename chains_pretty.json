@@ -15977,8 +15977,30 @@
   }],
   "infoURL": "https://etherfair.org"
 }, {
+  "name": "Scroll Sepolia Testnet",
+  "chain": "ETH",
+  "status": "incubating",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://scroll.io",
+  "shortName": "scr-sepolia",
+  "chainId": 534351,
+  "networkId": 534351,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": []
+  }
+}, {
   "name": "Scroll",
   "chain": "ETH",
+  "status": "incubating",
   "rpc": [],
   "faucets": [],
   "nativeCurrency": {
@@ -15999,7 +16021,7 @@
 }, {
   "name": "Scroll Alpha Testnet",
   "chain": "ETH",
-  "status": "incubating",
+  "status": "active",
   "rpc": ["https://alpha-rpc.scroll.io/l2"],
   "faucets": [],
   "nativeCurrency": {
@@ -16028,6 +16050,7 @@
 }, {
   "name": "Scroll Pre-Alpha Testnet",
   "chain": "ETH",
+  "status": "deprecated",
   "rpc": ["https://prealpha-rpc.scroll.io/l2"],
   "faucets": ["https://prealpha.scroll.io/faucet"],
   "nativeCurrency": {

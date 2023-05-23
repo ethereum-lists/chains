@@ -10516,6 +10516,19 @@
   "faucets": [],
   "infoURL": "https://etherfair.org"
 }, {
+  "name": "Scroll Sepolia Testnet",
+  "chainId": 534351,
+  "shortName": "scr-sepolia",
+  "networkId": 534351,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://scroll.io"
+}, {
   "name": "Scroll",
   "chainId": 534352,
   "shortName": "scr",
