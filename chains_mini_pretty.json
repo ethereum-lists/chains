@@ -4055,6 +4055,19 @@
   "faucets": [],
   "infoURL": "https://plexfinance.us/"
 }, {
+  "name": "Origin Testnet",
+  "chainId": 1170,
+  "shortName": "auoc",
+  "networkId": 1170,
+  "nativeCurrency": {
+    "name": "Origin",
+    "symbol": "UOC",
+    "decimals": 18
+  },
+  "rpc": ["https://json-rpc.origin.uptick.network"],
+  "faucets": [],
+  "infoURL": "https://www.uptick.network"
+}, {
   "name": "Smart Host Teknoloji TESTNET",
   "chainId": 1177,
   "shortName": "sht",
