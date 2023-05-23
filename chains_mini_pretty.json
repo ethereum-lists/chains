@@ -7474,6 +7474,19 @@
   "faucets": ["https://faucet.mainnetz.io"],
   "infoURL": "https://testnet.mainnetz.io"
 }, {
+  "name": "PepeNetwork Mainnet",
+  "chainId": 9779,
+  "shortName": "pn",
+  "networkId": 9779,
+  "nativeCurrency": {
+    "name": "Pepe",
+    "symbol": "WPEPE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet.pepenetwork.io"],
+  "faucets": [],
+  "infoURL": "https://pepenetwork.io"
+}, {
   "name": "Carbon EVM",
   "chainId": 9790,
   "shortName": "carbon",
