@@ -1,0 +1,15 @@
+{
+    "name": "Watr Devnet",
+    "chain": "WATR",
+    "rpc": ["https://rpc.dev.watr.org"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Watr Devnet Token",
+      "symbol": "WATRD",
+      "decimals": 18
+    },
+    "infoURL": "https://watr.org",
+    "shortName": "watrdev",
+    "chainId": 688,
+    "networkId": 688
+  }
