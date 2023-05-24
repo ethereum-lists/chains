@@ -3080,6 +3080,19 @@
   "faucets": ["https://faucet.bcsdev.io"],
   "infoURL": "https://blockchainstation.io"
 }, {
+  "name": "Shibarium Beta",
+  "chainId": 719,
+  "shortName": "shibarium",
+  "networkId": 719,
+  "nativeCurrency": {
+    "name": "BONE",
+    "symbol": "BONE",
+    "decimals": 18
+  },
+  "rpc": ["https://puppynet.shibrpc.com"],
+  "faucets": [],
+  "infoURL": "https://beta.shibariumtech.com"
+}, {
   "name": "Lycan Chain",
   "chainId": 721,
   "shortName": "LYC",
