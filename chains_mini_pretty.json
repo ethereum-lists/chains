@@ -4987,9 +4987,9 @@
     "symbol": "TSCS",
     "decimals": 18
   },
-  "rpc": ["https://testnet.superexchain.com:8544"],
-  "faucets": ["https://testnet.superexchain.com"],
-  "infoURL": "https://testnet.superexchain.com"
+  "rpc": ["https://testnetrpc.scschain.com"],
+  "faucets": ["https://testnet.scschain.com"],
+  "infoURL": "https://testnet.scschain.com"
 }, {
   "name": "Super Smart Chain Mainnet",
   "chainId": 1970,
@@ -5000,9 +5000,9 @@
     "symbol": "SCS",
     "decimals": 18
   },
-  "rpc": ["https://superexchain.com:8545"],
+  "rpc": ["https://rpc.scschain.com"],
   "faucets": [],
-  "infoURL": "https://superexchain.com"
+  "infoURL": "https://scschain.com"
 }, {
   "name": "Atelier",
   "chainId": 1971,
