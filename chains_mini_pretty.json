@@ -6577,6 +6577,19 @@
   "faucets": ["https://faucet.scolcoin.com"],
   "infoURL": "https://scolcoin.com"
 }, {
+  "name": "Fox Testnet Network",
+  "chainId": 6565,
+  "shortName": "fox",
+  "networkId": 6565,
+  "nativeCurrency": {
+    "name": "FOX Native Token",
+    "symbol": "tFOX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet-v1.foxchain.app/", "https://rpc2-testnet-v1.foxchain.app/", "https://rpc3-testnet-v1.foxchain.app"],
+  "faucets": ["https://faucet.foxchain.app"],
+  "infoURL": "https://foxchain.app"
+}, {
   "name": "Pixie Chain Mainnet",
   "chainId": 6626,
   "shortName": "pixie-chain",
