@@ -1,0 +1,23 @@
+{
+  "name": "AxelChain Mainnet",
+  "chain": "AXEL",
+  "rpc": ["https://aium-rpc.axel.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Axelium",
+    "symbol": "AIUM",
+    "decimals": 18
+  },
+  "infoURL": "https://www.axel.org",
+  "shortName": "aium",
+  "chainId": 618,
+  "networkId": 618,
+  "icon": "axelium",
+  "explorers": [
+    {
+      "name": "Axelchain Mainnet Explorer",
+      "url": "https://explorer2.axel.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
