@@ -6,7 +6,7 @@
     "https://rpc.ankr.com/rollux_testnet/${ANKR_API_KEY}",
     "wss://rpc-tanenbaum.rollux.com/wss"
   ],
-  "faucets": [],
+  "faucets": ["https://rollux.id/faucetapp"],
   "nativeCurrency": {
     "name": "Testnet Syscoin",
     "symbol": "TSYS",

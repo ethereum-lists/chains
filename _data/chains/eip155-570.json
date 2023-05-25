@@ -2,7 +2,7 @@
   "name": "Rollux Mainnet",
   "chain": "SYS",
   "rpc": ["https://rpc.rollux.com", "wss://rpc.rollux.com/wss"],
-  "faucets": [],
+  "faucets": ["https://rollux.id/faucetapp"],
   "nativeCurrency": {
     "name": "Syscoin",
     "symbol": "SYS",
