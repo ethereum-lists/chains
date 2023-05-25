@@ -1,0 +1,23 @@
+{
+  "name": "shib",
+  "chain": "shib",
+  "icon": "shib",
+  "rpc": ["https://puppynet.shibrpc.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BONE",
+    "symbol": "BONE",
+    "decimals": 18
+  },
+  "infoURL": "https://beta.shibariumtech.com",
+  "shortName": "shib",
+  "chainId": 103,
+  "networkId": 103,
+  "explorers": [
+    {
+      "name": "shibscan",
+      "url": "https://puppyscan.shib.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
