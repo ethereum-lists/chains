@@ -5758,6 +5758,19 @@
   "faucets": ["https://app-faucet.centrality.me"],
   "infoURL": "https://cennz.net"
 }, {
+  "name": "Canxium Mainnet",
+  "chainId": 3003,
+  "shortName": "cau",
+  "networkId": 3003,
+  "nativeCurrency": {
+    "name": "Canxium",
+    "symbol": "CAU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.canxium.org"],
+  "faucets": [],
+  "infoURL": "https://canxium.org"
+}, {
   "name": "Orlando Chain",
   "chainId": 3031,
   "shortName": "ORL",
