@@ -1,0 +1,15 @@
+{
+  "name": "Chainsquare Aquila Rift Testnet",
+  "chain": "Chainsquare Aquila Rift",
+  "rpc": ["https://v1seedtestnet.chainsquare.la"],
+  "faucets": ["https://faucet.chainsquare.la/"],
+  "nativeCurrency": {
+    "name": "Chainsquare ETH",
+    "symbol": "CHETH",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.chainsquare.la/guides/testnet-aquila-rift",
+  "shortName": "Chainsquare ETH",
+  "chainId": 5888,
+  "networkId": 5888
+}
