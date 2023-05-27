@@ -1,0 +1,23 @@
+{
+  "name": "ARC Mainnet",
+  "chain": "ARC",
+  "icon": "arc",
+  "rpc": ["https://rpc-main-1.archiechain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ARC",
+    "symbol": "ARC",
+    "decimals": 18
+  },
+  "infoURL": "https://archiechain.io/",
+  "shortName": "ARC",
+  "chainId": 1243,
+  "networkId": 1243,
+  "explorers": [
+    {
+      "name": "archiescan",
+      "url": "https://app.archiescan.io",
+      "standard": "none"
+    }
+  ]
+}

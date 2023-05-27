@@ -1,21 +1,21 @@
 {
   "name": "ShibaChain",
   "chain": "SHIB",
-  "rpc": ["https://rpc.shibachain.net"],
+  "rpc": ["https://rpc.shibchain.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "SHIBA INU COIN",
     "symbol": "SHIB",
     "decimals": 18
   },
-  "infoURL": "https://www.shibachain.net",
+  "infoURL": "https://shibchain.org",
   "shortName": "shib",
   "chainId": 27,
   "networkId": 27,
   "explorers": [
     {
       "name": "Shiba Explorer",
-      "url": "https://exp.shibachain.net",
+      "url": "https://exp.shibchain.org",
       "standard": "none"
     }
   ]
