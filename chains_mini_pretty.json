@@ -8839,7 +8839,7 @@
   "faucets": [],
   "infoURL": "https://rei.network/"
 }, {
-  "name": "Floripa",
+  "name": "Wireshape Floripa Testnet",
   "chainId": 49049,
   "shortName": "floripa",
   "networkId": 49049,
@@ -8848,7 +8848,7 @@
     "symbol": "WIRE",
     "decimals": 18
   },
-  "rpc": ["https://rpc-floripa.wireshape.org"],
+  "rpc": ["https://rpc-floripa.wireshape.org", "https://floripa.rpc.thirdweb.com"],
   "faucets": [],
   "infoURL": "https://wireshape.org"
 }, {
