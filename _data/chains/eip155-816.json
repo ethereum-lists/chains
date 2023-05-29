@@ -1,0 +1,27 @@
+{
+  "name": "Omega Testnet",
+  "chain": "OMN",
+  "rpc": [
+    "https://test-rpc.omtch.com/"
+  ],
+  "faucets": [
+"https://faucet.omtch.com/"
+],
+  "nativeCurrency": {
+    "name": "Omega Testnet",
+    "symbol": "OMN",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://ethereum.org",
+  "shortName": "omn",
+  "chainId": 816,
+  "networkId": 816,
+  "icon": "omega",
+  "explorers": [{
+    "name": "etherscan",
+    "url": "https://test-explorer.omtch.com/",
+    "icon": "omega",
+    "standard": "EIP3091"
+  }]
+}
