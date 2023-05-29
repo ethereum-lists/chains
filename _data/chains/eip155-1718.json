@@ -1,0 +1,25 @@
+{
+  "name": "Palette Chain Mainnet",
+  "chain": "PLT",
+  "rpc": ["https://palette-rpc.com:22000"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Palette Token",
+    "symbol": "PLT",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://hashpalette.com/",
+  "shortName": "PCM",
+  "chainId": 1718,
+  "networkId": 1718,
+  "icon": "PLT",
+  "explorers": [
+    {
+      "name": "Palettescan",
+      "url": "https://palettescan.com",
+      "icon": "PLT",
+      "standard": "none"
+    }
+  ]
+}
