@@ -1,0 +1,23 @@
+{
+  "name": "MAAL Test Chain",
+  "chain": "MAAL",
+  "rpc": ["https://node1.maalscan.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MAAL",
+    "symbol": "MAAL",
+    "decimals": 18
+  },
+  "infoURL": "https://www.maalblockchain.com/",
+  "shortName": "MAAL",
+  "chainId": 786,
+  "networkId": 786,
+
+  "explorers": [
+    {
+      "name": "test-maalscan",
+      "url": "https://testnet.maalscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
