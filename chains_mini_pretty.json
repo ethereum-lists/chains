@@ -5771,6 +5771,19 @@
   "faucets": [],
   "infoURL": "https://canxium.org"
 }, {
+  "name": "PLAYA3ULL GAMES",
+  "chainId": 3011,
+  "shortName": "3ULL",
+  "networkId": 3011,
+  "nativeCurrency": {
+    "name": "3ULL",
+    "symbol": "3ULL",
+    "decimals": 18
+  },
+  "rpc": ["https://api.mainnet.playa3ull.games"],
+  "faucets": [],
+  "infoURL": "https://playa3ull.games"
+}, {
   "name": "Orlando Chain",
   "chainId": 3031,
   "shortName": "ORL",
