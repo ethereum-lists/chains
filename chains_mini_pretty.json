@@ -9086,6 +9086,19 @@
   "faucets": ["https://www.thinkiumdev.net/faucet"],
   "infoURL": "https://thinkium.net/"
 }, {
+  "name": "AxelChain Dev-Net",
+  "chainId": 61800,
+  "shortName": "aium-dev",
+  "networkId": 61800,
+  "nativeCurrency": {
+    "name": "Axelium",
+    "symbol": "AIUM",
+    "decimals": 18
+  },
+  "rpc": ["https://aium-rpc-dev.viacube.com"],
+  "faucets": [],
+  "infoURL": "https://www.axel.org"
+}, {
   "name": "Etica Mainnet",
   "chainId": 61803,
   "shortName": "Etica",
