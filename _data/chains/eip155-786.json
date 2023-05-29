@@ -1,7 +1,7 @@
 {
-  "name": "MAAL Test Chain",
+  "name": "MAAL Sharia Chain",
   "chain": "MAAL",
-  "rpc": ["https://node1.maalscan.io/"],
+  "rpc": ["https://node3-mainnet.maalscan.io/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "MAAL",
@@ -15,8 +15,8 @@
 
   "explorers": [
     {
-      "name": "test-maalscan",
-      "url": "https://testnet.maalscan.io",
+      "name": "maalscan",
+      "url": "https://maalscan.io",
       "standard": "EIP3091"
     }
   ]
