@@ -13,13 +13,13 @@
     "decimals": 18
   },
   "infoURL": "https://uptn.io",
-  "shortName": "UPTN",
+  "shortName": "UPTN-TEST",
   "chainId": 6118,
   "networkId": 6118,
   "explorers": [
     {
       "name": "UPTN Testnet Explorer",
-      "url": "https://testnet.explorer.uptn.io/",
+      "url": "https://testnet.explorer.uptn.io",
       "standard": "EIP3091"
     }
   ]
