@@ -2,9 +2,7 @@
   "name": "UPTN Testnet",
   "chain": "UPTN",
   "icon": "uptn",
-  "rpc": [
-    "https://node-api.alp.uptn.io/v1/ext/rpc"
-  ],
+  "rpc": ["https://node-api.alp.uptn.io/v1/ext/rpc"],
   "features": [{ "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
