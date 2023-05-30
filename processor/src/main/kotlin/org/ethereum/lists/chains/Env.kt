@@ -45,3 +45,6 @@ val ipfs by lazy {
         )
     )
 }
+
+val httpPrefixes = listOf("https://", "http://")
+val rpcPrefixes = httpPrefixes + listOf("wss://", "ws://")
