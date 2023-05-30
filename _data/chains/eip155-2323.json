@@ -1,0 +1,24 @@
+{
+  "name": "SOMA Network Testnet",
+  "chain": "SOMA",
+  "rpc": ["https://data-testnet-v1.somanetwork.io/"],
+  "faucets": ["https://faucet.somanetwork.io"],
+  "nativeCurrency": {
+    "name": "SMA",
+    "symbol": "tSMA",
+    "decimals": 18
+  },
+  "infoURL": "https://somanetwork.io",
+  "shortName": "sma",
+  "chainId": 2323,
+  "networkId": 2323,
+  "icon": "soma",
+  "explorers": [
+    {
+      "name": "SOMA Testnet Explorer",
+      "icon": "soma",
+      "url": "https://testnet.somascan.io",
+      "standard": "none"
+    }
+  ]
+}
