@@ -6,9 +6,7 @@
     "https://rpc.testnet.lukso.network",
     "wss://ws-rpc.testnet.lukso.network"
   ],
-  "faucets": [
-    "https://faucet.testnet.lukso.network"
-  ],
+  "faucets": ["https://faucet.testnet.lukso.network"],
   "nativeCurrency": {
     "name": "TestLYX",
     "symbol": "LYXt",
