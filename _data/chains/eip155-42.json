@@ -1,33 +1,26 @@
 {
-  "name": "Kovan",
-  "title": "Ethereum Testnet Kovan",
-  "chain": "ETH",
+  "name": "LUKSO",
+  "title": "LUKSO Network",
+  "chain": "LYX",
   "rpc": [
-    "https://kovan.poa.network",
-    "http://kovan.poa.network:8545",
-    "https://kovan.infura.io/v3/${INFURA_API_KEY}",
-    "wss://kovan.infura.io/ws/v3/${INFURA_API_KEY}",
-    "ws://kovan.poa.network:8546"
-  ],
-  "faucets": [
-    "http://fauceth.komputing.org?chain=42&address=${ADDRESS}",
-    "https://faucet.kovan.network",
-    "https://gitter.im/kovan-testnet/faucet"
+    "https://rpc.mainnet.lukso.network",
+    "wss://ws-rpc.mainnet.lukso.network"
   ],
   "nativeCurrency": {
-    "name": "Kovan Ether",
-    "symbol": "ETH",
+    "name": "LUKSO LYX",
+    "symbol": "LYX",
     "decimals": 18
   },
   "explorers": [
     {
-      "name": "etherscan",
-      "url": "https://kovan.etherscan.io",
-      "standard": "EIP3091"
+      "name": "Blockscout",
+      "url": "https://explorer.execution.mainnet.lukso.network/",
+      "standard": "none"
     }
   ],
-  "infoURL": "https://kovan-testnet.github.io/website",
-  "shortName": "kov",
+  "infoURL": "https://lukso.network",
+  "shortName": "lyx",
   "chainId": 42,
-  "networkId": 42
+  "networkId": 42,
+  "redFlags": ["reusedChainId"]
 }
