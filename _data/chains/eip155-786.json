@@ -1,7 +1,11 @@
 {
   "name": "MAAL Sharia Chain",
   "chain": "MAAL",
-  "rpc": ["https://node3-mainnet.maalscan.io/"],
+  "rpc": [
+          "https://node1-mainnet.maalscan.io/",
+          "https://node2-mainnet.maalscan.io/",
+          "https://node3-mainnet.maalscan.io/",
+         ],
   "faucets": [],
   "nativeCurrency": {
     "name": "MAAL",
