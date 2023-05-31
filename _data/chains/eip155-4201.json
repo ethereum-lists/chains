@@ -6,6 +6,9 @@
     "https://rpc.testnet.lukso.network",
     "wss://ws-rpc.testnet.lukso.network"
   ],
+  "faucets": [
+    "https://faucet.testnet.lukso.network"
+  ],
   "nativeCurrency": {
     "name": "TestLYX",
     "symbol": "LYXt",
@@ -17,9 +20,6 @@
       "url": "https://explorer.execution.testnet.lukso.network",
       "standard": "none"
     }
-  ],
-  "faucets": [
-    "https://faucet.testnet.lukso.network"
   ],
   "infoURL": "https://lukso.network",
   "shortName": "lukso-testnet",
