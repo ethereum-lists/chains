@@ -3,7 +3,7 @@
   "chain": "ROUTE",
   "icon": "",
   "rpc": [
-    "https://devnet-alpha.lcd.routerprotocol.com"
+    "https://evm.rpc.testnet.routerchain.dev"
   ],
   "faucets": [
     "https://devnet-faucet.routerprotocol.com"
@@ -15,13 +15,13 @@
   },
   "infoURL": "https://router-chain-docs.vercel.app/",
   "shortName": "ROUTE",
-  "chainId": 101,
-  "networkId": 101,
+  "chainId": 9601,
+  "networkId": 9601,
   "slip44": 701,
   "explorers": [
     {
       "name": "Routerscan",
-      "url": "https://devnet-explorer.routerprotocol.com",
+      "url": "https://aplha-explorer-ui.routerprotocol.com",
       "standard": "EIP3091"
     }
   ]
