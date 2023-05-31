@@ -25,5 +25,12 @@
   "shortName": "lukso-testnet",
   "chainId": 4201,
   "networkId": 4201,
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }]
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ]
 }
