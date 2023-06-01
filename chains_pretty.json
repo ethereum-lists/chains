@@ -1063,7 +1063,7 @@
 }, {
   "name": "Syscoin Mainnet",
   "chain": "SYS",
-  "rpc": ["https://rpc.syscoin.org", "wss://rpc.syscoin.org/wss"],
+  "rpc": ["https://rpc.syscoin.org", "https://rpc.ankr.com/syscoin/${ANKR_API_KEY}", "https://syscoin.public-rpc.com", "wss://rpc.syscoin.org/wss"],
   "faucets": ["https://faucet.syscoin.org"],
   "nativeCurrency": {
     "name": "Syscoin",
@@ -4329,6 +4329,25 @@
   "explorers": [{
     "name": "dogechain testnet explorer",
     "url": "https://explorer-testnet.dogechain.dog",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Rollux Mainnet",
+  "chain": "SYS",
+  "rpc": ["https://rpc.rollux.com", "wss://rpc.rollux.com/wss"],
+  "faucets": ["https://rollux.id/faucetapp"],
+  "nativeCurrency": {
+    "name": "Syscoin",
+    "symbol": "SYS",
+    "decimals": 18
+  },
+  "infoURL": "https://rollux.com",
+  "shortName": "sys-rollux",
+  "chainId": 570,
+  "networkId": 570,
+  "explorers": [{
+    "name": "Rollux Explorer",
+    "url": "https://explorer.rollux.com",
     "standard": "EIP3091"
   }]
 }, {
@@ -13770,21 +13789,21 @@
     "standard": "none"
   }]
 }, {
-  "name": "Syscoin Rollux Testnet",
+  "name": "Rollux Testnet",
   "chain": "SYS",
-  "rpc": ["https://rpc-tanenbaum.rollux.com", "wss://rpc-tanenbaum.rollux.com/wss"],
-  "faucets": [],
+  "rpc": ["https://rpc-tanenbaum.rollux.com", "https://rpc.ankr.com/rollux_testnet/${ANKR_API_KEY}", "wss://rpc-tanenbaum.rollux.com/wss"],
+  "faucets": ["https://rollux.id/faucetapp"],
   "nativeCurrency": {
-    "name": "Rollux Testnet Syscoin",
-    "symbol": "tSYS",
+    "name": "Testnet Syscoin",
+    "symbol": "TSYS",
     "decimals": 18
   },
-  "infoURL": "https://syscoin.org",
+  "infoURL": "https://rollux.com",
   "shortName": "tsys-rollux",
   "chainId": 57000,
   "networkId": 57000,
   "explorers": [{
-    "name": "Syscoin Rollux Testnet Explorer",
+    "name": "Rollux Testnet Explorer",
     "url": "https://rollux.tanenbaum.io",
     "standard": "EIP3091"
   }]

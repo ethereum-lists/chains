@@ -736,7 +736,7 @@
     "symbol": "SYS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.syscoin.org", "wss://rpc.syscoin.org/wss"],
+  "rpc": ["https://rpc.syscoin.org", "https://rpc.ankr.com/syscoin/${ANKR_API_KEY}", "https://syscoin.public-rpc.com", "wss://rpc.syscoin.org/wss"],
   "faucets": ["https://faucet.syscoin.org"],
   "infoURL": "https://www.syscoin.org"
 }, {
@@ -2884,6 +2884,19 @@
   "rpc": ["https://rpc-testnet.dogechain.dog"],
   "faucets": ["https://faucet.dogechain.dog"],
   "infoURL": "https://dogechain.dog"
+}, {
+  "name": "Rollux Mainnet",
+  "chainId": 570,
+  "shortName": "sys-rollux",
+  "networkId": 570,
+  "nativeCurrency": {
+    "name": "Syscoin",
+    "symbol": "SYS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.rollux.com", "wss://rpc.rollux.com/wss"],
+  "faucets": ["https://rollux.id/faucetapp"],
+  "infoURL": "https://rollux.com"
 }, {
   "name": "Metis Stardust Testnet",
   "chainId": 588,
@@ -9060,18 +9073,18 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
-  "name": "Syscoin Rollux Testnet",
+  "name": "Rollux Testnet",
   "chainId": 57000,
   "shortName": "tsys-rollux",
   "networkId": 57000,
   "nativeCurrency": {
-    "name": "Rollux Testnet Syscoin",
-    "symbol": "tSYS",
+    "name": "Testnet Syscoin",
+    "symbol": "TSYS",
     "decimals": 18
   },
-  "rpc": ["https://rpc-tanenbaum.rollux.com", "wss://rpc-tanenbaum.rollux.com/wss"],
-  "faucets": [],
-  "infoURL": "https://syscoin.org"
+  "rpc": ["https://rpc-tanenbaum.rollux.com", "https://rpc.ankr.com/rollux_testnet/${ANKR_API_KEY}", "wss://rpc-tanenbaum.rollux.com/wss"],
+  "faucets": ["https://rollux.id/faucetapp"],
+  "infoURL": "https://rollux.com"
 }, {
   "name": "Linea Testnet",
   "chainId": 59140,
