@@ -6577,6 +6577,32 @@
   "faucets": [],
   "infoURL": "https://treschain.com"
 }, {
+  "name": "UPTN Testnet",
+  "chainId": 6118,
+  "shortName": "UPTN-TEST",
+  "networkId": 6118,
+  "nativeCurrency": {
+    "name": "UPTN",
+    "symbol": "UPTN",
+    "decimals": 18
+  },
+  "rpc": ["https://node-api.alp.uptn.io/v1/ext/rpc"],
+  "faucets": [],
+  "infoURL": "https://uptn.io"
+}, {
+  "name": "UPTN",
+  "chainId": 6119,
+  "shortName": "UPTN",
+  "networkId": 6119,
+  "nativeCurrency": {
+    "name": "UPTN",
+    "symbol": "UPTN",
+    "decimals": 18
+  },
+  "rpc": ["https://node-api.uptn.io/v1/ext/rpc"],
+  "faucets": [],
+  "infoURL": "https://uptn.io"
+}, {
   "name": "Peerpay",
   "chainId": 6502,
   "shortName": "Peerpay",
