@@ -532,18 +532,18 @@
   "faucets": ["https://app.telos.net/testnet/developers"],
   "infoURL": "https://telos.net"
 }, {
-  "name": "Kovan",
+  "name": "LUKSO Mainnet",
   "chainId": 42,
-  "shortName": "kov",
+  "shortName": "lukso",
   "networkId": 42,
   "nativeCurrency": {
-    "name": "Kovan Ether",
-    "symbol": "ETH",
+    "name": "LUKSO",
+    "symbol": "LYX",
     "decimals": 18
   },
-  "rpc": ["https://kovan.poa.network", "http://kovan.poa.network:8545", "https://kovan.infura.io/v3/${INFURA_API_KEY}", "wss://kovan.infura.io/ws/v3/${INFURA_API_KEY}", "ws://kovan.poa.network:8546"],
-  "faucets": ["http://fauceth.komputing.org?chain=42&address=${ADDRESS}", "https://faucet.kovan.network", "https://gitter.im/kovan-testnet/faucet"],
-  "infoURL": "https://kovan-testnet.github.io/website"
+  "rpc": ["https://rpc.mainnet.lukso.network", "wss://ws-rpc.mainnet.lukso.network"],
+  "faucets": [],
+  "infoURL": "https://lukso.network"
 }, {
   "name": "Darwinia Pangolin Testnet",
   "chainId": 43,
@@ -6212,6 +6212,19 @@
   "rpc": ["https://rpc1.phi.network", "https://rpc2.phi.network"],
   "faucets": [],
   "infoURL": "https://phi.network"
+}, {
+  "name": "LUKSO Testnet",
+  "chainId": 4201,
+  "shortName": "lukso-testnet",
+  "networkId": 4201,
+  "nativeCurrency": {
+    "name": "TestLYX",
+    "symbol": "LYXt",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.lukso.network", "wss://ws-rpc.testnet.lukso.network"],
+  "faucets": ["https://faucet.testnet.lukso.network"],
+  "infoURL": "https://lukso.network"
 }, {
   "name": "Nexi Mainnet",
   "chainId": 4242,

@@ -745,25 +745,31 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Kovan",
-  "title": "Ethereum Testnet Kovan",
-  "chain": "ETH",
-  "rpc": ["https://kovan.poa.network", "http://kovan.poa.network:8545", "https://kovan.infura.io/v3/${INFURA_API_KEY}", "wss://kovan.infura.io/ws/v3/${INFURA_API_KEY}", "ws://kovan.poa.network:8546"],
-  "faucets": ["http://fauceth.komputing.org?chain=42&address=${ADDRESS}", "https://faucet.kovan.network", "https://gitter.im/kovan-testnet/faucet"],
+  "name": "LUKSO Mainnet",
+  "chain": "LUKSO",
+  "icon": "lukso",
+  "rpc": ["https://rpc.mainnet.lukso.network", "wss://ws-rpc.mainnet.lukso.network"],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "Kovan Ether",
-    "symbol": "ETH",
+    "name": "LUKSO",
+    "symbol": "LYX",
     "decimals": 18
   },
   "explorers": [{
-    "name": "etherscan",
-    "url": "https://kovan.etherscan.io",
-    "standard": "EIP3091"
+    "name": "Blockscout",
+    "url": "https://explorer.execution.mainnet.lukso.network",
+    "standard": "none"
   }],
-  "infoURL": "https://kovan-testnet.github.io/website",
-  "shortName": "kov",
+  "infoURL": "https://lukso.network",
+  "shortName": "lukso",
   "chainId": 42,
-  "networkId": 42
+  "networkId": 42,
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "redFlags": ["reusedChainId"]
 }, {
   "name": "Darwinia Pangolin Testnet",
   "chain": "pangolin",
@@ -9374,6 +9380,31 @@
     "url": "https://explorer.phi.network",
     "icon": "phi",
     "standard": "none"
+  }]
+}, {
+  "name": "LUKSO Testnet",
+  "chain": "LUKSO Testnet",
+  "icon": "lukso",
+  "rpc": ["https://rpc.testnet.lukso.network", "wss://ws-rpc.testnet.lukso.network"],
+  "faucets": ["https://faucet.testnet.lukso.network"],
+  "nativeCurrency": {
+    "name": "TestLYX",
+    "symbol": "LYXt",
+    "decimals": 18
+  },
+  "explorers": [{
+    "name": "Blockscout",
+    "url": "https://explorer.execution.testnet.lukso.network",
+    "standard": "none"
+  }],
+  "infoURL": "https://lukso.network",
+  "shortName": "lukso-testnet",
+  "chainId": 4201,
+  "networkId": 4201,
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
   }]
 }, {
   "name": "Nexi Mainnet",
