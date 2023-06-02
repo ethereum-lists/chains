@@ -10139,6 +10139,19 @@
   "faucets": [],
   "infoURL": "https://taiko.xyz"
 }, {
+  "name": "Taiko (Alpha-3 Testnet)",
+  "chainId": 167005,
+  "shortName": "taiko-a3",
+  "networkId": 167005,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.test.taiko.xyz"],
+  "faucets": [],
+  "infoURL": "https://taiko.xyz"
+}, {
   "name": "Condor Test Network",
   "chainId": 188881,
   "shortName": "condor",

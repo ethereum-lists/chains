@@ -15386,6 +15386,7 @@
 }, {
   "name": "Taiko (Alpha-2 Testnet)",
   "chain": "ETH",
+  "status": "deprecated",
   "icon": "taiko",
   "rpc": ["https://rpc.a2.taiko.xyz"],
   "faucets": [],
@@ -15401,6 +15402,27 @@
   "explorers": [{
     "name": "blockscout",
     "url": "https://explorer.a2.taiko.xyz",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Taiko (Alpha-3 Testnet)",
+  "chain": "ETH",
+  "status": "active",
+  "icon": "taiko",
+  "rpc": ["https://rpc.test.taiko.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://taiko.xyz",
+  "shortName": "taiko-a3",
+  "chainId": 167005,
+  "networkId": 167005,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.test.taiko.xyz",
     "standard": "EIP3091"
   }]
 }, {
