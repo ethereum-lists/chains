@@ -1,0 +1,15 @@
+{
+  "name": "Cosmic Chain",
+  "chain": "COSMIC",
+  "rpc": ["http://testnet.cosmicchain.site:3344"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Cosmic Chain",
+    "symbol": "COSMIC",
+    "decimals": 18
+  },
+  "infoURL": "https://cosmicchain.site",
+  "shortName": "Cosmic",
+  "chainId": 67588,
+  "networkId": 3344
+}

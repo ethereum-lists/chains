@@ -1,7 +1,10 @@
 {
   "name": "Fantom Testnet",
   "chain": "FTM",
-  "rpc": ["https://rpc.testnet.fantom.network"],
+  "rpc": [
+    "https://rpc.testnet.fantom.network",
+    "https://fantom-testnet.publicnode.com"
+  ],
   "faucets": ["https://faucet.fantom.network"],
   "nativeCurrency": {
     "name": "Fantom",

@@ -4,6 +4,7 @@
   "icon": "filecoin",
   "rpc": [
     "https://api.hyperspace.node.glif.io/rpc/v1",
+    "https://rpc.ankr.com/filecoin_testnet",
     "https://filecoin-hyperspace.chainstacklabs.com/rpc/v1"
   ],
   "faucets": ["https://hyperspace.yoga/#faucet"],
@@ -34,8 +35,8 @@
       "standard": "none"
     },
     {
-      "name": "Filmine",
-      "url": "https://explorer.filmine.io",
+      "name": "Dev.storage",
+      "url": "https://dev.storage",
       "standard": "none"
     },
     {
