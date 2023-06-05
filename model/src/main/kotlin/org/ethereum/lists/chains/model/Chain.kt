@@ -7,7 +7,6 @@ data class Chain(
     val name: String,
     val shortName: String,
     val chain: String,
-    @Deprecated("Will be removed in the future")
     val chainId: Long,
     val networkId: Long,
     val rpc: List<String>,

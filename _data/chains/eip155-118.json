@@ -1,0 +1,23 @@
+{
+  "name": "Arcology Testnet",
+  "chain": "Arcology",
+  "icon": "acolicon",
+  "rpc": ["https://testnet.arcology.network/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Arcology Coin",
+    "symbol": "Acol",
+    "decimals": 18
+  },
+  "infoURL": "https://arcology.network/",
+  "shortName": "arcology",
+  "chainId": 118,
+  "networkId": 118,
+  "explorers": [
+    {
+      "name": "arcology",
+      "url": "https://testnet.arcology.network/explorer",
+      "standard": "none"
+    }
+  ]
+}
