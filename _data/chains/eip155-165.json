@@ -1,0 +1,20 @@
+{
+  "name": "Omni Testnet 1",
+  "chain": "Omni",
+  "rpc": ["http://testnet-1-rpc.omni.network:8545"],
+  "features": [{"name": "EIP155"}],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Omni",
+    "symbol": "OMNI",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.omni.network/",
+  "chainId": 165,
+  "networkId": 165,
+  "explorers": [{
+    "name": "Omni Explorer",
+    "url": "https://testnet-1-explorer.omni.network"
+  }]
+}
+
