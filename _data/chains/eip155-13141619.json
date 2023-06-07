@@ -2,21 +2,21 @@
   "name": "ICPlaza Mainnet",
   "chain": "ICPlaza",
   "icon": "icplaza",
-  "rpc": ["https://rpcmainnet.ic-plaza.org/"],
+  "rpc": ["https://rpc1.icplaza.pro/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "ict",
     "symbol": "ict",
     "decimals": 18
   },
-  "infoURL": "https://docs.ic-plaza.org/",
+  "infoURL": "https://www.icplaza.pro/",
   "shortName": "ICPlaza",
-  "chainId": 142857,
-  "networkId": 142857,
+  "chainId": 13141619,
+  "networkId": 13141619,
   "explorers": [
     {
       "name": "ICPlaza",
-      "url": "https://browsemainnet.ic-plaza.org/index",
+      "url": "https://explorer1.icplaza.pro",
       "standard": "none"
     }
   ]
