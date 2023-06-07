@@ -3184,6 +3184,19 @@
   "faucets": [],
   "infoURL": "https://cheapeth.org/"
 }, {
+  "name": "MAAL Sharia Chain",
+  "chainId": 786,
+  "shortName": "maal",
+  "networkId": 786,
+  "nativeCurrency": {
+    "name": "MAAL",
+    "symbol": "MAAL",
+    "decimals": 18
+  },
+  "rpc": ["https://node1-mainnet.maalscan.io/", "https://node2-mainnet.maalscan.io/", "https://node3-mainnet.maalscan.io/"],
+  "faucets": [],
+  "infoURL": "https://www.maalblockchain.com/"
+}, {
   "name": "Acala Network",
   "chainId": 787,
   "shortName": "aca",
