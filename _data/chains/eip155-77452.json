@@ -1,0 +1,24 @@
+{
+  "name": "Spike Testnet",
+  "chain": "Spike",
+  "rpc": [
+    "https://chris.spike.network"
+  ],
+  "faucets": [
+    "https://faucet.spike.network"
+  ],
+  "nativeCurrency": {
+    "name": "Spike",
+    "symbol": "SPK",
+    "decimals": 18
+  },
+  "infoURL": "https://www.spike.fun",
+  "shortName": "SPK",
+  "chainId": 1,
+  "networkId": 1,
+  "icon": "spike-testnet",
+  "explorers": [{
+    "name": "Spike Testnet Explorer",
+    "url": "https://testnet.spike.network"
+  }]
+}
