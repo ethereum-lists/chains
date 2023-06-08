@@ -1,9 +1,10 @@
 {
   "name": "Filecoin - Wallaby testnet",
+  "status": "deprecated",
   "chain": "FIL",
   "icon": "filecoin",
-  "rpc": ["https://wallaby.node.glif.io/rpc/v1"],
-  "faucets": ["https://wallaby.yoga/#faucet"],
+  "rpc": [],
+  "faucets": [],
   "nativeCurrency": {
     "name": "testnet filecoin",
     "symbol": "tFIL",
