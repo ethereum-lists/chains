@@ -3223,6 +3223,19 @@
   "faucets": ["https://faucet.aerochain.id/"],
   "infoURL": "https://aerochaincoin.org/"
 }, {
+  "name": "Patex",
+  "chainId": 789,
+  "shortName": "peth",
+  "networkId": 789,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.patex.io/"],
+  "faucets": [],
+  "infoURL": "https://patex.io/"
+}, {
   "name": "Lucid Blockchain",
   "chainId": 800,
   "shortName": "LUCID",
