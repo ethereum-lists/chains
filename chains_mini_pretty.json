@@ -10477,6 +10477,19 @@
   "faucets": ["https://faucet.tscscan.com"],
   "infoURL": "https://ttcoin.info/"
 }, {
+  "name": "Aves Testnet",
+  "chainId": 333331,
+  "shortName": "avst",
+  "networkId": 333331,
+  "nativeCurrency": {
+    "name": "AvesT",
+    "symbol": "AVST",
+    "decimals": 18
+  },
+  "rpc": ["https://test.rpc.avescoin.io"],
+  "faucets": [],
+  "infoURL": "https://ethereum.org"
+}, {
   "name": "Oone Chain Testnet",
   "chainId": 333777,
   "shortName": "oonetest",
@@ -10697,6 +10710,19 @@
   "rpc": ["https://weelinknode1c.gw002.oneitfarm.com"],
   "faucets": ["https://faucet.weelink.gw002.oneitfarm.com"],
   "infoURL": "https://weelink.cloud"
+}, {
+  "name": "Patex Sepolia Testnet",
+  "chainId": 471100,
+  "shortName": "psep",
+  "networkId": 471100,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://test-rpc.patex.io/"],
+  "faucets": [],
+  "infoURL": "https://patex.io/"
 }, {
   "name": "OpenChain Mainnet",
   "chainId": 474142,
