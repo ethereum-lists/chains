@@ -4588,6 +4588,19 @@
   "faucets": [],
   "infoURL": "https://rikeza.io"
 }, {
+  "name": "Living Assets Mainnet",
+  "chainId": 1440,
+  "shortName": "LAS",
+  "networkId": 1440,
+  "nativeCurrency": {
+    "name": "LAS",
+    "symbol": "LAS",
+    "decimals": 18
+  },
+  "rpc": ["https://beta.mainnet.livingassets.io/rpc", "https://gamma.mainnet.livingassets.io/rpc"],
+  "faucets": [],
+  "infoURL": "https://dev.livingassets.io/"
+}, {
   "name": "Polygon zkEVM Testnet",
   "chainId": 1442,
   "shortName": "testnet-zkEVM-mango",

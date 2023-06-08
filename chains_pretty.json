@@ -6812,6 +6812,21 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Living Assets Mainnet",
+  "chain": "LAS",
+  "icon": "livingassets",
+  "rpc": ["https://beta.mainnet.livingassets.io/rpc", "https://gamma.mainnet.livingassets.io/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LAS",
+    "symbol": "LAS",
+    "decimals": 18
+  },
+  "infoURL": "https://dev.livingassets.io/",
+  "shortName": "LAS",
+  "chainId": 1440,
+  "networkId": 1440
+}, {
   "name": "Polygon zkEVM Testnet",
   "title": "Polygon zkEVM Testnet",
   "chain": "Polygon",
