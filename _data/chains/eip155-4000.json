@@ -1,9 +1,7 @@
 {
   "name": "Ozone Chain Mainnet",
   "chain": "OZONE",
-  "rpc": [
-    "https://node1.ozonechain.io"
-  ],
+  "rpc": ["https://node1.ozonechain.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "OZONE",
