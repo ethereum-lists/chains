@@ -6618,14 +6618,14 @@
 }, {
   "name": "SatoshiChain Testnet",
   "chainId": 5758,
-  "shortName": "sats",
+  "shortName": "satst",
   "networkId": 5758,
   "nativeCurrency": {
     "name": "SatoshiChain Coin",
     "symbol": "SATS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.satoshichain.io"],
+  "rpc": ["https://testnet-rpc.satoshichain.io"],
   "faucets": ["https://faucet.satoshichain.io"],
   "infoURL": "https://satoshichain.net"
 }, {
@@ -7993,6 +7993,19 @@
   "rpc": ["https://sanrchain-node.santiment.net"],
   "faucets": [],
   "infoURL": "https://sanr.app"
+}, {
+  "name": "SatoshiChain Mainnet",
+  "chainId": 12009,
+  "shortName": "sats",
+  "networkId": 12009,
+  "nativeCurrency": {
+    "name": "SatoshiChain Coin",
+    "symbol": "SATS",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.satoshichain.io"],
+  "faucets": [],
+  "infoURL": "https://satoshichain.net"
 }, {
   "name": "Singularity ZERO Testnet",
   "chainId": 12051,
