@@ -3973,6 +3973,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Ozone Chain Testnet",
+  "chain": "OZONE",
+  "rpc": ["https://node1.testnet.ozonechain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OZONE",
+    "symbol": "OZO",
+    "decimals": 18
+  },
+  "infoURL": "https://ozonechain.io",
+  "shortName": "ozo_tst",
+  "chainId": 401,
+  "networkId": 401,
+  "icon": "ozonechain",
+  "explorers": [{
+    "name": "OZONE Scan",
+    "url": "https://testnet.ozonescan.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "SX Network Mainnet",
   "chain": "SX",
   "icon": "SX",
@@ -9249,6 +9269,26 @@
     "name": "YuanChain Explorer",
     "url": "https://mainnet.yuan.org",
     "standard": "none"
+  }]
+}, {
+  "name": "Ozone Chain Mainnet",
+  "chain": "OZONE",
+  "rpc": ["https://node1.ozonechain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OZONE",
+    "symbol": "OZO",
+    "decimals": 18
+  },
+  "infoURL": "https://ozonechain.io",
+  "shortName": "ozo",
+  "chainId": 4000,
+  "networkId": 4000,
+  "icon": "ozonechain",
+  "explorers": [{
+    "name": "OZONE Scan",
+    "url": "https://ozonescan.io",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Fantom Testnet",

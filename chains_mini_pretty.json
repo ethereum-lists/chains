@@ -2638,6 +2638,19 @@
   "faucets": ["https://faucet.hyperonchain.com"],
   "infoURL": "https://docs.hyperonchain.com"
 }, {
+  "name": "Ozone Chain Testnet",
+  "chainId": 401,
+  "shortName": "ozo_tst",
+  "networkId": 401,
+  "nativeCurrency": {
+    "name": "OZONE",
+    "symbol": "OZO",
+    "decimals": 18
+  },
+  "rpc": ["https://node1.testnet.ozonechain.io"],
+  "faucets": [],
+  "infoURL": "https://ozonechain.io"
+}, {
   "name": "SX Network Mainnet",
   "chainId": 416,
   "shortName": "SX",
@@ -6160,6 +6173,19 @@
   "rpc": ["https://mainnet.yuan.org/eth"],
   "faucets": [],
   "infoURL": "https://www.yuan.org"
+}, {
+  "name": "Ozone Chain Mainnet",
+  "chainId": 4000,
+  "shortName": "ozo",
+  "networkId": 4000,
+  "nativeCurrency": {
+    "name": "OZONE",
+    "symbol": "OZO",
+    "decimals": 18
+  },
+  "rpc": ["https://node1.ozonechain.io"],
+  "faucets": [],
+  "infoURL": "https://ozonechain.io"
 }, {
   "name": "Fantom Testnet",
   "chainId": 4002,
