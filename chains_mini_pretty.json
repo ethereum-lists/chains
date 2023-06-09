@@ -10126,6 +10126,19 @@
   "faucets": [],
   "infoURL": "https://www.quarkchain.io"
 }, {
+  "name": "Siberium Test Network",
+  "chainId": 111000,
+  "shortName": "testsbr",
+  "networkId": 111000,
+  "nativeCurrency": {
+    "name": "TestSIBR",
+    "symbol": "SIBR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.test.siberium.net"],
+  "faucets": [],
+  "infoURL": "https://siberium.net"
+}, {
   "name": "Siberium Network",
   "chainId": 111111,
   "shortName": "sbr",
