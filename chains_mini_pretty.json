@@ -6044,18 +6044,18 @@
   "faucets": [],
   "infoURL": "https://www.pandoproject.org/"
 }, {
-  "name": "Metacodechain",
+  "name": "Jouleverse Mainnet",
   "chainId": 3666,
-  "shortName": "metacode",
+  "shortName": "jouleverse",
   "networkId": 3666,
   "nativeCurrency": {
     "name": "J",
     "symbol": "J",
     "decimals": 18
   },
-  "rpc": ["https://j.blockcoach.com:8503"],
+  "rpc": ["https://rpc.jnsdao.com:8503"],
   "faucets": [],
-  "infoURL": "https://j.blockcoach.com:8089"
+  "infoURL": "https://jnsdao.com"
 }, {
   "name": "Bittex Mainnet",
   "chainId": 3690,
