@@ -2,7 +2,7 @@
   "name": "Omni Testnet 1",
   "chain": "Omni",
   "rpc": ["https://testnet-1.omni.network"],
-  "features": [{"name": "EIP155"}],
+  "features": [{ "name": "EIP155" }],
   "faucets": [],
   "nativeCurrency": {
     "name": "Omni",
@@ -13,8 +13,10 @@
   "shortName": "omni_testnet",
   "chainId": 165,
   "networkId": 165,
-  "explorers": [{
-    "name": "Omni Explorer",
-    "url": "https://testnet-1.explorer.omni.network"
-  }]
+  "explorers": [
+    {
+      "name": "Omni Explorer",
+      "url": "https://testnet-1.explorer.omni.network"
+    }
+  ]
 }
