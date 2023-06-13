@@ -1,4 +1,4 @@
-/* Partytown 0.5.4 - MIT builder.io */
+/* Partytown 0.7.6 - MIT builder.io */
 (self => {
     const WinIdKey = Symbol();
     const InstanceIdKey = Symbol();
@@ -54,6 +54,7 @@
     };
     const EMPTY_ARRAY = [];
     const randomId = () => Math.round(Math.random() * Number.MAX_SAFE_INTEGER).toString(36);
+    const SCRIPT_TYPE = "text/partytown";
     const defineProperty = (obj, memberName, descriptor) => Object.defineProperty(obj, memberName, {
         ...descriptor,
         configurable: true
@@ -162,7 +163,7 @@
                 return deserializeRefFromMain(applyPath, serializedValue);
             }
             if (6 === serializedType) {
-                return noop;
+                return winId && applyPath.length > 0 ? (...args) => callMethod(environments[winId].$window$, applyPath, args, 1) : noop;
             }
             if (3 === serializedType) {
                 return getOrCreateSerializedInstance(serializedValue);
@@ -175,6 +176,9 @@
             }
             if (1 === serializedType) {
                 return serializedValue.map((v => deserializeFromMain(winId, instanceId, applyPath, v)));
+            }
+            if (14 === serializedType) {
+                return new CustomError(serializedValue);
             }
             obj = {};
             for (key in serializedValue) {
@@ -213,7 +217,15 @@
         }, $refId$);
         return webWorkerRefsByRefId[$refId$];
     };
-    const NodeList = class {
+    class CustomError extends Error {
+        constructor(errorObject) {
+            super(errorObject.message);
+            this.name = errorObject.name;
+            this.message = errorObject.message;
+            this.stack = errorObject.stack;
+        }
+    }
+    class NodeList {
         constructor(nodes) {
             (this._ = nodes).map(((node, index) => this[index] = node));
         }
@@ -238,7 +250,7 @@
         [Symbol.iterator]() {
             return this._[Symbol.iterator]();
         }
-    };
+    }
     const Attr = class {
         constructor(serializedAttr) {
             this.name = serializedAttr[0];
@@ -288,7 +300,6 @@
     const getTargetProp = (target, applyPath) => {
         let n = "";
         if (target) {
-            target[InstanceIdKey];
             const cstrName = getConstructorName(target);
             if ("Window" === cstrName) {
                 n = "";
@@ -520,7 +531,9 @@
         name: applyPath.join("."),
         continue: HookContinue,
         nodeName: instance[InstanceDataKey],
-        constructor: getConstructorName(instance)
+        constructor: getConstructorName(instance),
+        instance: instance,
+        window: environments[instance[WinIdKey]].$window$
     });
     const addStorageApi = (win, storageName, storages, isSameOrigin, env) => {
         let getItems = items => {
@@ -558,7 +571,18 @@
                 return getItems().length;
             }
         };
-        win[storageName] = storage;
+        win[storageName] = new Proxy(storage, {
+            get: (target, key) => Reflect.has(target, key) ? Reflect.get(target, key) : target.getItem(key),
+            set(target, key, value) {
+                target.setItem(key, value);
+                return true;
+            },
+            has: (target, key) => !!Reflect.has(target, key) || "string" == typeof key && null !== target.getItem(key),
+            deleteProperty(target, key) {
+                target.removeItem(key);
+                return true;
+            }
+        });
     };
     const STORAGE_KEY = 0;
     const STORAGE_VALUE = 1;
@@ -673,7 +697,7 @@
     };
     const run = (env, scriptContent, scriptUrl) => {
         env.$runWindowLoadEvent$ = 1;
-        scriptContent = `with(this){${(webWorkerCtx.$config$.globalFns || []).filter((globalFnName => /[a-zA-Z_$][0-9a-zA-Z_$]*/.test(globalFnName))).map((g => `(typeof ${g}=='function'&&(window.${g}=${g}))`)).join(";") + scriptContent.replace(/\bthis\b/g, "(thi$(this)?window:this)").replace(/\/\/# so/g, "//Xso")}\n;function thi$(t){return t===this}}` + (scriptUrl ? "\n//# sourceURL=" + scriptUrl : "");
+        scriptContent = `with(this){${scriptContent.replace(/\bthis\b/g, ((match, offset, originalStr) => offset > 0 && "$" !== originalStr[offset - 1] ? "(thi$(this)?window:this)" : match)).replace(/\/\/# so/g, "//Xso")}\n;function thi$(t){return t===this}};${(webWorkerCtx.$config$.globalFns || []).filter((globalFnName => /[a-zA-Z_$][0-9a-zA-Z_$]*/.test(globalFnName))).map((g => `(typeof ${g}=='function'&&(this.${g}=${g}))`)).join(";")};` + (scriptUrl ? "\n//# sourceURL=" + scriptUrl : "");
         env.$isSameOrigin$ || (scriptContent = scriptContent.replace(/.postMessage\(/g, `.postMessage('${env.$winId$}',`));
         new Function(scriptContent).call(env.$window$);
         env.$runWindowLoadEvent$ = 0;
@@ -684,7 +708,7 @@
             type: type
         })))));
     };
-    const resolveToUrl = (env, url, noUserHook, baseLocation, resolvedUrl, configResolvedUrl) => {
+    const resolveToUrl = (env, url, type, baseLocation, resolvedUrl, configResolvedUrl) => {
         baseLocation = env.$location$;
         while (!baseLocation.host) {
             env = environments[env.$parentWinId$];
@@ -694,29 +718,32 @@
             }
         }
         resolvedUrl = new URL(url || "", baseLocation);
-        if (!noUserHook && webWorkerCtx.$config$.resolveUrl) {
-            configResolvedUrl = webWorkerCtx.$config$.resolveUrl(resolvedUrl, baseLocation);
+        if (type && webWorkerCtx.$config$.resolveUrl) {
+            configResolvedUrl = webWorkerCtx.$config$.resolveUrl(resolvedUrl, baseLocation, type);
             if (configResolvedUrl) {
                 return configResolvedUrl;
             }
         }
         return resolvedUrl;
     };
-    const resolveUrl = (env, url, noUserHook) => resolveToUrl(env, url, noUserHook) + "";
-    const getPartytownScript = () => `<script src="${partytownLibUrl("partytown.js?v=0.5.4")}"><\/script>`;
+    const resolveUrl = (env, url, type) => resolveToUrl(env, url, type) + "";
+    const getPartytownScript = () => `<script src="${partytownLibUrl("partytown.js?v=0.7.6")}"><\/script>`;
     const createImageConstructor = env => class HTMLImageElement {
         constructor() {
             this.s = "";
             this.l = [];
             this.e = [];
+            this.style = {};
         }
         get src() {
             return this.s;
         }
         set src(src) {
-            webWorkerCtx.$config$.logImageRequests && logWorker(`Image() request: ${resolveUrl(env, src)}`, env.$winId$);
-            fetch(resolveUrl(env, src, true), {
+            webWorkerCtx.$config$.logImageRequests && logWorker(`Image() request: ${resolveUrl(env, src, "image")}`, env.$winId$);
+            this.s = src;
+            fetch(resolveUrl(env, src, "image"), {
                 mode: "no-cors",
+                credentials: "include",
                 keepalive: true
             }).then((rsp => {
                 rsp.ok || 0 === rsp.status ? this.l.map((cb => cb({
@@ -801,11 +828,16 @@
                     return getInstanceStateValue(this, 4) || "";
                 },
                 set(url) {
-                    const orgUrl = resolveUrl(env, url, true);
-                    url = resolveUrl(env, url);
+                    const orgUrl = resolveUrl(env, url, null);
+                    const config = webWorkerCtx.$config$;
+                    url = resolveUrl(env, url, "script");
                     setInstanceStateValue(this, 4, url);
                     setter(this, [ "src" ], url);
                     orgUrl !== url && setter(this, [ "dataset", "ptsrc" ], orgUrl);
+                    if (this.type && config.loadScriptsOnMainThread) {
+                        const shouldExecuteScriptViaMainThread = config.loadScriptsOnMainThread.some((scriptUrl => scriptUrl === url));
+                        shouldExecuteScriptViaMainThread && setter(this, [ "type" ], "text/javascript");
+                    }
                 }
             },
             textContent: innerHTMLDescriptor,
@@ -826,7 +858,8 @@
     };
     const innerHTMLDescriptor = {
         get() {
-            return getInstanceStateValue(this, 3) || "";
+            const type = getter(this, [ "type" ]);
+            return isScriptJsType(type) ? getInstanceStateValue(this, 3) || "" : getter(this, [ "innerHTML" ]);
         },
         set(scriptContent) {
             setInstanceStateValue(this, 3, scriptContent);
@@ -834,6 +867,7 @@
     };
     const isScriptJsType = scriptType => !scriptType || "text/javascript" === scriptType;
     const createNodeCstr = (win, env, WorkerBase) => {
+        const config = webWorkerCtx.$config$;
         const WorkerNode = defineConstructorName(class extends WorkerBase {
             appendChild(node) {
                 return this.insertBefore(node, null);
@@ -841,6 +875,7 @@
             get href() {}
             set href(_) {}
             insertBefore(newNode, referenceNode) {
+                var _a, _b;
                 const winId = newNode[WinIdKey] = this[WinIdKey];
                 const instanceId = newNode[InstanceIdKey];
                 const nodeName = newNode[InstanceDataKey];
@@ -851,11 +886,17 @@
                     const scriptType = getInstanceStateValue(newNode, 5);
                     if (scriptContent) {
                         if (isScriptJsType(scriptType)) {
-                            const errorMsg = runScriptContent(env, instanceId, scriptContent, winId, "");
-                            const datasetType = errorMsg ? "pterror" : "ptid";
-                            const datasetValue = errorMsg || instanceId;
-                            setter(newNode, [ "type" ], "text/partytown-x");
-                            setter(newNode, [ "dataset", datasetType ], datasetValue);
+                            const scriptId = newNode.id;
+                            const loadOnMainThread = scriptId && (null === (_b = null === (_a = config.loadScriptsOnMainThread) || void 0 === _a ? void 0 : _a.includes) || void 0 === _b ? void 0 : _b.call(_a, scriptId));
+                            if (loadOnMainThread) {
+                                setter(newNode, [ "type" ], "text/javascript");
+                            } else {
+                                const errorMsg = runScriptContent(env, instanceId, scriptContent, winId, "");
+                                const datasetType = errorMsg ? "pterror" : "ptid";
+                                const datasetValue = errorMsg || instanceId;
+                                setter(newNode, [ "type" ], "text/partytown-x");
+                                setter(newNode, [ "dataset", datasetType ], datasetValue);
+                            }
                         }
                         setter(newNode, [ "innerHTML" ], scriptContent);
                     }
@@ -998,6 +1039,11 @@
             head: {
                 get: () => env.$head$
             },
+            images: {
+                get() {
+                    return getter(this, [ "images" ]);
+                }
+            },
             implementation: {
                 get() {
                     return {
@@ -1007,7 +1053,12 @@
                             callMethod(this, [ "implementation", "createHTMLDocument" ], [ title ], 1, {
                                 $winId$: $winId$
                             });
-                            const docEnv = createWindow($winId$, $winId$, env.$location$ + "", "hidden", true, true);
+                            const docEnv = createEnvironment({
+                                $winId$: $winId$,
+                                $parentWinId$: $winId$,
+                                $url$: env.$location$ + "",
+                                $visibilityState$: "hidden"
+                            }, true, true);
                             return docEnv.$document$;
                         }
                     };
@@ -1090,12 +1141,29 @@
                         setInstanceStateValue(this, 4, href);
                         value = new URL(href)[anchorProp];
                     }
-                    return resolveToUrl(env, value)[anchorProp];
+                    return resolveToUrl(env, value, null)[anchorProp];
                 },
                 set(value) {
-                    let href = getInstanceStateValue(this, 4);
-                    let url = resolveToUrl(env, href);
-                    url[anchorProp] = new URL(value + "", url.href);
+                    let url;
+                    if ("href" === anchorProp) {
+                        if ((url => {
+                            try {
+                                new URL(url);
+                                return true;
+                            } catch (_) {
+                                return false;
+                            }
+                        })(value)) {
+                            url = new URL(value);
+                        } else {
+                            const baseHref = env.$location$.href;
+                            url = resolveToUrl(env, baseHref, null);
+                            url.href = new URL(value + "", url.href);
+                        }
+                    } else {
+                        url = resolveToUrl(env, this.href, null);
+                        url[anchorProp] = value;
+                    }
                     setInstanceStateValue(this, 4, url.href);
                     setter(this, [ "href" ], url.href);
                 }
@@ -1132,14 +1200,30 @@
                             let xhr = new XMLHttpRequest;
                             let xhrStatus;
                             let env = getIframeEnv(this);
-                            env.$location$.href = src = resolveUrl(env, src);
+                            env.$location$.href = src = resolveUrl(env, src, "iframe");
                             env.$isLoading$ = 1;
                             setInstanceStateValue(this, 1, void 0);
                             xhr.open("GET", src, false);
                             xhr.send();
                             xhrStatus = xhr.status;
                             if (xhrStatus > 199 && xhrStatus < 300) {
-                                setter(this, [ "srcdoc" ], `<base href="${src}">` + xhr.responseText.replace(/<script>/g, '<script type="text/partytown">').replace(/<script /g, '<script type="text/partytown" ').replace(/text\/javascript/g, "text/partytown") + getPartytownScript());
+                                setter(this, [ "srcdoc" ], `<base href="${src}">` + function(text) {
+                                    return text.replace(SCRIPT_TAG_REGEXP, ((_, attrs) => {
+                                        const parts = [];
+                                        let hasType = false;
+                                        let match;
+                                        while (match = ATTR_REGEXP.exec(attrs)) {
+                                            let [keyValue] = match;
+                                            if (keyValue.startsWith("type=")) {
+                                                hasType = true;
+                                                keyValue = keyValue.replace(/(application|text)\/javascript/, SCRIPT_TYPE);
+                                            }
+                                            parts.push(keyValue);
+                                        }
+                                        hasType || parts.push('type="text/partytown"');
+                                        return `<script ${parts.join(" ")}>`;
+                                    }));
+                                }(xhr.responseText) + getPartytownScript());
                                 sendToMain(true);
                                 webWorkerCtx.$postMessage$([ 7, env.$winId$ ]);
                             } else {
@@ -1154,6 +1238,9 @@
         };
         definePrototypePropertyDescriptor(WorkerHTMLIFrameElement, HTMLIFrameDescriptorMap);
     };
+    const ATTR_REGEXP_STR = "((?:\\w|-)+(?:=(?:(?:\\w|-)+|'[^']*'|\"[^\"]*\")?)?)";
+    const SCRIPT_TAG_REGEXP = new RegExp(`<script\\s*((${ATTR_REGEXP_STR}\\s*)*)>`, "mg");
+    const ATTR_REGEXP = new RegExp(ATTR_REGEXP_STR, "mg");
     const getIframeEnv = iframe => {
         const $winId$ = iframe[InstanceIdKey];
         environments[$winId$] || createEnvironment({
@@ -1182,6 +1269,39 @@
             }
         };
         definePrototypePropertyDescriptor(WorkerSVGGraphicsElement, SVGGraphicsElementDescriptorMap);
+    };
+    const createNamedNodeMapCstr = (win, WorkerBase) => {
+        win.NamedNodeMap = defineConstructorName(class NamedNodeMap extends WorkerBase {
+            constructor(winId, instanceId, applyPath) {
+                super(winId, instanceId, applyPath);
+                return new Proxy(this, {
+                    get(target, propName) {
+                        const handler = NAMED_NODE_MAP_HANDLERS[propName];
+                        return handler ? handler.bind(target, [ propName ]) : getter(target, [ propName ]);
+                    },
+                    set(target, propName, propValue) {
+                        const handler = NAMED_NODE_MAP_HANDLERS[propName];
+                        if (handler) {
+                            throw new Error("Can't set read-only property: " + String(propName));
+                        }
+                        setter(target, [ propName ], propValue);
+                        return true;
+                    }
+                });
+            }
+        }, "NamedNodeMap");
+    };
+    function method(applyPath, ...args) {
+        return callMethod(this, applyPath, args, 1);
+    }
+    const NAMED_NODE_MAP_HANDLERS = {
+        getNamedItem: method,
+        getNamedItemNS: method,
+        item: method,
+        removeNamedItem: method,
+        removeNamedItemNS: method,
+        setNamedItem: method,
+        setNamedItemNS: method
     };
     const createWindow = ($winId$, $parentWinId$, url, $visibilityState$, isIframeWindow, isDocumentImplementation) => {
         let cstrInstanceId;
@@ -1235,7 +1355,7 @@
                         (() => {
                             if (!webWorkerCtx.$initWindowMedia$) {
                                 self.$bridgeToMedia$ = [ getter, setter, callMethod, constructGlobal, definePrototypePropertyDescriptor, randomId, WinIdKey, InstanceIdKey, ApplyPathKey ];
-                                webWorkerCtx.$importScripts$(partytownLibUrl("partytown-media.js?v=0.5.4"));
+                                webWorkerCtx.$importScripts$(partytownLibUrl("partytown-media.js?v=0.7.6"));
                                 webWorkerCtx.$initWindowMedia$ = self.$bridgeFromMedia$;
                                 delete self.$bridgeFromMedia$;
                             }
@@ -1256,6 +1376,10 @@
                 win.Window = WorkerWindow;
                 win.name = name + `${normalizedWinId($winId$)} (${$winId$})`;
                 createNodeCstr(win, env, WorkerBase);
+                (win => {
+                    win.NodeList = defineConstructorName(NodeList, "NodeList");
+                })(win);
+                createNamedNodeMapCstr(win, WorkerBase);
                 createCSSStyleDeclarationCstr(win, WorkerBase, "CSSStyleDeclaration");
                 ((win, WorkerBase, cstrName) => {
                     win[cstrName] = defineConstructorName(class extends WorkerBase {
@@ -1413,6 +1537,16 @@
                         },
                         length: 0
                     };
+                    win.indexeddb = void 0;
+                } else {
+                    const originalPushState = win.history.pushState.bind(win.history);
+                    const originalReplaceState = win.history.replaceState.bind(win.history);
+                    win.history.pushState = (stateObj, _, newUrl) => {
+                        false !== env.$propagateHistoryChange$ && originalPushState(stateObj, _, newUrl);
+                    };
+                    win.history.replaceState = (stateObj, _, newUrl) => {
+                        false !== env.$propagateHistoryChange$ && originalReplaceState(stateObj, _, newUrl);
+                    };
                 }
                 win.Worker = void 0;
             }
@@ -1432,7 +1566,7 @@
             }
             fetch(input, init) {
                 input = "string" == typeof input || input instanceof URL ? String(input) : input.url;
-                return fetch(resolveUrl(env, input), init);
+                return fetch(resolveUrl(env, input, "fetch"), init);
             }
             get frames() {
                 return env.$window$;
@@ -1465,13 +1599,13 @@
                         sendBeacon: (url, body) => {
                             if (webWorkerCtx.$config$.logSendBeaconRequests) {
                                 try {
-                                    logWorker(`sendBeacon: ${resolveUrl(env, url, true)}${body ? ", data: " + JSON.stringify(body) : ""}`);
+                                    logWorker(`sendBeacon: ${resolveUrl(env, url, null)}${body ? ", data: " + JSON.stringify(body) : ""}`);
                                 } catch (e) {
                                     console.error(e);
                                 }
                             }
                             try {
-                                fetch(resolveUrl(env, url, true), {
+                                fetch(resolveUrl(env, url, null), {
                                     method: "POST",
                                     body: body,
                                     mode: "no-cors",
@@ -1487,7 +1621,12 @@
                     for (key in navigator) {
                         nav[key] = navigator[key];
                     }
-                    return nav;
+                    return new Proxy(nav, {
+                        set(_, propName, propValue) {
+                            navigator[propName] = propValue;
+                            return true;
+                        }
+                    });
                 })(env);
             }
             get origin() {
@@ -1532,7 +1671,7 @@
                 const str = String(Xhr);
                 const ExtendedXhr = defineConstructorName(class extends Xhr {
                     open(...args) {
-                        args[1] = resolveUrl(env, args[1]);
+                        args[1] = resolveUrl(env, args[1], "xhr");
                         super.open(...args);
                     }
                     set withCredentials(_) {}
@@ -1570,9 +1709,9 @@
         DOMStringMap: 1,
         NamedNodeMap: 1
     };
-    const createEnvironment = ({$winId$: $winId$, $parentWinId$: $parentWinId$, $url$: $url$, $visibilityState$: $visibilityState$}, isIframeWindow) => {
+    const createEnvironment = ({$winId$: $winId$, $parentWinId$: $parentWinId$, $url$: $url$, $visibilityState$: $visibilityState$}, isIframeWindow, isDocumentImplementation) => {
         if (!environments[$winId$]) {
-            environments[$winId$] = createWindow($winId$, $parentWinId$, $url$, $visibilityState$, isIframeWindow);
+            environments[$winId$] = createWindow($winId$, $parentWinId$, $url$, $visibilityState$, isIframeWindow, isDocumentImplementation);
             {
                 const winType = $winId$ === $parentWinId$ ? "top" : "iframe";
                 logWorker(`Created ${winType} window ${normalizedWinId($winId$)} environment`, $winId$);
@@ -1598,16 +1737,24 @@
                     let errorMsg = "";
                     let env = environments[winId];
                     let rsp;
+                    let javascriptContentTypes = [ "text/jscript", "text/javascript", "text/x-javascript", "application/javascript", "application/x-javascript", "text/ecmascript", "text/x-ecmascript", "application/ecmascript" ];
                     if (scriptSrc) {
                         try {
-                            scriptSrc = resolveToUrl(env, scriptSrc) + "";
+                            scriptSrc = resolveToUrl(env, scriptSrc, "script") + "";
                             setInstanceStateValue(instance, 4, scriptSrc);
                             webWorkerCtx.$config$.logScriptExecution && logWorker(`Execute script src: ${scriptOrgSrc}`, winId);
                             rsp = await fetch(scriptSrc);
                             if (rsp.ok) {
-                                scriptContent = await rsp.text();
-                                env.$currentScriptId$ = instanceId;
-                                run(env, scriptContent, scriptOrgSrc || scriptSrc);
+                                let responseContentType = rsp.headers.get("content-type");
+                                let shouldExecute = javascriptContentTypes.some((ct => {
+                                    var _a, _b, _c;
+                                    return null === (_c = null === (_a = null == responseContentType ? void 0 : responseContentType.toLowerCase) || void 0 === _a ? void 0 : (_b = _a.call(responseContentType)).includes) || void 0 === _c ? void 0 : _c.call(_b, ct);
+                                }));
+                                if (shouldExecute) {
+                                    scriptContent = await rsp.text();
+                                    env.$currentScriptId$ = instanceId;
+                                    run(env, scriptContent, scriptOrgSrc || scriptSrc);
+                                }
                                 runStateLoadHandlers(instance, "load");
                             } else {
                                 errorMsg = rsp.statusText;
@@ -1658,8 +1805,33 @@
                 }
                 environments[msgValue].$isInitialized$ = 1;
                 environments[msgValue].$isLoading$ = 0;
+            } else if (14 === msgType) {
+                environments[msgValue].$visibilityState$ = msg[2];
+            } else if (13 === msgType) {
+                const $winId$ = msgValue.$winId$;
+                const env = environments[$winId$];
+                env.$location$.href = msgValue.url;
+                !function($winId$, env, data) {
+                    const history = env.$window$.history;
+                    switch (data.type) {
+                      case 0:
+                        env.$propagateHistoryChange$ = false;
+                        try {
+                            history.pushState(data.state, "", data.newUrl);
+                        } catch (e) {}
+                        env.$propagateHistoryChange$ = true;
+                        break;
+
+                      case 1:
+                        env.$propagateHistoryChange$ = false;
+                        try {
+                            history.replaceState(data.state, "", data.newUrl);
+                        } catch (e) {}
+                        env.$propagateHistoryChange$ = true;
+                    }
+                }(msgValue.$winId$, env, msgValue);
             } else {
-                14 === msgType ? environments[msgValue].$visibilityState$ = msg[2] : 13 === msgType ? environments[msgValue].$location$.href = msg[2] : 15 === msgType && ((_type, winId, instanceId, callbackName, args) => {
+                15 === msgType && ((_type, winId, instanceId, callbackName, args) => {
                     const elm = getOrCreateNodeInstance(winId, instanceId);
                     elm && "function" == typeof elm[callbackName] && elm[callbackName].apply(elm, args);
                 })(...msg);

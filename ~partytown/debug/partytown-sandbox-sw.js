@@ -1,4 +1,4 @@
-/* Partytown 0.5.4 - MIT builder.io */
+/* Partytown 0.7.6 - MIT builder.io */
 (window => {
     const isPromise = v => "object" == typeof v && v && v.then;
     const noop = () => {};
@@ -119,14 +119,18 @@
         Cstr.observedAttributes = ceData[1];
         return Cstr;
     };
-    const serializeForWorker = ($winId$, value, added, type, cstrName) => void 0 !== value && (type = typeof value) ? "string" === type || "number" === type || "boolean" === type || null == value ? [ 0, value ] : "function" === type ? [ 6 ] : (added = added || new Set) && Array.isArray(value) ? added.has(value) ? [ 1, [] ] : added.add(value) && [ 1, value.map((v => serializeForWorker($winId$, v, added))) ] : "object" === type ? "" === (cstrName = getConstructorName(value)) ? [ 2, {} ] : "Window" === cstrName ? [ 3, [ $winId$, $winId$ ] ] : "HTMLCollection" === cstrName || "NodeList" === cstrName ? [ 7, Array.from(value).map((v => serializeForWorker($winId$, v, added)[1])) ] : cstrName.endsWith("Event") ? [ 5, serializeObjectForWorker($winId$, value, added) ] : "CSSRuleList" === cstrName ? [ 12, Array.from(value).map(serializeCssRuleForWorker) ] : startsWith(cstrName, "CSS") && cstrName.endsWith("Rule") ? [ 11, serializeCssRuleForWorker(value) ] : "CSSStyleDeclaration" === cstrName ? [ 13, serializeObjectForWorker($winId$, value, added) ] : "Attr" === cstrName ? [ 10, [ value.name, value.value ] ] : value.nodeType ? [ 3, [ $winId$, getAndSetInstanceId(value), getNodeName(value) ] ] : [ 2, serializeObjectForWorker($winId$, value, added, true, true) ] : void 0 : value;
+    const serializeForWorker = ($winId$, value, added, type, cstrName) => void 0 !== value && (type = typeof value) ? "string" === type || "number" === type || "boolean" === type || null == value ? [ 0, value ] : "function" === type ? [ 6 ] : (added = added || new Set) && Array.isArray(value) ? added.has(value) ? [ 1, [] ] : added.add(value) && [ 1, value.map((v => serializeForWorker($winId$, v, added))) ] : "object" === type ? serializedValueIsError(value) ? [ 14, {
+        name: value.name,
+        message: value.message,
+        stack: value.stack
+    } ] : "" === (cstrName = getConstructorName(value)) ? [ 2, {} ] : "Window" === cstrName ? [ 3, [ $winId$, $winId$ ] ] : "HTMLCollection" === cstrName || "NodeList" === cstrName ? [ 7, Array.from(value).map((v => serializeForWorker($winId$, v, added)[1])) ] : cstrName.endsWith("Event") ? [ 5, serializeObjectForWorker($winId$, value, added) ] : "CSSRuleList" === cstrName ? [ 12, Array.from(value).map(serializeCssRuleForWorker) ] : startsWith(cstrName, "CSS") && cstrName.endsWith("Rule") ? [ 11, serializeCssRuleForWorker(value) ] : "CSSStyleDeclaration" === cstrName ? [ 13, serializeObjectForWorker($winId$, value, added) ] : "Attr" === cstrName ? [ 10, [ value.name, value.value ] ] : value.nodeType ? [ 3, [ $winId$, getAndSetInstanceId(value), getNodeName(value) ] ] : [ 2, serializeObjectForWorker($winId$, value, added, true, true) ] : void 0 : value;
     const serializeObjectForWorker = (winId, obj, added, includeFunctions, includeEmptyStrings, serializedObj, propName, propValue) => {
         serializedObj = {};
         if (!added.has(obj)) {
             added.add(obj);
             for (propName in obj) {
                 if (isValidMemberName(propName)) {
-                    propValue = obj[propName];
+                    propValue = "path" === propName && getConstructorName(obj).endsWith("Event") ? obj.composedPath() : obj[propName];
                     (includeFunctions || "function" != typeof propValue) && (includeEmptyStrings || "" !== propValue) && (serializedObj[propName] = serializeForWorker(winId, propValue, added));
                 }
             }
@@ -141,6 +145,7 @@
         }
         return obj;
     };
+    const serializedValueIsError = value => value instanceof window.top.Error;
     const deserializeFromWorker = (worker, serializedTransfer, serializedType, serializedValue) => {
         if (serializedTransfer) {
             serializedType = serializedTransfer[0];
@@ -272,44 +277,6 @@
         }
         return instance;
     };
-    const registerWindow = (worker, $winId$, $window$) => {
-        if (!windowIds.has($window$)) {
-            windowIds.set($window$, $winId$);
-            const doc = $window$.document;
-            const history = $window$.history;
-            const $parentWinId$ = windowIds.get($window$.parent);
-            const sendInitEnvData = () => worker.postMessage([ 5, {
-                $winId$: $winId$,
-                $parentWinId$: $parentWinId$,
-                $url$: doc.baseURI,
-                $visibilityState$: doc.visibilityState
-            } ]);
-            const pushState = history.pushState.bind(history);
-            const replaceState = history.replaceState.bind(history);
-            const onLocationChange = () => setTimeout((() => worker.postMessage([ 13, $winId$, doc.baseURI ])));
-            history.pushState = (data, _, url) => {
-                pushState(data, _, url);
-                onLocationChange();
-            };
-            history.replaceState = (data, _, url) => {
-                replaceState(data, _, url);
-                onLocationChange();
-            };
-            $window$.addEventListener("popstate", onLocationChange);
-            $window$.addEventListener("hashchange", onLocationChange);
-            doc.addEventListener("visibilitychange", (() => worker.postMessage([ 14, $winId$, doc.visibilityState ])));
-            winCtxs[$winId$] = {
-                $winId$: $winId$,
-                $window$: $window$
-            };
-            winCtxs[$winId$].$startTime$ = performance.now();
-            {
-                const winType = $winId$ === $parentWinId$ ? "top" : "iframe";
-                logMain(`Registered ${winType} window ${normalizedWinId($winId$)}`);
-            }
-            "complete" === doc.readyState ? sendInitEnvData() : $window$.addEventListener("load", sendInitEnvData);
-        }
-    };
     const readNextScript = (worker, winCtx) => {
         let $winId$ = winCtx.$winId$;
         let win = winCtx.$window$;
@@ -370,6 +337,75 @@
             }
         } else {
             requestAnimationFrame((() => readNextScript(worker, winCtx)));
+        }
+    };
+    const registerWindow = (worker, $winId$, $window$) => {
+        if (!windowIds.has($window$)) {
+            windowIds.set($window$, $winId$);
+            const doc = $window$.document;
+            const history = $window$.history;
+            const $parentWinId$ = windowIds.get($window$.parent);
+            let initialised = false;
+            const onInitialisedQueue = [];
+            const onInitialised = callback => {
+                initialised ? callback() : onInitialisedQueue.push(callback);
+            };
+            const sendInitEnvData = () => {
+                worker.postMessage([ 5, {
+                    $winId$: $winId$,
+                    $parentWinId$: $parentWinId$,
+                    $url$: doc.baseURI,
+                    $visibilityState$: doc.visibilityState
+                } ]);
+                setTimeout((() => {
+                    initialised = true;
+                    onInitialisedQueue.forEach((callback => {
+                        callback();
+                    }));
+                }));
+            };
+            const pushState = history.pushState.bind(history);
+            const replaceState = history.replaceState.bind(history);
+            const onLocationChange = (type, state, newUrl, oldUrl) => () => {
+                setTimeout((() => {
+                    worker.postMessage([ 13, {
+                        $winId$: $winId$,
+                        type: type,
+                        state: state,
+                        url: doc.baseURI,
+                        newUrl: newUrl,
+                        oldUrl: oldUrl
+                    } ]);
+                }));
+            };
+            history.pushState = (state, _, newUrl) => {
+                pushState(state, _, newUrl);
+                onInitialised(onLocationChange(0, state, null == newUrl ? void 0 : newUrl.toString()));
+            };
+            history.replaceState = (state, _, newUrl) => {
+                replaceState(state, _, newUrl);
+                onInitialised(onLocationChange(1, state, null == newUrl ? void 0 : newUrl.toString()));
+            };
+            $window$.addEventListener("popstate", (event => {
+                onInitialised(onLocationChange(2, event.state));
+            }));
+            $window$.addEventListener("hashchange", (event => {
+                onInitialised(onLocationChange(3, {}, event.newURL, event.oldURL));
+            }));
+            $window$.addEventListener("ptupdate", (() => {
+                readNextScript(worker, winCtxs[$winId$]);
+            }));
+            doc.addEventListener("visibilitychange", (() => worker.postMessage([ 14, $winId$, doc.visibilityState ])));
+            winCtxs[$winId$] = {
+                $winId$: $winId$,
+                $window$: $window$
+            };
+            winCtxs[$winId$].$startTime$ = performance.now();
+            {
+                const winType = $winId$ === $parentWinId$ ? "top" : "iframe";
+                logMain(`Registered ${winType} window ${normalizedWinId($winId$)}`);
+            }
+            "complete" === doc.readyState ? sendInitEnvData() : $window$.addEventListener("load", sendInitEnvData);
         }
     };
     const onMessageFromWebWorker = (worker, msg, winCtx) => {
@@ -508,14 +544,14 @@
         }));
     })(((accessReq, responseCallback) => mainAccessHandler(worker, accessReq).then(responseCallback))).then((onMessageHandler => {
         if (onMessageHandler) {
-            worker = new Worker(libPath + "partytown-ww-sw.js?v=0.5.4", {
+            worker = new Worker(libPath + "partytown-ww-sw.js?v=0.7.6", {
                 name: "Partytown 🎉"
             });
             worker.onmessage = ev => {
                 const msg = ev.data;
                 12 === msg[0] ? mainAccessHandler(worker, msg[1]) : onMessageHandler(worker, msg);
             };
-            logMain("Created Partytown web worker (0.5.4)");
+            logMain("Created Partytown web worker (0.7.6)");
             worker.onerror = ev => console.error("Web Worker Error", ev);
             mainWindow.addEventListener("pt1", (ev => registerWindow(worker, getAndSetInstanceId(ev.detail.frameElement), ev.detail)));
         }
