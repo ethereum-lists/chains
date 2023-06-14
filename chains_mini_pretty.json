@@ -1845,6 +1845,19 @@
   "faucets": [],
   "infoURL": "https://explorer.lightstreams.io"
 }, {
+  "name": "Omni Testnet 1",
+  "chainId": 165,
+  "shortName": "omni_testnet",
+  "networkId": 165,
+  "nativeCurrency": {
+    "name": "Omni",
+    "symbol": "OMNI",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-1.omni.network"],
+  "faucets": [],
+  "infoURL": "https://docs.omni.network/"
+}, {
   "name": "Atoshi Testnet",
   "chainId": 167,
   "shortName": "atoshi",
