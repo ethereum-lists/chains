@@ -5355,6 +5355,19 @@
   "faucets": [],
   "infoURL": "https://parachain.origintrail.io"
 }, {
+  "name": "Shrapnel Subnet",
+  "chainId": 2044,
+  "shortName": "Shrapnel",
+  "networkId": 2044,
+  "nativeCurrency": {
+    "name": "Shrapnel Gas Token",
+    "symbol": "SHRAPG",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/shrapnel/mainnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.shrapnel.com/"
+}, {
   "name": "Stratos Testnet",
   "chainId": 2047,
   "shortName": "stos-testnet",

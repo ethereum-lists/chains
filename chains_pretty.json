@@ -7992,6 +7992,20 @@
   "chainId": 2043,
   "networkId": 2043
 }, {
+  "name": "Shrapnel Subnet",
+  "chain": "shrapnel",
+  "rpc": ["https://subnets.avax.network/shrapnel/mainnet/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Shrapnel Gas Token",
+    "symbol": "SHRAPG",
+    "decimals": 18
+  },
+  "infoURL": "https://www.shrapnel.com/",
+  "shortName": "Shrapnel",
+  "chainId": 2044,
+  "networkId": 2044
+}, {
   "name": "Stratos Testnet",
   "chain": "STOS",
   "rpc": ["https://web3-testnet-rpc.thestratos.org"],
