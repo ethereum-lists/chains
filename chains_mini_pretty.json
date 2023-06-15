@@ -9151,6 +9151,19 @@
   "faucets": ["https://testedge2.haqq.network"],
   "infoURL": "https://islamiccoin.net"
 }, {
+  "name": "Titan",
+  "chainId": 55004,
+  "shortName": "teth",
+  "networkId": 55004,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.titan.tokamak.network", "wss://rpc.titan.tokamak.network/ws"],
+  "faucets": [],
+  "infoURL": "https://tokamak.network"
+}, {
   "name": "REI Chain Mainnet",
   "chainId": 55555,
   "shortName": "reichain",
