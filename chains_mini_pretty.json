@@ -1221,18 +1221,18 @@
   "faucets": [],
   "infoURL": "https://bcts.ch"
 }, {
-  "name": "CryptoKylin Testnet",
+  "name": "CamDL Mainnet",
   "chainId": 95,
-  "shortName": "kylin",
+  "shortName": "camdl",
   "networkId": 95,
   "nativeCurrency": {
-    "name": "EOS",
-    "symbol": "EOS",
+    "name": "CADL",
+    "symbol": "CADL",
     "decimals": 18
   },
-  "rpc": ["https://kylin.eosargentina.io"],
-  "faucets": [],
-  "infoURL": "https://www.cryptokylin.io/"
+  "rpc": ["https://rpc1.camdl.gov.kh/"],
+  "faucets": ["https://faucet.camdl.gov.kh/"],
+  "infoURL": "https://camdl.gov.kh/"
 }, {
   "name": "Bitkub Chain",
   "chainId": 96,
