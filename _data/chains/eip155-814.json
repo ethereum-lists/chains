@@ -1,0 +1,17 @@
+{
+  "name": "Bytchain Testnet",
+  "chain": "Bytchain",
+  "icon": "verse",
+  "rpc": ["https://testnet.rpc.bytchain.io/"],
+  "faucets": ["https://faucet.bytchain.io/"],
+  "nativeCurrency": {
+    "name": "Bytchain", 
+    "symbol": "VERSE", 
+    "decimals": 18 },
+  "infoURL": "https://bytchain.io/",
+  "shortName": "tverse",
+  "chainId": 814,
+  "networkId": 814,
+  "explorers": [],
+  "status": "incubating"
+}
