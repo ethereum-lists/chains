@@ -3607,11 +3607,9 @@
   "shortName": "ncnt",
   "chainId": 303,
   "networkId": 303,
-  "icon": "neurochain",
   "explorers": [{
     "name": "neuroscan",
     "url": "https://testnet.ncnscan.com",
-    "icon": "neurochain",
     "standard": "EIP3091"
   }]
 }, {
@@ -3654,11 +3652,9 @@
   "shortName": "ncn",
   "chainId": 313,
   "networkId": 313,
-  "icon": "neurochain",
   "explorers": [{
     "name": "neuroscan",
     "url": "https://ncnscan.com",
-    "icon": "neurochain",
     "standard": "EIP3091"
   }]
 }, {
@@ -8177,7 +8173,6 @@
 }, {
   "name": "Metaplayerone Dubai Testnet",
   "chain": "MP1 Dubai-Testnet",
-  "icon": "meu",
   "rpc": ["https://rpc-dubai.mp1network.com/"],
   "faucets": [],
   "nativeCurrency": {
@@ -8192,7 +8187,6 @@
   "explorers": [{
     "name": "MP1Scan",
     "url": "https://dubai.mp1scan.io",
-    "icon": "meu",
     "standard": "EIP3091"
   }]
 }, {
