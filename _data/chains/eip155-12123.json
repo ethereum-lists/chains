@@ -1,12 +1,8 @@
 {
   "name": "BRC Chain Mainnet",
   "chain": "BRC",
-  "rpc": [
-    "https://rpc.brcchain.io"
-  ],
-  "faucets": [
-    "https://faucet.brcchain.io"
-  ],
+  "rpc": ["https://rpc.brcchain.io"],
+  "faucets": ["https://faucet.brcchain.io"],
   "nativeCurrency": {
     "name": "BRC Chain mainnet token",
     "symbol": "BRC",
