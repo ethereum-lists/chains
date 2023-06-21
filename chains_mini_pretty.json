@@ -8059,6 +8059,19 @@
   "faucets": ["https://zeroscan.singularity.gold"],
   "infoURL": "https://www.singularity.gold"
 }, {
+  "name": "BRC Chain Mainnet",
+  "chainId": 12123,
+  "shortName": "BRC",
+  "networkId": 12123,
+  "nativeCurrency": {
+    "name": "BRC Chain mainnet native token",
+    "symbol": "BRC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.brcchain.io"],
+  "faucets": ["https://faucet.brcchain.io"],
+  "infoURL": "https://bridge.brcchain.io"
+}, {
   "name": "Fibonacci Mainnet",
   "chainId": 12306,
   "shortName": "fibo",
