@@ -1,0 +1,51 @@
+{
+	"chainId": "gitopia",
+	"chainName": "gitopia",
+	"rpc": "https://gitopia-rpc.polkachu.com",
+	"rest": "https://gitopia-api.polkachu.com",
+	"bip44": {
+		"coinType": 118
+	},
+	"coinType": 118,
+	"bech32Config": {
+		"bech32PrefixAccAddr": "gitopia",
+		"bech32PrefixAccPub": "gitopiapub",
+		"bech32PrefixValAddr": "gitopiavaloper",
+		"bech32PrefixValPub": "gitopiavaloperpub",
+		"bech32PrefixConsAddr": "gitopiavalcons",
+		"bech32PrefixConsPub": "gitopiavalconspub"
+	},
+	"currencies": [
+		{
+			"coinDenom": "LORE",
+			"coinMinimalDenom": "ulore",
+			"coinDecimals": 6,
+			"coinGeckoId": "unknown"
+		}
+	],
+	"feeCurrencies": [
+		{
+			"coinDenom": "LORE",
+			"coinMinimalDenom": "ulore",
+			"coinDecimals": 6,
+			"coinGeckoId": "unknown",
+			"gasPriceStep": {
+				"low": 0.01,
+				"average": 0.025,
+				"high": 0.03
+			}
+		}
+	],
+	"gasPriceStep": {
+		"low": 0.01,
+		"average": 0.025,
+		"high": 0.03
+	},
+	"stakeCurrency": {
+		"coinDenom": "LORE",
+		"coinMinimalDenom": "ulore",
+		"coinDecimals": 6,
+		"coinGeckoId": "unknown"
+	},
+	"features": []
+}
