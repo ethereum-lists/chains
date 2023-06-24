@@ -1,0 +1,36 @@
+{
+   "name":"Kovan Token List",
+   "logoURI":"",
+   "keywords":[
+   ],
+   "timestamp":"2021-05-4T1:34:53.021Z",
+   "version":{
+      "major":0,
+      "minor":0,
+      "patch":1
+   },
+   "tokens":[
+      {
+         "chainId":42,
+         "address":"0x7079f3762805cff9c979a5bdc6f5648bcfee76c8",
+         "symbol":"USDC",
+         "decimals":18,
+         "name":"USDC"
+      },
+      {
+         "chainId":42,
+         "address":"0x57ab1ec28d129707052df4df418d58a2d46d5f51",
+         "symbol":"sUSD",
+         "decimals":18,
+         "name":"sUSD"
+      },
+      {
+         "chainId":42,
+         "address":"0x4f96fe3b7a6cf9725f59d353f723c1bdb64ca6aa",
+         "symbol":"DAI",
+         "decimals":18,
+         "name":"DAI"
+      }
+      
+   ]
+}
