@@ -6213,6 +6213,19 @@
   "faucets": [],
   "infoURL": "https://ozonechain.io"
 }, {
+  "name": "Peperium Chain Testnet",
+  "chainId": 4001,
+  "shortName": "PERIUM",
+  "networkId": 4001,
+  "nativeCurrency": {
+    "name": "Peperium Chain Testnet",
+    "symbol": "PERIUM",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.peperium.io"],
+  "faucets": [],
+  "infoURL": "https://peperium.io"
+}, {
   "name": "Fantom Testnet",
   "chainId": 4002,
   "shortName": "tftm",
