@@ -11530,6 +11530,19 @@
   "faucets": [],
   "infoURL": "https://quarkblockchain.org/"
 }, {
+  "name": "Pego Network",
+  "chainId": 20201022,
+  "shortName": "pg",
+  "networkId": 20201022,
+  "nativeCurrency": {
+    "name": "Pego Native Token",
+    "symbol": "PG",
+    "decimals": 18
+  },
+  "rpc": ["https://pegorpc.com", "https://node1.pegorpc.com", "https://node2.pegorpc.com", "https://node3.pegorpc.com"],
+  "faucets": [],
+  "infoURL": "https://pego.network"
+}, {
   "name": "Excelon Mainnet",
   "chainId": 22052002,
   "shortName": "xlon",
