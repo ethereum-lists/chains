@@ -1138,7 +1138,7 @@
 }, {
   "name": "Ethereum Classic Mainnet",
   "chain": "ETC",
-  "rpc": ["https://www.ethercluster.com/etc"],
+  "rpc": ["https://etc.rivet.link"],
   "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/?"],
   "nativeCurrency": {
     "name": "Ethereum Classic Ether",
@@ -1172,7 +1172,7 @@
 }, {
   "name": "Ethereum Classic Testnet Mordor",
   "chain": "ETC",
-  "rpc": ["https://www.ethercluster.com/mordor"],
+  "rpc": ["https://rpc.mordor.etccooperative.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Mordor Classic Testnet Ether",
