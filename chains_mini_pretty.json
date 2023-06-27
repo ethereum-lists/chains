@@ -4770,7 +4770,7 @@
   "faucets": [],
   "infoURL": "https://bitcoinasset.io/"
 }, {
-  "name": "Horizen Yuma Testnet",
+  "name": "Horizen Yuma Testnet Deprecated",
   "chainId": 1662,
   "shortName": "Yuma",
   "networkId": 1662,
@@ -4779,8 +4779,8 @@
     "symbol": "tZEN",
     "decimals": 18
   },
-  "rpc": ["https://yuma-testnet.horizenlabs.io/ethv1"],
-  "faucets": ["https://yuma-testnet-faucet.horizen.io"],
+  "rpc": [],
+  "faucets": [],
   "infoURL": "https://horizen.io/"
 }, {
   "name": "Horizen Gobi Testnet",

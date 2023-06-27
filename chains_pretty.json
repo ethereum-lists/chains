@@ -7087,17 +7087,17 @@
   "chainId": 1657,
   "networkId": 1657
 }, {
-  "name": "Horizen Yuma Testnet",
+  "name": "Horizen Yuma Testnet Deprecated",
   "shortName": "Yuma",
   "chain": "Yuma",
   "icon": "eon",
-  "rpc": ["https://yuma-testnet.horizenlabs.io/ethv1"],
+  "rpc": [],
   "features": [{
     "name": "EIP155"
   }, {
     "name": "EIP1559"
   }],
-  "faucets": ["https://yuma-testnet-faucet.horizen.io"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Testnet Zen",
     "symbol": "tZEN",
@@ -7107,12 +7107,7 @@
   "chainId": 1662,
   "networkId": 1662,
   "slip44": 121,
-  "explorers": [{
-    "name": "Yuma Testnet Block Explorer",
-    "url": "https://yuma-explorer.horizen.io",
-    "icon": "eon",
-    "standard": "EIP3091"
-  }],
+  "explorers": [],
   "status": "deprecated"
 }, {
   "name": "Horizen Gobi Testnet",
