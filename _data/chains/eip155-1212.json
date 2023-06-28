@@ -1,0 +1,26 @@
+{
+  "name": "U2U Chain Testnet",
+  "chain": "u2u",
+  "icon": "u2u",
+  "rpc": ["https://rpc1-devnet.uniultra.xyz/"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "U2U Chain Testnet",
+    "symbol": "U2U",
+    "decimals": 18
+  },
+  "infoURL": "https://uniultra.xyz",
+  "shortName": "u2u-chain-testnet",
+  "chainId": 1212,
+  "networkId": 1212,
+  "slip44": 3030,
+  "explorers": [
+    {
+      "icon": "u2u",
+      "name": "U2UChain",
+      "url": "https://u2utestnet.uniultra.xyz/",
+      "standard": "none"
+    }
+  ]
+}
