@@ -10256,6 +10256,19 @@
   "faucets": [],
   "infoURL": "https://siberium.net"
 }, {
+  "name": "Metachain One Mainnet",
+  "chainId": 112358,
+  "shortName": "metao",
+  "networkId": 112358,
+  "nativeCurrency": {
+    "name": "Metao",
+    "symbol": "METAO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.metachain.one", "https://rpc2.metachain.one"],
+  "faucets": [],
+  "infoURL": "https://metachain.one"
+}, {
   "name": "ADIL Devnet",
   "chainId": 123456,
   "shortName": "dadil",
