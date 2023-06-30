@@ -11411,20 +11411,15 @@
   "networkId": 9000,
   "icon": "evmos",
   "explorers": [{
-    "name": "Evmos EVM Explorer",
-    "url": "https://evm.evmos.dev",
-    "standard": "EIP3091",
-    "icon": "evmos"
-  }, {
-    "name": "Evmos Cosmos Explorer",
-    "url": "https://explorer.evmos.dev",
+    "name": "Evmos Explorer (Escan)",
+    "url": "https://testnet.escan.live",
     "standard": "none",
     "icon": "evmos"
   }]
 }, {
   "name": "Evmos",
   "chain": "Evmos",
-  "rpc": ["https://eth.bd.evmos.org:8545", "https://evmos-evm.publicnode.com"],
+  "rpc": ["https://evmos-evm.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Evmos",
@@ -11437,13 +11432,8 @@
   "networkId": 9001,
   "icon": "evmos",
   "explorers": [{
-    "name": "Evmos EVM Explorer (Escan)",
+    "name": "Evmos Explorer (Escan)",
     "url": "https://escan.live",
-    "standard": "none",
-    "icon": "evmos"
-  }, {
-    "name": "Evmos Cosmos Explorer (Mintscan)",
-    "url": "https://www.mintscan.io/evmos",
     "standard": "none",
     "icon": "evmos"
   }]
