@@ -6733,6 +6733,19 @@
   "faucets": [],
   "infoURL": "https://treschain.com"
 }, {
+  "name": "Cascadia Testnet",
+  "chainId": 6102,
+  "shortName": "cascadia",
+  "networkId": 6102,
+  "nativeCurrency": {
+    "name": "CC",
+    "symbol": "tCC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.cascadia.foundation"],
+  "faucets": ["https://www.cascadia.foundation/faucet"],
+  "infoURL": "https://www.cascadia.foundation"
+}, {
   "name": "UPTN Testnet",
   "chainId": 6118,
   "shortName": "UPTN-TEST",
