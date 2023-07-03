@@ -2,7 +2,7 @@
   "name": "U2U Chain Testnet",
   "chain": "u2u",
   "icon": "u2u",
-  "rpc": ["https://rpc1-devnet.uniultra.xyz/"],
+  "rpc": ["https://rpc1-devnet.uniultra.xyz"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
@@ -19,7 +19,7 @@
     {
       "icon": "u2u",
       "name": "U2UChain",
-      "url": "https://u2utestnet.uniultra.xyz/",
+      "url": "https://u2utestnet.uniultra.xyz",
       "standard": "none"
     }
   ]
