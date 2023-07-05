@@ -6434,6 +6434,19 @@
   "faucets": ["https://faucet.iotex.io/"],
   "infoURL": "https://iotex.io"
 }, {
+  "name": "MEVerse Chain Testnet",
+  "chainId": 4759,
+  "shortName": "TESTMEV",
+  "networkId": 4759,
+  "nativeCurrency": {
+    "name": "MEVerse",
+    "symbol": "MEV",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.meversetestnet.io"],
+  "faucets": [],
+  "infoURL": "https://www.meverse.sg"
+}, {
   "name": "BlackFort Exchange Network Testnet",
   "chainId": 4777,
   "shortName": "TBXN",
@@ -6966,6 +6979,19 @@
   "rpc": ["https://rpc.x.raba.app/", "wss://rpc.x.raba.app/ws/"],
   "faucets": [],
   "infoURL": "https://x.raba.app/"
+}, {
+  "name": "MEVerse Chain Mainnet",
+  "chainId": 7518,
+  "shortName": "MEV",
+  "networkId": 7518,
+  "nativeCurrency": {
+    "name": "MEVerse",
+    "symbol": "MEV",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.meversemainnet.io"],
+  "faucets": [],
+  "infoURL": "https://www.meverse.sg"
 }, {
   "name": "ADIL Testnet",
   "chainId": 7575,

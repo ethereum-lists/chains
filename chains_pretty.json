@@ -9703,6 +9703,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "MEVerse Chain Testnet",
+  "chain": "MEVerse",
+  "rpc": ["https://rpc.meversetestnet.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MEVerse",
+    "symbol": "MEV",
+    "decimals": 18
+  },
+  "infoURL": "https://www.meverse.sg",
+  "shortName": "TESTMEV",
+  "chainId": 4759,
+  "networkId": 4759,
+  "icon": "meverse",
+  "explorers": [{
+    "name": "MEVerse Chain Testnet Explorer",
+    "url": "https://testnet.meversescan.io",
+    "standard": "none",
+    "icon": "meverse"
+  }]
+}, {
   "name": "BlackFort Exchange Network Testnet",
   "chain": "TBXN",
   "rpc": ["https://testnet.blackfort.network/rpc"],
@@ -10553,6 +10574,27 @@
     "name": "raba",
     "url": "https://x.raba.app/explorer",
     "standard": "none"
+  }]
+}, {
+  "name": "MEVerse Chain Mainnet",
+  "chain": "MEVerse",
+  "rpc": ["https://rpc.meversemainnet.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MEVerse",
+    "symbol": "MEV",
+    "decimals": 18
+  },
+  "infoURL": "https://www.meverse.sg",
+  "shortName": "MEV",
+  "chainId": 7518,
+  "networkId": 7518,
+  "icon": "meverse",
+  "explorers": [{
+    "name": "MEVerse Chain Explorer",
+    "url": "https://www.meversescan.io",
+    "standard": "none",
+    "icon": "meverse"
   }]
 }, {
   "name": "ADIL Testnet",
