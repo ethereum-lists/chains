@@ -10,7 +10,7 @@ buildscript {
 
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${KOTLIN_VERSION}"
-        classpath 'com.github.ben-manes:gradle-versions-plugin:0.46.0'
+        classpath 'com.github.ben-manes:gradle-versions-plugin:0.47.0'
     }
 }
 
