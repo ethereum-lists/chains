@@ -1,24 +1,24 @@
 {
-    "name": "Taro Testnet",
-    "chain": "TARO",
+    "name": "Bubs Testnet",
+    "chain": "BUBS",
     "rpc": [
-      "https://taro-testnet.calderachain.xyz/http"
+      "https://bubs.calderachain.xyz/http"
     ],
     "faucets": [
-        "https://tarotestnet.com"
+        "https://bubstestnet.com"
     ],
     "nativeCurrency": {
       "name": "Ether",
-      "symbol": "ETH",
+      "symbol": "gETH",
       "decimals": 18
     },
-    "infoURL": "https://tarotestnet.com",
+    "infoURL": "https://bubstestnet.com",
     "shortName": "eth",
     "chainId": 1582,
     "networkId": 1582,
-    "icon": "taro-testnet",
+    "icon": "bubs-testnet",
     "explorers": [{
-      "name": "Taro Testnet Explorer",
-      "url": "https://explorer.caldera.xyz"
+      "name": "Bubs Testnet Explorer",
+      "url": "https://explorer.bubstestnet.xyz"
     }]
   }
