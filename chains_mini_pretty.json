@@ -5550,6 +5550,19 @@
   "faucets": [],
   "infoURL": "https://findora.org/"
 }, {
+  "name": "Moonsama Network",
+  "chainId": 2199,
+  "shortName": "msn",
+  "networkId": 2199,
+  "nativeCurrency": {
+    "name": "Sama Token",
+    "symbol": "SAMA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.moonsama.com", "wss://rpc.moonsama.com/ws"],
+  "faucets": ["https://multiverse.moonsama.com/faucet"],
+  "infoURL": "https://moonsama.com"
+}, {
   "name": "Bitcoin EVM",
   "chainId": 2203,
   "shortName": "BTC",
