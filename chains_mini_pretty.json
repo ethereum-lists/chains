@@ -11309,6 +11309,19 @@
   "faucets": ["https://faucet.butterfly.fildev.network"],
   "infoURL": "https://filecoin.io"
 }, {
+  "name": "AltLayer Zero Gas Network",
+  "chainId": 4000003,
+  "shortName": "alt-zerogas",
+  "networkId": 4000003,
+  "nativeCurrency": {
+    "name": "ZERO",
+    "symbol": "ZERO",
+    "decimals": 18
+  },
+  "rpc": ["https://zero.alt.technology"],
+  "faucets": [],
+  "infoURL": "https://altlayer.io"
+}, {
   "name": "Worlds Caldera",
   "chainId": 4281033,
   "shortName": "worldscal",
