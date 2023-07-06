@@ -3951,6 +3951,19 @@
   "faucets": ["https://evm-toolkit.evm.testnet.shimmer.network", "https://evm-faucet.testnet.shimmer.network"],
   "infoURL": "https://shimmer.network"
 }, {
+  "name": "Mintara Testnet",
+  "chainId": 1079,
+  "shortName": "mintara-testnet",
+  "networkId": 1079,
+  "nativeCurrency": {
+    "name": "MINTARA",
+    "symbol": "MNTR",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/mintara/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://playthink.co.jp"
+}, {
   "name": "Metis Andromeda Mainnet",
   "chainId": 1088,
   "shortName": "metis-andromeda",
