@@ -3028,6 +3028,19 @@
   "faucets": [],
   "infoURL": "https://graphlinq.io"
 }, {
+  "name": "Avocado",
+  "chainId": 634,
+  "shortName": "avocado",
+  "networkId": 634,
+  "nativeCurrency": {
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.avocado.instadapp.io"],
+  "faucets": [],
+  "infoURL": "https://avocado.instadapp.io"
+}, {
   "name": "SX Network Testnet",
   "chainId": 647,
   "shortName": "SX-Testnet",
