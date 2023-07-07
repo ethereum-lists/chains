@@ -1,9 +1,7 @@
 {
   "name": "Catalyst",
   "chain": "CFG",
-  "rpc": [
-    "wss://fullnode.catalyst.cntrfg.com"
-  ],
+  "rpc": ["wss://fullnode.catalyst.cntrfg.com"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {

@@ -1,9 +1,7 @@
 {
   "name": "Centrifuge",
   "chain": "CFG",
-  "rpc": [
-    "wss://fullnode.parachain.centrifuge.io"
-  ],
+  "rpc": ["wss://fullnode.parachain.centrifuge.io"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
