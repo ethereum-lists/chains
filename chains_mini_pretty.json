@@ -11062,6 +11062,19 @@
   "faucets": [],
   "infoURL": "https://bearnetwork.net"
 }, {
+  "name": "ALL Mainnet",
+  "chainId": 651940,
+  "shortName": "ALL",
+  "networkId": 651940,
+  "nativeCurrency": {
+    "name": "ALL",
+    "symbol": "ALL",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.alltra.global"],
+  "faucets": [],
+  "infoURL": "https://alltra.world"
+}, {
   "name": "Vision - Vpioneer Test Chain",
   "chainId": 666666,
   "shortName": "vpioneer",
