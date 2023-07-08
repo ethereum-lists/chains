@@ -2,10 +2,7 @@
   "name": "ZetaChain Athens Testnet",
   "chain": "ZetaChain",
   "icon": "zetachain",
-  "rpc": [
-    "https://zetachain-athens-evm.blockpi.network/v1/rpc/public",
-    "wss://zetachain-athens.blockpi.network/rpc/v1/public/websocket"
-  ],
+  "rpc": ["https://api.athens2.zetachain.com/evm"],
   "faucets": ["https://labs.zetachain.com/get-zeta"],
   "nativeCurrency": {
     "name": "Zeta",
