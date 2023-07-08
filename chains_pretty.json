@@ -9181,6 +9181,46 @@
     "standard": "none"
   }]
 }, {
+  "name": "Botanix Testnet",
+  "chain": "BTC",
+  "icon": "botanix",
+  "rpc": ["https://testnet-rpc.btxtestchain.com"],
+  "faucets": ["https://faucet.btxtestchain.com"],
+  "nativeCurrency": {
+    "name": "Botanix",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://btxtestchain.com",
+  "shortName": "BTCt",
+  "chainId": 3636,
+  "networkId": 3636,
+  "explorers": [{
+    "name": "Botanix",
+    "url": "https://testnet.btxtestchain.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Botanix Mainnet",
+  "chain": "BTC",
+  "icon": "botanix",
+  "rpc": ["https://rpc.btxtestchain.com"],
+  "faucets": ["https://faucet.btxtestchain.com"],
+  "nativeCurrency": {
+    "name": "Botanix",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://btxtestchain.com",
+  "shortName": "BTCm",
+  "chainId": 3637,
+  "networkId": 3637,
+  "explorers": [{
+    "name": "Botanix",
+    "url": "https://btxtestchain.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Jouleverse Mainnet",
   "chain": "Jouleverse",
   "rpc": ["https://rpc.jnsdao.com:8503"],
@@ -10515,7 +10555,7 @@
   "name": "ZetaChain Athens Testnet",
   "chain": "ZetaChain",
   "icon": "zetachain",
-  "rpc": ["https://zetachain-athens-evm.blockpi.network/v1/rpc/public", "wss://zetachain-athens.blockpi.network/rpc/v1/public/websocket"],
+  "rpc": ["https://api.athens2.zetachain.com/evm"],
   "faucets": ["https://labs.zetachain.com/get-zeta"],
   "nativeCurrency": {
     "name": "Zeta",

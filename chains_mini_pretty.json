@@ -6109,6 +6109,32 @@
   "faucets": [],
   "infoURL": "https://www.pandoproject.org/"
 }, {
+  "name": "Botanix Testnet",
+  "chainId": 3636,
+  "shortName": "BTCt",
+  "networkId": 3636,
+  "nativeCurrency": {
+    "name": "Botanix",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.btxtestchain.com"],
+  "faucets": ["https://faucet.btxtestchain.com"],
+  "infoURL": "https://btxtestchain.com"
+}, {
+  "name": "Botanix Mainnet",
+  "chainId": 3637,
+  "shortName": "BTCm",
+  "networkId": 3637,
+  "nativeCurrency": {
+    "name": "Botanix",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.btxtestchain.com"],
+  "faucets": ["https://faucet.btxtestchain.com"],
+  "infoURL": "https://btxtestchain.com"
+}, {
   "name": "Jouleverse Mainnet",
   "chainId": 3666,
   "shortName": "jouleverse",
@@ -6950,7 +6976,7 @@
     "symbol": "aZETA",
     "decimals": 18
   },
-  "rpc": ["https://zetachain-athens-evm.blockpi.network/v1/rpc/public", "wss://zetachain-athens.blockpi.network/rpc/v1/public/websocket"],
+  "rpc": ["https://api.athens2.zetachain.com/evm"],
   "faucets": ["https://labs.zetachain.com/get-zeta"],
   "infoURL": "https://zetachain.com/docs"
 }, {
