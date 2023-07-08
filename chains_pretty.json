@@ -9181,46 +9181,6 @@
     "standard": "none"
   }]
 }, {
-  "name": "Botanix Testnet",
-  "chain": "BTC",
-  "icon": "botanix",
-  "rpc": ["https://testnet-rpc.btxtestchain.com"],
-  "faucets": ["https://faucet.btxtestchain.com"],
-  "nativeCurrency": {
-    "name": "Botanix",
-    "symbol": "BTC",
-    "decimals": 18
-  },
-  "infoURL": "https://btxtestchain.com",
-  "shortName": "BTCt",
-  "chainId": 3636,
-  "networkId": 3636,
-  "explorers": [{
-    "name": "Botanix",
-    "url": "https://testnet.btxtestchain.com",
-    "standard": "EIP3091"
-  }]
-}, {
-  "name": "Botanix Mainnet",
-  "chain": "BTC",
-  "icon": "botanix",
-  "rpc": ["https://rpc.btxtestchain.com"],
-  "faucets": ["https://faucet.btxtestchain.com"],
-  "nativeCurrency": {
-    "name": "Botanix",
-    "symbol": "BTC",
-    "decimals": 18
-  },
-  "infoURL": "https://btxtestchain.com",
-  "shortName": "BTCm",
-  "chainId": 3637,
-  "networkId": 3637,
-  "explorers": [{
-    "name": "Botanix",
-    "url": "https://btxtestchain.com",
-    "standard": "EIP3091"
-  }]
-}, {
   "name": "Jouleverse Mainnet",
   "chain": "Jouleverse",
   "rpc": ["https://rpc.jnsdao.com:8503"],
