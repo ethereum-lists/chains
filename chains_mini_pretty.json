@@ -2183,6 +2183,19 @@
   "faucets": ["https://faucet.deamchain.com"],
   "infoURL": "https://deamchain.com"
 }, {
+  "name": "Plinga Mainnet",
+  "chainId": 242,
+  "shortName": "plgchain",
+  "networkId": 242,
+  "nativeCurrency": {
+    "name": "Plinga",
+    "symbol": "PLINGA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpcurl.mainnet.plgchain.com", "https://rpcurl.plgchain.blockchain.evmnode.online", "https://rpcurl.mainnet.plgchain.plinga.technology"],
+  "faucets": [],
+  "infoURL": "https://www.plinga.technology/"
+}, {
   "name": "Energy Web Chain",
   "chainId": 246,
   "shortName": "ewt",
@@ -6108,6 +6121,32 @@
   "rpc": ["https://testnet.ethrpc.pandoproject.org/rpc"],
   "faucets": [],
   "infoURL": "https://www.pandoproject.org/"
+}, {
+  "name": "Botanix Testnet",
+  "chainId": 3636,
+  "shortName": "BTCt",
+  "networkId": 3636,
+  "nativeCurrency": {
+    "name": "Botanix",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.btxtestchain.com"],
+  "faucets": ["https://faucet.btxtestchain.com"],
+  "infoURL": "https://btxtestchain.com"
+}, {
+  "name": "Botanix Mainnet",
+  "chainId": 3637,
+  "shortName": "BTCm",
+  "networkId": 3637,
+  "nativeCurrency": {
+    "name": "Botanix",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.btxtestchain.com"],
+  "faucets": ["https://faucet.btxtestchain.com"],
+  "infoURL": "https://btxtestchain.com"
 }, {
   "name": "Jouleverse Mainnet",
   "chainId": 3666,
