@@ -6187,6 +6187,19 @@
   "faucets": [],
   "infoURL": "https://www.empirenetwork.io/"
 }, {
+  "name": "SenjePowers Testnet",
+  "chainId": 3698,
+  "shortName": "SPCt",
+  "networkId": 3698,
+  "nativeCurrency": {
+    "name": "SenjePowers",
+    "symbol": "SPC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.senjepowersscan.com"],
+  "faucets": ["https://faucet.senjepowersscan.com"],
+  "infoURL": "https://senjepowersscan.com"
+}, {
   "name": "Crossbell",
   "chainId": 3737,
   "shortName": "csb",
