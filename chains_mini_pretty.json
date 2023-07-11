@@ -3964,14 +3964,27 @@
   "faucets": [],
   "infoURL": "https://bronos.org"
 }, {
-  "name": "ShimmerEVM Testnet",
+  "name": "ShimmerEVM Testnet Deprecated",
   "chainId": 1071,
-  "shortName": "shimmerevm-testnet",
+  "shortName": "shimmerevm-testnet-deprecated",
   "networkId": 1071,
   "nativeCurrency": {
     "name": "SMR",
     "symbol": "SMR",
     "decimals": 18
+  },
+  "rpc": [],
+  "faucets": ["https://evm-toolkit.evm.testnet.shimmer.network", "https://evm-faucet.testnet.shimmer.network"],
+  "infoURL": "https://shimmer.network"
+}, {
+  "name": "ShimmerEVM Testnet",
+  "chainId": 1072,
+  "shortName": "shimmerevm-testnet",
+  "networkId": 1072,
+  "nativeCurrency": {
+    "name": "SMR",
+    "symbol": "SMR",
+    "decimals": 6
   },
   "rpc": ["https://json-rpc.evm.testnet.shimmer.network"],
   "faucets": ["https://evm-toolkit.evm.testnet.shimmer.network", "https://evm-faucet.testnet.shimmer.network"],
