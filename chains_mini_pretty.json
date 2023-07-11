@@ -2335,7 +2335,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.boba.network/"],
+  "rpc": ["https://mainnet.boba.network", "https://replica.boba.network", "http://boba-ethereum.gateway.tenderly.co", "http://gateway.tenderly.co/public/boba-ethereum", "wss://boba-ethereum.gateway.tenderly.co/", "wss://gateway.tenderly.co/public/boba-ethereum"],
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
@@ -5890,14 +5890,14 @@
 }, {
   "name": "Boba Network Goerli Testnet",
   "chainId": 2888,
-  "shortName": "Bobagoerli",
+  "shortName": "BobaGoerli",
   "networkId": 2888,
   "nativeCurrency": {
     "name": "Goerli Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://goerli.boba.network/"],
+  "rpc": ["https://goerli.boba.network/", "wss://wss.goerli.boba.network/"],
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
@@ -6495,7 +6495,7 @@
     "symbol": "BOBA",
     "decimals": 18
   },
-  "rpc": ["https://testnet.avax.boba.network", "wss://wss.testnet.avax.boba.network", "https://replica.testnet.avax.boba.network", "wss://replica-wss.testnet.avax.boba.network"],
+  "rpc": ["https://testnet.avax.boba.network", "wss://wss.testnet.avax.boba.network", "https://replica.testnet.avax.boba.network"],
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
@@ -9368,7 +9368,7 @@
     "symbol": "BOBA",
     "decimals": 18
   },
-  "rpc": ["https://bnb.boba.network", "wss://wss.bnb.boba.network", "https://replica.bnb.boba.network", "wss://replica-wss.bnb.boba.network"],
+  "rpc": ["https://bnb.boba.network", "http://boba-bnb.gateway.tenderly.co/", "http://gateway.tenderly.co/public/boba-bnb", "https://replica.bnb.boba.network", "wss://boba-bnb.gateway.tenderly.co/", "wss://gateway.tenderly.co/public/boba-bnb"],
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {

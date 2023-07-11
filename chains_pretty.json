@@ -3414,7 +3414,7 @@
 }, {
   "name": "Boba Network",
   "chain": "ETH",
-  "rpc": ["https://mainnet.boba.network/"],
+  "rpc": ["https://mainnet.boba.network", "https://replica.boba.network", "http://boba-ethereum.gateway.tenderly.co", "http://gateway.tenderly.co/public/boba-ethereum", "wss://boba-ethereum.gateway.tenderly.co/", "wss://gateway.tenderly.co/public/boba-ethereum"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -8849,7 +8849,7 @@
 }, {
   "name": "Boba Network Goerli Testnet",
   "chain": "ETH",
-  "rpc": ["https://goerli.boba.network/"],
+  "rpc": ["https://goerli.boba.network/", "wss://wss.goerli.boba.network/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Goerli Ether",
@@ -8857,7 +8857,7 @@
     "decimals": 18
   },
   "infoURL": "https://boba.network",
-  "shortName": "Bobagoerli",
+  "shortName": "BobaGoerli",
   "chainId": 2888,
   "networkId": 2888,
   "explorers": [{
@@ -8869,7 +8869,7 @@
     "type": "L2",
     "chain": "eip155-5",
     "bridges": [{
-      "url": "https://gateway.goerli.boba.network"
+      "url": "https://gateway.boba.network"
     }]
   }
 }, {
@@ -9792,7 +9792,7 @@
 }, {
   "name": "Bobafuji Testnet",
   "chain": "Bobafuji Testnet",
-  "rpc": ["https://testnet.avax.boba.network", "wss://wss.testnet.avax.boba.network", "https://replica.testnet.avax.boba.network", "wss://replica-wss.testnet.avax.boba.network"],
+  "rpc": ["https://testnet.avax.boba.network", "wss://wss.testnet.avax.boba.network", "https://replica.testnet.avax.boba.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Boba Token",
@@ -9807,7 +9807,14 @@
     "name": "Bobafuji Testnet block explorer",
     "url": "https://blockexplorer.testnet.avax.boba.network",
     "standard": "none"
-  }]
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-5",
+    "bridges": [{
+      "url": "https://gateway.boba.network"
+    }]
+  }
 }, {
   "name": "Htmlcoin Mainnet",
   "chain": "mainnet",
@@ -11836,7 +11843,14 @@
     "name": "Boba BNB Testnet block explorer",
     "url": "https://blockexplorer.testnet.bnb.boba.network",
     "standard": "none"
-  }]
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-5",
+    "bridges": [{
+      "url": "https://gateway.boba.network"
+    }]
+  }
 }, {
   "name": "MainnetZ Testnet",
   "chain": "NetZ",
@@ -14214,7 +14228,7 @@
 }, {
   "name": "Boba BNB Mainnet",
   "chain": "Boba BNB Mainnet",
-  "rpc": ["https://bnb.boba.network", "wss://wss.bnb.boba.network", "https://replica.bnb.boba.network", "wss://replica-wss.bnb.boba.network"],
+  "rpc": ["https://bnb.boba.network", "http://boba-bnb.gateway.tenderly.co/", "http://gateway.tenderly.co/public/boba-bnb", "https://replica.bnb.boba.network", "wss://boba-bnb.gateway.tenderly.co/", "wss://gateway.tenderly.co/public/boba-bnb"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Boba Token",
@@ -14229,7 +14243,14 @@
     "name": "Boba BNB block explorer",
     "url": "https://blockexplorer.bnb.boba.network",
     "standard": "none"
-  }]
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-5",
+    "bridges": [{
+      "url": "https://gateway.boba.network"
+    }]
+  }
 }, {
   "name": "Rollux Testnet",
   "chain": "SYS",
