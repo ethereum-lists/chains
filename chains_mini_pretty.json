@@ -9385,6 +9385,19 @@
   "faucets": ["https://rollux.id/faucetapp"],
   "infoURL": "https://rollux.com"
 }, {
+  "name": "Sepolia PGN (Public Goods Network)",
+  "chainId": 58008,
+  "shortName": "sepPGN",
+  "networkId": 58008,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia.publicgoods.network"],
+  "faucets": [],
+  "infoURL": "https://publicgoods.network/"
+}, {
   "name": "Linea Testnet",
   "chainId": 59140,
   "shortName": "linea-testnet",
