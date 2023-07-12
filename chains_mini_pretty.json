@@ -2716,6 +2716,19 @@
   "faucets": [],
   "infoURL": "https://optimism.io"
 }, {
+  "name": "PGN (Public Goods Network)",
+  "chainId": 424,
+  "shortName": "PGN",
+  "networkId": 424,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.publicgoods.network"],
+  "faucets": [],
+  "infoURL": "https://publicgoods.network/"
+}, {
   "name": "Zeeth Chain",
   "chainId": 427,
   "shortName": "zeeth",
