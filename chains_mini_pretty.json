@@ -8514,6 +8514,19 @@
   "faucets": [],
   "infoURL": "https://proofofmemes.org"
 }, {
+  "name": "MXC zkEVM Mainnet",
+  "chainId": 18686,
+  "shortName": "MXCzkEVM",
+  "networkId": 18686,
+  "nativeCurrency": {
+    "name": "MXC zkEVM Mainnet",
+    "symbol": "MXC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mxc.com"],
+  "faucets": [],
+  "infoURL": "https://doc.mxc.com/docs/intro"
+}, {
   "name": "HOME Verse Mainnet",
   "chainId": 19011,
   "shortName": "HMV",
