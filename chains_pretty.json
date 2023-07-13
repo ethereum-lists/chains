@@ -11339,7 +11339,7 @@
 }, {
   "name": "Base",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": ["https://developer-access-mainnet.base.org/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -11350,7 +11350,17 @@
   "shortName": "base",
   "chainId": 8453,
   "networkId": 8453,
-  "status": "incubating"
+  "icon": "base",
+  "explorers": [{
+    "name": "basescan",
+    "url": "https://basescan.org",
+    "standard": "none"
+  }, {
+    "name": "basescout",
+    "url": "https://base.blockscout.com",
+    "standard": "none"
+  }],
+  "status": "active"
 }, {
   "name": "Toki Network",
   "chain": "TOKI",
@@ -15156,6 +15166,7 @@
   "shortName": "basegor",
   "chainId": 84531,
   "networkId": 84531,
+  "icon": "baseTestnet",
   "explorers": [{
     "name": "basescan",
     "url": "https://goerli.basescan.org",
