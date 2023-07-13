@@ -8670,6 +8670,19 @@
   "faucets": [],
   "infoURL": "https://maplabs.io"
 }, {
+  "name": "Antofy Testnet",
+  "chainId": 23006,
+  "shortName": "ABNt",
+  "networkId": 23006,
+  "nativeCurrency": {
+    "name": "Antofy",
+    "symbol": "ABN",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.antofy.io"],
+  "faucets": ["https://faucet.antofy.io"],
+  "infoURL": "https://antofy.io"
+}, {
   "name": "Opside Testnet",
   "chainId": 23118,
   "shortName": "opside",
