@@ -9359,6 +9359,19 @@
   "faucets": ["https://testedge2.haqq.network"],
   "infoURL": "https://islamiccoin.net"
 }, {
+  "name": "Toronet Testnet",
+  "chainId": 54321,
+  "shortName": "ToronetTestnet",
+  "networkId": 54321,
+  "nativeCurrency": {
+    "name": "Toro",
+    "symbol": "TORO",
+    "decimals": 18
+  },
+  "rpc": ["http://testnet.toronet.org/rpc"],
+  "faucets": [],
+  "infoURL": "https://toronet.org"
+}, {
   "name": "Titan",
   "chainId": 55004,
   "shortName": "teth",
@@ -9800,6 +9813,19 @@
   "rpc": ["https://mainnet-rpc.vention.network"],
   "faucets": ["https://faucet.vention.network"],
   "infoURL": "https://ventionscan.io"
+}, {
+  "name": "Toronet Mainnet",
+  "chainId": 77777,
+  "shortName": "Toronet",
+  "networkId": 77777,
+  "nativeCurrency": {
+    "name": "Toro",
+    "symbol": "TORO",
+    "decimals": 18
+  },
+  "rpc": ["http://toronet.org/rpc"],
+  "faucets": [],
+  "infoURL": "https://toronet.org"
 }, {
   "name": "Firenze test network",
   "chainId": 78110,

@@ -14250,6 +14250,29 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Toronet Testnet",
+  "chain": "Toronet",
+  "icon": "toronet",
+  "rpc": ["http://testnet.toronet.org/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Toro",
+    "symbol": "TORO",
+    "decimals": 18
+  },
+  "infoURL": "https://toronet.org",
+  "shortName": "ToronetTestnet",
+  "chainId": 54321,
+  "networkId": 54321,
+  "ens": {
+    "registry": "0x059C474f26D65B0458F9da10A649a7322aB02C09"
+  },
+  "explorers": [{
+    "name": "toronet_explorer",
+    "url": "https://testnet.toronet.org",
+    "standard": "none"
+  }]
+}, {
   "name": "Titan",
   "chain": "ETH",
   "rpc": ["https://rpc.titan.tokamak.network", "wss://rpc.titan.tokamak.network/ws"],
@@ -14931,6 +14954,29 @@
     "name": "ventionscan",
     "url": "https://ventionscan.io",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Toronet Mainnet",
+  "chain": "Toronet",
+  "icon": "toronet",
+  "rpc": ["http://toronet.org/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Toro",
+    "symbol": "TORO",
+    "decimals": 18
+  },
+  "infoURL": "https://toronet.org",
+  "shortName": "Toronet",
+  "chainId": 77777,
+  "networkId": 77777,
+  "ens": {
+    "registry": "0x1f45a71f4aAD769E27c969c4359E0e250C67165c"
+  },
+  "explorers": [{
+    "name": "toronet_explorer",
+    "url": "https://toronet.org/explorer",
+    "standard": "none"
   }]
 }, {
   "name": "Firenze test network",
