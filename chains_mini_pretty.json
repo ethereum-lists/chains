@@ -6239,6 +6239,19 @@
   "faucets": ["https://faucet.senjepowersscan.com"],
   "infoURL": "https://senjepowersscan.com"
 }, {
+  "name": "SenjePowers Mainnet",
+  "chainId": 3699,
+  "shortName": "SPCm",
+  "networkId": 3699,
+  "nativeCurrency": {
+    "name": "SenjePowers",
+    "symbol": "SPC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.senjepowersscan.com"],
+  "faucets": ["https://faucet.senjepowersscan.com"],
+  "infoURL": "https://senjepowersscan.com"
+}, {
   "name": "Crossbell",
   "chainId": 3737,
   "shortName": "csb",
