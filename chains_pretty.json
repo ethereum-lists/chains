@@ -10789,6 +10789,26 @@
     "standard": "none"
   }]
 }, {
+  "name": "Bitrock Mainnet",
+  "chain": "Bitrock",
+  "icon": "bitrock",
+  "rpc": ["https://connect.bit-rock.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BITROCK",
+    "symbol": "BROCK",
+    "decimals": 18
+  },
+  "infoURL": "https://bit-rock.io",
+  "shortName": "bitrock",
+  "chainId": 7171,
+  "networkId": 7171,
+  "explorers": [{
+    "name": "Bitrock Explorer",
+    "url": "https://scan.bit-rock.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "KLYNTAR",
   "chain": "KLY",
   "rpc": ["https://evm.klyntar.org/kly_evm_rpc", "https://evm.klyntarscan.org/kly_evm_rpc"],
@@ -10995,6 +11015,26 @@
     "name": "Canto Testnet EVM Explorer (Blockscout)",
     "url": "https://testnet.tuber.build",
     "standard": "none"
+  }]
+}, {
+  "name": "Bitrock Testnet",
+  "chain": "Bitrock",
+  "icon": "bitrock",
+  "rpc": ["https://testnet.bit-rock.io"],
+  "faucets": ["https://faucet.bit-rock.io"],
+  "nativeCurrency": {
+    "name": "BITROCK",
+    "symbol": "BROCK",
+    "decimals": 18
+  },
+  "infoURL": "https://bit-rock.io",
+  "shortName": "tbitrock",
+  "chainId": 7771,
+  "networkId": 7771,
+  "explorers": [{
+    "name": "Bitrock Testnet Explorer",
+    "url": "https://testnetscan.bit-rock.io",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Rise of the Warbots Testnet",

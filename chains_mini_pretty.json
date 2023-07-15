@@ -7097,6 +7097,19 @@
   "faucets": [],
   "infoURL": "https://planq.network"
 }, {
+  "name": "Bitrock Mainnet",
+  "chainId": 7171,
+  "shortName": "bitrock",
+  "networkId": 7171,
+  "nativeCurrency": {
+    "name": "BITROCK",
+    "symbol": "BROCK",
+    "decimals": 18
+  },
+  "rpc": ["https://connect.bit-rock.io"],
+  "faucets": [],
+  "infoURL": "https://bit-rock.io"
+}, {
   "name": "KLYNTAR",
   "chainId": 7331,
   "shortName": "kly",
@@ -7226,6 +7239,19 @@
   "rpc": ["https://testnet-archive.plexnode.wtf"],
   "faucets": [],
   "infoURL": "https://canto.io"
+}, {
+  "name": "Bitrock Testnet",
+  "chainId": 7771,
+  "shortName": "tbitrock",
+  "networkId": 7771,
+  "nativeCurrency": {
+    "name": "BITROCK",
+    "symbol": "BROCK",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.bit-rock.io"],
+  "faucets": ["https://faucet.bit-rock.io"],
+  "infoURL": "https://bit-rock.io"
 }, {
   "name": "Rise of the Warbots Testnet",
   "chainId": 7777,
