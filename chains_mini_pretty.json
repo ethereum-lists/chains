@@ -5771,10 +5771,23 @@
   "faucets": ["https://airdrop.somanetwork.io"],
   "infoURL": "https://somanetwork.io"
 }, {
-  "name": "Kroma Sepolia",
+  "name": "(deprecated) Kroma Sepolia",
   "chainId": 2357,
-  "shortName": "kroma-sepolia",
+  "shortName": "deprecated-kroma-sepolia",
   "networkId": 2357,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://api.sepolia-deprecated.kroma.network"],
+  "faucets": [],
+  "infoURL": "https://kroma.network"
+}, {
+  "name": "Kroma Sepolia",
+  "chainId": 2358,
+  "shortName": "kroma-sepolia",
+  "networkId": 2358,
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
