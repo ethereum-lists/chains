@@ -2,7 +2,7 @@
   "name": "(deprecated) Kroma Sepolia",
   "title": "(deprecated) Kroma Testnet Sepolia",
   "chainId": 2357,
-  "shortName": "kroma-sepolia",
+  "shortName": "deprecated-kroma-sepolia",
   "chain": "ETH",
   "networkId": 2357,
   "nativeCurrency": {
@@ -26,5 +26,6 @@
     "type": "L2",
     "chain": "eip155-11155111",
     "bridges": [{ "url": "https://kroma.network/bridge" }]
-  }
+  },
+  "status": "deprecated"
 }
