@@ -2300,6 +2300,19 @@
   "faucets": ["https://myhpbwallet.com/"],
   "infoURL": "https://hpb.io"
 }, {
+  "name": "EgonCoin Mainnet",
+  "chainId": 271,
+  "shortName": "EGONm",
+  "networkId": 271,
+  "nativeCurrency": {
+    "name": "EgonCoin",
+    "symbol": "EGON",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.egcscan.com"],
+  "faucets": ["https://faucet.egcscan.com"],
+  "infoURL": "https://egcscan.com"
+}, {
   "name": "LaChain",
   "chainId": 274,
   "shortName": "lachain",
@@ -10801,6 +10814,19 @@
   "rpc": ["https://gzn-test.linksme.info"],
   "faucets": [],
   "infoURL": "https://token.gearzero.ca/testnet"
+}, {
+  "name": "EgonCoin Testnet",
+  "chainId": 271271,
+  "shortName": "EGONt",
+  "networkId": 271271,
+  "nativeCurrency": {
+    "name": "EgonCoin",
+    "symbol": "EGON",
+    "decimals": 18
+  },
+  "rpc": ["https://rpctest.egcscan.com"],
+  "faucets": ["https://faucet.egcscan.com"],
+  "infoURL": "https://egcscan.com"
 }, {
   "name": "Social Smart Chain Mainnet",
   "chainId": 281121,
