@@ -1,22 +1,22 @@
 {
-  "name": "Shibarium Dev",
-  "chain": "Shibarium Dev",
-  "icon": "dev-shibarium",
-  "rpc": ["https://dev.puppynet.shibrpc.com"],
+  "name": "Shibarium",
+  "chain": "Shibarium",
+  "icon": "shibarium",
+  "rpc": ["https://shibrpc.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BONE",
     "symbol": "BONE",
     "decimals": 18
   },
-  "infoURL": "https://beta.devshibariumtech.com",
-  "shortName": "dev-shibarium",
+  "infoURL": "https://shibariumtech.com",
+  "shortName": "shibariumtech",
   "chainId": 109,
   "networkId": 109,
   "explorers": [
     {
-      "name": "dev-shibscan",
-      "url": "https://dev.puppyscan.shib.io",
+      "name": "shibariumscan",
+      "url": "http://shibariumscan.com",
       "standard": "EIP3091"
     }
   ]
