@@ -1,0 +1,23 @@
+{
+  "name": "Lucid Blockchain",
+  "chain": "Lucid",
+  "icon": "lucid",
+  "rpc": ["https://rpc.lucidcoin.io"],
+  "faucets": ["https://faucet.lucidcoin.io"],
+  "nativeCurrency": {
+    "name": "LUCID",
+    "symbol": "LUCID",
+    "decimals": 18
+  },
+  "infoURL": "https://lucidcoin.io",
+  "shortName": "LUCID",
+  "chainId": 800,
+  "networkId": 800,
+  "explorers": [
+    {
+      "name": "Lucid Explorer",
+      "url": "https://explorer.lucidcoin.io",
+      "standard": "none"
+    }
+  ]
+}

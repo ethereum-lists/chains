@@ -1,7 +1,8 @@
 {
-  "name": "Shardeum Liberty 2.0",
+  "name": "Shardeum Liberty 2.X",
   "chain": "Shardeum",
-  "rpc": [],
+  "icon": "shardeum",
+  "rpc": ["https://liberty20.shardeum.org/"],
   "faucets": ["https://faucet.liberty20.shardeum.org"],
   "nativeCurrency": {
     "name": "Shardeum SHM",
@@ -14,7 +15,7 @@
   "networkId": 8081,
   "explorers": [
     {
-      "name": "Sharedum Scan",
+      "name": "Shardeum Scan",
       "url": "https://explorer-liberty20.shardeum.org",
       "standard": "EIP3091"
     }

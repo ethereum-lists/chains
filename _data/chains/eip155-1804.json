@@ -1,0 +1,31 @@
+{
+  "name": "Kerleano",
+  "title": "Proof of Climate awaReness testnet",
+  "chain": "CRC",
+  "status": "active",
+  "rpc": [
+    "https://cacib-saturn-test.francecentral.cloudapp.azure.com",
+    "wss://cacib-saturn-test.francecentral.cloudapp.azure.com:9443"
+  ],
+  "faucets": [
+    "https://github.com/ethereum-pocr/kerleano/blob/main/docs/faucet.md"
+  ],
+  "nativeCurrency": {
+    "name": "Climate awaReness Coin",
+    "symbol": "CRC",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/ethereum-pocr/kerleano",
+  "shortName": "kerleano",
+  "chainId": 1804,
+  "networkId": 1804,
+  "icon": "pocr",
+  "explorers": [
+    {
+      "name": "Lite Explorer",
+      "url": "https://ethereum-pocr.github.io/explorer/kerleano",
+      "icon": "pocr",
+      "standard": "EIP3091"
+    }
+  ]
+}
