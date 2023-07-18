@@ -14,11 +14,9 @@
   "shortName": "SPAY",
   "chainId": 742,
   "networkId": 742,
-  "icon": "ethereum",
   "explorers": [{
     "name": "Script Explorer",
-    "url": "https://explorer.script.tv/",
-    "icon": "etherscan",
+    "url": "https://explorer.script.tv",
     "standard": "EIP3091"
   }]
 }
