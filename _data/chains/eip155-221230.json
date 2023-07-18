@@ -17,10 +17,12 @@
   "chainId": 221230,
   "networkId": 221230,
   "icon": "reapchain",
-  "explorers": [{
-    "name": "Reapchain Dashboard",
-    "url": "https://dashboard.reapchain.org",
-    "icon": "reapchain",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "Reapchain Dashboard",
+      "url": "https://dashboard.reapchain.org",
+      "icon": "reapchain",
+      "standard": "none"
+    }
+  ]
 }
