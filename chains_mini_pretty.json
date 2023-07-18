@@ -5641,6 +5641,19 @@
   "faucets": ["https://multiverse.moonsama.com/faucet"],
   "infoURL": "https://moonsama.com"
 }, {
+  "name": "Antofy Mainnet",
+  "chainId": 2202,
+  "shortName": "ABNm",
+  "networkId": 2202,
+  "nativeCurrency": {
+    "name": "Antofy",
+    "symbol": "ABN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.antofy.io"],
+  "faucets": ["https://faucet.antofy.io"],
+  "infoURL": "https://antofy.io"
+}, {
   "name": "Bitcoin EVM",
   "chainId": 2203,
   "shortName": "BTC",
