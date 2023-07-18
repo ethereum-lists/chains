@@ -7292,6 +7292,19 @@
   "faucets": ["https://faucet.hazlor.com"],
   "infoURL": "https://hazlor.com"
 }, {
+  "name": "ARDENIUM Athena",
+  "chainId": 7895,
+  "shortName": "ard",
+  "networkId": 7895,
+  "nativeCurrency": {
+    "name": "ARD",
+    "symbol": "tARD",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-athena.ardescan.com/"],
+  "faucets": ["https://faucet-athena.ardescan.com/"],
+  "infoURL": "https://ardenium.org"
+}, {
   "name": "DOS Chain",
   "chainId": 7979,
   "shortName": "dos",
