@@ -10646,9 +10646,9 @@
   "faucets": [],
   "infoURL": "https://taiko.xyz"
 }, {
-  "name": "Taiko (Alpha-3 Testnet)",
+  "name": "Taiko Grimsvotn L2",
   "chainId": 167005,
-  "shortName": "taiko-a3",
+  "shortName": "taiko-l2",
   "networkId": 167005,
   "nativeCurrency": {
     "name": "Ether",
@@ -10656,6 +10656,19 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.test.taiko.xyz"],
+  "faucets": [],
+  "infoURL": "https://taiko.xyz"
+}, {
+  "name": "Taiko Eldfell L3",
+  "chainId": 167006,
+  "shortName": "taiko-l3",
+  "networkId": 167006,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.l3test.taiko.xyz"],
   "faucets": [],
   "infoURL": "https://taiko.xyz"
 }, {
