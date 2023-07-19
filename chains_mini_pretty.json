@@ -7136,6 +7136,19 @@
   "faucets": [],
   "infoURL": "https://klyntar.org"
 }, {
+  "name": "Horizen EON",
+  "chainId": 7332,
+  "shortName": "EON",
+  "networkId": 7332,
+  "nativeCurrency": {
+    "name": "Zencash",
+    "symbol": "ZEN",
+    "decimals": 18
+  },
+  "rpc": ["https://eon-rpc.horizenlabs.io/ethv1"],
+  "faucets": [],
+  "infoURL": "https://horizen.io/"
+}, {
   "name": "Shyft Mainnet",
   "chainId": 7341,
   "shortName": "shyft",
