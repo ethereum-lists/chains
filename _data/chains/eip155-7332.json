@@ -3,9 +3,7 @@
   "shortName": "EON",
   "chain": "EON",
   "icon": "eon",
-  "rpc": [
-    "https://eon-rpc.horizenlabs.io/ethv1"
-  ],
+  "rpc": ["https://eon-rpc.horizenlabs.io/ethv1"],
   "features": [
     {
       "name": "EIP155"
