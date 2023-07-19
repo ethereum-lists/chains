@@ -2,9 +2,8 @@
   "name": "MaxxChain Mainnet",
   "chain": "MaxxChain",
   "rpc": [
-    "https://rpc.maxxchain.org",
-    "https://rpc1.maxxchain.org",
-    "https://rpc2.maxxchain.org"
+    "https://mainrpc.maxxchain.org",
+    "https://mainrpc2.maxxchain.org"
   ],
   "faucets": ["https://faucet.maxxchain.org"],
   "nativeCurrency": {
@@ -20,7 +19,12 @@
   "explorers": [
     {
       "name": "MaxxChain Block Explorer",
-      "url": "https://explorer.maxxchain.org",
+      "url": "https://scan.maxxchain.org",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "MaxxChain Testnet Block Explorer",
+      "url": "https://testexplorer.maxxchain.org",
       "standard": "EIP3091"
     }
   ]
