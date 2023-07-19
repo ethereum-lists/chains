@@ -3,7 +3,6 @@
     "chain": "PEER",
     "rpc": ["http://testnet-polka-host-232813573.us-west-1.elb.amazonaws.com"],
     "faucets": ["https://testnet.peer.inc"],
-
     "nativeCurrency": {
       "name": "PEER Token",
       "symbol": "PEER",
