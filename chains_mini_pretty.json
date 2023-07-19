@@ -7877,6 +7877,19 @@
   "faucets": ["https://faucet.thefirechain.com"],
   "infoURL": "https://thefirechain.com"
 }, {
+  "name": "Codefin Mainnet",
+  "chainId": 9223,
+  "shortName": "COF",
+  "networkId": 9223,
+  "nativeCurrency": {
+    "name": "Codefin",
+    "symbol": "COF",
+    "decimals": 18
+  },
+  "rpc": ["https://chain-rpc.codefin.pro"],
+  "faucets": [],
+  "infoURL": "https://network.codefin.pro"
+}, {
   "name": "Dogcoin Testnet",
   "chainId": 9339,
   "shortName": "DOGSt",
