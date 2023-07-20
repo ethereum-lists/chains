@@ -1,0 +1,28 @@
+{
+  "name": "ShimmerEVM Testnet Deprecated",
+  "title": "ShimmerEVM Testnet Deprecated",
+  "chain": "ShimmerEVM",
+  "icon": "shimmerevm",
+  "rpc": [],
+  "faucets": [
+    "https://evm-toolkit.evm.testnet.shimmer.network",
+    "https://evm-faucet.testnet.shimmer.network"
+  ],
+  "nativeCurrency": {
+    "name": "SMR",
+    "symbol": "SMR",
+    "decimals": 18
+  },
+  "infoURL": "https://shimmer.network",
+  "shortName": "shimmerevm-testnet-deprecated",
+  "chainId": 1071,
+  "networkId": 1071,
+  "explorers": [
+    {
+      "name": "explorer",
+      "url": "https://explorer.evm.testnet.shimmer.network",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "deprecated"
+}

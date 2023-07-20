@@ -1,0 +1,27 @@
+{
+  "name": "Wireshape Floripa Testnet",
+  "title": "Wireshape Floripa Testnet",
+  "chain": "Wireshape",
+  "icon": "wireshape",
+  "rpc": [
+    "https://rpc-floripa.wireshape.org",
+    "https://wireshape-floripa-testnet.rpc.thirdweb.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WIRE",
+    "symbol": "WIRE",
+    "decimals": 18
+  },
+  "infoURL": "https://wireshape.org",
+  "shortName": "floripa",
+  "chainId": 49049,
+  "networkId": 49049,
+  "explorers": [
+    {
+      "name": "Wire Explorer",
+      "url": "https://floripa-explorer.wireshape.org",
+      "standard": "EIP3091"
+    }
+  ]
+}

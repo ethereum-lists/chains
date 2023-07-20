@@ -1,0 +1,27 @@
+{
+  "name": "Horizen Yuma Testnet Deprecated",
+  "shortName": "Yuma",
+  "chain": "Yuma",
+  "icon": "eon",
+  "rpc": [],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Testnet Zen",
+    "symbol": "tZEN",
+    "decimals": 18
+  },
+  "infoURL": "https://horizen.io/",
+  "chainId": 1662,
+  "networkId": 1662,
+  "slip44": 121,
+  "explorers": [],
+  "status": "deprecated"
+}

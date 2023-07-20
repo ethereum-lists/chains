@@ -1,11 +1,10 @@
 {
-  "name": "Boba Network Bobafuji Testnet",
+  "name": "Bobafuji Testnet",
   "chain": "Bobafuji Testnet",
   "rpc": [
     "https://testnet.avax.boba.network",
     "wss://wss.testnet.avax.boba.network",
-    "https://replica.testnet.avax.boba.network",
-    "wss://replica-wss.testnet.avax.boba.network"
+    "https://replica.testnet.avax.boba.network"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -14,7 +13,7 @@
     "decimals": 18
   },
   "infoURL": "https://boba.network",
-  "shortName": "BobafujiTestnet",
+  "shortName": "BobaFujiTestnet",
   "chainId": 4328,
   "networkId": 4328,
   "explorers": [
@@ -23,5 +22,14 @@
       "url": "https://blockexplorer.testnet.avax.boba.network",
       "standard": "none"
     }
-  ]
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-5",
+    "bridges": [
+      {
+        "url": "https://gateway.boba.network"
+      }
+    ]
+  }
 }
