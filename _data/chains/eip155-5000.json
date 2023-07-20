@@ -1,6 +1,7 @@
 {
   "name": "Mantle",
   "chain": "ETH",
+  "icon": "mantle",
   "rpc": ["https://rpc.mantle.xyz"],
   "faucets": [],
   "nativeCurrency": {
@@ -18,5 +19,10 @@
       "url": "https://explorer.mantle.xyz",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.mantle.xyz" }]
+  }
 }
