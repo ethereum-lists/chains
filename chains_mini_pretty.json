@@ -3223,6 +3223,19 @@
   "faucets": ["https://faucet.vention.network"],
   "infoURL": "https://testnet.ventionscan.io"
 }, {
+  "name": "Script Testnet",
+  "chainId": 742,
+  "shortName": "SPAY",
+  "networkId": 742,
+  "nativeCurrency": {
+    "name": "Script",
+    "symbol": "SPAY",
+    "decimals": 18
+  },
+  "rpc": ["https://testeth-rpc-api.script.tv/rpc"],
+  "faucets": [],
+  "infoURL": "https://token.script.tv"
+}, {
   "name": "QL1",
   "chainId": 766,
   "shortName": "qom",
