@@ -1,9 +1,7 @@
 {
   "name": "Script Testnet",
   "chain": "SPAY",
-  "rpc": [
-    "https://testeth-rpc-api.script.tv/rpc"
-  ],
+  "rpc": ["https://testeth-rpc-api.script.tv/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Script",
@@ -14,9 +12,11 @@
   "shortName": "SPAY",
   "chainId": 742,
   "networkId": 742,
-  "explorers": [{
-    "name": "Script Explorer",
-    "url": "https://explorer.script.tv",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "Script Explorer",
+      "url": "https://explorer.script.tv",
+      "standard": "none"
+    }
+  ]
 }
