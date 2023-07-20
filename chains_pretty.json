@@ -7323,7 +7323,12 @@
   "infoURL": "https://blockchain.or.th",
   "shortName": "TBSI",
   "chainId": 1707,
-  "networkId": 1707
+  "networkId": 1707,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://exp.blockchain.or.th",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "TBSI Testnet",
   "title": "Thai Blockchain Service Infrastructure Testnet",
@@ -7338,7 +7343,12 @@
   "infoURL": "https://blockchain.or.th",
   "shortName": "tTBSI",
   "chainId": 1708,
-  "networkId": 1708
+  "networkId": 1708,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://exp.testnet.blockchain.or.th",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Palette Chain Mainnet",
   "chain": "PLT",
