@@ -6707,6 +6707,32 @@
   "faucets": ["https://faucet.testnet.mantle.xyz"],
   "infoURL": "https://mantle.xyz"
 }, {
+  "name": "Treasurenet Mainnet Alpha",
+  "chainId": 5002,
+  "shortName": "treasurenet",
+  "networkId": 5002,
+  "nativeCurrency": {
+    "name": "UNIT",
+    "symbol": "UNIT",
+    "decimals": 18
+  },
+  "rpc": ["https://node0.treasurenet.io", "https://node1.treasurenet.io", "https://node2.treasurenet.io", "https://node3.treasurenet.io"],
+  "faucets": [],
+  "infoURL": "https://www.treasurenet.io"
+}, {
+  "name": "Treasurenet Testnet",
+  "chainId": 5005,
+  "shortName": "tntest",
+  "networkId": 5005,
+  "nativeCurrency": {
+    "name": "UNIT",
+    "symbol": "UNIT",
+    "decimals": 18
+  },
+  "rpc": ["https://node0.testnet.treasurenet.io", "https://node1.testnet.treasurenet.io", "https://node2.testnet.treasurenet.io", "https://node3.testnet.treasurenet.io"],
+  "faucets": [],
+  "infoURL": "https://www.testnet.treasurenet.io"
+}, {
   "name": "Fastex Chain (Bahamut)",
   "chainId": 5165,
   "shortName": "ftn",
