@@ -4,13 +4,13 @@
   "rpc": ["https://test-rpc.reapchain.org"],
   "faucets": ["http://faucet.reapchain.com"],
   "nativeCurrency": {
-    "name": "Reap",
-    "symbol": "REAP",
+    "name": "test-Reap",
+    "symbol": "tREAP",
     "decimals": 18
   },
   "features": [],
   "infoURL": "https://reapchain.com",
-  "shortName": "reap",
+  "shortName": "reap-testnet",
   "chainId": 221231,
   "networkId": 221231,
   "icon": "reapchain",
