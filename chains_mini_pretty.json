@@ -3769,6 +3769,19 @@
   "faucets": [],
   "infoURL": "https://www.topnetwork.org/"
 }, {
+  "name": "eLiberty Mainnet",
+  "chainId": 990,
+  "shortName": "ELm",
+  "networkId": 990,
+  "nativeCurrency": {
+    "name": "eLiberty",
+    "symbol": "$EL",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.eliberty.ngo"],
+  "faucets": ["https://faucet.eliberty.ngo"],
+  "infoURL": "https://eliberty.ngo"
+}, {
   "name": "5ireChain Thunder",
   "chainId": 997,
   "shortName": "5ire",
@@ -10268,6 +10281,19 @@
   "rpc": [],
   "faucets": [],
   "infoURL": "https://boba.network"
+}, {
+  "name": "eLiberty Testnet",
+  "chainId": 99099,
+  "shortName": "ELt",
+  "networkId": 99099,
+  "nativeCurrency": {
+    "name": "eLiberty",
+    "symbol": "$EL",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.eliberty.ngo"],
+  "faucets": ["https://faucet.eliberty.ngo"],
+  "infoURL": "https://eliberty.ngo"
 }, {
   "name": "UB Smart Chain(testnet)",
   "chainId": 99998,
