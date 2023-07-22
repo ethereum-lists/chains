@@ -4060,6 +4060,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Pepe Chain Mainnet",
+  "chain": "PC",
+  "status": "active",
+  "icon": "pepechain",
+  "rpc": ["https://rpc.pepe-chain.vip"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Pepe",
+    "symbol": "PEPE",
+    "decimals": 18
+  },
+  "infoURL": "https://pepe-chain.vip",
+  "shortName": "pepe",
+  "chainId": 411,
+  "networkId": 411,
+  "explorers": [{
+    "name": "pepechain explorer",
+    "url": "https://explorer.pepe-chain.vip",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "SX Network Mainnet",
   "chain": "SX",
   "icon": "SX",

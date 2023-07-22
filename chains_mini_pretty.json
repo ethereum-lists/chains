@@ -2690,6 +2690,19 @@
   "faucets": [],
   "infoURL": "https://ozonechain.io"
 }, {
+  "name": "Pepe Chain Mainnet",
+  "chainId": 411,
+  "shortName": "pepe",
+  "networkId": 411,
+  "nativeCurrency": {
+    "name": "Pepe",
+    "symbol": "PEPE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.pepe-chain.vip"],
+  "faucets": [],
+  "infoURL": "https://pepe-chain.vip"
+}, {
   "name": "SX Network Mainnet",
   "chainId": 416,
   "shortName": "SX",
