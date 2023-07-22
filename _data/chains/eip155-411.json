@@ -4,7 +4,7 @@
   "status": "active",
   "icon": "pepechain",
   "rpc": [
-    "https://rpc.pepe-chain.vip/"
+    "https://rpc.pepe-chain.vip"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -12,14 +12,14 @@
     "symbol": "PEPE",
     "decimals": 18
   },
-  "infoURL": "https://pepe-chain.vip/",
+  "infoURL": "https://pepe-chain.vip",
   "shortName": "pc",
   "chainId": 411,
   "networkId": 411,
   "explorers": [
     {
       "name": "pepechain explorer",
-      "url": "https://explorer.pepe-chain.vip/",
+      "url": "https://explorer.pepe-chain.vip",
       "standard": "EIP3091"
     }
   ]
