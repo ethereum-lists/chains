@@ -14764,7 +14764,7 @@
   "name": "Linea Testnet",
   "title": "Linea Goerli Testnet",
   "chain": "ETH",
-  "rpc": ["https://rpc.goerli.linea.build", "wss://rpc.goerli.linea.build", "https://linea-goerli.infura.io/v3/${INFURA_API_KEY}", "wss://linea-goerli.infura.io/v3/${INFURA_API_KEY}"],
+  "rpc": ["https://rpc.goerli.linea.build", "wss://rpc.goerli.linea.build", "https://linea-goerli.infura.io/v3/${INFURA_API_KEY}", "wss://linea-goerli.infura.io/ws/v3/${INFURA_API_KEY}"],
   "faucets": ["https://faucetlink.to/goerli"],
   "nativeCurrency": {
     "name": "Linea Ether",
@@ -14784,8 +14784,48 @@
     }]
   },
   "explorers": [{
-    "name": "blockscout",
+    "name": "Etherscan",
+    "url": "https://goerli.lineascan.build",
+    "standard": "EIP3091",
+    "icon": "linea"
+  }, {
+    "name": "Blockscout",
     "url": "https://explorer.goerli.linea.build",
+    "standard": "EIP3091",
+    "icon": "linea"
+  }],
+  "status": "active"
+}, {
+  "name": "Linea",
+  "title": "Linea Mainnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc.linea.build", "wss://rpc.linea.build", "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://linea-mainnet.infura.io/ws/v3/${INFURA_API_KEY}"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Linea Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://linea.build",
+  "shortName": "linea",
+  "chainId": 59144,
+  "networkId": 59144,
+  "icon": "linea",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://bridge.linea.build"
+    }]
+  },
+  "explorers": [{
+    "name": "Etherscan",
+    "url": "https://lineascan.build",
+    "standard": "EIP3091",
+    "icon": "linea"
+  }, {
+    "name": "Blockscout",
+    "url": "https://explorer.linea.build",
     "standard": "EIP3091",
     "icon": "linea"
   }],
