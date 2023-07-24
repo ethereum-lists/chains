@@ -9320,6 +9320,19 @@
   "faucets": [],
   "infoURL": "https://docs.oasis.io/dapp/emerald"
 }, {
+  "name": "Kinto Testnet",
+  "chainId": 42888,
+  "shortName": "keth",
+  "networkId": 42888,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["http://35.215.120.180:8545"],
+  "faucets": [],
+  "infoURL": "https://ethereum.org"
+}, {
   "name": "Athereum",
   "chainId": 43110,
   "shortName": "avaeth",
