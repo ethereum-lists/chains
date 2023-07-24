@@ -3025,6 +3025,25 @@
   "chainId": 208,
   "networkId": 208
 }, {
+  "name": "Bitnet",
+  "chain": "BTN",
+  "rpc": ["http://rpc.bitnet.money"],
+  "faucets": ["https://bitnet.money/forum/showthread.php?tid=2"],
+  "nativeCurrency": {
+    "name": "Bitnet",
+    "symbol": "BTN",
+    "decimals": 18
+  },
+  "infoURL": "https://bitnet.money",
+  "shortName": "BTN",
+  "chainId": 210,
+  "networkId": 210,
+  "explorers": [{
+    "name": "Bitnet Explorer",
+    "url": "https://btnscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Freight Trust Network",
   "chain": "EDI",
   "rpc": ["http://13.57.207.168:3435", "https://app.freighttrust.net/ftn/${API_KEY}"],

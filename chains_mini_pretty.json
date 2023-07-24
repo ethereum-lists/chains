@@ -2066,6 +2066,19 @@
   "faucets": [],
   "infoURL": "https://structx.io"
 }, {
+  "name": "Bitnet",
+  "chainId": 210,
+  "shortName": "BTN",
+  "networkId": 210,
+  "nativeCurrency": {
+    "name": "Bitnet",
+    "symbol": "BTN",
+    "decimals": 18
+  },
+  "rpc": ["http://rpc.bitnet.money"],
+  "faucets": ["https://bitnet.money/forum/showthread.php?tid=2"],
+  "infoURL": "https://bitnet.money"
+}, {
   "name": "Freight Trust Network",
   "chainId": 211,
   "shortName": "EDI",
