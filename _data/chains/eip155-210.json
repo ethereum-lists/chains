@@ -3,7 +3,7 @@
   "chain": "BTN",
   "icon": "bitnet",
   "rpc": [
-    "http://rpc.bitnet.money/"
+    "http://rpc.bitnet.money"
   ],
   "faucets": [""],
   "nativeCurrency": {
@@ -11,14 +11,14 @@
     "symbol": "BTN",
     "decimals": 18
   },
-  "infoURL": "https://bitnet.money/",
+  "infoURL": "https://bitnet.money",
   "shortName": "BTN",
   "chainId": 210,
   "networkId": 210,
   "explorers": [
     {
       "name": "Bitnet Explorer",
-      "url": "https://btnscan.com/",
+      "url": "https://btnscan.com",
       "standard": "EIP3091"
     }
   ]
