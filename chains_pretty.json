@@ -18396,7 +18396,7 @@
   "name": "Sepolia",
   "title": "Ethereum Testnet Sepolia",
   "chain": "ETH",
-  "rpc": ["https://rpc.sepolia.org", "https://rpc2.sepolia.org", "https://rpc-sepolia.rockx.com"],
+  "rpc": ["https://rpc.sepolia.org", "https://rpc2.sepolia.org", "https://rpc-sepolia.rockx.com", "https://rpc.sepolia.ethpandaops.io", "https://sepolia.infura.io/v3/${INFURA_API_KEY}", "wss://sepolia.infura.io/v3/${INFURA_API_KEY}"],
   "faucets": ["http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"],
   "nativeCurrency": {
     "name": "Sepolia Ether",
