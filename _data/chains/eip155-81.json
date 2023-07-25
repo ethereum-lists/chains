@@ -1,9 +1,8 @@
-
 {
   "name": "Japan Open Chain Mainnet",
   "chain": "JOC",
   "rpc": [
-    "https://rpc-1.japanopenchain.org:8545", 
+    "https://rpc-1.japanopenchain.org:8545",
     "https://rpc-2.japanopenchain.org:8545"
   ],
   "faucets": [],
@@ -22,7 +21,7 @@
       "name": "Block Explorer",
       "url": "https://explorer.japanopenchain.org",
       "standard": "EIP3091",
-			"icon": "joc"
+      "icon": "joc"
     }
   ],
   "redFlags": ["reusedChainId"]
