@@ -29,6 +29,12 @@
       "name": "etherscan",
       "url": "https://etherscan.io",
       "standard": "EIP3091"
+    },
+    {
+      "name": "blockscout",
+      "url": "https://eth.blockscout.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
     }
   ]
 }
