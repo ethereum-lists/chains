@@ -10997,6 +10997,32 @@
   "faucets": [],
   "infoURL": "https://masterbank.org"
 }, {
+  "name": "Reapchain Mainnet",
+  "chainId": 221230,
+  "shortName": "reap",
+  "networkId": 221230,
+  "nativeCurrency": {
+    "name": "Reap",
+    "symbol": "REAP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.reapchain.org"],
+  "faucets": [],
+  "infoURL": "https://reapchain.com"
+}, {
+  "name": "Reapchain Testnet",
+  "chainId": 221231,
+  "shortName": "reap-testnet",
+  "networkId": 221231,
+  "nativeCurrency": {
+    "name": "test-Reap",
+    "symbol": "tREAP",
+    "decimals": 18
+  },
+  "rpc": ["https://test-rpc.reapchain.org"],
+  "faucets": ["http://faucet.reapchain.com"],
+  "infoURL": "https://reapchain.com"
+}, {
   "name": "Taf ECO Chain Mainnet",
   "chainId": 224168,
   "shortName": "TAFECO",
