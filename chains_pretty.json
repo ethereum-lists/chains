@@ -12339,6 +12339,46 @@
   "networkId": 9792,
   "explorers": []
 }, {
+  "name": "Mind Smart Chain Testnet",
+  "chain": "tMIND",
+  "icon": "mindchain",
+  "rpc": ["https://testnet-msc.mindchain.info/"],
+  "faucets": ["https://faucet.mindchain.info/"],
+  "nativeCurrency": {
+    "name": "MIND Coin",
+    "symbol": "tMIND",
+    "decimals": 18
+  },
+  "infoURL": "https://mindscan.info",
+  "shortName": "tMIND",
+  "chainId": 9977,
+  "networkId": 9977,
+  "explorers": [{
+    "name": "Mind Chain explorer",
+    "url": "https://testnet.mindscan.info",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Mind Smart Chain Mainnet",
+  "chain": "MIND",
+  "icon": "mindchain",
+  "rpc": ["https://rpc-msc.mindchain.info/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MIND Coin",
+    "symbol": "MIND",
+    "decimals": 18
+  },
+  "infoURL": "https://mindscan.info",
+  "shortName": "MIND",
+  "chainId": 9996,
+  "networkId": 9996,
+  "explorers": [{
+    "name": "Mind Chain explorer",
+    "url": "https://mainnet.mindscan.info",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "AltLayer Testnet",
   "chain": "ETH",
   "rpc": ["https://testnet-rollup-api.altlayer.io"],

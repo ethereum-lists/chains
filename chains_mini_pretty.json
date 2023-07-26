@@ -8111,6 +8111,32 @@
   "faucets": [],
   "infoURL": "https://carbon.network/"
 }, {
+  "name": "Mind Smart Chain Testnet",
+  "chainId": 9977,
+  "shortName": "tMIND",
+  "networkId": 9977,
+  "nativeCurrency": {
+    "name": "MIND Coin",
+    "symbol": "tMIND",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-msc.mindchain.info/"],
+  "faucets": ["https://faucet.mindchain.info/"],
+  "infoURL": "https://mindscan.info"
+}, {
+  "name": "Mind Smart Chain Mainnet",
+  "chainId": 9996,
+  "shortName": "MIND",
+  "networkId": 9996,
+  "nativeCurrency": {
+    "name": "MIND Coin",
+    "symbol": "MIND",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-msc.mindchain.info/"],
+  "faucets": [],
+  "infoURL": "https://mindscan.info"
+}, {
   "name": "AltLayer Testnet",
   "chainId": 9997,
   "shortName": "alt-testnet",
