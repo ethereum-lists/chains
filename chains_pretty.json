@@ -26,6 +26,11 @@
     "name": "etherscan",
     "url": "https://etherscan.io",
     "standard": "EIP3091"
+  }, {
+    "name": "blockscout",
+    "url": "https://eth.blockscout.com",
+    "icon": "blockscout",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Expanse Network",
@@ -109,6 +114,11 @@
   "explorers": [{
     "name": "etherscan-goerli",
     "url": "https://goerli.etherscan.io",
+    "standard": "EIP3091"
+  }, {
+    "name": "blockscout-goerli",
+    "url": "https://eth-goerli.blockscout.com",
+    "icon": "blockscout",
     "standard": "EIP3091"
   }]
 }, {
@@ -200,6 +210,11 @@
   "explorers": [{
     "name": "etherscan",
     "url": "https://optimistic.etherscan.io",
+    "standard": "EIP3091"
+  }, {
+    "name": "blockscout",
+    "url": "https://optimism.blockscout.com",
+    "icon": "blockscout",
     "standard": "EIP3091"
   }]
 }, {
@@ -1437,7 +1452,8 @@
   "explorers": [{
     "name": "blockscout",
     "url": "https://blockscout.com/poa/sokol",
-    "standard": "none"
+    "icon": "blockscout",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "PrimusChain mainnet",
@@ -1885,7 +1901,8 @@
   "explorers": [{
     "name": "blockscout",
     "url": "https://blockscout.com/poa/core",
-    "standard": "none"
+    "icon": "blockscout",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Gnosis",
@@ -1909,7 +1926,7 @@
     "standard": "EIP3091"
   }, {
     "name": "blockscout",
-    "url": "https://blockscout.com/xdai/mainnet",
+    "url": "https://gnosis.blockscout.com",
     "icon": "blockscout",
     "standard": "EIP3091"
   }]
@@ -3888,6 +3905,11 @@
     "url": "https://shiden.subscan.io",
     "standard": "none",
     "icon": "subscan"
+  }, {
+    "name": "blockscout",
+    "url": "https://blockscout.com/shiden",
+    "icon": "blockscout",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Cronos Testnet",
@@ -4159,7 +4181,13 @@
   "infoURL": "https://optimism.io",
   "shortName": "ogor",
   "chainId": 420,
-  "networkId": 420
+  "networkId": 420,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://optimism-goerli.blockscout.com",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "PGN (Public Goods Network)",
   "chain": "ETH",
@@ -4561,6 +4589,11 @@
     "url": "https://astar.subscan.io",
     "standard": "none",
     "icon": "subscan"
+  }, {
+    "name": "blockscout",
+    "url": "https://blockscout.com/astar",
+    "icon": "blockscout",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Acala Mandala Testnet",
@@ -10939,6 +10972,11 @@
     "name": "ZetaChain Athens Testnet Explorer",
     "url": "https://explorer.athens.zetachain.com",
     "standard": "none"
+  }, {
+    "name": "blockscout",
+    "url": "https://zetachain-athens-3.blockscout.com",
+    "icon": "blockscout",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Ella the heart",
@@ -11712,7 +11750,8 @@
   }, {
     "name": "basescout",
     "url": "https://base.blockscout.com",
-    "standard": "none"
+    "icon": "blockscout",
+    "standard": "EIP3091"
   }],
   "status": "active"
 }, {
@@ -12513,8 +12552,13 @@
   "chainId": 10200,
   "networkId": 10200,
   "explorers": [{
-    "name": "blockscout",
+    "name": "blockscout-chiadochain",
     "url": "https://blockscout.chiadochain.net",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }, {
+    "name": "blockscout",
+    "url": "https://gnosis-chiado.blockscout.com",
     "icon": "blockscout",
     "standard": "EIP3091"
   }]
@@ -15720,7 +15764,8 @@
   }, {
     "name": "basescout",
     "url": "https://base-goerli.blockscout.com",
-    "standard": "none"
+    "icon": "blockscout",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "CYBERTRUST",
@@ -18958,6 +19003,11 @@
   }, {
     "name": "neonscan",
     "url": "https://devnet.neonscan.org",
+    "standard": "EIP3091"
+  }, {
+    "name": "blockscout",
+    "url": "https://neon-devnet.blockscout.com",
+    "icon": "blockscout",
     "standard": "EIP3091"
   }]
 }, {
