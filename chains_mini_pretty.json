@@ -2075,8 +2075,8 @@
     "symbol": "BTN",
     "decimals": 18
   },
-  "rpc": ["https://rpc.bitnet.money"],
-  "faucets": ["https://bitnet.money/forum/showthread.php?tid=2"],
+  "rpc": ["https://rpc.bitnet.money", "https://rpc.btnscan.com"],
+  "faucets": [],
   "infoURL": "https://bitnet.money"
 }, {
   "name": "Freight Trust Network",
