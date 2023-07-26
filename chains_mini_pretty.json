@@ -8748,6 +8748,19 @@
   "faucets": [],
   "infoURL": "https://goexosphere.com"
 }, {
+  "name": "Smart Trade Networks",
+  "chainId": 18122,
+  "shortName": "STN",
+  "networkId": 18122,
+  "nativeCurrency": {
+    "name": "STN",
+    "symbol": "STN",
+    "decimals": 18
+  },
+  "rpc": ["https://beefledgerwallet.com:8544"],
+  "faucets": [],
+  "infoURL": "https://www.smarttradenetworks.com"
+}, {
   "name": "Proof Of Memes",
   "chainId": 18159,
   "shortName": "pom",
