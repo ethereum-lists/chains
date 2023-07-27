@@ -125,7 +125,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.optimism.io/"],
+  "rpc": ["https://mainnet.optimism.io", "https://optimism.publicnode.com"],
   "faucets": [],
   "infoURL": "https://optimism.io"
 }, {
@@ -2647,7 +2647,7 @@
     "symbol": "PLS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.pulsechain.com/", "wss://rpc.pulsechain.com/"],
+  "rpc": ["https://rpc.pulsechain.com", "wss://rpc.pulsechain.com", "https://pulsechain.publicnode.com"],
   "faucets": [],
   "infoURL": "https://pulsechain.com/"
 }, {
@@ -2751,7 +2751,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://goerli.optimism.io/"],
+  "rpc": ["https://goerli.optimism.io", "https://optimism-goerli.publicnode.com"],
   "faucets": [],
   "infoURL": "https://optimism.io"
 }, {
@@ -3700,7 +3700,7 @@
     "symbol": "tPLS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.v4.testnet.pulsechain.com/", "wss://rpc.v4.testnet.pulsechain.com/"],
+  "rpc": ["https://rpc.v4.testnet.pulsechain.com/", "wss://rpc.v4.testnet.pulsechain.com/", "https://pulsechain-testnet.publicnode.com"],
   "faucets": ["https://faucet.v4.testnet.pulsechain.com/"],
   "infoURL": "https://pulsechain.com"
 }, {
@@ -4870,7 +4870,7 @@
     "symbol": "TENET",
     "decimals": 18
   },
-  "rpc": ["https://rpc.tenet.org"],
+  "rpc": ["https://rpc.tenet.org", "https://tenet-evm.publicnode.com"],
   "faucets": [],
   "infoURL": "https://tenet.org/"
 }, {
@@ -5767,7 +5767,7 @@
     "symbol": "KAVA",
     "decimals": 18
   },
-  "rpc": ["https://evm.kava.io", "https://evm2.kava.io", "wss://wevm.kava.io", "wss://wevm2.kava.io"],
+  "rpc": ["https://evm.kava.io", "https://evm2.kava.io", "wss://wevm.kava.io", "wss://wevm2.kava.io", "https://kava-evm.publicnode.com"],
   "faucets": [],
   "infoURL": "https://www.kava.io"
 }, {
@@ -6742,7 +6742,7 @@
     "symbol": "MNT",
     "decimals": 18
   },
-  "rpc": ["https://rpc.mantle.xyz"],
+  "rpc": ["https://rpc.mantle.xyz", "https://mantle.publicnode.com"],
   "faucets": [],
   "infoURL": "https://mantle.xyz"
 }, {
@@ -7106,7 +7106,7 @@
     "symbol": "ERIS",
     "decimals": 18
   },
-  "rpc": ["https://evmrpc.irishub-1.irisnet.org"],
+  "rpc": ["https://evmrpc.irishub-1.irisnet.org", "https://iris-evm.publicnode.com"],
   "faucets": [],
   "infoURL": "https://www.irisnet.org"
 }, {
@@ -8380,7 +8380,7 @@
     "symbol": "ISLM",
     "decimals": 18
   },
-  "rpc": ["https://rpc.eth.haqq.network"],
+  "rpc": ["https://rpc.eth.haqq.network", "https://haqq-evm.publicnode.com"],
   "faucets": [],
   "infoURL": "https://islamiccoin.net"
 }, {
@@ -9316,7 +9316,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}", "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}", "https://arb1.arbitrum.io/rpc"],
+  "rpc": ["https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}", "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}", "https://arb1.arbitrum.io/rpc", "https://arbitrum-one.publicnode.com"],
   "faucets": [],
   "infoURL": "https://arbitrum.io"
 }, {
@@ -9329,7 +9329,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://nova.arbitrum.io/rpc"],
+  "rpc": ["https://nova.arbitrum.io/rpc", "https://arbitrum-nova.publicnode.com"],
   "faucets": [],
   "infoURL": "https://arbitrum.io"
 }, {
@@ -11344,7 +11344,7 @@
     "symbol": "AGOR",
     "decimals": 18
   },
-  "rpc": ["https://goerli-rollup.arbitrum.io/rpc/"],
+  "rpc": ["https://goerli-rollup.arbitrum.io/rpc", "https://arbitrum-goerli.publicnode.com"],
   "faucets": [],
   "infoURL": "https://arbitrum.io/"
 }, {
