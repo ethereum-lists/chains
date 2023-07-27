@@ -10,9 +10,9 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://testnet.obscu.ro/"],
+  "rpc": ["https://testnet.obscu.ro"],
   "faucets": [],
-  "infoURL": "https://obscu.ro/",
+  "infoURL": "https://obscu.ro",
   "explorers": [
     {
       "name": "Obscuro Sepolia Rollup Explorer",
@@ -23,6 +23,6 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-5",
-    "bridges": [{ "url": "https://bridge.obscu.ro/" }]
+    "bridges": [{ "url": "https://bridge.obscu.ro" }]
   }
 }
