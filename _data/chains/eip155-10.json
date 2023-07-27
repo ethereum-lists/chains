@@ -1,10 +1,7 @@
 {
   "name": "OP Mainnet",
   "chain": "ETH",
-  "rpc": [
-    "https://mainnet.optimism.io",
-    "https://optimism.publicnode.com"
-  ],
+  "rpc": ["https://mainnet.optimism.io", "https://optimism.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -15,6 +12,7 @@
   "shortName": "oeth",
   "chainId": 10,
   "networkId": 10,
+
   "explorers": [
     {
       "name": "etherscan",
