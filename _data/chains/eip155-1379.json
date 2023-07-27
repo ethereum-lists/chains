@@ -1,25 +1,24 @@
 {
-    "name": "Kalar Chain Mainnet",
-    "chain": "KLC",
-    "rpc": [
-      "http://rpc-api.kalarchain.tech/"
-    ],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "Ether",
-      "symbol": "KLC",
-      "decimals": 18
-    },
-    "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-    "infoURL": "http://kalarchain.tech",
-    "shortName": "eth",
-    "chainId": 1,
-    "networkId": 1,
-    "icon": "kalarchain",
-    "explorers": [{
-      "name": "kalarscan",
-      "url": "http://explorer.kalarchain.tech/",
-      "icon": "kalarscan",
-      "standard": "EIP3091"
-    }]
-  }
+  "name": "Kalar Chain Mainnet",
+  "chain": "KLC",
+  "rpc": [
+    "http://rpc-api.kalarchain.tech/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "KLC",
+    "decimals": 18
+  },
+  "infoURL": "https://kalarchain.tech",
+  "shortName": "klc",
+  "chainId": 1379,
+  "networkId": 1379,
+  "icon": "kalarchain",
+  "explorers": [{
+    "name": "kalarscan",
+    "url": "https://explorer.kalarchain.tech/",
+    "icon": "kalarscan",
+    "standard": "EIP3091"
+  }]
+}
