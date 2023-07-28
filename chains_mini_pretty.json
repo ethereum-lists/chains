@@ -4120,6 +4120,19 @@
   "faucets": [],
   "infoURL": "https://playthink.co.jp"
 }, {
+  "name": "Mintara Mainnet",
+  "chainId": 1080,
+  "shortName": "mintara",
+  "networkId": 1080,
+  "nativeCurrency": {
+    "name": "MINTARA",
+    "symbol": "MNTR",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/mintara/mainnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://playthink.co.jp"
+}, {
   "name": "Metis Andromeda Mainnet",
   "chainId": 1088,
   "shortName": "metis-andromeda",
