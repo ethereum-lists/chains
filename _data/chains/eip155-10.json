@@ -1,7 +1,7 @@
 {
   "name": "OP Mainnet",
   "chain": "ETH",
-  "rpc": ["https://mainnet.optimism.io/"],
+  "rpc": ["https://mainnet.optimism.io", "https://optimism.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
