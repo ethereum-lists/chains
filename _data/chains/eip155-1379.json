@@ -1,24 +1,24 @@
 {
   "name": "Kalar Chain Mainnet",
   "chain": "KLC",
-  "rpc": [
-    "http://rpc-api.kalarchain.tech"
-  ],
+  "icon": "kalarchain",
+  "rpc": ["http://rpc-api.kalarchain.tech"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Ether",
+    "name": "Kalar",
     "symbol": "KLC",
     "decimals": 18
   },
   "infoURL": "https://kalarchain.tech",
-  "shortName": "klc",
+  "shortName": "KLC",
   "chainId": 1379,
   "networkId": 1379,
-  "icon": "kalarchain",
-  "explorers": [{
-    "name": "kalarscan",
-    "url": "https://explorer.kalarchain.tech",
-    "icon": "kalarscan",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "kalarscan",
+      "url": "https://explorer.kalarchain.tech",
+      "icon": "kalarscan",
+      "standard": "EIP3091"
+    }
+  ]
 }
