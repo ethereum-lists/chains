@@ -5,7 +5,11 @@
   "chainId": 369,
   "networkId": 369,
   "infoURL": "https://pulsechain.com/",
-  "rpc": ["https://rpc.pulsechain.com/", "wss://rpc.pulsechain.com/"],
+  "rpc": [
+    "https://rpc.pulsechain.com",
+    "wss://rpc.pulsechain.com",
+    "https://pulsechain.publicnode.com"
+  ],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "ens": {
