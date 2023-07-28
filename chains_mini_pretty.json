@@ -2781,6 +2781,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Obscuro Testnet",
+  "chainId": 443,
+  "shortName": "obs-testnet",
+  "networkId": 443,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.obscu.ro"],
+  "faucets": [],
+  "infoURL": "https://obscu.ro"
+}, {
   "name": "Frenchain Testnet",
   "chainId": 444,
   "shortName": "tFREN",
