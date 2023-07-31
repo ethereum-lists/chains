@@ -4731,6 +4731,19 @@
   "faucets": [],
   "infoURL": "https://www.zakumi.io"
 }, {
+  "name": "Kalar Chain Mainnet",
+  "chainId": 1379,
+  "shortName": "KLC",
+  "networkId": 1379,
+  "nativeCurrency": {
+    "name": "Kalar",
+    "symbol": "KLC",
+    "decimals": 18
+  },
+  "rpc": ["http://rpc-api.kalarchain.tech"],
+  "faucets": [],
+  "infoURL": "https://kalarchain.tech"
+}, {
   "name": "AmStar Mainnet",
   "chainId": 1388,
   "shortName": "ASAR",
