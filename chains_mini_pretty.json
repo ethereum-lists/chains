@@ -7227,7 +7227,7 @@
   "faucets": [],
   "infoURL": "https://zetachain.com/docs/"
 }, {
-  "name": "ZetaChain Athens Testnet",
+  "name": "ZetaChain Athens 3 Testnet",
   "chainId": 7001,
   "shortName": "zetachain-athens",
   "networkId": 7001,
@@ -7236,7 +7236,7 @@
     "symbol": "aZETA",
     "decimals": 18
   },
-  "rpc": ["https://api.athens2.zetachain.com/evm"],
+  "rpc": ["https://rpc.ankr.com/zetachain_evm_athens_testnet"],
   "faucets": ["https://labs.zetachain.com/get-zeta"],
   "infoURL": "https://zetachain.com/docs"
 }, {
