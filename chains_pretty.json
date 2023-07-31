@@ -4623,9 +4623,14 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Acala Mandala Testnet",
+  "name": "Acala Mandala Testnet TC9",
   "chain": "mACA",
-  "rpc": [],
+  "rpc": ["https://eth-rpc-tc9.aca-staging.network", "wss://eth-rpc-tc9.aca-staging.network"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
   "faucets": [],
   "nativeCurrency": {
     "name": "Acala Mandala Token",
@@ -4635,11 +4640,17 @@
   "infoURL": "https://acala.network",
   "shortName": "maca",
   "chainId": 595,
-  "networkId": 595
+  "networkId": 595,
+  "slip44": 595,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout.mandala.aca-staging.network",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Karura Network Testnet",
   "chain": "KAR",
-  "rpc": [],
+  "rpc": ["https://eth-rpc-karura-testnet.aca-staging.network", "wss://eth-rpc-karura-testnet.aca-staging.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Karura Token",
@@ -4650,11 +4661,16 @@
   "shortName": "tkar",
   "chainId": 596,
   "networkId": 596,
-  "slip44": 596
+  "slip44": 596,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout.karura-testnet.aca-staging.network",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Acala Network Testnet",
   "chain": "ACA",
-  "rpc": [],
+  "rpc": ["https://eth-rpc-acala-testnet.aca-staging.network", "wss://eth-rpc-acala-testnet.aca-staging.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Acala Token",
@@ -4665,7 +4681,12 @@
   "shortName": "taca",
   "chainId": 597,
   "networkId": 597,
-  "slip44": 597
+  "slip44": 597,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout.acala-dev.aca-dev.network",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Metis Goerli Testnet",
   "chain": "ETH",
@@ -4823,18 +4844,28 @@
 }, {
   "name": "Karura Network",
   "chain": "KAR",
-  "rpc": [],
+  "rpc": ["https://eth-rpc-karura.aca-api.network", "wss://eth-rpc-karura.aca-api.network"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
   "faucets": [],
   "nativeCurrency": {
     "name": "Karura Token",
     "symbol": "KAR",
     "decimals": 18
   },
-  "infoURL": "https://karura.network",
+  "infoURL": "https://acala.network/karura",
   "shortName": "kar",
   "chainId": 686,
   "networkId": 686,
-  "slip44": 686
+  "slip44": 686,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout.karura.network",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Star Social Testnet",
   "chain": "SNS",
@@ -5069,7 +5100,12 @@
 }, {
   "name": "Acala Network",
   "chain": "ACA",
-  "rpc": [],
+  "rpc": ["https://eth-rpc-acala.aca-api.network", "wss://eth-rpc-acala.aca-api.network"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
   "faucets": [],
   "nativeCurrency": {
     "name": "Acala Token",
@@ -5080,7 +5116,12 @@
   "shortName": "aca",
   "chainId": 787,
   "networkId": 787,
-  "slip44": 787
+  "slip44": 787,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout.acala.network",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Aerochain Testnet",
   "chain": "Aerochain",

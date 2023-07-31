@@ -3028,7 +3028,7 @@
   "faucets": [],
   "infoURL": "https://astar.network/"
 }, {
-  "name": "Acala Mandala Testnet",
+  "name": "Acala Mandala Testnet TC9",
   "chainId": 595,
   "shortName": "maca",
   "networkId": 595,
@@ -3037,7 +3037,7 @@
     "symbol": "mACA",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://eth-rpc-tc9.aca-staging.network", "wss://eth-rpc-tc9.aca-staging.network"],
   "faucets": [],
   "infoURL": "https://acala.network"
 }, {
@@ -3050,7 +3050,7 @@
     "symbol": "KAR",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://eth-rpc-karura-testnet.aca-staging.network", "wss://eth-rpc-karura-testnet.aca-staging.network"],
   "faucets": [],
   "infoURL": "https://karura.network"
 }, {
@@ -3063,7 +3063,7 @@
     "symbol": "ACA",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://eth-rpc-acala-testnet.aca-staging.network", "wss://eth-rpc-acala-testnet.aca-staging.network"],
   "faucets": [],
   "infoURL": "https://acala.network"
 }, {
@@ -3180,9 +3180,9 @@
     "symbol": "KAR",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://eth-rpc-karura.aca-api.network", "wss://eth-rpc-karura.aca-api.network"],
   "faucets": [],
-  "infoURL": "https://karura.network"
+  "infoURL": "https://acala.network/karura"
 }, {
   "name": "Star Social Testnet",
   "chainId": 700,
@@ -3349,7 +3349,7 @@
     "symbol": "ACA",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://eth-rpc-acala.aca-api.network", "wss://eth-rpc-acala.aca-api.network"],
   "faucets": [],
   "infoURL": "https://acala.network"
 }, {
