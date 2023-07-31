@@ -2,13 +2,8 @@
   "name": "ZetaChain Athens 3 Testnet",
   "chain": "ZetaChain",
   "icon": "zetachain",
-  "rpc": [
-    "https://rpc.ankr.com/zetachain_evm_athens_testnet",
-    "https://zetachain-athens-evm.blockpi.network/v1/rpc/public"
-  ],
-  "faucets": [
-    "https://labs.zetachain.com/get-zeta"
-  ],
+  "rpc": ["https://rpc.ankr.com/zetachain_evm_athens_testnet"],
+  "faucets": ["https://labs.zetachain.com/get-zeta"],
   "nativeCurrency": {
     "name": "Zeta",
     "symbol": "aZETA",
