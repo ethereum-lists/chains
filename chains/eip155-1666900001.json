@@ -1,7 +1,7 @@
 {
-  "name": "Harmony Devnet Shard 0",
+  "name": "Harmony Devnet Shard 1",
   "chain": "Harmony",
-  "rpc": ["https://api.s0.ps.hmny.io"],
+  "rpc": ["https://api.s1.ps.hmny.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "ONE",
@@ -9,8 +9,8 @@
     "decimals": 18
   },
   "infoURL": "https://www.harmony.one/",
-  "shortName": "hmy-ps-s0",
-  "chainId": 1666900000,
-  "networkId": 1666900000,
+  "shortName": "hmy-ps-s1",
+  "chainId": 1666900001,
+  "networkId": 1666900001,
   "explorers": []
 }

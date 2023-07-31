@@ -12683,8 +12683,8 @@
     "symbol": "ONE",
     "decimals": 18
   },
-  "rpc": ["https://api.harmony.one", "https://api.s0.t.hmny.io"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "rpc": ["https://api.harmony.one", "https://a.api.s0.t.hmny.io", "https://api.s0.t.hmny.io", "https://rpc.ankr.com/harmony", "https://harmony.api.onfinality.io/public", "https://1rpc.io/one"],
+  "faucets": [],
   "infoURL": "https://www.harmony.one/"
 }, {
   "name": "Harmony Mainnet Shard 1",
@@ -12749,33 +12749,7 @@
     "decimals": 18
   },
   "rpc": ["https://api.s1.b.hmny.io"],
-  "faucets": [],
-  "infoURL": "https://www.harmony.one/"
-}, {
-  "name": "Harmony Testnet Shard 2",
-  "chainId": 1666700002,
-  "shortName": "hmy-b-s2",
-  "networkId": 1666700002,
-  "nativeCurrency": {
-    "name": "ONE",
-    "symbol": "ONE",
-    "decimals": 18
-  },
-  "rpc": ["https://api.s2.b.hmny.io"],
-  "faucets": [],
-  "infoURL": "https://www.harmony.one/"
-}, {
-  "name": "Harmony Testnet Shard 3",
-  "chainId": 1666700003,
-  "shortName": "hmy-b-s3",
-  "networkId": 1666700003,
-  "nativeCurrency": {
-    "name": "ONE",
-    "symbol": "ONE",
-    "decimals": 18
-  },
-  "rpc": ["https://api.s3.b.hmny.io"],
-  "faucets": [],
+  "faucets": ["https://faucet.pops.one"],
   "infoURL": "https://www.harmony.one/"
 }, {
   "name": "Harmony Devnet Shard 0",
@@ -12787,8 +12761,21 @@
     "symbol": "ONE",
     "decimals": 18
   },
-  "rpc": ["https://api.s1.ps.hmny.io", "https://api.s1.ps.hmny.io"],
-  "faucets": ["http://dev.faucet.easynode.one/"],
+  "rpc": ["https://api.s0.ps.hmny.io"],
+  "faucets": [],
+  "infoURL": "https://www.harmony.one/"
+}, {
+  "name": "Harmony Devnet Shard 1",
+  "chainId": 1666900001,
+  "shortName": "hmy-ps-s1",
+  "networkId": 1666900001,
+  "nativeCurrency": {
+    "name": "ONE",
+    "symbol": "ONE",
+    "decimals": 18
+  },
+  "rpc": ["https://api.s1.ps.hmny.io"],
+  "faucets": [],
   "infoURL": "https://www.harmony.one/"
 }, {
   "name": "DataHopper",
