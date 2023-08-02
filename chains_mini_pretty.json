@@ -4731,7 +4731,7 @@
   "faucets": [],
   "infoURL": "https://www.zakumi.io"
 }, {
-  "name": "Kalar Chain Mainnet",
+  "name": "Kalar Chain",
   "chainId": 1379,
   "shortName": "KLC",
   "networkId": 1379,
@@ -4740,7 +4740,7 @@
     "symbol": "KLC",
     "decimals": 18
   },
-  "rpc": ["http://rpc-api.kalarchain.tech"],
+  "rpc": ["https://rpc-api.kalarchain.tech"],
   "faucets": [],
   "infoURL": "https://kalarchain.tech"
 }, {
