@@ -11933,6 +11933,19 @@
   "faucets": ["https://faucet.butterfly.fildev.network"],
   "infoURL": "https://filecoin.io"
 }, {
+  "name": "Manta Pacific Testnet",
+  "chainId": 3441005,
+  "shortName": "manta",
+  "networkId": 3441005,
+  "nativeCurrency": {
+    "name": "Manta",
+    "symbol": "MANTA",
+    "decimals": 18
+  },
+  "rpc": ["https://manta-testnet.calderachain.xyz/http"],
+  "faucets": [],
+  "infoURL": "https://manta-testnet.caldera.dev/"
+}, {
   "name": "AltLayer Zero Gas Network",
   "chainId": 4000003,
   "shortName": "alt-zerogas",
