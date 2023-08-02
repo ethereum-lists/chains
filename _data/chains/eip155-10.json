@@ -1,7 +1,7 @@
 {
   "name": "OP Mainnet",
   "chain": "ETH",
-  "rpc": ["https://mainnet.optimism.io/"],
+  "rpc": ["https://mainnet.optimism.io", "https://optimism.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -17,6 +17,12 @@
     {
       "name": "etherscan",
       "url": "https://optimistic.etherscan.io",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "blockscout",
+      "url": "https://optimism.blockscout.com",
+      "icon": "blockscout",
       "standard": "EIP3091"
     }
   ]
