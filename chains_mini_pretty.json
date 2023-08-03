@@ -5147,6 +5147,19 @@
   "faucets": [],
   "infoURL": "https://teslafunds.io"
 }, {
+  "name": "WhiteBIT Network",
+  "chainId": 1875,
+  "shortName": "wbt",
+  "networkId": 1875,
+  "nativeCurrency": {
+    "name": "WhiteBIT Coin",
+    "symbol": "WBT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.whitebit.network"],
+  "faucets": [],
+  "infoURL": "https://whitebit.network"
+}, {
   "name": "Gitshock Cartenz Testnet",
   "chainId": 1881,
   "shortName": "gitshockchain",
