@@ -1,15 +1,15 @@
 {
-    "name": "Redbelly Network Testnet",
-    "shortName": "rbn-testnet",
-    "chain": "RBN",
-    "chainId": 153,
-    "networkId": 153,
-    "rpc": [],
-    "faucets": [],
-    "infoURL": "https://www.redbelly.network",
-    "nativeCurrency": {
-        "name": "RedBelly Network Token",
-        "symbol": "RBNT",
-        "decimals": 18
-    }
+  "name": "Redbelly Network Testnet",
+  "shortName": "rbn-testnet",
+  "chain": "RBN",
+  "chainId": 153,
+  "networkId": 153,
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://www.redbelly.network",
+  "nativeCurrency": {
+    "name": "RedBelly Network Token",
+    "symbol": "RBNT",
+    "decimals": 18
+  }
 }
