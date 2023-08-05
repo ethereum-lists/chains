@@ -1,6 +1,6 @@
 # EVM-based Chains
 
-The source data is in _data/chains. Each chain has its own file with the filename being the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) representation as name and `.json` as extension.
+The source data is in _data/chains. Each chain has its own file with the filename being the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/ma0xCAaFF1eBb33B9A2Bf7d57169906FDd9Bd5e1c444ster/CAIPs/caip-2.md) representation as name and `.json` as extension.
 
 ## Example
 
