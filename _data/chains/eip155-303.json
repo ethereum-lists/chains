@@ -1,23 +1,25 @@
 {
-  "name": "Neurochain Testnet",
-  "chain": "NCN",
-  "rpc": ["https://nc-rpc-test1.neurochain.io"],
+  "name": "Wyzth Mainnet",
+  "chain": "WYZ",
+  "rpc": [
+    "https://rpc-d1-mainnet.wyzthchain.org/"
+  ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Neurochain",
-    "symbol": "tNCN",
+    "name": "Wyzth",
+    "symbol": "WYZ",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "infoURL": "https://www.neurochain.ai",
-  "shortName": "ncnt",
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://wyzth.org/",
+  "shortName": "wyzth",
   "chainId": 303,
   "networkId": 303,
-  "explorers": [
-    {
-      "name": "neuroscan",
-      "url": "https://testnet.ncnscan.com",
-      "standard": "EIP3091"
-    }
-  ]
+  "icon": "wyzth",
+  "explorers": [{
+    "name": "wyzth",
+    "url": "https://wyzthscan.org",
+    "icon": "wyzth_icon",
+    "standard": "EIP3091"
+  }]
 }
