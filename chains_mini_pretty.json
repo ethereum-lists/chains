@@ -11578,7 +11578,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://sepolia-rpc.scroll.io/"],
   "faucets": [],
   "infoURL": "https://scroll.io"
 }, {
@@ -11591,7 +11591,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.scroll.io"],
   "faucets": [],
   "infoURL": "https://scroll.io"
 }, {
@@ -11617,8 +11617,8 @@
     "symbol": "TSETH",
     "decimals": 18
   },
-  "rpc": ["https://prealpha-rpc.scroll.io/l2"],
-  "faucets": ["https://prealpha.scroll.io/faucet"],
+  "rpc": [],
+  "faucets": [],
   "infoURL": "https://scroll.io"
 }, {
   "name": "Shinarium Beta",

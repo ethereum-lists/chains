@@ -17847,8 +17847,8 @@
 }, {
   "name": "Scroll Sepolia Testnet",
   "chain": "ETH",
-  "status": "incubating",
-  "rpc": [],
+  "status": "active",
+  "rpc": ["https://sepolia-rpc.scroll.io/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -17859,17 +17859,23 @@
   "shortName": "scr-sepolia",
   "chainId": 534351,
   "networkId": 534351,
-  "explorers": [],
+  "explorers": [{
+    "name": "Scroll Sepolia Testnet Block Explorer",
+    "url": "https://sepolia-blockscout.scroll.io",
+    "standard": "EIP3091"
+  }],
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": []
+    "bridges": [{
+      "url": "https://scroll.io/bridge"
+    }]
   }
 }, {
   "name": "Scroll",
   "chain": "ETH",
   "status": "incubating",
-  "rpc": [],
+  "rpc": ["https://rpc.scroll.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -17880,16 +17886,22 @@
   "shortName": "scr",
   "chainId": 534352,
   "networkId": 534352,
-  "explorers": [],
+  "explorers": [{
+    "name": "Scroll Mainnet Block Explorer",
+    "url": "https://blockscout.scroll.io",
+    "standard": "EIP3091"
+  }],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": []
+    "bridges": [{
+      "url": "https://scroll.io/bridge"
+    }]
   }
 }, {
   "name": "Scroll Alpha Testnet",
   "chain": "ETH",
-  "status": "active",
+  "status": "deprecated",
   "rpc": ["https://alpha-rpc.scroll.io/l2"],
   "faucets": [],
   "nativeCurrency": {
@@ -17903,11 +17915,7 @@
   "networkId": 534353,
   "explorers": [{
     "name": "Scroll Alpha Testnet Block Explorer",
-    "url": "https://blockscout.scroll.io",
-    "standard": "EIP3091"
-  }, {
-    "name": "Scroll Alpha Testnet Block Explorer",
-    "url": "https://scrollscan.co",
+    "url": "https://alpha-blockscout.scroll.io",
     "standard": "EIP3091"
   }],
   "parent": {
@@ -17919,8 +17927,8 @@
   "name": "Scroll Pre-Alpha Testnet",
   "chain": "ETH",
   "status": "deprecated",
-  "rpc": ["https://prealpha-rpc.scroll.io/l2"],
-  "faucets": ["https://prealpha.scroll.io/faucet"],
+  "rpc": [],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "TSETH",
@@ -17930,11 +17938,7 @@
   "shortName": "scr-prealpha",
   "chainId": 534354,
   "networkId": 534354,
-  "explorers": [{
-    "name": "Scroll L2 Block Explorer",
-    "url": "https://l2scan.scroll.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": []
 }, {
   "name": "Shinarium Beta",
   "chain": "Shinarium",
