@@ -13274,6 +13274,28 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Beam Testnet",
+  "chain": "BEAM",
+  "rpc": ["https://subnets.avax.network/beam/testnet/rpc"],
+  "features": [{
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Merit Circle",
+    "symbol": "MC",
+    "decimals": 18
+  },
+  "infoURL": "https://gaming.meritcircle.io",
+  "shortName": "BEAM",
+  "chainId": 13337,
+  "networkId": 13337,
+  "explorers": [{
+    "name": "Beam Explorer",
+    "url": "https://subnets-test.avax.network/beam",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Phoenix Mainnet",
   "chain": "Phoenix",
   "rpc": ["https://rpc.phoenixplorer.com/"],

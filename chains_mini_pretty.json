@@ -8657,6 +8657,19 @@
   "faucets": [],
   "infoURL": "https://creditsmartchain.com"
 }, {
+  "name": "Beam Testnet",
+  "chainId": 13337,
+  "shortName": "BEAM",
+  "networkId": 13337,
+  "nativeCurrency": {
+    "name": "Merit Circle",
+    "symbol": "MC",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/beam/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://gaming.meritcircle.io"
+}, {
   "name": "Phoenix Mainnet",
   "chainId": 13381,
   "shortName": "Phoenix",
