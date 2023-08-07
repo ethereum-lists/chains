@@ -1,7 +1,6 @@
 {
   "name": "Beam Testnet",
   "chain": "BEAM",
-  "icon": "beam",
   "rpc": ["https://subnets.avax.network/beam/testnet/rpc"],
   "features": [{ "name": "EIP1559" }],
   "faucets": [],
