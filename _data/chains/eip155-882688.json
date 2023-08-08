@@ -1,0 +1,34 @@
+{
+  "name": "PepeSync Leap Testnet",
+  "chainId": 882688,
+  "shortName": "pepesync",
+  "chain": "ETH",
+  "networkId": 882688,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [
+    "https://rpc-test.pepesync.xyz"
+  ],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "PepeScan",
+      "url": "https://goerli-test.pepescan.xyz",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Arbitrum Explorer",
+      "url": "https://goerli-test.pepescan.xyz",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://pepesync.xyz",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.pepesync.xyz" }]
+  }
+}
