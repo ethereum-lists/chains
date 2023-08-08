@@ -6,9 +6,7 @@
     "https://testnet.meerlabs.com",
     "https://meer.testnet.meerfans.club"
   ],
-  "faucets": [
-    "https://faucet.qitmeer.io/"
-  ],
+  "faucets": ["https://faucet.qitmeer.io"],
   "nativeCurrency": {
     "name": "Qitmeer Testnet",
     "symbol": "MEER-T",
@@ -23,7 +21,7 @@
     {
       "name": "meerscan testnet",
       "icon": "meer",
-      "url": "https://qng-testnet.meerscan.io/",
+      "url": "https://qng-testnet.meerscan.io",
       "standard": "none"
     }
   ]
