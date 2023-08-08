@@ -5220,7 +5220,7 @@
 }, {
   "name": "Qitmeer",
   "chain": "MEER",
-  "rpc": ["https://evm-dataseed1.meerscan.io", "https://evm-dataseed2.meerscan.io", "https://evm-dataseed3.meerscan.io", "https://evm-dataseed.meerscan.com", "https://evm-dataseed1.meerscan.com", "https://evm-dataseed2.meerscan.com"],
+  "rpc": ["https://evm-dataseed1.meerscan.io", "https://evm-dataseed2.meerscan.io", "https://evm-dataseed3.meerscan.io", "https://evm-dataseed.meerscan.com", "https://evm-dataseed1.meerscan.com", "https://evm-dataseed2.meerscan.com", "https://qng.rpc.qitmeer.io", "https://mainnet.meerlabs.com", "https://rpc.dimai.ai", "https://rpc.woowow.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Qitmeer",
@@ -5236,7 +5236,7 @@
   "explorers": [{
     "name": "meerscan",
     "icon": "meer",
-    "url": "https://evm.meerscan.com",
+    "url": "https://qng.meerscan.io",
     "standard": "none"
   }]
 }, {
@@ -11703,8 +11703,8 @@
 }, {
   "name": "Qitmeer Network Testnet",
   "chain": "MEER",
-  "rpc": [],
-  "faucets": [],
+  "rpc": ["https://testnet-qng.rpc.qitmeer.io", "https://testnet.meerlabs.com", "https://meer.testnet.meerfans.club"],
+  "faucets": ["https://faucet.qitmeer.io"],
   "nativeCurrency": {
     "name": "Qitmeer Testnet",
     "symbol": "MEER-T",
@@ -11718,7 +11718,7 @@
   "explorers": [{
     "name": "meerscan testnet",
     "icon": "meer",
-    "url": "https://testnet.qng.meerscan.io",
+    "url": "https://qng-testnet.meerscan.io",
     "standard": "none"
   }]
 }, {
