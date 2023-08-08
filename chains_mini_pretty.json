@@ -8198,7 +8198,7 @@
     "symbol": "tIMP",
     "decimals": 18
   },
-  "rpc": ["https://data-aws-testnet.imperiumchain.com, https://data-aws2-testnet.imperiumchain.com"],
+  "rpc": ["https://data-aws-testnet.imperiumchain.com", "https://data-aws2-testnet.imperiumchain.com"],
   "faucets": ["https://faucet.imperiumchain.com/"],
   "infoURL": "https://imperiumchain.com"
 }, {
@@ -8211,7 +8211,7 @@
     "symbol": "IMP",
     "decimals": 18
   },
-  "rpc": ["https://data-aws-mainnet.imperiumchain.com, https://data-aws2-mainnet.imperiumchain.com"],
+  "rpc": ["https://data-aws-mainnet.imperiumchain.com", "https://data-aws2-mainnet.imperiumchain.com"],
   "faucets": ["https://faucet.imperiumchain.com/"],
   "infoURL": "https://imperiumchain.com"
 }, {

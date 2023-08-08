@@ -12548,7 +12548,7 @@
 }, {
   "name": "IMPERIUM TESTNET",
   "chain": "tIMP",
-  "rpc": ["https://data-aws-testnet.imperiumchain.com, https://data-aws2-testnet.imperiumchain.com"],
+  "rpc": ["https://data-aws-testnet.imperiumchain.com", "https://data-aws2-testnet.imperiumchain.com"],
   "faucets": ["https://faucet.imperiumchain.com/"],
   "nativeCurrency": {
     "name": "tIMP",
@@ -12569,7 +12569,7 @@
 }, {
   "name": "IMPERIUM MAINNET",
   "chain": "IMP",
-  "rpc": ["https://data-aws-mainnet.imperiumchain.com, https://data-aws2-mainnet.imperiumchain.com"],
+  "rpc": ["https://data-aws-mainnet.imperiumchain.com", "https://data-aws2-mainnet.imperiumchain.com"],
   "faucets": ["https://faucet.imperiumchain.com/"],
   "nativeCurrency": {
     "name": "IMP",
