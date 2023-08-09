@@ -8709,6 +8709,19 @@
   "faucets": [],
   "infoURL": "https://ssquad.games/"
 }, {
+  "name": "Humanode Testnet 5 Israfel",
+  "chainId": 14853,
+  "shortName": "hmnd-t5",
+  "networkId": 14853,
+  "nativeCurrency": {
+    "name": "HMND",
+    "symbol": "HMND",
+    "decimals": 18
+  },
+  "rpc": ["https://explorer-rpc-http.testnet5.stages.humanode.io"],
+  "faucets": ["https://t.me/HumanodeTestnet5FaucetBot"],
+  "infoURL": "https://humanode.io"
+}, {
   "name": "LoopNetwork Mainnet",
   "chainId": 15551,
   "shortName": "loop",
