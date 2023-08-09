@@ -1,7 +1,7 @@
 {
   "name": "Scroll Alpha Testnet",
   "chain": "ETH",
-  "status": "active",
+  "status": "deprecated",
   "rpc": ["https://alpha-rpc.scroll.io/l2"],
   "faucets": [],
   "nativeCurrency": {
@@ -16,12 +16,7 @@
   "explorers": [
     {
       "name": "Scroll Alpha Testnet Block Explorer",
-      "url": "https://blockscout.scroll.io",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "Scroll Alpha Testnet Block Explorer",
-      "url": "https://scrollscan.co",
+      "url": "https://alpha-blockscout.scroll.io",
       "standard": "EIP3091"
     }
   ],
