@@ -1,0 +1,27 @@
+{
+  "name": "PulseChain Testnet v4",
+  "shortName": "t4pls",
+  "chain": "t4PLS",
+  "chainId": 943,
+  "networkId": 943,
+  "icon": "pulsechain",
+  "infoURL": "https://pulsechain.com",
+  "rpc": [
+    "https://rpc.v4.testnet.pulsechain.com/",
+    "wss://rpc.v4.testnet.pulsechain.com/",
+    "https://pulsechain-testnet.publicnode.com"
+  ],
+
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": ["https://faucet.v4.testnet.pulsechain.com/"],
+  "ens": {
+    "registry": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
+  },
+  "status": "incubating",
+  "explorers": [],
+  "nativeCurrency": {
+    "name": "Test Pulse",
+    "symbol": "tPLS",
+    "decimals": 18
+  }
+}

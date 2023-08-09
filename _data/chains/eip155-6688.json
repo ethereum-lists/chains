@@ -1,0 +1,28 @@
+{
+  "name": "IRIShub",
+  "chain": "IRIShub",
+  "rpc": [
+    "https://evmrpc.irishub-1.irisnet.org",
+    "https://iris-evm.publicnode.com"
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Eris",
+    "symbol": "ERIS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.irisnet.org",
+  "shortName": "iris",
+  "chainId": 6688,
+  "networkId": 6688,
+  "icon": "irishub",
+  "explorers": [
+    {
+      "name": "IRISHub Cosmos Explorer (IOBScan)",
+      "url": "https://irishub.iobscan.io",
+      "standard": "none",
+      "icon": "irishub"
+    }
+  ]
+}
