@@ -1,8 +1,12 @@
 {
   "name": "Qitmeer Network Testnet",
   "chain": "MEER",
-  "rpc": [],
-  "faucets": [],
+  "rpc": [
+    "https://testnet-qng.rpc.qitmeer.io",
+    "https://testnet.meerlabs.com",
+    "https://meer.testnet.meerfans.club"
+  ],
+  "faucets": ["https://faucet.qitmeer.io"],
   "nativeCurrency": {
     "name": "Qitmeer Testnet",
     "symbol": "MEER-T",
@@ -17,7 +21,7 @@
     {
       "name": "meerscan testnet",
       "icon": "meer",
-      "url": "https://testnet.qng.meerscan.io",
+      "url": "https://qng-testnet.meerscan.io",
       "standard": "none"
     }
   ]
