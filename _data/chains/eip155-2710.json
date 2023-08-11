@@ -1,7 +1,7 @@
 {
   "name": "Morphism Testnet",
   "chain": "ETH",
-  "rpc": ["https://rpc.testnet.morphism.xyz"],
+  "rpc": ["https://rpc-testnet.morphism.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -15,13 +15,13 @@
   "explorers": [
     {
       "name": "Morphism Testnet Explorer",
-      "url": "https://explorer.testnet.morphism.xyz",
+      "url": "https://explorer-testnet.morphism.xyz",
       "standard": "EIP3091"
     }
   ],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.testnet.morphism.xyz" }]
+    "bridges": [{ "url": "https://bridge-testnet.morphism.xyz" }]
   }
 }
