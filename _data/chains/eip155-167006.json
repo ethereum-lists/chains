@@ -1,0 +1,24 @@
+{
+  "name": "Taiko Eldfell L3",
+  "chain": "ETH",
+  "status": "active",
+  "icon": "taiko",
+  "rpc": ["https://rpc.l3test.taiko.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://taiko.xyz",
+  "shortName": "taiko-l3",
+  "chainId": 167006,
+  "networkId": 167006,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.l3test.taiko.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
