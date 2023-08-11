@@ -2,8 +2,11 @@
   "name": "LAOS Arrakis",
   "title": "LAOS Testnet Arrakis",
   "chain": "LAOS",
-  "rpc": ["https://arrakis.gorengine.com/own", "wss://arrakis.gorengine.com/own"],
   "icon": "laos",
+  "rpc": [
+    "https://arrakis.gorengine.com/own",
+    "wss://arrakis.gorengine.com/own"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "LAOS",
