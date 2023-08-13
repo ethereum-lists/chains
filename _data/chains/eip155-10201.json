@@ -6,7 +6,9 @@
     "https://rpc1.maxxchain.org",
     "https://rpc2.maxxchain.org"
   ],
-  "faucets": ["https://faucet.maxxchain.org"],
+  "faucets": [
+    "https://faucet.maxxchain.org"
+  ],
   "nativeCurrency": {
     "name": "Power",
     "symbol": "PWR",
