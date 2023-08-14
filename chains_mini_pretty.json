@@ -4601,6 +4601,19 @@
   "faucets": [],
   "infoURL": "https://docs.moonbeam.network/learn/platform/networks/overview/"
 }, {
+  "name": "Swisstronik Testnet",
+  "chainId": 1291,
+  "shortName": "swtr",
+  "networkId": 1291,
+  "nativeCurrency": {
+    "name": "Swisstronik",
+    "symbol": "SWTR",
+    "decimals": 18
+  },
+  "rpc": ["https://json-rpc.testnet.swisstronik.com"],
+  "faucets": ["https://faucet.testnet.swisstronik.com"],
+  "infoURL": "https://www.swisstronik.com"
+}, {
   "name": "Bobabeam",
   "chainId": 1294,
   "shortName": "Bobabeam",
