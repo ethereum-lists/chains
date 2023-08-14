@@ -1,0 +1,25 @@
+{
+  "name": "Rethereum Mainnet",
+  "chain": "RTH",
+  "rpc": [
+    "https://rpc.rethereum.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Rether",
+    "symbol": "RTH",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://www.rethereum.org/",
+  "shortName": "eth",
+  "chainId": 622277,
+  "networkId": 622277,
+  "icon": "rethereum",
+  "explorers": [{
+    "name": "rethereum",
+    "url": "https://explorer.rethereum.org/",
+    "icon": "etherscan",
+    "standard": "EIP3091"
+  }]
+}
