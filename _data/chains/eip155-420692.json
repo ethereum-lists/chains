@@ -13,13 +13,11 @@
   "shortName": "alterium",
   "chainId": 420692,
   "networkId": 420692,
-  "parent": [ 
-    {
+  "parent": {
      "type" : "L2",
      "chain": "eip155-5",
      "bridges": [ {"url":"https://testnet-bridge.alteriumprotocol.org/"} ]
-    } 
-  ],
+  },
   "explorers": [
     {
       "name": "Alterium L2 Testnet Explorer",
