@@ -1,0 +1,22 @@
+{
+  "name": "Shibarium One Testnet",
+  "chain": "TSHIBR",
+  "rpc": ["https://ds1.shibariumone.com"],
+  "faucets": ["https://claim.shibariumone.com/"],
+  "nativeCurrency": {
+    "name": "TSHIBR",
+    "symbol": "TSHIBR",
+    "decimals": 18
+  },
+  "infoURL": "https://shibariumone.com",
+  "shortName": "SHIBR",
+  "chainId": 17204,
+  "networkId": 17204,
+  "explorers": [
+    {
+      "name": "woofscan",
+      "url": "https://testnet.woofscan.com/",
+      "standard": "EIP3091"
+    }
+  ]
+}
