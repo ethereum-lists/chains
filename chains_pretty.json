@@ -9136,6 +9136,27 @@
     "icon": "xodex"
   }]
 }, {
+  "name": "Unicorn Ultra Nebulas Testnet",
+  "chain": "u2u",
+  "rpc": ["https://rpc-nebulas-testnet.uniultra.xyz"],
+  "faucets": ["https://faucet.uniultra.xyz"],
+  "nativeCurrency": {
+    "name": "Unicorn Ultra Nebulas Testnet",
+    "symbol": "U2U",
+    "decimals": 18
+  },
+  "infoURL": "https://uniultra.xyz",
+  "shortName": "u2u_nebulas",
+  "chainId": 2484,
+  "networkId": 2484,
+  "icon": "u2u_nebulas",
+  "explorers": [{
+    "icon": "u2u_nebulas",
+    "name": "U2U Explorer",
+    "url": "https://testnet.u2uscan.xyz",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Kortho Mainnet",
   "chain": "Kortho Chain",
   "rpc": ["https://www.kortho-chain.com"],

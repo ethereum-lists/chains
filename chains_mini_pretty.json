@@ -5992,6 +5992,19 @@
   "faucets": [],
   "infoURL": "https://xo-dex.com"
 }, {
+  "name": "Unicorn Ultra Nebulas Testnet",
+  "chainId": 2484,
+  "shortName": "u2u_nebulas",
+  "networkId": 2484,
+  "nativeCurrency": {
+    "name": "Unicorn Ultra Nebulas Testnet",
+    "symbol": "U2U",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-nebulas-testnet.uniultra.xyz"],
+  "faucets": ["https://faucet.uniultra.xyz"],
+  "infoURL": "https://uniultra.xyz"
+}, {
   "name": "Kortho Mainnet",
   "chainId": 2559,
   "shortName": "ktoc",
