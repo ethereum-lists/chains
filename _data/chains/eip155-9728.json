@@ -23,5 +23,14 @@
       "url": "https://blockexplorer.testnet.bnb.boba.network",
       "standard": "none"
     }
-  ]
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-5",
+    "bridges": [
+      {
+        "url": "https://gateway.boba.network"
+      }
+    ]
+  }
 }
