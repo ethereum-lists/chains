@@ -14,9 +14,9 @@
   "chainId": 420692,
   "networkId": 420692,
   "parent": {
-     "type" : "L2",
-     "chain": "eip155-5",
-     "bridges": [ {"url":"https://testnet-bridge.alteriumprotocol.org/"} ]
+    "type" : "L2",
+    "chain": "eip155-5",
+    "bridges": [ {"url":"https://testnet-bridge.alteriumprotocol.org"} ]
   },
   "explorers": [
     {
