@@ -8891,6 +8891,19 @@
   "faucets": ["https://tfaucet.ivarex.com/"],
   "infoURL": "https://ivarex.com"
 }, {
+  "name": "Holesky",
+  "chainId": 17000,
+  "shortName": "holesky",
+  "networkId": 17000,
+  "nativeCurrency": {
+    "name": "Testnet ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.holesky.ethpandaops.io"],
+  "faucets": ["https://faucet.holesky.ethpandaops.io", "https://holesky-faucet.pk910.de"],
+  "infoURL": "https://holesky.ethpandaops.io"
+}, {
   "name": "Palette Chain Testnet",
   "chainId": 17180,
   "shortName": "PCT",
