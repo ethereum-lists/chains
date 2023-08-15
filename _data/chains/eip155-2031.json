@@ -12,5 +12,12 @@
   "infoURL": "https://centrifuge.io",
   "shortName": "cfg",
   "chainId": 2031,
-  "networkId": 2031
+  "networkId": 2031,
+  "explorers": [
+    {
+      "name": "subscan",
+      "url": "https://centrifuge.subscan.io",
+      "standard": "EIP3091"
+    }
+  ]
 }
