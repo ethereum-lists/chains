@@ -1,31 +1,24 @@
 {
-    "name": "Orderly Testnet",
-    "chain": "Orderly",
-    "rpc": [
-      "https://l2-orderly-l2-4460-sepolia-8tc3sd7dvy.t.conduit.xyz",
-      "wss://l2-orderly-l2-4460-sepolia-8tc3sd7dvy.t.conduit.xyz"
-    ],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "Sepolia ETH",
-      "symbol": "ETH",
-      "decimals": 18
-    },
-    "infoURL": "https://orderly.network",
-    "shortName": "OrderlyNetwork",
-    "chainId": 4460,
-    "networkId": 4460,
-    "icon": "orderlyTestnet",
-    "explorers": [
-      {
-        "name": "Orderly Testnet Block Explorer",
-        "url": "https://explorerl2new-orderly-l2-4460-sepolia-8tc3sd7dvy.t.conduit.xyz",
-        "standard": "none"
-      }
-    ],
-    "parent": {
-        "type" : "L2",
-        "chain": "eip155-11155111",
-        "bridges": [ {"url":"https://bridge.orderly.network"} ]
+  "name": "Orderly Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": ["https://l2-orderly-l2-4460-sepolia-8tc3sd7dvy.t.conduit.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "www.orderly.network",
+  "shortName": "orderlyl2",
+  "chainId": 4460,
+  "networkId": 4460,
+  "icon": "orderlyTestnet",
+  "explorers": [
+    {
+      "name": "basescout",
+      "url": "https://explorerl2new-orderly-l2-4460-sepolia-8tc3sd7dvy.t.conduit.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
     }
+  ]
 }
