@@ -1,6 +1,6 @@
 {
     "name": "Orderly Testnet",
-    "chain": "Orderly Testnet",
+    "chain": "Orderly",
     "rpc": [
       "https://l2-orderly-l2-4460-sepolia-8tc3sd7dvy.t.conduit.xyz",
       "wss://l2-orderly-l2-4460-sepolia-8tc3sd7dvy.t.conduit.xyz"
@@ -28,5 +28,4 @@
         "chain": "eip155-11155111",
         "bridges": [ {"url":"https://bridge.orderly.network"} ]
     }
-  }
-  
+}
