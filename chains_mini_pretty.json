@@ -8397,6 +8397,19 @@
   "faucets": ["https://gnosisfaucet.com"],
   "infoURL": "https://docs.gnosischain.com"
 }, {
+  "name": "MaxxChain Mainnet",
+  "chainId": 10201,
+  "shortName": "PWR",
+  "networkId": 10201,
+  "nativeCurrency": {
+    "name": "Power",
+    "symbol": "PWR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.maxxchain.org", "https://rpc1.maxxchain.org", "https://rpc2.maxxchain.org"],
+  "faucets": ["https://faucet.maxxchain.org"],
+  "infoURL": "https://www.maxxchain.org/"
+}, {
   "name": "0XTade",
   "chainId": 10248,
   "shortName": "0xt",
