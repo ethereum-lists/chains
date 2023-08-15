@@ -6,9 +6,7 @@
     "https://kava-evm-testnet.rpc.thirdweb.com",
     "wss://wevm.testnet.kava.io"
   ],
-  "faucets": [
-    "https://faucet.kava.io"
-  ],
+  "faucets": ["https://faucet.kava.io"],
   "nativeCurrency": {
     "name": "TKava",
     "symbol": "TKAVA",
