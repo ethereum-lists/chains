@@ -1,7 +1,7 @@
 buildscript {
     ext {
         KOTLIN_VERSION = "1.9.0"
-        KETHEREUM_VERSION = "0.85.7"
+        KETHEREUM_VERSION = "0.86.0"
     }
 
     repositories {
