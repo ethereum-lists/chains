@@ -1,0 +1,24 @@
+{
+  "name": "MEVerse Chain Testnet",
+  "chain": "MEVerse",
+  "rpc": ["https://rpc.meversetestnet.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MEVerse",
+    "symbol": "MEV",
+    "decimals": 18
+  },
+  "infoURL": "https://www.meverse.sg",
+  "shortName": "TESTMEV",
+  "chainId": 4759,
+  "networkId": 4759,
+  "icon": "meverse",
+  "explorers": [
+    {
+      "name": "MEVerse Chain Testnet Explorer",
+      "url": "https://testnet.meversescan.io",
+      "standard": "none",
+      "icon": "meverse"
+    }
+  ]
+}

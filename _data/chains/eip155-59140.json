@@ -6,7 +6,7 @@
     "https://rpc.goerli.linea.build",
     "wss://rpc.goerli.linea.build",
     "https://linea-goerli.infura.io/v3/${INFURA_API_KEY}",
-    "wss://linea-goerli.infura.io/v3/${INFURA_API_KEY}"
+    "wss://linea-goerli.infura.io/ws/v3/${INFURA_API_KEY}"
   ],
   "faucets": ["https://faucetlink.to/goerli"],
   "nativeCurrency": {
@@ -30,7 +30,13 @@
   },
   "explorers": [
     {
-      "name": "blockscout",
+      "name": "Etherscan",
+      "url": "https://goerli.lineascan.build",
+      "standard": "EIP3091",
+      "icon": "linea"
+    },
+    {
+      "name": "Blockscout",
       "url": "https://explorer.goerli.linea.build",
       "standard": "EIP3091",
       "icon": "linea"

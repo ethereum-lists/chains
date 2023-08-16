@@ -1,0 +1,32 @@
+{
+  "name": "Aves Testnet",
+  "chain": "AVST",
+  "rpc": ["https://test.rpc.avescoin.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AvesT",
+    "symbol": "AVST",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://ethereum.org",
+  "shortName": "avst",
+  "chainId": 333331,
+  "networkId": 333331,
+  "icon": "aves",
+  "explorers": [
+    {
+      "name": "avescan",
+      "url": "https://testnet.avescoin.io",
+      "icon": "avescan",
+      "standard": "EIP3091"
+    }
+  ]
+}

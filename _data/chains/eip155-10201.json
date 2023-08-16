@@ -1,0 +1,27 @@
+{
+  "name": "MaxxChain Mainnet",
+  "chain": "MaxxChain",
+  "rpc": [
+    "https://rpc.maxxchain.org",
+    "https://rpc1.maxxchain.org",
+    "https://rpc2.maxxchain.org"
+  ],
+  "faucets": ["https://faucet.maxxchain.org"],
+  "nativeCurrency": {
+    "name": "Power",
+    "symbol": "PWR",
+    "decimals": 18
+  },
+  "icon": "pwr",
+  "infoURL": "https://www.maxxchain.org/",
+  "shortName": "PWR",
+  "chainId": 10201,
+  "networkId": 10201,
+  "explorers": [
+    {
+      "name": "MaxxChain Block Explorer",
+      "url": "https://explorer.maxxchain.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
