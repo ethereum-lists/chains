@@ -3184,6 +3184,19 @@
   "faucets": ["https://chain.pixie.xyz/faucet"],
   "infoURL": "https://scan-testnet.chain.pixie.xyz"
 }, {
+  "name": "LAOS Arrakis",
+  "chainId": 667,
+  "shortName": "laos",
+  "networkId": 667,
+  "nativeCurrency": {
+    "name": "LAOS",
+    "symbol": "LAOS",
+    "decimals": 18
+  },
+  "rpc": ["https://arrakis.gorengine.com/own", "wss://arrakis.gorengine.com/own"],
+  "faucets": [],
+  "infoURL": "https://www.laosfoundation.io/"
+}, {
   "name": "Karura Network",
   "chainId": 686,
   "shortName": "kar",
