@@ -11543,6 +11543,19 @@
   "faucets": [],
   "infoURL": "https://kekchain.com"
 }, {
+  "name": "Alterium L2 Testnet",
+  "chainId": 420692,
+  "shortName": "alterium",
+  "networkId": 420692,
+  "nativeCurrency": {
+    "name": "Alterium ETH",
+    "symbol": "AltETH",
+    "decimals": 18
+  },
+  "rpc": ["https://l2-testnet-rpc.altscan.org"],
+  "faucets": [],
+  "infoURL": "https://alteriumprotocol.org"
+}, {
   "name": "Arbitrum Rinkeby",
   "chainId": 421611,
   "shortName": "arb-rinkeby",
