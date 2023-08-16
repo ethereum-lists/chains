@@ -1,7 +1,6 @@
 {
   "name": "Kiwi Subnet",
   "chain": "KIWI",
-  "icon": "kiwi",
   "rpc": ["https://subnets.avax.network/kiwi/testnet/rpc"],
   "features": [
     {
@@ -15,7 +14,7 @@
     "decimals": 18
   },
   "infoURL": null,
-  "shortName": "Kiwi Subnet",
+  "shortName": "kiwi",
   "chainId": "2037",
   "networkId": "2037",
   "explorers": [
