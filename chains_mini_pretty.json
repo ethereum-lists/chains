@@ -5836,7 +5836,7 @@
   "faucets": [],
   "infoURL": "https://evanesco.org/"
 }, {
-  "name": "Kava EVM Testnet",
+  "name": "Kava Testnet",
   "chainId": 2221,
   "shortName": "tkava",
   "networkId": 2221,
@@ -5845,11 +5845,11 @@
     "symbol": "TKAVA",
     "decimals": 18
   },
-  "rpc": ["https://evm.testnet.kava.io", "wss://wevm.testnet.kava.io"],
+  "rpc": ["https://evm.testnet.kava.io", "https://kava-evm-testnet.rpc.thirdweb.com", "wss://wevm.testnet.kava.io"],
   "faucets": ["https://faucet.kava.io"],
   "infoURL": "https://www.kava.io"
 }, {
-  "name": "Kava EVM",
+  "name": "Kava",
   "chainId": 2222,
   "shortName": "kava",
   "networkId": 2222,
@@ -5858,7 +5858,7 @@
     "symbol": "KAVA",
     "decimals": 18
   },
-  "rpc": ["https://evm.kava.io", "https://evm2.kava.io", "wss://wevm.kava.io", "wss://wevm2.kava.io", "https://kava-evm.publicnode.com"],
+  "rpc": ["https://evm.kava.io", "https://evm2.kava.io", "https://kava-rpc.gateway.pokt.network", "https://kava-evm.rpc.thirdweb.com", "wss://wevm.kava.io", "wss://wevm2.kava.io", "https://kava-evm.publicnode.com"],
   "faucets": [],
   "infoURL": "https://www.kava.io"
 }, {

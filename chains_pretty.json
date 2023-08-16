@@ -8873,9 +8873,9 @@
     "standard": "none"
   }]
 }, {
-  "name": "Kava EVM Testnet",
+  "name": "Kava Testnet",
   "chain": "KAVA",
-  "rpc": ["https://evm.testnet.kava.io", "wss://wevm.testnet.kava.io"],
+  "rpc": ["https://evm.testnet.kava.io", "https://kava-evm-testnet.rpc.thirdweb.com", "wss://wevm.testnet.kava.io"],
   "faucets": ["https://faucet.kava.io"],
   "nativeCurrency": {
     "name": "TKava",
@@ -8889,14 +8889,14 @@
   "icon": "kava",
   "explorers": [{
     "name": "Kava Testnet Explorer",
-    "url": "https://explorer.testnet.kava.io",
+    "url": "http://testnet.kavascan.com",
     "standard": "EIP3091",
     "icon": "kava"
   }]
 }, {
-  "name": "Kava EVM",
+  "name": "Kava",
   "chain": "KAVA",
-  "rpc": ["https://evm.kava.io", "https://evm2.kava.io", "wss://wevm.kava.io", "wss://wevm2.kava.io", "https://kava-evm.publicnode.com"],
+  "rpc": ["https://evm.kava.io", "https://evm2.kava.io", "https://kava-rpc.gateway.pokt.network", "https://kava-evm.rpc.thirdweb.com", "wss://wevm.kava.io", "wss://wevm2.kava.io", "https://kava-evm.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Kava",
@@ -8910,7 +8910,7 @@
   "icon": "kava",
   "explorers": [{
     "name": "Kava EVM Explorer",
-    "url": "https://explorer.kava.io",
+    "url": "https://kavascan.com",
     "standard": "EIP3091",
     "icon": "kava"
   }]
