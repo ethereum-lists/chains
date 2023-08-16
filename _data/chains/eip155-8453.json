@@ -1,7 +1,10 @@
 {
   "name": "Base",
   "chain": "ETH",
-  "rpc": ["https://mainnet.base.org/"],
+  "rpc": [
+    "https://mainnet.base.org/",
+    "https://developer-access-mainnet.base.org/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
