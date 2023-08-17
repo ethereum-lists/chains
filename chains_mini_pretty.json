@@ -5602,6 +5602,19 @@
   "faucets": [],
   "infoURL": "https://rangersprotocol.com"
 }, {
+  "name": "Kiwi Subnet",
+  "chainId": 2037,
+  "shortName": "kiwi",
+  "networkId": 2037,
+  "nativeCurrency": {
+    "name": "Shrapgas",
+    "symbol": "SHRAP",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/kiwi/testnet/rpc"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "OriginTrail Parachain",
   "chainId": 2043,
   "shortName": "otp",
