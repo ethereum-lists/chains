@@ -2,9 +2,7 @@
   "name": "Arthera Testnet",
   "chain": "AA",
   "icon": "arthera",
-  "rpc": [
-    "https://rpc-test.arthera.net"
-  ],
+  "rpc": ["https://rpc-test.arthera.net"],
   "faucets": ["https://faucet.arthera.net"],
   "nativeCurrency": {
     "name": "Arthera",
