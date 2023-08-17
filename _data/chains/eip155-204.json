@@ -1,0 +1,22 @@
+{
+    "name": "OpBNB Mainnet",
+    "chain": "OpBNB Mainnet",
+    "rpc": ["https://opbnb-mainnet-rpc.bnbchain.org/"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BNB",
+      "symbol": "BNB",
+      "decimals": 18
+    },
+    "infoURL": "https://opbnb.bnbchain.org/en",
+    "shortName": "OpBNB",
+    "chainId": 204,
+    "networkId": 204,
+    "explorers": [
+      {
+        "name": "opBNBScan",
+        "url": "https://mainnet.opbnbscan.com/",
+        "standard": "none"
+      }
+    ]
+  }
