@@ -1,7 +1,8 @@
 {
   "name": "Scroll",
   "chain": "ETH",
-  "rpc": [],
+  "status": "incubating",
+  "rpc": ["https://rpc.scroll.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -12,10 +13,16 @@
   "shortName": "scr",
   "chainId": 534352,
   "networkId": 534352,
-  "explorers": [],
+  "explorers": [
+    {
+      "name": "Scroll Mainnet Block Explorer",
+      "url": "https://blockscout.scroll.io",
+      "standard": "EIP3091"
+    }
+  ],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": []
+    "bridges": [{ "url": "https://scroll.io/bridge" }]
   }
 }

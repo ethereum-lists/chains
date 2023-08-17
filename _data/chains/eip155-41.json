@@ -11,5 +11,12 @@
   "infoURL": "https://telos.net",
   "shortName": "TelosEVMTestnet",
   "chainId": 41,
-  "networkId": 41
+  "networkId": 41,
+  "explorers": [
+    {
+      "name": "teloscan",
+      "url": "https://testnet.teloscan.io",
+      "standard": "EIP3091"
+    }
+  ]
 }
