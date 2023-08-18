@@ -5602,6 +5602,32 @@
   "faucets": [],
   "infoURL": "https://rangersprotocol.com"
 }, {
+  "name": "Centrifuge",
+  "chainId": 2031,
+  "shortName": "cfg",
+  "networkId": 2031,
+  "nativeCurrency": {
+    "name": "Centrifuge",
+    "symbol": "CFG",
+    "decimals": 18
+  },
+  "rpc": ["wss://fullnode.parachain.centrifuge.io"],
+  "faucets": [],
+  "infoURL": "https://centrifuge.io"
+}, {
+  "name": "Catalyst",
+  "chainId": 2032,
+  "shortName": "ncfg",
+  "networkId": 2032,
+  "nativeCurrency": {
+    "name": "Catalyst CFG",
+    "symbol": "NCFG",
+    "decimals": 18
+  },
+  "rpc": ["wss://fullnode.catalyst.cntrfg.com"],
+  "faucets": [],
+  "infoURL": "https://centrifuge.io"
+}, {
   "name": "Kiwi Subnet",
   "chainId": 2037,
   "shortName": "kiwi",
@@ -5679,6 +5705,32 @@
   "rpc": ["https://rpc.qkacoin.org"],
   "faucets": [],
   "infoURL": "https://qkacoin.org"
+}, {
+  "name": "Altair",
+  "chainId": 2088,
+  "shortName": "air",
+  "networkId": 2088,
+  "nativeCurrency": {
+    "name": "Altair",
+    "symbol": "AIR",
+    "decimals": 18
+  },
+  "rpc": ["wss://fullnode.altair.centrifuge.io"],
+  "faucets": [],
+  "infoURL": "https://centrifuge.io"
+}, {
+  "name": "Algol",
+  "chainId": 2089,
+  "shortName": "algl",
+  "networkId": 2089,
+  "nativeCurrency": {
+    "name": "Algol",
+    "symbol": "ALGL",
+    "decimals": 18
+  },
+  "rpc": ["wss://fullnode.algol.cntrfg.com"],
+  "faucets": [],
+  "infoURL": "https://centrifuge.io"
 }, {
   "name": "Ecoball Mainnet",
   "chainId": 2100,
