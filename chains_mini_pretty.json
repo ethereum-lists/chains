@@ -8449,6 +8449,19 @@
   "faucets": ["https://faucet.maxxchain.org"],
   "infoURL": "https://www.maxxchain.org/"
 }, {
+  "name": "Arthera Testnet",
+  "chainId": 10243,
+  "shortName": "aa",
+  "networkId": 10243,
+  "nativeCurrency": {
+    "name": "Arthera",
+    "symbol": "AA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-test.arthera.net"],
+  "faucets": ["https://faucet.arthera.net"],
+  "infoURL": "https://docs.arthera.net"
+}, {
   "name": "0XTade",
   "chainId": 10248,
   "shortName": "0xt",
