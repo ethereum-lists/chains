@@ -2586,6 +2586,19 @@
   "faucets": ["https://cronos.org/faucet"],
   "infoURL": "https://cronos.org"
 }, {
+  "name": "Yooldo Verse Mainnet",
+  "chainId": 345,
+  "shortName": "YVM",
+  "networkId": 345,
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.yooldo-verse.xyz/"],
+  "faucets": [],
+  "infoURL": "https://yooldo.gg/"
+}, {
   "name": "Theta Mainnet",
   "chainId": 361,
   "shortName": "theta-mainnet",
