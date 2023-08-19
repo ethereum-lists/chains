@@ -13103,6 +13103,19 @@
   "faucets": ["https://ruby.exchange/faucet.html", "https://sfuel.mylilius.com/"],
   "infoURL": "https://europahub.network/"
 }, {
+  "name": "Ancient8 Testnet",
+  "chainId": 2863311531,
+  "shortName": "a8",
+  "networkId": 2863311531,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.ancient8.gg"],
+  "faucets": [],
+  "infoURL": "https://ancient8.gg/"
+}, {
   "name": "Pirl",
   "chainId": 3125659152,
   "shortName": "pirl",
