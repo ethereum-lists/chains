@@ -1845,7 +1845,7 @@
   "faucets": [],
   "infoURL": "https://explorer.lightstreams.io"
 }, {
-  "name": "Omni Testnet 1",
+  "name": "Omni Testnet",
   "chainId": 165,
   "shortName": "omni_testnet",
   "networkId": 165,
@@ -1854,7 +1854,7 @@
     "symbol": "OMNI",
     "decimals": 18
   },
-  "rpc": ["https://testnet-1.omni.network"],
+  "rpc": ["https://testnet.omni.network"],
   "faucets": [],
   "infoURL": "https://docs.omni.network/"
 }, {
