@@ -12057,13 +12057,13 @@
   "networkId": 8136,
   "status": "incubating"
 }, {
-  "name": "Testnet BeOne Chain",
-  "chain": "tBOC",
-  "rpc": ["https://pre-boc1.beonechain.com"],
+  "name": "BeOne Chain Testnet",
+  "chain": "BOC",
+  "rpc": ["https://pre-boc1.beonechain.com", "https://pre-boc2.beonechain.com", "https://pre-boc3.beonechain.com"],
   "faucets": ["https://testnet.beonescan.com/faucet"],
   "nativeCurrency": {
-    "name": "Testnet BeOne Chain",
-    "symbol": "tBOC",
+    "name": "BeOne Chain Testnet",
+    "symbol": "BOC",
     "decimals": 18
   },
   "infoURL": "https://testnet.beonescan.com",
@@ -12072,7 +12072,7 @@
   "networkId": 8181,
   "icon": "beonechain",
   "explorers": [{
-    "name": "Testnet BeOne Chain",
+    "name": "BeOne Chain Testnet",
     "url": "https://testnet.beonescan.com",
     "icon": "beonechain",
     "standard": "none"
