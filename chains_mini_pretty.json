@@ -7175,6 +7175,19 @@
   "faucets": [],
   "infoURL": "https://arcturuschain.io"
 }, {
+  "name": "Tanssi EVM ContainerChain",
+  "chainId": 5678,
+  "shortName": "TanssiCC",
+  "networkId": 5678,
+  "nativeCurrency": {
+    "name": "Unit",
+    "symbol": "Unit",
+    "decimals": 18
+  },
+  "rpc": ["https://fraa-dancebox-3001-rpc.a.dancebox.tanssi.network", "wss://fraa-dancebox-3001-rpc.a.dancebox.tanssi.network"],
+  "faucets": [],
+  "infoURL": "https://tanssi.network"
+}, {
   "name": "Syscoin Tanenbaum Testnet",
   "chainId": 5700,
   "shortName": "tsys",
