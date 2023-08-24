@@ -15515,6 +15515,26 @@
     }]
   }
 }, {
+  "name": "VELO Labs Mainnet",
+  "chain": "NOVA chain",
+  "rpc": ["https://nova.velo.org"],
+  "faucets": ["https://nova-faucet.velo.org"],
+  "nativeCurrency": {
+    "name": "Nova",
+    "symbol": "NOVA",
+    "decimals": 18
+  },
+  "infoURL": "https://velo.org",
+  "shortName": "VELO",
+  "chainId": 56789,
+  "networkId": 56789,
+  "icon": "novachain",
+  "explorers": [{
+    "name": "novascan",
+    "url": "https://novascan.velo.org",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Rollux Testnet",
   "chain": "SYS",
   "rpc": ["https://rpc-tanenbaum.rollux.com", "https://rpc.ankr.com/rollux_testnet/${ANKR_API_KEY}", "wss://rpc-tanenbaum.rollux.com/wss"],

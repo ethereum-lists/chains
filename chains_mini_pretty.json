@@ -10061,6 +10061,19 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "VELO Labs Mainnet",
+  "chainId": 56789,
+  "shortName": "VELO",
+  "networkId": 56789,
+  "nativeCurrency": {
+    "name": "Nova",
+    "symbol": "NOVA",
+    "decimals": 18
+  },
+  "rpc": ["https://nova.velo.org"],
+  "faucets": ["https://nova-faucet.velo.org"],
+  "infoURL": "https://velo.org"
+}, {
   "name": "Rollux Testnet",
   "chainId": 57000,
   "shortName": "tsys-rollux",
