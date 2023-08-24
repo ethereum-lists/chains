@@ -1,0 +1,23 @@
+{
+  "name": "Miexs Smartchain",
+  "chain": "MiexsSmartchain",
+  "icon": "miexs",
+  "rpc": ["https://mainnet-rpc.miexs.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Miexs Coin",
+    "symbol": "MIX",
+    "decimals": 18
+  },
+  "infoURL": "https://miexs.com",
+  "shortName": "Miexs",
+  "chainId": 761412,
+  "networkId": 761412,
+  "explorers": [
+    {
+      "name": "Miexs Smartchain Explorer",
+      "url": "https://miexs.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
