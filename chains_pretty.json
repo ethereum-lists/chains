@@ -9981,6 +9981,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Xpla Mainnet",
+  "chain": "XPLA",
+  "rpc": ["https://dimension-rpc.xpla.dev"],
+  "faucets": ["https://faucet.xpla.io/"],
+  "nativeCurrency": {
+    "name": "XPLA",
+    "symbol": "XPLA",
+    "decimals": 18
+  },
+  "infoURL": "https://xpla.io/",
+  "shortName": "xpla",
+  "chainId": 3701,
+  "networkId": 3701,
+  "icon": "xpla",
+  "explorers": [{
+    "name": "XPLA Explorer",
+    "url": "https://explorer.xpla.io",
+    "standard": "none"
+  }]
+}, {
   "name": "Crossbell",
   "chain": "Crossbell",
   "rpc": ["https://rpc.crossbell.io"],

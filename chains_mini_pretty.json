@@ -6538,6 +6538,19 @@
   "faucets": ["https://faucet.senjepowersscan.com"],
   "infoURL": "https://senjepowersscan.com"
 }, {
+  "name": "Xpla Mainnet",
+  "chainId": 3701,
+  "shortName": "xpla",
+  "networkId": 3701,
+  "nativeCurrency": {
+    "name": "XPLA",
+    "symbol": "XPLA",
+    "decimals": 18
+  },
+  "rpc": ["https://dimension-rpc.xpla.dev"],
+  "faucets": ["https://faucet.xpla.io/"],
+  "infoURL": "https://xpla.io/"
+}, {
   "name": "Crossbell",
   "chainId": 3737,
   "shortName": "csb",
