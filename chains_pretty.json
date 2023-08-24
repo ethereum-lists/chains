@@ -12057,13 +12057,13 @@
   "networkId": 8136,
   "status": "incubating"
 }, {
-  "name": "BeOne Chain Testnet",
-  "chain": "BOC",
-  "rpc": ["https://pre-boc1.beonechain.com", "https://pre-boc2.beonechain.com", "https://pre-boc3.beonechain.com"],
+  "name": "Testnet BeOne Chain",
+  "chain": "tBOC",
+  "rpc": ["https://pre-boc1.beonechain.com"],
   "faucets": ["https://testnet.beonescan.com/faucet"],
   "nativeCurrency": {
-    "name": "BeOne Chain Testnet",
-    "symbol": "BOC",
+    "name": "Testnet BeOne Chain",
+    "symbol": "tBOC",
     "decimals": 18
   },
   "infoURL": "https://testnet.beonescan.com",
@@ -12072,7 +12072,7 @@
   "networkId": 8181,
   "icon": "beonechain",
   "explorers": [{
-    "name": "BeOne Chain Testnet",
+    "name": "Testnet BeOne Chain",
     "url": "https://testnet.beonescan.com",
     "icon": "beonechain",
     "standard": "none"
@@ -16346,6 +16346,27 @@
     "name": "basescout",
     "url": "https://base-goerli.blockscout.com",
     "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Aerie Network",
+  "chain": "Aerie",
+  "rpc": ["https://mainnet.aerielab.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Aerie",
+    "symbol": "AER",
+    "decimals": 18
+  },
+  "infoURL": "https://aerielab.io/",
+  "shortName": "Aerie",
+  "chainId": 84886,
+  "networkId": 84886,
+  "icon": "aerie",
+  "explorers": [{
+    "name": "Aerie Explorer",
+    "url": "https://explorer.aerielab.io",
+    "icon": "aerie",
     "standard": "EIP3091"
   }]
 }, {

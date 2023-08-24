@@ -7838,16 +7838,16 @@
   "faucets": [],
   "infoURL": "https://github.com/Qitmeer"
 }, {
-  "name": "BeOne Chain Testnet",
+  "name": "Testnet BeOne Chain",
   "chainId": 8181,
   "shortName": "tBOC",
   "networkId": 8181,
   "nativeCurrency": {
-    "name": "BeOne Chain Testnet",
-    "symbol": "BOC",
+    "name": "Testnet BeOne Chain",
+    "symbol": "tBOC",
     "decimals": 18
   },
-  "rpc": ["https://pre-boc1.beonechain.com", "https://pre-boc2.beonechain.com", "https://pre-boc3.beonechain.com"],
+  "rpc": ["https://pre-boc1.beonechain.com"],
   "faucets": ["https://testnet.beonescan.com/faucet"],
   "infoURL": "https://testnet.beonescan.com"
 }, {
@@ -10619,6 +10619,19 @@
   "rpc": ["https://goerli.base.org"],
   "faucets": ["https://www.coinbase.com/faucets/base-ethereum-goerli-faucet"],
   "infoURL": "https://base.org"
+}, {
+  "name": "Aerie Network",
+  "chainId": 84886,
+  "shortName": "Aerie",
+  "networkId": 84886,
+  "nativeCurrency": {
+    "name": "Aerie",
+    "symbol": "AER",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.aerielab.io"],
+  "faucets": [],
+  "infoURL": "https://aerielab.io/"
 }, {
   "name": "CYBERTRUST",
   "chainId": 85449,
