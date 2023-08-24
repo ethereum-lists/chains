@@ -1,9 +1,7 @@
 {
   "name": "VELO Labs Mainnet",
   "chain": "NOVA chain",
-  "rpc": [
-    "https://nova.velo.org"
-  ],
+  "rpc": ["https://nova.velo.org"],
   "faucets": ["https://nova-faucet.velo.org"],
   "nativeCurrency": {
     "name": "Nova",
