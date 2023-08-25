@@ -1455,7 +1455,7 @@
   "faucets": ["https://coston2-faucet.towolabs.com"],
   "infoURL": "https://flare.xyz"
 }, {
-  "name": "DeBank Testnet",
+  "name": "DeBank Testnet(Deprecated)",
   "chainId": 115,
   "shortName": "debank-testnet",
   "networkId": 115,
@@ -12257,6 +12257,19 @@
   "rpc": ["https://rpc.zhejiang.ethpandaops.io"],
   "faucets": ["https://faucet.zhejiang.ethpandaops.io", "https://zhejiang-faucet.pk910.de"],
   "infoURL": "https://zhejiang.ethpandaops.io"
+}, {
+  "name": "DeBank Testnet",
+  "chainId": 2021398,
+  "shortName": "dbk",
+  "networkId": 2021398,
+  "nativeCurrency": {
+    "name": "DeBank USD",
+    "symbol": "USD",
+    "decimals": 18
+  },
+  "rpc": ["http://rpc.testnet.debank.com"],
+  "faucets": [],
+  "infoURL": "https://debank.com"
 }, {
   "name": "Plian Mainnet Main",
   "chainId": 2099156,
