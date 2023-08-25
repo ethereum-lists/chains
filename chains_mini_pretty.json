@@ -2053,6 +2053,19 @@
   "faucets": [],
   "infoURL": "https://moac.io"
 }, {
+  "name": "opBNB Mainnet",
+  "chainId": 204,
+  "shortName": "obnb",
+  "networkId": 204,
+  "nativeCurrency": {
+    "name": "BNB Chain Native Token",
+    "symbol": "BNB",
+    "decimals": 18
+  },
+  "rpc": ["https://opbnb-mainnet-rpc.bnbchain.org"],
+  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains"],
+  "infoURL": "https://opbnb.bnbchain.org/en"
+}, {
   "name": "Structx Mainnet",
   "chainId": 208,
   "shortName": "utx",
@@ -7161,6 +7174,19 @@
   "rpc": ["https://rpc.chainverse.info"],
   "faucets": [],
   "infoURL": "https://chainverse.info"
+}, {
+  "name": "opBNB Testnet",
+  "chainId": 5611,
+  "shortName": "obnbt",
+  "networkId": 5611,
+  "nativeCurrency": {
+    "name": "BNB Chain Native Token",
+    "symbol": "tBNB",
+    "decimals": 18
+  },
+  "rpc": ["https://opbnb-testnet-rpc.bnbchain.org"],
+  "faucets": ["https://testnet.bnbchain.org/faucet-smart"],
+  "infoURL": "https://opbnb.bnbchain.org/en"
 }, {
   "name": "Arcturus Chain Testnet",
   "chainId": 5616,
