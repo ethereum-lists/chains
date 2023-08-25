@@ -6876,9 +6876,9 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
-  "name": "Beam Subnet",
+  "name": "Beam",
   "chainId": 4337,
-  "shortName": "beamsubnet",
+  "shortName": "beam",
   "networkId": 4337,
   "nativeCurrency": {
     "name": "Merit Circle",
@@ -6887,7 +6887,7 @@
   },
   "rpc": ["https://subnets.avax.network/beam/mainnet/rpc"],
   "faucets": [],
-  "infoURL": "https://www.onbeam.com/"
+  "infoURL": "https://www.onbeam.com"
 }, {
   "name": "Htmlcoin Mainnet",
   "chainId": 4444,
@@ -8932,7 +8932,7 @@
 }, {
   "name": "Beam Testnet",
   "chainId": 13337,
-  "shortName": "BEAM",
+  "shortName": "beam-testnet",
   "networkId": 13337,
   "nativeCurrency": {
     "name": "Merit Circle",
@@ -8941,7 +8941,7 @@
   },
   "rpc": ["https://subnets.avax.network/beam/testnet/rpc"],
   "faucets": [],
-  "infoURL": "https://gaming.meritcircle.io"
+  "infoURL": "https://www.onbeam.com"
 }, {
   "name": "Phoenix Mainnet",
   "chainId": 13381,
