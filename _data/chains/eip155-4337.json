@@ -1,5 +1,5 @@
 {
-  "name": "Beam Subnet",
+  "name": "Beam",
   "chain": "BEAM",
   "rpc": ["https://subnets.avax.network/beam/mainnet/rpc"],
   "features": [
@@ -13,13 +13,14 @@
     "symbol": "MC",
     "decimals": 18
   },
-  "infoURL": "https://www.onbeam.com/",
-  "shortName": "beamsubnet",
+  "infoURL": "https://www.onbeam.com",
+  "shortName": "beam",
+  "icon": "beam",
   "chainId": 4337,
   "networkId": 4337,
   "explorers": [
     {
-      "name": "BEAM Explorer",
+      "name": "Beam Explorer",
       "url": "https://subnets.avax.network/beam",
       "standard": "EIP3091"
     }
