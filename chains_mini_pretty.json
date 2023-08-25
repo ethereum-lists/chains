@@ -2014,6 +2014,19 @@
   "faucets": ["https://neutrinoschain.com/faucet"],
   "infoURL": "https://docs.neutrinoschain.com"
 }, {
+  "name": "Bitchain Mainnet",
+  "chainId": 198,
+  "shortName": "bit",
+  "networkId": 198,
+  "nativeCurrency": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.bitchain.biz/"],
+  "faucets": [],
+  "infoURL": "https://www.bitchain.biz/"
+}, {
   "name": "BitTorrent Chain Mainnet",
   "chainId": 199,
   "shortName": "BTT",
