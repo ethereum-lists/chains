@@ -1,9 +1,7 @@
 {
   "name": "opBNB Testnet",
   "chain": "opBNB",
-  "rpc": [
-    "https://opbnb-testnet-rpc.bnbchain.org"
-  ],
+  "rpc": ["https://opbnb-testnet-rpc.bnbchain.org"],
   "faucets": ["https://testnet.bnbchain.org/faucet-smart"],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
@@ -17,12 +15,12 @@
   "explorers": [
     {
       "name": "bscscan-opbnb-testnet",
-      "url": "https://opbnb-testnet.bscscan.com/",
+      "url": "https://opbnb-testnet.bscscan.com",
       "standard": "EIP3091"
     },
     {
       "name": "opbnbscan",
-      "url": "http://opbnbscan.com/",
+      "url": "http://opbnbscan.com",
       "standard": "EIP3091"
     }
   ]
