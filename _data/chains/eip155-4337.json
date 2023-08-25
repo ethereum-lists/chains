@@ -1,15 +1,19 @@
 {
-  "name": "Beam Mainnet",
+  "name": "Beam Subnet",
   "chain": "BEAM",
   "rpc": ["https://subnets.avax.network/beam/mainnet/rpc"],
-  "features": [{ "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Merit Circle",
     "symbol": "MC",
     "decimals": 18
   },
-  "infoURL": "https://gaming.meritcircle.io",
+  "infoURL": "https://www.onbeam.com",
   "shortName": "beam",
   "icon": "beam",
   "chainId": 4337,
