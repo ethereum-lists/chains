@@ -4,7 +4,8 @@
   "rpc": [
     "https://goerli.base.org",
     "https://base-goerli.gateway.tenderly.co",
-    "wss://base-goerli.gateway.tenderly.co"
+    "wss://base-goerli.gateway.tenderly.co",
+    "https://base-goerli.publicnode.com"
   ],
   "faucets": ["https://www.coinbase.com/faucets/base-ethereum-goerli-faucet"],
   "nativeCurrency": {
