@@ -2,7 +2,8 @@
   "name": "IMPERIUM TESTNET",
   "chain": "tIMP",
   "rpc": [
-    "https://data-aws-testnet.imperiumchain.com, https://data-aws2-testnet.imperiumchain.com"
+    "https://data-aws-testnet.imperiumchain.com",
+    "https://data-aws2-testnet.imperiumchain.com"
   ],
   "faucets": ["https://faucet.imperiumchain.com/"],
   "nativeCurrency": {
