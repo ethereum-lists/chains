@@ -6395,6 +6395,32 @@
   "faucets": [],
   "infoURL": "https://filecoin.io"
 }, {
+  "name": "Dubxcoin network",
+  "chainId": 3269,
+  "shortName": "dubx",
+  "networkId": 3269,
+  "nativeCurrency": {
+    "name": "Dubxcoin mainnet",
+    "symbol": "DUBX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpcmain.arabianchain.org"],
+  "faucets": [],
+  "infoURL": "https://arabianchain.org"
+}, {
+  "name": "Dubxcoin testnet",
+  "chainId": 3270,
+  "shortName": "testdubx",
+  "networkId": 3270,
+  "nativeCurrency": {
+    "name": "Dubxcoin testnet",
+    "symbol": "TDUBX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpctestnet.arabianchain.org"],
+  "faucets": ["https://faucet.arabianchain.org/"],
+  "infoURL": "https://arabianchain.org"
+}, {
   "name": "Debounce Subnet Testnet",
   "chainId": 3306,
   "shortName": "debounce-devnet",

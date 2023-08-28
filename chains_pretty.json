@@ -9752,6 +9752,34 @@
   "slip44": 1,
   "explorers": []
 }, {
+  "name": "Dubxcoin network",
+  "chain": "DUBX",
+  "rpc": ["https://rpcmain.arabianchain.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dubxcoin mainnet",
+    "symbol": "DUBX",
+    "decimals": 18
+  },
+  "infoURL": "https://arabianchain.org",
+  "shortName": "dubx",
+  "chainId": 3269,
+  "networkId": 3269
+}, {
+  "name": "Dubxcoin testnet",
+  "chain": "TESTDUBX",
+  "rpc": ["https://rpctestnet.arabianchain.org"],
+  "faucets": ["https://faucet.arabianchain.org/"],
+  "nativeCurrency": {
+    "name": "Dubxcoin testnet",
+    "symbol": "TDUBX",
+    "decimals": 18
+  },
+  "infoURL": "https://arabianchain.org",
+  "shortName": "testdubx",
+  "chainId": 3270,
+  "networkId": 3270
+}, {
   "name": "Debounce Subnet Testnet",
   "chain": "Debounce Network",
   "icon": "debounce",
