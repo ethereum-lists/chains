@@ -1767,6 +1767,58 @@
   "faucets": ["https://faucet.sixprotocol.net"],
   "infoURL": "https://six.network/"
 }, {
+  "name": "Redbelly Network Mainnet",
+  "chainId": 151,
+  "shortName": "rbn",
+  "networkId": 151,
+  "nativeCurrency": {
+    "name": "Redbelly Network Coin",
+    "symbol": "RBNT",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://redbelly.network"
+}, {
+  "name": "Redbelly Network Devnet",
+  "chainId": 152,
+  "shortName": "rbn-devnet",
+  "networkId": 152,
+  "nativeCurrency": {
+    "name": "Redbelly Network Coin",
+    "symbol": "RBNT",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://redbelly.network"
+}, {
+  "name": "Redbelly Network Testnet",
+  "chainId": 153,
+  "shortName": "rbn-testnet",
+  "networkId": 153,
+  "nativeCurrency": {
+    "name": "Redbelly Network Coin",
+    "symbol": "RBNT",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://redbelly.network"
+}, {
+  "name": "Redbelly Network TGE",
+  "chainId": 154,
+  "shortName": "rbn-tge",
+  "networkId": 154,
+  "nativeCurrency": {
+    "name": "Redbelly Network Coin",
+    "symbol": "RBNT",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://redbelly.network"
+}, {
   "name": "Tenet Testnet",
   "chainId": 155,
   "shortName": "tenet-testnet",
