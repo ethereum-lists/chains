@@ -10620,6 +10620,45 @@
   "faucets": [],
   "infoURL": "https://hexapod.network"
 }, {
+  "name": "Amplify Subnet",
+  "chainId": 78430,
+  "shortName": "amplify",
+  "networkId": 78430,
+  "nativeCurrency": {
+    "name": "AMP",
+    "symbol": "AMP",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/amplify/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.avax.network"
+}, {
+  "name": "Bulletin Subnet",
+  "chainId": 78431,
+  "shortName": "bulletin",
+  "networkId": 78431,
+  "nativeCurrency": {
+    "name": "BLT",
+    "symbol": "BLT",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/bulletin/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.avax.network"
+}, {
+  "name": "Conduit Subnet",
+  "chainId": 78432,
+  "shortName": "conduit",
+  "networkId": 78432,
+  "nativeCurrency": {
+    "name": "CON",
+    "symbol": "CON",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/conduit/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.avax.network"
+}, {
   "name": "Gold Smart Chain Testnet",
   "chainId": 79879,
   "shortName": "STANDt",
