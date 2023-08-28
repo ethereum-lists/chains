@@ -493,7 +493,7 @@
   "faucets": [],
   "infoURL": "https://valorbit.com"
 }, {
-  "name": "Unicorn Ultra Testnet",
+  "name": "U2U Solaris Mainnet",
   "chainId": 39,
   "shortName": "u2u",
   "networkId": 39,
@@ -502,8 +502,8 @@
     "symbol": "U2U",
     "decimals": 18
   },
-  "rpc": ["https://rpc-testnet.uniultra.xyz"],
-  "faucets": ["https://faucet.uniultra.xyz"],
+  "rpc": ["https://rpc-mainnet.uniultra.xyz"],
+  "faucets": [],
   "infoURL": "https://uniultra.xyz"
 }, {
   "name": "Telos EVM Mainnet",
