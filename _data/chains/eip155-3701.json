@@ -1,17 +1,25 @@
 {
-  "name": "SeedCoin-Network",
-  "chain": "SeedCoin-Network",
-  "rpc": ["https://node.seedcoin.network"],
-  "faucets": [],
+  "name": "Xpla Testnet",
+  "chain": "XPLATest",
+  "rpc": ["https://dimension-rpc.xpla.dev"],
+  "faucets": ["https://faucet.xpla.io"],
   "nativeCurrency": {
-    "name": "SeedCoin",
-    "symbol": "SEED",
+    "name": "XPLA",
+    "symbol": "XPLA",
     "decimals": 18
   },
-  "infoURL": "https://www.seedcoin.network/",
-  "shortName": "SEED",
-  "icon": "seedcoin",
+  "infoURL": "https://xpla.io",
+  "shortName": "xplatest",
   "chainId": 3701,
   "networkId": 3701,
-  "redFlags": ["reusedChainId"]
+  "icon": "xpla",
+  "explorers": [
+    {
+      "name": "XPLA Explorer",
+      "url": "https://explorer.xpla.io",
+      "standard": "none"
+    }
+  ],
+  "redFlags": ["reusedChainId"],
+  "status":"deprecated"
 }
