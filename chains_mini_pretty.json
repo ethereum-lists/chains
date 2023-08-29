@@ -7643,7 +7643,7 @@
   "faucets": [],
   "infoURL": "https://klyntar.org"
 }, {
-  "name": "Horizen EON",
+  "name": "Horizen EON Mainnet",
   "chainId": 7332,
   "shortName": "EON",
   "networkId": 7332,
@@ -7652,7 +7652,7 @@
     "symbol": "ZEN",
     "decimals": 18
   },
-  "rpc": ["https://eon-rpc.horizenlabs.io/ethv1"],
+  "rpc": ["https://eon-rpc.horizenlabs.io/ethv1", "https://rpc.ankr.com/horizen_eon"],
   "faucets": [],
   "infoURL": "https://horizen.io/"
 }, {
