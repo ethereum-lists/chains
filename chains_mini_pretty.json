@@ -3288,6 +3288,19 @@
   "faucets": [],
   "infoURL": "https://www.laosfoundation.io/"
 }, {
+  "name": "JuncaGlobal Chain Testnet",
+  "chainId": 669,
+  "shortName": "junca",
+  "networkId": 669,
+  "nativeCurrency": {
+    "name": "JuncaGlobal Chain Testnet Native Token",
+    "symbol": "JGCT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.juncachain.com", "wss://ws-testnet.juncachain.com"],
+  "faucets": ["https://faucet-testnet.juncachain.com"],
+  "infoURL": "https://junca-cash.world"
+}, {
   "name": "Karura Network",
   "chainId": 686,
   "shortName": "kar",
