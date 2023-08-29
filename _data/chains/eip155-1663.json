@@ -3,7 +3,10 @@
   "shortName": "Gobi",
   "chain": "Gobi",
   "icon": "eon",
-  "rpc": ["https://gobi-testnet.horizenlabs.io/ethv1"],
+  "rpc": [
+    "https://gobi-rpc.horizenlabs.io/ethv1",
+    "https://rpc.ankr.com/horizen_gobi_testnet"
+  ],
   "features": [
     {
       "name": "EIP155"

@@ -1,0 +1,15 @@
+{
+  "name": "Arcturus Chain Testnet",
+  "chain": "ARCTURUS",
+  "rpc": ["http://185.99.196.3:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Test Arct",
+    "symbol": "tARCT",
+    "decimals": 18
+  },
+  "infoURL": "https://arcturuschain.io",
+  "shortName": "ARCT",
+  "chainId": 5616,
+  "networkId": 5616
+}
