@@ -671,20 +671,26 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "SeedCoin-Network",
-  "chain": "SeedCoin-Network",
-  "rpc": ["https://node.seedcoin.network"],
+  "name": "Xpla Mainnet",
+  "chain": "XPLA",
+  "rpc": ["https://dimension-rpc.xpla.dev"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "SeedCoin",
-    "symbol": "SEED",
+    "name": "XPLA",
+    "symbol": "XPLA",
     "decimals": 18
   },
-  "infoURL": "https://www.seedcoin.network/",
-  "shortName": "SEED",
-  "icon": "seedcoin",
+  "infoURL": "https://xpla.io",
+  "shortName": "xpla",
   "chainId": 37,
-  "networkId": 37
+  "networkId": 37,
+  "icon": "xpla",
+  "explorers": [{
+    "name": "XPLA Explorer",
+    "url": "https://explorer.xpla.io",
+    "standard": "none"
+  }],
+  "redFlags": ["reusedChainId"]
 }, {
   "name": "Valorbit",
   "chain": "VAL",
@@ -10109,17 +10115,17 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Xpla Mainnet",
-  "chain": "XPLA",
+  "name": "Xpla Testnet",
+  "chain": "XPLATest",
   "rpc": ["https://dimension-rpc.xpla.dev"],
-  "faucets": ["https://faucet.xpla.io/"],
+  "faucets": ["https://faucet.xpla.io"],
   "nativeCurrency": {
     "name": "XPLA",
     "symbol": "XPLA",
     "decimals": 18
   },
-  "infoURL": "https://xpla.io/",
-  "shortName": "xpla",
+  "infoURL": "https://xpla.io",
+  "shortName": "xplatest",
   "chainId": 3701,
   "networkId": 3701,
   "icon": "xpla",
@@ -10127,7 +10133,8 @@
     "name": "XPLA Explorer",
     "url": "https://explorer.xpla.io",
     "standard": "none"
-  }]
+  }],
+  "redFlags": ["reusedChainId"]
 }, {
   "name": "Crossbell",
   "chain": "Crossbell",
