@@ -1,17 +1,17 @@
 {
-  "name": "Xpla Mainnet",
-  "chain": "XPLA",
+  "name": "Xpla Testnet",
+  "chain": "XPLATest",
   "rpc": ["https://dimension-rpc.xpla.dev"],
-  "faucets": [],
+  "faucets": ["https://faucet.xpla.io"],
   "nativeCurrency": {
     "name": "XPLA",
     "symbol": "XPLA",
     "decimals": 18
   },
   "infoURL": "https://xpla.io",
-  "shortName": "xpla",
-  "chainId": 37,
-  "networkId": 37,
+  "shortName": "xplatest",
+  "chainId": 3701,
+  "networkId": 3701,
   "icon": "xpla",
   "explorers": [
     {
