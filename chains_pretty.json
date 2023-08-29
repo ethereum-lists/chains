@@ -14472,6 +14472,27 @@
     "standard": "none"
   }]
 }, {
+  "name": "Nautilus Mainnet",
+  "chain": "ETH",
+  "icon": "nautilus",
+  "rpc": ["https://api.nautilus.nautchain.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Zebec",
+    "symbol": "ZBC",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.nautchain.xyz",
+  "shortName": "NAUTCHAIN",
+  "chainId": 22222,
+  "networkId": 22222,
+  "explorers": [{
+    "name": "Nautscan",
+    "url": "https://nautscan.com",
+    "standard": "EIP3091",
+    "icon": "nautilus"
+  }]
+}, {
   "name": "MAP Mainnet",
   "chain": "MAP",
   "icon": "map",
@@ -16736,6 +16757,27 @@
   "shortName": "Cyber",
   "chainId": 85449,
   "networkId": 48501
+}, {
+  "name": "Nautilus Proteus Testnet",
+  "chain": "ETH",
+  "icon": "nautilus",
+  "rpc": ["https://api.proteus.nautchain.xyz/solana"],
+  "faucets": ["https://proteusfaucet.nautchain.xyz"],
+  "nativeCurrency": {
+    "name": "Zebec Test Token",
+    "symbol": "tZBC",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.nautchain.xyz",
+  "shortName": "NAUTTest",
+  "chainId": 88002,
+  "networkId": 88002,
+  "explorers": [{
+    "name": "Nautscan",
+    "url": "https://proteus.nautscan.com",
+    "standard": "EIP3091",
+    "icon": "nautilus"
+  }]
 }, {
   "name": "Chiliz Scoville Testnet",
   "chain": "CHZ",

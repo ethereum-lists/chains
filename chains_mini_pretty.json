@@ -9424,6 +9424,19 @@
   "faucets": [],
   "infoURL": "https://testnet.airdao.io"
 }, {
+  "name": "Nautilus Mainnet",
+  "chainId": 22222,
+  "shortName": "NAUTCHAIN",
+  "networkId": 22222,
+  "nativeCurrency": {
+    "name": "Zebec",
+    "symbol": "ZBC",
+    "decimals": 18
+  },
+  "rpc": ["https://api.nautilus.nautchain.xyz"],
+  "faucets": [],
+  "infoURL": "https://docs.nautchain.xyz"
+}, {
   "name": "MAP Mainnet",
   "chainId": 22776,
   "shortName": "map",
@@ -10879,6 +10892,19 @@
   "rpc": ["http://testnet.cybertrust.space:48501"],
   "faucets": [],
   "infoURL": "https://cybertrust.space"
+}, {
+  "name": "Nautilus Proteus Testnet",
+  "chainId": 88002,
+  "shortName": "NAUTTest",
+  "networkId": 88002,
+  "nativeCurrency": {
+    "name": "Zebec Test Token",
+    "symbol": "tZBC",
+    "decimals": 18
+  },
+  "rpc": ["https://api.proteus.nautchain.xyz/solana"],
+  "faucets": ["https://proteusfaucet.nautchain.xyz"],
+  "infoURL": "https://docs.nautchain.xyz"
 }, {
   "name": "Chiliz Scoville Testnet",
   "chainId": 88880,
