@@ -673,7 +673,7 @@
 }, {
   "name": "Xpla Mainnet",
   "chain": "XPLA",
-  "rpc": ["https://dimension-rpc.xpla.dev"],
+  "rpc": ["https://dimension-evm-rpc.xpla.dev"],
   "faucets": [],
   "nativeCurrency": {
     "name": "XPLA",
@@ -687,8 +687,8 @@
   "icon": "xpla",
   "explorers": [{
     "name": "XPLA Explorer",
-    "url": "https://explorer.xpla.io",
-    "standard": "none"
+    "url": "https://explorer.xpla.io/mainnet",
+    "standard": "EIP3091"
   }],
   "redFlags": ["reusedChainId"]
 }, {
@@ -10201,7 +10201,7 @@
     "url": "https://explorer.xpla.io",
     "standard": "none"
   }],
-  "redFlags": ["reusedChainId"]
+  "status": "deprecated"
 }, {
   "name": "Crossbell",
   "chain": "Crossbell",
