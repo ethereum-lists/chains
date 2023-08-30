@@ -5745,6 +5745,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Shrapnel Testnet",
+  "chainId": 2038,
+  "shortName": "shraptest",
+  "networkId": 2038,
+  "nativeCurrency": {
+    "name": "SHRAPG",
+    "symbol": "SHRAPG",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/shrapnel/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.shrapnel.com/"
+}, {
   "name": "OriginTrail Parachain",
   "chainId": 2043,
   "shortName": "otp",
