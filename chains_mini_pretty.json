@@ -8917,6 +8917,19 @@
   "faucets": [],
   "infoURL": "https://sanr.app"
 }, {
+  "name": "Polygon Supernet Arianee",
+  "chainId": 11891,
+  "shortName": "Arianee",
+  "networkId": 11891,
+  "nativeCurrency": {
+    "name": "Arianee",
+    "symbol": "ARIA20",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.polygonsupernet.public.arianee.net"],
+  "faucets": [],
+  "infoURL": "https://arianee.org"
+}, {
   "name": "SatoshiChain Mainnet",
   "chainId": 12009,
   "shortName": "sats",
