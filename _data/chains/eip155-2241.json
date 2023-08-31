@@ -4,7 +4,7 @@
   "title": "The Krest Network",
   "icon": "krest",
   "rpc": [
-      "erpc-krest.peaq.network"
+      "https://erpc-krest.peaq.network"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -12,7 +12,7 @@
     "symbol": "KRST",
     "decimals": 18
   },
-  "infoURL": "https://www.peaq.network/",
+  "infoURL": "https://www.peaq.network",
   "shortName": "KRST",
   "chainId": 2241,
   "networkId": 2241,
