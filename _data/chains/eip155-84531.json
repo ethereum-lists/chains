@@ -1,7 +1,12 @@
 {
   "name": "Base Goerli Testnet",
   "chain": "ETH",
-  "rpc": ["https://goerli.base.org"],
+  "rpc": [
+    "https://goerli.base.org",
+    "https://base-goerli.gateway.tenderly.co",
+    "wss://base-goerli.gateway.tenderly.co",
+    "https://base-goerli.publicnode.com"
+  ],
   "faucets": ["https://www.coinbase.com/faucets/base-ethereum-goerli-faucet"],
   "nativeCurrency": {
     "name": "Goerli Ether",
@@ -22,7 +27,8 @@
     {
       "name": "basescout",
       "url": "https://base-goerli.blockscout.com",
-      "standard": "none"
+      "icon": "blockscout",
+      "standard": "EIP3091"
     }
   ]
 }

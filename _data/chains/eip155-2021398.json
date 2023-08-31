@@ -1,0 +1,23 @@
+{
+  "name": "DeBank Testnet",
+  "chain": "DeBank",
+  "rpc": ["http://rpc.testnet.debank.com"],
+  "faucets": [],
+  "icon": "debank",
+  "nativeCurrency": {
+    "name": "DeBank USD",
+    "symbol": "USD",
+    "decimals": 18
+  },
+  "infoURL": "https://debank.com",
+  "shortName": "dbk",
+  "chainId": 2021398,
+  "networkId": 2021398,
+  "explorers": [
+    {
+      "name": "DeBank Chain Explorer",
+      "url": "https://explorer.testnet.debank.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

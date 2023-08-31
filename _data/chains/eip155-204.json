@@ -1,0 +1,23 @@
+{
+  "name": "opBNB Mainnet",
+  "chain": "opBNB",
+  "rpc": ["https://opbnb-mainnet-rpc.bnbchain.org"],
+  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains"],
+  "nativeCurrency": {
+    "name": "BNB Chain Native Token",
+    "symbol": "BNB",
+    "decimals": 18
+  },
+  "infoURL": "https://opbnb.bnbchain.org/en",
+  "shortName": "obnb",
+  "chainId": 204,
+  "networkId": 204,
+  "slip44": 714,
+  "explorers": [
+    {
+      "name": "opbnbscan",
+      "url": "http://mainnet.opbnbscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
