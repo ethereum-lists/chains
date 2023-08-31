@@ -3288,9 +3288,22 @@
   "faucets": [],
   "infoURL": "https://www.laosfoundation.io/"
 }, {
+  "name": "JuncaChain",
+  "chainId": 668,
+  "shortName": "junca",
+  "networkId": 668,
+  "nativeCurrency": {
+    "name": "JuncaChain Native Token",
+    "symbol": "JGC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.juncachain.com"],
+  "faucets": [],
+  "infoURL": "https://junca-cash.world"
+}, {
   "name": "JuncaChain testnet",
   "chainId": 669,
-  "shortName": "Junca",
+  "shortName": "juncat",
   "networkId": 669,
   "nativeCurrency": {
     "name": "JuncaChain Testnet Native Token",
