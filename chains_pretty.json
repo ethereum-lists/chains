@@ -15757,7 +15757,7 @@
 }, {
   "name": "Titan",
   "chain": "ETH",
-  "rpc": ["https://rpc.titan.tokamak.network", "wss://rpc.titan.tokamak.network/ws"],
+  "rpc": ["https://rpc.titan.tokamak.network", "wss://rpc.titan.tokamak.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
