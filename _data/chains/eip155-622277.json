@@ -3,8 +3,8 @@
   "chain": "RTH",
   "rpc": [
     "https://rpc.rethereum.org",
-    "https://rethereum.rpc.restratagem.com/",
-    "https://rpc.rthcentral.org/"
+    "https://rethereum.rpc.restratagem.com",
+    "https://rpc.rthcentral.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,15 +13,17 @@
     "decimals": 18
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "infoURL": "https://www.rethereum.org/",
+  "infoURL": "https://www.rethereum.org",
   "shortName": "rth",
   "chainId": 622277,
   "networkId": 622277,
   "icon": "rethereum",
-  "explorers": [{
-    "name": "rethereum",
-    "url": "https://explorer.rethereum.org",
-    "icon": "blockscout",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "rethereum",
+      "url": "https://explorer.rethereum.org",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
 }
