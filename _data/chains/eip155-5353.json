@@ -1,0 +1,27 @@
+{
+  "name": "Tritanium Testnet",
+  "chain": "TRITANIUM",
+  "rpc": [
+    "https://nodetestnet-station-one.tritanium.network/",
+    "https://nodetestnet-station-two.tritanium.network/"
+  ],
+  "faucets": ["https://faucet.tritanium.network"],
+  "nativeCurrency": {
+    "name": "Tritanium Native Token",
+    "symbol": "tTRN",
+    "decimals": 18
+  },
+  "infoURL": "https://tritanium.network",
+  "shortName": "ttrn",
+  "chainId": 5353,
+  "networkId": 5353,
+  "icon": "tritanium",
+  "explorers": [
+    {
+      "name": "TRITANIUM Testnet Explorer",
+      "icon": "tritanium",
+      "url": "https://testnet.tritanium.network",
+      "standard": "none"
+    }
+  ]
+}
