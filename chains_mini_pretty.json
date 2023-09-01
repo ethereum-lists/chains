@@ -5940,6 +5940,19 @@
   "faucets": [],
   "infoURL": "https://docs.metaplayer.one/"
 }, {
+  "name": "BigShortBets",
+  "chainId": 2137,
+  "shortName": "bigsb",
+  "networkId": 2137,
+  "nativeCurrency": {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "rpc": ["https://market.bigsb.io", "wss://market.bigsb.io"],
+  "faucets": [],
+  "infoURL": "https://bigshortbets.com/"
+}, {
   "name": "Defi Oracle Meta Testnet",
   "chainId": 2138,
   "shortName": "dfio-meta-test",
