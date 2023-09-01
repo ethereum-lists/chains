@@ -1325,6 +1325,19 @@
   "faucets": [],
   "infoURL": "https://web3games.org/"
 }, {
+  "name": "Worldland Mainnet",
+  "chainId": 103,
+  "shortName": "WLC",
+  "networkId": 103,
+  "nativeCurrency": {
+    "name": "Worldland",
+    "symbol": "WL",
+    "decimals": 18
+  },
+  "rpc": ["https://seoul.worldland.foundation"],
+  "faucets": [],
+  "infoURL": "https://worldland.foundation"
+}, {
   "name": "Kaiba Lightning Chain Testnet",
   "chainId": 104,
   "shortName": "tklc",
@@ -8773,6 +8786,19 @@
   "rpc": ["https://node.0xtchain.com"],
   "faucets": [],
   "infoURL": "https://www.0xtrade.finance/"
+}, {
+  "name": "Worldland Testnet",
+  "chainId": 10395,
+  "shortName": "TWLC",
+  "networkId": 10395,
+  "nativeCurrency": {
+    "name": "Worldland",
+    "symbol": "WL",
+    "decimals": 18
+  },
+  "rpc": ["https://gwangju.worldland.foundation"],
+  "faucets": [],
+  "infoURL": "https://worldland.foundation"
 }, {
   "name": "Numbers Mainnet",
   "chainId": 10507,

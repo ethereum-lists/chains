@@ -1967,6 +1967,25 @@
   "chainId": 102,
   "networkId": 102
 }, {
+  "name": "Worldland Mainnet",
+  "chain": "Worldland",
+  "rpc": ["https://seoul.worldland.foundation"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Worldland",
+    "symbol": "WL",
+    "decimals": 18
+  },
+  "infoURL": "https://worldland.foundation",
+  "shortName": "WLC",
+  "chainId": 103,
+  "networkId": 103,
+  "explorers": [{
+    "name": "Worldland Explorer",
+    "url": "https://scan.worldland.foundation",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Kaiba Lightning Chain Testnet",
   "chain": "tKLC",
   "rpc": ["https://klc.live/"],
@@ -13434,6 +13453,25 @@
     "name": "0xtrade Scan",
     "url": "https://www.0xtscan.com",
     "standard": "none"
+  }]
+}, {
+  "name": "Worldland Testnet",
+  "chain": "Worldland",
+  "rpc": ["https://gwangju.worldland.foundation"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Worldland",
+    "symbol": "WL",
+    "decimals": 18
+  },
+  "infoURL": "https://worldland.foundation",
+  "shortName": "TWLC",
+  "chainId": 10395,
+  "networkId": 10395,
+  "explorers": [{
+    "name": "Worldland Explorer",
+    "url": "https://testscan.worldland.foundation",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Numbers Mainnet",
