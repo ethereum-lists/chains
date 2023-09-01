@@ -9840,6 +9840,19 @@
   "faucets": [],
   "infoURL": "https://q.org/"
 }, {
+  "name": "ConnectorManager Robin",
+  "chainId": 38401,
+  "shortName": "ttrpg",
+  "networkId": 38401,
+  "nativeCurrency": {
+    "name": "Rangers Protocol Gas",
+    "symbol": "ttRPG",
+    "decimals": 18
+  },
+  "rpc": ["https://robin-cm.rangersprotocol.com/api/jsonrpc"],
+  "faucets": ["https://robin-faucet.rangersprotocol.com"],
+  "infoURL": "https://rangersprotocol.com"
+}, {
   "name": "Energi Mainnet",
   "chainId": 39797,
   "shortName": "nrg",
