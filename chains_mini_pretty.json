@@ -12284,6 +12284,19 @@
   "faucets": ["faucet.bescscan.ion"],
   "infoURL": "besceco.finance"
 }, {
+  "name": "Rethereum Mainnet",
+  "chainId": 622277,
+  "shortName": "rth",
+  "networkId": 622277,
+  "nativeCurrency": {
+    "name": "Rethereum",
+    "symbol": "RTH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.rethereum.org", "https://rethereum.rpc.restratagem.com", "https://rpc.rthcentral.org"],
+  "faucets": [],
+  "infoURL": "https://www.rethereum.org"
+}, {
   "name": "Bear Network Chain Mainnet",
   "chainId": 641230,
   "shortName": "BRNKC",
