@@ -4328,6 +4328,19 @@
   "faucets": [],
   "infoURL": "https://polygon.technology/polygon-zkevm"
 }, {
+  "name": "BLXq Testnet",
+  "chainId": 1107,
+  "shortName": "blxq",
+  "networkId": 1107,
+  "nativeCurrency": {
+    "name": "BLXQ",
+    "symbol": "BLXQ",
+    "decimals": 18
+  },
+  "rpc": ["https://testnetq1.blx.org"],
+  "faucets": [],
+  "infoURL": "https://blx.org"
+}, {
   "name": "WEMIX3.0 Mainnet",
   "chainId": 1111,
   "shortName": "wemix",
