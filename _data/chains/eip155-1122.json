@@ -2,6 +2,7 @@
   "name": "Mara Testnet Network",
   "chain": "Mara",
   "rpc": ["https://testapi.mara.xyz/http"],
+  "faucets": ["https://testnet.mara.xyz"],
   "nativeCurrency": {
     "name": "Mara Testnet Token",
     "symbol": "MARA",
