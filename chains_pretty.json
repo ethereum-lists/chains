@@ -1969,6 +1969,7 @@
 }, {
   "name": "Worldland Mainnet",
   "chain": "Worldland",
+  "icon": "worldland",
   "rpc": ["https://seoul.worldland.foundation"],
   "faucets": [],
   "nativeCurrency": {
@@ -3435,6 +3436,34 @@
     "icon": "ftmscan",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Kroma",
+  "chain": "ETH",
+  "rpc": ["https://api.kroma.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://kroma.network",
+  "icon": "kroma",
+  "shortName": "kroma",
+  "chainId": 255,
+  "networkId": 255,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout.kroma.network",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://kroma.network/bridge"
+    }]
+  }
 }, {
   "name": "Huobi ECO Chain Testnet",
   "chain": "Heco",
@@ -13514,6 +13543,7 @@
 }, {
   "name": "Worldland Testnet",
   "chain": "Worldland",
+  "icon": "worldland",
   "rpc": ["https://gwangju.worldland.foundation"],
   "faucets": [],
   "nativeCurrency": {
