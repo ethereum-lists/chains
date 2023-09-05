@@ -12102,6 +12102,19 @@
   "faucets": [],
   "infoURL": "https://arbitrum.io/"
 }, {
+  "name": "Arbitrum Sepolia",
+  "chainId": 421614,
+  "shortName": "arb-sep",
+  "networkId": 421614,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia-rollup.abitrum.io/rpc"],
+  "faucets": [],
+  "infoURL": "https://arbitrum.io"
+}, {
   "name": "Fastex Chain testnet",
   "chainId": 424242,
   "shortName": "fastexTestnet",

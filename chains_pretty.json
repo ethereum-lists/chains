@@ -1969,6 +1969,7 @@
 }, {
   "name": "Worldland Mainnet",
   "chain": "Worldland",
+  "icon": "worldland",
   "rpc": ["https://seoul.worldland.foundation"],
   "faucets": [],
   "nativeCurrency": {
@@ -13514,6 +13515,7 @@
 }, {
   "name": "Worldland Testnet",
   "chain": "Worldland",
+  "icon": "worldland",
   "rpc": ["https://gwangju.worldland.foundation"],
   "faucets": [],
   "nativeCurrency": {
@@ -18691,6 +18693,33 @@
     "chain": "eip155-5",
     "bridges": [{
       "url": "https://bridge.arbitrum.io/"
+    }]
+  }
+}, {
+  "name": "Arbitrum Sepolia",
+  "title": "Arbitrum Sepolia Rollup Testnet",
+  "chain": "ETH",
+  "rpc": ["https://sepolia-rollup.abitrum.io/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://arbitrum.io",
+  "shortName": "arb-sep",
+  "chainId": 421614,
+  "networkId": 421614,
+  "explorers": [{
+    "name": "Arbitrum Sepolia Rollup Testnet Explorer",
+    "url": "https://sepolia-explorer.arbitrum.io",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{
+      "url": "https://bridge.arbitrum.io"
     }]
   }
 }, {
