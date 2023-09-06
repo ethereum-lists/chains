@@ -1,7 +1,11 @@
 {
   "name": "Ethereum Classic Mainnet",
   "chain": "ETC",
-  "rpc": ["https://etc.rivet.link"],
+  "rpc": [
+    "https://etc.rivet.link",
+    "https://etc.etcdesktop.com",
+    "https://etc.mytokenpocket.vip"
+  ],
   "features": [{ "name": "EIP155" }],
   "faucets": [],
   "nativeCurrency": {
