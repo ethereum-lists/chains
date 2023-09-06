@@ -555,10 +555,10 @@
     "decimals": 18
   },
   "rpc": ["https://pangolin-rpc.darwinia.network"],
-  "faucets": ["https://docs.crab.network/dvm/wallets/dvm-metamask#apply-for-the-test-token"],
+  "faucets": ["https://docs.darwinia.network/pangolin-testnet-1e9ac8b09e874e8abd6a7f18c096ca6a"],
   "infoURL": "https://darwinia.network/"
 }, {
-  "name": "Darwinia Crab Network",
+  "name": "Crab Network",
   "chainId": 44,
   "shortName": "crab",
   "networkId": 44,
@@ -567,7 +567,7 @@
     "symbol": "CRAB",
     "decimals": 18
   },
-  "rpc": ["https://crab-rpc.darwinia.network"],
+  "rpc": ["https://crab-rpc.darwinia.network", "https://crab-rpc.darwiniacommunitydao.xyz", "https://crab.api.onfinality.io/public-ws", "https://darwiniacrab-rpc.dwellir.com"],
   "faucets": [],
   "infoURL": "https://crab.network/"
 }, {
@@ -581,7 +581,7 @@
     "decimals": 18
   },
   "rpc": ["https://pangoro-rpc.darwinia.network"],
-  "faucets": [],
+  "faucets": ["https://docs.darwinia.network/pangoro-testnet-70cfec5dc9ca42759959ba3803edaec2"],
   "infoURL": "https://darwinia.network/"
 }, {
   "name": "Darwinia Network",
@@ -593,7 +593,7 @@
     "symbol": "RING",
     "decimals": 18
   },
-  "rpc": ["https://rpc.darwinia.network"],
+  "rpc": ["https://rpc.darwinia.network", "https://darwinia-rpc.darwiniacommunitydao.xyz", "https://darwinia2.api.onfinality.io/public-ws", "https://darwinia-rpc.dwellir.com"],
   "faucets": [],
   "infoURL": "https://darwinia.network/"
 }, {
