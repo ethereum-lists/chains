@@ -2,7 +2,10 @@
   "name": "Ethereum Classic Testnet Mordor",
   "chain": "ETC",
   "rpc": ["https://rpc.mordor.etccooperative.org"],
-  "faucets": [],
+  "faucets": [
+    "https://mordor.canhaz.net/",
+    "https://easy.hebeswap.com/#/faucet"
+  ],
   "nativeCurrency": {
     "name": "Mordor Classic Testnet Ether",
     "symbol": "METC",
