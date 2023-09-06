@@ -2,6 +2,7 @@
   "name": "Ethereum Classic Testnet Mordor",
   "chain": "ETC",
   "rpc": ["https://rpc.mordor.etccooperative.org"],
+  "features": [{ "name": "EIP155" }],
   "faucets": [
     "https://mordor.canhaz.net/",
     "https://easy.hebeswap.com/#/faucet"
@@ -15,6 +16,7 @@
   "shortName": "metc",
   "chainId": 63,
   "networkId": 7,
+  "slip44": 63,
   "explorers": [
     {
       "name": "blockscout",
