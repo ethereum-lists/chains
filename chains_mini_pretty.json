@@ -789,7 +789,7 @@
     "decimals": 18
   },
   "rpc": ["https://etc.rivet.link"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/?"],
+  "faucets": [],
   "infoURL": "https://ethereumclassic.org"
 }, {
   "name": "Ethereum Classic Testnet Morden",
@@ -815,7 +815,7 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.mordor.etccooperative.org"],
-  "faucets": [],
+  "faucets": ["https://mordor.canhaz.net/", "https://easy.hebeswap.com/#/faucet"],
   "infoURL": "https://github.com/eth-classic/mordor/"
 }, {
   "name": "Ellaism",

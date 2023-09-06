@@ -123,6 +123,7 @@
   }]
 }, {
   "name": "Ethereum Classic Testnet Kotti",
+  "status": "deprecated",
   "chain": "ETC",
   "rpc": ["https://www.ethercluster.com/kotti"],
   "faucets": [],
@@ -1160,7 +1161,10 @@
   "name": "Ethereum Classic Mainnet",
   "chain": "ETC",
   "rpc": ["https://etc.rivet.link"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/?"],
+  "features": [{
+    "name": "EIP155"
+  }],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Ethereum Classic Ether",
     "symbol": "ETC",
@@ -1174,7 +1178,7 @@
   "explorers": [{
     "name": "blockscout",
     "url": "https://blockscout.com/etc/mainnet",
-    "standard": "none"
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Ethereum Classic Testnet Morden",
@@ -1194,7 +1198,10 @@
   "name": "Ethereum Classic Testnet Mordor",
   "chain": "ETC",
   "rpc": ["https://rpc.mordor.etccooperative.org"],
-  "faucets": [],
+  "features": [{
+    "name": "EIP155"
+  }],
+  "faucets": ["https://mordor.canhaz.net/", "https://easy.hebeswap.com/#/faucet"],
   "nativeCurrency": {
     "name": "Mordor Classic Testnet Ether",
     "symbol": "METC",
@@ -1203,7 +1210,13 @@
   "infoURL": "https://github.com/eth-classic/mordor/",
   "shortName": "metc",
   "chainId": 63,
-  "networkId": 7
+  "networkId": 7,
+  "slip44": 63,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout.com/etc/mordor",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Ellaism",
   "chain": "ELLA",
