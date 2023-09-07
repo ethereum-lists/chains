@@ -1403,6 +1403,19 @@
   "faucets": ["https://faucet.thundercore.com"],
   "infoURL": "https://thundercore.com"
 }, {
+  "name": "Shibarium",
+  "chainId": 109,
+  "shortName": "shibariumecosystem",
+  "networkId": 109,
+  "nativeCurrency": {
+    "name": "BONE Shibarium",
+    "symbol": "BONE",
+    "decimals": 18
+  },
+  "rpc": ["https://www.shibrpc.com"],
+  "faucets": [],
+  "infoURL": "https://shibariumecosystem.com"
+}, {
   "name": "Proton Testnet",
   "chainId": 110,
   "shortName": "xpr",
