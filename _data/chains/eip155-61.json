@@ -1,8 +1,13 @@
 {
   "name": "Ethereum Classic Mainnet",
   "chain": "ETC",
-  "rpc": ["https://etc.rivet.link"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/?"],
+  "rpc": [
+    "https://etc.rivet.link",
+    "https://etc.etcdesktop.com",
+    "https://etc.mytokenpocket.vip"
+  ],
+  "features": [{ "name": "EIP155" }],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Ethereum Classic Ether",
     "symbol": "ETC",
@@ -13,12 +18,11 @@
   "chainId": 61,
   "networkId": 1,
   "slip44": 61,
-
   "explorers": [
     {
       "name": "blockscout",
       "url": "https://blockscout.com/etc/mainnet",
-      "standard": "none"
+      "standard": "EIP3091"
     }
   ]
 }
