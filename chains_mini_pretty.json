@@ -4328,6 +4328,19 @@
   "faucets": [],
   "infoURL": "https://www.metis.io"
 }, {
+  "name": "Humans.ai Mainnet",
+  "chainId": 1089,
+  "shortName": "humans",
+  "networkId": 1089,
+  "nativeCurrency": {
+    "name": "HEART",
+    "symbol": "HEART",
+    "decimals": 18
+  },
+  "rpc": ["https://jsonrpc.humans.nodestake.top", "https://humans-mainnet-evm.itrocket.net:443", "https://humans-evm-rpc.staketab.org:443", "https://evm.humans.stakepool.dev.br", "https://mainnet-humans-evm.konsortech.xyz", "https://evm-rpc.mainnet.humans.zone"],
+  "faucets": [],
+  "infoURL": "https://humans.ai"
+}, {
   "name": "MOAC mainnet",
   "chainId": 1099,
   "shortName": "moac",
