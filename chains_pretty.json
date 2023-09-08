@@ -4480,6 +4480,7 @@
   }
 }, {
   "name": "Frenchain Testnet",
+  "status": "deprecated",
   "chain": "tfren",
   "rpc": ["https://rpc-01tn.frenchain.app"],
   "faucets": [],
@@ -9906,6 +9907,7 @@
 }, {
   "name": "Canxium Mainnet",
   "chain": "CAU",
+  "icon": "canxium",
   "rpc": ["https://rpc.canxium.org"],
   "faucets": [],
   "nativeCurrency": {
@@ -15062,6 +15064,26 @@
     "name": "Piece Scan",
     "url": "https://testnet-scan.piecenetwork.com",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Cerium Testnet",
+  "chain": "CAU",
+  "icon": "canxium",
+  "rpc": ["https://cerium-rpc.canxium.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Canxium",
+    "symbol": "CAU",
+    "decimals": 18
+  },
+  "infoURL": "https://canxium.org",
+  "shortName": "ceri",
+  "chainId": 30103,
+  "networkId": 30103,
+  "explorers": [{
+    "name": "canxium explorer",
+    "url": "https://cerium-explorer.canxium.net",
+    "standard": "none"
   }]
 }, {
   "name": "Ethersocial Network",

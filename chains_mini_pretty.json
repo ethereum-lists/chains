@@ -9788,6 +9788,19 @@
   "faucets": ["https://piecenetwork.com/faucet"],
   "infoURL": "https://piecenetwork.com"
 }, {
+  "name": "Cerium Testnet",
+  "chainId": 30103,
+  "shortName": "ceri",
+  "networkId": 30103,
+  "nativeCurrency": {
+    "name": "Canxium",
+    "symbol": "CAU",
+    "decimals": 18
+  },
+  "rpc": ["https://cerium-rpc.canxium.net"],
+  "faucets": [],
+  "infoURL": "https://canxium.org"
+}, {
   "name": "Ethersocial Network",
   "chainId": 31102,
   "shortName": "esn",
