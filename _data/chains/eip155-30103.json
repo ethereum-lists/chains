@@ -1,8 +1,8 @@
 {
-  "name": "Canxium Mainnet",
+  "name": "Cerium Testnet",
   "chain": "CAU",
   "icon": "canxium",
-  "rpc": ["https://rpc.canxium.org"],
+  "rpc": ["https://cerium-rpc.canxium.net"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Canxium",
@@ -10,13 +10,13 @@
     "decimals": 18
   },
   "infoURL": "https://canxium.org",
-  "shortName": "cau",
-  "chainId": 3003,
-  "networkId": 3003,
+  "shortName": "ceri",
+  "chainId": 30103,
+  "networkId": 30103,
   "explorers": [
     {
       "name": "canxium explorer",
-      "url": "https://explorer.canxium.org",
+      "url": "https://cerium-explorer.canxium.net",
       "standard": "none"
     }
   ]
