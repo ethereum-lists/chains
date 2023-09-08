@@ -1,8 +1,8 @@
 {
-  "name": "ZetaChain Athens Testnet",
+  "name": "ZetaChain Athens 3 Testnet",
   "chain": "ZetaChain",
   "icon": "zetachain",
-  "rpc": ["https://api.athens2.zetachain.com/evm"],
+  "rpc": ["https://rpc.ankr.com/zetachain_evm_athens_testnet"],
   "faucets": ["https://labs.zetachain.com/get-zeta"],
   "nativeCurrency": {
     "name": "Zeta",
@@ -17,7 +17,7 @@
   "explorers": [
     {
       "name": "ZetaChain Athens Testnet Explorer",
-      "url": "https://explorer.athens.zetachain.com",
+      "url": "https://athens3.explorer.zetachain.com",
       "standard": "none"
     },
     {
