@@ -11,17 +11,24 @@
     "wss://rpc.v4.testnet.pulsechain.com/",
     "https://pulsechain-testnet.publicnode.com"
   ],
-
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": ["https://faucet.v4.testnet.pulsechain.com/"],
   "ens": {
     "registry": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
   },
-  "status": "incubating",
-  "explorers": [],
+  "status": "active",
+  "slip44": 60,
   "nativeCurrency": {
     "name": "Test Pulse",
     "symbol": "tPLS",
     "decimals": 18
-  }
+  },
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://scan.v4.testnet.pulsechain.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
 }
