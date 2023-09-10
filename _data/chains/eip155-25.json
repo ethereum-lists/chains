@@ -1,7 +1,11 @@
 {
   "name": "Cronos Mainnet",
   "chain": "CRO",
-  "rpc": ["https://evm.cronos.org", "https://cronos-evm.publicnode.com"],
+  "rpc": [
+    "https://evm.cronos.org",
+    "https://cronos-evm.publicnode.com",
+    "wss://cronos-evm.publicnode.com"
+  ],
   "features": [{ "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
