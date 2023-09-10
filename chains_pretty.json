@@ -372,7 +372,7 @@
   "name": "Elastos Smart Chain",
   "chain": "ETH",
   "rpc": ["https://api.elastos.io/eth"],
-  "faucets": ["https://faucet.elastos.org/"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Elastos",
     "symbol": "ELA",
@@ -559,7 +559,7 @@
   "name": "RSK Mainnet",
   "chain": "RSK",
   "rpc": ["https://public-node.rsk.co", "https://mycrypto.rsk.co"],
-  "faucets": ["https://faucet.rsk.co/"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Smart Bitcoin",
     "symbol": "RBTC",
@@ -1066,7 +1066,7 @@
   "name": "BNB Smart Chain Mainnet",
   "chain": "BSC",
   "rpc": ["https://bsc-dataseed1.bnbchain.org", "https://bsc-dataseed2.bnbchain.org", "https://bsc-dataseed3.bnbchain.org", "https://bsc-dataseed4.bnbchain.org", "https://bsc-dataseed1.defibit.io", "https://bsc-dataseed2.defibit.io", "https://bsc-dataseed3.defibit.io", "https://bsc-dataseed4.defibit.io", "https://bsc-dataseed1.ninicoin.io", "https://bsc-dataseed2.ninicoin.io", "https://bsc-dataseed3.ninicoin.io", "https://bsc-dataseed4.ninicoin.io", "https://bsc.publicnode.com", "wss://bsc.publicnode.com", "wss://bsc-ws-node.nariox.org"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
     "symbol": "BNB",
@@ -1141,7 +1141,7 @@
   "name": "GoChain",
   "chain": "GO",
   "rpc": ["https://rpc.gochain.io"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "GoChain Ether",
     "symbol": "GO",
@@ -1255,7 +1255,7 @@
   "name": "OKXChain Mainnet",
   "chain": "okxchain",
   "rpc": ["https://exchainrpc.okex.org", "https://okc-mainnet.gateway.pokt.network/v1/lb/6275309bea1b320039c893ff"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/?"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "OKXChain Global Utility Token",
     "symbol": "OKT",
@@ -1458,7 +1458,7 @@
   "name": "POA Network Sokol",
   "chain": "POA",
   "rpc": ["https://sokol.poa.network", "wss://sokol.poa.network/wss", "ws://sokol.poa.network:8546"],
-  "faucets": ["https://faucet.poa.network"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "POA Sokol Ether",
     "symbol": "SPOA",
@@ -2084,7 +2084,7 @@
   "name": "ThunderCore Mainnet",
   "chain": "TT",
   "rpc": ["https://mainnet-rpc.thundercore.com", "https://mainnet-rpc.thundertoken.net", "https://mainnet-rpc.thundercore.io"],
-  "faucets": ["https://faucet.thundercore.com"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "ThunderCore Token",
     "symbol": "TT",
@@ -2331,7 +2331,7 @@
   "name": "Realchain Mainnet",
   "chain": "REAL",
   "rpc": ["https://rcl-dataseed1.rclsidechain.com", "https://rcl-dataseed2.rclsidechain.com", "https://rcl-dataseed3.rclsidechain.com", "https://rcl-dataseed4.rclsidechain.com", "wss://rcl-dataseed1.rclsidechain.com/v1/", "wss://rcl-dataseed2.rclsidechain.com/v1/", "wss://rcl-dataseed3.rclsidechain.com/v1/", "wss://rcl-dataseed4.rclsidechain.com/v1/"],
-  "faucets": ["https://faucet.rclsidechain.com"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Realchain",
     "symbol": "REAL",
@@ -2449,7 +2449,7 @@
   "name": "Huobi ECO Chain Mainnet",
   "chain": "Heco",
   "rpc": ["https://http-mainnet.hecochain.com", "wss://ws-mainnet.hecochain.com"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Huobi ECO Chain Native Token",
     "symbol": "HT",
@@ -3173,7 +3173,7 @@
   "name": "opBNB Mainnet",
   "chain": "opBNB",
   "rpc": ["https://opbnb-mainnet-rpc.bnbchain.org"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
     "symbol": "BNB",
@@ -3412,7 +3412,7 @@
   "name": "Energy Web Chain",
   "chain": "Energy Web Chain",
   "rpc": ["https://rpc.energyweb.org", "wss://rpc.energyweb.org/ws"],
-  "faucets": ["https://faucet.carbonswap.exchange", "https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Energy Web Token",
     "symbol": "EWT",
@@ -3452,7 +3452,7 @@
   "name": "Fantom Opera",
   "chain": "FTM",
   "rpc": ["https://rpc.ftm.tools", "https://fantom.publicnode.com", "wss://fantom.publicnode.com"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Fantom",
     "symbol": "FTM",
@@ -3969,7 +3969,7 @@
   "name": "KCC Mainnet",
   "chain": "KCC",
   "rpc": ["https://rpc-mainnet.kcc.network", "https://kcc.mytokenpocket.vip", "https://public-rpc.blockpi.io/http/kcc"],
-  "faucets": ["https://faucet.kcc.io/", "https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "KuCoin Token",
     "symbol": "KCS",
@@ -13857,7 +13857,7 @@
   "name": "HashBit Mainnet",
   "chain": "HBIT",
   "rpc": ["https://mainnet-rpc.hashbit.org", "https://rpc.hashbit.org"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "HashBit Native Token",
     "symbol": "HBIT",
@@ -15554,7 +15554,7 @@
     "decimals": 18
   },
   "rpc": ["https://forno.celo.org", "wss://forno.celo.org/ws"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "infoURL": "https://docs.celo.org/",
   "explorers": [{
     "name": "Celoscan",
@@ -15672,7 +15672,7 @@
   "features": [{
     "name": "EIP1559"
   }],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Avalanche",
     "symbol": "AVAX",
@@ -19181,7 +19181,7 @@
   "title": "BESC Mainnet",
   "chain": "BESC",
   "rpc": ["https://mainnet-rpc.bescscan.io"],
-  "faucets": ["faucet.bescscan.ion"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "BeanEco SmartChain",
     "symbol": "BESC",
@@ -19396,7 +19396,7 @@
   "name": "Posichain Mainnet Shard 0",
   "chain": "PSC",
   "rpc": ["https://api.posichain.org", "https://api.s0.posichain.org"],
-  "faucets": ["https://faucet.posichain.org/"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Posichain Native Token",
     "symbol": "POSI",

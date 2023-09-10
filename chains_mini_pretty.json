@@ -256,7 +256,7 @@
     "decimals": 18
   },
   "rpc": ["https://api.elastos.io/eth"],
-  "faucets": ["https://faucet.elastos.org/"],
+  "faucets": [],
   "infoURL": "https://www.elastos.org/"
 }, {
   "name": "Elastos Smart Chain Testnet",
@@ -386,7 +386,7 @@
     "decimals": 18
   },
   "rpc": ["https://public-node.rsk.co", "https://mycrypto.rsk.co"],
-  "faucets": ["https://faucet.rsk.co/"],
+  "faucets": [],
   "infoURL": "https://rsk.co"
 }, {
   "name": "RSK Testnet",
@@ -724,7 +724,7 @@
     "decimals": 18
   },
   "rpc": ["https://bsc-dataseed1.bnbchain.org", "https://bsc-dataseed2.bnbchain.org", "https://bsc-dataseed3.bnbchain.org", "https://bsc-dataseed4.bnbchain.org", "https://bsc-dataseed1.defibit.io", "https://bsc-dataseed2.defibit.io", "https://bsc-dataseed3.defibit.io", "https://bsc-dataseed4.defibit.io", "https://bsc-dataseed1.ninicoin.io", "https://bsc-dataseed2.ninicoin.io", "https://bsc-dataseed3.ninicoin.io", "https://bsc-dataseed4.ninicoin.io", "https://bsc.publicnode.com", "wss://bsc.publicnode.com", "wss://bsc-ws-node.nariox.org"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "infoURL": "https://www.bnbchain.org/en"
 }, {
   "name": "Syscoin Mainnet",
@@ -776,7 +776,7 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.gochain.io"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "infoURL": "https://gochain.io"
 }, {
   "name": "Ethereum Classic Mainnet",
@@ -854,7 +854,7 @@
     "decimals": 18
   },
   "rpc": ["https://exchainrpc.okex.org", "https://okc-mainnet.gateway.pokt.network/v1/lb/6275309bea1b320039c893ff"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/?"],
+  "faucets": [],
   "infoURL": "https://www.okex.com/okc"
 }, {
   "name": "DBChain Testnet",
@@ -997,7 +997,7 @@
     "decimals": 18
   },
   "rpc": ["https://sokol.poa.network", "wss://sokol.poa.network/wss", "ws://sokol.poa.network:8546"],
-  "faucets": ["https://faucet.poa.network"],
+  "faucets": [],
   "infoURL": "https://poa.network"
 }, {
   "name": "PrimusChain mainnet",
@@ -1400,7 +1400,7 @@
     "decimals": 18
   },
   "rpc": ["https://mainnet-rpc.thundercore.com", "https://mainnet-rpc.thundertoken.net", "https://mainnet-rpc.thundercore.io"],
-  "faucets": ["https://faucet.thundercore.com"],
+  "faucets": [],
   "infoURL": "https://thundercore.com"
 }, {
   "name": "Shibarium",
@@ -1569,7 +1569,7 @@
     "decimals": 18
   },
   "rpc": ["https://rcl-dataseed1.rclsidechain.com", "https://rcl-dataseed2.rclsidechain.com", "https://rcl-dataseed3.rclsidechain.com", "https://rcl-dataseed4.rclsidechain.com", "wss://rcl-dataseed1.rclsidechain.com/v1/", "wss://rcl-dataseed2.rclsidechain.com/v1/", "wss://rcl-dataseed3.rclsidechain.com/v1/", "wss://rcl-dataseed4.rclsidechain.com/v1/"],
-  "faucets": ["https://faucet.rclsidechain.com"],
+  "faucets": [],
   "infoURL": "https://www.rclsidechain.com/"
 }, {
   "name": "Fuse Mainnet",
@@ -1660,7 +1660,7 @@
     "decimals": 18
   },
   "rpc": ["https://http-mainnet.hecochain.com", "wss://ws-mainnet.hecochain.com"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "infoURL": "https://www.hecochain.com"
 }, {
   "name": "iExec Sidechain",
@@ -2154,7 +2154,7 @@
     "decimals": 18
   },
   "rpc": ["https://opbnb-mainnet-rpc.bnbchain.org"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains"],
+  "faucets": [],
   "infoURL": "https://opbnb.bnbchain.org/en"
 }, {
   "name": "Structx Mainnet",
@@ -2323,7 +2323,7 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.energyweb.org", "wss://rpc.energyweb.org/ws"],
-  "faucets": ["https://faucet.carbonswap.exchange", "https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "infoURL": "https://energyweb.org"
 }, {
   "name": "Oasys Mainnet",
@@ -2349,7 +2349,7 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.ftm.tools", "https://fantom.publicnode.com", "wss://fantom.publicnode.com"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "infoURL": "https://fantom.foundation"
 }, {
   "name": "Kroma",
@@ -2622,7 +2622,7 @@
     "decimals": 18
   },
   "rpc": ["https://rpc-mainnet.kcc.network", "https://kcc.mytokenpocket.vip", "https://public-rpc.blockpi.io/http/kcc"],
-  "faucets": ["https://faucet.kcc.io/", "https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "infoURL": "https://kcc.io"
 }, {
   "name": "KCC Testnet",
@@ -9018,7 +9018,7 @@
     "decimals": 18
   },
   "rpc": ["https://mainnet-rpc.hashbit.org", "https://rpc.hashbit.org"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "infoURL": "https://hashbit.org"
 }, {
   "name": "Haqq Network",
@@ -10084,7 +10084,7 @@
     "decimals": 18
   },
   "rpc": ["https://forno.celo.org", "wss://forno.celo.org/ws"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "infoURL": "https://docs.celo.org/"
 }, {
   "name": "Oasis Emerald Testnet",
@@ -10162,7 +10162,7 @@
     "decimals": 18
   },
   "rpc": ["https://api.avax.network/ext/bc/C/rpc", "https://avalanche-c-chain.publicnode.com", "wss://avalanche-c-chain.publicnode.com"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "infoURL": "https://www.avax.network/"
 }, {
   "name": "Boba Avax",
@@ -12385,7 +12385,7 @@
     "decimals": 18
   },
   "rpc": ["https://mainnet-rpc.bescscan.io"],
-  "faucets": ["faucet.bescscan.ion"],
+  "faucets": [],
   "infoURL": "besceco.finance"
 }, {
   "name": "Rethereum Mainnet",
@@ -12528,7 +12528,7 @@
     "decimals": 18
   },
   "rpc": ["https://api.posichain.org", "https://api.s0.posichain.org"],
-  "faucets": ["https://faucet.posichain.org/"],
+  "faucets": [],
   "infoURL": "https://posichain.org"
 }, {
   "name": "Posichain Testnet Shard 0",
