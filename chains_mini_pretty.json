@@ -5602,6 +5602,32 @@
   "faucets": [],
   "infoURL": "https://eurus.network"
 }, {
+  "name": "SatoshIE",
+  "chainId": 1985,
+  "shortName": "satoshie",
+  "networkId": 1985,
+  "nativeCurrency": {
+    "name": "Tushy Token",
+    "symbol": "TUSHY",
+    "decimals": 18
+  },
+  "rpc": ["http://rpc.satosh.ie"],
+  "faucets": [],
+  "infoURL": "https://satosh.ie"
+}, {
+  "name": "SatoshIE Testnet",
+  "chainId": 1986,
+  "shortName": "satoshie_testnet",
+  "networkId": 1986,
+  "nativeCurrency": {
+    "name": "Tushy Token",
+    "symbol": "TUSHY",
+    "decimals": 18
+  },
+  "rpc": ["http://testnet.satosh.ie"],
+  "faucets": [],
+  "infoURL": "https://satosh.ie"
+}, {
   "name": "EtherGem",
   "chainId": 1987,
   "shortName": "egem",
