@@ -9190,6 +9190,19 @@
   "faucets": [],
   "infoURL": "https://rikeza.io"
 }, {
+  "name": "Quantum Chain Testnet",
+  "chainId": 12890,
+  "shortName": "qnet",
+  "networkId": 12890,
+  "nativeCurrency": {
+    "name": "Quantum Chain",
+    "symbol": "QNET",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.quantumscan.org"],
+  "faucets": [],
+  "infoURL": "https://quantumnetwork.gg"
+}, {
   "name": "SPS",
   "chainId": 13000,
   "shortName": "SPS",
