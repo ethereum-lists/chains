@@ -1,7 +1,7 @@
 {
   "name": "Evmos",
   "chain": "Evmos",
-  "rpc": ["https://evmos-evm.publicnode.com"],
+  "rpc": ["https://evmos-evm.publicnode.com", "wss://evmos-evm.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Evmos",
