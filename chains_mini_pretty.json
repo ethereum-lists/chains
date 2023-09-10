@@ -8,7 +8,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://api.mycryptoapi.com/eth", "https://cloudflare-eth.com", "https://ethereum.publicnode.com", "https://mainnet.gateway.tenderly.co", "wss://mainnet.gateway.tenderly.co"],
+  "rpc": ["https://mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://api.mycryptoapi.com/eth", "https://cloudflare-eth.com", "https://ethereum.publicnode.com", "wss://ethereum.publicnode.com", "https://mainnet.gateway.tenderly.co", "wss://mainnet.gateway.tenderly.co"],
   "faucets": [],
   "infoURL": "https://ethereum.org"
 }, {
@@ -60,7 +60,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://goerli.infura.io/v3/${INFURA_API_KEY}", "wss://goerli.infura.io/v3/${INFURA_API_KEY}", "https://rpc.goerli.mudit.blog/", "https://ethereum-goerli.publicnode.com", "https://goerli.gateway.tenderly.co", "wss://goerli.gateway.tenderly.co"],
+  "rpc": ["https://goerli.infura.io/v3/${INFURA_API_KEY}", "wss://goerli.infura.io/v3/${INFURA_API_KEY}", "https://rpc.goerli.mudit.blog/", "https://ethereum-goerli.publicnode.com", "wss://ethereum-goerli.publicnode.com", "https://goerli.gateway.tenderly.co", "wss://goerli.gateway.tenderly.co"],
   "faucets": ["http://fauceth.komputing.org?chain=5&address=${ADDRESS}", "https://goerli-faucet.slock.it?address=${ADDRESS}", "https://faucet.goerli.mudit.blog"],
   "infoURL": "https://goerli.net/#about"
 }, {
@@ -125,7 +125,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.optimism.io", "https://optimism.publicnode.com", "https://optimism.gateway.tenderly.co", "wss://optimism.gateway.tenderly.co"],
+  "rpc": ["https://mainnet.optimism.io", "https://optimism.publicnode.com", "wss://optimism.publicnode.com", "https://optimism.gateway.tenderly.co", "wss://optimism.gateway.tenderly.co"],
   "faucets": [],
   "infoURL": "https://optimism.io"
 }, {
@@ -320,7 +320,7 @@
     "symbol": "CRO",
     "decimals": 18
   },
-  "rpc": ["https://evm.cronos.org", "https://cronos-evm.publicnode.com"],
+  "rpc": ["https://evm.cronos.org", "https://cronos-evm.publicnode.com", "wss://cronos-evm.publicnode.com"],
   "faucets": [],
   "infoURL": "https://cronos.org/"
 }, {
@@ -723,7 +723,7 @@
     "symbol": "BNB",
     "decimals": 18
   },
-  "rpc": ["https://bsc-dataseed1.bnbchain.org", "https://bsc-dataseed2.bnbchain.org", "https://bsc-dataseed3.bnbchain.org", "https://bsc-dataseed4.bnbchain.org", "https://bsc-dataseed1.defibit.io", "https://bsc-dataseed2.defibit.io", "https://bsc-dataseed3.defibit.io", "https://bsc-dataseed4.defibit.io", "https://bsc-dataseed1.ninicoin.io", "https://bsc-dataseed2.ninicoin.io", "https://bsc-dataseed3.ninicoin.io", "https://bsc-dataseed4.ninicoin.io", "https://bsc.publicnode.com", "wss://bsc-ws-node.nariox.org"],
+  "rpc": ["https://bsc-dataseed1.bnbchain.org", "https://bsc-dataseed2.bnbchain.org", "https://bsc-dataseed3.bnbchain.org", "https://bsc-dataseed4.bnbchain.org", "https://bsc-dataseed1.defibit.io", "https://bsc-dataseed2.defibit.io", "https://bsc-dataseed3.defibit.io", "https://bsc-dataseed4.defibit.io", "https://bsc-dataseed1.ninicoin.io", "https://bsc-dataseed2.ninicoin.io", "https://bsc-dataseed3.ninicoin.io", "https://bsc-dataseed4.ninicoin.io", "https://bsc.publicnode.com", "wss://bsc.publicnode.com", "wss://bsc-ws-node.nariox.org"],
   "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "infoURL": "https://www.bnbchain.org/en"
 }, {
@@ -736,7 +736,7 @@
     "symbol": "SYS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.syscoin.org", "https://rpc.ankr.com/syscoin/${ANKR_API_KEY}", "https://syscoin.public-rpc.com", "wss://rpc.syscoin.org/wss", "https://syscoin-evm.publicnode.com"],
+  "rpc": ["https://rpc.syscoin.org", "https://rpc.ankr.com/syscoin/${ANKR_API_KEY}", "https://syscoin.public-rpc.com", "wss://rpc.syscoin.org/wss", "https://syscoin-evm.publicnode.com", "wss://syscoin-evm.publicnode.com"],
   "faucets": ["https://faucet.syscoin.org"],
   "infoURL": "https://www.syscoin.org"
 }, {
@@ -1256,7 +1256,7 @@
     "symbol": "tBNB",
     "decimals": 18
   },
-  "rpc": ["https://data-seed-prebsc-1-s1.bnbchain.org:8545", "https://data-seed-prebsc-2-s1.bnbchain.org:8545", "https://data-seed-prebsc-1-s2.bnbchain.org:8545", "https://data-seed-prebsc-2-s2.bnbchain.org:8545", "https://data-seed-prebsc-1-s3.bnbchain.org:8545", "https://data-seed-prebsc-2-s3.bnbchain.org:8545", "https://bsc-testnet.publicnode.com"],
+  "rpc": ["https://data-seed-prebsc-1-s1.bnbchain.org:8545", "https://data-seed-prebsc-2-s1.bnbchain.org:8545", "https://data-seed-prebsc-1-s2.bnbchain.org:8545", "https://data-seed-prebsc-2-s2.bnbchain.org:8545", "https://data-seed-prebsc-1-s3.bnbchain.org:8545", "https://data-seed-prebsc-2-s3.bnbchain.org:8545", "https://bsc-testnet.publicnode.com", "wss://bsc-testnet.publicnode.com"],
   "faucets": ["https://testnet.bnbchain.org/faucet-smart"],
   "infoURL": "https://www.bnbchain.org/en"
 }, {
@@ -1711,7 +1711,7 @@
     "symbol": "MATIC",
     "decimals": 18
   },
-  "rpc": ["https://polygon-rpc.com/", "https://rpc-mainnet.matic.network", "https://matic-mainnet.chainstacklabs.com", "https://rpc-mainnet.maticvigil.com", "https://rpc-mainnet.matic.quiknode.pro", "https://matic-mainnet-full-rpc.bwarelabs.com", "https://polygon-bor.publicnode.com", "https://polygon.gateway.tenderly.co", "wss://polygon.gateway.tenderly.co"],
+  "rpc": ["https://polygon-rpc.com/", "https://rpc-mainnet.matic.network", "https://matic-mainnet.chainstacklabs.com", "https://rpc-mainnet.maticvigil.com", "https://rpc-mainnet.matic.quiknode.pro", "https://matic-mainnet-full-rpc.bwarelabs.com", "https://polygon-bor.publicnode.com", "wss://polygon-bor.publicnode.com", "https://polygon.gateway.tenderly.co", "wss://polygon.gateway.tenderly.co"],
   "faucets": [],
   "infoURL": "https://polygon.technology/"
 }, {
@@ -2348,7 +2348,7 @@
     "symbol": "FTM",
     "decimals": 18
   },
-  "rpc": ["https://rpc.ftm.tools", "https://fantom.publicnode.com"],
+  "rpc": ["https://rpc.ftm.tools", "https://fantom.publicnode.com", "wss://fantom.publicnode.com"],
   "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "infoURL": "https://fantom.foundation"
 }, {
@@ -2777,7 +2777,7 @@
     "symbol": "PLS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.pulsechain.com", "wss://rpc.pulsechain.com", "https://pulsechain.publicnode.com"],
+  "rpc": ["https://rpc.pulsechain.com", "wss://rpc.pulsechain.com", "https://pulsechain.publicnode.com", "wss://pulsechain.publicnode.com"],
   "faucets": [],
   "infoURL": "https://pulsechain.com/"
 }, {
@@ -2881,7 +2881,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://goerli.optimism.io", "https://optimism-goerli.publicnode.com", "https://optimism-goerli.gateway.tenderly.co", "wss://optimism-goerli.gateway.tenderly.co"],
+  "rpc": ["https://goerli.optimism.io", "https://optimism-goerli.publicnode.com", "wss://optimism-goerli.publicnode.com", "https://optimism-goerli.gateway.tenderly.co", "wss://optimism-goerli.gateway.tenderly.co"],
   "faucets": [],
   "infoURL": "https://optimism.io"
 }, {
@@ -3921,7 +3921,7 @@
     "symbol": "tPLS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.v4.testnet.pulsechain.com/", "wss://rpc.v4.testnet.pulsechain.com/", "https://pulsechain-testnet.publicnode.com"],
+  "rpc": ["https://rpc.v4.testnet.pulsechain.com/", "wss://rpc.v4.testnet.pulsechain.com/", "https://pulsechain-testnet.publicnode.com", "wss://pulsechain-testnet.publicnode.com"],
   "faucets": ["https://faucet.v4.testnet.pulsechain.com/"],
   "infoURL": "https://pulsechain.com"
 }, {
@@ -5169,7 +5169,7 @@
     "symbol": "TENET",
     "decimals": 18
   },
-  "rpc": ["https://rpc.tenet.org", "https://tenet-evm.publicnode.com"],
+  "rpc": ["https://rpc.tenet.org", "https://tenet-evm.publicnode.com", "wss://tenet-evm.publicnode.com"],
   "faucets": [],
   "infoURL": "https://tenet.org/"
 }, {
@@ -6170,7 +6170,7 @@
     "symbol": "KAVA",
     "decimals": 18
   },
-  "rpc": ["https://evm.kava.io", "https://evm2.kava.io", "https://kava-rpc.gateway.pokt.network", "https://kava-evm.rpc.thirdweb.com", "wss://wevm.kava.io", "wss://wevm2.kava.io", "https://kava-evm.publicnode.com"],
+  "rpc": ["https://evm.kava.io", "https://evm2.kava.io", "https://kava-rpc.gateway.pokt.network", "https://kava-evm.rpc.thirdweb.com", "wss://wevm.kava.io", "wss://wevm2.kava.io", "https://kava-evm.publicnode.com", "wss://kava-evm.publicnode.com"],
   "faucets": [],
   "infoURL": "https://www.kava.io"
 }, {
@@ -6963,7 +6963,7 @@
     "symbol": "FTM",
     "decimals": 18
   },
-  "rpc": ["https://rpc.testnet.fantom.network", "https://fantom-testnet.publicnode.com"],
+  "rpc": ["https://rpc.testnet.fantom.network", "https://fantom-testnet.publicnode.com", "wss://fantom-testnet.publicnode.com"],
   "faucets": ["https://faucet.fantom.network"],
   "infoURL": "https://docs.fantom.foundation/quick-start/short-guide#fantom-testnet"
 }, {
@@ -7262,7 +7262,7 @@
     "symbol": "MNT",
     "decimals": 18
   },
-  "rpc": ["https://rpc.mantle.xyz", "https://mantle.publicnode.com"],
+  "rpc": ["https://rpc.mantle.xyz", "https://mantle.publicnode.com", "wss://mantle.publicnode.com"],
   "faucets": [],
   "infoURL": "https://mantle.xyz"
 }, {
@@ -7483,7 +7483,7 @@
     "symbol": "tSYS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.tanenbaum.io", "wss://rpc.tanenbaum.io/wss", "https://syscoin-tanenbaum-evm.publicnode.com"],
+  "rpc": ["https://rpc.tanenbaum.io", "wss://rpc.tanenbaum.io/wss", "https://syscoin-tanenbaum-evm.publicnode.com", "wss://syscoin-tanenbaum-evm.publicnode.com"],
   "faucets": ["https://faucet.tanenbaum.io"],
   "infoURL": "https://syscoin.org"
 }, {
@@ -7678,7 +7678,7 @@
     "symbol": "ERIS",
     "decimals": 18
   },
-  "rpc": ["https://evmrpc.irishub-1.irisnet.org", "https://iris-evm.publicnode.com"],
+  "rpc": ["https://evmrpc.irishub-1.irisnet.org", "https://iris-evm.publicnode.com", "wss://iris-evm.publicnode.com"],
   "faucets": [],
   "infoURL": "https://www.irisnet.org"
 }, {
@@ -8250,7 +8250,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.base.org/", "https://developer-access-mainnet.base.org/", "https://base.gateway.tenderly.co", "wss://base.gateway.tenderly.co", "https://base.publicnode.com"],
+  "rpc": ["https://mainnet.base.org/", "https://developer-access-mainnet.base.org/", "https://base.gateway.tenderly.co", "wss://base.gateway.tenderly.co", "https://base.publicnode.com", "wss://base.publicnode.com"],
   "faucets": [],
   "infoURL": "https://base.org"
 }, {
@@ -8497,7 +8497,7 @@
     "symbol": "EVMOS",
     "decimals": 18
   },
-  "rpc": ["https://evmos-evm.publicnode.com"],
+  "rpc": ["https://evmos-evm.publicnode.com", "wss://evmos-evm.publicnode.com"],
   "faucets": [],
   "infoURL": "https://evmos.org"
 }, {
@@ -9030,7 +9030,7 @@
     "symbol": "ISLM",
     "decimals": 18
   },
-  "rpc": ["https://rpc.eth.haqq.network", "https://haqq-evm.publicnode.com"],
+  "rpc": ["https://rpc.eth.haqq.network", "https://haqq-evm.publicnode.com", "wss://haqq-evm.publicnode.com"],
   "faucets": [],
   "infoURL": "https://islamiccoin.net"
 }, {
@@ -10057,7 +10057,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}", "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}", "https://arb1.arbitrum.io/rpc", "https://arbitrum-one.publicnode.com"],
+  "rpc": ["https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}", "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}", "https://arb1.arbitrum.io/rpc", "https://arbitrum-one.publicnode.com", "wss://arbitrum-one.publicnode.com"],
   "faucets": [],
   "infoURL": "https://arbitrum.io"
 }, {
@@ -10070,7 +10070,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://nova.arbitrum.io/rpc", "https://arbitrum-nova.publicnode.com"],
+  "rpc": ["https://nova.arbitrum.io/rpc", "https://arbitrum-nova.publicnode.com", "wss://arbitrum-nova.publicnode.com"],
   "faucets": [],
   "infoURL": "https://arbitrum.io"
 }, {
@@ -10148,7 +10148,7 @@
     "symbol": "AVAX",
     "decimals": 18
   },
-  "rpc": ["https://api.avax-test.network/ext/bc/C/rpc", "https://avalanche-fuji-c-chain.publicnode.com"],
+  "rpc": ["https://api.avax-test.network/ext/bc/C/rpc", "https://avalanche-fuji-c-chain.publicnode.com", "wss://avalanche-fuji-c-chain.publicnode.com"],
   "faucets": ["https://faucet.avax-test.network/"],
   "infoURL": "https://cchain.explorer.avax-test.network"
 }, {
@@ -10161,7 +10161,7 @@
     "symbol": "AVAX",
     "decimals": 18
   },
-  "rpc": ["https://api.avax.network/ext/bc/C/rpc", "https://avalanche-c-chain.publicnode.com"],
+  "rpc": ["https://api.avax.network/ext/bc/C/rpc", "https://avalanche-c-chain.publicnode.com", "wss://avalanche-c-chain.publicnode.com"],
   "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "infoURL": "https://www.avax.network/"
 }, {
@@ -10941,7 +10941,7 @@
     "symbol": "MATIC",
     "decimals": 18
   },
-  "rpc": ["https://rpc-mumbai.maticvigil.com", "https://polygon-mumbai-bor.publicnode.com", "https://polygon-mumbai.gateway.tenderly.co", "wss://polygon-mumbai.gateway.tenderly.co"],
+  "rpc": ["https://rpc-mumbai.maticvigil.com", "https://polygon-mumbai-bor.publicnode.com", "wss://polygon-mumbai-bor.publicnode.com", "https://polygon-mumbai.gateway.tenderly.co", "wss://polygon-mumbai.gateway.tenderly.co"],
   "faucets": ["https://faucet.polygon.technology/"],
   "infoURL": "https://polygon.technology/"
 }, {
@@ -11071,7 +11071,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://goerli.base.org", "https://base-goerli.gateway.tenderly.co", "wss://base-goerli.gateway.tenderly.co", "https://base-goerli.publicnode.com"],
+  "rpc": ["https://goerli.base.org", "https://base-goerli.gateway.tenderly.co", "wss://base-goerli.gateway.tenderly.co", "https://base-goerli.publicnode.com", "wss://base-goerli.publicnode.com"],
   "faucets": ["https://www.coinbase.com/faucets/base-ethereum-goerli-faucet"],
   "infoURL": "https://base.org"
 }, {
@@ -12176,7 +12176,7 @@
     "symbol": "AGOR",
     "decimals": 18
   },
-  "rpc": ["https://goerli-rollup.arbitrum.io/rpc", "https://arbitrum-goerli.publicnode.com"],
+  "rpc": ["https://goerli-rollup.arbitrum.io/rpc", "https://arbitrum-goerli.publicnode.com", "wss://arbitrum-goerli.publicnode.com"],
   "faucets": [],
   "infoURL": "https://arbitrum.io/"
 }, {
