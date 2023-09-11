@@ -1,7 +1,10 @@
 {
   "name": "Karura Network Testnet",
   "chain": "KAR",
-  "rpc": [],
+  "rpc": [
+    "https://eth-rpc-karura-testnet.aca-staging.network",
+    "wss://eth-rpc-karura-testnet.aca-staging.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Karura Token",
@@ -12,5 +15,12 @@
   "shortName": "tkar",
   "chainId": 596,
   "networkId": 596,
-  "slip44": 596
+  "slip44": 596,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockscout.karura-testnet.aca-staging.network",
+      "standard": "EIP3091"
+    }
+  ]
 }

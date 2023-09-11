@@ -4,10 +4,11 @@
   "chain": "Polygon",
   "icon": "polygon",
   "rpc": [
-    "https://matic-mumbai.chainstacklabs.com",
     "https://rpc-mumbai.maticvigil.com",
-    "https://matic-testnet-archive-rpc.bwarelabs.com",
-    "https://polygon-mumbai-bor.publicnode.com"
+    "https://polygon-mumbai-bor.publicnode.com",
+    "wss://polygon-mumbai-bor.publicnode.com",
+    "https://polygon-mumbai.gateway.tenderly.co",
+    "wss://polygon-mumbai.gateway.tenderly.co"
   ],
   "faucets": ["https://faucet.polygon.technology/"],
   "nativeCurrency": {

@@ -1,9 +1,9 @@
 {
-  "name": "ShimmerEVM Testnet",
-  "title": "ShimmerEVM Testnet",
+  "name": "ShimmerEVM Testnet Deprecated",
+  "title": "ShimmerEVM Testnet Deprecated",
   "chain": "ShimmerEVM",
   "icon": "shimmerevm",
-  "rpc": ["https://json-rpc.evm.testnet.shimmer.network"],
+  "rpc": [],
   "faucets": [
     "https://evm-toolkit.evm.testnet.shimmer.network",
     "https://evm-faucet.testnet.shimmer.network"
@@ -14,7 +14,7 @@
     "decimals": 18
   },
   "infoURL": "https://shimmer.network",
-  "shortName": "shimmerevm-testnet",
+  "shortName": "shimmerevm-testnet-deprecated",
   "chainId": 1071,
   "networkId": 1071,
   "explorers": [
@@ -23,5 +23,6 @@
       "url": "https://explorer.evm.testnet.shimmer.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "status": "deprecated"
 }

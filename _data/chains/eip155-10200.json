@@ -19,8 +19,14 @@
   "networkId": 10200,
   "explorers": [
     {
-      "name": "blockscout",
+      "name": "blockscout-chiadochain",
       "url": "https://blockscout.chiadochain.net",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "blockscout",
+      "url": "https://gnosis-chiado.blockscout.com",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
