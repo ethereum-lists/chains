@@ -1,0 +1,23 @@
+{
+  "name": "Bitfinity Network Devnet",
+  "chain": "BFT",
+  "rpc": ["https://devnet.bitfinity.network"],
+  "faucets": ["https://bitfinity.network/faucet"],
+  "nativeCurrency": {
+    "name": "BITFINITY",
+    "symbol": "BFT",
+    "decimals": 18
+  },
+  "infoURL": "https://bitfinity.network",
+  "shortName": "Bitfinity",
+  "chainId": 355114,
+  "networkId": 355114,
+  "explorers": [
+    {
+      "name": "Bitfinity Block Explorer",
+      "url": "https://explorer.bitfinity.network",
+      "icon": "bitfinity",
+      "standard": "EIP3091"
+    }
+  ]
+}
