@@ -4900,31 +4900,31 @@
   "faucets": [],
   "infoURL": "https://www.alyxchain.com"
 }, {
-  "name": "Aitd Mainnet",
+  "name": "AIA Mainnet",
   "chainId": 1319,
-  "shortName": "aitd",
+  "shortName": "aia",
   "networkId": 1319,
   "nativeCurrency": {
-    "name": "AITD Mainnet",
-    "symbol": "AITD",
+    "name": "AIA Mainnet",
+    "symbol": "AIA",
     "decimals": 18
   },
-  "rpc": ["https://walletrpc.aitd.io", "https://node.aitd.io"],
+  "rpc": ["https://aia-dataseed1.aiachain.org", "https://aia-dataseed2.aiachain.org", "https://aia-dataseed3.aiachain.org", "https://aia-dataseed4.aiachain.org"],
   "faucets": [],
-  "infoURL": "https://www.aitd.io/"
+  "infoURL": "https://aiachain.org/"
 }, {
-  "name": "Aitd Testnet",
+  "name": "AIA Testnet",
   "chainId": 1320,
-  "shortName": "aitdtestnet",
+  "shortName": "aiatestnet",
   "networkId": 1320,
   "nativeCurrency": {
-    "name": "AITD Testnet",
-    "symbol": "AITD",
+    "name": "AIA Testnet",
+    "symbol": "AIA",
     "decimals": 18
   },
-  "rpc": ["http://http-testnet.aitd.io"],
-  "faucets": ["https://aitd-faucet-pre.aitdcoin.com/"],
-  "infoURL": "https://www.aitd.io/"
+  "rpc": ["https://aia-dataseed1-testnet.aiachain.org"],
+  "faucets": ["https://aia-faucet-testnet.aiachain.org"],
+  "infoURL": "https://aiachain.org"
 }, {
   "name": "Geth Testnet",
   "chainId": 1337,
