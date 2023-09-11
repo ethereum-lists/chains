@@ -11,7 +11,8 @@
   },
   "rpc": [
     "https://nova.arbitrum.io/rpc",
-    "https://arbitrum-nova.publicnode.com"
+    "https://arbitrum-nova.publicnode.com",
+    "wss://arbitrum-nova.publicnode.com"
   ],
   "faucets": [],
   "explorers": [

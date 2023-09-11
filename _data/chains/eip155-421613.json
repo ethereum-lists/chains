@@ -12,7 +12,8 @@
   },
   "rpc": [
     "https://goerli-rollup.arbitrum.io/rpc",
-    "https://arbitrum-goerli.publicnode.com"
+    "https://arbitrum-goerli.publicnode.com",
+    "wss://arbitrum-goerli.publicnode.com"
   ],
   "faucets": [],
   "infoURL": "https://arbitrum.io/",
