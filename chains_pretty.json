@@ -6266,6 +6266,25 @@
   "chainId": 1001,
   "networkId": 1001
 }, {
+  "name": "Tectum Emission Token",
+  "chain": "TET",
+  "rpc": ["https://rpc.softnote.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Tectum",
+    "symbol": "TET",
+    "decimals": 8
+  },
+  "infoURL": "https://softnote.com",
+  "shortName": "tet",
+  "chainId": 1003,
+  "networkId": 1003,
+  "explorers": [{
+    "name": "Tectum explorer",
+    "url": "https://explorer.tectum.io",
+    "standard": "none"
+  }]
+}, {
   "name": "T-EKTA",
   "title": "EKTA Testnet T-EKTA",
   "chain": "T-EKTA",

@@ -4107,6 +4107,19 @@
   "faucets": ["https://baobab.wallet.klaytn.com/access?next=faucet"],
   "infoURL": "https://www.klaytn.com/"
 }, {
+  "name": "Tectum Emission Token",
+  "chainId": 1003,
+  "shortName": "tet",
+  "networkId": 1003,
+  "nativeCurrency": {
+    "name": "Tectum",
+    "symbol": "TET",
+    "decimals": 8
+  },
+  "rpc": ["https://rpc.softnote.com/"],
+  "faucets": [],
+  "infoURL": "https://softnote.com"
+}, {
   "name": "T-EKTA",
   "chainId": 1004,
   "shortName": "t-ekta",
