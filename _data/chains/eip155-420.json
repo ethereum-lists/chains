@@ -3,7 +3,10 @@
   "chain": "ETH",
   "rpc": [
     "https://goerli.optimism.io",
-    "https://optimism-goerli.publicnode.com"
+    "https://optimism-goerli.publicnode.com",
+    "wss://optimism-goerli.publicnode.com",
+    "https://optimism-goerli.gateway.tenderly.co",
+    "wss://optimism-goerli.gateway.tenderly.co"
   ],
   "faucets": [],
   "nativeCurrency": {

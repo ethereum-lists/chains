@@ -1,0 +1,24 @@
+{
+  "name": "Beam Testnet",
+  "chain": "BEAM",
+  "rpc": ["https://subnets.avax.network/beam/testnet/rpc"],
+  "features": [{ "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Merit Circle",
+    "symbol": "MC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.onbeam.com",
+  "shortName": "beam-testnet",
+  "icon": "beam",
+  "chainId": 13337,
+  "networkId": 13337,
+  "explorers": [
+    {
+      "name": "Beam Explorer",
+      "url": "https://subnets-test.avax.network/beam",
+      "standard": "EIP3091"
+    }
+  ]
+}

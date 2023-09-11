@@ -2,7 +2,10 @@
   "name": "Mind Smart Chain Testnet",
   "chain": "tMIND",
   "icon": "mindchain",
-  "rpc": ["https://testnet-msc.mindchain.info/"],
+  "rpc": [
+    "https://testnet-msc.mindchain.info/",
+    "wss://testnet-msc.mindchain.info/ws"
+  ],
   "faucets": ["https://faucet.mindchain.info/"],
   "nativeCurrency": {
     "name": "MIND Coin",
