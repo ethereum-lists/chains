@@ -13,6 +13,7 @@
   "shortName": "synapse-sepolia",
   "chainId": 444,
   "networkId": 444,
+  "redFlags": ["reusedChainId"],
   "explorers": [
     {
       "name": "Synapse Chain Sepolia",
