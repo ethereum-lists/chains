@@ -1,7 +1,11 @@
 {
   "name": "Haqq Network",
   "chain": "Haqq",
-  "rpc": ["https://rpc.eth.haqq.network", "https://haqq-evm.publicnode.com"],
+  "rpc": [
+    "https://rpc.eth.haqq.network",
+    "https://haqq-evm.publicnode.com",
+    "wss://haqq-evm.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Islamic Coin",
