@@ -2573,6 +2573,19 @@
   "faucets": [],
   "infoURL": "https://www.neurochain.ai"
 }, {
+  "name": "Wyzth Testnet",
+  "chainId": 309,
+  "shortName": "wyz",
+  "networkId": 309,
+  "nativeCurrency": {
+    "name": "Wyzth",
+    "symbol": "WYZ",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet3.wyzthchain.org/"],
+  "faucets": [],
+  "infoURL": "https://wyzth.org/"
+}, {
   "name": "Omax Mainnet",
   "chainId": 311,
   "shortName": "omax",
