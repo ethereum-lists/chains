@@ -2,7 +2,7 @@
   "name": "HashBit Mainnet",
   "chain": "HBIT",
   "rpc": ["https://mainnet-rpc.hashbit.org", "https://rpc.hashbit.org"],
-  "faucets": [],
+  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "nativeCurrency": {
     "name": "HashBit Native Token",
     "symbol": "HBIT",

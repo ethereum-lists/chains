@@ -2,7 +2,7 @@
   "name": "Elastos Smart Chain",
   "chain": "ETH",
   "rpc": ["https://api.elastos.io/eth"],
-  "faucets": [],
+  "faucets": ["https://faucet.elastos.org/"],
   "nativeCurrency": {
     "name": "Elastos",
     "symbol": "ELA",

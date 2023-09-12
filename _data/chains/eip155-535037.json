@@ -3,7 +3,7 @@
   "title": "BESC Mainnet",
   "chain": "BESC",
   "rpc": ["https://mainnet-rpc.bescscan.io"],
-  "faucets": [],
+  "faucets": ["faucet.bescscan.ion"],
   "nativeCurrency": {
     "name": "BeanEco SmartChain",
     "symbol": "BESC",
