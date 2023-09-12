@@ -1,0 +1,25 @@
+{
+  "name": "CHAINSQUARE MAINNET",
+  "chain": "CHQ",
+  "rpc": [
+    "https://rpc-seed-v2.chainsquare.la/"
+  ],
+  "nativeCurrency": {
+    "name": "CHQ",
+    "symbol": "CHQ",
+    "decimals": 18
+  },
+  "infoURL": "https://chainsquare.la",
+  "shortName": "CHQ",
+  "chainId": 9888,
+  "networkId": 9888,
+  "icon": "CHQ",
+  "explorers": [
+    {
+      "name": "CHAINSQUARE MAINNET",
+      "icon": "CHQ",
+      "url": "https://explorer-scan.chainsquare.la/",
+      "standard": "none"
+    }
+  ]
+}
