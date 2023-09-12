@@ -2937,18 +2937,18 @@
   "faucets": [],
   "infoURL": "https://obscu.ro"
 }, {
-  "name": "Frenchain Testnet",
+  "name": "Synapse Chain Testnet",
   "chainId": 444,
-  "shortName": "tFREN",
+  "shortName": "synapse-sepolia",
   "networkId": 444,
   "nativeCurrency": {
-    "name": "tFREN",
-    "symbol": "FtREN",
+    "name": "Sepolia ETH",
+    "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc-01tn.frenchain.app"],
+  "rpc": ["https://sepolia.synapseprotocol.com"],
   "faucets": [],
-  "infoURL": "https://frenchain.app"
+  "infoURL": "https://synapseprotocol.com"
 }, {
   "name": "ARZIO Chain",
   "chainId": 456,
