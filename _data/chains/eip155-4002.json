@@ -3,7 +3,8 @@
   "chain": "FTM",
   "rpc": [
     "https://rpc.testnet.fantom.network",
-    "https://fantom-testnet.publicnode.com"
+    "https://fantom-testnet.publicnode.com",
+    "wss://fantom-testnet.publicnode.com"
   ],
   "faucets": ["https://faucet.fantom.network"],
   "nativeCurrency": {
