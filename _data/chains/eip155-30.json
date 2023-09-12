@@ -2,7 +2,7 @@
   "name": "RSK Mainnet",
   "chain": "RSK",
   "rpc": ["https://public-node.rsk.co", "https://mycrypto.rsk.co"],
-  "faucets": [],
+  "faucets": ["https://faucet.rsk.co/"],
   "nativeCurrency": {
     "name": "Smart Bitcoin",
     "symbol": "RBTC",

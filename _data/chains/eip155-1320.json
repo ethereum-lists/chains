@@ -1,24 +1,23 @@
 {
-  "name": "AIA Testnet",
-  "chain": "AIA",
-  "icon": "aia",
-  "rpc": ["https://aia-dataseed1-testnet.aiachain.org"],
-  "faucets": ["https://aia-faucet-testnet.aiachain.org"],
+  "name": "Aitd Testnet",
+  "chain": "AITD",
+  "icon": "aitd",
+  "rpc": ["http://http-testnet.aitd.io"],
+  "faucets": ["https://aitd-faucet-pre.aitdcoin.com/"],
   "nativeCurrency": {
-    "name": "AIA Testnet",
-    "symbol": "AIA",
+    "name": "AITD Testnet",
+    "symbol": "AITD",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "infoURL": "https://aiachain.org",
-  "shortName": "aiatestnet",
+  "infoURL": "https://www.aitd.io/",
+  "shortName": "aitdtestnet",
   "chainId": 1320,
   "networkId": 1320,
 
   "explorers": [
     {
-      "name": "AIA Chain Explorer Testnet",
-      "url": "https://testnet.aiascan.com",
+      "name": "AITD Chain Explorer Testnet",
+      "url": "https://block-explorer-testnet.aitd.io",
       "standard": "EIP3091"
     }
   ]

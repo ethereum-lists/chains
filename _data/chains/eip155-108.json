@@ -6,7 +6,7 @@
     "https://mainnet-rpc.thundertoken.net",
     "https://mainnet-rpc.thundercore.io"
   ],
-  "faucets": [],
+  "faucets": ["https://faucet.thundercore.com"],
   "nativeCurrency": {
     "name": "ThunderCore Token",
     "symbol": "TT",
