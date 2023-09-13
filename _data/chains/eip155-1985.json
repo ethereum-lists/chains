@@ -1,7 +1,7 @@
 {
   "name": "SatoshIE",
   "chain": "TUSHY",
-  "rpc": ["http://rpc.satosh.ie"],
+  "rpc": ["https://rpc.satosh.ie"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Tushy Token",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "mainnetexplorer",
-      "url": "http://explore.satosh.ie",
+      "url": "https://explore.satosh.ie",
       "icon": "satoshie",
       "standard": "none"
     }

@@ -1,7 +1,7 @@
 {
   "name": "SatoshIE Testnet",
   "chain": "TUSHY",
-  "rpc": ["http://testnet.satosh.ie"],
+  "rpc": ["https://testnet.satosh.ie"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Tushy Token",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "testnetexplorer",
-      "url": "http://explore-testnet.satosh.ie",
+      "url": "https://explore-testnet.satosh.ie",
       "icon": "satoshie",
       "standard": "none"
     }
