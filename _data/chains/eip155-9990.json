@@ -2,12 +2,7 @@
   "name": "Agung Network",
   "chain": "Agung",
   "icon": "agung",
-  "rpc": [
-      "https://rpcpc1-qa.agung.peaq.network"
-  ],
-  "features": [
-    {"name": "EIP155"}
-  ],
+  "rpc": ["https://rpcpc1-qa.agung.peaq.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Agung",
