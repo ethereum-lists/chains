@@ -1,15 +1,16 @@
-
 {
-  "name": "Agung",
+  "name": "Agung Network",
   "chain": "Agung",
-  "title": "The Agung Test Network",
   "icon": "agung",
   "rpc": [
       "https://rpcpc1-qa.agung.peaq.network"
   ],
+  "features": [
+    {"name": "EIP155"}
+  ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "AGNG",
+    "name": "Agung",
     "symbol": "AGNG",
     "decimals": 18
   },
