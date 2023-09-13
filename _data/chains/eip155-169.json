@@ -1,0 +1,24 @@
+{
+  "name": "Manta Pacific Mainnet",
+  "chain": "Manta Pacific",
+  "rpc": ["https://pacific-rpc.manta.network/http"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://pacific-info.manta.network",
+  "shortName": "manta",
+  "chainId": 169,
+  "networkId": 169,
+  "icon": "manta",
+  "explorers": [
+    {
+      "name": "manta-pacific Explorer",
+      "url": "https://pacific-explorer.manta.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
