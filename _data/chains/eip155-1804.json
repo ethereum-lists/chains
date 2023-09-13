@@ -1,6 +1,6 @@
 {
   "name": "Kerleano",
-  "title": "Proof of Carbon Reduction testnet",
+  "title": "Proof of Climate awaReness testnet",
   "chain": "CRC",
   "status": "active",
   "rpc": [
@@ -11,7 +11,7 @@
     "https://github.com/ethereum-pocr/kerleano/blob/main/docs/faucet.md"
   ],
   "nativeCurrency": {
-    "name": "Carbon Reduction Coin",
+    "name": "Climate awaReness Coin",
     "symbol": "CRC",
     "decimals": 18
   },
@@ -19,10 +19,12 @@
   "shortName": "kerleano",
   "chainId": 1804,
   "networkId": 1804,
+  "icon": "pocr",
   "explorers": [
     {
       "name": "Lite Explorer",
       "url": "https://ethereum-pocr.github.io/explorer/kerleano",
+      "icon": "pocr",
       "standard": "EIP3091"
     }
   ]

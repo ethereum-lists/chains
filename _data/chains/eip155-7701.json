@@ -1,0 +1,22 @@
+{
+  "name": "Canto Tesnet",
+  "chain": "Canto",
+  "rpc": ["https://testnet-archive.plexnode.wtf"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Testnet Canto",
+    "symbol": "CANTO",
+    "decimals": 18
+  },
+  "infoURL": "https://canto.io",
+  "shortName": "TestnetCanto",
+  "chainId": 7701,
+  "networkId": 7701,
+  "explorers": [
+    {
+      "name": "Canto Testnet EVM Explorer (Blockscout)",
+      "url": "https://testnet.tuber.build",
+      "standard": "none"
+    }
+  ]
+}

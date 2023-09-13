@@ -1,7 +1,7 @@
 {
   "name": "zkSync Era Mainnet",
   "chain": "ETH",
-  "rpc": ["https://zksync2-mainnet.zksync.io"],
+  "rpc": ["https://mainnet.era.zksync.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -24,6 +24,6 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://portal.zksync.io/bridge" }]
+    "bridges": [{ "url": "https://bridge.zksync.io/" }]
   }
 }

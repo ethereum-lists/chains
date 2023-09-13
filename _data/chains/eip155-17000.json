@@ -1,0 +1,28 @@
+{
+  "name": "Holesky",
+  "chain": "ETH",
+  "rpc": ["https://rpc.holesky.ethpandaops.io"],
+  "faucets": [
+    "https://faucet.holesky.ethpandaops.io",
+    "https://holesky-faucet.pk910.de"
+  ],
+  "nativeCurrency": {
+    "name": "Testnet ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://holesky.ethpandaops.io",
+  "shortName": "holesky",
+  "chainId": 17000,
+  "networkId": 17000,
+  "icon": "ethereum",
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "Holesky Explorer",
+      "url": "https://holesky.beaconcha.in",
+      "icon": "ethereum",
+      "standard": "EIP3091"
+    }
+  ]
+}

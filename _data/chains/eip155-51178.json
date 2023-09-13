@@ -1,0 +1,28 @@
+{
+  "name": "Opside Testnet Pre-Alpha",
+  "chain": "ETH",
+  "rpc": [
+    "https://pre-alpha-us-http-geth.opside.network",
+    "https://pre-alpha-hk-http-geth.opside.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "IDE Test Token",
+    "symbol": "IDE",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://opsi.de/",
+  "shortName": "Opside-Testnet",
+  "chainId": 51178,
+  "networkId": 51178,
+  "icon": "opside-new",
+  "explorers": [
+    {
+      "name": "OpsideTestnetInfo",
+      "url": "https://pre-alpha.opside.info",
+      "icon": "opside-new",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Meld",
+  "title": "Meld Mainnet",
+  "chain": "MELD",
+  "rpc": ["https://subnets.avax.network/meld/mainnet/rpc"],
+  "faucets": [],
+  "features": [],
+  "nativeCurrency": {
+    "name": "gMeld",
+    "symbol": "gMELD",
+    "decimals": 18
+  },
+  "icon": "meld",
+  "infoURL": "https://meld.com",
+  "shortName": "meld",
+  "chainId": 333000333,
+  "networkId": 333000333,
+  "explorers": [
+    {
+      "name": "explorer",
+      "url": "https://subnets.avax.network/meld",
+      "icon": "meld",
+      "standard": "EIP3091"
+    }
+  ]
+}

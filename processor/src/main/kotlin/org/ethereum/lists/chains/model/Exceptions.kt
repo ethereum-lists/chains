@@ -53,4 +53,4 @@ class ChainNameMustBeString: Exception("Name must be string")
 
 class IllegalName(type: String,name: String): Exception("Invalid $type: $name")
 
-class UnreferencedIcon(fileName: String, iconsDownloadPath: File): Exception("Found file $fileName in $iconsDownloadPath that is not referenced")
+class UnreferencedIcon(fileName: String, iconsDownloadPath: File): Exception("Found unreference $fileName in $iconsDownloadPath")

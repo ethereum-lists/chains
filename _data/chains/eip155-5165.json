@@ -1,0 +1,28 @@
+{
+  "name": "Fastex Chain (Bahamut)",
+  "title": "Bahamut mainnet Sahara",
+  "chain": "Fastex Chain (Bahamut)",
+  "icon": "bahamut",
+  "rpc": [
+    "https://rpc1.sahara.bahamutchain.com",
+    "https://rpc2.sahara.bahamutchain.com"
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FTN",
+    "symbol": "FTN",
+    "decimals": 18
+  },
+  "shortName": "ftn",
+  "infoURL": "https://fastexchain.com",
+  "chainId": 5165,
+  "networkId": 5165,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://ftnscan.com",
+      "standard": "none"
+    }
+  ]
+}

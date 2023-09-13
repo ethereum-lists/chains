@@ -1,0 +1,25 @@
+{
+  "name": "Deamchain Testnet",
+  "chain": "Deamchain",
+  "icon": "deam",
+  "rpc": ["https://testnet.deamchain.com"],
+  "faucets": ["https://faucet.deamchain.com"],
+  "nativeCurrency": {
+    "name": "Deamchain Native Token",
+    "symbol": "DEAM",
+    "decimals": 18
+  },
+  "infoURL": "https://deamchain.com",
+  "shortName": "deamtest",
+  "chainId": 236,
+  "networkId": 236,
+
+  "explorers": [
+    {
+      "name": "Deamchain Testnet Explorer",
+      "url": "https://testnet-scan.deamchain.com",
+      "standard": "EIP3091",
+      "icon": "deam"
+    }
+  ]
+}

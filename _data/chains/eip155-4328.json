@@ -4,8 +4,7 @@
   "rpc": [
     "https://testnet.avax.boba.network",
     "wss://wss.testnet.avax.boba.network",
-    "https://replica.testnet.avax.boba.network",
-    "wss://replica-wss.testnet.avax.boba.network"
+    "https://replica.testnet.avax.boba.network"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +22,14 @@
       "url": "https://blockexplorer.testnet.avax.boba.network",
       "standard": "none"
     }
-  ]
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-5",
+    "bridges": [
+      {
+        "url": "https://gateway.boba.network"
+      }
+    ]
+  }
 }
