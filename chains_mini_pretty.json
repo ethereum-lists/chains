@@ -3899,6 +3899,19 @@
   "faucets": ["https://sepoliafaucet.com/"],
   "infoURL": "https://docs.mode.network/"
 }, {
+  "name": "Yidark Chain Mainnet",
+  "chainId": 927,
+  "shortName": "ydk",
+  "networkId": 927,
+  "nativeCurrency": {
+    "name": "Yidark",
+    "symbol": "YDK",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.yidark.io"],
+  "faucets": [],
+  "infoURL": "https://yidarkscan.com"
+}, {
   "name": "PulseChain Testnet",
   "chainId": 940,
   "shortName": "tpls",
