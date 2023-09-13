@@ -8800,6 +8800,19 @@
   "faucets": ["https://faucet.mindchain.info/"],
   "infoURL": "https://mindchain.info"
 }, {
+  "name": "Agung Network",
+  "chainId": 9990,
+  "shortName": "AGNG",
+  "networkId": 9990,
+  "nativeCurrency": {
+    "name": "Agung",
+    "symbol": "AGNG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpcpc1-qa.agung.peaq.network"],
+  "faucets": [],
+  "infoURL": "https://www.peaq.network"
+}, {
   "name": "Mind Smart Chain Mainnet",
   "chainId": 9996,
   "shortName": "MIND",
