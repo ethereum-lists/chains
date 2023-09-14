@@ -1,14 +1,11 @@
 {
-  "name": "Krest",
+  "name": "The Krest Network",
   "chain": "Krest",
-  "title": "The Krest Network",
   "icon": "krest",
-  "rpc": [
-      "https://erpc-krest.peaq.network"
-  ],
+  "rpc": ["https://erpc-krest.peaq.network"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "KRST",
+    "name": "Krest",
     "symbol": "KRST",
     "decimals": 18
   },
