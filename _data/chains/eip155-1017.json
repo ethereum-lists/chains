@@ -1,0 +1,21 @@
+{
+    "name": "Greenfield Mainnet",
+    "chain": "Greenfield",
+    "rpc": [
+        "https://greenfield-chain-us.bnbchain.org",
+        "https://greenfield-chain-ap.bnbchain.org",
+        "https://greenfield-chain-eu.bnbchain.org",
+        "https://greenfield-chain.bnbchain.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "BNB Chain Native Token",
+        "symbol": "BNB",
+        "decimals": 18
+    },
+    "infoURL": "https://greenfield.bnbchain.org/",
+    "shortName": "gnfd",
+    "chainId": 1017,
+    "networkId": 1017
+  }
+  
