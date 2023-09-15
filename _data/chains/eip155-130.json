@@ -1,0 +1,28 @@
+{
+    "name": "Engram Testnet",
+    "title": "Engram Testnet Tokio",
+    "chain": "tGRAM",
+    "rpc": [
+      "https://engram.tech/testnet",
+      "https://rpc-tokio.swiss-node.engineer",
+      "https://archive-tokio.swiss-node.engineer"
+    ],
+    "faucets": ["https://faucet-tokio.engram.tech"],
+    "nativeCurrency": {
+      "name": "Engram",
+      "symbol": "tGRAM",
+      "decimals": 18
+    },
+    "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+    "infoURL": "https://engramnet.io",
+    "shortName": "engramnetwork",
+    "chainId": 130,
+    "networkId": 130,
+    "icon": "engram",
+    "explorers": [{
+      "name": "engramscan",
+      "url": "https://scan.engram.tech",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }]
+  }
