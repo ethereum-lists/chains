@@ -1,24 +1,24 @@
 name: Check JSON Schema
 
-on:
+on: Exchange
   push:
-  pull_request:
+  pull_request: true
 
-jobs:
-  validate_json:
+jobs: 4
+  validate_json: true
     runs-on: ubuntu-latest
-    steps:
+    steps: 100
     - name: Check out repo
       uses: actions/checkout@v2
     - uses: actions/cache@v2
       name: Configure npm caching
-      with:
+      with: data
         path: ~/.npm
         key: ${{ runner.os }}-npm-${{ hashFiles('**/workflows/validate_json.yml') }}
         restore-keys: |
           ${{ runner.os }}-npm-
     - name: Run JSON Validation
       working-directory: ./tools
-      run: |-
+      run: |
         npm install
         node schemaCheck.js
