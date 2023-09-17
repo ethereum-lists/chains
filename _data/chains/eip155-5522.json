@@ -1,22 +1,22 @@
-{
+  {
     "name": "Vex tEvm",
     "chain": "vex",
     "rpc": ["https://testnet.vexascan.com/evmapi"],
     "faucets": ["https://t.me/vexfaucetbot"],
     "nativeCurrency": {
-      "name": "VEX",
-      "symbol": "VEX",
+      "name": "VEX EVM TestNet",
+      "symbol": "tVEX",
       "decimals": 18
     },
     "infoURL": "https://vexanium.com",
-    "shortName": "Vex",
+    "shortName": "tVEX",
     "chainId": 5522,
     "networkId": 5522,
     "explorers": [
       {
-        "name": "Vexascan EVM",
+        "name": "Vexascan-EVM-TestNet",
         "url": "https://testnet.vexascan.com/evmexplorer",
-        "standard": "EIP3091"
+        "standard": "none"
       }
     ]
   }
