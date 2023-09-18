@@ -17,11 +17,10 @@
   "chainId": 108,
   "networkId": 108,
   "slip44": 1001,
-
   "explorers": [
     {
-      "name": "thundercore-viewblock",
-      "url": "https://viewblock.io/thundercore",
+      "name": "thundercore-blockscout-mainnet",
+      "url": "https://explorer-mainnet.thundercore.com/",
       "standard": "EIP3091"
     }
   ]
