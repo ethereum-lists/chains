@@ -1,0 +1,27 @@
+{
+  "name": "ShimmerEVM Mainnet",
+  "title": "ShimmerEVM Mainnet",
+  "chain": "ShimmerEVM",
+  "rpc": [
+    "https://json-rpc.evm.shimmer.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SMR",
+    "symbol": "SMR",
+    "decimals": 6
+  },
+  "infoURL": "https://shimmer.network",
+  "shortName": "shimmerevm-mainnet",
+  "chainId": 148,
+  "networkId": 148,
+  "icon": "shimmerevm",
+  "explorers": [
+    {
+      "name": "explorer",
+      "url": "https://iota-shimmer.blockscout.com",
+      "icon": "shimmerevm",
+      "standard": "EIP3091"
+    }
+  ]
+}
