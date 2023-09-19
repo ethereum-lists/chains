@@ -11777,6 +11777,19 @@
   "faucets": [],
   "infoURL": "https://taiko.xyz"
 }, {
+  "name": "Taiko Jolnir L2",
+  "chainId": 167007,
+  "shortName": "tko-jolnir",
+  "networkId": 167007,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.jolnir.taiko.xyz"],
+  "faucets": [],
+  "infoURL": "https://taiko.xyz"
+}, {
   "name": "Condor Test Network",
   "chainId": 188881,
   "shortName": "condor",
