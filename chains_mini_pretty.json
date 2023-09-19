@@ -4434,7 +4434,7 @@
 }, {
   "name": "BLXq Testnet",
   "chainId": 1107,
-  "shortName": "blxq",
+  "shortName": "tblxq",
   "networkId": 1107,
   "nativeCurrency": {
     "name": "BLXQ",
@@ -4442,6 +4442,19 @@
     "decimals": 18
   },
   "rpc": ["https://testnetq1.blx.org"],
+  "faucets": [],
+  "infoURL": "https://blx.org"
+}, {
+  "name": "BLXq Mainnet",
+  "chainId": 1108,
+  "shortName": "blxq",
+  "networkId": 1108,
+  "nativeCurrency": {
+    "name": "BLXQ",
+    "symbol": "BLXQ",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.blxq.org"],
   "faucets": [],
   "infoURL": "https://blx.org"
 }, {
