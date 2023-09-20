@@ -1,12 +1,12 @@
 {
-  "name": "Vex tEvm",
+  "name": "VEX EVM TESTNET",
   "chain": "vex",
   "icon": "vex",
   "rpc": ["https://testnet.vexascan.com/evmapi"],
   "faucets": ["https://t.me/vexfaucetbot"],
   "nativeCurrency": {
-    "name": "VEX EVM TestNet",
-    "symbol": "tVEX",
+    "name": "VEX EVM TESTNET",
+    "symbol": "VEX",
     "decimals": 18
   },
   "infoURL": "https://vexanium.com",
