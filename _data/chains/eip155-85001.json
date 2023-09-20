@@ -1,0 +1,16 @@
+{
+  "name": "TikBridge Testnet",
+  "chain": "TikBridge",
+  "rpc": ["https://tikrpc-testnet.tikbridge.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TikBridge",
+    "symbol": "TikBridge",
+    "decimals": 18
+  },
+  "infoURL": "https://beta.tikbridge.com/",
+  "shortName": "TikBridge",
+  "chainId": 85001,
+  "networkId": 85001,
+  "explorers": []
+}
