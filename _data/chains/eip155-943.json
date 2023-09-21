@@ -9,7 +9,8 @@
   "rpc": [
     "https://rpc.v4.testnet.pulsechain.com/",
     "wss://rpc.v4.testnet.pulsechain.com/",
-    "https://pulsechain-testnet.publicnode.com"
+    "https://pulsechain-testnet.publicnode.com",
+    "wss://pulsechain-testnet.publicnode.com"
   ],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": ["https://faucet.v4.testnet.pulsechain.com/"],
