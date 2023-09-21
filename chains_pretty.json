@@ -14346,17 +14346,17 @@
   }]
 }, {
   "name": "Quantum Chain Testnet",
-  "chain": "QNET",
+  "chain": "tQNET",
   "icon": "qnet",
   "rpc": ["https://testnet-rpc.quantumscan.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Quantum Chain",
-    "symbol": "QNET",
+    "symbol": "tQNET",
     "decimals": 18
   },
   "infoURL": "https://quantumnetwork.gg",
-  "shortName": "qnet",
+  "shortName": "tqnet",
   "chainId": 12890,
   "networkId": 12890,
   "explorers": [{
@@ -17292,6 +17292,26 @@
   "chainId": 81363,
   "networkId": 81363,
   "status": "incubating"
+}, {
+  "name": "Quantum Chain Mainnet",
+  "chain": "QNET",
+  "icon": "qnet",
+  "rpc": ["https://rpc.quantumscan.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Quantum Chain",
+    "symbol": "QNET",
+    "decimals": 18
+  },
+  "infoURL": "https://quantumnetwork.gg",
+  "shortName": "qnet",
+  "chainId": 81720,
+  "networkId": 81720,
+  "explorers": [{
+    "name": "Quantum Scan Mainnet",
+    "url": "https://quantumscan.org",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Base Goerli Testnet",
   "chain": "ETH",

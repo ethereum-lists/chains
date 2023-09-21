@@ -9309,11 +9309,11 @@
 }, {
   "name": "Quantum Chain Testnet",
   "chainId": 12890,
-  "shortName": "qnet",
+  "shortName": "tqnet",
   "networkId": 12890,
   "nativeCurrency": {
     "name": "Quantum Chain",
-    "symbol": "QNET",
+    "symbol": "tQNET",
     "decimals": 18
   },
   "rpc": ["https://testnet-rpc.quantumscan.org"],
@@ -11191,6 +11191,19 @@
   "rpc": [],
   "faucets": [],
   "infoURL": "https://github.com/Qitmeer"
+}, {
+  "name": "Quantum Chain Mainnet",
+  "chainId": 81720,
+  "shortName": "qnet",
+  "networkId": 81720,
+  "nativeCurrency": {
+    "name": "Quantum Chain",
+    "symbol": "QNET",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.quantumscan.org"],
+  "faucets": [],
+  "infoURL": "https://quantumnetwork.gg"
 }, {
   "name": "Base Goerli Testnet",
   "chainId": 84531,
