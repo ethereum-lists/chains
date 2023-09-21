@@ -6278,6 +6278,19 @@
   "faucets": [],
   "infoURL": "https://bo.vcex.xyz/"
 }, {
+  "name": "The Krest Network",
+  "chainId": 2241,
+  "shortName": "KRST",
+  "networkId": 2241,
+  "nativeCurrency": {
+    "name": "Krest",
+    "symbol": "KRST",
+    "decimals": 18
+  },
+  "rpc": ["https://erpc-krest.peaq.network"],
+  "faucets": [],
+  "infoURL": "https://www.peaq.network"
+}, {
   "name": "BOMB Chain",
   "chainId": 2300,
   "shortName": "bomb",
