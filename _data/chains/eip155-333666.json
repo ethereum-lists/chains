@@ -1,10 +1,10 @@
 {
   "name": "Oone Chain Testnet",
-  "chain": "OONE",
+  "chain": "OONE Testnet",
   "rpc": ["https://rpc.testnet.oonechain.com"],
   "faucets": ["https://apps-test.adigium.com/faucet"],
   "nativeCurrency": {
-    "name": "Oone",
+    "name": "tOONE",
     "symbol": "tOONE",
     "decimals": 18
   },
