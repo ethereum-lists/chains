@@ -1,7 +1,7 @@
 {
   "name": "Humans.ai Testnet",
   "chain": "Humans",
-  "rpc": ["https://evm-rpc.friction.humans.zone"],
+  "rpc": ["https://evm-rpc.testnet.humans.zone"],
   "faucets": [],
   "nativeCurrency": {
     "name": "HEART",
@@ -18,15 +18,7 @@
   ],
   "infoURL": "https://humans.ai",
   "shortName": "humans",
-  "chainId": 3000,
-  "networkId": 3000,
-  "icon": "humans",
-  "explorers": [
-    {
-      "name": "friction.humans.zone",
-      "url": "https://evm-explorer.friction.humans.zone",
-      "icon": "humans",
-      "standard": "none"
-    }
-  ]
+  "chainId": 4139,
+  "networkId": 4139,
+  "icon": "humans"
 }
