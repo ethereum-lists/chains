@@ -5992,7 +5992,7 @@
   "faucets": [],
   "infoURL": "https://www.thestratos.org"
 }, {
-  "name": "Stratos Mainnet",
+  "name": "Stratos",
   "chainId": 2048,
   "shortName": "stos-mainnet",
   "networkId": 2048,
@@ -6001,7 +6001,7 @@
     "symbol": "STOS",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://web3-rpc.thestratos.org"],
   "faucets": [],
   "infoURL": "https://www.thestratos.org"
 }, {
