@@ -1,0 +1,23 @@
+{
+    "name": "Blockify Chain Testnet",
+    "chain": "BLOCK",
+    "icon": "BLOCK",
+    "rpc": ["https://node.blockifychain.live/"],
+    "faucets": ["https://faucet.blockifychain.live/"],
+    "nativeCurrency": {
+      "name": "Blockify Chain Testnet",
+      "symbol": "BLOCK",
+      "decimals": 18
+    },
+    "infoURL": "https://blockifychain.live",
+    "shortName": "BLOCK",
+    "chainId": 2002,
+    "networkId": 2002,
+    "explorers": [
+      {
+        "name": "Blockify scan Testnet",
+        "url": "https://explorer.blockifychain.live/",
+        "standard": "EIP3091"
+      }
+    ]
+}
