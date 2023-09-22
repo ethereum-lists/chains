@@ -10126,6 +10126,19 @@
   "faucets": [],
   "infoURL": "https://q.org/"
 }, {
+  "name": "ConnectorManager",
+  "chainId": 38400,
+  "shortName": "cmrpg",
+  "networkId": 38400,
+  "nativeCurrency": {
+    "name": "Rangers Protocol Gas",
+    "symbol": "cmRPG",
+    "decimals": 18
+  },
+  "rpc": ["https://cm.rangersprotocol.com/api/jsonrpc"],
+  "faucets": [],
+  "infoURL": "https://rangersprotocol.com"
+}, {
   "name": "ConnectorManager Robin",
   "chainId": 38401,
   "shortName": "ttrpg",
