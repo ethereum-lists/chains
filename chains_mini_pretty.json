@@ -376,7 +376,7 @@
   "faucets": [],
   "infoURL": "https://www.genesisl1.com"
 }, {
-  "name": "RSK Mainnet",
+  "name": "Rootstock Mainnet",
   "chainId": 30,
   "shortName": "rsk",
   "networkId": 30,
@@ -387,9 +387,9 @@
   },
   "rpc": ["https://public-node.rsk.co", "https://mycrypto.rsk.co"],
   "faucets": [],
-  "infoURL": "https://rsk.co"
+  "infoURL": "https://rootstock.io"
 }, {
-  "name": "RSK Testnet",
+  "name": "Rootstock Testnet",
   "chainId": 31,
   "shortName": "trsk",
   "networkId": 31,
@@ -400,7 +400,7 @@
   },
   "rpc": ["https://public-node.testnet.rsk.co", "https://mycrypto.testnet.rsk.co"],
   "faucets": ["https://faucet.rsk.co/"],
-  "infoURL": "https://rsk.co"
+  "infoURL": "https://rootstock.io"
 }, {
   "name": "GoodData Testnet",
   "chainId": 32,
