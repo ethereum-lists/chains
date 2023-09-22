@@ -12,5 +12,12 @@
   "shortName": "hmnd",
   "chainId": 5234,
   "networkId": 5234,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "Subscan",
+      "url": "https://humanode.subscan.io",
+      "standard": "EIP3091",
+      "icon": "subscan"
+    }
+  ]
 }
