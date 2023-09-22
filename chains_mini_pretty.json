@@ -12194,17 +12194,30 @@
   "infoURL": "https://ethereum.org"
 }, {
   "name": "Oone Chain Testnet",
-  "chainId": 333777,
+  "chainId": 333666,
   "shortName": "oonetest",
-  "networkId": 333777,
+  "networkId": 333666,
   "nativeCurrency": {
-    "name": "Oone",
+    "name": "tOONE",
     "symbol": "tOONE",
     "decimals": 18
   },
-  "rpc": ["https://blockchain-test.adigium.world"],
+  "rpc": ["https://rpc.testnet.oonechain.com"],
   "faucets": ["https://apps-test.adigium.com/faucet"],
-  "infoURL": "https://oone.world"
+  "infoURL": "https://oonechain.com"
+}, {
+  "name": "Oone Chain Devnet",
+  "chainId": 333777,
+  "shortName": "oonedev",
+  "networkId": 333777,
+  "nativeCurrency": {
+    "name": "tOONE",
+    "symbol": "tOONE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.dev.oonechain.com"],
+  "faucets": ["https://apps-test.adigium.com/faucet"],
+  "infoURL": "https://oonechain.com"
 }, {
   "name": "Polis Testnet",
   "chainId": 333888,

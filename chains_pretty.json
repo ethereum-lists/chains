@@ -18915,21 +18915,40 @@
   }]
 }, {
   "name": "Oone Chain Testnet",
-  "chain": "OONE",
-  "rpc": ["https://blockchain-test.adigium.world"],
+  "chain": "OONE Testnet",
+  "rpc": ["https://rpc.testnet.oonechain.com"],
   "faucets": ["https://apps-test.adigium.com/faucet"],
   "nativeCurrency": {
-    "name": "Oone",
+    "name": "tOONE",
     "symbol": "tOONE",
     "decimals": 18
   },
-  "infoURL": "https://oone.world",
+  "infoURL": "https://oonechain.com",
   "shortName": "oonetest",
+  "chainId": 333666,
+  "networkId": 333666,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://testnet.oonescan.com",
+    "standard": "none"
+  }]
+}, {
+  "name": "Oone Chain Devnet",
+  "chain": "OONE Devnet",
+  "rpc": ["https://rpc.dev.oonechain.com"],
+  "faucets": ["https://apps-test.adigium.com/faucet"],
+  "nativeCurrency": {
+    "name": "tOONE",
+    "symbol": "tOONE",
+    "decimals": 18
+  },
+  "infoURL": "https://oonechain.com",
+  "shortName": "oonedev",
   "chainId": 333777,
   "networkId": 333777,
   "explorers": [{
-    "name": "expedition",
-    "url": "https://explorer-test.adigium.world",
+    "name": "blockscout",
+    "url": "https://dev.oonescan.com",
     "standard": "none"
   }]
 }, {
