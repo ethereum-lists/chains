@@ -10984,6 +10984,19 @@
   "faucets": [],
   "infoURL": "https://resincoin.dev"
 }, {
+  "name": "Foundry Chain Testnet",
+  "chainId": 77238,
+  "shortName": "fnc",
+  "networkId": 77238,
+  "nativeCurrency": {
+    "name": "Foundry Chain Testnet",
+    "symbol": "tFNC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.foundryscan.org/"],
+  "faucets": ["https://faucet.foundryscan.org"],
+  "infoURL": "https://foundrychain.org"
+}, {
   "name": "Vention Smart Chain Mainnet",
   "chainId": 77612,
   "shortName": "vscm",
