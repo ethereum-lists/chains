@@ -9307,6 +9307,19 @@
   "faucets": ["https://faucet.step.network"],
   "infoURL": "https://step.network"
 }, {
+  "name": "Astar zkEVM",
+  "chainId": 12611,
+  "shortName": "astrzk",
+  "networkId": 12611,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://astar.network"
+}, {
   "name": "Rikeza Network Testnet",
   "chainId": 12715,
   "shortName": "tRIK",
@@ -12803,6 +12816,19 @@
   "rpc": ["https://host-76-74-28-226.contentfabric.io/eth/", "https://host-76-74-28-232.contentfabric.io/eth/", "https://host-76-74-29-2.contentfabric.io/eth/", "https://host-76-74-29-8.contentfabric.io/eth/", "https://host-76-74-29-34.contentfabric.io/eth/", "https://host-76-74-29-35.contentfabric.io/eth/", "https://host-154-14-211-98.contentfabric.io/eth/", "https://host-154-14-192-66.contentfabric.io/eth/", "https://host-60-240-133-202.contentfabric.io/eth/", "https://host-64-235-250-98.contentfabric.io/eth/"],
   "faucets": [],
   "infoURL": "https://eluv.io"
+}, {
+  "name": "zKatana",
+  "chainId": 1261120,
+  "shortName": "azktn",
+  "networkId": 1261120,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://astar.network"
 }, {
   "name": "Etho Protocol",
   "chainId": 1313114,

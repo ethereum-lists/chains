@@ -14373,6 +14373,29 @@
     "chain": "eip155-43113"
   }
 }, {
+  "name": "Astar zkEVM",
+  "shortName": "astrzk",
+  "title": "Astar zkEVM Mainnet",
+  "chain": "ETH",
+  "icon": "astarzk",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://astar.network",
+  "chainId": 12611,
+  "networkId": 12611,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  },
+  "status": "incubating"
+}, {
   "name": "Rikeza Network Testnet",
   "title": "Rikeza Network Testnet",
   "chain": "Rikeza",
@@ -19884,6 +19907,29 @@
     "url": "https://explorer.eluv.io",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "zKatana",
+  "shortName": "azktn",
+  "title": "Astar zkEVM Testnet zKatana",
+  "chain": "ETH",
+  "icon": "astarzk",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://astar.network",
+  "chainId": 1261120,
+  "networkId": 1261120,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": []
+  },
+  "status": "incubating"
 }, {
   "name": "Etho Protocol",
   "chain": "ETHO",
