@@ -2803,7 +2803,7 @@
     "symbol": "PLS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.pulsechain.com", "wss://rpc.pulsechain.com", "https://pulsechain.publicnode.com", "wss://pulsechain.publicnode.com"],
+  "rpc": ["https://rpc.pulsechain.com", "wss://rpc.pulsechain.com", "https://pulsechain.publicnode.com", "wss://pulsechain.publicnode.com", "https://rpc-pulsechain.g4mm4.io", "wss://rpc-pulsechain.g4mm4.io"],
   "faucets": [],
   "infoURL": "https://pulsechain.com/"
 }, {
@@ -3960,7 +3960,7 @@
     "symbol": "tPLS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.v4.testnet.pulsechain.com/", "wss://rpc.v4.testnet.pulsechain.com/", "https://pulsechain-testnet.publicnode.com", "wss://pulsechain-testnet.publicnode.com"],
+  "rpc": ["https://rpc.v4.testnet.pulsechain.com", "wss://rpc.v4.testnet.pulsechain.com", "https://pulsechain-testnet.publicnode.com", "wss://pulsechain-testnet.publicnode.com", "https://rpc-testnet-pulsechain.g4mm4.io", "wss://rpc-testnet-pulsechain.g4mm4.io"],
   "faucets": ["https://faucet.v4.testnet.pulsechain.com/"],
   "infoURL": "https://pulsechain.com"
 }, {
