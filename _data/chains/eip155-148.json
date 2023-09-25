@@ -2,9 +2,7 @@
   "name": "ShimmerEVM Mainnet",
   "title": "ShimmerEVM Mainnet",
   "chain": "ShimmerEVM",
-  "rpc": [
-    "https://json-rpc.evm.shimmer.network"
-  ],
+  "rpc": ["https://json-rpc.evm.shimmer.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "SMR",
