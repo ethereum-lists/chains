@@ -1780,6 +1780,19 @@
   "faucets": [],
   "infoURL": "https://phi.network"
 }, {
+  "name": "ShimmerEVM Mainnet",
+  "chainId": 148,
+  "shortName": "shimmerevm-mainnet",
+  "networkId": 148,
+  "nativeCurrency": {
+    "name": "SMR",
+    "symbol": "SMR",
+    "decimals": 18
+  },
+  "rpc": ["https://json-rpc.evm.shimmer.network"],
+  "faucets": [],
+  "infoURL": "https://shimmer.network"
+}, {
   "name": "Six Protocol Testnet",
   "chainId": 150,
   "shortName": "sixt",
