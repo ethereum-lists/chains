@@ -265,7 +265,7 @@
   "name": "Flare Mainnet",
   "chain": "FLR",
   "icon": "flare",
-  "rpc": ["https://flare-api.flare.network/ext/C/rpc"],
+  "rpc": ["https://flare-api.flare.network/ext/C/rpc", "https://rpc.ftso.au/flare"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Flare",
