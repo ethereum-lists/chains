@@ -1,15 +1,27 @@
 {
-  "name": "Ubiq Network Testnet",
-  "chain": "UBQ",
-  "rpc": [],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "Ubiq Testnet Ether",
-    "symbol": "TUBQ",
-    "decimals": 18
-  },
-  "infoURL": "https://ethersocial.org",
-  "shortName": "tubq",
-  "chainId": 9,
-  "networkId": 2
-}
+    "name": "Movo Smart Chain Mainnet",
+    "chain": "MOVO",
+    "rpc": [
+      "https://msc-rpc.movoscan.com",
+      "https://msc-rpc.movochain.org",
+      "https://msc-rpc.movoswap.com"
+    ],
+    "faucets": ["https://faucet.movoscan.com"],
+    "nativeCurrency": {
+      "name": "Movo Smart Chain",
+      "symbol": "MOVO",
+      "decimals": 18
+    },
+    "infoURL": "https://movo.uk",
+    "shortName": "movo",
+    "chainId": 9,
+    "networkId": 9,
+    "slip44": 2050,
+    "explorers": [
+      {
+        "name": "",
+        "url": "https://movoscan.com",
+        "standard": "EIP3091"
+      }
+    ]
+  }
