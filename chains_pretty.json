@@ -9655,7 +9655,7 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "The Krest Network",
+  "name": "Krest Network",
   "chain": "Krest",
   "icon": "krest",
   "rpc": ["https://erpc-krest.peaq.network"],
@@ -13689,6 +13689,10 @@
   "explorers": [{
     "name": "Polkadot.js",
     "url": "https://polkadot.js.org/apps/?rpc=wss://wsspc1-qa.agung.peaq.network#/explorer",
+    "standard": "none"
+  }, {
+    "name": "Subscan",
+    "url": "https://agung.subscan.io",
     "standard": "none"
   }]
 }, {
