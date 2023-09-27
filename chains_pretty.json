@@ -6751,7 +6751,7 @@
   "shortName": "humans",
   "chainId": 1089,
   "networkId": 1089,
-  "icon": "humans",
+  "icon": "humans-dark",
   "explorers": [{
     "name": "explorer.guru",
     "url": "https://humans.explorers.guru",
@@ -11065,6 +11065,26 @@
     "url": "https://testnet.explorer.aioz.network",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Humans.ai Testnet",
+  "chain": "Humans Testnet",
+  "rpc": ["https://evm-rpc.testnet.humans.zone"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "HEART",
+    "symbol": "HEART",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://humans.ai",
+  "shortName": "humans_testnet",
+  "chainId": 4139,
+  "networkId": 4139,
+  "icon": "humans-dark"
 }, {
   "name": "Tipboxcoin Testnet",
   "chain": "TPBX",

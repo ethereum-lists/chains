@@ -7175,6 +7175,19 @@
   "faucets": [],
   "infoURL": "https://aioz.network"
 }, {
+  "name": "Humans.ai Testnet",
+  "chainId": 4139,
+  "shortName": "humans_testnet",
+  "networkId": 4139,
+  "nativeCurrency": {
+    "name": "HEART",
+    "symbol": "HEART",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-rpc.testnet.humans.zone"],
+  "faucets": [],
+  "infoURL": "https://humans.ai"
+}, {
   "name": "Tipboxcoin Testnet",
   "chainId": 4141,
   "shortName": "TPBXt",
