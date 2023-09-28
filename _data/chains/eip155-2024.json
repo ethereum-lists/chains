@@ -1,25 +1,25 @@
 {
-    "name": "Universal Ledger",
-    "chain": "ULED",
-    "rpc": [
-      "https://rpc.uled.io:8546"
-    ],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "USBC",
-      "symbol": "USBC",
-      "decimals": 2
-    },
-    "features": [],
-    "infoURL": "https://uled.io",
-    "shortName": "ULED",
-    "chainId": 2024,
-    "networkId": 2024,
-    "icon": "uled",
-    "explorers": [{
+  "name": "Universal Ledger",
+  "chain": "ULED",
+  "rpc": ["https://rpc.uled.io:8546"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USBC",
+    "symbol": "USBC",
+    "decimals": 2
+  },
+  "features": [],
+  "infoURL": "https://uled.io",
+  "shortName": "ULED",
+  "chainId": 2024,
+  "networkId": 2024,
+  "icon": "uled",
+  "explorers": [
+    {
       "name": "ULED",
       "url": "https://explorer.uled.io",
       "icon": "uled",
       "standard": "none"
-    }]
-  }
+    }
+  ]
+}

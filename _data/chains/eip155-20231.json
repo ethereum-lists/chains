@@ -1,25 +1,25 @@
 {
-    "name": "Universal Ledger Testnet",
-    "chain": "ULED",
-    "rpc": [
-      "http://rpc.tst.uled.io:8545"
-    ],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "USBC",
-      "symbol": "USBC",
-      "decimals": 2
-    },
-    "features": [],
-    "infoURL": "https://uled.io",
-    "shortName": "ULEDT",
-    "chainId": 20231,
-    "networkId": 20231,
-    "icon": "uled",
-    "explorers": [{
+  "name": "Universal Ledger Testnet",
+  "chain": "ULED",
+  "rpc": ["http://rpc.tst.uled.io:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USBC",
+    "symbol": "USBC",
+    "decimals": 2
+  },
+  "features": [],
+  "infoURL": "https://uled.io",
+  "shortName": "ULEDT",
+  "chainId": 20231,
+  "networkId": 20231,
+  "icon": "uled",
+  "explorers": [
+    {
       "name": "ULED",
       "url": "https://explorer.tst.uled.io",
       "icon": "uled",
       "standard": "none"
-    }]
-  }
+    }
+  ]
+}
