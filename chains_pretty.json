@@ -6138,6 +6138,31 @@
   "chainId": 956,
   "networkId": 956
 }, {
+  "name": "BTC20 Smart Chain",
+  "chain": "BTC20",
+  "rpc": ["https://rpc.bitcoincode.technology/"],
+  "faucets": [],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "nativeCurrency": {
+    "name": "BTCC",
+    "symbol": "BTCC",
+    "decimals": 18
+  },
+  "infoURL": "https://bitcoincode.technology",
+  "shortName": "btc20",
+  "chainId": 963,
+  "networkId": 963,
+  "icon": "btc20",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://scan.bitcoincode.technology",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Oort Mainnet",
   "chain": "Oort Mainnet",
   "rpc": ["https://rpc.oortech.com"],
@@ -15964,6 +15989,26 @@
   "explorers": [{
     "name": "Oasis Emerald Explorer",
     "url": "https://explorer.emerald.oasis.dev",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Gesoten Verse Testnet",
+  "chain": "Gesoten Verse",
+  "rpc": ["https://rpc.testnet.verse.gesoten.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "infoURL": "https://gesoten.com/",
+  "shortName": "GST",
+  "icon": "gesoten",
+  "chainId": 42801,
+  "networkId": 42801,
+  "explorers": [{
+    "name": "Gesoten Verse Testnet Explorer",
+    "url": "https://explorer.testnet.verse.gesoten.com",
     "standard": "EIP3091"
   }]
 }, {
