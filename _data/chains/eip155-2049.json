@@ -16,11 +16,13 @@
     "shortName": "movo",
     "chainId": 2049,
     "networkId": 2049,
+    "icon": "movologo",
     "slip44": 2050,
     "explorers": [
       {
-        "name": "",
+        "name": "movo",
         "url": "https://movoscan.com",
+        "icon": "movologo",
         "standard": "EIP3091"
       }
     ]
