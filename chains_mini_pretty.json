@@ -10321,19 +10321,6 @@
   "faucets": [],
   "infoURL": "https://docs.oasis.io/dapp/emerald"
 }, {
-  "name": "Gesoten Verse Testnet",
-  "chainId": 42801,
-  "shortName": "GST",
-  "networkId": 42801,
-  "nativeCurrency": {
-    "name": "OAS",
-    "symbol": "OAS",
-    "decimals": 18
-  },
-  "rpc": ["https://rpc.testnet.verse.gesoten.com/"],
-  "faucets": [],
-  "infoURL": "https://gesoten.com/"
-}, {
   "name": "Kinto Testnet",
   "chainId": 42888,
   "shortName": "keth",
