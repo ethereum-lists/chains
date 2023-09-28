@@ -1,0 +1,15 @@
+{
+  "name": "BitTorrent Chain Donau",
+  "chain": "BTT Testnet",
+  "rpc": ["https://pre-rpc.bt.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTT",
+    "symbol": "BTT",
+    "decimals": 18
+  },
+  "infoURL": "https://doc.bt.io/",
+  "shortName": "BTT",
+  "chainId": 1029,
+  "networkId": 1029
+}
