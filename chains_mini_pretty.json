@@ -2179,7 +2179,7 @@
     "symbol": "BNB",
     "decimals": 18
   },
-  "rpc": ["https://opbnb-mainnet-rpc.bnbchain.org"],
+  "rpc": ["https://opbnb-mainnet-rpc.bnbchain.org", "https://opbnb.publicnode.com", "wss://opbnb.publicnode.com"],
   "faucets": [],
   "infoURL": "https://opbnb.bnbchain.org/en"
 }, {
