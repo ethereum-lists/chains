@@ -1,0 +1,26 @@
+{
+  "name": "Sagalink Mainnet",
+  "chain": "Sagalink",
+  "rpc": [
+    "https://mainnet.sagalink.io",
+    "wss://wss.sagalink.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sagalink Native Token",
+    "symbol": "SAGA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.sagalink.io",
+  "shortName": "saga",
+  "chainId": 129,
+  "networkId": 129,
+  "explorers": [
+    {
+      "name": "sagascan",
+      "url": "https://scan.sagalink.io",
+      "standard": "EIP3091",
+      "icon": "saga"
+    }
+  ]
+}

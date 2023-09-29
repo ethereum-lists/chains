@@ -1,0 +1,28 @@
+{
+  "name": "Sagalink Testnet",
+  "chain": "Sagalink",
+  "rpc": [
+    "https://testnet.sagalink.io",
+    "wss://testnet-wss.sagalink.io"
+  ],
+  "faucets": [
+    "https://faucet.sagalink.io"
+  ],
+  "nativeCurrency": {
+    "name": "Sagalink Testnet Native Token",
+    "symbol": "SAGA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.sagalink.io",
+  "shortName": "tsaga",
+  "chainId": 1129,
+  "networkId": 1129,
+  "explorers": [
+    {
+      "name": "sagascan",
+      "url": "https://testnet-scan.sagalink.io",
+      "standard": "EIP3091",
+      "icon": "saga"
+    }
+  ]
+}
