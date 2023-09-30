@@ -1,7 +1,11 @@
 {
   "name": "Holesky",
   "chain": "ETH",
-  "rpc": ["https://rpc.holesky.ethpandaops.io"],
+  "rpc": [
+    "https://rpc.holesky.ethpandaops.io",
+    "https://ethereum-holesky.publicnode.com",
+    "wss://ethereum-holesky.publicnode.com"
+  ],
   "faucets": [
     "https://faucet.holesky.ethpandaops.io",
     "https://holesky-faucet.pk910.de"
@@ -21,6 +25,12 @@
     {
       "name": "Holesky Explorer",
       "url": "https://holesky.beaconcha.in",
+      "icon": "ethereum",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "otterscan-holesky",
+      "url": "https://holesky.otterscan.io",
       "icon": "ethereum",
       "standard": "EIP3091"
     }
