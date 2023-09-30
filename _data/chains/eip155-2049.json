@@ -6,22 +6,23 @@
       "https://msc-rpc.movochain.org",
       "https://msc-rpc.movoswap.com"
     ],
-    "faucets": ["https://faucet.movoscan.com"],
+    "faucets": [],
     "nativeCurrency": {
       "name": "Movo Smart Chain",
       "symbol": "MOVO",
       "decimals": 18
     },
+    "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
     "infoURL": "https://movo.uk",
-    "shortName": "movo",
+    "shortName": "movocoin",
     "chainId": 2049,
     "networkId": 2049,
     "slip44": 2050,
-    "explorers": [
-      {
-        "name": "movo",
-        "url": "https://movoscan.com",
-        "standard": "EIP3091"
-      }
-    ]
+    "icon": "movo",
+    "explorers": [{
+      "name": "movoscan",
+      "url": "https://movoscan.com",
+      "icon": "movoscan",
+      "standard": "EIP3091"
+    }]
   }
