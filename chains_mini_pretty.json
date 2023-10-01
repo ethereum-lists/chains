@@ -6044,6 +6044,19 @@
   "faucets": [],
   "infoURL": "https://www.thestratos.org"
 }, {
+  "name": "Movo Smart Chain Mainnet",
+  "chainId": 2049,
+  "shortName": "movo",
+  "networkId": 2049,
+  "nativeCurrency": {
+    "name": "Movo Smart Chain",
+    "symbol": "MOVO",
+    "decimals": 18
+  },
+  "rpc": ["https://msc-rpc.movoscan.com", "https://msc-rpc.movochain.org", "https://msc-rpc.movoswap.com"],
+  "faucets": [],
+  "infoURL": "https://movo.uk"
+}, {
   "name": "Quokkacoin Mainnet",
   "chainId": 2077,
   "shortName": "QKA",
