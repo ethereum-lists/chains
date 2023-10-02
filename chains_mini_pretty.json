@@ -10178,6 +10178,19 @@
   "faucets": [],
   "infoURL": "https://avescoin.io"
 }, {
+  "name": "Zilliqa EVM Devnet",
+  "chainId": 33385,
+  "shortName": "zil-devnet",
+  "networkId": 33385,
+  "nativeCurrency": {
+    "name": "Zilliqa",
+    "symbol": "ZIL",
+    "decimals": 18
+  },
+  "rpc": ["https://api.devnet.zilliqa.com/"],
+  "faucets": ["https://faucet.devnet.zilliqa.com/"],
+  "infoURL": "https://www.zilliqa.com/"
+}, {
   "name": "Zilliqa 2 EVM Devnet",
   "chainId": 33469,
   "shortName": "zq2-devnet",
