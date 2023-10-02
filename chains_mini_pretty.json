@@ -10139,6 +10139,19 @@
   "faucets": [],
   "infoURL": "https://www.zilliqa.com/"
 }, {
+  "name": "Zilliqa EVM Isolated Server",
+  "chainId": 32990,
+  "shortName": "zil-isolated-server",
+  "networkId": 32990,
+  "nativeCurrency": {
+    "name": "Zilliqa",
+    "symbol": "ZIL",
+    "decimals": 18
+  },
+  "rpc": ["https://zilliqa-isolated-server.zilliqa.com/"],
+  "faucets": ["https://dev-wallet.zilliqa.com/faucet?network=isolated_server"],
+  "infoURL": "https://www.zilliqa.com/"
+}, {
   "name": "Zilliqa EVM Testnet",
   "chainId": 33101,
   "shortName": "zil-testnet",
