@@ -1,7 +1,11 @@
 {
   "name": "opBNB Mainnet",
   "chain": "opBNB",
-  "rpc": ["https://opbnb-mainnet-rpc.bnbchain.org"],
+  "rpc": [
+    "https://opbnb-mainnet-rpc.bnbchain.org",
+    "https://opbnb.publicnode.com",
+    "wss://opbnb.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
