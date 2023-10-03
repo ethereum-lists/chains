@@ -1,0 +1,28 @@
+{
+    "name": "Alvabit Smartchain Testnet",
+    "chain": "ALVA",
+    "rpc": [
+      "https://gateonetestnet.alvabit.net/",
+      "https://gatetwotestnet.alvabit.net/"
+    ],
+    "faucets": ["https://faucet.alvabit.net"],
+    "nativeCurrency": {
+      "name": "AVA",
+      "symbol": "tAVA",
+      "decimals": 18
+    },
+    "infoURL": "https://alvabit.net",
+    "shortName": "sma",
+    "chainId": 88777,
+    "networkId": 88777,
+    "icon": "alva",
+    "explorers": [
+      {
+        "name": "Alvabit Smartchain testnet Explorer",
+        "icon": "alva",
+        "url": "https://testnet.alvabit.net",
+        "standard": "none"
+      }
+    ]
+  }
+  
