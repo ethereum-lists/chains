@@ -1,6 +1,7 @@
 {
   "name": "opBNB Testnet",
   "chain": "opBNB",
+  "icon": "bnbchain",
   "rpc": ["https://opbnb-testnet-rpc.bnbchain.org"],
   "faucets": ["https://testnet.bnbchain.org/faucet-smart"],
   "nativeCurrency": {
