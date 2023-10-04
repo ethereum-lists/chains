@@ -9281,6 +9281,7 @@
 }, {
   "name": "Movo Smart Chain Mainnet",
   "chain": "MOVO",
+  "icon": "movo",
   "rpc": ["https://msc-rpc.movoscan.com", "https://msc-rpc.movochain.org", "https://msc-rpc.movoswap.com"],
   "faucets": [],
   "nativeCurrency": {
@@ -9293,7 +9294,6 @@
   "chainId": 2049,
   "networkId": 2049,
   "slip44": 2050,
-  "icon": "movo",
   "explorers": [{
     "name": "movoscan",
     "url": "https://movoscan.com",
