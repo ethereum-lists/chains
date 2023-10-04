@@ -1,0 +1,28 @@
+{
+  "name": "Krest Network",
+  "chain": "Krest",
+  "icon": "krest",
+  "rpc": ["https://erpc-krest.peaq.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Krest",
+    "symbol": "KRST",
+    "decimals": 18
+  },
+  "infoURL": "https://www.peaq.network",
+  "shortName": "KRST",
+  "chainId": 2241,
+  "networkId": 2241,
+  "explorers": [
+    {
+      "name": "Polkadot.js",
+      "url": "https://polkadot.js.org/apps/?rpc=wss://wss-krest.peaq.network#/explorer",
+      "standard": "none"
+    },
+    {
+      "name": "Subscan",
+      "url": "https://krest.subscan.io",
+      "standard": "none"
+    }
+  ]
+}
