@@ -9632,6 +9632,19 @@
   "faucets": ["https://faucet.holesky.ethpandaops.io", "https://holesky-faucet.pk910.de"],
   "infoURL": "https://holesky.ethpandaops.io"
 }, {
+  "name": "G8Chain Mainnet",
+  "chainId": 17171,
+  "shortName": "G8Cm",
+  "networkId": 17171,
+  "nativeCurrency": {
+    "name": "G8Chain",
+    "symbol": "G8C",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.oneg8.network"],
+  "faucets": ["https://faucet.oneg8.network"],
+  "infoURL": "https://oneg8.one"
+}, {
   "name": "Palette Chain Testnet",
   "chainId": 17180,
   "shortName": "PCT",
@@ -9696,6 +9709,19 @@
   "rpc": ["https://mainnet-rpc.memescan.io", "https://mainnet-rpc2.memescan.io", "https://mainnet-rpc3.memescan.io", "https://mainnet-rpc4.memescan.io"],
   "faucets": [],
   "infoURL": "https://proofofmemes.org"
+}, {
+  "name": "G8Chain Testnet",
+  "chainId": 18181,
+  "shortName": "G8Ct",
+  "networkId": 18181,
+  "nativeCurrency": {
+    "name": "G8Coin",
+    "symbol": "G8C",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.oneg8.network"],
+  "faucets": ["https://faucet.oneg8.network"],
+  "infoURL": "https://oneg8.one"
 }, {
   "name": "MXC zkEVM Mainnet",
   "chainId": 18686,
