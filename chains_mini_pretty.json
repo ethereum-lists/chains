@@ -177,9 +177,9 @@
     "symbol": "FLR",
     "decimals": 18
   },
-  "rpc": ["https://flare-api.flare.network/ext/C/rpc", "https://rpc.ftso.au/flare"],
+  "rpc": ["https://flare-api.flare.network/ext/C/rpc", "https://flare.public-rpc.com", "https://rpc.ftso.au/flare"],
   "faucets": [],
-  "infoURL": "https://flare.xyz"
+  "infoURL": "https://flare.network"
 }, {
   "name": "Diode Prenet",
   "chainId": 15,
