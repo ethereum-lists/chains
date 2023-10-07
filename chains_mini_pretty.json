@@ -12830,6 +12830,19 @@
   "faucets": [],
   "infoURL": "https://miexs.com"
 }, {
+  "name": "Modularium",
+  "chainId": 776877,
+  "shortName": "mdlrm",
+  "networkId": 776877,
+  "nativeCurrency": {
+    "name": "Modularium",
+    "symbol": "MDM",
+    "decimals": 18
+  },
+  "rpc": ["https://fraa-dancebox-3035-rpc.a.dancebox.tanssi.network"],
+  "faucets": [],
+  "infoURL": "https://www.rmrk.app/"
+}, {
   "name": "OctaSpace",
   "chainId": 800001,
   "shortName": "octa",
