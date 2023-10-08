@@ -2508,6 +2508,19 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "Orderly Mainnet",
+  "chainId": 291,
+  "shortName": "orderly",
+  "networkId": 291,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["http://rpc.orderly.network"],
+  "faucets": [],
+  "infoURL": "www.orderly.network"
+}, {
   "name": "Hedera Mainnet",
   "chainId": 295,
   "shortName": "hedera-mainnet",
