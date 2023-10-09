@@ -1,11 +1,13 @@
 {
-  "name": "Fastex Chain (Bahamut)",
-  "title": "Bahamut mainnet Sahara",
-  "chain": "Fastex Chain (Bahamut)",
+  "name": "Bahamut",
+  "title": "Bahamut mainnet",
+  "chain": "Bahamut",
   "icon": "bahamut",
   "rpc": [
-    "https://rpc1.sahara.bahamutchain.com",
-    "https://rpc2.sahara.bahamutchain.com"
+    "https://rpc1.bahamut.io",
+    "https://rpc2.bahamut.io",
+    "wss://ws1.sahara.bahamutchain.com",
+    "wss://ws2.sahara.bahamutchain.com"
   ],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
@@ -15,7 +17,7 @@
     "decimals": 18
   },
   "shortName": "ftn",
-  "infoURL": "https://fastexchain.com",
+  "infoURL": "https://bahamut.io",
   "chainId": 5165,
   "networkId": 5165,
   "explorers": [
