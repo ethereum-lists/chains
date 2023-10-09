@@ -2517,7 +2517,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["http://rpc.orderly.network"],
+  "rpc": ["https://rpc.orderly.network", "https://l2-orderly-mainnet-0.t.conduit.xyz"],
   "faucets": [],
   "infoURL": "www.orderly.network"
 }, {
@@ -7487,7 +7487,7 @@
   "faucets": [],
   "infoURL": "https://www.testnet.treasurenet.io"
 }, {
-  "name": "Fastex Chain (Bahamut)",
+  "name": "Bahamut",
   "chainId": 5165,
   "shortName": "ftn",
   "networkId": 5165,
@@ -7496,9 +7496,9 @@
     "symbol": "FTN",
     "decimals": 18
   },
-  "rpc": ["https://rpc1.sahara.bahamutchain.com", "https://rpc2.sahara.bahamutchain.com"],
+  "rpc": ["https://rpc1.bahamut.io", "https://rpc2.bahamut.io", "wss://ws1.sahara.bahamutchain.com", "wss://ws2.sahara.bahamutchain.com"],
   "faucets": [],
-  "infoURL": "https://fastexchain.com"
+  "infoURL": "https://bahamut.io"
 }, {
   "name": "TLChain Network Mainnet",
   "chainId": 5177,
