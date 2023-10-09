@@ -8475,6 +8475,19 @@
   "faucets": [],
   "infoURL": "https://www.buildwithtoki.com"
 }, {
+  "name": "Hela Official Runtime Mainnet",
+  "chainId": 8668,
+  "shortName": "hela",
+  "networkId": 8668,
+  "nativeCurrency": {
+    "name": "Hela HLUSD",
+    "symbol": "HLUSD",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.helachain.com"],
+  "faucets": [],
+  "infoURL": "https://helalabs.com"
+}, {
   "name": "TOOL Global Mainnet",
   "chainId": 8723,
   "shortName": "olo",
@@ -12816,6 +12829,19 @@
   "rpc": ["https://vpioneer.infragrid.v.network/ethereum/compatible"],
   "faucets": ["https://vpioneerfaucet.visionscan.org"],
   "infoURL": "https://visionscan.org"
+}, {
+  "name": "Hela Official Runtime Testnet",
+  "chainId": 666888,
+  "shortName": "hela-testnet",
+  "networkId": 666888,
+  "nativeCurrency": {
+    "name": "Hela HLUSD",
+    "symbol": "HLUSD",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.helachain.com"],
+  "faucets": ["https://testnet-faucet.helachain.com"],
+  "infoURL": "https://helalabs.com"
 }, {
   "name": "Bear Network Chain Testnet",
   "chainId": 751230,
