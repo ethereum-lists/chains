@@ -2,7 +2,11 @@
   "name": "Mantle",
   "chain": "ETH",
   "icon": "mantle",
-  "rpc": ["https://rpc.mantle.xyz", "https://mantle.publicnode.com"],
+  "rpc": [
+    "https://rpc.mantle.xyz",
+    "https://mantle.publicnode.com",
+    "wss://mantle.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Mantle",

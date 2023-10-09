@@ -1,12 +1,15 @@
 {
-  "name": "Kava EVM",
+  "name": "Kava",
   "chain": "KAVA",
   "rpc": [
     "https://evm.kava.io",
     "https://evm2.kava.io",
+    "https://kava-rpc.gateway.pokt.network",
+    "https://kava-evm.rpc.thirdweb.com",
     "wss://wevm.kava.io",
     "wss://wevm2.kava.io",
-    "https://kava-evm.publicnode.com"
+    "https://kava-evm.publicnode.com",
+    "wss://kava-evm.publicnode.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,7 +25,7 @@
   "explorers": [
     {
       "name": "Kava EVM Explorer",
-      "url": "https://explorer.kava.io",
+      "url": "https://kavascan.com",
       "standard": "EIP3091",
       "icon": "kava"
     }

@@ -12,14 +12,15 @@
   },
   "rpc": [
     "https://goerli-rollup.arbitrum.io/rpc",
-    "https://arbitrum-goerli.publicnode.com"
+    "https://arbitrum-goerli.publicnode.com",
+    "wss://arbitrum-goerli.publicnode.com"
   ],
   "faucets": [],
   "infoURL": "https://arbitrum.io/",
   "explorers": [
     {
-      "name": "Arbitrum Goerli Rollup Explorer",
-      "url": "https://goerli-rollup-explorer.arbitrum.io",
+      "name": "Arbitrum Goerli Arbiscan",
+      "url": "https://goerli.arbiscan.io",
       "standard": "EIP3091"
     }
   ],
