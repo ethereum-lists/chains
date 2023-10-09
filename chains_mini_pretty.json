@@ -2517,7 +2517,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["http://rpc.orderly.network"],
+  "rpc": ["https://rpc.orderly.network", "https://l2-orderly-mainnet-0.t.conduit.xyz"],
   "faucets": [],
   "infoURL": "www.orderly.network"
 }, {
@@ -13303,8 +13303,8 @@
   "shortName": "quarix-testnet",
   "networkId": 8888881,
   "nativeCurrency": {
-    "name": "Q",
-    "symbol": "Q",
+    "name": "QARE",
+    "symbol": "QARE",
     "decimals": 18
   },
   "rpc": [],
@@ -13316,8 +13316,8 @@
   "shortName": "quarix",
   "networkId": 8888888,
   "nativeCurrency": {
-    "name": "Q",
-    "symbol": "Q",
+    "name": "QARE",
+    "symbol": "QARE",
     "decimals": 18
   },
   "rpc": [],

@@ -3750,7 +3750,7 @@
 }, {
   "name": "Orderly Mainnet",
   "chain": "ETH",
-  "rpc": ["http://rpc.orderly.network"],
+  "rpc": ["https://rpc.orderly.network", "https://l2-orderly-mainnet-0.t.conduit.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -20719,8 +20719,8 @@
   "rpc": [],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Q",
-    "symbol": "Q",
+    "name": "QARE",
+    "symbol": "QARE",
     "decimals": 18
   },
   "infoURL": "",
@@ -20736,8 +20736,8 @@
   "rpc": [],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Q",
-    "symbol": "Q",
+    "name": "QARE",
+    "symbol": "QARE",
     "decimals": 18
   },
   "infoURL": "",
