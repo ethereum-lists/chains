@@ -1,9 +1,8 @@
 {
   "name": "Base Sepolia Testnet",
   "chain": "ETH",
-  "rpc": [
-    "https://sepolia.base.org"
-  ],
+  "rpc": ["https://sepolia.base.org"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
