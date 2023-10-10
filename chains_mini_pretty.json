@@ -2235,6 +2235,19 @@
   "faucets": ["https://faucet.maplabs.io"],
   "infoURL": "https://maplabs.io"
 }, {
+  "name": "Shinarium Mainnet",
+  "chainId": 214,
+  "shortName": "shinarium",
+  "networkId": 214,
+  "nativeCurrency": {
+    "name": "Shina Inu",
+    "symbol": "SHI",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.shinarium.org"],
+  "faucets": [],
+  "infoURL": "https://shinarium.org"
+}, {
   "name": "SiriusNet V2",
   "chainId": 217,
   "shortName": "SIN2",
