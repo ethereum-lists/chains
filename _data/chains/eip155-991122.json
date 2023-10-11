@@ -1,0 +1,28 @@
+{
+    "name": "OXVA Network Testnet",
+    "chain": "OXVA",
+    "rpc": [
+      "https://zerodata-testnet-asia.oxva.network/",
+      "http://zerodata-testnet-jp.oxva.network/"
+    ],
+    "faucets": ["https://faucet.oxva.network"],
+    "nativeCurrency": {
+      "name": "OXVA",
+      "symbol": "tOXVA",
+      "decimals": 18
+    },
+    "infoURL": "https://oxva.network",
+    "shortName": "oxva",
+    "chainId": 991122,
+    "networkId": 991122,
+    "icon": "oxva",
+    "explorers": [
+      {
+        "name": "OXVA Testnet Explorer",
+        "icon": "oxva",
+        "url": "https://testnet.oxva.network",
+        "standard": "EIP3091"
+      }
+    ]
+  }
+  

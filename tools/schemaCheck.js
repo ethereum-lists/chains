@@ -3,7 +3,7 @@ const Ajv = require("ajv")
 const ajv = new Ajv()
 const schema = require("./schema/chainSchema.json")
 const { exit } = require("process")
-const path = require('path')
+const path = require("path")
 
 const resolve = (_path) => path.resolve(__dirname, _path)
 const chainFiles = fs.readdirSync(resolve("../_data/chains/"))
@@ -33,12 +33,11 @@ for (const chainFile of chainFiles) {
 }
 
 if (filesWithErrors.length > 0) {
-  filesWithErrors.forEach(file => {
+  filesWithErrors.forEach((file) => {
     console.error(`Invalid JSON Schema in ${file}`)
   })
-  exit(-1);
-}
-else {
-  console.info("Schema check completed successfully");
-  exit(0);
+  exit(-1)
+} else {
+  console.info("Schema check completed successfully")
+  exit(0)
 }
