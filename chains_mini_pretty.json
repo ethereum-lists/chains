@@ -11452,6 +11452,19 @@
   "faucets": ["https://www.coinbase.com/faucets/base-ethereum-goerli-faucet"],
   "infoURL": "https://base.org"
 }, {
+  "name": "Base Sepolia Testnet",
+  "chainId": 84532,
+  "shortName": "basesep",
+  "networkId": 84532,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia.base.org"],
+  "faucets": [],
+  "infoURL": "https://base.org"
+}, {
   "name": "Aerie Network",
   "chainId": 84886,
   "shortName": "Aerie",
