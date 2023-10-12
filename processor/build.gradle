@@ -17,7 +17,7 @@ dependencies {
     implementation "com.twelvemonkeys.imageio:imageio-jpeg:3.9.4"
     implementation "com.twelvemonkeys.imageio:imageio-batik:3.9.4"
 
-    implementation "org.apache.xmlgraphics:batik-rasterizer-ext:1.16"
+    implementation "org.apache.xmlgraphics:batik-rasterizer-ext:1.17"
     implementation project(":model")
 
     testImplementation "org.jetbrains.kotlin:kotlin-test:${KOTLIN_VERSION}"

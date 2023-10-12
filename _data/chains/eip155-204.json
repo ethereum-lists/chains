@@ -1,0 +1,27 @@
+{
+  "name": "opBNB Mainnet",
+  "chain": "opBNB",
+  "rpc": [
+    "https://opbnb-mainnet-rpc.bnbchain.org",
+    "https://opbnb.publicnode.com",
+    "wss://opbnb.publicnode.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BNB Chain Native Token",
+    "symbol": "BNB",
+    "decimals": 18
+  },
+  "infoURL": "https://opbnb.bnbchain.org/en",
+  "shortName": "obnb",
+  "chainId": 204,
+  "networkId": 204,
+  "slip44": 714,
+  "explorers": [
+    {
+      "name": "opbnbscan",
+      "url": "https://mainnet.opbnbscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
