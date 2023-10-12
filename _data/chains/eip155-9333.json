@@ -1,0 +1,27 @@
+{
+  "name": "Streakk",
+  "chain": "Streakk",
+  "rpc": [
+    "https://mhttprpc.streakkscan.com",
+    "wss://mainws.streakkscan.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Streakk",
+    "symbol": "STKC",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "streakk",
+  "chainId": 9333,
+  "networkId": 9333,
+  "icon": "streakk",
+  "explorers": [
+    {
+      "name": "Streakk Explorer",
+      "url": "https://streakkscan.com",
+      "standard": "none",
+      "icon": "streakk"
+    }
+  ]
+}
