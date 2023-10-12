@@ -1,0 +1,20 @@
+{
+  "name": "InvArch Tinkernet Parachain",
+  "chain": "TNKR",
+  "rpc": [
+    "https://tinkernet-rpc.dwellir.com",
+    "wss://tinkernet-rpc.dwellir.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Tinker",
+    "symbol": "TNKR",
+    "decimals": 12
+  },
+  "infoURL": "https://invarch.network/tinkernet",
+  "shortName": "tnkr",
+  "chainId": 2125,
+  "networkId": 2125,
+  "icon": "tinkernet",
+  "status": "incubating"
+}
