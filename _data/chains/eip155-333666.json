@@ -1,0 +1,22 @@
+{
+  "name": "Oone Chain Testnet",
+  "chain": "OONE Testnet",
+  "rpc": ["https://rpc.testnet.oonechain.com"],
+  "faucets": ["https://apps-test.adigium.com/faucet"],
+  "nativeCurrency": {
+    "name": "tOONE",
+    "symbol": "tOONE",
+    "decimals": 18
+  },
+  "infoURL": "https://oonechain.com",
+  "shortName": "oonetest",
+  "chainId": 333666,
+  "networkId": 333666,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://testnet.oonescan.com",
+      "standard": "none"
+    }
+  ]
+}
