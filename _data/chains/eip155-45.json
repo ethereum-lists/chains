@@ -2,7 +2,9 @@
   "name": "Darwinia Pangoro Testnet",
   "chain": "pangoro",
   "rpc": ["https://pangoro-rpc.darwinia.network"],
-  "faucets": [],
+  "faucets": [
+    "https://docs.darwinia.network/pangoro-testnet-70cfec5dc9ca42759959ba3803edaec2"
+  ],
   "nativeCurrency": {
     "name": "Pangoro Network Native Token",
     "symbol": "ORING",

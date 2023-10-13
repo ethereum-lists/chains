@@ -1,8 +1,12 @@
 {
   "name": "opBNB Mainnet",
   "chain": "opBNB",
-  "rpc": ["https://opbnb-mainnet-rpc.bnbchain.org"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains"],
+  "rpc": [
+    "https://opbnb-mainnet-rpc.bnbchain.org",
+    "https://opbnb.publicnode.com",
+    "wss://opbnb.publicnode.com"
+  ],
+  "faucets": [],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
     "symbol": "BNB",
@@ -16,7 +20,7 @@
   "explorers": [
     {
       "name": "opbnbscan",
-      "url": "http://mainnet.opbnbscan.com",
+      "url": "https://mainnet.opbnbscan.com",
       "standard": "EIP3091"
     }
   ]
