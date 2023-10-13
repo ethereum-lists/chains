@@ -11036,6 +11036,19 @@
   "faucets": [],
   "infoURL": "https://cosmicchain.site"
 }, {
+  "name": "DM2 Verse Mainnet",
+  "chainId": 68770,
+  "shortName": "dm2",
+  "networkId": 68770,
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.dm2verse.dmm.com"],
+  "faucets": [],
+  "infoURL": "https://seamoon.dmm.com"
+}, {
   "name": "Condrieu",
   "chainId": 69420,
   "shortName": "cndr",
