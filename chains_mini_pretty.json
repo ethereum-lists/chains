@@ -12947,6 +12947,19 @@
   "faucets": [],
   "infoURL": "https://bloqs4good.com"
 }, {
+  "name": "Dodao",
+  "chainId": 855456,
+  "shortName": "dodao",
+  "networkId": 855456,
+  "nativeCurrency": {
+    "name": "Dodao",
+    "symbol": "DODAO",
+    "decimals": 18
+  },
+  "rpc": ["https://fraa-dancebox-3041-rpc.a.dancebox.tanssi.network", "wss://fraa-dancebox-3041-rpc.a.dancebox.tanssi.network"],
+  "faucets": [],
+  "infoURL": "https://dodao.dev/"
+}, {
   "name": "Vision - Mainnet",
   "chainId": 888888,
   "shortName": "vision",
