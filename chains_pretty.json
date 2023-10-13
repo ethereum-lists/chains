@@ -31,6 +31,11 @@
     "url": "https://eth.blockscout.com",
     "icon": "blockscout",
     "standard": "EIP3091"
+  }, {
+    "name": "dexguru",
+    "url": "https://ethereum.dex.guru",
+    "icon": "dexguru",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Expanse Network",
@@ -216,6 +221,11 @@
     "name": "blockscout",
     "url": "https://optimism.blockscout.com",
     "icon": "blockscout",
+    "standard": "EIP3091"
+  }, {
+    "name": "dexguru",
+    "url": "https://optimism.dex.guru",
+    "icon": "dexguru",
     "standard": "EIP3091"
   }]
 }, {
@@ -1092,6 +1102,11 @@
     "name": "bscscan",
     "url": "https://bscscan.com",
     "standard": "EIP3091"
+  }, {
+    "name": "dexguru",
+    "url": "https://bnb.dex.guru",
+    "icon": "dexguru",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Syscoin Mainnet",
@@ -1959,6 +1974,11 @@
     "url": "https://gnosis.blockscout.com",
     "icon": "blockscout",
     "standard": "EIP3091"
+  }, {
+    "name": "dexguru",
+    "url": "https://gnosis.dex.guru",
+    "icon": "dexguru",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "EtherInc",
@@ -2558,6 +2578,11 @@
   "explorers": [{
     "name": "polygonscan",
     "url": "https://polygonscan.com",
+    "standard": "EIP3091"
+  }, {
+    "name": "dexguru",
+    "url": "https://polygon.dex.guru",
+    "icon": "dexguru",
     "standard": "EIP3091"
   }]
 }, {
@@ -3546,6 +3571,11 @@
     "name": "ftmscan",
     "url": "https://ftmscan.com",
     "icon": "ftmscan",
+    "standard": "EIP3091"
+  }, {
+    "name": "dexguru",
+    "url": "https://fantom.dex.guru",
+    "icon": "dexguru",
     "standard": "EIP3091"
   }]
 }, {
@@ -12640,6 +12670,11 @@
     "name": "Canto EVM Explorer (Blockscout)",
     "url": "https://tuber.build",
     "standard": "none"
+  }, {
+    "name": "dexguru",
+    "url": "https://canto.dex.guru",
+    "icon": "dexguru",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Canto Tesnet",
@@ -12659,6 +12694,11 @@
     "name": "Canto Testnet EVM Explorer (Blockscout)",
     "url": "https://testnet.tuber.build",
     "standard": "none"
+  }, {
+    "name": "dexguru",
+    "url": "https://canto-test.dex.guru",
+    "icon": "dexguru",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Bitrock Testnet",
@@ -13134,6 +13174,11 @@
     "name": "basescout",
     "url": "https://base.blockscout.com",
     "icon": "blockscout",
+    "standard": "EIP3091"
+  }, {
+    "name": "dexguru",
+    "url": "https://base.dex.guru",
+    "icon": "dexguru",
     "standard": "EIP3091"
   }],
   "status": "active"
@@ -16130,6 +16175,11 @@
     "name": "Arbitrum Explorer",
     "url": "https://explorer.arbitrum.io",
     "standard": "EIP3091"
+  }, {
+    "name": "dexguru",
+    "url": "https://arbitrum.dex.guru",
+    "icon": "dexguru",
+    "standard": "EIP3091"
   }],
   "infoURL": "https://arbitrum.io",
   "parent": {
@@ -16156,6 +16206,11 @@
     "name": "Arbitrum Nova Chain Explorer",
     "url": "https://nova-explorer.arbitrum.io",
     "icon": "blockscout",
+    "standard": "EIP3091"
+  }, {
+    "name": "dexguru",
+    "url": "https://nova.dex.guru",
+    "icon": "dexguru",
     "standard": "EIP3091"
   }],
   "infoURL": "https://arbitrum.io",
@@ -17782,6 +17837,11 @@
     "name": "basescout",
     "url": "https://base-goerli.blockscout.com",
     "icon": "blockscout",
+    "standard": "EIP3091"
+  }, {
+    "name": "dexguru",
+    "url": "https://base-goerli.dex.guru",
+    "icon": "dexguru",
     "standard": "EIP3091"
   }]
 }, {
