@@ -3670,20 +3670,20 @@
   "name": "EgonCoin Mainnet",
   "chain": "EGON",
   "icon": "egonicon",
-  "rpc": ["https://rpc.egcscan.com"],
-  "faucets": ["https://faucet.egcscan.com"],
+  "rpc": ["https://rpc.egonscan.com"],
+  "faucets": ["https://faucet.egonscan.com"],
   "nativeCurrency": {
     "name": "EgonCoin",
     "symbol": "EGON",
     "decimals": 18
   },
-  "infoURL": "https://egcscan.com",
+  "infoURL": "https://egonscan.com",
   "shortName": "EGONm",
   "chainId": 271,
   "networkId": 271,
   "explorers": [{
     "name": "EgonCoin Mainnet",
-    "url": "https://egcscan.com",
+    "url": "https://egonscan.com",
     "standard": "EIP3091"
   }]
 }, {
@@ -10375,6 +10375,21 @@
     "url": "https://explorer.mainnet.thebifrost.io",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Immu3 EVM",
+  "chain": "EVMCC",
+  "rpc": ["https://fraa-dancebox-3043-rpc.a.dancebox.tanssi.network", "wss://fraa-dancebox-3043-rpc.a.dancebox.tanssi.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "IMMU",
+    "symbol": "IMMU",
+    "decimals": 18
+  },
+  "infoURL": "https://immu3.io",
+  "shortName": "Immu3",
+  "chainId": 3100,
+  "networkId": 3100,
+  "explorers": []
 }, {
   "name": "Filecoin - Hyperspace testnet",
   "status": "deprecated",
@@ -19186,20 +19201,20 @@
   "name": "EgonCoin Testnet",
   "chain": "EGON",
   "icon": "egonicon",
-  "rpc": ["https://rpctest.egcscan.com"],
-  "faucets": ["https://faucet.egcscan.com"],
+  "rpc": ["https://rpctest.egonscan.com"],
+  "faucets": ["https://faucet.egonscan.com"],
   "nativeCurrency": {
     "name": "EgonCoin",
     "symbol": "EGON",
     "decimals": 18
   },
-  "infoURL": "https://egcscan.com",
+  "infoURL": "https://egonscan.com",
   "shortName": "EGONt",
   "chainId": 271271,
   "networkId": 271271,
   "explorers": [{
     "name": "EgonCoin Testnet",
-    "url": "https://testnet.egcscan.com",
+    "url": "https://testnet.egonscan.com",
     "standard": "EIP3091"
   }]
 }, {

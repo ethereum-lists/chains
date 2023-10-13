@@ -2478,9 +2478,9 @@
     "symbol": "EGON",
     "decimals": 18
   },
-  "rpc": ["https://rpc.egcscan.com"],
-  "faucets": ["https://faucet.egcscan.com"],
-  "infoURL": "https://egcscan.com"
+  "rpc": ["https://rpc.egonscan.com"],
+  "faucets": ["https://faucet.egonscan.com"],
+  "infoURL": "https://egonscan.com"
 }, {
   "name": "LaChain",
   "chainId": 274,
@@ -6719,6 +6719,19 @@
   "rpc": ["https://public-01.mainnet.thebifrost.io/rpc", "https://public-02.mainnet.thebifrost.io/rpc"],
   "faucets": [],
   "infoURL": "https://thebifrost.io"
+}, {
+  "name": "Immu3 EVM",
+  "chainId": 3100,
+  "shortName": "Immu3",
+  "networkId": 3100,
+  "nativeCurrency": {
+    "name": "IMMU",
+    "symbol": "IMMU",
+    "decimals": 18
+  },
+  "rpc": ["https://fraa-dancebox-3043-rpc.a.dancebox.tanssi.network", "wss://fraa-dancebox-3043-rpc.a.dancebox.tanssi.network"],
+  "faucets": [],
+  "infoURL": "https://immu3.io"
 }, {
   "name": "Filecoin - Hyperspace testnet",
   "chainId": 3141,
@@ -12358,9 +12371,9 @@
     "symbol": "EGON",
     "decimals": 18
   },
-  "rpc": ["https://rpctest.egcscan.com"],
-  "faucets": ["https://faucet.egcscan.com"],
-  "infoURL": "https://egcscan.com"
+  "rpc": ["https://rpctest.egonscan.com"],
+  "faucets": ["https://faucet.egonscan.com"],
+  "infoURL": "https://egonscan.com"
 }, {
   "name": "Social Smart Chain Mainnet",
   "chainId": 281121,
