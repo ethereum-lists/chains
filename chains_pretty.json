@@ -825,7 +825,7 @@
 }, {
   "name": "Crab Network",
   "chain": "crab",
-  "rpc": ["https://crab-rpc.darwinia.network", "https://crab-rpc.darwiniacommunitydao.xyz", "https://crab.api.onfinality.io/public-ws", "https://darwiniacrab-rpc.dwellir.com"],
+  "rpc": ["https://crab-rpc.darwinia.network", "https://crab-rpc.darwiniacommunitydao.xyz", "https://darwiniacrab-rpc.dwellir.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Crab Network Native Token",
@@ -10375,6 +10375,21 @@
     "url": "https://explorer.mainnet.thebifrost.io",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Immu3 EVM",
+  "chain": "EVMCC",
+  "rpc": ["https://fraa-dancebox-3043-rpc.a.dancebox.tanssi.network", "wss://fraa-dancebox-3043-rpc.a.dancebox.tanssi.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "IMMU",
+    "symbol": "IMMU",
+    "decimals": 18
+  },
+  "infoURL": "https://immu3.io",
+  "shortName": "Immu3",
+  "chainId": 3100,
+  "networkId": 3100,
+  "explorers": []
 }, {
   "name": "Filecoin - Hyperspace testnet",
   "status": "deprecated",
