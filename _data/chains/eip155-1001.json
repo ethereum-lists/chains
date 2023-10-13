@@ -11,5 +11,12 @@
   "infoURL": "https://www.klaytn.com/",
   "shortName": "Baobab",
   "chainId": 1001,
-  "networkId": 1001
+  "networkId": 1001,
+  "explorers": [
+    {
+      "name": "klaytnscope",
+      "url": "https://scope.klaytn.com",
+      "standard": "EIP3091"
+    }
+  ]
 }
