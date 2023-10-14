@@ -1,0 +1,25 @@
+{
+  "name": "Mysthico Chain",
+  "chain": "MST",
+  "rpc": [
+    "https://mainnet.infura.io/v3/d1fdc443ac6c42cd87d438abdd2a2a04"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Mysthico",
+    "symbol": "MST",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://ethereum.org",
+  "shortName": "mst",
+  "chainId": 1,
+  "networkId": 1,
+  "icon": "ethereum",
+  "explorers": [{
+    "name": "etherscan",
+    "url": "https://etherscan.io",
+    "icon": "etherscan",
+    "standard": "EIP3091"
+  }]
+}
