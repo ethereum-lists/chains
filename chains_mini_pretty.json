@@ -5589,6 +5589,19 @@
   "faucets": [],
   "infoURL": "https://boyanet.org"
 }, {
+  "name": "Sports Chain Network",
+  "chainId": 1904,
+  "shortName": "SCN",
+  "networkId": 1904,
+  "nativeCurrency": {
+    "name": "SCN",
+    "symbol": "SCN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.sportschainnetwork.xyz/"],
+  "faucets": [],
+  "infoURL": "https://sportschainnetwork.xyz"
+}, {
   "name": "Bitcichain Mainnet",
   "chainId": 1907,
   "shortName": "bitci",
