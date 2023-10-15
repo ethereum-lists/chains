@@ -1,0 +1,27 @@
+{
+    "name": "Oxva Network Testnet",
+    "chain": "Oxva",
+    "rpc": [
+      "https://zerodata-testnet-asia.oxva.network/",
+      "https://host-76-74-28-232.contentfabric.io/eth/"
+    ],
+    "faucets": ["https://faucet.oxva.network"],
+    "nativeCurrency": {
+      "name": "WOVA",
+      "symbol": "tOVA",
+      "decimals": 18
+    },
+    "infoURL": "https://oxva.network",
+    "shortName": "ova",
+    "chainId": 991122,
+    "networkId": 991122,
+    "icon": "oxva",
+    "explorers": [
+      {
+        "name": "Oxva Network Testnet",
+        "url": "https://testnet.oxva.network",
+        "standard": "none"
+      }
+    ]
+  }
+  
