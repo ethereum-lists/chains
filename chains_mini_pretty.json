@@ -6746,6 +6746,19 @@
   "faucets": [],
   "infoURL": "https://immu3.io"
 }, {
+  "name": "Vulture EVM Beta",
+  "chainId": 3102,
+  "shortName": "VFI",
+  "networkId": 3102,
+  "nativeCurrency": {
+    "name": "VFI",
+    "symbol": "VFI",
+    "decimals": 18
+  },
+  "rpc": ["https://fraa-dancebox-3050-rpc.a.dancebox.tanssi.network", "wss://fraa-dancebox-3050-rpc.a.dancebox.tanssi.network"],
+  "faucets": [],
+  "infoURL": "https://vulture.finance"
+}, {
   "name": "Filecoin - Hyperspace testnet",
   "chainId": 3141,
   "shortName": "filecoin-hyperspace",

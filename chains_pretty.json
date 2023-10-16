@@ -10441,6 +10441,21 @@
   "networkId": 3100,
   "explorers": []
 }, {
+  "name": "Vulture EVM Beta",
+  "chain": "VFIEVMCC",
+  "rpc": ["https://fraa-dancebox-3050-rpc.a.dancebox.tanssi.network", "wss://fraa-dancebox-3050-rpc.a.dancebox.tanssi.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "VFI",
+    "symbol": "VFI",
+    "decimals": 18
+  },
+  "infoURL": "https://vulture.finance",
+  "shortName": "VFI",
+  "chainId": 3102,
+  "networkId": 3102,
+  "explorers": []
+}, {
   "name": "Filecoin - Hyperspace testnet",
   "status": "deprecated",
   "chain": "FIL",
