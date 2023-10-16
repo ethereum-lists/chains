@@ -1,7 +1,6 @@
 {
   "name": "Metaplayerone Dubai Testnet",
   "chain": "MP1 Dubai-Testnet",
-  "icon": "meu",
   "rpc": ["https://rpc-dubai.mp1network.com/"],
   "faucets": [],
   "nativeCurrency": {
@@ -17,7 +16,6 @@
     {
       "name": "MP1Scan",
       "url": "https://dubai.mp1scan.io",
-      "icon": "meu",
       "standard": "EIP3091"
     }
   ]

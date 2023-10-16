@@ -1,7 +1,13 @@
 {
   "name": "SOMA Network Testnet",
   "chain": "SOMA",
-  "rpc": ["https://data-testnet-v1.somanetwork.io/"],
+  "rpc": [
+    "https://data-testnet-v1.somanetwork.io/",
+    "https://testnet-au-server-2.somanetwork.io",
+    "https://testnet-au-server-1.somanetwork.io",
+    "https://testnet-sg-server-1.somanetwork.io",
+    "https://testnet-sg-server-2.somanetwork.io"
+  ],
   "faucets": ["https://faucet.somanetwork.io"],
   "nativeCurrency": {
     "name": "SMA",
