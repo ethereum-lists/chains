@@ -2,21 +2,29 @@
   "name": "Elysium Mainnet",
   "title": "An L1, carbon-neutral, tree-planting, metaverse dedicated blockchain created by VulcanForged",
   "chain": "Elysium",
-  "rpc": ["https://rpc.elysiumchain.tech/"],
+  "rpc": ["https://rpc.elysiumchain.tech/","https://rpc.elysiumchain.us/"],
+  "icon": "elysium",
   "faucets": [],
   "nativeCurrency": {
     "name": "LAVA",
     "symbol": "LAVA",
     "decimals": 18
   },
-  "infoURL": "https://elysiumscan.vulcanforged.com",
-  "shortName": "ELSM",
+  "infoURL": "https://elysiumchain.tech/",
+  "shortName": "ELY",
   "chainId": 1339,
   "networkId": 1339,
   "explorers": [
     {
-      "name": "Elysium mainnet explorer",
+      "name": "blockscout",
+      "url": "http://blockscout.elysiumchain.tech",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Elysium explorer",
       "url": "https://explorer.elysiumchain.tech",
+      "icon": "elysium",
       "standard": "none"
     }
   ]

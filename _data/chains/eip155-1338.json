@@ -1,22 +1,29 @@
 {
-  "name": "Elysium Testnet",
+  "name": "Atlantis (Elysium Testnet)",
   "title": "An L1, carbon-neutral, tree-planting, metaverse dedicated blockchain created by VulcanForged",
   "chain": "Elysium",
-  "rpc": ["https://elysium-test-rpc.vulcanforged.com"],
+  "rpc": ["https://rpc.atlantischain.network/"],
+  "icon": "elysium",
   "faucets": [],
   "nativeCurrency": {
     "name": "LAVA",
     "symbol": "LAVA",
     "decimals": 18
   },
-  "infoURL": "https://elysiumscan.vulcanforged.com",
-  "shortName": "ELST",
+  "infoURL": "https://elysiumchain.tech/",
+  "shortName": "ATLS",
   "chainId": 1338,
   "networkId": 1338,
   "explorers": [
     {
+      "name": "blockscout",
+      "url": "https://blockscout.atlantischain.network",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    },
+    {
       "name": "Elysium testnet explorer",
-      "url": "https://elysium-explorer.vulcanforged.com",
+      "url": "https://explorer.atlantischain.network",
       "standard": "none"
     }
   ]
