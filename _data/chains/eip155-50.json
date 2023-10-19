@@ -1,5 +1,5 @@
 {
-  "name": "XinFin XDC Network",
+  "name": "XDC Network",
   "chain": "XDC",
   "rpc": [
     "https://erpc.xinfin.network",
@@ -7,9 +7,9 @@
     "https://rpc1.xinfin.network",
     "https://rpc-xdc.icecreamswap.com"
   ],
-  "faucets": [],
+  "faucets": [https://faucet.blocksscan.io/],
   "nativeCurrency": {
-    "name": "XinFin",
+    "name": "XDC Network",
     "symbol": "XDC",
     "decimals": 18
   },
