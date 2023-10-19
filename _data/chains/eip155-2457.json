@@ -1,0 +1,28 @@
+{
+  "name": "OXVA Network Mainnet",
+  "chain": "OXVA",
+  "rpc": [
+    "https://mainnet-1-layer.oxva.network",
+    "https://mainnet-2-layer.oxva.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OXVA Native Token",
+    "symbol": "OVA",
+    "decimals": 18
+  },
+  "infoURL": "https://oxva.network",
+  "shortName": "ova",
+  "chainId": 2457,
+  "networkId": 2457,
+  "icon": "oxva",
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "OXVA Explorer Mainnet",
+      "icon": "oxva",
+      "url": "https://explorer.oxva.network",
+      "standard": "none"
+    }
+  ]
+}
