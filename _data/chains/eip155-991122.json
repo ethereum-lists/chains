@@ -1,0 +1,28 @@
+{
+  "name": "OXVA Network Testnet",
+  "chain": "OXVA",
+  "rpc": [
+    "https://zerodata-testnet-asia.oxva.network",
+    "https://zerodata-testnet-jp.oxva.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OXVA Testnet Native Token",
+    "symbol": "OVA",
+    "decimals": 18
+  },
+  "infoURL": "https://oxva.network",
+  "shortName": "tova",
+  "chainId": 991122,
+  "networkId": 991122,
+  "icon": "oxva",
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "OXVA Explorer Testnet",
+      "icon": "oxva",
+      "url": "https://testnet.oxva.network",
+      "standard": "none"
+    }
+  ]
+}
