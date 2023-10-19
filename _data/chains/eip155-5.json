@@ -6,7 +6,10 @@
     "https://goerli.infura.io/v3/${INFURA_API_KEY}",
     "wss://goerli.infura.io/v3/${INFURA_API_KEY}",
     "https://rpc.goerli.mudit.blog/",
-    "https://ethereum-goerli.publicnode.com"
+    "https://ethereum-goerli.publicnode.com",
+    "wss://ethereum-goerli.publicnode.com",
+    "https://goerli.gateway.tenderly.co",
+    "wss://goerli.gateway.tenderly.co"
   ],
   "faucets": [
     "http://fauceth.komputing.org?chain=5&address=${ADDRESS}",
@@ -29,6 +32,12 @@
     {
       "name": "etherscan-goerli",
       "url": "https://goerli.etherscan.io",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "blockscout-goerli",
+      "url": "https://eth-goerli.blockscout.com",
+      "icon": "blockscout",
       "standard": "EIP3091"
     }
   ]

@@ -1,0 +1,27 @@
+{
+  "name": "Shrapnel Testnet",
+  "chain": "SHRAPNEL",
+  "rpc": ["https://subnets.avax.network/shrapnel/testnet/rpc"],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SHRAPG",
+    "symbol": "SHRAPG",
+    "decimals": 18
+  },
+  "infoURL": "https://www.shrapnel.com/",
+  "shortName": "shraptest",
+  "chainId": 2038,
+  "networkId": 2038,
+  "explorers": [
+    {
+      "name": "SHRAPNEL Explorer",
+      "url": "https://subnets-test.avax.network/shrapnel",
+      "standard": "EIP3091"
+    }
+  ]
+}
