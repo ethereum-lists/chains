@@ -2183,6 +2183,19 @@
   "faucets": [],
   "infoURL": "https://opbnb.bnbchain.org/en"
 }, {
+  "name": "VinuChain Network",
+  "chainId": 207,
+  "shortName": "VC",
+  "networkId": 207,
+  "nativeCurrency": {
+    "name": "VinuChain",
+    "symbol": "VС",
+    "decimals": 18
+  },
+  "rpc": ["https://vinuchain-rpc.com"],
+  "faucets": [],
+  "infoURL": "https://vitainu.org"
+}, {
   "name": "Structx Mainnet",
   "chainId": 208,
   "shortName": "utx",
