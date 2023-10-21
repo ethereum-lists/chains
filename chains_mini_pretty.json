@@ -12141,6 +12141,19 @@
   "faucets": [],
   "infoURL": "https://taiko.xyz"
 }, {
+  "name": "Bitica Chain Mainnet",
+  "chainId": 188710,
+  "shortName": "bdcc",
+  "networkId": 188710,
+  "nativeCurrency": {
+    "name": "Bitica Coin",
+    "symbol": "BDCC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.biticablockchain.com/"],
+  "faucets": [],
+  "infoURL": "https://biticablockchain.com/"
+}, {
   "name": "Condor Test Network",
   "chainId": 188881,
   "shortName": "condor",
