@@ -428,18 +428,18 @@
   "faucets": [],
   "infoURL": "https://www.goodata.org"
 }, {
-  "name": "Dithereum Testnet",
+  "name": "SecureChain Mainnet",
   "chainId": 34,
-  "shortName": "dth",
+  "shortName": "scai",
   "networkId": 34,
   "nativeCurrency": {
-    "name": "Dither",
-    "symbol": "DTH",
+    "name": "SecureChain",
+    "symbol": "SCAI",
     "decimals": 18
   },
-  "rpc": ["https://node-testnet.dithereum.io"],
-  "faucets": ["https://faucet.dithereum.org"],
-  "infoURL": "https://dithereum.org"
+  "rpc": ["https://mainnet-rpc.scai.network"],
+  "faucets": ["https://faucet.securechain.ai"],
+  "infoURL": "https://securechain.ai"
 }, {
   "name": "TBWG Chain",
   "chainId": 35,
