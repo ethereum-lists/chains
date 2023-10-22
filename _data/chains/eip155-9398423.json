@@ -1,0 +1,23 @@
+{
+  "name": "Kafirchain",
+  "chain": "Kafirchain",
+  "rpc": ["https://froopyland.dymension.xyz/5/kafirdym_9398423-1/evmrpc"],
+  "faucets": ["https://kafiirr.my.id/"],
+  "nativeCurrency": {
+    "name": "KFR",
+    "symbol": "uKFR",
+    "decimals": 18
+  },
+  "infoURL": "https://kafir.framer.website/",
+  "shortName": "KFR",
+  "icon": "Kafir",
+  "chainId": 9398423,
+  "networkId": 9398423,
+  "explorers": [
+    {
+      "name": "Jupiter Explorer",
+      "url": "https://explorer.jupiternft.xyz/",
+      "standard": "EIP1559"
+    }
+  ]
+}
