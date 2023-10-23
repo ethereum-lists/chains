@@ -2,11 +2,8 @@
   "name": "Torus Testnet",
   "chain": "TQF",
   "icon": "torus",
-  "rpc": [
-    "https://rpc.testnet.toruschain.com"
-  ],
-  "faucets": [
-  ],
+  "rpc": ["https://rpc.testnet.toruschain.com"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "tTQF",
     "symbol": "TTQF",
