@@ -17,7 +17,11 @@
     "https://rpc.mevblocker.io",
     "https://rpc.mevblocker.io/fast",
     "https://rpc.mevblocker.io/noreverts",
-    "https://rpc.mevblocker.io/fullprivacy"
+    "https://rpc.mevblocker.io/fullprivacy",
+    "wss://searchers.mevblocker.io",
+    "wss://rpc.mevblocker.io/fast",
+    "wss://rpc.mevblocker.io/noreverts",
+    "wss://rpc.mevblocker.io/fullprivacy"
   ],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
