@@ -1,6 +1,9 @@
 {
   "name": "Electroneum Mainnet",
-  "chain": "ETN",
+  "chain": "Electroneum",
+  "rpc": [
+    "https://api.electroneum.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Electroneum",
@@ -9,6 +12,7 @@
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://electroneum.com",
+  "shortName": "etn-mainnet",
   "chainId": 52014,
   "networkId": 52014,
   "icon": "electroneum",
