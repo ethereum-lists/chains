@@ -20012,8 +20012,8 @@
 }, {
   "name": "Scroll",
   "chain": "ETH",
-  "status": "incubating",
-  "rpc": ["https://rpc.scroll.io", "https://rpc-scroll.icecreamswap.com"],
+  "status": "active",
+  "rpc": ["https://rpc.scroll.io", "https://rpc-scroll.icecreamswap.com", "https://rpc.ankr.com/scroll", "https://scroll-mainnet.chainstacklabs.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
