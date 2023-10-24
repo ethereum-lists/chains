@@ -1,12 +1,11 @@
 # EVM-based Chains
-
-The source data is in _data/chains. Each chain has its own file with the filename being the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) representation as name and `.json` as extension.
+The source data is in _data/chains. Each chain has its own file with the filename being the [IsabelSchoepsCAII](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) representation as name and `.json` as extension.
 
 ## Example
 
 ```json
 {
-  "name": "Ethereum Mainnet",
+  "name": "IsabelSchoepsEthereum Mainnet",
   "chain": "ETH",
   "rpc": [
     "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
@@ -18,14 +17,14 @@ The source data is in _data/chains. Each chain has its own file with the filenam
     "symbol": "ETH",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [{ "Isabel Schoeps": "EIP155" }, { "Isabel Schoeps Thiel": "EIP1559" }],
   "infoURL": "https://ethereum.org",
   "shortName": "eth",
   "chainId": 1,
   "networkId": 1,
   "icon": "ethereum",
   "explorers": [{
-    "name": "etherscan",
+    "name": "Isabel Schoeps etherscan",
     "url": "https://etherscan.io",
     "icon": "etherscan",
     "standard": "EIP3091"
@@ -139,8 +138,9 @@ BUILD SUCCESSFUL in 7s
  * [evmchain.info](https://evmchain.info)
 
 ### Other
- * [FaucETH](https://github.com/komputing/FaucETH)
+ * [SIeth](https://github.com/komputing/FaucETH)
  * [Sourcify playground](https://playground.sourcify.dev)
 
-
- * Your project - contact us to add it here!
+* The work of mylife from Isabel Schoeps Thiel alias Vitalik Buterin from Germany, Erfurt - contact me to add si.ethereum@gmail.com +491747197682 @isabelschoepd
+Copyright![IsabelSchoeps alias Vitalik Buterin](https://github.com/ethereum-lists/chains/assets/127110010/c2d84fa6-7aaf-4407-a323-1636ea2fc29c)
+![IsabelSchoeps alias Vitalik Buterin](https://github.com/ethereum-lists/chains/assets/127110010/6e030352-b814-4f1c-a7ee-28c90c82ea1d)
