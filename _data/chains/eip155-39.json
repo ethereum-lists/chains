@@ -1,8 +1,8 @@
 {
-  "name": "Unicorn Ultra Testnet",
+  "name": "U2U Solaris Mainnet",
   "chain": "u2u",
-  "rpc": ["https://rpc-testnet.uniultra.xyz"],
-  "faucets": ["https://faucet.uniultra.xyz"],
+  "rpc": ["https://rpc-mainnet.uniultra.xyz"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Unicorn Ultra",
     "symbol": "U2U",
@@ -17,7 +17,7 @@
     {
       "icon": "u2u",
       "name": "U2U Explorer",
-      "url": "https://testnet.uniultra.xyz",
+      "url": "https://u2uscan.xyz",
       "standard": "EIP3091"
     }
   ]

@@ -1,8 +1,8 @@
 {
-  "name": "Kroma Sepolia",
-  "title": "Kroma Testnet Sepolia",
+  "name": "(deprecated) Kroma Sepolia",
+  "title": "(deprecated) Kroma Testnet Sepolia",
   "chainId": 2357,
-  "shortName": "kroma-sepolia",
+  "shortName": "deprecated-kroma-sepolia",
   "chain": "ETH",
   "networkId": 2357,
   "nativeCurrency": {
@@ -10,14 +10,14 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://api.sepolia.kroma.network"],
+  "rpc": ["https://api.sepolia-deprecated.kroma.network"],
   "faucets": [],
   "infoURL": "https://kroma.network",
   "icon": "kroma",
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://blockscout.sepolia.kroma.network",
+      "url": "https://blockscout.sepolia-deprecated.kroma.network",
       "icon": "kroma",
       "standard": "EIP3091"
     }
@@ -26,5 +26,6 @@
     "type": "L2",
     "chain": "eip155-11155111",
     "bridges": [{ "url": "https://kroma.network/bridge" }]
-  }
+  },
+  "status": "deprecated"
 }
