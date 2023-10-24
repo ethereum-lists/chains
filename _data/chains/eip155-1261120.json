@@ -22,7 +22,7 @@
     },
     {
       "name": "Startale zKatana chain explorer",
-      "url": "https://zkatana.explorer.startale.com/",
+      "url": "https://zkatana.explorer.startale.com",
       "standard": "EIP3091"
     }
   ],
@@ -31,7 +31,7 @@
     "chain": "eip155-11155111",
     "bridges": [
       {
-        "url": "https://portal.astar.network/"
+        "url": "https://portal.astar.network"
       },
       {
         "url": "https://bridge.zkatana.gelato.digital"
