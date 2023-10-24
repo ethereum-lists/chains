@@ -8,7 +8,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://api.mycryptoapi.com/eth", "https://cloudflare-eth.com", "https://ethereum.publicnode.com", "wss://ethereum.publicnode.com", "https://mainnet.gateway.tenderly.co", "wss://mainnet.gateway.tenderly.co", "https://rpc.blocknative.com/boost", "https://rpc.flashbots.net", "https://rpc.flashbots.net/fast"],
+  "rpc": ["https://mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://api.mycryptoapi.com/eth", "https://cloudflare-eth.com", "https://ethereum.publicnode.com", "wss://ethereum.publicnode.com", "https://mainnet.gateway.tenderly.co", "wss://mainnet.gateway.tenderly.co", "https://rpc.blocknative.com/boost", "https://rpc.flashbots.net", "https://rpc.flashbots.net/fast", "https://rpc.mevblocker.io", "https://rpc.mevblocker.io/fast", "https://rpc.mevblocker.io/noreverts", "https://rpc.mevblocker.io/fullprivacy"],
   "faucets": [],
   "infoURL": "https://ethereum.org"
 }, {
@@ -6966,6 +6966,19 @@
   "rpc": ["https://rpc.btxtestchain.com"],
   "faucets": ["https://faucet.btxtestchain.com"],
   "infoURL": "https://btxtestchain.com"
+}, {
+  "name": "iChain Network",
+  "chainId": 3639,
+  "shortName": "ISLAMI",
+  "networkId": 3639,
+  "nativeCurrency": {
+    "name": "ISLAMICOIN",
+    "symbol": "ISLAMI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.ichainscan.com"],
+  "faucets": [],
+  "infoURL": "https://islamicoin.finance"
 }, {
   "name": "Jouleverse Mainnet",
   "chainId": 3666,
