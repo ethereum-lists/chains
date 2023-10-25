@@ -13935,6 +13935,19 @@
   "faucets": [],
   "infoURL": "https://nebulachain.io/"
 }, {
+  "name": "Zora Sepolia Testnet",
+  "chainId": 999999999,
+  "shortName": "zsep",
+  "networkId": 999999999,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia.rpc.zora.energy"],
+  "faucets": [],
+  "infoURL": "https://zora.energy"
+}, {
   "name": "IPOS Network",
   "chainId": 1122334455,
   "shortName": "ipos",
