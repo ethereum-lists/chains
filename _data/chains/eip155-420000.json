@@ -1,28 +1,28 @@
 {
-    "name": "NutriEmp - Chain",
-    "chain": "nutriemp-chain",
-    "rpc": [ 
+  "name": "NutriEmp - Chain",
+  "chain": "nutriemp-chain",
+  "rpc": [
     "https://node2.nutriempchain.link",
     "https://node3.nutriempchain.link",
     "https://node4.nutriempchain.link"
   ],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "GRAMZ",
-      "symbol": "GRAMZ",
-      "decimals": 18
-    },
-    "infoURL": "https://nutriempchain.link",
-    "shortName": "nutriemp-chain",
-    "chainId": 420000,
-    "networkId": 420000,
-    "icon": "GRAMZ",
-    "explorers": [
-      {
-        "name": "NutriEmp - Chain Explorer",
-        "url": "https://explorer.nutriempchain.link",
-        "standard": "none",
-        "icon": "GRAMZ"
-      }
-    ]
-  }
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GRAMZ",
+    "symbol": "GRAMZ",
+    "decimals": 18
+  },
+  "infoURL": "https://nutriempchain.link",
+  "shortName": "nutriemp-chain",
+  "chainId": 420000,
+  "networkId": 420000,
+  "icon": "GRAMZ",
+  "explorers": [
+    {
+      "name": "NutriEmp - Chain Explorer",
+      "url": "https://explorer.nutriempchain.link",
+      "standard": "none",
+      "icon": "GRAMZ"
+    }
+  ]
+}
