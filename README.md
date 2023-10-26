@@ -92,7 +92,8 @@ There are also aggregated json files with all chains automatically assembled:
  All pull requests trying to replace a chainID because they think their chain is better than the other will be closed.
  The only way to get a chain reassigned is when the old chain gets deprecated. This can e.g. be used for testnets that are short-lived. But then you will get the redFlag "reusedChaiID" that should be displayed in clients to warn them about the dangers here.
 
-## PR verification
+## Getting your PR merged
+### before PR is submited
 
 Before submitting a PR, please verify that checks pass with:
 
@@ -102,6 +103,11 @@ $ ./gradlew run
 BUILD SUCCESSFUL in 7s
 9 actionable tasks: 9 executed
 ```
+
+### Once PR is submitted
+
+ * Make sure CI is green. There will likely be no review when the CI is red.
+ * When making changes that fix the CI problems - please re-request a review - otherwise it is too much work to track such changes with so many PRs daily
 
 ## Usages
 ### Wallets
