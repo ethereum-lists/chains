@@ -1,22 +1,22 @@
 {
-  "name": "Chain Verse Mainnet",
-  "chain": "CVERSE",
-  "icon": "chain_verse",
-  "rpc": ["https://rpc.chainverse.info"],
+  "name": "Cross Value Chain Testnet",
+  "chain": "CVC-Testnet",
+  "icon": "cvc_icon",
+  "rpc": [" https://rpc-kura.cross.technology"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Oasys",
-    "symbol": "OAS",
+    "name": "XCR",
+    "symbol": "XCR",
     "decimals": 18
   },
-  "infoURL": "https://chainverse.info",
-  "shortName": "cverse",
+  "infoURL": "https://cross.technology/",
+  "shortName": "cvc",
   "chainId": 5555,
   "networkId": 5555,
   "explorers": [
     {
-      "name": "Chain Verse Explorer",
-      "url": "https://explorer.chainverse.info",
+      "name": "Cross Value Chain Explorer",
+      "url": "https://testnet.cvcscan.com",
       "standard": "EIP3091"
     }
   ]
