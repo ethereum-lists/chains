@@ -13285,6 +13285,19 @@
   "faucets": ["https://devnet2faucet.platon.network/faucet"],
   "infoURL": "https://www.platon.network"
 }, {
+  "name": "DPU Chain",
+  "chainId": 2611555,
+  "shortName": "DPU",
+  "networkId": 2611555,
+  "nativeCurrency": {
+    "name": "DGS",
+    "symbol": "DGS",
+    "decimals": 18
+  },
+  "rpc": ["https://sc-rpc.dpu.ac.th"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Filecoin - Butterfly testnet",
   "chainId": 3141592,
   "shortName": "filecoin-butterfly",

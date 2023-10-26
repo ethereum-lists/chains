@@ -20744,6 +20744,20 @@
     "standard": "none"
   }]
 }, {
+  "name": "DPU Chain",
+  "chain": "DPU",
+  "rpc": ["https://sc-rpc.dpu.ac.th"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DGS",
+    "symbol": "DGS",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "DPU",
+  "chainId": 2611555,
+  "networkId": 2611555
+}, {
   "name": "Filecoin - Butterfly testnet",
   "chain": "FIL",
   "status": "incubating",
