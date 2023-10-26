@@ -1,25 +1,23 @@
 {
-  "name": "Ecrox Chain Mainnet",
-  "chain": "Ecrox Chain",
-  "icon": "ecrox",
-  "rpc": [
-    "https://mainnet-rpc.ecroxscan.com/",
-  ],
-  "faucets": ["https://faucet.ecroxscan.com"],
-  "nativeCurrency": {
-    "name": "ECROX COIN",
-    "symbol": "ECROX",
-    "decimals": 18
-  },
-  "infoURL": "https://ecroxcoin.io/",
-  "shortName": "ecrox",
-  "chainId": 81041,
-  "networkId": 81041,
-  "explorers": [
-    {
-      "name": "ecroxscan",
-      "url": "https://ecroxscan.com",
-      "standard": "EIP3091"
-    }
-  ]
+    "name": "Ecrox Chain Mainnet",
+    "chain": "Ecrox Chain",
+    "icon": "ecrox",
+    "rpc": [
+        "https://mainnet-rpc.ecroxscan.com/",
+    ],
+    "faucets": ["https://faucet.ecroxscan.com"],
+    "nativeCurrency": {
+        "name": "ECROX COIN",
+        "symbol": "ECROX",
+        "decimals": 18
+    },
+    "infoURL": "https://ecroxcoin.io/",
+    "shortName": "ecrox",
+    "chainId": 81041,
+    "networkId": 81041,
+    "explorers": [{
+        "name": "ecroxscan",
+        "url": "https://ecroxscan.com",
+        "standard": "EIP3091"
+    }]
 }
