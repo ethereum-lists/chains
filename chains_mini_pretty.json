@@ -8462,6 +8462,19 @@
   "faucets": ["https://testnet.beonescan.com/faucet"],
   "infoURL": "https://testnet.beonescan.com"
 }, {
+  "name": "Torus Testnet",
+  "chainId": 8194,
+  "shortName": "ttqf",
+  "networkId": 8194,
+  "nativeCurrency": {
+    "name": "tTQF",
+    "symbol": "TTQF",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.toruschain.com"],
+  "faucets": [],
+  "infoURL": "https://docs.toruschain.com"
+}, {
   "name": "Klaytn Mainnet Cypress",
   "chainId": 8217,
   "shortName": "Cypress",
