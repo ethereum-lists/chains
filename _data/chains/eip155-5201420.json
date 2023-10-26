@@ -1,9 +1,7 @@
 {
   "name": "Electroneum Testnet",
   "chain": "Electroneum",
-  "rpc": [
-    "https://api.electroneum.com"
-  ],
+  "rpc": ["https://api.electroneum.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Electroneum",
@@ -16,10 +14,12 @@
   "chainId": 5201420,
   "networkId": 5201420,
   "icon": "electroneum",
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://blockexplorer.thesecurityteam.rocks",
-    "icon": "electroneum",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockexplorer.thesecurityteam.rocks",
+      "icon": "electroneum",
+      "standard": "EIP3091"
+    }
+  ]
 }
