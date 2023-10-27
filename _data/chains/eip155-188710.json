@@ -1,0 +1,22 @@
+{
+  "name": "Bitica Chain Mainnet",
+  "chain": "BDCC",
+  "rpc": ["https://mainnet-rpc.biticablockchain.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bitica Coin",
+    "symbol": "BDCC",
+    "decimals": 18
+  },
+  "infoURL": "https://biticablockchain.com/",
+  "shortName": "bdcc",
+  "chainId": 188710,
+  "networkId": 188710,
+  "explorers": [
+    {
+      "name": "Bitica DPOS Blockchain Explorer",
+      "url": "https://biticablockchain.com",
+      "standard": "none"
+    }
+  ]
+}
