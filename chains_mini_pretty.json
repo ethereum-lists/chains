@@ -6943,16 +6943,16 @@
 }, {
   "name": "Botanix Testnet",
   "chainId": 3636,
-  "shortName": "BTCt",
+  "shortName": "BTNX",
   "networkId": 3636,
   "nativeCurrency": {
     "name": "Botanix",
     "symbol": "BTC",
     "decimals": 18
   },
-  "rpc": ["https://testnet-rpc.btxtestchain.com"],
-  "faucets": ["https://faucet.btxtestchain.com"],
-  "infoURL": "https://btxtestchain.com"
+  "rpc": ["https://node.botanixlabs.dev"],
+  "faucets": ["https://faucet.botanixlabs.dev"],
+  "infoURL": "https://botanixlabs.xyz"
 }, {
   "name": "Botanix Mainnet",
   "chainId": 3637,
