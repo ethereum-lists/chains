@@ -13779,6 +13779,19 @@
   "faucets": ["https://faucet.autonity.org/"],
   "infoURL": "https://autonity.org/"
 }, {
+  "name": "Frame Testnet",
+  "chainId": 68840142,
+  "shortName": "frametest",
+  "networkId": 68840142,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.frame.xyz/http"],
+  "faucets": ["https://faucet.triangleplatform.com/frame/testnet"],
+  "infoURL": "https://www.frame.xyz/"
+}, {
   "name": "T.E.A.M Blockchain",
   "chainId": 88888888,
   "shortName": "team",
