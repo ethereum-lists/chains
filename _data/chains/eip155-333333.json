@@ -17,11 +17,6 @@
   "faucets": [],
   "explorers": [
     {
-      "name": "Nativ3scantest",
-      "url": "https://scantest.nativ3.network",
-      "standard": "EIP3091"
-    },
-    {
       "name": "Nativ3 Test Explorer",
       "url": "https://scantest.nativ3.network",
       "standard": "EIP3091"
@@ -30,7 +25,7 @@
   "infoURL": "https://nativ3.network",
   "parent": {
     "type": "L2",
-    "chain": "eip155-5",
+    "chain": "eip155-421613",
     "bridges": [{ "url": "https://bridgetest.nativ3.network" }]
   }
 }
