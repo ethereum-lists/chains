@@ -1,0 +1,23 @@
+{
+  "name": "Zilliqa 2 EVM Devnet",
+  "chain": "ZIL",
+  "rpc": ["https://api.zq2-devnet.zilstg.dev"],
+  "faucets": ["https://faucet.zq2-devnet.zilstg.dev"],
+  "nativeCurrency": {
+    "name": "Zilliqa",
+    "symbol": "ZIL",
+    "decimals": 18
+  },
+  "infoURL": "https://www.zilliqa.com/",
+  "shortName": "zq2-devnet",
+  "chainId": 33469,
+  "networkId": 33469,
+  "icon": "zilliqa",
+  "explorers": [
+    {
+      "name": "Zilliqa 2 EVM Devnet Explorer",
+      "url": "https://explorer.zq2-devnet.zilstg.dev",
+      "standard": "EIP3091"
+    }
+  ]
+}
