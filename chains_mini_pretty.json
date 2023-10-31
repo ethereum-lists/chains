@@ -7401,12 +7401,12 @@
   "shortName": "beam",
   "networkId": 4337,
   "nativeCurrency": {
-    "name": "Merit Circle",
-    "symbol": "MC",
+    "name": "Beam",
+    "symbol": "BEAM",
     "decimals": 18
   },
-  "rpc": ["https://subnets.avax.network/beam/mainnet/rpc"],
-  "faucets": [],
+  "rpc": ["https://subnets.avax.network/beam/mainnet/rpc", "wss://subnets.avax.network/beam/mainnet/ws"],
+  "faucets": ["https://faucet.onbeam.com"],
   "infoURL": "https://www.onbeam.com"
 }, {
   "name": "Htmlcoin Mainnet",
@@ -9572,12 +9572,12 @@
   "shortName": "beam-testnet",
   "networkId": 13337,
   "nativeCurrency": {
-    "name": "Merit Circle",
-    "symbol": "MC",
+    "name": "Beam",
+    "symbol": "BEAM",
     "decimals": 18
   },
-  "rpc": ["https://subnets.avax.network/beam/testnet/rpc"],
-  "faucets": [],
+  "rpc": ["https://subnets.avax.network/beam/testnet/rpc", "wss://subnets.avax.network/beam/testnet/ws"],
+  "faucets": ["https://faucet.avax.network/?subnet=beam", "https://faucet.onbeam.com"],
   "infoURL": "https://www.onbeam.com"
 }, {
   "name": "Phoenix Mainnet",
