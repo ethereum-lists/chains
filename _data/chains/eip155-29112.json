@@ -1,0 +1,29 @@
+{
+  "name": "HYTOPIA Testnet",
+  "chainId": 2911,
+  "shortName": "hytopiatestnet",
+  "chain": "ETH",
+  "networkId": 2911,
+  "nativeCurrency": {
+    "name": "TOPIA",
+    "symbol": "TOPIA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.hytopia.com"],
+  "faucets": [],
+  "infoURL": "https://hytopia.com",
+  "icon": "hytopia",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://testnet.explorer.hytopia.com",
+      "icon": "hytopia",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-58008",
+    "bridges": []
+  }
+}
