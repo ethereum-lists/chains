@@ -10,10 +10,7 @@
     "symbol": "USNT",
     "decimals": 18
   },
-  "rpc": [
-    "https://rpc.nativ3.network",
-    "wss://ws.nativ3.network"
-  ],
+  "rpc": ["https://rpc.nativ3.network", "wss://ws.nativ3.network"],
   "faucets": [],
   "explorers": [
     {
