@@ -26,6 +26,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-421613",
-    "bridges": [{ "url": "https://bridgetest.nativ3.network" }]
+    "bridges": [
+      {
+        "url": "https://bridgetest.nativ3.network"
+      }
+    ]
   }
 }
