@@ -10165,6 +10165,19 @@
   "faucets": [],
   "infoURL": "https://community.optimism.io/docs/developers/bedrock"
 }, {
+  "name": "MCH Verse Mainnet",
+  "chainId": 29548,
+  "shortName": "MCHV",
+  "networkId": 29548,
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.oasys.mycryptoheroes.net"],
+  "faucets": [],
+  "infoURL": "https://www.mycryptoheroes.net/verse"
+}, {
   "name": "Piece testnet",
   "chainId": 30067,
   "shortName": "Piece",
