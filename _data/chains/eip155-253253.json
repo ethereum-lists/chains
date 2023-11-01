@@ -1,7 +1,7 @@
 {
-    "name": "Whale Chain Testnet (V1)",
+    "name": "WhaleChain Testnet (V1)",
     "chain": "WHL",
-    "rpc": [],
+    "rpc": ["fraa-dancebox-3064-rpc.a.dancebox.tanssi.network"],
     "faucets": [],
     "nativeCurrency": {
       "name": "WHALE",
@@ -11,7 +11,6 @@
     "infoURL": "https://whale-finance.vercel.app/",
     "shortName": "Whale",
     "chainId": 253253,
-    "networkId": 253253,
-    "explorers": [ ]
+    "networkId": 253253
   }
   
