@@ -10802,6 +10802,19 @@
   "faucets": ["https://faucet.sardisnetwork.com"],
   "infoURL": "https://mysardis.com"
 }, {
+  "name": "Electroneum Mainnet",
+  "chainId": 52014,
+  "shortName": "etn-mainnet",
+  "networkId": 52014,
+  "nativeCurrency": {
+    "name": "Electroneum",
+    "symbol": "ETN",
+    "decimals": 18
+  },
+  "rpc": ["https://api.electroneum.com"],
+  "faucets": [],
+  "infoURL": "https://electroneum.com"
+}, {
   "name": "DFK Chain",
   "chainId": 53935,
   "shortName": "DFK",
@@ -13414,6 +13427,19 @@
   "rpc": ["https://wannsee-rpc.mxc.com"],
   "faucets": [],
   "infoURL": "https://wannsee.mxc.com/docs/intro"
+}, {
+  "name": "Electroneum Testnet",
+  "chainId": 5201420,
+  "shortName": "etn-testnet",
+  "networkId": 5201420,
+  "nativeCurrency": {
+    "name": "Electroneum",
+    "symbol": "ETN",
+    "decimals": 18
+  },
+  "rpc": ["https://api.electroneum.com"],
+  "faucets": [],
+  "infoURL": "https://electroneum.com"
 }, {
   "name": "Imversed Mainnet",
   "chainId": 5555555,

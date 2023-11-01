@@ -16837,6 +16837,32 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Electroneum Mainnet",
+  "chain": "Electroneum",
+  "rpc": ["https://api.electroneum.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Electroneum",
+    "symbol": "ETN",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://electroneum.com",
+  "shortName": "etn-mainnet",
+  "chainId": 52014,
+  "networkId": 52014,
+  "icon": "electroneum",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockexplorer.electroneum.com",
+    "icon": "electroneum",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "DFK Chain",
   "chain": "DFK",
   "icon": "dfk",
@@ -20970,6 +20996,32 @@
   "explorers": [{
     "name": "MXC Wannsee zkEVM Testnet",
     "url": "https://wannsee-explorer.mxc.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Electroneum Testnet",
+  "chain": "Electroneum",
+  "rpc": ["https://api.electroneum.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Electroneum",
+    "symbol": "ETN",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://electroneum.com",
+  "shortName": "etn-testnet",
+  "chainId": 5201420,
+  "networkId": 5201420,
+  "icon": "electroneum",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockexplorer.thesecurityteam.rocks",
+    "icon": "electroneum",
     "standard": "EIP3091"
   }]
 }, {
