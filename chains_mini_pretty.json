@@ -2898,6 +2898,19 @@
   "faucets": ["https://pipa.lisinski.online"],
   "infoURL": "https://lisinski.online"
 }, {
+  "name": "Nativ3 Mainnet",
+  "chainId": 399,
+  "shortName": "N3",
+  "networkId": 399,
+  "nativeCurrency": {
+    "name": "USNT",
+    "symbol": "USNT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.nativ3.network", "wss://ws.nativ3.network"],
+  "faucets": [],
+  "infoURL": "https://nativ3.network"
+}, {
   "name": "HyperonChain TestNet",
   "chainId": 400,
   "shortName": "hpn",
@@ -12543,6 +12556,19 @@
   "rpc": ["https://test.rpc.avescoin.io"],
   "faucets": [],
   "infoURL": "https://ethereum.org"
+}, {
+  "name": "Nativ3 Testnet",
+  "chainId": 333333,
+  "shortName": "N3-Test",
+  "networkId": 333333,
+  "nativeCurrency": {
+    "name": "USNT",
+    "symbol": "USNT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpctest.nativ3.network", "wss://wstest.nativ3.network"],
+  "faucets": [],
+  "infoURL": "https://nativ3.network"
 }, {
   "name": "Oone Chain Testnet",
   "chainId": 333666,
