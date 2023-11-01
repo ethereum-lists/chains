@@ -1,16 +1,16 @@
 {
   "name": "Quantum Chain Testnet",
-  "chain": "QNET",
+  "chain": "tQNET",
   "icon": "qnet",
   "rpc": ["https://testnet-rpc.quantumscan.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Quantum Chain",
-    "symbol": "QNET",
+    "symbol": "tQNET",
     "decimals": 18
   },
   "infoURL": "https://quantumnetwork.gg",
-  "shortName": "qnet",
+  "shortName": "tqnet",
   "chainId": 12890,
   "networkId": 12890,
   "explorers": [
