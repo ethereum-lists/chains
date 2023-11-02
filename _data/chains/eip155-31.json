@@ -1,17 +1,18 @@
 {
-  "name": "RSK Testnet",
-  "chain": "RSK",
+  "name": "Rootstock Testnet",
+  "chain": "Rootstock",
   "rpc": [
     "https://public-node.testnet.rsk.co",
     "https://mycrypto.testnet.rsk.co"
   ],
   "faucets": ["https://faucet.rsk.co/"],
+  "icon": "rootstock",
   "nativeCurrency": {
     "name": "Testnet Smart Bitcoin",
     "symbol": "tRBTC",
     "decimals": 18
   },
-  "infoURL": "https://rsk.co",
+  "infoURL": "https://rootstock.io",
   "shortName": "trsk",
   "chainId": 31,
   "networkId": 31,
