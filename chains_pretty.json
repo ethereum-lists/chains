@@ -9868,7 +9868,7 @@
 }, {
   "name": "Kava",
   "chain": "KAVA",
-  "rpc": ["https://evm.kava.io", "https://evm2.kava.io", "https://kava-rpc.gateway.pokt.network", "https://kava-evm.rpc.thirdweb.com", "wss://wevm.kava.io", "wss://wevm2.kava.io", "https://kava-evm.publicnode.com", "wss://kava-evm.publicnode.com"],
+  "rpc": ["https://evm.kava.io", "https://kava-rpc.gateway.pokt.network", "https://kava-evm.rpc.thirdweb.com", "wss://wevm.kava.io", "https://kava-evm.publicnode.com", "wss://kava-evm.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Kava",
@@ -22248,6 +22248,7 @@
   "shortName": "hmy-s2",
   "chainId": 1666600002,
   "networkId": 1666600002,
+  "status": "deprecated",
   "explorers": [{
     "name": "Harmony Block Explorer",
     "url": "https://explorer.harmony.one/blocks/shard/2",
@@ -22268,6 +22269,7 @@
   "shortName": "hmy-s3",
   "chainId": 1666600003,
   "networkId": 1666600003,
+  "status": "deprecated",
   "explorers": [{
     "name": "Harmony Block Explorer",
     "url": "https://explorer.harmony.one/blocks/shard/3",
