@@ -13233,6 +13233,19 @@
   "faucets": [],
   "infoURL": "https://eluv.io"
 }, {
+  "name": "Ecrox Chain Mainnet",
+  "chainId": 988207,
+  "shortName": "ecrox",
+  "networkId": 988207,
+  "nativeCurrency": {
+    "name": "ECROX COIN",
+    "symbol": "ECROX",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.ecroxscan.com/"],
+  "faucets": [],
+  "infoURL": "https://ecroxcoin.io/"
+}, {
   "name": "zKatana",
   "chainId": 1261120,
   "shortName": "azktn",
