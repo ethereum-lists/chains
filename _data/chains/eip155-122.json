@@ -12,5 +12,13 @@
   "shortName": "fuse",
   "chainId": 122,
   "networkId": 122,
-  "icon": "fuse"
+  "icon": "fuse",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.fuse.io",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
 }
