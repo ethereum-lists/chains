@@ -1,8 +1,12 @@
 {
   "name": "Fantom Opera",
   "chain": "FTM",
-  "rpc": ["https://rpc.ftm.tools", "https://fantom.publicnode.com"],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "rpc": [
+    "https://rpc.ftm.tools",
+    "https://fantom.publicnode.com",
+    "wss://fantom.publicnode.com"
+  ],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Fantom",
     "symbol": "FTM",
@@ -18,6 +22,12 @@
       "name": "ftmscan",
       "url": "https://ftmscan.com",
       "icon": "ftmscan",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://fantom.dex.guru",
+      "icon": "dexguru",
       "standard": "EIP3091"
     }
   ]

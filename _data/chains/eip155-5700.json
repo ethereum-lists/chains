@@ -1,7 +1,12 @@
 {
   "name": "Syscoin Tanenbaum Testnet",
   "chain": "SYS",
-  "rpc": ["https://rpc.tanenbaum.io", "wss://rpc.tanenbaum.io/wss"],
+  "rpc": [
+    "https://rpc.tanenbaum.io",
+    "wss://rpc.tanenbaum.io/wss",
+    "https://syscoin-tanenbaum-evm.publicnode.com",
+    "wss://syscoin-tanenbaum-evm.publicnode.com"
+  ],
   "faucets": ["https://faucet.tanenbaum.io"],
   "nativeCurrency": {
     "name": "Testnet Syscoin",
