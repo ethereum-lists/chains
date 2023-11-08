@@ -13610,6 +13610,32 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "XCAP",
+  "chainId": 9322252,
+  "shortName": "xcap",
+  "networkId": 9322252,
+  "nativeCurrency": {
+    "name": "Gas",
+    "symbol": "GAS",
+    "decimals": 18
+  },
+  "rpc": ["https://xcap-mainnet.relay.xcap.network/znzvh2ueyvm2yts5fv5gnul395jbkfb2/rpc1"],
+  "faucets": [],
+  "infoURL": "https://xcap.network/"
+}, {
+  "name": "Milvine",
+  "chainId": 9322253,
+  "shortName": "milv",
+  "networkId": 9322253,
+  "nativeCurrency": {
+    "name": "Gas",
+    "symbol": "GAS",
+    "decimals": 18
+  },
+  "rpc": ["https://xcap-milvine.relay.xcap.network/zj5l55ftsgi027kz4nf14vs8d89inego/rpc1"],
+  "faucets": [],
+  "infoURL": "https://xcap.network/"
+}, {
   "name": "Plian Testnet Subchain 1",
   "chainId": 10067275,
   "shortName": "plian-testnet-l2",
