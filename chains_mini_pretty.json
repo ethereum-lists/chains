@@ -11140,6 +11140,19 @@
   "faucets": [],
   "infoURL": "https://scolcoin.com"
 }, {
+  "name": "Janus Testnet",
+  "chainId": 66988,
+  "shortName": "janusnetwork-testnet",
+  "networkId": 66988,
+  "nativeCurrency": {
+    "name": "Janus",
+    "symbol": "JNS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.test.janusnetwork.io"],
+  "faucets": [],
+  "infoURL": "https://janus-network.gitbook.io/janus"
+}, {
   "name": "SiriusNet",
   "chainId": 67390,
   "shortName": "mcl",
