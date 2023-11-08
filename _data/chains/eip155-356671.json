@@ -1,0 +1,20 @@
+{
+  "name": "Floor Testnet",
+  "chain": "ETH",
+  "rpc": ["https://testnet.floor.lol"],
+  "nativeCurrency": {
+    "name": "Floor Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoUrl": "https://floornfts.io",
+  "shortname": "floor-testnet",
+  "chainId": 356671,
+  "networkId": 356671,
+  "explorers": [
+    {
+      "name": "Floor Scout",
+      "url": "https://explorer.testnet.floor.lol"
+    }
+  ]
+}
