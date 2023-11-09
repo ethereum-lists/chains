@@ -1,0 +1,33 @@
+{
+    "name": "Ethereum Express Network",
+    "chain": "ETE Chain",
+    "rpc": [
+        "https://www.etescan.net/rpc",
+        "https://www.etelondon.com/rpc",
+        "https://www.etecanada.com/rpc",
+        "https://test.uaechain.net/rpc",
+        "https://rpc.web3russia.org/ete",
+        "https://node.brazildao.biz/ete",
+        "https://ete.indiaio.net/fast",
+        "https://ete.auhacker.xyz/data",
+        "https://service.saalliance.net/ete"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "ETE",
+        "symbol": "ETE",
+        "decimals": 18
+    },
+    "infoURL": "https://www.ethereumexpress.net",
+    "shortName": "ete",
+    "icon": "ete",
+    "chainId": 8912,
+    "networkId": 8912,
+    "explorers": [
+        {
+            "name": "ETE Scan",
+            "url": "https://scan.etescan.net",
+            "standard": "EIP3091"
+        }
+    ]
+}
