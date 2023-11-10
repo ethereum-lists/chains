@@ -5121,6 +5121,19 @@
   "faucets": [],
   "infoURL": "https://elysiumscan.vulcanforged.com"
 }, {
+  "name": "Blitz Subnet",
+  "chainId": 1343,
+  "shortName": "blitz",
+  "networkId": 1343,
+  "nativeCurrency": {
+    "name": "BLITZ GAS",
+    "symbol": "BGAS",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/blitz/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://blitz.gg"
+}, {
   "name": "CIC Chain Mainnet",
   "chainId": 1353,
   "shortName": "CIC",
@@ -10359,6 +10372,19 @@
   "rpc": ["https://dev-api.zilliqa.com"],
   "faucets": ["https://dev-wallet.zilliqa.com/faucet?network=testnet"],
   "infoURL": "https://www.zilliqa.com/"
+}, {
+  "name": "Cloudverse Subnet",
+  "chainId": 33210,
+  "shortName": "cloudverse",
+  "networkId": 33210,
+  "nativeCurrency": {
+    "name": "XCLOUD",
+    "symbol": "XCLOUD",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/cloudverse/mainnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://muadao.build/"
 }, {
   "name": "Aves Mainnet",
   "chainId": 33333,
