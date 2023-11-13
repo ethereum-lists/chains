@@ -1,24 +1,31 @@
 {
-  "name": "Xgon Testnet",
-  "chain": "xgon",
-  "rpc": ["https://testrpc.xgon.io"],
-  "faucets": ["https://www.oklink.com/okbc-test"],
-  "nativeCurrency": {
-    "name": "Xgon Global Utility Token in testnet",
-    "symbol": "OKB",
-    "decimals": 18
-  },
-  "features": [],
-  "infoURL": "https://www.okx.com/okbc/docs/dev/quick-start/introduction/introduction-to-okbchain",
-  "shortName": "tokb",
-  "chainId": 195,
-  "networkId": 195,
-  "explorers": [
-    {
-      "name": "OKLink",
-      "url": "https://www.oklink.com/okbc-test",
-      "standard": "EIP3091"
-    }
-  ],
-  "status": "active"
-}
+    "name": "Dxb Testnet",
+    "chain": "VRC",
+    "rpc": [
+        "https://rpc-testnet-1.vrcscan.com/",
+        "https://rpc-testnet-2.vrcscan.com/",
+        "https://rpc-testnet-3.vrcscan.com/"
+      ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Dxb Chain",
+      "symbol": "VRC",
+      "decimals": 18
+    },
+    "infoURL": "https://vrccoin.com/",
+    "shortName": "vrc",
+    "chainId": 195,
+    "networkId": 195,
+    "explorers": [
+      {
+        "name": "Dxb Chain",
+        "url": "https://dxb.vrcscan.com/",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "vrcscan",
+        "url": "https://vrcscan.com/",
+        "standard": "EIP3091"
+      }
+    ]
+  }
