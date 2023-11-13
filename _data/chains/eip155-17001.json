@@ -1,0 +1,26 @@
+{
+  "name": "Redstone Holesky Testnet",
+  "chain": "ETH",
+  "rpc": [
+    "rpc.holesky.redstone.xyz"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Testnet ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://holesky.redstone.xyz/",
+  "shortName": "redstoneh",
+  "chainId": 17001,
+  "networkId": 17001,
+  "icon": "redstone",
+  "explorers": [
+    {
+      "name": "Redstone Holesky Explorer",
+      "url": "https://explorer.holesky.redstone.xyz",
+      "icon": "ethereum",
+      "standard": "EIP3091"
+    }
+  ]
+}
