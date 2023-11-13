@@ -2079,25 +2079,25 @@
   "faucets": [],
   "infoURL": "https://cemblockchain.com/"
 }, {
-  "name": "Xgon Testnet",
+  "name": "X1 Testnet",
   "chainId": 195,
   "shortName": "tokb",
   "networkId": 195,
   "nativeCurrency": {
-    "name": "Xgon Global Utility Token in testnet",
+    "name": "X1 Global Utility Token in testnet",
     "symbol": "OKB",
     "decimals": 18
   },
-  "rpc": ["https://testrpc.xgon.io"],
+  "rpc": ["https://testrpc.x1.tech", "https://x1testrpc.okx.com"],
   "faucets": ["https://www.oklink.com/okbc-test"],
   "infoURL": "https://www.okx.com/okbc/docs/dev/quick-start/introduction/introduction-to-okbchain"
 }, {
-  "name": "Xgon Mainnet",
+  "name": "X1 Mainnet",
   "chainId": 196,
   "shortName": "okb",
   "networkId": 196,
   "nativeCurrency": {
-    "name": "Xgon Global Utility Token",
+    "name": "X1 Global Utility Token",
     "symbol": "OKB",
     "decimals": 18
   },
