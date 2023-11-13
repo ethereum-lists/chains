@@ -1,31 +1,32 @@
 {
     "name": "Dxb Testnet",
-    "chain": "VRC",
+    "chain": "DXB",
     "rpc": [
-        "https://rpc-testnet-1.vrcscan.com/",
-        "https://rpc-testnet-2.vrcscan.com/",
-        "https://rpc-testnet-3.vrcscan.com/"
+        "https://rpc-testnet-1.vrcscan.com",
+        "https://rpc-testnet-2.vrcscan.com",
+        "https://rpc-testnet-3.vrcscan.com"
       ],
     "faucets": [],
     "nativeCurrency": {
       "name": "Dxb Chain",
-      "symbol": "VRC",
+      "symbol": "DXB",
       "decimals": 18
     },
-    "infoURL": "https://vrccoin.com/",
-    "shortName": "vrc",
+    "infoURL": "https://vrccoin.com",
+    "shortName": "dxb",
     "chainId": 195,
     "networkId": 195,
     "explorers": [
       {
-        "name": "Dxb Chain",
-        "url": "https://dxb.vrcscan.com/",
+        "name": "dxbscan",
+        "url": "https://dxb.vrcscan.com",
         "standard": "EIP3091"
       },
       {
         "name": "vrcscan",
-        "url": "https://vrcscan.com/",
+        "url": "https://vrcscan.com",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "icon": "dxb" 
   }
