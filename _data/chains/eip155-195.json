@@ -1,10 +1,10 @@
 {
-  "name": "Xgon Testnet",
-  "chain": "xgon",
-  "rpc": ["https://testrpc.xgon.io"],
+  "name": "X1 Testnet",
+  "chain": "X1",
+  "rpc": ["https://testrpc.x1.tech", "https://x1testrpc.okx.com"],
   "faucets": ["https://www.oklink.com/okbc-test"],
   "nativeCurrency": {
-    "name": "Xgon Global Utility Token in testnet",
+    "name": "X1 Global Utility Token in testnet",
     "symbol": "OKB",
     "decimals": 18
   },
