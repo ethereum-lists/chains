@@ -7435,6 +7435,19 @@
   "faucets": ["https://faucet.onbeam.com"],
   "infoURL": "https://www.onbeam.com"
 }, {
+  "name": "Credit Smart Chain Mainnet",
+  "chainId": 4400,
+  "shortName": "CreditEdge",
+  "networkId": 4400,
+  "nativeCurrency": {
+    "name": "Credit",
+    "symbol": "CREDIT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.creditsmartchain.com"],
+  "faucets": [],
+  "infoURL": "https://creditsmartchain.com"
+}, {
   "name": "Htmlcoin Mainnet",
   "chainId": 4444,
   "shortName": "html",
