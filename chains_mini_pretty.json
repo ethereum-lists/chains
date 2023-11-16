@@ -7955,6 +7955,19 @@
   "faucets": [],
   "infoURL": "https://uptn.io"
 }, {
+  "name": "Digit Soul Smart Chain",
+  "chainId": 6363,
+  "shortName": "DGS",
+  "networkId": 6363,
+  "nativeCurrency": {
+    "name": "Digit Coin",
+    "symbol": "DGC",
+    "decimals": 18
+  },
+  "rpc": ["http://dsc-rpc.digitsoul.co.th"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Peerpay",
   "chainId": 6502,
   "shortName": "Peerpay",
