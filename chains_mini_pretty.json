@@ -2089,8 +2089,8 @@
     "decimals": 18
   },
   "rpc": ["https://testrpc.x1.tech", "https://x1testrpc.okx.com"],
-  "faucets": ["https://www.oklink.com/okbc-test"],
-  "infoURL": "https://www.okx.com/okbc/docs/dev/quick-start/introduction/introduction-to-okbchain"
+  "faucets": ["https://www.okx.com/x1/faucet"],
+  "infoURL": "https://www.okx.com/x1"
 }, {
   "name": "X1 Mainnet",
   "chainId": 196,
@@ -2103,7 +2103,7 @@
   },
   "rpc": [],
   "faucets": [],
-  "infoURL": "https://www.okx.com/okbc/docs/dev/quick-start/introduction/introduction-to-okbchain"
+  "infoURL": "https://www.okx.com/x1"
 }, {
   "name": "Neutrinos TestNet",
   "chainId": 197,
