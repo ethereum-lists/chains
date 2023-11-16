@@ -2,10 +2,7 @@
   "name": "X1 Testnet",
   "chain": "X1",
   "rpc": ["https://testrpc.x1.tech", "https://x1testrpc.okx.com"],
-  "faucets": [
-    "https://www.okx.com/x1/faucet", 
-    "https://www.okx.com/cn/x1/faucet"
-  ],
+  "faucets": ["https://www.okx.com/x1/faucet"],
   "nativeCurrency": {
     "name": "X1 Global Utility Token in testnet",
     "symbol": "OKB",
