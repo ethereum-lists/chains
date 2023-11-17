@@ -15,9 +15,10 @@
     "https://bsc-dataseed3.ninicoin.io",
     "https://bsc-dataseed4.ninicoin.io",
     "https://bsc.publicnode.com",
+    "wss://bsc.publicnode.com",
     "wss://bsc-ws-node.nariox.org"
   ],
-  "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
     "symbol": "BNB",
@@ -32,6 +33,12 @@
     {
       "name": "bscscan",
       "url": "https://bscscan.com",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://bnb.dex.guru",
+      "icon": "dexguru",
       "standard": "EIP3091"
     }
   ]

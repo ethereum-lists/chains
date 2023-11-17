@@ -1,0 +1,30 @@
+{
+  "name": "Beam Testnet",
+  "chain": "BEAM",
+  "rpc": [
+    "https://subnets.avax.network/beam/testnet/rpc",
+    "wss://subnets.avax.network/beam/testnet/ws"
+  ],
+  "features": [{ "name": "EIP1559" }],
+  "faucets": [
+    "https://faucet.avax.network/?subnet=beam",
+    "https://faucet.onbeam.com"
+  ],
+  "nativeCurrency": {
+    "name": "Beam",
+    "symbol": "BEAM",
+    "decimals": 18
+  },
+  "infoURL": "https://www.onbeam.com",
+  "shortName": "beam-testnet",
+  "icon": "beam",
+  "chainId": 13337,
+  "networkId": 13337,
+  "explorers": [
+    {
+      "name": "Beam Explorer",
+      "url": "https://subnets-test.avax.network/beam",
+      "standard": "EIP3091"
+    }
+  ]
+}

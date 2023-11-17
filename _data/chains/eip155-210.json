@@ -1,8 +1,9 @@
 {
   "name": "Bitnet",
   "chain": "BTN",
-  "rpc": ["https://rpc.bitnet.money"],
-  "faucets": ["https://bitnet.money/forum/showthread.php?tid=2"],
+  "icon": "bitnet",
+  "rpc": ["https://rpc.bitnet.money", "https://rpc.btnscan.com"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Bitnet",
     "symbol": "BTN",

@@ -1,7 +1,14 @@
 {
   "name": "Base",
   "chain": "ETH",
-  "rpc": ["https://developer-access-mainnet.base.org/"],
+  "rpc": [
+    "https://mainnet.base.org/",
+    "https://developer-access-mainnet.base.org/",
+    "https://base.gateway.tenderly.co",
+    "wss://base.gateway.tenderly.co",
+    "https://base.publicnode.com",
+    "wss://base.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -22,7 +29,14 @@
     {
       "name": "basescout",
       "url": "https://base.blockscout.com",
-      "standard": "none"
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://base.dex.guru",
+      "icon": "dexguru",
+      "standard": "EIP3091"
     }
   ],
   "status": "active"

@@ -2,7 +2,7 @@
   "name": "Harmony Testnet Shard 1",
   "chain": "Harmony",
   "rpc": ["https://api.s1.b.hmny.io"],
-  "faucets": [],
+  "faucets": ["https://faucet.pops.one"],
   "nativeCurrency": {
     "name": "ONE",
     "symbol": "ONE",
@@ -11,5 +11,12 @@
   "infoURL": "https://www.harmony.one/",
   "shortName": "hmy-b-s1",
   "chainId": 1666700001,
-  "networkId": 1666700001
+  "networkId": 1666700001,
+  "explorers": [
+    {
+      "name": "Harmony Block Explorer",
+      "url": "https://explorer.testnet.harmony.one",
+      "standard": "none"
+    }
+  ]
 }

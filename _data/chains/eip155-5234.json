@@ -4,13 +4,20 @@
   "rpc": ["https://explorer-rpc-http.mainnet.stages.humanode.io"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "HMND",
-    "symbol": "HMND",
+    "name": "eHMND",
+    "symbol": "eHMND",
     "decimals": 18
   },
   "infoURL": "https://humanode.io",
   "shortName": "hmnd",
   "chainId": 5234,
   "networkId": 5234,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "Subscan",
+      "url": "https://humanode.subscan.io",
+      "standard": "EIP3091",
+      "icon": "subscan"
+    }
+  ]
 }

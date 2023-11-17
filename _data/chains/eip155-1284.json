@@ -1,7 +1,12 @@
 {
   "name": "Moonbeam",
   "chain": "MOON",
-  "rpc": ["https://rpc.api.moonbeam.network", "wss://wss.api.moonbeam.network"],
+  "rpc": [
+    "https://rpc.api.moonbeam.network",
+    "wss://wss.api.moonbeam.network",
+    "https://moonbeam.publicnode.com",
+    "wss://moonbeam.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Glimmer",
