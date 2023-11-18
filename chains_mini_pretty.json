@@ -10451,6 +10451,19 @@
   "faucets": ["https://faucet.zq2-devnet.zilstg.dev"],
   "infoURL": "https://www.zilliqa.com/"
 }, {
+  "name": "Mode",
+  "chainId": 34443,
+  "shortName": "mode",
+  "networkId": 34443,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.mode.network"],
+  "faucets": [],
+  "infoURL": "https://docs.mode.network/"
+}, {
   "name": "J2O Taro",
   "chainId": 35011,
   "shortName": "j2o",
