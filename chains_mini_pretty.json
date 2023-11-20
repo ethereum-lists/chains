@@ -7526,6 +7526,19 @@
   "faucets": [],
   "infoURL": "https://blackfort.exchange"
 }, {
+  "name": "Globel Chain",
+  "chainId": 4893,
+  "shortName": "GC",
+  "networkId": 4893,
+  "nativeCurrency": {
+    "name": "Globel Chain",
+    "symbol": "GC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.gcscan.io"],
+  "faucets": [],
+  "infoURL": "https://gcscan.io"
+}, {
   "name": "Venidium Testnet",
   "chainId": 4918,
   "shortName": "txvm",
