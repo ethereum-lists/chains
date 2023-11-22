@@ -8553,6 +8553,19 @@
   "faucets": ["https://testnet.beonescan.com/faucet"],
   "infoURL": "https://testnet.beonescan.com"
 }, {
+  "name": "Torus Mainnet",
+  "chainId": 8192,
+  "shortName": "tqf",
+  "networkId": 8192,
+  "nativeCurrency": {
+    "name": "TQF",
+    "symbol": "TQF",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.toruschain.com"],
+  "faucets": [],
+  "infoURL": "https://docs.toruschain.com"
+}, {
   "name": "Torus Testnet",
   "chainId": 8194,
   "shortName": "ttqf",
