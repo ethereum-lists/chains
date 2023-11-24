@@ -1,0 +1,21 @@
+{
+  "name": "ProtoJumbo",
+  "chain": "ProtoJumbo",
+  "rpc": ["https://testnode.jumbochain.org"],
+  "faucets": ["https://protojumbo.jumbochain.org/faucet-smart"],
+  "nativeCurrency": {
+    "name": "JNFTC",
+    "symbol": "JNFTC",
+    "decimals": 18
+  },
+  "infoURL": "https://jumbochain.org/",
+  "shortName": "Jumbochain",
+  "chainId": 129,
+  "networkId": 129,
+  "explorers": [
+    {
+      "name": "ProtoJumbo Explorer",
+      "url": "https://protojumbo.jumbochain.org/"
+    }
+  ]
+}
