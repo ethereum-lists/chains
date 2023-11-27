@@ -1,19 +1,19 @@
 {
   "name": "MaalChain Testnet",
-  "chain": "MAAL",
-  "icon": "maal",
+  "chain": "MaalChain Testnet",
+  "icon": "maal-test",
   "rpc": [
     "https://node1.maalscan.io/",
     "https://rpc-bntest.maalscan.io/"
   ],
   "faucets": ["https://faucet-testnet.maalscan.io/"],
   "nativeCurrency": {
-    "name": "MAAL",
-    "symbol": "MAAL",
+    "name": "tMAAL",
+    "symbol": "tMAAL",
     "decimals": 18
   },
   "infoURL": "https://www.maalchain.com/",
-  "shortName": "maal",
+  "shortName": "maal-test",
   "chainId": 7860,
   "networkId": 7860,
   "explorers": [
