@@ -5407,18 +5407,18 @@
   "faucets": [],
   "infoURL": "https://bitcoinasset.io/"
 }, {
-  "name": "Horizen Yuma Testnet Deprecated",
+  "name": "Liquichain",
   "chainId": 1662,
-  "shortName": "Yuma",
+  "shortName": "Liquichain",
   "networkId": 1662,
   "nativeCurrency": {
-    "name": "Testnet Zen",
-    "symbol": "tZEN",
+    "name": "Licoin",
+    "symbol": "LCN",
     "decimals": 18
   },
   "rpc": [],
   "faucets": [],
-  "infoURL": "https://horizen.io/"
+  "infoURL": "https://liquichain.io/"
 }, {
   "name": "Horizen Gobi Testnet",
   "chainId": 1663,
