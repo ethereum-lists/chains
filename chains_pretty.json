@@ -3896,8 +3896,8 @@
   "slip44": 3030,
   "explorers": [{
     "name": "HashScan",
-    "url": "https://hashscan.io/mainnet/dashboard",
-    "standard": "none"
+    "url": "https://hashscan.io/mainnet",
+    "standard": "EIP3091"
   }, {
     "name": "Arkhia Explorer",
     "url": "https://explorer.arkhia.io",
@@ -3938,8 +3938,8 @@
   "slip44": 3030,
   "explorers": [{
     "name": "HashScan",
-    "url": "https://hashscan.io/testnet/dashboard",
-    "standard": "none"
+    "url": "https://hashscan.io/testnet",
+    "standard": "EIP3091"
   }, {
     "name": "Arkhia Explorer",
     "url": "https://explorer.arkhia.io",
@@ -3980,8 +3980,8 @@
   "slip44": 3030,
   "explorers": [{
     "name": "HashScan",
-    "url": "https://hashscan.io/previewnet/dashboard",
-    "standard": "none"
+    "url": "https://hashscan.io/previewnet",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Hedera Localnet",
