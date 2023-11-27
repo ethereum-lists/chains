@@ -19,6 +19,12 @@
       "url": "https://astar.subscan.io",
       "standard": "none",
       "icon": "subscan"
+    },
+    {
+      "name": "blockscout",
+      "url": "https://blockscout.com/astar",
+      "icon": "blockscout",
+      "standard": "EIP3091"
     }
   ]
 }

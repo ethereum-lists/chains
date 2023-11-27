@@ -1,5 +1,5 @@
 {
-  "name": "DeBank Testnet",
+  "name": "DeBank Testnet(Deprecated)",
   "chain": "DeBank",
   "rpc": [],
   "faucets": [],
@@ -9,6 +9,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
+  "status": "deprecated",
   "infoURL": "https://debank.com",
   "shortName": "debank-testnet",
   "chainId": 115,
