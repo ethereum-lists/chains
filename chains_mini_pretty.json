@@ -8332,6 +8332,19 @@
   "faucets": [],
   "infoURL": "https://riseofthewarbots.com/"
 }, {
+  "name": "MaalChain Testnet",
+  "chainId": 7860,
+  "shortName": "maal-test",
+  "networkId": 7860,
+  "nativeCurrency": {
+    "name": "MAAL",
+    "symbol": "MAAL",
+    "decimals": 18
+  },
+  "rpc": ["https://node1.maalscan.io/", "https://rpc-bntest.maalscan.io/"],
+  "faucets": ["https://faucet-testnet.maalscan.io/"],
+  "infoURL": "https://www.maalchain.com/"
+}, {
   "name": "Hazlor Testnet",
   "chainId": 7878,
   "shortName": "tscas",
