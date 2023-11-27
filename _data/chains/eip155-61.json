@@ -6,6 +6,8 @@
   "icon": "ethereumclassic",
   "rpc": [
     "https://etc.rivet.link",
+    "https://besu-at.etc-network.info",
+    "https://besu-de.etc-network.info",
     "https://geth-at.etc-network.info",
     "https://geth-de.etc-network.info",
     "https://etc.etcdesktop.com",
@@ -18,7 +20,7 @@
     "symbol": "ETC",
     "decimals": 18
   },
-  "infoURL": "https://ethereumclassic.org",
+  "infoURL": "https://ethereumclassic.org/network",
   "shortName": "etc",
   "chainId": 61,
   "networkId": 1,
