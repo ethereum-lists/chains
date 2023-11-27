@@ -14195,7 +14195,7 @@
   "faucets": [],
   "infoURL": "https://meld.com"
 }, {
-  "name": "Calypso NFT Hub (SKALE Testnet)",
+  "name": "SKALE Calypso Hub Testnet",
   "chainId": 344106930,
   "shortName": "calypso-testnet",
   "networkId": 344106930,
@@ -14221,6 +14221,19 @@
   "faucets": [],
   "infoURL": "https://gather.network"
 }, {
+  "name": "SKALE Europa Hub Testnet",
+  "chainId": 476158412,
+  "shortName": "europa-testnet",
+  "networkId": 476158412,
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "rpc": ["https://staging-v3.skalenodes.com/v1/staging-legal-crazy-castor"],
+  "faucets": ["https://sfuel.dirtroad.dev/staging"],
+  "infoURL": "https://europahub.network/"
+}, {
   "name": "Gather Devnet Network",
   "chainId": 486217935,
   "shortName": "dGTH",
@@ -14234,9 +14247,9 @@
   "faucets": [],
   "infoURL": "https://gather.network"
 }, {
-  "name": "Nebula Staging",
+  "name": "SKALE Nebula Hub Testnet",
   "chainId": 503129905,
-  "shortName": "nebula-staging",
+  "shortName": "nebula-testnet",
   "networkId": 503129905,
   "nativeCurrency": {
     "name": "sFUEL",
@@ -14244,7 +14257,7 @@
     "decimals": 18
   },
   "rpc": ["https://staging-v3.skalenodes.com/v1/staging-faint-slimy-achird", "wss://staging-v3.skalenodes.com/v1/ws/staging-faint-slimy-achird"],
-  "faucets": [],
+  "faucets": ["https://sfuel.dirtroad.dev/staging"],
   "infoURL": "https://nebulachain.io/"
 }, {
   "name": "Zora Sepolia Testnet",
@@ -14338,6 +14351,19 @@
   "faucets": [],
   "infoURL": "https://aurora.dev"
 }, {
+  "name": "SKALE Titan Hub",
+  "chainId": 1350216234,
+  "shortName": "titan-mainnet",
+  "networkId": 1350216234,
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.skalenodes.com/v1/parallel-stormy-spica", "wss://mainnet.skalenodes.com/v1/ws/parallel-stormy-spica"],
+  "faucets": ["https://sfuel.skale.network/"],
+  "infoURL": ""
+}, {
   "name": "Chaos (SKALE Testnet)",
   "chainId": 1351057110,
   "shortName": "chaos-tenet",
@@ -14364,7 +14390,7 @@
   "faucets": [],
   "infoURL": "https://raptorchain.io"
 }, {
-  "name": "Nebula Mainnet",
+  "name": "SKALE Nebula Hub",
   "chainId": 1482601649,
   "shortName": "nebula-mainnet",
   "networkId": 1482601649,
@@ -14374,10 +14400,23 @@
     "decimals": 18
   },
   "rpc": ["https://mainnet.skalenodes.com/v1/green-giddy-denebola", "wss://mainnet-proxy.skalenodes.com/v1/ws/green-giddy-denebola"],
-  "faucets": [],
+  "faucets": ["https://sfuel.skale.network/"],
   "infoURL": "https://nebulachain.io/"
 }, {
-  "name": "Calypso NFT Hub (SKALE)",
+  "name": "SKALE Titan Hub Testnet",
+  "chainId": 1517929550,
+  "shortName": "titan-testnet",
+  "networkId": 1517929550,
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "rpc": ["https://staging-v3.skalenodes.com/v1/staging-aware-chief-gianfar", "wss://staging-v3.skalenodes.com/v1/ws/staging-aware-chief-gianfar"],
+  "faucets": ["https://sfuel.dirtroad.dev/staging"],
+  "infoURL": ""
+}, {
+  "name": "SKALE Calypso Hub",
   "chainId": 1564830818,
   "shortName": "calypso-mainnet",
   "networkId": 1564830818,
@@ -14507,7 +14546,7 @@
   "faucets": [],
   "infoURL": "https://www.DataHopper.com"
 }, {
-  "name": "Europa SKALE Chain",
+  "name": "SKALE Europa Hub",
   "chainId": 2046399126,
   "shortName": "europa",
   "networkId": 2046399126,
