@@ -1,0 +1,25 @@
+{
+  "name": "Innovator Chain",
+  "chain": "INNOVATOR",
+  "rpc": [
+    "https://rpc.innovatorchain.com",
+    "wss://rpc.innovatorchain.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "INOV8",
+    "symbol": "INOV8",
+    "decimals": 18
+  },
+  "infoURL": "https://innovatorchain.com",
+  "shortName": "Innovator",
+  "chainId": 129,
+  "networkId": 129,
+  "explorers": [
+    {
+      "name": "evmscan",
+      "url": "https://evm.innovatorchain.com",
+      "standard": "none"
+    }
+  ]
+}
