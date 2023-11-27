@@ -3015,6 +3015,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Geso Verse",
+  "chainId": 428,
+  "shortName": "GSV",
+  "networkId": 428,
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.verse.gesoten.com/"],
+  "faucets": [],
+  "infoURL": "https://gesoten.com/"
+}, {
   "name": "Obscuro Testnet",
   "chainId": 443,
   "shortName": "obs-testnet",
