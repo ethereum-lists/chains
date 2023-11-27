@@ -1,0 +1,24 @@
+{
+  "name": "Taiko Jolnir L2",
+  "chain": "ETH",
+  "status": "incubating",
+  "icon": "taiko",
+  "rpc": ["https://rpc.jolnir.taiko.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://taiko.xyz",
+  "shortName": "tko-jolnir",
+  "chainId": 167007,
+  "networkId": 167007,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.jolnir.taiko.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
