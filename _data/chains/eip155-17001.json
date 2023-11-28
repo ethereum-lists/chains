@@ -1,9 +1,7 @@
 {
   "name": "Redstone Holesky Testnet",
   "chain": "ETH",
-  "rpc": [
-    "https://rpc.holesky.redstone.xyz"
-  ],
+  "rpc": ["https://rpc.holesky.redstone.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Redstone Testnet Ether",
