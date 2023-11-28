@@ -1,27 +1,23 @@
 {
-  "name": "Horizen Yuma Testnet Deprecated",
-  "shortName": "Yuma",
-  "chain": "Yuma",
-  "icon": "eon",
+  "name": "Liquichain",
+  "shortName": "Liquichain",
+  "chain": "LQC",
   "rpc": [],
-  "features": [
-    {
-      "name": "EIP155"
-    },
-    {
-      "name": "EIP1559"
-    }
-  ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Testnet Zen",
-    "symbol": "tZEN",
+    "name": "Licoin",
+    "symbol": "LCN",
     "decimals": 18
   },
-  "infoURL": "https://horizen.io/",
+  "infoURL": "https://liquichain.io/",
   "chainId": 1662,
   "networkId": 1662,
-  "slip44": 121,
-  "explorers": [],
-  "status": "deprecated"
+  "explorers": [
+    {
+      "name": "Liquichain Mainnet",
+      "url": "https://mainnet.liquichain.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "redFlags": ["reusedChainId"]
 }
