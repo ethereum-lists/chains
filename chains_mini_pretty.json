@@ -6694,6 +6694,19 @@
   "faucets": [],
   "infoURL": "https://morphism.xyz"
 }, {
+  "name": "K-LAOS",
+  "chainId": 2718,
+  "shortName": "k-laos",
+  "networkId": 2718,
+  "nativeCurrency": {
+    "name": "KLAOS",
+    "symbol": "KLAOS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.klaos.laosfoundation.io", "wss://rpc.klaos.laosfoundation.io"],
+  "faucets": [],
+  "infoURL": "https://www.laosfoundation.io/"
+}, {
   "name": "Boba Network Goerli Testnet",
   "chainId": 2888,
   "shortName": "BobaGoerli",
