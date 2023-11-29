@@ -1,0 +1,28 @@
+{
+  "name": "K-LAOS",
+  "title": "K-LAOS: LAOS on Kusama",
+  "chain": "K-LAOS",
+  "icon": "k-laos",
+  "rpc": [
+    "https://rpc.klaos.laosfoundation.io",
+    "wss://rpc.klaos.laosfoundation.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "KLAOS",
+    "symbol": "KLAOS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.laosfoundation.io/",
+  "shortName": "k-laos",
+  "chainId": 2718,
+  "networkId": 2718,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockscout.klaos.laosfoundation.io",
+      "icon": "k-laos",
+      "standard": "EIP3091"
+    }
+  ]
+}
