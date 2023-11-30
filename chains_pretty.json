@@ -20448,7 +20448,7 @@
   "networkId": 534351,
   "explorers": [{
     "name": "Scroll Sepolia Etherscan",
-    "url": "https://sepolia.scrollscan.dev",
+    "url": "https://sepolia.scrollscan.com",
     "standard": "EIP3091"
   }, {
     "name": "Scroll Sepolia Blockscout",
@@ -20459,7 +20459,7 @@
     "type": "L2",
     "chain": "eip155-11155111",
     "bridges": [{
-      "url": "https://scroll.io/bridge"
+      "url": "https://sepolia.scroll.io/bridge"
     }]
   }
 }, {
