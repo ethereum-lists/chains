@@ -4471,10 +4471,23 @@
   "faucets": ["https://evm-toolkit.evm.testnet.shimmer.network", "https://evm-faucet.testnet.shimmer.network"],
   "infoURL": "https://shimmer.network"
 }, {
-  "name": "ShimmerEVM Testnet",
+  "name": "ShimmerEVM Testnet Deprecated 1072",
   "chainId": 1072,
-  "shortName": "shimmerevm-testnet",
+  "shortName": "shimmerevm-testnet-deprecated-1072",
   "networkId": 1072,
+  "nativeCurrency": {
+    "name": "SMR",
+    "symbol": "SMR",
+    "decimals": 6
+  },
+  "rpc": [],
+  "faucets": ["https://evm-toolkit.evm.testnet.shimmer.network", "https://evm-faucet.testnet.shimmer.network"],
+  "infoURL": "https://shimmer.network"
+}, {
+  "name": "ShimmerEVM Testnet",
+  "chainId": 1073,
+  "shortName": "shimmerevm-testnet",
+  "networkId": 1073,
   "nativeCurrency": {
     "name": "SMR",
     "symbol": "SMR",
