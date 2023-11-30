@@ -21,7 +21,7 @@
   "explorers": [
     {
       "name": "Scroll Sepolia Etherscan",
-      "url": "https://sepolia.scrollscan.dev",
+      "url": "https://sepolia.scrollscan.com",
       "standard": "EIP3091"
     },
     {
@@ -33,6 +33,6 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://scroll.io/bridge" }]
+    "bridges": [{ "url": "https://sepolia.scroll.io/bridge" }]
   }
 }
