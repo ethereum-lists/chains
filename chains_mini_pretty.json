@@ -6473,6 +6473,19 @@
   "faucets": [],
   "infoURL": "https://www.bombchain.com"
 }, {
+  "name": "Ebro Network",
+  "chainId": 2306,
+  "shortName": "ebro",
+  "networkId": 2306,
+  "nativeCurrency": {
+    "name": "Ebro",
+    "symbol": "ebro",
+    "decimals": 18
+  },
+  "rpc": ["https://greendinoswap.com"],
+  "faucets": [],
+  "infoURL": "https://www.ebrochain.com"
+}, {
   "name": "Arevia",
   "chainId": 2309,
   "shortName": "arevia",
