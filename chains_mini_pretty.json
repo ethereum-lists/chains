@@ -11647,6 +11647,19 @@
   "faucets": ["https://faucet.polygon.technology/"],
   "infoURL": "https://polygon.technology/"
 }, {
+  "name": "Nordek Mainnet",
+  "chainId": 81041,
+  "shortName": "nordek",
+  "networkId": 81041,
+  "nativeCurrency": {
+    "name": "NRK",
+    "symbol": "NRK",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.nordekscan.com"],
+  "faucets": [],
+  "infoURL": "https://nordekscan.com"
+}, {
   "name": "Amana Testnet",
   "chainId": 81341,
   "shortName": "amanatest",
