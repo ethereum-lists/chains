@@ -1,7 +1,8 @@
 {
-  "name": "Calypso NFT Hub (SKALE Testnet)",
+  "name": "SKALE Calypso Hub Testnet",
   "title": "Calypso NFT Hub Testnet",
   "chain": "staging-utter-unripe-menkar",
+  "icon": "calypso",
   "rpc": ["https://staging-v3.skalenodes.com/v1/staging-utter-unripe-menkar"],
   "faucets": ["https://sfuel.dirtroad.dev/staging"],
   "nativeCurrency": {
@@ -17,7 +18,6 @@
     {
       "name": "Blockscout",
       "url": "https://staging-utter-unripe-menkar.explorer.staging-v3.skalenodes.com",
-      "icon": "calypso",
       "standard": "EIP3091"
     }
   ]
