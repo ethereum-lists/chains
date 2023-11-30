@@ -3634,6 +3634,22 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Fraxchain Mainnet",
+  "chain": "FRAX",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Frax Ether",
+    "symbol": "frxETH",
+    "decimals": 18
+  },
+  "infoURL": "https://mainnet.frax.com",
+  "shortName": "fraxchain",
+  "chainId": 252,
+  "networkId": 252,
+  "explorers": [],
+  "status": "incubating"
+}, {
   "name": "Kroma",
   "chain": "ETH",
   "rpc": ["https://api.kroma.network"],
@@ -10250,6 +10266,22 @@
     "url": "https://testnet.u2uscan.xyz",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Fraxchain Testnet",
+  "chain": "FRAX",
+  "rpc": ["https://rpc.testnet.frax.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Frax Ether",
+    "symbol": "frxETH",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet.frax.com",
+  "shortName": "fraxchain-testnet",
+  "chainId": 2522,
+  "networkId": 2522,
+  "explorers": [],
+  "status": "active"
 }, {
   "name": "Kortho Mainnet",
   "chain": "Kortho Chain",

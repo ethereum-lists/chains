@@ -2417,6 +2417,19 @@
   "faucets": [],
   "infoURL": "https://fantom.foundation"
 }, {
+  "name": "Fraxchain Mainnet",
+  "chainId": 252,
+  "shortName": "fraxchain",
+  "networkId": 252,
+  "nativeCurrency": {
+    "name": "Frax Ether",
+    "symbol": "frxETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://mainnet.frax.com"
+}, {
   "name": "Kroma",
   "chainId": 255,
   "shortName": "kroma",
@@ -6615,6 +6628,19 @@
   "rpc": ["https://rpc-nebulas-testnet.uniultra.xyz"],
   "faucets": ["https://faucet.uniultra.xyz"],
   "infoURL": "https://uniultra.xyz"
+}, {
+  "name": "Fraxchain Testnet",
+  "chainId": 2522,
+  "shortName": "fraxchain-testnet",
+  "networkId": 2522,
+  "nativeCurrency": {
+    "name": "Frax Ether",
+    "symbol": "frxETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.frax.com"],
+  "faucets": [],
+  "infoURL": "https://testnet.frax.com"
 }, {
   "name": "Kortho Mainnet",
   "chainId": 2559,
