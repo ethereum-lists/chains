@@ -5693,6 +5693,19 @@
   "faucets": ["https://faucet.bitcichain.com"],
   "infoURL": "https://www.bitcichain.com"
 }, {
+  "name": "Merkle Scan",
+  "chainId": 1909,
+  "shortName": "MRK",
+  "networkId": 1909,
+  "nativeCurrency": {
+    "name": "Merkle",
+    "symbol": "MRK",
+    "decimals": 18
+  },
+  "rpc": ["https://marklechain-rpc.merklescan.com"],
+  "faucets": [],
+  "infoURL": "https://merklescan.com"
+}, {
   "name": "ONUS Chain Testnet",
   "chainId": 1945,
   "shortName": "onus-testnet",
