@@ -9788,6 +9788,19 @@
   "faucets": [],
   "infoURL": "https://cryptophoenix.org/phoenix"
 }, {
+  "name": "Immutable zkEVM Testnet",
+  "chainId": 13473,
+  "shortName": "imx-testnet",
+  "networkId": 13473,
+  "nativeCurrency": {
+    "name": "Test IMX",
+    "symbol": "tIMX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.immutable.com"],
+  "faucets": ["https://docs.immutable.com/docs/zkEVM/guides/faucet"],
+  "infoURL": "https://www.immutable.com"
+}, {
   "name": "Susono",
   "chainId": 13812,
   "shortName": "sus",
@@ -9826,6 +9839,19 @@
   "rpc": ["https://explorer-rpc-http.testnet5.stages.humanode.io"],
   "faucets": ["https://t.me/HumanodeTestnet5FaucetBot"],
   "infoURL": "https://humanode.io"
+}, {
+  "name": "Immutable zkEVM Devnet",
+  "chainId": 15003,
+  "shortName": "imx-devnet",
+  "networkId": 15003,
+  "nativeCurrency": {
+    "name": "Dev IMX",
+    "symbol": "dIMX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.dev.immutable.com"],
+  "faucets": ["https://docs.immutable.com/docs/zkEVM/guides/faucet"],
+  "infoURL": "https://www.immutable.com"
 }, {
   "name": "LoopNetwork Mainnet",
   "chainId": 15551,
