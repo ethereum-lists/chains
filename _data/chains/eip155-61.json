@@ -38,23 +38,28 @@
     },
     {
       "name": "etcnetworkinfo-alethio-ethereum-classic",
-      "url": "https://explorer-alethio.etc-network.info"
+      "url": "https://explorer-alethio.etc-network.info",
+      "standard": "none"
     },
     {
       "name": "etcnetworkinfo-expedition-ethereum-classic",
-      "url": "https://explorer-expedition.etc-network.info"
+      "url": "https://explorer-expedition.etc-network.info",
+      "standard": "none"
     },
     {
       "name": "hebeblock-ethereum-classic",
-      "url": "https://etcerscan.com"
+      "url": "https://etcerscan.com",
+      "standard": "none"
     },
     {
       "name": "oklink-ethereum-classic",
-      "url": "https://www.oklink.com/etc"
+      "url": "https://www.oklink.com/etc",
+      "standard": "none"
     },
     {
       "name": "tokenview-ethereum-classic",
-      "url": "https://etc.tokenview.io"
+      "url": "https://etc.tokenview.io",
+      "standard": "none"
     }
   ]
 }
