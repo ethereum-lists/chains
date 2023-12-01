@@ -1,16 +1,13 @@
 {
   "name": "X1 Fastnet",
   "chain": "X1",
-  "rpc": [
-    "https://x1-fastnet.xen.network"
-  ],
+  "rpc": ["https://x1-fastnet.xen.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "XN",
     "symbol": "XN",
     "decimals": 18
   },
-
   "infoURL": "https://docs.xen.network/go-x1/",
   "shortName": "x1-fastnet",
   "chainId": 4003,
