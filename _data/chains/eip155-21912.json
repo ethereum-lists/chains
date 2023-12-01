@@ -2,7 +2,10 @@
   "name": "BSL Mainnet",
   "chain": "BSL",
   "icon": "",
-  "rpc": ["http://rpc-mainnet.nftruth.io"],
+  "rpc": [
+    "http://rpc-mainnet.nftruth.io:8545",
+    "ws://rpc-mainnet.nftruth.io:8645"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Origin NFT",
