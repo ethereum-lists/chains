@@ -7344,6 +7344,19 @@
   "faucets": ["https://faucet.fantom.network"],
   "infoURL": "https://docs.fantom.foundation/quick-start/short-guide#fantom-testnet"
 }, {
+  "name": "X1 Fastnet",
+  "chainId": 4003,
+  "shortName": "x1-fastnet",
+  "networkId": 4003,
+  "nativeCurrency": {
+    "name": "XN",
+    "symbol": "XN",
+    "decimals": 18
+  },
+  "rpc": ["https://x1-fastnet.xen.network"],
+  "faucets": [],
+  "infoURL": "https://docs.xen.network/go-x1/"
+}, {
   "name": "Bobaopera Testnet",
   "chainId": 4051,
   "shortName": "BobaoperaTestnet",
@@ -12609,6 +12622,19 @@
   "faucets": [],
   "infoURL": "https://decimalchain.com"
 }, {
+  "name": "X1 Devnet",
+  "chainId": 202212,
+  "shortName": "x1-devnet",
+  "networkId": 202212,
+  "nativeCurrency": {
+    "name": "XN",
+    "symbol": "XN",
+    "decimals": 18
+  },
+  "rpc": ["https://x1-devnet.xen.network"],
+  "faucets": [],
+  "infoURL": "https://docs.xen.network/x1/"
+}, {
   "name": "Jellie",
   "chainId": 202624,
   "shortName": "twl-jellie",
@@ -12621,6 +12647,19 @@
   "rpc": ["https://jellie-rpc.twala.io/", "wss://jellie-rpc-wss.twala.io/"],
   "faucets": [],
   "infoURL": "https://twala.io/"
+}, {
+  "name": "X1 Network",
+  "chainId": 204005,
+  "shortName": "x1-testnet",
+  "networkId": 204005,
+  "nativeCurrency": {
+    "name": "XN",
+    "symbol": "XN",
+    "decimals": 18
+  },
+  "rpc": ["https://x1-testnet.xen.network"],
+  "faucets": [],
+  "infoURL": "https://docs.xen.network/go-x1/"
 }, {
   "name": "PlatON Mainnet",
   "chainId": 210425,

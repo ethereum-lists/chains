@@ -11358,6 +11358,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "X1 Fastnet",
+  "chain": "X1",
+  "rpc": ["https://x1-fastnet.xen.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "XN",
+    "symbol": "XN",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.xen.network/go-x1/",
+  "shortName": "x1-fastnet",
+  "chainId": 4003,
+  "networkId": 4003,
+  "explorers": [{
+    "name": "Blockscout",
+    "url": "https://explorer.x1-fastnet.xen.network",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Bobaopera Testnet",
   "chain": "Bobaopera Testnet",
   "rpc": ["https://testnet.bobaopera.boba.network", "wss://wss.testnet.bobaopera.boba.network", "https://replica.testnet.bobaopera.boba.network", "wss://replica-wss.testnet.bobaopera.boba.network"],
@@ -19676,6 +19696,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "X1 Devnet",
+  "chain": "X1",
+  "rpc": ["https://x1-devnet.xen.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "XN",
+    "symbol": "XN",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.xen.network/x1/",
+  "shortName": "x1-devnet",
+  "chainId": 202212,
+  "networkId": 202212,
+  "explorers": [{
+    "name": "Blockscout",
+    "url": "https://explorer.x1-devnet.xen.network",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Jellie",
   "title": "Twala Testnet Jellie",
   "shortName": "twl-jellie",
@@ -19696,6 +19736,26 @@
     "url": "https://jellie.twala.io",
     "standard": "EIP3091",
     "icon": "twala"
+  }]
+}, {
+  "name": "X1 Network",
+  "chain": "X1",
+  "rpc": ["https://x1-testnet.xen.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "XN",
+    "symbol": "XN",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.xen.network/go-x1/",
+  "shortName": "x1-testnet",
+  "chainId": 204005,
+  "networkId": 204005,
+  "explorers": [{
+    "name": "Blockscout",
+    "url": "https://explorer.x1-testnet.xen.network",
+    "icon": "blockscout",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "PlatON Mainnet",
