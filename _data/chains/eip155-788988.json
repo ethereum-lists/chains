@@ -1,0 +1,31 @@
+{
+  "name": "ORB3 Mainnet",
+  "chainId": 788988,
+  "shortName": "orb-pro",
+  "chain": "ETH",
+  "networkId": 788988,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [
+    "https://rpc.orb3.tech",
+    "wss://rpc.orb3.tech"
+  ],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "ORB3 Explorer",
+      "url": "https://orb3scan.tech",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://orb3.tech",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://hub.orb3.tech" }]
+  }
+}
