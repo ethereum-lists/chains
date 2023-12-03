@@ -13584,6 +13584,19 @@
   "faucets": [],
   "infoURL": "https://ecroxcoin.io/"
 }, {
+  "name": "Tiltyard Subnet",
+  "chainId": 1127469,
+  "shortName": "tiltyard",
+  "networkId": 1127469,
+  "nativeCurrency": {
+    "name": "Tiltyard Token",
+    "symbol": "TILTG",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/tiltyard/testnet/rpc"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "zKatana",
   "chainId": 1261120,
   "shortName": "azktn",
