@@ -1,22 +1,22 @@
 {
-  "name": "Torus Testnet",
+  "name": "Torus Mainnet",
   "chain": "TQF",
   "icon": "torus",
-  "rpc": ["https://rpc.testnet.toruschain.com"],
+  "rpc": ["https://rpc.toruschain.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "tTQF",
-    "symbol": "TTQF",
+    "name": "TQF",
+    "symbol": "TQF",
     "decimals": 18
   },
   "infoURL": "https://docs.toruschain.com",
-  "shortName": "ttqf",
-  "chainId": 8194,
-  "networkId": 8194,
+  "shortName": "tqf",
+  "chainId": 8192,
+  "networkId": 8192,
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://testnet.toruscan.com",
+      "url": "https://toruscan.com",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
