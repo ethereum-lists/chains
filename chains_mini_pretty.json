@@ -3587,6 +3587,19 @@
   "faucets": [],
   "infoURL": "https://lycanchain.com"
 }, {
+  "name": "Blucrates",
+  "chainId": 727,
+  "shortName": "blu",
+  "networkId": 727,
+  "nativeCurrency": {
+    "name": "Blucrates",
+    "symbol": "BLU",
+    "decimals": 18
+  },
+  "rpc": ["https://data.bluchain.pro"],
+  "faucets": [],
+  "infoURL": "https://www.blucrates.com"
+}, {
   "name": "Canto Testnet",
   "chainId": 740,
   "shortName": "tcanto",

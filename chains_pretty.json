@@ -5585,6 +5585,21 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Blucrates",
+  "chain": "BLU",
+  "rpc": ["https://data.bluchain.pro"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Blucrates",
+    "symbol": "BLU",
+    "decimals": 18
+  },
+  "infoURL": "https://www.blucrates.com",
+  "shortName": "blu",
+  "chainId": 727,
+  "networkId": 727,
+  "slip44": 727
+}, {
   "name": "Canto Testnet",
   "chain": "Canto Tesnet",
   "rpc": ["https://eth.plexnode.wtf/"],
