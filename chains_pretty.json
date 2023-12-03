@@ -17554,6 +17554,27 @@
   }],
   "status": "active"
 }, {
+  "name": "Genesys Code Mainnet",
+  "chain": "GCODE",
+  "rpc": ["https://mainnet.genesyscode.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GenesysCode",
+    "symbol": "GCODE",
+    "decimals": 18
+  },
+  "infoURL": "https://genesyscode.io",
+  "shortName": "gcode",
+  "chainId": 59971,
+  "networkId": 59971,
+  "icon": "genesyscode",
+  "explorers": [{
+    "name": "Genesys Scan",
+    "url": "https://genesysscan.io",
+    "icon": "genesyscode",
+    "standard": "none"
+  }]
+}, {
   "name": "Thinkium Testnet Chain 0",
   "chain": "Thinkium",
   "rpc": ["https://test.thinkiumrpc.net/"],

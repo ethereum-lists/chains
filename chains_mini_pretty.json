@@ -11231,6 +11231,19 @@
   "faucets": [],
   "infoURL": "https://linea.build"
 }, {
+  "name": "Genesys Code Mainnet",
+  "chainId": 59971,
+  "shortName": "gcode",
+  "networkId": 59971,
+  "nativeCurrency": {
+    "name": "GenesysCode",
+    "symbol": "GCODE",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.genesyscode.io/"],
+  "faucets": [],
+  "infoURL": "https://genesyscode.io"
+}, {
   "name": "Thinkium Testnet Chain 0",
   "chainId": 60000,
   "shortName": "TKM-test0",
