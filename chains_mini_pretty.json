@@ -3444,6 +3444,19 @@
   "faucets": [],
   "infoURL": "https://ace.fusionist.io/"
 }, {
+  "name": "Kalichain Mainnet",
+  "chainId": 653,
+  "shortName": "kalichain",
+  "networkId": 653,
+  "nativeCurrency": {
+    "name": "kalis",
+    "symbol": "KALIS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.kalichain.com"],
+  "faucets": [],
+  "infoURL": "https://kalichain.com"
+}, {
   "name": "Pixie Chain Testnet",
   "chainId": 666,
   "shortName": "pixie-chain-testnet",
