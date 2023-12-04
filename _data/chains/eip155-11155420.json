@@ -2,7 +2,7 @@
   "name": "OP Sepolia Testnet",
   "chain": "ETH",
   "rpc": ["https://sepolia.optimism.io"],
-  "faucets": [],
+  "faucets": ["https://app.optimism.io/faucet"],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
