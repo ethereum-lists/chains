@@ -1,23 +1,22 @@
 {
-  "name": "Kalichain",
-  "chain": "kalis",
+  "name": "Kalichain Mainnet",
+  "chain": "Kalichain",
   "rpc": ["https://rpc.kalichain.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Kalis",
+    "name": "kalis",
     "symbol": "KALIS",
     "decimals": 18
   },
   "infoURL": "https://kalichain.com",
-  "shortName": "kalis",
+  "shortName": "kalichain",
   "chainId": 653,
   "networkId": 653,
-  "icon": "kalichain",
-  "explorers": [{
-    "name": "Explorer kalichain",
-    "url": "https://explorer.kalichain.com",
-    "icon": "kalichain",
-    "standard": "EIP3091"
-  }]
-  
+  "explorers": [
+    {
+      "name": "kalichain explorer",
+      "url": "https://explorer.kalichain.com",
+      "standard": "EIP3091"
+    }
+  ]
 }
