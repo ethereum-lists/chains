@@ -3093,6 +3093,19 @@
   "faucets": [],
   "infoURL": "https://areon.network"
 }, {
+  "name": "Areon Network Mainnet",
+  "chainId": 463,
+  "shortName": "area",
+  "networkId": 463,
+  "nativeCurrency": {
+    "name": "Areon",
+    "symbol": "AREA",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.areon.network"],
+  "faucets": [],
+  "infoURL": "https://areon.network"
+}, {
   "name": "Rupaya",
   "chainId": 499,
   "shortName": "rupx",
