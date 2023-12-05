@@ -3,6 +3,7 @@
   "chain": "CVM",
   "rpc": [
     "https://rpc.cosvm.net",
+	  "http://51.79.231.20:8545",
     "wss://51.79.231.20:8546"
   ],
   "faucets": [],
@@ -16,15 +17,17 @@
   "chainId": 323,
   "networkId": 323,
   "explorers": [
-    {
+     {
+      "name": "Canto Cosmos Explorer",
+      "url": "https://scan.cosvm.net",
+      "standard": "none" 
+    },
+	{
       "name": "CosVM EVM Explorer (Blockscout)",
       "url": "https://explorer.cosvm.net",
-      "standard": "none"
+      "icon": "blockscout",
+      "standard": "EIP3091"
     },
-    {
-      "name": "CosVM Cosmos Explorer",
-      "url": "https://scan.cosvm.net",
-      "standard": "none"
-    },
+   
   ]
 }
