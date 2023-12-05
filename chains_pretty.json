@@ -22286,7 +22286,7 @@
   "networkId": 61717561,
   "slip44": 61717561
 }, {
-  "name": "Autonity Bakerloo (Thames) Testnet",
+  "name": "Autonity Bakerloo (Barada) Testnet",
   "chain": "AUT",
   "rpc": ["https://rpc1.bakerloo.autonity.org/", "wss://rpc1.bakerloo.autonity.org/ws/"],
   "faucets": ["https://faucet.autonity.org/"],
@@ -22296,9 +22296,9 @@
     "decimals": 18
   },
   "infoURL": "https://autonity.org/",
-  "shortName": "bakerloo-0",
-  "chainId": 65010000,
-  "networkId": 65010000,
+  "shortName": "bakerloo-01",
+  "chainId": 65010001,
+  "networkId": 65010001,
   "icon": "autonity",
   "explorers": [{
     "name": "autonity-blockscout",
