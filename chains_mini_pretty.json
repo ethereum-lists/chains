@@ -14052,6 +14052,19 @@
   "faucets": ["http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"],
   "infoURL": "https://sepolia.otterscan.io"
 }, {
+  "name": "OP Sepolia Testnet",
+  "chainId": 11155420,
+  "shortName": "opsep",
+  "networkId": 11155420,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia.optimism.io"],
+  "faucets": ["https://app.optimism.io/faucet"],
+  "infoURL": "https://optimism.io"
+}, {
   "name": "PepChain Churchill",
   "chainId": 13371337,
   "shortName": "tpep",
