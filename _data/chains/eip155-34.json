@@ -1,16 +1,24 @@
 {
-  "name": "Dithereum Testnet",
-  "chain": "DTH",
-  "icon": "dithereum",
-  "rpc": ["https://node-testnet.dithereum.io"],
-  "faucets": ["https://faucet.dithereum.org"],
+  "name": "SecureChain Mainnet",
+  "chain": "SCAI",
+  "icon": "scaiIcon",
+  "rpc": ["https://mainnet-rpc.scai.network"],
+  "faucets": ["https://faucet.securechain.ai"],
   "nativeCurrency": {
-    "name": "Dither",
-    "symbol": "DTH",
+    "name": "SecureChain",
+    "symbol": "SCAI",
     "decimals": 18
   },
-  "infoURL": "https://dithereum.org",
-  "shortName": "dth",
+  "infoURL": "https://securechain.ai",
+  "shortName": "scai",
   "chainId": 34,
-  "networkId": 34
+  "networkId": 34,
+  "redFlags": ["reusedChainId"],
+  "explorers": [
+    {
+      "name": "SecureChain Mainnet",
+      "url": "https://explorer.securechain.ai",
+      "standard": "EIP3091"
+    }
+  ]
 }

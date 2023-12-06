@@ -1,0 +1,25 @@
+{
+  "name": "Tenet Testnet",
+  "title": "Tenet Testnet",
+  "chain": "TENET",
+  "icon": "tenet",
+  "rpc": ["https://rpc.testnet.tenet.org"],
+  "faucets": ["https://faucet.testnet.tenet.org"],
+  "nativeCurrency": {
+    "name": "TENET",
+    "symbol": "TENET",
+    "decimals": 18
+  },
+  "infoURL": "https://tenet.org/",
+  "shortName": "tenet-testnet",
+  "chainId": 155,
+  "networkId": 155,
+  "explorers": [
+    {
+      "name": "TenetScan Testnet",
+      "url": "https://testnet.tenetscan.io",
+      "icon": "tenet",
+      "standard": "EIP3091"
+    }
+  ]
+}

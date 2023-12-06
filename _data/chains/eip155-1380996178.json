@@ -1,0 +1,25 @@
+{
+  "name": "RaptorChain",
+  "chain": "RPTR",
+  "rpc": ["https://rpc.raptorchain.io/web3"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Raptor",
+    "symbol": "RPTR",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://raptorchain.io",
+  "shortName": "rptr",
+  "chainId": 1380996178,
+  "networkId": 1380996178,
+  "icon": "raptorchain",
+  "explorers": [
+    {
+      "name": "RaptorChain Explorer",
+      "url": "https://explorer.raptorchain.io",
+      "icon": "raptorchain_explorer",
+      "standard": "EIP3091"
+    }
+  ]
+}
