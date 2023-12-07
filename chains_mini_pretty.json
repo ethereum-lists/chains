@@ -10243,6 +10243,19 @@
   "faucets": [],
   "infoURL": "https://omchain.io"
 }, {
+  "name": "BSL Mainnet",
+  "chainId": 21912,
+  "shortName": "onf",
+  "networkId": 21912,
+  "nativeCurrency": {
+    "name": "Origin NFT",
+    "symbol": "ONF",
+    "decimals": 18
+  },
+  "rpc": ["http://rpc-mainnet.nftruth.io:8545", "ws://rpc-mainnet.nftruth.io:8645"],
+  "faucets": [],
+  "infoURL": "https://bsquarelab.com/"
+}, {
   "name": "Taycan",
   "chainId": 22023,
   "shortName": "SFL",
