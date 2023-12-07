@@ -1,0 +1,25 @@
+{
+  "name": "Combo Mainnet",
+  "chain": "Combo",
+  "rpc": [
+    "https://rpc.combonetwork.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BNB Chain Native Token",
+    "symbol": "BNB",
+    "decimals": 18
+  },
+  "infoURL": "https://combonetwork.io",
+  "shortName": "bnb",
+  "chainId": 9980,
+  "networkId": 9980,
+  "icon": "combo",
+  "explorers": [
+    {
+      "name": "combotrace explorer",
+      "url": "https://combotrace.nodereal.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
