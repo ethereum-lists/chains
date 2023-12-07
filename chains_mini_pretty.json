@@ -2534,7 +2534,7 @@
   "faucets": [],
   "infoURL": ""
 }, {
-  "name": "zkSync Era Testnet",
+  "name": "zkSync Era Goerli Testnet (deprecated)",
   "chainId": 280,
   "shortName": "zksync-goerli",
   "networkId": 280,
@@ -2544,8 +2544,8 @@
     "decimals": 18
   },
   "rpc": ["https://testnet.era.zksync.dev"],
-  "faucets": ["https://goerli.portal.zksync.io/faucet"],
-  "infoURL": "https://era.zksync.io/docs/"
+  "faucets": [],
+  "infoURL": "https://zksync.io/"
 }, {
   "name": "Boba Network",
   "chainId": 288,
@@ -2625,18 +2625,18 @@
   "faucets": [],
   "infoURL": "https://hedera.com"
 }, {
-  "name": "(deprecated) Optimism on GC",
+  "name": "zkSync Sepolia Testnet",
   "chainId": 300,
-  "shortName": "ogc",
+  "shortName": "zksync-sepolia",
   "networkId": 300,
   "nativeCurrency": {
-    "name": "xDAI",
-    "symbol": "xDAI",
+    "name": "Ether",
+    "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://sepolia.era.zksync.dev"],
   "faucets": [],
-  "infoURL": "https://docs.gnosischain.com"
+  "infoURL": "https://zksync.io/"
 }, {
   "name": "Bobaopera",
   "chainId": 301,
@@ -2742,7 +2742,7 @@
   "faucets": ["https://faucet-testnet.kcc.network"],
   "infoURL": "https://scan-testnet.kcc.network"
 }, {
-  "name": "zkSync Era Mainnet",
+  "name": "zkSync Mainnet",
   "chainId": 324,
   "shortName": "zksync",
   "networkId": 324,
