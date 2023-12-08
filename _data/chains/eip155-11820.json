@@ -1,0 +1,27 @@
+{
+  "name": "Artela Testnet",
+  "title": "Artela Testnet",
+  "chain": "Artela",
+  "rpc": [
+    "https://testnet-rpc1.artela.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Artela Test Token",
+    "symbol": "ART",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.artela.network/main",
+  "shortName": "testnet-artela",
+  "chainId": 11820,
+  "networkId": 11820,
+  "icon": "artela",
+  "explorers": [
+    {
+      "name": "Artela TestNet Explorer",
+      "url": "https://testnet-scan.artela.network",
+      "icon": "artela",
+      "standard": "EIP3091"
+    }
+  ]
+}
