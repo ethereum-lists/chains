@@ -13402,18 +13402,18 @@
   "faucets": [],
   "infoURL": "besceco.finance"
 }, {
-  "name": "Rethereum Mainnet",
+  "name": "Hypra Mainnet",
   "chainId": 622277,
-  "shortName": "rth",
+  "shortName": "hyp",
   "networkId": 622277,
   "nativeCurrency": {
-    "name": "Rethereum",
-    "symbol": "RTH",
+    "name": "Hypra",
+    "symbol": "HYP",
     "decimals": 18
   },
-  "rpc": ["https://rpc.rethereum.org", "https://rethereum.rpc.restratagem.com", "https://rpc.rthcentral.org"],
+  "rpc": ["https://rpc.hypra.network", "https://rpc.rethereum.org", "https://rethereum.rpc.restratagem.com", "https://rpc.rthcentral.org"],
   "faucets": [],
-  "infoURL": "https://www.rethereum.org"
+  "infoURL": "https://www.hypra.network"
 }, {
   "name": "Bear Network Chain Mainnet",
   "chainId": 641230,
