@@ -10958,6 +10958,19 @@
   "faucets": [],
   "infoURL": "https://docs.boba.network/for-developers/network-avalanche"
 }, {
+  "name": "ZKFair Testnet",
+  "chainId": 43851,
+  "shortName": "ZKFair-Testnet",
+  "networkId": 43851,
+  "nativeCurrency": {
+    "name": "USDC Token",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.zkfair.io"],
+  "faucets": [],
+  "infoURL": "https://zkfair.io"
+}, {
   "name": "Frenchain",
   "chainId": 44444,
   "shortName": "FREN",
