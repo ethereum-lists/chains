@@ -3808,6 +3808,19 @@
   "faucets": [],
   "infoURL": "https://github.com/Qitmeer"
 }, {
+  "name": "Firechain zkEVM",
+  "chainId": 814,
+  "shortName": "firechan-zkEVM",
+  "networkId": 814,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zkevm.thefirechain.com"],
+  "faucets": [],
+  "infoURL": "https://docs.thefirechain.com/"
+}, {
   "name": "BeOne Chain Mainnet",
   "chainId": 818,
   "shortName": "BOC",
@@ -7252,6 +7265,19 @@
   "rpc": ["https://rpc.alveychain.com/rpc", "https://rpc2.alvey.io/rpc"],
   "faucets": [],
   "infoURL": "https://alveyscan.com/rpc"
+}, {
+  "name": "Firechain zkEVM Ghostrider",
+  "chainId": 3885,
+  "shortName": "firechain-zkEVM-ghostrider",
+  "networkId": 3885,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zkevm.ghostrider.thefirechain.com"],
+  "faucets": ["zkevm-faucet.thefirechain.com"],
+  "infoURL": "https://docs.thefirechain.com/"
 }, {
   "name": "KalyChain Mainnet",
   "chainId": 3888,

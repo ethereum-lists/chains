@@ -5929,6 +5929,30 @@
     "standard": "none"
   }]
 }, {
+  "name": "Firechain zkEVM",
+  "title": "Firechain zkEVM",
+  "chain": "Firechain",
+  "rpc": ["https://rpc.zkevm.thefirechain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.thefirechain.com/",
+  "shortName": "firechan-zkEVM",
+  "chainId": 814,
+  "networkId": 814,
+  "icon": "firechain",
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://zkevm.bridge.rpc.thefirechain.com"
+    }]
+  }
+}, {
   "name": "BeOne Chain Mainnet",
   "chain": "BOC",
   "icon": "beonechain",
@@ -11221,6 +11245,22 @@
     "url": "https://alveyscan.com",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Firechain zkEVM Ghostrider",
+  "title": "Firechain zkEVM Ghostrider",
+  "chain": "Firechain",
+  "rpc": ["https://rpc.zkevm.ghostrider.thefirechain.com"],
+  "faucets": ["zkevm-faucet.thefirechain.com"],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.thefirechain.com/",
+  "shortName": "firechain-zkEVM-ghostrider",
+  "chainId": 3885,
+  "networkId": 3885,
+  "explorers": []
 }, {
   "name": "KalyChain Mainnet",
   "chain": "KLC",
