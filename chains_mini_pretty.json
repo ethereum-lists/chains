@@ -6785,7 +6785,7 @@
   "faucets": ["https://explorer.whitebit.network/testnet/faucet"],
   "infoURL": "https://whitebit.com/wbt"
 }, {
-  "name": "Morphism Testnet",
+  "name": "Morph Testnet",
   "chainId": 2710,
   "shortName": "tmorph",
   "networkId": 2710,
@@ -6794,9 +6794,9 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc-testnet.morphism.xyz"],
+  "rpc": ["https://rpc-testnet.morphl2.io"],
   "faucets": [],
-  "infoURL": "https://morphism.xyz"
+  "infoURL": "https://morphl2.io"
 }, {
   "name": "K-LAOS",
   "chainId": 2718,
