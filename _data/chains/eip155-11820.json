@@ -3,7 +3,10 @@
   "title": "Artela Testnet",
   "chain": "Artela",
   "rpc": [
-    "https://testnet-rpc1.artela.network"
+    "https://testnet-rpc1.artela.network",
+    "https://testnet-rpc2.artela.network",
+    "https://testnet-rpc3.artela.network",
+    "https://testnet-rpc4.artela.network"
   ],
   "faucets": [],
   "nativeCurrency": {
