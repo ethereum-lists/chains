@@ -6447,7 +6447,7 @@
 }, {
   "name": "Oort Mainnet",
   "chain": "Oort Mainnet",
-  "rpc": ["https://rpc.oortech.com"],
+  "rpc": ["https://mainnet-rpc.oortech.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Oort",
@@ -6458,7 +6458,13 @@
   "shortName": "ccn",
   "chainId": 970,
   "networkId": 970,
-  "icon": "ccn"
+  "icon": "oort",
+  "explorers": [{
+    "name": "Oort Mainnet Explorer",
+    "url": "https://mainnet-scan.oortech.com",
+    "standard": "none",
+    "icon": "oort"
+  }]
 }, {
   "name": "Oort Huygens",
   "chain": "Huygens",
@@ -6489,7 +6495,13 @@
   "shortName": "Ascraeus",
   "chainId": 972,
   "networkId": 972,
-  "icon": "ccn"
+  "icon": "oort",
+  "explorers": [{
+    "name": "Oort Ascraeus Explorer",
+    "url": "https://ascraeus-scan.oortech.com",
+    "standard": "none",
+    "icon": "oort"
+  }]
 }, {
   "name": "Nepal Blockchain Network",
   "chain": "YETI",
@@ -14233,7 +14245,7 @@
   "name": "Oort MainnetDev",
   "title": "Oort MainnetDev",
   "chain": "MainnetDev",
-  "rpc": [],
+  "rpc": ["https://dev-rpc.oortech.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Oort",
@@ -14244,7 +14256,13 @@
   "shortName": "MainnetDev",
   "chainId": 9700,
   "networkId": 9700,
-  "icon": "ccn"
+  "icon": "oort",
+  "explorers": [{
+    "name": "Oort MainnetDev Scan",
+    "url": "https://dev-scan.oortech.com",
+    "standard": "none",
+    "icon": "oort"
+  }]
 }, {
   "name": "Boba BNB Testnet",
   "chain": "Boba BNB Testnet",
