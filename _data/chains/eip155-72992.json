@@ -2,7 +2,7 @@
   "name": "Grok Chain Mainnet",
   "chain": "Grok",
   "icon": "grokicon",
-  "rpc": ["https://mainnet-rpc.grokchain.dev/"],
+  "rpc": ["https://mainnet-rpc.grokchain.dev"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Groc",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "GrokScan",
-      "url": "https://mainnet-explorer.grokchain.dev/",
+      "url": "https://mainnet-explorer.grokchain.dev",
       "standard": "none"
     }
   ]
