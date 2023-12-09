@@ -1,14 +1,13 @@
 {
   "name": "Cosvm Network",
-  "chain": "cvm",
+  "chain": "CVM",
   "rpc": [
     "https://rpc.cosvm.net",
-    "wss://51.79.231.20:8546"
-  ],
+],
   "faucets": [],
   "nativeCurrency": {
     "name": "Cosvm",
-    "symbol": "cvm",
+    "symbol": "CVM",
     "decimals": 18
   },
   "infoURL": "https://cosvm.network",
