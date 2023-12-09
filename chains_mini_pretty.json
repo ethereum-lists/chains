@@ -6681,6 +6681,32 @@
   "faucets": [],
   "infoURL": "https://xo-dex.com"
 }, {
+  "name": "Hybrid Chain Network Testnet",
+  "chainId": 2458,
+  "shortName": "thrc",
+  "networkId": 2458,
+  "nativeCurrency": {
+    "name": "Hybrid Chain Native Token",
+    "symbol": "tHRC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.hybridchain.ai/"],
+  "faucets": ["https://faucet-testnet.hybridchain.ai"],
+  "infoURL": "https://hybridchain.ai"
+}, {
+  "name": "Hybrid Chain Network Mainnet",
+  "chainId": 2468,
+  "shortName": "hrc",
+  "networkId": 2468,
+  "nativeCurrency": {
+    "name": "Hybrid Chain Native Token",
+    "symbol": "HRC",
+    "decimals": 18
+  },
+  "rpc": ["https://coredata-mainnet.hybridchain.ai/", "https://rpc-mainnet.hybridchain.ai"],
+  "faucets": ["https://faucet-testnet.hybridchain.ai"],
+  "infoURL": "https://hybridchain.ai"
+}, {
   "name": "Unicorn Ultra Nebulas Testnet",
   "chainId": 2484,
   "shortName": "u2u_nebulas",
