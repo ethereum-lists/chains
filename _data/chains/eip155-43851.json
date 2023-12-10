@@ -1,15 +1,16 @@
 {
   "name": "ZKFair Testnet",
+  "title": "ZKFair is the first community ZK-L2 based on Polygon CDK and Celestia DA, powered by Lumoz",
   "chain": "ETH",
   "rpc": ["https://testnet-rpc.zkfair.io"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "USDC Token",
+    "name": "USDC",
     "symbol": "USDC",
     "decimals": 18
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "infoURL": "https://zkfair.io",
+  "infoURL": "https://docs.zkfair.io/",
   "shortName": "ZKFair-Testnet",
   "chainId": 43851,
   "networkId": 43851,
@@ -17,7 +18,7 @@
   "icon": "zkfair",
   "explorers": [
     {
-      "name": "ZKFair Testnet Info",
+      "name": "ZKFair Testnet Explorer",
       "url": "https://testnet-scan.zkfair.io",
       "icon": "zkfair",
       "standard": "EIP3091"
