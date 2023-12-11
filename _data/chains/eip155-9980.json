@@ -1,6 +1,7 @@
 {
   "name": "Combo Mainnet",
   "chain": "Combo",
+  "icon": "combo",
   "rpc": [
     "https://rpc.combonetwork.io"
   ],
@@ -14,7 +15,6 @@
   "shortName": "combo-mainnet",
   "chainId": 9980,
   "networkId": 9980,
-  "icon": "combo",
   "explorers": [
     {
       "name": "combotrace explorer",
