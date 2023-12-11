@@ -1,9 +1,7 @@
 {
   "name": "Lyra Chain",
   "chain": "Lyra",
-  "rpc": [
-    "https://rpc.lyra.finance"
-  ],
+  "rpc": ["https://rpc.lyra.finance"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -16,10 +14,12 @@
   "chainId": 957,
   "networkId": 957,
   "icon": "lyra",
-  "explorers": [{
-    "name": "Lyra Explorer",
-    "url": "https://explorer.lyra.finance",
-    "icon": "lyra",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "Lyra Explorer",
+      "url": "https://explorer.lyra.finance",
+      "icon": "lyra",
+      "standard": "EIP3091"
+    }
+  ]
 }
