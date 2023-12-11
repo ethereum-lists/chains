@@ -1,0 +1,27 @@
+{
+	"name": "Hypr Mainnet",
+	"chain": "HYPR",
+	"rpc": ["https://mainnet-proposer.hypr.network"],
+	"faucets": [],
+	"nativeCurrency": {
+		"name": "Hypr ETH",
+		"symbol": "ETH",
+		"decimals": 8
+	},
+	"infoURL": "https://www.hypr.network",
+	"shortName": "hypr-mainnet",
+	"chainId": 1206,
+	"networkId": 1206,
+	"explorers": [
+		{
+			"name": "Hypr Block Explorer",
+			"url": "https://explorer.hypr.network",
+			"standard": "EIP3091"
+		}
+	],
+	"parent": {
+		"type": "L2",
+		"chain": "eip155-1",
+		"bridges": [{ "url": "https://bridge.hypr.network" }]
+	}
+}
