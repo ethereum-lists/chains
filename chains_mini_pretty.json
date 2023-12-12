@@ -11686,6 +11686,19 @@
   "faucets": [],
   "infoURL": "https://www.nervos.org"
 }, {
+  "name": "Grok Chain Mainnet",
+  "chainId": 72992,
+  "shortName": "GrokChain",
+  "networkId": 72992,
+  "nativeCurrency": {
+    "name": "Groc",
+    "symbol": "GROC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.grokchain.dev"],
+  "faucets": [],
+  "infoURL": "https://grokchain.dev"
+}, {
   "name": "Energy Web Volta Testnet",
   "chainId": 73799,
   "shortName": "vt",
