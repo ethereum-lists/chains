@@ -14399,8 +14399,21 @@
     "symbol": "ATN",
     "decimals": 18
   },
-  "rpc": ["https://rpc1.piccadilly.autonity.org/", "wss://rpc1.piccadilly.autonity.org/ws/"],
+  "rpc": [],
   "faucets": ["https://faucet.autonity.org/"],
+  "infoURL": "https://autonity.org/"
+}, {
+  "name": "Autonity Piccadilly (Barada) Testnet",
+  "chainId": 65100001,
+  "shortName": "piccadilly-01",
+  "networkId": 65100001,
+  "nativeCurrency": {
+    "name": "Piccadilly Auton",
+    "symbol": "ATN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1.piccadilly.autonity.org/", "wss://rpc1.piccadilly.autonity.org/ws/"],
+  "faucets": [],
   "infoURL": "https://autonity.org/"
 }, {
   "name": "Frame Testnet",
