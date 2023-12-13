@@ -14364,6 +14364,32 @@
   "faucets": ["https://aquacha.in/faucet"],
   "infoURL": "https://aquachain.github.io"
 }, {
+  "name": "Autonity Bakerloo (Thames) Testnet",
+  "chainId": 65010000,
+  "shortName": "bakerloo-0",
+  "networkId": 65010000,
+  "nativeCurrency": {
+    "name": "Bakerloo Auton",
+    "symbol": "ATN",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": ["https://faucet.autonity.org/"],
+  "infoURL": "https://autonity.org/"
+}, {
+  "name": "Autonity Bakerloo (Barada) Testnet",
+  "chainId": 65010001,
+  "shortName": "bakerloo-01",
+  "networkId": 65010001,
+  "nativeCurrency": {
+    "name": "Bakerloo Auton",
+    "symbol": "ATN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1.bakerloo.autonity.org/", "wss://rpc1.bakerloo.autonity.org/ws/"],
+  "faucets": ["https://faucet.autonity.org/"],
+  "infoURL": "https://autonity.org/"
+}, {
   "name": "Autonity Piccadilly (Thames) Testnet",
   "chainId": 65100000,
   "shortName": "piccadilly-0",
