@@ -2,7 +2,11 @@
   "name": "Oasys Mainnet",
   "chain": "Oasys",
   "icon": "oasys",
-  "rpc": ["https://rpc.mainnet.oasys.games"],["https://oasys-mainnet.gateway.pokt.network/v1/lb/c967bd31"],[" https://oasys-mainnet-archival.gateway.pokt.network/v1/lb/c967bd31"],
+  "rpc": [
+          "https://rpc.mainnet.oasys.games",
+         "https://oasys-mainnet.gateway.pokt.network/v1/lb/c967bd31",
+         " https://oasys-mainnet-archival.gateway.pokt.network/v1/lb/c967bd31"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OAS",
