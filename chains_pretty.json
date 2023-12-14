@@ -1259,28 +1259,34 @@
   "chainId": 62,
   "networkId": 2
 }, {
-  "name": "Ethereum Classic Testnet Mordor",
+  "name": "Mordor Testnet",
+  "title": "Ethereum Classic Mordor Testnet",
+  "status": "active",
   "chain": "ETC",
   "icon": "ethereumclassictestnet",
-  "rpc": ["https://rpc.mordor.etccooperative.org"],
+  "rpc": ["https://rpc.mordor.etccooperative.org", "https://geth-mordor.etc-network.info"],
   "features": [{
     "name": "EIP155"
   }],
-  "faucets": ["https://mordor.canhaz.net/", "https://easy.hebeswap.com/#/faucet"],
+  "faucets": ["https://easy.hebeswap.com/#/faucet", "https://faucet.mordortest.net"],
   "nativeCurrency": {
-    "name": "Mordor Classic Testnet Ether",
+    "name": "Mordor Ether",
     "symbol": "METC",
     "decimals": 18
   },
-  "infoURL": "https://github.com/eth-classic/mordor/",
+  "infoURL": "https://ethereumclassic.org/development/testnets",
   "shortName": "metc",
   "chainId": 63,
   "networkId": 7,
-  "slip44": 63,
+  "slip44": 1,
   "explorers": [{
-    "name": "blockscout",
-    "url": "https://blockscout.com/etc/mordor",
+    "name": "blockscout-mordor",
+    "url": "https://etc-mordor.blockscout.com",
     "standard": "EIP3091"
+  }, {
+    "name": "etcnetworkinfo-expedition-mordor",
+    "url": "https://explorer-expedition.etc-network.info/?network=Ethereum+Classic+at+etc-network.info+GETH+Mordor",
+    "standard": "none"
   }]
 }, {
   "name": "Ellaism",
@@ -6452,6 +6458,32 @@
   "shortName": "munode",
   "chainId": 956,
   "networkId": 956
+}, {
+  "name": "Lyra Chain",
+  "chain": "Lyra",
+  "rpc": ["https://rpc.lyra.finance"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://lyra.finance",
+  "shortName": "lyra",
+  "chainId": 957,
+  "networkId": 957,
+  "icon": "lyra",
+  "explorers": [{
+    "name": "Lyra Explorer",
+    "url": "https://explorer.lyra.finance",
+    "icon": "lyra",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "BTC20 Smart Chain",
   "chain": "BTC20",
