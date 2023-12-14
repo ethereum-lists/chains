@@ -1,18 +1,20 @@
 {
-  "name": "Autonity Piccadilly (Thames) Testnet",
-  "status": "deprecated",
+  "name": "Autonity Piccadilly (Barada) Testnet",
   "chain": "AUT",
-  "rpc": [],
-  "faucets": ["https://faucet.autonity.org/"],
+  "rpc": [
+    "https://rpc1.piccadilly.autonity.org/",
+    "wss://rpc1.piccadilly.autonity.org/ws/"
+  ],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Piccadilly Auton",
     "symbol": "ATN",
     "decimals": 18
   },
   "infoURL": "https://autonity.org/",
-  "shortName": "piccadilly-0",
-  "chainId": 65100000,
-  "networkId": 65100000,
+  "shortName": "piccadilly-01",
+  "chainId": 65100001,
+  "networkId": 65100001,
   "icon": "autonity",
   "explorers": [
     {
