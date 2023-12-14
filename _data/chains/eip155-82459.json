@@ -1,0 +1,23 @@
+{
+  "name": "Smart Layer Network Testnet",
+  "chain": "SLN",
+  "icon": "sln",
+  "rpc": ["https://rpc.test.smartlayer.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Service Unit Token",
+    "symbol": "SU",
+    "decimals": 18
+  },
+  "infoURL": "https://www.smartlayer.network/",
+  "shortName": "SLN",
+  "chainId": 82459,
+  "networkId": 82459,
+  "explorers": [
+    {
+      "name": "SLN Testnet Explorer",
+      "url": "https://explorer.test.smartlayer.network",
+      "standard": "EIP5169"
+    }
+  ]
+}
