@@ -130,6 +130,7 @@
   "name": "Ethereum Classic Testnet Kotti",
   "status": "deprecated",
   "chain": "ETC",
+  "icon": "ethereumclassictestnet",
   "rpc": ["https://www.ethercluster.com/kotti"],
   "faucets": [],
   "nativeCurrency": {
@@ -1192,6 +1193,7 @@
 }, {
   "name": "Ethereum Classic Mainnet",
   "chain": "ETC",
+  "icon": "ethereumclassic",
   "rpc": ["https://etc.rivet.link", "https://etc.etcdesktop.com", "https://etc.mytokenpocket.vip"],
   "features": [{
     "name": "EIP155"
@@ -1215,6 +1217,7 @@
 }, {
   "name": "Ethereum Classic Testnet Morden",
   "chain": "ETC",
+  "icon": "ethereumclassictestnet",
   "rpc": [],
   "faucets": [],
   "nativeCurrency": {
@@ -1229,6 +1232,7 @@
 }, {
   "name": "Ethereum Classic Testnet Mordor",
   "chain": "ETC",
+  "icon": "ethereumclassictestnet",
   "rpc": ["https://rpc.mordor.etccooperative.org"],
   "features": [{
     "name": "EIP155"
