@@ -1259,34 +1259,28 @@
   "chainId": 62,
   "networkId": 2
 }, {
-  "name": "Mordor Testnet",
-  "title": "Ethereum Classic Mordor Testnet",
-  "status": "active",
+  "name": "Ethereum Classic Testnet Mordor",
   "chain": "ETC",
   "icon": "ethereumclassictestnet",
-  "rpc": ["https://rpc.mordor.etccooperative.org", "https://geth-mordor.etc-network.info"],
+  "rpc": ["https://rpc.mordor.etccooperative.org"],
   "features": [{
     "name": "EIP155"
   }],
-  "faucets": ["https://easy.hebeswap.com/#/faucet", "https://faucet.mordortest.net"],
+  "faucets": ["https://mordor.canhaz.net/", "https://easy.hebeswap.com/#/faucet"],
   "nativeCurrency": {
-    "name": "Mordor Ether",
+    "name": "Mordor Classic Testnet Ether",
     "symbol": "METC",
     "decimals": 18
   },
-  "infoURL": "https://ethereumclassic.org/development/testnets",
+  "infoURL": "https://github.com/eth-classic/mordor/",
   "shortName": "metc",
   "chainId": 63,
   "networkId": 7,
-  "slip44": 1,
+  "slip44": 63,
   "explorers": [{
-    "name": "blockscout-mordor",
-    "url": "https://etc-mordor.blockscout.com",
+    "name": "blockscout",
+    "url": "https://blockscout.com/etc/mordor",
     "standard": "EIP3091"
-  }, {
-    "name": "etcnetworkinfo-expedition-mordor",
-    "url": "https://explorer-expedition.etc-network.info/?network=Ethereum+Classic+at+etc-network.info+GETH+Mordor",
-    "standard": "none"
   }]
 }, {
   "name": "Ellaism",
