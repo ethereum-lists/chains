@@ -1,0 +1,30 @@
+{
+  "name": “Nume”,
+  "title": "Nume”,
+  “Chain”: "Nume”,
+  "rpc": [
+    "https://rpc.numecrypto.com”,
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": “Dai Stablecoin”,
+    "symbol": “DAI”,
+    "decimals": 18
+  },
+  "infoURL": "https://numecrypto.com”,
+  "shortName": “nume”,
+  "chainId": 7100,
+  "networkId": 7100,
+  "icon": “nume”,
+  "explorers": [{
+    "name": “numeexplorer”,
+    "url": "https://explorer.numecrypto.com”,
+    "icon": “nume”
+  }],
+ "parent": {
+   "type" : "L3”,
+   "chain": "eip155-1101",
+   "bridges": [ {"url":"https://bridge.numecrypto.com} ]
+  }
+}
+
