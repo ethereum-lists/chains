@@ -5966,6 +5966,19 @@
   "faucets": ["https://faucet.edexa.com/"],
   "infoURL": "https://edexa.com/"
 }, {
+  "name": "Kyoto Testnet",
+  "chainId": 1998,
+  "shortName": "kyoto-testnet",
+  "networkId": 1998,
+  "nativeCurrency": {
+    "name": "Kyoto",
+    "symbol": "KYOTO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.kyotoprotocol.io:8545"],
+  "faucets": ["https://faucet.kyotoprotocol.io"],
+  "infoURL": "https://kyotoprotocol.io"
+}, {
   "name": "Dogechain Mainnet",
   "chainId": 2000,
   "shortName": "dc",
