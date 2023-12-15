@@ -9879,6 +9879,19 @@
   "faucets": ["https://faucet.avax.network/?subnet=beam", "https://faucet.onbeam.com"],
   "infoURL": "https://www.onbeam.com"
 }, {
+  "name": "Immutable zkEVM",
+  "chainId": 13371,
+  "shortName": "imx",
+  "networkId": 13371,
+  "nativeCurrency": {
+    "name": "IMX",
+    "symbol": "IMX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.immutable.com"],
+  "faucets": ["https://docs.immutable.com/docs/zkEVM/guides/faucet"],
+  "infoURL": "https://www.immutable.com"
+}, {
   "name": "Phoenix Mainnet",
   "chainId": 13381,
   "shortName": "Phoenix",
