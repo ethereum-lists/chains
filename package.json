@@ -1,0 +1,22 @@
+{
+  "name": "chains",
+  "version": "1.0.0",
+  "description": "The source data is in _data/chains. Each chain has its own file with the filename being the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) representation as name and `.json` as extension.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakubartur/chains.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakubartur/chains/issues"
+  },
+  "homepage": "https://github.com/jakubartur/chains#readme",
+  "devDependencies": {
+    "prettier": "^3.1.1"
+  }
+}
