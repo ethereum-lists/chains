@@ -1,0 +1,26 @@
+{
+  "name": "Splendor Mainnet",
+  "chain": "SPL",
+  "rpc": [
+    "https://rpc.splendor.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Splendor",
+    "symbol": "SPL",
+    "decimals": 18
+  },
+  "infoURL": "https://splendor.org",
+  "shortName": "SPL",
+  "chainId": 1118,
+  "networkId": 1118,
+  "icon": "splendor",
+  "explorers": [
+    {
+      "name": "Splendor Explorer",
+      "url": "https://splendorexplorer.com",
+      "icon": "splendor",
+      "standard": "EIP3091"
+    }
+  ]
+}
