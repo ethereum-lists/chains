@@ -12934,6 +12934,19 @@
   "faucets": [],
   "infoURL": "https://www.tafchain.com"
 }, {
+  "name": "CONET Sebolia Testnet",
+  "chainId": 224422,
+  "shortName": "conet-sebolia",
+  "networkId": 224422,
+  "nativeCurrency": {
+    "name": "CONET Sebolia",
+    "symbol": "CONET",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1.conet.network"],
+  "faucets": [],
+  "infoURL": "https://conet.network"
+}, {
   "name": "HashKey Chain Testnet",
   "chainId": 230315,
   "shortName": "hsktest",
