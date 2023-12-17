@@ -5875,6 +5875,19 @@
   "faucets": [],
   "infoURL": "https://1971.network/"
 }, {
+  "name": "RedeCoin",
+  "chainId": 1972,
+  "shortName": "rede",
+  "networkId": 1972,
+  "nativeCurrency": {
+    "name": "RedeCoin",
+    "symbol": "REDEV2",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc2.redecoin.eu"],
+  "faucets": [],
+  "infoURL": "https://www.redecoin.eu"
+}, {
   "name": "ONUS Chain Mainnet",
   "chainId": 1975,
   "shortName": "onus-mainnet",
