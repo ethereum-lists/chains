@@ -3,7 +3,8 @@
   "chain": "Nordek",
   "rpc": ["https://testnet-rpc.nordekscan.com"],
   "faucets": [],
-  "nativeCurrency": "name": "NRK",
+  "nativeCurrency": {
+    "name": "NRK",
     "symbol": "NRK",
     "decimals": 18
   },
