@@ -2,9 +2,7 @@
   "name": "Ultra Pro Mainnet",
   "chain": "ultrapro",
   "icon": "ultrapro",
-  "rpc": [
-    "https://mainnet-rpc.ultraproscan.io"
-  ],
+  "rpc": ["https://mainnet-rpc.ultraproscan.io"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
