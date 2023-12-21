@@ -1,0 +1,28 @@
+{
+    "name": "Geckochain Mainnet",
+    "chain": "GECKO",
+    "rpc": [
+      "https://rpc-mainnet.geckochain.com",
+      "wss://socketgecko-mainnet.geckochain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "GECKO",
+      "symbol": "GECKO",
+      "decimals": 18
+    },
+    "infoURL": "https://geckochain.com",
+    "shortName": "gecko",
+    "chainId": 75555,
+    "networkId": 75555,
+    "icon": "gecko",
+    "explorers": [
+      {
+        "name": "Geckochain Mainnet Explorer",
+        "url": "https://explorer.geckochain.com",
+        "standard": "none",
+        "icon": "gecko"
+      }
+    ]
+  }
+  
