@@ -7539,6 +7539,19 @@
   "faucets": [],
   "infoURL": "https://nahmii.io"
 }, {
+  "name": "Muster Mainnet",
+  "chainId": 4078,
+  "shortName": "muster",
+  "networkId": 4078,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://muster.alt.technology"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Fastex Chain (Bahamut) Oasis Testnet",
   "chainId": 4090,
   "shortName": "Oasis",
