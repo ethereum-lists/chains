@@ -8280,6 +8280,32 @@
   "faucets": [],
   "infoURL": "https://chain.pixie.xyz"
 }, {
+  "name": "Cybria Mainnet",
+  "chainId": 6661,
+  "shortName": "cyba",
+  "networkId": 6661,
+  "nativeCurrency": {
+    "name": "Cybria",
+    "symbol": "CYBA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet.cybria.io"],
+  "faucets": [],
+  "infoURL": "https://cybria.io"
+}, {
+  "name": "Cybria Testnet",
+  "chainId": 6666,
+  "shortName": "tcyba",
+  "networkId": 6666,
+  "nativeCurrency": {
+    "name": "Cybria",
+    "symbol": "CYBA",
+    "decimals": 18
+  },
+  "rpc": ["https://l2-rpc.cybascan.io"],
+  "faucets": ["https://faucet.cybascan.io"],
+  "infoURL": "https://cybria.io"
+}, {
   "name": "IRIShub",
   "chainId": 6688,
   "shortName": "iris",
