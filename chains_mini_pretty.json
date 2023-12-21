@@ -10971,6 +10971,19 @@
   "faucets": [],
   "infoURL": "https://docs.oasis.io/dapp/emerald"
 }, {
+  "name": "ZKFair Mainnet",
+  "chainId": 42766,
+  "shortName": "ZKFair-Mainnet",
+  "networkId": 42766,
+  "nativeCurrency": {
+    "name": "USDC Token",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zkfair.io"],
+  "faucets": [],
+  "infoURL": "https://zkfair.io"
+}, {
   "name": "Gesoten Verse Testnet",
   "chainId": 42801,
   "shortName": "GST",
