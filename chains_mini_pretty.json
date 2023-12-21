@@ -2378,6 +2378,19 @@
   "faucets": ["https://faucet.deamchain.com"],
   "infoURL": "https://deamchain.com"
 }, {
+  "name": "Blast Mainnet",
+  "chainId": 238,
+  "shortName": "blast",
+  "networkId": 238,
+  "nativeCurrency": {
+    "name": "Blast",
+    "symbol": "BLAST",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.blastblockchain.com"],
+  "faucets": [],
+  "infoURL": "https://docs.blastblockchain.com"
+}, {
   "name": "Plinga Mainnet",
   "chainId": 242,
   "shortName": "plgchain",
@@ -10515,6 +10528,19 @@
   "rpc": ["https://testnet.sapphire.oasis.dev", "wss://testnet.sapphire.oasis.dev/ws"],
   "faucets": [],
   "infoURL": "https://docs.oasis.io/dapp/sapphire"
+}, {
+  "name": "Blast Testnet",
+  "chainId": 23888,
+  "shortName": "blastT",
+  "networkId": 23888,
+  "nativeCurrency": {
+    "name": "Blast",
+    "symbol": "BLAST",
+    "decimals": 18
+  },
+  "rpc": ["http://testnet-rpc.blastblockchain.com"],
+  "faucets": [],
+  "infoURL": "https://docs.blastblockchain.com"
 }, {
   "name": "Webchain",
   "chainId": 24484,
