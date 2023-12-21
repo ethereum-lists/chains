@@ -2300,6 +2300,19 @@
   "faucets": [],
   "infoURL": "https://www.soterone.com"
 }, {
+  "name": "Scalind Testnet",
+  "chainId": 220,
+  "shortName": "sepscal",
+  "networkId": 220,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-sepolia.scalind.com"],
+  "faucets": ["https://faucet.scalind.com"],
+  "infoURL": "https://scalind.com"
+}, {
   "name": "Permission",
   "chainId": 222,
   "shortName": "ASK",
@@ -5783,6 +5796,19 @@
   "rpc": ["https://marklechain-rpc.merklescan.com"],
   "faucets": [],
   "infoURL": "https://merklescan.com"
+}, {
+  "name": "Scalind",
+  "chainId": 1911,
+  "shortName": "scal",
+  "networkId": 1911,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.scalind.com"],
+  "faucets": [],
+  "infoURL": "https://scalind.com"
 }, {
   "name": "ONUS Chain Testnet",
   "chainId": 1945,
