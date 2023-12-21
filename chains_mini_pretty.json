@@ -8436,6 +8436,19 @@
   "faucets": [],
   "infoURL": "https://planq.network"
 }, {
+  "name": "Nume",
+  "chainId": 7100,
+  "shortName": "nume",
+  "networkId": 7100,
+  "nativeCurrency": {
+    "name": "Dai Stablecoin",
+    "symbol": "DAI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.numecrypto.com"],
+  "faucets": [],
+  "infoURL": "https://numecrypto.com"
+}, {
   "name": "Bitrock Mainnet",
   "chainId": 7171,
   "shortName": "bitrock",
