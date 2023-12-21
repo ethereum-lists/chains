@@ -4757,7 +4757,7 @@
   "faucets": [],
   "infoURL": "https://meta.defichain.com/"
 }, {
-  "name": "DeFiMetaChain",
+  "name": "DeFiMetaChain Changi Testnet",
   "chainId": 1133,
   "shortName": "changi",
   "networkId": 1133,
@@ -4766,9 +4766,9 @@
     "symbol": "DFI",
     "decimals": 18
   },
-  "rpc": ["https://testnet-dmc.mydefichain.com:20551"],
+  "rpc": ["https://dmc.mydefichain.com/changi", "https://testnet-dmc.mydefichain.com:20551"],
   "faucets": ["http://tc04.mydefichain.com/faucet"],
-  "infoURL": "https://defichain.com"
+  "infoURL": "https://meta.defichain.com"
 }, {
   "name": "AmStar Testnet",
   "chainId": 1138,
