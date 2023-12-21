@@ -1,5 +1,5 @@
 {
-  "name": "Compverse - Mainnet",
+  "name": "Compverse Mainnet",
   "chain": "CPV",
   "icon": "compverse",
   "rpc": [
@@ -19,9 +19,9 @@
   "slip44": 7779,
   "explorers": [
     {
-      "name": "CompverseScan",
+      "name": "cpvscan",
       "url": "https://scan.compverse.io",
-      "standard": "none"
+      "standard": "EIP3091"
     }
   ]
 }
