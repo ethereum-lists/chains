@@ -1,0 +1,36 @@
+{
+  "name": "ETPOS Testnet",
+  "chain": "ETPOS",
+  "rpc": [
+    "https://rpc.etposchain.com"
+  ],
+  "faucets": [
+    "https://faucet.etposchain.com"
+  ],
+  "nativeCurrency": {
+    "name": "Etherpos",
+    "symbol": "ETPOS",
+    "decimals": 18
+  },
+  "features": [
+    { 
+      "name": "EIP155"
+    },
+    { 
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://etposchain.com",
+  "shortName": "etpos",
+  "chainId": 6660,
+  "networkId": 6660,
+  "icon": "etherpos",
+  "explorers": [
+    {
+      "name": "ETPOS Testnet",
+      "url": "https://explorer.etposchain.com",
+      "icon": "etherpos",
+      "standard": "EIP3091"
+    }
+  ]
+}
