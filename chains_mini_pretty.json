@@ -1663,6 +1663,19 @@
   "faucets": [],
   "infoURL": "https://www.hecochain.com"
 }, {
+  "name": "Engram Testnet",
+  "chainId": 131,
+  "shortName": "tgram",
+  "networkId": 131,
+  "nativeCurrency": {
+    "name": "Engram Tokio Testnet",
+    "symbol": "tGRAM",
+    "decimals": 18
+  },
+  "rpc": ["https://tokioswift.engram.tech", "https://tokio-archive.engram.tech"],
+  "faucets": [],
+  "infoURL": "https://engramnet.io"
+}, {
   "name": "iExec Sidechain",
   "chainId": 134,
   "shortName": "rlc",
