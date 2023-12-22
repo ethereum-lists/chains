@@ -3,7 +3,9 @@
   "chain": "MOON",
   "rpc": [
     "https://rpc.api.moonriver.moonbeam.network",
-    "wss://wss.api.moonriver.moonbeam.network"
+    "wss://wss.api.moonriver.moonbeam.network",
+    "https://moonriver.publicnode.com",
+    "wss://moonriver.publicnode.com"
   ],
   "faucets": [],
   "nativeCurrency": {

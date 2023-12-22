@@ -13,7 +13,8 @@
     "https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}",
     "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
     "https://arb1.arbitrum.io/rpc",
-    "https://arbitrum-one.publicnode.com"
+    "https://arbitrum-one.publicnode.com",
+    "wss://arbitrum-one.publicnode.com"
   ],
   "faucets": [],
   "explorers": [
@@ -25,6 +26,12 @@
     {
       "name": "Arbitrum Explorer",
       "url": "https://explorer.arbitrum.io",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://arbitrum.dex.guru",
+      "icon": "dexguru",
       "standard": "EIP3091"
     }
   ],

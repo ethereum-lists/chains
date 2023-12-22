@@ -7,7 +7,17 @@
     "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
     "https://api.mycryptoapi.com/eth",
     "https://cloudflare-eth.com",
-    "https://ethereum.publicnode.com"
+    "https://ethereum.publicnode.com",
+    "wss://ethereum.publicnode.com",
+    "https://mainnet.gateway.tenderly.co",
+    "wss://mainnet.gateway.tenderly.co",
+    "https://rpc.blocknative.com/boost",
+    "https://rpc.flashbots.net",
+    "https://rpc.flashbots.net/fast",
+    "https://rpc.mevblocker.io",
+    "https://rpc.mevblocker.io/fast",
+    "https://rpc.mevblocker.io/noreverts",
+    "https://rpc.mevblocker.io/fullprivacy"
   ],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
@@ -34,6 +44,12 @@
       "name": "blockscout",
       "url": "https://eth.blockscout.com",
       "icon": "blockscout",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://ethereum.dex.guru",
+      "icon": "dexguru",
       "standard": "EIP3091"
     }
   ]
