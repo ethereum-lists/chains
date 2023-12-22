@@ -1,0 +1,23 @@
+{
+  "name": "Areon Network Mainnet",
+  "chain": "Areon",
+  "icon": "areon",
+  "rpc": ["https://mainnet-rpc.areon.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Areon",
+    "symbol": "AREA",
+    "decimals": 18
+  },
+  "infoURL": "https://areon.network",
+  "shortName": "area",
+  "chainId": 463,
+  "networkId": 463,
+  "explorers": [
+    {
+      "name": "AreonScan",
+      "url": "https://areonscan.com",
+      "standard": "none"
+    }
+  ]
+}
