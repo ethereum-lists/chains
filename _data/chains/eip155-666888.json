@@ -1,0 +1,24 @@
+{
+  "name": "Hela Official Runtime Testnet",
+  "chain": "Hela",
+  "icon": "hela",
+  "rpc": ["https://testnet-rpc.helachain.com"],
+  "faucets": ["https://testnet-faucet.helachain.com"],
+  "nativeCurrency": {
+    "name": "Hela HLUSD",
+    "symbol": "HLUSD",
+    "decimals": 18
+  },
+  "infoURL": "https://helalabs.com",
+  "shortName": "hela-testnet",
+  "chainId": 666888,
+  "networkId": 666888,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Hela Official Runtime Testnet Explorer",
+      "url": "https://testnet-blockexplorer.helachain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

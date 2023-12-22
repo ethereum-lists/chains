@@ -1,9 +1,12 @@
 {
-  "name": "Horizen EON",
+  "name": "Horizen EON Mainnet",
   "shortName": "EON",
   "chain": "EON",
   "icon": "eon",
-  "rpc": ["https://eon-rpc.horizenlabs.io/ethv1"],
+  "rpc": [
+    "https://eon-rpc.horizenlabs.io/ethv1",
+    "https://rpc.ankr.com/horizen_eon"
+  ],
   "features": [
     {
       "name": "EIP155"

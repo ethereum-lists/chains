@@ -5,6 +5,8 @@
   "rpc": [
     "https://rpc-msc.mindchain.info/",
     "https://seednode.mindchain.info",
+    "https://archive.mindchain.info/",
+    "wss://archive.mindchain.info/ws",
     "wss://seednode.mindchain.info/ws"
   ],
   "faucets": [],
@@ -13,7 +15,7 @@
     "symbol": "MIND",
     "decimals": 18
   },
-  "infoURL": "https://mindscan.info",
+  "infoURL": "https://mindchain.info",
   "shortName": "MIND",
   "chainId": 9996,
   "networkId": 9996,

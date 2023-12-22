@@ -4,8 +4,8 @@
   "chain": "Gobi",
   "icon": "eon",
   "rpc": [
-    "https://gobi-testnet.horizenlabs.io/ethv1",
-    "https://rpc.ankr.com/horizen_testnet_evm"
+    "https://gobi-rpc.horizenlabs.io/ethv1",
+    "https://rpc.ankr.com/horizen_gobi_testnet"
   ],
   "features": [
     {
@@ -24,7 +24,7 @@
   "infoURL": "https://horizen.io/",
   "chainId": 1663,
   "networkId": 1663,
-  "slip44": 121,
+  "slip44": 1,
   "explorers": [
     {
       "name": "Gobi Testnet Block Explorer",

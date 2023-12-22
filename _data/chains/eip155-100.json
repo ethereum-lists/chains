@@ -11,7 +11,10 @@
     "https://gnosis.api.onfinality.io/public",
     "https://gnosis.blockpi.network/v1/rpc/public",
     "https://web3endpoints.com/gnosischain-mainnet",
-    "wss://rpc.gnosischain.com/wss"
+    "https://gnosis.oat.farm",
+    "wss://rpc.gnosischain.com/wss",
+    "https://gnosis.publicnode.com",
+    "wss://gnosis.publicnode.com"
   ],
   "faucets": [
     "https://gnosisfaucet.com",
@@ -38,6 +41,12 @@
       "name": "blockscout",
       "url": "https://gnosis.blockscout.com",
       "icon": "blockscout",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://gnosis.dex.guru",
+      "icon": "dexguru",
       "standard": "EIP3091"
     }
   ]

@@ -5,14 +5,15 @@
   "rpc": [],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Q",
-    "symbol": "Q",
+    "name": "QARE",
+    "symbol": "QARE",
     "decimals": 18
   },
   "infoURL": "",
   "shortName": "quarix-testnet",
   "chainId": 8888881,
   "networkId": 8888881,
+  "slip44": 1,
   "icon": "quarix",
   "explorers": []
 }

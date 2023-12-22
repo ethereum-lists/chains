@@ -1,0 +1,25 @@
+{
+  "name": "Janus Testnet",
+  "chain": "JanusNetwork",
+  "icon": "janusnetwork",
+  "rpc": ["https://rpc.test.janusnetwork.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Janus",
+    "symbol": "JNS",
+    "decimals": 18
+  },
+  "infoURL": "https://janus-network.gitbook.io/janus",
+  "shortName": "janusnetwork-testnet",
+  "chainId": 66988,
+  "networkId": 66988,
+  "slip44": 1,
+  "status": "active",
+  "explorers": [
+    {
+      "name": "JanusNetwork Testnet Explorer",
+      "url": "https://beta.scan.janusnetwork.io",
+      "standard": "none"
+    }
+  ]
+}

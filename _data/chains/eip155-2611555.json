@@ -1,0 +1,15 @@
+{
+  "name": "DPU Chain",
+  "chain": "DPU",
+  "rpc": ["https://sc-rpc.dpu.ac.th"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DGC",
+    "symbol": "DGC",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "DPU",
+  "chainId": 2611555,
+  "networkId": 2611555
+}

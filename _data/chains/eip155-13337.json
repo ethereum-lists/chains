@@ -1,18 +1,26 @@
 {
   "name": "Beam Testnet",
   "chain": "BEAM",
-  "rpc": ["https://subnets.avax.network/beam/testnet/rpc"],
+  "rpc": [
+    "https://subnets.avax.network/beam/testnet/rpc",
+    "wss://subnets.avax.network/beam/testnet/ws"
+  ],
   "features": [{ "name": "EIP1559" }],
-  "faucets": [],
+  "faucets": [
+    "https://faucet.avax.network/?subnet=beam",
+    "https://faucet.onbeam.com"
+  ],
   "nativeCurrency": {
-    "name": "Merit Circle",
-    "symbol": "MC",
+    "name": "Beam",
+    "symbol": "BEAM",
     "decimals": 18
   },
-  "infoURL": "https://gaming.meritcircle.io",
-  "shortName": "BEAM",
+  "infoURL": "https://www.onbeam.com",
+  "shortName": "beam-testnet",
+  "icon": "beam",
   "chainId": 13337,
   "networkId": 13337,
+  "slip44": 1,
   "explorers": [
     {
       "name": "Beam Explorer",
