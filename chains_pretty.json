@@ -3686,13 +3686,13 @@
   }]
 }, {
   "name": "Blast Mainnet",
-  "chain": "BLAST",
+  "chain": "ETH",
   "icon": "blastIcon",
   "rpc": ["https://rpc.blastblockchain.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Blast",
-    "symbol": "BLAST",
+    "name": "Ether",
+    "symbol": "ETH",
     "decimals": 18
   },
   "infoURL": "https://docs.blastblockchain.com",
@@ -16798,13 +16798,13 @@
   }]
 }, {
   "name": "Blast Testnet",
-  "chain": "BLAST",
+  "chain": "ETH",
   "icon": "blastIcon",
   "rpc": ["http://testnet-rpc.blastblockchain.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Blast",
-    "symbol": "BLAST",
+    "name": "Ether",
+    "symbol": "ETH",
     "decimals": 18
   },
   "infoURL": "https://docs.blastblockchain.com",
