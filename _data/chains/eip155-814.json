@@ -10,11 +10,17 @@
     "decimals": 18
   },
   "infoURL": "https://docs.thefirechain.com/",
-  "shortName": "firechan-zkEVM",
+  "shortName": "firechain-zkEVM",
   "chainId": 814,
   "networkId": 814,
   "icon": "firechain",
-  "explorers": [],
+  "explorers": [
+    {
+      "name": "firescan-zkevm",
+      "url": "https://zkevm.firescan.io",
+      "standard": "EIP3091"
+    }
+  ],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
@@ -23,5 +29,6 @@
         "url": "https://zkevm.bridge.rpc.thefirechain.com"
       }
     ]
-  }
+  },
+  "status": "incubating"
 }

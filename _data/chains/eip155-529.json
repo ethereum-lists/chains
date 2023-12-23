@@ -1,6 +1,6 @@
 {
-  "name": "Firechain Mainnet",
-  "chain": "FIRE",
+  "name": "Firechain",
+  "chain": "firechain",
   "icon": "firechain",
   "rpc": ["https://mainnet.rpc1.thefirechain.com"],
   "faucets": [],
@@ -9,6 +9,12 @@
   "shortName": "fire",
   "chainId": 529,
   "networkId": 529,
-  "explorers": [],
+  "explorers": [
+    {
+      "name": "firescan",
+      "url": "https://firescan.io",
+      "standard": "EIP3091"
+    }
+  ],
   "status": "incubating"
 }
