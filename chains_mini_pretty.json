@@ -5741,7 +5741,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://replicator-01.phoenix.lightlink.io/rpc/v1", "https://replicator-02.phoenix.lightlink.io/rpc/v1"],
+  "rpc": ["https://replicator.phoenix.lightlink.io/rpc/v1"],
   "faucets": [],
   "infoURL": "https://lightlink.io"
 }, {
@@ -5754,8 +5754,8 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://replicator-01.pegasus.lightlink.io/rpc/v1", "https://replicator-02.pegasus.lightlink.io/rpc/v1"],
-  "faucets": ["https://pegasus-faucet-react.vercel.app"],
+  "rpc": ["https://replicator.pegasus.lightlink.io/rpc/v1"],
+  "faucets": ["https://faucet.pegasus.lightlink.io/"],
   "infoURL": "https://lightlink.io"
 }, {
   "name": "BON Network",
