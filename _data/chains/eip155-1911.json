@@ -1,0 +1,23 @@
+{
+  "name": "Scalind",
+  "chain": "ETH",
+  "icon": "scalind",
+  "rpc": ["https://rpc.scalind.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://scalind.com",
+  "shortName": "scal",
+  "chainId": 1911,
+  "networkId": 1911,
+  "explorers": [
+    {
+      "name": "scalind",
+      "url": "https://explorer.scalind.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
