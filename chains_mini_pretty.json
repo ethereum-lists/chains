@@ -13545,6 +13545,19 @@
   "faucets": [],
   "infoURL": "https://patex.io/"
 }, {
+  "name": "Ultra Pro Mainnet",
+  "chainId": 473861,
+  "shortName": "ultrapro",
+  "networkId": 473861,
+  "nativeCurrency": {
+    "name": "Ultra Pro",
+    "symbol": "UPRO",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.ultraproscan.io"],
+  "faucets": [],
+  "infoURL": "https://ultrapro.info"
+}, {
   "name": "OpenChain Mainnet",
   "chainId": 474142,
   "shortName": "oc",
