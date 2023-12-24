@@ -13077,6 +13077,19 @@
   "faucets": [],
   "infoURL": "https://conet.network"
 }, {
+  "name": "CONET Holesky",
+  "chainId": 224433,
+  "shortName": "conet-holesky",
+  "networkId": 224433,
+  "nativeCurrency": {
+    "name": "CONET Holesky",
+    "symbol": "CONET",
+    "decimals": 18
+  },
+  "rpc": ["https://holeskyrpc1.conet.network"],
+  "faucets": [],
+  "infoURL": "https://conet.network"
+}, {
   "name": "HashKey Chain Testnet",
   "chainId": 230315,
   "shortName": "hsktest",
