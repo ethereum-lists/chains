@@ -1,0 +1,15 @@
+{
+  "name": "LOVH Mainnet",
+  "chain": "LOVH",
+  "icon": "LOVH",
+  "rpc": [
+    "http://35.229.174.76:8888",
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LOVH",
+    "symbol": "LOVH",
+    "decimals": 18
+  },
+  "explorers": []
+}
