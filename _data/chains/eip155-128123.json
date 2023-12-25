@@ -15,9 +15,9 @@
   "faucets": ["https://faucet.etherlink.com/"],
   "explorers": [
     {
-      "name": "EtherScout Testnet Explorer",
-      "url": "https://explorer.etherlink.com",
-      "standard": "EIP1559"
+      "name": "Etherlink Testnet Explorer",
+      "url": "https://etherlink-testnet.blockscout.com/",
+      "standard": "EIP3091"
     }
   ]
 }
