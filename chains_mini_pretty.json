@@ -14325,6 +14325,19 @@
   "faucets": [],
   "infoURL": "https://plian.org"
 }, {
+  "name": "Hokum",
+  "chainId": 8080808,
+  "shortName": "hokum",
+  "networkId": 8080808,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.hokum.gg"],
+  "faucets": [],
+  "infoURL": "https://hokum.gg"
+}, {
   "name": "HAPchain",
   "chainId": 8794598,
   "shortName": "hap",
@@ -14532,6 +14545,19 @@
   "rpc": ["https://pegorpc.com", "https://node1.pegorpc.com", "https://node2.pegorpc.com", "https://node3.pegorpc.com"],
   "faucets": [],
   "infoURL": "https://pego.network"
+}, {
+  "name": "Hokum Testnet",
+  "chainId": 20482050,
+  "shortName": "hokum-testnet",
+  "networkId": 20482050,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.hokum.gg"],
+  "faucets": [],
+  "infoURL": "https://hokum.gg"
 }, {
   "name": "Excelon Mainnet",
   "chainId": 22052002,
