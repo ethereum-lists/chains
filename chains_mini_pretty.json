@@ -8371,6 +8371,19 @@
   "faucets": [],
   "infoURL": "https://www.irisnet.org"
 }, {
+  "name": "Compverse Mainnet",
+  "chainId": 6779,
+  "shortName": "compverse",
+  "networkId": 6779,
+  "nativeCurrency": {
+    "name": "compverse",
+    "symbol": "CPV",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.compverse.io/", "https://rpc-useast1.compverse.io/"],
+  "faucets": [],
+  "infoURL": "https://compverse.io"
+}, {
   "name": "Gold Smart Chain Mainnet",
   "chainId": 6789,
   "shortName": "STANDm",
