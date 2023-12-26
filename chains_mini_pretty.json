@@ -8319,6 +8319,19 @@
   "faucets": [],
   "infoURL": "https://chain.pixie.xyz"
 }, {
+  "name": "Latest Chain Testnet",
+  "chainId": 6660,
+  "shortName": "LATESTt",
+  "networkId": 6660,
+  "nativeCurrency": {
+    "name": "Latest",
+    "symbol": "LATEST",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.latestcoin.io"],
+  "faucets": ["http://faucet.latestchain.io"],
+  "infoURL": "https://latestcoin.io"
+}, {
   "name": "Cybria Mainnet",
   "chainId": 6661,
   "shortName": "cyba",
