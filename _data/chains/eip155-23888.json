@@ -1,12 +1,12 @@
 {
   "name": "Blast Testnet",
-  "chain": "ETH",
+  "chain": "BLAST",
   "icon": "blastIcon",
   "rpc": ["http://testnet-rpc.blastblockchain.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
+    "name": "Blast",
+    "symbol": "BLAST",
     "decimals": 18
   },
   "infoURL": "https://docs.blastblockchain.com",
