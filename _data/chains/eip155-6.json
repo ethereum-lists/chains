@@ -1,15 +1,19 @@
 {
-  "name": "Ethereum Classic Testnet Kotti",
+  "name": "Kotti Testnet",
+  "title": "Ethereum Classic Kotti Testnet",
+  "status": "deprecated",
   "chain": "ETC",
-  "rpc": ["https://www.ethercluster.com/kotti"],
+  "icon": "ethereumclassictestnet",
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Kotti Ether",
     "symbol": "KOT",
     "decimals": 18
   },
-  "infoURL": "https://explorer.jade.builders/?network=kotti",
+  "infoURL": "https://ethereumclassic.org/development/testnets",
   "shortName": "kot",
   "chainId": 6,
-  "networkId": 6
+  "networkId": 6,
+  "slip44": 1
 }

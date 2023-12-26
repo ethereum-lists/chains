@@ -1,10 +1,11 @@
 {
   "name": "LaChain",
   "chain": "LaChain",
-  "icon": "LaChain",
+  "icon": "lachain-network",
   "rpc": [
     "https://rpc1.mainnet.lachain.network",
-    "https://rpc2.mainnet.lachain.network"
+    "https://rpc2.mainnet.lachain.network",
+    "https://lachain.rpc-nodes.cedalio.dev"
   ],
   "faucets": [],
   "nativeCurrency": {
