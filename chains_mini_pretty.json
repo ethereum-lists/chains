@@ -9489,6 +9489,19 @@
   "faucets": ["https://faucet.mindchain.info/"],
   "infoURL": "https://mindchain.info"
 }, {
+  "name": "Combo Mainnet",
+  "chainId": 9980,
+  "shortName": "combo-mainnet",
+  "networkId": 9980,
+  "nativeCurrency": {
+    "name": "BNB Chain Native Token",
+    "symbol": "BNB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.combonetwork.io"],
+  "faucets": [],
+  "infoURL": "https://combonetwork.io"
+}, {
   "name": "Agung Network",
   "chainId": 9990,
   "shortName": "AGNG",
