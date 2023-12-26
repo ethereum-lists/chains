@@ -4,7 +4,8 @@
   "icon": "etherlink",
   "chainId": 128123,
   "networkId": 128123,
-  "infoURL": "https://docs.etherlink.com",
+  "features": [{ "name": "EIP1559" }],
+  "infoURL": "https://etherlink.com",
   "shortName": "etherlink-testnet",
   "nativeCurrency": {
     "name": "tez",
@@ -16,7 +17,7 @@
   "explorers": [
     {
       "name": "Etherlink Testnet Explorer",
-      "url": "https://etherlink-testnet.blockscout.com/",
+      "url": "https://testnet-explorer.etherlink.com/",
       "standard": "EIP3091"
     }
   ]
