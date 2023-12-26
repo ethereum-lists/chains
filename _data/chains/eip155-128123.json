@@ -1,10 +1,11 @@
 {
   "name": "Etherlink Testnet",
-  "chain": "XTZ",
+  "chain": "Etherlink",
   "icon": "etherlink",
   "chainId": 128123,
   "networkId": 128123,
-  "infoURL": "https://docs.etherlink.com",
+  "features": [{ "name": "EIP1559" }],
+  "infoURL": "https://etherlink.com",
   "shortName": "etherlink-testnet",
   "nativeCurrency": {
     "name": "tez",
@@ -15,9 +16,9 @@
   "faucets": ["https://faucet.etherlink.com/"],
   "explorers": [
     {
-      "name": "EtherScout Testnet Explorer",
-      "url": "https://explorer.etherlink.com",
-      "standard": "EIP1559"
+      "name": "Etherlink Testnet Explorer",
+      "url": "https://testnet-explorer.etherlink.com/",
+      "standard": "EIP3091"
     }
   ]
 }
