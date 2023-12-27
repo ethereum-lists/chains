@@ -14061,6 +14061,21 @@
   "networkId": 8086,
   "explorers": []
 }, {
+  "name": "E-Dollar",
+  "chain": "USD",
+  "rpc": ["https://rpc.e-dollar.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "E-Dollar",
+    "symbol": "USD",
+    "decimals": 18
+  },
+  "infoURL": "https://e-dollar.org",
+  "shortName": "E-Dollar",
+  "chainId": 8087,
+  "networkId": 8087,
+  "explorers": []
+}, {
   "name": "StreamuX Blockchain",
   "chain": "StreamuX",
   "rpc": ["https://u0ma6t6heb:KDNwOsRDGcyM2Oeui1p431Bteb4rvcWkuPgQNHwB4FM@u0xy4x6x82-u0e2mg517m-rpc.us0-aws.kaleido.io/"],

@@ -8813,6 +8813,19 @@
   "faucets": [],
   "infoURL": "https://biteth.org"
 }, {
+  "name": "E-Dollar",
+  "chainId": 8087,
+  "shortName": "E-Dollar",
+  "networkId": 8087,
+  "nativeCurrency": {
+    "name": "E-Dollar",
+    "symbol": "USD",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.e-dollar.org"],
+  "faucets": [],
+  "infoURL": "https://e-dollar.org"
+}, {
   "name": "StreamuX Blockchain",
   "chainId": 8098,
   "shortName": "StreamuX",
