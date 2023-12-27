@@ -1,0 +1,26 @@
+{
+  "name": "ChromeScan Mainnet",
+  "chain": "ChromeScan",
+  "icon": "chrome",
+  "rpc": [
+    "https://rpc1.chromescan.org",
+    "https://rpc2.chromescan.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ChromeScan Mainnet",
+    "symbol": "CSC",
+    "decimals": 18
+  },
+  "infoURL": "https://chromescannetwork.org",
+  "shortName": "CSC",
+  "chainId": 8998,
+  "networkId": 8998,
+  "explorers": [
+    {
+      "name": "ChromeScan Explorer",
+      "url": "https://mainet.chromescan.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
