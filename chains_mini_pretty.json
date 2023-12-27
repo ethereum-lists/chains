@@ -12362,6 +12362,19 @@
   "faucets": ["https://faucet.eclipse.builders"],
   "infoURL": "https://docs.nautchain.xyz"
 }, {
+  "name": "Combo Testnet",
+  "chainId": 91715,
+  "shortName": "combo-testnet",
+  "networkId": 91715,
+  "nativeCurrency": {
+    "name": "BNB Chain Native Token",
+    "symbol": "tcBNB",
+    "decimals": 18
+  },
+  "rpc": ["https://test-rpc.combonetwork.io"],
+  "faucets": [],
+  "infoURL": "https://combonetwork.io"
+}, {
   "name": "Lambda Testnet",
   "chainId": 92001,
   "shortName": "lambda-testnet",
