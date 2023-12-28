@@ -3418,18 +3418,18 @@
   "faucets": [],
   "infoURL": ""
 }, {
-  "name": "PEER Testnet",
+  "name": "Vine Testnet",
   "chainId": 601,
-  "shortName": "PEER",
+  "shortName": "VINE",
   "networkId": 601,
   "nativeCurrency": {
-    "name": "PEER Token",
-    "symbol": "PEER",
+    "name": "VINE",
+    "symbol": "VNE",
     "decimals": 18
   },
-  "rpc": ["https://rpc-testnet.peer.inc"],
-  "faucets": ["https://testnet.peer.inc"],
-  "infoURL": "https://peer.inc"
+  "rpc": ["https://rpc-testnet.vne.network"],
+  "faucets": ["https://vne.network/rose"],
+  "infoURL": "https://www.peer.inc"
 }, {
   "name": "Graphlinq Blockchain Mainnet",
   "chainId": 614,
