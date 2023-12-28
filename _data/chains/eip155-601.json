@@ -2,7 +2,7 @@
   "name": "Vine Testnet",
   "chain": "VINE",
   "rpc": ["https://rpc-testnet.vne.network"],
-  "faucets": ["https://vne.network/rose/"],
+  "faucets": ["https://vne.network/rose"],
   "nativeCurrency": {
     "name": "VINE",
     "symbol": "VNE",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "Vine Explorer",
-      "url": "https://vne.network/rose/",
+      "url": "https://vne.network/rose",
       "standard": "none",
       "icon": "vine"
     }
