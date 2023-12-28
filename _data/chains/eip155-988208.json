@@ -1,0 +1,23 @@
+{
+  "name": "Fantum Opera Mainnet",
+  "chain": "Fantum Opera",
+  "rpc": ["http://35.170.176.191:8545/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Fantom",
+    "symbol": "FTM",
+    "decimals": 18
+  },
+  "infoURL": "https://investrator.com/",
+  "shortName": "ftm",
+  "chainId": 988208,
+  "networkId": 988208,
+  "icon": "fantom",
+  "explorers": [
+    {
+      "name": "Fantum Chain Explorer",
+      "url": "https://ftm-scan.investrator.com/",
+      "standard": "EIP3091"
+    }
+  ]
+}
