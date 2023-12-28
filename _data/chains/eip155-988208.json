@@ -1,7 +1,7 @@
 {
   "name": "Fantum Opera Mainnet",
   "chain": "Fantum Opera",
-  "rpc": ["http://35.170.176.191:8545/"],
+  "rpc": ["https://ftm-prc.investrator.com/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Fantom",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "Fantum Chain Explorer",
-      "url": "https://ftm-scan.investrator.com/",
+      "url": "https://ftm-scan.investrator.com",
       "standard": "EIP3091"
     }
   ]
