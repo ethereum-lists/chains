@@ -13,11 +13,11 @@
     "decimals": 18
   },
   "rpc": ["https://node.ghostnet.etherlink.com"],
-  "faucets": ["https://faucet.etherlink.com/"],
+  "faucets": ["https://faucet.etherlink.com"],
   "explorers": [
     {
       "name": "Etherlink Testnet Explorer",
-      "url": "https://testnet-explorer.etherlink.com/",
+      "url": "https://testnet-explorer.etherlink.com",
       "standard": "EIP3091"
     }
   ]
