@@ -2,7 +2,7 @@
   "name": "Innovator Chain",
   "chain": "INNOVATOR",
   "rpc": ["https://rpc.innovatorchain.com"],
-  "icon": "inov8",
+  "faucets": [],
   "nativeCurrency": {
     "name": "INOV8",
     "symbol": "INOV8",
@@ -12,6 +12,7 @@
   "shortName": "Innovator",
   "chainId": 129,
   "networkId": 129,
+  "icon": "inov8",
   "explorers": [
     {
       "name": "Innovator Explorer",
