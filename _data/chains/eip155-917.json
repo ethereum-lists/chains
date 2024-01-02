@@ -2,12 +2,8 @@
   "name": "Rinia Testnet",
   "chain": "FIRE",
   "icon": "rinia",
-  "rpc": [
-    "https://rinia.rpc1.thefirechain.com"
-  ],
-  "faucets": [
-    "https://faucet.thefirechain.com"
-  ],
+  "rpc": ["https://rinia.rpc1.thefirechain.com"],
+  "faucets": ["https://faucet.thefirechain.com"],
   "nativeCurrency": {
     "name": "Firechain",
     "symbol": "FIRE",
