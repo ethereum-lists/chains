@@ -2,7 +2,9 @@
   "name": "Firechain zkEVM",
   "title": "Firechain zkEVM",
   "chain": "Firechain",
-  "rpc": ["https://rpc.zkevm.thefirechain.com"],
+  "rpc": [
+    "https://rpc.zkevm.thefirechain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
