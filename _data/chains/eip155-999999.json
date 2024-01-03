@@ -1,0 +1,23 @@
+{
+    "name": "Grade0 Chain Mainnet",
+    "chain": "Ecrox Chain",
+    "rpc": ["http://rpc.grade0.com:8545"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Grade0 Coin",
+      "symbol": "GR0",
+      "decimals": 18
+    },
+    "infoURL": "https://grade0.com",
+    "shortName": "grade0",
+    "icon": "grade0",
+    "chainId": 999,
+    "networkId": 999,
+    "explorers": [
+      {
+        "name": "Grade0 Chain Explorer",
+        "url": "https://explorer.grade0.com",
+        "standard": "none"
+      }
+    ]
+  }
