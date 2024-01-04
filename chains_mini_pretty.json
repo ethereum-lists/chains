@@ -8813,13 +8813,13 @@
   "faucets": ["https://faucet-sphinx.shardeum.org/"],
   "infoURL": "https://docs.shardeum.org/"
 }, {
-  "name": "BitEth",
+  "name": "Bitcoin Chain",
   "chainId": 8086,
-  "shortName": "BitEth",
+  "shortName": "Bitcoin",
   "networkId": 8086,
   "nativeCurrency": {
-    "name": "BitEth",
-    "symbol": "BTE",
+    "name": "Bitcoin",
+    "symbol": "BTC",
     "decimals": 18
   },
   "rpc": ["https://rpc.biteth.org"],
