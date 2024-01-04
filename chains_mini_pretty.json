@@ -9684,9 +9684,22 @@
   "faucets": ["https://faucet.maxxchain.org"],
   "infoURL": "https://www.maxxchain.org/"
 }, {
+  "name": "Arthera Mainnet",
+  "chainId": 10242,
+  "shortName": "aa",
+  "networkId": 10242,
+  "nativeCurrency": {
+    "name": "Arthera",
+    "symbol": "AA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.arthera.net"],
+  "faucets": [],
+  "infoURL": "https://docs.arthera.net/build/developing-sc/using-hardhat"
+}, {
   "name": "Arthera Testnet",
   "chainId": 10243,
-  "shortName": "aa",
+  "shortName": "aat",
   "networkId": 10243,
   "nativeCurrency": {
     "name": "Arthera",
