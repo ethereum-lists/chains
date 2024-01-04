@@ -1,25 +1,34 @@
 {
-    "name": "StorageChain",
-    "chain": "STOR",
-    "rpc": [
-      "https://mainnet-validator.storagechain.io"
-    ],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "Stor",
-      "symbol": "STOR",
-      "decimals": 18
+  "name": "StorageChain",
+  "chain": "STOR",
+  "rpc": [
+    "https://mainnet-validator.storagechain.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Stor",
+    "symbol": "STOR",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
     },
-    "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-    "infoURL": "https://storagechain.io/",
-    "shortName": "stor",
-    "chainId": 8726,
-    "networkId": 8726,
-    "icon": "StorageChain",
-    "explorers": [{
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://storagechain.io/",
+  "shortName": "stor",
+  "chainId": 8726,
+  "networkId": 8726,
+  "icon": "StorageChain",
+  "explorers": [
+    {
       "name": "storscan",
       "url": "https://storscan.io/",
-      "icon": "etherscan",
+      "icon": "storagechain",
       "standard": "EIP3091"
-    }]
+    }
+  ]
 }
