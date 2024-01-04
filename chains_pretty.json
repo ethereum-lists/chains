@@ -2808,8 +2808,8 @@
     "standard": "none"
   }]
 }, {
-  "name": "ShimmerEVM Mainnet",
-  "title": "ShimmerEVM Mainnet",
+  "name": "ShimmerEVM",
+  "title": "ShimmerEVM",
   "chain": "ShimmerEVM",
   "rpc": ["https://json-rpc.evm.shimmer.network"],
   "faucets": [],
@@ -2819,7 +2819,7 @@
     "decimals": 18
   },
   "infoURL": "https://shimmer.network",
-  "shortName": "shimmerevm-mainnet",
+  "shortName": "shimmerevm",
   "chainId": 148,
   "networkId": 148,
   "icon": "shimmerevm",
