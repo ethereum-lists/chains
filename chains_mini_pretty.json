@@ -5706,6 +5706,19 @@
   "faucets": ["https://faucet.cube.network"],
   "infoURL": "https://www.cube.network"
 }, {
+  "name": "Ruby Smart Chain MAINNET",
+  "chainId": 1821,
+  "shortName": "RUBY",
+  "networkId": 1821,
+  "nativeCurrency": {
+    "name": "RUBY Smart Chain Native Token",
+    "symbol": "RUBY",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-data.rubychain.io/", "https://mainnet.rubychain.io/"],
+  "faucets": [],
+  "infoURL": "https://rubychain.io"
+}, {
   "name": "Teslafunds",
   "chainId": 1856,
   "shortName": "tsf",
@@ -5848,6 +5861,19 @@
   "rpc": ["https://rpc.scalind.com"],
   "faucets": [],
   "infoURL": "https://scalind.com"
+}, {
+  "name": "Ruby Smart Chain Testnet",
+  "chainId": 1912,
+  "shortName": "tRUBY",
+  "networkId": 1912,
+  "nativeCurrency": {
+    "name": "RUBY Smart Chain Native Token",
+    "symbol": "tRUBY",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rchain.rubychain.io/"],
+  "faucets": ["https://claim-faucet.rubychain.io/"],
+  "infoURL": "https://rubychain.io"
 }, {
   "name": "ONUS Chain Testnet",
   "chainId": 1945,
