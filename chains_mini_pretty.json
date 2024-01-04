@@ -5030,6 +5030,19 @@
   "faucets": [],
   "infoURL": "https://omplatform.com/"
 }, {
+  "name": "Dogether Mainnet",
+  "chainId": 1248,
+  "shortName": "Dogether",
+  "networkId": 1248,
+  "nativeCurrency": {
+    "name": "Dogether",
+    "symbol": "dogeth",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.dogether.dog/"],
+  "faucets": [],
+  "infoURL": "https://www.dogether.dog/"
+}, {
   "name": "CIC Chain Testnet",
   "chainId": 1252,
   "shortName": "CICT",
