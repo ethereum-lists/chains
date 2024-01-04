@@ -2090,7 +2090,7 @@
   "faucets": [],
   "nativeCurrency": {
     "name": "Worldland",
-    "symbol": "WL",
+    "symbol": "WLC",
     "decimals": 18
   },
   "infoURL": "https://worldland.foundation",
@@ -9863,6 +9863,20 @@
   "chainId": 2032,
   "networkId": 2032
 }, {
+  "name": "Phala Network",
+  "chain": "PHA",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Phala",
+    "symbol": "PHA",
+    "decimals": 18
+  },
+  "infoURL": "https://phala.network",
+  "shortName": "pha",
+  "chainId": 2035,
+  "networkId": 2035
+}, {
   "name": "Kiwi Subnet",
   "chain": "KIWI",
   "rpc": ["https://subnets.avax.network/kiwi/testnet/rpc"],
@@ -15385,7 +15399,7 @@
   "faucets": [],
   "nativeCurrency": {
     "name": "Worldland",
-    "symbol": "WL",
+    "symbol": "WLC",
     "decimals": 18
   },
   "infoURL": "https://worldland.foundation",

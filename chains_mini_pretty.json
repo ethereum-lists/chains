@@ -1331,7 +1331,7 @@
   "networkId": 103,
   "nativeCurrency": {
     "name": "Worldland",
-    "symbol": "WL",
+    "symbol": "WLC",
     "decimals": 18
   },
   "rpc": ["https://seoul.worldland.foundation"],
@@ -6239,6 +6239,19 @@
   "faucets": [],
   "infoURL": "https://centrifuge.io"
 }, {
+  "name": "Phala Network",
+  "chainId": 2035,
+  "shortName": "pha",
+  "networkId": 2035,
+  "nativeCurrency": {
+    "name": "Phala",
+    "symbol": "PHA",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://phala.network"
+}, {
   "name": "Kiwi Subnet",
   "chainId": 2037,
   "shortName": "kiwi",
@@ -9703,7 +9716,7 @@
   "networkId": 10395,
   "nativeCurrency": {
     "name": "Worldland",
-    "symbol": "WL",
+    "symbol": "WLC",
     "decimals": 18
   },
   "rpc": ["https://gwangju.worldland.foundation"],
