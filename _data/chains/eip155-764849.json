@@ -1,9 +1,7 @@
 {
   "name": "ReDeFi Testnet",
   "chain": "ReDeFi",
-  "rpc": [
-    "https://test.redefi.world"
-  ],
+  "rpc": ["https://test.redefi.world"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BAX",
