@@ -1,0 +1,25 @@
+{
+  "name": "ONINO Testnet",
+  "chain": "ONI",
+  "rpc": ["https://rpctestnet.onino.io"],
+  "faucets": ["https://faucet.onino.io"],
+  "nativeCurrency": {
+    "name": "Testnet ONI",
+    "symbol": "tONI",
+    "decimals": 18
+  },
+  "infoURL": "https://www.onino.io",
+  "shortName": "onino-testnet",
+  "chainId": 211223,
+  "networkId": 211223,
+  "slip44": 1,
+  "icon": "onino",
+  "explorers": [
+    {
+      "name": "oniscan",
+      "url": "https://testnet.explorer.onino.io",
+      "icon": "onino",
+      "standard": "EIP3091"
+    }
+  ]
+}
