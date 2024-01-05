@@ -10620,6 +10620,19 @@
   "faucets": [],
   "infoURL": "https://docs.nautchain.xyz"
 }, {
+  "name": "GoldXChain Testnet",
+  "chainId": 22324,
+  "shortName": "goldx-testnet",
+  "networkId": 22324,
+  "nativeCurrency": {
+    "name": "GoldX",
+    "symbol": "GOLDX",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.goldxchain.io"],
+  "faucets": ["https://faucet.goldxchain.io"],
+  "infoURL": "https://goldxchain.io"
+}, {
   "name": "MAP Mainnet",
   "chainId": 22776,
   "shortName": "map",
@@ -11217,6 +11230,19 @@
   "rpc": ["https://emerald.oasis.dev", "wss://emerald.oasis.dev/ws"],
   "faucets": [],
   "infoURL": "https://docs.oasis.io/dapp/emerald"
+}, {
+  "name": "GoldXChain Mainnet",
+  "chainId": 42355,
+  "shortName": "goldx",
+  "networkId": 42355,
+  "nativeCurrency": {
+    "name": "GoldX",
+    "symbol": "GOLDX",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.goldxchain.io"],
+  "faucets": ["https://goldx.gold"],
+  "infoURL": "https://goldxchain.io"
 }, {
   "name": "ZKFair Mainnet",
   "chainId": 42766,

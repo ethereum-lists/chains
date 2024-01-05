@@ -16885,6 +16885,25 @@
     "icon": "nautilus"
   }]
 }, {
+  "name": "GoldXChain Testnet",
+  "chain": "GoldXTestnet",
+  "rpc": ["https://testnet-rpc.goldxchain.io"],
+  "faucets": ["https://faucet.goldxchain.io"],
+  "nativeCurrency": {
+    "name": "GoldX",
+    "symbol": "GOLDX",
+    "decimals": 18
+  },
+  "infoURL": "https://goldxchain.io",
+  "shortName": "goldx-testnet",
+  "chainId": 22324,
+  "networkId": 22324,
+  "explorers": [{
+    "name": "GoldXChain Testnet Explorer",
+    "url": "https://testnet-explorer.goldxchain.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "MAP Mainnet",
   "chain": "MAP",
   "icon": "map",
@@ -17850,6 +17869,25 @@
   "explorers": [{
     "name": "Oasis Emerald Explorer",
     "url": "https://explorer.emerald.oasis.dev",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "GoldXChain Mainnet",
+  "chain": "GoldX",
+  "rpc": ["https://mainnet-rpc.goldxchain.io"],
+  "faucets": ["https://goldx.gold"],
+  "nativeCurrency": {
+    "name": "GoldX",
+    "symbol": "GOLDX",
+    "decimals": 18
+  },
+  "infoURL": "https://goldxchain.io",
+  "shortName": "goldx",
+  "chainId": 42355,
+  "networkId": 42355,
+  "explorers": [{
+    "name": "GoldXChain Explorer",
+    "url": "https://explorer.goldxchain.io",
     "standard": "EIP3091"
   }]
 }, {
