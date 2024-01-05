@@ -9554,6 +9554,19 @@
   "faucets": ["https://faucet.imperiumchain.com/"],
   "infoURL": "https://imperiumchain.com"
 }, {
+  "name": "Dogelayer Mainnet",
+  "chainId": 9888,
+  "shortName": "Dogelayer",
+  "networkId": 9888,
+  "nativeCurrency": {
+    "name": "Dogecoin",
+    "symbol": "DOGE",
+    "decimals": 18
+  },
+  "rpc": ["https://dl-rpc.dogelayer.org"],
+  "faucets": [],
+  "infoURL": "https://dogelayer.org"
+}, {
   "name": "Mind Smart Chain Testnet",
   "chainId": 9977,
   "shortName": "tMIND",
