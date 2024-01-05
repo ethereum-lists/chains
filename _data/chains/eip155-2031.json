@@ -1,7 +1,7 @@
 {
   "name": "Centrifuge",
   "chain": "CFG",
-  "rpc": ["wss://fullnode.parachain.centrifuge.io"],
+  "rpc": ["wss://fullnode.parachain.centrifuge.io", "wss://centrifuge-parachain.api.onfinality.io/public-ws", "wss://centrifuge-rpc.dwellir.com", "wss://rpc-centrifuge.luckyfriday.io"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
@@ -13,11 +13,13 @@
   "shortName": "cfg",
   "chainId": 2031,
   "networkId": 2031,
+  "icon": "centrifuge",
   "explorers": [
     {
       "name": "subscan",
       "url": "https://centrifuge.subscan.io",
-      "standard": "EIP3091"
+      "standard": "EIP3091",
+      "icon": "subscan"
     }
   ]
 }
