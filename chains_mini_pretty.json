@@ -7994,6 +7994,19 @@
   "faucets": [],
   "infoURL": "https://bahamut.io"
 }, {
+  "name": "Smart Layer Network",
+  "chainId": 5169,
+  "shortName": "SLN",
+  "networkId": 5169,
+  "nativeCurrency": {
+    "name": "Service Unit Token",
+    "symbol": "SU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.main.smartlayer.network"],
+  "faucets": [],
+  "infoURL": "https://www.smartlayer.network/"
+}, {
   "name": "TLChain Network Mainnet",
   "chainId": 5177,
   "shortName": "tlc",
@@ -12400,6 +12413,19 @@
   "rpc": ["https://rpc.quantumscan.org"],
   "faucets": [],
   "infoURL": "https://quantumnetwork.gg"
+}, {
+  "name": "Smart Layer Network Testnet",
+  "chainId": 82459,
+  "shortName": "tSLN",
+  "networkId": 82459,
+  "nativeCurrency": {
+    "name": "Service Unit Token",
+    "symbol": "SU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.test.smartlayer.network"],
+  "faucets": [],
+  "infoURL": "https://www.smartlayer.network/"
 }, {
   "name": "Base Goerli Testnet",
   "chainId": 84531,

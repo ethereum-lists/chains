@@ -12702,6 +12702,25 @@
     "standard": "none"
   }]
 }, {
+  "name": "Smart Layer Network",
+  "chain": "SLN",
+  "rpc": ["https://rpc.main.smartlayer.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Service Unit Token",
+    "symbol": "SU",
+    "decimals": 18
+  },
+  "infoURL": "https://www.smartlayer.network/",
+  "shortName": "SLN",
+  "chainId": 5169,
+  "networkId": 5169,
+  "explorers": [{
+    "name": "SLN Mainnet Explorer",
+    "url": "https://explorer.main.smartlayer.network",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "TLChain Network Mainnet",
   "chain": "TLC",
   "icon": "tlc",
@@ -19748,6 +19767,25 @@
   "explorers": [{
     "name": "Quantum Scan Mainnet",
     "url": "https://quantumscan.org",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Smart Layer Network Testnet",
+  "chain": "SLN",
+  "rpc": ["https://rpc.test.smartlayer.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Service Unit Token",
+    "symbol": "SU",
+    "decimals": 18
+  },
+  "infoURL": "https://www.smartlayer.network/",
+  "shortName": "tSLN",
+  "chainId": 82459,
+  "networkId": 82459,
+  "explorers": [{
+    "name": "SLN Testnet Explorer",
+    "url": "https://explorer.test.smartlayer.network",
     "standard": "EIP3091"
   }]
 }, {
