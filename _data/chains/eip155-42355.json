@@ -1,16 +1,14 @@
 {
   "name": "GoldXChain Mainnet",
   "chain": "GoldX",
-  "rpc": [
-    "https://mainnet-rpc.goldxchain.io"
-  ],
+  "rpc": ["https://mainnet-rpc.goldxchain.io"],
   "faucets": ["https://goldx.gold"],
   "nativeCurrency": {
     "name": "GoldX",
     "symbol": "GOLDX",
     "decimals": 18
   },
-  "infoURL": "https://goldxchain.io/",
+  "infoURL": "https://goldxchain.io",
   "shortName": "goldx",
   "chainId": 42355,
   "networkId": 42355,
