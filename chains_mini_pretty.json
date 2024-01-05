@@ -9151,6 +9151,32 @@
   "faucets": ["https://testnet-explorer.wolot.io"],
   "infoURL": "https://testnet-explorer.wolot.io"
 }, {
+  "name": "Storagechain Mainnet",
+  "chainId": 8726,
+  "shortName": "stor",
+  "networkId": 8726,
+  "nativeCurrency": {
+    "name": "Storagechain",
+    "symbol": "STOR",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-validator.storagechain.io"],
+  "faucets": [],
+  "infoURL": "https://storagechain.io/about-us"
+}, {
+  "name": "Storagechain Testnet",
+  "chainId": 8727,
+  "shortName": "tstor",
+  "networkId": 8727,
+  "nativeCurrency": {
+    "name": "Storagechain",
+    "symbol": "STOR",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-validator.storagechain.io"],
+  "faucets": [],
+  "infoURL": "https://storagechain.io/about-us"
+}, {
   "name": "Alph Network",
   "chainId": 8738,
   "shortName": "alph",

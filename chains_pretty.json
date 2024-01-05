@@ -14541,6 +14541,46 @@
   "networkId": 8724,
   "slip44": 1
 }, {
+  "name": "Storagechain Mainnet",
+  "chain": "Storagechain",
+  "rpc": ["https://mainnet-validator.storagechain.io"],
+  "icon": "storagechain",
+  "faucets": [],
+  "shortName": "stor",
+  "nativeCurrency": {
+    "name": "Storagechain",
+    "symbol": "STOR",
+    "decimals": 18
+  },
+  "infoURL": "https://storagechain.io/about-us",
+  "chainId": 8726,
+  "networkId": 8726,
+  "explorers": [{
+    "name": "Storscan",
+    "url": "https://explorer-storagechain.invo.zone/?network=StorageChain",
+    "standard": "none"
+  }]
+}, {
+  "name": "Storagechain Testnet",
+  "chain": "Storagechain",
+  "rpc": ["https://testnet-validator.storagechain.io"],
+  "icon": "storagechain",
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Storagechain",
+    "symbol": "STOR",
+    "decimals": 18
+  },
+  "shortName": "tstor",
+  "infoURL": "https://storagechain.io/about-us",
+  "chainId": 8727,
+  "networkId": 8727,
+  "explorers": [{
+    "name": "Storscan",
+    "url": "https://explorer-storagechain.invo.zone/?network=StorageChain%20Testnet",
+    "standard": "none"
+  }]
+}, {
   "name": "Alph Network",
   "chain": "ALPH",
   "rpc": ["https://rpc.alph.network", "wss://rpc.alph.network"],
