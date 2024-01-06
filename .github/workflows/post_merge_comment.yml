@@ -1,0 +1,13 @@
+on: pull_request
+
+jobs:
+  comment_on_merged_pr:
+    if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    name: Comment after PR merge
+    steps:
+      - name: Comment PR
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: |
+            PR merged - please consider contributing some funds to lists.eth
