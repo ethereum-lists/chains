@@ -2,7 +2,7 @@
     "name": "Deelance Mainnet",
     "title": "Deelance Network Mainnet",
     "chain": "DEE",
-    "rpc": ["https://rpc.deelance.com/"],
+    "rpc": ["https://rpc.deelance.com"],
     "faucets": ["https://faucet.deelance.com"],
     "nativeCurrency": {
       "name": "Deelance",
@@ -17,7 +17,7 @@
     "explorers": [
       {
         "name": "Deelance Mainnet Explorer",
-        "url": "https://deescan.com/",
+        "url": "https://deescan.com",
         "standard": "EIP3091"
       }
     ]
