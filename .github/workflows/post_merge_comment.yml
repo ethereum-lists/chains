@@ -1,8 +1,8 @@
 on: pull_request
-
+  types: [closed]
 jobs:
   comment_on_merged_pr:
-    if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true
+    if: github.event.pull_request.merged
     runs-on: ubuntu-latest
     name: Comment after PR merge
     steps:
