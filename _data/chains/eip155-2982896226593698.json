@@ -1,8 +1,8 @@
 {
-  "name": "Parallel Mainnet",
+  "name": "Parallel Testnet",
   "chain": "parallel",
   "icon": "parallel",
-  "rpc": ["https://rpc.parallel.fi"],
+  "rpc": ["https://rpc-surprised-harlequin-bonobo-fvcy2k9oqh.t.conduit.xyz"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "nativeCurrency": {
     "name": "ETH",
@@ -11,12 +11,12 @@
   },
   "infoURL": "https://parallel.fi",
   "shortName": "parallel",
-  "chainId": 1024,
-  "networkId": 1024,
+  "chainId": 2982896226593698,
+  "networkId": 2982896226593698,
   "explorers": [
     {
       "name": "Blockscout",
-      "url": "https://explorer.parallel.fi",
+      "url": "https://explorerl2new-surprised-harlequin-bonobo-fvcy2k9oqh.t.conduit.xyz",
       "standard": "none"
     }
   ]
