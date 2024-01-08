@@ -1,0 +1,36 @@
+{
+  "name": "CVM",
+  "chain": "CVM",
+  "rpc": [
+    "https://rpc.cosvm.net",
+    "wss://51.79.231.20:8546"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CVM",
+    "symbol": "CVM",
+    "decimals": 18
+  },
+  "infoURL": "https://cosvm.network",
+  "shortName": "cvm",
+  "chainId": 323,
+  "networkId": 323,
+  "explorers": [
+    {
+      "name": "CosVM EVM Explorer (Blockscout)",
+      "url": "https://explorer.cosvm.net",
+      "standard": "none"
+    },
+    {
+      "name": "CosVM Cosmos Explorer",
+      "url": "https://scan.cosvm.net",
+      "standard": "none"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://cvm.dex.guru",
+      "icon": "dexguru",
+      "standard": "EIP3091"
+    }
+  ]
+}
