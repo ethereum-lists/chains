@@ -14104,6 +14104,19 @@
   "faucets": [],
   "infoURL": "https://dodao.dev/"
 }, {
+  "name": "BlocX Mainnet",
+  "chainId": 879151,
+  "shortName": "blx",
+  "networkId": 879151,
+  "nativeCurrency": {
+    "name": "BlocX",
+    "symbol": "BLX",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.blxscan.com/"],
+  "faucets": [],
+  "infoURL": "https://www.blocxchain.org/"
+}, {
   "name": "Vision - Mainnet",
   "chainId": 888888,
   "shortName": "vision",
