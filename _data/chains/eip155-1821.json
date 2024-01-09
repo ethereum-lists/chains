@@ -1,0 +1,28 @@
+{
+  "name": "Ruby Smart Chain MAINNET",
+  "chain": "RUBY",
+  "rpc": [
+    "https://mainnet-data.rubychain.io/",
+    "https://mainnet.rubychain.io/"
+  ],
+  "nativeCurrency": {
+    "name": "RUBY Smart Chain Native Token",
+    "symbol": "RUBY",
+    "decimals": 18
+  },
+  "infoURL": "https://rubychain.io",
+  "faucets": [],
+  "shortName": "RUBY",
+  "chainId": 1821,
+  "networkId": 1821,
+  "slip44": 1,
+  "icon": "ruby",
+  "explorers": [
+    {
+      "name": "RUBY Smart Chain MAINNET Explorer",
+      "icon": "ruby",
+      "url": "https://rubyscan.net",
+      "standard": "none"
+    }
+  ]
+}
