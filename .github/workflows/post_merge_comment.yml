@@ -1,5 +1,6 @@
-on: pull_request
-  types: [closed]
+on:
+  pull_request:
+    types: [cöpsed]
 jobs:
   comment_on_merged_pr:
     if: github.event.pull_request.merged
