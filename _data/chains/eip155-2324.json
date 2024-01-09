@@ -1,0 +1,23 @@
+{
+  "name": "Nusantara Testnet",
+  "chain": "Nusantara",
+  "icon": "nura",
+  "rpc": ["https://testnet-rpc.nurascan.com"],
+  "faucets": ["https://faucet.nurascan.com"],
+  "nativeCurrency": {
+    "name": "NURA Testnet",
+    "symbol": "NURA",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet.nurascan.com",
+  "shortName": "tnura",
+  "chainId": 2324,
+  "networkId": 2324,
+  "explorers": [
+    {
+      "name": "Nusantara Chain Testnet Explorer",
+      "url": "https://testnet.nurascan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
