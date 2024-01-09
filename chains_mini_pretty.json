@@ -3327,6 +3327,19 @@
   "faucets": ["https://rollux.id/faucetapp"],
   "infoURL": "https://rollux.com"
 }, {
+  "name": "MetaChain Mainnet",
+  "chainId": 571,
+  "shortName": "metatime",
+  "networkId": 571,
+  "nativeCurrency": {
+    "name": "Metatime Coin",
+    "symbol": "MTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.metatime.com"],
+  "faucets": [],
+  "infoURL": "https://metatime.com/en"
+}, {
   "name": "Metis Stardust Testnet",
   "chainId": 588,
   "shortName": "metis-stardust",
