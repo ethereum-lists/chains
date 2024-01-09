@@ -1,5 +1,6 @@
 {
   "name": "Neon EVM TestNet",
+  "status": "deprecated",
   "chain": "Solana",
   "rpc": ["https://testnet.neonevm.org"],
   "faucets": [],
@@ -13,6 +14,7 @@
   "shortName": "neonevm-testnet",
   "chainId": 245022940,
   "networkId": 245022940,
+  "slip44": 1,
   "explorers": [
     {
       "name": "native",
