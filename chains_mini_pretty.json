@@ -3496,6 +3496,19 @@
   "faucets": [],
   "infoURL": "https://kalichain.com"
 }, {
+  "name": "Kalichain",
+  "chainId": 654,
+  "shortName": "kalichainMainnet",
+  "networkId": 654,
+  "nativeCurrency": {
+    "name": "kalis",
+    "symbol": "KALIS",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.kalichain.com"],
+  "faucets": [],
+  "infoURL": "https://kalichain.com"
+}, {
   "name": "Pixie Chain Testnet",
   "chainId": 666,
   "shortName": "pixie-chain-testnet",
@@ -7744,6 +7757,19 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.chain.nexi.technology/", "https://chain.nexilix.com", "https://chain.nexi.evmnode.online"],
+  "faucets": [],
+  "infoURL": "https://www.nexi.technology/"
+}, {
+  "name": "Nexi V2 Mainnet",
+  "chainId": 4243,
+  "shortName": "NexiV2",
+  "networkId": 4243,
+  "nativeCurrency": {
+    "name": "NexiV2",
+    "symbol": "NEXI",
+    "decimals": 18
+  },
+  "rpc": ["https://chain.nexiv2.nexilix.com", "https://rpc.chainv1.nexi.technology"],
   "faucets": [],
   "infoURL": "https://www.nexi.technology/"
 }, {
@@ -13074,6 +13100,19 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.jolnir.taiko.xyz"],
+  "faucets": [],
+  "infoURL": "https://taiko.xyz"
+}, {
+  "name": "Taiko Katla L2",
+  "chainId": 167008,
+  "shortName": "tko-katla",
+  "networkId": 167008,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.katla.taiko.xyz"],
   "faucets": [],
   "infoURL": "https://taiko.xyz"
 }, {

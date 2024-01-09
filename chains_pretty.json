@@ -5579,6 +5579,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Kalichain",
+  "chain": "Kalichain",
+  "rpc": ["https://mainnet.kalichain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "kalis",
+    "symbol": "KALIS",
+    "decimals": 18
+  },
+  "infoURL": "https://kalichain.com",
+  "shortName": "kalichainMainnet",
+  "chainId": 654,
+  "networkId": 654,
+  "icon": "kalichain",
+  "explorers": [{
+    "name": "kalichain explorer",
+    "url": "https://explorer.kalichain.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Pixie Chain Testnet",
   "chain": "PixieChain",
   "rpc": ["https://http-testnet.chain.pixie.xyz", "wss://ws-testnet.chain.pixie.xyz"],
@@ -12263,6 +12283,27 @@
   "shortName": "nexi",
   "chainId": 4242,
   "networkId": 4242,
+  "slip44": 2500,
+  "explorers": [{
+    "name": "nexiscan",
+    "url": "https://www.nexiscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Nexi V2 Mainnet",
+  "chain": "Nexi V2",
+  "icon": "nexi",
+  "rpc": ["https://chain.nexiv2.nexilix.com", "https://rpc.chainv1.nexi.technology"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NexiV2",
+    "symbol": "NEXI",
+    "decimals": 18
+  },
+  "infoURL": "https://www.nexi.technology/",
+  "shortName": "NexiV2",
+  "chainId": 4243,
+  "networkId": 4243,
   "slip44": 2500,
   "explorers": [{
     "name": "nexiscan",
@@ -20791,7 +20832,7 @@
 }, {
   "name": "Taiko Grimsvotn L2",
   "chain": "ETH",
-  "status": "active",
+  "status": "deprecated",
   "icon": "taiko",
   "rpc": ["https://rpc.test.taiko.xyz"],
   "faucets": [],
@@ -20812,7 +20853,7 @@
 }, {
   "name": "Taiko Eldfell L3",
   "chain": "ETH",
-  "status": "active",
+  "status": "deprecated",
   "icon": "taiko",
   "rpc": ["https://rpc.l3test.taiko.xyz"],
   "faucets": [],
@@ -20833,7 +20874,7 @@
 }, {
   "name": "Taiko Jolnir L2",
   "chain": "ETH",
-  "status": "incubating",
+  "status": "deprecated",
   "icon": "taiko",
   "rpc": ["https://rpc.jolnir.taiko.xyz"],
   "faucets": [],
@@ -20849,6 +20890,27 @@
   "explorers": [{
     "name": "blockscout",
     "url": "https://explorer.jolnir.taiko.xyz",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Taiko Katla L2",
+  "chain": "ETH",
+  "status": "active",
+  "icon": "taiko",
+  "rpc": ["https://rpc.katla.taiko.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://taiko.xyz",
+  "shortName": "tko-katla",
+  "chainId": 167008,
+  "networkId": 167008,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.katla.taiko.xyz",
     "standard": "EIP3091"
   }]
 }, {
