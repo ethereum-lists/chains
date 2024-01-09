@@ -13038,6 +13038,19 @@
   "faucets": [],
   "infoURL": "https://adilchain.io"
 }, {
+  "name": "Etherlink Testnet",
+  "chainId": 128123,
+  "shortName": "etlt",
+  "networkId": 128123,
+  "nativeCurrency": {
+    "name": "tez",
+    "symbol": "XTZ",
+    "decimals": 18
+  },
+  "rpc": ["https://node.ghostnet.etherlink.com"],
+  "faucets": ["https://faucet.etherlink.com"],
+  "infoURL": "https://etherlink.com"
+}, {
   "name": "ETND Chain Mainnets",
   "chainId": 131419,
   "shortName": "ETND",
