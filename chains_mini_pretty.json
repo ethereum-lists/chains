@@ -14325,6 +14325,19 @@
   "faucets": ["https://faucet.zhejiang.ethpandaops.io", "https://zhejiang-faucet.pk910.de"],
   "infoURL": "https://zhejiang.ethpandaops.io"
 }, {
+  "name": "Turkey Demo Dev",
+  "chainId": 1731313,
+  "shortName": "TDD",
+  "networkId": 1731313,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://blockscout-poa.huabeizhenxuan.com"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "DeBank Testnet",
   "chainId": 2021398,
   "shortName": "dbk",
