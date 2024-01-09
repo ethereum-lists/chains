@@ -1,0 +1,23 @@
+{
+  "name": "Nusantara Mainnet",
+  "chain": "NURA",
+  "icon": "nura",
+  "rpc": ["https://rpc.nurascan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Nusantara",
+    "symbol": "NURA",
+    "decimals": 18
+  },
+  "infoURL": "https://nurascan.com",
+  "shortName": "NURA",
+  "chainId": 2024,
+  "networkId": 2024,
+  "explorers": [
+    {
+      "name": "Nusantara Chain Explorer",
+      "url": "https://nurascan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
