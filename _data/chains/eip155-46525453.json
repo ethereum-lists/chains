@@ -1,0 +1,24 @@
+{
+  "name": "Frietor Saar Testnet",
+  "chain": "FRTS",
+  "rpc": ["https://rpc-saar.frietor.network"],
+  "icon": "frts",
+  "faucets": ["https://faucet.frietor.network"],
+  "nativeCurrency": {
+    "name": "Test Frietor",
+    "symbol": "TFRT",
+    "decimals": 18
+  },
+  "infoURL": "https://frietor.network",
+  "shortName": "frts",
+  "chainId": 46525453,
+  "networkId": 46525453,
+
+  "explorers": [
+    {
+      "name": "blockroma",
+      "url": "https://saar.frietorscan.me",
+      "standard": "EIP3091"
+    }
+  ]
+}
