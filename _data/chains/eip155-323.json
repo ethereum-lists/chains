@@ -1,5 +1,5 @@
 {
-  "name": "CVM",
+  "name": "CosVM Mainnet",
   "chain": "CVM",
   "rpc": [
     "https://rpc.cosvm.net",
@@ -7,8 +7,8 @@
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "CVM",
-    "symbol": "cvm",
+    "name": "CosVM",
+    "symbol": "CVM",
     "decimals": 18
   },
   "infoURL": "https://cosvm.network",
