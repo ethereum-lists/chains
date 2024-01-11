@@ -2153,9 +2153,9 @@
     "symbol": "BTT",
     "decimals": 18
   },
-  "rpc": ["https://rpc.bittorrentchain.io/"],
+  "rpc": ["https://rpc.bt.io"],
   "faucets": [],
-  "infoURL": "https:/bt.io"
+  "infoURL": "https://bt.io"
 }, {
   "name": "Arbitrum on xDai",
   "chainId": 200,
@@ -14360,7 +14360,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://blockscout-poa.huabeizhenxuan.com"],
+  "rpc": ["https://devchain-poa.huabeizhenxuan.com"],
   "faucets": [],
   "infoURL": ""
 }, {
