@@ -1,0 +1,23 @@
+{
+  "name": "ZKAmoeba Testnet2",
+  "chain": "zkAmoeba Test2",
+  "rpc": [
+    "https://rpc.testnet.zkamoeba.com:4050/",
+    "https://rpc1.testnet.zkamoeba.com:4050/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ZKAmoeba TZKAT Test",
+    "symbol": "TZKAT",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet.zkamoeba.com/",
+  "shortName": "T-ZKAmoeba",
+  "chainId": 382,
+  "networkId": 382,
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-314",
+    "bridges": [{ "url": "https://testnet.zkamoeba.com/en/bridge/" }]
+  }
+}
