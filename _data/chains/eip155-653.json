@@ -1,5 +1,5 @@
 {
-  "name": "Kalichain Mainnet",
+  "name": "Kalichain Testnet",
   "chain": "Kalichain",
   "rpc": ["https://rpc.kalichain.com"],
   "faucets": [],
@@ -12,6 +12,7 @@
   "shortName": "kalichain",
   "chainId": 653,
   "networkId": 653,
+  "icon": "kalichain",
   "explorers": [
     {
       "name": "kalichain explorer",
