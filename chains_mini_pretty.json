@@ -11491,6 +11491,19 @@
   "faucets": [],
   "infoURL": "https://autobahn.network"
 }, {
+  "name": "Deelance Mainnet",
+  "chainId": 45510,
+  "shortName": "dee",
+  "networkId": 45510,
+  "nativeCurrency": {
+    "name": "Deelance",
+    "symbol": "DEE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.deelance.com"],
+  "faucets": ["https://faucet.deelance.com"],
+  "infoURL": "https://deelance.com"
+}, {
   "name": "Fusion Testnet",
   "chainId": 46688,
   "shortName": "tfsn",
