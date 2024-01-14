@@ -7461,6 +7461,19 @@
   "faucets": [],
   "infoURL": "https://alveyscan.com/rpc"
 }, {
+  "name": "Tangle Testnet",
+  "chainId": 3799,
+  "shortName": "tTangle",
+  "networkId": 3799,
+  "nativeCurrency": {
+    "name": "Testnet Tangle Network Token",
+    "symbol": "tTNT",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.tangle.tools", "https://testnet-rpc-archive.tangle.tools", "wss://testnet-rpc.tangle.tools", "wss://testnet-rpc-archive.tangle.tools"],
+  "faucets": ["https://faucet.tangle.tools"],
+  "infoURL": "https://docs.tangle.tools"
+}, {
   "name": "Firechain zkEVM Ghostrider",
   "chainId": 3885,
   "shortName": "firechain-zkEVM-ghostrider",
