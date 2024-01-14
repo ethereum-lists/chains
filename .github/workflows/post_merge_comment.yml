@@ -1,10 +1,6 @@
 on:
   pull_request:
-<<<<<<< Updated upstream
-    types: [cöpsed]
-=======
     types: [closed]
->>>>>>> Stashed changes
 jobs:
   comment_on_merged_pr:
     if: github.event.pull_request.merged
