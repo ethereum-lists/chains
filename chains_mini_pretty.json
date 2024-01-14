@@ -3860,6 +3860,19 @@
   "faucets": [],
   "infoURL": "https://portalfantasy.io"
 }, {
+  "name": "Haven1 Testnet",
+  "chainId": 810,
+  "shortName": "h1",
+  "networkId": 810,
+  "nativeCurrency": {
+    "name": "Haven1",
+    "symbol": "H1",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.haven1.org"],
+  "faucets": ["https://www.haven1.org/faucet"],
+  "infoURL": "https://www.haven1.org"
+}, {
   "name": "Qitmeer",
   "chainId": 813,
   "shortName": "meer",
