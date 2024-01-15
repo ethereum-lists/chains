@@ -9528,6 +9528,19 @@
   "faucets": ["https://faucet.dogcoin.network"],
   "infoURL": "https://dogcoin.network"
 }, {
+  "name": "Evoke Mainnet",
+  "chainId": 9395,
+  "shortName": "MTHN",
+  "networkId": 9395,
+  "nativeCurrency": {
+    "name": "MTHN",
+    "symbol": "MTHN",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.evokescan.org"],
+  "faucets": [],
+  "infoURL": "https://explorer.evokescan.org"
+}, {
   "name": "Rangers Protocol Testnet Robin",
   "chainId": 9527,
   "shortName": "trpg",
@@ -11035,6 +11048,19 @@
   "rpc": ["https://testnet-rpc.gochain.io"],
   "faucets": [],
   "infoURL": "https://gochain.io"
+}, {
+  "name": "Evoke Testnet",
+  "chainId": 31414,
+  "shortName": "tmthn",
+  "networkId": 31414,
+  "nativeCurrency": {
+    "name": "MTHN Testnet",
+    "symbol": "MTHN",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.evokescan.org"],
+  "faucets": ["https://faucet.evokescan.org"],
+  "infoURL": "https://testnet-explorer.evokescan.org"
 }, {
   "name": "Filecoin - Wallaby testnet",
   "chainId": 31415,
