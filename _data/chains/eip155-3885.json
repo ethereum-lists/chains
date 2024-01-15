@@ -13,13 +13,7 @@
   "shortName": "firechain-zkEVM-ghostrider",
   "chainId": 3885,
   "networkId": 3885,
-  "explorers": [
-    {
-      "name": "firescan-zkevm-ghostrider",
-      "url": "https://ghostrider.zkevm.firescan.io",
-      "standard": "EIP3091"
-    }
-  ],
+  "explorers": [],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
