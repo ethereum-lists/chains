@@ -14936,6 +14936,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Ancient8 Testnet",
+  "chainId": 28122024,
+  "shortName": "a8",
+  "networkId": 28122024,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpcv2-testnet.ancient8.gg"],
+  "faucets": [],
+  "infoURL": "https://ancient8.gg/"
+}, {
   "name": "Auxilium Network Mainnet",
   "chainId": 28945486,
   "shortName": "auxi",
@@ -15573,9 +15586,9 @@
   "faucets": ["https://ruby.exchange/faucet.html", "https://sfuel.mylilius.com/"],
   "infoURL": "https://europahub.network/"
 }, {
-  "name": "Ancient8 Testnet",
+  "name": "Ancient8 Testnet (deprecated)",
   "chainId": 2863311531,
-  "shortName": "a8",
+  "shortName": "a8old",
   "networkId": 2863311531,
   "nativeCurrency": {
     "name": "Ether",
