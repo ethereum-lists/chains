@@ -8514,6 +8514,19 @@
   "faucets": [],
   "infoURL": "https://www.irisnet.org"
 }, {
+  "name": "PAXB Mainnet",
+  "chainId": 6701,
+  "shortName": "PAXB",
+  "networkId": 6701,
+  "nativeCurrency": {
+    "name": "PAXB",
+    "symbol": "PAXB",
+    "decimals": 18
+  },
+  "rpc": ["https://chain.paxb.io"],
+  "faucets": [],
+  "infoURL": "https://paxb.io/"
+}, {
   "name": "Compverse Mainnet",
   "chainId": 6779,
   "shortName": "compverse",
