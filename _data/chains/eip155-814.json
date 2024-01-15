@@ -14,13 +14,7 @@
   "chainId": 814,
   "networkId": 814,
   "icon": "firechain",
-  "explorers": [
-    {
-      "name": "firescan-zkevm",
-      "url": "https://zkevm.firescan.io",
-      "standard": "EIP3091"
-    }
-  ],
+  "explorers": [],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
