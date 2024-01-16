@@ -1,0 +1,23 @@
+{
+  "name": "Puppynet-Shibarium",
+  "chain": "Puppynet-Shibarium",
+  "icon": "shibarium",
+  "rpc": ["https://puppynet.shibrpc.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BONE Puppynet",
+    "symbol": "BONE",
+    "decimals": 18
+  },
+  "infoURL": "https://shibariumecosystem.com",
+  "shortName": "shibariumecosystem",
+  "chainId": 157,
+  "networkId": 157,
+  "explorers": [
+    {
+      "name": "puppyscan",
+      "url": "https://puppyscan.shib.io",
+      "standard": "none"
+    }
+  ]
+}
