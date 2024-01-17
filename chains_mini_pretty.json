@@ -5485,7 +5485,7 @@
   "faucets": ["https://faucet.ctexscan.com"],
   "infoURL": "https://ctextoken.io"
 }, {
-  "name": "BEVM",
+  "name": "BEVM Canary",
   "chainId": 1501,
   "shortName": "chainx",
   "networkId": 1501,
@@ -5494,7 +5494,7 @@
     "symbol": "BTC",
     "decimals": 18
   },
-  "rpc": ["https://rpc-1.bevm.io/", "https://rpc-2.bevm.io/"],
+  "rpc": ["https://rpc-canary-1.bevm.io/", "https://rpc-canary-2.bevm.io/"],
   "faucets": [],
   "infoURL": "https://chainx.org"
 }, {
