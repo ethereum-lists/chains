@@ -1,9 +1,7 @@
 {
   "name": "Lisk Mainnet",
   "chain": "ETH",
-  "rpc": [
-    "https://rpc.api.lisk.com"
-  ],
+  "rpc": ["https://rpc.api.lisk.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
