@@ -8,7 +8,7 @@
     "symbol": "FIL",
     "decimals": 18
   },
-  "infoURL": "https://www.zkamoeba.com/",
+  "infoURL": "https://www.zkamoeba.com",
   "shortName": "zkamoeba",
   "chainId": 381,
   "networkId": 381,
@@ -24,6 +24,6 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-314",
-    "bridges": [{ "url": "https://www.zkamoeba.com/en/bridge/" }]
+    "bridges": [{ "url": "https://www.zkamoeba.com/en/bridge" }]
   }
 }

@@ -11,7 +11,7 @@
     "symbol": "FIL",
     "decimals": 18
   },
-  "infoURL": "https://testnet.zkamoeba.com/",
+  "infoURL": "https://testnet.zkamoeba.com",
   "shortName": "zkamoeba",
   "chainId": 380,
   "networkId": 380,
@@ -19,7 +19,7 @@
   "explorers": [
     {
       "name": "ZKAmoeba Test Explorer",
-      "url": "https://testnetexplorer.zkamoeba.com/",
+      "url": "https://testnetexplorer.zkamoeba.com",
       "icon": "zkamoeba",
       "standard": "EIP3091"
     }
@@ -27,6 +27,6 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-314",
-    "bridges": [{ "url": "https://testnet.zkamoeba.com/en/bridge/" }]
+    "bridges": [{ "url": "https://testnet.zkamoeba.com/en/bridge" }]
   }
 }
