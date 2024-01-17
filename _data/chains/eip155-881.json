@@ -1,0 +1,25 @@
+{
+  "name": "Hypr Mainnet",
+  "chain": "Hypr Mainnet",
+  "icon": "hypr",
+  "rpc": [
+    "https://rpc.hypr.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Hypr ETH",
+    "symbol": "HyprETH",
+    "decimals": 18
+  },
+  "infoURL": "https://hypr.network",
+  "shortName": "hypr mainnet",
+  "chainId": 881,
+  "networkId": 881,
+  "explorers": [
+    {
+      "name": "Hypr Explorer",
+      "url": "https://explorer.hypr.network",
+      "standard": "none"
+    }
+  ]
+}

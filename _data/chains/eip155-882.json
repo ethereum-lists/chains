@@ -1,0 +1,25 @@
+{
+  "name": "Hypr Testnet",
+  "chain": "Hypr Testnet",
+  "icon": "hypr",
+  "rpc": [
+    "https://rpc-testnet.hypr.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Hypr ETH",
+    "symbol": "HyprETH",
+    "decimals": 18
+  },
+  "infoURL": "https://hypr.network",
+  "shortName": "hypr testnet",
+  "chainId": 882,
+  "networkId": 882,
+  "explorers": [
+    {
+      "name": "Hypr Explorer",
+      "url": "https://explorer-testnet.hypr.network",
+      "standard": "none"
+    }
+  ]
+}
