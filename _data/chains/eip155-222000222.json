@@ -19,6 +19,12 @@
   "explorers": [
     {
       "name": "explorer",
+      "url": "https://testnet.meldscan.io",
+      "icon": "meld",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "explorer",
       "url": "https://subnets-test.avax.network/meld",
       "icon": "meld",
       "standard": "EIP3091"
