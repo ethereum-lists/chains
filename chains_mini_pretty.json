@@ -6202,15 +6202,15 @@
 }, {
   "name": "MainnetZ Mainnet",
   "chainId": 2016,
-  "shortName": "NetZm",
+  "shortName": "netz",
   "networkId": 2016,
   "nativeCurrency": {
-    "name": "mainnetz",
+    "name": "MainnetZ",
     "symbol": "NetZ",
     "decimals": 18
   },
   "rpc": ["https://mainnet-rpc.mainnetz.io", "https://eu-rpc.mainnetz.io"],
-  "faucets": ["https://faucet.mainnetz.io"],
+  "faucets": [],
   "infoURL": "https://mainnetz.io"
 }, {
   "name": "PublicMint Devnet",

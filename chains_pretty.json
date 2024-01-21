@@ -9802,14 +9802,14 @@
   "chain": "NetZ",
   "icon": "mainnetz",
   "rpc": ["https://mainnet-rpc.mainnetz.io", "https://eu-rpc.mainnetz.io"],
-  "faucets": ["https://faucet.mainnetz.io"],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "mainnetz",
+    "name": "MainnetZ",
     "symbol": "NetZ",
     "decimals": 18
   },
   "infoURL": "https://mainnetz.io",
-  "shortName": "NetZm",
+  "shortName": "netz",
   "chainId": 2016,
   "networkId": 2016,
   "explorers": [{
