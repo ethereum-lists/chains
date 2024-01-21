@@ -2,7 +2,7 @@
   "name": "Kanazawa",
   "title": "Meld Testnet Kanazawa",
   "chain": "Kanazawa",
-  "rpc": ["https://subnets.avax.network/meld/testnet/rpc"],
+  "rpc": ["https://testnet-rpc.meld.com"],
   "faucets": [],
   "features": [],
   "nativeCurrency": {
@@ -17,6 +17,12 @@
   "networkId": 222000222,
   "slip44": 1,
   "explorers": [
+    {
+      "name": "explorer",
+      "url": "https://testnet.meldscan.io",
+      "icon": "meld",
+      "standard": "EIP3091"
+    },
     {
       "name": "explorer",
       "url": "https://subnets-test.avax.network/meld",
