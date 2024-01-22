@@ -1,0 +1,24 @@
+{
+  "name": "Nexa Block",
+  "chain": "Nexa",
+  "rpc": ["https://rpc-testnet-nodes.nexablockscan.io"],
+  "faucets": ["https://nexablockscan.io/faucet"],
+  "nativeCurrency": {
+    "name": "Nexa Token",
+    "symbol": "NEXB",
+    "decimals": 18
+  },
+  "infoURL": "https://www.nexablock.io/",
+  "shortName": "Nexa",
+  "chainId": 9024,
+  "networkId": 9024,
+  "icon": "nexaChain",
+  "explorers": [
+    {
+      "name": "Nexablock Explorer",
+      "url": "https://nexablockscan.io",
+      "standard": "none",
+      "icon": "nexaChain"
+    }
+  ]
+}
