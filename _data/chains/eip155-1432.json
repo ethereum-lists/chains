@@ -1,0 +1,23 @@
+{
+  "name": "Chain Network Testnet",
+  "chain": "ETH",
+  "icon": "chain_zentachain",
+  "rpc": ["https://rpc-sepolia.zentachain.io"],
+  "faucets": ["https://faucet.zentachain.io"],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://zentachain.io",
+  "shortName": "CHAIN",
+  "chainId": 1432,
+  "networkId": 1432,
+  "explorers": [
+    {
+      "name": "ZentaChain Explorer",
+      "url": "https://explorer-sepolia.zentachain.io/",
+      "standard": "EIP3091"
+    }
+  ]
+}
