@@ -1,5 +1,6 @@
 {
-  "name": "Ancient8 Testnet",
+  "name": "Ancient8 Testnet (deprecated)",
+  "status": "deprecated",
   "chain": "Ancient8",
   "icon": "ancient8",
   "rpc": ["https://rpc-testnet.ancient8.gg"],
@@ -10,7 +11,7 @@
     "decimals": 18
   },
   "infoURL": "https://ancient8.gg/",
-  "shortName": "a8",
+  "shortName": "a8old",
   "chainId": 2863311531,
   "networkId": 2863311531,
   "slip44": 1,
