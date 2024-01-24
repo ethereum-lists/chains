@@ -12,15 +12,15 @@
     "decimals": 18
   },
   "infoURL": "https://testnet.zkamoeba.com",
-  "shortName": "zkamoeba",
+  "shortName": "zkamoeba-test",
   "chainId": 380,
   "networkId": 380,
-  "icon": "zkamoeba",
+  "icon": "zkamoeba-micro",
   "explorers": [
     {
       "name": "ZKAmoeba Test Explorer",
       "url": "https://testnetexplorer.zkamoeba.com",
-      "icon": "zkamoeba",
+      "icon": "zkamoeba-micro",
       "standard": "EIP3091"
     }
   ],
