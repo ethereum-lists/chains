@@ -3457,6 +3457,19 @@
   "faucets": ["https://vne.network/rose"],
   "infoURL": "https://www.peer.inc"
 }, {
+  "name": "EIOB Mainnet",
+  "chainId": 612,
+  "shortName": "eiob",
+  "networkId": 612,
+  "nativeCurrency": {
+    "name": "EIOB",
+    "symbol": "EIOB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.eiob.xyz"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Graphlinq Blockchain Mainnet",
   "chainId": 614,
   "shortName": "glq",
