@@ -10698,6 +10698,19 @@
   "faucets": [],
   "infoURL": "https://p12.network"
 }, {
+  "name": "Jono11 Subnet",
+  "chainId": 20765,
+  "shortName": "jono11",
+  "networkId": 20765,
+  "nativeCurrency": {
+    "name": "Jono11 Token",
+    "symbol": "JONO",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/jono11/testnet/rpc"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "CENNZnet Azalea",
   "chainId": 21337,
   "shortName": "cennz-a",
