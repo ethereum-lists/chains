@@ -8878,6 +8878,19 @@
   "faucets": ["https://faucet.hazlor.com"],
   "infoURL": "https://hazlor.com"
 }, {
+  "name": "Kinto Mainnet",
+  "chainId": 7887,
+  "shortName": "kintoMainnet",
+  "networkId": 7887,
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.kinto.xyz/http", "https://kinto-mainnet.calderachain.xyz/http"],
+  "faucets": [],
+  "infoURL": "https://kinto.xyz"
+}, {
   "name": "ARDENIUM Athena",
   "chainId": 7895,
   "shortName": "ard",
