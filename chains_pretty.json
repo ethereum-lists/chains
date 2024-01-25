@@ -17439,6 +17439,26 @@
   "chainId": 24734,
   "networkId": 37480
 }, {
+  "name": "LiquidLayer Mainnet",
+  "chain": "LiquidLayer",
+  "icon": "lila",
+  "rpc": ["https://mainnet.liquidlayer.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LiquidLayer",
+    "symbol": "LILA",
+    "decimals": 18
+  },
+  "infoURL": "https://scan.liquidlayer.network",
+  "shortName": "LILA",
+  "chainId": 25186,
+  "networkId": 25186,
+  "explorers": [{
+    "name": "LiquidLayer Mainnet Explorer",
+    "url": "https://scan.liquidlayer.network",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Hammer Chain Mainnet",
   "chain": "HammerChain",
   "rpc": ["https://www.hammerchain.io/rpc"],
@@ -20389,6 +20409,26 @@
     "url": "https://explorer.lambda.top",
     "standard": "EIP3091",
     "icon": "lambda"
+  }]
+}, {
+  "name": "LiquidLayer Testnet",
+  "chain": "LILA",
+  "icon": "lila",
+  "rpc": ["https://testnet.liquidlayer.network"],
+  "faucets": ["https://claim.liquidlayer.network"],
+  "nativeCurrency": {
+    "name": "LiquidLayer Testnet",
+    "symbol": "LILA",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet-scan.liquidlayer.network",
+  "shortName": "tLILA",
+  "chainId": 93572,
+  "networkId": 93572,
+  "explorers": [{
+    "name": "LiquidLayer Testnet Explorer",
+    "url": "https://testnet-scan.liquidlayer.network",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Mantis Testnet (Hexapod)",

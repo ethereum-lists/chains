@@ -10958,6 +10958,19 @@
   "faucets": [],
   "infoURL": "https://www.mintme.com"
 }, {
+  "name": "LiquidLayer Mainnet",
+  "chainId": 25186,
+  "shortName": "LILA",
+  "networkId": 25186,
+  "nativeCurrency": {
+    "name": "LiquidLayer",
+    "symbol": "LILA",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.liquidlayer.network"],
+  "faucets": [],
+  "infoURL": "https://scan.liquidlayer.network"
+}, {
   "name": "Hammer Chain Mainnet",
   "chainId": 25888,
   "shortName": "GOLDT",
@@ -12777,6 +12790,19 @@
   "rpc": ["https://evm.lambda.top/"],
   "faucets": ["https://faucet.lambda.top"],
   "infoURL": "https://lambda.im"
+}, {
+  "name": "LiquidLayer Testnet",
+  "chainId": 93572,
+  "shortName": "tLILA",
+  "networkId": 93572,
+  "nativeCurrency": {
+    "name": "LiquidLayer Testnet",
+    "symbol": "LILA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.liquidlayer.network"],
+  "faucets": ["https://claim.liquidlayer.network"],
+  "infoURL": "https://testnet-scan.liquidlayer.network"
 }, {
   "name": "Mantis Testnet (Hexapod)",
   "chainId": 96970,
