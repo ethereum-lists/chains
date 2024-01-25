@@ -2937,6 +2937,32 @@
   "faucets": [],
   "infoURL": "http://theconsta.com"
 }, {
+  "name": "ZKAmoeba Testnet",
+  "chainId": 380,
+  "shortName": "zkamoeba-test",
+  "networkId": 380,
+  "nativeCurrency": {
+    "name": "filecoin",
+    "symbol": "FIL",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.zkamoeba.com:4050/", "https://rpc1.testnet.zkamoeba.com:4050/"],
+  "faucets": [],
+  "infoURL": "https://testnet.zkamoeba.com"
+}, {
+  "name": "ZKAmoeba Mainnet",
+  "chainId": 381,
+  "shortName": "zkamoeba",
+  "networkId": 381,
+  "nativeCurrency": {
+    "name": "filecoin",
+    "symbol": "FIL",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mainnet.zkamoeba.com/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.zkamoeba.com"
+}, {
   "name": "Lisinski",
   "chainId": 385,
   "shortName": "lisinski",
