@@ -1,0 +1,23 @@
+{
+  "name": "Storagechain Mainnet",
+  "chain": "Storagechain",
+  "rpc": ["https://mainnet-validator.storagechain.io"],
+  "icon": "storagechain",
+  "faucets": [],
+  "shortName": "stor",
+  "nativeCurrency": {
+    "name": "Storagechain",
+    "symbol": "STOR",
+    "decimals": 18
+  },
+  "infoURL": "https://storagechain.io/about-us",
+  "chainId": 8726,
+  "networkId": 8726,
+  "explorers": [
+    {
+      "name": "Storscan",
+      "url": "https://explorer-storagechain.invo.zone/?network=StorageChain",
+      "standard": "none"
+    }
+  ]
+}
