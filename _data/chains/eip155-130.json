@@ -1,0 +1,22 @@
+{
+  "name": "Xenon",
+  "chain": "XEN",
+  "rpc": ["https://rpc.xenonledger.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Xenon",
+    "symbol": "XEN",
+    "decimals": 18
+  },
+  "infoURL": "https://xenonledger.com",
+  "shortName": "xenon-mainnet",
+  "chainId": 130,
+  "networkId": 130,
+  "explorers": [
+    {
+      "name": "Xenon Explorer",
+      "url": "https://explorer.xenonledger.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
