@@ -1,0 +1,24 @@
+{
+  "name": "Ferdy Subnet Testnet",
+  "chain": "FERDY",
+  "icon": "ferdy",
+  "rpc": ["https://testnet-rpc.ferdyflip.xyz"],
+  "faucets": ["https://core.app/en/tools/testnet-faucet/?subnet=ferdynet"],
+  "nativeCurrency": {
+    "name": "Ferdy AVAX",
+    "symbol": "FAVAX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.ferdyflip.xyz",
+  "shortName": "ferdy-testnet",
+  "chainId": 668577,
+  "networkId": 668577,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://testnet-explorer.ferdyflip.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
