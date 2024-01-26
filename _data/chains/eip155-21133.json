@@ -1,21 +1,25 @@
 {
-  "name": "All About Healthy",
-  "chain": "AAH",
-  "rpc": ["https://rpc.c4ex.net"],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "AAH",
-    "symbol": "AAH",
-    "decimals": 18
-  },
-  "infoURL": "https://c4ex.net",
-  "shortName": "aah",
-  "chainId": 21133,
-  "networkId": 21133,
-  "icon": "aah",
-  "explorers": [{
-    "name": "etherscan",
-    "url": "https://exp.c4ex.net",
-    "standard": "none"
-  }]
+    "name": "All About Healthy",
+    "chain": "AAH",
+    "rpc": [
+        "https://rpc.c4ex.net"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "AAH",
+        "symbol": "AAH",
+        "decimals": 18
+    },
+    "infoURL": "https://c4ex.net",
+    "shortName": "aah",
+    "chainId": 21133,
+    "networkId": 21133,
+    "icon": "aah",
+    "explorers": [
+        {
+            "name": "etherscan",
+            "url": "https://exp.c4ex.net",
+            "standard": "none"
+        }
+    ]
 }
