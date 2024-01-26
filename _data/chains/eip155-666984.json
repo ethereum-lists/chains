@@ -1,0 +1,25 @@
+{
+  "name": "Ferdy Subnet",
+  "chain": "FERDY",
+  "icon": "ferdy",
+  "rpc": [
+    "https://mainnet-rpc.ferdyflip.xyz"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ferdy AVAX",
+    "symbol": "FAVAX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.ferdyflip.xyz",
+  "shortName": "ferdy",
+  "chainId": 666984,
+  "networkId": 666984,
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://explorer.ferdyflip.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
