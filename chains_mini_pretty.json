@@ -10594,6 +10594,19 @@
   "faucets": ["https://faucet.oneg8.network"],
   "infoURL": "https://oneg8.one"
 }, {
+  "name": "Eclipse Subnet",
+  "chainId": 17172,
+  "shortName": "eclipse",
+  "networkId": 17172,
+  "nativeCurrency": {
+    "name": "Eclipse",
+    "symbol": "ECLP",
+    "decimals": 16
+  },
+  "rpc": ["https://subnets.avax.network/eclipse/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "http://eclipsenet.io"
+}, {
   "name": "Palette Chain Testnet",
   "chainId": 17180,
   "shortName": "PCT",
