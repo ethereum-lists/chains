@@ -10724,6 +10724,19 @@
   "faucets": [],
   "infoURL": "https://www.homeverse.games/"
 }, {
+  "name": "Magnet Network",
+  "chainId": 19527,
+  "shortName": "mgt",
+  "networkId": 19527,
+  "nativeCurrency": {
+    "name": "Magnet Network",
+    "symbol": "DOT",
+    "decimals": 18
+  },
+  "rpc": ["https://magnet-rpc.magport.io/"],
+  "faucets": [],
+  "infoURL": "https://magnet.magport.io/"
+}, {
   "name": "BTCIX Network",
   "chainId": 19845,
   "shortName": "btcix",
