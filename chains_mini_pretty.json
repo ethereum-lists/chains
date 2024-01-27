@@ -9541,6 +9541,19 @@
   "faucets": ["https://t.me/BerylBit"],
   "infoURL": "https://www.beryl-bit.com"
 }, {
+  "name": "Nexa Block",
+  "chainId": 9024,
+  "shortName": "Nexa",
+  "networkId": 9024,
+  "nativeCurrency": {
+    "name": "Nexa Token",
+    "symbol": "NEXB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet-nodes.nexablockscan.io"],
+  "faucets": ["https://nexablockscan.io/faucet"],
+  "infoURL": "https://www.nexablock.io/"
+}, {
   "name": "Genesis Coin",
   "chainId": 9100,
   "shortName": "GENEC",
