@@ -1663,19 +1663,6 @@
   "faucets": [],
   "infoURL": "https://www.hecochain.com"
 }, {
-  "name": "ProtoJumbo Testnet",
-  "chainId": 129,
-  "shortName": "ProtoJumbo",
-  "networkId": 129,
-  "nativeCurrency": {
-    "name": "JNFTC",
-    "symbol": "JNFTC",
-    "decimals": 18
-  },
-  "rpc": ["https://testnode.jumbochain.org"],
-  "faucets": ["https://protojumbo.jumbochain.org/faucet-smart"],
-  "infoURL": "https://jumbochain.org"
-}, {
   "name": "Engram Testnet",
   "chainId": 131,
   "shortName": "tgram",
