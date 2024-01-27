@@ -1663,6 +1663,19 @@
   "faucets": [],
   "infoURL": "https://www.hecochain.com"
 }, {
+  "name": "Innovator Chain",
+  "chainId": 129,
+  "shortName": "Innovator",
+  "networkId": 129,
+  "nativeCurrency": {
+    "name": "INOV8",
+    "symbol": "INOV8",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.innovatorchain.com"],
+  "faucets": [],
+  "infoURL": "https://innovatorchain.com"
+}, {
   "name": "Engram Testnet",
   "chainId": 131,
   "shortName": "tgram",
