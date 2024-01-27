@@ -1,0 +1,23 @@
+{
+  "name": "NETH Mainnet",
+  "chain": "NETH Chain",
+  "rpc": ["https://chain.neth.network"],
+  "faucets": ["https://chain.neth.network"],
+  "nativeCurrency": {
+    "name": "NETH",
+    "symbol": "NETH",
+    "decimals": 18
+  },
+  "infoURL": "https://neth.network",
+  "shortName": "NETH",
+  "chainId": 20210827,
+  "networkId": 20210827,
+  "icon": "neth",
+  "explorers": [
+    {
+      "name": "NETH Scan",
+      "url": "https://scan.chain.neth.network/",
+      "standard": "none"
+    }
+  ]
+}
