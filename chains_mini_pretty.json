@@ -15300,6 +15300,19 @@
   "faucets": ["https://faucet.joys.digital/"],
   "infoURL": "https://joys.digital"
 }, {
+  "name": "Blast Sepolia Testnet",
+  "chainId": 168587773,
+  "shortName": "blastsepolia",
+  "networkId": 168587773,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia.blast.io"],
+  "faucets": ["https://faucet.quicknode.com/blast/sepolia"],
+  "infoURL": "https://blast.io/"
+}, {
   "name": "Gather Mainnet Network",
   "chainId": 192837465,
   "shortName": "GTH",
