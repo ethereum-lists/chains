@@ -12505,6 +12505,19 @@
   "faucets": ["https://faucet.polygon.technology/"],
   "infoURL": "https://polygon.technology/"
 }, {
+  "name": "Berachain Artio",
+  "chainId": 80085,
+  "shortName": "berachainArtio",
+  "networkId": 80085,
+  "nativeCurrency": {
+    "name": "BERA Token",
+    "symbol": "BERA",
+    "decimals": 18
+  },
+  "rpc": ["https://artio.rpc.berachain.com", "https://rpc.ankr.com/berachain_testnet"],
+  "faucets": ["https://artio.faucet.berachain.com"],
+  "infoURL": "https://www.berachain.com"
+}, {
   "name": "Nordek Mainnet",
   "chainId": 81041,
   "shortName": "nordek",
