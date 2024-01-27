@@ -14468,6 +14468,19 @@
   "faucets": ["https://faucet-testnet.fncy.world"],
   "infoURL": "https://fncyscan-testnet.fncy.world"
 }, {
+  "name": "Jono12 Subnet",
+  "chainId": 955081,
+  "shortName": "jono12",
+  "networkId": 955081,
+  "nativeCurrency": {
+    "name": "Jono12 Token",
+    "symbol": "JONO",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/jono12/testnet/rpc"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Eluvio Content Fabric",
   "chainId": 955305,
   "shortName": "elv",

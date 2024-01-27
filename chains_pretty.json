@@ -23138,6 +23138,29 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Jono12 Subnet",
+  "chain": "JONO12",
+  "icon": "jono12",
+  "rpc": ["https://subnets.avax.network/jono12/testnet/rpc"],
+  "features": [{
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Jono12 Token",
+    "symbol": "JONO",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "jono12",
+  "chainId": 955081,
+  "networkId": 955081,
+  "explorers": [{
+    "name": "JONO12 Explorer",
+    "url": "https://subnets-test.avax.network/jono12",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Eluvio Content Fabric",
   "chain": "Eluvio",
   "rpc": ["https://host-76-74-28-226.contentfabric.io/eth/", "https://host-76-74-28-232.contentfabric.io/eth/", "https://host-76-74-29-2.contentfabric.io/eth/", "https://host-76-74-29-8.contentfabric.io/eth/", "https://host-76-74-29-34.contentfabric.io/eth/", "https://host-76-74-29-35.contentfabric.io/eth/", "https://host-154-14-211-98.contentfabric.io/eth/", "https://host-154-14-192-66.contentfabric.io/eth/", "https://host-60-240-133-202.contentfabric.io/eth/", "https://host-64-235-250-98.contentfabric.io/eth/"],
