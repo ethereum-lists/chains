@@ -1,0 +1,26 @@
+  "name": "Metis Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": ["https://sepolia.rpc.metisdevops.link"],
+  "faucets": ["https://sepolia.faucet.metisdevops.link"],
+  "nativeCurrency": {
+    "name": "Sepolia Metis",
+    "symbol": "METIS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.metis.io",
+  "shortName": "metis-sepolia",
+  "chainId": 59901,
+  "networkId": 59901,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://sepolia.explorer.metisdevops.link/",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-4",
+    "bridges": [{ "url": "https://testnet-bridge.metis.io" }]
+  }
+}
