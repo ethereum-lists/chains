@@ -7509,9 +7509,9 @@
     "symbol": "ALV",
     "decimals": 18
   },
-  "rpc": ["https://rpc.alveychain.com/rpc", "https://rpc2.alvey.io/rpc"],
+  "rpc": ["https://elves-core1.alvey.io", "https://elves-core2.alvey.io", "https://elves-core3.alvey.io"],
   "faucets": [],
-  "infoURL": "https://alveyscan.com/rpc"
+  "infoURL": "https://alveychain.com/"
 }, {
   "name": "Tangle Testnet",
   "chainId": 3799,
