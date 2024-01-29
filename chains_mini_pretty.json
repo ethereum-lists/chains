@@ -8644,6 +8644,19 @@
   "faucets": ["https://labs.zetachain.com/get-zeta"],
   "infoURL": "https://zetachain.com/docs"
 }, {
+  "name": "BST Chain",
+  "chainId": 7007,
+  "shortName": "BSTC",
+  "networkId": 7007,
+  "nativeCurrency": {
+    "name": "BST Chain",
+    "symbol": "BSTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.bstchain.io/"],
+  "faucets": [],
+  "infoURL": "https://bstchain.io"
+}, {
   "name": "Ella the heart",
   "chainId": 7027,
   "shortName": "ELLA",
