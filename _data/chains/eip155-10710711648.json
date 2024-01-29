@@ -13,5 +13,10 @@
     "shortName": "kkrt-alpha",
     "chainId": 10710711648,
     "networkId": 10710711648,
-    "explorers": []
+    "explorers": [],
+    "parent": {
+      "type" : "L2",
+      "chain": "eip155-11155111",
+      "bridges": []
+     }
   }
