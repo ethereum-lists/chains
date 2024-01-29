@@ -1,24 +1,25 @@
 {
-  "name": "ProtoJumbo Testnet",
-  "chain": "Jumbo",
-  "rpc": ["https://testnode.jumbochain.org"],
-  "faucets": ["https://protojumbo.jumbochain.org/faucet-smart"],
+  "name": "Innovator Chain",
+  "chain": "INNOVATOR",
+  "rpc": ["https://rpc.innovatorchain.com"],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "JNFTC",
-    "symbol": "JNFTC",
+    "name": "INOV8",
+    "symbol": "INOV8",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
-  "infoURL": "https://jumbochain.org",
-  "shortName": "ProtoJumbo",
+  "features": [],
+  "infoURL": "https://innovatorchain.com",
+  "shortName": "Innovator",
   "chainId": 129,
   "networkId": 129,
-  "slip44": 1,
+  "icon": "innovator",
   "explorers": [
     {
-      "name": "ProtoJumbo",
-      "url": "https://protojumbo.jumbochain.org",
-      "standard": "EIP3091"
+      "name": "Innovator Explorer",
+      "url": "https://evm.innovatorchain.com",
+      "icon": "blockscout",
+      "standard": "none"
     }
   ]
 }
