@@ -10815,6 +10815,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "All About Healthy",
+  "chainId": 21133,
+  "shortName": "aah",
+  "networkId": 21133,
+  "nativeCurrency": {
+    "name": "AAH",
+    "symbol": "AAH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.c4ex.net"],
+  "faucets": ["https://t.me/c4eiAirdrop"],
+  "infoURL": "https://c4ex.net"
+}, {
   "name": "CENNZnet Azalea",
   "chainId": 21337,
   "shortName": "cennz-a",
