@@ -11894,6 +11894,19 @@
   "faucets": [],
   "infoURL": "https://electroneum.com"
 }, {
+  "name": "DOID",
+  "chainId": 53277,
+  "shortName": "DOID",
+  "networkId": 53277,
+  "nativeCurrency": {
+    "name": "DOID",
+    "symbol": "DOID",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.doid.tech"],
+  "faucets": [],
+  "infoURL": "https://doid.tech"
+}, {
   "name": "DFK Chain",
   "chainId": 53935,
   "shortName": "DFK",
@@ -11997,6 +12010,19 @@
   "rpc": ["https://nova.velo.org"],
   "faucets": ["https://nova-faucet.velo.org"],
   "infoURL": "https://velo.org"
+}, {
+  "name": "DOID Testnet",
+  "chainId": 56797,
+  "shortName": "doidTestnet",
+  "networkId": 56797,
+  "nativeCurrency": {
+    "name": "DOID",
+    "symbol": "DOID",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.doid.tech"],
+  "faucets": [],
+  "infoURL": "https://doid.tech"
 }, {
   "name": "Rollux Testnet",
   "chainId": 57000,

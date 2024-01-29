@@ -18983,6 +18983,32 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "DOID",
+  "chain": "DOID",
+  "rpc": ["https://rpc.doid.tech"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DOID",
+    "symbol": "DOID",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://doid.tech",
+  "shortName": "DOID",
+  "chainId": 53277,
+  "networkId": 53277,
+  "icon": "doid",
+  "explorers": [{
+    "name": "DOID Scan",
+    "url": "https://scan.doid.tech",
+    "icon": "doid",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "DFK Chain",
   "chain": "DFK",
   "icon": "dfk",
@@ -19151,6 +19177,32 @@
   "explorers": [{
     "name": "novascan",
     "url": "https://novascan.velo.org",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "DOID Testnet",
+  "chain": "DOID",
+  "rpc": ["https://rpc.testnet.doid.tech"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DOID",
+    "symbol": "DOID",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://doid.tech",
+  "shortName": "doidTestnet",
+  "chainId": 56797,
+  "networkId": 56797,
+  "icon": "doid",
+  "explorers": [{
+    "name": "DOID Testnet Scan",
+    "url": "https://scan.testnet.doid.tech",
+    "icon": "doid",
     "standard": "EIP3091"
   }]
 }, {
