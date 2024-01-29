@@ -15547,6 +15547,19 @@
   "faucets": ["https://sfuel.dirtroad.dev/staging"],
   "infoURL": "https://nebulachain.io/"
 }, {
+  "name": "Ancient8",
+  "chainId": 888888888,
+  "shortName": "ancient8",
+  "networkId": 888888888,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.ancient8.gg"],
+  "faucets": [],
+  "infoURL": "https://ancient8.gg/"
+}, {
   "name": "Zora Sepolia Testnet",
   "chainId": 999999999,
   "shortName": "zsep",
