@@ -16,7 +16,9 @@
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://hizoco.net:38443/"
+      "url": "https://hizoco.net:38443/",
+      "icon": "blockscout",
+      "standard": "EIP3091"
     }
   ]
 }
