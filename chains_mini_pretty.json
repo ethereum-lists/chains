@@ -2794,6 +2794,19 @@
   "faucets": ["https://faucet-testnet.kcc.network"],
   "infoURL": "https://scan-testnet.kcc.network"
 }, {
+  "name": "Cosvm Mainnet",
+  "chainId": 323,
+  "shortName": "cvm",
+  "networkId": 323,
+  "nativeCurrency": {
+    "name": "Cosvm",
+    "symbol": "CVM",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.cosvm.net"],
+  "faucets": [],
+  "infoURL": "https://cosvm.network"
+}, {
   "name": "zkSync Mainnet",
   "chainId": 324,
   "shortName": "zksync",
