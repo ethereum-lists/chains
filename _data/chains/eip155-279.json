@@ -2,10 +2,7 @@
   "name": "BPX Blockchain",
   "chain": "BPX",
   "icon": "bpx",
-  "rpc": [
-    "https://rpc.mainnet.bpxchain.cc",
-    "https://bpx-dataseed.infinex.cc"
-  ],
+  "rpc": ["https://rpc.mainnet.bpxchain.cc", "https://bpx-dataseed.infinex.cc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BPX",
