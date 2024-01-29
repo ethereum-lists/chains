@@ -3704,6 +3704,19 @@
   "faucets": [],
   "infoURL": "https://www.fury.black"
 }, {
+  "name": "Vrcscan Mainnet",
+  "chainId": 713,
+  "shortName": "vrc",
+  "networkId": 713,
+  "nativeCurrency": {
+    "name": "VRC Chain",
+    "symbol": "VRC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet-5.vrcscan.com", "https://rpc-mainnet-6.vrcscan.com", "https://rpc-mainnet-7.vrcscan.com", "https://rpc-mainnet-8.vrcscan.com"],
+  "faucets": [],
+  "infoURL": "https://vrccoin.com"
+}, {
   "name": "Shibarium Beta",
   "chainId": 719,
   "shortName": "shibarium",
