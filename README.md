@@ -110,13 +110,16 @@ BUILD SUCCESSFUL in 7s
  * When making changes that fix the CI problems - please re-request a review - otherwise it is too much work to track such changes with so many PRs daily
 
 ## Usages
+### Tools 
+ * [MESC](https://paradigmxyz.github.io/mesc)
+
+### Explorers
+ * [Otterscan](https://otterscan.io)
+
 ### Wallets
  * [WallETH](https://walleth.org)
  * [TREZOR](https://trezor.io)
  * [Minerva Wallet](https://minerva.digital)
-
-### Explorers
- * [Otterscan](https://otterscan.io)
 
 ### EIPs
  * EIP-155
