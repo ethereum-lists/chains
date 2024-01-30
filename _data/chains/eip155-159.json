@@ -1,0 +1,33 @@
+{
+  "name": "Roburna Testnet",
+  "chain": "RBA",
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "rpc": [
+    "https://preseed-testnet-1.roburna.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Roburna",
+    "symbol": "RBA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.roburna.com/",
+  "shortName": "rba",
+  "chainId": 159,
+  "networkId": 159,
+  "icon": "roburna",
+  "explorers": [
+    {
+      "name": "Rbascan Testnet Explorer",
+      "url": "https://testnet.rbascan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
