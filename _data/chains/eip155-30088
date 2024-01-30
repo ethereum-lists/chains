@@ -1,0 +1,31 @@
+{
+  "name": "MiYou Mainnet",
+  "chain": "MiYou",
+  "icon": "miyou",
+  "rpc": [
+    "https://blockchain.miyou.io",
+    "https://blockchain.miyoulab.com"
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MiYou",
+    "symbol": "MY",
+    "decimals": 18
+  },
+  "infoURL": "https://ethereum.org",
+  "shortName": "my",
+  "chainId": 30088,
+  "networkId": 30088,
+  "slip44": 60,
+  "ens": {
+    "registry": "0xFEfa9B3061435977424DD947E756566cFB60473E"
+  },
+  "explorers": [
+    {
+      "name": "miyou",
+      "url": "https://myscan.miyou.io/",
+      "standard": "EIP3091"
+    }
+  ]
+}
