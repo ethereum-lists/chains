@@ -5,6 +5,7 @@
   "shortName": "arb-goerli",
   "chain": "ETH",
   "networkId": 421613,
+  "slip44": 1,
   "nativeCurrency": {
     "name": "Arbitrum Goerli Ether",
     "symbol": "AGOR",
@@ -19,8 +20,8 @@
   "infoURL": "https://arbitrum.io/",
   "explorers": [
     {
-      "name": "Arbitrum Goerli Rollup Explorer",
-      "url": "https://goerli-rollup-explorer.arbitrum.io",
+      "name": "Arbitrum Goerli Arbiscan",
+      "url": "https://goerli.arbiscan.io",
       "standard": "EIP3091"
     }
   ],

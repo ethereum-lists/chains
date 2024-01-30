@@ -1,0 +1,18 @@
+{
+  "name": "Fraxtal Testnet",
+  "chain": "FRAX",
+  "rpc": ["https://rpc.testnet.frax.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Frax Ether",
+    "symbol": "frxETH",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet.frax.com",
+  "shortName": "fraxtal-testnet",
+  "chainId": 2522,
+  "networkId": 2522,
+  "slip44": 1,
+  "explorers": [],
+  "status": "active"
+}
