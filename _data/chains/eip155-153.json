@@ -1,0 +1,17 @@
+{
+  "name": "Redbelly Network Testnet",
+  "shortName": "rbn-testnet",
+  "chain": "RBN",
+  "chainId": 153,
+  "networkId": 153,
+  "slip44": 1,
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://redbelly.network",
+  "nativeCurrency": {
+    "name": "Redbelly Network Coin",
+    "symbol": "RBNT",
+    "decimals": 18
+  },
+  "status": "incubating"
+}

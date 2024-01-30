@@ -1,0 +1,23 @@
+{
+  "name": "Grok Chain Mainnet",
+  "chain": "Grok",
+  "icon": "grokicon",
+  "rpc": ["https://mainnet-rpc.grokchain.dev"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Groc",
+    "symbol": "GROC",
+    "decimals": 18
+  },
+  "infoURL": "https://grokchain.dev",
+  "shortName": "GrokChain",
+  "chainId": 72992,
+  "networkId": 72992,
+  "explorers": [
+    {
+      "name": "GrokScan",
+      "url": "https://mainnet-explorer.grokchain.dev",
+      "standard": "none"
+    }
+  ]
+}
