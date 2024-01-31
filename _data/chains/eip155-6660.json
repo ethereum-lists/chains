@@ -1,22 +1,35 @@
 {
-  "name": "Latest Chain Testnet",
-  "chain": "LATEST",
-  "icon": "latestChain",
-  "rpc": ["https://testnet-rpc.latestcoin.io"],
-  "faucets": ["http://faucet.latestchain.io"],
+  "name": "ETPOS Testnet",
+  "chain": "ETPOS",
+  "rpc": [
+    "https://rpc.etposchain.com"
+  ],
+  "faucets": [
+    "https://faucet.etposchain.com"
+  ],
   "nativeCurrency": {
-    "name": "Latest",
-    "symbol": "LATEST",
+    "name": "Etherpos",
+    "symbol": "ETPOS",
     "decimals": 18
   },
-  "infoURL": "https://latestcoin.io",
-  "shortName": "LATESTt",
+  "features": [
+    { 
+      "name": "EIP155"
+    },
+    { 
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://etposchain.com",
+  "shortName": "etpos",
   "chainId": 6660,
   "networkId": 6660,
+  "icon": "etherpos",
   "explorers": [
     {
-      "name": "Latest Chain",
-      "url": "http://testnet.latestchain.io",
+      "name": "ETPOS Testnet",
+      "url": "https://explorer.etposchain.com",
+      "icon": "etherpos",
       "standard": "EIP3091"
     }
   ]
