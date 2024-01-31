@@ -10204,6 +10204,19 @@
   "faucets": [],
   "infoURL": "https://shyft.network"
 }, {
+  "name": "BEVM Testnet",
+  "chainId": 11503,
+  "shortName": "bevm",
+  "networkId": 11503,
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.bevm.io/"],
+  "faucets": [],
+  "infoURL": "https://bevm.io"
+}, {
   "name": "Sardis Testnet",
   "chainId": 11612,
   "shortName": "SRDXt",
