@@ -1,0 +1,26 @@
+{
+  "name": "Xenon Chain Testnet",
+  "chain": "XEN",
+  "rpc": [
+    "https://testnet-chain.xenonchain.com/",
+    "https://testnet-dev.xenonchain.com/"
+  ],
+  "faucets": ["https://faucet.somanetwork.io"],
+  "nativeCurrency": {
+    "name": "Xenon Testnet",
+    "symbol": "tXEN",
+    "decimals": 18
+  },
+  "infoURL": "https://xenonchain.com",
+  "shortName": "xenon",
+  "chainId": 2941,
+  "networkId": 2941,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Xenon testnet Explorer",
+      "url": "https://testnet.xenonchain.com",
+      "standard": "none"
+    }
+  ]
+}
