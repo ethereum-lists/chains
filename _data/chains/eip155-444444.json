@@ -2,10 +2,7 @@
   "name": "Syndr L3 Sepolia",
   "title": "Syndr L3 Sepolia Rollup Testnet",
   "chain": "SYNDRSEPOLIA",
-  "rpc": [
-    "https://sepolia.syndr.com/http",
-    "wss://sepolia.syndr.com/ws"
-  ],
+  "rpc": ["https://sepolia.syndr.com/http", "wss://sepolia.syndr.com/ws"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
