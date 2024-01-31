@@ -2274,18 +2274,18 @@
   "faucets": ["http://faucet.freight.sh"],
   "infoURL": "https://freighttrust.com"
 }, {
-  "name": "MAP Makalu",
+  "name": "MAPO Makalu",
   "chainId": 212,
   "shortName": "makalu",
   "networkId": 212,
   "nativeCurrency": {
-    "name": "Makalu MAP",
-    "symbol": "MAP",
+    "name": "Makalu MAPO",
+    "symbol": "MAPO",
     "decimals": 18
   },
   "rpc": ["https://testnet-rpc.maplabs.io"],
-  "faucets": ["https://faucet.maplabs.io"],
-  "infoURL": "https://maplabs.io"
+  "faucets": ["https://faucet.mapprotocol.io"],
+  "infoURL": "https://mapprotocol.io/"
 }, {
   "name": "Shinarium Mainnet",
   "chainId": 214,
@@ -10971,9 +10971,9 @@
   "faucets": ["https://faucet.goldxchain.io"],
   "infoURL": "https://goldxchain.io"
 }, {
-  "name": "MAP Mainnet",
+  "name": "MAP Protocol",
   "chainId": 22776,
-  "shortName": "map",
+  "shortName": "mapo",
   "networkId": 22776,
   "nativeCurrency": {
     "name": "MAPO",
@@ -10982,7 +10982,7 @@
   },
   "rpc": ["https://rpc.maplabs.io"],
   "faucets": [],
-  "infoURL": "https://maplabs.io"
+  "infoURL": "https://mapprotocol.io/"
 }, {
   "name": "Antofy Testnet",
   "chainId": 23006,
