@@ -1,25 +1,27 @@
 {
-    "name": "Bubs Testnet",
-    "chain": "BUBS",
-    "rpc": [
-      "https://bubs.calderachain.xyz/http"
-    ],
-    "faucets": [
-        "https://bubstestnet.com"
-    ],
-    "nativeCurrency": {
-      "name": "Ether",
-      "symbol": "gETH",
-      "decimals": 18
-    },
-    "infoURL": "https://bubstestnet.com",
-    "shortName": "eth",
-    "chainId": 1582,
-    "networkId": 1582,
-    "icon": "bubs-testnet",
-    "explorers": [{
+  "name": "Bubs Testnet",
+  "chain": "BUBS",
+  "rpc": [
+    "https://bubs.calderachain.xyz/http"
+  ],
+  "faucets": [
+    "https://bubstestnet.com"
+  ],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "gETH",
+    "decimals": 18
+  },
+  "infoURL": "https://bubstestnet.com",
+  "shortName": "eth",
+  "chainId": 1582,
+  "networkId": 1582,
+  "icon": "bubs-testnet",
+  "explorers": [
+    {
       "name": "Bubs Testnet Explorer",
       "url": "https://explorer.bubstestnet.xyz",
       "standard": "none"
-    }]
-  }
+    }
+  ]
+}
