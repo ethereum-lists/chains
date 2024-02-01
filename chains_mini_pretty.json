@@ -5693,6 +5693,19 @@
   "faucets": ["https://faucet.horizen.io"],
   "infoURL": "https://horizen.io/"
 }, {
+  "name": "Mint Testnet",
+  "chainId": 1686,
+  "shortName": "minttest",
+  "networkId": 1686,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.mintchain.io"],
+  "faucets": [],
+  "infoURL": "https://www.mintchain.io"
+}, {
   "name": "LUDAN Mainnet",
   "chainId": 1688,
   "shortName": "LUDAN",
