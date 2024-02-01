@@ -4292,6 +4292,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Lovely Network Testnet",
+  "chain": "Lovely",
+  "icon": "lovely",
+  "rpc": ["https://trpc.lovely.network"],
+  "faucets": ["https://faucet.lovely.network"],
+  "nativeCurrency": {
+    "name": "Lovely",
+    "symbol": "LOVELY",
+    "decimals": 18
+  },
+  "infoURL": "https://lovely.network",
+  "shortName": "LOVELY-Testnet",
+  "chainId": 307,
+  "networkId": 307,
+  "explorers": [{
+    "name": "Lovely Network Testnet",
+    "url": "https://tscan.lovely.network",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Wyzth Testnet",
   "chain": "WYZ",
   "rpc": ["https://rpc-testnet3.wyzthchain.org/"],
@@ -6018,6 +6038,26 @@
   "chainId": 727,
   "networkId": 727,
   "slip44": 727
+}, {
+  "name": "Lovely Network Mainnet",
+  "chain": "Lovely",
+  "icon": "lovely",
+  "rpc": ["https://rpc.lovely.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lovely",
+    "symbol": "LOVELY",
+    "decimals": 18
+  },
+  "infoURL": "https://lovely.network",
+  "shortName": "LOVELY",
+  "chainId": 730,
+  "networkId": 730,
+  "explorers": [{
+    "name": "Lovely Network Mainnet",
+    "url": "https://scan.lovely.network",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Canto Testnet",
   "chain": "Canto Tesnet",

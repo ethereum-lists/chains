@@ -2729,6 +2729,19 @@
   "faucets": [],
   "infoURL": "https://www.neurochain.ai"
 }, {
+  "name": "Lovely Network Testnet",
+  "chainId": 307,
+  "shortName": "LOVELY-Testnet",
+  "networkId": 307,
+  "nativeCurrency": {
+    "name": "Lovely",
+    "symbol": "LOVELY",
+    "decimals": 18
+  },
+  "rpc": ["https://trpc.lovely.network"],
+  "faucets": ["https://faucet.lovely.network"],
+  "infoURL": "https://lovely.network"
+}, {
   "name": "Wyzth Testnet",
   "chainId": 309,
   "shortName": "wyz",
@@ -3768,6 +3781,19 @@
   "rpc": ["https://data.bluchain.pro"],
   "faucets": [],
   "infoURL": "https://www.blucrates.com"
+}, {
+  "name": "Lovely Network Mainnet",
+  "chainId": 730,
+  "shortName": "LOVELY",
+  "networkId": 730,
+  "nativeCurrency": {
+    "name": "Lovely",
+    "symbol": "LOVELY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.lovely.network"],
+  "faucets": [],
+  "infoURL": "https://lovely.network"
 }, {
   "name": "Canto Testnet",
   "chainId": 740,
