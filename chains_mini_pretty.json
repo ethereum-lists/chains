@@ -15755,6 +15755,19 @@
   "faucets": [],
   "infoURL": "https://aurora.dev"
 }, {
+  "name": "PowerGold",
+  "chainId": 1313161560,
+  "shortName": "powergold",
+  "networkId": 1313161560,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://powergold.aurora.dev"],
+  "faucets": [],
+  "infoURL": "https://www.powergold.tech"
+}, {
   "name": "SKALE Titan Hub",
   "chainId": 1350216234,
   "shortName": "titan-mainnet",
