@@ -13935,6 +13935,19 @@
   "faucets": ["https://faucet.calibration.fildev.network/"],
   "infoURL": "https://filecoin.io"
 }, {
+  "name": "Bloom Genesis Testnet",
+  "chainId": 323213,
+  "shortName": "BGBC-Testnet",
+  "networkId": 323213,
+  "nativeCurrency": {
+    "name": "Bloom",
+    "symbol": "BGBC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.bloomgenesis.com"],
+  "faucets": ["https://faucet.bloomgenesis.com"],
+  "infoURL": "https://www.bloomgenesis.com"
+}, {
   "name": "TTcoin Smart Chain Mainnet",
   "chainId": 330844,
   "shortName": "tc",
@@ -13947,6 +13960,19 @@
   "rpc": ["https://mainnet-rpc.tscscan.com"],
   "faucets": ["https://faucet.tscscan.com"],
   "infoURL": "https://ttcoin.info/"
+}, {
+  "name": "Bloom Genesis Mainnet",
+  "chainId": 333313,
+  "shortName": "BGBC",
+  "networkId": 333313,
+  "nativeCurrency": {
+    "name": "Bloom",
+    "symbol": "BGBC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.bloomgenesis.com"],
+  "faucets": [],
+  "infoURL": "https://www.bloomgenesis.com"
 }, {
   "name": "Aves Testnet",
   "chainId": 333331,
