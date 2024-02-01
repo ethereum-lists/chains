@@ -1910,6 +1910,19 @@
   "faucets": [],
   "infoURL": "https://www.oeblock.com/"
 }, {
+  "name": "Puppynet Shibarium",
+  "chainId": 157,
+  "shortName": "puppynet",
+  "networkId": 157,
+  "nativeCurrency": {
+    "name": "BONE",
+    "symbol": "BONE",
+    "decimals": 18
+  },
+  "rpc": ["https://puppynet.shibrpc.com"],
+  "faucets": ["https://beta.shibariumtech.com/faucet"],
+  "infoURL": "https://shibariumecosystem.com"
+}, {
   "name": "Armonia Eva Chain Mainnet",
   "chainId": 160,
   "shortName": "eva",
