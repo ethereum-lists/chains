@@ -2586,6 +2586,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "BPX Blockchain",
+  "chainId": 279,
+  "shortName": "bpx",
+  "networkId": 279,
+  "nativeCurrency": {
+    "name": "BPX",
+    "symbol": "BPX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mainnet.bpxchain.cc", "https://bpx-dataseed.infinex.cc"],
+  "faucets": [],
+  "infoURL": "https://bpxchain.cc"
+}, {
   "name": "zkSync Era Goerli Testnet (deprecated)",
   "chainId": 280,
   "shortName": "zksync-goerli",
