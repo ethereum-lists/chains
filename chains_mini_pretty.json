@@ -8757,7 +8757,7 @@
     "symbol": "ZETA",
     "decimals": 18
   },
-  "rpc": ["https://api.mainnet.zetachain.com/evm"],
+  "rpc": ["https://zetachain-evm.blockpi.network/v1/rpc/public", "https://zetachain-mainnet-archive.allthatnode.com:8545"],
   "faucets": [],
   "infoURL": "https://zetachain.com/docs/"
 }, {
