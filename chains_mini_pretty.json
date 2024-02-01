@@ -4809,6 +4809,19 @@
   "faucets": [],
   "infoURL": "https://moac.io"
 }, {
+  "name": "Dymension",
+  "chainId": 1100,
+  "shortName": "dymension",
+  "networkId": 1100,
+  "nativeCurrency": {
+    "name": "DYM",
+    "symbol": "DYM",
+    "decimals": 18
+  },
+  "rpc": ["https://dymension-evm.blockpi.network/v1/rpc/public"],
+  "faucets": [],
+  "infoURL": "https://dymension.xyz"
+}, {
   "name": "Polygon zkEVM",
   "chainId": 1101,
   "shortName": "zkevm",
