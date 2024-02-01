@@ -7136,6 +7136,19 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "Xenon Chain Testnet",
+  "chainId": 2941,
+  "shortName": "xenon",
+  "networkId": 2941,
+  "nativeCurrency": {
+    "name": "Xenon Testnet",
+    "symbol": "tXEN",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-chain.xenonchain.com/", "https://testnet-dev.xenonchain.com/"],
+  "faucets": ["https://xfaucet.xenonchain.com"],
+  "infoURL": "https://xenonchain.com"
+}, {
   "name": "BitYuan Mainnet",
   "chainId": 2999,
   "shortName": "bty",
