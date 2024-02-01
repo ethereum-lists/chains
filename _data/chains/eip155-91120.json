@@ -4,10 +4,7 @@
   "chain": "MetaDAP",
   "icon": "metadap",
   "faucets": [],
-  "rpc": [
-    "https://rpc.chain.metadap.io",
-    "wss://rpc-ws.chain.metadap.io"
-  ],
+  "rpc": ["https://rpc.chain.metadap.io", "wss://rpc-ws.chain.metadap.io"],
   "nativeCurrency": {
     "name": "DAP",
     "symbol": "DAP",
