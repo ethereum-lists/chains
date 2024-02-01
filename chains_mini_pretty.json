@@ -12986,6 +12986,19 @@
   "faucets": ["https://faucet.eclipse.builders"],
   "infoURL": "https://docs.nautchain.xyz"
 }, {
+  "name": "MetaDAP Enterprise Mainnet",
+  "chainId": 91120,
+  "shortName": "MetaDAP",
+  "networkId": 91120,
+  "nativeCurrency": {
+    "name": "DAP",
+    "symbol": "DAP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.chain.metadap.io", "wss://rpc-ws.chain.metadap.io"],
+  "faucets": [],
+  "infoURL": "https://metadap.io/"
+}, {
   "name": "Combo Testnet",
   "chainId": 91715,
   "shortName": "combo-testnet",
@@ -13440,6 +13453,19 @@
   "rpc": ["https://rpc.metachain.one", "https://rpc2.metachain.one"],
   "faucets": [],
   "infoURL": "https://metachain.one"
+}, {
+  "name": "MetaDAP Enterprise Testnet",
+  "chainId": 119139,
+  "shortName": "MetaDAP-T",
+  "networkId": 119139,
+  "nativeCurrency": {
+    "name": "DAP",
+    "symbol": "DAP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.chain.metadap.io", "wss://rpc-ws.testnet.chain.metadap.io"],
+  "faucets": [],
+  "infoURL": "https://metadap.io/"
 }, {
   "name": "ADIL Devnet",
   "chainId": 123456,

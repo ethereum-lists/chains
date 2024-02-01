@@ -20729,6 +20729,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "MetaDAP Enterprise Mainnet",
+  "title": "MetaDAP Enterprise Mainnet",
+  "chain": "MetaDAP",
+  "icon": "metadap",
+  "faucets": [],
+  "rpc": ["https://rpc.chain.metadap.io", "wss://rpc-ws.chain.metadap.io"],
+  "nativeCurrency": {
+    "name": "DAP",
+    "symbol": "DAP",
+    "decimals": 18
+  },
+  "infoURL": "https://metadap.io/",
+  "shortName": "MetaDAP",
+  "chainId": 91120,
+  "networkId": 91120,
+  "explorers": [{
+    "name": "MetaDAP Enterprise Mainnet explorer",
+    "url": "https://explorer.chain.metadap.io",
+    "standard": "none"
+  }]
+}, {
   "name": "Combo Testnet",
   "chain": "Combo",
   "icon": "combo",
@@ -21467,6 +21488,27 @@
     "url": "https://explorer.metachain.one",
     "icon": "blockscout",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "MetaDAP Enterprise Testnet",
+  "title": "MetaDAP Enterprise Testnet",
+  "chain": "MetaDAP",
+  "icon": "metadap",
+  "faucets": [],
+  "rpc": ["https://rpc.testnet.chain.metadap.io", "wss://rpc-ws.testnet.chain.metadap.io"],
+  "nativeCurrency": {
+    "name": "DAP",
+    "symbol": "DAP",
+    "decimals": 18
+  },
+  "infoURL": "https://metadap.io/",
+  "shortName": "MetaDAP-T",
+  "chainId": 119139,
+  "networkId": 119139,
+  "explorers": [{
+    "name": "MetaDAP Enterprise Testnet explorer",
+    "url": "https://explorer.testnet.chain.metadap.io",
+    "standard": "none"
   }]
 }, {
   "name": "ADIL Devnet",
