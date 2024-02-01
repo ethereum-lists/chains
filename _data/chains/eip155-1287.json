@@ -1,10 +1,9 @@
 {
-  "name": "Moonbeam Testnet Moonbase Alpha",
+  "name": "Moonbase Alpha",
   "chain": "MOON",
-  "network": "moonbase",
   "rpc": [
-    "https://rpc.testnet.moonbeam.network",
-    "wss://wss.testnet.moonbeam.network"
+    "https://rpc.api.moonbase.moonbeam.network",
+    "wss://wss.api.moonbase.moonbeam.network"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -15,5 +14,13 @@
   "infoURL": "https://docs.moonbeam.network/networks/testnet/",
   "shortName": "mbase",
   "chainId": 1287,
-  "networkId": 1287
+  "networkId": 1287,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "moonscan",
+      "url": "https://moonbase.moonscan.io",
+      "standard": "none"
+    }
+  ]
 }

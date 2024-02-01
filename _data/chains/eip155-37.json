@@ -1,0 +1,24 @@
+{
+  "name": "Xpla Mainnet",
+  "chain": "XPLA",
+  "rpc": ["https://dimension-evm-rpc.xpla.dev"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "XPLA",
+    "symbol": "XPLA",
+    "decimals": 18
+  },
+  "infoURL": "https://xpla.io",
+  "shortName": "xpla",
+  "chainId": 37,
+  "networkId": 37,
+  "icon": "xpla",
+  "explorers": [
+    {
+      "name": "XPLA Explorer",
+      "url": "https://explorer.xpla.io/mainnet",
+      "standard": "EIP3091"
+    }
+  ],
+  "redFlags": ["reusedChainId"]
+}

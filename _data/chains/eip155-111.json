@@ -1,0 +1,16 @@
+{
+  "name": "EtherLite Chain",
+  "chain": "ETL",
+  "rpc": ["https://rpc.etherlite.org"],
+  "faucets": ["https://etherlite.org/faucets"],
+  "nativeCurrency": {
+    "name": "EtherLite",
+    "symbol": "ETL",
+    "decimals": 18
+  },
+  "infoURL": "https://etherlite.org",
+  "shortName": "ETL",
+  "chainId": 111,
+  "networkId": 111,
+  "icon": "etherlite"
+}

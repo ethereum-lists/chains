@@ -1,18 +1,15 @@
 {
-  "name": "NEAR BetaNet",
+  "name": "Aurora Betanet",
   "chain": "NEAR",
-  "network": "betanet",
-  "rpc": [
-  ],
-  "faucets": [
-  ],
+  "rpc": [],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "NEAR",
-    "symbol": "bNEAR",
-    "decimals": 24
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
   },
-  "infoURL": "https://near.org/",
-  "shortName": "nearb",
+  "infoURL": "https://aurora.dev",
+  "shortName": "aurora-betanet",
   "chainId": 1313161556,
   "networkId": 1313161556
 }

@@ -1,0 +1,17 @@
+{
+  "name": "KardiaChain Mainnet",
+  "chain": "KAI",
+  "icon": "kardiachain",
+  "rpc": ["https://rpc.kardiachain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "KardiaChain",
+    "symbol": "KAI",
+    "decimals": 18
+  },
+  "infoURL": "https://kardiachain.io",
+  "shortName": "kardiachain",
+  "chainId": 24,
+  "networkId": 0,
+  "redFlags": ["reusedChainId"]
+}

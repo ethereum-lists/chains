@@ -1,0 +1,24 @@
+{
+  "name": "eCredits Mainnet",
+  "chain": "ECS",
+  "rpc": ["https://rpc.ecredits.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "eCredits",
+    "symbol": "ECS",
+    "decimals": 18
+  },
+  "infoURL": "https://ecredits.com",
+  "shortName": "ecs",
+  "chainId": 63000,
+  "networkId": 63000,
+  "icon": "ecredits",
+  "explorers": [
+    {
+      "name": "eCredits MainNet Explorer",
+      "url": "https://explorer.ecredits.com",
+      "icon": "ecredits",
+      "standard": "EIP3091"
+    }
+  ]
+}

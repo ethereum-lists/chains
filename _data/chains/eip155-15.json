@@ -1,11 +1,7 @@
 {
   "name": "Diode Prenet",
   "chain": "DIODE",
-  "network": "mainnet",
-  "rpc": [
-    "https://prenet.diode.io:8443/",
-    "wss://prenet.diode.io:8443/ws"
-  ],
+  "rpc": ["https://prenet.diode.io:8443/", "wss://prenet.diode.io:8443/ws"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Diodes",

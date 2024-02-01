@@ -1,0 +1,28 @@
+{
+  "name": "IMPERIUM TESTNET",
+  "chain": "tIMP",
+  "rpc": [
+    "https://data-aws-testnet.imperiumchain.com",
+    "https://data-aws2-testnet.imperiumchain.com"
+  ],
+  "faucets": ["https://faucet.imperiumchain.com/"],
+  "nativeCurrency": {
+    "name": "tIMP",
+    "symbol": "tIMP",
+    "decimals": 18
+  },
+  "infoURL": "https://imperiumchain.com",
+  "shortName": "tIMP",
+  "chainId": 9818,
+  "networkId": 9818,
+  "slip44": 1,
+  "icon": "timp",
+  "explorers": [
+    {
+      "name": "IMPERIUM TESTNET Explorer",
+      "icon": "timp",
+      "url": "https://network.impscan.com",
+      "standard": "none"
+    }
+  ]
+}

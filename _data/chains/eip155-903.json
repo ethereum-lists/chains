@@ -1,0 +1,29 @@
+{
+  "name": "Garizon Testnet Stage3",
+  "chain": "GAR",
+  "icon": "garizon",
+  "rpc": ["https://s3-testnet.garizon.net/rpc"],
+  "faucets": ["https://faucet-testnet.garizon.com"],
+  "nativeCurrency": {
+    "name": "Garizon",
+    "symbol": "GAR",
+    "decimals": 18
+  },
+  "infoURL": "https://garizon.com",
+  "shortName": "gar-test-s3",
+  "chainId": 903,
+  "networkId": 903,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "explorer",
+      "url": "https://explorer-testnet.garizon.com",
+      "icon": "garizon",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "chain": "eip155-900",
+    "type": "shard"
+  }
+}

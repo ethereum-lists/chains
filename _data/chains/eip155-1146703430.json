@@ -1,0 +1,25 @@
+{
+  "name": "CyberdeckNet",
+  "chain": "cyberdeck",
+  "rpc": ["http://cybeth1.cyberdeck.eu:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Cyb",
+    "symbol": "CYB",
+    "decimals": 18
+  },
+  "infoURL": "https://cyberdeck.eu",
+  "shortName": "cyb",
+  "chainId": 1146703430,
+  "networkId": 1146703430,
+  "icon": "cyberdeck",
+  "status": "active",
+  "explorers": [
+    {
+      "name": "CybEthExplorer",
+      "url": "http://cybeth1.cyberdeck.eu:8000",
+      "icon": "cyberdeck",
+      "standard": "none"
+    }
+  ]
+}

@@ -1,10 +1,7 @@
 {
   "name": "Joys Digital Mainnet",
   "chain": "JOYS",
-  "network": "mainnet",
-  "rpc": [
-    "https://node.joys.digital"
-  ],
+  "rpc": ["https://node.joys.digital"],
   "faucets": [],
   "nativeCurrency": {
     "name": "JOYS",

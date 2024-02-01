@@ -1,18 +1,29 @@
 {
-  "name": "Avalanche Mainnet",
+  "name": "Avalanche C-Chain",
   "chain": "AVAX",
-  "network": "mainnet",
+  "icon": "avax",
   "rpc": [
-    "https://api.avax.network/ext/bc/C/rpc"
+    "https://api.avax.network/ext/bc/C/rpc",
+    "https://avalanche-c-chain.publicnode.com",
+    "wss://avalanche-c-chain.publicnode.com"
   ],
+  "features": [{ "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
     "name": "Avalanche",
     "symbol": "AVAX",
     "decimals": 18
   },
-  "infoURL": "https://cchain.explorer.avax.network/",
-  "shortName": "Avalanche",
+  "infoURL": "https://www.avax.network/",
+  "shortName": "avax",
   "chainId": 43114,
-  "networkId": 1    
+  "networkId": 43114,
+  "slip44": 9005,
+  "explorers": [
+    {
+      "name": "snowtrace",
+      "url": "https://snowtrace.io",
+      "standard": "EIP3091"
+    }
+  ]
 }

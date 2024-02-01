@@ -1,0 +1,23 @@
+{
+  "name": "Venidium Mainnet",
+  "chain": "XVM",
+  "icon": "venidium",
+  "rpc": ["https://rpc.venidium.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Venidium",
+    "symbol": "XVM",
+    "decimals": 18
+  },
+  "infoURL": "https://venidium.io",
+  "shortName": "xvm",
+  "chainId": 4919,
+  "networkId": 4919,
+  "explorers": [
+    {
+      "name": "Venidium Explorer",
+      "url": "https://evm.venidiumexplorer.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

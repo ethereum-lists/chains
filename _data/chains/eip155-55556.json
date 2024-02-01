@@ -1,0 +1,24 @@
+{
+  "name": "REI Chain Testnet",
+  "chain": "REI",
+  "icon": "reichain",
+  "rpc": ["https://rei-testnet-rpc.moonrhythm.io"],
+  "faucets": ["http://kururu.finance/faucet?chainId=55556"],
+  "nativeCurrency": {
+    "name": "tRei",
+    "symbol": "tREI",
+    "decimals": 18
+  },
+  "infoURL": "https://reichain.io",
+  "shortName": "trei",
+  "chainId": 55556,
+  "networkId": 55556,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "reiscan",
+      "url": "https://testnet.reiscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
