@@ -2,7 +2,7 @@
   "name": "Cronos zkEVM Testnet",
   "chain": "CRO",
   "rpc": ["https://rpc-zkevm-t0.cronos.org"],
-  "faucets": ["https://zkevm-t0.cronos.org/faucet/"],
+  "faucets": ["https://zkevm-t0.cronos.org/faucet"],
   "nativeCurrency": {
     "name": "Cronos zkEVM Test Coin",
     "symbol": "TCRO",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "Cronos zkEVM Testnet Explorer",
-      "url": "https://zkevm-t0.cronos.org/explorer/",
+      "url": "https://zkevm-t0.cronos.org/explorer",
       "standard": "none"
     }
   ]
