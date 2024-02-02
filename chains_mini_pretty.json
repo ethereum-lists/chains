@@ -14546,6 +14546,19 @@
   "faucets": ["https://testnet-faucet.helachain.com"],
   "infoURL": "https://helalabs.com"
 }, {
+  "name": "Sei Devnet",
+  "chainId": 713715,
+  "shortName": "sei-devnet",
+  "networkId": 713715,
+  "nativeCurrency": {
+    "name": "Sei",
+    "symbol": "SEI",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-rpc-arctic-1.sei-apis.com", "https://evm-rpc.arctic-1.seinetwork.io"],
+  "faucets": ["https://sei-faucet.nima.enterprises", "https://sei-evm.faucetme.pro"],
+  "infoURL": "https://www.sei.io"
+}, {
   "name": "Bear Network Chain Testnet",
   "chainId": 751230,
   "shortName": "BRNKCTEST",
