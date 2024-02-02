@@ -1,0 +1,23 @@
+{
+  "name": "Ancient8",
+  "chain": "Ancient8",
+  "icon": "ancient8",
+  "rpc": ["https://rpc.ancient8.gg"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://ancient8.gg/",
+  "shortName": "ancient8",
+  "chainId": 888888888,
+  "networkId": 888888888,
+  "explorers": [
+    {
+      "name": "Ancient8 Explorer",
+      "url": "https://scan.ancient8.gg",
+      "standard": "EIP3091"
+    }
+  ]
+}
