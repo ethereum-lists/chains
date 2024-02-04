@@ -1,0 +1,30 @@
+{
+  "name": "OpTrust Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": ["https://rpcsepolia.optrust.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://optrust.io",
+  "shortName": "optsep",
+  "chainId": 5675,
+  "networkId": 5675,
+  "slip44": 1,
+  "icon": "optrust",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://scan.optrust.io",
+      "icon": "optrust",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.optrust.io" }]
+  }
+}
