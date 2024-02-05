@@ -7175,6 +7175,19 @@
   "faucets": [],
   "infoURL": "https://www.laosfoundation.io/"
 }, {
+  "name": "Elizabeth Testnet",
+  "chainId": 2731,
+  "shortName": "TIME",
+  "networkId": 2731,
+  "nativeCurrency": {
+    "name": "TIME",
+    "symbol": "TIME",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.timenetwork.io"],
+  "faucets": [],
+  "infoURL": "https://whitepaper.anttime.net/overview/anttime"
+}, {
   "name": "Boba Network Goerli Testnet",
   "chainId": 2888,
   "shortName": "BobaGoerli",
