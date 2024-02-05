@@ -2,8 +2,8 @@
   "name": "ethereum Fair",
   "chainId": 513100,
   "networkId": 513100,
-  "shortName": "ethf",
-  "chain": "ETHF",
+  "shortName": "etf",
+  "chain": "ETF",
   "nativeCurrency": {
     "name": "EthereumFair",
     "symbol": "ETHF",
@@ -14,7 +14,7 @@
   "explorers": [
     {
       "name": "etherfair",
-      "url": "https://www.oklink.com/ethf",
+      "url": "https://explorer.etherfair.org",
       "standard": "EIP3091"
     }
   ],
