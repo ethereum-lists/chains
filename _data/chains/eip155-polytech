@@ -1,0 +1,24 @@
+{
+  "name": "PolyTech Chain TestNet",
+  "chain": "PolyTech Chain TestNet",
+  "rpc": ["https://rpc-testnet.ptcscan.io"],
+  "faucets": ["https://faucet.ptcscan.io"],
+  "nativeCurrency": {
+    "name": "PTCE",
+    "symbol": "PTCE",
+    "decimals": 18
+  },
+  "infoURL": "https://explorer-testnet.ptcscan.io",
+  "shortName": "PolyTech Chain TestNet",
+  "chainId": 889910245,
+  "networkId": 889910245,
+  "icon": "ptc_logo",
+  "explorers": [
+    {
+      "name": "Nexablock Testnet Explorer",
+      "url": "https://explorer-testnet.ptcscan.io",
+      "standard": "none",
+      "icon": "ptc_logo"
+    }
+  ]
+}
