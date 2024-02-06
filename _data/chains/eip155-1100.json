@@ -12,6 +12,11 @@
   "shortName": "dymension",
   "chainId": 1100,
   "networkId": 1100,
-  "explorers": [],
-  "status": "incubating"
+  "explorers": [
+    {
+      "name": "dym.fyi",
+      "url": "https://dym.fyi",
+      "standard": "EIP3091"
+    }
+  ]
 }
