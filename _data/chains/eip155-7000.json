@@ -2,7 +2,10 @@
   "name": "ZetaChain Mainnet",
   "chain": "ZetaChain",
   "icon": "zetachain",
-  "rpc": ["https://api.mainnet.zetachain.com/evm"],
+  "rpc": [
+    "https://zetachain-evm.blockpi.network/v1/rpc/public",
+    "https://zetachain-mainnet-archive.allthatnode.com:8545"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Zeta",
@@ -13,7 +16,7 @@
   "shortName": "zetachain-mainnet",
   "chainId": 7000,
   "networkId": 7000,
-  "status": "incubating",
+  "status": "active",
   "explorers": [
     {
       "name": "ZetaChain Mainnet Explorer",
