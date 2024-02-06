@@ -5223,6 +5223,23 @@
     "standard": "none"
   }]
 }, {
+  "name": "Syndicate Chain",
+  "title": "Syndicate Chain",
+  "chain": "Syndicate",
+  "rpc": ["https://rpc-mainnet.syndicate.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://syndicate.io",
+  "shortName": "syndicate-chain-mainnet",
+  "chainId": 510,
+  "networkId": 510,
+  "status": "incubating",
+  "icon": "syndicate"
+}, {
   "name": "Double-A Chain Mainnet",
   "chain": "AAC",
   "rpc": ["https://rpc.acuteangle.com"],
@@ -13146,6 +13163,40 @@
     "icon": "treasurenet",
     "standard": "none"
   }]
+}, {
+  "name": "Syndicate Testnet",
+  "title": "Syndicate Testnet",
+  "chain": "Syndicate",
+  "rpc": ["https://rpc-testnet.syndicate.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "S-Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://syndicate.io",
+  "shortName": "syndicate-chain-testnet",
+  "chainId": 5100,
+  "networkId": 5100,
+  "status": "incubating",
+  "icon": "syndicate"
+}, {
+  "name": "Syndicate Frame Chain",
+  "title": "Syndicate Frame Chain",
+  "chain": "Syndicate Frame",
+  "rpc": ["https://rpc-frame.syndicate.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://syndicate.io",
+  "shortName": "syndicate-chain-frame",
+  "chainId": 5101,
+  "networkId": 5101,
+  "status": "incubating",
+  "icon": "syndicate"
 }, {
   "name": "Bahamut",
   "title": "Bahamut mainnet",

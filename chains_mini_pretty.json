@@ -3262,6 +3262,19 @@
   "faucets": [],
   "infoURL": "https://camino.network/"
 }, {
+  "name": "Syndicate Chain",
+  "chainId": 510,
+  "shortName": "syndicate-chain-mainnet",
+  "networkId": 510,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet.syndicate.io"],
+  "faucets": [],
+  "infoURL": "https://syndicate.io"
+}, {
   "name": "Double-A Chain Mainnet",
   "chainId": 512,
   "shortName": "aac",
@@ -8253,6 +8266,32 @@
   "rpc": ["https://node0.testnet.treasurenet.io", "https://node1.testnet.treasurenet.io", "https://node2.testnet.treasurenet.io", "https://node3.testnet.treasurenet.io"],
   "faucets": [],
   "infoURL": "https://www.testnet.treasurenet.io"
+}, {
+  "name": "Syndicate Testnet",
+  "chainId": 5100,
+  "shortName": "syndicate-chain-testnet",
+  "networkId": 5100,
+  "nativeCurrency": {
+    "name": "S-Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.syndicate.io"],
+  "faucets": [],
+  "infoURL": "https://syndicate.io"
+}, {
+  "name": "Syndicate Frame Chain",
+  "chainId": 5101,
+  "shortName": "syndicate-chain-frame",
+  "networkId": 5101,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-frame.syndicate.io"],
+  "faucets": [],
+  "infoURL": "https://syndicate.io"
 }, {
   "name": "Bahamut",
   "chainId": 5165,
