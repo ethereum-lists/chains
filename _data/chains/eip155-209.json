@@ -1,0 +1,30 @@
+{
+  "name": "idexo L3 Testnet",
+  "chain": "ETH",
+  "rpc": ["https://testnet-rpc.idexo.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://idexo.com",
+  "shortName": "idexo-sepolia",
+  "chainId": 209,
+  "networkId": 209,
+  "slip44": 1,
+  "icon": "idexo",
+  "explorers": [
+    {
+      "name": "idexo Block Explorer",
+      "url": "https://sepolia.explorer.idexo.io",
+      "icon": "idexo",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-300",
+    "bridges": [{ "url": "https://bridge.idexo.io/" }]
+  }
+}

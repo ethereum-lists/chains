@@ -1,0 +1,29 @@
+{
+  "name": "idexo L3 Mainnet",
+  "chain": "ETH",
+  "rpc": ["https://mainnet.idexo.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://idexo.com",
+  "shortName": "idexo",
+  "chainId": 308,
+  "networkId": 308,
+  "icon": "idexo",
+  "explorers": [
+    {
+      "name": "idexo L3 Block Explorer",
+      "url": "https://explorer.idexo.io",
+      "icon": "idexo",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-324",
+    "bridges": [{ "url": "https://bridge.idexo.io/" }]
+  }
+}
