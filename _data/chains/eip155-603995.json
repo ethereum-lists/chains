@@ -1,0 +1,35 @@
+{
+  "name": "Staava Subnet Fuji",
+  "chain": "2YBPw8vxrWQoVKLHooavpnCQej8yCpgK2EfqGQ8biELyfYfHfo",
+  "rpc": [
+    "https://testnet-node.staava.network/"
+  ],
+  "faucets": ["https://testnet.staava.network:5005/"],
+  "nativeCurrency": {
+    "name": "staava",
+    "symbol": "tSTAAV",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://staava.network",
+  "shortName": "Staava",
+  "chainId": 603995,
+  "networkId": 603995,
+  "icon": "staava",
+  "status": "active",
+  "explorers": [
+    {
+      "name": "staava fuji explorer",
+      "url": "https://testnet.staava.network",
+      "icon": "staava-explorer",
+      "standard": "EIP3091"
+    }
+  ]
+}
