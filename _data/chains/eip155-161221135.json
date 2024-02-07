@@ -18,7 +18,7 @@
   "explorers": [
     {
       "name": "Blockscout",
-      "url": "https://plume-testnet.explorer.caldera.xyz/",
+      "url": "https://plume-testnet.explorer.caldera.xyz",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
@@ -26,6 +26,6 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://plume-testnet.calderabridge.xyz/" }]
+    "bridges": [{ "url": "https://plume-testnet.calderabridge.xyz" }]
   }
 }
