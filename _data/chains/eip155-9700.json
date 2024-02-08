@@ -2,16 +2,24 @@
   "name": "Oort MainnetDev",
   "title": "Oort MainnetDev",
   "chain": "MainnetDev",
-  "rpc": [],
+  "rpc": ["https://dev-rpc.oortech.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Oort",
-    "symbol": "CCN",
+    "symbol": "OORT",
     "decimals": 18
   },
   "infoURL": "https://oortech.com",
   "shortName": "MainnetDev",
   "chainId": 9700,
   "networkId": 9700,
-  "icon": "ccn"
+  "icon": "oort",
+  "explorers": [
+    {
+      "name": "Oort MainnetDev Scan",
+      "url": "https://dev-scan.oortech.com",
+      "standard": "none",
+      "icon": "oort"
+    }
+  ]
 }

@@ -1,0 +1,16 @@
+{
+  "name": "BPX Blockchain",
+  "chain": "BPX",
+  "icon": "bpx",
+  "rpc": ["https://rpc.mainnet.bpxchain.cc", "https://bpx-dataseed.infinex.cc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BPX",
+    "symbol": "BPX",
+    "decimals": 18
+  },
+  "infoURL": "https://bpxchain.cc",
+  "shortName": "bpx",
+  "chainId": 279,
+  "networkId": 279
+}

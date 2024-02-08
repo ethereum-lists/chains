@@ -1,0 +1,22 @@
+{
+  "name": "GoldXChain Mainnet",
+  "chain": "GoldX",
+  "rpc": ["https://mainnet-rpc.goldxchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GoldX",
+    "symbol": "GOLDX",
+    "decimals": 18
+  },
+  "infoURL": "https://goldxchain.io",
+  "shortName": "goldx",
+  "chainId": 42355,
+  "networkId": 42355,
+  "explorers": [
+    {
+      "name": "GoldXChain Explorer",
+      "url": "https://explorer.goldxchain.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
