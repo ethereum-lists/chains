@@ -5,10 +5,10 @@
     "https://testnet-rpc.bitlayer.org",
     "wss://testnet-ws.bitlayer.org"
   ],
-  "faucets": ["https://testnet-scan.bitlayer.org"],
+  "faucets": ["https://www.bitlayer.org/faucet"],
   "nativeCurrency": {
-    "name": "BRC Token",
-    "symbol": "BRC",
+    "name": "BTC",
+    "symbol": "BTC",
     "decimals": 18
   },
   "infoURL": "https://docs.bitlayer.org/",
@@ -16,5 +16,12 @@
   "chainId": 200810,
   "networkId": 200810,
   "slip44": 1,
-  "icon": "bitlayer"
+  "icon": "bitlayer",
+  "explorers": [
+    {
+      "name": "bitlayer testnet scan",
+      "url": "https://testnet-scan.bitlayer.org",
+      "standard": "none"
+    }
+  ]
 }
