@@ -2,12 +2,8 @@
   "name": "Aternos",
   "chain": "Aternos",
   "icon": "aternos",
-  "rpc": [
-    "https://rpc.aternoschain.com"
-  ],
-  "faucets": [
-    "https://faucet.aternoschain.com"
-  ],
+  "rpc": ["https://rpc.aternoschain.com"],
+  "faucets": ["https://faucet.aternoschain.com"],
   "nativeCurrency": {
     "name": "Aternos",
     "symbol": "ATR",
