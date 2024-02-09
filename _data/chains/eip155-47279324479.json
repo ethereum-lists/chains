@@ -1,0 +1,33 @@
+{
+  "name": "Xai Goerli Orbit",
+  "chainId": 47279324479,
+  "shortName": "xai",
+  "chain": "ETH",
+  "networkId": 47279324479,
+  "icon": "xai",
+  "nativeCurrency": {
+    "name": "XAI",
+    "symbol": "XAI",
+    "decimals": 18
+  },
+  "rpc": [
+    "https://testnet.xai-chain.net/rpc",
+    "https://xai-goerli-orbit.rpc.thirdweb.com/"
+  ],
+  "faucets": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "explorers": [
+    {
+      "name": "XAI Testnet Explorer",
+      "url": "https://testnet-explorer.xai-chain.net/",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://xai-foundation.gitbook.io/xai-network/xai-blockchain/welcome-to-xai",
+  "parent": {
+    "type": "L3",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.arbitrum.io/?destinationChain=xai-testnet&sourceChain=arbitrum-goerli" }]
+  }
+}
