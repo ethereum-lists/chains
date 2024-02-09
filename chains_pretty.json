@@ -10218,6 +10218,20 @@
     "icon": "shuffle"
   }]
 }, {
+  "name": "Swan Saturn Testnet",
+  "chain": "SWAN",
+  "rpc": ["https://saturn-rpc.swanchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SWANETH",
+    "symbol": "SWAN",
+    "decimals": 18
+  },
+  "infoURL": "https://swanchain.io/",
+  "shortName": "swan",
+  "chainId": 2024,
+  "networkId": 2024
+}, {
   "name": "Rangers Protocol Mainnet",
   "chain": "Rangers",
   "icon": "rangers",

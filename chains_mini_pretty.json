@@ -6447,6 +6447,19 @@
   "faucets": ["https://ttaycan-faucet.hupayx.io/"],
   "infoURL": "https://hupayx.io"
 }, {
+  "name": "Swan Saturn Testnet",
+  "chainId": 2024,
+  "shortName": "swan",
+  "networkId": 2024,
+  "nativeCurrency": {
+    "name": "SWANETH",
+    "symbol": "SWAN",
+    "decimals": 18
+  },
+  "rpc": ["https://saturn-rpc.swanchain.io"],
+  "faucets": [],
+  "infoURL": "https://swanchain.io/"
+}, {
   "name": "Rangers Protocol Mainnet",
   "chainId": 2025,
   "shortName": "rpg",
