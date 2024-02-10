@@ -19,7 +19,7 @@
   "explorers": [
     {
       "name": "XAI Arb Mainnet Explorer",
-      "url": "https://explorer.xai-chain.net/",
+      "url": "https://explorer.xai-chain.net",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
@@ -28,6 +28,10 @@
   "parent": {
     "type": "L3",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.arbitrum.io/?destinationChain=xai&sourceChain=arbitrum-one" }]
+    "bridges": [
+      { 
+        "url": "https://bridge.arbitrum.io/?destinationChain=xai&sourceChain=arbitrum-one" 
+      }
+    ]
   }
 }

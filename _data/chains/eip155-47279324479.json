@@ -19,7 +19,7 @@
   "explorers": [
     {
       "name": "XAI Testnet Explorer",
-      "url": "https://testnet-explorer.xai-chain.net/",
+      "url": "https://testnet-explorer.xai-chain.net",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
@@ -28,6 +28,11 @@
   "parent": {
     "type": "L3",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.arbitrum.io/?destinationChain=xai-testnet&sourceChain=arbitrum-goerli" }]
+    "bridges": [
+      { 
+        "url": "https://bridge.arbitrum.io/?destinationChain=xai-testnet&sourceChain=arbitrum-goerli" 
+      }
+    ]
   }
+  
 }
