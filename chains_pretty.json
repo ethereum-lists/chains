@@ -12819,7 +12819,7 @@
 }, {
   "name": "Beam",
   "chain": "BEAM",
-  "rpc": ["https://subnets.avax.network/beam/mainnet/rpc", "wss://subnets.avax.network/beam/mainnet/ws"],
+  "rpc": ["https://build.onbeam.com/rpc", "wss://build.onbeam.com/ws", "https://subnets.avax.network/beam/mainnet/rpc", "wss://subnets.avax.network/beam/mainnet/ws"],
   "features": [{
     "name": "EIP1559"
   }],
@@ -16837,7 +16837,7 @@
 }, {
   "name": "Beam Testnet",
   "chain": "BEAM",
-  "rpc": ["https://subnets.avax.network/beam/testnet/rpc", "wss://subnets.avax.network/beam/testnet/ws"],
+  "rpc": ["https://build.onbeam.com/rpc/testnet", "wss://build.onbeam.com/ws/testnet", "https://subnets.avax.network/beam/testnet/rpc", "wss://subnets.avax.network/beam/testnet/ws"],
   "features": [{
     "name": "EIP1559"
   }],
