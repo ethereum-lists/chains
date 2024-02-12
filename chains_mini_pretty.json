@@ -9775,18 +9775,31 @@
   "faucets": ["https://t.me/BerylBit"],
   "infoURL": "https://www.beryl-bit.com"
 }, {
-  "name": "Nexa Block",
+  "name": "Nexa Testnet Block",
   "chainId": 9024,
-  "shortName": "Nexa",
+  "shortName": "NexaTestnet",
   "networkId": 9024,
   "nativeCurrency": {
-    "name": "Nexa Token",
+    "name": "Nexa Testnet Token",
     "symbol": "NEXB",
     "decimals": 18
   },
   "rpc": ["https://rpc-testnet-nodes.nexablockscan.io"],
-  "faucets": ["https://nexablockscan.io/faucet"],
-  "infoURL": "https://www.nexablock.io/"
+  "faucets": ["https://testnet.nexablockscan.io/faucet"],
+  "infoURL": "https://www.nexablock.io"
+}, {
+  "name": "Nexa Mainnet Block",
+  "chainId": 9025,
+  "shortName": "Nexa",
+  "networkId": 9025,
+  "nativeCurrency": {
+    "name": "Nexa Mainnet Token",
+    "symbol": "NEXB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-nodes.nexablockscan.io"],
+  "faucets": [],
+  "infoURL": "https://www.nexablock.io"
 }, {
   "name": "Genesis Coin",
   "chainId": 9100,
