@@ -2,6 +2,8 @@
   "name": "Beam Testnet",
   "chain": "BEAM",
   "rpc": [
+    "https://build.onbeam.com/rpc/testnet",
+    "wss://build.onbeam.com/ws/testnet",
     "https://subnets.avax.network/beam/testnet/rpc",
     "wss://subnets.avax.network/beam/testnet/ws"
   ],
