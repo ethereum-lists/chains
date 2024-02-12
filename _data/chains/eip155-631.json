@@ -1,0 +1,23 @@
+{
+    "name": "CheckDot Blockchain Devnet",
+    "chain": "CDT Blockchain",
+    "rpc": ["https://devnet.checkdot.io"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "CDT",
+      "symbol": "CDT",
+      "decimals": 18
+    },
+    "infoURL": "https://graphlinq.io",
+    "shortName": "cdt",
+    "chainId": 631,
+    "networkId": 631,
+    "explorers": [
+      {
+        "name": "CDT Explorer",
+        "url": "https://explorer.checkdot.io",
+        "standard": "none"
+      }
+    ]
+  }
+  
