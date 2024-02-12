@@ -12856,6 +12856,19 @@
   "faucets": ["https://artio.faucet.berachain.com"],
   "infoURL": "https://www.berachain.com"
 }, {
+  "name": "Hizoco mainnet",
+  "chainId": 80096,
+  "shortName": "hzc",
+  "networkId": 80096,
+  "nativeCurrency": {
+    "name": "Hizoco",
+    "symbol": "HZC",
+    "decimals": 18
+  },
+  "rpc": ["https://hizoco.net/rpc"],
+  "faucets": [],
+  "infoURL": "http://hizoco.net"
+}, {
   "name": "Nordek Mainnet",
   "chainId": 81041,
   "shortName": "nordek",
