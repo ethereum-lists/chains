@@ -10464,6 +10464,19 @@
   "faucets": [],
   "infoURL": "https://satoshichain.net"
 }, {
+  "name": "Aternos",
+  "chainId": 12020,
+  "shortName": "ATR",
+  "networkId": 12020,
+  "nativeCurrency": {
+    "name": "Aternos",
+    "symbol": "ATR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.aternoschain.com"],
+  "faucets": ["https://faucet.aternoschain.com"],
+  "infoURL": "https://aternoschain.com"
+}, {
   "name": "Singularity ZERO Testnet",
   "chainId": 12051,
   "shortName": "tZERO",
