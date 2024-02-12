@@ -1,0 +1,23 @@
+{
+  "name": "Bloom Genesis Testnet",
+  "chain": "Bloom",
+  "icon": "bloom",
+  "rpc": ["https://testnet-rpc.bloomgenesis.com"],
+  "faucets": ["https://faucet.bloomgenesis.com"],
+  "nativeCurrency": {
+    "name": "Bloom",
+    "symbol": "BGBC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.bloomgenesis.com",
+  "shortName": "BGBC-Testnet",
+  "chainId": 323213,
+  "networkId": 323213,
+  "explorers": [
+    {
+      "name": "Bloom Genesis Testnet",
+      "url": "https://testnet.bloomgenesis.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
