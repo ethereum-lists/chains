@@ -1,7 +1,7 @@
 {
   "name": "CAGA crypto Ankara testnet",
   "chain": "Ankara",
-  "rpc": ["https://www.ankara-cagacrypto.com/","wss://wss.ankara-cagacrypto.com/"],
+  "rpc": ["https://www.ankara-cagacrypto.com","wss://wss.ankara-cagacrypto.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Caga",
@@ -15,7 +15,7 @@
   "explorers": [
     {
       "name": "ankara",
-      "url": "https://ankara-cagacrypto.tryethernal.com/",
+      "url": "https://ankara-cagacrypto.tryethernal.com",
       "standard": "EIP3091"
     }
   ]
