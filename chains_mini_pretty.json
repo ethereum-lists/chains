@@ -16353,6 +16353,19 @@
   "faucets": [],
   "infoURL": "https://palm.network"
 }, {
+  "name": "GitSwarm Test Network",
+  "chainId": 28872323069,
+  "shortName": "GS-ETH",
+  "networkId": 28872323069,
+  "nativeCurrency": {
+    "name": "GitSwarm Ether",
+    "symbol": "GS-ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://gitswarm.com:2096"],
+  "faucets": [],
+  "infoURL": "https://gitswarm.com/"
+}, {
   "name": "Kakarot Sepolia",
   "chainId": 107107114116,
   "shortName": "kkrt-sepolia",
