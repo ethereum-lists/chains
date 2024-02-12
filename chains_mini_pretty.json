@@ -12843,6 +12843,19 @@
   "faucets": [],
   "infoURL": "https://www.avax.network"
 }, {
+  "name": "Vanguard",
+  "chainId": 78600,
+  "shortName": "vanguard",
+  "networkId": 78600,
+  "nativeCurrency": {
+    "name": "Vanguard Vanry",
+    "symbol": "VG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-vanguard.vanarchain.com", "wss://ws-vanguard.vanarchain.com"],
+  "faucets": ["https://faucet.vanarchain.com"],
+  "infoURL": "https://vanarchain.com"
+}, {
   "name": "Gold Smart Chain Testnet",
   "chainId": 79879,
   "shortName": "STANDt",
