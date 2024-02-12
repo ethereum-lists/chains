@@ -8124,6 +8124,19 @@
   "faucets": [],
   "infoURL": "www.orderly.network"
 }, {
+  "name": "Emoney Network Testnet",
+  "chainId": 4544,
+  "shortName": "emoney",
+  "networkId": 4544,
+  "nativeCurrency": {
+    "name": "Emoney Network",
+    "symbol": "EMYC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.emoney.network/"],
+  "faucets": ["https://faucet.emoney.network/faucet"],
+  "infoURL": "https://emoney.network/"
+}, {
   "name": "IoTeX Network Mainnet",
   "chainId": 4689,
   "shortName": "iotex-mainnet",
