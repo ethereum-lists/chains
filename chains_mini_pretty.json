@@ -2365,6 +2365,19 @@
   "faucets": [],
   "infoURL": "https://permission.io/"
 }, {
+  "name": "Viridis Testnet",
+  "chainId": 224,
+  "shortName": "VRD-Testnet",
+  "networkId": 224,
+  "nativeCurrency": {
+    "name": "Viridis Token",
+    "symbol": "VRD",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.vrd.network"],
+  "faucets": ["https://faucet.vrd.network"],
+  "infoURL": "https://viridis.network"
+}, {
   "name": "LACHAIN Mainnet",
   "chainId": 225,
   "shortName": "LA",
@@ -3131,6 +3144,19 @@
   "rpc": ["https://goerli.optimism.io", "https://optimism-goerli.publicnode.com", "wss://optimism-goerli.publicnode.com", "https://optimism-goerli.gateway.tenderly.co", "wss://optimism-goerli.gateway.tenderly.co"],
   "faucets": [],
   "infoURL": "https://optimism.io"
+}, {
+  "name": "Viridis Mainnet",
+  "chainId": 422,
+  "shortName": "vrd",
+  "networkId": 422,
+  "nativeCurrency": {
+    "name": "Viridis Token",
+    "symbol": "VRD",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.vrd.network"],
+  "faucets": [],
+  "infoURL": "https://viridis.network"
 }, {
   "name": "PGN (Public Goods Network)",
   "chainId": 424,
