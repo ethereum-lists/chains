@@ -2742,6 +2742,19 @@
   "faucets": [],
   "infoURL": "https://www.neurochain.ai"
 }, {
+  "name": "ZKSats Mainnet",
+  "chainId": 305,
+  "shortName": "ZKSats-Mainnet",
+  "networkId": 305,
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.zksats.io"],
+  "faucets": [],
+  "infoURL": "https://zksats.io"
+}, {
   "name": "Lovely Network Testnet",
   "chainId": 307,
   "shortName": "LOVELY-Testnet",
