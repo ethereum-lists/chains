@@ -10945,6 +10945,19 @@
   "faucets": ["https://faucet.oneg8.network"],
   "infoURL": "https://oneg8.one"
 }, {
+  "name": "unreal",
+  "chainId": 18231,
+  "shortName": "unreal",
+  "networkId": 18231,
+  "nativeCurrency": {
+    "name": "unreal Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.unreal.gelato.digital", "wss://ws.unreal.gelato.digital"],
+  "faucets": [],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/unreal"
+}, {
   "name": "MXC zkEVM Mainnet",
   "chainId": 18686,
   "shortName": "MXCzkEVM",
