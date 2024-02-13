@@ -7071,6 +7071,19 @@
   "faucets": [],
   "infoURL": "https://tcgverse.xyz/"
 }, {
+  "name": "Karak Mainnet",
+  "chainId": 2410,
+  "shortName": "karak-mainnet",
+  "networkId": 2410,
+  "nativeCurrency": {
+    "name": "Karak",
+    "symbol": "KRK",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.karak.network"],
+  "faucets": [],
+  "infoURL": "https://karak.network"
+}, {
   "name": "XODEX",
   "chainId": 2415,
   "shortName": "xodex",
@@ -7122,6 +7135,19 @@
   "rpc": ["https://rpc-nebulas-testnet.uniultra.xyz"],
   "faucets": ["https://faucet.uniultra.xyz"],
   "infoURL": "https://uniultra.xyz"
+}, {
+  "name": "Karak Testnet",
+  "chainId": 2511,
+  "shortName": "karak-testnet",
+  "networkId": 2511,
+  "nativeCurrency": {
+    "name": "Karak",
+    "symbol": "KRK",
+    "decimals": 18
+  },
+  "rpc": ["https://goerli.node1.karak.network"],
+  "faucets": [],
+  "infoURL": "https://karak.network"
 }, {
   "name": "Fraxtal Testnet",
   "chainId": 2522,

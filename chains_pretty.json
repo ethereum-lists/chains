@@ -11213,6 +11213,30 @@
     "chain": "eip155-248"
   }
 }, {
+  "name": "Karak Mainnet",
+  "chain": "Karak",
+  "icon": "karak",
+  "rpc": ["https://rpc.karak.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Karak",
+    "symbol": "KRK",
+    "decimals": 18
+  },
+  "infoURL": "https://karak.network",
+  "shortName": "karak-mainnet",
+  "chainId": 2410,
+  "networkId": 2410,
+  "explorers": [{
+    "name": "Karak Mainnet Explorer",
+    "url": "https://explorer.karak.network",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
+}, {
   "name": "XODEX",
   "chain": "XODEX",
   "rpc": ["https://mainnet.xo-dex.com/rpc", "https://xo-dex.io"],
@@ -11298,6 +11322,30 @@
     "url": "https://testnet.u2uscan.xyz",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Karak Testnet",
+  "chain": "Karak",
+  "icon": "karak",
+  "rpc": ["https://goerli.node1.karak.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Karak",
+    "symbol": "KRK",
+    "decimals": 18
+  },
+  "infoURL": "https://karak.network",
+  "shortName": "karak-testnet",
+  "chainId": 2511,
+  "networkId": 2511,
+  "explorers": [{
+    "name": "Karak Testnet Explorer",
+    "url": "https://goerli.scan.karak.network",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-5"
+  }
 }, {
   "name": "Fraxtal Testnet",
   "chain": "FRAX",
