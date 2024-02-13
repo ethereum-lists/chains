@@ -4107,6 +4107,19 @@
   "faucets": [],
   "infoURL": "https://callisto.network"
 }, {
+  "name": "CheckDot Blockchain Devnet",
+  "chainId": 831,
+  "shortName": "cdt",
+  "networkId": 831,
+  "nativeCurrency": {
+    "name": "CDT",
+    "symbol": "CDT",
+    "decimals": 18
+  },
+  "rpc": ["https://devnet.checkdot.io"],
+  "faucets": [],
+  "infoURL": "https://checkdot.io"
+}, {
   "name": "Taraxa Mainnet",
   "chainId": 841,
   "shortName": "tara",
