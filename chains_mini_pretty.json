@@ -11153,6 +11153,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "C4EI",
+  "chainId": 21004,
+  "shortName": "c4ei",
+  "networkId": 21004,
+  "nativeCurrency": {
+    "name": "C4EI",
+    "symbol": "C4EI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.c4ei.net"],
+  "faucets": ["https://play.google.com/store/apps/details?id=net.c4ei.fps2"],
+  "infoURL": "https://c4ei.net"
+}, {
   "name": "All About Healthy",
   "chainId": 21133,
   "shortName": "aah",
