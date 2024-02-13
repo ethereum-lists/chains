@@ -9736,6 +9736,19 @@
   "faucets": [],
   "infoURL": "https://vsc-dataseed.vyvo.org"
 }, {
+  "name": "Orenium Testnet Protocol",
+  "chainId": 8890,
+  "shortName": "tore",
+  "networkId": 8890,
+  "nativeCurrency": {
+    "name": "ORENIUM",
+    "symbol": "tORE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-dev-testnet.orenium.org/", "https://rpc-testnet.orenium.org/"],
+  "faucets": ["https://faucetcoin.orenium.org"],
+  "infoURL": "https://orenium.org"
+}, {
   "name": "Mammoth Mainnet",
   "chainId": 8898,
   "shortName": "mmt",
