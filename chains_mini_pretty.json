@@ -7097,6 +7097,19 @@
   "faucets": [],
   "infoURL": "https://xo-dex.com"
 }, {
+  "name": "Polygon zkEVM Cardona Testnet",
+  "chainId": 2442,
+  "shortName": "zkevm-testnet-cardona",
+  "networkId": 2442,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.cardona.zkevm-rpc.com"],
+  "faucets": [],
+  "infoURL": "https://polygon.technology/polygon-zkevm"
+}, {
   "name": "Hybrid Chain Network Testnet",
   "chainId": 2458,
   "shortName": "thrc",
