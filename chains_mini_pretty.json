@@ -9957,6 +9957,19 @@
   "faucets": ["https://faucet.dogcoin.network"],
   "infoURL": "https://dogcoin.network"
 }, {
+  "name": "Dela Sepolia Testnet",
+  "chainId": 9393,
+  "shortName": "delasep",
+  "networkId": 9393,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia-dela.deperp.com"],
+  "faucets": [],
+  "infoURL": "https://www.deperp.com/dela"
+}, {
   "name": "Evoke Mainnet",
   "chainId": 9395,
   "shortName": "MTHN",
