@@ -1,0 +1,33 @@
+{
+  "name": "ETPOS Mainnet",
+  "chain": "ETPOS",
+  "chainId": 1689,
+  "networkId": 1689,
+  "shortName": "ETPOS",
+  "icon": "etherpos",
+  "nativeCurrency": {
+    "name": "EtherPoS",
+    "symbol": "ETPOS",
+    "decimals": 18
+  },
+  "rpc": [
+    "https://rpc.etposchain.com"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "explorers": [
+    {
+      "name": "ETPOS Mainnet",
+      "url": "https://mainnet.etposchain.com",
+      "icon": "etherpos",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://etposchain.com"
+}
