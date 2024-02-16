@@ -1,7 +1,10 @@
 {
   "name": "zkLink Nova Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia.rpc.zklink.network", "wss://sepolia.ws.zklink.network"],
+  "rpc": [
+    "https://sepolia.rpc.zklink.network",
+    "wss://sepolia.ws.zklink.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
