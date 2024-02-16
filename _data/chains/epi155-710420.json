@@ -1,0 +1,30 @@
+{
+  "name": "Tiltyard Subnet",
+  "chain": "TILTYARD",
+  "icon": "tiltyard",
+  "rpc": [
+    "https://subnets.avax.network/tiltyard/mainnet/rpc"
+  ],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TILT",
+    "symbol": "TILT",
+    "decimals": 18
+  },
+  "infoURL": "https://play.tiltyard.gg/",
+  "shortName": "tiltyard",
+  "chainId": 710420,
+  "networkId": 710420,
+  "explorers": [
+    {
+      "name": "TILTYARD Explorer",
+      "url": "https://subnets.avax.network/tiltyard",
+      "standard": "EIP3091"
+    }
+  ]
+}
