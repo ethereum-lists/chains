@@ -93,7 +93,7 @@ There are also aggregated json files with all chains automatically assembled:
  The only way to get a chain reassigned is when the old chain gets deprecated. This can e.g. be used for testnets that are short-lived. But then you will get the redFlag "reusedChaiID" that should be displayed in clients to warn them about the dangers here.
 
 ## Getting your PR merged
-### before PR is submited
+### before PR is submitted
 
 Before submitting a PR, please verify that checks pass with:
 
@@ -110,13 +110,16 @@ BUILD SUCCESSFUL in 7s
  * When making changes that fix the CI problems - please re-request a review - otherwise it is too much work to track such changes with so many PRs daily
 
 ## Usages
+### Tools 
+ * [MESC](https://paradigmxyz.github.io/mesc)
+
+### Explorers
+ * [Otterscan](https://otterscan.io)
+
 ### Wallets
  * [WallETH](https://walleth.org)
  * [TREZOR](https://trezor.io)
  * [Minerva Wallet](https://minerva.digital)
-
-### Explorers
- * [Otterscan](https://otterscan.io)
 
 ### EIPs
  * EIP-155
