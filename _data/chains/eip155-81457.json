@@ -1,0 +1,28 @@
+{
+  "name": "Blast",
+  "chain": "ETH",
+  "rpc": ["https://mainnet.blast.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://blast.io/",
+  "shortName": "blastmainnet",
+  "chainId": 81457,
+  "networkId": 81457,
+  "icon": "blast",
+  "explorers": [
+    {
+      "name": "Blast Mainnet Explorer",
+      "url": "https://blastscan.io",
+      "icon": "blast",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
+}
