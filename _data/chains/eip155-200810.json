@@ -1,10 +1,7 @@
 {
   "name": "Bitlayer Testnet",
   "chain": "Bitlayer",
-  "rpc": [
-    "https://testnet-rpc.bitlayer.org",
-    "wss://testnet-ws.bitlayer.org"
-  ],
+  "rpc": ["https://testnet-rpc.bitlayer.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",
