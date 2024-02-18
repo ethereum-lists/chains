@@ -3,7 +3,7 @@
   "chain": "ETH",
   "status": "active",
   "icon": "taiko",
-  "rpc": ["https://rpc.katla.taiko.xyz"],
+  "rpc": ["https://rpc.katla.taiko.xyz", "wss://rpc.katla.taiko.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
