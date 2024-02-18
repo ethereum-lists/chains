@@ -12180,6 +12180,19 @@
   "faucets": [],
   "infoURL": "https://thebifrost.io"
 }, {
+  "name": "GUNZ Testnet",
+  "chainId": 49321,
+  "shortName": "Stork",
+  "networkId": 49321,
+  "nativeCurrency": {
+    "name": "GUN",
+    "symbol": "GUN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.gunz.dev/ext/bc/ryk9vkvNuKtewME2PeCgybo9sdWXGmCkBrrx4VPuZPdVdAak8/rpc"],
+  "faucets": [],
+  "infoURL": "https://gunbygunz.com"
+}, {
   "name": "Energi Testnet",
   "chainId": 49797,
   "shortName": "tnrg",
