@@ -15781,6 +15781,19 @@
   "faucets": [],
   "infoURL": "https://joys.digital"
 }, {
+  "name": "SKALE Nebula Hub Testnet",
+  "chainId": 37084624,
+  "shortName": "nebula-testnet",
+  "networkId": 37084624,
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.skalenodes.com/v1/lanky-ill-funny-testnet", "wss://testnet.skalenodes.com/v1/ws/lanky-ill-funny-testnet"],
+  "faucets": ["https://www.sfuelstation.com/"],
+  "infoURL": "https://nebulachain.io/"
+}, {
   "name": "maistestsubnet",
   "chainId": 43214913,
   "shortName": "mais",
@@ -16028,9 +16041,9 @@
   "faucets": [],
   "infoURL": "https://meld.com"
 }, {
-  "name": "SKALE Calypso Hub Testnet",
+  "name": "Deprecated SKALE Calypso Hub Testnet",
   "chainId": 344106930,
-  "shortName": "calypso-testnet",
+  "shortName": "deprected-calypso-testnet",
   "networkId": 344106930,
   "nativeCurrency": {
     "name": "sFUEL",
@@ -16054,9 +16067,9 @@
   "faucets": [],
   "infoURL": "https://gather.network"
 }, {
-  "name": "SKALE Europa Hub Testnet",
+  "name": "Deprecated SKALE Europa Hub Testnet",
   "chainId": 476158412,
-  "shortName": "europa-testnet",
+  "shortName": "deprecated-europa-testnet",
   "networkId": 476158412,
   "nativeCurrency": {
     "name": "sFUEL",
@@ -16080,9 +16093,9 @@
   "faucets": [],
   "infoURL": "https://gather.network"
 }, {
-  "name": "SKALE Nebula Hub Testnet",
+  "name": "Deprecated SKALE Nebula Hub Testnet",
   "chainId": 503129905,
-  "shortName": "nebula-testnet",
+  "shortName": "deprecated-nebula-testnet",
   "networkId": 503129905,
   "nativeCurrency": {
     "name": "sFUEL",
@@ -16106,6 +16119,19 @@
   "faucets": [],
   "infoURL": "https://ancient8.gg/"
 }, {
+  "name": "SKALE Calypso Hub Testnet",
+  "chainId": 974399131,
+  "shortName": "calypso-testnet",
+  "networkId": 974399131,
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.skalenodes.com/v1/giant-half-dual-testnet"],
+  "faucets": ["https://www.sfuelstation.com/"],
+  "infoURL": "https://calypsohub.network/"
+}, {
   "name": "Zora Sepolia Testnet",
   "chainId": 999999999,
   "shortName": "zsep",
@@ -16118,6 +16144,19 @@
   "rpc": ["https://sepolia.rpc.zora.energy"],
   "faucets": [],
   "infoURL": "https://zora.energy"
+}, {
+  "name": "SKALE Titan Hub Testnet",
+  "chainId": 1020352220,
+  "shortName": "titan-testnet",
+  "networkId": 1020352220,
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.skalenodes.com/v1/aware-fake-trim-testnet", "wss://testnet.skalenodes.com/v1/ws/aware-fake-trim-testnet"],
+  "faucets": ["https://www.sfuelstation.com/"],
+  "infoURL": ""
 }, {
   "name": "IPOS Network",
   "chainId": 1122334455,
@@ -16249,6 +16288,19 @@
   "faucets": [],
   "infoURL": "https://raptorchain.io"
 }, {
+  "name": "SKALE Europa Hub Testnet",
+  "chainId": 1444673419,
+  "shortName": "europa-testnet",
+  "networkId": 1444673419,
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.skalenodes.com/v1/juicy-low-small-testnet"],
+  "faucets": ["https://www.sfuelstation.com/"],
+  "infoURL": "https://europahub.network/"
+}, {
   "name": "SKALE Nebula Hub",
   "chainId": 1482601649,
   "shortName": "nebula-mainnet",
@@ -16262,9 +16314,9 @@
   "faucets": ["https://sfuel.skale.network/"],
   "infoURL": "https://nebulachain.io/"
 }, {
-  "name": "SKALE Titan Hub Testnet",
+  "name": "Deprecated SKALE Titan Hub Testnet",
   "chainId": 1517929550,
-  "shortName": "titan-testnet",
+  "shortName": "deprecated-titan-testnet",
   "networkId": 1517929550,
   "nativeCurrency": {
     "name": "sFUEL",
