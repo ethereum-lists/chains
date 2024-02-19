@@ -3273,7 +3273,7 @@
   },
   "rpc": [],
   "faucets": [],
-  "infoURL": "https://www.rupx.io"
+  "infoURL": "https://www.rupaya.io"
 }, {
   "name": "Camino C-Chain",
   "chainId": 500,
@@ -3989,6 +3989,19 @@
   "rpc": ["https://rpc.patex.io/"],
   "faucets": [],
   "infoURL": "https://patex.io/"
+}, {
+  "name": "Rupaya Testnet",
+  "chainId": 799,
+  "shortName": "RupayaTestnet",
+  "networkId": 799,
+  "nativeCurrency": {
+    "name": "Test Rupaya",
+    "symbol": "TRUPX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.rupaya.io"],
+  "faucets": ["https://faucet.testnet.rupaya.io"],
+  "infoURL": "https://www.rupaya.io"
 }, {
   "name": "Lucid Blockchain",
   "chainId": 800,
