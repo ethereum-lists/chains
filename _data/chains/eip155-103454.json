@@ -1,9 +1,7 @@
 {
   "name": "Masa Testnet",
   "chain": "MASA",
-  "rpc": [
-    "https://subnets.avax.network/masatestne/testnet/rpc"
-  ],
+  "rpc": ["https://subnets.avax.network/masatestne/testnet/rpc"],
   "features": [
     {
       "name": "EIP1559"
