@@ -1,6 +1,7 @@
 {
-  "name": "SKALE Nebula Hub Testnet",
+  "name": "Deprecated SKALE Nebula Hub Testnet",
   "chain": "staging-faint-slimy-achird",
+  "status": "deprecated",
   "icon": "nebula",
   "rpc": [
     "https://staging-v3.skalenodes.com/v1/staging-faint-slimy-achird",
@@ -13,7 +14,7 @@
     "decimals": 18
   },
   "infoURL": "https://nebulachain.io/",
-  "shortName": "nebula-testnet",
+  "shortName": "deprecated-nebula-testnet",
   "chainId": 503129905,
   "networkId": 503129905,
   "slip44": 1,
