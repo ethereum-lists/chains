@@ -1,9 +1,7 @@
 {
   "name": "Tiltyard Subnet",
   "chain": "TILTYARD",
-  "rpc": [
-    "https://subnets.avax.network/tiltyard/mainnet/rpc"
-  ],
+  "rpc": ["https://subnets.avax.network/tiltyard/mainnet/rpc"],
   "features": [
     {
       "name": "EIP1559"
