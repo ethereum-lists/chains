@@ -13623,6 +13623,19 @@
   "faucets": [],
   "infoURL": "https://crystaleum.org"
 }, {
+  "name": "Masa Testnet",
+  "chainId": 103454,
+  "shortName": "masa",
+  "networkId": 103454,
+  "nativeCurrency": {
+    "name": "Masa Token",
+    "symbol": "MASA",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/masatestne/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://masa.finance"
+}, {
   "name": "BROChain Mainnet",
   "chainId": 108801,
   "shortName": "bro",
