@@ -3,8 +3,8 @@
   "chain": "CRO",
   "rpc": [
     "https://evm.cronos.org",
-    "https://cronos-evm.publicnode.com",
-    "wss://cronos-evm.publicnode.com"
+    "https://cronos-evm-rpc.publicnode.com",
+    "wss://cronos-evm-rpc.publicnode.com"
   ],
   "features": [{ "name": "EIP1559" }],
   "faucets": [],
