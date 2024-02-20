@@ -2,7 +2,7 @@
   "name": "Ethereum Mainnet",
   "chain": "ETH",
   "icon": "ethereum",
-  "rpc": ["https://mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://api.mycryptoapi.com/eth", "https://cloudflare-eth.com", "https://ethereum.publicnode.com", "wss://ethereum.publicnode.com", "https://mainnet.gateway.tenderly.co", "wss://mainnet.gateway.tenderly.co", "https://rpc.blocknative.com/boost", "https://rpc.flashbots.net", "https://rpc.flashbots.net/fast", "https://rpc.mevblocker.io", "https://rpc.mevblocker.io/fast", "https://rpc.mevblocker.io/noreverts", "https://rpc.mevblocker.io/fullprivacy"],
+  "rpc": ["https://mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://api.mycryptoapi.com/eth", "https://cloudflare-eth.com", "https://ethereum-rpc.publicnode.com", "wss://ethereum-rpc.publicnode.com", "https://mainnet.gateway.tenderly.co", "wss://mainnet.gateway.tenderly.co", "https://rpc.blocknative.com/boost", "https://rpc.flashbots.net", "https://rpc.flashbots.net/fast", "https://rpc.mevblocker.io", "https://rpc.mevblocker.io/fast", "https://rpc.mevblocker.io/noreverts", "https://rpc.mevblocker.io/fullprivacy"],
   "features": [{
     "name": "EIP155"
   }, {
@@ -104,7 +104,7 @@
   "name": "Goerli",
   "title": "Ethereum Testnet Goerli",
   "chain": "ETH",
-  "rpc": ["https://goerli.infura.io/v3/${INFURA_API_KEY}", "wss://goerli.infura.io/v3/${INFURA_API_KEY}", "https://rpc.goerli.mudit.blog/", "https://ethereum-goerli.publicnode.com", "wss://ethereum-goerli.publicnode.com", "https://goerli.gateway.tenderly.co", "wss://goerli.gateway.tenderly.co"],
+  "rpc": ["https://goerli.infura.io/v3/${INFURA_API_KEY}", "wss://goerli.infura.io/v3/${INFURA_API_KEY}", "https://rpc.goerli.mudit.blog/", "https://ethereum-goerli-rpc.publicnode.com", "wss://ethereum-goerli-rpc.publicnode.com", "https://goerli.gateway.tenderly.co", "wss://goerli.gateway.tenderly.co"],
   "faucets": ["http://fauceth.komputing.org?chain=5&address=${ADDRESS}", "https://goerli-faucet.slock.it?address=${ADDRESS}", "https://faucet.goerli.mudit.blog"],
   "nativeCurrency": {
     "name": "Goerli Ether",
@@ -209,7 +209,7 @@
 }, {
   "name": "OP Mainnet",
   "chain": "ETH",
-  "rpc": ["https://mainnet.optimism.io", "https://optimism.publicnode.com", "wss://optimism.publicnode.com", "https://optimism.gateway.tenderly.co", "wss://optimism.gateway.tenderly.co"],
+  "rpc": ["https://mainnet.optimism.io", "https://optimism-rpc.publicnode.com", "wss://optimism-rpc.publicnode.com", "https://optimism.gateway.tenderly.co", "wss://optimism.gateway.tenderly.co"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -478,7 +478,7 @@
 }, {
   "name": "Cronos Mainnet",
   "chain": "CRO",
-  "rpc": ["https://evm.cronos.org", "https://cronos-evm.publicnode.com", "wss://cronos-evm.publicnode.com"],
+  "rpc": ["https://evm.cronos.org", "https://cronos-evm-rpc.publicnode.com", "wss://cronos-evm-rpc.publicnode.com"],
   "features": [{
     "name": "EIP1559"
   }],
@@ -1112,7 +1112,7 @@
 }, {
   "name": "BNB Smart Chain Mainnet",
   "chain": "BSC",
-  "rpc": ["https://bsc-dataseed1.bnbchain.org", "https://bsc-dataseed2.bnbchain.org", "https://bsc-dataseed3.bnbchain.org", "https://bsc-dataseed4.bnbchain.org", "https://bsc-dataseed1.defibit.io", "https://bsc-dataseed2.defibit.io", "https://bsc-dataseed3.defibit.io", "https://bsc-dataseed4.defibit.io", "https://bsc-dataseed1.ninicoin.io", "https://bsc-dataseed2.ninicoin.io", "https://bsc-dataseed3.ninicoin.io", "https://bsc-dataseed4.ninicoin.io", "https://bsc.publicnode.com", "wss://bsc.publicnode.com", "wss://bsc-ws-node.nariox.org"],
+  "rpc": ["https://bsc-dataseed1.bnbchain.org", "https://bsc-dataseed2.bnbchain.org", "https://bsc-dataseed3.bnbchain.org", "https://bsc-dataseed4.bnbchain.org", "https://bsc-dataseed1.defibit.io", "https://bsc-dataseed2.defibit.io", "https://bsc-dataseed3.defibit.io", "https://bsc-dataseed4.defibit.io", "https://bsc-dataseed1.ninicoin.io", "https://bsc-dataseed2.ninicoin.io", "https://bsc-dataseed3.ninicoin.io", "https://bsc-dataseed4.ninicoin.io", "https://bsc-rpc.publicnode.com", "wss://bsc-rpc.publicnode.com", "wss://bsc-ws-node.nariox.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
@@ -1137,7 +1137,7 @@
 }, {
   "name": "Syscoin Mainnet",
   "chain": "SYS",
-  "rpc": ["https://rpc.syscoin.org", "https://rpc.ankr.com/syscoin/${ANKR_API_KEY}", "https://syscoin.public-rpc.com", "wss://rpc.syscoin.org/wss", "https://syscoin-evm.publicnode.com", "wss://syscoin-evm.publicnode.com"],
+  "rpc": ["https://rpc.syscoin.org", "https://rpc.ankr.com/syscoin/${ANKR_API_KEY}", "https://syscoin.public-rpc.com", "wss://rpc.syscoin.org/wss", "https://syscoin-evm-rpc.publicnode.com", "wss://syscoin-evm-rpc.publicnode.com"],
   "faucets": ["https://faucet.syscoin.org"],
   "nativeCurrency": {
     "name": "Syscoin",
@@ -1961,7 +1961,7 @@
 }, {
   "name": "BNB Smart Chain Testnet",
   "chain": "BSC",
-  "rpc": ["https://data-seed-prebsc-1-s1.bnbchain.org:8545", "https://data-seed-prebsc-2-s1.bnbchain.org:8545", "https://data-seed-prebsc-1-s2.bnbchain.org:8545", "https://data-seed-prebsc-2-s2.bnbchain.org:8545", "https://data-seed-prebsc-1-s3.bnbchain.org:8545", "https://data-seed-prebsc-2-s3.bnbchain.org:8545", "https://bsc-testnet.publicnode.com", "wss://bsc-testnet.publicnode.com"],
+  "rpc": ["https://data-seed-prebsc-1-s1.bnbchain.org:8545", "https://data-seed-prebsc-2-s1.bnbchain.org:8545", "https://data-seed-prebsc-1-s2.bnbchain.org:8545", "https://data-seed-prebsc-2-s2.bnbchain.org:8545", "https://data-seed-prebsc-1-s3.bnbchain.org:8545", "https://data-seed-prebsc-2-s3.bnbchain.org:8545", "https://bsc-testnet-rpc.publicnode.com", "wss://bsc-testnet-rpc.publicnode.com"],
   "faucets": ["https://testnet.bnbchain.org/faucet-smart"],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
@@ -2024,7 +2024,7 @@
   "name": "Gnosis",
   "chain": "GNO",
   "icon": "gnosis",
-  "rpc": ["https://rpc.gnosischain.com", "https://rpc.gnosis.gateway.fm", "https://rpc.ankr.com/gnosis", "https://gnosischain-rpc.gateway.pokt.network", "https://gnosis-mainnet.public.blastapi.io", "https://gnosis.api.onfinality.io/public", "https://gnosis.blockpi.network/v1/rpc/public", "https://web3endpoints.com/gnosischain-mainnet", "https://gnosis.oat.farm", "wss://rpc.gnosischain.com/wss", "https://gnosis.publicnode.com", "wss://gnosis.publicnode.com"],
+  "rpc": ["https://rpc.gnosischain.com", "https://rpc.gnosis.gateway.fm", "https://rpc.ankr.com/gnosis", "https://gnosischain-rpc.gateway.pokt.network", "https://gnosis-mainnet.public.blastapi.io", "https://gnosis.api.onfinality.io/public", "https://gnosis.blockpi.network/v1/rpc/public", "https://web3endpoints.com/gnosischain-mainnet", "https://gnosis.oat.farm", "wss://rpc.gnosischain.com/wss", "https://gnosis-rpc.publicnode.com", "wss://gnosis-rpc.publicnode.com"],
   "faucets": ["https://gnosisfaucet.com", "https://stakely.io/faucet/gnosis-chain-xdai", "https://faucet.prussia.dev/xdai"],
   "nativeCurrency": {
     "name": "xDAI",
@@ -2697,7 +2697,7 @@
   "name": "Polygon Mainnet",
   "chain": "Polygon",
   "icon": "polygon",
-  "rpc": ["https://polygon-rpc.com/", "https://rpc-mainnet.matic.network", "https://matic-mainnet.chainstacklabs.com", "https://rpc-mainnet.maticvigil.com", "https://rpc-mainnet.matic.quiknode.pro", "https://matic-mainnet-full-rpc.bwarelabs.com", "https://polygon-bor.publicnode.com", "wss://polygon-bor.publicnode.com", "https://polygon.gateway.tenderly.co", "wss://polygon.gateway.tenderly.co"],
+  "rpc": ["https://polygon-rpc.com/", "https://rpc-mainnet.matic.network", "https://matic-mainnet.chainstacklabs.com", "https://rpc-mainnet.maticvigil.com", "https://rpc-mainnet.matic.quiknode.pro", "https://matic-mainnet-full-rpc.bwarelabs.com", "https://polygon-bor-rpc.publicnode.com", "wss://polygon-bor-rpc.publicnode.com", "https://polygon.gateway.tenderly.co", "wss://polygon.gateway.tenderly.co"],
   "faucets": [],
   "nativeCurrency": {
     "name": "MATIC",
@@ -3425,7 +3425,7 @@
   "name": "opBNB Mainnet",
   "icon": "bnbchain",
   "chain": "opBNB",
-  "rpc": ["https://opbnb-mainnet-rpc.bnbchain.org", "https://opbnb-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3", "wss://opbnb-mainnet.nodereal.io/ws/v1/64a9df0874fb4a93b9d0a3849de012d3", "https://opbnb-mainnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5", "wss://opbnb-mainnet.nodereal.io/ws/v1/e9a36765eb8a40b9bd12e680a1fd2bc5", "https://opbnb.publicnode.com", "wss://opbnb.publicnode.com"],
+  "rpc": ["https://opbnb-mainnet-rpc.bnbchain.org", "https://opbnb-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3", "wss://opbnb-mainnet.nodereal.io/ws/v1/64a9df0874fb4a93b9d0a3849de012d3", "https://opbnb-mainnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5", "wss://opbnb-mainnet.nodereal.io/ws/v1/e9a36765eb8a40b9bd12e680a1fd2bc5", "https://opbnb-rpc.publicnode.com", "wss://opbnb-rpc.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
@@ -3829,7 +3829,7 @@
 }, {
   "name": "Fantom Opera",
   "chain": "FTM",
-  "rpc": ["https://rpc.ftm.tools", "https://fantom.publicnode.com", "wss://fantom.publicnode.com"],
+  "rpc": ["https://rpc.ftm.tools", "https://fantom-rpc.publicnode.com", "wss://fantom-rpc.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Fantom",
@@ -4745,7 +4745,7 @@
   "chainId": 369,
   "networkId": 369,
   "infoURL": "https://pulsechain.com/",
-  "rpc": ["https://rpc.pulsechain.com", "wss://rpc.pulsechain.com", "https://pulsechain.publicnode.com", "wss://pulsechain.publicnode.com", "https://rpc-pulsechain.g4mm4.io", "wss://rpc-pulsechain.g4mm4.io"],
+  "rpc": ["https://rpc.pulsechain.com", "wss://rpc.pulsechain.com", "https://pulsechain-rpc.publicnode.com", "wss://pulsechain-rpc.publicnode.com", "https://rpc-pulsechain.g4mm4.io", "wss://rpc-pulsechain.g4mm4.io"],
   "slip44": 60,
   "features": [{
     "name": "EIP155"
@@ -5000,7 +5000,7 @@
 }, {
   "name": "Optimism Goerli Testnet",
   "chain": "ETH",
-  "rpc": ["https://goerli.optimism.io", "https://optimism-goerli.publicnode.com", "wss://optimism-goerli.publicnode.com", "https://optimism-goerli.gateway.tenderly.co", "wss://optimism-goerli.gateway.tenderly.co"],
+  "rpc": ["https://goerli.optimism.io", "https://optimism-goerli-rpc.publicnode.com", "wss://optimism-goerli-rpc.publicnode.com", "https://optimism-goerli.gateway.tenderly.co", "wss://optimism-goerli.gateway.tenderly.co"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Goerli Ether",
@@ -6989,7 +6989,7 @@
   "networkId": 943,
   "icon": "pulsechain",
   "infoURL": "https://pulsechain.com",
-  "rpc": ["https://rpc.v4.testnet.pulsechain.com", "wss://rpc.v4.testnet.pulsechain.com", "https://pulsechain-testnet.publicnode.com", "wss://pulsechain-testnet.publicnode.com", "https://rpc-testnet-pulsechain.g4mm4.io", "wss://rpc-testnet-pulsechain.g4mm4.io"],
+  "rpc": ["https://rpc.v4.testnet.pulsechain.com", "wss://rpc.v4.testnet.pulsechain.com", "https://pulsechain-testnet-rpc.publicnode.com", "wss://pulsechain-testnet-rpc.publicnode.com", "https://rpc-testnet-pulsechain.g4mm4.io", "wss://rpc-testnet-pulsechain.g4mm4.io"],
   "features": [{
     "name": "EIP155"
   }, {
@@ -7777,7 +7777,7 @@
 }, {
   "name": "Dymension",
   "chain": "Dymension",
-  "rpc": ["https://dymension-evm.blockpi.network/v1/rpc/public"],
+  "rpc": ["https://dymension-evm.blockpi.network/v1/rpc/public", "https://dymension-evm-rpc.publicnode.com", "wss://dymension-evm-rpc.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "DYM",
@@ -8453,7 +8453,7 @@
 }, {
   "name": "Moonbeam",
   "chain": "MOON",
-  "rpc": ["https://rpc.api.moonbeam.network", "wss://wss.api.moonbeam.network", "https://moonbeam.publicnode.com", "wss://moonbeam.publicnode.com"],
+  "rpc": ["https://rpc.api.moonbeam.network", "wss://wss.api.moonbeam.network", "https://moonbeam-rpc.publicnode.com", "wss://moonbeam-rpc.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Glimmer",
@@ -8472,7 +8472,7 @@
 }, {
   "name": "Moonriver",
   "chain": "MOON",
-  "rpc": ["https://rpc.api.moonriver.moonbeam.network", "wss://wss.api.moonriver.moonbeam.network", "https://moonriver.publicnode.com", "wss://moonriver.publicnode.com"],
+  "rpc": ["https://rpc.api.moonriver.moonbeam.network", "wss://wss.api.moonriver.moonbeam.network", "https://moonriver-rpc.publicnode.com", "wss://moonriver-rpc.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Moonriver",
@@ -10947,7 +10947,7 @@
 }, {
   "name": "Kava",
   "chain": "KAVA",
-  "rpc": ["https://evm.kava.io", "https://kava-rpc.gateway.pokt.network", "https://kava-evm.rpc.thirdweb.com", "wss://wevm.kava.io", "https://kava-evm.publicnode.com", "wss://kava-evm.publicnode.com", "https://evm.kava-rpc.com", "https://rpc.ankr.com/kava_evm", "wss://wevm.kava-rpc.com"],
+  "rpc": ["https://evm.kava.io", "https://kava-rpc.gateway.pokt.network", "https://kava-evm.rpc.thirdweb.com", "wss://wevm.kava.io", "https://kava-evm-rpc.publicnode.com", "wss://kava-evm-rpc.publicnode.com", "https://evm.kava-rpc.com", "https://rpc.ankr.com/kava_evm", "wss://wevm.kava-rpc.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Kava",
@@ -12544,7 +12544,7 @@
 }, {
   "name": "Fantom Testnet",
   "chain": "FTM",
-  "rpc": ["https://rpc.testnet.fantom.network", "https://fantom-testnet.publicnode.com", "wss://fantom-testnet.publicnode.com"],
+  "rpc": ["https://rpc.testnet.fantom.network", "https://fantom-testnet-rpc.publicnode.com", "wss://fantom-testnet-rpc.publicnode.com"],
   "faucets": ["https://faucet.fantom.network"],
   "nativeCurrency": {
     "name": "Fantom",
@@ -13264,7 +13264,7 @@
   "name": "Mantle",
   "chain": "ETH",
   "icon": "mantle",
-  "rpc": ["https://rpc.mantle.xyz", "https://mantle.publicnode.com", "wss://mantle.publicnode.com"],
+  "rpc": ["https://rpc.mantle.xyz", "https://mantle-rpc.publicnode.com", "wss://mantle-rpc.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Mantle",
@@ -13415,7 +13415,7 @@
   "title": "Bahamut mainnet",
   "chain": "Bahamut",
   "icon": "bahamut",
-  "rpc": ["https://rpc1.bahamut.io", "https://rpc2.bahamut.io", "wss://ws1.sahara.bahamutchain.com", "wss://ws2.sahara.bahamutchain.com", "https://bahamut.publicnode.com", "wss://bahamut.publicnode.com"],
+  "rpc": ["https://rpc1.bahamut.io", "https://rpc2.bahamut.io", "wss://ws1.sahara.bahamutchain.com", "wss://ws2.sahara.bahamutchain.com", "https://bahamut-rpc.publicnode.com", "wss://bahamut-rpc.publicnode.com"],
   "features": [{
     "name": "EIP155"
   }, {
@@ -13666,7 +13666,7 @@
   "name": "opBNB Testnet",
   "chain": "opBNB",
   "icon": "bnbchain",
-  "rpc": ["https://opbnb-testnet-rpc.bnbchain.org", "https://opbnb-testnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3", "wss://opbnb-testnet.nodereal.io/ws/v1/64a9df0874fb4a93b9d0a3849de012d3", "https://opbnb-testnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5", "wss://opbnb-testnet.nodereal.io/ws/v1/e9a36765eb8a40b9bd12e680a1fd2bc5"],
+  "rpc": ["https://opbnb-testnet-rpc.bnbchain.org", "https://opbnb-testnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3", "wss://opbnb-testnet.nodereal.io/ws/v1/64a9df0874fb4a93b9d0a3849de012d3", "https://opbnb-testnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5", "wss://opbnb-testnet.nodereal.io/ws/v1/e9a36765eb8a40b9bd12e680a1fd2bc5", "https://opbnb-testnet-rpc.publicnode.com", "wss://opbnb-testnet-rpc.publicnode.com"],
   "faucets": ["https://testnet.bnbchain.org/faucet-smart"],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
@@ -13720,7 +13720,7 @@
 }, {
   "name": "Syscoin Tanenbaum Testnet",
   "chain": "SYS",
-  "rpc": ["https://rpc.tanenbaum.io", "wss://rpc.tanenbaum.io/wss", "https://syscoin-tanenbaum-evm.publicnode.com", "wss://syscoin-tanenbaum-evm.publicnode.com"],
+  "rpc": ["https://rpc.tanenbaum.io", "wss://rpc.tanenbaum.io/wss", "https://syscoin-tanenbaum-evm-rpc.publicnode.com", "wss://syscoin-tanenbaum-evm-rpc.publicnode.com"],
   "faucets": ["https://faucet.tanenbaum.io"],
   "nativeCurrency": {
     "name": "Testnet Syscoin",
@@ -15240,7 +15240,7 @@
 }, {
   "name": "Base",
   "chain": "ETH",
-  "rpc": ["https://mainnet.base.org/", "https://developer-access-mainnet.base.org/", "https://base.gateway.tenderly.co", "wss://base.gateway.tenderly.co", "https://base.publicnode.com", "wss://base.publicnode.com"],
+  "rpc": ["https://mainnet.base.org/", "https://developer-access-mainnet.base.org/", "https://base.gateway.tenderly.co", "wss://base.gateway.tenderly.co", "https://base-rpc.publicnode.com", "wss://base-rpc.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -16368,7 +16368,7 @@
   "name": "Gnosis Chiado Testnet",
   "chain": "GNO",
   "icon": "gnosis",
-  "rpc": ["https://rpc.chiadochain.net", "https://rpc.chiado.gnosis.gateway.fm", "wss://rpc.chiadochain.net/wss", "https://gnosis-chiado.publicnode.com", "wss://gnosis-chiado.publicnode.com"],
+  "rpc": ["https://rpc.chiadochain.net", "https://rpc.chiado.gnosis.gateway.fm", "wss://rpc.chiadochain.net/wss", "https://gnosis-chiado-rpc.publicnode.com", "wss://gnosis-chiado-rpc.publicnode.com"],
   "faucets": ["https://gnosisfaucet.com"],
   "nativeCurrency": {
     "name": "Chiado xDAI",
@@ -16694,7 +16694,7 @@
 }, {
   "name": "Haqq Network",
   "chain": "Haqq",
-  "rpc": ["https://rpc.eth.haqq.network", "https://haqq-evm.publicnode.com", "wss://haqq-evm.publicnode.com"],
+  "rpc": ["https://rpc.eth.haqq.network", "https://haqq-evm-rpc.publicnode.com", "wss://haqq-evm-rpc.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Islamic Coin",
@@ -17449,7 +17449,7 @@
   "name": "Holesky",
   "title": "Ethereum Testnet Holesky",
   "chain": "ETH",
-  "rpc": ["https://rpc.holesky.ethpandaops.io", "https://ethereum-holesky.publicnode.com", "wss://ethereum-holesky.publicnode.com"],
+  "rpc": ["https://rpc.holesky.ethpandaops.io", "https://ethereum-holesky-rpc.publicnode.com", "wss://ethereum-holesky-rpc.publicnode.com"],
   "faucets": ["https://faucet.holesky.ethpandaops.io", "https://holesky-faucet.pk910.de"],
   "nativeCurrency": {
     "name": "Testnet ETH",
@@ -19198,7 +19198,7 @@
   "name": "Avalanche Fuji Testnet",
   "chain": "AVAX",
   "icon": "avax",
-  "rpc": ["https://api.avax-test.network/ext/bc/C/rpc", "https://avalanche-fuji-c-chain.publicnode.com", "wss://avalanche-fuji-c-chain.publicnode.com"],
+  "rpc": ["https://api.avax-test.network/ext/bc/C/rpc", "https://avalanche-fuji-c-chain-rpc.publicnode.com", "wss://avalanche-fuji-c-chain-rpc.publicnode.com"],
   "faucets": ["https://faucet.avax-test.network/"],
   "nativeCurrency": {
     "name": "Avalanche",
@@ -19219,7 +19219,7 @@
   "name": "Avalanche C-Chain",
   "chain": "AVAX",
   "icon": "avax",
-  "rpc": ["https://api.avax.network/ext/bc/C/rpc", "https://avalanche-c-chain.publicnode.com", "wss://avalanche-c-chain.publicnode.com"],
+  "rpc": ["https://api.avax.network/ext/bc/C/rpc", "https://avalanche-c-chain-rpc.publicnode.com", "wss://avalanche-c-chain-rpc.publicnode.com"],
   "features": [{
     "name": "EIP1559"
   }],
@@ -20824,7 +20824,7 @@
   "title": "Polygon Testnet Mumbai",
   "chain": "Polygon",
   "icon": "polygon",
-  "rpc": ["https://rpc-mumbai.maticvigil.com", "https://polygon-mumbai-bor.publicnode.com", "wss://polygon-mumbai-bor.publicnode.com", "https://polygon-mumbai.gateway.tenderly.co", "wss://polygon-mumbai.gateway.tenderly.co"],
+  "rpc": ["https://rpc-mumbai.maticvigil.com", "https://polygon-mumbai-bor-rpc.publicnode.com", "wss://polygon-mumbai-bor-rpc.publicnode.com", "https://polygon-mumbai.gateway.tenderly.co", "wss://polygon-mumbai.gateway.tenderly.co"],
   "faucets": ["https://faucet.polygon.technology/"],
   "nativeCurrency": {
     "name": "MATIC",
@@ -21091,7 +21091,7 @@
 }, {
   "name": "Base Goerli Testnet",
   "chain": "ETH",
-  "rpc": ["https://goerli.base.org", "https://base-goerli.gateway.tenderly.co", "wss://base-goerli.gateway.tenderly.co", "https://base-goerli.publicnode.com", "wss://base-goerli.publicnode.com"],
+  "rpc": ["https://goerli.base.org", "https://base-goerli.gateway.tenderly.co", "wss://base-goerli.gateway.tenderly.co", "https://base-goerli-rpc.publicnode.com", "wss://base-goerli-rpc.publicnode.com"],
   "faucets": ["https://www.coinbase.com/faucets/base-ethereum-goerli-faucet"],
   "nativeCurrency": {
     "name": "Goerli Ether",
@@ -21122,7 +21122,7 @@
 }, {
   "name": "Base Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia.base.org"],
+  "rpc": ["https://https://sepolia.base.org", "https://base-sepolia-rpc.publicnode.com", "wss://base-sepolia-rpc.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
@@ -24928,7 +24928,7 @@
   "name": "Sepolia",
   "title": "Ethereum Testnet Sepolia",
   "chain": "ETH",
-  "rpc": ["https://rpc.sepolia.org", "https://rpc2.sepolia.org", "https://rpc-sepolia.rockx.com", "https://rpc.sepolia.ethpandaops.io", "https://sepolia.infura.io/v3/${INFURA_API_KEY}", "wss://sepolia.infura.io/v3/${INFURA_API_KEY}", "https://sepolia.gateway.tenderly.co", "wss://sepolia.gateway.tenderly.co", "https://ethereum-sepolia.publicnode.com", "wss://ethereum-sepolia.publicnode.com"],
+  "rpc": ["https://rpc.sepolia.org", "https://rpc2.sepolia.org", "https://rpc-sepolia.rockx.com", "https://rpc.sepolia.ethpandaops.io", "https://sepolia.infura.io/v3/${INFURA_API_KEY}", "wss://sepolia.infura.io/v3/${INFURA_API_KEY}", "https://sepolia.gateway.tenderly.co", "wss://sepolia.gateway.tenderly.co", "https://ethereum-sepolia-rpc.publicnode.com", "wss://ethereum-sepolia-rpc.publicnode.com"],
   "faucets": ["http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"],
   "nativeCurrency": {
     "name": "Sepolia Ether",
