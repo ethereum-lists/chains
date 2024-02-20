@@ -1,0 +1,23 @@
+{
+  "name": "Rupaya Testnet",
+  "chain": "Rupaya Testnet",
+  "rpc": ["https://rpc.testnet.rupaya.io"],
+  "faucets": ["https://faucet.testnet.rupaya.io"],
+  "nativeCurrency": {
+    "name": "Test Rupaya",
+    "symbol": "TRUPX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.rupaya.io",
+  "shortName": "RupayaTestnet",
+  "chainId": 799,
+  "networkId": 799,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "rupayascan",
+      "url": "https://scan.testnet.rupaya.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

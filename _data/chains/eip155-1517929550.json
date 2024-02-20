@@ -1,6 +1,7 @@
 {
-  "name": "SKALE Titan Hub Testnet",
+  "name": "Deprecated SKALE Titan Hub Testnet",
   "chain": "staging-aware-chief-gianfar",
+  "status": "deprecated",
   "icon": "titan",
   "rpc": [
     "https://staging-v3.skalenodes.com/v1/staging-aware-chief-gianfar",
@@ -13,7 +14,7 @@
     "decimals": 18
   },
   "infoURL": "",
-  "shortName": "titan-testnet",
+  "shortName": "deprecated-titan-testnet",
   "chainId": 1517929550,
   "networkId": 1517929550,
   "slip44": 1,
