@@ -8241,6 +8241,19 @@
   "faucets": ["https://faucet.emoney.network/faucet"],
   "infoURL": "https://emoney.network/"
 }, {
+  "name": "Gold Chain",
+  "chainId": 4653,
+  "shortName": "gold",
+  "networkId": 4653,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://chain-rpc.gold.dev"],
+  "faucets": [],
+  "infoURL": "https://gold.dev"
+}, {
   "name": "IoTeX Network Mainnet",
   "chainId": 4689,
   "shortName": "iotex-mainnet",
