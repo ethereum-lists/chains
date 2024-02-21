@@ -2417,6 +2417,19 @@
   "faucets": [],
   "infoURL": "https://swapdex.network/"
 }, {
+  "name": "ProtoJumbo Testnet",
+  "chainId": 234,
+  "shortName": "ProtoJumbo",
+  "networkId": 234,
+  "nativeCurrency": {
+    "name": "JNFTC",
+    "symbol": "JNFTC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnode.jumbochain.org"],
+  "faucets": ["https://protojumbo.jumbochain.org/faucet-smart"],
+  "infoURL": "https://jumbochain.org"
+}, {
   "name": "Deamchain Testnet",
   "chainId": 236,
   "shortName": "deamtest",
