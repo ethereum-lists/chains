@@ -11127,6 +11127,19 @@
   "faucets": [],
   "infoURL": "https://hashpalette.com/"
 }, {
+  "name": "KONET Mainnet",
+  "chainId": 17217,
+  "shortName": "KONET",
+  "networkId": 17217,
+  "nativeCurrency": {
+    "name": "KONET",
+    "symbol": "KONET",
+    "decimals": 18
+  },
+  "rpc": ["https://api.kon-wallet.com"],
+  "faucets": [],
+  "infoURL": "https://konetmain.com"
+}, {
   "name": "EOS EVM Network",
   "chainId": 17777,
   "shortName": "eos",
