@@ -1,0 +1,22 @@
+{
+  "name": "Blast",
+  "status": "incubating",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://blast.io/",
+  "shortName": "blastmainnet",
+  "chainId": 81457,
+  "networkId": 81457,
+  "icon": "blast",
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
+}
