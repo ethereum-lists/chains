@@ -6200,6 +6200,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Selendra Network Testnet",
+  "chainId": 1953,
+  "shortName": "tSEL",
+  "networkId": 1953,
+  "nativeCurrency": {
+    "name": "Selendra",
+    "symbol": "tSEL",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc0-testnet.selendra.org", "https://rpc1-testnet.selendra.org"],
+  "faucets": [],
+  "infoURL": "https://selendra.org"
+}, {
   "name": "Dexilla Testnet",
   "chainId": 1954,
   "shortName": "Dexilla",
@@ -6212,6 +6225,19 @@
   "rpc": ["https://rpc.dexilla.com"],
   "faucets": [],
   "infoURL": "https://dexilla.com"
+}, {
+  "name": "Selendra Network Mainnet",
+  "chainId": 1961,
+  "shortName": "SEL",
+  "networkId": 1961,
+  "nativeCurrency": {
+    "name": "Selendra",
+    "symbol": "SEL",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc0.selendra.org", "https://rpc1.selendra.org"],
+  "faucets": [],
+  "infoURL": "https://selendra.org"
 }, {
   "name": "Eleanor",
   "chainId": 1967,

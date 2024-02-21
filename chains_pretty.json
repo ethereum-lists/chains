@@ -9810,6 +9810,21 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Selendra Network Testnet",
+  "chain": "tSEL",
+  "rpc": ["https://rpc0-testnet.selendra.org", "https://rpc1-testnet.selendra.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Selendra",
+    "symbol": "tSEL",
+    "decimals": 18
+  },
+  "infoURL": "https://selendra.org",
+  "shortName": "tSEL",
+  "chainId": 1953,
+  "networkId": 1953,
+  "icon": "selendra"
+}, {
   "name": "Dexilla Testnet",
   "chain": "Dexilla",
   "rpc": ["https://rpc.dexilla.com"],
@@ -9837,6 +9852,26 @@
       "url": "https://bridge.dexilla.com"
     }]
   }
+}, {
+  "name": "Selendra Network Mainnet",
+  "chain": "SEL",
+  "rpc": ["https://rpc0.selendra.org", "https://rpc1.selendra.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Selendra",
+    "symbol": "SEL",
+    "decimals": 18
+  },
+  "infoURL": "https://selendra.org",
+  "shortName": "SEL",
+  "chainId": 1961,
+  "networkId": 1961,
+  "icon": "selendra",
+  "explorers": [{
+    "name": "Selendra Scan",
+    "url": "https://scan.selendra.org",
+    "standard": "none"
+  }]
 }, {
   "name": "Eleanor",
   "title": "Metatime Testnet Eleanor",
