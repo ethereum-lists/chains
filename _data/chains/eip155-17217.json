@@ -1,9 +1,7 @@
 {
   "name": "KONET Mainnet",
   "chain": "KONET",
-  "rpc": [
-    "https://api.kon-wallet.com"
-  ],
+  "rpc": ["https://api.kon-wallet.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "KONET",
