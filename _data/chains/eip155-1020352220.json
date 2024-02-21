@@ -1,0 +1,28 @@
+{
+  "name": "SKALE Titan Hub Testnet",
+  "title": "SKALE Titan Hub Testnet",
+  "chain": "aware-fake-trim-testnet",
+  "icon": "titan",
+  "rpc": [
+    "https://testnet.skalenodes.com/v1/aware-fake-trim-testnet",
+    "wss://testnet.skalenodes.com/v1/ws/aware-fake-trim-testnet"
+  ],
+  "faucets": ["https://www.sfuelstation.com/"],
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "titan-testnet",
+  "chainId": 1020352220,
+  "networkId": 1020352220,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://aware-fake-trim-testnet.explorer.testnet.skalenodes.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
