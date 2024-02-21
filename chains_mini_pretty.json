@@ -5719,6 +5719,19 @@
   "faucets": ["https://faucet.ctexscan.com"],
   "infoURL": "https://ctextoken.io"
 }, {
+  "name": "Vitruveo Mainnet",
+  "chainId": 1490,
+  "shortName": "vitruveo",
+  "networkId": 1490,
+  "nativeCurrency": {
+    "name": "Vitruveo Coin",
+    "symbol": "VTRU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.vitruveo.xyz"],
+  "faucets": [],
+  "infoURL": "https://www.vitruveo.xyz"
+}, {
   "name": "BEVM Canary",
   "chainId": 1501,
   "shortName": "chainx",
@@ -10892,6 +10905,19 @@
   "rpc": ["https://www.3sps.net"],
   "faucets": [],
   "infoURL": "https://ssquad.games/"
+}, {
+  "name": "Vitruveo Testnet",
+  "chainId": 14333,
+  "shortName": "vitruveo-test",
+  "networkId": 14333,
+  "nativeCurrency": {
+    "name": "Vitruveo Test Coin",
+    "symbol": "tVTRU",
+    "decimals": 18
+  },
+  "rpc": ["https://test-rpc.vitruveo.xyz"],
+  "faucets": ["https://faucet.vitruveo.xyz"],
+  "infoURL": "https://www.vitruveo.xyz"
 }, {
   "name": "Humanode Testnet 5 Israfel",
   "chainId": 14853,
