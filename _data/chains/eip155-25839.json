@@ -2,7 +2,7 @@
   "name": "AlveyChain Testnet",
   "chain": "tALV",
   "rpc": ["https://testnet-rpc.alvey.io"],
-  "faucets": [],
+  "faucets": ["https://faucet.alveytestnet.com"],
   "nativeCurrency": {
     "name": "AlveyCoin Testnet",
     "symbol": "tALV",
