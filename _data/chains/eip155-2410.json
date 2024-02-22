@@ -1,0 +1,27 @@
+{
+  "name": "Karak Mainnet",
+  "chain": "Karak",
+  "icon": "karak",
+  "rpc": ["https://rpc.karak.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Karak",
+    "symbol": "KRK",
+    "decimals": 18
+  },
+  "infoURL": "https://karak.network",
+  "shortName": "karak-mainnet",
+  "chainId": 2410,
+  "networkId": 2410,
+  "explorers": [
+    {
+      "name": "Karak Mainnet Explorer",
+      "url": "https://explorer.karak.network",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
+}

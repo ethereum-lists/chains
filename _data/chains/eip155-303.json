@@ -13,12 +13,11 @@
   "shortName": "ncnt",
   "chainId": 303,
   "networkId": 303,
-  "icon": "neurochain",
+  "slip44": 1,
   "explorers": [
     {
       "name": "neuroscan",
       "url": "https://testnet.ncnscan.com",
-      "icon": "neurochain",
       "standard": "EIP3091"
     }
   ]

@@ -9,13 +9,23 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://nova.arbitrum.io/rpc"],
+  "rpc": [
+    "https://nova.arbitrum.io/rpc",
+    "https://arbitrum-nova.publicnode.com",
+    "wss://arbitrum-nova.publicnode.com"
+  ],
   "faucets": [],
   "explorers": [
     {
       "name": "Arbitrum Nova Chain Explorer",
       "url": "https://nova-explorer.arbitrum.io",
       "icon": "blockscout",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://nova.dex.guru",
+      "icon": "dexguru",
       "standard": "EIP3091"
     }
   ],

@@ -1,0 +1,23 @@
+{
+  "name": "Zora",
+  "chain": "ETH",
+  "rpc": ["https://rpc.zora.energy/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "icon": "zora",
+  "infoURL": "https://zora.energy",
+  "shortName": "zora",
+  "chainId": 7777777,
+  "networkId": 7777777,
+  "explorers": [
+    {
+      "name": "Zora Network Explorer",
+      "url": "https://explorer.zora.energy",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Nordek Mainnet",
+  "chain": "Nordek",
+  "icon": "nordek",
+  "rpc": ["https://mainnet-rpc.nordekscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NRK",
+    "symbol": "NRK",
+    "decimals": 18
+  },
+  "infoURL": "https://nordekscan.com",
+  "shortName": "nordek",
+  "chainId": 81041,
+  "networkId": 81041,
+  "explorers": [
+    {
+      "name": "nordek",
+      "url": "https://nordekscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
