@@ -2,7 +2,6 @@
  "name": "FlowEVM PreviewNet",
   "chain": "FlowEVM",
   "rpc": ["https://crescendo.evm.nodes.onflow.org"],
-  "features": [{ "name": "EIP155" }],
   "faucets": [],
   "nativeCurrency": {
     "name": "FLOW",
