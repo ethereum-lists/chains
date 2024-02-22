@@ -1,15 +1,13 @@
 {
   "name": "AlveyChain Testnet",
   "chain": "tALV",
-  "rpc": [
-    "https://testnet-rpc.alvey.io"
-  ],
+  "rpc": ["https://testnet-rpc.alvey.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "AlveyCoin Testnet",
     "symbol": "tALV",
     "decimals": 18
-  }, 
+  },
   "infoURL": "https://alveychain.com/",
   "shortName": "talv",
   "chainId": 25839,
