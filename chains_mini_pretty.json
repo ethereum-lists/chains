@@ -5706,6 +5706,19 @@
   "faucets": [],
   "infoURL": "https://gaussgang.com/"
 }, {
+  "name": "MetaChain Istanbul",
+  "chainId": 1453,
+  "shortName": "metatimeistanbul",
+  "networkId": 1453,
+  "nativeCurrency": {
+    "name": "Metatime Coin",
+    "symbol": "MTC",
+    "decimals": 18
+  },
+  "rpc": ["https://istanbul-rpc.metachain.dev"],
+  "faucets": ["https://istanbul-faucet.metachain.dev"],
+  "infoURL": "https://metatime.com/en"
+}, {
   "name": "Ctex Scan Blockchain",
   "chainId": 1455,
   "shortName": "CTEX",
