@@ -11569,6 +11569,19 @@
   "faucets": [],
   "infoURL": "https://scan.liquidlayer.network"
 }, {
+  "name": "AlveyChain Testnet",
+  "chainId": 25839,
+  "shortName": "talv",
+  "networkId": 25839,
+  "nativeCurrency": {
+    "name": "AlveyCoin Testnet",
+    "symbol": "tALV",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.alvey.io"],
+  "faucets": ["https://faucet.alveytestnet.com"],
+  "infoURL": "https://alveychain.com/"
+}, {
   "name": "Hammer Chain Mainnet",
   "chainId": 25888,
   "shortName": "GOLDT",
