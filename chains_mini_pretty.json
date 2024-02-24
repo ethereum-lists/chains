@@ -11244,6 +11244,19 @@
   "faucets": [],
   "infoURL": "https://doc.mxc.com/docs/intro"
 }, {
+  "name": "Titan (TKX) Testnet",
+  "chainId": 18889,
+  "shortName": "titan_tkx-testnet",
+  "networkId": 18889,
+  "nativeCurrency": {
+    "name": "Titan tkx",
+    "symbol": "TKX",
+    "decimals": 18
+  },
+  "rpc": ["https://titan-testnet-json-rpc-1.tokenize-dev.com", "https://titan-testnet-json-rpc-2.tokenize-dev.com"],
+  "faucets": [],
+  "infoURL": "https://tokenize.exchange"
+}, {
   "name": "HOME Verse Mainnet",
   "chainId": 19011,
   "shortName": "HMV",
