@@ -177,7 +177,7 @@
     "symbol": "FLR",
     "decimals": 18
   },
-  "rpc": ["https://flare-api.flare.network/ext/C/rpc", "https://flare.public-rpc.com", "https://rpc.ftso.au/flare"],
+  "rpc": ["https://flare-api.flare.network/ext/C/rpc", "https://flare.rpc.thirdweb.com", "https://flare-bundler.etherspot.io", "https://rpc.ankr.com/flare", "https://rpc.ftso.au/flare", "https://flare.enosys.global/ext/C/rpc", "https://flare.solidifi.app/ext/C/rpc"],
   "faucets": [],
   "infoURL": "https://flare.network"
 }, {
@@ -194,7 +194,7 @@
   "faucets": [],
   "infoURL": "https://diode.io/prenet"
 }, {
-  "name": "Flare Testnet Coston",
+  "name": "Songbird Testnet Coston",
   "chainId": 16,
   "shortName": "cflr",
   "networkId": 16,
@@ -203,9 +203,9 @@
     "symbol": "CFLR",
     "decimals": 18
   },
-  "rpc": ["https://coston-api.flare.network/ext/bc/C/rpc"],
-  "faucets": ["https://faucet.towolabs.com", "https://fauceth.komputing.org?chain=16&address=${ADDRESS}"],
-  "infoURL": "https://flare.xyz"
+  "rpc": ["https://coston-api.flare.network/ext/C/rpc", "https://flare-testnet-coston.rpc.thirdweb.com", "https://coston.enosys.global/ext/C/rpc"],
+  "faucets": ["https://faucet.flare.network"],
+  "infoURL": "https://flare.network"
 }, {
   "name": "ThaiChain 2.0 ThaiFi",
   "chainId": 17,
@@ -242,9 +242,9 @@
     "symbol": "SGB",
     "decimals": 18
   },
-  "rpc": ["https://songbird-api.flare.network/ext/C/rpc", "https://sgb.ftso.com.au/ext/bc/C/rpc", "https://sgb.lightft.so/rpc", "https://sgb-rpc.ftso.eu", "https://rpc.ftso.au/songbird"],
+  "rpc": ["https://songbird-api.flare.network/ext/C/rpc", "https://rpc.ftso.au/songbird", "https://songbird.enosys.global/ext/C/rpc", "https://songbird.solidifi.app/ext/C/rpc"],
   "faucets": [],
-  "infoURL": "https://flare.xyz"
+  "infoURL": "https://flare.network"
 }, {
   "name": "Elastos Smart Chain",
   "chainId": 20,
@@ -1477,9 +1477,9 @@
     "symbol": "C2FLR",
     "decimals": 18
   },
-  "rpc": ["https://coston2-api.flare.network/ext/bc/C/rpc"],
-  "faucets": ["https://coston2-faucet.towolabs.com"],
-  "infoURL": "https://flare.xyz"
+  "rpc": ["https://coston2-api.flare.network/ext/C/rpc", "https://flare-testnet-coston2.rpc.thirdweb.com", "https://flaretestnet-bundler.etherspot.io", "https://coston2.enosys.global/ext/C/rpc"],
+  "faucets": ["https://faucet.flare.network"],
+  "infoURL": "https://flare.network"
 }, {
   "name": "DeBank Testnet(Deprecated)",
   "chainId": 115,
