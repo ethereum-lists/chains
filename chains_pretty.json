@@ -9618,23 +9618,23 @@
   "chainId": 1856,
   "networkId": 1
 }, {
-  "name": "WhiteBIT Network",
+  "name": "Whitechain",
   "chain": "WBT",
-  "rpc": ["https://rpc.whitebit.network"],
+  "rpc": ["https://rpc.whitechain.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "WhiteBIT Coin",
     "symbol": "WBT",
     "decimals": 18
   },
-  "infoURL": "https://whitebit.network",
+  "infoURL": "https://whitechain.io",
   "shortName": "wbt",
   "chainId": 1875,
   "networkId": 1875,
-  "icon": "whitebit",
+  "icon": "whitechain",
   "explorers": [{
-    "name": "wb-explorer",
-    "url": "https://explorer.whitebit.network",
+    "name": "whitechain-explorer",
+    "url": "https://explorer.whitechain.io",
     "standard": "EIP3091"
   }]
 }, {
@@ -11690,24 +11690,24 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "WhiteBIT Network Testnet",
+  "name": "Whitechain Testnet",
   "chain": "WBT",
-  "rpc": ["https://rpc-testnet.whitebit.network"],
-  "faucets": ["https://explorer.whitebit.network/testnet/faucet"],
+  "rpc": ["https://rpc-testnet.whitechain.io"],
+  "faucets": ["https://testnet.whitechain.io/faucet"],
   "nativeCurrency": {
     "name": "WhiteBIT Coin",
     "symbol": "WBT",
     "decimals": 18
   },
-  "infoURL": "https://whitebit.com/wbt",
+  "infoURL": "https://whitechain.io",
   "shortName": "twbt",
   "chainId": 2625,
   "networkId": 2625,
   "slip44": 1,
-  "icon": "whitebit-testnet",
+  "icon": "whitechain-testnet",
   "explorers": [{
-    "name": "wb-explorer-testnet",
-    "url": "https://explorer.whitebit.network/testnet",
+    "name": "whitechain-testnet-explorer",
+    "url": "https://testnet.whitechain.io",
     "standard": "EIP3091"
   }]
 }, {

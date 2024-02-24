@@ -6057,7 +6057,7 @@
   "faucets": [],
   "infoURL": "https://teslafunds.io"
 }, {
-  "name": "WhiteBIT Network",
+  "name": "Whitechain",
   "chainId": 1875,
   "shortName": "wbt",
   "networkId": 1875,
@@ -6066,9 +6066,9 @@
     "symbol": "WBT",
     "decimals": 18
   },
-  "rpc": ["https://rpc.whitebit.network"],
+  "rpc": ["https://rpc.whitechain.io"],
   "faucets": [],
-  "infoURL": "https://whitebit.network"
+  "infoURL": "https://whitechain.io"
 }, {
   "name": "Gitshock Cartenz Testnet",
   "chainId": 1881,
@@ -7344,7 +7344,7 @@
   "faucets": ["https://testnet-faucet.ezchain.com"],
   "infoURL": "https://ezchain.com"
 }, {
-  "name": "WhiteBIT Network Testnet",
+  "name": "Whitechain Testnet",
   "chainId": 2625,
   "shortName": "twbt",
   "networkId": 2625,
@@ -7353,9 +7353,9 @@
     "symbol": "WBT",
     "decimals": 18
   },
-  "rpc": ["https://rpc-testnet.whitebit.network"],
-  "faucets": ["https://explorer.whitebit.network/testnet/faucet"],
-  "infoURL": "https://whitebit.com/wbt"
+  "rpc": ["https://rpc-testnet.whitechain.io"],
+  "faucets": ["https://testnet.whitechain.io/faucet"],
+  "infoURL": "https://whitechain.io"
 }, {
   "name": "Morph Testnet",
   "chainId": 2710,
