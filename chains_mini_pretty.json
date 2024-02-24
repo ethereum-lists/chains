@@ -14156,6 +14156,19 @@
   "faucets": [],
   "infoURL": "https://akroma.io"
 }, {
+  "name": "Bitlayer Testnet",
+  "chainId": 200810,
+  "shortName": "Bitlayer",
+  "networkId": 200810,
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.bitlayer.org", "wss://testnet-ws.bitlayer.org"],
+  "faucets": ["https://www.bitlayer.org/faucet"],
+  "infoURL": "https://docs.bitlayer.org/"
+}, {
   "name": "Alaya Mainnet",
   "chainId": 201018,
   "shortName": "alaya",

@@ -22660,6 +22660,27 @@
   "networkId": 200625,
   "slip44": 200625
 }, {
+  "name": "Bitlayer Testnet",
+  "chain": "Bitlayer",
+  "rpc": ["https://testnet-rpc.bitlayer.org", "wss://testnet-ws.bitlayer.org"],
+  "faucets": ["https://www.bitlayer.org/faucet"],
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.bitlayer.org/",
+  "shortName": "Bitlayer",
+  "chainId": 200810,
+  "networkId": 200810,
+  "slip44": 1,
+  "icon": "bitlayer",
+  "explorers": [{
+    "name": "bitlayer testnet scan",
+    "url": "https://testnet-scan.bitlayer.org",
+    "standard": "none"
+  }]
+}, {
   "name": "Alaya Mainnet",
   "chain": "Alaya",
   "rpc": ["https://openapi.alaya.network/rpc", "wss://openapi.alaya.network/ws"],
