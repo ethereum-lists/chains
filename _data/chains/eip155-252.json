@@ -1,7 +1,7 @@
 {
   "name": "Fraxtal Mainnet",
   "chain": "FRAX",
-  "rpc": [],
+  "rpc": ["https://rpc.frax.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Frax Ether",
@@ -12,6 +12,6 @@
   "shortName": "fraxtal",
   "chainId": 252,
   "networkId": 252,
-  "explorers": [],
+  "explorers": ["https://fraxscan.com"],
   "status": "incubating"
 }
