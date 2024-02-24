@@ -877,12 +877,12 @@
   "explorers": [{
     "name": "subscan",
     "url": "https://pangolin.subscan.io",
-    "standard": "none"
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Crab Network",
   "chain": "crab",
-  "rpc": ["https://crab-rpc.darwinia.network", "https://crab-rpc.darwiniacommunitydao.xyz", "https://darwiniacrab-rpc.dwellir.com"],
+  "rpc": ["https://crab-rpc.darwinia.network", "https://crab-rpc.darwiniacommunitydao.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Crab Network Native Token",
@@ -896,7 +896,7 @@
   "explorers": [{
     "name": "subscan",
     "url": "https://crab.subscan.io",
-    "standard": "none"
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Darwinia Pangoro Testnet",
@@ -935,7 +935,7 @@
   "explorers": [{
     "name": "subscan",
     "url": "https://darwinia.subscan.io",
-    "standard": "none"
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Acria IntelliChain",
