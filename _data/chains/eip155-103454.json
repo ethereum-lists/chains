@@ -1,0 +1,27 @@
+{
+  "name": "Masa Testnet",
+  "chain": "MASA",
+  "rpc": ["https://subnets.avax.network/masatestne/testnet/rpc"],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Masa Token",
+    "symbol": "MASA",
+    "decimals": 18
+  },
+  "infoURL": "https://masa.finance",
+  "shortName": "masa",
+  "chainId": 103454,
+  "networkId": 103454,
+  "explorers": [
+    {
+      "name": "Masa Testnet Explorer",
+      "url": "https://subnets-test.avax.network/masatestnet",
+      "standard": "EIP3091"
+    }
+  ]
+}
