@@ -5441,7 +5441,7 @@
   "name": "Firechain Mainnet",
   "chain": "FIRE",
   "icon": "firechain",
-  "rpc": ["https://mainnet.rpc1.thefirechain.com"],
+  "rpc": ["https://rpc-mainnet.thefirechain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Firechain",
@@ -6547,7 +6547,7 @@
   "name": "Firechain zkEVM",
   "title": "Firechain zkEVM",
   "chain": "Firechain",
-  "rpc": ["https://rpc.zkevm.thefirechain.com"],
+  "rpc": ["https://rpc-zkevm.thefirechain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -6564,7 +6564,7 @@
     "type": "L2",
     "chain": "eip155-1",
     "bridges": [{
-      "url": "https://zkevm.bridge.rpc.thefirechain.com"
+      "url": "https://zkevm-bridge-rpc.thefirechain.com"
     }]
   }
 }, {
@@ -6929,7 +6929,7 @@
   "name": "Rinia Testnet",
   "chain": "FIRE",
   "icon": "rinia",
-  "rpc": ["https://rinia.rpc1.thefirechain.com"],
+  "rpc": ["https://rinia-rpc1.thefirechain.com"],
   "faucets": ["https://faucet.thefirechain.com"],
   "nativeCurrency": {
     "name": "Firechain",
@@ -12487,10 +12487,10 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Firechain zkEVM Ghostrider",
+  "name": "Firechain zkEVM Testnet",
   "title": "Firechain zkEVM Ghostrider",
   "chain": "Firechain",
-  "rpc": ["https://rpc.zkevm.ghostrider.thefirechain.com"],
+  "rpc": ["https://rpc-zkevm-ghostrider.thefirechain.com"],
   "faucets": ["zkevm-faucet.thefirechain.com"],
   "nativeCurrency": {
     "name": "Ether",

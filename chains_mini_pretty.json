@@ -3388,7 +3388,7 @@
     "symbol": "FIRE",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.rpc1.thefirechain.com"],
+  "rpc": ["https://rpc-mainnet.thefirechain.com"],
   "faucets": [],
   "infoURL": "https://thefirechain.com"
 }, {
@@ -4090,7 +4090,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.zkevm.thefirechain.com"],
+  "rpc": ["https://rpc-zkevm.thefirechain.com"],
   "faucets": [],
   "infoURL": "https://docs.thefirechain.com/"
 }, {
@@ -4337,7 +4337,7 @@
     "symbol": "FIRE",
     "decimals": 18
   },
-  "rpc": ["https://rinia.rpc1.thefirechain.com"],
+  "rpc": ["https://rinia-rpc1.thefirechain.com"],
   "faucets": ["https://faucet.thefirechain.com"],
   "infoURL": "https://thefirechain.com"
 }, {
@@ -7864,7 +7864,7 @@
   "faucets": ["https://faucet.tangle.tools"],
   "infoURL": "https://docs.tangle.tools"
 }, {
-  "name": "Firechain zkEVM Ghostrider",
+  "name": "Firechain zkEVM Testnet",
   "chainId": 3885,
   "shortName": "firechain-zkEVM-ghostrider",
   "networkId": 3885,
@@ -7873,7 +7873,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.zkevm.ghostrider.thefirechain.com"],
+  "rpc": ["https://rpc-zkevm-ghostrider.thefirechain.com"],
   "faucets": ["zkevm-faucet.thefirechain.com"],
   "infoURL": "https://docs.thefirechain.com/"
 }, {
