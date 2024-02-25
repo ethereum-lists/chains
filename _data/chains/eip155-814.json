@@ -10,7 +10,7 @@
     "decimals": 18
   },
   "infoURL": "https://docs.thefirechain.com/",
-  "shortName": "firechan-zkEVM",
+  "shortName": "firechain-zkEVM",
   "chainId": 814,
   "networkId": 814,
   "icon": "firechain",
@@ -23,5 +23,6 @@
         "url": "https://zkevm.bridge.rpc.thefirechain.com"
       }
     ]
-  }
+  },
+  "status": "incubating"
 }

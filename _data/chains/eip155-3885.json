@@ -1,5 +1,5 @@
 {
-  "name": "Firechain zkEVM Ghostrider",
+  "name": "Firechain zkEVM Testnet",
   "title": "Firechain zkEVM Ghostrider",
   "chain": "Firechain",
   "rpc": ["https://rpc.zkevm.ghostrider.thefirechain.com"],
@@ -13,5 +13,15 @@
   "shortName": "firechain-zkEVM-ghostrider",
   "chainId": 3885,
   "networkId": 3885,
-  "explorers": []
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [
+      {
+        "url": "https://ghostrider.bridge.rpc.thefirechain.com"
+      }
+    ]
+  },
+  "status": "incubating"
 }
