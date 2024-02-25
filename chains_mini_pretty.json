@@ -7955,6 +7955,19 @@
   "faucets": ["https://faucet.dynoscan.io"],
   "infoURL": "https://dynoprotocol.com"
 }, {
+  "name": "APEX Testnet",
+  "chainId": 3993,
+  "shortName": "apexsep",
+  "networkId": 3993,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://exp-testnet.apexlayer.xyz"],
+  "faucets": ["https://sepoliafaucet.com/"],
+  "infoURL": "https://docs.apexlayer.xyz/"
+}, {
   "name": "YuanChain Mainnet",
   "chainId": 3999,
   "shortName": "ycc",
