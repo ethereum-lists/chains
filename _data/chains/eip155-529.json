@@ -2,9 +2,7 @@
   "name": "Firechain Mainnet",
   "chain": "FIRE",
   "icon": "firechain",
-  "rpc": [
-    "https://rpc-mainnet.thefirechain.com"
-  ],
+  "rpc": ["https://rpc-mainnet.thefirechain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Firechain",
