@@ -11283,6 +11283,19 @@
   "faucets": [],
   "infoURL": "https://www.homeverse.games/"
 }, {
+  "name": "Decentraconnect Social",
+  "chainId": 19224,
+  "shortName": "DCSMs",
+  "networkId": 19224,
+  "nativeCurrency": {
+    "name": "Decentraconnect Social",
+    "symbol": "DCSM",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.decentraconnect.io"],
+  "faucets": [],
+  "infoURL": "https://docs.decentraconnect.io"
+}, {
   "name": "Magnet Network",
   "chainId": 19527,
   "shortName": "mgt",
