@@ -9,7 +9,7 @@ The source data is in _data/chains. Each chain has its own file with the filenam
   "name": "Ethereum Mainnet",
   "chain": "ETH",
   "rpc": [
-    "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
+    "https://eth.drpc.org",
     "https://api.mycryptoapi.com/eth"
   ],
   "faucets": [],
@@ -115,6 +115,7 @@ BUILD SUCCESSFUL in 7s
 
 ### Explorers
  * [Otterscan](https://otterscan.io)
+ * [blockscout](https://eth.blockscout.com/)
 
 ### Wallets
  * [WallETH](https://walleth.org)
@@ -130,22 +131,22 @@ BUILD SUCCESSFUL in 7s
 ### Listing sites
  * [chainid.network](https://chainid.network) / [chainlist.wtf](https://chainlist.wtf)
  * [chainlist.org](https://chainlist.org)
- * [networks.vercel.app](https://networks.vercel.app)
- * [eth-chains](https://github.com/taylorjdawson/eth-chains)
- * [EVM-BOX](https://github.com/izayl/evm-box)
  * [chaindirectory.xyz](https://www.chaindirectory.xyz)
  * [chain-list.org](https://chain-list.org)
  * [chainlist.network](https://chainlist.network/)
- * [evmchainlist.org](https://evmchainlist.org)
- * [evmchainlist.com](https://evmchainlist.com)
- * [thechainlist.io](https://thechainlist.io)
  * [chainlist.info](https://chainlist.info)
  * [chainmap.io](https://chainmap.io)
  * [chainlist.in](https://www.chainlist.in)
  * [chainz.me](https://chainz.me)
  * [Chainlink docs](https://docs.chain.link/)
- * [Wagmi compatible chain configurations](https://spenhouet.com/chains)
+ * [dRPC Chainlist - Load-balanced public nodes](https://drpc.org/chainlist)
+ * [eth-chains](https://github.com/taylorjdawson/eth-chains)
+ * [EVM-BOX](https://github.com/izayl/evm-box)
  * [evmchain.info](https://evmchain.info)
+ * [evmchainlist.com](https://evmchainlist.com)
+ * [evmchainlist.org](https://evmchainlist.org)
+ * [networks.vercel.app](https://networks.vercel.app)
+ * [Wagmi compatible chain configurations](https://spenhouet.com/chains)
 
 ### Other
  * [FaucETH](https://github.com/komputing/FaucETH)
