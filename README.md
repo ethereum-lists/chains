@@ -115,7 +115,6 @@ BUILD SUCCESSFUL in 7s
 
 ### Explorers
  * [Otterscan](https://otterscan.io)
- * [blockscout](https://eth.blockscout.com/)
 
 ### Wallets
  * [WallETH](https://walleth.org)
