@@ -2,9 +2,7 @@
   "name": "Kakarot Sepolia",
   "chain": "ETH",
   "icon": "kakarot",
-  "rpc": [
-    "https://sepolia-rpc.kakarot.org"
-  ],
+  "rpc": ["https://sepolia-rpc.kakarot.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
