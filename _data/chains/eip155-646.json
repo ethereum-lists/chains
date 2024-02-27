@@ -1,7 +1,7 @@
 {
  "name": "FlowEVM PreviewNet",
   "chain": "FlowEVM",
-  "rpc": ["https://crescendo.evm.nodes.onflow.org"],
+  "rpc": ["https://previewnet.evm.nodes.onflow.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "FLOW",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "Flow Diver",
-      "url": "https://flowdiver.io",
+      "url": "https://previewnet.flowdiver.io",
       "standard": "none"
     }
   ]
