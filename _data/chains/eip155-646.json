@@ -2,7 +2,7 @@
  "name": "FlowEVM PreviewNet",
   "chain": "FlowEVM",
   "rpc": ["https://previewnet.evm.nodes.onflow.org"],
-  "faucets": [],
+  "faucets": ["https://previewnet-faucet.onflow.org"],
   "nativeCurrency": {
     "name": "FLOW",
     "symbol": "FLOW",
