@@ -2,7 +2,9 @@
   "name": "Kakarot Sepolia",
   "chain": "ETH",
   "icon": "kakarot",
-  "rpc": [],
+  "rpc": [
+    "https://sepolia-rpc.kakarot.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -11,9 +13,15 @@
   },
   "infoURL": "https://kakarot.org",
   "shortName": "kkrt-sepolia",
-  "chainId": 107107114116,
-  "networkId": 107107114116,
-  "explorers": [],
+  "chainId": 1802203764,
+  "networkId": 1802203764,
+  "explorers": [
+    {
+      "name": "Kakarot Scan",
+      "url": "https://sepolia.kakarotscan.org",
+      "standard": "EIP3091"
+    }
+  ],
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
