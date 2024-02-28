@@ -16063,6 +16063,19 @@
     "symbol": "ATN",
     "decimals": 18
   },
+  "rpc": [],
+  "faucets": ["https://faucet.autonity.org/"],
+  "infoURL": "https://autonity.org/"
+}, {
+  "name": "Autonity Bakerloo (Sumida) Testnet",
+  "chainId": 65010002,
+  "shortName": "bakerloo-02",
+  "networkId": 65010002,
+  "nativeCurrency": {
+    "name": "Bakerloo Auton",
+    "symbol": "ATN",
+    "decimals": 18
+  },
   "rpc": ["https://rpc1.bakerloo.autonity.org/", "wss://rpc1.bakerloo.autonity.org/ws/"],
   "faucets": ["https://faucet.autonity.org/"],
   "infoURL": "https://autonity.org/"
