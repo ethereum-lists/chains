@@ -1,0 +1,32 @@
+{
+  "name": "HBD Mainnet",
+  "chain": "HBD Chain",
+  "icon": "hbdchain",
+  "rpc": [
+    "https://rpc.hbdscan.com/",
+    ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "HBD Chain Native Token",
+    "symbol": "HBD",
+    "decimals": 18
+  },
+  "infoURL": "https://www.hbdchain.com/",
+  "shortName": "hbd",
+  "chainId": 143,
+  "networkId": 143,
+  "slip44": 966,
+  "explorers": [
+    {
+      "name": "hbdscan",
+      "url": "https://hbdscan.com",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://hbd.dex.guru",
+      "icon": "dexguru",
+      "standard": "EIP3091"
+    }
+  ]
+}
