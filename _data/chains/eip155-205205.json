@@ -2,12 +2,8 @@
   "name": "Auroria Testnet",
   "title": "Stratis Testnet Auroria",
   "chain": "Auroria",
-  "rpc": [
-    "https://auroria.rpc.stratisevm.com"
-  ],
-  "faucets": [
-    "https://auroria.faucet.stratisevm.com"
-  ],
+  "rpc": ["https://auroria.rpc.stratisevm.com"],
+  "faucets": ["https://auroria.faucet.stratisevm.com"],
   "nativeCurrency": {
     "name": "Auroria Stratis",
     "symbol": "tSTRAX",
@@ -26,4 +22,3 @@
     }
   ]
 }
-
