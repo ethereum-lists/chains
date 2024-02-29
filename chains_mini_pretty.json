@@ -14312,6 +14312,19 @@
   "faucets": [],
   "infoURL": "https://docs.xen.network/go-x1/"
 }, {
+  "name": "Auroria Testnet",
+  "chainId": 205205,
+  "shortName": "auroria",
+  "networkId": 205205,
+  "nativeCurrency": {
+    "name": "Auroria Stratis",
+    "symbol": "tSTRAX",
+    "decimals": 18
+  },
+  "rpc": ["https://auroria.rpc.stratisevm.com"],
+  "faucets": ["https://auroria.faucet.stratisevm.com"],
+  "infoURL": "https://www.stratisplatform.com"
+}, {
   "name": "PlatON Mainnet",
   "chainId": 210425,
   "shortName": "platon",
