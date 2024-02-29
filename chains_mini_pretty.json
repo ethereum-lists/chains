@@ -7851,6 +7851,19 @@
   "faucets": ["https://faucet.crossbell.io"],
   "infoURL": "https://crossbell.io"
 }, {
+  "name": "Astar zkEVM",
+  "chainId": 3776,
+  "shortName": "astrzk",
+  "networkId": 3776,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://astar.network"
+}, {
   "name": "AlveyChain Mainnet",
   "chainId": 3797,
   "shortName": "alv",
@@ -10801,19 +10814,6 @@
   "rpc": ["https://rpc.testnet.step.network"],
   "faucets": ["https://faucet.step.network"],
   "infoURL": "https://step.network"
-}, {
-  "name": "Astar zkEVM",
-  "chainId": 12611,
-  "shortName": "astrzk",
-  "networkId": 12611,
-  "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
-    "decimals": 18
-  },
-  "rpc": [],
-  "faucets": [],
-  "infoURL": "https://astar.network"
 }, {
   "name": "Rikeza Network Testnet",
   "chainId": 12715,
@@ -15598,6 +15598,19 @@
   "rpc": ["https://jsonrpc-test.imversed.network", "https://ws-jsonrpc-test.imversed.network"],
   "faucets": [],
   "infoURL": "https://imversed.com"
+}, {
+  "name": "Astar zKyoto",
+  "chainId": 6038361,
+  "shortName": "azkyt",
+  "networkId": 6038361,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.startale.com/zkyoto", "https://rpc.zkyoto.gelato.digital"],
+  "faucets": [],
+  "infoURL": "https://astar.network"
 }, {
   "name": "Saakuru Mainnet",
   "chainId": 7225878,

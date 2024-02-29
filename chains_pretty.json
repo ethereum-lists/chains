@@ -12466,6 +12466,29 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Astar zkEVM",
+  "shortName": "astrzk",
+  "title": "Astar zkEVM Mainnet",
+  "chain": "ETH",
+  "icon": "astarzk",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://astar.network",
+  "chainId": 3776,
+  "networkId": 3776,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  },
+  "status": "incubating"
+}, {
   "name": "AlveyChain Mainnet",
   "chain": "ALV",
   "rpc": ["https://elves-core1.alvey.io", "https://elves-core2.alvey.io", "https://elves-core3.alvey.io"],
@@ -17212,29 +17235,6 @@
     "type": "L2",
     "chain": "eip155-43113"
   }
-}, {
-  "name": "Astar zkEVM",
-  "shortName": "astrzk",
-  "title": "Astar zkEVM Mainnet",
-  "chain": "ETH",
-  "icon": "astarzk",
-  "rpc": [],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
-    "decimals": 18
-  },
-  "infoURL": "https://astar.network",
-  "chainId": 12611,
-  "networkId": 12611,
-  "explorers": [],
-  "parent": {
-    "type": "L2",
-    "chain": "eip155-1",
-    "bridges": []
-  },
-  "status": "incubating"
 }, {
   "name": "Rikeza Network Testnet",
   "title": "Rikeza Network Testnet",
@@ -25038,6 +25038,37 @@
     "icon": "imversed",
     "standard": "none"
   }]
+}, {
+  "name": "Astar zKyoto",
+  "shortName": "azkyt",
+  "title": "Astar zkEVM Testnet zKyoto",
+  "chain": "ETH",
+  "icon": "astarzk",
+  "rpc": ["https://rpc.startale.com/zkyoto", "https://rpc.zkyoto.gelato.digital"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://astar.network",
+  "chainId": 6038361,
+  "networkId": 6038361,
+  "explorers": [{
+    "name": "Blockscout zKyoto chain explorer",
+    "url": "https://astar-zkyoto.blockscout.com",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{
+      "url": "https://portal.astar.network"
+    }, {
+      "url": "https://bridge.gelato.network/bridge/astar-zkyoto"
+    }]
+  },
+  "status": "incubating"
 }, {
   "name": "Saakuru Mainnet",
   "chain": "Saakuru",
