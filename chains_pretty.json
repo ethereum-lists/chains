@@ -3909,9 +3909,9 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Fraxtal Mainnet",
+  "name": "Fraxtal",
   "chain": "FRAX",
-  "rpc": [],
+  "rpc": ["https://rpc.frax.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Frax Ether",
@@ -3922,8 +3922,12 @@
   "shortName": "fraxtal",
   "chainId": 252,
   "networkId": 252,
-  "explorers": [],
-  "status": "incubating"
+  "explorers": [{
+    "name": "fraxscan",
+    "url": "https://fraxscan.com",
+    "standard": "EIP3091"
+  }],
+  "status": "active"
 }, {
   "name": "Kroma",
   "chain": "ETH",

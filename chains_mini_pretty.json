@@ -2508,7 +2508,7 @@
   "faucets": [],
   "infoURL": "https://fantom.foundation"
 }, {
-  "name": "Fraxtal Mainnet",
+  "name": "Fraxtal",
   "chainId": 252,
   "shortName": "fraxtal",
   "networkId": 252,
@@ -2517,7 +2517,7 @@
     "symbol": "frxETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.frax.com"],
   "faucets": [],
   "infoURL": "https://mainnet.frax.com"
 }, {
