@@ -1,0 +1,16 @@
+{
+    "name": "Ola Pre-alpha Testnet",
+    "chain": "Ola",
+    "rpc": ["https://pre-alpha-api.olavm.com"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "OLA",
+      "symbol": "OLA",
+      "decimals": 18
+    },
+    "infoURL": "https://www.olavm.org",
+    "shortName": "ola",
+    "chainId": 1027,
+    "networkId": 1027
+  }
+  
