@@ -7357,6 +7357,19 @@
   "faucets": ["https://testnet.whitechain.io/faucet"],
   "infoURL": "https://whitechain.io"
 }, {
+  "name": "APEX",
+  "chainId": 2662,
+  "shortName": "apexmainnet",
+  "networkId": 2662,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://apexlayer.xyz/"
+}, {
   "name": "Morph Testnet",
   "chainId": 2710,
   "shortName": "tmorph",
