@@ -1,0 +1,25 @@
+{
+  "name": "Manta Pacific Testnet",
+  "chain": "Manta Pacific",
+  "rpc": ["https://manta-testnet.calderachain.xyz/http"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Manta",
+    "symbol": "MANTA",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://manta-testnet.caldera.dev/",
+  "shortName": "mantaTestnet",
+  "chainId": 3441005,
+  "networkId": 3441005,
+  "slip44": 1,
+  "icon": "manta",
+  "explorers": [
+    {
+      "name": "manta-testnet Explorer",
+      "url": "https://manta-testnet.calderaexplorer.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}

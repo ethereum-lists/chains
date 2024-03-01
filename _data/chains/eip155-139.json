@@ -1,0 +1,24 @@
+{
+  "name": "WoopChain Mainnet",
+  "chain": "WOOP",
+  "icon": "woopchain",
+  "rpc": ["https://rpc.woop.ai/rpc"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WoopCoin",
+    "symbol": "WOOC",
+    "decimals": 18
+  },
+  "infoURL": "https://wikiwoop.com",
+  "shortName": "woop",
+  "chainId": 139,
+  "networkId": 139,
+  "explorers": [
+    {
+      "name": "wikiwoop",
+      "url": "https://explorer.wikiwoop.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

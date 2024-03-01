@@ -1,0 +1,23 @@
+{
+  "name": "Aerochain Testnet",
+  "chain": "Aerochain",
+  "rpc": ["https://testnet-rpc.aerochain.id/"],
+  "faucets": ["https://faucet.aerochain.id/"],
+  "nativeCurrency": {
+    "name": "Aerochain Testnet",
+    "symbol": "TAero",
+    "decimals": 18
+  },
+  "infoURL": "https://aerochaincoin.org/",
+  "shortName": "taero",
+  "chainId": 788,
+  "networkId": 788,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "aeroscan",
+      "url": "https://testnet.aeroscan.id",
+      "standard": "EIP3091"
+    }
+  ]
+}

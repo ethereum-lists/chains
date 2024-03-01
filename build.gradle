@@ -1,7 +1,7 @@
 buildscript {
     ext {
-        KOTLIN_VERSION = "1.5.20"
-        KETHEREUM_VERSION = "0.84.4"
+        KOTLIN_VERSION = "1.9.22"
+        KETHEREUM_VERSION = "0.86.0"
     }
 
     repositories {
@@ -10,34 +10,17 @@ buildscript {
 
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${KOTLIN_VERSION}"
-        classpath 'com.github.ben-manes:gradle-versions-plugin:0.39.0'
+        classpath 'com.github.ben-manes:gradle-versions-plugin:0.51.0'
     }
 }
 
-apply plugin: "kotlin"
-apply plugin: "application"
-apply plugin: "com.github.ben-manes.versions"
+subprojects {
+    apply plugin: "kotlin"
 
-mainClassName = "org.ethereum.lists.chains.MainKt"
-
-repositories {
-    mavenCentral()
-    maven { url 'https://jitpack.io' }
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
 }
 
-dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:${KOTLIN_VERSION}"
-
-    implementation "com.github.komputing.kethereum:rpc:${KETHEREUM_VERSION}"
-    implementation "com.github.komputing.kethereum:model:${KETHEREUM_VERSION}"
-    implementation "com.github.komputing.kethereum:erc55:${KETHEREUM_VERSION}"
-    implementation "com.github.komputing.kethereum:crypto_impl_bouncycastle:${KETHEREUM_VERSION}"
-
-    implementation 'com.beust:klaxon:5.5'
-    implementation 'com.squareup.moshi:moshi-kotlin:1.12.0'
-    implementation 'com.squareup.okhttp3:okhttp:4.7.2'
-
-    testImplementation "org.jetbrains.kotlin:kotlin-test"
-    testImplementation "org.jetbrains.kotlin:kotlin-test-junit"
-}
-
+apply from: 'https://raw.githubusercontent.com/ligi/gradle-common/master/versions_plugin_stable_only.gradle'

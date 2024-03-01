@@ -1,0 +1,25 @@
+{
+  "name": "Bitkub Chain",
+  "chain": "BKC",
+  "icon": "bkc",
+  "rpc": ["https://rpc.bitkubchain.io", "wss://wss.bitkubchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bitkub Coin",
+    "symbol": "KUB",
+    "decimals": 18
+  },
+  "infoURL": "https://www.bitkubchain.com/",
+  "shortName": "bkc",
+  "chainId": 96,
+  "networkId": 96,
+  "explorers": [
+    {
+      "name": "Bitkub Chain Explorer",
+      "url": "https://bkcscan.com",
+      "standard": "none",
+      "icon": "bkc"
+    }
+  ],
+  "redFlags": ["reusedChainId"]
+}

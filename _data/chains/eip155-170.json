@@ -1,13 +1,8 @@
 {
   "name": "HOO Smart Chain Testnet",
   "chain": "ETH",
-  "network": "testnet",
-  "rpc": [
-    "https://http-testnet.hoosmartchain.com"
-  ],
-  "faucets": [
-    "https://faucet-testnet.hscscan.com/"
-  ],
+  "rpc": ["https://http-testnet.hoosmartchain.com"],
+  "faucets": ["https://faucet-testnet.hscscan.com/"],
   "nativeCurrency": {
     "name": "HOO",
     "symbol": "HOO",
@@ -16,5 +11,6 @@
   "infoURL": "https://www.hoosmartchain.com",
   "shortName": "hoosmartchain",
   "chainId": 170,
-  "networkId": 170
+  "networkId": 170,
+  "slip44": 1
 }

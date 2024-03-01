@@ -1,10 +1,11 @@
 {
-  "name": "Moonriver Kusama",
+  "name": "Moonriver",
   "chain": "MOON",
-  "network": "moonriver",
   "rpc": [
-    "https://rpc.moonriver.moonbeam.network",
-    "wss://wss.moonriver.moonbeam.network"
+    "https://rpc.api.moonriver.moonbeam.network",
+    "wss://wss.api.moonriver.moonbeam.network",
+    "https://moonriver-rpc.publicnode.com",
+    "wss://moonriver-rpc.publicnode.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -15,5 +16,12 @@
   "infoURL": "https://moonbeam.network/networks/moonriver/",
   "shortName": "mriver",
   "chainId": 1285,
-  "networkId": 1285
+  "networkId": 1285,
+  "explorers": [
+    {
+      "name": "moonscan",
+      "url": "https://moonriver.moonscan.io",
+      "standard": "none"
+    }
+  ]
 }

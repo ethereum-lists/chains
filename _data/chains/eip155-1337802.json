@@ -1,0 +1,28 @@
+{
+  "name": "Kiln",
+  "chain": "ETH",
+  "rpc": ["https://rpc.kiln.themerge.dev"],
+  "faucets": [
+    "https://faucet.kiln.themerge.dev",
+    "https://kiln-faucet.pk910.de",
+    "https://kilnfaucet.com"
+  ],
+  "nativeCurrency": {
+    "name": "Testnet ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://kiln.themerge.dev/",
+  "shortName": "kiln",
+  "chainId": 1337802,
+  "networkId": 1337802,
+  "icon": "ethereum",
+  "explorers": [
+    {
+      "name": "Kiln Explorer",
+      "url": "https://explorer.kiln.themerge.dev",
+      "icon": "ethereum",
+      "standard": "EIP3091"
+    }
+  ]
+}

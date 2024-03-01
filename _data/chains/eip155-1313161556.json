@@ -1,14 +1,11 @@
 {
-  "name": "Aurora BetaNet",
+  "name": "Aurora Betanet",
   "chain": "NEAR",
-  "network": "betanet",
-  "rpc": [
-    "https://rpc.betanet.aurora.dev:8545"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
-    "symbol": "aETH",
+    "symbol": "ETH",
     "decimals": 18
   },
   "infoURL": "https://aurora.dev",

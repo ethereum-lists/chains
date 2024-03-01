@@ -1,12 +1,8 @@
 {
   "name": "Theta Amber Testnet",
   "chain": "Theta",
-  "network": "testnet_amber",
-  "rpc": [
-    "https://eth-rpc-api-amber.thetatoken.org"
-  ],
-  "faucets": [
-  ],
+  "rpc": ["https://eth-rpc-api-amber.thetatoken.org/rpc"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Theta Fuel",
     "symbol": "TFUEL",
@@ -15,5 +11,13 @@
   "infoURL": "https://www.thetatoken.org/",
   "shortName": "theta-amber",
   "chainId": 364,
-  "networkId": 364
+  "networkId": 364,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Theta Amber Testnet Explorer",
+      "url": "https://guardian-testnet-amber-explorer.thetatoken.org",
+      "standard": "EIP3091"
+    }
+  ]
 }

@@ -1,7 +1,6 @@
 {
-  "name": "Callisto Testnet",
+  "name": "Callisto Testnet Deprecated",
   "chain": "CLO",
-  "network": "testnet",
   "rpc": [],
   "faucets": [],
   "nativeCurrency": {
@@ -12,5 +11,7 @@
   "infoURL": "https://callisto.network",
   "shortName": "tclo",
   "chainId": 821,
-  "networkId": 2
+  "networkId": 2,
+  "slip44": 1,
+  "status": "deprecated"
 }

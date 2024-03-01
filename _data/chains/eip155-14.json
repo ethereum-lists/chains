@@ -1,18 +1,37 @@
 {
   "name": "Flare Mainnet",
   "chain": "FLR",
-  "network": "flare",
+  "icon": "flare",
   "rpc": [
+    "https://flare-api.flare.network/ext/C/rpc",
+    "https://flare.rpc.thirdweb.com",
+    "https://flare-bundler.etherspot.io",
+    "https://rpc.ankr.com/flare",
+    "https://rpc.ftso.au/flare",
+    "https://flare.enosys.global/ext/C/rpc",
+    "https://flare.solidifi.app/ext/C/rpc"
   ],
-  "faucets": [
-  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "Spark",
+    "name": "Flare",
     "symbol": "FLR",
     "decimals": 18
   },
-  "infoURL": "https://flare.xyz",
+  "infoURL": "https://flare.network",
   "shortName": "flr",
   "chainId": 14,
-  "networkId": 14
+  "networkId": 14,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://flare-explorer.flare.network",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "flarescan",
+      "url": "https://mainnet.flarescan.com",
+      "standard": "EIP3091"
+    }
+  ]
 }

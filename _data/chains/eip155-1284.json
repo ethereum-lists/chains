@@ -1,8 +1,12 @@
 {
-  "name": "Moonbeam Polkadot",
+  "name": "Moonbeam",
   "chain": "MOON",
-  "network": "moonbeam",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.api.moonbeam.network",
+    "wss://wss.api.moonbeam.network",
+    "https://moonbeam-rpc.publicnode.com",
+    "wss://moonbeam-rpc.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Glimmer",
@@ -12,5 +16,12 @@
   "infoURL": "https://moonbeam.network/networks/moonbeam/",
   "shortName": "mbeam",
   "chainId": 1284,
-  "networkId": 1284
+  "networkId": 1284,
+  "explorers": [
+    {
+      "name": "moonscan",
+      "url": "https://moonbeam.moonscan.io",
+      "standard": "none"
+    }
+  ]
 }

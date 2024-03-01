@@ -1,0 +1,41 @@
+{
+  "name": "PulseChain",
+  "shortName": "pls",
+  "chain": "PLS",
+  "chainId": 369,
+  "networkId": 369,
+  "infoURL": "https://pulsechain.com/",
+  "rpc": [
+    "https://rpc.pulsechain.com",
+    "wss://rpc.pulsechain.com",
+    "https://pulsechain-rpc.publicnode.com",
+    "wss://pulsechain-rpc.publicnode.com",
+    "https://rpc-pulsechain.g4mm4.io",
+    "wss://rpc-pulsechain.g4mm4.io"
+  ],
+  "slip44": 60,
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "ens": {
+    "registry": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
+  },
+  "status": "active",
+  "nativeCurrency": {
+    "name": "Pulse",
+    "symbol": "PLS",
+    "decimals": 18
+  },
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://scan.pulsechain.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "otterscan",
+      "url": "https://otter.pulsechain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

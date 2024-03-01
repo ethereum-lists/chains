@@ -1,13 +1,8 @@
 {
   "name": "Joys Digital TestNet",
   "chain": "TOYS",
-  "network": "testnet",
-  "rpc": [
-    "https://toys.joys.cash/"
-  ],
-  "faucets": [
-    "https://faucet.joys.digital/"
-  ],
+  "rpc": ["https://toys.joys.cash/"],
+  "faucets": ["https://faucet.joys.digital/"],
   "nativeCurrency": {
     "name": "TOYS",
     "symbol": "TOYS",
@@ -16,5 +11,6 @@
   "infoURL": "https://joys.digital",
   "shortName": "TOYS",
   "chainId": 99415706,
-  "networkId": 99415706
+  "networkId": 99415706,
+  "slip44": 1
 }

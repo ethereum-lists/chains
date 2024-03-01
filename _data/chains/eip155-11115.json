@@ -1,0 +1,31 @@
+{
+  "name": "Astra Testnet",
+  "chain": "Astra",
+  "rpc": ["https://rpc.astranaut.dev"],
+  "faucets": ["https://faucet.astranaut.dev"],
+  "nativeCurrency": {
+    "name": "test-Astra",
+    "symbol": "tASA",
+    "decimals": 18
+  },
+  "infoURL": "https://astranaut.io",
+  "shortName": "astra-testnet",
+  "chainId": 11115,
+  "networkId": 11115,
+  "slip44": 1,
+  "icon": "astra",
+  "explorers": [
+    {
+      "name": "Astra EVM Explorer",
+      "url": "https://explorer.astranaut.dev",
+      "standard": "EIP3091",
+      "icon": "astra"
+    },
+    {
+      "name": "Astra PingPub Explorer",
+      "url": "https://ping.astranaut.dev/astra",
+      "standard": "none",
+      "icon": "astra"
+    }
+  ]
+}

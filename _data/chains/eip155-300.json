@@ -1,0 +1,31 @@
+{
+  "name": "zkSync Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": ["https://sepolia.era.zksync.dev"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://zksync.io/",
+  "shortName": "zksync-sepolia",
+  "chainId": 300,
+  "networkId": 300,
+  "slip44": 1,
+  "icon": "zksync-era",
+  "explorers": [
+    {
+      "name": "zkSync Block Explorer",
+      "url": "https://sepolia.explorer.zksync.io",
+      "icon": "zksync-era",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.zksync.io/" }]
+  },
+  "redFlags": ["reusedChainId"]
+}

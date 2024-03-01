@@ -1,10 +1,7 @@
 {
   "name": "Wanchain Testnet",
   "chain": "WAN",
-  "network": "testnet",
-  "rpc": [
-    "https://gwan-ssl.wandevs.org:46891/"
-  ],
+  "rpc": ["https://gwan-ssl.wandevs.org:46891/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Wancoin",
@@ -14,5 +11,6 @@
   "infoURL": "https://testnet.wanscan.org",
   "shortName": "twan",
   "chainId": 999,
-  "networkId": 999
+  "networkId": 999,
+  "slip44": 1
 }
