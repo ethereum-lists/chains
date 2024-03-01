@@ -14377,6 +14377,32 @@
   "faucets": ["http://faucet.reapchain.com"],
   "infoURL": "https://reapchain.com"
 }, {
+  "name": "DeepL Mainnet",
+  "chainId": 222555,
+  "shortName": "deepl",
+  "networkId": 222555,
+  "nativeCurrency": {
+    "name": "DeepL",
+    "symbol": "DEEPL",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.deeplnetwork.org"],
+  "faucets": [],
+  "infoURL": "https://deeplnetwork.org"
+}, {
+  "name": "DeepL Testnet",
+  "chainId": 222666,
+  "shortName": "tdeepl",
+  "networkId": 222666,
+  "nativeCurrency": {
+    "name": "DeepL",
+    "symbol": "DEEPL",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.deeplnetwork.org"],
+  "faucets": ["https://faucet.deeplnetwork.org"],
+  "infoURL": "https://deeplnetwork.org"
+}, {
   "name": "Taf ECO Chain Mainnet",
   "chainId": 224168,
   "shortName": "TAFECO",
