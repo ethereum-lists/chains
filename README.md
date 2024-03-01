@@ -68,3 +68,4 @@ There are also aggregated json files with all chains automatically assembled:
  * [networks.vercel.app](https://networks.vercel.app)
  * [eth-chains](https://github.com/taylorjdawson/eth-chains)
  * Your project - contact us to add it here!
+# irgore
