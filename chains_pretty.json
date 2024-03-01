@@ -24310,6 +24310,30 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Tiltyard Mainnet Subnet",
+  "chain": "TILTYARD",
+  "rpc": ["https://subnets.avax.network/tiltyard/mainnet/rpc"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TILT",
+    "symbol": "TILT",
+    "decimals": 18
+  },
+  "infoURL": "https://play.tiltyard.gg/",
+  "shortName": "tiltyardmainnet",
+  "chainId": 710420,
+  "networkId": 710420,
+  "explorers": [{
+    "name": "TILTYARD Explorer",
+    "url": "https://subnets.avax.network/tiltyard",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Sei Devnet",
   "chain": "Sei",
   "rpc": ["https://evm-rpc-arctic-1.sei-apis.com", "https://evm-rpc.arctic-1.seinetwork.io"],

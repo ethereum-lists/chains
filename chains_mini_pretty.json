@@ -15131,6 +15131,19 @@
   "faucets": ["https://testnet-faucet.helachain.com"],
   "infoURL": "https://helalabs.com"
 }, {
+  "name": "Tiltyard Mainnet Subnet",
+  "chainId": 710420,
+  "shortName": "tiltyardmainnet",
+  "networkId": 710420,
+  "nativeCurrency": {
+    "name": "TILT",
+    "symbol": "TILT",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/tiltyard/mainnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://play.tiltyard.gg/"
+}, {
   "name": "Sei Devnet",
   "chainId": 713715,
   "shortName": "sei-devnet",
