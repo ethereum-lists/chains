@@ -4133,6 +4133,19 @@
   "faucets": [],
   "infoURL": "https://callisto.network"
 }, {
+  "name": "Runic Chain Testnet",
+  "chainId": 822,
+  "shortName": "runic-testnet",
+  "networkId": 822,
+  "nativeCurrency": {
+    "name": "Bitcoin",
+    "symbol": "rBTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.runic.build"],
+  "faucets": ["https://faucet.runic.build"],
+  "infoURL": "https://runic.build"
+}, {
   "name": "CheckDot Blockchain Devnet",
   "chainId": 831,
   "shortName": "cdt",
