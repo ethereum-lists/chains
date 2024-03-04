@@ -2105,6 +2105,19 @@
   "faucets": [],
   "infoURL": "https://bmc.bytom.io/"
 }, {
+  "name": "FileFileGo",
+  "chainId": 191,
+  "shortName": "ffg",
+  "networkId": 191,
+  "nativeCurrency": {
+    "name": "FFG",
+    "symbol": "FFG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.filefilego.com/rpc"],
+  "faucets": [],
+  "infoURL": "https://filefilego.com"
+}, {
   "name": "Crypto Emergency",
   "chainId": 193,
   "shortName": "cem",
