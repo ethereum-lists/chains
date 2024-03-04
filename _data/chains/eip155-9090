@@ -1,0 +1,25 @@
+{
+  "name": "Inco Gentry Testnet",
+  "chain": "Inco Gentry",
+  "rpc": ["https://testnet.inco.org"],
+  "faucets": ["https://faucet.inco.org/"],
+  "nativeCurrency": {
+    "name": "INCO",
+    "symbol": "INCO",
+    "decimals": 18
+  },
+  "infoURL": "https://www.inco.org/",
+  "shortName": "Inco",
+  "chainId": 9090,
+  "networkId": 9090,
+  "slip44": 1,
+  "icon": "Inco",
+  "explorers": [
+    {
+      "name": "Inco Testnet explorer",
+      "url": "https://explorer.testnet.inco.org/",
+      "standard": "EIP3091",
+      "icon": "Inco"
+    }
+  ]
+}
