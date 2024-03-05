@@ -1,7 +1,9 @@
 {
   "name": "Tenzro",
   "chain": "Tenzro",
-  "rpc": ["https://subnets.avax.network/tenzro/testnet/rpc"],
+  "rpc": [
+    "https://subnets.avax.network/tenzro/testnet/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Tenzro Token",
