@@ -92,64 +92,58 @@ There are also aggregated json files with all chains automatically assembled:
  All pull requests trying to replace a chainID because they think their chain is better than the other will be closed.
  The only way to get a chain reassigned is when the old chain gets deprecated. This can e.g. be used for testnets that are short-lived. But then you will get the redFlag "reusedChaiID" that should be displayed in clients to warn them about the dangers here.
 
-## Getting your PR merged
-### before PR is submitted
+## Contributing Guidelines
 
-Before submitting a PR, please verify that checks pass with:
+### Before Submitting a Pull Request (PR)
+
+Before submitting a PR, please ensure that all checks pass by running:
 
 ```bash
 $ ./gradlew run
-
+You should see output similar to:
 BUILD SUCCESSFUL in 7s
 9 actionable tasks: 9 executed
-```
+After Submitting a PR
+Ensure Continuous Integration (CI) is green. PRs with failing CI checks will likely not be reviewed.
+If your changes address CI failures, please re-request a review to expedite the process.
+Usages
+Tools
+MESC
+Explorers
+Otterscan
+Wallets
+WallETH
+TREZOR
+Minerva Wallet
+Ethereum Improvement Proposals (EIPs)
+EIP-155
+EIP-3014
+EIP-3770
+EIP-4527
+Listing Sites
+chainid.network / chainlist.wtf
+chainlist.org
+chaindirectory.xyz
+chain-list.org
+chainlist.network
+chainlist.info
+chainmap.io
+chainlist.in
+chainz.me
+Chainlink Docs
+dRPC Chainlist - Load-balanced Public Nodes
+eth-chains
+EVM-BOX
+evmchain.info
+evmchainlist.com
+evmchainlist.org
+networks.vercel.app
+Wagmi Compatible Chain Configurations
+Other
+FaucETH
+Sourcify Playground
+Smart Contract UI
+Your project - contact us to add it here!
 
-### Once PR is submitted
 
- * Make sure CI is green. There will likely be no review when the CI is red.
- * When making changes that fix the CI problems - please re-request a review - otherwise it is too much work to track such changes with so many PRs daily
 
-## Usages
-### Tools 
- * [MESC](https://paradigmxyz.github.io/mesc)
-
-### Explorers
- * [Otterscan](https://otterscan.io)
-
-### Wallets
- * [WallETH](https://walleth.org)
- * [TREZOR](https://trezor.io)
- * [Minerva Wallet](https://minerva.digital)
-
-### EIPs
- * EIP-155
- * EIP-3014
- * EIP-3770
- * EIP-4527
-
-### Listing sites
- * [chainid.network](https://chainid.network) / [chainlist.wtf](https://chainlist.wtf)
- * [chainlist.org](https://chainlist.org)
- * [chaindirectory.xyz](https://www.chaindirectory.xyz)
- * [chain-list.org](https://chain-list.org)
- * [chainlist.network](https://chainlist.network/)
- * [chainlist.info](https://chainlist.info)
- * [chainmap.io](https://chainmap.io)
- * [chainlist.in](https://www.chainlist.in)
- * [chainz.me](https://chainz.me)
- * [Chainlink docs](https://docs.chain.link/)
- * [dRPC Chainlist - Load-balanced public nodes](https://drpc.org/chainlist)
- * [eth-chains](https://github.com/taylorjdawson/eth-chains)
- * [EVM-BOX](https://github.com/izayl/evm-box)
- * [evmchain.info](https://evmchain.info)
- * [evmchainlist.com](https://evmchainlist.com)
- * [evmchainlist.org](https://evmchainlist.org)
- * [networks.vercel.app](https://networks.vercel.app)
- * [Wagmi compatible chain configurations](https://spenhouet.com/chains)
-
-### Other
- * [FaucETH](https://github.com/komputing/FaucETH)
- * [Sourcify playground](https://playground.sourcify.dev)
- * [Smart Contract UI](https://xtools-at.github.io/smartcontract-ui)
-
- * Your project - contact us to add it here!
