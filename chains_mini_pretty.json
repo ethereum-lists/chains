@@ -7305,6 +7305,19 @@
   "faucets": [],
   "infoURL": "https://testnet.frax.com"
 }, {
+  "name": "inEVM Mainnet",
+  "chainId": 2525,
+  "shortName": "inevm",
+  "networkId": 2525,
+  "nativeCurrency": {
+    "name": "Injective",
+    "symbol": "INJ",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.rpc.inevm.com/http"],
+  "faucets": [],
+  "infoURL": "https://inevm.com"
+}, {
   "name": "Kortho Mainnet",
   "chainId": 2559,
   "shortName": "ktoc",

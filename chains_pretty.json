@@ -11649,6 +11649,23 @@
   }],
   "status": "active"
 }, {
+  "name": "inEVM Mainnet",
+  "chain": "inEVM",
+  "icon": "inevm",
+  "rpc": ["https://mainnet.rpc.inevm.com/http"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Injective",
+    "symbol": "INJ",
+    "decimals": 18
+  },
+  "infoURL": "https://inevm.com",
+  "shortName": "inevm",
+  "chainId": 2525,
+  "networkId": 2525,
+  "explorers": [],
+  "status": "active"
+}, {
   "name": "Kortho Mainnet",
   "chain": "Kortho Chain",
   "rpc": ["https://www.kortho-chain.com"],
