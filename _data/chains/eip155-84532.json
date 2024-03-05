@@ -1,7 +1,11 @@
 {
   "name": "Base Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia.base.org"],
+  "rpc": [
+    "https://sepolia.base.org",
+    "https://base-sepolia-rpc.publicnode.com",
+    "wss://base-sepolia-rpc.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
