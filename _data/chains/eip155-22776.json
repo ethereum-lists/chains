@@ -1,23 +1,23 @@
 {
-  "name": "MAP Mainnet",
-  "chain": "MAP",
+  "name": "MAP Protocol",
+  "chain": "MAPO",
   "icon": "map",
   "rpc": ["https://rpc.maplabs.io"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "MAP",
-    "symbol": "MAP",
+    "name": "MAPO",
+    "symbol": "MAPO",
     "decimals": 18
   },
-  "infoURL": "https://maplabs.io",
-  "shortName": "map",
+  "infoURL": "https://mapprotocol.io/",
+  "shortName": "mapo",
   "chainId": 22776,
   "networkId": 22776,
   "slip44": 60,
   "explorers": [
     {
-      "name": "mapscan",
-      "url": "https://mapscan.io",
+      "name": "maposcan",
+      "url": "https://maposcan.io",
       "standard": "EIP3091"
     }
   ]

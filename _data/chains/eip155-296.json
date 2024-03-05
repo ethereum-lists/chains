@@ -8,18 +8,18 @@
   "nativeCurrency": {
     "name": "hbar",
     "symbol": "HBAR",
-    "decimals": 8
+    "decimals": 18
   },
   "infoURL": "https://hedera.com",
   "shortName": "hedera-testnet",
   "chainId": 296,
   "networkId": 296,
-  "slip44": 3030,
+  "slip44": 1,
   "explorers": [
     {
       "name": "HashScan",
-      "url": "https://hashscan.io/testnet/dashboard",
-      "standard": "none"
+      "url": "https://hashscan.io/testnet",
+      "standard": "EIP3091"
     },
     {
       "name": "Arkhia Explorer",

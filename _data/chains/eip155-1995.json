@@ -15,11 +15,12 @@
   "shortName": "edx",
   "chainId": 1995,
   "networkId": 1995,
+  "slip44": 1,
   "icon": "edexa",
   "explorers": [
     {
       "name": "edexa-testnet",
-      "url": "https://explorer.edexa.com",
+      "url": "https://explorer.testnet.edexa.com",
       "standard": "EIP3091"
     }
   ]

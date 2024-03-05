@@ -2,18 +2,21 @@
   "name": "ZetaChain Mainnet",
   "chain": "ZetaChain",
   "icon": "zetachain",
-  "rpc": ["https://api.mainnet.zetachain.com/evm"],
+  "rpc": [
+    "https://zetachain-evm.blockpi.network/v1/rpc/public",
+    "https://zetachain-mainnet-archive.allthatnode.com:8545"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Zeta",
     "symbol": "ZETA",
     "decimals": 18
   },
-  "infoURL": "https://docs.zetachain.com/",
+  "infoURL": "https://zetachain.com/docs/",
   "shortName": "zetachain-mainnet",
   "chainId": 7000,
   "networkId": 7000,
-  "status": "incubating",
+  "status": "active",
   "explorers": [
     {
       "name": "ZetaChain Mainnet Explorer",

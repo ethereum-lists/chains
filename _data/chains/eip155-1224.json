@@ -1,0 +1,23 @@
+{
+  "name": "Hybrid Testnet",
+  "chain": "$HYB",
+  "icon": "hybridIcon",
+  "rpc": ["https://testnet-rpc.buildonhybrid.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Hybrid",
+    "symbol": "$HYB",
+    "decimals": 18
+  },
+  "infoURL": "https://buildonhybrid.com",
+  "shortName": "hyb",
+  "chainId": 1224,
+  "networkId": 1224,
+  "explorers": [
+    {
+      "name": "Hybrid Testnet",
+      "url": "https://alphatestnet.buildonhybrid.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Razor Skale Chain",
+  "chain": "Razor Schain",
+  "icon": "razornetwork",
+  "rpc": ["https://mainnet.skalenodes.com/v1/turbulent-unique-scheat"],
+  "faucets": ["https://faucet.razorscan.io/"],
+  "nativeCurrency": {
+    "name": "sFuel",
+    "symbol": "SFUEL",
+    "decimals": 18
+  },
+  "infoURL": "https://razor.network",
+  "shortName": "razor",
+  "chainId": 278611351,
+  "networkId": 278611351,
+  "explorers": [
+    {
+      "name": "turbulent-unique-scheat",
+      "url": "https://turbulent-unique-scheat.explorer.mainnet.skalenodes.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
