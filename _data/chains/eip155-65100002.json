@@ -1,8 +1,10 @@
 {
-  "name": "Autonity Piccadilly (Barada) Testnet",
-  "status": "deprecated",
+  "name": "Autonity Piccadilly (Sumida) Testnet",
   "chain": "AUT",
-  "rpc": [],
+  "rpc": [
+    "https://rpc1.piccadilly.autonity.org/",
+    "wss://rpc1.piccadilly.autonity.org/ws/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Piccadilly Auton",
@@ -10,9 +12,9 @@
     "decimals": 18
   },
   "infoURL": "https://autonity.org/",
-  "shortName": "piccadilly-01",
-  "chainId": 65100001,
-  "networkId": 65100001,
+  "shortName": "piccadilly-02",
+  "chainId": 65100002,
+  "networkId": 65100002,
   "slip44": 1,
   "icon": "autonity",
   "explorers": [
