@@ -3652,6 +3652,19 @@
   "faucets": [],
   "infoURL": "https://avocado.instadapp.io"
 }, {
+  "name": "FlowEVM PreviewNet",
+  "chainId": 646,
+  "shortName": "flowevm-preview",
+  "networkId": 646,
+  "nativeCurrency": {
+    "name": "FLOW",
+    "symbol": "FLOW",
+    "decimals": 18
+  },
+  "rpc": ["https://previewnet.evm.nodes.onflow.org"],
+  "faucets": ["https://previewnet-faucet.onflow.org"],
+  "infoURL": "https://developers.flow.com/evm/about"
+}, {
   "name": "SX Network Testnet",
   "chainId": 647,
   "shortName": "SX-Testnet",
@@ -3924,6 +3937,19 @@
   "rpc": ["https://testeth-rpc-api.script.tv/rpc"],
   "faucets": [],
   "infoURL": "https://token.script.tv"
+}, {
+  "name": "FlowEVM Mainnet",
+  "chainId": 747,
+  "shortName": "flowevm-mainnet",
+  "networkId": 747,
+  "nativeCurrency": {
+    "name": "FLOW",
+    "symbol": "FLOW",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.evm.nodes.onflow.org"],
+  "faucets": [],
+  "infoURL": "https://developers.flow.com/evm/about"
 }, {
   "name": "QL1",
   "chainId": 766,
