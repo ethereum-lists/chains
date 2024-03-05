@@ -15014,18 +15014,18 @@
   "faucets": ["https://dev.caduceus.foundation/testNetwork"],
   "infoURL": "https://caduceus.foundation/"
 }, {
-  "name": "ethereum Fair",
+  "name": "DisChain",
   "chainId": 513100,
-  "shortName": "ethf",
+  "shortName": "dis",
   "networkId": 513100,
   "nativeCurrency": {
-    "name": "EthereumFair",
-    "symbol": "ETHF",
+    "name": "DisChain",
+    "symbol": "DIS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.etherfair.org"],
+  "rpc": ["https://rpc.dischain.xyz"],
   "faucets": [],
-  "infoURL": "https://etherfair.org"
+  "infoURL": "https://dischain.xyz"
 }, {
   "name": "Scroll Sepolia Testnet",
   "chainId": 534351,
