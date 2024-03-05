@@ -16232,6 +16232,19 @@
     "symbol": "ATN",
     "decimals": 18
   },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://autonity.org/"
+}, {
+  "name": "Autonity Piccadilly (Sumida) Testnet",
+  "chainId": 65100002,
+  "shortName": "piccadilly-02",
+  "networkId": 65100002,
+  "nativeCurrency": {
+    "name": "Piccadilly Auton",
+    "symbol": "ATN",
+    "decimals": 18
+  },
   "rpc": ["https://rpc1.piccadilly.autonity.org/", "wss://rpc1.piccadilly.autonity.org/ws/"],
   "faucets": [],
   "infoURL": "https://autonity.org/"
