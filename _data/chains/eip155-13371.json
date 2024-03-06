@@ -6,9 +6,7 @@
     "https://immutable-zkevm.drpc.org",
     "wss://immutable-zkevm.drpc.org"
   ],
-  "faucets": [
-    "https://docs.immutable.com/docs/zkEVM/guides/faucet"
-  ],
+  "faucets": ["https://docs.immutable.com/docs/zkEVM/guides/faucet"],
   "nativeCurrency": {
     "name": "IMX",
     "symbol": "IMX",
