@@ -1,7 +1,7 @@
 {
   "name": "PlayFi Alberio Testnet",
   "chain": "ETH",
-  "rpc": ["https://alberio.rpc.playfi.ai"],
+  "rpc": ["https://albireo-rpc.playfi.ai"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "PlayFi Block Explorer",
-      "url": "https://alberio.explorer.playfi.ai",
+      "url": "https://albireo-explorer.playfi.ai",
       "icon": "playfi",
       "standard": "EIP3091"
     }
