@@ -1,0 +1,30 @@
+{
+  "name": "PlayFi Alberio Testnet",
+  "chain": "ETH",
+  "rpc": ["https://alberio.rpc.playfi.ai"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.playfi.ai/",
+  "shortName": "alberio",
+  "chainId": 1612125,
+  "networkId": 1612125,
+  "slip44": 1,
+  "icon": "playfi",
+  "explorers": [
+    {
+      "name": "PlayFi Block Explorer",
+      "url": "https://alberio.explorer.playfi.ai",
+      "icon": "playfi",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://portal.playfi.ai/bridge" }]
+  }
+}
