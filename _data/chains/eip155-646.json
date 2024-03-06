@@ -1,0 +1,23 @@
+{
+  "name": "FlowEVM PreviewNet",
+  "chain": "FlowEVM",
+  "rpc": ["https://previewnet.evm.nodes.onflow.org"],
+  "faucets": ["https://previewnet-faucet.onflow.org"],
+  "nativeCurrency": {
+    "name": "FLOW",
+    "symbol": "FLOW",
+    "decimals": 18
+  },
+  "infoURL": "https://developers.flow.com/evm/about",
+  "shortName": "flowevm-preview",
+  "chainId": 646,
+  "networkId": 646,
+  "icon": "flowevm",
+  "explorers": [
+    {
+      "name": "Flow Diver",
+      "url": "https://previewnet.flowdiver.io",
+      "standard": "none"
+    }
+  ]
+}
