@@ -15287,6 +15287,32 @@
   "faucets": [],
   "infoURL": "https://octa.space"
 }, {
+  "name": "zkLink Nova Mainnet",
+  "chainId": 810180,
+  "shortName": "zklink-nova",
+  "networkId": 810180,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zklink.io", "wss://rpc.zklink.io"],
+  "faucets": [],
+  "infoURL": "https://zklink.io"
+}, {
+  "name": "zkLink Nova Goerli Testnet",
+  "chainId": 810182,
+  "shortName": "zklink-nova-goerli",
+  "networkId": 810182,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://goerli.rpc.zklink.io", "wss://goerli.rpc.zklink.io"],
+  "faucets": [],
+  "infoURL": "https://zklink.io"
+}, {
   "name": "CURVE Mainnet",
   "chainId": 827431,
   "shortName": "CURVEm",
