@@ -8267,6 +8267,19 @@
   "faucets": ["https://faucet.tipboxcoin.net"],
   "infoURL": "https://tipboxcoin.net"
 }, {
+  "name": "CrossFi Testnet",
+  "chainId": 4157,
+  "shortName": "crossfi-testnet",
+  "networkId": 4157,
+  "nativeCurrency": {
+    "name": "XFI",
+    "symbol": "XFI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.ms"],
+  "faucets": [],
+  "infoURL": "https://crossfi.org/"
+}, {
   "name": "PHI Network V1",
   "chainId": 4181,
   "shortName": "PHIv1",
