@@ -1,7 +1,7 @@
 {
   "name": "RSS3 VSL Mainnet",
   "chain": "RSS3",
-  "rpc": ["https://rpc.mainnet.rss3.io"],
+  "rpc": ["https://rpc.rss3.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "RSS3",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "RSS3 VSL Scan",
-      "url": "https://scan.mainnet.rss3.io",
+      "url": "https://scan.rss3.io",
       "standard": "EIP3091"
     }
   ],
