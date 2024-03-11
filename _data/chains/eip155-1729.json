@@ -1,6 +1,6 @@
 {
     "name": "Reya Network",
-    "chain": "mainnet",
+    "chain": "Reya",
     "rpc": [
         "https://rpc.reya.network",
         "wss://ws.reya.network"
@@ -11,13 +11,13 @@
         "symbol": "ETH",
         "decimals": 18
     },
-    "infoURL": "https://reya.xyz/",
+    "infoURL": "https://reya.network/",
     "shortName": "reya",
     "chainId": 1729,
     "networkId": 1729,
     "explorers": [
         {
-            "name": "Reya Minnet blockchain explorer",
+            "name": "Reya Minnet Explorer",
             "url": "https://explorer.reya.network/"
         }
     ]
