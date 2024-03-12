@@ -2,9 +2,7 @@
   "name": "Creditcoin 3 Devnet",
   "chain": "CC3",
   "icon": "creditcoin",
-  "rpc": [
-    "https://rpc.cc3-devnet.creditcoin.network/ws"
-  ],
+  "rpc": ["https://rpc.cc3-devnet.creditcoin.network/ws"],
   "nativeCurrency": {
     "name": "Devnet CTC",
     "symbol": "CTC",
