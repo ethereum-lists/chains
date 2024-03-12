@@ -1,13 +1,13 @@
 {
   "name": "Showdown Testnet",
-  "chain": "SHOWDOWN",
+  "chain": "Showdown Testnet",
   "rpc": [
     "http://185.150.118.30:8545"
   ],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
-    "name": "SHDWN",
+    "name": "Shdwn",
     "symbol": "SHDWN",
     "decimals": 18
   },
