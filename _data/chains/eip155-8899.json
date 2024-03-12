@@ -1,7 +1,7 @@
 {
   "name": "JIBCHAIN L1",
   "chain": "JBC",
-  "rpc": ["https://rpc-l1.jibchain.net", "https://jib-rpc.inan.in.th"],
+  "rpc": ["https://rpc-l1.jibchain.net", "https://jib-rpc.inan.in.th", "https://rpc-l1.jbc.xpool.pw", "https://rpc-l1.jbc.aomwara.in.th"],
   "faucets": [],
   "icon": "jbc",
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }, { "name": "EIP4844" }],
