@@ -9,8 +9,8 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v2
-      - uses: actions/cache@v2
-        name: Configure npm caching
+      - name: Configure npm caching
+        uses: actions/cache@v2
         with:
           path: ~/.npm
           key: ${{ runner.os }}-npm-${{ hashFiles('**/workflows/prettier.yml') }}
@@ -19,9 +19,9 @@ jobs:
       - name: Run prettier
         run: |-
           npx prettier --write '_data/*/*.json'
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        name: commit
-	with:
+      - name: commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
           commit_message: Formatting files
           status_options: '--untracked-files=no'
           skip_dirty_check: true    
