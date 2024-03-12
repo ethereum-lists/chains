@@ -1,0 +1,29 @@
+name: Run prettier write
+
+on:
+  pull_request:
+
+jobs:
+  prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        name: Configure npm caching
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/workflows/prettier.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+      - name: Run prettier
+        run: |-
+          npx prettier --write '_data/*/*.json'
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        name: commit
+	with:
+          commit_message: Formatting files
+          status_options: '--untracked-files=no'
+          skip_dirty_check: true    
+          skip_fetch: true    
+          skip_checkout: true

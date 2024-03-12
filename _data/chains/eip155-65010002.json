@@ -1,0 +1,27 @@
+{
+  "name": "Autonity Bakerloo (Sumida) Testnet",
+  "chain": "AUT",
+  "rpc": [
+    "https://rpc1.bakerloo.autonity.org/",
+    "wss://rpc1.bakerloo.autonity.org/ws/"
+  ],
+  "faucets": ["https://faucet.autonity.org/"],
+  "nativeCurrency": {
+    "name": "Bakerloo Auton",
+    "symbol": "ATN",
+    "decimals": 18
+  },
+  "infoURL": "https://autonity.org/",
+  "shortName": "bakerloo-02",
+  "chainId": 65010002,
+  "networkId": 65010002,
+  "slip44": 1,
+  "icon": "autonity",
+  "explorers": [
+    {
+      "name": "autonity-blockscout",
+      "url": "https://bakerloo.autonity.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
