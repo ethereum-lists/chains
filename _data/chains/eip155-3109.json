@@ -1,8 +1,8 @@
 {
-  "name": "SatoshiVM Testnet",
+  "name": "SatoshiVM Alpha Mainnet",
   "chain": "SatoshiVM",
   "rpc": [
-    "https://test-rpc-node-http.svmscan.io"
+    "https://main-rpc-node-http.svmscan.io"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -11,8 +11,8 @@
     "decimals": 18
   },
   "infoURL": "https://www.satoshivm.io/",
-  "shortName": "tSAVM",
-  "chainId": 3110,
-  "networkId": 3110,
+  "shortName": "SAVM",
+  "chainId": 3109,
+  "networkId": 3109,
   "icon": "satoshivm"
 }
