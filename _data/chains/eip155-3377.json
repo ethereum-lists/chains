@@ -1,0 +1,19 @@
+{
+  "name": "Showdown Testnet",
+  "chain": "SHOWDOWN",
+  "rpc": [
+    "http://185.150.118.30:8545"
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SHDWN",
+    "symbol": "SHDWN",
+    "decimals": 18
+  },
+  "shortName": "shdwn",
+  "chainId": 3377,
+  "networkId": 3377,
+  "slip44": 60,
+  "explorers": []
+}
