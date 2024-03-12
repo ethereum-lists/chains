@@ -4,7 +4,7 @@
   "rpc": ["https://rpc-l1.jibchain.net", "https://jib-rpc.inan.in.th"],
   "faucets": [],
   "icon": "jbc",
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }, { "name": "EIP4844" }],
   "nativeCurrency": {
     "name": "JIBCOIN",
     "symbol": "JBC",
