@@ -8644,6 +8644,19 @@
   "faucets": [],
   "infoURL": "https://syndicate.io"
 }, {
+  "name": "SIC Testnet",
+  "chainId": 5102,
+  "shortName": "sic-testnet",
+  "networkId": 5102,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-sic-testnet-zvr7tlkzsi.t.conduit.xyz"],
+  "faucets": [],
+  "infoURL": "https://www.fwb.help/"
+}, {
   "name": "Bahamut",
   "chainId": 5165,
   "shortName": "ftn",
