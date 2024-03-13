@@ -1,9 +1,7 @@
 {
   "name": "SatoshiVM Testnet",
   "chain": "SatoshiVM",
-  "rpc": [
-    "https://test-rpc-node-http.svmscan.io"
-  ],
+  "rpc": ["https://test-rpc-node-http.svmscan.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",
