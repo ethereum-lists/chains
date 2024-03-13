@@ -19,11 +19,7 @@ jobs:
       - name: Run prettier
         run: |-
           npx prettier --write '_data/*/*.json'
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        name: commit
-	with:
-          commit_message: Formatting files
-          status_options: '--untracked-files=no'
-          skip_dirty_check: true    
-          skip_fetch: true    
-          skip_checkout: true
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: 'Fix formatting'
