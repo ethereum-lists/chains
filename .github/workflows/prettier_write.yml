@@ -26,7 +26,7 @@ jobs:
       - name: Check if there are any changes
         id: verify_diff
         run: git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
-     - name: Commit/Push
+      - name: Commit/Push
         if: steps.verify_diff.outputs.changed == 'true' 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
