@@ -1,15 +1,17 @@
 {
-  "name": "Creditcoin 3 Testnet",
-  "chain": "CC3",
+  "name": "Creditcoin Testnet",
+  "chain": "CC",
   "icon": "creditcoin",
-  "rpc": ["https://rpc.cc3-testnet.creditcoin.network/ws"],
+  "rpc": [
+    "https://rpc.cc3-testnet.creditcoin.network"
+  ],
   "nativeCurrency": {
     "name": "Testnet CTC",
-    "symbol": "CTC",
+    "symbol": "tCTC",
     "decimals": 18
   },
   "infoURL": "https://creditcoin.org",
-  "shortName": "cc3-test",
+  "shortName": "cc-test",
   "chainId": 102031,
   "networkId": 102031,
   "faucets": [],
