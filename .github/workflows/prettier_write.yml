@@ -8,7 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo
-        uses: actions/checkout@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr checkout ${{ github.event.pull_request.number }}
       - uses: actions/cache@v2
         name: Configure npm caching
         with:
@@ -20,6 +22,11 @@ jobs:
         run: |-
           npx prettier --write '_data/*/*.json'
       - name: Commit changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: 'Fix formatting'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: git commit -a -m 'Fix formatting'
+      - name: Push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: git commit -a -m 'Fix formatting'
+
