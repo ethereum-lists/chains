@@ -1,5 +1,6 @@
 {
-  "name": "Morph Holesky Testnet",
+  "name": "Morph Holesky",
+  "title": "Morph Holesky Testnet",
   "chain": "ETH",
   "rpc": ["https://rpc-testnet.morphl2.io"],
   "faucets": [],
@@ -15,7 +16,7 @@
   "slip44": 1,
   "explorers": [
     {
-      "name": "Morph Testnet Explorer",
+      "name": "Morph Holesky Testnet Explorer",
       "url": "https://explorer-testnet.morphl2.io",
       "standard": "EIP3091"
     }
