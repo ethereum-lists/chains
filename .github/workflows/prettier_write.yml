@@ -10,6 +10,7 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v2
         with:
+          token: ${{ secrets.PAT }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.ref }}
       - uses: actions/cache@v2
