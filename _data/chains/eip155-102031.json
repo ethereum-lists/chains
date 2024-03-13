@@ -1,6 +1,6 @@
 {
   "name": "Creditcoin Testnet",
-  "chain": "CC",
+  "chain": "CTC",
   "icon": "creditcoin",
   "rpc": ["https://rpc.cc3-testnet.creditcoin.network"],
   "features": [
@@ -17,7 +17,7 @@
     "decimals": 18
   },
   "infoURL": "https://creditcoin.org",
-  "shortName": "cc-test",
+  "shortName": "ctctest",
   "chainId": 102031,
   "networkId": 102031,
   "faucets": [],
