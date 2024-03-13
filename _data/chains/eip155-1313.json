@@ -1,0 +1,23 @@
+{
+  "name": "Doric Network Testnet",
+  "chain": "TDRC",
+  "icon": "doric",
+  "rpc": ["https://testnet.doric.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Testnet Doric Native Token",
+    "symbol": "TDRC",
+    "decimals": 18
+  },
+  "infoURL": "https://doric.network",
+  "shortName": "DRC",
+  "chainId": 1313,
+  "networkId": 1313,
+  "explorers": [
+    {
+      "name": "Doric Explorer",
+      "url": "https://testnet-explorer.doric.network/",
+      "standard": "EIP3091"
+    }
+  ]
+}
