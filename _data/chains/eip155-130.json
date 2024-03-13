@@ -1,0 +1,25 @@
+{
+  "name": "NetMind Chain Mainnet",
+  "title": "NetMind Chain Mainnet",
+  "chain": "NetMind",
+  "rpc": ["https://rpc-mainnet-node01.netmind.ai"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NMT",
+    "symbol": "NMT",
+    "decimals": 18
+  },
+  "infoURL": "https://netmind.ai",
+  "shortName": "nmt",
+  "chainId": 130,
+  "networkId": 130,
+  "icon": "netmindmain",
+  "explorers": [
+    {
+      "name": "NetMind Mainnet Explorer",
+      "url": "https://nmscan-sg.netmind.ai",
+      "icon": "netmindmain",
+      "standard": "EIP3091"
+    }
+  ]
+}
