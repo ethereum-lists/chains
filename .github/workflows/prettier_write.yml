@@ -9,10 +9,9 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v2
-      - name: Check out PR
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh pr checkout ${{ github.event.pull_request.number }}
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
       - uses: actions/cache@v2
         name: Configure npm caching
         with:
@@ -23,16 +22,7 @@ jobs:
       - name: Run prettier
         run: |-
           npx prettier --write '_data/*/*.json'
-      - name: Check if there are any changes
-        id: verify_diff
-        run: git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
-      - name: Commit/Push
-        if: steps.verify_diff.outputs.changed == 'true' 
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |-
-          git config user.name "ligi"
-          git config user.email "ligi@ligi.de"
-          git commit -a -m 'Fix formatting'
-          git push
-
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: 'Fix formatting'
