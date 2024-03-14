@@ -1,0 +1,26 @@
+{
+  "name": "Chromescan Blockchain",
+  "chain": "Chrome",
+  "icon": "chrome",
+  "rpc": [
+    "https://rpc1.chromescan.org/",
+    "https://rpc2.chromescan.org/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Chromescan Blockchain",
+    "symbol": "CSC",
+    "decimals": 18
+  },
+  "infoURL": "https://chromescannetwork.org/",
+  "shortName": "Chrome",
+  "chainId": 8998,
+  "networkId": 8998,
+  "explorers": [
+    {
+      "name": "Chromescan",
+      "url": "https://mainnet.chromescan.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
