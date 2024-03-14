@@ -2,7 +2,11 @@
   "name": "Polygon zkEVM",
   "title": "Polygon zkEVM",
   "chain": "Polygon",
-  "rpc": ["https://zkevm-rpc.com"],
+  "rpc": [
+    "https://zkevm-rpc.com",
+    "https://polygon-zkevm.drpc.org",
+    "wss://polygon-zkevm.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
