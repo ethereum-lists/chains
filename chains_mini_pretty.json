@@ -6486,6 +6486,19 @@
   "faucets": [],
   "infoURL": "https://egem.io"
 }, {
+  "name": "Hubble Exchange",
+  "chainId": 1992,
+  "shortName": "hubblenet",
+  "networkId": 1992,
+  "nativeCurrency": {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.hubble.exchange", "wss://ws-rpc.hubble.exchange"],
+  "faucets": [],
+  "infoURL": "https://www.hubble.exchange"
+}, {
   "name": "Ekta",
   "chainId": 1994,
   "shortName": "ekta",
