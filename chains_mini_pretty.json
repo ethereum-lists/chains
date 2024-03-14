@@ -10451,6 +10451,19 @@
   "faucets": [],
   "infoURL": "https://dogelayer.org"
 }, {
+  "name": "Larissa Chain",
+  "chainId": 9898,
+  "shortName": "lrs",
+  "networkId": 1,
+  "nativeCurrency": {
+    "name": "Larissa",
+    "symbol": "LRS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.larissa.network"],
+  "faucets": [],
+  "infoURL": "https://larissa.network"
+}, {
   "name": "Mind Smart Chain Testnet",
   "chainId": 9977,
   "shortName": "tMIND",
