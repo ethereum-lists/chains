@@ -19,7 +19,7 @@
   "networkId": 6038361,
   "explorers": [
     {
-      "name": "Blockscout zKyoto chain explorer",
+      "name": "Blockscout zKyoto explorer",
       "url": "https://astar-zkyoto.blockscout.com",
       "standard": "EIP3091"
     }
@@ -35,6 +35,5 @@
         "url": "https://bridge.gelato.network/bridge/astar-zkyoto"
       }
     ]
-  },
-  "status": "incubating"
+  }
 }
