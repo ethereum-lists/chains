@@ -1,15 +1,15 @@
 {
-  "name": "TomoChain",
-  "chain": "TOMO",
-  "rpc": ["https://rpc.tomochain.com"],
+  "name": "Viction",
+  "chain": "Viction",
+  "rpc": ["https://rpc.viction.xyz"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "TomoChain",
-    "symbol": "TOMO",
+    "name": "Viction",
+    "symbol": "VIC",
     "decimals": 18
   },
-  "infoURL": "https://tomochain.com",
-  "shortName": "tomo",
+  "infoURL": "https://viction.xyz",
+  "shortName": "vic",
   "chainId": 88,
   "networkId": 88,
   "slip44": 889
