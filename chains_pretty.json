@@ -18722,14 +18722,14 @@
   "networkId": 23294,
   "explorers": [{
     "name": "Oasis Sapphire Explorer",
-    "url": "https://explorer.sapphire.oasis.io",
+    "url": "https://explorer.oasis.io/mainnet/sapphire",
     "standard": "EIP3091"
   }]
 }, {
   "name": "Oasis Sapphire Testnet",
   "chain": "Sapphire",
   "icon": "oasis",
-  "rpc": ["https://testnet.sapphire.oasis.dev", "wss://testnet.sapphire.oasis.dev/ws"],
+  "rpc": ["https://testnet.sapphire.oasis.io", "wss://testnet.sapphire.oasis.io/ws"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sapphire Test Rose",
@@ -18743,7 +18743,7 @@
   "slip44": 1,
   "explorers": [{
     "name": "Oasis Sapphire Testnet Explorer",
-    "url": "https://testnet.explorer.sapphire.oasis.dev",
+    "url": "https://explorer.oasis.io/testnet/sapphire",
     "standard": "EIP3091"
   }]
 }, {
@@ -19682,8 +19682,8 @@
   "name": "Oasis Emerald Testnet",
   "chain": "Emerald",
   "icon": "oasis",
-  "rpc": ["https://testnet.emerald.oasis.dev/", "wss://testnet.emerald.oasis.dev/ws"],
-  "faucets": ["https://faucet.testnet.oasis.dev/"],
+  "rpc": ["https://testnet.emerald.oasis.io/", "wss://testnet.emerald.oasis.io/ws"],
+  "faucets": ["https://faucet.testnet.oasis.io/"],
   "nativeCurrency": {
     "name": "Emerald Rose",
     "symbol": "ROSE",
@@ -19696,14 +19696,14 @@
   "slip44": 1,
   "explorers": [{
     "name": "Oasis Emerald Testnet Explorer",
-    "url": "https://testnet.explorer.emerald.oasis.dev",
+    "url": "https://explorer.oasis.io/testnet/emerald",
     "standard": "EIP3091"
   }]
 }, {
   "name": "Oasis Emerald",
   "chain": "Emerald",
   "icon": "oasis",
-  "rpc": ["https://emerald.oasis.dev", "wss://emerald.oasis.dev/ws"],
+  "rpc": ["https://emerald.oasis.io", "wss://emerald.oasis.io/ws"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Emerald Rose",
@@ -19716,7 +19716,7 @@
   "networkId": 42262,
   "explorers": [{
     "name": "Oasis Emerald Explorer",
-    "url": "https://explorer.emerald.oasis.dev",
+    "url": "https://explorer.oasis.io/mainnet/emerald",
     "standard": "EIP3091"
   }]
 }, {

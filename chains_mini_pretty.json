@@ -11721,7 +11721,7 @@
     "symbol": "TEST",
     "decimals": 18
   },
-  "rpc": ["https://testnet.sapphire.oasis.dev", "wss://testnet.sapphire.oasis.dev/ws"],
+  "rpc": ["https://testnet.sapphire.oasis.io", "wss://testnet.sapphire.oasis.io/ws"],
   "faucets": [],
   "infoURL": "https://docs.oasis.io/dapp/sapphire"
 }, {
@@ -12306,8 +12306,8 @@
     "symbol": "ROSE",
     "decimals": 18
   },
-  "rpc": ["https://testnet.emerald.oasis.dev/", "wss://testnet.emerald.oasis.dev/ws"],
-  "faucets": ["https://faucet.testnet.oasis.dev/"],
+  "rpc": ["https://testnet.emerald.oasis.io/", "wss://testnet.emerald.oasis.io/ws"],
+  "faucets": ["https://faucet.testnet.oasis.io/"],
   "infoURL": "https://docs.oasis.io/dapp/emerald"
 }, {
   "name": "Oasis Emerald",
@@ -12319,7 +12319,7 @@
     "symbol": "ROSE",
     "decimals": 18
   },
-  "rpc": ["https://emerald.oasis.dev", "wss://emerald.oasis.dev/ws"],
+  "rpc": ["https://emerald.oasis.io", "wss://emerald.oasis.io/ws"],
   "faucets": [],
   "infoURL": "https://docs.oasis.io/dapp/emerald"
 }, {
