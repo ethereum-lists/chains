@@ -1,0 +1,15 @@
+{
+  "name": "Coordinape Testnet",
+  "chain": "Coordinape Testnet",
+  "rpc": ["https://rpc-coordinape-testnet-vs9se3oc4v.t.conduit.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://coordinape.com/",
+  "shortName": "coordinape-testnet",
+  "chainId": 5103,
+  "networkId": 5103
+}
