@@ -8709,6 +8709,45 @@
   "faucets": [],
   "infoURL": "https://www.fwb.help/"
 }, {
+  "name": "Coordinape Testnet",
+  "chainId": 5103,
+  "shortName": "coordinape-testnet",
+  "networkId": 5103,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-coordinape-testnet-vs9se3oc4v.t.conduit.xyz"],
+  "faucets": [],
+  "infoURL": "https://coordinape.com/"
+}, {
+  "name": "Charmverse Testnet",
+  "chainId": 5104,
+  "shortName": "charmverse-testnet",
+  "networkId": 5104,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-charmverse-testnet-g6blnaebes.t.conduit.xyz"],
+  "faucets": [],
+  "infoURL": "https://charmverse.io/"
+}, {
+  "name": "Superloyalty Testnet",
+  "chainId": 5105,
+  "shortName": "superloyalty-testnet",
+  "networkId": 5105,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-superloyalty-testnet-1m5gwjbsv1.t.conduit.xyz"],
+  "faucets": [],
+  "infoURL": "https://www.superloyal.com/"
+}, {
   "name": "Bahamut",
   "chainId": 5165,
   "shortName": "ftn",

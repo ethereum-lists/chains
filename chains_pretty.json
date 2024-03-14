@@ -13943,6 +13943,48 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Coordinape Testnet",
+  "chain": "Coordinape Testnet",
+  "rpc": ["https://rpc-coordinape-testnet-vs9se3oc4v.t.conduit.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://coordinape.com/",
+  "shortName": "coordinape-testnet",
+  "chainId": 5103,
+  "networkId": 5103
+}, {
+  "name": "Charmverse Testnet",
+  "chain": "Charmverse Testnet",
+  "rpc": ["https://rpc-charmverse-testnet-g6blnaebes.t.conduit.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://charmverse.io/",
+  "shortName": "charmverse-testnet",
+  "chainId": 5104,
+  "networkId": 5104
+}, {
+  "name": "Superloyalty Testnet",
+  "chain": "Superloyalty Testnet",
+  "rpc": ["https://rpc-superloyalty-testnet-1m5gwjbsv1.t.conduit.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.superloyal.com/",
+  "shortName": "superloyalty-testnet",
+  "chainId": 5105,
+  "networkId": 5105
+}, {
   "name": "Bahamut",
   "title": "Bahamut mainnet",
   "chain": "Bahamut",
