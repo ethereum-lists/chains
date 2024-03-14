@@ -16071,7 +16071,7 @@
 }, {
   "name": "Orenium Testnet Protocol",
   "chain": "ORE",
-  "rpc": ["https://rpc-dev-testnet.orenium.org/", "https://rpc-testnet.orenium.org/"],
+  "rpc": ["https://rpc-dev-testnet.orenium.org/", "https://rpc-testnet.orenium.org/", "https://rpc-orc.oredex.finance", "https://testnet-rpc.oredex.finance", "https://oredex-node.oredex.finance"],
   "nativeCurrency": {
     "name": "ORENIUM",
     "symbol": "tORE",
