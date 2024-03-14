@@ -7513,6 +7513,19 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "HYCHAIN",
+  "chainId": 2911,
+  "shortName": "hychain",
+  "networkId": 2911,
+  "nativeCurrency": {
+    "name": "TOPIA",
+    "symbol": "TOPIA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.hychain.com/http"],
+  "faucets": [],
+  "infoURL": "https://www.hychain.com"
+}, {
   "name": "Xenon Chain Testnet",
   "chainId": 2941,
   "shortName": "xenon",
@@ -11828,6 +11841,19 @@
   "rpc": ["https://alpha-1-replica-0.bedrock-goerli.optimism.io", "https://alpha-1-replica-1.bedrock-goerli.optimism.io", "https://alpha-1-replica-2.bedrock-goerli.optimism.io", "https://alpha-1-replica-2.bedrock-goerli.optimism.io"],
   "faucets": [],
   "infoURL": "https://community.optimism.io/docs/developers/bedrock"
+}, {
+  "name": "HYCHAIN Testnet",
+  "chainId": 29112,
+  "shortName": "hychain-testnet",
+  "networkId": 29112,
+  "nativeCurrency": {
+    "name": "TOPIA",
+    "symbol": "TOPIA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.hychain.com/http"],
+  "faucets": [],
+  "infoURL": "https://www.hychain.com"
 }, {
   "name": "MCH Verse Mainnet",
   "chainId": 29548,

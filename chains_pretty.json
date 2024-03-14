@@ -11988,6 +11988,34 @@
     }]
   }
 }, {
+  "name": "HYCHAIN",
+  "chainId": 2911,
+  "shortName": "hychain",
+  "chain": "ETH",
+  "networkId": 2911,
+  "nativeCurrency": {
+    "name": "TOPIA",
+    "symbol": "TOPIA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.hychain.com/http"],
+  "faucets": [],
+  "infoURL": "https://www.hychain.com",
+  "icon": "hychain",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.hychain.com",
+    "icon": "hychain",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://bridge.hychain.com"
+    }]
+  }
+}, {
   "name": "Xenon Chain Testnet",
   "chain": "XEN",
   "rpc": ["https://testnet-chain.xenonchain.com/", "https://testnet-dev.xenonchain.com/"],
@@ -18898,6 +18926,32 @@
     "url": "https://blockscout.com/optimism/bedrock-alpha",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "HYCHAIN Testnet",
+  "chainId": 29112,
+  "shortName": "hychain-testnet",
+  "chain": "ETH",
+  "networkId": 29112,
+  "nativeCurrency": {
+    "name": "TOPIA",
+    "symbol": "TOPIA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.hychain.com/http"],
+  "faucets": [],
+  "infoURL": "https://www.hychain.com",
+  "icon": "hychain",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://testnet.explorer.hychain.com",
+    "icon": "hychain",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-58008",
+    "bridges": []
+  }
 }, {
   "name": "MCH Verse Mainnet",
   "chain": "MCH Verse",
