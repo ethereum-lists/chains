@@ -1,5 +1,5 @@
 {
-  "name": "Maxi Testnet",
+  "name": "MAXI Chain Testnet",
   "chain": "MAXI",
   "rpc": ["https://rpc-testnet.maxi.network"],
   "faucets": ["https://faucet.maxi.network"],
@@ -10,7 +10,7 @@
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://maxi.network",
-  "shortName": "maxi",
+  "shortName": "maxi-testnet",
   "chainId": 898,
   "networkId": 898,
   "icon": "maxi",
