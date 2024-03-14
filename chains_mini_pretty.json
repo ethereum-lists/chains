@@ -1130,31 +1130,31 @@
   "faucets": [],
   "infoURL": "https://novanetwork.io"
 }, {
-  "name": "TomoChain",
+  "name": "Viction",
   "chainId": 88,
-  "shortName": "tomo",
+  "shortName": "vic",
   "networkId": 88,
   "nativeCurrency": {
-    "name": "TomoChain",
-    "symbol": "TOMO",
+    "name": "Viction",
+    "symbol": "VIC",
     "decimals": 18
   },
-  "rpc": ["https://rpc.tomochain.com"],
+  "rpc": ["https://rpc.viction.xyz"],
   "faucets": [],
-  "infoURL": "https://tomochain.com"
+  "infoURL": "https://viction.xyz"
 }, {
-  "name": "TomoChain Testnet",
+  "name": "Viction Testnet",
   "chainId": 89,
-  "shortName": "tomot",
+  "shortName": "vict",
   "networkId": 89,
   "nativeCurrency": {
-    "name": "TomoChain",
-    "symbol": "TOMO",
+    "name": "Viction",
+    "symbol": "VIC",
     "decimals": 18
   },
-  "rpc": ["https://rpc.testnet.tomochain.com"],
+  "rpc": ["https://rpc-testnet.viction.xyz"],
   "faucets": [],
-  "infoURL": "https://tomochain.com"
+  "infoURL": "https://viction.xyz"
 }, {
   "name": "Garizon Stage0",
   "chainId": 90,
