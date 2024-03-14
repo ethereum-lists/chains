@@ -3,9 +3,7 @@
   "title": "Polygon Amoy Testnet",
   "chain": "Polygon",
   "icon": "polygon",
-  "rpc": [
-    "https://rpc-amoy.polygon.technology"
-  ],
+  "rpc": ["https://rpc-amoy.polygon.technology"],
   "faucets": ["https://faucet.polygon.technology/"],
   "nativeCurrency": {
     "name": "MATIC",
