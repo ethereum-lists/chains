@@ -2,7 +2,7 @@
   "name": "TAPROOT Mainnet",
   "title": "TAPROOT Mainnet",
   "chain": "TAPROOT CHAIN",
-  "rpc": ["https://pioneers.taprootchain.io/rpc"],
+  "rpc": ["https://scan.taprootchain.io/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "TBTC",
@@ -18,7 +18,7 @@
     {
       "name": "TAPROOT Scan",
       "url": "https://scan.taprootchain.io",
-      "icon": "TAPROOT",
+      "icon": "taproot",
       "standard": "EIP3091"
     }
   ]
