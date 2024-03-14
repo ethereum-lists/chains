@@ -7214,6 +7214,19 @@
   "faucets": ["https://airdrop.somanetwork.io"],
   "infoURL": "https://somanetwork.io"
 }, {
+  "name": "Atleta Testnet",
+  "chainId": 2340,
+  "shortName": "atla",
+  "networkId": 2340,
+  "nativeCurrency": {
+    "name": "Atla",
+    "symbol": "ATLA",
+    "decimals": 18
+  },
+  "rpc": ["https://atleta-testnet-rpc.quark.blue:9944"],
+  "faucets": ["https://faucet.atleta.network"],
+  "infoURL": "https://atleta.network"
+}, {
   "name": "(deprecated) Kroma Sepolia",
   "chainId": 2357,
   "shortName": "deprecated-kroma-sepolia",
