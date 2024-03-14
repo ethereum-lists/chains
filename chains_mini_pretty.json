@@ -15820,6 +15820,19 @@
   "faucets": [],
   "infoURL": "https://manta-testnet.caldera.dev/"
 }, {
+  "name": "Manta Pacific Sepolia Testnet",
+  "chainId": 3441006,
+  "shortName": "mantaSepoliaTestnet",
+  "networkId": 3441006,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://pacific-rpc.sepolia-testnet.manta.network/http"],
+  "faucets": [],
+  "infoURL": "https://manta-testnet.caldera.dev/"
+}, {
   "name": "AltLayer Zero Gas Network",
   "chainId": 4000003,
   "shortName": "alt-zerogas",
