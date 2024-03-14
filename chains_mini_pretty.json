@@ -14039,6 +14039,19 @@
   "faucets": [],
   "infoURL": "https://masa.finance"
 }, {
+  "name": "Stratis Mainnet",
+  "chainId": 105105,
+  "shortName": "stratis",
+  "networkId": 105105,
+  "nativeCurrency": {
+    "name": "Stratis",
+    "symbol": "STRAX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.stratisevm.com"],
+  "faucets": [],
+  "infoURL": "https://www.stratisplatform.com"
+}, {
   "name": "BROChain Mainnet",
   "chainId": 108801,
   "shortName": "bro",
