@@ -6005,6 +6005,19 @@
   "faucets": ["https://faucet.blockchain.or.th"],
   "infoURL": "https://blockchain.or.th"
 }, {
+  "name": "Doric Network",
+  "chainId": 1717,
+  "shortName": "DRC",
+  "networkId": 1717,
+  "nativeCurrency": {
+    "name": "Doric Native Token",
+    "symbol": "DRC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.doric.network"],
+  "faucets": [],
+  "infoURL": "https://doric.network"
+}, {
   "name": "Palette Chain Mainnet",
   "chainId": 1718,
   "shortName": "PCM",
