@@ -9591,6 +9591,25 @@
     "standard": "none"
   }]
 }, {
+  "name": "Reya Network",
+  "chain": "Reya",
+  "rpc": ["https://rpc.reya.network", "wss://ws.reya.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://reya.network",
+  "shortName": "reya",
+  "chainId": 1729,
+  "networkId": 1729,
+  "explorers": [{
+    "name": "Reya Network Explorer",
+    "url": "https://explorer.reya.network",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "PartyChain",
   "chain": "mainnet",
   "rpc": ["https://tea.mining4people.com/rpc", "http://172.104.194.36:8545"],

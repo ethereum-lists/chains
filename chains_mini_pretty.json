@@ -6031,6 +6031,19 @@
   "faucets": [],
   "infoURL": "https://hashpalette.com/"
 }, {
+  "name": "Reya Network",
+  "chainId": 1729,
+  "shortName": "reya",
+  "networkId": 1729,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.reya.network", "wss://ws.reya.network"],
+  "faucets": [],
+  "infoURL": "https://reya.network"
+}, {
   "name": "PartyChain",
   "chainId": 1773,
   "shortName": "TeaParty",
