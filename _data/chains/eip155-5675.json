@@ -1,0 +1,30 @@
+{
+  "name": "Filenova Testnet",
+  "chain": "Filenova",
+  "rpc": ["https://rpctest.filenova.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Test Filecoin",
+    "symbol": "tFIL",
+    "decimals": 18
+  },
+  "infoURL": "https://filenova.org",
+  "shortName": "filenova-test",
+  "chainId": 5675,
+  "networkId": 5675,
+  "slip44": 1,
+  "icon": "filenova",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://scantest.filenova.org",
+      "icon": "filenova",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.filenova.org/test" }]
+  }
+}

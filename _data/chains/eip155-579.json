@@ -1,0 +1,30 @@
+{
+  "name": "Filenova Mainnet",
+  "chain": "Filenova",
+  "rpc": ["https://rpc.filenova.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Filecoin",
+    "symbol": "FIL",
+    "decimals": 18
+  },
+  "infoURL": "https://filenova.org",
+  "shortName": "filenova",
+  "chainId": 579,
+  "networkId": 579,
+  "slip44": 1,
+  "icon": "filenova",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://scan.filenova.org",
+      "icon": "filenova",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.filenova.org" }]
+  }
+}
