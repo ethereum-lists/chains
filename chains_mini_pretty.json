@@ -9996,6 +9996,19 @@
   "faucets": [],
   "infoURL": "https://ma.ro/"
 }, {
+  "name": "SuperLumio",
+  "chainId": 8866,
+  "shortName": "superlumio",
+  "networkId": 8866,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.lumio.io/"],
+  "faucets": [],
+  "infoURL": "https://lumio.io/"
+}, {
   "name": "Unique",
   "chainId": 8880,
   "shortName": "unq",
