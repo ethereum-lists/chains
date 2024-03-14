@@ -13961,18 +13961,18 @@
   "faucets": [],
   "infoURL": "https://docs.gnosischain.com"
 }, {
-  "name": "Soverun Testnet",
+  "name": "Global Trust Network",
   "chainId": 101010,
-  "shortName": "SVRNt",
+  "shortName": "stabilityprotocol",
   "networkId": 101010,
   "nativeCurrency": {
-    "name": "Soverun",
-    "symbol": "SVRN",
+    "name": "FREE",
+    "symbol": "FREE",
     "decimals": 18
   },
-  "rpc": ["https://testnet-rpc.soverun.com"],
-  "faucets": ["https://faucet.soverun.com"],
-  "infoURL": "https://soverun.com"
+  "rpc": ["https://gtn.stabilityprotocol.com"],
+  "faucets": [],
+  "infoURL": "https://stabilityprotocol.com"
 }, {
   "name": "Crystaleum",
   "chainId": 103090,
@@ -16131,6 +16131,19 @@
   "rpc": ["https://net.iolite.io"],
   "faucets": [],
   "infoURL": "https://iolite.io"
+}, {
+  "name": "Stability Testnet",
+  "chainId": 20180427,
+  "shortName": "stabilitytestnet",
+  "networkId": 20180427,
+  "nativeCurrency": {
+    "name": "FREE",
+    "symbol": "FREE",
+    "decimals": 18
+  },
+  "rpc": ["https://free.testnet.stabilityprotocol.com"],
+  "faucets": [],
+  "infoURL": "https://stabilityprotocol.com"
 }, {
   "name": "SmartMesh Mainnet",
   "chainId": 20180430,
