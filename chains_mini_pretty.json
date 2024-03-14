@@ -10802,9 +10802,22 @@
   "faucets": [],
   "infoURL": "https://shyft.network"
 }, {
+  "name": "BEVM Mainnet",
+  "chainId": 11501,
+  "shortName": "bevm",
+  "networkId": 11501,
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet-1.bevm.io/", "https://rpc-mainnet-2.bevm.io/"],
+  "faucets": [],
+  "infoURL": "https://bevm.io"
+}, {
   "name": "BEVM Testnet",
   "chainId": 11503,
-  "shortName": "bevm",
+  "shortName": "bevm-test",
   "networkId": 11503,
   "nativeCurrency": {
     "name": "BTC",
