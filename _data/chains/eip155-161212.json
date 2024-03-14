@@ -1,7 +1,7 @@
 {
   "name": "PlayFi Mainnet",
   "chain": "PLAY",
-  "rpc": ["https://rpc.playfi.ai"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Play",
@@ -12,16 +12,6 @@
   "shortName": "playfi",
   "chainId": 161212,
   "networkId": 161212,
-  "explorers": [
-    {
-      "name": "PlayFi Block Explorer",
-      "url": "https://explorer.playfi.ai",
-      "standard": "EIP3091"
-    }
-  ],
-  "parent": {
-    "type": "L2",
-    "chain": "eip155-1",
-    "bridges": [{ "url": "https://portal.playfi.ai/bridge" }]
-  }
+  "explorers": [],
+  "status": "incubating"
 }
