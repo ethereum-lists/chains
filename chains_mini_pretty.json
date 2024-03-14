@@ -8,7 +8,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://api.mycryptoapi.com/eth", "https://cloudflare-eth.com", "https://ethereum-rpc.publicnode.com", "wss://ethereum-rpc.publicnode.com", "https://mainnet.gateway.tenderly.co", "wss://mainnet.gateway.tenderly.co", "https://rpc.blocknative.com/boost", "https://rpc.flashbots.net", "https://rpc.flashbots.net/fast", "https://rpc.mevblocker.io", "https://rpc.mevblocker.io/fast", "https://rpc.mevblocker.io/noreverts", "https://rpc.mevblocker.io/fullprivacy"],
+  "rpc": ["https://mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://api.mycryptoapi.com/eth", "https://cloudflare-eth.com", "https://ethereum-rpc.publicnode.com", "wss://ethereum-rpc.publicnode.com", "https://mainnet.gateway.tenderly.co", "wss://mainnet.gateway.tenderly.co", "https://rpc.blocknative.com/boost", "https://rpc.flashbots.net", "https://rpc.flashbots.net/fast", "https://rpc.mevblocker.io", "https://rpc.mevblocker.io/fast", "https://rpc.mevblocker.io/noreverts", "https://rpc.mevblocker.io/fullprivacy", "https://eth.drpc.org", "wss://eth.drpc.org"],
   "faucets": [],
   "infoURL": "https://ethereum.org"
 }, {
@@ -125,7 +125,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.optimism.io", "https://optimism-rpc.publicnode.com", "wss://optimism-rpc.publicnode.com", "https://optimism.gateway.tenderly.co", "wss://optimism.gateway.tenderly.co"],
+  "rpc": ["https://mainnet.optimism.io", "https://optimism-rpc.publicnode.com", "wss://optimism-rpc.publicnode.com", "https://optimism.gateway.tenderly.co", "wss://optimism.gateway.tenderly.co", "https://optimism.drpc.org", "wss://optimism.drpc.org"],
   "faucets": [],
   "infoURL": "https://optimism.io"
 }, {
@@ -229,7 +229,7 @@
     "symbol": "TST",
     "decimals": 18
   },
-  "rpc": ["https://testnet-rpc.thundercore.com"],
+  "rpc": ["https://testnet-rpc.thundercore.com", "https://thundercore-testnet.drpc.org", "wss://thundercore-testnet.drpc.org"],
   "faucets": ["https://faucet-testnet.thundercore.com"],
   "infoURL": "https://thundercore.com"
 }, {
@@ -320,7 +320,7 @@
     "symbol": "CRO",
     "decimals": 18
   },
-  "rpc": ["https://evm.cronos.org", "https://cronos-evm-rpc.publicnode.com", "wss://cronos-evm-rpc.publicnode.com"],
+  "rpc": ["https://evm.cronos.org", "https://cronos-evm-rpc.publicnode.com", "wss://cronos-evm-rpc.publicnode.com", "https://cronos.drpc.org", "wss://cronos.drpc.org"],
   "faucets": [],
   "infoURL": "https://cronos.org/"
 }, {
@@ -515,7 +515,7 @@
     "symbol": "TLOS",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.telos.net/evm"],
+  "rpc": ["https://mainnet.telos.net/evm", "https://telos.drpc.org", "wss://telos.drpc.org"],
   "faucets": [],
   "infoURL": "https://telos.net"
 }, {
@@ -528,7 +528,7 @@
     "symbol": "TLOS",
     "decimals": 18
   },
-  "rpc": ["https://testnet.telos.net/evm"],
+  "rpc": ["https://testnet.telos.net/evm", "https://telos-testnet.drpc.org", "wss://telos-testnet.drpc.org"],
   "faucets": ["https://app.telos.net/testnet/developers"],
   "infoURL": "https://telos.net"
 }, {
@@ -1581,7 +1581,7 @@
     "symbol": "FUSE",
     "decimals": 18
   },
-  "rpc": ["https://rpc.fuse.io"],
+  "rpc": ["https://rpc.fuse.io", "https://fuse.drpc.org", "wss://fuse.drpc.org"],
   "faucets": [],
   "infoURL": "https://fuse.io/"
 }, {
@@ -1737,7 +1737,7 @@
     "symbol": "MATIC",
     "decimals": 18
   },
-  "rpc": ["https://polygon-rpc.com/", "https://rpc-mainnet.matic.network", "https://matic-mainnet.chainstacklabs.com", "https://rpc-mainnet.maticvigil.com", "https://rpc-mainnet.matic.quiknode.pro", "https://matic-mainnet-full-rpc.bwarelabs.com", "https://polygon-bor-rpc.publicnode.com", "wss://polygon-bor-rpc.publicnode.com", "https://polygon.gateway.tenderly.co", "wss://polygon.gateway.tenderly.co"],
+  "rpc": ["https://polygon-rpc.com/", "https://rpc-mainnet.matic.network", "https://matic-mainnet.chainstacklabs.com", "https://rpc-mainnet.maticvigil.com", "https://rpc-mainnet.matic.quiknode.pro", "https://matic-mainnet-full-rpc.bwarelabs.com", "https://polygon-bor-rpc.publicnode.com", "wss://polygon-bor-rpc.publicnode.com", "https://polygon.gateway.tenderly.co", "wss://polygon.gateway.tenderly.co", "https://polygon.drpc.org", "wss://polygon.drpc.org"],
   "faucets": [],
   "infoURL": "https://polygon.technology/"
 }, {
@@ -2023,7 +2023,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://pacific-rpc.manta.network/http"],
+  "rpc": ["https://pacific-rpc.manta.network/http", "https://manta-pacific.drpc.org", "wss://manta-pacific.drpc.org"],
   "faucets": [],
   "infoURL": "https://pacific-info.manta.network"
 }, {
@@ -2192,7 +2192,7 @@
     "symbol": "BTT",
     "decimals": 18
   },
-  "rpc": ["https://rpc.bt.io"],
+  "rpc": ["https://rpc.bt.io", "https://bittorrent.drpc.org", "wss://bittorrent.drpc.org"],
   "faucets": [],
   "infoURL": "https://bt.io"
 }, {
@@ -2231,7 +2231,7 @@
     "symbol": "BNB",
     "decimals": 18
   },
-  "rpc": ["https://opbnb-mainnet-rpc.bnbchain.org", "https://opbnb-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3", "wss://opbnb-mainnet.nodereal.io/ws/v1/64a9df0874fb4a93b9d0a3849de012d3", "https://opbnb-mainnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5", "wss://opbnb-mainnet.nodereal.io/ws/v1/e9a36765eb8a40b9bd12e680a1fd2bc5", "https://opbnb-rpc.publicnode.com", "wss://opbnb-rpc.publicnode.com"],
+  "rpc": ["https://opbnb-mainnet-rpc.bnbchain.org", "https://opbnb-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3", "wss://opbnb-mainnet.nodereal.io/ws/v1/64a9df0874fb4a93b9d0a3849de012d3", "https://opbnb-mainnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5", "wss://opbnb-mainnet.nodereal.io/ws/v1/e9a36765eb8a40b9bd12e680a1fd2bc5", "https://opbnb-rpc.publicnode.com", "wss://opbnb-rpc.publicnode.com", "https://opbnb.drpc.org", "wss://opbnb.drpc.org"],
   "faucets": [],
   "infoURL": "https://opbnb.bnbchain.org/en"
 }, {
@@ -2517,7 +2517,7 @@
     "symbol": "FTM",
     "decimals": 18
   },
-  "rpc": ["https://rpc.ftm.tools", "https://fantom-rpc.publicnode.com", "wss://fantom-rpc.publicnode.com"],
+  "rpc": ["https://rpc.ftm.tools", "https://fantom-rpc.publicnode.com", "wss://fantom-rpc.publicnode.com", "https://fantom.drpc.org", "wss://fantom.drpc.org"],
   "faucets": [],
   "infoURL": "https://fantom.foundation"
 }, {
@@ -2673,7 +2673,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.boba.network", "https://replica.boba.network", "https://boba-ethereum.gateway.tenderly.co", "https://gateway.tenderly.co/public/boba-ethereum", "wss://boba-ethereum.gateway.tenderly.co/", "wss://gateway.tenderly.co/public/boba-ethereum"],
+  "rpc": ["https://mainnet.boba.network", "https://replica.boba.network", "https://boba-ethereum.gateway.tenderly.co", "https://gateway.tenderly.co/public/boba-ethereum", "wss://boba-ethereum.gateway.tenderly.co/", "wss://gateway.tenderly.co/public/boba-ethereum", "https://boba-eth.drpc.org", "wss://boba-eth.drpc.org"],
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
@@ -2751,7 +2751,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://sepolia.era.zksync.dev"],
+  "rpc": ["https://sepolia.era.zksync.dev", "https://zksync-sepolia.drpc.org", "wss://zksync-sepolia.drpc.org"],
   "faucets": [],
   "infoURL": "https://zksync.io/"
 }, {
@@ -2855,7 +2855,7 @@
     "symbol": "FIL",
     "decimals": 18
   },
-  "rpc": ["https://api.node.glif.io/", "https://rpc.ankr.com/filecoin", "https://filecoin-mainnet.chainstacklabs.com/rpc/v1", "https://filfox.info/rpc/v1"],
+  "rpc": ["https://api.node.glif.io/", "https://rpc.ankr.com/filecoin", "https://filecoin-mainnet.chainstacklabs.com/rpc/v1", "https://filfox.info/rpc/v1", "https://filecoin.drpc.org", "wss://filecoin.drpc.org"],
   "faucets": [],
   "infoURL": "https://filecoin.io"
 }, {
@@ -2907,7 +2907,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.era.zksync.io"],
+  "rpc": ["https://mainnet.era.zksync.io", "https://zksync.drpc.org", "wss://zksync.drpc.org"],
   "faucets": [],
   "infoURL": "https://zksync.io/"
 }, {
@@ -2959,7 +2959,7 @@
     "symbol": "TCRO",
     "decimals": 18
   },
-  "rpc": ["https://evm-t3.cronos.org"],
+  "rpc": ["https://evm-t3.cronos.org", "https://cronos-testnet.drpc.org", "wss://cronos-testnet.drpc.org"],
   "faucets": ["https://cronos.org/faucet"],
   "infoURL": "https://cronos.org"
 }, {
@@ -3167,7 +3167,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://goerli.optimism.io", "https://optimism-goerli-rpc.publicnode.com", "wss://optimism-goerli-rpc.publicnode.com", "https://optimism-goerli.gateway.tenderly.co", "wss://optimism-goerli.gateway.tenderly.co"],
+  "rpc": ["https://goerli.optimism.io", "https://optimism-goerli-rpc.publicnode.com", "wss://optimism-goerli-rpc.publicnode.com", "https://optimism-goerli.gateway.tenderly.co", "wss://optimism-goerli.gateway.tenderly.co", "https://optimism-testnet.drpc.org", "wss://optimism-testnet.drpc.org"],
   "faucets": [],
   "infoURL": "https://optimism.io"
 }, {
@@ -4675,7 +4675,7 @@
     "symbol": "KLAY",
     "decimals": 18
   },
-  "rpc": ["https://api.baobab.klaytn.net:8651"],
+  "rpc": ["https://api.baobab.klaytn.net:8651", "https://klaytn-baobab.drpc.org", "wss://klaytn-baobab.drpc.org"],
   "faucets": ["https://baobab.wallet.klaytn.com/access?next=faucet"],
   "infoURL": "https://www.klaytn.com/"
 }, {
@@ -4935,7 +4935,7 @@
     "symbol": "METIS",
     "decimals": 18
   },
-  "rpc": ["https://andromeda.metis.io/?owner=1088"],
+  "rpc": ["https://andromeda.metis.io/?owner=1088", "https://metis.drpc.org", "wss://metis.drpc.org"],
   "faucets": [],
   "infoURL": "https://www.metis.io"
 }, {
@@ -4987,7 +4987,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://zkevm-rpc.com"],
+  "rpc": ["https://zkevm-rpc.com", "https://polygon-zkevm.drpc.org", "wss://polygon-zkevm.drpc.org"],
   "faucets": [],
   "infoURL": "https://polygon.technology/polygon-zkevm"
 }, {
@@ -5065,7 +5065,7 @@
     "symbol": "CORE",
     "decimals": 18
   },
-  "rpc": ["https://rpc.coredao.org/", "https://rpc-core.icecreamswap.com"],
+  "rpc": ["https://rpc.coredao.org/", "https://rpc-core.icecreamswap.com", "https://core.drpc.org", "wss://core.drpc.org"],
   "faucets": [],
   "infoURL": "https://www.coredao.org"
 }, {
@@ -5416,7 +5416,7 @@
     "symbol": "GLMR",
     "decimals": 18
   },
-  "rpc": ["https://rpc.api.moonbeam.network", "wss://wss.api.moonbeam.network", "https://moonbeam-rpc.publicnode.com", "wss://moonbeam-rpc.publicnode.com"],
+  "rpc": ["https://rpc.api.moonbeam.network", "wss://wss.api.moonbeam.network", "https://moonbeam-rpc.publicnode.com", "wss://moonbeam-rpc.publicnode.com", "https://moonbeam.drpc.org", "wss://moonbeam.drpc.org"],
   "faucets": [],
   "infoURL": "https://moonbeam.network/networks/moonbeam/"
 }, {
@@ -5429,7 +5429,7 @@
     "symbol": "MOVR",
     "decimals": 18
   },
-  "rpc": ["https://rpc.api.moonriver.moonbeam.network", "wss://wss.api.moonriver.moonbeam.network", "https://moonriver-rpc.publicnode.com", "wss://moonriver-rpc.publicnode.com"],
+  "rpc": ["https://rpc.api.moonriver.moonbeam.network", "wss://wss.api.moonriver.moonbeam.network", "https://moonriver-rpc.publicnode.com", "wss://moonriver-rpc.publicnode.com", "https://moonriver.drpc.org", "wss://moonriver.drpc.org"],
   "faucets": [],
   "infoURL": "https://moonbeam.network/networks/moonriver/"
 }, {
@@ -5455,7 +5455,7 @@
     "symbol": "DEV",
     "decimals": 18
   },
-  "rpc": ["https://rpc.api.moonbase.moonbeam.network", "wss://wss.api.moonbase.moonbeam.network"],
+  "rpc": ["https://rpc.api.moonbase.moonbeam.network", "wss://wss.api.moonbase.moonbeam.network", "https://moonbase-alpha.drpc.org", "wss://moonbase-alpha.drpc.org"],
   "faucets": [],
   "infoURL": "https://docs.moonbeam.network/networks/testnet/"
 }, {
@@ -5741,7 +5741,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.public.zkevm-test.net"],
+  "rpc": ["https://rpc.public.zkevm-test.net", "https://polygon-zkevm-testnet.drpc.org", "wss://polygon-zkevm-testnet.drpc.org"],
   "faucets": [],
   "infoURL": "https://polygon.technology/solutions/polygon-zkevm/"
 }, {
@@ -7093,7 +7093,7 @@
     "symbol": "TKAVA",
     "decimals": 18
   },
-  "rpc": ["https://evm.testnet.kava.io", "https://kava-evm-testnet.rpc.thirdweb.com", "wss://wevm.testnet.kava.io"],
+  "rpc": ["https://evm.testnet.kava.io", "https://kava-evm-testnet.rpc.thirdweb.com", "wss://wevm.testnet.kava.io", "https://kava-testnet.drpc.org", "wss://kava-testnet.drpc.org"],
   "faucets": ["https://faucet.kava.io"],
   "infoURL": "https://www.kava.io"
 }, {
@@ -7106,7 +7106,7 @@
     "symbol": "KAVA",
     "decimals": 18
   },
-  "rpc": ["https://evm.kava.io", "https://kava-rpc.gateway.pokt.network", "https://kava-evm.rpc.thirdweb.com", "wss://wevm.kava.io", "https://kava-evm-rpc.publicnode.com", "wss://kava-evm-rpc.publicnode.com", "https://evm.kava-rpc.com", "https://rpc.ankr.com/kava_evm", "wss://wevm.kava-rpc.com"],
+  "rpc": ["https://evm.kava.io", "https://kava-rpc.gateway.pokt.network", "https://kava-evm.rpc.thirdweb.com", "wss://wevm.kava.io", "https://kava-evm-rpc.publicnode.com", "wss://kava-evm-rpc.publicnode.com", "https://evm.kava-rpc.com", "https://rpc.ankr.com/kava_evm", "wss://wevm.kava-rpc.com", "https://kava.drpc.org", "wss://kava.drpc.org"],
   "faucets": [],
   "infoURL": "https://www.kava.io"
 }, {
@@ -8172,7 +8172,7 @@
     "symbol": "FTM",
     "decimals": 18
   },
-  "rpc": ["https://rpc.testnet.fantom.network", "https://fantom-testnet-rpc.publicnode.com", "wss://fantom-testnet-rpc.publicnode.com"],
+  "rpc": ["https://rpc.testnet.fantom.network", "https://fantom-testnet-rpc.publicnode.com", "wss://fantom-testnet-rpc.publicnode.com", "https://fantom-testnet.drpc.org", "wss://fantom-testnet.drpc.org"],
   "faucets": ["https://faucet.fantom.network"],
   "infoURL": "https://docs.fantom.foundation/quick-start/short-guide#fantom-testnet"
 }, {
@@ -10629,7 +10629,7 @@
     "symbol": "XDAI",
     "decimals": 18
   },
-  "rpc": ["https://rpc.chiadochain.net", "https://rpc.chiado.gnosis.gateway.fm", "wss://rpc.chiadochain.net/wss", "https://gnosis-chiado-rpc.publicnode.com", "wss://gnosis-chiado-rpc.publicnode.com"],
+  "rpc": ["https://rpc.chiadochain.net", "https://rpc.chiado.gnosis.gateway.fm", "wss://rpc.chiadochain.net/wss", "https://gnosis-chiado-rpc.publicnode.com", "wss://gnosis-chiado-rpc.publicnode.com", "https://gnosis-chiado.drpc.org", "wss://gnosis-chiado.drpc.org"],
   "faucets": ["https://gnosisfaucet.com"],
   "infoURL": "https://docs.gnosischain.com"
 }, {
@@ -10824,7 +10824,7 @@
     "symbol": "ISLM",
     "decimals": 18
   },
-  "rpc": ["https://rpc.eth.haqq.network", "https://haqq-evm-rpc.publicnode.com", "wss://haqq-evm-rpc.publicnode.com"],
+  "rpc": ["https://rpc.eth.haqq.network", "https://haqq-evm-rpc.publicnode.com", "wss://haqq-evm-rpc.publicnode.com", "https://haqq.drpc.org", "wss://haqq.drpc.org"],
   "faucets": [],
   "infoURL": "https://islamiccoin.net"
 }, {
@@ -11084,7 +11084,7 @@
     "symbol": "IMX",
     "decimals": 18
   },
-  "rpc": ["https://rpc.immutable.com"],
+  "rpc": ["https://rpc.immutable.com", "https://immutable-zkevm.drpc.org", "wss://immutable-zkevm.drpc.org"],
   "faucets": ["https://docs.immutable.com/docs/zkEVM/guides/faucet"],
   "infoURL": "https://www.immutable.com"
 }, {
@@ -11110,7 +11110,7 @@
     "symbol": "tIMX",
     "decimals": 18
   },
-  "rpc": ["https://rpc.testnet.immutable.com"],
+  "rpc": ["https://rpc.testnet.immutable.com", "https://immutable-zkevm-testnet.drpc.org", "wss://immutable-zkevm-testnet.drpc.org"],
   "faucets": ["https://docs.immutable.com/docs/zkEVM/guides/faucet"],
   "infoURL": "https://www.immutable.com"
 }, {
@@ -11305,7 +11305,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.holesky.ethpandaops.io", "https://ethereum-holesky-rpc.publicnode.com", "wss://ethereum-holesky-rpc.publicnode.com"],
+  "rpc": ["https://rpc.holesky.ethpandaops.io", "https://ethereum-holesky-rpc.publicnode.com", "wss://ethereum-holesky-rpc.publicnode.com", "https://holesky.drpc.org", "wss://holesky.drpc.org"],
   "faucets": ["https://faucet.holesky.ethpandaops.io", "https://holesky-faucet.pk910.de"],
   "infoURL": "https://holesky.ethpandaops.io"
 }, {
@@ -12176,7 +12176,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.mode.network"],
+  "rpc": ["https://mainnet.mode.network", "https://mode.drpc.org", "wss://mode.drpc.org"],
   "faucets": [],
   "infoURL": "https://docs.mode.network/"
 }, {
@@ -14334,7 +14334,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.katla.taiko.xyz", "wss://rpc.katla.taiko.xyz"],
+  "rpc": ["https://rpc.katla.taiko.xyz", "wss://rpc.katla.taiko.xyz", "https://taiko-katla.drpc.org", "wss://taiko-katla.drpc.org"],
   "faucets": [],
   "infoURL": "https://taiko.xyz"
 }, {
@@ -14763,7 +14763,7 @@
     "symbol": "tFIL",
     "decimals": 18
   },
-  "rpc": ["https://api.calibration.node.glif.io/rpc/v1", "https://rpc.ankr.com/filecoin_testnet", "https://filecoin-calibration.chainstacklabs.com/rpc/v1", "https://filecoin-calibration.chainup.net/rpc/v1", "https://calibration.filfox.info/rpc/v1"],
+  "rpc": ["https://api.calibration.node.glif.io/rpc/v1", "https://rpc.ankr.com/filecoin_testnet", "https://filecoin-calibration.chainstacklabs.com/rpc/v1", "https://filecoin-calibration.chainup.net/rpc/v1", "https://calibration.filfox.info/rpc/v1", "https://filecoin-calibration.drpc.org", "wss://filecoin-calibration.drpc.org"],
   "faucets": ["https://faucet.calibration.fildev.network/"],
   "infoURL": "https://filecoin.io"
 }, {
@@ -15647,7 +15647,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.zkatana.gelato.digital", "https://rpc.startale.com/zkatana"],
+  "rpc": ["https://rpc.zkatana.gelato.digital", "https://rpc.startale.com/zkatana", "https://astar-zkatana.drpc.org", "wss://astar-zkatana.drpc.org"],
   "faucets": [],
   "infoURL": "https://astar.network"
 }, {
@@ -15816,7 +15816,7 @@
     "symbol": "MANTA",
     "decimals": 18
   },
-  "rpc": ["https://manta-testnet.calderachain.xyz/http"],
+  "rpc": ["https://manta-testnet.calderachain.xyz/http", "https://manta-pacific-testnet.drpc.org", "wss://manta-pacific-testnet.drpc.org"],
   "faucets": [],
   "infoURL": "https://manta-testnet.caldera.dev/"
 }, {
@@ -16102,7 +16102,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.sepolia.org", "https://rpc2.sepolia.org", "https://rpc-sepolia.rockx.com", "https://rpc.sepolia.ethpandaops.io", "https://sepolia.infura.io/v3/${INFURA_API_KEY}", "wss://sepolia.infura.io/v3/${INFURA_API_KEY}", "https://sepolia.gateway.tenderly.co", "wss://sepolia.gateway.tenderly.co", "https://ethereum-sepolia-rpc.publicnode.com", "wss://ethereum-sepolia-rpc.publicnode.com"],
+  "rpc": ["https://rpc.sepolia.org", "https://rpc2.sepolia.org", "https://rpc-sepolia.rockx.com", "https://rpc.sepolia.ethpandaops.io", "https://sepolia.infura.io/v3/${INFURA_API_KEY}", "wss://sepolia.infura.io/v3/${INFURA_API_KEY}", "https://sepolia.gateway.tenderly.co", "wss://sepolia.gateway.tenderly.co", "https://ethereum-sepolia-rpc.publicnode.com", "wss://ethereum-sepolia-rpc.publicnode.com", "https://sepolia.drpc.org", "wss://sepolia.drpc.org"],
   "faucets": ["http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"],
   "infoURL": "https://sepolia.otterscan.io"
 }, {
@@ -16115,7 +16115,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://sepolia.optimism.io"],
+  "rpc": ["https://sepolia.optimism.io", "https://optimism-sepolia.drpc.org", "wss://optimism-sepolia.drpc.org"],
   "faucets": ["https://app.optimism.io/faucet"],
   "infoURL": "https://optimism.io"
 }, {
@@ -16518,7 +16518,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://sepolia.blast.io"],
+  "rpc": ["https://sepolia.blast.io", "https://blast-sepolia.drpc.org", "wss://blast-sepolia.drpc.org"],
   "faucets": ["https://faucet.quicknode.com/blast/sepolia"],
   "infoURL": "https://blast.io/"
 }, {
@@ -16557,7 +16557,7 @@
     "symbol": "NEON",
     "decimals": 18
   },
-  "rpc": ["https://devnet.neonevm.org"],
+  "rpc": ["https://devnet.neonevm.org", "https://neon-evm-devnet.drpc.org", "wss://neon-evm-devnet.drpc.org"],
   "faucets": ["https://neonfaucet.org"],
   "infoURL": "https://neon-labs.org"
 }, {
@@ -16570,7 +16570,7 @@
     "symbol": "NEON",
     "decimals": 18
   },
-  "rpc": ["https://neon-proxy-mainnet.solana.p2p.org"],
+  "rpc": ["https://neon-proxy-mainnet.solana.p2p.org", "https://neon-evm.drpc.org", "wss://neon-evm.drpc.org"],
   "faucets": [],
   "infoURL": "https://neonevm.org"
 }, {
@@ -16804,7 +16804,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.aurora.dev"],
+  "rpc": ["https://mainnet.aurora.dev", "https://aurora.drpc.org", "wss://aurora.drpc.org"],
   "faucets": [],
   "infoURL": "https://aurora.dev"
 }, {
@@ -16817,7 +16817,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://testnet.aurora.dev/"],
+  "rpc": ["https://testnet.aurora.dev/", "https://aurora-testnet.drpc.org", "wss://aurora-testnet.drpc.org"],
   "faucets": [],
   "infoURL": "https://aurora.dev"
 }, {
@@ -16947,7 +16947,7 @@
     "symbol": "ONE",
     "decimals": 18
   },
-  "rpc": ["https://api.harmony.one", "https://a.api.s0.t.hmny.io", "https://api.s0.t.hmny.io", "https://rpc.ankr.com/harmony", "https://harmony.api.onfinality.io/public", "https://1rpc.io/one"],
+  "rpc": ["https://api.harmony.one", "https://a.api.s0.t.hmny.io", "https://api.s0.t.hmny.io", "https://rpc.ankr.com/harmony", "https://harmony.api.onfinality.io/public", "https://1rpc.io/one", "https://harmony-0.drpc.org", "wss://harmony-0.drpc.org"],
   "faucets": [],
   "infoURL": "https://www.harmony.one/"
 }, {
@@ -16960,7 +16960,7 @@
     "symbol": "ONE",
     "decimals": 18
   },
-  "rpc": ["https://api.s1.t.hmny.io"],
+  "rpc": ["https://api.s1.t.hmny.io", "https://harmony-1.drpc.org", "wss://harmony-1.drpc.org"],
   "faucets": [],
   "infoURL": "https://www.harmony.one/"
 }, {
