@@ -1,7 +1,7 @@
 {
   "name": "Prom Testnet zkEVM",
   "chain": "Prom Testnet",
-  "rpc": ["https://rpc-testnet.prom.io/"],
+  "rpc": ["https://testnet-rpc.prom.io/"],
   "faucets": ["https://faucet.prom.io/"],
   "nativeCurrency": {
     "name": "Token Prometeus Network",
@@ -17,7 +17,7 @@
   "explorers": [
     {
       "name": "Blockscout-Prom",
-      "url": "https://promscan.io",
+      "url": "https://testnet.promscan.io",
       "icon": "prom",
       "standard": "none"
     }
