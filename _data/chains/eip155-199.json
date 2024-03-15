@@ -1,7 +1,11 @@
 {
   "name": "BitTorrent Chain Mainnet",
   "chain": "BTTC",
-  "rpc": ["https://rpc.bt.io"],
+  "rpc": [
+    "https://rpc.bt.io",
+    "https://bittorrent.drpc.org",
+    "wss://bittorrent.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BitTorrent",
