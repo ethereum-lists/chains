@@ -3,16 +3,9 @@
   "chain": "MiYou",
   "icon": "miyou",
   "faucets": [],
-  "rpc": [
-    "https://blockchain.miyou.io",
-    "https://blockchain.miyoulab.com"
-  ],
+  "rpc": ["https://blockchain.miyou.io", "https://blockchain.miyoulab.com"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "nativeCurrency": {
-    "name": "MiYou",
-    "symbol": "MY",
-    "decimals": 18
-  },
+  "nativeCurrency": {"name": "MiYou", "symbol": "MY", "decimals": 18},
   "infoURL": "https://www.miyou.io",
   "shortName": "MiYou",
   "chainId": 30088,
