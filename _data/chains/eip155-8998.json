@@ -2,10 +2,7 @@
   "name": "Chromescan Blockchain",
   "chain": "Chrome",
   "icon": "chrome",
-  "rpc": [
-    "https://rpc1.chromescan.org/",
-    "https://rpc2.chromescan.org/"
-  ],
+  "rpc": ["https://rpc1.chromescan.org/", "https://rpc2.chromescan.org/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Chromescan Blockchain",
