@@ -16587,6 +16587,19 @@
   "faucets": ["https://faucet.triangleplatform.com/frame/testnet"],
   "infoURL": "https://www.frame.xyz/"
 }, {
+  "name": "0xHash Testnet",
+  "chainId": 77787778,
+  "shortName": "HETH",
+  "networkId": 77787778,
+  "nativeCurrency": {
+    "name": "0xHash",
+    "symbol": "HETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-test.0xhash.io"],
+  "faucets": [],
+  "infoURL": "https://0xhash.io"
+}, {
   "name": "T.E.A.M Blockchain",
   "chainId": 88888888,
   "shortName": "team",
