@@ -13506,6 +13506,19 @@
   "faucets": ["https://faucet.polygon.technology/"],
   "infoURL": "https://polygon.technology/"
 }, {
+  "name": "Amoy",
+  "chainId": 80002,
+  "shortName": "polygonamoy",
+  "networkId": 80002,
+  "nativeCurrency": {
+    "name": "MATIC",
+    "symbol": "MATIC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-amoy.polygon.technology"],
+  "faucets": ["https://faucet.polygon.technology/"],
+  "infoURL": "https://polygon.technology/"
+}, {
   "name": "Berachain Artio",
   "chainId": 80085,
   "shortName": "berachainArtio",
