@@ -12609,6 +12609,19 @@
   "faucets": [],
   "infoURL": "https://autobahn.network"
 }, {
+  "name": "Swamps L2",
+  "chainId": 45454,
+  "shortName": "SWP",
+  "networkId": 45454,
+  "nativeCurrency": {
+    "name": "SWP",
+    "symbol": "SWP",
+    "decimals": 18
+  },
+  "rpc": ["https://swamps.tc.l2aas.com"],
+  "faucets": [],
+  "infoURL": "https://www.swamps.fi"
+}, {
   "name": "Deelance Mainnet",
   "chainId": 45510,
   "shortName": "dee",
