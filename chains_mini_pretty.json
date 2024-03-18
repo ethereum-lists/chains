@@ -4302,6 +4302,19 @@
   "faucets": [],
   "infoURL": "https://www.wanscan.org"
 }, {
+  "name": "MAXI Chain Testnet",
+  "chainId": 898,
+  "shortName": "maxi-testnet",
+  "networkId": 898,
+  "nativeCurrency": {
+    "name": "MAXICOIN",
+    "symbol": "MAXI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.maxi.network"],
+  "faucets": ["https://faucet.maxi.network"],
+  "infoURL": "https://maxi.network"
+}, {
   "name": "Garizon Testnet Stage0",
   "chainId": 900,
   "shortName": "gar-test-s0",
