@@ -1,0 +1,25 @@
+{
+  "name": "Prom Testnet zkEVM",
+  "chain": "Prom Testnet",
+  "rpc": ["https://testnet-rpc.prom.io/"],
+  "faucets": ["https://faucet.prom.io/"],
+  "nativeCurrency": {
+    "name": "Token Prometeus Network",
+    "symbol": "PROM",
+    "decimals": 18
+  },
+  "icon": "prom",
+  "infoURL": "https://prom.io/",
+  "shortName": "prom-testnet",
+  "chainId": 97072271,
+  "networkId": 97072271,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Blockscout-Prom",
+      "url": "https://testnet.promscan.io",
+      "icon": "prom",
+      "standard": "none"
+    }
+  ]
+}
