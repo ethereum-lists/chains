@@ -10048,6 +10048,19 @@
   "faucets": ["https://faucet.tmychain.org/"],
   "infoURL": "https://tmychain.org/"
 }, {
+  "name": "IOTA EVM",
+  "chainId": 8822,
+  "shortName": "iotaevm",
+  "networkId": 8822,
+  "nativeCurrency": {
+    "name": "IOTA",
+    "symbol": "IOTA",
+    "decimals": 18
+  },
+  "rpc": ["https://json-rpc.evm.iotaledger.net"],
+  "faucets": [],
+  "infoURL": "https://www.iota.org"
+}, {
   "name": "MARO Blockchain Mainnet",
   "chainId": 8848,
   "shortName": "maro",
