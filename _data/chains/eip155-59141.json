@@ -23,7 +23,11 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-5",
-    "bridges": []
+    "bridges": [
+      {
+        "url": "https://bridge.linea.build/"
+      }
+    ]
   },
   "explorers": [
     {
