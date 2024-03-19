@@ -1,0 +1,22 @@
+{
+  "name": "Shutterized Optimism Sepolia",
+  "chain": "ETH",
+  "icon": "shutter",
+  "rpc": ["https://rpc.op-sepolia.shutter.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://blog.shutter.network/shutterized-op-stack-testnet-shop-now-live-on-sepolia/",
+  "shortName": "sh-op-dev",
+  "chainId": 42055420,
+  "networkId": 42055420,
+  "explorers": [],
+  "parent": {
+    "type" : "L2",
+    "chain": "eip155-11155111",
+    "bridges": [ {"url":"https://demo.op-sepolia.shutter.network"} ]
+  }
+}
