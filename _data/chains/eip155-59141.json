@@ -23,11 +23,7 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-5",
-    "bridges": [
-      {
-        "url": "https://sepolia.hop.exchange/#/send?token=ETH&sourceNetwork=ethereum&destNetwork=linea"
-      }
-    ]
+    "bridges": []
   },
   "explorers": [
     {
