@@ -1,7 +1,11 @@
 {
   "name": "Harmony Mainnet Shard 1",
   "chain": "Harmony",
-  "rpc": ["https://api.s1.t.hmny.io"],
+  "rpc": [
+    "https://api.s1.t.hmny.io",
+    "https://harmony-1.drpc.org",
+    "wss://harmony-1.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ONE",

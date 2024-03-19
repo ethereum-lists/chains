@@ -1,7 +1,11 @@
 {
   "name": "Aurora Mainnet",
   "chain": "NEAR",
-  "rpc": ["https://mainnet.aurora.dev"],
+  "rpc": [
+    "https://mainnet.aurora.dev",
+    "https://aurora.drpc.org",
+    "wss://aurora.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
