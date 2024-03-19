@@ -1,7 +1,7 @@
 {
   "name": "XLayer Mainnet",
   "chain": "XLayer",
-  "rpc": [],
+  "rpc": ["https://rpc.xlayer.tech", "https://xlayerrpc.okx.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "XLayer Global Utility Token",
@@ -13,6 +13,12 @@
   "shortName": "okb",
   "chainId": 196,
   "networkId": 196,
-  "explorers": [],
+  "explorers": [
+    {
+      "name": "OKLink",
+      "url": "https://www.oklink.com/xlayer",
+      "standard": "EIP3091"
+    }
+  ],
   "status": "incubating"
 }
