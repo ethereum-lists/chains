@@ -4,7 +4,9 @@
   "rpc": [
     "https://rpc.eth.haqq.network",
     "https://haqq-evm-rpc.publicnode.com",
-    "wss://haqq-evm-rpc.publicnode.com"
+    "wss://haqq-evm-rpc.publicnode.com",
+    "https://haqq.drpc.org",
+    "wss://haqq.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {

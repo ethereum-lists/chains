@@ -1,7 +1,11 @@
 {
   "name": "Aurora Testnet",
   "chain": "NEAR",
-  "rpc": ["https://testnet.aurora.dev/"],
+  "rpc": [
+    "https://testnet.aurora.dev/",
+    "https://aurora-testnet.drpc.org",
+    "wss://aurora-testnet.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
