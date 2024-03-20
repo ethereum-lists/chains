@@ -1,0 +1,25 @@
+{
+  "name": "Amoy",
+  "title": "Polygon Amoy Testnet",
+  "chain": "Polygon",
+  "icon": "polygon",
+  "rpc": ["https://rpc-amoy.polygon.technology"],
+  "faucets": ["https://faucet.polygon.technology/"],
+  "nativeCurrency": {
+    "name": "MATIC",
+    "symbol": "MATIC",
+    "decimals": 18
+  },
+  "infoURL": "https://polygon.technology/",
+  "shortName": "polygonamoy",
+  "chainId": 80002,
+  "networkId": 80002,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "polygonamoy",
+      "url": "https://www.oklink.com/amoy",
+      "standard": "EIP3091"
+    }
+  ]
+}
