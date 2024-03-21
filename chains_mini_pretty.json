@@ -1806,19 +1806,6 @@
   "faucets": [],
   "infoURL": "https://phi.network"
 }, {
-  "name": "SoraAI Testnet",
-  "chainId": 145,
-  "shortName": "SETH",
-  "networkId": 145,
-  "nativeCurrency": {
-    "name": "SoraETH",
-    "symbol": "SETH",
-    "decimals": 18
-  },
-  "rpc": ["https://rpc-testnet.soraai.bot"],
-  "faucets": [],
-  "infoURL": "https://soraai.bot"
-}, {
   "name": "ShimmerEVM",
   "chainId": 148,
   "shortName": "shimmerevm",
