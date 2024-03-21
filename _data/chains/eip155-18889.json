@@ -1,0 +1,28 @@
+{
+  "name": "Titan (TKX) Testnet",
+  "chain": "Titan (TKX)",
+  "rpc": [
+    "https://titan-testnet-json-rpc-1.tokenize-dev.com",
+    "https://titan-testnet-json-rpc-2.tokenize-dev.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Titan tkx",
+    "symbol": "TKX",
+    "decimals": 18
+  },
+  "infoURL": "https://tokenize.exchange",
+  "shortName": "titan_tkx-testnet",
+  "chainId": 18889,
+  "networkId": 18889,
+  "slip44": 1,
+  "icon": "titan_tkx",
+  "explorers": [
+    {
+      "name": "Titan Explorer",
+      "url": "https://titan-testnet-explorer-light.tokenize-dev.com",
+      "standard": "none",
+      "icon": "titan_tkx"
+    }
+  ]
+}
