@@ -1,7 +1,11 @@
 {
   "name": "Manta Pacific Testnet",
   "chain": "Manta Pacific",
-  "rpc": ["https://manta-testnet.calderachain.xyz/http"],
+  "rpc": [
+    "https://manta-testnet.calderachain.xyz/http",
+    "https://manta-pacific-testnet.drpc.org",
+    "wss://manta-pacific-testnet.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Manta",
@@ -13,6 +17,7 @@
   "shortName": "mantaTestnet",
   "chainId": 3441005,
   "networkId": 3441005,
+  "slip44": 1,
   "icon": "manta",
   "explorers": [
     {
