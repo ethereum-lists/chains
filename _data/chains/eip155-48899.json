@@ -1,0 +1,31 @@
+{
+  "name": "Zircuit Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://zircuit1.p2pify.com/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://zircuit.com/",
+  "shortName": "zircuit-sepolia",
+  "chainId": 48899,
+  "networkId": 48899,
+  "icon": "zircuit",
+  "explorers": [
+    {
+      "name": "Zircuit Block Explorer",
+      "url": "https://explorer.zircuit.com/",
+      "icon": "zircuit",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.zircuit.com/" }]
+  }
+}
