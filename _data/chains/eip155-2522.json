@@ -13,6 +13,13 @@
   "chainId": 2522,
   "networkId": 2522,
   "slip44": 1,
-  "explorers": [],
+  "icon": "fraxtal",
+  "explorers": [
+    {
+      "name": "fraxscan",
+      "url": "https://holesky.fraxscan.com",
+      "standard": "EIP3091"
+    }
+  ],
   "status": "active"
 }
