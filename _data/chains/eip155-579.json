@@ -12,13 +12,12 @@
   "shortName": "filenova",
   "chainId": 579,
   "networkId": 579,
-  "slip44": 1,
   "icon": "filenova",
   "explorers": [
     {
-      "name": "blockscout",
+      "name": "filenova explorer",
       "url": "https://scan.filenova.org",
-      "icon": "filenova",
+      "icon": "blockscout",
       "standard": "EIP3091"
     }
   ],

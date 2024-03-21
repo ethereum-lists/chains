@@ -9,16 +9,16 @@
     "decimals": 18
   },
   "infoURL": "https://filenova.org",
-  "shortName": "filenova-test",
+  "shortName": "tfilenova",
   "chainId": 5675,
   "networkId": 5675,
   "slip44": 1,
-  "icon": "filenovatestnet",
+  "icon": "filenova",
   "explorers": [
     {
-      "name": "blockscout",
+      "name": "filenova testnet explorer",
       "url": "https://scantest.filenova.org",
-      "icon": "filenova",
+      "icon": "blockscout",
       "standard": "EIP3091"
     }
   ],
