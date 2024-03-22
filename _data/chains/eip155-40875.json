@@ -1,0 +1,23 @@
+{
+  "name": "HOME Verse Testnet",
+  "chain": "HOME Verse Testnet",
+  "icon": "home_verse",
+  "rpc": ["https://rpc.testnet.oasys.homeverse.games/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.homeverse.games/",
+  "shortName": "HMV",
+  "chainId": 40875,
+  "networkId": 40875,
+  "explorers": [
+    {
+      "name": "HOME Verse Testnet Explorer",
+      "url": "https://explorer.testnet.oasys.homeverse.games",
+      "standard": "EIP3091"
+    }
+  ]
+}
