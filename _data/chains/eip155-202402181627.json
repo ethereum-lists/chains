@@ -3,8 +3,8 @@
   "title": "GMNetwork Testnet",
   "chain": "ETH",
   "rpc": [
-    "https://gin-testnet.alt.technology/",
-    "wss://gin-testnet.alt.technology/ws"
+    "https://gmnetwork-testnet.alt.technology/",
+    "wss://gmnetwork-testnet.alt.technology/ws"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,13 +13,13 @@
     "decimals": 18
   },
   "infoURL": "https://rollup-info.altlayer.io/retroship-oram-penoist/gmnetwork_testnet",
-  "shortName": "gin",
+  "shortName": "gmnetwork",
   "chainId": 202402181627,
   "networkId": 202402181627,
   "explorers": [
     {
-      "name": "gin-testnet-explorer",
-      "url": "https://gin-testnet-explorer.alt.technology/",
+      "name": "gmnetwork-testnet-explorer",
+      "url": "https://gmnetwork-testnet-explorer.alt.technology/",
       "standard": "none"
     }
   ]
