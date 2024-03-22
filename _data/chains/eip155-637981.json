@@ -1,0 +1,26 @@
+{
+  "name": "BNX",
+  "title": "BNX Testnet",
+  "chain": "BSC",
+  "rpc": [
+    "https://bnx-testnet.alt.technology/",
+    "wss://bnx-testnet.alt.technology/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Binance Chain Test Token",
+    "symbol": "tBNB",
+    "decimals": 18
+  },
+  "infoURL": "https://rollup-info.altlayer.io/best-garment-primary/xterio_testnet",
+  "shortName": "bnx",
+  "chainId": 637981,
+  "networkId": 637981,
+  "explorers": [
+    {
+      "name": "bnx-testnet-explorer",
+      "url": "https://bnx-testnet-explorer.alt.technology/",
+      "standard": "none"
+    }
+  ]
+}
