@@ -1,10 +1,10 @@
 {
-  "name": "GIN",
-  "title": "GIN Testnet",
+  "name": "Itering",
+  "title": "Itering Testnet",
   "chain": "ETH",
   "rpc": [
-    "https://gin-testnet.alt.technology/",
-    "wss://gin-testnet.alt.technology/ws"
+    "https://itering-testnet.alt.technology/",
+    "wss://itering-testnet.alt.technology/ws"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,13 +13,13 @@
     "decimals": 18
   },
   "infoURL": "https://rollup-info.altlayer.io/mechanic-lend-glimpse/itering_testnet",
-  "shortName": "gin",
+  "shortName": "itering",
   "chainId": 20240207,
   "networkId": 20240207,
   "explorers": [
     {
-      "name": "gin-testnet-explorer",
-      "url": "https://gin-testnet-explorer.alt.technology/",
+      "name": "itering-testnet-explorer",
+      "url": "https://itering-testnet-explorer.alt.technology/",
       "standard": "none"
     }
   ]
