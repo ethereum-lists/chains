@@ -1,0 +1,26 @@
+{
+  "name": "Xterio",
+  "title": "Xterio Testnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://xterio-testnet.alt.technology/",
+    "wss://xterio-testnet.alt.technology/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Binance Chain Test Token",
+    "symbol": "tBNB",
+    "decimals": 18
+  },
+  "infoURL": "https://rollup-info.altlayer.io/best-garment-primary/xterio_testnet",
+  "shortName": "xterio",
+  "chainId": 1637450,
+  "networkId": 1637450,
+  "explorers": [
+    {
+      "name": "xterio-testnet-explorer",
+      "url": "https://xterio-testnet-explorer.alt.technology/",
+      "standard": "none"
+    }
+  ]
+}
