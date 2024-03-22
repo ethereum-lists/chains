@@ -1,0 +1,17 @@
+{
+  "name": "Tenzro",
+  "chain": "Tenzro",
+  "rpc": [
+      "https://subnets.avax.network/tenzro/testnet/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+      "name": "Tenzro Token",
+      "symbol": "TNZO",
+      "decimals": 18
+  },
+  "infoURL": "https://docs.tenzro.com",
+  "shortName": "tenzro",
+  "chainId": 11516,
+  "networkId": 11516
+}
