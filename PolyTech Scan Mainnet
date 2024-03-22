@@ -1,0 +1,23 @@
+{
+  "name": "PolyTech Scan Mainnet",
+  "chain": "PolyTech Scan Mainnet",
+  "rpc": ["https://rpc.ptcscan.io"],
+  "nativeCurrency": {
+    "name": "PTCE",
+    "symbol": "PTCE",
+    "decimals": 18
+  },
+  "infoURL": "https://ptcscan.io",
+  "shortName": "PolyTech Scan Mainnet",
+  "chainId": 889910246,
+  "networkId": 889910246,
+  "icon": "ptc_logo",
+  "explorers": [
+    {
+      "name": "PolyTech Scan Mainnet Explorer",
+      "url": "https://ptcscan.io",
+      "standard": "none",
+      "icon": "ptc_logo"
+    }
+  ]
+}
