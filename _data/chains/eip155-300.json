@@ -1,17 +1,35 @@
 {
-  "name": "(deprecated) Optimism on GC",
-  "chain": "OGC",
-  "rpc": [],
+  "name": "zkSync Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://sepolia.era.zksync.dev",
+    "https://zksync-sepolia.drpc.org",
+    "wss://zksync-sepolia.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "xDAI",
-    "symbol": "xDAI",
+    "name": "Ether",
+    "symbol": "ETH",
     "decimals": 18
   },
-  "shortName": "ogc",
+  "infoURL": "https://zksync.io/",
+  "shortName": "zksync-sepolia",
   "chainId": 300,
   "networkId": 300,
-  "infoURL": "https://docs.gnosischain.com",
-  "explorers": [],
-  "status": "deprecated"
+  "slip44": 1,
+  "icon": "zksync-era",
+  "explorers": [
+    {
+      "name": "zkSync Block Explorer",
+      "url": "https://sepolia.explorer.zksync.io",
+      "icon": "zksync-era",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.zksync.io/" }]
+  },
+  "redFlags": ["reusedChainId"]
 }

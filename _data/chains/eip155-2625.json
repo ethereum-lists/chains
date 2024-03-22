@@ -1,22 +1,23 @@
 {
-  "name": "WhiteBIT Network Testnet",
+  "name": "Whitechain Testnet",
   "chain": "WBT",
-  "rpc": ["https://rpc-testnet.whitebit.network"],
-  "faucets": ["https://explorer.whitebit.network/testnet/faucet"],
+  "rpc": ["https://rpc-testnet.whitechain.io"],
+  "faucets": ["https://testnet.whitechain.io/faucet"],
   "nativeCurrency": {
     "name": "WhiteBIT Coin",
     "symbol": "WBT",
     "decimals": 18
   },
-  "infoURL": "https://whitebit.com/wbt",
+  "infoURL": "https://whitechain.io",
   "shortName": "twbt",
   "chainId": 2625,
   "networkId": 2625,
-  "icon": "whitebit-testnet",
+  "slip44": 1,
+  "icon": "whitechain-testnet",
   "explorers": [
     {
-      "name": "wb-explorer-testnet",
-      "url": "https://explorer.whitebit.network/testnet",
+      "name": "whitechain-testnet-explorer",
+      "url": "https://testnet.whitechain.io",
       "standard": "EIP3091"
     }
   ]

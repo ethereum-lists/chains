@@ -1,23 +1,24 @@
 {
-  "name": "Soverun Testnet",
-  "chain": "SVRN",
-  "icon": "soverunTestnet",
-  "rpc": ["https://testnet-rpc.soverun.com"],
-  "faucets": ["https://faucet.soverun.com"],
+  "name": "Global Trust Network",
+  "chain": "GTN",
+  "icon": "gtn",
+  "rpc": ["https://gtn.stabilityprotocol.com"],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "Soverun",
-    "symbol": "SVRN",
+    "name": "FREE",
+    "symbol": "FREE",
     "decimals": 18
   },
-  "infoURL": "https://soverun.com",
-  "shortName": "SVRNt",
+  "infoURL": "https://stabilityprotocol.com",
+  "shortName": "stabilityprotocol",
   "chainId": 101010,
   "networkId": 101010,
   "explorers": [
     {
-      "name": "Soverun",
-      "url": "https://testnet.soverun.com",
+      "name": "blockscout",
+      "url": "https://stability.blockscout.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "redFlags": ["reusedChainId"]
 }
