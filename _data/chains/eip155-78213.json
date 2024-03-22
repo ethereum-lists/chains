@@ -1,0 +1,26 @@
+{
+  "name": "Puffer",
+  "title": "Puffer Testnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://puffer-testnet-rpc.alt.technology",
+    "wss://puffer-testnet-ws.alt.technology"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://rollup-info.altlayer.io/enough-badge-absent/puffer_testnet",
+  "shortName": "puffer",
+  "chainId": 78213,
+  "networkId": 78213,
+  "explorers": [
+    {
+      "name": "puffer-testnet-explorer",
+      "url": "https://puffer-testnet-explorer.alt.technology/",
+      "standard": "none"
+    }
+  ]
+}
