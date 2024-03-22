@@ -1,0 +1,26 @@
+{
+  "name": "Cyber",
+  "title": "Cyber Testnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://cyber-testnet.alt.technology/",
+    "wss://cyber-testnet.alt.technology/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://rollup-info.altlayer.io/depression-blonde-news/cyber_testnet",
+  "shortName": "cyber",
+  "chainId": 111557560,
+  "networkId": 111557560,
+  "explorers": [
+    {
+      "name": "cyber-testnet-explorer",
+      "url": "https://cyber-testnet-explorer.alt.technology/",
+      "standard": "none"
+    }
+  ]
+}
