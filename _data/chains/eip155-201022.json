@@ -1,0 +1,29 @@
+{
+    "name": "FON Smart Chain",
+    "chain": "FSC",
+    "rpc": [
+      "https://fsc-dataseed1.fonscan.io",
+      "https://fsc-dataseed2.fonscan.io",
+      "https://fsc-dataseed3.fonscan.io",
+      "https://fsc-dataseed4.fonscan.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "FON",
+      "symbol": "FON",
+      "decimals": 18
+    },
+    "infoURL": "https://fonchain.io/",
+    "shortName": "FON",
+    "chainId": 201022,
+    "networkId": 201022,
+    "icon": "fon",
+    "explorers": [
+      {
+        "name": "FON Smart Chain Explorer",
+        "url": "https://fonscan.io",
+        "standard": "none"
+      }
+    ]
+  }
+  
