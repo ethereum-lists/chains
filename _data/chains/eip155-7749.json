@@ -1,0 +1,30 @@
+{
+    "name": "Social Network",
+    "chain": "EARTH",
+    "rpc": ["https://rpc.social.network"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "eBTC",
+      "symbol": "eBTC",
+      "decimals": 18
+    },
+    "infoURL": "https://social.network",
+    "shortName": "earth",
+    "chainId": 7749,
+    "networkId": 7749,
+    "slip44": 60,
+    "icon": "earth",
+    "explorers": [
+      {
+        "name": "Social Network Explorer",
+        "url": "https://the.social.network",
+        "standard": "none"
+      }
+    ],
+    "parent": {
+      "type" : "L2",
+      "chain": "eip155-1",
+      "bridges": [ {"url":"https://bridge.arbitrum.io"} ]
+    }
+  }
+  
