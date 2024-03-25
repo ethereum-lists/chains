@@ -20,9 +20,14 @@
   "slip44": 1,
   "explorers": [
     {
-      "name": "klaytnscope",
-      "url": "https://scope.klaytn.com",
+      "name": "Klaytnscope",
+      "url": "https://baobab.klaytnscope.com/",
       "standard": "EIP3091"
-    }
+    },
+    {
+      "name": "Klaytnfinder",
+      "url": "https://baobab.klaytnfinder.io/",
+      "standard": "none"
+    },
   ]
 }
