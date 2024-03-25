@@ -1,7 +1,7 @@
 {
   "name": "Klaytn Mainnet Cypress",
   "chain": "KLAY",
-  "rpc": ["https://public-node-api.klaytnapi.com/v1/cypress"],
+  "rpc": ["https://public-en-cypress.klaytn.net"],
   "faucets": [],
   "nativeCurrency": {
     "name": "KLAY",
@@ -17,6 +17,11 @@
     {
       "name": "Klaytnscope",
       "url": "https://scope.klaytn.com",
+      "standard": "none"
+    },
+    {
+      "name": "Klaytnfinder",
+      "url": "https://klaytnfinder.io",
       "standard": "none"
     }
   ]
