@@ -14650,6 +14650,19 @@
   "faucets": [],
   "infoURL": "https://docs.xen.network/x1/"
 }, {
+  "name": "YMTECH-BESU Testnet",
+  "chainId": 202401,
+  "shortName": "YMTECH-BESU",
+  "networkId": 202401,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["http://39.119.118.216:8545"],
+  "faucets": [],
+  "infoURL": "https://www.ymtech.co.kr"
+}, {
   "name": "Jellie",
   "chainId": 202624,
   "shortName": "twl-jellie",
