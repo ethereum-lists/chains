@@ -1,5 +1,5 @@
 {
-  "name": "Story Protocol Sepolia Testnet",
+  "name": "Story Protocol Testnet",
   "chain": "ETH",
   "rpc": ["https://story-network.rpc.caldera.xyz/http"],
   "faucets": ["https://story-network.hub.caldera.xyz/"],
@@ -15,7 +15,7 @@
   "icon": "story",
   "explorers": [
     {
-      "name": "Story Protocol Sepolia Explorer",
+      "name": "Story Protocol Testnet Explorer",
       "url": "https://story-testnet.socialscan.io/",
       "icon": "story",
       "standard": "EIP3091"
