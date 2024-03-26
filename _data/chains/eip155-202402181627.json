@@ -1,0 +1,26 @@
+{
+  "name": "GMNetwork",
+  "title": "GMNetwork Testnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://gmnetwork-testnet.alt.technology/",
+    "wss://gmnetwork-testnet.alt.technology/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://rollup-info.altlayer.io/retroship-oram-penoist/gmnetwork_testnet",
+  "shortName": "gmnetwork",
+  "chainId": 202402181627,
+  "networkId": 202402181627,
+  "explorers": [
+    {
+      "name": "gmnetwork-testnet-explorer",
+      "url": "https://gmnetwork-testnet-explorer.alt.technology/",
+      "standard": "none"
+    }
+  ]
+}

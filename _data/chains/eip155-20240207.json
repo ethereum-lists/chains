@@ -1,0 +1,26 @@
+{
+  "name": "Itering",
+  "title": "Itering Testnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://itering-testnet.alt.technology/",
+    "wss://itering-testnet.alt.technology/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://rollup-info.altlayer.io/mechanic-lend-glimpse/itering_testnet",
+  "shortName": "itering",
+  "chainId": 20240207,
+  "networkId": 20240207,
+  "explorers": [
+    {
+      "name": "itering-testnet-explorer",
+      "url": "https://itering-testnet-explorer.alt.technology/",
+      "standard": "none"
+    }
+  ]
+}

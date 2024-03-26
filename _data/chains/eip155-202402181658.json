@@ -1,0 +1,26 @@
+{
+  "name": "Myshell",
+  "title": "Myshell Testnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://myshell-testnet.alt.technology/",
+    "wss://myshell-testnet.alt.technology/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://rollup-info.altlayer.io/minute-vast-prevent/myshell_testnet",
+  "shortName": "myshell",
+  "chainId": 202402181658,
+  "networkId": 202402181658,
+  "explorers": [
+    {
+      "name": "myshell-testnet-explorer",
+      "url": "https://myshell-testnet-explorer.alt.technology/",
+      "standard": "none"
+    }
+  ]
+}

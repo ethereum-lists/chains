@@ -1,0 +1,26 @@
+{
+  "name": "PORT3",
+  "title": "PORT3 Testnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://port3-testnet.alt.technology/",
+    "wss://port3-testnet.alt.technology/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://rollup-info.altlayer.io/more-turkey-school/port3_testnet",
+  "shortName": "port3",
+  "chainId": 20240202,
+  "networkId": 20240202,
+  "explorers": [
+    {
+      "name": "port3-testnet-explorer",
+      "url": "https://port3-testnet-explorer.alt.technology/",
+      "standard": "none"
+    }
+  ]
+}

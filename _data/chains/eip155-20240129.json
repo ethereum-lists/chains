@@ -1,0 +1,26 @@
+{
+  "name": "GIN",
+  "title": "GIN Testnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://gin-testnet.alt.technology/",
+    "wss://gin-testnet.alt.technology/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://rollup-info.altlayer.io/fruit-describe-icon/gin_testnet",
+  "shortName": "gin",
+  "chainId": 20240129,
+  "networkId": 20240129,
+  "explorers": [
+    {
+      "name": "gin-testnet-explorer",
+      "url": "https://gin-testnet-explorer.alt.technology/",
+      "standard": "none"
+    }
+  ]
+}
