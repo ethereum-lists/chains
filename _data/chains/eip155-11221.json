@@ -1,6 +1,6 @@
 {
   "name": "Shine Chain",
-  "chain": "Shine",
+  "chain": "SC20",
   "rpc": ["https://rpc.shinescan.io"],
   "faucets": [],
   "nativeCurrency": {
@@ -15,10 +15,10 @@
   "icon": "shine",
   "explorers": [
     {
-      "name": "Shine Explorer",
+      "name": "shinescan",
       "url": "https://shinescan.io",
       "icon": "shine",
-      "standard": "EIP3091"
+      "standard": "none"
     }
   ]
 }
