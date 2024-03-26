@@ -1,0 +1,24 @@
+{
+  "name": "BOSagora Mainnet",
+  "chain": "ETH",
+  "rpc": ["https://mainnet.bosagora.org", "https://rpc.bosagora.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BOSAGORA",
+    "symbol": "BOA",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.bosagora.org",
+  "shortName": "boa",
+  "chainId": 2151,
+  "networkId": 2151,
+  "icon": "agora",
+  "explorers": [
+    {
+      "name": "BOASCAN",
+      "url": "https://boascan.io",
+      "icon": "agora",
+      "standard": "EIP3091"
+    }
+  ]
+}

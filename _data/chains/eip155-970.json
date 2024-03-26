@@ -1,17 +1,24 @@
 {
-  "name": "CCN",
-  "title": "ComputeCoin Main Network",
-  "chain": "CCN",
-  "rpc": ["https://rpc.mainnet.computecoin.com"],
+  "name": "Oort Mainnet",
+  "chain": "Oort Mainnet",
+  "rpc": ["https://mainnet-rpc.oortech.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "ComputeCoin",
-    "symbol": "CCN",
+    "name": "Oort",
+    "symbol": "OORT",
     "decimals": 18
   },
-  "infoURL": "https://computecoin.com/",
+  "infoURL": "https://oortech.com",
   "shortName": "ccn",
   "chainId": 970,
   "networkId": 970,
-  "icon": "ccn"
+  "icon": "oort",
+  "explorers": [
+    {
+      "name": "Oort Mainnet Explorer",
+      "url": "https://mainnet-scan.oortech.com",
+      "standard": "none",
+      "icon": "oort"
+    }
+  ]
 }

@@ -1,0 +1,35 @@
+{
+  "name": "Flare Testnet Coston2",
+  "chain": "FLR",
+  "icon": "coston2",
+  "rpc": [
+    "https://coston2-api.flare.network/ext/C/rpc",
+    "https://flare-testnet-coston2.rpc.thirdweb.com",
+    "https://flaretestnet-bundler.etherspot.io",
+    "https://coston2.enosys.global/ext/C/rpc"
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": ["https://faucet.flare.network"],
+  "nativeCurrency": {
+    "name": "Coston2 Flare",
+    "symbol": "C2FLR",
+    "decimals": 18
+  },
+  "infoURL": "https://flare.network",
+  "shortName": "c2flr",
+  "chainId": 114,
+  "networkId": 114,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://coston2-explorer.flare.network",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "flarescan",
+      "url": "https://coston2.testnet.flarescan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

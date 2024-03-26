@@ -1,5 +1,5 @@
 {
-  "name": "Boba Network Bobabase Testnet",
+  "name": "Bobabase Testnet",
   "chain": "Bobabase Testnet",
   "rpc": [
     "https://bobabase.boba.network",
@@ -17,6 +17,7 @@
   "shortName": "Bobabase",
   "chainId": 1297,
   "networkId": 1297,
+  "slip44": 1,
   "explorers": [
     {
       "name": "Bobabase block explorer",

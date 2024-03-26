@@ -1,0 +1,22 @@
+{
+  "name": "SwapDEX",
+  "chain": "SDX",
+  "rpc": ["https://rpc.swapdex.network", "wss://ss.swapdex.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SwapDEX",
+    "symbol": "SDX",
+    "decimals": 18
+  },
+  "infoURL": "https://swapdex.network/",
+  "shortName": "SDX",
+  "chainId": 230,
+  "networkId": 230,
+  "explorers": [
+    {
+      "name": "SwapDEX",
+      "url": "https://evm.swapdex.network",
+      "standard": "none"
+    }
+  ]
+}

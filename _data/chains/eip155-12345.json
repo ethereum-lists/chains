@@ -1,0 +1,30 @@
+{
+  "name": "Step Testnet",
+  "title": "Step Test Network",
+  "chain": "STEP",
+  "icon": "step",
+  "rpc": ["https://rpc.testnet.step.network"],
+  "faucets": ["https://faucet.step.network"],
+  "nativeCurrency": {
+    "name": "FITFI",
+    "symbol": "FITFI",
+    "decimals": 18
+  },
+  "infoURL": "https://step.network",
+  "shortName": "steptest",
+  "chainId": 12345,
+  "networkId": 12345,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "StepScan",
+      "url": "https://testnet.stepscan.io",
+      "icon": "step",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-43113"
+  }
+}

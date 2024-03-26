@@ -1,0 +1,30 @@
+{
+  "name": "PGN (Public Goods Network)",
+  "chain": "ETH",
+  "rpc": ["https://rpc.publicgoods.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://publicgoods.network/",
+  "shortName": "PGN",
+  "chainId": 424,
+  "networkId": 424,
+  "icon": "publicGoodsNetwork",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.publicgoods.network",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.publicgoods.network" }]
+  }
+}

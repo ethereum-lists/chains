@@ -1,5 +1,5 @@
 {
-  "name": "Boba Network Bobaopera Testnet",
+  "name": "Bobaopera Testnet",
   "chain": "Bobaopera Testnet",
   "rpc": [
     "https://testnet.bobaopera.boba.network",
@@ -17,6 +17,7 @@
   "shortName": "BobaoperaTestnet",
   "chainId": 4051,
   "networkId": 4051,
+  "slip44": 1,
   "explorers": [
     {
       "name": "Bobaopera Testnet block explorer",

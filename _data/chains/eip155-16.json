@@ -1,24 +1,33 @@
 {
-  "name": "Flare Testnet Coston",
-  "chain": "FLR",
-  "rpc": ["https://coston-api.flare.network/ext/bc/C/rpc"],
-  "faucets": [
-    "https://faucet.towolabs.com",
-    "https://fauceth.komputing.org?chain=16&address=${ADDRESS}"
+  "name": "Songbird Testnet Coston",
+  "chain": "SGB",
+  "icon": "coston",
+  "rpc": [
+    "https://coston-api.flare.network/ext/C/rpc",
+    "https://flare-testnet-coston.rpc.thirdweb.com",
+    "https://coston.enosys.global/ext/C/rpc"
   ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": ["https://faucet.flare.network"],
   "nativeCurrency": {
     "name": "Coston Flare",
     "symbol": "CFLR",
     "decimals": 18
   },
-  "infoURL": "https://flare.xyz",
+  "infoURL": "https://flare.network",
   "shortName": "cflr",
   "chainId": 16,
   "networkId": 16,
+  "slip44": 1,
   "explorers": [
     {
       "name": "blockscout",
       "url": "https://coston-explorer.flare.network",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "flarescan",
+      "url": "https://coston.testnet.flarescan.com",
       "standard": "EIP3091"
     }
   ]

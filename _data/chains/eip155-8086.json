@@ -1,0 +1,16 @@
+{
+  "name": "Bitcoin Chain",
+  "chain": "BTC",
+  "rpc": ["https://rpc.biteth.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://biteth.org",
+  "shortName": "Bitcoin",
+  "chainId": 8086,
+  "networkId": 8086,
+  "explorers": []
+}

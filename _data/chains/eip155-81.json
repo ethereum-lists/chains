@@ -1,22 +1,28 @@
 {
-  "name": "Zenith Testnet (Vilnius)",
-  "chain": "Zenith",
-  "rpc": ["https://vilnius.zenithchain.co/http"],
-  "faucets": ["https://faucet.zenithchain.co/"],
+  "name": "Japan Open Chain Mainnet",
+  "chain": "JOC",
+  "rpc": [
+    "https://rpc-1.japanopenchain.org:8545",
+    "https://rpc-2.japanopenchain.org:8545"
+  ],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "Vilnius",
-    "symbol": "VIL",
+    "name": "Japan Open Chain Token",
+    "symbol": "JOC",
     "decimals": 18
   },
-  "infoURL": "https://www.zenithchain.co/",
+  "infoURL": "https://www.japanopenchain.org/",
+  "shortName": "joc",
   "chainId": 81,
   "networkId": 81,
-  "shortName": "VIL",
+  "icon": "joc",
   "explorers": [
     {
-      "name": "vilnius scan",
-      "url": "https://vilnius.scan.zenithchain.co",
-      "standard": "EIP3091"
+      "name": "Block Explorer",
+      "url": "https://explorer.japanopenchain.org",
+      "standard": "EIP3091",
+      "icon": "joc"
     }
-  ]
+  ],
+  "redFlags": ["reusedChainId"]
 }

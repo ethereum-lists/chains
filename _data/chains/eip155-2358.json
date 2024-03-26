@@ -1,0 +1,31 @@
+{
+  "name": "Kroma Sepolia",
+  "title": "Kroma Testnet Sepolia",
+  "chainId": 2358,
+  "shortName": "kroma-sepolia",
+  "chain": "ETH",
+  "networkId": 2358,
+  "slip44": 1,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://api.sepolia.kroma.network"],
+  "faucets": [],
+  "infoURL": "https://kroma.network",
+  "icon": "kroma",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockscout.sepolia.kroma.network",
+      "icon": "kroma",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "https://kroma.network/bridge" }]
+  }
+}

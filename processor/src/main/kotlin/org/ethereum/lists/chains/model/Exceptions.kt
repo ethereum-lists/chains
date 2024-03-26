@@ -1,5 +1,6 @@
 package org.ethereum.lists.chains.model
 
+import org.ethereum.lists.chains.rpcPrefixes
 import java.io.File
 
 class FileNameMustMatchChainId : Exception("chainId must match the filename")
@@ -8,6 +9,8 @@ class ShouldHaveNoExtraFields(fields: Set<String>) : Exception("should have no e
 class ShouldHaveNoMissingFields(fields: Set<String>) : Exception("missing field(s) $fields")
 class RPCMustBeList : Exception("rpc must be a list")
 class RPCMustBeListOfStrings : Exception("rpc must be a list of strings")
+class RPCCannotBeEmpty : Exception("rpc cannot be empty")
+class InvalidRPCPrefix(prefix: String) : Exception("rpc has invalid prefix: $prefix - must be any of $rpcPrefixes")
 class ENSMustBeObject: Exception("ens must be an object")
 class ENSMustHaveOnlyRegistry: Exception("ens can only have a registry currently")
 class ENSRegistryAddressMustBeValid: Exception("ens registry must have valid address")
@@ -17,12 +20,18 @@ class ShortNameMustNotBeStar: Exception("short name must not be '*'")
 class UnsupportedNamespace: Exception("So far only the EIP155 namespace is supported")
 class ExplorersMustBeArray: Exception("explorers must be an array")
 class ExplorerMustHaveName: Exception("Explorer must have name")
-class ExplorerMustWithHttps: Exception("Explorer have url starting with https://")
+class ExplorerMustWithHttpsOrHttp: Exception("Explorer have url starting with https:// or http://")
 class ExplorerCannotEndInSlash: Exception("Explorer cannot have a slash on the end")
+class StringCannotBeBlank(which: String): Exception("$which cannot be blank")
+
+class StringCannotHaveExtraSpaces(which: String): Exception("$which cannot have leading or tailing spaces")
 class ExplorerStandardMustBeEIP3091OrNone: Exception("explorer standard must be 'none' or 'EIP3091'")
 class ParentHasInvalidType(type: String?): Exception("Parent has invalid type $type - only L2 or shard allowed")
 class RedFlagsMustBeArray: Exception("redFlags not an array")
+class FaucetsMustBeArray: Exception("faucets not an array")
 class RedFlagMustBeString: Exception("redFlag not an string")
+class FaucetMustBeString: Exception("faucet not an string")
+class FaucetCannotBeBlank: Exception("faucet cannot be blank")
 class InvalidRedFlags(flag: String): Exception("redFlags invalid $flag")
 class ParentMustBeObject: Exception("parent must be an object")
 class ParentMustHaveChainAndType: Exception("parent must have fields 'chain' and 'type'")
@@ -40,4 +49,8 @@ class NativeCurrencyCanOnlyHaveSymbolNameAndDecimals: Exception("Native currency
 class NativeCurrencyDecimalMustBeInt: Exception("Native currency decimals must be int")
 class NativeCurrencyNameMustBeString: Exception("Native currency name must be string")
 
-class UnreferencedIcon(fileName: String, iconsDownloadPath: File): Exception("Found file $fileName in $iconsDownloadPath that is not referenced")
+class ChainNameMustBeString: Exception("Name must be string")
+
+class IllegalName(type: String,name: String): Exception("Invalid $type: $name")
+
+class UnreferencedIcon(fileName: String, iconsDownloadPath: File): Exception("Found unreference $fileName in $iconsDownloadPath")

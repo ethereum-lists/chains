@@ -1,7 +1,12 @@
 {
   "name": "Avalanche Fuji Testnet",
   "chain": "AVAX",
-  "rpc": ["https://api.avax-test.network/ext/bc/C/rpc"],
+  "icon": "avax",
+  "rpc": [
+    "https://api.avax-test.network/ext/bc/C/rpc",
+    "https://avalanche-fuji-c-chain-rpc.publicnode.com",
+    "wss://avalanche-fuji-c-chain-rpc.publicnode.com"
+  ],
   "faucets": ["https://faucet.avax-test.network/"],
   "nativeCurrency": {
     "name": "Avalanche",
@@ -12,6 +17,7 @@
   "shortName": "Fuji",
   "chainId": 43113,
   "networkId": 1,
+  "slip44": 1,
   "explorers": [
     {
       "name": "snowtrace",

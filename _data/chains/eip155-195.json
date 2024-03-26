@@ -1,0 +1,25 @@
+{
+  "name": "X1 Testnet",
+  "chain": "X1",
+  "rpc": ["https://testrpc.x1.tech", "https://x1testrpc.okx.com"],
+  "faucets": ["https://www.okx.com/x1/faucet"],
+  "nativeCurrency": {
+    "name": "X1 Global Utility Token in testnet",
+    "symbol": "OKB",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://www.okx.com/x1",
+  "shortName": "tokb",
+  "chainId": 195,
+  "networkId": 195,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "OKLink",
+      "url": "https://www.oklink.com/x1-test",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}

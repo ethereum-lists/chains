@@ -1,0 +1,33 @@
+{
+  "name": "Beam",
+  "chain": "BEAM",
+  "rpc": [
+    "https://build.onbeam.com/rpc",
+    "wss://build.onbeam.com/ws",
+    "https://subnets.avax.network/beam/mainnet/rpc",
+    "wss://subnets.avax.network/beam/mainnet/ws"
+  ],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": ["https://faucet.onbeam.com"],
+  "nativeCurrency": {
+    "name": "Beam",
+    "symbol": "BEAM",
+    "decimals": 18
+  },
+  "infoURL": "https://www.onbeam.com",
+  "shortName": "beam",
+  "icon": "beam",
+  "chainId": 4337,
+  "networkId": 4337,
+  "explorers": [
+    {
+      "name": "Beam Explorer",
+      "url": "https://subnets.avax.network/beam",
+      "standard": "EIP3091"
+    }
+  ]
+}

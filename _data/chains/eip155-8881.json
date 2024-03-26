@@ -1,0 +1,29 @@
+{
+  "name": "Quartz by Unique",
+  "icon": "quartz",
+  "chain": "UNQ",
+  "rpc": [
+    "https://rpc-quartz.unique.network",
+    "https://quartz.api.onfinality.io/public-ws",
+    "https://eu-rpc-quartz.unique.network",
+    "https://asia-rpc-quartz.unique.network",
+    "https://us-rpc-quartz.unique.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Quartz",
+    "symbol": "QTZ",
+    "decimals": 18
+  },
+  "infoURL": "https://unique.network",
+  "shortName": "qtz",
+  "chainId": 8881,
+  "networkId": 8881,
+  "explorers": [
+    {
+      "name": "Unique Scan / Quartz",
+      "url": "https://uniquescan.io/quartz",
+      "standard": "none"
+    }
+  ]
+}

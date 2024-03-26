@@ -1,0 +1,141 @@
+name: Run PR Checks
+
+on:
+  pull_request:
+
+jobs:
+  validate_icons:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - uses: nrwl/nx-set-shas@v3
+      id: last_successful_commit_push
+      with:
+        main-branch-name: master
+        workflow-id: 'pr_checks.yml'
+
+    - name: Get changed icons
+      id: changed-icons
+      uses: tj-actions/changed-files@v41
+      with:
+        files: _data/icons/*.json
+        base_sha: ${{ steps.last_successful_commit_push.outputs.base }}
+    
+    - name: Get changed icon blobs
+      id: changed-icon-blobs
+      uses: tj-actions/changed-files@v41
+      with:
+        files: _data/iconsDownload/*
+        base_sha: ${{ steps.last_successful_commit_push.outputs.base }}
+
+    - run: sudo apt-get -y install jq curl exiftool
+
+    - name: Verify the changed icons
+      if: steps.changed-icons.outputs.any_changed == 'true'
+      run: |
+        set -euo pipefail
+
+        BAD=0
+
+        CHANGED_ICON_BLOBS=(${{ steps.changed-icon-blobs.outputs.all_changed_files }})
+
+        for CHANGED_FILE in ${{ steps.changed-icons.outputs.all_changed_files }}; do
+          echo "Checking icon $CHANGED_FILE"
+          URL=$(cat "$CHANGED_FILE" | jq '.[0].url' -r)
+          if [[ "$URL" =~ ^ipfs://([A-Za-z0-9]+)$ ]]; then
+            IPFS_HASH=${BASH_REMATCH[1]}
+
+            if [[ "${CHANGED_ICON_BLOBS[*]} " =~ "_data/iconsDownload/$IPFS_HASH " ]]; then
+              TARGET_FILE="_data/iconsDownload/$IPFS_HASH"
+            else
+              echo "Trying to download the image..."
+              TARGET_FILE=icon
+              curl -Lo icon "https://cloudflare-ipfs.com/ipfs/$IPFS_HASH" 2>/dev/null
+            fi
+
+            METADATA=$(exiftool $TARGET_FILE -json)
+            
+            SCHEMA_WIDTH=$(cat "$CHANGED_FILE" | jq '.[0].width' -r)
+            SCHEMA_HEIGHT=$(cat "$CHANGED_FILE" | jq '.[0].height' -r)
+            SCHEMA_TYPE=$(cat "$CHANGED_FILE" | jq '.[0].format' -r)
+            META_WIDTH=$(echo "$METADATA" | jq '.[0].ImageWidth' -r)
+            META_HEIGHT=$(echo "$METADATA" | jq '.[0].ImageHeight' -r)
+            META_TYPE=$(echo "$METADATA" | jq '.[0].FileTypeExtension' -r)
+
+            if [ "$SCHEMA_WIDTH" != "$META_WIDTH" ]; then
+              echo "Expected width $SCHEMA_WIDTH, got $META_WIDTH"
+              BAD=1
+            fi
+
+            if [ "$SCHEMA_HEIGHT" != "$META_HEIGHT" ]; then
+              echo "Expected height $SCHEMA_HEIGHT, got $META_HEIGHT"
+              BAD=1
+            fi
+
+            case "$SCHEMA_TYPE" in
+              png)
+                if [ "$META_TYPE" != "png" ]; then
+                  echo "Expected type png, got $META_TYPE"
+                  BAD=1
+                fi
+                ;;
+              jpg)
+                if [ "$META_TYPE" != "jpg" ]; then
+                  echo "Expected type jpg, got $META_TYPE"
+                  BAD=1
+                fi
+                ;;
+              svg)
+                if [ "$META_TYPE" != "svg" ]; then
+                  echo "Expected type svg, got $META_TYPE"
+                  BAD=1
+                fi
+                ;;
+              *)
+                echo "Expected type png, jpg, or svg, got $SCHEMA_TYPE"
+                BAD=1
+                ;;
+            esac
+          else
+            echo "Expected an IPFS URL, got $URL"
+            BAD=1
+          fi
+        done
+        exit $BAD
+
+  validate_formatting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - uses: nrwl/nx-set-shas@v3
+      id: last_successful_commit_push
+      with:
+        main-branch-name: master
+        workflow-id: 'pr_checks.yml'
+
+    - name: Get changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v41
+      with:
+        files: _data/*/*.json
+        base_sha: ${{ steps.last_successful_commit_push.outputs.base }}
+
+    - run: sudo npm i -g prettier
+
+    - name: Verify the changed icons
+      if: steps.changed-files.outputs.any_changed == 'true'
+      run: |
+        set -euo pipefail
+
+        BAD=0
+
+        for CHANGED_FILE in ${{ steps.changed-files.outputs.all_changed_files }}; do
+          echo "Checking $CHANGED_FILE"
+          diff -u "$CHANGED_FILE" <(prettier "$CHANGED_FILE")
+        done

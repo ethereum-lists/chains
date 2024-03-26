@@ -4,6 +4,7 @@
   "shortName": "ALFA",
   "chain": "CELO",
   "networkId": 44787,
+  "slip44": 1,
   "nativeCurrency": {
     "name": "CELO",
     "symbol": "CELO",
@@ -17,5 +18,12 @@
     "https://celo.org/developers/faucet",
     "https://cauldron.pretoriaresearchlab.io/alfajores-faucet"
   ],
-  "infoURL": "https://docs.celo.org/"
+  "infoURL": "https://docs.celo.org/",
+  "explorers": [
+    {
+      "name": "Alfajoresscan",
+      "url": "https://alfajores.celoscan.io",
+      "standard": "EIP3091"
+    }
+  ]
 }

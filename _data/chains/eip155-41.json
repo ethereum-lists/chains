@@ -1,7 +1,11 @@
 {
   "name": "Telos EVM Testnet",
   "chain": "TLOS",
-  "rpc": ["https://testnet.telos.net/evm"],
+  "rpc": [
+    "https://testnet.telos.net/evm",
+    "https://telos-testnet.drpc.org",
+    "wss://telos-testnet.drpc.org"
+  ],
   "faucets": ["https://app.telos.net/testnet/developers"],
   "nativeCurrency": {
     "name": "Telos",
@@ -11,5 +15,13 @@
   "infoURL": "https://telos.net",
   "shortName": "TelosEVMTestnet",
   "chainId": 41,
-  "networkId": 41
+  "networkId": 41,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "teloscan",
+      "url": "https://testnet.teloscan.io",
+      "standard": "EIP3091"
+    }
+  ]
 }

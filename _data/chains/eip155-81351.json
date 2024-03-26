@@ -1,0 +1,18 @@
+{
+  "name": "Flana Testnet",
+  "chain": "MEER",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Flana Testnet",
+    "symbol": "MEER-T",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/Qitmeer",
+  "shortName": "flanatest",
+  "icon": "meer",
+  "chainId": 81351,
+  "networkId": 81351,
+  "slip44": 1,
+  "status": "incubating"
+}
