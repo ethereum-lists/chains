@@ -2,10 +2,7 @@
   "name": "Defi Oracle Meta Mainnet",
   "chain": "dfiometa",
   "icon": "defioraclemeta",
-  "rpc": [
-    "https://rpc.defi-oracle.io",
-    "wss://wss.defi-oracle.io"
-  ],
+  "rpc": ["https://rpc.defi-oracle.io", "wss://wss.defi-oracle.io"],
   "features": [
     {
       "name": "EIP155"
