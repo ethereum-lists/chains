@@ -1750,9 +1750,9 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.public-0138.defi-oracle.io", "wss://rpc.public-0138.defi-oracle.io"],
+  "rpc": ["https://rpc.defi-oracle.io", "wss://wss.defi-oracle.io"],
   "faucets": [],
-  "infoURL": "https://defi-oracle.io/"
+  "infoURL": "https://info.defi-oracle.io/"
 }, {
   "name": "WoopChain Mainnet",
   "chainId": 139,
