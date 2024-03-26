@@ -1,0 +1,22 @@
+{
+  "name": "YMTECH-BESU Testnet",
+  "chain": "YMTECH-BESU",
+  "rpc": ["http://39.119.118.216:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.ymtech.co.kr",
+  "shortName": "YMTECH-BESU",
+  "chainId": 202401,
+  "networkId": 202401,
+  "explorers": [
+    {
+      "name": "YMTECH-BESU Chainlens",
+      "url": "http://39.119.118.198",
+      "standard": "none"
+    }
+  ]
+}
