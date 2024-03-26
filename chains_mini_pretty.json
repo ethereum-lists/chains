@@ -13805,6 +13805,19 @@
   "faucets": ["https://proteusfaucet.nautchain.xyz"],
   "infoURL": "https://docs.nautchain.xyz"
 }, {
+  "name": "Unit Zero Stagenet",
+  "chainId": 88819,
+  "shortName": "unit0-stagenet",
+  "networkId": 88819,
+  "nativeCurrency": {
+    "name": "UNIT0",
+    "symbol": "UNIT0",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-stagenet.unit0.dev"],
+  "faucets": [],
+  "infoURL": "https://units.network"
+}, {
   "name": "Chiliz Scoville Testnet",
   "chainId": 88880,
   "shortName": "chz",

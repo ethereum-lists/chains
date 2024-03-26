@@ -22143,6 +22143,30 @@
     "icon": "nautilus"
   }]
 }, {
+  "name": "Unit Zero Stagenet",
+  "chain": "Unit Zero",
+  "rpc": ["https://rpc-stagenet.unit0.dev"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "UNIT0",
+    "symbol": "UNIT0",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://units.network",
+  "shortName": "unit0-stagenet",
+  "chainId": 88819,
+  "networkId": 88819,
+  "explorers": [{
+    "name": "explorer-stagenet",
+    "url": "https://explorer-stagenet.unit0.dev",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Chiliz Scoville Testnet",
   "chain": "CHZ",
   "rpc": ["https://scoville-rpc.chiliz.com"],
