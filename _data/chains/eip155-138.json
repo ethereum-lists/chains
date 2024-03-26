@@ -3,8 +3,8 @@
   "chain": "dfiometa",
   "icon": "defioraclemeta",
   "rpc": [
-    "https://rpc.public-0138.defi-oracle.io",
-    "wss://rpc.public-0138.defi-oracle.io"
+    "https://rpc.defi-oracle.io",
+    "wss://wss.defi-oracle.io"
   ],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
@@ -13,7 +13,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "https://defi-oracle.io/",
+  "infoURL": "https://info.defi-oracle.io/",
   "shortName": "dfio-meta-main",
   "chainId": 138,
   "networkId": 1,
@@ -23,8 +23,13 @@
   },
   "explorers": [
     {
+      "name": "Blockscout Explorer",
+      "url": "https://blockscout.defi-oracle.io",
+      "standard": "none"
+    },
+    {
       "name": "Quorum Explorer",
-      "url": "https://public-0138.defi-oracle.io",
+      "url": "https://explorer.defi-oracle.io",
       "standard": "none"
     }
   ]
