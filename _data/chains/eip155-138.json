@@ -6,7 +6,14 @@
     "https://rpc.defi-oracle.io",
     "wss://wss.defi-oracle.io"
   ],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
