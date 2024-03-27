@@ -1,0 +1,27 @@
+{
+  "name": "Berra Network Testnet",
+  "chain": "BERRA",
+  "rpc": [
+    "https://rpcnode.berranetwork.org"
+  ],
+  "faucets": [
+    "https://faucet.berranetwork.org"
+  ],
+  "nativeCurrency": {
+    "name": "BERRA",
+    "symbol": "BERRA",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://berranetwork.org",
+  "shortName": "BERRA",
+  "chainId": 10827, 
+  "networkId": 10827, 
+  "icon": "bera-network-icon",
+  "explorers": [{
+    "name": "Berra Explorer",
+    "url": "https://explorer.berranetwork.org",
+    "icon": "bera-explorer",
+    "standard": "EIP3091"
+  }]
+}
