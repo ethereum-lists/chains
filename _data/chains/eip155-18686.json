@@ -1,11 +1,11 @@
 {
-  "name": "MXC zkEVM Mainnet",
+  "name": "MXC zkEVM Moonchain",
   "chain": "MXC zkEVM",
   "icon": "mxczkevm",
   "rpc": ["https://rpc.mxc.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "MXC zkEVM Mainnet",
+    "name": "MXC zkEVM Moonchain",
     "symbol": "MXC",
     "decimals": 18
   },
@@ -15,8 +15,8 @@
   "networkId": 18686,
   "explorers": [
     {
-      "name": "MXC zkEVM Mainnet",
-      "url": "https://explorer.mxc.com",
+      "name": "MXC zkEVM Moonchain",
+      "url": "https://explorer.moonchain.com",
       "standard": "EIP3091"
     }
   ]
