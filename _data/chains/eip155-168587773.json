@@ -1,7 +1,11 @@
 {
   "name": "Blast Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia.blast.io"],
+  "rpc": [
+    "https://sepolia.blast.io",
+    "https://blast-sepolia.drpc.org",
+    "wss://blast-sepolia.drpc.org"
+  ],
   "faucets": ["https://faucet.quicknode.com/blast/sepolia"],
   "nativeCurrency": {
     "name": "Sepolia Ether",
