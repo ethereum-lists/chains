@@ -2,7 +2,10 @@
   "name": "Plume Testnet",
   "title": "Plume Sepolia Rollup Testnet",
   "chain": "ETH",
-  "rpc": ["https://testnet-rpc.plumenetwork.xyz/http"],
+  "rpc": [
+    "https://testnet-rpc.plumenetwork.xyz/http",
+    "wss://testnet-rpc.plumenetwork.xyz/ws",
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Plume Sepolia Ether",
