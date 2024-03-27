@@ -12544,6 +12544,19 @@
   "faucets": ["http://athfaucet.ava.network//?address=${ADDRESS}"],
   "infoURL": "https://athereum.ava.network"
 }, {
+  "name": "Hemi Network",
+  "chainId": 43111,
+  "shortName": "hemi",
+  "networkId": 43111,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://hemi.xyz"
+}, {
   "name": "Avalanche Fuji Testnet",
   "chainId": 43113,
   "shortName": "Fuji",
@@ -15559,6 +15572,19 @@
   "rpc": ["https://evm-rpc-arctic-1.sei-apis.com", "https://evm-rpc.arctic-1.seinetwork.io"],
   "faucets": ["https://sei-faucet.nima.enterprises", "https://sei-evm.faucetme.pro"],
   "infoURL": "https://www.sei.io"
+}, {
+  "name": "Hemi Sepolia",
+  "chainId": 743111,
+  "shortName": "hemi-sep",
+  "networkId": 743111,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.rpc.hemi.network/rpc"],
+  "faucets": [],
+  "infoURL": "https://hemi.xyz"
 }, {
   "name": "Bear Network Chain Testnet",
   "chainId": 751230,
