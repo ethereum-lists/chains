@@ -8956,6 +8956,19 @@
   "faucets": ["https://testnet.bnbchain.org/faucet-smart"],
   "infoURL": "https://opbnb.bnbchain.org/en"
 }, {
+  "name": "Arcturus Testneet",
+  "chainId": 5615,
+  "shortName": "arcturus-testnet",
+  "networkId": 5615,
+  "nativeCurrency": {
+    "name": "tARC",
+    "symbol": "tARC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.arcturuschain.io/"],
+  "faucets": ["https://faucet.arcturuschain.io"],
+  "infoURL": "https://arcturuschain.io"
+}, {
   "name": "Arcturus Chain Testnet",
   "chainId": 5616,
   "shortName": "ARCT",
