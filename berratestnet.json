@@ -1,0 +1,31 @@
+{
+  "name": "Berra Network Testnet",
+  "chain": "BERRA",
+  "rpc": [
+    "https://rpcnode.berranetwork.org/",
+    "https://rpcnode.berranetwork.org/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Berra Coin",
+    "symbol": "BERRA",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://berranetwork.org",
+  "shortName": "BERRA",
+  "chainId": 10827
+  "networkId": 10827
+  "icon": "berranetwork",
+  "explorers": [{
+    "name": "Berra Network Explorer",
+    "url": "https://explorer.berranetwork.org",
+    "icon": "berranetwork",
+    "standard": "Custom"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "1"
+    "bridges": [{"url":"https://bridge.berranetwork.org"}] 
+  }
+}
