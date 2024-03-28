@@ -152,4 +152,5 @@ BUILD SUCCESSFUL in 7s
  * [Sourcify playground](https://playground.sourcify.dev)
  * [Smart Contract UI](https://xtools-at.github.io/smartcontract-ui)
 
- * Your project - contact us to add it here!
+### other 
+* [scrollnameservice](https://app.scrollns.com/)
