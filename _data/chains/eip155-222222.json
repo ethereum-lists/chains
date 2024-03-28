@@ -1,0 +1,23 @@
+{
+  "name": "HydraDX",
+  "chain": "HDX",
+  "rpc": ["https://rpc.hydradx.cloud", "wss://rpc.hydradx.cloud"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Wrapped ETH",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  "infoURL": "https://hydradx.io",
+  "shortName": "hdx",
+  "chainId": 222222,
+  "networkId": 222222,
+  "icon": "hydradx",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.evm.hydration.cloud",
+      "standard": "EIP3091"
+    }
+  ]
+}
