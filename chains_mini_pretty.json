@@ -4419,6 +4419,19 @@
   "faucets": [],
   "infoURL": "https://decentrabone.com"
 }, {
+  "name": "TAPROOT Mainnet",
+  "chainId": 911,
+  "shortName": "TAPROOT-Mainnet",
+  "networkId": 911,
+  "nativeCurrency": {
+    "name": "TBTC",
+    "symbol": "TBTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.taprootchain.io"],
+  "faucets": [],
+  "infoURL": "https://taprootchain.io"
+}, {
   "name": "Rinia Testnet",
   "chainId": 917,
   "shortName": "tfire",
