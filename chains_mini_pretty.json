@@ -3093,6 +3093,19 @@
   "faucets": ["https://pipa.lisinski.online"],
   "infoURL": "https://lisinski.online"
 }, {
+  "name": "CamDL Testnet",
+  "chainId": 395,
+  "shortName": "camdl-testnet",
+  "networkId": 395,
+  "nativeCurrency": {
+    "name": "CADL",
+    "symbol": "CADL",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1.testnet.camdl.gov.kh/"],
+  "faucets": ["https://faucet.testnet.camdl.gov.kh/"],
+  "infoURL": "https://camdl.gov.kh/"
+}, {
   "name": "Nativ3 Mainnet",
   "chainId": 399,
   "shortName": "N3",
