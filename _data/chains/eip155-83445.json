@@ -1,0 +1,28 @@
+{
+    "name": "Xvitesse Mainnet",
+    "chain": "XSC",
+    "rpc": [
+      "https://mainnet-rpc.xvitesse.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "XVI",
+      "symbol": "XVI",
+      "decimals": 18
+    },
+    "infoURL": "https://xvitesse.com/",
+    "shortName": "xvi",
+    "chainId": 100003,
+    "networkId": 100003,
+    "parent": {
+      "chain": "eip155-100000",
+      "type": "shard"
+    },
+    "explorers": [
+      {
+        "name": "xvitesse-mainnet",
+        "url": "https://xvitesse.com/",
+        "standard": "EIP3091"
+      }
+    ]
+  }
