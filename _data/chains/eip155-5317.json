@@ -1,0 +1,29 @@
+{
+  "name": "BI2 Testnet",
+  "chain": "BI2",
+  "rpc": ["https://rpctest.bi2.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TestBSC",
+    "symbol": "tBNB",
+    "decimals": 18
+  },
+  "infoURL": "https://bi2.io",
+  "shortName": "tbi2",
+  "chainId": 5317,
+  "networkId": 5317,
+  "icon": "bi2",
+  "explorers": [
+    {
+      "name": "BI2 Testnet explorer",
+      "url": "https://scantest.bi2.io",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.bi2.io/test" }]
+  }
+}
