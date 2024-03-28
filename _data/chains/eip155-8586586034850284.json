@@ -1,7 +1,9 @@
 {
   "name": "Otto Chain Testnet",
   "chain": "NEAR",
-  "rpc": ["https://gateway.testnet.octopus.network/eth/otto9117/f6vvghv5swpiu92v"],
+  "rpc": [
+    "https://gateway.testnet.octopus.network/eth/otto9117/f6vvghv5swpiu92v"
+  ],
   "faucets": ["http://34.69.4.240:8088/"],
   "nativeCurrency": {
     "name": "Otto",
@@ -13,4 +15,3 @@
   "chainId": 8586586034850284,
   "networkId": 8586586034850284
 }
-
