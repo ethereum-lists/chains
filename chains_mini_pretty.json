@@ -8917,6 +8917,19 @@
   "faucets": ["https://faucet.tritanium.network"],
   "infoURL": "https://tritanium.network"
 }, {
+  "name": "Egochain",
+  "chainId": 5439,
+  "shortName": "egax",
+  "networkId": 5439,
+  "nativeCurrency": {
+    "name": "EGAX",
+    "symbol": "EGAX",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.egochain.org"],
+  "faucets": [],
+  "infoURL": "https://docs.egochain.org/"
+}, {
   "name": "VEX EVM TESTNET",
   "chainId": 5522,
   "shortName": "VEX",
