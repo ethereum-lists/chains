@@ -18512,7 +18512,7 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "unreal",
+  "name": "unreal-old",
   "title": "unreal testnet for re.al",
   "chain": "unreal",
   "rpc": ["https://rpc.unreal.gelato.digital", "wss://ws.unreal.gelato.digital"],
@@ -18523,7 +18523,7 @@
   },
   "infoURL": "https://raas.gelato.network/rollups/details/public/unreal",
   "faucets": [],
-  "shortName": "unreal",
+  "shortName": "unreal-old",
   "chainId": 18231,
   "networkId": 18231,
   "slip44": 60,
@@ -18537,8 +18537,37 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
+    "bridges": []
+  },
+  "status": "deprecated"
+}, {
+  "name": "unreal",
+  "title": "unreal testnet for re.al",
+  "chain": "unreal",
+  "rpc": ["https://rpc.unreal-orbit.gelato.digital", "wss://ws.unreal-orbit.gelato.digital"],
+  "nativeCurrency": {
+    "name": "unreal Ether",
+    "symbol": "reETH",
+    "decimals": 18
+  },
+  "infoURL": "https://raas.gelato.network/rollups/details/public/unreal",
+  "faucets": [],
+  "shortName": "unreal",
+  "chainId": 18233,
+  "networkId": 18233,
+  "slip44": 60,
+  "icon": "unreal",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://unreal.blockscout.com",
+    "icon": "unreal",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-17000",
     "bridges": [{
-      "url": "https://bridge.unreal.gelato.digital"
+      "url": "https://bridge.gelato.network/bridge/unreal"
     }]
   }
 }, {
@@ -23129,6 +23158,39 @@
     "icon": "siberium",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "re.al",
+  "title": "re.al Real-World Assets network",
+  "chain": "re.al",
+  "rpc": ["https://real.drpc.org", "wss://real.drpc.org"],
+  "nativeCurrency": {
+    "name": "re.al Ether",
+    "symbol": "reETH",
+    "decimals": 18
+  },
+  "infoURL": "https://re.al",
+  "faucets": [],
+  "shortName": "re-al",
+  "chainId": 111188,
+  "networkId": 111188,
+  "slip44": 60,
+  "icon": "real",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.re.al",
+    "icon": "real",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://re.al/bridge"
+    }, {
+      "url": "https://bridge.gelato.network/bridge/real"
+    }]
+  },
+  "status": "incubating"
 }, {
   "name": "Metachain One Mainnet",
   "chain": "METAO",
