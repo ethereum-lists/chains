@@ -1,5 +1,5 @@
 {
-  "name": "Linea Testnet",
+  "name": "Linea Goerli",
   "title": "Linea Goerli Testnet",
   "chain": "ETH",
   "rpc": [
@@ -15,7 +15,7 @@
     "decimals": 18
   },
   "infoURL": "https://linea.build",
-  "shortName": "linea-testnet",
+  "shortName": "linea-goerli",
   "chainId": 59140,
   "networkId": 59140,
   "slip44": 1,
