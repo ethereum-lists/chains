@@ -1,0 +1,17 @@
+{
+  "name": "Otto Chain Testnet",
+  "chain": "NEAR",
+  "rpc": [
+    "https://gateway.testnet.octopus.network/eth/otto9117/f6vvghv5swpiu92v"
+  ],
+  "faucets": ["http://34.69.4.240:8088/"],
+  "nativeCurrency": {
+    "name": "Otto",
+    "symbol": "OTTO",
+    "decimals": 18
+  },
+  "infoURL": "https://ottochains-organization.gitbook.io/ottochain-documentation/~/changes/5TJlG0OFr1yZPiP2seBR/ottochain-technical-details/testnet-technical-details",
+  "shortName": "ottochain-testnet",
+  "chainId": 8586586034850284,
+  "networkId": 8586586034850284
+}
