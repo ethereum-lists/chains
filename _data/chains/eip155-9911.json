@@ -1,0 +1,24 @@
+{
+  "name": "Espento Mainnet",
+  "chain": "SPENT",
+  "rpc": ["https://rpc.escscan.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ESPENTO",
+    "symbol": "SPENT",
+    "decimals": 18
+  },
+  "infoURL": "https://espento.network",
+  "shortName": "spent",
+  "chainId": 9911,
+  "networkId": 9911,
+  "icon": "espento",
+  "explorers": [
+    {
+      "name": "escscan",
+      "url": "https://escscan.com",
+      "icon": "espento",
+      "standard": "EIP3091"
+    }
+  ]
+}
