@@ -1,0 +1,29 @@
+{
+  "name": "BI2 Mainnet",
+  "chain": "BI2",
+  "rpc": ["https://rpc.bi2.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BSC",
+    "symbol": "BNB",
+    "decimals": 18
+  },
+  "infoURL": "https://bi2.io",
+  "shortName": "bi2",
+  "chainId": 537,
+  "networkId": 537,
+  "icon": "bi2",
+  "explorers": [
+    {
+      "name": "BI2 explorer",
+      "url": "https://scan.bi2.io",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.bi2.io" }]
+  }
+}
