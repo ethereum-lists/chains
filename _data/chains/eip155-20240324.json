@@ -1,7 +1,7 @@
 {
   "name": "DeBank Sepolia Testnet",
   "chain": "DeBank",
-  "rpc": ["https://sepolia.rpc.debank.com"],
+  "rpc": ["https://sepolia-rpc.testnet.debank.com"],
   "faucets": [],
   "icon": "debank",
   "nativeCurrency": {
@@ -17,7 +17,7 @@
   "explorers": [
     {
       "name": "DeBank Chain Explorer",
-      "url": "https://sepolia.explorer.debank.com",
+      "url": "https://sepolia-explorer.testnet.debank.com",
       "standard": "EIP3091"
     }
   ]
