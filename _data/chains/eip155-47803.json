@@ -1,0 +1,24 @@
+{
+  "name": "ReDeFi Mainnet",
+  "chain": "ReDeFi",
+  "icon": "redefi",
+  "rpc": ["https://main.redefi.world/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BAX",
+    "symbol": "BAX",
+    "decimals": 18
+  },
+  "infoURL": "https://redefi.world",
+  "shortName": "red",
+  "chainId": 47803,
+  "networkId": 47803,
+  "slip44": 47803,
+  "explorers": [
+    {
+      "name": "ReDeFi Scan",
+      "url": "https://scan.redefi.world",
+      "standard": "EIP3091"
+    }
+  ]
+}
