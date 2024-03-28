@@ -1,0 +1,29 @@
+{
+  "name": "Polygon zkEVM Cardona Testnet",
+  "title": "Polygon zkEVM Cardona Testnet",
+  "chain": "Polygon",
+  "rpc": ["https://rpc.cardona.zkevm-rpc.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://polygon.technology/polygon-zkevm",
+  "shortName": "zkevm-testnet-cardona",
+  "chainId": 2442,
+  "networkId": 2442,
+  "icon": "zkevm",
+  "explorers": [
+    {
+      "name": "polygonscan",
+      "url": "https://cardona-zkevm.polygonscan.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge-ui.cardona.zkevm-rpc.com" }]
+  }
+}

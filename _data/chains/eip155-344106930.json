@@ -1,6 +1,7 @@
 {
-  "name": "SKALE Calypso Hub Testnet",
-  "title": "Calypso NFT Hub Testnet",
+  "name": "Deprecated SKALE Calypso Hub Testnet",
+  "title": "Deprecated Calypso NFT Hub Testnet",
+  "status": "deprecated",
   "chain": "staging-utter-unripe-menkar",
   "icon": "calypso",
   "rpc": ["https://staging-v3.skalenodes.com/v1/staging-utter-unripe-menkar"],
@@ -11,7 +12,7 @@
     "decimals": 18
   },
   "infoURL": "https://calypsohub.network/",
-  "shortName": "calypso-testnet",
+  "shortName": "deprected-calypso-testnet",
   "chainId": 344106930,
   "networkId": 344106930,
   "slip44": 1,

@@ -1,0 +1,29 @@
+{
+  "name": "Orenium Mainnet Protocol",
+  "chain": "ORE",
+  "rpc": [
+    "https://validator-mainnet.orenium.org",
+    "https://rpc-oracle-mainnet.orenium.org",
+    "https://portalmainnet.orenium.org"
+  ],
+  "nativeCurrency": {
+    "name": "ORENIUM",
+    "symbol": "ORE",
+    "decimals": 18
+  },
+  "infoURL": "https://orenium.org",
+  "shortName": "ore",
+  "chainId": 7778,
+  "networkId": 7778,
+  "slip44": 1,
+  "icon": "ore",
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "ORE Mainnet Explorer",
+      "icon": "ore",
+      "url": "https://oreniumscan.org",
+      "standard": "none"
+    }
+  ]
+}
