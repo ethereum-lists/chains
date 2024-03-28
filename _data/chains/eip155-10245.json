@@ -1,0 +1,33 @@
+{
+  "name": "Capx zkEVM",
+  "title": "Capx zkEVM",
+  "chain": "Capx",
+  "rpc": [
+    "https://rpc.capx.fi",
+    "wss://rpc.capx.fi"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://capx.fi",
+  "shortName": "capx",
+  "chainId": 10245,
+  "networkId": 10245,
+  "icon": "capx",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://www.capxscan.com",
+      "icon": "capx",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.capx.fi" }]
+  }
+}
