@@ -16496,6 +16496,19 @@
   "faucets": [],
   "infoURL": "https://pego.network"
 }, {
+  "name": "DeBank Sepolia Testnet",
+  "chainId": 20240324,
+  "shortName": "dbkse",
+  "networkId": 20240324,
+  "nativeCurrency": {
+    "name": "DeBank USD",
+    "symbol": "USD",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia-rpc.testnet.debank.com"],
+  "faucets": [],
+  "infoURL": "https://debank.com"
+}, {
   "name": "Hokum Testnet",
   "chainId": 20482050,
   "shortName": "hokum-testnet",
