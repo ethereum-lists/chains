@@ -21,7 +21,7 @@
   "explorers": [
     {
       "name": "Blockscout",
-      "url": "https://testnet-explorer.plumenetwork.xyz/",
+      "url": "https://testnet-explorer.plumenetwork.xyz",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
@@ -29,6 +29,6 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://testnet-bridge.plumenetwork.xyz/" }]
+    "bridges": [{ "url": "https://testnet-bridge.plumenetwork.xyz" }]
   }
 }
