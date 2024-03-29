@@ -10620,6 +10620,19 @@
   "faucets": [],
   "infoURL": "https://larissa.network"
 }, {
+  "name": "Espento Mainnet",
+  "chainId": 9911,
+  "shortName": "spent",
+  "networkId": 9911,
+  "nativeCurrency": {
+    "name": "ESPENTO",
+    "symbol": "SPENT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.escscan.com/"],
+  "faucets": [],
+  "infoURL": "https://espento.network"
+}, {
   "name": "Mind Smart Chain Testnet",
   "chainId": 9977,
   "shortName": "tMIND",
