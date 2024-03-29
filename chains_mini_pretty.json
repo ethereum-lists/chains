@@ -8813,6 +8813,19 @@
   "faucets": [],
   "infoURL": "https://www.superloyal.com/"
 }, {
+  "name": "Azra Testnet",
+  "chainId": 5106,
+  "shortName": "azra-testnet",
+  "networkId": 5106,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-azra-testnet-6hz86owb1n.t.conduit.xyz"],
+  "faucets": [],
+  "infoURL": "https://azragames.com"
+}, {
   "name": "Bahamut",
   "chainId": 5165,
   "shortName": "ftn",
