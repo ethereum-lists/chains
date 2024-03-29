@@ -13441,6 +13441,19 @@
   "faucets": [],
   "infoURL": "https://www.nervos.org"
 }, {
+  "name": "CAGA crypto Ankara testnet",
+  "chainId": 72778,
+  "shortName": "caga",
+  "networkId": 72778,
+  "nativeCurrency": {
+    "name": "Caga",
+    "symbol": "CAGA",
+    "decimals": 18
+  },
+  "rpc": ["https://www.ankara-cagacrypto.com", "wss://wss.ankara-cagacrypto.com"],
+  "faucets": [],
+  "infoURL": "https://www.cagacrypto.com/"
+}, {
   "name": "Grok Chain Mainnet",
   "chainId": 72992,
   "shortName": "GrokChain",
