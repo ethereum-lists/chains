@@ -9671,6 +9671,19 @@
   "faucets": [],
   "infoURL": "https://orenium.org"
 }, {
+  "name": "OpenEX LONG Testnet",
+  "chainId": 7798,
+  "shortName": "oex",
+  "networkId": 7798,
+  "nativeCurrency": {
+    "name": "USDT Testnet",
+    "symbol": "USDT",
+    "decimals": 18
+  },
+  "rpc": ["https://long.rpc.openex.network/"],
+  "faucets": ["https://long.hub.openex.network/faucet"],
+  "infoURL": "https://openex.network"
+}, {
   "name": "MaalChain Testnet",
   "chainId": 7860,
   "shortName": "maal-test",
