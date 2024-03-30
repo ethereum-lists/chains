@@ -9125,6 +9125,19 @@
   "faucets": [],
   "infoURL": "https://www.wegochain.io"
 }, {
+  "name": "BounceBit Testnet",
+  "chainId": 6000,
+  "shortName": "bouncebit-testnet",
+  "networkId": 6000,
+  "nativeCurrency": {
+    "name": "BounceBit",
+    "symbol": "BB",
+    "decimals": 18
+  },
+  "rpc": ["https://fullnode-testnet.bouncebitapi.com/"],
+  "faucets": [],
+  "infoURL": "https://bouncebit.io"
+}, {
   "name": "Tres Testnet",
   "chainId": 6065,
   "shortName": "TRESTEST",
