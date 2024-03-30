@@ -4,7 +4,10 @@
   "icon": "coston",
   "rpc": [
     "https://coston-api.flare.network/ext/C/rpc",
-    "https://flare-testnet-coston.rpc.thirdweb.com",
+    "https://songbird-testnet-coston.rpc.thirdweb.com",
+    "https://01-gravelines-004-01.rpc.tatum.io/ext/bc/C/rpc",
+    "https://02-chicago-004-02.rpc.tatum.io/ext/bc/C/rpc",
+    "https://02-tokyo-004-03.rpc.tatum.io/ext/bc/C/rpc",
     "https://coston.enosys.global/ext/C/rpc"
   ],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
