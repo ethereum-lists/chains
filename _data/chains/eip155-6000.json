@@ -1,0 +1,22 @@
+{
+  "name": "BounceBit Testnet",
+  "chain": "BounceBit",
+  "rpc": ["https://fullnode-testnet.bouncebitapi.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BounceBit",
+    "symbol": "BB",
+    "decimals": 18
+  },
+  "infoURL": "https://bouncebit.io",
+  "shortName": "bouncebit-testnet",
+  "chainId": 6000,
+  "networkId": 6000,
+  "explorers": [
+    {
+      "name": "BBScan Testnet Explorer",
+      "url": "https://bbscan.io",
+      "standard": "none"
+    }
+  ]
+}
