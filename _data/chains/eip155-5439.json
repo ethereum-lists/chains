@@ -1,0 +1,22 @@
+{
+  "name": "Egochain",
+  "chainId": 5439,
+  "shortName": "egax",
+  "chain": "EGAX",
+  "networkId": 5439,
+  "nativeCurrency": {
+    "name": "EGAX",
+    "symbol": "EGAX",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.egochain.org"],
+  "faucets": [],
+  "infoURL": "https://docs.egochain.org/",
+  "explorers": [
+    {
+      "name": "egoscan",
+      "url": "https://egoscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
