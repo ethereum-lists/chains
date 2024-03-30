@@ -13415,6 +13415,19 @@
   "faucets": [],
   "infoURL": "https://thinkium.net/"
 }, {
+  "name": "Proof of Play - Apex",
+  "chainId": 70700,
+  "shortName": "pop-apex",
+  "networkId": 70700,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.apex.proofofplay.com"],
+  "faucets": [],
+  "infoURL": "https://proofofplay.com"
+}, {
   "name": "GuapcoinX",
   "chainId": 71111,
   "shortName": "GuapX",
