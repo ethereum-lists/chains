@@ -15131,6 +15131,19 @@
   "faucets": [],
   "infoURL": "https://digitalnext.business/SocialSmartChain"
 }, {
+  "name": "Zillion Sepolia Testnet",
+  "chainId": 282828,
+  "shortName": "zillsep",
+  "networkId": 282828,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia.zillnet.io/rpc"],
+  "faucets": [],
+  "infoURL": "https://zillnet.io"
+}, {
   "name": "Filecoin - Calibration testnet",
   "chainId": 314159,
   "shortName": "filecoin-calibration",
