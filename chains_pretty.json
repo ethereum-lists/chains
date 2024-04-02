@@ -17605,6 +17605,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Shine Chain",
+  "chain": "SC20",
+  "rpc": ["https://rpc.shinescan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Shine",
+    "symbol": "SC20",
+    "decimals": 18
+  },
+  "infoURL": "https://shinechain.tech",
+  "shortName": "SC20",
+  "chainId": 11221,
+  "networkId": 11221,
+  "icon": "shine",
+  "explorers": [{
+    "name": "shinescan",
+    "url": "https://shinescan.io",
+    "icon": "shine",
+    "standard": "none"
+  }]
+}, {
   "name": "Haqq Network",
   "chain": "Haqq",
   "rpc": ["https://rpc.eth.haqq.network", "https://haqq-evm-rpc.publicnode.com", "wss://haqq-evm-rpc.publicnode.com", "https://haqq.drpc.org", "wss://haqq.drpc.org"],

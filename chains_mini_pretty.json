@@ -11023,6 +11023,19 @@
   "faucets": [],
   "infoURL": "https://hashbit.org"
 }, {
+  "name": "Shine Chain",
+  "chainId": 11221,
+  "shortName": "SC20",
+  "networkId": 11221,
+  "nativeCurrency": {
+    "name": "Shine",
+    "symbol": "SC20",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.shinescan.io"],
+  "faucets": [],
+  "infoURL": "https://shinechain.tech"
+}, {
   "name": "Haqq Network",
   "chainId": 11235,
   "shortName": "ISLM",
