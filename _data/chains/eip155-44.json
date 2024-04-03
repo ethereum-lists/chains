@@ -3,8 +3,7 @@
   "chain": "crab",
   "rpc": [
     "https://crab-rpc.darwinia.network",
-    "https://crab-rpc.darwiniacommunitydao.xyz",
-    "https://darwiniacrab-rpc.dwellir.com"
+    "https://crab-rpc.darwiniacommunitydao.xyz"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,7 +19,7 @@
     {
       "name": "subscan",
       "url": "https://crab.subscan.io",
-      "standard": "none"
+      "standard": "EIP3091"
     }
   ]
 }
