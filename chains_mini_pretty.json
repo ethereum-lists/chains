@@ -14104,6 +14104,19 @@
   "faucets": ["https://proteusfaucet.nautchain.xyz"],
   "infoURL": "https://docs.nautchain.xyz"
 }, {
+  "name": "Unit Zero Testnet",
+  "chainId": 88817,
+  "shortName": "unit0-testnet",
+  "networkId": 88817,
+  "nativeCurrency": {
+    "name": "UNIT0",
+    "symbol": "UNIT0",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.unit0.dev"],
+  "faucets": [],
+  "infoURL": "https://units.network"
+}, {
   "name": "Unit Zero Stagenet",
   "chainId": 88819,
   "shortName": "unit0-stagenet",
