@@ -13623,6 +13623,19 @@
   "faucets": [],
   "infoURL": "https://resincoin.dev"
 }, {
+  "name": "BORAchain mainnet",
+  "chainId": 77001,
+  "shortName": "BORAchain",
+  "networkId": 77001,
+  "nativeCurrency": {
+    "name": "BGAS",
+    "symbol": "BGAS",
+    "decimals": 18
+  },
+  "rpc": ["https://public-node.api.boraportal.io/bora/mainnet"],
+  "faucets": [],
+  "infoURL": "https://www.boraportal.com"
+}, {
   "name": "Foundry Chain Testnet",
   "chainId": 77238,
   "shortName": "fnc",
