@@ -1936,6 +1936,32 @@
   "faucets": ["https://beta.shibariumtech.com/faucet"],
   "infoURL": "https://shibariumecosystem.com"
 }, {
+  "name": "Roburna Mainnet",
+  "chainId": 158,
+  "shortName": "rba",
+  "networkId": 158,
+  "nativeCurrency": {
+    "name": "Roburna",
+    "symbol": "RBA",
+    "decimals": 18
+  },
+  "rpc": ["https://dataseed.roburna.com"],
+  "faucets": [],
+  "infoURL": "https://www.roburna.com/"
+}, {
+  "name": "Roburna Testnet",
+  "chainId": 159,
+  "shortName": "rbat",
+  "networkId": 159,
+  "nativeCurrency": {
+    "name": "Roburna",
+    "symbol": "RBAT",
+    "decimals": 18
+  },
+  "rpc": ["https://preseed-testnet-1.roburna.com"],
+  "faucets": [],
+  "infoURL": "https://www.roburna.com/"
+}, {
   "name": "Armonia Eva Chain Mainnet",
   "chainId": 160,
   "shortName": "eva",

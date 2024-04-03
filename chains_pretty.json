@@ -3073,6 +3073,56 @@
     "standard": "none"
   }]
 }, {
+  "name": "Roburna Mainnet",
+  "chain": "RBA",
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "rpc": ["https://dataseed.roburna.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Roburna",
+    "symbol": "RBA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.roburna.com/",
+  "shortName": "rba",
+  "chainId": 158,
+  "networkId": 158,
+  "icon": "roburna",
+  "explorers": [{
+    "name": "Rbascan Explorer",
+    "url": "https://rbascan.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Roburna Testnet",
+  "chain": "RBAT",
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "rpc": ["https://preseed-testnet-1.roburna.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Roburna",
+    "symbol": "RBAT",
+    "decimals": 18
+  },
+  "infoURL": "https://www.roburna.com/",
+  "shortName": "rbat",
+  "chainId": 159,
+  "networkId": 159,
+  "icon": "roburna",
+  "explorers": [{
+    "name": "Rbascan Testnet Explorer",
+    "url": "https://testnet.rbascan.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Armonia Eva Chain Mainnet",
   "chain": "Eva",
   "rpc": ["https://evascan.io/api/eth-rpc/"],
