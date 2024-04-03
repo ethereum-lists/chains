@@ -11764,12 +11764,12 @@
   "faucets": [],
   "infoURL": "https://raas.gelato.network/rollups/details/public/unreal"
 }, {
-  "name": "MXC zkEVM Mainnet",
+  "name": "MXC zkEVM Moonchain",
   "chainId": 18686,
   "shortName": "MXCzkEVM",
   "networkId": 18686,
   "nativeCurrency": {
-    "name": "MXC zkEVM Mainnet",
+    "name": "MXC zkEVM Moonchain",
     "symbol": "MXC",
     "decimals": 18
   },
@@ -16394,7 +16394,7 @@
 }, {
   "name": "MXC Wannsee zkEVM Testnet",
   "chainId": 5167003,
-  "shortName": "MXC",
+  "shortName": "MXCdiscontinued",
   "networkId": 5167003,
   "nativeCurrency": {
     "name": "MXC Wannsee zkEVM Testnet",
@@ -16404,6 +16404,19 @@
   "rpc": ["https://wannsee-rpc.mxc.com"],
   "faucets": [],
   "infoURL": "https://wannsee.mxc.com/docs/intro"
+}, {
+  "name": "Moonchain Geneva Testnet",
+  "chainId": 5167004,
+  "shortName": "MXC",
+  "networkId": 5167004,
+  "nativeCurrency": {
+    "name": "Moonchain Geneva Testnet",
+    "symbol": "MXC",
+    "decimals": 18
+  },
+  "rpc": ["https://geneva-rpc.moonchain.com"],
+  "faucets": [],
+  "infoURL": "https://doc.mxc.com/docs/intro"
 }, {
   "name": "Electroneum Testnet",
   "chainId": 5201420,
