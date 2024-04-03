@@ -11426,6 +11426,19 @@
   "faucets": [],
   "infoURL": "https://ssquad.games/"
 }, {
+  "name": "EVOLVE Testnet",
+  "chainId": 14324,
+  "shortName": "evo",
+  "networkId": 14324,
+  "nativeCurrency": {
+    "name": "Evolve",
+    "symbol": "EVO",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.evolveblockchain.io"],
+  "faucets": ["https://faucet.evolveblockchain.io"],
+  "infoURL": "https://evolveblockchain.io"
+}, {
   "name": "Vitruveo Testnet",
   "chainId": 14333,
   "shortName": "vitruveo-test",
