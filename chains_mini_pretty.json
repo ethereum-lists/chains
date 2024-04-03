@@ -17220,7 +17220,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://plume-testnet.rpc.caldera.xyz/http"],
+  "rpc": ["https://testnet-rpc.plumenetwork.xyz/http", "wss://testnet-rpc.plumenetwork.xyz/ws"],
   "faucets": [],
   "infoURL": "https://www.plumenetwork.xyz/"
 }, {
