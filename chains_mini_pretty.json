@@ -3132,6 +3132,32 @@
   "faucets": ["https://faucet.testnet.camdl.gov.kh/"],
   "infoURL": "https://camdl.gov.kh/"
 }, {
+  "name": "Near Mainnet",
+  "chainId": 397,
+  "shortName": "near",
+  "networkId": 397,
+  "nativeCurrency": {
+    "name": "NEAR",
+    "symbol": "NEAR",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://near.org/"
+}, {
+  "name": "Near Testnet",
+  "chainId": 398,
+  "shortName": "near-testnet",
+  "networkId": 398,
+  "nativeCurrency": {
+    "name": "Testnet NEAR",
+    "symbol": "NEAR",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://aurora.dev"
+}, {
   "name": "Nativ3 Mainnet",
   "chainId": 399,
   "shortName": "N3",

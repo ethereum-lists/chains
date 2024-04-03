@@ -5059,6 +5059,46 @@
   }],
   "status": "active"
 }, {
+  "name": "Near Mainnet",
+  "chain": "NEAR",
+  "rpc": [],
+  "icon": "near",
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NEAR",
+    "symbol": "NEAR",
+    "decimals": 18
+  },
+  "infoURL": "https://near.org/",
+  "shortName": "near",
+  "chainId": 397,
+  "networkId": 397,
+  "explorers": [{
+    "name": "Near Blocks",
+    "url": "https://nearblocks.io",
+    "standard": "none"
+  }]
+}, {
+  "name": "Near Testnet",
+  "chain": "NEAR",
+  "rpc": [],
+  "icon": "near",
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Testnet NEAR",
+    "symbol": "NEAR",
+    "decimals": 18
+  },
+  "infoURL": "https://aurora.dev",
+  "shortName": "near-testnet",
+  "chainId": 398,
+  "networkId": 398,
+  "explorers": [{
+    "name": "Near blocks",
+    "url": "https://testnet.nearblocks.io",
+    "standard": "none"
+  }]
+}, {
   "name": "Nativ3 Mainnet",
   "chainId": 399,
   "shortName": "N3",
