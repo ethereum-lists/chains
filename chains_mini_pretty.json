@@ -4783,6 +4783,19 @@
   "faucets": [],
   "infoURL": "https://eurus.network"
 }, {
+  "name": "Jumbochain Mainnet",
+  "chainId": 1009,
+  "shortName": "Jumboscan",
+  "networkId": 1009,
+  "nativeCurrency": {
+    "name": "JNFTC",
+    "symbol": "JNFTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpcpriv.jumbochain.org"],
+  "faucets": [],
+  "infoURL": "https://jumbochain.org"
+}, {
   "name": "Evrice Network",
   "chainId": 1010,
   "shortName": "EVC",
