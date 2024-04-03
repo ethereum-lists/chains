@@ -14026,6 +14026,19 @@
   "faucets": [],
   "infoURL": "https://www.smartlayer.network/"
 }, {
+  "name": "ZEDXION",
+  "chainId": 83872,
+  "shortName": "ZEDX",
+  "networkId": 83872,
+  "nativeCurrency": {
+    "name": "Zedxion",
+    "symbol": "zedx",
+    "decimals": 9
+  },
+  "rpc": ["https://mainnet-rpc.zedscan.net"],
+  "faucets": [],
+  "infoURL": "https://docs.zedscan.net"
+}, {
   "name": "Base Goerli Testnet",
   "chainId": 84531,
   "shortName": "basegor",
