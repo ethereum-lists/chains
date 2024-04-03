@@ -17,18 +17,18 @@
   "chainId": 88153591557,
   "networkId": 88153591557,
   "slip44": 60,
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://arb-blueberry.gelatoscout.com",
-    "icon": "blockscout",
-    "standard": "EIP3091"
-  }],
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://arb-blueberry.gelatoscout.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
   "parent": {
     "type": "L2",
     "chain": "eip155-421614",
-    "bridges": [
-      { "url": "https://bridge.gelato.network/bridge/arb-blueberry" }
-    ]
+    "bridges": [{ "url": "https://bridge.gelato.network/bridge/arb-blueberry" }]
   },
   "status": "active"
 }
