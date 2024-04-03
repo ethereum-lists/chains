@@ -11580,6 +11580,33 @@
     "standard": "none"
   }]
 }, {
+  "name": "RSS3 VSL Sepolia Testnet",
+  "chain": "RSS3",
+  "rpc": ["https://rpc.testnet.rss3.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "RSS3",
+    "symbol": "RSS3",
+    "decimals": 18
+  },
+  "infoURL": "https://rss3.io",
+  "shortName": "rss3-testnet",
+  "chainId": 2331,
+  "networkId": 2331,
+  "icon": "rss3-testnet",
+  "explorers": [{
+    "name": "RSS3 VSL Sepolia Testnet Scan",
+    "url": "https://scan.testnet.rss3.io",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{
+      "url": "https://explorer.testnet.rss3.io/bridge"
+    }]
+  }
+}, {
   "name": "SOMA Network Mainnet",
   "chain": "SOMA",
   "rpc": ["https://data-mainnet-v1.somanetwork.io/", "https://id-mainnet.somanetwork.io", "https://hk-mainnet.somanetwork.io", "https://sg-mainnet.somanetwork.io"],
@@ -17986,6 +18013,33 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-43113"
+  }
+}, {
+  "name": "RSS3 VSL Mainnet",
+  "chain": "RSS3",
+  "rpc": ["https://rpc.rss3.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "RSS3",
+    "symbol": "RSS3",
+    "decimals": 18
+  },
+  "infoURL": "https://rss3.io",
+  "shortName": "rss3",
+  "chainId": 12553,
+  "networkId": 12553,
+  "icon": "rss3",
+  "explorers": [{
+    "name": "RSS3 VSL Scan",
+    "url": "https://scan.rss3.io",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://explorer.rss3.io/bridge"
+    }]
   }
 }, {
   "name": "Rikeza Network Testnet",

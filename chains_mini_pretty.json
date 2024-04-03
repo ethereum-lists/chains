@@ -7266,6 +7266,19 @@
   "faucets": [],
   "infoURL": "https://altcoinchain.org"
 }, {
+  "name": "RSS3 VSL Sepolia Testnet",
+  "chainId": 2331,
+  "shortName": "rss3-testnet",
+  "networkId": 2331,
+  "nativeCurrency": {
+    "name": "RSS3",
+    "symbol": "RSS3",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.rss3.io"],
+  "faucets": [],
+  "infoURL": "https://rss3.io"
+}, {
   "name": "SOMA Network Mainnet",
   "chainId": 2332,
   "shortName": "smam",
@@ -11256,6 +11269,19 @@
   "rpc": ["https://rpc.testnet.step.network"],
   "faucets": ["https://faucet.step.network"],
   "infoURL": "https://step.network"
+}, {
+  "name": "RSS3 VSL Mainnet",
+  "chainId": 12553,
+  "shortName": "rss3",
+  "networkId": 12553,
+  "nativeCurrency": {
+    "name": "RSS3",
+    "symbol": "RSS3",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.rss3.io"],
+  "faucets": [],
+  "infoURL": "https://rss3.io"
 }, {
   "name": "Rikeza Network Testnet",
   "chainId": 12715,
