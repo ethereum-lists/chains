@@ -13272,6 +13272,19 @@
   "faucets": [],
   "infoURL": "https://doken.dev/"
 }, {
+  "name": "OPTOPIA Testnet",
+  "chainId": 62049,
+  "shortName": "OPTOPIA-Testnet",
+  "networkId": 62049,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.optopia.ai"],
+  "faucets": [],
+  "infoURL": "https://optopia.ai"
+}, {
   "name": "Celo Baklava Testnet",
   "chainId": 62320,
   "shortName": "BKLV",
