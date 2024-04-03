@@ -4727,9 +4727,9 @@
     "symbol": "KLAY",
     "decimals": 18
   },
-  "rpc": ["https://api.baobab.klaytn.net:8651", "https://klaytn-baobab.drpc.org", "wss://klaytn-baobab.drpc.org"],
+  "rpc": ["https://public-en-baobab.klaytn.net", "https://api.baobab.klaytn.net:8651"],
   "faucets": ["https://baobab.wallet.klaytn.com/access?next=faucet"],
-  "infoURL": "https://www.klaytn.com/"
+  "infoURL": "https://klaytn.foundation"
 }, {
   "name": "Tectum Emission Token",
   "chainId": 1003,
@@ -10031,9 +10031,9 @@
     "symbol": "KLAY",
     "decimals": 18
   },
-  "rpc": ["https://public-node-api.klaytnapi.com/v1/cypress"],
+  "rpc": ["https://public-en-cypress.klaytn.net"],
   "faucets": [],
-  "infoURL": "https://www.klaytn.com/"
+  "infoURL": "https://klaytn.foundation"
 }, {
   "name": "Blockton Blockchain",
   "chainId": 8272,
