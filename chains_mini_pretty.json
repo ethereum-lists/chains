@@ -17172,6 +17172,19 @@
   "faucets": [],
   "infoURL": "https://teamblockchain.team"
 }, {
+  "name": "Polygon Blackberry",
+  "chainId": 94204209,
+  "shortName": "polygon-blackberry",
+  "networkId": 94204209,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.polygon-blackberry.gelato.digital", "wss://ws.polygon-blackberry.gelato.digital"],
+  "faucets": [],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/polygon-blackberry"
+}, {
   "name": "Joys Digital TestNet",
   "chainId": 99415706,
   "shortName": "TOYS",
@@ -17184,6 +17197,19 @@
   "rpc": ["https://toys.joys.cash/"],
   "faucets": ["https://faucet.joys.digital/"],
   "infoURL": "https://joys.digital"
+}, {
+  "name": "OP Celestia Raspberry",
+  "chainId": 123420111,
+  "shortName": "opcelestia-raspberry",
+  "networkId": 123420111,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.opcelestia-raspberry.gelato.digital", "wss://ws.opcelestia-raspberry.gelato.digital"],
+  "faucets": [],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/opcelestia-raspberry"
 }, {
   "name": "Plume Testnet",
   "chainId": 161221135,
@@ -17834,6 +17860,19 @@
   "rpc": ["https://gitswarm.com:2096"],
   "faucets": [],
   "infoURL": "https://gitswarm.com/"
+}, {
+  "name": "Arbitrum Blueberry",
+  "chainId": 88153591557,
+  "shortName": "arb-blueberry",
+  "networkId": 88153591557,
+  "nativeCurrency": {
+    "name": "GelatoCGT",
+    "symbol": "CGT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.arb-blueberry.gelato.digital", "wss://ws.arb-blueberry.gelato.digital"],
+  "faucets": [],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/arb-blueberry"
 }, {
   "name": "Kakarot Sepolia",
   "chainId": 107107114116,

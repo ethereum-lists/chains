@@ -27735,6 +27735,36 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Polygon Blackberry",
+  "title": "Polygon Blackberry Testnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc.polygon-blackberry.gelato.digital", "wss://ws.polygon-blackberry.gelato.digital"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://raas.gelato.network/rollups/details/public/polygon-blackberry",
+  "shortName": "polygon-blackberry",
+  "chainId": 94204209,
+  "networkId": 94204209,
+  "slip44": 60,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://polygon-blackberry.gelatoscout.com",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{
+      "url": "https://bridge.gelato.network/bridge/polygon-blackberry"
+    }]
+  },
+  "status": "active"
+}, {
   "name": "Joys Digital TestNet",
   "chain": "TOYS",
   "rpc": ["https://toys.joys.cash/"],
@@ -27749,6 +27779,36 @@
   "chainId": 99415706,
   "networkId": 99415706,
   "slip44": 1
+}, {
+  "name": "OP Celestia Raspberry",
+  "title": "OP Celestia Raspberry Testnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc.opcelestia-raspberry.gelato.digital", "wss://ws.opcelestia-raspberry.gelato.digital"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://raas.gelato.network/rollups/details/public/opcelestia-raspberry",
+  "shortName": "opcelestia-raspberry",
+  "chainId": 123420111,
+  "networkId": 123420111,
+  "slip44": 60,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://opcelestia-raspberry.gelatoscout.com",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{
+      "url": "https://bridge.gelato.network/bridge/opcelestia-raspberry"
+    }]
+  },
+  "status": "active"
 }, {
   "name": "Plume Testnet",
   "title": "Plume Sepolia Rollup Testnet",
@@ -28808,6 +28868,36 @@
   "slip44": 1,
   "explorers": [],
   "status": "incubating"
+}, {
+  "name": "Arbitrum Blueberry",
+  "title": "Arbitrum Blueberry Testnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc.arb-blueberry.gelato.digital", "wss://ws.arb-blueberry.gelato.digital"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GelatoCGT",
+    "symbol": "CGT",
+    "decimals": 18
+  },
+  "infoURL": "https://raas.gelato.network/rollups/details/public/arb-blueberry",
+  "shortName": "arb-blueberry",
+  "chainId": 88153591557,
+  "networkId": 88153591557,
+  "slip44": 60,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://arb-blueberry.gelatoscout.com",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-421614",
+    "bridges": [{
+      "url": "https://bridge.gelato.network/bridge/arb-blueberry"
+    }]
+  },
+  "status": "active"
 }, {
   "name": "Kakarot Sepolia",
   "chain": "ETH",
