@@ -11900,9 +11900,10 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Karak Testnet",
+  "name": "Karak Goerli",
   "chain": "Karak",
   "icon": "karak",
+  "status": "deprecated",
   "rpc": ["https://goerli.node1.karak.network"],
   "faucets": [],
   "nativeCurrency": {
@@ -11911,11 +11912,11 @@
     "decimals": 18
   },
   "infoURL": "https://karak.network",
-  "shortName": "karak-testnet",
+  "shortName": "karak-goerli",
   "chainId": 2511,
   "networkId": 2511,
   "explorers": [{
-    "name": "Karak Testnet Explorer",
+    "name": "Karak Goerli Explorer",
     "url": "https://goerli.scan.karak.network",
     "standard": "EIP3091"
   }],
@@ -15796,6 +15797,30 @@
   "chainId": 8029,
   "networkId": 8029,
   "slip44": 1
+}, {
+  "name": "Karak Sepolia",
+  "chain": "Karak",
+  "icon": "karak",
+  "rpc": ["https://rpc.sepolia.karak.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://karak.network",
+  "shortName": "karak-sepolia",
+  "chainId": 8054,
+  "networkId": 8054,
+  "explorers": [{
+    "name": "Karak Sepolia Explorer",
+    "url": "https://explorer.sepolia.karak.network",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  }
 }, {
   "name": "Shardeum Liberty 1.X",
   "chain": "Shardeum",

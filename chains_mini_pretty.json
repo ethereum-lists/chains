@@ -7435,9 +7435,9 @@
   "faucets": ["https://faucet.uniultra.xyz"],
   "infoURL": "https://uniultra.xyz"
 }, {
-  "name": "Karak Testnet",
+  "name": "Karak Goerli",
   "chainId": 2511,
-  "shortName": "karak-testnet",
+  "shortName": "karak-goerli",
   "networkId": 2511,
   "nativeCurrency": {
     "name": "Karak",
@@ -9826,6 +9826,19 @@
   "rpc": ["https://testnet.mdgl.io"],
   "faucets": [],
   "infoURL": "https://mdgl.io"
+}, {
+  "name": "Karak Sepolia",
+  "chainId": 8054,
+  "shortName": "karak-sepolia",
+  "networkId": 8054,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.sepolia.karak.network"],
+  "faucets": [],
+  "infoURL": "https://karak.network"
 }, {
   "name": "Shardeum Liberty 1.X",
   "chainId": 8080,
