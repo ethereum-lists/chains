@@ -5672,6 +5672,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "OpTrust Mainnet",
+  "chain": "OpTrust",
+  "rpc": ["https://rpc.optrust.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BSC",
+    "symbol": "BNB",
+    "decimals": 18
+  },
+  "infoURL": "https://optrust.io",
+  "shortName": "optrust",
+  "chainId": 537,
+  "networkId": 537,
+  "icon": "optrust",
+  "explorers": [{
+    "name": "OpTrust explorer",
+    "url": "https://scan.optrust.io",
+    "icon": "optrust",
+    "standard": "none"
+  }]
+}, {
   "name": "PAWCHAIN Testnet",
   "chain": "PAW",
   "rpc": ["https://pawchainx.com/"],
@@ -14435,6 +14456,27 @@
   "shortName": "UZMI",
   "chainId": 5315,
   "networkId": 5315
+}, {
+  "name": "OpTrust Testnet",
+  "chain": "OpTrust",
+  "rpc": ["https://rpctest.optrust.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TestBSC",
+    "symbol": "tBNB",
+    "decimals": 18
+  },
+  "infoURL": "https://optrust.io",
+  "shortName": "toptrust",
+  "chainId": 5317,
+  "networkId": 5317,
+  "icon": "optrust",
+  "explorers": [{
+    "name": "OpTrust Testnet explorer",
+    "url": "https://scantest.optrust.io",
+    "icon": "optrust",
+    "standard": "none"
+  }]
 }, {
   "name": "Tritanium Testnet",
   "chain": "TRITANIUM",

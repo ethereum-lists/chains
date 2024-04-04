@@ -3509,6 +3509,19 @@
   "faucets": [],
   "infoURL": "https://candlelabs.org/"
 }, {
+  "name": "OpTrust Mainnet",
+  "chainId": 537,
+  "shortName": "optrust",
+  "networkId": 537,
+  "nativeCurrency": {
+    "name": "BSC",
+    "symbol": "BNB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.optrust.io"],
+  "faucets": [],
+  "infoURL": "https://optrust.io"
+}, {
   "name": "PAWCHAIN Testnet",
   "chainId": 542,
   "shortName": "PAW",
@@ -9007,6 +9020,19 @@
   "rpc": ["https://network.uzmigames.com.br/"],
   "faucets": [],
   "infoURL": "https://uzmigames.com.br/"
+}, {
+  "name": "OpTrust Testnet",
+  "chainId": 5317,
+  "shortName": "toptrust",
+  "networkId": 5317,
+  "nativeCurrency": {
+    "name": "TestBSC",
+    "symbol": "tBNB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpctest.optrust.io"],
+  "faucets": [],
+  "infoURL": "https://optrust.io"
 }, {
   "name": "Tritanium Testnet",
   "chainId": 5353,
