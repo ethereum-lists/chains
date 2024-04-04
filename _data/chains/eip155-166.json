@@ -1,7 +1,8 @@
 {
   "name": "Omni",
   "chain": "Omni",
-  "rpc": ["https://mainnet.omni.network"],
+  "status": "incubating",
+  "rpc": [],
   "features": [{ "name": "EIP155" }],
   "faucets": [],
   "nativeCurrency": {
@@ -13,12 +14,5 @@
   "shortName": "omni",
   "chainId": 166,
   "networkId": 166,
-  "slip44": 1,
-  "explorers": [
-    {
-      "name": "Omni Explorer",
-      "url": "https://mainnet.explorer.omni.network",
-      "standard": "EIP3091"
-    }
-  ]
+  "slip44": 1
 }
