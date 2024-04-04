@@ -1,0 +1,29 @@
+{
+  "name": "Shido Mainnet Block",
+  "chain": "Shido Mainnet",
+  "rpc": [
+    "https://rpc-nodes.shidoscan.com",
+    "wss://wss-nodes.shidoscan.com",
+    "https://rpc-delta-nodes.shidoscan.com",
+    "wss://wss-delta-nodes.shidoscan.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Shido Mainnet Token",
+    "symbol": "SHIDO",
+    "decimals": 18
+  },
+  "infoURL": "https://shido.io",
+  "shortName": "Shido",
+  "chainId": 9008,
+  "networkId": 9008,
+  "icon": "shidoChain",
+  "explorers": [
+    {
+      "name": "Shidoblock Mainnet Explorer",
+      "url": "https://shidoscan.com",
+      "standard": "none",
+      "icon": "shidoChain"
+    }
+  ]
+}
