@@ -2846,6 +2846,19 @@
   "faucets": ["https://faucet.lovely.network"],
   "infoURL": "https://lovely.network"
 }, {
+  "name": "Furtheon",
+  "chainId": 308,
+  "shortName": "furtheon",
+  "networkId": 308,
+  "nativeCurrency": {
+    "name": "Furtheon",
+    "symbol": "FTH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.furtheon.org"],
+  "faucets": [],
+  "infoURL": "https://furtheon.org/"
+}, {
   "name": "Wyzth Testnet",
   "chainId": 309,
   "shortName": "wyz",
