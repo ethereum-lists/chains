@@ -1,0 +1,30 @@
+{
+    "name": "XR Sepolia",
+    "shortName": "xr-sep",
+    "chainId": 2730,
+    "networkId": 2730,
+    "chain": "ETH",
+    "nativeCurrency": {
+        "name": "tXR",
+        "symbol": "tXR",
+        "decimals": 18
+      },
+    "rpc": [
+      "https://xr-sepolia-testnet.rpc.caldera.xyz/http"
+    ],
+    "faucets": [],
+    "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+    "infoURL": "https://xr-one.gitbook.io",
+    "icon": "xr",
+    "explorers": [{
+        "name": "XR Sepolia Explorer",
+        "url": "https://xr-sepolia-testnet.explorer.caldera.xyz",
+        "icon": "xr",
+        "standard": "EIP3091"
+    }],
+    "parent": {
+        "type" : "L3",
+        "chain": "eip155-421614",
+        "bridges": [ {"url":"https://xr-sepolia-testnet.bridge.caldera.xyz"} ]
+    }
+}
