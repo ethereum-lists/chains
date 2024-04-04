@@ -3210,6 +3210,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Omni",
+  "chain": "Omni",
+  "status": "incubating",
+  "rpc": [],
+  "features": [{
+    "name": "EIP155"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Omni",
+    "symbol": "OMNI",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.omni.network/",
+  "shortName": "omni",
+  "chainId": 166,
+  "networkId": 166,
+  "slip44": 1
+}, {
   "name": "Atoshi Testnet",
   "chain": "ATOSHI",
   "icon": "atoshi",
@@ -14320,6 +14339,30 @@
     "url": "https://subnets-test.avax.network/onigiri",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Nollie Skatechain Testnet",
+  "chain": "Skatechain",
+  "rpc": ["https://nollie-rpc.skatechain.org/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "",
+  "shortName": "nollie-testnet",
+  "chainId": 5051,
+  "networkId": 5051,
+  "icon": "nollie",
+  "explorers": [{
+    "name": "Nollie Skate Chain Testnet Explorer",
+    "url": "https://nolliescan.skatechain.org",
+    "standard": "EIP3091"
+  }],
+  "status": "active"
 }, {
   "name": "Syndicate Testnet",
   "title": "Syndicate Testnet",
