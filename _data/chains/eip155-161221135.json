@@ -2,7 +2,10 @@
   "name": "Plume Testnet",
   "title": "Plume Sepolia Rollup Testnet",
   "chain": "ETH",
-  "rpc": ["https://plume-testnet.rpc.caldera.xyz/http"],
+  "rpc": [
+    "https://testnet-rpc.plumenetwork.xyz/http",
+    "wss://testnet-rpc.plumenetwork.xyz/ws"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Plume Sepolia Ether",
@@ -18,7 +21,7 @@
   "explorers": [
     {
       "name": "Blockscout",
-      "url": "https://plume-testnet.explorer.caldera.xyz",
+      "url": "https://testnet-explorer.plumenetwork.xyz",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
@@ -26,6 +29,6 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://plume-testnet.calderabridge.xyz" }]
+    "bridges": [{ "url": "https://testnet-bridge.plumenetwork.xyz" }]
   }
 }
