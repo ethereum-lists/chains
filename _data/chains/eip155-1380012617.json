@@ -1,9 +1,7 @@
 {
   "name": "RARI Chain Mainnet",
   "chain": "RARI",
-  "rpc": [
-    "https://rari.calderachain.xyz/http"
-  ],
+  "rpc": ["https://rari.calderachain.xyz/http"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ethereum",
