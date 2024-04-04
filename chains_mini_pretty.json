@@ -2638,6 +2638,45 @@
   "faucets": [],
   "infoURL": "https://surnet.org"
 }, {
+  "name": "Neura",
+  "chainId": 266,
+  "shortName": "neura",
+  "networkId": 266,
+  "nativeCurrency": {
+    "name": "Ankr",
+    "symbol": "ANKR",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://www.neuraprotocol.io/"
+}, {
+  "name": "Neura Testnet",
+  "chainId": 267,
+  "shortName": "tneura",
+  "networkId": 267,
+  "nativeCurrency": {
+    "name": "Testnet Ankr",
+    "symbol": "ANKR",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://www.neuraprotocol.io/"
+}, {
+  "name": "Neura Devnet",
+  "chainId": 268,
+  "shortName": "dneura",
+  "networkId": 268,
+  "nativeCurrency": {
+    "name": "Devnet Ankr",
+    "symbol": "ANKR",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://www.neuraprotocol.io/"
+}, {
   "name": "High Performance Blockchain",
   "chainId": 269,
   "shortName": "hpb",
