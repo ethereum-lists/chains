@@ -7708,6 +7708,19 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "Elux Chain",
+  "chainId": 2907,
+  "shortName": "ELUX",
+  "networkId": 2907,
+  "nativeCurrency": {
+    "name": "Elux Chain",
+    "symbol": "ELUX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.eluxscan.com"],
+  "faucets": [],
+  "infoURL": "https://eluxscan.com"
+}, {
   "name": "HYCHAIN",
   "chainId": 2911,
   "shortName": "hychain",
