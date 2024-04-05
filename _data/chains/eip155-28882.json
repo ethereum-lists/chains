@@ -8,7 +8,9 @@
     "wss://boba-sepolia.gateway.tenderly.co/",
     "wss://gateway.tenderly.co/public/boba-sepolia"
   ],
-  "faucets": [],
+  "faucets": [
+    "https://www.l2faucet.com/boba"
+  ],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
@@ -16,8 +18,8 @@
   },
   "infoURL": "https://boba.network",
   "shortName": "Boba",
-  "chainId": 288,
-  "networkId": 288,
+  "chainId": 28882,
+  "networkId": 28882,
 
   "explorers": [
     {
