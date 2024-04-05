@@ -1,0 +1,26 @@
+{
+  "name": "ICB Testnet",
+  "chain": "ICBT",
+  "icon": "icbnetwork",
+  "rpc": [
+    "https://rpc1-testnet.icbnetwork.info/",
+    "https://rpc2-testnet.icbnetwork.info/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ICB Testnet Token",
+    "symbol": "ICBT",
+    "decimals": 18
+  },
+  "infoURL": "https://icb.network",
+  "shortName": "ICBT",
+  "chainId": 73114,
+  "networkId": 73114,
+  "explorers": [
+    {
+      "name": "ICB Tesnet Explorer",
+      "url": "https://testnet.icbscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
