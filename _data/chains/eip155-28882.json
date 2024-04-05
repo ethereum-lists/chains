@@ -1,15 +1,12 @@
 {
-  "name": "Boba Network",
+  "name": "Boba Sepolia",
   "chain": "ETH",
   "rpc": [
-    "https://mainnet.boba.network",
-    "https://replica.boba.network",
-    "https://boba-ethereum.gateway.tenderly.co",
-    "https://gateway.tenderly.co/public/boba-ethereum",
-    "wss://boba-ethereum.gateway.tenderly.co/",
-    "wss://gateway.tenderly.co/public/boba-ethereum",
-    "https://boba-eth.drpc.org",
-    "wss://boba-eth.drpc.org"
+    "https://sepolia.boba.network",
+    "https://boba-sepolia.gateway.tenderly.co",
+    "https://gateway.tenderly.co/public/boba-sepolia",
+    "wss://boba-sepolia.gateway.tenderly.co/",
+    "wss://gateway.tenderly.co/public/boba-sepolia"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -25,7 +22,7 @@
   "explorers": [
     {
       "name": "Bobascan",
-      "url": "https://bobascan.com",
+      "url": "https://testnet.bobascan.com",
       "standard": "none"
     }
   ],
