@@ -1,0 +1,24 @@
+{
+  "name": "SerenityEnergy Mainnet",
+  "chain": "ERGON",
+  "rpc": [
+    "https://serenity.ing/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SerenityEnergy",
+    "symbol": "SET",
+    "decimals": 18
+  },
+  "infoURL": "https://serenity.energy",
+  "shortName": "set",
+  "chainId": 11214,
+  "networkId": 11214,
+  "icon": "ergon",
+  "explorers": [{
+    "name": "serenity block explorer",
+    "url": "https://serenity.ing/explorer",
+    "icon": "ergon",
+    "standard": "EIP3091"
+  }]
+}
