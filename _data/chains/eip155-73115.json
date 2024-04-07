@@ -1,0 +1,26 @@
+{
+  "name": "ICB Network",
+  "chain": "ICB",
+  "icon": "icbnetwork",
+  "rpc": [
+    "https://rpc1-mainnet.icbnetwork.info/",
+    "https://rpc2-mainnet.icbnetwork.info/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ICB Native Token",
+    "symbol": "ICBX",
+    "decimals": 18
+  },
+  "infoURL": "https://icb.network",
+  "shortName": "ICBX",
+  "chainId": 73115,
+  "networkId": 73115,
+  "explorers": [
+    {
+      "name": "ICB Explorer",
+      "url": "https://icbscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
