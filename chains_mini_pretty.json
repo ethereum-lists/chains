@@ -6161,6 +6161,19 @@
   "faucets": [],
   "infoURL": "https://www.mintchain.io"
 }, {
+  "name": "Mint Sepolia Testnet",
+  "chainId": 1687,
+  "shortName": "mintsepoliatest",
+  "networkId": 1687,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia-testnet-rpc.mintchain.io"],
+  "faucets": [],
+  "infoURL": "https://www.mintchain.io"
+}, {
   "name": "LUDAN Mainnet",
   "chainId": 1688,
   "shortName": "LUDAN",
