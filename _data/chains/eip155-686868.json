@@ -10,19 +10,14 @@
     "symbol": "WON",
     "decimals": 18
   },
-  "rpc": ["https://rpc.wonnetwork.org/"],
-  "faucets": ["https://faucet.wondollars.org/"],
+  "rpc": ["https://rpc.wonnetwork.org"],
+  "faucets": ["https://faucet.wondollars.org"],
   "explorers": [
     {
       "name": "Won Explorer",
-      "url": "https://scan.wonnetwork.org/",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "Won Explorer",
-      "url": "https://explorer.wonnetwork.org/",
+      "url": "https://scan.wonnetwork.org",
       "standard": "EIP3091"
     }
   ],
-  "infoURL": "https://wonnetwork.org/"
+  "infoURL": "https://wonnetwork.org"
 }
