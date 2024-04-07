@@ -17601,6 +17601,19 @@
   "faucets": [],
   "infoURL": "https://ancient8.gg/"
 }, {
+  "name": "PTCESCAN Testnet",
+  "chainId": 889910245,
+  "shortName": "PTCE",
+  "networkId": 889910245,
+  "nativeCurrency": {
+    "name": "PTCE",
+    "symbol": "PTCE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.ptcscan.io"],
+  "faucets": ["https://faucet.ptcscan.io/"],
+  "infoURL": "https://ptcscan.io"
+}, {
   "name": "SKALE Calypso Hub Testnet",
   "chainId": 974399131,
   "shortName": "calypso-testnet",
