@@ -12020,9 +12020,9 @@
     "symbol": "TKX",
     "decimals": 18
   },
-  "rpc": ["https://titan-testnet-json-rpc-1.tokenize-dev.com", "https://titan-testnet-json-rpc-2.tokenize-dev.com"],
+  "rpc": ["https://titan-testnet-json-rpc.titanlab.io", "https://titan-testnet-json-rpc-1.titanlab.io", "https://titan-testnet-json-rpc-2.titanlab.io"],
   "faucets": [],
-  "infoURL": "https://tokenize.exchange"
+  "infoURL": "https://titanlab.io"
 }, {
   "name": "HOME Verse Mainnet",
   "chainId": 19011,
