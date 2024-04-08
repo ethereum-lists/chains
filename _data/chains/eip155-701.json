@@ -1,0 +1,25 @@
+{
+  "name": "Fomo Testnet",
+  "chain": "Fomo",
+  "rpc": ["https://jsonrpc1.testnet.fomochain.io", "https://jsonrpc2.testnet.fomochain.io"],
+  "faucets": ["https://faucet.fomochain.io"],
+  "nativeCurrency": {
+    "name": "test-Fomo",
+    "symbol": "FOMO",
+    "decimals": 18
+  },
+  "infoURL": "https://fomonetwork.io/",
+  "shortName": "fomo-testnet",
+  "chainId": 701,
+  "networkId": 701,
+  "slip44": 1,
+  "icon": "fomo",
+  "explorers": [
+    {
+      "name": "Fomo Explorer",
+      "url": "https://testnet.evm.fomoscan.io",
+      "standard": "none",
+      "icon": "fomo"
+    }
+  ]
+}
