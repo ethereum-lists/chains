@@ -1,9 +1,7 @@
 {
   "name": "B2 Hub Habitat Testnet",
   "chain": "BSQ",
-  "rpc": [
-    "https://habitat-hub-rpc.bsquared.network"
-  ],
+  "rpc": ["https://habitat-hub-rpc.bsquared.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BSquared Token",
