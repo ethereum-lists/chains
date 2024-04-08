@@ -12,19 +12,13 @@
   "shortName": "tfilenova",
   "chainId": 5675,
   "networkId": 5675,
-  "slip44": 1,
   "icon": "filenova",
   "explorers": [
     {
       "name": "filenova testnet explorer",
       "url": "https://scantest.filenova.org",
       "icon": "blockscout",
-      "standard": "EIP3091"
+      "standard": "none"
     }
-  ],
-  "parent": {
-    "type": "L2",
-    "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.filenova.org/test" }]
-  }
+  ]
 }
