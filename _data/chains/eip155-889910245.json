@@ -1,0 +1,23 @@
+{
+  "name": "PTCESCAN Testnet",
+  "title": "PTCESCAN Testnet",
+  "chain": "PTCE",
+  "rpc": ["https://rpc-testnet.ptcscan.io"],
+  "faucets": ["https://faucet.ptcscan.io/"],
+  "nativeCurrency": {
+    "name": "PTCE",
+    "symbol": "PTCE",
+    "decimals": 18
+  },
+  "infoURL": "https://ptcscan.io",
+  "shortName": "PTCE",
+  "chainId": 889910245,
+  "networkId": 889910245,
+  "explorers": [
+    {
+      "name": "PTCESCAN Testnet Explorer",
+      "url": "https://explorer-testnet.ptcscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
