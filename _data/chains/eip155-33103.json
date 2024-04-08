@@ -1,9 +1,7 @@
 {
   "name": "Zilliqa-2 EVM proto Testnet",
   "chain": "ZIL",
-  "rpc": [
-    "https://api.zq2-prototestnet.zilliqa.com"
-  ],
+  "rpc": ["https://api.zq2-prototestnet.zilliqa.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Zilliqa",
@@ -19,7 +17,7 @@
     {
       "name": "Zilliqa-2 EVM Proto Testnet Explorer",
       "url": "https://explorer.zq2-prototestnet.zilliqa.com",
-      "standard": "None"
+      "standard": "none"
     }
   ]
 }
