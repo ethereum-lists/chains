@@ -1,0 +1,23 @@
+{
+  "name": "Kingdom Chain",
+  "chain": "KingdomChain",
+  "rpc": ["https://kingdomchain.observer/rpc"],
+  "features": [{ "name": "EIP155" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Kozi",
+    "symbol": "KOZI",
+    "decimals": 18
+  },
+  "infoURL": "https://www.beastkingdom.io/",
+  "shortName": "kchain",
+  "chainId": 39916801,
+  "networkId": 39916801,
+  "explorers": [
+    {
+      "name": "TravelSong",
+      "url": "https://www.beastkingdom.io/travelsong",
+      "standard": "EIP3091"
+    }
+  ]
+}
