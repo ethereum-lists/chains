@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "ClubMos Mainnet",
   "chain": "MOS",
   "rpc": ["https://mainnet.mosscan.com"],
@@ -21,4 +22,35 @@
       "standard": "EIP3091"
     }
   ]
+=======
+    "name": "ClubMos Mainnet",
+    "chain": "MOS",
+    "rpc": [
+        "https://mainnet.mosscan.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "ClubMos",
+        "symbol": "MOS",
+        "decimals": 18
+    },
+    "features": [
+        {
+            "name": "EIP155"
+        }
+    ],
+    "infoURL": "https://www.mosscan.com",
+    "shortName": "MOS",
+    "chainId": 1188,
+    "networkId": 1188,
+    "icon": "clubmos",
+    "explorers": [
+        {
+            "name": "mosscan",
+            "url": "https://www.mosscan.com",
+            "icon": "clubmos",
+            "standard": "EIP3091"
+        }
+    ]
+>>>>>>> 31c317d98aeaab652a50011305dc0f0eb3181ef8
 }
