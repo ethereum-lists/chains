@@ -3,9 +3,7 @@
     "chain": "Tangle",
     "rpc": [
         "https://rpc.tangle.tools",
-        "https://rpc-archive.tangle.tools",
-        "wss://rpc.tangle.tools",
-        "wss://rpc-archive.tangle.tools"
+        "wss://rpc.tangle.tools"
       ],
     "faucets": [],
     "nativeCurrency": {
