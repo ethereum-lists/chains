@@ -2,7 +2,7 @@
   "name": "BORAchain mainnet",
   "chain": "BORA",
   "icon": "bora",
-  "rpc": ["https://public-node.api.boraportal.io/bora/mainnet"],
+  "rpc": ["https://public-node.api.boraportal.com/bora/mainnet"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BGAS",
@@ -13,6 +13,7 @@
   "shortName": "BORAchain",
   "chainId": 77001,
   "networkId": 77001,
+  "slip44": 8217,
   "explorers": [
     {
       "name": "BORAchainscope",
