@@ -16301,6 +16301,19 @@
   "faucets": [],
   "infoURL": "https://octa.space"
 }, {
+  "name": "BIZ Smart Chain Testnet",
+  "chainId": 808080,
+  "shortName": "bizt-testnet",
+  "networkId": 808080,
+  "nativeCurrency": {
+    "name": "tBIZT",
+    "symbol": "tBIZT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.bizex.io/"],
+  "faucets": [],
+  "infoURL": "https://www.biztoken.io/"
+}, {
   "name": "zkLink Nova Mainnet",
   "chainId": 810180,
   "shortName": "zklink-nova",
