@@ -1,0 +1,23 @@
+{
+  "name": "Elux Chain",
+  "chain": "ELUX",
+  "icon": "eluxchain",
+  "rpc": ["https://rpc.eluxscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Elux Chain",
+    "symbol": "ELUX",
+    "decimals": 18
+  },
+  "infoURL": "https://eluxscan.com",
+  "shortName": "ELUX",
+  "chainId": 2907,
+  "networkId": 2907,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://eluxscan.com",
+      "standard": "none"
+    }
+  ]
+}
