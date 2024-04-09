@@ -9333,6 +9333,19 @@
   "faucets": [],
   "infoURL": "https://arcturuschain.io"
 }, {
+  "name": "QIE Blockchain",
+  "chainId": 5656,
+  "shortName": "QIE",
+  "networkId": 5656,
+  "nativeCurrency": {
+    "name": "QIE Blockchain",
+    "symbol": "QIE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-main1.qiblockchain.online/", "https://rpc-main2.qiblockchain.online/"],
+  "faucets": [],
+  "infoURL": "https://qiblockchain.online/"
+}, {
   "name": "Tanssi EVM ContainerChain",
   "chainId": 5678,
   "shortName": "TanssiCC",
