@@ -1,7 +1,6 @@
 {
   "name": "Dot Blox",
   "chain": "DTBX",
-  "icon": "dotblox",
   "rpc": ["https://rpc.dotblox.io"],
   "faucets": [],
   "nativeCurrency": {
@@ -17,6 +16,7 @@
     {
       "name": "blockscout",
       "url": "https://explorer.dotblox.io/",
+      "icon": "dotblox",
       "standard": "none"
     }
   ]
