@@ -3379,6 +3379,19 @@
   "faucets": [],
   "infoURL": "https://gesoten.com/"
 }, {
+  "name": "Boyaa Mainnet",
+  "chainId": 434,
+  "shortName": "BYC",
+  "networkId": 434,
+  "nativeCurrency": {
+    "name": "Boyaa mainnet native coin",
+    "symbol": "BYC",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-rpc.mainnet.boyaa.network"],
+  "faucets": [],
+  "infoURL": "https://boyaa.network"
+}, {
   "name": "Ten Testnet",
   "chainId": 443,
   "shortName": "ten-testnet",
