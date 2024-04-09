@@ -13636,9 +13636,9 @@
   "faucets": [],
   "infoURL": "https://publicgoods.network/"
 }, {
-  "name": "Linea Testnet",
+  "name": "Linea Goerli",
   "chainId": 59140,
-  "shortName": "linea-testnet",
+  "shortName": "linea-goerli",
   "networkId": 59140,
   "nativeCurrency": {
     "name": "Linea Ether",
@@ -13647,6 +13647,19 @@
   },
   "rpc": ["https://rpc.goerli.linea.build", "wss://rpc.goerli.linea.build", "https://linea-goerli.infura.io/v3/${INFURA_API_KEY}", "wss://linea-goerli.infura.io/ws/v3/${INFURA_API_KEY}"],
   "faucets": ["https://faucetlink.to/goerli"],
+  "infoURL": "https://linea.build"
+}, {
+  "name": "Linea Sepolia",
+  "chainId": 59141,
+  "shortName": "linea-sepolia",
+  "networkId": 59141,
+  "nativeCurrency": {
+    "name": "Linea Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.sepolia.linea.build", "wss://rpc.sepolia.linea.build", "https://linea-sepolia.infura.io/v3/${INFURA_API_KEY}", "wss://linea-sepolia.infura.io/ws/v3/${INFURA_API_KEY}"],
+  "faucets": [],
   "infoURL": "https://linea.build"
 }, {
   "name": "Linea",
