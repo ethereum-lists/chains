@@ -15534,6 +15534,19 @@
   "faucets": [],
   "infoURL": "https://zillnet.io"
 }, {
+  "name": "SaharaAI Testnet",
+  "chainId": 313313,
+  "shortName": "saharatest",
+  "networkId": 313313,
+  "nativeCurrency": {
+    "name": "SAHARA",
+    "symbol": "SAH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.saharalabs.ai"],
+  "faucets": [],
+  "infoURL": "https://saharalabs.ai"
+}, {
   "name": "Filecoin - Calibration testnet",
   "chainId": 314159,
   "shortName": "filecoin-calibration",
@@ -16599,6 +16612,19 @@
   "rpc": ["https://sc-rpc.dpu.ac.th"],
   "faucets": [],
   "infoURL": ""
+}, {
+  "name": "SaharaAI Network",
+  "chainId": 3132023,
+  "shortName": "sahara",
+  "networkId": 3132023,
+  "nativeCurrency": {
+    "name": "SAHARA",
+    "symbol": "SAH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.saharalabs.ai"],
+  "faucets": [],
+  "infoURL": "https://saharalabs.ai"
 }, {
   "name": "Filecoin - Butterfly testnet",
   "chainId": 3141592,
