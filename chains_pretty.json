@@ -20509,10 +20509,10 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Zilliqa 2 EVM Devnet",
+  "name": "Zilliqa-2 EVM Devnet",
   "chain": "ZIL",
-  "rpc": ["https://api.zq2-devnet.zilstg.dev"],
-  "faucets": ["https://faucet.zq2-devnet.zilstg.dev"],
+  "rpc": ["https://api.zq2-devnet.zilliqa.com"],
+  "faucets": ["https://faucet.zq2-devnet.zilliqa.com"],
   "nativeCurrency": {
     "name": "Zilliqa",
     "symbol": "ZIL",
@@ -20524,8 +20524,8 @@
   "networkId": 33469,
   "icon": "zilliqa",
   "explorers": [{
-    "name": "Zilliqa 2 EVM Devnet Explorer",
-    "url": "https://explorer.zq2-devnet.zilstg.dev",
+    "name": "Zilliqa-2 EVM Devnet Explorer",
+    "url": "https://explorer.zq2-devnet.zilliqa.com",
     "standard": "EIP3091"
   }]
 }, {
