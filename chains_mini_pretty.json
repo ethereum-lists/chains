@@ -2274,6 +2274,19 @@
   "faucets": [],
   "infoURL": "https://moac.io"
 }, {
+  "name": "Edgeless Testnet",
+  "chainId": 202,
+  "shortName": "edgeless-testnet",
+  "networkId": 202,
+  "nativeCurrency": {
+    "name": "Edgeless Wrapped Eth",
+    "symbol": "EwEth",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.rpc.edgeless.network/http"],
+  "faucets": [],
+  "infoURL": "https://edgeless.network"
+}, {
   "name": "opBNB Mainnet",
   "chainId": 204,
   "shortName": "obnb",
@@ -6979,6 +6992,19 @@
   "rpc": ["https://mainnet.rangersprotocol.com/api/jsonrpc"],
   "faucets": [],
   "infoURL": "https://rangersprotocol.com"
+}, {
+  "name": "Edgeless Network",
+  "chainId": 2026,
+  "shortName": "edgeless",
+  "networkId": 2026,
+  "nativeCurrency": {
+    "name": "Edgeless Wrapped Eth",
+    "symbol": "EwEth",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.edgeless.network/http"],
+  "faucets": [],
+  "infoURL": "https://edgeless.network"
 }, {
   "name": "Centrifuge",
   "chainId": 2031,
