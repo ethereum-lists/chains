@@ -1,6 +1,6 @@
 {
     "name": "XR Sepolia",
-    "shortName": "xr-sep",
+    "shortName": "txr",
     "chainId": 2730,
     "networkId": 2730,
     "chain": "ETH",
@@ -17,7 +17,7 @@
     "explorers": [{
         "name": "XR Sepolia Explorer",
         "url": "https://xr-sepolia-testnet.explorer.caldera.xyz",
-        "icon": "xr",
+        "icon": "blockscout",
         "standard": "EIP3091"
     }],
     "parent": {
