@@ -15,10 +15,12 @@
   "chainId": 141319,
   "networkId": 141319,
   "icon": "magape",
-  "explorers": [{
-    "name": "etherscan",
-    "url": "http://testnet-api.magape.io:81",
-	"icon": "magape",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "etherscan",
+      "url": "http://testnet-api.magape.io:81",
+      "icon": "magape",
+      "standard": "EIP3091"
+    }
+  ]
 }
