@@ -15521,6 +15521,19 @@
   "faucets": ["http://faucet.reapchain.com"],
   "infoURL": "https://reapchain.com"
 }, {
+  "name": "HydraDX",
+  "chainId": 222222,
+  "shortName": "hdx",
+  "networkId": 222222,
+  "nativeCurrency": {
+    "name": "Wrapped ETH",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.hydradx.cloud", "wss://rpc.hydradx.cloud"],
+  "faucets": [],
+  "infoURL": "https://hydradx.io"
+}, {
   "name": "DeepL Mainnet",
   "chainId": 222555,
   "shortName": "deepl",
