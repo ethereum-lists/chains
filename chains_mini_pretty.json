@@ -3639,6 +3639,19 @@
   "faucets": [],
   "infoURL": "https://pawchainx.com/"
 }, {
+  "name": "Testnet",
+  "chainId": 545,
+  "shortName": "flow-testnet",
+  "networkId": 545,
+  "nativeCurrency": {
+    "name": "FLOW",
+    "symbol": "FLOW",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.evm.nodes.onflow.org"],
+  "faucets": ["https://testnet-faucet.onflow.org"],
+  "infoURL": "https://developers.flow.com/evm/about"
+}, {
   "name": "Vela1 Chain Mainnet",
   "chainId": 555,
   "shortName": "CLASS",
@@ -3847,9 +3860,9 @@
   "faucets": [],
   "infoURL": "https://avocado.instadapp.io"
 }, {
-  "name": "FlowEVM PreviewNet",
+  "name": "Previewnet",
   "chainId": 646,
-  "shortName": "flowevm-preview",
+  "shortName": "flow-previewnet",
   "networkId": 646,
   "nativeCurrency": {
     "name": "FLOW",
@@ -4133,9 +4146,9 @@
   "faucets": [],
   "infoURL": "https://token.script.tv"
 }, {
-  "name": "FlowEVM Mainnet",
+  "name": "Mainnet",
   "chainId": 747,
-  "shortName": "flowevm-mainnet",
+  "shortName": "flow-mainnet",
   "networkId": 747,
   "nativeCurrency": {
     "name": "FLOW",

@@ -5888,6 +5888,26 @@
     "standard": "none"
   }]
 }, {
+  "name": "Testnet",
+  "chain": "Flow",
+  "rpc": ["https://testnet.evm.nodes.onflow.org"],
+  "faucets": ["https://testnet-faucet.onflow.org"],
+  "nativeCurrency": {
+    "name": "FLOW",
+    "symbol": "FLOW",
+    "decimals": 18
+  },
+  "infoURL": "https://developers.flow.com/evm/about",
+  "shortName": "flow-testnet",
+  "chainId": 545,
+  "networkId": 545,
+  "icon": "flowevm",
+  "explorers": [{
+    "name": "Flow Diver",
+    "url": "https://testnet.flowdiver.io",
+    "standard": "none"
+  }]
+}, {
   "name": "Vela1 Chain Mainnet",
   "chain": "VELA1",
   "rpc": ["https://rpc.velaverse.io"],
@@ -6229,8 +6249,8 @@
     "standard": "none"
   }]
 }, {
-  "name": "FlowEVM PreviewNet",
-  "chain": "FlowEVM",
+  "name": "Previewnet",
+  "chain": "Flow",
   "rpc": ["https://previewnet.evm.nodes.onflow.org"],
   "faucets": ["https://previewnet-faucet.onflow.org"],
   "nativeCurrency": {
@@ -6239,7 +6259,7 @@
     "decimals": 18
   },
   "infoURL": "https://developers.flow.com/evm/about",
-  "shortName": "flowevm-preview",
+  "shortName": "flow-previewnet",
   "chainId": 646,
   "networkId": 646,
   "icon": "flowevm",
@@ -6671,8 +6691,8 @@
     "standard": "none"
   }]
 }, {
-  "name": "FlowEVM Mainnet",
-  "chain": "FlowEVM",
+  "name": "Mainnet",
+  "chain": "Flow",
   "rpc": ["https://mainnet.evm.nodes.onflow.org"],
   "faucets": [],
   "nativeCurrency": {
@@ -6681,7 +6701,7 @@
     "decimals": 18
   },
   "infoURL": "https://developers.flow.com/evm/about",
-  "shortName": "flowevm-mainnet",
+  "shortName": "flow-mainnet",
   "chainId": 747,
   "networkId": 747,
   "icon": "flowevm",
