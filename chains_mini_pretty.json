@@ -15224,7 +15224,7 @@
 }, {
   "name": "Bitlayer Testnet",
   "chainId": 200810,
-  "shortName": "Bitlayer",
+  "shortName": "btrt",
   "networkId": 200810,
   "nativeCurrency": {
     "name": "BTC",
@@ -15233,6 +15233,19 @@
   },
   "rpc": ["https://testnet-rpc.bitlayer.org", "wss://testnet-ws.bitlayer.org", "https://testnet-rpc.bitlayer-rpc.com", "wss://testnet-ws.bitlayer-rpc.com", "https://rpc.ankr.com/bitlayer_testnet"],
   "faucets": ["https://www.bitlayer.org/faucet"],
+  "infoURL": "https://docs.bitlayer.org/"
+}, {
+  "name": "Bitlayer Mainnet",
+  "chainId": 200901,
+  "shortName": "btr",
+  "networkId": 200901,
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.bitlayer.org", "https://rpc.bitlayer-rpc.com", "https://rpc.ankr.com/bitlayer", "wss://ws.bitlayer.org", "wss://ws.bitlayer-rpc.com"],
+  "faucets": [],
   "infoURL": "https://docs.bitlayer.org/"
 }, {
   "name": "Alaya Mainnet",
