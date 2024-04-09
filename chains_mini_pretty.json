@@ -8033,6 +8033,32 @@
   "faucets": [],
   "infoURL": "https://vulture.finance"
 }, {
+  "name": "SatoshiVM Alpha Mainnet",
+  "chainId": 3109,
+  "shortName": "SAVM",
+  "networkId": 3109,
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://alpha-rpc-node-http.svmscan.io"],
+  "faucets": [],
+  "infoURL": "https://www.satoshivm.io/"
+}, {
+  "name": "SatoshiVM Testnet",
+  "chainId": 3110,
+  "shortName": "tSAVM",
+  "networkId": 3110,
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://test-rpc-node-http.svmscan.io"],
+  "faucets": [],
+  "infoURL": "https://www.satoshivm.io/"
+}, {
   "name": "Filecoin - Hyperspace testnet",
   "chainId": 3141,
   "shortName": "filecoin-hyperspace",
