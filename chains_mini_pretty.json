@@ -17926,6 +17926,19 @@
   "faucets": ["https://sfuel.skale.network/staging/chaos"],
   "infoURL": "https://docs.skale.network/develop/"
 }, {
+  "name": "RARI Chain Mainnet",
+  "chainId": 1380012617,
+  "shortName": "rari-mainnet",
+  "networkId": 1380012617,
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rari.calderachain.xyz/http"],
+  "faucets": [],
+  "infoURL": "https://rarichain.org/"
+}, {
   "name": "RaptorChain",
   "chainId": 1380996178,
   "shortName": "rptr",
@@ -18094,6 +18107,19 @@
   "rpc": ["https://api.s1.ps.hmny.io"],
   "faucets": [],
   "infoURL": "https://www.harmony.one/"
+}, {
+  "name": "RARI Chain Testnet",
+  "chainId": 1918988905,
+  "shortName": "rari-testnet",
+  "networkId": 1918988905,
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.rpc.rarichain.org/http"],
+  "faucets": [],
+  "infoURL": "https://rarichain.org/"
 }, {
   "name": "DataHopper",
   "chainId": 2021121117,
