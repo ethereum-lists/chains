@@ -12141,6 +12141,19 @@
   "faucets": [],
   "infoURL": "https://doc.mxc.com/docs/intro"
 }, {
+  "name": "Titan (TKX)",
+  "chainId": 18888,
+  "shortName": "titan_tkx",
+  "networkId": 18888,
+  "nativeCurrency": {
+    "name": "Titan tkx",
+    "symbol": "TKX",
+    "decimals": 18
+  },
+  "rpc": ["https://titan-json-rpc.titanlab.io"],
+  "faucets": [],
+  "infoURL": "https://titanlab.io"
+}, {
   "name": "Titan (TKX) Testnet",
   "chainId": 18889,
   "shortName": "titan_tkx-testnet",
