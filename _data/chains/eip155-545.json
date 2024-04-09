@@ -1,22 +1,22 @@
 {
-  "name": "Previewnet",
+  "name": "Testnet",
   "chain": "Flow",
-  "rpc": ["https://previewnet.evm.nodes.onflow.org"],
-  "faucets": ["https://previewnet-faucet.onflow.org"],
+  "rpc": ["https://testnet.evm.nodes.onflow.org"],
+  "faucets": ["https://testnet-faucet.onflow.org"],
   "nativeCurrency": {
     "name": "FLOW",
     "symbol": "FLOW",
     "decimals": 18
   },
   "infoURL": "https://developers.flow.com/evm/about",
-  "shortName": "flow-previewnet",
-  "chainId": 646,
-  "networkId": 646,
+  "shortName": "flow-testnet",
+  "chainId": 545,
+  "networkId": 545,
   "icon": "flowevm",
   "explorers": [
     {
       "name": "Flow Diver",
-      "url": "https://previewnet.flowdiver.io",
+      "url": "https://testnet.flowdiver.io",
       "standard": "none"
     }
   ]
