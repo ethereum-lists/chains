@@ -7578,6 +7578,19 @@
   "faucets": [],
   "infoURL": "https://xo-dex.com"
 }, {
+  "name": "King Of Legends Devnet",
+  "chainId": 2425,
+  "shortName": "kol",
+  "networkId": 2425,
+  "nativeCurrency": {
+    "name": "King Of Legends",
+    "symbol": "KOL",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-devnet.kinggamer.org/"],
+  "faucets": [],
+  "infoURL": "https://kingoflegends.net/"
+}, {
   "name": "Polygon zkEVM Cardona Testnet",
   "chainId": 2442,
   "shortName": "zkevm-testnet-cardona",
