@@ -11712,6 +11712,19 @@
   "faucets": ["https://docs.immutable.com/docs/zkEVM/guides/faucet"],
   "infoURL": "https://www.immutable.com"
 }, {
+  "name": "Kronobit Mainnet",
+  "chainId": 13600,
+  "shortName": "KNB",
+  "networkId": 13600,
+  "nativeCurrency": {
+    "name": "Kronobit",
+    "symbol": "KNB",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.qbitscan.com"],
+  "faucets": [],
+  "infoURL": "https://kronobit.org"
+}, {
   "name": "Susono",
   "chainId": 13812,
   "shortName": "sus",
