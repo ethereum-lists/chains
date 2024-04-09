@@ -1,0 +1,25 @@
+{
+  "name": "Netmind Chain Testnet",
+  "title": "NetMind Chain Testnet",
+  "chain": "NetMind",
+  "rpc": ["https://testblock.protago-dev.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NMT",
+    "symbol": "NMT",
+    "decimals": 18
+  },
+  "infoURL": "https://netmind.ai",
+  "shortName": "nmtTest",
+  "chainId": 1100789,
+  "networkId": 1100789,
+  "icon": "netmind",
+  "explorers": [
+    {
+      "name": "NetMind Testnet Explorer",
+      "url": "https://testbrower.protago-dev.com",
+      "icon": "netmind",
+      "standard": "EIP3091"
+    }
+  ]
+}
