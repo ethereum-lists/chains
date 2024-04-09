@@ -7500,6 +7500,19 @@
   "faucets": ["https://faucet.atleta.network"],
   "infoURL": "https://atleta.network"
 }, {
+  "name": "Omnia Chain",
+  "chainId": 2342,
+  "shortName": "omnia",
+  "networkId": 2342,
+  "nativeCurrency": {
+    "name": "Omnia",
+    "symbol": "OMNIA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.omniaverse.io"],
+  "faucets": ["https://www.omniaverse.io"],
+  "infoURL": "https://www.omniaverse.io"
+}, {
   "name": "(deprecated) Kroma Sepolia",
   "chainId": 2357,
   "shortName": "deprecated-kroma-sepolia",
