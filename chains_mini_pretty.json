@@ -11075,6 +11075,19 @@
   "faucets": [],
   "infoURL": "https://altlayer.io"
 }, {
+  "name": "Ztc Mainnet",
+  "chainId": 9998,
+  "shortName": "ZTC",
+  "networkId": 9998,
+  "nativeCurrency": {
+    "name": "Ztcer",
+    "symbol": "ZTC",
+    "decimals": 5
+  },
+  "rpc": ["https://zitcoin.us"],
+  "faucets": [],
+  "infoURL": "https://ztc.best"
+}, {
   "name": "myOwn Testnet",
   "chainId": 9999,
   "shortName": "myn",
