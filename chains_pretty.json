@@ -15233,6 +15233,27 @@
   "slip44": 1,
   "explorers": []
 }, {
+  "name": "Tangle",
+  "chain": "Tangle",
+  "rpc": ["https://rpc.tangle.tools", "wss://rpc.tangle.tools"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Tangle",
+    "symbol": "TNT",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.tangle.tools",
+  "shortName": "tangle",
+  "chainId": 5845,
+  "networkId": 5845,
+  "icon": "tangle",
+  "explorers": [{
+    "name": "Tangle EVM Explorer",
+    "url": "https://explorer.tangle.tools",
+    "standard": "EIP3091",
+    "icon": "tangle"
+  }]
+}, {
   "name": "Ontology Testnet",
   "chain": "Ontology",
   "icon": "ontology",

@@ -9489,6 +9489,19 @@
   "faucets": [],
   "infoURL": "https://trufflesuite.com/ganache/"
 }, {
+  "name": "Tangle",
+  "chainId": 5845,
+  "shortName": "tangle",
+  "networkId": 5845,
+  "nativeCurrency": {
+    "name": "Tangle",
+    "symbol": "TNT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.tangle.tools", "wss://rpc.tangle.tools"],
+  "faucets": [],
+  "infoURL": "https://docs.tangle.tools"
+}, {
   "name": "Ontology Testnet",
   "chainId": 5851,
   "shortName": "OntologyTestnet",
