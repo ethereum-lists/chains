@@ -26338,10 +26338,6 @@
     "name": "Scroll Sepolia Etherscan",
     "url": "https://sepolia.scrollscan.com",
     "standard": "EIP3091"
-  }, {
-    "name": "Scroll Sepolia Blockscout",
-    "url": "https://sepolia-blockscout.scroll.io",
-    "standard": "EIP3091"
   }],
   "parent": {
     "type": "L2",
@@ -26354,7 +26350,7 @@
   "name": "Scroll",
   "chain": "ETH",
   "status": "active",
-  "rpc": ["https://rpc.scroll.io", "https://rpc-scroll.icecreamswap.com", "https://rpc.ankr.com/scroll", "https://scroll-mainnet.chainstacklabs.com"],
+  "rpc": ["https://rpc.scroll.io", "https://rpc.ankr.com/scroll", "https://scroll-mainnet.chainstacklabs.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -26368,10 +26364,6 @@
   "explorers": [{
     "name": "Scrollscan",
     "url": "https://scrollscan.com",
-    "standard": "EIP3091"
-  }, {
-    "name": "Blockscout",
-    "url": "https://blockscout.scroll.io",
     "standard": "EIP3091"
   }],
   "parent": {
