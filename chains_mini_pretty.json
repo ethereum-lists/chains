@@ -15274,6 +15274,19 @@
   "faucets": ["https://faucet.etherlink.com"],
   "infoURL": "https://etherlink.com"
 }, {
+  "name": "Odyssey Chain (Testnet)",
+  "chainId": 131313,
+  "shortName": "DIONE",
+  "networkId": 131313,
+  "nativeCurrency": {
+    "name": "DIONE",
+    "symbol": "DIONE",
+    "decimals": 18
+  },
+  "rpc": ["https://testnode.dioneprotocol.com/ext/bc/D/rpc"],
+  "faucets": ["https://faucet.dioneprotocol.com/"],
+  "infoURL": "https://www.dioneprotocol.com/"
+}, {
   "name": "ETND Chain Mainnets",
   "chainId": 131419,
   "shortName": "ETND",

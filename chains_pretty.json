@@ -24629,6 +24629,24 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Odyssey Chain (Testnet)",
+  "chain": "DIONE",
+  "rpc": ["https://testnode.dioneprotocol.com/ext/bc/D/rpc"],
+  "faucets": ["https://faucet.dioneprotocol.com/"],
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "https://www.dioneprotocol.com/",
+  "shortName": "DIONE",
+  "chainId": 131313,
+  "networkId": 131313,
+  "icon": "odyssey",
+  "nativeCurrency": {
+    "name": "DIONE",
+    "symbol": "DIONE",
+    "decimals": 18
+  }
+}, {
   "name": "ETND Chain Mainnets",
   "chain": "ETND",
   "rpc": ["https://rpc.node1.etnd.pro/"],
