@@ -9541,6 +9541,19 @@
   "faucets": [],
   "infoURL": "https://bouncebit.io"
 }, {
+  "name": "BounceBit Mainnet",
+  "chainId": 6001,
+  "shortName": "bouncebit-mainnet",
+  "networkId": 6001,
+  "nativeCurrency": {
+    "name": "BounceBit",
+    "symbol": "BB",
+    "decimals": 18
+  },
+  "rpc": ["https://fullnode-mainnet.bouncebitapi.com/"],
+  "faucets": [],
+  "infoURL": "https://bouncebit.io"
+}, {
   "name": "Tres Testnet",
   "chainId": 6065,
   "shortName": "TRESTEST",
