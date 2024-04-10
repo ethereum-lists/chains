@@ -16262,6 +16262,19 @@
   "faucets": [],
   "infoURL": "https://dischain.xyz"
 }, {
+  "name": "DoCoin Community Chain",
+  "chainId": 526916,
+  "shortName": "DoCoin",
+  "networkId": 526916,
+  "nativeCurrency": {
+    "name": "DO",
+    "symbol": "DCT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.docoin.shop"],
+  "faucets": [],
+  "infoURL": "https://docoin.network"
+}, {
   "name": "Scroll Sepolia Testnet",
   "chainId": 534351,
   "shortName": "scr-sepolia",
