@@ -20390,6 +20390,25 @@
     "bridges": []
   }
 }, {
+  "name": "KaiChain Testnet",
+  "chain": "KaiChain",
+  "rpc": ["https://testnet-rpc.kaichain.net"],
+  "faucets": ["https://faucet.kaichain.net"],
+  "nativeCurrency": {
+    "name": "KaiChain Testnet Native Token",
+    "symbol": "KEC",
+    "decimals": 18
+  },
+  "infoURL": "https://kaichain.net",
+  "shortName": "tkec",
+  "chainId": 29536,
+  "networkId": 29536,
+  "explorers": [{
+    "name": "KaiChain Explorer",
+    "url": "https://testnet-explorer.kaichain.net",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "MCH Verse Mainnet",
   "chain": "MCH Verse",
   "icon": "mch_verse",
@@ -22256,6 +22275,25 @@
   "chainId": 60808,
   "networkId": 60808,
   "status": "incubating"
+}, {
+  "name": "KaiChain",
+  "chain": "KaiChain",
+  "rpc": ["https://mainnet-rpc.kaichain.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "KaiChain Native Token",
+    "symbol": "KEC",
+    "decimals": 18
+  },
+  "infoURL": "https://kaichain.net",
+  "shortName": "kec",
+  "chainId": 61406,
+  "networkId": 61406,
+  "explorers": [{
+    "name": "KaiChain Explorer",
+    "url": "https://explorer.kaichain.net",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "AxelChain Dev-Net",
   "chain": "AXEL",

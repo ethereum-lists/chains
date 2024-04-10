@@ -12700,6 +12700,19 @@
   "faucets": [],
   "infoURL": "https://www.hychain.com"
 }, {
+  "name": "KaiChain Testnet",
+  "chainId": 29536,
+  "shortName": "tkec",
+  "networkId": 29536,
+  "nativeCurrency": {
+    "name": "KaiChain Testnet Native Token",
+    "symbol": "KEC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.kaichain.net"],
+  "faucets": ["https://faucet.kaichain.net"],
+  "infoURL": "https://kaichain.net"
+}, {
   "name": "MCH Verse Mainnet",
   "chainId": 29548,
   "shortName": "MCHV",
@@ -13791,6 +13804,19 @@
   "rpc": [],
   "faucets": [],
   "infoURL": "https://gobob.xyz"
+}, {
+  "name": "KaiChain",
+  "chainId": 61406,
+  "shortName": "kec",
+  "networkId": 61406,
+  "nativeCurrency": {
+    "name": "KaiChain Native Token",
+    "symbol": "KEC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.kaichain.net"],
+  "faucets": [],
+  "infoURL": "https://kaichain.net"
 }, {
   "name": "AxelChain Dev-Net",
   "chainId": 61800,
