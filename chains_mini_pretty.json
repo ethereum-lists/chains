@@ -12531,6 +12531,32 @@
   "faucets": [],
   "infoURL": "https://docs.oasis.io/dapp/sapphire"
 }, {
+  "name": "DreyerX Mainnet",
+  "chainId": 23451,
+  "shortName": "dreyerx",
+  "networkId": 23451,
+  "nativeCurrency": {
+    "name": "DreyerX",
+    "symbol": "DRX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.dreyerx.com"],
+  "faucets": [],
+  "infoURL": "https://dreyerx.com"
+}, {
+  "name": "DreyerX Testnet",
+  "chainId": 23452,
+  "shortName": "dreyerx-testnet",
+  "networkId": 23452,
+  "nativeCurrency": {
+    "name": "DreyerX",
+    "symbol": "DRX",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.dreyerx.com"],
+  "faucets": [],
+  "infoURL": "https://dreyerx.com"
+}, {
   "name": "Blast Testnet",
   "chainId": 23888,
   "shortName": "blastT",
