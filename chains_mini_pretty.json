@@ -16626,6 +16626,19 @@
   "faucets": [],
   "infoURL": "https://www.blocxchain.org/"
 }, {
+  "name": "REXX Mainnet",
+  "chainId": 888882,
+  "shortName": "REXX",
+  "networkId": 888882,
+  "nativeCurrency": {
+    "name": "REXX",
+    "symbol": "REXX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.rexxnetwork.com"],
+  "faucets": [],
+  "infoURL": "https://rexxnetwork.com"
+}, {
   "name": "Vision - Mainnet",
   "chainId": 888888,
   "shortName": "vision",
