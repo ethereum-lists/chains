@@ -3730,6 +3730,19 @@
   "faucets": [],
   "infoURL": "https://metatime.com/en"
 }, {
+  "name": "Filenova Mainnet",
+  "chainId": 579,
+  "shortName": "filenova",
+  "networkId": 579,
+  "nativeCurrency": {
+    "name": "Filecoin",
+    "symbol": "FIL",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.filenova.org"],
+  "faucets": [],
+  "infoURL": "https://filenova.org"
+}, {
   "name": "Metis Stardust Testnet",
   "chainId": 588,
   "shortName": "metis-stardust",
@@ -9423,6 +9436,19 @@
   "rpc": ["https://rpc-main1.qiblockchain.online/", "https://rpc-main2.qiblockchain.online/"],
   "faucets": [],
   "infoURL": "https://qiblockchain.online/"
+}, {
+  "name": "Filenova Testnet",
+  "chainId": 5675,
+  "shortName": "tfilenova",
+  "networkId": 5675,
+  "nativeCurrency": {
+    "name": "Test Filecoin",
+    "symbol": "tFIL",
+    "decimals": 18
+  },
+  "rpc": ["https://rpctest.filenova.org"],
+  "faucets": [],
+  "infoURL": "https://filenova.org"
 }, {
   "name": "Tanssi EVM ContainerChain",
   "chainId": 5678,
