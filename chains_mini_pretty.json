@@ -17952,6 +17952,19 @@
   "faucets": ["https://faucet.ptcscan.io/"],
   "infoURL": "https://ptcscan.io"
 }, {
+  "name": "PTCESCAN Mainnet",
+  "chainId": 889910246,
+  "shortName": "POLYTECH",
+  "networkId": 889910246,
+  "nativeCurrency": {
+    "name": "PTCE",
+    "symbol": "PTCE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.ptcscan.io"],
+  "faucets": [],
+  "infoURL": "https://ptcscan.io"
+}, {
   "name": "SKALE Calypso Hub Testnet",
   "chainId": 974399131,
   "shortName": "calypso-testnet",
