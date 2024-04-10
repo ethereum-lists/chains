@@ -17588,6 +17588,19 @@
   "faucets": ["https://www.sfuelstation.com/"],
   "infoURL": "https://nebulachain.io/"
 }, {
+  "name": "Kingdom Chain",
+  "chainId": 39916801,
+  "shortName": "kchain",
+  "networkId": 39916801,
+  "nativeCurrency": {
+    "name": "Kozi",
+    "symbol": "KOZI",
+    "decimals": 18
+  },
+  "rpc": ["https://kingdomchain.observer/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.beastkingdom.io/"
+}, {
   "name": "maistestsubnet",
   "chainId": 43214913,
   "shortName": "mais",
