@@ -26617,6 +26617,28 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Eclipse Testnet",
+  "chain": "ECLIPSE",
+  "rpc": ["https://subnets.avax.network/eclipsecha/testnet/rpc"],
+  "features": [{
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Eclipse",
+    "symbol": "ECLP",
+    "decimals": 18
+  },
+  "infoURL": "http://eclipsenet.io",
+  "shortName": "eclipset",
+  "chainId": 555666,
+  "networkId": 555666,
+  "explorers": [{
+    "name": "ECLIPSE Explorer",
+    "url": "https://subnets-test.avax.network/eclipsecha",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Hypra Mainnet",
   "chain": "HYP",
   "rpc": ["https://rpc.hypra.network", "https://rpc.rethereum.org", "https://rethereum.rpc.restratagem.com", "https://rpc.rthcentral.org", "https://hypra.rpc.thirdweb.com"],

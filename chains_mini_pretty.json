@@ -16483,6 +16483,19 @@
   "faucets": [],
   "infoURL": "besceco.finance"
 }, {
+  "name": "Eclipse Testnet",
+  "chainId": 555666,
+  "shortName": "eclipset",
+  "networkId": 555666,
+  "nativeCurrency": {
+    "name": "Eclipse",
+    "symbol": "ECLP",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/eclipsecha/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "http://eclipsenet.io"
+}, {
   "name": "Hypra Mainnet",
   "chainId": 622277,
   "shortName": "hyp",
