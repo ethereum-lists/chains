@@ -12726,6 +12726,19 @@
   "faucets": ["http://faucet.oasischain.io"],
   "infoURL": "https://scan.oasischain.io"
 }, {
+  "name": "Vizing Mainnet",
+  "chainId": 28518,
+  "shortName": "Vizing",
+  "networkId": 28518,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.vizing.com"],
+  "faucets": [],
+  "infoURL": "https://vizing.com"
+}, {
   "name": "Optimism Bedrock (Goerli Alpha Testnet)",
   "chainId": 28528,
   "shortName": "obgor",

@@ -20422,6 +20422,35 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Vizing Mainnet",
+  "title": "Vizing Mainnet",
+  "chain": "Vizing Mainnet",
+  "rpc": ["https://rpc.vizing.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://vizing.com",
+  "shortName": "Vizing",
+  "chainId": 28518,
+  "networkId": 28518,
+  "icon": "vizing",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.vizing.com",
+    "icon": "vizing",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://bridge.vizing.com"
+    }]
+  }
+}, {
   "name": "Optimism Bedrock (Goerli Alpha Testnet)",
   "chain": "ETH",
   "rpc": ["https://alpha-1-replica-0.bedrock-goerli.optimism.io", "https://alpha-1-replica-1.bedrock-goerli.optimism.io", "https://alpha-1-replica-2.bedrock-goerli.optimism.io", "https://alpha-1-replica-2.bedrock-goerli.optimism.io"],
