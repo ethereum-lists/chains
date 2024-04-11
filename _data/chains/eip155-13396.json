@@ -1,8 +1,8 @@
 {
-  "name": "Masa Testnet",
+  "name": "Masa",
   "chain": "MASA",
   "icon": "masa",
-  "rpc": ["https://subnets.avax.network/masatestne/testnet/rpc"],
+  "rpc": ["https://subnets.avax.network/masanetwork/mainnet/rpc"],
   "features": [
     {
       "name": "EIP1559"
@@ -15,13 +15,13 @@
     "decimals": 18
   },
   "infoURL": "https://masa.finance",
-  "shortName": "masatest",
-  "chainId": 103454,
-  "networkId": 103454,
+  "shortName": "masa",
+  "chainId": 13396,
+  "networkId": 13396,
   "explorers": [
     {
-      "name": "Masa Testnet Explorer",
-      "url": "https://subnets-test.avax.network/masatestnet",
+      "name": "Masa Explorer",
+      "url": "https://subnets.avax.network/masa",
       "standard": "EIP3091"
     }
   ]
