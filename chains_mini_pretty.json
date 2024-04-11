@@ -10178,6 +10178,19 @@
   "faucets": ["https://faucet-athena.ardescan.com/"],
   "infoURL": "https://ardenium.org"
 }, {
+  "name": "Dot Blox",
+  "chainId": 7923,
+  "shortName": "DTBX",
+  "networkId": 7923,
+  "nativeCurrency": {
+    "name": "Dot Blox",
+    "symbol": "DTBX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.dotblox.io"],
+  "faucets": [],
+  "infoURL": "https://explorer.dotblox.io"
+}, {
   "name": "DOS Chain",
   "chainId": 7979,
   "shortName": "dos",
