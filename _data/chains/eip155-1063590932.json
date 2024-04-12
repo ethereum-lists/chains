@@ -1,0 +1,24 @@
+{
+  "name": "Leopard Keen",
+  "chain": "KEEN",
+  "icon": "keen",
+  "rpc": ["https://leopardkeen-rpc.eu-north-2.gateway.fm"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.leopardkeen.xyz",
+  "shortName": "keen",
+  "chainId": 1108,
+  "networkId": 1108,
+  "explorers": [
+    {
+      "name": "Leopard Explorer",
+      "url": "https://leopardkeen-blockscout.eu-north-2.gateway.fm",
+      "icon": "keen",
+      "standard": "EIP3091"
+    }
+  ]
+}
