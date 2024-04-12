@@ -16,13 +16,13 @@
   "networkId": 167009,
   "explorers": [
     {
-      "name": "routescan",
-      "url": "https://hekla.taikoscan.network",
+      "name": "blockscout",
+      "url": "https://blockscoutapi.hekla.taiko.xyz",
       "standard": "EIP3091"
     },
     {
-      "name": "blockscout",
-      "url": "https://blockscoutapi.hekla.taiko.xyz",
+      "name": "routescan",
+      "url": "https://hekla.taikoscan.network",
       "standard": "EIP3091"
     }
   ]
