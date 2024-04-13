@@ -14,9 +14,11 @@
   "shortName": "aiet",
   "chainId": 413413,
   "networkId": 413413,
+  "icon": "aie",
   "explorers": [
     {
       "name": "aiescan-testnet",
+      "icon": "aie",
       "url": "https://testnet.aiescan.io",
       "standard": "none"
     }
