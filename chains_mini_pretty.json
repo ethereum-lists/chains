@@ -7253,6 +7253,19 @@
   "faucets": [],
   "infoURL": "https://moonsama.com"
 }, {
+  "name": "Catena Mainnet",
+  "chainId": 2121,
+  "shortName": "cmcx",
+  "networkId": 2121,
+  "nativeCurrency": {
+    "name": "Catena",
+    "symbol": "CMCX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1.catenarpc.com"],
+  "faucets": [],
+  "infoURL": "https://catena.network"
+}, {
   "name": "Metaplayerone Mainnet",
   "chainId": 2122,
   "shortName": "Metad",
