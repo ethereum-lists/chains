@@ -1,9 +1,7 @@
 {
   "name": "AIE Testnet",
   "chain": "AIE",
-  "rpc": [
-    "https://rpc1-testnet.aiechain.io"
-  ],
+  "rpc": ["https://rpc1-testnet.aiechain.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "AIE",
