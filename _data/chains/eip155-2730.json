@@ -10,24 +10,17 @@
         "symbol": "tXR",
         "decimals": 18
     },
-    "features": [
-        {
-            "name": "EIP155"
-        },
-        {
-            "name": "EIP1559"
-        }
-    ],
     "infoURL": "https://xr-one.gitbook.io",
     "shortName": "txr",
     "chainId": 2730,
     "networkId": 2730,
     "icon": "xr",
+    "slip44": 60,
     "explorers": [
         {
-            "name": "XR Sepolia Explorer",
+            "name": "blockscout",
             "url": "https://xr-sepolia-testnet.explorer.caldera.xyz",
-            "icon": "xr",
+            "icon": "blockscout",
             "standard": "EIP3091"
         }
     ],
@@ -39,5 +32,6 @@
                 "url": "https://xr-sepolia-testnet.bridge.caldera.xyz"
             }
         ]
-    }
+    },
+    "status": "active"
 }
