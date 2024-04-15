@@ -1,0 +1,28 @@
+{
+  "name": "LAOS",
+  "title": "LAOS Network",
+  "chain": "LAOS",
+  "icon": "laos_network",
+  "rpc": [
+    "https://rpc.laos.laosfoundation.io",
+    "wss://rpc.laos.laosfoundation.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LAOS",
+    "symbol": "LAOS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.laosfoundation.io/",
+  "shortName": "laos",
+  "chainId": 6283,
+  "networkId": 6283,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockscout.laos.laosfoundation.io",
+      "icon": "laos_network",
+      "standard": "EIP3091"
+    }
+  ]
+}
