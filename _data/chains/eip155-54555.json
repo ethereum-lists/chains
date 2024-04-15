@@ -1,11 +1,8 @@
 {
   "name": "Photon Testnet",
   "chain": "Photon",
-  "icon": "photon",
   "rpc": ["https://rpc-test.photonchain.io"],
-  "faucets": [
-    "https://photonchain.io/airdrop"
-  ],
+  "faucets": ["https://photonchain.io/airdrop"],
   "nativeCurrency": {
     "name": "Photon",
     "symbol": "PTON",
