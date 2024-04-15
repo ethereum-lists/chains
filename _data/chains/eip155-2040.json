@@ -16,5 +16,11 @@
   "networkId": 2040,
   "icon": "vanar",
   "explorers": [
+    {
+      "name": "Vanar Explorer",
+      "url": "",
+      "icon": "vanar",
+      "standard": "EIP3091"
+    }
   ]
 }
