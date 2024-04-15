@@ -1,0 +1,28 @@
+{
+  "name": "LAOS Omega",
+  "title": "LAOS Omega Test Network",
+  "chain": "LAOS Omega",
+  "icon": "laos_network",
+  "rpc": [
+    "https://rpc.laosomega.laosfoundation.io",
+    "wss://rpc.laosomega.laosfoundation.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LAOS",
+    "symbol": "LAOS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.laosfoundation.io/",
+  "shortName": "laosomega",
+  "chainId": 62831,
+  "networkId": 62831,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockscout.laosomega.laosfoundation.io",
+      "icon": "laos_network",
+      "standard": "EIP3091"
+    }
+  ]
+}
