@@ -1,0 +1,29 @@
+{
+  "name": "Vanguard",
+  "title": "Vanar Testnet Vanguard",
+  "chain": "VANAR",
+  "rpc": [
+    "https://rpc-vanguard.vanarchain.com",
+    "wss://ws-vanguard.vanarchain.com"
+  ],
+  "faucets": ["https://faucet.vanarchain.com"],
+  "nativeCurrency": {
+    "name": "Vanguard Vanry",
+    "symbol": "VG",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://vanarchain.com",
+  "shortName": "vanguard",
+  "chainId": 78600,
+  "networkId": 78600,
+  "icon": "vanguard",
+  "explorers": [
+    {
+      "name": "Vanguard Explorer",
+      "url": "https://explorer-vanguard.vanarchain.com",
+      "icon": "vanguard",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -15,11 +15,13 @@
   "shortName": "dodao",
   "chainId": 855456,
   "networkId": 855456,
+  "icon": "dodao",
   "explorers": [
     {
       "name": "Dodao Explorer",
       "url": "https://tanssi-evmexplorer.netlify.app/?rpcUrl=https://fraa-dancebox-3041-rpc.a.dancebox.tanssi.network",
-      "standard": "none"
+      "icon": "dodao",
+      "standard": "EIP3091"
     }
   ]
 }

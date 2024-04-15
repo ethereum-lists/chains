@@ -1,7 +1,11 @@
 {
   "name": "Metis Andromeda Mainnet",
   "chain": "ETH",
-  "rpc": ["https://andromeda.metis.io/?owner=1088"],
+  "rpc": [
+    "https://andromeda.metis.io/?owner=1088",
+    "https://metis.drpc.org",
+    "wss://metis.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Metis",

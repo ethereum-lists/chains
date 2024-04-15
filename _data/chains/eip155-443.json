@@ -1,28 +1,29 @@
 {
-  "name": "Obscuro Testnet",
-  "title": "Obscuro Sepolia Rollup Testnet",
+  "name": "Ten Testnet",
+  "title": "Ten Sepolia Rollup Testnet",
   "chainId": 443,
-  "shortName": "obs-testnet",
+  "shortName": "ten-testnet",
   "chain": "ETH",
   "networkId": 443,
+  "slip44": 1,
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://testnet.obscu.ro"],
+  "rpc": ["https://testnet.ten.xyz"],
   "faucets": [],
-  "infoURL": "https://obscu.ro",
+  "infoURL": "https://ten.xyz",
   "explorers": [
     {
-      "name": "Obscuro Sepolia Rollup Explorer",
-      "url": "https://testnet.obscuroscan.io",
+      "name": "Ten Sepolia Rollup Explorer",
+      "url": "https://tenscan.io",
       "standard": "none"
     }
   ],
   "parent": {
     "type": "L2",
     "chain": "eip155-5",
-    "bridges": [{ "url": "https://bridge.obscu.ro" }]
+    "bridges": [{ "url": "https://bridge.ten.xyz" }]
   }
 }

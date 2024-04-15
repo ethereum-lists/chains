@@ -12,6 +12,7 @@
   "shortName": "mantle-testnet",
   "chainId": 5001,
   "networkId": 5001,
+  "slip44": 1,
   "explorers": [
     {
       "name": "Mantle Testnet Explorer",

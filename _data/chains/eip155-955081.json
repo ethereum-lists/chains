@@ -1,0 +1,28 @@
+{
+  "name": "Jono12 Subnet",
+  "chain": "JONO12",
+  "icon": "jono12",
+  "rpc": ["https://subnets.avax.network/jono12/testnet/rpc"],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Jono12 Token",
+    "symbol": "JONO",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "jono12",
+  "chainId": 955081,
+  "networkId": 955081,
+  "explorers": [
+    {
+      "name": "JONO12 Explorer",
+      "url": "https://subnets-test.avax.network/jono12",
+      "standard": "EIP3091"
+    }
+  ]
+}

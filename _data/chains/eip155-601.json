@@ -1,24 +1,24 @@
 {
-  "name": "PEER Testnet",
-  "chain": "PEER",
-  "rpc": ["http://testnet-polka-host-232813573.us-west-1.elb.amazonaws.com"],
-  "faucets": ["https://testnet.peer.inc"],
+  "name": "Vine Testnet",
+  "chain": "VINE",
+  "rpc": ["https://rpc-testnet.vne.network"],
+  "faucets": ["https://vne.network/rose"],
   "nativeCurrency": {
-    "name": "PEER Token",
-    "symbol": "PEER",
+    "name": "VINE",
+    "symbol": "VNE",
     "decimals": 18
   },
-  "infoURL": "https://peer.inc",
-  "shortName": "PEER",
+  "infoURL": "https://www.peer.inc",
+  "shortName": "VINE",
   "chainId": 601,
   "networkId": 601,
-  "icon": "peer",
+  "icon": "vine",
   "explorers": [
     {
-      "name": "PEER Explorer",
-      "url": "https://testnet.peer.inc",
+      "name": "Vine Explorer",
+      "url": "https://vne.network/rose",
       "standard": "none",
-      "icon": "peer"
+      "icon": "vine"
     }
   ]
 }

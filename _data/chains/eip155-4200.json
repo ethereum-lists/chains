@@ -1,0 +1,25 @@
+{
+  "name": "Merlin Mainnet",
+  "title": "Merlin Mainnet",
+  "chain": "Merlin",
+  "rpc": ["https://rpc.merlinchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://merlinchain.io",
+  "shortName": "Merlin-Mainnet",
+  "chainId": 4200,
+  "networkId": 4200,
+  "icon": "merlin",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://scan.merlinchain.io",
+      "icon": "merlin",
+      "standard": "EIP3091"
+    }
+  ]
+}

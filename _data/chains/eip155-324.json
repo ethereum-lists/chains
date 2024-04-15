@@ -1,7 +1,11 @@
 {
-  "name": "zkSync Era Mainnet",
+  "name": "zkSync Mainnet",
   "chain": "ETH",
-  "rpc": ["https://mainnet.era.zksync.io"],
+  "rpc": [
+    "https://mainnet.era.zksync.io",
+    "https://zksync.drpc.org",
+    "wss://zksync.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

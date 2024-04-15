@@ -1,0 +1,28 @@
+{
+  "name": "Muster Mainnet",
+  "chainId": 4078,
+  "shortName": "muster",
+  "chain": "Muster",
+  "icon": "muster",
+  "networkId": 4078,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://muster.alt.technology"],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "Musterscan",
+      "url": "https://muster-explorer.alt.technology",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161",
+    "bridges": []
+  }
+}

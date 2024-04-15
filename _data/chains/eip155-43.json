@@ -14,11 +14,12 @@
   "shortName": "pangolin",
   "chainId": 43,
   "networkId": 43,
+  "slip44": 1,
   "explorers": [
     {
       "name": "subscan",
       "url": "https://pangolin.subscan.io",
-      "standard": "none"
+      "standard": "EIP3091"
     }
   ]
 }

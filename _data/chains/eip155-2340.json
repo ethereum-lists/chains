@@ -1,0 +1,25 @@
+{
+  "name": "Atleta Testnet",
+  "chain": "Atleta",
+  "rpc": ["https://atleta-testnet-rpc.quark.blue:9944"],
+  "faucets": ["https://faucet.atleta.network"],
+  "nativeCurrency": {
+    "name": "Atla",
+    "symbol": "ATLA",
+    "decimals": 18
+  },
+  "infoURL": "https://atleta.network",
+  "shortName": "atla",
+  "chainId": 2340,
+  "networkId": 2340,
+  "slip44": 1,
+  "icon": "atleta",
+  "explorers": [
+    {
+      "name": "Atleta Testnet Explorer",
+      "icon": "atleta",
+      "url": "http://185.234.69.18/?rpc=wss%3A%2F%2Fatleta-testnet-rpc.quark.blue%3A9944#/explorer",
+      "standard": "none"
+    }
+  ]
+}
