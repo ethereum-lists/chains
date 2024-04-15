@@ -15456,6 +15456,19 @@
   "faucets": [],
   "infoURL": "https://docs.ic-plaza.org/"
 }, {
+  "name": "PlayFi Mainnet",
+  "chainId": 161212,
+  "shortName": "playfi",
+  "networkId": 161212,
+  "nativeCurrency": {
+    "name": "Play",
+    "symbol": "PLAY",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://www.playfi.ai/"
+}, {
   "name": "Taiko (Alpha-2 Testnet)",
   "chainId": 167004,
   "shortName": "taiko-a2",
@@ -17093,6 +17106,19 @@
   "rpc": ["https://rpc.zhejiang.ethpandaops.io"],
   "faucets": ["https://faucet.zhejiang.ethpandaops.io", "https://zhejiang-faucet.pk910.de"],
   "infoURL": "https://zhejiang.ethpandaops.io"
+}, {
+  "name": "PlayFi Albireo Testnet",
+  "chainId": 1612127,
+  "shortName": "alberio",
+  "networkId": 1612127,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://albireo-rpc.playfi.ai"],
+  "faucets": [],
+  "infoURL": "https://www.playfi.ai/"
 }, {
   "name": "Turkey Demo Dev",
   "chainId": 1731313,

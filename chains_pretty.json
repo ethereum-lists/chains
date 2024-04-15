@@ -24929,6 +24929,22 @@
     "standard": "none"
   }]
 }, {
+  "name": "PlayFi Mainnet",
+  "chain": "PLAY",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Play",
+    "symbol": "PLAY",
+    "decimals": 18
+  },
+  "infoURL": "https://www.playfi.ai/",
+  "shortName": "playfi",
+  "chainId": 161212,
+  "networkId": 161212,
+  "explorers": [],
+  "status": "incubating"
+}, {
   "name": "Taiko (Alpha-2 Testnet)",
   "chain": "ETH",
   "status": "deprecated",
@@ -27642,6 +27658,33 @@
     "icon": "ethereum",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "PlayFi Albireo Testnet",
+  "chain": "ETH",
+  "rpc": ["https://albireo-rpc.playfi.ai"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.playfi.ai/",
+  "shortName": "alberio",
+  "chainId": 1612127,
+  "networkId": 1612127,
+  "slip44": 1,
+  "explorers": [{
+    "name": "PlayFi Block Explorer",
+    "url": "https://albireo-explorer.playfi.ai",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://portal.playfi.ai/bridge"
+    }]
+  }
 }, {
   "name": "Turkey Demo Dev",
   "chain": "ETH",
