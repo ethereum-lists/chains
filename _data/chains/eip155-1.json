@@ -7,8 +7,8 @@
     "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
     "https://api.mycryptoapi.com/eth",
     "https://cloudflare-eth.com",
-    "https://ethereum.publicnode.com",
-    "wss://ethereum.publicnode.com",
+    "https://ethereum-rpc.publicnode.com",
+    "wss://ethereum-rpc.publicnode.com",
     "https://mainnet.gateway.tenderly.co",
     "wss://mainnet.gateway.tenderly.co",
     "https://rpc.blocknative.com/boost",
@@ -17,7 +17,9 @@
     "https://rpc.mevblocker.io",
     "https://rpc.mevblocker.io/fast",
     "https://rpc.mevblocker.io/noreverts",
-    "https://rpc.mevblocker.io/fullprivacy"
+    "https://rpc.mevblocker.io/fullprivacy",
+    "https://eth.drpc.org",
+    "wss://eth.drpc.org"
   ],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],

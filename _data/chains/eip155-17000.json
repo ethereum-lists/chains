@@ -1,10 +1,13 @@
 {
   "name": "Holesky",
+  "title": "Ethereum Testnet Holesky",
   "chain": "ETH",
   "rpc": [
     "https://rpc.holesky.ethpandaops.io",
-    "https://ethereum-holesky.publicnode.com",
-    "wss://ethereum-holesky.publicnode.com"
+    "https://ethereum-holesky-rpc.publicnode.com",
+    "wss://ethereum-holesky-rpc.publicnode.com",
+    "https://holesky.drpc.org",
+    "wss://holesky.drpc.org"
   ],
   "faucets": [
     "https://faucet.holesky.ethpandaops.io",
@@ -19,6 +22,7 @@
   "shortName": "holesky",
   "chainId": 17000,
   "networkId": 17000,
+  "slip44": 1,
   "icon": "ethereum",
   "status": "incubating",
   "explorers": [

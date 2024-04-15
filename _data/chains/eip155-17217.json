@@ -1,0 +1,24 @@
+{
+  "name": "KONET Mainnet",
+  "chain": "KONET",
+  "rpc": ["https://api.kon-wallet.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "KONET",
+    "symbol": "KONET",
+    "decimals": 18
+  },
+  "infoURL": "https://konetmain.com",
+  "shortName": "KONET",
+  "chainId": 17217,
+  "networkId": 17217,
+  "slip44": 1,
+  "icon": "konet",
+  "explorers": [
+    {
+      "name": "konet-explorer",
+      "url": "https://explorer.kon-wallet.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "MetaDAP Enterprise Mainnet",
+  "title": "MetaDAP Enterprise Mainnet",
+  "chain": "MetaDAP",
+  "icon": "metadap",
+  "faucets": [],
+  "rpc": ["https://rpc.chain.metadap.io", "wss://rpc-ws.chain.metadap.io"],
+  "nativeCurrency": {
+    "name": "DAP",
+    "symbol": "DAP",
+    "decimals": 18
+  },
+  "infoURL": "https://metadap.io/",
+  "shortName": "MetaDAP",
+  "chainId": 91120,
+  "networkId": 91120,
+  "explorers": [
+    {
+      "name": "MetaDAP Enterprise Mainnet explorer",
+      "url": "https://explorer.chain.metadap.io",
+      "standard": "none"
+    }
+  ]
+}

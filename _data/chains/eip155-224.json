@@ -1,0 +1,23 @@
+{
+  "name": "Viridis Testnet",
+  "chain": "VRD",
+  "icon": "viridis",
+  "rpc": ["https://testnet-rpc.vrd.network"],
+  "faucets": ["https://faucet.vrd.network"],
+  "nativeCurrency": {
+    "name": "Viridis Token",
+    "symbol": "VRD",
+    "decimals": 18
+  },
+  "infoURL": "https://viridis.network",
+  "shortName": "VRD-Testnet",
+  "chainId": 224,
+  "networkId": 224,
+  "explorers": [
+    {
+      "name": "Viridis Testnet",
+      "url": "https://testnet.vrd.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
