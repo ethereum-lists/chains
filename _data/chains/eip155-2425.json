@@ -1,0 +1,26 @@
+{
+  "name": "King Of Legends Devnet",
+  "title": "King Of Legends Devnet",
+  "chain": "KOL",
+  "icon": "kol",
+  "rpc": ["https://rpc-devnet.kinggamer.org/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "King Of Legends",
+    "symbol": "KOL",
+    "decimals": 18
+  },
+  "infoURL": "https://kingoflegends.net/",
+  "shortName": "kol",
+  "chainId": 2425,
+  "networkId": 2425,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "King Of Legends Devnet Explorer",
+      "url": "https://devnet.kingscan.org",
+      "icon": "kol",
+      "standard": "EIP3091"
+    }
+  ]
+}
