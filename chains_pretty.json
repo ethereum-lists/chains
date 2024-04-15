@@ -11391,6 +11391,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Vanar Mainnet",
+  "title": "Vanarchain",
+  "chain": "VANAR",
+  "rpc": ["https://rpc.vanarchain.com", "wss://ws.vanarchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "VANRY",
+    "symbol": "VANRY",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "https://vanarchain.com",
+  "shortName": "Vanar",
+  "chainId": 2040,
+  "networkId": 2040,
+  "icon": "vanar"
+}, {
   "name": "OriginTrail Parachain",
   "chain": "OTP",
   "rpc": ["https://astrosat.origintrail.network", "wss://parachain-rpc.origin-trail.network"],
@@ -23308,7 +23327,7 @@
   "faucets": ["https://faucet.vanarchain.com"],
   "nativeCurrency": {
     "name": "Vanguard Vanry",
-    "symbol": "VG",
+    "symbol": "VANRY",
     "decimals": 18
   },
   "features": [{

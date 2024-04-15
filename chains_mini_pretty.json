@@ -7110,6 +7110,19 @@
   "faucets": [],
   "infoURL": "https://www.shrapnel.com/"
 }, {
+  "name": "Vanar Mainnet",
+  "chainId": 2040,
+  "shortName": "Vanar",
+  "networkId": 2040,
+  "nativeCurrency": {
+    "name": "VANRY",
+    "symbol": "VANRY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.vanarchain.com", "wss://ws.vanarchain.com"],
+  "faucets": [],
+  "infoURL": "https://vanarchain.com"
+}, {
   "name": "OriginTrail Parachain",
   "chainId": 2043,
   "shortName": "otp",
@@ -14448,7 +14461,7 @@
   "networkId": 78600,
   "nativeCurrency": {
     "name": "Vanguard Vanry",
-    "symbol": "VG",
+    "symbol": "VANRY",
     "decimals": 18
   },
   "rpc": ["https://rpc-vanguard.vanarchain.com", "wss://ws-vanguard.vanarchain.com"],
