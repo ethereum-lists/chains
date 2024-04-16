@@ -7916,6 +7916,19 @@
   "faucets": [],
   "infoURL": "https://www.laosfoundation.io/"
 }, {
+  "name": "XR Sepolia",
+  "chainId": 2730,
+  "shortName": "txr",
+  "networkId": 2730,
+  "nativeCurrency": {
+    "name": "tXR",
+    "symbol": "tXR",
+    "decimals": 18
+  },
+  "rpc": ["https://xr-sepolia-testnet.rpc.caldera.xyz/http"],
+  "faucets": [],
+  "infoURL": "https://xr-one.gitbook.io"
+}, {
   "name": "Elizabeth Testnet",
   "chainId": 2731,
   "shortName": "TIME",
