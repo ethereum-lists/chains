@@ -1,0 +1,23 @@
+{
+  "name": "Optopia Mainnet",
+  "status": "incubating",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP1559" }],
+  "infoURL": "https://optopia.ai",
+  "shortName": "Optopia",
+  "chainId": 62050,
+  "networkId": 62050,
+  "icon": "optopia",
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
+}
