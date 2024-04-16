@@ -12765,6 +12765,19 @@
   "faucets": ["http://faucet.oasischain.io"],
   "infoURL": "https://scan.oasischain.io"
 }, {
+  "name": "KLAOS Nova",
+  "chainId": 27181,
+  "shortName": "klaosnova",
+  "networkId": 27181,
+  "nativeCurrency": {
+    "name": "KLAOS",
+    "symbol": "KLAOS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.klaosnova.laosfoundation.io", "wss://rpc.klaosnova.laosfoundation.io"],
+  "faucets": [],
+  "infoURL": "https://www.laosfoundation.io/"
+}, {
   "name": "Vizing Mainnet",
   "chainId": 28518,
   "shortName": "Vizing",
