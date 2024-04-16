@@ -17380,6 +17380,32 @@
   "faucets": [],
   "infoURL": "https://astar.network"
 }, {
+  "name": "Safe(AnWang) Mainnet",
+  "chainId": 6666665,
+  "shortName": "SafeMainnet",
+  "networkId": 6666665,
+  "nativeCurrency": {
+    "name": "SAFE(AnWang)",
+    "symbol": "SAFE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.anwang.com"],
+  "faucets": [],
+  "infoURL": "https://www.anwang.com"
+}, {
+  "name": "Safe(AnWang) Testnet",
+  "chainId": 6666666,
+  "shortName": "SafeTestnet",
+  "networkId": 6666666,
+  "nativeCurrency": {
+    "name": "SAFE(AnWang)",
+    "symbol": "SAFE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.anwang.com"],
+  "faucets": [],
+  "infoURL": "https://www.anwang.com"
+}, {
   "name": "Saakuru Mainnet",
   "chainId": 7225878,
   "shortName": "saakuru",
