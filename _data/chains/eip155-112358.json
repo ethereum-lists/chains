@@ -1,23 +1,23 @@
 {
-  "name": "Metachain One Mainnet",
-  "chain": "METAO",
-  "icon": "metao",
-  "rpc": ["https://rpc.metachain.one", "https://rpc2.metachain.one"],
+  "name": "Xterio Chain",
+  "chain": "Xterio",
+  "icon": "xterio",
+  "rpc": ["https://xterio.alt.technology"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Metao",
-    "symbol": "METAO",
+    "name": "BNB",
+    "symbol": "BNB",
     "decimals": 18
   },
-  "infoURL": "https://metachain.one",
-  "shortName": "metao",
+  "infoURL": "https://xter.io",
+  "shortName": "xterio",
   "chainId": 112358,
   "networkId": 112358,
   "explorers": [
     {
-      "name": "blockscout",
-      "url": "https://explorer.metachain.one",
-      "icon": "blockscout",
+      "name": "Xterio Chain Explorer",
+      "url": "https://xterscan.io/",
+      "icon": "xterio",
       "standard": "EIP3091"
     }
   ]
