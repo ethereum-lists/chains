@@ -16184,6 +16184,32 @@
   "faucets": ["https://faucet.polis.tech"],
   "infoURL": "https://polis.tech"
 }, {
+  "name": "UPchain Testnet",
+  "chainId": 336655,
+  "shortName": "UPchain-testnet",
+  "networkId": 336655,
+  "nativeCurrency": {
+    "name": "UBTC",
+    "symbol": "UBTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.uniport.network"],
+  "faucets": ["https://faucet-testnet.uniport.network"],
+  "infoURL": "https://uniport.network"
+}, {
+  "name": "UPchain Mainnet",
+  "chainId": 336666,
+  "shortName": "UPchain-mainnet",
+  "networkId": 336666,
+  "nativeCurrency": {
+    "name": "UBTC",
+    "symbol": "UBTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.uniport.network"],
+  "faucets": [],
+  "infoURL": "https://uniport.network"
+}, {
   "name": "Bitfinity Network Testnet",
   "chainId": 355113,
   "shortName": "Bitfinity",
