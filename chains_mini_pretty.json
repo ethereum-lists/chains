@@ -13727,6 +13727,19 @@
   "faucets": [],
   "infoURL": "https://toronet.org"
 }, {
+  "name": "Photon Testnet",
+  "chainId": 54555,
+  "shortName": "pton",
+  "networkId": 54555,
+  "nativeCurrency": {
+    "name": "Photon",
+    "symbol": "PTON",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-test.photonchain.io"],
+  "faucets": ["https://photonchain.io/airdrop"],
+  "infoURL": "https://photonchain.io"
+}, {
   "name": "Titan",
   "chainId": 55004,
   "shortName": "teth",
