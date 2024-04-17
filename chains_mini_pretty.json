@@ -7331,6 +7331,19 @@
   "faucets": [],
   "infoURL": "https://docs.metaplayer.one/"
 }, {
+  "name": "BigShortBets Testnet",
+  "chainId": 2136,
+  "shortName": "bigsb_testnet",
+  "networkId": 2136,
+  "nativeCurrency": {
+    "name": "Dolarz",
+    "symbol": "Dolarz",
+    "decimals": 18
+  },
+  "rpc": ["https://test-market.bigsb.io", "wss://test-market.bigsb.io"],
+  "faucets": [],
+  "infoURL": "https://bigshortbets.com/"
+}, {
   "name": "BigShortBets",
   "chainId": 2137,
   "shortName": "bigsb",
