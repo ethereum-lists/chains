@@ -2378,6 +2378,19 @@
   "faucets": ["https://faucet.mapprotocol.io"],
   "infoURL": "https://mapprotocol.io/"
 }, {
+  "name": "B2 Hub Mainnet",
+  "chainId": 213,
+  "shortName": "B2Hub-mainnet",
+  "networkId": 213,
+  "nativeCurrency": {
+    "name": "BSquared Token",
+    "symbol": "B2",
+    "decimals": 18
+  },
+  "rpc": ["https://hub-rpc.bsquared.network"],
+  "faucets": [],
+  "infoURL": "https://www.bsquared.network"
+}, {
   "name": "Shinarium Mainnet",
   "chainId": 214,
   "shortName": "shinarium",
@@ -2442,6 +2455,19 @@
   "rpc": ["https://blockchain-api-mainnet.permission.io/rpc"],
   "faucets": [],
   "infoURL": "https://permission.io/"
+}, {
+  "name": "B2 Mainnet",
+  "chainId": 223,
+  "shortName": "B2-mainnet",
+  "networkId": 223,
+  "nativeCurrency": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.bsquared.network", "https://b2-mainnet.alt.technology"],
+  "faucets": [],
+  "infoURL": "https://www.bsquared.network"
 }, {
   "name": "Viridis Testnet",
   "chainId": 224,
