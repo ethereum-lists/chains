@@ -2712,8 +2712,8 @@
     "symbol": "ANKR",
     "decimals": 18
   },
-  "rpc": [],
-  "faucets": [],
+  "rpc": ["https://rpc.ankr.com/neura_testnet"],
+  "faucets": ["https://testnet.neuraprotocol.io/faucet"],
   "infoURL": "https://www.neuraprotocol.io/"
 }, {
   "name": "Neura Devnet",
