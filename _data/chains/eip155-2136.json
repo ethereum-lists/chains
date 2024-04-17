@@ -15,5 +15,11 @@
   "shortName": "bigsb_testnet",
   "chainId": 2136,
   "networkId": 2136,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "Polkadot.js",
+      "url": "https://polkadot.js.org/apps/?rpc=wss://test-market.bigsb.network#/explorer",
+      "standard": "none"
+    }
+  ]
 }
