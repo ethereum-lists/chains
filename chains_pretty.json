@@ -16259,6 +16259,26 @@
     "icon": "meverse"
   }]
 }, {
+  "name": "Cyber Mainnet",
+  "chain": "Cyber",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "icon": "cyber",
+  "infoURL": "https://cyber.co/",
+  "shortName": "cyeth",
+  "chainId": 7560,
+  "networkId": 7560,
+  "status": "incubating",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
+}, {
   "name": "ADIL Testnet",
   "chain": "ADIL",
   "icon": "adil",
@@ -29359,6 +29379,34 @@
   "chainId": 99415706,
   "networkId": 99415706,
   "slip44": 1
+}, {
+  "name": "Cyber Testnet",
+  "chain": "Cyber",
+  "rpc": ["https://cyber-testnet.alt.technology/", "wss://cyber-testnet.alt.technology/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "icon": "cyber",
+  "infoURL": "https://cyber.co/",
+  "shortName": "cysep",
+  "chainId": 111557560,
+  "networkId": 111557560,
+  "explorers": [{
+    "name": "Cyber Testnet Explorer",
+    "url": "https://testnet.cyberscan.co",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{
+      "url": "https://op-bridge.alt.technology/deposit?id=111557560"
+    }]
+  }
 }, {
   "name": "OP Celestia Raspberry",
   "title": "OP Celestia Raspberry Testnet",

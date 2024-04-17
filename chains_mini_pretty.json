@@ -10087,6 +10087,19 @@
   "faucets": [],
   "infoURL": "https://www.meverse.sg"
 }, {
+  "name": "Cyber Mainnet",
+  "chainId": 7560,
+  "shortName": "cyeth",
+  "networkId": 7560,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://cyber.co/"
+}, {
   "name": "ADIL Testnet",
   "chainId": 7575,
   "shortName": "tadil",
@@ -18133,6 +18146,19 @@
   "rpc": ["https://toys.joys.cash/"],
   "faucets": ["https://faucet.joys.digital/"],
   "infoURL": "https://joys.digital"
+}, {
+  "name": "Cyber Testnet",
+  "chainId": 111557560,
+  "shortName": "cysep",
+  "networkId": 111557560,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://cyber-testnet.alt.technology/", "wss://cyber-testnet.alt.technology/ws"],
+  "faucets": [],
+  "infoURL": "https://cyber.co/"
 }, {
   "name": "OP Celestia Raspberry",
   "chainId": 123420111,
