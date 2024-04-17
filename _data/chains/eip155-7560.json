@@ -1,7 +1,7 @@
 {
   "name": "Cyber Mainnet",
   "chain": "Cyber",
-  "rpc": ["https://rpc.cyber.co/"],
+  "rpc": ["https://"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -14,17 +14,8 @@
   "chainId": 7560,
   "networkId": 7560,
   "status": "incubating",
-  "explorers": [
-    {
-      "name": "Cyber Mainnet Explorer",
-      "url": "https://cyberscan.co",
-      "icon": "blockscout",
-      "standard": "EIP3091"
-    }
-  ],
   "parent": {
     "type": "L2",
-    "chain": "eip155-1",
-    "bridges": [{ "url": "https://cyber.co/bridge" }]
+    "chain": "eip155-1"
   }
 }
