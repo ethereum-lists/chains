@@ -7669,6 +7669,19 @@
   "faucets": [],
   "infoURL": "https://kroma.network"
 }, {
+  "name": "Nexis Network Testnet",
+  "chainId": 2370,
+  "shortName": "nzt",
+  "networkId": 2370,
+  "nativeCurrency": {
+    "name": "Nexis",
+    "symbol": "NZT",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-testnet.nexis.network"],
+  "faucets": ["https://evm-faucet.nexis.network"],
+  "infoURL": "https://nexis.network/"
+}, {
   "name": "BOMB Chain Testnet",
   "chainId": 2399,
   "shortName": "bombt",
