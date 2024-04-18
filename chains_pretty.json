@@ -8988,6 +8988,21 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Cycle Network Testnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc-testnet.cyclenetwork.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.cyclenetwork.io/",
+  "shortName": "Cycle",
+  "chainId": 1221,
+  "networkId": 1221,
+  "icon": "cycle"
+}, {
   "name": "Hybrid Testnet",
   "chain": "HYB",
   "icon": "hybridIcon",
