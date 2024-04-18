@@ -1,7 +1,11 @@
 {
   "name": "Mode",
   "chain": "ETH",
-  "rpc": ["https://mainnet.mode.network"],
+  "rpc": [
+    "https://mainnet.mode.network",
+    "https://mode.drpc.org",
+    "wss://mode.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
