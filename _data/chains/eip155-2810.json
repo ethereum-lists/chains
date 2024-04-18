@@ -2,7 +2,7 @@
   "name": "Morph Holesky",
   "title": "Morph Holesky Testnet",
   "chain": "ETH",
-  "rpc": ["https://rpc-testnet.morphl2.io"],
+  "rpc": ["https://rpc-holesky.morphl2.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -17,13 +17,13 @@
   "explorers": [
     {
       "name": "Morph Holesky Testnet Explorer",
-      "url": "https://explorer-testnet.morphl2.io",
+      "url": "https://explorer-holesky.morphl2.io",
       "standard": "EIP3091"
     }
   ],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge-testnet.morphl2.io" }]
+    "bridges": [{ "url": "https://bridge-holesky.morphl2.io" }]
   }
 }
