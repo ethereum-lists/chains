@@ -5199,6 +5199,19 @@
   "faucets": ["https://evm-toolkit.evm.testnet.shimmer.network", "https://evm-faucet.testnet.shimmer.network"],
   "infoURL": "https://shimmer.network"
 }, {
+  "name": "IOTA EVM Testnet",
+  "chainId": 1075,
+  "shortName": "iotaevm-testnet",
+  "networkId": 1075,
+  "nativeCurrency": {
+    "name": "IOTA",
+    "symbol": "IOTA",
+    "decimals": 18
+  },
+  "rpc": ["https://json-rpc.evm.testnet.iotaledger.net"],
+  "faucets": ["https://evm-toolkit.evm.testnet.iotaledger.net"],
+  "infoURL": "https://www.iota.org"
+}, {
   "name": "Mintara Testnet",
   "chainId": 1079,
   "shortName": "mintara-testnet",
