@@ -7994,6 +7994,19 @@
   "faucets": [],
   "infoURL": "https://whitepaper.anttime.net/overview/anttime"
 }, {
+  "name": "Morph Holesky",
+  "chainId": 2810,
+  "shortName": "hmorph",
+  "networkId": 2810,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-holesky.morphl2.io"],
+  "faucets": [],
+  "infoURL": "https://morphl2.io"
+}, {
   "name": "Boba Network Goerli Testnet",
   "chainId": 2888,
   "shortName": "BobaGoerli",
