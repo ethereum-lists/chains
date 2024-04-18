@@ -1,0 +1,21 @@
+{
+  "name": "Cyber Mainnet",
+  "chain": "Cyber",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "icon": "cyber",
+  "infoURL": "https://cyber.co/",
+  "shortName": "cyeth",
+  "chainId": 7560,
+  "networkId": 7560,
+  "status": "incubating",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
+}
