@@ -5537,6 +5537,19 @@
   "faucets": [],
   "infoURL": "https://smart-host.com.tr"
 }, {
+  "name": "ClubMos Mainnet",
+  "chainId": 1188,
+  "shortName": "MOS",
+  "networkId": 1188,
+  "nativeCurrency": {
+    "name": "ClubMos",
+    "symbol": "MOS",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.mosscan.com"],
+  "faucets": [],
+  "infoURL": "https://www.mosscan.com"
+}, {
   "name": "Iora Chain",
   "chainId": 1197,
   "shortName": "iora",
