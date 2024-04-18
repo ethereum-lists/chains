@@ -4277,9 +4277,9 @@
   "networkId": 267,
   "explorers": [{
     "name": "ankrscan-neura",
-    "url": "https://testnet.neuraprotocol.io/explorer",
+    "url": "https://testnet.explorer.neuraprotocol.io",
     "icon": "neura",
-    "standard": "none"
+    "standard": "EIP3091"
   }, {
     "name": "blockscout",
     "url": "https://explorer.neura-testnet.ankr.com",
