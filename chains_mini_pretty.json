@@ -10009,6 +10009,19 @@
   "faucets": [],
   "infoURL": "https://planq.network"
 }, {
+  "name": "Planq Atlas Testnet",
+  "chainId": 7077,
+  "shortName": "planq-atlas-testnet",
+  "networkId": 7077,
+  "nativeCurrency": {
+    "name": "Planq",
+    "symbol": "tPLQ",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-rpc-atlas.planq.network"],
+  "faucets": [],
+  "infoURL": "https://planq.network"
+}, {
   "name": "Nume",
   "chainId": 7100,
   "shortName": "nume",
