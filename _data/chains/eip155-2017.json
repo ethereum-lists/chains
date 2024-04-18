@@ -22,10 +22,12 @@
   "chainId": 2017,
   "networkId": 2017,
   "slip44": 1,
-  "explorers": [{
+  "explorers": [
+    {
     "name": "telscan",
     "url": "https://telscan.io",
     "icon": "telcoin",
     "standard": "EIP3091"
-  }]
+    }
+  ]
 }
