@@ -15599,6 +15599,19 @@
   "faucets": [],
   "infoURL": "https://www.etnd.pro"
 }, {
+  "name": "MagApe Testnet",
+  "chainId": 141319,
+  "shortName": "mag",
+  "networkId": 141319,
+  "nativeCurrency": {
+    "name": "MagApe",
+    "symbol": "MAG",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-api.magape.io/chain/"],
+  "faucets": [],
+  "infoURL": "https://magape.io"
+}, {
   "name": "ICPlaza Mainnet",
   "chainId": 142857,
   "shortName": "ICPlaza",
