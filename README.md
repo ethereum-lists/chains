@@ -104,6 +104,13 @@ BUILD SUCCESSFUL in 7s
 9 actionable tasks: 9 executed
 ```
 
+Also please run the prettier to format your json according to the style [defined here ](https://github.com/ethereum-lists/chains/blob/master/.prettierrc.json)
+e.g. run
+
+```
+npx prettier --write _data/*/*.json`
+```
+
 ### Once PR is submitted
 
  * Make sure CI is green. There will likely be no review when the CI is red.
