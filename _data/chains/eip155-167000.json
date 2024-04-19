@@ -1,0 +1,18 @@
+{
+  "name": "Taiko Mainnet",
+  "chain": "ETH",
+  "status": "incubating",
+  "icon": "taiko",
+  "rpc": ["https://rpc.taiko.xyz", "wss://ws.taiko.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://taiko.xyz",
+  "shortName": "tko-mainnet",
+  "chainId": 167000,
+  "networkId": 167000,
+  "explorers": []
+}
