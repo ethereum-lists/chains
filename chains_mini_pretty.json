@@ -15963,6 +15963,19 @@
   "faucets": ["https://auroria.faucet.stratisevm.com"],
   "infoURL": "https://www.stratisplatform.com"
 }, {
+  "name": "GitAGI Atlas Testnet",
+  "chainId": 210049,
+  "shortName": "atlas",
+  "networkId": 210049,
+  "nativeCurrency": {
+    "name": "GitAGI",
+    "symbol": "tGAGI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.gitagi.org"],
+  "faucets": [],
+  "infoURL": "https://gitagi.org/"
+}, {
   "name": "PlatON Mainnet",
   "chainId": 210425,
   "shortName": "platon",

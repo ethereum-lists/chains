@@ -25764,6 +25764,20 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "GitAGI Atlas Testnet",
+  "chain": "GitAGI",
+  "rpc": ["https://rpc.gitagi.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GitAGI",
+    "symbol": "tGAGI",
+    "decimals": 18
+  },
+  "infoURL": "https://gitagi.org/",
+  "shortName": "atlas",
+  "chainId": 210049,
+  "networkId": 210049
+}, {
   "name": "PlatON Mainnet",
   "chain": "PlatON",
   "rpc": ["https://openapi2.platon.network/rpc", "wss://openapi2.platon.network/ws"],
