@@ -9606,9 +9606,9 @@
   "faucets": [],
   "infoURL": "https://filenova.org"
 }, {
-  "name": "Tanssi EVM ContainerChain",
+  "name": "Tanssi Demo",
   "chainId": 5678,
-  "shortName": "TanssiCC",
+  "shortName": "tango",
   "networkId": 5678,
   "nativeCurrency": {
     "name": "TANGO",
@@ -9617,7 +9617,7 @@
   },
   "rpc": ["https://fraa-dancebox-3001-rpc.a.dancebox.tanssi.network", "wss://fraa-dancebox-3001-rpc.a.dancebox.tanssi.network"],
   "faucets": [],
-  "infoURL": "https://tanssi.network"
+  "infoURL": "https://docs.tanssi.network/builders/tanssi-network/networks/dancebox/demo-evm-containerchain"
 }, {
   "name": "Syscoin Tanenbaum Testnet",
   "chainId": 5700,
