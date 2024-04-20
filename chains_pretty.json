@@ -14344,7 +14344,7 @@
   "name": "Merlin Mainnet",
   "title": "Merlin Mainnet",
   "chain": "Merlin",
-  "rpc": ["https://rpc.merlinchain.io"],
+  "rpc": ["https://rpc.merlinchain.io", "https://merlin-mainnet-enterprise.unifra.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",
@@ -14357,7 +14357,7 @@
   "networkId": 4200,
   "icon": "merlin",
   "explorers": [{
-    "name": "blockscout",
+    "name": "L2scan",
     "url": "https://scan.merlinchain.io",
     "icon": "merlin",
     "standard": "EIP3091"
