@@ -10691,6 +10691,21 @@
     "standard": "none"
   }]
 }, {
+  "name": "UPB CRESCDI Testnet",
+  "chain": "UPBEth",
+  "rpc": ["https://testnet.crescdi.pub.ro"],
+  "infoURL": "https://mobylab.docs.crescdi.pub.ro/blog/UPB-CRESCDI-Testnet",
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "UPBEth",
+    "symbol": "UPBEth",
+    "decimals": 18
+  },
+  "shortName": "UPBEth",
+  "chainId": 1918,
+  "networkId": 1918,
+  "explorers": []
+}, {
   "name": "ONUS Chain Testnet",
   "title": "ONUS Chain Testnet",
   "chain": "onus",

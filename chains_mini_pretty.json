@@ -6668,6 +6668,19 @@
   "faucets": ["https://claim-faucet.rubychain.io/"],
   "infoURL": "https://rubychain.io"
 }, {
+  "name": "UPB CRESCDI Testnet",
+  "chainId": 1918,
+  "shortName": "UPBEth",
+  "networkId": 1918,
+  "nativeCurrency": {
+    "name": "UPBEth",
+    "symbol": "UPBEth",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.crescdi.pub.ro"],
+  "faucets": [],
+  "infoURL": "https://mobylab.docs.crescdi.pub.ro/blog/UPB-CRESCDI-Testnet"
+}, {
   "name": "ONUS Chain Testnet",
   "chainId": 1945,
   "shortName": "onus-testnet",
