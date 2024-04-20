@@ -1,26 +1,25 @@
 {
-    "name": "BILLIONAIRE CLUB Mainnet",
-    "chain": "billionaireclub",
-    "icon": "billionaireclub",
-    "rpc": ["https://mainnet.billionairescan.org"],
-    "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-    "faucets": [],
-    "nativeCurrency": {
+  "name": "BILLIONAIRE CLUB Mainnet",
+  "chain": "billionaireclub",
+  "icon": "billionaireclub",
+  "rpc": ["https://mainnet.billionairescan.org"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
     "name": "BILLIONAIRE CLUB COIN",
     "symbol": "BCC",
     "decimals": 18
-    },
-    "infoURL": "https://billionaireclub.live",
-    "shortName": "billionaireclub",
-    "chainId": 10051,
-    "networkId": 10051,
-    "explorers": [
+  },
+  "infoURL": "https://billionaireclub.live",
+  "shortName": "billionaireclub",
+  "chainId": 10051,
+  "networkId": 10051,
+  "explorers": [
     {
-    "name": "billionaireclubscan",
-    "url": "https://billionairescan.com",
-    "icon": "billionaireclub",
-    "standard": "EIP3091"
+      "name": "billionaireclubscan",
+      "url": "https://billionairescan.com",
+      "icon": "billionaireclub",
+      "standard": "EIP3091"
     }
-    ]
-    }
-    
+  ]
+}
