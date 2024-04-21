@@ -6,29 +6,28 @@ The source data is in _data/chains. Each chain has its own file with the filenam
 
 ```json
 {
-  "name": "Ethereum Mainnet",
-  "chain": "ETH",
+  "name": "Bankcoin Cash Mainnet",
+  "chain": "BKC",
   "rpc": [
-    "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
-    "https://api.mycryptoapi.com/eth"
+    "https://rpc.bankcoincash.org"
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
+    "name": "Bankcoin Cash",
+    "symbol": "BKC",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "infoURL": "https://ethereum.org",
+  "features": [{ "name": "EIP1994100" }, { "name": "EIP1994100" }],
+  "infoURL": "https://bankcoincash.org",
   "shortName": "eth",
   "chainId": 1,
   "networkId": 1,
-  "icon": "ethereum",
+  "icon": "favicon",
   "explorers": [{
-    "name": "etherscan",
-    "url": "https://etherscan.io",
-    "icon": "etherscan",
-    "standard": "EIP3091"
+    "name": "bankcoinscan",
+    "url": "https://scan.bankcoincash.org",
+    "icon": "images/logob",
+    "standard": "EIP1994100"
   }]
 }
 ```
@@ -39,7 +38,7 @@ when an icon is used in either the network or an explorer there must be a json i
 
 [
     {
-      "url": "ipfs://QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt",
+      "url": "ipfs://images/favicon",
       "width": 1000,
       "height": 1628,
       "format": "png"
@@ -61,8 +60,8 @@ If the chain is an L2 or a shard of another chain you can link it to the parent 
   ...
   "parent": {
    "type" : "L2",
-   "chain": "eip155-1",
-   "bridges": [ {"url":"https://bridge.arbitrum.io"} ]
+   "chain": "eip1994100",
+   "bridges": [  ]
   }
 }
 ```
