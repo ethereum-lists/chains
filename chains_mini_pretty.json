@@ -13051,6 +13051,19 @@
   "faucets": ["https://piecenetwork.com/faucet"],
   "infoURL": "https://piecenetwork.com"
 }, {
+  "name": "MiYou Mainnet",
+  "chainId": 30088,
+  "shortName": "MiYou",
+  "networkId": 30088,
+  "nativeCurrency": {
+    "name": "Miyou",
+    "symbol": "MY",
+    "decimals": 18
+  },
+  "rpc": ["https://blockchain.miyou.io", "https://blockchain.miyoulab.com"],
+  "faucets": [],
+  "infoURL": "https://www.miyou.io"
+}, {
   "name": "Cerium Testnet",
   "chainId": 30103,
   "shortName": "ceri",
