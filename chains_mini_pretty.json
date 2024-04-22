@@ -1325,7 +1325,7 @@
   "faucets": [],
   "infoURL": "https://web3games.org/"
 }, {
-  "name": "Worldland Mainnet",
+  "name": "WorldLand Mainnet",
   "chainId": 103,
   "shortName": "WLC",
   "networkId": 103,
@@ -1334,7 +1334,7 @@
     "symbol": "WLC",
     "decimals": 18
   },
-  "rpc": ["https://seoul.worldland.foundation"],
+  "rpc": ["https://seoul.worldland.foundation", "https://seoul2.worldland.foundation"],
   "faucets": [],
   "infoURL": "https://worldland.foundation"
 }, {
@@ -11621,7 +11621,7 @@
   "faucets": [],
   "infoURL": "https://www.0xtrade.finance/"
 }, {
-  "name": "Worldland Testnet",
+  "name": "WorldLand Testnet",
   "chainId": 10395,
   "shortName": "TWLC",
   "networkId": 10395,

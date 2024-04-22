@@ -2108,10 +2108,10 @@
   "networkId": 102,
   "slip44": 1
 }, {
-  "name": "Worldland Mainnet",
+  "name": "WorldLand Mainnet",
   "chain": "Worldland",
   "icon": "worldland",
-  "rpc": ["https://seoul.worldland.foundation"],
+  "rpc": ["https://seoul.worldland.foundation", "https://seoul2.worldland.foundation"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Worldland",
@@ -18619,7 +18619,7 @@
     "standard": "none"
   }]
 }, {
-  "name": "Worldland Testnet",
+  "name": "WorldLand Testnet",
   "chain": "Worldland",
   "icon": "worldland",
   "rpc": ["https://gwangju.worldland.foundation"],
