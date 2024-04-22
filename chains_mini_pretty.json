@@ -6174,6 +6174,19 @@
   "faucets": [],
   "infoURL": "https://www.vitruveo.xyz"
 }, {
+  "name": "iDos Games Chain Testnet",
+  "chainId": 1499,
+  "shortName": "IGC",
+  "networkId": 1499,
+  "nativeCurrency": {
+    "name": "iDos Games Coin",
+    "symbol": "IGC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.idos.games"],
+  "faucets": [],
+  "infoURL": "https://idosgames.com/"
+}, {
   "name": "BEVM Canary",
   "chainId": 1501,
   "shortName": "chainx",
