@@ -5602,6 +5602,19 @@
   "faucets": [],
   "infoURL": "http://www.cadaut.com"
 }, {
+  "name": "SaitaBlockChain(SBC)",
+  "chainId": 1209,
+  "shortName": "SBC",
+  "networkId": 1209,
+  "nativeCurrency": {
+    "name": "SaitaBlockChain(SBC)",
+    "symbol": "STC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-nodes.saitascan.io"],
+  "faucets": [],
+  "infoURL": "https://saitachain.com"
+}, {
   "name": "Popcateum Mainnet",
   "chainId": 1213,
   "shortName": "popcat",
