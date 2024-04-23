@@ -1,6 +1,6 @@
 {
-  "name": "Firechain zkEVM Testnet",
-  "title": "Firechain zkEVM Ghostrider",
+  "name": "Firechain zkEVM Ghostrider",
+  "title": "Firechain zkEVM Testnet",
   "chain": "Firechain",
   "rpc": ["https://rpc-zkevm-ghostrider.thefirechain.com"],
   "faucets": ["zkevm-faucet.thefirechain.com"],
@@ -10,7 +10,7 @@
     "decimals": 18
   },
   "infoURL": "https://docs.thefirechain.com/",
-  "shortName": "firechain-zkEVM-ghostrider",
+  "shortName": "firechain-zkEVM-testnet",
   "chainId": 3885,
   "networkId": 3885,
   "explorers": []
