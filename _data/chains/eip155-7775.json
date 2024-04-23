@@ -1,10 +1,9 @@
 {
-  "name": "GDCC MAINNET",
+  "name": "GDCC TESTNET",
   "chain": "GDCC",
   "icon": "gdcc",
   "rpc": [
-    "https://mainnet-rpc1.gdccscan.io",
-    "https://mainnet-rpc1.gdccoin.io"
+    "https://testnet-rpc1.gdccscan.io"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -14,13 +13,13 @@
   },
   "infoURL": "https://gdcchain.com",
   "shortName": "GDCC",
-  "chainId": 7777,
-  "networkId": 7777,
+  "chainId": 7775,
+  "networkId": 7775,
   
   "explorers": [
     {
       "name": "GDCC",
-      "url": "https://gdccscan.io",
+      "url": "https://testnet.gdccscan.io/",
       "standard": "none"
     }
   ]
