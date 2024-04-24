@@ -12973,6 +12973,19 @@
   "faucets": [],
   "infoURL": "https://www.laosfoundation.io/"
 }, {
+  "name": "Nanon Sepolia",
+  "chainId": 27483,
+  "shortName": "Nanon-Testnet",
+  "networkId": 27483,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia-rpc.nanon.network"],
+  "faucets": [],
+  "infoURL": "https://www.nanon.network"
+}, {
   "name": "Vizing Mainnet",
   "chainId": 28518,
   "shortName": "Vizing",
