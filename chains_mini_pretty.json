@@ -5206,7 +5206,7 @@
   "nativeCurrency": {
     "name": "SMR",
     "symbol": "SMR",
-    "decimals": 6
+    "decimals": 18
   },
   "rpc": ["https://json-rpc.evm.testnet.shimmer.network"],
   "faucets": ["https://evm-toolkit.evm.testnet.shimmer.network", "https://evm-faucet.testnet.shimmer.network"],
@@ -10876,7 +10876,7 @@
     "symbol": "IOTA",
     "decimals": 18
   },
-  "rpc": ["https://json-rpc.evm.iotaledger.net"],
+  "rpc": ["https://json-rpc.evm.iotaledger.net", "https://ws.json-rpc.evm.iotaledger.net"],
   "faucets": [],
   "infoURL": "https://www.iota.org"
 }, {

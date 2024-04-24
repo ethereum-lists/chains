@@ -8371,7 +8371,7 @@
   "nativeCurrency": {
     "name": "SMR",
     "symbol": "SMR",
-    "decimals": 6
+    "decimals": 18
   },
   "infoURL": "https://shimmer.network",
   "shortName": "shimmerevm-testnet",
@@ -8398,7 +8398,12 @@
   "infoURL": "https://www.iota.org",
   "shortName": "iotaevm-testnet",
   "chainId": 1075,
-  "networkId": 1075
+  "networkId": 1075,
+  "explorers": [{
+    "name": "explorer",
+    "url": "https://explorer.evm.testnet.iotaledger.net",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Mintara Testnet",
   "title": "Mintara Testnet",
@@ -17473,7 +17478,7 @@
   "name": "IOTA EVM",
   "title": "IOTA EVM",
   "chain": "IOTA EVM",
-  "rpc": ["https://json-rpc.evm.iotaledger.net"],
+  "rpc": ["https://json-rpc.evm.iotaledger.net", "https://ws.json-rpc.evm.iotaledger.net"],
   "faucets": [],
   "nativeCurrency": {
     "name": "IOTA",
@@ -17487,7 +17492,7 @@
   "icon": "iotaevm",
   "explorers": [{
     "name": "explorer",
-    "url": "https://iota-evm.blockscout.com",
+    "url": "https://explorer.evm.iota.org",
     "icon": "iotaevm",
     "standard": "EIP3091"
   }]
