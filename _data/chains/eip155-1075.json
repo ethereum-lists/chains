@@ -13,5 +13,12 @@
   "infoURL": "https://www.iota.org",
   "shortName": "iotaevm-testnet",
   "chainId": 1075,
-  "networkId": 1075
+  "networkId": 1075,
+  "explorers": [
+    {
+      "name": "explorer",
+      "url": "https://explorer.evm.testnet.iotaledger.net",
+      "standard": "EIP3091"
+    }
+  ]
 }
