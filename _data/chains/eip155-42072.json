@@ -1,0 +1,31 @@
+{
+  "name": "AgentLayer Testnet",
+  "chain": "AGENT",
+  "rpc": ["https://testnet-rpc.agentlayer.xyz/"],
+  "faucets": ["https://agentlayer.xyz/faucet"],
+  "nativeCurrency": {
+    "name": "AGENT",
+    "symbol": "AGENT",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://agentlayer.xyz/",
+  "shortName": "agent",
+  "chainId": 42072,
+  "networkId": 42072,
+  "icon": "agent",
+  "explorers": [
+    {
+      "name": "AgentLayer Testnet",
+      "url": "https://testnet-explorer.agentlayer.xyz/",
+      "standard": "EIP3091"
+    }
+  ]
+}
