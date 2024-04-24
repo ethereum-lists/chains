@@ -1,0 +1,27 @@
+{
+  "name": "VERY Mainnet",
+  "title": "VERY Mainnet",
+  "chain": "VERY",
+  "icon": "very",
+  "rpc": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "VERY",
+    "symbol": "VERY",
+    "decimals": 18
+  },
+  "infoURL": "https://www.verylabs.io/",
+  "shortName": "very",
+  "chainId": 4613,
+  "networkId": 4613,
+  "explorers": [
+    {
+      "name": "VERY explorer",
+      "url": "https://www.veryscan.io",
+      "icon": "very",
+      "standard": "none"
+    }
+  ]
+
+}
