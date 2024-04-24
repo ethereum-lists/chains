@@ -1,9 +1,11 @@
 {
   "name": "VERY Mainnet",
   "title": "VERY Mainnet",
-  "chain": "VERY",
+  "chain": "VERY Mainnet",
   "icon": "very",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.verylabs.io"
+  ],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
