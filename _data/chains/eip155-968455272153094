@@ -1,0 +1,24 @@
+{
+    "name": "One World Chain(OWCT)",
+    "chain": "One World Chain",
+    "rpc": ["https://mainnet-rpc.oneworldchain.org"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "One World Chain",
+      "symbol": "OWCT",
+      "decimals": 18
+    },
+    "infoURL": "https://oneworldchain.org/",
+    "shortName": "OWCT",
+    "chainId": 309075,
+    "networkId": 309075,
+    "icon": "One World Chain(OWCT)",
+    "explorers": [
+      {
+        "name": "OWCT explorer",
+        "url": "https://mainnet.oneworldchain.org/",
+        "standard": "none",
+        "icon": "One World Chain(OWCT)"
+      }
+    ]
+  }
