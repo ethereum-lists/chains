@@ -1,7 +1,8 @@
 {
-  "name": "Omni Testnet",
+  "name": "Omni Testnet (incubating)",
   "chain": "Omni",
-  "rpc": ["https://testnet.omni.network"],
+  "status": "incubating",
+  "rpc": [],
   "features": [{ "name": "EIP155" }],
   "faucets": [],
   "nativeCurrency": {
