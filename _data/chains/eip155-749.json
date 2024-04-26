@@ -1,22 +1,22 @@
 {
     "name": "Social Network Testnet",
-    "chain": "EARTHTEST",
+    "chain": "GAIA",
     "rpc": ["https://testnet-rpc.social.network"],
     "faucets": [],
     "nativeCurrency": {
-      "name": "tHEART",
-      "symbol": "tHEART",
+      "name": "HEART",
+      "symbol": "HEART",
       "decimals": 18
     },
     "infoURL": "https://social.network",
-    "shortName": "earthtest",
+    "shortName": "gaia",
     "chainId": 749,
     "networkId": 749,
     "slip44": 60,
-    "icon": "earthtest",
+    "icon": "gaia",
     "explorers": [
       {
-        "name": "Social Network Explorer",
+        "name": "The Social Network Testnet",
         "url": "https://testnet.social.network",
         "standard": "none"
       }
