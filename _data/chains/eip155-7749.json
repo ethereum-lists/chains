@@ -1,11 +1,11 @@
 {
     "name": "Social Network",
     "chain": "EARTH",
-    "rpc": ["https://rpc.social.network"],
+    "rpc": ["https://social-network-rpc.com/"],
     "faucets": [],
     "nativeCurrency": {
-      "name": "eBTC",
-      "symbol": "eBTC",
+      "name": "HEART",
+      "symbol": "HEART",
       "decimals": 18
     },
     "infoURL": "https://social.network",
@@ -16,7 +16,7 @@
     "icon": "earth",
     "explorers": [
       {
-        "name": "Social Network Explorer",
+        "name": "The Social Network",
         "url": "https://the.social.network",
         "standard": "none"
       }
