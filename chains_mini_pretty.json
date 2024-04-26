@@ -9554,6 +9554,19 @@
   "faucets": ["https://faucet.tritanium.network"],
   "infoURL": "https://tritanium.network"
 }, {
+  "name": "edeXa Mainnet",
+  "chainId": 5424,
+  "shortName": "edeXa",
+  "networkId": 5424,
+  "nativeCurrency": {
+    "name": "EDEXA",
+    "symbol": "EDX",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.edexa.com/rpc", "https://io-dataseed1.mainnet.edexa.io-market.com/rpc"],
+  "faucets": [],
+  "infoURL": "https://edexa.network/"
+}, {
   "name": "Egochain",
   "chainId": 5439,
   "shortName": "egax",
