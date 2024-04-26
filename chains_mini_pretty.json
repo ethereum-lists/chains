@@ -8085,6 +8085,19 @@
   "faucets": [],
   "infoURL": "https://whitepaper.anttime.net/overview/anttime"
 }, {
+  "name": "Nanon",
+  "chainId": 2748,
+  "shortName": "Nanon",
+  "networkId": 2748,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.nanon.network"],
+  "faucets": [],
+  "infoURL": "https://www.nanon.network"
+}, {
   "name": "Morph Holesky",
   "chainId": 2810,
   "shortName": "hmorph",
