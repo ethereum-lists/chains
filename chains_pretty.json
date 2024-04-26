@@ -3858,7 +3858,7 @@
   "name": "B2 Mainnet",
   "title": "B2 Mainnet",
   "chain": "B2",
-  "rpc": ["https://rpc.bsquared.network", "https://b2-mainnet.alt.technology"],
+  "rpc": ["https://mainnet.b2-rpc.com", "https://rpc.bsquared.network", "https://b2-mainnet.alt.technology", "https://b2-mainnet-public.s.chainbase.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin",
@@ -4673,6 +4673,35 @@
     "url": "https://blockexplorer.bobaopera.boba.network",
     "standard": "none"
   }]
+}, {
+  "name": "zkCandy Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": ["https://sepolia.rpc.zkcandy.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://zkcandy.io/",
+  "shortName": "zkcandy-sepolia",
+  "chainId": 302,
+  "networkId": 302,
+  "icon": "zkcandy",
+  "explorers": [{
+    "name": "zkCandy Block Explorer",
+    "url": "https://sepolia.explorer.zkcandy.io",
+    "icon": "zkcandy",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://sepolia.bridge.zkcandy.io/"
+    }]
+  },
+  "redFlags": ["reusedChainId"]
 }, {
   "name": "Neurochain Testnet",
   "chain": "NCN",
@@ -8651,13 +8680,13 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "B2 Hub Habitat Testnet",
+  "name": "B2 Hub Testnet",
   "chain": "BSQ",
-  "rpc": ["https://habitat-hub-rpc.bsquared.network"],
+  "rpc": ["https://testnet-hub-rpc.bsquared.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BSquared Token",
-    "symbol": "BSQ",
+    "symbol": "B2",
     "decimals": 18
   },
   "infoURL": "https://www.bsquared.network",
@@ -8667,7 +8696,7 @@
   "icon": "bsquare",
   "explorers": [{
     "name": "B2 Hub Habitat Testnet Explorer",
-    "url": "https://habitat-hub-explorer.bsquared.network",
+    "url": "https://testnet-hub-explorer.bsquared.network",
     "icon": "bsquare",
     "standard": "EIP3091"
   }]
@@ -8735,10 +8764,10 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "B2 Habitat Testnet",
-  "title": "B2 Habitat Testnet",
+  "name": "B2 Testnet",
+  "title": "B2 Testnet",
   "chain": "Habitat",
-  "rpc": ["https://b2habitat-testnet.alt.technology", "https://habitat-rpc.bsquared.network", "https://habitat-rpc-public.bsquared.network"],
+  "rpc": ["https://b2-testnet.alt.technology"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin",
@@ -8752,7 +8781,7 @@
   "icon": "bsquare",
   "explorers": [{
     "name": "blockscout",
-    "url": "https://habitat-explorer.bsquared.network",
+    "url": "https://testnet-explorer.bsquared.network",
     "icon": "bsquare",
     "standard": "EIP3091"
   }],

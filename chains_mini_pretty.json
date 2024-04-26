@@ -2465,7 +2465,7 @@
     "symbol": "BTC",
     "decimals": 18
   },
-  "rpc": ["https://rpc.bsquared.network", "https://b2-mainnet.alt.technology"],
+  "rpc": ["https://mainnet.b2-rpc.com", "https://rpc.bsquared.network", "https://b2-mainnet.alt.technology", "https://b2-mainnet-public.s.chainbase.com"],
   "faucets": [],
   "infoURL": "https://www.bsquared.network"
 }, {
@@ -2910,6 +2910,19 @@
   "rpc": ["https://bobaopera.boba.network", "wss://wss.bobaopera.boba.network", "https://replica.bobaopera.boba.network", "wss://replica-wss.bobaopera.boba.network"],
   "faucets": [],
   "infoURL": "https://boba.network"
+}, {
+  "name": "zkCandy Sepolia Testnet",
+  "chainId": 302,
+  "shortName": "zkcandy-sepolia",
+  "networkId": 302,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia.rpc.zkcandy.io"],
+  "faucets": [],
+  "infoURL": "https://zkcandy.io/"
 }, {
   "name": "Neurochain Testnet",
   "chainId": 303,
@@ -5368,16 +5381,16 @@
   "faucets": ["https://wallet.test.wemix.com/faucet"],
   "infoURL": "https://wemix.com"
 }, {
-  "name": "B2 Hub Habitat Testnet",
+  "name": "B2 Hub Testnet",
   "chainId": 1113,
   "shortName": "B2Hub-testnet",
   "networkId": 1113,
   "nativeCurrency": {
     "name": "BSquared Token",
-    "symbol": "BSQ",
+    "symbol": "B2",
     "decimals": 18
   },
-  "rpc": ["https://habitat-hub-rpc.bsquared.network"],
+  "rpc": ["https://testnet-hub-rpc.bsquared.network"],
   "faucets": [],
   "infoURL": "https://www.bsquared.network"
 }, {
@@ -5420,7 +5433,7 @@
   "faucets": ["https://faucet.dogcoin.network"],
   "infoURL": "https://dogcoin.network"
 }, {
-  "name": "B2 Habitat Testnet",
+  "name": "B2 Testnet",
   "chainId": 1123,
   "shortName": "B2-testnet",
   "networkId": 1123,
@@ -5429,7 +5442,7 @@
     "symbol": "BTC",
     "decimals": 18
   },
-  "rpc": ["https://b2habitat-testnet.alt.technology", "https://habitat-rpc.bsquared.network", "https://habitat-rpc-public.bsquared.network"],
+  "rpc": ["https://b2-testnet.alt.technology"],
   "faucets": [],
   "infoURL": "https://www.bsquared.network"
 }, {
