@@ -1,9 +1,7 @@
 {
   "name": "Movement EVM Testnet",
   "chain": "MOVE",
-  "rpc": [
-    "https://mevm.testnet.movementlabs.xyz"
-  ],
+  "rpc": ["https://mevm.testnet.movementlabs.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Move",

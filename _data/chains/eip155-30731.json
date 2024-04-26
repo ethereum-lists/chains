@@ -1,9 +1,7 @@
 {
   "name": "Movement EVM Devnet",
   "chain": "MOVE",
-  "rpc": [
-    "https://mevm.devnet.movementlabs.xyz"
-  ],
+  "rpc": ["https://mevm.devnet.movementlabs.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Move",

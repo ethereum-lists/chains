@@ -1,9 +1,7 @@
 {
   "name": "Movement EVM Legacy",
   "chain": "MOVE",
-  "rpc": [
-    "https://mevm.devnet.m1.movementlabs.xyz"
-  ],
+  "rpc": ["https://mevm.devnet.m1.movementlabs.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Move",
