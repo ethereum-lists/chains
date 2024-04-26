@@ -17731,6 +17731,19 @@
   "faucets": [],
   "infoURL": "https://electroneum.com"
 }, {
+  "name": "Reactive Network Testnet Kopli",
+  "chainId": 5318008,
+  "shortName": "react",
+  "networkId": 5318008,
+  "nativeCurrency": {
+    "name": "React",
+    "symbol": "REACT",
+    "decimals": 18
+  },
+  "rpc": ["https://kopli-rpc.reactive.network"],
+  "faucets": [],
+  "infoURL": "https://reactive.network"
+}, {
   "name": "Imversed Mainnet",
   "chainId": 5555555,
   "shortName": "imversed",
