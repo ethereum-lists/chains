@@ -1,0 +1,27 @@
+{
+  "name": "Eclipse Testnet",
+  "chain": "ECLIPSE",
+  "rpc": ["https://subnets.avax.network/eclipsecha/testnet/rpc"],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Eclipse",
+    "symbol": "ECLPS",
+    "decimals": 18
+  },
+  "infoURL": "http://eclipsenet.io",
+  "shortName": "eclipset",
+  "chainId": 555666,
+  "networkId": 555666,
+  "explorers": [
+    {
+      "name": "ECLIPSE Explorer",
+      "url": "https://subnets-test.avax.network/eclipsecha",
+      "standard": "EIP3091"
+    }
+  ]
+}

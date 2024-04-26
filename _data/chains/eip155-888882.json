@@ -1,0 +1,23 @@
+{
+  "name": "REXX Mainnet",
+  "title": "REXX Mainnet",
+  "chain": "REXX",
+  "rpc": ["https://rpc.rexxnetwork.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "REXX",
+    "symbol": "REXX",
+    "decimals": 18
+  },
+  "infoURL": "https://rexxnetwork.com",
+  "shortName": "REXX",
+  "chainId": 888882,
+  "networkId": 888882,
+  "explorers": [
+    {
+      "name": "REXX Mainnet Explorer",
+      "url": "https://rexxnetwork.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
