@@ -9905,6 +9905,19 @@
   "faucets": [],
   "infoURL": "https://uptn.io"
 }, {
+  "name": "Aura Euphoria Testnet",
+  "chainId": 6321,
+  "shortName": "eaura",
+  "networkId": 6321,
+  "nativeCurrency": {
+    "name": "test-EAura",
+    "symbol": "eAura",
+    "decimals": 18
+  },
+  "rpc": ["https://jsonrpc.euphoria.aura.network"],
+  "faucets": [],
+  "infoURL": "https://aura.network"
+}, {
   "name": "Digit Soul Smart Chain",
   "chainId": 6363,
   "shortName": "DGS",
