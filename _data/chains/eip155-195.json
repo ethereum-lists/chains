@@ -1,8 +1,13 @@
 {
   "name": "X Layer Testnet",
   "chain": "X Layer",
-  "rpc": ["https://testrpc.xlayer.tech", "https://xlayertestrpc.okx.com"],
-  "faucets": ["https://www.okx.com/xlayer/faucet"],
+  "rpc": [
+    "https://testrpc.xlayer.tech",
+    "https://xlayertestrpc.okx.com"
+  ],
+  "faucets": [
+    "https://www.okx.com/xlayer/faucet"
+  ],
   "nativeCurrency": {
     "name": "X Layer Global Utility Token in testnet",
     "symbol": "OKB",
@@ -19,6 +24,12 @@
     {
       "name": "OKLink",
       "url": "https://www.oklink.com/xlayer-test",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://x1-test.dex.guru",
+      "icon": "dexguru",
       "standard": "EIP3091"
     }
   ],

@@ -6,7 +6,9 @@
     "https://blast-sepolia.drpc.org",
     "wss://blast-sepolia.drpc.org"
   ],
-  "faucets": ["https://faucet.quicknode.com/blast/sepolia"],
+  "faucets": [
+    "https://faucet.quicknode.com/blast/sepolia"
+  ],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
@@ -22,6 +24,12 @@
       "name": "Blast Sepolia Explorer",
       "url": "https://testnet.blastscan.io",
       "icon": "blast",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://blast-test.dex.guru",
+      "icon": "dexguru",
       "standard": "EIP3091"
     }
   ],

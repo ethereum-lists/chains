@@ -1,7 +1,9 @@
 {
   "name": "Graphlinq Blockchain Mainnet",
   "chain": "GLQ Blockchain",
-  "rpc": ["https://glq-dataseed.graphlinq.io"],
+  "rpc": [
+    "https://glq-dataseed.graphlinq.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "GLQ",
@@ -17,6 +19,12 @@
       "name": "GLQ Explorer",
       "url": "https://explorer.graphlinq.io",
       "standard": "none"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://graphlinq.dex.guru",
+      "icon": "dexguru",
+      "standard": "EIP3091"
     }
   ]
 }
