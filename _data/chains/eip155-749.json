@@ -1,6 +1,6 @@
 {
     "name": "Social Network Testnet",
-    "chain": "GAIA",
+    "chain": "REGEN",
     "rpc": ["https://testnet-rpc.social.network"],
     "faucets": [],
     "nativeCurrency": {
@@ -9,11 +9,11 @@
       "decimals": 18
     },
     "infoURL": "https://social.network",
-    "shortName": "gaia",
+    "shortName": "regen",
     "chainId": 749,
     "networkId": 749,
     "slip44": 60,
-    "icon": "gaia",
+    "icon": "regen",
     "explorers": [
       {
         "name": "The Social Network Testnet",
