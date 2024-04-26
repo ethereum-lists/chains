@@ -14065,6 +14065,19 @@
   "faucets": ["http://kururu.finance/faucet?chainId=55556"],
   "infoURL": "https://reichain.io"
 }, {
+  "name": "Lambda Chain Mainnet",
+  "chainId": 56026,
+  "shortName": "lambda",
+  "networkId": 56026,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://nrpc.lambda.im/"],
+  "faucets": [],
+  "infoURL": "https://lambda.im"
+}, {
   "name": "Boba BNB Mainnet",
   "chainId": 56288,
   "shortName": "BobaBnb",
@@ -18029,6 +18042,19 @@
   "rpc": ["https://testnet.plian.io/testnet"],
   "faucets": [],
   "infoURL": "https://plian.org"
+}, {
+  "name": "Lambda Chain Testnet",
+  "chainId": 17000920,
+  "shortName": "tlambda",
+  "networkId": 17000920,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnrpc.lambda.im/"],
+  "faucets": [],
+  "infoURL": "https://lambda.im"
 }, {
   "name": "IOLite",
   "chainId": 18289463,
