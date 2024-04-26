@@ -2465,7 +2465,7 @@
     "symbol": "BTC",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.b2-rpc.com", "https://rpc.bsquared.network", "https://b2-mainnet.alt.technology", "https://b2-mainnet-public.s.chainbase.com"],
+  "rpc": ["https://rpc.bsquared.network", "https://b2-mainnet.alt.technology"],
   "faucets": [],
   "infoURL": "https://www.bsquared.network"
 }, {
@@ -5368,16 +5368,16 @@
   "faucets": ["https://wallet.test.wemix.com/faucet"],
   "infoURL": "https://wemix.com"
 }, {
-  "name": "B2 Hub Testnet",
+  "name": "B2 Hub Habitat Testnet",
   "chainId": 1113,
   "shortName": "B2Hub-testnet",
   "networkId": 1113,
   "nativeCurrency": {
     "name": "BSquared Token",
-    "symbol": "B2",
+    "symbol": "BSQ",
     "decimals": 18
   },
-  "rpc": ["https://testnet-hub-rpc.bsquared.network"],
+  "rpc": ["https://habitat-hub-rpc.bsquared.network"],
   "faucets": [],
   "infoURL": "https://www.bsquared.network"
 }, {
@@ -5420,7 +5420,7 @@
   "faucets": ["https://faucet.dogcoin.network"],
   "infoURL": "https://dogcoin.network"
 }, {
-  "name": "B2 Testnet",
+  "name": "B2 Habitat Testnet",
   "chainId": 1123,
   "shortName": "B2-testnet",
   "networkId": 1123,
@@ -5429,7 +5429,7 @@
     "symbol": "BTC",
     "decimals": 18
   },
-  "rpc": ["https://b2-testnet.alt.technology"],
+  "rpc": ["https://b2habitat-testnet.alt.technology", "https://habitat-rpc.bsquared.network", "https://habitat-rpc-public.bsquared.network"],
   "faucets": [],
   "infoURL": "https://www.bsquared.network"
 }, {
