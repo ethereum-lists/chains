@@ -1,7 +1,11 @@
 {
   "name": "IRIShub",
   "chain": "IRIShub",
-  "rpc": ["https://evmrpc.irishub-1.irisnet.org"],
+  "rpc": [
+    "https://evmrpc.irishub-1.irisnet.org",
+    "https://iris-evm.publicnode.com",
+    "wss://iris-evm.publicnode.com"
+  ],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {

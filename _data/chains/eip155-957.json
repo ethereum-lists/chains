@@ -1,0 +1,25 @@
+{
+  "name": "Lyra Chain",
+  "chain": "Lyra",
+  "rpc": ["https://rpc.lyra.finance"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://lyra.finance",
+  "shortName": "lyra",
+  "chainId": 957,
+  "networkId": 957,
+  "icon": "lyra",
+  "explorers": [
+    {
+      "name": "Lyra Explorer",
+      "url": "https://explorer.lyra.finance",
+      "icon": "lyra",
+      "standard": "EIP3091"
+    }
+  ]
+}

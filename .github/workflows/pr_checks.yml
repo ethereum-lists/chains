@@ -19,14 +19,14 @@ jobs:
 
     - name: Get changed icons
       id: changed-icons
-      uses: tj-actions/changed-files@v35
+      uses: tj-actions/changed-files@v41
       with:
         files: _data/icons/*.json
         base_sha: ${{ steps.last_successful_commit_push.outputs.base }}
     
     - name: Get changed icon blobs
       id: changed-icon-blobs
-      uses: tj-actions/changed-files@v35
+      uses: tj-actions/changed-files@v41
       with:
         files: _data/iconsDownload/*
         base_sha: ${{ steps.last_successful_commit_push.outputs.base }}
@@ -121,7 +121,7 @@ jobs:
 
     - name: Get changed files
       id: changed-files
-      uses: tj-actions/changed-files@v35
+      uses: tj-actions/changed-files@v41
       with:
         files: _data/*/*.json
         base_sha: ${{ steps.last_successful_commit_push.outputs.base }}

@@ -1,0 +1,24 @@
+{
+  "name": "Mintara Mainnet",
+  "title": "Mintara Mainnet",
+  "chain": "Mintara",
+  "icon": "mintara",
+  "rpc": ["https://subnets.avax.network/mintara/mainnet/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MINTARA",
+    "symbol": "MNTR",
+    "decimals": 18
+  },
+  "infoURL": "https://playthink.co.jp",
+  "shortName": "mintara",
+  "chainId": 1080,
+  "networkId": 1080,
+  "explorers": [
+    {
+      "name": "explorer",
+      "url": "https://subnets.avax.network/mintara",
+      "standard": "EIP3091"
+    }
+  ]
+}

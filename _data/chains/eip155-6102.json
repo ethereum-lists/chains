@@ -1,0 +1,30 @@
+{
+  "name": "Cascadia Testnet",
+  "chain": "Cascadia",
+  "rpc": ["https://testnet.cascadia.foundation"],
+  "faucets": ["https://www.cascadia.foundation/faucet"],
+  "nativeCurrency": {
+    "name": "CC",
+    "symbol": "tCC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.cascadia.foundation",
+  "shortName": "cascadia",
+  "chainId": 6102,
+  "networkId": 6102,
+  "icon": "cascadia",
+  "explorers": [
+    {
+      "name": "Cascadia EVM Explorer",
+      "url": "https://explorer.cascadia.foundation",
+      "standard": "none",
+      "icon": "cascadia"
+    },
+    {
+      "name": "Cascadia Cosmos Explorer",
+      "url": "https://validator.cascadia.foundation",
+      "standard": "none",
+      "icon": "cascadia"
+    }
+  ]
+}
