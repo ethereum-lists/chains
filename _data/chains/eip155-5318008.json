@@ -1,0 +1,23 @@
+{
+  "name": "Reactive Network Testnet Kopli",
+  "chain": "REACT",
+  "rpc": ["https://kopli-rpc.reactive.network"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "React",
+    "symbol": "REACT",
+    "decimals": 18
+  },
+  "infoURL": "https://reactive.network",
+  "shortName": "react",
+  "chainId": 5318008,
+  "networkId": 5318008,
+  "explorers": [
+    {
+      "name": "reactscan",
+      "url": "https://kopli.reactscan.net",
+      "standard": "none"
+    }
+  ]
+}
