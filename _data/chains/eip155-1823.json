@@ -1,0 +1,25 @@
+{
+  "name": "Vigor Chain Mainnet",
+  "chain": "VTC",
+  "rpc": ["https://rpc-dataseed1.vigorscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Vigor Coin",
+    "symbol": "VTC",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://vigorchain.org/",
+  "shortName": "VTC",
+  "chainId": 1823,
+  "networkId": 1823,
+  "icon": "VTC",
+  "explorers": [
+    {
+      "name": "Vigorscan",
+      "url": "https://vigorscan.com",
+      "icon": "VTC",
+      "standard": "none"
+    }
+  ]
+}
