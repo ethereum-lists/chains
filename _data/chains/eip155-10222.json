@@ -1,6 +1,7 @@
 {
-  "name": "Green Ledger Coin",
-  "chain": "GLC",
+  "chainName": "Green Ledger Coin",
+  "chainId": 10222,
+  "networkId": 10222,
   "rpc": ["https://glc-dataseed.glscan.io/"],
   "faucets": [],
   "nativeCurrency": {
@@ -10,8 +11,6 @@
   },
   "infoURL": "https://glscan.io/",
   "shortName": "glc",
-  "chainId": 10222,
-  "networkId": 10222,
   "slip44": 1,
   "icon": "glc",
   "explorers": [
