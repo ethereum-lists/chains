@@ -10291,7 +10291,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://cyber.alt.technology/", "wss://cyber-ws.alt.technology/"],
+  "rpc": ["https://cyber.alt.technology/", "wss://cyber-ws.alt.technology/", "https://rpc.cyber.co/", "wss://rpc.cyber.co/"],
   "faucets": [],
   "infoURL": "https://cyber.co/"
 }, {
@@ -18468,7 +18468,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://cyber-testnet.alt.technology/", "wss://cyber-testnet.alt.technology/ws"],
+  "rpc": ["https://cyber-testnet.alt.technology/", "wss://cyber-testnet.alt.technology/ws", "https://rpc.testnet.cyber.co/", "wss://rpc.testnet.cyber.co/"],
   "faucets": [],
   "infoURL": "https://cyber.co/"
 }, {
