@@ -1,12 +1,8 @@
 {
-  "name": "B2 Habitat Testnet",
-  "title": "B2 Habitat Testnet",
+  "name": "B2 Testnet",
+  "title": "B2 Testnet",
   "chain": "Habitat",
-  "rpc": [
-    "https://b2habitat-testnet.alt.technology",
-    "https://habitat-rpc.bsquared.network",
-    "https://habitat-rpc-public.bsquared.network"
-  ],
+  "rpc": ["https://b2-testnet.alt.technology"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin",
@@ -21,7 +17,7 @@
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://habitat-explorer.bsquared.network",
+      "url": "https://testnet-explorer.bsquared.network",
       "icon": "bsquare",
       "standard": "EIP3091"
     }

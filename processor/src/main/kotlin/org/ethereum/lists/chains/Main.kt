@@ -283,6 +283,10 @@ fun checkChain(chainFile: File, connectRPC: Boolean, verbose: Boolean = false) {
             throw NativeCurrencySymbolMustBeString()
         }
 
+        if (symbol.trim() != symbol) {
+            throw NativeCurrencyCantBeTrimmed()
+        }
+
         if (symbol.length >= 7) {
             throw NativeCurrencySymbolMustHaveLessThan7Chars()
         }
