@@ -1,0 +1,29 @@
+{
+  "name": "ZKAmoeba Mainnet",
+  "chain": "FIL",
+  "rpc": ["https://rpc.mainnet.zkamoeba.com/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "filecoin",
+    "symbol": "FIL",
+    "decimals": 18
+  },
+  "infoURL": "https://www.zkamoeba.com",
+  "shortName": "zkamoeba",
+  "chainId": 381,
+  "networkId": 381,
+  "icon": "zkamoeba-micro",
+  "explorers": [
+    {
+      "name": "ZKAmoeba Explorer",
+      "url": "https://explorer.zkamoeba.com",
+      "icon": "zkamoeba-micro",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-314",
+    "bridges": [{ "url": "https://www.zkamoeba.com/en/bridge" }]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "C4EI",
+  "chain": "C4EI",
+  "rpc": ["https://rpc.c4ei.net"],
+  "faucets": ["https://play.google.com/store/apps/details?id=net.c4ei.fps2"],
+  "nativeCurrency": {
+    "name": "C4EI",
+    "symbol": "C4EI",
+    "decimals": 18
+  },
+  "infoURL": "https://c4ei.net",
+  "shortName": "c4ei",
+  "chainId": 21004,
+  "networkId": 21004,
+  "explorers": [
+    {
+      "name": "C4EI sirato",
+      "url": "https://exp.c4ei.net",
+      "icon": "c4ei",
+      "standard": "none"
+    }
+  ]
+}

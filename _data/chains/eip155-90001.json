@@ -1,0 +1,16 @@
+{
+  "name": "F(x)Core Testnet Network",
+  "chain": "Fxcore",
+  "rpc": ["https://testnet-fx-json-web3.functionx.io:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Function X",
+    "symbol": "FX",
+    "decimals": 18
+  },
+  "infoURL": "https://functionx.io/",
+  "shortName": "dhobyghaut",
+  "chainId": 90001,
+  "networkId": 90001,
+  "icon": "fxcore"
+}

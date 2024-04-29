@@ -11,12 +11,12 @@
     "symbol": "RIA",
     "decimals": 18
   },
-  "rpc": ["https://rpc.evm.dusk-2.devnet.astria.org"],
-  "faucets": ["https://faucet.evm.dusk-2.devnet.astria.org/"],
+  "rpc": ["https://rpc.evm.dusk-3.devnet.astria.org"],
+  "faucets": ["https://faucet.evm.dusk-3.devnet.astria.org/"],
   "explorers": [
     {
       "name": "Astria EVM Dusknet Explorer",
-      "url": "https://explorer.evm.dusk-2.devnet.astria.org",
+      "url": "https://explorer.evm.dusk-3.devnet.astria.org",
       "standard": "EIP3091"
     }
   ]

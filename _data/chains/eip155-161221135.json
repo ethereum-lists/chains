@@ -1,0 +1,34 @@
+{
+  "name": "Plume Testnet",
+  "title": "Plume Sepolia Rollup Testnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://testnet-rpc.plumenetwork.xyz/http",
+    "wss://testnet-rpc.plumenetwork.xyz/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Plume Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.plumenetwork.xyz/",
+  "shortName": "plume-testnet",
+  "chainId": 161221135,
+  "networkId": 161221135,
+  "slip44": 1,
+  "icon": "plume",
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://testnet-explorer.plumenetwork.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "https://testnet-bridge.plumenetwork.xyz" }]
+  }
+}
