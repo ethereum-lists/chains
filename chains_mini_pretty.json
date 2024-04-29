@@ -15222,19 +15222,6 @@
   "faucets": ["https://faucet.beverlyhills.ethdevops.io"],
   "infoURL": "https://beverlyhills.ethdevops.io"
 }, {
-  "name": "Camp Testnet",
-  "chainId": 90354,
-  "shortName": "camp",
-  "networkId": 90354,
-  "nativeCurrency": {
-    "name": "Ethereum",
-    "symbol": "ETH",
-    "decimals": 18
-  },
-  "rpc": ["https://rpc-camp-network-4xje7wy105.t.conduit.xyz"],
-  "faucets": ["https://www.campnetwork.xyz/faucet"],
-  "infoURL": "https://campaign-1.gitbook.io/camp-technical-docså"
-}, {
   "name": "Nautilus Trition Chain",
   "chainId": 91002,
   "shortName": "NAUT",
