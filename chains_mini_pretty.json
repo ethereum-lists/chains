@@ -2014,6 +2014,19 @@
   "faucets": [],
   "infoURL": "https://explorer.lightstreams.io"
 }, {
+  "name": "Omni Testnet (incubating)",
+  "chainId": 164,
+  "shortName": "omni_testnet_164",
+  "networkId": 164,
+  "nativeCurrency": {
+    "name": "Omni",
+    "symbol": "OMNI",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://docs.omni.network"
+}, {
   "name": "Omni Testnet",
   "chainId": 165,
   "shortName": "omni_testnet",
@@ -15208,6 +15221,19 @@
   "rpc": ["https://rpc.beverlyhills.ethdevops.io:8545"],
   "faucets": ["https://faucet.beverlyhills.ethdevops.io"],
   "infoURL": "https://beverlyhills.ethdevops.io"
+}, {
+  "name": "Camp Testnet",
+  "chainId": 90354,
+  "shortName": "camp",
+  "networkId": 90354,
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-camp-network-4xje7wy105.t.conduit.xyz"],
+  "faucets": ["https://www.campnetwork.xyz/faucet"],
+  "infoURL": "https://campaign-1.gitbook.io/camp-technical-docså"
 }, {
   "name": "Nautilus Trition Chain",
   "chainId": 91002,
