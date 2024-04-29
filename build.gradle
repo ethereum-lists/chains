@@ -9,7 +9,7 @@ buildscript {
     }
 
     dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${KOTLIN_VERSION}"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.0" // Downgraded Kotlin plugin version
         classpath 'com.github.ben-manes:gradle-versions-plugin:0.51.0'
     }
 }
@@ -24,3 +24,31 @@ subprojects {
 }
 
 apply from: 'https://raw.githubusercontent.com/ligi/gradle-common/master/versions_plugin_stable_only.gradle'
+
+
+// buildscript {
+//     ext {
+//         KOTLIN_VERSION = "1.9.23"
+//         KETHEREUM_VERSION = "0.86.0"
+//     }
+
+//     repositories {
+//         gradlePluginPortal()
+//     }
+
+//     dependencies {
+//         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${KOTLIN_VERSION}"
+//         classpath 'com.github.ben-manes:gradle-versions-plugin:0.51.0'
+//     }
+// }
+
+// subprojects {
+//     apply plugin: "kotlin"
+
+//     repositories {
+//         mavenCentral()
+//         maven { url 'https://jitpack.io' }
+//     }
+// }
+
+// apply from: 'https://raw.githubusercontent.com/ligi/gradle-common/master/versions_plugin_stable_only.gradle'
