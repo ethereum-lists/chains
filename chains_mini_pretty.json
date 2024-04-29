@@ -10386,6 +10386,19 @@
   "faucets": ["https://faucet.bit-rock.io"],
   "infoURL": "https://bit-rock.io"
 }, {
+  "name": "GDCC TESTNET",
+  "chainId": 7775,
+  "shortName": "GDCC",
+  "networkId": 7775,
+  "nativeCurrency": {
+    "name": "GDCC",
+    "symbol": "GDCC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc1.gdccscan.io"],
+  "faucets": [],
+  "infoURL": "https://gdcchain.com"
+}, {
   "name": "Rise of the Warbots Testnet",
   "chainId": 7777,
   "shortName": "RiseOfTheWarbotsTestnet",

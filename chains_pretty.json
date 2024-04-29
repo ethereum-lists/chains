@@ -16782,6 +16782,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "GDCC TESTNET",
+  "chain": "GDCC",
+  "icon": "gdcc",
+  "rpc": ["https://testnet-rpc1.gdccscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GDCC",
+    "symbol": "GDCC",
+    "decimals": 18
+  },
+  "infoURL": "https://gdcchain.com",
+  "shortName": "GDCC",
+  "chainId": 7775,
+  "networkId": 7775,
+  "explorers": [{
+    "name": "GDCC",
+    "url": "https://testnet.gdccscan.io",
+    "standard": "none"
+  }]
+}, {
   "name": "Rise of the Warbots Testnet",
   "chain": "nmactest",
   "rpc": ["https://testnet1.riseofthewarbots.com", "https://testnet2.riseofthewarbots.com", "https://testnet3.riseofthewarbots.com", "https://testnet4.riseofthewarbots.com", "https://testnet5.riseofthewarbots.com"],
