@@ -5082,6 +5082,19 @@
   "faucets": [],
   "infoURL": "https://evrice.com"
 }, {
+  "name": "Rebus Mainnet",
+  "chainId": 1011,
+  "shortName": "rebus",
+  "networkId": 1011,
+  "nativeCurrency": {
+    "name": "Rebus",
+    "symbol": "REBUS",
+    "decimals": 18
+  },
+  "rpc": ["https://apievm.rebuschain.com/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.rebuschain.com"
+}, {
   "name": "Newton",
   "chainId": 1012,
   "shortName": "new",
@@ -8266,6 +8279,19 @@
   "rpc": ["https://rpc-testnet.orlchain.com"],
   "faucets": [],
   "infoURL": "https://orlchain.com"
+}, {
+  "name": "Rebus Testnet",
+  "chainId": 3033,
+  "shortName": "rebus-testnet",
+  "networkId": 3033,
+  "nativeCurrency": {
+    "name": "Rebus",
+    "symbol": "REBUS",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.rebus.money/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.rebuschain.com"
 }, {
   "name": "Bifrost Mainnet",
   "chainId": 3068,

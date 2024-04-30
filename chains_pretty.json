@@ -8213,6 +8213,33 @@
   "networkId": 1010,
   "slip44": 1020
 }, {
+  "name": "Rebus Mainnet",
+  "title": "Rebuschain Mainnet",
+  "chain": "REBUS",
+  "rpc": ["https://apievm.rebuschain.com/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Rebus",
+    "symbol": "REBUS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.rebuschain.com",
+  "shortName": "rebus",
+  "chainId": 1011,
+  "networkId": 1011,
+  "icon": "rebus",
+  "explorers": [{
+    "name": "Rebus EVM Explorer (Blockscout)",
+    "url": "https://evm.rebuschain.com",
+    "icon": "rebus",
+    "standard": "none"
+  }, {
+    "name": "Rebus Cosmos Explorer (ping.pub)",
+    "url": "https://cosmos.rebuschain.com",
+    "icon": "rebus",
+    "standard": "none"
+  }]
+}, {
   "name": "Newton",
   "chain": "NEW",
   "rpc": ["https://global.rpc.mainnet.newtonproject.org"],
@@ -13337,6 +13364,33 @@
     "url": "https://orlscan.com",
     "icon": "orl",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Rebus Testnet",
+  "title": "Rebuschain Testnet",
+  "chain": "REBUS",
+  "rpc": ["https://testnet.rebus.money/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Rebus",
+    "symbol": "REBUS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.rebuschain.com",
+  "shortName": "rebus-testnet",
+  "chainId": 3033,
+  "networkId": 3033,
+  "icon": "rebus",
+  "explorers": [{
+    "name": "Rebus EVM Explorer (Blockscout)",
+    "url": "https://evm.testnet.rebus.money",
+    "icon": "rebus",
+    "standard": "none"
+  }, {
+    "name": "Rebus Cosmos Explorer (ping.pub)",
+    "url": "https://testnet.rebus.money/rebustestnet",
+    "icon": "rebus",
+    "standard": "none"
   }]
 }, {
   "name": "Bifrost Mainnet",
