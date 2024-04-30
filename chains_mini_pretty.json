@@ -14000,6 +14000,19 @@
   "faucets": [],
   "infoURL": "https://doid.tech"
 }, {
+  "name": "DODOchain testnet",
+  "chainId": 53457,
+  "shortName": "dodochain",
+  "networkId": 53457,
+  "nativeCurrency": {
+    "name": "Berd",
+    "symbol": "BERD",
+    "decimals": 18
+  },
+  "rpc": ["https://dodochain-testnet.alt.technology", "wss://dodochain-testnet.alt.technology/ws"],
+  "faucets": [],
+  "infoURL": "https://www.dodochain.com"
+}, {
   "name": "DFK Chain",
   "chainId": 53935,
   "shortName": "DFK",
