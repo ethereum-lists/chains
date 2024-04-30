@@ -1,7 +1,6 @@
 {
     "name": "Testnet Zeroone Subnet",
     "chain": "TESTNETZER",
-    "icon": "testnetzer",
     "rpc": ["https://subnets.avax.network/testnetzer/testnet/rpc"],
     "features": [{"name": "EIP1559"}],
     "faucets": [],
