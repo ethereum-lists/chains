@@ -12041,6 +12041,44 @@
     "standard": "none"
   }]
 }, {
+  "name": "Oneness Network",
+  "chain": "Oneness",
+  "rpc": ["https://rpc.onenesslabs.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "oneness",
+  "chainId": 2140,
+  "networkId": 2140,
+  "explorers": [{
+    "name": "oneness-mainnet",
+    "url": "https://scan.onenesslabs.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Oneness TestNet",
+  "chain": "Oneness-Testnet",
+  "rpc": ["https://rpc.testnet.onenesslabs.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "oneness-testnet",
+  "chainId": 2141,
+  "networkId": 2141,
+  "explorers": [{
+    "name": "oneness-testnet",
+    "url": "https://scan.testnet.onenesslabs.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "BOSagora Mainnet",
   "chain": "ETH",
   "rpc": ["https://mainnet.bosagora.org", "https://rpc.bosagora.org"],

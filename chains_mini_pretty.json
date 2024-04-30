@@ -7500,6 +7500,32 @@
   "faucets": [],
   "infoURL": "https://defi-oracle.io/"
 }, {
+  "name": "Oneness Network",
+  "chainId": 2140,
+  "shortName": "oneness",
+  "networkId": 2140,
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.onenesslabs.io/"],
+  "faucets": [],
+  "infoURL": ""
+}, {
+  "name": "Oneness TestNet",
+  "chainId": 2141,
+  "shortName": "oneness-testnet",
+  "networkId": 2141,
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.onenesslabs.io/"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "BOSagora Mainnet",
   "chainId": 2151,
   "shortName": "boa",
