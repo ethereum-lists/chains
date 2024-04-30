@@ -8280,6 +8280,19 @@
   "faucets": [],
   "infoURL": "https://bifrostnetwork.com"
 }, {
+  "name": "Movement EVM",
+  "chainId": 3073,
+  "shortName": "move",
+  "networkId": 3073,
+  "nativeCurrency": {
+    "name": "Move",
+    "symbol": "MOVE",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://movementlabs.xyz"
+}, {
   "name": "Immu3 EVM",
   "chainId": 3100,
   "shortName": "Immu3",
@@ -13206,6 +13219,45 @@
   "rpc": ["https://cerium-rpc.canxium.net"],
   "faucets": [],
   "infoURL": "https://canxium.org"
+}, {
+  "name": "Movement EVM Legacy",
+  "chainId": 30730,
+  "shortName": "moveleg",
+  "networkId": 30730,
+  "nativeCurrency": {
+    "name": "Move",
+    "symbol": "MOVE",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://movementlabs.xyz"
+}, {
+  "name": "Movement EVM Devnet",
+  "chainId": 30731,
+  "shortName": "movedev",
+  "networkId": 30731,
+  "nativeCurrency": {
+    "name": "Move",
+    "symbol": "MOVE",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://movementlabs.xyz"
+}, {
+  "name": "Movement EVM Testnet",
+  "chainId": 30732,
+  "shortName": "movetest",
+  "networkId": 30732,
+  "nativeCurrency": {
+    "name": "Move",
+    "symbol": "MOVE",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://movementlabs.xyz"
 }, {
   "name": "Ethersocial Network",
   "chainId": 31102,

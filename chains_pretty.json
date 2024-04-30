@@ -13360,6 +13360,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Movement EVM",
+  "chain": "MOVE",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Move",
+    "symbol": "MOVE",
+    "decimals": 18
+  },
+  "infoURL": "https://movementlabs.xyz",
+  "shortName": "move",
+  "chainId": 3073,
+  "networkId": 3073,
+  "icon": "move",
+  "explorers": [{
+    "name": "mevm explorer",
+    "url": "https://explorer.movementlabs.xyz",
+    "standard": "none"
+  }],
+  "status": "incubating"
+}, {
   "name": "Immu3 EVM",
   "chain": "EVMCC",
   "rpc": ["https://fraa-dancebox-3043-rpc.a.dancebox.tanssi.network", "wss://fraa-dancebox-3043-rpc.a.dancebox.tanssi.network"],
@@ -21305,6 +21326,69 @@
     "url": "https://cerium-explorer.canxium.net",
     "standard": "none"
   }]
+}, {
+  "name": "Movement EVM Legacy",
+  "chain": "MOVE",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Move",
+    "symbol": "MOVE",
+    "decimals": 18
+  },
+  "infoURL": "https://movementlabs.xyz",
+  "shortName": "moveleg",
+  "chainId": 30730,
+  "networkId": 30730,
+  "icon": "move",
+  "explorers": [{
+    "name": "mevm explorer",
+    "url": "https://explorer.movementlabs.xyz",
+    "standard": "none"
+  }],
+  "status": "incubating"
+}, {
+  "name": "Movement EVM Devnet",
+  "chain": "MOVE",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Move",
+    "symbol": "MOVE",
+    "decimals": 18
+  },
+  "infoURL": "https://movementlabs.xyz",
+  "shortName": "movedev",
+  "chainId": 30731,
+  "networkId": 30731,
+  "icon": "move",
+  "explorers": [{
+    "name": "mevm explorer",
+    "url": "https://explorer.movementlabs.xyz",
+    "standard": "none"
+  }],
+  "status": "incubating"
+}, {
+  "name": "Movement EVM Testnet",
+  "chain": "MOVE",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Move",
+    "symbol": "MOVE",
+    "decimals": 18
+  },
+  "infoURL": "https://movementlabs.xyz",
+  "shortName": "movetest",
+  "chainId": 30732,
+  "networkId": 30732,
+  "icon": "move",
+  "explorers": [{
+    "name": "mevm explorer",
+    "url": "https://explorer.movementlabs.xyz",
+    "standard": "none"
+  }],
+  "status": "incubating"
 }, {
   "name": "Ethersocial Network",
   "chain": "ESN",
