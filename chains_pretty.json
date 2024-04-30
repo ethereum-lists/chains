@@ -31086,6 +31086,31 @@
   "networkId": 1666900001,
   "explorers": []
 }, {
+  "name": "Kakarot Sepolia",
+  "chain": "ETH",
+  "icon": "kakarot",
+  "rpc": ["https://sepolia-rpc.kakarot.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://kakarot.org",
+  "shortName": "kkrt-sepolia",
+  "chainId": 1802203764,
+  "networkId": 1802203764,
+  "explorers": [{
+    "name": "Kakarot Scan",
+    "url": "https://sepolia.kakarotscan.org",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": []
+  }
+}, {
   "name": "RARI Chain Testnet",
   "chain": "RARI",
   "rpc": ["https://testnet.rpc.rarichain.org/http"],
@@ -31302,7 +31327,7 @@
   },
   "status": "active"
 }, {
-  "name": "Kakarot Sepolia",
+  "name": "Kakarot Sepolia Deprecated",
   "chain": "ETH",
   "icon": "kakarot",
   "rpc": [],
@@ -31313,7 +31338,7 @@
     "decimals": 18
   },
   "infoURL": "https://kakarot.org",
-  "shortName": "kkrt-sepolia",
+  "shortName": "kkrt-sepolia-deprecated",
   "chainId": 107107114116,
   "networkId": 107107114116,
   "explorers": [],
