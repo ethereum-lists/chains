@@ -14295,7 +14295,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.gobob.xyz", "wss://rpc.gobob.xyz"],
   "faucets": [],
   "infoURL": "https://gobob.xyz"
 }, {
