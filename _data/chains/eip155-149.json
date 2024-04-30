@@ -1,19 +1,19 @@
 {
     "name": "Social Network",
-    "chain": "EARTH",
+    "chain": "Social Network",
     "rpc": ["https://social-network-rpc.com/"],
     "faucets": [],
     "nativeCurrency": {
-      "name": "HEART",
+      "name": "Heart",
       "symbol": "HEART",
       "decimals": 18
     },
     "infoURL": "https://social.network",
-    "shortName": "earth",
-    "chainId": 7749,
-    "networkId": 7749,
+    "shortName": "social",
+    "chainId": 149,
+    "networkId": 149,
     "slip44": 60,
-    "icon": "earth",
+    "icon": "social",
     "explorers": [
       {
         "name": "The Social Network",
