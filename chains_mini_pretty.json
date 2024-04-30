@@ -13142,6 +13142,19 @@
   "faucets": [],
   "infoURL": "https://www.nanon.network"
 }, {
+  "name": "zeroone Mainnet Subnet",
+  "chainId": 27827,
+  "shortName": "zeroonemai",
+  "networkId": 27827,
+  "nativeCurrency": {
+    "name": "ZERO",
+    "symbol": "ZERO",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/zeroonemai/mainnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://zeroone.art/"
+}, {
   "name": "Vizing Testnet",
   "chainId": 28516,
   "shortName": "Vizing-Testnet",
