@@ -14234,6 +14234,19 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "Testnet Zeroone Subnet",
+  "chainId": 56400,
+  "shortName": "testnetzer",
+  "networkId": 56400,
+  "nativeCurrency": {
+    "name": "ZERO",
+    "symbol": "ZERO",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/testnetzer/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://zeroone.art/"
+}, {
   "name": "VELO Labs Mainnet",
   "chainId": 56789,
   "shortName": "VELO",
