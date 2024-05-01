@@ -8475,18 +8475,18 @@
   "faucets": ["https://faucet.zcore.cash"],
   "infoURL": "https://zcore.cash"
 }, {
-  "name": "Web3Q Testnet",
+  "name": "EthStorage Testnet",
   "chainId": 3333,
-  "shortName": "w3q-t",
+  "shortName": "es-t",
   "networkId": 3333,
   "nativeCurrency": {
-    "name": "Web3Q",
-    "symbol": "W3Q",
+    "name": "Ether",
+    "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://testnet.web3q.io:8545"],
+  "rpc": ["http://testnet.ethstorage.io:9540"],
   "faucets": [],
-  "infoURL": "https://testnet.web3q.io/home.w3q/"
+  "infoURL": "https://ethstorage.io/"
 }, {
   "name": "Web3Q Galileo",
   "chainId": 3334,
