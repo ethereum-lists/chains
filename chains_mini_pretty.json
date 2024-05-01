@@ -7084,6 +7084,19 @@
   "faucets": [],
   "infoURL": "https://mainnetz.io"
 }, {
+  "name": "Adiri",
+  "chainId": 2017,
+  "shortName": "tel",
+  "networkId": 2017,
+  "nativeCurrency": {
+    "name": "Telcoin",
+    "symbol": "TEL",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.telcoin.network", "https://adiri.tel", "https://node1.telcoin.network", "https://node2.telcoin.network", "https://node3.telcoin.network", "https://node4.telcoin.network"],
+  "faucets": ["https://telcoin.network/faucet"],
+  "infoURL": "https://telcoin.network"
+}, {
   "name": "PublicMint Devnet",
   "chainId": 2018,
   "shortName": "pmint_dev",
