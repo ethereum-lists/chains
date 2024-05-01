@@ -1,7 +1,10 @@
 {
   "name": "Garnet Holesky",
   "chain": "ETH",
-  "rpc": ["https://rpc.garnetchain.com", "wss://rpc.garnetchain.com"],
+  "rpc": [
+    "https://rpc.garnetchain.com",
+    "wss://rpc.garnetchain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -23,6 +26,11 @@
   ],
   "parent": {
     "type": "L2",
-    "chain": "eip155-17000"
+    "chain": "eip155-17000",
+    "bridges": [
+      {
+        "url": "https://garnetchain.com/deposit"
+      }
+    ]
   }
 }
