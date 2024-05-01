@@ -8917,6 +8917,19 @@
   "faucets": [],
   "infoURL": "https://docs.xen.network/go-x1/"
 }, {
+  "name": "GAN Testnet",
+  "chainId": 4048,
+  "shortName": "GANTestnet",
+  "networkId": 4048,
+  "nativeCurrency": {
+    "name": "GP Token",
+    "symbol": "GP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.gpu.net"],
+  "faucets": [],
+  "infoURL": "https://docs.gpu.net/"
+}, {
   "name": "Bobaopera Testnet",
   "chainId": 4051,
   "shortName": "BobaoperaTestnet",
