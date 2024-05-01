@@ -1,10 +1,7 @@
 {
   "name": "Garnet Holesky",
   "chain": "ETH",
-  "rpc": [
-    "https://rpc.garnetchain.com",
-    "wss://rpc.garnetchain.com"
-  ],
+  "rpc": ["https://rpc.garnetchain.com", "wss://rpc.garnetchain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -15,7 +12,7 @@
   "shortName": "garnet",
   "chainId": 17069,
   "networkId": 17069,
-  "icon": "redstone",
+  "icon": "garnet",
   "explorers": [
     {
       "name": "blockscout",
