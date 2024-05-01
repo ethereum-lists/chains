@@ -1,7 +1,7 @@
 {
     "name": "Xvitesse Testnet",
     "chain": "XSC",
-    "icon": "xvitesse",
+    "icon": "xvitesse", 
     "rpc": ["https://testnet-rpc.xvitesse.com"],
     "faucets": ["https://faucet.xvitesse.com"],
     "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
