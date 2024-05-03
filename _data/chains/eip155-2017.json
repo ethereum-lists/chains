@@ -1,28 +1,32 @@
 {
-  "name": "Telcoin Testnet",
-  "title": "Telcoin Testnet",
+  "name": "Adiri",
+  "title": "Telcoin Network Testnet",
   "chain": "TEL",
-  "rpc": ["https://telcoin.rpc.dex.guru/archive/2017"],
-  "faucets": [],
+  "icon": "telcoin",
+  "rpc": [
+    "https://rpc.telcoin.network",
+    "https://adiri.tel",
+    "https://node1.telcoin.network",
+    "https://node2.telcoin.network",
+    "https://node3.telcoin.network",
+    "https://node4.telcoin.network"
+  ],
+  "faucets": ["https://telcoin.network/faucet"],
   "nativeCurrency": {
-    "name": "TEL",
+    "name": "Telcoin",
     "symbol": "TEL",
     "decimals": 18
   },
-  "infoURL": "https://www.telco.in",
-  "shortName": "telcoin-testnet",
+  "infoURL": "https://telcoin.network",
+  "shortName": "tel",
   "chainId": 2017,
   "networkId": 2017,
+  "slip44": 1,
   "explorers": [
     {
-      "name": "Telcoin Testnet Explorer",
+      "name": "telscan",
       "url": "https://telscan.io",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "dexguru",
-      "url": "https://telco-test.dex.guru",
-      "icon": "dexguru",
+      "icon": "telcoin",
       "standard": "EIP3091"
     }
   ]
