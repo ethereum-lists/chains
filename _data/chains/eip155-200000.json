@@ -1,0 +1,26 @@
+{
+  "name": "xFair.AI Testnet",
+  "chain": "FAIT",
+  "rpc": [
+    "https://rpc_testnet.xfair.ai",
+    "wss://rpc_testnet.xfair.ai"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FHE",
+    "symbol": "FHE",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://xfair.ai",
+  "shortName": "fait",
+  "chainId": 2000000,
+  "networkId": 2000000,
+  "explorers": [
+    {
+      "name": "xFair.AI Testnet Explorer",
+      "url": "https://explorer_testnet.xfair.ai",
+      "standard": "EIP3091"
+    }
+  ]
+}
