@@ -2,21 +2,21 @@
   "name": "EgonCoin Testnet",
   "chain": "EGON",
   "icon": "egonicon",
-  "rpc": ["https://rpctest.egcscan.com"],
-  "faucets": ["https://faucet.egcscan.com"],
+  "rpc": ["https://rpctest.egonscan.com"],
+  "faucets": ["https://faucet.egonscan.com"],
   "nativeCurrency": {
     "name": "EgonCoin",
     "symbol": "EGON",
     "decimals": 18
   },
-  "infoURL": "https://egcscan.com",
+  "infoURL": "https://egonscan.com",
   "shortName": "EGONt",
   "chainId": 271271,
   "networkId": 271271,
   "explorers": [
     {
       "name": "EgonCoin Testnet",
-      "url": "https://testnet.egcscan.com",
+      "url": "https://testnet.egonscan.com",
       "standard": "EIP3091"
     }
   ]

@@ -1,22 +1,22 @@
 {
   "name": "Botanix Testnet",
-  "chain": "BTC",
+  "chain": "BOTANIX",
   "icon": "botanix",
-  "rpc": ["https://testnet-rpc.btxtestchain.com"],
-  "faucets": ["https://faucet.btxtestchain.com"],
+  "rpc": ["https://node.botanixlabs.dev"],
+  "faucets": ["https://faucet.botanixlabs.dev"],
   "nativeCurrency": {
     "name": "Botanix",
     "symbol": "BTC",
     "decimals": 18
   },
-  "infoURL": "https://btxtestchain.com",
-  "shortName": "BTCt",
+  "infoURL": "https://botanixlabs.xyz",
+  "shortName": "BTNX",
   "chainId": 3636,
   "networkId": 3636,
   "explorers": [
     {
-      "name": "Botanix",
-      "url": "https://testnet.btxtestchain.com",
+      "name": "3xpl",
+      "url": "https://3xpl.com/botanix",
       "standard": "EIP3091"
     }
   ]

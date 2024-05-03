@@ -1,0 +1,32 @@
+{
+  "name": "Nativ3 Testnet",
+  "chainId": 333333,
+  "shortName": "N3-Test",
+  "chain": "N3-Test",
+  "icon": "nativ3",
+  "networkId": 333333,
+  "nativeCurrency": {
+    "name": "USNT",
+    "symbol": "USNT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpctest.nativ3.network", "wss://wstest.nativ3.network"],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "Nativ3 Test Explorer",
+      "url": "https://scantest.nativ3.network",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://nativ3.network",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-421613",
+    "bridges": [
+      {
+        "url": "https://bridgetest.nativ3.network"
+      }
+    ]
+  }
+}

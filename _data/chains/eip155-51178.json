@@ -1,26 +1,26 @@
 {
-  "name": "Opside Testnet Pre-Alpha",
+  "name": "Lumoz Testnet Alpha",
   "chain": "ETH",
   "rpc": [
-    "https://pre-alpha-us-http-geth.opside.network",
-    "https://pre-alpha-hk-http-geth.opside.network"
+    "https://alpha-us-http-geth.lumoz.org",
+    "https://alpha-hk-http-geth.lumoz.org"
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "IDE Test Token",
-    "symbol": "IDE",
+    "name": "Lumoz Test Token",
+    "symbol": "MOZ",
     "decimals": 18
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "infoURL": "https://opsi.de/",
-  "shortName": "Opside-Testnet",
+  "infoURL": "https://lumoz.org",
+  "shortName": "Lumoz-Testnet",
   "chainId": 51178,
   "networkId": 51178,
   "icon": "opside-new",
   "explorers": [
     {
-      "name": "OpsideTestnetInfo",
-      "url": "https://pre-alpha.opside.info",
+      "name": "LumozTestnetInfo",
+      "url": "https://lumoz.info",
       "icon": "opside-new",
       "standard": "EIP3091"
     }

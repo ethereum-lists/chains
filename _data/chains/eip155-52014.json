@@ -1,0 +1,25 @@
+{
+  "name": "Electroneum Mainnet",
+  "chain": "Electroneum",
+  "rpc": ["https://api.electroneum.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Electroneum",
+    "symbol": "ETN",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://electroneum.com",
+  "shortName": "etn-mainnet",
+  "chainId": 52014,
+  "networkId": 52014,
+  "icon": "electroneum",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockexplorer.electroneum.com",
+      "icon": "electroneum",
+      "standard": "EIP3091"
+    }
+  ]
+}
