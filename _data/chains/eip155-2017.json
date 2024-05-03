@@ -9,7 +9,8 @@
     "https://node1.telcoin.network",
     "https://node2.telcoin.network",
     "https://node3.telcoin.network",
-    "https://node4.telcoin.network"
+    "https://node4.telcoin.network",
+    "https://telcoin.rpc.dex.guru/archive/2017"
   ],
   "faucets": ["https://telcoin.network/faucet"],
   "nativeCurrency": {
@@ -27,6 +28,12 @@
       "name": "telscan",
       "url": "https://telscan.io",
       "icon": "telcoin",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://telco-test.dex.guru",
+      "icon": "dexguru",
       "standard": "EIP3091"
     }
   ]
