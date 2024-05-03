@@ -1,0 +1,25 @@
+{
+  "name": "MindNetwork Mainnet",
+  "chain": "FHE",
+  "rpc": [
+    "https://rpc_mainnet.mindnetwork.xyz"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FHE",
+    "symbol": "FHE",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://mindnetwork.xyz",
+  "shortName": "fhe",
+  "chainId": 18881,
+  "networkId": 18881,
+  "icon": "fhe",
+  "explorers": [{
+    "name": "MindNetwork Explorer",
+    "url": "https://explorer_mainnet.mindnetwork.xyz",
+    "icon": "MindNetwork Explorer",
+    "standard": "EIP3091"
+  }]
+}
