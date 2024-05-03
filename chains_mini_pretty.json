@@ -4887,6 +4887,19 @@
   "faucets": ["https://faucet.nepalblockchain.network"],
   "infoURL": "https://nepalblockchain.network"
 }, {
+  "name": "EthXY Testnet",
+  "chainId": 979,
+  "shortName": "sexyTestnet",
+  "networkId": 979,
+  "nativeCurrency": {
+    "name": "Settled EthXY Token",
+    "symbol": "SEXY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.ethxy.com"],
+  "faucets": [],
+  "infoURL": "https://ethxy.com"
+}, {
   "name": "TOP Mainnet EVM",
   "chainId": 980,
   "shortName": "top_evm",
