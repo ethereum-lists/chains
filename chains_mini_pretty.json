@@ -5511,6 +5511,19 @@
   "faucets": ["http://tc04.mydefichain.com/faucet"],
   "infoURL": "https://meta.defichain.com"
 }, {
+  "name": "Lisk",
+  "chainId": 1135,
+  "shortName": "lisk",
+  "networkId": 1135,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.api.lisk.com"],
+  "faucets": [],
+  "infoURL": "https://lisk.com"
+}, {
   "name": "AmStar Testnet",
   "chainId": 1138,
   "shortName": "ASARt",
