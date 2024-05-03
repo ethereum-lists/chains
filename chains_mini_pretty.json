@@ -7799,7 +7799,7 @@
   "faucets": ["https://airdrop.somanetwork.io"],
   "infoURL": "https://somanetwork.io"
 }, {
-  "name": "Atleta Testnet",
+  "name": "Atleta Olympia",
   "chainId": 2340,
   "shortName": "atla",
   "networkId": 2340,
@@ -7808,7 +7808,7 @@
     "symbol": "ATLA",
     "decimals": 18
   },
-  "rpc": ["wss://testnet-rpc.atleta.network:9944"],
+  "rpc": ["wss://testnet-rpc.atleta.network:9944", "https://testnet-rpc.atleta.network:9944"],
   "faucets": ["https://faucet.atleta.network"],
   "infoURL": "https://atleta.network"
 }, {
