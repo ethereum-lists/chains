@@ -1,0 +1,26 @@
+{
+  "name": "Mind Network Testnet",
+  "chain": "FHET",
+  "rpc": [
+    "https://rpc_testnet.mindnetwork.xyz",
+    "wss://rpc_testnet.mindnetwork.xyz"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FHE",
+    "symbol": "FHE",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://mindnetwork.xyz",
+  "shortName": "fhet",
+  "chainId": 192940,
+  "networkId": 192940,
+  "explorers": [
+    {
+      "name": "Mind Network Testnet Explorer",
+      "url": "https://explorer_testnet.mindnetwork.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
