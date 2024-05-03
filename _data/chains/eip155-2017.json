@@ -1,0 +1,29 @@
+{
+  "name": "Telcoin Testnet",
+  "title": "Telcoin Testnet",
+  "chain": "TEL",
+  "rpc": ["https://telcoin.rpc.dex.guru/archive/2017"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TEL",
+    "symbol": "TEL",
+    "decimals": 18
+  },
+  "infoURL": "https://www.telco.in",
+  "shortName": "telcoin-testnet",
+  "chainId": 2017,
+  "networkId": 2017,
+  "explorers": [
+    {
+      "name": "Telcoin Testnet Explorer",
+      "url": "https://telscan.io",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://telco-test.dex.guru",
+      "icon": "dexguru",
+      "standard": "EIP3091"
+    }
+  ]
+}
