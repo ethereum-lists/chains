@@ -7,13 +7,13 @@
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Mind Network",
+    "name": "FHE",
     "symbol": "FHE",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [{ "name": "EIP155" }],
   "infoURL": "https://mindnetwork.xyz",
-  "shortName": "FHE",
+  "shortName": "fhe",
   "chainId": 228,
   "networkId": 228,
   "explorers": [
