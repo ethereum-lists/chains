@@ -2,7 +2,7 @@
   "name": "Mind Network Mainnet",
   "chain": "FHE",
   "rpc": [
-    "https://rpc_mainnet.mindnetwork.xyz", 
+    "https://rpc_mainnet.mindnetwork.xyz",
     "wss://rpc_mainnet.mindnetwork.xyz"
   ],
   "faucets": [],
@@ -16,9 +16,11 @@
   "shortName": "FHE",
   "chainId": 228,
   "networkId": 228,
-  "explorers": [{
-    "name": "Mind Network Explorer",
-    "url": "https://explorer_mainnet.mindnetwork.xyz ",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "Mind Network Explorer",
+      "url": "https://explorer_mainnet.mindnetwork.xyz ",
+      "standard": "EIP3091"
+    }
+  ]
 }
