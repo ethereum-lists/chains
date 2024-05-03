@@ -1,7 +1,10 @@
 {
-  "name": "Atleta Testnet",
+  "name": "Atleta Olympia",
   "chain": "Atleta",
-  "rpc": ["wss://testnet-rpc.atleta.network:9944"],
+  "rpc": [
+    "wss://testnet-rpc.atleta.network:9944",
+    "https://testnet-rpc.atleta.network:9944"
+  ],
   "faucets": ["https://faucet.atleta.network"],
   "nativeCurrency": {
     "name": "Atla",
