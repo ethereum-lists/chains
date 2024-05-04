@@ -17263,6 +17263,19 @@
   "faucets": [],
   "infoURL": "https://alltra.world"
 }, {
+  "name": "Xai Mainnet",
+  "chainId": 660279,
+  "shortName": "xai",
+  "networkId": 660279,
+  "nativeCurrency": {
+    "name": "Xai",
+    "symbol": "XAI",
+    "decimals": 18
+  },
+  "rpc": ["https://xai-chain.net/rpc"],
+  "faucets": [],
+  "infoURL": "https://xai.games"
+}, {
   "name": "Vision - Vpioneer Test Chain",
   "chainId": 666666,
   "shortName": "vpioneer",
@@ -19446,6 +19459,19 @@
   "rpc": ["https://gitswarm.com:2096"],
   "faucets": [],
   "infoURL": "https://gitswarm.com/"
+}, {
+  "name": "Xai Testnet v2",
+  "chainId": 37714555429,
+  "shortName": "xaitestnet",
+  "networkId": 37714555429,
+  "nativeCurrency": {
+    "name": "sXai",
+    "symbol": "sXAI",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-v2.xai-chain.net/rpc"],
+  "faucets": [],
+  "infoURL": "https://xai.games"
 }, {
   "name": "Arbitrum Blueberry",
   "chainId": 88153591557,
