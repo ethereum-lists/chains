@@ -26219,6 +26219,23 @@
     "standard": "none"
   }]
 }, {
+  "name": "Mind Network Testnet",
+  "chain": "FHET",
+  "rpc": ["https://rpc_testnet.mindnetwork.xyz", "wss://rpc_testnet.mindnetwork.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FHE",
+    "symbol": "FHE",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "https://mindnetwork.xyz",
+  "shortName": "fhet",
+  "chainId": 192940,
+  "networkId": 192940
+}, {
   "name": "Milkomeda C1 Testnet",
   "chain": "milkTAda",
   "icon": "milkomeda",
