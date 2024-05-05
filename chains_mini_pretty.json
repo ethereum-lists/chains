@@ -1689,6 +1689,19 @@
   "faucets": [],
   "infoURL": "https://engramnet.io"
 }, {
+  "name": "HashKey Chain Testnet",
+  "chainId": 133,
+  "shortName": "HSKT",
+  "networkId": 133,
+  "nativeCurrency": {
+    "name": "HashKey EcoPoints",
+    "symbol": "HSK",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://hashkey.cloud"
+}, {
   "name": "iExec Sidechain",
   "chainId": 134,
   "shortName": "rlc",
@@ -16574,7 +16587,7 @@
   "faucets": [],
   "infoURL": "https://conet.network"
 }, {
-  "name": "HashKey Chain Testnet",
+  "name": "HashKey Chain Testnet(discard)",
   "chainId": 230315,
   "shortName": "hsktest",
   "networkId": 230315,

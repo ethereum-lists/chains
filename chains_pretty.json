@@ -2665,6 +2665,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "HashKey Chain Testnet",
+  "title": "HashKey Chain Testnet",
+  "chain": "HashKey Chain Testnet",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "HashKey EcoPoints",
+    "symbol": "HSK",
+    "decimals": 18
+  },
+  "infoURL": "https://hashkey.cloud",
+  "shortName": "HSKT",
+  "chainId": 133,
+  "networkId": 133,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  }
+}, {
   "name": "iExec Sidechain",
   "chain": "Bellecour",
   "icon": "rlc",
@@ -26855,7 +26875,7 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "HashKey Chain Testnet",
+  "name": "HashKey Chain Testnet(discard)",
   "chain": "HashKey",
   "rpc": ["https://testnet.hashkeychain/rpc"],
   "faucets": ["https://testnet.hashkeychain/faucet"],
