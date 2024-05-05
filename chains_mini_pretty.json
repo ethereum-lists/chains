@@ -2781,6 +2781,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "xFair.AI Mainnet",
+  "chainId": 278,
+  "shortName": "fai",
+  "networkId": 278,
+  "nativeCurrency": {
+    "name": "FAI",
+    "symbol": "FAI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc_mainnet.xfair.ai", "wss://rpc_mainnet.xfair.ai"],
+  "faucets": [],
+  "infoURL": "https://xfair.ai"
+}, {
   "name": "BPX Blockchain",
   "chainId": 279,
   "shortName": "bpx",
