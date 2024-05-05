@@ -2534,6 +2534,19 @@
   "faucets": [],
   "infoURL": "https://lachain.io"
 }, {
+  "name": "Mind Network Mainnet",
+  "chainId": 228,
+  "shortName": "fhe",
+  "networkId": 228,
+  "nativeCurrency": {
+    "name": "FHE",
+    "symbol": "FHE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc_mainnet.mindnetwork.xyz", "wss://rpc_mainnet.mindnetwork.xyz"],
+  "faucets": [],
+  "infoURL": "https://mindnetwork.xyz"
+}, {
   "name": "SwapDEX",
   "chainId": 230,
   "shortName": "SDX",
