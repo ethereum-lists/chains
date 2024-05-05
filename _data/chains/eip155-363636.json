@@ -12,5 +12,11 @@
   "infoURL": "",
   "shortName": "DS2",
   "chainId": 363636,
-  "networkId": 363636
+  "networkId": 363636,
+  "explorers": [
+    {
+      "name": "Digit Soul Smart Chain 2 Block Explorer",
+      "url": "https://dgs-exp.digitsoul.co.th",
+    }
+    ]  
 }
