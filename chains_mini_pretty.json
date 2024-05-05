@@ -12765,6 +12765,19 @@
   "faucets": [],
   "infoURL": "https://magnet.magport.io/"
 }, {
+  "name": "LBRY Mainnet",
+  "chainId": 19600,
+  "shortName": "LBRY",
+  "networkId": 19600,
+  "nativeCurrency": {
+    "name": "LBRY Credits",
+    "symbol": "LBC",
+    "decimals": 8
+  },
+  "rpc": ["https://lbry.nl/rpc"],
+  "faucets": [],
+  "infoURL": "https://lbry.com"
+}, {
   "name": "BTCIX Network",
   "chainId": 19845,
   "shortName": "btcix",
