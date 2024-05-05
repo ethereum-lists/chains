@@ -15768,6 +15768,19 @@
   "faucets": [],
   "infoURL": "https://masa.finance"
 }, {
+  "name": "KaspaClassic Mainnet",
+  "chainId": 104566,
+  "shortName": "cas",
+  "networkId": 104566,
+  "nativeCurrency": {
+    "name": "KaspaClassic",
+    "symbol": "CAS",
+    "decimals": 18
+  },
+  "rpc": ["https://api.kaspaclassic.world/", "http://80.178.101.118:8000/"],
+  "faucets": [],
+  "infoURL": "https://kaspaclassic.com/"
+}, {
   "name": "Stratis Mainnet",
   "chainId": 105105,
   "shortName": "stratis",
