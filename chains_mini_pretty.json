@@ -16223,6 +16223,19 @@
   "faucets": [],
   "infoURL": "https://mindnetwork.xyz"
 }, {
+  "name": "xFair.AI Testnet",
+  "chainId": 200000,
+  "shortName": "fait",
+  "networkId": 200000,
+  "nativeCurrency": {
+    "name": "FAI",
+    "symbol": "FAI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc_testnet.xfair.ai", "wss://rpc_testnet.xfair.ai"],
+  "faucets": [],
+  "infoURL": "https://xfair.ai"
+}, {
   "name": "Milkomeda C1 Testnet",
   "chainId": 200101,
   "shortName": "milkTAda",
