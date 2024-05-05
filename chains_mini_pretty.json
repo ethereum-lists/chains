@@ -4107,6 +4107,19 @@
   "faucets": [],
   "infoURL": "https://acala.network/karura"
 }, {
+  "name": "Redstone",
+  "chainId": 690,
+  "shortName": "redstone",
+  "networkId": 690,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.redstonechain.com", "wss://rpc.redstonechain.com"],
+  "faucets": [],
+  "infoURL": "https://redstone.xyz"
+}, {
   "name": "Star Social Testnet",
   "chainId": 700,
   "shortName": "SNS",
@@ -12559,7 +12572,7 @@
 }, {
   "name": "Redstone Holesky Testnet",
   "chainId": 17001,
-  "shortName": "redstone",
+  "shortName": "redstone-holesky",
   "networkId": 17001,
   "nativeCurrency": {
     "name": "Redstone Testnet Ether",
@@ -12569,6 +12582,19 @@
   "rpc": ["https://rpc.holesky.redstone.xyz"],
   "faucets": [],
   "infoURL": "https://redstone.xyz/docs/network-info"
+}, {
+  "name": "Garnet Holesky",
+  "chainId": 17069,
+  "shortName": "garnet",
+  "networkId": 17069,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.garnetchain.com", "wss://rpc.garnetchain.com"],
+  "faucets": [],
+  "infoURL": "https://redstone.xyz"
 }, {
   "name": "G8Chain Mainnet",
   "chainId": 17171,

@@ -6673,6 +6673,34 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Redstone",
+  "chain": "ETH",
+  "rpc": ["https://rpc.redstonechain.com", "wss://rpc.redstonechain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://redstone.xyz",
+  "shortName": "redstone",
+  "chainId": 690,
+  "networkId": 690,
+  "icon": "redstone",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.redstone.xyz",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://redstone.xyz/deposit"
+    }]
+  }
+}, {
   "name": "Star Social Testnet",
   "chain": "SNS",
   "rpc": ["https://avastar.cc/ext/bc/C/rpc"],
@@ -20220,7 +20248,7 @@
     "decimals": 18
   },
   "infoURL": "https://redstone.xyz/docs/network-info",
-  "shortName": "redstone",
+  "shortName": "redstone-holesky",
   "chainId": 17001,
   "networkId": 17001,
   "slip44": 1,
@@ -20230,7 +20258,36 @@
     "url": "https://explorer.holesky.redstone.xyz",
     "icon": "ethereum",
     "standard": "EIP3091"
-  }]
+  }],
+  "status": "deprecated"
+}, {
+  "name": "Garnet Holesky",
+  "chain": "ETH",
+  "rpc": ["https://rpc.garnetchain.com", "wss://rpc.garnetchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://redstone.xyz",
+  "shortName": "garnet",
+  "chainId": 17069,
+  "networkId": 17069,
+  "icon": "garnet",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.garnetchain.com",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-17000",
+    "bridges": [{
+      "url": "https://garnetchain.com/deposit"
+    }]
+  }
 }, {
   "name": "G8Chain Mainnet",
   "chain": "G8C",
