@@ -16782,6 +16782,19 @@
   "faucets": ["https://faucet.calibration.fildev.network/"],
   "infoURL": "https://filecoin.io"
 }, {
+  "name": "Parex Mainnet",
+  "chainId": 322202,
+  "shortName": "parex",
+  "networkId": 322202,
+  "nativeCurrency": {
+    "name": "PAREX",
+    "symbol": "PRX",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.parex.network"],
+  "faucets": [],
+  "infoURL": "https://parex.network"
+}, {
   "name": "Bloom Genesis Testnet",
   "chainId": 323213,
   "shortName": "BGBC-Testnet",
