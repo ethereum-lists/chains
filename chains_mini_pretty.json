@@ -6889,6 +6889,19 @@
   "faucets": [],
   "infoURL": "https://dexilla.com"
 }, {
+  "name": "AIW3 Testnet",
+  "chainId": 1956,
+  "shortName": "AIW3-Testnet",
+  "networkId": 1956,
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.aiw3.io/"],
+  "faucets": [],
+  "infoURL": "https://aiw3.io/"
+}, {
   "name": "Selendra Network Mainnet",
   "chainId": 1961,
   "shortName": "SEL",
@@ -7395,6 +7408,19 @@
   "rpc": ["https://subnets.avax.network/shrapnel/mainnet/rpc"],
   "faucets": [],
   "infoURL": "https://www.shrapnel.com/"
+}, {
+  "name": "AIW3 Mainnet",
+  "chainId": 2045,
+  "shortName": "AIW3",
+  "networkId": 2045,
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://aiw3.io/"
 }, {
   "name": "Stratos Testnet",
   "chainId": 2047,
