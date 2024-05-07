@@ -2,15 +2,15 @@
   "name": "PRM Testnet",
   "chain": "prm",
   "icon": "prmIcon",
-  "rpc": ["http://testnet-rpc.prmscan.org"],
-  "faucets": ["http://faucet.prmscan.org"],
+  "rpc": ["https://testnet-rpc.prmscan.org"],
+  "faucets": ["https://faucet.prmscan.org"],
   "nativeCurrency": {
     "name": "Primal Network",
     "symbol": "PRM",
     "decimals": 18
   },
-  "infoURL": "primalnetwork.org",
-  "shortName": "prm",
+  "infoURL": "https://primalnetwork.org",
+  "shortName": "prmtest",
   "chainId": 839320,
   "networkId": 839320,
   "explorers": [
