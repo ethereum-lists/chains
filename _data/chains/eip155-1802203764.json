@@ -2,7 +2,9 @@
   "name": "Kakarot Sepolia",
   "chain": "ETH",
   "icon": "kakarot",
-  "rpc": ["https://sepolia-rpc.kakarot.org"],
+  "rpc": [
+    "https://sepolia-rpc.kakarot.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -17,6 +19,11 @@
     {
       "name": "Kakarot Scan",
       "url": "https://sepolia.kakarotscan.org",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Kakarot Explorer",
+      "url": "https://sepolia-explorer.kakarot.org/",
       "standard": "EIP3091"
     }
   ],
