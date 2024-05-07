@@ -1,7 +1,6 @@
 {
   "name": "NOW Chain",
   "chain": "NOW Chain",
-  "icon": "nowcoinrc",
   "rpc": ["https://rpc.nowscan.io"],
   "faucets": [],
   "nativeCurrency": {
@@ -13,6 +12,7 @@
   "shortName": "NOW",
   "chainId": 2014,
   "networkId": 2014,
+  "icon": "nowcoinrc",
   "explorers": [
     {
       "name": "NOW Explorer",
