@@ -13,6 +13,7 @@
   "shortName": "chz",
   "chainId": 88888,
   "networkId": 88888,
+  "redFlags": ["reusedChainId"],
   "explorers": [
     {
       "name": "chiliscan",
