@@ -1,10 +1,11 @@
 {
-  "name": "Cyber",
-  "title": "Cyber Testnet",
-  "chain": "ETH",
+  "name": "Cyber Testnet",
+  "chain": "Cyber",
   "rpc": [
     "https://cyber-testnet.alt.technology/",
-    "wss://cyber-testnet.alt.technology/ws"
+    "wss://cyber-testnet.alt.technology/ws",
+    "https://rpc.testnet.cyber.co/",
+    "wss://rpc.testnet.cyber.co/"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -12,15 +13,24 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "https://rollup-info.altlayer.io/depression-blonde-news/cyber_testnet",
-  "shortName": "cyber",
+  "icon": "cyber",
+  "infoURL": "https://cyber.co/",
+  "shortName": "cysep",
   "chainId": 111557560,
   "networkId": 111557560,
   "explorers": [
     {
-      "name": "cyber-testnet-explorer",
-      "url": "https://cyber-testnet-explorer.alt.technology/",
-      "standard": "none"
+      "name": "Cyber Testnet Explorer",
+      "url": "https://testnet.cyberscan.co",
+      "icon": "blockscout",
+      "standard": "EIP3091"
     }
-  ]
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [
+      { "url": "https://cyber-testnet-bridge.alt.technology/deposit" }
+    ]
+  }
 }

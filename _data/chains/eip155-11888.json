@@ -1,11 +1,11 @@
 {
-  "name": "SanR Chain",
-  "chain": "SanRChain",
+  "name": "Santiment Intelligence Network",
+  "chain": "Santiment Intelligence Network",
   "rpc": ["https://sanrchain-node.santiment.net"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "nSAN",
-    "symbol": "nSAN",
+    "name": "SANR",
+    "symbol": "SANR",
     "decimals": 18
   },
   "infoURL": "https://sanr.app",
@@ -24,8 +24,8 @@
   },
   "explorers": [
     {
-      "name": "SanR Chain Explorer",
-      "url": "https://sanrchain-explorer.santiment.net",
+      "name": "Santiment Intelligence Explorer",
+      "url": "https://app-explorer-pos.sanr.app",
       "standard": "none"
     }
   ]
