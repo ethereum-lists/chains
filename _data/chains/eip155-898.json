@@ -1,0 +1,24 @@
+{
+  "name": "MAXI Chain Testnet",
+  "chain": "MAXI",
+  "rpc": ["https://rpc-testnet.maxi.network"],
+  "faucets": ["https://faucet.maxi.network"],
+  "nativeCurrency": {
+    "name": "MAXICOIN",
+    "symbol": "MAXI",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://maxi.network",
+  "shortName": "maxi-testnet",
+  "chainId": 898,
+  "networkId": 898,
+  "icon": "maxi",
+  "explorers": [
+    {
+      "name": "Maxi Chain Testnet Explorer",
+      "url": "https://testnet.maxi.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

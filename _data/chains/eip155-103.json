@@ -1,12 +1,15 @@
 {
-  "name": "Worldland Mainnet",
+  "name": "WorldLand Mainnet",
   "chain": "Worldland",
   "icon": "worldland",
-  "rpc": ["https://seoul.worldland.foundation"],
+  "rpc": [
+    "https://seoul.worldland.foundation",
+    "https://seoul2.worldland.foundation"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Worldland",
-    "symbol": "WL",
+    "symbol": "WLC",
     "decimals": 18
   },
   "infoURL": "https://worldland.foundation",

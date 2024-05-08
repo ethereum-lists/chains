@@ -1,7 +1,11 @@
 {
   "name": "zkSync Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia.era.zksync.dev"],
+  "rpc": [
+    "https://sepolia.era.zksync.dev",
+    "https://zksync-sepolia.drpc.org",
+    "wss://zksync-sepolia.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
