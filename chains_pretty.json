@@ -4203,7 +4203,7 @@
 }, {
   "name": "Kroma",
   "chain": "ETH",
-  "rpc": ["https://api.kroma.network"],
+  "rpc": ["https://api.kroma.network", "https://rpc-kroma.rockx.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -14830,7 +14830,7 @@
   "name": "Merlin Mainnet",
   "title": "Merlin Mainnet",
   "chain": "Merlin",
-  "rpc": ["https://rpc.merlinchain.io", "https://merlin-mainnet-enterprise.unifra.io"],
+  "rpc": ["https://rpc.merlinchain.io", "https://merlin-mainnet-enterprise.unifra.io", "https://rpc-merlin.rockx.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",
@@ -20261,7 +20261,7 @@
   "name": "Holesky",
   "title": "Ethereum Testnet Holesky",
   "chain": "ETH",
-  "rpc": ["https://rpc.holesky.ethpandaops.io", "https://ethereum-holesky-rpc.publicnode.com", "wss://ethereum-holesky-rpc.publicnode.com", "https://holesky.drpc.org", "wss://holesky.drpc.org"],
+  "rpc": ["https://rpc.holesky.ethpandaops.io", "https://ethereum-holesky-rpc.publicnode.com", "wss://ethereum-holesky-rpc.publicnode.com", "https://holesky.drpc.org", "wss://holesky.drpc.org", "https://rpc-holesky.rockx.com"],
   "faucets": ["https://faucet.holesky.ethpandaops.io", "https://holesky-faucet.pk910.de"],
   "nativeCurrency": {
     "name": "Testnet ETH",
@@ -26546,7 +26546,7 @@
 }, {
   "name": "Bitlayer Mainnet",
   "chain": "Bitlayer",
-  "rpc": ["https://rpc.bitlayer.org", "https://rpc.bitlayer-rpc.com", "https://rpc.ankr.com/bitlayer", "wss://ws.bitlayer.org", "wss://ws.bitlayer-rpc.com"],
+  "rpc": ["https://rpc.bitlayer.org", "https://rpc.bitlayer-rpc.com", "https://rpc.ankr.com/bitlayer", "https://rpc-bitlayer.rockx.com", "wss://ws.bitlayer.org", "wss://ws.bitlayer-rpc.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",
@@ -29982,7 +29982,7 @@
   "name": "Sepolia",
   "title": "Ethereum Testnet Sepolia",
   "chain": "ETH",
-  "rpc": ["https://rpc.sepolia.org", "https://rpc2.sepolia.org", "https://rpc-sepolia.rockx.com", "https://rpc.sepolia.ethpandaops.io", "https://sepolia.infura.io/v3/${INFURA_API_KEY}", "wss://sepolia.infura.io/v3/${INFURA_API_KEY}", "https://sepolia.gateway.tenderly.co", "wss://sepolia.gateway.tenderly.co", "https://ethereum-sepolia-rpc.publicnode.com", "wss://ethereum-sepolia-rpc.publicnode.com", "https://sepolia.drpc.org", "wss://sepolia.drpc.org"],
+  "rpc": ["https://rpc.sepolia.org", "https://rpc2.sepolia.org", "https://rpc-sepolia.rockx.com", "https://rpc.sepolia.ethpandaops.io", "https://sepolia.infura.io/v3/${INFURA_API_KEY}", "wss://sepolia.infura.io/v3/${INFURA_API_KEY}", "https://sepolia.gateway.tenderly.co", "wss://sepolia.gateway.tenderly.co", "https://ethereum-sepolia-rpc.publicnode.com", "wss://ethereum-sepolia-rpc.publicnode.com", "https://sepolia.drpc.org", "wss://sepolia.drpc.org", "https://rpc-sepolia.rockx.com"],
   "faucets": ["http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"],
   "nativeCurrency": {
     "name": "Sepolia Ether",
