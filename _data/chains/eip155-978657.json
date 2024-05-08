@@ -1,0 +1,17 @@
+{
+    "name": "Treasure Ruby",
+    "chain": "Treasure Ruby",
+    "icon": "treasureRuby",
+    "rpc": ["https://rpc-testnet.treasure.lol/http"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "MAGIC",
+      "symbol": "MAGIC",
+      "decimals": 18
+    },
+    "infoURL": "https://portal.treasure.lol/",
+    "shortName": "treasureRuby",
+    "chainId": 978657,
+    "networkId": 978657,
+    "status": "active"
+  }
