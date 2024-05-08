@@ -1,0 +1,24 @@
+{
+    "name": "SPC Mainnet",
+    "chain": "spc",
+    "icon": "spcIcon",
+    "rpc": ["https://rpc.spectachain.io/"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Spectachain",
+      "symbol": "SPC",
+      "decimals": 18
+    },
+    "infoURL": "https://spectachain.io/",
+    "shortName": "spc",
+    "chainId": 575757,
+    "networkId": 575757,
+    "explorers": [
+      {
+        "name": "Specta Explorer",
+        "url": "https://explorer.spectachain.io/",
+        "standard": "EIP3091"
+      }
+    ]
+  }
+  
