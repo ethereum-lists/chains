@@ -13766,6 +13766,19 @@
   "faucets": ["https://robin-faucet.rangersprotocol.com"],
   "infoURL": "https://rangersprotocol.com"
 }, {
+  "name": "PRM Mainnet",
+  "chainId": 39656,
+  "shortName": "prm",
+  "networkId": 39656,
+  "nativeCurrency": {
+    "name": "Primal Network",
+    "symbol": "PRM",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.prmscan.org"],
+  "faucets": [],
+  "infoURL": "https://primalnetwork.org"
+}, {
   "name": "Energi Mainnet",
   "chainId": 39797,
   "shortName": "nrg",
@@ -17665,6 +17678,19 @@
   "rpc": ["https://mainnet-rpc.curvescan.io"],
   "faucets": [],
   "infoURL": "https://curvescan.io"
+}, {
+  "name": "PRM Testnet",
+  "chainId": 839320,
+  "shortName": "prmtest",
+  "networkId": 839320,
+  "nativeCurrency": {
+    "name": "Primal Network",
+    "symbol": "PRM",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.prmscan.org"],
+  "faucets": ["https://faucet.prmscan.org"],
+  "infoURL": "https://primalnetwork.org"
 }, {
   "name": "4GoodNetwork",
   "chainId": 846000,
