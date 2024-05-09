@@ -2027,29 +2027,29 @@
   "faucets": [],
   "infoURL": "https://explorer.lightstreams.io"
 }, {
-  "name": "Omni Testnet (incubating)",
+  "name": "Omni Testnet",
   "chainId": 164,
-  "shortName": "omni_testnet_164",
+  "shortName": "omni_testnet",
   "networkId": 164,
   "nativeCurrency": {
     "name": "Omni",
     "symbol": "OMNI",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://testnet.omni.network"],
   "faucets": [],
   "infoURL": "https://docs.omni.network"
 }, {
-  "name": "Omni Testnet",
+  "name": "Omni Testnet (Deprecated)",
   "chainId": 165,
-  "shortName": "omni_testnet",
+  "shortName": "omni_testnet_deprecated",
   "networkId": 165,
   "nativeCurrency": {
     "name": "Omni",
     "symbol": "OMNI",
     "decimals": 18
   },
-  "rpc": ["https://testnet.omni.network"],
+  "rpc": [],
   "faucets": [],
   "infoURL": "https://docs.omni.network/"
 }, {
