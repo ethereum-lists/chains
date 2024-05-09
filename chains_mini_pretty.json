@@ -13935,6 +13935,19 @@
   "faucets": [],
   "infoURL": "https://zkfair.io"
 }, {
+  "name": "Etherlink Mainnet",
+  "chainId": 42793,
+  "shortName": "etlk",
+  "networkId": 42793,
+  "nativeCurrency": {
+    "name": "tez",
+    "symbol": "XTZ",
+    "decimals": 18
+  },
+  "rpc": ["https://node.mainnet.etherlink.com"],
+  "faucets": [],
+  "infoURL": "https://etherlink.com"
+}, {
   "name": "Gesoten Verse Testnet",
   "chainId": 42801,
   "shortName": "GST",
