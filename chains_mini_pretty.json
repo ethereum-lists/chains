@@ -12310,6 +12310,19 @@
   "faucets": [],
   "infoURL": "https://rikeza.io"
 }, {
+  "name": "Playdapp Testnet",
+  "chainId": 12781,
+  "shortName": "PDA-TESTNET",
+  "networkId": 12781,
+  "nativeCurrency": {
+    "name": "Playdapp",
+    "symbol": "PDA",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/playdappte/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://playdapp.io"
+}, {
   "name": "Quantum Chain Testnet",
   "chainId": 12890,
   "shortName": "tqnet",
@@ -17340,6 +17353,19 @@
   "rpc": ["https://baas-rpc.luniverse.io:18545?lChainId=1641349324562974539"],
   "faucets": [],
   "infoURL": "https://www.openchain.live"
+}, {
+  "name": "Playdapp Network",
+  "chainId": 504441,
+  "shortName": "PDA",
+  "networkId": 504441,
+  "nativeCurrency": {
+    "name": "Playdapp",
+    "symbol": "PDA",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/playdappne/mainnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://playdapp.io"
 }, {
   "name": "CMP-Testnet",
   "chainId": 512512,

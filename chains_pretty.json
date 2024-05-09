@@ -19793,6 +19793,29 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Playdapp Testnet",
+  "chain": "PDA",
+  "icon": "pda",
+  "rpc": ["https://subnets.avax.network/playdappte/testnet/rpc"],
+  "features": [{
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Playdapp",
+    "symbol": "PDA",
+    "decimals": 18
+  },
+  "infoURL": "https://playdapp.io",
+  "shortName": "PDA-TESTNET",
+  "chainId": 12781,
+  "networkId": 12781,
+  "explorers": [{
+    "name": "Playdapp Testnet Explorer",
+    "url": "https://subnets-test.avax.network/playdappte",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Quantum Chain Testnet",
   "chain": "tQNET",
   "icon": "qnet",
@@ -28114,6 +28137,29 @@
     "name": "SIDE SCAN",
     "url": "https://sidescan.luniverse.io/1641349324562974539",
     "standard": "none"
+  }]
+}, {
+  "name": "Playdapp Network",
+  "chain": "PDA",
+  "icon": "pda",
+  "rpc": ["https://subnets.avax.network/playdappne/mainnet/rpc"],
+  "features": [{
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Playdapp",
+    "symbol": "PDA",
+    "decimals": 18
+  },
+  "infoURL": "https://playdapp.io",
+  "shortName": "PDA",
+  "chainId": 504441,
+  "networkId": 504441,
+  "explorers": [{
+    "name": "Playdapp Explorer",
+    "url": "https://subnets.avax.network/playdappne",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "CMP-Testnet",
