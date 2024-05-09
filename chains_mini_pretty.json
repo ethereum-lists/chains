@@ -7162,6 +7162,19 @@
   "faucets": [],
   "infoURL": "https://cloudwalk.io"
 }, {
+  "name": "NOW Chain",
+  "chainId": 2014,
+  "shortName": "now",
+  "networkId": 2014,
+  "nativeCurrency": {
+    "name": "NOW Coin",
+    "symbol": "NOW",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.nowscan.io"],
+  "faucets": [],
+  "infoURL": "https://nowchain.co"
+}, {
   "name": "MainnetZ Mainnet",
   "chainId": 2016,
   "shortName": "netz",
