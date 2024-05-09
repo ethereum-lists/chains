@@ -12973,6 +12973,19 @@
   "faucets": ["https://t.me/c4eiAirdrop"],
   "infoURL": "https://c4ex.net"
 }, {
+  "name": "DCpay Mainnet",
+  "chainId": 21223,
+  "shortName": "DCPm",
+  "networkId": 21223,
+  "nativeCurrency": {
+    "name": "DCP",
+    "symbol": "DCP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.dcpay.io"],
+  "faucets": [],
+  "infoURL": "https://dcpay.io"
+}, {
   "name": "CENNZnet Azalea",
   "chainId": 21337,
   "shortName": "cennz-a",

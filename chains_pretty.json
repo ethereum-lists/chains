@@ -20909,6 +20909,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "DCpay Mainnet",
+  "chain": "DCpay",
+  "icon": "dcpayIcon",
+  "rpc": ["https://rpc.dcpay.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DCP",
+    "symbol": "DCP",
+    "decimals": 18
+  },
+  "infoURL": "https://dcpay.io",
+  "shortName": "DCPm",
+  "chainId": 21223,
+  "networkId": 21223,
+  "explorers": [{
+    "name": "DCpay Mainnet Explorer",
+    "url": "https://mainnet.dcpay.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "CENNZnet Azalea",
   "chain": "CENNZnet",
   "rpc": ["https://cennznet.unfrastructure.io/public"],
