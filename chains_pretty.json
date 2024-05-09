@@ -22147,6 +22147,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Funki",
+  "chain": "ETH",
+  "icon": "funki",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://funkichain.com",
+  "shortName": "funki",
+  "chainId": 33979,
+  "networkId": 33979,
+  "explorers": [{
+    "name": "Funki Mainnet Explorer",
+    "url": "https://mainnet.funkichain.com",
+    "standard": "none"
+  }]
+}, {
   "name": "Mode",
   "chain": "ETH",
   "rpc": ["https://mainnet.mode.network", "https://mode.drpc.org", "wss://mode.drpc.org"],
@@ -29456,6 +29476,26 @@
   "networkId": 3141592,
   "slip44": 1,
   "explorers": []
+}, {
+  "name": "Funki Sepolia Sandbox",
+  "chain": "ETH",
+  "icon": "funki",
+  "rpc": ["https://funki-testnet.alt.technology"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://funkichain.com",
+  "shortName": "funkisepolia",
+  "chainId": 3397901,
+  "networkId": 3397901,
+  "explorers": [{
+    "name": "Funki Sepolia Sandbox Explorer",
+    "url": "https://sepolia-sandbox.funkichain.com",
+    "standard": "none"
+  }]
 }, {
   "name": "Manta Pacific Testnet",
   "chain": "Manta Pacific",
