@@ -2,7 +2,7 @@
   "name": "Aura Euphoria Testnet",
   "chain": "Aura",
   "rpc": ["https://jsonrpc.euphoria.aura.network"],
-  "faucets": [],
+  "faucets": ["https://aura.faucetme.pro"],
   "nativeCurrency": {
     "name": "test-EAura",
     "symbol": "eAura",
