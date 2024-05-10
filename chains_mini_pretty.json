@@ -6200,6 +6200,19 @@
   "faucets": [],
   "infoURL": "https://polygon.technology/solutions/polygon-zkevm/"
 }, {
+  "name": "Silicon zkEVM Sepolia Testnet",
+  "chainId": 1414,
+  "shortName": "silicon-sepolia-testnet",
+  "networkId": 1414,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Polygon zkEVM Testnet Pre Audit-Upgraded",
   "chainId": 1422,
   "shortName": "testnet-zkEVM-mango-pre-audit-upgraded",
@@ -7928,6 +7941,19 @@
   "rpc": ["https://rpc.omniaverse.io"],
   "faucets": ["https://www.omniaverse.io"],
   "infoURL": "https://www.omniaverse.io"
+}, {
+  "name": "Silicon zkEVM",
+  "chainId": 2355,
+  "shortName": "silicon-zk",
+  "networkId": 2355,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": ""
 }, {
   "name": "(deprecated) Kroma Sepolia",
   "chainId": 2357,
