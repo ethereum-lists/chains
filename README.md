@@ -108,7 +108,7 @@ Also please run the prettier to format your json according to the style [defined
 e.g. run
 
 ```
-npx prettier --write _data/*/*.json`
+npx prettier --write _data/*/*.json
 ```
 
 ### Once PR is submitted
