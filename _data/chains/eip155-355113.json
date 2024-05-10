@@ -1,12 +1,8 @@
 {
   "name": "Bitfinity Network Testnet",
   "chain": "BFT",
-  "rpc": [
-    "https://testnet.bitfinity.network"
-  ],
-  "faucets": [
-    "https://bitfinity.network/faucet"
-  ],
+  "rpc": ["https://testnet.bitfinity.network"],
+  "faucets": ["https://bitfinity.network/faucet"],
   "nativeCurrency": {
     "name": "BITFINITY",
     "symbol": "BFT",

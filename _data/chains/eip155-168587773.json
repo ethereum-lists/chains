@@ -6,9 +6,7 @@
     "https://blast-sepolia.drpc.org",
     "wss://blast-sepolia.drpc.org"
   ],
-  "faucets": [
-    "https://faucet.quicknode.com/blast/sepolia"
-  ],
+  "faucets": ["https://faucet.quicknode.com/blast/sepolia"],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
