@@ -1,0 +1,21 @@
+{
+  "name": "HashKey Chain Testnet",
+  "title": "HashKey Chain Testnet",
+  "chain": "HashKey Chain Testnet",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "HashKey EcoPoints",
+    "symbol": "HSK",
+    "decimals": 18
+  },
+  "infoURL": "https://hashkey.cloud",
+  "shortName": "HSKT",
+  "chainId": 133,
+  "networkId": 133,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  }
+}
