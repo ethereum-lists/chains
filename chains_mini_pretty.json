@@ -9138,6 +9138,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Tobe Chain",
+  "chainId": 4080,
+  "shortName": "tbc",
+  "networkId": 4080,
+  "nativeCurrency": {
+    "name": "Tobe Coin",
+    "symbol": "TBC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.tobescan.com"],
+  "faucets": [],
+  "infoURL": "https://tobechain.net"
+}, {
   "name": "Fastex Chain (Bahamut) Oasis Testnet",
   "chainId": 4090,
   "shortName": "Oasis",

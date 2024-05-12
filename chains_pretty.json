@@ -14721,6 +14721,26 @@
     "bridges": []
   }
 }, {
+  "name": "Tobe Chain",
+  "chain": "TBC",
+  "icon": "tobe",
+  "rpc": ["https://rpc.tobescan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Tobe Coin",
+    "symbol": "TBC",
+    "decimals": 18
+  },
+  "infoURL": "https://tobechain.net",
+  "shortName": "tbc",
+  "chainId": 4080,
+  "networkId": 4080,
+  "explorers": [{
+    "name": "tobescan",
+    "url": "https://tobescan.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Fastex Chain (Bahamut) Oasis Testnet",
   "title": "Bahamut testnet Oasis",
   "icon": "bahamut",
