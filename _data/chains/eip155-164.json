@@ -1,8 +1,8 @@
 {
-  "name": "Omni Testnet (incubating)",
+  "name": "Omni Testnet",
   "chain": "Omni",
-  "status": "incubating",
-  "rpc": [],
+  "status": "active",
+  "rpc": ["https://testnet.omni.network"],
   "features": [{ "name": "EIP155" }],
   "faucets": [],
   "nativeCurrency": {
@@ -11,7 +11,7 @@
     "decimals": 18
   },
   "infoURL": "https://docs.omni.network",
-  "shortName": "omni_testnet_164",
+  "shortName": "omni_testnet",
   "chainId": 164,
   "networkId": 164,
   "slip44": 1,
@@ -24,6 +24,11 @@
     {
       "name": "Omni EVM Explorer on Blockscout",
       "url": "https://omni-testnet.blockscout.com",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Omni EVM Explorer on Routescan",
+      "url": "https://testnet.omniscan.network",
       "standard": "EIP3091"
     }
   ]
