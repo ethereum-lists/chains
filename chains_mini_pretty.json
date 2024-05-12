@@ -13714,6 +13714,19 @@
   "faucets": ["https://dev-wallet.zilliqa.com/faucet?network=isolated_server"],
   "infoURL": "https://www.zilliqa.com/"
 }, {
+  "name": "Entangle Mainnet",
+  "chainId": 33033,
+  "shortName": "ngl",
+  "networkId": 33033,
+  "nativeCurrency": {
+    "name": "Entangle",
+    "symbol": "NGL",
+    "decimals": 18
+  },
+  "rpc": ["https://json-rpc.entangle.fi"],
+  "faucets": [],
+  "infoURL": "https://www.entangle.fi"
+}, {
   "name": "Zilliqa EVM Testnet",
   "chainId": 33101,
   "shortName": "zil-testnet",
@@ -13726,6 +13739,19 @@
   "rpc": ["https://dev-api.zilliqa.com"],
   "faucets": ["https://dev-wallet.zilliqa.com/faucet?network=testnet"],
   "infoURL": "https://www.zilliqa.com/"
+}, {
+  "name": "Entangle Testnet",
+  "chainId": 33133,
+  "shortName": "tngl",
+  "networkId": 33133,
+  "nativeCurrency": {
+    "name": "Entangle",
+    "symbol": "NGL",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-testnet.entangle.fi"],
+  "faucets": [],
+  "infoURL": "https://www.entangle.fi"
 }, {
   "name": "Cloudverse Subnet",
   "chainId": 33210,

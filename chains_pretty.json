@@ -22129,6 +22129,26 @@
     "standard": "none"
   }]
 }, {
+  "name": "Entangle Mainnet",
+  "chain": "NGL",
+  "icon": "ngl",
+  "rpc": ["https://json-rpc.entangle.fi"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Entangle",
+    "symbol": "NGL",
+    "decimals": 18
+  },
+  "infoURL": "https://www.entangle.fi",
+  "shortName": "ngl",
+  "chainId": 33033,
+  "networkId": 33033,
+  "explorers": [{
+    "name": "Entangle Mainnet Explorer",
+    "url": "https://explorer.entangle.fi",
+    "standard": "none"
+  }]
+}, {
   "name": "Zilliqa EVM Testnet",
   "chain": "ZIL",
   "rpc": ["https://dev-api.zilliqa.com"],
@@ -22148,6 +22168,22 @@
     "url": "https://evmx.zilliqa.com",
     "standard": "none"
   }]
+}, {
+  "name": "Entangle Testnet",
+  "chain": "NGL",
+  "icon": "ngl",
+  "rpc": ["https://evm-testnet.entangle.fi"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Entangle",
+    "symbol": "NGL",
+    "decimals": 18
+  },
+  "infoURL": "https://www.entangle.fi",
+  "shortName": "tngl",
+  "chainId": 33133,
+  "networkId": 33133,
+  "explorers": []
 }, {
   "name": "Cloudverse Subnet",
   "chain": "CLOUDVERSE",
