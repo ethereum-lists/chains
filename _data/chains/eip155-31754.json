@@ -2,12 +2,8 @@
   "name": "Xchain Testnet",
   "chain": "Xchain",
   "icon": "intd",
-  "rpc": [
-    "https://rpc.xchaintest.net"
-  ],
-  "faucets": [
-    "https://xchainfaucet.net"
-  ],
+  "rpc": ["https://rpc.xchaintest.net"],
+  "faucets": ["https://xchainfaucet.net"],
   "nativeCurrency": {
     "name": "Intdestcoin Testnet",
     "symbol": "INTD",
