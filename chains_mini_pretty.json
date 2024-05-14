@@ -2131,6 +2131,19 @@
   "faucets": ["https://faucet.latam-blockchain.com"],
   "infoURL": "https://latam-blockchain.com"
 }, {
+  "name": "DC Mainnet",
+  "chainId": 176,
+  "shortName": "dcchain",
+  "networkId": 176,
+  "nativeCurrency": {
+    "name": "DC Native Token",
+    "symbol": "DCT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.dcnetio.cloud", "wss://ws.dcnetio.cloud"],
+  "faucets": [],
+  "infoURL": "https://www.dcnetio.cloud"
+}, {
   "name": "AME Chain Mainnet",
   "chainId": 180,
   "shortName": "ame",
@@ -14857,6 +14870,19 @@
   "rpc": ["https://rpc.mtv.ac", "https://rpc-eu.mtv.ac"],
   "faucets": [],
   "infoURL": "https://mtv.ac"
+}, {
+  "name": "PLYR TAU Testnet",
+  "chainId": 62831,
+  "shortName": "plyr-tau-testnet",
+  "networkId": 62831,
+  "nativeCurrency": {
+    "name": "PLYR",
+    "symbol": "PLYR",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/plyr/testnet/rpc"],
+  "faucets": ["https://faucet.avax.network/?subnet=plyr"],
+  "infoURL": "https://plyr.network"
 }, {
   "name": "eCredits Mainnet",
   "chainId": 63000,
