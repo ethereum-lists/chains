@@ -16405,6 +16405,19 @@
   "faucets": [],
   "infoURL": "https://www.playfi.ai/"
 }, {
+  "name": "Eclat Mainnet",
+  "chainId": 165279,
+  "shortName": "ECLAT",
+  "networkId": 165279,
+  "nativeCurrency": {
+    "name": "Eclat",
+    "symbol": "ECLAT",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.eclatscan.com"],
+  "faucets": [],
+  "infoURL": "https://eclatscan.com"
+}, {
   "name": "Taiko Mainnet",
   "chainId": 167000,
   "shortName": "tko-mainnet",
@@ -16950,6 +16963,19 @@
   "rpc": ["https://mainnet.block.caduceus.foundation", "wss://mainnet.block.caduceus.foundation"],
   "faucets": [],
   "infoURL": "https://caduceus.foundation/"
+}, {
+  "name": "Eclat Testnet",
+  "chainId": 262371,
+  "shortName": "tECLAT",
+  "networkId": 262371,
+  "nativeCurrency": {
+    "name": "Eclat Testnet",
+    "symbol": "ECLAT",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.eclatscan.com"],
+  "faucets": ["https://faucet.eclatscan.com"],
+  "infoURL": "https://testnet-explorer.eclatscan.com"
 }, {
   "name": "Gear Zero Network Testnet",
   "chainId": 266256,
