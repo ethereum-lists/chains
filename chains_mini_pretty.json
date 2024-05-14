@@ -14858,19 +14858,6 @@
   "faucets": [],
   "infoURL": "https://mtv.ac"
 }, {
-  "name": "PLYR TAU Testnet",
-  "chainId": 62831,
-  "shortName": "plyr-tau-testnet",
-  "networkId": 62831,
-  "nativeCurrency": {
-    "name": "PLYR",
-    "symbol": "PLYR",
-    "decimals": 18
-  },
-  "rpc": ["https://subnets.avax.network/plyr/testnet/rpc"],
-  "faucets": ["https://faucet.avax.network/?subnet=plyr"],
-  "infoURL": "https://plyr.network"
-}, {
   "name": "eCredits Mainnet",
   "chainId": 63000,
   "shortName": "ecs",
