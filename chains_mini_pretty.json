@@ -15664,6 +15664,19 @@
   "faucets": ["https://proteusfaucet.nautchain.xyz"],
   "infoURL": "https://docs.nautchain.xyz"
 }, {
+  "name": "Inoai Network",
+  "chainId": 88559,
+  "shortName": "INOAI",
+  "networkId": 88559,
+  "nativeCurrency": {
+    "name": "Inoai",
+    "symbol": "INO",
+    "decimals": 18
+  },
+  "rpc": ["https://inoai-network.com"],
+  "faucets": [],
+  "infoURL": "https://inoai.info"
+}, {
   "name": "Unit Zero Testnet",
   "chainId": 88817,
   "shortName": "unit0-testnet",
