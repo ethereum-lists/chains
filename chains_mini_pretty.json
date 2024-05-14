@@ -18238,6 +18238,19 @@
   "faucets": ["https://faucet.zhejiang.ethpandaops.io", "https://zhejiang-faucet.pk910.de"],
   "infoURL": "https://zhejiang.ethpandaops.io"
 }, {
+  "name": "Automata Testnet",
+  "chainId": 1398243,
+  "shortName": "automatatest",
+  "networkId": 1398243,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://ata.network"
+}, {
   "name": "PlayFi Albireo Testnet",
   "chainId": 1612127,
   "shortName": "alberio",
