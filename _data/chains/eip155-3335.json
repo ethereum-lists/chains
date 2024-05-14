@@ -1,7 +1,7 @@
 {
-  "name": "EthStorage Devnet",
+  "name": "EthStorage Mainnet",
   "chain": "EthStorage",
-  "rpc": ["http://devnet.ethstorage.io:9540"],
+  "rpc": ["http://mainnet.ethstorage.io:9540"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -9,7 +9,7 @@
     "decimals": 18
   },
   "infoURL": "https://ethstorage.io/",
-  "shortName": "es-d",
+  "shortName": "es-m",
   "chainId": 3335,
   "networkId": 3335,
   "slip44": 1
