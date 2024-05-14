@@ -1,8 +1,8 @@
 {
-  "name": "QuarkChain L2 Testnet",
+  "name": "QuarkChain L2 Mainnet",
   "chain": "QuarkChain",
   "rpc": [
-    "https://testnet-l2-ethapi.quarkchain.io",
+    "https://mainnet-l2-ethapi.quarkchain.io",
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -11,17 +11,17 @@
     "decimals": 18
   },
   "infoURL": "https://www.quarkchain.io",
-  "shortName": "qkc-l2-t",
-  "chainId": 110009,
-  "networkId": 110009,
+  "shortName": "qkc-l2",
+  "chainId": 100011,
+  "networkId": 100011,
   "parent": {
     "type": "L2",
-    "chain": "eip155-110000"
+    "chain": "eip155-100000"
   },
   "explorers": [
     {
-      "name": "quarkchain-l2-testnet",
-      "url": "https://explorer.testnet.l2.quarkchain.io",
+      "name": "quarkchain-l2-mainnet",
+      "url": "https://explorer.mainnet.l2.quarkchain.io",
       "standard": "EIP3091"
     }
   ]
