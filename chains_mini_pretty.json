@@ -2144,6 +2144,19 @@
   "faucets": [],
   "infoURL": "https://amechain.io/"
 }, {
+  "name": "Mint Mainnet",
+  "chainId": 185,
+  "shortName": "mint",
+  "networkId": 185,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mintchain.io"],
+  "faucets": [],
+  "infoURL": "https://www.mintchain.io"
+}, {
   "name": "Seele Mainnet",
   "chainId": 186,
   "shortName": "Seele",
@@ -14844,6 +14857,19 @@
   "rpc": ["https://rpc.mtv.ac", "https://rpc-eu.mtv.ac"],
   "faucets": [],
   "infoURL": "https://mtv.ac"
+}, {
+  "name": "PLYR TAU Testnet",
+  "chainId": 62831,
+  "shortName": "plyr-tau-testnet",
+  "networkId": 62831,
+  "nativeCurrency": {
+    "name": "PLYR",
+    "symbol": "PLYR",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/plyr/testnet/rpc"],
+  "faucets": ["https://faucet.avax.network/?subnet=plyr"],
+  "infoURL": "https://plyr.network"
 }, {
   "name": "eCredits Mainnet",
   "chainId": 63000,

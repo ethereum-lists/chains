@@ -3395,6 +3395,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Mint Mainnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc.mintchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.mintchain.io",
+  "shortName": "mint",
+  "chainId": 185,
+  "networkId": 185,
+  "icon": "mint",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.mintchain.io",
+    "icon": "mint",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Seele Mainnet",
   "chain": "Seele",
   "rpc": ["https://rpc.seelen.pro/"],
@@ -24083,6 +24104,27 @@
     "name": "MultiVAC Explorer",
     "url": "https://e.mtv.ac",
     "standard": "none"
+  }]
+}, {
+  "name": "PLYR TAU Testnet",
+  "chain": "PLYR",
+  "icon": "plyr",
+  "rpc": ["https://subnets.avax.network/plyr/testnet/rpc"],
+  "faucets": ["https://faucet.avax.network/?subnet=plyr"],
+  "nativeCurrency": {
+    "name": "PLYR",
+    "symbol": "PLYR",
+    "decimals": 18
+  },
+  "infoURL": "https://plyr.network",
+  "shortName": "plyr-tau-testnet",
+  "chainId": 62831,
+  "networkId": 62831,
+  "slip44": 1,
+  "explorers": [{
+    "name": "Avalanche Subnet Testnet Explorer",
+    "url": "https://subnets-test.avax.network/plyr",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "eCredits Mainnet",
