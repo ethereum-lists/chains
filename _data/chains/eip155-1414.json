@@ -1,0 +1,24 @@
+{
+  "name": "Silicon zkEVM Sepolia Testnet",
+  "title": "Silicon zkEVM Sepolia Testnet",
+  "chain": "Silicon",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "silicon-sepolia-testnet",
+  "chainId": 1414,
+  "networkId": 1414,
+  "icon": "silicon",
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": []
+  },
+  "status": "incubating"
+}
