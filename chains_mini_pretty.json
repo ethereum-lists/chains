@@ -7591,6 +7591,19 @@
   "faucets": [],
   "infoURL": "https://moonsama.com"
 }, {
+  "name": "UCHAIN Mainnet",
+  "chainId": 2112,
+  "shortName": "uchain",
+  "networkId": 2112,
+  "nativeCurrency": {
+    "name": "UCASH",
+    "symbol": "UCASH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.uchain.link/"],
+  "faucets": [],
+  "infoURL": "https://u.cash/"
+}, {
   "name": "Catena Mainnet",
   "chainId": 2121,
   "shortName": "cmcx",
