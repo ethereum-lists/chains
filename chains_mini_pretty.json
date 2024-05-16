@@ -12011,6 +12011,19 @@
   "faucets": [],
   "infoURL": "https://www.0xtrade.finance/"
 }, {
+  "name": "TAO EVM Testnet",
+  "chainId": 10324,
+  "shortName": "TAOt",
+  "networkId": 10324,
+  "nativeCurrency": {
+    "name": "TAO",
+    "symbol": "TAO",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.taoevm.io"],
+  "faucets": ["https://faucet.taoevm.io"],
+  "infoURL": "https://taoevm.io"
+}, {
   "name": "WorldLand Testnet",
   "chainId": 10395,
   "shortName": "TWLC",
