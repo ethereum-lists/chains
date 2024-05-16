@@ -2,7 +2,10 @@
   "name": "Chiliz Spicy Testnet",
   "chain": "CHZ",
   "rpc": ["https://spicy-rpc.chiliz.com"],
-  "faucets": ["https://spicy-faucet.chiliz.com","https://tatum.io/faucets/chiliz"],
+  "faucets": [
+    "https://spicy-faucet.chiliz.com",
+    "https://tatum.io/faucets/chiliz"
+  ],
   "nativeCurrency": {
     "name": "Chiliz",
     "symbol": "CHZ",
