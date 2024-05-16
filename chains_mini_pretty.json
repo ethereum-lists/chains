@@ -15872,6 +15872,19 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "Green Chain Testnet",
+  "chainId": 97531,
+  "shortName": "greenchain",
+  "networkId": 97531,
+  "nativeCurrency": {
+    "name": "GREEN",
+    "symbol": "GREEN",
+    "decimals": 18
+  },
+  "rpc": ["https://node.greenchain.app/rpc/"],
+  "faucets": [],
+  "infoURL": "https://www.greenchain.app"
+}, {
   "name": "eLiberty Testnet",
   "chainId": 99099,
   "shortName": "ELt",
