@@ -1,7 +1,7 @@
 {
   "name": "Swan Proxima Testnet",
   "chain": "SWAN",
-  "rpc": ["https://rpc-proxima.swanchain.io/"],
+  "rpc": ["https://rpc-proxima.swanchain.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "SWANETH",
@@ -15,7 +15,7 @@
   "explorers": [
     {
       "name": "Swan Proxima Chain explorer",
-      "url": "https://proxima-explorer.swanchain.io/",
+      "url": "https://proxima-explorer.swanchain.io",
       "standard": "EIP3091"
     }
   ]
