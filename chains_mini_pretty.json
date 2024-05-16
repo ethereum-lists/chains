@@ -15729,18 +15729,31 @@
   "faucets": ["https://scoville-faucet.chiliz.com"],
   "infoURL": "https://www.chiliz.com/en/chain"
 }, {
-  "name": "IVAR Chain Mainnet",
-  "chainId": 88888,
-  "shortName": "ivar",
-  "networkId": 88888,
+  "name": "Chiliz Spicy Testnet",
+  "chainId": 88882,
+  "shortName": "chzspicy",
+  "networkId": 88882,
   "nativeCurrency": {
-    "name": "Ivar",
-    "symbol": "IVAR",
+    "name": "Chiliz",
+    "symbol": "CHZ",
     "decimals": 18
   },
-  "rpc": ["https://mainnet-rpc.ivarex.com"],
-  "faucets": ["https://faucet.ivarex.com/"],
-  "infoURL": "https://ivarex.com"
+  "rpc": ["https://spicy-rpc.chiliz.com"],
+  "faucets": ["https://spicy-faucet.chiliz.com", "https://tatum.io/faucets/chiliz"],
+  "infoURL": "https://www.chiliz.com/en/chain"
+}, {
+  "name": "Chiliz Chain Mainnet",
+  "chainId": 88888,
+  "shortName": "chzmainnet",
+  "networkId": 88888,
+  "nativeCurrency": {
+    "name": "Chiliz",
+    "symbol": "CHZ",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.chiliz.com", "https://rpc.ankr.com/chiliz", "https://chiliz.publicnode.com"],
+  "faucets": ["https://spicy-faucet.chiliz.com", "https://tatum.io/faucets/chiliz"],
+  "infoURL": "https://chiliz.com"
 }, {
   "name": "F(x)Core Testnet Network",
   "chainId": 90001,
