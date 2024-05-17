@@ -1,0 +1,19 @@
+{
+  "name": "Aleph Zero EVM testnet",
+  "chain": "Aleph Zero",
+  "rpc": [
+    "https://rpc.alephzero-testnet.gelato.digital",
+    "wss://rpc.alephzero-testnet.gelato.digital"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AZERO",
+    "symbol": "AZERO",
+    "decimals": 18
+  },
+  "infoURL": "https://alephzero.org",
+  "shortName": "aleph",
+  "chainId": 2039,
+  "networkId": 2039,
+  "explorers": []
+}
