@@ -19,7 +19,9 @@
   "explorers": [
     {
       "name": "Aleph Zero Testnet",
-      "url": "https://test.azero.dev/#/explorer"
+      "url": "https://test.azero.dev/#/explorer",
+      "icon": "aleph",
+      "standard": "none"
     }
   ]
 }
