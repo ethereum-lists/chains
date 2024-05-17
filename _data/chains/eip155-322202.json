@@ -1,0 +1,25 @@
+{
+  "name": "Parex Mainnet",
+  "title": "Parex Mainnet",
+  "chain": "Parex",
+  "rpc": ["https://mainnet-rpc.parex.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PAREX",
+    "symbol": "PRX",
+    "decimals": 18
+  },
+  "infoURL": "https://parex.network",
+  "shortName": "parex",
+  "chainId": 322202,
+  "networkId": 322202,
+  "icon": "parexmain",
+  "explorers": [
+    {
+      "name": "Parex Mainnet Explorer",
+      "url": "https://scan.parex.network",
+      "icon": "parexmain",
+      "standard": "EIP3091"
+    }
+  ]
+}
