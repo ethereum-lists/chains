@@ -1,0 +1,22 @@
+{
+  "name": "GBGC Mainnet",
+  "chain": "GBGC",
+  "rpc": ["https://mainnet-rpc.gbgcscan.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GBGC COIN",
+    "symbol": "GBGC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.gbgccoin.com/",
+  "shortName": "GBGC",
+  "chainId": 50741,
+  "networkId": 50741,
+  "explorers": [
+    {
+      "name": "gbgcscan",
+      "url": "https://gbgcscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
