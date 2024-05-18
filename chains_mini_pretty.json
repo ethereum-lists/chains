@@ -9647,7 +9647,7 @@
 }, {
   "name": "ONIGIRI Test Subnet",
   "chainId": 5039,
-  "shortName": "onigiri",
+  "shortName": "onigiritest",
   "networkId": 5039,
   "nativeCurrency": {
     "name": "ONIGIRI",
@@ -9655,6 +9655,19 @@
     "decimals": 18
   },
   "rpc": ["https://subnets.avax.network/onigiri/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.ongr.org/"
+}, {
+  "name": "ONIGIRI Subnet",
+  "chainId": 5040,
+  "shortName": "onigiri",
+  "networkId": 5040,
+  "nativeCurrency": {
+    "name": "ONIGIRI",
+    "symbol": "ONGR",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/onigiri/mainnet/rpc"],
   "faucets": [],
   "infoURL": "https://www.ongr.org/"
 }, {
