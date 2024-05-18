@@ -6413,7 +6413,8 @@
     "bridges": [{
       "url": "https://testnet-bridge.metis.io"
     }]
-  }
+  },
+  "status": "deprecated"
 }, {
   "name": "Meshnyan testnet",
   "chain": "MeshTestChain",
