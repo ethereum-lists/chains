@@ -10650,6 +10650,48 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Metal L2 Testnet",
+  "chain": "Metal L2 Testnet",
+  "rpc": ["https://testnet.rpc.metall2.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://metall2.com",
+  "shortName": "metall2-testnet",
+  "chainId": 1740,
+  "networkId": 1740,
+  "icon": "metal",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://testnet.explorer.metall2.com",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Metal L2",
+  "chain": "Metal L2",
+  "rpc": ["https://rpc.metall2.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://metall2.com",
+  "shortName": "metall2",
+  "chainId": 1750,
+  "networkId": 1750,
+  "icon": "metal",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.metall2.com",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "PartyChain",
   "chain": "mainnet",
   "rpc": ["https://tea.mining4people.com/rpc", "http://172.104.194.36:8545"],

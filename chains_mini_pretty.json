@@ -6629,6 +6629,32 @@
   "faucets": [],
   "infoURL": "https://reya.network"
 }, {
+  "name": "Metal L2 Testnet",
+  "chainId": 1740,
+  "shortName": "metall2-testnet",
+  "networkId": 1740,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.rpc.metall2.com"],
+  "faucets": [],
+  "infoURL": "https://metall2.com"
+}, {
+  "name": "Metal L2",
+  "chainId": 1750,
+  "shortName": "metall2",
+  "networkId": 1750,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.metall2.com"],
+  "faucets": [],
+  "infoURL": "https://metall2.com"
+}, {
   "name": "PartyChain",
   "chainId": 1773,
   "shortName": "TeaParty",
