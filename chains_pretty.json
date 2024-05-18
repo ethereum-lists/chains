@@ -19916,6 +19916,60 @@
   "networkId": 12321,
   "slip44": 1
 }, {
+  "name": "L3X Protocol",
+  "chainId": 12324,
+  "shortName": "l3x",
+  "chain": "L3X",
+  "icon": "l3x",
+  "networkId": 12324,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet.l3x.com"],
+  "faucets": [],
+  "explorers": [{
+    "name": "L3X Mainnet Explorer",
+    "url": "https://explorer.l3x.com",
+    "standard": "EIP3091"
+  }],
+  "infoURL": "https://l3x.com",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161",
+    "bridges": [{
+      "url": "https://bridge.arbitrum.io"
+    }]
+  }
+}, {
+  "name": "L3X Protocol Testnet",
+  "chainId": 12325,
+  "shortName": "l3x-testnet",
+  "chain": "L3X",
+  "icon": "l3x",
+  "networkId": 12325,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.l3x.com"],
+  "faucets": [],
+  "explorers": [{
+    "name": "L3X Testnet Explorer",
+    "url": "https://explorer-testnet.l3x.com",
+    "standard": "EIP3091"
+  }],
+  "infoURL": "https://l3x.com",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-421614",
+    "bridges": [{
+      "url": "https://bridge.arbitrum.io"
+    }]
+  }
+}, {
   "name": "Step Testnet",
   "title": "Step Test Network",
   "chain": "STEP",
