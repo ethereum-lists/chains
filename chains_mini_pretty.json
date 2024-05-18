@@ -12726,6 +12726,19 @@
   "faucets": ["https://faucet.metadot.network/"],
   "infoURL": "https://metadot.network"
 }, {
+  "name": "DeFiVerse Mainnet",
+  "chainId": 16116,
+  "shortName": "DFV",
+  "networkId": 16116,
+  "nativeCurrency": {
+    "name": "Oasys",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.defi-verse.org/"],
+  "faucets": [],
+  "infoURL": "https://defi-verse.org"
+}, {
   "name": "Genesys Mainnet",
   "chainId": 16507,
   "shortName": "Genesys",
@@ -12816,6 +12829,19 @@
   "rpc": ["https://rpc.garnetchain.com", "wss://rpc.garnetchain.com"],
   "faucets": [],
   "infoURL": "https://redstone.xyz"
+}, {
+  "name": "DeFiVerse Testnet",
+  "chainId": 17117,
+  "shortName": "DFV-testnet",
+  "networkId": 17117,
+  "nativeCurrency": {
+    "name": "Oasys",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.defi-verse.org/"],
+  "faucets": [],
+  "infoURL": "https://defi-verse.org"
 }, {
   "name": "G8Chain Mainnet",
   "chainId": 17171,
