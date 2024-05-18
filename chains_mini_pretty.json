@@ -18979,6 +18979,19 @@
   "faucets": [],
   "infoURL": "https://debank.com"
 }, {
+  "name": "Swan Proxima Testnet",
+  "chainId": 20241133,
+  "shortName": "Proxima",
+  "networkId": 20241133,
+  "nativeCurrency": {
+    "name": "SWANETH",
+    "symbol": "sETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-proxima.swanchain.io"],
+  "faucets": [],
+  "infoURL": "https://swanchain.io/"
+}, {
   "name": "Hokum Testnet",
   "chainId": 20482050,
   "shortName": "hokum-testnet",
