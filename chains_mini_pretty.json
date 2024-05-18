@@ -4913,6 +4913,19 @@
   "faucets": [],
   "infoURL": "https://bitcoincode.technology"
 }, {
+  "name": "EthXY",
+  "chainId": 969,
+  "shortName": "sexy",
+  "networkId": 969,
+  "nativeCurrency": {
+    "name": "Settled EthXY Token",
+    "symbol": "SEXY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.ethxy.com"],
+  "faucets": [],
+  "infoURL": "https://ethxy.com"
+}, {
   "name": "Oort Mainnet",
   "chainId": 970,
   "shortName": "ccn",
