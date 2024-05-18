@@ -18849,6 +18849,19 @@
   "faucets": ["https://faucet.soverun.com"],
   "infoURL": "https://soverun.com"
 }, {
+  "name": "ALIENX Hal Testnet",
+  "chainId": 10241025,
+  "shortName": "ALIENXHal",
+  "networkId": 10241025,
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://hal-rpc.alienxchain.io/http", "https://hal.rpc.caldera.xyz/http"],
+  "faucets": [],
+  "infoURL": "https://alienxchain.io/home"
+}, {
   "name": "Sepolia",
   "chainId": 11155111,
   "shortName": "sep",
