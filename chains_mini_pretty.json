@@ -7461,6 +7461,19 @@
   "faucets": [],
   "infoURL": "https://www.shrapnel.com/"
 }, {
+  "name": "Aleph Zero Testnet",
+  "chainId": 2039,
+  "shortName": "aleph",
+  "networkId": 2039,
+  "nativeCurrency": {
+    "name": "TZERO",
+    "symbol": "TZERO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.alephzero-testnet.gelato.digital", "wss://rpc.alephzero-testnet.gelato.digital"],
+  "faucets": [],
+  "infoURL": "https://testnet.alephzero.org"
+}, {
   "name": "Vanar Mainnet",
   "chainId": 2040,
   "shortName": "Vanar",
