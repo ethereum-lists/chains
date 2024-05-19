@@ -1689,6 +1689,19 @@
   "faucets": [],
   "infoURL": "https://engramnet.io"
 }, {
+  "name": "Namefi Chain Mainnet",
+  "chainId": 132,
+  "shortName": "nfic",
+  "networkId": 132,
+  "nativeCurrency": {
+    "name": "Namefi Coin",
+    "symbol": "NFIC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.chain.namefi.io"],
+  "faucets": [],
+  "infoURL": "https://namefi.io/"
+}, {
   "name": "HashKey Chain Testnet",
   "chainId": 133,
   "shortName": "HSKT",

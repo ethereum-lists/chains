@@ -2665,6 +2665,20 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Namefi Chain Mainnet",
+  "chain": "NFIC",
+  "rpc": ["https://rpc.chain.namefi.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Namefi Coin",
+    "symbol": "NFIC",
+    "decimals": 18
+  },
+  "infoURL": "https://namefi.io/",
+  "shortName": "nfic",
+  "chainId": 132,
+  "networkId": 132
+}, {
   "name": "HashKey Chain Testnet",
   "title": "HashKey Chain Testnet",
   "chain": "HashKey Chain Testnet",
