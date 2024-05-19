@@ -18862,6 +18862,19 @@
   "faucets": [],
   "infoURL": "https://hokum.gg"
 }, {
+  "name": "Waterfall 8 Test Network",
+  "chainId": 8601152,
+  "shortName": "waterfall",
+  "networkId": 8601152,
+  "nativeCurrency": {
+    "name": "WATER",
+    "symbol": "WATER",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet8.waterfall.network/"],
+  "faucets": ["https://faucet.testnet8.waterfall.network"],
+  "infoURL": "https://waterfall.network"
+}, {
   "name": "HAPchain",
   "chainId": 8794598,
   "shortName": "hap",
