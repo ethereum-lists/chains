@@ -7240,6 +7240,19 @@
   "faucets": [],
   "infoURL": "https://cloudwalk.io"
 }, {
+  "name": "Panarchy",
+  "chainId": 2013,
+  "shortName": "panarchy",
+  "networkId": 1,
+  "nativeCurrency": {
+    "name": "GAS",
+    "symbol": "GAS",
+    "decimals": 18
+  },
+  "rpc": ["https://polytopia.org:8545"],
+  "faucets": [],
+  "infoURL": "https://polytopia.org/"
+}, {
   "name": "NOW Chain",
   "chainId": 2014,
   "shortName": "now",
