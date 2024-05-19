@@ -12544,6 +12544,19 @@
   "faucets": [],
   "infoURL": "https://quantumnetwork.gg"
 }, {
+  "name": "PlayFair Testnet Subnet",
+  "chainId": 12898,
+  "shortName": "playfair",
+  "networkId": 12898,
+  "nativeCurrency": {
+    "name": "BTLT Token",
+    "symbol": "BTLT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.letsplayfair.ai/ext/bc/2hhXFNp1jR4RuqvCmWQnBtt9CZnCmmyGr7TNTkxt7XY7pAzHMY/rpc"],
+  "faucets": [],
+  "infoURL": "https://letsplayfair.ai"
+}, {
   "name": "SPS",
   "chainId": 13000,
   "shortName": "SPS",
