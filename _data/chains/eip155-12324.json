@@ -1,0 +1,28 @@
+{
+  "name": "L3X Protocol",
+  "chainId": 12324,
+  "shortName": "l3x",
+  "chain": "L3X",
+  "icon": "l3x",
+  "networkId": 12324,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet.l3x.com"],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "L3X Mainnet Explorer",
+      "url": "https://explorer.l3x.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://l3x.com",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161",
+    "bridges": [{ "url": "https://bridge.arbitrum.io" }]
+  }
+}
