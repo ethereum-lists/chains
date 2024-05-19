@@ -1,0 +1,23 @@
+{
+  "name": "Ethereum Inscription Mainnet",
+  "chain": "ETINS",
+  "rpc": ["https://rpc.etins.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ethereum Inscription",
+    "symbol": "ETINS",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://www.etins.org",
+  "shortName": "etins",
+  "chainId": 1617,
+  "networkId": 1617,
+  "explorers": [
+    {
+      "name": "Ethereum Inscription Explorer",
+      "url": "https://explorer.etins.org",
+      "standard": "none"
+    }
+  ]
+}

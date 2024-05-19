@@ -1,7 +1,11 @@
 {
   "name": "Dymension",
   "chain": "Dymension",
-  "rpc": ["https://dymension-evm.blockpi.network/v1/rpc/public"],
+  "rpc": [
+    "https://dymension-evm.blockpi.network/v1/rpc/public",
+    "https://dymension-evm-rpc.publicnode.com",
+    "wss://dymension-evm-rpc.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DYM",
