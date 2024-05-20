@@ -13,7 +13,10 @@
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://portal.treasure.lol",
   "icon": "treasureruby",
-  "rpc": ["https://rpc-testnet.treasure.lol/http", "wss://rpc-testnet.treasure.lol/ws"],
+  "rpc": [
+    "https://rpc-testnet.treasure.lol/http", 
+    "wss://rpc-testnet.treasure.lol/ws"
+  ],
   "faucets": ["https://portal.treasure.lol/faucet"],
   "explorers": [
     {
