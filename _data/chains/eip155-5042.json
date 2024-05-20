@@ -1,0 +1,24 @@
+{
+  "name": "OMOCHI Test Subnet",
+  "chain": "OMOCHI",
+  "rpc": ["https://subnets.avax.network/omochi/testnet/rpc"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OMOCHI",
+    "symbol": "OMCH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.ongr.org/",
+  "shortName": "omochitest",
+  "chainId": 5042,
+  "networkId": 5042,
+  "icon": "onigiri",
+  "explorers": [
+    {
+      "name": "OMOCHI Explorer",
+      "url": "https://subnets-test.avax.network/omochi",
+      "standard": "EIP3091"
+    }
+  ]
+}
