@@ -1,8 +1,8 @@
 {
-  "name": "ReDeFi Mainnet",
+  "name": "ReDeFi Layer 1",
   "chain": "ReDeFi",
   "icon": "redefi",
-  "rpc": ["https://main.redefi.world/rpc"],
+  "rpc": ["https://layer1.redefi.world"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BAX",
@@ -17,7 +17,7 @@
   "explorers": [
     {
       "name": "ReDeFi Scan",
-      "url": "https://scan.redefi.world",
+      "url": "https://scanlayer1.redefi.world",
       "standard": "EIP3091"
     }
   ]
