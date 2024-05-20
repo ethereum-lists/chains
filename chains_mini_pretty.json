@@ -17445,12 +17445,25 @@
   "faucets": [],
   "infoURL": "https://uniport.network"
 }, {
+  "name": "Bitfinity Network Mainnet",
+  "chainId": 355110,
+  "shortName": "bitfinity-mainnet",
+  "networkId": 355110,
+  "nativeCurrency": {
+    "name": "Bitfinity Token",
+    "symbol": "BFT",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.bitfinity.network"],
+  "faucets": [],
+  "infoURL": "https://bitfinity.network"
+}, {
   "name": "Bitfinity Network Testnet",
   "chainId": 355113,
-  "shortName": "Bitfinity",
+  "shortName": "bitfinity-testnet",
   "networkId": 355113,
   "nativeCurrency": {
-    "name": "BITFINITY",
+    "name": "Bitfinity Token",
     "symbol": "BFT",
     "decimals": 18
   },
