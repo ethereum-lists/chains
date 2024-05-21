@@ -10503,6 +10503,19 @@
   "faucets": ["https://faucet.goldsmartchain.com"],
   "infoURL": "https://goldsmartchain.com"
 }, {
+  "name": "Pools Mainnet",
+  "chainId": 6868,
+  "shortName": "POOLS",
+  "networkId": 6868,
+  "nativeCurrency": {
+    "name": "POOLS Native Token",
+    "symbol": "POOLS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.poolsmobility.com"],
+  "faucets": [],
+  "infoURL": "https://www.poolschain.org"
+}, {
   "name": "Tomb Chain Mainnet",
   "chainId": 6969,
   "shortName": "tombchain",
