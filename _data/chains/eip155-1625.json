@@ -1,7 +1,7 @@
 {
   "name": "Gravity Alpha Mainnet",
   "chain": "Gravity",
-  "rpc": ["https://rpc.gravity.xyz/"],
+  "rpc": ["https://rpc.gravity.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Gravity",
@@ -13,7 +13,7 @@
     { "name": "EIP1559" },
     { "name": "EIP1108" }
   ],
-  "infoURL": "https://gravity.xyz/",
+  "infoURL": "https://gravity.xyz",
   "shortName": "gravity",
   "chainId": 1625,
   "networkId": 1625,
@@ -21,7 +21,7 @@
   "explorers": [
     {
       "name": "Gravity Alpha Mainnet Explorer",
-      "url": "https://explorer.gravity.xyz/",
+      "url": "https://explorer.gravity.xyz",
       "standard": "EIP3091"
     }
   ],
