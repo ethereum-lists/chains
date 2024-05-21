@@ -1,9 +1,7 @@
 {
   "name": "Pools Mainnet",
   "chain": "Pools",
-  "rpc": [
-    "https://rpc.poolsmobility.com"
-  ],
+  "rpc": ["https://rpc.poolsmobility.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "POOLS Native Token",
