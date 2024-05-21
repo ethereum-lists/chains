@@ -9190,6 +9190,19 @@
   "faucets": [],
   "infoURL": "https://docs.xen.network/go-x1/"
 }, {
+  "name": "Carbonium Testnet Network",
+  "chainId": 4040,
+  "shortName": "tcbr",
+  "networkId": 4040,
+  "nativeCurrency": {
+    "name": "Carbonium",
+    "symbol": "tCBR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-dev.carbonium.network/", "https://server-testnet.carbonium.network"],
+  "faucets": ["https://getfaucet.carbonium.network"],
+  "infoURL": "https://carbonium.network"
+}, {
   "name": "GAN Testnet",
   "chainId": 4048,
   "shortName": "GANTestnet",
