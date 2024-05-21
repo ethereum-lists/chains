@@ -1,9 +1,7 @@
 {
   "name": "DeepBrainChain Mainnet",
   "chain": "DBC",
-  "rpc": [
-    "https://httpinfo.dbcwallet.io"
-  ],
+  "rpc": ["https://httpinfo.dbcwallet.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "DeepBrain Chain",
@@ -12,8 +10,8 @@
   },
   "infoURL": "https://www.dbcwallet.io",
   "shortName": "DBC",
-  "chainId": 19880818 ,
-  "networkId": 19880818 ,
+  "chainId": 19880818,
+  "networkId": 19880818,
   "slip44": 1,
 
   "explorers": [

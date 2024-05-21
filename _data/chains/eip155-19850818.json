@@ -1,9 +1,7 @@
 {
   "name": "DeepBrainChain Testnet",
   "chain": "DBC",
-  "rpc": [
-    "https://test.dbcwallet.io:9988"
-  ],
+  "rpc": ["https://test.dbcwallet.io:9988"],
   "faucets": [],
   "nativeCurrency": {
     "name": "DeepBrain Chain",
@@ -12,8 +10,8 @@
   },
   "infoURL": "https://test.dbcwallet.io/?rpc=wss%3A%2F%2Finfotest.dbcwallet.io%3A7777",
   "shortName": "DBC",
-  "chainId": 19850818 ,
-  "networkId": 19850818 ,
+  "chainId": 19850818,
+  "networkId": 19850818,
   "slip44": 1,
 
   "explorers": [
