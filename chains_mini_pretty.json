@@ -11517,6 +11517,58 @@
   "faucets": [],
   "infoURL": "https://jibchain.net"
 }, {
+  "name": "Algen",
+  "chainId": 8911,
+  "shortName": "alg",
+  "networkId": 8911,
+  "nativeCurrency": {
+    "name": "ALG",
+    "symbol": "ALG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.algen.network"],
+  "faucets": [],
+  "infoURL": "https://www.algen.network"
+}, {
+  "name": "Algen Testnet",
+  "chainId": 8912,
+  "shortName": "algTest",
+  "networkId": 8912,
+  "nativeCurrency": {
+    "name": "ALG",
+    "symbol": "ALG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.test.algen.network"],
+  "faucets": [],
+  "infoURL": "https://www.algen.network"
+}, {
+  "name": "Algen Layer2",
+  "chainId": 8921,
+  "shortName": "algl2",
+  "networkId": 8921,
+  "nativeCurrency": {
+    "name": "ALG",
+    "symbol": "ALG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.alg2.algen.network"],
+  "faucets": [],
+  "infoURL": "https://www.algen.network"
+}, {
+  "name": "Algen Layer2 Testnet",
+  "chainId": 8922,
+  "shortName": "algl2Test",
+  "networkId": 8922,
+  "nativeCurrency": {
+    "name": "ALG",
+    "symbol": "ALG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.alg2-test.algen.network"],
+  "faucets": [],
+  "infoURL": "https://www.algen.network"
+}, {
   "name": "Giant Mammoth Mainnet",
   "chainId": 8989,
   "shortName": "gmmt",

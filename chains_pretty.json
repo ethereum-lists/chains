@@ -18559,6 +18559,98 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Algen",
+  "chain": "ALG",
+  "rpc": ["https://rpc.algen.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ALG",
+    "symbol": "ALG",
+    "decimals": 18
+  },
+  "infoURL": "https://www.algen.network",
+  "shortName": "alg",
+  "chainId": 8911,
+  "networkId": 8911,
+  "icon": "alg",
+  "explorers": [{
+    "name": "algscan",
+    "url": "https://scan.algen.network",
+    "icon": "alg",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Algen Testnet",
+  "chain": "ALG",
+  "rpc": ["https://rpc.test.algen.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ALG",
+    "symbol": "ALG",
+    "decimals": 18
+  },
+  "infoURL": "https://www.algen.network",
+  "shortName": "algTest",
+  "chainId": 8912,
+  "networkId": 8912,
+  "icon": "alg",
+  "explorers": [{
+    "name": "algscan",
+    "url": "https://scan.test.algen.network",
+    "icon": "alg",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Algen Layer2",
+  "chain": "ALG L2",
+  "rpc": ["https://rpc.alg2.algen.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ALG",
+    "symbol": "ALG",
+    "decimals": 18
+  },
+  "infoURL": "https://www.algen.network",
+  "shortName": "algl2",
+  "chainId": 8921,
+  "networkId": 8921,
+  "icon": "algl2",
+  "explorers": [{
+    "name": "algl2scan",
+    "url": "https://scan.alg2.algen.network",
+    "icon": "algl2",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "chain": "eip155-8911",
+    "type": "shard"
+  }
+}, {
+  "name": "Algen Layer2 Testnet",
+  "chain": "ALG L2",
+  "rpc": ["https://rpc.alg2-test.algen.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ALG",
+    "symbol": "ALG",
+    "decimals": 18
+  },
+  "infoURL": "https://www.algen.network",
+  "shortName": "algl2Test",
+  "chainId": 8922,
+  "networkId": 8922,
+  "icon": "algl2",
+  "explorers": [{
+    "name": "algl2scan",
+    "url": "https://scan.alg2-test.algen.network",
+    "icon": "algl2",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "chain": "eip155-8921",
+    "type": "shard"
+  }
+}, {
   "name": "Giant Mammoth Mainnet",
   "title": "Giant Mammoth Chain",
   "chain": "GMMT",
