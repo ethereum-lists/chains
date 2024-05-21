@@ -1,7 +1,7 @@
 {
-  "name": "ONIGIRI Test Subnet",
+  "name": "ONIGIRI Subnet",
   "chain": "ONIGIRI",
-  "rpc": ["https://subnets.avax.network/onigiri/testnet/rpc"],
+  "rpc": ["https://subnets.avax.network/onigiri/mainnet/rpc"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
@@ -10,14 +10,14 @@
     "decimals": 18
   },
   "infoURL": "https://www.ongr.org/",
-  "shortName": "onigiritest",
-  "chainId": 5039,
-  "networkId": 5039,
+  "shortName": "onigiri",
+  "chainId": 5040,
+  "networkId": 5040,
   "icon": "onigiri",
   "explorers": [
     {
       "name": "ONIGIRI Explorer",
-      "url": "https://subnets-test.avax.network/onigiri",
+      "url": "https://subnets.avax.network/onigiri",
       "standard": "EIP3091"
     }
   ]
