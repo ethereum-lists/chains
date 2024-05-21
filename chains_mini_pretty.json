@@ -16080,6 +16080,19 @@
   "faucets": [],
   "infoURL": "https://www.greenchain.app"
 }, {
+  "name": "Ebi Chain",
+  "chainId": 98881,
+  "shortName": "ebi",
+  "networkId": 98881,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.ebi.xyz"],
+  "faucets": [],
+  "infoURL": "https://ebi.xyz"
+}, {
   "name": "eLiberty Testnet",
   "chainId": 99099,
   "shortName": "ELt",
