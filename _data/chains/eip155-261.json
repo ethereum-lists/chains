@@ -1,0 +1,25 @@
+{
+  "name": "Guru Network Testnet",
+  "title": "Guru Network Testnet",
+  "chain": "tGURU",
+  "rpc": ["https://rpc.gurunetwork.ai/archive/261"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "testGURU",
+    "symbol": "tGURU",
+    "decimals": 18
+  },
+  "infoURL": "https://gurunetwork.ai",
+  "shortName": "guru-testnet",
+  "chainId": 261,
+  "networkId": 261,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "dexguru",
+      "url": "https://scan.gurunetwork.ai",
+      "icon": "dexguru",
+      "standard": "EIP3091"
+    }
+  ]
+}
