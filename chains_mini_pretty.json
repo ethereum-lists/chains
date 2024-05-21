@@ -1793,6 +1793,19 @@
   "faucets": [],
   "infoURL": "https://wikiwoop.com"
 }, {
+  "name": "EternalCoin Mainnet",
+  "chainId": 140,
+  "shortName": "Eter",
+  "networkId": 140,
+  "nativeCurrency": {
+    "name": "Eternal",
+    "symbol": "Eter",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.eternalcoin.io/v1", "ws://mainnet.eternalcoin.io/v1/ws"],
+  "faucets": [],
+  "infoURL": "https://eternalcoin.io"
+}, {
   "name": "Openpiece Testnet",
   "chainId": 141,
   "shortName": "OPtest",
