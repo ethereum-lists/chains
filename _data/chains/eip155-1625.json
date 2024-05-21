@@ -8,7 +8,11 @@
     "symbol": "G.",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }, { "name": "EIP1108" }],
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" },
+    { "name": "EIP1108" }
+  ],
   "infoURL": "https://gravity.xyz/",
   "shortName": "gravity",
   "chainId": 1625,
@@ -24,6 +28,6 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{"url":"https://bridge.gravity.xyz"}]
+    "bridges": [{ "url": "https://bridge.gravity.xyz" }]
   }
 }
