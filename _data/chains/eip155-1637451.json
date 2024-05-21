@@ -1,0 +1,23 @@
+{
+  "name": "Xterio Testnet (ETH)",
+  "chain": "Xterio Testnet (ETH)",
+  "icon": "xterio",
+  "rpc": ["https://xterio-eth-testnet.alt.technology"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://xter.io",
+  "shortName": "xteriotesteth",
+  "chainId": 1637451,
+  "networkId": 1637451,
+  "explorers": [
+    {
+      "name": "Xterio Testnet (ETH) Explorer",
+      "url": "https://eth-testnet.xterscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
