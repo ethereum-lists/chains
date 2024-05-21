@@ -1,9 +1,7 @@
 {
   "name": "Tycooncoin",
   "chain": "TYCON",
-  "rpc": [
-    "https://mainnet-rpc.tycoscan.com/"
-  ],
+  "rpc": ["https://mainnet-rpc.tycoscan.com/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Tycooncoin",
