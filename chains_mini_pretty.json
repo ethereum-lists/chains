@@ -6486,6 +6486,19 @@
   "faucets": [],
   "infoURL": "https://atheios.org"
 }, {
+  "name": "Gravity Alpha Mainnet",
+  "chainId": 1625,
+  "shortName": "gravity",
+  "networkId": 1625,
+  "nativeCurrency": {
+    "name": "Gravity",
+    "symbol": "G.",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.gravity.xyz"],
+  "faucets": [],
+  "infoURL": "https://gravity.xyz"
+}, {
   "name": "Btachain",
   "chainId": 1657,
   "shortName": "bta",
