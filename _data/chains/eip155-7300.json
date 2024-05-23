@@ -1,0 +1,27 @@
+{
+  "name": "XPLA Verse",
+  "chain": "XPLA Verse",
+  "icon": "xpla_verse",
+  "rpc": ["https://rpc-xpla-verse.xpla.dev"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.xpla.io",
+  "shortName": "XPLAVERSE",
+  "chainId": 7300,
+  "networkId": 7300,
+  "explorers": [
+    {
+      "name": "XPLA Verse Explorer",
+      "url": "https://explorer-xpla-verse.xpla.dev",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-248"
+  }
+}
