@@ -1,0 +1,23 @@
+{
+  "name": "DCpay Testnet",
+  "chain": "DCpay",
+  "icon": "dcpayIcon",
+  "rpc": ["https://testnet-rpc.dcpay.io"],
+  "faucets": ["https://faucet.dcpay.io"],
+  "nativeCurrency": {
+    "name": "DCP",
+    "symbol": "DCP",
+    "decimals": 18
+  },
+  "infoURL": "https://dcpay.io",
+  "shortName": "DCPt",
+  "chainId": 21224,
+  "networkId": 21224,
+  "explorers": [
+    {
+      "name": "DCpay Testnet Explorer",
+      "url": "https://testnet.dcpay.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
