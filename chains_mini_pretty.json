@@ -12219,6 +12219,19 @@
   "faucets": [],
   "infoURL": "https://www.0xtrade.finance/"
 }, {
+  "name": "TAO EVM Mainnet",
+  "chainId": 10321,
+  "shortName": "TAOm",
+  "networkId": 10321,
+  "nativeCurrency": {
+    "name": "TAO",
+    "symbol": "TAO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.taoevm.io"],
+  "faucets": [],
+  "infoURL": "https://taoevm.io"
+}, {
   "name": "TAO EVM Testnet",
   "chainId": 10324,
   "shortName": "TAOt",
