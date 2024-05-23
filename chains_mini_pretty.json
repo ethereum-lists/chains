@@ -13363,6 +13363,19 @@
   "faucets": [],
   "infoURL": "https://dcpay.io"
 }, {
+  "name": "DCpay Testnet",
+  "chainId": 21224,
+  "shortName": "DCPt",
+  "networkId": 21224,
+  "nativeCurrency": {
+    "name": "DCP",
+    "symbol": "DCP",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.dcpay.io"],
+  "faucets": ["https://faucet.dcpay.io"],
+  "infoURL": "https://dcpay.io"
+}, {
   "name": "CENNZnet Azalea",
   "chainId": 21337,
   "shortName": "cennz-a",
