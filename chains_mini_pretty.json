@@ -7201,6 +7201,19 @@
   "faucets": ["https://faucet.edexa.com/"],
   "infoURL": "https://edexa.network/"
 }, {
+  "name": "Sanko",
+  "chainId": 1996,
+  "shortName": "Sanko",
+  "networkId": 1996,
+  "nativeCurrency": {
+    "name": "DMT",
+    "symbol": "DMT",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.sanko.xyz"],
+  "faucets": [],
+  "infoURL": "https://sanko.xyz/"
+}, {
   "name": "Kyoto Testnet",
   "chainId": 1998,
   "shortName": "kyoto-testnet",
