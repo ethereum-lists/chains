@@ -1,7 +1,7 @@
 {
-    "name": "Laika",
-    "chain": "Laika",
-    "rpc": ["https://testnet.laikachain.dog"],
+    "name": "Laika Testnet",
+    "chain": "LAIKA",
+    "rpc": ["https://testnetrpc1.laikachain.dog"],
     "faucets": ["https://laikachain.dog/faucets"],
     "nativeCurrency": {
       "name": "Dogecoin",
@@ -9,7 +9,7 @@
       "decimals": 18
     },
     "infoURL": "https://laikachain.dog",
-    "shortName": "Laika",
+    "shortName": "laika",
     "chainId": 4269,
     "networkId": 4269,
     "icon": "laika",
