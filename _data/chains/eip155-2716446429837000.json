@@ -1,0 +1,27 @@
+{
+  "name": "DCHAIN",
+  "title": "DCHAIN Mainnet",
+  "chain": "dchain",
+  "icon": "dchain",
+  "rpc": [
+    "https://dchain-2716446429837000-1.jsonrpc.sagarpc.io"
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.dchain.foundation/",
+  "shortName": "dchain",
+  "chainId": 2716446429837000,
+  "networkId": 2716446429837000,
+  "explorers": [
+    {
+      "name": "dchain scan",
+      "url": "https://dchain-2716446429837000-1.sagaexplorer.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
