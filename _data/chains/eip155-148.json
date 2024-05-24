@@ -1,0 +1,25 @@
+{
+  "name": "ShimmerEVM",
+  "title": "ShimmerEVM",
+  "chain": "ShimmerEVM",
+  "rpc": ["https://json-rpc.evm.shimmer.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SMR",
+    "symbol": "SMR",
+    "decimals": 18
+  },
+  "infoURL": "https://shimmer.network",
+  "shortName": "shimmerevm",
+  "chainId": 148,
+  "networkId": 148,
+  "icon": "shimmerevm",
+  "explorers": [
+    {
+      "name": "explorer",
+      "url": "https://explorer.evm.shimmer.network",
+      "icon": "shimmerevm",
+      "standard": "EIP3091"
+    }
+  ]
+}

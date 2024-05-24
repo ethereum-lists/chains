@@ -1,0 +1,23 @@
+{
+  "name": "OpenVessel",
+  "chain": "VSL",
+  "icon": "vsl",
+  "rpc": ["https://mainnet-external.openvessel.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Vessel ETH",
+    "symbol": "VETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.openvessel.io",
+  "shortName": "vsl",
+  "chainId": 7355310,
+  "networkId": 7355310,
+  "explorers": [
+    {
+      "name": "openvessel-mainnet",
+      "url": "https://mainnet-explorer.openvessel.io",
+      "standard": "none"
+    }
+  ]
+}

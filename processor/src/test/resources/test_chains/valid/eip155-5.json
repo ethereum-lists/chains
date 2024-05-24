@@ -1,9 +1,9 @@
 {
-  "name": "Ethereum Testnet Görli",
+  "name": "Ethereum Testnet Goerli",
   "chain": "ETH",
   "rpc": [
     "https://rpc.goerli.mudit.blog/",
-    "https://rpc.slock.it/goerli ",
+    "https://rpc.slock.it/goerli",
     "https://goerli.prylabs.net"
   ],
   "faucets": [
@@ -11,7 +11,7 @@
     "https://faucet.goerli.mudit.blog"
   ],
   "nativeCurrency": {
-    "name": "Görli Ether",
+    "name": "Goerli Ether",
     "symbol": "GOR",
     "decimals": 18
   },

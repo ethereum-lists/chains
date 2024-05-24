@@ -1,0 +1,28 @@
+{
+  "name": "Unique",
+  "icon": "unique",
+  "chain": "UNQ",
+  "rpc": [
+    "https://rpc.unique.network",
+    "https://eu-rpc.unique.network",
+    "https://asia-rpc.unique.network",
+    "https://us-rpc.unique.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Unique",
+    "symbol": "UNQ",
+    "decimals": 18
+  },
+  "infoURL": "https://unique.network",
+  "shortName": "unq",
+  "chainId": 8880,
+  "networkId": 8880,
+  "explorers": [
+    {
+      "name": "Unique Scan",
+      "url": "https://uniquescan.io/unique",
+      "standard": "none"
+    }
+  ]
+}

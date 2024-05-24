@@ -1,6 +1,7 @@
 {
-  "name": "Boba Network Bobaopera Testnet",
+  "name": "Bobaopera Testnet",
   "chain": "Bobaopera Testnet",
+  "status": "deprecated",
   "rpc": [
     "https://testnet.bobaopera.boba.network",
     "wss://wss.testnet.bobaopera.boba.network",
@@ -17,6 +18,7 @@
   "shortName": "BobaoperaTestnet",
   "chainId": 4051,
   "networkId": 4051,
+  "slip44": 1,
   "explorers": [
     {
       "name": "Bobaopera Testnet block explorer",

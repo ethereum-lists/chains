@@ -1,0 +1,33 @@
+{
+  "name": "Imversed Mainnet",
+  "chain": "Imversed",
+  "rpc": [
+    "https://jsonrpc.imversed.network",
+    "https://ws-jsonrpc.imversed.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Imversed Token",
+    "symbol": "IMV",
+    "decimals": 18
+  },
+  "infoURL": "https://imversed.com",
+  "shortName": "imversed",
+  "chainId": 5555555,
+  "networkId": 5555555,
+  "icon": "imversed",
+  "explorers": [
+    {
+      "name": "Imversed EVM explorer (Blockscout)",
+      "url": "https://txe.imversed.network",
+      "icon": "imversed",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Imversed Cosmos Explorer (Big Dipper)",
+      "url": "https://tex-c.imversed.com",
+      "icon": "imversed",
+      "standard": "none"
+    }
+  ]
+}

@@ -4,20 +4,26 @@
   "icon": "gnosis",
   "rpc": [
     "https://rpc.gnosischain.com",
+    "https://rpc.gnosis.gateway.fm",
     "https://rpc.ankr.com/gnosis",
     "https://gnosischain-rpc.gateway.pokt.network",
     "https://gnosis-mainnet.public.blastapi.io",
-    "wss://rpc.gnosischain.com/wss"
+    "https://gnosis.api.onfinality.io/public",
+    "https://gnosis.blockpi.network/v1/rpc/public",
+    "https://web3endpoints.com/gnosischain-mainnet",
+    "https://gnosis.oat.farm",
+    "wss://rpc.gnosischain.com/wss",
+    "https://gnosis-rpc.publicnode.com",
+    "wss://gnosis-rpc.publicnode.com"
   ],
   "faucets": [
     "https://gnosisfaucet.com",
-    "https://faucet.gimlu.com/gnosis",
     "https://stakely.io/faucet/gnosis-chain-xdai",
     "https://faucet.prussia.dev/xdai"
   ],
   "nativeCurrency": {
     "name": "xDAI",
-    "symbol": "xDAI",
+    "symbol": "XDAI",
     "decimals": 18
   },
   "infoURL": "https://docs.gnosischain.com",
@@ -29,13 +35,18 @@
     {
       "name": "gnosisscan",
       "url": "https://gnosisscan.io",
-      "icon": "gnosisscan",
       "standard": "EIP3091"
     },
     {
       "name": "blockscout",
-      "url": "https://blockscout.com/xdai/mainnet",
+      "url": "https://gnosis.blockscout.com",
       "icon": "blockscout",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://gnosis.dex.guru",
+      "icon": "dexguru",
       "standard": "EIP3091"
     }
   ]

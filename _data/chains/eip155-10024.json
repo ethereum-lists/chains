@@ -2,7 +2,13 @@
   "name": "Gon Chain",
   "chain": "GonChain",
   "icon": "gonchain",
-  "rpc": ["https://node1.testnet.gaiaopen.network"],
+  "rpc": [
+    "https://node1.testnet.gaiaopen.network",
+    "https://node1.mainnet.gon.network",
+    "https://node2.mainnet.gon.network",
+    "https://node3.mainnet.gon.network",
+    "https://node4.mainnet.gon.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Gon Token",

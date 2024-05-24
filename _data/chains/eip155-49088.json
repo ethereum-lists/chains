@@ -1,0 +1,28 @@
+{
+  "name": "Bifrost Testnet",
+  "title": "Bifrost Network Testnet",
+  "chain": "BFC",
+  "rpc": [
+    "https://public-01.testnet.bifrostnetwork.com/rpc",
+    "https://public-02.testnet.bifrostnetwork.com/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bifrost",
+    "symbol": "BFC",
+    "decimals": 18
+  },
+  "infoURL": "https://bifrostnetwork.com",
+  "shortName": "tbfc",
+  "chainId": 49088,
+  "networkId": 49088,
+  "slip44": 1,
+  "icon": "bifrost",
+  "explorers": [
+    {
+      "name": "explorer-thebifrost",
+      "url": "https://explorer.testnet.bifrostnetwork.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

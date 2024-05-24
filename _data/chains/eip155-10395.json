@@ -1,0 +1,24 @@
+{
+  "name": "WorldLand Testnet",
+  "chain": "Worldland",
+  "icon": "worldland",
+  "rpc": ["https://gwangju.worldland.foundation"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Worldland",
+    "symbol": "WLC",
+    "decimals": 18
+  },
+  "infoURL": "https://worldland.foundation",
+  "shortName": "TWLC",
+  "chainId": 10395,
+  "networkId": 10395,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Worldland Explorer",
+      "url": "https://testscan.worldland.foundation",
+      "standard": "EIP3091"
+    }
+  ]
+}

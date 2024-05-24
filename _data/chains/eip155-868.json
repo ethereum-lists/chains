@@ -1,0 +1,26 @@
+{
+  "name": "Fantasia Chain Mainnet",
+  "chain": "FSC",
+  "rpc": [
+    "https://mainnet-data1.fantasiachain.com/",
+    "https://mainnet-data2.fantasiachain.com/",
+    "https://mainnet-data3.fantasiachain.com/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FST",
+    "symbol": "FST",
+    "decimals": 18
+  },
+  "infoURL": "https://fantasiachain.com/",
+  "shortName": "FSCMainnet",
+  "chainId": 868,
+  "networkId": 868,
+  "explorers": [
+    {
+      "name": "FSCScan",
+      "url": "https://explorer.fantasiachain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

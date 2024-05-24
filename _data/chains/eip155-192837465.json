@@ -12,10 +12,12 @@
   "shortName": "GTH",
   "chainId": 192837465,
   "networkId": 192837465,
+  "icon": "gather",
   "explorers": [
     {
       "name": "Blockscout",
       "url": "https://explorer.gather.network",
+      "icon": "gather",
       "standard": "none"
     }
   ]

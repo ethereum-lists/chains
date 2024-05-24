@@ -1,0 +1,27 @@
+{
+  "name": "Dodao",
+  "chain": "EVMCC",
+  "rpc": [
+    "https://fraa-dancebox-3041-rpc.a.dancebox.tanssi.network",
+    "wss://fraa-dancebox-3041-rpc.a.dancebox.tanssi.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dodao",
+    "symbol": "DODAO",
+    "decimals": 18
+  },
+  "infoURL": "https://dodao.dev/",
+  "shortName": "dodao",
+  "chainId": 855456,
+  "networkId": 855456,
+  "icon": "dodao",
+  "explorers": [
+    {
+      "name": "Dodao Explorer",
+      "url": "https://tanssi-evmexplorer.netlify.app/?rpcUrl=https://fraa-dancebox-3041-rpc.a.dancebox.tanssi.network",
+      "icon": "dodao",
+      "standard": "EIP3091"
+    }
+  ]
+}
