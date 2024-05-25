@@ -8800,6 +8800,19 @@
   "faucets": [],
   "infoURL": "https://galileo.web3q.io/home.w3q/"
 }, {
+  "name": "EthStorage Mainnet",
+  "chainId": 3335,
+  "shortName": "es-m",
+  "networkId": 3335,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["http://mainnet.ethstorage.io:9540"],
+  "faucets": [],
+  "infoURL": "https://ethstorage.io/"
+}, {
   "name": "Paribu Net Mainnet",
   "chainId": 3400,
   "shortName": "prb",
