@@ -1,9 +1,7 @@
 {
   "name": "QuarkChain L2 Mainnet",
   "chain": "QuarkChain",
-  "rpc": [
-    "https://mainnet-l2-ethapi.quarkchain.io"
-  ],
+  "rpc": ["https://mainnet-l2-ethapi.quarkchain.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "QKC",
