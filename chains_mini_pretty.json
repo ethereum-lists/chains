@@ -8904,6 +8904,19 @@
   "faucets": [],
   "infoURL": "https://www.pandoproject.org/"
 }, {
+  "name": "Tycooncoin",
+  "chainId": 3630,
+  "shortName": "TYCON",
+  "networkId": 3630,
+  "nativeCurrency": {
+    "name": "Tycooncoin",
+    "symbol": "TYCO",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.tycoscan.com"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Botanix Testnet",
   "chainId": 3636,
   "shortName": "BTNX",
@@ -17639,6 +17652,19 @@
   "rpc": ["https://testnet.bitfinity.network"],
   "faucets": ["https://bitfinity.network/faucet"],
   "infoURL": "https://bitfinity.network"
+}, {
+  "name": "LAVITA Mainnet",
+  "chainId": 360890,
+  "shortName": "lavita-mainnet",
+  "networkId": 360890,
+  "nativeCurrency": {
+    "name": "vTFUEL",
+    "symbol": "vTFUEL",
+    "decimals": 18
+  },
+  "rpc": ["https://tsub360890-eth-rpc.thetatoken.org/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.lavita.ai"
 }, {
   "name": "Digit Soul Smart Chain 2",
   "chainId": 363636,

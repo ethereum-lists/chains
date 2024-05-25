@@ -14305,6 +14305,20 @@
     "standard": "none"
   }]
 }, {
+  "name": "Tycooncoin",
+  "chain": "TYCON",
+  "rpc": ["https://mainnet-rpc.tycoscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Tycooncoin",
+    "symbol": "TYCO",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "TYCON",
+  "chainId": 3630,
+  "networkId": 3630
+}, {
   "name": "Botanix Testnet",
   "chain": "BOTANIX",
   "icon": "botanix",
@@ -28600,6 +28614,27 @@
     "name": "Bitfinity Testnet Block Explorer",
     "url": "https://bitfinity-test.dex.guru",
     "icon": "dexguru",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "LAVITA Mainnet",
+  "chain": "LAVITA",
+  "icon": "lavita",
+  "rpc": ["https://tsub360890-eth-rpc.thetatoken.org/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "vTFUEL",
+    "symbol": "vTFUEL",
+    "decimals": 18
+  },
+  "infoURL": "https://www.lavita.ai",
+  "shortName": "lavita-mainnet",
+  "chainId": 360890,
+  "networkId": 360890,
+  "explorers": [{
+    "name": "LAVITA Mainnet Explorer",
+    "url": "https://tsub360890-explorer.thetatoken.org",
+    "icon": "lavita",
     "standard": "EIP3091"
   }]
 }, {
