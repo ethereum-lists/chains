@@ -1,0 +1,23 @@
+{
+  "name": "TAO EVM Mainnet",
+  "chain": "TAO EVM",
+  "icon": "taoevmIcon",
+  "rpc": ["https://rpc.taoevm.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TAO",
+    "symbol": "TAO",
+    "decimals": 18
+  },
+  "infoURL": "https://taoevm.io",
+  "shortName": "TAOm",
+  "chainId": 10321,
+  "networkId": 10321,
+  "explorers": [
+    {
+      "name": "TAO Mainnet Explorer",
+      "url": "https://taoscan.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
