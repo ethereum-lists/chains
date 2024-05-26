@@ -1,0 +1,23 @@
+{
+  "name": "tRAMA",
+  "title": "Pingaksha Testnet",
+  "chain": "Ramestta",
+  "rpc": ["https://testnet.ramestta.com"],
+  "faucets": ["https://pingaksha.ramascan.com/faucet"],
+  "nativeCurrency": {
+    "name": "tRAMA",
+    "symbol": "tRAMA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.ramestta.com",
+  "shortName": "Ramestta",
+  "chainId": 1377,
+  "networkId": 1377,
+  "explorers": [
+    {
+      "name": "Pingaksha Testnet",
+      "url": "https://pingaksha.ramascan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
