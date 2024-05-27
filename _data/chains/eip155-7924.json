@@ -18,11 +18,18 @@
   "chainId": 7924,
   "networkId": 7924,
   "icon": "mo",
-  "explorers": [{
-    "name": "mo explorers",
-    "url": "https://moscan.app",
-    "url": "https://mainnet.mochain.app",
-    "icon": "mo",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "mo explorers",
+      "url": "https://moscan.app",
+      "icon": "mo",
+      "standard": "none"
+    },
+    {
+      "name": "mo explorers 2",
+      "url": "https://mainnet.mochain.app",
+      "icon": "mo",
+      "standard": "none"
+    }
+  ]
 }
