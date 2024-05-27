@@ -2,13 +2,13 @@
   "name": "Cronos zkEVM Testnet",
   "chain": "CronosZkEVMTestnet",
   "rpc": ["https://testnet.zkevm.cronos.org"],
-  "faucets": ["https://zkevm.cronos.org/faucet/"],
+  "faucets": ["https://zkevm.cronos.org/faucet"],
   "nativeCurrency": {
     "name": "Cronos zkEVM Test Coin",
     "symbol": "zkTCRO",
     "decimals": 18
   },
-  "infoURL": "https://docs-zkevm.cronos.org/",
+  "infoURL": "https://docs-zkevm.cronos.org",
   "shortName": "zkTCRO",
   "chainId": 282,
   "networkId": 282,
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "Cronos zkEVM Testnet Explorer",
-      "url": "https://explorer.zkevm.cronos.org/testnet/",
+      "url": "https://explorer.zkevm.cronos.org/testnet",
       "standard": "none"
     }
   ]
