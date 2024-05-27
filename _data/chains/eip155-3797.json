@@ -1,22 +1,27 @@
 {
   "name": "AlveyChain Mainnet",
   "chain": "ALV",
-  "icon": "alveychain",
-  "rpc": ["https://rpc.alveychain.com/rpc", "https://rpc2.alvey.io/rpc"],
+  "rpc": [
+    "https://elves-core1.alvey.io",
+    "https://elves-core2.alvey.io",
+    "https://elves-core3.alvey.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "AlveyCoin",
     "symbol": "ALV",
     "decimals": 18
   },
-  "infoURL": "https://alveyscan.com/rpc",
+  "infoURL": "https://alveychain.com/",
   "shortName": "alv",
   "chainId": 3797,
   "networkId": 3797,
+  "icon": "alveychain",
   "explorers": [
     {
       "name": "AlveyScan",
       "url": "https://alveyscan.com",
+      "icon": "alveychain",
       "standard": "EIP3091"
     }
   ]

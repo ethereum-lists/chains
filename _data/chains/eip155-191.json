@@ -1,0 +1,17 @@
+{
+  "name": "FileFileGo",
+  "chain": "FFG",
+  "icon": "ffgIcon",
+  "rpc": ["https://rpc.filefilego.com/rpc"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FFG",
+    "symbol": "FFG",
+    "decimals": 18
+  },
+  "infoURL": "https://filefilego.com",
+  "shortName": "ffg",
+  "chainId": 191,
+  "networkId": 191
+}

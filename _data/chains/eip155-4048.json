@@ -1,0 +1,23 @@
+{
+  "name": "GAN Testnet",
+  "chain": "GAN",
+  "icon": "gpu",
+  "rpc": ["https://rpc.gpu.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GP Token",
+    "symbol": "GP",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.gpu.net/",
+  "shortName": "GANTestnet",
+  "chainId": 4048,
+  "networkId": 4048,
+  "explorers": [
+    {
+      "name": "ganscan",
+      "url": "https://ganscan.gpu.net",
+      "standard": "none"
+    }
+  ]
+}

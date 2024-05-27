@@ -1,0 +1,23 @@
+{
+  "name": "Hokum",
+  "chain": "Hokum",
+  "icon": "hokum",
+  "rpc": ["https://mainnet.hokum.gg"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://hokum.gg",
+  "shortName": "hokum",
+  "chainId": 8080808,
+  "networkId": 8080808,
+  "explorers": [
+    {
+      "name": "Hokum Explorer",
+      "url": "https://explorer.hokum.gg",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "name": "Electroneum Testnet",
   "chain": "Electroneum",
-  "rpc": ["https://api.electroneum.com"],
+  "rpc": ["https://testnet-rpc.electroneum.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Electroneum",
@@ -13,6 +13,7 @@
   "shortName": "etn-testnet",
   "chainId": 5201420,
   "networkId": 5201420,
+  "slip44": 1,
   "icon": "electroneum",
   "explorers": [
     {

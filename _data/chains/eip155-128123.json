@@ -1,0 +1,24 @@
+{
+  "name": "Etherlink Testnet",
+  "chain": "Etherlink",
+  "icon": "etherlink",
+  "chainId": 128123,
+  "networkId": 128123,
+  "features": [{ "name": "EIP1559" }],
+  "infoURL": "https://etherlink.com",
+  "shortName": "etlt",
+  "nativeCurrency": {
+    "name": "tez",
+    "symbol": "XTZ",
+    "decimals": 18
+  },
+  "rpc": ["https://node.ghostnet.etherlink.com"],
+  "faucets": ["https://faucet.etherlink.com"],
+  "explorers": [
+    {
+      "name": "Etherlink Testnet Explorer",
+      "url": "https://testnet-explorer.etherlink.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

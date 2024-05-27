@@ -1,0 +1,29 @@
+{
+  "name": "Mint Testnet",
+  "chain": "ETH",
+  "rpc": ["https://testnet-rpc.mintchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.mintchain.io",
+  "shortName": "minttest",
+  "chainId": 1686,
+  "networkId": 1686,
+  "icon": "mintTestnet",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://testnet-explorer.mintchain.io",
+      "icon": "mintTestnet",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://testnet-bridge.mintchain.io" }]
+  }
+}

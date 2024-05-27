@@ -1,0 +1,26 @@
+{
+  "name": "ZKFair Testnet",
+  "chain": "ETH",
+  "rpc": ["https://testnet-rpc.zkfair.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USDC Token",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://zkfair.io",
+  "shortName": "ZKFair-Testnet",
+  "chainId": 43851,
+  "networkId": 43851,
+  "slip44": 1,
+  "icon": "zkfair",
+  "explorers": [
+    {
+      "name": "ZKFair Testnet Info",
+      "url": "https://testnet-scan.zkfair.io",
+      "icon": "zkfair",
+      "standard": "EIP3091"
+    }
+  ]
+}
