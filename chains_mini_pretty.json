@@ -12804,6 +12804,19 @@
   "faucets": ["https://docs.immutable.com/docs/zkEVM/guides/faucet"],
   "infoURL": "https://www.immutable.com"
 }, {
+  "name": "Gravity Alpha Testnet Sepolia",
+  "chainId": 13505,
+  "shortName": "gravitysep",
+  "networkId": 13505,
+  "nativeCurrency": {
+    "name": "Sepolia Gravity",
+    "symbol": "G.",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-sepolia.gravity.xyz"],
+  "faucets": [],
+  "infoURL": "https://gravity.xyz"
+}, {
   "name": "Kronobit Mainnet",
   "chainId": 13600,
   "shortName": "KNB",
