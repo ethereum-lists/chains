@@ -11036,6 +11036,19 @@
   "faucets": [],
   "infoURL": "https://mdgl.io"
 }, {
+  "name": "BOAT Mainnet",
+  "chainId": 8047,
+  "shortName": "boat",
+  "networkId": 8047,
+  "nativeCurrency": {
+    "name": "Best Of All Time Token",
+    "symbol": "BOAT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc0.come.boat/"],
+  "faucets": [],
+  "infoURL": "https://come.boats"
+}, {
   "name": "Karak Sepolia",
   "chainId": 8054,
   "shortName": "karak-sepolia",
@@ -12907,6 +12920,32 @@
   "rpc": ["https://rpc.dev.immutable.com"],
   "faucets": ["https://docs.immutable.com/docs/zkEVM/guides/faucet"],
   "infoURL": "https://www.immutable.com"
+}, {
+  "name": "Poodl Testnet",
+  "chainId": 15257,
+  "shortName": "poodlt",
+  "networkId": 15257,
+  "nativeCurrency": {
+    "name": "Poodl",
+    "symbol": "POODL",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.poodl.org"],
+  "faucets": ["https://faucet.poodl.org"],
+  "infoURL": "https://poodl.org"
+}, {
+  "name": "Poodl Mainnet",
+  "chainId": 15259,
+  "shortName": "poodle",
+  "networkId": 15259,
+  "nativeCurrency": {
+    "name": "Poodl",
+    "symbol": "POODL",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.poodl.org"],
+  "faucets": [],
+  "infoURL": "https://poodl.org"
 }, {
   "name": "LoopNetwork Mainnet",
   "chainId": 15551,
