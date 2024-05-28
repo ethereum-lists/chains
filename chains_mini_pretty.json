@@ -14416,6 +14416,19 @@
   "faucets": [],
   "infoURL": "https://teampeggle.com"
 }, {
+  "name": "AgentLayer Testnet",
+  "chainId": 42072,
+  "shortName": "agent",
+  "networkId": 42072,
+  "nativeCurrency": {
+    "name": "Agent",
+    "symbol": "AGENT",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.agentlayer.xyz"],
+  "faucets": [],
+  "infoURL": "https://agentlayer.xyz/home"
+}, {
   "name": "Arbitrum One",
   "chainId": 42161,
   "shortName": "arb1",
