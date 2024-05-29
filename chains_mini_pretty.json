@@ -10087,6 +10087,19 @@
   "faucets": ["https://faucet.tritanium.network"],
   "infoURL": "https://tritanium.network"
 }, {
+  "name": "Settlus Testnet",
+  "chainId": 5372,
+  "shortName": "settlus-testnet",
+  "networkId": 5372,
+  "nativeCurrency": {
+    "name": "Setl",
+    "symbol": "SETL",
+    "decimals": 18
+  },
+  "rpc": ["https://settlus-test-eth.settlus.io"],
+  "faucets": ["https://faucet.settlus.io"],
+  "infoURL": "https://settlus.org"
+}, {
   "name": "edeXa Mainnet",
   "chainId": 5424,
   "shortName": "edeXa",
