@@ -2951,6 +2951,26 @@
     }]
   }
 }, {
+  "name": "Flag Mainnet",
+  "chain": "Flag",
+  "icon": "flag",
+  "rpc": ["https://mainnet-rpc.flagscan.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Flag",
+    "symbol": "FLAG",
+    "decimals": 18
+  },
+  "infoURL": "https://flagscan.xyz",
+  "shortName": "FLAG",
+  "chainId": 147,
+  "networkId": 147,
+  "explorers": [{
+    "name": "Flag Mainnet Explorer",
+    "url": "https://flagscan.xyz",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "ShimmerEVM",
   "title": "ShimmerEVM",
   "chain": "ShimmerEVM",
@@ -9165,6 +9185,26 @@
   "chainId": 1140,
   "networkId": 1140,
   "slip44": 1
+}, {
+  "name": "Flag Testnet",
+  "chain": "Flag",
+  "icon": "flag",
+  "rpc": ["https://testnet-rpc.flagscan.xyz"],
+  "faucets": ["https://faucet.flagscan.xyz"],
+  "nativeCurrency": {
+    "name": "Flag Testnet",
+    "symbol": "FLAG",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet-explorer.flagscan.xyz",
+  "shortName": "tFLAG",
+  "chainId": 1147,
+  "networkId": 1147,
+  "explorers": [{
+    "name": "Flag Testnet Explorer",
+    "url": "https://testnet-explorer.flagscan.xyz",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Symplexia Smart Chain",
   "chain": "Plexchain",
@@ -17311,6 +17351,30 @@
     "url": "https://explorer.bit-rock.io",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "XPLA Verse",
+  "chain": "XPLA Verse",
+  "icon": "xpla_verse",
+  "rpc": ["https://rpc-xpla-verse.xpla.dev"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.xpla.io",
+  "shortName": "XPLAVERSE",
+  "chainId": 7300,
+  "networkId": 7300,
+  "explorers": [{
+    "name": "XPLA Verse Explorer",
+    "url": "https://explorer-xpla-verse.xpla.dev",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-248"
+  }
 }, {
   "name": "KLYNTAR",
   "chain": "KLY",

@@ -1858,6 +1858,19 @@
   "faucets": [],
   "infoURL": "https://soraai.bot"
 }, {
+  "name": "Flag Mainnet",
+  "chainId": 147,
+  "shortName": "FLAG",
+  "networkId": 147,
+  "nativeCurrency": {
+    "name": "Flag",
+    "symbol": "FLAG",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.flagscan.xyz"],
+  "faucets": [],
+  "infoURL": "https://flagscan.xyz"
+}, {
   "name": "ShimmerEVM",
   "chainId": 148,
   "shortName": "shimmerevm",
@@ -5692,6 +5705,19 @@
   "rpc": ["https://galois-hk.maiziqianbao.net/rpc"],
   "faucets": ["https://scan.boka.network/#/Galois/faucet"],
   "infoURL": "https://mathchain.org"
+}, {
+  "name": "Flag Testnet",
+  "chainId": 1147,
+  "shortName": "tFLAG",
+  "networkId": 1147,
+  "nativeCurrency": {
+    "name": "Flag Testnet",
+    "symbol": "FLAG",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.flagscan.xyz"],
+  "faucets": ["https://faucet.flagscan.xyz"],
+  "infoURL": "https://testnet-explorer.flagscan.xyz"
 }, {
   "name": "Symplexia Smart Chain",
   "chainId": 1149,
@@ -10723,6 +10749,19 @@
   "rpc": ["https://connect.bit-rock.io", "https://brockrpc.io"],
   "faucets": [],
   "infoURL": "https://bit-rock.io"
+}, {
+  "name": "XPLA Verse",
+  "chainId": 7300,
+  "shortName": "XPLAVERSE",
+  "networkId": 7300,
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-xpla-verse.xpla.dev"],
+  "faucets": [],
+  "infoURL": "https://www.xpla.io"
 }, {
   "name": "KLYNTAR",
   "chainId": 7331,
