@@ -19824,6 +19824,19 @@
   "faucets": ["https://faucet.joys.digital/"],
   "infoURL": "https://joys.digital"
 }, {
+  "name": "Oraichain Mainnet",
+  "chainId": 108160679,
+  "shortName": "Oraichain",
+  "networkId": 108160679,
+  "nativeCurrency": {
+    "name": "Oraichain Token",
+    "symbol": "ORAI",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.orai.io"],
+  "faucets": [],
+  "infoURL": "https://orai.io"
+}, {
   "name": "Cyber Testnet",
   "chainId": 111557560,
   "shortName": "cysep",
