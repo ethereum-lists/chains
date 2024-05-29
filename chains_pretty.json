@@ -9978,6 +9978,27 @@
     "standard": "none"
   }]
 }, {
+  "name": "Ramestta Mainnet",
+  "chain": "Ramestta",
+  "icon": "ramestta",
+  "rpc": ["https://blockchain.ramestta.com", "https://blockchain2.ramestta.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Rama",
+    "symbol": "RAMA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.ramestta.com",
+  "shortName": "RAMA",
+  "chainId": 1370,
+  "networkId": 1370,
+  "explorers": [{
+    "name": "ramascan",
+    "url": "https://ramascan.com",
+    "icon": "ramestta",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Kalar Chain",
   "chain": "KLC",
   "icon": "kalarchain",
@@ -20026,6 +20047,28 @@
     "standard": "none"
   }]
 }, {
+  "name": "Jiritsu Testnet Subnet",
+  "chain": "JIRITSUTES",
+  "rpc": ["https://subnets.avax.network/jiritsutes/testnet/rpc"],
+  "features": [{
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "JIRI",
+    "symbol": "TZW",
+    "decimals": 18
+  },
+  "infoURL": "https://jiritsu.network",
+  "shortName": "jiritsutes",
+  "chainId": 11227,
+  "networkId": 11227,
+  "explorers": [{
+    "name": "JIRITSUTES Explorer",
+    "url": "https://subnets-test.avax.network/jiritsutes",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Haqq Network",
   "chain": "Haqq",
   "rpc": ["https://rpc.eth.haqq.network", "https://haqq-evm-rpc.publicnode.com", "wss://haqq-evm-rpc.publicnode.com", "https://haqq.drpc.org", "wss://haqq.drpc.org"],
@@ -27408,9 +27451,9 @@
 }, {
   "name": "Taiko Mainnet",
   "chain": "ETH",
-  "status": "incubating",
+  "status": "active",
   "icon": "taiko",
-  "rpc": ["https://rpc.taiko.xyz", "wss://ws.taiko.xyz"],
+  "rpc": ["https://rpc.mainnet.taiko.xyz", "wss://ws.mainnet.taiko.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -27421,7 +27464,11 @@
   "shortName": "tko-mainnet",
   "chainId": 167000,
   "networkId": 167000,
-  "explorers": []
+  "explorers": [{
+    "name": "etherscan",
+    "url": "https://taikoscan.io",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Taiko (Alpha-2 Testnet)",
   "chain": "ETH",

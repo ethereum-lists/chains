@@ -6213,6 +6213,19 @@
   "faucets": [],
   "infoURL": "https://www.zakumi.io"
 }, {
+  "name": "Ramestta Mainnet",
+  "chainId": 1370,
+  "shortName": "RAMA",
+  "networkId": 1370,
+  "nativeCurrency": {
+    "name": "Rama",
+    "symbol": "RAMA",
+    "decimals": 18
+  },
+  "rpc": ["https://blockchain.ramestta.com", "https://blockchain2.ramestta.com"],
+  "faucets": [],
+  "infoURL": "https://www.ramestta.com"
+}, {
   "name": "Kalar Chain",
   "chainId": 1379,
   "shortName": "KLC",
@@ -12453,6 +12466,19 @@
   "faucets": [],
   "infoURL": "https://shinechain.tech"
 }, {
+  "name": "Jiritsu Testnet Subnet",
+  "chainId": 11227,
+  "shortName": "jiritsutes",
+  "networkId": 11227,
+  "nativeCurrency": {
+    "name": "JIRI",
+    "symbol": "TZW",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/jiritsutes/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://jiritsu.network"
+}, {
   "name": "Haqq Network",
   "chainId": 11235,
   "shortName": "ISLM",
@@ -16908,7 +16934,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.taiko.xyz", "wss://ws.taiko.xyz"],
+  "rpc": ["https://rpc.mainnet.taiko.xyz", "wss://ws.mainnet.taiko.xyz"],
   "faucets": [],
   "infoURL": "https://taiko.xyz"
 }, {
