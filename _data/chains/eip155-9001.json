@@ -1,7 +1,12 @@
 {
   "name": "Evmos",
   "chain": "Evmos",
-  "rpc": ["https://evmos-evm.publicnode.com"],
+  "rpc": [
+    "https://evmos.lava.build",
+    "wss://evmos.lava.build/websocket",
+    "https://evmos-evm.publicnode.com",
+    "wss://evmos-evm.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Evmos",

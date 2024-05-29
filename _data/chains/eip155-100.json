@@ -12,7 +12,9 @@
     "https://gnosis.blockpi.network/v1/rpc/public",
     "https://web3endpoints.com/gnosischain-mainnet",
     "https://gnosis.oat.farm",
-    "wss://rpc.gnosischain.com/wss"
+    "wss://rpc.gnosischain.com/wss",
+    "https://gnosis-rpc.publicnode.com",
+    "wss://gnosis-rpc.publicnode.com"
   ],
   "faucets": [
     "https://gnosisfaucet.com",
@@ -39,6 +41,12 @@
       "name": "blockscout",
       "url": "https://gnosis.blockscout.com",
       "icon": "blockscout",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://gnosis.dex.guru",
+      "icon": "dexguru",
       "standard": "EIP3091"
     }
   ]

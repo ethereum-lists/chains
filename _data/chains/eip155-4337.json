@@ -1,16 +1,21 @@
 {
   "name": "Beam",
   "chain": "BEAM",
-  "rpc": ["https://subnets.avax.network/beam/mainnet/rpc"],
+  "rpc": [
+    "https://build.onbeam.com/rpc",
+    "wss://build.onbeam.com/ws",
+    "https://subnets.avax.network/beam/mainnet/rpc",
+    "wss://subnets.avax.network/beam/mainnet/ws"
+  ],
   "features": [
     {
       "name": "EIP1559"
     }
   ],
-  "faucets": [],
+  "faucets": ["https://faucet.onbeam.com"],
   "nativeCurrency": {
-    "name": "Merit Circle",
-    "symbol": "MC",
+    "name": "Beam",
+    "symbol": "BEAM",
     "decimals": 18
   },
   "infoURL": "https://www.onbeam.com",

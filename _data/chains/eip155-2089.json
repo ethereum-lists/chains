@@ -1,6 +1,7 @@
 {
   "name": "Algol",
   "chain": "algol",
+  "status": "deprecated",
   "rpc": ["wss://fullnode.algol.cntrfg.com"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],

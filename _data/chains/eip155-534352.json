@@ -1,8 +1,12 @@
 {
   "name": "Scroll",
   "chain": "ETH",
-  "status": "incubating",
-  "rpc": ["https://rpc.scroll.io"],
+  "status": "active",
+  "rpc": [
+    "https://rpc.scroll.io",
+    "https://rpc.ankr.com/scroll",
+    "https://scroll-mainnet.chainstacklabs.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -15,8 +19,8 @@
   "networkId": 534352,
   "explorers": [
     {
-      "name": "Scroll Mainnet Block Explorer",
-      "url": "https://blockscout.scroll.io",
+      "name": "Scrollscan",
+      "url": "https://scrollscan.com",
       "standard": "EIP3091"
     }
   ],
