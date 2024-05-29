@@ -11374,6 +11374,19 @@
   "faucets": [],
   "infoURL": "https://www.kortho.io/"
 }, {
+  "name": "Lorenzo",
+  "chainId": 8329,
+  "shortName": "lrz",
+  "networkId": 8329,
+  "nativeCurrency": {
+    "name": "Lorenzo stBTC",
+    "symbol": "stBTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.lorenzo-protocol.xyz"],
+  "faucets": [],
+  "infoURL": "https://www.lorenzo-protocol.xyz/"
+}, {
   "name": "Dracones Financial Services",
   "chainId": 8387,
   "shortName": "fuck",
