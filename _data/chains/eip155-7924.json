@@ -1,27 +1,23 @@
 {
   "name": "MO Mainnet",
+  "chainId": 7924,
+  "shortName": "MO",
   "chain": "MO",
-  "rpc": [
-    "https://mainnet-rpc.mochain.app/"
-  ],
-  "faucets": [
-    "https://faucet.mochain.app"
-  ],
+  "icon": "mo",
+  "networkId": 7924,
   "nativeCurrency": {
-    "name": "Money",
+    "name": "MO",
     "symbol": "MO",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "infoURL": "https://mochain.app",
-  "shortName": "mo",
-  "chainId": 7924,
-  "networkId": 7924,
-  "icon": "mo",
-  "explorers": [{
-    "name": "mo explorers",
-    "url": "https://moscan.app",
-    "icon": "mo",
-    "standard": "none"
-  }]
+  "rpc": ["https://mainnet-rpc.mochain.app/"],
+  "faucets": ["https://faucet.mochain.app/"],
+  "explorers": [
+    {
+      "name": "MO Explorer",
+      "url": "https://moscan.app",
+      "standard": "EIP155"
+    }
+  ],
+  "infoURL": "https://mochain.app"
 }
