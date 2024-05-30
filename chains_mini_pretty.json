@@ -1932,7 +1932,7 @@
     "symbol": "RBNT",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://governors.testnet.redbelly.network"],
   "faucets": [],
   "infoURL": "https://redbelly.network"
 }, {
@@ -6249,6 +6249,19 @@
     "decimals": 18
   },
   "rpc": ["https://blockchain.ramestta.com", "https://blockchain2.ramestta.com"],
+  "faucets": [],
+  "infoURL": "https://www.ramestta.com"
+}, {
+  "name": "Pingaksha testnet",
+  "chainId": 1377,
+  "shortName": "tRAMA",
+  "networkId": 1377,
+  "nativeCurrency": {
+    "name": "Rama",
+    "symbol": "tRAMA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.ramestta.com"],
   "faucets": [],
   "infoURL": "https://www.ramestta.com"
 }, {
