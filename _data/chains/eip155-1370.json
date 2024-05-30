@@ -2,7 +2,10 @@
   "name": "Ramestta Mainnet",
   "chain": "Ramestta",
   "icon": "ramestta",
-  "rpc": ["https://blockchain.ramestta.com"],
+  "rpc": [
+    "https://blockchain.ramestta.com",
+    "https://blockchain2.ramestta.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Rama",
