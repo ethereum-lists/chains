@@ -1,0 +1,31 @@
+{
+  "name": "TCC",
+  "chain": "TCC",
+  "rpc": [
+    "https://rpc.tccworld.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TCC",
+    "symbol": "TCC",
+    "decimals": 18
+  },
+  "infoURL": "https://tccworld.org",
+  "shortName": "tcc",
+  "chainId": 181155,
+  "networkId": 181155,
+  "icon": "tcc",
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "TCC Explorer",
+      "url": "https://explorer.tccworld.org",
+      "standard": "none"
+    },
+    {
+      "name": "TCC Scan",
+      "url": "https://scan.tccworld.org",
+      "standard": "none"
+    }
+  ]
+}
