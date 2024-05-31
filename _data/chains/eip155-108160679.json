@@ -1,0 +1,17 @@
+{
+  "name": "Oraichain Mainnet",
+  "title": "Oraichain Mainnet",
+  "chain": "Oraichain",
+  "rpc": ["https://evm.orai.io"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Oraichain Token",
+    "symbol": "ORAI",
+    "decimals": 18
+  },
+  "infoURL": "https://orai.io",
+  "shortName": "Oraichain",
+  "chainId": 108160679,
+  "networkId": 108160679
+}
