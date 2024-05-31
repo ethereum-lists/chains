@@ -21,5 +21,9 @@
       "standard": "EIP3091"
     }
   ],
-  "status": "active"
+  "status": "active",
+  "parent": {
+    "type": "L3",
+    "chain": "eip155-8453"
+  }
 }
