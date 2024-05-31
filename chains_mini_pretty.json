@@ -6161,6 +6161,19 @@
   "faucets": ["https://aia-faucet-testnet.aiachain.org"],
   "infoURL": "https://aiachain.org"
 }, {
+  "name": "Sei Network",
+  "chainId": 1329,
+  "shortName": "sei",
+  "networkId": 1329,
+  "nativeCurrency": {
+    "name": "Sei",
+    "symbol": "SEI",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-rpc.sei-apis.com", "wss://evm-ws.sei-apis.com"],
+  "faucets": [],
+  "infoURL": "https://www.sei.io"
+}, {
   "name": "Geth Testnet",
   "chainId": 1337,
   "shortName": "geth",
