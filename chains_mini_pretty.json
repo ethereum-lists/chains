@@ -10477,6 +10477,19 @@
   "faucets": ["https://aura.faucetme.pro"],
   "infoURL": "https://aura.network"
 }, {
+  "name": "Aura Mainnet",
+  "chainId": 6322,
+  "shortName": "aura",
+  "networkId": 6322,
+  "nativeCurrency": {
+    "name": "Aura",
+    "symbol": "AURA",
+    "decimals": 18
+  },
+  "rpc": ["https://jsonrpc.aura.network"],
+  "faucets": [],
+  "infoURL": "https://aura.network"
+}, {
   "name": "Digit Soul Smart Chain",
   "chainId": 6363,
   "shortName": "DGS",
