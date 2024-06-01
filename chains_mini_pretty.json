@@ -9381,7 +9381,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.n3.nahmii.io"],
   "faucets": [],
   "infoURL": "https://nahmii.io"
 }, {
@@ -9390,11 +9390,11 @@
   "shortName": "Nahmii3Testnet",
   "networkId": 4062,
   "nativeCurrency": {
-    "name": "Goerli Ether",
+    "name": "Sepolia Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://ngeth.testnet.n3.nahmii.io"],
+  "rpc": ["https://rpc.testnet.nahmii.io"],
   "faucets": [],
   "infoURL": "https://nahmii.io"
 }, {
@@ -10165,7 +10165,7 @@
   "faucets": ["https://t.me/vexfaucetbot"],
   "infoURL": "https://vexanium.com"
 }, {
-  "name": "Nahmii Mainnet",
+  "name": "Nahmii 2 Mainnet",
   "chainId": 5551,
   "shortName": "Nahmii",
   "networkId": 5551,
@@ -10178,7 +10178,7 @@
   "faucets": [],
   "infoURL": "https://nahmii.io"
 }, {
-  "name": "Nahmii Testnet",
+  "name": "Nahmii 2 Testnet",
   "chainId": 5553,
   "shortName": "NahmiiTestnet",
   "networkId": 5553,
