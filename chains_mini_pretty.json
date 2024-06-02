@@ -18758,6 +18758,32 @@
   "faucets": [],
   "infoURL": "https://eluv.io"
 }, {
+  "name": "Forma",
+  "chainId": 984122,
+  "shortName": "forma",
+  "networkId": 984122,
+  "nativeCurrency": {
+    "name": "TIA",
+    "symbol": "TIA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.forma.art"],
+  "faucets": [],
+  "infoURL": "https://forma.art"
+}, {
+  "name": "Forma Sketchpad",
+  "chainId": 984123,
+  "shortName": "sketchpad",
+  "networkId": 984123,
+  "nativeCurrency": {
+    "name": "TIA",
+    "symbol": "TIA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.sketchpad-1.forma.art"],
+  "faucets": [],
+  "infoURL": "https://forma.art"
+}, {
   "name": "Ecrox Chain Mainnet",
   "chainId": 988207,
   "shortName": "ecrox",
