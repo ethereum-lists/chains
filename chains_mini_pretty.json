@@ -8159,8 +8159,8 @@
     "symbol": "ATLA",
     "decimals": 18
   },
-  "rpc": ["wss://testnet-rpc.atleta.network:9944", "https://testnet-rpc.atleta.network:9944"],
-  "faucets": ["https://faucet.atleta.network"],
+  "rpc": ["wss://testnet-rpc.atleta.network:9944", "https://testnet-rpc.atleta.network:9944", "https://testnet-rpc.atleta.network"],
+  "faucets": ["https://app-olympia.atleta.network/faucet"],
   "infoURL": "https://atleta.network"
 }, {
   "name": "Omnia Chain",
