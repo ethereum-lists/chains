@@ -22,10 +22,13 @@
     {
       "name": "Atleta Olympia Explorer",
       "icon": "atleta",
-      "url": [
-        "https://blockscout.atleta.network/",
-        "https://polkadot-explorer.atleta.network/#/explorer"
-      ],
+      "url": "https://blockscout.atleta.network/",
+      "standard": "none"
+    },
+    {
+      "name": "Atleta Olympia Polka Explorer",
+      "icon": "atleta",
+      "url": "https://polkadot-explorer.atleta.network/#/explorer",
       "standard": "none"
     }
   ]
