@@ -19109,6 +19109,19 @@
   "faucets": [],
   "infoURL": "https://caldera.xyz/"
 }, {
+  "name": "NumBlock Chain",
+  "chainId": 5112023,
+  "shortName": "NUMB",
+  "networkId": 5112023,
+  "nativeCurrency": {
+    "name": "NUMB Token",
+    "symbol": "NUMB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet.numblock.org"],
+  "faucets": [],
+  "infoURL": "https://numblock.org"
+}, {
   "name": "MXC Wannsee zkEVM Testnet",
   "chainId": 5167003,
   "shortName": "MXCdiscontinued",
