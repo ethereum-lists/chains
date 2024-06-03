@@ -12479,6 +12479,32 @@
   "faucets": [],
   "infoURL": "https://www.cryptocoinpay.co"
 }, {
+  "name": "Lamina1",
+  "chainId": 10849,
+  "shortName": "lamina1",
+  "networkId": 10849,
+  "nativeCurrency": {
+    "name": "L1",
+    "symbol": "L1",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/lamina1/mainnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.lamina1.com/"
+}, {
+  "name": "Lamina1 Identity",
+  "chainId": 10850,
+  "shortName": "lamina1id",
+  "networkId": 10850,
+  "nativeCurrency": {
+    "name": "L1 ID",
+    "symbol": "L1ID",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/lamina1id/mainnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.lamina1.com/"
+}, {
   "name": "Quadrans Blockchain",
   "chainId": 10946,
   "shortName": "quadrans",
@@ -18484,6 +18510,32 @@
   "rpc": ["https://mainnet-rpc.miexs.com"],
   "faucets": [],
   "infoURL": "https://miexs.com"
+}, {
+  "name": "Lamina1 Testnet",
+  "chainId": 764984,
+  "shortName": "lamina1test",
+  "networkId": 764984,
+  "nativeCurrency": {
+    "name": "Lamina1 Test",
+    "symbol": "L1T",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/lamina1tes/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://fuji.lamina1.com/"
+}, {
+  "name": "Lamina1 Identity Testnet",
+  "chainId": 767368,
+  "shortName": "lamina1idtest",
+  "networkId": 767368,
+  "nativeCurrency": {
+    "name": "L1ID Test",
+    "symbol": "L1IDT",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/lamina1id/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://fuji.lamina1.com/"
 }, {
   "name": "Modularium",
   "chainId": 776877,

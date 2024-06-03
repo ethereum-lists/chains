@@ -20078,6 +20078,52 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Lamina1",
+  "chain": "Lamina1",
+  "rpc": ["https://subnets.avax.network/lamina1/mainnet/rpc"],
+  "features": [{
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "L1",
+    "symbol": "L1",
+    "decimals": 18
+  },
+  "infoURL": "https://www.lamina1.com/",
+  "shortName": "lamina1",
+  "chainId": 10849,
+  "networkId": 10849,
+  "slip44": 1,
+  "explorers": [{
+    "name": "Lamina1 Explorer",
+    "url": "https://subnets.avax.network/lamina1",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Lamina1 Identity",
+  "chain": "Lamina1 Identity",
+  "rpc": ["https://subnets.avax.network/lamina1id/mainnet/rpc"],
+  "features": [{
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "L1 ID",
+    "symbol": "L1ID",
+    "decimals": 18
+  },
+  "infoURL": "https://www.lamina1.com/",
+  "shortName": "lamina1id",
+  "chainId": 10850,
+  "networkId": 10850,
+  "slip44": 1,
+  "explorers": [{
+    "name": "Lamina1 Identity Explorer",
+    "url": "https://subnets.avax.network/lamina1id",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Quadrans Blockchain",
   "chain": "QDC",
   "icon": "quadrans",
@@ -30047,6 +30093,52 @@
   "explorers": [{
     "name": "Miexs Smartchain Explorer",
     "url": "https://miexs.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Lamina1 Testnet",
+  "chain": "Lamina1 Testnet",
+  "rpc": ["https://subnets.avax.network/lamina1tes/testnet/rpc"],
+  "features": [{
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lamina1 Test",
+    "symbol": "L1T",
+    "decimals": 18
+  },
+  "infoURL": "https://fuji.lamina1.com/",
+  "shortName": "lamina1test",
+  "chainId": 764984,
+  "networkId": 764984,
+  "slip44": 1,
+  "explorers": [{
+    "name": "Lamina1 Test Explorer",
+    "url": "https://subnets-test.avax.network/lamina1tes",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Lamina1 Identity Testnet",
+  "chain": "Lamina1 Identity Testnet",
+  "rpc": ["https://subnets.avax.network/lamina1id/testnet/rpc"],
+  "features": [{
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "L1ID Test",
+    "symbol": "L1IDT",
+    "decimals": 18
+  },
+  "infoURL": "https://fuji.lamina1.com/",
+  "shortName": "lamina1idtest",
+  "chainId": 767368,
+  "networkId": 767368,
+  "slip44": 1,
+  "explorers": [{
+    "name": "Lamina1 Identity Testnet Explorer",
+    "url": "https://subnets-test.avax.network/lamina1id",
     "standard": "EIP3091"
   }]
 }, {
