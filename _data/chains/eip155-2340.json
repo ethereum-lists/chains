@@ -3,7 +3,8 @@
   "chain": "Atleta",
   "rpc": [
     "wss://testnet-rpc.atleta.network:9944",
-    "https://testnet-rpc.atleta.network:9944"
+    "https://testnet-rpc.atleta.network:9944",
+    "https://testnet-rpc.atleta.network"
   ],
   "faucets": ["https://faucet.atleta.network"],
   "nativeCurrency": {
