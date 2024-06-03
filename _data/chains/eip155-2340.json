@@ -6,7 +6,7 @@
     "https://testnet-rpc.atleta.network:9944",
     "https://testnet-rpc.atleta.network"
   ],
-  "faucets": ["https://faucet.atleta.network"],
+  "faucets": ["https://app-olympia.atleta.network/faucet"],
   "nativeCurrency": {
     "name": "Atla",
     "symbol": "ATLA",
@@ -20,9 +20,12 @@
   "icon": "atleta",
   "explorers": [
     {
-      "name": "Atleta Testnet Explorer",
+      "name": "Atleta Olympia Explorer",
       "icon": "atleta",
-      "url": "https://polkadot-explorer.atleta.network/#/explorer",
+      "url": [
+        "https://blockscout.atleta.network/",
+        "https://polkadot-explorer.atleta.network/#/explorer"
+      ],
       "standard": "none"
     }
   ]
