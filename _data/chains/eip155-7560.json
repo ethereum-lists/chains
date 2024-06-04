@@ -22,13 +22,12 @@
     {
       "name": "Cyber Mainnet Explorer",
       "url": "https://cyberscan.co",
-      "icon": "blockscout",
       "standard": "EIP3091"
     }
   ],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://cyber-bridge.alt.technology/deposit" }]
+    "bridges": [{ "url": "https://cyber.co/bridge" }]
   }
 }
