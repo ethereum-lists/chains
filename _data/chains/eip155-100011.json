@@ -15,12 +15,5 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-100000"
-  },
-  "explorers": [
-    {
-      "name": "quarkchain-l2-mainnet",
-      "url": "https://explorer.mainnet.l2.quarkchain.io",
-      "standard": "EIP3091"
-    }
-  ]
+  }
 }
