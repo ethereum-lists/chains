@@ -1,0 +1,20 @@
+{
+  "name": "Neura",
+  "title": "Neura Mainnet",
+  "chain": "NEURA",
+  "icon": "neura",
+  "rpc": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ankr",
+    "symbol": "ANKR",
+    "decimals": 18
+  },
+  "infoURL": "https://www.neuraprotocol.io/",
+  "shortName": "neura",
+  "chainId": 266,
+  "networkId": 266,
+  "status": "incubating",
+  "explorers": []
+}

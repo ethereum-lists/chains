@@ -4,15 +4,15 @@
   "icon": "edgeware",
   "rpc": [
     "https://edgeware-evm.jelliedowl.net",
-    "https://mainnet2.edgewa.re/evm",
-    "https://mainnet3.edgewa.re/evm",
-    "https://mainnet4.edgewa.re/evm",
-    "https://mainnet5.edgewa.re/evm",
+    "https://edgeware-evm0.jelliedowl.net",
+    "https://edgeware-evm1.jelliedowl.net",
+    "https://edgeware-evm2.jelliedowl.net",
+    "https://edgeware-evm3.jelliedowl.net",
     "wss://edgeware.jelliedowl.net",
-    "wss://mainnet2.edgewa.re",
-    "wss://mainnet3.edgewa.re",
-    "wss://mainnet4.edgewa.re",
-    "wss://mainnet5.edgewa.re"
+    "wss://edgeware-rpc0.jelliedowl.net",
+    "wss://edgeware-rpc1.jelliedowl.net",
+    "wss://edgeware-rpc2.jelliedowl.net",
+    "wss://edgeware-rpc3.jelliedowl.net"
   ],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
@@ -28,15 +28,15 @@
   "slip44": 523,
   "explorers": [
     {
-      "name": "Edgscan by Bharathcoorg",
+      "name": "Edgscan EdgeEVM explorer by Bharathcoorg",
       "url": "https://edgscan.live",
       "standard": "EIP3091"
     },
     {
-      "name": "Subscan",
-      "url": "https://edgeware.subscan.io",
+      "name": "Edgscan EdgeWASM explorer by Bharathcoorg",
+      "url": "https://edgscan.ink",
       "standard": "none",
-      "icon": "subscan"
+      "icon": "edgscan"
     }
   ]
 }
