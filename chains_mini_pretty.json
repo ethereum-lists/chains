@@ -2196,6 +2196,19 @@
   "faucets": [],
   "infoURL": "https://amechain.io/"
 }, {
+  "name": "Waterfall Network",
+  "chainId": 181,
+  "shortName": "water",
+  "networkId": 181,
+  "nativeCurrency": {
+    "name": "WATER",
+    "symbol": "WATER",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.waterfall.network/"],
+  "faucets": [],
+  "infoURL": "https://waterfall.network"
+}, {
   "name": "Mint Mainnet",
   "chainId": 185,
   "shortName": "mint",
