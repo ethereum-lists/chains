@@ -7630,18 +7630,18 @@
   "faucets": [],
   "infoURL": "https://vanarchain.com"
 }, {
-  "name": "OriginTrail Parachain",
+  "name": "NeuroWeb",
   "chainId": 2043,
-  "shortName": "otp",
+  "shortName": "NEURO",
   "networkId": 2043,
   "nativeCurrency": {
-    "name": "OriginTrail Parachain Token",
-    "symbol": "OTP",
+    "name": "NeuroWeb Token",
+    "symbol": "NEURO",
     "decimals": 12
   },
   "rpc": ["https://astrosat.origintrail.network", "wss://parachain-rpc.origin-trail.network"],
   "faucets": [],
-  "infoURL": "https://parachain.origintrail.io"
+  "infoURL": "https://neuroweb.ai"
 }, {
   "name": "Shrapnel Subnet",
   "chainId": 2044,
