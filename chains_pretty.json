@@ -15594,6 +15594,28 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Hydra Chain",
+  "chain": "HYDRA",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Hydra",
+    "symbol": "HYDRA",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://hydrachain.org",
+  "shortName": "hydra",
+  "chainId": 4488,
+  "networkId": 4488,
+  "icon": "hydra",
+  "explorers": [],
+  "status": "incubating"
+}, {
   "name": "Emoney Network Testnet",
   "chain": "Emoney",
   "rpc": ["https://testnet.emoney.network/"],
@@ -18683,6 +18705,32 @@
     "name": "explorer",
     "url": "https://explorer.evm.iota.org",
     "icon": "iotaevm",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Hydra Chain Testnet",
+  "chain": "HYDRA",
+  "rpc": ["https://rpc.testnet.hydrachain.org"],
+  "faucets": ["https://app.testnet.hydrachain.org/faucet"],
+  "nativeCurrency": {
+    "name": "tHydra",
+    "symbol": "tHYDRA",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://hydrachain.org",
+  "shortName": "thydra",
+  "chainId": 8844,
+  "networkId": 8844,
+  "icon": "hydra",
+  "explorers": [{
+    "name": "Hydra Chain Testnet explorer",
+    "url": "https://hydragon.hydrachain.org",
+    "icon": "hydra",
     "standard": "EIP3091"
   }]
 }, {
@@ -25687,6 +25735,25 @@
   "explorers": [{
     "name": "Geek Explorer",
     "url": "https://explorer.geekout-pte.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "GEEK Verse Testnet",
+  "chain": "GEEK Test",
+  "rpc": ["https://rpc-testnet.geekout-pte.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Geek",
+    "symbol": "GEEK",
+    "decimals": 18
+  },
+  "infoURL": "https://www.geekout-pte.com",
+  "shortName": "GEEK_Test",
+  "chainId": 75513,
+  "networkId": 75513,
+  "explorers": [{
+    "name": "Geek Testnet Explorer",
+    "url": "https://explorer-testnet.geekout-pte.com",
     "standard": "EIP3091"
   }]
 }, {

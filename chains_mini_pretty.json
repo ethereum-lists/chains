@@ -9658,6 +9658,19 @@
   "faucets": [],
   "infoURL": "www.orderly.network"
 }, {
+  "name": "Hydra Chain",
+  "chainId": 4488,
+  "shortName": "hydra",
+  "networkId": 4488,
+  "nativeCurrency": {
+    "name": "Hydra",
+    "symbol": "HYDRA",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://hydrachain.org"
+}, {
   "name": "Emoney Network Testnet",
   "chainId": 4544,
   "shortName": "emoney",
@@ -11581,6 +11594,19 @@
   "rpc": ["https://json-rpc.evm.iotaledger.net", "https://ws.json-rpc.evm.iotaledger.net"],
   "faucets": [],
   "infoURL": "https://www.iota.org"
+}, {
+  "name": "Hydra Chain Testnet",
+  "chainId": 8844,
+  "shortName": "thydra",
+  "networkId": 8844,
+  "nativeCurrency": {
+    "name": "tHydra",
+    "symbol": "tHYDRA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.hydrachain.org"],
+  "faucets": ["https://app.testnet.hydrachain.org/faucet"],
+  "infoURL": "https://hydrachain.org"
 }, {
   "name": "MARO Blockchain Mainnet",
   "chainId": 8848,
@@ -15817,6 +15843,19 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.geekout-pte.com"],
+  "faucets": [],
+  "infoURL": "https://www.geekout-pte.com"
+}, {
+  "name": "GEEK Verse Testnet",
+  "chainId": 75513,
+  "shortName": "GEEK_Test",
+  "networkId": 75513,
+  "nativeCurrency": {
+    "name": "Geek",
+    "symbol": "GEEK",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.geekout-pte.com"],
   "faucets": [],
   "infoURL": "https://www.geekout-pte.com"
 }, {
