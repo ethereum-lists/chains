@@ -1,7 +1,12 @@
 {
   "name": "BOB",
   "chain": "ETH",
-  "rpc": ["https://rpc.gobob.xyz", "wss://rpc.gobob.xyz"],
+  "rpc": [
+    "https://rpc.gobob.xyz",
+    "wss://rpc.gobob.xyz",
+    "https://bob-mainnet.public.blastapi.io",
+    "wss://bob-mainnet.public.blastapi.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
