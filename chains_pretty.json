@@ -21989,6 +21989,46 @@
   }],
   "infoURL": "https://www.camelark.com"
 }, {
+  "name": "Niza Chain Mainnet",
+  "chain": "NIZA",
+  "icon": "niza",
+  "rpc": ["https://nizascan.io/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Niza Global",
+    "symbol": "NIZA",
+    "decimals": 18
+  },
+  "infoURL": "https://niza.io",
+  "shortName": "niza",
+  "chainId": 20041,
+  "networkId": 20041,
+  "explorers": [{
+    "name": "NizaScan",
+    "url": "https://nizascan.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Niza Chain Testnet",
+  "chain": "NIZA",
+  "icon": "niza",
+  "rpc": ["https://testnet.nizascan.io/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Niza Global",
+    "symbol": "NIZA",
+    "decimals": 18
+  },
+  "infoURL": "https://niza.io",
+  "shortName": "niza_testnet",
+  "chainId": 20073,
+  "networkId": 20073,
+  "explorers": [{
+    "name": "NizaScan",
+    "url": "https://testnet.nizascan.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Callisto Testnet",
   "chain": "CLO",
   "rpc": ["https://testnet-rpc.callisto.network/"],
@@ -25202,6 +25242,32 @@
       "url": "https://bridge.optopia.ai"
     }]
   }
+}, {
+  "name": "Citrea Devnet",
+  "chain": "Citrea",
+  "rpc": ["https://rpc.devnet.citrea.xyz"],
+  "faucets": ["https://citrea.xyz/bridge"],
+  "nativeCurrency": {
+    "name": "Citrea BTC",
+    "symbol": "cBTC",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://citrea.xyz",
+  "shortName": "citrea-devnet",
+  "chainId": 62298,
+  "networkId": 62298,
+  "icon": "citrea",
+  "explorers": [{
+    "name": "Citrea Devnet Explorer",
+    "url": "https://explorer.devnet.citrea.xyz",
+    "icon": "citrea",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Celo Baklava Testnet",
   "chainId": 62320,
