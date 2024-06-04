@@ -16,7 +16,8 @@
   "explorers": [
     {
       "name": "Nal Sepolia Testnet Network Explorer",
-      "url": "https://testnet-scan.nal.network/"
+      "url": "https://testnet-scan.nal.network",
+      "standard": "EIP3091"
     }
   ]
 }
