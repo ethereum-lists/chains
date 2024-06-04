@@ -11400,6 +11400,19 @@
   "faucets": [],
   "infoURL": "https://klaytn.foundation"
 }, {
+  "name": "Space Subnet",
+  "chainId": 8227,
+  "shortName": "space",
+  "networkId": 8227,
+  "nativeCurrency": {
+    "name": "FUEL",
+    "symbol": "FUEL",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/space/mainnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://otherworld.network"
+}, {
   "name": "Blockton Blockchain",
   "chainId": 8272,
   "shortName": "BTON",
