@@ -8566,6 +8566,19 @@
   "faucets": [],
   "infoURL": "https://www.nanon.network"
 }, {
+  "name": "GM Network Mainnet",
+  "chainId": 2777,
+  "shortName": "gmnetwork-mainnet",
+  "networkId": 2777,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://gmnetwork.ai"
+}, {
   "name": "Morph Holesky",
   "chainId": 2810,
   "shortName": "hmorph",
