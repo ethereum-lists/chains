@@ -3262,6 +3262,19 @@
   "faucets": ["https://cronos.org/faucet"],
   "infoURL": "https://cronos.org"
 }, {
+  "name": "TSC Mainnet",
+  "chainId": 345,
+  "shortName": "TSC",
+  "networkId": 16,
+  "nativeCurrency": {
+    "name": "TAS",
+    "symbol": "TAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc01.trias.one"],
+  "faucets": [],
+  "infoURL": "https://www.trias.one"
+}, {
   "name": "Theta Mainnet",
   "chainId": 361,
   "shortName": "theta-mainnet",
@@ -18770,6 +18783,19 @@
   "rpc": ["https://goerli.rpc.zklink.io", "wss://goerli.rpc.zklink.io"],
   "faucets": [],
   "infoURL": "https://zklink.io"
+}, {
+  "name": "TSC Testnet",
+  "chainId": 820522,
+  "shortName": "tTSC",
+  "networkId": 820025,
+  "nativeCurrency": {
+    "name": "TAS",
+    "symbol": "tTAS",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.tscscan.io/testrpc"],
+  "faucets": [],
+  "infoURL": "https://www.trias.one"
 }, {
   "name": "CURVE Mainnet",
   "chainId": 827431,
