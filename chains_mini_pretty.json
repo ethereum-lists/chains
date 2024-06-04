@@ -16717,6 +16717,19 @@
   "faucets": ["https://faucet.vecha.in"],
   "infoURL": "https://vechain.org"
 }, {
+  "name": "QuarkChain L2 Mainnet",
+  "chainId": 100011,
+  "shortName": "qkc-l2",
+  "networkId": 100011,
+  "nativeCurrency": {
+    "name": "QKC",
+    "symbol": "QKC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-l2-ethapi.quarkchain.io"],
+  "faucets": [],
+  "infoURL": "https://www.quarkchain.io"
+}, {
   "name": "Deprecated CHI",
   "chainId": 100100,
   "shortName": "chi1",
@@ -16935,6 +16948,19 @@
     "decimals": 18
   },
   "rpc": ["https://devnet-s7-ethapi.quarkchain.io", "http://eth-jrpc.devnet.quarkchain.io:39907"],
+  "faucets": [],
+  "infoURL": "https://www.quarkchain.io"
+}, {
+  "name": "QuarkChain L2 Testnet",
+  "chainId": 110011,
+  "shortName": "qkc-l2-t",
+  "networkId": 110011,
+  "nativeCurrency": {
+    "name": "QKC",
+    "symbol": "QKC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-l2-ethapi.quarkchain.io"],
   "faucets": [],
   "infoURL": "https://www.quarkchain.io"
 }, {
