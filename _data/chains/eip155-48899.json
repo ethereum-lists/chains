@@ -1,0 +1,24 @@
+{
+  "name": "Zircuit Testnet",
+  "chain": "ETH",
+  "rpc": ["https://zircuit1.p2pify.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Zircuit Testnet Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.zircuit.com",
+  "shortName": "zircuit",
+  "chainId": 48899,
+  "networkId": 48899,
+  "slip44": 1,
+  "icon": "zircuit_testnet",
+  "explorers": [
+    {
+      "name": "Zircuit Testnet Explorer",
+      "url": "https://explorer.zircuit.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
