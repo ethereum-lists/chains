@@ -3,6 +3,8 @@
   "chain": "JFIN",
   "rpc": ["https://rpc.jfinchain.com"],
   "faucets": [],
+  "icon": "jfin",
+  "features": [{ "name": "EIP155" }],
   "nativeCurrency": {
     "name": "JFIN Coin",
     "symbol": "JFIN",
@@ -15,7 +17,7 @@
   "explorers": [
     {
       "name": "JFIN Chain Explorer",
-      "url": "https://exp.jfinchain.com",
+      "url": "https://jfinscan.com",
       "standard": "EIP3091"
     }
   ]
