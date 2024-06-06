@@ -1,0 +1,34 @@
+{
+  "name": "Treasure Ruby",
+  "chainId": 978657,
+  "shortName": "treasure-ruby",
+  "chain": "TRS",
+  "networkId": 978657,
+  "nativeCurrency": {
+    "name": "Testnet MAGIC",
+    "symbol": "MAGIC",
+    "decimals": 18
+  },
+  "slip44": 1,
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://portal.treasure.lol",
+  "icon": "treasureruby",
+  "rpc": [
+    "https://rpc-testnet.treasure.lol/http",
+    "wss://rpc-testnet.treasure.lol/ws"
+  ],
+  "faucets": ["https://portal.treasure.lol/faucet"],
+  "explorers": [
+    {
+      "name": "treasurescan",
+      "url": "https://testnet.treasurescan.io",
+      "icon": "treasure",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://portal.treasure.lol/bridge" }]
+  }
+}
