@@ -1,0 +1,25 @@
+{
+  "name": "Superposition",
+  "title": "Sperposition Testnet",
+  "chain": "SPN",
+  "icon": "superposition",
+  "rpc": ["https://testnet-rpc.superposition.so"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SPN",
+    "symbol": "SPN",
+    "decimals": 18
+  },
+  "infoURL": "https://superposition.so",
+  "shortName": "superposition-testnet",
+  "chainId": 98985,
+  "networkId": 98985,
+  "explorers": [
+    {
+      "name": "Superposition Explorer",
+      "url": "https://testnet-explorer.superposition.so",
+      "icon": "superposition",
+      "standard": "EIP3091"
+    }
+  ]
+}
