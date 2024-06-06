@@ -1,0 +1,24 @@
+{
+  "name": "Cipherem Testnet",
+  "chain": "Cipherem",
+  "rpc": ["https://testnet.cipherem.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CIP",
+    "symbol": "CIP",
+    "decimals": 18
+  },
+  "infoURL": "https://www.cipherem.com",
+  "shortName": "CIP",
+  "chainId": 292003,
+  "networkId": 292003,
+  "icon": "cipherem",
+  "explorers": [
+    {
+      "name": "cipherscan",
+      "icon": "cipherscan",
+      "url": "https://www.cipherscan.net",
+      "standard": "EIP3091"
+    }
+  ]
+}
