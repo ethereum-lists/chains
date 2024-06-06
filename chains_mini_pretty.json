@@ -18576,6 +18576,19 @@
   "faucets": [],
   "infoURL": "https://www.hypra.network"
 }, {
+  "name": "Atlas",
+  "chainId": 622463,
+  "shortName": "atlas-testnet",
+  "networkId": 622463,
+  "nativeCurrency": {
+    "name": "ATLAS",
+    "symbol": "ATLAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.atl.network"],
+  "faucets": [],
+  "infoURL": "https://atl.network"
+}, {
   "name": "Bear Network Chain Mainnet",
   "chainId": 641230,
   "shortName": "BRNKC",
