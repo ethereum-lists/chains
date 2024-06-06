@@ -18680,6 +18680,19 @@
   "faucets": ["https://sei-faucet.nima.enterprises", "https://sei-evm.faucetme.pro"],
   "infoURL": "https://www.sei.io"
 }, {
+  "name": "ERAM Mainnet",
+  "chainId": 721529,
+  "shortName": "ERAM",
+  "networkId": 721529,
+  "nativeCurrency": {
+    "name": "ERAM",
+    "symbol": "ERAM",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.eramscan.com"],
+  "faucets": [],
+  "infoURL": "http://doc.eramscan.com/"
+}, {
   "name": "Hemi Sepolia",
   "chainId": 743111,
   "shortName": "hemi-sep",
