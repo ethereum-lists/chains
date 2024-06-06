@@ -17211,6 +17211,19 @@
   "faucets": [],
   "infoURL": "https://www.etnd.pro"
 }, {
+  "name": "Form Testnet",
+  "chainId": 132902,
+  "shortName": "formtestnet",
+  "networkId": 132902,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.form.network/http", "wss://testnet-rpc.form.network/ws"],
+  "faucets": ["https://info.form.network/faucet"],
+  "infoURL": "https://form.network/details"
+}, {
   "name": "MagApe Testnet",
   "chainId": 141319,
   "shortName": "mag",
