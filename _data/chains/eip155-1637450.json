@@ -1,7 +1,6 @@
 {
   "name": "Xterio Testnet",
   "chain": "Xterio Testnet",
-  "icon": "xterio",
   "rpc": ["https://xterio-testnet.alt.technology"],
   "faucets": [],
   "nativeCurrency": {
@@ -17,7 +16,6 @@
     {
       "name": "Xterio Testnet Explorer",
       "url": "https://testnet.xterscan.io",
-      "icon": "xterio",
       "standard": "EIP3091"
     }
   ]
