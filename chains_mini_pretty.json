@@ -19694,6 +19694,19 @@
   "faucets": [],
   "infoURL": "https://plian.org"
 }, {
+  "name": "Fhenix Helium",
+  "chainId": 8008135,
+  "shortName": "fhe-helium",
+  "networkId": 8008135,
+  "nativeCurrency": {
+    "name": "tFHE",
+    "symbol": "tFHE",
+    "decimals": 18
+  },
+  "rpc": ["https://api.helium.fhenix.zone"],
+  "faucets": ["https://get-helium.fhenix.zone"],
+  "infoURL": "https://www.fhenix.io"
+}, {
   "name": "Hokum",
   "chainId": 8080808,
   "shortName": "hokum",
