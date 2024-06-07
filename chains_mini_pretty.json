@@ -5953,6 +5953,19 @@
   "faucets": [],
   "infoURL": "https://step.network"
 }, {
+  "name": "ITX Mainnet",
+  "chainId": 1235,
+  "shortName": "itx",
+  "networkId": 1235,
+  "nativeCurrency": {
+    "name": "ITX",
+    "symbol": "ITX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.itxchain.com"],
+  "faucets": [],
+  "infoURL": "https://explorer.itxchain.com"
+}, {
   "name": "ARC Mainnet",
   "chainId": 1243,
   "shortName": "ARC",
@@ -10151,6 +10164,19 @@
   "rpc": ["https://rpctest.optrust.io"],
   "faucets": [],
   "infoURL": "https://optrust.io"
+}, {
+  "name": "ITX Testnet",
+  "chainId": 5321,
+  "shortName": "itx-testnet",
+  "networkId": 5321,
+  "nativeCurrency": {
+    "name": "ITX",
+    "symbol": "ITX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.itxchain.com"],
+  "faucets": [],
+  "infoURL": "https://explorer.testnet.itxchain.com"
 }, {
   "name": "Tritanium Testnet",
   "chainId": 5353,
