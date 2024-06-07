@@ -8588,7 +8588,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.gmnetwork.ai"],
   "faucets": [],
   "infoURL": "https://gmnetwork.ai"
 }, {
@@ -18594,8 +18594,8 @@
   "shortName": "atlas-testnet",
   "networkId": 622463,
   "nativeCurrency": {
-    "name": "ATLAS",
-    "symbol": "ATLAS",
+    "name": "TON",
+    "symbol": "TON",
     "decimals": 18
   },
   "rpc": ["https://rpc.testnet.atl.network"],

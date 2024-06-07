@@ -13841,7 +13841,7 @@
 }, {
   "name": "GM Network Mainnet",
   "chain": "GM Network Mainnet",
-  "rpc": [],
+  "rpc": ["https://rpc.gmnetwork.ai"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -13852,8 +13852,12 @@
   "shortName": "gmnetwork-mainnet",
   "chainId": 2777,
   "networkId": 2777,
-  "explorers": [],
-  "status": "incubating"
+  "explorers": [{
+    "name": "GM Network Mainnet Explorer",
+    "url": "https://scan.gmnetwork.ai",
+    "standard": "EIP3091"
+  }],
+  "status": "active"
 }, {
   "name": "Morph Holesky",
   "title": "Morph Holesky Testnet",
@@ -30244,8 +30248,8 @@
   "rpc": ["https://rpc.testnet.atl.network"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "ATLAS",
-    "symbol": "ATLAS",
+    "name": "TON",
+    "symbol": "TON",
     "decimals": 18
   },
   "infoURL": "https://atl.network",
