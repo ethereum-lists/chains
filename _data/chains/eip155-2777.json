@@ -1,7 +1,7 @@
 {
   "name": "GM Network Mainnet",
   "chain": "GM Network Mainnet",
-  "rpc": [],
+  "rpc": ["https://rpc.gmnetwork.ai"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -12,6 +12,12 @@
   "shortName": "gmnetwork-mainnet",
   "chainId": 2777,
   "networkId": 2777,
-  "explorers": [],
-  "status": "incubating"
+  "explorers": [
+    {
+      "name": "GM Network Mainnet Explorer",
+      "url": "https://scan.gmnetwork.ai",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
 }
