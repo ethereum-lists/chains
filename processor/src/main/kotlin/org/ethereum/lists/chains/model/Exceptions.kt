@@ -39,7 +39,7 @@ class ParentMustHaveChainAndType: Exception("parent must have fields 'chain' and
 class ParentHasExtraFields(fields: Set<String>): Exception("parent has extra field: $fields")
 class ParentBridgeNoArray: Exception("parent bridge must be array")
 class BridgeNoObject: Exception("parent bridges must be array consisting of json objects")
-class BridgeOnlyURL: Exception("parent bridge only contain an URL")
+class BridgeOnlyURL: Exception("parent bridge only contain a URL")
 class ParentChainDoesNotExist(chain: String): Exception("Referenced parent chain ($chain) does not exist")
 class StatusMustBeString: Exception("status must be a string")
 class StatusMustBeIncubatingActiveOrDeprecated: Exception("status must be either incubating, active or deprecated")
