@@ -1,7 +1,12 @@
 {
   "name": "Evmos Testnet",
   "chain": "Evmos",
-  "rpc": ["https://evmos-testnet.lava.build", "https://eth.bd.evmos.dev:8545"],
+  "rpc": [
+    "https://evmos-testnet.lava.build",
+    "https://eth.bd.evmos.dev:8545",
+    "https://evmos-testnet-evm-rpc.publicnode.com",
+    "wss://evmos-testnet-evm-rpc.publicnode.com"
+  ],
   "faucets": ["https://faucet.evmos.dev"],
   "nativeCurrency": {
     "name": "test-Evmos",
