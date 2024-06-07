@@ -15105,6 +15105,19 @@
   "faucets": [],
   "infoURL": "https://rei.network/"
 }, {
+  "name": "Space Subnet Testnet",
+  "chainId": 48795,
+  "shortName": "spacetestnet",
+  "networkId": 48795,
+  "nativeCurrency": {
+    "name": "FUEL",
+    "symbol": "FUEL",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/space/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://otherworld.network"
+}, {
   "name": "Zircuit Testnet",
   "chainId": 48899,
   "shortName": "zircuit-testnet",
