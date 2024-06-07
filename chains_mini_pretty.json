@@ -12466,6 +12466,19 @@
   "faucets": ["https://faucet.maxxchain.org"],
   "infoURL": "https://www.maxxchain.org/"
 }, {
+  "name": "GLScan",
+  "chainId": 10222,
+  "shortName": "glc",
+  "networkId": 10222,
+  "nativeCurrency": {
+    "name": "GLC",
+    "symbol": "GLC",
+    "decimals": 18
+  },
+  "rpc": ["https://glc-dataseed.glscan.io/"],
+  "faucets": [],
+  "infoURL": "https://glscan.io/"
+}, {
   "name": "Arthera Mainnet",
   "chainId": 10242,
   "shortName": "aa",
