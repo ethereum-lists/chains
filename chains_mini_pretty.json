@@ -20513,6 +20513,19 @@
   "faucets": [],
   "infoURL": "https://oneledger.io"
 }, {
+  "name": "Nal Sepolia Testnet",
+  "chainId": 328527624,
+  "shortName": "nalsep",
+  "networkId": 328527624,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.nal.network"],
+  "faucets": [],
+  "infoURL": "https://www.nal.network"
+}, {
   "name": "Meld",
   "chainId": 333000333,
   "shortName": "meld",
