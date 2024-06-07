@@ -9603,7 +9603,7 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.sepolia-api.lisk.com"],
-  "faucets": [],
+  "faucets": ["https://app.optimism.io/faucet"],
   "infoURL": "https://lisk.com"
 }, {
   "name": "Nexi Mainnet",
