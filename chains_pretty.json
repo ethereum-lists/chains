@@ -7666,8 +7666,8 @@
   "rpc": ["https://rpc-testnet.maxi.network"],
   "faucets": ["https://faucet.maxi.network"],
   "nativeCurrency": {
-    "name": "MAXICOIN",
-    "symbol": "MAXI",
+    "name": "MAXI GAS",
+    "symbol": "MGAS",
     "decimals": 18
   },
   "features": [{
@@ -7683,6 +7683,31 @@
   "explorers": [{
     "name": "Maxi Chain Testnet Explorer",
     "url": "https://testnet.maxi.network",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "MAXI Chain Mainnet",
+  "chain": "MAXI",
+  "rpc": ["https://rpc.maxi.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MAXI GAS",
+    "symbol": "MGAS",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://maxi.network",
+  "shortName": "maxi-mainnet",
+  "chainId": 899,
+  "networkId": 899,
+  "icon": "maxi",
+  "explorers": [{
+    "name": "Maxi Chain Mainnet Explorer",
+    "url": "https://mainnet.maxi.network",
     "standard": "EIP3091"
   }]
 }, {

@@ -4749,12 +4749,25 @@
   "shortName": "maxi-testnet",
   "networkId": 898,
   "nativeCurrency": {
-    "name": "MAXICOIN",
-    "symbol": "MAXI",
+    "name": "MAXI GAS",
+    "symbol": "MGAS",
     "decimals": 18
   },
   "rpc": ["https://rpc-testnet.maxi.network"],
   "faucets": ["https://faucet.maxi.network"],
+  "infoURL": "https://maxi.network"
+}, {
+  "name": "MAXI Chain Mainnet",
+  "chainId": 899,
+  "shortName": "maxi-mainnet",
+  "networkId": 899,
+  "nativeCurrency": {
+    "name": "MAXI GAS",
+    "symbol": "MGAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.maxi.network"],
+  "faucets": [],
   "infoURL": "https://maxi.network"
 }, {
   "name": "Garizon Testnet Stage0",
