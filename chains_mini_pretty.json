@@ -21189,6 +21189,19 @@
   "faucets": [],
   "infoURL": "https://ntity.io"
 }, {
+  "name": "GM Network Testnet",
+  "chainId": 202402181627,
+  "shortName": "gmnetwork-testnet",
+  "networkId": 202402181627,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://gmnetwork-testnet.alt.technology/"],
+  "faucets": [],
+  "infoURL": "https://gmnetwork.ai"
+}, {
   "name": "Zeniq",
   "chainId": 383414847825,
   "shortName": "zeniq",
