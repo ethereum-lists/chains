@@ -15040,6 +15040,19 @@
   "faucets": [],
   "infoURL": "https://rei.network/"
 }, {
+  "name": "Zircuit Testnet",
+  "chainId": 48899,
+  "shortName": "zircuit-testnet",
+  "networkId": 48899,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://zircuit1.p2pify.com/"],
+  "faucets": [],
+  "infoURL": "https://www.zircuit.com/"
+}, {
   "name": "Wireshape Floripa Testnet",
   "chainId": 49049,
   "shortName": "floripa",
