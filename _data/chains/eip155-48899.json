@@ -1,0 +1,24 @@
+{
+  "name": "Zircuit",
+  "chain": "Zircuit",
+  "icon": "zircuit",
+  "rpc": ["https://zircuit1.p2pify.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.zircuit.com/",
+  "shortName": "zircuit",
+  "chainId": 48899,
+  "networkId": 48899,
+  "explorers": [
+    {
+      "name": "Zircuit",
+      "url": "https://explorer.zircuit.com",
+      "icon": "zircuit",
+      "standard": "none"
+    }
+  ]
+}
