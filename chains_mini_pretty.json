@@ -8995,6 +8995,19 @@
   "faucets": ["https://faucet.securechain.ai"],
   "infoURL": "https://securechain.ai"
 }, {
+  "name": "LayerEdge testnet",
+  "chainId": 3456,
+  "shortName": "LayerEdge-testnet",
+  "networkId": 3456,
+  "nativeCurrency": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.layeredge.io"],
+  "faucets": ["https://testnet-faucet.layeredge.io"],
+  "infoURL": "https://www.layeredge.io"
+}, {
   "name": "Paribu Net Testnet",
   "chainId": 3500,
   "shortName": "prbtestnet",
