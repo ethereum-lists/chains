@@ -19369,6 +19369,19 @@
   "faucets": [],
   "infoURL": "https://www.playfi.ai/"
 }, {
+  "name": "Xterio Testnet",
+  "chainId": 1637450,
+  "shortName": "xteriotest",
+  "networkId": 1637450,
+  "nativeCurrency": {
+    "name": "tBNB",
+    "symbol": "tBNB",
+    "decimals": 18
+  },
+  "rpc": ["https://xterio-testnet.alt.technology"],
+  "faucets": [],
+  "infoURL": "https://xter.io"
+}, {
   "name": "Turkey Demo Dev",
   "chainId": 1731313,
   "shortName": "TDD",
