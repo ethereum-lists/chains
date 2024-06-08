@@ -17,7 +17,10 @@
     "wss://sepolia.drpc.org",
     "https://rpc-sepolia.rockx.com"
   ],
-  "faucets": ["http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"],
+  "faucets": [
+    "http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}",
+    "https://faucet.quicknode.com/ethereum/sepolia"
+  ],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",

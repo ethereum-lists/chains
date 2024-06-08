@@ -2,7 +2,11 @@
   "name": "Blast Mainnet",
   "chain": "ETH",
   "icon": "blastIcon",
-  "rpc": ["https://rpc.blastblockchain.com"],
+  "rpc": [
+    "https://rpc.blastblockchain.com",
+    "https://${QN_ENDPT_NAME}.blast-mainnet.quiknode.pro/${QN_API_KEY}",
+    "wss://${QN_ENDPT_NAME}.blast-mainnet.quiknode.pro/${QN_API_KEY}"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

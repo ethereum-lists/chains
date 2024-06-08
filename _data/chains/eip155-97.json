@@ -11,7 +11,10 @@
     "https://bsc-testnet-rpc.publicnode.com",
     "wss://bsc-testnet-rpc.publicnode.com"
   ],
-  "faucets": ["https://testnet.bnbchain.org/faucet-smart"],
+  "faucets": [
+    "https://testnet.bnbchain.org/faucet-smart",
+    "https://faucet.quicknode.com/binance-smart-chain/bnb-testnet"
+  ],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
     "symbol": "tBNB",

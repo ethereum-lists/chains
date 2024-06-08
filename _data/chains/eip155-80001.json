@@ -10,7 +10,10 @@
     "https://polygon-mumbai.gateway.tenderly.co",
     "wss://polygon-mumbai.gateway.tenderly.co"
   ],
-  "faucets": ["https://faucet.polygon.technology/"],
+  "faucets": [
+    "https://faucet.polygon.technology/",
+    "https://faucet.quicknode.com/polygon/mumbai"
+  ],
   "nativeCurrency": {
     "name": "MATIC",
     "symbol": "MATIC",

@@ -8,7 +8,9 @@
     "https://optimism.gateway.tenderly.co",
     "wss://optimism.gateway.tenderly.co",
     "https://optimism.drpc.org",
-    "wss://optimism.drpc.org"
+    "wss://optimism.drpc.org",
+    "https://${QN_ENDPT_NAME}.optimism.quiknode.pro/${QN_API_KEY}",
+    "wss://${QN_ENDPT_NAME}.optimism.quiknode.pro/${QN_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {

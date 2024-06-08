@@ -6,7 +6,7 @@
     "https://zksync-sepolia.drpc.org",
     "wss://zksync-sepolia.drpc.org"
   ],
-  "faucets": [],
+  "faucets": ["https://faucet.quicknode.com/zksync/sepolia"],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",

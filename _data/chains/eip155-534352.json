@@ -5,7 +5,9 @@
   "rpc": [
     "https://rpc.scroll.io",
     "https://rpc.ankr.com/scroll",
-    "https://scroll-mainnet.chainstacklabs.com"
+    "https://scroll-mainnet.chainstacklabs.com",
+    "https://${QN_ENDPT_NAME}.scroll-mainnet.quiknode.pro/${QN_API_KEY}",
+    "wss://${QN_ENDPT_NAME}.scroll-mainnet.quiknode.pro/${QN_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {

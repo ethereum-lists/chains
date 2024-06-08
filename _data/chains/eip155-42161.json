@@ -14,7 +14,9 @@
     "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
     "https://arb1.arbitrum.io/rpc",
     "https://arbitrum-one.publicnode.com",
-    "wss://arbitrum-one.publicnode.com"
+    "wss://arbitrum-one.publicnode.com",
+    "https://${QN_ENDPT_NAME}.arbitrum-mainnet.quiknode.pro/${QN_API_KEY}",
+    "wss://${QN_ENDPT_NAME}.arbitrum-mainnet.quiknode.pro/${QN_API_KEY}"
   ],
   "faucets": [],
   "explorers": [

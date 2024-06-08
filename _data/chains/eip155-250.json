@@ -6,7 +6,9 @@
     "https://fantom-rpc.publicnode.com",
     "wss://fantom-rpc.publicnode.com",
     "https://fantom.drpc.org",
-    "wss://fantom.drpc.org"
+    "wss://fantom.drpc.org",
+    "https://${QN_ENDPT_NAME}.fantom.quiknode.pro/${QN_API_KEY}",
+    "wss://${QN_ENDPT_NAME}.fantom.quiknode.pro/${QN_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {

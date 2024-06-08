@@ -1,7 +1,11 @@
 {
   "name": "Mainnet",
   "chain": "Flow",
-  "rpc": ["https://mainnet.evm.nodes.onflow.org"],
+  "rpc": [
+    "https://mainnet.evm.nodes.onflow.org",
+    "https://${QN_ENDPT_NAME}.flow-mainnet.quiknode.pro/${QN_API_KEY}",
+    "wss://${QN_ENDPT_NAME}.flow-mainnet.quiknode.pro/${QN_API_KEY}"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "FLOW",

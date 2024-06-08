@@ -8,7 +8,10 @@
     "https://polygon-amoy-bor-rpc.publicnode.com",
     "wss://polygon-amoy-bor-rpc.publicnode.com"
   ],
-  "faucets": ["https://faucet.polygon.technology/"],
+  "faucets": [
+    "https://faucet.polygon.technology/",
+    "https://faucet.quicknode.com/polygon/amoy"
+  ],
   "nativeCurrency": {
     "name": "MATIC",
     "symbol": "MATIC",

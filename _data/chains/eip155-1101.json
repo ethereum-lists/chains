@@ -5,7 +5,9 @@
   "rpc": [
     "https://zkevm-rpc.com",
     "https://polygon-zkevm.drpc.org",
-    "wss://polygon-zkevm.drpc.org"
+    "wss://polygon-zkevm.drpc.org",
+    "https://${QN_ENDPT_NAME}.zkevm-mainnet.quiknode.pro/${QN_API_KEY}",
+    "wss://${QN_ENDPT_NAME}.zkevm-mainnet.quiknode.pro/${QN_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {

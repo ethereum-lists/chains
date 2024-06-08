@@ -10,7 +10,7 @@
     "decimals": 18
   },
   "rpc": ["https://testnet-v2.xai-chain.net/rpc"],
-  "faucets": [],
+  "faucets": ["https://faucet.quicknode.com/xai/sepolia"],
   "explorers": [
     {
       "name": "Blockscout",

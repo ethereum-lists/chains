@@ -1,7 +1,12 @@
 {
   "name": "Sei Network",
   "chain": "Sei",
-  "rpc": ["https://evm-rpc.sei-apis.com", "wss://evm-ws.sei-apis.com"],
+  "rpc": [
+    "https://evm-rpc.sei-apis.com",
+    "wss://evm-ws.sei-apis.com",
+    "https://${QN_ENDPT_NAME}.sei-pacific.quiknode.pro/${QN_API_KEY}",
+    "wss://${QN_ENDPT_NAME}.sei-pacific.quiknode.pro/${QN_API_KEY}"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sei",

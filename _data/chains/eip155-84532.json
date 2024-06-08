@@ -6,7 +6,7 @@
     "https://base-sepolia-rpc.publicnode.com",
     "wss://base-sepolia-rpc.publicnode.com"
   ],
-  "faucets": [],
+  "faucets": ["https://faucet.quicknode.com/base/sepolia"],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
