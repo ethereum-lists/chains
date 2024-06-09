@@ -12856,13 +12856,13 @@
   "faucets": ["https://faucet.sardisnetwork.com"],
   "infoURL": "https://mysardis.com"
 }, {
-  "name": "Santiment Intelligence Network",
+  "name": "Santiment Intelligence Network DEPRECATED",
   "chainId": 11888,
-  "shortName": "SAN",
+  "shortName": "SANold",
   "networkId": 11888,
   "nativeCurrency": {
-    "name": "SANR",
-    "symbol": "SANR",
+    "name": "SANold",
+    "symbol": "SANold",
     "decimals": 18
   },
   "rpc": ["https://sanrchain-node.santiment.net"],
@@ -14493,6 +14493,19 @@
   "rpc": ["https://rpc-holesky.w3gamez.network"],
   "faucets": [],
   "infoURL": "https://web3games.com/"
+}, {
+  "name": "Santiment Intelligence Network",
+  "chainId": 32382,
+  "shortName": "SANR",
+  "networkId": 32382,
+  "nativeCurrency": {
+    "name": "SANR",
+    "symbol": "SANR",
+    "decimals": 18
+  },
+  "rpc": ["https://node.sanr.app"],
+  "faucets": [],
+  "infoURL": "https://sanr.app"
 }, {
   "name": "Bitgert Mainnet",
   "chainId": 32520,
