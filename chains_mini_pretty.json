@@ -12362,6 +12362,19 @@
   "faucets": [],
   "infoURL": "https://combonetwork.io"
 }, {
+  "name": "Volley Mainnet",
+  "chainId": 9981,
+  "shortName": "volley-mainnet",
+  "networkId": 9981,
+  "nativeCurrency": {
+    "name": "V2X",
+    "symbol": "V2X",
+    "decimals": 18
+  },
+  "rpc": ["https://main-rpc.volleychain.com"],
+  "faucets": [],
+  "infoURL": "https://www.volleychain.com"
+}, {
   "name": "Agung Network",
   "chainId": 9990,
   "shortName": "AGNG",
