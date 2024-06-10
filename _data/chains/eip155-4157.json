@@ -10,7 +10,7 @@
     "symbol": "XFI",
     "decimals": 18
   },
-  "infoURL": "https://crossfi.org/",
+  "infoURL": "https://crossfi.org",
   "shortName": "crossfi-testnet",
   "chainId": 4157,
   "networkId": 4157,
@@ -18,7 +18,7 @@
   "explorers": [
     {
       "name": "CrossFi Testnet Scan",
-      "url": "https://scan.testnet.ms",
+      "url": "https://test.xfiscan.com",
       "standard": "EIP3091",
       "icon": "crossfi"
     }
