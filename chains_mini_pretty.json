@@ -7396,6 +7396,19 @@
   "faucets": [],
   "infoURL": "https://milkomeda.com"
 }, {
+  "name": "MetaLink Network",
+  "chainId": 2004,
+  "shortName": "mtl",
+  "networkId": 2004,
+  "nativeCurrency": {
+    "name": "MetaLink",
+    "symbol": "MTL",
+    "decimals": 18
+  },
+  "rpc": ["http://77.237.237.69:9933"],
+  "faucets": [],
+  "infoURL": "http://totwo3.com:3000"
+}, {
   "name": "CloudWalk Testnet",
   "chainId": 2008,
   "shortName": "cloudwalk_testnet",
