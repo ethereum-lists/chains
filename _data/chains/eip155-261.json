@@ -1,14 +1,10 @@
 {
-"name": "Guru Network Testnet",
+  "name": "Guru Network Testnet",
   "chain": "tGURU",
   "icon": "guru",
-  "rpc": [
-    "https://rpc.gurunetwork.ai/archive/261",
-  ],
+  "rpc": ["https://rpc.gurunetwork.ai/archive/261"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "faucets": [
-    "https://v2.dex.guru/season-pass/faucet"
-  ],
+  "faucets": ["https://v2.dex.guru/season-pass/faucet"],
   "nativeCurrency": {
     "name": "testGURU",
     "symbol": "tGURU",
