@@ -1,7 +1,11 @@
 {
   "name": "OP Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia.optimism.io"],
+  "rpc": [
+    "https://sepolia.optimism.io",
+    "https://optimism-sepolia.drpc.org",
+    "wss://optimism-sepolia.drpc.org"
+  ],
   "faucets": ["https://app.optimism.io/faucet"],
   "nativeCurrency": {
     "name": "Sepolia Ether",
