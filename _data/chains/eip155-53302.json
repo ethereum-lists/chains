@@ -1,13 +1,8 @@
 {
   "name": "Superseed Sepolia Testnet",
   "chain": "ETH",
-  "rpc": [
-    "https://sepolia.superseed.xyz", 
-    "wss://sepolia.superseed.xyz"
-  ],
-  "faucets": [
-    "https://sepoliafaucet.com"
-  ],
+  "rpc": ["https://sepolia.superseed.xyz", "wss://sepolia.superseed.xyz"],
+  "faucets": ["https://sepoliafaucet.com"],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
