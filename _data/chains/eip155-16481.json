@@ -3,8 +3,9 @@
   "chainId": 16481,
   "networkId": 16481,
   "chain": "Pivotal",
-  "rpc": ["https://sepolia.thepivotal.xyz/"],
+  "rpc": ["https://rpc.sepolia.pivotalswap.com/"],
   "faucets": [],
+  "shortName": "pivotal-sepolia",
   "nativeCurrency": {
     "name": "Pivotal Plus",
     "symbol": "PLUS",
