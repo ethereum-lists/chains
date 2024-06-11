@@ -24,5 +24,6 @@
     "type": "L2",
     "chain": "eip155-4",
     "bridges": [{ "url": "https://testnet-bridge.metis.io" }]
-  }
+  },
+  "status": "deprecated"
 }

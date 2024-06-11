@@ -12,10 +12,11 @@
   "shortName": "hemi-sep",
   "chainId": 743111,
   "networkId": 743111,
+  "icon": "hemi",
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://testnet.explorer.hemi.network",
+      "url": "https://testnet.explorer.hemi.xyz",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
