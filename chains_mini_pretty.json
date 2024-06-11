@@ -5862,6 +5862,19 @@
   "faucets": [],
   "infoURL": "https://saitachain.com"
 }, {
+  "name": "Cuckoo Sepolia",
+  "chainId": 1210,
+  "shortName": "caisepolia",
+  "networkId": 1210,
+  "nativeCurrency": {
+    "name": "CuckooAI",
+    "symbol": "CAI",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.cuckoo.network", "wss://testnet-rpc.cuckoo.network"],
+  "faucets": ["https://cuckoo.network/portal/faucet/"],
+  "infoURL": "https://cuckoo.network"
+}, {
   "name": "Popcateum Mainnet",
   "chainId": 1213,
   "shortName": "popcat",
