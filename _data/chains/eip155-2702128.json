@@ -1,7 +1,6 @@
 {
   "name": "Xterio Chain",
   "chain": "Xterio",
-  "icon": "xterio",
   "rpc": ["https://xterio-eth.alt.technology"],
   "faucets": [],
   "nativeCurrency": {
@@ -17,7 +16,6 @@
     {
       "name": "Xterio Chain Explorer",
       "url": "https://eth.xterscan.io",
-      "icon": "xterio",
       "standard": "EIP3091"
     }
   ]
