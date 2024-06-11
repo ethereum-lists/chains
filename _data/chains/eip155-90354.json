@@ -1,0 +1,31 @@
+{
+  "name": "Camp Testnet",
+  "chain": "ETH",
+  "icon": "camp",
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": ["https://rpc-camp-network-4xje7wy105.t.conduit.xyz"],
+  "faucets": ["https://www.campnetwork.xyz/faucet"],
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://campaign-1.gitbook.io/camp-technical-docså",
+  "shortName": "camp",
+  "chainId": 90354,
+  "networkId": 90354,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorerl2new-camp-network-4xje7wy105.t.conduit.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://camp-testnet-bridge.vercel.app/" }]
+  }
+}
