@@ -15547,6 +15547,19 @@
   "faucets": ["https://rollux.id/faucetapp"],
   "infoURL": "https://rollux.com"
 }, {
+  "name": "COINSEC",
+  "chainId": 57451,
+  "shortName": "coinsecnetwork",
+  "networkId": 57451,
+  "nativeCurrency": {
+    "name": "COINSEC",
+    "symbol": "SEC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.coinsec.network"],
+  "faucets": [],
+  "infoURL": "https://explorer.coinsec.network/"
+}, {
   "name": "Sepolia PGN (Public Goods Network)",
   "chainId": 58008,
   "shortName": "sepPGN",
