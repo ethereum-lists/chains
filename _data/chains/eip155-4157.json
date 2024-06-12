@@ -2,14 +2,15 @@
   "name": "CrossFi Testnet",
   "title": "CrossFi Testnet",
   "chain": "XFI",
-  "rpc": ["https://rpc.xfi.ms/archive/4157", "https://rpc.testnet.ms"],
+  "icon": "crossfi",
+  "rpc": ["https://rpc.testnet.ms", "https://rpc.xfi.ms/archive/4157"],
   "faucets": [],
   "nativeCurrency": {
     "name": "XFI",
     "symbol": "XFI",
     "decimals": 18
   },
-  "infoURL": "https://crossfi.org/",
+  "infoURL": "https://crossfi.org",
   "shortName": "crossfi-testnet",
   "chainId": 4157,
   "networkId": 4157,
@@ -28,8 +29,9 @@
     },
     {
       "name": "CrossFi Testnet Scan",
-      "url": "https://scan.testnet.ms",
-      "standard": "EIP3091"
+      "url": "https://test.xfiscan.com",
+      "standard": "EIP3091",
+      "icon": "crossfi"
     }
   ]
 }
