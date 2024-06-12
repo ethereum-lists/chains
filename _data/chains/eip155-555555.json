@@ -1,12 +1,8 @@
 {
   "name": "Pentagon Testnet",
   "chain": "Pentagon",
-  "rpc": [
-    "https://rpc-testnet.pentagon.games"
-  ],
-  "faucets": [
-    "https://bridge-testnet.pentagon.games"
-  ],
+  "rpc": ["https://rpc-testnet.pentagon.games"],
+  "faucets": ["https://bridge-testnet.pentagon.games"],
   "nativeCurrency": {
     "name": "Pentagon",
     "symbol": "PEN",
