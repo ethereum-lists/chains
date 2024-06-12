@@ -15,11 +15,11 @@
     "chainId": 555555,
     "networkId": 555555,
     "explorers": [
-      {
-        "name": "Pentagon Testnet Explorer",
-        "url": "https://explorer-testnet.pentagon.games",
-        "icon": "pentagon",
-        "standard": "EIP3091"
-      }
+        {
+            "name": "Pentagon Testnet Explorer",
+            "url": "https://explorer-testnet.pentagon.games",
+            "icon": "pentagon",
+            "standard": "EIP3091"
+        }
     ]
 }
