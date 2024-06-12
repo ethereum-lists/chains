@@ -1,7 +1,7 @@
 {
   "name": "Supernet Testnet",
-  "title": "Supernet",
-  "chain": "Supernet",
+  "title": "Supernet Testnet",
+  "chain": "Supernet Testnet",
   "rpc": ["https://testnet-rpc.supernet.chaingames.io/"],
   "faucets": ["https://faucet.chaingames.io"],
   "nativeCurrency": {
@@ -16,7 +16,7 @@
   "slip44": 1,
   "explorers": [
     {
-      "name": "supernetexplorer",
+      "name": "supernet-testnet-explorer",
       "url": "https://testnet-explorer.supernet.chaingames.io",
       "standard": "EIP3091"
     }
