@@ -1,15 +1,26 @@
 {
   "name": "Pentagon Testnet",
   "chain": "Pentagon",
-  "rpc": ["https://rpc-testnet.pentagon.games"],
-  "faucets": ["https://bridge-testnet.pentagon.games"],
+  "rpc": [
+    "https://rpc-testnet.pentagon.games"
+  ],
+  "faucets": [
+    "https://bridge-testnet.pentagon.games"
+  ],
   "nativeCurrency": {
     "name": "Pentagon",
     "symbol": "PEN",
     "decimals": 18
   },
   "icon": "pentagon",
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://pentagon.games",
   "shortName": "pentagon testnet",
   "chainId": 555555,
