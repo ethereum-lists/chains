@@ -1,0 +1,25 @@
+{
+  "name": "Hydra Chain Testnet",
+  "chain": "HYDRA",
+  "rpc": ["https://rpc.testnet.hydrachain.org"],
+  "faucets": ["https://app.testnet.hydrachain.org/faucet"],
+  "nativeCurrency": {
+    "name": "tHydra",
+    "symbol": "tHYDRA",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://hydrachain.org",
+  "shortName": "THYDRA",
+  "chainId": 8844,
+  "networkId": 8844,
+  "icon": "hydra",
+  "explorers": [
+    {
+      "name": "Hydra Chain Testnet explorer",
+      "url": "https://hydragon.hydrachain.org",
+      "icon": "hydra",
+      "standard": "EIP3091"
+    }
+  ]
+}
