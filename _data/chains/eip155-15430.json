@@ -15,10 +15,12 @@
   "shortName": "KYMTC",
   "chainId": 15430,
   "networkId": 15430,
-  "explorers": [{
+  "explorers": [
+    {
       "name": "KYMTC Mainnet Explorer",
       "url": "https://kymaticscan.online",
       "icon": "kymtc",
       "standard": "EIP3091"
-  }]
+    }
+  ]
 }
