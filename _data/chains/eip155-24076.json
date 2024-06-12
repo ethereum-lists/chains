@@ -2,8 +2,12 @@
   "name": "KYMTC Testnet",
   "chain": "KYMTC",
   "icon": "kymtc",
-  "rpc": ["https://testnet-rpc.kymaticscan.online"],
-  "faucets": ["https://faucet.kymaticscan.online"],
+  "rpc": [
+    "https://testnet-rpc.kymaticscan.online"
+  ],
+  "faucets": [
+    "https://faucet.kymaticscan.online"
+  ],
   "nativeCurrency": {
     "name": "KYMTC",
     "symbol": "KYMTC",
@@ -17,6 +21,7 @@
     {
       "name": "KYMTC Testnet Explorer",
       "url": "https://testnet-explorer.kymaticscan.online",
+      "icon": "kymtc",
       "standard": "EIP3091"
     }
   ]
