@@ -1,9 +1,7 @@
 {
   "name": "Darwinia Koi Testnet",
   "chain": "Darwinia Koi",
-  "rpc": [
-    "https://koi-rpc.darwinia.network"
-  ],
+  "rpc": ["https://koi-rpc.darwinia.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Koi Network Native Token",
