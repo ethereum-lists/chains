@@ -18771,6 +18771,19 @@
   "faucets": ["https://faucet.oneworldchain.org"],
   "infoURL": "https://oneworldchain.org"
 }, {
+  "name": "Pentagon Testnet",
+  "chainId": 555555,
+  "shortName": "pentagon-testnet",
+  "networkId": 555555,
+  "nativeCurrency": {
+    "name": "Pentagon",
+    "symbol": "PEN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.pentagon.games"],
+  "faucets": ["https://bridge-testnet.pentagon.games"],
+  "infoURL": "https://pentagon.games"
+}, {
   "name": "Eclipse Testnet",
   "chainId": 555666,
   "shortName": "eclipset",
