@@ -19317,19 +19317,6 @@
   "faucets": [],
   "infoURL": "https://ecroxcoin.io/"
 }, {
-  "name": "Supernet Testnet",
-  "chainId": 998899,
-  "shortName": "supernetchain",
-  "networkId": 998899,
-  "nativeCurrency": {
-    "name": "CHAIN",
-    "symbol": "CHAIN",
-    "decimals": 18
-  },
-  "rpc": ["https://testnet-rpc.supernet.chaingames.io/"],
-  "faucets": ["https://faucet.chaingames.io"],
-  "infoURL": ""
-}, {
   "name": "AmChain",
   "chainId": 999999,
   "shortName": "AMC",
