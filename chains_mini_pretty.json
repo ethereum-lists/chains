@@ -13311,6 +13311,19 @@
   "faucets": ["https://faucet.vitruveo.xyz"],
   "infoURL": "https://www.vitruveo.xyz"
 }, {
+  "name": "Vana Satori Testnet",
+  "chainId": 14801,
+  "shortName": "satori",
+  "networkId": 14801,
+  "nativeCurrency": {
+    "name": "DAT",
+    "symbol": "DAT",
+    "decimals": 18
+  },
+  "rpc": ["http://rpc.satori.vana.org"],
+  "faucets": ["https://faucet.vana.org"],
+  "infoURL": "https://satori.vana.org"
+}, {
   "name": "Humanode Testnet 5 Israfel",
   "chainId": 14853,
   "shortName": "hmnd-t5",
