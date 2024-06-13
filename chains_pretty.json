@@ -15272,6 +15272,32 @@
     "standard": "none"
   }]
 }, {
+  "name": "Bahamut ocean",
+  "title": "Bahamut ocean",
+  "chain": "Bahamut",
+  "icon": "bahamut",
+  "rpc": ["https://rpc1.ocean.bahamutchain.com"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FTN",
+    "symbol": "FTN",
+    "decimals": 18
+  },
+  "shortName": "ocean",
+  "infoURL": "https://bahamut.io",
+  "chainId": 4058,
+  "networkId": 4058,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://ocean.ftnscan.com",
+    "standard": "none"
+  }]
+}, {
   "name": "Nahmii 3 Mainnet",
   "chain": "Nahmii",
   "rpc": ["https://rpc.n3.nahmii.io"],
@@ -31464,6 +31490,27 @@
   "explorers": [{
     "name": "Ecrox Chain Explorer",
     "url": "https://ecroxscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Supernet Testnet",
+  "title": "Supernet Testnet",
+  "chain": "Supernet Testnet",
+  "rpc": ["https://testnet-rpc.supernet.chaingames.io/"],
+  "faucets": ["https://faucet.chaingames.io"],
+  "nativeCurrency": {
+    "name": "CHAIN",
+    "symbol": "CHAIN",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "supernetchain",
+  "chainId": 998899,
+  "networkId": 998899,
+  "slip44": 1,
+  "explorers": [{
+    "name": "supernet-testnet-explorer",
+    "url": "https://testnet-explorer.supernet.chaingames.io",
     "standard": "EIP3091"
   }]
 }, {

@@ -9489,6 +9489,19 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "Bahamut ocean",
+  "chainId": 4058,
+  "shortName": "ocean",
+  "networkId": 4058,
+  "nativeCurrency": {
+    "name": "FTN",
+    "symbol": "FTN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1.ocean.bahamutchain.com"],
+  "faucets": [],
+  "infoURL": "https://bahamut.io"
+}, {
   "name": "Nahmii 3 Mainnet",
   "chainId": 4061,
   "shortName": "Nahmii3Mainnet",
@@ -19316,6 +19329,19 @@
   "rpc": ["https://mainnet-rpc.ecroxscan.com/"],
   "faucets": [],
   "infoURL": "https://ecroxcoin.io/"
+}, {
+  "name": "Supernet Testnet",
+  "chainId": 998899,
+  "shortName": "supernetchain",
+  "networkId": 998899,
+  "nativeCurrency": {
+    "name": "CHAIN",
+    "symbol": "CHAIN",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.supernet.chaingames.io/"],
+  "faucets": ["https://faucet.chaingames.io"],
+  "infoURL": ""
 }, {
   "name": "AmChain",
   "chainId": 999999,
