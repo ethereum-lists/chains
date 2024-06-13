@@ -10010,6 +10010,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Sei Testnet",
+  "chain": "Sei",
+  "rpc": ["https://evm-rpc-testnet.sei-apis.com", "wss://evm-ws-testnet.sei-apis.com"],
+  "faucets": ["https://atlantic-2.app.sei.io/faucet"],
+  "nativeCurrency": {
+    "name": "Sei",
+    "symbol": "SEI",
+    "decimals": 18
+  },
+  "infoURL": "https://www.sei.io",
+  "shortName": "sei-testnet",
+  "chainId": 1328,
+  "networkId": 1328,
+  "icon": "sei",
+  "explorers": [{
+    "name": "Seitrace",
+    "url": "https://seitrace.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Sei Network",
   "chain": "Sei",
   "rpc": ["https://evm-rpc.sei-apis.com", "wss://evm-ws.sei-apis.com"],
@@ -26266,8 +26286,8 @@
   "rpc": ["https://public-node.api.boraportal.com/bora/mainnet"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "BGAS",
-    "symbol": "BGAS",
+    "name": "BORA",
+    "symbol": "BORA",
     "decimals": 18
   },
   "infoURL": "https://www.boraportal.com",
@@ -31444,6 +31464,27 @@
   "explorers": [{
     "name": "Ecrox Chain Explorer",
     "url": "https://ecroxscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Supernet Testnet",
+  "title": "Supernet Testnet",
+  "chain": "Supernet Testnet",
+  "rpc": ["https://testnet-rpc.supernet.chaingames.io/"],
+  "faucets": ["https://faucet.chaingames.io"],
+  "nativeCurrency": {
+    "name": "CHAIN",
+    "symbol": "CHAIN",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "supernetchain",
+  "chainId": 998899,
+  "networkId": 998899,
+  "slip44": 1,
+  "explorers": [{
+    "name": "supernet-testnet-explorer",
+    "url": "https://testnet-explorer.supernet.chaingames.io",
     "standard": "EIP3091"
   }]
 }, {
