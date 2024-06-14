@@ -18862,6 +18862,19 @@
   "faucets": [],
   "infoURL": "https://alltra.world"
 }, {
+  "name": "Open Campus Codex",
+  "chainId": 656476,
+  "shortName": "open-campus-codex",
+  "networkId": 656476,
+  "nativeCurrency": {
+    "name": "EDU",
+    "symbol": "EDU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.open-campus-codex.gelato.digital"],
+  "faucets": [],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/open-campus-codex"
+}, {
   "name": "Xai Mainnet",
   "chainId": 660279,
   "shortName": "xai",
