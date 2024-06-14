@@ -10776,6 +10776,19 @@
   "faucets": [],
   "infoURL": "https://www.irisnet.org"
 }, {
+  "name": "OX Chain",
+  "chainId": 6699,
+  "shortName": "ox-chain",
+  "networkId": 6699,
+  "nativeCurrency": {
+    "name": "OX",
+    "symbol": "OX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.oxscan.io"],
+  "faucets": [],
+  "infoURL": "https://ox.fun/chain"
+}, {
   "name": "PAXB Mainnet",
   "chainId": 6701,
   "shortName": "PAXB",
