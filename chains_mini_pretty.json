@@ -4237,6 +4237,19 @@
   "faucets": [],
   "infoURL": "https://info.avastar.cc"
 }, {
+  "name": "Darwinia Koi Testnet",
+  "chainId": 701,
+  "shortName": "darwinia-koi",
+  "networkId": 701,
+  "nativeCurrency": {
+    "name": "Koi Network Native Token",
+    "symbol": "KRING",
+    "decimals": 18
+  },
+  "rpc": ["https://koi-rpc.darwinia.network"],
+  "faucets": [],
+  "infoURL": "https://darwinia.network/"
+}, {
   "name": "BlockChain Station Mainnet",
   "chainId": 707,
   "shortName": "bcs",
