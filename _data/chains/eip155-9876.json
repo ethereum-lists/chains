@@ -2,14 +2,14 @@
   "name": "BinaryChain Testnet",
   "chain": "BinaryChain",
   "icon": "binary",
-  "rpc": ["https://rpctestnet.binarychain.org/"],
+  "rpc": ["https://rpctestnet.binarychain.org"],
   "faucets": ["https://faucet.testnet.binarychain.org"],
   "nativeCurrency": {
     "name": "BINARY",
     "symbol": "BNRY",
     "decimals": 18
   },
-  "infoURL": "https://binarychain.org/",
+  "infoURL": "https://binarychain.org",
   "shortName": "binary",
   "chainId": 9876,
   "networkId": 9876,
