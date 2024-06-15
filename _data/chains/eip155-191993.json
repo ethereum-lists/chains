@@ -1,0 +1,26 @@
+{
+	"name": "Konnekt Testnet",
+	"chain": "KNKT",
+        "icon": "knkt",
+	"rpc": [
+		"https://tapi.konnektscan.com",
+		],
+	"faucets": [],
+	"nativeCurrency": {
+		"name": "Konnekt",
+		"symbol": "KNKT",
+		"decimals": 18
+	},
+	"features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+	"infoURL": "https://konnektscan.com",
+	"shortName": "knkt",
+	"chainId": 191993,
+	"networkId": 191993,
+	"icon": "konnekt",
+	"explorers": [{
+		"name": "KonnektScan",
+		"url": "https://testnet.konnektscan.com",
+		"icon": "konnektscan",
+		"standard": "EIP3091"
+	}]
+}
