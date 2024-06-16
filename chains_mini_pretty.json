@@ -9164,6 +9164,19 @@
   "faucets": [],
   "infoURL": "https://islamicoin.finance"
 }, {
+  "name": "iChain Testnet",
+  "chainId": 3645,
+  "shortName": "ISLAMIT",
+  "networkId": 3645,
+  "nativeCurrency": {
+    "name": "ISLAMICOIN",
+    "symbol": "ISLAMI",
+    "decimals": 18
+  },
+  "rpc": ["https://istanbul.ichainscan.com"],
+  "faucets": [],
+  "infoURL": "https://islamicoin.finance"
+}, {
   "name": "Jouleverse Mainnet",
   "chainId": 3666,
   "shortName": "jouleverse",
