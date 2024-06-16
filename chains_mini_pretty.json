@@ -2569,7 +2569,7 @@
     "symbol": "BTC",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.b2-rpc.com", "https://rpc.bsquared.network", "https://b2-mainnet.alt.technology", "https://b2-mainnet-public.s.chainbase.com"],
+  "rpc": ["https://mainnet.b2-rpc.com", "https://rpc.bsquared.network", "https://b2-mainnet.alt.technology", "https://b2-mainnet-public.s.chainbase.com", "https://rpc.ankr.com/b2"],
   "faucets": [],
   "infoURL": "https://www.bsquared.network"
 }, {
@@ -5663,7 +5663,7 @@
     "symbol": "BTC",
     "decimals": 18
   },
-  "rpc": ["https://b2-testnet.alt.technology"],
+  "rpc": ["https://b2-testnet.alt.technology", "https://rpc.ankr.com/b2_testnet", "https://testnet-rpc.bsquared.network"],
   "faucets": [],
   "infoURL": "https://www.bsquared.network"
 }, {
