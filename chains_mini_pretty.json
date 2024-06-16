@@ -5927,9 +5927,9 @@
   "faucets": [],
   "infoURL": "https://www.cyclenetwork.io/"
 }, {
-  "name": "Hybrid Testnet",
+  "name": "Hybrid Testnet (Deprecated)",
   "chainId": 1224,
-  "shortName": "hyb",
+  "shortName": "hyb_deprecated",
   "networkId": 1224,
   "nativeCurrency": {
     "name": "Hybrid",
@@ -5937,6 +5937,19 @@
     "decimals": 18
   },
   "rpc": ["https://testnet-rpc.buildonhybrid.com"],
+  "faucets": [],
+  "infoURL": "https://buildonhybrid.com"
+}, {
+  "name": "Hybrid Testnet",
+  "chainId": 1225,
+  "shortName": "hyb",
+  "networkId": 1225,
+  "nativeCurrency": {
+    "name": "Hybrid",
+    "symbol": "HYB",
+    "decimals": 18
+  },
+  "rpc": ["https://hybrid-testnet.rpc.caldera.xyz/http", "wss://hybrid-testnet.rpc.caldera.xyz/ws"],
   "faucets": [],
   "infoURL": "https://buildonhybrid.com"
 }, {
