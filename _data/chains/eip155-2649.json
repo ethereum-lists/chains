@@ -1,10 +1,7 @@
 {
   "name": "AILayer Mainnet",
   "chain": "AILayer",
-  "rpc": [
-    "https://mainnet-rpc.ailayer.xyz",
-    "wss://mainnet-rpc.ailayer.xyz"
-  ],
+  "rpc": ["https://mainnet-rpc.ailayer.xyz", "wss://mainnet-rpc.ailayer.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",

@@ -1,10 +1,7 @@
 {
   "name": "AILayer Testnet",
   "chain": "AILayer",
-  "rpc": [
-    "https://testnet-rpc.ailayer.xyz",
-    "wss://testnet-rpc.ailayer.xyz"
-  ],
+  "rpc": ["https://testnet-rpc.ailayer.xyz", "wss://testnet-rpc.ailayer.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",
