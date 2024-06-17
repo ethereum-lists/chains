@@ -16,11 +16,9 @@
 	"shortName": "knkt",
 	"chainId": 191993,
 	"networkId": 191993,
-	"icon": "konnekt",
 	"explorers": [{
 		"name": "KonnektScan",
 		"url": "https://testnet.konnektscan.com",
-		"icon": "konnektscan",
 		"standard": "EIP3091"
 	}]
 }
