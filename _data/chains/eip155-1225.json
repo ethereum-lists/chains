@@ -1,8 +1,11 @@
 {
-  "name": "Hybrid Testnet (Deprecated)",
+  "name": "Hybrid Testnet",
   "chain": "HYB",
   "icon": "hybridIcon",
-  "rpc": ["https://testnet-rpc.buildonhybrid.com"],
+  "rpc": [
+    "https://hybrid-testnet.rpc.caldera.xyz/http",
+    "wss://hybrid-testnet.rpc.caldera.xyz/ws"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Hybrid",
@@ -10,15 +13,15 @@
     "decimals": 18
   },
   "infoURL": "https://buildonhybrid.com",
-  "shortName": "hyb_deprecated",
-  "chainId": 1224,
-  "status": "deprecated",
-  "networkId": 1224,
+  "shortName": "hyb",
+  "chainId": 1225,
+  "networkId": 1225,
   "explorers": [
     {
       "name": "Hybrid Testnet",
       "url": "https://explorer.buildonhybrid.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "status": "active"
 }
