@@ -13038,6 +13038,19 @@
   "faucets": ["https://faucet.sardisnetwork.com"],
   "infoURL": "https://mysardis.com"
 }, {
+  "name": "Artela Testnet",
+  "chainId": 11822,
+  "shortName": "Artela",
+  "networkId": 11822,
+  "nativeCurrency": {
+    "name": "ART",
+    "symbol": "ART",
+    "decimals": 18
+  },
+  "rpc": ["https://betanet-rpc1.artela.network"],
+  "faucets": [],
+  "infoURL": "https://artela.network/"
+}, {
   "name": "Santiment Intelligence Network DEPRECATED",
   "chainId": 11888,
   "shortName": "SANold",
