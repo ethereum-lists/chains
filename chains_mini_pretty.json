@@ -16418,6 +16418,19 @@
   "faucets": ["https://faucet.polygon.technology/"],
   "infoURL": "https://polygon.technology/"
 }, {
+  "name": "Berachain bArtio",
+  "chainId": 80084,
+  "shortName": "berachainbArtio",
+  "networkId": 80084,
+  "nativeCurrency": {
+    "name": "BERA Token",
+    "symbol": "BERA",
+    "decimals": 18
+  },
+  "rpc": ["https://bartio.rpc.berachain.com"],
+  "faucets": ["https://bartio.faucet.berachain.com"],
+  "infoURL": "https://www.berachain.com"
+}, {
   "name": "Berachain Artio",
   "chainId": 80085,
   "shortName": "berachainArtio",

@@ -26684,6 +26684,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Berachain bArtio",
+  "chain": "Berachain bArtio",
+  "rpc": ["https://bartio.rpc.berachain.com"],
+  "faucets": ["https://bartio.faucet.berachain.com"],
+  "nativeCurrency": {
+    "name": "BERA Token",
+    "symbol": "BERA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.berachain.com",
+  "shortName": "berachainbArtio",
+  "chainId": 80084,
+  "networkId": 80084,
+  "icon": "berachain",
+  "explorers": [{
+    "name": "Beratrail",
+    "url": "https://bartio.beratrail.io",
+    "icon": "berachain",
+    "standard": "none"
+  }]
+}, {
   "name": "Berachain Artio",
   "chain": "Berachain Artio",
   "rpc": ["https://artio.rpc.berachain.com", "https://rpc.ankr.com/berachain_testnet"],
