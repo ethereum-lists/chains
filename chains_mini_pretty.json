@@ -7396,6 +7396,19 @@
   "faucets": [],
   "infoURL": "https://sanko.xyz/"
 }, {
+  "name": "Kyoto",
+  "chainId": 1997,
+  "shortName": "kyoto",
+  "networkId": 1997,
+  "nativeCurrency": {
+    "name": "Kyoto",
+    "symbol": "KYOTO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.kyotochain.io"],
+  "faucets": [],
+  "infoURL": "https://kyotoprotocol.io"
+}, {
   "name": "Kyoto Testnet",
   "chainId": 1998,
   "shortName": "kyoto-testnet",
