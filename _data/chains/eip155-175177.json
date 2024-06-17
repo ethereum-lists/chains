@@ -1,6 +1,6 @@
 {
   "name": "Chronicle - Lit Protocol Testnet",
-  "chain": "LC",
+  "chain": "LPC",
   "icon": "lit",
   "rpc": ["https://chain-rpc.litprotocol.com/http"],
   "faucets": ["https://faucet.litprotocol.com"],
@@ -10,7 +10,7 @@
     "decimals": 18
   },
   "infoURL": "https://developer.litprotocol.com/v3/network/rollup",
-  "shortName": "lc",
+  "shortName": "lpc",
   "chainId": 175177,
   "networkId": 175177,
   "explorers": [

@@ -1,6 +1,6 @@
 {
   "name": "Vesuvius - Lit Protocol Testnet",
-  "chain": "LC",
+  "chain": "LPV",
   "icon": "lit",
   "rpc": ["https://rpc-vesuvius-as793xpg5g.t.conduit.xyz"],
   "faucets": ["https://developer.litprotocol.com/support/intro"],
@@ -10,7 +10,7 @@
     "decimals": 18
   },
   "infoURL": "https://litprotocol.com",
-  "shortName": "lc",
+  "shortName": "lpv",
   "chainId": 2311,
   "networkId": 2311,
   "explorers": [
