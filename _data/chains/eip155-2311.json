@@ -1,0 +1,24 @@
+{
+  "name": "Vesuvius - Lit Protocol Testnet",
+  "chain": "LC",
+  "icon": "lit",
+  "rpc": ["https://rpc-vesuvius-as793xpg5g.t.conduit.xyz"],
+  "faucets": ["https://developer.litprotocol.com/support/intro"],
+  "nativeCurrency": {
+    "name": "Test LPX",
+    "symbol": "tstLPX",
+    "decimals": 18
+  },
+  "infoURL": "https://litprotocol.com",
+  "shortName": "lc",
+  "chainId": 2311,
+  "networkId": 2311,
+  "explorers": [
+    {
+      "name": "Lit Vesuvius Explorer",
+      "url": "https://explorer-vesuvius-as793xpg5g.t.conduit.xyz",
+      "icon": "lit",
+      "standard": "EIP3091"
+    }
+  ]
+}
