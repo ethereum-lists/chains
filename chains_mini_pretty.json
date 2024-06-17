@@ -9112,6 +9112,19 @@
   "faucets": ["https://testnet-faucet.layeredge.io"],
   "infoURL": "https://www.layeredge.io"
 }, {
+  "name": "GTCSCAN",
+  "chainId": 3490,
+  "shortName": "gtc",
+  "networkId": 3490,
+  "nativeCurrency": {
+    "name": "GTC",
+    "symbol": "GTC",
+    "decimals": 18
+  },
+  "rpc": ["https://gtc-dataseed.gtcscan.io/"],
+  "faucets": [],
+  "infoURL": "https://gtcscan.io/"
+}, {
   "name": "Paribu Net Testnet",
   "chainId": 3500,
   "shortName": "prbtestnet",
