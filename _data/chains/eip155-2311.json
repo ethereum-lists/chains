@@ -2,7 +2,7 @@
   "name": "Vesuvius - Lit Protocol Testnet",
   "chain": "LPV",
   "icon": "lit",
-  "rpc": ["https://rpc-vesuvius-as793xpg5g.t.conduit.xyz"],
+  "rpc": ["https://vesuvius-rpc.litprotocol.com"],
   "faucets": ["https://developer.litprotocol.com/support/intro"],
   "nativeCurrency": {
     "name": "Test LPX",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "Lit Vesuvius Explorer",
-      "url": "https://explorer-vesuvius-as793xpg5g.t.conduit.xyz",
+      "url": "https://vesuvius-explorer.litprotocol.com",
       "icon": "lit",
       "standard": "EIP3091"
     }
