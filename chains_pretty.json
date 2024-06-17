@@ -13832,6 +13832,48 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "AILayer Testnet",
+  "chain": "AILayer",
+  "rpc": ["https://testnet-rpc.ailayer.xyz", "wss://testnet-rpc.ailayer.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://ailayer.xyz/",
+  "shortName": "ailayer-testnet",
+  "chainId": 2648,
+  "networkId": 2648,
+  "icon": "ailayer",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://testnet-explorer.ailayer.xyz",
+    "icon": "ailayer",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "AILayer Mainnet",
+  "chain": "AILayer",
+  "rpc": ["https://mainnet-rpc.ailayer.xyz", "wss://mainnet-rpc.ailayer.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://ailayer.xyz/",
+  "shortName": "ailayer-mainnet",
+  "chainId": 2649,
+  "networkId": 2649,
+  "icon": "ailayer",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://mainnet-explorer.ailayer.xyz",
+    "icon": "ailayer",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "APEX",
   "status": "incubating",
   "chain": "ETH",
