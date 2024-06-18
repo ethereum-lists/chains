@@ -1,7 +1,6 @@
 {
   "name": "BlockX Atlantis Testnet",
   "chain": "blockx",
-  "network": "testnet",
   "rpc": ["https://atlantis-rpc.blockxnet.com/"],
   "faucets": ["https://ping.blockxnet.com/blockx-atlantis-testnet/faucet"],
   "nativeCurrency": {
@@ -17,7 +16,7 @@
   "explorers": [
     {
       "name": "BlockX EVM Explorer (Blockscout)",
-      "url": "https://testnet-explorer.blockxnet.com/",
+      "url": "https://testnet-explorer.blockxnet.com",
       "standard": "EIP3091"
     },
     {
