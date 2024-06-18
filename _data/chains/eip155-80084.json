@@ -3,7 +3,8 @@
   "chain": "Berachain bArtio",
   "rpc": [
     "https://bartio.rpc.berachain.com",
-    "https://bera-testnet.nodeinfra.com"
+    "https://bera-testnet.nodeinfra.com",
+    "https://bartio.rpc.b-harvest.io"
   ],
   "faucets": ["https://bartio.faucet.berachain.com"],
   "nativeCurrency": {
