@@ -1,7 +1,10 @@
 {
   "name": "Berachain bArtio",
   "chain": "Berachain bArtio",
-  "rpc": ["https://bartio.rpc.berachain.com"],
+  "rpc": [
+    "https://bartio.rpc.berachain.com",
+    "https://bera-testnet.nodeinfra.com"
+  ],
   "faucets": ["https://bartio.faucet.berachain.com"],
   "nativeCurrency": {
     "name": "BERA Token",
