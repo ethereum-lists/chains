@@ -11,5 +11,14 @@
   "infoURL": "https://sharecle.com/",
   "shortName": "shr",
   "chainId": 1234567,
-  "networkId": 1234567
+  "networkId": 1234567,
+    "explorers": [
+    {
+      "name": "Etherscan",
+      "url": "https://etherscan.io",
+      "standard": "none",
+      "icon": "sharecle"
+    }
+  ]
+
 }
