@@ -1,9 +1,7 @@
 {
   "name": "NeoX Testnet",
   "chain": "NeoX",
-  "rpc": [
-    "https://testnet.rpc.banelabs.org/"
-  ],
+  "rpc": ["https://testnet.rpc.banelabs.org/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Gas",
