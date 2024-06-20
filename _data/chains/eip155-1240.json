@@ -1,0 +1,19 @@
+{
+  "name": "Plenitud Mainnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://rpc.plenitudproject.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Plenitud",
+    "symbol": "PLN",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://plenitudproject.org",
+  "shortName": "pln",
+  "chainId": 1240,
+  "networkId": 1240,
+  "explorers": []
+}
