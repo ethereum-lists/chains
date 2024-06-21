@@ -1,0 +1,25 @@
+{
+  "name": "DeBank",
+  "chain": "DeBank",
+  "rpc": [
+    "https://rpc.mainnet.debankchain.org"
+  ],
+  "faucets": [],
+  "icon": "debank",
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://debankchain.org",
+  "shortName": "dbk",
+  "chainId": 20240603,
+  "networkId": 20240603,
+  "explorers": [
+    {
+      "name": "DeBank Chain Explorer",
+      "url": "https://explorer.mainnet.debankchain.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
