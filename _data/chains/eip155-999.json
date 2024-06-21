@@ -12,5 +12,14 @@
   "shortName": "twan",
   "chainId": 999,
   "networkId": 999,
-  "slip44": 1
+  "icon": "wanchain",
+  "slip44": 5718350,
+  "explorers": [
+    {
+      "name": "wanscan",
+      "icon": "wanchain",
+      "url": "https://testnet.wanscan.org",
+      "standard": "EIP3091"
+    }
+  ]
 }
