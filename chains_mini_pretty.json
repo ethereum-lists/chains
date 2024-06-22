@@ -14793,6 +14793,19 @@
   "faucets": ["https://dev-wallet.zilliqa.com/faucet?network=testnet"],
   "infoURL": "https://www.zilliqa.com/"
 }, {
+  "name": "Zilliqa 2 EVM proto-testnet",
+  "chainId": 33103,
+  "shortName": "zq2-proto-testnet",
+  "networkId": 33103,
+  "nativeCurrency": {
+    "name": "Zilliqa",
+    "symbol": "ZIL",
+    "decimals": 18
+  },
+  "rpc": ["https://api.zq2-prototestnet.zilliqa.com"],
+  "faucets": ["https://faucet.zq2-prototestnet.zilliqa.com"],
+  "infoURL": "https://www.zilliqa.com/"
+}, {
   "name": "Entangle Testnet",
   "chainId": 33133,
   "shortName": "tngl",
