@@ -18771,6 +18771,19 @@
   "faucets": [],
   "infoURL": "https://www.openchain.live"
 }, {
+  "name": "Autonomys Testnet Nova Domain",
+  "chainId": 490000,
+  "shortName": "ATN",
+  "networkId": 490000,
+  "nativeCurrency": {
+    "name": "Test Auto Coin",
+    "symbol": "TATC",
+    "decimals": 18
+  },
+  "rpc": ["https://nova-0.gemini-3h.subspace.network/ws"],
+  "faucets": [],
+  "infoURL": "https://www.autonomys.net"
+}, {
   "name": "Playdapp Network",
   "chainId": 504441,
   "shortName": "PDA",
