@@ -3275,6 +3275,19 @@
   "faucets": [],
   "infoURL": "https://www.trias.one"
 }, {
+  "name": "Shape",
+  "chainId": 360,
+  "shortName": "shape",
+  "networkId": 360,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://shape.us"
+}, {
   "name": "Theta Mainnet",
   "chainId": 361,
   "shortName": "theta-mainnet",
@@ -19589,6 +19602,19 @@
   "rpc": ["https://subnets.avax.network/tiltyard/testnet/rpc"],
   "faucets": [],
   "infoURL": ""
+}, {
+  "name": "Sharecle Mainnet",
+  "chainId": 1234567,
+  "shortName": "shr",
+  "networkId": 1234567,
+  "nativeCurrency": {
+    "name": "SHARECLE COIN",
+    "symbol": "SHR",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.sharecle.com"],
+  "faucets": [],
+  "infoURL": "https://sharecle.com/"
 }, {
   "name": "zKatana",
   "chainId": 1261120,
