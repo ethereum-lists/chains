@@ -1,0 +1,16 @@
+{
+  "name": "Chakra Testnet",
+  "chain": "Chakra Testnet",
+  "rpc": ["https://evmrpc-tn.chakrachain.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Chakra",
+    "symbol": "CKR",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "ChakraTN",
+  "chainId": 13771573536,
+  "networkId": 13771573536,
+  "explorers": []
+}
