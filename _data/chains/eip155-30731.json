@@ -10,8 +10,39 @@
     "symbol": "MOVE",
     "decimals": 18
   },
+    "explorers": [
+    {
+      "name": "mevm explorer",
+      "url": "https://explorer.movementlabs.xyz",
+      "standard": "none"
+    }
+  ],
   "infoURL": "https://movementlabs.xyz",
   "shortName": "movedev",
   "chainId": 336,
-  "networkId": 10000
+  "status": "incubating"
+  "networkId": 336
+}
+{
+  "name": "Movement EVM Devnet",
+  "chain": "MOVE",
+  "rpc": ["https://mevm.devnet.m1.movementlabs.xyz"],
+  "faucets": ["https://faucet.movementlabs.xyz/?network=devnet"],
+  "nativeCurrency": {
+    "name": "Move",
+    "symbol": "MOVE",
+    "decimals": 18
+  },
+  "infoURL": "https://movementlabs.xyz",
+  "shortName": "movedev",
+  "chainId": 336,
+  "networkId": 336,
+  "explorers": [
+    {
+      "name": "mevm explorer",
+      "url": "https://explorer.movementlabs.xyz",
+      "standard": "none"
+    }
+  ],
+  "status": "incubating"
 }
