@@ -3678,6 +3678,19 @@
   "faucets": [],
   "infoURL": "https://areon.network"
 }, {
+  "name": "World Chain",
+  "chainId": 480,
+  "shortName": "wc",
+  "networkId": 480,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://worldcoin.org"
+}, {
   "name": "Rupaya",
   "chainId": 499,
   "shortName": "rupx",

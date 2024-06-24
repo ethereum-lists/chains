@@ -5990,6 +5990,21 @@
     "standard": "none"
   }]
 }, {
+  "name": "World Chain",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://worldcoin.org",
+  "shortName": "wc",
+  "chainId": 480,
+  "networkId": 480,
+  "status": "incubating"
+}, {
   "name": "Rupaya",
   "chain": "RUPX",
   "rpc": [],
