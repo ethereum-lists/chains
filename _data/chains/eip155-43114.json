@@ -7,7 +7,11 @@
     "https://avalanche-c-chain-rpc.publicnode.com",
     "wss://avalanche-c-chain-rpc.publicnode.com"
   ],
-  "features": [{ "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Avalanche",
@@ -23,6 +27,12 @@
     {
       "name": "snowtrace",
       "url": "https://snowtrace.io",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://avalanche.dex.guru",
+      "icon": "dexguru",
       "standard": "EIP3091"
     }
   ]
