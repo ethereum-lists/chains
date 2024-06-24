@@ -16531,7 +16531,7 @@
     "symbol": "BERA",
     "decimals": 18
   },
-  "rpc": ["https://bartio.rpc.berachain.com", "https://bera-testnet.nodeinfra.com"],
+  "rpc": ["https://bartio.rpc.berachain.com", "https://bera-testnet.nodeinfra.com", "https://bartio.rpc.b-harvest.io"],
   "faucets": ["https://bartio.faucet.berachain.com"],
   "infoURL": "https://www.berachain.com"
 }, {
@@ -19602,6 +19602,19 @@
   "rpc": ["https://subnets.avax.network/tiltyard/testnet/rpc"],
   "faucets": [],
   "infoURL": ""
+}, {
+  "name": "Sharecle Mainnet",
+  "chainId": 1234567,
+  "shortName": "shr",
+  "networkId": 1234567,
+  "nativeCurrency": {
+    "name": "SHARECLE COIN",
+    "symbol": "SHR",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.sharecle.com"],
+  "faucets": [],
+  "infoURL": "https://sharecle.com/"
 }, {
   "name": "zKatana",
   "chainId": 1261120,
