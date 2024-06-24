@@ -1,9 +1,7 @@
 {
   "name": "DeBank",
   "chain": "DeBank",
-  "rpc": [
-    "https://rpc.mainnet.debankchain.org"
-  ],
+  "rpc": ["https://rpc.mainnet.debankchain.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
