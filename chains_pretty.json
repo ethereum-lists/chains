@@ -10805,25 +10805,6 @@
     }]
   }
 }, {
-  "name": "Pivotal Mainnet",
-  "chainId": 1648,
-  "networkId": 1648,
-  "chain": "Pivotal",
-  "rpc": ["https://mainnet.pivotalprotocol.com"],
-  "faucets": [],
-  "shortName": "pivotal-mainnet",
-  "nativeCurrency": {
-    "name": "Pivotal Plus",
-    "symbol": "PLUS",
-    "decimals": 18
-  },
-  "infoURL": "http://thepivotal.xyz/",
-  "explorers": [{
-    "name": "Pivotal Scan",
-    "url": "https://pivotalscan.xyz",
-    "standard": "EIP3091"
-  }]
-}, {
   "name": "Btachain",
   "chain": "btachain",
   "rpc": ["https://dataseed1.btachain.com/"],
@@ -22006,25 +21987,6 @@
     "type": "L2",
     "chain": "eip155-248"
   }
-}, {
-  "name": "Pivotal Sepolia",
-  "chainId": 16481,
-  "networkId": 16481,
-  "chain": "Pivotal",
-  "rpc": ["https://sepolia.pivotalprotocol.com"],
-  "faucets": [],
-  "shortName": "pivotal-sepolia",
-  "nativeCurrency": {
-    "name": "Pivotal Plus",
-    "symbol": "PLUS",
-    "decimals": 18
-  },
-  "infoURL": "http://thepivotal.xyz/",
-  "explorers": [{
-    "name": "Pivotal Scan",
-    "url": "https://sepolia.pivotalscan.xyz",
-    "standard": "EIP3091"
-  }]
 }, {
   "name": "Genesys Mainnet",
   "chain": "Genesys",

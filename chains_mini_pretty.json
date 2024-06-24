@@ -6733,19 +6733,6 @@
   "faucets": [],
   "infoURL": "https://gravity.xyz"
 }, {
-  "name": "Pivotal Mainnet",
-  "chainId": 1648,
-  "shortName": "pivotal-mainnet",
-  "networkId": 1648,
-  "nativeCurrency": {
-    "name": "Pivotal Plus",
-    "symbol": "PLUS",
-    "decimals": 18
-  },
-  "rpc": ["https://mainnet.pivotalprotocol.com"],
-  "faucets": [],
-  "infoURL": "http://thepivotal.xyz/"
-}, {
   "name": "Btachain",
   "chainId": 1657,
   "shortName": "bta",
@@ -13648,19 +13635,6 @@
   "rpc": ["https://rpc.defi-verse.org/"],
   "faucets": [],
   "infoURL": "https://defi-verse.org"
-}, {
-  "name": "Pivotal Sepolia",
-  "chainId": 16481,
-  "shortName": "pivotal-sepolia",
-  "networkId": 16481,
-  "nativeCurrency": {
-    "name": "Pivotal Plus",
-    "symbol": "PLUS",
-    "decimals": 18
-  },
-  "rpc": ["https://sepolia.pivotalprotocol.com"],
-  "faucets": [],
-  "infoURL": "http://thepivotal.xyz/"
 }, {
   "name": "Genesys Mainnet",
   "chainId": 16507,
