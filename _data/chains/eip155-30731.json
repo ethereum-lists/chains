@@ -4,7 +4,7 @@
   "rpc": [
     "https://mevm.devnet.m1.movementlabs.xyz"
   ],
-  "faucets": [],
+  "faucets": ["https://faucet.movementlabs.xyz/?network=devnet"],
   "nativeCurrency": {
     "name": "Move",
     "symbol": "MOVE",
@@ -13,14 +13,5 @@
   "infoURL": "https://movementlabs.xyz",
   "shortName": "movedev",
   "chainId": 336,
-  "networkId": 336,
-  "icon": "move",
-  "explorers": [
-    {
-      "name": "mevm explorer",
-      "url": "https://explorer.movementlabs.xyz",
-      "standard": "none"
-    }
-  ],
-  "status": "incubating"
+  "networkId": 10000
 }
