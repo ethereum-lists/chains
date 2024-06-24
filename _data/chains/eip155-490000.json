@@ -1,0 +1,24 @@
+{
+  "name": "Autonomys Testnet Nova Domain",
+  "chain": "TATC",
+  "rpc": ["https://nova-0.gemini-3h.subspace.network/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Test Auto Coin",
+    "symbol": "TATC",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://www.autonomys.net",
+  "shortName": "ATN",
+  "chainId": 490000,
+  "networkId": 490000,
+  "explorers": [
+    {
+      "name": "astral",
+      "url": "https://nova.subspace.network",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
