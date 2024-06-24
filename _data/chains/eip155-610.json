@@ -12,10 +12,12 @@
   "shortName": "darwin-devnet",
   "chainId": 610,
   "networkId": 610,
+  "icon": "darwin",
   "explorers": [
     {
       "name": "Darwin Explorer",
       "url": "https://explorer.darwinchain.ai",
+      "icon": "darwin",
       "standard": "none"
     }
   ]
