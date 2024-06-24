@@ -8285,6 +8285,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "BinaryChain Mainnet",
+  "chain": "BinaryChain",
+  "icon": "binary",
+  "rpc": ["https://rpc.binarychain.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BINARY",
+    "symbol": "BNRY",
+    "decimals": 18
+  },
+  "infoURL": "https://binarychain.org",
+  "shortName": "binary",
+  "chainId": 987,
+  "networkId": 987,
+  "explorers": [{
+    "name": "BinaryChain Explorer",
+    "url": "https://explorer.binarychain.org",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "TOP Mainnet",
   "chain": "TOP",
   "icon": "top",
@@ -10784,6 +10804,25 @@
       "url": "https://bridge.gravity.xyz"
     }]
   }
+}, {
+  "name": "Pivotal Mainnet",
+  "chainId": 1648,
+  "networkId": 1648,
+  "chain": "Pivotal",
+  "rpc": ["https://mainnet.pivotalprotocol.com"],
+  "faucets": [],
+  "shortName": "pivotal-mainnet",
+  "nativeCurrency": {
+    "name": "Pivotal Plus",
+    "symbol": "PLUS",
+    "decimals": 18
+  },
+  "infoURL": "http://thepivotal.xyz/",
+  "explorers": [{
+    "name": "Pivotal Scan",
+    "url": "https://pivotalscan.xyz",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Btachain",
   "chain": "btachain",
@@ -20136,6 +20175,26 @@
     "standard": "none"
   }]
 }, {
+  "name": "BinaryChain Testnet",
+  "chain": "BinaryChain",
+  "icon": "binary",
+  "rpc": ["https://rpctestnet.binarychain.org"],
+  "faucets": ["https://faucet.testnet.binarychain.org"],
+  "nativeCurrency": {
+    "name": "BINARY",
+    "symbol": "BNRY",
+    "decimals": 18
+  },
+  "infoURL": "https://binarychain.org",
+  "shortName": "binarytestnet",
+  "chainId": 9876,
+  "networkId": 9876,
+  "explorers": [{
+    "name": "BinaryChain Testnet Explorer",
+    "url": "https://explorer.testnet.binarychain.org",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Dogelayer Mainnet",
   "chain": "Dogelayer",
   "rpc": ["https://dl-rpc.dogelayer.org"],
@@ -21947,6 +22006,25 @@
     "type": "L2",
     "chain": "eip155-248"
   }
+}, {
+  "name": "Pivotal Sepolia",
+  "chainId": 16481,
+  "networkId": 16481,
+  "chain": "Pivotal",
+  "rpc": ["https://sepolia.pivotalprotocol.com"],
+  "faucets": [],
+  "shortName": "pivotal-sepolia",
+  "nativeCurrency": {
+    "name": "Pivotal Plus",
+    "symbol": "PLUS",
+    "decimals": 18
+  },
+  "infoURL": "http://thepivotal.xyz/",
+  "explorers": [{
+    "name": "Pivotal Scan",
+    "url": "https://sepolia.pivotalscan.xyz",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Genesys Mainnet",
   "chain": "Genesys",

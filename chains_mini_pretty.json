@@ -5134,6 +5134,19 @@
   "faucets": ["https://faucet.metamemo.one/"],
   "infoURL": "www.memolabs.org"
 }, {
+  "name": "BinaryChain Mainnet",
+  "chainId": 987,
+  "shortName": "binary",
+  "networkId": 987,
+  "nativeCurrency": {
+    "name": "BINARY",
+    "symbol": "BNRY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.binarychain.org"],
+  "faucets": [],
+  "infoURL": "https://binarychain.org"
+}, {
   "name": "TOP Mainnet",
   "chainId": 989,
   "shortName": "top",
@@ -6719,6 +6732,19 @@
   "rpc": ["https://rpc.gravity.xyz"],
   "faucets": [],
   "infoURL": "https://gravity.xyz"
+}, {
+  "name": "Pivotal Mainnet",
+  "chainId": 1648,
+  "shortName": "pivotal-mainnet",
+  "networkId": 1648,
+  "nativeCurrency": {
+    "name": "Pivotal Plus",
+    "symbol": "PLUS",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.pivotalprotocol.com"],
+  "faucets": [],
+  "infoURL": "http://thepivotal.xyz/"
 }, {
   "name": "Btachain",
   "chainId": 1657,
@@ -12492,6 +12518,19 @@
   "faucets": ["https://faucet.imperiumchain.com/"],
   "infoURL": "https://imperiumchain.com"
 }, {
+  "name": "BinaryChain Testnet",
+  "chainId": 9876,
+  "shortName": "binarytestnet",
+  "networkId": 9876,
+  "nativeCurrency": {
+    "name": "BINARY",
+    "symbol": "BNRY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpctestnet.binarychain.org"],
+  "faucets": ["https://faucet.testnet.binarychain.org"],
+  "infoURL": "https://binarychain.org"
+}, {
   "name": "Dogelayer Mainnet",
   "chainId": 9888,
   "shortName": "Dogelayer",
@@ -13609,6 +13648,19 @@
   "rpc": ["https://rpc.defi-verse.org/"],
   "faucets": [],
   "infoURL": "https://defi-verse.org"
+}, {
+  "name": "Pivotal Sepolia",
+  "chainId": 16481,
+  "shortName": "pivotal-sepolia",
+  "networkId": 16481,
+  "nativeCurrency": {
+    "name": "Pivotal Plus",
+    "symbol": "PLUS",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia.pivotalprotocol.com"],
+  "faucets": [],
+  "infoURL": "http://thepivotal.xyz/"
 }, {
   "name": "Genesys Mainnet",
   "chainId": 16507,
