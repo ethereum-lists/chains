@@ -1,0 +1,24 @@
+{
+  "name": "JIBCHAIN L1 - Testnet",
+  "chain": "JBC",
+  "rpc": ["https://rpc.testnet.jibchain.net"],
+  "faucets": [],
+  "icon": "jbc-new",
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "nativeCurrency": {
+    "name": "JIBCOIN",
+    "symbol": "tJBC",
+    "decimals": 18
+  },
+  "infoURL": "https://jibchain.net",
+  "shortName": "jbc",
+  "chainId": 88991,
+  "networkId": 88991,
+  "explorers": [
+    {
+      "name": "JIBCHAIN-Testnet Explorer",
+      "url": "https://exp.testnet.jibchain.net",
+      "standard": "EIP3091"
+    }
+  ]
+}
