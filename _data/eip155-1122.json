@@ -1,0 +1,25 @@
+{
+  "name": "Nim Network",
+  "chain": "Nim Network",
+  "rpc": [
+    "https://nim-mainnet.public.blastapi.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NIM",
+    "symbol": "NIM",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "nim",
+  "icon": "",
+  "chainId": 1122,
+  "networkId": 1122,
+  "explorers": [
+    {
+      "name": "NimScan",
+      "url": "https://dym.fyi/r/nim",
+      "standard": "none"
+    }
+  ]
+}
