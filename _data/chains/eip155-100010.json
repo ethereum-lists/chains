@@ -1,9 +1,7 @@
 {
   "name": "VeChain Testnet",
   "chain": "VeChain",
-  "rpc": [
-    "https://rpc-testnet.vechain.energy"
-  ],
+  "rpc": ["https://rpc-testnet.vechain.energy"],
   "faucets": ["https://faucet.vecha.in"],
   "nativeCurrency": {
     "name": "VeChain",
