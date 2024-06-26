@@ -1,7 +1,7 @@
 {
   "name": "DeBank Chain Mainnet",
   "chain": "DBK Chain",
-  "rpc": ["https://rpc.mainnet.dbkchain.io/"],
+  "rpc": ["https://rpc.mainnet.dbkchain.io"],
   "icon": "dbkchain",
   "faucets": [],
   "nativeCurrency": {
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "DeBank Chain Explorer",
-      "url": "https://explorer.mainnet.dbkchain.io/",
+      "url": "https://explorer.mainnet.dbkchain.io",
       "standard": "EIP3091"
     }
   ]
