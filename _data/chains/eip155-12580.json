@@ -1,0 +1,26 @@
+{
+  "name": "Inferer Airdrop Network",
+  "title": "Inferer Airdrop Network",
+  "chain": "Inferer",
+  "icon": "inferer",
+  "rpc": [
+    "https://rpc.inferer.xyz"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.inferer.xyz",
+  "shortName": "Inferer Airdrop Protocol",
+  "chainId": 12580,
+  "networkId": 12580,
+  "explorers": [
+    {
+      "name": "Inferer Airdrop Chain explorer",
+      "url": "https://explorer.inferer.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
