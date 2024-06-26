@@ -1,0 +1,25 @@
+{
+  "name": "SolarX Mainnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://mainnet-rpc.solarxexplorer.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SolarX",
+    "symbol": "SOLX",
+    "decimals": 18
+  },
+  "infoURL": "https://solarx.ai",
+  "shortName": "SOLX",
+  "chainId": 798359,
+  "networkId": 798359,
+  "icon": "solarx",
+  "explorers": [
+    {
+      "name": "solarxexplorer",
+      "url": "https://solarxexplorer.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
