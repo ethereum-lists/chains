@@ -1,7 +1,7 @@
 {
-  "name": "Lif3 Chain Testnet",
+  "name": "Lif3 Chain",
   "chain": "lif3chain",
-  "rpc": ["https://testnet-evm.lif3.com"],
+  "rpc": ["https://rpc.lif3.com"],
   "features": [{ "name": "EIP155" }],
   "faucets": [],
   "nativeCurrency": {
@@ -10,13 +10,13 @@
     "decimals": 18
   },
   "infoURL": "https://docs.lif3.com/",
-  "shortName": "lif3-testnet",
-  "chainId": 1811,
-  "networkId": 1811,
+  "shortName": "lif3-mainnet",
+  "chainId": 8869,
+  "networkId": 8869,
   "explorers": [
     {
       "name": "lif3scout",
-      "url": "https://testnet.lif3scout.com/",
+      "url": "https://lif3scout.com/",
       "standard": "none"
     }
   ]
