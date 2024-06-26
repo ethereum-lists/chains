@@ -1,0 +1,23 @@
+{
+  "name": "VNBnode Testnet",
+  "chain": "VNBnode",
+  "icon": "VNB",
+  "rpc": ["https://fraa-flashbox-4382-rpc.a.stagenet.tanssi.network"],
+  "faucets": [""],
+  "nativeCurrency": {
+    "name": "VNB",
+    "symbol": "VNB",
+    "decimals": 18
+  },
+  "infoURL": "https://vnbnode.com",
+  "shortName": "VNBnode-test",
+  "chainId": 568568,
+  "networkId": 568568,
+  "explorers": [
+    {
+      "name": "EVM Basic Explorer",
+      "url": "https://evmexplorer.tanssi-chains.network/?rpcUrl=https://fraa-flashbox-4382-rpc.a.stagenet.tanssi.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
