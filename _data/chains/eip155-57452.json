@@ -6,7 +6,7 @@
   "nativeCurrency": {
     "name": "COINSEC",
     "symbol": "SEC",
-    "decimals": 7
+    "decimals": 18
   },
   "infoURL": "https://coinsec.network",
   "shortName": "sec-testnet",
@@ -15,7 +15,7 @@
   "icon": "coinsec",
   "explorers": [
     {
-      "name": "coinsecexplorer",
+      "name": "COINSEC Network Testnet",
       "url": "https://explorer.coinsec.network",
       "standard": "EIP3091"
     }
