@@ -1,6 +1,6 @@
 {
   "name": "COINSEC Network Testnet",
-  "chain": "SEC",
+  "chain": "SEC-Testnet",
   "rpc": ["https://testnet-rpc.coinsec.network"],
   "faucets": [],
   "nativeCurrency": {
@@ -9,7 +9,7 @@
     "decimals": 18
   },
   "infoURL": "https://coinsec.network",
-  "shortName": "sec",
+  "shortName": "sec-testnet",
   "chainId": 57452,
   "networkId": 57452,
   "icon": "coinsec",
