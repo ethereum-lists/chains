@@ -1,0 +1,23 @@
+{
+  "name": "Zilliqa 2 EVM proto-testnet",
+  "chain": "ZIL",
+  "rpc": ["https://api.zq2-prototestnet.zilliqa.com"],
+  "faucets": ["https://faucet.zq2-prototestnet.zilliqa.com"],
+  "nativeCurrency": {
+    "name": "Zilliqa",
+    "symbol": "ZIL",
+    "decimals": 18
+  },
+  "infoURL": "https://www.zilliqa.com/",
+  "shortName": "zq2-proto-testnet",
+  "chainId": 33103,
+  "networkId": 33103,
+  "icon": "zilliqa",
+  "explorers": [
+    {
+      "name": "Zilliqa 2 EVM proto-testnet explorer",
+      "url": "https://explorer.zq2-prototestnet.zilliqa.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
