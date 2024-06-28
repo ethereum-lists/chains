@@ -1,7 +1,10 @@
 {
   "name": "Near Mainnet",
   "chain": "NEAR",
-  "rpc": [],
+  "rpc": [
+    "https://${QN_ENDPT_NAME}.near-mainnet.quiknode.pro/${QN_API_KEY}",
+    "wss://${QN_ENDPT_NAME}.near-mainnet.quiknode.pro/${QN_API_KEY}"
+  ],
   "icon": "near",
   "faucets": [],
   "nativeCurrency": {

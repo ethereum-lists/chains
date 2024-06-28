@@ -8,7 +8,10 @@
     "https://base-goerli-rpc.publicnode.com",
     "wss://base-goerli-rpc.publicnode.com"
   ],
-  "faucets": ["https://www.coinbase.com/faucets/base-ethereum-goerli-faucet"],
+  "faucets": [
+    "https://www.coinbase.com/faucets/base-ethereum-goerli-faucet",
+    "https://faucet.quicknode.com/base/goerli"
+  ],
   "nativeCurrency": {
     "name": "Goerli Ether",
     "symbol": "ETH",

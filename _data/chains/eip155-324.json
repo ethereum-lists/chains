@@ -4,7 +4,9 @@
   "rpc": [
     "https://mainnet.era.zksync.io",
     "https://zksync.drpc.org",
-    "wss://zksync.drpc.org"
+    "wss://zksync.drpc.org",
+    "https://${QN_ENDPT_NAME}.zksync-mainnet.quiknode.pro/${QN_API_KEY}",
+    "wss://${QN_ENDPT_NAME}.zksync-mainnet.quiknode.pro/${QN_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {

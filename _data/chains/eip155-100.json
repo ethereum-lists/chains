@@ -14,7 +14,9 @@
     "https://gnosis.oat.farm",
     "wss://rpc.gnosischain.com/wss",
     "https://gnosis-rpc.publicnode.com",
-    "wss://gnosis-rpc.publicnode.com"
+    "wss://gnosis-rpc.publicnode.com",
+    "https://${QN_ENDPT_NAME}.xdai.quiknode.pro/${QN_API_KEY}",
+    "wss://${QN_ENDPT_NAME}.xdai.quiknode.pro/${QN_API_KEY}"
   ],
   "faucets": [
     "https://gnosisfaucet.com",

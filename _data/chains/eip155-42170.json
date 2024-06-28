@@ -12,7 +12,9 @@
   "rpc": [
     "https://nova.arbitrum.io/rpc",
     "https://arbitrum-nova.publicnode.com",
-    "wss://arbitrum-nova.publicnode.com"
+    "wss://arbitrum-nova.publicnode.com",
+    "https://${QN_ENDPT_NAME}.nova-mainnet.quiknode.pro/${QN_API_KEY}",
+    "wss://${QN_ENDPT_NAME}.nova-mainnet.quiknode.pro/${QN_API_KEY}"
   ],
   "faucets": [],
   "explorers": [

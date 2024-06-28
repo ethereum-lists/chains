@@ -5,7 +5,10 @@
     "https://artio.rpc.berachain.com",
     "https://rpc.ankr.com/berachain_testnet"
   ],
-  "faucets": ["https://artio.faucet.berachain.com"],
+  "faucets": [
+    "https://artio.faucet.berachain.com",
+    "https://faucet.quicknode.com/berachain/artio"
+  ],
   "nativeCurrency": {
     "name": "BERA Token",
     "symbol": "BERA",

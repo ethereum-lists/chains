@@ -5,7 +5,9 @@
     "https://cyber.alt.technology/",
     "wss://cyber-ws.alt.technology/",
     "https://rpc.cyber.co/",
-    "wss://rpc.cyber.co/"
+    "wss://rpc.cyber.co/",
+    "https://${QN_ENDPT_NAME}.cyber-mainnet.quiknode.pro/${QN_API_KEY}",
+    "wss://${QN_ENDPT_NAME}.cyber-mainnet.quiknode.pro/${QN_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {

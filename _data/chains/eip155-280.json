@@ -3,7 +3,7 @@
   "status": "deprecated",
   "chain": "ETH",
   "rpc": ["https://testnet.era.zksync.dev"],
-  "faucets": [],
+  "faucets": ["https://faucet.quicknode.com/zksync/goerli"],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",

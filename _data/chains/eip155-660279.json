@@ -9,7 +9,11 @@
     "symbol": "XAI",
     "decimals": 18
   },
-  "rpc": ["https://xai-chain.net/rpc"],
+  "rpc": [
+    "https://xai-chain.net/rpc",
+    "https://${QN_ENDPT_NAME}.xai-mainnet.quiknode.pro/${QN_API_KEY}",
+    "wss://${QN_ENDPT_NAME}.xai-mainnet.quiknode.pro/${QN_API_KEY}"
+  ],
   "faucets": [],
   "explorers": [
     {

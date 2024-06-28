@@ -8,7 +8,7 @@
     "https://scroll-sepolia.chainstacklabs.com",
     "https://scroll-testnet-public.unifra.io"
   ],
-  "faucets": [],
+  "faucets": ["https://faucet.quicknode.com/scroll/sepolia"],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",

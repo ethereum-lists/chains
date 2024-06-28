@@ -7,7 +7,7 @@
     "https://polygon-zkevm-testnet.drpc.org",
     "wss://polygon-zkevm-testnet.drpc.org"
   ],
-  "faucets": [],
+  "faucets": ["https://faucet.quicknode.com/polygon/zkevm-goerli"],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",

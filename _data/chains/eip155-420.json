@@ -10,7 +10,7 @@
     "https://optimism-testnet.drpc.org",
     "wss://optimism-testnet.drpc.org"
   ],
-  "faucets": [],
+  "faucets": ["https://faucet.quicknode.com/optimism"],
   "nativeCurrency": {
     "name": "Goerli Ether",
     "symbol": "ETH",
