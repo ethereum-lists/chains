@@ -1,0 +1,23 @@
+{
+  "name": "Tagtal Chain Testnet",
+  "chain": "Tagtal Chain",
+  "rpc": ["https://www.tagtal.com/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Tagtal",
+    "symbol": "TAGT",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://tagtal.com",
+  "shortName": "tag",
+  "chainId": 2872,
+  "networkId": 2872,
+  "explorers": [
+    {
+      "name": "Tagtal Scan",
+      "url": "https://tscan.tagtal.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
