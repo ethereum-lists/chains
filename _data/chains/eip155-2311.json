@@ -1,5 +1,5 @@
 {
-  "name": "Vesuvius - Lit Protocol Testnet",
+  "name": "Chronicle Vesuvius - Lit Protocol Testnet",
   "chain": "LPV",
   "icon": "lit",
   "rpc": ["https://vesuvius-rpc.litprotocol.com"],
@@ -15,7 +15,7 @@
   "networkId": 2311,
   "explorers": [
     {
-      "name": "Lit Vesuvius Explorer",
+      "name": "Lit Chronicle Vesuvius Explorer",
       "url": "https://vesuvius-explorer.litprotocol.com",
       "icon": "lit",
       "standard": "EIP3091"
