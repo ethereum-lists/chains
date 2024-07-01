@@ -1,0 +1,28 @@
+{
+  "name": "Pandora Chain",
+  "chain": "PANDORA",
+  "rpc": [
+    "https://rpc.pandorachain.org",
+    "https://rpc1.pandorachain.org",
+    "https://rpc2.pandorachain.org",
+    "https://rpc3.pandorachain.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Pandora Native Token",
+    "symbol": "PDA",
+    "decimals": 18
+  },
+  "infoURL": "https://pandorachain.org",
+  "shortName": "pda",
+  "chainId": 140705,
+  "networkId": 140705,
+  "icon": "pandora",
+  "explorers": [
+    {
+      "name": "Pandora Scan",
+      "url": "https://scan.pandorachain.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
