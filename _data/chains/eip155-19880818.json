@@ -1,14 +1,14 @@
 {
   "name": "DeepBrainChain Mainnet",
   "chain": "DeepBrainChain",
-  "rpc": ["https://httpinfo.dbcwallet.io"],
+  "rpc": ["https://rpc.dbcwallet.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "DeepBrainChain",
     "symbol": "DBC",
-    "decimals": 15
+    "decimals": 18
   },
-  "infoURL": "https://www.dbcwallet.io",
+  "infoURL": "https://www.deepbrainchain.org",
   "shortName": "DBC",
   "chainId": 19880818,
   "networkId": 19880818,
@@ -17,7 +17,7 @@
   "explorers": [
     {
       "name": "DeepBrainChain Mainnet",
-      "url": "https://testblockscout.dbcwallet.io",
+      "url": "https://blockscout.dbcscan.io",
       "standard": "EIP3091"
     }
   ]
