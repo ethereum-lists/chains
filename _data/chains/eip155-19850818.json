@@ -1,14 +1,14 @@
 {
   "name": "DeepBrainChain Testnet",
   "chain": "DeepBrainChain",
-  "rpc": ["https://test.dbcwallet.io:9988"],
+  "rpc": ["https://rpc-testnet.dbcwallet.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "DeepBrainChain",
     "symbol": "DBC",
-    "decimals": 15
+    "decimals": 18
   },
-  "infoURL": "https://test.dbcwallet.io/?rpc=wss%3A%2F%2Finfotest.dbcwallet.io%3A7777",
+  "infoURL": "https://www.deepbrainchain.org",
   "shortName": "tDBC",
   "chainId": 19850818,
   "networkId": 19850818,
@@ -17,7 +17,7 @@
   "explorers": [
     {
       "name": "DeepBrainChain Testnet",
-      "url": "https://blockscout.dbcwallet.io",
+      "url": "https://blockscout-testnet.dbcscan.io",
       "standard": "EIP3091"
     }
   ]
