@@ -10805,6 +10805,25 @@
     }]
   }
 }, {
+  "name": "Pivotal Mainnet",
+  "chainId": 1648,
+  "networkId": 1648,
+  "chain": "Pivotal",
+  "rpc": ["https://mainnet.pivotalprotocol.com"],
+  "faucets": [],
+  "shortName": "pivotal-mainnet",
+  "nativeCurrency": {
+    "name": "Pivotal Plus",
+    "symbol": "PLUS",
+    "decimals": 18
+  },
+  "infoURL": "http://thepivotal.xyz/",
+  "explorers": [{
+    "name": "Pivotal Scan",
+    "url": "https://pivotalscan.xyz",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Btachain",
   "chain": "btachain",
   "rpc": ["https://dataseed1.btachain.com/"],
@@ -13271,6 +13290,27 @@
   "networkId": 2309,
   "explorers": [],
   "status": "incubating"
+}, {
+  "name": "Chronicle Vesuvius - Lit Protocol Testnet",
+  "chain": "LPV",
+  "icon": "lit",
+  "rpc": ["https://vesuvius-rpc.litprotocol.com"],
+  "faucets": ["https://developer.litprotocol.com/support/intro"],
+  "nativeCurrency": {
+    "name": "Test LPX",
+    "symbol": "tstLPX",
+    "decimals": 18
+  },
+  "infoURL": "https://litprotocol.com",
+  "shortName": "lpv",
+  "chainId": 2311,
+  "networkId": 2311,
+  "explorers": [{
+    "name": "Lit Chronicle Vesuvius Explorer",
+    "url": "https://vesuvius-explorer.litprotocol.com",
+    "icon": "lit",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "SOMA Network Testnet",
   "chain": "SOMA",
@@ -21988,6 +22028,25 @@
     "chain": "eip155-248"
   }
 }, {
+  "name": "Pivotal Sepolia",
+  "chainId": 16481,
+  "networkId": 16481,
+  "chain": "Pivotal",
+  "rpc": ["https://sepolia.pivotalprotocol.com"],
+  "faucets": [],
+  "shortName": "pivotal-sepolia",
+  "nativeCurrency": {
+    "name": "Pivotal Plus",
+    "symbol": "PLUS",
+    "decimals": 18
+  },
+  "infoURL": "http://thepivotal.xyz/",
+  "explorers": [{
+    "name": "Pivotal Scan",
+    "url": "https://sepolia.pivotalscan.xyz",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Genesys Mainnet",
   "chain": "Genesys",
   "icon": "genesys",
@@ -28896,6 +28955,27 @@
   }, {
     "name": "routescan",
     "url": "https://hekla.taikoscan.network",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Chronicle - Lit Protocol Testnet",
+  "chain": "LPC",
+  "icon": "lit",
+  "rpc": ["https://chain-rpc.litprotocol.com/http"],
+  "faucets": ["https://faucet.litprotocol.com"],
+  "nativeCurrency": {
+    "name": "Test LIT",
+    "symbol": "tstLIT",
+    "decimals": 18
+  },
+  "infoURL": "https://developer.litprotocol.com/v3/network/rollup",
+  "shortName": "lpc",
+  "chainId": 175177,
+  "networkId": 175177,
+  "explorers": [{
+    "name": "Lit Chronicle Explorer",
+    "url": "https://chain.litprotocol.com",
+    "icon": "lit",
     "standard": "EIP3091"
   }]
 }, {

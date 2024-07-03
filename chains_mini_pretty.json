@@ -6733,6 +6733,19 @@
   "faucets": [],
   "infoURL": "https://gravity.xyz"
 }, {
+  "name": "Pivotal Mainnet",
+  "chainId": 1648,
+  "shortName": "pivotal-mainnet",
+  "networkId": 1648,
+  "nativeCurrency": {
+    "name": "Pivotal Plus",
+    "symbol": "PLUS",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.pivotalprotocol.com"],
+  "faucets": [],
+  "infoURL": "http://thepivotal.xyz/"
+}, {
   "name": "Btachain",
   "chainId": 1657,
   "shortName": "bta",
@@ -8279,6 +8292,19 @@
   "rpc": [],
   "faucets": [],
   "infoURL": ""
+}, {
+  "name": "Chronicle Vesuvius - Lit Protocol Testnet",
+  "chainId": 2311,
+  "shortName": "lpv",
+  "networkId": 2311,
+  "nativeCurrency": {
+    "name": "Test LPX",
+    "symbol": "tstLPX",
+    "decimals": 18
+  },
+  "rpc": ["https://vesuvius-rpc.litprotocol.com"],
+  "faucets": ["https://developer.litprotocol.com/support/intro"],
+  "infoURL": "https://litprotocol.com"
 }, {
   "name": "SOMA Network Testnet",
   "chainId": 2323,
@@ -13636,6 +13662,19 @@
   "faucets": [],
   "infoURL": "https://defi-verse.org"
 }, {
+  "name": "Pivotal Sepolia",
+  "chainId": 16481,
+  "shortName": "pivotal-sepolia",
+  "networkId": 16481,
+  "nativeCurrency": {
+    "name": "Pivotal Plus",
+    "symbol": "PLUS",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia.pivotalprotocol.com"],
+  "faucets": [],
+  "infoURL": "http://thepivotal.xyz/"
+}, {
   "name": "Genesys Mainnet",
   "chainId": 16507,
   "shortName": "Genesys",
@@ -17795,6 +17834,19 @@
   "rpc": ["https://rpc.hekla.taiko.xyz", "wss://ws.hekla.taiko.xyz"],
   "faucets": [],
   "infoURL": "https://taiko.xyz"
+}, {
+  "name": "Chronicle - Lit Protocol Testnet",
+  "chainId": 175177,
+  "shortName": "lpc",
+  "networkId": 175177,
+  "nativeCurrency": {
+    "name": "Test LIT",
+    "symbol": "tstLIT",
+    "decimals": 18
+  },
+  "rpc": ["https://chain-rpc.litprotocol.com/http"],
+  "faucets": ["https://faucet.litprotocol.com"],
+  "infoURL": "https://developer.litprotocol.com/v3/network/rollup"
 }, {
   "name": "Bitica Chain Mainnet",
   "chainId": 188710,
