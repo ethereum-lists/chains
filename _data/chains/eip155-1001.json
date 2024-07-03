@@ -1,18 +1,18 @@
 {
-  "name": "Klaytn Testnet Baobab",
-  "chain": "KLAY",
+  "name": "Kaia Testnet Kairos",
+  "chain": "KAIA",
   "rpc": [
-    "https://public-en-baobab.klaytn.net",
-    "https://api.baobab.klaytn.net:8651"
+    "https://public-en.kairos.node.kaia.io",
+    "https://public-en-baobab.klaytn.net"
   ],
   "faucets": ["https://baobab.wallet.klaytn.com/access?next=faucet"],
   "nativeCurrency": {
-    "name": "KLAY",
-    "symbol": "KLAY",
+    "name": "KAIA",
+    "symbol": "KAIA",
     "decimals": 18
   },
   "infoURL": "https://klaytn.foundation",
-  "shortName": "Baobab",
+  "shortName": "Kairos",
   "chainId": 1001,
   "networkId": 1001,
   "slip44": 1,
