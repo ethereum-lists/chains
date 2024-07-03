@@ -2,7 +2,10 @@
   "name": "BORAchain mainnet",
   "chain": "BORA",
   "icon": "bora",
-  "rpc": ["https://public-node.api.boraportal.com/bora/mainnet"],
+  "rpc": [
+    "https://public-node.api.boraportal.com/bora/mainnet",
+    "https://public-node.api.boraportal.io/bora/mainnet"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BORA",
