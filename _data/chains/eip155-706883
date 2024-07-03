@@ -1,0 +1,21 @@
+{
+  "name": "FidesInnova",
+  "chainId": 706883,
+  "shortName": "FidesInnova",
+  "networkId": 706883,
+  "nativeCurrency": {
+    "name": "FidesInnova",
+    "symbol": "FDS",
+    "decimals": 18,
+    "logoURI": "https://fidesinnova.io/Download/FidesInnova-Token-Logo.png"  
+  },
+  "rpc": ["https://fidesf1-rpc.fidesinnova.io"],
+  "faucets": [],
+  "infoURL": "https://wiki.fidesinnova.io",
+  "explorers": [
+    {
+      "name": "FidesInnova Blockchain Explorer",
+      "url": "https://fidesf1-explorer.fidesinnova.io"
+    }
+  ]
+}
