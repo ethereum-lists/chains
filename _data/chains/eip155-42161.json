@@ -19,6 +19,11 @@
   "faucets": [],
   "explorers": [
     {
+      "name": "routescan",
+      "url": "https://arbitrum.routescan.io",
+      "standard": "EIP3091"
+    },
+    {
       "name": "Arbiscan",
       "url": "https://arbiscan.io",
       "standard": "EIP3091"
