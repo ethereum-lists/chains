@@ -1,0 +1,25 @@
+{
+  "name": "Flamma Mainnet",
+  "chain": "Flamma",
+  "rpc": [
+    "https://rpc.flamma.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Flamma",
+    "symbol": "FLA",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://flamma.network/",
+  "shortName": "fla",
+  "chainId": 55614,
+  "networkId": 55614,
+  "icon": "flamma",
+  "explorers": [{
+    "name": "flascan",
+    "url": "https://flascan.net",
+    "icon": "flascan",
+    "standard": "EIP3091"
+  }]
+}
