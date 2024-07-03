@@ -13,5 +13,11 @@
   "chainId": 1398243,
   "networkId": 1398243,
   "icon": "automata",
-  "explorers": ["https://automata-testnet-explorer.alt.technology"]
+  "explorers": [
+    {
+      "name": "Automata Testnet Explorer",
+      "url": "https://automata-testnet-explorer.alt.technology",
+      "standard": "EIP3091"
+    }
+  ]
 }
