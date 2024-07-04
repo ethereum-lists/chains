@@ -12349,6 +12349,19 @@
   "faucets": ["https://faucet.dogcoin.network"],
   "infoURL": "https://dogcoin.network"
 }, {
+  "name": "Oasys Testnet",
+  "chainId": 9372,
+  "shortName": "OAS_TEST",
+  "networkId": 9372,
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.oasys.games"],
+  "faucets": [],
+  "infoURL": "https://oasys.games"
+}, {
   "name": "Dela Sepolia Testnet",
   "chainId": 9393,
   "shortName": "delasep",
