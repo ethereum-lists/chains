@@ -11276,6 +11276,28 @@
     "standard": "none"
   }]
 }, {
+  "name": "Lif3 Chain Testnet",
+  "chain": "lif3chain",
+  "rpc": ["https://testnet-evm.lif3.com"],
+  "features": [{
+    "name": "EIP155"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LIF3",
+    "symbol": "LIF3",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.lif3.com/",
+  "shortName": "lif3-testnet",
+  "chainId": 1811,
+  "networkId": 1811,
+  "explorers": [{
+    "name": "lif3scout",
+    "url": "https://testnet.lif3scout.com",
+    "standard": "none"
+  }]
+}, {
   "name": "Cube Chain Mainnet",
   "chain": "Cube",
   "icon": "cube",
@@ -19387,6 +19409,28 @@
   "explorers": [{
     "name": "Lumio explorer",
     "url": "https://explorer.lumio.io",
+    "standard": "none"
+  }]
+}, {
+  "name": "Lif3 Chain",
+  "chain": "lif3chain",
+  "rpc": ["https://rpc.lif3.com"],
+  "features": [{
+    "name": "EIP155"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LIF3",
+    "symbol": "LIF3",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.lif3.com/",
+  "shortName": "lif3-mainnet",
+  "chainId": 8869,
+  "networkId": 8869,
+  "explorers": [{
+    "name": "lif3scout",
+    "url": "https://lif3scout.com",
     "standard": "none"
   }]
 }, {

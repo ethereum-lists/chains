@@ -7019,6 +7019,19 @@
   "faucets": ["https://analogfaucet.com"],
   "infoURL": "https://rabbit.analogscan.com"
 }, {
+  "name": "Lif3 Chain Testnet",
+  "chainId": 1811,
+  "shortName": "lif3-testnet",
+  "networkId": 1811,
+  "nativeCurrency": {
+    "name": "LIF3",
+    "symbol": "LIF3",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-evm.lif3.com"],
+  "faucets": [],
+  "infoURL": "https://docs.lif3.com/"
+}, {
   "name": "Cube Chain Mainnet",
   "chainId": 1818,
   "shortName": "cube",
@@ -12023,6 +12036,19 @@
   "rpc": ["https://mainnet.lumio.io/"],
   "faucets": [],
   "infoURL": "https://lumio.io/"
+}, {
+  "name": "Lif3 Chain",
+  "chainId": 8869,
+  "shortName": "lif3-mainnet",
+  "networkId": 8869,
+  "nativeCurrency": {
+    "name": "LIF3",
+    "symbol": "LIF3",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.lif3.com"],
+  "faucets": [],
+  "infoURL": "https://docs.lif3.com/"
 }, {
   "name": "Unique",
   "chainId": 8880,
