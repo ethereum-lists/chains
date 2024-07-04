@@ -17666,6 +17666,19 @@
   "faucets": [],
   "infoURL": "https://metadap.io/"
 }, {
+  "name": "Gemchain",
+  "chainId": 123321,
+  "shortName": "gemchain",
+  "networkId": 123321,
+  "nativeCurrency": {
+    "name": "GEM",
+    "symbol": "GEM",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-rpc.gemchain.org"],
+  "faucets": [],
+  "infoURL": "https://gemchain.org"
+}, {
   "name": "ADIL Devnet",
   "chainId": 123456,
   "shortName": "dadil",
