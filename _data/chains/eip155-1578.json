@@ -1,21 +1,23 @@
 {
-    "name": "StarCHAIN",
-    "chain": "StarCHAIN",
-    "rpc": ["https://rpc.starworksglobal.com"],
-    "features": [{ "name": "EIP155" }],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "STARX",
-      "symbol": "STARX",
-      "decimals": 18
-    },
-    "infoURL": "https://www.starworksglobal.com",
-    "shortName": "starx",
-    "chainId": 1578,
-    "networkId": 1578,
-    "explorers": [{
+  "name": "StarCHAIN",
+  "chain": "StarCHAIN",
+  "rpc": ["https://rpc.starworksglobal.com"],
+  "features": [{ "name": "EIP155" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "STARX",
+    "symbol": "STARX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.starworksglobal.com",
+  "shortName": "starx",
+  "chainId": 1578,
+  "networkId": 1578,
+  "explorers": [
+    {
       "name": "starchainscan",
       "url": "https://starchainscan.io",
       "standard": "EIP3091"
-    }]
-  }
+    }
+  ]
+}
