@@ -20487,6 +20487,19 @@
   "faucets": ["https://app.optimism.io/faucet"],
   "infoURL": "https://optimism.io"
 }, {
+  "name": "NeoX Testnet",
+  "chainId": 12227331,
+  "shortName": "neox",
+  "networkId": 12227331,
+  "nativeCurrency": {
+    "name": "Gas",
+    "symbol": "GAS",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.rpc.banelabs.org/"],
+  "faucets": [],
+  "infoURL": "https://neo.org/"
+}, {
   "name": "COTI Devnet",
   "chainId": 13068200,
   "shortName": "coti-devnet",
