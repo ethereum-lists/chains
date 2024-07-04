@@ -15547,6 +15547,19 @@
   "faucets": [],
   "infoURL": "https://www.zircuit.com/"
 }, {
+  "name": "Zircuit Mainnet",
+  "chainId": 48900,
+  "shortName": "zircuit-mainnet",
+  "networkId": 48900,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://www.zircuit.com/"
+}, {
   "name": "Wireshape Floripa Testnet",
   "chainId": 49049,
   "shortName": "floripa",
