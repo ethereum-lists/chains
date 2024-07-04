@@ -6291,6 +6291,19 @@
   "faucets": [],
   "infoURL": "http://doschain.io/"
 }, {
+  "name": "JaiHo Chain",
+  "chainId": 1313,
+  "shortName": "JHC",
+  "networkId": 1313,
+  "nativeCurrency": {
+    "name": "JaiHo",
+    "symbol": "JaiHo",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.jaihochain.com"],
+  "faucets": [],
+  "infoURL": "https://jaihochain.com"
+}, {
   "name": "Alyx Mainnet",
   "chainId": 1314,
   "shortName": "alyx",
