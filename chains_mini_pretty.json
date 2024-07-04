@@ -4718,6 +4718,19 @@
   "faucets": [],
   "infoURL": "https://taraxa.io"
 }, {
+  "name": "HongKong Mainnet",
+  "chainId": 852,
+  "shortName": "HongKong",
+  "networkId": 852,
+  "nativeCurrency": {
+    "name": "HongKong",
+    "symbol": "HK",
+    "decimals": 18
+  },
+  "rpc": ["https://eth.jegotrip.net"],
+  "faucets": [],
+  "infoURL": "https://www.cmi.chinamobile.com/"
+}, {
   "name": "Zeeth Chain Dev",
   "chainId": 859,
   "shortName": "zeethdev",
