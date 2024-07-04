@@ -13727,6 +13727,19 @@
   "faucets": [],
   "infoURL": "https://defi-verse.org"
 }, {
+  "name": "Incentiv Devnet",
+  "chainId": 16350,
+  "shortName": "tIncentiv",
+  "networkId": 16350,
+  "nativeCurrency": {
+    "name": "Testnet INC",
+    "symbol": "INC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.ankr.com/incentiv_devnet"],
+  "faucets": ["https://faucet.incentiv-dev.ankr.network"],
+  "infoURL": "https://incentiv.net"
+}, {
   "name": "Pivotal Sepolia",
   "chainId": 16481,
   "shortName": "pivotal-sepolia",
