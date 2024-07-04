@@ -11374,6 +11374,19 @@
   "faucets": ["https://faucet.bit-rock.io"],
   "infoURL": "https://bit-rock.io"
 }, {
+  "name": "GDCC MAINNET",
+  "chainId": 7774,
+  "shortName": "GdccMainnet",
+  "networkId": 7774,
+  "nativeCurrency": {
+    "name": "GDCC",
+    "symbol": "GDCC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc-1.gdccscan.io"],
+  "faucets": [],
+  "infoURL": "https://gdcchain.com"
+}, {
   "name": "GDCC TESTNET",
   "chainId": 7775,
   "shortName": "GDCC",
