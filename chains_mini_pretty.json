@@ -2261,6 +2261,19 @@
   "faucets": [],
   "infoURL": "https://bmc.bytom.io/"
 }, {
+  "name": "CMDAO BBQ Chain",
+  "chainId": 190,
+  "shortName": "cmdao-bbq-chain",
+  "networkId": 190,
+  "nativeCurrency": {
+    "name": "CommuDAO",
+    "symbol": "CMD",
+    "decimals": 18
+  },
+  "rpc": ["https://bbqchain-rpc.commudao.xyz"],
+  "faucets": [],
+  "infoURL": "https://commudao.xyz"
+}, {
   "name": "FileFileGo",
   "chainId": 191,
   "shortName": "ffg",
