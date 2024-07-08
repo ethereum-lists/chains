@@ -18017,6 +18017,19 @@
   "faucets": [],
   "infoURL": "https://mindnetwork.xyz"
 }, {
+  "name": "MAZZE Testnet",
+  "chainId": 199991,
+  "shortName": "MAZZE",
+  "networkId": 199991,
+  "nativeCurrency": {
+    "name": "MAZZE Testnet",
+    "symbol": "MAZZE",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.mazze.io/"],
+  "faucets": ["https://faucet.mazze.io/"],
+  "infoURL": "https://mazze.io/"
+}, {
   "name": "xFair.AI Testnet",
   "chainId": 200000,
   "shortName": "fait",
