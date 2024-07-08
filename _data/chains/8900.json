@@ -1,0 +1,25 @@
+{
+    "name": "Ottochain",
+    "chain": "otto",
+    "rpc": [
+      "https://gateway.mainnet.octopus.network/eth/otto/andk2nmw198f7on2"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ottochain",
+      "symbol": "OTTO",
+      "decimals": 18
+    },
+    "infoURL": "https://ottochains-organization.gitbook.io/",
+    "shortName": "otto",
+    "chainId": 8900,
+    "networkId": 8900,
+    "explorers": [
+      {
+        "name": "Ottochain",
+        "url": "https://otto.blockscout.mainnet.octopus.network",
+        "standard": "EIP3091"
+      }
+    ]
+  }
+  
