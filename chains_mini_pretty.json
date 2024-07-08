@@ -16041,6 +16041,19 @@
   "faucets": [],
   "infoURL": "https://linea.build"
 }, {
+  "name": "Metis Sepolia Testnet",
+  "chainId": 59902,
+  "shortName": "metis-sepolia",
+  "networkId": 59902,
+  "nativeCurrency": {
+    "name": "tMetis",
+    "symbol": "tMETIS",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia.metisdevops.link"],
+  "faucets": ["https://sepolia.faucet.metisdevops.link"],
+  "infoURL": "https://www.metis.io"
+}, {
   "name": "Genesys Code Mainnet",
   "chainId": 59971,
   "shortName": "gcode",
