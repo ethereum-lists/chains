@@ -6629,6 +6629,19 @@
   "faucets": ["https://faucet.ctexscan.com"],
   "infoURL": "https://ctextoken.io"
 }, {
+  "name": "ZKBase Mainnet",
+  "chainId": 1456,
+  "shortName": "zkbase",
+  "networkId": 1456,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.zkbase.app"],
+  "faucets": [],
+  "infoURL": "https://zkbase.org/"
+}, {
   "name": "Vitruveo Mainnet",
   "chainId": 1490,
   "shortName": "vitruveo",
