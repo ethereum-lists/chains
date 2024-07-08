@@ -19031,6 +19031,19 @@
   "faucets": [],
   "infoURL": "https://www.openchain.live"
 }, {
+  "name": "World Chain Sepolia Testnet",
+  "chainId": 484752,
+  "shortName": "wcsep",
+  "networkId": 484752,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://worldcoin.org/"
+}, {
   "name": "Autonomys Testnet Nova Domain",
   "chainId": 490000,
   "shortName": "ATN",
