@@ -9203,6 +9203,19 @@
   "faucets": [],
   "infoURL": "https://ethstorage.io/"
 }, {
+  "name": "The peaq Network",
+  "chainId": 3338,
+  "shortName": "PEAQ",
+  "networkId": 3338,
+  "nativeCurrency": {
+    "name": "peaq",
+    "symbol": "PEAQ",
+    "decimals": 18
+  },
+  "rpc": ["https://peaq.api.onfinality.io/public", "https://peaq-rpc.dwellir.com"],
+  "faucets": [],
+  "infoURL": "https://www.peaq.network"
+}, {
   "name": "Paribu Net Mainnet",
   "chainId": 3400,
   "shortName": "prb",
