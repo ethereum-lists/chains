@@ -20110,6 +20110,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Xterio Chain",
+  "chainId": 2702128,
+  "shortName": "xterio",
+  "networkId": 2702128,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://xterio-eth.alt.technology"],
+  "faucets": [],
+  "infoURL": "https://xter.io"
+}, {
   "name": "SaharaAI Network",
   "chainId": 3132023,
   "shortName": "sahara",
