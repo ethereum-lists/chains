@@ -21657,6 +21657,19 @@
   "faucets": [],
   "infoURL": "https://kakarot.org"
 }, {
+  "name": "Gemuchain Testnet",
+  "chainId": 1903648807,
+  "shortName": "Gemuchain",
+  "networkId": 1903648807,
+  "nativeCurrency": {
+    "name": "Gemuchain",
+    "symbol": "GEMU",
+    "decimals": 18
+  },
+  "rpc": ["https://gemutest-rpc.gemuchain.io"],
+  "faucets": ["https://faucet.gemuchain.io/"],
+  "infoURL": "https://gemuchain.io/"
+}, {
   "name": "RARI Chain Testnet",
   "chainId": 1918988905,
   "shortName": "rari-testnet",
