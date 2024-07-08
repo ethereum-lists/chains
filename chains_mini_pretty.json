@@ -13766,6 +13766,19 @@
   "faucets": [],
   "infoURL": "https://defi-verse.org"
 }, {
+  "name": "PLYR PHI",
+  "chainId": 16180,
+  "shortName": "plyr-phi",
+  "networkId": 16180,
+  "nativeCurrency": {
+    "name": "PLYR",
+    "symbol": "PLYR",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/plyr/mainnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://plyr.network"
+}, {
   "name": "Incentiv Devnet",
   "chainId": 16350,
   "shortName": "tIncentiv",
