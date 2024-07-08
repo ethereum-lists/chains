@@ -20977,6 +20977,19 @@
     "symbol": "ATN",
     "decimals": 18
   },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://autonity.org/"
+}, {
+  "name": "Autonity Piccadilly (Yamuna) Testnet",
+  "chainId": 65100003,
+  "shortName": "piccadilly-03",
+  "networkId": 65100003,
+  "nativeCurrency": {
+    "name": "Piccadilly Auton",
+    "symbol": "ATN",
+    "decimals": 18
+  },
   "rpc": ["https://rpc1.piccadilly.autonity.org/", "wss://rpc1.piccadilly.autonity.org/ws/"],
   "faucets": [],
   "infoURL": "https://autonity.org/"
