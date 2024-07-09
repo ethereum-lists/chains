@@ -1,9 +1,7 @@
 {
   "name": "Dojima Testnet",
   "chain": "Dojima",
-  "rpc": [
-    "https://rpc-test-d11k.dojima.network"
-  ],
+  "rpc": ["https://rpc-test-d11k.dojima.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Dojima",
