@@ -1,9 +1,7 @@
 {
   "name": "ABEY Mainnet",
   "chain": "ABEY",
-  "rpc": [
-    "https://rpc.abeychain.com"
-  ],
+  "rpc": ["https://rpc.abeychain.com"],
   "features": [{ "name": "EIP155" }],
   "faucets": [],
   "nativeCurrency": {

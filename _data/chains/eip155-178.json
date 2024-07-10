@@ -1,9 +1,7 @@
 {
   "name": "ABEY Testnet",
   "chain": "ABEY",
-  "rpc": [
-    "https://testrpc.abeychain.com"
-  ],
+  "rpc": ["https://testrpc.abeychain.com"],
   "features": [{ "name": "EIP155" }],
   "faucets": ["https://testnet-faucet.abeychain.com"],
   "nativeCurrency": {
