@@ -1,0 +1,33 @@
+{
+  "name": "Cyber Testnet",
+  "chain": "Cyber",
+  "rpc": [
+    "https://cyber-testnet.alt.technology/",
+    "wss://cyber-testnet.alt.technology/ws",
+    "https://rpc.testnet.cyber.co/",
+    "wss://rpc.testnet.cyber.co/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "icon": "cyber",
+  "infoURL": "https://cyber.co/",
+  "shortName": "cysep",
+  "chainId": 111557560,
+  "networkId": 111557560,
+  "explorers": [
+    {
+      "name": "Cyber Testnet Explorer",
+      "url": "https://testnet.cyberscan.co",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "https://cyber-testnet.testnets.rollbridge.app/" }]
+  }
+}

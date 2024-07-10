@@ -1,7 +1,7 @@
 {
-  "name": "Taiko (Alpha-3 Testnet)",
+  "name": "Taiko Grimsvotn L2",
   "chain": "ETH",
-  "status": "active",
+  "status": "deprecated",
   "icon": "taiko",
   "rpc": ["https://rpc.test.taiko.xyz"],
   "faucets": [],
@@ -11,7 +11,7 @@
     "decimals": 18
   },
   "infoURL": "https://taiko.xyz",
-  "shortName": "taiko-a3",
+  "shortName": "taiko-l2",
   "chainId": 167005,
   "networkId": 167005,
   "explorers": [

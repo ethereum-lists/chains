@@ -1,0 +1,23 @@
+{
+  "name": "One World Chain Testnet",
+  "chain": "One World Chain",
+  "icon": "oneWorldChainIcon",
+  "rpc": ["https://testnet-rpc.oneworldchain.org"],
+  "faucets": ["https://faucet.oneworldchain.org"],
+  "nativeCurrency": {
+    "name": "OWCT",
+    "symbol": "OWCT",
+    "decimals": 18
+  },
+  "infoURL": "https://oneworldchain.org",
+  "shortName": "OWCTt",
+  "chainId": 552981,
+  "networkId": 552981,
+  "explorers": [
+    {
+      "name": "One World Chain Testnet Explorer",
+      "url": "https://testnet.oneworldchain.org",
+      "standard": "EIP3091"
+    }
+  ]
+}

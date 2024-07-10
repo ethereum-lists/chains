@@ -13,5 +13,13 @@
   "shortName": "Ascraeus",
   "chainId": 972,
   "networkId": 972,
-  "icon": "ccn"
+  "icon": "oort",
+  "explorers": [
+    {
+      "name": "Oort Ascraeus Explorer",
+      "url": "https://ascraeus-scan.oortech.com",
+      "standard": "none",
+      "icon": "oort"
+    }
+  ]
 }

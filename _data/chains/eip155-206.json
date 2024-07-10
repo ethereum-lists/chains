@@ -1,0 +1,25 @@
+{
+  "name": "VinuChain Testnet",
+  "chain": "VinuChain Testnet",
+  "rpc": ["https://vinufoundation-rpc.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "VinuChain",
+    "symbol": "VC",
+    "decimals": 18
+  },
+  "infoURL": "https://vitainu.org",
+  "shortName": "VCTEST",
+  "chainId": 206,
+  "networkId": 206,
+  "slip44": 1,
+  "icon": "vitainu-testnet",
+  "explorers": [
+    {
+      "name": "VinuScan Testnet",
+      "url": "https://testnet.vinuscan.com",
+      "icon": "vinuscan-testnet",
+      "standard": "none"
+    }
+  ]
+}

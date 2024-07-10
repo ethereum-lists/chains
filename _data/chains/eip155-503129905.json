@@ -1,25 +1,27 @@
 {
-  "name": "Nebula Staging",
+  "name": "Deprecated SKALE Nebula Hub Testnet",
   "chain": "staging-faint-slimy-achird",
+  "status": "deprecated",
+  "icon": "nebula",
   "rpc": [
     "https://staging-v3.skalenodes.com/v1/staging-faint-slimy-achird",
     "wss://staging-v3.skalenodes.com/v1/ws/staging-faint-slimy-achird"
   ],
-  "faucets": [],
+  "faucets": ["https://sfuel.dirtroad.dev/staging"],
   "nativeCurrency": {
     "name": "sFUEL",
     "symbol": "sFUEL",
     "decimals": 18
   },
   "infoURL": "https://nebulachain.io/",
-  "shortName": "nebula-staging",
+  "shortName": "deprecated-nebula-testnet",
   "chainId": 503129905,
   "networkId": 503129905,
+  "slip44": 1,
   "explorers": [
     {
-      "name": "nebula",
+      "name": "Blockscout",
       "url": "https://staging-faint-slimy-achird.explorer.staging-v3.skalenodes.com",
-      "icon": "nebula",
       "standard": "EIP3091"
     }
   ]

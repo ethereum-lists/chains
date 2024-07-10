@@ -1,7 +1,12 @@
 {
   "name": "SOMA Network Mainnet",
   "chain": "SOMA",
-  "rpc": ["https://data-mainnet-v1.somanetwork.io/"],
+  "rpc": [
+    "https://data-mainnet-v1.somanetwork.io/",
+    "https://id-mainnet.somanetwork.io",
+    "https://hk-mainnet.somanetwork.io",
+    "https://sg-mainnet.somanetwork.io"
+  ],
   "faucets": ["https://airdrop.somanetwork.io"],
   "nativeCurrency": {
     "name": "Soma Native Token",
