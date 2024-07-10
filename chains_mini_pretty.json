@@ -18576,6 +18576,19 @@
   "faucets": [],
   "infoURL": "https://zillnet.io"
 }, {
+  "name": "Cipherem Testnet",
+  "chainId": 292003,
+  "shortName": "CIP",
+  "networkId": 292003,
+  "nativeCurrency": {
+    "name": "CIP",
+    "symbol": "CIP",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.cipherem.com"],
+  "faucets": [],
+  "infoURL": "https://www.cipherem.com"
+}, {
   "name": "One World Chain Mainnet",
   "chainId": 309075,
   "shortName": "OWCTm",
