@@ -18654,6 +18654,19 @@
   "faucets": ["https://faucet.bloomgenesis.com"],
   "infoURL": "https://www.bloomgenesis.com"
 }, {
+  "name": "Nal Mainnet",
+  "chainId": 328527,
+  "shortName": "nal",
+  "networkId": 328527,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.nal.network", "wss://wss.nal.network"],
+  "faucets": [],
+  "infoURL": "https://www.nal.network"
+}, {
   "name": "TTcoin Smart Chain Mainnet",
   "chainId": 330844,
   "shortName": "tc",
