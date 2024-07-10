@@ -20578,6 +20578,19 @@
   "faucets": ["https://faucet.soverun.com"],
   "infoURL": "https://soverun.com"
 }, {
+  "name": "AlienX Mainnet",
+  "chainId": 10241024,
+  "shortName": "AlienX",
+  "networkId": 10241024,
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.alienxchain.io/http"],
+  "faucets": [],
+  "infoURL": "https://alienxchain.io/home"
+}, {
   "name": "ALIENX Hal Testnet",
   "chainId": 10241025,
   "shortName": "ALIENXHal",
