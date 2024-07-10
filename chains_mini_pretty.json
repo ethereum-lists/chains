@@ -567,7 +567,7 @@
     "symbol": "CRAB",
     "decimals": 18
   },
-  "rpc": ["https://crab-rpc.darwinia.network", "https://crab-rpc.darwiniacommunitydao.xyz"],
+  "rpc": ["https://crab-rpc.darwinia.network", "https://crab-rpc.dcdao.box"],
   "faucets": [],
   "infoURL": "https://crab.network/"
 }, {
@@ -593,9 +593,9 @@
     "symbol": "RING",
     "decimals": 18
   },
-  "rpc": ["https://rpc.darwinia.network", "https://darwinia-rpc.darwiniacommunitydao.xyz", "https://darwinia-rpc.dwellir.com"],
+  "rpc": ["https://rpc.darwinia.network", "https://darwinia-rpc.dcdao.box", "https://darwinia-rpc.dwellir.com"],
   "faucets": [],
-  "infoURL": "https://darwinia.network/"
+  "infoURL": "https://darwinia.network"
 }, {
   "name": "Acria IntelliChain",
   "chainId": 47,
@@ -16301,6 +16301,19 @@
   "faucets": [],
   "infoURL": "https://scolcoin.com"
 }, {
+  "name": "Automata Mainnet",
+  "chainId": 65536,
+  "shortName": "automatamainnet",
+  "networkId": 65536,
+  "nativeCurrency": {
+    "name": "ATA",
+    "symbol": "ATA",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://ata.network"
+}, {
   "name": "Janus Testnet",
   "chainId": 66988,
   "shortName": "janusnetwork-testnet",
@@ -20024,11 +20037,11 @@
   "shortName": "automatatest",
   "networkId": 1398243,
   "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
+    "name": "ATA",
+    "symbol": "ATA",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://automata-testnet.alt.technology"],
   "faucets": [],
   "infoURL": "https://ata.network"
 }, {

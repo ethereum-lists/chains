@@ -883,7 +883,7 @@
 }, {
   "name": "Crab Network",
   "chain": "crab",
-  "rpc": ["https://crab-rpc.darwinia.network", "https://crab-rpc.darwiniacommunitydao.xyz"],
+  "rpc": ["https://crab-rpc.darwinia.network", "https://crab-rpc.dcdao.box"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Crab Network Native Token",
@@ -922,20 +922,20 @@
 }, {
   "name": "Darwinia Network",
   "chain": "darwinia",
-  "rpc": ["https://rpc.darwinia.network", "https://darwinia-rpc.darwiniacommunitydao.xyz", "https://darwinia-rpc.dwellir.com"],
+  "rpc": ["https://rpc.darwinia.network", "https://darwinia-rpc.dcdao.box", "https://darwinia-rpc.dwellir.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Darwinia Network Native Token",
     "symbol": "RING",
     "decimals": 18
   },
-  "infoURL": "https://darwinia.network/",
+  "infoURL": "https://darwinia.network",
   "shortName": "darwinia",
   "chainId": 46,
   "networkId": 46,
   "explorers": [{
-    "name": "subscan",
-    "url": "https://darwinia.subscan.io",
+    "name": "blockscout",
+    "url": "https://explorer.darwinia.network",
     "standard": "EIP3091"
   }]
 }, {
@@ -26496,6 +26496,22 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Automata Mainnet",
+  "chain": "Automata Mainnet",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ATA",
+    "symbol": "ATA",
+    "decimals": 18
+  },
+  "infoURL": "https://ata.network",
+  "shortName": "automatamainnet",
+  "chainId": 65536,
+  "networkId": 65536,
+  "icon": "automata",
+  "explorers": []
+}, {
   "name": "Janus Testnet",
   "chain": "JanusNetwork",
   "icon": "janusnetwork",
@@ -32598,11 +32614,11 @@
 }, {
   "name": "Automata Testnet",
   "chain": "Automata Testnet",
-  "rpc": [],
+  "rpc": ["https://automata-testnet.alt.technology"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
+    "name": "ATA",
+    "symbol": "ATA",
     "decimals": 18
   },
   "infoURL": "https://ata.network",
@@ -32610,7 +32626,11 @@
   "chainId": 1398243,
   "networkId": 1398243,
   "icon": "automata",
-  "explorers": []
+  "explorers": [{
+    "name": "Automata Testnet Explorer",
+    "url": "https://automata-testnet-explorer.alt.technology",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "PlayFi Albireo Testnet",
   "chain": "ETH",
