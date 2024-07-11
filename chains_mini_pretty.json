@@ -16301,6 +16301,19 @@
   "faucets": ["https://faucet.tst.ecredits.com"],
   "infoURL": "https://ecredits.com"
 }, {
+  "name": "Vecno Mainnet",
+  "chainId": 65357,
+  "shortName": "ve",
+  "networkId": 65357,
+  "nativeCurrency": {
+    "name": "Vecno",
+    "symbol": "VE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.vecno.org"],
+  "faucets": [],
+  "infoURL": "https://vecno.org"
+}, {
   "name": "Scolcoin Mainnet",
   "chainId": 65450,
   "shortName": "SRC",
