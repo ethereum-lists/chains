@@ -13909,6 +13909,19 @@
   "faucets": [],
   "infoURL": "https://redstone.xyz"
 }, {
+  "name": "Onchain Points",
+  "chainId": 17071,
+  "shortName": "pop",
+  "networkId": 17071,
+  "nativeCurrency": {
+    "name": "OnchainPoints.xyz",
+    "symbol": "POP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.onchainpoints.xyz", "https://rpc-onchain-points-8n0qkkpr2j.t.conduit.xyz/{CONDUIT_API_KEY}"],
+  "faucets": [],
+  "infoURL": "https://onchainpoints.xyz"
+}, {
   "name": "DeFiVerse Testnet",
   "chainId": 17117,
   "shortName": "DFV-testnet",
