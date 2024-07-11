@@ -1,0 +1,23 @@
+{
+  "name": "BinaryChain Testnet",
+  "chain": "BinaryChain",
+  "icon": "binary",
+  "rpc": ["https://rpctestnet.binarychain.org"],
+  "faucets": ["https://faucet.testnet.binarychain.org"],
+  "nativeCurrency": {
+    "name": "BINARY",
+    "symbol": "BNRY",
+    "decimals": 18
+  },
+  "infoURL": "https://binarychain.org",
+  "shortName": "binarytestnet",
+  "chainId": 9876,
+  "networkId": 9876,
+  "explorers": [
+    {
+      "name": "BinaryChain Testnet Explorer",
+      "url": "https://explorer.testnet.binarychain.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
