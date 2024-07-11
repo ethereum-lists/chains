@@ -19256,6 +19256,21 @@
   }],
   "status": "active"
 }, {
+  "name": "Chakra Testnet",
+  "chain": "Chakra Testnet",
+  "rpc": ["https://rpcv1-dn-1.chakrachain.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Chakra",
+    "symbol": "CKR",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "ChakraTN",
+  "chainId": 8545,
+  "networkId": 8545,
+  "explorers": []
+}, {
   "name": "Toki Network",
   "chain": "TOKI",
   "rpc": ["https://mainnet.buildwithtoki.com/v0/rpc"],

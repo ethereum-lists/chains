@@ -11920,6 +11920,19 @@
   "faucets": [],
   "infoURL": "https://base.org"
 }, {
+  "name": "Chakra Testnet",
+  "chainId": 8545,
+  "shortName": "ChakraTN",
+  "networkId": 8545,
+  "nativeCurrency": {
+    "name": "Chakra",
+    "symbol": "CKR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpcv1-dn-1.chakrachain.io/"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Toki Network",
   "chainId": 8654,
   "shortName": "toki",
