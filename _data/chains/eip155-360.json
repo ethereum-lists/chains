@@ -1,16 +1,22 @@
 {
-  "name": "Shape",
-  "chain": "ETH",
-  "rpc": [],
+  "name": "Molten Mainnet",
+  "chain": "Molten",
+  "rpc": ["https://molten.calderachain.xyz/http", "wss://molten.calderachain.xyz/ws"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
+    "name": "Molten",
+    "symbol": "MOLTEN",
     "decimals": 18
   },
-  "infoURL": "https://shape.us",
-  "shortName": "shape",
+  "infoURL": "https://www.moltennetwork.com/",
+  "shortName": "molten",
   "chainId": 360,
   "networkId": 360,
-  "status": "incubating"
+  "explorers": [
+    {
+      "name": "Molten Explorer",
+      "url": "https://molten.calderaexplorer.xyz/",
+      "standard": "EIP3091"
+    }
+  ]
 }
