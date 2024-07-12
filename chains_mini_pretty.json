@@ -12505,6 +12505,19 @@
   "faucets": [],
   "infoURL": "https://explorer.evokescan.org"
 }, {
+  "name": "WeaveVM Testnet",
+  "chainId": 9496,
+  "shortName": "twvm",
+  "networkId": 9496,
+  "nativeCurrency": {
+    "name": "Testnet WeaveVM Token",
+    "symbol": "tWVM",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.wvm.dev"],
+  "faucets": [],
+  "infoURL": "https://wvm.dev"
+}, {
   "name": "Rangers Protocol Testnet Robin",
   "chainId": 9527,
   "shortName": "trpg",
