@@ -1,7 +1,7 @@
 {
-  "name": "ZKBase Sepolia Testnet",
+  "name": "ZKBase Mainnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia-rpc.zkbase.app"],
+  "rpc": ["https://mainnet-rpc.zkbase.app"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -9,15 +9,15 @@
     "decimals": 18
   },
   "infoURL": "https://zkbase.org/",
-  "shortName": "zkbase-sepolia",
-  "chainId": 1789,
-  "networkId": 1789,
+  "shortName": "zkbase",
+  "chainId": 1456,
+  "networkId": 1456,
   "slip44": 1,
   "icon": "zkbase",
   "explorers": [
     {
       "name": "ZKbase Block Explorer",
-      "url": "https://sepolia-explorer.zkbase.app",
+      "url": "https://explorer.zkbase.app",
       "icon": "zkbase",
       "standard": "EIP3091"
     }
