@@ -2807,6 +2807,19 @@
   "faucets": [],
   "infoURL": "https://neonlink.io"
 }, {
+  "name": "Guru Network Testnet",
+  "chainId": 261,
+  "shortName": "tguru",
+  "networkId": 261,
+  "nativeCurrency": {
+    "name": "testGURU",
+    "symbol": "tGURU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.gurunetwork.ai/archive/261"],
+  "faucets": ["https://v2.dex.guru/season-pass/faucet"],
+  "infoURL": "https://gurunetwork.ai"
+}, {
   "name": "SUR Blockchain Network",
   "chainId": 262,
   "shortName": "SUR",
