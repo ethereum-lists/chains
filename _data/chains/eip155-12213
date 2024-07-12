@@ -1,0 +1,23 @@
+{
+  "name": "BFIC Testnet",
+  "chain": "BFIC",
+  "rpc": [
+    "https://testnet-rpc.bficscan.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BFIC",
+    "symbol": "BFIC",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://bficoin.io",
+  "shortName": "bfic",
+  "chainId": 12213,
+  "networkId": 12213,
+  "explorers": [{
+    "name": "BFIC Testnet",
+    "url": "https://testnet.bficscan.io",
+    "standard": "none"
+  }]
+}
