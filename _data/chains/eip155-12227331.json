@@ -1,5 +1,5 @@
 {
-  "name": "NeoX Testnet",
+  "name": "NeoX Testnet T3",
   "chain": "NeoX",
   "rpc": ["https://testnet.rpc.banelabs.org/"],
   "faucets": [],
@@ -20,5 +20,5 @@
       "standard": "EIP3091"
     }
   ],
-  "status": "active"
+  "status": "deprecated"
 }
