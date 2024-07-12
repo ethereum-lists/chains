@@ -14156,6 +14156,19 @@
   "faucets": [],
   "infoURL": "https://www.homeverse.games/"
 }, {
+  "name": "BlockX Atlantis Testnet",
+  "chainId": 19077,
+  "shortName": "tbcx",
+  "networkId": 19077,
+  "nativeCurrency": {
+    "name": "BCX",
+    "symbol": "BCX",
+    "decimals": 18
+  },
+  "rpc": ["https://atlantis-web3.blockxnet.com"],
+  "faucets": ["https://ping.blockxnet.com/blockx-atlantis-testnet/faucet"],
+  "infoURL": "https://www.blockxnet.com/"
+}, {
   "name": "Decentraconnect Social",
   "chainId": 19224,
   "shortName": "DCSMs",
