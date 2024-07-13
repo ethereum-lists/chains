@@ -13805,6 +13805,19 @@
   "faucets": [],
   "infoURL": "https://poodl.org"
 }, {
+  "name": "KYMTC Mainnet",
+  "chainId": 15430,
+  "shortName": "KYMTC",
+  "networkId": 15430,
+  "nativeCurrency": {
+    "name": "KYMTC",
+    "symbol": "KYMTC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.kymaticscan.online"],
+  "faucets": [],
+  "infoURL": "https://kymaticscan.online"
+}, {
   "name": "LoopNetwork Mainnet",
   "chainId": 15551,
   "shortName": "loop",
@@ -14636,6 +14649,19 @@
   "rpc": ["http://testnet-rpc.blastblockchain.com"],
   "faucets": [],
   "infoURL": "https://docs.blastblockchain.com"
+}, {
+  "name": "KYMTC Testnet",
+  "chainId": 24076,
+  "shortName": "tKYMTC",
+  "networkId": 24076,
+  "nativeCurrency": {
+    "name": "KYMTC",
+    "symbol": "KYMTC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.kymaticscan.online"],
+  "faucets": ["https://faucet.kymaticscan.online"],
+  "infoURL": "https://testnet-explorer.kymaticscan.online"
 }, {
   "name": "Webchain",
   "chainId": 24484,
