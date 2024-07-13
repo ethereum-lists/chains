@@ -14182,6 +14182,19 @@
   "faucets": ["https://ping.blockxnet.com/blockx-atlantis-testnet/faucet"],
   "infoURL": "https://www.blockxnet.com/"
 }, {
+  "name": "BlockX Mainnet",
+  "chainId": 19191,
+  "shortName": "bcxt",
+  "networkId": 19191,
+  "nativeCurrency": {
+    "name": "BCXT",
+    "symbol": "BCXT",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": ["https://ping.blockxnet.com/blockx/faucet"],
+  "infoURL": "https://www.blockxnet.com/"
+}, {
   "name": "Decentraconnect Social",
   "chainId": 19224,
   "shortName": "DCSMs",
