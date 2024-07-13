@@ -10875,6 +10875,50 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "StarCHAIN Testnet",
+  "chain": "StarCHAIN",
+  "rpc": ["https://testnet-rpc1.starworksglobal.com"],
+  "features": [{
+    "name": "EIP155"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "STARX",
+    "symbol": "STARX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.starworksglobal.com",
+  "shortName": "starchain-testnet",
+  "chainId": 1570,
+  "networkId": 1570,
+  "explorers": [{
+    "name": "StarCHAIN Explorer",
+    "url": "https://testnet.starchainscan.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "StarCHAIN",
+  "chain": "StarCHAIN",
+  "rpc": ["https://rpc.starworksglobal.com"],
+  "features": [{
+    "name": "EIP155"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "STARX",
+    "symbol": "STARX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.starworksglobal.com",
+  "shortName": "starchain",
+  "chainId": 1578,
+  "networkId": 1578,
+  "explorers": [{
+    "name": "StarCHAIN Explorer",
+    "url": "https://starchainscan.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Ethereum Inscription Mainnet",
   "chain": "ETINS",
   "rpc": ["https://rpc.etins.org"],

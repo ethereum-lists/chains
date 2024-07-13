@@ -6772,6 +6772,32 @@
   "faucets": [],
   "infoURL": "https://tenet.org/"
 }, {
+  "name": "StarCHAIN Testnet",
+  "chainId": 1570,
+  "shortName": "starchain-testnet",
+  "networkId": 1570,
+  "nativeCurrency": {
+    "name": "STARX",
+    "symbol": "STARX",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc1.starworksglobal.com"],
+  "faucets": [],
+  "infoURL": "https://www.starworksglobal.com"
+}, {
+  "name": "StarCHAIN",
+  "chainId": 1578,
+  "shortName": "starchain",
+  "networkId": 1578,
+  "nativeCurrency": {
+    "name": "STARX",
+    "symbol": "STARX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.starworksglobal.com"],
+  "faucets": [],
+  "infoURL": "https://www.starworksglobal.com"
+}, {
   "name": "Ethereum Inscription Mainnet",
   "chainId": 1617,
   "shortName": "etins",
