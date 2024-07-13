@@ -20890,6 +20890,19 @@
   "faucets": [],
   "infoURL": "https://debank.com"
 }, {
+  "name": "DBK Chain",
+  "chainId": 20240603,
+  "shortName": "dbkchain",
+  "networkId": 20240603,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mainnet.dbkchain.io"],
+  "faucets": [],
+  "infoURL": "https://docs.dbkchain.io"
+}, {
   "name": "Swan Proxima Testnet",
   "chainId": 20241133,
   "shortName": "Proxima",
