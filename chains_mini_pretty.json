@@ -2183,6 +2183,32 @@
   "faucets": [],
   "infoURL": "https://www.dcnetio.cloud"
 }, {
+  "name": "ABEY Testnet",
+  "chainId": 178,
+  "shortName": "abeyt",
+  "networkId": 178,
+  "nativeCurrency": {
+    "name": "ABEY",
+    "symbol": "tABEY",
+    "decimals": 18
+  },
+  "rpc": ["https://testrpc.abeychain.com"],
+  "faucets": ["https://testnet-faucet.abeychain.com"],
+  "infoURL": "https://abey.com"
+}, {
+  "name": "ABEY Mainnet",
+  "chainId": 179,
+  "shortName": "abey",
+  "networkId": 179,
+  "nativeCurrency": {
+    "name": "ABEY",
+    "symbol": "ABEY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.abeychain.com"],
+  "faucets": [],
+  "infoURL": "https://abey.com"
+}, {
   "name": "AME Chain Mainnet",
   "chainId": 180,
   "shortName": "ame",

@@ -3451,6 +3451,50 @@
     "standard": "none"
   }]
 }, {
+  "name": "ABEY Testnet",
+  "chain": "ABEY",
+  "rpc": ["https://testrpc.abeychain.com"],
+  "features": [{
+    "name": "EIP155"
+  }],
+  "faucets": ["https://testnet-faucet.abeychain.com"],
+  "nativeCurrency": {
+    "name": "ABEY",
+    "symbol": "tABEY",
+    "decimals": 18
+  },
+  "infoURL": "https://abey.com",
+  "shortName": "abeyt",
+  "chainId": 178,
+  "networkId": 178,
+  "explorers": [{
+    "name": "abeyscan-testnet",
+    "url": "https://testnet.abeyscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "ABEY Mainnet",
+  "chain": "ABEY",
+  "rpc": ["https://rpc.abeychain.com"],
+  "features": [{
+    "name": "EIP155"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ABEY",
+    "symbol": "ABEY",
+    "decimals": 18
+  },
+  "infoURL": "https://abey.com",
+  "shortName": "abey",
+  "chainId": 179,
+  "networkId": 179,
+  "explorers": [{
+    "name": "abeyscan",
+    "url": "https://abeyscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "AME Chain Mainnet",
   "chain": "AME",
   "rpc": ["https://node1.amechain.io/"],
