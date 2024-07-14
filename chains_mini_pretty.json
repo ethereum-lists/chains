@@ -20448,6 +20448,19 @@
   "faucets": [],
   "infoURL": "https://caldera.xyz/"
 }, {
+  "name": "Altar Testnet",
+  "chainId": 4444444,
+  "shortName": "altarTestnet",
+  "networkId": 4444444,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://altar-rpc.ceremonies.ai/"],
+  "faucets": ["https://sepoliafaucet.com/"],
+  "infoURL": "https://ceremonies.gitbook.io"
+}, {
   "name": "NumBlock Chain",
   "chainId": 5112023,
   "shortName": "NUMB",
