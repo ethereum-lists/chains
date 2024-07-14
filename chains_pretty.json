@@ -3533,6 +3533,26 @@
   "icon": "waterfall-main",
   "explorers": []
 }, {
+  "name": "Dojima Testnet",
+  "chain": "Dojima",
+  "rpc": ["https://rpc-test-d11k.dojima.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dojima",
+    "symbol": "DOJ",
+    "decimals": 18
+  },
+  "icon": "dojima",
+  "infoURL": "https://www.dojima.network/",
+  "shortName": "dojtestnet",
+  "chainId": 184,
+  "networkId": 184,
+  "explorers": [{
+    "name": "Dojima Testnet Explorer",
+    "url": "https://explorer-test.dojima.network",
+    "standard": "none"
+  }]
+}, {
   "name": "Mint Mainnet",
   "chain": "ETH",
   "rpc": ["https://rpc.mintchain.io", "https://global.rpc.mintchain.io", "https://asia.rpc.mintchain.io"],
@@ -3570,6 +3590,26 @@
   "explorers": [{
     "name": "seeleview",
     "url": "https://seeleview.net",
+    "standard": "none"
+  }]
+}, {
+  "name": "Dojima",
+  "chain": "Dojima",
+  "rpc": ["https://rpc-d11k.dojima.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dojima",
+    "symbol": "DOJ",
+    "decimals": 18
+  },
+  "icon": "dojima",
+  "infoURL": "https://www.dojima.network/",
+  "shortName": "dojima",
+  "chainId": 187,
+  "networkId": 187,
+  "explorers": [{
+    "name": "Dojima Explorer",
+    "url": "https://explorer.dojima.network",
     "standard": "none"
   }]
 }, {

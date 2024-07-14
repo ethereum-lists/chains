@@ -2235,6 +2235,19 @@
   "faucets": [],
   "infoURL": "https://waterfall.network"
 }, {
+  "name": "Dojima Testnet",
+  "chainId": 184,
+  "shortName": "dojtestnet",
+  "networkId": 184,
+  "nativeCurrency": {
+    "name": "Dojima",
+    "symbol": "DOJ",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-test-d11k.dojima.network"],
+  "faucets": [],
+  "infoURL": "https://www.dojima.network/"
+}, {
   "name": "Mint Mainnet",
   "chainId": 185,
   "shortName": "mint",
@@ -2260,6 +2273,19 @@
   "rpc": ["https://rpc.seelen.pro/"],
   "faucets": [],
   "infoURL": "https://seelen.pro/"
+}, {
+  "name": "Dojima",
+  "chainId": 187,
+  "shortName": "dojima",
+  "networkId": 187,
+  "nativeCurrency": {
+    "name": "Dojima",
+    "symbol": "DOJ",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-d11k.dojima.network"],
+  "faucets": [],
+  "infoURL": "https://www.dojima.network/"
 }, {
   "name": "BMC Mainnet",
   "chainId": 188,
