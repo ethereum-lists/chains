@@ -12245,6 +12245,19 @@
   "faucets": [],
   "infoURL": "https://unique.network"
 }, {
+  "name": "Avenium Testnet",
+  "chainId": 8886,
+  "shortName": "tave",
+  "networkId": 8886,
+  "nativeCurrency": {
+    "name": "Ave Native Token",
+    "symbol": "tAVE",
+    "decimals": 18
+  },
+  "rpc": ["https://eu-testnet.avenium.io/", "https://connect-testnet.avenium.io"],
+  "faucets": ["https://faucet-testnet.avenium.io"],
+  "infoURL": "https://avenium.io"
+}, {
   "name": "XANAChain",
   "chainId": 8888,
   "shortName": "XANAChain",
