@@ -11214,21 +11214,21 @@
     "symbol": "ZETA",
     "decimals": 18
   },
-  "rpc": ["https://zetachain-evm.blockpi.network/v1/rpc/public", "https://zetachain-mainnet-archive.allthatnode.com:8545"],
+  "rpc": ["https://zetachain-evm.blockpi.network/v1/rpc/public", "https://zetachain-mainnet.g.allthatnode.com/archive/evm", "https://zeta-chain.drpc.org", "https://zetachain-mainnet.public.blastapi.io", "https://7000.rpc.thirdweb.com"],
   "faucets": [],
   "infoURL": "https://zetachain.com/docs/"
 }, {
-  "name": "ZetaChain Athens 3 Testnet",
+  "name": "ZetaChain Testnet",
   "chainId": 7001,
-  "shortName": "zetachain-athens",
+  "shortName": "zetachain-testnet",
   "networkId": 7001,
   "nativeCurrency": {
     "name": "Zeta",
     "symbol": "ZETA",
     "decimals": 18
   },
-  "rpc": ["https://zetachain-athens-evm.blockpi.network/v1/rpc/public", "wss://zetachain-athens.blockpi.network/rpc/v1/public/websocket", "https://zetachain-testnet-archive.allthatnode.com:8545"],
-  "faucets": ["https://labs.zetachain.com/get-zeta"],
+  "rpc": ["https://zetachain-athens-evm.blockpi.network/v1/rpc/public", "https://zetachain-testnet.public.blastapi.io", "https://zetachain-athens.g.allthatnode.com/archive/evm", "https://7001.rpc.thirdweb.com", "https://zeta-chain-testnet.drpc.org"],
+  "faucets": ["https://www.zetachain.com/docs/reference/apps/get-testnet-zeta/"],
   "infoURL": "https://zetachain.com/docs"
 }, {
   "name": "BST Chain",
