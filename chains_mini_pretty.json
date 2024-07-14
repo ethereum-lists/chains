@@ -18914,6 +18914,19 @@
   "faucets": ["https://faucet.bloomgenesis.com"],
   "infoURL": "https://www.bloomgenesis.com"
 }, {
+  "name": "WABA Chain Testnet",
+  "chainId": 327126,
+  "shortName": "waba",
+  "networkId": 327126,
+  "nativeCurrency": {
+    "name": "WABA",
+    "symbol": "WABA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.wabaworld.com"],
+  "faucets": [],
+  "infoURL": "https://www.wabanetwork.org"
+}, {
   "name": "Nal Mainnet",
   "chainId": 328527,
   "shortName": "nal",
