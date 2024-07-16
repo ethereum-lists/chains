@@ -11205,6 +11205,19 @@
   "faucets": ["https://faucet.goldsmartchain.com"],
   "infoURL": "https://goldsmartchain.com"
 }, {
+  "name": "RACE Mainnet",
+  "chainId": 6805,
+  "shortName": "raceeth",
+  "networkId": 6805,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://racemainnet.io/"],
+  "faucets": [],
+  "infoURL": "https://race.foundation/"
+}, {
   "name": "RACE Testnet",
   "chainId": 6806,
   "shortName": "racesep",
