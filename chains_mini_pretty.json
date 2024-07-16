@@ -20578,6 +20578,19 @@
   "faucets": ["https://sepoliafaucet.com/"],
   "infoURL": "https://ceremonies.gitbook.io"
 }, {
+  "name": "ZERO Testnet (Sepolia)",
+  "chainId": 4457845,
+  "shortName": "zero-sepolia",
+  "networkId": 4457845,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zerion.io/v1/zero-sepolia"],
+  "faucets": [],
+  "infoURL": "https://docs.zero.network"
+}, {
   "name": "NumBlock Chain",
   "chainId": 5112023,
   "shortName": "NUMB",
