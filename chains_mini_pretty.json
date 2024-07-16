@@ -16405,6 +16405,19 @@
   "faucets": [],
   "infoURL": "https://gobob.xyz"
 }, {
+  "name": "Orange Chain Mainnet",
+  "chainId": 61022,
+  "shortName": "Orange-Chain-Mainnet",
+  "networkId": 61022,
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.orangechain.xyz"],
+  "faucets": [],
+  "infoURL": "https://orangechain.xyz"
+}, {
   "name": "KaiChain",
   "chainId": 61406,
   "shortName": "kec",
