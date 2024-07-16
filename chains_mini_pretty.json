@@ -3288,6 +3288,32 @@
   "faucets": [],
   "infoURL": "https://zksync.io/"
 }, {
+  "name": "GRVT Mainnet",
+  "chainId": 325,
+  "shortName": "grvt",
+  "networkId": 325,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://grvt.io/"
+}, {
+  "name": "GRVT Sepolia Testnet",
+  "chainId": 326,
+  "shortName": "grvt-sepolia",
+  "networkId": 326,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://grvt.io/"
+}, {
   "name": "Web3Q Mainnet",
   "chainId": 333,
   "shortName": "w3q",
