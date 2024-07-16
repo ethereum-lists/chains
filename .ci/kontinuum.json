@@ -1,6 +1,7 @@
 {
   "type": "ci",
-  "stages": [
+  "stages": [action
+    
       {"name":"test"},
       {"name":"run"}
   ]
