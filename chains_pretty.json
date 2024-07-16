@@ -34176,9 +34176,9 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "NeoX Testnet",
+  "name": "NeoX Testnet T3",
   "chain": "NeoX",
-  "rpc": ["https://testnet.rpc.banelabs.org/"],
+  "rpc": ["https://neoxseed1.ngd.network/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Gas",
@@ -34195,7 +34195,7 @@
     "url": "https://testnet.scan.banelabs.org",
     "standard": "EIP3091"
   }],
-  "status": "active"
+  "status": "deprecated"
 }, {
   "name": "COTI Devnet",
   "title": "COTI Devnet",
