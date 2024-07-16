@@ -20981,6 +20981,19 @@
   "faucets": [],
   "infoURL": "https://neo.org/"
 }, {
+  "name": "NeoX Testnet T4",
+  "chainId": 12227332,
+  "shortName": "neox-t4",
+  "networkId": 12227332,
+  "nativeCurrency": {
+    "name": "Gas",
+    "symbol": "GAS",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.rpc.banelabs.org/"],
+  "faucets": [],
+  "infoURL": "https://neo.org/"
+}, {
   "name": "COTI Devnet",
   "chainId": 13068200,
   "shortName": "coti-devnet",
