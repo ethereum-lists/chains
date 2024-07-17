@@ -1,0 +1,27 @@
+{
+  "name": "Cuckoo Chain",
+  "title": "Cuckoo Chain",
+  "chain": "CuckooAI",
+  "icon": "cuckoo-ai",
+  "rpc": [
+    "https://mainnet-rpc.cuckoo.network",
+    "wss://mainnet-rpc.cuckoo.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CuckooAI",
+    "symbol": "CAI",
+    "decimals": 18
+  },
+  "infoURL": "https://cuckoo.network",
+  "shortName": "cai",
+  "chainId": 1200,
+  "networkId": 1200,
+  "explorers": [
+    {
+      "name": "Cuckoo Chain Explorer",
+      "url": "https://scan.cuckoo.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
