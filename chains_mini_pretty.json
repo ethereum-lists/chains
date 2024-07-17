@@ -7630,6 +7630,19 @@
   "faucets": [],
   "infoURL": "https://www.hubble.exchange"
 }, {
+  "name": "B3 Sepolia Testnet",
+  "chainId": 1993,
+  "shortName": "b3-sepolia",
+  "networkId": 1993,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia.b3.fun"],
+  "faucets": [],
+  "infoURL": "https://b3.fun"
+}, {
   "name": "Ekta",
   "chainId": 1994,
   "shortName": "ekta",
