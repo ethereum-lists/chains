@@ -1,0 +1,23 @@
+{
+  "name": "MetaNova Verse",
+  "chain": "MNV",
+  "rpc": ["https://web3.metanovaverse.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MNV",
+    "symbol": "MNV",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://www.blockxnet.com/",
+  "shortName": "mnv",
+  "chainId": 10096,
+  "networkId": 10096,
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://explorer.blockxnet.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
