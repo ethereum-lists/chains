@@ -8683,16 +8683,16 @@
   "faucets": [],
   "infoURL": "https://xo-dex.com"
 }, {
-  "name": "King Of Legends Devnet",
+  "name": "King Of Legends Mainnet",
   "chainId": 2425,
-  "shortName": "kol",
+  "shortName": "kcc",
   "networkId": 2425,
   "nativeCurrency": {
     "name": "King Of Legends",
-    "symbol": "KOL",
+    "symbol": "KCC",
     "decimals": 18
   },
-  "rpc": ["https://rpc-devnet.kinggamer.org/"],
+  "rpc": ["https://rpc-mainnet.kinggamer.org/"],
   "faucets": [],
   "infoURL": "https://kingoflegends.net/"
 }, {
