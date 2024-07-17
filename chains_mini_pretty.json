@@ -5290,13 +5290,26 @@
   "faucets": ["https://faucet.eliberty.ngo"],
   "infoURL": "https://eliberty.ngo"
 }, {
-  "name": "5ireChain Thunder",
-  "chainId": 997,
+  "name": "5ireChain Mainnet",
+  "chainId": 995,
   "shortName": "5ire",
-  "networkId": 997,
+  "networkId": 995,
   "nativeCurrency": {
     "name": "5ire Token",
-    "symbol": "5ire",
+    "symbol": "5IRE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.5ire.network"],
+  "faucets": [],
+  "infoURL": "https://5ire.org"
+}, {
+  "name": "5ireChain Thunder",
+  "chainId": 997,
+  "shortName": "T5ire",
+  "networkId": 997,
+  "nativeCurrency": {
+    "name": "5ire Testnet Token",
+    "symbol": "T5IRE",
     "decimals": 18
   },
   "rpc": ["https://rpc-testnet.5ire.network"],
