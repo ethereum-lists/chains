@@ -1,10 +1,8 @@
 {
   "name": "Autonity Bakerloo (Sumida) Testnet",
+  "status": "deprecated",
   "chain": "AUT",
-  "rpc": [
-    "https://rpc1.bakerloo.autonity.org/",
-    "wss://rpc1.bakerloo.autonity.org/ws/"
-  ],
+  "rpc": [],
   "faucets": ["https://faucet.autonity.org/"],
   "nativeCurrency": {
     "name": "Bakerloo Auton",
