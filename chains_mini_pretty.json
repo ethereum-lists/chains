@@ -21215,6 +21215,19 @@
   "faucets": [],
   "infoURL": "https://pego.network"
 }, {
+  "name": "Vcity Testnet",
+  "chainId": 20230825,
+  "shortName": "Vcity",
+  "networkId": 20230825,
+  "nativeCurrency": {
+    "name": "Testnet Vcity Token",
+    "symbol": "VCITY",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.vcity.app"],
+  "faucets": [],
+  "infoURL": "https://vcity.app"
+}, {
   "name": "DeBank Sepolia Testnet",
   "chainId": 20240324,
   "shortName": "dbkse",
