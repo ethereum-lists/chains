@@ -2807,6 +2807,19 @@
   "faucets": [],
   "infoURL": "https://mainnet.frax.com"
 }, {
+  "name": "Swan Chain Mainnet",
+  "chainId": 254,
+  "shortName": "Swan",
+  "networkId": 254,
+  "nativeCurrency": {
+    "name": "SWANETH",
+    "symbol": "sETH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc01.swanchain.io"],
+  "faucets": [],
+  "infoURL": "https://swanchain.io/"
+}, {
   "name": "Kroma",
   "chainId": 255,
   "shortName": "kroma",
@@ -7918,7 +7931,7 @@
 }, {
   "name": "Swan Saturn Testnet",
   "chainId": 2024,
-  "shortName": "swan",
+  "shortName": "saturn",
   "networkId": 2024,
   "nativeCurrency": {
     "name": "SWANETH",

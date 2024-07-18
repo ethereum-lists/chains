@@ -4420,6 +4420,25 @@
   }],
   "status": "active"
 }, {
+  "name": "Swan Chain Mainnet",
+  "chain": "SWAN",
+  "rpc": ["https://mainnet-rpc01.swanchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SWANETH",
+    "symbol": "sETH",
+    "decimals": 18
+  },
+  "infoURL": "https://swanchain.io/",
+  "shortName": "Swan",
+  "chainId": 254,
+  "networkId": 254,
+  "explorers": [{
+    "name": "Swanchain Explorer",
+    "url": "https://swanscan.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Kroma",
   "chain": "ETH",
   "rpc": ["https://api.kroma.network", "https://rpc-kroma.rockx.com"],
@@ -12734,7 +12753,7 @@
     "decimals": 18
   },
   "infoURL": "https://swanchain.io/",
-  "shortName": "swan",
+  "shortName": "saturn",
   "chainId": 2024,
   "networkId": 2024
 }, {
