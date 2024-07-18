@@ -21150,6 +21150,19 @@
   "faucets": [],
   "infoURL": "https://lambda.im"
 }, {
+  "name": "Mande Network Mainnet",
+  "chainId": 18071918,
+  "shortName": "Mande",
+  "networkId": 18071918,
+  "nativeCurrency": {
+    "name": "Mand",
+    "symbol": "MAND",
+    "decimals": 18
+  },
+  "rpc": ["https://mande-mainnet.public.blastapi.io"],
+  "faucets": [],
+  "infoURL": "https://mande.network/"
+}, {
   "name": "IOLite",
   "chainId": 18289463,
   "shortName": "ilt",
