@@ -21540,6 +21540,19 @@
   "faucets": [],
   "infoURL": "https://0xhash.io"
 }, {
+  "name": "Backstop Testnet",
+  "chainId": 88558801,
+  "shortName": "backstop-testnet",
+  "networkId": 88558801,
+  "nativeCurrency": {
+    "name": "Backstop Testnet 1",
+    "symbol": "ZBS",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.rpc.backstop.technology"],
+  "faucets": [],
+  "infoURL": "https://backstop.technology/testnet"
+}, {
   "name": "T.E.A.M Blockchain",
   "chainId": 88888888,
   "shortName": "team",
