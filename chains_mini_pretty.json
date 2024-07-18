@@ -11049,6 +11049,19 @@
   "faucets": [],
   "infoURL": "https://uptn.io"
 }, {
+  "name": "LAOS",
+  "chainId": 6283,
+  "shortName": "laosnetwork",
+  "networkId": 6283,
+  "nativeCurrency": {
+    "name": "LAOS",
+    "symbol": "LAOS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.laos.laosfoundation.io", "wss://rpc.laos.laosfoundation.io"],
+  "faucets": [],
+  "infoURL": "https://laosnetwork.io"
+}, {
   "name": "Aura Euphoria Testnet",
   "chainId": 6321,
   "shortName": "eaura",
