@@ -1,5 +1,5 @@
 {
-  "name": "SatsChain Mainnet",
+  "name": "SatsChain",
   "chain": "SatsChain",
   "rpc": ["https://rpc-satschain-1.bevm.io/"],
   "faucets": [],
@@ -15,7 +15,7 @@
   "icon": "satschain",
   "explorers": [
     {
-      "name": "satschain mainnet scan",
+      "name": "satschain scan",
       "url": "https://scan-satschain.bevm.io",
       "standard": "none"
     }
