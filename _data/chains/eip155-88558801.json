@@ -12,5 +12,14 @@
   "infoURL": "https://backstop.technology/testnet",
   "shortName": "backstop-testnet",
   "chainId": 88558801,
-  "networkId": 88558801
+  "networkId": 88558801,
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [
+      {
+        "url": "https://testnet.bridge.backstop.technology"
+      }
+    ]
+  }
 }
