@@ -1,7 +1,7 @@
 {
-  "name": "NeoX Testnet T3",
+  "name": "NeoX Testnet T4",
   "chain": "NeoX",
-  "rpc": ["https://neoxseed1.ngd.network/"],
+  "rpc": ["https://testnet.rpc.banelabs.org/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Gas",
@@ -9,9 +9,9 @@
     "decimals": 18
   },
   "infoURL": "https://neo.org/",
-  "shortName": "neox",
-  "chainId": 12227331,
-  "networkId": 12227331,
+  "shortName": "neox-t4",
+  "chainId": 12227332,
+  "networkId": 12227332,
   "icon": "neox",
   "explorers": [
     {
@@ -20,5 +20,5 @@
       "standard": "EIP3091"
     }
   ],
-  "status": "deprecated"
+  "status": "active"
 }
