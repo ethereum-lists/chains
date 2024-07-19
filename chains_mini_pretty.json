@@ -2612,6 +2612,19 @@
   "faucets": ["https://faucet.scalind.com"],
   "infoURL": "https://scalind.com"
 }, {
+  "name": "BlockEx Mainnet",
+  "chainId": 221,
+  "shortName": "BlockEx",
+  "networkId": 221,
+  "nativeCurrency": {
+    "name": "BlockEx",
+    "symbol": "XBE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.blockex.biz"],
+  "faucets": [],
+  "infoURL": "https://blockex.biz"
+}, {
   "name": "Permission",
   "chainId": 222,
   "shortName": "ASK",
