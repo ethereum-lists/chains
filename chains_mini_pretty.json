@@ -10711,6 +10711,19 @@
   "faucets": [],
   "infoURL": "https://explorer.testnet.itxchain.com"
 }, {
+  "name": "Netsbo",
+  "chainId": 5333,
+  "shortName": "nets",
+  "networkId": 5333,
+  "nativeCurrency": {
+    "name": "Netsbo",
+    "symbol": "NETS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1.netsbo.io", "https://rpc2.netsbo.io"],
+  "faucets": [],
+  "infoURL": "https://netsbo.io"
+}, {
   "name": "Tritanium Testnet",
   "chainId": 5353,
   "shortName": "ttrn",
