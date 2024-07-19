@@ -4172,6 +4172,19 @@
   "faucets": ["https://vne.network/rose"],
   "infoURL": "https://www.peer.inc"
 }, {
+  "name": "Darwin Devnet",
+  "chainId": 610,
+  "shortName": "darwin-devnet",
+  "networkId": 610,
+  "nativeCurrency": {
+    "name": "Darwin Devnet token",
+    "symbol": "DNA",
+    "decimals": 18
+  },
+  "rpc": ["https://devnet.darwinchain.ai"],
+  "faucets": ["https://devnet.darwinchain.ai/faucet"],
+  "infoURL": "https://darwinchain.ai"
+}, {
   "name": "EIOB Mainnet",
   "chainId": 612,
   "shortName": "eiob",
