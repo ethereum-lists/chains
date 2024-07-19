@@ -14156,6 +14156,19 @@
   "faucets": [],
   "infoURL": "https://www.genesys.network/"
 }, {
+  "name": "0G-Newton-Testnet",
+  "chainId": 16600,
+  "shortName": "0gai-testnet",
+  "networkId": 16600,
+  "nativeCurrency": {
+    "name": "A0GI",
+    "symbol": "A0GI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.0g.ai"],
+  "faucets": ["https://faucet.0g.ai"],
+  "infoURL": "https://0g.ai"
+}, {
   "name": "IRIShub Testnet",
   "chainId": 16688,
   "shortName": "nyancat",
