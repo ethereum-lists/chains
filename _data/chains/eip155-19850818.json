@@ -11,6 +11,7 @@
   "infoURL": "https://www.deepbrainchain.org",
   "shortName": "tDBC",
   "chainId": 19850818,
+  "icon": "dbc",
   "networkId": 19850818,
   "slip44": 1,
 
@@ -18,6 +19,7 @@
     {
       "name": "DeepBrainChain Testnet",
       "url": "https://blockscout-testnet.dbcscan.io",
+      "icon": "dbc",
       "standard": "EIP3091"
     }
   ]

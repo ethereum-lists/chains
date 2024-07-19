@@ -12,12 +12,14 @@
   "shortName": "DBC",
   "chainId": 19880818,
   "networkId": 19880818,
+  "icon": "dbc",
   "slip44": 1,
 
   "explorers": [
     {
       "name": "DeepBrainChain Mainnet",
       "url": "https://blockscout.dbcscan.io",
+      "icon": "dbc",
       "standard": "EIP3091"
     }
   ]
