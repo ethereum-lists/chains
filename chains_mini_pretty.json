@@ -21254,6 +21254,32 @@
   "faucets": [],
   "infoURL": "https://iolite.io"
 }, {
+  "name": "DeepBrainChain Testnet",
+  "chainId": 19850818,
+  "shortName": "tDBC",
+  "networkId": 19850818,
+  "nativeCurrency": {
+    "name": "DeepBrainChain",
+    "symbol": "DBC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.dbcwallet.io"],
+  "faucets": [],
+  "infoURL": "https://www.deepbrainchain.org"
+}, {
+  "name": "DeepBrainChain Mainnet",
+  "chainId": 19880818,
+  "shortName": "DBC",
+  "networkId": 19880818,
+  "nativeCurrency": {
+    "name": "DeepBrainChain",
+    "symbol": "DBC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.dbcwallet.io"],
+  "faucets": [],
+  "infoURL": "https://www.deepbrainchain.org"
+}, {
   "name": "Stability Testnet",
   "chainId": 20180427,
   "shortName": "stabilitytestnet",
