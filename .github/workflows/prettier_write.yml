@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: EPMatt/reviewdog-action-prettier@v1
+      - uses: bryant-finney/reviewdog-action-prettier@v1.2.1
         with:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review
