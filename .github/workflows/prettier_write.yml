@@ -20,4 +20,3 @@ jobs:
         with:
           prettier_options: --write _data/*/*.json
           only_changed: True
-	  name: Run prettier write
