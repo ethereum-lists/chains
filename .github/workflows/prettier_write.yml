@@ -1,31 +1,23 @@
-name: Run prettier write
+name: Apply prettier
 
 on:
   pull_request:
+    branches: [master]
 
 jobs:
   prettier:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Check out repo
-        uses: actions/checkout@v2
-        env:
-          PAT: ${{ secrets.PAT }}
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
-          token: ${{ PAT }}
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-          ref: ${{ github.event.pull_request.head.ref }}
-      - uses: actions/cache@v2
-        name: Configure npm caching
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - name: Prettify code
+        uses: creyD/prettier_action@v4.3
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-npm-${{ hashFiles('**/workflows/prettier.yml') }}
-          restore-keys: |
-            ${{ runner.os }}-npm-
-      - name: Run prettier
-        run: |-
-          npx prettier --write '_data/*/*.json'
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: 'Fix formatting'
+          prettier_options: --write _data/*/*.json
+          only_changed: True
+	  name: Run prettier write
