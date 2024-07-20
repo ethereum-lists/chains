@@ -11,4 +11,4 @@ jobs:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review
           level: error
-          prettier_flags: _data/*/*.json
+          prettier_flags: '_data/*/*.json'
