@@ -8,6 +8,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: bryant-finney/reviewdog-action-prettier@v1.2.1
         with:
-          github_token: ${{ secrets.github_token }}
+          github_token: ${{ secrets.PAT }}
           reporter: github-pr-review
           prettier_flags: '_data/*/*.json'
