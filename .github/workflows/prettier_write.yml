@@ -15,8 +15,7 @@ jobs:
           ref: ${{ github.head_ref }}
           fetch-depth: 0
 
-      - name: Prettify code
+      - name: Prettify json
         uses: creyD/prettier_action@v4.3
         with:
           prettier_options: --write _data/*/*.json
-          only_changed: True
