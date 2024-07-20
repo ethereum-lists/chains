@@ -1,16 +1,24 @@
 {
-  "name": "Bullions Smart Chain",
-  "chain": "Bullions",
-  "rpc": [],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "Bullions",
-    "symbol": "BLN",
-    "decimals": 18
-  },
-  "infoURL": "https://www.bullionsx.io",
-  "shortName": "bln",
-  "chainId": 8732,
-  "networkId": 8732,
-  "slip44": 8732
-}
+    "name": "Bullions Smart Chain",
+    "chain": "Bullions",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Bullions",
+      "symbol": "BLN",
+      "decimals": 18
+    },
+    "infoURL": "https://www.bullionsx.io",
+    "shortName": "bln",
+    "chainId": 8732,
+    "networkId": 8732,
+    "slip44": 8732,
+    "explorers": [
+      {
+        "name": "Bullionscan",
+        "url": "https://bullionscan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  }
+  
