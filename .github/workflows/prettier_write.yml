@@ -1,5 +1,5 @@
 name: prettier review
-on: [pull_request]
+on: [pull_request_target]
 jobs:
   prettier:
     name: runner / prettier
