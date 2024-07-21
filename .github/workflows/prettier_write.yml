@@ -1,14 +1,13 @@
 name: prettier review
-on: [pull_request]
+on: [pull_request_target]
 jobs:
   prettier:
     name: runner / prettier
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: EPMatt/reviewdog-action-prettier@v1
+      - uses: bryant-finney/reviewdog-action-prettier@v1.2.1
         with:
-          github_token: ${{ secrets.github_token }}
+          github_token: ${{ secrets.PAT }}
           reporter: github-pr-review
-          level: error
           prettier_flags: '_data/*/*.json'
