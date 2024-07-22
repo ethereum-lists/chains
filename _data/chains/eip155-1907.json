@@ -1,0 +1,23 @@
+{
+  "name": "Bitcichain Mainnet",
+  "chain": "BITCI",
+  "icon": "bitci",
+  "rpc": ["https://rpc.bitci.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bitci",
+    "symbol": "BITCI",
+    "decimals": 18
+  },
+  "infoURL": "https://www.bitcichain.com",
+  "shortName": "bitci",
+  "chainId": 1907,
+  "networkId": 1907,
+  "explorers": [
+    {
+      "name": "Bitci Explorer",
+      "url": "https://bitciexplorer.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

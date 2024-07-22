@@ -1,0 +1,23 @@
+{
+  "name": "Acria IntelliChain",
+  "chain": "AIC",
+  "rpc": ["https://aic.acria.ai"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ACRIA",
+    "symbol": "ACRIA",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://acria.ai",
+  "shortName": "aic",
+  "chainId": 47,
+  "networkId": 47,
+  "explorers": [
+    {
+      "name": "Acria IntelliChain-Explorer",
+      "url": "https://explorer.acria.ai",
+      "standard": "EIP3091"
+    }
+  ]
+}

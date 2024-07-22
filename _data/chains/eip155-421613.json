@@ -5,18 +5,23 @@
   "shortName": "arb-goerli",
   "chain": "ETH",
   "networkId": 421613,
+  "slip44": 1,
   "nativeCurrency": {
     "name": "Arbitrum Goerli Ether",
     "symbol": "AGOR",
     "decimals": 18
   },
-  "rpc": ["https://goerli-rollup.arbitrum.io/rpc/"],
+  "rpc": [
+    "https://goerli-rollup.arbitrum.io/rpc",
+    "https://arbitrum-goerli.publicnode.com",
+    "wss://arbitrum-goerli.publicnode.com"
+  ],
   "faucets": [],
   "infoURL": "https://arbitrum.io/",
   "explorers": [
     {
-      "name": "Arbitrum Goerli Rollup Explorer",
-      "url": "https://goerli-rollup-explorer.arbitrum.io",
+      "name": "Arbitrum Goerli Arbiscan",
+      "url": "https://goerli.arbiscan.io",
       "standard": "EIP3091"
     }
   ],

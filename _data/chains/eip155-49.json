@@ -12,12 +12,12 @@
   "shortName": "etmpTest",
   "chainId": 49,
   "networkId": 49,
+  "slip44": 1,
   "icon": "etmp",
   "explorers": [
     {
       "name": "etmp",
       "url": "https://pioneer.etmscan.network",
-      "icon": "etmpscan",
       "standard": "EIP3091"
     }
   ]

@@ -1,24 +1,27 @@
 {
-  "name": "Binance Smart Chain Testnet",
+  "name": "BNB Smart Chain Testnet",
   "chain": "BSC",
   "rpc": [
-    "https://data-seed-prebsc-1-s1.binance.org:8545",
-    "https://data-seed-prebsc-2-s1.binance.org:8545",
-    "https://data-seed-prebsc-1-s2.binance.org:8545",
-    "https://data-seed-prebsc-2-s2.binance.org:8545",
-    "https://data-seed-prebsc-1-s3.binance.org:8545",
-    "https://data-seed-prebsc-2-s3.binance.org:8545"
+    "https://data-seed-prebsc-1-s1.bnbchain.org:8545",
+    "https://data-seed-prebsc-2-s1.bnbchain.org:8545",
+    "https://data-seed-prebsc-1-s2.bnbchain.org:8545",
+    "https://data-seed-prebsc-2-s2.bnbchain.org:8545",
+    "https://data-seed-prebsc-1-s3.bnbchain.org:8545",
+    "https://data-seed-prebsc-2-s3.bnbchain.org:8545",
+    "https://bsc-testnet-rpc.publicnode.com",
+    "wss://bsc-testnet-rpc.publicnode.com"
   ],
-  "faucets": ["https://testnet.binance.org/faucet-smart"],
+  "faucets": ["https://testnet.bnbchain.org/faucet-smart"],
   "nativeCurrency": {
-    "name": "Binance Chain Native Token",
+    "name": "BNB Chain Native Token",
     "symbol": "tBNB",
     "decimals": 18
   },
-  "infoURL": "https://testnet.binance.org/",
+  "infoURL": "https://www.bnbchain.org/en",
   "shortName": "bnbt",
   "chainId": 97,
   "networkId": 97,
+  "slip44": 1,
   "explorers": [
     {
       "name": "bscscan-testnet",

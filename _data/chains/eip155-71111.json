@@ -1,0 +1,28 @@
+{
+  "name": "GuapcoinX",
+  "chain": "GuapcoinX",
+  "rpc": [
+    "https://rpc-mainnet.guapcoinx.com/",
+    "https://rpc-mainnet-1.guapcoinx.com/",
+    "https://rpc-mainnet-2.guapcoinx.com/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GuapcoinX",
+    "symbol": "GuapX",
+    "decimals": 18
+  },
+  "infoURL": "https://guapcoin.org/",
+  "shortName": "GuapX",
+  "chainId": 71111,
+  "networkId": 71111,
+  "icon": "guapcoinx",
+  "explorers": [
+    {
+      "name": "GuapcoinX Explorer",
+      "url": "http://explorer.guapcoinx.com",
+      "standard": "none",
+      "icon": "guapcoinx"
+    }
+  ]
+}

@@ -101,7 +101,8 @@
                         "type":"string"
                     },
                     "standard":{
-                        "type":"string"
+                        "type":"string",
+			"description": "EIP3091 or none"
                     }
                 }
             }

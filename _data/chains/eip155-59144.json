@@ -1,0 +1,52 @@
+{
+  "name": "Linea",
+  "title": "Linea Mainnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://rpc.linea.build",
+    "wss://rpc.linea.build",
+    "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}",
+    "wss://linea-mainnet.infura.io/ws/v3/${INFURA_API_KEY}"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Linea Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://linea.build",
+  "shortName": "linea",
+  "chainId": 59144,
+  "networkId": 59144,
+  "icon": "linea",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [
+      {
+        "url": "https://bridge.linea.build"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "name": "Etherscan",
+      "url": "https://lineascan.build",
+      "standard": "EIP3091",
+      "icon": "linea"
+    },
+    {
+      "name": "Blockscout",
+      "url": "https://explorer.linea.build",
+      "standard": "EIP3091",
+      "icon": "linea"
+    },
+    {
+      "name": "L2scan",
+      "url": "https://linea.l2scan.co",
+      "standard": "EIP3091",
+      "icon": "linea"
+    }
+  ],
+  "status": "active"
+}

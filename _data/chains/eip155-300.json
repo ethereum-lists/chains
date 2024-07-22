@@ -1,26 +1,35 @@
 {
-  "name": "Optimism on Gnosis",
-  "chain": "OGC",
+  "name": "zkSync Sepolia Testnet",
+  "chain": "ETH",
   "rpc": [
-    "https://optimism.gnosischain.com",
-    "wss://optimism.gnosischain.com/wss"
+    "https://sepolia.era.zksync.dev",
+    "https://zksync-sepolia.drpc.org",
+    "wss://zksync-sepolia.drpc.org"
   ],
-  "faucets": ["https://faucet.gimlu.com/gnosis"],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "xDAI",
-    "symbol": "xDAI",
+    "name": "Ether",
+    "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "https://www.xdaichain.com/for-developers/optimism-optimistic-rollups-on-gc",
-  "shortName": "ogc",
+  "infoURL": "https://zksync.io/",
+  "shortName": "zksync-sepolia",
   "chainId": 300,
   "networkId": 300,
+  "slip44": 1,
+  "icon": "zksync-era",
   "explorers": [
     {
-      "name": "blockscout",
-      "url": "https://blockscout.com/xdai/optimism",
-      "icon": "blockscout",
+      "name": "zkSync Block Explorer",
+      "url": "https://sepolia.explorer.zksync.io",
+      "icon": "zksync-era",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.zksync.io/" }]
+  },
+  "redFlags": ["reusedChainId"]
 }

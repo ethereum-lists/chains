@@ -1,0 +1,23 @@
+{
+  "name": "Kalichain Testnet",
+  "chain": "Kalichain",
+  "rpc": ["https://rpc.kalichain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "kalis",
+    "symbol": "KALIS",
+    "decimals": 18
+  },
+  "infoURL": "https://kalichain.com",
+  "shortName": "kalichain",
+  "chainId": 653,
+  "networkId": 653,
+  "icon": "kalichain",
+  "explorers": [
+    {
+      "name": "kalichain explorer",
+      "url": "https://explorer.kalichain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

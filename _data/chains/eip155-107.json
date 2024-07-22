@@ -2,7 +2,7 @@
   "name": "Nebula Testnet",
   "chain": "NTN",
   "icon": "nebulatestnet",
-  "rpc": ["https://testnet.rpc.novanetwork.io:9070"],
+  "rpc": ["https://testnet.rpc.novanetwork.io"],
   "faucets": ["https://faucet.novanetwork.io"],
   "nativeCurrency": {
     "name": "Nebula X",
@@ -13,6 +13,7 @@
   "shortName": "ntn",
   "chainId": 107,
   "networkId": 107,
+  "slip44": 1,
   "explorers": [
     {
       "name": "nebulatestnet",

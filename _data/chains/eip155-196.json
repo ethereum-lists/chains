@@ -1,0 +1,25 @@
+{
+  "name": "X Layer Mainnet",
+  "chain": "X Layer",
+  "rpc": ["https://rpc.xlayer.tech", "https://xlayerrpc.okx.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "X Layer Global Utility Token",
+    "symbol": "OKB",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://www.okx.com/xlayer",
+  "shortName": "okb",
+  "chainId": 196,
+  "networkId": 196,
+  "icon": "xlayer",
+  "explorers": [
+    {
+      "name": "OKLink",
+      "url": "https://www.oklink.com/xlayer",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}

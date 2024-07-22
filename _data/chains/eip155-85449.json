@@ -1,0 +1,15 @@
+{
+  "name": "CYBERTRUST",
+  "chain": "CYBER",
+  "rpc": ["http://testnet.cybertrust.space:48501"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Cyber Trust",
+    "symbol": "CYBER",
+    "decimals": 18
+  },
+  "infoURL": "https://cybertrust.space",
+  "shortName": "Cyber",
+  "chainId": 85449,
+  "networkId": 48501
+}

@@ -1,7 +1,14 @@
 {
   "name": "Syscoin Mainnet",
   "chain": "SYS",
-  "rpc": ["https://rpc.syscoin.org", "wss://rpc.syscoin.org/wss"],
+  "rpc": [
+    "https://rpc.syscoin.org",
+    "https://rpc.ankr.com/syscoin/${ANKR_API_KEY}",
+    "https://syscoin.public-rpc.com",
+    "wss://rpc.syscoin.org/wss",
+    "https://syscoin-evm.publicnode.com",
+    "wss://syscoin-evm.publicnode.com"
+  ],
   "faucets": ["https://faucet.syscoin.org"],
   "nativeCurrency": {
     "name": "Syscoin",

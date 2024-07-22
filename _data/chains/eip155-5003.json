@@ -1,0 +1,23 @@
+{
+  "name": "Mantle Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc.sepolia.mantle.xyz"],
+  "faucets": ["https://faucet.sepolia.mantle.xyz"],
+  "nativeCurrency": {
+    "name": "Sepolia Mantle",
+    "symbol": "MNT",
+    "decimals": 18
+  },
+  "infoURL": "https://mantle.xyz",
+  "shortName": "mnt-sep",
+  "chainId": 5003,
+  "networkId": 5003,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.sepolia.mantle.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}

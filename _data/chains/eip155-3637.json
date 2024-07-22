@@ -1,0 +1,23 @@
+{
+  "name": "Botanix Mainnet",
+  "chain": "BTC",
+  "icon": "botanix",
+  "rpc": ["https://rpc.btxtestchain.com"],
+  "faucets": ["https://faucet.btxtestchain.com"],
+  "nativeCurrency": {
+    "name": "Botanix",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://btxtestchain.com",
+  "shortName": "BTCm",
+  "chainId": 3637,
+  "networkId": 3637,
+  "explorers": [
+    {
+      "name": "Botanix",
+      "url": "https://btxtestchain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

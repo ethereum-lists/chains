@@ -1,0 +1,35 @@
+{
+  "name": "LUKSO Testnet",
+  "chain": "LUKSO Testnet",
+  "icon": "lukso",
+  "rpc": [
+    "https://rpc.testnet.lukso.network",
+    "wss://ws-rpc.testnet.lukso.network"
+  ],
+  "faucets": ["https://faucet.testnet.lukso.network"],
+  "nativeCurrency": {
+    "name": "TestLYX",
+    "symbol": "LYXt",
+    "decimals": 18
+  },
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://explorer.execution.testnet.lukso.network",
+      "standard": "none"
+    }
+  ],
+  "infoURL": "https://lukso.network",
+  "shortName": "lukso-testnet",
+  "chainId": 4201,
+  "networkId": 4201,
+  "slip44": 1,
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ]
+}
