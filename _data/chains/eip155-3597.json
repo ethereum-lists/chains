@@ -3,8 +3,8 @@
   "title": "Caucasus mainnet",
   "chain": "Caucasus",
   "icon": "caucasus",
-  "rpc": [ "https://caucasus.bahamut.io", "wss://wscaucasus.bahamut.io" ],
-  "features": [ { "name": "EIP155" }, { "name": "EIP1559" } ],
+  "rpc": ["https://caucasus.bahamut.io", "wss://wscaucasus.bahamut.io"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
     "name": "FTN",
