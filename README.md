@@ -1,5 +1,30 @@
 # EVM-based Chains
-
+{
+  "name": "Ethereum Mainnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
+    "https://api.mycryptoapi.com/eth"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://ethereum.org",
+  "shortName": "eth",
+  "chainId": 1,
+  "networkId": 1,
+  "icon": "ethereum",
+  "explorers": [{
+    "name": "etherscan",
+    "url": "https://etherscan.io",
+    "icon": "etherscan",
+    "standard": "EIP3091"
+  }]
+}https://mainnet.infura.io/v3/${INFURA_API_KEY
 The source data is in _data/chains. Each chain has its own file with the filename being the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) representation as name and `.json` as extension.
 
 ## Example
@@ -32,9 +57,9 @@ The source data is in _data/chains. Each chain has its own file with the filenam
   }]
 }
 ```
-
+https://api.mycryptoapi.com/eth
 when an icon is used in either the network or an explorer there must be a json in _data/icons with the name used (e.g. in the above example there must be a `ethereum.json` and a `etherscan.json` in there) - the icon jsons look like this:
-
+https://etherscan.io
 ```json
 
 [
@@ -68,12 +93,30 @@ If the chain is an L2 or a shard of another chain you can link it to the parent 
 ```
 
 where you need to specify type 2 and the reference to an existing parent. The field about bridges is optional.
-
+https://ethereum.org
 You can add a `status` field e.g. to deprecate (via status `deprecated`) a chain (a chain should never be deleted as this would open the door to replay attacks)
 Other options for `status` are `active` (default) or `incubating`
-
+https://etherscan.io
 ## Aggregation
+{
+  ...
+  "parent": {
+   "type" : "L2",
+   "chain": "eip155-1",
+   "bridges": [ {"url":"https://bridge.arbitrum.io"} ]
+  }
+}
+[
+    {
+      "url": "ipfs://QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt",
+      "width": 1000,
+      "height": 1628,
+      "format": "png"
+    }
+]$ ./gradlew run
 
+BUILD SUCCESSFUL in 7s
+9 actionable tasks: 9 executed
 There are also aggregated json files with all chains automatically assembled:
  * https://chainid.network/chains.json
  * https://chainid.network/chains_mini.json (miniaturized - fewer fields for smaller filesize)
@@ -103,19 +146,22 @@ $ ./gradlew run
 BUILD SUCCESSFUL in 7s
 9 actionable tasks: 9 executed
 ```
-
+npx prettier --write _data/*/*.json
 Also please run the prettier to format your json according to the style [defined here ](https://github.com/ethereum-lists/chains/blob/master/.prettierrc.json)
 e.g. run
 
 ```
 npx prettier --write _data/*/*.json
 ```
+$ ./gradlew run
 
+BUILD SUCCESSFUL in 7s
+9 actionable tasks: 9 executed
 ### Once PR is submitted
 
  * Make sure CI is green. There will likely be no review when the CI is red.
  * When making changes that fix the CI problems - please re-request a review - otherwise it is too much work to track such changes with so many PRs daily
-
+https://bridge.arbitrum.io
 ## Usages
 ### Tools 
  * [MESC](https://paradigmxyz.github.io/mesc)
@@ -127,13 +173,13 @@ npx prettier --write _data/*/*.json
  * [WallETH](https://walleth.org)
  * [TREZOR](https://trezor.io)
  * [Minerva Wallet](https://minerva.digital)
-
+npx prettier --write _data/*/*.json
 ### EIPs
  * EIP-155
  * EIP-3014
  * EIP-3770
  * EIP-4527
-
+npx prettier --write _data/*/*.json
 ### Listing sites
  * [chainid.network](https://chainid.network) / [chainlist.wtf](https://chainlist.wtf)
  * [chainlist.org](https://chainlist.org)
@@ -145,7 +191,7 @@ npx prettier --write _data/*/*.json
  * [evmchainlist.org](https://evmchainlist.org)
  * [networks.vercel.app](https://networks.vercel.app)
  * [Wagmi compatible chain configurations](https://spenhouet.com/chains)
-
+https://bridge.arbitrum.io
 ### Other
  * [FaucETH](https://github.com/komputing/FaucETH)
  * [Sourcify playground](https://playground.sourcify.dev)
