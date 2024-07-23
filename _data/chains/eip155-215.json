@@ -1,0 +1,24 @@
+{
+    "name": "Zero Network EVM",
+    "chain": "ZERO",
+    "faucets": [],
+    "rpc": ["https://evm.rpc.zero.io"],
+    "icon": "ethereum",
+    "nativeCurrency": {
+      "name": "ZERO",
+      "symbol": "ZERO",
+      "decimals": 18
+    },
+    "infoURL": "https://zero.io",
+    "shortName": "ZERO-EVM",
+    "chainId": 215,
+    "networkId": 215,
+    "explorers": [
+      {
+        "name": "zero explorer",
+        "url": "https://evm.explorer.zero.io",
+        "standard": "none"
+      }
+    ]
+  }
+  
