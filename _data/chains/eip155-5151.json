@@ -1,0 +1,25 @@
+{
+  "name": "Mechain Testnet",
+  "chain": "Mechain",
+  "rpc": ["https://testnet-rpc.mechain.tech/"],
+  "faucets": ["https://faucet.mechain.tech/"],
+  "nativeCurrency": {
+    "name": "ME",
+    "symbol": "ME",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://mechain.tech",
+  "shortName": "me",
+  "chainId": 5151,
+  "networkId": 5151,
+  "icon": "mechain",
+  "explorers": [
+    {
+      "name": "mechain scan",
+      "url": "https://testnet-scan.mechain.tech/",
+      "icon": "mechain",
+      "standard": "EIP3091"
+    }
+  ]
+}
