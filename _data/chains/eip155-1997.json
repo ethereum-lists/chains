@@ -1,0 +1,24 @@
+{
+  "name": "Kyoto",
+  "chain": "KYOTO",
+  "rpc": ["https://rpc.kyotochain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Kyoto",
+    "symbol": "KYOTO",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://kyotoprotocol.io",
+  "shortName": "kyoto",
+  "chainId": 1997,
+  "networkId": 1997,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Kyotoscan",
+      "url": "https://kyotoscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
