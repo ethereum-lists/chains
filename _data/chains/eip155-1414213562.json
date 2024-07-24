@@ -1,0 +1,24 @@
+{
+  "name": "ULAM CHAIN",
+  "chain": "ULAM",
+  "icon": "ulamchain",
+  "rpc": ["https://ulam2.0.ulamchain.io/rpc/"],
+  "features": [{ "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ULAM",
+    "symbol": "ULAM",
+    "decimals": 18
+  },
+  "infoURL": "https://ulamchain.io",
+  "shortName": "ULAM",
+  "chainId": 1414213562,
+  "networkId": 1414213562,
+  "explorers": [
+    {
+      "name": "ULAM CHAIN Explorer",
+      "url": "https://ulam2.0.ulamchain.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
