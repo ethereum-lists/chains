@@ -18173,6 +18173,19 @@
   "faucets": [],
   "infoURL": "https://www.quarkchain.io"
 }, {
+  "name": "MARS Credit",
+  "chainId": 110110,
+  "shortName": "mars",
+  "networkId": 110110,
+  "nativeCurrency": {
+    "name": "Mars",
+    "symbol": "MARS",
+    "decimals": 18
+  },
+  "rpc": ["https://node99-production-dd5f.up.railway.app:443"],
+  "faucets": [],
+  "infoURL": "https://marscredit.xyz/"
+}, {
   "name": "Siberium Test Network",
   "chainId": 111000,
   "shortName": "testsbr",
