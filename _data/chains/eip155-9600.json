@@ -1,0 +1,27 @@
+{
+  "name": "Router-chain",
+  "chain": "ROUTE",
+  "icon": "route",
+  "rpc": [
+    "https://sentry.evm.rpc.routerprotocol.com",
+    "https://sentry.tm.rpc.routerprotocol.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Route",
+    "symbol": "ROUTE",
+    "decimals": 18
+  },
+  "infoURL": "https://www.routerprotocol.com/",
+  "shortName": "ROUTE",
+  "chainId": 9600,
+  "networkId": 9600,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Routerscan",
+      "url": "https://routerscan.io/",
+      "standard": "none"
+    }
+  ]
+}
