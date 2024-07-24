@@ -8410,6 +8410,19 @@
   "faucets": [],
   "infoURL": "https://findora.org/"
 }, {
+  "name": "Animechain Testnet",
+  "chainId": 2162,
+  "shortName": "animechaint",
+  "networkId": 2162,
+  "nativeCurrency": {
+    "name": "Coin",
+    "symbol": "COIN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.kanda.animechain.ai"],
+  "faucets": [],
+  "infoURL": "https://animechain.ai"
+}, {
   "name": "Moonsama Network",
   "chainId": 2199,
   "shortName": "msn",
