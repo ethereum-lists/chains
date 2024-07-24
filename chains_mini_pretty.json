@@ -16678,6 +16678,19 @@
   "faucets": ["https://faucet.avax.network/?subnet=plyr"],
   "infoURL": "https://plyr.network"
 }, {
+  "name": "LAOS Sigma Testnet",
+  "chainId": 62850,
+  "shortName": "laossigma",
+  "networkId": 62850,
+  "nativeCurrency": {
+    "name": "SIGMA",
+    "symbol": "SIGMA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.laossigma.laosfoundation.io", "wss://rpc.laossigma.laosfoundation.io"],
+  "faucets": [],
+  "infoURL": "https://laosnetwork.io"
+}, {
   "name": "eCredits Mainnet",
   "chainId": 63000,
   "shortName": "ecs",
