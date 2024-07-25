@@ -15976,6 +15976,19 @@
   "faucets": [],
   "infoURL": "https://fusion.org"
 }, {
+  "name": "Neo X Mainnet",
+  "chainId": 47763,
+  "shortName": "neox-mainnet",
+  "networkId": 47763,
+  "nativeCurrency": {
+    "name": "Gas",
+    "symbol": "GAS",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-1.rpc.banelabs.org"],
+  "faucets": [],
+  "infoURL": "https://neo.org/"
+}, {
   "name": "REI Network",
   "chainId": 47805,
   "shortName": "REI",
