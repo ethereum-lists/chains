@@ -3,9 +3,9 @@
   "chain": "Fuse",
   "icon": "fusetestnet",
   "rpc": [
-    "https://rpc.fuse.zeeve.net/rpc"
+    "https://rpc.flash.fuse.io"
   ],
-  "faucets": ["https://faucet.fuse.zeeve.net"],
+  "faucets": ["https://faucet.flash.fuse.io"],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
@@ -18,7 +18,7 @@
   "explorers": [
     {
       "name": "Blockscout",
-      "url": "https://expl2.fuse.zeeve.net",
+      "url": "https://explorer.flash.fuse.io",
       "standard": "none"
     }
   ]
