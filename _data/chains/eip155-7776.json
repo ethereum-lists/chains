@@ -1,0 +1,25 @@
+{
+  "name": "PandaSea Mainnet",
+  "chain": "PandaSea",
+  "icon": "",
+  "rpc": [
+    "https://rpc1.pandasea.io/"
+  ],
+  "faucets": [""],
+  "nativeCurrency": {
+    "name": "PandaSea Coin",
+    "symbol": "PANDA",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "PandaSea Mainnet",
+  "chainId": 7776,
+  "networkId": 7776,
+  "explorers": [
+    {
+      "name": "Tracehawk",
+      "url": "https://pandaseascan.com/",
+      "standard": "none"
+    }
+  ]
+}
