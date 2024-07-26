@@ -1,10 +1,7 @@
 {
   "name": "Genesis Coin",
   "chain": "Genesis",
-  "rpc": [
-    "https://genesis-gn.com",
-    "wss://genesis-gn.com"
-  ],
+  "rpc": ["https://genesis-gn.com", "wss://genesis-gn.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "GN Coin",

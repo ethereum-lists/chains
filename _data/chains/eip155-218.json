@@ -1,11 +1,8 @@
 {
   "name": "SoterOne Mainnet old",
   "chain": "SOTER",
-  "rpc": [
-    "https://rpc.soter.one"
-  ],
-  "faucets": [
-  ],
+  "rpc": ["https://rpc.soter.one"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "SoterOne Mainnet Ether",
     "symbol": "SOTER",
@@ -15,5 +12,5 @@
   "shortName": "SO1-old",
   "chainId": 218,
   "networkId": 218,
-  "status":"deprecated"
+  "status": "deprecated"
 }

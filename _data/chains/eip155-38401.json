@@ -1,0 +1,23 @@
+{
+  "name": "ConnectorManager Robin",
+  "chain": "Rangers",
+  "icon": "rangers",
+  "rpc": ["https://robin-cm.rangersprotocol.com/api/jsonrpc"],
+  "faucets": ["https://robin-faucet.rangersprotocol.com"],
+  "nativeCurrency": {
+    "name": "Rangers Protocol Gas",
+    "symbol": "ttRPG",
+    "decimals": 18
+  },
+  "infoURL": "https://rangersprotocol.com",
+  "shortName": "ttrpg",
+  "chainId": 38401,
+  "networkId": 38401,
+  "explorers": [
+    {
+      "name": "rangersscan-robin",
+      "url": "https://robin-rangersscan.rangersprotocol.com",
+      "standard": "none"
+    }
+  ]
+}

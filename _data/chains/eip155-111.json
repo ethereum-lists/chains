@@ -1,12 +1,8 @@
 {
   "name": "EtherLite Chain",
   "chain": "ETL",
-  "rpc": [
-      "https://rpc.etherlite.org"
-  ],
-  "faucets": [
-      "https://etherlite.org/faucets"
-  ],
+  "rpc": ["https://rpc.etherlite.org"],
+  "faucets": ["https://etherlite.org/faucets"],
   "nativeCurrency": {
     "name": "EtherLite",
     "symbol": "ETL",

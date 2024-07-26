@@ -2,12 +2,8 @@
   "name": "ZCore Testnet",
   "chain": "Beach",
   "icon": "zcore",
-  "rpc": [
-    "https://rpc-testnet.zcore.cash"
-  ],
-  "faucets": [
-    "https://faucet.zcore.cash"
-  ],
+  "rpc": ["https://rpc-testnet.zcore.cash"],
+  "faucets": ["https://faucet.zcore.cash"],
   "nativeCurrency": {
     "name": "ZCore",
     "symbol": "ZCR",
@@ -16,5 +12,6 @@
   "infoURL": "https://zcore.cash",
   "shortName": "zcrbeach",
   "chainId": 3331,
-  "networkId": 3331
+  "networkId": 3331,
+  "slip44": 1
 }

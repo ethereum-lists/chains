@@ -1,11 +1,7 @@
 {
-  "name": "PHI Network",
-  "chain": "PHI",
-  "network": "mainnet",
-  "rpc": [
-    "https://rpc1.phi.network",
-    "https://rpc2.phi.network"
-  ],
+  "name": "PHI Network V1",
+  "chain": "PHI V1",
+  "rpc": ["https://rpc1.phi.network", "https://rpc2.phi.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "PHI",
@@ -13,14 +9,16 @@
     "decimals": 18
   },
   "infoURL": "https://phi.network",
-  "shortName": "PHI",
+  "shortName": "PHIv1",
   "chainId": 4181,
   "networkId": 4181,
   "icon": "phi",
-  "explorers": [{
-    "name": "PHI Explorer",
-    "url": "https://explorer.phi.network",
-    "icon": "phi",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "PHI Explorer",
+      "url": "https://explorer.phi.network",
+      "icon": "phi",
+      "standard": "none"
+    }
+  ]
 }

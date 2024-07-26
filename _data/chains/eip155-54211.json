@@ -1,0 +1,23 @@
+{
+  "name": "Haqq Chain Testnet",
+  "chain": "TestEdge2",
+  "rpc": ["https://rpc.eth.testedge2.haqq.network"],
+  "faucets": ["https://testedge2.haqq.network"],
+  "nativeCurrency": {
+    "name": "Islamic Coin",
+    "symbol": "ISLMT",
+    "decimals": 18
+  },
+  "infoURL": "https://islamiccoin.net",
+  "shortName": "ISLMT",
+  "chainId": 54211,
+  "networkId": 54211,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "TestEdge HAQQ Explorer",
+      "url": "https://explorer.testedge2.haqq.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

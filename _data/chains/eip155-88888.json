@@ -1,0 +1,36 @@
+{
+  "name": "Chiliz Chain Mainnet",
+  "chain": "CHZ",
+  "icon": "chilizchain",
+  "rpc": [
+    "https://rpc.chiliz.com",
+    "https://rpc.ankr.com/chiliz",
+    "https://chiliz.publicnode.com"
+  ],
+  "faucets": [
+    "https://spicy-faucet.chiliz.com",
+    "https://tatum.io/faucets/chiliz"
+  ],
+  "nativeCurrency": {
+    "name": "Chiliz",
+    "symbol": "CHZ",
+    "decimals": 18
+  },
+  "infoURL": "https://chiliz.com",
+  "shortName": "chzmainnet",
+  "chainId": 88888,
+  "networkId": 88888,
+  "redFlags": ["reusedChainId"],
+  "explorers": [
+    {
+      "name": "chiliscan",
+      "url": "https://chiliscan.com",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "chilizscan",
+      "url": "https://scan.chiliz.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

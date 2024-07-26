@@ -1,0 +1,32 @@
+{
+  "name": "Gitshock Cartenz Testnet",
+  "chain": "Gitshock Cartenz",
+  "icon": "gitshockchain",
+  "rpc": ["https://rpc.cartenz.works"],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Gitshock Cartenz",
+    "symbol": "tGTFX",
+    "decimals": 18
+  },
+  "infoURL": "https://gitshock.com",
+  "shortName": "gitshockchain",
+  "chainId": 1881,
+  "networkId": 1881,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://scan.cartenz.works",
+      "standard": "EIP3091"
+    }
+  ]
+}

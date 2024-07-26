@@ -1,0 +1,24 @@
+{
+  "name": "ARC Testnet",
+  "chain": "ARC",
+  "icon": "arc",
+  "rpc": ["https://rpc-test-1.archiechain.io"],
+  "faucets": ["https://faucet.archiechain.io"],
+  "nativeCurrency": {
+    "name": "ARC",
+    "symbol": "ARC",
+    "decimals": 18
+  },
+  "infoURL": "https://archiechain.io/",
+  "shortName": "TARC",
+  "chainId": 1244,
+  "networkId": 1244,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "archiescan",
+      "url": "https://testnet.archiescan.io",
+      "standard": "none"
+    }
+  ]
+}

@@ -1,12 +1,8 @@
 {
   "name": "bloxberg",
   "chain": "bloxberg",
-  "rpc": [
-    "https://core.bloxberg.org"
-  ],
-  "faucets": [
-    "https://faucet.bloxberg.org/"
-  ],
+  "rpc": ["https://core.bloxberg.org"],
+  "faucets": ["https://faucet.bloxberg.org/"],
   "nativeCurrency": {
     "name": "BERG",
     "symbol": "U+25B3",

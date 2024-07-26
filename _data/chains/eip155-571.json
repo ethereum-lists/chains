@@ -1,0 +1,25 @@
+{
+  "name": "MetaChain Mainnet",
+  "chain": "MTC",
+  "icon": "metachain",
+  "rpc": ["https://rpc.metatime.com"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Metatime Coin",
+    "symbol": "MTC",
+    "decimals": 18
+  },
+  "infoURL": "https://metatime.com/en",
+  "shortName": "metatime",
+  "chainId": 571,
+  "networkId": 571,
+  "slip44": 571,
+  "explorers": [
+    {
+      "name": "MetaExplorer",
+      "url": "https://explorer.metatime.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

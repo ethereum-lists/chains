@@ -1,0 +1,30 @@
+{
+  "name": "Siberium Network",
+  "chain": "SBR",
+  "rpc": ["https://rpc.main.siberium.net", "https://rpc.main.siberium.net.ru"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Siberium",
+    "symbol": "SIBR",
+    "decimals": 18
+  },
+  "infoURL": "https://siberium.net",
+  "shortName": "sbr",
+  "chainId": 111111,
+  "networkId": 111111,
+  "icon": "siberium",
+  "explorers": [
+    {
+      "name": "Siberium Mainnet Explorer - blockscout - 1",
+      "url": "https://explorer.main.siberium.net",
+      "icon": "siberium",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Siberium Mainnet Explorer - blockscout - 2",
+      "url": "https://explorer.main.siberium.net.ru",
+      "icon": "siberium",
+      "standard": "EIP3091"
+    }
+  ]
+}

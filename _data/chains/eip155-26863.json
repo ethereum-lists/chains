@@ -6,9 +6,7 @@
     "https://rpc2.oasischain.io",
     "https://rpc3.oasischain.io"
   ],
-  "faucets": [
-    "http://faucet.oasischain.io"
-  ],
+  "faucets": ["http://faucet.oasischain.io"],
   "nativeCurrency": {
     "name": "OAC",
     "symbol": "OAC",
@@ -18,9 +16,11 @@
   "shortName": "OAC",
   "chainId": 26863,
   "networkId": 26863,
-  "explorers": [{
-    "name": "OasisChain Explorer",
-    "url": "https://scan.oasischain.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "OasisChain Explorer",
+      "url": "https://scan.oasischain.io",
+      "standard": "EIP3091"
+    }
+  ]
 }

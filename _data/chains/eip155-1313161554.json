@@ -2,7 +2,9 @@
   "name": "Aurora Mainnet",
   "chain": "NEAR",
   "rpc": [
-    "https://mainnet.aurora.dev"
+    "https://mainnet.aurora.dev",
+    "https://aurora.drpc.org",
+    "wss://aurora.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {

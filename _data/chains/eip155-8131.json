@@ -1,0 +1,29 @@
+{
+  "name": "Qitmeer Network Testnet",
+  "chain": "MEER",
+  "rpc": [
+    "https://testnet-qng.rpc.qitmeer.io",
+    "https://testnet.meerlabs.com",
+    "https://meer.testnet.meerfans.club"
+  ],
+  "faucets": ["https://faucet.qitmeer.io"],
+  "nativeCurrency": {
+    "name": "Qitmeer Testnet",
+    "symbol": "MEER-T",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/Qitmeer",
+  "shortName": "meertest",
+  "chainId": 8131,
+  "networkId": 8131,
+  "slip44": 1,
+  "icon": "meer",
+  "explorers": [
+    {
+      "name": "meerscan testnet",
+      "icon": "meer",
+      "url": "https://testnet-qng.qitmeer.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -2,12 +2,8 @@
   "name": "OneLedger Testnet Frankenstein",
   "chain": "OLT",
   "icon": "oneledger",
-  "rpc": [
-    "https://frankenstein-rpc.oneledger.network"
-  ],
-  "faucets": [
-    "https://frankenstein-faucet.oneledger.network"
-  ],
+  "rpc": ["https://frankenstein-rpc.oneledger.network"],
+  "faucets": ["https://frankenstein-faucet.oneledger.network"],
   "nativeCurrency": {
     "name": "OLT",
     "symbol": "OLT",
@@ -17,6 +13,7 @@
   "shortName": "frankenstein",
   "chainId": 4216137055,
   "networkId": 4216137055,
+  "slip44": 1,
   "explorers": [
     {
       "name": "OneLedger Block Explorer",

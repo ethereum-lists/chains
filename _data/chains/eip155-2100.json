@@ -1,9 +1,7 @@
 {
   "name": "Ecoball Mainnet",
   "chain": "ECO",
-  "rpc": [
-	"https://api.ecoball.org/ecoball/"
-  ],
+  "rpc": ["https://api.ecoball.org/ecoball/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ecoball Coin",
@@ -14,9 +12,11 @@
   "shortName": "eco",
   "chainId": 2100,
   "networkId": 2100,
-  "explorers": [{
-    "name": "Ecoball Explorer",
-    "url": "https://scan.ecoball.org",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "Ecoball Explorer",
+      "url": "https://scan.ecoball.org",
+      "standard": "EIP3091"
+    }
+  ]
 }

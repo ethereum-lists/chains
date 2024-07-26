@@ -1,0 +1,24 @@
+{
+  "name": "UPTN",
+  "chain": "UPTN",
+  "icon": "uptn",
+  "rpc": ["https://node-api.uptn.io/v1/ext/rpc"],
+  "features": [{ "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "UPTN",
+    "symbol": "UPTN",
+    "decimals": 18
+  },
+  "infoURL": "https://uptn.io",
+  "shortName": "UPTN",
+  "chainId": 6119,
+  "networkId": 6119,
+  "explorers": [
+    {
+      "name": "UPTN Explorer",
+      "url": "https://explorer.uptn.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

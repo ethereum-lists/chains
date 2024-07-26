@@ -2,7 +2,6 @@
   "name": "Milkomeda C1 Testnet",
   "chain": "milkTAda",
   "icon": "milkomeda",
-  "network": "testnet",
   "rpc": [
     "https://rpc-devnet-cardano-evm.c1.milkomeda.com",
     "wss://rpc-devnet-cardano-evm.c1.milkomeda.com"
@@ -17,6 +16,7 @@
   "shortName": "milkTAda",
   "chainId": 200101,
   "networkId": 200101,
+  "slip44": 1,
   "explorers": [
     {
       "name": "Blockscout",

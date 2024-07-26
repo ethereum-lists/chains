@@ -1,0 +1,23 @@
+{
+  "name": "Tectum Emission Token",
+  "chain": "TET",
+  "rpc": ["https://rpc.softnote.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Tectum",
+    "symbol": "TET",
+    "decimals": 8
+  },
+  "infoURL": "https://softnote.com",
+  "shortName": "tet",
+  "chainId": 1003,
+  "networkId": 1003,
+  "explorers": [
+    {
+      "name": "Tectum explorer",
+      "url": "https://explorer.tectum.io",
+      "icon": "Tettoken256",
+      "standard": "EIP3091"
+    }
+  ]
+}

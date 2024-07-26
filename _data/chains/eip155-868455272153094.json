@@ -1,12 +1,8 @@
 {
   "name": "Godwoken Testnet (V1)",
   "chain": "GWT",
-  "rpc": [
-    "https://godwoken-testnet-web3-v1-rpc.ckbapp.dev"
-  ],
-  "faucets": [
-    "https://homura.github.io/light-godwoken"
-  ],
+  "rpc": ["https://godwoken-testnet-web3-v1-rpc.ckbapp.dev"],
+  "faucets": ["https://homura.github.io/light-godwoken"],
   "nativeCurrency": {
     "name": "CKB",
     "symbol": "CKB",
@@ -16,6 +12,7 @@
   "shortName": "gw-testnet-v1-deprecated",
   "chainId": 868455272153094,
   "networkId": 868455272153094,
+  "slip44": 1,
   "status": "deprecated",
   "explorers": [
     {

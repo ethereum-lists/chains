@@ -1,9 +1,7 @@
 {
   "name": "Metadium Testnet",
   "chain": "META",
-  "rpc": [
-    "https://api.metadium.com/dev"
-  ],
+  "rpc": ["https://api.metadium.com/dev"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Metadium Testnet Ether",
@@ -13,5 +11,6 @@
   "infoURL": "https://metadium.com",
   "shortName": "kal",
   "chainId": 12,
-  "networkId": 12
+  "networkId": 12,
+  "slip44": 1
 }

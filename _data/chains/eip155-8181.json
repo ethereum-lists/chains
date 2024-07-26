@@ -1,0 +1,25 @@
+{
+  "name": "Testnet BeOne Chain",
+  "chain": "tBOC",
+  "rpc": ["https://pre-boc1.beonechain.com"],
+  "faucets": ["https://testnet.beonescan.com/faucet"],
+  "nativeCurrency": {
+    "name": "Testnet BeOne Chain",
+    "symbol": "tBOC",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet.beonescan.com",
+  "shortName": "tBOC",
+  "chainId": 8181,
+  "networkId": 8181,
+  "slip44": 1,
+  "icon": "beonechain",
+  "explorers": [
+    {
+      "name": "Testnet BeOne Chain",
+      "url": "https://testnet.beonescan.com",
+      "icon": "beonechain",
+      "standard": "none"
+    }
+  ]
+}

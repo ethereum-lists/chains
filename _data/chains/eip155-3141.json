@@ -1,0 +1,19 @@
+{
+  "name": "Filecoin - Hyperspace testnet",
+  "status": "deprecated",
+  "chain": "FIL",
+  "icon": "filecoin",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "testnet filecoin",
+    "symbol": "tFIL",
+    "decimals": 18
+  },
+  "infoURL": "https://filecoin.io",
+  "shortName": "filecoin-hyperspace",
+  "chainId": 3141,
+  "networkId": 3141,
+  "slip44": 1,
+  "explorers": []
+}

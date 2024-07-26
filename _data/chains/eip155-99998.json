@@ -1,12 +1,8 @@
 {
   "name": "UB Smart Chain(testnet)",
   "chain": "USC",
-  "network": "testnet",
-  "rpc": [
-    "https://testnet.rpc.uschain.network"
-  ],
-  "faucets": [
-  ],
+  "rpc": ["https://testnet.rpc.uschain.network"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "UBC",
     "symbol": "UBC",
@@ -15,6 +11,6 @@
   "infoURL": "https://www.ubchain.site",
   "shortName": "usctest",
   "chainId": 99998,
-  "networkId": 99998
+  "networkId": 99998,
+  "slip44": 1
 }
-

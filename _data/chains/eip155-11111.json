@@ -2,25 +2,21 @@
   "name": "WAGMI",
   "chain": "WAGMI",
   "icon": "wagmi",
-  "rpc": [
-    "https://subnets.avax.network/wagmi/wagmi-chain-testnet/rpc"
-  ],
-  "faucets": [
-    "https://faucet.trywagmi.xyz"
-  ],
+  "rpc": ["https://subnets.avax.network/wagmi/wagmi-chain-testnet/rpc"],
+  "faucets": ["https://faucet.avax.network/?subnet=wagmi"],
   "nativeCurrency": {
     "name": "WAGMI",
     "symbol": "WGM",
     "decimals": 18
   },
-  "infoURL": "https://trywagmi.xyz",
+  "infoURL": "https://subnets-test.avax.network/wagmi/details",
   "shortName": "WAGMI",
   "chainId": 11111,
   "networkId": 11111,
   "explorers": [
     {
-      "name": "WAGMI Explorer",
-      "url": "https://subnets.avax.network/wagmi/wagmi-chain-testnet/explorer",
+      "name": "Avalanche Subnet Explorer",
+      "url": "https://subnets-test.avax.network/wagmi",
       "standard": "EIP3091"
     }
   ]

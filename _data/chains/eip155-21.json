@@ -1,19 +1,22 @@
 {
-  "name": "ELA-ETH-Sidechain Testnet",
+  "name": "Elastos Smart Chain Testnet",
   "chain": "ETH",
-  "rpc": [
-    "https://rpc.elaeth.io"
-  ],
-  "faucets": [
-    "https://faucet.elaeth.io/"
-  ],
+  "rpc": ["https://api-testnet.elastos.io/eth"],
+  "faucets": ["https://esc-faucet.elastos.io/"],
   "nativeCurrency": {
     "name": "Elastos",
     "symbol": "tELA",
     "decimals": 18
   },
-  "infoURL": "https://elaeth.io/",
-  "shortName": "elaetht",
+  "infoURL": "https://www.elastos.org/",
+  "shortName": "esct",
   "chainId": 21,
-  "networkId": 21
+  "networkId": 21,
+  "explorers": [
+    {
+      "name": "elastos esc explorer",
+      "url": "https://esc-testnet.elastos.io",
+      "standard": "EIP3091"
+    }
+  ]
 }

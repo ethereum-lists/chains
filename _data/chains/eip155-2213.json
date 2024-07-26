@@ -1,10 +1,7 @@
 {
   "name": "Evanesco Mainnet",
   "chain": "EVA",
-  "network": "mainnet",
-  "rpc": [
-    "https://seed4.evanesco.org:8546"
-  ],
+  "rpc": ["https://seed4.evanesco.org:8546"],
   "faucets": [],
   "nativeCurrency": {
     "name": "EVA",

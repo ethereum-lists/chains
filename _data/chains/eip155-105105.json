@@ -1,0 +1,23 @@
+{
+  "name": "Stratis Mainnet",
+  "chain": "Stratis",
+  "rpc": ["https://rpc.stratisevm.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Stratis",
+    "symbol": "STRAX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.stratisplatform.com",
+  "shortName": "stratis",
+  "chainId": 105105,
+  "networkId": 105105,
+  "icon": "stratis",
+  "explorers": [
+    {
+      "name": "Stratis Explorer",
+      "url": "https://explorer.stratisevm.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

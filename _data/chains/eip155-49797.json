@@ -1,9 +1,7 @@
 {
   "name": "Energi Testnet",
   "chain": "NRG",
-  "rpc": [
-    "https://nodeapi.test.energi.network"
-  ],
+  "rpc": ["https://nodeapi.test.energi.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Energi",
@@ -14,5 +12,5 @@
   "shortName": "tnrg",
   "chainId": 49797,
   "networkId": 49797,
-  "slip44": 49797
+  "slip44": 1
 }

@@ -1,0 +1,23 @@
+{
+  "name": "Ella the heart",
+  "chain": "ella",
+  "icon": "ella",
+  "rpc": ["https://rpc.ella.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ella",
+    "symbol": "ELLA",
+    "decimals": 18
+  },
+  "infoURL": "https://ella.network",
+  "shortName": "ELLA",
+  "chainId": 7027,
+  "networkId": 7027,
+  "explorers": [
+    {
+      "name": "Ella",
+      "url": "https://ella.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

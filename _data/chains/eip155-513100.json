@@ -1,0 +1,22 @@
+{
+  "name": "DisChain",
+  "chainId": 513100,
+  "networkId": 513100,
+  "shortName": "dis",
+  "chain": "DIS",
+  "nativeCurrency": {
+    "name": "DisChain",
+    "symbol": "DIS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.dischain.xyz"],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "DisChain",
+      "url": "https://www.oklink.com/dis",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://dischain.xyz"
+}

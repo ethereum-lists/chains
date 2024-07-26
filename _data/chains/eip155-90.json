@@ -1,11 +1,8 @@
 {
   "name": "Garizon Stage0",
   "chain": "GAR",
-  "network": "mainnet",
   "icon": "garizon",
-  "rpc": [
-    "https://s0.garizon.net/rpc"
-  ],
+  "rpc": ["https://s0.garizon.net/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Garizon",
@@ -16,10 +13,12 @@
   "shortName": "gar-s0",
   "chainId": 90,
   "networkId": 90,
-  "explorers": [{
-    "name": "explorer",
-    "url": "https://explorer.garizon.com",
-    "icon": "garizon",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "explorer",
+      "url": "https://explorer.garizon.com",
+      "icon": "garizon",
+      "standard": "EIP3091"
+    }
+  ]
 }

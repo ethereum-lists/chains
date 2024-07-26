@@ -1,0 +1,25 @@
+{
+  "name": "QL1",
+  "chain": "QOM",
+  "status": "incubating",
+  "rpc": ["https://rpc.qom.one"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Shiba Predator",
+    "symbol": "QOM",
+    "decimals": 18
+  },
+  "infoURL": "https://qom.one",
+  "shortName": "qom",
+  "chainId": 766,
+  "networkId": 766,
+  "icon": "qom",
+  "explorers": [
+    {
+      "name": "QL1 Mainnet Explorer",
+      "url": "https://mainnet.qom.one",
+      "icon": "qom",
+      "standard": "EIP3091"
+    }
+  ]
+}
