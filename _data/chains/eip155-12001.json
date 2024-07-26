@@ -1,0 +1,25 @@
+{
+  "name": "Fuse Testnet",
+  "chain": "Fuse",
+  "icon": "fusetestnet",
+  "rpc": [
+    "https://rpc.fuse.zeeve.net/rpc"
+  ],
+  "faucets": ["https://faucet.fuse.zeeve.net"],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "fuse",
+  "chainId": 12001,
+  "networkId": 12001,
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://expl2.fuse.zeeve.net",
+      "standard": "none"
+    }
+  ]
+}
