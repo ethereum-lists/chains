@@ -10347,6 +10347,19 @@
   "faucets": [],
   "infoURL": "https://blackfort.exchange"
 }, {
+  "name": "World Chain Sepolia Testnet",
+  "chainId": 4801,
+  "shortName": "wcsep",
+  "networkId": 4801,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://worldcoin.org/"
+}, {
   "name": "Globel Chain",
   "chainId": 4893,
   "shortName": "GC",
@@ -19629,9 +19642,9 @@
   "faucets": [],
   "infoURL": "https://www.openchain.live"
 }, {
-  "name": "World Chain Sepolia Testnet",
+  "name": "World Chain Sepolia Testnet Deprecated",
   "chainId": 484752,
-  "shortName": "wcsep",
+  "shortName": "wcsep-dep",
   "networkId": 484752,
   "nativeCurrency": {
     "name": "Sepolia Ether",
