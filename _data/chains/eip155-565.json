@@ -1,0 +1,27 @@
+{
+  "name": "Prometheuz Testnet",
+  "chain": "Prometheuz",
+  "icon": "prometheuz",
+  "rpc": [
+    "https://rpc.prometheuz.zeeve.online"
+  ],
+  "faucets": [
+    "https://faucet.prometheuz.zeeve.online"
+  ],
+  "nativeCurrency": {
+    "name": "Pyre",
+    "symbol": "PYRE",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "prometheuz",
+  "chainId": 565,
+  "networkId": 565,
+  "explorers": [
+    {
+      "name": "Prometheuz",
+      "url": "https://explorer.prometheuz.zeeve.online/",
+      "standard": "none"
+    }
+  ]
+}
