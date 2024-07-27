@@ -5711,6 +5711,25 @@
   "chainId": 385,
   "networkId": 385
 }, {
+  "name": "Cronos zkEVM Mainnet",
+  "chain": "CronosZkEVMMainnet",
+  "rpc": ["https://mainnet.zkevm.cronos.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Cronos zkEVM CRO",
+    "symbol": "zkCRO",
+    "decimals": 18
+  },
+  "infoURL": "https://cronos.org/zkevm",
+  "shortName": "zkCRO",
+  "chainId": 388,
+  "networkId": 388,
+  "explorers": [{
+    "name": "Cronos zkEVM (Mainnet) Chain Explorer",
+    "url": "https://explorer.zkevm.cronos.org",
+    "standard": "none"
+  }]
+}, {
   "name": "CamDL Testnet",
   "chain": "CADL",
   "rpc": ["https://rpc1.testnet.camdl.gov.kh/"],
@@ -36378,6 +36397,34 @@
     "name": "Blockscout",
     "url": "https://green-giddy-denebola.explorer.mainnet.skalenodes.com",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "GPT Mainnet",
+  "chain": "GPT Protocol",
+  "icon": "gpt",
+  "rpc": ["https://rpc.gptprotocol.io"],
+  "faucets": [],
+  "chainId": 1511670449,
+  "networkId": 1511670449,
+  "nativeCurrency": {
+    "name": "GPT",
+    "symbol": "GPT",
+    "decimals": 18
+  },
+  "infoURL": "https://gptprotocol.com",
+  "shortName": "GPT",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://bridge.gptprotocol.io"
+    }]
+  },
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.gptprotocol.io",
+    "standard": "EIP3091",
+    "icon": "blockscout"
   }]
 }, {
   "name": "Deprecated SKALE Titan Hub Testnet",

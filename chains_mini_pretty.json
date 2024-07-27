@@ -3535,6 +3535,19 @@
   "faucets": ["https://pipa.lisinski.online"],
   "infoURL": "https://lisinski.online"
 }, {
+  "name": "Cronos zkEVM Mainnet",
+  "chainId": 388,
+  "shortName": "zkCRO",
+  "networkId": 388,
+  "nativeCurrency": {
+    "name": "Cronos zkEVM CRO",
+    "symbol": "zkCRO",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.zkevm.cronos.org"],
+  "faucets": [],
+  "infoURL": "https://cronos.org/zkevm"
+}, {
   "name": "CamDL Testnet",
   "chainId": 395,
   "shortName": "camdl-testnet",
@@ -22319,6 +22332,19 @@
   "rpc": ["https://mainnet.skalenodes.com/v1/green-giddy-denebola", "wss://mainnet-proxy.skalenodes.com/v1/ws/green-giddy-denebola"],
   "faucets": ["https://sfuel.skale.network/"],
   "infoURL": "https://nebulachain.io/"
+}, {
+  "name": "GPT Mainnet",
+  "chainId": 1511670449,
+  "shortName": "GPT",
+  "networkId": 1511670449,
+  "nativeCurrency": {
+    "name": "GPT",
+    "symbol": "GPT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.gptprotocol.io"],
+  "faucets": [],
+  "infoURL": "https://gptprotocol.com"
 }, {
   "name": "Deprecated SKALE Titan Hub Testnet",
   "chainId": 1517929550,
