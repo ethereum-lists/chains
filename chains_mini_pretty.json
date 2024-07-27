@@ -13428,6 +13428,19 @@
   "faucets": ["https://faucetpage.quadrans.io"],
   "infoURL": "https://quadrans.io"
 }, {
+  "name": "Shape Sepolia Testnet",
+  "chainId": 11011,
+  "shortName": "shapesep",
+  "networkId": 11011,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia.shape.network"],
+  "faucets": [],
+  "infoURL": "https://shape.network"
+}, {
   "name": "Astra",
   "chainId": 11110,
   "shortName": "astra",
