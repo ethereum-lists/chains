@@ -15157,6 +15157,19 @@
   "faucets": [],
   "infoURL": "https://www.hychain.com"
 }, {
+  "name": "Nexa MetaNet",
+  "chainId": 29223,
+  "shortName": "nexameta",
+  "networkId": 29223,
+  "nativeCurrency": {
+    "name": "Nexa",
+    "symbol": "NEXA",
+    "decimals": 18
+  },
+  "rpc": ["https://nexa.sh/metanet"],
+  "faucets": [],
+  "infoURL": "https://nexa.sh/meta"
+}, {
   "name": "KaiChain Testnet",
   "chainId": 29536,
   "shortName": "tkec",
