@@ -1,6 +1,6 @@
 {
   "name": "ZEUS Testnet",
-  "chain": "ZEUS",
+  "chain": "tZEUS",
   "icon": "zeusicon",
   "rpc": ["https://testnet-rpc.zeuschainscan.io"],
   "nativeCurrency": {
@@ -9,7 +9,7 @@
     "decimals": 18
   },
   "infoURL": "https://testnet-explorer.zeuschainscan.io",
-  "shortName": "ZEUS",
+  "shortName": "ZEUS Testnet",
   "chainId": 7244,
   "networkId": 7244,
   "faucets": ["https://faucet.zeuschainscan.io"],
