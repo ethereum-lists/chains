@@ -2,9 +2,7 @@
   "name": "Ternoa Testnet",
   "chain": "Ternoa",
   "icon": "ternoa",
-  "rpc": [
-    "https://rpc.zkevm.ternoa.network"
-  ],
+  "rpc": ["https://rpc.zkevm.ternoa.network"],
   "faucets": ["https://faucet.zkevm.ternoa.network"],
   "nativeCurrency": {
     "name": "Capsule Coin",
@@ -18,7 +16,7 @@
   "explorers": [
     {
       "name": "Tracehawk",
-      "url": "https://explorer.zkevm.ternoa.network/",
+      "url": "https://explorer.zkevm.ternoa.network",
       "standard": "none"
     }
   ]
