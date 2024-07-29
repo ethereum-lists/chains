@@ -1,11 +1,8 @@
 {
   "name": "PandaSea Mainnet",
   "chain": "PandaSea",
-  "icon": "",
-  "rpc": [
-    "https://rpc1.pandasea.io/"
-  ],
-  "faucets": [""],
+  "rpc": ["https://rpc1.pandasea.io"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "PandaSea Coin",
     "symbol": "PANDA",
@@ -18,7 +15,7 @@
   "explorers": [
     {
       "name": "Tracehawk",
-      "url": "https://pandaseascan.com/",
+      "url": "https://pandaseascan.com",
       "standard": "none"
     }
   ]
