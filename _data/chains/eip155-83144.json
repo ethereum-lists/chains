@@ -18,5 +18,9 @@
       "standard": "EIP3091"
     }
   ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-84532"
+  },
   "infoURL": "https://xprotocol.org/"
 }
