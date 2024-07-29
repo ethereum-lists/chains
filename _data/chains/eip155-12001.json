@@ -2,9 +2,7 @@
   "name": "Fuse Testnet",
   "chain": "Fuse",
   "icon": "fusetestnet",
-  "rpc": [
-    "https://rpc.flash.fuse.io"
-  ],
+  "rpc": ["https://rpc.flash.fuse.io"],
   "faucets": ["https://faucet.flash.fuse.io"],
   "nativeCurrency": {
     "name": "Ether",
@@ -12,7 +10,7 @@
     "decimals": 18
   },
   "infoURL": "",
-  "shortName": "fuse",
+  "shortName": "fuseZK",
   "chainId": 12001,
   "networkId": 12001,
   "explorers": [
