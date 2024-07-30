@@ -2,17 +2,16 @@
   "name": "Kaia Testnet Kairos",
   "chain": "KAIA",
   "rpc": [
-    "https://public-en.kairos.node.kaia.io",
-    "https://public-en-baobab.klaytn.net"
+    "https://public-en.kairos.node.kaia.io"
   ],
-  "faucets": ["https://baobab.wallet.klaytn.com/access?next=faucet"],
+  "faucets": ["https://faucet.kaia.io"],
   "nativeCurrency": {
     "name": "KAIA",
     "symbol": "KAIA",
     "decimals": 18
   },
-  "infoURL": "https://www.kaia.io/",
-  "shortName": "Kairos",
+  "infoURL": "https://kaia.io/",
+  "shortName": "kaia-kairos",
   "chainId": 1001,
   "networkId": 1001,
   "slip44": 1,
