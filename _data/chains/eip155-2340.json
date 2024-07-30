@@ -1,8 +1,12 @@
 {
-  "name": "Atleta Testnet",
+  "name": "Atleta Olympia",
   "chain": "Atleta",
-  "rpc": ["https://atleta-testnet-rpc.quark.blue:9944"],
-  "faucets": ["https://faucet.atleta.network"],
+  "rpc": [
+    "wss://testnet-rpc.atleta.network:9944",
+    "https://testnet-rpc.atleta.network:9944",
+    "https://testnet-rpc.atleta.network"
+  ],
+  "faucets": ["https://app-olympia.atleta.network/faucet"],
   "nativeCurrency": {
     "name": "Atla",
     "symbol": "ATLA",
@@ -16,9 +20,15 @@
   "icon": "atleta",
   "explorers": [
     {
-      "name": "Atleta Testnet Explorer",
+      "name": "Atleta Olympia Explorer",
       "icon": "atleta",
-      "url": "http://185.234.69.18/?rpc=wss%3A%2F%2Fatleta-testnet-rpc.quark.blue%3A9944#/explorer",
+      "url": "https://blockscout.atleta.network",
+      "standard": "none"
+    },
+    {
+      "name": "Atleta Olympia Polka Explorer",
+      "icon": "atleta",
+      "url": "https://polkadot-explorer.atleta.network/#/explorer",
       "standard": "none"
     }
   ]
