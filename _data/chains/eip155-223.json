@@ -2,7 +2,13 @@
   "name": "B2 Mainnet",
   "title": "B2 Mainnet",
   "chain": "B2",
-  "rpc": ["https://rpc.bsquared.network", "https://b2-mainnet.alt.technology"],
+  "rpc": [
+    "https://mainnet.b2-rpc.com",
+    "https://rpc.bsquared.network",
+    "https://b2-mainnet.alt.technology",
+    "https://b2-mainnet-public.s.chainbase.com",
+    "https://rpc.ankr.com/b2"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin",
