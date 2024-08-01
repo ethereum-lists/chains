@@ -4237,6 +4237,19 @@
   "faucets": [],
   "infoURL": "https://graphlinq.io"
 }, {
+  "name": "Binary Mainnet",
+  "chainId": 624,
+  "shortName": "thebinaryholdings-mainnet",
+  "networkId": 624,
+  "nativeCurrency": {
+    "name": "Binary Token",
+    "symbol": "BNRY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zero.thebinaryholdings.com"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Avocado",
   "chainId": 634,
   "shortName": "avocado",
