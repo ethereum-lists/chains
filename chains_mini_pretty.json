@@ -13493,6 +13493,19 @@
   "faucets": [],
   "infoURL": "https://hashbit.org"
 }, {
+  "name": "Abstract Testnet",
+  "chainId": 11124,
+  "shortName": "Abstract",
+  "networkId": 11124,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://api.testnet.abs.xyz"],
+  "faucets": ["https://faucet.triangleplatform.com/abstract/testnet"],
+  "infoURL": "https://abs.xyz/"
+}, {
   "name": "Shine Chain",
   "chainId": 11221,
   "shortName": "SC20",
