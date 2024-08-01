@@ -1,21 +1,13 @@
-name: Apply prettier
-
-on:
-  pull_request:
-    branches: [master]
-
+name: prettier review
+on: [pull_request_target]
 jobs:
   prettier:
+    name: runner / prettier
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v2
+      - uses: bryant-finney/reviewdog-action-prettier@v1.2.1
         with:
-          ref: ${{ github.head_ref }}
-          fetch-depth: 0
-
-      - name: Prettify json
-        uses: creyD/prettier_action@v4.3
-        with:
-          prettier_options: --write _data/*/*.json
+          github_token: ${{ secrets.PAT }}
+          reporter: github-pr-review
+          prettier_flags: '_data/*/*.json'
