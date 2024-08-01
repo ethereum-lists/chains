@@ -28673,6 +28673,25 @@
     "standard": "none"
   }]
 }, {
+  "name": "ZKasino Mainnet",
+  "chain": "ZKasino",
+  "rpc": ["https://rpc.zkas.zeeve.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ZKAS",
+    "symbol": "ZKAS",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "ZKasino",
+  "chainId": 88800,
+  "networkId": 88800,
+  "explorers": [{
+    "name": "Tracehawk",
+    "url": "https://explorer.zkas.zeeve.net",
+    "standard": "none"
+  }]
+}, {
   "name": "Unit Zero Testnet",
   "chain": "Unit Zero",
   "rpc": ["https://rpc-testnet.unit0.dev"],

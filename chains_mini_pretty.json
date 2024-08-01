@@ -17666,6 +17666,19 @@
   "faucets": [],
   "infoURL": "https://inoai.info"
 }, {
+  "name": "ZKasino Mainnet",
+  "chainId": 88800,
+  "shortName": "ZKasino",
+  "networkId": 88800,
+  "nativeCurrency": {
+    "name": "ZKAS",
+    "symbol": "ZKAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zkas.zeeve.net"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Unit Zero Testnet",
   "chainId": 88817,
   "shortName": "unit0-testnet",
