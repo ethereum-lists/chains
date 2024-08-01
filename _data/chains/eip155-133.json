@@ -13,7 +13,14 @@
   "shortName": "HSKT",
   "chainId": 133,
   "networkId": 133,
-  "explorers": ["https://hashkeychain-testnet-explorer.alt.technology"],
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://hashkeychain-testnet-explorer.alt.technology",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111"
