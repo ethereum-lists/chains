@@ -4250,6 +4250,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Binary Sepolia",
+  "chainId": 625,
+  "shortName": "thebinaryholdings-sepolia",
+  "networkId": 625,
+  "nativeCurrency": {
+    "name": "Test BNRY",
+    "symbol": "BNRY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.thebinaryholdings.com"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Avocado",
   "chainId": 634,
   "shortName": "avocado",
