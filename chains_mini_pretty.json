@@ -22840,6 +22840,19 @@
   "faucets": [],
   "infoURL": "https://alphabetnetwork.org"
 }, {
+  "name": "Fluence Stage",
+  "chainId": 123420000220,
+  "shortName": "fluence-stage",
+  "networkId": 123420000220,
+  "nativeCurrency": {
+    "name": "tFLT",
+    "symbol": "tFLT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-123420000220.raas-testnet.gelato.digital/", "wss://ws-123420000220.raas-testnet.gelato.digital/"],
+  "faucets": [],
+  "infoURL": "https://fluence.network/"
+}, {
   "name": "Ntity Mainnet",
   "chainId": 197710212030,
   "shortName": "ntt",
