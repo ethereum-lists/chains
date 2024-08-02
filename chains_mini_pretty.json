@@ -2066,16 +2066,16 @@
   "faucets": [],
   "infoURL": "https://explorer.lightstreams.io"
 }, {
-  "name": "Omni Testnet",
+  "name": "Omni Omega",
   "chainId": 164,
-  "shortName": "omni_testnet",
+  "shortName": "omni_omega",
   "networkId": 164,
   "nativeCurrency": {
     "name": "Omni",
     "symbol": "OMNI",
     "decimals": 18
   },
-  "rpc": ["https://testnet.omni.network"],
+  "rpc": ["https://omega.omni.network"],
   "faucets": [],
   "infoURL": "https://docs.omni.network"
 }, {
@@ -12231,6 +12231,19 @@
   "rpc": ["https://rpc.lorenzo-protocol.xyz"],
   "faucets": [],
   "infoURL": "https://www.lorenzo-protocol.xyz/"
+}, {
+  "name": "B3",
+  "chainId": 8333,
+  "shortName": "b3",
+  "networkId": 8333,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.b3.fun"],
+  "faucets": [],
+  "infoURL": "https://b3.fun"
 }, {
   "name": "Dracones Financial Services",
   "chainId": 8387,
