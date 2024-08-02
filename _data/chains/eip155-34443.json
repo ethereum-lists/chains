@@ -19,6 +19,11 @@
   "icon": "mode",
   "explorers": [
     {
+      "name": "routescan",
+      "url": "https://modescan.io",
+      "standard": "none"
+    },
+    {
       "name": "modescout",
       "url": "https://explorer.mode.network",
       "standard": "none"
