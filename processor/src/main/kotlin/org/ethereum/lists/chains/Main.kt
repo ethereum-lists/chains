@@ -356,7 +356,7 @@ fun checkChain(chainFile: File, onlineCheck: Boolean, verbose: Boolean = false) 
                 val request = Request.Builder().url(url).build();
                 val code = okHttpClient.newCall(request).execute().code
                 if (code / 100 != 2) {
-                    throw (CantReachExplorerException(url, 200))
+                    throw (CantReachExplorerException(url, code))
                 }
             }
         }
