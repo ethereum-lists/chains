@@ -1,0 +1,23 @@
+{
+  "name": "BBCPAY",
+  "chain": "BBC",
+  "icon": "bbc",
+  "rpc": ["https://bharatscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BBC",
+    "symbol": "BBC",
+    "decimals": 18
+  },
+  "infoURL": "https://bharatscan.com",
+  "shortName": "bbc",
+  "chainId": 2023,
+  "networkId": 2023,
+  "explorers": [
+    {
+      "name": "Bharat Scan Explorer",
+      "url": "https://bharatscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
