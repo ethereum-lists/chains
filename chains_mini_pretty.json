@@ -5433,18 +5433,18 @@
   "faucets": [],
   "infoURL": "https://gton.capital"
 }, {
-  "name": "Klaytn Testnet Baobab",
+  "name": "Kaia Testnet Kairos",
   "chainId": 1001,
-  "shortName": "Baobab",
+  "shortName": "kaia-kairos",
   "networkId": 1001,
   "nativeCurrency": {
-    "name": "KLAY",
-    "symbol": "KLAY",
+    "name": "KAIA",
+    "symbol": "KAIA",
     "decimals": 18
   },
-  "rpc": ["https://public-en-baobab.klaytn.net", "https://api.baobab.klaytn.net:8651"],
-  "faucets": ["https://baobab.wallet.klaytn.com/access?next=faucet"],
-  "infoURL": "https://klaytn.foundation"
+  "rpc": ["https://public-en.kairos.node.kaia.io"],
+  "faucets": ["https://faucet.kaia.io"],
+  "infoURL": "https://kaia.io/"
 }, {
   "name": "Tectum Emission Token",
   "chainId": 1003,
@@ -12167,18 +12167,18 @@
   "faucets": [],
   "infoURL": "https://docs.toruschain.com"
 }, {
-  "name": "Klaytn Mainnet Cypress",
+  "name": "Kaia Mainnet",
   "chainId": 8217,
-  "shortName": "Cypress",
+  "shortName": "kaia-mainnet",
   "networkId": 8217,
   "nativeCurrency": {
-    "name": "KLAY",
-    "symbol": "KLAY",
+    "name": "KAIA",
+    "symbol": "KAIA",
     "decimals": 18
   },
   "rpc": ["https://public-en-cypress.klaytn.net"],
   "faucets": [],
-  "infoURL": "https://klaytn.foundation"
+  "infoURL": "https://kaia.io"
 }, {
   "name": "Space Subnet",
   "chainId": 8227,
