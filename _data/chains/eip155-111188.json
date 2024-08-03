@@ -2,7 +2,12 @@
   "name": "re.al",
   "title": "re.al Real-World Assets network",
   "chain": "re.al",
-  "rpc": ["https://real.drpc.org", "wss://real.drpc.org"],
+  "rpc": [
+    "https://tangible-real.gateway.tenderly.co",
+    "wss://tangible-real.gateway.tenderly.co",
+    "https://real.drpc.org",
+    "wss://real.drpc.org"
+  ],
   "nativeCurrency": {
     "name": "re.al Ether",
     "symbol": "reETH",
