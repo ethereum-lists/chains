@@ -23626,11 +23626,11 @@
 }, {
   "name": "BlockX Mainnet",
   "chain": "blockx",
-  "rpc": [],
+  "rpc": ["https://web3.blockxnet.com"],
   "faucets": ["https://ping.blockxnet.com/blockx/faucet"],
   "nativeCurrency": {
-    "name": "BCXT",
-    "symbol": "BCXT",
+    "name": "BCX",
+    "symbol": "BCX",
     "decimals": 18
   },
   "features": [{
@@ -23639,7 +23639,7 @@
     "name": "EIP1559"
   }],
   "infoURL": "https://www.blockxnet.com/",
-  "shortName": "bcxt",
+  "shortName": "bcx",
   "chainId": 19191,
   "networkId": 19191,
   "explorers": [{

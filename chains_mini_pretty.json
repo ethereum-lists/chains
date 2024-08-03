@@ -14613,14 +14613,14 @@
 }, {
   "name": "BlockX Mainnet",
   "chainId": 19191,
-  "shortName": "bcxt",
+  "shortName": "bcx",
   "networkId": 19191,
   "nativeCurrency": {
-    "name": "BCXT",
-    "symbol": "BCXT",
+    "name": "BCX",
+    "symbol": "BCX",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://web3.blockxnet.com"],
   "faucets": ["https://ping.blockxnet.com/blockx/faucet"],
   "infoURL": "https://www.blockxnet.com/"
 }, {
