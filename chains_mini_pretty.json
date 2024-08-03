@@ -12375,6 +12375,19 @@
   "faucets": [],
   "infoURL": "https://storagechain.io/about-us"
 }, {
+  "name": "Bullions Smart Chain",
+  "chainId": 8732,
+  "shortName": "bln",
+  "networkId": 8732,
+  "nativeCurrency": {
+    "name": "Bullions",
+    "symbol": "BLN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.bullionsx.org"],
+  "faucets": [],
+  "infoURL": "https://www.bullionsx.io"
+}, {
   "name": "Alph Network",
   "chainId": 8738,
   "shortName": "alph",
