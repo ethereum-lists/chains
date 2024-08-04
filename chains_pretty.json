@@ -25317,6 +25317,30 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "SlingShot",
+  "chain": "SLING",
+  "rpc": ["https://rpc.slingshotdao.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sling",
+    "symbol": "SLING",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "https://slingshotdao.com",
+  "shortName": "slingshot",
+  "chainId": 33401,
+  "networkId": 33401,
+  "icon": "slingshot",
+  "explorers": [{
+    "name": "SlingShot Explorer",
+    "url": "https://explore.slingshotdao.com",
+    "icon": "slingshot",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Zilliqa-2 EVM Devnet",
   "chain": "ZIL",
   "rpc": ["https://api.zq2-devnet.zilliqa.com"],
@@ -29116,6 +29140,30 @@
     "standard": "none"
   }],
   "status": "deprecated"
+}, {
+  "name": "SlingShot Testnet",
+  "chain": "SLING",
+  "rpc": ["https://rpc-dependent-emerald-whippet-gh6kch3nen.t.conduit.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sling Test",
+    "symbol": "SLINGT",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "https://slingshotdao.com",
+  "shortName": "sling",
+  "chainId": 97435,
+  "networkId": 97435,
+  "icon": "slingshot",
+  "explorers": [{
+    "name": "SlingShot Test Explorer",
+    "url": "https://explorer-dependent-emerald-whippet-gh6kch3nen.t.conduit.xyz",
+    "icon": "slingshot",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Green Chain Testnet",
   "chain": "Green Chain",

@@ -15651,6 +15651,19 @@
   "faucets": ["https://faucet.devnet.zilliqa.com/"],
   "infoURL": "https://www.zilliqa.com/"
 }, {
+  "name": "SlingShot",
+  "chainId": 33401,
+  "shortName": "slingshot",
+  "networkId": 33401,
+  "nativeCurrency": {
+    "name": "Sling",
+    "symbol": "SLING",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.slingshotdao.com"],
+  "faucets": [],
+  "infoURL": "https://slingshotdao.com"
+}, {
   "name": "Zilliqa-2 EVM Devnet",
   "chainId": 33469,
   "shortName": "zq2-devnet",
@@ -17938,6 +17951,19 @@
   "rpc": [],
   "faucets": [],
   "infoURL": "https://boba.network"
+}, {
+  "name": "SlingShot Testnet",
+  "chainId": 97435,
+  "shortName": "sling",
+  "networkId": 97435,
+  "nativeCurrency": {
+    "name": "Sling Test",
+    "symbol": "SLINGT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-dependent-emerald-whippet-gh6kch3nen.t.conduit.xyz"],
+  "faucets": [],
+  "infoURL": "https://slingshotdao.com"
 }, {
   "name": "Green Chain Testnet",
   "chainId": 97531,
