@@ -12633,11 +12633,11 @@
   "chainId": 2013,
   "networkId": 1
 }, {
-  "name": "NOW Chain",
+  "name": "NOW Chain Testnet",
   "chain": "NOW",
   "icon": "nowchain",
-  "rpc": ["https://rpc.nowscan.io"],
-  "faucets": [],
+  "rpc": ["https://rpc-testnet.nowscan.io"],
+  "faucets": ["https://faucet.nowchain.co"],
   "nativeCurrency": {
     "name": "NOW Coin",
     "symbol": "NOW",
@@ -12649,7 +12649,7 @@
   "networkId": 2014,
   "explorers": [{
     "name": "nowscan",
-    "url": "https://nowscan.io",
+    "url": "https://testnet.nowscan.io",
     "standard": "EIP3091"
   }]
 }, {
