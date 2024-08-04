@@ -9125,6 +9125,19 @@
   "faucets": [],
   "infoURL": "https://morphl2.io"
 }, {
+  "name": "Chips Network",
+  "chainId": 2882,
+  "shortName": "chips",
+  "networkId": 2882,
+  "nativeCurrency": {
+    "name": "IOTA",
+    "symbol": "IOTA",
+    "decimals": 18
+  },
+  "rpc": ["https://node.chips.ooo/wasp/api/v1/chains/iota1pp3d3mnap3ufmgqnjsnw344sqmf5svjh26y2khnmc89sv6788y3r207a8fn/evm"],
+  "faucets": [],
+  "infoURL": "https://www.chips.ooo"
+}, {
   "name": "Boba Network Goerli Testnet",
   "chainId": 2888,
   "shortName": "BobaGoerli",
