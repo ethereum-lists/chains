@@ -11244,6 +11244,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Connext Sepolia",
+  "chainId": 6398,
+  "shortName": "connext-sepolia",
+  "networkId": 6398,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.connext-sepolia.gelato.digital/"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Peerpay",
   "chainId": 6502,
   "shortName": "Peerpay",
