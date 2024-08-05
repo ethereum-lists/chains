@@ -1,15 +1,15 @@
 {
-  "name": "Klaytn Mainnet Cypress",
-  "chain": "KLAY",
+  "name": "Kaia Mainnet",
+  "chain": "KAIA",
   "rpc": ["https://public-en-cypress.klaytn.net"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "KLAY",
-    "symbol": "KLAY",
+    "name": "KAIA",
+    "symbol": "KAIA",
     "decimals": 18
   },
-  "infoURL": "https://klaytn.foundation",
-  "shortName": "Cypress",
+  "infoURL": "https://kaia.io",
+  "shortName": "kaia-mainnet",
   "chainId": 8217,
   "networkId": 8217,
   "slip44": 8217,
