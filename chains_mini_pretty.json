@@ -16912,6 +16912,19 @@
   "faucets": ["https://faucet.tst.ecredits.com"],
   "infoURL": "https://ecredits.com"
 }, {
+  "name": "CratD2C Testnet",
+  "chainId": 65349,
+  "shortName": "cratd2c-testnet",
+  "networkId": 65349,
+  "nativeCurrency": {
+    "name": "CRATD2C",
+    "symbol": "CRATD",
+    "decimals": 18
+  },
+  "rpc": ["https://cratd2c-testnet-node1.cratd2csmartchain.io/", "https://cratd2c-testnet-node2.cratd2csmartchain.io/"],
+  "faucets": [],
+  "infoURL": "https://cratd2csmartchain.io"
+}, {
   "name": "Vecno Mainnet",
   "chainId": 65357,
   "shortName": "ve",
