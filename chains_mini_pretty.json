@@ -7396,6 +7396,19 @@
   "faucets": [],
   "infoURL": "https://boyanet.org"
 }, {
+  "name": "ReDeFi Layer 2",
+  "chainId": 1899,
+  "shortName": "red",
+  "networkId": 1899,
+  "nativeCurrency": {
+    "name": "RED",
+    "symbol": "RED",
+    "decimals": 18
+  },
+  "rpc": ["https://layer2.redefi.world"],
+  "faucets": [],
+  "infoURL": "https://redefi.world"
+}, {
   "name": "Sports Chain Network",
   "chainId": 1904,
   "shortName": "SCN",
@@ -16170,6 +16183,19 @@
   "rpc": ["https://mainnet-1.rpc.banelabs.org"],
   "faucets": [],
   "infoURL": "https://neo.org/"
+}, {
+  "name": "ReDeFi Layer 1",
+  "chainId": 47803,
+  "shortName": "bax",
+  "networkId": 47803,
+  "nativeCurrency": {
+    "name": "BAX",
+    "symbol": "BAX",
+    "decimals": 18
+  },
+  "rpc": ["https://layer1.redefi.world"],
+  "faucets": [],
+  "infoURL": "https://redefi.world"
 }, {
   "name": "REI Network",
   "chainId": 47805,
