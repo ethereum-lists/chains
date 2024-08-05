@@ -1,0 +1,16 @@
+{
+  "name": "SuperAlignment.IO Testnet",
+  "chain": "SATT",
+  "rpc": ["https://rpc_testnet.superalignment.io", "wss://rpc_testnet.superalignment.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SAT",
+    "symbol": "SAT",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://superalignment.io",
+  "shortName": "satt",
+  "chainId": 171000,
+  "networkId": 171000
+}
