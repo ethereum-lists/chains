@@ -16444,19 +16444,6 @@
   "faucets": [],
   "infoURL": "https://toronet.org"
 }, {
-  "name": "Photon Testnet",
-  "chainId": 54555,
-  "shortName": "pton",
-  "networkId": 54555,
-  "nativeCurrency": {
-    "name": "Photon",
-    "symbol": "PTON",
-    "decimals": 18
-  },
-  "rpc": ["https://rpc-test.photonchain.io"],
-  "faucets": ["https://photonchain.io/airdrop"],
-  "infoURL": "https://photonchain.io"
-}, {
   "name": "Titan",
   "chainId": 55004,
   "shortName": "teth",
@@ -16469,6 +16456,19 @@
   "rpc": ["https://rpc.titan.tokamak.network", "wss://rpc.titan.tokamak.network"],
   "faucets": [],
   "infoURL": "https://tokamak.network"
+}, {
+  "name": "Photon Aurora Testnet",
+  "chainId": 55551,
+  "shortName": "pton",
+  "networkId": 55551,
+  "nativeCurrency": {
+    "name": "Photon",
+    "symbol": "PTON",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-test2.photonchain.io"],
+  "faucets": ["https://photonchain.io/testnet2"],
+  "infoURL": "https://photonchain.io"
 }, {
   "name": "REI Chain Mainnet",
   "chainId": 55555,
