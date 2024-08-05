@@ -1,0 +1,16 @@
+{
+  "name": "xFair.AI Mainnet",
+  "chain": "FAIR",
+  "rpc": ["https://rpc_mainnet.xfair.ai", "wss://rpc_mainnet.xfair.ai"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FAIR",
+    "symbol": "FAIR",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://xfair.ai",
+  "shortName": "fair",
+  "chainId": 281,
+  "networkId": 281
+}
