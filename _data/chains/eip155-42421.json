@@ -1,10 +1,8 @@
 {
   "name": "AssetChain Testnet",
   "chain": "RWA",
-  "rpc": [
-    "https://enugu-rpc.assetchain.org"
-  ],
-  "faucets": ["https://faucet.assetchain.org/"],
+  "rpc": ["https://enugu-rpc.assetchain.org"],
+  "faucets": ["https://faucet.assetchain.org"],
   "nativeCurrency": {
     "name": "Real World Asset",
     "symbol": "RWA",
@@ -18,7 +16,7 @@
   "explorers": [
     {
       "name": "Asset Chain Testnet Explorer",
-      "url": "https://scan-testnet.assetchain.org/",
+      "url": "https://scan-testnet.assetchain.org",
       "standard": "EIP3091"
     }
   ]
