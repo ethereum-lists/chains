@@ -1,0 +1,25 @@
+{
+  "name": "BigShortBets Testnet",
+  "chain": "BIGSB Testnet",
+  "rpc": [
+    "https://test-market.bigsb.network",
+    "wss://test-market.bigsb.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dolarz",
+    "symbol": "Dolarz",
+    "decimals": 18
+  },
+  "infoURL": "https://bigshortbets.com/",
+  "shortName": "bigsb_testnet",
+  "chainId": 2136,
+  "networkId": 2136,
+  "explorers": [
+    {
+      "name": "Polkadot.js",
+      "url": "https://polkadot.js.org/apps/?rpc=wss://test-market.bigsb.network#/explorer",
+      "standard": "none"
+    }
+  ]
+}

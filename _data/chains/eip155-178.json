@@ -1,0 +1,23 @@
+{
+  "name": "ABEY Testnet",
+  "chain": "ABEY",
+  "rpc": ["https://testrpc.abeychain.com"],
+  "features": [{ "name": "EIP155" }],
+  "faucets": ["https://testnet-faucet.abeychain.com"],
+  "nativeCurrency": {
+    "name": "ABEY",
+    "symbol": "tABEY",
+    "decimals": 18
+  },
+  "infoURL": "https://abey.com",
+  "shortName": "abeyt",
+  "chainId": 178,
+  "networkId": 178,
+  "explorers": [
+    {
+      "name": "abeyscan-testnet",
+      "url": "https://testnet.abeyscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
