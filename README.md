@@ -1,4 +1,5 @@
 # EVM-based Chains
+"ghcr.io/elanhasson/devcontainer-features/dotnet-aspire-daily:1": {}
 
 The source data is in _data/chains. Each chain has its own file with the filename being the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) representation as name and `.json` as extension.
 
@@ -32,7 +33,28 @@ The source data is in _data/chains. Each chain has its own file with the filenam
   }]
 }
 ```
-
+name: CI
+on:
+  push:
+permissions:
+  actions: read
+  contents: read # required by actions/checkout
+jobs:
+  build:
+    name: Build and Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout action
+        uses: actions/checkout@v4
+      - name: Some Scripts
+        run: echo "do something here"
+      - name: Get Current Job Log URL
+        uses: Tiryoh/gha-jobid-action@v1
+        id: jobs
+        with:
+          job_name: "Build and Test" # input job.<job-id>.name here. job.<job-id> won't works.
+      - name: Output Current Job Log URL
+        run: echo ${{ steps.jobs.outputs.html_url }}
 when an icon is used in either the network or an explorer there must be a json in _data/icons with the name used (e.g. in the above example there must be a `ethereum.json` and a `etherscan.json` in there) - the icon jsons look like this:
 
 ```json
