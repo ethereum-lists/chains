@@ -13766,6 +13766,19 @@
   "faucets": [],
   "infoURL": "https://arianee.org"
 }, {
+  "name": "Fuse Testnet",
+  "chainId": 12001,
+  "shortName": "fuseZK",
+  "networkId": 12001,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.flash.fuse.io"],
+  "faucets": ["https://faucet.flash.fuse.io"],
+  "infoURL": ""
+}, {
   "name": "SatoshiChain Mainnet",
   "chainId": 12009,
   "shortName": "sats",
