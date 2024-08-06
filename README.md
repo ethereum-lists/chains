@@ -4,7 +4,33 @@
 The source data is in _data/chains. Each chain has its own file with the filename being the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) representation as name and `.json` as extension.
 
 ## Example
-
+name: CI
+on:
+  push:
+permissions:
+  actions: read
+  contents: read # required by actions/checkout
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout action
+        uses: actions/checkout@v4
+      - name: Some Scripts
+        run: echo "do something here"
+      - name: Get Current Job Log URL
+        uses: Tiryoh/gha-jobid-action@v1
+        id: jobs
+        with:
+          job_name: "build" # input job.<job-id>
+          #job_name: "${{ github.job }}"  # if job.<job-id>.name is not specified, this works too
+      - name: Output Current Job Log URL
+        run: echo ${{ steps.jobs.outputs.html_url }}
+jobs:
+  my_first_job:         # this is jobs.<job-id>
+    name: My first job  # this is jobs.<job-id>.name
+  my_second_job:        # this is jobs.<job-id>
+    name: My second job # this is jobs.<job-id>.name
 ```json
 {
   "name": "Ethereum Mainnet",
