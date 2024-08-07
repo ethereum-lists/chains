@@ -2,9 +2,7 @@
   "name": "EdgaMatrix Chain",
   "chain": "EMC",
   "icon": "emc",
-  "rpc": [
-    "https://rpc1-mainnet.emc.network"
-  ],
+  "rpc": ["https://rpc1-mainnet.emc.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "EdgaMatrix Chain Token",
@@ -20,7 +18,7 @@
     {
       "name": "blockscout",
       "url": "https://emcscan.com",
-	 "standard": "EIP3091"
+      "standard": "EIP3091"
     }
   ]
 }
