@@ -1,7 +1,9 @@
 {
   "name": "Bifrost Polkadot Mainnet",
   "chain": "Bifrost",
-  "rpc": ["https://hk.p.bifrost-rpc.liebi.com, wss://hk.p.bifrost-rpc.liebi.com/ws"],
+  "rpc": [
+    "https://hk.p.bifrost-rpc.liebi.com, wss://hk.p.bifrost-rpc.liebi.com/ws"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Wrapped ETH",
