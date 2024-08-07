@@ -20344,6 +20344,19 @@
   "faucets": ["https://faucet.bearnetwork.net"],
   "infoURL": "https://bearnetwork.net"
 }, {
+  "name": "Ternoa Testnet",
+  "chainId": 752024,
+  "shortName": "ternoa",
+  "networkId": 7502024,
+  "nativeCurrency": {
+    "name": "Capsule Coin",
+    "symbol": "CAPS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zkevm.ternoa.network"],
+  "faucets": ["https://faucet.zkevm.ternoa.network"],
+  "infoURL": ""
+}, {
   "name": "Miexs Smartchain",
   "chainId": 761412,
   "shortName": "Miexs",
