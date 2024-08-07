@@ -19110,6 +19110,25 @@
     "standard": "none"
   }]
 }, {
+  "name": "PandaSea Mainnet",
+  "chain": "PandaSea",
+  "rpc": ["https://rpc1.pandasea.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PandaSea Coin",
+    "symbol": "PANDA",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "pandaSea-mainnet",
+  "chainId": 7776,
+  "networkId": 7776,
+  "explorers": [{
+    "name": "Tracehawk",
+    "url": "https://pandaseascan.com",
+    "standard": "none"
+  }]
+}, {
   "name": "Rise of the Warbots Testnet",
   "chain": "nmactest",
   "rpc": ["https://testnet1.riseofthewarbots.com", "https://testnet2.riseofthewarbots.com", "https://testnet3.riseofthewarbots.com", "https://testnet4.riseofthewarbots.com", "https://testnet5.riseofthewarbots.com"],

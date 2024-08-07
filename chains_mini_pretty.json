@@ -11816,6 +11816,19 @@
   "faucets": [],
   "infoURL": "https://gdcchain.com"
 }, {
+  "name": "PandaSea Mainnet",
+  "chainId": 7776,
+  "shortName": "pandaSea-mainnet",
+  "networkId": 7776,
+  "nativeCurrency": {
+    "name": "PandaSea Coin",
+    "symbol": "PANDA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1.pandasea.io"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Rise of the Warbots Testnet",
   "chainId": 7777,
   "shortName": "RiseOfTheWarbotsTestnet",
