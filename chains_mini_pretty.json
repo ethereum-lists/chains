@@ -12011,6 +12011,19 @@
   "faucets": ["https://chain-docs.teleport.network/testnet/faucet.html"],
   "infoURL": "https://teleport.network"
 }, {
+  "name": "Polynomial",
+  "chainId": 8008,
+  "shortName": "polynomial",
+  "networkId": 8008,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.polynomial.fi"],
+  "faucets": [],
+  "infoURL": "https://polynomial.fi"
+}, {
   "name": "MDGL Testnet",
   "chainId": 8029,
   "shortName": "mdgl",
@@ -17535,6 +17548,19 @@
   "rpc": ["https://rpc-amoy.polygon.technology", "https://polygon-amoy-bor-rpc.publicnode.com", "wss://polygon-amoy-bor-rpc.publicnode.com"],
   "faucets": ["https://faucet.polygon.technology/"],
   "infoURL": "https://polygon.technology/"
+}, {
+  "name": "Polynomia Sepolia",
+  "chainId": 80008,
+  "shortName": "polynomialSepolia",
+  "networkId": 80008,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.sepolia.polynomial.fi"],
+  "faucets": [],
+  "infoURL": "https://polynomial.fi"
 }, {
   "name": "Berachain bArtio",
   "chainId": 80084,

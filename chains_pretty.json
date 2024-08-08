@@ -19432,6 +19432,27 @@
     "icon": "teleport"
   }]
 }, {
+  "name": "Polynomial",
+  "chain": "Polynomial",
+  "rpc": ["https://rpc.polynomial.fi"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://polynomial.fi",
+  "shortName": "polynomial",
+  "chainId": 8008,
+  "networkId": 8008,
+  "icon": "polynomial",
+  "explorers": [{
+    "name": "Polynomial Explorer",
+    "url": "https://polynomialscan.io",
+    "standard": "none",
+    "icon": "polynomial"
+  }]
+}, {
   "name": "MDGL Testnet",
   "chain": "MDGL",
   "rpc": ["https://testnet.mdgl.io"],
@@ -28479,6 +28500,27 @@
     "name": "polygonamoy",
     "url": "https://www.oklink.com/amoy",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Polynomia Sepolia",
+  "chain": "polynomialSepolia",
+  "rpc": ["https://rpc.sepolia.polynomial.fi"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://polynomial.fi",
+  "shortName": "polynomialSepolia",
+  "chainId": 80008,
+  "networkId": 80008,
+  "icon": "polynomialSepolia",
+  "explorers": [{
+    "name": "Polynomial Sepolia Explorer",
+    "url": "https://sepolia.polynomialscan.io",
+    "standard": "none",
+    "icon": "polynomialSepolia"
   }]
 }, {
   "name": "Berachain bArtio",
