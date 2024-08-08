@@ -19256,6 +19256,47 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "MaalChain V2",
+  "chain": "MAAL",
+  "icon": "maal",
+  "rpc": ["https://node1-mainnet-new.maalscan.io/", "https://node2-mainnet-new.maalscan.io/", "https://node3-mainnet-new.maalscan.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MAAL",
+    "symbol": "MAAL",
+    "decimals": 18
+  },
+  "infoURL": "https://www.maalchain.com/",
+  "shortName": "maal-v2",
+  "chainId": 7862,
+  "networkId": 7862,
+  "explorers": [{
+    "name": "maalscan",
+    "url": "https://maalscan.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "MaalChain Testnet V2",
+  "chain": "MaalChain Testnet V2",
+  "icon": "maal-test",
+  "rpc": ["https://node-testnet.maalscan.io/", "https://node2-testnet.maalscan.io/"],
+  "faucets": ["https://faucet-new-testnet.maalscan.io/"],
+  "nativeCurrency": {
+    "name": "MAAL",
+    "symbol": "MAAL",
+    "decimals": 18
+  },
+  "infoURL": "https://www.maalchain.com/",
+  "shortName": "maal-test-v2",
+  "chainId": 7863,
+  "networkId": 7863,
+  "slip44": 1,
+  "explorers": [{
+    "name": "maalscan testnet",
+    "url": "https://new-testnet.maalscan.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Hazlor Testnet",
   "chain": "SCAS",
   "rpc": ["https://hatlas.rpc.hazlor.com:8545", "wss://hatlas.rpc.hazlor.com:8546"],

@@ -11907,6 +11907,32 @@
   "faucets": ["https://faucet-testnet.maalscan.io/"],
   "infoURL": "https://www.maalchain.com/"
 }, {
+  "name": "MaalChain V2",
+  "chainId": 7862,
+  "shortName": "maal-v2",
+  "networkId": 7862,
+  "nativeCurrency": {
+    "name": "MAAL",
+    "symbol": "MAAL",
+    "decimals": 18
+  },
+  "rpc": ["https://node1-mainnet-new.maalscan.io/", "https://node2-mainnet-new.maalscan.io/", "https://node3-mainnet-new.maalscan.io/"],
+  "faucets": [],
+  "infoURL": "https://www.maalchain.com/"
+}, {
+  "name": "MaalChain Testnet V2",
+  "chainId": 7863,
+  "shortName": "maal-test-v2",
+  "networkId": 7863,
+  "nativeCurrency": {
+    "name": "MAAL",
+    "symbol": "MAAL",
+    "decimals": 18
+  },
+  "rpc": ["https://node-testnet.maalscan.io/", "https://node2-testnet.maalscan.io/"],
+  "faucets": ["https://faucet-new-testnet.maalscan.io/"],
+  "infoURL": "https://www.maalchain.com/"
+}, {
   "name": "Hazlor Testnet",
   "chainId": 7878,
   "shortName": "tscas",
