@@ -1,6 +1,10 @@
 buildscript {
     ext {
+<<<<<<< HEAD
+        KOTLIN_VERSION = "2.0.0"
+=======
         KOTLIN_VERSION = "2.0.10"
+>>>>>>> upstream/master
         KETHEREUM_VERSION = "0.86.0"
     }
 
