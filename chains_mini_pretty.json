@@ -18576,16 +18576,16 @@
   "faucets": [],
   "infoURL": "https://www.quarkchain.io"
 }, {
-  "name": "MARS Credit",
+  "name": "Mars Credit",
   "chainId": 110110,
   "shortName": "mars",
   "networkId": 110110,
   "nativeCurrency": {
-    "name": "Mars",
+    "name": "Mars Credit",
     "symbol": "MARS",
     "decimals": 18
   },
-  "rpc": ["https://node99-production-dd5f.up.railway.app:443"],
+  "rpc": ["https://node99-production-dd5f.up.railway.app:443", "https://rpc.marscredit.xyz:443"],
   "faucets": [],
   "infoURL": "https://marscredit.xyz/"
 }, {
