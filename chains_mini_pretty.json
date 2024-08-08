@@ -11361,6 +11361,19 @@
   "faucets": ["https://faucet.cybascan.io"],
   "infoURL": "https://cybria.io"
 }, {
+  "name": "EdgaMatrix Chain",
+  "chainId": 6678,
+  "shortName": "EMC",
+  "networkId": 6678,
+  "nativeCurrency": {
+    "name": "EdgaMatrix Chain Token",
+    "symbol": "EMC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1-mainnet.emc.network"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "IRIShub",
   "chainId": 6688,
   "shortName": "iris",
@@ -11607,6 +11620,19 @@
   "rpc": ["https://connect.bit-rock.io", "https://brockrpc.io"],
   "faucets": [],
   "infoURL": "https://bit-rock.io"
+}, {
+  "name": "ZEUS Testnet",
+  "chainId": 7244,
+  "shortName": "ZEUS-Testnet",
+  "networkId": 7244,
+  "nativeCurrency": {
+    "name": "The ZEUS Token",
+    "symbol": "ZEUS",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.zeuschainscan.io"],
+  "faucets": ["https://faucet.zeuschainscan.io"],
+  "infoURL": "https://testnet-explorer.zeuschainscan.io"
 }, {
   "name": "XPLA Verse",
   "chainId": 7300,
@@ -15754,6 +15780,19 @@
   "rpc": ["https://mainnet.mode.network", "https://mode.drpc.org", "wss://mode.drpc.org"],
   "faucets": [],
   "infoURL": "https://docs.mode.network/"
+}, {
+  "name": "ZEUS Mainnet",
+  "chainId": 34504,
+  "shortName": "ZEUS",
+  "networkId": 34504,
+  "nativeCurrency": {
+    "name": "The ZEUS Token",
+    "symbol": "ZEUS",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.zeuschainscan.io"],
+  "faucets": [],
+  "infoURL": "https://zeuschainscan.io"
 }, {
   "name": "J2O Taro",
   "chainId": 35011,

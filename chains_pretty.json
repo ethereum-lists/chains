@@ -18343,6 +18343,26 @@
     }]
   }
 }, {
+  "name": "EdgaMatrix Chain",
+  "chain": "EMC",
+  "icon": "emc",
+  "rpc": ["https://rpc1-mainnet.emc.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EdgaMatrix Chain Token",
+    "symbol": "EMC",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "EMC",
+  "chainId": 6678,
+  "networkId": 6678,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://emcscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "IRIShub",
   "chain": "IRIShub",
   "rpc": ["https://evmrpc.irishub-1.irisnet.org", "https://iris-evm.publicnode.com", "wss://iris-evm.publicnode.com"],
@@ -18751,6 +18771,27 @@
   "explorers": [{
     "name": "Bitrock Explorer",
     "url": "https://explorer.bit-rock.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "ZEUS Testnet",
+  "chain": "tZEUS",
+  "icon": "zeusicon",
+  "rpc": ["https://testnet-rpc.zeuschainscan.io"],
+  "nativeCurrency": {
+    "name": "The ZEUS Token",
+    "symbol": "ZEUS",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet-explorer.zeuschainscan.io",
+  "shortName": "ZEUS-Testnet",
+  "chainId": 7244,
+  "networkId": 7244,
+  "faucets": ["https://faucet.zeuschainscan.io"],
+  "explorers": [{
+    "name": "ZEUS Testnet Explorer",
+    "url": "https://testnet-explorer.zeuschainscan.io",
+    "icon": "zeusicon",
     "standard": "EIP3091"
   }]
 }, {
@@ -25482,6 +25523,27 @@
     "name": "modescout",
     "url": "https://explorer.mode.network",
     "standard": "none"
+  }]
+}, {
+  "name": "ZEUS Mainnet",
+  "chain": "ZEUS",
+  "icon": "zeusicon",
+  "rpc": ["https://mainnet-rpc.zeuschainscan.io"],
+  "nativeCurrency": {
+    "name": "The ZEUS Token",
+    "symbol": "ZEUS",
+    "decimals": 18
+  },
+  "infoURL": "https://zeuschainscan.io",
+  "shortName": "ZEUS",
+  "chainId": 34504,
+  "networkId": 34504,
+  "faucets": [],
+  "explorers": [{
+    "name": "ZEUS Mainnet Explorer",
+    "url": "https://zeuschainscan.io",
+    "icon": "zeusicon",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "J2O Taro",
