@@ -1,0 +1,25 @@
+{
+    "name": "Xvitesse Testnet",
+    "chain": "XVI",
+    "icon": "xvitesse",
+    "rpc": ["https://testnet-rpc.xvitesse.com"],
+    "faucets": ["https://faucet.xvitesse.com"],
+    "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+    "nativeCurrency": {
+      "name": "Xvitesse Testnet",
+      "symbol": "XVI",
+      "decimals": 18
+    },
+    "infoURL": "https://xvitesse.finance",
+    "shortName": "XVI",
+    "chainId": 26557,
+    "networkId": 26557,
+    "explorers": [
+      {
+        "name": "Xvitesse Testnet Explorer",
+        "url": "https://testnet.xvitesse.com",
+        "standard": "EIP3091"
+      }
+    ]
+}
+  
