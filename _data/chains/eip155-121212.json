@@ -1,0 +1,24 @@
+{
+  "name": "8Bit Chain",
+  "chain": "8BIT",
+  "rpc": ["https://rpc.8bitscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "8Bit",
+    "symbol": "8BIT",
+    "decimals": 18
+  },
+  "infoURL": "https://8bitchain.finance",
+  "shortName": "8bit",
+  "chainId": 8088,
+  "icon": "EightBitChain",
+  "networkId": 8088,
+  "explorers": [
+    {
+      "name": "8BitScan",
+      "url": "https://8bitscan.com",
+      "icon": "EightBitChain",
+      "standard": "EIP3091"
+    }
+  ]
+}
