@@ -1,0 +1,34 @@
+{
+    "name": "Fushuma Mainnet",
+    "chain": "FUMA",
+    "rpc": ["https://mainnet.fushuma.com/"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Fushuma",
+      "symbol": "FUMA",
+      "decimals": 18
+    },
+    "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+    "infoURL": "https://fushuma.com",
+    "shortName": "fuma",
+    "chainId": 42020,
+    "networkId": 42020,
+    "icon": "Fushuma",
+    "explorers": [
+        {
+            "name": "Fushuma Blockchain Explorer",
+            "url": "https://fumascan.com",
+            "standard": "EIP3091"
+        }
+    ],
+    "status": "incubating",
+    "parent": {
+        "type" : "L2",
+        "chain": "eip155-1",
+        "bridges": [ 
+            {
+                "url":"https://bridge.fushuma.com"
+            } 
+        ]
+    }
+}
