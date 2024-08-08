@@ -1,0 +1,23 @@
+{
+  "name": "WeaveVM Testnet",
+  "chain": "WVM",
+  "rpc": ["https://testnet.wvm.dev", "https://testnet-rpc.wvm.dev"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Testnet WeaveVM Token",
+    "symbol": "tWVM",
+    "decimals": 18
+  },
+  "infoURL": "https://wvm.dev",
+  "shortName": "twvm",
+  "chainId": 9496,
+  "networkId": 9496,
+  "icon": "weavevm",
+  "explorers": [
+    {
+      "name": "WeaveVM Explorer",
+      "url": "https://explorer.wvm.dev",
+      "standard": "EIP3091"
+    }
+  ]
+}

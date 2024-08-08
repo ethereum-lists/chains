@@ -1,15 +1,16 @@
 {
-  "name": "Santiment Intelligence Network",
-  "chain": "Santiment Intelligence Network",
+  "status": "deprecated",
+  "name": "Santiment Intelligence Network DEPRECATED",
+  "chain": "Santiment Intelligence Network DEPRECATED",
   "rpc": ["https://sanrchain-node.santiment.net"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "SANR",
-    "symbol": "SANR",
+    "name": "SANold",
+    "symbol": "SANold",
     "decimals": 18
   },
   "infoURL": "https://sanr.app",
-  "shortName": "SAN",
+  "shortName": "SANold",
   "chainId": 11888,
   "networkId": 11888,
   "icon": "sanrchain",
