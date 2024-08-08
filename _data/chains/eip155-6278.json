@@ -1,0 +1,24 @@
+{
+  "name": "Rails Network",
+  "chain": "RAILS",
+  "icon": "railsnetwork",
+  "rpc": ["https://mainnet.steamexchange.io"],
+  "features": [{ "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "STEAMX",
+    "symbol": "STEAMX",
+    "decimals": 18
+  },
+  "infoURL": "https://steamexchange.io",
+  "shortName": "STEAMX",
+  "chainId": 6278,
+  "networkId": 6278,
+  "explorers": [
+    {
+      "name": "Rails Network Explorer",
+      "url": "https://explore.steamexchange.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
