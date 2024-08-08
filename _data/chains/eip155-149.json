@@ -1,0 +1,30 @@
+{
+    "name": "Social Network",
+    "chain": "Social Network",
+    "rpc": ["https://mainnet.social-network-rpc.com"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "heart",
+      "symbol": "HEART",
+      "decimals": 18
+    },
+    "infoURL": "https://social.network",
+    "shortName": "social",
+    "chainId": 149,
+    "networkId": 149,
+    "slip44": 60,
+    "icon": "social",
+    "explorers": [
+      {
+        "name": "The Social Network",
+        "url": "https://the.social.network",
+        "standard": "none"
+      }
+    ],
+    "parent": {
+      "type" : "L2",
+      "chain": "eip155-1",
+      "bridges": [ {"url":"https://bridge.arbitrum.io"} ]
+    }
+  }
+  
