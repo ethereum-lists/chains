@@ -20617,6 +20617,19 @@
   "faucets": ["https://faucet.prmscan.org"],
   "infoURL": "https://primalnetwork.org"
 }, {
+  "name": "RUNEVM Testnet",
+  "chainId": 840000,
+  "shortName": "runevm-test",
+  "networkId": 840000,
+  "nativeCurrency": {
+    "name": "Test Bitcoin",
+    "symbol": "tBTC",
+    "decimals": 8
+  },
+  "rpc": ["https://rpc.runevm.io/"],
+  "faucets": ["https://faucet.runevm.io/"],
+  "infoURL": ""
+}, {
   "name": "4GoodNetwork",
   "chainId": 846000,
   "shortName": "bloqs4good",
