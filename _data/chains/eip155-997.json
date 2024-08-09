@@ -1,8 +1,8 @@
 {
-  "name": "5ireChain Thunder",
-  "chain": "5ireChain Testnet",
-  "rpc": ["https://rpc-testnet.5ire.network"],
-  "faucets": ["https://explorer.5ire.network/faucet"],
+  "name": "5ireChain Thunder Testnet",
+  "chain": "5ireChain",
+  "rpc": ["https://rpc.testnet.5ire.network"],
+  "faucets": ["https://testnet.5irescan.io/faucet"],
   "nativeCurrency": {
     "name": "5ire Testnet Token",
     "symbol": "T5IRE",
@@ -15,8 +15,8 @@
   "icon": "5ireChain",
   "explorers": [
     {
-      "name": "5ireChain Explorer",
-      "url": "https://explorer.5ire.network",
+      "name": "5ireChain Testnet Explorer",
+      "url": "https://testnet.5irescan.io",
       "standard": "none",
       "icon": "5ireChain"
     }
