@@ -1,0 +1,25 @@
+{
+  "name": "Reya Cronos",
+  "chain": "Reya",
+  "rpc": [
+    "https://rpc.reya-cronos.gelato.digital",
+    "wss://ws.reya-cronos.gelato.digital"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Cronos Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://reya.network",
+  "shortName": "reya-cron",
+  "chainId": 89346162,
+  "networkId": 89346162,
+  "explorers": [
+    {
+      "name": "Reya Cronos Explorer",
+      "url": "https://reya-cronos.blockscout.com/",
+      "standard": "EIP3091"
+    }
+  ]
+}
