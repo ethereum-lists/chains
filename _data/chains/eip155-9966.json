@@ -1,0 +1,28 @@
+{
+  "name": "UXER TESTNET NETWORK",
+  "chain": "UXER",
+  "rpc": [
+    "https://dev-testnet.uxer.network",
+    "https://data-cloud-testnet.uxer.network"
+  ],
+  "faucets": ["https://faucet.uxer.network"],
+  "nativeCurrency": {
+    "name": "UXER",
+    "symbol": "tUXER",
+    "decimals": 18
+  },
+  "infoURL": "https://uxer.network",
+  "shortName": "uxer",
+  "chainId": 9966,
+  "networkId": 9966,
+  "slip44": 1,
+  "icon": "uxer",
+  "explorers": [
+    {
+      "name": "UXER TESTNET EXPLORER",
+      "icon": "uxer",
+      "url": "https://testnet.uxer.network",
+      "standard": "none"
+    }
+  ]
+}
