@@ -8,9 +8,9 @@
   ],
   "faucets": [],
   "nativeCurrency": {
-  "name": "VinuChain",
-  "symbol": "VC",
-  "decimals": 18
+    "name": "VinuChain",
+    "symbol": "VC",
+    "decimals": 18
   },
   "infoURL": "https://vinuchain.org",
   "shortName": "VCTEST",
@@ -19,15 +19,15 @@
   "slip44": 1,
   "explorers": [
     {
-    "name": "VinuScan Testnet",
-    "url": "https://testnet.vinuscan.com",
-    "icon": "vinuscan-testnet",
-    "standard": "none"
+      "name": "VinuScan Testnet",
+      "url": "https://testnet.vinuscan.com",
+      "icon": "vinuscan-testnet",
+      "standard": "none"
     },
     {
-    "name": "VinuExplorer Testnet",
-    "url": "https://testnet.vinuexplorer.org",
-    "standard": "none"
+      "name": "VinuExplorer Testnet",
+      "url": "https://testnet.vinuexplorer.org",
+      "standard": "EIP3091"
     }
   ]
 }
