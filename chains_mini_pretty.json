@@ -15716,6 +15716,19 @@
   "faucets": ["https://faucet.zq2-prototestnet.zilliqa.com"],
   "infoURL": "https://www.zilliqa.com/"
 }, {
+  "name": "Curtis",
+  "chainId": 33111,
+  "shortName": "curtis",
+  "networkId": 33111,
+  "nativeCurrency": {
+    "name": "ApeCoin",
+    "symbol": "APE",
+    "decimals": 18
+  },
+  "rpc": ["https://curtis.rpc.caldera.xyz/http"],
+  "faucets": ["https://curtis.hub.caldera.xyz"],
+  "infoURL": "https://curtis.hub.caldera.xyz"
+}, {
   "name": "Entangle Testnet",
   "chainId": 33133,
   "shortName": "tngl",
