@@ -1,3 +1,132 @@
+
+
+##SpotClient client = new SpotClientImpl(PrivateConfig.TESTNET_API_KEY, PrivateConfig.TESTNET_SECRET_KEY, PrivateConfig.TESTNET_URL);
+
+  •String result = client.createMarket().time();
+•Base URL
+•If baseUrl is not provided, it defaults to api.binance.com.
+
+##It's recommended to pass in the baseUrl parameter, even in production as Binance provides alternative URLs:
+
+•https://api1.binance.com
+•https://api2.binance.com
+•https://api3.binance.com
+•https://api4.binance.com
+•Optional parameters
+#Parameters can be set in any implementation of Map<String, Object> interface, where String represents the parameter name and Object the parameter value. These parameters should have the same naming as in the API doc."
+
+##Map<String,Object> parameters = new LinkedHashMap<String,Object>();
+
+•parameters.put("symbol","BTCUSDT");
+•parameters.put("side", "SELL");
+•parameters.put("type", "LIMIT");
+•parameters.put("timeInForce", "GTC");
+•parameters.put("quantity", 0.01);
+•parameters.put("price", 9500);
+•Response MetaData
+•##The Binance API server provides weight usages in the headers of each response, which can be returned if you set setShowLimitUsage(true).
+
+*SpotClient client = new SpotClientImpl();
+•client.setShowLimitUsage(true);
+•String result = client.createMarket().time();
+•logger.info(result);
+$Output:
+
+•INFO: {"data":"{"serverTime":1633434339494}","x-mbx-used-weight":"1","x-mbx-used-weight-1m":"1"}
+√Proxy
+^•To set HTTP Proxy, call setProxy() with ProxyAuth and before submitting requests:
+
+•SpotClient client = new SpotClientImpl();
+•Proxy proxyConn = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("127.0.0.1", 8080));
+•ProxyAuth proxy = new ProxyAuth(proxyConn, null);
+
+•client.setProxy(proxy);
+•logger.info(client.createMarket().time());
+##For authenticated Proxy, define ProxyAuth with Authenticator from okhttp3:
+
+°•SpotClient client = new SpotClientImpl();
+•Proxy proxyConn = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("127.0.0.1", 8080));
+•Authenticator auth = new Authenticator() {
+    •public Request authenticate(Route route, Response response) throws IOException {
+  •     • if (response.request().header("Proxy-Authorization") != null) {
+           • return null; // Give up, we've already failed to authenticate.
+          }
+      
+      √•  String credential = Credentials.basic("username", "password");
+        πreturn response.request().newBuilder().header("Proxy-Authorization", credential).build();
+       ` 
+    }
+};
+•ProxyAuth proxy = new ProxyAuth(proxyConn, auth);
+
+•client.setProxy(proxy);
+`logger.info(client.createMarket().time());
+•To undo Proxy, use unsetProxy() before submitting requests:
+
+√client.unsetProxy();
+€$logger.info(client.createMarket().time());
+•Complete examples are available at src/test/java/examples/spot/proxy folder.
+
+`Logging
+•This connector uses SLF4J as an abstraction layer for diverse logging frameworks.
+
+•It's end-user's responsibility to select the appropriate SLF4J binding to use as the logger (e.g, slf4j-jdk14 or logback-classic). Otherwise, you might see the following informative output:
+
+•SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+•SLF4J: Defaulting to no-operation (NOP) logger implementation
+•SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+•In case you want to use our custom logback-classic, it's available at binance-logback.
+
+**If you prefer to not use a logger and suppress the SLF4J messages instead, you can refer to slf4j-nop.
+
+_Types of Signature Generator
+•When creating SpotClient, WebSocketStreamClient or WebSocketApiClient, you use one of the following types of Signature Generator to create signatures (for SIGNED endpoints) based on your security preference:
+"
+•HmacSignatureGenerator - Use of API Key and Secret Key.
+ • HmacSignatureGenerator signGenerator = new HmacSignatureGenerator("SecretKey");
+  •SpotClient client = new SpotClientImpl("ApiKey", signGenerator);
+•RsaSignatureGenerator - Use of API Key and RSA algorithm keys.
+  •RsaSignatureGenerator signGenerator =  new RsaSignatureGenerator("PathToPrivateKey"); 
+  // or if Private Key is protected
+  // RsaSignatureGenerator signGenerator = new RsaSignatureGenerator("PathToPrivateKey", "PrivateKeyPassword")
+ • SpotClient client = new SpotClientImpl("ApiKey", signGenerator);
+•Ed25519SignatureGenerator - Use of API Key and Ed25519 algorithm keys.
+ • Ed25519SignatureGenerator signGenerator =  new Ed25519SignatureGenerator("PathToPrivateKey");
+  •SpotClient client = new SpotClientImpl("ApiKey", signGenerator);
+Errors
+•There are 3 types of error which may be thrown by this library.
+
+##BinanceConnectorException
+*This is thrown when there is a validation error for parameters.For instance, mandatory parameter not sent. This error will be thrown before the request is sent to the server.
+##BinanceClientException
+*This is thrown when server returns 4XX, it's an issue from client side.
+•The error consists of these 3 objects which will help in debugging the error:
+•httpStatusCode - HTTP status code
+•errorCode - API Server's error code, e.g. -1102
+•errMsg - API Server's error message, e.g. Unknown order sent.
+•BinanceServerException
+•This is thrown when server returns 5XX, it's an issue from server side.
+•try {
+    •  String result = client.createTrade().newOrder(parameters);
+     • logger.info(result);
+    } catch (BinanceConnectorException e) {
+      •logger.error("fullErrMessage: {}", e.getMessage(), e);
+    } catch (BinanceClientException e) {
+    •  logger.error("fullErrMessage: {} \nerrMessage: {} \nerrCode: {} \nHTTPStatusCode: {}",
+    •  e.getMessage(), e.getErrMsg(), e.getErrorCode(), e.getHttpStatusCode(), e);
+    }
+•Test Cases
+•mvn clean test
+
+•Contribution
+•Contributions are welcome!
+
+•If you've found a bug within this project, please open an issue to discuss what you would like to change.
+
+• If it's an issue with the API itself, you can submit on the Binance Developer Community
+
+
+
 name: Automatic Rebase
 on:
   issue_comment:
