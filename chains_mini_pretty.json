@@ -15950,6 +15950,19 @@
   "faucets": [],
   "infoURL": "https://oho.ai"
 }, {
+  "name": "Aleph Zero EVM",
+  "chainId": 41455,
+  "shortName": "aleph-zero",
+  "networkId": 41455,
+  "nativeCurrency": {
+    "name": "Aleph Zero",
+    "symbol": "AZERO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.alephzero.raas.gelato.cloud", "wss://ws.alephzero.raas.gelato.cloud"],
+  "faucets": [],
+  "infoURL": "https://alephzero.org/"
+}, {
   "name": "Opulent-X BETA",
   "chainId": 41500,
   "shortName": "ox-beta",
