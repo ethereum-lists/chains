@@ -17926,18 +17926,18 @@
   "faucets": ["https://proteusfaucet.nautchain.xyz"],
   "infoURL": "https://docs.nautchain.xyz"
 }, {
-  "name": "Inoai Network",
+  "name": "InoAi",
   "chainId": 88559,
-  "shortName": "INOAI",
+  "shortName": "INO",
   "networkId": 88559,
   "nativeCurrency": {
-    "name": "Inoai",
+    "name": "InoAi",
     "symbol": "INO",
     "decimals": 18
   },
   "rpc": ["https://inoai-network.com"],
   "faucets": [],
-  "infoURL": "https://inoai.info"
+  "infoURL": "https://docs.inoai.info/"
 }, {
   "name": "ZKasino Mainnet",
   "chainId": 88800,
