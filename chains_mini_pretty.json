@@ -6226,6 +6226,19 @@
   "faucets": [],
   "infoURL": "https://buildonhybrid.com"
 }, {
+  "name": "Bitcoin Protocol Testnet",
+  "chainId": 1227,
+  "shortName": "BTCP",
+  "networkId": 1227,
+  "nativeCurrency": {
+    "name": "BTC Protocol",
+    "symbol": "BTCP",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-chain.btcprotocol.io/"],
+  "faucets": [],
+  "infoURL": "https://btcprotocol.io/"
+}, {
   "name": "Exzo Network Mainnet",
   "chainId": 1229,
   "shortName": "xzo",
