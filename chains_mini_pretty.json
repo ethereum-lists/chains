@@ -16080,6 +16080,19 @@
   "faucets": [],
   "infoURL": "https://goldxchain.io"
 }, {
+  "name": "AssetChain Testnet",
+  "chainId": 42421,
+  "shortName": "rwa",
+  "networkId": 42421,
+  "nativeCurrency": {
+    "name": "Real World Asset",
+    "symbol": "RWA",
+    "decimals": 18
+  },
+  "rpc": ["https://enugu-rpc.assetchain.org"],
+  "faucets": ["https://faucet.assetchain.org"],
+  "infoURL": "https://docs.assetchain.org"
+}, {
   "name": "ZKFair Mainnet",
   "chainId": 42766,
   "shortName": "ZKFair-Mainnet",
