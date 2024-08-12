@@ -2,8 +2,12 @@
   "name": "Metabit Chain Mainnet",
   "chain": "Metabit",
   "icon": "metabit",
-  "rpc": ["https://mainnet.rpc.metabitglobal.com"],
-  "faucets": [],
+  "rpc": [
+    "https://mainnet.rpc.metabitglobal.com"
+  ],
+  "faucets": [
+    
+  ],
   "nativeCurrency": {
     "name": "Metabit Chain Native Token",
     "symbol": "BMTC",
@@ -13,7 +17,6 @@
   "shortName": "MetabitMainnet",
   "chainId": 4321,
   "networkId": 4321,
-  "slip44": 1,
   "explorers": [
     {
       "name": "metabit_explorer",
