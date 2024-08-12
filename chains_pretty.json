@@ -26427,6 +26427,39 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Blessnet",
+  "chain": "ETH",
+  "rpc": ["https://blessnet.calderachain.xyz/http", "wss://blessnet.calderachain.xyz/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bless",
+    "symbol": "BLESS",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://blessnet.io",
+  "shortName": "bless",
+  "chainId": 45513,
+  "networkId": 45513,
+  "icon": "bless",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blessnet.calderaexplorer.xyz",
+    "icon": "bless",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161",
+    "bridges": [{
+      "url": "https://blessnet.bridge.caldera.xyz"
+    }]
+  }
+}, {
   "name": "Fusion Testnet",
   "chain": "FSN",
   "icon": "fusion",
@@ -35327,6 +35360,39 @@
     "url": "https://hal-explorer.alienxchain.io",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Blessnet Sepolia",
+  "chain": "ETH",
+  "rpc": ["https://blessnet-sepolia-testnet.rpc.caldera.xyz/http", "wss://blessnet-sepolia-testnet.rpc.caldera.xyz/ws"],
+  "faucets": ["https://blessnet-sepolia-testnet.hub.caldera.xyz"],
+  "nativeCurrency": {
+    "name": "Bless",
+    "symbol": "BLESS",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://blessnet.io",
+  "shortName": "bless-sepolia",
+  "chainId": 11145513,
+  "networkId": 11145513,
+  "icon": "bless",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blessnet-sepolia-testnet.explorer.caldera.xyz",
+    "icon": "bless",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-421614",
+    "bridges": [{
+      "url": "https://blessnet-sepolia-testnet.bridge.caldera.xyz"
+    }]
+  }
 }, {
   "name": "Sepolia",
   "title": "Ethereum Testnet Sepolia",
