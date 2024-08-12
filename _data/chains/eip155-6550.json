@@ -1,9 +1,7 @@
 {
   "name": "Flamma Testnet",
   "chain": "Flamma",
-  "rpc": [
-    "https://testnetrpc.flamma.network"
-  ],
+  "rpc": ["https://testnetrpc.flamma.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Flamma",
@@ -14,9 +12,11 @@
   "shortName": "FlammaTestnet",
   "chainId": 6550,
   "networkId": 6550,
-  "explorers": [{
-    "name": "flascan",
-    "url": "https://testnet.flascan.net",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "flascan",
+      "url": "https://testnet.flascan.net",
+      "standard": "EIP3091"
+    }
+  ]
 }
