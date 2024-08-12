@@ -1,7 +1,10 @@
 {
   "name": "Neo X Mainnet",
   "chain": "Neo X",
-  "rpc": ["https://mainnet-1.rpc.banelabs.org"],
+  "rpc": [
+    "https://mainnet-1.rpc.banelabs.org",
+    "https://mainnet-2.rpc.banelabs.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Gas",
