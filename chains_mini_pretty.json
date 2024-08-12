@@ -11296,6 +11296,19 @@
   "faucets": [],
   "infoURL": "https://peerpay.su.gy"
 }, {
+  "name": "Flamma Testnet",
+  "chainId": 6550,
+  "shortName": "FlammaTestnet",
+  "networkId": 6550,
+  "nativeCurrency": {
+    "name": "Flamma",
+    "symbol": "FLA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnetrpc.flamma.network"],
+  "faucets": [],
+  "infoURL": "https://flamma.network"
+}, {
   "name": "Scolcoin WeiChain Testnet",
   "chainId": 6552,
   "shortName": "SRC-test",
