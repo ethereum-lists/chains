@@ -1,9 +1,7 @@
 {
   "name": "Flamma Mainnet",
   "chain": "Flamma",
-  "rpc": [
-    "https://rpc.flamma.network"
-  ],
+  "rpc": ["https://rpc.flamma.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Flamma",
@@ -14,9 +12,11 @@
   "shortName": "FlammaMainnet",
   "chainId": 55614,
   "networkId": 55614,
-  "explorers": [{
-    "name": "flascan",
-    "url": "https://flascan.net",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "flascan",
+      "url": "https://flascan.net",
+      "standard": "EIP3091"
+    }
+  ]
 }
