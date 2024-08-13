@@ -11647,6 +11647,19 @@
   "faucets": [],
   "infoURL": "https://bit-rock.io"
 }, {
+  "name": "Nibiru Devnet-3",
+  "chainId": 7222,
+  "shortName": "nibiru",
+  "networkId": 7222,
+  "nativeCurrency": {
+    "name": "NIBI",
+    "symbol": "NIBI",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-rpc.devnet-3.nibiru.fi"],
+  "faucets": [],
+  "infoURL": "https://nibiru.fi"
+}, {
   "name": "ZEUS Testnet",
   "chainId": 7244,
   "shortName": "ZEUS-Testnet",
