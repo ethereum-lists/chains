@@ -1,0 +1,21 @@
+{
+  "name": "Ethernity Mainnet",
+  "chain": "Ethernity",
+  "rpc": ["https://mainnet.ethernitychain.io"],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.ethernity.io",
+  "shortName": "ethernity-mainnet",
+  "chainId": 183,
+  "networkId": 183,
+  "explorers": [
+    {
+      "name": "Ethernity Mainnet Explorer",
+      "url": "https://mainnet.ernscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
