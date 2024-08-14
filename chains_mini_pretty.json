@@ -17926,6 +17926,19 @@
   "faucets": ["https://xprotocol.org/faucets"],
   "infoURL": "https://xprotocol.org/"
 }, {
+  "name": "Esa",
+  "chainId": 83278,
+  "shortName": "Esa",
+  "networkId": 83278,
+  "nativeCurrency": {
+    "name": "Esa",
+    "symbol": "Esa",
+    "decimals": 18
+  },
+  "rpc": ["http://65.108.151.70:8545"],
+  "faucets": [],
+  "infoURL": "https://esculap.us"
+}, {
   "name": "ZEDXION",
   "chainId": 83872,
   "shortName": "ZEDX",
