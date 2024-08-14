@@ -22684,6 +22684,19 @@
   "faucets": ["https://sfuel.dirtroad.dev/staging"],
   "infoURL": "https://nebulachain.io/"
 }, {
+  "name": "Sophon Testnet",
+  "chainId": 531050104,
+  "shortName": "sophon-testnet",
+  "networkId": 531050104,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.sophon.xyz/"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Degen Chain",
   "chainId": 666666666,
   "shortName": "degen-chain",
