@@ -1,12 +1,10 @@
 {
   "name": "EKAASH",
   "chain": "EKAASH",
-  "rpc": [
-    "https://mainnet.ekaash.biz"
-  ],
+  "rpc": ["https://mainnet.ekaash.biz"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "EKAASH",
+    "name": "Global Mobile Money Gateway",
     "symbol": "$EKH",
     "decimals": 18
   },
@@ -15,9 +13,5 @@
   "chainId": 205,
   "networkId": 205,
   "slip44": 1,
-  "explorers": [
-    {
-      
-    }
-  ]
+  "explorers": [{}]
 }
