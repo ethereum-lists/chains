@@ -1,11 +1,11 @@
 {
   "name": "Kaia Mainnet",
   "chain": "KAIA",
-  "rpc": ["https://public-en-cypress.klaytn.net"],
+  "rpc": ["https://public-en.node.kaia.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "KAIA",
-    "symbol": "KAIA",
+    "symbol": "KLAY",
     "decimals": 18
   },
   "infoURL": "https://kaia.io",
