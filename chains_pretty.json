@@ -6483,9 +6483,9 @@
   "networkId": 545,
   "icon": "flowevm",
   "explorers": [{
-    "name": "Flow Diver",
-    "url": "https://testnet.flowdiver.io",
-    "standard": "none"
+    "name": "FlowScan: Testnet",
+    "url": "https://evm-testnet.flowscan.io",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Vela1 Chain Mainnet",
