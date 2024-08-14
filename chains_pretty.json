@@ -20852,6 +20852,25 @@
     "icon": "nexaChain"
   }]
 }, {
+  "name": "Apex Fusion - Nexus testnet",
+  "chain": "Nexus testnet",
+  "rpc": ["https://rpc.nexus.testnet.apexfusion.org/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Apex Fusion Token",
+    "symbol": "AP3X",
+    "decimals": 18
+  },
+  "infoURL": "https://apexfusion.org/",
+  "features": [{
+    "name": "EIP155"
+  }],
+  "shortName": "AP3X",
+  "chainId": 9070,
+  "networkId": 9070,
+  "icon": "apexfusion",
+  "explorers": []
+}, {
   "name": "Genesis Coin",
   "chain": "Genesis",
   "rpc": ["https://genesis-gn.com", "wss://genesis-gn.com"],
