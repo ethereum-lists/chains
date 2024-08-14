@@ -12934,13 +12934,26 @@
   "faucets": [],
   "infoURL": "https://www.nexablock.io"
 }, {
-  "name": "Apex Fusion - Nexus testnet",
-  "chainId": 9070,
+  "name": "Apex Fusion - Nexus Mainnet",
+  "chainId": 9069,
   "shortName": "AP3X",
-  "networkId": 9070,
+  "networkId": 9069,
   "nativeCurrency": {
     "name": "Apex Fusion Token",
     "symbol": "AP3X",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.nexus.mainnet.apexfusion.org/"],
+  "faucets": [],
+  "infoURL": "https://apexfusion.org/"
+}, {
+  "name": "Apex Fusion - Nexus testnet",
+  "chainId": 9070,
+  "shortName": "tAP3X",
+  "networkId": 9070,
+  "nativeCurrency": {
+    "name": "Apex Fusion Token",
+    "symbol": "tAP3X",
     "decimals": 18
   },
   "rpc": ["https://rpc.nexus.testnet.apexfusion.org/"],
