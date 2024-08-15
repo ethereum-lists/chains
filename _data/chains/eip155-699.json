@@ -1,8 +1,8 @@
 {
-  "name": "Matchain",
+  "name": "Matchain Testnet",
   "chain": "Matchain",
   "icon": "matchain",
-  "rpc": ["https://rpc.matchain.io"],
+  "rpc": ["https://testnet-rpc.matchain.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BNB",
@@ -11,14 +11,14 @@
   },
   "infoURL": "https://www.matchain.io",
   "shortName": "matchain",
-  "chainId": 698,
-  "networkId": 698,
+  "chainId": 699,
+  "networkId": 699,
   "explorers": [
     {
-      "name": "Matchscan",
-      "url": "https://matchscan.io",
+      "name": "Matchscan Testnet",
+      "url": "https://testnet.matchscan.io",
       "standard": "EIP3091",
-      "icon": "matchain"
+      "icon": "matchainTestnet"
     }
   ]
 }
