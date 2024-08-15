@@ -2469,6 +2469,19 @@
   "faucets": [],
   "infoURL": "https://opbnb.bnbchain.org/en"
 }, {
+  "name": "EKAASH",
+  "chainId": 205,
+  "shortName": "ekaash",
+  "networkId": 205,
+  "nativeCurrency": {
+    "name": "Global Mobile Money Gateway",
+    "symbol": "$EKH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.ekaash.biz"],
+  "faucets": [],
+  "infoURL": "https://ekaash.biz"
+}, {
   "name": "VinuChain Testnet",
   "chainId": 206,
   "shortName": "VCTEST",
