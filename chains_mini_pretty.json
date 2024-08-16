@@ -11127,6 +11127,19 @@
   "faucets": ["https://developer.ont.io/"],
   "infoURL": "https://ont.io/"
 }, {
+  "name": "Chang Chain Foundation Mainnet",
+  "chainId": 5858,
+  "shortName": "ChangChain",
+  "networkId": 5858,
+  "nativeCurrency": {
+    "name": "Chang Coin Thailand",
+    "symbol": "CTH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.cthscan.com/"],
+  "faucets": [],
+  "infoURL": "https://changcoin.foundation/"
+}, {
   "name": "Wegochain Rubidium Mainnet",
   "chainId": 5869,
   "shortName": "rbd",
