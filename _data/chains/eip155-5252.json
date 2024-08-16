@@ -1,8 +1,8 @@
 {
   "name": "Mechain Mainnet",
   "chain": "Mechain",
-  "rpc": ["https://rpc.mechain.tech/"],
-  "faucets": ["https://faucet.mechain.tech/"],
+  "rpc": ["https://rpc.mechain.tech"],
+  "faucets": ["https://faucet.mechain.tech"],
   "nativeCurrency": {
     "name": "ME",
     "symbol": "ME",
@@ -17,7 +17,7 @@
   "explorers": [
     {
       "name": "mechain scan",
-      "url": "https://scan.mechain.tech/",
+      "url": "https://scan.mechain.tech",
       "icon": "mechain",
       "standard": "EIP3091"
     }
