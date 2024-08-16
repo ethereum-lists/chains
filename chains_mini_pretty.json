@@ -14468,6 +14468,19 @@
   "faucets": [],
   "infoURL": "https://defi-verse.org"
 }, {
+  "name": "Cypherium Mainnet",
+  "chainId": 16166,
+  "shortName": "cph",
+  "networkId": 16166,
+  "nativeCurrency": {
+    "name": "Cypherium",
+    "symbol": "CPH",
+    "decimals": 18
+  },
+  "rpc": ["https://pubnodes.cypherium.io/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.cypherium.io/"
+}, {
   "name": "PLYR PHI",
   "chainId": 16180,
   "shortName": "plyr-phi",

@@ -23313,6 +23313,25 @@
     "chain": "eip155-248"
   }
 }, {
+  "name": "Cypherium Mainnet",
+  "chain": "CPH",
+  "rpc": ["https://pubnodes.cypherium.io/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Cypherium",
+    "symbol": "CPH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.cypherium.io/",
+  "shortName": "cph",
+  "chainId": 16166,
+  "networkId": 16166,
+  "explorers": [{
+    "name": "Testnet Block Explorer",
+    "url": "https://cypherium.tryethernal.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "PLYR PHI",
   "chain": "PLYR",
   "icon": "plyr",
