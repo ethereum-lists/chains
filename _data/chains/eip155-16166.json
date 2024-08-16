@@ -12,11 +12,10 @@
   "shortName": "cph",
   "chainId": 16166,
   "networkId": 16166,
-  "icon": "cypherium",
-  "explorers": [
+   "explorers": [
     {
       "name": "Testnet Block Explorer",
-      "url": "https://cypherium.tryethernal.com/overview",
+      "url": "https://cypherium.tryethernal.com",
       "standard": "EIP3091"
     }
   ]
