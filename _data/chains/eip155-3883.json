@@ -1,0 +1,22 @@
+{
+  "name": "Universal Traders Coin Mainnet",
+  "chain": "UTC",
+  "rpc": ["https://mainnet.utclife.com","wss://mainnet.utclife.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Universal Traders Coin",
+    "symbol": "UTC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.utclife.com/",
+  "shortName": "UTC",
+  "chainId": 3883,
+  "networkId": 3883,
+  "explorers": [
+    {
+      "name": "utcscanner",
+      "url": "https://www.utcscanner.io/",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Universal Traders Coin Testnet",
+  "chain": "UTC",
+  "rpc": ["https://utctestrpc.utclife.com","wss://utctestrpc.utclife.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Universal Traders Coin",
+    "symbol": "TUTC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.utclife.com/",
+  "shortName": "UTC",
+  "chainId": 3884,
+  "networkId": 3884,
+  "explorers": [
+    {
+      "name": "utcscanner Testnet",
+      "url": "https://testnet.utcscanner.io/",
+      "standard": "EIP3091"
+    }
+  ]
+}
