@@ -16722,8 +16722,8 @@
   "shortName": "ToronetTestnet",
   "networkId": 54321,
   "nativeCurrency": {
-    "name": "Toro",
-    "symbol": "TORO",
+    "name": "Toroe",
+    "symbol": "TOROE",
     "decimals": 18
   },
   "rpc": ["http://testnet.toronet.org/rpc"],
@@ -17619,11 +17619,11 @@
   "shortName": "Toronet",
   "networkId": 77777,
   "nativeCurrency": {
-    "name": "Toro",
-    "symbol": "TORO",
+    "name": "Toroe",
+    "symbol": "TOROE",
     "decimals": 18
   },
-  "rpc": ["http://toronet.org/rpc"],
+  "rpc": ["https://www.toronet.org/rpc2/"],
   "faucets": [],
   "infoURL": "https://toronet.org"
 }, {
