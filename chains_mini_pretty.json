@@ -5394,6 +5394,19 @@
   "faucets": [],
   "infoURL": "https://5ire.org"
 }, {
+  "name": "Bifrost Polkadot Mainnet",
+  "chainId": 996,
+  "shortName": "bnc",
+  "networkId": 996,
+  "nativeCurrency": {
+    "name": "Wrapped ETH",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  "rpc": ["https://hk.p.bifrost-rpc.liebi.com, wss://hk.p.bifrost-rpc.liebi.com/ws"],
+  "faucets": [],
+  "infoURL": "https://bifrost.io/"
+}, {
   "name": "5ireChain Thunder",
   "chainId": 997,
   "shortName": "T5ire",

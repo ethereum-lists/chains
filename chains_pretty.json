@@ -8681,6 +8681,21 @@
     "icon": "5ireChain"
   }]
 }, {
+  "name": "Bifrost Polkadot Mainnet",
+  "chain": "Bifrost",
+  "rpc": ["https://hk.p.bifrost-rpc.liebi.com, wss://hk.p.bifrost-rpc.liebi.com/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Wrapped ETH",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  "infoURL": "https://bifrost.io/",
+  "shortName": "bnc",
+  "chainId": 996,
+  "networkId": 996,
+  "icon": "bifrost-polkadot"
+}, {
   "name": "5ireChain Thunder",
   "chain": "5ireChain Testnet",
   "rpc": ["https://rpc-testnet.5ire.network"],
