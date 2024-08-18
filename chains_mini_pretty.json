@@ -15378,6 +15378,32 @@
   "faucets": ["https://testnet.faucet.ferrumnetwork.io"],
   "infoURL": "https://ferrum.network"
 }, {
+  "name": "DucatusX Testnet",
+  "chainId": 26482,
+  "shortName": "ducatusx-testnet",
+  "networkId": 26482,
+  "nativeCurrency": {
+    "name": "DUCX",
+    "symbol": "DUCX",
+    "decimals": 18
+  },
+  "rpc": ["https://ducx-testnet-node1.rocknblock.io", "https://ducx-testnet-node2.rocknblock.io"],
+  "faucets": [],
+  "infoURL": "https://www.ducatuscoins.com/ducatusx"
+}, {
+  "name": "DucatusX",
+  "chainId": 26483,
+  "shortName": "ducatusx",
+  "networkId": 26483,
+  "nativeCurrency": {
+    "name": "DUCX",
+    "symbol": "DUCX",
+    "decimals": 18
+  },
+  "rpc": ["https://ducx-mainnet-node1.rocknblock.io", "https://ducx-mainnet-node2.rocknblock.io", "https://ducx-mainnet-node3.rocknblock.io"],
+  "faucets": [],
+  "infoURL": "https://www.ducatuscoins.com/ducatusx"
+}, {
   "name": "Hertz Network Mainnet",
   "chainId": 26600,
   "shortName": "HTZ",
