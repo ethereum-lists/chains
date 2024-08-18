@@ -10737,6 +10737,19 @@
   "faucets": [],
   "infoURL": "https://ham.fun"
 }, {
+  "name": "MeChain Testnet",
+  "chainId": 5151,
+  "shortName": "ZKME",
+  "networkId": 5151,
+  "nativeCurrency": {
+    "name": "ZKME",
+    "symbol": "ZKME",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.mechain.tech"],
+  "faucets": ["https://faucet.mechain.tech"],
+  "infoURL": "https://mechain.tech"
+}, {
   "name": "Bahamut",
   "chainId": 5165,
   "shortName": "ftn",
@@ -22462,6 +22475,19 @@
   "rpc": ["https://toys.joys.cash/"],
   "faucets": ["https://faucet.joys.digital/"],
   "infoURL": "https://joys.digital"
+}, {
+  "name": "Ethos",
+  "chainId": 100000000,
+  "shortName": "ETHOS",
+  "networkId": 100000000,
+  "nativeCurrency": {
+    "name": "ETHOS",
+    "symbol": "ETHOS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.ethos.cool"],
+  "faucets": ["https://faucet.ethos.cool"],
+  "infoURL": "https://ethos.cool"
 }, {
   "name": "Oraichain Mainnet",
   "chainId": 108160679,

@@ -17316,6 +17316,32 @@
   }],
   "status": "active"
 }, {
+  "name": "MeChain Testnet",
+  "chain": "MeChain",
+  "rpc": ["https://testnet-rpc.mechain.tech"],
+  "faucets": ["https://faucet.mechain.tech"],
+  "nativeCurrency": {
+    "name": "ZKME",
+    "symbol": "ZKME",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://mechain.tech",
+  "shortName": "ZKME",
+  "chainId": 5151,
+  "networkId": 5151,
+  "icon": "mechain",
+  "explorers": [{
+    "name": "MeChain Scan",
+    "url": "https://testnet-scan.mechain.tech",
+    "icon": "mechain",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Bahamut",
   "title": "Bahamut mainnet",
   "chain": "Bahamut",
@@ -36585,6 +36611,32 @@
   "chainId": 99415706,
   "networkId": 99415706,
   "slip44": 1
+}, {
+  "name": "Ethos",
+  "chain": "ETHOS",
+  "rpc": ["https://rpc.ethos.cool"],
+  "faucets": ["https://faucet.ethos.cool"],
+  "nativeCurrency": {
+    "name": "ETHOS",
+    "symbol": "ETHOS",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://ethos.cool",
+  "shortName": "ETHOS",
+  "chainId": 100000000,
+  "networkId": 100000000,
+  "icon": "ethos",
+  "explorers": [{
+    "name": "ethos scan",
+    "url": "https://scan.ethos.cool",
+    "icon": "ethos",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Oraichain Mainnet",
   "title": "Oraichain Mainnet",
