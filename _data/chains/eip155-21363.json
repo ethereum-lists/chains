@@ -8,7 +8,7 @@
     "symbol": "LETH",
     "decimals": 18
   },
-  "infoURL": "https://lestnet.org/",
+  "infoURL": "https://lestnet.org",
   "shortName": "leth",
   "chainId": 21363,
   "networkId": 21363,
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "Lestnet Explorer",
-      "url": "https://explore.lestnet.org/",
+      "url": "https://explore.lestnet.org",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
