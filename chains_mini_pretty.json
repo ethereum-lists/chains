@@ -2729,6 +2729,19 @@
   "faucets": [],
   "infoURL": "https://swapdex.network/"
 }, {
+  "name": "Ethernity Testnet",
+  "chainId": 233,
+  "shortName": "ethernity-testnet",
+  "networkId": 233,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.ethernitychain.io"],
+  "faucets": [],
+  "infoURL": "https://www.ethernity.io"
+}, {
   "name": "ProtoJumbo Testnet",
   "chainId": 234,
   "shortName": "ProtoJumbo",
