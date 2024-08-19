@@ -1,0 +1,17 @@
+{
+  "name": "LemonChain",
+  "chain": "LEMX",
+  "icon", null,
+  "rpc": ["http://rpc.allthingslemon.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LEMX",
+    "symbol": "LEMX",
+    "decimals": 18
+  },
+  "infoURL": "https://dapp.allthingslemon.io/home",
+  "shortName": "lemx",
+  "chainId": 1006,
+  "networkId": 1006,
+  "explorers": []
+}
