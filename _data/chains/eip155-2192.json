@@ -1,0 +1,23 @@
+{
+  "name": "SNAX Chain",
+  "chain": "SNAX",
+  "rpc": ["https://mainnet.snaxchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SNAXETH",
+    "symbol": "SNXETH",
+    "decimals": 18
+  },
+  "infoURL": "https://synthetix.io/",
+  "shortName": "SNAX",
+  "chainId": 2192,
+  "networkId": 2192,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.snaxchain.io/",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
