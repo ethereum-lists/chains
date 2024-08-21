@@ -1,18 +1,23 @@
-{
-    "name": "Chainbase Network Mainnet",
-    "chain": "CHAINBASE",
-    "rpc": [],
+  {
+    "name": "Chainbase Network Testnet",
+    "chain": "ETH",
+    "rpc": ["https://testnet.s.chainbase.com"],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Chainbase Token",
-      "symbol": "CBT",
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
       "decimals": 18
     },
-    "infoURL": "https://chainbase.com",
-    "shortName": "cbt",
+    "icon": "chainbase",
+    "infoURL": "https://www.chainbase.com",
+    "shortName": "chainbasetestnet",
     "chainId": 2233,
     "networkId": 2233,
-    "icon": "chainbase",
-    "explorers": []
+    "explorers": [
+      {
+        "name": "Chainbase Network Testnet Explorer",
+        "url": "https://testnet.explorer.chainbase.com/",
+        "standard": "EIP3091"
+      }
+    ]
   }
-  
