@@ -22,15 +22,12 @@
     {
       "name": "Cyber Testnet Explorer",
       "url": "https://testnet.cyberscan.co",
-      "icon": "blockscout",
       "standard": "EIP3091"
     }
   ],
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [
-      { "url": "https://cyber-testnet-bridge.alt.technology/deposit" }
-    ]
+    "bridges": [{ "url": "https://cyber-testnet.testnets.rollbridge.app/" }]
   }
 }

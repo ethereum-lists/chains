@@ -1,0 +1,24 @@
+{
+  "name": "Darwin Devnet",
+  "chain": "Darwin",
+  "rpc": ["https://devnet-rpc.darwinchain.ai"],
+  "faucets": ["https://devnet-rpc.darwinchain.ai/faucet"],
+  "nativeCurrency": {
+    "name": "Darwin Devnet token",
+    "symbol": "DNA",
+    "decimals": 18
+  },
+  "infoURL": "https://darwinchain.ai",
+  "shortName": "darwin-devnet",
+  "chainId": 610,
+  "networkId": 610,
+  "icon": "darwin",
+  "explorers": [
+    {
+      "name": "Darwin Explorer",
+      "url": "https://explorer.darwinchain.ai",
+      "icon": "darwin",
+      "standard": "none"
+    }
+  ]
+}
