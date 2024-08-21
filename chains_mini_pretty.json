@@ -21813,6 +21813,19 @@
   "faucets": [],
   "infoURL": "https://xcap.network/"
 }, {
+  "name": "Fluence",
+  "chainId": 9999999,
+  "shortName": "fluence",
+  "networkId": 9999999,
+  "nativeCurrency": {
+    "name": "FLT",
+    "symbol": "FLT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mainnet.fluence.dev/", "wss://ws.mainnet.fluence.dev/"],
+  "faucets": [],
+  "infoURL": "https://fluence.network/"
+}, {
   "name": "Plian Testnet Subchain 1",
   "chainId": 10067275,
   "shortName": "plian-testnet-l2",
