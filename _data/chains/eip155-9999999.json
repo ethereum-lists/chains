@@ -1,10 +1,7 @@
 {
   "name": "Fluence",
   "chain": "Fluence",
-  "rpc": [
-    "https://rpc.mainnet.fluence.dev/",
-    "wss://ws.mainnet.fluence.dev/"
-  ],
+  "rpc": ["https://rpc.mainnet.fluence.dev/", "wss://ws.mainnet.fluence.dev/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "FLT",
