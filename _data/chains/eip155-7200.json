@@ -23,8 +23,6 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [
-      { "url": "TBD" }
-    ]
+    "bridges": [{ "url": "https://bridge.exsat.network" }]
   }
 }
