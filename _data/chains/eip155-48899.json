@@ -2,7 +2,7 @@
   "name": "Zircuit Testnet",
   "chain": "Zircuit Testnet",
   "icon": "zircuit",
-  "rpc": ["https://zircuit1.p2pify.com/"],
+  "rpc": ["http://zircuit1-testnet.p2pify.com/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "Zircuit",
-      "url": "https://explorer.zircuit.com",
+      "url": "https://explorer.testnet.zircuit.com",
       "icon": "zircuit",
       "standard": "none"
     }
