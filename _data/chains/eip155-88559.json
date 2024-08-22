@@ -1,23 +1,23 @@
 {
-  "name": "Inoai Network",
+  "name": "InoAi",
   "chain": "INOAI",
   "faucets": [],
   "rpc": ["https://inoai-network.com"],
   "nativeCurrency": {
-    "name": "Inoai",
+    "name": "InoAi",
     "symbol": "INO",
     "decimals": 18
   },
-  "infoURL": "https://inoai.info",
-  "shortName": "INOAI",
+  "infoURL": "https://docs.inoai.info/",
+  "shortName": "INO",
   "chainId": 88559,
   "networkId": 88559,
   "icon": "inoai",
   "explorers": [
     {
-      "name": "inoai live",
+      "name": "inoai.live",
       "url": "https://inoai.live",
-      "standard": "none"
+      "standard": "EIP3091"
     }
   ]
 }
