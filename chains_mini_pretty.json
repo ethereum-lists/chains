@@ -15105,6 +15105,19 @@
   "faucets": [],
   "infoURL": "https://cennz.net"
 }, {
+  "name": "Lestnet",
+  "chainId": 21363,
+  "shortName": "leth",
+  "networkId": 21363,
+  "nativeCurrency": {
+    "name": "Lestnet Ether",
+    "symbol": "LETH",
+    "decimals": 18
+  },
+  "rpc": ["https://service.lestnet.org"],
+  "faucets": [],
+  "infoURL": "https://lestnet.org"
+}, {
   "name": "omChain Mainnet",
   "chainId": 21816,
   "shortName": "omc",
