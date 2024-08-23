@@ -10126,17 +10126,17 @@
   "faucets": [],
   "infoURL": ""
 }, {
-  "name": "Tobe Chain",
+  "name": "Tobe Chain Testnet",
   "chainId": 4080,
   "shortName": "tbc",
   "networkId": 4080,
   "nativeCurrency": {
     "name": "Tobe Coin",
-    "symbol": "TBC",
+    "symbol": "TOBE",
     "decimals": 18
   },
-  "rpc": ["https://rpc.tobescan.com"],
-  "faucets": [],
+  "rpc": ["https://rpc-testnet.tobescan.com"],
+  "faucets": ["https://faucet.tobescan.com/faucet"],
   "infoURL": "https://tobechain.net"
 }, {
   "name": "Fastex Chain (Bahamut) Oasis Testnet",
