@@ -1,5 +1,5 @@
 {
-    "name": "Tucana Testnet",
+    "name": "Birdee-2",
     "chain": "Tucana Testnet",
     "rpc": ["https://evm-rpc.birdee-2.tucana.zone", "wss://evm-ws.birdee-2.tucana.zone"],
     "faucets": [],
@@ -14,7 +14,7 @@
     "networkId": 712,
     "explorers": [
       {
-        "name": "blockscout",
+        "name": "Birdee-2 Explorer",
         "url": "https://explorer.birdee-2.tucana.zone",
         "standard": "EIP3091"
       }
