@@ -6278,6 +6278,19 @@
   "faucets": [],
   "infoURL": "https://btcprotocol.io/"
 }, {
+  "name": "Cycle Network Testnet Cuttlefish",
+  "chainId": 1228,
+  "shortName": "cyclec",
+  "networkId": 1228,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://cuttlefish-rpc-testnet.cyclenetwork.io"],
+  "faucets": [],
+  "infoURL": "https://www.cyclenetwork.io/"
+}, {
   "name": "Exzo Network Mainnet",
   "chainId": 1229,
   "shortName": "xzo",
