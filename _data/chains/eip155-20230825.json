@@ -1,0 +1,25 @@
+{
+  "name": "Vcity Testnet",
+  "chain": "VCITY",
+  "rpc": ["https://testnet.vcity.app"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Testnet Vcity Token",
+    "symbol": "VCITY",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://vcity.app",
+  "shortName": "Vcity",
+  "chainId": 20230825,
+  "networkId": 20230825,
+  "icon": "vcity",
+  "explorers": [
+    {
+      "name": "Vcity Explorer",
+      "url": "https://scan.vcity.app",
+      "icon": "vcity",
+      "standard": "EIP3091"
+    }
+  ]
+}
