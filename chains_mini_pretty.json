@@ -13363,6 +13363,19 @@
   "faucets": [],
   "infoURL": "https://espento.network"
 }, {
+  "name": "UXER TESTNET NETWORK",
+  "chainId": 9966,
+  "shortName": "uxer",
+  "networkId": 9966,
+  "nativeCurrency": {
+    "name": "UXER",
+    "symbol": "tUXER",
+    "decimals": 18
+  },
+  "rpc": ["https://dev-testnet.uxer.network", "https://data-cloud-testnet.uxer.network"],
+  "faucets": ["https://faucet.uxer.network"],
+  "infoURL": "https://uxer.network"
+}, {
   "name": "Mind Smart Chain Testnet",
   "chainId": 9977,
   "shortName": "tMIND",
