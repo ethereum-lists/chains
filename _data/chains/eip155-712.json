@@ -1,0 +1,22 @@
+{
+    "name": "Tucana Testnet",
+    "chain": "Tucana Testnet",
+    "rpc": ["https://evm-rpc.birdee-2.tucana.zone", "wss://evm-ws.birdee-2.tucana.zone"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Tucana",
+      "symbol": "TUC",
+      "decimals": 18
+    },
+    "infoURL": "https://tucana.zone",
+    "shortName": "birdee-1",
+    "chainId": 712,
+    "networkId": 712,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer.birdee-2.tucana.zone",
+        "standard": "EIP3091"
+      }
+    ]
+  }
