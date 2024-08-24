@@ -19525,6 +19525,19 @@
   "faucets": [],
   "infoURL": "https://www.platon.network"
 }, {
+  "name": "Litentry",
+  "chainId": 212013,
+  "shortName": "litentry",
+  "networkId": 212013,
+  "nativeCurrency": {
+    "name": "Litentry",
+    "symbol": "LIT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.litentry-parachain.litentry.io", "wss://rpc.litentry-parachain.litentry.io", "https://litentry-rpc.dwellir.com", "wss://litentry-rpc.dwellir.com"],
+  "faucets": [],
+  "infoURL": "https://litentry.com"
+}, {
   "name": "Mas Mainnet",
   "chainId": 220315,
   "shortName": "mas",
