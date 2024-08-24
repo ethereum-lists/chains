@@ -2,7 +2,7 @@
   "name": "Omni Omega",
   "chain": "Omni",
   "status": "active",
-  "rpc": ["https://omega.omni.network"],
+  "rpc": ["https://omega.omni.network", "wss://wss.omega.omni.network"],
   "features": [{ "name": "EIP155" }],
   "faucets": [],
   "nativeCurrency": {
