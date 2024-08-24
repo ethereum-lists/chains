@@ -1,6 +1,7 @@
 {
     "name": "Birdee-2",
-    "chain": "Tucana Testnet",
+    "chain": "Tucana",
+    "title": "Tucana Testnet",
     "rpc": ["https://evm-rpc.birdee-2.tucana.zone", "wss://evm-ws.birdee-2.tucana.zone"],
     "faucets": [],
     "nativeCurrency": {
@@ -12,6 +13,8 @@
     "shortName": "birdee-2",
     "chainId": 712,
     "networkId": 712,
+    "slip44": 1,
+    "icon": "tucana",
     "explorers": [
       {
         "name": "Birdee-2 Explorer",
