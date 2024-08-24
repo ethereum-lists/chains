@@ -1,0 +1,23 @@
+{
+  "name": "Toliman Suave Testnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc.toliman.suave.flashbots.net"],
+  "faucets": ["https://faucet.toliman.suave.flashbots.net"],
+  "nativeCurrency": {
+    "name": "SUAVE Toliman Eth",
+    "symbol": "TEEth",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://suave-alpha.flashbots.net/toliman",
+  "shortName": "suave-toliman",
+  "chainId": 33626250,
+  "networkId": 33626250,
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://explorer.toliman.suave.flashbots.net",
+      "standard": "EIP3091"
+    }
+  ]
+}
