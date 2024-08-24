@@ -17003,6 +17003,19 @@
   "faucets": [],
   "infoURL": "https://publicgoods.network/"
 }, {
+  "name": "Lumoz Quidditch Testnet",
+  "chainId": 58680,
+  "shortName": "Lumoz-Quidditch-Testnet",
+  "networkId": 58680,
+  "nativeCurrency": {
+    "name": "Lumoz Quidditch Testnet Token",
+    "symbol": "MOZ",
+    "decimals": 18
+  },
+  "rpc": ["https://quidditch-rpc.lumoz.org"],
+  "faucets": [],
+  "infoURL": "https://lumoz.org"
+}, {
   "name": "Linea Goerli",
   "chainId": 59140,
   "shortName": "linea-goerli",
