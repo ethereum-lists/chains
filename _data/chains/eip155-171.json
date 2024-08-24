@@ -1,7 +1,10 @@
 {
   "name": "SuperAlignment.IO Mainnet",
   "chain": "SAT",
-  "rpc": ["https://rpc_mainnet.superalignment.io", "wss://rpc_mainnet.superalignment.io"],
+  "rpc": [
+    "https://rpc_mainnet.superalignment.io",
+    "wss://rpc_mainnet.superalignment.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "SAT",
