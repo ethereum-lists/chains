@@ -1,0 +1,23 @@
+{
+  "name": "NOW Chain",
+  "chain": "NOW",
+  "icon": "nowchain",
+  "rpc": ["https://rpc.nowscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NOW Coin",
+    "symbol": "NOW",
+    "decimals": 18
+  },
+  "infoURL": "https://nowchain.co",
+  "shortName": "now",
+  "chainId": 2014,
+  "networkId": 2014,
+  "explorers": [
+    {
+      "name": "nowscan",
+      "url": "https://nowscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
