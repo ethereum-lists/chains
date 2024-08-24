@@ -19213,6 +19213,19 @@
   "faucets": [],
   "infoURL": "https://taiko.xyz"
 }, {
+  "name": "Fair Testnet",
+  "chainId": 171000,
+  "shortName": "fair",
+  "networkId": 171000,
+  "nativeCurrency": {
+    "name": "FAIR",
+    "symbol": "FAIR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.xfair.ai", "wss://rpc-testnet.xfair.ai"],
+  "faucets": [],
+  "infoURL": "https://xfair.ai"
+}, {
   "name": "Chronicle - Lit Protocol Testnet",
   "chainId": 175177,
   "shortName": "lpc",
