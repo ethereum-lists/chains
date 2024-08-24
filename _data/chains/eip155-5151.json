@@ -1,0 +1,25 @@
+{
+  "name": "MeChain Testnet",
+  "chain": "MeChain",
+  "rpc": ["https://testnet-rpc.mechain.tech"],
+  "faucets": ["https://faucet.mechain.tech"],
+  "nativeCurrency": {
+    "name": "ZKME",
+    "symbol": "ZKME",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://mechain.tech",
+  "shortName": "ZKME",
+  "chainId": 5151,
+  "networkId": 5151,
+  "icon": "mechain",
+  "explorers": [
+    {
+      "name": "MeChain Scan",
+      "url": "https://testnet-scan.mechain.tech",
+      "icon": "mechain",
+      "standard": "EIP3091"
+    }
+  ]
+}
