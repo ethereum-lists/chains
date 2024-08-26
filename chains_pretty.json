@@ -35888,8 +35888,8 @@
   }],
   "status": "deprecated"
 }, {
-  "name": "NeoX Testnet T4",
-  "chain": "NeoX",
+  "name": "Neo X Testnet T4",
+  "chain": "Neo X",
   "rpc": ["https://testnet.rpc.banelabs.org/"],
   "faucets": [],
   "nativeCurrency": {
@@ -35904,7 +35904,7 @@
   "icon": "neox",
   "explorers": [{
     "name": "neox-scan",
-    "url": "https://testnet.scan.banelabs.org",
+    "url": "https://xt4scan.ngd.network",
     "standard": "EIP3091"
   }],
   "status": "active"
