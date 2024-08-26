@@ -1,0 +1,17 @@
+{
+  "name": "BA Net",
+  "chain": "BANET",
+  "rpc": [https://rpc.blockchainadvisors.ltd],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "6Degrees Coin",
+    "symbol": "6DC",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/BlockchainAdvisors",
+  "shortName": "banet",
+  "icon": "6DC",
+  "chainId": 2477,
+  "networkId": 2477,
+  "status": "incubating"
+}
