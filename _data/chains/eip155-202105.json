@@ -1,7 +1,7 @@
 {
-  "name": "Duck Chain Testnet",
-  "title": "Duck Chain Testnet",
-  "chain": "Duck Chain",
+  "name": "DuckChain Testnet",
+  "title": "DuckChain Testnet",
+  "chain": "DuckChain",
   "icon": "duckchain",
   "rpc": ["https://testnet-rpc.duckchain.io","https://testnet-rpc-hk.duckchain.io"],
   "faucets": [],
@@ -16,13 +16,13 @@
   "networkId": 202105,
   "explorers": [
     {
-      "name": "Duck Chain Scan",
+      "name": "DuckChain Scan",
       "url": "https://www.okx.com/web3/explorer/duckchain-testnet",
       "icon": "duckchain",
       "standard": "EIP3091"
     },
     {
-      "name": "Duck Chain Scan",
+      "name": "DuckChain Scan",
       "url": "https://www.oklink.com/duckchain-testnet",
       "icon": "duckchain",
       "standard": "EIP3091"
