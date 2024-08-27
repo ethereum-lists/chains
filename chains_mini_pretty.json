@@ -23581,6 +23581,19 @@
   "faucets": [],
   "infoURL": "https://alphabetnetwork.org"
 }, {
+  "name": "Thanos Sepolia",
+  "chainId": 111551119090,
+  "shortName": "thanos-sepolia",
+  "networkId": 111551119090,
+  "nativeCurrency": {
+    "name": "Tokamak Network",
+    "symbol": "TON",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.thanos-sepolia.tokamak.network", "wss://rpc.thanos-sepolia.tokamak.network"],
+  "faucets": [],
+  "infoURL": "https://tokamak.network"
+}, {
   "name": "Fluence Stage",
   "chainId": 123420000220,
   "shortName": "fluence-stage",
