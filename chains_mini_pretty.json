@@ -22949,11 +22949,11 @@
   "shortName": "sophon-testnet",
   "networkId": 531050104,
   "nativeCurrency": {
-    "name": "ETH",
-    "symbol": "ETH",
+    "name": "Sophon",
+    "symbol": "SOPH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.testnet.sophon.xyz/"],
+  "rpc": ["https://rpc.testnet.sophon.xyz", "wss://rpc.testnet.sophon.xyz/ws"],
   "faucets": [],
   "infoURL": ""
 }, {
