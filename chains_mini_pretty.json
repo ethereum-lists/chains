@@ -10347,6 +10347,19 @@
   "faucets": [],
   "infoURL": "https://www.nexi.technology/"
 }, {
+  "name": "Laika Testnet",
+  "chainId": 4269,
+  "shortName": "laika-testnet",
+  "networkId": 4269,
+  "nativeCurrency": {
+    "name": "Dogecoin",
+    "symbol": "DOGE",
+    "decimals": 18
+  },
+  "rpc": ["https://testnetrpc1.laikachain.dog"],
+  "faucets": ["https://laikachain.dog/faucets"],
+  "infoURL": "https://laikachain.dog"
+}, {
   "name": "Bobafuji Testnet",
   "chainId": 4328,
   "shortName": "BobaFujiTestnet",
@@ -11594,6 +11607,19 @@
   "rpc": ["https://rpc.poolsmobility.com"],
   "faucets": [],
   "infoURL": "https://www.poolschain.org"
+}, {
+  "name": "Laika Mainnet",
+  "chainId": 6942,
+  "shortName": "laika",
+  "networkId": 6942,
+  "nativeCurrency": {
+    "name": "Dogecoin",
+    "symbol": "DOGE",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnetrpc.laikachain.dog"],
+  "faucets": ["https://laikachain.dog/faucets"],
+  "infoURL": "https://laikachain.dog"
 }, {
   "name": "Tomb Chain Mainnet",
   "chainId": 6969,

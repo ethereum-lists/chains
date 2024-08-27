@@ -16656,6 +16656,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Laika Testnet",
+  "chain": "LAIKA",
+  "rpc": ["https://testnetrpc1.laikachain.dog"],
+  "faucets": ["https://laikachain.dog/faucets"],
+  "nativeCurrency": {
+    "name": "Dogecoin",
+    "symbol": "DOGE",
+    "decimals": 18
+  },
+  "infoURL": "https://laikachain.dog",
+  "shortName": "laika-testnet",
+  "chainId": 4269,
+  "networkId": 4269,
+  "icon": "laika",
+  "explorers": [{
+    "name": "Laika Testnet Explorer",
+    "url": "https://testnet.laikachain.dog",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Bobafuji Testnet",
   "chain": "Bobafuji Testnet",
   "status": "deprecated",
@@ -18715,6 +18735,26 @@
     "name": "poolsscan",
     "url": "https://scan.poolsmobility.com",
     "icon": "POOLS",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Laika Mainnet",
+  "chain": "LAIKA",
+  "rpc": ["https://mainnetrpc.laikachain.dog"],
+  "faucets": ["https://laikachain.dog/faucets"],
+  "nativeCurrency": {
+    "name": "Dogecoin",
+    "symbol": "DOGE",
+    "decimals": 18
+  },
+  "infoURL": "https://laikachain.dog",
+  "shortName": "laika",
+  "chainId": 6942,
+  "networkId": 6942,
+  "icon": "laika",
+  "explorers": [{
+    "name": "Laika Mainnet Explorer",
+    "url": "https://explorer.laikachain.dog",
     "standard": "EIP3091"
   }]
 }, {
