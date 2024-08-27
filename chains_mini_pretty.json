@@ -18745,6 +18745,19 @@
   "faucets": [],
   "infoURL": "https://creditcoin.org"
 }, {
+  "name": "Creditcoin Devnet",
+  "chainId": 102032,
+  "shortName": "ctcdev",
+  "networkId": 102032,
+  "nativeCurrency": {
+    "name": "Devnet CTC",
+    "symbol": "devCTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.cc3-devnet.creditcoin.network"],
+  "faucets": [],
+  "infoURL": "https://creditcoin.org"
+}, {
   "name": "Crystaleum",
   "chainId": 103090,
   "shortName": "CRFI",
