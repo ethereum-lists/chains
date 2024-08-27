@@ -6967,6 +6967,19 @@
   "faucets": [],
   "infoURL": "https://sherpax.io/"
 }, {
+  "name": "Story Testnet",
+  "chainId": 1513,
+  "shortName": "Story",
+  "networkId": 1513,
+  "nativeCurrency": {
+    "name": "IP",
+    "symbol": "IP",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.storyrpc.io"],
+  "faucets": ["https://faucet.story.foundation"],
+  "infoURL": "https://www.story.foundation"
+}, {
   "name": "Beagle Messaging Chain",
   "chainId": 1515,
   "shortName": "beagle",
