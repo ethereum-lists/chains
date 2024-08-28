@@ -3,7 +3,10 @@
   "title": "DuckChain Testnet",
   "chain": "DuckChain",
   "icon": "duckchain",
-  "rpc": ["https://testnet-rpc.duckchain.io","https://testnet-rpc-hk.duckchain.io"],
+  "rpc": [
+    "https://testnet-rpc.duckchain.io",
+    "https://testnet-rpc-hk.duckchain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "TON",
