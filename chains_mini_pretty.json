@@ -23022,6 +23022,19 @@
   "faucets": [],
   "infoURL": "https://degen.tips"
 }, {
+  "name": "Tron Mainnet",
+  "chainId": 728126428,
+  "shortName": "tron",
+  "networkId": 728126428,
+  "nativeCurrency": {
+    "name": "Tron",
+    "symbol": "TRX",
+    "decimals": 6
+  },
+  "rpc": ["https://rpc.ankr.com/tron_jsonrpc", "https://api.trongrid.io/jsonrpc"],
+  "faucets": [],
+  "infoURL": "https://tron.network"
+}, {
   "name": "Ancient8",
   "chainId": 888888888,
   "shortName": "ancient8",
