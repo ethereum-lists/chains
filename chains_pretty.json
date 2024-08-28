@@ -12175,6 +12175,34 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Minato",
+  "shortName": "minato",
+  "title": "Soneium testnet Minato",
+  "chain": "ETH",
+  "icon": "minato",
+  "rpc": ["https://rpc.minato.soneium.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://soneium.org",
+  "chainId": 1946,
+  "networkId": 1946,
+  "explorers": [{
+    "name": "Blockscout Minato explorer",
+    "url": "https://explorer-testnet.soneium.org",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://bridge.soneium.org/testnet"
+    }]
+  }
+}, {
   "name": "D-Chain Mainnet",
   "chain": "D-Chain",
   "rpc": ["https://mainnet.d-chain.network/ext/bc/2ZiR1Bro5E59siVuwdNuRFzqL95NkvkbzyLBdrsYR9BLSHV7H4/rpc"],
