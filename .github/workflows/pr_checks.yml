@@ -53,7 +53,7 @@ jobs:
             else
               echo "Trying to download the image..."
               TARGET_FILE=icon
-              curl -Lo icon "https://cloudflare-ipfs.com/ipfs/$IPFS_HASH" 2>/dev/null
+              curl -Lo icon "https://dweb.link/ipfs/$IPFS_HASH" 2>/dev/null
             fi
 
             METADATA=$(exiftool $TARGET_FILE -json)
