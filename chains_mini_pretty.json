@@ -2157,6 +2157,19 @@
   "faucets": ["https://faucet-testnet.hscscan.com/"],
   "infoURL": "https://www.hoosmartchain.com"
 }, {
+  "name": "CO2e Ledger",
+  "chainId": 171,
+  "shortName": "CO2e",
+  "networkId": 171,
+  "nativeCurrency": {
+    "name": "CO2e Token",
+    "symbol": "CO2E",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.co2ledger.xyz"],
+  "faucets": [],
+  "infoURL": "https://co2ledger.xyz"
+}, {
   "name": "Latam-Blockchain Resil Testnet",
   "chainId": 172,
   "shortName": "resil",
