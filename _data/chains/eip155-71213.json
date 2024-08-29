@@ -1,0 +1,24 @@
+{
+  "name": "Trendz Blockchain Testnet",
+  "chain": "Trendz Blockchain",
+  "title": "Trendz Blockchain Testnet",
+  "icon": "Trendz",
+  "rpc": ["https://t-rpc.trendzblockchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TRB",
+    "symbol": "TRB",
+    "decimals": 18
+  },
+  "infoURL": "https://www.trendzblockchain.co",
+  "shortName": "Trendz-Testnet",
+  "chainId": 71213,
+  "networkId": 71213,
+  "explorers": [
+    {
+      "name": "Trendz Blockchain Testnet Explorer",
+      "url": "https://t-scan.trendzblockchain.com/",
+      "standard": "EIP3091"
+    }
+  ]
+}
