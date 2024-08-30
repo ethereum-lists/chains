@@ -5316,6 +5316,19 @@
   "faucets": [],
   "infoURL": "https://oortech.com"
 }, {
+  "name": "Palm Smart Chain",
+  "chainId": 973,
+  "shortName": "PalmChain",
+  "networkId": 973,
+  "nativeCurrency": {
+    "name": "PALM",
+    "symbol": "PALM",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.palmsmartchain.io"],
+  "faucets": [],
+  "infoURL": "https://palmsmartchain.io"
+}, {
   "name": "Nepal Blockchain Network",
   "chainId": 977,
   "shortName": "yeti",
