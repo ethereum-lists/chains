@@ -18,5 +18,10 @@
       "url": "https://camp-network-testnet.blockscout.com",
       "standard": "none"
     }
-  ]
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  }
 }
