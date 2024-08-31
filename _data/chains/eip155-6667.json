@@ -1,0 +1,24 @@
+{
+    "name": "Storchain Mainnet",
+    "chain": "Storchain",
+    "rpc": ["https://rpc.storchain.io/"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Stor",
+      "symbol": "STOR",
+      "decimals": 18
+    },
+    "infoURL": "https://storchain.io",
+    "shortName": "Stor",
+    "chainId": 6667,
+    "networkId": 6667,
+    "icon": "stor",
+    "explorers": [
+      {
+        "name": "storscan",
+        "url": "https://scan.storchain.io/",
+        "icon": "stor",
+        "standard": "none"
+      }
+    ]
+  }
