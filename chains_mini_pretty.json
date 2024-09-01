@@ -16249,6 +16249,19 @@
   "faucets": [],
   "infoURL": "https://oho.ai"
 }, {
+  "name": "DIV Chain",
+  "chainId": 40000,
+  "shortName": "divc",
+  "networkId": 40000,
+  "nativeCurrency": {
+    "name": "DIVC",
+    "symbol": "DIVC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.divchain.org"],
+  "faucets": [],
+  "infoURL": "https://www.divchain.org"
+}, {
   "name": "Aleph Zero EVM",
   "chainId": 41455,
   "shortName": "aleph-zero",
