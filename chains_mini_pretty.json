@@ -19343,6 +19343,19 @@
   "faucets": [],
   "infoURL": "https://taiko.xyz"
 }, {
+  "name": "Zchains",
+  "chainId": 168168,
+  "shortName": "zchains",
+  "networkId": 168168,
+  "nativeCurrency": {
+    "name": "ZCD",
+    "symbol": "ZCD",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zchains.com"],
+  "faucets": [],
+  "infoURL": "https://www.zchains.com/"
+}, {
   "name": "Fair Testnet",
   "chainId": 171000,
   "shortName": "fairt",
