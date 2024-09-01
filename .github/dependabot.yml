@@ -1,5 +1,5 @@
 version: 2
-updates:
+updates:dependabot.yml
   - package-ecosystem: gradle
     directory: "/"
     schedule:
