@@ -7422,6 +7422,19 @@
   "faucets": [],
   "infoURL": "https://rubychain.io"
 }, {
+  "name": "HighOctane Subnet",
+  "chainId": 1853,
+  "shortName": "HighOctane",
+  "networkId": 1853,
+  "nativeCurrency": {
+    "name": "HighOctane",
+    "symbol": "HO",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/highoctane/mainnet/rpc", "wss://subnets.avax.network/highoctane/mainnet/ws"],
+  "faucets": [],
+  "infoURL": "https://subnets.avax.network/highoctane/details"
+}, {
   "name": "Teslafunds",
   "chainId": 1856,
   "shortName": "tsf",
