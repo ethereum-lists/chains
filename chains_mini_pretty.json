@@ -16834,6 +16834,19 @@
   "faucets": [],
   "infoURL": "https://gton.capital"
 }, {
+  "name": "Erbie Mainnet",
+  "chainId": 50888,
+  "shortName": "Erbie",
+  "networkId": 50888,
+  "nativeCurrency": {
+    "name": "ERB",
+    "symbol": "ERB",
+    "decimals": 18
+  },
+  "rpc": ["https://api.erbie.io"],
+  "faucets": [],
+  "infoURL": "https://www.erbie.io"
+}, {
   "name": "Lumoz Testnet Alpha",
   "chainId": 51178,
   "shortName": "Lumoz-Testnet",

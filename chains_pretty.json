@@ -27250,6 +27250,27 @@
     "chain": "eip155-3"
   }
 }, {
+  "name": "Erbie Mainnet",
+  "chain": "Erbie",
+  "rpc": ["https://api.erbie.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ERB",
+    "symbol": "ERB",
+    "decimals": 18
+  },
+  "infoURL": "https://www.erbie.io",
+  "shortName": "Erbie",
+  "chainId": 50888,
+  "networkId": 50888,
+  "icon": "erbie",
+  "explorers": [{
+    "name": "Erbie Explorer",
+    "url": "https://www.erbie.io/explorer",
+    "standard": "none",
+    "icon": "erbie"
+  }]
+}, {
   "name": "Lumoz Testnet Alpha",
   "chain": "ETH",
   "rpc": ["https://alpha-us-http-geth.lumoz.org", "https://alpha-hk-http-geth.lumoz.org"],
