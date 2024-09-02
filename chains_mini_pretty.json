@@ -19603,6 +19603,19 @@
   "faucets": [],
   "infoURL": "https://decimalchain.com"
 }, {
+  "name": "DuckChain Testnet",
+  "chainId": 202105,
+  "shortName": "Duck-Chain-Testnet",
+  "networkId": 202105,
+  "nativeCurrency": {
+    "name": "TON",
+    "symbol": "TON",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.duckchain.io", "https://testnet-rpc-hk.duckchain.io"],
+  "faucets": [],
+  "infoURL": "https://duckchain.io"
+}, {
   "name": "X1 Devnet",
   "chainId": 202212,
   "shortName": "x1-devnet",
