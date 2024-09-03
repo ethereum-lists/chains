@@ -16938,6 +16938,19 @@
   "faucets": [],
   "infoURL": "https://defikingdoms.com"
 }, {
+  "name": "OverProtocol Mainnet",
+  "chainId": 54176,
+  "shortName": "overprotocol",
+  "networkId": 54176,
+  "nativeCurrency": {
+    "name": "Over",
+    "symbol": "OVER",
+    "decimals": 18
+  },
+  "rpc": ["https://public.rpc.overprotocol.com"],
+  "faucets": [],
+  "infoURL": "https://docs.over.network"
+}, {
   "name": "Haqq Chain Testnet",
   "chainId": 54211,
   "shortName": "ISLMT",
@@ -20720,6 +20733,19 @@
   "rpc": ["https://mainnet-rpc.bescscan.io"],
   "faucets": [],
   "infoURL": "besceco.finance"
+}, {
+  "name": "OverProtocol Testnet",
+  "chainId": 541764,
+  "shortName": "overprotocol-testnet",
+  "networkId": 541764,
+  "nativeCurrency": {
+    "name": "Over",
+    "symbol": "OVER",
+    "decimals": 18
+  },
+  "rpc": ["https://wallet-dolphin.rpc.over.network"],
+  "faucets": [],
+  "infoURL": "https://docs.over.network"
 }, {
   "name": "One World Chain Testnet",
   "chainId": 552981,

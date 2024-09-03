@@ -27441,6 +27441,26 @@
     "standard": "none"
   }]
 }, {
+  "name": "OverProtocol Mainnet",
+  "chain": "OverProtocol",
+  "icon": "overIcon",
+  "rpc": ["https://public.rpc.overprotocol.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Over",
+    "symbol": "OVER",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.over.network",
+  "shortName": "overprotocol",
+  "chainId": 54176,
+  "networkId": 54176,
+  "explorers": [{
+    "name": "OverView",
+    "url": "https://view.over.network",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Haqq Chain Testnet",
   "chain": "TestEdge2",
   "rpc": ["https://rpc.eth.testedge2.haqq.network"],
@@ -33684,6 +33704,26 @@
   "explorers": [{
     "name": "bescscan",
     "url": "https://Bescscan.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "OverProtocol Testnet",
+  "chain": "OverProtocol",
+  "icon": "overIcon",
+  "rpc": ["https://wallet-dolphin.rpc.over.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Over",
+    "symbol": "OVER",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.over.network",
+  "shortName": "overprotocol-testnet",
+  "chainId": 541764,
+  "networkId": 541764,
+  "explorers": [{
+    "name": "OverView Testnet",
+    "url": "https://dolphin.view.over.network",
     "standard": "EIP3091"
   }]
 }, {
