@@ -1,0 +1,23 @@
+{
+  "name": "Tobe Chain Testnet",
+  "chain": "TBC",
+  "icon": "tobe",
+  "rpc": ["https://rpc-testnet.tobescan.com"],
+  "faucets": ["https://faucet.tobescan.com/faucet"],
+  "nativeCurrency": {
+    "name": "Tobe Coin",
+    "symbol": "TOBE",
+    "decimals": 18
+  },
+  "infoURL": "https://tobechain.net",
+  "shortName": "tbc",
+  "chainId": 4080,
+  "networkId": 4080,
+  "explorers": [
+    {
+      "name": "tobescan testnet",
+      "url": "https://testnet.tobescan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

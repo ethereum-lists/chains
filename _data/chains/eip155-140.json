@@ -1,0 +1,19 @@
+{
+  "name": "Eternal Mainnet",
+  "chain": "Eter",
+  "icon": "eternal",
+  "rpc": [
+    "https://mainnet.eternalcoin.io/v1",
+    "ws://mainnet.eternalcoin.io/v1/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Eternal",
+    "symbol": "Eter",
+    "decimals": 18
+  },
+  "infoURL": "https://eternalcoin.io",
+  "shortName": "Eter",
+  "chainId": 140,
+  "networkId": 140
+}

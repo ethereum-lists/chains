@@ -9,19 +9,21 @@
     "https://rpc-mainnet.maticvigil.com",
     "https://rpc-mainnet.matic.quiknode.pro",
     "https://matic-mainnet-full-rpc.bwarelabs.com",
-    "https://polygon-bor.publicnode.com",
-    "wss://polygon-bor.publicnode.com",
+    "https://polygon-bor-rpc.publicnode.com",
+    "wss://polygon-bor-rpc.publicnode.com",
     "https://polygon.gateway.tenderly.co",
-    "wss://polygon.gateway.tenderly.co"
+    "wss://polygon.gateway.tenderly.co",
+    "https://polygon.drpc.org",
+    "wss://polygon.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "MATIC",
-    "symbol": "MATIC",
+    "name": "POL",
+    "symbol": "POL",
     "decimals": 18
   },
   "infoURL": "https://polygon.technology/",
-  "shortName": "matic",
+  "shortName": "pol",
   "chainId": 137,
   "networkId": 137,
   "slip44": 966,

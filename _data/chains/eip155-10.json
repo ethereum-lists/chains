@@ -3,10 +3,12 @@
   "chain": "ETH",
   "rpc": [
     "https://mainnet.optimism.io",
-    "https://optimism.publicnode.com",
-    "wss://optimism.publicnode.com",
+    "https://optimism-rpc.publicnode.com",
+    "wss://optimism-rpc.publicnode.com",
     "https://optimism.gateway.tenderly.co",
-    "wss://optimism.gateway.tenderly.co"
+    "wss://optimism.gateway.tenderly.co",
+    "https://optimism.drpc.org",
+    "wss://optimism.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
