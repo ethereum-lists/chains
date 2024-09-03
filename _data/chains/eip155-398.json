@@ -1,23 +1,23 @@
 {
-  "name": "Near Testnet",
+  "name": "NEAR Protocol Testnet",
   "chain": "NEAR",
-  "rpc": [],
+  "rpc": ["https://eth-rpc.testnet.near.org"],
   "icon": "near",
   "faucets": [],
   "nativeCurrency": {
-    "name": "Testnet NEAR",
+    "name": "NEAR",
     "symbol": "NEAR",
     "decimals": 18
   },
-  "infoURL": "https://aurora.dev",
+  "infoURL": "https://near.org",
   "shortName": "near-testnet",
   "chainId": 398,
   "networkId": 398,
   "explorers": [
     {
-      "name": "Near blocks",
-      "url": "https://testnet.nearblocks.io",
-      "standard": "none"
+      "name": "NEAR Explorer",
+      "url": "https://eth-explorer-testnet.near.org",
+      "standard": "EIP3091"
     }
   ]
 }
