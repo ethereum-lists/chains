@@ -8995,6 +8995,19 @@
   "faucets": ["https://faucet-testnet.hybridchain.ai"],
   "infoURL": "https://hybridchain.ai"
 }, {
+  "name": "6Degree of Outreach",
+  "chainId": 2477,
+  "shortName": "6do",
+  "networkId": 2477,
+  "nativeCurrency": {
+    "name": "6Degree Coin",
+    "symbol": "6DO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.6do.world"],
+  "faucets": [],
+  "infoURL": "https://6do.world"
+}, {
   "name": "Unicorn Ultra Nebulas Testnet",
   "chainId": 2484,
   "shortName": "u2u_nebulas",
