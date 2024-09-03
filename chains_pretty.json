@@ -7320,6 +7320,28 @@
     "icon": "highbury"
   }]
 }, {
+  "name": "Birdee-2",
+  "chain": "Tucana",
+  "title": "Tucana Testnet",
+  "rpc": ["https://evm-rpc.birdee-2.tucana.zone", "wss://evm-ws.birdee-2.tucana.zone"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Tucana",
+    "symbol": "TUC",
+    "decimals": 18
+  },
+  "infoURL": "https://tucana.zone",
+  "shortName": "birdee-2",
+  "chainId": 712,
+  "networkId": 712,
+  "slip44": 1,
+  "icon": "tucana",
+  "explorers": [{
+    "name": "Birdee-2 Explorer",
+    "url": "https://explorer.birdee-2.tucana.zone",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Vrcscan Mainnet",
   "chain": "VRC",
   "rpc": ["https://rpc-mainnet-5.vrcscan.com", "https://rpc-mainnet-6.vrcscan.com", "https://rpc-mainnet-7.vrcscan.com", "https://rpc-mainnet-8.vrcscan.com"],
