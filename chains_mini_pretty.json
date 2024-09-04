@@ -9304,7 +9304,7 @@
     "decimals": 18
   },
   "rpc": ["https://rpc-quicknode-holesky.morphl2.io", "wss://rpc-quicknode-holesky.morphl2.io", "https://rpc-holesky.morphl2.io"],
-  "faucets": [],
+  "faucets": ["https://morphfaucet.com/"],
   "infoURL": "https://morphl2.io"
 }, {
   "name": "Chips Network",
