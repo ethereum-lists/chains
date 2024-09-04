@@ -6532,7 +6532,7 @@
   "name": "Testnet",
   "chain": "Flow",
   "rpc": ["https://testnet.evm.nodes.onflow.org"],
-  "faucets": ["https://testnet-faucet.onflow.org"],
+  "faucets": ["https://faucet.flow.com/fund-account"],
   "nativeCurrency": {
     "name": "FLOW",
     "symbol": "FLOW",
@@ -6989,7 +6989,8 @@
     "name": "EVM on Flow Block Explorer (PreviewNet)",
     "url": "https://eth.flowscan.io",
     "standard": "EIP3091"
-  }]
+  }],
+  "status": "deprecated"
 }, {
   "name": "SX Network Testnet",
   "chain": "SX",
