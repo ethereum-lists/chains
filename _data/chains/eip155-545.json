@@ -2,7 +2,7 @@
   "name": "Testnet",
   "chain": "Flow",
   "rpc": ["https://testnet.evm.nodes.onflow.org"],
-  "faucets": ["https://testnet-faucet.onflow.org"],
+  "faucets": ["https://faucet.flow.com/fund-account"],
   "nativeCurrency": {
     "name": "FLOW",
     "symbol": "FLOW",
