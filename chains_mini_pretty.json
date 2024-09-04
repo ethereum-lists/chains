@@ -20825,6 +20825,19 @@
   "faucets": [],
   "infoURL": "http://eclipsenet.io"
 }, {
+  "name": "DustBoy IoT",
+  "chainId": 555888,
+  "shortName": "DustBoy_IoT",
+  "networkId": 555888,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "DST",
+    "decimals": 18
+  },
+  "rpc": ["https://dustboy-rpc.jibl2.com/"],
+  "faucets": [],
+  "infoURL": "https://www.cmuccdc.org/"
+}, {
   "name": "Hypra Mainnet",
   "chainId": 622277,
   "shortName": "hyp",
