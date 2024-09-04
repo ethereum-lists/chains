@@ -7,7 +7,7 @@
     "wss://rpc-quicknode-holesky.morphl2.io",
     "https://rpc-holesky.morphl2.io"
   ],
-  "faucets": [],
+  "faucets": ["https://morphfaucet.com/"],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
