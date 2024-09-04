@@ -4536,6 +4536,19 @@
   "faucets": [],
   "infoURL": "https://www.fury.black"
 }, {
+  "name": "Tucana",
+  "chainId": 711,
+  "shortName": "tuc",
+  "networkId": 711,
+  "nativeCurrency": {
+    "name": "Tucana",
+    "symbol": "TUC",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-rpc.tucana.zone", "wss://evm-ws.tucana.zone"],
+  "faucets": [],
+  "infoURL": "https://tucana.zone"
+}, {
   "name": "Birdee-2",
   "chainId": 712,
   "shortName": "birdee-2",
