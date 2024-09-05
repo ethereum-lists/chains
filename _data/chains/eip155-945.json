@@ -13,10 +13,12 @@
   "chainId": 945,
   "networkId": 945,
   "slip44": 1005,
+  "icon": "bittensor",
   "explorers": [
     {
       "name": "Subtensor EVM Explorer",
       "url": "https://evm-testscan.dev.opentensor.ai",
+      "icon": "bittensor",
       "standard": "EIP3091"
     }
   ]
