@@ -15768,6 +15768,19 @@
   "faucets": [],
   "infoURL": "https://www.mycryptoheroes.net/verse"
 }, {
+  "name": "qChain Mainnet",
+  "chainId": 30000,
+  "shortName": "qchain",
+  "networkId": 30000,
+  "nativeCurrency": {
+    "name": "QCO",
+    "symbol": "QCO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.qchain.kr"],
+  "faucets": [],
+  "infoURL": "https://www.qchain.kr"
+}, {
   "name": "Piece testnet",
   "chainId": 30067,
   "shortName": "Piece",
