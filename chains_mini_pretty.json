@@ -5251,6 +5251,19 @@
   "faucets": ["https://faucet.v4.testnet.pulsechain.com/"],
   "infoURL": "https://pulsechain.com"
 }, {
+  "name": "Subtensor EVM Testnet",
+  "chainId": 945,
+  "shortName": "bittensor-evm-testnet",
+  "networkId": 945,
+  "nativeCurrency": {
+    "name": "testTAO",
+    "symbol": "TAO",
+    "decimals": 9
+  },
+  "rpc": ["https://evm-testnet.dev.opentensor.ai"],
+  "faucets": [],
+  "infoURL": "https://bittensor.com/"
+}, {
   "name": "muNode Testnet",
   "chainId": 956,
   "shortName": "munode",
