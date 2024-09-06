@@ -1,6 +1,6 @@
 {
-  "name": "Aleph Zero Testnet",
-  "chain": "Aleph Zero Testnet",
+  "name": "Aleph Zero",
+  "chain": "Aleph Zero",
   "icon": "aleph",
   "rpc": [
     "https://rpc.alephzero-testnet.gelato.digital",
@@ -12,14 +12,14 @@
     "symbol": "TZERO",
     "decimals": 18
   },
-  "infoURL": "https://testnet.alephzero.org",
+  "infoURL": "https://alephzero.org/",
   "shortName": "aleph",
   "chainId": 2039,
   "networkId": 2039,
   "explorers": [
     {
-      "name": "Aleph Zero Testnet",
-      "url": "https://test.azero.dev/#/explorer",
+      "name": "Aleph Zero",
+      "url": "https://evm-explorer-testnet.alephzero.org",
       "icon": "aleph",
       "standard": "none"
     }
