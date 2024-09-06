@@ -2,7 +2,7 @@
   "name": "eSync Network Testnet",
   "title": "eSync Network Testnet",
   "chain": "ECS",
-  "rpc": ["http://rpc.tst.esync.network"],
+  "rpc": ["https://rpc.tst.esync.network"],
   "faucets": ["https://faucet.tst.ecredits.com"],
   "nativeCurrency": {
     "name": "eCredits",
