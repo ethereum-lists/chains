@@ -7526,7 +7526,7 @@
     "standard": "none"
   }]
 }, {
-  "name": "EVM on Flow (Mainnet)",
+  "name": "EVM on Flow",
   "chain": "Flow",
   "rpc": ["https://mainnet.evm.nodes.onflow.org"],
   "faucets": [],
@@ -7541,9 +7541,9 @@
   "networkId": 747,
   "icon": "flowevm",
   "explorers": [{
-    "name": "Flow Diver",
-    "url": "https://flowdiver.io",
-    "standard": "none"
+    "name": "FlowScan",
+    "url": "https://evm.flowscan.io",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "QL1",
