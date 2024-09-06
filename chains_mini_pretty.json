@@ -5465,7 +5465,7 @@
   "networkId": 995,
   "nativeCurrency": {
     "name": "5ire Token",
-    "symbol": "5IRE",
+    "symbol": "5ire",
     "decimals": 18
   },
   "rpc": ["https://rpc.5ire.network"],
@@ -5485,7 +5485,7 @@
   "faucets": [],
   "infoURL": "https://bifrost.io/"
 }, {
-  "name": "5ireChain Thunder",
+  "name": "5ireChain Thunder Testnet",
   "chainId": 997,
   "shortName": "T5ire",
   "networkId": 997,
@@ -5494,8 +5494,8 @@
     "symbol": "T5IRE",
     "decimals": 18
   },
-  "rpc": ["https://rpc-testnet.5ire.network"],
-  "faucets": ["https://explorer.5ire.network/faucet"],
+  "rpc": ["https://rpc.testnet.5ire.network"],
+  "faucets": ["https://testnet.5irescan.io/faucet"],
   "infoURL": "https://5ire.org"
 }, {
   "name": "Lucky Network",
