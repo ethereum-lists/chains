@@ -1,7 +1,7 @@
 {
   "name": "Storchain Mainnet",
   "chain": "Storchain",
-  "rpc": ["https://rpc.storchain.io/"],
+  "rpc": ["https://rpc.storchain.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Stor",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "storscan",
-      "url": "https://scan.storchain.io/",
+      "url": "https://scan.storchain.io",
       "icon": "stor",
       "standard": "none"
     }
