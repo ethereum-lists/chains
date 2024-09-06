@@ -16539,6 +16539,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Zeroth Mainnet",
+  "chain": "ZRH",
+  "icon": "zeroth",
+  "rpc": ["https://my.zeroth.run"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ZRH",
+    "symbol": "ZRH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.zeroth.foundation",
+  "shortName": "ZRH",
+  "chainId": 4088,
+  "networkId": 4088,
+  "explorers": [{
+    "name": "Zeroth Explorer",
+    "url": "https://scan.zeroth.run",
+    "icon": "zeroth",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Fastex Chain (Bahamut) Oasis Testnet",
   "title": "Bahamut testnet Oasis",
   "icon": "bahamut",
@@ -23393,6 +23414,27 @@
   "explorers": [{
     "name": "SPS Test Explorer",
     "url": "https://explorer.3sps.net",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Zeroth Testnet",
+  "chain": "Zeroth",
+  "icon": "zeroth",
+  "rpc": ["https://test-my.zeroth.run"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Zeroth",
+    "symbol": "ZRHt",
+    "decimals": 18
+  },
+  "infoURL": "https://www.zeroth.foundation",
+  "shortName": "ZRHt",
+  "chainId": 14088,
+  "networkId": 14088,
+  "explorers": [{
+    "name": "Zeroth Explorer",
+    "url": "https://test-scan.zeroth.run",
+    "icon": "zeroth",
     "standard": "EIP3091"
   }]
 }, {

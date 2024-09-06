@@ -10269,6 +10269,19 @@
   "faucets": ["https://faucet.tobescan.com/faucet"],
   "infoURL": "https://tobechain.net"
 }, {
+  "name": "Zeroth Mainnet",
+  "chainId": 4088,
+  "shortName": "ZRH",
+  "networkId": 4088,
+  "nativeCurrency": {
+    "name": "ZRH",
+    "symbol": "ZRH",
+    "decimals": 18
+  },
+  "rpc": ["https://my.zeroth.run"],
+  "faucets": [],
+  "infoURL": "https://www.zeroth.foundation"
+}, {
   "name": "Fastex Chain (Bahamut) Oasis Testnet",
   "chainId": 4090,
   "shortName": "Oasis",
@@ -14506,6 +14519,19 @@
   "rpc": ["https://www.3sps.net"],
   "faucets": [],
   "infoURL": "https://ssquad.games/"
+}, {
+  "name": "Zeroth Testnet",
+  "chainId": 14088,
+  "shortName": "ZRHt",
+  "networkId": 14088,
+  "nativeCurrency": {
+    "name": "Zeroth",
+    "symbol": "ZRHt",
+    "decimals": 18
+  },
+  "rpc": ["https://test-my.zeroth.run"],
+  "faucets": [],
+  "infoURL": "https://www.zeroth.foundation"
 }, {
   "name": "EVOLVE Testnet",
   "chainId": 14324,
