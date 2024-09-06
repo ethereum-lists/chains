@@ -1,0 +1,23 @@
+{
+  "name": "Creator Chain Testnet",
+  "chain": "creatorchain",
+  "icon": "creatorchain",
+  "rpc": ["https://rpc.creatorchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.creatorchain.io/",
+  "shortName": "eth",
+  "chainId": 66665,
+  "networkId": 66665,
+  "explorers": [
+    {
+      "name": "creatorchainscan",
+      "url": "https://explorer.creatorchain.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
