@@ -1,5 +1,5 @@
 {
-  "name": "EVM on Flow (Testnet)",
+  "name": "EVM on Flow Testnet",
   "chain": "Flow",
   "rpc": ["https://testnet.evm.nodes.onflow.org"],
   "faucets": ["https://faucet.flow.com/fund-account"],
@@ -15,7 +15,7 @@
   "icon": "flowevm",
   "explorers": [
     {
-      "name": "FlowScan: Testnet",
+      "name": "FlowScan Testnet",
       "url": "https://evm-testnet.flowscan.io",
       "standard": "EIP3091"
     }
