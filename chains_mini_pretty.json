@@ -13948,6 +13948,19 @@
   "faucets": ["https://faucetpage.quadrans.io"],
   "infoURL": "https://quadrans.io"
 }, {
+  "name": "KBC Chain",
+  "chainId": 11000,
+  "shortName": "KBC",
+  "networkId": 11000,
+  "nativeCurrency": {
+    "name": "KBC",
+    "symbol": "KBC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.kbcfoundation.com"],
+  "faucets": [],
+  "infoURL": "https://kbcfoundation.com"
+}, {
   "name": "Shape Sepolia Testnet",
   "chainId": 11011,
   "shortName": "shapesep",
@@ -18952,6 +18965,19 @@
   "rpc": ["https://gtn.stabilityprotocol.com"],
   "faucets": [],
   "infoURL": "https://stabilityprotocol.com"
+}, {
+  "name": "Creditcoin",
+  "chainId": 102030,
+  "shortName": "ctc",
+  "networkId": 102030,
+  "nativeCurrency": {
+    "name": "CTC",
+    "symbol": "CTC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet3.creditcoin.network"],
+  "faucets": [],
+  "infoURL": "https://creditcoin.org"
 }, {
   "name": "Creditcoin Testnet",
   "chainId": 102031,
