@@ -1,0 +1,25 @@
+{
+  "name": "SpoinkNET MainNETWORK",
+  "chain": "Polygon",
+  "rpc": [
+    "https://u0t2i91j2g-u0d86ivxh3-rpc.us0-aws.kaleido.io/",
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SpoinkToken",
+    "symbol": "SPK",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://spoinknet.pages.dev",
+  "shortName": "spk",
+  "chainId": 8311,
+  "networkId": 1,
+  "icon": "spoinktoken",
+  "explorers": [{
+    "name": "etherscan",
+    "url": "https://etherscan.io/token/0xf97f48981659b37efc5babfd540463cacb2e51e3#tokenAnalytics",
+    "icon": "etherscan",
+    "standard": "EIP3091"
+  }]
+}
