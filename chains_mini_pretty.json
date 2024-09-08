@@ -8644,6 +8644,19 @@
   "faucets": [],
   "infoURL": "https://animechain.ai"
 }, {
+  "name": "SnaxChain",
+  "chainId": 2192,
+  "shortName": "snax",
+  "networkId": 2192,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.snaxchain.io"],
+  "faucets": [],
+  "infoURL": "https://synthetix.io"
+}, {
   "name": "Moonsama Network",
   "chainId": 2199,
   "shortName": "msn",
