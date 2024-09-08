@@ -1,8 +1,8 @@
 {
-  "name": "SpoinkNET MainNETWORK",
+  "name": "SpoinkNET Mainnet",
   "chain": "SpoinkNET",
   "rpc": [
-    "https://u0t2i91j2g-u0d86ivxh3-rpc.us0-aws.kaleido.io/"
+    "https://u0vhplfbwg-u0dysdwnyd-rpc.us0-aws.kaleido.io/"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,8 +20,8 @@
   "networkId": 8311,
   "icon": "ethereum",
   "explorers": [{
-    "name": "etherscan",
-    "url": "https://etherscan.io/token/0xf97f48981659b37efc5babfd540463cacb2e51e3#tokenAnalytics",
+    "name": "SpoinkNET Blockchain Explorer",
+    "url": "https://spoinknet.pages.dev/blockexplorer",
     "icon": "ethereum",
     "standard": "EIP3091"
   }]
