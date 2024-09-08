@@ -1,15 +1,15 @@
 {
   "name": "ZEUS Mainnet",
-  "chain": "ZEUS",
+  "chain": "ZEUSX",
   "icon": "zeusicon",
   "rpc": ["https://mainnet-rpc.zeuschainscan.io"],
   "nativeCurrency": {
     "name": "The ZEUS Token",
-    "symbol": "ZEUS",
+    "symbol": "ZEUSX",
     "decimals": 18
   },
   "infoURL": "https://zeuschainscan.io",
-  "shortName": "ZEUS",
+  "shortName": "ZEUSX",
   "chainId": 34504,
   "networkId": 34504,
   "faucets": [],
