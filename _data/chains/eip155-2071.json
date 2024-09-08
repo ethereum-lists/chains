@@ -1,0 +1,24 @@
+{
+  "name": "Metacces Mainnet",
+  "chain": "ACCES",
+  "rpc": [
+    "https://oli.accesscan.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Acces",
+    "symbol": "Acces",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://metacces.com",
+  "shortName": "acces",
+  "chainId": 2071,
+  "networkId": 2071,
+  "icon": "metacces",
+  "explorers": [{
+    "name": "accesscan",
+    "url": "https://accesscan.io",
+    "standard": "EIP3091"
+  }]
+}
