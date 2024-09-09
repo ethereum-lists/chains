@@ -16,9 +16,11 @@
   "chainId": 2071,
   "networkId": 2071,
   "icon": "metacces",
-  "explorers": [{
+  "explorers": [
+    {
     "name": "accesscan",
     "url": "https://accesscan.io",
     "standard": "EIP3091"
-  }]
+    }
+  ]
 }
