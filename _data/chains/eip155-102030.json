@@ -1,0 +1,32 @@
+{
+  "name": "Creditcoin",
+  "chain": "CTC",
+  "icon": "creditcoin",
+  "rpc": ["https://mainnet3.creditcoin.network"],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "nativeCurrency": {
+    "name": "CTC",
+    "symbol": "CTC",
+    "decimals": 18
+  },
+  "infoURL": "https://creditcoin.org",
+  "shortName": "ctc",
+  "chainId": 102030,
+  "networkId": 102030,
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://creditcoin.blockscout.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
