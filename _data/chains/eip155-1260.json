@@ -16,9 +16,11 @@
   "chainId": 1260,
   "networkId": 1260,
   "icon": "metacces",
-  "explorers": [{
+  "explorers": [
+    {
     "name": "accesscan",
     "url": "https://testnet.accesscan.io",
     "standard": "EIP3091"
-  }]
+    }
+  ]
 }
