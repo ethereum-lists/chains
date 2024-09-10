@@ -1,0 +1,36 @@
+{
+    "name": "Multipool Devnet",
+    "chainId": 123420000406,
+    "shortName": "multipool-dev",
+    "networkId": 123420000406,
+    "nativeCurrency": {
+      "name": "Multipool Devnet Token",
+      "symbol": "MUL",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://rpc-123420000406.raas-testnet.gelato.digital"
+    ],
+    "faucets": [
+      "https://faucet.multipool.finance"
+    ],
+    "infoURL": "https://multipool.finance",
+    "explorers": [
+      {
+        "name": "Multipool Devnet Explorer",
+        "url": "https://blockscout-123420000406.raas-testnet.gelato.digital/",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "chain": "Arbitrum Sepolia Testnet",
+      "type": "L2",
+      "bridges": [
+        {
+          "url": "https://testnet-bridge.gelato.network/bridge/multipool-devnet",
+          "explorer": "https://blockscout-123420000406.raas-testnet.gelato.digital/"
+        }
+      ]
+    },
+    "icon": "multipool-devnet"
+  }
