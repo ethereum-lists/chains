@@ -11621,6 +11621,19 @@
   "faucets": ["https://faucet.cybascan.io"],
   "infoURL": "https://cybria.io"
 }, {
+  "name": "Storchain",
+  "chainId": 6667,
+  "shortName": "str",
+  "networkId": 6667,
+  "nativeCurrency": {
+    "name": "Storchain",
+    "symbol": "STR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.storchain.io"],
+  "faucets": [],
+  "infoURL": "https://storchain.io"
+}, {
   "name": "Edge Matrix Chain",
   "chainId": 6678,
   "shortName": "EMC",
