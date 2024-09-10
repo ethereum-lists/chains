@@ -1,8 +1,8 @@
 {
-  "name": "Testnet",
+  "name": "EVM on Flow Testnet",
   "chain": "Flow",
   "rpc": ["https://testnet.evm.nodes.onflow.org"],
-  "faucets": ["https://testnet-faucet.onflow.org"],
+  "faucets": ["https://faucet.flow.com/fund-account"],
   "nativeCurrency": {
     "name": "FLOW",
     "symbol": "FLOW",
@@ -15,9 +15,9 @@
   "icon": "flowevm",
   "explorers": [
     {
-      "name": "Flow Diver",
-      "url": "https://testnet.flowdiver.io",
-      "standard": "none"
+      "name": "FlowScan Testnet",
+      "url": "https://evm-testnet.flowscan.io",
+      "standard": "EIP3091"
     }
   ]
 }
