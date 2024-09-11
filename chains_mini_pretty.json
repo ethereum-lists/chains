@@ -17666,6 +17666,19 @@
   "faucets": [],
   "infoURL": "https://ata.network"
 }, {
+  "name": "Creator Chain Testnet",
+  "chainId": 66665,
+  "shortName": "ceth",
+  "networkId": 66665,
+  "nativeCurrency": {
+    "name": "CreatorETH",
+    "symbol": "CETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.creatorchain.io"],
+  "faucets": [],
+  "infoURL": "https://docs.creatorchain.io/"
+}, {
   "name": "Janus Testnet",
   "chainId": 66988,
   "shortName": "janusnetwork-testnet",
