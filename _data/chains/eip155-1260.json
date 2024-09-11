@@ -1,21 +1,20 @@
 {
   "name": "Metacces Testnet",
-  "chain": "ACCES",
+  "chain": "Metacces Testnet",
+  "icon": "metacces",
   "rpc": [
     "https://tapi.accesscan.io"
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Acces",
-    "symbol": "Acces",
+    "name": "Metacces",
+    "symbol": "ACCES",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://metacces.com",
-  "shortName": "acces",
+  "shortName": "ACCES",
   "chainId": 1260,
   "networkId": 1260,
-  "icon": "metacces",
   "explorers": [
     {
     "name": "accesscan",
