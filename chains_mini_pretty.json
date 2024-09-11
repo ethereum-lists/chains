@@ -2248,6 +2248,19 @@
   "faucets": [],
   "infoURL": "https://waterfall.network"
 }, {
+  "name": "Ethernity Mainnet",
+  "chainId": 183,
+  "shortName": "ethernity-mainnet",
+  "networkId": 183,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.ethernitychain.io"],
+  "faucets": [],
+  "infoURL": "https://www.ethernity.io"
+}, {
   "name": "Dojima Testnet",
   "chainId": 184,
   "shortName": "dojtestnet",
