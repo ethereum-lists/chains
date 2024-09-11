@@ -6850,9 +6850,9 @@
   "faucets": [],
   "infoURL": "https://polygon.technology/solutions/polygon-zkevm/"
 }, {
-  "name": "Silicon zkEVM Sepolia Testnet",
+  "name": "Silicon zkEVM Sepolia Testnet(Deprecated)",
   "chainId": 1414,
-  "shortName": "silicon-sepolia-testnet",
+  "shortName": "silicon-sepolia-testnet-deprecated",
   "networkId": 1414,
   "nativeCurrency": {
     "name": "Sepolia Ether",
@@ -8900,9 +8900,9 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.silicon.network", "https://silicon-mainnet.nodeinfra.com"],
   "faucets": [],
-  "infoURL": ""
+  "infoURL": "https://docs.silicon.network"
 }, {
   "name": "(deprecated) Kroma Sepolia",
   "chainId": 2357,
@@ -23723,6 +23723,19 @@
   "rpc": ["https://api.s1.ps.hmny.io"],
   "faucets": [],
   "infoURL": "https://www.harmony.one/"
+}, {
+  "name": "Silicon zkEVM Sepolia Testnet",
+  "chainId": 1722641160,
+  "shortName": "silicon-sepolia-testnet",
+  "networkId": 1722641160,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-sepolia.silicon.network", "https://silicon-testnet.nodeinfra.com"],
+  "faucets": [],
+  "infoURL": "https://docs.silicon.network"
 }, {
   "name": "Kakarot Sepolia",
   "chainId": 1802203764,
