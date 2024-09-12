@@ -2,9 +2,7 @@
   "name": "Metacces Testnet",
   "chain": "Metacces Testnet",
   "icon": "metacces",
-  "rpc": [
-    "https://tapi.accesscan.io"
-  ],
+  "rpc": ["https://tapi.accesscan.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Metacces",
@@ -17,9 +15,10 @@
   "networkId": 1260,
   "explorers": [
     {
-    "name": "accesscan",
-    "url": "https://testnet.accesscan.io",
-    "standard": "EIP3091"
+      "name": "accesscan",
+      "url": "https://testnet.accesscan.io",
+      "icon": "metacces",
+      "standard": "EIP3091"
     }
   ]
 }
