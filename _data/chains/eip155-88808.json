@@ -1,8 +1,8 @@
 {
   "name": "Oragon Network Testnet",
-  "chain": "Oragon Testnet",
+  "chain": "Oragon Network Testnet",
   "icon": "oragonnetwork",
-  "rpc": ["https://rpc.oragon.network/node/ethereum_api"],
+  "rpc": ["https://rpc.oragon.network/index.php/node/ethereum_api"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Oragon",
@@ -18,7 +18,7 @@
       "name": "Oragon Network Explorer Testnet",
       "url": "https://oragonscan.network/explorer",
       "standard": "EIP3091",
-      "icon": "oragon"
+      "icon": "oragonnetwork",
     }
   ]
 }
