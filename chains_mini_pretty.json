@@ -12375,6 +12375,19 @@
   "faucets": [],
   "infoURL": "https://polynomial.fi"
 }, {
+  "name": "iSunCoin Mainnet",
+  "chainId": 8017,
+  "shortName": "isc",
+  "networkId": 8017,
+  "nativeCurrency": {
+    "name": "ISC",
+    "symbol": "ISC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.isuncoin.com"],
+  "faucets": [],
+  "infoURL": "https://isuncoin.com"
+}, {
   "name": "MDGL Testnet",
   "chainId": 8029,
   "shortName": "mdgl",
