@@ -10425,6 +10425,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Metacces Testnet",
+  "chain": "Metacces Testnet",
+  "icon": "metacces",
+  "rpc": ["https://tapi.accesscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Metacces",
+    "symbol": "ACCES",
+    "decimals": 18
+  },
+  "infoURL": "https://metacces.com",
+  "shortName": "ACCESt",
+  "chainId": 1260,
+  "networkId": 1260,
+  "explorers": [{
+    "name": "accesscan",
+    "url": "https://testnet.accesscan.io",
+    "icon": "metacces",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "HALO Mainnet",
   "chain": "HALO",
   "rpc": ["https://nodes.halo.land"],
@@ -13473,6 +13494,27 @@
     "url": "https://movoscan.com",
     "icon": "movoscan",
     "standard": "none"
+  }]
+}, {
+  "name": "Metacces Mainnet",
+  "chain": "Metacces Mainnet",
+  "icon": "metacces",
+  "rpc": ["https://oli.accesscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Metacces",
+    "symbol": "ACCES",
+    "decimals": 18
+  },
+  "infoURL": "https://metacces.com",
+  "shortName": "ACCES",
+  "chainId": 2071,
+  "networkId": 2071,
+  "explorers": [{
+    "name": "accesscan",
+    "url": "https://accesscan.io",
+    "icon": "metacces",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Quokkacoin Mainnet",

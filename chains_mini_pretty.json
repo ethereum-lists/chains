@@ -6499,6 +6499,19 @@
   "faucets": ["https://cicfaucet.com"],
   "infoURL": "https://www.cicchain.net"
 }, {
+  "name": "Metacces Testnet",
+  "chainId": 1260,
+  "shortName": "ACCESt",
+  "networkId": 1260,
+  "nativeCurrency": {
+    "name": "Metacces",
+    "symbol": "ACCES",
+    "decimals": 18
+  },
+  "rpc": ["https://tapi.accesscan.io"],
+  "faucets": [],
+  "infoURL": "https://metacces.com"
+}, {
   "name": "HALO Mainnet",
   "chainId": 1280,
   "shortName": "HO",
@@ -8396,6 +8409,19 @@
   "rpc": ["https://msc-rpc.movoscan.com", "https://msc-rpc.movochain.org", "https://msc-rpc.movoswap.com"],
   "faucets": [],
   "infoURL": "https://movo.uk"
+}, {
+  "name": "Metacces Mainnet",
+  "chainId": 2071,
+  "shortName": "ACCES",
+  "networkId": 2071,
+  "nativeCurrency": {
+    "name": "Metacces",
+    "symbol": "ACCES",
+    "decimals": 18
+  },
+  "rpc": ["https://oli.accesscan.io"],
+  "faucets": [],
+  "infoURL": "https://metacces.com"
 }, {
   "name": "Quokkacoin Mainnet",
   "chainId": 2077,
