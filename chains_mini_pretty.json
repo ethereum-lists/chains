@@ -11764,6 +11764,19 @@
   "faucets": [],
   "infoURL": "https://www.poolschain.org"
 }, {
+  "name": "Mtt Mainnet",
+  "chainId": 6880,
+  "shortName": "mtt-mainnet",
+  "networkId": 6880,
+  "nativeCurrency": {
+    "name": "Mtt mainnet native coin",
+    "symbol": "MTT",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-rpc.mtt.network"],
+  "faucets": [],
+  "infoURL": "https://mtt.network"
+}, {
   "name": "Laika Mainnet",
   "chainId": 6942,
   "shortName": "laika",
