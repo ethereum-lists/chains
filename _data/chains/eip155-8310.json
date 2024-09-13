@@ -2,7 +2,7 @@
   "name": "SpoinkNET Mainnet",
   "chain": "SpoinkNET",
   "rpc": [
-    "https://u0vhplfbwg-u0dysdwnyd-rpc.us0-aws.kaleido.io/"
+    "https://u0xrtuf2l7:a_7yh_Md4S4NKbHQbKxSQ1I_1GB7kh6QhdgioKQIUo0@u0vhplfbwg-u0dysdwnyd-rpc.us0-aws.kaleido.io"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -16,13 +16,13 @@
   ],
   "infoURL": "https://spoinknet.pages.dev",
   "shortName": "spknet",
-  "chainId": 8311,
-  "networkId": 8311,
+  "chainId": 8310,
+  "networkId": 8310,
   "icon": "ethereum",
   "explorers": [{
     "name": "SpoinkNET Blockchain Explorer",
-    "url": "https://spoinknet.pages.dev/blockexplorer",
-    "icon": "ethereum",
+    "url": "https://spoinknetblockexplorer.pages.dev",
+    "icon": "spoinknet",
     "standard": "EIP3091"
   }]
 }
