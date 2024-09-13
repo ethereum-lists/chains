@@ -1,8 +1,8 @@
 {
-  "name": "Unit Zero Stagenet",
+  "name": "Unit Zero Mainnet",
   "chain": "Unit Zero",
   "icon": "unitzero",
-  "rpc": ["https://rpc-stagenet.unit0.dev"],
+  "rpc": ["https://rpc.unit0.dev"],
   "faucets": [],
   "nativeCurrency": {
     "name": "UNIT0",
@@ -11,13 +11,13 @@
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://units.network",
-  "shortName": "unit0-stagenet",
-  "chainId": 88819,
-  "networkId": 88819,
+  "shortName": "unit0-mainnet",
+  "chainId": 88811,
+  "networkId": 88811,
   "explorers": [
     {
-      "name": "explorer-stagenet",
-      "url": "https://explorer-stagenet.unit0.dev",
+      "name": "explorer-mainnet",
+      "url": "https://explorer.unit0.dev",
       "standard": "EIP3091"
     }
   ]
