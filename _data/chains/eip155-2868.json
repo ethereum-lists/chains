@@ -13,9 +13,11 @@
   "shortName": "hypt",
   "chainId": 2868,
   "networkId": 1,
-  "explorers": [{
-    "name": "hyptscan",
-    "url": "https://block.hyperagi.network",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "hyptscan",
+      "url": "https://block.hyperagi.network",
+      "standard": "EIP3091"
+    }
+  ]
 }
