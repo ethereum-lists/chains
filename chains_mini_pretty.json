@@ -9372,6 +9372,19 @@
   "faucets": ["https://morphfaucet.com/"],
   "infoURL": "https://morphl2.io"
 }, {
+  "name": "HyperAGI Mainnet",
+  "chainId": 2868,
+  "shortName": "hypt",
+  "networkId": 1,
+  "nativeCurrency": {
+    "name": "Hyperdust",
+    "symbol": "HYPT",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://hyperagi.network"
+}, {
   "name": "Chips Network",
   "chainId": 2882,
   "shortName": "chips",
