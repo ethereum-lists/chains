@@ -17809,6 +17809,19 @@
   "faucets": [],
   "infoURL": "https://seamoon.dmm.com"
 }, {
+  "name": "DM2 Verse Testnet",
+  "chainId": 68775,
+  "shortName": "dm2t",
+  "networkId": 68775,
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.dm2verse.dmm.com"],
+  "faucets": [],
+  "infoURL": "https://seamoon.dmm.com"
+}, {
   "name": "Condrieu",
   "chainId": 69420,
   "shortName": "cndr",
