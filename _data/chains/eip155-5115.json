@@ -2,7 +2,7 @@
   "name": "Citrea Testnet",
   "chain": "Citrea",
   "rpc": ["https://rpc.testnet.citrea.xyz"],
-  "faucets": ["https://citrea.xyz/bridge"],
+  "faucets": ["https://citrea.xyz/faucet"],
   "nativeCurrency": {
     "name": "Citrea BTC",
     "symbol": "cBTC",
@@ -21,5 +21,10 @@
       "icon": "citrea",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "bitcoin-testnet4",
+    "bridges": [{ "url": "https://citrea.xyz/bridge" }]
+  }
 }
