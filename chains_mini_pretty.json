@@ -22151,6 +22151,19 @@
   "faucets": [],
   "infoURL": "https://www.anwang.com"
 }, {
+  "name": "COTI Testnet",
+  "chainId": 7082400,
+  "shortName": "coti-testnet",
+  "networkId": 7082400,
+  "nativeCurrency": {
+    "name": "COTI",
+    "symbol": "COTI",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.coti.io/rpc"],
+  "faucets": ["https://faucet.coti.io"],
+  "infoURL": "https://coti.io/"
+}, {
   "name": "Saakuru Mainnet",
   "chainId": 7225878,
   "shortName": "saakuru",
