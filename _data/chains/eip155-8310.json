@@ -1,0 +1,28 @@
+{
+  "name": "SpoinkNET Mainnet",
+  "chain": "SpoinkNET",
+  "rpc": [
+    "https://u0xrtuf2l7:a_7yh_Md4S4NKbHQbKxSQ1I_1GB7kh6QhdgioKQIUo0@u0vhplfbwg-u0dysdwnyd-rpc.us0-aws.kaleido.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SpoinkToken",
+    "symbol": "SPK",
+    "decimals": 18
+  },
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" }
+  ],
+  "infoURL": "https://spoinknet.pages.dev",
+  "shortName": "spknet",
+  "chainId": 8310,
+  "networkId": 8310,
+  "icon": "ethereum",
+  "explorers": [{
+    "name": "SpoinkNET Blockchain Explorer",
+    "url": "https://spoinknetblockexplorer.pages.dev",
+    "icon": "spoinknet",
+    "standard": "EIP3091"
+  }]
+}
