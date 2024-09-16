@@ -16,12 +16,6 @@
   "chainId": 111120,
   "networkId": 111120,
   "icon": "ethereum",
-  "explorers": [{
-    "name": "etherscan",
-    "url": "https://etherscan.io",
-    "icon": "etherscan",
-    "standard": "EIP3091"
-  }],
   "parent": {
     "type" : "L2",
     "chain": "eip155-10",
