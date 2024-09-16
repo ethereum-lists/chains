@@ -9398,6 +9398,19 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "Aarma Mainnet",
+  "chainId": 2889,
+  "shortName": "ARMA",
+  "networkId": 2889,
+  "nativeCurrency": {
+    "name": "Aarma",
+    "symbol": "ARMA",
+    "decimals": 18
+  },
+  "rpc": ["https://aarmarpc.com/"],
+  "faucets": [],
+  "infoURL": "https://aarmachain.com"
+}, {
   "name": "Elux Chain",
   "chainId": 2907,
   "shortName": "ELUX",
