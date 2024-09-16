@@ -3895,8 +3895,8 @@
     "symbol": "RUPX",
     "decimals": 18
   },
-  "rpc": [],
-  "faucets": [],
+  "rpc": ["https://rpc.rupaya.io"],
+  "faucets": ["https://faucet.rupaya.io"],
   "infoURL": "https://www.rupaya.io"
 }, {
   "name": "Camino C-Chain",
