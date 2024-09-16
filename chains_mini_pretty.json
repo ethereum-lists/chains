@@ -15664,6 +15664,19 @@
   "faucets": [],
   "infoURL": "https://scan.liquidlayer.network"
 }, {
+  "name": "Everclear Mainnet",
+  "chainId": 25327,
+  "shortName": "Everclear",
+  "networkId": 25327,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.everclear.raas.gelato.cloud"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "AlveyChain Testnet",
   "chainId": 25839,
   "shortName": "talv",
