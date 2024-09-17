@@ -14689,6 +14689,19 @@
   "faucets": ["https://faucet.vitruveo.xyz"],
   "infoURL": "https://www.vitruveo.xyz"
 }, {
+  "name": "Vana Moksha Testnet",
+  "chainId": 14800,
+  "shortName": "vana-moksha",
+  "networkId": 14800,
+  "nativeCurrency": {
+    "name": "VANA",
+    "symbol": "VANA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.moksha.vana.org"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Vana Satori Testnet",
   "chainId": 14801,
   "shortName": "satori",
