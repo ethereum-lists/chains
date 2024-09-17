@@ -3,10 +3,7 @@
   "title": "DuckChain Mainnet",
   "chain": "DuckChain",
   "icon": "duckchain",
-  "rpc": [
-    "https://rpc.duckchain.io",
-    "https://rpc-hk.duckchain.io"
-  ],
+  "rpc": ["https://rpc.duckchain.io", "https://rpc-hk.duckchain.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "TON",
