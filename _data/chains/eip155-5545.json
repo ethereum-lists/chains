@@ -13,19 +13,5 @@
   "infoURL": "https://duckchain.io",
   "shortName": "Duck-Chain-Mainnet",
   "chainId": 5545,
-  "networkId": 5545,
-  "explorers": [
-    {
-      "name": "DuckChain Scan",
-      "url": "https://www.okx.com/web3/explorer/duckchain",
-      "icon": "duckchain",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "DuckChain Scan",
-      "url": "https://www.oklink.com/duckchain",
-      "icon": "duckchain",
-      "standard": "EIP3091"
-    }
-  ]
+  "networkId": 5545
 }
