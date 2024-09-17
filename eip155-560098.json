@@ -1,0 +1,22 @@
+{
+  "name": "Novastro Testnet",
+  "chain": "NOVASTRO",
+  "rpc": ["https://rpc.novastro-testnet.gelato.digital"],
+  "faucets": ["https://faucet.novastro.xyz/"],
+  "nativeCurrency": {
+    "name": "Testnet Novastro",
+    "symbol": "NOVAS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.novastro.xyz/",
+  "shortName": "novastro-testnet",
+  "chainId": 560098,
+  "networkId": 560098,
+  "explorers": [
+    {
+      "name": "Novastro Testnet Explorer",
+      "url": "https://explorer.novastro.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}

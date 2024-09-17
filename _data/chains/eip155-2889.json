@@ -1,0 +1,24 @@
+{
+  "name": "Aarma Mainnet",
+  "chain": "Aarma",
+  "rpc": ["https://aarmarpc.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Aarma",
+    "symbol": "ARMA",
+    "decimals": 18
+  },
+  "infoURL": "https://aarmachain.com",
+  "shortName": "ARMA",
+  "chainId": 2889,
+  "networkId": 2889,
+  "icon": "arma",
+  "explorers": [
+    {
+      "name": "aarmascan",
+      "url": "https://aarmascan.com",
+      "icon": "arma",
+      "standard": "none"
+    }
+  ]
+}
