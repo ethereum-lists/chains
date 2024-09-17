@@ -11205,6 +11205,19 @@
   "faucets": ["https://t.me/vexfaucetbot"],
   "infoURL": "https://vexanium.com"
 }, {
+  "name": "DuckChain Mainnet",
+  "chainId": 5545,
+  "shortName": "Duck-Chain-Mainnet",
+  "networkId": 5545,
+  "nativeCurrency": {
+    "name": "TON",
+    "symbol": "TON",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.duckchain.io", "https://rpc-hk.duckchain.io"],
+  "faucets": [],
+  "infoURL": "https://duckchain.io"
+}, {
   "name": "Nahmii 2 Mainnet",
   "chainId": 5551,
   "shortName": "Nahmii",
