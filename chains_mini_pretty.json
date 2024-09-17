@@ -12791,6 +12791,19 @@
   "faucets": [],
   "infoURL": "https://wolfery.com"
 }, {
+  "name": "THAT Mainnet",
+  "chainId": 8428,
+  "shortName": "THAT",
+  "networkId": 8428,
+  "nativeCurrency": {
+    "name": "THAT",
+    "symbol": "THAT",
+    "decimals": 18
+  },
+  "rpc": ["https://api.thatchain.io", "https://api.thatchain.io/mainnet"],
+  "faucets": [],
+  "infoURL": "https://that.website"
+}, {
   "name": "Base",
   "chainId": 8453,
   "shortName": "base",

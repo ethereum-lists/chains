@@ -20659,6 +20659,27 @@
   "icon": "dracones",
   "explorers": []
 }, {
+  "name": "THAT Mainnet",
+  "chain": "THAT",
+  "rpc": ["https://api.thatchain.io", "https://api.thatchain.io/mainnet"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "THAT",
+    "symbol": "THAT",
+    "decimals": 18
+  },
+  "infoURL": "https://that.website",
+  "shortName": "THAT",
+  "chainId": 8428,
+  "networkId": 8428,
+  "icon": "that",
+  "explorers": [{
+    "name": "THAT Explorer",
+    "url": "https://that.blockscout.com",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Base",
   "chain": "ETH",
   "rpc": ["https://mainnet.base.org/", "https://developer-access-mainnet.base.org/", "https://base.gateway.tenderly.co", "wss://base.gateway.tenderly.co", "https://base-rpc.publicnode.com", "wss://base-rpc.publicnode.com"],
