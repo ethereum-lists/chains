@@ -18849,6 +18849,19 @@
   "faucets": ["https://mantis.switch.ch/faucet", "https://mantis.kore-technologies.ch/faucet", "https://mantis.phoenix-systems.io/faucet", "https://mantis.block-spirit.ch/faucet"],
   "infoURL": "https://hexapod.network"
 }, {
+  "name": "Tetron Smart Chain",
+  "chainId": 97055,
+  "shortName": "Tetron",
+  "networkId": 97055,
+  "nativeCurrency": {
+    "name": "Tetron Mainnet",
+    "symbol": "TSC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.tscscan.org"],
+  "faucets": [],
+  "infoURL": "https://tetronchain.com/"
+}, {
   "name": "Boba BNB Mainnet Old",
   "chainId": 97288,
   "shortName": "BobaBnbOld",
