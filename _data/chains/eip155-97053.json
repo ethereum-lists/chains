@@ -1,16 +1,16 @@
 {
-  "name": "Tetron Chain",
-  "chain": "TSC",
+  "name": "Tetron Testnet Smart Chain",
+  "chain": "Tetron Testnet",
   "rpc": ["https://test-rpc.tscscan.org"],
   "faucets": [],
   "features": [{ "name": "EIP155" }],
   "nativeCurrency": {
-    "name": "TSC",
+    "name": "Tetron Testnet",
     "symbol": "TSC",
     "decimals": 18
   },
   "infoURL": "https://tetronchain.com/",
-  "shortName": "TSC",
+  "shortName": "tTSC",
   "chainId": 97053,
   "networkId": 97053,
   "explorers": [
