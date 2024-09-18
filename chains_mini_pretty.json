@@ -14572,6 +14572,19 @@
   "faucets": ["https://faucet.avax.network/?subnet=beam", "https://faucet.onbeam.com"],
   "infoURL": "https://www.onbeam.com"
 }, {
+  "name": "Cannon Testnet",
+  "chainId": 13370,
+  "shortName": "cannon",
+  "networkId": 13370,
+  "nativeCurrency": {
+    "name": "Cannon Testnet Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["http://127.0.0.1:8545"],
+  "faucets": [],
+  "infoURL": "https://usecannon.com"
+}, {
   "name": "Immutable zkEVM",
   "chainId": 13371,
   "shortName": "imx",
