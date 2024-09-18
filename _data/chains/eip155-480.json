@@ -1,7 +1,7 @@
 {
   "name": "World Chain",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": ["https://worldchain-mainnet.g.alchemy.com/public"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
