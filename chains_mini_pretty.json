@@ -18862,6 +18862,19 @@
   "faucets": ["https://mantis.switch.ch/faucet", "https://mantis.kore-technologies.ch/faucet", "https://mantis.phoenix-systems.io/faucet", "https://mantis.block-spirit.ch/faucet"],
   "infoURL": "https://hexapod.network"
 }, {
+  "name": "Tetron Testnet Smart Chain",
+  "chainId": 97053,
+  "shortName": "TetronTestnet",
+  "networkId": 97053,
+  "nativeCurrency": {
+    "name": "Tetron Testnet",
+    "symbol": "TSC",
+    "decimals": 18
+  },
+  "rpc": ["https://test-rpc.tscscan.org"],
+  "faucets": [],
+  "infoURL": "https://tetronchain.com/"
+}, {
   "name": "Tetron Smart Chain",
   "chainId": 97055,
   "shortName": "Tetron",
