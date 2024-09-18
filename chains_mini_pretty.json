@@ -3882,7 +3882,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://worldchain-mainnet.g.alchemy.com/public"],
   "faucets": [],
   "infoURL": "https://worldcoin.org"
 }, {
@@ -10733,7 +10733,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://worldchain-sepolia.g.alchemy.com/public"],
   "faucets": [],
   "infoURL": "https://worldcoin.org/"
 }, {

@@ -1,7 +1,7 @@
 {
   "name": "World Chain Sepolia Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": ["https://worldchain-sepolia.g.alchemy.com/public"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
