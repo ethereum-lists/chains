@@ -21332,6 +21332,19 @@
   "faucets": [],
   "infoURL": "http://doc.eramscan.com/"
 }, {
+  "name": "TixChain Testnet",
+  "chainId": 723107,
+  "shortName": "tixchain",
+  "networkId": 723107,
+  "nativeCurrency": {
+    "name": "TIX Token",
+    "symbol": "TIX",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/tixchain/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://subnets-test.avax.network/tixchain/details"
+}, {
   "name": "Hemi Sepolia",
   "chainId": 743111,
   "shortName": "hemi-sep",
