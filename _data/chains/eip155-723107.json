@@ -1,10 +1,7 @@
 {
   "name": "TixChain Testnet",
   "chain": "TIXCHAIN",
-  "icon": "tixchain",
-  "rpc": [
-    "https://subnets.avax.network/tixchain/testnet/rpc"
-  ],
+  "rpc": ["https://subnets.avax.network/tixchain/testnet/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "TIX Token",
