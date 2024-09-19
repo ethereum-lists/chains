@@ -1,7 +1,7 @@
 {
   "name": "Automata Orbit Testnet",
   "chain": "Automata Orbit Testnet",
-  "rpc": [],
+  "rpc": ["https://rpc-orbit-testnet.ata.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "ATA",
@@ -13,5 +13,11 @@
   "chainId": 1398244,
   "networkId": 1398244,
   "icon": "automata",
-  "explorers": []
+  "explorers": [
+    {
+      "name": "Automata Orbit Testnet Explorer",
+      "url": "https://automata-orbit-testnet-explorer.alt.technology",
+      "standard": "EIP3091"
+    }
+  ]
 }
