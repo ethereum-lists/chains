@@ -19980,6 +19980,19 @@
   "faucets": [],
   "infoURL": "https://duckchain.io"
 }, {
+  "name": "Bethel Sydney",
+  "chainId": 202202,
+  "shortName": "bethel-sydney",
+  "networkId": 202202,
+  "nativeCurrency": {
+    "name": "Bethel",
+    "symbol": "BECX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-sydney.bethel.network"],
+  "faucets": ["https://faucet-sydney.bethel.network"],
+  "infoURL": ""
+}, {
   "name": "X1 Devnet",
   "chainId": 202212,
   "shortName": "x1-devnet",
