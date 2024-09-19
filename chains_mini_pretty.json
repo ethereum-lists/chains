@@ -13649,6 +13649,19 @@
   "faucets": [],
   "infoURL": "https://dogelayer.org"
 }, {
+  "name": "arena-z-testnet",
+  "chainId": 9897,
+  "shortName": "arena-z-testnet",
+  "networkId": 9897,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.arena-z.t.raas.gelato.cloud", "wss://ws.arena-z.t.raas.gelato.cloud"],
+  "faucets": [],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/arena-z-testnet"
+}, {
   "name": "Larissa Chain",
   "chainId": 9898,
   "shortName": "lrs",
