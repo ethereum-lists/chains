@@ -3466,9 +3466,9 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://mainnet.shape.network"],
   "faucets": [],
-  "infoURL": "https://shape.us"
+  "infoURL": "https://shape.network"
 }, {
   "name": "Theta Mainnet",
   "chainId": 361,
