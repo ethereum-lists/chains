@@ -21527,6 +21527,19 @@
   "faucets": [],
   "infoURL": "https://zklink.io"
 }, {
+  "name": "SG Verse Mainnet",
+  "chainId": 812397,
+  "shortName": "SGV",
+  "networkId": 812397,
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.sgverse.net/"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "TSC Testnet",
   "chainId": 820522,
   "shortName": "tTSC",
