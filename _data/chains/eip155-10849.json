@@ -1,0 +1,28 @@
+{
+  "name": "Lamina1",
+  "chain": "Lamina1",
+  "rpc": ["https://subnets.avax.network/lamina1/mainnet/rpc"],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "L1",
+    "symbol": "L1",
+    "decimals": 18
+  },
+  "infoURL": "https://www.lamina1.com/",
+  "shortName": "lamina1",
+  "chainId": 10849,
+  "networkId": 10849,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Lamina1 Explorer",
+      "url": "https://subnets.avax.network/lamina1",
+      "standard": "EIP3091"
+    }
+  ]
+}

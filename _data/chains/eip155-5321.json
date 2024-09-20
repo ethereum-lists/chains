@@ -1,0 +1,22 @@
+{
+  "name": "ITX Testnet",
+  "chain": "ITX",
+  "rpc": ["https://rpc.testnet.itxchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ITX",
+    "symbol": "ITX",
+    "decimals": 18
+  },
+  "infoURL": "https://explorer.testnet.itxchain.com",
+  "shortName": "itx-testnet",
+  "chainId": 5321,
+  "networkId": 5321,
+  "explorers": [
+    {
+      "name": "ITX Testnet Explorer (Blockscout)",
+      "url": "https://explorer.testnet.itxchain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

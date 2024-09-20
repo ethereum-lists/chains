@@ -1,0 +1,24 @@
+{
+  "name": "Taiko Mainnet",
+  "chain": "ETH",
+  "status": "active",
+  "icon": "taiko",
+  "rpc": ["https://rpc.mainnet.taiko.xyz", "wss://ws.mainnet.taiko.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://taiko.xyz",
+  "shortName": "tko-mainnet",
+  "chainId": 167000,
+  "networkId": 167000,
+  "explorers": [
+    {
+      "name": "etherscan",
+      "url": "https://taikoscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
