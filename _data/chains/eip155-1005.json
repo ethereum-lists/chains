@@ -1,10 +1,7 @@
 {
   "name": "LemonChainTestnet",
   "chain": "tLEMX",
-  "rpc": [
-    "rpc.testnet.lemonchain.io",
-    "http://rpc.testnet.allthingslemon.io"
-  ],
+  "rpc": ["rpc.testnet.lemonchain.io", "http://rpc.testnet.allthingslemon.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "testnet LEMX",
