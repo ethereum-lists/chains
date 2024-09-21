@@ -1,0 +1,22 @@
+{
+  "name": "StarBound",
+  "chain": "BOUND",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "StarBound",
+    "symbol": "BOUND",
+    "decimals": 18
+  },
+  "infoURL": [],
+  "shortName": "starbound",
+  "chainId": 21924,
+  "networkId": 21924,
+  "slip44": 1,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-56",
+    "bridges": []
+  }
+}
