@@ -1,0 +1,22 @@
+{
+  "name": "Iure",
+  "chain": "IURE",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Iure",
+    "symbol": "IURE",
+    "decimals": 18
+  },
+  "infoURL": [],
+  "shortName": "Iure",
+  "chainId": 968312,
+  "networkId": 968312,
+  "slip44": 1,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  }
+}

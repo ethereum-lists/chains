@@ -1,0 +1,21 @@
+{
+  "name": "Iure Testnet",
+  "chain": "IURE",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Iure",
+    "symbol": "IURE",
+    "decimals": 18
+  },
+  "infoURL": [],
+  "shortName": "starbound",
+  "chainId": 968312,
+  "networkId": 968312,
+  "slip44": 1,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  }
+}
