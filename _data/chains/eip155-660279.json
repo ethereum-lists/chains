@@ -1,0 +1,22 @@
+{
+  "name": "Xai Mainnet",
+  "chainId": 660279,
+  "shortName": "xai",
+  "chain": "XAI",
+  "networkId": 660279,
+  "nativeCurrency": {
+    "name": "Xai",
+    "symbol": "XAI",
+    "decimals": 18
+  },
+  "rpc": ["https://xai-chain.net/rpc"],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://explorer.xai-chain.net",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://xai.games"
+}

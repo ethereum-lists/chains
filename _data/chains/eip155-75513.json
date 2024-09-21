@@ -1,0 +1,22 @@
+{
+  "name": "GEEK Verse Testnet",
+  "chain": "GEEK Test",
+  "rpc": ["https://rpc-testnet.geekout-pte.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.geekout-pte.com",
+  "shortName": "GEEK_Test",
+  "chainId": 75513,
+  "networkId": 75513,
+  "explorers": [
+    {
+      "name": "Geek Testnet Explorer",
+      "url": "https://explorer-testnet.geekout-pte.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

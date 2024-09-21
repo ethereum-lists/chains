@@ -1,0 +1,24 @@
+{
+  "name": "6Degree of Outreach",
+  "chain": "6DO",
+  "rpc": ["https://rpc.6do.world"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "6Degree Coin",
+    "symbol": "6DO",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://6do.world",
+  "shortName": "6do",
+  "chainId": 2477,
+  "networkId": 2477,
+  "icon": "6do",
+  "explorers": [
+    {
+      "name": "6Degree Chain Explorer",
+      "url": "https://explorer.6do.world",
+      "standard": "EIP3091"
+    }
+  ]
+}
