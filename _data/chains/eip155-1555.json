@@ -1,0 +1,24 @@
+{
+  "name": "DSC Scan",
+  "chain": "DSC",
+  "icon": "dscscan",
+  "rpc": ["https://rpc01.dscscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DSC Scan",
+    "symbol": "DSC",
+    "decimals": 18
+  },
+  "infoURL": "https://rpc01.dscscan.io",
+  "shortName": "DSC",
+  "chainId": 1555,
+  "networkId": 1555,
+  "explorers": [
+    {
+     "name": "blockscout",
+     "url": "https://dscscan.io",
+     "standard": "none"
+    }
+  ]
+}
+  
