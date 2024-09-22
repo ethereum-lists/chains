@@ -3,7 +3,12 @@
   "chain": "ETH",
   "status": "active",
   "icon": "taiko",
-  "rpc": ["https://rpc.hekla.taiko.xyz", "wss://ws.hekla.taiko.xyz"],
+  "rpc": [
+    "https://rpc.hekla.taiko.xyz",
+    "wss://ws.hekla.taiko.xyz",
+    "https://taiko-hekla-rpc.publicnode.com",
+    "wss://taiko-hekla-rpc.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
