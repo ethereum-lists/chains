@@ -1,0 +1,27 @@
+{
+  "name": "Jiritsu Testnet Subnet",
+  "chain": "JIRITSUTES",
+  "rpc": ["https://subnets.avax.network/jiritsutes/testnet/rpc"],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "JIRI",
+    "symbol": "TZW",
+    "decimals": 18
+  },
+  "infoURL": "https://jiritsu.network",
+  "shortName": "jiritsutes",
+  "chainId": 11227,
+  "networkId": 11227,
+  "explorers": [
+    {
+      "name": "JIRITSUTES Explorer",
+      "url": "https://subnets-test.avax.network/jiritsutes",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,7 +1,11 @@
 {
   "name": "Telos EVM Testnet",
   "chain": "TLOS",
-  "rpc": ["https://testnet.telos.net/evm"],
+  "rpc": [
+    "https://testnet.telos.net/evm",
+    "https://telos-testnet.drpc.org",
+    "wss://telos-testnet.drpc.org"
+  ],
   "faucets": ["https://app.telos.net/testnet/developers"],
   "nativeCurrency": {
     "name": "Telos",

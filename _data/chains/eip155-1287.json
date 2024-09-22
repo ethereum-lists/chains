@@ -3,7 +3,17 @@
   "chain": "MOON",
   "rpc": [
     "https://rpc.api.moonbase.moonbeam.network",
-    "wss://wss.api.moonbase.moonbeam.network"
+    "wss://wss.api.moonbase.moonbeam.network",
+    "https://moonbase-alpha.public.blastapi.io",
+    "wss://moonbase-alpha.public.blastapi.io",
+    "https://moonbase-rpc.dwellir.com",
+    "wss://moonbase-rpc.dwellir.com",
+    "https://moonbeam-alpha.api.onfinality.io/public",
+    "wss://moonbeam-alpha.api.onfinality.io/public-ws",
+    "https://moonbase.unitedbloc.com",
+    "wss://moonbase.unitedbloc.com",
+    "https://moonbase-alpha.drpc.org",
+    "wss://moonbase-alpha.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -11,7 +21,7 @@
     "symbol": "DEV",
     "decimals": 18
   },
-  "infoURL": "https://docs.moonbeam.network/networks/testnet/",
+  "infoURL": "https://docs.moonbeam.network/learn/platform/networks/moonbase/",
   "shortName": "mbase",
   "chainId": 1287,
   "networkId": 1287,

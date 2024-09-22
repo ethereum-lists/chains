@@ -1,0 +1,22 @@
+{
+  "name": "KaiChain Testnet",
+  "chain": "KaiChain",
+  "rpc": ["https://testnet-rpc.kaichain.net"],
+  "faucets": ["https://faucet.kaichain.net"],
+  "nativeCurrency": {
+    "name": "KaiChain Testnet Native Token",
+    "symbol": "KEC",
+    "decimals": 18
+  },
+  "infoURL": "https://kaichain.net",
+  "shortName": "tkec",
+  "chainId": 29536,
+  "networkId": 29536,
+  "explorers": [
+    {
+      "name": "KaiChain Explorer",
+      "url": "https://testnet-explorer.kaichain.net",
+      "standard": "EIP3091"
+    }
+  ]
+}

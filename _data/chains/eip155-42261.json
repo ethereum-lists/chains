@@ -3,10 +3,10 @@
   "chain": "Emerald",
   "icon": "oasis",
   "rpc": [
-    "https://testnet.emerald.oasis.dev/",
-    "wss://testnet.emerald.oasis.dev/ws"
+    "https://testnet.emerald.oasis.io/",
+    "wss://testnet.emerald.oasis.io/ws"
   ],
-  "faucets": ["https://faucet.testnet.oasis.dev/"],
+  "faucets": ["https://faucet.testnet.oasis.io/"],
   "nativeCurrency": {
     "name": "Emerald Rose",
     "symbol": "ROSE",
@@ -20,7 +20,7 @@
   "explorers": [
     {
       "name": "Oasis Emerald Testnet Explorer",
-      "url": "https://testnet.explorer.emerald.oasis.dev",
+      "url": "https://explorer.oasis.io/testnet/emerald",
       "standard": "EIP3091"
     }
   ]

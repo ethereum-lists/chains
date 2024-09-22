@@ -1,0 +1,25 @@
+{
+  "name": "Aura Mainnet",
+  "chain": "Aura",
+  "rpc": ["https://jsonrpc.aura.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Aura",
+    "symbol": "AURA",
+    "decimals": 18
+  },
+  "infoURL": "https://aura.network",
+  "shortName": "aura",
+  "chainId": 6322,
+  "networkId": 6322,
+  "slip44": 1,
+  "icon": "aura",
+  "explorers": [
+    {
+      "name": "Aurascan Explorer",
+      "url": "https://aurascan.io",
+      "standard": "none",
+      "icon": "aura"
+    }
+  ]
+}

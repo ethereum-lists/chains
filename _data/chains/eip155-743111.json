@@ -1,0 +1,29 @@
+{
+  "name": "Hemi Sepolia",
+  "chain": "ETH",
+  "rpc": ["https://testnet.rpc.hemi.network/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://hemi.xyz",
+  "shortName": "hemi-sep",
+  "chainId": 743111,
+  "networkId": 743111,
+  "icon": "hemi",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://testnet.explorer.hemi.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  },
+  "status": "active"
+}

@@ -1,22 +1,22 @@
 {
-  "name": "ethereum Fair",
+  "name": "DisChain",
   "chainId": 513100,
   "networkId": 513100,
-  "shortName": "ethf",
-  "chain": "ETHF",
+  "shortName": "dis",
+  "chain": "DIS",
   "nativeCurrency": {
-    "name": "EthereumFair",
-    "symbol": "ETHF",
+    "name": "DisChain",
+    "symbol": "DIS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.etherfair.org"],
+  "rpc": ["https://rpc.dischain.xyz"],
   "faucets": [],
   "explorers": [
     {
-      "name": "etherfair",
-      "url": "https://www.oklink.com/ethf",
+      "name": "DisChain",
+      "url": "https://www.oklink.com/dis",
       "standard": "EIP3091"
     }
   ],
-  "infoURL": "https://etherfair.org"
+  "infoURL": "https://dischain.xyz"
 }

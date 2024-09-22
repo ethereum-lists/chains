@@ -1,7 +1,11 @@
 {
   "name": "Telos EVM Mainnet",
   "chain": "TLOS",
-  "rpc": ["https://mainnet.telos.net/evm"],
+  "rpc": [
+    "https://mainnet.telos.net/evm",
+    "https://telos.drpc.org",
+    "wss://telos.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Telos",

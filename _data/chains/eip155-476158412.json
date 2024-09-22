@@ -1,6 +1,7 @@
 {
-  "name": "SKALE Europa Hub Testnet",
-  "title": "Europa Hub Testnet",
+  "name": "Deprecated SKALE Europa Hub Testnet",
+  "title": "Deprecated Europa Hub Testnet",
+  "status": "deprecated",
   "chain": "staging-legal-crazy-castor",
   "icon": "europa",
   "rpc": ["https://staging-v3.skalenodes.com/v1/staging-legal-crazy-castor"],
@@ -11,7 +12,7 @@
     "decimals": 18
   },
   "infoURL": "https://europahub.network/",
-  "shortName": "europa-testnet",
+  "shortName": "deprecated-europa-testnet",
   "chainId": 476158412,
   "networkId": 476158412,
   "slip44": 1,
