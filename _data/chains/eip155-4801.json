@@ -1,0 +1,17 @@
+{
+  "name": "World Chain Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": ["https://worldchain-sepolia.g.alchemy.com/public"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://worldcoin.org/",
+  "shortName": "wcsep",
+  "chainId": 4801,
+  "networkId": 4801,
+  "slip44": 1,
+  "explorers": []
+}

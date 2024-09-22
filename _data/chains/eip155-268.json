@@ -1,0 +1,21 @@
+{
+  "name": "Neura Devnet",
+  "title": "Neura Devnet",
+  "chain": "NEURA",
+  "icon": "neura",
+  "rpc": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Devnet Ankr",
+    "symbol": "ANKR",
+    "decimals": 18
+  },
+  "infoURL": "https://www.neuraprotocol.io/",
+  "shortName": "dneura",
+  "chainId": 268,
+  "networkId": 268,
+  "explorers": [],
+  "status": "incubating",
+  "slip44": 1
+}

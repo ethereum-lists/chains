@@ -1,0 +1,24 @@
+{
+  "name": "LAVITA Mainnet",
+  "chain": "LAVITA",
+  "icon": "lavita",
+  "rpc": ["https://tsub360890-eth-rpc.thetatoken.org/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "vTFUEL",
+    "symbol": "vTFUEL",
+    "decimals": 18
+  },
+  "infoURL": "https://www.lavita.ai",
+  "shortName": "lavita-mainnet",
+  "chainId": 360890,
+  "networkId": 360890,
+  "explorers": [
+    {
+      "name": "LAVITA Mainnet Explorer",
+      "url": "https://tsub360890-explorer.thetatoken.org",
+      "icon": "lavita",
+      "standard": "EIP3091"
+    }
+  ]
+}

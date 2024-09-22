@@ -1,0 +1,25 @@
+{
+  "name": "Manta Pacific Sepolia Testnet",
+  "chain": "Manta Pacific",
+  "rpc": ["https://pacific-rpc.sepolia-testnet.manta.network/http"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://manta-testnet.caldera.dev/",
+  "shortName": "mantaSepoliaTestnet",
+  "chainId": 3441006,
+  "networkId": 3441006,
+  "slip44": 1,
+  "icon": "manta",
+  "explorers": [
+    {
+      "name": "manta-testnet Explorer",
+      "url": "https://pacific-explorer.sepolia-testnet.manta.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
