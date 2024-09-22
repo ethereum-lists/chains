@@ -17506,7 +17506,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.sepolia.linea.build", "wss://rpc.sepolia.linea.build", "https://linea-sepolia.infura.io/v3/${INFURA_API_KEY}", "wss://linea-sepolia.infura.io/ws/v3/${INFURA_API_KEY}"],
+  "rpc": ["https://rpc.sepolia.linea.build", "wss://rpc.sepolia.linea.build", "https://linea-sepolia.infura.io/v3/${INFURA_API_KEY}", "wss://linea-sepolia.infura.io/ws/v3/${INFURA_API_KEY}", "https://linea-sepolia-rpc.publicnode.com", "wss://linea-sepolia-rpc.publicnode.com"],
   "faucets": [],
   "infoURL": "https://linea.build"
 }, {
@@ -17519,7 +17519,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.linea.build", "wss://rpc.linea.build", "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://linea-mainnet.infura.io/ws/v3/${INFURA_API_KEY}"],
+  "rpc": ["https://rpc.linea.build", "wss://rpc.linea.build", "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://linea-mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://linea-rpc.publicnode.com", "wss://linea-rpc.publicnode.com"],
   "faucets": [],
   "infoURL": "https://linea.build"
 }, {
@@ -18559,7 +18559,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.blast.io", "https://rpc.ankr.com/blast", "https://blast.din.dev/rpc", "https://blastl2-mainnet.public.blastapi.io", "https://blast.blockpi.network/v1/rpc/public", "https://blast-rpc.publicnode.com"],
+  "rpc": ["https://rpc.blast.io", "https://rpc.ankr.com/blast", "https://blast.din.dev/rpc", "https://blastl2-mainnet.public.blastapi.io", "https://blast.blockpi.network/v1/rpc/public", "https://blast-rpc.publicnode.com", "wss://blast-rpc.publicnode.com"],
   "faucets": [],
   "infoURL": "https://blast.io/"
 }, {
@@ -19690,7 +19690,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.mainnet.taiko.xyz"],
+  "rpc": ["https://rpc.mainnet.taiko.xyz", "https://taiko-rpc.publicnode.com", "wss://taiko-rpc.publicnode.com"],
   "faucets": [],
   "infoURL": "https://taiko.xyz"
 }, {
@@ -19768,7 +19768,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.hekla.taiko.xyz", "wss://ws.hekla.taiko.xyz"],
+  "rpc": ["https://rpc.hekla.taiko.xyz", "wss://ws.hekla.taiko.xyz", "https://taiko-hekla-rpc.publicnode.com", "wss://taiko-hekla-rpc.publicnode.com"],
   "faucets": [],
   "infoURL": "https://taiko.xyz"
 }, {
@@ -21068,7 +21068,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://sepolia-rpc.scroll.io", "https://rpc.ankr.com/scroll_sepolia_testnet", "https://scroll-sepolia.chainstacklabs.com", "https://scroll-testnet-public.unifra.io"],
+  "rpc": ["https://sepolia-rpc.scroll.io", "https://rpc.ankr.com/scroll_sepolia_testnet", "https://scroll-sepolia.chainstacklabs.com", "https://scroll-testnet-public.unifra.io", "https://scroll-sepolia-rpc.publicnode.com", "wss://scroll-sepolia-rpc.publicnode.com"],
   "faucets": [],
   "infoURL": "https://scroll.io"
 }, {
@@ -21081,7 +21081,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.scroll.io", "https://rpc.ankr.com/scroll", "https://scroll-mainnet.chainstacklabs.com"],
+  "rpc": ["https://rpc.scroll.io", "https://rpc.ankr.com/scroll", "https://scroll-mainnet.chainstacklabs.com", "https://scroll-rpc.publicnode.com", "wss://scroll-rpc.publicnode.com"],
   "faucets": [],
   "infoURL": "https://scroll.io"
 }, {
