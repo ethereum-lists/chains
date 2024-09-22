@@ -3,7 +3,12 @@
   "chain": "ETH",
   "status": "active",
   "icon": "taiko",
-  "rpc": ["https://rpc.mainnet.taiko.xyz"],
+  "rpc": [
+    "https://rpc.mainnet.taiko.xyz",
+    "https://taiko-rpc.publicnode.com",
+    "wss://taiko-rpc.publicnode.com"
+  ],
+  "rpc": [""],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
