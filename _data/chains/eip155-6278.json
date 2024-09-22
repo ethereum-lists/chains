@@ -3,10 +3,12 @@
   "title": "Rails Network Mainnet",
   "chain": "RAILS",
   "icon": "rails",
-  "rpc": [
-    "https://mainnet.steamexchange.io/"
+  "rpc": ["https://mainnet.steamexchange.io/"],
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" },
+    { "name": "EIP6551" }
   ],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }, { "name": "EIP6551" }],
   "faucets": [],
   "nativeCurrency": {
     "name": "SteamX",
