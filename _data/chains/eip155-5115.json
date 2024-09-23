@@ -21,10 +21,5 @@
       "icon": "citrea",
       "standard": "EIP3091"
     }
-  ],
-  "parent": {
-    "type": "L2",
-    "chain": "bitcoin-testnet4",
-    "bridges": [{ "url": "https://citrea.xyz/bridge" }]
-  }
+  ]
 }
