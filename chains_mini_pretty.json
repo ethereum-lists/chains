@@ -11023,6 +11023,19 @@
   "faucets": [],
   "infoURL": "https://ham.fun"
 }, {
+  "name": "Citrea Testnet",
+  "chainId": 5115,
+  "shortName": "citrea-testnet",
+  "networkId": 5115,
+  "nativeCurrency": {
+    "name": "Citrea BTC",
+    "symbol": "cBTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.citrea.xyz"],
+  "faucets": ["https://citrea.xyz/faucet"],
+  "infoURL": "https://citrea.xyz"
+}, {
   "name": "MeChain Testnet",
   "chainId": 5151,
   "shortName": "ZKME",
