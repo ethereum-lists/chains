@@ -20422,6 +20422,19 @@
   "faucets": [],
   "infoURL": "https://digitalnext.business/SocialSmartChain"
 }, {
+  "name": "Athene Parthenon",
+  "chainId": 281123,
+  "shortName": "athene-parthenon",
+  "networkId": 281123,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.parthenon.athenescan.io", "wss://ws.parthenon.athenescan.io"],
+  "faucets": [],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/athene-parthenon"
+}, {
   "name": "Zillion Sepolia Testnet",
   "chainId": 282828,
   "shortName": "zillsep",
