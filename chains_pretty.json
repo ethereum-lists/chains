@@ -18564,6 +18564,31 @@
     "standard": "none"
   }]
 }, {
+  "name": "BC Hyper POS Testnet",
+  "chain": "BC Hyper POS Testnet",
+  "rpc": ["https://rpc.bcexplorer.io"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TEST VERSATIZE COIN",
+    "symbol": "TVTCN",
+    "decimals": 18
+  },
+  "infoURL": "https://www.versatizecoin.com/",
+  "shortName": "BCH",
+  "chainId": 6060,
+  "networkId": 6060,
+  "icon": "bchyper",
+  "explorers": [{
+    "name": "bcexplorer testnet",
+    "url": "https://testnet.bcexplorer.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Tres Testnet",
   "chain": "TresLeches",
   "rpc": ["https://rpc-test.tresleches.finance/"],

@@ -11504,6 +11504,19 @@
   "faucets": [],
   "infoURL": "https://bouncebit.io"
 }, {
+  "name": "BC Hyper POS Testnet",
+  "chainId": 6060,
+  "shortName": "BCH",
+  "networkId": 6060,
+  "nativeCurrency": {
+    "name": "TEST VERSATIZE COIN",
+    "symbol": "TVTCN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.bcexplorer.io"],
+  "faucets": [],
+  "infoURL": "https://www.versatizecoin.com/"
+}, {
   "name": "Tres Testnet",
   "chainId": 6065,
   "shortName": "TRESTEST",
