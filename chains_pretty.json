@@ -23410,6 +23410,25 @@
     "chain": "eip155-43113"
   }
 }, {
+  "name": "GDPR Mainnet",
+  "chain": "GDPR",
+  "rpc": ["https://rpc.gdprchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GDPR",
+    "symbol": "GDPR",
+    "decimals": 18
+  },
+  "infoURL": "https://explorer.gdprchain.com",
+  "shortName": "gdpr",
+  "chainId": 12358,
+  "networkId": 12358,
+  "explorers": [{
+    "name": "GDPR Mainnet Explorer (Blockscout)",
+    "url": "https://explorer.gdprchain.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "RSS3 VSL Mainnet",
   "chain": "RSS3",
   "rpc": ["https://rpc.rss3.io"],
@@ -30323,6 +30342,25 @@
     "name": "Aerie Explorer",
     "url": "https://explorer.aerielab.io",
     "icon": "aerie",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "GDPR Testnet",
+  "chain": "GDPR",
+  "rpc": ["https://rpc.testnet.gdprchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GDPR",
+    "symbol": "GDPR",
+    "decimals": 18
+  },
+  "infoURL": "https://explorer.testnet.gdprchain.com",
+  "shortName": "gdpr-testnet",
+  "chainId": 85321,
+  "networkId": 85321,
+  "explorers": [{
+    "name": "GDPR Testnet Explorer (Blockscout)",
+    "url": "https://explorer.testnet.gdprchain.com",
     "standard": "EIP3091"
   }]
 }, {

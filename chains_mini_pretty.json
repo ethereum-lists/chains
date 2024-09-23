@@ -14520,6 +14520,19 @@
   "faucets": ["https://faucet.step.network"],
   "infoURL": "https://step.network"
 }, {
+  "name": "GDPR Mainnet",
+  "chainId": 12358,
+  "shortName": "gdpr",
+  "networkId": 12358,
+  "nativeCurrency": {
+    "name": "GDPR",
+    "symbol": "GDPR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.gdprchain.com"],
+  "faucets": [],
+  "infoURL": "https://explorer.gdprchain.com"
+}, {
   "name": "RSS3 VSL Mainnet",
   "chainId": 12553,
   "shortName": "rss3",
@@ -18679,6 +18692,19 @@
   "rpc": ["https://mainnet.aerielab.io"],
   "faucets": [],
   "infoURL": "https://aerielab.io/"
+}, {
+  "name": "GDPR Testnet",
+  "chainId": 85321,
+  "shortName": "gdpr-testnet",
+  "networkId": 85321,
+  "nativeCurrency": {
+    "name": "GDPR",
+    "symbol": "GDPR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.gdprchain.com"],
+  "faucets": [],
+  "infoURL": "https://explorer.testnet.gdprchain.com"
 }, {
   "name": "CYBERTRUST",
   "chainId": 85449,
