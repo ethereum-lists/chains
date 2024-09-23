@@ -6,7 +6,9 @@
     "https://rpc.sepolia.linea.build",
     "wss://rpc.sepolia.linea.build",
     "https://linea-sepolia.infura.io/v3/${INFURA_API_KEY}",
-    "wss://linea-sepolia.infura.io/ws/v3/${INFURA_API_KEY}"
+    "wss://linea-sepolia.infura.io/ws/v3/${INFURA_API_KEY}",
+    "https://linea-sepolia-rpc.publicnode.com",
+    "wss://linea-sepolia-rpc.publicnode.com"
   ],
   "faucets": [],
   "nativeCurrency": {
