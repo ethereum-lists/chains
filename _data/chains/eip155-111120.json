@@ -2,17 +2,21 @@
   "name": "DataHive",
   "chain": "DH",
   "rpc": [
-    "https://opt-sepolia.g.alchemy.com/v2/RuNSPlXrch3sLdZPMLVruityK724ZgDP"
+      "https://opt-sepolia.g.alchemy.com/v2/RuNSPlXrch3sLdZPMLVruityK724ZgDP"
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
-    "decimals": 18  
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
   },
   "features": [
-    { "name": "EIP155" },
-    { "name": "EIP1559" }
+      {
+          "name": "EIP155"
+      },
+      {
+          "name": "EIP1559"
+      }
   ],
   "infoURL": "https://www.datahive.network/",
   "shortName": "dh",
@@ -20,11 +24,15 @@
   "networkId": 111120,
   "icon": "datahive",
   "parent": {
-    "type": "L2",
-    "chain": "eip155-10",
-    "bridges": [
-      { "url": "https://gateway.optimism.io" },
-      { "url": "https://bridge.optimism.io" }
-    ]
+      "type": "L2",
+      "chain": "eip155-10",
+      "bridges": [
+          {
+              "url": "https://gateway.optimism.io"
+          },
+          {
+              "url": "https://bridge.optimism.io"
+          }
+      ]
   }
 }
