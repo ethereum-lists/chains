@@ -11569,6 +11569,19 @@
   "faucets": [],
   "infoURL": "https://uptn.io"
 }, {
+  "name": "Rails",
+  "chainId": 6278,
+  "shortName": "rails",
+  "networkId": 6278,
+  "nativeCurrency": {
+    "name": "SteamX",
+    "symbol": "STEAMX",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.steamexchange.io"],
+  "faucets": [],
+  "infoURL": "https://steamexchange.io"
+}, {
   "name": "LAOS",
   "chainId": 6283,
   "shortName": "laosnetwork",
@@ -15767,6 +15780,19 @@
   "rpc": ["https://testnet-rpc.kymaticscan.online"],
   "faucets": ["https://faucet.kymaticscan.online"],
   "infoURL": "https://testnet-explorer.kymaticscan.online"
+}, {
+  "name": "Amauti",
+  "chainId": 24116,
+  "shortName": "railst",
+  "networkId": 24116,
+  "nativeCurrency": {
+    "name": "SteamX",
+    "symbol": "STEAMX",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.steamexchange.io"],
+  "faucets": ["https://depot.steamexchange.io/faucet"],
+  "infoURL": "https://steamexchange.io"
 }, {
   "name": "Webchain",
   "chainId": 24484,
