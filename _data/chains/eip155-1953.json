@@ -12,5 +12,12 @@
   "shortName": "tSEL",
   "chainId": 1953,
   "networkId": 1953,
-  "icon": "selendra"
+  "icon": "selendra",
+  "explorers": [
+    {
+      "name": "Selendra Portal",
+      "url": "https://portal.selendra.org",
+      "standard": "none"
+    }
+  ]
 }
