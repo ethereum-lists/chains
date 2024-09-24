@@ -1,7 +1,7 @@
 {
   "name": "Selendra Network Testnet",
   "chain": "tSEL",
-  "rpc": ["rpc-testnet.selendra.org"],
+  "rpc": ["https://rpc-testnet.selendra.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Selendra",
