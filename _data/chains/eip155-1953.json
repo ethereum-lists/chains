@@ -1,10 +1,7 @@
 {
   "name": "Selendra Network Testnet",
   "chain": "tSEL",
-  "rpc": [
-    "https://rpc0-testnet.selendra.org",
-    "https://rpc1-testnet.selendra.org"
-  ],
+  "rpc": ["https://rpc-testnet.selendra.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Selendra",
@@ -15,5 +12,12 @@
   "shortName": "tSEL",
   "chainId": 1953,
   "networkId": 1953,
-  "icon": "selendra"
+  "icon": "selendra",
+  "explorers": [
+    {
+      "name": "Selendra Portal",
+      "url": "https://portal.selendra.org",
+      "standard": "none"
+    }
+  ]
 }
