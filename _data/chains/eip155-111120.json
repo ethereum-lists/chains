@@ -2,7 +2,7 @@
   "name": "DataHive",
   "chain": "DH",
   "rpc": [
-      "https://opt-sepolia.g.alchemy.com/v2/RuNSPlXrch3sLdZPMLVruityK724ZgDP"
+      "https://datahive-testnet.alt.technology"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -10,14 +10,6 @@
       "symbol": "ETH",
       "decimals": 18
   },
-  "features": [
-      {
-          "name": "EIP155"
-      },
-      {
-          "name": "EIP1559"
-      }
-  ],
   "infoURL": "https://www.datahive.network/",
   "shortName": "dh",
   "chainId": 111120,
