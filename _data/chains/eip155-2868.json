@@ -1,0 +1,23 @@
+{
+  "name": "HyperAGI Mainnet",
+  "chain": "HyperAGI",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Hyperdust",
+    "symbol": "HYPT",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://hyperagi.network",
+  "shortName": "hypt",
+  "chainId": 2868,
+  "networkId": 1,
+  "explorers": [
+    {
+      "name": "hyptscan",
+      "url": "https://block.hyperagi.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
