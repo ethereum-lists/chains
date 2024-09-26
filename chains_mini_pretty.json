@@ -16262,18 +16262,18 @@
   "faucets": ["https://faucet.evokescan.org"],
   "infoURL": "https://testnet-explorer.evokescan.org"
 }, {
-  "name": "Filecoin - Wallaby testnet",
+  "name": "Wirex Pay Mainnet",
   "chainId": 31415,
-  "shortName": "filecoin-wallaby",
+  "shortName": "wpay",
   "networkId": 31415,
   "nativeCurrency": {
-    "name": "testnet filecoin",
-    "symbol": "tFIL",
+    "name": "Ethereum",
+    "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.wirexpaychain.com"],
   "faucets": [],
-  "infoURL": "https://filecoin.io"
+  "infoURL": "https://docs.wirexpaychain.com/tech/wirex-pay-chain"
 }, {
   "name": "Xchain Mainnet",
   "chainId": 31753,
