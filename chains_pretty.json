@@ -37046,6 +37046,36 @@
     "chain": "eip155-1"
   }
 }, {
+  "name": "Spotlight",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://spotlightchain.com/",
+  "shortName": "spotlight",
+  "chainId": 10058111,
+  "networkId": 10058111,
+  "status": "incubating"
+}, {
+  "name": "Spotlight Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://spotlightchain.com/",
+  "shortName": "spotlightsep",
+  "chainId": 10058112,
+  "networkId": 10058112,
+  "status": "incubating"
+}, {
   "name": "Plian Testnet Subchain 1",
   "chain": "Plian",
   "rpc": ["https://testnet.plian.io/child_test"],
