@@ -1,7 +1,7 @@
 {
-  "name": "BC Hyper POS Testnet",
-  "chain": "BC Hyper POS Testnet",
-  "rpc": ["https://rpc.bcexplorer.io"],
+  "name": "BC Hyper Chain Testnet",
+  "chain": "BC Hyper Chain",
+  "rpc": ["https://rpc.bchscan.io"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
@@ -17,7 +17,7 @@
   "explorers": [
     {
       "name": "bcexplorer testnet",
-      "url": "https://testnet.bcexplorer.io",
+      "url": "https://testnet.bchscan.io",
       "standard": "EIP3091"
     }
   ]
