@@ -15,12 +15,5 @@
   "chainId": 8108,
   "networkId": 8108,
   "slip44": 60,
-  "explorers": [
-    {
-      "name": "zentrace",
-      "url": "https://zentrace.io",
-      "icon": "blockscout",
-      "standard": "EIP3091"
-    }
-  ]
+  "explorers": []
 }
