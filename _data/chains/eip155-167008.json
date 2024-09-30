@@ -3,6 +3,8 @@
   "chain": "ETH",
   "status": "deprecated",
   "icon": "taiko",
+  "rpc": [
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -12,5 +14,7 @@
   "infoURL": "https://taiko.xyz",
   "shortName": "tko-katla",
   "chainId": 167008,
-  "networkId": 167008
+  "networkId": 167008,
+  "explorers": [
+  ]
 }
