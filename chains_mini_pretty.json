@@ -18147,6 +18147,19 @@
   "faucets": [],
   "infoURL": "https://guapcoin.org/"
 }, {
+  "name": "Wadzchain Testnet",
+  "chainId": 71117,
+  "shortName": "wadzchain-testnet",
+  "networkId": 71117,
+  "nativeCurrency": {
+    "name": "WadzToken",
+    "symbol": "WTK",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.wadzchain.io"],
+  "faucets": ["https://faucet-testnet.wadzchain.io"],
+  "infoURL": "https://www.wadzchain-network.io"
+}, {
   "name": "Polyjuice Testnet",
   "chainId": 71393,
   "shortName": "ckb",
