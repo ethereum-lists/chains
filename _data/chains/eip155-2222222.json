@@ -1,7 +1,7 @@
 {
   "name": "Coinweb BNB shard",
   "title": "Coinweb BNB shard",
-  "chain": "CWEB",
+  "chain": "CWEB BNB",
   "rpc": ["https://api-cloud.coinweb.io/eth-rpc-service/bnb"],
   "faucets": [],
   "nativeCurrency": {
@@ -10,7 +10,7 @@
     "decimals": 18
   },
   "infoURL": "https://coinweb.io",
-  "shortName": "cweb",
+  "shortName": "cweb-bnb",
   "chainId": 2222222,
   "networkId": 2222222,
   "slip44": 1,
