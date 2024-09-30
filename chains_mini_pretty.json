@@ -16795,6 +16795,19 @@
   "faucets": [],
   "infoURL": "https://goldxchain.io"
 }, {
+  "name": "Asset Chain Mainnet",
+  "chainId": 42420,
+  "shortName": "assetchain",
+  "networkId": 42420,
+  "nativeCurrency": {
+    "name": "Real World Asset",
+    "symbol": "RWA",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.assetchain.org"],
+  "faucets": ["https://faucet.assetchain.org"],
+  "infoURL": "https://docs.assetchain.org"
+}, {
   "name": "Asset Chain Testnet",
   "chainId": 42421,
   "shortName": "rwa",
