@@ -2,8 +2,9 @@
   "name": "Coinweb",
   "title": "Coinweb BNB",
   "chain": "CWEB",
-  "icon": "coinwebicon",
-  "rpc": ["https://api-cloud.coinweb.io/eth-rpc-service/bnb"],
+  "rpc": [
+    "https://api-cloud.coinweb.io/eth-rpc-service/bnb"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "CWEB",
