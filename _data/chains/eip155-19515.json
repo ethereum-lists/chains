@@ -1,7 +1,7 @@
 {
   "name": "SEC Testnet",
   "chain": "SEC",
-  "icon": "dcpayIcon",
+  "icon": "secIcon",
   "rpc": ["https://testnet-rpc.secexplorer.io"],
   "faucets": ["https://faucet.secexplorer.io"],
   "nativeCurrency": {
@@ -10,7 +10,7 @@
     "decimals": 18
   },
   "infoURL": "https://smartenergychain.org",
-  "shortName": "SECt",
+  "shortName": "SEPt",
   "chainId": 19515,
   "networkId": 19515,
   "explorers": [
