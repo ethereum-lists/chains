@@ -1,0 +1,27 @@
+{
+  "name": "Camp Network Testnet V2",
+  "chain": "CampL2",
+  "rpc": ["https://rpc.camp-network-testnet.gelato.digital/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.campnetwork.xyz/",
+  "shortName": "CAMP",
+  "chainId": 325000,
+  "networkId": 325000,
+  "explorers": [
+    {
+      "name": "Camp Explorer",
+      "url": "https://camp-network-testnet.blockscout.com",
+      "standard": "none"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  }
+}
