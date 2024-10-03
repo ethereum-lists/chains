@@ -1,11 +1,15 @@
 {
   "name": "Swan Chain Mainnet",
   "chain": "SWAN",
-  "rpc": ["https://mainnet-rpc01.swanchain.io"],
+  "rpc": [
+    "https://mainnet-rpc.swanchain.org",
+    "https://mainnet-rpc-01.swanchain.org",
+    "https://mainnet-rpc-02.swanchain.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "SWANETH",
-    "symbol": "sETH",
+    "name": "Ether",
+    "symbol": "ETH",
     "decimals": 18
   },
   "infoURL": "https://swanchain.io/",

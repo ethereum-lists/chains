@@ -1,7 +1,7 @@
 {
   "name": "Curtis",
   "chain": "Curtis",
-  "rpc": ["https://curtis.rpc.caldera.xyz/http"],
+  "rpc": ["https://rpc.curtis.apechain.com"],
   "faucets": ["https://curtis.hub.caldera.xyz"],
   "nativeCurrency": {
     "name": "ApeCoin",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "Curtis Explorer",
-      "url": "https://curtis.explorer.caldera.xyz",
+      "url": "https://explorer.curtis.apechain.com",
       "standard": "EIP3091"
     }
   ]
