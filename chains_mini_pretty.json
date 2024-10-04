@@ -13857,6 +13857,19 @@
   "faucets": [],
   "infoURL": "https://www.volleychain.com"
 }, {
+  "name": "MFEV CHAIN MAINNET",
+  "chainId": 9982,
+  "shortName": "mfevscan",
+  "networkId": 9982,
+  "nativeCurrency": {
+    "name": "MFEV",
+    "symbol": "MFEV",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mfevscan.com"],
+  "faucets": [],
+  "infoURL": "https://mfevscan.com"
+}, {
   "name": "Agung Network",
   "chainId": 9990,
   "shortName": "AGNG",
