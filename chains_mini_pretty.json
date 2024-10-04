@@ -13688,6 +13688,19 @@
   "faucets": [],
   "infoURL": "https://pepenetwork.io"
 }, {
+  "name": "Tabi Testnetv2",
+  "chainId": 9788,
+  "shortName": "tabitestv2",
+  "networkId": 9788,
+  "nativeCurrency": {
+    "name": "Tabi",
+    "symbol": "TABI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnetv2.tabichain.com"],
+  "faucets": ["https://carnival.tabichain.com"],
+  "infoURL": "https://www.tabichain.com"
+}, {
   "name": "Tabi Testnet",
   "chainId": 9789,
   "shortName": "tabitest",
