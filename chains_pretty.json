@@ -29374,6 +29374,24 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Geist Mainnet",
+  "chain": "Geist",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Aavegotchi GHST Token",
+    "symbol": "GHST",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://playongeist.com",
+  "shortName": "Geist",
+  "chainId": 63157,
+  "networkId": 63157,
+  "status": "incubating",
+  "icon": "geist",
+  "explorers": []
+}, {
   "name": "CratD2C Testnet",
   "chain": "CRATD2C",
   "rpc": ["https://cratd2c-testnet-node1.cratd2csmartchain.io/", "https://cratd2c-testnet-node2.cratd2csmartchain.io/"],
@@ -35068,6 +35086,24 @@
     "icon": "atlas",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Polter Testnet",
+  "chain": "Geist",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Polter GHST",
+    "symbol": "GHST",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://playongeist.com",
+  "shortName": "poltergeist",
+  "chainId": 631571,
+  "networkId": 631571,
+  "status": "incubating",
+  "icon": "polterGeist",
+  "explorers": []
 }, {
   "name": "Bear Network Chain Mainnet",
   "chain": "BRNKC",

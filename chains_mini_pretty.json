@@ -18030,6 +18030,19 @@
   "faucets": ["https://faucet.tst.ecredits.com"],
   "infoURL": "https://esync.network"
 }, {
+  "name": "Geist Mainnet",
+  "chainId": 63157,
+  "shortName": "Geist",
+  "networkId": 63157,
+  "nativeCurrency": {
+    "name": "Aavegotchi GHST Token",
+    "symbol": "GHST",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://playongeist.com"
+}, {
   "name": "CratD2C Testnet",
   "chainId": 65349,
   "shortName": "cratd2c-testnet",
@@ -21513,6 +21526,19 @@
   "rpc": ["https://rpc.testnet.atl.network"],
   "faucets": [],
   "infoURL": "https://atl.network"
+}, {
+  "name": "Polter Testnet",
+  "chainId": 631571,
+  "shortName": "poltergeist",
+  "networkId": 631571,
+  "nativeCurrency": {
+    "name": "Polter GHST",
+    "symbol": "GHST",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://playongeist.com"
 }, {
   "name": "Bear Network Chain Mainnet",
   "chainId": 641230,
