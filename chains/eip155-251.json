@@ -1,0 +1,22 @@
+{
+  "name": "Glide L1 Protocol XP",
+  "chain": "GLXP",
+  "icon": "glide",
+  "rpc": [
+    "https://rpc-api.glideprotocol.xyz/l1-rpc/",
+    "wss://rpc-api.glideprotocol.xyz/l1-rpc/"
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Glide XP",
+    "symbol": "GLXP",
+    "decimals": 18
+  },
+  "infoURL": "https://glideprotocol.xyz",
+  "shortName": "glide",
+  "chainId": 251,
+  "networkId": 251,
+  "slip44": 60,
+  "status": "active"
+}

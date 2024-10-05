@@ -2859,6 +2859,19 @@
   "faucets": [],
   "infoURL": "https://fantom.foundation"
 }, {
+  "name": "Glide L1 Protocol XP",
+  "chainId": 251,
+  "shortName": "glide",
+  "networkId": 251,
+  "nativeCurrency": {
+    "name": "Glide XP",
+    "symbol": "GLXP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-api.glideprotocol.xyz/l1-rpc/", "wss://rpc-api.glideprotocol.xyz/l1-rpc/"],
+  "faucets": [],
+  "infoURL": "https://glideprotocol.xyz"
+}, {
   "name": "Fraxtal",
   "chainId": 252,
   "shortName": "fraxtal",
@@ -2871,6 +2884,19 @@
   "rpc": ["https://rpc.frax.com"],
   "faucets": [],
   "infoURL": "https://mainnet.frax.com"
+}, {
+  "name": "Glide L2 Protocol XP",
+  "chainId": 253,
+  "shortName": "glidexp",
+  "networkId": 253,
+  "nativeCurrency": {
+    "name": "Glide XP",
+    "symbol": "GLXP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-api.glideprotocol.xyz/l2-rpc/", "wss://rpc-api.glideprotocol.xyz/l2-rpc/"],
+  "faucets": [],
+  "infoURL": "https://glideprotocol.xyz"
 }, {
   "name": "Swan Chain Mainnet",
   "chainId": 254,
