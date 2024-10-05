@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "bevm mainnet scan",
-      "url": "https://scan-mainnet.bevm.io",
+      "url": ["https://scan-mainnet.bevm.io", "https://www.oklink.com/bevm"],
       "standard": "none"
     }
   ]
