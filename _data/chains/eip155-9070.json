@@ -14,5 +14,12 @@
   "chainId": 9070,
   "networkId": 9070,
   "icon": "apexfusion",
-  "explorers": []
+  "explorers": [
+    {
+      "name": "apexfusion",
+      "url": "https://explorer.nexus.testnet.apexfusion.org",
+      "icon": "apexfusion",
+      "standard": "EIP3091"
+    }
+  ]
 }
