@@ -12492,6 +12492,19 @@
   "faucets": ["https://faucet.hazlor.com"],
   "infoURL": "https://hazlor.com"
 }, {
+  "name": "Vexon Testnet",
+  "chainId": 7879,
+  "shortName": "vexon",
+  "networkId": 7879,
+  "nativeCurrency": {
+    "name": "Vexon Testnet Native Token",
+    "symbol": "tVEX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet-asia1.vexonhub.org", "https://rpc-testnet-europe1.vexonhub.org", "https://rpc-testnet-01.vexonhub.org"],
+  "faucets": ["https://faucet-drip.vexonhub.org"],
+  "infoURL": "https://vexonhub.org"
+}, {
   "name": "Kinto Mainnet",
   "chainId": 7887,
   "shortName": "kintoMainnet",
