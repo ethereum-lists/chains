@@ -1,0 +1,21 @@
+{
+  "name": "StarBound Testnet",
+  "chain": "BOUND",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "StarBound",
+    "symbol": "BOUND",
+    "decimals": 18
+  },
+  "infoURL": "https://example.com",
+  "shortName": "starbound-testnet",
+  "chainId": 21925,
+  "networkId": 21925,
+  "slip44": 1,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-97"
+  }
+}
