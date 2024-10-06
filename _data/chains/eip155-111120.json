@@ -1,0 +1,30 @@
+{
+  "name": "DataHive",
+  "chain": "DH",
+  "rpc": [
+      "https://datahive-testnet.alt.technology"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+  },
+  "infoURL": "https://www.datahive.network/",
+  "shortName": "dh",
+  "chainId": 111120,
+  "networkId": 111120,
+  "icon": "datahive",
+  "parent": {
+      "type": "L2",
+      "chain": "eip155-10",
+      "bridges": [
+          {
+              "url": "https://gateway.optimism.io"
+          },
+          {
+              "url": "https://bridge.optimism.io"
+          }
+      ]
+  }
+}
