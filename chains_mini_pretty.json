@@ -19213,6 +19213,19 @@
   "faucets": [],
   "infoURL": "https://www.stratovm.io/"
 }, {
+  "name": "SRICHAIN",
+  "chainId": 95432,
+  "shortName": "sriscan",
+  "networkId": 95432,
+  "nativeCurrency": {
+    "name": "SRIX",
+    "symbol": "SRIX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.sriscan.com/"],
+  "faucets": [],
+  "infoURL": "https://sriscan.com"
+}, {
   "name": "Mantis Testnet (Hexapod)",
   "chainId": 96970,
   "shortName": "mantis",
