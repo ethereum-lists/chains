@@ -1,5 +1,5 @@
 {
-  "name": "Ethernity Mainnet",
+  "name": "Ethernity",
   "chain": "Ethernity",
   "rpc": ["https://mainnet.ethernitychain.io"],
   "faucets": [],
@@ -14,7 +14,7 @@
   "networkId": 183,
   "explorers": [
     {
-      "name": "Ethernity Mainnet Explorer",
+      "name": "Ethernity Explorer",
       "url": "https://ernscan.io",
       "standard": "EIP3091"
     }
