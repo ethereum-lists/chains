@@ -19304,6 +19304,19 @@
   "faucets": [],
   "infoURL": "https://www.greenchain.app"
 }, {
+  "name": "MetaBenz CHAIN",
+  "chainId": 97766,
+  "shortName": "metabenzscan",
+  "networkId": 97766,
+  "nativeCurrency": {
+    "name": "MBC",
+    "symbol": "MBC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.metabenzscan.com"],
+  "faucets": [],
+  "infoURL": "https://metabenzscan.com"
+}, {
   "name": "OptimusZ7 Testnet",
   "chainId": 97970,
   "shortName": "OZ7t",

@@ -31398,6 +31398,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "MetaBenz CHAIN",
+  "chain": "MetaBenz CHAIN",
+  "rpc": ["https://rpc.metabenzscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MBC",
+    "symbol": "MBC",
+    "decimals": 18
+  },
+  "infoURL": "https://metabenzscan.com",
+  "shortName": "metabenzscan",
+  "chainId": 97766,
+  "networkId": 97766,
+  "slip44": 108,
+  "explorers": [{
+    "name": "MetaBenz CHAIN",
+    "url": "https://metabenzscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "OptimusZ7 Testnet",
   "chain": "OptimusZ7",
   "icon": "OZ7Icon",
