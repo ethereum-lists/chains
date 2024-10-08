@@ -1,0 +1,23 @@
+{
+  "name": "Blockfit",
+  "chain": "202424",
+  "icon": "BFIT",
+  "rpc": ["https://rpc.blockfitscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BFIT",
+    "symbol": "BFIT",
+    "decimals": 18
+  },
+  "infoURL": "blockfitscan.io",
+  "shortName": "Blockfit",
+  "chainId": 202424,
+  "networkId": 202424,
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "blockfitscan.io",
+      "standard": "none"
+    }
+  ]
+}
