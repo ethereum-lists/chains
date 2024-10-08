@@ -9,15 +9,20 @@
     "symbol": "BFIT",
     "decimals": 18
   },
-  "infoURL": "blockfitscan.io",
+  "infoURL": "https://blockfit.io",
   "shortName": "Blockfit",
   "chainId": 202424,
   "networkId": 202424,
   "explorers": [
     {
-      "name": "Blockscout",
-      "url": "blockfitscan.io",
+      "name": "Tracehawk",
+      "url": "https://blockfitscan.io",
       "standard": "none"
     }
-  ]
+  ],
+  "parent": {
+   "type" : "L2",
+   "chain": "eip155-1",
+   "bridges": [ {"url":"https://bridge.arbitrum.io"} ]
+  }
 }
