@@ -1,0 +1,28 @@
+{
+  "name": "Pego Network",
+  "chain": "PEGO",
+  "rpc": [
+    "https://pegorpc.com",
+    "https://node1.pegorpc.com",
+    "https://node2.pegorpc.com",
+    "https://node3.pegorpc.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Pego Native Token",
+    "symbol": "PG",
+    "decimals": 18
+  },
+  "infoURL": "https://pego.network",
+  "shortName": "pg",
+  "chainId": 20201022,
+  "networkId": 20201022,
+  "icon": "pego",
+  "explorers": [
+    {
+      "name": "Pego Network Explorer",
+      "url": "https://scan.pego.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

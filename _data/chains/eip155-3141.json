@@ -1,17 +1,17 @@
 {
-  "name": "Filecoin - Buildernet",
+  "name": "Filecoin - Hyperspace testnet",
+  "status": "deprecated",
   "chain": "FIL",
-  "status": "incubating",
+  "icon": "filecoin",
   "rpc": [],
   "faucets": [],
   "nativeCurrency": {
-    "name": "filecoin",
-    "symbol": "FIL",
+    "name": "testnet filecoin",
+    "symbol": "tFIL",
     "decimals": 18
   },
   "infoURL": "https://filecoin.io",
-  "shortName": "filecoin-buildernet",
-  "icon": "filecoin",
+  "shortName": "filecoin-hyperspace",
   "chainId": 3141,
   "networkId": 3141,
   "slip44": 1,

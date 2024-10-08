@@ -1,0 +1,17 @@
+{
+  "name": "Firechain zkEVM Ghostrider",
+  "title": "Firechain zkEVM Testnet",
+  "chain": "Firechain",
+  "rpc": ["https://rpc-zkevm-ghostrider.thefirechain.com"],
+  "faucets": ["zkevm-faucet.thefirechain.com"],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.thefirechain.com/",
+  "shortName": "firechain-zkEVM-testnet",
+  "chainId": 3885,
+  "networkId": 3885,
+  "explorers": []
+}

@@ -4,12 +4,14 @@
   "chain": "t2bPLS",
   "chainId": 941,
   "networkId": 941,
+  "slip44": 1,
   "infoURL": "https://pulsechain.com/",
   "rpc": [
     "https://rpc.v2b.testnet.pulsechain.com/",
     "wss://rpc.v2b.testnet.pulsechain.com/"
   ],
   "faucets": ["https://faucet.v2b.testnet.pulsechain.com/"],
+  "status": "deprecated",
   "nativeCurrency": {
     "name": "Test Pulse",
     "symbol": "tPLS",

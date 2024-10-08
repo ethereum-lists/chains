@@ -1,0 +1,23 @@
+{
+  "name": "Vention Smart Chain Mainnet",
+  "chain": "VSC",
+  "icon": "vention",
+  "rpc": ["https://mainnet-rpc.vention.network"],
+  "faucets": ["https://faucet.vention.network"],
+  "nativeCurrency": {
+    "name": "VNT",
+    "symbol": "VNT",
+    "decimals": 18
+  },
+  "infoURL": "https://ventionscan.io",
+  "shortName": "vscm",
+  "chainId": 77612,
+  "networkId": 77612,
+  "explorers": [
+    {
+      "name": "ventionscan",
+      "url": "https://ventionscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

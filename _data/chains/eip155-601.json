@@ -1,0 +1,24 @@
+{
+  "name": "Vine Testnet",
+  "chain": "VINE",
+  "rpc": ["https://rpc-testnet.vne.network"],
+  "faucets": ["https://vne.network/rose"],
+  "nativeCurrency": {
+    "name": "VINE",
+    "symbol": "VNE",
+    "decimals": 18
+  },
+  "infoURL": "https://www.peer.inc",
+  "shortName": "VINE",
+  "chainId": 601,
+  "networkId": 601,
+  "icon": "vine",
+  "explorers": [
+    {
+      "name": "Vine Explorer",
+      "url": "https://vne.network/rose",
+      "standard": "none",
+      "icon": "vine"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Mode",
+  "chain": "ETH",
+  "rpc": [
+    "https://mainnet.mode.network",
+    "https://mode.drpc.org",
+    "wss://mode.drpc.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.mode.network/",
+  "shortName": "mode",
+  "chainId": 34443,
+  "networkId": 34443,
+  "icon": "mode",
+  "explorers": [
+    {
+      "name": "modescout",
+      "url": "https://explorer.mode.network",
+      "standard": "none"
+    }
+  ]
+}

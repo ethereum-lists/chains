@@ -1,0 +1,25 @@
+{
+  "name": "DOID Testnet",
+  "chain": "DOID",
+  "rpc": ["https://rpc.testnet.doid.tech"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DOID",
+    "symbol": "DOID",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://doid.tech",
+  "shortName": "doidTestnet",
+  "chainId": 56797,
+  "networkId": 56797,
+  "icon": "doid",
+  "explorers": [
+    {
+      "name": "DOID Testnet Scan",
+      "url": "https://scan.testnet.doid.tech",
+      "icon": "doid",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Chiliz Scoville Testnet",
+  "chain": "CHZ",
+  "status": "deprecated",
+  "rpc": ["https://scoville-rpc.chiliz.com"],
+  "faucets": ["https://scoville-faucet.chiliz.com"],
+  "nativeCurrency": {
+    "name": "Chiliz",
+    "symbol": "CHZ",
+    "decimals": 18
+  },
+  "icon": "chiliz",
+  "infoURL": "https://www.chiliz.com/en/chain",
+  "shortName": "chz",
+  "chainId": 88880,
+  "networkId": 88880,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "scoville-explorer",
+      "url": "https://scoville-explorer.chiliz.com",
+      "standard": "none"
+    }
+  ]
+}

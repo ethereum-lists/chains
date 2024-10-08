@@ -1,0 +1,25 @@
+{
+  "name": "DOID",
+  "chain": "DOID",
+  "rpc": ["https://rpc.doid.tech"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DOID",
+    "symbol": "DOID",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://doid.tech",
+  "shortName": "DOID",
+  "chainId": 53277,
+  "networkId": 53277,
+  "icon": "doid",
+  "explorers": [
+    {
+      "name": "DOID Scan",
+      "url": "https://scan.doid.tech",
+      "icon": "doid",
+      "standard": "EIP3091"
+    }
+  ]
+}

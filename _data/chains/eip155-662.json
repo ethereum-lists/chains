@@ -1,0 +1,23 @@
+{
+  "name": "UltronSmartchain",
+  "chain": "UltronSmartchain",
+  "rpc": ["https://rpc.ultronsmartchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ulc",
+    "symbol": "ULC",
+    "decimals": 18
+  },
+  "infoURL": "https://ultronsmartchain.io",
+  "shortName": "ultronsmartchain",
+  "chainId": 662,
+  "networkId": 662,
+  "icon": "ultronsmartchain",
+  "explorers": [
+    {
+      "name": "ultronsmartchain explorer",
+      "url": "https://scan.ultronsmartchain.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

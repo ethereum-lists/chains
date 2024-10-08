@@ -1,12 +1,7 @@
 {
-  "name": "Boba BNB Mainnet",
+  "name": "Boba BNB Mainnet Old",
   "chain": "Boba BNB Mainnet",
-  "rpc": [
-    "https://bnb.boba.network",
-    "wss://wss.bnb.boba.network",
-    "https://replica.bnb.boba.network",
-    "wss://replica-wss.bnb.boba.network"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Boba Token",
@@ -14,7 +9,7 @@
     "decimals": 18
   },
   "infoURL": "https://boba.network",
-  "shortName": "BobaBnb",
+  "shortName": "BobaBnbOld",
   "chainId": 97288,
   "networkId": 97288,
   "explorers": [
@@ -23,5 +18,6 @@
       "url": "https://blockexplorer.bnb.boba.network",
       "standard": "none"
     }
-  ]
+  ],
+  "status": "deprecated"
 }

@@ -1,0 +1,30 @@
+{
+  "name": "Lightlink Pegasus Testnet",
+  "chain": "Lightlink Pegasus Testnet",
+  "icon": "lightlink",
+  "rpc": ["https://replicator.pegasus.lightlink.io/rpc/v1"],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "faucets": ["https://faucet.pegasus.lightlink.io/"],
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://lightlink.io",
+  "shortName": "lightlink_pegasus",
+  "chainId": 1891,
+  "networkId": 1891,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "pegasus",
+      "url": "https://pegasus.lightlink.io",
+      "icon": "lightlink",
+      "standard": "EIP3091"
+    }
+  ]
+}

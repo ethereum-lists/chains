@@ -1,7 +1,7 @@
 buildscript {
     ext {
-        KOTLIN_VERSION = "1.7.22"
-        KETHEREUM_VERSION = "0.85.7"
+        KOTLIN_VERSION = "2.0.10"
+        KETHEREUM_VERSION = "0.86.0"
     }
 
     repositories {
@@ -10,7 +10,7 @@ buildscript {
 
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${KOTLIN_VERSION}"
-        classpath 'com.github.ben-manes:gradle-versions-plugin:0.44.0'
+        classpath 'com.github.ben-manes:gradle-versions-plugin:0.51.0'
     }
 }
 

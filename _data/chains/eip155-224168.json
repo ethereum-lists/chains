@@ -1,0 +1,23 @@
+{
+  "name": "Taf ECO Chain Mainnet",
+  "chain": "Taf ECO Chain",
+  "icon": "taf",
+  "rpc": ["https://mainnet.tafchain.com/v1"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Taf ECO Chain Mainnet",
+    "symbol": "TAFECO",
+    "decimals": 18
+  },
+  "infoURL": "https://www.tafchain.com",
+  "shortName": "TAFECO",
+  "chainId": 224168,
+  "networkId": 224168,
+  "explorers": [
+    {
+      "name": "Taf ECO Chain Mainnet",
+      "url": "https://ecoscan.tafchain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

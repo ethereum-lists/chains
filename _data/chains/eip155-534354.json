@@ -1,22 +1,18 @@
 {
   "name": "Scroll Pre-Alpha Testnet",
   "chain": "ETH",
-  "rpc": ["https://prealpha.scroll.io/l2"],
-  "faucets": ["https://prealpha.scroll.io"],
+  "status": "deprecated",
+  "rpc": [],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
-    "symbol": "ETH",
+    "symbol": "TSETH",
     "decimals": 18
   },
   "infoURL": "https://scroll.io",
   "shortName": "scr-prealpha",
   "chainId": 534354,
   "networkId": 534354,
-  "explorers": [
-    {
-      "name": "Scroll L2 Block Explorer",
-      "url": "https://l2scan.scroll.io",
-      "standard": "EIP3091"
-    }
-  ]
+  "slip44": 1,
+  "explorers": []
 }

@@ -1,0 +1,23 @@
+{
+  "name": "Cosvm Mainnet",
+  "chain": "CVM",
+  "rpc": ["https://rpc.cosvm.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Cosvm",
+    "symbol": "CVM",
+    "decimals": 18
+  },
+  "infoURL": "https://cosvm.network",
+  "shortName": "cvm",
+  "chainId": 323,
+  "networkId": 323,
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://explorer.cosvm.net",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

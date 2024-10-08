@@ -1,8 +1,15 @@
 {
   "name": "Filecoin - Mainnet",
   "chain": "FIL",
-  "status": "incubating",
-  "rpc": ["https://api.node.glif.io/rpc/v0"],
+  "icon": "filecoin",
+  "rpc": [
+    "https://api.node.glif.io/",
+    "https://rpc.ankr.com/filecoin",
+    "https://filecoin-mainnet.chainstacklabs.com/rpc/v1",
+    "https://filfox.info/rpc/v1",
+    "https://filecoin.drpc.org",
+    "wss://filecoin.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "filecoin",
@@ -11,7 +18,6 @@
   },
   "infoURL": "https://filecoin.io",
   "shortName": "filecoin",
-  "icon": "filecoin",
   "chainId": 314,
   "networkId": 314,
   "slip44": 461,
@@ -19,6 +25,21 @@
     {
       "name": "Filfox",
       "url": "https://filfox.info/en",
+      "standard": "none"
+    },
+    {
+      "name": "Beryx",
+      "url": "https://beryx.zondax.ch",
+      "standard": "none"
+    },
+    {
+      "name": "Glif Explorer",
+      "url": "https://explorer.glif.io",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Dev.storage",
+      "url": "https://dev.storage",
       "standard": "none"
     },
     {

@@ -1,0 +1,28 @@
+{
+  "name": "Agung Network",
+  "chain": "Agung",
+  "icon": "agung",
+  "rpc": ["https://rpcpc1-qa.agung.peaq.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Agung",
+    "symbol": "AGNG",
+    "decimals": 18
+  },
+  "infoURL": "https://www.peaq.network",
+  "shortName": "AGNG",
+  "chainId": 9990,
+  "networkId": 9990,
+  "explorers": [
+    {
+      "name": "Polkadot.js",
+      "url": "https://polkadot.js.org/apps/?rpc=wss://wsspc1-qa.agung.peaq.network#/explorer",
+      "standard": "none"
+    },
+    {
+      "name": "Subscan",
+      "url": "https://agung.subscan.io",
+      "standard": "none"
+    }
+  ]
+}

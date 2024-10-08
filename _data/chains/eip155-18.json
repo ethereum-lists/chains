@@ -1,7 +1,11 @@
 {
   "name": "ThunderCore Testnet",
   "chain": "TST",
-  "rpc": ["https://testnet-rpc.thundercore.com"],
+  "rpc": [
+    "https://testnet-rpc.thundercore.com",
+    "https://thundercore-testnet.drpc.org",
+    "wss://thundercore-testnet.drpc.org"
+  ],
   "faucets": ["https://faucet-testnet.thundercore.com"],
   "nativeCurrency": {
     "name": "ThunderCore Testnet Token",
@@ -12,6 +16,7 @@
   "shortName": "TST",
   "chainId": 18,
   "networkId": 18,
+  "slip44": 1,
   "explorers": [
     {
       "name": "thundercore-blockscout-testnet",

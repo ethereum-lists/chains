@@ -1,0 +1,23 @@
+{
+  "name": "Storagechain Testnet",
+  "chain": "Storagechain",
+  "rpc": ["https://testnet-validator.storagechain.io"],
+  "icon": "storagechain",
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Storagechain",
+    "symbol": "STOR",
+    "decimals": 18
+  },
+  "shortName": "tstor",
+  "infoURL": "https://storagechain.io/about-us",
+  "chainId": 8727,
+  "networkId": 8727,
+  "explorers": [
+    {
+      "name": "Storscan",
+      "url": "https://explorer-storagechain.invo.zone/?network=StorageChain%20Testnet",
+      "standard": "none"
+    }
+  ]
+}

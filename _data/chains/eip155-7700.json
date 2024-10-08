@@ -1,7 +1,12 @@
 {
   "name": "Canto",
   "chain": "Canto",
-  "rpc": ["https://canto.slingshot.finance"],
+  "rpc": [
+    "https://canto.slingshot.finance",
+    "https://canto-rpc.ansybl.io",
+    "https://mainnode.plexnode.org:8545",
+    "https://canto.gravitychain.io/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Canto",
@@ -14,14 +19,20 @@
   "networkId": 7700,
   "explorers": [
     {
-      "name": "Canto EVM Explorer (Blockscout)",
-      "url": "https://evm.explorer.canto.io",
-      "standard": "none"
+      "name": "Canto Explorer (OKLink)",
+      "url": "https://www.oklink.com/canto",
+      "standard": "EIP3091"
     },
     {
-      "name": "Canto Cosmos Explorer (BigDipper)",
-      "url": "https://cosmos.explorer.canto.io",
-      "standard": "none"
+      "name": "Canto EVM Explorer (Blockscout)",
+      "url": "https://tuber.build",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://canto.dex.guru",
+      "icon": "dexguru",
+      "standard": "EIP3091"
     }
   ]
 }

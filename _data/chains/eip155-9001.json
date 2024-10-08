@@ -1,7 +1,12 @@
 {
   "name": "Evmos",
   "chain": "Evmos",
-  "rpc": ["https://eth.bd.evmos.org:8545", "https://evmos-evm.publicnode.com"],
+  "rpc": [
+    "https://evmos.lava.build",
+    "wss://evmos.lava.build/websocket",
+    "https://evmos-evm-rpc.publicnode.com",
+    "wss://evmos-evm-rpc.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Evmos",
@@ -15,14 +20,8 @@
   "icon": "evmos",
   "explorers": [
     {
-      "name": "Evmos EVM Explorer (Blockscout)",
-      "url": "https://evm.evmos.org",
-      "standard": "none",
-      "icon": "evmos"
-    },
-    {
-      "name": "Evmos Cosmos Explorer (Mintscan)",
-      "url": "https://www.mintscan.io/evmos",
+      "name": "Evmos Explorer (Escan)",
+      "url": "https://escan.live",
       "standard": "none",
       "icon": "evmos"
     }

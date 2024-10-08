@@ -1,6 +1,7 @@
 {
   "name": "Ontology Testnet",
   "chain": "Ontology",
+  "icon": "ontology",
   "rpc": [
     "http://polaris1.ont.io:20339",
     "http://polaris2.ont.io:20339",
@@ -21,6 +22,7 @@
   "shortName": "OntologyTestnet",
   "chainId": 5851,
   "networkId": 5851,
+  "slip44": 1,
   "explorers": [
     {
       "name": "explorer",
