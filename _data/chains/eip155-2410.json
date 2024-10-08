@@ -1,6 +1,6 @@
 {
-  "name": "Karak Mainnet",
-  "chain": "Karak",
+  "name": "K2 Mainnet",
+  "chain": "K2",
   "icon": "karak",
   "rpc": ["https://rpc.karak.network"],
   "faucets": [],
@@ -10,12 +10,12 @@
     "decimals": 18
   },
   "infoURL": "https://karak.network",
-  "shortName": "karak-mainnet",
+  "shortName": "K2-mainnet",
   "chainId": 2410,
   "networkId": 2410,
   "explorers": [
     {
-      "name": "Karak Mainnet Explorer",
+      "name": "K2 Mainnet Explorer",
       "url": "https://explorer.karak.network",
       "standard": "EIP3091"
     }
