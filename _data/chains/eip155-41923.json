@@ -1,0 +1,24 @@
+{
+  "name": "Open Campus Codex Mainnet",
+  "chain": "Open Campus Codex Mainnet",
+  "icon": "occ-mainnet",
+  "rpc": ["https://rpc.edu-chain.raas.gelato.cloud"],
+  "faucets": ["https://bridge.gelato.network/bridge/edu-chain"],
+  "nativeCurrency": {
+    "name": "EDU",
+    "symbol": "EDU",
+    "decimals": 18
+  },
+  "infoURL": "https://raas.gelato.network/rollups/details/public/edu-chain",
+  "shortName": "occ-mainnet",
+  "chainId": 41923,
+  "networkId": 41923,
+  "explorers": [
+    {
+      "name": "Open Campus Codex",
+      "url": "https://edu-chain.blockscout.com",
+      "icon": "occ-mainnet",
+      "standard": "none"
+    }
+  ]
+}
