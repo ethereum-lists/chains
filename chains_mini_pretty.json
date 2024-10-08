@@ -16886,6 +16886,19 @@
   "faucets": [],
   "infoURL": "https://beta.opulent-x.com"
 }, {
+  "name": "Open Campus Codex Mainnet",
+  "chainId": 41923,
+  "shortName": "occ-mainnet",
+  "networkId": 41923,
+  "nativeCurrency": {
+    "name": "EDU",
+    "symbol": "EDU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.edu-chain.raas.gelato.cloud"],
+  "faucets": ["https://bridge.gelato.network/bridge/edu-chain"],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/edu-chain"
+}, {
   "name": "pegglecoin",
   "chainId": 42069,
   "shortName": "PC",
