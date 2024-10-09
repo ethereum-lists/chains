@@ -24166,6 +24166,19 @@
   "faucets": ["https://www.sfuelstation.com/"],
   "infoURL": "https://calypsohub.network/"
 }, {
+  "name": "Lumia Mainnet",
+  "chainId": 994873017,
+  "shortName": "lumia-mainnet",
+  "networkId": 994873017,
+  "nativeCurrency": {
+    "name": "Lumia",
+    "symbol": "LUMIA",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.lumia.org"],
+  "faucets": [],
+  "infoURL": "https://lumia.org"
+}, {
   "name": "Zora Sepolia Testnet",
   "chainId": 999999999,
   "shortName": "zsep",
@@ -24555,6 +24568,19 @@
   "rpc": ["https://testnet.rpc.rarichain.org/http"],
   "faucets": [],
   "infoURL": "https://rarichain.org/"
+}, {
+  "name": "Lumia Testnet",
+  "chainId": 1952959480,
+  "shortName": "lumiatestnet",
+  "networkId": 1952959480,
+  "nativeCurrency": {
+    "name": "Lumia",
+    "symbol": "LUMIA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.lumia.org"],
+  "faucets": ["https://testnet-faucet.lumia.org"],
+  "infoURL": "https://lumia.org"
 }, {
   "name": "DataHopper",
   "chainId": 2021121117,

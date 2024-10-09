@@ -39510,6 +39510,34 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Lumia Mainnet",
+  "shortName": "lumia-mainnet",
+  "title": "Lumia Mainnet",
+  "chain": "ETH",
+  "icon": "lumia",
+  "rpc": ["https://mainnet-rpc.lumia.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lumia",
+    "symbol": "LUMIA",
+    "decimals": 18
+  },
+  "infoURL": "https://lumia.org",
+  "chainId": 994873017,
+  "networkId": 994873017,
+  "explorers": [{
+    "name": "Lumia Mainnet Explorer",
+    "url": "https://explorer.lumia.org",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://bridge.lumia.org"
+    }]
+  }
+}, {
   "name": "Zora Sepolia Testnet",
   "chain": "ETH",
   "rpc": ["https://sepolia.rpc.zora.energy"],
@@ -40135,6 +40163,40 @@
     "url": "https://explorer.rarichain.org",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Lumia Testnet",
+  "shortName": "lumiatestnet",
+  "title": "Lumia Testnet",
+  "chain": "ETH",
+  "icon": "lumia",
+  "rpc": ["https://testnet-rpc.lumia.org"],
+  "faucets": ["https://testnet-faucet.lumia.org"],
+  "nativeCurrency": {
+    "name": "Lumia",
+    "symbol": "LUMIA",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://lumia.org",
+  "chainId": 1952959480,
+  "networkId": 1952959480,
+  "explorers": [{
+    "name": "Lumia Testnet Explorer",
+    "url": "https://testnet-explorer.lumia.org",
+    "icon": "lumia",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://testnet-bridge.lumia.org"
+    }]
+  }
 }, {
   "name": "DataHopper",
   "chain": "HOP",
