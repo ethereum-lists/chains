@@ -3,7 +3,7 @@
   "chain": "exSat",
   "icon": "exsat",
   "rpc": ["https://evm.exsat.network"],
-  "faucets": ["https://faucet.exsat.network"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "BTC",
     "symbol": "BTC",
@@ -23,6 +23,6 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.exsat.network" }]
+    "bridges": [{ "url": "" }]
   }
 }
