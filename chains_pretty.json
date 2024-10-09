@@ -29604,7 +29604,7 @@
 }, {
   "name": "Automata Mainnet",
   "chain": "Automata Mainnet",
-  "rpc": [],
+  "rpc": ["https://rpc.ata.network", "https://automata-mainnet.alt.technology/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "ATA",
@@ -29616,7 +29616,11 @@
   "chainId": 65536,
   "networkId": 65536,
   "icon": "automata",
-  "explorers": []
+  "explorers": [{
+    "name": "Automata Explorer",
+    "url": "https://explorer.ata.network",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Creator Chain Testnet",
   "chain": "creatorchain",
@@ -36573,7 +36577,7 @@
 }, {
   "name": "Automata Testnet",
   "chain": "Automata Testnet",
-  "rpc": ["https://automata-testnet.alt.technology"],
+  "rpc": ["https://rpc-testnet.ata.network", "https://automata-testnet.alt.technology"],
   "faucets": [],
   "nativeCurrency": {
     "name": "ATA",
@@ -36587,7 +36591,7 @@
   "icon": "automata",
   "explorers": [{
     "name": "Automata Testnet Explorer",
-    "url": "https://automata-testnet-explorer.alt.technology",
+    "url": "https://explorer-testnet.ata.network",
     "standard": "EIP3091"
   }]
 }, {
