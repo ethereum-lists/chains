@@ -21150,6 +21150,19 @@
   "faucets": [],
   "infoURL": "https://www.metalblockchain.org/"
 }, {
+  "name": "CheeseChain",
+  "chainId": 383353,
+  "shortName": "CheeseChain",
+  "networkId": 383353,
+  "nativeCurrency": {
+    "name": "CHEESE",
+    "symbol": "CHEESE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.cheesechain.xyz"],
+  "faucets": [],
+  "infoURL": "https://cheesechain.xyz"
+}, {
   "name": "Tipboxcoin Mainnet",
   "chainId": 404040,
   "shortName": "TPBXm",
