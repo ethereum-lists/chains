@@ -1,0 +1,19 @@
+{
+  "name": "Deviant Token Blockchain",
+  "chain": "DTBC",
+  "rpc": [
+    "https://rpc.devianttoken.net"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Deviant Token Blockchain",
+    "symbol": "DTBC",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://devianttoken.net",
+  "shortName": "dtbc",
+  "chainId": 52027071,
+  "networkId": 52027071,
+  }]
+}
