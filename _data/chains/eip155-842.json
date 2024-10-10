@@ -2,7 +2,7 @@
   "name": "Taraxa Testnet",
   "chain": "Tara",
   "icon": "taraxa",
-  "rpc": ["https://rpc.testnet.taraxa.io/"],
+  "rpc": ["https://rpc.testnet.taraxa.io/", "https://ws.testnet.taraxa.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Tara",
