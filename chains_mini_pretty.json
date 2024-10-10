@@ -24452,6 +24452,19 @@
   "faucets": ["https://sfuel.dirtroad.dev"],
   "infoURL": "https://calypsohub.network/"
 }, {
+  "name": "Haust Testnet",
+  "chainId": 1570754601,
+  "shortName": "hst-test",
+  "networkId": 1570754601,
+  "nativeCurrency": {
+    "name": "HAUST",
+    "symbol": "HAUST",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-test.haust.network"],
+  "faucets": ["https://haust-testnet-faucet.eu-north-2.gateway.fm"],
+  "infoURL": "https://haust.network/"
+}, {
   "name": "Harmony Mainnet Shard 0",
   "chainId": 1666600000,
   "shortName": "hmy-s0",
