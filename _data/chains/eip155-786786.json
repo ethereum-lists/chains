@@ -16,9 +16,16 @@
   "chainId": 786786,
   "networkId": 786786,
   "icon": "zebrocoin",
-  "explorers": [{
-    "name": "Zebrocoin Explorer",
-    "url": "https://explorer.zebrocoin.app",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+     "name": "Zebrocoin Explorer",
+     "url": "https://explorer.zebrocoin.app",
+     "standard": "EIP3091"
+    },
+    {
+     "name": "Zebrocoin Explorer",
+     "url": "https://explorer.zebrocoin.app",
+     "standard": "EIP3091"
+    }
+  ]
 }
