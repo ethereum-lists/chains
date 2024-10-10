@@ -1,5 +1,5 @@
 {
-  "name": "Anytron",
+  "name": "Anrytron",
   "chain": "130",
   "rpc": ["http://rpc.anryton.com"],
   "faucets": [],
@@ -10,14 +10,14 @@
   },
   "features": [],
   "infoURL": "https://anrytron.com",
-  "shortName": "Anytron",
+  "shortName": "Anrytron",
   "chainId": 130,
   "networkId": 130,
-  "icon": "MOL",
+  "icon": "anrytron",
   "explorers": [
     {
       "name": "Tracehawk",
-      "url": "https://explorer.anytron.com",
+      "url": "https://explorer.anrytron.com",
       "standard": "none"
     }
   ]
