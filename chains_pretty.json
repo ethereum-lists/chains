@@ -2640,6 +2640,21 @@
     "standard": "none"
   }]
 }, {
+  "name": "Unichain",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://unichain.org",
+  "shortName": "unichain",
+  "chainId": 130,
+  "networkId": 130,
+  "status": "incubating"
+}, {
   "name": "Engram Testnet",
   "chain": "tGRAM",
   "icon": "engram",
@@ -10827,6 +10842,29 @@
     "name": "Bobabase block explorer",
     "url": "https://blockexplorer.bobabase.boba.network",
     "standard": "none"
+  }]
+}, {
+  "name": "Unichain Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": ["https://sepolia.unichain.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://unichain.org",
+  "shortName": "unichain-sep",
+  "chainId": 1301,
+  "networkId": 1301,
+  "explorers": [{
+    "name": "Unichain Sepolia Testnet Explorer",
+    "url": "https://unichain-sepolia.blockscout.com",
+    "standard": "EIP3091"
+  }, {
+    "name": "Unichain Sepolia Testnet Explorer",
+    "url": "https://sepolia.uniscan.xyz",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Dos Fuji Subnet",
