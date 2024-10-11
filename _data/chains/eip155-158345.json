@@ -1,7 +1,9 @@
 {
   "name": "CryptoX",
   "chain": "XCOIN",
-  "rpc": ["https://rpc-xcoin.cryptoxnetwork.io"],
+  "rpc": [
+    "https://rpc-xcoin.cryptoxnetwork.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "XCOIN",
@@ -18,8 +20,8 @@
   ],
   "infoURL": "https://cryptoxnetwork.io",
   "shortName": "cryptox",
-  "chainId": 158245,
-  "networkId": 158245,
+  "chainId": 158345,
+  "networkId": 158345,
   "explorers": [
     {
       "name": "CryptoX explorer",
