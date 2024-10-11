@@ -1,9 +1,7 @@
 {
   "name": "Stenix Mainnet",
   "chain": "STEN",
-  "rpc": [
-    "https://stenix.network/pub"
-  ],
+  "rpc": ["https://stenix.network/pub"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Stenix",
@@ -16,10 +14,12 @@
   "chainId": 425,
   "networkId": 425,
   "icon": "stenix",
-  "explorers": [{
-    "name": "stenscan",
-    "url": "https://stenscan.com",
-    "icon": "stenscan",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "stenscan",
+      "url": "https://stenscan.com",
+      "icon": "stenscan",
+      "standard": "none"
+    }
+  ]
 }
