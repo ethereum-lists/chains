@@ -1,0 +1,26 @@
+{
+    "name": "Sorian Network",
+    "chain": "Sorian Chain",
+    "rpc": [
+      "https://rpc.sorian.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Sorian",
+      "symbol": "SOR",
+      "decimals": 18
+    },
+    "features": [],
+    "infoURL": "https://sorian.io",
+    "shortName": "Sorian",
+    "chainId": 210209,
+    "networkId": 210209,
+    "icon": "sorian",
+    "explorers": [{
+      "name": "Sorian Explorer",
+      "url": "https://scan.sorian.io",
+      "icon": "sorian",
+      "standard": "EIP3091"
+    }]
+  }
+  
