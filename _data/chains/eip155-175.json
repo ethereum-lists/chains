@@ -1,26 +1,23 @@
 {
-  "name": "OTC (θ)",
+  "name": "OTC",
   "chain": "OTC",
-  "rpc": [
-    "https://tes.otc.run",
-    "wss://tes.otc.run"
-  ],
+  "rpc": ["https://tes.otc.run", "wss://tes.otc.run"],
   "nativeCurrency": {
-    "name": "OTC (θ)",
+    "name": "OTC",
     "symbol": "OTC",
     "decimals": 18
   },
   "infoURL": "https://otc.run",
-  "shortName": "θ",
+  "shortName": "otc",
   "chainId": 175,
   "networkId": 175,
-  "icon": "θ",
+  "icon": "otc",
   "slip44": 511,
   "explorers": [
     {
-      "name": "OTC (θ)",
-      "url": "https://otc.run",
-      "standard": "none"
+      "name": "OTC Explorer",
+      "url": "https://explorer.otc.run",
+      "standard": "EIP3091"
     }
   ]
 }
