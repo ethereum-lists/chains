@@ -13,10 +13,7 @@
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://app.treasure.lol",
   "icon": "treasuretopaz",
-  "rpc": [
-    "https://rpc.topaz.treasure.lol",
-    "wss://rpc.topaz.treasure.lol/ws"
-  ],
+  "rpc": ["https://rpc.topaz.treasure.lol", "wss://rpc.topaz.treasure.lol/ws"],
   "faucets": [
     "https://app.treasure.lol/chain/faucet",
     "https://thirdweb.com/treasure-topaz"
@@ -34,7 +31,7 @@
     "chain": "eip155-1",
     "bridges": [
       { "url": "https://app.treasure.lol/chain/bridge" },
-      { "url": "https://portal.topaz.treasure.lol/bridge"  }
+      { "url": "https://portal.topaz.treasure.lol/bridge" }
     ]
   }
 }
