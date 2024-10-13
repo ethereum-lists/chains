@@ -9,6 +9,7 @@ buildscript {
     }
 
     dependencies {
+        // classpath "com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin:2.0.10-1.0.24"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${KOTLIN_VERSION}"
         classpath 'com.github.ben-manes:gradle-versions-plugin:0.51.0'
     }
