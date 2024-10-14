@@ -4987,9 +4987,9 @@
     "symbol": "CLO",
     "decimals": 18
   },
-  "rpc": ["https://rpc.callisto.network/"],
-  "faucets": [],
-  "infoURL": "https://callisto.network"
+  "rpc": ["https://rpc.callistodao.org"],
+  "faucets": ["https://faucet.callistodao.org"],
+  "infoURL": "https://callistodao.org"
 }, {
   "name": "Callisto Testnet Deprecated",
   "chainId": 821,
