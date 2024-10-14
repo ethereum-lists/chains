@@ -12219,6 +12219,19 @@
   "faucets": [],
   "infoURL": "https://bit-rock.io"
 }, {
+  "name": "exSat Network",
+  "chainId": 7200,
+  "shortName": "xsat",
+  "networkId": 7200,
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.exsat.network"],
+  "faucets": [],
+  "infoURL": "https://exsat.network/"
+}, {
   "name": "Nibiru Testnet-1",
   "chainId": 7210,
   "shortName": "nibiru-testnet-1",

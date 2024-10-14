@@ -19812,6 +19812,33 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "exSat Network",
+  "chain": "exSat",
+  "icon": "exsat",
+  "rpc": ["https://evm.exsat.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://exsat.network/",
+  "shortName": "xsat",
+  "chainId": 7200,
+  "networkId": 7200,
+  "explorers": [{
+    "name": "exSat Explorer",
+    "url": "https://scan.exsat.network",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": ""
+    }]
+  }
+}, {
   "name": "Nibiru Testnet-1",
   "chain": "Nibiru",
   "rpc": ["https://evm-rpc.testnet-1.nibiru.fi"],
