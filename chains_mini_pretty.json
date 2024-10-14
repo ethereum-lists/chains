@@ -20097,6 +20097,19 @@
   "faucets": [],
   "infoURL": "https://cryptoxnetwork.io"
 }, {
+  "name": "XCOIN",
+  "chainId": 158345,
+  "shortName": "xcoin",
+  "networkId": 158345,
+  "nativeCurrency": {
+    "name": "XCOIN",
+    "symbol": "XCOIN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-xcoin.cryptoxnetwork.io"],
+  "faucets": [],
+  "infoURL": "https://cryptoxnetwork.io"
+}, {
   "name": "PlayFi Mainnet",
   "chainId": 161212,
   "shortName": "playfi",
@@ -20577,6 +20590,19 @@
   "rpc": ["https://rpc.gitagi.org"],
   "faucets": [],
   "infoURL": "https://gitagi.org/"
+}, {
+  "name": "Sorian",
+  "chainId": 210209,
+  "shortName": "sorian",
+  "networkId": 210209,
+  "nativeCurrency": {
+    "name": "Sorian",
+    "symbol": "SOR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.sorian.io"],
+  "faucets": [],
+  "infoURL": "https://sorian.io"
 }, {
   "name": "PlatON Mainnet",
   "chainId": 210425,
