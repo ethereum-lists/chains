@@ -18,10 +18,5 @@
       "url": "https://blockfitscan.io",
       "standard": "none"
     }
-  ],
-  "parent": {
-   "type" : "L2",
-   "chain": "eip155-1",
-   "bridges": [ {"url":"https://bridge.arbitrum.io"} ]
-  }
+  ]
 }
