@@ -23685,6 +23685,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Deviant Token Blockchain",
+  "chainId": 52027071,
+  "shortName": "dtbc",
+  "networkId": 52027071,
+  "nativeCurrency": {
+    "name": "Deviant Token",
+    "symbol": "DTBC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.devianttoken.net"],
+  "faucets": [],
+  "infoURL": "https://devianttoken.net"
+}, {
   "name": "Fluence Testnet",
   "chainId": 52164803,
   "shortName": "fluence-testnet",
