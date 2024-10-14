@@ -1,0 +1,24 @@
+{
+  "name": "NERO Testnet",
+  "chain": "NERO Chain",
+  "rpc": ["https://rpc-testnet.nerochain.io", "wss://ws-testnet.nerochain.io"],
+  "faucets": ["https://faucet-testnet.nerochain.io"],
+  "nativeCurrency": {
+    "name": "NERO",
+    "symbol": "NERO",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.nerochain.io/",
+  "shortName": "NERO",
+  "chainId": 689,
+  "networkId": 689,
+  "slip44": 1,
+  "icon": "nero",
+  "explorers": [
+    {
+      "name": "nero testnet scan",
+      "url": "https://testnet.neroscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
