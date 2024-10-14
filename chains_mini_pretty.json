@@ -20305,6 +20305,19 @@
   "faucets": [],
   "infoURL": "https://mindnetwork.xyz"
 }, {
+  "name": "R0AR Chain",
+  "chainId": 193939,
+  "shortName": "R0AR-Chain",
+  "networkId": 193939,
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-r0ar.io"],
+  "faucets": [],
+  "infoURL": "https://r0arscan.io"
+}, {
   "name": "MAZZE Testnet",
   "chainId": 199991,
   "shortName": "MAZZE",
@@ -23216,6 +23229,19 @@
   "rpc": ["https://sepolia.optimism.io", "https://optimism-sepolia.drpc.org", "wss://optimism-sepolia.drpc.org"],
   "faucets": ["https://app.optimism.io/faucet"],
   "infoURL": "https://optimism.io"
+}, {
+  "name": "R0AR Testnet",
+  "chainId": 11166111,
+  "shortName": "R0AR-Test-Chain",
+  "networkId": 11166111,
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.rpc-r0ar.io"],
+  "faucets": ["https://testnet.r0arfaucet.io"],
+  "infoURL": "https://testnet.r0arscan.io"
 }, {
   "name": "Memento Testnet",
   "chainId": 12052024,
