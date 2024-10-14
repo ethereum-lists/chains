@@ -20500,6 +20500,19 @@
   "faucets": [],
   "infoURL": "https://www.ymtech.co.kr"
 }, {
+  "name": "Blockfit",
+  "chainId": 202424,
+  "shortName": "Blockfit",
+  "networkId": 202424,
+  "nativeCurrency": {
+    "name": "BFIT",
+    "symbol": "BFIT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.blockfitscan.io"],
+  "faucets": [],
+  "infoURL": "https://blockfit.io"
+}, {
   "name": "Jellie",
   "chainId": 202624,
   "shortName": "twl-jellie",
