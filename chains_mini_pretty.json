@@ -3808,6 +3808,19 @@
   "faucets": [],
   "infoURL": "https://publicgoods.network/"
 }, {
+  "name": "Stenix Mainnet",
+  "chainId": 425,
+  "shortName": "sten",
+  "networkId": 425,
+  "nativeCurrency": {
+    "name": "Stenix",
+    "symbol": "STEN",
+    "decimals": 18
+  },
+  "rpc": ["https://stenix.network/pub"],
+  "faucets": [],
+  "infoURL": "https://stenix.org"
+}, {
   "name": "Zeeth Chain",
   "chainId": 427,
   "shortName": "zeeth",
