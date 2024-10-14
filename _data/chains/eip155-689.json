@@ -11,14 +11,14 @@
   "infoURL": "https://docs.nerochain.io/",
   "shortName": "NERO",
   "chainId": 689,
-  "networkId": 17000,
+  "networkId": 689,
   "slip44": 1,
   "icon": "nero",
   "explorers": [
     {
       "name": "nero testnet scan",
       "url": "https://testnet.neroscan.io",
-      "standard": "none"
+      "standard": "EIP3091"
     }
   ]
 }
