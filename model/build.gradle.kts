@@ -1,5 +1,7 @@
 plugins {
+
     id("com.google.devtools.ksp") version "2.0.20-1.0.25"
+
     id("maven-publish")
 }
 
