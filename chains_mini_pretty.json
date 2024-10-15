@@ -24751,7 +24751,7 @@
   "faucets": [],
   "infoURL": "https://docs.silicon.network"
 }, {
-  "name": "Kakarot Sepolia",
+  "name": "Kakarot Sepolia (Deprecated)",
   "chainId": 1802203764,
   "shortName": "kkrt-sepolia",
   "networkId": 1802203764,
@@ -24760,7 +24760,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://sepolia-rpc.kakarot.org"],
+  "rpc": [],
   "faucets": [],
   "infoURL": "https://kakarot.org"
 }, {
@@ -25075,6 +25075,19 @@
   "rpc": ["https://godwoken-testnet-web3-v1-rpc.ckbapp.dev"],
   "faucets": ["https://homura.github.io/light-godwoken"],
   "infoURL": "https://www.nervos.org"
+}, {
+  "name": "Kakarot Starknet Sepolia",
+  "chainId": 920637907288165,
+  "shortName": "kkrt-starknet-sepolia",
+  "networkId": 920637907288165,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia-rpc.kakarot.org"],
+  "faucets": ["https://sepolia-faucet.kakarot.org/"],
+  "infoURL": "https://kakarot.org"
 }, {
   "name": "DCHAIN Testnet",
   "chainId": 2713017997578000,
