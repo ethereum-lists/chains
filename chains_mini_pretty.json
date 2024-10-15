@@ -23984,6 +23984,19 @@
   "faucets": [],
   "infoURL": "https://raas.gelato.network/rollups/details/public/polygon-blackberry"
 }, {
+  "name": "ChadChain",
+  "chainId": 97912060,
+  "shortName": "chad",
+  "networkId": 97912060,
+  "nativeCurrency": {
+    "name": "ChadChain",
+    "symbol": "CHAD",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.chadchain.org"],
+  "faucets": [],
+  "infoURL": "https://chadchain.org"
+}, {
   "name": "Joys Digital TestNet",
   "chainId": 99415706,
   "shortName": "TOYS",
