@@ -38097,6 +38097,26 @@
     "standard": "none"
   }]
 }, {
+  "name": "Lummio Network",
+  "chain": "Lummio Network",
+  "rpc": ["https://rpc.lummio.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lummio Reward Points",
+    "symbol": "LRPO",
+    "decimals": 18
+  },
+  "infoURL": "https://lummio.net",
+  "shortName": "lummio",
+  "chainId": 12020498,
+  "networkId": 12020498,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout.lummio.net",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Memento Testnet",
   "chain": "Memento",
   "rpc": ["https://test-rpc.mementoblockchain.com/IRkghvI3FfEArEJMr4zC/rpc"],

@@ -23308,6 +23308,19 @@
   "faucets": ["https://testnet.r0arfaucet.io"],
   "infoURL": "https://testnet.r0arscan.io"
 }, {
+  "name": "Lummio Network",
+  "chainId": 12020498,
+  "shortName": "lummio",
+  "networkId": 12020498,
+  "nativeCurrency": {
+    "name": "Lummio Reward Points",
+    "symbol": "LRPO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.lummio.net"],
+  "faucets": [],
+  "infoURL": "https://lummio.net"
+}, {
   "name": "Memento Testnet",
   "chainId": 12052024,
   "shortName": "memento-test",
