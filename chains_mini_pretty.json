@@ -20630,6 +20630,19 @@
   "faucets": [],
   "infoURL": "https://sorian.io"
 }, {
+  "name": "Sorian Testnet",
+  "chainId": 210210,
+  "shortName": "sorianTestnet",
+  "networkId": 210210,
+  "nativeCurrency": {
+    "name": "Sorian Testnet",
+    "symbol": "tSOR",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.sorian.io", "https://testnet.rpc.sorian.io"],
+  "faucets": [],
+  "infoURL": "https://mint.sorian.io"
+}, {
   "name": "PlatON Mainnet",
   "chainId": 210425,
   "shortName": "platon",
