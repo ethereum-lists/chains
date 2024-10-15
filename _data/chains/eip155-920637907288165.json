@@ -1,18 +1,18 @@
 {
-  "name": "Kakarot Sepolia (Deprecated)",
+  "name": "Kakarot Starknet Sepolia",
   "chain": "ETH",
   "icon": "kakarot",
-  "rpc": [],
-  "faucets": [],
+  "rpc": ["https://sepolia-rpc.kakarot.org"],
+  "faucets": ["https://sepolia-faucet.kakarot.org/"],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
   "infoURL": "https://kakarot.org",
-  "shortName": "kkrt-sepolia",
-  "chainId": 1802203764,
-  "networkId": 1802203764,
+  "shortName": "kkrt-starknet-sepolia",
+  "chainId": 920637907288165,
+  "networkId": 920637907288165,
   "explorers": [
     {
       "name": "Kakarot Scan",
