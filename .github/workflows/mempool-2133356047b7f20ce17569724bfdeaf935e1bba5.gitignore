@@ -1,0 +1,9 @@
+sitemap
+data
+docker-compose.yml
+backend/mempool-config.json
+*.swp
+frontend/src/resources/config.template.js
+frontend/src/resources/config.js
+target
+docker/backend/start_ci.sh
