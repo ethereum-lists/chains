@@ -5329,6 +5329,19 @@
   "faucets": [],
   "infoURL": "https://yidarkscan.com"
 }, {
+  "name": "Haust Mainnet",
+  "chainId": 938,
+  "shortName": "haust",
+  "networkId": 938,
+  "nativeCurrency": {
+    "name": "HAUST",
+    "symbol": "HAUST",
+    "decimals": 18
+  },
+  "rpc": ["https://haust-network-rpc.eu-north-2.gateway.fm"],
+  "faucets": [],
+  "infoURL": "https://haust.network/"
+}, {
   "name": "PulseChain Testnet",
   "chainId": 940,
   "shortName": "tpls",
