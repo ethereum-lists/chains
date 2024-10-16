@@ -3,6 +3,7 @@
   "title": "Haust Mainnet",
   "chain": "Haust",
   "rpc": ["https://haust-network-rpc.eu-north-2.gateway.fm"],
+  "faucets": [],
   "features": [{ "name": "EIP155" }],
   "nativeCurrency": {
     "name": "HAUST",
