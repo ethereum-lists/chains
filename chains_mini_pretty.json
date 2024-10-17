@@ -15027,6 +15027,19 @@
   "faucets": [],
   "infoURL": "https://kronobit.org"
 }, {
+  "name": "Game7 Testnet",
+  "chainId": 13746,
+  "shortName": "g7t",
+  "networkId": 13746,
+  "nativeCurrency": {
+    "name": "TG7T",
+    "symbol": "TG7T",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.game7.io", "wss://testnet-rpc.game7.io"],
+  "faucets": [],
+  "infoURL": "https://game7.io"
+}, {
   "name": "Susono",
   "chainId": 13812,
   "shortName": "sus",
