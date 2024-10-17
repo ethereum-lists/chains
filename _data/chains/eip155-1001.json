@@ -5,7 +5,7 @@
   "faucets": ["https://faucet.kaia.io"],
   "nativeCurrency": {
     "name": "KAIA",
-    "symbol": "KLAY",
+    "symbol": "KAIA",
     "decimals": 18
   },
   "infoURL": "https://kaia.io/",
@@ -15,13 +15,13 @@
   "slip44": 1,
   "explorers": [
     {
-      "name": "Klaytnscope",
-      "url": "https://baobab.klaytnscope.com",
+      "name": "Kaiascope",
+      "url": "https://kairos.kaiascope.com",
       "standard": "EIP3091"
     },
     {
-      "name": "Klaytnfinder",
-      "url": "https://baobab.klaytnfinder.io",
+      "name": "Kaiascan",
+      "url": "https://kairos.kaiascan.io",
       "standard": "EIP3091"
     }
   ]
