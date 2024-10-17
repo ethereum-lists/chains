@@ -1,6 +1,7 @@
 {
   "name": "Moonbase Alpha",
   "chain": "MOON",
+  "icon": "moonbasealpha",
   "rpc": [
     "https://rpc.api.moonbase.moonbeam.network",
     "wss://wss.api.moonbase.moonbeam.network",
@@ -15,7 +16,7 @@
     "https://moonbase-alpha.drpc.org",
     "wss://moonbase-alpha.drpc.org"
   ],
-  "faucets": [],
+  "faucets": ["https://faucet.moonbeam.network/"],
   "nativeCurrency": {
     "name": "Dev",
     "symbol": "DEV",
