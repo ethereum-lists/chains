@@ -9209,7 +9209,7 @@
   "faucets": ["https://faucet.kaia.io"],
   "nativeCurrency": {
     "name": "KAIA",
-    "symbol": "KLAY",
+    "symbol": "KAIA",
     "decimals": 18
   },
   "infoURL": "https://kaia.io/",
@@ -9218,12 +9218,12 @@
   "networkId": 1001,
   "slip44": 1,
   "explorers": [{
-    "name": "Klaytnscope",
-    "url": "https://baobab.klaytnscope.com",
+    "name": "Kaiascope",
+    "url": "https://kairos.kaiascope.com",
     "standard": "EIP3091"
   }, {
-    "name": "Klaytnfinder",
-    "url": "https://baobab.klaytnfinder.io",
+    "name": "Kaiascan",
+    "url": "https://kairos.kaiascan.io",
     "standard": "EIP3091"
   }]
 }, {
@@ -21038,7 +21038,7 @@
   "faucets": [],
   "nativeCurrency": {
     "name": "KAIA",
-    "symbol": "KLAY",
+    "symbol": "KAIA",
     "decimals": 18
   },
   "infoURL": "https://kaia.io",
@@ -21047,12 +21047,12 @@
   "networkId": 8217,
   "slip44": 8217,
   "explorers": [{
-    "name": "Klaytnscope",
-    "url": "https://scope.klaytn.com",
+    "name": "Kaiascope",
+    "url": "https://kaiascope.com",
     "standard": "EIP3091"
   }, {
-    "name": "Klaytnfinder",
-    "url": "https://klaytnfinder.io",
+    "name": "Kaiascan",
+    "url": "https://kaiascan.io",
     "standard": "EIP3091"
   }]
 }, {
