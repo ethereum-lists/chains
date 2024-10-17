@@ -1,6 +1,6 @@
 {
-  "name": "Astra Network testnet",
-  "chain": "Astra Network",
+  "name": "Astra Sepolia",
+  "chain": "Astra Sepolia",
   "icon": "atxnetwork",
   "rpc": ["https://rpc-astra-9on2f72wzn.t.conduit.xyz"],
   "faucets": [],
@@ -16,7 +16,7 @@
   "slip44": 1,
   "explorers": [
     {
-      "name": "Astra Network Testnet Explorer",
+      "name": "Astra Sepolia Explorer",
       "url": "https://explorer-astra-9on2f72wzn.t.conduit.xyz",
       "standard": "EIP3091"
     }
