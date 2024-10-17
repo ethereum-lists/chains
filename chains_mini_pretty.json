@@ -18121,6 +18121,19 @@
   "faucets": [],
   "infoURL": "https://optopia.ai"
 }, {
+  "name": "TikTrix Testnet",
+  "chainId": 62092,
+  "shortName": "tiktrix-testnet",
+  "networkId": 62092,
+  "nativeCurrency": {
+    "name": "tTTX",
+    "symbol": "tTTX",
+    "decimals": 18
+  },
+  "rpc": ["https://tiktrix-rpc.xyz"],
+  "faucets": [],
+  "infoURL": "https://tiktrix.gg"
+}, {
   "name": "Citrea Devnet",
   "chainId": 62298,
   "shortName": "citrea-devnet",
