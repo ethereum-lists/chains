@@ -8878,6 +8878,19 @@
   "faucets": [],
   "infoURL": "https://animechain.ai"
 }, {
+  "name": "Game7",
+  "chainId": 2187,
+  "shortName": "g7",
+  "networkId": 2187,
+  "nativeCurrency": {
+    "name": "G7",
+    "symbol": "G7",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.game7.io", "wss://mainnet-rpc.game7.io"],
+  "faucets": [],
+  "infoURL": "https://game7.io/"
+}, {
   "name": "SnaxChain",
   "chainId": 2192,
   "shortName": "snax",
