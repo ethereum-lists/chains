@@ -1,0 +1,24 @@
+{
+  "name": "Astra Testnet",
+  "chain": "ATX",
+  "icon": "astratoken",
+  "rpc": ["https://rpc-astra-9on2f72wzn.t.conduit.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Astra",
+    "symbol": "ATX",
+    "decimals": 18
+  },
+  "infoURL": "https://explorer-astra-9on2f72wzn.t.conduit.xyz",
+  "shortName": "ATX",
+  "chainId": 19777,
+  "networkId": 19777,
+  "explorers": [
+    {
+      "name": "ATX Testnet Explorer",
+      "url": "https://explorer-astra-9on2f72wzn.t.conduit.xyz",
+      "icon": "astratoken",
+      "standard": "EIP3091"
+    }
+  ]
+}
