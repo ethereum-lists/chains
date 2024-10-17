@@ -22307,6 +22307,19 @@
   "faucets": ["https://faucet.posichain.org/"],
   "infoURL": "https://posichain.org"
 }, {
+  "name": "Odyssey Testnet",
+  "chainId": 911867,
+  "shortName": "odyssey-testnet",
+  "networkId": 911867,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://odyssey.ithaca.xyz"],
+  "faucets": [],
+  "infoURL": "https://ithaca.xyz"
+}, {
   "name": "Astria EVM Dusknet",
   "chainId": 912559,
   "shortName": "ria-dev",
