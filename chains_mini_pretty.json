@@ -15742,6 +15742,19 @@
   "faucets": [],
   "infoURL": "https://lbry.com"
 }, {
+  "name": "Astra Sepolia",
+  "chainId": 19777,
+  "shortName": "astra-sepolia",
+  "networkId": 19777,
+  "nativeCurrency": {
+    "name": "Astra",
+    "symbol": "ATX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-astra-9on2f72wzn.t.conduit.xyz"],
+  "faucets": [],
+  "infoURL": "https://explorer-astra-9on2f72wzn.t.conduit.xyz"
+}, {
   "name": "BTCIX Network",
   "chainId": 19845,
   "shortName": "btcix",
