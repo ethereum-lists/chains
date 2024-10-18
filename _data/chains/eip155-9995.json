@@ -1,0 +1,30 @@
+{
+  "name": "Avenium Mainnet",
+  "chain": "AVE",
+  "rpc": [
+    "https://core-mainnet.avenium.io",
+    "https://core-mainnet-sg.avenium.io",
+    "https://core-mainnet-eu.avenium.io",
+    "https://core-mainnet-us.avenium.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ave Native Token",
+    "symbol": "AVE",
+    "decimals": 18
+  },
+  "infoURL": "https://avenium.io",
+  "shortName": "ave",
+  "chainId": 9995,
+  "networkId": 9995,
+  "icon": "avenium",
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "Avenium Explorer Mainnet",
+      "icon": "avenium",
+      "url": "https://avescan.net",
+      "standard": "EIP3091"
+    }
+  ]
+}
