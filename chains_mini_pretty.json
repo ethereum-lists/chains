@@ -21111,6 +21111,19 @@
   "faucets": ["https://faucet.bloomgenesis.com"],
   "infoURL": "https://www.bloomgenesis.com"
 }, {
+  "name": "Camp Network Testnet V2",
+  "chainId": 325000,
+  "shortName": "CampV2",
+  "networkId": 325000,
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-campnetwork.xyz"],
+  "faucets": ["https://www.campnetwork.xyz/faucet"],
+  "infoURL": "https://docs.campnetwork.xyz/"
+}, {
   "name": "WABA Chain Testnet",
   "chainId": 327126,
   "shortName": "waba",
