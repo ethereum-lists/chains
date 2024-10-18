@@ -12,9 +12,11 @@
   "shortName": "tabitestv2",
   "chainId": 9788,
   "networkId": 9788,
+  "icon": "tabitestv2",
   "explorers": [
     {
       "name": "Tabi Testnet V2 Explorer",
+      "icon": "tabitestv2scan",
       "url": "https://testnetv2.tabiscan.com",
       "standard": "none"
     }
