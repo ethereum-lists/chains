@@ -12245,12 +12245,12 @@
   "faucets": [],
   "infoURL": "https://bit-rock.io"
 }, {
-  "name": "exSat Network",
+  "name": "exSat Mainnet",
   "chainId": 7200,
   "shortName": "xsat",
   "networkId": 7200,
   "nativeCurrency": {
-    "name": "BTC",
+    "name": "Bitcoin",
     "symbol": "BTC",
     "decimals": 18
   },
@@ -22267,6 +22267,19 @@
   "rpc": ["https://testnet-rpc.prmscan.org"],
   "faucets": ["https://faucet.prmscan.org"],
   "infoURL": "https://primalnetwork.org"
+}, {
+  "name": "exSat Testnet",
+  "chainId": 839999,
+  "shortName": "txsat",
+  "networkId": 839999,
+  "nativeCurrency": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-tst3.exsat.network"],
+  "faucets": [],
+  "infoURL": "https://exsat.network/"
 }, {
   "name": "RUNEVM Testnet",
   "chainId": 840000,
