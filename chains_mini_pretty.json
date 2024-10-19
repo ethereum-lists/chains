@@ -22138,6 +22138,19 @@
   "faucets": [],
   "infoURL": "https://www.rmrk.app/"
 }, {
+  "name": "Zebro Smart Chain",
+  "chainId": 786786,
+  "shortName": "zebro",
+  "networkId": 786786,
+  "nativeCurrency": {
+    "name": "Zebrocoin",
+    "symbol": "ZEBRO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zebrocoin.app", "https://rpc1.zebrocoin.app"],
+  "faucets": [],
+  "infoURL": "https://zebrocoin.app"
+}, {
   "name": "OctaSpace",
   "chainId": 800001,
   "shortName": "octa",
