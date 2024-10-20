@@ -1,31 +1,23 @@
 {
-  "name": "Taycan Testnet",
-  "chain": "Taycan",
-  "rpc": ["https://test-taycan.hupayx.io"],
-  "faucets": ["https://ttaycan-faucet.hupayx.io/"],
+  "name": "Bharat Block Chain",
+  "chain": "BharatBlockChain",
+  "rpc": ["https://mainnet.bharatscan.io"],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "test-Shuffle",
-    "symbol": "tSFL",
+    "name": "BharatBlockChain",
+    "symbol": "BBC",
     "decimals": 18
   },
-  "infoURL": "https://hupayx.io",
-  "shortName": "taycan-testnet",
+  "infoURL": "https://bharatscan.com/",
+  "shortName": "BBC",
   "chainId": 2023,
   "networkId": 2023,
-  "slip44": 1,
-  "icon": "shuffle",
+  "slip44": 2023,
   "explorers": [
     {
-      "name": "Taycan Explorer(Blockscout)",
-      "url": "https://evmscan-test.hupayx.io",
-      "standard": "none",
-      "icon": "shuffle"
-    },
-    {
-      "name": "Taycan Cosmos Explorer",
-      "url": "https://cosmoscan-test.hupayx.io",
-      "standard": "none",
-      "icon": "shuffle"
+      "name": "BharatBlockChain",
+      "url": "https://bharatscan.com",
+      "standard": "EIP3091"
     }
   ]
 }
