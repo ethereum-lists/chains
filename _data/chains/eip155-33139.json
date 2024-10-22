@@ -1,0 +1,20 @@
+{
+  "name": "ApeChain",
+  "chain": "ApeChain",
+  "shortName": "ape",
+  "rpc": ["https://apechain.calderachain.xyz/http"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ApeCoin",
+    "symbol": "APE",
+    "decimals": 18
+  },
+  "infoURL": "https://apechain.com/",
+  "chainId": 33139,
+  "networkId": 33139,
+  "explorers": [
+    {
+      "url": "https://apescan.io/"
+    }
+  ]
+}
