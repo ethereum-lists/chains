@@ -1,7 +1,14 @@
 {
   "name": "Lycan Chain",
   "chain": "LYC",
-  "rpc": ["https://rpc.lycanchain.com/"],
+  "rpc": [
+    "https://rpc.lycanchain.com/",
+    "https://us-east.lycanchain.com",
+    "https://us-west.lycanchain.com",
+    "https://eu-north.lycanchain.com",
+    "https://eu-west.lycanchain.com",
+    "https://asia-southeast.lycanchain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Lycan",
