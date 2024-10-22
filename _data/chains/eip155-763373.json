@@ -1,0 +1,15 @@
+{
+  "name": "Inkon Sepolia",
+  "chain": "Inkon Sepolia",
+  "rpc": ["https://rpc-gel-sepolia.inkonchain.com"],
+  "chainId": 763373,
+  "networkId": 763373,
+  "shortName": "inkon-sepolia",
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "explorers": [],
+  "faucets": []
+}
