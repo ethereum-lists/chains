@@ -1,21 +1,23 @@
 {
-  "name": "Story Testnet",
-  "chain": "Story Testnet",
+  "name": "Story Iliad Testnet",
+  "chain": "ETH",
   "rpc": ["https://testnet.storyrpc.io"],
-  "faucets": ["https://faucet.story.foundation"],
-  "chainId": 1513,
-  "networkId": 1513,
+  "faucets": [],
   "nativeCurrency": {
-    "name": "IP",
+    "name": "Iliad IP Token",
     "symbol": "IP",
     "decimals": 18
   },
-  "infoURL": "https://www.story.foundation",
-  "shortName": "Story",
+  "infoURL": "https://story.foundation",
+  "shortName": "ip",
+  "chainId": 1513,
+  "networkId": 1513,
+  "icon": "story",
   "explorers": [
     {
-      "name": "Story Iliad Network explorer",
+      "name": "Story Iliad Explorer",
       "url": "https://testnet.storyscan.xyz",
+      "icon": "story",
       "standard": "EIP3091"
     }
   ]
