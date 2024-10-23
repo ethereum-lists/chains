@@ -11088,6 +11088,19 @@
   "faucets": [],
   "infoURL": "https://www.ongr.org/"
 }, {
+  "name": "Skate Mainnet",
+  "chainId": 5050,
+  "shortName": "skate",
+  "networkId": 5050,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.skatechain.org/"],
+  "faucets": [],
+  "infoURL": "https://www.skatechain.org/"
+}, {
   "name": "Nollie Skatechain Testnet",
   "chainId": 5051,
   "shortName": "nollie-testnet",
