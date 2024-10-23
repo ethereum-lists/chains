@@ -1,16 +1,16 @@
 {
-  "name": "DSC Scan",
-  "chain": "DSCs",
+  "name": "DSC Smart Chain",
+  "chain": "DSC",
   "icon": "dscscan",
   "rpc": ["https://rpc01.dscscan.io"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "DSC Scan",
-    "symbol": "DSCs",
+    "name": "DSC Smart Chain",
+    "symbol": "DSC",
     "decimals": 18
   },
   "infoURL": "https://rpc01.dscscan.io",
-  "shortName": "DSCs",
+  "shortName": "DSC",
   "chainId": 1555,
   "networkId": 1555,
   "explorers": [
