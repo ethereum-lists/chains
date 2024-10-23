@@ -1,21 +1,21 @@
 {
-  "name": "DSC Smart Chain",
-  "chain": "DSC Smart Chain",
+  "name": "Digital Smart Chain",
+  "chain": "Digital Smart Chain",
   "icon": "dscscan",
   "rpc": ["https://rpc01.dscscan.io"],
   "faucets": ["https://faucet.dsclab.ai/"],
   "nativeCurrency": {
-    "name": "DSC Smart Chain",
+    "name": "Digital Smart Chain",
     "symbol": "DSC",
     "decimals": 18
   },
   "infoURL": "https://rpc01.dscscan.io",
-  "shortName": "DSC",
+  "shortName": "DSCs",
   "chainId": 1555,
   "networkId": 1555,
   "explorers": [
     {
-      "name": "DSC Smart Chain",
+      "name": "Digital Smart Chain",
       "url": "https://dsclab.ai",
       "standard": "EIP3091"
     }
