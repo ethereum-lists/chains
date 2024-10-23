@@ -4,10 +4,7 @@
   "icon": "zeniq",
   "rpc": ["https://api.zeniq.network"],
   "features": [{ "name": "EIP155" }],
-  "faucets": [
-    "https://faucet.nomo.zone/",
-    "https://faucet.zeniq.net/"
-  ],
+  "faucets": ["https://faucet.nomo.zone/", "https://faucet.zeniq.net/"],
   "nativeCurrency": {
     "name": "Zeniq",
     "symbol": "ZENIQ",
