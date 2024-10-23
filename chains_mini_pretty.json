@@ -14182,6 +14182,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "AEON Chain",
+  "chainId": 10025,
+  "shortName": "aeon",
+  "networkId": 10025,
+  "nativeCurrency": {
+    "name": "AEON Token",
+    "symbol": "AEON",
+    "decimals": 18
+  },
+  "rpc": ["https://node.aeon.xyz/rpc"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Japan Open Chain Testnet",
   "chainId": 10081,
   "shortName": "joct",
