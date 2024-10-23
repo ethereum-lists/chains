@@ -9580,6 +9580,19 @@
   "faucets": ["https://morphfaucet.com/"],
   "infoURL": "https://morphl2.io"
 }, {
+  "name": "Morph",
+  "chainId": 2818,
+  "shortName": "morph",
+  "networkId": 2818,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.morphl2.io", "wss://rpc.morphl2.io:8443"],
+  "faucets": [],
+  "infoURL": "https://morphl2.io"
+}, {
   "name": "HyperAGI Mainnet",
   "chainId": 2868,
   "shortName": "hypt",
