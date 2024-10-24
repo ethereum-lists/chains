@@ -1,0 +1,23 @@
+{
+  "name": "Sophon",
+  "chain": "Sophon",
+  "rpc": ["https://rpc.sophon.xyz"],
+  "nativeCurrency": {
+    "name": "Sophon",
+    "symbol": "SOPH",
+    "decimals": 18
+  },
+  "faucets": [],
+  "infoURL": "",
+  "shortName": "sophon",
+  "chainId": 50104,
+  "networkId": 50104,
+  "explorers": [
+    {
+      "name": "Sophon Block Explorer",
+      "url": "https://explorer.sophon.xyz",
+      "icon": "sophon-testnet",
+      "standard": "none"
+    }
+  ]
+}
