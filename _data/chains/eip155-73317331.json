@@ -1,27 +1,27 @@
 {
-  "name": "Klyntar Mainnet",
+  "name": "Klyntar Testnet",
   "chain": "KLY",
   "rpc": [
-    "https://rpc0.klyntarscan.org/kly_evm_rpc/shard_0",
-    "https://rpc1.klyntarscan.org/kly_evm_rpc/shard_0"
+    "https://rpc0.testnet.klyntarscan.org/kly_evm_rpc/shard_0",
+    "https://rpc1.testnet.klyntarscan.org/kly_evm_rpc/shard_0"
   ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Klyntar",
-    "symbol": "KLY",
+    "symbol": "tKLY",
     "decimals": 18
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://klyntar.org",
-  "shortName": "kly",
-  "chainId": 7331,
-  "networkId": 7331,
+  "shortName": "klyntar-test",
+  "chainId": 73317331,
+  "networkId": 73317331,
   "icon": "klyntar",
   "status": "incubating",
   "explorers": [
     {
       "name": "klyntarscan",
-      "url": "https://klyntarscan.org",
+      "url": "https://testnet.klyntarscan.org",
       "icon": "klyntarscan",
       "standard": "EIP3091"
     }
