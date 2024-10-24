@@ -22,9 +22,9 @@
     "type": "L2",
     "chain": "eip155-1",
     "bridges": [
-      { "url": "https://world-chain.superbridge.app/" },
+      { "url": "https://world-chain.superbridge.app" },
       { "url": "https://app.across.to/bridge?destinationChainId=480" },
-      { "url": "https://worldchain-mainnet.bridge.alchemy.com/" }
+      { "url": "https://worldchain-mainnet.bridge.alchemy.com" }
     ]
   },
   "explorers": [
@@ -35,7 +35,7 @@
     },
     {
       "name": "blockscout",
-      "url": "https://worldchain-mainnet.explorer.alchemy.com/",
+      "url": "https://worldchain-mainnet.explorer.alchemy.com",
       "icon": "blockscout",
       "standard": "EIP3091"
     }

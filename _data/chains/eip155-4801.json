@@ -24,7 +24,7 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://worldchain-sepolia.bridge.alchemy.com/" }]
+    "bridges": [{ "url": "https://worldchain-sepolia.bridge.alchemy.com" }]
   },
   "explorers": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "name": "blockscout",
-      "url": "https://worldchain-sepolia.explorer.alchemy.com/",
+      "url": "https://worldchain-sepolia.explorer.alchemy.com",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
