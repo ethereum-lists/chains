@@ -17614,6 +17614,19 @@
   "faucets": [],
   "infoURL": "https://gton.capital"
 }, {
+  "name": "Sophon",
+  "chainId": 50104,
+  "shortName": "sophon",
+  "networkId": 50104,
+  "nativeCurrency": {
+    "name": "Sophon",
+    "symbol": "SOPH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.sophon.xyz"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Erbie Mainnet",
   "chainId": 50888,
   "shortName": "Erbie",
