@@ -15911,6 +15911,19 @@
   "faucets": ["https://play.google.com/store/apps/details?id=net.c4ei.fps2"],
   "infoURL": "https://c4ei.net"
 }, {
+  "name": "Rivest Testnet",
+  "chainId": 21097,
+  "shortName": "rivest-testnet",
+  "networkId": 21097,
+  "nativeCurrency": {
+    "name": "test-Inco",
+    "symbol": "tINCO",
+    "decimals": 18
+  },
+  "rpc": ["https://validator.rivest.inco.org", "https://gateway.rivest.inco.org"],
+  "faucets": ["https://faucet.rivest.inco.org"],
+  "infoURL": "https://inco.org"
+}, {
   "name": "All About Healthy",
   "chainId": 21133,
   "shortName": "aah",
