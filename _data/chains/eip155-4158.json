@@ -1,0 +1,23 @@
+{
+  "name": "CrossFi Mainnet",
+  "chain": "XFI",
+  "rpc": ["https://rpc.mainnet.ms/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CrossFi Token",
+    "symbol": "XFI",
+    "decimals": 18
+  },
+  "infoURL": "https://crossfi.org",
+  "shortName": "XFI",
+  "chainId": 4158,
+  "networkId": 4158,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "xfiscan",
+      "url": "https://xfiscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
