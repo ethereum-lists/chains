@@ -25254,8 +25254,8 @@
     "symbol": "ZENIQ",
     "decimals": 18
   },
-  "rpc": ["https://smart.zeniq.network:9545"],
-  "faucets": ["https://faucet.zeniq.net/"],
+  "rpc": ["https://api.zeniq.network"],
+  "faucets": ["https://faucet.nomo.zone/", "https://faucet.zeniq.net/"],
   "infoURL": "https://www.zeniq.dev/"
 }, {
   "name": "PDC Mainnet",
