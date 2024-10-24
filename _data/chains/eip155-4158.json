@@ -1,7 +1,7 @@
 {
   "name": "CrossFi Mainnet",
   "icon": "crossfi",
-  "chain": "crossfi-mainnet",
+  "chain": "crossfi",
   "rpc": ["https://rpc.mainnet.ms/"],
   "faucets": [],
   "nativeCurrency": {
@@ -10,7 +10,7 @@
     "decimals": 18
   },
   "infoURL": "https://crossfi.org",
-  "shortName": "crossfi-mainnet",
+  "shortName": "crossfi",
   "chainId": 4158,
   "networkId": 4158,
   "slip44": 1,
