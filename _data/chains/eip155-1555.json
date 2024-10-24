@@ -3,7 +3,7 @@
   "chain": "Digital Smart Chain",
   "icon": "dscscan",
   "rpc": ["https://rpc01.dscscan.io"],
-  "faucets": ["https://faucet.dsclab.ai/"],
+  "faucets": ["https://faucets.chain.link/bnb-chain-testnet"],
   "nativeCurrency": {
     "name": "Digital Smart Chain",
     "symbol": "DSC",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "Digital Smart Chain",
-      "url": "https://exdsc.org/",
+      "url": "https://exdsc.org",
       "standard": "EIP3091"
     }
   ]
