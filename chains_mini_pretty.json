@@ -3934,9 +3934,9 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://worldchain-mainnet.g.alchemy.com/public"],
+  "rpc": ["https://worldchain-mainnet.g.alchemy.com/public", "https://480.rpc.thirdweb.com", "https://worldchain-mainnet.gateway.tenderly.co", "wss://worldchain-mainnet.gateway.tenderly.co"],
   "faucets": [],
-  "infoURL": "https://worldcoin.org"
+  "infoURL": "https://world.org/world-chain"
 }, {
   "name": "Rupaya",
   "chainId": 499,
@@ -10967,9 +10967,9 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://worldchain-sepolia.g.alchemy.com/public"],
-  "faucets": [],
-  "infoURL": "https://worldcoin.org/"
+  "rpc": ["https://worldchain-sepolia.g.alchemy.com/public", "https://4801.rpc.thirdweb.com", "https://worldchain-sepolia.gateway.tenderly.co", "wss://worldchain-sepolia.gateway.tenderly.co"],
+  "faucets": ["https://www.alchemy.com/faucets/world-chain-sepolia", "https://console.optimism.io/faucet"],
+  "infoURL": "https://world.org/world-chain"
 }, {
   "name": "Globel Chain",
   "chainId": 4893,
