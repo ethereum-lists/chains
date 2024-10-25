@@ -1,0 +1,23 @@
+{
+  "name": "Dynasty Chain",
+  "chain": "Dynasty Chain",
+  "icon": "aeon",
+  "rpc": ["https://mainnet-rpc.dnyscan.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Wrapped Dinasty",
+    "symbol": "DNY",
+    "decimals": 18
+  },
+  "infoURL": "https://dynastycoin.io/",
+  "shortName": "dny",
+  "chainId": 701322,
+  "networkId": 701322,
+  "explorers": [
+    {
+      "name": "Dynasty Explorer",
+      "url": "https://dnyscan.io/",
+      "standard": "none"
+    }
+  ]
+}
