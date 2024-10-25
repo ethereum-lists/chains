@@ -7279,6 +7279,19 @@
   "faucets": ["https://faucet.beagle.chat/"],
   "infoURL": "https://beagle.chat/"
 }, {
+  "name": "Story Odyssey Testnet",
+  "chainId": 1516,
+  "shortName": "story-testnet",
+  "networkId": 1516,
+  "nativeCurrency": {
+    "name": "IP",
+    "symbol": "IP",
+    "decimals": 18
+  },
+  "rpc": ["https://odyssey.storyrpc.io"],
+  "faucets": [],
+  "infoURL": "https://www.story.foundation"
+}, {
   "name": "Digital Smart Chain",
   "chainId": 1555,
   "shortName": "DSCs",
