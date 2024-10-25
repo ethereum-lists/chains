@@ -16860,6 +16860,19 @@
   "faucets": [],
   "infoURL": "https://www.entangle.fi"
 }, {
+  "name": "ApeChain",
+  "chainId": 33139,
+  "shortName": "apechain",
+  "networkId": 33139,
+  "nativeCurrency": {
+    "name": "ApeCoin",
+    "symbol": "APE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.apechain.com"],
+  "faucets": [],
+  "infoURL": "https://apechain.com"
+}, {
   "name": "Cloudverse Subnet",
   "chainId": 33210,
   "shortName": "cloudverse",

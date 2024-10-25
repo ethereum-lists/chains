@@ -27431,6 +27431,26 @@
   "networkId": 33133,
   "explorers": []
 }, {
+  "name": "ApeChain",
+  "chain": "apechain",
+  "rpc": ["https://rpc.apechain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ApeCoin",
+    "symbol": "APE",
+    "decimals": 18
+  },
+  "infoURL": "https://apechain.com",
+  "shortName": "apechain",
+  "chainId": 33139,
+  "networkId": 33139,
+  "icon": "apechain",
+  "explorers": [{
+    "name": "ApeChain Explorer",
+    "url": "https://apescan.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Cloudverse Subnet",
   "chain": "CLOUDVERSE",
   "rpc": ["https://subnets.avax.network/cloudverse/mainnet/rpc"],
