@@ -1,7 +1,7 @@
 {
   "name": "Deprecated Cronos zkEVM Testnet",
   "chain": "CronosZkEVMTestnet",
-  "rpc": ["https://testnet.zkevm.cronos.org"],
+  "rpc": ["https://deprecated.testnet.zkevm.cronos.org"],
   "faucets": ["https://zkevm.cronos.org/faucet"],
   "nativeCurrency": {
     "name": "Cronos zkEVM Test Coin",
