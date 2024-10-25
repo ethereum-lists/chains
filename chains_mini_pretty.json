@@ -12258,6 +12258,19 @@
   "faucets": [],
   "infoURL": "https://numecrypto.com"
 }, {
+  "name": "0XL3",
+  "chainId": 7117,
+  "shortName": "0xl3",
+  "networkId": 7117,
+  "nativeCurrency": {
+    "name": "XL3",
+    "symbol": "XL3",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.0xl3.com"],
+  "faucets": [],
+  "infoURL": "https://0xl3.com"
+}, {
   "name": "Help The Homeless",
   "chainId": 7118,
   "shortName": "hth",
