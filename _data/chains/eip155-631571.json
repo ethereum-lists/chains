@@ -1,7 +1,7 @@
 {
   "name": "Polter Testnet",
   "chain": "Geist",
-  "rpc": [],
+  "rpc": ["https://geist-polter.g.alchemy.com/public"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Polter GHST",
@@ -15,5 +15,11 @@
   "networkId": 631571,
   "status": "incubating",
   "icon": "polterGeist",
-  "explorers": []
+  "explorers": [
+    {
+      "name": "Polter Testnet Explorer",
+      "url": "https://polter-testnet.explorer.alchemy.com",
+      "standard": "EIP3091"
+    }
+  ]
 }
