@@ -7279,6 +7279,19 @@
   "faucets": ["https://faucet.beagle.chat/"],
   "infoURL": "https://beagle.chat/"
 }, {
+  "name": "Digital Smart Chain",
+  "chainId": 1555,
+  "shortName": "DSCs",
+  "networkId": 1555,
+  "nativeCurrency": {
+    "name": "Digital Smart Chain",
+    "symbol": "DSCs",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc01.dscscan.io"],
+  "faucets": [],
+  "infoURL": "https://rpc01.dscscan.io"
+}, {
   "name": "Tenet",
   "chainId": 1559,
   "shortName": "tenet",
