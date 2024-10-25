@@ -25050,6 +25050,19 @@
   "faucets": ["https://ruby.exchange/faucet.html", "https://sfuel.mylilius.com/"],
   "infoURL": "https://europahub.network/"
 }, {
+  "name": "Accumulate Kermit",
+  "chainId": 2478899481,
+  "shortName": "Kermit",
+  "networkId": 2478899481,
+  "nativeCurrency": {
+    "name": "ACME",
+    "symbol": "ACME",
+    "decimals": 18
+  },
+  "rpc": ["https://kermit.accumulatenetwork.io/eth"],
+  "faucets": ["https://kermit.explorer.accumulatenetwork.io/faucet"],
+  "infoURL": "https://accumulate.org"
+}, {
   "name": "Ancient8 Testnet (deprecated)",
   "chainId": 2863311531,
   "shortName": "a8old",
