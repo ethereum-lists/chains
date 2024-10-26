@@ -23867,6 +23867,19 @@
   "faucets": [],
   "infoURL": "https://xlon.org"
 }, {
+  "name": "XMTP",
+  "chainId": 24132016,
+  "shortName": "xmtp",
+  "networkId": 24132016,
+  "nativeCurrency": {
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://xmtp.org"
+}, {
   "name": "6Degree of Outreach - Testnet",
   "chainId": 24772477,
   "shortName": "6dotest",
@@ -24386,6 +24399,19 @@
   "rpc": ["https://testnet-rpc.meld.com"],
   "faucets": [],
   "infoURL": "https://meld.com"
+}, {
+  "name": "XMTP Sepolia",
+  "chainId": 241320161,
+  "shortName": "xmtp-sepolia",
+  "networkId": 241320161,
+  "nativeCurrency": {
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://xmtp.org"
 }, {
   "name": "Neon EVM Devnet",
   "chainId": 245022926,

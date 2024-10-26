@@ -39096,6 +39096,21 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "XMTP",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "infoURL": "https://xmtp.org",
+  "shortName": "xmtp",
+  "chainId": 24132016,
+  "networkId": 24132016,
+  "status": "incubating"
+}, {
   "name": "6Degree of Outreach - Testnet",
   "chain": "6DO",
   "rpc": ["https://rpc-testnet.6do.world"],
@@ -39984,6 +39999,21 @@
     "icon": "meld",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "XMTP Sepolia",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "infoURL": "https://xmtp.org",
+  "shortName": "xmtp-sepolia",
+  "chainId": 241320161,
+  "networkId": 241320161,
+  "status": "incubating"
 }, {
   "name": "Neon EVM Devnet",
   "chain": "Solana",
