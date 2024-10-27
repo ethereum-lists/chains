@@ -1,0 +1,23 @@
+{
+  "name": "OTC",
+  "chain": "OTC",
+  "rpc": ["https://tes.otc.run", "wss://tes.otc.run"],
+  "nativeCurrency": {
+    "name": "OTC",
+    "symbol": "OTC",
+    "decimals": 18
+  },
+  "infoURL": "https://otc.run",
+  "shortName": "otc",
+  "chainId": 175,
+  "networkId": 175,
+  "icon": "otc",
+  "slip44": 511,
+  "explorers": [
+    {
+      "name": "OTC Explorer",
+      "url": "https://explorer.otc.run",
+      "standard": "EIP3091"
+    }
+  ]
+}
