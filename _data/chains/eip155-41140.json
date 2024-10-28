@@ -1,7 +1,7 @@
 {
   "name": "Metropolis Testnet",
   "chain": "MTP",
-  "rpc": ["https://rpc.metropolis.bonusblock.io"],
+  "rpc": ["https://rpc.chain.viewmetropolis.com"],
   "faucets": [""],
   "nativeCurrency": {
     "name": "Ethereum",
@@ -11,12 +11,5 @@
   "infoURL": "https://www.bonusblock.io",
   "shortName": "metropolis-testnet",
   "chainId": 41140,
-  "networkId": 41140,
-  "explorers": [
-    {
-      "name": "Metropolis Testnet Explorer",
-      "url": "https://explorer-metropolis.bonusblock.io",
-      "standard": "EIP3091"
-    }
-  ]
+  "networkId": 41140
 }
