@@ -1,0 +1,31 @@
+{
+  "name": "Haust Mainnet",
+  "title": "Haust Mainnet",
+  "chain": "Haust",
+  "rpc": ["https://haust-network-rpc.eu-north-2.gateway.fm"],
+  "faucets": [],
+  "features": [{ "name": "EIP155" }],
+  "nativeCurrency": {
+    "name": "HAUST",
+    "symbol": "HAUST",
+    "decimals": 18
+  },
+  "infoURL": "https://haust.network/",
+  "shortName": "haust",
+  "chainId": 938,
+  "networkId": 938,
+  "icon": "haust",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://haust-network-blockscout.eu-north-2.gateway.fm",
+      "icon": "haust",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://haust-network-bridge.eu-north-2.gateway.fm" }]
+  }
+}
