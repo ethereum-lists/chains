@@ -3093,7 +3093,7 @@
   "faucets": [],
   "infoURL": "https://xfair.ai"
 }, {
-  "name": "BPX Blockchain",
+  "name": "BPX Chain",
   "chainId": 279,
   "shortName": "bpx",
   "networkId": 279,
@@ -3102,7 +3102,7 @@
     "symbol": "BPX",
     "decimals": 18
   },
-  "rpc": ["https://rpc.mainnet.bpxchain.cc", "https://bpx-dataseed.infinex.cc"],
+  "rpc": ["https://rpc.bpxchain.cc"],
   "faucets": [],
   "infoURL": "https://bpxchain.cc"
 }, {
