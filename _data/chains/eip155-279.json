@@ -2,9 +2,7 @@
   "name": "BPX Chain",
   "chain": "BPX",
   "icon": "bpx",
-  "rpc": [
-    "https://rpc.bpxchain.cc"
-  ],
+  "rpc": ["https://rpc.bpxchain.cc"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
