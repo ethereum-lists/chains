@@ -31619,10 +31619,32 @@
     "standard": "none"
   }]
 }, {
+  "name": "Unit Zero Mainnet",
+  "chain": "Unit Zero",
+  "icon": "unitzero",
+  "rpc": ["https://rpc.unit0.dev"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "UNIT0",
+    "symbol": "UNIT0",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://units.network",
+  "shortName": "unit0-mainnet",
+  "chainId": 88811,
+  "networkId": 88811,
+  "explorers": []
+}, {
   "name": "Unit Zero Testnet",
   "chain": "Unit Zero",
+  "icon": "unitzero",
   "rpc": ["https://rpc-testnet.unit0.dev"],
-  "faucets": [],
+  "faucets": ["https://faucet-testnet.unit0.dev"],
   "nativeCurrency": {
     "name": "UNIT0",
     "symbol": "UNIT0",
@@ -31645,6 +31667,7 @@
 }, {
   "name": "Unit Zero Stagenet",
   "chain": "Unit Zero",
+  "icon": "unitzero",
   "rpc": ["https://rpc-stagenet.unit0.dev"],
   "faucets": [],
   "nativeCurrency": {

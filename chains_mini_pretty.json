@@ -19369,6 +19369,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Unit Zero Mainnet",
+  "chainId": 88811,
+  "shortName": "unit0-mainnet",
+  "networkId": 88811,
+  "nativeCurrency": {
+    "name": "UNIT0",
+    "symbol": "UNIT0",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.unit0.dev"],
+  "faucets": [],
+  "infoURL": "https://units.network"
+}, {
   "name": "Unit Zero Testnet",
   "chainId": 88817,
   "shortName": "unit0-testnet",
@@ -19379,7 +19392,7 @@
     "decimals": 18
   },
   "rpc": ["https://rpc-testnet.unit0.dev"],
-  "faucets": [],
+  "faucets": ["https://faucet-testnet.unit0.dev"],
   "infoURL": "https://units.network"
 }, {
   "name": "Unit Zero Stagenet",
