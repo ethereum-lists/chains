@@ -7903,6 +7903,19 @@
   "faucets": [],
   "infoURL": "https://mobylab.docs.crescdi.pub.ro/blog/UPB-CRESCDI-Testnet"
 }, {
+  "name": "Arvix Testnet",
+  "chainId": 1927,
+  "shortName": "arvix",
+  "networkId": 1927,
+  "nativeCurrency": {
+    "name": "Arvix Testnet Native Token",
+    "symbol": "tARV",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet-market.arvix.network", "https://rpc-dev-testnet.arvix.network"],
+  "faucets": ["https://claim-faucet.arvix.network"],
+  "infoURL": "https://arvix.network"
+}, {
   "name": "ONUS Chain Testnet",
   "chainId": 1945,
   "shortName": "onus-testnet",
