@@ -1,0 +1,18 @@
+{
+    "name": "Xphere Testnet",
+    "chain": "XPT",
+    "rpc": [
+        "http://testnet.x-phere.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "Xphere Testnet",
+        "symbol": "XPT",
+        "decimals": 18
+    },
+    "infoURL": "https://x-phere.com/",
+    "shortName": "xpt",
+    "chainId": 1998991,
+    "networkId": 1998991,
+    "slip44": 1
+}
