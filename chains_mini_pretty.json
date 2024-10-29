@@ -16535,6 +16535,19 @@
   "faucets": [],
   "infoURL": "https://nexa.sh/meta"
 }, {
+  "name": "Nexa MetaTest",
+  "chainId": 29225,
+  "shortName": "nexatest",
+  "networkId": 29225,
+  "nativeCurrency": {
+    "name": "Nexa",
+    "symbol": "NEXA",
+    "decimals": 18
+  },
+  "rpc": ["https://nexa.sh/metatest"],
+  "faucets": [],
+  "infoURL": "https://nexa.sh/meta"
+}, {
   "name": "KaiChain Testnet",
   "chainId": 29536,
   "shortName": "tkec",
