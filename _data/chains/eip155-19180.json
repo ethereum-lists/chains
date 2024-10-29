@@ -1,10 +1,10 @@
 {
-  "name": "LocaChain",
+  "name": "LocaChain Mainnet",
   "chain": "LocaChain",
   "rpc": ["https://tgrpntwm.locachain.io"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Loca Coin",
+    "name": "LocaCoin",
     "symbol": "LCC",
     "decimals": 18
   },
@@ -17,6 +17,8 @@
     {
       "name": "Locachain Explorer",
       "url": "https://explorer.locachain.io"
-	}
+      "standard": "none",
+      "icon": "locacoin"
+    }
   ]
 }
