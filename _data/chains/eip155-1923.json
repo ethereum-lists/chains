@@ -1,7 +1,7 @@
 {
-  "name": "Swell Network Testnet",
+  "name": "Swell Network",
   "chain": "Swell L2",
-  "rpc": ["https://swell-testnet.alt.technology"],
+  "rpc": ["https://swell-mainnet.alt.technology"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -14,9 +14,9 @@
   "networkId": 1923,
   "explorers": [
     {
-      "name": "swell-l2-testnet",
+      "name": "swell-l2",
       "icon": "swell",
-      "url": "https://swell-testnet-explorer.alt.technology",
+      "url": "https://swell-mainnet-explorer.alt.technology",
       "standard": "none"
     }
   ]
