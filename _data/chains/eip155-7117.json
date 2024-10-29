@@ -1,0 +1,25 @@
+{
+  "name": "0XL3",
+  "chain": "0XL3",
+  "icon": "0xl3",
+  "rpc": ["https://rpc.0xl3.com"],
+  "faucets": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "nativeCurrency": {
+    "name": "XL3",
+    "symbol": "XL3",
+    "decimals": 18
+  },
+  "infoURL": "https://0xl3.com",
+  "shortName": "0xl3",
+  "chainId": 7117,
+  "networkId": 7117,
+  "explorers": [
+    {
+      "name": "0XL3 Explorer",
+      "url": "https://exp.0xl3.com",
+      "icon": "0xl3",
+      "standard": "EIP3091"
+    }
+  ]
+}

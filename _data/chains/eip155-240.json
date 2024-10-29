@@ -1,7 +1,7 @@
 {
-  "name": "Deprecated Cronos zkEVM Testnet",
-  "chain": "deprecatedCronosZkEVMTestnet",
-  "rpc": ["https://deprecated.testnet.zkevm.cronos.org"],
+  "name": "Cronos zkEVM Testnet",
+  "chain": "CronosZkEVMTestnet",
+  "rpc": ["https://testnet.zkevm.cronos.org"],
   "faucets": ["https://zkevm.cronos.org/faucet"],
   "nativeCurrency": {
     "name": "Cronos zkEVM Test Coin",
@@ -9,9 +9,9 @@
     "decimals": 18
   },
   "infoURL": "https://docs-zkevm.cronos.org",
-  "shortName": "deprecated-zkTCRO",
-  "chainId": 282,
-  "networkId": 282,
+  "shortName": "zkTCRO",
+  "chainId": 240,
+  "networkId": 240,
   "slip44": 1,
   "explorers": [
     {
@@ -19,6 +19,5 @@
       "url": "https://explorer.zkevm.cronos.org/testnet",
       "standard": "none"
     }
-  ],
-  "status": "deprecated"
+  ]
 }
