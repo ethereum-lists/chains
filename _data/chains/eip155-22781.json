@@ -4,8 +4,8 @@
   "rpc": [""],
   "faucets": [],
   "nativeCurrency": {
-    "name": "CARV",
-    "symbol": "CARV",
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
     "decimals": 18
   },
   "infoURL": "https://carv.io/",
@@ -20,5 +20,10 @@
       "standard": "EIP3091"
     }
   ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "" }]
+  },
   "status": "incubating"
 }
