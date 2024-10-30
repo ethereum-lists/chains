@@ -3,7 +3,7 @@
   "chain": "ETH",
   "icon": "zytron",
   "rpc": [
-    "https://linea-mainnet-zytron.zypher.game/"
+    "https://rpc.zypher.network/"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -18,7 +18,7 @@
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://linea-mainnet-zytron-blockscout.zypher.game/",
+      "url": "https://explorer.zypher.network/",
       "standard": "EIP3091"
     }
   ]
