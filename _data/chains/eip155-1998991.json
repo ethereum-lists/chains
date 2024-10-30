@@ -1,6 +1,7 @@
 {
     "name": "Xphere Testnet",
     "chain": "XPT",
+    "icon": "xphere",
     "rpc": [
         "http://testnet.x-phere.com"
     ],
@@ -11,7 +12,7 @@
         "decimals": 18
     },
     "infoURL": "https://x-phere.com/",
-    "shortName": "xpt",
+    "shortName": "xp-test",
     "chainId": 1998991,
     "networkId": 1998991,
     "slip44": 1
