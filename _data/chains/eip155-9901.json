@@ -2,7 +2,9 @@
   "name": "Zytron Linea Mainnet",
   "chain": "ETH",
   "icon": "zytron",
-  "rpc": ["https://rpc.zypher.network/"],
+  "rpc": [
+    "https://rpc.zypher.network/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",
@@ -10,13 +12,13 @@
     "decimals": 18
   },
   "infoURL": "https://zytron.zypher.network/",
-  "shortName": "zytron",
+  "shortName": "zytron-linea",
   "chainId": 9901,
   "networkId": 9901,
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://explorer.zypher.network/",
+      "url": "https://explorer.zypher.network",
       "standard": "EIP3091"
     }
   ]
