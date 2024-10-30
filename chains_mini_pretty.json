@@ -22008,6 +22008,19 @@
   "faucets": [],
   "infoURL": "https://docs.over.network"
 }, {
+  "name": "ZERO Network",
+  "chainId": 543210,
+  "shortName": "zero-network",
+  "networkId": 543210,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zerion.io/v1/zero"],
+  "faucets": [],
+  "infoURL": "https://docs.zero.network"
+}, {
   "name": "One World Chain Testnet",
   "chainId": 552981,
   "shortName": "OWCTt",
