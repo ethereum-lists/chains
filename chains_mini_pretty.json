@@ -24530,6 +24530,19 @@
   "faucets": [],
   "infoURL": "https://neon-labs.org"
 }, {
+  "name": "Flame",
+  "chainId": 253368190,
+  "shortName": "flame",
+  "networkId": 253368190,
+  "nativeCurrency": {
+    "name": "TIA",
+    "symbol": "TIA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.flame.astria.org"],
+  "faucets": [],
+  "infoURL": "https://astria.org"
+}, {
   "name": "Razor Skale Chain",
   "chainId": 278611351,
   "shortName": "razor",
@@ -25452,6 +25465,19 @@
   "rpc": ["https://molereum.jdubedition.com"],
   "faucets": [],
   "infoURL": "https://github.com/Jdubedition/molereum"
+}, {
+  "name": "Flame Testnet",
+  "chainId": 16604737732183,
+  "shortName": "flame-testnet",
+  "networkId": 16604737732183,
+  "nativeCurrency": {
+    "name": "TIA",
+    "symbol": "TIA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.flame.dawn-1.astria.org"],
+  "faucets": [],
+  "infoURL": "https://astria.org"
 }, {
   "name": "Godwoken Testnet (V1)",
   "chainId": 868455272153094,
