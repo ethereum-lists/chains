@@ -2,7 +2,12 @@
   "name": "Morph",
   "title": "Morph Mainnet",
   "chain": "ETH",
-  "rpc": ["https://rpc.morphl2.io", "wss://rpc.morphl2.io:8443"],
+  "rpc": [
+    "https://rpc.morphl2.io",
+    "wss://rpc.morphl2.io:8443",
+    "https://rpc-quicknode.morphl2.io",
+    "wss://rpc-quicknode.morphl2.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
