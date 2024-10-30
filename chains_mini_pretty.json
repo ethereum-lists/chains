@@ -12180,6 +12180,19 @@
   "faucets": [],
   "infoURL": "https://mtt.network"
 }, {
+  "name": "Nibiru Mainnet",
+  "chainId": 6900,
+  "shortName": "cataclysm-1",
+  "networkId": 6900,
+  "nativeCurrency": {
+    "name": "NIBI",
+    "symbol": "NIBI",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-rpc.nibiru.fi"],
+  "faucets": [],
+  "infoURL": "https://nibiru.fi"
+}, {
   "name": "Laika Mainnet",
   "chainId": 6942,
   "shortName": "laika",
