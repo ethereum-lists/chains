@@ -23035,6 +23035,19 @@
   "faucets": ["https://devnet2faucet.platon.network/faucet"],
   "infoURL": "https://www.platon.network"
 }, {
+  "name": "Coinweb BNB shard",
+  "chainId": 2222222,
+  "shortName": "cweb-bnb",
+  "networkId": 2222222,
+  "nativeCurrency": {
+    "name": "CWEB",
+    "symbol": "CWEB",
+    "decimals": 18
+  },
+  "rpc": ["https://api-cloud.coinweb.io/eth-rpc-service/bnb"],
+  "faucets": [],
+  "infoURL": "https://coinweb.io"
+}, {
   "name": "DPU Chain",
   "chainId": 2611555,
   "shortName": "DPU",
