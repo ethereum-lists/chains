@@ -18435,14 +18435,14 @@
 }, {
   "name": "Geist Mainnet",
   "chainId": 63157,
-  "shortName": "Geist",
+  "shortName": "geist",
   "networkId": 63157,
   "nativeCurrency": {
     "name": "Aavegotchi GHST Token",
     "symbol": "GHST",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://geist-mainnet.g.alchemy.com/public"],
   "faucets": [],
   "infoURL": "https://playongeist.com"
 }, {

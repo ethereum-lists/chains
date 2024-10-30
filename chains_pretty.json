@@ -30162,7 +30162,7 @@
 }, {
   "name": "Geist Mainnet",
   "chain": "Geist",
-  "rpc": [],
+  "rpc": ["https://geist-mainnet.g.alchemy.com/public"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Aavegotchi GHST Token",
@@ -30171,12 +30171,16 @@
   },
   "features": [],
   "infoURL": "https://playongeist.com",
-  "shortName": "Geist",
+  "shortName": "geist",
   "chainId": 63157,
   "networkId": 63157,
-  "status": "incubating",
+  "status": "active",
   "icon": "geist",
-  "explorers": []
+  "explorers": [{
+    "name": "Geist Explorer",
+    "url": "https://geist-mainnet.explorer.alchemy.com",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "CratD2C Testnet",
   "chain": "CRATD2C",
@@ -36134,7 +36138,7 @@
   "shortName": "poltergeist",
   "chainId": 631571,
   "networkId": 631571,
-  "status": "incubating",
+  "status": "active",
   "icon": "polterGeist",
   "explorers": [{
     "name": "Polter Testnet Explorer",
