@@ -5,14 +5,9 @@
       "https://rpc-gel-sepolia.inkonchain.com",
       "wss://ws-gel-sepolia.inkonchain.com"
   ],
-  "features": [
-    {
-      "name": "EIP1559"
-    }
-  ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Ether",
+    "name": "Sepolia Ether",
     "symbol": "ETH",
     "decimals": 18
   },
