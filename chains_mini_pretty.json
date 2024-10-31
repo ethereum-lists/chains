@@ -25401,6 +25401,19 @@
   "faucets": ["https://frankenstein-faucet.oneledger.network"],
   "infoURL": "https://oneledger.io"
 }, {
+  "name": "Mekong",
+  "chainId": 7078815900,
+  "shortName": "mekong",
+  "networkId": 7078815900,
+  "nativeCurrency": {
+    "name": "Testnet ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mekong.ethpandaops.io"],
+  "faucets": ["https://faucet.mekong.ethpandaops.io"],
+  "infoURL": "https://mekong.ethpandaops.io"
+}, {
   "name": "Palm Testnet",
   "chainId": 11297108099,
   "shortName": "tpalm",
