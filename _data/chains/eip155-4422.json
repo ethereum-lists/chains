@@ -1,0 +1,26 @@
+{
+    "name": "Testnet Pika",
+    "chain": "PSC",
+    "rpc": ["https://testnet-rpc1.pikascan.com"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "PKA Chain Native Token",
+      "symbol": "tPKA",
+      "decimals": 18
+    },
+  
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://pikaminter.com",
+    "shortName": "sorian",
+    "chainId": 4422,
+    "networkId": 4422,
+    "explorers": []
+  }
+  
