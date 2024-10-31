@@ -22954,6 +22954,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Zytron Linea Mainnet",
+  "chain": "ETH",
+  "icon": "zytron",
+  "rpc": ["https://rpc.zypher.network/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://zytron.zypher.network/",
+  "shortName": "zytron-linea",
+  "chainId": 9901,
+  "networkId": 9901,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.zypher.network",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Espento Mainnet",
   "chain": "SPENT",
   "rpc": ["https://rpc.escscan.com/"],
@@ -25828,6 +25848,26 @@
   "chainId": 19527,
   "networkId": 19527,
   "explorers": []
+}, {
+  "name": "Zytron Linea Testnet",
+  "chain": "ETH",
+  "icon": "zytron",
+  "rpc": ["https://linea-testnet-zytron.zypher.game/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://zytron.zypher.network/",
+  "shortName": "zytron-linea-testnet",
+  "chainId": 19546,
+  "networkId": 19546,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://linea-testnet-zytron-blockscout.zypher.game",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "LBRY Mainnet",
   "chain": "LBRY",

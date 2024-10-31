@@ -14130,6 +14130,19 @@
   "faucets": [],
   "infoURL": "https://larissa.network"
 }, {
+  "name": "Zytron Linea Mainnet",
+  "chainId": 9901,
+  "shortName": "zytron-linea",
+  "networkId": 9901,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zypher.network/"],
+  "faucets": [],
+  "infoURL": "https://zytron.zypher.network/"
+}, {
   "name": "Espento Mainnet",
   "chainId": 9911,
   "shortName": "spent",
@@ -15871,6 +15884,19 @@
   "rpc": ["https://magnet-rpc.magport.io/"],
   "faucets": [],
   "infoURL": "https://magnet.magport.io/"
+}, {
+  "name": "Zytron Linea Testnet",
+  "chainId": 19546,
+  "shortName": "zytron-linea-testnet",
+  "networkId": 19546,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://linea-testnet-zytron.zypher.game/"],
+  "faucets": [],
+  "infoURL": "https://zytron.zypher.network/"
 }, {
   "name": "LBRY Mainnet",
   "chainId": 19600,
