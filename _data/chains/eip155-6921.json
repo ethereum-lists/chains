@@ -1,0 +1,17 @@
+{
+  "name": "Nibiru Devnet 2",
+  "chain": "Nibiru",
+  "rpc": ["https://evm-rpc.devnet-2.nibiru.fi"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NIBI",
+    "symbol": "NIBI",
+    "decimals": 18
+  },
+  "infoURL": "https://nibiru.fi",
+  "shortName": "nibiru-devnet2",
+  "chainId": 6900,
+  "networkId": 6900,
+  "icon": "nibiru",
+  "explorers": []
+}
