@@ -19785,6 +19785,19 @@
   "faucets": [],
   "infoURL": "https://ebi.xyz"
 }, {
+  "name": "Superposition Testnet",
+  "chainId": 98985,
+  "shortName": "superposition-testnet",
+  "networkId": 98985,
+  "nativeCurrency": {
+    "name": "SPN",
+    "symbol": "SPN",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.superposition.so"],
+  "faucets": ["https://faucet.superposition.so"],
+  "infoURL": "https://superposition.so"
+}, {
   "name": "eLiberty Testnet",
   "chainId": 99099,
   "shortName": "ELt",
