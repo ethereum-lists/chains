@@ -12583,6 +12583,19 @@
   "faucets": [],
   "infoURL": "https://canto.io"
 }, {
+  "name": "Phron Testnet",
+  "chainId": 7744,
+  "shortName": "phr",
+  "networkId": 7744,
+  "nativeCurrency": {
+    "name": "Phron",
+    "symbol": "TPHR",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.phron.ai", "wss://testnet.phron.ai"],
+  "faucets": ["https://faucet.phron.ai"],
+  "infoURL": "https://phron.ai"
+}, {
   "name": "Bitrock Testnet",
   "chainId": 7771,
   "shortName": "tbitrock",
