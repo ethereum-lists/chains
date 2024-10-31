@@ -1,9 +1,14 @@
 {
     "name": "Xphere Testnet",
-    "chain": "XPT",
+    "chain": "Xphere Testnet",
     "icon": "xphere",
     "rpc": [
         "http://testnet.x-phere.com"
+    ],
+    "features": [
+        {
+            "name": "EIP1559"
+        }
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -15,5 +20,5 @@
     "shortName": "xp-test",
     "chainId": 1998991,
     "networkId": 1998991,
-    "slip44": 1
+    "explorers": []
 }
