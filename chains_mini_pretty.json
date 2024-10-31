@@ -18459,18 +18459,18 @@
   "faucets": [],
   "infoURL": "https://laosnetwork.io"
 }, {
-  "name": "eCredits Mainnet",
+  "name": "eSync Network Mainnet",
   "chainId": 63000,
-  "shortName": "ecs",
+  "shortName": "esync-mainnet",
   "networkId": 63000,
   "nativeCurrency": {
     "name": "eCredits",
     "symbol": "ECS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.ecredits.com"],
+  "rpc": ["https://rpc.esync.network", "https://rpc.ecredits.com"],
   "faucets": [],
-  "infoURL": "https://ecredits.com"
+  "infoURL": "https://esync.network"
 }, {
   "name": "eCredits Testnet",
   "chainId": 63001,
