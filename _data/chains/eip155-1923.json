@@ -1,0 +1,23 @@
+{
+  "name": "Swell Network",
+  "chain": "Swell L2",
+  "rpc": ["https://swell-mainnet.alt.technology"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://app.swellnetwork.io/layer2/swell-l2",
+  "shortName": "swell-l2",
+  "chainId": 1923,
+  "networkId": 1923,
+  "explorers": [
+    {
+      "name": "swell-l2",
+      "icon": "swell",
+      "url": "https://swell-mainnet-explorer.alt.technology",
+      "standard": "none"
+    }
+  ]
+}
