@@ -7916,6 +7916,19 @@
   "faucets": [],
   "infoURL": "https://mobylab.docs.crescdi.pub.ro/blog/UPB-CRESCDI-Testnet"
 }, {
+  "name": "Swell Network",
+  "chainId": 1923,
+  "shortName": "swell-l2",
+  "networkId": 1923,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://swell-mainnet.alt.technology"],
+  "faucets": [],
+  "infoURL": "https://app.swellnetwork.io/layer2/swell-l2"
+}, {
   "name": "Arvix Testnet",
   "chainId": 1927,
   "shortName": "arvix",
