@@ -34628,6 +34628,50 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Nxy Area 51",
+  "chain": "NXY",
+  "rpc": ["https://nxy.social/testnet"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Nxy",
+    "symbol": "NXY",
+    "decimals": 18
+  },
+  "infoURL": "https://nxy.social/l1",
+  "shortName": "nxytest",
+  "chainId": 272247,
+  "networkId": 272247,
+  "slip44": 272247,
+  "icon": "nxy",
+  "explorers": [{
+    "name": "Nxy Explorer",
+    "url": "https://explorer.nxy.social",
+    "standard": "none",
+    "icon": "nxy"
+  }]
+}, {
+  "name": "Nxy Oasis",
+  "chain": "NXY",
+  "rpc": ["https://nxy.social/mainnet"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Nxy",
+    "symbol": "NXY",
+    "decimals": 18
+  },
+  "infoURL": "https://nxy.social/l1",
+  "shortName": "nxy",
+  "chainId": 272520,
+  "networkId": 272520,
+  "slip44": 272520,
+  "icon": "nxy",
+  "explorers": [{
+    "name": "Nxy Explorer",
+    "url": "https://explorer.nxy.social",
+    "standard": "none",
+    "icon": "nxy"
+  }]
+}, {
   "name": "Social Smart Chain Mainnet",
   "chain": "SoChain",
   "rpc": ["https://socialsmartchain.digitalnext.business"],

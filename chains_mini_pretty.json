@@ -21215,6 +21215,32 @@
   "faucets": ["https://faucet.egonscan.com"],
   "infoURL": "https://egonscan.com"
 }, {
+  "name": "Nxy Area 51",
+  "chainId": 272247,
+  "shortName": "nxytest",
+  "networkId": 272247,
+  "nativeCurrency": {
+    "name": "Nxy",
+    "symbol": "NXY",
+    "decimals": 18
+  },
+  "rpc": ["https://nxy.social/testnet"],
+  "faucets": [],
+  "infoURL": "https://nxy.social/l1"
+}, {
+  "name": "Nxy Oasis",
+  "chainId": 272520,
+  "shortName": "nxy",
+  "networkId": 272520,
+  "nativeCurrency": {
+    "name": "Nxy",
+    "symbol": "NXY",
+    "decimals": 18
+  },
+  "rpc": ["https://nxy.social/mainnet"],
+  "faucets": [],
+  "infoURL": "https://nxy.social/l1"
+}, {
   "name": "Social Smart Chain Mainnet",
   "chainId": 281121,
   "shortName": "SoChain",
