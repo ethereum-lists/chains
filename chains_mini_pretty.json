@@ -6824,6 +6824,19 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "Argochain",
+  "chainId": 1299,
+  "shortName": "AGC",
+  "networkId": 1299,
+  "nativeCurrency": {
+    "name": "AGC",
+    "symbol": "AGC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.devolvedai.com", "https://rpc-mainnet.devolvedai.com"],
+  "faucets": [],
+  "infoURL": "https://devolvedai.com"
+}, {
   "name": "Unichain Sepolia Testnet",
   "chainId": 1301,
   "shortName": "unichain-sep",

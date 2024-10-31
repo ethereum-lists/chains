@@ -11014,6 +11014,26 @@
     "standard": "none"
   }]
 }, {
+  "name": "Argochain",
+  "chain": "Argochain",
+  "icon": "argochain",
+  "rpc": ["https://rpc.devolvedai.com", "https://rpc-mainnet.devolvedai.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AGC",
+    "symbol": "AGC",
+    "decimals": 18
+  },
+  "infoURL": "https://devolvedai.com",
+  "shortName": "AGC",
+  "chainId": 1299,
+  "networkId": 1299,
+  "explorers": [{
+    "name": "Argochain Scanner",
+    "url": "https://scanner.argoscan.net",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Unichain Sepolia Testnet",
   "chain": "ETH",
   "rpc": ["https://sepolia.unichain.org"],
