@@ -13,12 +13,5 @@
   "shortName": "OTC",
   "chainId": 175,
   "networkId": 175,
-  "slip44": 511,
-  "explorers": [
-    {
-      "name": "OTC Explorer",
-      "url": "https://otc.network",
-      "standard": "EIP3091"
-    }
-  ]
+  "slip44": 511
 }
