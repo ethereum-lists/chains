@@ -37762,6 +37762,25 @@
   "chainId": 1731313,
   "networkId": 1731313
 }, {
+  "name": "Xphere Testnet",
+  "chain": "Xphere Testnet",
+  "icon": "xphere",
+  "rpc": ["http://testnet.x-phere.com"],
+  "features": [{
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Xphere Testnet",
+    "symbol": "XPT",
+    "decimals": 18
+  },
+  "infoURL": "https://x-phere.com/",
+  "shortName": "xp-test",
+  "chainId": 1998991,
+  "networkId": 1998991,
+  "explorers": []
+}, {
   "name": "DeBank Testnet",
   "chain": "DeBank",
   "rpc": ["http://rpc.testnet.debank.com"],

@@ -23035,6 +23035,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Xphere Testnet",
+  "chainId": 1998991,
+  "shortName": "xp-test",
+  "networkId": 1998991,
+  "nativeCurrency": {
+    "name": "Xphere Testnet",
+    "symbol": "XPT",
+    "decimals": 18
+  },
+  "rpc": ["http://testnet.x-phere.com"],
+  "faucets": [],
+  "infoURL": "https://x-phere.com/"
+}, {
   "name": "DeBank Testnet",
   "chainId": 2021398,
   "shortName": "dbk",
