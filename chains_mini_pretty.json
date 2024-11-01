@@ -10906,6 +10906,19 @@
   "faucets": [],
   "infoURL": "https://creditsmartchain.com"
 }, {
+  "name": "Testnet Pika",
+  "chainId": 4422,
+  "shortName": "PikaMinter",
+  "networkId": 4422,
+  "nativeCurrency": {
+    "name": "Testnet Pika",
+    "symbol": "tPKA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc1.pikascan.com"],
+  "faucets": [],
+  "infoURL": "https://pikaminter.com"
+}, {
   "name": "Htmlcoin Mainnet",
   "chainId": 4444,
   "shortName": "html",
