@@ -3,6 +3,7 @@
   "chain": "LocaChain",
   "rpc": ["https://tgrpntwm.locachain.io"],
   "faucets": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "nativeCurrency": {
     "name": "LocaCoin",
     "symbol": "LCC",
@@ -12,13 +13,12 @@
   "shortName": "locachain",
   "chainId": 19180,
   "networkId": 19180,
-  "icon": "locacoin",
   "explorers": [
     {
       "name": "Locachain Explorer",
-      "url": "https://explorer.locachain.io"
-      "standard": "none",
-      "icon": "locacoin"
+      "url": "https://explorer.locachain.io",
+      "standard": "EIP3091",
+	  "icon": "locacoin"
     }
   ]
 }
