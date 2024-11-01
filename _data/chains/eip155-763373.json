@@ -2,8 +2,8 @@
   "name": "Ink Sepolia",
   "chain": "ETH",
   "rpc": [
-      "https://rpc-gel-sepolia.inkonchain.com",
-      "wss://ws-gel-sepolia.inkonchain.com"
+    "https://rpc-gel-sepolia.inkonchain.com",
+    "wss://ws-gel-sepolia.inkonchain.com"
   ],
   "faucets": [],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
