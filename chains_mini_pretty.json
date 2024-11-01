@@ -22437,6 +22437,19 @@
   "faucets": [],
   "infoURL": "https://miexs.com"
 }, {
+  "name": "Ink Sepolia",
+  "chainId": 763373,
+  "shortName": "inksepolia",
+  "networkId": 763373,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-gel-sepolia.inkonchain.com", "wss://ws-gel-sepolia.inkonchain.com"],
+  "faucets": [],
+  "infoURL": "https://inkonchain.com/"
+}, {
   "name": "Lamina1 Testnet",
   "chainId": 764984,
   "shortName": "lamina1test",
