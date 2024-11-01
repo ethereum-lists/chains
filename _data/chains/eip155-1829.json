@@ -1,10 +1,7 @@
 {
   "name": "PlayBlock",
   "chain": "playblock",
-  "rpc": [
-    "https://rpc.playblock.io",
-    "wss://ws.playblock.io"
-  ],
+  "rpc": ["https://rpc.playblock.io", "wss://ws.playblock.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "PlayBlock",
@@ -22,5 +19,14 @@
       "url": "https://explorer.playblock.io/",
       "standard": "none"
     }
-  ]
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161",
+    "bridges": [
+      {
+        "url": "https://bridge.gelato.network/bridge/playblock"
+      }
+    ]
+  }
 }
