@@ -2196,6 +2196,19 @@
   "faucets": ["https://faucet.latam-blockchain.com"],
   "infoURL": "https://latam-blockchain.com"
 }, {
+  "name": "OTC",
+  "chainId": 175,
+  "shortName": "OTC",
+  "networkId": 175,
+  "nativeCurrency": {
+    "name": "OTC",
+    "symbol": "OTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.otc.run", "wss://rpc.otc.run"],
+  "faucets": [],
+  "infoURL": "https://otc.network"
+}, {
   "name": "DC Mainnet",
   "chainId": 176,
   "shortName": "dcchain",
