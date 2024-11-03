@@ -7747,6 +7747,19 @@
   "faucets": [],
   "infoURL": "https://rubychain.io"
 }, {
+  "name": "PlayBlock",
+  "chainId": 1829,
+  "shortName": "playblock",
+  "networkId": 1829,
+  "nativeCurrency": {
+    "name": "PlayBlock",
+    "symbol": "PBG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.playblock.io", "wss://ws.playblock.io"],
+  "faucets": [],
+  "infoURL": "https://www.playnance.com"
+}, {
   "name": "HighOctane Subnet",
   "chainId": 1853,
   "shortName": "HighOctane",
