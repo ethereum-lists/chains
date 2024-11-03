@@ -15,7 +15,7 @@
   "networkId": 1829,
   "explorers": [
     {
-      "name": "PlayBlock",
+      "name": "blockscout",
       "url": "https://explorer.playblock.io",
       "standard": "none"
     }
@@ -28,5 +28,6 @@
         "url": "https://bridge.gelato.network/bridge/playblock"
       }
     ]
-  }
+  },
+  "status": "active"
 }
