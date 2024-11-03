@@ -15872,6 +15872,19 @@
   "faucets": ["https://ping.blockxnet.com/blockx-atlantis-testnet/faucet"],
   "infoURL": "https://www.blockxnet.com/"
 }, {
+  "name": "LocaChain Mainnet",
+  "chainId": 19180,
+  "shortName": "locachain",
+  "networkId": 19180,
+  "nativeCurrency": {
+    "name": "LocaCoin",
+    "symbol": "LCC",
+    "decimals": 18
+  },
+  "rpc": ["https://tgrpntwm.locachain.io"],
+  "faucets": [],
+  "infoURL": "https://locachain.io"
+}, {
   "name": "BlockX Mainnet",
   "chainId": 19191,
   "shortName": "bcx",
