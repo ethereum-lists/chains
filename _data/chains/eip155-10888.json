@@ -1,0 +1,32 @@
+
+  {
+    "name": "GameSwift Chain Testnet",
+    "chain": "gameswift-chain-testnet",
+    "rpc": ["https://rpc-testnet.gameswift.io", "wss://ws-testnet.gameswift.io"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "TGameSwift",
+      "symbol": "tGS",
+      "decimals": 18
+    },
+    "shortName": "gameswift-chain-testnet",
+    "chainId": 10888,
+    "slip44": 60,
+    "networkId": 10888,
+    "explorers": [
+      {
+        "name": "GameSwift Chain Testnet",
+        "url": "https://testnet.gameswift.io/",
+        "standard": "none"
+      }
+    ],
+    "parent": {
+      "type": "L1",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://testnet-bridge-gelato.gameswift.io/bridge/gameswift-chain-testnet"
+        }
+      ]
+    }
+  }
