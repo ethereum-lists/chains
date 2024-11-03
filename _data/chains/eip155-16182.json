@@ -1,0 +1,31 @@
+  {
+    "name": "Eventum Testnet",
+    "chain": "eventum-testnet",
+    "rpc": ["https://rpc.lydia-testnet.t.raas.gelato.cloud", "wss://ws.lydia-testnet.t.raas.gelato.cloud"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "shortName": "eventum-testnet",
+    "chainId": 16182,
+    "slip44": 60,
+    "networkId": 16182,
+    "explorers": [
+      {
+        "name": "Eventum Testnet",
+        "url": "https://testnet-blockscout.eh-dev.app/",
+        "standard": "none"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-421614",
+      "bridges": [
+        {
+          "url": "https://testnet-bridge.eh-dev.app/bridge/event-horizon-eventum-testnet"
+        }
+      ]
+    }
+  }
