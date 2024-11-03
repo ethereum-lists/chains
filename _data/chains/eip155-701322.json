@@ -1,23 +1,25 @@
 {
-    "name": "DynastyCoin Mainnet",
-    "chain": "DNY",
-    "rpc": [
-      "https://mainnet-rpc.dnyscan.io"
-    ],
-    "nativeCurrency": {
-      "name": "Dynasty",
-      "symbol": "DNY",
-      "decimals": 18
-    },
-    "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-    "infoURL": "https://dynastycoin.io",
-    "shortName": "dny",
-    "chainId": 701322,
-    "networkId": 701322,
-    "faucets": [],
-    "explorers": [{
-      "name": "dnyscan",
+  "name": "DynastyCoin Mainnet",
+  "chain": "DNY",
+  "rpc": ["https://mainnet-rpc.dnyscan.io"],
+  "nativeCurrency": {
+    "name": "Dynasty",
+    "symbol": "DNY",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://dynastycoin.io",
+  "shortName": "dny",
+  "chainId": 701322,
+  "networkId": 701322,
+  "icon": "dnyscan",
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "DNYscan",
       "url": "https://dnyscan.io",
+      "icon": "dnyscan",
       "standard": "EIP3091"
-    }]
-  }
+    }
+  ]
+}
