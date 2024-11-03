@@ -1,0 +1,31 @@
+  {
+    "name": "Anomaly Andromeda Testnet",
+    "chain": "anomaly-andromeda-testnet",
+    "rpc": ["https://rpc.anomaly-andromeda.anomalygames.io", "wss://ws.anomaly-andromeda.anomalygames.io"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "TestNom",
+      "symbol": "tNOM",
+      "decimals": 18
+    },
+    "shortName": "anomaly-andromeda-testnet",
+    "chainId": 241120,
+    "slip44": 60,
+    "networkId": 241120,
+    "explorers": [
+      {
+        "name": "Anomaly Andromeda Testnet",
+        "url": "https://andromeda.anomalyscan.io/",
+        "standard": "none"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-421614",
+      "bridges": [
+        {
+          "url": "https://bridge.gelato.network/bridge/anomaly-andromeda-testnet"
+        }
+      ]
+    }
+  }
