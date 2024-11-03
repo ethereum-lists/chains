@@ -1,0 +1,32 @@
+
+  {
+    "name": "Reya Cronos",
+    "chain": "reya-cronos",
+    "rpc": ["https://rpc.reya-cronos.gelato.digital", "wss://ws.reya-cronos.gelato.digital"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "shortName": "reya-cronos",
+    "chainId": 89346162,
+    "slip44": 60,
+    "networkId": 89346162,
+    "explorers": [
+      {
+        "name": "Reya Cronos",
+        "url": "https://reya-cronos.blockscout.com/",
+        "standard": "none"
+      }
+    ],
+    "parent": {
+      "type": "L1",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://bridge.gelato.network/bridge/reya-cronos"
+        }
+      ]
+    }
+  }
