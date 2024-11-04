@@ -2,21 +2,25 @@
   {
     "name": "GameSwift Chain Testnet",
     "chain": "gameswift-chain-testnet",
-    "rpc": ["https://rpc-testnet.gameswift.io", "wss://ws-testnet.gameswift.io"],
+    "rpc": [
+      "https://rpc-testnet.gameswift.io",
+      "wss://ws-testnet.gameswift.io"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "TGameSwift",
       "symbol": "tGS",
       "decimals": 18
     },
+    "infoURL": "https://raas.gelato.network/rollups/details/public/gameswift-chain-testnet",
     "shortName": "gameswift-chain-testnet",
     "chainId": 10888,
     "slip44": 60,
     "networkId": 10888,
     "explorers": [
       {
-        "name": "GameSwift Chain Testnet",
-        "url": "https://testnet.gameswift.io/",
+        "name": "blockscout",
+        "url": "https://testnet.gameswift.io",
         "standard": "none"
       }
     ],
