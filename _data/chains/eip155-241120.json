@@ -1,22 +1,26 @@
   {
     "name": "Anomaly Andromeda Testnet",
     "chain": "anomaly-andromeda-testnet",
-    "rpc": ["https://rpc.anomaly-andromeda.anomalygames.io", "wss://ws.anomaly-andromeda.anomalygames.io"],
+    "rpc": [
+      "https://rpc.anomaly-andromeda.anomalygames.io",
+      "wss://ws.anomaly-andromeda.anomalygames.io"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "TestNom",
       "symbol": "tNOM",
       "decimals": 18
     },
+    "infoURL": "https://raas.gelato.network/rollups/details/public/anomaly-andromeda-testnet",
     "shortName": "anomaly-andromeda-testnet",
     "chainId": 241120,
     "slip44": 60,
     "networkId": 241120,
     "explorers": [
       {
-        "name": "Anomaly Andromeda Testnet",
-        "url": "https://andromeda.anomalyscan.io/",
-        "standard": "none"
+        "name": "blockscout",
+        "url": "https://andromeda.anomalyscan.io",
+        "standard": "EIP3091"
       }
     ],
     "parent": {
