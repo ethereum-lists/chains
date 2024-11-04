@@ -1,0 +1,24 @@
+{
+  "name": "Accumulate Kermit",
+  "shortName": "Kermit",
+  "title": "Accumulate Kermit Testnet",
+  "chain": "Accumulate",
+  "chainId": 2478899481,
+  "networkId": 2478899481,
+  "infoURL": "https://accumulate.org",
+  "slip44": 2147483929,
+  "rpc": ["https://kermit.accumulatenetwork.io/eth"],
+  "nativeCurrency": {
+    "name": "ACME",
+    "symbol": "ACME",
+    "decimals": 18
+  },
+  "faucets": ["https://kermit.explorer.accumulatenetwork.io/faucet"],
+  "explorers": [
+    {
+      "name": "accumulate-explorer-kermit",
+      "url": "https://kermit.explorer.accumulatenetwork.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
