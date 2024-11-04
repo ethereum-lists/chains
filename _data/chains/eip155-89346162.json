@@ -2,7 +2,10 @@
   {
     "name": "Reya Cronos",
     "chain": "reya-cronos",
-    "rpc": ["https://rpc.reya-cronos.gelato.digital", "wss://ws.reya-cronos.gelato.digital"],
+    "rpc": 
+      "https://rpc.reya-cronos.gelato.digital",
+      "wss://ws.reya-cronos.gelato.digital"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "Ether",
@@ -16,12 +19,12 @@
     "explorers": [
       {
         "name": "Reya Cronos",
-        "url": "https://reya-cronos.blockscout.com/",
+        "url": "https://reya-cronos.blockscout.com",
         "standard": "none"
       }
     ],
     "parent": {
-      "type": "L1",
+      "type": "L2",
       "chain": "eip155-11155111",
       "bridges": [
         {
