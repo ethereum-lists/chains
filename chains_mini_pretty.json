@@ -24270,6 +24270,19 @@
   "faucets": ["https://faucet.toliman.suave.flashbots.net"],
   "infoURL": "https://suave-alpha.flashbots.net/toliman"
 }, {
+  "name": "citronus-citro",
+  "chainId": 34949059,
+  "shortName": "citronus-citro",
+  "networkId": 34949059,
+  "nativeCurrency": {
+    "name": "Citronus",
+    "symbol": "CITRO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.citro-testnet.t.raas.gelato.cloud", "wss://testnet-ws.eh-dev.app"],
+  "faucets": [],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/citronus-citro"
+}, {
   "name": "Joys Digital Mainnet",
   "chainId": 35855456,
   "shortName": "JOYS",
