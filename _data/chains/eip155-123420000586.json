@@ -29,7 +29,9 @@
     "type": "L1",
     "chain": "eip155-11155111",
     "bridges": [
-      { "url": "https://testnet-bridge.gelato.network/bridge/sivo-defi-testnet" }
+      {
+        "url": "https://testnet-bridge.gelato.network/bridge/sivo-defi-testnet"
+      }
     ]
   }
 }
