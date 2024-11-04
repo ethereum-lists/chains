@@ -29,7 +29,9 @@
     "type": "L2",
     "chain": "eip155-421614",
     "bridges": [
-      { "url": "https://bridge.gelato.network/bridge/anomaly-andromeda-testnet" }
+      {
+        "url": "https://bridge.gelato.network/bridge/anomaly-andromeda-testnet"
+      }
     ]
   }
 }
