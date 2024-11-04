@@ -24842,6 +24842,19 @@
   "faucets": [],
   "infoURL": "https://gather.network"
 }, {
+  "name": "Westend Asset Hub",
+  "chainId": 420420421,
+  "shortName": "wst",
+  "networkId": 420420421,
+  "nativeCurrency": {
+    "name": "Westies",
+    "symbol": "WND",
+    "decimals": 18
+  },
+  "rpc": ["https://westend-asset-hub-eth-rpc.polkadot.io"],
+  "faucets": ["https://faucet.polkadot.io/westend"],
+  "infoURL": "https://polkadot.network"
+}, {
   "name": "Deprecated SKALE Europa Hub Testnet",
   "chainId": 476158412,
   "shortName": "deprecated-europa-testnet",
