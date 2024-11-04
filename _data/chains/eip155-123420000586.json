@@ -11,6 +11,7 @@
       "symbol": "ETH",
       "decimals": 18
     },
+    "infoURL": "https://raas.gelato.network/rollups/details/public/sivo-defi-testnet",
     "faucets": [],
     "shortName": "sivo-defi-testnet",
     "chainId": 123420000586,
@@ -30,6 +31,5 @@
       "bridges": [
         { "url": "https://testnet-bridge.gelato.network/bridge/sivo-defi-testnet" }
       ]
-    },
-    "status": "active"
+    }
   }
