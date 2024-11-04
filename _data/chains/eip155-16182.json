@@ -1,21 +1,22 @@
   {
     "name": "Eventum Testnet",
     "chain": "eventum-testnet",
-    "rpc": ["https://rpc.lydia-testnet.t.raas.gelato.cloud", "wss://ws.lydia-testnet.t.raas.gelato.cloud"],
+    "rpc": ["https://testnet-rpc.eh-dev.app", "wss://testnet-ws.eh-dev.app"],
     "faucets": [],
     "nativeCurrency": {
       "name": "Ether",
       "symbol": "ETH",
       "decimals": 18
     },
+    "infoUrl": "https://raas.gelato.network/rollups/details/public/event-horizon-eventum-testnet",
     "shortName": "eventum-testnet",
     "chainId": 16182,
     "slip44": 60,
     "networkId": 16182,
     "explorers": [
       {
-        "name": "Eventum Testnet",
-        "url": "https://testnet-blockscout.eh-dev.app/",
+        "name": "blockscout",
+        "url": "https://testnet-blockscout.eh-dev.app",
         "standard": "none"
       }
     ],
