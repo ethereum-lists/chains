@@ -1,7 +1,7 @@
 {
   "name": "Gravity Alpha Mainnet",
   "chain": "Gravity",
-  "rpc": ["https://rpc.gravity.xyz"],
+  "rpc": ["https://rpc.gravity.xyz", "https://rpc.ankr.com/gravity"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Gravity",
@@ -22,6 +22,16 @@
     {
       "name": "Gravity Alpha Mainnet Explorer",
       "url": "https://explorer.gravity.xyz",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "gscan",
+      "url": "https://gscan.xyz",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "OKLink",
+      "url": "https://www.oklink.com/gravity-alpha",
       "standard": "EIP3091"
     }
   ],
