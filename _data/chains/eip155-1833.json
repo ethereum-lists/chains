@@ -29,7 +29,9 @@
     "type": "L2",
     "chain": "eip155-80002",
     "bridges": [
-      { "url": "https://bridge.gelato.network/bridge/verify-testnet" }
+      {
+        "url": "https://bridge.gelato.network/bridge/verify-testnet"
+      }
     ]
   }
 }
