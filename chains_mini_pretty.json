@@ -25622,6 +25622,19 @@
   "faucets": [],
   "infoURL": "https://fluence.network/"
 }, {
+  "name": "volmex",
+  "chainId": 123420000588,
+  "shortName": "volmex",
+  "networkId": 123420000588,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.volmex.t.raas.gelato.cloud", "wss://ws.volmex.t.raas.gelato.cloud"],
+  "faucets": [],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/volmex"
+}, {
   "name": "Ntity Mainnet",
   "chainId": 197710212030,
   "shortName": "ntt",
