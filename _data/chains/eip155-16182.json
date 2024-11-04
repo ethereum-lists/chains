@@ -28,7 +28,9 @@
     "type": "L2",
     "chain": "eip155-421614",
     "bridges": [
-      { "url": "https://testnet-bridge.eh-dev.app/bridge/event-horizon-eventum-testnet" }
+      {
+        "url": "https://testnet-bridge.eh-dev.app/bridge/event-horizon-eventum-testnet"
+      }
     ]
   },
   "status": "active"
