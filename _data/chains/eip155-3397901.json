@@ -1,9 +1,9 @@
 {
-  "name": "Funki Sepolia Sandbox",
+  "name": "Funki Sepolia Testnet",
   "chain": "ETH",
   "icon": "funki",
   "rpc": ["https://funki-testnet.alt.technology"],
-  "faucets": [],
+  "faucets": ["https://funkichain.com/portfolio"],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
@@ -14,6 +14,11 @@
   "chainId": 3397901,
   "networkId": 3397901,
   "explorers": [
+    {
+      "name": "Funki Sepolia Testnet Explorer",
+      "url": "https://testnet.funkiscan.io",
+      "standard": "none"
+    },
     {
       "name": "Funki Sepolia Sandbox Explorer",
       "url": "https://sepolia-sandbox.funkichain.com",
