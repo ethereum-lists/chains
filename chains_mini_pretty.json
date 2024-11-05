@@ -1845,6 +1845,19 @@
   "faucets": [],
   "infoURL": "https://prodax.io/"
 }, {
+  "name": "Monad Mainnet",
+  "chainId": 143,
+  "shortName": "mon",
+  "networkId": 143,
+  "nativeCurrency": {
+    "name": "MON Token",
+    "symbol": "MON",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://monad.xyz"
+}, {
   "name": "PHI Network v2",
   "chainId": 144,
   "shortName": "PHI",
@@ -14455,6 +14468,19 @@
   "faucets": [],
   "infoURL": "https://www.xixoio.com/"
 }, {
+  "name": "Monad Testnet",
+  "chainId": 10143,
+  "shortName": "mon-testnet",
+  "networkId": 10143,
+  "nativeCurrency": {
+    "name": "Testnet MON Token",
+    "symbol": "MON",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://monad.xyz"
+}, {
   "name": "Gnosis Chiado Testnet",
   "chainId": 10200,
   "shortName": "chi",
@@ -16053,6 +16079,19 @@
   "rpc": ["https://testnet.nizascan.io/rpc"],
   "faucets": [],
   "infoURL": "https://niza.io"
+}, {
+  "name": "Monad Devnet",
+  "chainId": 20143,
+  "shortName": "mon-devnet",
+  "networkId": 20143,
+  "nativeCurrency": {
+    "name": "Devnet MON Token",
+    "symbol": "MON",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://monad.xyz"
 }, {
   "name": "Callisto Testnet",
   "chainId": 20729,
