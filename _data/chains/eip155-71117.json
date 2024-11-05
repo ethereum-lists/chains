@@ -1,0 +1,25 @@
+{
+  "name": "Wadzchain Testnet",
+  "title": "Wadzchain Testnet",
+  "chain": "Wadzchain-Testnet",
+  "icon": "wadz",
+  "rpc": ["https://rpc-testnet.wadzchain.io"],
+  "faucets": ["https://faucet-testnet.wadzchain.io"],
+  "nativeCurrency": {
+    "name": "WadzToken",
+    "symbol": "WTK",
+    "decimals": 18
+  },
+  "infoURL": "https://www.wadzchain-network.io",
+  "shortName": "wadzchain-testnet",
+  "chainId": 71117,
+  "networkId": 71117,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Wadzchain Testnet Explorer",
+      "url": "https://scan-testnet.wadzchain.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
