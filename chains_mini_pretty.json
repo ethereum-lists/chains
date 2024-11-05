@@ -25739,6 +25739,19 @@
   "faucets": [],
   "infoURL": "https://fluence.network/"
 }, {
+  "name": "PIN",
+  "chainId": 123420000558,
+  "shortName": "PIN",
+  "networkId": 123420000558,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.pin.t.raas.gelato.cloud", "wss://ws.pin.t.raas.gelato.cloud"],
+  "faucets": [],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/pin"
+}, {
   "name": "sivo-defi-testnet",
   "chainId": 123420000586,
   "shortName": "sivo-defi-testnet",
