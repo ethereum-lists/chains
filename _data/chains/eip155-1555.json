@@ -6,7 +6,7 @@
   "faucets": [],
   "nativeCurrency": {
     "name": "Digital Smart Chain",
-    "symbol": "DSCs",
+    "symbol": "DSC",
     "decimals": 18
   },
   "infoURL": "https://rpc01.dscscan.io",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "Digital Smart Chain",
-      "url": "https://explorer.dotblox.io",
+      "url": "https://dscscan.io",
       "standard": "EIP3091"
     }
   ]
