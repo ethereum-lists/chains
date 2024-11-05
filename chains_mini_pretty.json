@@ -24621,6 +24621,19 @@
   "faucets": [],
   "infoURL": "https://teamblockchain.team"
 }, {
+  "name": "Reya Cronos",
+  "chainId": 89346162,
+  "shortName": "reya-cronos",
+  "networkId": 89346162,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.reya-cronos.gelato.digital", "wss://ws.reya-cronos.gelato.digital"],
+  "faucets": [],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/reya-cronos"
+}, {
   "name": "Polygon Blackberry",
   "chainId": 94204209,
   "shortName": "polygon-blackberry",
