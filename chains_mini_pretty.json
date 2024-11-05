@@ -23295,7 +23295,7 @@
   "faucets": ["https://faucet.butterfly.fildev.network"],
   "infoURL": "https://filecoin.io"
 }, {
-  "name": "Funki Sepolia Sandbox",
+  "name": "Funki Sepolia Testnet",
   "chainId": 3397901,
   "shortName": "funkisepolia",
   "networkId": 3397901,
@@ -23305,7 +23305,7 @@
     "decimals": 18
   },
   "rpc": ["https://funki-testnet.alt.technology"],
-  "faucets": [],
+  "faucets": ["https://funkichain.com/portfolio"],
   "infoURL": "https://funkichain.com"
 }, {
   "name": "Manta Pacific Testnet",
