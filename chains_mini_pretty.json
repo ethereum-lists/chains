@@ -21306,6 +21306,19 @@
   "faucets": [],
   "infoURL": "https://orangechain.xyz"
 }, {
+  "name": "Anomaly Andromeda Testnet",
+  "chainId": 241120,
+  "shortName": "anomaly-andromeda-testnet",
+  "networkId": 241120,
+  "nativeCurrency": {
+    "name": "TestNom",
+    "symbol": "tNOM",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.anomaly-andromeda.anomalygames.io", "wss://ws.anomaly-andromeda.anomalygames.io"],
+  "faucets": [],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/anomaly-andromeda-testnet"
+}, {
   "name": "ARTIS sigma1",
   "chainId": 246529,
   "shortName": "ats",
