@@ -7773,6 +7773,19 @@
   "faucets": [],
   "infoURL": "https://www.playnance.com"
 }, {
+  "name": "Verify testnet",
+  "chainId": 1833,
+  "shortName": "verify-testnet",
+  "networkId": 1833,
+  "nativeCurrency": {
+    "name": "Matic",
+    "symbol": "MATIC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.verify-testnet.gelato.digital", "wss://ws.verify-testnet.gelato.digital"],
+  "faucets": [],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/verify-testnet"
+}, {
   "name": "HighOctane Subnet",
   "chainId": 1853,
   "shortName": "HighOctane",
