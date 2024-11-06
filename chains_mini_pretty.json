@@ -9502,6 +9502,19 @@
   "faucets": [],
   "infoURL": "https://inevm.com"
 }, {
+  "name": "Bahamut horizon",
+  "chainId": 2552,
+  "shortName": "horizon",
+  "networkId": 2552,
+  "nativeCurrency": {
+    "name": "FTN",
+    "symbol": "FTN",
+    "decimals": 18
+  },
+  "rpc": ["https://horizon-fastex-testnet.zeeve.net"],
+  "faucets": [],
+  "infoURL": "https://bahamut.io"
+}, {
   "name": "Kortho Mainnet",
   "chainId": 2559,
   "shortName": "ktoc",
