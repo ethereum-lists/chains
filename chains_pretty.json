@@ -15737,6 +15737,27 @@
     "icon": "timenet"
   }]
 }, {
+  "name": "Abstract",
+  "chain": "Abstract",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://abs.xyz",
+  "shortName": "abstract",
+  "chainId": 2741,
+  "networkId": 2741,
+  "icon": "abstract",
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  }
+}, {
   "name": "Nanon",
   "title": "Nanon Rollup",
   "chain": "ETH",
@@ -24070,7 +24091,7 @@
     "decimals": 18
   },
   "infoURL": "https://abs.xyz/",
-  "shortName": "Abstract",
+  "shortName": "abstract-sepolia",
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",

@@ -9697,6 +9697,19 @@
   "faucets": [],
   "infoURL": "https://whitepaper.anttime.net/overview/anttime"
 }, {
+  "name": "Abstract",
+  "chainId": 2741,
+  "shortName": "abstract",
+  "networkId": 2741,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://abs.xyz"
+}, {
   "name": "Nanon",
   "chainId": 2748,
   "shortName": "Nanon",
@@ -14821,7 +14834,7 @@
 }, {
   "name": "Abstract Testnet",
   "chainId": 11124,
-  "shortName": "Abstract",
+  "shortName": "abstract-sepolia",
   "networkId": 11124,
   "nativeCurrency": {
     "name": "ETH",
