@@ -1,0 +1,28 @@
+{
+  "name": "peaq",
+  "chain": "peaq",
+  "icon": "peaq",
+  "rpc": [
+    "https://peaq.api.onfinality.io/public",
+    "https://peaq-rpc.dwellir.com",
+    "https://peaq-rpc.publicnode.com",
+    "https://evm.peaq.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "peaq",
+    "symbol": "PEAQ",
+    "decimals": 18
+  },
+  "infoURL": "https://www.peaq.network",
+  "shortName": "PEAQ",
+  "chainId": 3338,
+  "networkId": 3338,
+  "explorers": [
+    {
+      "name": "Subscan",
+      "url": "https://peaq.subscan.io",
+      "standard": "none"
+    }
+  ]
+}
