@@ -1,6 +1,6 @@
 {
   "name": "Bitfinity Network Testnet",
-  "chain": "BFT",
+  "chain": "BTF",
   "features": [
     {
       "name": "EIP155"
@@ -9,11 +9,14 @@
       "name": "EIP1559"
     }
   ],
-  "rpc": ["https://testnet.bitfinity.network"],
+  "rpc": [
+    "https://testnet.bitfinity.network",
+    "https://node.testnet.bitfinity.network"
+  ],
   "faucets": ["https://bitfinity.network/faucet"],
   "nativeCurrency": {
     "name": "Bitfinity Token",
-    "symbol": "BFT",
+    "symbol": "BTF",
     "decimals": 18
   },
   "infoURL": "https://bitfinity.network",
