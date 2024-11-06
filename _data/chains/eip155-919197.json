@@ -1,0 +1,28 @@
+{
+  "name": "HexonChain Testnet",
+  "chain": "HEXON",
+  "rpc": [
+    "https://node-test1.hexonchain.com",
+    "https://node-test2.hexonchain.com/"
+  ],
+  "faucets": ["https://faucet-drop.hexonchain.com"],
+  "nativeCurrency": {
+    "name": "HEX",
+    "symbol": "tHEX",
+    "decimals": 18
+  },
+  "infoURL": "https://hexonchain.com",
+  "shortName": "hext",
+  "chainId": 919197,
+  "networkId": 919197,
+  "slip44": 1,
+  "icon": "hexon",
+  "explorers": [
+    {
+      "name": "Hexon Testnet Explorer",
+      "icon": "hexon",
+      "url": "https://testnet.hexochain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
