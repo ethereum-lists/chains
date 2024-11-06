@@ -13870,6 +13870,19 @@
   "faucets": [],
   "infoURL": "https://apexfusion.org/"
 }, {
+  "name": "KPA Smart Chain Testnet",
+  "chainId": 9091,
+  "shortName": "KPA",
+  "networkId": 9091,
+  "nativeCurrency": {
+    "name": "KPA Smart Chain Testnet",
+    "symbol": "tKPA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc1.koppachain.com/", "https://testnet-rpc2.koppachain.com/", "https://testnet-rpc3.koppachain.com/", "https://testnet-rpc4.koppachain.com/"],
+  "faucets": ["https://mint.koppachain.com"],
+  "infoURL": "https://koppachain.com"
+}, {
   "name": "Genesis Coin",
   "chainId": 9100,
   "shortName": "GENEC",
