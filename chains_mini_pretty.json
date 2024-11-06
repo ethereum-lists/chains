@@ -7994,6 +7994,19 @@
   "faucets": [],
   "infoURL": "https://app.swellnetwork.io/layer2/swell-l2"
 }, {
+  "name": "Swell Network Testnet",
+  "chainId": 1924,
+  "shortName": "swell-l2-testnet",
+  "networkId": 1924,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://swell-testnet.alt.technology"],
+  "faucets": [],
+  "infoURL": "https://app.swellnetwork.io/layer2/swell-l2"
+}, {
   "name": "Arvix Testnet",
   "chainId": 1927,
   "shortName": "arvix",
