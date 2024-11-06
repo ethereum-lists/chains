@@ -20617,6 +20617,19 @@
   "faucets": [],
   "infoURL": "https://docs.ic-plaza.org/"
 }, {
+  "name": "Odyssey Chain Mainnet",
+  "chainId": 153153,
+  "shortName": "Odyssey",
+  "networkId": 153153,
+  "nativeCurrency": {
+    "name": "DIONE",
+    "symbol": "DIONE",
+    "decimals": 18
+  },
+  "rpc": ["https://node.dioneprotocol.com/ext/bc/D/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.dioneprotocol.com"
+}, {
   "name": "CryptoX",
   "chainId": 158245,
   "shortName": "cryptox",
