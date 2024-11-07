@@ -1,0 +1,24 @@
+{
+  "name": "Clear Blocker Chain",
+  "chain": "CLR",
+  "rpc": ["https://rpc.clearblocker.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Clear",
+    "symbol": "CLR",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://clearblocker.com",
+  "shortName": "clr",
+  "chainId": 887766,
+  "networkId": 887766,
+  "icon": "clearblocker",
+  "explorers": [{
+    "name": "ClearBlocker Explorer",
+    "url": "https://explorer.clearblocker.com",
+    "icon": "clearblocker",
+    "standard": "EIP3091"
+  }]
+}
+
