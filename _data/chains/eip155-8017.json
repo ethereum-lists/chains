@@ -1,0 +1,26 @@
+{
+  "name": "iSunCoin Mainnet",
+  "chain": "iSunCoin",
+  "icon": "isuncoin",
+  "rpc": ["https://mainnet.isuncoin.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ISC",
+    "symbol": "ISC",
+    "decimals": 18
+  },
+  "infoURL": "https://isuncoin.com",
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "shortName": "isc",
+  "chainId": 8017,
+  "networkId": 8017,
+  "slip44": 8017,
+  "explorers": [
+    {
+      "name": "iSunCoin Explorer",
+      "icon": "isuncoin",
+      "url": "https://baifa.io/app/chains/8017",
+      "standard": "none"
+    }
+  ]
+}
