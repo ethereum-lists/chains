@@ -1808,11 +1808,11 @@
 }, {
   "name": "Eternal Mainnet",
   "chainId": 140,
-  "shortName": "Eter",
+  "shortName": "ETE",
   "networkId": 140,
   "nativeCurrency": {
     "name": "Eternal",
-    "symbol": "Eter",
+    "symbol": "ETE",
     "decimals": 18
   },
   "rpc": ["https://mainnet.eternalcoin.io/v1", "ws://mainnet.eternalcoin.io/v1/ws"],
