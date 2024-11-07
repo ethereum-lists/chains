@@ -1,0 +1,24 @@
+{
+    "name": "Betherance Mainnet",
+    "chain": "BETH",
+    "rpc": ["https://rpc.bethscan.io/"],
+    "faucets": [""],
+    "nativeCurrency": {
+      "name": "Betherance",
+      "symbol": "BETH",
+      "decimals": 18
+    },
+    "infoURL": "https://rpc.bethscan.io/",
+    "shortName": "BETH",
+    "chainId": 1605,
+    "networkId": 1605,
+    "icon": "bether",
+    "explorers": [
+      {
+        "name": "Betherance Mainnet",
+        "url": "https://bethscan.io/",
+        "icon": "bether",
+        "standard": "none"
+      }
+    ]
+  }
