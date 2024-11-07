@@ -14,11 +14,12 @@
   "chainId": 887766,
   "networkId": 887766,
   "icon": "clearblocker",
-  "explorers": [{
-    "name": "ClearBlocker Explorer",
-    "url": "https://explorer.clearblocker.com",
-    "icon": "clearblocker",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "ClearBlocker Explorer",
+      "url": "https://explorer.clearblocker.com",
+      "icon": "clearblocker",
+      "standard": "EIP3091"
+    }
+  ]
 }
-
