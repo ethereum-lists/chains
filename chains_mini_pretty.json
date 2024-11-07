@@ -14728,6 +14728,19 @@
   "faucets": [],
   "infoURL": "https://www.lamina1.com/"
 }, {
+  "name": "GameSwift Chain Testnet",
+  "chainId": 10888,
+  "shortName": "gameswift-chain-testnet",
+  "networkId": 10888,
+  "nativeCurrency": {
+    "name": "TGameSwift",
+    "symbol": "tGS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.gameswift.io", "wss://ws-testnet.gameswift.io"],
+  "faucets": [],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/gameswift-chain-testnet"
+}, {
   "name": "Quadrans Blockchain",
   "chainId": 10946,
   "shortName": "quadrans",
