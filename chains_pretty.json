@@ -10905,6 +10905,7 @@
 }, {
   "name": "Moonbeam",
   "chain": "MOON",
+  "icon": "moonbeam",
   "rpc": ["https://rpc.api.moonbeam.network", "wss://wss.api.moonbeam.network", "https://moonbeam.public.blastapi.io", "wss://moonbeam.public.blastapi.io", "https://moonbeam-rpc.dwellir.com", "wss://moonbeam-rpc.dwellir.com", "https://moonbeam.api.onfinality.io/public", "wss://moonbeam.api.onfinality.io/public-ws", "https://moonbeam.unitedbloc.com", "wss://moonbeam.unitedbloc.com", "https://moonbeam-rpc.publicnode.com", "wss://moonbeam-rpc.publicnode.com", "https://moonbeam.drpc.org", "wss://moonbeam.drpc.org"],
   "faucets": [],
   "nativeCurrency": {
@@ -10924,6 +10925,7 @@
 }, {
   "name": "Moonriver",
   "chain": "MOON",
+  "icon": "moonriver",
   "rpc": ["https://rpc.api.moonriver.moonbeam.network", "wss://wss.api.moonriver.moonbeam.network", "https://moonriver.public.blastapi.io", "wss://moonriver.public.blastapi.io", "https://moonriver-rpc.dwellir.com", "wss://moonriver-rpc.dwellir.com", "https://moonriver.api.onfinality.io/public", "wss://moonriver.api.onfinality.io/public-ws", "https://moonriver.unitedbloc.com", "wss://moonriver.unitedbloc.com", "https://moonriver-rpc.publicnode.com", "wss://moonriver-rpc.publicnode.com", "https://moonriver.drpc.org", "wss://moonriver.drpc.org"],
   "faucets": [],
   "nativeCurrency": {
@@ -10958,8 +10960,9 @@
 }, {
   "name": "Moonbase Alpha",
   "chain": "MOON",
+  "icon": "moonbasealpha",
   "rpc": ["https://rpc.api.moonbase.moonbeam.network", "wss://wss.api.moonbase.moonbeam.network", "https://moonbase-alpha.public.blastapi.io", "wss://moonbase-alpha.public.blastapi.io", "https://moonbase-rpc.dwellir.com", "wss://moonbase-rpc.dwellir.com", "https://moonbeam-alpha.api.onfinality.io/public", "wss://moonbeam-alpha.api.onfinality.io/public-ws", "https://moonbase.unitedbloc.com", "wss://moonbase.unitedbloc.com", "https://moonbase-alpha.drpc.org", "wss://moonbase-alpha.drpc.org"],
-  "faucets": [],
+  "faucets": ["https://faucet.moonbeam.network/"],
   "nativeCurrency": {
     "name": "Dev",
     "symbol": "DEV",
