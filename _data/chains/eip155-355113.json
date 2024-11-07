@@ -10,10 +10,11 @@
     }
   ],
   "rpc": [
-    "https://testnet.bitfinity.network",
-    "https://node.testnet.bitfinity.network"
+    "https://testnet.bitfinity.network"
   ],
-  "faucets": ["https://bitfinity.network/faucet"],
+  "faucets": [
+    "https://bitfinity.network/faucet"
+  ],
   "nativeCurrency": {
     "name": "Bitfinity Token",
     "symbol": "BTF",
