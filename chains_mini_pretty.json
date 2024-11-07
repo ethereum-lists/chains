@@ -14455,6 +14455,19 @@
   "faucets": [],
   "infoURL": "http://smartbch.org/"
 }, {
+  "name": "Warden Testnet",
+  "chainId": 10010,
+  "shortName": "ward",
+  "networkId": 10010,
+  "nativeCurrency": {
+    "name": "WARD",
+    "symbol": "WARD",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.chiado.wardenprotocol.org", "wss://evm-ws.chiado.wardenprotocol.org"],
+  "faucets": ["https://faucet.chiado.wardenprotocol.org"],
+  "infoURL": "https://wardenprotocol.org"
+}, {
   "name": "Gon Chain",
   "chainId": 10024,
   "shortName": "gon",

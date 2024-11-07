@@ -23475,6 +23475,21 @@
   "networkId": 10001,
   "slip44": 1
 }, {
+  "name": "Warden Testnet",
+  "chain": "WARD",
+  "rpc": ["https://evm.chiado.wardenprotocol.org", "wss://evm-ws.chiado.wardenprotocol.org"],
+  "faucets": ["https://faucet.chiado.wardenprotocol.org"],
+  "nativeCurrency": {
+    "name": "WARD",
+    "symbol": "WARD",
+    "decimals": 18
+  },
+  "infoURL": "https://wardenprotocol.org",
+  "icon": "warden",
+  "shortName": "ward",
+  "chainId": 10010,
+  "networkId": 10010
+}, {
   "name": "Gon Chain",
   "chain": "GonChain",
   "icon": "gonchain",
