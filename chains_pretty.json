@@ -35702,7 +35702,7 @@
   }]
 }, {
   "name": "Bitfinity Network Mainnet",
-  "chain": "BFT",
+  "chain": "BTF",
   "features": [{
     "name": "EIP155"
   }, {
@@ -35712,7 +35712,7 @@
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitfinity Token",
-    "symbol": "BFT",
+    "symbol": "BTF",
     "decimals": 18
   },
   "infoURL": "https://bitfinity.network",
@@ -35727,7 +35727,7 @@
   }]
 }, {
   "name": "Bitfinity Network Testnet",
-  "chain": "BFT",
+  "chain": "BTF",
   "features": [{
     "name": "EIP155"
   }, {
@@ -35737,7 +35737,7 @@
   "faucets": ["https://bitfinity.network/faucet"],
   "nativeCurrency": {
     "name": "Bitfinity Token",
-    "symbol": "BFT",
+    "symbol": "BTF",
     "decimals": 18
   },
   "infoURL": "https://bitfinity.network",
