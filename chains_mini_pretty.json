@@ -11569,6 +11569,19 @@
   "faucets": [],
   "infoURL": "https://explorer.testnet.itxchain.com"
 }, {
+  "name": "Superseed",
+  "chainId": 5330,
+  "shortName": "sseed",
+  "networkId": 5330,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.superseed.xyz", "wss://mainnet.superseed.xyz"],
+  "faucets": [],
+  "infoURL": "https://www.superseed.xyz"
+}, {
   "name": "Netsbo",
   "chainId": 5333,
   "shortName": "nets",
