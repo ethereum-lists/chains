@@ -25339,14 +25339,7 @@
     "name": "EOS EVM Explorer",
     "url": "https://explorer.testnet.evm.eosnetwork.com",
     "standard": "EIP3091"
-  }],
-  "parent": {
-    "type": "L2",
-    "chain": "eip155-1",
-    "bridges": [{
-      "url": "https://bridge.testnet.evm.eosnetwork.com"
-    }]
-  }
+  }]
 }, {
   "name": "MetaDot Mainnet",
   "chain": "MTT",
@@ -25844,16 +25837,7 @@
     "name": "EOS EVM Explorer",
     "url": "https://explorer.evm.eosnetwork.com",
     "standard": "EIP3091"
-  }],
-  "parent": {
-    "type": "L2",
-    "chain": "eip155-1",
-    "bridges": [{
-      "url": "https://bridge.evm.eosnetwork.com"
-    }, {
-      "url": "https://app.multichain.org"
-    }]
-  }
+  }]
 }, {
   "name": "Frontier of Dreams Testnet",
   "chain": "Game Network",
