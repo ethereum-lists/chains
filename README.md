@@ -52,6 +52,8 @@ where:
  * the URL must be an IPFS url that is publicly resolvable
  * width and height are positive integers
  * format is either "png", "jpg" or "svg"
+ * file size must not exceed 100 KB
+ * icons must not be duplicates
 
 If the chain is an L2 or a shard of another chain you can link it to the parent chain like this:
 

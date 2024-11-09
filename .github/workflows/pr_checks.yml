@@ -64,6 +64,7 @@ jobs:
             META_WIDTH=$(echo "$METADATA" | jq '.[0].ImageWidth' -r)
             META_HEIGHT=$(echo "$METADATA" | jq '.[0].ImageHeight' -r)
             META_TYPE=$(echo "$METADATA" | jq '.[0].FileTypeExtension' -r)
+            FILE_SIZE=$(stat -c%s "$TARGET_FILE")
 
             if [ "$SCHEMA_WIDTH" != "$META_WIDTH" ]; then
               echo "Expected width $SCHEMA_WIDTH, got $META_WIDTH"
@@ -99,6 +100,18 @@ jobs:
                 BAD=1
                 ;;
             esac
+
+            if [ "$FILE_SIZE" -gt 102400 ]; then
+              echo "File size exceeds 100 KB"
+              BAD=1
+            fi
+
+            for CHANGED_ICON_BLOB in "${CHANGED_ICON_BLOBS[@]}"; do
+              if [ "$CHANGED_ICON_BLOB" != "$TARGET_FILE" ] && cmp -s "$CHANGED_ICON_BLOB" "$TARGET_FILE"; then
+                echo "Duplicate icon found: $CHANGED_ICON_BLOB"
+                BAD=1
+              fi
+            done
           else
             echo "Expected an IPFS URL, got $URL"
             BAD=1

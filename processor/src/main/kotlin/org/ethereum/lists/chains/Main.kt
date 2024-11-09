@@ -13,6 +13,7 @@ import org.kethereum.rpc.HttpEthereumRPC
 import java.math.BigInteger
 import javax.imageio.ImageIO
 import kotlin.io.OnErrorAction.*
+import java.security.MessageDigest
 
 val parsedShortNames = mutableSetOf<String>()
 val parsedNames = mutableSetOf<String>()
@@ -232,6 +233,16 @@ fun checkIcon(icon: File, withIconDownload: Boolean, allIconCIDs: MutableSet<Str
 
                 if (image.raster.height != height) {
                     error("height in json ($icon) is $height but actually is in imageDownload ${image.height}")
+                }
+
+                val fileSize = iconDownloadFile.length()
+                if (fileSize > 100 * 1024) {
+                    error("Icon file size exceeds 100 KB")
+                }
+
+                val iconHash = calculateHash(iconDownloadFile)
+                if (isDuplicateIcon(iconHash)) {
+                    error("Duplicate icon found: $icon")
                 }
             } catch (e: Exception) {
                 e.printStackTrace()
@@ -540,4 +551,17 @@ private fun getNumber(jsonObject: JsonObject, field: String): Long {
         is Long -> chainId
         else -> throw (Exception("not a number at $field"))
     }
+}
+
+private fun calculateHash(file: File): String {
+    val digest = MessageDigest.getInstance("SHA-256")
+    val bytes = file.readBytes()
+    val hashBytes = digest.digest(bytes)
+    return hashBytes.joinToString("") { "%02x".format(it) }
+}
+
+private val iconHashes = mutableSetOf<String>()
+
+private fun isDuplicateIcon(hash: String): Boolean {
+    return !iconHashes.add(hash)
 }
