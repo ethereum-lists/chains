@@ -1,34 +1,36 @@
 {
-    "name": "arena-z",
-    "title": "Arena-Z",
-    "chain": "arena-z",
-    "rpc": ["https://rpc.arena-z.gg", "wss://ws.arena-z.gg"],
-    "nativeCurrency": {
-        "name": "Ether",
-        "symbol": "ETH",
-        "decimals": 18
-    },
-    "infoURL": "https://raas.gelato.network/rollups/details/public/arena-z",
-    "faucets": [],
-    "shortName": "arena-z",
-    "chainId": 7897,
-    "networkId": 7897,
-    "slip44": 60,
-    "explorers": [
-        {
-            "name": "blockscout",
-            "url": "https://explorer.arena-z.gg",
-            "standard": "EIP3091"
-        }
-    ],
-    "parent": {
-        "type": "L2",
-        "chain": "eip155-1",
-        "bridges": [
-            {
-                "url": "https://bridge.gelato.network/bridge/arena-z"
-            }
-        ]
-    },
-    "status": "active"
+  "name": "arena-z",
+  "title": "arena-z",
+  "chain": "arena-z",
+  "rpc": [
+    "https://rpc.arena-z.gg",
+    "wss://ws.arena-z.gg"
+  ],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://raas.gelato.network/rollups/details/public/arena-z",
+  "faucets": [],
+  "shortName": "arena-z",
+  "chainId": 7897,
+  "networkId": 7897,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.arena-z.gg",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [
+      {
+        "url": "https://bridge.gelato.network/bridge/arena-z"
+      }
+    ]
+  }
 }
