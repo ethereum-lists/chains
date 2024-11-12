@@ -1,0 +1,17 @@
+{
+    "name": "EsaCoin",
+    "chain": "EsaCoin",
+    "rpc": ["http://65.108.151.70:8545"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "EsaCoin",
+      "symbol": "ESA",
+      "decimals": 18
+    },
+    "infoURL": "https://esculap.us",
+    "shortName": "Esa",
+    "chainId": 64879,
+    "networkId": 64879,
+    "icon": "EsaCoins",
+    "explorers": []
+  }
