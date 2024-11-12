@@ -21,6 +21,11 @@
   "slip44": 9005,
   "explorers": [
     {
+      "name": "snowscan",
+      "url": "https://snowscan.xyz",
+      "standard": "EIP3091"
+    },
+    {
       "name": "snowtrace",
       "url": "https://snowtrace.io",
       "standard": "EIP3091"
