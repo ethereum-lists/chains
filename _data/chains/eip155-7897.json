@@ -29,7 +29,9 @@
       "type": "L2",
       "chain": "eip155-1",
       "bridges": [
-        { "url": "https://bridge.gelato.network/bridge/arena-z" }
+        {
+            "url": "https://bridge.gelato.network/bridge/arena-z"
+        }
       ]
     },
     "status": "active"
