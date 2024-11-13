@@ -9476,6 +9476,19 @@
   "faucets": [],
   "infoURL": "https://karak.network"
 }, {
+  "name": "K2 Testnet",
+  "chainId": 2512,
+  "shortName": "K2-testnet",
+  "networkId": 2512,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://karak.network"
+}, {
   "name": "Fraxtal Testnet",
   "chainId": 2522,
   "shortName": "fraxtal-testnet",
