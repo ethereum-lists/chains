@@ -10958,6 +10958,19 @@
   "faucets": ["https://laikachain.dog/faucets"],
   "infoURL": "https://laikachain.dog"
 }, {
+  "name": "Echos Chain",
+  "chainId": 4321,
+  "shortName": "echos",
+  "networkId": 4321,
+  "nativeCurrency": {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://www.echos.fun/"
+}, {
   "name": "Bobafuji Testnet",
   "chainId": 4328,
   "shortName": "BobaFujiTestnet",
