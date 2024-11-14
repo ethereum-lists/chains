@@ -2127,9 +2127,9 @@
     "symbol": "OMNI",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://mainnet.omni.network", "wss://wss.mainnet.omni.network"],
   "faucets": [],
-  "infoURL": "https://docs.omni.network/"
+  "infoURL": "https://docs.omni.network"
 }, {
   "name": "Atoshi Testnet",
   "chainId": 167,
