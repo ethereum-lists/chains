@@ -11695,6 +11695,21 @@
   },
   "redFlags": ["reusedChainId"]
 }, {
+  "name": "Islander",
+  "chain": "Islander",
+  "rpc": [],
+  "nativeCurrency": {
+    "name": "Islander",
+    "symbol": "ISL",
+    "decimals": 18
+  },
+  "faucets": [],
+  "infoURL": "",
+  "shortName": "isl",
+  "chainId": 1480,
+  "networkId": 1480,
+  "explorers": []
+}, {
   "name": "Vitruveo Mainnet",
   "title": "Vitruveo is a blockchain for Creators",
   "chain": "Vitruveo",
