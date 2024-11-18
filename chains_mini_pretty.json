@@ -18420,6 +18420,19 @@
   "faucets": ["https://rollux.id/faucetapp"],
   "infoURL": "https://rollux.com"
 }, {
+  "name": "Ink",
+  "chainId": 57073,
+  "shortName": "ink",
+  "networkId": 57073,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://inkonchain.com"
+}, {
   "name": "COINSEC Network",
   "chainId": 57451,
   "shortName": "coinsecnetwork",
