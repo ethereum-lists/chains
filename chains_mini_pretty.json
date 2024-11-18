@@ -2287,6 +2287,19 @@
   "faucets": [],
   "infoURL": "https://waterfall.network"
 }, {
+  "name": "IOST Mainnet",
+  "chainId": 182,
+  "shortName": "iost-mainnet",
+  "networkId": 182,
+  "nativeCurrency": {
+    "name": "BNB Chain Native Token",
+    "symbol": "BNB",
+    "decimals": 18
+  },
+  "rpc": ["https://iost-mainnet.alt.technology"],
+  "faucets": [],
+  "infoURL": "https://iost.io"
+}, {
   "name": "Ethernity",
   "chainId": 183,
   "shortName": "ethernity-mainnet",
