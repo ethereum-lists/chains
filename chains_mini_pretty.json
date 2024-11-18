@@ -3197,6 +3197,19 @@
   "faucets": [],
   "infoURL": "www.orderly.network"
 }, {
+  "name": "DaVinci",
+  "chainId": 293,
+  "shortName": "davinci",
+  "networkId": 293,
+  "nativeCurrency": {
+    "name": "DaVinci",
+    "symbol": "DCOIN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.davinci.bz"],
+  "faucets": [],
+  "infoURL": "https://davinci.bz"
+}, {
   "name": "Hedera Mainnet",
   "chainId": 295,
   "shortName": "hedera-mainnet",
