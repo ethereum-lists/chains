@@ -12,13 +12,12 @@
   "shortName": "iost-mainnet",
   "chainId": 182,
   "networkId": 182,
-  "icon": "iost",
+  "icon": "bnbchain",
   "slip44": 714,
   "explorers": [
     {
       "name": "IOSTscan",
       "url": "https://iost-mainnet-explorer.alt.technology",
-      "icon": "iost",
       "standard": "EIP3091"
     }
   ],
