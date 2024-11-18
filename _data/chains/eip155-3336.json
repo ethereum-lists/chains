@@ -12,5 +12,10 @@
   "shortName": "esl2-t",
   "chainId": 3336,
   "networkId": 3336,
-  "slip44": 1
+  "slip44": 1,
+  "status": "incubating",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  }
 }
