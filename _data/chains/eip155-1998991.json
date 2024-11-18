@@ -1,0 +1,22 @@
+{
+  "name": "Xphere Testnet",
+  "chain": "Xphere Testnet",
+  "icon": "xphere",
+  "rpc": ["http://testnet.x-phere.com"],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Xphere Testnet",
+    "symbol": "XPT",
+    "decimals": 18
+  },
+  "infoURL": "https://x-phere.com/",
+  "shortName": "xp-test",
+  "chainId": 1998991,
+  "networkId": 1998991,
+  "explorers": []
+}
