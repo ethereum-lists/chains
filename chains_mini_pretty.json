@@ -17120,6 +17120,19 @@
   "faucets": [],
   "infoURL": "https://docs.wirexpaychain.com/tech/wirex-pay-chain"
 }, {
+  "name": "Mezo Matsnet Testnet",
+  "chainId": 31611,
+  "shortName": "mezo",
+  "networkId": 31611,
+  "nativeCurrency": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.test.mezo.org"],
+  "faucets": ["https://mezo.org/matsnet"],
+  "infoURL": "https://mezo.org/"
+}, {
   "name": "Xchain Mainnet",
   "chainId": 31753,
   "shortName": "INTD",
