@@ -8059,6 +8059,19 @@
   "faucets": [],
   "infoURL": "https://soneium.org"
 }, {
+  "name": "Bionix Testnet",
+  "chainId": 1949,
+  "shortName": "tbio",
+  "networkId": 1949,
+  "nativeCurrency": {
+    "name": "Bionix",
+    "symbol": "tBIO",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-chain.bionixnetwork.com"],
+  "faucets": [],
+  "infoURL": "https://bionixnetwork.com"
+}, {
   "name": "D-Chain Mainnet",
   "chainId": 1951,
   "shortName": "dchain-mainnet",
