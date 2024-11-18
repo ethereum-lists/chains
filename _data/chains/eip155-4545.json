@@ -1,8 +1,8 @@
 {
-  "name": "Emoney Network Testnet",
+  "name": "Emoney Network Mainnet",
   "chain": "Emoney",
-  "rpc": ["https://testnet.emoney.network/"],
-  "faucets": ["https://faucet.emoney.network/faucet"],
+  "rpc": ["https://rpc-publicnode.emoney.io/"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Emoney Network",
     "symbol": "EMYC",
@@ -10,14 +10,14 @@
   },
   "infoURL": "https://emoney.network/",
   "shortName": "emoney",
-  "chainId": 4544,
-  "networkId": 4544,
+  "chainId": 4545,
+  "networkId": 4545,
   "slip44": 118,
   "icon": "emoney",
   "explorers": [
     {
-      "name": "EMoney ethscan",
-      "url": "https://explore-stage.emoney.network/dashboard",
+      "name": "EMoney explorer",
+      "url": "https://explore.emoney.network/dashboard",
       "icon": "emoney",
       "standard": "EIP3091"
     }
