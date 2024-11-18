@@ -12986,6 +12986,19 @@
   "faucets": ["https://faucet-athena.ardescan.com/"],
   "infoURL": "https://ardenium.org"
 }, {
+  "name": "arena-z",
+  "chainId": 7897,
+  "shortName": "arena-z",
+  "networkId": 7897,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.arena-z.gg", "wss://ws.arena-z.gg"],
+  "faucets": [],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/arena-z"
+}, {
   "name": "Dot Blox",
   "chainId": 7923,
   "shortName": "DTBX",
