@@ -1,0 +1,18 @@
+{
+  "name": "Apex Fusion - Nexus Mainnet",
+  "chain": "Nexus Mainnet",
+  "rpc": ["https://rpc.nexus.mainnet.apexfusion.org/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Apex Fusion Token",
+    "symbol": "AP3X",
+    "decimals": 18
+  },
+  "infoURL": "https://apexfusion.org/",
+  "features": [{ "name": "EIP155" }],
+  "shortName": "AP3X",
+  "chainId": 9069,
+  "networkId": 9069,
+  "icon": "apexfusion",
+  "explorers": []
+}
