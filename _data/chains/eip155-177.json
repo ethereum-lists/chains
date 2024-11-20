@@ -1,0 +1,21 @@
+{
+  "name": "HashKey Chain",
+  "title": "HashKey Chain",
+  "chain": "HashKey Chain",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "HashKey EcoPoints",
+    "symbol": "HSK",
+    "decimals": 18
+  },
+  "infoURL": "https://hsk.xyz",
+  "shortName": "HSK",
+  "chainId": 177,
+  "networkId": 177,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
+}
