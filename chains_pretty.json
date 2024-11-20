@@ -7586,7 +7586,7 @@
     "decimals": 18
   },
   "infoURL": "https://docs.nerochain.io/",
-  "shortName": "NERO",
+  "shortName": "NEROT",
   "chainId": 689,
   "networkId": 689,
   "slip44": 1,
@@ -12330,6 +12330,27 @@
   "icon": "ludan",
   "chainId": 1688,
   "networkId": 1688
+}, {
+  "name": "NERO Mainnet",
+  "chain": "NERO Chain",
+  "rpc": ["https://rpc.nerochain.io", "wss://ws.nerochain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NERO",
+    "symbol": "NERO",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.nerochain.io/",
+  "shortName": "NERO",
+  "chainId": 1689,
+  "networkId": 1689,
+  "slip44": 1,
+  "icon": "nero",
+  "explorers": [{
+    "name": "nero mainnet scan",
+    "url": "https://www.neroscan.io",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Anytype EVM Chain",
   "chain": "ETH",

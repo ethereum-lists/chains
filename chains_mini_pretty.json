@@ -4642,7 +4642,7 @@
 }, {
   "name": "NERO Testnet",
   "chainId": 689,
-  "shortName": "NERO",
+  "shortName": "NEROT",
   "networkId": 689,
   "nativeCurrency": {
     "name": "NERO",
@@ -7616,6 +7616,19 @@
   "rpc": ["https://rpc.ludan.org/"],
   "faucets": [],
   "infoURL": "https://www.ludan.org/"
+}, {
+  "name": "NERO Mainnet",
+  "chainId": 1689,
+  "shortName": "NERO",
+  "networkId": 1689,
+  "nativeCurrency": {
+    "name": "NERO",
+    "symbol": "NERO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.nerochain.io", "wss://ws.nerochain.io"],
+  "faucets": [],
+  "infoURL": "https://docs.nerochain.io/"
 }, {
   "name": "Anytype EVM Chain",
   "chainId": 1701,
