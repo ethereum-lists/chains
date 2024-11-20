@@ -17588,6 +17588,19 @@
   "faucets": [],
   "infoURL": "https://q.org/"
 }, {
+  "name": "Lens Testnet",
+  "chainId": 37111,
+  "shortName": "lens-sepolia",
+  "networkId": 37111,
+  "nativeCurrency": {
+    "name": "GRASS",
+    "symbol": "GRASS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.lens.dev"],
+  "faucets": ["https://www.alchemy.com/faucets/lens-sepolia"],
+  "infoURL": "https://www.lens.xyz"
+}, {
   "name": "ConnectorManager",
   "chainId": 38400,
   "shortName": "cmrpg",
