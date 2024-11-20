@@ -7487,6 +7487,19 @@
   "faucets": [],
   "infoURL": "https://www.starworksglobal.com"
 }, {
+  "name": "Betherance",
+  "chainId": 1605,
+  "shortName": "Beth",
+  "networkId": 1605,
+  "nativeCurrency": {
+    "name": "Betherance",
+    "symbol": "BETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.bethscan.io"],
+  "faucets": [],
+  "infoURL": "https://rpc.bethscan.io"
+}, {
   "name": "Ethereum Inscription Mainnet",
   "chainId": 1617,
   "shortName": "etins",
