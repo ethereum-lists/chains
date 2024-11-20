@@ -3041,6 +3041,19 @@
   "faucets": [],
   "infoURL": "https://neonlink.io"
 }, {
+  "name": "Guru Network",
+  "chainId": 260,
+  "shortName": "guru",
+  "networkId": 260,
+  "nativeCurrency": {
+    "name": "Guru",
+    "symbol": "GURU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.gurunetwork.ai/archive/260"],
+  "faucets": [],
+  "infoURL": "https://gurunetwork.ai"
+}, {
   "name": "Guru Network Testnet",
   "chainId": 261,
   "shortName": "tguru",
