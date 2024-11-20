@@ -1,0 +1,24 @@
+{
+  "name": "Guru Network",
+  "chain": "GURU",
+  "icon": "GuruNetwork",
+  "rpc": ["https://rpc.gurunetwork.ai/archive/260"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Guru",
+    "symbol": "GURU",
+    "decimals": 18
+  },
+  "infoURL": "https://gurunetwork.ai",
+  "shortName": "guru",
+  "chainId": 260,
+  "networkId": 260,
+  "explorers": [
+    {
+      "name": "guruscan",
+      "url": "https://scan.gurunetwork.ai",
+      "standard": "EIP3091"
+    }
+  ]
+}
