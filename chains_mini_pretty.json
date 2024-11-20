@@ -3535,6 +3535,19 @@
   "faucets": [],
   "infoURL": "https://grvt.io/"
 }, {
+  "name": "Omax Testnet",
+  "chainId": 332,
+  "shortName": "omaxt",
+  "networkId": 332,
+  "nativeCurrency": {
+    "name": "OMAX TESTCOIN",
+    "symbol": "OMAXT",
+    "decimals": 18
+  },
+  "rpc": ["https://testapi.omaxray.com"],
+  "faucets": ["https://faucet.omaxray.com/"],
+  "infoURL": "https://www.omaxcoin.com/"
+}, {
   "name": "Web3Q Mainnet",
   "chainId": 333,
   "shortName": "w3q",
