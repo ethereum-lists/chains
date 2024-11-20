@@ -2235,6 +2235,19 @@
   "faucets": [],
   "infoURL": "https://www.dcnetio.cloud"
 }, {
+  "name": "HashKey Chain",
+  "chainId": 177,
+  "shortName": "HSK",
+  "networkId": 177,
+  "nativeCurrency": {
+    "name": "HashKey EcoPoints",
+    "symbol": "HSK",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://hsk.xyz"
+}, {
   "name": "ABEY Testnet",
   "chainId": 178,
   "shortName": "abeyt",
