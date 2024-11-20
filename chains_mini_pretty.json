@@ -10204,6 +10204,19 @@
   "faucets": ["https://faucet.zcore.cash"],
   "infoURL": "https://zcore.cash"
 }, {
+  "name": "EthStorage L2 Mainnet",
+  "chainId": 3332,
+  "shortName": "esl2-m",
+  "networkId": 3332,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["http://mainnet.l2.ethstorage.io:9540"],
+  "faucets": [],
+  "infoURL": "https://ethstorage.io/"
+}, {
   "name": "EthStorage Testnet",
   "chainId": 3333,
   "shortName": "es-t",
@@ -10230,16 +10243,42 @@
   "faucets": [],
   "infoURL": "https://galileo.web3q.io/home.w3q/"
 }, {
-  "name": "EthStorage Mainnet",
+  "name": "EthStorage L2 Devnet",
   "chainId": 3335,
-  "shortName": "es-m",
+  "shortName": "esl2-d",
   "networkId": 3335,
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["http://mainnet.ethstorage.io:9540"],
+  "rpc": ["http://devnet.l2.ethstorage.io:9540"],
+  "faucets": [],
+  "infoURL": "https://ethstorage.io/"
+}, {
+  "name": "EthStorage L2 Testnet",
+  "chainId": 3336,
+  "shortName": "esl2-t",
+  "networkId": 3336,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["http://testnet.l2.ethstorage.io:9540"],
+  "faucets": [],
+  "infoURL": "https://ethstorage.io/"
+}, {
+  "name": "EthStorage Devnet",
+  "chainId": 3337,
+  "shortName": "es-d",
+  "networkId": 3337,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["http://devnet.ethstorage.io:9540"],
   "faucets": [],
   "infoURL": "https://ethstorage.io/"
 }, {
@@ -10255,6 +10294,19 @@
   "rpc": ["https://peaq.api.onfinality.io/public", "https://peaq-rpc.dwellir.com", "https://peaq-rpc.publicnode.com", "https://evm.peaq.network"],
   "faucets": [],
   "infoURL": "https://www.peaq.network"
+}, {
+  "name": "EthStorage Mainnet",
+  "chainId": 3339,
+  "shortName": "es-m",
+  "networkId": 3339,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["http://mainnet.ethstorage.io:9540"],
+  "faucets": [],
+  "infoURL": "https://ethstorage.io/"
 }, {
   "name": "Paribu Net Mainnet",
   "chainId": 3400,
