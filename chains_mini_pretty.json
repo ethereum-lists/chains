@@ -19850,6 +19850,19 @@
   "faucets": [],
   "infoURL": "https://units.network"
 }, {
+  "name": "Matr1x Testnet",
+  "chainId": 88866,
+  "shortName": "Matr1x-Testnet",
+  "networkId": 88866,
+  "nativeCurrency": {
+    "name": "MAX",
+    "symbol": "MAX",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.m1chain.io"],
+  "faucets": [],
+  "infoURL": "https://matr1x.io"
+}, {
   "name": "Chiliz Scoville Testnet",
   "chainId": 88880,
   "shortName": "chz",
