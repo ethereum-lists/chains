@@ -11517,6 +11517,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Pioneer Chain Testnet",
+  "chainId": 5090,
+  "shortName": "pio",
+  "networkId": 5090,
+  "nativeCurrency": {
+    "name": "Pioneer",
+    "symbol": "PIO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.pionescan.com"],
+  "faucets": [],
+  "infoURL": "https://pionechain.com"
+}, {
   "name": "Syndicate Testnet",
   "chainId": 5100,
   "shortName": "syndicate-chain-testnet",
