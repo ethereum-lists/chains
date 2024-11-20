@@ -2794,6 +2794,19 @@
   "faucets": [],
   "infoURL": "https://lachain.io"
 }, {
+  "name": "Prom",
+  "chainId": 227,
+  "shortName": "PROM",
+  "networkId": 227,
+  "nativeCurrency": {
+    "name": "Prom",
+    "symbol": "PROM",
+    "decimals": 18
+  },
+  "rpc": ["https://prom-rpc.eu-north-2.gateway.fm"],
+  "faucets": [],
+  "infoURL": "https://prom.io"
+}, {
   "name": "Mind Network Mainnet",
   "chainId": 228,
   "shortName": "fhe",
