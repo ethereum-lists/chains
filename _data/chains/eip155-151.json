@@ -13,11 +13,13 @@
     "symbol": "RBNT",
     "decimals": 18
   },
+  "icon": "redbelly",
   "status": "active",
   "explorers": [
     {
       "name": "Routescan",
       "url": "https://redbelly.routescan.io",
+      "icon": "redbelly",
       "standard": "EIP3091"
     }
   ]
