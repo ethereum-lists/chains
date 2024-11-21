@@ -1,8 +1,10 @@
 {
-  "name": "Autonity Piccadilly (Yamuna) Testnet",
-  "status": "deprecated",
+  "name": "Autonity Piccadilly (Tiber) Testnet",
   "chain": "AUT",
-  "rpc": [],
+  "rpc": [
+    "https://rpc1.piccadilly.autonity.org/",
+    "wss://rpc1.piccadilly.autonity.org/ws/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Piccadilly Auton",
@@ -10,9 +12,9 @@
     "decimals": 18
   },
   "infoURL": "https://autonity.org/",
-  "shortName": "piccadilly-03",
-  "chainId": 65100003,
-  "networkId": 65100003,
+  "shortName": "piccadilly-04",
+  "chainId": 65100004,
+  "networkId": 65100004,
   "slip44": 1,
   "icon": "autonity",
   "explorers": [
