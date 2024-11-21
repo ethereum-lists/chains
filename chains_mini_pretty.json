@@ -15053,6 +15053,19 @@
   "faucets": [],
   "infoURL": "https://shape.network"
 }, {
+  "name": "Bool Network Beta Mainnet",
+  "chainId": 11100,
+  "shortName": "BOL",
+  "networkId": 11100,
+  "nativeCurrency": {
+    "name": "BOL",
+    "symbol": "BOL",
+    "decimals": 18
+  },
+  "rpc": ["https://beta-rpc-node-http.bool.network"],
+  "faucets": [],
+  "infoURL": "https://bool.network/"
+}, {
   "name": "Astra",
   "chainId": 11110,
   "shortName": "astra",
