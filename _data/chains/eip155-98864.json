@@ -1,10 +1,10 @@
 {
-  "name": "Plume Testnet",
-  "title": "Plume Sepolia Rollup Testnet",
+  "name": "Plume Devnet",
+  "title": "Plume Sepolia L2 Rollup Devnet",
   "chain": "ETH",
   "rpc": [
-    "https://testnet-rpc.plumenetwork.xyz/http",
-    "wss://testnet-rpc.plumenetwork.xyz/ws"
+    "https://test-rpc.plumenetwork.xyz/http",
+    "wss://test-rpc.plumenetwork.xyz/ws"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,22 +13,21 @@
     "decimals": 18
   },
   "infoURL": "https://www.plumenetwork.xyz/",
-  "shortName": "plume-testnet",
-  "chainId": 161221135,
-  "networkId": 161221135,
+  "shortName": "plume-devnet",
+  "chainId": 98864,
+  "networkId": 98864,
   "slip44": 1,
   "icon": "plume",
   "explorers": [
     {
       "name": "Blockscout",
-      "url": "https://testnet-explorer.plumenetwork.xyz",
+      "url": "https://test-explorer.plumenetwork.xyz",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
   ],
   "parent": {
     "type": "L2",
-    "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://testnet-bridge.plumenetwork.xyz" }]
+    "chain": "eip155-11155111"
   }
 }
