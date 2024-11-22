@@ -11,16 +11,17 @@
     "symbol": "GRASS",
     "decimals": 18
   },
+  "icon": "lens",
   "infoURL": "https://www.lens.xyz",
   "shortName": "lens-sepolia",
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://portal.testnet.abs.xyz/bridge" }]
+    "bridges": [{ "url": "https://portal.testnet.lens.dev/bridge" }]
   },
   "explorers": [
     {
-      "name": "Abstract Block Explorer",
+      "name": "Lens Testnet Block Explorer",
       "url": "https://block-explorer.testnet.lens.dev",
       "standard": "none"
     }
