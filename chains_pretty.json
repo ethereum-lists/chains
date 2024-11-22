@@ -3957,6 +3957,7 @@
 }, {
   "name": "BitTorrent Chain Mainnet",
   "chain": "BTTC",
+  "icon": "bttc",
   "rpc": ["https://rpc.bt.io", "https://bittorrent.drpc.org", "wss://bittorrent.drpc.org"],
   "faucets": [],
   "nativeCurrency": {
@@ -9720,13 +9721,14 @@
   "chain": "BTTC",
   "rpc": ["https://testrpc.bittorrentchain.io/"],
   "faucets": [],
+  "status": "deprecated",
   "nativeCurrency": {
     "name": "BitTorrent",
     "symbol": "BTT",
     "decimals": 18
   },
   "infoURL": "https://bittorrentchain.io/",
-  "shortName": "tbtt",
+  "shortName": "tbtt-deprecated",
   "chainId": 1028,
   "networkId": 1028,
   "slip44": 1,
@@ -9734,6 +9736,27 @@
     "name": "testbttcscan",
     "url": "https://testscan.bittorrentchain.io",
     "standard": "none"
+  }]
+}, {
+  "name": "BitTorrent Chain Donau",
+  "chain": "BTTC",
+  "icon": "bttc",
+  "rpc": ["https://pre-rpc.bt.io"],
+  "faucets": ["https://testfaucet.bt.io"],
+  "nativeCurrency": {
+    "name": "BitTorrent",
+    "symbol": "BTT",
+    "decimals": 18
+  },
+  "infoURL": "https://bt.io",
+  "shortName": "tBTT",
+  "chainId": 1029,
+  "networkId": 1029,
+  "slip44": 1,
+  "explorers": [{
+    "name": "BitTorrent Chain Donau Explorer",
+    "url": "https://testnet.bttcscan.com",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Conflux eSpace",

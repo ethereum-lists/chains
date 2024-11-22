@@ -5981,7 +5981,7 @@
 }, {
   "name": "BitTorrent Chain Testnet",
   "chainId": 1028,
-  "shortName": "tbtt",
+  "shortName": "tbtt-deprecated",
   "networkId": 1028,
   "nativeCurrency": {
     "name": "BitTorrent",
@@ -5991,6 +5991,19 @@
   "rpc": ["https://testrpc.bittorrentchain.io/"],
   "faucets": [],
   "infoURL": "https://bittorrentchain.io/"
+}, {
+  "name": "BitTorrent Chain Donau",
+  "chainId": 1029,
+  "shortName": "tBTT",
+  "networkId": 1029,
+  "nativeCurrency": {
+    "name": "BitTorrent",
+    "symbol": "BTT",
+    "decimals": 18
+  },
+  "rpc": ["https://pre-rpc.bt.io"],
+  "faucets": ["https://testfaucet.bt.io"],
+  "infoURL": "https://bt.io"
 }, {
   "name": "Conflux eSpace",
   "chainId": 1030,
