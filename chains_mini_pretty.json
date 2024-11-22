@@ -3938,6 +3938,19 @@
   "faucets": [],
   "infoURL": "https://stenix.org"
 }, {
+  "name": "The Widows Mite",
+  "chainId": 426,
+  "shortName": "mite",
+  "networkId": 426,
+  "nativeCurrency": {
+    "name": "The Widows Mite",
+    "symbol": "MITE",
+    "decimals": 8
+  },
+  "rpc": ["https://rpc.twmcrypto.com/"],
+  "faucets": ["https://faucet.twmcrypto.com/"],
+  "infoURL": "https://twmcrypto.com/"
+}, {
   "name": "Zeeth Chain",
   "chainId": 427,
   "shortName": "zeeth",
