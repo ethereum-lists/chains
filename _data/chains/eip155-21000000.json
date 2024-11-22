@@ -1,0 +1,22 @@
+{
+  "name": "Corn Maizenet",
+  "chain": "BTCN",
+  "rpc": ["https://maizenet-rpc.usecorn.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bitcorn",
+    "symbol": "BTCN",
+    "decimals": 18
+  },
+  "infoURL": "https://usecorn.com",
+  "shortName": "btcn",
+  "chainId": 21000000,
+  "networkId": 21000000,
+  "explorers": [
+    {
+      "name": "Corn Maizenet Explorer",
+      "url": "https://maizenet-explorer.usecorn.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
