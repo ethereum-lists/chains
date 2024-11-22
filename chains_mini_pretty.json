@@ -3245,9 +3245,9 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.orderly.network", "https://l2-orderly-mainnet-0.t.conduit.xyz"],
+  "rpc": ["https://rpc.orderly.network"],
   "faucets": [],
-  "infoURL": "www.orderly.network"
+  "infoURL": "https://orderly.network/"
 }, {
   "name": "DaVinci",
   "chainId": 293,
@@ -11266,9 +11266,9 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://l2-orderly-l2-4460-sepolia-8tc3sd7dvy.t.conduit.xyz"],
+  "rpc": ["https://testnet-rpc.orderly.org"],
   "faucets": [],
-  "infoURL": "www.orderly.network"
+  "infoURL": "https://orderly.network"
 }, {
   "name": "Hydra Chain",
   "chainId": 4488,
