@@ -24673,6 +24673,19 @@
   "faucets": [],
   "infoURL": "https://hokum.gg"
 }, {
+  "name": "Corn Maizenet",
+  "chainId": 21000000,
+  "shortName": "btcn",
+  "networkId": 21000000,
+  "nativeCurrency": {
+    "name": "Bitcorn",
+    "symbol": "BTCN",
+    "decimals": 18
+  },
+  "rpc": ["https://maizenet-rpc.usecorn.com"],
+  "faucets": [],
+  "infoURL": "https://usecorn.com"
+}, {
   "name": "Excelon Mainnet",
   "chainId": 22052002,
   "shortName": "xlon",
