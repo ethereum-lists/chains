@@ -25534,6 +25534,29 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Bitharvest Chian Mainnet",
+  "chain": "Bitharvest Chian Mainnet",
+  "rpc": ["https://rpc.bthscan.io/"],
+  "features": [{
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bitharvest Mainnet Native Token",
+    "symbol": "BTH",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "BitharvestMainnet",
+  "chainId": 14149,
+  "networkId": 14149,
+  "explorers": [{
+    "name": "Bitharvest Mainnet Scan",
+    "url": "https://bthscan.io",
+    "standard": "EIP3091"
+  }],
+  "icon": "bth"
+}, {
   "name": "EVOLVE Testnet",
   "chain": "EVO",
   "icon": "evolveIcon",
@@ -34331,6 +34354,29 @@
     "icon": "magape",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Bitharvest Chian Testnet",
+  "chain": "Bitharvest Chian Testnet",
+  "rpc": ["https://rpc-testnet.bthscan.io/"],
+  "features": [{
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bitharvest Testnet Native Token",
+    "symbol": "bth",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "BitharvestTestnet",
+  "chainId": 141491,
+  "networkId": 141491,
+  "explorers": [{
+    "name": "Bitharvest Testnet Scan",
+    "url": "https://testnet.bthscan.io",
+    "standard": "EIP3091"
+  }],
+  "icon": "bth"
 }, {
   "name": "ICPlaza Mainnet",
   "chain": "ICPlaza",

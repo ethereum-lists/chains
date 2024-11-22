@@ -15690,6 +15690,19 @@
   "faucets": [],
   "infoURL": "https://www.zeroth.foundation"
 }, {
+  "name": "Bitharvest Chian Mainnet",
+  "chainId": 14149,
+  "shortName": "BitharvestMainnet",
+  "networkId": 14149,
+  "nativeCurrency": {
+    "name": "Bitharvest Mainnet Native Token",
+    "symbol": "BTH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.bthscan.io/"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "EVOLVE Testnet",
   "chainId": 14324,
   "shortName": "evo",
@@ -20980,6 +20993,19 @@
   "rpc": ["https://testnet-api.magape.io/chain/"],
   "faucets": [],
   "infoURL": "https://magape.io"
+}, {
+  "name": "Bitharvest Chian Testnet",
+  "chainId": 141491,
+  "shortName": "BitharvestTestnet",
+  "networkId": 141491,
+  "nativeCurrency": {
+    "name": "Bitharvest Testnet Native Token",
+    "symbol": "bth",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.bthscan.io/"],
+  "faucets": [],
+  "infoURL": ""
 }, {
   "name": "ICPlaza Mainnet",
   "chainId": 142857,
