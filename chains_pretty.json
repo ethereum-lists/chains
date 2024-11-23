@@ -33277,7 +33277,7 @@
   "name": "Plume Devnet",
   "title": "Plume Sepolia L2 Rollup Devnet",
   "chain": "ETH",
-  "rpc": ["https://test-rpc.plumenetwork.xyz/http", "wss://test-rpc.plumenetwork.xyz/ws"],
+  "rpc": ["https://test-rpc.plumenetwork.xyz", "wss://test-rpc.plumenetwork.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Plume Sepolia Ether",
@@ -33299,6 +33299,36 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111"
+  }
+}, {
+  "name": "Plume Mainnet",
+  "title": "Plume Ethereum L2 Rollup Mainnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc.plumenetwork.xyz", "wss://rpc.plumenetwork.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Plume Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.plumenetwork.xyz/",
+  "shortName": "plume",
+  "chainId": 98865,
+  "networkId": 98865,
+  "slip44": 1,
+  "icon": "plume",
+  "explorers": [{
+    "name": "Blockscout",
+    "url": "https://explorer.plumenetwork.xyz",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{
+      "url": "https://bridge.plumenetwork.xyz"
+    }]
   }
 }, {
   "name": "Ebi Chain",
