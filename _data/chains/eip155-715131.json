@@ -2,7 +2,7 @@
   "name": "Zether Mainnet",
   "chain": "Zether",
   "rpc": [
-    "https://rpc.zether.org/"
+    "https://rpc.zether.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -10,7 +10,7 @@
     "symbol": "ZTH",
     "decimals": 18
   },
-  "infoURL": "https://zether.org/",
+  "infoURL": "https://zether.org",
   "shortName": "zth",
   "chainId": 715131,
   "networkId": 715131,
@@ -18,7 +18,7 @@
   "explorers": [
     {
       "name": "zthscan",
-      "url": "https://zthscan.com/",
+      "url": "https://zthscan.com",
       "icon": "zether",
       "standard": "none"
     }
