@@ -6460,6 +6460,19 @@
   "faucets": [],
   "infoURL": "https://www.uptick.network"
 }, {
+  "name": "Litheum Test Network",
+  "chainId": 1174,
+  "shortName": "lith",
+  "networkId": 1174,
+  "nativeCurrency": {
+    "name": "Lith",
+    "symbol": "LTH",
+    "decimals": 9
+  },
+  "rpc": ["https://testnet.litheum.com"],
+  "faucets": [],
+  "infoURL": "https://litheum.com"
+}, {
   "name": "Smart Host Teknoloji TESTNET",
   "chainId": 1177,
   "shortName": "sht",
