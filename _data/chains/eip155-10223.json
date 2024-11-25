@@ -1,0 +1,27 @@
+{
+    "name": "Timex Chain",
+    "chain": "TIMEX",
+    "rpc": [
+        "https://time-dataseed.timexscan.io/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "Timex Chain",
+        "symbol": "TOMAX",
+        "decimals": 18
+    },
+    "infoURL": "https://timexscan.io/",
+    "shortName": "timex",
+    "chainId": 10223,
+    "networkId": 10223,
+    "slip44": 1,
+    "icon": "timex",
+    "explorers": [
+        {
+            "name": "Timexscan.io",
+            "url": "https://timexscan.io/",
+            "standard": "none",
+            "icon": "timex"
+        }
+    ]
+}
