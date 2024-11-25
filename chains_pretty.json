@@ -27008,6 +27008,24 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "1Money Network Mainnet",
+  "chain": "1Money Network",
+  "rpc": ["https://mainnet.1money.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USD1",
+    "symbol": "USD1",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "https://1money.com",
+  "shortName": "1money",
+  "chainId": 21210,
+  "networkId": 21210,
+  "explorers": []
+}, {
   "name": "DCpay Mainnet",
   "chain": "DCpay",
   "icon": "dcpayIcon",
@@ -38730,6 +38748,24 @@
     "url": "http://testnet-explorer.tiltyard.gg",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "1Money Network Testnet",
+  "chain": "1Money Testnet",
+  "rpc": ["https://testnet.1money.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USD1",
+    "symbol": "USD1",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "https://1money.com",
+  "shortName": "1money-testnet",
+  "chainId": 1212101,
+  "networkId": 1212101,
+  "explorers": []
 }, {
   "name": "Sharecle Mainnet",
   "chain": "SHARECLE",

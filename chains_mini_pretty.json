@@ -16587,6 +16587,19 @@
   "faucets": ["https://t.me/c4eiAirdrop"],
   "infoURL": "https://c4ex.net"
 }, {
+  "name": "1Money Network Mainnet",
+  "chainId": 21210,
+  "shortName": "1money",
+  "networkId": 21210,
+  "nativeCurrency": {
+    "name": "USD1",
+    "symbol": "USD1",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.1money.network"],
+  "faucets": [],
+  "infoURL": "https://1money.com"
+}, {
   "name": "DCpay Mainnet",
   "chainId": 21223,
   "shortName": "DCPm",
@@ -23580,6 +23593,19 @@
   "rpc": ["https://subnets.avax.network/tiltyard/testnet/rpc"],
   "faucets": [],
   "infoURL": ""
+}, {
+  "name": "1Money Network Testnet",
+  "chainId": 1212101,
+  "shortName": "1money-testnet",
+  "networkId": 1212101,
+  "nativeCurrency": {
+    "name": "USD1",
+    "symbol": "USD1",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.1money.network"],
+  "faucets": [],
+  "infoURL": "https://1money.com"
 }, {
   "name": "Sharecle Mainnet",
   "chainId": 1234567,
