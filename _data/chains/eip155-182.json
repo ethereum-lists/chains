@@ -1,7 +1,10 @@
 {
   "name": "IOST Mainnet",
   "chain": "iost",
-  "rpc": ["https://iost-mainnet.alt.technology"],
+  "rpc": [
+    "https://iost-mainnet.alt.technology",
+    "wss://iost-mainnet.alt.technology/ws"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
@@ -9,7 +12,7 @@
     "decimals": 18
   },
   "infoURL": "https://iost.io",
-  "shortName": "iost-mainnet",
+  "shortName": "iost",
   "chainId": 182,
   "networkId": 182,
   "icon": "bnbchain",
