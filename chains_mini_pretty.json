@@ -11088,6 +11088,19 @@
   "faucets": [],
   "infoURL": "https://crossfi.org"
 }, {
+  "name": "CrossFi Mainnet",
+  "chainId": 4158,
+  "shortName": "crossfi",
+  "networkId": 4158,
+  "nativeCurrency": {
+    "name": "CrossFi Token",
+    "symbol": "XFI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mainnet.ms/"],
+  "faucets": [],
+  "infoURL": "https://crossfi.org"
+}, {
   "name": "SX Rollup",
   "chainId": 4162,
   "shortName": "SXR",

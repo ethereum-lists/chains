@@ -18010,6 +18010,27 @@
     "icon": "crossfi"
   }]
 }, {
+  "name": "CrossFi Mainnet",
+  "icon": "crossfi",
+  "chain": "crossfi",
+  "rpc": ["https://rpc.mainnet.ms/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CrossFi Token",
+    "symbol": "XFI",
+    "decimals": 18
+  },
+  "infoURL": "https://crossfi.org",
+  "shortName": "crossfi",
+  "chainId": 4158,
+  "networkId": 4158,
+  "slip44": 1,
+  "explorers": [{
+    "name": "CrossFi Mainnet Scan",
+    "url": "https://xfiscan.com",
+    "standard": "none"
+  }]
+}, {
   "name": "SX Rollup",
   "chain": "SX",
   "icon": "SX",
