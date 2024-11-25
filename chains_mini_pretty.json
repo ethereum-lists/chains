@@ -11582,6 +11582,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Pioneer Zero Chain",
+  "chainId": 5080,
+  "shortName": "pzo",
+  "networkId": 5080,
+  "nativeCurrency": {
+    "name": "Pioneer Zero",
+    "symbol": "PZO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zeroscan.org"],
+  "faucets": ["https://faucet.zeroscan.org/faucet"],
+  "infoURL": "https://pionechain.com"
+}, {
   "name": "Pioneer Chain Testnet",
   "chainId": 5090,
   "shortName": "pio",
