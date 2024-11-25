@@ -1,0 +1,17 @@
+{
+  "name": "1Money Network Testnet",
+  "chain": "1Money Testnet",
+  "rpc": ["https://testnet.1money.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USD1",
+    "symbol": "USD1",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://1money.com",
+  "shortName": "1money-testnet",
+  "chainId": 1212101,
+  "networkId": 1212101,
+  "explorers": []
+}
