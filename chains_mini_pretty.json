@@ -2302,14 +2302,14 @@
 }, {
   "name": "IOST Mainnet",
   "chainId": 182,
-  "shortName": "iost-mainnet",
+  "shortName": "iost",
   "networkId": 182,
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
     "symbol": "BNB",
     "decimals": 18
   },
-  "rpc": ["https://iost-mainnet.alt.technology"],
+  "rpc": ["https://iost-mainnet.alt.technology", "wss://iost-mainnet.alt.technology/ws"],
   "faucets": [],
   "infoURL": "https://iost.io"
 }, {
