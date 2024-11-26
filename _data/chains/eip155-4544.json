@@ -5,8 +5,8 @@
   "faucets": ["https://faucet.emoney.network/faucet"],
   "nativeCurrency": {
     "name": "Emoney Network",
-    "symbol": "EMYC",
-    "decimals": 18
+    "decimals": 18,
+    "symbol": "EMYC"
   },
   "infoURL": "https://emoney.network/",
   "shortName": "EmoneyTestnet",
@@ -16,8 +16,8 @@
   "icon": "emoney",
   "explorers": [
     {
-      "name": "EMoney ethscan",
-      "url": "https://ethscan.emoney.network",
+      "name": "EMoney Explorer",
+      "url": "https://explore-stage.emoney.network/dashboard",
       "icon": "emoney",
       "standard": "EIP3091"
     }
