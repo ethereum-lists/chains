@@ -40467,7 +40467,7 @@
   "faucets": [],
   "nativeCurrency": {
     "name": "DeepBrainChain",
-    "symbol": "DBC",
+    "symbol": "tDBC",
     "decimals": 18
   },
   "infoURL": "https://www.deepbrainchain.org",
@@ -40478,7 +40478,7 @@
   "slip44": 1,
   "explorers": [{
     "name": "DeepBrainChain Testnet",
-    "url": "https://blockscout-testnet.dbcscan.io",
+    "url": "https://testnet.dbcscan.io",
     "icon": "dbc",
     "standard": "EIP3091"
   }]
@@ -40500,7 +40500,7 @@
   "slip44": 1,
   "explorers": [{
     "name": "DeepBrainChain Mainnet",
-    "url": "https://blockscout.dbcscan.io",
+    "url": "https://www.dbcscan.io",
     "icon": "dbc",
     "standard": "EIP3091"
   }]
