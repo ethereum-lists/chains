@@ -17484,6 +17484,19 @@
   "faucets": [],
   "infoURL": "https://www.zilliqa.com/"
 }, {
+  "name": "Zilliqa 2 EVM proto-mainnet",
+  "chainId": 32770,
+  "shortName": "zq2-proto-mainnet",
+  "networkId": 32770,
+  "nativeCurrency": {
+    "name": "Zilliqa",
+    "symbol": "ZIL",
+    "decimals": 18
+  },
+  "rpc": ["https://api.zq2-protomainnet.zilliqa.com"],
+  "faucets": ["https://faucet.zq2-protomainnet.zilliqa.com"],
+  "infoURL": "https://www.zilliqa.com/"
+}, {
   "name": "Zilliqa EVM Isolated Server",
   "chainId": 32990,
   "shortName": "zil-isolated-server",
