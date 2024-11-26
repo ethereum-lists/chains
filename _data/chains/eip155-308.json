@@ -1,0 +1,22 @@
+{
+  "name": "Furtheon",
+  "chain": "Furtheon Network",
+  "rpc": ["https://rpc.furtheon.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Furtheon",
+    "symbol": "FTH",
+    "decimals": 18
+  },
+  "infoURL": "https://furtheon.org/",
+  "shortName": "furtheon",
+  "chainId": 308,
+  "networkId": 308,
+  "explorers": [
+    {
+      "name": "furthscan",
+      "url": "http://furthscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

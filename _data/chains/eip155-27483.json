@@ -1,0 +1,34 @@
+{
+  "name": "Nanon Sepolia",
+  "title": "Nanon Sepolia Rollup Testnet",
+  "chain": "ETH",
+  "rpc": ["https://sepolia-rpc.nanon.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.nanon.network",
+  "shortName": "Nanon-Testnet",
+  "chainId": 27483,
+  "networkId": 27483,
+  "slip44": 1,
+  "icon": "nanon",
+  "explorers": [
+    {
+      "name": "Nanon Sepolia Rollup Testnet Explorer",
+      "url": "https://sepolia-explorer.nanon.network",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [
+      {
+        "url": "https://sepolia-bridge.nanon.network"
+      }
+    ]
+  }
+}

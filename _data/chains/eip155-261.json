@@ -1,0 +1,24 @@
+{
+  "name": "Guru Network Testnet",
+  "chain": "tGURU",
+  "icon": "GuruNetwork",
+  "rpc": ["https://rpc.gurunetwork.ai/archive/261"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": ["https://v2.dex.guru/season-pass/faucet"],
+  "nativeCurrency": {
+    "name": "testGURU",
+    "symbol": "tGURU",
+    "decimals": 18
+  },
+  "infoURL": "https://gurunetwork.ai",
+  "shortName": "tguru",
+  "chainId": 261,
+  "networkId": 261,
+  "explorers": [
+    {
+      "name": "guruscan",
+      "url": "https://sepolia.gurunetwork.ai",
+      "standard": "EIP3091"
+    }
+  ]
+}
