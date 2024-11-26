@@ -1,0 +1,19 @@
+{
+  "name": "QuarkChain L2 Mainnet",
+  "chain": "QuarkChain",
+  "rpc": ["https://mainnet-l2-ethapi.quarkchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QKC",
+    "symbol": "QKC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.quarkchain.io",
+  "shortName": "qkc-l2",
+  "chainId": 100011,
+  "networkId": 100011,
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-100000"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "World Chain Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://worldchain-sepolia.g.alchemy.com/public",
+    "https://4801.rpc.thirdweb.com",
+    "https://worldchain-sepolia.gateway.tenderly.co",
+    "wss://worldchain-sepolia.gateway.tenderly.co"
+  ],
+  "faucets": [
+    "https://www.alchemy.com/faucets/world-chain-sepolia",
+    "https://console.optimism.io/faucet"
+  ],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://world.org/world-chain",
+  "shortName": "wcsep",
+  "chainId": 4801,
+  "networkId": 4801,
+  "slip44": 1,
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "https://worldchain-sepolia.bridge.alchemy.com" }]
+  },
+  "explorers": [
+    {
+      "name": "etherscan",
+      "url": "https://sepolia.worldscan.org",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "blockscout",
+      "url": "https://worldchain-sepolia.explorer.alchemy.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
