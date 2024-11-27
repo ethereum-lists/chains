@@ -1,0 +1,37 @@
+{
+  "name": "arena-z-testnet",
+  "title": "Arena-Z-Testnet",
+  "chain": "arena-z-testnet",
+  "rpc": [
+    "https://rpc.arena-z.t.raas.gelato.cloud",
+    "wss://ws.arena-z.t.raas.gelato.cloud"
+  ],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "icon": "arena-z",
+  "infoURL": "https://raas.gelato.network/rollups/details/public/arena-z-testnet",
+  "faucets": [],
+  "shortName": "arena-z-testnet",
+  "chainId": 9897,
+  "networkId": 9897,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://arena-z.blockscout.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [
+      { "url": "https://testnet-bridge.gelato.network/bridge/arena-z-testnet" }
+    ]
+  },
+  "status": "active"
+}
