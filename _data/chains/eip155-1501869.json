@@ -18,10 +18,12 @@
   "chainId": 1501869,
   "networkId": 1501869,
   "icon": "waterfall",
-  "explorers": [{
-    "name": "Waterfall Explorer Testnet9",
-    "url": "https://explorer.testnet9.waterfall.network/",
-    "icon": "waterfall",
-    "standard": "EIP1559"
-  }]
+  "explorers": [
+    {
+      "name": "Waterfall Explorer Testnet9",
+      "url": "https://explorer.testnet9.waterfall.network/",
+      "icon": "waterfall",
+      "standard": "EIP1559"
+    }
+  ]
 }
