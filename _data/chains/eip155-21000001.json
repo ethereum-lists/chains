@@ -1,7 +1,7 @@
 {
-  "name": "Corn Maizenet",
+  "name": "Corn Testnet",
   "chain": "BTCN",
-  "rpc": ["https://maizenet-rpc.usecorn.com"],
+  "rpc": ["https://testnet-rpc.usecorn.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcorn",
@@ -10,17 +10,17 @@
   },
   "infoURL": "https://usecorn.com",
   "shortName": "btcn",
-  "chainId": 21000000,
-  "networkId": 21000000,
+  "chainId": 21000001,
+  "networkId": 21000001,
   "explorers": [
     {
-      "name": "Corn Maizenet Explorer",
-      "url": "https://maizenet-explorer.usecorn.com",
+      "name": "Corn Testnet Explorer",
+      "url": "https://testnet-explorer.usecorn.com",
       "standard": "EIP3091"
     }
   ],
   "parent": {
     "type": "L2",
-    "chain": "eip155-1"
+    "chain": "eip155-11155111"
   }
 }
