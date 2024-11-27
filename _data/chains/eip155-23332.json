@@ -1,16 +1,16 @@
 {
   "name": "Evochain Mainnet",
-  "chain": "EVO",
+  "chain": "Evochain",
   "icon": "evochain",
   "rpc": ["https://rpc.evochain.link"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Evochain",
-    "symbol": "EVO",
+    "symbol": "EVOCOIN",
     "decimals": 18
   },
   "infoURL": "https://evochain.link",
-  "shortName": "EVO",
+  "shortName": "EVOCOIN",
   "chainId": 23332,
   "networkId": 23332,
   "explorers": [
