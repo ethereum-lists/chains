@@ -1,0 +1,17 @@
+{
+  "name": "1Money Network Mainnet",
+  "chain": "1Money Network",
+  "rpc": ["https://mainnet.1money.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USD1",
+    "symbol": "USD1",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://1money.com",
+  "shortName": "1money",
+  "chainId": 21210,
+  "networkId": 21210,
+  "explorers": []
+}
