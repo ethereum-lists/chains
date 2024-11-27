@@ -1,7 +1,7 @@
 {
   "name": "Waterfall 9 Test Network",
   "chain": "Waterfall TestNet9",
-  "rpc": ["https://rpc.testnet9.waterfall.network/"],
+  "rpc": ["https://rpc.testnet9.waterfall.network"],
   "faucets": ["https://faucet.testnet9.waterfall.network"],
   "nativeCurrency": {
     "name": "WATER",
@@ -21,7 +21,7 @@
   "explorers": [
     {
       "name": "Waterfall Explorer Testnet9",
-      "url": "https://explorer.testnet9.waterfall.network/",
+      "url": "https://explorer.testnet9.waterfall.network",
       "icon": "waterfall",
       "standard": "EIP1559"
     }
