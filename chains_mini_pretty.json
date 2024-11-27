@@ -24829,6 +24829,19 @@
   "faucets": [],
   "infoURL": "https://usecorn.com"
 }, {
+  "name": "Corn Testnet",
+  "chainId": 21000001,
+  "shortName": "btcn-testnet",
+  "networkId": 21000001,
+  "nativeCurrency": {
+    "name": "Bitcorn",
+    "symbol": "BTCN",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.usecorn.com"],
+  "faucets": [],
+  "infoURL": "https://usecorn.com"
+}, {
   "name": "Excelon Mainnet",
   "chainId": 22052002,
   "shortName": "xlon",
