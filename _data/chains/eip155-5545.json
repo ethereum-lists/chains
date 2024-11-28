@@ -1,0 +1,17 @@
+{
+  "name": "DuckChain Mainnet",
+  "title": "DuckChain Mainnet",
+  "chain": "DuckChain",
+  "icon": "duckchain",
+  "rpc": ["https://rpc.duckchain.io", "https://rpc-hk.duckchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TON",
+    "symbol": "TON",
+    "decimals": 18
+  },
+  "infoURL": "https://duckchain.io",
+  "shortName": "Duck-Chain-Mainnet",
+  "chainId": 5545,
+  "networkId": 5545
+}
