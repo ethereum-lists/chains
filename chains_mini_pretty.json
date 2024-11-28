@@ -18472,6 +18472,19 @@
   "faucets": [],
   "infoURL": "https://electroneum.com"
 }, {
+  "name": "Cytonic Testnet",
+  "chainId": 52225,
+  "shortName": "CTS",
+  "networkId": 52225,
+  "nativeCurrency": {
+    "name": "Cytonic",
+    "symbol": "CCC",
+    "decimals": 18
+  },
+  "rpc": ["http://rpc.sl.testnet.cytonic.com"],
+  "faucets": [],
+  "infoURL": "https://cytonic.com"
+}, {
   "name": "DOID",
   "chainId": 53277,
   "shortName": "DOID",
