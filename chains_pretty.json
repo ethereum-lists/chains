@@ -29083,8 +29083,8 @@
     "standard": "none"
   }]
 }, {
-  "name": "Open Campus Codex Mainnet",
-  "chain": "Open Campus Codex Mainnet",
+  "name": "EDU Chain",
+  "chain": "EDU Chain",
   "icon": "occ-mainnet",
   "rpc": ["https://rpc.edu-chain.raas.gelato.cloud"],
   "faucets": ["https://bridge.gelato.network/bridge/edu-chain"],
@@ -29094,12 +29094,12 @@
     "decimals": 18
   },
   "infoURL": "https://raas.gelato.network/rollups/details/public/edu-chain",
-  "shortName": "occ-mainnet",
+  "shortName": "edu-chain",
   "chainId": 41923,
   "networkId": 41923,
   "explorers": [{
-    "name": "Open Campus Codex",
-    "url": "https://edu-chain.blockscout.com",
+    "name": "EDU Chain",
+    "url": "https://educhain.blockscout.com",
     "icon": "occ-mainnet",
     "standard": "none"
   }]
@@ -37628,8 +37628,8 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Open Campus Codex",
-  "chain": "Open Campus Codex",
+  "name": "EDU Chain Testnet",
+  "chain": "EDU Chain Testnet",
   "icon": "open-campus-codex",
   "rpc": ["https://rpc.open-campus-codex.gelato.digital"],
   "faucets": [],
@@ -37644,7 +37644,7 @@
   "networkId": 656476,
   "explorers": [{
     "name": "Open Campus Codex",
-    "url": "https://opencampus-codex.blockscout.com",
+    "url": "https://edu-chain-testnet.blockscout.com",
     "icon": "open-campus-codex",
     "standard": "none"
   }]
