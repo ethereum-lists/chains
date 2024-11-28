@@ -3,7 +3,7 @@
     "chain": "Zoo",
     "icon": "zoo",
     "rpc": ["https://api.zoo.network"],
-    "faucets": [" https://faucet.zoo-test.network"],
+    "faucets": ["https://faucet.zoo-test.network"],
     "nativeCurrency": {
       "name": "Zoo",
       "symbol": "ZOO",
@@ -16,12 +16,12 @@
     "explorers": [
       {
         "name": "Zoo Network Explorer",
-        "url": "https://explore.zoo.network/",
+        "url": "https://explore.zoo.network",
         "standard": "EIP3091"
       },
       {
         "name": "Zoo Network Explorer",
-        "url": "https://explore.zoo-test.network/",
+        "url": "https://explore.zoo-test.network",
         "standard": "EIP3091"
       }
     ]
