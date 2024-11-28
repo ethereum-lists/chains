@@ -40744,7 +40744,7 @@
 }, {
   "name": "Corn Maizenet",
   "chain": "BTCN",
-  "rpc": ["https://maizenet-rpc.usecorn.com"],
+  "rpc": ["https://rpc.ankr.com/corn_maizenet", "https://maizenet-rpc.usecorn.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcorn",
@@ -40756,7 +40756,11 @@
   "chainId": 21000000,
   "networkId": 21000000,
   "explorers": [{
-    "name": "Corn Maizenet Explorer",
+    "name": "Corn Explorer",
+    "url": "https://cornscan.io",
+    "standard": "EIP3091"
+  }, {
+    "name": "Corn Blockscout",
     "url": "https://maizenet-explorer.usecorn.com",
     "standard": "EIP3091"
   }],
@@ -40767,7 +40771,7 @@
 }, {
   "name": "Corn Testnet",
   "chain": "BTCN",
-  "rpc": ["https://testnet-rpc.usecorn.com"],
+  "rpc": ["https://rpc.ankr.com/corn_testnet", "https://testnet-rpc.usecorn.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcorn",
@@ -40780,6 +40784,10 @@
   "networkId": 21000001,
   "explorers": [{
     "name": "Corn Testnet Explorer",
+    "url": "https://testnet.cornscan.io",
+    "standard": "EIP3091"
+  }, {
+    "name": "Corn Testnet Blockscout",
     "url": "https://testnet-explorer.usecorn.com",
     "standard": "EIP3091"
   }],

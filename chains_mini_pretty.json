@@ -24825,7 +24825,7 @@
     "symbol": "BTCN",
     "decimals": 18
   },
-  "rpc": ["https://maizenet-rpc.usecorn.com"],
+  "rpc": ["https://rpc.ankr.com/corn_maizenet", "https://maizenet-rpc.usecorn.com"],
   "faucets": [],
   "infoURL": "https://usecorn.com"
 }, {
@@ -24838,7 +24838,7 @@
     "symbol": "BTCN",
     "decimals": 18
   },
-  "rpc": ["https://testnet-rpc.usecorn.com"],
+  "rpc": ["https://rpc.ankr.com/corn_testnet", "https://testnet-rpc.usecorn.com"],
   "faucets": [],
   "infoURL": "https://usecorn.com"
 }, {
