@@ -1,7 +1,10 @@
 {
   "name": "Corn Testnet",
   "chain": "BTCN",
-  "rpc": ["https://testnet-rpc.usecorn.com"],
+  "rpc": [
+    "https://rpc.ankr.com/corn_testnet",
+    "https://testnet-rpc.usecorn.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcorn",
@@ -15,6 +18,11 @@
   "explorers": [
     {
       "name": "Corn Testnet Explorer",
+      "url": "https://testnet.cornscan.io",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Corn Testnet Blockscout",
       "url": "https://testnet-explorer.usecorn.com",
       "standard": "EIP3091"
     }
