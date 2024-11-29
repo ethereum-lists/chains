@@ -2,7 +2,10 @@
   "name": "Argochain Testnet",
   "chain": "Argochain",
   "icon": "argochain",
-  "rpc": ["https://rpc-testnet.devolvedai.com", "https://test-rpc.devolvedai.com"],
+  "rpc": [
+    "https://rpc-testnet.devolvedai.com",
+    "https://test-rpc.devolvedai.com"
+  ],
   "faucets": ["https://faucet.argoscan.net"],
   "nativeCurrency": {
     "name": "Argocoin",
@@ -16,7 +19,7 @@
   "explorers": [
     {
       "name": "Argochain Test Scanner",
-      "url": "https://test-scanner.devolvedai.com",
+      "url": "https://test-scanner.devolvedai.com/",
       "standard": "EIP3091"
     }
   ]
