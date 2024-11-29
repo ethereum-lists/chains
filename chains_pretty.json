@@ -26578,6 +26578,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "EXPchain Testnet",
+  "chain": "EXPCHAIN",
+  "rpc": ["https://rpc1-testnet.expchain.ai"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "tEXP",
+    "symbol": "tEXP",
+    "decimals": 18
+  },
+  "infoURL": "https://expanse.tech",
+  "shortName": "expchain",
+  "chainId": 18880,
+  "networkId": 18880,
+  "icon": "expchain",
+  "explorers": [{
+    "name": "EXPchain Testnet Explorer",
+    "url": "https://blockscout-testnet.expchain.ai",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Titan (TKX)",
   "chain": "Titan (TKX)",
   "rpc": ["https://titan-json-rpc.titanlab.io", "https://titan-json-rpc-tokyo.titanlab.io", "https://titan-json-rpc-seoul.titanlab.io", "https://titan-json-rpc-hongkong.titanlab.io"],

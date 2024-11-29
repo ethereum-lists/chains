@@ -16314,6 +16314,19 @@
   "faucets": [],
   "infoURL": "https://doc.mxc.com/docs/intro"
 }, {
+  "name": "EXPchain Testnet",
+  "chainId": 18880,
+  "shortName": "expchain",
+  "networkId": 18880,
+  "nativeCurrency": {
+    "name": "tEXP",
+    "symbol": "tEXP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1-testnet.expchain.ai"],
+  "faucets": [],
+  "infoURL": "https://expanse.tech"
+}, {
   "name": "Titan (TKX)",
   "chainId": 18888,
   "shortName": "titan_tkx",
