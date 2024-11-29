@@ -1,0 +1,25 @@
+{
+  "name": "Wadzchain Mainnet",
+  "title": "Wadzchain Mainnet",
+  "chain": "Wadzchain-Mainnet",
+  "icon": "wadz",
+  "rpc": ["https://rpc.wadzchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WadzToken",
+    "symbol": "WTK",
+    "decimals": 18
+  },
+  "infoURL": "https://www.wadzchain-network.io",
+  "shortName": "wadzchain-mainnet",
+  "chainId": 171717,
+  "networkId": 171717,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Wadzchain Mainnet Explorer",
+      "url": "https://scan.wadzchain.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
