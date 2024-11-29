@@ -19525,6 +19525,19 @@
   "faucets": [],
   "infoURL": "https://resincoin.dev"
 }, {
+  "name": "AppLayer Testnet",
+  "chainId": 75338,
+  "shortName": "applayer-testnet",
+  "networkId": 75338,
+  "nativeCurrency": {
+    "name": "AppLayer",
+    "symbol": "APPL",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-api.applayer.com"],
+  "faucets": ["https://testnet-faucet.applayer.com"],
+  "infoURL": "https://applayer.com"
+}, {
   "name": "GEEK Verse Mainnet",
   "chainId": 75512,
   "shortName": "GEEK",
