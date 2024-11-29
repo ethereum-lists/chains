@@ -23841,6 +23841,19 @@
   "faucets": [],
   "infoURL": "https://ata.network"
 }, {
+  "name": "Waterfall 9 Test Network",
+  "chainId": 1501869,
+  "shortName": "water9",
+  "networkId": 1501869,
+  "nativeCurrency": {
+    "name": "WATER",
+    "symbol": "WATER",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet9.waterfall.network"],
+  "faucets": ["https://faucet.testnet9.waterfall.network"],
+  "infoURL": "https://waterfall.network"
+}, {
   "name": "PlayFi Albireo Testnet",
   "chainId": 1612127,
   "shortName": "alberio",
