@@ -1,0 +1,22 @@
+{
+  "name": "Settlus Testnet",
+  "chain": "Settlus",
+  "rpc": ["https://settlus-test-eth.settlus.io"],
+  "faucets": ["https://faucet.settlus.io"],
+  "nativeCurrency": {
+    "name": "Setl",
+    "symbol": "SETL",
+    "decimals": 18
+  },
+  "infoURL": "https://settlus.org",
+  "shortName": "settlus-testnet",
+  "chainId": 5372,
+  "networkId": 5372,
+  "explorers": [
+    {
+      "name": "Settlus Scan",
+      "url": "https://testnet.settlus.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
