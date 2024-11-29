@@ -27,11 +27,6 @@
       "standard": "EIP3091"
     },
     {
-      "name": "Routescan",
-      "url": "https://base.superscan.network",
-      "standard": "EIP3091"
-    },
-    {
       "name": "basescout",
       "url": "https://base.blockscout.com",
       "icon": "blockscout",
@@ -41,6 +36,11 @@
       "name": "dexguru",
       "url": "https://base.dex.guru",
       "icon": "dexguru",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Routescan",
+      "url": "https://base.superscan.network",
       "standard": "EIP3091"
     }
   ],
