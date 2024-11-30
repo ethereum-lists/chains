@@ -6967,6 +6967,19 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "Argochain Testnet",
+  "chainId": 1298,
+  "shortName": "tAGC",
+  "networkId": 1298,
+  "nativeCurrency": {
+    "name": "Argocoin",
+    "symbol": "AGC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.devolvedai.com", "https://test-rpc.devolvedai.com"],
+  "faucets": ["https://faucet.argoscan.net"],
+  "infoURL": "https://devolvedai.com"
+}, {
   "name": "Argochain",
   "chainId": 1299,
   "shortName": "AGC",
