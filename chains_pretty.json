@@ -37633,6 +37633,27 @@
     "chain": "eip155-1"
   }
 }, {
+  "name": "DJT Testnet",
+  "chain": "DJT",
+  "icon": "djt",
+  "rpc": ["https://testnet-rpc.trumpchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TrumpChain",
+    "symbol": "DJT",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet-explorer.trumpchain.io",
+  "shortName": "DJT",
+  "chainId": 621847,
+  "networkId": 621847,
+  "explorers": [{
+    "name": "DJT Testnet Explorer",
+    "url": "https://testnet-explorer.trumpchain.io",
+    "icon": "djt",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Hypra Mainnet",
   "chain": "HYP",
   "rpc": ["https://rpc.hypra.network", "https://rpc.rethereum.org", "https://rethereum.rpc.restratagem.com", "https://rpc.rthcentral.org", "https://hypra.rpc.thirdweb.com"],

@@ -22931,6 +22931,19 @@
   "faucets": [],
   "infoURL": "https://www.cmuccdc.org/"
 }, {
+  "name": "DJT Testnet",
+  "chainId": 621847,
+  "shortName": "DJT",
+  "networkId": 621847,
+  "nativeCurrency": {
+    "name": "TrumpChain",
+    "symbol": "DJT",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.trumpchain.io"],
+  "faucets": [],
+  "infoURL": "https://testnet-explorer.trumpchain.io"
+}, {
   "name": "Hypra Mainnet",
   "chainId": 622277,
   "shortName": "hyp",
