@@ -21514,6 +21514,19 @@
   "faucets": [],
   "infoURL": "https://milkomeda.com"
 }, {
+  "name": "Zoo Network",
+  "chainId": 200200,
+  "shortName": "zoo",
+  "networkId": 200200,
+  "nativeCurrency": {
+    "name": "Zoo",
+    "symbol": "ZOO",
+    "decimals": 18
+  },
+  "rpc": ["https://api.zoo.network"],
+  "faucets": ["https://faucet.zoo-test.network"],
+  "infoURL": "https://zoo.network"
+}, {
   "name": "Milkomeda A1 Testnet",
   "chainId": 200202,
   "shortName": "milkTAlgo",
