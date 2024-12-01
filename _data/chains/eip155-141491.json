@@ -1,6 +1,6 @@
 {
-  "name": "Bitharvest Chian Testnet",
-  "chain": "Bitharvest Chian Testnet",
+  "name": "Bitharvest Chain Testnet",
+  "chain": "Bitharvest Chain Testnet",
   "rpc": ["https://rpc-testnet.bthscan.io/"],
   "features": [
     {
@@ -10,7 +10,7 @@
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitharvest Testnet Native Token",
-    "symbol": "bth",
+    "symbol": "BTH",
     "decimals": 18
   },
   "infoURL": "",
