@@ -25672,8 +25672,8 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Bitharvest Chian Mainnet",
-  "chain": "Bitharvest Chian Mainnet",
+  "name": "Bitharvest Chain Mainnet",
+  "chain": "Bitharvest Chain Mainnet",
   "rpc": ["https://rpc.bthscan.io/"],
   "features": [{
     "name": "EIP1559"
@@ -34683,8 +34683,8 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Bitharvest Chian Testnet",
-  "chain": "Bitharvest Chian Testnet",
+  "name": "Bitharvest Chain Testnet",
+  "chain": "Bitharvest Chain Testnet",
   "rpc": ["https://rpc-testnet.bthscan.io/"],
   "features": [{
     "name": "EIP1559"
@@ -34692,7 +34692,7 @@
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitharvest Testnet Native Token",
-    "symbol": "bth",
+    "symbol": "BTH",
     "decimals": 18
   },
   "infoURL": "",

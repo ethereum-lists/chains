@@ -15768,7 +15768,7 @@
   "faucets": [],
   "infoURL": "https://www.zeroth.foundation"
 }, {
-  "name": "Bitharvest Chian Mainnet",
+  "name": "Bitharvest Chain Mainnet",
   "chainId": 14149,
   "shortName": "BitharvestMainnet",
   "networkId": 14149,
@@ -21176,13 +21176,13 @@
   "faucets": [],
   "infoURL": "https://magape.io"
 }, {
-  "name": "Bitharvest Chian Testnet",
+  "name": "Bitharvest Chain Testnet",
   "chainId": 141491,
   "shortName": "BitharvestTestnet",
   "networkId": 141491,
   "nativeCurrency": {
     "name": "Bitharvest Testnet Native Token",
-    "symbol": "bth",
+    "symbol": "BTH",
     "decimals": 18
   },
   "rpc": ["https://rpc-testnet.bthscan.io/"],
