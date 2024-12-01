@@ -23581,6 +23581,19 @@
   "faucets": ["https://faucet.evm.dusk-3.devnet.astria.org/"],
   "infoURL": "https://docs.astria.org"
 }, {
+  "name": "Owshen Mainnet",
+  "chainId": 918273,
+  "shortName": "owshen-mainnet",
+  "networkId": 918273,
+  "nativeCurrency": {
+    "name": "DIVE",
+    "symbol": "DIVE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.owshen.io"],
+  "faucets": [],
+  "infoURL": "https://owshen.io"
+}, {
   "name": "Posichain Devnet Shard 0",
   "chainId": 920000,
   "shortName": "psc-d-s0",
