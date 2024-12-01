@@ -20383,6 +20383,19 @@
   "faucets": [],
   "infoURL": "https://sriscan.com"
 }, {
+  "name": "Lux Network",
+  "chainId": 96369,
+  "shortName": "lux",
+  "networkId": 96369,
+  "nativeCurrency": {
+    "name": "Lux",
+    "symbol": "LUX",
+    "decimals": 18
+  },
+  "rpc": ["https://api.lux.network"],
+  "faucets": ["https://faucet.lux-test.network"],
+  "infoURL": "https://lux.network"
+}, {
   "name": "Mantis Testnet (Hexapod)",
   "chainId": 96970,
   "shortName": "mantis",
