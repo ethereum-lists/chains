@@ -1,7 +1,12 @@
 {
   "name": "Jumbochain Mainnet",
   "chain": "Jumbo",
-  "rpc": ["https://rpcpriv.jumbochain.org"],
+  "rpc": [
+    "https://rpcpriv.jumbochain.org",
+    "https://rpc-datajumbo1.jumbochain.org",
+    "https://rpc-datajumbo2.jumbochain.org",
+    "https://rpc-datajumbo3.jumbochain.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "JNFTC",
