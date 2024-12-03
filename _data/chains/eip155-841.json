@@ -1,6 +1,6 @@
 {
   "name": "Taraxa Mainnet",
-  "chain": "Tara",
+  "chain": "TARA",
   "icon": "taraxa",
   "rpc": ["https://rpc.mainnet.taraxa.io/", "https://ws.mainnet.taraxa.io"],
   "faucets": [],
@@ -15,9 +15,16 @@
   "networkId": 841,
   "explorers": [
     {
+      "name": "Tara.to Explorer",
+      "url": "https://tara.to",
+      "standard": "EIP3091",
+      "icon": "blockscout"
+    },
+    {
       "name": "Taraxa Explorer",
       "url": "https://explorer.mainnet.taraxa.io",
-      "standard": "none"
+      "standard": "none",
+      "icon": "taraxa"
     }
   ]
 }
