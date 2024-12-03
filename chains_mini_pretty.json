@@ -5222,7 +5222,7 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.testnet.taraxa.io/", "https://ws.testnet.taraxa.io"],
-  "faucets": [],
+  "faucets": ["https://explorer.testnet.taraxa.io/faucet"],
   "infoURL": "https://taraxa.io"
 }, {
   "name": "HongKong Mainnet",
