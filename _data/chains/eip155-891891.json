@@ -4,19 +4,19 @@
   "rpc": ["https://rpc1-testnet.bitfi.xyz"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Ether",
+    "name": "Ethereum",
     "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "https://testnet.bitfi.xyz",
+  "infoURL": "https://rollup-info.altlayer.io/flavor-curve-garment/bitfi_ledger_testnet",
   "shortName": "bitfi",
   "chainId": 891891,
   "networkId": 891891,
   "explorers": [
     {
-      "name": "bitfiscan-testnet",
+      "name": "Bitfi Ledger Testnet Explorer",
       "icon": "bitfi",
-      "url": "https://testnet.bitfi.xyz",
+      "url": "https://testnet-scan.bitfi.xyz",
       "standard": "none"
     }
   ]
