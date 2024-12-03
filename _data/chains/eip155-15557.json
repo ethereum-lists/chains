@@ -20,10 +20,5 @@
       "url": "https://explorer.testnet.evm.eosnetwork.com",
       "standard": "EIP3091"
     }
-  ],
-  "parent": {
-    "type": "L2",
-    "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.testnet.evm.eosnetwork.com" }]
-  }
+  ]
 }
