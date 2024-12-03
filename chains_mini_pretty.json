@@ -18485,6 +18485,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Reddio Devnet",
+  "chainId": 50341,
+  "shortName": "reddio-devnet",
+  "networkId": 50341,
+  "nativeCurrency": {
+    "name": "Red",
+    "symbol": "RED",
+    "decimals": 18
+  },
+  "rpc": ["https://reddio-dev.reddio.com"],
+  "faucets": [],
+  "infoURL": "https://www.reddio.com"
+}, {
   "name": "Erbie Mainnet",
   "chainId": 50888,
   "shortName": "Erbie",
