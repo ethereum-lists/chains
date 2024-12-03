@@ -1,18 +1,18 @@
 {
-  "name": "Lux Mainnet",
+  "name": "Lux Testnet",
   "chain": "Lux",
   "icon": "lux",
-  "rpc": ["https://api.lux.network"],
+  "rpc": ["https://api.lux-test.network"],
   "faucets": ["https://faucet.lux-test.network"],
   "nativeCurrency": {
-    "name": "Lux",
-    "symbol": "LUX",
+    "name": "tLux",
+    "symbol": "tLUX",
     "decimals": 18
   },
   "infoURL": "https://lux.network",
-  "shortName": "lux",
-  "chainId": 96369,
-  "networkId": 96369,
+  "shortName": "tlux",
+  "chainId": 96368,
+  "networkId": 96368,
   "explorers": [
     {
       "name": "Lux Network Explorer",
