@@ -5160,6 +5160,32 @@
   "faucets": ["https://faucet.runic.build"],
   "infoURL": "https://runic.build"
 }, {
+  "name": "Daily Network Mainnet",
+  "chainId": 824,
+  "shortName": "dly",
+  "networkId": 824,
+  "nativeCurrency": {
+    "name": "Daily",
+    "symbol": "DLY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mainnet.dailycrypto.net"],
+  "faucets": [],
+  "infoURL": "https://dailycrypto.net"
+}, {
+  "name": "Daily Network Testnet",
+  "chainId": 825,
+  "shortName": "tdly",
+  "networkId": 825,
+  "nativeCurrency": {
+    "name": "Daily",
+    "symbol": "DLY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.dailycrypto.net"],
+  "faucets": [],
+  "infoURL": "https://dailycrypto.net"
+}, {
   "name": "CheckDot Blockchain Devnet",
   "chainId": 831,
   "shortName": "cdt",
