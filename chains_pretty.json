@@ -15740,6 +15740,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "NOW Chain Mainnet",
+  "chain": "NOW",
+  "icon": "nowchain",
+  "rpc": ["https://rpc.nowscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NOW Coin",
+    "symbol": "NOW",
+    "decimals": 18
+  },
+  "infoURL": "https://nowchain.co",
+  "shortName": "now",
+  "chainId": 2488,
+  "networkId": 2488,
+  "explorers": [{
+    "name": "NOW Scan",
+    "url": "https://nowscan.io",
+    "icon": "nowchain",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Karak Goerli",
   "chain": "Karak",
   "icon": "karak",

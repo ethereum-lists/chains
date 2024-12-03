@@ -9684,6 +9684,19 @@
   "faucets": ["https://faucet.uniultra.xyz"],
   "infoURL": "https://uniultra.xyz"
 }, {
+  "name": "NOW Chain Mainnet",
+  "chainId": 2488,
+  "shortName": "now",
+  "networkId": 2488,
+  "nativeCurrency": {
+    "name": "NOW Coin",
+    "symbol": "NOW",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.nowscan.io"],
+  "faucets": [],
+  "infoURL": "https://nowchain.co"
+}, {
   "name": "Karak Goerli",
   "chainId": 2511,
   "shortName": "karak-goerli",
