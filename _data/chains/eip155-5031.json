@@ -1,0 +1,24 @@
+{
+  "name": "Somnia Mainnet",
+  "chain": "Somnia",
+  "rpc": [
+    ""
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Somnia Mainnet",
+    "symbol": "STT",
+    "decimals": 18
+  },
+  "infoURL": "https://somnia.network/",
+  "shortName": "Somnia",
+  "chainId": 5031,
+  "networkId": 5031,
+  "explorers": [
+    {
+      "name": "Somnia Devnet",
+      "url": "https://somnia.network/",
+      "standard": "EIP3091"
+    }
+  ]
+}
