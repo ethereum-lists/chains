@@ -1,7 +1,7 @@
 {
   "name": "Selendra Network Mainnet",
   "chain": "SEL",
-  "rpc": ["https://rpc0.selendra.org", "https://rpc1.selendra.org"],
+  "rpc": ["https://rpc.selendra.org", "https://rpc2.selendra.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Selendra",
@@ -15,8 +15,8 @@
   "icon": "selendra",
   "explorers": [
     {
-      "name": "Selendra Scan",
-      "url": "https://scan.selendra.org",
+      "name": "Selendra Portal",
+      "url": "https://portal.selendra.org",
       "standard": "none"
     }
   ]
