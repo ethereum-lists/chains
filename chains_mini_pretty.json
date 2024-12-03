@@ -20383,7 +20383,20 @@
   "faucets": [],
   "infoURL": "https://sriscan.com"
 }, {
-  "name": "Lux Network",
+  "name": "Lux Testnet",
+  "chainId": 96368,
+  "shortName": "tlux",
+  "networkId": 96368,
+  "nativeCurrency": {
+    "name": "tLux",
+    "symbol": "tLUX",
+    "decimals": 18
+  },
+  "rpc": ["https://api.lux-test.network"],
+  "faucets": ["https://faucet.lux-test.network"],
+  "infoURL": "https://lux.network"
+}, {
+  "name": "Lux Mainnet",
   "chainId": 96369,
   "shortName": "lux",
   "networkId": 96369,
