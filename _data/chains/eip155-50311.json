@@ -2,23 +2,24 @@
   "name": "Somnia Devnet",
   "chain": "Somnia",
   "rpc": [
-    ""
+    "https://dream-rpc.somnia.network"
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Somnia Devnet Token",
+    "name": "Somnia Devnet",
     "symbol": "STT",
     "decimals": 18
   },
+  "features": [{ "name": "EIP155" }],
   "infoURL": "https://somnia.network",
-  "shortName": "Somnia",
+  "shortName": "STT",
   "chainId": 50311,
   "networkId": 50311,
-  "explorers": [
-    {
-      "name": "Somnia Devnet",
-      "url": "https://somnia-devnet.socialscan.io",
-      "standard": "EIP3091"
-    }
-  ]
+  "icon": "Somnia",
+  "explorers": [{
+    "name": "Somnia Devnet",
+    "url": "https://somnia-devnet.socialscan.io",
+    "icon": "SomniaSocialScan",
+    "standard": "EIP3091"
+  }]
 }
