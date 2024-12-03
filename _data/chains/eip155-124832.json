@@ -1,0 +1,17 @@
+{
+  "name": "Mitosis Testnet",
+  "chain": "Mitosis Testnet",
+  "rpc": ["https://rpc.testnet.mitosis.org"],
+  "faucets": ["https://testnet.mitosis.org/faucet"],
+  "chainId": 124832,
+  "networkId": 124832,
+  "nativeCurrency": {
+    "name": "MITO",
+    "symbol": "MITO",
+    "decimals": 18
+  },
+  "infoURL": "https://mitosis.org",
+  "shortName": "mitosis-testnet",
+  "explorers": []
+  }
+}
