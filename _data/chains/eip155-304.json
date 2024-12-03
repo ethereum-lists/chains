@@ -1,0 +1,31 @@
+{
+  "name": "Lamp Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": ["http://34.32.180.181:3050"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "http://34.32.180.181",
+  "shortName": "lamp-sepolia",
+  "chainId": 304,
+  "networkId": 304,
+  "slip44": 1,
+  "icon": "lamp",
+  "explorers": [
+    {
+      "name": "Lamp Block Explorer",
+      "url": "http://34.32.180.181:3010",
+      "icon": "lamp",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "http://34.32.180.181:3000" }]
+  },
+  "redFlags": ["reusedChainId"]
+}
