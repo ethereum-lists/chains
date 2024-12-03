@@ -12,11 +12,9 @@
   "shortName": "mitosis-testnet",
   "chainId": 124832,
   "networkId": 124832,
-  "explorers": [
-    {
+  "explorers": [{
       "name": "mitosis testnet explorer",
       "url": "https://testnet.mitosiscan.xyz",
-      "standard": "none"
-    }
-  ]
+      "standard": "3091"
+    }]
   }
