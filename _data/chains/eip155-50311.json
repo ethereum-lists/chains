@@ -1,9 +1,7 @@
 {
   "name": "Somnia Devnet",
   "chain": "Somnia",
-  "rpc": [
-    "https://dream-rpc.somnia.network"
-  ],
+  "rpc": ["https://dream-rpc.somnia.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Somnia Devnet",
@@ -15,11 +13,11 @@
   "shortName": "STT",
   "chainId": 50311,
   "networkId": 50311,
-  "icon": "https://i.ibb.co/WBncfmg/photo-6106967106185708108-c-1.jpg",
-  "explorers": [{
-    "name": "Somnia Devnet",
-    "url": "https://somnia-devnet.socialscan.io",
-    "icon": "Somniaexplorer",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "Somnia Devnet",
+      "url": "https://somnia-devnet.socialscan.io",
+      "standard": "EIP3091"
+    }
+  ]
 }
