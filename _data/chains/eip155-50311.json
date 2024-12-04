@@ -13,10 +13,12 @@
   "shortName": "STT",
   "chainId": 50311,
   "networkId": 50311,
+  "icon": "somnia",
   "explorers": [
     {
       "name": "Somnia Devnet",
       "url": "https://somnia-devnet.socialscan.io",
+      "icon": "somnia",
       "standard": "EIP3091"
     }
   ]
