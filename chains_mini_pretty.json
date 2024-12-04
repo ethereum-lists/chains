@@ -1884,6 +1884,19 @@
   "faucets": [],
   "infoURL": "https://soraai.bot"
 }, {
+  "name": "Sonic Mainnet",
+  "chainId": 146,
+  "shortName": "sonic",
+  "networkId": 146,
+  "nativeCurrency": {
+    "name": "Sonic",
+    "symbol": "S",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.soniclabs.com"],
+  "faucets": [],
+  "infoURL": "https://soniclabs.com"
+}, {
   "name": "Flag Mainnet",
   "chainId": 147,
   "shortName": "FLAG",
