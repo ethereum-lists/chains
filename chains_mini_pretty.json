@@ -21215,6 +21215,19 @@
   "faucets": [],
   "infoURL": "https://adilchain.io"
 }, {
+  "name": "Mitosis Testnet",
+  "chainId": 124832,
+  "shortName": "mitosis-testnet",
+  "networkId": 124832,
+  "nativeCurrency": {
+    "name": "MITO",
+    "symbol": "MITO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.mitosis.org"],
+  "faucets": ["https://testnet.mitosis.org/faucet"],
+  "infoURL": "https://mitosis.org"
+}, {
   "name": "Etherlink Testnet",
   "chainId": 128123,
   "shortName": "etlt",
