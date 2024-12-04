@@ -1,7 +1,7 @@
 {
   "name": "Unite Testnet",
   "chain": "UNITE",
-  "rpc": [],
+  "rpc": ["https://unite-testnet.g.alchemy.com/public"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Testnet Unite",
@@ -12,5 +12,12 @@
   "shortName": "unitetestnet",
   "chainId": 888991,
   "networkId": 888991,
-  "status": "incubating"
+  "status": "active",
+  "explorers": [
+    {
+      "name": "Unite Testnet Explorer",
+      "url": "https://unite-testnet.explorer.alchemy.com",
+      "standard": "EIP3091"
+    }
+  ]
 }
