@@ -18836,6 +18836,19 @@
   "faucets": ["https://rollux.id/faucetapp"],
   "infoURL": "https://rollux.com"
 }, {
+  "name": "Sonic Blaze Testnet",
+  "chainId": 57054,
+  "shortName": "blaze",
+  "networkId": 57054,
+  "nativeCurrency": {
+    "name": "Sonic",
+    "symbol": "S",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.blaze.soniclabs.com"],
+  "faucets": ["https://blaze.soniclabs.com/account"],
+  "infoURL": "https://blaze.soniclabs.com"
+}, {
   "name": "Ink",
   "chainId": 57073,
   "shortName": "ink",
