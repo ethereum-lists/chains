@@ -9,17 +9,17 @@
     "decimals": 18
   },
   "infoURL": "https://emoney.network/",
-  "shortName": "emoney-testnet",
+  "shortName": "Emoney Testnet",
   "chainId": 4544,
   "networkId": 4544,
   "slip44": 118,
   "icon": "emoney",
   "explorers": [
     {
-      "name": "EMoney ethscan",
-      "url": "https://explore-stage.emoney.network/dashboard",
+      "name": "EMoney Explorer",
+      "url": "https://explore-stage.emoney.network",
       "icon": "emoney",
-      "standard": "EIP3091"
+      "standard": "none"
     }
   ]
 }
