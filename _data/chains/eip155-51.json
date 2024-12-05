@@ -1,8 +1,16 @@
 {
   "name": "XDC Apothem Network",
   "chain": "XDC",
-  "rpc": ["https://rpc.apothem.network", "https://erpc.apothem.network","https://apothem.xdcpc.com"],
-  "faucets": ["https://faucet.apothem.network","https://faucet.blocksscan.io","https://apothem.xdcscan.io/faucet"],
+  "rpc": [
+    "https://rpc.apothem.network",
+    "https://erpc.apothem.network",
+    "https://apothem.xdcrpc.com"
+  ],
+  "faucets": [
+    "https://faucet.apothem.network",
+    "https://faucet.blocksscan.io",
+    "https://apothem.xdcscan.io/faucet"
+  ],
   "nativeCurrency": {
     "name": "XinFin",
     "symbol": "TXDC",
