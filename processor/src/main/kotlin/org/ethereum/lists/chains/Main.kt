@@ -354,8 +354,9 @@ fun checkChain(chainFile: File, onlineCheck: Boolean, verbose: Boolean = false) 
 
             if (onlineCheck) {
                 val request = Request.Builder().url(url).build();
-                if (okHttpClient.newCall(request).execute().code != 200) {
-                    throw (CantReachExplorerException(url, 200))
+                val code = okHttpClient.newCall(request).execute().code
+                if (code / 100 != 2 && code != 403 ) { // etherscan throws a 403 because of cloudflare - so we need to allow it :cry
+                    throw (CantReachExplorerException(url, code))
                 }
             }
         }
