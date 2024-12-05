@@ -5849,7 +5849,7 @@
   "faucets": [],
   "infoURL": "https://gton.capital"
 }, {
-  "name": "Kaia Testnet Kairos",
+  "name": "Kaia Kairos Testnet",
   "chainId": 1001,
   "shortName": "kaia-kairos",
   "networkId": 1001,
@@ -5858,7 +5858,7 @@
     "symbol": "KAIA",
     "decimals": 18
   },
-  "rpc": ["https://public-en.kairos.node.kaia.io"],
+  "rpc": ["https://public-en-kairos.node.kaia.io"],
   "faucets": ["https://faucet.kaia.io"],
   "infoURL": "https://kaia.io/"
 }, {
