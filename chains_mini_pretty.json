@@ -11998,6 +11998,19 @@
   "faucets": ["https://faucet.settlus.io"],
   "infoURL": "https://settlus.org"
 }, {
+  "name": "Settlus Sepolia Testnet",
+  "chainId": 5373,
+  "shortName": "setl-sepolia",
+  "networkId": 5373,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://settlus.org"
+}, {
   "name": "edeXa Mainnet",
   "chainId": 5424,
   "shortName": "edeXa",
