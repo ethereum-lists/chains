@@ -18557,16 +18557,37 @@
     "decimals": 18
   },
   "infoURL": "https://emoney.network/",
-  "shortName": "emoney",
+  "shortName": "EmoneyTestnet",
   "chainId": 4544,
   "networkId": 4544,
   "slip44": 118,
   "icon": "emoney",
   "explorers": [{
-    "name": "EMoney ethscan",
-    "url": "https://ethscan.emoney.network",
+    "name": "EMoney Explorer",
+    "url": "https://explore-stage.emoney.network",
     "icon": "emoney",
-    "standard": "EIP3091"
+    "standard": "none"
+  }]
+}, {
+  "name": "Emoney Network Mainnet",
+  "chain": "Emoney",
+  "rpc": ["https://rpc-publicnode.emoney.io/", "https://public-node1-rpc.emoney.network/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Emoney Coin",
+    "symbol": "EMYC",
+    "decimals": 18
+  },
+  "infoURL": "https://emoney.io/",
+  "shortName": "emoney",
+  "chainId": 4545,
+  "networkId": 4545,
+  "icon": "emoney",
+  "explorers": [{
+    "name": "EMoney Explorer",
+    "url": "https://explore.emoney.network",
+    "icon": "emoney",
+    "standard": "none"
   }]
 }, {
   "name": "VERY Mainnet",

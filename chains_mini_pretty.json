@@ -11389,7 +11389,7 @@
 }, {
   "name": "Emoney Network Testnet",
   "chainId": 4544,
-  "shortName": "emoney",
+  "shortName": "EmoneyTestnet",
   "networkId": 4544,
   "nativeCurrency": {
     "name": "Emoney Network",
@@ -11399,6 +11399,19 @@
   "rpc": ["https://testnet.emoney.network/"],
   "faucets": ["https://faucet.emoney.network/faucet"],
   "infoURL": "https://emoney.network/"
+}, {
+  "name": "Emoney Network Mainnet",
+  "chainId": 4545,
+  "shortName": "emoney",
+  "networkId": 4545,
+  "nativeCurrency": {
+    "name": "Emoney Coin",
+    "symbol": "EMYC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-publicnode.emoney.io/", "https://public-node1-rpc.emoney.network/"],
+  "faucets": [],
+  "infoURL": "https://emoney.io/"
 }, {
   "name": "VERY Mainnet",
   "chainId": 4613,
