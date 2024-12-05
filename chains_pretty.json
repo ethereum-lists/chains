@@ -6678,6 +6678,34 @@
     "standard": "none"
   }]
 }, {
+  "name": "AppChain",
+  "chain": "AppChain",
+  "rpc": ["https://appchain.calderachain.xyz/http", "wss://appchain.calderachain.xyz/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://appchain.xyz",
+  "shortName": "appchain",
+  "chainId": 466,
+  "networkId": 466,
+  "icon": "appchain",
+  "explorers": [{
+    "name": "AppChain Explorer",
+    "url": "https://explorer.appchain.xyz",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://bridge.appchain.xyz"
+    }]
+  }
+}, {
   "name": "World Chain",
   "chain": "ETH",
   "rpc": ["https://worldchain-mainnet.g.alchemy.com/public", "https://480.rpc.thirdweb.com", "https://worldchain-mainnet.gateway.tenderly.co", "wss://worldchain-mainnet.gateway.tenderly.co"],
@@ -18633,6 +18661,34 @@
   "networkId": 4653,
   "status": "incubating",
   "icon": "gold"
+}, {
+  "name": "AppChain Testnet",
+  "chain": "AppChain Testnet",
+  "rpc": ["https://appchaintestnet.rpc.caldera.xyz/http", "wss://appchaintestnet.rpc.caldera.xyz/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://appchain.xyz",
+  "shortName": "appchaintestnet",
+  "chainId": 4661,
+  "networkId": 4661,
+  "icon": "appchain",
+  "explorers": [{
+    "name": "AppChain Testnet Explorer",
+    "url": "https://appchaintestnet.explorer.caldera.xyz",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{
+      "url": "https://appchaintestnet.bridge.caldera.xyz"
+    }]
+  }
 }, {
   "name": "IoTeX Network Mainnet",
   "chain": "iotex.io",

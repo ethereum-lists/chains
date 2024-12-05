@@ -4068,6 +4068,19 @@
   "faucets": [],
   "infoURL": "https://areon.network"
 }, {
+  "name": "AppChain",
+  "chainId": 466,
+  "shortName": "appchain",
+  "networkId": 466,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://appchain.calderachain.xyz/http", "wss://appchain.calderachain.xyz/ws"],
+  "faucets": [],
+  "infoURL": "https://appchain.xyz"
+}, {
   "name": "World Chain",
   "chainId": 480,
   "shortName": "wc",
@@ -11438,6 +11451,19 @@
   "rpc": ["https://chain-rpc.gold.dev"],
   "faucets": [],
   "infoURL": "https://gold.dev"
+}, {
+  "name": "AppChain Testnet",
+  "chainId": 4661,
+  "shortName": "appchaintestnet",
+  "networkId": 4661,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://appchaintestnet.rpc.caldera.xyz/http", "wss://appchaintestnet.rpc.caldera.xyz/ws"],
+  "faucets": [],
+  "infoURL": "https://appchain.xyz"
 }, {
   "name": "IoTeX Network Mainnet",
   "chainId": 4689,
