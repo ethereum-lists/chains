@@ -25219,6 +25219,19 @@
   "faucets": ["https://faucet.toliman.suave.flashbots.net"],
   "infoURL": "https://suave-alpha.flashbots.net/toliman"
 }, {
+  "name": "Xone Testnet",
+  "chainId": 33772211,
+  "shortName": "txoc",
+  "networkId": 33772211,
+  "nativeCurrency": {
+    "name": "Xone Coin",
+    "symbol": "XOC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.xone.plus"],
+  "faucets": [],
+  "infoURL": "https://xone.plus"
+}, {
   "name": "citronus-citro",
   "chainId": 34949059,
   "shortName": "citronus-citro",
