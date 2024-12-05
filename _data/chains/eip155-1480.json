@@ -12,5 +12,13 @@
   "shortName": "vana",
   "chainId": 1480,
   "networkId": 1480,
-  "explorers": [ "https://vanascan.io/" ]
+  "icon": "vana",
+  "explorers": [
+    {
+      "name": "Vana Block Explorer",
+      "url": "https://vanascan.io",
+      "icon": "vana",
+      "standard": "EIP3091"
+    }
+  ]
 }
