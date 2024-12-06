@@ -1,9 +1,7 @@
 {
   "name": "Emoney Network Mainnet",
   "chain": "Emoney",
-  "rpc": [
-    "https://rpc-publicnode.emoney.io/"
-  ],
+  "rpc": ["https://rpc-publicnode.emoney.io/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Emoney Coin",
