@@ -3522,7 +3522,7 @@
   "faucets": [],
   "infoURL": "https://zksync.io/"
 }, {
-  "name": "GRVT Mainnet",
+  "name": "GRVT Exchange",
   "chainId": 325,
   "shortName": "grvt",
   "networkId": 325,
@@ -3531,11 +3531,11 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.grvt.io"],
   "faucets": [],
   "infoURL": "https://grvt.io/"
 }, {
-  "name": "GRVT Sepolia Testnet",
+  "name": "GRVT Exchange Testnet",
   "chainId": 326,
   "shortName": "grvt-sepolia",
   "networkId": 326,
@@ -3544,7 +3544,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://zkrpc.testnet.grvt.io"],
   "faucets": [],
   "infoURL": "https://grvt.io/"
 }, {
