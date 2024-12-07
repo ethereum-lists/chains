@@ -8215,29 +8215,29 @@
   "faucets": [],
   "infoURL": "https://mobylab.docs.crescdi.pub.ro/blog/UPB-CRESCDI-Testnet"
 }, {
-  "name": "Swell Network",
+  "name": "Swellchain",
   "chainId": 1923,
-  "shortName": "swell-l2",
+  "shortName": "swellchain",
   "networkId": 1923,
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://swell-mainnet.alt.technology"],
+  "rpc": ["https://swell-mainnet.alt.technology", "https://rpc.ankr.com/swell"],
   "faucets": [],
   "infoURL": "https://app.swellnetwork.io/layer2/swell-l2"
 }, {
-  "name": "Swell Network Testnet",
+  "name": "Swellchain Testnet",
   "chainId": 1924,
-  "shortName": "swell-l2-testnet",
+  "shortName": "swellchain-sep",
   "networkId": 1924,
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://swell-testnet.alt.technology"],
+  "rpc": ["https://swell-testnet.alt.technology", "https://rpc.ankr.com/swell-testnet"],
   "faucets": [],
   "infoURL": "https://app.swellnetwork.io/layer2/swell-l2"
 }, {
