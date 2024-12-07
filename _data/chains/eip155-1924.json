@@ -1,7 +1,11 @@
 {
-  "name": "Swell Network Testnet",
-  "chain": "Swell L2 Testnet",
-  "rpc": ["https://swell-testnet.alt.technology"],
+  "name": "Swellchain Testnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://swell-testnet.alt.technology",
+    "https://rpc.ankr.com/swell-testnet"
+  ],
+
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -9,13 +13,13 @@
     "decimals": 18
   },
   "infoURL": "https://app.swellnetwork.io/layer2/swell-l2",
-  "shortName": "swell-l2-testnet",
+  "shortName": "swellchain-sep",
   "chainId": 1924,
   "networkId": 1924,
+  "icon": "swell",
   "explorers": [
     {
-      "name": "swell-l2-testnet",
-      "icon": "swell",
+      "name": "Swellchain Testnet Explorer",
       "url": "https://swell-testnet-explorer.alt.technology",
       "standard": "none"
     }
