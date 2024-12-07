@@ -18238,6 +18238,19 @@
   "faucets": [],
   "infoURL": "https://docs.boba.network/for-developers/network-avalanche"
 }, {
+  "name": "Formicarium",
+  "chainId": 43521,
+  "shortName": "form",
+  "networkId": 43521,
+  "nativeCurrency": {
+    "name": "Formicarium M",
+    "symbol": "M",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.formicarium.memecore.net", "wss://ws.formicarium.memecore.net"],
+  "faucets": ["https://faucet.memecore.com/formicarium"],
+  "infoURL": "https://memecore.com"
+}, {
   "name": "ZKFair Testnet",
   "chainId": 43851,
   "shortName": "ZKFair-Testnet",
