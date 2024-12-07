@@ -1,7 +1,7 @@
 {
     "name": "PointPay Mainnet",
     "chain": "pointpay",
-    "rpc": ["https://rpc.pointpay.io"],
+    "rpc": ["https://rpc-mainnet.pointpay.io"],
     "faucets": [],
     "nativeCurrency": {
         "name": "PointPay",
@@ -16,7 +16,7 @@
     "explorers": [
         {
             "name": "PointPay Mainnet Explorer",
-            "url": "https://explorer.pointpay.io",
+                "url": "https://explorer.pointpay.io",
             "icon": "pointpay",
             "standard": "EIP3091"
         }
