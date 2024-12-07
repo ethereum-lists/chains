@@ -21553,6 +21553,19 @@
   "faucets": [],
   "infoURL": "https://xfair.ai"
 }, {
+  "name": "Wadzchain Mainnet",
+  "chainId": 171717,
+  "shortName": "wadzchain-mainnet",
+  "networkId": 171717,
+  "nativeCurrency": {
+    "name": "WadzChain Token",
+    "symbol": "WCO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.wadzchain.io"],
+  "faucets": [],
+  "infoURL": "https://www.wadzchain-network.io"
+}, {
   "name": "Chronicle - Lit Protocol Testnet",
   "chainId": 175177,
   "shortName": "lpc",
