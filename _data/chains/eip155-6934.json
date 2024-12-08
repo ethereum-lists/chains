@@ -1,0 +1,34 @@
+{
+  "name": "XYL TestNet",
+  "chain": "XYL",
+  "rpc": ["https://xyl-testnet.glitch.me/rpc/"],
+  "faucets": ["https://debxylen.github.io/XYL_TestNet/faucet.html"],
+  "nativeCurrency": {
+    "name": "XYL",
+    "symbol": "XYL",
+    "decimals": 18
+  },
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" },
+    { "name": "XYL-DynaPoW" },
+    { "name": "Smart Contracts" },
+    { "name": "Custom Gas Model" },
+    { "name": "XYL-VM" },
+    { "name": "Dynamic Difficulty Adjustment" },
+    { "name": "Low-Latency Transactions" }
+  ],
+  "infoURL": "https://debxylen.github.io/XYL_TestNet",
+  "shortName": "xyl",
+  "chainId": 6934,
+  "networkId": 6934,
+  "icon": "xyl-test",
+  "explorers": [
+    {
+      "name": "XYL Explorer",
+      "url": "https://debxylen.github.io/BlockExplorer",
+      "icon": "xyl-test",
+      "standard": "EIP3091"
+    }
+  ]
+}
