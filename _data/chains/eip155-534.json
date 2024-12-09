@@ -1,14 +1,14 @@
 {
   "name": "Candle",
   "chain": "Candle",
-  "rpc": ["https://candle-rpc.com/", "https://rpc.cndlchain.com"],
+  "rpc": ["https://candle-rpc.com/", "https://rpc.cndlchain.com", "https://rpc.walker-cole.com", "https://rpc.candle-labs.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "CANDLE",
     "symbol": "CNDL",
     "decimals": 18
   },
-  "infoURL": "https://candlelabs.org/",
+  "infoURL": "https://canlde-labs.com/",
   "shortName": "CNDL",
   "chainId": 534,
   "networkId": 534,
