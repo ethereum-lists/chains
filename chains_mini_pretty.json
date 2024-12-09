@@ -20201,6 +20201,19 @@
   "faucets": [],
   "infoURL": "https://base.org"
 }, {
+  "name": "O Chain",
+  "chainId": 84841,
+  "shortName": "O",
+  "networkId": 84841,
+  "nativeCurrency": {
+    "name": "O.XYZ",
+    "symbol": "O",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.o.xyz", "https://84841.rpc.thirdweb.com", "wss://rpc.o.xyz"],
+  "faucets": [],
+  "infoURL": "https://o.xyz"
+}, {
   "name": "Aerie Network",
   "chainId": 84886,
   "shortName": "Aerie",
