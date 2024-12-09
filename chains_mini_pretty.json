@@ -25414,6 +25414,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Stavanger Public Testnet",
+  "chainId": 50591822,
+  "shortName": "stavanger",
+  "networkId": 50591822,
+  "nativeCurrency": {
+    "name": "Polygon",
+    "symbol": "POL",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.stavanger.gateway.fm"],
+  "faucets": ["https://faucet.stavanger.gateway.fm"],
+  "infoURL": "https://gateway.fm"
+}, {
   "name": "Deviant Token Blockchain",
   "chainId": 52027071,
   "shortName": "dtbc",
