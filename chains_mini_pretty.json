@@ -6330,6 +6330,19 @@
   "faucets": [],
   "infoURL": "https://www.bsquared.network"
 }, {
+  "name": "Core Blockchain Testnet2",
+  "chainId": 1114,
+  "shortName": "tcore2",
+  "networkId": 1114,
+  "nativeCurrency": {
+    "name": "Core Blockchain Testnet2 Native Token",
+    "symbol": "tCORE2",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.test2.btcs.network/"],
+  "faucets": ["https://scan.test2.btcs.network/faucet"],
+  "infoURL": "https://www.coredao.org"
+}, {
   "name": "Core Blockchain Testnet",
   "chainId": 1115,
   "shortName": "tcore",
