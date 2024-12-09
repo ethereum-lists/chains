@@ -1,9 +1,7 @@
 {
   "name": "PointPay Testnet",
   "chain": "pointpay",
-  "rpc": [
-    "https://rpc-testnet.pointpay.io"
-  ],
+  "rpc": ["https://rpc-testnet.pointpay.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "PointPay",
