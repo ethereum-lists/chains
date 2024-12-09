@@ -12063,6 +12063,19 @@
   "faucets": [],
   "infoURL": "https://docs.egochain.org/"
 }, {
+  "name": "PointPay Mainnet",
+  "chainId": 5511,
+  "shortName": "PP",
+  "networkId": 5511,
+  "nativeCurrency": {
+    "name": "PointPay",
+    "symbol": "PXP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet.pointpay.io"],
+  "faucets": [],
+  "infoURL": "https://pointpay.io"
+}, {
   "name": "VEX EVM TESTNET",
   "chainId": 5522,
   "shortName": "VEX",
@@ -24464,6 +24477,19 @@
   "rpc": ["https://kopli-rpc.reactive.network", "http://kopli-rpc.rkt.ink"],
   "faucets": ["https://dev.reactive.network/docs/kopli-testnet#faucet"],
   "infoURL": "https://reactive.network"
+}, {
+  "name": "PointPay Testnet",
+  "chainId": 5511555,
+  "shortName": "PPTEST",
+  "networkId": 5511555,
+  "nativeCurrency": {
+    "name": "PointPay",
+    "symbol": "PXP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.pointpay.io"],
+  "faucets": [],
+  "infoURL": "https://pointpay.io"
 }, {
   "name": "Imversed Mainnet",
   "chainId": 5555555,

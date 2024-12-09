@@ -19674,6 +19674,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "PointPay Mainnet",
+  "chain": "pointpay",
+  "rpc": ["https://rpc-mainnet.pointpay.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PointPay",
+    "symbol": "PXP",
+    "decimals": 18
+  },
+  "infoURL": "https://pointpay.io",
+  "shortName": "PP",
+  "chainId": 5511,
+  "networkId": 5511,
+  "icon": "pointpay",
+  "explorers": [{
+    "name": "PointPay Mainnet Explorer",
+    "url": "https://explorer.pointpay.io",
+    "icon": "pointpay",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "VEX EVM TESTNET",
   "chain": "vex",
   "icon": "vex",
@@ -40308,6 +40329,27 @@
     "name": "reactscan",
     "url": "https://kopli.reactscan.net",
     "standard": "none"
+  }]
+}, {
+  "name": "PointPay Testnet",
+  "chain": "pointpay",
+  "rpc": ["https://rpc-testnet.pointpay.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PointPay",
+    "symbol": "PXP",
+    "decimals": 18
+  },
+  "infoURL": "https://pointpay.io",
+  "shortName": "PPTEST",
+  "chainId": 5511555,
+  "networkId": 5511555,
+  "icon": "pointpay",
+  "explorers": [{
+    "name": "PointPay Testnet Explorer",
+    "url": "https://testnet.pointpay.io",
+    "icon": "pointpay",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Imversed Mainnet",
