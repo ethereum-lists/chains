@@ -19122,6 +19122,19 @@
   "faucets": [],
   "infoURL": "https://orangechain.xyz"
 }, {
+  "name": "Treasure",
+  "chainId": 61166,
+  "shortName": "treasure",
+  "networkId": 61166,
+  "nativeCurrency": {
+    "name": "MAGIC",
+    "symbol": "MAGIC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.treasure.lol", "wss://rpc.treasure.lol/ws"],
+  "faucets": ["https://app.treasure.lol/chain/faucet", "https://thirdweb.com/treasure"],
+  "infoURL": "https://app.treasure.lol"
+}, {
   "name": "KaiChain",
   "chainId": 61406,
   "shortName": "kec",
@@ -23876,13 +23889,13 @@
     "symbol": "MAGIC",
     "decimals": 18
   },
-  "rpc": ["https://rpc-testnet.treasure.lol/http", "wss://rpc-testnet.treasure.lol/ws"],
-  "faucets": ["https://portal.treasure.lol/faucet"],
-  "infoURL": "https://portal.treasure.lol"
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://app.treasure.lol"
 }, {
   "name": "Treasure Topaz",
   "chainId": 978658,
-  "shortName": "Topaz",
+  "shortName": "treasure-topaz",
   "networkId": 978658,
   "nativeCurrency": {
     "name": "Testnet MAGIC",
