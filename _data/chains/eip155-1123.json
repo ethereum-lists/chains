@@ -2,7 +2,11 @@
   "name": "B2 Testnet",
   "title": "B2 Testnet",
   "chain": "Habitat",
-  "rpc": ["https://b2-testnet.alt.technology"],
+  "rpc": [
+    "https://b2-testnet.alt.technology",
+    "https://rpc.ankr.com/b2_testnet",
+    "https://testnet-rpc.bsquared.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin",

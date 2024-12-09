@@ -1,0 +1,25 @@
+{
+  "name": "Lorenzo",
+  "chain": "Lorenzo",
+  "rpc": ["https://rpc.lorenzo-protocol.xyz"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lorenzo stBTC",
+    "symbol": "stBTC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.lorenzo-protocol.xyz/",
+  "shortName": "lrz",
+  "chainId": 8329,
+  "networkId": 8329,
+  "icon": "lorenzo",
+  "explorers": [
+    {
+      "name": "Lorenzo Explorer",
+      "url": "https://scan.lorenzo-protocol.xyz",
+      "standard": "none",
+      "icon": "lorenzo"
+    }
+  ]
+}

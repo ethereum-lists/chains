@@ -3,7 +3,7 @@
   "title": "COTI Devnet",
   "chain": "COTI",
   "icon": "coti",
-  "rpc": ["https://devnet.coti.io"],
+  "rpc": ["https://devnet.coti.io/rpc"],
   "faucets": ["https://faucet.coti.io"],
   "nativeCurrency": {
     "name": "COTI2",
@@ -14,5 +14,12 @@
   "shortName": "coti-devnet",
   "chainId": 13068200,
   "networkId": 13068200,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "coti devnet explorer",
+      "url": "https://explorer-devnet.coti.io",
+      "icon": "ethernal",
+      "standard": "EIP3091"
+    }
+  ]
 }
