@@ -118,6 +118,19 @@ npx prettier --write _data/*/*.json
  * Make sure CI is green. There will likely be no review when the CI is red.
  * When making changes that fix the CI problems - please re-request a review - otherwise it is too much work to track such changes with so many PRs daily
 
+## Automated Validation Process
+
+We use GitHub Actions workflows to automate the validation process for the chain JSON files. The following workflows are used:
+
+* **validate_json.yml**: This workflow runs the `tools/schemaCheck.js` script to validate the JSON schema of the chain files on each push or pull request.
+* **stale.yml**: This workflow manages stale issues and PRs, ensuring that unresolved issues are closed after a certain period of inactivity.
+
+To format the JSON files according to the style defined in `.prettierrc.json`, use the `prettier` tool. Run the following command to format all existing JSON files:
+
+```
+npx prettier --write _data/*/*.json
+```
+
 ## Usages
 ### Tools 
  * [MESC](https://paradigmxyz.github.io/mesc)
