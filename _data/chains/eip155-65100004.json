@@ -2,8 +2,11 @@
   "name": "Autonity Piccadilly (Tiber) Testnet",
   "chain": "AUT",
   "rpc": [
-    "https://rpc1.piccadilly.autonity.org/",
-    "wss://rpc1.piccadilly.autonity.org/ws/"
+    "https://autonity.rpc.web3cdn.network/testnet",
+    "wss://autonity.rpc.web3cdn.network/testnet/ws",
+    "https://autonity-piccadilly.rpc.subquery.network/public",
+    "https://picadilly.autonity-apis.com",
+    "wss://picadilly-ws.autonity-apis.com"
   ],
   "faucets": [],
   "nativeCurrency": {
