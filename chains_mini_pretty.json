@@ -4081,6 +4081,19 @@
   "faucets": [],
   "infoURL": "https://appchain.xyz"
 }, {
+  "name": "Form Network",
+  "chainId": 478,
+  "shortName": "formnetwork",
+  "networkId": 478,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.form.network/http", "wss://rpc.form.network/ws"],
+  "faucets": [],
+  "infoURL": "https://info.form.network"
+}, {
   "name": "World Chain",
   "chainId": 480,
   "shortName": "wc",
@@ -21419,9 +21432,9 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://testnet-rpc.form.network/http", "wss://testnet-rpc.form.network/ws"],
+  "rpc": ["https://sepolia-rpc.form.network/http", "wss://sepolia-rpc.form.network/ws"],
   "faucets": ["https://info.form.network/faucet"],
-  "infoURL": "https://form.network/details"
+  "infoURL": "https://sepolia-info.form.network"
 }, {
   "name": "MagApe Testnet",
   "chainId": 141319,
