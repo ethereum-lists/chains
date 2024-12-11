@@ -233,6 +233,13 @@ fun checkIcon(icon: File, withIconDownload: Boolean, allIconCIDs: MutableSet<Str
                 if (image.raster.height != height) {
                     error("height in json ($icon) is $height but actually is in imageDownload ${image.height}")
                 }
+
+                if (!legacyCIDs.contains(iconDownloadFile.name)) {
+                    val fileSize = iconDownloadFile.length()
+                    if (fileSize > 250 * 1024) {
+                        error("icon is bigger than 250kb")
+                    }
+                }
             } catch (e: Exception) {
                 e.printStackTrace()
                 error("problem with image $iconDownloadFile")

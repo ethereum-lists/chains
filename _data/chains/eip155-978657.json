@@ -11,24 +11,15 @@
   },
   "slip44": 1,
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "infoURL": "https://portal.treasure.lol",
+  "infoURL": "https://app.treasure.lol",
   "icon": "treasureruby",
-  "rpc": [
-    "https://rpc-testnet.treasure.lol/http",
-    "wss://rpc-testnet.treasure.lol/ws"
-  ],
-  "faucets": ["https://portal.treasure.lol/faucet"],
-  "explorers": [
-    {
-      "name": "treasurescan",
-      "url": "https://testnet.treasurescan.io",
-      "icon": "treasure",
-      "standard": "EIP3091"
-    }
-  ],
+  "rpc": [],
+  "faucets": [],
+  "status": "deprecated",
+  "explorers": [],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://portal.treasure.lol/bridge" }]
+    "bridges": []
   }
 }
