@@ -5004,6 +5004,19 @@
   "faucets": [],
   "infoURL": "https://cheapeth.org/"
 }, {
+  "name": "AUTHEO Testnet",
+  "chainId": 785,
+  "shortName": "autheo-Test-Chain",
+  "networkId": 785,
+  "nativeCurrency": {
+    "name": "THEO",
+    "symbol": "THEO",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc1.autheo.com"],
+  "faucets": ["https://testnet-faucet.autheo.com"],
+  "infoURL": "https://autheo.com"
+}, {
   "name": "MAAL Chain",
   "chainId": 786,
   "shortName": "maal",
