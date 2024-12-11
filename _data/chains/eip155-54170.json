@@ -12,14 +12,14 @@
     "decimals": 18
   },
   "infoURL": "https://atgraphite.com/",
-  "shortName": "graphite",
+  "shortName": "graphiteTest",
   "chainId": 54170,
   "networkId": 54170,
   "icon": "graphite",
   "explorers": [
     {
       "name": "Graphite Testnet Explorer",
-      "url": "https://test.atgraphite.com/",
+      "url": "https://test.atgraphite.com",
       "standard": "EIP3091"
     }
   ]
