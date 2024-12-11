@@ -3,13 +3,7 @@
     "chain": "Graphite",
     "rpc": [
         "https://entrypoint-1.atgraphite.com",
-        "https://entrypoint-2.atgraphite.com",
-        "https://anon-entrypoint-1.atgraphite.com",
-        "https://anon-entrypoint-2.atgraphite.com",
         "wss://ws-entrypoint-1.atgraphite.com",
-        "wss://ws-entrypoint-2.atgraphite.com",
-        "wss://ws-anon-entrypoint-1.atgraphite.com",
-        "wss://ws-anon-entrypoint-2.atgraphite.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -29,5 +23,5 @@
         "standard": "EIP3091"
       }
     ]
-  }
+}
   
