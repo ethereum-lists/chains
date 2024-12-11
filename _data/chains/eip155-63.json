@@ -6,12 +6,12 @@
   "icon": "ethereumclassictestnet",
   "rpc": [
     "https://rpc.mordor.etccooperative.org",
+    "https://testnet.etcmc.link",
     "https://geth-mordor.etc-network.info"
   ],
   "features": [{ "name": "EIP155" }],
   "faucets": [
-    "https://easy.hebeswap.com/#/faucet",
-    "https://faucet.mordortest.net"
+    "https://github.com/mordortestnet#mordor-testnet-guide"
   ],
   "nativeCurrency": {
     "name": "Mordor Ether",
