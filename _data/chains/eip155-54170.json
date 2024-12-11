@@ -3,7 +3,7 @@
   "chain": "Graphite",
   "rpc": [
     "https://anon-entrypoint-test-1.atgraphite.com",
-    "wss://ws-entrypoint-test-1.atgraphite.com",
+    "wss://ws-anon-entrypoint-test-1.atgraphite.com"
   ],
   "faucets": ["https://faucet.atgraphite.com/"],
   "nativeCurrency": {
