@@ -1,0 +1,28 @@
+{
+  "name": "Litentry",
+  "chain": "Litentry",
+  "rpc": [
+    "https://rpc.litentry-parachain.litentry.io",
+    "wss://rpc.litentry-parachain.litentry.io",
+    "https://litentry-rpc.dwellir.com",
+    "wss://litentry-rpc.dwellir.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Litentry",
+    "symbol": "LIT",
+    "decimals": 18
+  },
+  "infoURL": "https://litentry.com",
+  "shortName": "litentry",
+  "chainId": 212013,
+  "networkId": 212013,
+  "icon": "litentry",
+  "explorers": [
+    {
+      "name": "litentry statescan",
+      "url": "https://litentry.statescan.io",
+      "standard": "none"
+    }
+  ]
+}

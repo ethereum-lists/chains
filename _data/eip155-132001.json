@@ -1,0 +1,15 @@
+{
+  "name": "Testnet 1 Namefi Chain",
+  "chain": "NFIC",
+  "rpc": ["https://test1-rpc.chain.namefi.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Test 1 Namefi Coin",
+    "symbol": "test1NFIC",
+    "decimals": 18
+  },
+  "infoURL": "https://namefi.io/",
+  "shortName": "test1nfic",
+  "chainId": 132001,
+  "networkId": 132001
+}

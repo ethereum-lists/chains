@@ -1,0 +1,23 @@
+{
+  "name": "Nexis Network Testnet",
+  "chain": "Nexis Network",
+  "icon": "nexis",
+  "rpc": ["https://evm-testnet.nexis.network"],
+  "faucets": ["https://evm-faucet.nexis.network"],
+  "nativeCurrency": {
+    "name": "Nexis",
+    "symbol": "NZT",
+    "decimals": 18
+  },
+  "infoURL": "https://nexis.network/",
+  "shortName": "nzt",
+  "chainId": 2370,
+  "networkId": 2370,
+  "explorers": [
+    {
+      "name": "Nexis Testnet Explorer",
+      "url": "https://evm-testnet.nexscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
