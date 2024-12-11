@@ -11452,6 +11452,19 @@
   "faucets": [],
   "infoURL": "https://www.verylabs.io/"
 }, {
+  "name": "MST Chain",
+  "chainId": 4646,
+  "shortName": "mst",
+  "networkId": 4646,
+  "nativeCurrency": {
+    "name": "MST",
+    "symbol": "MST",
+    "decimals": 18
+  },
+  "rpc": ["https://mariorpc.mstblockchain.com", "https://craftrpc.mstblockchain.com"],
+  "faucets": [],
+  "infoURL": "https://mstblockchain.com"
+}, {
   "name": "Gold Chain",
   "chainId": 4653,
   "shortName": "gold",
