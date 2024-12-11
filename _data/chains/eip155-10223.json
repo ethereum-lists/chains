@@ -7,21 +7,21 @@
     "faucets": [],
     "nativeCurrency": {
         "name": "Timex Chain",
-        "symbol": "TOMEX",
+        "symbol": "TOMAX",
         "decimals": 18
     },
     "infoURL": "https://timexscan.io/",
-    "shortName": "timex",
+    "shortName": "tomax",
     "chainId": 10223,
     "networkId": 10223,
     "slip44": 1,
-    "icon": "timex",
+    "icon": "tomax",
     "explorers": [
         {
             "name": "Timexscan.io",
             "url": "https://timexscan.io/",
             "standard": "none",
-            "icon": "timex"
+            "icon": "tomax"
         }
     ]
 }
