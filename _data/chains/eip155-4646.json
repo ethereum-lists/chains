@@ -1,0 +1,28 @@
+{
+  "name": "MST Chain",
+  "title": "MST Chain",
+  "chain": "MST",
+  "rpc": [
+    "https://mariorpc.mstblockchain.com",
+    "https://craftrpc.mstblockchain.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MST",
+    "symbol": "MST",
+    "decimals": 18
+  },
+  "infoURL": "https://mstblockchain.com",
+  "shortName": "mst",
+  "chainId": 4646,
+  "networkId": 4646,
+  "slip44": 4646,
+  "icon": "mst",
+  "explorers": [
+    {
+      "name": "MST Mainnet Scan",
+      "url": "https://mstscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
