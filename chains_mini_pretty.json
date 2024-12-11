@@ -1412,7 +1412,7 @@
     "symbol": "BONE",
     "decimals": 18
   },
-  "rpc": ["https://www.shibrpc.com"],
+  "rpc": ["https://www.shibrpc.com", "https://rpc.shibrpc.com", "https://shib.nownodes.io"],
   "faucets": [],
   "infoURL": "https://shibariumecosystem.com"
 }, {
@@ -2014,7 +2014,7 @@
   "faucets": [],
   "infoURL": "https://www.oeblock.com/"
 }, {
-  "name": "Puppynet Shibarium",
+  "name": "Puppynet",
   "chainId": 157,
   "shortName": "puppynet",
   "networkId": 157,
@@ -2024,7 +2024,7 @@
     "decimals": 18
   },
   "rpc": ["https://puppynet.shibrpc.com"],
-  "faucets": ["https://beta.shibariumtech.com/faucet"],
+  "faucets": ["https://shibarium.shib.io/faucet"],
   "infoURL": "https://shibariumecosystem.com"
 }, {
   "name": "Roburna Mainnet",

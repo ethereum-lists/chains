@@ -2244,7 +2244,7 @@
   "name": "Shibarium",
   "chain": "Shibarium",
   "icon": "shibarium",
-  "rpc": ["https://www.shibrpc.com"],
+  "rpc": ["https://www.shibrpc.com", "https://rpc.shibrpc.com", "https://shib.nownodes.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BONE Shibarium",
@@ -3215,11 +3215,11 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Puppynet Shibarium",
-  "chain": "Puppynet Shibarium",
+  "name": "Puppynet",
+  "chain": "Puppynet",
   "icon": "shibarium",
   "rpc": ["https://puppynet.shibrpc.com"],
-  "faucets": ["https://beta.shibariumtech.com/faucet"],
+  "faucets": ["https://shibarium.shib.io/faucet"],
   "nativeCurrency": {
     "name": "BONE",
     "symbol": "BONE",
