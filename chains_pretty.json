@@ -23578,6 +23578,30 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Inco Gentry Testnet",
+  "chain": "INCO",
+  "rpc": ["https://testnet.inco.org"],
+  "faucets": ["https://faucet.inco.org"],
+  "nativeCurrency": {
+    "name": "INCO",
+    "symbol": "INCO",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://www.inco.org",
+  "shortName": "inco-gentry",
+  "chainId": 9090,
+  "networkId": 9090,
+  "explorers": [{
+    "name": "Inco Gentry Testnet Explorer",
+    "url": "https://explorer.testnet.inco.org",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "KPA Smart Chain Testnet",
   "chain": "KSC",
   "rpc": ["https://tkpa-rpc1.kpachain.com/", "https://tkpa-rpc2.kpachain.com/", "https://tkpa-rpc3.kpachain.com/", "https://tkpa-rpc4.kpachain.com/", "https://testnet-rpc1.kpascan.com/", "https://testnet-rpc2.kpascan.com/", "https://testnet-rpc3.kpascan.com/", "https://testnet-rpc4.kpascan.com/"],

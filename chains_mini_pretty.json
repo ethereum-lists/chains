@@ -14429,6 +14429,19 @@
   "faucets": [],
   "infoURL": "https://apexfusion.org/"
 }, {
+  "name": "Inco Gentry Testnet",
+  "chainId": 9090,
+  "shortName": "inco-gentry",
+  "networkId": 9090,
+  "nativeCurrency": {
+    "name": "INCO",
+    "symbol": "INCO",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.inco.org"],
+  "faucets": ["https://faucet.inco.org"],
+  "infoURL": "https://www.inco.org"
+}, {
   "name": "KPA Smart Chain Testnet",
   "chainId": 9091,
   "shortName": "KPA",
