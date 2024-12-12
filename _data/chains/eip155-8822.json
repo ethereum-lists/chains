@@ -2,7 +2,10 @@
   "name": "IOTA EVM",
   "title": "IOTA EVM",
   "chain": "IOTA EVM",
-  "rpc": ["https://json-rpc.evm.iotaledger.net"],
+  "rpc": [
+    "https://json-rpc.evm.iotaledger.net",
+    "wss://ws.json-rpc.evm.iotaledger.net"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "IOTA",
@@ -17,7 +20,7 @@
   "explorers": [
     {
       "name": "explorer",
-      "url": "https://iota-evm.blockscout.com",
+      "url": "https://explorer.evm.iota.org",
       "icon": "iotaevm",
       "standard": "EIP3091"
     }

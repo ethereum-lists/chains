@@ -1,6 +1,6 @@
 {
-  "name": "FlowEVM Mainnet",
-  "chain": "FlowEVM",
+  "name": "EVM on Flow",
+  "chain": "Flow",
   "rpc": ["https://mainnet.evm.nodes.onflow.org"],
   "faucets": [],
   "nativeCurrency": {
@@ -9,15 +9,15 @@
     "decimals": 18
   },
   "infoURL": "https://developers.flow.com/evm/about",
-  "shortName": "flowevm-mainnet",
+  "shortName": "flow-mainnet",
   "chainId": 747,
   "networkId": 747,
   "icon": "flowevm",
   "explorers": [
     {
-      "name": "Flow Diver",
-      "url": "https://flowdiver.io",
-      "standard": "none"
+      "name": "FlowScan",
+      "url": "https://evm.flowscan.io",
+      "standard": "EIP3091"
     }
   ]
 }

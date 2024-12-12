@@ -1,0 +1,24 @@
+{
+  "name": "B2 Hub Mainnet",
+  "chain": "B2",
+  "rpc": ["https://hub-rpc.bsquared.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BSquared Token",
+    "symbol": "B2",
+    "decimals": 18
+  },
+  "infoURL": "https://www.bsquared.network",
+  "shortName": "B2Hub-mainnet",
+  "chainId": 213,
+  "networkId": 213,
+  "icon": "bsquare",
+  "explorers": [
+    {
+      "name": "B2 Hub Mainnet Explorer",
+      "url": "https://hub-explorer.bsquared.network",
+      "icon": "bsquare",
+      "standard": "EIP3091"
+    }
+  ]
+}
