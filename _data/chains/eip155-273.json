@@ -25,14 +25,14 @@
   "explorers": [
     {
       "name": "XR One Explorer",
-      "url": "https://xr-one.calderaexplorer.xyz/",
+      "url": "https://xr-one.calderaexplorer.xyz",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
   ],
   "parent": {
     "type": "L2",
-    "chain": "eip155-421614",
+    "chain": "eip155-42161",
     "bridges": [
       {
         "url": "https://xr-one.bridge.caldera.xyz/"
