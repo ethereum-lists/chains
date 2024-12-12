@@ -42160,8 +42160,9 @@
   }]
 }, {
   "name": "Autonity Bakerloo (Yamuna) Testnet",
+  "status": "deprecated",
   "chain": "AUT",
-  "rpc": ["https://rpc1.bakerloo.autonity.org/", "wss://rpc1.bakerloo.autonity.org/ws/"],
+  "rpc": [],
   "faucets": ["https://faucet.autonity.org/"],
   "nativeCurrency": {
     "name": "Bakerloo Auton",
@@ -42247,8 +42248,9 @@
   }]
 }, {
   "name": "Autonity Piccadilly (Yamuna) Testnet",
+  "status": "deprecated",
   "chain": "AUT",
-  "rpc": ["https://rpc1.piccadilly.autonity.org/", "wss://rpc1.piccadilly.autonity.org/ws/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Piccadilly Auton",
@@ -42259,6 +42261,27 @@
   "shortName": "piccadilly-03",
   "chainId": 65100003,
   "networkId": 65100003,
+  "slip44": 1,
+  "icon": "autonity",
+  "explorers": [{
+    "name": "autonity-blockscout",
+    "url": "https://piccadilly.autonity.org",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Autonity Piccadilly (Tiber) Testnet",
+  "chain": "AUT",
+  "rpc": ["https://autonity.rpc.web3cdn.network/testnet", "wss://autonity.rpc.web3cdn.network/testnet/ws", "https://autonity-piccadilly.rpc.subquery.network/public", "https://picadilly.autonity-apis.com", "wss://picadilly-ws.autonity-apis.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Piccadilly Auton",
+    "symbol": "ATN",
+    "decimals": 18
+  },
+  "infoURL": "https://autonity.org/",
+  "shortName": "piccadilly-04",
+  "chainId": 65100004,
+  "networkId": 65100004,
   "slip44": 1,
   "icon": "autonity",
   "explorers": [{
