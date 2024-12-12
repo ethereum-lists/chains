@@ -10538,7 +10538,7 @@
     "symbol": "EVO",
     "decimals": 18
   },
-  "rpc": ["https://rpc.evolveblockchain.io"],
+  "rpc": ["https://rpc.evoexplorer.com"],
   "faucets": [],
   "infoURL": "https://evolveblockchain.io"
 }, {
@@ -22241,6 +22241,19 @@
   "rpc": ["https://testnet1.haymo.network"],
   "faucets": [],
   "infoURL": "https://haymoswap.web.app/"
+}, {
+  "name": "Universe Testnet",
+  "chainId": 235711,
+  "shortName": "unitestnet",
+  "networkId": 235711,
+  "nativeCurrency": {
+    "name": "Universe Token",
+    "symbol": "UNI",
+    "decimals": 18
+  },
+  "rpc": ["https://blockchain.dev-universe-bank.com"],
+  "faucets": [],
+  "infoURL": "https://www.universe-bank.com/universal-ledger-system"
 }, {
   "name": "Orange Chain Testnet",
   "chainId": 240515,
