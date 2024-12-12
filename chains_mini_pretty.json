@@ -18641,6 +18641,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Somnia Devnet",
+  "chainId": 50311,
+  "shortName": "STT",
+  "networkId": 50311,
+  "nativeCurrency": {
+    "name": "Somnia Devnet",
+    "symbol": "STT",
+    "decimals": 18
+  },
+  "rpc": ["https://dream-rpc.somnia.network"],
+  "faucets": [],
+  "infoURL": "https://somnia.network"
+}, {
   "name": "Reddio Devnet",
   "chainId": 50341,
   "shortName": "reddio-devnet",
