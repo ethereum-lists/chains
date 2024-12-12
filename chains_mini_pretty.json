@@ -18810,6 +18810,19 @@
   "faucets": [],
   "infoURL": "https://defikingdoms.com"
 }, {
+  "name": "Graphite Testnet",
+  "chainId": 54170,
+  "shortName": "graphiteTest",
+  "networkId": 54170,
+  "nativeCurrency": {
+    "name": "Graphite",
+    "symbol": "@G",
+    "decimals": 18
+  },
+  "rpc": ["https://anon-entrypoint-test-1.atgraphite.com", "wss://ws-anon-entrypoint-test-1.atgraphite.com"],
+  "faucets": ["https://faucet.atgraphite.com/"],
+  "infoURL": "https://atgraphite.com/"
+}, {
   "name": "OverProtocol Mainnet",
   "chainId": 54176,
   "shortName": "overprotocol",
@@ -22982,6 +22995,19 @@
   "rpc": ["https://subnets.avax.network/dexalot/mainnet/rpc"],
   "faucets": [],
   "infoURL": "https://dexalot.com"
+}, {
+  "name": "Graphite Mainnet",
+  "chainId": 440017,
+  "shortName": "graphite",
+  "networkId": 440017,
+  "nativeCurrency": {
+    "name": "Graphite",
+    "symbol": "@G",
+    "decimals": 18
+  },
+  "rpc": ["https://anon-entrypoint-1.atgraphite.com", "wss://ws-anon-entrypoint-1.atgraphite.com"],
+  "faucets": [],
+  "infoURL": "https://atgraphite.com/"
 }, {
   "name": "Syndr L3 Sepolia",
   "chainId": 444444,

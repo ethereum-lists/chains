@@ -30854,6 +30854,26 @@
     "standard": "none"
   }]
 }, {
+  "name": "Graphite Testnet",
+  "chain": "Graphite",
+  "rpc": ["https://anon-entrypoint-test-1.atgraphite.com", "wss://ws-anon-entrypoint-test-1.atgraphite.com"],
+  "faucets": ["https://faucet.atgraphite.com/"],
+  "nativeCurrency": {
+    "name": "Graphite",
+    "symbol": "@G",
+    "decimals": 18
+  },
+  "infoURL": "https://atgraphite.com/",
+  "shortName": "graphiteTest",
+  "chainId": 54170,
+  "networkId": 54170,
+  "icon": "graphite",
+  "explorers": [{
+    "name": "Graphite Testnet Explorer",
+    "url": "https://test.atgraphite.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "OverProtocol Mainnet",
   "chain": "OverProtocol",
   "icon": "overIcon",
@@ -37834,6 +37854,27 @@
   "explorers": [{
     "name": "Avalanche Subnet Explorer",
     "url": "https://subnets.avax.network/dexalot",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Graphite Mainnet",
+  "chain": "Graphite",
+  "rpc": ["https://anon-entrypoint-1.atgraphite.com", "wss://ws-anon-entrypoint-1.atgraphite.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Graphite",
+    "symbol": "@G",
+    "decimals": 18
+  },
+  "infoURL": "https://atgraphite.com/",
+  "shortName": "graphite",
+  "chainId": 440017,
+  "networkId": 440017,
+  "slip44": 440017,
+  "icon": "graphite",
+  "explorers": [{
+    "name": "Graphite Mainnet Explorer",
+    "url": "https://main.atgraphite.com",
     "standard": "EIP3091"
   }]
 }, {
