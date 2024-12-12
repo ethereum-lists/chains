@@ -3171,6 +3171,19 @@
   "faucets": [],
   "infoURL": "https://egonscan.com"
 }, {
+  "name": "XR One",
+  "chainId": 273,
+  "shortName": "xr",
+  "networkId": 273,
+  "nativeCurrency": {
+    "name": "XR",
+    "symbol": "XR",
+    "decimals": 18
+  },
+  "rpc": ["https://xr-one.calderachain.xyz/http"],
+  "faucets": [],
+  "infoURL": "https://xr-one.gitbook.io"
+}, {
   "name": "LaChain",
   "chainId": 274,
   "shortName": "lachain",
