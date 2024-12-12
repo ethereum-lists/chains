@@ -1,7 +1,7 @@
 {
   "name": "Treasure Topaz",
   "chain": "Treasure Topaz",
-  "shortName": "Topaz",
+  "shortName": "treasure-topaz",
   "chainId": 978658,
   "networkId": 978658,
   "nativeCurrency": {
@@ -20,7 +20,7 @@
   ],
   "explorers": [
     {
-      "name": "treasurescan",
+      "name": "Treasure Topaz Block Explorer",
       "url": "https://topaz.treasurescan.io",
       "icon": "treasure",
       "standard": "EIP3091"
@@ -29,9 +29,6 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [
-      { "url": "https://app.treasure.lol/chain/bridge" },
-      { "url": "https://portal.topaz.treasure.lol/bridge" }
-    ]
+    "bridges": [{ "url": "https://app.treasure.lol/chain/bridge" }]
   }
 }

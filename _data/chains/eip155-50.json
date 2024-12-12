@@ -6,7 +6,9 @@
     "https://rpc.xinfin.network",
     "https://rpc1.xinfin.network",
     "https://rpc.xdcrpc.com",
-    "https://erpc.xdcrpc.com"
+    "https://erpc.xdcrpc.com",
+    "https://rpc.ankr.com/xdc",
+    "https://rpc.xdc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -27,14 +29,8 @@
       "standard": "EIP3091"
     },
     {
-      "name": "xdcscan",
+      "name": "openscan",
       "url": "https://xdcscan.io",
-      "icon": "blocksscan",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "blocksscan",
-      "url": "https://xdc.blocksscan.io",
       "icon": "blocksscan",
       "standard": "EIP3091"
     }
