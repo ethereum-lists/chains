@@ -233,6 +233,13 @@ fun checkIcon(icon: File, withIconDownload: Boolean, allIconCIDs: MutableSet<Str
                 if (image.raster.height != height) {
                     error("height in json ($icon) is $height but actually is in imageDownload ${image.height}")
                 }
+
+                if (!legacyCIDs.contains(iconDownloadFile.name)) {
+                    val fileSize = iconDownloadFile.length()
+                    if (fileSize > 250 * 1024) {
+                        error("icon is bigger than 250kb")
+                    }
+                }
             } catch (e: Exception) {
                 e.printStackTrace()
                 error("problem with image $iconDownloadFile")
@@ -355,7 +362,7 @@ fun checkChain(chainFile: File, onlineCheck: Boolean, verbose: Boolean = false) 
             if (onlineCheck) {
                 val request = Request.Builder().url(url).build();
                 val code = okHttpClient.newCall(request).execute().code
-                if (code / 100 != 2) {
+                if (code / 100 != 2 && code != 403 ) { // etherscan throws a 403 because of cloudflare - so we need to allow it :cry
                     throw (CantReachExplorerException(url, code))
                 }
             }

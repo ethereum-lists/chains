@@ -1,0 +1,21 @@
+{
+  "name": "Settlus Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://settlus.org",
+  "shortName": "setl-sepolia",
+  "chainId": 5373,
+  "networkId": 5373,
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": []
+  },
+  "status": "incubating"
+}
