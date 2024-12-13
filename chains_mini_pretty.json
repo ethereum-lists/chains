@@ -13077,6 +13077,19 @@
   "faucets": [],
   "infoURL": "https://nibiru.fi"
 }, {
+  "name": "InitVerse penesis testnet",
+  "chainId": 7234,
+  "shortName": "INICHAIN",
+  "networkId": 7234,
+  "nativeCurrency": {
+    "name": "InitVerse",
+    "symbol": "INI",
+    "decimals": 18
+  },
+  "rpc": ["http://rpc-testnet.inichain.com"],
+  "faucets": [],
+  "infoURL": "https://genesis-testnet.inichain.com"
+}, {
   "name": "ZEUS Testnet",
   "chainId": 7244,
   "shortName": "ZEUS-Testnet",
