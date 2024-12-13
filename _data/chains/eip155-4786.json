@@ -1,0 +1,24 @@
+{
+  "name": "Evnode Testnet",
+  "chain": "Evnode",
+  "rpc": ["https://rpc-testnet.evnode.org/"],
+  "faucets": ["https://faucet.evnode.org"],
+  "nativeCurrency": {
+    "name": "Evnode Testnet Native Token",
+    "symbol": "tEVO",
+    "decimals": 18
+  },
+  "infoURL": "https://evnode.org",
+  "shortName": "evnode",
+  "chainId": 4786,
+  "networkId": 4786,
+  "icon": "evnode",
+  "explorers": [
+    {
+      "name": "Evnode Explorer Testnet",
+      "url": "https://testnet.evscan.net",
+      "standard": "EIP3091",
+      "icon": "evnode"
+    }
+  ]
+}
