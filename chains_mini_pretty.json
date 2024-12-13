@@ -10633,18 +10633,18 @@
   "faucets": [],
   "infoURL": "https://jfinchain.com"
 }, {
-  "name": "JZERO",
+  "name": "JFINPOS",
   "chainId": 3502,
   "shortName": "jzero",
   "networkId": 3502,
   "nativeCurrency": {
-    "name": "JZERO",
-    "symbol": "JZR",
+    "name": "JFINPOS",
+    "symbol": "JPOS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.jzero.xyz"],
+  "rpc": ["https://rpc.jfinpos.com"],
   "faucets": [],
-  "infoURL": "https://jzero.xyz"
+  "infoURL": "https://jfinpos.com"
 }, {
   "name": "PandoProject Mainnet",
   "chainId": 3601,

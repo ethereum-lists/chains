@@ -17316,10 +17316,10 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "JZERO",
-  "chain": "JZERO",
-  "icon": "jzero",
-  "rpc": ["https://rpc.jzero.xyz"],
+  "name": "JFINPOS",
+  "chain": "JFINPOS",
+  "icon": "jfinpos",
+  "rpc": ["https://rpc.jfinpos.com"],
   "faucets": [],
   "features": [{
     "name": "EIP155"
@@ -17327,18 +17327,18 @@
     "name": "EIP1559"
   }],
   "nativeCurrency": {
-    "name": "JZERO",
-    "symbol": "JZR",
+    "name": "JFINPOS",
+    "symbol": "JPOS",
     "decimals": 18
   },
-  "infoURL": "https://jzero.xyz",
+  "infoURL": "https://jfinpos.com",
   "shortName": "jzero",
   "chainId": 3502,
   "networkId": 3502,
   "explorers": [{
-    "name": "JZERO Explorer",
-    "url": "https://exp.jzero.xyz",
-    "icon": "jzero",
+    "name": "JFINPOS Explorer",
+    "url": "https://exp.jfinpos.com",
+    "icon": "jfinpos",
     "standard": "EIP3091"
   }]
 }, {
