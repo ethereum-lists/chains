@@ -26441,6 +26441,19 @@
   "faucets": [],
   "infoURL": "https://www.powergold.tech"
 }, {
+  "name": "Turbo",
+  "chainId": 1313161567,
+  "shortName": "turbo",
+  "networkId": 1313161567,
+  "nativeCurrency": {
+    "name": "Turbo",
+    "symbol": "TURBO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-0x4e45415f.aurora-cloud.dev"],
+  "faucets": [],
+  "infoURL": "https://turbotoken.io"
+}, {
   "name": "SKALE Titan Hub",
   "chainId": 1350216234,
   "shortName": "titan-mainnet",
