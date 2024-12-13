@@ -23477,6 +23477,19 @@
   "faucets": ["https://testnet-faucet.helachain.com"],
   "infoURL": "https://helalabs.com"
 }, {
+  "name": "Conwai Mainnet",
+  "chainId": 668668,
+  "shortName": "cnw",
+  "networkId": 668668,
+  "nativeCurrency": {
+    "name": "Conwai",
+    "symbol": "CNW",
+    "decimals": 18
+  },
+  "rpc": ["https://conwai.calderachain.xyz/http"],
+  "faucets": [],
+  "infoURL": "https://conwai.net"
+}, {
   "name": "Won Network",
   "chainId": 686868,
   "shortName": "WonChain",
