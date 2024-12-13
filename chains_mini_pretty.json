@@ -5121,6 +5121,19 @@
   "faucets": [],
   "infoURL": "https://www.haichain.io/"
 }, {
+  "name": "Evoz Mainnet",
+  "chainId": 805,
+  "shortName": "Evoz",
+  "networkId": 805,
+  "nativeCurrency": {
+    "name": "Evoz Mainnet",
+    "symbol": "EVOZ",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.evozscan.com"],
+  "faucets": [],
+  "infoURL": "https://rpc.evozscan.com"
+}, {
   "name": "Portal Fantasy Chain Test",
   "chainId": 808,
   "shortName": "PFTEST",
