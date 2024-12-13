@@ -25310,29 +25310,29 @@
   "faucets": [],
   "infoURL": "https://hokum.gg"
 }, {
-  "name": "Corn Maizenet",
+  "name": "Corn",
   "chainId": 21000000,
-  "shortName": "btcn",
+  "shortName": "corn",
   "networkId": 21000000,
   "nativeCurrency": {
     "name": "Bitcorn",
     "symbol": "BTCN",
     "decimals": 18
   },
-  "rpc": ["https://rpc.ankr.com/corn_maizenet", "https://maizenet-rpc.usecorn.com"],
+  "rpc": ["https://mainnet.corn-rpc.com", "https://rpc.ankr.com/corn_maizenet", "https://maizenet-rpc.usecorn.com"],
   "faucets": [],
   "infoURL": "https://usecorn.com"
 }, {
   "name": "Corn Testnet",
   "chainId": 21000001,
-  "shortName": "btcn-testnet",
+  "shortName": "corn-testnet",
   "networkId": 21000001,
   "nativeCurrency": {
     "name": "Bitcorn",
     "symbol": "BTCN",
     "decimals": 18
   },
-  "rpc": ["https://rpc.ankr.com/corn_testnet", "https://testnet-rpc.usecorn.com"],
+  "rpc": ["https://testnet.corn-rpc.com", "https://rpc.ankr.com/corn_testnet", "https://testnet-rpc.usecorn.com"],
   "faucets": [],
   "infoURL": "https://usecorn.com"
 }, {
