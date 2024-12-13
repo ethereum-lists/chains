@@ -11582,6 +11582,19 @@
   "faucets": [],
   "infoURL": "https://blackfort.exchange"
 }, {
+  "name": "Evnode Testnet",
+  "chainId": 4786,
+  "shortName": "evnode",
+  "networkId": 4786,
+  "nativeCurrency": {
+    "name": "Evnode Testnet Native Token",
+    "symbol": "tEVO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.evnode.org/"],
+  "faucets": ["https://faucet.evnode.org"],
+  "infoURL": "https://evnode.org"
+}, {
   "name": "World Chain Sepolia Testnet",
   "chainId": 4801,
   "shortName": "wcsep",

@@ -18928,6 +18928,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Evnode Testnet",
+  "chain": "Evnode",
+  "rpc": ["https://rpc-testnet.evnode.org/"],
+  "faucets": ["https://faucet.evnode.org"],
+  "nativeCurrency": {
+    "name": "Evnode Testnet Native Token",
+    "symbol": "tEVO",
+    "decimals": 18
+  },
+  "infoURL": "https://evnode.org",
+  "shortName": "evnode",
+  "chainId": 4786,
+  "networkId": 4786,
+  "icon": "evnode",
+  "explorers": [{
+    "name": "Evnode Explorer Testnet",
+    "url": "https://testnet.evscan.net",
+    "standard": "EIP3091",
+    "icon": "evnode"
+  }]
+}, {
   "name": "World Chain Sepolia Testnet",
   "chain": "ETH",
   "rpc": ["https://worldchain-sepolia.g.alchemy.com/public", "https://4801.rpc.thirdweb.com", "https://worldchain-sepolia.gateway.tenderly.co", "wss://worldchain-sepolia.gateway.tenderly.co"],
