@@ -1,0 +1,22 @@
+{
+  "name": "Electra Network",
+  "chain": "Electra",
+  "rpc": ["https://rpc.elcscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Electra",
+    "symbol": "ELC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.elcscan.com",
+  "shortName": "elc",
+  "chainId": 861,
+  "networkId": 861,
+  "explorers": [
+    {
+      "name": "Electra Explorer",
+      "url": "https://www.elcscan.com",
+      "standard": "none"
+    }
+  ]
+}
