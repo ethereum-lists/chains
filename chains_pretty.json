@@ -30941,7 +30941,7 @@
   "name": "OverProtocol Mainnet",
   "chain": "OverProtocol",
   "icon": "overIcon",
-  "rpc": ["https://public.rpc.overprotocol.com"],
+  "rpc": ["https://rpc.overprotocol.com", "https://rpc2.overprotocol.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Over",
@@ -30954,7 +30954,7 @@
   "networkId": 54176,
   "explorers": [{
     "name": "OverView",
-    "url": "https://view.over.network",
+    "url": "https://scan.over.network",
     "standard": "EIP3091"
   }]
 }, {
@@ -38333,7 +38333,7 @@
   "name": "OverProtocol Testnet",
   "chain": "OverProtocol",
   "icon": "overIcon",
-  "rpc": ["https://wallet-dolphin.rpc.over.network"],
+  "rpc": ["https://rpc.dolphin.overprotocol.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Over",
@@ -38346,7 +38346,7 @@
   "networkId": 541764,
   "explorers": [{
     "name": "OverView Testnet",
-    "url": "https://dolphin.view.over.network",
+    "url": "https://dolphin-scan.over.network",
     "standard": "EIP3091"
   }]
 }, {

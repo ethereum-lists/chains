@@ -18871,7 +18871,7 @@
     "symbol": "OVER",
     "decimals": 18
   },
-  "rpc": ["https://public.rpc.overprotocol.com"],
+  "rpc": ["https://rpc.overprotocol.com", "https://rpc2.overprotocol.com"],
   "faucets": [],
   "infoURL": "https://docs.over.network"
 }, {
@@ -23291,7 +23291,7 @@
     "symbol": "OVER",
     "decimals": 18
   },
-  "rpc": ["https://wallet-dolphin.rpc.over.network"],
+  "rpc": ["https://rpc.dolphin.overprotocol.com"],
   "faucets": [],
   "infoURL": "https://docs.over.network"
 }, {
