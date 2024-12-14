@@ -22346,6 +22346,19 @@
   "faucets": [],
   "infoURL": "https://www.universe-bank.com/universal-ledger-system"
 }, {
+  "name": "Studio Testnet",
+  "chainId": 240240,
+  "shortName": "sto",
+  "networkId": 240240,
+  "nativeCurrency": {
+    "name": "Studio Token",
+    "symbol": "STO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.studio-blockchain.com", "wss://ws.studio-blockchain.com"],
+  "faucets": [],
+  "infoURL": "https://studio-blockchain.com"
+}, {
   "name": "Orange Chain Testnet",
   "chainId": 240515,
   "shortName": "Orange-Chain-Testnet",
