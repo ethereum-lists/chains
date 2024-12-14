@@ -17,10 +17,12 @@
   "shortName": "sto",
   "chainId": 240240,
   "networkId": 240240,
-  "explorers": [{
-    "name": "Studio Scan",
-    "url": "https://studio-scan.com",
-    "standard": "EIP3091"
-  }],
+  "explorers": [
+    {
+      "name": "Studio Scan",
+      "url": "https://studio-scan.com",
+      "standard": "EIP3091"
+    }
+  ],
   "status": "active"
 }
