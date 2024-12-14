@@ -12,10 +12,11 @@
   "shortName": "shapesep",
   "chainId": 11011,
   "networkId": 11011,
+  "icon": "shapeTestnet",
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://shape-sepolia-explorer.alchemy.com",
+      "url": "https://explorer-sepolia.shape.network",
       "standard": "EIP3091"
     }
   ],
