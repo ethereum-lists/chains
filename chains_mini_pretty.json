@@ -15521,6 +15521,19 @@
   "faucets": [],
   "infoURL": "https://shyft.network"
 }, {
+  "name": "eGoldChain",
+  "chainId": 11451,
+  "shortName": "egoldchain",
+  "networkId": 11451,
+  "nativeCurrency": {
+    "name": "Aurum",
+    "symbol": "XAU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.egoldchain.com", "wss://wss.egoldchain.com"],
+  "faucets": [],
+  "infoURL": "https://www.egoldchain.com"
+}, {
   "name": "BEVM Mainnet",
   "chainId": 11501,
   "shortName": "bevm",
@@ -21422,6 +21435,19 @@
   "rpc": ["https://rpc.realforreal.gelato.digital", "wss://ws.realforreal.gelato.digital", "https://tangible-real.gateway.tenderly.co", "https://real.drpc.org", "wss://real.drpc.org"],
   "faucets": [],
   "infoURL": "https://re.al"
+}, {
+  "name": "eGoldChain Testnet",
+  "chainId": 111451,
+  "shortName": "egoldchaint",
+  "networkId": 111451,
+  "nativeCurrency": {
+    "name": "Aurum",
+    "symbol": "XAU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.egoldchain.com", "wss://wss-testnet.egoldchain.com"],
+  "faucets": [],
+  "infoURL": "https://www.egoldchain.com"
 }, {
   "name": "Metachain One Mainnet",
   "chainId": 112358,

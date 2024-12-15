@@ -25326,6 +25326,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "eGoldChain",
+  "chain": "EGC",
+  "icon": "egoldchain",
+  "rpc": ["https://rpc.egoldchain.com", "wss://wss.egoldchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Aurum",
+    "symbol": "XAU",
+    "decimals": 18
+  },
+  "infoURL": "https://www.egoldchain.com",
+  "shortName": "egoldchain",
+  "chainId": 11451,
+  "networkId": 11451,
+  "explorers": [{
+    "name": "eGoldChain Block Explorer",
+    "url": "https://egoldscan.io",
+    "standard": "none",
+    "icon": "egoldchain"
+  }]
+}, {
   "name": "BEVM Mainnet",
   "chain": "BEVM",
   "rpc": ["https://rpc-mainnet-1.bevm.io/", "https://rpc-mainnet-2.bevm.io/"],
@@ -35221,6 +35242,27 @@
       "url": "https://bridge.gelato.network/bridge/real"
     }]
   }
+}, {
+  "name": "eGoldChain Testnet",
+  "chain": "EGC",
+  "icon": "egoldchain",
+  "rpc": ["https://rpc-testnet.egoldchain.com", "wss://wss-testnet.egoldchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Aurum",
+    "symbol": "XAU",
+    "decimals": 18
+  },
+  "infoURL": "https://www.egoldchain.com",
+  "shortName": "egoldchaint",
+  "chainId": 111451,
+  "networkId": 111451,
+  "explorers": [{
+    "name": "eGoldChain Block Explorer",
+    "url": "http://testnet.egoldscan.io",
+    "standard": "none",
+    "icon": "egoldchain"
+  }]
 }, {
   "name": "Metachain One Mainnet",
   "chain": "METAO",
