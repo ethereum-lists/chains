@@ -128,7 +128,7 @@ jobs:
 
     - run: sudo npm i -g prettier
 
-    - name: Verify the changed icons
+    - name: Validate formatting
       if: steps.changed-files.outputs.any_changed == 'true'
       run: |
         set -euo pipefail
