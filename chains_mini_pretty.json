@@ -5329,6 +5329,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Electra Network",
+  "chainId": 861,
+  "shortName": "elc",
+  "networkId": 861,
+  "nativeCurrency": {
+    "name": "Electra",
+    "symbol": "ELC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.electranetwork.tech"],
+  "faucets": [],
+  "infoURL": "https://www.electranetwork.tech"
+}, {
   "name": "Fantasia Chain Mainnet",
   "chainId": 868,
   "shortName": "FSCMainnet",
@@ -5341,6 +5354,19 @@
   "rpc": ["https://mainnet-data1.fantasiachain.com/", "https://mainnet-data2.fantasiachain.com/", "https://mainnet-data3.fantasiachain.com/"],
   "faucets": [],
   "infoURL": "https://fantasiachain.com/"
+}, {
+  "name": "Electra Test Network",
+  "chainId": 871,
+  "shortName": "telc",
+  "networkId": 871,
+  "nativeCurrency": {
+    "name": "Test Electra",
+    "symbol": "TELC",
+    "decimals": 18
+  },
+  "rpc": ["http://rpc.testnet.electranetwork.tech"],
+  "faucets": [],
+  "infoURL": "https://scan.testnet.electranetwork.tech"
 }, {
   "name": "Bandai Namco Research Verse Mainnet",
   "chainId": 876,

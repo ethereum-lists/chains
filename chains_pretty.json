@@ -8749,6 +8749,25 @@
     "standard": "none"
   }]
 }, {
+  "name": "Electra Network",
+  "chain": "Electra",
+  "rpc": ["https://rpc.electranetwork.tech"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Electra",
+    "symbol": "ELC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.electranetwork.tech",
+  "shortName": "elc",
+  "chainId": 861,
+  "networkId": 861,
+  "explorers": [{
+    "name": "Electra Explorer",
+    "url": "https://scan.electranetwork.tech",
+    "standard": "none"
+  }]
+}, {
   "name": "Fantasia Chain Mainnet",
   "chain": "FSC",
   "rpc": ["https://mainnet-data1.fantasiachain.com/", "https://mainnet-data2.fantasiachain.com/", "https://mainnet-data3.fantasiachain.com/"],
@@ -8766,6 +8785,25 @@
     "name": "FSCScan",
     "url": "https://explorer.fantasiachain.com",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Electra Test Network",
+  "chain": "Electra",
+  "rpc": ["http://rpc.testnet.electranetwork.tech"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Test Electra",
+    "symbol": "TELC",
+    "decimals": 18
+  },
+  "infoURL": "https://scan.testnet.electranetwork.tech",
+  "shortName": "telc",
+  "chainId": 871,
+  "networkId": 871,
+  "explorers": [{
+    "name": "Electra Testnet Explorer",
+    "url": "https://scan.testnet.electranetwork.tech",
+    "standard": "none"
   }]
 }, {
   "name": "Bandai Namco Research Verse Mainnet",
