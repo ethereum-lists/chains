@@ -25388,6 +25388,19 @@
   "faucets": [],
   "infoURL": "https://pego.network"
 }, {
+  "name": "SoonChain Sepolia Devnet",
+  "chainId": 20221001,
+  "shortName": "Soon-Devnet",
+  "networkId": 20221001,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia.rpc.soonchain.ai"],
+  "faucets": ["https://console.optimism.io/faucet"],
+  "infoURL": "https://soonchain.ai"
+}, {
   "name": "Vcity Testnet",
   "chainId": 20230825,
   "shortName": "Vcity",
