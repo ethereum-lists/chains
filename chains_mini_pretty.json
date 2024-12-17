@@ -20968,6 +20968,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Edge Matrix Chain Sepolia",
+  "chainId": 99879,
+  "shortName": "EMCSepolia",
+  "networkId": 99879,
+  "nativeCurrency": {
+    "name": "Edge Matrix Chain Token",
+    "symbol": "EMC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1-sepolia.emc.network"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "UB Smart Chain(testnet)",
   "chainId": 99998,
   "shortName": "usctest",
