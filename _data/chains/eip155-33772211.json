@@ -2,9 +2,13 @@
   "name": "Xone Testnet",
   "chain": "XOC",
   "icon": "xone-test",
-  "rpc": ["https://rpc-testnet.xone.plus"],
+  "rpc": [
+    "https://rpc-testnet.xone.plus",
+    "https://rpc-testnet.xone.org",
+    "https://rpc-testnet.knight.center"
+  ],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "faucets": [],
+  "faucets": ["https://faucet.xone.plus/"],
   "nativeCurrency": {
     "name": "Xone Coin",
     "symbol": "XOC",
