@@ -24634,6 +24634,19 @@
   "faucets": [],
   "infoURL": "https://caldera.xyz/"
 }, {
+  "name": "Zuux chain testnet",
+  "chainId": 4284265,
+  "shortName": "zuuxchain",
+  "networkId": 4284265,
+  "nativeCurrency": {
+    "name": "ZUUX",
+    "symbol": "ZUUX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zuux.network"],
+  "faucets": ["https://www.zuuxlend.xyz/faucet"],
+  "infoURL": "https://www.zuux.network"
+}, {
   "name": "Altar Testnet",
   "chainId": 4444444,
   "shortName": "altarTestnet",
