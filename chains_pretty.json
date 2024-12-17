@@ -25329,7 +25329,7 @@
   "name": "eGoldChain",
   "chain": "EGC",
   "icon": "egoldchain",
-  "rpc": ["https://rpc.egoldchain.com", "wss://wss.egoldchain.com"],
+  "rpc": ["https://rpc.egoldchain.com", "wss://rpc.egoldchain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Aurum",
@@ -35246,7 +35246,7 @@
   "name": "eGoldChain Testnet",
   "chain": "EGC",
   "icon": "egoldchain",
-  "rpc": ["https://rpc-testnet.egoldchain.com", "wss://wss-testnet.egoldchain.com"],
+  "rpc": ["https://rpc-testnet.egoldchain.com", "wss://rpc-testnet.egoldchain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Aurum",
