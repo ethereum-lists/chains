@@ -23633,6 +23633,19 @@
   "faucets": ["https://sei-faucet.nima.enterprises", "https://sei-evm.faucetme.pro"],
   "infoURL": "https://www.sei.io"
 }, {
+  "name": "Zether Mainnet",
+  "chainId": 715131,
+  "shortName": "zth",
+  "networkId": 715131,
+  "nativeCurrency": {
+    "name": "Zether",
+    "symbol": "ZTH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zether.org", "https://rpc.zthscan.com"],
+  "faucets": [],
+  "infoURL": "https://zether.org"
+}, {
   "name": "ERAM Mainnet",
   "chainId": 721529,
   "shortName": "ERAM",
