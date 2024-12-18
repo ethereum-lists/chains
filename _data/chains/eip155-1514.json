@@ -1,5 +1,5 @@
 {
-  "name": "Story Mainnet",
+  "name": "Story",
   "chain": "STORY",
   "rpc": ["https://mainnet.storyrpc.io"],
   "faucets": [],
@@ -9,6 +9,7 @@
     "decimals": 18
   },
   "infoURL": "https://story.foundation",
+  "icon": "story",
   "shortName": "story",
   "chainId": 1514,
   "networkId": 1514,
@@ -16,7 +17,6 @@
     {
       "name": "blockscout",
       "url": "https://mainnet.storyscan.xyz",
-      "icon": "blockscout",
       "standard": "EIP3091"
     }
   ]
