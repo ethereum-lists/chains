@@ -19131,8 +19131,8 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
-  "faucets": [],
+  "rpc": ["https://rpc-gel.inkonchain.com", "https://rpc-qnd.inkonchain.com", "wss://rpc-gel.inkonchain.com", "wss://rpc-qnd.inkonchain.com"],
+  "faucets": ["https://inkonchain.com/faucet"],
   "infoURL": "https://inkonchain.com"
 }, {
   "name": "COINSEC Network",
