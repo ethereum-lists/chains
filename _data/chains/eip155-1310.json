@@ -1,0 +1,29 @@
+{
+    "name": "Telos zkEVM Testnet",
+    "title": "Telos zkEVM Testnet",
+    "chain": "Telos",
+    "rpc": [""],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "tTLOS Token",
+      "symbol": "tTLOS",
+      "decimals": 18
+    },
+    "infoURL": "",
+    "shortName": "telos-zkevm-testnet",
+    "chainId": 1310,
+    "networkId": 1310,
+    "icon": "zkevm",
+    "explorers": [
+      {
+        "name": "",
+        "url": "",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": [{ "url": "https://zkbridge.testnet.telos.net/" }]
+    }
+}
