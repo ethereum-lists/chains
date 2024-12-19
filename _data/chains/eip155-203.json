@@ -1,0 +1,25 @@
+{
+  "name": "ClearBlocker",
+  "chain": "CLR",
+  "rpc": ["https://rpc.clearblocker.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ClearBlocker Coin",
+    "symbol": "CLR",
+    "decimals": 18
+  },
+  "infoURL": "https://clearblocker.com",
+  "shortName": "clr",
+  "icon": "clear",
+  "chainId": 203,
+  "networkId": 203,
+  "explorers": [
+    {
+      "name": "ClearBlocker Explorer",
+      "url": "https://explorer.clearblocker.com",
+      "icon": "clear",
+      "standard": "EIP3091"
+    }
+  ]
+}
+
