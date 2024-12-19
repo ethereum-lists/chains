@@ -1,0 +1,25 @@
+{
+  "name": "Baaz Mainnet",
+  "chain": "BAAZ",
+  "rpc": ["https://rpc.baazscan.com"],
+  "faucets": ["https://faucet.baazcoin.com/"],
+  "nativeCurrency": {
+    "name": "Baaz Coin",
+    "symbol": "BAAZ",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://docs.baazcoin.com/introduction/blockchain-network-details",
+  "shortName": "baaz",
+  "chainId": 1334,
+  "networkId": 1334,
+  "icon": "baaz",
+  "explorers": [
+    {
+      "name": "baazscan",
+      "url": "https://baazscan.com",
+      "icon": "baazscan",
+      "standard": "EIP3091"
+    }
+  ]
+}
