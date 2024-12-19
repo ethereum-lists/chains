@@ -5364,7 +5364,7 @@
     "symbol": "TELC",
     "decimals": 18
   },
-  "rpc": ["http://rpc.testnet.electranetwork.tech"],
+  "rpc": ["https://rpc.testnet.electranetwork.tech"],
   "faucets": [],
   "infoURL": "https://scan.testnet.electranetwork.tech"
 }, {
@@ -19576,6 +19576,19 @@
   "rpc": ["https://mainnet-rpc.scolcoin.com"],
   "faucets": [],
   "infoURL": "https://scolcoin.com"
+}, {
+  "name": "CyberChain Mainnet",
+  "chainId": 65535,
+  "shortName": "ccx",
+  "networkId": 65535,
+  "nativeCurrency": {
+    "name": "CCX",
+    "symbol": "CCX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.cyberchain.xyz/"],
+  "faucets": [],
+  "infoURL": "https://cyberchain.xyz"
 }, {
   "name": "Automata Mainnet",
   "chainId": 65536,
