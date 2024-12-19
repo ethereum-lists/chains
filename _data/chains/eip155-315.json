@@ -1,23 +1,13 @@
 {
-  "name": "WEMblockchain Mainnet",
-  "chain": "WEM",
-  "rpc": [
-    "http://rpc.wemblockchain.com"
-  ],
+  "name": "WEMblockchain MainNet",
+  "chain": "tKLC",
+  "rpc": ["http://rpc.wemblockchain.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "WEMcoin",
+    "name": "WEM Coin",
     "symbol": "WEM",
-    "decimals": 2
+    "decimals": 18
   },
-  "features": [
-    {
-      "name": "EIP155"
-    },
-    {
-      "name": "EIP1559"
-    }
-  ],
   "infoURL": "https://worldecomoney.com",
   "shortName": "wem",
   "chainId": 315,
