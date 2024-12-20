@@ -498,13 +498,13 @@
   "shortName": "u2u",
   "networkId": 39,
   "nativeCurrency": {
-    "name": "Unicorn Ultra",
+    "name": "U2U Network",
     "symbol": "U2U",
     "decimals": 18
   },
-  "rpc": ["https://rpc-mainnet.uniultra.xyz"],
+  "rpc": ["https://rpc-mainnet.u2u.xyz"],
   "faucets": [],
-  "infoURL": "https://uniultra.xyz"
+  "infoURL": "https://u2u.xyz"
 }, {
   "name": "Telos EVM Mainnet",
   "chainId": 40,
