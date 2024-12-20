@@ -10958,7 +10958,7 @@
   "faucets": ["https://www.dracscan.io/faucet"],
   "infoURL": "https://drac.io/"
 }, {
-  "name": "DOS Tesnet",
+  "name": "DOS Testnet",
   "chainId": 3939,
   "shortName": "dost",
   "networkId": 3939,
@@ -10967,7 +10967,7 @@
     "symbol": "DOS",
     "decimals": 18
   },
-  "rpc": ["https://test.doschain.com"],
+  "rpc": ["https://test.doschain.com/"],
   "faucets": [],
   "infoURL": "http://doschain.io/"
 }, {

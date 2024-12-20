@@ -17853,9 +17853,9 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "DOS Tesnet",
+  "name": "DOS Testnet",
   "chain": "DOS",
-  "rpc": ["https://test.doschain.com"],
+  "rpc": ["https://test.doschain.com/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "DOS",
