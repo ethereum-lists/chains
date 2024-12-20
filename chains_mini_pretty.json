@@ -20448,6 +20448,19 @@
   "faucets": [],
   "infoURL": "https://www.smartlayer.network/"
 }, {
+  "name": "VEMP Horizon",
+  "chainId": 82614,
+  "shortName": "vemp-horizon",
+  "networkId": 82614,
+  "nativeCurrency": {
+    "name": "VEMP",
+    "symbol": "VEMP",
+    "decimals": 18
+  },
+  "rpc": ["https://vemp-horizon.calderachain.xyz/http"],
+  "faucets": [],
+  "infoURL": "https://www.vemp.xyz/"
+}, {
   "name": "Xprotocol Testnet",
   "chainId": 83144,
   "shortName": "xprotocoltestnet",
