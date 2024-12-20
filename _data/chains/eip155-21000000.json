@@ -1,7 +1,8 @@
 {
-  "name": "Corn Maizenet",
+  "name": "Corn",
   "chain": "BTCN",
   "rpc": [
+    "https://mainnet.corn-rpc.com",
     "https://rpc.ankr.com/corn_maizenet",
     "https://maizenet-rpc.usecorn.com"
   ],
@@ -12,9 +13,10 @@
     "decimals": 18
   },
   "infoURL": "https://usecorn.com",
-  "shortName": "btcn",
+  "shortName": "corn",
   "chainId": 21000000,
   "networkId": 21000000,
+  "icon": "corn",
   "explorers": [
     {
       "name": "Corn Explorer",
