@@ -15781,6 +15781,19 @@
   "faucets": ["https://faucet.blgchain.com"],
   "infoURL": "https://blgchain.com"
 }, {
+  "name": "Huddle01",
+  "chainId": 12323,
+  "shortName": "huddle01",
+  "networkId": 12323,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://huddle01.calderachain.xyz/http"],
+  "faucets": [],
+  "infoURL": "https://huddle01.com/"
+}, {
   "name": "L3X Protocol",
   "chainId": 12324,
   "shortName": "l3x",
