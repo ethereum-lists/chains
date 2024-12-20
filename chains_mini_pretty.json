@@ -4304,7 +4304,7 @@
 }, {
   "name": "River",
   "chainId": 550,
-  "shortName": "towns-mainnet",
+  "shortName": "river",
   "networkId": 550,
   "nativeCurrency": {
     "name": "Ether",
@@ -4313,7 +4313,7 @@
   },
   "rpc": ["https://mainnet.rpc.river.build", "https://towns-mainnet.calderachain.xyz/http"],
   "faucets": [],
-  "infoURL": "https://towns-mainnet.hub.caldera.xyz"
+  "infoURL": "https://www.river.build"
 }, {
   "name": "Vela1 Chain Mainnet",
   "chainId": 555,
