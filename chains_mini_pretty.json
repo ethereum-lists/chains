@@ -20214,6 +20214,19 @@
   "faucets": [],
   "infoURL": "http://hizoco.net"
 }, {
+  "name": "Geo Genesis",
+  "chainId": 80451,
+  "shortName": "geo",
+  "networkId": 80451,
+  "nativeCurrency": {
+    "name": "The Graph",
+    "symbol": "GRT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-geo-genesis-h0q2s21xx8.t.conduit.xyz/"],
+  "faucets": [],
+  "infoURL": "https://geobrowser.io"
+}, {
   "name": "Nordek Mainnet",
   "chainId": 81041,
   "shortName": "nordek",
