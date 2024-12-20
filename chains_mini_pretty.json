@@ -7617,6 +7617,19 @@
   "faucets": ["https://faucet.story.foundation"],
   "infoURL": "https://www.story.foundation"
 }, {
+  "name": "Story",
+  "chainId": 1514,
+  "shortName": "sty",
+  "networkId": 1514,
+  "nativeCurrency": {
+    "name": "IP Token",
+    "symbol": "IP",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.storyrpc.io"],
+  "faucets": [],
+  "infoURL": "https://story.foundation/"
+}, {
   "name": "Beagle Messaging Chain",
   "chainId": 1515,
   "shortName": "beagle",
