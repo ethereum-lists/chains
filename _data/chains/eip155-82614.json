@@ -1,9 +1,7 @@
 {
   "name": "VEMP Horizon",
   "chain": "vemp-horizon",
-  "rpc": [
-    "https://vemp-horizon.calderachain.xyz/http"
-  ],
+  "rpc": ["https://vemp-horizon.calderachain.xyz/http"],
   "faucets": [],
   "nativeCurrency": {
     "name": "VEMP",
