@@ -16912,6 +16912,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Fluent Developer Preview",
+  "chainId": 20993,
+  "shortName": "fluent-dev-net",
+  "networkId": 20993,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.dev.gblend.xyz"],
+  "faucets": ["https://faucet.dev.gblend.xyz"],
+  "infoURL": "https://fluent.xyz"
+}, {
   "name": "C4EI",
   "chainId": 21004,
   "shortName": "c4ei",
