@@ -22101,6 +22101,28 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Powerloom Mainnet",
+  "chain": "POWER",
+  "rpc": ["https://rpc.powerloom.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Powerloom Token",
+    "symbol": "POWER",
+    "decimals": 18
+  },
+  "infoURL": "https://powerloom.network",
+  "shortName": "power",
+  "chainId": 7865,
+  "networkId": 7865,
+  "icon": "power",
+  "status": "active",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.powerloom.network",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Hazlor Testnet",
   "chain": "SCAS",
   "rpc": ["https://hatlas.rpc.hazlor.com:8545", "wss://hatlas.rpc.hazlor.com:8546"],

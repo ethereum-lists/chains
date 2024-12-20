@@ -13480,6 +13480,19 @@
   "faucets": ["https://faucet-new-testnet.maalscan.io/"],
   "infoURL": "https://www.maalchain.com/"
 }, {
+  "name": "Powerloom Mainnet",
+  "chainId": 7865,
+  "shortName": "power",
+  "networkId": 7865,
+  "nativeCurrency": {
+    "name": "Powerloom Token",
+    "symbol": "POWER",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.powerloom.network"],
+  "faucets": [],
+  "infoURL": "https://powerloom.network"
+}, {
   "name": "Hazlor Testnet",
   "chainId": 7878,
   "shortName": "tscas",
