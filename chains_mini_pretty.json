@@ -20760,6 +20760,19 @@
   "faucets": ["https://faucet.eclipse.builders"],
   "infoURL": "https://docs.nautchain.xyz"
 }, {
+  "name": "Henez Chain Mainnet",
+  "chainId": 91111,
+  "shortName": "henez",
+  "networkId": 91111,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://henez.calderachain.xyz/http"],
+  "faucets": [],
+  "infoURL": "https://www.henez.fi/"
+}, {
   "name": "MetaDAP Enterprise Mainnet",
   "chainId": 91120,
   "shortName": "MetaDAP",
