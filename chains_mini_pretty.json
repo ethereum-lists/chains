@@ -11010,6 +11010,19 @@
   "faucets": ["https://faucet.dynoscan.io"],
   "infoURL": "https://dynoprotocol.com"
 }, {
+  "name": "PayNetwork Mainnet",
+  "chainId": 3969,
+  "shortName": "paynetwork",
+  "networkId": 3969,
+  "nativeCurrency": {
+    "name": "PayNetwork",
+    "symbol": "Pay",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.paynetwork.io", "https://paynetwork-main.calderachain.xyz/http"],
+  "faucets": [],
+  "infoURL": "https://paynetwork-main.hub.caldera.xyz"
+}, {
   "name": "APEX Testnet",
   "chainId": 3993,
   "shortName": "apexsep",
