@@ -1,7 +1,10 @@
 {
   "name": "BigShortBets Testnet",
   "chain": "BIGSB Testnet",
-  "rpc": ["https://test-market.bigsb.io", "wss://test-market.bigsb.io"],
+  "rpc": [
+    "https://test-market.bigsb.network",
+    "wss://test-market.bigsb.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Dolarz",

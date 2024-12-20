@@ -1,0 +1,17 @@
+{
+  "name": "GRVT Exchange Testnet",
+  "chain": "ETH",
+  "rpc": ["https://zkrpc.testnet.grvt.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://grvt.io/",
+  "shortName": "grvt-sepolia",
+  "chainId": 326,
+  "networkId": 326,
+  "icon": "grvt",
+  "explorers": []
+}
