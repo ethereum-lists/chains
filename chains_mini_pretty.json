@@ -4302,6 +4302,19 @@
   "faucets": ["https://faucet.flow.com/fund-account"],
   "infoURL": "https://developers.flow.com/evm/about"
 }, {
+  "name": "River",
+  "chainId": 550,
+  "shortName": "towns-mainnet",
+  "networkId": 550,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.rpc.river.build", "https://towns-mainnet.calderachain.xyz/http"],
+  "faucets": [],
+  "infoURL": "https://towns-mainnet.hub.caldera.xyz"
+}, {
   "name": "Vela1 Chain Mainnet",
   "chainId": 555,
   "shortName": "CLASS",
