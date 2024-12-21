@@ -16171,6 +16171,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Bitlazer",
+  "chainId": 14235,
+  "shortName": "bitlazer",
+  "networkId": 14235,
+  "nativeCurrency": {
+    "name": "lzrBTC",
+    "symbol": "lzrBTC",
+    "decimals": 18
+  },
+  "rpc": ["https://bitlazer.calderachain.xyz/http"],
+  "faucets": [],
+  "infoURL": "https://bitlazer.hub.caldera.xyz"
+}, {
   "name": "EVOLVE Testnet",
   "chainId": 14324,
   "shortName": "evo",
