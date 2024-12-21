@@ -13,15 +13,17 @@
   "chainId": 42001,
   "networkId": 42001,
   "icon": "pmon",
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://explorer.pmon.xyz",
-    "icon": "blockscout",
-    "standard": "EIP3091"
-  }],
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.pmon.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
   "parent": {
-    "type" : "L2",
+    "type": "L2",
     "chain": "eip155-42161",
-    "bridges": [ {"url":"https://bridge.arbitrum.io"} ]
+    "bridges": [{ "url":"https://bridge.arbitrum.io" }]
   }
 }
