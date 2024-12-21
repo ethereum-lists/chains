@@ -11699,6 +11699,19 @@
   "faucets": [],
   "infoURL": "https://gcscan.io"
 }, {
+  "name": "OEV Network",
+  "chainId": 4913,
+  "shortName": "oev-network",
+  "networkId": 4913,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://oev.rpc.api3.org", "https://oev-network.calderachain.xyz/http"],
+  "faucets": [],
+  "infoURL": "https://api3.org/oev/"
+}, {
   "name": "Venidium Testnet",
   "chainId": 4918,
   "shortName": "txvm",
