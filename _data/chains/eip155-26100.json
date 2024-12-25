@@ -2,9 +2,7 @@
   "name": "Ferrum Quantum Portal Network",
   "chain": "QPN",
   "icon": "ferrum",
-  "rpc": [
-    "https://qpn.svcs.ferrumnetwork.io"
-  ],
+  "rpc": ["https://qpn.svcs.ferrumnetwork.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ferrum",
