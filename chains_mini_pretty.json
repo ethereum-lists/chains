@@ -4549,6 +4549,19 @@
   "faucets": [],
   "infoURL": "https://graphlinq.io"
 }, {
+  "name": "Skynet",
+  "chainId": 619,
+  "shortName": "Skynet",
+  "networkId": 619,
+  "nativeCurrency": {
+    "name": "SkyUSD",
+    "symbol": "sUSD",
+    "decimals": 18
+  },
+  "rpc": ["http://rpc.skynet.io"],
+  "faucets": [],
+  "infoURL": "http://explorer.skynet.io"
+}, {
   "name": "Binary Mainnet",
   "chainId": 624,
   "shortName": "thebinaryholdings-mainnet",
@@ -13389,6 +13402,19 @@
   "faucets": ["https://faucet.phron.ai"],
   "infoURL": "https://phron.ai"
 }, {
+  "name": "PandaSea Testnet",
+  "chainId": 7770,
+  "shortName": "Pandasea-Testnet",
+  "networkId": 7770,
+  "nativeCurrency": {
+    "name": "PandaSea Coin",
+    "symbol": "PANDA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.pandasea.io"],
+  "faucets": ["https://faucet.pandasea.io"],
+  "infoURL": "https://test.pandaseascan.com"
+}, {
   "name": "Bitrock Testnet",
   "chainId": 7771,
   "shortName": "tbitrock",
@@ -20135,6 +20161,19 @@
   "rpc": ["https://mainnet-rpc.vention.network"],
   "faucets": ["https://faucet.vention.network"],
   "infoURL": "https://ventionscan.io"
+}, {
+  "name": "Carrchain Testnet",
+  "chainId": 77652,
+  "shortName": "Carrchain-Testnet",
+  "networkId": 77652,
+  "nativeCurrency": {
+    "name": "Carrchain Coin",
+    "symbol": "CARR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnetcarrchain.artiffine.com"],
+  "faucets": ["https://faucet-testnetcarrchain.artiffine.com"],
+  "infoURL": "https://explorer-testnetcarrchain.artiffine.com"
 }, {
   "name": "Cycle Network Mainnet Sailboat",
   "chainId": 77677,
