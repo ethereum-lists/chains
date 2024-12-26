@@ -1,0 +1,23 @@
+{
+  "name": "EXPchain Testnet",
+  "chain": "EXPCHAIN",
+  "rpc": ["https://rpc1-testnet.expchain.ai"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "tZKJ",
+    "symbol": "tZKJ",
+    "decimals": 18
+  },
+  "infoURL": "https://expchain.ai",
+  "shortName": "expchain",
+  "chainId": 18880,
+  "networkId": 18880,
+  "icon": "expchain",
+  "explorers": [
+    {
+      "name": "EXPchain Testnet Explorer",
+      "url": "https://blockscout-testnet.expchain.ai",
+      "standard": "EIP3091"
+    }
+  ]
+}
