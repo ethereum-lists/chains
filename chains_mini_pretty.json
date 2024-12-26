@@ -2985,7 +2985,7 @@
     "symbol": "frxETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.frax.com"],
+  "rpc": ["https://rpc.frax.com", "https://fraxtal-rpc.publicnode.com", "wss://fraxtal-rpc.publicnode.com"],
   "faucets": [],
   "infoURL": "https://mainnet.frax.com"
 }, {
@@ -9914,7 +9914,7 @@
     "symbol": "frxETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.testnet.frax.com"],
+  "rpc": ["https://rpc.testnet.frax.com", "https://fraxtal-holesky-rpc.publicnode.com", "wss://fraxtal-holesky-rpc.publicnode.com"],
   "faucets": [],
   "infoURL": "https://testnet.frax.com"
 }, {
