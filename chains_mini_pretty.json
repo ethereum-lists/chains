@@ -1893,7 +1893,7 @@
     "symbol": "S",
     "decimals": 18
   },
-  "rpc": ["https://rpc.soniclabs.com"],
+  "rpc": ["https://rpc.soniclabs.com", "https://sonic-rpc.publicnode.com", "wss://sonic-rpc.publicnode.com"],
   "faucets": [],
   "infoURL": "https://soniclabs.com"
 }, {
@@ -6326,7 +6326,7 @@
     "symbol": "METIS",
     "decimals": 18
   },
-  "rpc": ["https://andromeda.metis.io/?owner=1088", "https://metis.drpc.org", "wss://metis.drpc.org"],
+  "rpc": ["https://andromeda.metis.io/?owner=1088", "https://metis.drpc.org", "wss://metis.drpc.org", "https://metis-rpc.publicnode.com", "wss://metis-rpc.publicnode.com"],
   "faucets": [],
   "infoURL": "https://www.metis.io"
 }, {
@@ -7184,7 +7184,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://sepolia.unichain.org"],
+  "rpc": ["https://sepolia.unichain.org", "https://unichain-sepolia-rpc.publicnode.com", "wss://unichain-sepolia-rpc.publicnode.com"],
   "faucets": [],
   "infoURL": "https://unichain.org"
 }, {
@@ -19274,7 +19274,7 @@
     "symbol": "S",
     "decimals": 18
   },
-  "rpc": ["https://rpc.blaze.soniclabs.com"],
+  "rpc": ["https://rpc.blaze.soniclabs.com", "https://sonic-blaze-rpc.publicnode.com", "wss://sonic-blaze-rpc.publicnode.com"],
   "faucets": ["https://blaze.soniclabs.com/account"],
   "infoURL": "https://blaze.soniclabs.com"
 }, {
@@ -19378,7 +19378,7 @@
     "symbol": "tMETIS",
     "decimals": 18
   },
-  "rpc": ["https://sepolia.metisdevops.link"],
+  "rpc": ["https://sepolia.metisdevops.link", "https://metis-sepolia-rpc.publicnode.com", "wss://metis-sepolia-rpc.publicnode.com"],
   "faucets": ["https://sepolia.faucet.metisdevops.link"],
   "infoURL": "https://www.metis.io"
 }, {
