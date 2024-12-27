@@ -10659,6 +10659,32 @@
   "faucets": [],
   "infoURL": "https://ethstorage.io/"
 }, {
+  "name": "Meroneum",
+  "chainId": 3366,
+  "shortName": "meron-testnet",
+  "networkId": 3366,
+  "nativeCurrency": {
+    "name": "MERON",
+    "symbol": "MERON",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-node1.meronscan.ai/", "https://mainnet-node2.meronscan.ai/", "https://mainnet-node3.meronscan.ai/"],
+  "faucets": [],
+  "infoURL": "https://www.meroneum.ai"
+}, {
+  "name": "Meroneum Testnet",
+  "chainId": 3369,
+  "shortName": "meron",
+  "networkId": 3369,
+  "nativeCurrency": {
+    "name": "MERON",
+    "symbol": "MERON",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-node1.meronscan.ai/", "https://testnet-node2.meronscan.ai/", "https://testnet-node3.meronscan.ai/"],
+  "faucets": [],
+  "infoURL": "https://www.meroneum.ai/"
+}, {
   "name": "Paribu Net Mainnet",
   "chainId": 3400,
   "shortName": "prb",
