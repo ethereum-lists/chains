@@ -18342,6 +18342,19 @@
   "faucets": ["https://bridge.gelato.network/bridge/edu-chain"],
   "infoURL": "https://raas.gelato.network/rollups/details/public/edu-chain"
 }, {
+  "name": "PMON Chain",
+  "chainId": 42001,
+  "shortName": "pmon",
+  "networkId": 42001,
+  "nativeCurrency": {
+    "name": "PMON Token",
+    "symbol": "PMON",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.pmon.xyz"],
+  "faucets": [],
+  "infoURL": "https://protocolmonsterlabs.com/pmon-chain"
+}, {
   "name": "pegglecoin",
   "chainId": 42069,
   "shortName": "PC",
