@@ -17471,6 +17471,19 @@
   "faucets": ["https://testnet.faucet.ferrumnetwork.io"],
   "infoURL": "https://ferrum.network"
 }, {
+  "name": "Ferrum Quantum Portal Network",
+  "chainId": 26100,
+  "shortName": "qpn",
+  "networkId": 26100,
+  "nativeCurrency": {
+    "name": "Ferrum",
+    "symbol": "qpFRM",
+    "decimals": 18
+  },
+  "rpc": ["https://qpn.svcs.ferrumnetwork.io"],
+  "faucets": [],
+  "infoURL": "https://ferrum.network"
+}, {
   "name": "DucatusX Testnet",
   "chainId": 26482,
   "shortName": "ducatusx-testnet",
