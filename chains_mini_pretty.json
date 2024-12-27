@@ -2560,6 +2560,19 @@
   "faucets": [],
   "infoURL": "https://edgeless.network"
 }, {
+  "name": "WowChain Mainnet",
+  "chainId": 203,
+  "shortName": "wow",
+  "networkId": 203,
+  "nativeCurrency": {
+    "name": "Dogecoin",
+    "symbol": "DOGE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.wowchain.io"],
+  "faucets": [],
+  "infoURL": "https://wowchain.io"
+}, {
   "name": "opBNB Mainnet",
   "chainId": 204,
   "shortName": "obnb",
