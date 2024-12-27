@@ -9580,6 +9580,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "CratD2C",
+  "chainId": 2310,
+  "shortName": "cratd2c",
+  "networkId": 2310,
+  "nativeCurrency": {
+    "name": "CRATD2C",
+    "symbol": "CRAT",
+    "decimals": 18
+  },
+  "rpc": ["https://node1.cratd2csmartchain.io", "https://node2.cratd2csmartchain.io", "https://node3.cratd2csmartchain.io"],
+  "faucets": [],
+  "infoURL": "https://cratd2csmartchain.io"
+}, {
   "name": "Chronicle Vesuvius - Lit Protocol Testnet",
   "chainId": 2311,
   "shortName": "lpv",
