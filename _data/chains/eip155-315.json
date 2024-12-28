@@ -8,11 +8,17 @@
     "symbol": "WEM",
     "decimals": 18
   },
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" },
+    { "name": "Smart Contracts" },
+    { "name": "Custom Gas Model" },
+    { "name": "Low-Latency Transactions" }
+  ],
   "infoURL": "https://worldecomoney.com",
   "shortName": "wem",
   "chainId": 315,
   "networkId": 315,
-  "icon": "wemchain",
   "explorers": [
     {
       "name": "wemscan",
