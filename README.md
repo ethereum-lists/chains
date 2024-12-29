@@ -119,7 +119,7 @@ npx prettier --write _data/*/*.json
  * When making changes that fix the CI problems - please re-request a review - otherwise it is too much work to track such changes with so many PRs daily
 
 ## Usages
-### Tools 
+### Tools
  * [MESC](https://paradigmxyz.github.io/mesc)
 
 ### Explorers
@@ -147,6 +147,7 @@ npx prettier --write _data/*/*.json
  * [evmchainlist.org](https://evmchainlist.org)
  * [networks.vercel.app](https://networks.vercel.app)
  * [Wagmi compatible chain configurations](https://spenhouet.com/chains)
+ * [chainlist.simplr.sh - Info packaged single pager](https://chainlist.simplr.sh)
 
 ### Other
  * [FaucETH](https://github.com/komputing/FaucETH)
