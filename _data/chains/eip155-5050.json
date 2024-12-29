@@ -1,30 +1,30 @@
 {
-  "name": "Skate Mainnet",
-  "chain": "ETH",
-  "rpc": ["https://rpc.skatechain.org/"],
-  "faucets": [],
+  "name": "ABO Testnet",
+  "chain": "ABO",
+  "rpc": ["https://rpc.egptex.com"],
+  "faucets": ["https://thirdweb.com/abo"],
   "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
+    "name": "ABO",
+    "symbol": "ABO",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
-  "infoURL": "https://www.skatechain.org/",
-  "shortName": "skate",
+  "infoURL": "https://egptex.com/",
+  "shortName": "ABO",
   "chainId": 5050,
   "networkId": 5050,
-  "icon": "skate",
+  "icon": "ABO",
   "explorers": [
     {
-      "name": "Skate Explorer",
-      "url": "https://scan.skatechain.org",
+      "name": "ABO Block Explorer",
+      "url": "https://explorer.egptex.com",
+      "icon": "ABO",
       "standard": "EIP3091"
     }
   ],
-  "status": "active",
   "parent": {
-    "type": "L2",
+    "type": "L3",
     "chain": "eip155-1",
-    "bridges": [{ "url": "" }]
-  }
+    "bridges": [{ "url": "https://abo-a14818ird7-31e2734549ff5ec7.testnets.rollbridge.app/" }]
+  },
+  "redFlags": ["reusedChainId"]
 }
