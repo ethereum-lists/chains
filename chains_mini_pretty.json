@@ -5713,9 +5713,9 @@
   "nativeCurrency": {
     "name": "testTAO",
     "symbol": "TAO",
-    "decimals": 9
+    "decimals": 18
   },
-  "rpc": ["https://evm-testnet.dev.opentensor.ai"],
+  "rpc": ["https://test.chain.opentensor.ai"],
   "faucets": [],
   "infoURL": "https://bittensor.com/"
 }, {
@@ -5757,6 +5757,19 @@
   "rpc": ["https://rpc.bitcoincode.technology/"],
   "faucets": [],
   "infoURL": "https://bitcoincode.technology"
+}, {
+  "name": "Subtensor EVM",
+  "chainId": 964,
+  "shortName": "bittensor-evm-mainnet",
+  "networkId": 964,
+  "nativeCurrency": {
+    "name": "TAO",
+    "symbol": "TAO",
+    "decimals": 18
+  },
+  "rpc": ["https://lite.chain.opentensor.ai"],
+  "faucets": [],
+  "infoURL": "https://bittensor.com/"
 }, {
   "name": "EthXY",
   "chainId": 969,
