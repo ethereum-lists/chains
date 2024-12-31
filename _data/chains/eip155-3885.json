@@ -2,7 +2,10 @@
   "name": "Firechain zkEVM Ghostrider",
   "title": "Firechain zkEVM Testnet",
   "chain": "Firechain",
-  "rpc": ["https://rpc-zkevm-ghostrider.thefirechain.com"],
+  "rpc": [
+    "https://rpc-zkevm-ghostrider.firestation.io",
+    "https://rpc-zkevm-ghostrider.thefirechain.com"
+  ],
   "faucets": ["zkevm-faucet.thefirechain.com"],
   "nativeCurrency": {
     "name": "Ether",
