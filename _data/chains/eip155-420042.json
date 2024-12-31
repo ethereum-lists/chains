@@ -2,7 +2,7 @@
   "name": "Vector Smart Chain",
   "chain": "VSC",
   "icon": "vectorsmartgas",
-  "rpc": ["https://rpc.vscblockchain.org/"],
+  "rpc": ["https://rpc.vscblockchain.org"],
   "features": [{ "name": "EIP155" }],
   "faucets": [],
   "nativeCurrency": {
@@ -17,7 +17,7 @@
   "explorers": [
     {
       "name": "vscexplorer",
-      "url": "https://explorer.vscblockchain.org/",
+      "url": "https://explorer.vscblockchain.org",
       "standard": "EIP3091"
     }
   ]
