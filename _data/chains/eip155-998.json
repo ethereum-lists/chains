@@ -13,5 +13,8 @@
   "shortName": "hype-evm-testnet",
   "chainId": 998,
   "networkId": 998,
-  "explorers": []
+  "explorers": [],
+  "redflags": {
+    "reusedchainid": true
+  },
 }
