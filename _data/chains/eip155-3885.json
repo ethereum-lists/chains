@@ -23,7 +23,8 @@
   "explorers": [
     {
       "name": "FireScan",
-      "url": "https://ghostrider-zkevm.firescan.io"
+      "url": "https://ghostrider-zkevm.firescan.io",
+      "standard": "EIP3091"
     }
   ]
 }
