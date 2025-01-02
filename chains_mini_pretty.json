@@ -23308,6 +23308,19 @@
   "faucets": [],
   "infoURL": "https://testnet.aiescan.io"
 }, {
+  "name": "Vector Smart Chain",
+  "chainId": 420042,
+  "shortName": "vsg",
+  "networkId": 420042,
+  "nativeCurrency": {
+    "name": "Vector Smart Gas",
+    "symbol": "VSG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.vscblockchain.org"],
+  "faucets": [],
+  "infoURL": "https://vsgofficial.com"
+}, {
   "name": "Kekchain",
   "chainId": 420420,
   "shortName": "KEK",
