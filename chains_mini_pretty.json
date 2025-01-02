@@ -17601,6 +17601,19 @@
   "faucets": ["http://faucet.oasischain.io"],
   "infoURL": "https://scan.oasischain.io"
 }, {
+  "name": "Newton Finance Testnet",
+  "chainId": 26988,
+  "shortName": "tNewFi",
+  "networkId": 26988,
+  "nativeCurrency": {
+    "name": "Newton",
+    "symbol": "NEW",
+    "decimals": 18
+  },
+  "rpc": ["https://jp-rpc-testnet-newfi.newpay.io"],
+  "faucets": [],
+  "infoURL": "https://newtonproject.org"
+}, {
   "name": "KLAOS Nova",
   "chainId": 27181,
   "shortName": "klaosnova",
