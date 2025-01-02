@@ -6538,6 +6538,19 @@
   "faucets": [],
   "infoURL": "https://www.bsquared.network"
 }, {
+  "name": "Taker Chain Mainnet",
+  "chainId": 1125,
+  "shortName": "taker",
+  "networkId": 1125,
+  "nativeCurrency": {
+    "name": "Taker",
+    "symbol": "TAKER",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet.taker.xyz"],
+  "faucets": [],
+  "infoURL": "https://www.taker.xyz"
+}, {
   "name": "DeFiChain EVM Network Mainnet",
   "chainId": 1130,
   "shortName": "DFI",
