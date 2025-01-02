@@ -1,0 +1,17 @@
+{
+  "name": "Nexera Testnet",
+  "chain": "Nexera",
+  "icon": "nexera",
+  "chainId": 72080,
+  "networkId": 72080,
+  "infoURL": "https://testnet.nexera.network",
+  "shortName": "nxra-testnet",
+  "rpc": ["https://rpc.testnet.nexera.network"],
+  "faucets": ["https://faucet.nexera.network"],
+  "nativeCurrency": {
+    "name": "tNXRA",
+    "symbol": "tNXRA",
+    "decimals": 18
+  },
+  "explorers": []
+}
