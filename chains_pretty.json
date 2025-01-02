@@ -21728,6 +21728,22 @@
     }]
   }
 }, {
+  "name": "Nexera Mainnet",
+  "chain": "Nexera",
+  "icon": "nexera",
+  "chainId": 7208,
+  "networkId": 7208,
+  "infoURL": "https://nexera.network",
+  "shortName": "nxra-mainnet",
+  "rpc": ["https://rpc.nexera.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NXRA",
+    "symbol": "NXRA",
+    "decimals": 18
+  },
+  "explorers": []
+}, {
   "name": "Nibiru Testnet-1",
   "chain": "Nibiru",
   "rpc": ["https://evm-rpc.testnet-1.nibiru.fi"],
@@ -33117,6 +33133,22 @@
     "url": "https://v1.gwscan.com",
     "standard": "none"
   }]
+}, {
+  "name": "Nexera Testnet",
+  "chain": "Nexera",
+  "icon": "nexera",
+  "chainId": 72080,
+  "networkId": 72080,
+  "infoURL": "https://testnet.nexera.network",
+  "shortName": "nxra-testnet",
+  "rpc": ["https://rpc.testnet.nexera.network"],
+  "faucets": ["https://faucet.nexera.network"],
+  "nativeCurrency": {
+    "name": "tNXRA",
+    "symbol": "tNXRA",
+    "decimals": 18
+  },
+  "explorers": []
 }, {
   "name": "CAGA crypto Ankara testnet",
   "chain": "Ankara",
