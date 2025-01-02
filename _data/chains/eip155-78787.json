@@ -1,0 +1,23 @@
+{
+  "name": "Aetherius Infinite Chain",
+  "title": "Aetherius Infinite Chain",
+  "chain": "AIC",
+  "rpc": ["https://rpc.ainfinitechain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AIC",
+    "symbol": "AIC",
+    "decimals": 18
+  },
+  "infoURL": "https://ainfinitechain.com",
+  "shortName": "AIC",
+  "chainId": 7878,
+  "networkId": 7878,
+  "explorers": [
+    {
+      "name": "Aicscan Smart Chain Explorer",
+      "url": "https://aicscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
