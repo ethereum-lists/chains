@@ -6,7 +6,8 @@
   "nativeCurrency": {
     "name": "ACRIA",
     "symbol": "ACRIA",
-    "decimals": 18
+    "decimals": 18,
+    "deprecated": true
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://acria.ai",
