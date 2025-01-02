@@ -3496,6 +3496,19 @@
   "faucets": [],
   "infoURL": "https://filecoin.io"
 }, {
+  "name": "WEMblockchain MainNet",
+  "chainId": 315,
+  "shortName": "wem",
+  "networkId": 315,
+  "nativeCurrency": {
+    "name": "WEM Coin",
+    "symbol": "WEM",
+    "decimals": 18
+  },
+  "rpc": ["http://rpc.wemblockchain.com"],
+  "faucets": [],
+  "infoURL": "https://worldecomoney.com"
+}, {
   "name": "KCC Mainnet",
   "chainId": 321,
   "shortName": "kcs",
