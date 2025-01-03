@@ -7,7 +7,7 @@
     "name": "ACRIA",
     "symbol": "ACRIA",
     "decimals": 18,
-    "deprecated": true
+    "status": "deprecated"
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://acria.ai",
