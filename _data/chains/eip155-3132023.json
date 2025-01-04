@@ -1,11 +1,11 @@
 {
-  "name": "SaharaAI Network",
+  "name": "Sahara AI",
   "chain": "Sahara",
   "rpc": ["https://mainnet.saharalabs.ai"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "SAHARA",
-    "symbol": "SAH",
+    "name": "Sahara AI",
+    "symbol": "SAHARA",
     "decimals": 18
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
