@@ -23620,18 +23620,18 @@
   "faucets": ["https://faucet.gobbl.io"],
   "infoURL": "https://www.gobbl.io/"
 }, {
-  "name": "Autonomys Testnet Nova Domain",
+  "name": "Autonomys Taurus Testnet",
   "chainId": 490000,
   "shortName": "ATN",
   "networkId": 490000,
   "nativeCurrency": {
-    "name": "Test Auto Coin",
-    "symbol": "TATC",
+    "name": "AI3",
+    "symbol": "AI3",
     "decimals": 18
   },
-  "rpc": ["https://nova-0.gemini-3h.subspace.network/ws"],
+  "rpc": ["https://auto-evm.taurus.autonomys.xyz/ws"],
   "faucets": [],
-  "infoURL": "https://www.autonomys.net"
+  "infoURL": "https://www.autonomys.xyz"
 }, {
   "name": "Playdapp Network",
   "chainId": 504441,
