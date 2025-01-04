@@ -1,0 +1,22 @@
+{
+  "name": "Happychain Testnet",
+  "chainId": 216,
+  "networkId": 216,
+  "chain": "Happychain Testnet",
+  "rpc": ["https://happy-testnet-sepolia.rpc.caldera.xyz/http"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Happy",
+    "symbol": "HAPPY",
+    "decimals": 18
+  },
+  "shortName": "happytestnet",
+  "infoURL": "https://happy-testnet-sepolia.hub.caldera.xyz",
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://happy-testnet-sepolia.explorer.caldera.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
