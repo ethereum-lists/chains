@@ -2703,6 +2703,19 @@
   "faucets": [],
   "infoURL": "https://shinarium.org"
 }, {
+  "name": "Happychain Testnet",
+  "chainId": 216,
+  "shortName": "happytestnet",
+  "networkId": 216,
+  "nativeCurrency": {
+    "name": "Happy",
+    "symbol": "HAPPY",
+    "decimals": 18
+  },
+  "rpc": ["https://happy-testnet-sepolia.rpc.caldera.xyz/http"],
+  "faucets": [],
+  "infoURL": "https://happy-testnet-sepolia.hub.caldera.xyz"
+}, {
   "name": "SiriusNet V2",
   "chainId": 217,
   "shortName": "SIN2",
