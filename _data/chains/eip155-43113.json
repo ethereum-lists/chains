@@ -20,13 +20,18 @@
   "slip44": 1,
   "explorers": [
     {
-      "name": "snowscan-testnet",
+      "name": "Etherscan",
       "url": "https://testnet.snowscan.xyz",
       "standard": "EIP3091"
     },
     {
-      "name": "snowtrace",
+      "name": "Routescan",
       "url": "https://testnet.snowtrace.io",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Avascan",
+      "url": "https://testnet.avascan.info",
       "standard": "EIP3091"
     }
   ]

@@ -1,0 +1,34 @@
+{
+  "name": "PayNetwork Mainnet",
+  "chain": "paynetwork",
+  "rpc": [
+    "https://rpc.paynetwork.io",
+    "https://paynetwork-main.calderachain.xyz/http"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PayNetwork",
+    "symbol": "Pay",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://paynetwork-main.hub.caldera.xyz",
+  "shortName": "paynetwork",
+  "chainId": 3969,
+  "networkId": 3969,
+  "icon": "paynetwork",
+  "explorers": [
+    {
+      "name": "PayNetwork Mainnet Caldera Explorer",
+      "url": "https://paynetwork-main.calderaexplorer.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
