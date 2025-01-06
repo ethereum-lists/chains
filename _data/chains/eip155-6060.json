@@ -1,23 +1,23 @@
 {
-  "name": "BC Hyper Chain Mainnet",
+  "name": "BC Hyper Chain Testnet",
   "chain": "BC Hyper Chain",
-  "rpc": ["https://mainapi.bchscan.io"],
+  "rpc": ["https://rpc.bchscan.io"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
-    "name": "VERSATIZE COIN",
-    "symbol": "VTCN",
+    "name": "TEST VERSATIZE COIN",
+    "symbol": "TVTCN",
     "decimals": 18
   },
   "infoURL": "https://www.versatizecoin.com/",
   "shortName": "BCH",
-  "chainId": 3030,
-  "networkId": 3030,
+  "chainId": 6060,
+  "networkId": 6060,
   "icon": "bchyper",
   "explorers": [
     {
       "name": "bcexplorer testnet",
-      "url": "https://mainnet.bchscan.io",
+      "url": "https://testnet.bchscan.io",
       "standard": "EIP3091"
     }
   ]
