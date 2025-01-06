@@ -1,0 +1,23 @@
+{
+  "name": "Uxlink One Mainnet",
+  "chain": "Uxlink One",
+  "icon": "uxlink one",
+  "chainId": 718,
+  "networkId": 718,
+  "infoURL": "https://www.uxlinkone.com",
+  "shortName": "uxlink1",
+  "rpc": ["https://rpc.uxlinkone.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "UXLINK",
+    "symbol": "UXLINK",
+    "decimals": 18
+  },
+  "explorers": [
+    {
+      "name": "Uxlink One Mainnet Explorer",
+      "url": "https://www.uxlinkone.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
