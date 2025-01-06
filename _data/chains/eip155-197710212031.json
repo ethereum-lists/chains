@@ -1,6 +1,6 @@
 {
   "name": "Haradev Testnet",
-  "chain": "Ntity",
+  "chain": "Haradev",
   "rpc": ["https://blockchain.haradev.com"],
   "faucets": [],
   "nativeCurrency": {
@@ -9,16 +9,16 @@
     "decimals": 18
   },
   "infoURL": "https://ntity.io",
-  "shortName": "ntt-haradev",
+  "shortName": "haradev",
   "chainId": 197710212031,
   "networkId": 197710212031,
   "slip44": 1,
-  "icon": "ntity",
+  "icon": "haradev",
   "explorers": [
     {
       "name": "Ntity Haradev Explorer",
-      "url": "https://explorer.ntity.io/NTTH",
-      "icon": "ntity",
+      "url": "https://explorer.haradev.com/",
+      "icon": "haradev",
       "standard": "EIP3091"
     }
   ]
