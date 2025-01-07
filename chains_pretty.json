@@ -7644,6 +7644,25 @@
     "standard": "none"
   }]
 }, {
+  "name": "NFB Chain",
+  "chain": "NFB Chain",
+  "rpc": ["https://node.nfbchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NFBCoin",
+    "symbol": "NFBC",
+    "decimals": 18
+  },
+  "infoURL": "https://nfbchain.com/",
+  "shortName": "nfbchain",
+  "chainId": 632,
+  "networkId": 632,
+  "explorers": [{
+    "name": "NFB Chain Explorer",
+    "url": "https://scan.nfbchain.com",
+    "standard": "none"
+  }]
+}, {
   "name": "Avocado",
   "chain": "Avocado",
   "rpc": ["https://rpc.avocado.instadapp.io"],
@@ -20946,6 +20965,25 @@
     "url": "https://blockscout.laos.laosfoundation.io",
     "icon": "blockscout",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "NFB Chain Testnet",
+  "chain": "NFB Chain Testnet",
+  "rpc": ["https://testnet-node.nfbchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NFBCoinTest",
+    "symbol": "NFBCT",
+    "decimals": 18
+  },
+  "infoURL": "https://nfbchain.com/",
+  "shortName": "nfbchaintest",
+  "chainId": 6320,
+  "networkId": 6320,
+  "explorers": [{
+    "name": "NFB Chain Testnet Explorer",
+    "url": "https://testnet-scan.nfbchain.com",
+    "standard": "none"
   }]
 }, {
   "name": "Aura Euphoria Testnet",

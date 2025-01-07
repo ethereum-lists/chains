@@ -4627,6 +4627,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "NFB Chain",
+  "chainId": 632,
+  "shortName": "nfbchain",
+  "networkId": 632,
+  "nativeCurrency": {
+    "name": "NFBCoin",
+    "symbol": "NFBC",
+    "decimals": 18
+  },
+  "rpc": ["https://node.nfbchain.com"],
+  "faucets": [],
+  "infoURL": "https://nfbchain.com/"
+}, {
   "name": "Avocado",
   "chainId": 634,
   "shortName": "avocado",
@@ -12777,6 +12790,19 @@
   "rpc": ["https://rpc.laos.laosfoundation.io", "wss://rpc.laos.laosfoundation.io"],
   "faucets": [],
   "infoURL": "https://laosnetwork.io"
+}, {
+  "name": "NFB Chain Testnet",
+  "chainId": 6320,
+  "shortName": "nfbchaintest",
+  "networkId": 6320,
+  "nativeCurrency": {
+    "name": "NFBCoinTest",
+    "symbol": "NFBCT",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-node.nfbchain.com"],
+  "faucets": [],
+  "infoURL": "https://nfbchain.com/"
 }, {
   "name": "Aura Euphoria Testnet",
   "chainId": 6321,
