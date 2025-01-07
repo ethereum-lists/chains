@@ -4272,7 +4272,7 @@
     "symbol": "FIRE",
     "decimals": 18
   },
-  "rpc": ["https://rpc-mainnet.thefirechain.com"],
+  "rpc": ["https://rpc-mainnet.thefirechain.com", "https://rpc-mainnet.firestation.io"],
   "faucets": [],
   "infoURL": "https://thefirechain.com"
 }, {
@@ -5260,7 +5260,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc-zkevm.thefirechain.com"],
+  "rpc": ["https://rpc-zkevm.thefirechain.com", "https://rpc-zkevm.firestation.io"],
   "faucets": [],
   "infoURL": "https://docs.thefirechain.com/"
 }, {
@@ -5615,7 +5615,7 @@
   "faucets": [],
   "infoURL": "https://taprootchain.io"
 }, {
-  "name": "Rinia Testnet",
+  "name": "Rinia",
   "chainId": 917,
   "shortName": "tfire",
   "networkId": 917,
@@ -5624,8 +5624,8 @@
     "symbol": "FIRE",
     "decimals": 18
   },
-  "rpc": ["https://rinia-rpc1.thefirechain.com"],
-  "faucets": ["https://faucet.thefirechain.com"],
+  "rpc": ["https://rinia-rpc1.thefirechain.com", "https://rpc-rinia.firestation.io"],
+  "faucets": ["https://faucet.thefirechain.com", "https://faucet.firestation.io"],
   "infoURL": "https://thefirechain.com"
 }, {
   "name": "SlerfChain Mainnet",
@@ -11084,8 +11084,8 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc-zkevm-ghostrider.thefirechain.com"],
-  "faucets": ["zkevm-faucet.thefirechain.com"],
+  "rpc": ["https://rpc-zkevm-ghostrider.thefirechain.com", "https://rpc-zkevm-ghostrider.firestation.io"],
+  "faucets": ["zkevm-faucet.thefirechain.com", "https://zkevm-faucet.firestation.io"],
   "infoURL": "https://docs.thefirechain.com/"
 }, {
   "name": "KalyChain Mainnet",
