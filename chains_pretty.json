@@ -293,7 +293,7 @@
   "name": "Flare Mainnet",
   "chain": "FLR",
   "icon": "flare",
-  "rpc": ["https://flare-api.flare.network/ext/C/rpc", "https://flare.rpc.thirdweb.com", "https://flare-bundler.etherspot.io", "https://rpc.ankr.com/flare", "https://01-gravelines-003-01.rpc.tatum.io/ext/bc/C/rpc", "https://01-vinthill-003-02.rpc.tatum.io/ext/bc/C/rpc", "https://rpc.ftso.au/flare", "https://flare.enosys.global/ext/C/rpc", "https://flare.solidifi.app/ext/C/rpc"],
+  "rpc": ["https://flare-api.flare.network/ext/C/rpc", "https://flare.rpc.thirdweb.com", "https://flare-bundler.etherspot.io", "https://rpc.ankr.com/flare", "https://01-gravelines-003-01.rpc.tatum.io/ext/bc/C/rpc", "https://01-vinthill-003-02.rpc.tatum.io/ext/bc/C/rpc", "https://rpc.au.cc/flare", "https://flare.enosys.global/ext/C/rpc", "https://flare.solidifi.app/ext/C/rpc"],
   "features": [{
     "name": "EIP155"
   }, {
@@ -401,7 +401,7 @@
   "name": "Songbird Canary-Network",
   "chain": "SGB",
   "icon": "songbird",
-  "rpc": ["https://songbird-api.flare.network/ext/C/rpc", "https://01-gravelines-006-01.rpc.tatum.io/ext/bc/C/rpc", "https://01-vinthill-006-02.rpc.tatum.io/ext/bc/C/rpc", "https://02-tokyo-006-03.rpc.tatum.io/ext/bc/C/rpc", "https://rpc.ftso.au/songbird", "https://songbird.enosys.global/ext/C/rpc", "https://songbird.solidifi.app/ext/C/rpc"],
+  "rpc": ["https://songbird-api.flare.network/ext/C/rpc", "https://01-gravelines-006-01.rpc.tatum.io/ext/bc/C/rpc", "https://01-vinthill-006-02.rpc.tatum.io/ext/bc/C/rpc", "https://02-tokyo-006-03.rpc.tatum.io/ext/bc/C/rpc", "https://rpc.au.cc/songbird", "https://songbird.enosys.global/ext/C/rpc", "https://songbird.solidifi.app/ext/C/rpc"],
   "features": [{
     "name": "EIP155"
   }, {
