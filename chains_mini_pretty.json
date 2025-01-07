@@ -12401,6 +12401,19 @@
   "faucets": [],
   "infoURL": "https://docs.egochain.org/"
 }, {
+  "name": "Saga",
+  "chainId": 5464,
+  "shortName": "saga",
+  "networkId": 5464,
+  "nativeCurrency": {
+    "name": "gas",
+    "symbol": "GAS",
+    "decimals": 18
+  },
+  "rpc": ["http://sagaevm-5464-1.jsonrpc.sagarpc.io"],
+  "faucets": [],
+  "infoURL": "https://www.saga.xyz"
+}, {
   "name": "PointPay Mainnet",
   "chainId": 5511,
   "shortName": "PP",
