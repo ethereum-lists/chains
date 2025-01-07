@@ -1,5 +1,5 @@
 {
-  "name": "HydraDX",
+  "name": "Hydration",
   "chain": "HDX",
   "rpc": ["https://rpc.hydradx.cloud", "wss://rpc.hydradx.cloud"],
   "faucets": [],
@@ -8,11 +8,11 @@
     "symbol": "WETH",
     "decimals": 18
   },
-  "infoURL": "https://hydradx.io",
+  "infoURL": "https://hydration.net/",
   "shortName": "hdx",
   "chainId": 222222,
   "networkId": 222222,
-  "icon": "hydradx",
+  "icon": "hydration",
   "explorers": [
     {
       "name": "blockscout",
