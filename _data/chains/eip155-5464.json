@@ -1,9 +1,7 @@
 {
   "name": "Saga",
   "chain": "SAGA",
-  "rpc": [
-    "http://sagaevm-5464-1.jsonrpc.sagarpc.io"
-  ],
+  "rpc": ["http://sagaevm-5464-1.jsonrpc.sagarpc.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "gas",
