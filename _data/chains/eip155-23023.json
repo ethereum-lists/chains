@@ -1,0 +1,22 @@
+{
+  "name": "SkyMarvel Mainnet",
+  "title": "SkyMarvel Mainnet",
+  "chain": "SkyMarvel",
+  "icon": "SMC",
+  "rpc": ["https://rpc.explorer.skymarvel.io"],
+  "nativeCurrency": {
+    "name": "Sky Marvel Coin",
+    "symbol": "SMC",
+    "decimals": 18
+  },
+  "infoURL": "https://skymarvel.io/",
+  "shortName": "SKY",
+  "chainId": 23023,
+  "networkId": 23023,
+  "explorers": [
+    {
+      "name": "SkyMarvel Explorer",
+      "url": "https://explorer.skymarvel.io/"
+    }
+  ]
+}
