@@ -23412,6 +23412,19 @@
   "faucets": [],
   "infoURL": "https://testnet.aiescan.io"
 }, {
+  "name": "Infinaeon",
+  "chainId": 420000,
+  "shortName": "Infinaeon",
+  "networkId": 420000,
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.infinaeon.com"],
+  "faucets": [],
+  "infoURL": "hhttps://rpc.infinaeon.com"
+}, {
   "name": "Vector Smart Chain",
   "chainId": 420042,
   "shortName": "vsg",
