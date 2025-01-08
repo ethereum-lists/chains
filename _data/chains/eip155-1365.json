@@ -1,0 +1,22 @@
+{
+  "name": "Shinerium Mainnet",
+  "chain": "SHN",
+  "rpc": ["https://rpc.shiner.fi"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Shinerium",
+    "symbol": "SHN",
+    "decimals": 18
+  },
+  "infoURL": "https://shiner.fi",
+  "shortName": "SHN",
+  "chainId": 1365,
+  "networkId": 1365,
+  "explorers": [
+    {
+      "name": "Shinerium Block Explorer",
+      "url": "https://explorer.shiner.fi",
+      "standard": "EIP3091"
+    }
+  ]
+}
