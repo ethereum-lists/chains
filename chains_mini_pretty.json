@@ -4159,6 +4159,19 @@
   "faucets": [],
   "infoURL": "https://world.org/world-chain"
 }, {
+  "name": "Standard Mainnet",
+  "chainId": 486,
+  "shortName": "stnd",
+  "networkId": 486,
+  "nativeCurrency": {
+    "name": "Standard",
+    "symbol": "STND",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://standardweb3.com"
+}, {
   "name": "Rupaya",
   "chainId": 499,
   "shortName": "rupx",
@@ -9917,6 +9930,19 @@
   "rpc": ["https://rpc-mainnet.kinggamer.org/"],
   "faucets": [],
   "infoURL": "https://kingoflegends.net/"
+}, {
+  "name": "Standard Testnet",
+  "chainId": 2426,
+  "shortName": "stndtestnet",
+  "networkId": 2426,
+  "nativeCurrency": {
+    "name": "Standard",
+    "symbol": "STND",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://standardweb3.com"
 }, {
   "name": "Polygon zkEVM Cardona Testnet",
   "chainId": 2442,

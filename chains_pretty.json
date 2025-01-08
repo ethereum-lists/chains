@@ -6890,6 +6890,21 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Standard Mainnet",
+  "chain": "STND",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Standard",
+    "symbol": "STND",
+    "decimals": 18
+  },
+  "infoURL": "https://standardweb3.com",
+  "shortName": "stnd",
+  "chainId": 486,
+  "networkId": 486,
+  "status": "incubating"
+}, {
   "name": "Rupaya",
   "chain": "RUPX",
   "rpc": ["https://rpc.rupaya.io"],
@@ -16194,6 +16209,21 @@
     "icon": "kol",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Standard Testnet",
+  "chain": "STND Testnet",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Standard",
+    "symbol": "STND",
+    "decimals": 18
+  },
+  "infoURL": "https://standardweb3.com",
+  "shortName": "stndtestnet",
+  "chainId": 2426,
+  "networkId": 2426,
+  "status": "incubating"
 }, {
   "name": "Polygon zkEVM Cardona Testnet",
   "title": "Polygon zkEVM Cardona Testnet",
