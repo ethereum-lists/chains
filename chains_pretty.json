@@ -7881,6 +7881,48 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Janction",
+  "chain": "Janction",
+  "rpc": ["https://rpc.janction.io", "wss://rpc.janction.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Janction",
+    "symbol": "JCT",
+    "decimals": 18
+  },
+  "infoURL": "https://janction.io",
+  "shortName": "janction",
+  "chainId": 678,
+  "networkId": 678,
+  "icon": "janction",
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  }
+}, {
+  "name": "Janction Testnet",
+  "chain": "Janction Testnet",
+  "rpc": ["https://rpc_testnet.janction.io", "wss://rpc_testnet.janction.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Janction",
+    "symbol": "JCT",
+    "decimals": 18
+  },
+  "infoURL": "https://janction.io",
+  "shortName": "janction_testnet",
+  "chainId": 679,
+  "networkId": 679,
+  "icon": "janction",
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  }
+}, {
   "name": "Karura Network",
   "chain": "KAR",
   "rpc": ["https://eth-rpc-karura.aca-api.network", "wss://eth-rpc-karura.aca-api.network"],
