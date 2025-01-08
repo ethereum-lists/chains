@@ -13,21 +13,10 @@
   "chainId": 678,
   "networkId": 678,
   "icon": "janction",
-  "explorers": [
-    {
-      "name": "janction",
-      "url": "https://explorer.janction.io",
-      "icon": "janction",
-      "standard": "EIP3091"
-    }
-  ],
+  "explorers": [],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [
-      {
-        "url": "https://bridge.janction.io/"
-      }
-    ]
+    "bridges": []
   }
 }
