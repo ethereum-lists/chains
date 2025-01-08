@@ -1,0 +1,29 @@
+{
+  "name": "WEMblockchain MainNet",
+  "chain": "WEM",
+  "rpc": ["http://rpc.wemblockchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WEM Coin",
+    "symbol": "WEM",
+    "decimals": 18
+  },
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" },
+    { "name": "Smart Contracts" },
+    { "name": "Custom Gas Model" },
+    { "name": "Low-Latency Transactions" }
+  ],
+  "infoURL": "https://worldecomoney.com",
+  "shortName": "wem",
+  "chainId": 315,
+  "networkId": 315,
+  "explorers": [
+    {
+      "name": "wemscan",
+      "url": "https://wemscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

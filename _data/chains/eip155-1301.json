@@ -1,7 +1,11 @@
 {
   "name": "Unichain Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia.unichain.org"],
+  "rpc": [
+    "https://sepolia.unichain.org",
+    "https://unichain-sepolia-rpc.publicnode.com",
+    "wss://unichain-sepolia-rpc.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
