@@ -1,0 +1,26 @@
+{
+  "name": "Janction",
+  "chain": "Janction Layer 2",
+  "rpc": [
+    "https://rpc.janction.io",
+    "wss://ws.janction.io"
+  ],
+  "faucets": ["https://faucet.janction.io"],
+  "nativeCurrency": {
+    "name": "Janction Native Token",
+    "symbol": "JCT",
+    "decimals": 18
+  },
+  "infoURL": "https://janction.io",
+  "shortName": "janction",
+  "chainId": 678,
+  "networkId": 678,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Janction",
+      "url": "https://explorer.janction.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

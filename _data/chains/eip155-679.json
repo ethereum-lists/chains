@@ -1,0 +1,26 @@
+{
+  "name": "Janction testnet",
+  "chain": "Janction Layer 2 testnet",
+  "rpc": [
+    "https://rpc-testnet.janction.io",
+    "wss://ws-testnet.janction.io"
+  ],
+  "faucets": ["https://faucet-testnet.janction.io"],
+  "nativeCurrency": {
+    "name": "Janction Testnet Native Token",
+    "symbol": "JCT",
+    "decimals": 18
+  },
+  "infoURL": "https://janction.io",
+  "shortName": "janction",
+  "chainId": 679,
+  "networkId": 679,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "janction",
+      "url": "https://explorer-testnet.janction.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
