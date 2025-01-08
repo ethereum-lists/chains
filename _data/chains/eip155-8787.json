@@ -1,0 +1,26 @@
+{
+  "name": "Puffer UniFi Testnet",
+  "chain": "Puffer UniFi",
+  "rpc": [],
+  "faucets": ["http://testnet-faucet-unifi.puffer.fi/"],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://www.puffer.fi/unifi",
+  "shortName": "puffer-unifi-testnet",
+  "chainId": 8787,
+  "networkId": 8787,
+  "slip44": 1,
+  "icon": "pufferunifi",
+  "explorers": [
+    {
+      "name": "Puffer UniFi Explorer",
+      "url": "https://testnet-explorer-unifi.puffer.fi/",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
