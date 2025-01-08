@@ -13259,6 +13259,19 @@
   "faucets": [],
   "infoURL": "https://planq.network"
 }, {
+  "name": "Bharat Blockchain Network",
+  "chainId": 7099,
+  "shortName": "bbnt",
+  "networkId": 7099,
+  "nativeCurrency": {
+    "name": "BBNT",
+    "symbol": "BBN",
+    "decimals": 18
+  },
+  "rpc": ["https://bbnrpc.testnet.bharatblockchain.io"],
+  "faucets": ["https://www.bon.bharatblockchain.io/faucet"],
+  "infoURL": "https://bharatblockchain.io/"
+}, {
   "name": "Nume",
   "chainId": 7100,
   "shortName": "nume",
