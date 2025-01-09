@@ -7411,29 +7411,29 @@
 }, {
   "name": "Elysium Testnet",
   "chainId": 1338,
-  "shortName": "ELST",
+  "shortName": "ATL",
   "networkId": 1338,
   "nativeCurrency": {
-    "name": "LAVA",
-    "symbol": "LAVA",
+    "name": "ELY",
+    "symbol": "ELY",
     "decimals": 18
   },
-  "rpc": ["https://elysium-test-rpc.vulcanforged.com"],
-  "faucets": [],
-  "infoURL": "https://elysiumscan.vulcanforged.com"
+  "rpc": ["https://rpc.atlantischain.network"],
+  "faucets": ["https://faucet.atlantischain.network"],
+  "infoURL": "https://elysiumchain.tech"
 }, {
   "name": "Elysium Mainnet",
   "chainId": 1339,
-  "shortName": "ELSM",
+  "shortName": "ELY",
   "networkId": 1339,
   "nativeCurrency": {
-    "name": "LAVA",
-    "symbol": "LAVA",
+    "name": "ELY",
+    "symbol": "ELY",
     "decimals": 18
   },
-  "rpc": ["https://rpc.elysiumchain.tech/"],
-  "faucets": [],
-  "infoURL": "https://elysiumscan.vulcanforged.com"
+  "rpc": ["https://rpc.elysiumchain.tech", "https://rpc.elysiumchain.us"],
+  "faucets": ["https://faucet.elysiumchain.tech"],
+  "infoURL": "https://elysiumchain.tech/"
 }, {
   "name": "Blitz Subnet",
   "chainId": 1343,
