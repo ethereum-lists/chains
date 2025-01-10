@@ -9918,6 +9918,19 @@
   "faucets": [],
   "infoURL": "https://rufus.hub.caldera.xyz"
 }, {
+  "name": "inEVM Testnet",
+  "chainId": 2424,
+  "shortName": "inevm-testnet",
+  "networkId": 2424,
+  "nativeCurrency": {
+    "name": "Injective",
+    "symbol": "INJ",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.rpc.inevm.com/http"],
+  "faucets": [],
+  "infoURL": "https://inevm.com"
+}, {
   "name": "King Of Legends Mainnet",
   "chainId": 2425,
   "shortName": "kcc",
