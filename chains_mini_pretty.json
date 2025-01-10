@@ -22203,6 +22203,19 @@
   "faucets": [],
   "infoURL": "https://cryptoxnetwork.io"
 }, {
+  "name": "Openledger Testnet",
+  "chainId": 161201,
+  "shortName": "openledgertest",
+  "networkId": 161201,
+  "nativeCurrency": {
+    "name": "Openledger",
+    "symbol": "OPN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpctn.openledger.xyz"],
+  "faucets": [],
+  "infoURL": "https://www.openledger.xyz"
+}, {
   "name": "PlayFi Mainnet",
   "chainId": 161212,
   "shortName": "playfi",
