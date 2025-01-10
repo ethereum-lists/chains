@@ -1,6 +1,6 @@
 {
-  "name": "Uxlink One Testnet",
-  "chain": "Uxlink One",
+  "name": "UXLINK One Testnet",
+  "chain": "UXLINK One",
   "icon": "uxlinkone",
   "chainId": 7181,
   "networkId": 7181,
@@ -15,9 +15,9 @@
   },
   "explorers": [
     {
-      "name": "Uxlink One Testnet Explorer",
+      "name": "UXLINK One Sepolia Explorer",
       "url": "https://sepolia.uxlinkone.com",
-      "standard": "EIP3091"
+      "standard": "none"
     }
   ]
 }
