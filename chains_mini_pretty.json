@@ -22372,6 +22372,19 @@
   "faucets": ["https://developer.litprotocol.com/support/intro"],
   "infoURL": "https://litprotocol.com"
 }, {
+  "name": "Chronicle Loa - Lit Protocol Testnet",
+  "chainId": 175190,
+  "shortName": "lpl",
+  "networkId": 175190,
+  "nativeCurrency": {
+    "name": "Test Lit",
+    "symbol": "tLit",
+    "decimals": 18
+  },
+  "rpc": ["https://loa-rpc.litprotocol.com"],
+  "faucets": ["https://developer.litprotocol.com/support/intro"],
+  "infoURL": "https://litprotocol.com"
+}, {
   "name": "Bitica Chain Mainnet",
   "chainId": 188710,
   "shortName": "bdcc",
