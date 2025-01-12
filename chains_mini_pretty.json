@@ -13389,6 +13389,19 @@
   "faucets": [],
   "infoURL": "https://bit-rock.io"
 }, {
+  "name": "UXLINK One Testnet",
+  "chainId": 7181,
+  "shortName": "uxlink1-sep",
+  "networkId": 7181,
+  "nativeCurrency": {
+    "name": "UXLINK",
+    "symbol": "UXLINK",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-sepolia.uxlinkone.com"],
+  "faucets": [],
+  "infoURL": "https://www.uxlinkone.io"
+}, {
   "name": "exSat Mainnet",
   "chainId": 7200,
   "shortName": "xsat",
