@@ -1,15 +1,16 @@
 {
   "name": "Shinerium Mainnet",
-  "chain": "SHN",
+  "chain": "Shinerium",
   "rpc": ["https://rpc.shinerium.org"],
   "faucets": [],
+  "features": [{ "name": "EIP155" }],
   "nativeCurrency": {
     "name": "Shinerium",
     "symbol": "SHN",
     "decimals": 18
   },
   "infoURL": "https://shinerium.org",
-  "shortName": "SHN",
+  "shortName": "Shinerium",
   "chainId": 1365,
   "networkId": 1365,
   "explorers": [
