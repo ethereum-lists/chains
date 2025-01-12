@@ -15976,6 +15976,19 @@
   "faucets": ["https://faucet.sardisnetwork.com"],
   "infoURL": "https://mysardis.com"
 }, {
+  "name": "Artela Mainnet",
+  "chainId": 11820,
+  "shortName": "artela-mainnet",
+  "networkId": 11820,
+  "nativeCurrency": {
+    "name": "ART",
+    "symbol": "ART",
+    "decimals": 18
+  },
+  "rpc": ["https://node-euro.artela.network/rpc"],
+  "faucets": [],
+  "infoURL": "https://artela.network/"
+}, {
   "name": "Artela Testnet",
   "chainId": 11822,
   "shortName": "Artela",
