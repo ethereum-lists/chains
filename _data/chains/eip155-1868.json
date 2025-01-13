@@ -21,7 +21,7 @@
       "url": "https://soneium.blockscout.com",
       "icon": "blockscout",
       "standard": "EIP3091"
-    }, 
+    },
     {
       "name": "OKLink",
       "url": "https://www.okx.com/web3/explorer/soneium",
@@ -31,6 +31,6 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": ["https://superbridge.app/soneium"]
+    "bridges": [{ "url": "https://superbridge.app/soneium" }]
   }
 }
