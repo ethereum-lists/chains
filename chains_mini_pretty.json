@@ -21397,6 +21397,19 @@
   "faucets": [],
   "infoURL": "https://slingshotdao.com"
 }, {
+  "name": "Sidra Chain",
+  "chainId": 97453,
+  "shortName": "sidra",
+  "networkId": 97453,
+  "nativeCurrency": {
+    "name": "Sidra Digital Asset",
+    "symbol": "SDA",
+    "decimals": 18
+  },
+  "rpc": ["https://node.sidrachain.com"],
+  "faucets": [],
+  "infoURL": "https://www.sidrachain.com"
+}, {
   "name": "Green Chain Testnet",
   "chainId": 97531,
   "shortName": "greenchain",
