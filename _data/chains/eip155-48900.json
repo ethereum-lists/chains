@@ -2,7 +2,7 @@
   "name": "Zircuit Mainnet",
   "chain": "Zircuit Mainnet",
   "icon": "zircuit",
-  "rpc": [],
+  "rpc": ["https://zircuit1-mainnet.p2pify.com/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",
@@ -13,5 +13,12 @@
   "shortName": "zircuit-mainnet",
   "chainId": 48900,
   "networkId": 48900,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "Zircuit",
+      "url": "https://explorer.zircuit.com",
+      "icon": "zircuit",
+      "standard": "none"
+    }
+  ]
 }

@@ -1,0 +1,29 @@
+{
+  "name": "Ink",
+  "chain": "ETH",
+  "rpc": [
+    "https://rpc-gel.inkonchain.com",
+    "https://rpc-qnd.inkonchain.com",
+    "wss://rpc-gel.inkonchain.com",
+    "wss://rpc-qnd.inkonchain.com"
+  ],
+  "faucets": ["https://inkonchain.com/faucet"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://inkonchain.com",
+  "shortName": "ink",
+  "chainId": 57073,
+  "networkId": 57073,
+  "explorers": [
+    {
+      "name": "Ink Explorer",
+      "url": "https://explorer.inkonchain.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}

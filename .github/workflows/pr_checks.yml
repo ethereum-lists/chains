@@ -53,7 +53,7 @@ jobs:
             else
               echo "Trying to download the image..."
               TARGET_FILE=icon
-              curl -Lo icon "https://cloudflare-ipfs.com/ipfs/$IPFS_HASH" 2>/dev/null
+              curl -Lo icon "https://dweb.link/ipfs/$IPFS_HASH" 2>/dev/null
             fi
 
             METADATA=$(exiftool $TARGET_FILE -json)
@@ -128,7 +128,7 @@ jobs:
 
     - run: sudo npm i -g prettier
 
-    - name: Verify the changed icons
+    - name: Validate formatting
       if: steps.changed-files.outputs.any_changed == 'true'
       run: |
         set -euo pipefail

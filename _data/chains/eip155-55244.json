@@ -1,0 +1,27 @@
+{
+  "name": "Superposition",
+  "chain": "Superposition",
+  "rpc": ["https://rpc.superposition.so"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://superposition.so",
+  "shortName": "spn",
+  "chainId": 55244,
+  "networkId": 55244,
+  "explorers": [
+    {
+      "name": "Superposition Explorer",
+      "url": "https://explorer.superposition.so",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161",
+    "bridges": []
+  }
+}
