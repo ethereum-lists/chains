@@ -14299,6 +14299,19 @@
   "faucets": [],
   "infoURL": "https://b3.fun"
 }, {
+  "name": "XProtocol",
+  "chainId": 8386,
+  "shortName": "xprotocol",
+  "networkId": 8386,
+  "nativeCurrency": {
+    "name": "Kick",
+    "symbol": "KICK",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://xprotocol.org/"
+}, {
   "name": "Dracones Financial Services",
   "chainId": 8387,
   "shortName": "fuck",
@@ -20915,6 +20928,19 @@
   "rpc": ["http://65.108.151.70:8545"],
   "faucets": [],
   "infoURL": "https://esculap.us"
+}, {
+  "name": "Xprotocol Sepolia",
+  "chainId": 83868,
+  "shortName": "xprotocolsepolia",
+  "networkId": 83868,
+  "nativeCurrency": {
+    "name": "KICK Testnet Token",
+    "symbol": "KICK",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://xprotocol.org/"
 }, {
   "name": "ZEDXION",
   "chainId": 83872,

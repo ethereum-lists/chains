@@ -23446,6 +23446,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "XProtocol",
+  "chain": "XPROTOCOL",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Kick",
+    "symbol": "KICK",
+    "decimals": 18
+  },
+  "shortName": "xprotocol",
+  "chainId": 8386,
+  "networkId": 8386,
+  "status": "incubating",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-8453"
+  },
+  "infoURL": "https://xprotocol.org/"
+}, {
   "name": "Dracones Financial Services",
   "title": "The Dracones Mainnet",
   "chain": "FUCK",
@@ -34394,6 +34413,26 @@
   "networkId": 83278,
   "icon": "EsaCoins",
   "explorers": []
+}, {
+  "name": "Xprotocol Sepolia",
+  "chainId": 83868,
+  "shortName": "xprotocolsepolia",
+  "chain": "Xprotocol Sepolia",
+  "networkId": 83868,
+  "nativeCurrency": {
+    "name": "KICK Testnet Token",
+    "symbol": "KICK",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "explorers": [],
+  "status": "incubating",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-84532"
+  },
+  "infoURL": "https://xprotocol.org/"
 }, {
   "name": "ZEDXION",
   "chain": "ZEDXION",
