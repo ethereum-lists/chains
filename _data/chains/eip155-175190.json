@@ -1,0 +1,24 @@
+{
+  "name": "Chronicle Loa - Lit Protocol Testnet",
+  "chain": "LPL",
+  "icon": "lit",
+  "rpc": ["https://loa-rpc.litprotocol.com"],
+  "faucets": ["https://developer.litprotocol.com/support/intro"],
+  "nativeCurrency": {
+    "name": "Test Lit",
+    "symbol": "tLit",
+    "decimals": 18
+  },
+  "infoURL": "https://litprotocol.com",
+  "shortName": "lpl",
+  "chainId": 175190,
+  "networkId": 175190,
+  "explorers": [
+    {
+      "name": "Lit Chronicle Loa Explorer",
+      "url": "https://loa-explorer.litprotocol.com",
+      "icon": "lit",
+      "standard": "EIP3091"
+    }
+  ]
+}
