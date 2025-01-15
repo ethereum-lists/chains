@@ -6044,18 +6044,18 @@
   "faucets": ["https://testnet.5irescan.io/faucet"],
   "infoURL": "https://5ire.org"
 }, {
-  "name": "Lucky Network",
+  "name": "Hyperliquid EVM Testnet",
   "chainId": 998,
-  "shortName": "ln",
+  "shortName": "hype-evm-testnet",
   "networkId": 998,
   "nativeCurrency": {
-    "name": "Lucky",
-    "symbol": "L99",
+    "name": "HYPE",
+    "symbol": "HYPE",
     "decimals": 18
   },
-  "rpc": ["https://rpc.luckynetwork.org", "wss://ws.lnscan.org", "https://rpc.lnscan.org"],
+  "rpc": ["https://api.hyperliquid-testnet.xyz/evm"],
   "faucets": [],
-  "infoURL": "https://luckynetwork.org"
+  "infoURL": "https://hyperfoundation.org/"
 }, {
   "name": "Wanchain Testnet",
   "chainId": 999,
