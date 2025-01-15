@@ -1,0 +1,22 @@
+{
+    "name": "GLHF Testnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://glhf-testnet.rpc.caldera.xyz/http",
+      "wss://glhf-testnet.rpc.caldera.xyz/ws"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "shortName": "glhf-testnet",
+    "chainId": 10211403,
+    "networkId": 10211403,
+    "explorers": [{
+      "name": "GLHF Testnet Explorer",
+      "url": "https://glhf-testnet.explorer.caldera.xyz/",
+      "standard": "EIP3091"
+    }]
+  }
