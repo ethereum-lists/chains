@@ -23787,8 +23787,8 @@
 }, {
   "name": "Hydra Chain Testnet",
   "chain": "HYDRA",
-  "rpc": ["https://rpc.testnet.hydrachain.org"],
-  "faucets": ["https://app.testnet.hydrachain.org/faucet"],
+  "rpc": ["https://rpc-testnet.hydrachain.org"],
+  "faucets": ["https://testnetapp.hydrachain.org/faucet"],
   "nativeCurrency": {
     "name": "tHydra",
     "symbol": "tHYDRA",
