@@ -18667,6 +18667,19 @@
   "faucets": [],
   "infoURL": "https://teampeggle.com"
 }, {
+  "name": "WMC Testnet",
+  "chainId": 42070,
+  "shortName": "wmtx",
+  "networkId": 42070,
+  "nativeCurrency": {
+    "name": "WMTx",
+    "symbol": "WMTx",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet-base.worldmobile.net"],
+  "faucets": ["https://faucet-testnet-base.worldmobile.net"],
+  "infoURL": "https://worldmobiletoken.com"
+}, {
   "name": "AgentLayer Testnet",
   "chainId": 42072,
   "shortName": "agent",
