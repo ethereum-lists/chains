@@ -17562,6 +17562,19 @@
   "faucets": ["https://faucet.antofy.io"],
   "infoURL": "https://antofy.io"
 }, {
+  "name": "PremiumBlock",
+  "chainId": 23023,
+  "shortName": "pblk",
+  "networkId": 23023,
+  "nativeCurrency": {
+    "name": "Premium Block",
+    "symbol": "PBLK",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.premiumblock.org"],
+  "faucets": [],
+  "infoURL": "https://scan.premiumblock.org"
+}, {
   "name": "Opside Testnet",
   "chainId": 23118,
   "shortName": "opside",
