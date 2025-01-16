@@ -25,7 +25,6 @@
   }],
   "parent": {
     "type": "L2",
-    "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://ozean-testnet.bridge.caldera.xyz" }]
+    "chain": "eip155-11155111"
   }
 }
