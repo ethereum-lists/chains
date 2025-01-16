@@ -9801,6 +9801,19 @@
   "faucets": ["https://www.omniaverse.io"],
   "infoURL": "https://www.omniaverse.io"
 }, {
+  "name": "GOAT Network",
+  "chainId": 2345,
+  "shortName": "goat",
+  "networkId": 2345,
+  "nativeCurrency": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.goat.network"],
+  "faucets": [],
+  "infoURL": "https://www.goat.network"
+}, {
   "name": "Silicon zkEVM",
   "chainId": 2355,
   "shortName": "silicon-zk",
