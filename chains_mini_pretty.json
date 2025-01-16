@@ -20760,6 +20760,19 @@
   "faucets": [],
   "infoURL": "https://geobrowser.io"
 }, {
+  "name": "Forta Chain",
+  "chainId": 80931,
+  "shortName": "forta",
+  "networkId": 80931,
+  "nativeCurrency": {
+    "name": "FORT",
+    "symbol": "FORT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-forta-chain-8gj1qndmfc.t.conduit.xyz"],
+  "faucets": [],
+  "infoURL": "https://www.forta.org/"
+}, {
   "name": "Nordek Mainnet",
   "chainId": 81041,
   "shortName": "nordek",
