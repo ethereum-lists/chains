@@ -25622,6 +25622,19 @@
   "faucets": [],
   "infoURL": "https://zora.energy"
 }, {
+  "name": "Ozean Poseidon Testnet",
+  "chainId": 7849306,
+  "shortName": "ozean-poseidon",
+  "networkId": 7849306,
+  "nativeCurrency": {
+    "name": "USDX",
+    "symbol": "USDX",
+    "decimals": 18
+  },
+  "rpc": ["https://ozean-testnet.rpc.caldera.xyz/http", "wss://ozean-testnet.rpc.caldera.xyz/ws"],
+  "faucets": ["https://ozean-testnet.hub.caldera.xyz"],
+  "infoURL": "https://docs.ozean.finance"
+}, {
   "name": "Plian Mainnet Subchain 1",
   "chainId": 8007736,
   "shortName": "plian-mainnet-l2",
