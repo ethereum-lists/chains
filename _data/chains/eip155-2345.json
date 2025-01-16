@@ -12,14 +12,14 @@
     "symbol": "BTC",
     "decimals": 18
   },
-  "infoURL": "https://github.com/GOATNetwork/goat",
+  "infoURL": "https://www.goat.network",
   "shortName": "goat",
   "chainId": 2345,
   "networkId": 2345,
   "icon": "goat",
   "explorers": [
     {
-      "name": "GOAT Explorer",
+      "name": "blockscout",
       "url": "https://explorer.goat.network",
       "standard": "none"
     }
