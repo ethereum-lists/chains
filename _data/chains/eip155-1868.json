@@ -4,7 +4,7 @@
   "title": "Soneium mainnet",
   "chain": "ETH",
   "icon": "soneium",
-  "rpc": [],
+  "rpc": ["https://rpc.soneium.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -14,11 +14,28 @@
   "infoURL": "https://soneium.org",
   "chainId": 1868,
   "networkId": 1868,
-  "status": "incubating",
-  "explorers": [],
+  "status": "active",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://soneium.blockscout.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "OKLink",
+      "url": "https://www.okx.com/web3/explorer/soneium",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "SlamVision",
+      "url": "https://soneium.slam.vision",
+      "standard": "none"
+    }
+  ],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": []
+    "bridges": [{ "url": "https://superbridge.app/soneium" }]
   }
 }
