@@ -1,0 +1,21 @@
+{
+  "name": "Sonic Blaze Testnet",
+  "chain": "blaze-testnet",
+  "rpc": [
+    "https://rpc.blaze.soniclabs.com",
+    "https://sonic-blaze-rpc.publicnode.com",
+    "wss://sonic-blaze-rpc.publicnode.com"
+  ],
+  "faucets": ["https://blaze.soniclabs.com/account"],
+  "nativeCurrency": {
+    "name": "Sonic",
+    "symbol": "S",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://blaze.soniclabs.com",
+  "shortName": "blaze",
+  "chainId": 57054,
+  "networkId": 57054,
+  "icon": "sonic"
+}

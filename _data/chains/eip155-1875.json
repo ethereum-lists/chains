@@ -1,22 +1,22 @@
 {
-  "name": "WhiteBIT Network",
+  "name": "Whitechain",
   "chain": "WBT",
-  "rpc": ["https://rpc.whitebit.network"],
+  "rpc": ["https://rpc.whitechain.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "WhiteBIT Coin",
     "symbol": "WBT",
     "decimals": 18
   },
-  "infoURL": "https://whitebit.network",
+  "infoURL": "https://whitechain.io",
   "shortName": "wbt",
   "chainId": 1875,
   "networkId": 1875,
-  "icon": "whitebit",
+  "icon": "whitechain",
   "explorers": [
     {
-      "name": "wb-explorer",
-      "url": "https://explorer.whitebit.network",
+      "name": "whitechain-explorer",
+      "url": "https://explorer.whitechain.io",
       "standard": "EIP3091"
     }
   ]

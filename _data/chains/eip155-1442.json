@@ -2,7 +2,11 @@
   "name": "Polygon zkEVM Testnet",
   "title": "Polygon zkEVM Testnet",
   "chain": "Polygon",
-  "rpc": ["https://rpc.public.zkevm-test.net"],
+  "rpc": [
+    "https://rpc.public.zkevm-test.net",
+    "https://polygon-zkevm-testnet.drpc.org",
+    "wss://polygon-zkevm-testnet.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

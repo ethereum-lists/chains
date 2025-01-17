@@ -1,0 +1,23 @@
+{
+  "name": "Openledger Testnet",
+  "chain": "Openledger Testnet",
+  "rpc": ["https://rpctn.openledger.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Openledger",
+    "symbol": "OPN",
+    "decimals": 18
+  },
+  "infoURL": "https://www.openledger.xyz",
+  "shortName": "openledgertest",
+  "chainId": 161201,
+  "networkId": 161201,
+  "icon": "openledger",
+  "explorers": [
+    {
+      "name": "Openledger Testnet Explorer",
+      "url": "https://scantn.openledger.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,7 +1,11 @@
 {
   "name": "Base Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia.base.org"],
+  "rpc": [
+    "https://sepolia.base.org",
+    "https://base-sepolia-rpc.publicnode.com",
+    "wss://base-sepolia-rpc.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
@@ -15,6 +19,11 @@
   "slip44": 1,
   "icon": "baseTestnet",
   "explorers": [
+    {
+      "name": "basescan-sepolia",
+      "url": "https://sepolia.basescan.org",
+      "standard": "EIP3091"
+    },
     {
       "name": "basescout",
       "url": "https://base-sepolia.blockscout.com",

@@ -1,0 +1,22 @@
+{
+  "name": "Oneness Network",
+  "chain": "Oneness",
+  "rpc": ["https://rpc.onenesslabs.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "oneness",
+  "chainId": 2140,
+  "networkId": 2140,
+  "explorers": [
+    {
+      "name": "oneness-mainnet",
+      "url": "https://scan.onenesslabs.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

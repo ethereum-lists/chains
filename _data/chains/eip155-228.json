@@ -1,0 +1,19 @@
+{
+  "name": "Mind Network Mainnet",
+  "chain": "FHE",
+  "rpc": [
+    "https://rpc-mainnet.mindnetwork.xyz",
+    "wss://rpc-mainnet.mindnetwork.xyz"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://mindnetwork.xyz",
+  "shortName": "fhe",
+  "chainId": 228,
+  "networkId": 228
+}
