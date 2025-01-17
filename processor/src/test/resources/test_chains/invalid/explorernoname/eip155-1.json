@@ -18,5 +18,10 @@
   "explorers": [{
     "url": "https://etherscan.io",
     "standard": "EIP3091"
+  },
+  {
+    "name": "Routescan",
+    "url": "https://ethereum.routescan.io/",
+    "standard": "EIP3091"
   }]
 }

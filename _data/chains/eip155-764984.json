@@ -1,0 +1,28 @@
+{
+  "name": "Lamina1 Testnet",
+  "chain": "Lamina1 Testnet",
+  "rpc": ["https://subnets.avax.network/lamina1tes/testnet/rpc"],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lamina1 Test",
+    "symbol": "L1T",
+    "decimals": 18
+  },
+  "infoURL": "https://fuji.lamina1.com/",
+  "shortName": "lamina1test",
+  "chainId": 764984,
+  "networkId": 764984,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Lamina1 Test Explorer",
+      "url": "https://subnets-test.avax.network/lamina1tes",
+      "standard": "EIP3091"
+    }
+  ]
+}

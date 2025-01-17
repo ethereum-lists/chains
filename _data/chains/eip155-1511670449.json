@@ -1,0 +1,29 @@
+{
+  "name": "GPT Mainnet",
+  "chain": "GPT Protocol",
+  "icon": "gpt",
+  "rpc": ["https://rpc.gptprotocol.io"],
+  "faucets": [],
+  "chainId": 1511670449,
+  "networkId": 1511670449,
+  "nativeCurrency": {
+    "name": "GPT",
+    "symbol": "GPT",
+    "decimals": 18
+  },
+  "infoURL": "https://gptprotocol.com",
+  "shortName": "GPT",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.gptprotocol.io" }]
+  },
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.gptprotocol.io",
+      "standard": "EIP3091",
+      "icon": "blockscout"
+    }
+  ]
+}

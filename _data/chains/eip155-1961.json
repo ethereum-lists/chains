@@ -1,0 +1,23 @@
+{
+  "name": "Selendra Network Mainnet",
+  "chain": "SEL",
+  "rpc": ["https://rpc.selendra.org", "https://rpc2.selendra.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Selendra",
+    "symbol": "SEL",
+    "decimals": 18
+  },
+  "infoURL": "https://selendra.org",
+  "shortName": "SEL",
+  "chainId": 1961,
+  "networkId": 1961,
+  "icon": "selendra",
+  "explorers": [
+    {
+      "name": "Selendra Portal",
+      "url": "https://portal.selendra.org",
+      "standard": "none"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Autonomys Taurus Testnet",
+  "chain": "autonomys-taurus-testnet",
+  "rpc": ["https://auto-evm.taurus.autonomys.xyz/ws"],
+  "icon": "autonomys",
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AI3",
+    "symbol": "AI3",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://www.autonomys.xyz",
+  "shortName": "ATN",
+  "chainId": 490000,
+  "networkId": 490000,
+  "explorers": [
+    {
+      "name": "Autonomys Taurus Testnet Explorer",
+      "url": "https://blockscout.taurus.autonomys.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

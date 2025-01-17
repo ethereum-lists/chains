@@ -1,0 +1,23 @@
+{
+  "name": "0G-Newton-Testnet",
+  "chain": "0G-Testnet",
+  "rpc": ["https://evmrpc-testnet.0g.ai"],
+  "faucets": ["https://faucet.0g.ai"],
+  "nativeCurrency": {
+    "name": "A0GI",
+    "symbol": "A0GI",
+    "decimals": 18
+  },
+  "infoURL": "https://0g.ai",
+  "shortName": "0gai-testnet",
+  "chainId": 16600,
+  "networkId": 16600,
+  "icon": "0gai",
+  "explorers": [
+    {
+      "name": "0G BlockChain Explorer",
+      "url": "https://chainscan-newton.0g.ai",
+      "standard": "none"
+    }
+  ]
+}

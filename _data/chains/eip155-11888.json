@@ -1,15 +1,16 @@
 {
-  "name": "SanR Chain",
-  "chain": "SanRChain",
+  "status": "deprecated",
+  "name": "Santiment Intelligence Network DEPRECATED",
+  "chain": "Santiment Intelligence Network DEPRECATED",
   "rpc": ["https://sanrchain-node.santiment.net"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "nSAN",
-    "symbol": "nSAN",
+    "name": "SANold",
+    "symbol": "SANold",
     "decimals": 18
   },
   "infoURL": "https://sanr.app",
-  "shortName": "SAN",
+  "shortName": "SANold",
   "chainId": 11888,
   "networkId": 11888,
   "icon": "sanrchain",
@@ -24,8 +25,8 @@
   },
   "explorers": [
     {
-      "name": "SanR Chain Explorer",
-      "url": "https://sanrchain-explorer.santiment.net",
+      "name": "Santiment Intelligence Explorer",
+      "url": "https://app-explorer-pos.sanr.app",
       "standard": "none"
     }
   ]

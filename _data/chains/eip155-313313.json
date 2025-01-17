@@ -1,0 +1,24 @@
+{
+  "name": "SaharaAI Testnet",
+  "chain": "Sahara",
+  "rpc": ["https://testnet.saharalabs.ai"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sahara AI",
+    "symbol": "SAHARA",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://saharalabs.ai",
+  "shortName": "saharatest",
+  "chainId": 313313,
+  "networkId": 313313,
+  "icon": "sahara",
+  "explorers": [
+    {
+      "name": "Testnet Scan",
+      "url": "https://testnet-explorer.saharalabs.ai",
+      "standard": "EIP3091"
+    }
+  ]
+}
