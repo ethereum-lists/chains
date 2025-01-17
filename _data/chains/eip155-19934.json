@@ -1,0 +1,22 @@
+{
+    "name": "B4 Testnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://b4-testnet.rpc.caldera.xyz/http",
+      "wss://b4-testnet.rpc.caldera.xyz/ws"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "shortName": "b4-testnet",
+    "chainId": 19934,
+    "networkId": 19934,
+    "explorers": [{
+      "name": "B4 Testnet Explorer",
+      "url": "https://b4-testnet.explorer.caldera.xyz",
+      "standard": "EIP3091"
+    }]
+  }
