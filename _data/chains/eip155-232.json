@@ -1,0 +1,23 @@
+{
+  "name": "Lens",
+  "title": "Lens mainnet",
+  "chain": "Lens",
+  "rpc": [],
+  "faucets": [],
+  "chainId": 232,
+  "networkId": 232,
+  "nativeCurrency": {
+    "name": "GHO",
+    "symbol": "GHO",
+    "decimals": 18
+  },
+  "icon": "lens",
+  "infoURL": "https://lens.xyz",
+  "shortName": "lens",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  },
+  "explorers": []
+}
