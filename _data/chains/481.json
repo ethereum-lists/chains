@@ -1,0 +1,16 @@
+{
+  "name": "SciChain",
+  "chainId": 481,
+  "shortName": "SCI",
+  "networkId": 481,
+  "rpc": ["https://chain.scimatic.net"],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "SciChain Explorer",
+      "url": "https://explorer.scimatic.net",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://scimatic.net"
+}
