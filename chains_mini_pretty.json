@@ -2872,6 +2872,19 @@
   "faucets": [],
   "infoURL": "https://swapdex.network/"
 }, {
+  "name": "Lens",
+  "chainId": 232,
+  "shortName": "lens",
+  "networkId": 232,
+  "nativeCurrency": {
+    "name": "GHO",
+    "symbol": "GHO",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://lens.xyz"
+}, {
   "name": "Ethernity Testnet",
   "chainId": 233,
   "shortName": "ethernity-testnet",
