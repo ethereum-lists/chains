@@ -2,7 +2,7 @@ buildscript {
     ext {
         KOTLIN_VERSION = "2.1.0"
         KETHEREUM_VERSION = "0.86.0"
-        KSP_VERSION = "1.0.0-2.1.0" // Add the KSP version here
+        KSP_VERSION = "2.1.0-1.0.29" // Add the KSP version here
     }
 
     repositories {
@@ -12,7 +12,7 @@ buildscript {
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${KOTLIN_VERSION}"
         classpath 'com.github.ben-manes:gradle-versions-plugin:0.51.0'
-        classpath "com.google.devtools.ksp:symbol-processing-gradle-plugin:${KSP_VERSION}" // Add the KSP Gradle plugin
+        classpath "com.google.devtools.ksp:${KSP_VERSION}" // Add the KSP Gradle plugin
     }
 }
 
@@ -29,7 +29,8 @@ subprojects {
     apply plugin: "com.google.devtools.ksp"
 
     dependencies {
-        implementation "org.jetbrains.kotlin:kotlin-stdlib:${KOTLIN_VERSION}"
-        ksp "com.google.devtools.ksp:symbol-processing-api:${KSP_VERSION}" // Add the KSP dependency
+        implementation 'org.jetbrains.kotlin:kotlin-stdlib:2.1.0'
+        implementation 'com.google.dagger:dagger-compiler:2.51.1'
+        ksp 'com.google.dagger:dagger-compiler:2.51.1'
     }
 }
