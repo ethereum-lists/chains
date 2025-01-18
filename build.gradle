@@ -2,6 +2,7 @@ buildscript {
     ext {
         KOTLIN_VERSION = "2.1.0"
         KETHEREUM_VERSION = "0.86.0"
+        KSP_VERSION = "2.1.0-1.0.0" // Add the KSP version here
     }
 
     repositories {
@@ -10,6 +11,7 @@ buildscript {
 
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${KOTLIN_VERSION}"
+        classpath "com.google.devtools.ksp:symbol-processing-gradle-plugin:${KSP_VERSION}" // Add the KSP Gradle plugin
         classpath 'com.github.ben-manes:gradle-versions-plugin:0.51.0'
     }
 }
@@ -21,6 +23,12 @@ subprojects {
         mavenCentral()
         maven { url 'https://jitpack.io' }
     }
-}
 
-apply from: 'https://raw.githubusercontent.com/ligi/gradle-common/master/versions_plugin_stable_only.gradle'
+    // Apply the KSP plugin
+    apply plugin: "com.google.devtools.ksp"
+
+    dependencies {
+        implementation "org.jetbrains.kotlin:kotlin-stdlib:${KOTLIN_VERSION}"
+        ksp "com.google.devtools.ksp:symbol-processing-api:${KSP_VERSION}" // Add the KSP dependency
+    }
+}
