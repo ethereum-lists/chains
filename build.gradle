@@ -11,8 +11,8 @@ buildscript {
 
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${KOTLIN_VERSION}"
-        classpath "com.google.devtools.ksp:symbol-processing-gradle-plugin:${KSP_VERSION}" // Add the KSP Gradle plugin
         classpath 'com.github.ben-manes:gradle-versions-plugin:0.51.0'
+        classpath "com.google.devtools.ksp:symbol-processing-gradle-plugin:${KSP_VERSION}" // Add the KSP Gradle plugin
     }
 }
 
@@ -22,6 +22,7 @@ subprojects {
     repositories {
         mavenCentral()
         maven { url 'https://jitpack.io' }
+        google() // Added this repository for KSP
     }
 
     // Apply the KSP plugin
