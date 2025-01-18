@@ -1,21 +1,22 @@
 {
-  "name": "PremiumBlock",
-  "chain": "PBLK",
-  "rpc": ["https://rpc.premiumblock.org"],
-  "faucets": [],
+  "name": "SkyMarvel Mainnet",
+  "title": "SkyMarvel Mainnet",
+  "chain": "SkyMarvel",
+  "icon": "SMC",
+  "rpc": ["https://rpc.explorer.skymarvel.io"],
   "nativeCurrency": {
-    "name": "Premium Block",
-    "symbol": "PBLK",
+    "name": "Sky Marvel Coin",
+    "symbol": "SMC",
     "decimals": 18
   },
-  "infoURL": "https://scan.premiumblock.org",
-  "shortName": "pblk",
+  "infoURL": "https://skymarvel.io/",
+  "shortName": "SKY",
   "chainId": 23023,
   "networkId": 23023,
   "explorers": [
     {
-      "name": "PremiumBlocks Explorer",
-      "url": "https://scan.premiumblock.org",
+      "name": "SkyMarvel Explorer",
+      "url": "https://explorer.skymarvel.io/",
       "standard": "EIP3091"
     }
   ],
