@@ -1,8 +1,7 @@
 buildscript {
     ext {
-        KOTLIN_VERSION = "2.1.0"
+        KOTLIN_VERSION = "2.0.21"
         KETHEREUM_VERSION = "0.86.0"
-        KSP_VERSION = "2.1.0-1.0.29" // Add the KSP version here
     }
 
     repositories {
@@ -12,7 +11,6 @@ buildscript {
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${KOTLIN_VERSION}"
         classpath 'com.github.ben-manes:gradle-versions-plugin:0.51.0'
-        classpath "com.google.devtools.ksp:${KSP_VERSION}" // Add the KSP Gradle plugin
     }
 }
 
@@ -22,15 +20,7 @@ subprojects {
     repositories {
         mavenCentral()
         maven { url 'https://jitpack.io' }
-        google() // Added this repository for KSP
-    }
-
-    // Apply the KSP plugin
-    apply plugin: "com.google.devtools.ksp"
-
-    dependencies {
-        implementation 'org.jetbrains.kotlin:kotlin-stdlib:2.1.0'
-        implementation 'com.google.dagger:dagger-compiler:2.51.1'
-        ksp 'com.google.dagger:dagger-compiler:2.51.1'
     }
 }
+
+apply from: 'https://raw.githubusercontent.com/ligi/gradle-common/master/versions_plugin_stable_only.gradle'
