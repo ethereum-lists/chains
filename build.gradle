@@ -2,7 +2,7 @@ buildscript {
     ext {
         KOTLIN_VERSION = "2.1.0"
         KETHEREUM_VERSION = "0.86.0"
-        KSP_VERSION = "2.1.0-1.0.0" // Add the KSP version here
+        KSP_VERSION = "1.0.0-2.1.0" // Add the KSP version here
     }
 
     repositories {
