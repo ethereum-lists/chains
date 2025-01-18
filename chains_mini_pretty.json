@@ -5095,6 +5095,19 @@
   "faucets": [],
   "infoURL": "https://token.script.tv"
 }, {
+  "name": "Tranched Mainnet",
+  "chainId": 743,
+  "shortName": "tranched-mainnet",
+  "networkId": 743,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://tranched-mainnet.calderachain.xyz/http"],
+  "faucets": [],
+  "infoURL": "https://tranched-mainnet.hub.caldera.xyz"
+}, {
   "name": "EVM on Flow",
   "chainId": 747,
   "shortName": "flow-mainnet",
