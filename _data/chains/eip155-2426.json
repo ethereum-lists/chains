@@ -1,6 +1,6 @@
 {
-  "name": "Standard Testnet",
-  "chain": "STND Testnet",
+  "name": "Standard Sepolia Testnet",
+  "chain": "Standard Sepolia",
   "rpc": [],
   "faucets": [],
   "nativeCurrency": {
@@ -8,8 +8,16 @@
     "symbol": "STND",
     "decimals": 18
   },
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://standard-sepolia.explorer.alchemy.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
   "infoURL": "https://standardweb3.com",
-  "shortName": "stndtestnet",
+  "shortName": "standard-sepolia",
   "chainId": 2426,
   "networkId": 2426,
   "status": "incubating"

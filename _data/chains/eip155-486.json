@@ -1,6 +1,6 @@
 {
   "name": "Standard Mainnet",
-  "chain": "STND",
+  "chain": "Standard",
   "rpc": [],
   "faucets": [],
   "nativeCurrency": {
@@ -8,8 +8,16 @@
     "symbol": "STND",
     "decimals": 18
   },
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://standard-mainnet.explorer.alchemy.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
   "infoURL": "https://standardweb3.com",
-  "shortName": "stnd",
+  "shortName": "standard-mainnet",
   "chainId": 486,
   "networkId": 486,
   "status": "incubating"
