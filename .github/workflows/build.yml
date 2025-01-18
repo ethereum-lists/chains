@@ -13,9 +13,6 @@ jobs:
         id: changed-files
         uses: tj-actions/changed-files@v41
 
-      - name: Declare JAVA_HOME ENV Variable
-        run: export JAVA_HOME=$(/usr/libexec/java_home -v 21)
-
       - name: Check changed files
         run: |
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
