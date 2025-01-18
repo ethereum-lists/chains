@@ -19,6 +19,9 @@ jobs:
             ./gradlew clean run --args="verbose singleChainCheck $file"
           done
 
+      - name: Declare JAVA_HOME ENV Variable
+        run: export JAVA_HOME=$(/usr/libexec/java_home -v 21)
+
       - name: Build
         run: |
           ./gradlew run
