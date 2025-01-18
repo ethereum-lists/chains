@@ -13493,6 +13493,19 @@
   "faucets": [],
   "infoURL": "https://nibiru.fi"
 }, {
+  "name": "InitVerse mainnet",
+  "chainId": 7233,
+  "shortName": "INI",
+  "networkId": 7233,
+  "nativeCurrency": {
+    "name": "InitVerse",
+    "symbol": "INI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet.inichain.com"],
+  "faucets": [],
+  "infoURL": "https://www.inichain.com"
+}, {
   "name": "InitVerse genesis testnet",
   "chainId": 7234,
   "shortName": "INICHAIN",
