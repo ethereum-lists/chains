@@ -13935,6 +13935,19 @@
   "faucets": ["https://faucet.mochain.app/"],
   "infoURL": "https://mochain.app"
 }, {
+  "name": "Exorium Testnet",
+  "chainId": 7957,
+  "shortName": "texor",
+  "networkId": 7957,
+  "nativeCurrency": {
+    "name": "EXOR",
+    "symbol": "tEXOR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-1-testnet.exorium.net", "https://rpc-2-testnet.exorium.net", "https://rpc-testnet.exoscan.net/"],
+  "faucets": ["https://faucet-testnet.exorium.net"],
+  "infoURL": "https://exorium.net"
+}, {
   "name": "DOS Chain",
   "chainId": 7979,
   "shortName": "dos",
