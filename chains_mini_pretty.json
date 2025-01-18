@@ -20422,6 +20422,19 @@
   "faucets": [],
   "infoURL": "https://www.cagacrypto.com/"
 }, {
+  "name": "CAGA mainnet",
+  "chainId": 72888,
+  "shortName": "caga-mainnet",
+  "networkId": 72888,
+  "nativeCurrency": {
+    "name": "CAGA",
+    "symbol": "CAGA",
+    "decimals": 18
+  },
+  "rpc": ["https://cagamainnet.com", "wss://cagamainnet.com/ws"],
+  "faucets": [],
+  "infoURL": "https://www.cagacrypto.com/"
+}, {
   "name": "Grok Chain Mainnet",
   "chainId": 72992,
   "shortName": "GrokChain",
