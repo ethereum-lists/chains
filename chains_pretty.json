@@ -46118,8 +46118,8 @@
   "networkId": 197710212030,
   "icon": "ntity",
   "explorers": [{
-    "name": "Ntity Blockscout",
-    "url": "https://blockscout.ntity.io",
+    "name": "Ntity Explorer",
+    "url": "https://explorer.ntity.io",
     "icon": "ntity",
     "standard": "EIP3091"
   }]
@@ -46134,15 +46134,15 @@
     "decimals": 18
   },
   "infoURL": "https://ntity.io",
-  "shortName": "ntt-haradev",
+  "shortName": "haradev",
   "chainId": 197710212031,
   "networkId": 197710212031,
   "slip44": 1,
-  "icon": "ntity",
+  "icon": "haradev",
   "explorers": [{
-    "name": "Ntity Haradev Blockscout",
-    "url": "https://blockscout.haradev.com",
-    "icon": "ntity",
+    "name": "Haradev Explorer",
+    "url": "https://explorer.haradev.com",
+    "icon": "haradev",
     "standard": "EIP3091"
   }]
 }, {
