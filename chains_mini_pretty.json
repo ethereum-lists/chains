@@ -26207,6 +26207,19 @@
   "faucets": [],
   "infoURL": "https://swanchain.io/"
 }, {
+  "name": "ETP Mainnet",
+  "chainId": 20256789,
+  "shortName": "ETP",
+  "networkId": 20256789,
+  "nativeCurrency": {
+    "name": "ETP Chain Native Token",
+    "symbol": "ETP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.etpscan.xyz"],
+  "faucets": [],
+  "infoURL": "https://www.etposchain.com"
+}, {
   "name": "Hokum Testnet",
   "chainId": 20482050,
   "shortName": "hokum-testnet",
