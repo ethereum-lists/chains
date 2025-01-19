@@ -20825,6 +20825,19 @@
   "faucets": ["https://artio.faucet.berachain.com"],
   "infoURL": "https://www.berachain.com"
 }, {
+  "name": "Berachain",
+  "chainId": 80094,
+  "shortName": "berachain",
+  "networkId": 80094,
+  "nativeCurrency": {
+    "name": "BERA Token",
+    "symbol": "BERA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.berachain.com"],
+  "faucets": ["https://faucet.berachain.com"],
+  "infoURL": "https://www.berachain.com"
+}, {
   "name": "Hizoco mainnet",
   "chainId": 80096,
   "shortName": "hzc",
