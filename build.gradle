@@ -2,19 +2,16 @@ buildscript {
     ext {
         KOTLIN_VERSION = "2.1.0"
         KETHEREUM_VERSION = "0.86.0"
-        KSP_VERSION = "2.1.20-Beta1-1.0.29"
     }
 
     repositories {
         gradlePluginPortal()
         mavenCentral()
-        google()
     }
 
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${KOTLIN_VERSION}"
         classpath 'com.github.ben-manes:gradle-versions-plugin:0.51.0'
-        classpath "com.google.devtools.ksp:symbol-processing-gradle-plugin:${KSP_VERSION}"
     }
 }
 
