@@ -14,7 +14,7 @@ buildscript {
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${KOTLIN_VERSION}"
         classpath 'com.github.ben-manes:gradle-versions-plugin:0.51.0'
-        classpath "com.google.devtools.ksp:symbol-processing-gradle-plugin:${KSP_VERSION}"
+        classpath "com.google.devtools.ksp.gradle.plugin:${KSP_VERSION}"
     }
 }
 
