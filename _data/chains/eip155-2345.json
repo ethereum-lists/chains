@@ -1,11 +1,13 @@
 {
   "name": "GOAT Network",
+
   "chain": "GOAT",
   "rpc": [
     "https://rpc.goat.network",
     "https://rpc.ankr.com/goat_mainnet",
     "https://goat-mainnet-alpha.drpc.org"
   ],
+
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin",
@@ -21,8 +23,10 @@
     {
       "name": "blockscout",
       "url": "https://explorer.goat.network",
+
       "standard": "none"
     }
   ],
   "features": [{ "name": "EIP1559" }]
+
 }
