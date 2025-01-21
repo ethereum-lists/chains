@@ -1,0 +1,17 @@
+{
+  "name": "Planq Atlas Testnet",
+  "chain": "Planq",
+  "icon": "planq",
+  "rpc": ["https://evm-rpc-atlas.planq.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Planq",
+    "symbol": "tPLQ",
+    "decimals": 18
+  },
+  "infoURL": "https://planq.network",
+  "shortName": "planq-atlas-testnet",
+  "chainId": 7077,
+  "networkId": 7077,
+  "explorers": []
+}

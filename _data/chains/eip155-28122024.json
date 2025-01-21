@@ -1,0 +1,24 @@
+{
+  "name": "Ancient8 Testnet",
+  "chain": "Ancient8",
+  "icon": "ancient8",
+  "rpc": ["https://rpcv2-testnet.ancient8.gg"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://ancient8.gg/",
+  "shortName": "a8",
+  "chainId": 28122024,
+  "networkId": 28122024,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "scan-testnet",
+      "url": "https://scanv2-testnet.ancient8.gg",
+      "standard": "EIP3091"
+    }
+  ]
+}

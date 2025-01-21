@@ -1,8 +1,8 @@
 {
-  "name": "ADIL Mainnet",
+  "name": "Adil Chain V2 Mainnet",
   "chain": "ADIL",
   "icon": "adil",
-  "rpc": ["https://s2.adilchain-rpc.io"],
+  "rpc": ["https://adilchain-rpc.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "ADIL",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "ADIL Mainnet Explorer",
-      "url": "https://s2.adilchain-scan.io",
+      "url": "https://adilchain-scan.io",
       "standard": "EIP3091"
     }
   ]

@@ -1,7 +1,11 @@
 {
   "name": "Harmony Mainnet Shard 1",
   "chain": "Harmony",
-  "rpc": ["https://api.s1.t.hmny.io"],
+  "rpc": [
+    "https://api.s1.t.hmny.io",
+    "https://harmony-1.drpc.org",
+    "wss://harmony-1.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ONE",
@@ -9,7 +13,15 @@
     "decimals": 18
   },
   "infoURL": "https://www.harmony.one/",
+  "slip44": 1023,
   "shortName": "hmy-s1",
   "chainId": 1666600001,
-  "networkId": 1666600001
+  "networkId": 1666600001,
+  "explorers": [
+    {
+      "name": "Harmony Block Explorer",
+      "url": "https://explorer.harmony.one/blocks/shard/1",
+      "standard": "none"
+    }
+  ]
 }

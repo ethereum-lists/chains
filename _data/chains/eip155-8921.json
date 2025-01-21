@@ -1,0 +1,28 @@
+{
+  "name": "Algen Layer2",
+  "chain": "ALG L2",
+  "rpc": ["https://rpc.alg2.algen.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ALG",
+    "symbol": "ALG",
+    "decimals": 18
+  },
+  "infoURL": "https://www.algen.network",
+  "shortName": "algl2",
+  "chainId": 8921,
+  "networkId": 8921,
+  "icon": "algl2",
+  "explorers": [
+    {
+      "name": "algl2scan",
+      "url": "https://scan.alg2.algen.network",
+      "icon": "algl2",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "chain": "eip155-8911",
+    "type": "shard"
+  }
+}

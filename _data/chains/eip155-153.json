@@ -1,0 +1,24 @@
+{
+  "name": "Redbelly Network Testnet",
+  "shortName": "rbn-testnet",
+  "chain": "RBN",
+  "chainId": 153,
+  "networkId": 153,
+  "slip44": 1,
+  "rpc": ["https://governors.testnet.redbelly.network"],
+  "faucets": [],
+  "infoURL": "https://redbelly.network",
+  "nativeCurrency": {
+    "name": "Redbelly Network Coin",
+    "symbol": "RBNT",
+    "decimals": 18
+  },
+  "explorers": [
+    {
+      "name": "Routescan",
+      "url": "https://redbelly.testnet.routescan.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}

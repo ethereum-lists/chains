@@ -1,23 +1,28 @@
 {
-  "name": "Aitd Mainnet",
-  "chain": "AITD",
-  "icon": "aitd",
-  "rpc": ["https://walletrpc.aitd.io", "https://node.aitd.io"],
+  "name": "AIA Mainnet",
+  "chain": "AIA",
+  "icon": "aia",
+  "rpc": [
+    "https://aia-dataseed1.aiachain.org",
+    "https://aia-dataseed2.aiachain.org",
+    "https://aia-dataseed3.aiachain.org",
+    "https://aia-dataseed4.aiachain.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "AITD Mainnet",
-    "symbol": "AITD",
+    "name": "AIA Mainnet",
+    "symbol": "AIA",
     "decimals": 18
   },
-  "infoURL": "https://www.aitd.io/",
-  "shortName": "aitd",
+  "infoURL": "https://aiachain.org/",
+  "shortName": "aia",
   "chainId": 1319,
   "networkId": 1319,
 
   "explorers": [
     {
-      "name": "AITD Chain Explorer Mainnet",
-      "url": "https://aitd-explorer-new.aitd.io",
+      "name": "AIA Chain Explorer Mainnet",
+      "url": "https://aiascan.com",
       "standard": "EIP3091"
     }
   ]

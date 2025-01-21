@@ -19,14 +19,14 @@ jobs:
 
     - name: Get changed icons
       id: changed-icons
-      uses: tj-actions/changed-files@v35
+      uses: tj-actions/changed-files@v41
       with:
         files: _data/icons/*.json
         base_sha: ${{ steps.last_successful_commit_push.outputs.base }}
     
     - name: Get changed icon blobs
       id: changed-icon-blobs
-      uses: tj-actions/changed-files@v35
+      uses: tj-actions/changed-files@v41
       with:
         files: _data/iconsDownload/*
         base_sha: ${{ steps.last_successful_commit_push.outputs.base }}
@@ -53,7 +53,7 @@ jobs:
             else
               echo "Trying to download the image..."
               TARGET_FILE=icon
-              curl -Lo icon "https://cloudflare-ipfs.com/ipfs/$IPFS_HASH" 2>/dev/null
+              curl -Lo icon "https://dweb.link/ipfs/$IPFS_HASH" 2>/dev/null
             fi
 
             METADATA=$(exiftool $TARGET_FILE -json)
@@ -121,14 +121,14 @@ jobs:
 
     - name: Get changed files
       id: changed-files
-      uses: tj-actions/changed-files@v35
+      uses: tj-actions/changed-files@v41
       with:
         files: _data/*/*.json
         base_sha: ${{ steps.last_successful_commit_push.outputs.base }}
 
     - run: sudo npm i -g prettier
 
-    - name: Verify the changed icons
+    - name: Validate formatting
       if: steps.changed-files.outputs.any_changed == 'true'
       run: |
         set -euo pipefail

@@ -1,7 +1,8 @@
 {
   "name": "Boba Network Goerli Testnet",
   "chain": "ETH",
-  "rpc": ["https://goerli.boba.network/"],
+  "status": "deprecated",
+  "rpc": ["https://goerli.boba.network/", "wss://wss.goerli.boba.network/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Goerli Ether",
@@ -9,9 +10,10 @@
     "decimals": 18
   },
   "infoURL": "https://boba.network",
-  "shortName": "Bobagoerli",
+  "shortName": "BobaGoerli",
   "chainId": 2888,
   "networkId": 2888,
+  "slip44": 1,
   "explorers": [
     {
       "name": "Blockscout",
@@ -24,7 +26,7 @@
     "chain": "eip155-5",
     "bridges": [
       {
-        "url": "https://gateway.goerli.boba.network"
+        "url": "https://gateway.boba.network"
       }
     ]
   }

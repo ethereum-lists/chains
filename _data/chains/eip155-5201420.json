@@ -1,0 +1,26 @@
+{
+  "name": "Electroneum Testnet",
+  "chain": "Electroneum",
+  "rpc": ["https://testnet-rpc.electroneum.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Electroneum",
+    "symbol": "ETN",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://electroneum.com",
+  "shortName": "etn-testnet",
+  "chainId": 5201420,
+  "networkId": 5201420,
+  "slip44": 1,
+  "icon": "electroneum",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockexplorer.thesecurityteam.rocks",
+      "icon": "electroneum",
+      "standard": "EIP3091"
+    }
+  ]
+}

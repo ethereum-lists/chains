@@ -1,0 +1,29 @@
+{
+  "name": "Alterium L2 Testnet",
+  "chain": "ALT",
+  "icon": "alterium",
+  "rpc": ["https://l2-testnet-rpc.altscan.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Alterium ETH",
+    "symbol": "AltETH",
+    "decimals": 18
+  },
+  "infoURL": "https://alteriumprotocol.org",
+  "shortName": "alterium",
+  "chainId": 420692,
+  "networkId": 420692,
+  "slip44": 1,
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-5",
+    "bridges": [{ "url": "https://testnet-bridge.alteriumprotocol.org" }]
+  },
+  "explorers": [
+    {
+      "name": "Alterium L2 Testnet Explorer",
+      "url": "https://l2-testnet.altscan.org",
+      "standard": "EIP3091"
+    }
+  ]
+}

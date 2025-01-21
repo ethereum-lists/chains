@@ -1,0 +1,29 @@
+{
+  "name": "HYCHAIN Testnet",
+  "chainId": 29112,
+  "shortName": "hychain-testnet",
+  "chain": "ETH",
+  "networkId": 29112,
+  "nativeCurrency": {
+    "name": "TOPIA",
+    "symbol": "TOPIA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.hychain.com/http"],
+  "faucets": [],
+  "infoURL": "https://www.hychain.com",
+  "icon": "hychain",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://testnet.explorer.hychain.com",
+      "icon": "hychain",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-58008",
+    "bridges": []
+  }
+}

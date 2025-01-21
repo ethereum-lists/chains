@@ -2,10 +2,7 @@
   "name": "Lightlink Phoenix Mainnet",
   "chain": "Lightlink Phoenix Mainnet",
   "icon": "lightlink",
-  "rpc": [
-    "https://replicator-01.phoenix.lightlink.io/rpc/v1",
-    "https://replicator-02.phoenix.lightlink.io/rpc/v1"
-  ],
+  "rpc": ["https://replicator.phoenix.lightlink.io/rpc/v1"],
   "features": [
     {
       "name": "EIP155"

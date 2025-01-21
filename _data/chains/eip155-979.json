@@ -1,0 +1,23 @@
+{
+  "name": "EthXY Testnet",
+  "chain": "EthXY",
+  "rpc": ["https://rpc.testnet.ethxy.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Settled EthXY Token",
+    "symbol": "SEXY",
+    "decimals": 18
+  },
+  "icon": "sexyTestnet",
+  "infoURL": "https://ethxy.com",
+  "shortName": "sexyTestnet",
+  "chainId": 979,
+  "networkId": 979,
+  "explorers": [
+    {
+      "name": "EthXY Testnet Network Explorer",
+      "url": "https://explorer.testnet.ethxy.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

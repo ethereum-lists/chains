@@ -1,0 +1,23 @@
+{
+  "name": "Digit Soul Smart Chain 2",
+  "chain": "DS2",
+  "rpc": ["https://dgs-rpc.digitsoul.co.th"],
+  "faucets": [],
+  "icon": "pnet",
+  "nativeCurrency": {
+    "name": "Digit Coin",
+    "symbol": "DGC",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "DS2",
+  "chainId": 363636,
+  "networkId": 363636,
+  "explorers": [
+    {
+      "name": "Digit Soul Explorer",
+      "url": "https://dgs-exp.digitsoul.co.th",
+      "standard": "EIP3091"
+    }
+  ]
+}

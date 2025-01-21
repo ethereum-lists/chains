@@ -1,7 +1,7 @@
 {
   "name": "Camino C-Chain",
   "chain": "CAM",
-  "rpc": [],
+  "rpc": ["https://api.camino.network/ext/bc/C/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Camino",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "blockexplorer",
-      "url": "https://explorer.camino.foundation/mainnet",
+      "url": "https://suite.camino.network/explorer",
       "standard": "none"
     }
   ]

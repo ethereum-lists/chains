@@ -1,0 +1,43 @@
+{
+  "name": "World Chain",
+  "chain": "ETH",
+  "rpc": [
+    "https://worldchain-mainnet.g.alchemy.com/public",
+    "https://480.rpc.thirdweb.com",
+    "https://worldchain-mainnet.gateway.tenderly.co",
+    "wss://worldchain-mainnet.gateway.tenderly.co"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://world.org/world-chain",
+  "shortName": "wc",
+  "chainId": 480,
+  "networkId": 480,
+  "slip44": 1,
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [
+      { "url": "https://world-chain.superbridge.app" },
+      { "url": "https://app.across.to/bridge?destinationChainId=480" },
+      { "url": "https://worldchain-mainnet.bridge.alchemy.com" }
+    ]
+  },
+  "explorers": [
+    {
+      "name": "etherscan",
+      "url": "https://worldscan.org",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "blockscout",
+      "url": "https://worldchain-mainnet.explorer.alchemy.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

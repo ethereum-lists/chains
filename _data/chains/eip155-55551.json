@@ -1,0 +1,22 @@
+{
+  "name": "Photon Aurora Testnet",
+  "chain": "Photon",
+  "rpc": ["https://rpc-test2.photonchain.io"],
+  "faucets": ["https://photonchain.io/testnet2"],
+  "nativeCurrency": {
+    "name": "Photon",
+    "symbol": "PTON",
+    "decimals": 18
+  },
+  "infoURL": "https://photonchain.io",
+  "shortName": "pton",
+  "chainId": 55551,
+  "networkId": 55551,
+  "explorers": [
+    {
+      "name": "photon_testnet2_explorer",
+      "url": "https://testnet2.photonchain.io",
+      "standard": "none"
+    }
+  ]
+}

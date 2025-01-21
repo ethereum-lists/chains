@@ -1,0 +1,22 @@
+{
+  "name": "Waterfall 8 Test Network",
+  "chain": "Waterfall Testnet8",
+  "rpc": ["https://rpc.testnet8.waterfall.network/"],
+  "faucets": ["https://faucet.testnet8.waterfall.network"],
+  "nativeCurrency": {
+    "name": "WATER",
+    "symbol": "WATER",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://waterfall.network",
+  "shortName": "waterfall",
+  "chainId": 8601152,
+  "networkId": 8601152,
+  "icon": "waterfall",
+  "explorers": []
+}

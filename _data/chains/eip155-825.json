@@ -1,0 +1,23 @@
+{
+  "name": "Daily Network Testnet",
+  "chain": "Daily Network",
+  "icon": "daily",
+  "rpc": ["https://rpc.testnet.dailycrypto.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Daily",
+    "symbol": "DLY",
+    "decimals": 18
+  },
+  "infoURL": "https://dailycrypto.net",
+  "shortName": "tdly",
+  "chainId": 825,
+  "networkId": 825,
+  "explorers": [
+    {
+      "name": "Daily Testnet Explorer",
+      "url": "https://explorer.testnet.dailycrypto.net",
+      "standard": "none"
+    }
+  ]
+}

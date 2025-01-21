@@ -4,14 +4,15 @@
   "rpc": ["https://rpc.testnet.mantle.xyz"],
   "faucets": ["https://faucet.testnet.mantle.xyz"],
   "nativeCurrency": {
-    "name": "Testnet BitDAO",
-    "symbol": "BIT",
+    "name": "Testnet Mantle",
+    "symbol": "MNT",
     "decimals": 18
   },
   "infoURL": "https://mantle.xyz",
   "shortName": "mantle-testnet",
   "chainId": 5001,
   "networkId": 5001,
+  "slip44": 1,
   "explorers": [
     {
       "name": "Mantle Testnet Explorer",
