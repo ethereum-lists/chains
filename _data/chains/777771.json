@@ -1,0 +1,19 @@
+{
+  "name": "Goldchain",
+  "chainId": 777771,
+  "networkId": 777771,
+  "rpc": ["https://rpc.goldchain.tech"],
+  "nativeCurrency": {
+    "name": "BAIT Coin",
+    "symbol": "BAIT",
+    "decimals": 18
+  },
+  "explorers": [
+    {
+      "name": "Goldchain Explorer",
+      "url": "https://explorer.goldchain.tech",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://goldchain.tech"
+}
