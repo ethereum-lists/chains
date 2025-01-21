@@ -1,0 +1,27 @@
+{
+  "name": "Aleph Zero EVM",
+  "chain": "Aleph Zero EVM",
+  "icon": "aleph-zero",
+  "rpc": [
+    "https://rpc.alephzero.raas.gelato.cloud",
+    "wss://ws.alephzero.raas.gelato.cloud"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Aleph Zero",
+    "symbol": "AZERO",
+    "decimals": 18
+  },
+  "infoURL": "https://alephzero.org/",
+  "shortName": "aleph-zero",
+  "chainId": 41455,
+  "networkId": 41455,
+  "explorers": [
+    {
+      "name": "Aleph Zero EVM Mainnet Explorer",
+      "url": "https://evm-explorer.alephzero.org",
+      "icon": "aleph-zero",
+      "standard": "none"
+    }
+  ]
+}

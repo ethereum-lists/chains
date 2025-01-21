@@ -1,7 +1,11 @@
 {
   "name": "Manta Pacific Mainnet",
   "chain": "Manta Pacific",
-  "rpc": ["https://pacific-rpc.manta.network/http"],
+  "rpc": [
+    "https://pacific-rpc.manta.network/http",
+    "https://manta-pacific.drpc.org",
+    "wss://manta-pacific.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

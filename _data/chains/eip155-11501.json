@@ -1,0 +1,28 @@
+{
+  "name": "BEVM Mainnet",
+  "chain": "BEVM",
+  "rpc": ["https://rpc-mainnet-1.bevm.io/", "https://rpc-mainnet-2.bevm.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://bevm.io",
+  "shortName": "bevm",
+  "chainId": 11501,
+  "networkId": 11501,
+  "icon": "bevm",
+  "explorers": [
+    {
+      "name": "bevm mainnet scan",
+      "url": "https://scan-mainnet.bevm.io",
+      "standard": "none"
+    },
+    {
+      "name": "bevm mainnet oklink",
+      "url": "https://www.oklink.com/bevm",
+      "standard": "none"
+    }
+  ]
+}

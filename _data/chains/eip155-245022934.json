@@ -1,7 +1,11 @@
 {
   "name": "Neon EVM Mainnet",
   "chain": "Solana",
-  "rpc": ["https://neon-proxy-mainnet.solana.p2p.org"],
+  "rpc": [
+    "https://neon-proxy-mainnet.solana.p2p.org",
+    "https://neon-evm.drpc.org",
+    "wss://neon-evm.drpc.org"
+  ],
   "faucets": [],
   "icon": "neon",
   "nativeCurrency": {

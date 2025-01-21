@@ -4,7 +4,9 @@
   "rpc": [
     "https://evm.testnet.kava.io",
     "https://kava-evm-testnet.rpc.thirdweb.com",
-    "wss://wevm.testnet.kava.io"
+    "wss://wevm.testnet.kava.io",
+    "https://kava-testnet.drpc.org",
+    "wss://kava-testnet.drpc.org"
   ],
   "faucets": ["https://faucet.kava.io"],
   "nativeCurrency": {

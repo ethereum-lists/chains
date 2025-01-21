@@ -1,7 +1,11 @@
 {
   "name": "Fraxtal",
   "chain": "FRAX",
-  "rpc": ["https://rpc.frax.com"],
+  "rpc": [
+    "https://rpc.frax.com",
+    "https://fraxtal-rpc.publicnode.com",
+    "wss://fraxtal-rpc.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Frax Ether",
@@ -12,6 +16,7 @@
   "shortName": "fraxtal",
   "chainId": 252,
   "networkId": 252,
+  "icon": "fraxtal",
   "explorers": [
     {
       "name": "fraxscan",

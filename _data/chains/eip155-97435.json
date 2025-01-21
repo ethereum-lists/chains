@@ -1,0 +1,25 @@
+{
+  "name": "SlingShot Testnet",
+  "chain": "SLING",
+  "rpc": ["https://rpc-dependent-emerald-whippet-gh6kch3nen.t.conduit.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sling Test",
+    "symbol": "SLINGT",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://slingshotdao.com",
+  "shortName": "sling",
+  "chainId": 97435,
+  "networkId": 97435,
+  "icon": "slingshot",
+  "explorers": [
+    {
+      "name": "SlingShot Test Explorer",
+      "url": "https://explorer-dependent-emerald-whippet-gh6kch3nen.t.conduit.xyz",
+      "icon": "slingshot",
+      "standard": "EIP3091"
+    }
+  ]
+}
