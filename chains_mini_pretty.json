@@ -7331,6 +7331,19 @@
   "faucets": [],
   "infoURL": "https://devolvedai.com"
 }, {
+  "name": "Glue Mainnet",
+  "chainId": 1300,
+  "shortName": "glue",
+  "networkId": 1300,
+  "nativeCurrency": {
+    "name": "Glue",
+    "symbol": "GLUE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.glue.net"],
+  "faucets": [],
+  "infoURL": "https://glue.net/"
+}, {
   "name": "Unichain Sepolia Testnet",
   "chainId": 1301,
   "shortName": "unichain-sep",
