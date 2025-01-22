@@ -26238,7 +26238,7 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "eGoldChain",
+  "name": "eGold Chain",
   "chain": "EGC",
   "icon": "egoldchain",
   "rpc": ["https://rpc.egoldchain.com", "wss://rpc.egoldchain.com"],
@@ -26253,7 +26253,7 @@
   "chainId": 11451,
   "networkId": 11451,
   "explorers": [{
-    "name": "eGoldChain Block Explorer",
+    "name": "eGold Chain Block Explorer",
     "url": "https://egoldscan.io",
     "standard": "none",
     "icon": "egoldchain"
@@ -36642,7 +36642,7 @@
     }]
   }
 }, {
-  "name": "eGoldChain Testnet",
+  "name": "eGold Chain Testnet",
   "chain": "EGC",
   "icon": "egoldchain",
   "rpc": ["https://rpc-testnet.egoldchain.com", "wss://rpc-testnet.egoldchain.com"],
@@ -36657,7 +36657,7 @@
   "chainId": 111451,
   "networkId": 111451,
   "explorers": [{
-    "name": "eGoldChain Block Explorer",
+    "name": "eGold Chain Block Explorer",
     "url": "http://testnet.egoldscan.io",
     "standard": "none",
     "icon": "egoldchain"
