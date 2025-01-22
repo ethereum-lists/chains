@@ -9879,6 +9879,19 @@
   "faucets": [],
   "infoURL": "https://kroma.network"
 }, {
+  "name": "KiteAI Testnet",
+  "chainId": 2368,
+  "shortName": "KiteAI",
+  "networkId": 1,
+  "nativeCurrency": {
+    "name": "Kite",
+    "symbol": "KITE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.gokite.ai"],
+  "faucets": ["https://faucet.gokite.ai/"],
+  "infoURL": "https://gokite.ai/"
+}, {
   "name": "Nexis Network Testnet",
   "chainId": 2370,
   "shortName": "nzt",
