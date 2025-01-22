@@ -2937,6 +2937,19 @@
   "faucets": [],
   "infoURL": "https://docs.blastblockchain.com"
 }, {
+  "name": "TAC Mainnet",
+  "chainId": 239,
+  "shortName": "tac",
+  "networkId": 239,
+  "nativeCurrency": {
+    "name": "TAC",
+    "symbol": "TAC",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://tac.build/"
+}, {
   "name": "Cronos zkEVM Testnet",
   "chainId": 240,
   "shortName": "zkTCRO",
@@ -9904,6 +9917,19 @@
   "rpc": ["https://evm-testnet.nexis.network"],
   "faucets": ["https://evm-faucet.nexis.network"],
   "infoURL": "https://nexis.network/"
+}, {
+  "name": "TAC Turin",
+  "chainId": 2390,
+  "shortName": "tacchain_2390-1",
+  "networkId": 2390,
+  "nativeCurrency": {
+    "name": "TAC",
+    "symbol": "TAC",
+    "decimals": 18
+  },
+  "rpc": ["https://turin.rpc.tac.build", "https://rpc.ankr.com/tac_turin", "https://turin-ws.rpc.tac.build"],
+  "faucets": ["https://turin.faucet.tac.build/"],
+  "infoURL": "https://tac.build/"
 }, {
   "name": "BOMB Chain Testnet",
   "chainId": 2399,
