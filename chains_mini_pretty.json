@@ -24101,6 +24101,19 @@
   "faucets": [],
   "infoURL": "https://www.autonomys.xyz"
 }, {
+  "name": "PUMPFI CHAIN TESTNET",
+  "chainId": 490092,
+  "shortName": "pumpfi-testnet",
+  "networkId": 490092,
+  "nativeCurrency": {
+    "name": "PMPT",
+    "symbol": "PMPT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1testnet.pumpfi.me"],
+  "faucets": ["https://faucet.pumpfi.me"],
+  "infoURL": "https://pumpfi.me"
+}, {
   "name": "Playdapp Network",
   "chainId": 504441,
   "shortName": "PDA",
