@@ -5017,6 +5017,19 @@
   "faucets": [],
   "infoURL": "https://vrccoin.com"
 }, {
+  "name": "UXLINK ONE Mainnet",
+  "chainId": 718,
+  "shortName": "uxlink1",
+  "networkId": 718,
+  "nativeCurrency": {
+    "name": "UXLINK",
+    "symbol": "UXLINK",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.uxlinkone.com"],
+  "faucets": [],
+  "infoURL": "https://www.uxlinkone.com"
+}, {
   "name": "Shibarium Beta",
   "chainId": 719,
   "shortName": "shibarium",
