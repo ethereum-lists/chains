@@ -18810,6 +18810,19 @@
   "faucets": [],
   "infoURL": "https://protocolmonsterlabs.com/pmon-chain"
 }, {
+  "name": "Donatuz",
+  "chainId": 42026,
+  "shortName": "donatuz",
+  "networkId": 42026,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.donatuz.com"],
+  "faucets": [],
+  "infoURL": "https://www.donatuz.com"
+}, {
   "name": "pegglecoin",
   "chainId": 42069,
   "shortName": "PC",
