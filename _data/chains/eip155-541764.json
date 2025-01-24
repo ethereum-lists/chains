@@ -2,7 +2,7 @@
   "name": "OverProtocol Testnet",
   "chain": "OverProtocol",
   "icon": "overIcon",
-  "rpc": ["https://wallet-dolphin.rpc.over.network"],
+  "rpc": ["https://rpc.dolphin.overprotocol.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Over",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "OverView Testnet",
-      "url": "https://dolphin.view.over.network",
+      "url": "https://dolphin-scan.over.network",
       "standard": "EIP3091"
     }
   ]
