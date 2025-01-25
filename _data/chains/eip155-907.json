@@ -1,0 +1,31 @@
+{
+  "name": "IP TestChain",
+  "chain": "IPCT",
+  "icon": "ipchain",
+  "rpc": [
+    "https://test.ipchain.ai/rpc",
+    "https://test.openlicense.ai/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "IP Royalty TCoin",
+    "symbol": "IPRT",
+    "decimals": 18
+  },
+  "infoURL": "https://ipchain.ai",
+  "shortName": "ipc",
+  "chainId": 906,
+  "networkId": 906,
+  "explorers": [
+    {
+      "name": "ipchain",
+      "url": "https://ipchain.ai",
+      "standard": "none"
+    },
+    {
+      "name": "openlicense",
+      "url": "https://blockchain.openlicense.ai",
+      "standard": "none"
+    }
+  ]
+}

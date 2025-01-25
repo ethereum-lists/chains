@@ -1,0 +1,26 @@
+{
+  "name": "IP Chain",
+  "chain": "IPC",
+  "icon": "ipchain",
+  "rpc": [
+    "https://ipchain.ai/rpc",
+    "https://openlicense.ai/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "IP Royalty Coin",
+    "symbol": "IPR",
+    "decimals": 18
+  },
+  "infoURL": "https://ipchain.ai",
+  "shortName": "ipc",
+  "chainId": 906,
+  "networkId": 906,
+  "explorers": [
+    {
+      "name": "ipchain",
+      "url": "https://ipchain.ai",
+      "standard": "none"
+    }
+  ]
+}
