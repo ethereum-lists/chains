@@ -3,7 +3,9 @@
   "title": "Haust Network Testnet",
   "chain": "haust-network-testnet",
   "rpc": ["https://rpc-testnet.haust.app"],
+  "features": [{ "name": "EIP155" }],
   "faucets": ["https://faucet.haust.app"],
+  "status": "active",
   "nativeCurrency": {
     "name": "HAUST",
     "symbol": "HAUST",
@@ -26,7 +28,5 @@
     "type": "L2",
     "chain": "eip155-11155111",
     "bridges": [{ "url": "https://bridge-testnet.haust.app" }]
-  },
-  "features": [{ "name": "EIP155" }],
-  "status": "active"
+  }
 }
