@@ -17393,6 +17393,19 @@
   "faucets": [],
   "infoURL": "https://bitcolojix.org"
 }, {
+  "name": "Ultra EVM Network",
+  "chainId": 19991,
+  "shortName": "ultra",
+  "networkId": 19991,
+  "nativeCurrency": {
+    "name": "Ultra Token",
+    "symbol": "UOS",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.ultra.eosusa.io"],
+  "faucets": [],
+  "infoURL": "https://ultra.io"
+}, {
   "name": "Camelark Mainnet",
   "chainId": 20001,
   "shortName": "Camelark",
