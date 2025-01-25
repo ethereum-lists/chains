@@ -27637,6 +27637,19 @@
   "faucets": ["https://sfuel.dirtroad.dev/staging"],
   "infoURL": ""
 }, {
+  "name": "Haust Network Testnet",
+  "chainId": 1523903251,
+  "shortName": "HaustTestnet",
+  "networkId": 1523903251,
+  "nativeCurrency": {
+    "name": "HAUST",
+    "symbol": "HAUST",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.haust.app"],
+  "faucets": ["https://faucet.haust.app"],
+  "infoURL": "https://haust.network/"
+}, {
   "name": "SKALE Calypso Hub",
   "chainId": 1564830818,
   "shortName": "calypso-mainnet",
