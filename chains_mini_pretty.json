@@ -12518,6 +12518,19 @@
   "faucets": ["https://faucet.tritanium.network"],
   "infoURL": "https://tritanium.network"
 }, {
+  "name": "Settlus",
+  "chainId": 5371,
+  "shortName": "setl",
+  "networkId": 5371,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://settlus.org"
+}, {
   "name": "Settlus Testnet",
   "chainId": 5372,
   "shortName": "settlus-testnet",
@@ -12527,8 +12540,8 @@
     "symbol": "SETL",
     "decimals": 18
   },
-  "rpc": ["https://settlus-test-eth.settlus.io"],
-  "faucets": ["https://faucet.settlus.io"],
+  "rpc": [],
+  "faucets": [],
   "infoURL": "https://settlus.org"
 }, {
   "name": "Settlus Sepolia Testnet",
@@ -12540,7 +12553,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://settlus-septestnet.g.alchemy.com/public"],
   "faucets": [],
   "infoURL": "https://settlus.org"
 }, {

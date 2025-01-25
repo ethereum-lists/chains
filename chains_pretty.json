@@ -20513,10 +20513,30 @@
     "standard": "none"
   }]
 }, {
+  "name": "Settlus",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://settlus.org",
+  "shortName": "setl",
+  "chainId": 5371,
+  "networkId": 5371,
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  },
+  "status": "incubating"
+}, {
   "name": "Settlus Testnet",
   "chain": "Settlus",
-  "rpc": ["https://settlus-test-eth.settlus.io"],
-  "faucets": ["https://faucet.settlus.io"],
+  "rpc": [],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Setl",
     "symbol": "SETL",
@@ -20526,15 +20546,11 @@
   "shortName": "settlus-testnet",
   "chainId": 5372,
   "networkId": 5372,
-  "explorers": [{
-    "name": "Settlus Scan",
-    "url": "https://testnet.settlus.network",
-    "standard": "EIP3091"
-  }]
+  "status": "deprecated"
 }, {
   "name": "Settlus Sepolia Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": ["https://settlus-septestnet.g.alchemy.com/public"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
@@ -20548,9 +20564,16 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": []
+    "bridges": [{
+      "url": "https://settlus-sep-testnet.bridge.alchemy.com/"
+    }]
   },
-  "status": "incubating"
+  "explorers": [{
+    "name": "Settlus Sepolia Testnet Explorer",
+    "url": "https://settlus-sepolia-testnet.explorer.alchemy.com",
+    "standard": "EIP3091"
+  }],
+  "status": "active"
 }, {
   "name": "edeXa Mainnet",
   "chain": "edeXa Network",
