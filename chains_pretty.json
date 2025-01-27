@@ -25562,6 +25562,20 @@
     "standard": "none"
   }]
 }, {
+  "name": "Chain Opera Testnet",
+  "chain": "Chain Opera Testnet",
+  "rpc": ["http://40.78.123.6:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "coai",
+    "symbol": "CO",
+    "decimals": 18
+  },
+  "infoURL": "https://chainopera.ai/",
+  "shortName": "chainopera-testnet",
+  "chainId": 10066,
+  "networkId": 10066
+}, {
   "name": "Japan Open Chain Testnet",
   "chain": "JOCT",
   "rpc": ["https://rpc-1.testnet.japanopenchain.org:8545", "https://rpc-2.testnet.japanopenchain.org:8545", "https://rpc-3.testnet.japanopenchain.org"],

@@ -15638,6 +15638,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Chain Opera Testnet",
+  "chainId": 10066,
+  "shortName": "chainopera-testnet",
+  "networkId": 10066,
+  "nativeCurrency": {
+    "name": "coai",
+    "symbol": "CO",
+    "decimals": 18
+  },
+  "rpc": ["http://40.78.123.6:8545"],
+  "faucets": [],
+  "infoURL": "https://chainopera.ai/"
+}, {
   "name": "Japan Open Chain Testnet",
   "chainId": 10081,
   "shortName": "joct",
