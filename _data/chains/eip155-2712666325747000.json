@@ -1,0 +1,25 @@
+{
+  "name": "Riftwalkers",
+  "title": "Riftwalkers",
+  "chain": "riftwalkers",
+  "icon": "riftwalkers",
+  "rpc": ["https://riftwalkers-2712666325747000-1.jsonrpc.sagarpc.io"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "RWAL",
+    "symbol": "RWAL",
+    "decimals": 18
+  },
+  "infoURL": "https://www.saga.xyz/",
+  "shortName": "riftwalkers",
+  "chainId": 2712666325747000,
+  "networkId": 2712666325747000,
+  "explorers": [
+    {
+      "name": "riftwalkers scan",
+      "url": "https://riftwalkers-2712666325747000-1.sagaexplorer.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
