@@ -28,6 +28,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": ["https://portal.mainnet.abs.xyz/bridge"]
+    "bridges": [
+      {
+        "url": "https://portal.mainnet.abs.xyz/bridge"
+      }
+    ]
   }
 }
