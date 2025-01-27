@@ -1,0 +1,23 @@
+{
+  "name": "Story Homer Testnet",
+  "chain": "Story Homer Testnet",
+  "rpc": ["https://devnet.storyrpc.io."],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "IP Token",
+    "symbol": "IP",
+    "decimals": 18
+  },
+  "infoURL": "https://story.foundation/",
+  "icon": "story",
+  "shortName": "styhmt",
+  "chainId": 1315,
+  "networkId": 1315,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://devnet.storyscan.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
