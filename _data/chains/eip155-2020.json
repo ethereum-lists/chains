@@ -1,23 +1,23 @@
 {
-  "name": "PublicMint Mainnet",
-  "title": "Public Mint Mainnet",
-  "chain": "PublicMint",
-  "rpc": ["https://rpc.publicmint.io:8545"],
+  "name": "Ronin Mainnet",
+  "title": "Ronin",
+  "chain": "ronin",
+  "rpc": ["https://api.roninchain.com/rpc"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "USD",
-    "symbol": "USD",
+    "name": "RON",
+    "symbol": "RON",
     "decimals": 18
   },
-  "infoURL": "https://publicmint.com",
-  "shortName": "pmint",
+  "infoURL": "https://roninchain.com",
+  "shortName": "ron",
   "chainId": 2020,
   "networkId": 2020,
-  "slip44": 60,
+  "redFlags": ["reusedChainId"],
   "explorers": [
     {
-      "name": "PublicMint Explorer",
-      "url": "https://explorer.publicmint.io",
+      "name": "Ronin Block Explorer",
+      "url": "https://app.roninchain.com",
       "standard": "EIP3091"
     }
   ]
