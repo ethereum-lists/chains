@@ -9060,18 +9060,18 @@
   "faucets": [],
   "infoURL": "https://publicmint.com"
 }, {
-  "name": "PublicMint Mainnet",
+  "name": "Ronin Mainnet",
   "chainId": 2020,
-  "shortName": "pmint",
+  "shortName": "ron",
   "networkId": 2020,
   "nativeCurrency": {
-    "name": "USD",
-    "symbol": "USD",
+    "name": "RON",
+    "symbol": "RON",
     "decimals": 18
   },
-  "rpc": ["https://rpc.publicmint.io:8545"],
+  "rpc": ["https://api.roninchain.com/rpc"],
   "faucets": [],
-  "infoURL": "https://publicmint.com"
+  "infoURL": "https://roninchain.com"
 }, {
   "name": "Edgeware EdgeEVM Mainnet",
   "chainId": 2021,
