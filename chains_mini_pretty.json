@@ -23230,6 +23230,19 @@
   "faucets": [],
   "infoURL": "https://www.tafchain.com"
 }, {
+  "name": "CONET Mainnet",
+  "chainId": 224400,
+  "shortName": "conet-mainnet",
+  "networkId": 224400,
+  "nativeCurrency": {
+    "name": "CONET ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.conet.network"],
+  "faucets": [],
+  "infoURL": "https://conet.network"
+}, {
   "name": "CONET Sebolia Testnet",
   "chainId": 224422,
   "shortName": "conet-sebolia",
