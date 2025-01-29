@@ -7409,6 +7409,19 @@
   "faucets": [],
   "infoURL": "https://www.alyxchain.com"
 }, {
+  "name": "Story Homer Testnet",
+  "chainId": 1315,
+  "shortName": "styhmt",
+  "networkId": 1315,
+  "nativeCurrency": {
+    "name": "IP Token",
+    "symbol": "IP",
+    "decimals": 18
+  },
+  "rpc": ["https://devnet.storyrpc.io."],
+  "faucets": [],
+  "infoURL": "https://story.foundation/"
+}, {
   "name": "AIA Mainnet",
   "chainId": 1319,
   "shortName": "aia",
