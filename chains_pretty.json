@@ -23336,6 +23336,7 @@
 }, {
   "name": "Bitcoin Chain",
   "chain": "BTC",
+  "icon": "BTCChain",
   "rpc": ["https://rpc.bitcoinevm.org"],
   "faucets": [],
   "nativeCurrency": {
@@ -23351,6 +23352,7 @@
 }, {
   "name": "E-Dollar",
   "chain": "USD",
+  "icon": "edollar",
   "rpc": ["https://rpc.e-dollar.org"],
   "faucets": [],
   "nativeCurrency": {
