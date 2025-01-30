@@ -2,8 +2,8 @@
   "name": "OFFICIAL VASYL TESTNET",
   "title": "OFFICIAL VASYL TESTNET",
   "chain": "Official-Vasyl",
-  "rpc": ["https://rpc.official-vasyl.network/"],
-  "faucets": ["https://faucet.official-vasyl.network/"],
+  "rpc": ["https://rpc.official-vasyl.network"],
+  "faucets": ["https://faucet.official-vasyl.network"],
   "nativeCurrency": {
     "name": "OFFICIAL VASYL",
     "symbol": "VASYL",
@@ -17,7 +17,7 @@
   "explorers": [
     {
       "name": "Official Vasyl Explorer",
-      "url": "https://explorer.official-vasyl.network/",
+      "url": "https://explorer.official-vasyl.network",
       "icon": "vasyl",
       "standard": "EIP3091"
     }
@@ -25,7 +25,7 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://bridge.official-vasyl.network/" }]
+    "bridges": [{ "url": "https://bridge.official-vasyl.network" }]
   },
   "features": [{ "name": "EIP155" }],
   "status": "active"
