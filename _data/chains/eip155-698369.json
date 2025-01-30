@@ -1,28 +1,15 @@
 {
-    "name": "PrimeaChain",
-    "chainId": 698369,
-    "shortName": "PRIM",
-    "networkId": 698369,
-    "slip44": 698369,
-    "nativeCurrency": {
-      "name": "PrimeaCoin",
-      "symbol": "PRIM",
-      "decimals": 18
-    },
-    "rpc": [
-      "https://rpc.primea.network",
-      "https://node1.primea.network"
-    ],
-    "faucets": [
-      "https://faucet.primea.network"
-    ],
-    "infoURL": "https://primea.network",
-    "explorers": [
-      {
-        "name": "PrimeaScan",
-        "url": "https://explorer.primea.network",
-        "standard": "EIP3091"
-      }
-    ]
-  }
-  
+  "name": "PrimeaChain",
+  "chainId": 698369,
+  "shortName": "PRIM",
+  "networkId": 698369,
+  "slip44": 698369,
+  "nativeCurrency": {
+    "name": "PrimeaCoin",
+    "symbol": "PRIM",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://primeanetwork.com"
+}
