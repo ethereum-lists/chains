@@ -1,0 +1,31 @@
+{
+  "name": "Smart Pay Mobile Money",
+  "chain": "Mobile Money",
+  "rpc": [
+    "https://network.uat.smartmoneyewallet.com/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SmartPay Mobile Money",
+    "symbol": "Mobile Money",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "infoURL": "https://network.uat.smartmoneyewallet.com/",
+  "shortName": "Smart pay",
+  "chainId": 666301179999,
+  "networkId": 666301179999,
+  "icon": "smartpay",
+  "explorers": [
+    {
+      "name": "SmartPay Explorer",
+      "url": "https://explorer.network.uat.smartmoneyewallet.com/",
+      "icon": "smartpay",
+      "standard": "EIP3091"
+    }
+  ]
+}
