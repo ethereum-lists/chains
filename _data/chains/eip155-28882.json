@@ -21,14 +21,14 @@
 
   "explorers": [
     {
-      "name": "Bobascan",
+      "name": "Routescan",
       "url": "https://testnet.bobascan.com",
       "standard": "none"
     }
   ],
   "parent": {
     "type": "L2",
-    "chain": "eip155-1",
-    "bridges": [{ "url": "https://gateway.boba.network" }]
+    "chain": "eip155-11155111",
+    "bridges": []
   }
 }
