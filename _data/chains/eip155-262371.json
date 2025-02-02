@@ -1,0 +1,23 @@
+{
+  "name": "Eclat Testnet",
+  "chain": "Eclat",
+  "icon": "eclat",
+  "rpc": ["https://testnet-rpc.eclatscan.com"],
+  "faucets": ["https://faucet.eclatscan.com"],
+  "nativeCurrency": {
+    "name": "Eclat Testnet",
+    "symbol": "ECLAT",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet-explorer.eclatscan.com",
+  "shortName": "tECLAT",
+  "chainId": 262371,
+  "networkId": 262371,
+  "explorers": [
+    {
+      "name": "Eclat Testnet Explorer",
+      "url": "https://testnet-explorer.eclatscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

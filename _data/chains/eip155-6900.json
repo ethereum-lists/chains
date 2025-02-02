@@ -1,0 +1,17 @@
+{
+  "name": "Nibiru Mainnet",
+  "chain": "Nibiru",
+  "rpc": ["https://evm-rpc.nibiru.fi"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NIBI",
+    "symbol": "NIBI",
+    "decimals": 18
+  },
+  "infoURL": "https://nibiru.fi",
+  "shortName": "cataclysm-1",
+  "chainId": 6900,
+  "networkId": 6900,
+  "icon": "nibiru",
+  "explorers": []
+}

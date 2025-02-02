@@ -1,0 +1,33 @@
+{
+  "name": "Plume Devnet",
+  "title": "Plume Sepolia L2 Rollup Devnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://test-rpc.plumenetwork.xyz",
+    "wss://test-rpc.plumenetwork.xyz"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Plume Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://plumenetwork.xyz/",
+  "shortName": "plume-devnet",
+  "chainId": 98864,
+  "networkId": 98864,
+  "slip44": 1,
+  "icon": "plume",
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://test-explorer.plumenetwork.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  }
+}

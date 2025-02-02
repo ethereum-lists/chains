@@ -4,7 +4,10 @@
   "icon": "zetachain",
   "rpc": [
     "https://zetachain-evm.blockpi.network/v1/rpc/public",
-    "https://zetachain-mainnet-archive.allthatnode.com:8545"
+    "https://zetachain-mainnet.g.allthatnode.com/archive/evm",
+    "https://zeta-chain.drpc.org",
+    "https://zetachain-mainnet.public.blastapi.io",
+    "https://7000.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,7 +23,7 @@
   "explorers": [
     {
       "name": "ZetaChain Mainnet Explorer",
-      "url": "https://explorer.mainnet.zetachain.com",
+      "url": "https://explorer.zetachain.com",
       "standard": "none"
     }
   ]

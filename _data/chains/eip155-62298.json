@@ -1,0 +1,25 @@
+{
+  "name": "Citrea Devnet",
+  "chain": "Citrea",
+  "rpc": ["https://rpc.devnet.citrea.xyz"],
+  "faucets": ["https://citrea.xyz/bridge"],
+  "nativeCurrency": {
+    "name": "Citrea BTC",
+    "symbol": "cBTC",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://citrea.xyz",
+  "shortName": "citrea-devnet",
+  "chainId": 62298,
+  "networkId": 62298,
+  "icon": "citrea",
+  "explorers": [
+    {
+      "name": "Citrea Devnet Explorer",
+      "url": "https://explorer.devnet.citrea.xyz",
+      "icon": "citrea",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Xone Testnet",
+  "chain": "XOC",
+  "icon": "xone-test",
+  "rpc": [
+    "https://rpc-testnet.xone.plus",
+    "https://rpc-testnet.xone.org",
+    "https://rpc-testnet.knight.center"
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": ["https://faucet.xone.plus/"],
+  "nativeCurrency": {
+    "name": "Xone Coin",
+    "symbol": "XOC",
+    "decimals": 18
+  },
+  "infoURL": "https://xone.plus",
+  "shortName": "txoc",
+  "chainId": 33772211,
+  "networkId": 33772211,
+  "explorers": [
+    {
+      "name": "testnet-xscscan",
+      "url": "https://testnet.xscscan.com",
+      "icon": "testnet-xscscan",
+      "standard": "EIP3091"
+    }
+  ]
+}

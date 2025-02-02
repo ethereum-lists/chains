@@ -1,8 +1,9 @@
 {
   "name": "Lisk Sepolia Testnet",
   "chain": "ETH",
+  "icon": "lisk",
   "rpc": ["https://rpc.sepolia-api.lisk.com"],
-  "faucets": [],
+  "faucets": ["https://app.optimism.io/faucet"],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
