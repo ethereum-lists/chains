@@ -1,7 +1,7 @@
 {
   "name": "Wikiwoop",
   "chain": "wikiwoop",
-  "icon": "wikiwoop.png",
+  "namespace": "EIP155",
   "rpc": ["https://rpc.wikiwoop.com"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
