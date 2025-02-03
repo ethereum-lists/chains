@@ -22411,6 +22411,19 @@
   "faucets": [],
   "infoURL": "https://metadap.io/"
 }, {
+  "name": "Fushuma",
+  "chainId": 121224,
+  "shortName": "fushuma",
+  "networkId": 121224,
+  "nativeCurrency": {
+    "name": "FUSHUMA",
+    "symbol": "FUMA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.fushuma.com"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Gemchain",
   "chainId": 123321,
   "shortName": "gemchain",

@@ -36894,6 +36894,28 @@
     "standard": "none"
   }]
 }, {
+  "name": "Fushuma",
+  "chain": "Fushuma",
+  "rpc": ["https://rpc.fushuma.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FUSHUMA",
+    "symbol": "FUMA",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "",
+  "shortName": "fushuma",
+  "chainId": 121224,
+  "networkId": 121224,
+  "explorers": [{
+    "name": "FumaScan",
+    "url": "https://fumascan.com",
+    "standard": "none"
+  }]
+}, {
   "name": "Gemchain",
   "chain": "Gemchain",
   "rpc": ["https://evm-rpc.gemchain.org"],
