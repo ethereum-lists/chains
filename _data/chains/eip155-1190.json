@@ -1,0 +1,23 @@
+{
+  "name": "AIEAGLE",
+  "chain": "AIEAGLE",
+  "rpc": ["https://rpc.aieglescan.com"],
+  "faucets": [],
+  "icon": "eia",
+  "nativeCurrency": {
+    "name": "AIEAGALE",
+    "symbol": "EIA",
+    "decimals": 18
+  },
+  "infoURL": "https://aieaglechain.com",
+  "shortName": "eia",
+  "chainId": 1190,
+  "networkId": 1190,
+  "explorers": [
+    {
+      "name": "AIEAGLE Explorer",
+      "url": "https://aieglescan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
