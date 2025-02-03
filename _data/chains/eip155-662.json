@@ -19,5 +19,6 @@
       "url": "https://scan.amaxchain.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "redFlags": ["reusedChainId"]
 }
