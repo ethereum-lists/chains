@@ -1,9 +1,7 @@
 {
   "name": "Primea Chain",
   "chain": "Primea Chain",
-  "rpc": [
-    "https://rpc.primeanetwork.com"
-  ],
+  "rpc": ["https://rpc.primeanetwork.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "PrimeaCoin",
@@ -23,4 +21,5 @@
       "standard": "EIP3091"
     }
   ]
+
 }
