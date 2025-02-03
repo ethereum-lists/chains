@@ -27338,7 +27338,7 @@
   "faucets": ["https://sfuel.dirtroad.dev/staging"],
   "infoURL": "https://europahub.network/"
 }, {
-  "name": "Skopje Testnet",
+  "name": "GPT Testnet",
   "chainId": 476462898,
   "shortName": "Skopje",
   "networkId": 476462898,
@@ -27347,8 +27347,8 @@
     "symbol": "SkpGPT",
     "decimals": 18
   },
-  "rpc": ["https://skopje-rpc.gptprotocol.io"],
-  "faucets": ["https://skopje-faucet.gptprotocol.io"],
+  "rpc": ["https://testnet-rpc.gptprotocol.io"],
+  "faucets": ["https://testnet-faucet.gptprotocol.io"],
   "infoURL": "https://gptprotocol.com"
 }, {
   "name": "Gather Devnet Network",
