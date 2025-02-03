@@ -1,6 +1,6 @@
 {
-  "name": "Openledger Testnet",
-  "chain": "Openledger Testnet",
+  "name": "OpenLedger Testnet",
+  "chain": "OpenLedger Testnet",
   "rpc": ["https://rpctn.openledger.xyz"],
   "faucets": [],
   "nativeCurrency": {
@@ -15,7 +15,7 @@
   "icon": "openledger",
   "explorers": [
     {
-      "name": "Openledger Testnet Explorer",
+      "name": "OpenLedger Testnet Explorer",
       "url": "https://scantn.openledger.xyz",
       "standard": "EIP3091"
     }
