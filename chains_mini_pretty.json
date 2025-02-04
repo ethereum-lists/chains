@@ -6252,12 +6252,12 @@
   "faucets": [],
   "infoURL": "https://evrice.com"
 }, {
-  "name": "Rebus Mainnet",
+  "name": "Rebus Classic Mainnet",
   "chainId": 1011,
-  "shortName": "rebus",
+  "shortName": "rebusclassic",
   "networkId": 1011,
   "nativeCurrency": {
-    "name": "Rebus",
+    "name": "Rebus Classic",
     "symbol": "REBUS",
     "decimals": 18
   },
@@ -15247,6 +15247,19 @@
   "rpc": ["https://testnet.neonlink.io"],
   "faucets": ["https://faucet.neonlink.io/"],
   "infoURL": "https://neonlink.io"
+}, {
+  "name": "Rebus Mainnet",
+  "chainId": 9696,
+  "shortName": "rebus",
+  "networkId": 9696,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://apievml2.rebuschain.com/l2rpc"],
+  "faucets": [],
+  "infoURL": "https://www.rebuschain.com"
 }, {
   "name": "Oort MainnetDev",
   "chainId": 9700,

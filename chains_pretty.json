@@ -10265,24 +10265,24 @@
   "networkId": 1010,
   "slip44": 1020
 }, {
-  "name": "Rebus Mainnet",
+  "name": "Rebus Classic Mainnet",
   "title": "Rebuschain Mainnet",
   "chain": "REBUS",
   "rpc": ["https://apievm.rebuschain.com/rpc"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Rebus",
+    "name": "Rebus Classic",
     "symbol": "REBUS",
     "decimals": 18
   },
   "infoURL": "https://www.rebuschain.com",
-  "shortName": "rebus",
+  "shortName": "rebusclassic",
   "chainId": 1011,
   "networkId": 1011,
-  "icon": "rebus",
+  "icon": "rebusc",
   "explorers": [{
     "name": "Rebus EVM Explorer (Blockscout)",
-    "url": "https://evm.rebuschain.com",
+    "url": "https://evm-l1.rebuschain.com",
     "icon": "rebus",
     "standard": "none"
   }, {
@@ -24968,6 +24968,28 @@
     "url": "https://testnet-scan.neonlink.io",
     "standard": "EIP3091",
     "icon": "neonlink"
+  }]
+}, {
+  "name": "Rebus Mainnet",
+  "title": "Rebuschain Mainnet",
+  "chain": "ETH",
+  "rpc": ["https://apievml2.rebuschain.com/l2rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.rebuschain.com",
+  "shortName": "rebus",
+  "chainId": 9696,
+  "networkId": 9696,
+  "icon": "rebus",
+  "explorers": [{
+    "name": "Rebus EVM Explorer (Blockscout)",
+    "url": "https://evm.rebuschain.com",
+    "icon": "rebus",
+    "standard": "none"
   }]
 }, {
   "name": "Oort MainnetDev",
