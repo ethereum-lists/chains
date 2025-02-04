@@ -17510,6 +17510,19 @@
   "faucets": [],
   "infoURL": "https://monad.xyz"
 }, {
+  "name": "XUSD ONE StableChain Mainnet",
+  "chainId": 20441,
+  "shortName": "xusd",
+  "networkId": 20441,
+  "nativeCurrency": {
+    "name": "XUSD ONE",
+    "symbol": "X1",
+    "decimals": 18
+  },
+  "rpc": ["https://xusd.live"],
+  "faucets": [],
+  "infoURL": "https://xusd.co"
+}, {
   "name": "Callisto Testnet",
   "chainId": 20729,
   "shortName": "CLOTestnet",
