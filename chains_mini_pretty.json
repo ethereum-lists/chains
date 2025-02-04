@@ -7409,16 +7409,16 @@
   "faucets": [],
   "infoURL": "https://www.alyxchain.com"
 }, {
-  "name": "Story Homer Testnet",
+  "name": "Story Aeneid Testnet",
   "chainId": 1315,
-  "shortName": "styhmt",
+  "shortName": "story-aeneid",
   "networkId": 1315,
   "nativeCurrency": {
     "name": "IP Token",
     "symbol": "IP",
     "decimals": 18
   },
-  "rpc": ["https://devnet.storyrpc.io."],
+  "rpc": ["https://aeneid.storyrpc.io"],
   "faucets": [],
   "infoURL": "https://story.foundation/"
 }, {
