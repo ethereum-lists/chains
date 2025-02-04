@@ -1,7 +1,7 @@
 {
-  "name": "Story Homer Testnet",
-  "chain": "Story Homer Testnet",
-  "rpc": ["https://devnet.storyrpc.io."],
+  "name": "Story Aeneid Testnet",
+  "chain": "Story Aeneid Testnet",
+  "rpc": ["https://aeneid.storyrpc.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "IP Token",
@@ -10,13 +10,13 @@
   },
   "infoURL": "https://story.foundation/",
   "icon": "story",
-  "shortName": "styhmt",
+  "shortName": "story-aeneid",
   "chainId": 1315,
   "networkId": 1315,
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://devnet.storyscan.xyz",
+      "url": "https://aeneid.storyscan.xyz",
       "standard": "EIP3091"
     }
   ]
