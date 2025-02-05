@@ -10243,6 +10243,19 @@
   "faucets": [],
   "infoURL": "https://techpay.io/"
 }, {
+  "name": "Pho Blockchain Mainnet",
+  "chainId": 2605,
+  "shortName": "pho",
+  "networkId": 2605,
+  "nativeCurrency": {
+    "name": "Pho",
+    "symbol": "PHO",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.phochain.org"],
+  "faucets": [],
+  "infoURL": "phochain.org"
+}, {
   "name": "PoCRNet",
   "chainId": 2606,
   "shortName": "pocrnet",
