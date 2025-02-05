@@ -25,7 +25,7 @@
   "explorers": [
     {
       "name": "XR One Explorer",
-      "url": "https://xr1.calderaexplorer.xyz/",
+      "url": "https://xr1.calderaexplorer.xyz",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
@@ -35,7 +35,7 @@
     "chain": "eip155-42161",
     "bridges": [
       {
-        "url": "https://xr1.bridge.caldera.xyz/"
+        "url": "https://xr1.bridge.caldera.xyz"
       }
     ]
   },
