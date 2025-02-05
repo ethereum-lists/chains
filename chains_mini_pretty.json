@@ -11738,6 +11738,19 @@
   "faucets": ["https://app.optimism.io/faucet"],
   "infoURL": "https://lisk.com"
 }, {
+  "name": "Merlin Erigon Testnet",
+  "chainId": 4203,
+  "shortName": "Merlin-Testnet",
+  "networkId": 4203,
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-erigon-rpc.merlinchain.io"],
+  "faucets": [],
+  "infoURL": "https://merlinchain.io"
+}, {
   "name": "Nexi Mainnet",
   "chainId": 4242,
   "shortName": "nexi",
