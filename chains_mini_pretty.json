@@ -3225,14 +3225,14 @@
 }, {
   "name": "XR One",
   "chainId": 273,
-  "shortName": "xr",
+  "shortName": "xr1",
   "networkId": 273,
   "nativeCurrency": {
-    "name": "XR",
-    "symbol": "XR",
+    "name": "XR1",
+    "symbol": "XR1",
     "decimals": 18
   },
-  "rpc": ["https://xr-one.calderachain.xyz/http"],
+  "rpc": ["https://xr1.calderachain.xyz/http", "wss://xr1.calderachain.xyz/ws"],
   "faucets": [],
   "infoURL": "https://xr-one.gitbook.io"
 }, {
