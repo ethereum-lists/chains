@@ -27988,6 +27988,19 @@
   "faucets": [],
   "infoURL": "https://www.harmony.one/"
 }, {
+  "name": "WITNESS CHAIN",
+  "chainId": 1702448187,
+  "shortName": "Witness",
+  "networkId": 1702448187,
+  "nativeCurrency": {
+    "name": "ETHER",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sequencer.witnesschain.com"],
+  "faucets": [],
+  "infoURL": "https://www.witnesschain.com"
+}, {
   "name": "Silicon zkEVM Sepolia Testnet",
   "chainId": 1722641160,
   "shortName": "silicon-sepolia-testnet",
