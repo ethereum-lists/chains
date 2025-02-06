@@ -19694,6 +19694,19 @@
   "faucets": ["https://sepoliafaucet.com"],
   "infoURL": "https://www.superseed.xyz"
 }, {
+  "name": "BirdLayer",
+  "chainId": 53456,
+  "shortName": "birdlayer",
+  "networkId": 53456,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.birdlayer.xyz", "https://rpc1.birdlayer.xyz", "wss://rpc.birdlayer.xyz/ws"],
+  "faucets": [],
+  "infoURL": "https://www.dodochain.com"
+}, {
   "name": "DODOchain testnet",
   "chainId": 53457,
   "shortName": "dodochain",
