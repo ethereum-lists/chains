@@ -5815,6 +5815,34 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "ZKcandy Mainnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc.zkcandy.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://zkcandy.io/",
+  "shortName": "zkcandy",
+  "chainId": 320,
+  "networkId": 320,
+  "icon": "zkcandymainnet",
+  "explorers": [{
+    "name": "ZKcandy Block Explorer",
+    "url": "https://explorer.zkcandy.io",
+    "icon": "zkcandymainnet",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://bridge.zkcandy.io/"
+    }]
+  }
+}, {
   "name": "KCC Mainnet",
   "chain": "KCC",
   "rpc": ["https://rpc-mainnet.kcc.network", "https://kcc.mytokenpocket.vip", "https://public-rpc.blockpi.io/http/kcc"],
