@@ -22242,6 +22242,19 @@
   "faucets": [],
   "infoURL": "https://www.stratisplatform.com"
 }, {
+  "name": "Lumoz Chain Testnet",
+  "chainId": 105363,
+  "shortName": "Lumoz-Chain-Testnet",
+  "networkId": 105363,
+  "nativeCurrency": {
+    "name": "Lumoz Testnet Token",
+    "symbol": "MOZ",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.lumoz.org"],
+  "faucets": [],
+  "infoURL": "https://lumoz.org"
+}, {
   "name": "BROChain Mainnet",
   "chainId": 108801,
   "shortName": "bro",
