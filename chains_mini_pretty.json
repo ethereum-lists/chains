@@ -28209,6 +28209,19 @@
   "faucets": ["https://faucet.mekong.ethpandaops.io"],
   "infoURL": "https://mekong.ethpandaops.io"
 }, {
+  "name": "pectra-devnet-5",
+  "chainId": 7088110746,
+  "shortName": "pectra5",
+  "networkId": 7088110746,
+  "nativeCurrency": {
+    "name": "Testnet ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.pectra-devnet-5.ethpandaops.io"],
+  "faucets": ["https://faucet.pectra-devnet-5.ethpandaops.io"],
+  "infoURL": "https://pectra-devnet-5.ethpandaops.io"
+}, {
   "name": "Palm Testnet",
   "chainId": 11297108099,
   "shortName": "tpalm",
