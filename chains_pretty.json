@@ -31157,6 +31157,28 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Heurist Testnet",
+  "chain": "HEU",
+  "status": "active",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Heurist",
+    "symbol": "HEU",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "HEU",
+  "chainId": 42096,
+  "networkId": 42096,
+  "slip44": 1,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-4",
+    "bridges": []
+  }
+}, {
   "name": "Arbitrum One",
   "chainId": 42161,
   "shortName": "arb1",

@@ -19018,6 +19018,19 @@
   "faucets": [],
   "infoURL": "https://agentlayer.xyz/home"
 }, {
+  "name": "Heurist Testnet",
+  "chainId": 42096,
+  "shortName": "HEU",
+  "networkId": 42096,
+  "nativeCurrency": {
+    "name": "Heurist",
+    "symbol": "HEU",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Arbitrum One",
   "chainId": 42161,
   "shortName": "arb1",
