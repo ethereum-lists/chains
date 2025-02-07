@@ -4770,18 +4770,18 @@
   "faucets": [],
   "infoURL": "https://kalichain.com"
 }, {
-  "name": "UltronSmartchain",
+  "name": "AmaxSmartchain",
   "chainId": 662,
-  "shortName": "ultronsmartchain",
+  "shortName": "Amaxsmartchain",
   "networkId": 662,
   "nativeCurrency": {
-    "name": "ulc",
-    "symbol": "ULC",
+    "name": "amax",
+    "symbol": "AMAX",
     "decimals": 18
   },
-  "rpc": ["https://rpc.ultronsmartchain.io"],
+  "rpc": ["https://rpc.amaxchain.io"],
   "faucets": [],
-  "infoURL": "https://ultronsmartchain.io"
+  "infoURL": "https://amaxchain.io"
 }, {
   "name": "Pixie Chain Testnet",
   "chainId": 666,
