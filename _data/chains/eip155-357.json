@@ -1,0 +1,35 @@
+{
+  "name": "Xolla ZK Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://zkrpc.xsollazk.com",
+    "wss://zkrpc.xsollazk.com"
+  ],
+  "faucets": [
+    "https://xsollazk.com/faucet"
+  ],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://xsolla.com/zk",
+  "shortName": "xsollazk-sepolia",
+  "chainId": 357,
+  "networkId": 357,
+  "slip44": 1,
+  "icon": "xsollazk",
+  "explorers": [
+    {
+      "name": "Xsolla ZK Sepolia Block Explorer",
+      "url": "https://x.la/explorer/",
+      "icon": "xsollazk",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-555271",
+    "bridges": [{ "url": "https://x.la/bridge/" }]
+  }
+}
