@@ -14454,6 +14454,20 @@
   "networkId": 1987,
   "slip44": 1987
 }, {
+  "name": "Lydia Coin",
+  "chain": "LYDIA",
+  "rpc": ["https://rpc.lydiacoins.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lydia Coin",
+    "symbol": "BSW",
+    "decimals": 18
+  },
+  "infoURL": "https://raas.gelato.network/rollups/details/public/lydia-coin",
+  "shortName": "lydia",
+  "chainId": 1989,
+  "networkId": 1989
+}, {
   "name": "Hubble Exchange",
   "chain": "Hubblenet",
   "icon": "hubblenet",
@@ -37804,6 +37818,20 @@
     "url": "https://r0arscan.io",
     "standard": "none"
   }]
+}, {
+  "name": "Lydia Coin Testnet",
+  "chain": "LYDIA-TESTNET",
+  "rpc": ["https://testnet-rpc.lydiacoins.com"],
+  "faucets": ["https://faucet.lydiacoins.com/"],
+  "nativeCurrency": {
+    "name": "Lydia Token",
+    "symbol": "BSW",
+    "decimals": 18
+  },
+  "infoURL": "https://raas.gelato.network/rollups/details/public/lydia-coin-testnet",
+  "shortName": "lydia-testnet",
+  "chainId": 198989,
+  "networkId": 198989
 }, {
   "name": "MAZZE Testnet",
   "chain": "MAZZE Testnet",

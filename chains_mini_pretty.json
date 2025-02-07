@@ -8839,6 +8839,19 @@
   "faucets": [],
   "infoURL": "https://egem.io"
 }, {
+  "name": "Lydia Coin",
+  "chainId": 1989,
+  "shortName": "lydia",
+  "networkId": 1989,
+  "nativeCurrency": {
+    "name": "Lydia Coin",
+    "symbol": "BSW",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.lydiacoins.com"],
+  "faucets": [],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/lydia-coin"
+}, {
   "name": "Hubble Exchange",
   "chainId": 1992,
   "shortName": "hubblenet",
@@ -22956,6 +22969,19 @@
   "rpc": ["https://rpc-r0ar.io"],
   "faucets": [],
   "infoURL": "https://r0arscan.io"
+}, {
+  "name": "Lydia Coin Testnet",
+  "chainId": 198989,
+  "shortName": "lydia-testnet",
+  "networkId": 198989,
+  "nativeCurrency": {
+    "name": "Lydia Token",
+    "symbol": "BSW",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.lydiacoins.com"],
+  "faucets": ["https://faucet.lydiacoins.com/"],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/lydia-coin-testnet"
 }, {
   "name": "MAZZE Testnet",
   "chainId": 199991,
