@@ -1,0 +1,15 @@
+{
+  "name": "Lydia Coin Testnet",
+  "chain": "LYDIA-TESTNET",
+  "rpc": ["https://testnet-rpc.lydiacoins.com"],
+  "faucets": ["https://faucet.lydiacoins.com/"],
+  "nativeCurrency": {
+    "name": "Lydia Token",
+    "symbol": "BSW",
+    "decimals": 18
+  },
+  "infoURL": "https://raas.gelato.network/rollups/details/public/lydia-coin-testnet",
+  "shortName": "lydia-testnet",
+  "chainId": 198989,
+  "networkId": 198989
+}
