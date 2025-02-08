@@ -1,23 +1,24 @@
 {
-  "name": "UltronSmartchain",
-  "chain": "UltronSmartchain",
-  "rpc": ["https://rpc.ultronsmartchain.io"],
+  "name": "AmaxSmartchain",
+  "chain": "AmaxSmartchain",
+  "rpc": ["https://rpc.amaxchain.io"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "ulc",
-    "symbol": "ULC",
+    "name": "amax",
+    "symbol": "AMAX",
     "decimals": 18
   },
-  "infoURL": "https://ultronsmartchain.io",
-  "shortName": "ultronsmartchain",
+  "infoURL": "https://amaxchain.io",
+  "shortName": "Amaxsmartchain",
   "chainId": 662,
   "networkId": 662,
   "icon": "ultronsmartchain",
   "explorers": [
     {
-      "name": "ultronsmartchain explorer",
-      "url": "https://scan.ultronsmartchain.io",
+      "name": "Amaxsmartchain explorer",
+      "url": "https://scan.amaxchain.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "redFlags": ["reusedChainId"]
 }
