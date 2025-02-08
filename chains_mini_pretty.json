@@ -16236,6 +16236,19 @@
   "faucets": [],
   "infoURL": "https://bevm.io"
 }, {
+  "name": "BEVM Signet",
+  "chainId": 11504,
+  "shortName": "bevm-signet",
+  "networkId": 11504,
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://signet.bevm.io/"],
+  "faucets": [],
+  "infoURL": "https://bevm.io"
+}, {
   "name": "SatsChain",
   "chainId": 11521,
   "shortName": "satschain",
