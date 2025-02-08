@@ -1,0 +1,23 @@
+{
+  "name": "BEVM Signet",
+  "chain": "BEVM",
+  "rpc": ["https://signet.bevm.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://bevm.io",
+  "shortName": "bevm-signet",
+  "chainId": 11504,
+  "networkId": 11504,
+  "icon": "bevm",
+  "explorers": [
+    {
+      "name": "bevm signet scan",
+      "url": "https://scan-signet.bevm.io",
+      "standard": "none"
+    }
+  ]
+}
