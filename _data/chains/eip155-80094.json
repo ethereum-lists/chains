@@ -2,7 +2,7 @@
   "name": "Berachain",
   "chain": "Berachain",
   "rpc": ["https://rpc.berachain.com"],
-  "faucets": ["https://faucet.berachain.com"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "BERA Token",
     "symbol": "BERA",
@@ -13,5 +13,16 @@
   "chainId": 80094,
   "networkId": 80094,
   "icon": "berachain",
-  "explorers": []
+  "explorers": [
+    {
+      "name": "Berascan",
+      "url": "https://berascan.com",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Beratrail",
+      "url": "https://beratrail.io",
+      "standard": "EIP3091"
+    }
+  ]
 }
