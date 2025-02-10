@@ -33763,7 +33763,7 @@
   }]
 }, {
   "name": "CyberChain Mainnet",
-  "chain": "CCX",
+  "chain": "XCC",
   "icon": "cyberchain",
   "rpc": ["https://rpc.cyberchain.xyz/"],
   "features": [{
@@ -33773,12 +33773,12 @@
   }],
   "faucets": [],
   "nativeCurrency": {
-    "name": "CCX",
-    "symbol": "CCX",
+    "name": "XCC",
+    "symbol": "XCC",
     "decimals": 18
   },
   "infoURL": "https://cyberchain.xyz",
-  "shortName": "ccx",
+  "shortName": "xcc",
   "chainId": 65535,
   "networkId": 65535,
   "slip44": 60,
