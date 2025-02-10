@@ -15781,6 +15781,19 @@
   "faucets": [],
   "infoURL": "https://www.japanopenchain.org/"
 }, {
+  "name": "Volcano Chain Mainnet",
+  "chainId": 10085,
+  "shortName": "volcanochain",
+  "networkId": 10085,
+  "nativeCurrency": {
+    "name": "Volcano Coin",
+    "symbol": "VC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.vchain.pro", "wss://wss.mainnet.vchain.pro"],
+  "faucets": [],
+  "infoURL": "https://vex.pro"
+}, {
   "name": "SJATSH",
   "chainId": 10086,
   "shortName": "SJ",
