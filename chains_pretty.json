@@ -20206,13 +20206,13 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Pioneer Chain Testnet",
+  "name": "Pione Chain Mainnet",
   "chain": "PIO",
   "icon": "pio",
   "rpc": ["https://rpc.pionescan.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Pioneer",
+    "name": "Pione",
     "symbol": "PIO",
     "decimals": 18
   },
@@ -20221,7 +20221,7 @@
   "chainId": 5090,
   "networkId": 5090,
   "explorers": [{
-    "name": "Pioneer Chain Explorer",
+    "name": "Pione Chain Explorer",
     "url": "https://pionescan.com",
     "standard": "EIP3091"
   }]
