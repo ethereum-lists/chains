@@ -1,0 +1,22 @@
+{
+  "name": "Fidesinnova",
+  "chain": "Fidesinnova",
+  "rpc": ["https://fidesf1-rpc.fidesinnova.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Fidesinnova",
+    "symbol": "FDS",
+    "decimals": 18
+  },
+  "infoURL": "https://fidesinnova1.gitbook.io/fidesinnova",
+  "shortName": "Fidesinnova",
+  "chainId": 706883,
+  "networkId": 706883,
+  "explorers": [
+    {
+      "name": "Fidesinnova Blockchain Explorer",
+      "url": "https://explorer.fidesinnova.io",
+      "standard": "none"
+    }
+  ]
+}

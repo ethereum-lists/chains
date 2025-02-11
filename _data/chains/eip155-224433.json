@@ -1,24 +1,24 @@
 {
-  "name": "CONET Holesky",
-  "chain": "CONET Holesky",
+  "name": "CONET Cancun",
+  "chain": "CONET Cancun",
   "rpc": ["https://rpc.conet.network"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "CONET Holesky",
+    "name": "CONET Cancun",
     "symbol": "CONET",
     "decimals": 18
   },
   "features": [{ "name": "EIP155" }],
   "infoURL": "https://conet.network",
-  "shortName": "conet-holesky",
+  "shortName": "conet-cancun",
   "chainId": 224433,
   "networkId": 224433,
   "slip44": 2147708081,
   "icon": "conet",
   "explorers": [
     {
-      "name": "CONET Holesky Scan",
-      "url": "https://scan.conet.network",
+      "name": "CONET Cancun Scan",
+      "url": "https://cancun.conet.network",
       "standard": "EIP3091"
     }
   ]
