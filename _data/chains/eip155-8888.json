@@ -1,25 +1,25 @@
 {
-  "name": "pointledger",
-  "chain": "pointledger",
-  "icon": "pointledger",
-  "rpc": ["https://rpc.pointledger.net"],
+  "name": "XANAChain",
+  "chain": "XANAChain",
+  "rpc": ["https://mainnet.xana.net/rpc"],
   "faucets": [],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "nativeCurrency": {
-    "name": "PLG",
-    "symbol": "PLG",
+    "name": "XETA",
+    "symbol": "XETA",
     "decimals": 18
   },
-  "infoURL": "https://pointledger.net",
-  "shortName": "pointledger",
+
+  "infoURL": "https://xanachain.xana.net/",
+  "shortName": "XANAChain",
   "chainId": 8888,
   "networkId": 8888,
+  "icon": "xeta",
   "explorers": [
     {
-      "name": "pointledger Explorer",
-      "url": "https://exp.pointledger.net",
-      "icon": "pointledger",
+      "name": "XANAChain",
+      "url": "https://xanachain.xana.net",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "redFlags": ["reusedChainId"]
 }
