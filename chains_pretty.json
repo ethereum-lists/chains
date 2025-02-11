@@ -24879,6 +24879,28 @@
   "chainId": 9100,
   "networkId": 9100
 }, {
+  "name": "Destra Dubai Testnet",
+  "chain": "Destra",
+  "status": "active",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sync",
+    "symbol": "SYNC",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "Destra",
+  "chainId": 9108,
+  "networkId": 9108,
+  "slip44": 1,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-4",
+    "bridges": []
+  }
+}, {
   "name": "Rinia Testnet Old",
   "chain": "FIRE",
   "icon": "rinia",
