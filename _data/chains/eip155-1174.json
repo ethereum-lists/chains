@@ -1,9 +1,7 @@
 {
   "name": "Litheum Test Network",
   "chain": "Litheum",
-  "rpc": [
-    "https://testnet.litheum.com"
-  ],
+  "rpc": ["https://testnet.litheum.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Lith",
