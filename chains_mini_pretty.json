@@ -21852,6 +21852,19 @@
   "faucets": ["https://faucet.lux-test.network"],
   "infoURL": "https://lux.network"
 }, {
+  "name": "Lumoz Chain Mainnet",
+  "chainId": 96370,
+  "shortName": "Lumoz-Chain-Mainnet",
+  "networkId": 96370,
+  "nativeCurrency": {
+    "name": "Lumoz Mainnet Token",
+    "symbol": "MOZ",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.lumoz.org", "https://rpc-hk.lumoz.org"],
+  "faucets": [],
+  "infoURL": "https://lumoz.org"
+}, {
   "name": "Mantis Testnet (Hexapod)",
   "chainId": 96970,
   "shortName": "mantis",
