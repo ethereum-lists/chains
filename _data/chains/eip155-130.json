@@ -1,7 +1,7 @@
 {
   "name": "Unichain",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": ["https://mainnet.unichain.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -12,5 +12,12 @@
   "shortName": "unichain",
   "chainId": 130,
   "networkId": 130,
-  "status": "incubating"
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "Unichain Scan",
+      "url": "https://uniscan.xyz",
+      "standard": "EIP3091"
+    }
+  ]
 }
