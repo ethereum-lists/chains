@@ -15261,6 +15261,19 @@
   "faucets": ["https://faucet.dogcoin.network"],
   "infoURL": "https://dogcoin.network"
 }, {
+  "name": "Z Chain",
+  "chainId": 9369,
+  "shortName": "z",
+  "networkId": 9369,
+  "nativeCurrency": {
+    "name": "Z",
+    "symbol": "Z",
+    "decimals": 18
+  },
+  "rpc": ["https://z-chain-rpc.eu-north-2.gateway.fm/?apiKey=${API_KEY}"],
+  "faucets": [],
+  "infoURL": "https://zero.tech"
+}, {
   "name": "Oasys Testnet",
   "chainId": 9372,
   "shortName": "OAS_TEST",
