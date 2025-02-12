@@ -27962,6 +27962,19 @@
   "faucets": [],
   "infoURL": "https://raptorchain.io"
 }, {
+  "name": "Zephyr Testnet",
+  "chainId": 1417429182,
+  "shortName": "zephyr",
+  "networkId": 1417429182,
+  "nativeCurrency": {
+    "name": "ZERO",
+    "symbol": "Z",
+    "decimals": 18
+  },
+  "rpc": ["https://zephyr-rpc.eu-north-2.gateway.fm"],
+  "faucets": ["https://zephyr-faucet.eu-north-2.gateway.fm"],
+  "infoURL": "https://zero.tech"
+}, {
   "name": "SKALE Europa Hub Testnet",
   "chainId": 1444673419,
   "shortName": "europa-testnet",
