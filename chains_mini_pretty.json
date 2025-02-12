@@ -4224,6 +4224,19 @@
   "faucets": [],
   "infoURL": "https://standardweb3.com"
 }, {
+  "name": "Landstars",
+  "chainId": 495,
+  "shortName": "lds",
+  "networkId": 495,
+  "nativeCurrency": {
+    "name": "Landstars",
+    "symbol": "LDS",
+    "decimals": 18
+  },
+  "rpc": ["https://13882-60301.pph-server.de"],
+  "faucets": [],
+  "infoURL": "https://github.com/khalikov001/landstars-info"
+}, {
   "name": "Rupaya",
   "chainId": 499,
   "shortName": "rupx",
