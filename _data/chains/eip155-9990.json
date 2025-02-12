@@ -2,7 +2,7 @@
   "name": "Agung Network",
   "chain": "Agung",
   "icon": "agung",
-  "rpc": ["https://rpcpc1-qa.agung.peaq.network"],
+  "rpc": ["https://wss-async.agung.peaq.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Agung",
@@ -16,12 +16,12 @@
   "explorers": [
     {
       "name": "Polkadot.js",
-      "url": "https://polkadot.js.org/apps/?rpc=wss://wsspc1-qa.agung.peaq.network#/explorer",
+      "url": "https://polkadot.js.org/apps/?rpc=wss:///wss-async.agung.peaq.network#/explorer",
       "standard": "none"
     },
     {
       "name": "Subscan",
-      "url": "https://agung.subscan.io",
+      "url": "https://agung-testnet.subscan.io",
       "standard": "none"
     }
   ]
