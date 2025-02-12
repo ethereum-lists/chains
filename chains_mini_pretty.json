@@ -15521,6 +15521,19 @@
   "faucets": [],
   "infoURL": "https://dogelayer.org"
 }, {
+  "name": "pointledger",
+  "chainId": 9889,
+  "shortName": "pointledger",
+  "networkId": 9889,
+  "nativeCurrency": {
+    "name": "PLG",
+    "symbol": "PLG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.pointledger.net"],
+  "faucets": [],
+  "infoURL": "https://pointledger.net"
+}, {
   "name": "arena-z-testnet",
   "chainId": 9897,
   "shortName": "arena-z-testnet",
