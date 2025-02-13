@@ -27923,6 +27923,19 @@
   "faucets": [],
   "infoURL": "https://turbotoken.io"
 }, {
+  "name": "Tuxappcoin",
+  "chainId": 1313161573,
+  "shortName": "tuxa",
+  "networkId": 1313161573,
+  "nativeCurrency": {
+    "name": "TUXA",
+    "symbol": "TUXA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-0x4e454165.aurora-cloud.dev"],
+  "faucets": [],
+  "infoURL": "https://x.com/tuxapp_coin"
+}, {
   "name": "SKALE Titan Hub",
   "chainId": 1350216234,
   "shortName": "titan-mainnet",
