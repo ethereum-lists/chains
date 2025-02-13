@@ -1,7 +1,11 @@
 {
   "name": "Berachain",
   "chain": "Berachain",
-  "rpc": ["https://rpc.berachain.com"],
+  "rpc": [
+    "https://rpc.berachain.com",
+    "https://berachain-rpc.publicnode.com",
+    "wss://berachain-rpc.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BERA Token",
