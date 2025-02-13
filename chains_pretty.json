@@ -2651,7 +2651,7 @@
 }, {
   "name": "Unichain",
   "chain": "ETH",
-  "rpc": ["https://mainnet.unichain.org"],
+  "rpc": ["https://mainnet.unichain.org", "https://unichain-rpc.publicnode.com", "wss://unichain-rpc.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -34936,7 +34936,7 @@
 }, {
   "name": "Berachain",
   "chain": "Berachain",
-  "rpc": ["https://rpc.berachain.com"],
+  "rpc": ["https://rpc.berachain.com", "https://berachain-rpc.publicnode.com", "wss://berachain-rpc.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BERA Token",
