@@ -2662,9 +2662,14 @@
   "shortName": "unichain",
   "chainId": 130,
   "networkId": 130,
+  "icon": "unichain",
   "explorers": [{
     "name": "Unichain Mainnet Explorer",
     "url": "https://uniscan.xyz",
+    "standard": "EIP3091"
+  }, {
+    "name": "Unichain Mainnet Explorer",
+    "url": "https://unichain.blockscout.com",
     "standard": "EIP3091"
   }]
 }, {
@@ -12089,6 +12094,7 @@
   "shortName": "unichain-sep",
   "chainId": 1301,
   "networkId": 1301,
+  "icon": "unichain-testnet",
   "explorers": [{
     "name": "Unichain Sepolia Testnet Explorer",
     "url": "https://unichain-sepolia.blockscout.com",
