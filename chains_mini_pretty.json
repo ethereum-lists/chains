@@ -12440,13 +12440,13 @@
   "faucets": ["https://citrea.xyz/faucet"],
   "infoURL": "https://citrea.xyz"
 }, {
-  "name": "MeChain Testnet",
+  "name": "Moca Chain Testnet",
   "chainId": 5151,
-  "shortName": "ZKME",
+  "shortName": "MOCA",
   "networkId": 5151,
   "nativeCurrency": {
-    "name": "ZKME",
-    "symbol": "ZKME",
+    "name": "MOCA",
+    "symbol": "MOCA",
     "decimals": 18
   },
   "rpc": ["https://testnet-rpc.mechain.tech"],
