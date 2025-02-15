@@ -1,24 +1,24 @@
 {
-  "name": "MeChain Testnet",
-  "chain": "MeChain",
+  "name": "Moca Chain Testnet",
+  "chain": "Moca Chain",
   "rpc": ["https://testnet-rpc.mechain.tech"],
   "faucets": ["https://faucet.mechain.tech"],
   "nativeCurrency": {
-    "name": "ZKME",
-    "symbol": "ZKME",
+    "name": "MOCA",
+    "symbol": "MOCA",
     "decimals": 18
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://mechain.tech",
-  "shortName": "ZKME",
+  "shortName": "MOCA",
   "chainId": 5151,
   "networkId": 5151,
-  "icon": "mechain",
+  "icon": "moca",
   "explorers": [
     {
-      "name": "MeChain Scan",
+      "name": "Moca Chain Scan",
       "url": "https://testnet-scan.mechain.tech",
-      "icon": "mechain",
+      "icon": "moca",
       "standard": "EIP3091"
     }
   ]
