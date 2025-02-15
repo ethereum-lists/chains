@@ -28495,6 +28495,19 @@
   "faucets": [],
   "infoURL": "https://raas.gelato.network/rollups/details/public/arb-blueberry"
 }, {
+  "name": "ALDChain Testnet",
+  "chainId": 96737205180,
+  "shortName": "ald",
+  "networkId": 96737205180,
+  "nativeCurrency": {
+    "name": "ALD Token",
+    "symbol": "ALD",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.aldrickb.xyz"],
+  "faucets": ["https://faucet.aldrickb.xyz"],
+  "infoURL": "https://aldrickb.com/projects"
+}, {
   "name": "Kakarot Sepolia Deprecated",
   "chainId": 107107114116,
   "shortName": "kkrt-sepolia-deprecated",
