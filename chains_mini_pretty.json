@@ -27637,6 +27637,19 @@
   "faucets": [],
   "infoURL": "https://gather.network"
 }, {
+  "name": "Asset Hub",
+  "chainId": 420420419,
+  "shortName": "AH",
+  "networkId": 420420419,
+  "nativeCurrency": {
+    "name": "DOT",
+    "symbol": "DOT",
+    "decimals": 18
+  },
+  "rpc": ["https://asset-hub-eth-rpc.polkadot.io"],
+  "faucets": [],
+  "infoURL": "https://polkadot.network"
+}, {
   "name": "Westend Asset Hub",
   "chainId": 420420421,
   "shortName": "wst",
