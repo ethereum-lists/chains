@@ -1,0 +1,29 @@
+{
+  "name": "PMON Chain",
+  "chain": "42001",
+  "rpc": ["https://rpc.pmon.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PMON Token",
+    "symbol": "PMON",
+    "decimals": 18
+  },
+  "infoURL": "https://protocolmonsterlabs.com/pmon-chain",
+  "shortName": "pmon",
+  "chainId": 42001,
+  "networkId": 42001,
+  "icon": "pmon",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.pmon.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161",
+    "bridges": [{ "url": "https://bridge.arbitrum.io" }]
+  }
+}
