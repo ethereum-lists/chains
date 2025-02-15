@@ -1,22 +1,33 @@
 {
-  "name": "The Ting Blockchain Testnet",
-  "chain": "Ting",
-  "rpc": ["https://testnet.tingchain.org/"],
+  "name": "Emeraldz",
+  "chain": "EMED",
+  "rpc": [
+    "https://rpc.emeraldzscan.com",
+    "https://public.0xrpc.com/789789"
+  ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Ton",
-    "symbol": "Ton",
+    "name": "EMERALDZ",
+    "symbol": "EMED",
     "decimals": 18
   },
-  "infoURL": "https://tingscan.com/",
-  "shortName": "tingtest",
-  "chainId": 6666689,
-  "networkId": 6666689,
+  "infoURL": "https://emeraldzscan.com",
+  "shortName": "emed",
+  "chainId": 789789,
+  "networkId": 789789,
   "explorers": [
     {
-      "name": "TingScan",
-      "url": "https://tingscan.com/",
+      "name": "Emeraldzscan",
+      "url": "https://emeraldzscan.com",
       "standard": "EIP3091"
+    }
+  ],
+  "logo": [
+    {
+      "url": "https://i.ibb.co/BCfw220/photo-2025-01-09-14-00-42.jpg",
+      "width": 1000,
+      "height": 1628,
+      "format": "jpg"
     }
   ]
 }
