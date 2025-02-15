@@ -28664,6 +28664,19 @@
   "faucets": [],
   "infoURL": "https://ipdc.io"
 }, {
+  "name": "Smart Pay Mobile Money",
+  "chainId": 666301179999,
+  "shortName": "SmartPay",
+  "networkId": 666301179999,
+  "nativeCurrency": {
+    "name": "SmartPay Mobile Money",
+    "symbol": "SMRTP",
+    "decimals": 18
+  },
+  "rpc": ["https://network.uat.smartmoneyewallet.com/"],
+  "faucets": [],
+  "infoURL": "https://network.uat.smartmoneyewallet.com/"
+}, {
   "name": "Molereum Network",
   "chainId": 6022140761023,
   "shortName": "mole",
