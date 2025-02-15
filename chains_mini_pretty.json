@@ -23308,6 +23308,19 @@
   "faucets": ["https://faucet-sydney.bethel.network"],
   "infoURL": ""
 }, {
+  "name": "Alterscope",
+  "chainId": 202209,
+  "shortName": "Alterscope",
+  "networkId": 202209,
+  "nativeCurrency": {
+    "name": "RISK",
+    "symbol": "RISK",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://alterscope.org"
+}, {
   "name": "X1 Devnet",
   "chainId": 202212,
   "shortName": "x1-devnet",
