@@ -1,7 +1,6 @@
 {
-  "name": "Emeraldz",
-  "chain": "EMERALDZ",
-  "icon": "emed",
+  "name": "EMERALDZ",
+  "chain": "EMED",
   "rpc": [
     "https://rpc.emeraldzscan.com",
     "https://public.0xrpc.com/789789"
@@ -12,14 +11,20 @@
     "symbol": "EMED",
     "decimals": 18
   },
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" }
+  ],
   "infoURL": "https://emeraldzscan.com",
   "shortName": "emed",
   "chainId": 789789,
   "networkId": 789789,
+  "icon": "emeraldz",
   "explorers": [
     {
       "name": "Emeraldz Explorer",
       "url": "https://emeraldzscan.com",
+      "icon": "emeraldz",
       "standard": "EIP3091"
     }
   ]
