@@ -2,6 +2,7 @@
   "name": "Emeraldz",
   "chain": "EMED",
   "rpc": [
+    "https://rpc.emeraldzscan.com",
     "https://public.0xrpc.com/789789"
   ],
   "faucets": [],
@@ -19,6 +20,14 @@
       "name": "Emeraldzscan",
       "url": "https://emeraldzscan.com",
       "standard": "EIP3091"
+    }
+  ],
+  "logo": [
+    {
+      "url": "https://i.ibb.co/BCfw220/photo-2025-01-09-14-00-42.jpg",
+      "width": 1000,
+      "height": 1628,
+      "format": "jpg"
     }
   ]
 }
