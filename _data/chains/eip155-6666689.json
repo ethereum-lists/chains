@@ -3,7 +3,7 @@
     "chain": "TingTestnet",
     "icon": "",
     "rpc": [
-        "https://testnet.tingchain.org/"
+        "https://testnet.tingchain.org"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -11,14 +11,14 @@
         "symbol": "Ton",
         "decimals": 18
     },
-    "infoURL": "https://tingscan.com/",
+    "infoURL": "https://tingscan.com",
     "shortName": "tingtest",
     "chainId": 6666689,
     "networkId": 6666689,
     "explorers": [
         {
             "name": "TingScan",
-            "url": "https://tingscan.com/",
+            "url": "https://tingscan.com",
             "standard": "EIP3091"
         }
     ],
