@@ -1,0 +1,24 @@
+_data/chains/eip155-15156-testnet.json
+{
+  "name": "HorizonChain Testnet",
+  "chainId": 15156,
+  "shortName": "hori-test",
+  "networkId": 15156,
+  "nativeCurrency": {
+    "name": "Horizon Testnet Coin",
+    "symbol": "tHORI",
+    "decimals": 18
+  },
+  "rpc": [
+    "http://129.154.249.31:8546"
+  ],
+  "faucets": [],
+  "testnet": true,
+  "explorers": [
+    {
+      "name": "HorizonChain Testnet ",
+      "url": "http://xyz-testnet-explorer-url",
+      "standard": "EIP3091"
+    }
+  ]
+}
