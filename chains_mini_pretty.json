@@ -25102,6 +25102,19 @@
   "faucets": [],
   "infoURL": "https://zebrocoin.app"
 }, {
+  "name": "Emeraldz",
+  "chainId": 789789,
+  "shortName": "emed",
+  "networkId": 789789,
+  "nativeCurrency": {
+    "name": "EMERALDZ",
+    "symbol": "EMED",
+    "decimals": 18
+  },
+  "rpc": ["https://public.0xrpc.com/789789"],
+  "faucets": [],
+  "infoURL": "https://emeraldzscan.com"
+}, {
   "name": "OctaSpace",
   "chainId": 800001,
   "shortName": "octa",
