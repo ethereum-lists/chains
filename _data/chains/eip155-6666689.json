@@ -1,27 +1,27 @@
 {
-  "name": "The Ting Blockchain Testnet Explorer",
-  "chain": "TingTestnet",
-  "icon": "",
-  "rpc": [
-    "https://testnet.tingchain.org/"
-  ],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "Ton",
-    "symbol": "Ton",
-    "decimals": 18
-  },
-  "infoURL": "https://tingscan.com/",
-  "shortName": "tingtest",
-  "chainId": 6666689,
-  "networkId": 6666689,
-  "explorers": [
-    {
-      "name": "TingScan",
-      "url": "https://tingscan.com/",
-      "standard": "EIP3091"
-    }
-  ],
-  "testnet": true,
-  "slug": "ting-testnet"
+    "name": "The Ting Blockchain Testnet Explorer",
+    "chain": "TingTestnet",
+    "icon": "",
+    "rpc": [
+        "https://testnet.tingchain.org/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "Ton",
+        "symbol": "Ton",
+        "decimals": 18
+    },
+    "infoURL": "https://tingscan.com/",
+    "shortName": "tingtest",
+    "chainId": 6666689,
+    "networkId": 6666689,
+    "explorers": [
+        {
+            "name": "TingScan",
+            "url": "https://tingscan.com/",
+            "standard": "EIP3091"
+        }
+    ],
+    "testnet": true,
+    "slug": "ting-testnet"
 }
