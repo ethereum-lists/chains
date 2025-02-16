@@ -9,7 +9,7 @@
     "https://xsollazk.com/faucet"
   ],
   "nativeCurrency": {
-    "name": "Ether",
+    "name": "Sepolia Ether",
     "symbol": "ETH",
     "decimals": 18
   },
@@ -22,14 +22,9 @@
   "explorers": [
     {
       "name": "Xsolla ZK Sepolia Block Explorer",
-      "url": "https://x.la/explorer/",
+      "url": "https://x.la/explorer",
       "icon": "xsollazk",
       "standard": "EIP3091"
     }
-  ],
-  "parent": {
-    "type": "L2",
-    "chain": "eip155-555271",
-    "bridges": [{ "url": "https://x.la/bridge/" }]
-  }
+  ]
 }
