@@ -26168,6 +26168,19 @@
   "faucets": [],
   "infoURL": "https://www.anwang.com"
 }, {
+  "name": "The Ting Blockchain Testnet Explorer",
+  "chainId": 6666689,
+  "shortName": "ting-testnet",
+  "networkId": 6666689,
+  "nativeCurrency": {
+    "name": "Ton",
+    "symbol": "Ton",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.tingchain.org"],
+  "faucets": [],
+  "infoURL": "https://tingscan.com"
+}, {
   "name": "COTI Testnet",
   "chainId": 7082400,
   "shortName": "coti-testnet",
