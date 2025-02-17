@@ -1,22 +1,22 @@
 {
-  "name": "Ting Blockchain",
-  "chain": "TING",
-  "rpc": ["https://rpc.tingchain.com"],
+  "name": "The Ting Blockchain Testnet Explorer",
+  "chain": "Ting",
+  "rpc": ["https://testnet.tingchain.org"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Ting Token",
-    "symbol": "TING",
+    "name": "Ton",
+    "symbol": "Ton",
     "decimals": 18
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "infoURL": "https://tingchain.com",
-  "shortName": "ting",
-  "chainId": 123456,
-  "networkId": 123456,
+  "infoURL": "https://tingscan.com",
+  "shortName": "ting-testnet",
+  "chainId": 6666689,
+  "networkId": 6666689,
   "explorers": [
     {
-      "name": "Ting Explorer",
-      "url": "https://explorer.tingchain.com",
+      "name": "TingScan",
+      "url": "https://tingscan.com",
       "standard": "EIP3091"
     }
   ]
