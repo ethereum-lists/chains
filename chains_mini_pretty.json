@@ -14325,6 +14325,19 @@
   "faucets": [],
   "infoURL": "https://www.streamux.cloud"
 }, {
+  "name": "Bharat Blockchain Network Mainnet",
+  "chainId": 8099,
+  "shortName": "bbn",
+  "networkId": 8099,
+  "nativeCurrency": {
+    "name": "BBN",
+    "symbol": "BBN",
+    "decimals": 18
+  },
+  "rpc": ["https://bbnrpc.mainnet.bharatblockchain.io"],
+  "faucets": [],
+  "infoURL": "https://bharatblockchain.io/"
+}, {
   "name": "Zenchain",
   "chainId": 8108,
   "shortName": "zen",
