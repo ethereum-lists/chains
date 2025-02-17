@@ -1,6 +1,6 @@
 {
   "name": "COINZAX",
-  "chain": "ZAX",
+  "chain": "COINZAX",
   "icon": "coinzaxIcon",
   "rpc": ["https://rpc.coinzax.com"],
   "faucets": [],
@@ -10,13 +10,12 @@
     "decimals": 18
   },
   "infoURL": "https://coinzax.com",
-  "shortName": "zax",
+  "shortName": "ZAX",
   "chainId": 1310,
   "networkId": 1310,
-  "status": "active",
   "explorers": [
     {
-      "name": "COINZAX Explorer",
+      "name": "COINZAX-Explorer",
       "url": "https://explorer.coinzax.com",
       "standard": "EIP3091"
     }
