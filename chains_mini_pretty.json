@@ -11296,6 +11296,19 @@
   "faucets": ["https://faucet.xpla.io"],
   "infoURL": "https://xpla.io"
 }, {
+  "name": "Xone Mainnet",
+  "chainId": 3721,
+  "shortName": "XOC",
+  "networkId": 3721,
+  "nativeCurrency": {
+    "name": "Xone Coin",
+    "symbol": "XOC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.xone.org"],
+  "faucets": ["https://faucet.xone.org/"],
+  "infoURL": "https://xone.org"
+}, {
   "name": "Crossbell",
   "chainId": 3737,
   "shortName": "csb",
@@ -27049,8 +27062,8 @@
     "decimals": 18
   },
   "rpc": ["https://rpc-testnet.xone.plus", "https://rpc-testnet.xone.org", "https://rpc-testnet.knight.center"],
-  "faucets": ["https://faucet.xone.plus/"],
-  "infoURL": "https://xone.plus"
+  "faucets": ["https://faucet.xone.org/"],
+  "infoURL": "https://xone.org"
 }, {
   "name": "citronus-citro",
   "chainId": 34949059,
