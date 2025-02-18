@@ -7409,6 +7409,19 @@
   "faucets": [],
   "infoURL": "https://unichain.org"
 }, {
+  "name": "COINZAX",
+  "chainId": 1310,
+  "shortName": "zax",
+  "networkId": 1310,
+  "nativeCurrency": {
+    "name": "COINZAX",
+    "symbol": "ZAX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.coinzax.com"],
+  "faucets": [],
+  "infoURL": "https://coinzax.com"
+}, {
   "name": "Dos Fuji Subnet",
   "chainId": 1311,
   "shortName": "TDOS",
