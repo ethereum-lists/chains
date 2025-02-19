@@ -17783,6 +17783,19 @@
   "faucets": ["https://faucet.dev.gblend.xyz"],
   "infoURL": "https://fluent.xyz"
 }, {
+  "name": "Action Mainnet",
+  "chainId": 21000,
+  "shortName": "ACTN",
+  "networkId": 21000,
+  "nativeCurrency": {
+    "name": "Action",
+    "symbol": "ACTN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.actionblockchain.org"],
+  "faucets": [],
+  "infoURL": "https://docs.actioncoin.com"
+}, {
   "name": "C4EI",
   "chainId": 21004,
   "shortName": "c4ei",
