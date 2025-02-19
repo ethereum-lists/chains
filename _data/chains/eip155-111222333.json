@@ -1,19 +1,18 @@
 {
-  "name": "GPT Mainnet (deprecated)",
+  "name": "GPT Mainnet",
   "chain": "GPT Protocol",
   "icon": "gpt",
   "rpc": ["https://rpc.gptprotocol.io"],
   "faucets": [],
-  "chainId": 1511670449,
-  "networkId": 1511670449,
-  "status": "deprecated",
+  "chainId": 111222333,
+  "networkId": 111222333,
   "nativeCurrency": {
     "name": "GPT",
     "symbol": "GPT",
     "decimals": 18
   },
   "infoURL": "https://gptprotocol.com",
-  "shortName": "GPT-deprecated",
+  "shortName": "GPT",
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
