@@ -2,7 +2,7 @@
   "name": "Hedera Testnet",
   "chain": "Hedera",
   "icon": "hedera",
-  "rpc": ["https://testnet.hashio.io/api"],
+  "rpc": ["https://testnet.hashio.io/api", "https://296.rpc.thirdweb.com"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": ["https://portal.hedera.com"],
   "nativeCurrency": {
