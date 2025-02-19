@@ -11920,6 +11920,19 @@
   "faucets": ["https://faucet.onbeam.com"],
   "infoURL": "https://www.onbeam.com"
 }, {
+  "name": "MemeCore",
+  "chainId": 4352,
+  "shortName": "m",
+  "networkId": 4352,
+  "nativeCurrency": {
+    "name": "M",
+    "symbol": "M",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.memecore.net", "wss://ws.memecore.net"],
+  "faucets": [],
+  "infoURL": "https://memecore.com"
+}, {
   "name": "Credit Smart Chain Mainnet",
   "chainId": 4400,
   "shortName": "CreditEdge",

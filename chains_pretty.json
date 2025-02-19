@@ -19521,6 +19521,40 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "MemeCore",
+  "title": "MemeCore",
+  "chain": "MemeCore",
+  "icon": "memecore",
+  "rpc": ["https://rpc.memecore.net", "wss://ws.memecore.net"],
+  "nativeCurrency": {
+    "name": "M",
+    "symbol": "M",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "infoURL": "https://memecore.com",
+  "shortName": "m",
+  "chainId": 4352,
+  "networkId": 4352,
+  "explorers": [{
+    "name": "OKX-MemeCore",
+    "url": "https://www.okx.com/web3/explorer/memecore",
+    "standard": "EIP3091"
+  }, {
+    "name": "MemeCoreScan",
+    "url": "https://memecorescan.io",
+    "standard": "EIP3091"
+  }, {
+    "name": "MemeCore explorer",
+    "url": "https://blockscout.memecore.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Credit Smart Chain Mainnet",
   "chain": "CREDIT",
   "rpc": ["https://rpc.creditsmartchain.com"],
@@ -31895,6 +31929,10 @@
   }, {
     "name": "MemeCoreScan-Formicarium",
     "url": "https://formicarium.memecorescan.io",
+    "standard": "EIP3091"
+  }, {
+    "name": "MemeCore Testnet Formicarium Explorer",
+    "url": "https://formicarium.blockscout.memecore.com",
     "standard": "EIP3091"
   }]
 }, {
