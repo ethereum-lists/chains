@@ -21956,6 +21956,19 @@
   "faucets": [],
   "infoURL": "https://lumoz.org"
 }, {
+  "name": "Wonder Testnet",
+  "chainId": 96371,
+  "shortName": "wndr",
+  "networkId": 96371,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.wonderchain.org"],
+  "faucets": ["https://wonderchain.org/faucet"],
+  "infoURL": "https://wonderchain.org"
+}, {
   "name": "Mantis Testnet (Hexapod)",
   "chainId": 96970,
   "shortName": "mantis",
