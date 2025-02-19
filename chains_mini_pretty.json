@@ -4406,7 +4406,7 @@
   "faucets": [],
   "infoURL": "https://pawchainx.com/"
 }, {
-  "name": "EVM on Flow Testnet",
+  "name": "Flow EVM Testnet",
   "chainId": 545,
   "shortName": "flow-testnet",
   "networkId": 545,
@@ -4731,7 +4731,7 @@
   "faucets": [],
   "infoURL": "https://avocado.instadapp.io"
 }, {
-  "name": "Previewnet",
+  "name": "Flow EVM Previewnet",
   "chainId": 646,
   "shortName": "flow-previewnet",
   "networkId": 646,
@@ -4740,8 +4740,8 @@
     "symbol": "FLOW",
     "decimals": 18
   },
-  "rpc": ["https://previewnet.evm.nodes.onflow.org"],
-  "faucets": ["https://previewnet-faucet.onflow.org"],
+  "rpc": [],
+  "faucets": [],
   "infoURL": "https://developers.flow.com/evm/about"
 }, {
   "name": "SX Network Testnet",
@@ -5173,7 +5173,7 @@
   "faucets": [],
   "infoURL": "https://tranched-mainnet.hub.caldera.xyz"
 }, {
-  "name": "EVM on Flow",
+  "name": "Flow EVM Mainnet",
   "chainId": 747,
   "shortName": "flow-mainnet",
   "networkId": 747,
