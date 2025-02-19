@@ -24608,18 +24608,18 @@
   "faucets": ["https://dev.caduceus.foundation/testNetwork"],
   "infoURL": "https://caduceus.foundation/"
 }, {
-  "name": "DisChain",
+  "name": "EthereumFair",
   "chainId": 513100,
-  "shortName": "dis",
+  "shortName": "ethf",
   "networkId": 513100,
   "nativeCurrency": {
-    "name": "DisChain",
-    "symbol": "DIS",
+    "name": "EthereumFair",
+    "symbol": "ETHF",
     "decimals": 18
   },
-  "rpc": ["https://rpc.dischain.xyz"],
+  "rpc": ["https://rpc.etherfair.org"],
   "faucets": [],
-  "infoURL": "https://dischain.xyz"
+  "infoURL": "https://etherfair.org/"
 }, {
   "name": "DoCoin Community Chain",
   "chainId": 526916,
