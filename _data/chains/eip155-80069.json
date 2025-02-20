@@ -1,9 +1,7 @@
 {
   "name": "Berachain Bepolia",
   "chain": "Berachain",
-  "rpc": [
-    "https://rpc.testnet.berachain.com"
-  ],
+  "rpc": ["https://testnet.rpc.berachain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Testnet BERA Token",
