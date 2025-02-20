@@ -15859,6 +15859,19 @@
   "faucets": ["https://faucet.chiado.wardenprotocol.org"],
   "infoURL": "https://wardenprotocol.org"
 }, {
+  "name": "DeepSafe Beta Mainnet",
+  "chainId": 10011,
+  "shortName": "DeepSafe",
+  "networkId": 10011,
+  "nativeCurrency": {
+    "name": "DeepSafe Native Token",
+    "symbol": "DEF",
+    "decimals": 18
+  },
+  "rpc": ["https://betamainnet-rpc-node-http.deepsafe.network"],
+  "faucets": [],
+  "infoURL": "https://deepsafe.network/"
+}, {
   "name": "Gon Chain",
   "chainId": 10024,
   "shortName": "gon",
