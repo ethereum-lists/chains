@@ -13090,6 +13090,19 @@
   "faucets": [],
   "infoURL": "https://uptn.io"
 }, {
+  "name": "Tea Mainnet",
+  "chainId": 6122,
+  "shortName": "tea",
+  "networkId": 6122,
+  "nativeCurrency": {
+    "name": "Tea",
+    "symbol": "TEA",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://tea.xyz"
+}, {
   "name": "Rails",
   "chainId": 6278,
   "shortName": "rails",
@@ -15988,6 +16001,19 @@
   "rpc": ["https://rpc.maxxchain.org", "https://rpc1.maxxchain.org", "https://rpc2.maxxchain.org"],
   "faucets": ["https://faucet.maxxchain.org"],
   "infoURL": "https://www.maxxchain.org/"
+}, {
+  "name": "Tea Sepolia Testnet",
+  "chainId": 10218,
+  "shortName": "teasep",
+  "networkId": 10218,
+  "nativeCurrency": {
+    "name": "Sepolia Tea",
+    "symbol": "TEA",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://tea.xyz"
 }, {
   "name": "GLScan",
   "chainId": 10222,
