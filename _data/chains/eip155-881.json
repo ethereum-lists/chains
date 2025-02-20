@@ -1,33 +1,36 @@
 {
-    "name": "Weber Governance Mainnet",
-    "chain": "PTT",
-    "rpc": [
-        "https://chain.myweber.org"
-    ],
-    "faucets": [],
-    "nativeCurrency":
+  "name": "Weber Governance Mainnet",
+  "chain": "PTT",
+  "rpc": [
+    "https://chain.myweber.org"
+  ],
+  "faucets": [
+    
+  ],
+  "nativeCurrency": {
+    "name": "Pallet",
+    "symbol": "PTT",
+    "decimals": 18
+  },
+  "features": [
     {
-        "name": "Pallet",
-        "symbol": "PTT",
-        "decimals": 18
+      "name": "EIP155"
     },
-    "features": [
     {
-        "name": "EIP155"
-    },
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://myweber.org",
+  "shortName": "ptt",
+  "chainId": 881,
+  "networkId": 881,
+  "icon": "ptt",
+  "explorers": [
     {
-        "name": "EIP1559"
-    }],
-    "infoURL": "https://myweber.org",
-    "shortName": "ptt",
-    "chainId": 881,
-    "networkId": 881,
-    "icon": "ptt",
-    "explorers": [
-    {
-        "name": "ptt",
-        "url": "https://mainnet.myweber.org",
-        "icon": "ptt",
-        "standard": "EIP3091"
-    }]
+      "name": "ptt",
+      "url": "https://mainnet.myweber.org",
+      "icon": "ptt",
+      "standard": "EIP3091"
+    }
+  ]
 }
