@@ -18199,6 +18199,19 @@
   "faucets": [],
   "infoURL": "https://www.mintme.com"
 }, {
+  "name": "Recall",
+  "chainId": 24816,
+  "shortName": "recall",
+  "networkId": 24816,
+  "nativeCurrency": {
+    "name": "Recall",
+    "symbol": "RECALL",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.node-0.mainnet.recall.network"],
+  "faucets": [],
+  "infoURL": "https://recall.network"
+}, {
   "name": "LiquidLayer Mainnet",
   "chainId": 25186,
   "shortName": "LILA",
@@ -25985,6 +25998,19 @@
   "rpc": ["https://api-cloud.coinweb.io/eth-rpc-service/bnb"],
   "faucets": [],
   "infoURL": "https://coinweb.io"
+}, {
+  "name": "Recall Testnet",
+  "chainId": 2481632,
+  "shortName": "trecall",
+  "networkId": 2481632,
+  "nativeCurrency": {
+    "name": "Recall",
+    "symbol": "RECALL",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.v013.node-0.testnet.recall.network"],
+  "faucets": ["faucet.recall.network"],
+  "infoURL": "https://recall.network"
 }, {
   "name": "DPU Chain",
   "chainId": 2611555,
