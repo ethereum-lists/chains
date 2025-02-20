@@ -1,7 +1,7 @@
 {
   "name": "Recall Testnet",
   "chain": "Recall Testnet",
-  "rpc": [" https://evm.v013.node-0.testnet.recall.network/"],
+  "rpc": [" https://evm.v013.node-0.testnet.recall.network"],
   "faucets": ["faucet.recall.network"],
   "nativeCurrency": {
     "name": "Recall",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "Recall testnet explorer",
-      "url": "https://explorer.testnet.recall.network/",
+      "url": "https://explorer.testnet.recall.network",
       "standard": "EIP3091"
     }
   ]
