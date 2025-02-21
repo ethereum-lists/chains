@@ -23620,18 +23620,18 @@
   "faucets": [],
   "infoURL": "https://www.platon.network"
 }, {
-  "name": "Litentry",
+  "name": "Heima",
   "chainId": 212013,
-  "shortName": "litentry",
+  "shortName": "heima",
   "networkId": 212013,
   "nativeCurrency": {
-    "name": "Litentry",
-    "symbol": "LIT",
+    "name": "Heima",
+    "symbol": "HEI",
     "decimals": 18
   },
   "rpc": ["https://rpc.litentry-parachain.litentry.io", "wss://rpc.litentry-parachain.litentry.io", "https://litentry-rpc.dwellir.com", "wss://litentry-rpc.dwellir.com"],
   "faucets": [],
-  "infoURL": "https://litentry.com"
+  "infoURL": "https://heima.network"
 }, {
   "name": "Mas Mainnet",
   "chainId": 220315,
