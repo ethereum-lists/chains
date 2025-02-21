@@ -23642,7 +23642,7 @@
     "symbol": "WETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.hydradx.cloud", "wss://rpc.hydradx.cloud"],
+  "rpc": ["https://rpc.hydradx.cloud", "wss://rpc.hydradx.cloud", "https://hydration-rpc.n.dwellir.com", "wss://hydration-rpc.n.dwellir.com", "https://rpc.helikon.io/hydradx", "wss://rpc.helikon.io/hydradx", "https://hydration.dotters.network", "wss://hydration.dotters.network"],
   "faucets": [],
   "infoURL": "https://hydration.net/"
 }, {
