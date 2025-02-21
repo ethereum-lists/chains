@@ -5628,6 +5628,19 @@
   "faucets": [],
   "infoURL": "https://ambros.network"
 }, {
+  "name": "Weber Governance Mainnet",
+  "chainId": 881,
+  "shortName": "ptt",
+  "networkId": 881,
+  "nativeCurrency": {
+    "name": "PALLET",
+    "symbol": "PTT",
+    "decimals": 18
+  },
+  "rpc": ["https://chain.myweber.org"],
+  "faucets": [],
+  "infoURL": "https://myweber.org"
+}, {
   "name": "Wanchain",
   "chainId": 888,
   "shortName": "wan",
