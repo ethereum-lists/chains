@@ -515,7 +515,7 @@
     "symbol": "TLOS",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.telos.net/evm", "https://telos.drpc.org", "wss://telos.drpc.org"],
+  "rpc": ["https://rpc.telos.net", "https://telos.drpc.org", "wss://telos.drpc.org"],
   "faucets": [],
   "infoURL": "https://telos.net"
 }, {
@@ -528,7 +528,7 @@
     "symbol": "TLOS",
     "decimals": 18
   },
-  "rpc": ["https://testnet.telos.net/evm", "https://telos-testnet.drpc.org", "wss://telos-testnet.drpc.org"],
+  "rpc": ["https://rpc.testnet.telos.net", "https://telos-testnet.drpc.org", "wss://telos-testnet.drpc.org"],
   "faucets": ["https://app.telos.net/testnet/developers"],
   "infoURL": "https://telos.net"
 }, {
