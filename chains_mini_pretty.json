@@ -19928,6 +19928,19 @@
   "faucets": [],
   "infoURL": "https://cytonic.com"
 }, {
+  "name": "Cytonic L2 Testnet",
+  "chainId": 52226,
+  "shortName": "CL2T",
+  "networkId": 52226,
+  "nativeCurrency": {
+    "name": "Cytonic",
+    "symbol": "CCC",
+    "decimals": 18
+  },
+  "rpc": ["http://rpc.evm.testnet.cytonic.com"],
+  "faucets": [],
+  "infoURL": "https://cytonic.com"
+}, {
   "name": "DOID",
   "chainId": 53277,
   "shortName": "DOID",
