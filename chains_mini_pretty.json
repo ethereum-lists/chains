@@ -21306,6 +21306,19 @@
   "faucets": [],
   "infoURL": "https://polynomial.fi"
 }, {
+  "name": "Berachain Bepolia",
+  "chainId": 80069,
+  "shortName": "berachain-bepolia",
+  "networkId": 80069,
+  "nativeCurrency": {
+    "name": "Testnet BERA Token",
+    "symbol": "BERA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.rpc.berachain.com"],
+  "faucets": [],
+  "infoURL": "https://www.berachain.com"
+}, {
   "name": "Berachain bArtio",
   "chainId": 80084,
   "shortName": "berachainbArtio",
