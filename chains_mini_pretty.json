@@ -24881,6 +24881,19 @@
   "faucets": [],
   "infoURL": "https://www.cmuccdc.org/"
 }, {
+  "name": "Hetu Testnet",
+  "chainId": 560000,
+  "shortName": "HETU",
+  "networkId": 560000,
+  "nativeCurrency": {
+    "name": "tETH",
+    "symbol": "tETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testchainv1.hetuscan.com"],
+  "faucets": ["https:/testchainv1.hetuscan.com"],
+  "infoURL": "https://hetu.org"
+}, {
   "name": "DJT Testnet",
   "chainId": 621847,
   "shortName": "DJT",
