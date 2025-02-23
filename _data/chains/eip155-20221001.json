@@ -1,8 +1,8 @@
 {
-  "name": "SoonChain Sepolia Devnet",
+  "name": "SoonChain Devnet Sepolia",
   "chain": "SoonChain Devnet Sepolia",
   "rpc": ["https://sepolia.rpc.soonchain.ai"],
-  "faucets": ["https://console.optimism.io/faucet"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
@@ -23,8 +23,8 @@
   "icon": "soonchain",
   "explorers": [
     {
-      "name": "Soon Scan",
-      "url": "https://sepolia.explorer.soonchain.ai",
+      "name": "Soonscan",
+      "url": "https://devnet.soonscan.soonchain.ai",
       "standard": "none"
     }
   ]
