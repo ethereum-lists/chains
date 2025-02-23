@@ -12702,14 +12702,14 @@
 }, {
   "name": "edeXa Mainnet",
   "chainId": 5424,
-  "shortName": "edeXa",
+  "shortName": "edx",
   "networkId": 5424,
   "nativeCurrency": {
-    "name": "EDEXA",
+    "name": "edeXa",
     "symbol": "EDX",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.edexa.network/rpc", "https://mainnet.edexa.com/rpc"],
+  "rpc": ["https://mainnet.edexa.network/rpc", "wss://mainnet.edexa.network/wss", "https://mainnet.edexa.com/rpc", "wss://mainnet.edexa.com/wss"],
   "faucets": [],
   "infoURL": "https://edexa.network/"
 }, {
