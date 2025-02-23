@@ -25765,6 +25765,19 @@
   "faucets": [],
   "infoURL": "https://hewe.io/"
 }, {
+  "name": "Naga Testnet",
+  "chainId": 1008686,
+  "shortName": "Naga",
+  "networkId": 1008686,
+  "nativeCurrency": {
+    "name": "Naga",
+    "symbol": "Naga",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.nagafintech.com", "wss://rpc.nagafintech.com"],
+  "faucets": [],
+  "infoURL": "https://stablecoin.nagafintech.com/#/app/home"
+}, {
   "name": "Netmind Chain Testnet",
   "chainId": 1100789,
   "shortName": "nmtTest",
