@@ -14,10 +14,12 @@
   "chainId": 1727,
   "networkId": 1727,
   "icon": "ethpar",
-  "explorers": [{
-    "name": "Ethpar Mainnet Explorer",
-    "url": "https://dora.ethpar.net",
-    "icon": "ethpar",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "Ethpar Mainnet Explorer",
+      "url": "https://dora.ethpar.net",
+      "icon": "ethpar",
+      "standard": "EIP3091"
+    }
+  ]
 }
