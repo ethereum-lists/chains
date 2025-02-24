@@ -1,9 +1,7 @@
 {
   "name": "BlackFort Exchange Network",
   "chain": "BXN",
-  "rpc": [
-    "https://rpc.blackfort.network/mainnet/rpc"
-  ],
+  "rpc": ["https://rpc.blackfort.network/mainnet/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BlackFort Token",
