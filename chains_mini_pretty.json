@@ -26025,6 +26025,19 @@
   "faucets": [],
   "infoURL": "https://debank.com"
 }, {
+  "name": "Alterscope Testnet",
+  "chainId": 2022091,
+  "shortName": "AlterscopeTest",
+  "networkId": 2022091,
+  "nativeCurrency": {
+    "name": "RISK Test Token",
+    "symbol": "RISKT",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://alterscope.org"
+}, {
   "name": "Plian Mainnet Main",
   "chainId": 2099156,
   "shortName": "plian-mainnet",
