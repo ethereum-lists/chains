@@ -45213,6 +45213,20 @@
     "chain": "eip155-11155111"
   }
 }, {
+  "name": "dKargo Warehouse Testnet",
+  "chain": "dKargo Warehouse",
+  "rpc": ["https://warehouse-full01.dkargo.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "dKargo",
+    "symbol": "DKA",
+    "decimals": 18
+  },
+  "infoURL": "https://dkargo.io",
+  "shortName": "dkargowarehouse",
+  "chainId": 61022448,
+  "networkId": 61022448
+}, {
   "name": "Aquachain",
   "chain": "AQUA",
   "rpc": ["https://c.onical.org", "https://tx.aquacha.in/api"],

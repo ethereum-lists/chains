@@ -27377,6 +27377,19 @@
   "faucets": [],
   "infoURL": "https://fluence.network/"
 }, {
+  "name": "dKargo Warehouse Testnet",
+  "chainId": 61022448,
+  "shortName": "dkargowarehouse",
+  "networkId": 61022448,
+  "nativeCurrency": {
+    "name": "dKargo",
+    "symbol": "DKA",
+    "decimals": 18
+  },
+  "rpc": ["https://warehouse-full01.dkargo.io"],
+  "faucets": [],
+  "infoURL": "https://dkargo.io"
+}, {
   "name": "Aquachain",
   "chainId": 61717561,
   "shortName": "aqua",
