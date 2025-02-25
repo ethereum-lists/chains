@@ -25245,6 +25245,19 @@
   "faucets": [],
   "infoURL": "https://inkonchain.com/"
 }, {
+  "name": "Surge Testnet",
+  "chainId": 763374,
+  "shortName": "surge-testnet",
+  "networkId": 763374,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://l2-rpc.surge.staging-nethermind.xyz", "wss://l2-rpc.surge.staging-nethermind.xyz"],
+  "faucets": [],
+  "infoURL": "https://surge.wtf"
+}, {
   "name": "Lamina1 Testnet",
   "chainId": 764984,
   "shortName": "lamina1test",
