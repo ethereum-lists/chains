@@ -1,10 +1,7 @@
 {
   "name": "Fluence Stage",
   "chain": "Fluence Stage (Testnet)",
-  "rpc": [
-    "https://rpc-123420000220.raas-testnet.gelato.digital/",
-    "wss://ws-123420000220.raas-testnet.gelato.digital/"
-  ],
+  "rpc": ["https://rpc.stage.fluence.dev", "wss://ws.stage.fluence.dev"],
   "faucets": [],
   "nativeCurrency": {
     "name": "tFLT",
@@ -18,7 +15,7 @@
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://blockscout-123420000220.raas-testnet.gelato.digital",
+      "url": "https://blockscout.stage.fluence.dev",
       "standard": "EIP3091"
     }
   ],

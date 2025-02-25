@@ -2,10 +2,10 @@
   "name": "Tanssi Demo",
   "chain": "TANGO",
   "rpc": [
-    "https://fraa-dancebox-3001-rpc.a.dancebox.tanssi.network",
-    "wss://fraa-dancebox-3001-rpc.a.dancebox.tanssi.network"
+    "https://dancebox-3001.tanssi-api.network",
+    "wss://dancebox-3001.tanssi-api.network"
   ],
-  "faucets": [],
+  "faucets": ["https://apps.tanssi.network/demo"],
   "nativeCurrency": {
     "name": "TANGO",
     "symbol": "TANGO",
@@ -18,7 +18,7 @@
   "explorers": [
     {
       "name": "BlockScout",
-      "url": "https://3001-blockscout.a.dancebox.tanssi.network",
+      "url": "https://fra-dancebox-3001-bs.a.dancebox.tanssi.network",
       "standard": "EIP3091"
     }
   ]
