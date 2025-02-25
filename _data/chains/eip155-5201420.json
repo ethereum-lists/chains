@@ -1,14 +1,21 @@
 {
   "name": "Electroneum Testnet",
   "chain": "Electroneum",
-  "rpc": ["https://testnet-rpc.electroneum.com"],
+  "rpc": ["https://rpc.ankr.com/electroneum_testnet"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Electroneum",
     "symbol": "ETN",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://electroneum.com",
   "shortName": "etn-testnet",
   "chainId": 5201420,

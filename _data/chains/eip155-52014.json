@@ -1,14 +1,21 @@
 {
   "name": "Electroneum Mainnet",
   "chain": "Electroneum",
-  "rpc": ["https://rpc.electroneum.com"],
+  "rpc": ["https://rpc.ankr.com/electroneum", "https://rpc.electroneum.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Electroneum",
     "symbol": "ETN",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://electroneum.com",
   "shortName": "etn-mainnet",
   "chainId": 52014,
