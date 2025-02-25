@@ -27,13 +27,15 @@
         "rpc":{
             "type":"array",
             "items":{
-                "type":"string"
+                "type":"string",
+                "pattern": "^https?://.*$"
             }
         },
         "faucets":{
             "type":"array",
             "items":{
-                "type":"string"
+                "type":"string",
+                "pattern": "^https?://.*$"
             }
         },
         "features":{
@@ -63,11 +65,13 @@
                     "type":"number",
                     "description":"Decimal points supported"
                 }
-            }
+            },
+            "required": ["name", "symbol", "decimals"]
         },
         "infoURL":{
             "type":"string",
-            "description": "infoURL"
+            "description": "infoURL",
+            "pattern": "^https?://.*$"
         },
         "chainId":{
             "type":"number",
@@ -98,13 +102,15 @@
                         "type":"string"
                     },
                     "url":{
-                        "type":"string"
+                        "type":"string",
+                        "pattern": "^https?://.*$"
                     },
                     "standard":{
                         "type":"string",
 			"description": "EIP3091 or none"
                     }
-                }
+                },
+                "required": ["name", "url"]
             }
         },
         "parent":{
@@ -122,7 +128,8 @@
                         "type":"object",
                         "properties":{
                             "url": {
-                                "type":"string"
+                                "type":"string",
+                                "pattern": "^https?://.*$"
                             }
                         }
                     }

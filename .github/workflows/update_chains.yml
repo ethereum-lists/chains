@@ -1,0 +1,41 @@
+name: Update & Validate EVM Chains Data
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # تشغيل كل ساعة
+  workflow_dispatch:  # دعم التشغيل اليدوي
+
+jobs:
+  update-chains:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🔄 تحميل المستودع
+        uses: actions/checkout@v4
+
+      - name: ⚙️ إعداد Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: 📦 تثبيت المتطلبات
+        run: |
+          pip install -r requirements.txt
+
+      - name: 🚀 تشغيل التحديث والتحقق
+        run: python script.py
+
+      - name: 📝 رفع التعديلات
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add chains.json
+          git commit -m "🔄 تحديث بيانات الشبكات $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+          git push
+
+      - name: 📢 إرسال تقرير إلى Discord
+        if: always()
+        run: |
+          curl -H "Content-Type: application/json" \
+               -X POST \
+               -d '{"content": "🚀 تحديث بيانات الشبكات ناجح! ✅"}' \
+               ${{ secrets.DISCORD_WEBHOOK }}

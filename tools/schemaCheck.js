@@ -4,6 +4,7 @@ const ajv = new Ajv()
 const schema = require("./schema/chainSchema.json")
 const { exit } = require("process")
 const path = require('path')
+const http = require('http')
 
 const resolve = (_path) => path.resolve(__dirname, _path)
 const chainFiles = fs.readdirSync(resolve("../_data/chains/"))
@@ -29,6 +30,34 @@ for (const chainFile of chainFiles) {
   if (!valid) {
     console.error(ajv.errors)
     filesWithErrors.push(chainFile)
+  }
+
+  // Custom validation for rpc URLs
+  if (fileDataJson.rpc) {
+    for (const url of fileDataJson.rpc) {
+      try {
+        const request = http.get(url, (response) => {
+          if (response.statusCode !== 200) {
+            throw new Error(`RPC URL ${url} is not reachable`)
+          }
+        })
+        request.on('error', (err) => {
+          throw new Error(`RPC URL ${url} is not reachable: ${err.message}`)
+        })
+      } catch (err) {
+        console.error(err.message)
+        filesWithErrors.push(chainFile)
+      }
+    }
+  }
+
+  // Custom validation for nativeCurrency fields
+  if (fileDataJson.nativeCurrency) {
+    const { name, symbol, decimals } = fileDataJson.nativeCurrency
+    if (!name || !symbol || typeof decimals !== 'number') {
+      console.error(`Invalid nativeCurrency fields in ${chainFile}`)
+      filesWithErrors.push(chainFile)
+    }
   }
 }
 
