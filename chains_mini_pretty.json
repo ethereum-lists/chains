@@ -16379,6 +16379,19 @@
   "faucets": [],
   "infoURL": "https://islamiccoin.net"
 }, {
+  "name": "StateMesh Testnet",
+  "chainId": 11343,
+  "shortName": "mesh-test",
+  "networkId": 11343,
+  "nativeCurrency": {
+    "name": "StateMesh",
+    "symbol": "MESH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-test.statemesh.net"],
+  "faucets": ["https://faucet.statemesh.net"],
+  "infoURL": "https://statemesh.net"
+}, {
   "name": "Shyft Testnet",
   "chainId": 11437,
   "shortName": "shyftt",
