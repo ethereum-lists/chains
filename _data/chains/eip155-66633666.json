@@ -1,0 +1,25 @@
+{
+  "name": "JuChain Testnet",
+  "chainId": 66633666,
+  "shortName": "JU",
+  "chain": "JuChain",
+  "network": "testnet",
+  "networkId": 66633666,
+  "nativeCurrency": {
+    "name": "JuChain Testnet Coin",
+    "symbol": "JU",
+    "decimals": 18
+  },
+  "rpc": [
+    "http://testnet-rpc.juchain.org"
+  ],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "JuChain Testnet Explorer",
+      "url": "https://explorer-testnet.juchain.org",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://testnet.juchain.org/"
+}
