@@ -8228,6 +8228,19 @@
   "faucets": [],
   "infoURL": "https://hashpalette.com/"
 }, {
+  "name": "Ethpar Mainnet",
+  "chainId": 1727,
+  "shortName": "ethpar",
+  "networkId": 1727,
+  "nativeCurrency": {
+    "name": "Ethpar",
+    "symbol": "ETP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc01.ethpar.net/"],
+  "faucets": [],
+  "infoURL": "https://ethpar.com"
+}, {
   "name": "Reya Network",
   "chainId": 1729,
   "shortName": "reya",
@@ -25374,6 +25387,19 @@
   "rpc": ["https://rpc.octa.space", "wss://rpc.octa.space"],
   "faucets": [],
   "infoURL": "https://octa.space"
+}, {
+  "name": "Ethpar Testnet",
+  "chainId": 806582,
+  "shortName": "ethpar-tesnet",
+  "networkId": 806582,
+  "nativeCurrency": {
+    "name": "Ethpar",
+    "symbol": "ETP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc82.testnet.ethpar.net/"],
+  "faucets": [],
+  "infoURL": "https://ethpar.com"
 }, {
   "name": "BIZ Smart Chain Testnet",
   "chainId": 808080,

@@ -13433,6 +13433,32 @@
     "standard": "none"
   }]
 }, {
+  "name": "Ethpar Mainnet",
+  "chain": "ETP",
+  "rpc": ["https://rpc01.ethpar.net/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ethpar",
+    "symbol": "ETP",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://ethpar.com",
+  "shortName": "ethpar",
+  "chainId": 1727,
+  "networkId": 1727,
+  "icon": "ethpar",
+  "explorers": [{
+    "name": "Ethpar Mainnet Explorer",
+    "url": "https://dora.ethpar.net",
+    "icon": "ethpar",
+    "standard": "none"
+  }]
+}, {
   "name": "Reya Network",
   "chain": "Reya",
   "rpc": ["https://rpc.reya.network", "wss://ws.reya.network"],
@@ -41865,6 +41891,32 @@
     "url": "https://explorer.octa.space",
     "icon": "blockscout",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Ethpar Testnet",
+  "chain": "ETP",
+  "rpc": ["https://rpc82.testnet.ethpar.net/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ethpar",
+    "symbol": "ETP",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://ethpar.com",
+  "shortName": "ethpar-tesnet",
+  "chainId": 806582,
+  "networkId": 806582,
+  "icon": "ethpar",
+  "explorers": [{
+    "name": "Ethpar Testnet Explorer",
+    "url": "https://dora.testnet.ethpar.net",
+    "icon": "ethpar",
+    "standard": "none"
   }]
 }, {
   "name": "BIZ Smart Chain Testnet",
