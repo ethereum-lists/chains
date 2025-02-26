@@ -1,6 +1,7 @@
 {
-  "name": "Onfa Chain",
-  "chain": "OFC",
+  "name": "ONFA Chain Mainnet",
+  "title": "ONFA Chain Mainnet",
+  "chain": "onfa",
   "rpc": [
     "https://rpc.onfa.io"
   ],
@@ -12,12 +13,12 @@
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://onfa.io",
-  "shortName": "ofc",
+  "shortName": "onfa-mainnet",
   "chainId": 8691942025,
-  "networkId": 1,
+  "networkId": 8691942025,
   "icon": "onfachain",
   "explorers": [{
-    "name": "onfascan",
+    "name": "ONFA Scan",
     "url": "https://onfascan.com",
     "icon": "onfachain",
     "standard": "EIP3091"
