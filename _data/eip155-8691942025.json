@@ -1,1 +1,27 @@
-
+{
+  "name": "ONFA Chain",
+  "chain": "ONFA",
+  "rpc": [
+    "https://rpc.onfa.io"
+  ],
+  "faucets": [
+    "https://faucet.onfa.io"
+  ],
+  "nativeCurrency": {
+    "name": "ONFA Coin",
+    "symbol": "OFC",
+    "decimals": 18
+  },
+  "infoURL": "https://onfa.io",
+  "shortName": "ofc",
+  "chainId": 99999,
+  "networkId": 99999,
+  "explorers": [
+    {
+      "name": "MyChain Explorer",
+      "url": "https://explorer.mychain.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "icon": "mychain"
+}
