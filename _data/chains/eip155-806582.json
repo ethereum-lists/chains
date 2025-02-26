@@ -14,10 +14,12 @@
   "chainId": 806582,
   "networkId": 806582,
   "icon": "ethpar",
-  "explorers": [{
-    "name": "Ethpar Testnet Explorer",
-    "url": "https://dora.testnet.ethpar.net",
-    "icon": "ethpar",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "Ethpar Testnet Explorer",
+      "url": "https://dora.testnet.ethpar.net",
+      "icon": "ethpar",
+      "standard": "none"
+    }
+  ]
 }
