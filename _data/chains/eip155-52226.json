@@ -1,6 +1,6 @@
 {
-  "name": "Cytonic L2 Testnet",
-  "chain": "CytonicL2",
+  "name": "Cytonic Ethereum Testnet",
+  "chain": "CytonicEVM",
   "rpc": ["http://rpc.evm.testnet.cytonic.com"],
   "faucets": [],
   "nativeCurrency": {
@@ -9,7 +9,7 @@
     "decimals": 18
   },
   "infoURL": "https://cytonic.com",
-  "shortName": "CL2T",
+  "shortName": "CEVM",
   "chainId": 52226,
   "networkId": 52226,
   "icon": "cytonic_l2",
