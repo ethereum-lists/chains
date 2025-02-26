@@ -23191,6 +23191,19 @@
   "faucets": [],
   "infoURL": "https://www.zchains.com/"
 }, {
+  "name": "MUD Chain",
+  "chainId": 168169,
+  "shortName": "MUD",
+  "networkId": 168169,
+  "nativeCurrency": {
+    "name": "MUD",
+    "symbol": "MUD",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mud.network"],
+  "faucets": ["https://faucet.mud.network"],
+  "infoURL": "https://mud.network"
+}, {
   "name": "Fair Testnet",
   "chainId": 171000,
   "shortName": "fairt",
