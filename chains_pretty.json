@@ -16194,16 +16194,16 @@
   }]
 }, {
   "name": "Atleta Olympia",
-  "chain": "Atleta",
-  "rpc": ["wss://testnet-rpc.atleta.network:9944", "https://testnet-rpc.atleta.network:9944", "https://testnet-rpc.atleta.network"],
+  "chain": "Atleta Testnet Olympia",
+  "rpc": ["https://testnet-rpc.atleta.network", "https://rpc.ankr.com/atleta_olympia", "wss://testnet-rpc.atleta.network", "https://atleta-testnet.htw.tech/", "https://public-atleta.nownodes.io"],
   "faucets": ["https://app-olympia.atleta.network/faucet"],
   "nativeCurrency": {
-    "name": "Atla",
+    "name": "Atla Olympia",
     "symbol": "ATLA",
     "decimals": 18
   },
   "infoURL": "https://atleta.network",
-  "shortName": "atla",
+  "shortName": "olym",
   "chainId": 2340,
   "networkId": 2340,
   "slip44": 1,
@@ -16211,7 +16211,7 @@
   "explorers": [{
     "name": "Atleta Olympia Explorer",
     "icon": "atleta",
-    "url": "https://blockscout.atleta.network",
+    "url": "https://blockscout.testnet-v2.atleta.network",
     "standard": "none"
   }, {
     "name": "Atleta Olympia Polka Explorer",
@@ -16586,6 +16586,33 @@
   "chainId": 2426,
   "networkId": 2426,
   "status": "incubating"
+}, {
+  "name": "Atleta Network",
+  "chain": "Atleta",
+  "rpc": ["https://rpc.mainnet.atleta.network", "wss://rpc.mainnet.atleta.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Atla",
+    "symbol": "ATLA",
+    "decimals": 18
+  },
+  "infoURL": "https://atleta.network",
+  "shortName": "atla",
+  "chainId": 2440,
+  "networkId": 2440,
+  "slip44": 965,
+  "icon": "atleta",
+  "explorers": [{
+    "name": "Atleta Explorer",
+    "icon": "atleta",
+    "url": "https://blockscout.atleta.network",
+    "standard": "none"
+  }, {
+    "name": "Atleta Polka Explorer",
+    "icon": "atleta",
+    "url": "https://polkadot-explorer.atleta.network/#/explorer",
+    "standard": "none"
+  }]
 }, {
   "name": "Polygon zkEVM Cardona Testnet",
   "title": "Polygon zkEVM Cardona Testnet",

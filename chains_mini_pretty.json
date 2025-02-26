@@ -9933,14 +9933,14 @@
 }, {
   "name": "Atleta Olympia",
   "chainId": 2340,
-  "shortName": "atla",
+  "shortName": "olym",
   "networkId": 2340,
   "nativeCurrency": {
-    "name": "Atla",
+    "name": "Atla Olympia",
     "symbol": "ATLA",
     "decimals": 18
   },
-  "rpc": ["wss://testnet-rpc.atleta.network:9944", "https://testnet-rpc.atleta.network:9944", "https://testnet-rpc.atleta.network"],
+  "rpc": ["https://testnet-rpc.atleta.network", "https://rpc.ankr.com/atleta_olympia", "wss://testnet-rpc.atleta.network", "https://atleta-testnet.htw.tech/", "https://public-atleta.nownodes.io"],
   "faucets": ["https://app-olympia.atleta.network/faucet"],
   "infoURL": "https://atleta.network"
 }, {
@@ -10151,6 +10151,19 @@
   "rpc": [],
   "faucets": [],
   "infoURL": "https://standardweb3.com"
+}, {
+  "name": "Atleta Network",
+  "chainId": 2440,
+  "shortName": "atla",
+  "networkId": 2440,
+  "nativeCurrency": {
+    "name": "Atla",
+    "symbol": "ATLA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mainnet.atleta.network", "wss://rpc.mainnet.atleta.network"],
+  "faucets": [],
+  "infoURL": "https://atleta.network"
 }, {
   "name": "Polygon zkEVM Cardona Testnet",
   "chainId": 2442,
