@@ -1,0 +1,25 @@
+{
+  "name": "Onfa Chain",
+  "chain": "OFC",
+  "rpc": [
+    "https://rpc.onfa.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Onfa Coin",
+    "symbol": "OFC",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://onfa.io",
+  "shortName": "ofc",
+  "chainId": 8691942025,
+  "networkId": 1,
+  "icon": "onfachain",
+  "explorers": [{
+    "name": "onfascan",
+    "url": "https://onfascan.com",
+    "icon": "onfachain",
+    "standard": "EIP3091"
+  }]
+}
