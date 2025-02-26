@@ -44447,13 +44447,13 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": " Privix Chain Mainnet",
-  "chain": "PSC",
+  "name": "Privix Chain Mainnet",
+  "chain": "PRIVIX",
   "rpc": ["https://mainnet-rpc.privixchain.xyz/", "wss://mainnet-rpc.privixchain.xyz/ws"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Privix Coin",
-    "symbol": "PSC",
+    "symbol": "PRIVIX",
     "decimals": 18
   },
   "infoURL": "https://privix.co/",
@@ -45688,12 +45688,12 @@
   "status": "active"
 }, {
   "name": " Privix Chain Testnet",
-  "chain": "PSC",
+  "chain": "PRIVIX",
   "rpc": ["https://testnet-rpc.privixchain.xyz/", "wss://testnet-rpc.privixchain.xyz/ws"],
   "faucets": ["https://faucet.privixchain.xyz"],
   "nativeCurrency": {
     "name": "Privix Coin",
-    "symbol": "tPSC",
+    "symbol": "PRIVIX",
     "decimals": 18
   },
   "infoURL": "https://privix.co/",

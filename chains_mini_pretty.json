@@ -26909,13 +26909,13 @@
   "faucets": [],
   "infoURL": "https://plian.org"
 }, {
-  "name": " Privix Chain Mainnet",
+  "name": "Privix Chain Mainnet",
   "chainId": 16969696,
   "shortName": "mpsc",
   "networkId": 16969696,
   "nativeCurrency": {
     "name": "Privix Coin",
-    "symbol": "PSC",
+    "symbol": "PRIVIX",
     "decimals": 18
   },
   "rpc": ["https://mainnet-rpc.privixchain.xyz/", "wss://mainnet-rpc.privixchain.xyz/ws"],
@@ -27656,7 +27656,7 @@
   "networkId": 96969696,
   "nativeCurrency": {
     "name": "Privix Coin",
-    "symbol": "tPSC",
+    "symbol": "PRIVIX",
     "decimals": 18
   },
   "rpc": ["https://testnet-rpc.privixchain.xyz/", "wss://testnet-rpc.privixchain.xyz/ws"],
