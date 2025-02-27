@@ -2,7 +2,12 @@
   "name": "ONFA Chain",
   "title": "ONFA Chain",
   "chain": "onfa",
-  "rpc": ["https://rpc.onfa.io","wss://ws.onfa.io","https://rpc.onfachain.com","wss://ws.onfachain.io"],
+  "rpc": [
+    "https://rpc.onfa.io",
+    "wss://ws.onfa.io",
+    "https://rpc.onfachain.com",
+    "wss://ws.onfachain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Onfa Coin",
