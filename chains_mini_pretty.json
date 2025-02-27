@@ -23945,6 +23945,19 @@
   "faucets": [],
   "infoURL": "https://saakuru.network"
 }, {
+  "name": "CELESTIUM Network Testnet",
+  "chainId": 252525,
+  "shortName": "tclt",
+  "networkId": 252525,
+  "nativeCurrency": {
+    "name": "CLT",
+    "symbol": "tCLT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-private-testnet.celestium.network"],
+  "faucets": ["https://faucet.celestium.network"],
+  "infoURL": "https://celestium.network"
+}, {
   "name": "CMP-Mainnet",
   "chainId": 256256,
   "shortName": "cmp-mainnet",
