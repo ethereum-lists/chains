@@ -1,7 +1,12 @@
 {
   "name": "Primea Chain",
   "chain": "Primea Chain",
-  "rpc": ["https://rpc.primeanetwork.com"],
+  "rpc": [
+    "http://rpc.primeanetwork.com/rpc-http",
+    "https://rpc.primeanetwork.com/rpc-https",
+    "ws://rpc.primeanetwork.com/rpc-ws",
+    "wss://rpc.primeanetwork.com/rpc-wss"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "PrimeaCoin",
