@@ -30175,6 +30175,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "XferChain Testnet",
+  "chain": "XferChain Testnet",
+  "icon": "xferIcon",
+  "rpc": ["https://testnet-rpc.xferchain.org"],
+  "faucets": ["https://faucet.xferchain.org"],
+  "nativeCurrency": {
+    "name": "Dapo",
+    "symbol": "Dapo",
+    "decimals": 18
+  },
+  "infoURL": "https://xferchain.org",
+  "shortName": "DPt",
+  "chainId": 27125,
+  "networkId": 27125,
+  "explorers": [{
+    "name": "XferChain Testnet Explorer",
+    "url": "https://testnet.xferchain.org",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "KLAOS Nova",
   "title": "KLAOS Nova Test Chain",
   "chain": "KLAOS Nova",
@@ -30245,6 +30265,26 @@
   "explorers": [{
     "name": "ZEROONEMAI Explorer",
     "url": "https://subnets.avax.network/zeroonemai",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "XferChain Mainnet",
+  "chain": "XferChain Mainnet",
+  "icon": "xferIcon",
+  "rpc": ["https://rpc.xferchain.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dapo",
+    "symbol": "Dapo",
+    "decimals": 18
+  },
+  "infoURL": "https://xferchain.org",
+  "shortName": "DPm",
+  "chainId": 28125,
+  "networkId": 28125,
+  "explorers": [{
+    "name": "XferChain Mainnet Explorer",
+    "url": "https://xferchain.org",
     "standard": "EIP3091"
   }]
 }, {

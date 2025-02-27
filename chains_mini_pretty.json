@@ -18420,6 +18420,19 @@
   "faucets": [],
   "infoURL": "https://newtonproject.org"
 }, {
+  "name": "XferChain Testnet",
+  "chainId": 27125,
+  "shortName": "DPt",
+  "networkId": 27125,
+  "nativeCurrency": {
+    "name": "Dapo",
+    "symbol": "Dapo",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.xferchain.org"],
+  "faucets": ["https://faucet.xferchain.org"],
+  "infoURL": "https://xferchain.org"
+}, {
   "name": "KLAOS Nova",
   "chainId": 27181,
   "shortName": "klaosnova",
@@ -18458,6 +18471,19 @@
   "rpc": ["https://subnets.avax.network/zeroonemai/mainnet/rpc"],
   "faucets": [],
   "infoURL": "https://zeroone.art/"
+}, {
+  "name": "XferChain Mainnet",
+  "chainId": 28125,
+  "shortName": "DPm",
+  "networkId": 28125,
+  "nativeCurrency": {
+    "name": "Dapo",
+    "symbol": "Dapo",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.xferchain.org"],
+  "faucets": [],
+  "infoURL": "https://xferchain.org"
 }, {
   "name": "Vizing Testnet",
   "chainId": 28516,
