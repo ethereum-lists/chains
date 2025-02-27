@@ -25137,7 +25137,7 @@
     "symbol": "PRIM",
     "decimals": 18
   },
-  "rpc": ["https://rpc.primeanetwork.com"],
+  "rpc": ["http://rpc.primeanetwork.com/rpc-http", "https://rpc.primeanetwork.com/rpc-https", "ws://rpc.primeanetwork.com/rpc-ws", "wss://rpc.primeanetwork.com/rpc-wss"],
   "faucets": [],
   "infoURL": "https://primeanetwork.com"
 }, {
