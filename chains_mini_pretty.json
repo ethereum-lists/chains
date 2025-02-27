@@ -28809,14 +28809,14 @@
 }, {
   "name": "ONFA Chain",
   "chainId": 8691942025,
-  "shortName": "onfachain",
+  "shortName": "onfa",
   "networkId": 8691942025,
   "nativeCurrency": {
     "name": "Onfa Coin",
     "symbol": "OFC",
     "decimals": 18
   },
-  "rpc": ["https://rpc.onfa.io", "wss://ws.onfa.io", "https://rpc.onfachain.com", "wss://ws.onfachain.io"],
+  "rpc": ["https://rpc.onfa.io", "https://rpc.onfachain.com", "wss://ws.onfa.io", "wss://ws.onfachain.com"],
   "faucets": [],
   "infoURL": "https://onfa.io"
 }, {

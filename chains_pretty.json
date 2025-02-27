@@ -47681,7 +47681,7 @@
   "name": "ONFA Chain",
   "title": "ONFA Chain",
   "chain": "onfa",
-  "rpc": ["https://rpc.onfa.io", "wss://ws.onfa.io", "https://rpc.onfachain.com", "wss://ws.onfachain.io"],
+  "rpc": ["https://rpc.onfa.io", "https://rpc.onfachain.com", "wss://ws.onfa.io", "wss://ws.onfachain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Onfa Coin",
@@ -47689,7 +47689,7 @@
     "decimals": 18
   },
   "infoURL": "https://onfa.io",
-  "shortName": "onfachain",
+  "shortName": "onfa",
   "chainId": 8691942025,
   "networkId": 8691942025,
   "icon": "onfachain",
