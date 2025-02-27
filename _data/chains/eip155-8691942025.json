@@ -3,7 +3,10 @@
   "title": "ONFA Chain",
   "chain": "onfa",
   "rpc": [
-    "https://rpc.onfa.io"
+    "https://rpc.onfa.io",
+    "wss://ws.onfa.io",
+    "https://rpc.onfachain.com",
+    "wss://ws.onfachain.io",
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -11,7 +14,6 @@
     "symbol": "OFC",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://onfa.io",
   "shortName": "onfa-mainnet",
   "chainId": 8691942025,
