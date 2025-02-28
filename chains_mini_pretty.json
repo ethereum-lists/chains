@@ -18225,6 +18225,19 @@
   "faucets": ["https://depot.steamexchange.io/faucet"],
   "infoURL": "https://steamexchange.io"
 }, {
+  "name": "MagiChain",
+  "chainId": 24125,
+  "shortName": "MGC",
+  "networkId": 24125,
+  "nativeCurrency": {
+    "name": "MGIX",
+    "symbol": "MGIX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.magichain.io"],
+  "faucets": [],
+  "infoURL": "https://magichain.io"
+}, {
   "name": "Webchain",
   "chainId": 24484,
   "shortName": "web",

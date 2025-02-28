@@ -29884,6 +29884,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "MagiChain",
+  "chain": "MagiChain",
+  "icon": "magiIcon",
+  "rpc": ["https://rpc.magichain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MGIX",
+    "symbol": "MGIX",
+    "decimals": 18
+  },
+  "infoURL": "https://magichain.io",
+  "shortName": "MGC",
+  "chainId": 24125,
+  "networkId": 24125,
+  "explorers": [{
+    "name": "MagiChain Explorer",
+    "url": "https://explorer.magichain.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Webchain",
   "chain": "WEB",
   "rpc": [],
