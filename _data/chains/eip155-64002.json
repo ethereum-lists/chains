@@ -1,7 +1,7 @@
 {
   "name": "XCHAIN Testnet",
   "chain": "XCHAIN",
-  "rpc": ["https://xchain-testnet-rpc.kuma.bid/"],
+  "rpc": ["https://xchain-testnet-rpc.kuma.bid"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -15,7 +15,7 @@
   "explorers": [
     {
       "name": "XCHAIN Testnet Explorer",
-      "url": "https://xchain-testnet-explorer.kuma.bid/",
+      "url": "https://xchain-testnet-explorer.kuma.bid",
       "standard": "EIP3091"
     }
   ]

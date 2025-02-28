@@ -1,7 +1,7 @@
 {
   "name": "XCHAIN",
   "chain": "XCHAIN",
-  "rpc": ["https://xchain-rpc.kuma.bid/"],
+  "rpc": ["https://xchain-rpc.kuma.bid"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -15,7 +15,7 @@
   "explorers": [
     {
       "name": "XCHAIN Explorer",
-      "url": "https://xchain-explorer.kuma.bid/",
+      "url": "https://xchain-explorer.kuma.bid",
       "standard": "EIP3091"
     }
   ]
