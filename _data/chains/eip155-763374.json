@@ -1,0 +1,28 @@
+{
+  "name": "Surge Testnet",
+  "chain": "Surge Testnet",
+  "rpc": [
+    "https://l2-rpc.surge.staging-nethermind.xyz",
+    "wss://l2-rpc.surge.staging-nethermind.xyz"
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://surge.wtf",
+  "shortName": "surge-testnet",
+  "chainId": 763374,
+  "networkId": 763374,
+  "icon": "surge-testnet",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.holesky.surge.wtf",
+      "standard": "EIP3091",
+      "icon": "surge-testnet"
+    }
+  ]
+}

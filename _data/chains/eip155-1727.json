@@ -1,0 +1,25 @@
+{
+  "name": "Ethpar Mainnet",
+  "chain": "ETP",
+  "rpc": ["https://rpc01.ethpar.net/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ethpar",
+    "symbol": "ETP",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://ethpar.com",
+  "shortName": "ethpar",
+  "chainId": 1727,
+  "networkId": 1727,
+  "icon": "ethpar",
+  "explorers": [
+    {
+      "name": "Ethpar Mainnet Explorer",
+      "url": "https://dora.ethpar.net",
+      "icon": "ethpar",
+      "standard": "none"
+    }
+  ]
+}
