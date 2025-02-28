@@ -25154,7 +25154,7 @@
   "faucets": ["https://docs.galadriel.com/faucet"],
   "infoURL": "https://galadriel.com"
 }, {
-  "name": "Primea Chain",
+  "name": "Primea Chain Mainnet",
   "chainId": 698369,
   "shortName": "prim",
   "networkId": 698369,
@@ -26089,6 +26089,19 @@
   "rpc": ["https://xterio-testnet.alt.technology"],
   "faucets": [],
   "infoURL": "https://xter.io"
+}, {
+  "name": "Primea Chain Testnet",
+  "chainId": 1698369,
+  "shortName": "test-prim",
+  "networkId": 1698369,
+  "nativeCurrency": {
+    "name": "PrimeaCoin Test",
+    "symbol": "PRIM",
+    "decimals": 18
+  },
+  "rpc": ["http://test-rpc.primeanetwork.com/rpc-http", "https://test-rpc.primeanetwork.com/rpc-https", "ws://test-rpc.primeanetwork.com/rpc-ws", "wss://test-rpc.primeanetwork.com/rpc-wss"],
+  "faucets": [],
+  "infoURL": "https://primeanetwork.com"
 }, {
   "name": "Turkey Demo Dev",
   "chainId": 1731313,
