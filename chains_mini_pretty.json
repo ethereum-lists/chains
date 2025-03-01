@@ -6057,6 +6057,19 @@
   "faucets": [],
   "infoURL": "https://www.topnetwork.org/"
 }, {
+  "name": "IOPN Testnet",
+  "chainId": 984,
+  "shortName": "iopn-Test-Chain",
+  "networkId": 984,
+  "nativeCurrency": {
+    "name": "OPN",
+    "symbol": "OPN",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.iopn.tech"],
+  "faucets": ["https://faucet.iopn.tech"],
+  "infoURL": "https://iopn.tech"
+}, {
   "name": "Memo Smart Chain Mainnet",
   "chainId": 985,
   "shortName": "memochain",
@@ -6069,6 +6082,19 @@
   "rpc": ["https://chain.metamemo.one:8501", "wss://chain.metamemo.one:16801"],
   "faucets": ["https://faucet.metamemo.one/"],
   "infoURL": "www.memolabs.org"
+}, {
+  "name": "LAGOM Mainnet",
+  "chainId": 986,
+  "shortName": "Lagom-Chain",
+  "networkId": 986,
+  "nativeCurrency": {
+    "name": "LAGO",
+    "symbol": "LAGO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1.lagom.mainnet.zeeve.net"],
+  "faucets": [],
+  "infoURL": "https://lagomchain.com"
 }, {
   "name": "BinaryChain Mainnet",
   "chainId": 987,
