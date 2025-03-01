@@ -10581,6 +10581,19 @@
   "faucets": [],
   "infoURL": "https://gmnetwork.ai"
 }, {
+  "name": "Apertum",
+  "chainId": 2786,
+  "shortName": "aptm",
+  "networkId": 2786,
+  "nativeCurrency": {
+    "name": "Apertum",
+    "symbol": "APTM",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.apertum.io/ext/bc/YDJ1r9RMkewATmA7B35q1bdV18aywzmdiXwd9zGBq3uQjsCnn/rpc"],
+  "faucets": [],
+  "infoURL": "https://apertum.io"
+}, {
   "name": "Morph Holesky",
   "chainId": 2810,
   "shortName": "hmorph",
