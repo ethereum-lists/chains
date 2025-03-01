@@ -14897,6 +14897,19 @@
   "faucets": ["https://faucet.tmychain.org/"],
   "infoURL": "https://tmychain.org/"
 }, {
+  "name": "Okto Testnet",
+  "chainId": 8801,
+  "shortName": "okto-testnet",
+  "networkId": 8801,
+  "nativeCurrency": {
+    "name": "Okto",
+    "symbol": "OKTO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.okto-testnet.zeeve.online"],
+  "faucets": ["https://faucet.okto-testnet.zeeve.online"],
+  "infoURL": ""
+}, {
   "name": "Haven1",
   "chainId": 8811,
   "shortName": "haven1",
