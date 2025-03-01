@@ -1,5 +1,5 @@
 {
-  "name": "BlackFort Exchange Network",
+  "name": "BlackFort Exchange Network Deprecated",
   "chain": "BXN",
   "rpc": [
     "https://mainnet.blackfort.network/rpc",
@@ -26,5 +26,6 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "status": "deprecated"
 }
