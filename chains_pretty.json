@@ -5983,7 +5983,7 @@
   "faucets": ["https://faucet.omaxray.com/"],
   "nativeCurrency": {
     "name": "OMAX TESTCOIN",
-    "symbol": "OMAXT",
+    "symbol": "OMAX",
     "decimals": 18
   },
   "infoURL": "https://www.omaxcoin.com/",
@@ -5994,6 +5994,7 @@
   "explorers": [{
     "name": "Omax Chain Explorer",
     "url": "https://testnet.omaxscan.com",
+    "icon": "omaxray",
     "standard": "EIP3091"
   }]
 }, {
