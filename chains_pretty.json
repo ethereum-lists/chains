@@ -42021,6 +42021,25 @@
     "standard": "none"
   }]
 }, {
+  "name": "Oone Chain Mainnet",
+  "chain": "OONE",
+  "rpc": ["https://rpc.oonechain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OONE",
+    "symbol": "OONE",
+    "decimals": 18
+  },
+  "infoURL": "https://oonechain.com",
+  "shortName": "oone",
+  "chainId": 777888,
+  "networkId": 777888,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://oonescan.com",
+    "standard": "none"
+  }]
+}, {
   "name": "Zebro Smart Chain",
   "chain": "ZEBRO",
   "rpc": ["https://rpc.zebrocoin.app", "https://rpc1.zebrocoin.app"],
