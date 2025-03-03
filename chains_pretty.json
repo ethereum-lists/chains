@@ -21809,6 +21809,21 @@
     "icon": "aura"
   }]
 }, {
+  "name": "MegaETH Testnet",
+  "chain": "ETH",
+  "nativeCurrency": {
+    "name": "MegaETH Testnet Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://carrot.megaeth.com/rpc", "wss://carrot.megaeth.com/ws"],
+  "faucets": [],
+  "infoURL": "https://testnet.megaeth.com",
+  "shortName": "megatest",
+  "chainId": 6342,
+  "networkId": 6342,
+  "slip44": 1
+}, {
   "name": "Digit Soul Smart Chain",
   "chain": "DGS",
   "rpc": ["https://dsc-rpc.digitsoul.co.th"],
