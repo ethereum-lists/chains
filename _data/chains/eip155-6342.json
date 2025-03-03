@@ -6,8 +6,13 @@
     "symbol": "ETH",
     "decimals": 18
   },
+  "rpc": [
+    "https://carrot.megaeth.com/rpc",
+    "wss://carrot.megaeth.com/ws"
+  ],
+  "faucets": [],
   "infoURL": "https://testnet.megaeth.com",
-  "shortName": "mega-test",
+  "shortName": "megatest",
   "chainId": 6342,
   "networkId": 6342,
   "slip44": 1
