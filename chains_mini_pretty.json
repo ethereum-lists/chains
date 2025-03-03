@@ -11114,6 +11114,19 @@
   "faucets": [],
   "infoURL": "https://net.paribu.com"
 }, {
+  "name": "Pepe Unchained",
+  "chainId": 3409,
+  "shortName": "PEPU",
+  "networkId": 3409,
+  "nativeCurrency": {
+    "name": "PEPU",
+    "symbol": "PEPU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-pepe-unchained-gupg0lo9wf.t.conduit.xyz"],
+  "faucets": [],
+  "infoURL": "https://pepeunchained.com/"
+}, {
   "name": "EVOLVE Mainnet",
   "chainId": 3424,
   "shortName": "EVOm",
