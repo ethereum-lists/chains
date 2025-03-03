@@ -12115,6 +12115,19 @@
   "faucets": [],
   "infoURL": "https://emoney.io/"
 }, {
+  "name": "TRUMPCHAIN",
+  "chainId": 4547,
+  "shortName": "TRUMPCHAIN",
+  "networkId": 4547,
+  "nativeCurrency": {
+    "name": "Official Trump",
+    "symbol": "TRUMP",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.trumpchain.dev/http", "wss://testnet.trumpchain.dev/ws"],
+  "faucets": [],
+  "infoURL": "https://trumpchain.dev"
+}, {
   "name": "VERY Mainnet",
   "chainId": 4613,
   "shortName": "very",
