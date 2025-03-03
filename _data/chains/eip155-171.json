@@ -1,9 +1,9 @@
 {
   "name": "CO2e Chain",
   "chain": "CO2E",
-  "rpc": ["https://rpc.co2e.cc","https://rpc.co2ledger.xyz"],
+  "rpc": ["https://rpc.co2e.cc", "https://rpc.co2ledger.xyz"],
   "faucets": [],
-  "features": [{"name": "EIP155"},{"name": "EIP1559"}],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "nativeCurrency": {
     "name": "CO2e Token",
     "symbol": "CO2E",
