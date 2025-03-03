@@ -4354,18 +4354,18 @@
   "faucets": [],
   "infoURL": "https://thefirechain.com"
 }, {
-  "name": "F(x)Core Mainnet Network",
+  "name": "Pundi AIFX Omnilayer",
   "chainId": 530,
-  "shortName": "FxCore",
+  "shortName": "pundiai",
   "networkId": 530,
   "nativeCurrency": {
-    "name": "Function X",
-    "symbol": "FX",
+    "name": "Pundi AIFX",
+    "symbol": "PUNDAI",
     "decimals": 18
   },
   "rpc": ["https://fx-json-web3.functionx.io:8545"],
   "faucets": [],
-  "infoURL": "https://functionx.io/"
+  "infoURL": "https://fx.pundi.ai/"
 }, {
   "name": "Candle",
   "chainId": 534,
@@ -22021,18 +22021,18 @@
   "faucets": [],
   "infoURL": "https://unite.io"
 }, {
-  "name": "F(x)Core Testnet Network",
+  "name": "Pundi AIFX Omnilayer Testnet",
   "chainId": 90001,
   "shortName": "dhobyghaut",
   "networkId": 90001,
   "nativeCurrency": {
-    "name": "Function X",
-    "symbol": "FX",
+    "name": "Pundi AIFX",
+    "symbol": "PUNDAI",
     "decimals": 18
   },
   "rpc": ["https://testnet-fx-json-web3.functionx.io:8545"],
   "faucets": [],
-  "infoURL": "https://functionx.io/"
+  "infoURL": "https://fx.pundi.ai/"
 }, {
   "name": "UBIT SMARTCHAIN MAINNET",
   "chainId": 90002,
