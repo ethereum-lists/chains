@@ -22190,6 +22190,19 @@
   "faucets": ["https://faucet.lambda.top"],
   "infoURL": "https://lambda.im"
 }, {
+  "name": "Miracle Chain",
+  "chainId": 92278,
+  "shortName": "MIRACLE",
+  "networkId": 92278,
+  "nativeCurrency": {
+    "name": "Miracle Play Token",
+    "symbol": "MPT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.miracleplay.io"],
+  "faucets": [],
+  "infoURL": "https://miracleplay.gg"
+}, {
   "name": "LiquidLayer Testnet",
   "chainId": 93572,
   "shortName": "tLILA",
