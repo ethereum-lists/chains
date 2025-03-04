@@ -19772,6 +19772,19 @@
   "faucets": [],
   "infoURL": "https://autobahn.network"
 }, {
+  "name": "Juneo Mainnet",
+  "chainId": 45003,
+  "shortName": "JUNE",
+  "networkId": 45003,
+  "nativeCurrency": {
+    "name": "JUNE",
+    "symbol": "JUNE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/JUNE/rpc"],
+  "faucets": [],
+  "infoURL": "https://juneo.com/"
+}, {
   "name": "Swamps L2",
   "chainId": 45454,
   "shortName": "SWP",
