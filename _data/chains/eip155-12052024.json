@@ -1,8 +1,9 @@
 {
-  "name": "Memento Testnet",
+  "name": "Memento Testnet (deprecated)",
   "chain": "Memento",
-  "rpc": ["https://test-rpc.mementoblockchain.com/IRkghvI3FfEArEJMr4zC/rpc"],
+  "rpc": ["https://rpc-old.memento.zeeve.online"],
   "faucets": [],
+  "status": "deprecated",
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
@@ -15,7 +16,7 @@
   "explorers": [
     {
       "name": "Tracehawk",
-      "url": "https://test-explorer.mementoblockchain.com",
+      "url": "https://explorer-old.memento.zeeve.online",
       "standard": "none"
     }
   ]
