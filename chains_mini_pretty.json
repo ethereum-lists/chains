@@ -28703,6 +28703,19 @@
   "faucets": ["https://haust-testnet-faucet.eu-north-2.gateway.fm"],
   "infoURL": "https://haust.network/"
 }, {
+  "name": "Status Network Sepolia",
+  "chainId": 1660990954,
+  "shortName": "sn-sepolia",
+  "networkId": 1660990954,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://public.sepolia.rpc.status.network", "wss://status-sepolia-rpc.eu-north-2.gateway.fm/ws"],
+  "faucets": ["https://faucet.status.network/"],
+  "infoURL": "https://status.network"
+}, {
   "name": "Harmony Mainnet Shard 0",
   "chainId": 1666600000,
   "shortName": "hmy-s0",
