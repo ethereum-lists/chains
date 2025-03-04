@@ -3639,6 +3639,19 @@
   "faucets": [],
   "infoURL": "https://grvt.io/"
 }, {
+  "name": "Telos zkEVM Testnet",
+  "chainId": 331,
+  "shortName": "telos-zkevm-testnet",
+  "networkId": 331,
+  "nativeCurrency": {
+    "name": "Sepolia ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://zkrpc.testnet.telos.net"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Omax Testnet",
   "chainId": 332,
   "shortName": "omaxt",
