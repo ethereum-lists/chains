@@ -2,7 +2,7 @@
   "name": "Z Chain",
   "title": "Z Chain",
   "chain": "Z",
-  "rpc": ["https://z-chain-rpc.eu-north-2.gateway.fm/?apiKey=${API_KEY}"],
+  "rpc": ["https://rpc.zchain.org"],
   "faucets": [],
   "features": [{ "name": "EIP155" }],
   "nativeCurrency": {
@@ -18,7 +18,7 @@
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://z-chain-blockscout.eu-north-2.gateway.fm",
+      "url": "https://zscan.live",
       "icon": "z",
       "standard": "EIP3091"
     }
@@ -26,6 +26,6 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://z-chain-bridge.eu-north-2.gateway.fm" }]
+    "bridges": [{ "url": "bridge.zchain.org" }]
   }
 }
