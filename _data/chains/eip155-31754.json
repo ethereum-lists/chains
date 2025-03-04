@@ -1,0 +1,23 @@
+{
+  "name": "Xchain Testnet",
+  "chain": "Xchain",
+  "icon": "intd",
+  "rpc": ["https://rpc.xchaintest.net"],
+  "faucets": ["https://xchainfaucet.net"],
+  "nativeCurrency": {
+    "name": "Intdestcoin Testnet",
+    "symbol": "INTD",
+    "decimals": 18
+  },
+  "infoURL": "https://xchaintest.net",
+  "shortName": "tINTD",
+  "chainId": 31754,
+  "networkId": 31754,
+  "explorers": [
+    {
+      "name": "Xchain Testnet Explorer",
+      "url": "https://xchaintest.net",
+      "standard": "EIP3091"
+    }
+  ]
+}
