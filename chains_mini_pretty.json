@@ -25336,13 +25336,13 @@
   "faucets": ["https://docs.galadriel.com/faucet"],
   "infoURL": "https://galadriel.com"
 }, {
-  "name": "Primea Chain Mainnet",
+  "name": "Primea Network Mainnet",
   "chainId": 698369,
-  "shortName": "prim",
+  "shortName": "goldpn",
   "networkId": 698369,
   "nativeCurrency": {
-    "name": "PrimeaCoin",
-    "symbol": "PRIM",
+    "name": "GoldPrimeaNetwork",
+    "symbol": "GOLDPN",
     "decimals": 18
   },
   "rpc": ["http://rpc.primeanetwork.com/rpc-http", "https://rpc.primeanetwork.com/rpc-https", "ws://rpc.primeanetwork.com/rpc-ws", "wss://rpc.primeanetwork.com/rpc-wss"],
@@ -26285,13 +26285,13 @@
   "faucets": [],
   "infoURL": "https://xter.io"
 }, {
-  "name": "Primea Chain Testnet",
+  "name": "Primea Network Testnet",
   "chainId": 1698369,
-  "shortName": "test-prim",
+  "shortName": "test-goldpn",
   "networkId": 1698369,
   "nativeCurrency": {
-    "name": "PrimeaCoin Test",
-    "symbol": "PRIM",
+    "name": "GoldPrimeaNetwork Test",
+    "symbol": "GOLDPN",
     "decimals": 18
   },
   "rpc": ["http://test-rpc.primeanetwork.com/rpc-http", "https://test-rpc.primeanetwork.com/rpc-https", "ws://test-rpc.primeanetwork.com/rpc-ws", "wss://test-rpc.primeanetwork.com/rpc-wss"],

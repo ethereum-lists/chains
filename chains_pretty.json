@@ -41826,17 +41826,17 @@
     "standard": "none"
   }]
 }, {
-  "name": "Primea Chain Mainnet",
-  "chain": "Primea Chain Mainnet",
+  "name": "Primea Network Mainnet",
+  "chain": "Primea Network Mainnet",
   "rpc": ["http://rpc.primeanetwork.com/rpc-http", "https://rpc.primeanetwork.com/rpc-https", "ws://rpc.primeanetwork.com/rpc-ws", "wss://rpc.primeanetwork.com/rpc-wss"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "PrimeaCoin",
-    "symbol": "PRIM",
+    "name": "GoldPrimeaNetwork",
+    "symbol": "GOLDPN",
     "decimals": 18
   },
   "infoURL": "https://primeanetwork.com",
-  "shortName": "prim",
+  "shortName": "goldpn",
   "chainId": 698369,
   "networkId": 698369,
   "icon": "prim",
@@ -43442,17 +43442,17 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Primea Chain Testnet",
-  "chain": "Primea Chain Testnet",
+  "name": "Primea Network Testnet",
+  "chain": "Primea Network Testnet",
   "rpc": ["http://test-rpc.primeanetwork.com/rpc-http", "https://test-rpc.primeanetwork.com/rpc-https", "ws://test-rpc.primeanetwork.com/rpc-ws", "wss://test-rpc.primeanetwork.com/rpc-wss"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "PrimeaCoin Test",
-    "symbol": "PRIM",
+    "name": "GoldPrimeaNetwork Test",
+    "symbol": "GOLDPN",
     "decimals": 18
   },
   "infoURL": "https://primeanetwork.com",
-  "shortName": "test-prim",
+  "shortName": "test-goldpn",
   "chainId": 1698369,
   "networkId": 1698369,
   "icon": "prim",
