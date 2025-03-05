@@ -1,0 +1,25 @@
+{
+  "name": "Haven1",
+  "chain": "haven1",
+  "rpc": ["https://rpc.haven1.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Haven1",
+    "symbol": "H1",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://www.haven1.org",
+  "shortName": "haven1",
+  "chainId": 8811,
+  "networkId": 8811,
+  "icon": "haven1",
+  "explorers": [
+    {
+      "name": "Haven1 Explorer",
+      "url": "https://explorer.haven1.org",
+      "icon": "haven1",
+      "standard": "EIP3091"
+    }
+  ]
+}

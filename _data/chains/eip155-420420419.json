@@ -1,0 +1,17 @@
+{
+  "name": "Asset Hub",
+  "chain": "DOT",
+  "rpc": ["https://asset-hub-eth-rpc.polkadot.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DOT",
+    "symbol": "DOT",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://polkadot.network",
+  "shortName": "AH",
+  "chainId": 420420419,
+  "networkId": 420420419,
+  "explorers": []
+}
