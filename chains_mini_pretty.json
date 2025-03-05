@@ -4237,6 +4237,19 @@
   "faucets": [],
   "infoURL": "https://standardweb3.com"
 }, {
+  "name": "BlackFort Exchange Network",
+  "chainId": 488,
+  "shortName": "BXN",
+  "networkId": 488,
+  "nativeCurrency": {
+    "name": "BlackFort Token",
+    "symbol": "BXN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.blackfort.network/mainnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://blackfort.com"
+}, {
   "name": "Landstars",
   "chainId": 495,
   "shortName": "lds",
@@ -12232,7 +12245,7 @@
   "faucets": [],
   "infoURL": "https://www.meverse.sg"
 }, {
-  "name": "BlackFort Exchange Network Testnet",
+  "name": "BlackFort Exchange Network Testnet DEPRECATED",
   "chainId": 4777,
   "shortName": "TBXN",
   "networkId": 4777,
@@ -12270,6 +12283,19 @@
   "rpc": ["https://worldchain-sepolia.g.alchemy.com/public", "https://4801.rpc.thirdweb.com", "https://worldchain-sepolia.gateway.tenderly.co", "wss://worldchain-sepolia.gateway.tenderly.co"],
   "faucets": ["https://www.alchemy.com/faucets/world-chain-sepolia", "https://console.optimism.io/faucet"],
   "infoURL": "https://world.org/world-chain"
+}, {
+  "name": "BlackFort Exchange Network Testnet",
+  "chainId": 4888,
+  "shortName": "BXNT",
+  "networkId": 4888,
+  "nativeCurrency": {
+    "name": "BlackFort Testnet Token",
+    "symbol": "BXNT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.blackfort.network/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://blackfort.com"
 }, {
   "name": "Globel Chain",
   "chainId": 4893,
@@ -12323,13 +12349,13 @@
   "faucets": [],
   "infoURL": "https://venidium.io"
 }, {
-  "name": "BlackFort Exchange Network",
+  "name": "BlackFort Exchange Network Deprecated",
   "chainId": 4999,
-  "shortName": "BXN",
+  "shortName": "BXNdpr",
   "networkId": 4999,
   "nativeCurrency": {
     "name": "BlackFort Token",
-    "symbol": "BXN",
+    "symbol": "BXNdpr",
     "decimals": 18
   },
   "rpc": ["https://mainnet.blackfort.network/rpc", "https://mainnet-1.blackfort.network/rpc", "https://mainnet-2.blackfort.network/rpc", "https://mainnet-3.blackfort.network/rpc"],

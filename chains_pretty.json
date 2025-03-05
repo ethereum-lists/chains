@@ -7034,6 +7034,32 @@
   "networkId": 486,
   "status": "incubating"
 }, {
+  "name": "BlackFort Exchange Network",
+  "chain": "BXN",
+  "rpc": ["https://rpc.blackfort.network/mainnet/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BlackFort Token",
+    "symbol": "BXN",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://blackfort.com",
+  "shortName": "BXN",
+  "chainId": 488,
+  "networkId": 488,
+  "icon": "bxn",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blackfortscan.com",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Landstars",
   "chain": "Landstars",
   "icon": "landstars",
@@ -20078,7 +20104,7 @@
     "icon": "meverse"
   }]
 }, {
-  "name": "BlackFort Exchange Network Testnet",
+  "name": "BlackFort Exchange Network Testnet DEPRECATED",
   "chain": "TBXN",
   "rpc": ["https://testnet.blackfort.network/rpc"],
   "faucets": [],
@@ -20103,7 +20129,8 @@
     "url": "https://testnet-explorer.blackfort.network",
     "icon": "blockscout",
     "standard": "EIP3091"
-  }]
+  }],
+  "status": "deprecated"
 }, {
   "name": "Evnode Testnet",
   "chain": "Evnode",
@@ -20154,6 +20181,33 @@
   }, {
     "name": "blockscout",
     "url": "https://worldchain-sepolia.explorer.alchemy.com",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "BlackFort Exchange Network Testnet",
+  "chain": "BXNT",
+  "rpc": ["https://rpc.blackfort.network/testnet/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BlackFort Testnet Token",
+    "symbol": "BXNT",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://blackfort.com",
+  "shortName": "BXNT",
+  "chainId": 4888,
+  "networkId": 4888,
+  "slip44": 1,
+  "icon": "bxn",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://testnet.blackfortscan.com",
     "icon": "blockscout",
     "standard": "EIP3091"
   }]
@@ -20247,13 +20301,13 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "BlackFort Exchange Network",
-  "chain": "BXN",
+  "name": "BlackFort Exchange Network Deprecated",
+  "chain": "BXNdpr",
   "rpc": ["https://mainnet.blackfort.network/rpc", "https://mainnet-1.blackfort.network/rpc", "https://mainnet-2.blackfort.network/rpc", "https://mainnet-3.blackfort.network/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BlackFort Token",
-    "symbol": "BXN",
+    "symbol": "BXNdpr",
     "decimals": 18
   },
   "features": [{
@@ -20262,7 +20316,7 @@
     "name": "EIP1559"
   }],
   "infoURL": "https://blackfort.exchange",
-  "shortName": "BXN",
+  "shortName": "BXNdpr",
   "chainId": 4999,
   "networkId": 4999,
   "icon": "bxn",
@@ -20271,7 +20325,8 @@
     "url": "https://explorer.blackfort.network",
     "icon": "blockscout",
     "standard": "EIP3091"
-  }]
+  }],
+  "status": "deprecated"
 }, {
   "name": "Mantle",
   "chain": "ETH",
