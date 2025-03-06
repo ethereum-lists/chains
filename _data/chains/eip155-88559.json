@@ -1,22 +1,22 @@
 {
-  "name": "InoAi",
-  "chain": "INOAI",
+  "name": "Xitcoin",
+  "chain": "Xitcoin",
   "faucets": [],
-  "rpc": ["https://inoai-network.com"],
+  "rpc": ["https://network.xitcoin.org"],
   "nativeCurrency": {
-    "name": "InoAi",
-    "symbol": "INO",
+    "name": "Xitcoin",
+    "symbol": "$XTC",
     "decimals": 18
   },
-  "infoURL": "https://docs.inoai.info/",
-  "shortName": "INO",
+  "infoURL": "https://docs.xitcoin.org/",
+  "shortName": "$XTC",
   "chainId": 88559,
   "networkId": 88559,
   "icon": "inoai",
   "explorers": [
     {
-      "name": "inoai.live",
-      "url": "https://inoai.live",
+      "name": "Xitcoin Scan",
+      "url": "https://scan.xitcoin.org",
       "standard": "EIP3091"
     }
   ]
