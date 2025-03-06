@@ -26532,6 +26532,19 @@
   "faucets": [],
   "infoURL": "https://altlayer.io"
 }, {
+  "name": "Arcadia Mainnet",
+  "chainId": 4278608,
+  "shortName": "aip",
+  "networkId": 4278608,
+  "nativeCurrency": {
+    "name": "AIP",
+    "symbol": "AIP",
+    "decimals": 18
+  },
+  "rpc": ["https://arcadia.khalani.network"],
+  "faucets": [],
+  "infoURL": "https://khalani.network"
+}, {
   "name": "Worlds Caldera",
   "chainId": 4281033,
   "shortName": "worldscal",
