@@ -1,6 +1,7 @@
 {
   "name": "Volcano Chain Mainnet",
   "chain": "Volcano",
+  "icon": "volcano",
   "rpc": ["https://mainnet.vchain.pro", "wss://wss.mainnet.vchain.pro"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
@@ -13,8 +14,6 @@
   "shortName": "volcanochain",
   "chainId": 10085,
   "networkId": 10085,
-  "icon": "volcano",
-  "logoURI": "https://ipfs.io/ipfs/QmdwHV5UGjXxWg2wgZwdaMfEdUGtKk6RXb2n9BmaUmFGHd",
   "explorers": [
     {
       "name": "blockscout",
