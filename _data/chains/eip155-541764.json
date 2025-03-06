@@ -1,0 +1,23 @@
+{
+  "name": "OverProtocol Testnet",
+  "chain": "OverProtocol",
+  "icon": "overIcon",
+  "rpc": ["https://rpc.dolphin.overprotocol.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Over",
+    "symbol": "OVER",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.over.network",
+  "shortName": "overprotocol-testnet",
+  "chainId": 541764,
+  "networkId": 541764,
+  "explorers": [
+    {
+      "name": "OverView Testnet",
+      "url": "https://dolphin-scan.over.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

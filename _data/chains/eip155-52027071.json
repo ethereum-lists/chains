@@ -1,0 +1,17 @@
+{
+  "name": "Deviant Token Blockchain",
+  "chain": "DTBC",
+  "status": "incubating",
+  "rpc": ["https://rpc.devianttoken.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Deviant Token",
+    "symbol": "DTBC",
+    "decimals": 18
+  },
+  "infoURL": "https://devianttoken.net",
+  "shortName": "dtbc",
+  "chainId": 52027071,
+  "networkId": 52027071,
+  "explorers": []
+}

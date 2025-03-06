@@ -1,0 +1,22 @@
+{
+  "name": "Ethernity Testnet",
+  "chain": "Ethernity",
+  "rpc": ["https://testnet.ethernitychain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.ethernity.io",
+  "shortName": "ethernity-testnet",
+  "chainId": 233,
+  "networkId": 233,
+  "explorers": [
+    {
+      "name": "Ethernity Testnet Explorer",
+      "url": "https://testnet.ernscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

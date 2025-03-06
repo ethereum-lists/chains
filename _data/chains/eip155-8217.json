@@ -1,7 +1,7 @@
 {
   "name": "Kaia Mainnet",
   "chain": "KAIA",
-  "rpc": ["https://public-en-cypress.klaytn.net"],
+  "rpc": ["https://public-en.node.kaia.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "KAIA",
@@ -15,13 +15,13 @@
   "slip44": 8217,
   "explorers": [
     {
-      "name": "Klaytnscope",
-      "url": "https://scope.klaytn.com",
+      "name": "Kaiascope",
+      "url": "https://kaiascope.com",
       "standard": "EIP3091"
     },
     {
-      "name": "Klaytnfinder",
-      "url": "https://klaytnfinder.io",
+      "name": "Kaiascan",
+      "url": "https://kaiascan.io",
       "standard": "EIP3091"
     }
   ]
