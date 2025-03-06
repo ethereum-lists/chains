@@ -19915,6 +19915,19 @@
   "faucets": [],
   "infoURL": "https://otherworld.network"
 }, {
+  "name": "Zircuit Garfield Testnet",
+  "chainId": 48898,
+  "shortName": "zircuit-garfield-testnet",
+  "networkId": 48898,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://garfield-testnet.zircuit.com/"],
+  "faucets": [],
+  "infoURL": "https://www.zircuit.com/"
+}, {
   "name": "Zircuit Testnet",
   "chainId": 48899,
   "shortName": "zircuit-testnet",
