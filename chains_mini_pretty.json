@@ -13610,6 +13610,19 @@
   "faucets": [],
   "infoURL": "https://nibiru.fi"
 }, {
+  "name": "Nibiru testnet-2",
+  "chainId": 6911,
+  "shortName": "nibiru-testnet-2",
+  "networkId": 6911,
+  "nativeCurrency": {
+    "name": "NIBI",
+    "symbol": "NIBI",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-rpc.testnet-2.nibiru.fi"],
+  "faucets": [],
+  "infoURL": "https://nibiru.fi"
+}, {
   "name": "XYL TestNet",
   "chainId": 6934,
   "shortName": "xyl",
