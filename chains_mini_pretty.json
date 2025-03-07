@@ -12492,17 +12492,17 @@
   "faucets": [],
   "infoURL": ""
 }, {
-  "name": "Pioneer Zero Chain",
+  "name": "Pione Zero",
   "chainId": 5080,
   "shortName": "pzo",
   "networkId": 5080,
   "nativeCurrency": {
-    "name": "Pioneer Zero",
+    "name": "Pione Zero",
     "symbol": "PZO",
     "decimals": 18
   },
   "rpc": ["https://rpc.zeroscan.org"],
-  "faucets": ["https://faucet.zeroscan.org/faucet"],
+  "faucets": ["https://dex.pionechain.com/testnet/faucet/"],
   "infoURL": "https://pionechain.com"
 }, {
   "name": "Pione Chain Mainnet",
