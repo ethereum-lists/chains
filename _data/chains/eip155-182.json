@@ -1,10 +1,7 @@
 {
   "name": "IOST Mainnet",
   "chain": "iost",
-  "rpc": [
-    "https://l2-mainnet.iost.io",
-    "wss://l2-mainnet.iost.io"
-  ],
+  "rpc": ["https://l2-mainnet.iost.io", "wss://l2-mainnet.iost.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
