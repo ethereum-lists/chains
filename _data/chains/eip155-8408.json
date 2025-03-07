@@ -1,6 +1,6 @@
 {
-  "name": "Zenchain Testnet",
-  "chain": "ZCX",
+  "name": "ZenChain Testnet",
+  "chain": "ZTC",
   "icon": "zenchain",
   "rpc": [
     "https://zenchain-testnet.api.onfinality.io/public",
@@ -9,8 +9,8 @@
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": ["https://facuet.zenchain.io"],
   "nativeCurrency": {
-    "name": "ZCX",
-    "symbol": "ZCX",
+    "name": "ZTC",
+    "symbol": "ZTC",
     "decimals": 18
   },
   "infoURL": "https://zenchain.io",
