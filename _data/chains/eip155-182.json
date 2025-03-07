@@ -20,7 +20,7 @@
   "explorers": [
     {
       "name": "IOSTscan",
-      "url": "l2-scan.iost.io",
+      "url": "https://l2-scan.iost.io",
       "standard": "EIP3091"
     }
   ],
@@ -29,7 +29,7 @@
     "chain": "eip155-56",
     "bridges": [
       {
-        "url": "l2-bridge.iost.io"
+        "url": "https://l2-bridge.iost.io"
       }
     ]
   }
