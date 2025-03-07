@@ -2,7 +2,7 @@
   "name": "Electroneum Testnet",
   "chain": "Electroneum",
   "rpc": ["https://rpc.ankr.com/electroneum_testnet"],
-  "faucets": [],
+  "faucets": ["https://faucet.electroneum.com"],
   "nativeCurrency": {
     "name": "Electroneum",
     "symbol": "ETN",
