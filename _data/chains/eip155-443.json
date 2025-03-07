@@ -11,7 +11,9 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://testnet.ten.xyz"],
+  "rpc": [
+    "https://rpc.testnet.ten.xyz"
+  ],
   "faucets": [],
   "infoURL": "https://ten.xyz",
   "explorers": [
@@ -24,6 +26,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-5",
-    "bridges": [{ "url": "https://bridge.ten.xyz" }]
+    "bridges": [
+      {
+        "url": "https://bridge.ten.xyz"
+      }
+    ]
   }
 }
