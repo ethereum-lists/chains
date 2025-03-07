@@ -8059,6 +8059,19 @@
   "faucets": [],
   "infoURL": "https://www.starworksglobal.com"
 }, {
+  "name": "Reactive Mainnet",
+  "chainId": 1597,
+  "shortName": "react",
+  "networkId": 1597,
+  "nativeCurrency": {
+    "name": "React",
+    "symbol": "REACT",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.rnk.dev"],
+  "faucets": [],
+  "infoURL": "https://reactive.network"
+}, {
   "name": "Betherance",
   "chainId": 1605,
   "shortName": "Beth",
@@ -26684,7 +26697,7 @@
     "symbol": "REACT",
     "decimals": 18
   },
-  "rpc": ["https://kopli-rpc.reactive.network", "http://kopli-rpc.rkt.ink"],
+  "rpc": ["https://kopli-rpc.rnk.dev"],
   "faucets": ["https://dev.reactive.network/docs/kopli-testnet#faucet"],
   "infoURL": "https://reactive.network"
 }, {
