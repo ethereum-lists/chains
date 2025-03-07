@@ -9220,6 +9220,20 @@
     "standard": "none"
   }]
 }, {
+  "name": "Radius Testnet",
+  "chain": "Radius",
+  "rpc": ["https://dev-secure.rpc.theradius.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Useless",
+    "symbol": "USLS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.theradius.xyz/",
+  "shortName": "radius-testnet",
+  "chainId": 863,
+  "networkId": 863
+}, {
   "name": "Fantasia Chain Mainnet",
   "chain": "FSC",
   "rpc": ["https://mainnet-data1.fantasiachain.com/", "https://mainnet-data2.fantasiachain.com/", "https://mainnet-data3.fantasiachain.com/"],

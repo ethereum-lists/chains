@@ -5589,6 +5589,19 @@
   "faucets": [],
   "infoURL": "https://www.electranetwork.tech"
 }, {
+  "name": "Radius Testnet",
+  "chainId": 863,
+  "shortName": "radius-testnet",
+  "networkId": 863,
+  "nativeCurrency": {
+    "name": "Useless",
+    "symbol": "USLS",
+    "decimals": 18
+  },
+  "rpc": ["https://dev-secure.rpc.theradius.xyz"],
+  "faucets": [],
+  "infoURL": "https://www.theradius.xyz/"
+}, {
   "name": "Fantasia Chain Mainnet",
   "chainId": 868,
   "shortName": "FSCMainnet",
