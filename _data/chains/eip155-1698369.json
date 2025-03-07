@@ -1,0 +1,22 @@
+{
+  "name": "Primea Network Testnet",
+  "chain": "Primea Network Testnet",
+  "rpc": [
+    "http://test-rpc.primeanetwork.com/rpc-http",
+    "https://test-rpc.primeanetwork.com/rpc-https",
+    "ws://test-rpc.primeanetwork.com/rpc-ws",
+    "wss://test-rpc.primeanetwork.com/rpc-wss"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GoldPrimeaNetwork Test",
+    "symbol": "GOLDPN",
+    "decimals": 18
+  },
+  "infoURL": "https://primeanetwork.com",
+  "shortName": "test-goldpn",
+  "chainId": 1698369,
+  "networkId": 1698369,
+  "icon": "prim",
+  "explorers": []
+}

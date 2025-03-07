@@ -1,0 +1,24 @@
+{
+  "name": "Rarimo",
+  "title": "Rarimo Mainnet",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Rarimo Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://rarimo.com",
+  "shortName": "rarimo",
+  "chainId": 7368,
+  "networkId": 7368,
+  "icon": "rarimo",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  },
+  "explorers": [],
+  "status": "incubating"
+}
