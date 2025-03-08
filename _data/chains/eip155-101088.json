@@ -1,0 +1,23 @@
+{
+  "name": "Xitcoin",
+  "chain": "XITCOIN",
+  "faucets": [],
+  "rpc": ["https://network.xitcoin.org"],
+  "nativeCurrency": {
+    "name": "Xitcoin",
+    "symbol": "$XTC",
+    "decimals": 8
+  },
+  "infoURL": "https://docs.xitcoin.org/",
+  "shortName": "Xitcoin",
+  "chainId": 101088,
+  "networkId": 101088,
+  "icon": "xitcoin",
+  "explorers": [
+    {
+      "name": "scan.xitcoin",
+      "url": "https://scan.xitcoin.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
