@@ -25362,6 +25362,19 @@
   "faucets": [],
   "infoURL": "https://conwai.net"
 }, {
+  "name": "Gensyn Testnet",
+  "chainId": 685685,
+  "shortName": "gensyn-test",
+  "networkId": 685685,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://www.gensyn.ai/"
+}, {
   "name": "Won Network",
   "chainId": 686868,
   "shortName": "WonChain",
