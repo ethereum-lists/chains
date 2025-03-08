@@ -1,7 +1,11 @@
 {
   "name": "Cronos Testnet",
   "chain": "CRO",
-  "rpc": ["https://evm-t3.cronos.org"],
+  "rpc": [
+    "https://evm-t3.cronos.org",
+    "https://cronos-testnet.drpc.org",
+    "wss://cronos-testnet.drpc.org"
+  ],
   "faucets": ["https://cronos.org/faucet"],
   "nativeCurrency": {
     "name": "Cronos Test Coin",
@@ -12,10 +16,11 @@
   "shortName": "tcro",
   "chainId": 338,
   "networkId": 338,
+  "slip44": 1,
   "explorers": [
     {
       "name": "Cronos Testnet Explorer",
-      "url": "https://testnet.cronoscan.com",
+      "url": "https://explorer.cronos.org/testnet",
       "standard": "none"
     }
   ]

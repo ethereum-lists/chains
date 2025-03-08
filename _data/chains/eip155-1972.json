@@ -1,0 +1,22 @@
+{
+  "name": "RedeCoin",
+  "chain": "REDEV2",
+  "rpc": ["https://rpc2.redecoin.eu"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "RedeCoin",
+    "symbol": "REDEV2",
+    "decimals": 18
+  },
+  "infoURL": "https://www.redecoin.eu",
+  "shortName": "rede",
+  "chainId": 1972,
+  "networkId": 1972,
+  "explorers": [
+    {
+      "name": "RedeCoin Explorer",
+      "url": "https://explorer3.redecoin.eu",
+      "standard": "none"
+    }
+  ]
+}

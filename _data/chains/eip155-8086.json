@@ -1,0 +1,17 @@
+{
+  "name": "Bitcoin Chain",
+  "chain": "BTC",
+  "icon": "BTCChain",
+  "rpc": ["https://rpc.bitcoinevm.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://bitcoinevm.org",
+  "shortName": "Bitcoin",
+  "chainId": 8086,
+  "networkId": 8086,
+  "explorers": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Shinarium Beta",
+  "chain": "Shinarium",
+  "icon": "shinarium",
+  "rpc": ["https://rpc.shinarium.org"],
+  "faucets": ["https://faucet.shinarium.org"],
+  "nativeCurrency": {
+    "name": "Shina Inu",
+    "symbol": "SHI",
+    "decimals": 18
+  },
+  "infoURL": "https://shinarium.org",
+  "shortName": "shi",
+  "chainId": 534849,
+  "networkId": 534849,
+  "explorers": [
+    {
+      "name": "shinascan",
+      "url": "https://shinascan.shinarium.org",
+      "standard": "EIP3091"
+    }
+  ]
+}

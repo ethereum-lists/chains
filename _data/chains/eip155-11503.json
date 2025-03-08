@@ -1,0 +1,23 @@
+{
+  "name": "BEVM Testnet",
+  "chain": "BEVM",
+  "rpc": ["https://testnet.bevm.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://bevm.io",
+  "shortName": "bevm-test",
+  "chainId": 11503,
+  "networkId": 11503,
+  "icon": "bevm",
+  "explorers": [
+    {
+      "name": "bevm testnet scan",
+      "url": "https://scan-testnet.bevm.io",
+      "standard": "none"
+    }
+  ]
+}

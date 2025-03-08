@@ -1,0 +1,23 @@
+{
+  "name": "Dojima Testnet",
+  "chain": "Dojima",
+  "rpc": ["https://rpc-test-d11k.dojima.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dojima",
+    "symbol": "DOJ",
+    "decimals": 18
+  },
+  "icon": "dojima",
+  "infoURL": "https://www.dojima.network/",
+  "shortName": "dojtestnet",
+  "chainId": 184,
+  "networkId": 184,
+  "explorers": [
+    {
+      "name": "Dojima Testnet Explorer",
+      "url": "https://explorer-test.dojima.network",
+      "standard": "none"
+    }
+  ]
+}

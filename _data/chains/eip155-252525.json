@@ -1,0 +1,25 @@
+{
+  "name": "CELESTIUM Network Testnet",
+  "chain": "CELESTIUM",
+  "rpc": ["https://rpc-private-testnet.celestium.network"],
+  "faucets": ["https://faucet.celestium.network"],
+  "nativeCurrency": {
+    "name": "CLT",
+    "symbol": "tCLT",
+    "decimals": 18
+  },
+  "infoURL": "https://celestium.network",
+  "shortName": "tclt",
+  "chainId": 252525,
+  "networkId": 252525,
+  "slip44": 1,
+  "icon": "celestium",
+  "explorers": [
+    {
+      "name": "CELESTIUM Testnet Explorer",
+      "icon": "celestium",
+      "url": "https://testnet.celestium.network",
+      "standard": "none"
+    }
+  ]
+}

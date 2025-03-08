@@ -1,0 +1,24 @@
+{
+  "name": "KalyChain Mainnet",
+  "chain": "KLC",
+  "icon": "kalychain",
+  "rpc": ["https://rpc.kalychain.io/rpc"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "KalyCoin",
+    "symbol": "KLC",
+    "decimals": 18
+  },
+  "infoURL": "https://kalychain.io",
+  "shortName": "kalymainnet",
+  "chainId": 3888,
+  "networkId": 3888,
+  "explorers": [
+    {
+      "name": "KalyScan",
+      "url": "https://kalyscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

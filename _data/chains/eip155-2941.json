@@ -1,0 +1,27 @@
+{
+  "name": "Xenon Chain Testnet",
+  "chain": "XEN",
+  "rpc": [
+    "https://testnet-chain.xenonchain.com/",
+    "https://testnet-dev.xenonchain.com/"
+  ],
+  "faucets": ["https://xfaucet.xenonchain.com"],
+  "nativeCurrency": {
+    "name": "Xenon Testnet",
+    "symbol": "tXEN",
+    "decimals": 18
+  },
+  "infoURL": "https://xenonchain.com",
+  "shortName": "xenon",
+  "chainId": 2941,
+  "networkId": 2941,
+  "icon": "xenon",
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Xenon testnet Explorer",
+      "url": "https://testnet.xenonchain.com",
+      "standard": "none"
+    }
+  ]
+}

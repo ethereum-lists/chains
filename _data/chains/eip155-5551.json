@@ -1,7 +1,8 @@
 {
-  "name": "Nahmii Mainnet",
+  "name": "Nahmii 2 Mainnet",
   "chain": "Nahmii",
   "rpc": ["https://l2.nahmii.io"],
+  "status": "active",
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -15,8 +16,8 @@
   "icon": "nahmii",
   "explorers": [
     {
-      "name": "Nahmii mainnet explorer",
-      "url": "https://explorer.nahmii.io",
+      "name": "Nahmii 2 Mainnet Explorer",
+      "url": "https://explorer.n2.nahmii.io",
       "icon": "nahmii",
       "standard": "EIP3091"
     }
@@ -26,7 +27,7 @@
     "chain": "eip155-1",
     "bridges": [
       {
-        "url": "https://bridge.nahmii.io"
+        "url": "https://n2.bridge.nahmii.io"
       }
     ]
   }

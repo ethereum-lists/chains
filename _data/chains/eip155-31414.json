@@ -1,0 +1,23 @@
+{
+  "name": "Evoke Testnet",
+  "chain": "Evoke",
+  "icon": "mthn",
+  "rpc": ["https://testnet-rpc.evokescan.org"],
+  "faucets": ["https://faucet.evokescan.org"],
+  "nativeCurrency": {
+    "name": "MTHN Testnet",
+    "symbol": "MTHN",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet-explorer.evokescan.org",
+  "shortName": "tmthn",
+  "chainId": 31414,
+  "networkId": 31414,
+  "explorers": [
+    {
+      "name": "Evoke SmartChain Testnet Explorer",
+      "url": "https://testnet-explorer.evokescan.org",
+      "standard": "EIP3091"
+    }
+  ]
+}

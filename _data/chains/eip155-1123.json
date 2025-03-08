@@ -1,0 +1,33 @@
+{
+  "name": "B2 Testnet",
+  "title": "B2 Testnet",
+  "chain": "Habitat",
+  "rpc": [
+    "https://b2-testnet.alt.technology",
+    "https://rpc.ankr.com/b2_testnet",
+    "https://testnet-rpc.bsquared.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.bsquared.network",
+  "shortName": "B2-testnet",
+  "chainId": 1123,
+  "networkId": 1123,
+  "icon": "bsquare",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://testnet-explorer.bsquared.network",
+      "icon": "bsquare",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1113"
+  }
+}

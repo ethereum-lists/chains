@@ -1,0 +1,29 @@
+{
+  "name": "GPT Testnet",
+  "chain": "Skopje Testnet",
+  "icon": "skopje-gpt",
+  "rpc": ["https://testnet-rpc.gptprotocol.io"],
+  "faucets": ["https://testnet-faucet.gptprotocol.io"],
+  "chainId": 476462898,
+  "networkId": 476462898,
+  "nativeCurrency": {
+    "name": "SkpGPT",
+    "symbol": "SkpGPT",
+    "decimals": 18
+  },
+  "infoURL": "https://gptprotocol.com",
+  "shortName": "Skopje",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "https://testnet-bridge.gptprotocol.io" }]
+  },
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://testnet-explorer.gptprotocol.io",
+      "standard": "EIP3091",
+      "icon": "blockscout"
+    }
+  ]
+}

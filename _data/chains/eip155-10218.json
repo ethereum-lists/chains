@@ -1,0 +1,20 @@
+{
+  "name": "Tea Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Tea",
+    "symbol": "TEA",
+    "decimals": 18
+  },
+  "infoURL": "https://tea.xyz",
+  "shortName": "teasep",
+  "chainId": 10218,
+  "networkId": 10218,
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  },
+  "status": "incubating"
+}

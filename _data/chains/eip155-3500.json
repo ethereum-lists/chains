@@ -12,12 +12,12 @@
   "shortName": "prbtestnet",
   "chainId": 3500,
   "networkId": 3500,
+  "slip44": 1,
   "icon": "prb",
   "explorers": [
     {
       "name": "Paribu Net Testnet Explorer",
       "url": "https://testnet.paribuscan.com",
-      "icon": "explorer",
       "standard": "EIP3091"
     }
   ]

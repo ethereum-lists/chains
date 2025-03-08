@@ -12,11 +12,11 @@
   "shortName": "QETTest",
   "chainId": 9528,
   "networkId": 9528,
+  "slip44": 1,
   "explorers": [
     {
       "name": "QEasyWeb3 Explorer",
       "url": "https://www.qeasyweb3.com",
-      "icon": "qetscan",
       "standard": "EIP3091"
     }
   ]

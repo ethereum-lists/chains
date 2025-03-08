@@ -1,0 +1,24 @@
+{
+  "name": "Smart Trade Networks",
+  "chain": "Smart Trade Networks",
+  "rpc": ["https://beefledgerwallet.com:8544"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "STN",
+    "symbol": "STN",
+    "decimals": 18
+  },
+  "infoURL": "https://www.smarttradenetworks.com",
+  "shortName": "STN",
+  "chainId": 18122,
+  "networkId": 18122,
+  "icon": "stn",
+  "explorers": [
+    {
+      "name": "stnscan",
+      "url": "https://stnscan.com",
+      "icon": "stn",
+      "standard": "none"
+    }
+  ]
+}

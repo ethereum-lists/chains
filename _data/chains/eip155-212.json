@@ -1,22 +1,22 @@
 {
-  "name": "MAP Makalu",
-  "title": "MAP Testnet Makalu",
-  "chain": "MAP",
+  "name": "MAPO Makalu",
+  "title": "MAPO Testnet Makalu",
+  "chain": "MAPO",
   "rpc": ["https://testnet-rpc.maplabs.io"],
-  "faucets": ["https://faucet.maplabs.io"],
+  "faucets": ["https://faucet.mapprotocol.io"],
   "nativeCurrency": {
-    "name": "Makalu MAP",
-    "symbol": "MAP",
+    "name": "Makalu MAPO",
+    "symbol": "MAPO",
     "decimals": 18
   },
-  "infoURL": "https://maplabs.io",
+  "infoURL": "https://mapprotocol.io/",
   "shortName": "makalu",
   "chainId": 212,
   "networkId": 212,
   "explorers": [
     {
-      "name": "mapscan",
-      "url": "https://testnet.mapscan.io",
+      "name": "maposcan",
+      "url": "https://testnet.maposcan.io",
       "standard": "EIP3091"
     }
   ]
