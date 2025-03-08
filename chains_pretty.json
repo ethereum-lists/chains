@@ -33219,7 +33219,7 @@
 }, {
   "name": "Electroneum Mainnet",
   "chain": "Electroneum",
-  "rpc": ["https://rpc.electroneum.com"],
+  "rpc": ["https://rpc.electroneum.com", "https://rpc.ankr.com/electroneum"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Electroneum",
@@ -44089,8 +44089,8 @@
 }, {
   "name": "Electroneum Testnet",
   "chain": "Electroneum",
-  "rpc": ["https://testnet-rpc.electroneum.com"],
-  "faucets": [],
+  "rpc": ["https://rpc.ankr.com/electroneum_testnet"],
+  "faucets": ["https://faucet.electroneum.com"],
   "nativeCurrency": {
     "name": "Electroneum",
     "symbol": "ETN",
@@ -44109,7 +44109,7 @@
   "icon": "electroneum",
   "explorers": [{
     "name": "blockscout",
-    "url": "https://blockexplorer.thesecurityteam.rocks",
+    "url": "https://testnet-blockexplorer.electroneum.com",
     "icon": "electroneum",
     "standard": "EIP3091"
   }]

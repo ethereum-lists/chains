@@ -20210,7 +20210,7 @@
     "symbol": "ETN",
     "decimals": 18
   },
-  "rpc": ["https://rpc.electroneum.com"],
+  "rpc": ["https://rpc.electroneum.com", "https://rpc.ankr.com/electroneum"],
   "faucets": [],
   "infoURL": "https://electroneum.com"
 }, {
@@ -26697,8 +26697,8 @@
     "symbol": "ETN",
     "decimals": 18
   },
-  "rpc": ["https://testnet-rpc.electroneum.com"],
-  "faucets": [],
+  "rpc": ["https://rpc.ankr.com/electroneum_testnet"],
+  "faucets": ["https://faucet.electroneum.com"],
   "infoURL": "https://electroneum.com"
 }, {
   "name": "Reactive Kopli",
