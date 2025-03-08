@@ -1,12 +1,7 @@
 {
   "name": "edeXa Mainnet",
   "chain": "edeXa",
-  "rpc": [
-    "https://mainnet.edexa.network/rpc",
-    "wss://mainnet.edexa.network/wss",
-    "https://mainnet.edexa.com/rpc",
-    "wss://mainnet.edexa.com/wss"
-  ],
+  "rpc": ["https://rpc.edexa.network", "https://rpc.edexa.com"],
   "faucets": [],
   "features": [
     {
