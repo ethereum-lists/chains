@@ -1,7 +1,7 @@
 {
   "name": "Xsolla ZK Sepolia Testnet",
   "chain": "Xsolla ZK Sepolia",
-  "rpc": ["https://zkrpc.xsollazk.com"],
+  "rpc": ["https://zkrpc-sepolia.xsollazk.com"],
   "faucets": ["https://xsollazk.com/faucet"],
   "nativeCurrency": {
     "name": "Sepolia Ether",
@@ -10,8 +10,8 @@
   },
   "infoURL": "https://xsolla.com/zk",
   "shortName": "xsollazk-sepolia",
-  "chainId": 555272,
-  "networkId": 555272,
+  "chainId": 555777,
+  "networkId": 555777,
   "slip44": 1,
   "icon": "xsollazk",
   "explorers": [
