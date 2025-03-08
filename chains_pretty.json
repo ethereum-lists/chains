@@ -37116,7 +37116,7 @@
     "chain": "eip155-11155111"
   }
 }, {
-  "name": "Plume Mainnet",
+  "name": "Plume",
   "title": "Plume Ethereum L2 Rollup Mainnet",
   "chain": "ETH",
   "rpc": ["https://rpc.plumenetwork.xyz", "wss://rpc.plumenetwork.xyz"],
@@ -37140,7 +37140,38 @@
   }],
   "parent": {
     "type": "L2",
-    "chain": "eip155-11155111",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://bridge.plumenetwork.xyz"
+    }]
+  }
+}, {
+  "name": "Plume Mainnet",
+  "title": "Plume Ethereum L2 Rollup Mainnet",
+  "chain": "ETH",
+  "rpc": ["https://phoenix-rpc.plumenetwork.xyz", "wss://phoenix-rpc.plumenetwork.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Plume",
+    "symbol": "PLUME",
+    "decimals": 18
+  },
+  "infoURL": "https://plumenetwork.xyz/",
+  "shortName": "plume-mainnet",
+  "chainId": 98866,
+  "networkId": 98866,
+  "slip44": 1,
+  "icon": "plume",
+  "status": "incubating",
+  "explorers": [{
+    "name": "Blockscout",
+    "url": "https://phoenix-explorer.plumenetwork.xyz",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
     "bridges": [{
       "url": "https://bridge.plumenetwork.xyz"
     }]

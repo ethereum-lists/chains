@@ -22515,7 +22515,7 @@
   "faucets": [],
   "infoURL": "https://plumenetwork.xyz/"
 }, {
-  "name": "Plume Mainnet",
+  "name": "Plume",
   "chainId": 98865,
   "shortName": "plume",
   "networkId": 98865,
@@ -22525,6 +22525,19 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.plumenetwork.xyz", "wss://rpc.plumenetwork.xyz"],
+  "faucets": [],
+  "infoURL": "https://plumenetwork.xyz/"
+}, {
+  "name": "Plume Mainnet",
+  "chainId": 98866,
+  "shortName": "plume-mainnet",
+  "networkId": 98866,
+  "nativeCurrency": {
+    "name": "Plume",
+    "symbol": "PLUME",
+    "decimals": 18
+  },
+  "rpc": ["https://phoenix-rpc.plumenetwork.xyz", "wss://phoenix-rpc.plumenetwork.xyz"],
   "faucets": [],
   "infoURL": "https://plumenetwork.xyz/"
 }, {

@@ -1,5 +1,5 @@
 {
-  "name": "Plume Mainnet",
+  "name": "Plume",
   "title": "Plume Ethereum L2 Rollup Mainnet",
   "chain": "ETH",
   "rpc": ["https://rpc.plumenetwork.xyz", "wss://rpc.plumenetwork.xyz"],
@@ -25,7 +25,7 @@
   ],
   "parent": {
     "type": "L2",
-    "chain": "eip155-11155111",
+    "chain": "eip155-1",
     "bridges": [{ "url": "https://bridge.plumenetwork.xyz" }]
   }
 }
