@@ -22814,6 +22814,19 @@
   "faucets": [],
   "infoURL": "https://stabilityprotocol.com"
 }, {
+  "name": "Xitcoin",
+  "chainId": 101088,
+  "shortName": "Xitcoin",
+  "networkId": 101088,
+  "nativeCurrency": {
+    "name": "Xitcoin",
+    "symbol": "$XTC",
+    "decimals": 8
+  },
+  "rpc": ["https://network.xitcoin.org"],
+  "faucets": [],
+  "infoURL": "https://docs.xitcoin.org/"
+}, {
   "name": "Creditcoin",
   "chainId": 102030,
   "shortName": "ctc",
