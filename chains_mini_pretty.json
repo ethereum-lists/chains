@@ -12648,6 +12648,19 @@
   "faucets": ["https://citrea.xyz/faucet"],
   "infoURL": "https://citrea.xyz"
 }, {
+  "name": "Seismic devnet",
+  "chainId": 5124,
+  "shortName": "seismic-devnet",
+  "networkId": 5124,
+  "nativeCurrency": {
+    "name": "Seismic Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://node-2.seismicdev.net/rpc"],
+  "faucets": ["https://faucet-2.seismicdev.net/"],
+  "infoURL": "https://seismic.systems"
+}, {
   "name": "Moca Chain Testnet",
   "chainId": 5151,
   "shortName": "MOCA",
