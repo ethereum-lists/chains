@@ -12865,7 +12865,7 @@
     "symbol": "EDX",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.edexa.network/rpc", "wss://mainnet.edexa.network/wss", "https://mainnet.edexa.com/rpc", "wss://mainnet.edexa.com/wss"],
+  "rpc": ["https://rpc.edexa.network", "https://rpc.edexa.com"],
   "faucets": [],
   "infoURL": "https://edexa.network/"
 }, {
@@ -25218,6 +25218,19 @@
   "rpc": ["https://subnets.avax.network/eclipsecha/testnet/rpc"],
   "faucets": [],
   "infoURL": "http://eclipsenet.io"
+}, {
+  "name": "Xsolla ZK Sepolia Testnet",
+  "chainId": 555777,
+  "shortName": "xsollazk-sepolia",
+  "networkId": 555777,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://zkrpc-sepolia.xsollazk.com"],
+  "faucets": ["https://xsollazk.com/faucet"],
+  "infoURL": "https://xsolla.com/zk"
 }, {
   "name": "DustBoy IoT",
   "chainId": 555888,

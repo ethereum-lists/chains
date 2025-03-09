@@ -21126,7 +21126,7 @@
 }, {
   "name": "edeXa Mainnet",
   "chain": "edeXa",
-  "rpc": ["https://mainnet.edexa.network/rpc", "wss://mainnet.edexa.network/wss", "https://mainnet.edexa.com/rpc", "wss://mainnet.edexa.com/wss"],
+  "rpc": ["https://rpc.edexa.network", "https://rpc.edexa.com"],
   "faucets": [],
   "features": [{
     "name": "EIP155"
@@ -41632,6 +41632,28 @@
   "explorers": [{
     "name": "ECLIPSE Explorer",
     "url": "https://subnets-test.avax.network/eclipsecha",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Xsolla ZK Sepolia Testnet",
+  "chain": "Xsolla ZK Sepolia",
+  "rpc": ["https://zkrpc-sepolia.xsollazk.com"],
+  "faucets": ["https://xsollazk.com/faucet"],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://xsolla.com/zk",
+  "shortName": "xsollazk-sepolia",
+  "chainId": 555777,
+  "networkId": 555777,
+  "slip44": 1,
+  "icon": "xsollazk",
+  "explorers": [{
+    "name": "Xsolla ZK Sepolia Block Explorer",
+    "url": "https://x.la/explorer",
+    "icon": "xsollazk",
     "standard": "EIP3091"
   }]
 }, {
