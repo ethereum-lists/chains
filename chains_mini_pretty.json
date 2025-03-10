@@ -1234,18 +1234,18 @@
   "faucets": ["https://faucet.camdl.gov.kh/"],
   "infoURL": "https://camdl.gov.kh/"
 }, {
-  "name": "Bitkub Chain",
+  "name": "KUB Mainnet",
   "chainId": 96,
-  "shortName": "bkc",
+  "shortName": "kub",
   "networkId": 96,
   "nativeCurrency": {
-    "name": "Bitkub Coin",
+    "name": "KUB Coin",
     "symbol": "KUB",
     "decimals": 18
   },
   "rpc": ["https://rpc.bitkubchain.io", "wss://wss.bitkubchain.io"],
   "faucets": [],
-  "infoURL": "https://www.bitkubchain.com/"
+  "infoURL": "https://www.kubchain.com/"
 }, {
   "name": "BNB Smart Chain Testnet",
   "chainId": 97,
@@ -18524,18 +18524,18 @@
   "faucets": [],
   "infoURL": "https://www.hammerchain.io"
 }, {
-  "name": "Bitkub Chain Testnet",
+  "name": "KUB Testnet",
   "chainId": 25925,
-  "shortName": "bkct",
+  "shortName": "kubt",
   "networkId": 25925,
   "nativeCurrency": {
-    "name": "Bitkub Coin",
+    "name": "KUB Coin",
     "symbol": "tKUB",
     "decimals": 18
   },
   "rpc": ["https://rpc-testnet.bitkubchain.io", "wss://wss-testnet.bitkubchain.io"],
-  "faucets": ["https://faucet.bitkubchain.com"],
-  "infoURL": "https://www.bitkubchain.com/"
+  "faucets": ["https://faucet.kubchain.com"],
+  "infoURL": "https://www.kubchain.com/"
 }, {
   "name": "Ferrum Testnet",
   "chainId": 26026,
@@ -22528,7 +22528,7 @@
   "faucets": [],
   "infoURL": "https://plumenetwork.xyz/"
 }, {
-  "name": "Plume",
+  "name": "Plume (Legacy)",
   "chainId": 98865,
   "shortName": "plume",
   "networkId": 98865,
