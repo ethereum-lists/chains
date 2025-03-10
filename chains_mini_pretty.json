@@ -29353,6 +29353,19 @@
   "faucets": [],
   "infoURL": "https://raas.gelato.network/rollups/details/public/volmex"
 }, {
+  "name": "Basecamp",
+  "chainId": 123420001114,
+  "shortName": "Basecamp",
+  "networkId": 123420001114,
+  "nativeCurrency": {
+    "name": "Camp",
+    "symbol": "CAMP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.basecamp.t.raas.gelato.cloud"],
+  "faucets": ["https://www.campnetwork.xyz/faucet_l1"],
+  "infoURL": "https://docs.campnetwork.xyz/"
+}, {
   "name": "Ntity Mainnet",
   "chainId": 197710212030,
   "shortName": "ntt",
