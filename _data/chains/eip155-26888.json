@@ -1,5 +1,5 @@
 {
-  "name": "ABCore Testnet",
+  "name": "AB Core Testnet",
   "chain": "ETH",
   "rpc": ["https://rpc.core.testnet.ab.org"],
   "faucets": [],
@@ -14,7 +14,7 @@
   "networkId": 26888,
   "explorers": [
     {
-      "name": "ABCore explorer",
+      "name": "AB Core explorer",
       "url": "https://explorer.core.testnet.ab.org",
       "standard": "EIP3091"
     }
