@@ -1,0 +1,23 @@
+{
+  "name": "DuskEVM Testnet",
+  "chain": "DuskEVM Testnet",
+  "rpc": ["https://rpc.testnet.evm.dusk.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dusk",
+    "symbol": "DUSK",
+    "decimals": 18
+  },
+  "infoURL": "https://dusk.network",
+  "shortName": "DuskEVMt",
+  "chainId": 745,
+  "networkId": 745,
+  "explorers": [
+    {
+      "name": "Dusk Explorer",
+      "url": "https://explorer.testnet.evm.dusk.network",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "incubating"
+}
