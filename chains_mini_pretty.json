@@ -15365,7 +15365,7 @@
   "faucets": [],
   "infoURL": "https://evmos.org"
 }, {
-  "name": "Qubetics Testnet",
+  "name": "Qubetics Alpha Testnet",
   "chainId": 9003,
   "shortName": "Qubetics",
   "networkId": 9003,
@@ -15374,7 +15374,7 @@
     "symbol": "TICS",
     "decimals": 18
   },
-  "rpc": ["https://alphatestnet-evm-rpc.qubetics.work/", "wss://wss-testnet-nodes.shidoscan.com"],
+  "rpc": ["https://alphatestnet-evm-rpc.qubetics.work/"],
   "faucets": ["https://alphatestnet-explorer.qubetics.work/faucet"],
   "infoURL": "https://www.qubetics.com/"
 }, {
