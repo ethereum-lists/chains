@@ -1,6 +1,6 @@
 {
-  "name": " Privix Chain Mainnet",
-  "chain": "PSC",
+  "name": "Privix Chain Mainnet",
+  "chain": "PRIVIX",
   "rpc": [
     "https://mainnet-rpc.privixchain.xyz/",
     "wss://mainnet-rpc.privixchain.xyz/ws"
@@ -8,7 +8,7 @@
   "faucets": [],
   "nativeCurrency": {
     "name": "Privix Coin",
-    "symbol": "PSC",
+    "symbol": "PRIVIX",
     "decimals": 18
   },
   "infoURL": "https://privix.co/",
