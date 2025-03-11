@@ -2,7 +2,7 @@
 	"name": "XRPL EVM Sidechain",
 	"chain": "XRPL EVM Sidechain",
 	"rpc": [
-		"https://rpc-evm-sidechain.xrpl.org/"
+		"https://rpc-evm-sidechain.xrpl.org"
 	],
 	"faucets": [],
 	"nativeCurrency": {
@@ -10,7 +10,7 @@
 		"symbol": "XRP",
 		"decimals": 18
 	},
-	"infoURL": "https://docs.xrplevm.org/",
+	"infoURL": "https://docs.xrplevm.org",
 	"shortName": "xrpl-evm-testnet",
 	"chainId": 1440002,
 	"networkId": 1440002,
@@ -18,7 +18,7 @@
 	"explorers": [
 		{
 			"name": "XRPL EVM Sidechain Explorer",
-			"url": "https://explorer.xrplevm.org/",
+			"url": "https://explorer.xrplevm.org",
 			"standard": "EIP3091"
 		}
 	]
