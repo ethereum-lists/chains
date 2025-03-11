@@ -1,0 +1,23 @@
+{
+  "name": "Esports Chain",
+  "chain": "ESPT",
+  "icon": "esports",
+  "rpc": ["https://esportsblock.org/rpc/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Esport Token",
+    "symbol": "ESPT",
+    "decimals": 18
+  },
+  "infoURL": "https://esportsblock.org",
+  "shortName": "Esports",
+  "chainId": 17785,
+  "networkId": 17785,
+  "explorers": [
+    {
+      "name": "esportsblock_explorer",
+      "url": "https://explorer.esportsblock.org/",
+      "standard": "none"
+    }
+  ]
+}
