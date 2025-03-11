@@ -1,7 +1,7 @@
 {
   "name": "edeXa Mainnet",
-  "chain": "edeXa Network",
-  "rpc": ["https://mainnet.edexa.network/rpc", "https://mainnet.edexa.com/rpc"],
+  "chain": "edeXa",
+  "rpc": ["https://rpc.edexa.network", "https://rpc.edexa.com"],
   "faucets": [],
   "features": [
     {
@@ -12,19 +12,19 @@
     }
   ],
   "nativeCurrency": {
-    "name": "EDEXA",
+    "name": "edeXa",
     "symbol": "EDX",
     "decimals": 18
   },
   "infoURL": "https://edexa.network/",
-  "shortName": "edeXa",
+  "shortName": "edx",
   "chainId": 5424,
   "networkId": 5424,
   "slip44": 1,
   "icon": "edexa",
   "explorers": [
     {
-      "name": "edexa-mainnet",
+      "name": "edexa-mainnet-explorer",
       "url": "https://explorer.edexa.network",
       "standard": "EIP3091"
     }
