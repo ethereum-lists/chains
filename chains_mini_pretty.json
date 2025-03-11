@@ -18615,6 +18615,19 @@
   "faucets": ["http://faucet.oasischain.io"],
   "infoURL": "https://scan.oasischain.io"
 }, {
+  "name": "AB Core Testnet",
+  "chainId": 26888,
+  "shortName": "tABCore",
+  "networkId": 26888,
+  "nativeCurrency": {
+    "name": "AB",
+    "symbol": "AB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.core.testnet.ab.org"],
+  "faucets": [],
+  "infoURL": "https://ab.org"
+}, {
   "name": "Newton Finance Testnet",
   "chainId": 26988,
   "shortName": "tNewFi",
