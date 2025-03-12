@@ -19031,31 +19031,31 @@
   "faucets": ["https://mezo.org/matsnet"],
   "infoURL": "https://mezo.org/"
 }, {
-  "name": "Xchain Mainnet",
+  "name": "Xchain Mainnet (Deprecated)",
   "chainId": 31753,
-  "shortName": "INTD",
+  "shortName": "INTD_deprecated",
   "networkId": 31753,
   "nativeCurrency": {
     "name": "Intdestcoin",
     "symbol": "INTD",
     "decimals": 18
   },
-  "rpc": ["https://rpc.xchainscan.com"],
+  "rpc": [],
   "faucets": [],
-  "infoURL": "https://xchainscan.com"
+  "infoURL": "https://chainlist.org/chain/31753"
 }, {
-  "name": "Xchain Testnet",
+  "name": "Xchain Testnet (Deprecated)",
   "chainId": 31754,
-  "shortName": "tINTD",
+  "shortName": "tINTD_deprecated",
   "networkId": 31754,
   "nativeCurrency": {
     "name": "Intdestcoin Testnet",
     "symbol": "INTD",
     "decimals": 18
   },
-  "rpc": ["https://rpc.xchaintest.net"],
-  "faucets": ["https://xchainfaucet.net"],
-  "infoURL": "https://xchaintest.net"
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://chainlist.org/chain/31754"
 }, {
   "name": "W3Gamez Holesky Testnet",
   "chainId": 32001,
@@ -21007,6 +21007,19 @@
   "faucets": [],
   "infoURL": "https://playongeist.com"
 }, {
+  "name": "XCHAIN Testnet",
+  "chainId": 64002,
+  "shortName": "xct",
+  "networkId": 64002,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://xchain-testnet-rpc.kuma.bid"],
+  "faucets": [],
+  "infoURL": "https://kuma.bid"
+}, {
   "name": "CratD2C Testnet",
   "chainId": 65349,
   "shortName": "cratd2c-testnet",
@@ -22371,6 +22384,19 @@
   "rpc": ["https://rpc.stratovm.io"],
   "faucets": [],
   "infoURL": "https://www.stratovm.io/"
+}, {
+  "name": "XCHAIN",
+  "chainId": 94524,
+  "shortName": "xc",
+  "networkId": 94524,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://xchain-rpc.kuma.bid"],
+  "faucets": [],
+  "infoURL": "https://kuma.bid"
 }, {
   "name": "SRICHAIN",
   "chainId": 95432,

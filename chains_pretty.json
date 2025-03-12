@@ -31206,45 +31206,39 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Xchain Mainnet",
-  "chain": "Xchain",
+  "name": "Xchain Mainnet (Deprecated)",
+  "chain": "XchainDeprecated",
   "icon": "intd",
-  "rpc": ["https://rpc.xchainscan.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Intdestcoin",
     "symbol": "INTD",
     "decimals": 18
   },
-  "infoURL": "https://xchainscan.com",
-  "shortName": "INTD",
+  "infoURL": "https://chainlist.org/chain/31753",
+  "shortName": "INTD_deprecated",
   "chainId": 31753,
   "networkId": 31753,
-  "explorers": [{
-    "name": "Xchain Mainnet Explorer",
-    "url": "https://xchainscan.com",
-    "standard": "EIP3091"
-  }]
+  "status": "deprecated",
+  "explorers": []
 }, {
-  "name": "Xchain Testnet",
-  "chain": "Xchain",
+  "name": "Xchain Testnet (Deprecated)",
+  "chain": "XchainDeprecated",
   "icon": "intd",
-  "rpc": ["https://rpc.xchaintest.net"],
-  "faucets": ["https://xchainfaucet.net"],
+  "rpc": [],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Intdestcoin Testnet",
     "symbol": "INTD",
     "decimals": 18
   },
-  "infoURL": "https://xchaintest.net",
-  "shortName": "tINTD",
+  "infoURL": "https://chainlist.org/chain/31754",
+  "shortName": "tINTD_deprecated",
   "chainId": 31754,
   "networkId": 31754,
-  "explorers": [{
-    "name": "Xchain Testnet Explorer",
-    "url": "https://xchaintest.net",
-    "standard": "EIP3091"
-  }]
+  "status": "deprecated",
+  "explorers": []
 }, {
   "name": "W3Gamez Holesky Testnet",
   "chain": "ETH",
@@ -34660,6 +34654,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "XCHAIN Testnet",
+  "chain": "XCHAIN",
+  "rpc": ["https://xchain-testnet-rpc.kuma.bid"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://kuma.bid",
+  "shortName": "xct",
+  "chainId": 64002,
+  "networkId": 64002,
+  "explorers": [{
+    "name": "XCHAIN Testnet Explorer",
+    "url": "https://xchain-testnet-explorer.kuma.bid",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "CratD2C Testnet",
   "chain": "CRATD2C",
   "rpc": ["https://cratd2c-testnet-node1.cratd2csmartchain.io/", "https://cratd2c-testnet-node2.cratd2csmartchain.io/"],
@@ -36868,6 +36881,25 @@
     "name": "StratoVM Block Explorer",
     "url": "https://explorer.stratovm.io",
     "standard": "none"
+  }]
+}, {
+  "name": "XCHAIN",
+  "chain": "XCHAIN",
+  "rpc": ["https://xchain-rpc.kuma.bid"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://kuma.bid",
+  "shortName": "xc",
+  "chainId": 94524,
+  "networkId": 94524,
+  "explorers": [{
+    "name": "XCHAIN Explorer",
+    "url": "https://xchain-explorer.kuma.bid",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "SRICHAIN",
