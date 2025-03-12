@@ -25226,12 +25226,12 @@
     "decimals": 18
   },
   "infoURL": "https://www.qubetics.com/",
-  "shortName": "Qubetics",
+  "shortName": "QubeticsAlpha",
   "chainId": 9003,
   "networkId": 9003,
   "icon": "qubetics",
   "explorers": [{
-    "name": "Qubetics Testnet Explorer",
+    "name": "Qubetics Alpha Testnet Explorer",
     "url": "https://alphatestnet-explorer.qubetics.work/dashboard",
     "standard": "none",
     "icon": "qubetics"
@@ -25339,6 +25339,27 @@
     "url": "https://nexablockscan.io",
     "standard": "none",
     "icon": "nexaChain"
+  }]
+}, {
+  "name": "Qubetics Testnet",
+  "chain": "Qubetics Testnet",
+  "rpc": ["https://rpc-testnet.qubetics.work/"],
+  "faucets": ["https://testnet.qubetics.work/faucet"],
+  "nativeCurrency": {
+    "name": "Qubetics Testnet Token",
+    "symbol": "TICS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.qubetics.com/",
+  "shortName": "Qubetics",
+  "chainId": 9029,
+  "networkId": 9029,
+  "icon": "qubetics",
+  "explorers": [{
+    "name": "Qubetics Testnet Explorer",
+    "url": "https://testnet.qubetics.work",
+    "standard": "none",
+    "icon": "qubetics"
   }]
 }, {
   "name": "Apex Fusion - Nexus Mainnet",

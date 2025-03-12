@@ -15367,7 +15367,7 @@
 }, {
   "name": "Qubetics Alpha Testnet",
   "chainId": 9003,
-  "shortName": "Qubetics",
+  "shortName": "QubeticsAlpha",
   "networkId": 9003,
   "nativeCurrency": {
     "name": "Qubetics Testnet Token",
@@ -15442,6 +15442,19 @@
   "rpc": ["https://rpc-nodes.nexablockscan.io", "wss://wss-nodes.nexablockscan.io", "https://rpc-nodes-delta.nexablockscan.io"],
   "faucets": [],
   "infoURL": "https://www.nexablock.io"
+}, {
+  "name": "Qubetics Testnet",
+  "chainId": 9029,
+  "shortName": "Qubetics",
+  "networkId": 9029,
+  "nativeCurrency": {
+    "name": "Qubetics Testnet Token",
+    "symbol": "TICS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.qubetics.work/"],
+  "faucets": ["https://testnet.qubetics.work/faucet"],
+  "infoURL": "https://www.qubetics.com/"
 }, {
   "name": "Apex Fusion - Nexus Mainnet",
   "chainId": 9069,
