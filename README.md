@@ -155,3 +155,17 @@ npx prettier --write _data/*/*.json
  * [Smart Contract UI](https://xtools-at.github.io/smartcontract-ui)
 
  * Your project - contact us to add it here!
+
+## Integrating IPFS with Ethereum
+
+### Installation and usage
+
+* **Install IPFS**: Follow the instructions on the IPFS installation page.
+* **Initialize IPFS**: Run `ipfs init` to initialize the IPFS repository.
+* **Start the IPFS daemon**: Run `ipfs daemon` to start the IPFS daemon.
+* **Add files to IPFS**: Use the command `ipfs add <file>` to add files to IPFS. This will return a CID (Content Identifier).
+* **Store CID on Ethereum**: Use a smart contract to store the CID on the Ethereum blockchain. You can use Solidity to create a contract that stores the CID as a string.
+* **Retrieve files from IPFS**: Use the command `ipfs cat <CID>` to retrieve files from IPFS using the CID.
+* **Pinning files on IPFS**: Use the command `ipfs pin add <CID>` to pin files on IPFS, ensuring they are not garbage collected.
+
+For more detailed instructions, refer to the IPFS documentation and the Ethereum documentation.
