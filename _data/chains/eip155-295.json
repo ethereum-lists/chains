@@ -2,7 +2,7 @@
   "name": "Hedera Mainnet",
   "chain": "Hedera",
   "icon": "hedera",
-  "rpc": ["https://mainnet.hashio.io/api"],
+  "rpc": ["https://mainnet.hashio.io/api", "https://hedera.linkpool.pro"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
