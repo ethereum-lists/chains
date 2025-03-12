@@ -13,5 +13,12 @@
   "chainId": 80069,
   "networkId": 80069,
   "icon": "berachain",
-  "explorers": []
+  "explorers": [
+    {
+      "name": "Beratrail",
+      "url": "https://bepolia.beratrail.io",
+      "icon": "berachain",
+      "standard": "none"
+    }
+  ]
 }
