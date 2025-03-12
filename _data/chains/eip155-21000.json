@@ -1,0 +1,25 @@
+{
+  "name": "Action Mainnet",
+  "chain": "Action",
+  "icon": "action",
+  "rpc": ["https://rpc.actionblockchain.org"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Action",
+    "symbol": "ACTN",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.actioncoin.com",
+  "shortName": "ACTN",
+  "chainId": 21000,
+  "networkId": 21000,
+  "explorers": [
+    {
+      "name": "Action Mainnet Explorer",
+      "url": "http://exp.actionblockchain.org",
+      "icon": "action",
+      "standard": "EIP3091"
+    }
+  ]
+}

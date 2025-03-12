@@ -1,7 +1,7 @@
 {
-  "name": "Hemi Network",
+  "name": "Hemi",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": ["https://rpc.hemi.network/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -13,10 +13,17 @@
   "chainId": 43111,
   "networkId": 43111,
   "icon": "hemi",
-  "explorers": [],
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.hemi.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
   "parent": {
     "type": "L2",
     "chain": "eip155-1"
   },
-  "status": "incubating"
+  "status": "active"
 }

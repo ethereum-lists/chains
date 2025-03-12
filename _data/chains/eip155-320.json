@@ -1,0 +1,29 @@
+{
+  "name": "ZKcandy Mainnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc.zkcandy.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://zkcandy.io/",
+  "shortName": "zkcandy",
+  "chainId": 320,
+  "networkId": 320,
+  "icon": "zkcandymainnet",
+  "explorers": [
+    {
+      "name": "ZKcandy Block Explorer",
+      "url": "https://explorer.zkcandy.io",
+      "icon": "zkcandymainnet",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.zkcandy.io/" }]
+  }
+}
