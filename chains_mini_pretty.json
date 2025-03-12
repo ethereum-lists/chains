@@ -14312,6 +14312,19 @@
   "faucets": [],
   "infoURL": "https://powerloom.network"
 }, {
+  "name": "Powerloom Mainnet V2",
+  "chainId": 7869,
+  "shortName": "powerloom",
+  "networkId": 7869,
+  "nativeCurrency": {
+    "name": "Powerloom Token",
+    "symbol": "POWER",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-v2.powerloom.network"],
+  "faucets": [],
+  "infoURL": "https://powerloom.network"
+}, {
   "name": "Hazlor Testnet",
   "chainId": 7878,
   "shortName": "tscas",
