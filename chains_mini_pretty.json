@@ -10304,7 +10304,7 @@
     "symbol": "6DO",
     "decimals": 18
   },
-  "rpc": ["https://rpc.6do.world"],
+  "rpc": ["https://rpc.6dochain.com", "https://rpc2.6dochain.com", "https://rpc3.6dochain.com"],
   "faucets": [],
   "infoURL": "https://6do.world"
 }, {
@@ -27685,7 +27685,7 @@
     "symbol": "6DO-T",
     "decimals": 18
   },
-  "rpc": ["https://rpc-testnet.6do.world"],
+  "rpc": ["https://rpc-testnet.6dochain.com"],
   "faucets": [],
   "infoURL": "https://6do.world"
 }, {
