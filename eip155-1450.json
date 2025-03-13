@@ -1,0 +1,23 @@
+{
+  "name": "ZentChain",
+  "chain": "ZENT",
+  "rpc": ["https://rpc.zentchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Zents",
+    "symbol": "ZENT",
+    "decimals": 18
+  },
+  "infoURL": "https://zentchain.com",
+  "shortName": "zent",
+  "chainId": 1450,
+  "networkId": 1450,
+  "icon": "zent",
+  "explorers": [
+    {
+      "name": "zentchain explorer",
+      "url": "https://explorer.zentchain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
