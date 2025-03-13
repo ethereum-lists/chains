@@ -24052,8 +24052,8 @@
   "networkId": 8099,
   "explorers": []
 }, {
-  "name": "Zenchain",
-  "chain": "ZCX",
+  "name": "ZenChain",
+  "chain": "ZTC",
   "icon": "zenchain",
   "rpc": [],
   "features": [{
@@ -24063,8 +24063,8 @@
   }],
   "faucets": [],
   "nativeCurrency": {
-    "name": "ZCX",
-    "symbol": "ZCX",
+    "name": "ZTC",
+    "symbol": "ZTC",
     "decimals": 18
   },
   "infoURL": "https://zenchain.io",
@@ -24405,8 +24405,8 @@
   "icon": "dracones",
   "explorers": []
 }, {
-  "name": "Zenchain Testnet",
-  "chain": "ZCX",
+  "name": "ZenChain Testnet",
+  "chain": "ZTC",
   "icon": "zenchain",
   "rpc": ["https://zenchain-testnet.api.onfinality.io/public", "wss://zenchain-testnet.api.onfinality.io/public-ws"],
   "features": [{
@@ -24416,8 +24416,8 @@
   }],
   "faucets": ["https://facuet.zenchain.io"],
   "nativeCurrency": {
-    "name": "ZCX",
-    "symbol": "ZCX",
+    "name": "ZTC",
+    "symbol": "ZTC",
     "decimals": 18
   },
   "infoURL": "https://zenchain.io",

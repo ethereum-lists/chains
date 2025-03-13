@@ -14624,13 +14624,13 @@
   "faucets": [],
   "infoURL": "https://bharatblockchain.io/"
 }, {
-  "name": "Zenchain",
+  "name": "ZenChain",
   "chainId": 8108,
   "shortName": "zen",
   "networkId": 8108,
   "nativeCurrency": {
-    "name": "ZCX",
-    "symbol": "ZCX",
+    "name": "ZTC",
+    "symbol": "ZTC",
     "decimals": 18
   },
   "rpc": [],
@@ -14858,13 +14858,13 @@
   "faucets": [],
   "infoURL": "https://wolfery.com"
 }, {
-  "name": "Zenchain Testnet",
+  "name": "ZenChain Testnet",
   "chainId": 8408,
   "shortName": "zentest",
   "networkId": 8408,
   "nativeCurrency": {
-    "name": "ZCX",
-    "symbol": "ZCX",
+    "name": "ZTC",
+    "symbol": "ZTC",
     "decimals": 18
   },
   "rpc": ["https://zenchain-testnet.api.onfinality.io/public", "wss://zenchain-testnet.api.onfinality.io/public-ws"],
