@@ -1,0 +1,25 @@
+{
+  "name": "POTOS Testnet",
+  "chain": "POTOS",
+  "rpc": ["https://rpc.eightart.hk"],
+  "faucets": ["https://faucet.potos.hk"],
+  "nativeCurrency": {
+    "name": "POTOS Token",
+    "symbol": "POT",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://potos.hk",
+  "shortName": "POTOS",
+  "chainId": 60600,
+  "networkId": 60600,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://scan.potos.hk/testnet",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
