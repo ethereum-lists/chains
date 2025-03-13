@@ -16665,18 +16665,18 @@
   "faucets": [],
   "infoURL": "https://www.egoldchain.com"
 }, {
-  "name": "BEVM Mainnet",
+  "name": "GEB Mainnet",
   "chainId": 11501,
-  "shortName": "bevm",
+  "shortName": "geb",
   "networkId": 11501,
   "nativeCurrency": {
     "name": "BTC",
     "symbol": "BTC",
     "decimals": 18
   },
-  "rpc": ["https://rpc-mainnet-1.bevm.io/", "https://rpc-mainnet-2.bevm.io/"],
+  "rpc": ["https://rpc-mainnet-1.geb.network/", "https://rpc-mainnet-2.geb.network/"],
   "faucets": [],
-  "infoURL": "https://bevm.io"
+  "infoURL": "https://geb.network"
 }, {
   "name": "BEVM Testnet",
   "chainId": 11503,
@@ -16691,18 +16691,18 @@
   "faucets": [],
   "infoURL": "https://bevm.io"
 }, {
-  "name": "BEVM Signet",
+  "name": "GEB Signet",
   "chainId": 11504,
-  "shortName": "bevm-signet",
+  "shortName": "geb-signet",
   "networkId": 11504,
   "nativeCurrency": {
     "name": "BTC",
     "symbol": "BTC",
     "decimals": 18
   },
-  "rpc": ["https://signet.bevm.io/"],
+  "rpc": ["https://signet.geb.network/"],
   "faucets": [],
-  "infoURL": "https://bevm.io"
+  "infoURL": "https://geb.network"
 }, {
   "name": "SatsChain",
   "chainId": 11521,
