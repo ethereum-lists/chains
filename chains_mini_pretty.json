@@ -27598,6 +27598,19 @@
   "faucets": [],
   "infoURL": "https://swanchain.io/"
 }, {
+  "name": "Xphere Mainnet",
+  "chainId": 20250217,
+  "shortName": "xp",
+  "networkId": 20250217,
+  "nativeCurrency": {
+    "name": "Xphere",
+    "symbol": "XP",
+    "decimals": 18
+  },
+  "rpc": ["https://en-bkk.x-phere.com"],
+  "faucets": [],
+  "infoURL": "https://x-phere.com/"
+}, {
   "name": "ETP Mainnet",
   "chainId": 20256789,
   "shortName": "ETP",
