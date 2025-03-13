@@ -1,7 +1,10 @@
 {
   "name": "GEB Mainnet",
   "chain": "GEB",
-  "rpc": ["https://rpc-mainnet-1.geb.network/", "https://rpc-mainnet-2.geb.network/"],
+  "rpc": [
+    "https://rpc-mainnet-1.geb.network/",
+    "https://rpc-mainnet-2.geb.network/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",
