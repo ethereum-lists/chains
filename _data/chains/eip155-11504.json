@@ -1,8 +1,10 @@
 {
   "name": "GEB Signet",
   "chain": "GEB",
-  "rpc": ["https://signet.geb.network/"],
-  "faucets": [],
+  "rpc": [
+    "https://signet.geb.network/"
+  ],
+  "faucets": [ ],
   "nativeCurrency": {
     "name": "BTC",
     "symbol": "BTC",
