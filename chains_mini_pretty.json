@@ -16457,6 +16457,19 @@
   "faucets": [],
   "infoURL": "https://raas.gelato.network/rollups/details/public/gameswift-chain-testnet"
 }, {
+  "name": "Fuse Flash Testnet",
+  "chainId": 10920,
+  "shortName": "fuseflash",
+  "networkId": 10920,
+  "nativeCurrency": {
+    "name": "Fuse",
+    "symbol": "FUSE",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": ["https://faucet.quicknode.com"],
+  "infoURL": "https://www.fuse.io"
+}, {
   "name": "Quadrans Blockchain",
   "chainId": 10946,
   "shortName": "quadrans",
