@@ -1,0 +1,24 @@
+{
+  "name": "StateMesh Testnet",
+  "icon": "statemesh",
+  "chain": "MESH",
+  "rpc": ["https://rpc-test.statemesh.net"],
+  "faucets": ["https://faucet.statemesh.net"],
+  "nativeCurrency": {
+    "name": "StateMesh",
+    "symbol": "MESH",
+    "decimals": 18
+  },
+  "infoURL": "https://statemesh.net",
+  "shortName": "mesh-test",
+  "chainId": 11343,
+  "networkId": 11343,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer-test.statemesh.net",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
