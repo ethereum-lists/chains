@@ -18446,18 +18446,18 @@
   "faucets": ["https://depot.steamexchange.io/faucet"],
   "infoURL": "https://steamexchange.io"
 }, {
-  "name": "MagiChain",
+  "name": "Nexurachain",
   "chainId": 24125,
-  "shortName": "MGC",
+  "shortName": "XURAm",
   "networkId": 24125,
   "nativeCurrency": {
-    "name": "MGIX",
-    "symbol": "MGIX",
+    "name": "XURA",
+    "symbol": "XURA",
     "decimals": 18
   },
-  "rpc": ["https://rpc.magichain.io"],
+  "rpc": ["https://rpc.nexurachain.io"],
   "faucets": [],
-  "infoURL": "https://magichain.io"
+  "infoURL": "https://nexurachain.io"
 }, {
   "name": "Webchain",
   "chainId": 24484,
