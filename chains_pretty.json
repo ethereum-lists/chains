@@ -42971,7 +42971,7 @@
 }, {
   "name": "Dodao",
   "chain": "EVMCC",
-  "rpc": ["https://fraa-dancebox-3041-rpc.a.dancebox.tanssi.network", "wss://fraa-dancebox-3041-rpc.a.dancebox.tanssi.network"],
+  "rpc": ["https://fraa-flashbox-4643-rpc.a.stagenet.tanssi.network", "wss://fraa-flashbox-4643-rpc.a.stagenet.tanssi.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Dodao",
@@ -42984,10 +42984,15 @@
   "networkId": 855456,
   "icon": "dodao",
   "explorers": [{
-    "name": "Dodao Explorer",
-    "url": "https://tanssi-evmexplorer.netlify.app/?rpcUrl=https://fraa-dancebox-3041-rpc.a.dancebox.tanssi.network",
+    "name": "Dodao EVM Explorer",
+    "url": "https://evmexplorer.tanssi-chains.network/?rpcUrl=https://fraa-flashbox-4643-rpc.a.stagenet.tanssi.network",
     "icon": "dodao",
-    "standard": "EIP3091"
+    "standard": "none"
+  }, {
+    "name": "Dodao Polkadot Explorer",
+    "url": "https://polkadot.js.org/apps/?rpc=wss://fraa-flashbox-4643-rpc.a.stagenet.tanssi.network#/explorer",
+    "icon": "dodao",
+    "standard": "none"
   }]
 }, {
   "name": "BlocX Mainnet",
