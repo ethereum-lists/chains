@@ -1,11 +1,11 @@
 {
-  "name": "Pioneer Zero Chain",
+  "name": "Pione Zero",
   "chain": "PZO",
   "icon": "pzo",
   "rpc": ["https://rpc.zeroscan.org"],
-  "faucets": ["https://faucet.zeroscan.org/faucet"],
+  "faucets": ["https://dex.pionechain.com/testnet/faucet/"],
   "nativeCurrency": {
-    "name": "Pioneer Zero",
+    "name": "Pione Zero",
     "symbol": "PZO",
     "decimals": 18
   },
@@ -15,12 +15,12 @@
   "networkId": 5080,
   "explorers": [
     {
-      "name": "Pioneer Zero Chain Explorer",
+      "name": "Pione Zero Explorer",
       "url": "https://zeroscan.org",
       "standard": "EIP3091"
     },
     {
-      "name": "Pioneer Zero Chain Explorer",
+      "name": "Pione Zero Explorer",
       "url": "https://zero.pionescan.com",
       "standard": "EIP3091"
     }
