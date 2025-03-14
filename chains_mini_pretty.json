@@ -17679,6 +17679,19 @@
   "faucets": [],
   "infoURL": "https://konetmain.com"
 }, {
+  "name": "Esports Chain",
+  "chainId": 17735,
+  "shortName": "Esports",
+  "networkId": 17735,
+  "nativeCurrency": {
+    "name": "Esport Token",
+    "symbol": "ESPT",
+    "decimals": 18
+  },
+  "rpc": ["https://esportsblock.org/rpc/"],
+  "faucets": [],
+  "infoURL": "https://esportsblock.org"
+}, {
   "name": "EOS EVM Network",
   "chainId": 17777,
   "shortName": "eos",
