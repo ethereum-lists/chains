@@ -1,9 +1,7 @@
 {
   "name": "ENI Testnet",
   "chain": "ENI",
-  "rpc": [
-    "https://rpc-testnet.eniac.network"
-  ],
+  "rpc": ["https://rpc-testnet.eniac.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "ENI Testnet Token",
@@ -11,10 +9,10 @@
     "decimals": 18
   },
   "infoURL": "https://eniac.network/",
-  "shortName": "ENI",
+  "shortName": "eni-test",
   "chainId": 1730,
   "networkId": 1730,
-  "icon": "ENI",
+  "icon": "eni",
   "explorers": [
     {
       "name": "ENI Testnet Explorer",
