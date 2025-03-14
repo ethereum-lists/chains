@@ -1,9 +1,7 @@
 {
   "name": "ENI Mainnet",
   "chain": "ENI",
-  "rpc": [
-    "https://rpc.eniac.network"
-  ],
+  "rpc": ["https://rpc.eniac.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "ENI Native Token",
@@ -11,10 +9,10 @@
     "decimals": 18
   },
   "infoURL": "https://eniac.network/",
-  "shortName": "ENI",
+  "shortName": "eni",
   "chainId": 173,
   "networkId": 173,
-  "icon": "ENI",
+  "icon": "eni",
   "explorers": [
     {
       "name": "ENI Network Explorer",
