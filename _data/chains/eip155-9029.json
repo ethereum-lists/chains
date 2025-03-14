@@ -1,0 +1,24 @@
+{
+  "name": "Qubetics Testnet",
+  "chain": "Qubetics Testnet",
+  "rpc": ["https://rpc-testnet.qubetics.work/"],
+  "faucets": ["https://testnet.qubetics.work/faucet"],
+  "nativeCurrency": {
+    "name": "Qubetics Testnet Token",
+    "symbol": "TICS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.qubetics.com/",
+  "shortName": "Qubetics",
+  "chainId": 9029,
+  "networkId": 9029,
+  "icon": "qubetics",
+  "explorers": [
+    {
+      "name": "Qubetics Testnet Explorer",
+      "url": "https://testnet.qubetics.work",
+      "standard": "none",
+      "icon": "qubetics"
+    }
+  ]
+}

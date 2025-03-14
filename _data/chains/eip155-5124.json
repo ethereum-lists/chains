@@ -1,0 +1,23 @@
+{
+  "name": "Seismic devnet",
+  "chain": "Seismic",
+  "rpc": ["https://node-2.seismicdev.net/rpc"],
+  "faucets": ["https://faucet-2.seismicdev.net/"],
+  "nativeCurrency": {
+    "name": "Seismic Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://seismic.systems",
+  "shortName": "seismic-devnet",
+  "chainId": 5124,
+  "networkId": 5124,
+  "explorers": [
+    {
+      "name": "Seismic Devnet Explorer",
+      "url": "https://explorer-2.seismicdev.net",
+      "standard": "EIP3091"
+    }
+  ]
+}
