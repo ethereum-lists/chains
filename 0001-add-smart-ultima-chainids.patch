@@ -1,0 +1,109 @@
+From 672edaf34e2a21ae0783f94c284fb22d92cf9c58 Mon Sep 17 00:00:00 2001
+From: Smart Developer <smartdeveloper2023@gmail.com>
+Date: Thu, 13 Mar 2025 11:45:01 +0200
+Subject: [PATCH] add smart ultima chainids
+
+---
+ _data/chains/eip155-3416255149.json | 25 +++++++++++++++++++++++++
+ _data/chains/eip155-661898459.json  | 25 +++++++++++++++++++++++++
+ _data/icons/smart.json              |  8 ++++++++
+ _data/icons/ultima.json             |  8 ++++++++
+ 4 files changed, 66 insertions(+)
+ create mode 100644 _data/chains/eip155-3416255149.json
+ create mode 100644 _data/chains/eip155-661898459.json
+ create mode 100644 _data/icons/smart.json
+ create mode 100644 _data/icons/ultima.json
+
+diff --git a/_data/chains/eip155-3416255149.json b/_data/chains/eip155-3416255149.json
+new file mode 100644
+index 000000000..2a70f41d8
+--- /dev/null
++++ b/_data/chains/eip155-3416255149.json
+@@ -0,0 +1,25 @@
++{
++  "name": "Ultima Mainnet",
++  "chain": "ULTIMA",
++  "rpc": [],
++  "faucets": [],
++  "nativeCurrency": {
++    "name": "Ultima",
++    "symbol": "ULTIMA",
++    "decimals": 6
++  },
++  "infoURL": "https://ultima.io",
++  "shortName": "ultima",
++  "chainId": 3416255149,
++  "networkId": 3416255149,
++  "slip44": 785,
++  "icon": "ultima",
++  "explorers": [
++    {
++      "name": "ultimachain",
++      "url": "https://ultimachain.info",
++      "icon": "ultima",
++      "standard": "none"
++    }
++  ]
++}
+diff --git a/_data/chains/eip155-661898459.json b/_data/chains/eip155-661898459.json
+new file mode 100644
+index 000000000..07c4b7e39
+--- /dev/null
++++ b/_data/chains/eip155-661898459.json
+@@ -0,0 +1,25 @@
++{
++  "name": "Smart Mainnet",
++  "chain": "SMART",
++  "rpc": [],
++  "faucets": [],
++  "nativeCurrency": {
++    "name": "Smart",
++    "symbol": "SMART",
++    "decimals": 6
++  },
++  "infoURL": "https://smartblockchain.com",
++  "shortName": "smart",
++  "chainId": 661898459,
++  "networkId": 661898459,
++  "slip44": 783,
++  "icon": "smart",
++  "explorers": [
++    {
++      "name": "smartexplorer",
++      "url": "https://smartexplorer.com",
++      "icon": "smart",
++      "standard": "none"
++    }
++  ]
++}
+diff --git a/_data/icons/smart.json b/_data/icons/smart.json
+new file mode 100644
+index 000000000..51d589762
+--- /dev/null
++++ b/_data/icons/smart.json
+@@ -0,0 +1,8 @@
++[
++  {
++    "url": "ipfs://QmWXs2ZzdbSTEL4uf5vsa7gRvC7AnVk5TDjaP4W6f9KALg",
++    "width": 512,
++    "height": 512,
++    "format": "png"
++  }
++]
+diff --git a/_data/icons/ultima.json b/_data/icons/ultima.json
+new file mode 100644
+index 000000000..167ec49e3
+--- /dev/null
++++ b/_data/icons/ultima.json
+@@ -0,0 +1,8 @@
++[
++  {
++    "url": "ipfs://QmUbWVHDrD4TUj6pCwPt9eXJ1GK8nomHMDMq8DJ2KNeV7Y",
++    "width": 512,
++    "height": 512,
++    "format": "png"
++  }
++]
+-- 
+2.25.1
+
