@@ -1,11 +1,11 @@
 {
-  "name": "Smart Pay Mobile Money",
+  "name": "SmartPay Mobile Money",
   "chain": "Mobile Money",
   "rpc": ["https://network.uat.smartmoneyewallet.com/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "SmartPay Mobile Money",
-    "symbol": "SMRTP",
+    "symbol": "SMM",
     "decimals": 18
   },
   "features": [
