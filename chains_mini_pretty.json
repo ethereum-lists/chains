@@ -25362,6 +25362,19 @@
   "faucets": ["https:/testchainv1.hetuscan.com"],
   "infoURL": "https://hetu.org"
 }, {
+  "name": "Hoodi testnet",
+  "chainId": 560048,
+  "shortName": "hoe",
+  "networkId": 560048,
+  "nativeCurrency": {
+    "name": "Hoodi Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.hoodi.ethpandaops.io"],
+  "faucets": ["https://faucet.hoodi.ethpandaops.io", "https://hoodi-faucet.pk910.de/"],
+  "infoURL": "https://hoodi.ethpandaops.io"
+}, {
   "name": "DJT Testnet",
   "chainId": 621847,
   "shortName": "DJT",
