@@ -14247,6 +14247,19 @@
   "faucets": [],
   "infoURL": "https://orenium.org"
 }, {
+  "name": "Draw Coin",
+  "chainId": 7788,
+  "shortName": "drw",
+  "networkId": 7788,
+  "nativeCurrency": {
+    "name": "DRW",
+    "symbol": "DRW",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.drawchain.org"],
+  "faucets": [],
+  "infoURL": "https://drawchain.io/"
+}, {
   "name": "OpenEX LONG Testnet",
   "chainId": 7798,
   "shortName": "oex",
