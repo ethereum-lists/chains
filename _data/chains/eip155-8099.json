@@ -1,0 +1,17 @@
+{
+  "name": "Bharat Blockchain Network Mainnet",
+  "chain": "BBN",
+  "rpc": ["https://bbnrpc.mainnet.bharatblockchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BBN",
+    "symbol": "BBN",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://bharatblockchain.io/",
+  "shortName": "bbn",
+  "chainId": 8099,
+  "networkId": 8099,
+  "explorers": []
+}
