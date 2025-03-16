@@ -2703,6 +2703,19 @@
   "faucets": [],
   "infoURL": "https://shinarium.org"
 }, {
+  "name": "IDN Mainnet",
+  "chainId": 215,
+  "shortName": "IDN",
+  "networkId": 215,
+  "nativeCurrency": {
+    "name": "IDN",
+    "symbol": "IDN",
+    "decimals": 18
+  },
+  "rpc": ["https://dataseed1.idn-rpc.com", "https://dataseed2.idn-rpc.com", "https://dataseed3.idn-rpc.com"],
+  "faucets": [],
+  "infoURL": "https://www.idn.world"
+}, {
   "name": "Happychain Testnet",
   "chainId": 216,
   "shortName": "happytestnet",
