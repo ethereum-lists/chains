@@ -1,0 +1,31 @@
+{
+  "name": "BasedAI Mainnet",
+  "title": "BasedAI Mainnet",
+  "chain": "BasedAI",
+  "rpc": ["https://mainnet.basedaibridge.com/rpc/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BasedAI",
+    "symbol": "BASED",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://getbased.ai",
+  "shortName": "basedai",
+  "chainId": 32323,
+  "networkId": 32323,
+  "icon": "basedai",
+  "explorers": [
+    {
+      "name": "BasedAI Explorer",
+      "url": "https://explorer.getbased.ai",
+      "standard": "none"
+    },
+    {
+      "name": "BF1337 BasedAI Explorer",
+      "url": "https://explorer.bf1337.org",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
