@@ -19122,6 +19122,19 @@
   "faucets": [],
   "infoURL": "https://web3games.com/"
 }, {
+  "name": "BasedAI Mainnet",
+  "chainId": 32323,
+  "shortName": "basedai",
+  "networkId": 32323,
+  "nativeCurrency": {
+    "name": "BasedAI",
+    "symbol": "BASED",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.basedaibridge.com/rpc/"],
+  "faucets": [],
+  "infoURL": "https://getbased.ai"
+}, {
   "name": "Santiment Intelligence Network",
   "chainId": 32382,
   "shortName": "SANR",
