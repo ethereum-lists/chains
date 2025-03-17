@@ -1,5 +1,5 @@
 {
-  "name": "XYL TestNet",
+  "name": "Xylume TestNet",
   "chain": "XYL",
   "rpc": ["https://xyl-testnet.glitch.me/rpc/"],
   "faucets": ["https://debxylen.github.io/XYL_TestNet/faucet.html"],
@@ -11,23 +11,18 @@
   "features": [
     { "name": "EIP155" },
     { "name": "EIP1559" },
-    { "name": "XYL-DynaPoW" },
-    { "name": "Smart Contracts" },
-    { "name": "Custom Gas Model" },
-    { "name": "XYL-VM" },
-    { "name": "Dynamic Difficulty Adjustment" },
-    { "name": "Low-Latency Transactions" }
+    { "name": "Directed Acyclic Graph (DAG)" }
   ],
-  "infoURL": "https://debxylen.github.io/XYL_TestNet",
+  "infoURL": "https://debxylen.github.io/Xylume_TestNet",
   "shortName": "xyl",
   "chainId": 6934,
   "networkId": 6934,
-  "icon": "xyl-test",
+  "icon": "xylume-testnet",
   "explorers": [
     {
-      "name": "XYL Explorer",
-      "url": "https://debxylen.github.io/BlockExplorer",
-      "icon": "xyl-test",
+      "name": "Xylume Explorer",
+      "url": "https://debxylen.github.io/XylumeExplorer",
+      "icon": "xylume-testnet",
       "standard": "EIP3091"
     }
   ]
