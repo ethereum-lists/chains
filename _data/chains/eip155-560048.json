@@ -1,28 +1,27 @@
 {
-  "name": "Hoodi testnet",
+  "name": "Hoodi",
+  "title": "Ethereum Testnet Hoodi",
   "chain": "ETH",
-  "icon": "ethereum",
   "rpc": ["https://rpc.hoodi.ethpandaops.io"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "faucets": [
-    "https://faucet.hoodi.ethpandaops.io",
-    "https://hoodi-faucet.pk910.de/"
-  ],
+  "faucets": ["https://hoodi-faucet.pk910.de"],
   "nativeCurrency": {
-    "name": "Hoodi Ether",
+    "name": "Testnet ETH",
     "symbol": "ETH",
     "decimals": 18
   },
   "infoURL": "https://hoodi.ethpandaops.io",
-  "shortName": "hoe",
+  "shortName": "hoodi",
   "chainId": 560048,
   "networkId": 560048,
   "slip44": 1,
+  "icon": "ethereum",
+  "status": "incubating",
   "explorers": [
     {
-      "name": "dora",
-      "url": "https://light-hoodi.beaconcha.in",
-      "standard": "none"
+      "name": "Hoodi Explorer",
+      "url": "https://dora.hoodi.ethpandaops.io",
+      "icon": "ethereum",
+      "standard": "EIP3091"
     }
   ]
 }
