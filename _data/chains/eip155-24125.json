@@ -1,22 +1,22 @@
 {
-  "name": "MagiChain",
-  "chain": "MagiChain",
-  "icon": "magiIcon",
-  "rpc": ["https://rpc.magichain.io"],
+  "name": "Nexurachain",
+  "chain": "nexurachain",
+  "icon": "xuraIcon",
+  "rpc": ["https://rpc.nexurachain.io"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "MGIX",
-    "symbol": "MGIX",
+    "name": "XURA",
+    "symbol": "XURA",
     "decimals": 18
   },
-  "infoURL": "https://magichain.io",
-  "shortName": "MGC",
+  "infoURL": "https://nexurachain.io",
+  "shortName": "XURAm",
   "chainId": 24125,
   "networkId": 24125,
   "explorers": [
     {
-      "name": "MagiChain Explorer",
-      "url": "https://explorer.magichain.io",
+      "name": "Nexurachain Explorer",
+      "url": "https://explorer.nexurachain.io",
       "standard": "EIP3091"
     }
   ]
