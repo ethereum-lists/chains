@@ -1,19 +1,22 @@
 {
   "name": "Atleta Olympia",
-  "chain": "Atleta",
+  "chain": "Atleta Testnet Olympia",
   "rpc": [
-    "wss://testnet-rpc.atleta.network:9944",
-    "https://testnet-rpc.atleta.network:9944",
-    "https://testnet-rpc.atleta.network"
+    "https://testnet-rpc.atleta.network",
+    "https://rpc.ankr.com/atleta_olympia",
+    "wss://testnet-rpc.atleta.network",
+    "https://atleta-testnet.htw.tech/",
+    "https://public-atleta.nownodes.io",
+    "https://public-atla-testnet.fastnode.io"
   ],
   "faucets": ["https://app-olympia.atleta.network/faucet"],
   "nativeCurrency": {
-    "name": "Atla",
+    "name": "Atla Olympia",
     "symbol": "ATLA",
     "decimals": 18
   },
   "infoURL": "https://atleta.network",
-  "shortName": "atla",
+  "shortName": "olym",
   "chainId": 2340,
   "networkId": 2340,
   "slip44": 1,
@@ -22,7 +25,7 @@
     {
       "name": "Atleta Olympia Explorer",
       "icon": "atleta",
-      "url": "https://blockscout.atleta.network",
+      "url": "https://blockscout.testnet-v2.atleta.network",
       "standard": "none"
     },
     {

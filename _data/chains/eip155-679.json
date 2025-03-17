@@ -1,0 +1,22 @@
+{
+  "name": "Janction Testnet",
+  "chain": "Janction Testnet",
+  "rpc": ["https://rpc_testnet.janction.io", "wss://rpc_testnet.janction.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Janction",
+    "symbol": "JCT",
+    "decimals": 18
+  },
+  "infoURL": "https://janction.io",
+  "shortName": "janction_testnet",
+  "chainId": 679,
+  "networkId": 679,
+  "icon": "janction",
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  }
+}
