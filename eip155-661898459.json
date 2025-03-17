@@ -1,0 +1,25 @@
+{
+  "name": "Smart Mainnet",
+  "chain": "SMART",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Smart",
+    "symbol": "SMART",
+    "decimals": 6
+  },
+  "infoURL": "https://smartblockchain.com",
+  "shortName": "smart",
+  "chainId": 661898459,
+  "networkId": 661898459,
+  "slip44": 783,
+  "icon": "smart",
+  "explorers": [
+    {
+      "name": "smartexplorer",
+      "url": "https://smartexplorer.com",
+      "icon": "smart",
+      "standard": "none"
+    }
+  ]
+}
