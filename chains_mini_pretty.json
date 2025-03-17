@@ -7799,6 +7799,19 @@
   "faucets": [],
   "infoURL": "https://polygon.technology/solutions/polygon-zkevm/"
 }, {
+  "name": "Perennial",
+  "chainId": 1424,
+  "shortName": "perennial",
+  "networkId": 1424,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.perennial.foundation"],
+  "faucets": [],
+  "infoURL": "https://perennial.finance"
+}, {
   "name": "Rikeza Network Mainnet",
   "chainId": 1433,
   "shortName": "RIK",
@@ -20837,6 +20850,19 @@
   "rpc": ["https://rpc.gobob.xyz", "wss://rpc.gobob.xyz", "https://bob-mainnet.public.blastapi.io", "wss://bob-mainnet.public.blastapi.io"],
   "faucets": [],
   "infoURL": "https://gobob.xyz"
+}, {
+  "name": "Perennial Sepolia",
+  "chainId": 60850,
+  "shortName": "perennial-sepolia",
+  "networkId": 60850,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-sepolia.perennial.foundation"],
+  "faucets": [],
+  "infoURL": "https://perennial.finance"
 }, {
   "name": "Orange Chain Mainnet",
   "chainId": 61022,
