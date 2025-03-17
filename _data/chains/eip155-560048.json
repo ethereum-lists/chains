@@ -2,11 +2,12 @@
   "name": "Hoodi testnet",
   "chain": "ETH",
   "icon": "ethereum",
-  "rpc": [
-    "https://rpc.hoodi.ethpandaops.io"
-  ],
+  "rpc": ["https://rpc.hoodi.ethpandaops.io"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "faucets": ["https://faucet.hoodi.ethpandaops.io","https://hoodi-faucet.pk910.de/"],
+  "faucets": [
+    "https://faucet.hoodi.ethpandaops.io",
+    "https://hoodi-faucet.pk910.de/"
+  ],
   "nativeCurrency": {
     "name": "Hoodi Ether",
     "symbol": "ETH",
@@ -24,5 +25,4 @@
       "standard": "none"
     }
   ]
-
 }
