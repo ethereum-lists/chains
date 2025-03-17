@@ -2,6 +2,7 @@ name: Run prettier check
 
 on:
   push:
+  pull_request:
 
 jobs:
   prettier:
