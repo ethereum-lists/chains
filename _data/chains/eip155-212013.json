@@ -1,6 +1,6 @@
 {
-  "name": "Heima",
-  "chain": "Heima",
+  "name": "Litentry",
+  "chain": "Litentry",
   "rpc": [
     "https://rpc.litentry-parachain.litentry.io",
     "wss://rpc.litentry-parachain.litentry.io",
@@ -9,19 +9,19 @@
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Heima",
-    "symbol": "HEI",
+    "name": "Litentry",
+    "symbol": "LIT",
     "decimals": 18
   },
-  "infoURL": "https://heima.network",
-  "shortName": "heima",
+  "infoURL": "https://litentry.com",
+  "shortName": "litentry",
   "chainId": 212013,
   "networkId": 212013,
-  "icon": "heima",
+  "icon": "litentry",
   "explorers": [
     {
-      "name": "heima statescan",
-      "url": "https://heima.statescan.io",
+      "name": "litentry statescan",
+      "url": "https://litentry.statescan.io",
       "standard": "none"
     }
   ]
