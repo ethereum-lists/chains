@@ -10,9 +10,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc" :[
-    "https://mainnet-rpc.evedex.com"
-  ],
+  "rpc": ["https://mainnet-rpc.evedex.com"],
   "faucets": [],
   "explorers": [
     {
@@ -25,10 +23,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [ 
+    "bridges": [
       {
         "url": "https://bridge.arbitrum.io"
-      } 
+      }
     ]
   }
 }
