@@ -12908,6 +12908,19 @@
   "faucets": [],
   "infoURL": "https://edexa.network/"
 }, {
+  "name": "Inertia Scan",
+  "chainId": 5433,
+  "shortName": "IRTA",
+  "networkId": 5433,
+  "nativeCurrency": {
+    "name": "Inertia",
+    "symbol": "IRTA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.inertiascan.com"],
+  "faucets": [],
+  "infoURL": "https://inertiascan.com"
+}, {
   "name": "Egochain",
   "chainId": 5439,
   "shortName": "egax",
