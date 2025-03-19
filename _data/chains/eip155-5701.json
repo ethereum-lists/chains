@@ -1,0 +1,27 @@
+{
+  "name": "Bitcoin+ zkSYS Testnet",
+  "chain": "zkSYS",
+  "rpc": ["https://rpc-test-zk.syscoin.org"],
+  "faucets": ["https://faucet-test-zk.syscoin.org"],
+  "nativeCurrency": {
+    "name": "Test Syscoin",
+    "symbol": "TSYS",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "infoURL": "",
+  "shortName": "zksys-testnet",
+  "chainId": 5701,
+  "networkId": 5701,
+  "explorers": [
+    {
+      "name": "Bitcoin+ zkSYS Testnet Explorer",
+      "url": "https://explorer-test-zk.syscoin.org",
+      "standard": "none"
+    }
+  ]
+}
