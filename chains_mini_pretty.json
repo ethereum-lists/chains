@@ -22671,7 +22671,7 @@
   "faucets": ["https://faucet.optimusz7.com"],
   "infoURL": "http://optimusz7.com"
 }, {
-  "name": "Plume Devnet",
+  "name": "Plume Devnet (Legacy)",
   "chainId": 98864,
   "shortName": "plume-devnet",
   "networkId": 98864,
@@ -22708,6 +22708,19 @@
   },
   "rpc": ["https://phoenix-rpc.plumenetwork.xyz", "wss://phoenix-rpc.plumenetwork.xyz"],
   "faucets": [],
+  "infoURL": "https://plumenetwork.xyz/"
+}, {
+  "name": "Plume Testnet",
+  "chainId": 98867,
+  "shortName": "plume-testnet",
+  "networkId": 98867,
+  "nativeCurrency": {
+    "name": "Plume",
+    "symbol": "PLUME",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.plumenetwork.xyz", "wss://testnet-rpc.plumenetwork.xyz"],
+  "faucets": ["https://faucet.plumenetwork.xyz"],
   "infoURL": "https://plumenetwork.xyz/"
 }, {
   "name": "Ebi Chain",
@@ -28352,9 +28365,9 @@
   "faucets": [],
   "infoURL": "https://raas.gelato.network/rollups/details/public/opcelestia-raspberry"
 }, {
-  "name": "Plume Testnet",
+  "name": "Plume Testnet (Legacy)",
   "chainId": 161221135,
-  "shortName": "plume-testnet",
+  "shortName": "plume-testnet-legacy",
   "networkId": 161221135,
   "nativeCurrency": {
     "name": "Plume Sepolia Ether",
