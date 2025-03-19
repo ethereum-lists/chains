@@ -6,7 +6,7 @@
     "https://testnet-rpc.plumenetwork.xyz",
     "wss://testnet-rpc.plumenetwork.xyz"
   ],
-  "faucets": [],
+  "faucets": ["https://faucet.plumenetwork.xyz"],
   "nativeCurrency": {
     "name": "Plume",
     "symbol": "PLUME",
