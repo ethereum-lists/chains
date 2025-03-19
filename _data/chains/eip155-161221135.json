@@ -1,6 +1,6 @@
 {
-  "name": "Plume Testnet",
-  "title": "Plume Sepolia Rollup Testnet",
+  "name": "Plume Testnet (Legacy)",
+  "title": "Plume Sepolia Rollup Testnet (Legacy)",
   "chain": "ETH",
   "rpc": [],
   "faucets": [],
@@ -10,7 +10,7 @@
     "decimals": 18
   },
   "infoURL": "https://plumenetwork.xyz/",
-  "shortName": "plume-testnet",
+  "shortName": "plume-testnet-legacy",
   "chainId": 161221135,
   "networkId": 161221135,
   "slip44": 1,
