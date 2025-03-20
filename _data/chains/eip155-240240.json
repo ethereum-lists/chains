@@ -12,7 +12,11 @@
     "symbol": "STO",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://studio-blockchain.com",
   "shortName": "sto",
   "chainId": 240240,
