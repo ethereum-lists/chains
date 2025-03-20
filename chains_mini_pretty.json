@@ -26571,6 +26571,19 @@
   "faucets": [],
   "infoURL": "https://ata.network"
 }, {
+  "name": "XRPL EVM Sidechain Devnet",
+  "chainId": 1440002,
+  "shortName": "xrplevm",
+  "networkId": 1440002,
+  "nativeCurrency": {
+    "name": "XRP",
+    "symbol": "XRP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.xrplevm.org", "https://ws.xrplevm.org"],
+  "faucets": ["https://chains.tools/faucet/xrplevm"],
+  "infoURL": "https://xrplevm.org"
+}, {
   "name": "Waterfall 9 Test Network",
   "chainId": 1501869,
   "shortName": "water9",
