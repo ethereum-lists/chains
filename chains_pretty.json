@@ -42762,6 +42762,28 @@
     "standard": "none"
   }]
 }, {
+  "name": "Winr Protocol Mainnet",
+  "chain": "WINR",
+  "rpc": ["https://rpc.winr.games"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Winr",
+    "symbol": "WINR",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://winr.games",
+  "shortName": "winr",
+  "chainId": 777777,
+  "networkId": 777777,
+  "icon": "winr",
+  "explorers": [{
+    "name": "Winr Protocol Explorer",
+    "url": "https://explorer.winr.games",
+    "icon": "winr",
+    "standard": "none"
+  }]
+}, {
   "name": "Oone Chain Mainnet",
   "chain": "OONE",
   "rpc": ["https://rpc.oonechain.com"],
@@ -46630,6 +46652,28 @@
     "name": "autonity-blockscout",
     "url": "https://piccadilly.autonity.org",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Winr Protocol Testnet",
+  "chain": "WINR",
+  "rpc": ["https://rpc-devnet.winr.games"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Winr",
+    "symbol": "WINR",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://winr.games",
+  "shortName": "winrtestnet",
+  "chainId": 66666666,
+  "networkId": 66666666,
+  "icon": "winr",
+  "explorers": [{
+    "name": "Winr Protocol Testnet Explorer",
+    "url": "https://explorer-winrprotocoltestnet-wmwv59m23g.t.conduit.xyz",
+    "icon": "winr",
+    "standard": "none"
   }]
 }, {
   "name": "Frame Testnet",

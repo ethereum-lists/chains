@@ -25895,6 +25895,19 @@
   "faucets": [],
   "infoURL": "https://www.rmrk.app/"
 }, {
+  "name": "Winr Protocol Mainnet",
+  "chainId": 777777,
+  "shortName": "winr",
+  "networkId": 777777,
+  "nativeCurrency": {
+    "name": "Winr",
+    "symbol": "WINR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.winr.games"],
+  "faucets": [],
+  "infoURL": "https://winr.games"
+}, {
   "name": "Oone Chain Mainnet",
   "chainId": 777888,
   "shortName": "oone",
@@ -28208,6 +28221,19 @@
   "rpc": ["https://autonity.rpc.web3cdn.network/testnet", "wss://autonity.rpc.web3cdn.network/testnet/ws", "https://autonity-piccadilly.rpc.subquery.network/public", "https://piccadilly.autonity-apis.com", "wss://piccadilly-ws.autonity-apis.com"],
   "faucets": [],
   "infoURL": "https://autonity.org/"
+}, {
+  "name": "Winr Protocol Testnet",
+  "chainId": 66666666,
+  "shortName": "winrtestnet",
+  "networkId": 66666666,
+  "nativeCurrency": {
+    "name": "Winr",
+    "symbol": "WINR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-devnet.winr.games"],
+  "faucets": [],
+  "infoURL": "https://winr.games"
 }, {
   "name": "Frame Testnet",
   "chainId": 68840142,
