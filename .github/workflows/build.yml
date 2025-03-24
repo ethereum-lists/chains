@@ -1,21 +1,17 @@
 name: Build
-
-on:
-  pull_request:
-
+on: [pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4.2.2
         with:
           submodules: recursive
 
       - name: Get changed files
         id: changed-files
-        uses: step-security/changed-files@3dbe17c78367e7d60f00d78ae6781a35be47b4a1
+        uses: step-security/changed-files@v45.0.1
 
       - name: Check changed files
         run: |
