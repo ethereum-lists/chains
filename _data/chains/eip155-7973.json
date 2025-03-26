@@ -1,0 +1,25 @@
+{
+  "name": "Xorai Zathura Testnet",
+  "chain": "XRI",
+  "rpc": ["https://rpc-zathura.xorai.net"],
+  "faucets": ["https://drip-zathura.xorai.net"],
+  "nativeCurrency": {
+    "name": "XORAI",
+    "symbol": "tXRI",
+    "decimals": 18
+  },
+  "infoURL": "https://xorai.net",
+  "shortName": "txri",
+  "chainId": 7973,
+  "networkId": 7973,
+  "slip44": 1,
+  "icon": "xorai",
+  "explorers": [
+    {
+      "name": "Xorai Zathura Testnet Explorer",
+      "icon": "xorai",
+      "url": "https://zathura.xorai.net",
+      "standard": "none"
+    }
+  ]
+}
