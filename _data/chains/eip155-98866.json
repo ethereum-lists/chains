@@ -1,0 +1,35 @@
+{
+  "name": "Plume Mainnet",
+  "title": "Plume Ethereum L2 Rollup Mainnet",
+  "chain": "PLUME",
+  "rpc": [
+    "https://phoenix-rpc.plumenetwork.xyz",
+    "wss://phoenix-rpc.plumenetwork.xyz"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Plume",
+    "symbol": "PLUME",
+    "decimals": 18
+  },
+  "infoURL": "https://plumenetwork.xyz/",
+  "shortName": "plume-mainnet",
+  "chainId": 98866,
+  "networkId": 98866,
+  "slip44": 1,
+  "icon": "plume",
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://phoenix-explorer.plumenetwork.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.plumenetwork.xyz" }]
+  }
+}

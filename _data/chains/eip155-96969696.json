@@ -1,6 +1,6 @@
 {
   "name": " Privix Chain Testnet",
-  "chain": "PSC",
+  "chain": "PRIVIX",
   "rpc": [
     "https://testnet-rpc.privixchain.xyz/",
     "wss://testnet-rpc.privixchain.xyz/ws"
@@ -8,7 +8,7 @@
   "faucets": ["https://faucet.privixchain.xyz"],
   "nativeCurrency": {
     "name": "Privix Coin",
-    "symbol": "tPSC",
+    "symbol": "PRIVIX",
     "decimals": 18
   },
   "infoURL": "https://privix.co/",
