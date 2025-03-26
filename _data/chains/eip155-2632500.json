@@ -11,7 +11,14 @@
   },
   "rpc": ["https://mainnet.coti.io/rpc"],
   "faucets": [],
-  "explorers": [],
+  "explorers": [
+    {
+      "name": "COTI Mainnet Explorer",
+      "url": "https://mainnet.cotiscan.io/",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
   "infoURL": "https://coti.io/",
   "icon": "coti",
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }]
