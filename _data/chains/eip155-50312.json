@@ -1,0 +1,25 @@
+{
+  "name": "Somnia Testnet",
+  "chain": "Somnia",
+  "rpc": ["https://dream-rpc.somnia.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Somnia Testnet",
+    "symbol": "STT",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://somnia.network",
+  "shortName": "SomniaTestnet",
+  "chainId": 50312,
+  "networkId": 50312,
+  "icon": "somnia",
+  "explorers": [
+    {
+      "name": "Somnia Testnet",
+      "url": "https://somnia-testnet.socialscan.io",
+      "icon": "somnia",
+      "standard": "EIP3091"
+    }
+  ]
+}
