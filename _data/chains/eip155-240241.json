@@ -1,10 +1,14 @@
 {
-  "name": "Studio Testnet",
+  "name": "Studio Blockchain Mainnet",
   "chain": "STO",
   "icon": "studio",
   "rpc": [
-    "https://rpc.studio-blockchain.com",
-    "wss://ws.studio-blockchain.com"
+    "https://mainnet.studio-blockchain.com",
+    "https://mainnet2.studio-blockchain.com",
+    "https://mainnet3.studio-blockchain.com",
+    "https://mainnet.studio-scan.com",
+    "https://mainnet2.studio-scan.com",
+    "wss://mainnet.studio-blockchain.com:8547"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -18,9 +22,9 @@
     }
   ],
   "infoURL": "https://studio-blockchain.com",
-  "shortName": "sto",
-  "chainId": 240240,
-  "networkId": 240240,
+  "shortName": "stom",
+  "chainId": 240241,
+  "networkId": 240241,
   "explorers": [
     {
       "name": "Studio Scan",
