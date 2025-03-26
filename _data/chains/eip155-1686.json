@@ -13,14 +13,7 @@
   "chainId": 1686,
   "networkId": 1686,
   "icon": "mintTestnet",
-  "explorers": [
-    {
-      "name": "blockscout",
-      "url": "https://testnet-explorer.mintchain.io",
-      "icon": "mintTestnet",
-      "standard": "EIP3091"
-    }
-  ],
+  "explorers": [],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
