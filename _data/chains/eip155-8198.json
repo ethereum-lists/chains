@@ -1,0 +1,23 @@
+{
+  "name": "Hatchyverse Mainnet",
+  "chain": "HATCHY",
+  "rpc": ["https://hatchyverse.ash.center/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Hatchy",
+    "symbol": "HATCHY",
+    "decimals": 18
+  },
+  "infoURL": "https://hatchyverse.com/",
+  "shortName": "hatchy",
+  "chainId": 8198,
+  "networkId": 8198,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://hatchyverse-explorer.ash.center/",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
