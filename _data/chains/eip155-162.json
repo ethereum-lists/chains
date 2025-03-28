@@ -1,15 +1,15 @@
 {
-  "name": "Lightstreams Testnet",
-  "chain": "PHT",
-  "rpc": ["https://node.sirius.lightstreams.io"],
-  "faucets": ["https://discuss.lightstreams.network/t/request-test-tokens"],
+  "name": "Hardwood Mainnet",
+  "chain": "HEC",
+  "rpc": ["https://xnode.privatex.io"],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "Lightstreams PHT",
-    "symbol": "PHT",
+    "name": "Hardwood Mainnet",
+    "symbol": "HEC",
     "decimals": 18
   },
-  "infoURL": "https://explorer.sirius.lightstreams.io",
-  "shortName": "tpht",
+  "infoURL": "https://hecscan.privatex.io",
+  "shortName": "HEC",
   "chainId": 162,
   "networkId": 162,
   "slip44": 1
