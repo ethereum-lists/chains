@@ -1,19 +1,16 @@
 {
-  "name": "Omni Testnet (Deprecated)",
-  "chain": "Omni",
-  "rpc": [],
-  "features": [{ "name": "EIP155" }],
+  "name": "Hardwood Mainnet",
+  "chain": "HEC",
+  "rpc": ["https://xnode.privatex.io"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Omni",
-    "symbol": "OMNI",
+    "name": "Hardwood Mainnet",
+    "symbol": "HEC",
     "decimals": 18
   },
-  "infoURL": "https://docs.omni.network/",
-  "shortName": "omni_testnet_deprecated",
+  "infoURL": "https://hecscan.privatex.io",
+  "shortName": "HEC",
   "chainId": 165,
   "networkId": 165,
-  "slip44": 1,
-  "explorers": [],
-  "status": "deprecated"
+  "slip44": 1
 }
