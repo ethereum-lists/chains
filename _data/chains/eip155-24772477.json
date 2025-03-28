@@ -1,7 +1,7 @@
 {
   "name": "6Degree of Outreach - Testnet",
   "chain": "6DO",
-  "rpc": ["https://rpc-testnet.6do.world"],
+  "rpc": ["https://rpc-testnet.6dochain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "6Degree-Testnet Coin",
@@ -24,7 +24,7 @@
   "explorers": [
     {
       "name": "6Degree Testnet Chain Explorer",
-      "url": "https://explorer-testnet.6do.world",
+      "url": "https://explorer-testnet.6dochain.com",
       "standard": "EIP3091"
     }
   ]
