@@ -2,10 +2,7 @@
   "name": "OpenGPU Mainnet",
   "chain": "OGPU",
   "icon": "ogpu",
-  "rpc": [
-    "https://mainnet-rpc.ogpuscan.io",
-    "wss://mainnet-rpc.ogpuscan.io"
-  ],
+  "rpc": ["https://mainnet-rpc.ogpuscan.io", "wss://mainnet-rpc.ogpuscan.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "OGPU",
