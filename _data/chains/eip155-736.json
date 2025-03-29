@@ -1,22 +1,22 @@
 {
-  "name": "Sykyzy",
-  "chain": "Sykyzy",
-  "rpc": ["https://rpc.sykyzyscan.com"],
+  "name": "Syzyky",
+  "chain": "Syzyky",
+  "rpc": ["https://rpc.syzykyscan.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Sykyzy",
+    "name": "Syzyky",
     "symbol": "SYZ",
     "decimals": 18
   },
   "infoURL": "https://syzyky.com",
-  "shortName": "sykyzy",
+  "shortName": "syzyky",
   "chainId": 736,
   "networkId": 736,
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "explorers": [
     {
-      "name": "Sykyzy Explorer",
-      "url": "https://sykyzyscan.com",
+      "name": "Syzyky Explorer",
+      "url": "https://syzykyscan.com",
       "standard": "EIP3091"
     }
   ]

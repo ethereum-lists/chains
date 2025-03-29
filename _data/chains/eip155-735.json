@@ -1,22 +1,22 @@
 {
-  "name": "Test Sykyzy",
-  "chain": "Sykyzy Testnet",
-  "rpc": ["https://trpc.sykyzyscan.com"],
+  "name": "Test Syzyky",
+  "chain": "Syzyky",
+  "rpc": ["https://trpc.syzykyscan.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Test Sykyzy",
+    "name": "Test Syzyky",
     "symbol": "TSYZ",
     "decimals": 18
   },
   "infoURL": "https://syzyky.com",
-  "shortName": "sykyzy-testnet",
+  "shortName": "syzyky-testnet",
   "chainId": 735,
   "networkId": 735,
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "explorers": [
     {
-      "name": "Sykyzy Testnet Explorer",
-      "url": "https://testnet.sykyzyscan.com",
+      "name": "Syzyky Testnet Explorer",
+      "url": "https://testnet.syzykyscan.com",
       "standard": "EIP3091"
     }
   ]
