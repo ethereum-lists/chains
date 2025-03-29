@@ -1,0 +1,25 @@
+{
+  "name": "Rebus Mainnet",
+  "title": "Rebuschain Mainnet",
+  "chain": "ETH",
+  "rpc": ["https://apievml2.rebuschain.com/l2rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.rebuschain.com",
+  "shortName": "rebus",
+  "chainId": 9696,
+  "networkId": 9696,
+  "icon": "rebus",
+  "explorers": [
+    {
+      "name": "Rebus EVM Explorer (Blockscout)",
+      "url": "https://evm.rebuschain.com",
+      "icon": "rebus",
+      "standard": "none"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "name": "Settlus Sepolia Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": ["https://settlus-septestnet.g.alchemy.com/public"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
@@ -15,7 +15,14 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": []
+    "bridges": [{ "url": "https://settlus-sep-testnet.bridge.alchemy.com/" }]
   },
-  "status": "incubating"
+  "explorers": [
+    {
+      "name": "Settlus Sepolia Testnet Explorer",
+      "url": "https://settlus-sepolia-testnet.explorer.alchemy.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
 }
