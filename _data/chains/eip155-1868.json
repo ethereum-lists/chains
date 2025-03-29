@@ -4,7 +4,11 @@
   "title": "Soneium mainnet",
   "chain": "ETH",
   "icon": "soneium",
-  "rpc": ["https://rpc.soneium.org"],
+  "rpc": [
+    "https://rpc.soneium.org",
+    "https://soneium-rpc.publicnode.com",
+    "wss://soneium-rpc.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
