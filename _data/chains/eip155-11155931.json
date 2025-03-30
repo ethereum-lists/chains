@@ -1,18 +1,18 @@
 {
-    "name": "RISE Sepolia Testnet",
-    "chain": "RISE",
-    "rpc": [],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "Sepolia ETH",
-      "symbol": "ETH",
-      "decimals": 18
-    },
-    "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-    "infoURL": "https://www.riselabs.xyz/",
-    "shortName": "rise-sepolia",
-    "chainId": 11155931,
-    "networkId": 11155931,
-    "icon": "rise",
-    "explorers": []
+  "name": "RISE Testnet",
+  "chain": "RISE",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://www.riselabs.xyz/",
+  "shortName": "rise-testnet",
+  "chainId": 11155931,
+  "networkId": 11155931,
+  "icon": "rise",
+  "explorers": []
 }
