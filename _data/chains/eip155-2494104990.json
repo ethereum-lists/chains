@@ -1,9 +1,7 @@
 {
   "name": "Tron Shasta",
   "chain": "TRON",
-  "rpc": [
-    "https://api.shasta.trongrid.io/jsonrpc"
-  ],
+  "rpc": ["https://api.shasta.trongrid.io/jsonrpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Tron",
