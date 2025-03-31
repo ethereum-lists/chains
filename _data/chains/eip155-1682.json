@@ -1,9 +1,9 @@
 {
   "name": "Hardwood Mainnet",
   "chain": "HEC",
+  "network": "mainnet",
   "rpc": ["https://xnode.privatex.io"],
   "faucets": [],
-  "icon": "hardwood",  
   "nativeCurrency": {
     "name": "Hardwood Mainnet",
     "symbol": "HEC",
@@ -13,7 +13,11 @@
   "shortName": "HEC",
   "chainId": 1682,
   "networkId": 1682,
-  "slip44": 1
+  "slip44": 60,
+  "explorers": [{
+    "name": "HECScan",
+    "url": "https://hecscan.privatex.io",
+    "standard": "EIP3091"
+  }]
 }
-
 
