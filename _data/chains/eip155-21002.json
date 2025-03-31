@@ -1,0 +1,22 @@
+{
+  "name": "Astron L2 Testnet",
+  "chain": "AstronL2Testnet",
+  "rpc": ["https://dev-astronlayer2.bitfactory.cn/query"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Astron L2 Testnet Token",
+    "symbol": "XHT",
+    "decimals": 18
+  },
+  "infoURL": "https://bitfactory.cn/",
+  "shortName": "astronl2testnet",
+  "chainId": 21002,
+  "networkId": 21002,
+  "explorers": [
+    {
+      "name": "Astron L2 Testnet Explorer",
+      "url": "https://dev-astronscanl2.bitfactory.cn",
+      "standard": "none"
+    }
+  ]
+}
