@@ -1,6 +1,6 @@
 {
-  "name": "Surge Testnet",
-  "chain": "Surge Testnet",
+  "name": "Surge Alphanet",
+  "chain": "Surge Alphanet",
   "rpc": [
     "https://l2-rpc.surge.staging-nethermind.xyz",
     "wss://l2-rpc.surge.staging-nethermind.xyz"
@@ -13,10 +13,10 @@
     "decimals": 18
   },
   "infoURL": "https://surge.wtf",
-  "shortName": "surge-testnet",
+  "shortName": "surge-alphanet",
   "chainId": 763374,
   "networkId": 763374,
-  "icon": "surge-testnet",
+  "icon": "surge-alphanet",
   "explorers": [
     {
       "name": "blockscout",
