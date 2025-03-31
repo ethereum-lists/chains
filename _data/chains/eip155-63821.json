@@ -1,0 +1,24 @@
+{
+  "name": "IRL Testnet",
+  "chain": "IRL Testnet",
+  "rpc": ["https://rpc.testnet.irl.syndicate.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.refractionfestival.com/",
+  "shortName": "irl-testnet",
+  "chainId": 63821,
+  "networkId": 63821,
+  "status": "incubating",
+  "icon": "irl",
+  "explorers": [
+    {
+      "name": "IRL Explorer",
+      "url": "https://explorer.testnet.irl.syndicate.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
