@@ -17,9 +17,11 @@
   "chainId": 3301,
   "networkId": 3301,
   "icon": "realio",
-  "explorers": [{
+  "explorers": [
+    {
       "name": "Realio Explorer",
       "url": "https://explorer.realio.network",
       "standard": "none"
-  }]
+    }
+  ]
 }
