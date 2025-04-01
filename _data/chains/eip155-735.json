@@ -1,9 +1,7 @@
 {
   "name": "Test Syzyky",
   "chain": "Syzyky",
-  "rpc": [
-    "https://trpc.syzykyscan.com"
-  ],
+  "rpc": ["https://trpc.syzykyscan.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Test Syzyky",
@@ -14,10 +12,7 @@
   "shortName": "syzyky-testnet",
   "chainId": 735,
   "networkId": 735,
-  "features": [
-    { "name": "EIP155" },
-    { "name": "EIP1559" }
-  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "explorers": [
     {
       "name": "Syzyky Testnet Explorer",
@@ -25,4 +20,4 @@
       "standard": "EIP3091"
     }
   ]
-} 
+}
