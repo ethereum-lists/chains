@@ -1,8 +1,8 @@
 {
-  "name": "Okto Devnet",
+  "name": "Testnet Okto",
   "chain": "OKTO",
-  "rpc": ["http://okto-devnet-2-rpc.ap-south-1.gateway.fm"],
-  "faucets": ["https://okto-devnet-2-faucet.ap-south-1.gateway.fm"],
+  "rpc": ["https://okto-testnet-rpc.ap-south-1.gateway.fm"],
+  "faucets": ["https://okto-testnet-faucet.ap-south-1.gateway.fm"],
   "nativeCurrency": {
     "name": "Okto",
     "symbol": "OKTO",
@@ -11,13 +11,13 @@
   "features": [{ "name": "EIP155" }],
   "infoURL": "https://okto.tech/",
   "shortName": "okto",
-  "chainId": 124736089,
-  "networkId": 124736089,
+  "chainId": 1802466136,
+  "networkId": 1802466136,
   "icon": "okto",
   "explorers": [
     {
       "name": "okto",
-      "url": "https://okto-devnet-2-blockscout.ap-south-1.gateway.fm",
+      "url": "https://okto-testnet-blockscout.ap-south-1.gateway.fm",
       "icon": "oktoscan",
       "standard": "EIP3091"
     }
@@ -25,6 +25,6 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://okto-devnet-2-bridge.ap-south-1.gateway.fm" }]
+    "bridges": [{ "url": "https://okto-testnet-bridge.ap-south-1.gateway.fm" }]
   }
 }
