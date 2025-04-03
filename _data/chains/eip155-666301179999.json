@@ -1,7 +1,7 @@
 {
   "name": "SmartPay Mobile Money",
   "chain": "Mobile Money",
-  "rpc": ["https://network.uat.smartmoneyewallet.com/"],
+  "rpc": ["https://networking.smartpay.co.ke/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "SmartPay Mobile Money",
@@ -13,7 +13,7 @@
       "name": "EIP155"
     }
   ],
-  "infoURL": "https://network.uat.smartmoneyewallet.com/",
+  "infoURL": "https://networking.smartpay.co.ke/",
   "shortName": "SmartPay",
   "chainId": 666301179999,
   "networkId": 666301179999,
