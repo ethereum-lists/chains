@@ -4,7 +4,9 @@
   "rpc": [
     "https://rpc.blaze.soniclabs.com",
     "https://sonic-blaze-rpc.publicnode.com",
-    "wss://sonic-blaze-rpc.publicnode.com"
+    "wss://sonic-blaze-rpc.publicnode.com",
+    "https://sonic-testnet.drpc.org",
+    "wss://sonic-testnet.drpc.org"
   ],
   "faucets": ["https://blaze.soniclabs.com/account"],
   "nativeCurrency": {
