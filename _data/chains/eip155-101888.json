@@ -1,0 +1,25 @@
+{
+  "name": "NetworkCoin Ai",
+  "chain": "NetworkCoin Ai",
+  "network": "mainnet",
+  "rpc": [
+    "https://rpc.mainnet.networkcoin.ai/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "COIN AI",
+    "symbol": "Ai",
+    "decimals": 18
+  },
+  "infoURL": "https://networkcoin.ai",
+  "shortName": "coinai",
+  "chainId": 101888,
+  "networkId": 101888,
+  "explorers": [
+    {
+      "name": "NetworkCoin Ai Explorer",
+      "url": "https://explorer.networkcoin.ai/",
+      "standard": "EIP3091"
+    }
+  ]
+}
