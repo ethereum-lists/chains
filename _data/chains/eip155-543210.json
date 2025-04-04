@@ -2,7 +2,11 @@
   "name": "ZERO Network",
   "chain": "ZERONetwork",
   "icon": "zero",
-  "rpc": ["https://rpc.zerion.io/v1/zero"],
+  "rpc": [
+    "https://rpc.zerion.io/v1/zero",
+    "https://zero.drpc.org",
+    "wss://zero.drpc.org"
+  ],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
