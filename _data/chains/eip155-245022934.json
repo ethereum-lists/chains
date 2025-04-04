@@ -19,13 +19,9 @@
   "networkId": 245022934,
   "explorers": [
     {
-      "name": "neonscan",
-      "url": "https://neonscan.org",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "native",
+      "name": "blockscout",
       "url": "https://neon.blockscout.com",
+      "icon": "blockscout",
       "standard": "EIP3091"
     }
   ]
