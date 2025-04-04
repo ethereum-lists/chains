@@ -4,7 +4,7 @@
   "icon": "shardeum",
   "rpc": ["https://api-testnet.shardeum.org/"],
   "faucets": [
-    "https://faucet-testnet.shardeum.org",
+    "https://faucet-testnet.shardeum.org"
   ],
   "nativeCurrency": {
     "name": "Shardeum Test SHM",
@@ -18,7 +18,7 @@
   "explorers": [
     {
       "name": "Shardeum Testnet Explorer",
-      "url": " https://explorer-testnet.shardeum.org",
+      "url": "https://explorer-testnet.shardeum.org",
       "standard": "EIP3091"
     }
   ]
