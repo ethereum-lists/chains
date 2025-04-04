@@ -1,7 +1,11 @@
 {
   "name": "Metal L2",
   "chain": "Metal L2",
-  "rpc": ["https://rpc.metall2.com"],
+  "rpc": [
+    "https://rpc.metall2.com",
+    "https://metall2.drpc.org",
+    "wss://metall2.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",

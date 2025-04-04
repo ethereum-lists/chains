@@ -1,7 +1,12 @@
 {
   "name": "X Layer Mainnet",
   "chain": "X Layer",
-  "rpc": ["https://rpc.xlayer.tech", "https://xlayerrpc.okx.com"],
+  "rpc": [
+    "https://rpc.xlayer.tech",
+    "https://xlayerrpc.okx.com",
+    "https://xlayer.drpc.org",
+    "wss://xlayer.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "X Layer Global Utility Token",

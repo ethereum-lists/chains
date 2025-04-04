@@ -4,7 +4,9 @@
   "icon": "aleph",
   "rpc": [
     "https://rpc.alephzero-testnet.gelato.digital",
-    "wss://rpc.alephzero-testnet.gelato.digital"
+    "wss://rpc.alephzero-testnet.gelato.digital",
+    "https://alephzero-sepolia.drpc.org",
+    "wss://alephzero-sepolia.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {

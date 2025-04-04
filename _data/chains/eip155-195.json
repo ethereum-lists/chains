@@ -1,7 +1,12 @@
 {
   "name": "X Layer Testnet",
   "chain": "X Layer",
-  "rpc": ["https://testrpc.xlayer.tech", "https://xlayertestrpc.okx.com"],
+  "rpc": [
+    "https://testrpc.xlayer.tech",
+    "https://xlayertestrpc.okx.com",
+    "https://xlayer-testnet.drpc.org",
+    "wss://xlayer-testnet.drpc.org"
+  ],
   "faucets": ["https://www.okx.com/xlayer/faucet"],
   "nativeCurrency": {
     "name": "X Layer Global Utility Token in testnet",

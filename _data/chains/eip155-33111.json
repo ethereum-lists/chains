@@ -1,7 +1,11 @@
 {
   "name": "Curtis",
   "chain": "Curtis",
-  "rpc": ["https://rpc.curtis.apechain.com"],
+  "rpc": [
+    "https://rpc.curtis.apechain.com",
+    "https://apechain-curtis.drpc.org",
+    "wss://apechain-curtis.drpc.org"
+  ],
   "faucets": ["https://curtis.hub.caldera.xyz"],
   "nativeCurrency": {
     "name": "ApeCoin",

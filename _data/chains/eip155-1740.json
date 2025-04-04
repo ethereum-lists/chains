@@ -1,7 +1,11 @@
 {
   "name": "Metal L2 Testnet",
   "chain": "Metal L2 Testnet",
-  "rpc": ["https://testnet.rpc.metall2.com"],
+  "rpc": [
+    "https://testnet.rpc.metall2.com",
+    "https://metall2-testnet.drpc.org",
+    "wss://metall2-testnet.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",

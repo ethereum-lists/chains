@@ -4,7 +4,9 @@
   "rpc": [
     "https://mainnet.unichain.org",
     "https://unichain-rpc.publicnode.com",
-    "wss://unichain-rpc.publicnode.com"
+    "wss://unichain-rpc.publicnode.com",
+    "https://unichain.drpc.org",
+    "wss://unichain.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {

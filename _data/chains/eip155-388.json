@@ -1,7 +1,11 @@
 {
   "name": "Cronos zkEVM Mainnet",
   "chain": "CronosZkEVMMainnet",
-  "rpc": ["https://mainnet.zkevm.cronos.org"],
+  "rpc": [
+    "https://mainnet.zkevm.cronos.org",
+    "https://cronos-zkevm.drpc.org",
+    "wss://cronos-zkevm.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Cronos zkEVM CRO",

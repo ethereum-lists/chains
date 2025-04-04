@@ -2,7 +2,11 @@
   "name": "GOAT Network",
   "title": "GOAT Network",
   "chain": "GOAT",
-  "rpc": ["https://rpc.goat.network"],
+  "rpc": [
+    "https://rpc.goat.network",
+    "https://goat-mainnet-alpha.drpc.org",
+    "wss://goat-mainnet-alpha.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin",

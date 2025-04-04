@@ -2,7 +2,11 @@
   "name": "Zircuit Mainnet",
   "chain": "Zircuit Mainnet",
   "icon": "zircuit",
-  "rpc": ["https://mainnet.zircuit.com"],
+  "rpc": [
+    "https://mainnet.zircuit.com",
+    "https://zircuit-mainnet.drpc.org",
+    "wss://zircuit-mainnet.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",

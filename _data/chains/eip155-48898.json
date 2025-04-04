@@ -2,7 +2,11 @@
   "name": "Zircuit Garfield Testnet",
   "chain": "Zircuit Garfield Testnet",
   "icon": "zircuit",
-  "rpc": ["https://garfield-testnet.zircuit.com/"],
+  "rpc": [
+    "https://garfield-testnet.zircuit.com/",
+    "https://zircuit-garfield-testnet.drpc.org",
+    "wss://zircuit-garfield-testnet.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",

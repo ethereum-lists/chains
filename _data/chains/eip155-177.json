@@ -2,7 +2,11 @@
   "name": "HashKey Chain",
   "title": "HashKey Chain",
   "chain": "HashKey Chain",
-  "rpc": ["https://mainnet.hsk.xyz"],
+  "rpc": [
+    "https://mainnet.hsk.xyz",
+    "https://hashkey.drpc.org",
+    "wss://hashkey.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "HashKey EcoPoints",

@@ -12,7 +12,9 @@
   },
   "rpc": [
     "https://alfajores-forno.celo-testnet.org",
-    "wss://alfajores-forno.celo-testnet.org/ws"
+    "wss://alfajores-forno.celo-testnet.org/ws",
+    "https://celo-alfajores.drpc.org",
+    "wss://celo-alfajores.drpc.org"
   ],
   "faucets": [
     "https://celo.org/developers/faucet",

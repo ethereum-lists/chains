@@ -4,7 +4,9 @@
   "rpc": [
     "https://rpc.testnet.frax.com",
     "https://fraxtal-holesky-rpc.publicnode.com",
-    "wss://fraxtal-holesky-rpc.publicnode.com"
+    "wss://fraxtal-holesky-rpc.publicnode.com",
+    "https://fraxtal-testnet.drpc.org",
+    "wss://fraxtal-testnet.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {

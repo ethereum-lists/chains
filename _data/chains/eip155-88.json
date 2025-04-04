@@ -1,7 +1,11 @@
 {
   "name": "Viction",
   "chain": "Viction",
-  "rpc": ["https://rpc.viction.xyz"],
+  "rpc": [
+    "https://rpc.viction.xyz",
+    "https://viction.drpc.org",
+    "wss://viction.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Viction",

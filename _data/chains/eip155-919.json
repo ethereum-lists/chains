@@ -1,7 +1,11 @@
 {
   "name": "Mode Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia.mode.network"],
+  "rpc": [
+    "https://sepolia.mode.network",
+    "https://mode-testnet.drpc.org",
+    "wss://mode-testnet.drpc.org"
+  ],
   "faucets": ["https://sepoliafaucet.com/"],
   "nativeCurrency": {
     "name": "Sepolia Ether",

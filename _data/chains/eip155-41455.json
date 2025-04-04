@@ -4,7 +4,9 @@
   "icon": "aleph-zero",
   "rpc": [
     "https://rpc.alephzero.raas.gelato.cloud",
-    "wss://ws.alephzero.raas.gelato.cloud"
+    "wss://ws.alephzero.raas.gelato.cloud",
+    "https://alephzero.drpc.org",
+    "wss://alephzero.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {

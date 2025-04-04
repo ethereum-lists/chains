@@ -2,7 +2,11 @@
   "name": "Polygon zkEVM Cardona Testnet",
   "title": "Polygon zkEVM Cardona Testnet",
   "chain": "Polygon",
-  "rpc": ["https://rpc.cardona.zkevm-rpc.com"],
+  "rpc": [
+    "https://rpc.cardona.zkevm-rpc.com",
+    "https://polygon-zkevm-cardona.drpc.org",
+    "wss://polygon-zkevm-cardona.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

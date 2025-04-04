@@ -5,7 +5,9 @@
   "rpc": [
     "https://api.avax.network/ext/bc/C/rpc",
     "https://avalanche-c-chain-rpc.publicnode.com",
-    "wss://avalanche-c-chain-rpc.publicnode.com"
+    "wss://avalanche-c-chain-rpc.publicnode.com",
+    "https://avalanche.drpc.org",
+    "wss://avalanche.drpc.org"
   ],
   "features": [{ "name": "EIP1559" }],
   "faucets": [],

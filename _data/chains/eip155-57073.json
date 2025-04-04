@@ -5,7 +5,9 @@
     "https://rpc-gel.inkonchain.com",
     "https://rpc-qnd.inkonchain.com",
     "wss://rpc-gel.inkonchain.com",
-    "wss://rpc-qnd.inkonchain.com"
+    "wss://rpc-qnd.inkonchain.com",
+    "https://ink.drpc.org",
+    "wss://ink.drpc.org"
   ],
   "faucets": ["https://inkonchain.com/faucet"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],

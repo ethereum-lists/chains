@@ -2,7 +2,11 @@
   "name": "EDU Chain Testnet",
   "chain": "EDU Chain Testnet",
   "icon": "open-campus-codex",
-  "rpc": ["https://rpc.open-campus-codex.gelato.digital"],
+  "rpc": [
+    "https://rpc.open-campus-codex.gelato.digital",
+    "https://open-campus-codex-sepolia.drpc.org",
+    "wss://open-campus-codex-sepolia.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "EDU",
