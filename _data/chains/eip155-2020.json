@@ -2,7 +2,11 @@
   "name": "Ronin Mainnet",
   "title": "Ronin",
   "chain": "ronin",
-  "rpc": ["https://api.roninchain.com/rpc"],
+  "rpc": [
+    "https://api.roninchain.com/rpc",
+    "https://ronin.drpc.org",
+    "wss://ronin.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "RON",

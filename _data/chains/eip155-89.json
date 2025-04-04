@@ -1,7 +1,11 @@
 {
   "name": "Viction Testnet",
   "chain": "Viction",
-  "rpc": ["https://rpc-testnet.viction.xyz"],
+  "rpc": [
+    "https://rpc-testnet.viction.xyz",
+    "https://viction-testnet.drpc.org",
+    "wss://viction-testnet.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Viction",
