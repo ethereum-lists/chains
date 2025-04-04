@@ -3,7 +3,9 @@
   "chain": "TRON",
   "rpc": [
     "https://rpc.ankr.com/tron_jsonrpc",
-    "https://api.trongrid.io/jsonrpc"
+    "https://api.trongrid.io/jsonrpc",
+    "https://tron.drpc.org",
+    "wss://tron.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
