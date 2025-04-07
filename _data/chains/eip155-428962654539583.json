@@ -1,7 +1,7 @@
 {
   "name": "Yominet",
   "chain": "YOMINET",
-  "rpc": [],
+  "rpc": ["https://jsonrpc-yominet-1.anvil.asia-southeast.initia.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
