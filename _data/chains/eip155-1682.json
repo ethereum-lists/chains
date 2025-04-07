@@ -2,7 +2,7 @@
     "name": "Hardwood Mainnet",
     "chain": "HEC",
     "rpc": [
-        "https://xnode.privatex.io"
+        "https://rpc.hardwood.life"
     ],
    "icon": "hardwood",
     "faucets": [],
@@ -12,7 +12,7 @@
         "decimals": 18
     },
     "features": [{ "name": "EIP155" }],
-    "infoURL": "https://hecscan.privatex.io",
+    "infoURL": "https://explore.hardwood.life",
     "shortName": "HEC",
     "chainId": 1682,
     "networkId": 1682,
@@ -20,7 +20,7 @@
     "explorers": [
         {
             "name": "HECScan",
-            "url": "https://hecscan.privatex.io",
+            "url": "https://explore.hardwood.life",
             "standard": "EIP3091"
         }
     ]
