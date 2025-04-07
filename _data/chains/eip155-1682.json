@@ -1,0 +1,28 @@
+ {
+    "name": "Hardwood Mainnet",
+    "chain": "HEC",
+    "rpc": [
+        "https://rpc.hardwood.life"
+    ],
+   "icon": "hardwood",
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "Hardwood",
+        "symbol": "HEC",
+        "decimals": 18
+    },
+    "features": [{ "name": "EIP155" }],
+    "infoURL": "https://explore.hardwood.life",
+    "shortName": "HEC",
+    "chainId": 1682,
+    "networkId": 1682,
+    "slip44": 60,
+    "explorers": [
+        {
+            "name": "HECScan",
+            "url": "https://explore.hardwood.life",
+            "standard": "EIP3091"
+        }
+    ]
+}
+
