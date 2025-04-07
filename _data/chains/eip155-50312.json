@@ -13,12 +13,10 @@
   "shortName": "SomniaTestnet",
   "chainId": 50312,
   "networkId": 50312,
-  "icon": "somnia",
   "explorers": [
     {
       "name": "Somnia Testnet",
       "url": "https://somnia-testnet.socialscan.io",
-      "icon": "somnia",
       "standard": "EIP3091"
     }
   ]
