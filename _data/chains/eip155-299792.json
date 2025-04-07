@@ -1,0 +1,31 @@
+{
+  "name": "t1 Mainnet",
+  "title": "t1 Mainnet ",
+  "chain": "t1 Mainnet",
+  "rpc": ["https://rpc.mainnet.t1protocol.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://mainnet.t1protocol.com/",
+  "shortName": "t1",
+  "chainId": 299792,
+  "networkId": 299792,
+  "slip44": 1,
+  "icon": "t1",
+  "explorers": [
+    {
+      "name": "t1 Mainnet Explorer",
+      "url": "https://explorer.mainnet.t1protocol.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "https://mainnet.t1protocol.com/bridge" }]
+  }
+}
