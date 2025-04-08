@@ -3,9 +3,7 @@
   "chain": "ShardeumTestnet",
   "icon": "shardeum",
   "rpc": ["https://api-testnet.shardeum.org/"],
-  "faucets": [
-    "https://faucet-testnet.shardeum.org"
-  ],
+  "faucets": ["https://faucet-testnet.shardeum.org"],
   "nativeCurrency": {
     "name": "Shardeum Test SHM",
     "symbol": "SHM",
