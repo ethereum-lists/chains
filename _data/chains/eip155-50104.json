@@ -1,7 +1,7 @@
 {
   "name": "Sophon",
   "chain": "Sophon",
-  "rpc": ["https://rpc.sophon.xyz"],
+  "rpc": ["https://rpc.sophon.xyz", "wss://rpc.sophon.xyz/ws"],
   "nativeCurrency": {
     "name": "Sophon",
     "symbol": "SOPH",
@@ -19,5 +19,14 @@
       "icon": "sophon-testnet",
       "standard": "none"
     }
-  ]
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [
+      {
+        "url": "https://portal.sophon.xyz/bridge"
+      }
+    ]
+  }
 }

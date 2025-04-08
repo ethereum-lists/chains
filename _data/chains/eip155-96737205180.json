@@ -1,0 +1,25 @@
+{
+  "name": "ALDChain Testnet",
+  "chain": "ALD",
+  "rpc": ["https://testnet-rpc.aldrickb.xyz"],
+  "faucets": ["https://faucet.aldrickb.xyz"],
+  "nativeCurrency": {
+    "name": "ALD Token",
+    "symbol": "ALD",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://aldrickb.com/projects",
+  "shortName": "ald",
+  "chainId": 96737205180,
+  "networkId": 96737205180,
+  "icon": "aldrickb",
+  "explorers": [
+    {
+      "name": "ALDChain Testnet Explorer",
+      "url": "https://testnet-explorer.aldrickb.xyz",
+      "icon": "aldrickb",
+      "standard": "EIP3091"
+    }
+  ]
+}
