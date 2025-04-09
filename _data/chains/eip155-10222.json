@@ -1,25 +1,27 @@
 {
-  "name": "GLScan",
-  "chain": "GLC",
-  "icon": "glc",
-  "rpc": ["https://glc-dataseed.glscan.io/"],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "GLC",
-    "symbol": "GLC",
-    "decimals": 18
-  },
-  "infoURL": "https://glscan.io/",
-  "shortName": "glc",
-  "chainId": 10222,
-  "networkId": 10222,
-  "slip44": 1,
-  "explorers": [
-    {
-      "name": "GLScan Explorer",
-      "url": "https://glscan.io",
-      "standard": "none",
-      "icon": "glc"
-    }
-  ]
+    "name": "Green Ledger Coin",
+    "chain": "GLC",
+    "rpc": [
+        "https://glc-dataseed.glscan.io/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "Green Ledger Coin",
+        "symbol": "GLC",
+        "decimals": 18
+    },
+    "infoURL": "https://glscan.io/",
+    "shortName": "glc",
+    "chainId": 10222,
+    "networkId": 10222,
+    "slip44": 1,
+    "icon": "glc",
+    "explorers": [
+        {
+            "name": "Green ledger",
+            "url": "https://glscan.io/",
+            "standard": "none",
+            "icon": "glc"
+        }
+    ]
 }
