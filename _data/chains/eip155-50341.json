@@ -1,12 +1,12 @@
 {
-  "name": "Reddio Devnet",
-  "title": "Reddio Sepolia L2 Rollup Devnet",
+  "name": "Reddio Testnet",
+  "title": "Reddio Sepolia L2 Rollup Testnet",
   "chain": "ETH",
   "rpc": ["https://reddio-dev.reddio.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Red",
-    "symbol": "RED",
+    "name": "Reddio",
+    "symbol": "RDO",
     "decimals": 18
   },
   "infoURL": "https://www.reddio.com",
