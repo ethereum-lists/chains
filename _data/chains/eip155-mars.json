@@ -1,0 +1,30 @@
+{
+  "name": "MarsChain",
+  "chain": "MarsChain",
+  "slip44": 60,
+  "rpc": ["https://rpc.mars-chain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MarsCoin",
+    "symbol": "MarsC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.mars-chain.io/",
+  "icon": "mars",
+  "shortName": "mars",
+  "chainId": 704851,
+  "networkId": 704851,
+  "explorers": [
+    {
+      "name": "MarsChain Mainnet Explorer",
+      "url": "https://explorer.mars-chain.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161",
+    "bridges": [{ "url": "https://bridge.mars-chain.io" }]
+  },
+  "status": "active"
+}
