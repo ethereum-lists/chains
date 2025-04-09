@@ -2456,6 +2456,19 @@
   "faucets": [],
   "infoURL": "https://cemblockchain.com/"
 }, {
+  "name": "firachain",
+  "chainId": 194,
+  "shortName": "FIR",
+  "networkId": 194,
+  "nativeCurrency": {
+    "name": "firachain",
+    "symbol": "FIR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.firachain.com"],
+  "faucets": [],
+  "infoURL": "https://firachain.com"
+}, {
   "name": "X Layer Testnet",
   "chainId": 195,
   "shortName": "tokb",
@@ -2894,7 +2907,7 @@
     "symbol": "GHO",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.lens.xyz"],
   "faucets": [],
   "infoURL": "https://lens.xyz"
 }, {
@@ -11153,6 +11166,19 @@
   "faucets": [],
   "infoURL": "https://ethstorage.io/"
 }, {
+  "name": "Pentagon Chain",
+  "chainId": 3344,
+  "shortName": "PentagonChain",
+  "networkId": 3344,
+  "nativeCurrency": {
+    "name": "Pentagon Chain",
+    "symbol": "PC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.pentagon.games"],
+  "faucets": ["https://bridge.pentagon.games"],
+  "infoURL": "https://pentagon.games"
+}, {
   "name": "Meroneum",
   "chainId": 3366,
   "shortName": "meron-testnet",
@@ -11474,7 +11500,7 @@
     "symbol": "XOC",
     "decimals": 18
   },
-  "rpc": ["https://rpc.xone.org"],
+  "rpc": ["https://rpc.xone.org", "wss://rpc-wss.xone.org"],
   "faucets": ["https://faucet.xone.org/"],
   "infoURL": "https://xone.org"
 }, {
@@ -15703,18 +15729,18 @@
   "faucets": [],
   "infoURL": "https://explorer.evokescan.org"
 }, {
-  "name": "WeaveVM Testnet",
+  "name": "Load Alphanet",
   "chainId": 9496,
-  "shortName": "twvm",
+  "shortName": "tload",
   "networkId": 9496,
   "nativeCurrency": {
-    "name": "Testnet WeaveVM Token",
-    "symbol": "tWVM",
+    "name": "Testnet Load Token",
+    "symbol": "tLOAD",
     "decimals": 18
   },
-  "rpc": ["https://testnet.wvm.dev", "https://testnet-rpc.wvm.dev"],
-  "faucets": [],
-  "infoURL": "https://wvm.dev"
+  "rpc": ["https://alphanet.load.network"],
+  "faucets": ["https://load.network/faucet"],
+  "infoURL": "https://load.network"
 }, {
   "name": "Rangers Protocol Testnet Robin",
   "chainId": 9527,
@@ -19980,7 +20006,7 @@
   "faucets": [],
   "infoURL": "https://autobahn.network"
 }, {
-  "name": "Juneo Mainnet",
+  "name": "Juneo JUNE-Chain",
   "chainId": 45003,
   "shortName": "JUNE",
   "networkId": 45003,
@@ -19990,6 +20016,149 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/JUNE/rpc"],
+  "faucets": [],
+  "infoURL": "https://juneo.com/"
+}, {
+  "name": "Juneo DAI1-Chain",
+  "chainId": 45004,
+  "shortName": "DAI1",
+  "networkId": 45004,
+  "nativeCurrency": {
+    "name": "DAI1",
+    "symbol": "DAI1",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/DAI1/rpc"],
+  "faucets": [],
+  "infoURL": "https://juneo.com/"
+}, {
+  "name": "Juneo USDT1-Chain",
+  "chainId": 45005,
+  "shortName": "USDT1",
+  "networkId": 45005,
+  "nativeCurrency": {
+    "name": "USDT1",
+    "symbol": "USDT1",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/USDT1/rpc"],
+  "faucets": [],
+  "infoURL": "https://juneo.com/"
+}, {
+  "name": "Juneo USD1-Chain",
+  "chainId": 45006,
+  "shortName": "USD1",
+  "networkId": 45006,
+  "nativeCurrency": {
+    "name": "USD1",
+    "symbol": "USD1",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/USD1/rpc"],
+  "faucets": [],
+  "infoURL": "https://juneo.com/"
+}, {
+  "name": "Juneo mBTC1-Chain",
+  "chainId": 45007,
+  "shortName": "mBTC1",
+  "networkId": 45007,
+  "nativeCurrency": {
+    "name": "mBTC1",
+    "symbol": "mBTC1",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/mBTC1/rpc"],
+  "faucets": [],
+  "infoURL": "https://juneo.com/"
+}, {
+  "name": "Juneo GLD1-Chain",
+  "chainId": 45008,
+  "shortName": "GLD1",
+  "networkId": 45008,
+  "nativeCurrency": {
+    "name": "GLD1",
+    "symbol": "GLD1",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/GLD1/rpc"],
+  "faucets": [],
+  "infoURL": "https://juneo.com/"
+}, {
+  "name": "Juneo LTC1-Chain",
+  "chainId": 45009,
+  "shortName": "LTC1",
+  "networkId": 45009,
+  "nativeCurrency": {
+    "name": "LTC1",
+    "symbol": "LTC1",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/LTC1/rpc"],
+  "faucets": [],
+  "infoURL": "https://juneo.com/"
+}, {
+  "name": "Juneo DOGE1-Chain",
+  "chainId": 45010,
+  "shortName": "DOGE1",
+  "networkId": 45010,
+  "nativeCurrency": {
+    "name": "DOGE1",
+    "symbol": "DOGE1",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/DOGE1/rpc"],
+  "faucets": [],
+  "infoURL": "https://juneo.com/"
+}, {
+  "name": "Juneo EUR1-Chain",
+  "chainId": 45011,
+  "shortName": "EUR1",
+  "networkId": 45011,
+  "nativeCurrency": {
+    "name": "EUR1",
+    "symbol": "EUR1",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/EUR1/rpc"],
+  "faucets": [],
+  "infoURL": "https://juneo.com/"
+}, {
+  "name": "Juneo SGD1-Chain",
+  "chainId": 45012,
+  "shortName": "SGD1",
+  "networkId": 45012,
+  "nativeCurrency": {
+    "name": "SGD1",
+    "symbol": "SGD1",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/SGD1/rpc"],
+  "faucets": [],
+  "infoURL": "https://juneo.com/"
+}, {
+  "name": "Juneo BCH1-Chain",
+  "chainId": 45013,
+  "shortName": "BCH1",
+  "networkId": 45013,
+  "nativeCurrency": {
+    "name": "BCH1",
+    "symbol": "BCH1",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/BCH1/rpc"],
+  "faucets": [],
+  "infoURL": "https://juneo.com/"
+}, {
+  "name": "Juneo LINK1-Chain",
+  "chainId": 45014,
+  "shortName": "LINK1",
+  "networkId": 45014,
+  "nativeCurrency": {
+    "name": "LINK1",
+    "symbol": "LINK1",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/LINK1/rpc"],
   "faucets": [],
   "infoURL": "https://juneo.com/"
 }, {
@@ -22996,6 +23165,19 @@
   "faucets": [],
   "infoURL": "https://docs.gnosischain.com"
 }, {
+  "name": "Socotra JUNE-Chain",
+  "chainId": 101003,
+  "shortName": "Socotra-JUNE",
+  "networkId": 101003,
+  "nativeCurrency": {
+    "name": "Socotra JUNE",
+    "symbol": "JUNE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.socotra-testnet.network/ext/bc/JUNE/rpc"],
+  "faucets": [],
+  "infoURL": "https://juneo.com/"
+}, {
   "name": "Global Trust Network",
   "chainId": 101010,
   "shortName": "stabilityprotocol",
@@ -23567,6 +23749,19 @@
   "rpc": [],
   "faucets": [],
   "infoURL": "https://www.playfi.ai/"
+}, {
+  "name": "Eventum Mainnet",
+  "chainId": 161803,
+  "shortName": "Eventum",
+  "networkId": 161803,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.evedex.com"],
+  "faucets": [],
+  "infoURL": "https://evedex.com"
 }, {
   "name": "Eclat Mainnet",
   "chainId": 165279,
@@ -24243,6 +24438,19 @@
   "rpc": ["https://testnet.deeplnetwork.org"],
   "faucets": ["https://faucet.deeplnetwork.org"],
   "infoURL": "https://deeplnetwork.org"
+}, {
+  "name": "B20 Testnet",
+  "chainId": 223344,
+  "shortName": "B20",
+  "networkId": 223344,
+  "nativeCurrency": {
+    "name": "B20",
+    "symbol": "TBOC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.beonescan.com"],
+  "faucets": ["https://faucet.beonechain.com/"],
+  "infoURL": "https://rpc.beonescan.com"
 }, {
   "name": "Taf ECO Chain Mainnet",
   "chainId": 224168,
@@ -26586,7 +26794,7 @@
 }, {
   "name": "XRPL EVM Sidechain Devnet",
   "chainId": 1440002,
-  "shortName": "xrplevm",
+  "shortName": "xrplevmdevnet",
   "networkId": 1440002,
   "nativeCurrency": {
     "name": "XRP",
@@ -26594,7 +26802,20 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.xrplevm.org", "https://ws.xrplevm.org"],
-  "faucets": ["https://chains.tools/faucet/xrplevm"],
+  "faucets": ["https://faucet.xrplevm.org"],
+  "infoURL": "https://xrplevm.org"
+}, {
+  "name": "XRPL EVM Sidechain Testnet",
+  "chainId": 1449000,
+  "shortName": "xrplevmtestnet",
+  "networkId": 1449000,
+  "nativeCurrency": {
+    "name": "XRP",
+    "symbol": "XRP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.xrplevm.org", "https://ws.testnet.xrplevm.org"],
+  "faucets": ["https://faucet.xrplevm.org"],
   "infoURL": "https://xrplevm.org"
 }, {
   "name": "Waterfall 9 Test Network",
@@ -27958,7 +28179,7 @@
     "symbol": "XOC",
     "decimals": 18
   },
-  "rpc": ["https://rpc-testnet.xone.plus", "https://rpc-testnet.xone.org", "https://rpc-testnet.knight.center"],
+  "rpc": ["https://rpc-testnet.xone.plus", "https://rpc-testnet.xone.org", "https://rpc-testnet.knight.center", "wss://wss-rpc-testnet.xone.org"],
   "faucets": ["https://faucet.xone.org/"],
   "infoURL": "https://xone.org"
 }, {
@@ -28716,6 +28937,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Smart Mainnet",
+  "chainId": 661898459,
+  "shortName": "smart",
+  "networkId": 661898459,
+  "nativeCurrency": {
+    "name": "Smart",
+    "symbol": "SMART",
+    "decimals": 6
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://smartblockchain.com"
+}, {
   "name": "Degen Chain",
   "chainId": 666666666,
   "shortName": "degen-chain",
@@ -29379,6 +29613,19 @@
   "faucets": [],
   "infoURL": "https://pirl.io"
 }, {
+  "name": "Ultima Mainnet",
+  "chainId": 3416255149,
+  "shortName": "ultima",
+  "networkId": 3416255149,
+  "nativeCurrency": {
+    "name": "Ultima",
+    "symbol": "ULTIMA",
+    "decimals": 6
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://ultima.io"
+}, {
   "name": "OneLedger Testnet Frankenstein",
   "chainId": 4216137055,
   "shortName": "frankenstein",
@@ -29729,6 +29976,19 @@
   "rpc": ["https://rpc.flame.dawn-1.astria.org"],
   "faucets": [],
   "infoURL": "https://astria.org"
+}, {
+  "name": "Yominet",
+  "chainId": 428962654539583,
+  "shortName": "yomi",
+  "networkId": 428962654539583,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://jsonrpc-yominet-1.anvil.asia-southeast.initia.xyz"],
+  "faucets": [],
+  "infoURL": "https://www.kamigotchi.io/"
 }, {
   "name": "Godwoken Testnet (V1)",
   "chainId": 868455272153094,

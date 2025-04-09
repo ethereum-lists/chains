@@ -4,14 +4,14 @@
   "icon": "xrplevm",
   "rpc": ["https://rpc.xrplevm.org", "https://ws.xrplevm.org"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "faucets": ["https://chains.tools/faucet/xrplevm"],
+  "faucets": ["https://faucet.xrplevm.org"],
   "nativeCurrency": {
     "name": "XRP",
     "symbol": "XRP",
     "decimals": 18
   },
   "infoURL": "https://xrplevm.org",
-  "shortName": "xrplevm",
+  "shortName": "xrplevmdevnet",
   "chainId": 1440002,
   "networkId": 1440002,
   "explorers": [
