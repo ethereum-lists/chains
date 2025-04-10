@@ -1,0 +1,25 @@
+{
+  "name": "JuChain Mainnet",
+  "chain": "JuChain",
+  "icon": "juchain",
+  "rpc": ["https://rpc.juchain.org"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "JUCoin",
+    "symbol": "JU",
+    "decimals": 18
+  },
+  "infoURL": "https://juchain.gitbook.io/juchain-docs",
+  "shortName": "ju",
+  "chainId": 210000,
+  "networkId": 210000,
+  "explorers": [
+    {
+      "name": "JuChain Mainnet Explorer",
+      "url": "https://juscan.io",
+      "icon": "juchain",
+      "standard": "EIP3091"
+    }
+  ]
+}
