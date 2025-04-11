@@ -1,0 +1,24 @@
+{
+  "name": "VRC Chain",
+  "chain": "VRC",
+  "rpc": [
+    "https://vrc-chain.zeeve.net/77dcd2lsz70xjbq70im3/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "VRC",
+    "symbol": "VRC",
+    "decimals": 18
+  },
+  "infoURL": "https://vrcchain.com",
+  "shortName": "vrc",
+  "chainId": 7131,
+  "networkId": 7131,
+  "explorers": [
+    {
+      "name": "VRC Explorer",
+      "url": "https://explorer.vrcchain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
