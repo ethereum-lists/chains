@@ -1,0 +1,23 @@
+{
+  "name": "Sichang Chain",
+  "chain": "SIC",
+  "rpc": ["https://sichang-rpc.thaichain.org/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sichang",
+    "symbol": "SIC",
+    "decimals": 18
+  },
+  "infoURL": "https://sichang.thaichain.org/",
+  "shortName": "sic",
+  "chainId": 700011,
+  "networkId": 700011,
+  "explorers": [
+    {
+      "name": "SICHANG  explorer",
+      "url": "https://sichang.thaichain.org/",
+      "icon": "sichang",
+      "standard": "EIP3091"
+    }
+  ]
+}
