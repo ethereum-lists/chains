@@ -8397,6 +8397,45 @@
   "faucets": [],
   "infoURL": "https://reya.network"
 }, {
+  "name": "Fuga Mainnet",
+  "chainId": 1732,
+  "shortName": "FUGA",
+  "networkId": 1732,
+  "nativeCurrency": {
+    "name": "FUGA",
+    "symbol": "FUGA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.fuga.blue"],
+  "faucets": [],
+  "infoURL": "https://fuga.one"
+}, {
+  "name": "Fuga Testnet",
+  "chainId": 1733,
+  "shortName": "FUGA_T",
+  "networkId": 1733,
+  "nativeCurrency": {
+    "name": "FUGA",
+    "symbol": "FUGA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.fuga.blue"],
+  "faucets": [],
+  "infoURL": "https://fuga.one"
+}, {
+  "name": "Fuga Develop",
+  "chainId": 1734,
+  "shortName": "FUGA_D",
+  "networkId": 1734,
+  "nativeCurrency": {
+    "name": "FUGA",
+    "symbol": "FUGA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-develop.fuga.blue"],
+  "faucets": [],
+  "infoURL": "https://fuga.one"
+}, {
   "name": "Metal L2 Testnet",
   "chainId": 1740,
   "shortName": "metall2-testnet",
