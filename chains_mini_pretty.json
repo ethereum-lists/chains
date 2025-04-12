@@ -27000,6 +27000,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "COTI",
+  "chainId": 2632500,
+  "shortName": "coti",
+  "networkId": 2632500,
+  "nativeCurrency": {
+    "name": "COTI",
+    "symbol": "COTI",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.coti.io/rpc"],
+  "faucets": [],
+  "infoURL": "https://coti.io/"
+}, {
   "name": "Xterio Chain (ETH)",
   "chainId": 2702128,
   "shortName": "xterio",
