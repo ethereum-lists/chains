@@ -7630,6 +7630,19 @@
   "faucets": [],
   "infoURL": "https://www.sei.io"
 }, {
+  "name": "Kii Testnet Oro",
+  "chainId": 1336,
+  "shortName": "kiioro",
+  "networkId": 1336,
+  "nativeCurrency": {
+    "name": "Kii",
+    "symbol": "KII",
+    "decimals": 18
+  },
+  "rpc": ["https://json-rpc.uno.sentry.testnet.v3.kiivalidator.com"],
+  "faucets": ["https://explorer.kiichain.io/testnet/faucet"],
+  "infoURL": "https://kiichain.io"
+}, {
   "name": "Geth Testnet",
   "chainId": 1337,
   "shortName": "geth",
