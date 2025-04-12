@@ -9888,7 +9888,7 @@
     "symbol": "G7",
     "decimals": 18
   },
-  "rpc": ["https://mainnet-rpc.game7.io", "wss://mainnet-rpc.game7.io"],
+  "rpc": ["https://mainnet-rpc.game7.io", "wss://mainnet-rpc.game7.io", "https://mainnet-rpc.game7.build", "wss://mainnet-rpc.game7.build"],
   "faucets": [],
   "infoURL": "https://game7.io/"
 }, {
@@ -17311,7 +17311,7 @@
     "symbol": "TG7T",
     "decimals": 18
   },
-  "rpc": ["https://testnet-rpc.game7.io", "wss://testnet-rpc.game7.io"],
+  "rpc": ["https://testnet-rpc.game7.io", "wss://testnet-rpc.game7.io", "https://testnet-rpc.game7.build", "wss://testnet-rpc.game7.build"],
   "faucets": [],
   "infoURL": "https://game7.io"
 }, {
