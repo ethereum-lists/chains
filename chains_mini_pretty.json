@@ -6863,6 +6863,19 @@
   "faucets": ["http://tc04.mydefichain.com/faucet"],
   "infoURL": "https://meta.defichain.com"
 }, {
+  "name": "StateMesh",
+  "chainId": 1134,
+  "shortName": "mesh",
+  "networkId": 1134,
+  "nativeCurrency": {
+    "name": "StateMesh",
+    "symbol": "MESH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.statemesh.net"],
+  "faucets": [],
+  "infoURL": "https://statemesh.net"
+}, {
   "name": "Lisk",
   "chainId": 1135,
   "shortName": "lisk",
