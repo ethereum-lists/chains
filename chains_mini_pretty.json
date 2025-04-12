@@ -20513,13 +20513,13 @@
   "faucets": [],
   "infoURL": "https://somnia.network"
 }, {
-  "name": "Reddio Devnet",
+  "name": "Reddio Testnet",
   "chainId": 50341,
   "shortName": "reddio-devnet",
   "networkId": 50341,
   "nativeCurrency": {
-    "name": "Red",
-    "symbol": "RED",
+    "name": "Reddio",
+    "symbol": "RDO",
     "decimals": 18
   },
   "rpc": ["https://reddio-dev.reddio.com"],
