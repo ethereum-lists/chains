@@ -28003,14 +28003,14 @@
 }, {
   "name": "Vcity Testnet",
   "chainId": 20230825,
-  "shortName": "Vcity",
+  "shortName": "Vcitytestnet",
   "networkId": 20230825,
   "nativeCurrency": {
     "name": "Testnet Vcity Token",
-    "symbol": "VCITY",
+    "symbol": "VCT",
     "decimals": 18
   },
-  "rpc": ["https://testnet.vcity.app"],
+  "rpc": ["http://testnet-rpc.vcity.app"],
   "faucets": [],
   "infoURL": "https://vcity.app"
 }, {
@@ -28065,6 +28065,19 @@
   "rpc": ["https://en-bkk.x-phere.com"],
   "faucets": [],
   "infoURL": "https://x-phere.com/"
+}, {
+  "name": "Vcitychain Mainnet",
+  "chainId": 20250825,
+  "shortName": "vcity",
+  "networkId": 20250825,
+  "nativeCurrency": {
+    "name": "Vcity Coin",
+    "symbol": "VCITY",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.vcity.app"],
+  "faucets": [],
+  "infoURL": "https://vcity.app"
 }, {
   "name": "ETP Mainnet",
   "chainId": 20256789,
