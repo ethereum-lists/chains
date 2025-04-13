@@ -20006,6 +20006,19 @@
   "faucets": [],
   "infoURL": "https://docs.boba.network/for-developers/network-avalanche"
 }, {
+  "name": "GUNZ",
+  "chainId": 43419,
+  "shortName": "gunz-mainnet",
+  "networkId": 43419,
+  "nativeCurrency": {
+    "name": "GUN",
+    "symbol": "GUN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.gunzchain.io/ext/bc/2M47TxWHGnhNtq6pM5zPXdATBtuqubxn5EPFgFmEawCQr9WFML/rpc"],
+  "faucets": [],
+  "infoURL": "https://gunbygunz.com"
+}, {
   "name": "Formicarium",
   "chainId": 43521,
   "shortName": "form",
