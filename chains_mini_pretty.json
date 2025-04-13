@@ -29704,6 +29704,19 @@
   "faucets": ["https://kermit.explorer.accumulatenetwork.io/faucet"],
   "infoURL": "https://accumulate.org"
 }, {
+  "name": "Tron Shasta",
+  "chainId": 2494104990,
+  "shortName": "tron-shasta",
+  "networkId": 2494104990,
+  "nativeCurrency": {
+    "name": "Tron",
+    "symbol": "TRX",
+    "decimals": 6
+  },
+  "rpc": ["https://api.shasta.trongrid.io/jsonrpc"],
+  "faucets": [],
+  "infoURL": "https://tron.network"
+}, {
   "name": "Ancient8 Testnet (deprecated)",
   "chainId": 2863311531,
   "shortName": "a8old",
