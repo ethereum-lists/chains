@@ -7851,6 +7851,19 @@
   "faucets": [],
   "infoURL": "https://perennial.finance"
 }, {
+  "name": "ONINO Mainnet",
+  "chainId": 1425,
+  "shortName": "onino",
+  "networkId": 1425,
+  "nativeCurrency": {
+    "name": "ONI",
+    "symbol": "ONI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.onino.io"],
+  "faucets": ["https://faucet.onino.io"],
+  "infoURL": "https://onino.io"
+}, {
   "name": "Rikeza Network Mainnet",
   "chainId": 1433,
   "shortName": "RIK",
