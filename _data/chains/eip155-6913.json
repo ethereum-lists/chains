@@ -1,7 +1,7 @@
 {
-    "name": "BILLIONS",
-    "title": "BILLIONS",
-    "chain": "BILLIONS",
+    "name": "billions-testnet",
+    "title": "billions-testnet",
+    "chain": "billions-testnet",
     "rpc": ["https://billions-testnet-rpc.eu-north-2.gateway.fm"],
     "faucets": ["https://billions-testnet-faucet.eu-north-2.gateway.fm"],
     "nativeCurrency": {
@@ -10,7 +10,7 @@
       "decimals": 18
     },
     "infoURL": "https://billions.network",
-    "shortName": "Billions",
+    "shortName": "billionstest",
     "chainId": 6913,
     "networkId": 6913,
     "icon": "billions",
