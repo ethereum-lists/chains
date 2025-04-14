@@ -1,0 +1,23 @@
+{
+  "name": "Heurist Testnet Sepolia",
+  "chain": "HEU",
+  "status": "active",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Heurist",
+    "symbol": "HEU",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "HEU",
+  "chainId": 207788,
+  "networkId": 207788,
+  "slip44": 1,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": []
+  }
+}
