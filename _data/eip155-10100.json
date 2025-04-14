@@ -1,0 +1,21 @@
+{
+  "name": "Warden Docas Testnet",
+  "chain": "WARD",
+  "rpc": [
+    "https://evm.docas.wardenprotocol.org",
+    "wss://evm-ws.docas.wardenprotocol.org"
+  ],
+  "faucets": [
+    "https://faucet.docas.wardenprotocol.org"
+  ],
+  "nativeCurrency": {
+    "name": "wSTAKE",
+    "symbol": "wSTAKE",
+    "decimals": 18
+  },
+  "infoURL": "https://wardenprotocol.org",
+  "icon": "warden",
+  "shortName": "ward",
+  "chainId": 10100,
+  "networkId": 10100
+}
