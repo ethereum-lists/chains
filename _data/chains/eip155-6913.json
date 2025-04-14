@@ -27,6 +27,8 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://billions-testnet-bridge.eu-north-2.gateway.fm" }]
+    "bridges": [
+      { "url": "https://billions-testnet-bridge.eu-north-2.gateway.fm" }
+    ]
   }
 }
