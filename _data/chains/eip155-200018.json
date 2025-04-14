@@ -1,0 +1,23 @@
+{
+  "name": "Rome Testnet",
+  "chain": "Rome",
+  "rpc": ["https://rome.testnet.romeprotocol.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ROME",
+    "symbol": "ROME",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.rome.builders",
+  "shortName": "rome",
+  "chainId": 200018,
+  "networkId": 200018,
+  "explorers": [
+    {
+      "name": "Rome explorer",
+      "url": "https://rome.testnet.romeprotocol.xyz:1000",
+      "standard": "none"
+    }
+  ],
+  "status": "active"
+}
