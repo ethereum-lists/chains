@@ -3,19 +3,27 @@
   "chain": "HATCHY",
   "rpc": ["https://hatchyverse.ash.center/rpc"],
   "faucets": [],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "nativeCurrency": {
     "name": "Hatchy",
     "symbol": "HATCHY",
     "decimals": 18
   },
   "infoURL": "https://hatchyverse.com/",
-  "shortName": "hatchy",
+  "shortName": "hatchy-mainnet",
   "chainId": 8198,
   "networkId": 8198,
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://hatchyverse-explorer.ash.center/",
+      "url": "https://hatchyverse-explorer.ash.center",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
