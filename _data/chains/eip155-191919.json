@@ -1,22 +1,22 @@
 {
-  "name": "Altblockchain",
+  "name": "Altblockscan",
   "chain": "ALTB",
-  "rpc": ["https://rpc.altblockchain.com"],
+  "rpc": ["https://rpc.altblockscan.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Altblockchain",
+    "name": "Altblockscan",
     "symbol": "ALTB",
     "decimals": 18
   },
-  "infoURL": "https://altblockchain.com",
+  "infoURL": "https://altblockscan.com",
   "shortName": "altb",
   "chainId": 191919,
   "networkId": 191919,
   "icon": "altb",
   "explorers": [
     {
-      "name": "altblockchain",
-      "url": "https://scan.atlblockchain.com",
+      "name": "altblockscan",
+      "url": "https://scan.atlblockscan.com",
       "icon": "altb",
       "standard": "none"
     }
