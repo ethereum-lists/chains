@@ -1,0 +1,22 @@
+{
+  "name": "AB Core Mainnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc1.core.ab.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AB",
+    "symbol": "AB",
+    "decimals": 18
+  },
+  "infoURL": "https://ab.org",
+  "shortName": "ABCore",
+  "chainId": 36888,
+  "networkId": 36888,
+  "explorers": [
+    {
+      "name": "AB Core explorer",
+      "url": "https://explorer.core.ab.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
