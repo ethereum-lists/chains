@@ -1,7 +1,7 @@
 {
   "name": "The Ting Blockchain Testnet Explorer",
   "chain": "Ting",
-  "rpc": ["https://testnet.tingchain.org"],
+  "rpc": ["https://testnet.tingchain.org", "https://public.0xrpc.com/6666689"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ton",
