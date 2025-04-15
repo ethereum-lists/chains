@@ -1,0 +1,16 @@
+{
+  "name": "WylerChain",
+  "chain": "WYLER",
+  "rpc": ["https://rpc.wylerchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Wyler",
+    "symbol": "WYL",
+    "decimals": 18
+  },
+  "infoURL": "https://wylerchain.com",
+  "shortName": "wyl",
+  "chainId": 1712,
+  "networkId": 1712,
+  "status": "incubating"
+}
