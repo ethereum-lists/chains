@@ -1,0 +1,25 @@
+{
+  "name": "Kii Testnet Oro",
+  "chain": "KII",
+  "rpc": ["https://json-rpc.uno.sentry.testnet.v3.kiivalidator.com"],
+  "faucets": ["https://explorer.kiichain.io/testnet/faucet"],
+  "nativeCurrency": {
+    "name": "Kii",
+    "symbol": "KII",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://kiichain.io",
+  "shortName": "kiioro",
+  "chainId": 1336,
+  "networkId": 1336,
+  "icon": "kii",
+  "explorers": [
+    {
+      "name": "KiiExplorer",
+      "url": "https://explorer.kiichain.io/testnet",
+      "icon": "kii",
+      "standard": "none"
+    }
+  ]
+}
