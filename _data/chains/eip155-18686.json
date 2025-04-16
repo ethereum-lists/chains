@@ -1,16 +1,21 @@
 {
   "name": "MXC zkEVM Moonchain",
-  "chain": "MXC zkEVM",
+  "chain": "ETH",
   "icon": "mxczkevm",
-  "rpc": ["https://rpc.mxc.com"],
+  "rpc": [
+    "https://rpc.mxc.com",
+    "https://rpc.moonchain.com",
+    "wss://rpc.mxc.com/ws",
+    "wss://rpc.moonchain.com/ws"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "MXC zkEVM Moonchain",
     "symbol": "MXC",
     "decimals": 18
   },
-  "infoURL": "https://doc.mxc.com/docs/intro",
-  "shortName": "MXCzkEVM",
+  "infoURL": "https://doc.moonchain.com/docs/intro",
+  "shortName": "mxczkevm",
   "chainId": 18686,
   "networkId": 18686,
   "explorers": [
@@ -19,5 +24,10 @@
       "url": "https://explorer.moonchain.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161",
+    "bridges": [{ "url": "https://bridge.moonchain.com" }]
+  }
 }

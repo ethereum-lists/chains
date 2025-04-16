@@ -1,16 +1,20 @@
 {
   "name": "Moonchain Geneva Testnet",
-  "chain": "MXC zkEVM",
+  "chain": "ETH",
+  "status": "active",
   "icon": "mxc",
-  "rpc": ["https://geneva-rpc.moonchain.com"],
+  "rpc": [
+    "https://geneva-rpc.moonchain.com",
+    "wss://geneva-rpc.moonchain.com/ws"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Moonchain Geneva Testnet",
     "symbol": "MXC",
     "decimals": 18
   },
-  "infoURL": "https://doc.mxc.com/docs/intro",
-  "shortName": "MXC",
+  "infoURL": "https://doc.moonchain.com/docs/intro",
+  "shortName": "mxczkevm-geneva",
   "chainId": 5167004,
   "networkId": 5167004,
   "slip44": 1,
@@ -20,5 +24,10 @@
       "url": "https://geneva-explorer.moonchain.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-421614",
+    "bridges": [{ "url": "https://geneva-bridge.moonchain.com" }]
+  }
 }
