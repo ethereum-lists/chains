@@ -1,0 +1,28 @@
+{
+  "name": "Omstead Testnet",
+  "chain": "Omstead",
+  "rpc": [
+    "https://evm.omstead.io",
+    "wss://evm.omstead.io/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OM",
+    "symbol": "OM",
+    "decimals": 6
+  },
+  "infoURL": "https://mantrachain.io",
+  "shortName": "omstead",
+  "chainId": 7888,
+  "networkId": 7888,
+  "slip44": 1,
+  "icon": "om",
+  "explorers": [
+    {
+      "name": "Omstead Explorer",
+      "url": "https://explorer.omstead.io",
+      "standard": "none",
+      "icon": "om"
+    }
+  ]
+}
