@@ -1,0 +1,22 @@
+{
+  "name": "QDay Testnet",
+  "chain": "QDay",
+  "rpc": ["https://dawn-rpc.qday.info"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QDAY Testnet Token",
+    "symbol": "QDAY",
+    "decimals": 18
+  },
+  "infoURL": "https://www.pqabelian.io/",
+  "shortName": "qday",
+  "chainId": 44003,
+  "networkId": 44003,
+  "explorers": [
+    {
+      "name": "QDay Testnet Explorer",
+      "url": "https://dawn-explorer.qday.info",
+      "standard": "EIP3091"
+    }
+  ]
+}
