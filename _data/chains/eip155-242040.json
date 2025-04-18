@@ -1,0 +1,39 @@
+{
+  "name": "Sem Mainnet",
+  "chain": "SEM",
+  "rpc": [
+    "http://rpc.semchain.org/",
+    "https://rpc2.semchain.org/",
+    "https://rpc3.semchain.org/",
+    "https://rpc4chain.semchain.org/"
+  ],
+  "faucets": [
+
+  ],
+  "nativeCurrency": {
+    "name": "SEM",
+    "symbol": "SEM",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://saveearthmission.org/",
+  "shortName": "sem",
+  "chainId": 242040,
+  "networkId": 242040,
+  "icon": "sem",
+  "explorers": [
+    {
+      "name": "semscan",
+      "url": "https://scan.semchain.org/",
+      "icon": "sem",
+      "standard": "EIP3091"
+    }
+  ]
+}
