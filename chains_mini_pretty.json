@@ -14728,6 +14728,19 @@
   "faucets": ["https://faucet-sphinx.shardeum.org/"],
   "infoURL": "https://docs.shardeum.org/"
 }, {
+  "name": "Shardeum Testnet",
+  "chainId": 8083,
+  "shortName": "ShardeumTestnet",
+  "networkId": 8083,
+  "nativeCurrency": {
+    "name": "Shardeum Test SHM",
+    "symbol": "SHM",
+    "decimals": 18
+  },
+  "rpc": ["https://api-testnet.shardeum.org/"],
+  "faucets": [],
+  "infoURL": "https://docs.shardeum.org/"
+}, {
   "name": "Bitcoin Chain",
   "chainId": 8086,
   "shortName": "Bitcoin",
@@ -14792,6 +14805,19 @@
   "rpc": [],
   "faucets": [],
   "infoURL": "https://zenchain.io"
+}, {
+  "name": "Shardeum",
+  "chainId": 8118,
+  "shortName": "Shardeum",
+  "networkId": 8118,
+  "nativeCurrency": {
+    "name": "Shardeum",
+    "symbol": "SHM",
+    "decimals": 18
+  },
+  "rpc": ["https://api.shardeum.org/"],
+  "faucets": [],
+  "infoURL": "https://docs.shardeum.org/"
 }, {
   "name": "Qitmeer Network Testnet",
   "chainId": 8131,
