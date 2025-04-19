@@ -1,10 +1,7 @@
 {
-  "name": "Qubetics Testnet",
-  "chain": "Qubetics Testnet",
-  "rpc": [
-    "https://alphatestnet-evm-rpc.qubetics.work/",
-    "wss://wss-testnet-nodes.shidoscan.com"
-  ],
+  "name": "Qubetics Alpha Testnet",
+  "chain": "Qubetics Alpha Testnet",
+  "rpc": ["https://alphatestnet-evm-rpc.qubetics.work/"],
   "faucets": ["https://alphatestnet-explorer.qubetics.work/faucet"],
   "nativeCurrency": {
     "name": "Qubetics Testnet Token",
@@ -12,14 +9,14 @@
     "decimals": 18
   },
   "infoURL": "https://www.qubetics.com/",
-  "shortName": "Qubetics",
+  "shortName": "QubeticsAlpha",
   "chainId": 9003,
   "networkId": 9003,
   "icon": "qubetics",
   "explorers": [
     {
-      "name": "Qubetics Testnet Explorer",
-      "url": "https://testnet.shidoscan.com",
+      "name": "Qubetics Alpha Testnet Explorer",
+      "url": "https://alphatestnet-explorer.qubetics.work/dashboard",
       "standard": "none",
       "icon": "qubetics"
     }
