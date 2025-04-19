@@ -1,0 +1,30 @@
+{
+  "name": "VRCN Chain Mainnet",
+  "chain": "VRCN",
+  "rpc": [
+    "https://rpc-mainnet-4.vrcchain.com/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "VRCN Chain",
+    "symbol": "VRCN",
+    "decimals": 18
+  },
+  "infoURL": "https://vrccoin.com",
+  "shortName": "VRCN",
+  "chainId": 7131,
+  "networkId": 7131,
+  "explorers": [
+    {
+      "name": "VRCNChain",
+      "url": "https://vrcchain.com",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dxbchain",
+      "url": "https://dxb.vrcchain.com/",
+      "standard": "EIP3091"
+    }
+  ],
+  "icon": "VRCNChain"
+}
