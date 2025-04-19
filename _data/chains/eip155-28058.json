@@ -1,0 +1,32 @@
+{
+  "name": "Adera Chain Mainnet",
+  "chain": "ADR",
+  "rpc": ["https://rpc.adrscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Adera",
+    "symbol": "ADR",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://staking.adrscan.com",
+  "shortName": "adera",
+  "chainId": 28058,
+  "networkId": 28058,
+  "icon": "aderachain",
+  "explorers": [
+    {
+      "name": "Adera Scan",
+      "url": "https://adrscan.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
