@@ -1,7 +1,12 @@
 {
   "name": "Rootstock Mainnet",
   "chain": "Rootstock",
-  "rpc": ["https://public-node.rsk.co", "https://mycrypto.rsk.co"],
+  "rpc": [
+    "https://public-node.rsk.co",
+    "https://mycrypto.rsk.co",
+    "https://rootstock.drpc.org",
+    "wss://rootstock.drpc.org"
+  ],
   "faucets": [],
   "icon": "rootstock",
   "nativeCurrency": {
