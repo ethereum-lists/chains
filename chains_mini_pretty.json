@@ -24114,6 +24114,19 @@
   "faucets": ["https://faucet.condor.systems"],
   "infoURL": "https://condor.systems"
 }, {
+  "name": "Altblockscan Mainnet",
+  "chainId": 191919,
+  "shortName": "altb",
+  "networkId": 191919,
+  "nativeCurrency": {
+    "name": "Altblockscan",
+    "symbol": "ALTB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.altblockscan.com"],
+  "faucets": [],
+  "infoURL": "https://altblockscan.com"
+}, {
   "name": "Mind Network Testnet",
   "chainId": 192940,
   "shortName": "fhet",

@@ -39830,6 +39830,27 @@
     "standard": "none"
   }]
 }, {
+  "name": "Altblockscan Mainnet",
+  "chain": "ALTB",
+  "rpc": ["https://rpc.altblockscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Altblockscan",
+    "symbol": "ALTB",
+    "decimals": 18
+  },
+  "infoURL": "https://altblockscan.com",
+  "shortName": "altb",
+  "chainId": 191919,
+  "networkId": 191919,
+  "icon": "altb",
+  "explorers": [{
+    "name": "altblockscan",
+    "url": "https://scan.altblockscan.com",
+    "icon": "altb",
+    "standard": "none"
+  }]
+}, {
   "name": "Mind Network Testnet",
   "chain": "FHET",
   "rpc": ["https://rpc-testnet.mindnetwork.xyz", "wss://rpc-testnet.mindnetwork.xyz"],
