@@ -1,0 +1,25 @@
+{
+  "name": "Reactive Mainnet",
+  "title": "Reactive Network",
+  "chain": "REACT",
+  "rpc": ["https://mainnet-rpc.rnk.dev"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "React",
+    "symbol": "REACT",
+    "decimals": 18
+  },
+  "infoURL": "https://reactive.network",
+  "shortName": "react",
+  "icon": "reactive",
+  "chainId": 1597,
+  "networkId": 1597,
+  "explorers": [
+    {
+      "name": "Reactscan",
+      "url": "https://reactscan.net",
+      "standard": "none"
+    }
+  ]
+}
