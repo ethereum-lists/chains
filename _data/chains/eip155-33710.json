@@ -1,0 +1,26 @@
+{
+  "name": "R5 Testnet",
+  "chain": "R5",
+  "icon": "r5",
+  "rpc": ["https://rpc-testnet.r5.network"],
+  "features": [{ "name": "EIP155" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Test R5",
+    "symbol": "TR5",
+    "decimals": 18
+  },
+  "infoURL": "https://r5.network",
+  "shortName": "r5test",
+  "chainId": 33710,
+  "networkId": 33710,
+  "slip44": 33710,
+  "explorers": [
+    {
+      "name": "R5 Testnet Explorer",
+      "url": "https://explorer.testnet.r5.network",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "incubating"
+}
