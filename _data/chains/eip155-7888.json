@@ -1,10 +1,7 @@
 {
   "name": "Omstead Testnet",
   "chain": "Omstead",
-  "rpc": [
-    "https://evm.omstead.io",
-    "wss://evm.omstead.io/ws"
-  ],
+  "rpc": ["https://evm.omstead.io", "wss://evm.omstead.io/ws"],
   "faucets": [],
   "nativeCurrency": {
     "name": "OM",
