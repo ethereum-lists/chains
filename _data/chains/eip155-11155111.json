@@ -1,11 +1,10 @@
 {
-  "name": "Sepolia",
+  "name": "Ethereum Sepolia",
   "title": "Ethereum Testnet Sepolia",
   "chain": "ETH",
   "rpc": [
     "https://rpc.sepolia.org",
     "https://rpc2.sepolia.org",
-    "https://rpc-sepolia.rockx.com",
     "https://rpc.sepolia.ethpandaops.io",
     "https://sepolia.infura.io/v3/${INFURA_API_KEY}",
     "wss://sepolia.infura.io/v3/${INFURA_API_KEY}",
@@ -15,7 +14,6 @@
     "wss://ethereum-sepolia-rpc.publicnode.com",
     "https://sepolia.drpc.org",
     "wss://sepolia.drpc.org",
-    "https://rpc-sepolia.rockx.com",
     "https://eth-sepolia.g.alchemy.com/v2/WddzdzI2o9S3COdT73d5w6AIogbKq4X-"
   ],
   "faucets": ["http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"],
