@@ -1,0 +1,36 @@
+{
+    "name": "Irys Alpha Testnet",
+    "chain": "IRYS",
+    "rpc": [
+        "https://testnet-rpc.irys.xyz/v1/execution-rpc"
+    ],
+    "faucets": [
+        "https://irys.xyz/faucet"
+    ],
+    "nativeCurrency": {
+        "name": "Irys",
+        "symbol": "IRYS",
+        "decimals": 18
+    },
+    "features": [
+        {
+            "name": "EIP155"
+        },
+        {
+            "name": "EIP1559"
+        }
+    ],
+    "infoURL": "https://irys.xyz",
+    "shortName": "irys-alpha-testnet",
+    "chainId": 1270,
+    "networkId": 1270,
+    "icon": "irys",
+    "explorers": [
+        {
+            "name": "Irys Alpha Testnet Explorer",
+            "url": "https://testnet-explorer.irys.xyz",
+            "icon": "irys",
+            "standard": "none"
+        }
+    ]
+}
