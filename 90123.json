@@ -1,0 +1,23 @@
+{
+  "name": "BAINT Testnet",
+  "chain": "BAINT",
+  "icon": "baint",
+  "rpc": ["https://rpc.baintlabs.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BAINT",
+    "symbol": "₿AINT",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/baintlabs/baintlabs-testnet",
+  "shortName": "baintt",
+  "chainId": 90123,
+  "networkId": 90123,
+  "explorers": [
+    {
+      "name": "BAINT Explorer",
+      "url": "https://explorer.baintlabs.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
