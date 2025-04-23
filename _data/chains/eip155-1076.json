@@ -1,9 +1,9 @@
 {
-  "name": "IOTA EVM Testnet Deprecated 1075",
-  "title": "IOTA EVM Testnet Deprecated 1075",
+  "name": "IOTA EVM Testnet",
+  "title": "IOTA EVM Testnet",
   "chain": "IOTA EVM",
   "icon": "iotaevm",
-  "rpc": ["https://json-rpc.evm.testnet.iotaledger.net"],
+  "rpc": ["https://json-rpc.evm.testnet.iota.cafe","wss://ws.json-rpc.evm.testnet.iota.cafe"],
   "faucets": ["https://evm-toolkit.evm.testnet.iotaledger.net"],
   "nativeCurrency": {
     "name": "IOTA",
@@ -11,15 +11,14 @@
     "decimals": 18
   },
   "infoURL": "https://www.iota.org",
-  "shortName": "iotaevm-testnet-deprecated-1075",
-  "chainId": 1075,
-  "networkId": 1075,
+  "shortName": "iotaevm-testnet",
+  "chainId": 1076,
+  "networkId": 1076,
   "explorers": [
     {
       "name": "explorer",
       "url": "https://explorer.evm.testnet.iotaledger.net",
       "standard": "EIP3091"
     }
-  ],
-  "status": "deprecated"
+  ]
 }
