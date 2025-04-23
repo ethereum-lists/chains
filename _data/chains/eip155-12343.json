@@ -1,0 +1,28 @@
+{
+  "name": "PGP Smart Chain",
+  "chain": "PGP",
+  "icon": "pgp",
+  "rpc": [
+    "https://rpc.pgprotocol.net",
+    "https://mainnet.rpc.pgprotocol.net"
+  ],
+  "faucets": [
+    "https://faucet.pgprotocol.net"
+  ],
+  "nativeCurrency": {
+    "name": "PGA Token",
+    "symbol": "PGA",
+    "decimals": 18
+  },
+  "infoURL": "https://pgprotocol.net",
+  "shortName": "pgp",
+  "chainId": 12343,
+  "networkId": 12343,
+  "explorers": [
+    {
+      "name": "PGPScan",
+      "url": "https://explorer.pgprotocol.net",
+      "standard": "EIP3091"
+    }
+  ]
+}
