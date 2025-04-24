@@ -1,0 +1,22 @@
+{
+    "name": "CogitusdemoNetwork",
+    "chain": "cogitusdemonetwork",
+    "rpc": ["https://rpc-cogitusdemonetwork.zeeve.net/SIp4Xce0n12yTrBPxA/ext/bc/h49dwEVWNSoUmpwtFtfBJVrtKN4Y6wFhAE2rXNZeWYoFRYQHJ/rpc"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "AVAX",
+      "symbol": "AT",
+      "decimals": 9
+    },
+    "infoURL": "https://cogitus.io/",
+    "shortName": "cogitus-demo-network",
+    "chainId": 98761,
+    "networkId": 98761,
+    "explorers": [
+      {
+        "name": "tracehawk",
+        "url": "https://explorer-cogitusdemonetwork.zeeve.net",
+        "standard": "none"
+      }
+    ]
+  }
