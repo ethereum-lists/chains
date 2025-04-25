@@ -1,8 +1,10 @@
 {
-  "name": "arena-z",
-  "title": "arena-z",
+  "name": "Arena-Z",
   "chain": "arena-z",
-  "rpc": ["https://rpc.arena-z.gg", "wss://ws.arena-z.gg"],
+  "rpc": [
+    "https://rpc.arena-z.gg",
+    "wss://ws.arena-z.gg"
+  ],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
@@ -14,11 +16,12 @@
   "chainId": 7897,
   "networkId": 7897,
   "slip44": 60,
-  "icon": "arena-z-mainnet",
+  "icon": "arena-z",
   "explorers": [
     {
       "name": "blockscout",
       "url": "https://explorer.arena-z.gg",
+      "icon": "arena-z",
       "standard": "EIP3091"
     }
   ],
@@ -27,7 +30,12 @@
     "chain": "eip155-1",
     "bridges": [
       {
+        "name": "Gelato",
         "url": "https://bridge.gelato.network/bridge/arena-z"
+      },
+      {
+        "name": "Relay",
+        "url": "https://www.relay.link/bridge/ethereum?fromChainId=7897"
       }
     ]
   }
