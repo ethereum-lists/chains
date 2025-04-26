@@ -1,0 +1,17 @@
+{
+  "name": "EsaCoins",
+  "chain": "EsaCoins",
+  "rpc": ["http://65.108.151.70:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EsaCoins",
+    "symbol": "ESC",
+    "decimals": 18
+  },
+  "infoURL": "https://esa.co.in",
+  "shortName": "ESC",
+  "chainId": 64879,
+  "networkId": 64879,
+  "icon": "EsaCoins",
+  "explorers": []
+}
