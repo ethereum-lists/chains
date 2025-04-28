@@ -1,0 +1,25 @@
+{
+    "name": "ZEO Testnet",
+    "chain": "ZEO Testnet",
+    "icon": "zeo",
+    "rpc": [
+      "https://rpc-zeo.cogitus.io/34KI4QNj4VJKuT12/ext/bc/26NrJarC42T24HAQVJikWn89jdh2yAjo5HMg5UPsAcxrxX8Cgg/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ZEO",
+      "symbol": "ZEO",
+      "decimals": 18
+    },
+    "infoURL": "https://zeoapp.com/",
+    "shortName": "zeo-Test-Chain",
+    "chainId": 519,
+    "networkId": 519,
+    "explorers": [
+      {
+        "name": "tracehawk",
+        "url": "https://explorer-zeo.cogitus.io",
+        "standard": "none"
+      }
+    ]
+    }
