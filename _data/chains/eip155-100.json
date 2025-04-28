@@ -17,7 +17,6 @@
     "wss://gnosis-rpc.publicnode.com"
   ],
   "faucets": [
-    "https://gnosisfaucet.com",
     "https://stakely.io/faucet/gnosis-chain-xdai",
     "https://faucet.prussia.dev/xdai"
   ],
@@ -41,12 +40,6 @@
       "name": "blockscout",
       "url": "https://gnosis.blockscout.com",
       "icon": "blockscout",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "dexguru",
-      "url": "https://gnosis.dex.guru",
-      "icon": "dexguru",
       "standard": "EIP3091"
     }
   ]
