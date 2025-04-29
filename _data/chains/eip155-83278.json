@@ -1,15 +1,15 @@
 {
-  "name": "Esa",
-  "chain": "Esa",
-  "rpc": ["http://65.108.151.70:8545"],
+  "name": "EsaCoins Testnet",
+  "chain": "ESC",
+  "rpc": ["https://testnet.esa.co.in"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Esa",
-    "symbol": "Esa",
+    "name": "EsaCoins",
+    "symbol": "ESC",
     "decimals": 18
   },
-  "infoURL": "https://esculap.us",
-  "shortName": "Esa",
+  "infoURL": "https://esa.co.in",
+  "shortName": "eacoins_testnet",
   "chainId": 83278,
   "networkId": 83278,
   "icon": "EsaCoins",
