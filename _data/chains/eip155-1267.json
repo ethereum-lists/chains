@@ -1,0 +1,30 @@
+{
+  "name": "XOS Testnet",
+  "chain": "XOS",
+  "icon": "xos",
+  "rpc": [
+    "https://testnet-rpc.x.ink",
+    "https://testnet-rpc.xoscan.io",
+    "wss://testnet-rpc.x.ink",
+    "wss://testnet-rpc.xoscan.io"
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "XOS Token",
+    "symbol": "XOS",
+    "decimals": 18
+  },
+  "infoURL": "https://x.ink",
+  "shortName": "xos-testnet",
+  "chainId": 1267,
+  "networkId": 1267,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "xoscan",
+      "url": "https://testnet.xoscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+} 
