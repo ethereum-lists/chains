@@ -21553,6 +21553,19 @@
   "faucets": [],
   "infoURL": "https://seamoon.dmm.com"
 }, {
+  "name": "Animechain Mainnet",
+  "chainId": 69000,
+  "shortName": "anime",
+  "networkId": 69000,
+  "nativeCurrency": {
+    "name": "Animecoin",
+    "symbol": "ANIME",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://www.anime.xyz"
+}, {
   "name": "Condrieu",
   "chainId": 69420,
   "shortName": "cndr",
