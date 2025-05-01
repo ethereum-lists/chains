@@ -1,0 +1,23 @@
+{
+  "name": "Vertex",
+  "chain": "NEAR",
+  "rpc": ["https://rpc-0x4e454173.aurora-cloud.dev"],
+  "icon": "vertex",
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Aurora",
+    "symbol": "AURORA",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "vertex",
+  "chainId": 1313161587,
+  "networkId": 1313161587,
+  "explorers": [
+    {
+      "name": "Vertex explorer",
+      "url": "https://explorer.0x4e454173.aurora-cloud.dev",
+      "standard": "EIP3091"
+    }
+  ]
+}

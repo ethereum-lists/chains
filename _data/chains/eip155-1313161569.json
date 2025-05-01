@@ -1,0 +1,23 @@
+{
+  "name": "Optima",
+  "chain": "NEAR",
+  "rpc": ["https://rpc-0x4e454161.aurora-cloud.dev"],
+  "icon": "optima",
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Optima",
+    "symbol": "OPTIMA",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "optima",
+  "chainId": 1313161569,
+  "networkId": 1313161569,
+  "explorers": [
+    {
+      "name": "Optima explorer",
+      "url": "https://explorer.optima.aurora.dev",
+      "standard": "EIP3091"
+    }
+  ]
+}
