@@ -1,0 +1,25 @@
+{
+  "name": "Boom Testnet",
+  "chain": "Boom Testent",
+  "icon": "boom",
+  "rpc": ["https://rpc-testnet.boomscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Boomcoin",
+    "symbol": "BMC",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://boom.market/",
+  "shortName": "boom-testnet",
+  "chainId": 6377,
+  "networkId": 6377,
+  "explorers": [
+    {
+      "name": "Boom Testnet Explorer",
+      "url": "https://staging.ajo.boomscan.io",
+      "icon": "boomExp",
+      "standard": "EIP3091"
+    }
+  ]
+}

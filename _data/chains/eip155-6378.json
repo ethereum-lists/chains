@@ -1,0 +1,25 @@
+{
+  "name": "Boom Mainnet",
+  "chain": "Boom Mainnet",
+  "icon": "boom",
+  "rpc": ["https://rpc.boomscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Boomcoin",
+    "symbol": "BMC",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://boom.market/",
+  "shortName": "boom",
+  "chainId": 6378,
+  "networkId": 6378,
+  "explorers": [
+    {
+      "name": "Boom Mainnet Explorer",
+      "url": "https://boomscan.io",
+      "icon": "boomExp",
+      "standard": "EIP3091"
+    }
+  ]
+}
