@@ -1,8 +1,8 @@
 {
-  "name": "Wonder Testnet",
+  "name": "Wonder",
   "chain": "WNDR",
-  "rpc": ["https://rpc.testnet.wonderchain.org"],
-  "faucets": ["https://wonderchain.org/faucet"],
+  "rpc": ["https://rpc.mainnet.wonderchain.org"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
@@ -10,13 +10,13 @@
   },
   "infoURL": "https://wonderchain.org",
   "shortName": "wndr",
-  "chainId": 96371,
-  "networkId": 96371,
+  "chainId": 9637,
+  "networkId": 9637,
   "icon": "wonder",
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://testnet-blockscout.wonderchain.org",
+      "url": "https://mainnet-blockscout.wonderchain.org",
       "standard": "EIP3091"
     },
     {
