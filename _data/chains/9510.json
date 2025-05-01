@@ -1,0 +1,24 @@
+{
+  "name": "Sirat Chain",
+  "chain": "SRT",
+  "rpc": [
+    "https://rpc.siratchain.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sirat",
+    "symbol": "SRT",
+    "decimals": 18
+  },
+  "infoURL": "https://siratchain.com",
+  "shortName": "sirat",
+  "chainId": 9510,
+  "networkId": 9510,
+  "explorers": [
+    {
+      "name": "SiratChain Explorer",
+      "url": "https://siratchain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
