@@ -1,0 +1,24 @@
+{
+  "name": "Safe(AnWang) Mainnet",
+  "chain": "Safe(AnWang)",
+  "icon": "safe-anwang",
+  "rpc": ["https://rpc.anwang.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SAFE(AnWang)",
+    "symbol": "SAFE",
+    "decimals": 18
+  },
+  "infoURL": "https://www.anwang.com",
+  "shortName": "SafeMainnet",
+  "chainId": 6666665,
+  "networkId": 6666665,
+  "explorers": [
+    {
+      "name": "Safe(AnWang) Explorer",
+      "url": "http://safe4.anwang.com",
+      "icon": "safe-anwang",
+      "standard": "EIP3091"
+    }
+  ]
+}

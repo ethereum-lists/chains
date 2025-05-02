@@ -1,0 +1,28 @@
+{
+  "name": "SX Toronto Rollup",
+  "chain": "SX",
+  "icon": "SX",
+  "rpc": ["https://rpc.sx-rollup-testnet.t.raas.gelato.cloud"],
+  "faucets": ["https://faucet.toronto.sx.technology"],
+  "nativeCurrency": {
+    "name": "SX Network",
+    "symbol": "SX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.sx.technology",
+  "shortName": "SXR-Testnet",
+  "chainId": 79479957,
+  "networkId": 79479957,
+  "explorers": [
+    {
+      "name": "SX Toronto L2 Explorer",
+      "url": "https://explorerl2.toronto.sx.technology",
+      "standard": "EIP3091",
+      "icon": "SX"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  }
+}

@@ -2,7 +2,7 @@
   "name": "Meld",
   "title": "Meld Mainnet",
   "chain": "MELD",
-  "rpc": ["https://network-rpc.meld.com"],
+  "rpc": ["https://rpc-1.meld.com"],
   "faucets": [],
   "features": [],
   "nativeCurrency": {
@@ -15,5 +15,18 @@
   "shortName": "meld",
   "chainId": 333000333,
   "networkId": 333000333,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "explorer",
+      "url": "https://meldscan.io",
+      "icon": "meld",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "explorer",
+      "url": "https://subnets.avax.network/meld",
+      "icon": "meld",
+      "standard": "EIP3091"
+    }
+  ]
 }

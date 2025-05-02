@@ -1,0 +1,28 @@
+{
+  "name": "KLAOS Nova",
+  "title": "KLAOS Nova Test Chain",
+  "chain": "KLAOS Nova",
+  "icon": "k-laos",
+  "rpc": [
+    "https://rpc.klaosnova.laosfoundation.io",
+    "wss://rpc.klaosnova.laosfoundation.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "KLAOS",
+    "symbol": "KLAOS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.laosfoundation.io/",
+  "shortName": "klaosnova",
+  "chainId": 27181,
+  "networkId": 27181,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockscout.klaosnova.laosfoundation.io",
+      "icon": "k-laos",
+      "standard": "EIP3091"
+    }
+  ]
+}

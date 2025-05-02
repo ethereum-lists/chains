@@ -1,0 +1,23 @@
+{
+  "name": "Omnia Chain",
+  "chain": "OMNIA",
+  "icon": "omnia",
+  "rpc": ["https://rpc.omniaverse.io"],
+  "faucets": ["https://www.omniaverse.io"],
+  "nativeCurrency": {
+    "name": "Omnia",
+    "symbol": "OMNIA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.omniaverse.io",
+  "shortName": "omnia",
+  "chainId": 2342,
+  "networkId": 2342,
+  "explorers": [
+    {
+      "name": "OmniaVerse Explorer",
+      "url": "https://scan.omniaverse.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Lumoz Testnet Alpha",
+  "chain": "ETH",
+  "rpc": [
+    "https://alpha-us-http-geth.lumoz.org",
+    "https://alpha-hk-http-geth.lumoz.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lumoz Test Token",
+    "symbol": "MOZ",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://lumoz.org",
+  "shortName": "Lumoz-Testnet",
+  "chainId": 51178,
+  "networkId": 51178,
+  "slip44": 1,
+  "icon": "opside-new",
+  "explorers": [
+    {
+      "name": "LumozTestnetInfo",
+      "url": "https://lumoz.info",
+      "icon": "opside-new",
+      "standard": "EIP3091"
+    }
+  ]
+}

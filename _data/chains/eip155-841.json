@@ -1,8 +1,8 @@
 {
   "name": "Taraxa Mainnet",
-  "chain": "Tara",
+  "chain": "TARA",
   "icon": "taraxa",
-  "rpc": ["https://rpc.mainnet.taraxa.io/"],
+  "rpc": ["https://rpc.mainnet.taraxa.io/", "https://ws.mainnet.taraxa.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Tara",
@@ -13,11 +13,19 @@
   "shortName": "tara",
   "chainId": 841,
   "networkId": 841,
+  "slip44": 726,
   "explorers": [
+    {
+      "name": "Tara.to Explorer",
+      "url": "https://tara.to",
+      "standard": "EIP3091",
+      "icon": "blockscout"
+    },
     {
       "name": "Taraxa Explorer",
       "url": "https://explorer.mainnet.taraxa.io",
-      "standard": "none"
+      "standard": "none",
+      "icon": "taraxa"
     }
   ]
 }

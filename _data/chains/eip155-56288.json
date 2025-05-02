@@ -3,9 +3,11 @@
   "chain": "Boba BNB Mainnet",
   "rpc": [
     "https://bnb.boba.network",
-    "wss://wss.bnb.boba.network",
+    "https://boba-bnb.gateway.tenderly.co/",
+    "https://gateway.tenderly.co/public/boba-bnb",
     "https://replica.bnb.boba.network",
-    "wss://replica-wss.bnb.boba.network"
+    "wss://boba-bnb.gateway.tenderly.co/",
+    "wss://gateway.tenderly.co/public/boba-bnb"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,8 +22,17 @@
   "explorers": [
     {
       "name": "Boba BNB block explorer",
-      "url": "https://blockexplorer.bnb.boba.network",
+      "url": "https://bobascan.com",
       "standard": "none"
     }
-  ]
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-56",
+    "bridges": [
+      {
+        "url": "https://gateway.boba.network"
+      }
+    ]
+  }
 }

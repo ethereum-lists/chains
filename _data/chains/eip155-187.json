@@ -1,0 +1,23 @@
+{
+  "name": "Dojima",
+  "chain": "Dojima",
+  "rpc": ["https://rpc-d11k.dojima.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dojima",
+    "symbol": "DOJ",
+    "decimals": 18
+  },
+  "icon": "dojima",
+  "infoURL": "https://www.dojima.network/",
+  "shortName": "dojima",
+  "chainId": 187,
+  "networkId": 187,
+  "explorers": [
+    {
+      "name": "Dojima Explorer",
+      "url": "https://explorer.dojima.network",
+      "standard": "none"
+    }
+  ]
+}

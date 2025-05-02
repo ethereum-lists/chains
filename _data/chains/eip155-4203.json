@@ -1,0 +1,25 @@
+{
+  "name": "Merlin Erigon Testnet",
+  "title": "Merlin Erigon Testnet",
+  "chain": "Merlin",
+  "rpc": ["https://testnet-erigon-rpc.merlinchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://merlinchain.io",
+  "shortName": "Merlin-Testnet",
+  "chainId": 4203,
+  "networkId": 4203,
+  "icon": "merlin",
+  "explorers": [
+    {
+      "name": "L2scan",
+      "url": "https://testnet-erigon-scan.merlinchain.io",
+      "icon": "merlin",
+      "standard": "EIP3091"
+    }
+  ]
+}

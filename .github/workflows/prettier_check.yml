@@ -1,0 +1,22 @@
+name: Run prettier check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4.2.2
+      - uses: actions/cache@v4
+        name: Configure npm caching
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/workflows/prettier.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+      - name: Run prettier
+        run: |-
+          npx prettier --check '_data/*/*.json'

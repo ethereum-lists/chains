@@ -5,7 +5,11 @@
   "rpc": [
     "https://goerli.infura.io/v3/${INFURA_API_KEY}",
     "wss://goerli.infura.io/v3/${INFURA_API_KEY}",
-    "https://rpc.goerli.mudit.blog/"
+    "https://rpc.goerli.mudit.blog/",
+    "https://ethereum-goerli-rpc.publicnode.com",
+    "wss://ethereum-goerli-rpc.publicnode.com",
+    "https://goerli.gateway.tenderly.co",
+    "wss://goerli.gateway.tenderly.co"
   ],
   "faucets": [
     "http://fauceth.komputing.org?chain=5&address=${ADDRESS}",
@@ -21,6 +25,7 @@
   "shortName": "gor",
   "chainId": 5,
   "networkId": 5,
+  "slip44": 1,
   "ens": {
     "registry": "0x112234455c3a32fd11230c42e7bccd4a84e02010"
   },
@@ -28,6 +33,12 @@
     {
       "name": "etherscan-goerli",
       "url": "https://goerli.etherscan.io",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "blockscout-goerli",
+      "url": "https://eth-goerli.blockscout.com",
+      "icon": "blockscout",
       "standard": "EIP3091"
     }
   ]

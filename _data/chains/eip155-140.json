@@ -1,0 +1,20 @@
+{
+  "name": "Eternal Mainnet",
+  "chain": "ETE",
+  "icon": "eternal",
+  "rpc": [
+    "https://mainnet.eternalcoin.io/v1",
+    "ws://mainnet.eternalcoin.io/v1/ws"
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Eternal",
+    "symbol": "ETE",
+    "decimals": 18
+  },
+  "infoURL": "https://eternalcoin.io",
+  "shortName": "ETE",
+  "chainId": 140,
+  "networkId": 140
+}

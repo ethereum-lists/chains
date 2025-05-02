@@ -1,0 +1,17 @@
+{
+  "name": "World Chain Sepolia Testnet Deprecated",
+  "status": "deprecated",
+  "chain": "ETH",
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://worldcoin.org/",
+  "shortName": "wcsep-dep",
+  "rpc": [],
+  "faucets": [],
+  "chainId": 484752,
+  "networkId": 484752,
+  "slip44": 1
+}

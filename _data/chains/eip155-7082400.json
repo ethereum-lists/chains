@@ -1,0 +1,29 @@
+{
+  "name": "COTI Testnet",
+  "title": "COTI Testnet",
+  "chain": "COTI",
+  "icon": "coti",
+  "rpc": [
+    "https://testnet.coti.io/rpc",
+    "https://testnet-magnus-validator.coti.io/rpc",
+    "https://testnet-minor-validator.coti.io/rpc"
+  ],
+  "faucets": ["https://faucet.coti.io"],
+  "nativeCurrency": {
+    "name": "COTI",
+    "symbol": "COTI",
+    "decimals": 18
+  },
+  "infoURL": "https://coti.io/",
+  "shortName": "coti-testnet",
+  "chainId": 7082400,
+  "networkId": 7082400,
+  "explorers": [
+    {
+      "name": "COTI Testnet Explorer",
+      "url": "https://testnet.cotiscan.io",
+      "icon": "ethernal",
+      "standard": "EIP3091"
+    }
+  ]
+}

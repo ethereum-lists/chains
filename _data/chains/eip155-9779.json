@@ -1,0 +1,24 @@
+{
+  "name": "PepeNetwork Mainnet",
+  "chain": "PepeNetwork",
+  "rpc": ["https://rpc-mainnet.pepenetwork.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Pepe",
+    "symbol": "WPEPE",
+    "decimals": 18
+  },
+  "infoURL": "https://pepenetwork.io",
+  "shortName": "pn",
+  "chainId": 9779,
+  "networkId": 9779,
+  "icon": "pepenetwork",
+  "explorers": [
+    {
+      "name": "Pepe Explorer",
+      "url": "https://explorer.pepenetwork.io",
+      "icon": "pepenetwork",
+      "standard": "none"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Blast Mainnet",
+  "chain": "ETH",
+  "icon": "blastIcon",
+  "rpc": ["https://rpc.blastblockchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.blastblockchain.com",
+  "shortName": "blast",
+  "chainId": 238,
+  "networkId": 238,
+  "explorers": [
+    {
+      "name": "Blast Mainnet",
+      "url": "https://scan.blastblockchain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

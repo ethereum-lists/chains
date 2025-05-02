@@ -1,7 +1,13 @@
 {
   "name": "Fantom Testnet",
   "chain": "FTM",
-  "rpc": ["https://rpc.testnet.fantom.network"],
+  "rpc": [
+    "https://rpc.testnet.fantom.network",
+    "https://fantom-testnet-rpc.publicnode.com",
+    "wss://fantom-testnet-rpc.publicnode.com",
+    "https://fantom-testnet.drpc.org",
+    "wss://fantom-testnet.drpc.org"
+  ],
   "faucets": ["https://faucet.fantom.network"],
   "nativeCurrency": {
     "name": "Fantom",
@@ -13,6 +19,7 @@
   "shortName": "tftm",
   "chainId": 4002,
   "networkId": 4002,
+  "slip44": 1,
   "icon": "fantom",
   "explorers": [
     {

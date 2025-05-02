@@ -1,0 +1,24 @@
+{
+  "name": "Antofy Testnet",
+  "chain": "ABN",
+  "icon": "antofy",
+  "rpc": ["https://testnet-rpc.antofy.io"],
+  "faucets": ["https://faucet.antofy.io"],
+  "nativeCurrency": {
+    "name": "Antofy",
+    "symbol": "ABN",
+    "decimals": 18
+  },
+  "infoURL": "https://antofy.io",
+  "shortName": "ABNt",
+  "chainId": 23006,
+  "networkId": 23006,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Antofy Testnet",
+      "url": "https://test.antofyscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

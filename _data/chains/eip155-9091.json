@@ -1,0 +1,27 @@
+{
+  "name": "KPA Smart Chain Testnet",
+  "chain": "KSC",
+  "rpc": [
+    "https://tkpa-rpc1.kpachain.com/",
+    "https://tkpa-rpc2.kpachain.com/",
+    "https://tkpa-rpc3.kpachain.com/",
+    "https://tkpa-rpc4.kpachain.com/",
+    "https://testnet-rpc1.kpascan.com/",
+    "https://testnet-rpc2.kpascan.com/",
+    "https://testnet-rpc3.kpascan.com/",
+    "https://testnet-rpc4.kpascan.com/"
+  ],
+  "faucets": ["https://mint.kpachain.com"],
+  "nativeCurrency": {
+    "name": "KPA Smart Chain Testnet",
+    "symbol": "tKPA",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://kpachain.com",
+  "shortName": "KPA",
+  "chainId": 9091,
+  "networkId": 9091,
+  "icon": "koppa",
+  "explorers": []
+}
