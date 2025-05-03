@@ -1,0 +1,25 @@
+{
+    "name": "ZEO Mainnet",
+    "chain": "ZEO Mainnet",
+    "icon": "zeo",
+    "rpc": [
+      "https://rpc-zeo-mainnet.cogitus.io/ext/bc/2D8KYBxSEyVhM6Yztj1HBr7423xXNoCD4mNmppeco7SQccSjgf/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ZEO",
+      "symbol": "ZEO",
+      "decimals": 18
+    },
+    "infoURL": "https://zeoapp.com/",
+    "shortName": "zeo-Main-Chain",
+    "chainId": 559,
+    "networkId": 559,
+    "explorers": [
+      {
+        "name": "tracehawk",
+        "url": "https://explorer-zeo-mainnet.cogitus.io",
+        "standard": "none"
+      }
+    ]
+    }
