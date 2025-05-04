@@ -1,0 +1,25 @@
+{
+    "name": "CodeNekt Mainnet",
+    "chain": "CodeNekt Mainnet",
+    "icon": "codenekt",
+    "rpc": [
+      "https://rpc-codenekt-mainnet.cogitus.io/ext/bc/ZG7cT4B1u3y7piZ9CzfejnTKnNAoehcifbJWUwBqgyD3RuEqK/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "CDK",
+      "symbol": "CDK",
+      "decimals": 18
+    },
+    "infoURL": "https://codenekt-ecosystem.io",
+    "shortName": "codenekt-Main-Chain",
+    "chainId": 235235,
+    "networkId": 235235,
+    "explorers": [
+      {
+        "name": "tracehawk",
+        "url": "https://explorer-codenekt-mainnet.cogitus.io",
+        "standard": "none"
+      }
+    ]
+    }
