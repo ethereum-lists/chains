@@ -2,7 +2,6 @@
   "name": "Cuckoo Sepolia",
   "title": "Cuckoo AI Testnet Sepolia",
   "chain": "CuckooAI",
-  "icon": "cuckoo-ai",
   "rpc": [
     "https://testnet-rpc.cuckoo.network",
     "wss://testnet-rpc.cuckoo.network"
@@ -17,11 +16,5 @@
   "shortName": "caisepolia",
   "chainId": 1210,
   "networkId": 1210,
-  "explorers": [
-    {
-      "name": "Cuckoo Sepolia Explorer",
-      "url": "https://testnet-scan.cuckoo.network",
-      "standard": "EIP3091"
-    }
-  ]
+  "explorers": []
 }

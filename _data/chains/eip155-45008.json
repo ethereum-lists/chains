@@ -1,0 +1,25 @@
+{
+  "name": "Juneo GLD1-Chain",
+  "chain": "Juneo GLD1-Chain",
+  "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/GLD1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GLD1",
+    "symbol": "GLD1",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://juneo.com/",
+  "shortName": "GLD1",
+  "chainId": 45008,
+  "networkId": 45008,
+  "icon": "juneo-gld1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://juneoscan.io/chain/8",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}
