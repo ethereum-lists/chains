@@ -2,10 +2,7 @@
   "name": "Plume Testnet",
   "title": "Plume Sepolia L2 Rollup Testnet",
   "chain": "PLUME Testnet",
-  "rpc": [
-    "https://testnet-rpc.plume.org",
-    "wss://testnet-rpc.plume.org"
-  ],
+  "rpc": ["https://testnet-rpc.plume.org", "wss://testnet-rpc.plume.org"],
   "faucets": ["https://faucet.plume.org"],
   "nativeCurrency": {
     "name": "Plume",

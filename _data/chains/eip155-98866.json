@@ -2,10 +2,7 @@
   "name": "Plume Mainnet",
   "title": "Plume Ethereum L2 Rollup Mainnet",
   "chain": "PLUME",
-  "rpc": [
-    "https://rpc.plume.org",
-    "wss://rpc.plume.org"
-  ],
+  "rpc": ["https://rpc.plume.org", "wss://rpc.plume.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Plume",
