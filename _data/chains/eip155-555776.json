@@ -1,0 +1,25 @@
+{
+  "name": "Xsolla ZK Sepolia Staging Testnet",
+  "chain": "Xsolla ZK Sepolia Staging",
+  "rpc": ["https://zkrpc-sepolia-staging.xsollazk.com"],
+  "faucets": ["https://xsollazk.com/faucet"],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://xsolla.com/zk",
+  "shortName": "xsollazk-sepolia-staging",
+  "chainId": 555776,
+  "networkId": 555776,
+  "slip44": 1,
+  "icon": "xsollazk",
+  "explorers": [
+    {
+      "name": "Xsolla ZK Sepolia Block Explorer",
+      "url": "https://x.la/explorer",
+      "icon": "xsollazk",
+      "standard": "EIP3091"
+    }
+  ]
+}
