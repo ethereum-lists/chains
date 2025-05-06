@@ -1,0 +1,28 @@
+{
+  "name": "Inclusive layer Testnet",
+  "title": "Inclusive layer Testnet",
+  "chain": "Inclusive layer Testnet",
+  "rpc": [
+    "https://rpc.inclusive-layer-test.t.raas.gelato.cloud",
+    "wss://ws.inclusive-layer-test.t.raas.gelato.cloud"
+  ],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "icon": "inclusive-layer-testnet",
+  "infoURL": "https://raas.gelato.network/rollups/details/public/inclusive-layer-test",
+  "faucets": ["https://faucet.inclusive-layer-test.t.raas.gelato.cloud"],
+  "shortName": "inclusive-layer-testnet",
+  "chainId": 18083,
+  "networkId": 18083,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://inclusive-layer-test.cloud.blockscout.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
