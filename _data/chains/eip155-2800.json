@@ -1,0 +1,24 @@
+{
+  "name": "LayerAI Mainnet",
+  "chain": "LAI",
+  "rpc": ["https://rpc.layerai.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://layerai.org",
+  "shortName": "lai",
+  "chainId": 2800,
+  "networkId": 2800,
+  "icon": "layerai",
+  "explorers": [
+    {
+      "name": "LayerAI Explorer",
+      "url": "https://explorer.layerai.org",
+      "icon": "layerai",
+      "standard": "EIP3091"
+    }
+  ]
+}
