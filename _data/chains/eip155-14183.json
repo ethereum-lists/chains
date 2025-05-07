@@ -12,7 +12,7 @@
     "decimals": 18
   },
   "features": [{ "name": "EIP155" }],
-  "infoURL": "",
+  "infoURL": "https://lachain.network/",
   "shortName": "test-lachain-zk",
   "chainId": 14183,
   "networkId": 14183,
@@ -22,5 +22,10 @@
       "url": "https://explorer.zk.lachain.network/?network=TestLaChainZK",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.zk.lachain.network/bridge?network=testlachainzk" }]
+  }
 }
