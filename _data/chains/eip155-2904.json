@@ -2,9 +2,7 @@
   "name": "LaChainZK",
   "chain": "LaChainZK",
   "icon": "lachain-network",
-  "rpc": [
-    "https://rpc1.zk.mainnet.lachain.network"
-  ],
+  "rpc": ["https://rpc1.zk.mainnet.lachain.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "LaCoin",
@@ -25,6 +23,8 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.zk.lachain.network/bridge?network=lachainzk" }]
+    "bridges": [
+      { "url": "https://bridge.zk.lachain.network/bridge?network=lachainzk" }
+    ]
   }
 }
