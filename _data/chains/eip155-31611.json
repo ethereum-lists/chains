@@ -1,8 +1,8 @@
 {
-  "name": "Mezo Matsnet Testnet",
+  "name": "Mezo Testnet",
   "chain": "Mezo",
   "rpc": ["https://rpc.test.mezo.org"],
-  "faucets": ["https://mezo.org/matsnet"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin",
     "symbol": "BTC",
