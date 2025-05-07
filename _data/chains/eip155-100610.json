@@ -5,8 +5,8 @@
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Monsoon",
-    "symbol": "MSN",
+    "name": "RDP",
+    "symbol": "RDP",
     "decimals": 18
   },
   "infoURL": "",
@@ -17,14 +17,9 @@
   "explorers": [
     {
       "name": "Monsoon Scan",
-      "url": "https://testnet.explorer.monsoon.one",
+      "url": "https://scout.testnet.monsoon.rainfall.one",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ],
-  "parent": {
-    "type": "L2",
-    "chain": "eip155-1",
-    "bridges": [{ "url": "" }]
-  }
+  ]
 }
