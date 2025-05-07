@@ -2,9 +2,7 @@
   "name": "TestLaChainZK",
   "chain": "TestLaChainZK",
   "icon": "lachain-network",
-  "rpc": [
-    "https://rpc1-testnet-zk.lachain.network/api"
-  ],
+  "rpc": ["https://rpc1-testnet-zk.lachain.network/api"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Test LaCoin",
@@ -26,6 +24,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.zk.lachain.network/bridge?network=testlachainzk" }]
+    "bridges": [
+      {
+        "url": "https://bridge.zk.lachain.network/bridge?network=testlachainzk"
+      }
+    ]
   }
 }
