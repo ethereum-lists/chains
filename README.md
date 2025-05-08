@@ -1,8 +1,12 @@
-# EVM-based Chains
+# Chains Repository
 
-The source data is in _data/chains. Each chain has its own file with the filename being the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) representation as name and `.json` as extension.
+This repository contains data and configurations related to EVM-based chains. Each chain is represented using a JSON file conforming to the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) standard.
 
-## Example
+## Project Structure
+
+The data is stored in the `_data/chains` directory. Each chain's configuration is stored in a separate JSON file using its CAIP-2 representation as the filename.
+
+### Example JSON Configuration
 
 ```json
 {
@@ -33,10 +37,13 @@ The source data is in _data/chains. Each chain has its own file with the filenam
 }
 ```
 
-when an icon is used in either the network or an explorer there must be a json in _data/icons with the name used (e.g. in the above example there must be a `ethereum.json` and a `etherscan.json` in there) - the icon jsons look like this:
+## Icon Requirements
+
+Icons used in the configuration files must meet the following criteria:
+- The `icon` field references a JSON file in the `_data/icons` directory.
+- Example icon JSON:
 
 ```json
-
 [
     {
       "url": "ipfs://QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt",
@@ -45,102 +52,54 @@ when an icon is used in either the network or an explorer there must be a json i
       "format": "png"
     }
 ]
-
 ```
 
-where:
- * the URL must be an IPFS url that is publicly resolvable
- * width and height are positive integers
- * format is either "png", "jpg" or "svg"
+### Constraints for Icons
+- **URL**: Must be a publicly resolvable IPFS URL.
+- **Dimensions**: Specify positive integers for width and height.
+- **Format**: Must be `png`, `jpg`, or `svg`.
 
-If the chain is an L2 or a shard of another chain you can link it to the parent chain like this:
+## Linking to Parent Chains
 
+For chains that are L2s or shards, the `parent` field can be used to link to the parent chain.
 
 ```json
-{
-  ...
-  "parent": {
+"parent": {
    "type" : "L2",
    "chain": "eip155-1",
    "bridges": [ {"url":"https://bridge.arbitrum.io"} ]
-  }
 }
 ```
 
-where you need to specify type 2 and the reference to an existing parent. The field about bridges is optional.
+## Deprecation and Status
 
-You can add a `status` field e.g. to deprecate (via status `deprecated`) a chain (a chain should never be deleted as this would open the door to replay attacks)
-Other options for `status` are `active` (default) or `incubating`
+Chains should not be deleted to avoid replay attacks. Use the `status` field to indicate the chain's state:
+- `active` (default)
+- `deprecated`
+- `incubating`
 
-## Aggregation
+## Aggregated JSON Files
 
-There are also aggregated json files with all chains automatically assembled:
- * https://chainid.network/chains.json
- * https://chainid.network/chains_mini.json (miniaturized - fewer fields for smaller filesize)
+Aggregated data for all chains is available:
+- [Full JSON](https://chainid.network/chains.json)
+- [Mini JSON](https://chainid.network/chains_mini.json)
 
 ## Constraints
 
- * the shortName and name MUST be unique - see e.g. EIP-3770 on why
- * if referencing a parent chain - the chain MUST exist in the repo
- * if using a IPFS CID for the icon - the CID MUST be retrievable via `ipfs get` - not only through some gateway (means please do not use pinata for now)
- * for more constraints you can look into the CI
+- **Unique Identifiers**: The `shortName` and `name` fields must be unique as per [EIP-3770](https://eips.ethereum.org/EIPS/eip-3770).
+- **Parent Chains**: If referencing a parent chain, it must already exist in the repository.
 
-## Collision management
+## Contribution Guidelines
 
- We cannot allow more than one chain with the same chainID - this would open the door to replay attacks.
- The first pull request gets the chainID assigned. When creating a chain we can expect that you read EIP155 which states this repo.
- All pull requests trying to replace a chainID because they think their chain is better than the other will be closed.
- The only way to get a chain reassigned is when the old chain gets deprecated. This can e.g. be used for testnets that are short-lived. But then you will get the redFlag "reusedChaiID" that should be displayed in clients to warn them about the dangers here.
+1. Fork the repository and create a new branch.
+2. Add or update chain configurations following the JSON format.
+3. Ensure that all required fields are included and valid.
+4. Submit a pull request for review.
 
-## PR verification
+## License
 
-Before submitting a PR, please verify that checks pass with:
+This project is licensed under the MIT License.
 
-```bash
-$ ./gradlew run
+## Contact
 
-BUILD SUCCESSFUL in 7s
-9 actionable tasks: 9 executed
-```
-
-## Usages
-### Wallets
- * [WallETH](https://walleth.org)
- * [TREZOR](https://trezor.io)
- * [Minerva Wallet](https://minerva.digital)
-
-### Explorers
- * [Otterscan](https://otterscan.io)
-
-### EIPs
- * EIP-155
- * EIP-3014
- * EIP-3770
- * EIP-4527
-
-### Listing sites
- * [chainid.network](https://chainid.network) / [chainlist.wtf](https://chainlist.wtf)
- * [chainlist.org](https://chainlist.org)
- * [networks.vercel.app](https://networks.vercel.app)
- * [eth-chains](https://github.com/taylorjdawson/eth-chains)
- * [EVM-BOX](https://github.com/izayl/evm-box)
- * [chaindirectory.xyz](https://www.chaindirectory.xyz)
- * [chain-list.org](https://chain-list.org)
- * [chainlist.network](https://chainlist.network/)
- * [evmchainlist.org](https://evmchainlist.org)
- * [evmchainlist.com](https://evmchainlist.com)
- * [thechainlist.io](https://thechainlist.io)
- * [chainlist.info](https://chainlist.info)
- * [chainmap.io](https://chainmap.io)
- * [chainlist.in](https://www.chainlist.in)
- * [chainz.me](https://chainz.me)
- * [Chainlink docs](https://docs.chain.link/)
- * [Wagmi compatible chain configurations](https://spenhouet.com/chains)
- * [evmchain.info](https://evmchain.info)
-
-### Other
- * [FaucETH](https://github.com/komputing/FaucETH)
- * [Sourcify playground](https://playground.sourcify.dev)
-
-
- * Your project - contact us to add it here!
+For any questions or support, please reach out via the repository's [Issues](https://github.com/nodoubtz/chains/issues) section.
