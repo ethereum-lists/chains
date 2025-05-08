@@ -1,0 +1,35 @@
+{
+  "name": "Plume Testnet",
+  "title": "Plume Sepolia L2 Rollup Testnet",
+  "chain": "PLUME Testnet",
+  "rpc": [
+    "https://testnet-rpc.plumenetwork.xyz",
+    "wss://testnet-rpc.plumenetwork.xyz"
+  ],
+  "faucets": ["https://faucet.plumenetwork.xyz"],
+  "nativeCurrency": {
+    "name": "Plume",
+    "symbol": "PLUME",
+    "decimals": 18
+  },
+  "infoURL": "https://plumenetwork.xyz/",
+  "shortName": "plume-testnet",
+  "chainId": 98867,
+  "networkId": 98867,
+  "slip44": 1,
+  "icon": "plume",
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://testnet-explorer.plumenetwork.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "https://testnet-bridge.plumenetwork.xyz" }]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Skynet",
+  "chain": "Skynet",
+  "rpc": ["http://rpc.skynet.io"],
+  "nativeCurrency": {
+    "name": "SkyUSD",
+    "symbol": "sUSD",
+    "decimals": 18
+  },
+  "infoURL": "http://explorer.skynet.io",
+  "shortName": "Skynet",
+  "chainId": 619,
+  "networkId": 619,
+  "explorers": [
+    {
+      "name": "tracehawk",
+      "url": "http://explorer.skynet.io",
+      "standard": "none"
+    }
+  ],
+  "faucets": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161",
+    "bridges": [
+      {
+        "url": "http://bridge.skynet.io"
+      }
+    ]
+  }
+}
