@@ -1,0 +1,21 @@
+{
+  "name": "TAC SPB",
+  "title": "TAC Saint Petersburg",
+  "chain": "TAC",
+  "icon": "tactestnet",
+  "rpc": [
+    "https://spb.rpc.tac.build"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TAC",
+    "symbol": "TAC",
+    "decimals": 18
+  },
+  "infoURL": "https://tac.build/",
+  "shortName": "tac_2391",
+  "chainId": 2391,
+  "networkId": 2391,
+  "slip44": 1,
+  "explorers": []
+}
