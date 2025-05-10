@@ -6299,6 +6299,7 @@
   "networkId": 369,
   "infoURL": "https://pulsechain.com/",
   "rpc": ["https://rpc.pulsechain.com", "wss://rpc.pulsechain.com", "https://pulsechain-rpc.publicnode.com", "wss://pulsechain-rpc.publicnode.com", "https://rpc-pulsechain.g4mm4.io", "wss://rpc-pulsechain.g4mm4.io"],
+  "icon": "pulsechain",
   "slip44": 60,
   "features": [{
     "name": "EIP155"
@@ -6316,9 +6317,9 @@
     "decimals": 18
   },
   "explorers": [{
-    "name": "blockscout",
-    "url": "https://scan.pulsechain.com",
-    "icon": "blockscout",
+    "name": "pulsechain",
+    "url": "https://ipfs.scan.pulsechain.com",
+    "icon": "pulsechain",
     "standard": "EIP3091"
   }, {
     "name": "otterscan",
