@@ -7437,7 +7437,7 @@
 }, {
   "name": "Swisstronik Testnet",
   "chainId": 1291,
-  "shortName": "swtr",
+  "shortName": "swtr-testnet",
   "networkId": 1291,
   "nativeCurrency": {
     "name": "Swisstronik",
@@ -8617,6 +8617,19 @@
   "rpc": ["https://rpc.verify-testnet.gelato.digital", "wss://ws.verify-testnet.gelato.digital"],
   "faucets": [],
   "infoURL": "https://raas.gelato.network/rollups/details/public/verify-testnet"
+}, {
+  "name": "Swisstronik Mainnet",
+  "chainId": 1848,
+  "shortName": "swtr",
+  "networkId": 1848,
+  "nativeCurrency": {
+    "name": "Swisstronik",
+    "symbol": "SWTR",
+    "decimals": 18
+  },
+  "rpc": ["https://json-rpc.mainnet.swisstronik.com/unencrypted/", "https://json-rpc.mainnet.swisstronik.com", "wss://ws-rpc.mainnet.swisstronik.com"],
+  "faucets": [],
+  "infoURL": "https://www.swisstronik.com"
 }, {
   "name": "HighOctane Subnet",
   "chainId": 1853,

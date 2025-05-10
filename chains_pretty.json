@@ -12140,7 +12140,7 @@
   "networkId": 1288
 }, {
   "name": "Swisstronik Testnet",
-  "chain": "SWTR",
+  "chain": "SWTR Testnet",
   "rpc": ["https://json-rpc.testnet.swisstronik.com"],
   "faucets": ["https://faucet.testnet.swisstronik.com"],
   "nativeCurrency": {
@@ -12154,7 +12154,7 @@
     "name": "EIP1559"
   }],
   "infoURL": "https://www.swisstronik.com",
-  "shortName": "swtr",
+  "shortName": "swtr-testnet",
   "chainId": 1291,
   "networkId": 1291,
   "slip44": 1,
@@ -14095,6 +14095,37 @@
       "url": "https://bridge.gelato.network/bridge/verify-testnet"
     }]
   }
+}, {
+  "name": "Swisstronik Mainnet",
+  "chain": "SWTR",
+  "rpc": ["https://json-rpc.mainnet.swisstronik.com/unencrypted/", "https://json-rpc.mainnet.swisstronik.com", "wss://ws-rpc.mainnet.swisstronik.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Swisstronik",
+    "symbol": "SWTR",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://www.swisstronik.com",
+  "shortName": "swtr",
+  "chainId": 1848,
+  "networkId": 1848,
+  "slip44": 1,
+  "icon": "swisstronik",
+  "explorers": [{
+    "name": "Swisstronik EVM Explorer",
+    "url": "https://explorer-evm.mainnet.swisstronik.com",
+    "standard": "EIP3091",
+    "icon": "ethernal"
+  }, {
+    "name": "Swisstronik Cosmos Explorer",
+    "url": "https://explorer-cosmos.mainnet.swisstronik.com/swisstronik",
+    "standard": "none"
+  }]
 }, {
   "name": "HighOctane Subnet",
   "chain": "HighOctane Subnet",
