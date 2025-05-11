@@ -1,0 +1,21 @@
+{
+  "name": "SafuChain Mainnet",
+  "chain": "K3K",
+  "rpc": ["https://rpc.safuchain.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Safu K3K",
+    "symbol": "K3K",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://safuchain.org",
+  "shortName": "k3k",
+  "chainId": 369420,
+  "networkId": 369420,
+  "explorers": [{
+    "name": "safuscan",
+    "url": "https://scan.safuchain.org",
+    "standard": "EIP3091"
+  }]
+}
