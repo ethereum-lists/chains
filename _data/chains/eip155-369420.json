@@ -13,9 +13,11 @@
   "shortName": "k3k",
   "chainId": 369420,
   "networkId": 369420,
-  "explorers": [{
-    "name": "safuscan",
-    "url": "https://scan.safuchain.org",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "safuscan",
+      "url": "https://scan.safuchain.org",
+      "standard": "EIP3091"
+    }
+  ]
 }
