@@ -4798,6 +4798,31 @@
     "standard": "none"
   }]
 }, {
+  "name": "ChooChain",
+  "title": "ChooChain Mainnet",
+  "chain": "CHOO",
+  "rpc": ["https://rpc.choochain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ChooChain Token",
+    "symbol": "CHOO",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://github.com/Trinketz/ChooChain",
+  "shortName": "choo",
+  "chainId": 247,
+  "networkId": 247,
+  "explorers": [{
+    "name": "ChooChain Explorer",
+    "url": "https://blocks.choochain.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Oasys Mainnet",
   "chain": "Oasys",
   "icon": "oasys",

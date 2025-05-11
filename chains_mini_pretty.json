@@ -3015,6 +3015,19 @@
   "faucets": [],
   "infoURL": "https://energyweb.org"
 }, {
+  "name": "ChooChain",
+  "chainId": 247,
+  "shortName": "choo",
+  "networkId": 247,
+  "nativeCurrency": {
+    "name": "ChooChain Token",
+    "symbol": "CHOO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.choochain.io"],
+  "faucets": [],
+  "infoURL": "https://github.com/Trinketz/ChooChain"
+}, {
   "name": "Oasys Mainnet",
   "chainId": 248,
   "shortName": "OAS",
