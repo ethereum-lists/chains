@@ -27005,8 +27005,14 @@
 }, {
   "name": "Tea Sepolia Testnet",
   "chain": "ETH",
-  "rpc": [],
-  "faucets": [],
+  "rpc": ["https://tea-sepolia.g.alchemy.com/public"],
+  "faucets": ["https://faucet-sepolia.tea.xyz"],
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://sepolia.tea.xyz",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }],
   "nativeCurrency": {
     "name": "Sepolia Tea",
     "symbol": "TEA",
@@ -27020,7 +27026,7 @@
     "type": "L2",
     "chain": "eip155-11155111"
   },
-  "status": "incubating"
+  "status": "active"
 }, {
   "name": "GLScan",
   "chain": "GLC",

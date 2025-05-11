@@ -16492,8 +16492,8 @@
     "symbol": "TEA",
     "decimals": 18
   },
-  "rpc": [],
-  "faucets": [],
+  "rpc": ["https://tea-sepolia.g.alchemy.com/public"],
+  "faucets": ["https://faucet-sepolia.tea.xyz"],
   "infoURL": "https://tea.xyz"
 }, {
   "name": "GLScan",
