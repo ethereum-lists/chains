@@ -1,0 +1,22 @@
+{
+    "name": "TrexTestnetNetwork",
+    "chain": "TrexTestnet",
+    "rpc": ["https://testnetrpc.trex.xyz"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://testnetrpc.trex.xyz",
+    "shortName": "trex-testnet-network",
+    "chainId": 1962,
+    "networkId": 1962,
+    "explorers": [
+      {
+        "name": "TrexTestnetExplorer",
+        "url": "https://testnetexplorer.trex.xyz",
+        "standard": "none"
+      }
+    ]
+}
