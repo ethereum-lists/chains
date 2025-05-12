@@ -1,0 +1,26 @@
+{
+  "name": "R5 Devnet",
+  "chain": "R5",
+  "icon": "r5",
+  "rpc": ["https://rpc-devnet.r5.network"],
+  "features": [{ "name": "EIP155" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Test R5",
+    "symbol": "TR5",
+    "decimals": 18
+  },
+  "infoURL": "https://r5.network",
+  "shortName": "r5dev",
+  "chainId": 33711,
+  "networkId": 33711,
+  "slip44": 33711,
+  "explorers": [
+    {
+      "name": "R5 Devnet Explorer",
+      "url": "https://explorer.devnet.r5.network",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "incubating"
+}
