@@ -1,0 +1,23 @@
+{
+  "name": "Converge Testnet",
+  "chain": "Converge Testnet",
+  "rpc": ["https://testnet.convergeonchain.xyz/rpc"],
+  "features": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoUrl": "https://www.convergeonchain.xyz",
+  "shortName": "converge-testnet",
+  "chainId": 52085145,
+  "networkId": 52085145,
+  "explorers": [
+    {
+      "name": "Converge Testnet Explorer",
+      "url": "https://explorer.convergeonchain.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
