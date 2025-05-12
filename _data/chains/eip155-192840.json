@@ -1,0 +1,18 @@
+{
+  "name": "Zanjir Testnet",
+  "chain": "ETH",
+  "status": "active",
+  "icon": "zanjir",
+  "rpc": ["https://rpc-testnet.zanjir.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USDT",
+    "symbol": "USDT",
+    "decimals": 18
+  },
+  "infoURL": "https://zanjir.xyz",
+  "shortName": "zanjir-testnet",
+  "chainId": 192840,
+  "networkId": 192840,
+  "explorers": ["https://zanjir.xyz/explorer"]
+}
