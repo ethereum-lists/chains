@@ -26,7 +26,7 @@ class StringCannotBeBlank(which: String): Exception("$which cannot be blank")
 
 class StringCannotHaveExtraSpaces(which: String): Exception("$which cannot have leading or tailing spaces")
 class ExplorerStandardMustBeEIP3091OrNone: Exception("explorer standard must be 'none' or 'EIP3091'")
-class CantReachExplorerException(url: String?, code: Int): Exception("explorer $url does not return 200 but ")
+class CantReachExplorerException(url: String?, code: Int): Exception("explorer $url does not return 2XX but $code")
 class ParentHasInvalidType(type: String?): Exception("Parent has invalid type $type - only L2 or shard allowed")
 class RedFlagsMustBeArray: Exception("redFlags not an array")
 class FaucetsMustBeArray: Exception("faucets not an array")

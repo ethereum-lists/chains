@@ -1,0 +1,23 @@
+{
+  "name": "WABA Chain Testnet",
+  "chain": "WABA Mainnet",
+  "icon": "waba",
+  "rpc": ["https://rpc.wabaworld.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WABA",
+    "symbol": "WABA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.wabanetwork.org",
+  "shortName": "waba",
+  "chainId": 327126,
+  "networkId": 327126,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.wabaworld.com",
+      "standard": "none"
+    }
+  ]
+}

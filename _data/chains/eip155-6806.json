@@ -1,0 +1,34 @@
+{
+  "name": "RACE Testnet",
+  "chain": "ETH",
+  "rpc": ["https://racetestnet.io/"],
+  "faucets": ["https://faucet.racetestnet.io/"],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://race.foundation/",
+  "shortName": "racesep",
+  "chainId": 6806,
+  "networkId": 6806,
+  "slip44": 1,
+  "icon": "race",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://testnet.racescan.io",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [
+      {
+        "url": "https://testnet-bridge.race.foundation/"
+      }
+    ]
+  }
+}

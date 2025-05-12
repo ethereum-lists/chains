@@ -16,13 +16,8 @@
   "slip44": 1,
   "explorers": [
     {
-      "name": "3xpl",
-      "url": "https://3xpl.com/botanix",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "Blockscout",
-      "url": "https://blockscout.botanixlabs.dev",
+      "name": "Botanix Explorer",
+      "url": "https://testnet.botanixscan.io",
       "standard": "EIP3091"
     }
   ]

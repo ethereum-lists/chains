@@ -1,10 +1,8 @@
 {
   "name": "Autonity Piccadilly (Sumida) Testnet",
+  "status": "deprecated",
   "chain": "AUT",
-  "rpc": [
-    "https://rpc1.piccadilly.autonity.org/",
-    "wss://rpc1.piccadilly.autonity.org/ws/"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Piccadilly Auton",

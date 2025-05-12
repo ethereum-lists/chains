@@ -1,0 +1,14 @@
+on:
+  pull_request_target:
+    types: [opened]
+jobs:
+  comment_on_pr:
+    runs-on: ubuntu-latest
+    name: Comment after PR is submitted
+    steps:
+      - name: Comment PR
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          message: |
+            You successfully submitted a PR! Due to the amount of PRs coming in: we will only look at PRs that the CI is happy with. We can also not hold your hand getting the CI green - just look how others that where merged did it and RTFM. So as long as there is any CI check that reports an error - no human will look at this. You might be able to ask for some support after supporting the project - e.g. by sending funds to lists.eth. When you fixed things after a requested change - then you also need to (re-)request a review.

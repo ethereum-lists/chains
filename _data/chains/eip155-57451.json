@@ -1,0 +1,24 @@
+{
+  "name": "COINSEC Network",
+  "title": "COINSEC Network",
+  "chain": "coinsecnetwork",
+  "icon": "coinsec",
+  "rpc": ["https://mainnet-rpc.coinsec.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "COINSEC",
+    "symbol": "SEC",
+    "decimals": 18
+  },
+  "infoURL": "https://explorer.coinsec.network/",
+  "shortName": "coinsecnetwork",
+  "chainId": 57451,
+  "networkId": 57451,
+  "explorers": [
+    {
+      "name": "coinsecnetwork",
+      "url": "https://explorer.coinsec.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
