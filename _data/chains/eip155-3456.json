@@ -1,11 +1,11 @@
 {
-  "name": "LayerEdge testnet",
+  "name": "LayerEdge Testnet",
   "chain": "LayerEdge",
   "rpc": ["https://testnet-rpc.layeredge.io"],
   "faucets": ["https://testnet-faucet.layeredge.io"],
   "nativeCurrency": {
-    "name": "Bitcoin",
-    "symbol": "BTC",
+    "name": "EDGEN",
+    "symbol": "EDGEN",
     "decimals": 18
   },
   "infoURL": "https://www.layeredge.io",
