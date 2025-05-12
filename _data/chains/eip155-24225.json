@@ -1,0 +1,23 @@
+{
+  "name": "BlockNodeCore Mainnet",
+  "chain": "BlockNodeCore Mainnet",
+  "icon": "BNCIcon",
+  "rpc": ["https://rpc.blocknodecore.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BlockNodeChain",
+    "symbol": "BNC",
+    "decimals": 18
+  },
+  "infoURL": "https://blocknodecore.com",
+  "shortName": "BNCm",
+  "chainId": 24225,
+  "networkId": 24225,
+  "explorers": [
+    {
+      "name": "BlockNodeCore Mainnet Explorer",
+      "url": "https://explorer.blocknodecore.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
