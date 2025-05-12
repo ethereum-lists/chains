@@ -1,7 +1,10 @@
 {
   "name": "Mezo",
   "chain": "Mezo",
-  "rpc": ["https://rpc_evm-mezo.imperator.co"],
+  "rpc": [
+    "https://rpc_evm-mezo.imperator.co",
+    "https://jsonrpc-mezo.boar.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin",
