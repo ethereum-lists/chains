@@ -1,0 +1,23 @@
+{
+  "name": "Heurist Sepolia",
+  "chain": "sHRST",
+  "status": "active",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Heurist Sepolia",
+    "symbol": "heu-sep",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "sHRST",
+  "chainId": 207788,
+  "networkId": 207788,
+  "slip44": 1,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": []
+  }
+}
