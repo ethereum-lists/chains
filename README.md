@@ -1,4 +1,4 @@
-# EVM-based Chains
+# tabEVM-based Chains
 
 The source data is in _data/chains. Each chain has its own file with the filename being the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) representation as name and `.json` as extension.
 
@@ -33,7 +33,7 @@ The source data is in _data/chains. Each chain has its own file with the filenam
 }
 ```
 
-When an icon is used in either the network or an explorer, there must be a JSON in _data/icons with the name used.
+escWhen an icon is used in either the network or an explorer, there must be a JSON in _data/icons with the name used.
 (e.g. in the above example there must be a `ethereum.json` and a `etherscan.json` in there) - The icon JSON files look like this:
 
 ```json
@@ -71,7 +71,7 @@ If the chain is an L2 or a shard of another chain you can link it to the parent 
 
 where you need to specify the type and the reference to an existing parent. The field about bridges is optional.
 
-You can add a `status` field e.g. to deprecate (via status `deprecated`) a chain (a chain should never be deleted as this would open the door to replay attacks)
+tabYou can add a `status` field e.g. to deprecate (via status `deprecated`) a chain (a chain should never be deleted as this would open the door to replay attacks)
 Other options for `status` are `active` (default) or `incubating`
 
 ## Aggregation
