@@ -3,7 +3,9 @@
   "chain": "Mezo",
   "rpc": [
     "https://rpc_evm-mezo.imperator.co",
-    "https://jsonrpc-mezo.boar.network"
+    "wss://ws_evm-mezo.imperator.co",
+    "https://jsonrpc-mezo.boar.network",
+    "wss://jsonrpcws-mezo.boar.network"
   ],
   "faucets": [],
   "nativeCurrency": {
