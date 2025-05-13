@@ -1,4 +1,4 @@
-name: Github-Action linter
+tabname: Github-Action linter
 on: [pull_request]
 jobs:
   actionlint:
