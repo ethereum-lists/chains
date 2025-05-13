@@ -6161,6 +6161,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "R5 Network",
+  "chain": "r5",
+  "rpc": ["https://rpc.r5.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "R5",
+    "symbol": "R5",
+    "decimals": 18
+  },
+  "infoURL": "https://r5.network",
+  "shortName": "r5",
+  "chainId": 337,
+  "networkId": 337,
+  "icon": "r5",
+  "explorers": [{
+    "name": "R5 Explorer",
+    "url": "https://explorer.r5.network",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Cronos Testnet",
   "chain": "CRO",
   "rpc": ["https://evm-t3.cronos.org", "https://cronos-testnet.drpc.org", "wss://cronos-testnet.drpc.org"],
@@ -32046,6 +32066,26 @@
   "explorers": [{
     "name": "Zilliqa-2 EVM Devnet Explorer",
     "url": "https://explorer.zq2-devnet.zilliqa.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "R5 Network Testnet",
+  "chain": "r5testnet",
+  "rpc": ["https://rpc-testnet.r5.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Test R5",
+    "symbol": "TR5",
+    "decimals": 18
+  },
+  "infoURL": "https://r5.network",
+  "shortName": "tr5",
+  "chainId": 33710,
+  "networkId": 33710,
+  "icon": "r5",
+  "explorers": [{
+    "name": "R5 Explorer",
+    "url": "https://explorer-testnet.r5.network",
     "standard": "EIP3091"
   }]
 }, {
