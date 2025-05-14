@@ -19265,9 +19265,9 @@
   "faucets": [],
   "infoURL": "https://docs.wirexpaychain.com/tech/wirex-pay-chain"
 }, {
-  "name": "Mezo Matsnet Testnet",
+  "name": "Mezo Testnet",
   "chainId": 31611,
-  "shortName": "mezo",
+  "shortName": "mezo-testnet",
   "networkId": 31611,
   "nativeCurrency": {
     "name": "Bitcoin",
@@ -19275,7 +19275,20 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.test.mezo.org"],
-  "faucets": ["https://mezo.org/matsnet"],
+  "faucets": [],
+  "infoURL": "https://mezo.org/"
+}, {
+  "name": "Mezo",
+  "chainId": 31612,
+  "shortName": "mezo",
+  "networkId": 31612,
+  "nativeCurrency": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc_evm-mezo.imperator.co", "wss://ws_evm-mezo.imperator.co", "https://jsonrpc-mezo.boar.network", "wss://jsonrpcws-mezo.boar.network"],
+  "faucets": [],
   "infoURL": "https://mezo.org/"
 }, {
   "name": "Xchain Mainnet (Deprecated)",
