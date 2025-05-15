@@ -1,0 +1,41 @@
+{
+  "name": "MVL Testnet",
+  "chain": "MVL",
+  "rpc": ["https://mvl-rpc-testnet.appchain.base.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Mass Vehicle Ledger",
+    "symbol": "MVL",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://mvlchain.io/",
+  "shortName": "mvl-testnet",
+  "chainId": 8453200012,
+  "networkId": 8453200012,
+  "icon": "mvl",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://mvl-explorer-testnet.appchain.base.org",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-84532",
+    "bridges": [
+      {
+        "url": "https://stage.mvlbridge.io/en/mainnet-bridge"
+      }
+    ]
+  }
+}
