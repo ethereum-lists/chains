@@ -1,0 +1,22 @@
+{
+  "name": "Fuse Spark Testnet",
+  "chain": "Fuse Spark",
+  "rpc": [],
+  "faucets": ["https://faucet.quicknode.com/fuse/spark"],
+  "nativeCurrency": {
+    "name": "Fuse",
+    "symbol": "FUSE",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://www.fuse.io",
+  "shortName": "fuse-spark",
+  "chainId": 10921,
+  "networkId": 10921,
+  "icon": "fuse",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  },
+  "status": "incubating"
+}
