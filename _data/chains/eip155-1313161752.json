@@ -1,0 +1,23 @@
+{
+  "name": "Coineasy",
+  "chain": "NEAR",
+  "rpc": ["https://0x4e454218.rpc.aurora-cloud.dev"],
+  "icon": "coineasy",
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "coineasy",
+  "chainId": 1313161752,
+  "networkId": 1313161752,
+  "explorers": [
+    {
+      "name": "Coineasy explorer",
+      "url": "https://0x4e454218.explorer.aurora-cloud.dev",
+      "standard": "EIP3091"
+    }
+  ]
+}
