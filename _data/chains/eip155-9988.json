@@ -1,0 +1,20 @@
+{
+  "name": "Adventure Layer Mainnet",
+  "chain": "Adventure Layer Mainnet",
+  "rpc": [],
+  "nativeCurrency": {
+    "name": "Adventure Gold",
+    "symbol": "AGLD",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://adventurelayer.xyz",
+  "shortName": "advlayer-mainnet",
+  "chainId": 9988,
+  "networkId": 9988,
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  },
+  "status": "active"
+}
