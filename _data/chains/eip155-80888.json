@@ -1,0 +1,27 @@
+{
+  "name": "Onyx Chain",
+  "chain": "ONYX",
+  "icon": "onyx",
+  "rpc": [
+    "https://rpc.onyx.org"
+  ],
+  "features": [{ "name": "EIP155" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Onyx",
+    "symbol": "XCN",
+    "decimals": 18
+  },
+  "infoURL": "https://onyx.org",
+  "shortName": "onyx",
+  "chainId": 80888,
+  "networkId": 80888,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "Onyx Explorer",
+      "url": "https://explorer.onyx.org",
+      "standard": "EIP3091"
+    }
+  ]
+} 
