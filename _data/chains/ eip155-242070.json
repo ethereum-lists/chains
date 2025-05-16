@@ -1,0 +1,21 @@
+{
+  "name": "Adventure Layer Testnet",
+  "chain": "Adventure Layer Testnet",
+  "rpc": [],
+  "faucets": ["https://faucet.quicknode.com/adventure-layer/testnet"],
+  "nativeCurrency": {
+    "name": "Adventure Gold",
+    "symbol": "AL",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://adventurelayer.xyz",
+  "shortName": "advlayer-testnet",
+  "chainId": 242070,
+  "networkId": 242070,
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  },
+  "status": "active"
+}
