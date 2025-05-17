@@ -1,6 +1,6 @@
 {
   "name": "Humanity Protocol testnet",
-  "chain": "Humanity Protocol",
+  "chain": "ETH",
   "rpc": [],
   "faucets": [],
   "nativeCurrency": {
@@ -13,9 +13,9 @@
     "type": "L2",
     "chain": "eip155-42161",
     "bridges": []
-  }
+  },
   "shortName": "hp",
   "chainId": 1942999413,
   "networkId": 1942999413,
-  "status": "incubating"
+  "status": "active"
 }
