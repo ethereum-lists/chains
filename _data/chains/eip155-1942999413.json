@@ -1,0 +1,21 @@
+{
+  "name": "Humanity Protocol testnet",
+  "chain": "Humanity Protocol",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "tHP",
+    "symbol": "tHP",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet.humanity.org",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161",
+    "bridges": []
+  }
+  "shortName": "hp",
+  "chainId": 1942999413,
+  "networkId": 1942999413,
+  "status": "incubating"
+}
