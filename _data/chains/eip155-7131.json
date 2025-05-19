@@ -1,24 +1,28 @@
 {
-  "name": "VRC Chain",
-  "chain": "VRC",
-  "rpc": [
-    "https://vrc-chain.zeeve.net/77dcd2lsz70xjbq70im3/rpc"
-  ],
+  "name": "VRCN Chain Mainnet",
+  "chain": "VRCN",
+  "rpc": ["https://rpc-mainnet-4.vrcchain.com/"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "VRC",
-    "symbol": "VRC",
+    "name": "VRCN Chain",
+    "symbol": "VRCN",
     "decimals": 18
   },
-  "infoURL": "https://vrcchain.com",
-  "shortName": "vrc",
+  "infoURL": "https://vrccoin.com",
+  "shortName": "VRCN",
   "chainId": 7131,
   "networkId": 7131,
   "explorers": [
     {
-      "name": "VRC Explorer",
-      "url": "https://explorer.vrcchain.com",
+      "name": "VRCNChain",
+      "url": "https://vrcchain.com",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dxbchain",
+      "url": "https://dxb.vrcchain.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "icon": "VRCNChain"
 }
