@@ -1,7 +1,10 @@
 {
   "name": "zkXPLA Testnet",
   "chain": "zkXPLA",
-  "rpc": ["https://xpla-testnet.rpc.caldera.xyz", "wss://xpla-testnet.rpc.caldera.xyz"],
+  "rpc": [
+    "https://xpla-testnet.rpc.caldera.xyz",
+    "wss://xpla-testnet.rpc.caldera.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
