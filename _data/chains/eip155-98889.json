@@ -1,0 +1,26 @@
+{
+    "name": "SNFT Testnet",
+    "chain": "SNFT Testnet",
+    "rpc": [
+      "https://trpc.snft.in",
+      "https://98889.rpc.thirdweb.com"
+    ],
+    "faucets": ["https://faucet.snft.in"],
+    "nativeCurrency": {
+      "name": "SNFT",
+      "symbol": "SNFT",
+      "decimals": 18
+    },
+    "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+    "infoURL": "https://ethereum.org",
+    "shortName": "snft",
+    "chainId": 98889,
+    "networkId": 98889,
+    "icon": "ethereum",
+    "explorers": [{
+      "name": "SNFT Testnet Explorer",
+      "url": "https://texplorer.snft.in",
+      "icon": "etherscan",
+      "standard": "EIP3091"
+    }]
+  }
