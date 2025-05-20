@@ -2,7 +2,11 @@
   "name": "HashKey Chain Testnet",
   "title": "HashKey Chain Testnet",
   "chain": "HashKey Chain Testnet",
-  "rpc": ["https://hashkeychain-testnet.alt.technology"],
+  "rpc": [
+    "https://hashkeychain-testnet.alt.technology",
+    "https://hashkey-testnet.drpc.org",
+    "wss://hashkey-testnet.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "HashKey EcoPoints",

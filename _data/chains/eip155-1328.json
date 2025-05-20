@@ -3,7 +3,9 @@
   "chain": "Sei",
   "rpc": [
     "https://evm-rpc-testnet.sei-apis.com",
-    "wss://evm-ws-testnet.sei-apis.com"
+    "wss://evm-ws-testnet.sei-apis.com",
+    "https://sei-testnet.drpc.org",
+    "wss://sei-testnet.drpc.org"
   ],
   "faucets": ["https://atlantic-2.app.sei.io/faucet"],
   "nativeCurrency": {
