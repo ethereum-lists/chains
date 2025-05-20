@@ -1,7 +1,7 @@
 {
   "name": "Sinq Mainnet",
-  "chain": "Sinq",
-  "icon": "Sinq",
+  "chain": "sinq",
+  "icon": "sinq",
   "rpc": ["https://mainnet.sinqscan.org"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
@@ -11,14 +11,14 @@
     "decimals": 18
   },
   "infoURL": "https://sinqventure.com",
-  "shortName": "Sinq",
+  "shortName": "sinq",
   "chainId": 1025,
   "networkId": 1025,
   "explorers": [
     {
       "name": "Sinqscan",
       "url": "https://sinqscan.com",
-      "icon": "Sinq",
+      "icon": "sinq",
       "standard": "EIP3091"
     }
   ]
