@@ -1,0 +1,25 @@
+{
+    "name": "Flash USDT Network",
+    "chain": "FLASH",
+    "icon": "flashusdt",
+    "rpc": [
+        "https://rpc.flashusdt.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "USDT",
+        "symbol": "USDT",
+        "decimals": 6
+    },
+    "infoURL": "https://flashusdt.org",
+    "shortName": "fusdt",
+    "chainId": 12345,
+    "networkId": 12345,
+    "explorers": [
+        {
+            "name": "FlashScan",
+            "url": "https://explorer.flashusdt.org",
+            "standard": "EIP3091"
+        }
+    ]
+}
