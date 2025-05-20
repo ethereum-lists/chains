@@ -1,0 +1,24 @@
+{
+  "name": "XRPL EVM Sidechain",
+  "chain": "XRPL EVM",
+  "icon": "xrplevm",
+  "rpc": ["https://rpc.xrplevm.org", "https://ws.xrplevm.org"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "nativeCurrency": {
+    "name": "XRP",
+    "symbol": "XRP",
+    "decimals": 18
+  },
+  "infoURL": "https://xrplevm.org",
+  "shortName": "xrplevm",
+  "chainId": 14490000,
+  "networkId": 1440000,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.xrplevm.org",
+      "icon": "xrplevm",
+      "standard": "EIP3091"
+    }
+  ]
+}
