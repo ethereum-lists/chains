@@ -28,8 +28,5 @@
       "standard": "none"
     }
   ],
-  "features": [
-    { "name": "EIP155" },
-    { "name": "EIP1559" }
-  ]
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }]
 }
