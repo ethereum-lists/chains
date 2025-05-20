@@ -1,0 +1,23 @@
+{
+  "name": "Bridgeless Mainnet",
+  "chain": "BRIDGELESS",
+  "rpc": [
+    "https://eth-rpc.node0.mainnet.bridgeless.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bridge",
+    "symbol": "BRIDGE",
+    "decimals": 18
+  },
+  "infoURL": "https://bridgeless.com",
+  "shortName": "bridgeless",
+  "chainId": 13441,
+  "networkId": 13441,
+  "icon": "bridgeless",
+  "explorers": [{
+    "name": "bridgeless",
+    "url": "https://explorer.mainnet.bridgeless.com/",
+    "icon": "bridgeless"
+  }]
+}
