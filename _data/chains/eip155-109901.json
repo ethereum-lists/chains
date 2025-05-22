@@ -1,0 +1,29 @@
+{
+  "name": "Orbion Testnet",
+  "title": "Orbion Network Testnet",
+  "chain": "Orbion",
+  "icon": "orbion",
+  "rpc": [
+    "https://rpctestnet-1.orbionchain.com",
+    "https://rpctestnet-2.orbionchain.com",
+    "https://rpc-testnet-zero1.orbionchain.com"
+  ],
+  "faucets": ["https://faucet.orbionchain.com"],
+  "nativeCurrency": {
+    "name": "Orbion Testnet",
+    "symbol": "tORB",
+    "decimals": 18
+  },
+  "infoURL": "https://orbionchain.com",
+  "shortName": "orbion",
+  "chainId": 109901,
+  "networkId": 109901,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "orbion",
+      "url": "https://testnet.orbionchain.com",
+      "standard": "none"
+    }
+  ]
+}
