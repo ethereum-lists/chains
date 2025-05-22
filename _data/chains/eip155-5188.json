@@ -1,0 +1,24 @@
+{
+  "name": "WWCHAIN Mainnet",
+  "title": "WWCHAIN Mainnet",
+  "chain": "WWCHAIN",
+  "rpc": ["https://mainnet.wwchain.net/eth"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WW",
+    "symbol": "WW",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "WWCHAIN Mainnet",
+  "chainId": 5188,
+  "networkId": 5188,
+  "icon": "ww",
+  "explorers": [
+    {
+      "name": "WWCHAIN Explorer",
+      "url": " https://mainnet.wwchain.net/",
+      "standard": "none"
+    }
+  ]
+}
