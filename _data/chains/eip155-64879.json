@@ -1,7 +1,7 @@
 {
-  "name": "EsaCoins Testnet",
-  "chain": "ESC",
-  "rpc": ["https://testnet.esa.co.in"],
+  "name": "EsaCoins",
+  "chain": "EsaCoins",
+  "rpc": ["https://mainnet.esa.co.in"],
   "faucets": [],
   "nativeCurrency": {
     "name": "EsaCoins",
@@ -9,9 +9,9 @@
     "decimals": 18
   },
   "infoURL": "https://esa.co.in",
-  "shortName": "eacoins_testnet",
-  "chainId": 83278,
-  "networkId": 83278,
+  "shortName": "ESC",
+  "chainId": 64879,
+  "networkId": 64879,
   "icon": "EsaCoins",
   "explorers": []
 }
