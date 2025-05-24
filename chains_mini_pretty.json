@@ -27915,12 +27915,12 @@
   "shortName": "rise-testnet",
   "networkId": 11155931,
   "nativeCurrency": {
-    "name": "ETH",
+    "name": "RISE Testnet Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
-  "faucets": [],
+  "rpc": ["https://testnet.riselabs.xyz", "wss://testnet.riselabs.xyz/ws"],
+  "faucets": ["https://faucet.testnet.riselabs.xyz"],
   "infoURL": "https://www.riselabs.xyz/"
 }, {
   "name": "R0AR Testnet",
