@@ -1,9 +1,11 @@
 {
-  "name": "Shido Testnet Block",
+  "name": "Shido Testnet",
   "chain": "Shido Testnet",
   "rpc": [
     "https://rpc-testnet-nodes.shidoscan.com",
-    "wss://wss-testnet-nodes.shidoscan.com"
+    "wss://wss-testnet-nodes.shidoscan.com",
+    "https://shido-testnet-archive-lb-q1ifr9jpz.zeeve.net/USjg7xqUmCZ4wCsqEOOE/rpc",
+    "wss://shido-testnet-archive-lb-q1ifr9jpz.zeeve.net/USjg7xqUmCZ4wCsqEOOE/ws"
   ],
   "faucets": ["https://testnet.shidoscan.com/faucet"],
   "nativeCurrency": {
@@ -11,15 +13,15 @@
     "symbol": "SHIDO",
     "decimals": 18
   },
-  "infoURL": "https://www.nexablock.io",
+  "infoURL": "https://www.shido.io",
   "shortName": "ShidoTestnet",
   "chainId": 9007,
   "networkId": 9007,
   "icon": "shidoChain",
   "explorers": [
     {
-      "name": "Shidoblock Testnet Explorer",
-      "url": "https://testnet.shidoscan.com",
+      "name": "Shido Testnet Explorer",
+      "url": "https://testnet.shidoscan.net",
       "standard": "none",
       "icon": "shidoChain"
     }
