@@ -1,0 +1,31 @@
+{
+  "name": "KultChain",
+  "chain": "KULT",
+  "icon": "kultchain",
+  "rpc": [
+    "https://rpc.kultchain.com",
+    "http://217.154.10.57:8545"
+  ],
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "KultCoin",
+    "symbol": "KLT",
+    "decimals": 18
+  },
+  "infoURL": "https://kultchain.com",
+  "shortName": "kult",
+  "chainId": 220312,
+  "networkId": 220312,
+  "explorers": [
+    {
+      "name": "KultChain Explorer",
+      "url": "https://explorer.kultchain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
+
