@@ -13,6 +13,7 @@
     "https://rpc-pulsechain.g4mm4.io",
     "wss://rpc-pulsechain.g4mm4.io"
   ],
+  "icon": "pulsechain",
   "slip44": 60,
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
@@ -27,9 +28,9 @@
   },
   "explorers": [
     {
-      "name": "blockscout",
-      "url": "https://scan.pulsechain.com",
-      "icon": "blockscout",
+      "name": "pulsechain",
+      "url": "https://ipfs.scan.pulsechain.com",
+      "icon": "pulsechain",
       "standard": "EIP3091"
     },
     {
