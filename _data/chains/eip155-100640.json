@@ -1,0 +1,30 @@
+{
+    "name": "DIA Lasernet Testnet",
+    "title": "DIA Lasernet Testnet",
+    "chain": "diachain",
+    "icon": "diadata",
+    "rpc": ["https://testnet-rpc.diadata.org/"],
+    "faucets": ["https://faucet.diadata.org/"],
+    "nativeCurrency": {
+      "name": "DIA",
+      "symbol": "DIA",
+      "decimals": 18
+    },
+    "infoURL": "https://diadata.org/",
+    "shortName": "dia-lasernet-testnet",
+    "chainId": 100640,
+    "networkId": 100640,
+    "explorers": [
+      {
+        "name": "DIA Lasernet Testnet",
+        "url": "https://testnet-explorer.diadata.org/",
+        "icon": "diadata",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-5",
+      "bridges": [{ "url": "https://bridge.arbitrum.io/" }]
+    }
+  }
