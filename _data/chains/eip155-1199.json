@@ -1,0 +1,26 @@
+{
+	"name": "Xenea Testnet",
+	"chain": "Xenea",
+	"rpc": [
+		"https://rpc.crossvaluescan.com"
+	],
+	"faucets": [],
+	"nativeCurrency": {
+		"name": "Xenea Testnet Token",
+		"symbol": "TXENE",
+		"decimals": 18
+	},
+	"infoURL": "https://xenea.io/",
+	"shortName": "Xenea",
+	"chainId": 1199,
+	"networkId": 1199,
+	"icon": "xenea",
+	"explorers": [
+		{
+			"name": "Xenea Testnet Explorer",
+			"url": "https://www.crossvaluescan.com/",
+			"icon": "xenea",
+			"standard": "EIP3091"
+		}
+	]
+}
