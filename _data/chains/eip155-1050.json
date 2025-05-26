@@ -1,0 +1,30 @@
+{
+    "name": "DIA Lasernet",
+    "title": "DIA Lasernet",
+    "chain": "diachain",
+    "icon": "diadata",
+    "rpc": ["https://rpc.diadata.org/"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "DIA",
+      "symbol": "DIA",
+      "decimals": 18
+    },
+    "infoURL": "https://diadata.org/",
+    "shortName": "dia-lasernet",
+    "chainId": 1050,
+    "networkId": 1050,
+    "explorers": [
+      {
+        "name": "DIA Lasernet",
+        "url": "https://explorer.diadata.org/",
+        "icon": "diadata",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-5",
+      "bridges": [{ "url": "https://bridge.arbitrum.io/" }]
+    }
+  }
