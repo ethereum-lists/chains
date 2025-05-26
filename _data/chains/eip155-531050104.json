@@ -8,16 +8,23 @@
     "decimals": 18
   },
   "faucets": [],
-  "infoURL": "",
+  "infoURL": "https://sophon.xyz",
   "shortName": "sophon-testnet",
   "chainId": 531050104,
   "networkId": 531050104,
+  "icon": "sophon-testnet",
   "explorers": [
     {
       "name": "Sophon Block Explorer",
       "url": "https://explorer.testnet.sophon.xyz",
-      "icon": "sophon-testnet",
-      "standard": "none"
+      "icon": "sophon",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Sophscan",
+      "url": "https://testnet.sophscan.xyz",
+      "icon": "sophon",
+      "standard": "EIP3091"
     }
   ],
   "parent": {
