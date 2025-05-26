@@ -1,0 +1,15 @@
+{
+  "name": "Notes Mainnet",
+  "chain": "Notes Chain",
+  "rpc": ["https://rpc-mainnet.noschain.org,https://rpc-mainnet2.noschain.org,https://rpc.noschain.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NotesChain",
+    "symbol": "KTO",
+    "decimals": 11
+  },
+  "infoURL": "https://nosscan.noschain.org/",
+  "shortName": "kton",
+  "chainId": 2643,
+  "networkId": 2643
+}
