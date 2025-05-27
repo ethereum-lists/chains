@@ -1,0 +1,43 @@
+{
+    "name": "Katana",
+    "chain": "ETH",
+    "rpc": [
+        "https://rpc.katanarpc.com/",
+        "wss://rpc.katanarpc.com/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+    },
+    "features": [
+        {
+            "name": "EIP155"
+        },
+        {
+            "name": "EIP1559"
+        },
+        {
+            "name": "EIP7702"
+        }
+    ],
+    "infoURL": "https://katana.network/",
+    "shortName": "katana",
+    "chainId": 747474,
+    "networkId": 747474,
+    "icon": "katana",
+    "explorers": [
+        {
+            "name": "katanascan",
+            "url": "https://etherscan.katana.network",
+            "standard": "EIP3091"
+        },
+        {
+            "name": "katanascout",
+            "url": "https://explorer.katanarpc.com/",
+            "icon": "blockscout",
+            "standard": "EIP3091"
+        }
+    ]
+}
