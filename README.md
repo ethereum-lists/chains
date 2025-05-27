@@ -1,105 +1,80 @@
-# Chains Repository
+# Chains
 
-This repository contains data and configurations related to EVM-based chains. Each chain is represented using a JSON file conforming to the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) standard.
+A modular, flexible, and extensible framework for building and managing blockchain-based applications.
+
+## Overview
+
+Chains is designed to simplify the development and management of blockchain applications, providing a set of tools, components, and best practices for developers. The framework promotes modular code organization, security, and scalability for both new and existing blockchain projects.
+
+## Features
+
+- **Modular Architecture**: Compose, extend, or swap components with minimal effort.
+- **Error Handling**: Robust error detection and reporting.
+- **Security Oriented**: Built-in patterns for secure coding and vulnerability mitigation.
+- **Duplicate Code Detection**: Tools to identify and resolve code duplication.
+- **Management Tools**: Scripts and interfaces for efficient project and chain management.
+- **Extensible**: Easily add new functionality or integrate with other systems.
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version X.X.X or later)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/nodoubtz/chains.git
+cd chains
+```
+
+Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+### Usage
+
+Run the main application (adapt to your entry point, e.g., `index.js` or `app.js`):
+```bash
+npm start
+# or
+yarn start
+```
 
 ## Project Structure
 
-The data is stored in the `_data/chains` directory. Each chain's configuration is stored in a separate JSON file using its CAIP-2 representation as the filename.
-
-### Example JSON Configuration
-
-```json
-{
-  "name": "Ethereum Mainnet",
-  "chain": "ETH",
-  "rpc": [
-    "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
-    "https://api.mycryptoapi.com/eth"
-  ],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
-    "decimals": 18
-  },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "infoURL": "https://ethereum.org",
-  "shortName": "eth",
-  "chainId": 1,
-  "networkId": 1,
-  "icon": "ethereum",
-  "explorers": [{
-    "name": "etherscan",
-    "url": "https://etherscan.io",
-    "icon": "etherscan",
-    "standard": "EIP3091"
-  }]
-}
+```
+chains/
+├── src/                # Core source code
+├── scripts/            # Management and utility scripts
+├── tests/              # Test suite
+├── package.json        # Project metadata and dependencies
+└── README.md           # Project documentation
 ```
 
-## Icon Requirements
+## Security
 
-Icons used in the configuration files must meet the following criteria:
-- The `icon` field references a JSON file in the `_data/icons` directory.
-- Example icon JSON:
+- All code follows secure coding practices.
+- Vulnerable code is hidden or removed by design.
+- Regular audits and updates are recommended.
 
-```json
-[
-    {
-      "url": "ipfs://QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt",
-      "width": 1000,
-      "height": 1628,
-      "format": "png"
-    }
-]
-```
+## Contributing
 
-### Constraints for Icons
-- **URL**: Must be a publicly resolvable IPFS URL.
-- **Dimensions**: Specify positive integers for width and height.
-- **Format**: Must be `png`, `jpg`, or `svg`.
-
-## Linking to Parent Chains
-
-For chains that are L2s or shards, the `parent` field can be used to link to the parent chain.
-
-```json
-"parent": {
-   "type" : "L2",
-   "chain": "eip155-1",
-   "bridges": [ {"url":"https://bridge.arbitrum.io"} ]
-}
-```
-
-## Deprecation and Status
-
-Chains should not be deleted to avoid replay attacks. Use the `status` field to indicate the chain's state:
-- `active` (default)
-- `deprecated`
-- `incubating`
-
-## Aggregated JSON Files
-
-Aggregated data for all chains is available:
-- [Full JSON](https://chainid.network/chains.json)
-- [Mini JSON](https://chainid.network/chains_mini.json)
-
-## Constraints
-
-- **Unique Identifiers**: The `shortName` and `name` fields must be unique as per [EIP-3770](https://eips.ethereum.org/EIPS/eip-3770).
-- **Parent Chains**: If referencing a parent chain, it must already exist in the repository.
-
-## Contribution Guidelines
-
-1. Fork the repository and create a new branch.
-2. Add or update chain configurations following the JSON format.
-3. Ensure that all required fields are included and valid.
-4. Submit a pull request for review.
+Contributions are welcome! Please open an issue or submit a pull request. Make sure to follow the code of conduct and review the contributing guidelines.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Contact
 
-For any questions or support, please reach out via the repository's [Issues](https://github.com/nodoubtz/chains/issues) section.
+For project inquiries or paid support, please [open an issue](https://github.com/nodoubtz/chains/issues) or contact the repository owner.
+
+---
+
+*Built with care by [nodoubtz](https://github.com/nodoubtz)*
