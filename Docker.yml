@@ -1,1 +1,1 @@
-LABEL org.opencontainers.image.source="https://github.com/nodoubtz/rollup"
+FROM ghcr.io/nodoubtz/rollup/run-on-arch-nodoubtz-rollup-ci-armv7-ubuntu-latest:latest
