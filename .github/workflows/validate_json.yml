@@ -6,7 +6,7 @@ on:
 
 jobs:
   validate_json:
-    runs-on: rollup/run-on-arch-nodoubtz-rollup-ci-s390x-ubuntu-latest
+    runs-on: ["self-hosted", "rollup/run-on-arch-nodoubtz-rollup-ci-s390x-ubuntu-latest"]
     steps:
     - name: Check out repo
       uses: actions/checkout@v2
