@@ -1,17 +1,24 @@
 {
   "name": "Ozean Poseidon Testnet",
-  "chain": "ETH",
-  "rpc": ["https://poseidon-testnet.rpc.caldera.xyz/http"],
-  "faucets": [],
-  "nativeCurrency": {
+  "chain": "Ozean",
+  "chainId": 31911,
+  "networkId": 31911,
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://ozean.finance/",
+  "shortName": "ozean",
+    "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "https://ozean.finance/",
-  "shortName": "ozean",
-  "chainId": 31911,
-  "networkId": 31911,
+    "rpc": [
+    "https://poseidon-testnet.rpc.caldera.xyz/http"
+  ],
+  "faucets": ["https://poseidon-testnet.hub.caldera.xyz/"],
   "explorers": [
     {
       "name": "ozean poseidon explorer",
