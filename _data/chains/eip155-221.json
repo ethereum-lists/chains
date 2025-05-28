@@ -1,0 +1,22 @@
+{
+  "name": "BlockEx Mainnet",
+  "chain": "BlockEx",
+  "rpc": ["https://rpc.blockex.biz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BlockEx",
+    "symbol": "XBE",
+    "decimals": 18
+  },
+  "infoURL": "https://blockex.biz",
+  "shortName": "BlockEx",
+  "chainId": 221,
+  "networkId": 221,
+  "explorers": [
+    {
+      "name": "BlockEx Scan",
+      "url": "http://explorer.blockex.biz",
+      "standard": "EIP3091"
+    }
+  ]
+}

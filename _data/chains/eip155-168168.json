@@ -1,0 +1,23 @@
+{
+  "name": "Zchains",
+  "chain": "Zchains",
+  "rpc": ["https://rpc.zchains.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ZCD",
+    "symbol": "ZCD",
+    "decimals": 18
+  },
+  "infoURL": "https://www.zchains.com/",
+  "shortName": "zchains",
+  "chainId": 168168,
+  "networkId": 168168,
+  "icon": "zchain",
+  "explorers": [
+    {
+      "name": "zchains",
+      "url": "https://scan.zchains.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

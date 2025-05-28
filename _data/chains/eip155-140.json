@@ -6,6 +6,7 @@
     "https://mainnet.eternalcoin.io/v1",
     "ws://mainnet.eternalcoin.io/v1/ws"
   ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
     "name": "Eteria",

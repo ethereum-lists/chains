@@ -1,0 +1,34 @@
+{
+  "name": "Eventum Testnet",
+  "title": "Eventum Testnet",
+  "chain": "eventum-testnet",
+  "rpc": ["https://testnet-rpc.eh-dev.app", "wss://testnet-ws.eh-dev.app"],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://raas.gelato.network/rollups/details/public/event-horizon-eventum-testnet",
+  "faucets": [],
+  "shortName": "eventum-testnet",
+  "chainId": 16182,
+  "networkId": 16182,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://testnet-blockscout.eh-dev.app",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-421614",
+    "bridges": [
+      {
+        "url": "https://testnet-bridge.eh-dev.app/bridge/event-horizon-eventum-testnet"
+      }
+    ]
+  },
+  "status": "active"
+}

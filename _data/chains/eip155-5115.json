@@ -1,0 +1,25 @@
+{
+  "name": "Citrea Testnet",
+  "chain": "Citrea",
+  "rpc": ["https://rpc.testnet.citrea.xyz"],
+  "faucets": ["https://citrea.xyz/faucet"],
+  "nativeCurrency": {
+    "name": "Citrea BTC",
+    "symbol": "cBTC",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://citrea.xyz",
+  "shortName": "citrea-testnet",
+  "chainId": 5115,
+  "networkId": 5115,
+  "icon": "citrea",
+  "explorers": [
+    {
+      "name": "Citrea Testnet Explorer",
+      "url": "https://explorer.testnet.citrea.xyz",
+      "icon": "citrea",
+      "standard": "EIP3091"
+    }
+  ]
+}

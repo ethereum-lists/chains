@@ -1,0 +1,25 @@
+{
+  "name": "Monad Testnet",
+  "chain": "MON",
+  "icon": "monad",
+  "rpc": ["https://testnet-rpc.monad.xyz"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Testnet MON Token",
+    "symbol": "MON",
+    "decimals": 18
+  },
+  "infoURL": "https://monad.xyz",
+  "shortName": "mon-testnet",
+  "chainId": 10143,
+  "networkId": 10143,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Monad Testnet Explorer",
+      "url": "https://testnet.monadexplorer.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
