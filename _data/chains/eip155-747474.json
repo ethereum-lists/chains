@@ -12,5 +12,11 @@
   "shortName": "katana",
   "chainId": 747474,
   "networkId": 747474,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "katana explorer",
+      "url": "https://explorer.katanarpc.com",
+      "standard": "EIP3091"
+    }
+  ]
 }
