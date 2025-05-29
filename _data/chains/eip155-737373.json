@@ -1,0 +1,16 @@
+{
+  "name": "bokuto",
+  "chain": "bokuto",
+  "rpc": ["https://rpc-bokuto.katanarpc.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://katana.network",
+  "shortName": "bokuto",
+  "chainId": 737373,
+  "networkId": 737373,
+  "explorers": []
+}
