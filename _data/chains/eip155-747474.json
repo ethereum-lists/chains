@@ -1,15 +1,15 @@
 {
-  "name": "TBD",
-  "chain": "TBD",
-  "rpc": [],
+  "name": "katana",
+  "chain": "katana",
+  "rpc": ["https://rpc.katanarpc.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "TBD",
-  "shortName": "TBD",
+  "infoURL": "https://katana.network",
+  "shortName": "katana",
   "chainId": 747474,
   "networkId": 747474,
   "explorers": []
