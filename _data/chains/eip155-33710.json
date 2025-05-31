@@ -1,0 +1,23 @@
+{
+  "name": "R5 Network Testnet",
+  "chain": "r5testnet",
+  "rpc": ["https://rpc-testnet.r5.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Test R5",
+    "symbol": "TR5",
+    "decimals": 18
+  },
+  "infoURL": "https://r5.network",
+  "shortName": "tr5",
+  "chainId": 33710,
+  "networkId": 33710,
+  "icon": "r5",
+  "explorers": [
+    {
+      "name": "R5 Explorer",
+      "url": "https://explorer-testnet.r5.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
