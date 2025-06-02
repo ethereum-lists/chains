@@ -1,0 +1,25 @@
+{
+  "name": "ARK Devnet",
+  "chain": "ARK",
+  "icon": "ark",
+  "rpc": ["https://dwallets-evm.mainsailhq.com/evm"],
+  "faucets": ["https://faucet.ark.io"],
+  "nativeCurrency": {
+    "name": "DARK Token",
+    "symbol": "DARK",
+    "decimals": 18
+  },
+  "infoURL": "https://ark.io",
+  "shortName": "ark-devnet",
+  "chainId": 11812,
+  "networkId": 11812,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "ARK Devnet Explorer",
+      "url": "https://explorer-demo.mainsailhq.com",
+      "standard": "none"
+    }
+  ],
+  "status": "incubating"
+}
