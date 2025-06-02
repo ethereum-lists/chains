@@ -1,0 +1,19 @@
+{
+  "name": "SiratChain",
+  "chainId": 9315,
+  "networkId": 9315,
+  "rpc": ["https://rpc.siratchain.com"],
+  "nativeCurrency": {
+    "name": "SiratChain",
+    "symbol": "SRT",
+    "decimals": 18
+  },
+  "explorers": [
+    {
+      "name": "SiratChain Explorer",
+      "url": "https://siratchain.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://www.siratnetwork.com"
+}
