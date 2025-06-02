@@ -1,7 +1,7 @@
 {
   "name": "Converge Testnet",
   "chain": "Converge Testnet",
-  "rpc": ["https://testnet.convergeonchain.xyz/rpc"],
+  "rpc": [],
   "features": [],
   "faucets": [],
   "nativeCurrency": {
@@ -13,11 +13,5 @@
   "shortName": "converge-testnet",
   "chainId": 52085145,
   "networkId": 52085145,
-  "explorers": [
-    {
-      "name": "Converge Testnet Explorer",
-      "url": "https://explorer.convergeonchain.xyz",
-      "standard": "EIP3091"
-    }
-  ]
+  "explorers": []
 }
