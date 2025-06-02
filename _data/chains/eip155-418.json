@@ -1,10 +1,14 @@
 {
-  "name": "LA Testnet",
-  "chain": "LATestnet",
-  "rpc": ["https://rpc.testnet.lachain.network"],
-  "faucets": [],
+  "name": "LaTestnet",
+  "chain": "LaTestnet",
+  "icon": "lachain-network",
+  "rpc": [
+    "https://rpc.testnet.lachain.network",
+    "https://lachain-testnet.rpc-nodes.cedalio.dev"
+  ],
+  "faucets": ["https://faucet.lachain.network"],
   "nativeCurrency": {
-    "name": "Test La Coin",
+    "name": "Test LaCoin",
     "symbol": "TLA",
     "decimals": 18
   },
@@ -13,5 +17,11 @@
   "shortName": "latestnet",
   "chainId": 418,
   "networkId": 418,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "LaTestnet Explorer",
+      "url": "https://testexplorer.lachain.network",
+      "standard": "EIP3091"
+    }
+  ]
 }

@@ -1,0 +1,23 @@
+{
+  "name": "SRICHAIN",
+  "chain": "SRICHAIN",
+  "rpc": ["https://rpc.sriscan.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SRIX",
+    "symbol": "SRIX",
+    "decimals": 18
+  },
+  "infoURL": "https://sriscan.com",
+  "shortName": "sriscan",
+  "chainId": 95432,
+  "networkId": 95432,
+  "slip44": 108,
+  "explorers": [
+    {
+      "name": "SRICHAIN",
+      "url": "https://sriscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

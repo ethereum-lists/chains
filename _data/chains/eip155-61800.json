@@ -1,0 +1,23 @@
+{
+  "name": "AxelChain Dev-Net",
+  "chain": "AXEL",
+  "rpc": ["https://aium-rpc-dev.viacube.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Axelium",
+    "symbol": "AIUM",
+    "decimals": 18
+  },
+  "infoURL": "https://www.axel.org",
+  "shortName": "aium-dev",
+  "chainId": 61800,
+  "networkId": 61800,
+  "icon": "axelium",
+  "explorers": [
+    {
+      "name": "AxelChain Dev-Net Explorer",
+      "url": "https://devexplorer2.viacube.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

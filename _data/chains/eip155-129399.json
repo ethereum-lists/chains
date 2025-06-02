@@ -1,0 +1,25 @@
+{
+  "name": "Tatara Testnet",
+  "chain": "Tatara",
+  "rpc": ["https://rpc.tatara.katanarpc.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "",
+  "shortName": "Tatara",
+  "chainId": 129399,
+  "networkId": 129399,
+  "icon": "ethereum",
+  "explorers": [
+    {
+      "name": "Tatara explorer",
+      "url": "https://explorer.tatara.katana.network",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

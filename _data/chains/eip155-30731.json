@@ -1,0 +1,24 @@
+{
+  "name": "Movement EVM Devnet",
+  "chain": "MOVE",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Move",
+    "symbol": "MOVE",
+    "decimals": 18
+  },
+  "infoURL": "https://movementlabs.xyz",
+  "shortName": "movedev",
+  "chainId": 30731,
+  "networkId": 30731,
+  "icon": "move",
+  "explorers": [
+    {
+      "name": "mevm explorer",
+      "url": "https://explorer.movementlabs.xyz",
+      "standard": "none"
+    }
+  ],
+  "status": "incubating"
+}

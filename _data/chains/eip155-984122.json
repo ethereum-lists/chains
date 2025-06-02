@@ -1,0 +1,25 @@
+{
+  "name": "Forma",
+  "chain": "Forma",
+  "rpc": ["https://rpc.forma.art"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TIA",
+    "symbol": "TIA",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://forma.art",
+  "shortName": "forma",
+  "chainId": 984122,
+  "networkId": 984122,
+  "icon": "forma",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.forma.art",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

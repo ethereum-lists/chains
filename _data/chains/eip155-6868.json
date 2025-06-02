@@ -1,0 +1,25 @@
+{
+  "name": "Pools Mainnet",
+  "chain": "Pools",
+  "rpc": ["https://rpc.poolsmobility.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "POOLS Native Token",
+    "symbol": "POOLS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.poolschain.org",
+  "shortName": "POOLS",
+  "icon": "POOLS",
+  "chainId": 6868,
+  "networkId": 6868,
+  "slip44": 6868,
+  "explorers": [
+    {
+      "name": "poolsscan",
+      "url": "https://scan.poolsmobility.com",
+      "icon": "POOLS",
+      "standard": "EIP3091"
+    }
+  ]
+}

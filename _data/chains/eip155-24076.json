@@ -1,0 +1,24 @@
+{
+  "name": "KYMTC Testnet",
+  "chain": "KYMTC",
+  "icon": "kymtc",
+  "rpc": ["https://testnet-rpc.kymaticscan.online"],
+  "faucets": ["https://faucet.kymaticscan.online"],
+  "nativeCurrency": {
+    "name": "KYMTC",
+    "symbol": "KYMTC",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet-explorer.kymaticscan.online",
+  "shortName": "tKYMTC",
+  "chainId": 24076,
+  "networkId": 24076,
+  "explorers": [
+    {
+      "name": "KYMTC Testnet Explorer",
+      "url": "https://testnet-explorer.kymaticscan.online",
+      "icon": "kymtc",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Bitfinity Network Testnet",
+  "chain": "BTF",
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "rpc": ["https://testnet.bitfinity.network"],
+  "faucets": ["https://bitfinity.network/faucet"],
+  "nativeCurrency": {
+    "name": "Bitfinity Token",
+    "symbol": "BTF",
+    "decimals": 18
+  },
+  "infoURL": "https://bitfinity.network",
+  "shortName": "bitfinity-testnet",
+  "chainId": 355113,
+  "networkId": 355113,
+  "explorers": [
+    {
+      "name": "Bitfinity Testnet Block Explorer",
+      "url": "https://explorer.testnet.bitfinity.network",
+      "icon": "bitfinity",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Bitfinity Testnet Block Explorer",
+      "url": "https://bitfinity-test.dex.guru",
+      "icon": "dexguru",
+      "standard": "EIP3091"
+    }
+  ]
+}

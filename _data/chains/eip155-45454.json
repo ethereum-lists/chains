@@ -1,0 +1,24 @@
+{
+  "name": "Swamps L2",
+  "chain": "SWP",
+  "icon": "swamps",
+  "rpc": ["https://swamps.tc.l2aas.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SWP",
+    "symbol": "SWP",
+    "decimals": 18
+  },
+  "infoURL": "https://www.swamps.fi",
+  "shortName": "SWP",
+  "chainId": 45454,
+  "networkId": 45454,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://swamps-explorer.tc.l2aas.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

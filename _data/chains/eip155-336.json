@@ -26,6 +26,12 @@
       "url": "https://shiden.subscan.io",
       "standard": "none",
       "icon": "subscan"
+    },
+    {
+      "name": "blockscout",
+      "url": "https://blockscout.com/shiden",
+      "icon": "blockscout",
+      "standard": "EIP3091"
     }
   ]
 }

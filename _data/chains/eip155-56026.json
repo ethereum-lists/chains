@@ -1,0 +1,24 @@
+{
+  "name": "Lambda Chain Mainnet",
+  "chain": "Lambda Chain",
+  "rpc": ["https://nrpc.lambda.im/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://lambda.im",
+  "shortName": "lambda",
+  "chainId": 56026,
+  "networkId": 56026,
+  "slip44": 1,
+  "icon": "lambda-chain",
+  "explorers": [
+    {
+      "name": "Lambda Chain Mainnet Explorer",
+      "url": "https://scan.lambda.im",
+      "standard": "EIP3091"
+    }
+  ]
+}

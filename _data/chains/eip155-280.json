@@ -1,17 +1,19 @@
 {
-  "name": "zkSync Era Testnet",
+  "name": "zkSync Era Goerli Testnet (deprecated)",
+  "status": "deprecated",
   "chain": "ETH",
   "rpc": ["https://testnet.era.zksync.dev"],
-  "faucets": ["https://goerli.portal.zksync.io/faucet"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "https://era.zksync.io/docs/",
+  "infoURL": "https://zksync.io/",
   "shortName": "zksync-goerli",
   "chainId": 280,
   "networkId": 280,
+  "slip44": 1,
   "icon": "zksync-era",
   "explorers": [
     {
@@ -24,6 +26,6 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://goerli.portal.zksync.io/bridge" }]
+    "bridges": [{ "url": "https://bridge.zksync.io/" }]
   }
 }

@@ -1,0 +1,22 @@
+{
+  "name": "Memento Testnet",
+  "chain": "Memento",
+  "rpc": ["https://test-rpc.mementoblockchain.com/IRkghvI3FfEArEJMr4zC/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "memento-test",
+  "chainId": 12052024,
+  "networkId": 12052024,
+  "explorers": [
+    {
+      "name": "Tracehawk",
+      "url": "https://test-explorer.mementoblockchain.com",
+      "standard": "none"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "CURVE Mainnet",
+  "chain": "CURVE",
+  "icon": "curveIcon",
+  "rpc": ["https://mainnet-rpc.curvescan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Curve",
+    "symbol": "CURVE",
+    "decimals": 18
+  },
+  "infoURL": "https://curvescan.io",
+  "shortName": "CURVEm",
+  "chainId": 827431,
+  "networkId": 827431,
+  "explorers": [
+    {
+      "name": "CURVE Mainnet",
+      "url": "https://curvescan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
