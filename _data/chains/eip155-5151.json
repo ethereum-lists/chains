@@ -1,6 +1,6 @@
 {
-  "name": "Moca Chain Testnet",
-  "chain": "Moca Chain",
+  "name": "MeChain Testnet",
+  "chain": "MeChain",
   "rpc": ["https://testnet-rpc.mechain.tech"],
   "faucets": ["https://faucet.mechain.tech"],
   "nativeCurrency": {
@@ -16,7 +16,7 @@
   "icon": "moca",
   "explorers": [
     {
-      "name": "Moca Chain Scan",
+      "name": "MeChain Scan",
       "url": "https://testnet-scan.mechain.tech",
       "icon": "moca",
       "standard": "EIP3091"
