@@ -25895,6 +25895,19 @@
   "faucets": ["https:/testchainv1.hetuscan.com"],
   "infoURL": "https://hetu.org"
 }, {
+  "name": "Rogue Chain",
+  "chainId": 560013,
+  "shortName": "rogue",
+  "networkId": 560013,
+  "nativeCurrency": {
+    "name": "Rogue",
+    "symbol": "ROGUE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.roguechain.io/rpc", "wss://rpc.roguechain.io/ws"],
+  "faucets": [],
+  "infoURL": "https://roguechain.io"
+}, {
   "name": "Ethereum Hoodi",
   "chainId": 560048,
   "shortName": "hoe",
