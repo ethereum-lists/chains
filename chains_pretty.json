@@ -2885,9 +2885,9 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Eternal Mainnet",
-  "chain": "ETE",
-  "icon": "eternal",
+  "name": "Eteria Mainnet",
+  "chain": "ERA",
+  "icon": "eteria",
   "rpc": ["https://mainnet.eternalcoin.io/v1", "ws://mainnet.eternalcoin.io/v1/ws"],
   "features": [{
     "name": "EIP155"
@@ -2896,12 +2896,12 @@
   }],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Eternal",
-    "symbol": "ETE",
+    "name": "Eteria",
+    "symbol": "ERA",
     "decimals": 18
   },
-  "infoURL": "https://eternalcoin.io",
-  "shortName": "ETE",
+  "infoURL": "https://eteria.io",
+  "shortName": "ERA",
   "chainId": 140,
   "networkId": 140
 }, {

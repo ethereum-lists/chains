@@ -1806,18 +1806,18 @@
   "faucets": [],
   "infoURL": "https://wikiwoop.com"
 }, {
-  "name": "Eternal Mainnet",
+  "name": "Eteria Mainnet",
   "chainId": 140,
-  "shortName": "ETE",
+  "shortName": "ERA",
   "networkId": 140,
   "nativeCurrency": {
-    "name": "Eternal",
-    "symbol": "ETE",
+    "name": "Eteria",
+    "symbol": "ERA",
     "decimals": 18
   },
   "rpc": ["https://mainnet.eternalcoin.io/v1", "ws://mainnet.eternalcoin.io/v1/ws"],
   "faucets": [],
-  "infoURL": "https://eternalcoin.io"
+  "infoURL": "https://eteria.io"
 }, {
   "name": "Openpiece Testnet",
   "chainId": 141,
