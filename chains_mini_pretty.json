@@ -12154,6 +12154,19 @@
   "faucets": [],
   "infoURL": "https://merlinchain.io"
 }, {
+  "name": "Layer Edge Mainnet",
+  "chainId": 4207,
+  "shortName": "LayerEdge",
+  "networkId": 4207,
+  "nativeCurrency": {
+    "name": "Layer Edge",
+    "symbol": "EDGEN",
+    "decimals": 18
+  },
+  "rpc": ["https://layeredge-mainnet-evm.itrocket.net", "https://layeredge.rpc.subquery.network/public", "https://rpc.layeredge.io", "https://rpc2.layeredge.io", "https://rpc.layeredge.foundation", "https://rpc2.layeredge.foundation"],
+  "faucets": [],
+  "infoURL": "https://layeredge.io"
+}, {
   "name": "Nexi Mainnet",
   "chainId": 4242,
   "shortName": "nexi",
