@@ -1,10 +1,7 @@
 {
   "name": "zkXPLA Testnet",
   "chain": "zkXPLA",
-  "rpc": [
-    "https://xpla-testnet.rpc.caldera.xyz",
-    "wss://xpla-testnet.rpc.caldera.xyz"
-  ],
+  "rpc": ["https://testnet-rpc.zkxpla.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -19,7 +16,7 @@
   "explorers": [
     {
       "name": "zkXPLA Testnet Explorer",
-      "url": "https://xpla-testnet.explorer.caldera.xyz",
+      "url": "https://testnet-explorer.zkxpla.io",
       "standard": "EIP3091"
     }
   ]
