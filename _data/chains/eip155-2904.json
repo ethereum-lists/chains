@@ -1,0 +1,30 @@
+{
+  "name": "LaChainZK",
+  "chain": "LaChainZK",
+  "icon": "lachainzk",
+  "rpc": ["https://rpc1.zk.lachain.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LaCoin",
+    "symbol": "LAC",
+    "decimals": 18
+  },
+  "infoURL": "https://lachain.network/",
+  "shortName": "lachain-zk",
+  "chainId": 2904,
+  "networkId": 2904,
+  "explorers": [
+    {
+      "name": "LaChainZK Explorer",
+      "url": "https://explorer.zk.lachain.network/?network=LaChainZK",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [
+      { "url": "https://bridge.zk.lachain.network/bridge?network=lachainzk" }
+    ]
+  }
+}
