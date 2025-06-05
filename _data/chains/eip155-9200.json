@@ -1,0 +1,25 @@
+{
+  "name": "TOK Chain",
+  "chain": "TOK",
+  "icon": "tok",
+  "rpc": [
+    "https://rpc.tokchain.org"
+  ],
+  "features": [],
+  "nativeCurrency": {
+    "name": "TOK",
+    "symbol": "TOK",
+    "decimals": 18
+  },
+  "infoURL": "https://tokchain.org",
+  "shortName": "tok",
+  "chainId": 9200,
+  "networkId": 9200,
+  "explorers": [
+    {
+      "name": "tokscan",
+      "url": "https://tokscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
