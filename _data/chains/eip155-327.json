@@ -1,0 +1,25 @@
+{
+  "name": "Staco Chain",
+  "chain": "Staco",
+  "rpc": ["https://rpc-mainnet.stacochain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Staco",
+    "symbol": "STACO",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://stacochain.com",
+  "shortName": "staco",
+  "chainId": 327,
+  "networkId": 327,
+  "icon": "stacochain",
+  "explorers": [
+    {
+      "name": "Staco Explorer",
+      "url": "https://explorer.stacochain.com",
+      "icon": "stacochain",
+      "standard": "EIP3091"
+    }
+  ]
+}
