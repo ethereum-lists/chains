@@ -1,0 +1,24 @@
+{
+  "name": "LayerAI Testnet",
+  "chain": "LAI",
+  "rpc": ["https://rpc-testnet.layerai.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SepoliaEther",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://layerai.org",
+  "shortName": "laitest",
+  "chainId": 2828,
+  "networkId": 2828,
+  "icon": "layerai",
+  "explorers": [
+    {
+      "name": "LayerAI Testnet Explorer",
+      "url": "https://explorer-testnet.layerai.org",
+      "icon": "layerai",
+      "standard": "EIP3091"
+    }
+  ]
+}
