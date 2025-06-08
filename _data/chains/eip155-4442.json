@@ -9,14 +9,14 @@
     "decimals": 18
   },
   "infoURL": "https://d.energy/",
-  "shortName": "den",
+  "shortName": "den-testnet",
   "chainId": 4442,
   "networkId": 4442,
   "icon": "denergy",
   "explorers": [
     {
       "name": "Denergy Explorer",
-      "url": "https://explorer.denergytestnet.com/",
+      "url": "https://explorer.denergytestnet.com",
       "icon": "denergy",
       "standard": "EIP3091"
     }
