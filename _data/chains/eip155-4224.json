@@ -1,0 +1,32 @@
+{
+  "name": "ARPA Chain",
+  "chain": "arpachain",
+  "rpc": [
+    "https://arpachain.calderachain.xyz/http"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://arpachain.hub.caldera.xyz",
+  "shortName": "arpachain",
+  "chainId": 4224,
+  "networkId": 4224,
+  "explorers": [
+    {
+      "name": "ARPA Chain Caldera Explorer",
+      "url": "https://arpachain.calderaexplorer.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
