@@ -1,9 +1,7 @@
 {
   "name": "ARPA Chain",
   "chain": "arpachain",
-  "rpc": [
-    "https://arpachain.calderachain.xyz/http"
-  ],
+  "rpc": ["https://arpachain.calderachain.xyz/http"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
