@@ -1,0 +1,22 @@
+{
+  "name": "Exabyte Chain Mainnet",
+  "chain": "Exabyte Chain",
+  "rpc": ["https://mainnet.exabyte.vn/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EXABYTE",
+    "symbol": "EXA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.exabyte.vn/",
+  "shortName": "EXABYTE",
+  "chainId": 66666,
+  "networkId": 66666,
+  "explorers": [
+    {
+      "name": "exabyteexplorer",
+      "url": "https://explorer.exabyte.vn",
+      "standard": "EIP3091"
+    }
+  ]
+}
