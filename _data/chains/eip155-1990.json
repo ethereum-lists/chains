@@ -1,0 +1,22 @@
+{
+  "name": "QIE-Testnet",
+  "chain": "QIE",
+  "rpc": ["https://testnetqierpc1.digital"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QIE Test Token",
+    "symbol": "QIE",
+    "decimals": 18
+  },
+  "infoURL": "https://qie.digital",
+  "shortName": "qietest",
+  "chainId": 1990,
+  "networkId": 1990,
+  "explorers": [
+    {
+      "name": "QIE Testnet Explorer",
+      "url": "https://testnet.qie.digital",
+      "standard": "EIP3091"
+    }
+  ]
+}
