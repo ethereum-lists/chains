@@ -1,0 +1,23 @@
+{
+  "name": "BlockNodeCore Testnet",
+  "chain": "BlockNodeCore Testnet",
+  "icon": "BNCIcon",
+  "rpc": ["https://testnet-rpc.blocknodecore.com"],
+  "faucets": ["https://faucet.blocknodecore.com"],
+  "nativeCurrency": {
+    "name": "BlockNodeChain",
+    "symbol": "TBNC",
+    "decimals": 18
+  },
+  "infoURL": "https://blocknodecore.com",
+  "shortName": "TBNCt",
+  "chainId": 23225,
+  "networkId": 23225,
+  "explorers": [
+    {
+      "name": "BlockNodeCore Testnet Explorer",
+      "url": "https://testnet.blocknodecore.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
