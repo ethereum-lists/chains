@@ -1,0 +1,32 @@
+{
+  "name": "Kadena Testnet 23",
+  "chain": "Kadena",
+  "rpc": [
+    "https://api.testnet.chainweb.com/chainweb/0.0/testnet04/chain/23/evm/rpc",
+    "wss://api.testnet.chainweb.com/chainweb/0.0/testnet04/chain/23/evm/ws"
+  ],
+  "faucets": ["https://tools.kadena.io/faucet/evm"],
+  "nativeCurrency": {
+    "name": "Testnet Kadena",
+    "symbol": "tKDA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.kadena.io",
+  "shortName": "kda-testnet-23",
+  "chainId": 5913,
+  "networkId": 5913,
+  "explorers": [
+    {
+      "name": "Kadena Explorer",
+      "url": "https://explorer.kadena.io/testnet",
+      "standard": "none"
+    },
+    {
+      "name": "Chainweb Explorer",
+      "url": "https://explorer.kadena.io/testnet",
+      "standard": "none"
+    }
+  ],
+  "slip44": 626,
+  "status": "incubating"
+}
