@@ -1,0 +1,32 @@
+{
+  "name": "Kadena Mainnet 24",
+  "chain": "KDA",
+  "rpc": [
+    "https://api.chainweb.com/chainweb/0.0/mainnet01/chain/24/evm/rpc",
+    "wss://api.chainweb.com/chainweb/0.0/mainnet01/chain/24/evm/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Kadena",
+    "symbol": "KDA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.kadena.io",
+  "shortName": "kda-mainnet-24",
+  "chainId": 5904,
+  "networkId": 5904,
+  "explorers": [
+    {
+      "name": "Kadena Explorer",
+      "url": "https://explorer.kadena.io/mainnet",
+      "standard": "none"
+    },
+    {
+      "name": "Chainweb Explorer",
+      "url": "https://explorer.kadena.io/mainnet",
+      "standard": "none"
+    }
+  ],
+  "slip44": 626,
+  "status": "incubating"
+}
