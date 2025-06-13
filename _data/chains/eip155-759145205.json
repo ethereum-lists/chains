@@ -1,0 +1,23 @@
+{
+  "name": "MarteXchain",
+  "chain": "MXT",
+  "icon": "martexchain",
+  "rpc": ["https://rpc.martexchain.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MarteXchain",
+    "symbol": "MXT",
+    "decimals": 18
+  },
+  "infoURL": "https://mxtscan.martexcoin.net",
+  "shortName": "MXT",
+  "chainId": 759145205,
+  "networkId": 759145205,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://mxtscan.martexcoin.net/",
+      "standard": "none"
+    }
+  ]
+}
