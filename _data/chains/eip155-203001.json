@@ -1,0 +1,19 @@
+{
+  "name": "US Benchmark Coin Sandbox",
+  "chain": "USBC-Testnet",
+  "rpc": ["http://rpc-sandbox.usbc.xyz:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "US Benchmark Coin",
+    "symbol": "USBC",
+    "decimals": 18
+  },
+  "infoURL": "https://usbc.xyz",
+  "shortName": "usbc-sandbox",
+  "chainId": 203001,
+  "networkId": 203001,
+  "icon": "usbc",
+  "explorers": [],
+  "status": "testnet"
+}
+
