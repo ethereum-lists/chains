@@ -1,0 +1,28 @@
+{
+  "name": "VirBiCoin",
+  "chain": "VBC",
+  "icon": "vbc",
+  "rpc": ["https://rpc.digitalregion.jp"],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "VirBiCoin",
+    "symbol": "VBC",
+    "decimals": 18
+  },
+  "infoURL": "https://vbc.digitalregion.jp",
+  "shortName": "vbc",
+  "chainId": 329,
+  "networkId": 329,
+  "explorers": [
+    {
+      "name": "VirBiCoin Explorer",
+      "url": "https://explorer.digitalregion.jp",
+      "standard": "EIP3091"
+    }
+  ]
+}
