@@ -1,21 +1,21 @@
 {
-  "name": "Cosvm Mainnet",
-  "chain": "CVM",
-  "rpc": ["https://rpc.cosvm.net"],
+  "name": "Buycex Mainnet",
+  "chain": "BCX",
+  "rpc": ["https://rpc.buycex.net"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Cosvm",
-    "symbol": "CVM",
+    "name": "Buycex",
+    "symbol": "BCX",
     "decimals": 18
   },
-  "infoURL": "https://cosvm.network",
-  "shortName": "cvm",
+  "infoURL": "https://web3.buycex.com",
+  "shortName": "bcx",
   "chainId": 323,
   "networkId": 323,
   "explorers": [
     {
       "name": "Blockscout",
-      "url": "https://explorer.cosvm.net",
+      "url": "https://explorer.buycex.net",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
