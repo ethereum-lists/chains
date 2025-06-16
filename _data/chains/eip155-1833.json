@@ -1,0 +1,37 @@
+{
+  "name": "Verify testnet",
+  "title": "Verify Testnet",
+  "chain": "verify-testnet",
+  "rpc": [
+    "https://rpc.verify-testnet.gelato.digital",
+    "wss://ws.verify-testnet.gelato.digital"
+  ],
+  "nativeCurrency": {
+    "name": "Matic",
+    "symbol": "MATIC",
+    "decimals": 18
+  },
+  "infoURL": "https://raas.gelato.network/rollups/details/public/verify-testnet",
+  "faucets": [],
+  "shortName": "verify-testnet",
+  "chainId": 1833,
+  "networkId": 1833,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://verify-testnet.blockscout.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-80002",
+    "bridges": [
+      {
+        "url": "https://bridge.gelato.network/bridge/verify-testnet"
+      }
+    ]
+  }
+}

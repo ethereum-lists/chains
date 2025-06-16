@@ -1,0 +1,16 @@
+{
+  "name": "SatoshiVM Testnet",
+  "chain": "SatoshiVM",
+  "rpc": ["https://test-rpc-node-http.svmscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.satoshivm.io/",
+  "shortName": "tSAVM",
+  "chainId": 3110,
+  "networkId": 3110,
+  "icon": "satoshivm"
+}

@@ -1,7 +1,11 @@
 {
   "name": "Cronos Testnet",
   "chain": "CRO",
-  "rpc": ["https://evm-t3.cronos.org"],
+  "rpc": [
+    "https://evm-t3.cronos.org",
+    "https://cronos-testnet.drpc.org",
+    "wss://cronos-testnet.drpc.org"
+  ],
   "faucets": ["https://cronos.org/faucet"],
   "nativeCurrency": {
     "name": "Cronos Test Coin",

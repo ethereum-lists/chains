@@ -1,0 +1,22 @@
+{
+  "name": "ApeChain",
+  "chain": "apechain",
+  "rpc": ["https://rpc.apechain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ApeCoin",
+    "symbol": "APE",
+    "decimals": 18
+  },
+  "infoURL": "https://apechain.com",
+  "shortName": "apechain",
+  "chainId": 33139,
+  "networkId": 33139,
+  "explorers": [
+    {
+      "name": "ApeChain Explorer",
+      "url": "https://apescan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

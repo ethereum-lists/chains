@@ -7,7 +7,9 @@
     "https://boba-ethereum.gateway.tenderly.co",
     "https://gateway.tenderly.co/public/boba-ethereum",
     "wss://boba-ethereum.gateway.tenderly.co/",
-    "wss://gateway.tenderly.co/public/boba-ethereum"
+    "wss://gateway.tenderly.co/public/boba-ethereum",
+    "https://boba-eth.drpc.org",
+    "wss://boba-eth.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,11 +26,6 @@
     {
       "name": "Bobascan",
       "url": "https://bobascan.com",
-      "standard": "none"
-    },
-    {
-      "name": "Blockscout",
-      "url": "https://blockexplorer.boba.network",
       "standard": "none"
     }
   ],

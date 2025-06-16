@@ -1,0 +1,23 @@
+{
+  "name": "Story Aeneid Testnet",
+  "chain": "Story Aeneid Testnet",
+  "rpc": ["https://aeneid.storyrpc.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "IP Token",
+    "symbol": "IP",
+    "decimals": 18
+  },
+  "infoURL": "https://story.foundation/",
+  "icon": "story",
+  "shortName": "story-aeneid",
+  "chainId": 1315,
+  "networkId": 1315,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://aeneid.storyscan.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
