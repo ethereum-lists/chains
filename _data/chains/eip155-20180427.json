@@ -2,9 +2,7 @@
   "name": "Stability Testnet",
   "chain": "stabilityTestnet",
   "icon": "stabilitytestnet",
-  "rpc": [
-    "https://rpc.testnet.stabilityprotocol.com"
-  ],
+  "rpc": ["https://rpc.testnet.stabilityprotocol.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "FREE",
