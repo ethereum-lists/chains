@@ -1,0 +1,25 @@
+{
+  "name": "Rome Devnet 2",
+  "chain": "ROME",
+  "rpc": ["https://devnet-2.devnet.romeprotocol.xyz"],
+  "faucets": ["https://deposit.devnet.romeprotocol.xyz"],
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "infoURL": "https://rome.builders",
+  "shortName": "rome-devnet-2",
+  "chainId": 121213,
+  "networkId": 121213,
+  "icon": "rome",
+  "explorers": [
+    {
+      "name": "Rome Devnet 2 Explorer",
+      "url": "https://romescout-devnet-2.devnet.romeprotocol.xyz",
+      "icon": "rome",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
