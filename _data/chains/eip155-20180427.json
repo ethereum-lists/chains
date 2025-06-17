@@ -2,7 +2,9 @@
   "name": "Stability Testnet",
   "chain": "stabilityTestnet",
   "icon": "stabilitytestnet",
-  "rpc": ["https://free.testnet.stabilityprotocol.com"],
+  "rpc": [
+    "https://rpc.testnet.stabilityprotocol.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "FREE",
@@ -17,7 +19,7 @@
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://stability-testnet.blockscout.com",
+      "url": "https://explorer.testnet.stabilityprotocol.com",
       "standard": "EIP3091"
     }
   ]

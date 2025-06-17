@@ -2,7 +2,9 @@
   "name": "Global Trust Network",
   "chain": "GTN",
   "icon": "gtn",
-  "rpc": ["https://gtn.stabilityprotocol.com"],
+  "rpc": [
+    "https://rpc.stabilityprotocol.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "FREE",
@@ -16,9 +18,11 @@
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://stability.blockscout.com",
+      "url": "https://explorer.stabilityprotocol.com",
       "standard": "EIP3091"
     }
   ],
-  "redFlags": ["reusedChainId"]
+  "redFlags": [
+    "reusedChainId"
+  ]
 }
