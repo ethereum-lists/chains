@@ -1,5 +1,5 @@
 {
-  "name": "Rome Testnet",
+  "name": "Rome Testnet Martius",
   "chain": "ROME",
   "rpc": ["https://testnet-1.testnet.romeprotocol.xyz"],
   "faucets": ["https://deposit.testnet.romeprotocol.xyz"],
@@ -9,13 +9,13 @@
     "decimals": 18
   },
   "infoURL": "https://rome.builders",
-  "shortName": "rome-testnet",
+  "shortName": "rome-testnet-martius",
   "chainId": 121214,
   "networkId": 121214,
   "icon": "rome",
   "explorers": [
     {
-      "name": "Rome Testnet Explorer",
+      "name": "Rome Testnet Martius Explorer",
       "url": "https://romescout-testnet-1.testnet.romeprotocol.xyz",
       "icon": "rome",
       "standard": "EIP3091"
