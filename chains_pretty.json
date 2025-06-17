@@ -4725,7 +4725,7 @@
   "title": "TAC Mainnet",
   "chain": "TAC",
   "icon": "tac",
-  "rpc": [],
+  "rpc": ["https://rpc.tac.build", "https://rpc.ankr.com/tac", "https://ws.rpc.tac.build"],
   "faucets": [],
   "nativeCurrency": {
     "name": "TAC",
@@ -4733,10 +4733,19 @@
     "decimals": 18
   },
   "infoURL": "https://tac.build/",
-  "shortName": "tac",
+  "shortName": "tacchain_239-1",
+  "slip44": 60,
   "chainId": 239,
   "networkId": 239,
-  "explorers": []
+  "explorers": [{
+    "name": "TAC Explorer",
+    "url": "https://explorer.tac.build",
+    "standard": "EIP3091"
+  }, {
+    "name": "Blockscout",
+    "url": "https://tac.blockscout.com",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Cronos zkEVM Testnet",
   "chain": "CronosZkEVMTestnet",
@@ -16827,10 +16836,32 @@
   "shortName": "tacchain_2390-1",
   "chainId": 2390,
   "networkId": 2390,
-  "slip44": 1,
+  "slip44": 60,
   "explorers": [{
     "name": "TAC Turin Blockscout",
     "url": "https://turin.explorer.tac.build",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "TAC Saint Petersburg",
+  "title": "TAC Testnet SPB",
+  "chain": "TAC",
+  "icon": "tactestnet",
+  "rpc": ["https://spb.rpc.tac.build", "https://rpc.ankr.com/tac_spb", "https://spb-ws.rpc.tac.build"],
+  "faucets": ["https://spb.faucet.tac.build/"],
+  "nativeCurrency": {
+    "name": "TAC",
+    "symbol": "TAC",
+    "decimals": 18
+  },
+  "infoURL": "https://tac.build/",
+  "shortName": "tacchain_2391-1",
+  "chainId": 2391,
+  "networkId": 2391,
+  "slip44": 60,
+  "explorers": [{
+    "name": "TAC SPB Explorer",
+    "url": "https://spb.explorer.tac.build",
     "standard": "EIP3091"
   }]
 }, {

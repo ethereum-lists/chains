@@ -2965,14 +2965,14 @@
 }, {
   "name": "TAC Mainnet",
   "chainId": 239,
-  "shortName": "tac",
+  "shortName": "tacchain_239-1",
   "networkId": 239,
   "nativeCurrency": {
     "name": "TAC",
     "symbol": "TAC",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.tac.build", "https://rpc.ankr.com/tac", "https://ws.rpc.tac.build"],
   "faucets": [],
   "infoURL": "https://tac.build/"
 }, {
@@ -10293,6 +10293,19 @@
   },
   "rpc": ["https://turin.rpc.tac.build", "https://rpc.ankr.com/tac_turin", "https://turin-ws.rpc.tac.build"],
   "faucets": ["https://turin.faucet.tac.build/"],
+  "infoURL": "https://tac.build/"
+}, {
+  "name": "TAC Saint Petersburg",
+  "chainId": 2391,
+  "shortName": "tacchain_2391-1",
+  "networkId": 2391,
+  "nativeCurrency": {
+    "name": "TAC",
+    "symbol": "TAC",
+    "decimals": 18
+  },
+  "rpc": ["https://spb.rpc.tac.build", "https://rpc.ankr.com/tac_spb", "https://spb-ws.rpc.tac.build"],
+  "faucets": ["https://spb.faucet.tac.build/"],
   "infoURL": "https://tac.build/"
 }, {
   "name": "BOMB Chain Testnet",
