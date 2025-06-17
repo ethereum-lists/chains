@@ -1,0 +1,34 @@
+{
+  "name": "billions-testnet",
+  "title": "billions-testnet",
+  "chain": "billions-testnet",
+  "rpc": ["https://billions-testnet-rpc.eu-north-2.gateway.fm"],
+  "features": [{ "name": "EIP155" }],
+  "faucets": ["https://billions-testnet-faucet.eu-north-2.gateway.fm"],
+  "status": "active",
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://billions.network",
+  "shortName": "billionstest",
+  "chainId": 6913,
+  "networkId": 6913,
+  "icon": "billions",
+  "explorers": [
+    {
+      "name": "Billions Testnet Explorer",
+      "url": "https://billions-testnet-blockscout.eu-north-2.gateway.fm",
+      "icon": "billions",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [
+      { "url": "https://billions-testnet-bridge.eu-north-2.gateway.fm" }
+    ]
+  }
+}
