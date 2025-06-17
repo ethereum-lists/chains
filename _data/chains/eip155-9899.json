@@ -1,7 +1,7 @@
 {
-  "name": "arena-z-testnet-3",
-  "title": "Arena-Z-Testnet-3",
-  "chain": "arena-z-testnet-3",
+  "name": "Arena-Z-Testnet",
+  "title": "Arena-Z-Testnet",
+  "chain": "arena-z-testnet",
   "rpc": ["https://testnet-rpc.arena-z.gg", "wss://testnet-ws.arena-z.gg"],
   "nativeCurrency": {
     "name": "Ether",
@@ -9,9 +9,9 @@
     "decimals": 18
   },
   "icon": "arena-z",
-  "infoURL": "https://raas.gelato.network/rollups/details/public/arena-z-testnet-3",
+  "infoURL": "https://raas.gelato.network/rollups/details/public/arena-z-testnet",
   "faucets": ["https://testnet-faucet.arena-z.gg"],
-  "shortName": "arena-z-testnet-3",
+  "shortName": "arena-z-testnet",
   "chainId": 9899,
   "networkId": 9899,
   "explorers": [
@@ -25,9 +25,7 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [
-      { "url": "https://testnet-bridge.arena-z.gg" }
-    ]
+    "bridges": [{ "url": "https://testnet-bridge.arena-z.gg" }]
   },
   "status": "active"
 }
