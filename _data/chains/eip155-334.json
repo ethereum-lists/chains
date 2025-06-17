@@ -1,0 +1,26 @@
+{
+  "name": "B2N",
+  "chain": "B2N",
+  "rpc": [
+    "https://t3rn-b2n.blockpi.network/v1/rpc/public",
+    "https://b2n.rpc.caldera.xyz/http"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BRN",
+    "symbol": "BRN",
+    "decimals": 18
+  },
+  "infoURL": "https://www.t3rn.io",
+  "shortName": "B2N",
+  "chainId": 334,
+  "networkId": 334,
+  "icon": "b2n",
+  "explorers": [
+    {
+      "name": "Caldera",
+      "url": "https://b2n.hub.caldera.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
