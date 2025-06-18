@@ -1,0 +1,33 @@
+{
+  "name": "Primordial Testnet",
+  "chain": "BlockDAG Network",
+  "rpc": ["https://rpc.primordial.bdagscan.com/"],
+  "faucets": ["https://primordial.bdagscan.com/faucet?chain=EVM"],
+  "nativeCurrency": {
+    "name": "BlockDAG",
+    "symbol": "BDAG",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://blockdag.network",
+  "shortName": "BlockDAGNetwork",
+  "chainId": 1043,
+  "networkId": 1043,
+  "icon": "blockdag",
+  "explorers": [
+    {
+      "name": "BlockDAG Network",
+      "url": "https://primordial.bdagscan.com/",
+      "icon": "blockdag",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
