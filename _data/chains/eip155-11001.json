@@ -1,0 +1,24 @@
+{
+  "name": "Cintara Testnet",
+  "chain": "Cintara Testnet",
+  "rpc": ["https://rpc.testnet.cintara.io/"],
+  "faucets": ["https://testnet.cintara.io/faucet"],
+  "nativeCurrency": {
+    "name": "Cintara Testnet Token",
+    "symbol": "CINT",
+    "decimals": 18
+  },
+  "infoURL": "https://www.cintara.io/",
+  "shortName": "Cintara",
+  "chainId": 11001,
+  "networkId": 11001,
+  "icon": "cintara",
+  "explorers": [
+    {
+      "name": "Cintara Testnet Explorer",
+      "url": "https://testnet.cintara.io",
+      "standard": "none",
+      "icon": "cintara"
+    }
+  ]
+}
