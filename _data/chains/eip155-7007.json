@@ -1,0 +1,23 @@
+{
+  "name": "BST Chain",
+  "chain": "BSTC",
+  "rpc": ["https://rpc.bstchain.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BST Chain",
+    "symbol": "BSTC",
+    "decimals": 18
+  },
+  "infoURL": "https://bstchain.io",
+  "shortName": "BSTC",
+  "chainId": 7007,
+  "networkId": 7007,
+  "icon": "bstc",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://bstscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

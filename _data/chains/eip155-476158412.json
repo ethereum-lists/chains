@@ -1,0 +1,26 @@
+{
+  "name": "Deprecated SKALE Europa Hub Testnet",
+  "title": "Deprecated Europa Hub Testnet",
+  "status": "deprecated",
+  "chain": "staging-legal-crazy-castor",
+  "icon": "europa",
+  "rpc": ["https://staging-v3.skalenodes.com/v1/staging-legal-crazy-castor"],
+  "faucets": ["https://sfuel.dirtroad.dev/staging"],
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "infoURL": "https://europahub.network/",
+  "shortName": "deprecated-europa-testnet",
+  "chainId": 476158412,
+  "networkId": 476158412,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://staging-legal-crazy-castor.explorer.staging-v3.skalenodes.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

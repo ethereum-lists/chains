@@ -1,0 +1,23 @@
+{
+  "name": "NEAR Protocol",
+  "chain": "NEAR",
+  "rpc": ["https://eth-rpc.mainnet.near.org"],
+  "icon": "near",
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NEAR",
+    "symbol": "NEAR",
+    "decimals": 18
+  },
+  "infoURL": "https://near.org",
+  "shortName": "near",
+  "chainId": 397,
+  "networkId": 397,
+  "explorers": [
+    {
+      "name": "NEAR Explorer",
+      "url": "https://eth-explorer.near.org",
+      "standard": "EIP3091"
+    }
+  ]
+}

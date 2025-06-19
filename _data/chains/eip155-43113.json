@@ -4,7 +4,8 @@
   "icon": "avax",
   "rpc": [
     "https://api.avax-test.network/ext/bc/C/rpc",
-    "https://avalanche-fuji-c-chain.publicnode.com"
+    "https://avalanche-fuji-c-chain-rpc.publicnode.com",
+    "wss://avalanche-fuji-c-chain-rpc.publicnode.com"
   ],
   "faucets": ["https://faucet.avax-test.network/"],
   "nativeCurrency": {
@@ -16,10 +17,21 @@
   "shortName": "Fuji",
   "chainId": 43113,
   "networkId": 1,
+  "slip44": 1,
   "explorers": [
     {
-      "name": "snowtrace",
+      "name": "Etherscan",
+      "url": "https://testnet.snowscan.xyz",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Routescan",
       "url": "https://testnet.snowtrace.io",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Avascan",
+      "url": "https://testnet.avascan.info",
       "standard": "EIP3091"
     }
   ]

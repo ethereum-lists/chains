@@ -9,8 +9,8 @@ jobs:
     runs-on: ["self-hosted", "rollup/run-on-arch-nodoubtz-rollup-ci-s390x-ubuntu-latest"]
     steps:
     - name: Check out repo
-      uses: actions/checkout@v2
-    - uses: actions/cache@v2
+      uses: actions/checkout@v4.2.2
+    - uses: actions/cache@v4
       name: Configure npm caching
       with:
         path: ~/.npm

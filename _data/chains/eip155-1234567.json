@@ -1,0 +1,25 @@
+{
+  "name": "Sharecle Mainnet",
+  "chain": "SHARECLE",
+  "icon": "sharecle",
+  "rpc": ["https://mainnet.sharecle.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SHARECLE COIN",
+    "symbol": "SHR",
+    "decimals": 18
+  },
+  "infoURL": "https://sharecle.com/",
+  "shortName": "shr",
+  "chainId": 1234567,
+  "networkId": 1234567,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Etherscan",
+      "url": "https://etherscan.io",
+      "standard": "none",
+      "icon": "sharecle"
+    }
+  ]
+}

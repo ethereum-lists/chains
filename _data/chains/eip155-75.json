@@ -1,7 +1,13 @@
 {
   "name": "Decimal Smart Chain Mainnet",
   "chain": "DSC",
-  "rpc": ["https://node.decimalchain.com/web3/"],
+  "rpc": [
+    "https://node.decimalchain.com/web3/",
+    "https://node1-mainnet.decimalchain.com/web3/",
+    "https://node2-mainnet.decimalchain.com/web3/",
+    "https://node3-mainnet.decimalchain.com/web3/",
+    "https://node4-mainnet.decimalchain.com/web3/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Decimal",

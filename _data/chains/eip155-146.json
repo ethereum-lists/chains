@@ -1,0 +1,29 @@
+{
+  "name": "Sonic Mainnet",
+  "chain": "sonic",
+  "rpc": [
+    "https://rpc.soniclabs.com",
+    "https://sonic-rpc.publicnode.com",
+    "wss://sonic-rpc.publicnode.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sonic",
+    "symbol": "S",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://soniclabs.com",
+  "shortName": "sonic",
+  "chainId": 146,
+  "networkId": 146,
+  "icon": "sonic",
+  "explorers": [
+    {
+      "name": "sonic",
+      "url": "https://explorer.soniclabs.com",
+      "icon": "sonic",
+      "standard": "none"
+    }
+  ]
+}

@@ -1,7 +1,13 @@
 {
   "name": "Base Goerli Testnet",
   "chain": "ETH",
-  "rpc": ["https://goerli.base.org"],
+  "rpc": [
+    "https://goerli.base.org",
+    "https://base-goerli.gateway.tenderly.co",
+    "wss://base-goerli.gateway.tenderly.co",
+    "https://base-goerli-rpc.publicnode.com",
+    "wss://base-goerli-rpc.publicnode.com"
+  ],
   "faucets": ["https://www.coinbase.com/faucets/base-ethereum-goerli-faucet"],
   "nativeCurrency": {
     "name": "Goerli Ether",
@@ -12,6 +18,7 @@
   "shortName": "basegor",
   "chainId": 84531,
   "networkId": 84531,
+  "slip44": 1,
   "icon": "baseTestnet",
   "explorers": [
     {
@@ -23,6 +30,12 @@
       "name": "basescout",
       "url": "https://base-goerli.blockscout.com",
       "icon": "blockscout",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://base-goerli.dex.guru",
+      "icon": "dexguru",
       "standard": "EIP3091"
     }
   ]

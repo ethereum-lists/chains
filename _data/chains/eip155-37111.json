@@ -1,0 +1,29 @@
+{
+  "name": "Lens Testnet",
+  "title": "Lens Network Sepolia Testnet",
+  "chain": "Lens",
+  "rpc": ["https://rpc.testnet.lens.dev"],
+  "faucets": ["https://www.alchemy.com/faucets/lens-sepolia"],
+  "chainId": 37111,
+  "networkId": 37111,
+  "nativeCurrency": {
+    "name": "GRASS",
+    "symbol": "GRASS",
+    "decimals": 18
+  },
+  "icon": "lens",
+  "infoURL": "https://www.lens.xyz",
+  "shortName": "lens-sepolia",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "https://portal.testnet.lens.dev/bridge" }]
+  },
+  "explorers": [
+    {
+      "name": "Lens Testnet Block Explorer",
+      "url": "https://block-explorer.testnet.lens.dev",
+      "standard": "none"
+    }
+  ]
+}
