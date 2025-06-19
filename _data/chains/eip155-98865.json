@@ -1,0 +1,24 @@
+{
+  "name": "Plume (Legacy)",
+  "title": "Plume Ethereum L2 Rollup Mainnet (Legacy)",
+  "chain": "PLUME Legacy",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Plume Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://plume.org",
+  "shortName": "plume",
+  "chainId": 98865,
+  "networkId": 98865,
+  "slip44": 1,
+  "icon": "plume",
+  "status": "deprecated",
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
+}

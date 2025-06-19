@@ -1,0 +1,23 @@
+{
+  "name": "Zilliqa 2 EVM proto-mainnet",
+  "chain": "ZIL",
+  "rpc": ["https://api.zq2-protomainnet.zilliqa.com"],
+  "faucets": ["https://faucet.zq2-protomainnet.zilliqa.com"],
+  "nativeCurrency": {
+    "name": "Zilliqa",
+    "symbol": "ZIL",
+    "decimals": 18
+  },
+  "infoURL": "https://www.zilliqa.com/",
+  "shortName": "zq2-proto-mainnet",
+  "chainId": 32770,
+  "networkId": 32770,
+  "icon": "zilliqa",
+  "explorers": [
+    {
+      "name": "Zilliqa 2 EVM proto-mainnet explorer",
+      "url": "https://explorer.zq2-protomainnet.zilliqa.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

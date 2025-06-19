@@ -10,12 +10,12 @@
     "decimals": 18
   },
   "infoURL": "https://nowchain.co",
-  "shortName": "now",
+  "shortName": "tnow",
   "chainId": 2014,
   "networkId": 2014,
   "explorers": [
     {
-      "name": "nowscan",
+      "name": "nowscan testnet",
       "url": "https://testnet.nowscan.io",
       "standard": "EIP3091"
     }

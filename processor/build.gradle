@@ -11,13 +11,13 @@ dependencies {
     implementation "com.github.komputing.kethereum:crypto_impl_bouncycastle:${KETHEREUM_VERSION}"
 
     implementation 'com.beust:klaxon:5.6'
-    implementation 'com.squareup.moshi:moshi:1.15.1'
+    implementation 'com.squareup.moshi:moshi:1.15.2'
     implementation 'com.squareup.okhttp3:okhttp:4.12.0'
 
-    implementation "com.twelvemonkeys.imageio:imageio-jpeg:3.11.0"
-    implementation "com.twelvemonkeys.imageio:imageio-batik:3.11.0"
+    implementation "com.twelvemonkeys.imageio:imageio-jpeg:3.12.0"
+    implementation "com.twelvemonkeys.imageio:imageio-batik:3.12.0"
 
-    implementation "org.apache.xmlgraphics:batik-rasterizer-ext:1.17"
+    implementation "org.apache.xmlgraphics:batik-rasterizer-ext:1.18"
     implementation project(":model")
 
     testImplementation "org.jetbrains.kotlin:kotlin-test:${KOTLIN_VERSION}"

@@ -1,0 +1,25 @@
+{
+  "name": "Stenix Mainnet",
+  "chain": "STEN",
+  "rpc": ["https://stenix.network/pub"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Stenix",
+    "symbol": "STEN",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://stenix.org",
+  "shortName": "sten",
+  "chainId": 425,
+  "networkId": 425,
+  "icon": "stenix",
+  "explorers": [
+    {
+      "name": "stenscan",
+      "url": "https://stenscan.com",
+      "icon": "stenscan",
+      "standard": "none"
+    }
+  ]
+}
