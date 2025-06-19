@@ -11,4 +11,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           message: |
-            You successfully submitted a PR! Due to the amount of PRs coming in: we will only look at PRs that the CI is happy with. We can also not hold your hand getting the CI green - just look how others that where merged did it and RTFM. So as long as there is any CI check that reports an error - no human will look at this. You might be able to ask for some support after supporting the project - e.g. by sending funds to lists.eth. When you fixed things after a requested change - then you also need to (re-)request a review.
+            Thank you for submitting a pull request! Please note that due to the high volume of contributions, we can only review PRs that pass all CI checks. If your PR has failing checks, we recommend reviewing the documentation and examining merged PRs for guidance on resolving issues. Once all CI checks pass, your PR will be eligible for review. If you make changes after a requested review, please remember to re-request a review to ensure it is revisited. Thank you for your understanding and support!
