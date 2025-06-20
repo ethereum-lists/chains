@@ -24946,6 +24946,19 @@
   "faucets": [],
   "infoURL": "https://caduceus.foundation/"
 }, {
+  "name": "Althea L1 Mainnet",
+  "chainId": 258432,
+  "shortName": "ALTHEA",
+  "networkId": 258432,
+  "nativeCurrency": {
+    "name": "Althea",
+    "symbol": "ALTHEA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.althea.zone"],
+  "faucets": [],
+  "infoURL": "https://althea.net"
+}, {
   "name": "Eclat Testnet",
   "chainId": 262371,
   "shortName": "tECLAT",
