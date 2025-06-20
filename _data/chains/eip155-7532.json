@@ -1,0 +1,25 @@
+{
+  "name": "Rome Mainnet 0 Aventine",
+  "chain": "ROME",
+  "rpc": ["https://aventine-i.mainnet-0.romeprotocol.xyz"],
+  "faucets": ["https://deposit.mainnet-0.romeprotocol.xyz"],
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "infoURL": "https://rome.builders",
+  "shortName": "rome-mainnet-0-aventine",
+  "chainId": 7532,
+  "networkId": 7532,
+  "icon": "rome",
+  "explorers": [
+    {
+      "name": "Rome Mainnet 0 Aventine Explorer",
+      "url": "https://romescout-aventine-i.mainnet-0.romeprotocol.xyz",
+      "icon": "rome",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
