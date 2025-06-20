@@ -1,6 +1,9 @@
 {
   "name": "Base",
   "chain": "ETH",
+master
+  "rpc": ["https://mainnet.base.org/"],
+=======
   "rpc": [
     "https://mainnet.base.org/",
     "https://developer-access-mainnet.base.org/",
@@ -9,6 +12,7 @@
     "https://base-rpc.publicnode.com",
     "wss://base-rpc.publicnode.com"
   ],
+master
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
