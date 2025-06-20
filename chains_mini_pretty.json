@@ -16015,6 +16015,19 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "Plasma Testnet",
+  "chainId": 9746,
+  "shortName": "plasma",
+  "networkId": 9746,
+  "nativeCurrency": {
+    "name": "Testnet Plasma",
+    "symbol": "tXPL",
+    "decimals": 18
+  },
+  "rpc": ["https://ultra-quick-paper.plasma-testnet.quiknode.pro"],
+  "faucets": [],
+  "infoURL": "https://plasma.to"
+}, {
   "name": "MainnetZ Testnet",
   "chainId": 9768,
   "shortName": "NetZt",
