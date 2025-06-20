@@ -1,7 +1,7 @@
 {
   "name": "Rome Devnet Subura",
   "chain": "ROME",
-  "rpc": ["https://subura.devnet.romeprotocol.xyz"],
+  "rpc": ["https://subura-i.devnet.romeprotocol.xyz"],
   "faucets": ["https://deposit.devnet.romeprotocol.xyz"],
   "nativeCurrency": {
     "name": "RSOL",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "Rome Devnet Subura Explorer",
-      "url": "https://romescout-subura.devnet.romeprotocol.xyz",
+      "url": "https://romescout-subura-i.devnet.romeprotocol.xyz",
       "icon": "rome",
       "standard": "EIP3091"
     }

@@ -1,7 +1,7 @@
 {
   "name": "Rome Devnet Esquiline",
   "chain": "ROME",
-  "rpc": ["https://esquiline.devnet.romeprotocol.xyz"],
+  "rpc": ["https://esquiline-i.devnet.romeprotocol.xyz"],
   "faucets": ["https://deposit.devnet.romeprotocol.xyz"],
   "nativeCurrency": {
     "name": "RSOL",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "Rome Devnet Esquiline Explorer",
-      "url": "https://romescout-esquiline.devnet.romeprotocol.xyz",
+      "url": "https://romescout-esquiline-i.devnet.romeprotocol.xyz",
       "icon": "rome",
       "standard": "EIP3091"
     }
