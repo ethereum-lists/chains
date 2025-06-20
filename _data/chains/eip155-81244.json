@@ -1,0 +1,27 @@
+{
+  "name": "Codex",
+  "chainId": 81244,
+  "shortName": "Codex",
+  "chain": "Codex",
+  "networkId": 81244,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.codex.xyz", "wss://rpc.codex.xyz"],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "Codex Mainnet Explorer",
+      "url": "https://explorer.codex.xyz",
+      "icon": "codex",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://codex.xyz",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
+}
