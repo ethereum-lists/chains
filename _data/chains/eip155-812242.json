@@ -1,0 +1,27 @@
+{
+  "name": "Codex Sepolia",
+  "chainId": 812242,
+  "shortName": "Codex Sepolia",
+  "chain": "Codex Sepolia",
+  "networkId": 812242,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.codex-stg.xyz", "wss://rpc.codex-stg.xyz"],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "Codex Sepolia Explorer",
+      "url": "https://explorer.codex-stg.xyz/",
+      "icon": "codex",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://codex.xyz",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  }
+}
