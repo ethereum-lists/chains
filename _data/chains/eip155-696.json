@@ -1,0 +1,29 @@
+{
+  "name": "AIC Network",
+  "chain": "AIC",
+  "icon": "aic",
+  "rpc": ["https://rpc.aicscan.net"],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AIC",
+    "symbol": "AIC",
+    "decimals": 18
+  },
+  "infoURL": "https://aicscan.net",
+  "shortName": "aic",
+  "chainId": 696,
+  "networkId": 696,
+  "explorers": [
+    {
+      "name": "AICScan Blockscout", // Updated name slightly
+      "url": "https://aicscan.net", // Updated URL to match infoURL
+      "standard": "EIP3091" // Standard for Blockscout/EVM explorers
+    }
+  ],
+  "status": "active"
+}
