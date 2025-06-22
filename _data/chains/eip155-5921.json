@@ -17,6 +17,11 @@
   "networkId": 5921,
   "explorers": [
     {
+      "name": "testnet@chain21 explorer",
+      "url": "http://chain-21.evm-testnet-blockscout.chainweb.com",
+      "standard": "EIP3091"
+    },
+    {
       "name": "Kadena Explorer",
       "url": "https://explorer.kadena.io/evm-testnet",
       "standard": "none"

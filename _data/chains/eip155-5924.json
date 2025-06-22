@@ -17,6 +17,11 @@
   "networkId": 5924,
   "explorers": [
     {
+      "name": "testnet@chain24 explorer",
+      "url": "http://chain-24.evm-testnet-blockscout.chainweb.com",
+      "standard": "EIP3091"
+    },
+    {
       "name": "Kadena Explorer",
       "url": "https://explorer.kadena.io/evm-testnet",
       "standard": "none"
