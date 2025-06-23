@@ -12,10 +12,12 @@
   "shortName": "bokuto",
   "chainId": 737373,
   "networkId": 737373,
+  "icon": "katana",
   "explorers": [
     {
       "name": "bokuto explorer",
       "url": "https://explorer-bokuto.katanarpc.com",
+      "icon": "katana",
       "standard": "EIP3091"
     }
   ]
