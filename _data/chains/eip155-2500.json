@@ -1,0 +1,25 @@
+{
+  "name": "Consciousness Chain",
+  "chain": "CCC",
+  "rpc": [
+    "https://rpc.consciousnesschain.com",
+    "wss://wss.consciousnesschain.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Consciousness Chain Token",
+    "symbol": "CCC",
+    "decimals": 18
+  },
+  "infoURL": "https://explorer.cccscan.org",
+  "shortName": "ccc",
+  "chainId": 2500,
+  "networkId": 2500,
+  "explorers": [
+    {
+      "name": "Conscious Chain Scan",
+      "url": "https://explorer.cccscan.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
