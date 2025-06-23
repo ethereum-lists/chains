@@ -2,10 +2,7 @@
   "name": "Status Network Sepolia",
   "title": "Status Network Sepolia",
   "chain": "ETH",
-  "rpc": [
-    "https://public.sepolia.rpc.status.network",
-    "wss://status-sepolia-rpc.eu-north-2.gateway.fm/ws"
-  ],
+  "rpc": ["https://public.sepolia.rpc.status.network"],
   "faucets": ["https://faucet.status.network/"],
   "nativeCurrency": {
     "name": "Ether",
