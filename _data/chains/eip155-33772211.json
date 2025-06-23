@@ -1,7 +1,7 @@
 {
   "name": "Xone Testnet",
   "chain": "XOC",
-  "icon": "xone-test",
+  "icon": "xone_test",
   "rpc": [
     "https://rpc-testnet.xone.plus",
     "https://rpc-testnet.xone.org",
@@ -21,9 +21,9 @@
   "networkId": 33772211,
   "explorers": [
     {
-      "name": "testnet-xscscan",
-      "url": "https://testnet.xscscan.com",
-      "icon": "testnet-xscscan",
+      "name": "Testnet-Xonescan",
+      "url": "https://testnet.xonescan.com",
+      "icon": "xonescan",
       "standard": "EIP3091"
     }
   ]

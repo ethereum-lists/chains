@@ -1,7 +1,7 @@
 {
   "name": "Xone Mainnet",
   "chain": "XOC",
-  "icon": "Xonechain",
+  "icon": "xone_main",
   "rpc": ["https://rpc.xone.org", "wss://rpc-wss.xone.org"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": ["https://faucet.xone.org/"],
@@ -17,8 +17,8 @@
   "explorers": [
     {
       "name": "Xonescan",
-      "url": "https://xscscan.com",
-      "icon": "Xonescan",
+      "url": "https://xonescan.com",
+      "icon": "xonescan",
       "standard": "EIP3091"
     }
   ]
