@@ -26298,6 +26298,19 @@
   "faucets": [],
   "infoURL": "https://hemi.xyz"
 }, {
+  "name": "katana",
+  "chainId": 747474,
+  "shortName": "katana",
+  "networkId": 747474,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.katanarpc.com", "https://rpc.katana.network"],
+  "faucets": [],
+  "infoURL": "https://katana.network"
+}, {
   "name": "Bear Network Chain Testnet",
   "chainId": 751230,
   "shortName": "BRNKCTEST",
