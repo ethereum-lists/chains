@@ -1,0 +1,34 @@
+{
+  "name": "TALNTnet",
+  "chainId": 845300011,
+  "networkId": 845300011,
+  "shortName": "talntnet",
+  "chain": "TALNTNET",
+  "icon": "talntnet",
+  "nativeCurrency": {
+    "name": "TALNT Net Token",
+    "symbol": "TALNT",
+    "decimals": 18
+  },
+  "rpc": ["https://talntnet-rpc.appchain.base.org"],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "TALNTnet Explorer",
+      "url": "https://talntnet-explorer.appchain.base.org",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://www.talnt.net/",
+  "features": [],
+  "status": "active",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-8453",
+    "bridges": [
+      {
+        "url": "https://docs.base.org"
+      }
+    ]
+  }
+}
