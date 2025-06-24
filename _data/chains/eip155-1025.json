@@ -1,0 +1,25 @@
+{
+  "name": "Sinq Mainnet",
+  "chain": "Sinq",
+  "icon": "sinq",
+  "rpc": ["https://mainnet.sinqscan.org"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sinq Coin",
+    "symbol": "Sinq",
+    "decimals": 18
+  },
+  "infoURL": "https://sinqventure.com",
+  "shortName": "sinq",
+  "chainId": 1025,
+  "networkId": 1025,
+  "explorers": [
+    {
+      "name": "Sinqscan",
+      "url": "https://sinqscan.com",
+      "icon": "sinq",
+      "standard": "EIP3091"
+    }
+  ]
+}
