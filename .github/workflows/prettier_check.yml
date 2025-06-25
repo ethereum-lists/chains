@@ -1,22 +1,28 @@
-name: Run prettier check
+name: Prettier Format Check
 
 on:
-  push:
   pull_request:
+    branches:
+      - main
+      - dev
+  push:
+    branches:
+      - main
 
 jobs:
   prettier:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repo
-        uses: actions/checkout@v4.2.2
-      - uses: actions/cache@v4
-        name: Configure npm caching
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-npm-${{ hashFiles('**/workflows/prettier.yml') }}
-          restore-keys: |
-            ${{ runner.os }}-npm-
-      - name: Run prettier
-        run: |-
-          npx prettier --check '_data/*/*.json'
+          node-version: 18
+
+      - name: Install Dependencies
+        run: npm install prettier
+
+      - name: Run Prettier
+        run: npx prettier --check "**/*.js"
