@@ -1,7 +1,11 @@
 {
   "name": "Mezo Testnet",
   "chain": "Mezo Testnet",
-  "rpc": ["https://rpc.test.mezo.org"],
+  "rpc": [
+    "https://rpc.test.mezo.org",
+    "https://mezo-testnet.drpc.org",
+    "wss://mezo-testnet.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin",

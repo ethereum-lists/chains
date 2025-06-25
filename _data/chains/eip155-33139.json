@@ -1,7 +1,11 @@
 {
   "name": "ApeChain",
   "chain": "apechain",
-  "rpc": ["https://rpc.apechain.com"],
+  "rpc": [
+    "https://rpc.apechain.com",
+    "https://apechain.drpc.org",
+    "wss://apechain.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ApeCoin",
