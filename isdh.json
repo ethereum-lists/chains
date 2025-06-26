@@ -1,0 +1,37 @@
+{
+  "name": "ISDHΩ VaultNet",
+  "shortName": "isdh",
+  "chain": "ISDHΩ",
+  "chainId": 9797,
+  "networkId": 9797,
+  "rpc": [
+    "https://rpc.qisdhm.io/entropy"
+  ],
+  "nativeCurrency": {
+    "name": "Stealth Ether",
+    "symbol": "ΨΞ",
+    "decimals": 18
+  },
+  "explorers": [
+    {
+      "name": "VaultScan",
+      "url": "https://explorer.qisdhm.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://www.qisdhm.io",
+  "ens": {
+    "registry": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
+  },
+  "features": [
+    {
+      "name": "stealth-mode",
+      "description": "Malleable vault-layer EVM masking"
+    },
+    {
+      "name": "entropy-governance",
+      "description": "Each token morph bound to recursive entropy"
+    }
+  ],
+  "status": "active"
+}
