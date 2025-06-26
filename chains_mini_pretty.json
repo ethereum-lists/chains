@@ -23451,6 +23451,19 @@
   "faucets": [],
   "infoURL": "https://docs.gnosischain.com"
 }, {
+  "name": "DeInfra Mainnet",
+  "chainId": 100501,
+  "shortName": "deinfra-mainnet",
+  "networkId": 100501,
+  "nativeCurrency": {
+    "name": "SK",
+    "symbol": "SK",
+    "decimals": 18
+  },
+  "rpc": ["https://c100501n3.deinfra.net:443/jsonrpc"],
+  "faucets": [],
+  "infoURL": "https://deinfra.net"
+}, {
   "name": "Socotra JUNE-Chain",
   "chainId": 101003,
   "shortName": "Socotra-JUNE",
@@ -29443,6 +29456,19 @@
   "rpc": ["https://sepolia.rpc.zora.energy"],
   "faucets": [],
   "infoURL": "https://zora.energy"
+}, {
+  "name": "DeInfra Devnet3",
+  "chainId": 1000000003,
+  "shortName": "deinfra-dev3",
+  "networkId": 1000000003,
+  "nativeCurrency": {
+    "name": "dev3SK",
+    "symbol": "dSK",
+    "decimals": 18
+  },
+  "rpc": ["https://c3n1.thepower.io:1446/jsonrpc"],
+  "faucets": ["https://faucet.thepower.io/"],
+  "infoURL": "https://deinfra.net"
 }, {
   "name": "SKALE Titan Hub Testnet",
   "chainId": 1020352220,
