@@ -34159,6 +34159,32 @@
     "chain": "eip155-11155111"
   }
 }, {
+  "name": "Reddio",
+  "title": "Reddio mainnet L2 Rollup",
+  "chain": "ETH",
+  "rpc": ["https://mainnet.reddio.com/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Reddio",
+    "symbol": "RDO",
+    "decimals": 18
+  },
+  "infoURL": "https://www.reddio.com",
+  "shortName": "reddio",
+  "chainId": 50342,
+  "networkId": 50342,
+  "slip44": 1,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://reddio.cloud.blockscout.com",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
+}, {
   "name": "STB Testnet",
   "chain": "STB Testnet",
   "rpc": ["https://rpc.quorum.sps.dev.kode.ru/"],

@@ -20721,6 +20721,19 @@
   "faucets": [],
   "infoURL": "https://www.reddio.com"
 }, {
+  "name": "Reddio",
+  "chainId": 50342,
+  "shortName": "reddio",
+  "networkId": 50342,
+  "nativeCurrency": {
+    "name": "Reddio",
+    "symbol": "RDO",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.reddio.com/rpc"],
+  "faucets": [],
+  "infoURL": "https://www.reddio.com"
+}, {
   "name": "STB Testnet",
   "chainId": 50505,
   "shortName": "stb-testnet",
