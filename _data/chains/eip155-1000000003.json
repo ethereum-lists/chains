@@ -1,5 +1,5 @@
 {
-  "name": "DeInfra devnet3",
+  "name": "DeInfra Devnet3",
   "chain": "DeInfraDev3",
   "rpc": ["https://c3n1.thepower.io:1446/jsonrpc"],
   "faucets": [ "https://faucet.thepower.io/" ],
@@ -15,7 +15,7 @@
   "networkId": 1000000003,
   "explorers": [
     {
-      "name": "deinfra devnet chain 3 Network Explorer",
+      "name": "Deinfra Devnet Chain 3 Network Explorer",
       "url": "https://bs.thepower.io",
       "standard": "EIP3091"
     }
