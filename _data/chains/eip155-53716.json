@@ -1,0 +1,22 @@
+{
+  "name": "Frequency Testnet",
+  "chain": "Frequency Advisors",
+  "rpc": ["https://rpc.frequency.zeeve.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BERA Token",
+    "symbol": "BERA",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "frequency-testnet",
+  "chainId": 53716,
+  "networkId": 53716,
+  "explorers": [
+    {
+      "name": "Tracehawk",
+      "url": "https://explorer.frequency.zeeve.net",
+      "standard": "none"
+    }
+  ]
+}

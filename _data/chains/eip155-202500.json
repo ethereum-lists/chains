@@ -1,0 +1,31 @@
+{
+  "name": "Propulence Testnet",
+  "chain": "Propulence",
+  "rpc": ["https://rpc.testnet.thepropulence.com"],
+  "nativeCurrency": {
+    "name": "Propulence",
+    "symbol": "PROPX",
+    "decimals": 18
+  },
+  "infoURL": "https://explorer.testnet.thepropulence.com",
+  "shortName": "propulence-testnet",
+  "chainId": 202500,
+  "networkId": 202500,
+  "explorers": [
+    {
+      "name": "tracehawk",
+      "url": "https://explorer.testnet.thepropulence.com",
+      "standard": "none"
+    }
+  ],
+  "faucets": ["https://faucet.testnet.thepropulence.com"],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-421614",
+    "bridges": [
+      {
+        "url": "https://bridge.testnet.thepropulence.com/"
+      }
+    ]
+  }
+}
