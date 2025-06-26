@@ -1,0 +1,16 @@
+{
+  "name": "3dpass - The Ledger of Things",
+  "chain": "3DP",
+  "rpc": ["https://rpc-http.3dpass.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "3dpass",
+    "symbol": "P3D",
+    "decimals": 18
+  },
+  "infoURL": "https://3dpass.org",
+  "shortName": "3dp",
+  "chainId": 1333,
+  "networkId": 1333,
+  "explorers": []
+}
