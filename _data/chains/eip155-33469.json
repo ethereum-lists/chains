@@ -1,5 +1,5 @@
 {
-  "name": "Zilliqa 2 EVM devnet",
+  "name": "Zilliqa 2 Devnet",
   "chain": "ZIL",
   "rpc": ["https://api.zq2-devnet.zilliqa.com"],
   "faucets": ["https://faucet.zq2-devnet.zilliqa.com"],
@@ -15,8 +15,8 @@
   "icon": "zilliqa",
   "explorers": [
     {
-      "name": "Zilliqa-2 EVM Devnet Explorer",
-      "url": "https://explorer.zq2-devnet.zilliqa.com",
+      "name": "Zilliqa 2 Devnet Explorer",
+      "url": "https://otterscan.zq2-devnet.zilliqa.com",
       "standard": "EIP3091"
     }
   ]

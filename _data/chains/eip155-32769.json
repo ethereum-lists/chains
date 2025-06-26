@@ -1,5 +1,5 @@
 {
-  "name": "Zilliqa EVM",
+  "name": "Zilliqa 2",
   "chain": "ZIL",
   "rpc": ["https://api.zilliqa.com"],
   "faucets": [],
@@ -15,8 +15,8 @@
   "icon": "zilliqa",
   "explorers": [
     {
-      "name": "Zilliqa EVM Explorer",
-      "url": "https://evmx.zilliqa.com",
+      "name": "Zilliqa 2 Explorer",
+      "url": "https://otterscan.zilliqa.com",
       "standard": "none"
     }
   ]
