@@ -1,0 +1,21 @@
+{
+  "name": "Incubating",
+  "chain": "",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "",
+    "symbol": "",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "",
+  "shortName": "",
+  "chainId": 7791,
+  "networkId": 7791,
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161"
+  },
+  "status": "incubating"
+}
