@@ -11519,7 +11519,7 @@
 }, {
   "name": "Botanix Testnet",
   "chainId": 3636,
-  "shortName": "BTNX",
+  "shortName": "BTNXt",
   "networkId": 3636,
   "nativeCurrency": {
     "name": "Botanix",
@@ -11532,16 +11532,16 @@
 }, {
   "name": "Botanix Mainnet",
   "chainId": 3637,
-  "shortName": "BTCm",
+  "shortName": "BTNX",
   "networkId": 3637,
   "nativeCurrency": {
     "name": "Botanix",
     "symbol": "BTC",
     "decimals": 18
   },
-  "rpc": ["https://rpc.btxtestchain.com"],
-  "faucets": ["https://faucet.btxtestchain.com"],
-  "infoURL": "https://btxtestchain.com"
+  "rpc": ["https://rpc.botanixlabs.com"],
+  "faucets": [],
+  "infoURL": "https://botanixlabs.com"
 }, {
   "name": "iChain Network",
   "chainId": 3639,
