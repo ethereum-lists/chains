@@ -1,22 +1,23 @@
-{
-  "name": "Chainova",
-  "chain": "ETH",
-  "rpc": ["https://rpc.chainova.tech"],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "Chainova",
-    "symbol": "CNV",
-    "decimals": 18
-  },
-  "infoURL": "https://chainova.tech",
-  "shortName": "Chainova",
-  "chainId": 81118,
+{ 
+  "name": "Chainova", 
+  "chain": "ETH", 
+  "rpc": ["https://rpc.chain-nova.tech"], 
+  "faucets": [], 
+  "nativeCurrency": { 
+    "name": "Chainova", 
+    "symbol": "CNV", 
+    "decimals": 18 
+  }, 
+  "infoURL": "https://chain-nova.tech", 
+  "shortName": "Chainova", 
+  "chainId": 81118, 
   "networkId": 81118,
-  "explorers": [
-    {
-      "name": "Chainova",
-      "url": "https://scan.chainova.tech",
-      "standard": "EIP3091"
-    }
-  ]
+  "icon": "Chainova",
+  "explorers": [ 
+    { 
+      "name": "Chainova", 
+      "url": "https://scan.chain-nova.tech", 
+      "standard": "EIP3091" 
+    } 
+  ] 
 }
