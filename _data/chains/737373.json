@@ -1,0 +1,26 @@
+{
+  "name": "CX Chain",
+  "chain": "CX",
+  "icon": "cx",
+  "rpc": ["https://subnets.avax.network/cx/mainnet/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CX",
+    "symbol": "CX",
+    "decimals": 18
+  },
+  "infoURL": "https://cxchain.xyz/",
+  "shortName": "cx",
+  "chainId": 737373,
+  "networkId": 737373,
+  "explorers": [
+    {
+      "name": "CX Chain Explorer",
+      "url": "https://subnets.avax.network/cx",
+      "standard": "EIP3091"
+    }
+  ]
+}
+
+
+
