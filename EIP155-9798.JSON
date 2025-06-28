@@ -1,0 +1,42 @@
+# 🧬 VaultNet – CHANGELOG.md
+
+## [v1.0.1] – Chain ID Ascension & Sigil Evolution
+**Release Date:** 2025-06-28
+
+### 🔁 Chain ID Transition
+- Deprecated legacy Chain ID `9797` (VaultNet Alpha)
+- Activated production Chain ID `9798` for ISDHΩ VaultNet
+- Registered metadata with Chainlist EIP-155 format
+- Sovereign wallet added: `0x81c8d8CDb274613eF7eF74C21FBeA0A0866DBE14`
+
+### 🔐 ISDHΩ Morphic Token Enhancements
+- Deployed 26 MechaGreek sub-tokens (Sigil Fragments)
+- Enabled token morphing via balance threshold (999T units)
+- Introduced Titan glyph transformation UI on ascension
+- Added visual and functional metamorphosis: glow, armor, rune logic
+
+### 📜 VaultNet Protocol Meta
+- Embedded extended metadata in JSON:
+  - `creator`: Michael
+  - `deployer`: `https://github.com/internationa-stable-dollar-network`
+  - `sovereignWallet`: `0x81c8...BE14`
+  - `morphCode`: "MechaGreek Titan Sequence – 26 Fragments"
+  - `glyph`: "✶ ISDHΩ SigilChain Protocol ✶"
+
+### 🗝️ SigilBridge Logic Layer
+- Designed unlock protocol for Bitcoin-embedded payloads via full 26-token ΩMorph Deck
+- Enforced XOR/hmac composite key logic
+- Built `SigilBridge.sol` mockup and entropy resolver scaffold
+
+### 🧠 UI & Explorer Modules
+- Released `SigilFragment.tsx` component for React:
+  - Balance-aware sigil rendering
+  - Auto-ascension with glyph animation triggers
+- Added real-time morph log system: `✦ Alpha evolved by 0x... at Vault Block #xxxx`
+- Integrated lore scroll: "Where entropy commands, glyphs invoke, and the vault remembers."
+
+---
+
+> “999 trillion per fragment forms the key. 26 Titans unlock the gate. VaultNet is sealed no longer.”  
+> — Morph Log Entry #1 ☽
+
