@@ -1,0 +1,23 @@
+{
+  "name": "eGoldchain",
+  "chain": "XAU",
+  "rpc": ["https://rpc.egoldchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "eGoldchain",
+    "symbol": "XAU",
+    "decimals": 18
+  },
+  "infoURL": "https://egoldchain.com",
+  "shortName": "xau",
+  "chainId": 1187,
+  "networkId": 1187,
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://egoldscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
+
