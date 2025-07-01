@@ -214,9 +214,7 @@ name: Run prettier check
     ignore-pr-updates: # optional, default is 
     # Only the issues or the pull requests with an assignee will be marked as stale automatically.
     include-only-assigned: # optional, default is false
-          
-          
-          
+
 on:
   push:
   pull_request:
