@@ -1,7 +1,7 @@
 {
   "name": "DeInfra Devnet3",
   "chain": "DeInfraDev3",
-  "rpc": ["https://c3n1.thepower.io:1446/jsonrpc"],
+  "rpc": ["https://c3n1.thepower.io/jsonrpc"],
   "faucets": ["https://faucet.thepower.io/"],
   "nativeCurrency": {
     "name": "dev3SK",
