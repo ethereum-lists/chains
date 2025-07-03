@@ -23477,6 +23477,19 @@
   "faucets": [],
   "infoURL": "https://deinfra.net"
 }, {
+  "name": "Monsoon ",
+  "chainId": 100610,
+  "shortName": "monsoon",
+  "networkId": 100610,
+  "nativeCurrency": {
+    "name": "RDP",
+    "symbol": "RDP",
+    "decimals": 18
+  },
+  "rpc": ["https://monsoon.rainfall.one"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Socotra JUNE-Chain",
   "chainId": 101003,
   "shortName": "Socotra-JUNE",
