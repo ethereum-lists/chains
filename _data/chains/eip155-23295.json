@@ -3,8 +3,8 @@
   "chain": "Sapphire",
   "icon": "oasis",
   "rpc": [
-    "https://testnet.sapphire.oasis.dev",
-    "wss://testnet.sapphire.oasis.dev/ws"
+    "https://testnet.sapphire.oasis.io",
+    "wss://testnet.sapphire.oasis.io/ws"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -16,10 +16,11 @@
   "shortName": "sapphire-testnet",
   "chainId": 23295,
   "networkId": 23295,
+  "slip44": 1,
   "explorers": [
     {
       "name": "Oasis Sapphire Testnet Explorer",
-      "url": "https://testnet.explorer.sapphire.oasis.dev",
+      "url": "https://explorer.oasis.io/testnet/sapphire",
       "standard": "EIP3091"
     }
   ]

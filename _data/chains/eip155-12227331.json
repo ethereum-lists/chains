@@ -1,0 +1,24 @@
+{
+  "name": "NeoX Testnet T3",
+  "chain": "NeoX",
+  "rpc": ["https://neoxseed1.ngd.network/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Gas",
+    "symbol": "GAS",
+    "decimals": 18
+  },
+  "infoURL": "https://neo.org/",
+  "shortName": "neox",
+  "chainId": 12227331,
+  "networkId": 12227331,
+  "icon": "neox",
+  "explorers": [
+    {
+      "name": "neox-scan",
+      "url": "https://testnet.scan.banelabs.org",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "deprecated"
+}

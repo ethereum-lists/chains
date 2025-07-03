@@ -1,7 +1,11 @@
 {
-  "name": "Neon EVM MainNet",
+  "name": "Neon EVM Mainnet",
   "chain": "Solana",
-  "rpc": ["https://mainnet.neonevm.org"],
+  "rpc": [
+    "https://neon-proxy-mainnet.solana.p2p.org",
+    "https://neon-evm.drpc.org",
+    "wss://neon-evm.drpc.org"
+  ],
   "faucets": [],
   "icon": "neon",
   "nativeCurrency": {
@@ -9,19 +13,19 @@
     "symbol": "NEON",
     "decimals": 18
   },
-  "infoURL": "https://neon-labs.org",
+  "infoURL": "https://neonevm.org",
   "shortName": "neonevm-mainnet",
   "chainId": 245022934,
   "networkId": 245022934,
   "explorers": [
     {
-      "name": "native",
-      "url": "https://mainnet.explorer.neon-labs.org",
+      "name": "neonscan",
+      "url": "https://neonscan.org",
       "standard": "EIP3091"
     },
     {
-      "name": "neonscan",
-      "url": "https://mainnet.neonscan.org",
+      "name": "native",
+      "url": "https://neon.blockscout.com",
       "standard": "EIP3091"
     }
   ]

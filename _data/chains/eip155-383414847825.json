@@ -1,8 +1,10 @@
 {
   "name": "Zeniq",
   "chain": "ZENIQ",
-  "rpc": ["https://smart.zeniq.network:9545"],
-  "faucets": ["https://faucet.zeniq.net/"],
+  "icon": "zeniq",
+  "rpc": ["https://api.zeniq.network"],
+  "features": [{ "name": "EIP155" }],
+  "faucets": ["https://faucet.nomo.zone/", "https://faucet.zeniq.net/"],
   "nativeCurrency": {
     "name": "Zeniq",
     "symbol": "ZENIQ",
@@ -12,10 +14,20 @@
   "shortName": "zeniq",
   "chainId": 383414847825,
   "networkId": 383414847825,
+  "ens": {
+    "registry": "0xa0446c88240bCA2A8E0f68C93aa365d25B198aA4"
+  },
   "explorers": [
+    {
+      "name": "zeniqscan",
+      "url": "https://zeniqscan.com",
+      "icon": "zeniq",
+      "standard": "EIP3091"
+    },
     {
       "name": "zeniq-smart-chain-explorer",
       "url": "https://smart.zeniq.net",
+      "icon": "zeniq",
       "standard": "EIP3091"
     }
   ]

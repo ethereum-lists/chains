@@ -1,0 +1,34 @@
+{
+  "name": "Treasure",
+  "chain": "Treasure",
+  "shortName": "treasure",
+  "chainId": 61166,
+  "networkId": 61166,
+  "nativeCurrency": {
+    "name": "MAGIC",
+    "symbol": "MAGIC",
+    "decimals": 18
+  },
+  "slip44": 1,
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://app.treasure.lol",
+  "icon": "treasure",
+  "rpc": ["https://rpc.treasure.lol", "wss://rpc.treasure.lol/ws"],
+  "faucets": [
+    "https://app.treasure.lol/chain/faucet",
+    "https://thirdweb.com/treasure"
+  ],
+  "explorers": [
+    {
+      "name": "Treasure Block Explorer",
+      "url": "https://treasurescan.io",
+      "icon": "treasure",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://app.treasure.lol/chain/bridge" }]
+  }
+}

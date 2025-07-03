@@ -1,0 +1,23 @@
+{
+  "name": "Botanix Mainnet",
+  "chain": "BOTANIX",
+  "icon": "botanix",
+  "rpc": ["https://rpc.botanixlabs.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Botanix",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://botanixlabs.com",
+  "shortName": "BTNX",
+  "chainId": 3637,
+  "networkId": 3637,
+  "explorers": [
+    {
+      "name": "Botanix Explorer",
+      "url": "https://botanixscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

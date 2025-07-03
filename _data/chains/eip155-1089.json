@@ -1,0 +1,34 @@
+{
+  "name": "Humans.ai Mainnet",
+  "chain": "Humans",
+  "rpc": [
+    "https://jsonrpc.humans.nodestake.top",
+    "https://humans-mainnet-evm.itrocket.net",
+    "https://humans-evm-rpc.staketab.org:443",
+    "https://evm.humans.stakepool.dev.br",
+    "https://mainnet-humans-evm.konsortech.xyz",
+    "https://evm-rpc.mainnet.humans.zone",
+    "https://json-rpc.humans.bh.rocks",
+    "https://evm-rpc.humans.huginn.tech"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "HEART",
+    "symbol": "HEART",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://humans.ai",
+  "shortName": "humans",
+  "chainId": 1089,
+  "networkId": 1089,
+  "icon": "humans-dark",
+  "explorers": [
+    {
+      "name": "explorer.guru",
+      "url": "https://humans.explorers.guru",
+      "icon": "humans",
+      "standard": "none"
+    }
+  ]
+}

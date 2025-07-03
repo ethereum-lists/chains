@@ -1,0 +1,30 @@
+{
+  "name": "Areon Network Testnet",
+  "chain": "Areon",
+  "icon": "areon",
+  "rpc": [
+    "https://testnet-rpc.areon.network",
+    "https://testnet-rpc2.areon.network",
+    "https://testnet-rpc3.areon.network",
+    "https://testnet-rpc4.areon.network",
+    "https://testnet-rpc5.areon.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Areon",
+    "symbol": "TAREA",
+    "decimals": 18
+  },
+  "infoURL": "https://areon.network",
+  "shortName": "tarea",
+  "chainId": 462,
+  "networkId": 462,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "AreonScan",
+      "url": "https://areonscan.com",
+      "standard": "none"
+    }
+  ]
+}

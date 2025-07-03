@@ -1,0 +1,23 @@
+{
+  "name": "Palm Smart Chain",
+  "title": "Palm Smart Chain",
+  "chain": "Palm",
+  "rpc": ["https://rpc.palmsmartchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PALM",
+    "symbol": "PALM",
+    "decimals": 18
+  },
+  "infoURL": "https://palmsmartchain.io",
+  "shortName": "PalmChain",
+  "chainId": 973,
+  "networkId": 973,
+  "explorers": [
+    {
+      "name": "Palm Smart Chain Explorer",
+      "url": "https://explorer.palmsmartchain.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

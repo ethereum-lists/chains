@@ -1,0 +1,28 @@
+{
+  "name": "LAOS Arrakis",
+  "title": "LAOS Testnet Arrakis",
+  "chain": "LAOS",
+  "icon": "laos",
+  "rpc": [
+    "https://arrakis.gorengine.com/own",
+    "wss://arrakis.gorengine.com/own"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LAOS",
+    "symbol": "LAOS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.laosfoundation.io/",
+  "shortName": "laos",
+  "chainId": 667,
+  "networkId": 667,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://arrakis.gorengine.com",
+      "icon": "laos",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Highbury",
+  "chain": "HIGHBURY",
+  "rpc": ["https://highbury.furya.io", "https://rest.furya.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Fury",
+    "symbol": "FURY",
+    "decimals": 18
+  },
+  "infoURL": "https://www.fury.black",
+  "shortName": "fury",
+  "chainId": 710,
+  "networkId": 710,
+  "icon": "highbury",
+  "explorers": [
+    {
+      "name": "Furya EVM Explorer",
+      "url": "https://explorer.furya.io",
+      "standard": "EIP3091",
+      "icon": "highbury"
+    }
+  ]
+}

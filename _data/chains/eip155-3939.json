@@ -1,7 +1,7 @@
 {
-  "name": "DOS Tesnet",
+  "name": "DOS Testnet",
   "chain": "DOS",
-  "rpc": ["https://test.doschain.com"],
+  "rpc": ["https://test.doschain.com/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "DOS",
@@ -12,6 +12,7 @@
   "shortName": "dost",
   "chainId": 3939,
   "networkId": 3939,
+  "slip44": 1,
   "icon": "doschain",
   "explorers": [
     {

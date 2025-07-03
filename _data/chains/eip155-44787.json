@@ -4,6 +4,7 @@
   "shortName": "ALFA",
   "chain": "CELO",
   "networkId": 44787,
+  "slip44": 1,
   "nativeCurrency": {
     "name": "CELO",
     "symbol": "CELO",
@@ -20,8 +21,8 @@
   "infoURL": "https://docs.celo.org/",
   "explorers": [
     {
-      "name": "Celoscan",
-      "url": "https://celoscan.io",
+      "name": "Alfajoresscan",
+      "url": "https://alfajores.celoscan.io",
       "standard": "EIP3091"
     }
   ]
