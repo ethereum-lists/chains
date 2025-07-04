@@ -23524,6 +23524,50 @@
     "icon": "meverse"
   }]
 }, {
+  "name": "Rome Mainnet 0 Palatine",
+  "chain": "ROME",
+  "rpc": ["https://palatine-i.mainnet-0.romeprotocol.xyz"],
+  "faucets": ["https://deposit.mainnet-0.romeprotocol.xyz"],
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "infoURL": "https://rome.builders",
+  "shortName": "rome-mainnet-0-palatine",
+  "chainId": 7531,
+  "networkId": 7531,
+  "icon": "rome",
+  "explorers": [{
+    "name": "Rome Mainnet 0 Palatine Explorer",
+    "url": "https://romescout-palatine-i.mainnet-0.romeprotocol.xyz",
+    "icon": "rome",
+    "standard": "EIP3091"
+  }],
+  "status": "active"
+}, {
+  "name": "Rome Mainnet 0 Aventine",
+  "chain": "ROME",
+  "rpc": ["https://aventine-i.mainnet-0.romeprotocol.xyz"],
+  "faucets": ["https://deposit.mainnet-0.romeprotocol.xyz"],
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "infoURL": "https://rome.builders",
+  "shortName": "rome-mainnet-0-aventine",
+  "chainId": 7532,
+  "networkId": 7532,
+  "icon": "rome",
+  "explorers": [{
+    "name": "Rome Mainnet 0 Aventine Explorer",
+    "url": "https://romescout-aventine-i.mainnet-0.romeprotocol.xyz",
+    "icon": "rome",
+    "standard": "EIP3091"
+  }],
+  "status": "active"
+}, {
   "name": "Cyber Mainnet",
   "chain": "Cyber",
   "rpc": ["https://cyber.alt.technology/", "wss://cyber-ws.alt.technology/", "https://rpc.cyber.co/", "wss://rpc.cyber.co/"],
@@ -39452,6 +39496,94 @@
     "url": "https://explorer.testnet.chain.metadap.io",
     "standard": "none"
   }]
+}, {
+  "name": "Rome Devnet Esquiline",
+  "chain": "ROME",
+  "rpc": ["https://esquiline-i.devnet.romeprotocol.xyz"],
+  "faucets": ["https://deposit.devnet.romeprotocol.xyz"],
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "infoURL": "https://rome.builders",
+  "shortName": "rome-devnet-esquiline",
+  "chainId": 121212,
+  "networkId": 121212,
+  "icon": "rome",
+  "explorers": [{
+    "name": "Rome Devnet Esquiline Explorer",
+    "url": "https://romescout-esquiline-i.devnet.romeprotocol.xyz",
+    "icon": "rome",
+    "standard": "EIP3091"
+  }],
+  "status": "active"
+}, {
+  "name": "Rome Devnet Subura",
+  "chain": "ROME",
+  "rpc": ["https://subura-i.devnet.romeprotocol.xyz"],
+  "faucets": ["https://deposit.devnet.romeprotocol.xyz"],
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "infoURL": "https://rome.builders",
+  "shortName": "rome-devnet-subura",
+  "chainId": 121213,
+  "networkId": 121213,
+  "icon": "rome",
+  "explorers": [{
+    "name": "Rome Devnet Subura Explorer",
+    "url": "https://romescout-subura-i.devnet.romeprotocol.xyz",
+    "icon": "rome",
+    "standard": "EIP3091"
+  }],
+  "status": "active"
+}, {
+  "name": "Rome Testnet Martius",
+  "chain": "ROME",
+  "rpc": ["https://martius-i.testnet.romeprotocol.xyz"],
+  "faucets": ["https://deposit.testnet.romeprotocol.xyz"],
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "infoURL": "https://rome.builders",
+  "shortName": "rome-testnet-martius",
+  "chainId": 121214,
+  "networkId": 121214,
+  "icon": "rome",
+  "explorers": [{
+    "name": "Rome Testnet Martius Explorer",
+    "url": "https://romescout-martius-i.testnet.romeprotocol.xyz",
+    "icon": "rome",
+    "standard": "EIP3091"
+  }],
+  "status": "active"
+}, {
+  "name": "Rome Testnet Caelian",
+  "chain": "ROME",
+  "rpc": ["https://caelian-i.testnet.romeprotocol.xyz"],
+  "faucets": ["https://deposit.testnet.romeprotocol.xyz"],
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "infoURL": "https://rome.builders",
+  "shortName": "rome-testnet-caelian",
+  "chainId": 121215,
+  "networkId": 121215,
+  "icon": "rome",
+  "explorers": [{
+    "name": "Rome Testnet Caelian Explorer",
+    "url": "https://romescout-caelian-i.testnet.romeprotocol.xyz",
+    "icon": "rome",
+    "standard": "EIP3091"
+  }],
+  "status": "active"
 }, {
   "name": "Fushuma",
   "chain": "Fushuma",

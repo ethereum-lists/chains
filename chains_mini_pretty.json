@@ -14286,6 +14286,32 @@
   "faucets": [],
   "infoURL": "https://www.meverse.sg"
 }, {
+  "name": "Rome Mainnet 0 Palatine",
+  "chainId": 7531,
+  "shortName": "rome-mainnet-0-palatine",
+  "networkId": 7531,
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "rpc": ["https://palatine-i.mainnet-0.romeprotocol.xyz"],
+  "faucets": ["https://deposit.mainnet-0.romeprotocol.xyz"],
+  "infoURL": "https://rome.builders"
+}, {
+  "name": "Rome Mainnet 0 Aventine",
+  "chainId": 7532,
+  "shortName": "rome-mainnet-0-aventine",
+  "networkId": 7532,
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "rpc": ["https://aventine-i.mainnet-0.romeprotocol.xyz"],
+  "faucets": ["https://deposit.mainnet-0.romeprotocol.xyz"],
+  "infoURL": "https://rome.builders"
+}, {
   "name": "Cyber Mainnet",
   "chainId": 7560,
   "shortName": "cyeth",
@@ -23866,6 +23892,58 @@
   "rpc": ["https://rpc.testnet.chain.metadap.io", "wss://rpc-ws.testnet.chain.metadap.io"],
   "faucets": [],
   "infoURL": "https://metadap.io/"
+}, {
+  "name": "Rome Devnet Esquiline",
+  "chainId": 121212,
+  "shortName": "rome-devnet-esquiline",
+  "networkId": 121212,
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "rpc": ["https://esquiline-i.devnet.romeprotocol.xyz"],
+  "faucets": ["https://deposit.devnet.romeprotocol.xyz"],
+  "infoURL": "https://rome.builders"
+}, {
+  "name": "Rome Devnet Subura",
+  "chainId": 121213,
+  "shortName": "rome-devnet-subura",
+  "networkId": 121213,
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "rpc": ["https://subura-i.devnet.romeprotocol.xyz"],
+  "faucets": ["https://deposit.devnet.romeprotocol.xyz"],
+  "infoURL": "https://rome.builders"
+}, {
+  "name": "Rome Testnet Martius",
+  "chainId": 121214,
+  "shortName": "rome-testnet-martius",
+  "networkId": 121214,
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "rpc": ["https://martius-i.testnet.romeprotocol.xyz"],
+  "faucets": ["https://deposit.testnet.romeprotocol.xyz"],
+  "infoURL": "https://rome.builders"
+}, {
+  "name": "Rome Testnet Caelian",
+  "chainId": 121215,
+  "shortName": "rome-testnet-caelian",
+  "networkId": 121215,
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "rpc": ["https://caelian-i.testnet.romeprotocol.xyz"],
+  "faucets": ["https://deposit.testnet.romeprotocol.xyz"],
+  "infoURL": "https://rome.builders"
 }, {
   "name": "Fushuma",
   "chainId": 121224,
