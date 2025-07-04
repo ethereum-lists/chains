@@ -1,0 +1,16 @@
+{
+  "name": "Paseo PassetHub",
+  "chain": "PAS",
+  "rpc": ["https://testnet-passet-hub-eth-rpc.polkadot.io"],
+  "faucets": ["https://faucet.polkadot.io/?parachain=1111"],
+  "nativeCurrency": {
+    "name": "PAS",
+    "symbol": "PAS",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://polkadot.network",
+  "shortName": "pas",
+  "chainId": 420420422,
+  "networkId": 420420422
+}
