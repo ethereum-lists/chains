@@ -1,0 +1,32 @@
+{
+  "name": "Banana1 LUNA1-Chain",
+  "chain": "Banana1 LUNA1-Chain",
+  "rpc": ["https://rpc.banana1-mainnet.network/ext/bc/LUNA1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LUNA1",
+    "symbol": "LUNA1",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://juneo.com/",
+  "shortName": "LUNA1",
+  "chainId": 65012,
+  "networkId": 65012,
+  "icon": "banana1-luna1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://banana1.juneoscan.io/chain/11",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}

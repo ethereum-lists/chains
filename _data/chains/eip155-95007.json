@@ -1,0 +1,32 @@
+{
+  "name": "Fusion1 GAL1-Chain",
+  "chain": "Fusion1 GAL1-Chain",
+  "rpc": ["https://rpc.fusion1-mainnet.network/ext/bc/GAL1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GAL1",
+    "symbol": "GAL1",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://juneo.com/",
+  "shortName": "GAL1",
+  "chainId": 95007,
+  "networkId": 95007,
+  "icon": "fusion1-gal1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://fusion1.juneoscan.io/chain/6",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}

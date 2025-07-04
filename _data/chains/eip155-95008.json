@@ -1,0 +1,32 @@
+{
+  "name": "Fusion1 OG1-Chain",
+  "chain": "Fusion1 OG1-Chain",
+  "rpc": ["https://rpc.fusion1-mainnet.network/ext/bc/OG1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OG1",
+    "symbol": "OG1",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://juneo.com/",
+  "shortName": "OG1",
+  "chainId": 95008,
+  "networkId": 95008,
+  "icon": "fusion1-og1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://fusion1.juneoscan.io/chain/7",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}

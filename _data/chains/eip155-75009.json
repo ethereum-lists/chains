@@ -1,0 +1,32 @@
+{
+  "name": "Bluebyte1 wstETH1-Chain",
+  "chain": "Bluebyte1 wstETH1-Chain",
+  "rpc": ["https://rpc.bluebyte1-mainnet.network/ext/bc/wstETH1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "wstETH",
+    "symbol": "wstETH",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://juneo.com/",
+  "shortName": "wstETH1",
+  "chainId": 75009,
+  "networkId": 75009,
+  "icon": "bluebyte1-wsteth1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://bluebyte1.juneoscan.io/chain/8",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}

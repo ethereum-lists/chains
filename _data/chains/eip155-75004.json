@@ -1,0 +1,32 @@
+{
+  "name": "Bluebyte1 PYUSD1-Chain",
+  "chain": "Bluebyte1 PYUSD1-Chain",
+  "rpc": ["https://rpc.bluebyte1-mainnet.network/ext/bc/PYUSD1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PYUSD1",
+    "symbol": "PYUSD1",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://juneo.com/",
+  "shortName": "PYUSD1",
+  "chainId": 75004,
+  "networkId": 75004,
+  "icon": "bluebyte1-pyusd1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://bluebyte1.juneoscan.io/chain/3",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}

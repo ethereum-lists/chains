@@ -1,0 +1,32 @@
+{
+  "name": "Banana1 USDC1-Chain",
+  "chain": "Banana1 USDC1-Chain",
+  "rpc": ["https://rpc.banana1-mainnet.network/ext/bc/USDC1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USDC1",
+    "symbol": "USDC1",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://juneo.com/",
+  "shortName": "USDC1",
+  "chainId": 65010,
+  "networkId": 65010,
+  "icon": "banana1-usdc1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://banana1.juneoscan.io/chain/9",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}

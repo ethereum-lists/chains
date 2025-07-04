@@ -1,0 +1,32 @@
+{
+  "name": "Fusion1 MXN1-Chain",
+  "chain": "Fusion1 MXN1-Chain",
+  "rpc": ["https://rpc.fusion1-mainnet.network/ext/bc/MXN1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MXN1",
+    "symbol": "MXN1",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://juneo.com/",
+  "shortName": "MXN1",
+  "chainId": 95014,
+  "networkId": 95014,
+  "icon": "fusion1-mxn1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://fusion1.juneoscan.io/chain/13",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}

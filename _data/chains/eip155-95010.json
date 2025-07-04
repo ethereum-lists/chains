@@ -1,0 +1,32 @@
+{
+  "name": "Fusion1 SAND1-Chain",
+  "chain": "Fusion1 SAND1-Chain",
+  "rpc": ["https://rpc.fusion1-mainnet.network/ext/bc/SAND1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SAND1",
+    "symbol": "SAND1",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://juneo.com/",
+  "shortName": "SAND1",
+  "chainId": 95010,
+  "networkId": 95010,
+  "icon": "fusion1-sand1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://fusion1.juneoscan.io/chain/9",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}

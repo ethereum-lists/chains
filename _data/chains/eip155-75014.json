@@ -1,0 +1,32 @@
+{
+  "name": "Bluebyte1 PYTH1-Chain",
+  "chain": "Bluebyte1 PYTH1-Chain",
+  "rpc": ["https://rpc.bluebyte1-mainnet.network/ext/bc/PYTH1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PYTH1",
+    "symbol": "PYTH1",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://juneo.com/",
+  "shortName": "PYTH1",
+  "chainId": 75014,
+  "networkId": 75014,
+  "icon": "bluebyte1-pyth1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://bluebyte1.juneoscan.io/chain/13",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}
