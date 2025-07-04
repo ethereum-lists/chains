@@ -1,0 +1,23 @@
+{
+  "name": "CircleLayer Testnet",
+  "chain": "CircleLayer Testnet",
+  "icon": "circleLayerIcon",
+  "rpc": ["https://testnet-rpc.circlelayer.com"],
+  "faucets": ["https://faucet.circlelayer.com"],
+  "nativeCurrency": {
+    "name": "CLAYER",
+    "symbol": "CLAYER",
+    "decimals": 18
+  },
+  "infoURL": "https://circlelayer.com",
+  "shortName": "CLt",
+  "chainId": 28525,
+  "networkId": 28525,
+  "explorers": [
+    {
+      "name": "CircleLayer Testnet Explorer",
+      "url": "https://explorer-testnet.circlelayer.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
