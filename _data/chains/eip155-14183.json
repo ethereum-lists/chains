@@ -1,0 +1,32 @@
+{
+  "name": "TestLaChainZK",
+  "chain": "TestLaChainZK",
+  "icon": "lachainzk",
+  "rpc": ["https://rpc1-testnet-zk.lachain.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Test LaCoin",
+    "symbol": "TLA",
+    "decimals": 18
+  },
+  "infoURL": "https://lachain.network/",
+  "shortName": "test-lachain-zk",
+  "chainId": 14183,
+  "networkId": 14183,
+  "explorers": [
+    {
+      "name": "TestLaChainZK Explorer",
+      "url": "https://explorer.zk.lachain.network/?network=TestLaChainZK",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [
+      {
+        "url": "https://bridge.zk.lachain.network/bridge?network=testlachainzk"
+      }
+    ]
+  }
+}
