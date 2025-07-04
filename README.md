@@ -1,3 +1,8 @@
+<master
+# Chains
+
+A modular, flexible, and extensible framework for building and managing blockchain-based applications.
+=======
 # EVM-based Chains
 
 The source data is in _data/chains. Each chain has its own file with the filename being the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) representation as name and `.json` as extension.
@@ -34,61 +39,95 @@ The source data is in _data/chains. Each chain has its own file with the filenam
 ```
 
 When an icon is used in either the network or an explorer, there must be a JSON in _data/icons with the name used.
-(e.g. in the above example there must be a `ethereum.json` and a `etherscan.json` in there) - The icon JSON files look like this:
+(e.g. in the above example there must be a `ethereum.json` and a `etherscan.json` in there) - The icon JSON files look like this:master
 
-```json
+## Overview
 
-[
-    {
-      "url": "ipfs://QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt",
-      "width": 1000,
-      "height": 1628,
-      "format": "png"
-    }
-]
+Chains is designed to simplify the development and management of blockchain applications, providing a set of tools, components, and best practices for developers. The framework promotes modular code organization, security, and scalability for both new and existing blockchain projects.
 
-```
+## Features
 
+- **Modular Architecture**: Compose, extend, or swap components with minimal effort.
+- **Error Handling**: Robust error detection and reporting.
+- **Security Oriented**: Built-in patterns for secure coding and vulnerability mitigation.
+- **Duplicate Code Detection**: Tools to identify and resolve code duplication.
+- **Management Tools**: Scripts and interfaces for efficient project and chain management.
+- **Extensible**: Easily add new functionality or integrate with other systems.
+
+## Getting Started
+
+master
+### Prerequisites
+=======
 where:
  * The URL MUST be publicly resolvable through IPFS
  * width and height MUST be positive integers
  * format is either "png", "jpg" or "svg"
  * size MUST be less than 250kb
+master
 
-If the chain is an L2 or a shard of another chain you can link it to the parent chain like this:
+- [Node.js](https://nodejs.org/) (version X.X.X or later)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
+### Installation
 
-```json
-{
-  ...
-  "parent": {
-   "type" : "L2",
-   "chain": "eip155-1",
-   "bridges": [ {"url":"https://bridge.arbitrum.io"} ]
-  }
-}
+Clone the repository:
+```bash
+git clone https://github.com/nodoubtz/chains.git
+cd chains
 ```
 
+<master
+Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+=======
 where you need to specify the type and the reference to an existing parent. The field about bridges is optional.
+master
 
-You can add a `status` field e.g. to deprecate (via status `deprecated`) a chain (a chain should never be deleted as this would open the door to replay attacks)
-Other options for `status` are `active` (default) or `incubating`
+### Usage
 
-## Aggregation
+Run the main application (adapt to your entry point, e.g., `index.js` or `app.js`):
+```bash
+npm start
+# or
+yarn start
+```
 
-There are also aggregated json files with all chains automatically assembled:
- * https://chainid.network/chains.json
- * https://chainid.network/chains_mini.json (miniaturized - fewer fields for smaller filesize)
+## Project Structure
 
-## Constraints
+```
+chains/
+├── src/                # Core source code
+├── scripts/            # Management and utility scripts
+├── tests/              # Test suite
+├── package.json        # Project metadata and dependencies
+└── README.md           # Project documentation
+```
 
+master
+## Security
+=======
  * the shortName and name MUST be unique - see e.g. EIP-3770 on why
  * if referencing a parent chain - the chain MUST exist in the repo
  * if using an IPFS CID for the icon - the CID MUST be retrievable via `ipfs get` - not only through some gateway (means please do not use pinata for now)
  * for more constraints you can look into the CI
+master
 
-## Collision management
+- All code follows secure coding practices.
+- Vulnerable code is hidden or removed by design.
+- Regular audits and updates are recommended.
 
+master
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request. Make sure to follow the code of conduct and review the contributing guidelines.
+
+## License
+=======
  We cannot allow more than one chain with the same chainID - this would open the door to replay attacks.
  The first pull request gets the chainID assigned. When creating a chain we can expect that you read EIP155 which states this repo.
  All pull requests trying to replace a chainID because they think their chain is better than the other will be closed.
@@ -97,15 +136,20 @@ There are also aggregated json files with all chains automatically assembled:
 ## Getting your PR merged
 ### before PR is submitted
 
-Before submitting a PR, please ensure all checks pass by running:
+Before submitting a PR, please ensure all checks pass by running
+master
 
-```bash
-$ ./gradlew run
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
-BUILD SUCCESSFUL in 7s
-9 actionable tasks: 9 executed
-```
+## Contact
 
+For project inquiries or paid support, please [open an issue](https://github.com/nodoubtz/chains/issues) or contact the repository owner.
+
+---
+
+master
+*Built with care by [nodoubtz](https://github.com/nodoubtz)*
+=======
 Additionally, run Prettier to format your JSON according to the style [defined here ](https://github.com/ethereum-lists/chains/blob/master/.prettierrc.json)
 e.g. run
 
@@ -155,3 +199,4 @@ npx prettier --write _data/*/*.json
  * [Smart Contract UI](https://xtools-at.github.io/smartcontract-ui)
 
  * Your project - contact us to add it here!
+master
