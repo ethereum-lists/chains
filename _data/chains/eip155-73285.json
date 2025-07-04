@@ -1,0 +1,32 @@
+{
+  "name": "Nebula",
+  "chain": "Nebula chain",
+  "icon": "nebula",
+  "rpc": [
+    "https://nebula-chain.com/rpc",
+    "http://80.78.27.8:8545",
+    "http://80.78.27.8:8546/"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Nebula cash",
+    "symbol": "NEBX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.nebula-chain.com",
+  "shortName": "nebula",
+  "chainId": 73285,
+  "networkId": 73285,
+  "explorers": [
+    {
+      "name": "Nebula Explorer",
+      "url": "http://nebxscan.nebula-chain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
