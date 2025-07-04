@@ -1,0 +1,32 @@
+{
+  "name": "Banana1 SOL1-Chain",
+  "chain": "Banana1 SOL1-Chain",
+  "rpc": ["https://rpc.banana1-mainnet.network/ext/bc/SOL1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SOL1",
+    "symbol": "SOL1",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://juneo.com/",
+  "shortName": "SOL1",
+  "chainId": 65004,
+  "networkId": 65004,
+  "icon": "banana1-sol1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://banana1.juneoscan.io/chain/3",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}
