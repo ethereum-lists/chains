@@ -1,0 +1,29 @@
+{
+  "name": "Camp",
+  "title": "Camp",
+  "chain": "Camp",
+  "rpc": [
+    "https://rpc.camp.raas.gelato.cloud",
+    "wss://ws.camp.raas.gelato.cloud"
+  ],
+  "nativeCurrency": {
+    "name": "Camp",
+    "symbol": "CAMP",
+    "decimals": 8
+  },
+  "icon": "camp",
+  "infoURL": "https://raas.gelato.network/rollups/details/public/camp",
+  "faucets": [],
+  "shortName": "camp",
+  "chainId": 484,
+  "networkId": 484,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://camp.cloud.blockscout.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
