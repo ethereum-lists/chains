@@ -1,0 +1,23 @@
+{
+  "name": "eGoldchain Testnet",
+  "chain": "XAU",
+  "rpc": ["https://rpc-testnet.egoldchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "eGoldchain",
+    "symbol": "XAU",
+    "decimals": 18
+  },
+  "infoURL": "https://egoldchain.com",
+  "shortName": "xautest",
+  "chainId": 21187,
+  "networkId": 21187,
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://testnet.egoldscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
+
