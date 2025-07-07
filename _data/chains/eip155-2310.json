@@ -1,0 +1,27 @@
+{
+  "name": "CratD2C",
+  "chain": "CRATD2C",
+  "rpc": [
+    "https://node1.cratd2csmartchain.io",
+    "https://node2.cratd2csmartchain.io",
+    "https://node3.cratd2csmartchain.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CRATD2C",
+    "symbol": "CRAT",
+    "decimals": 18
+  },
+  "infoURL": "https://cratd2csmartchain.io",
+  "shortName": "cratd2c",
+  "chainId": 2310,
+  "networkId": 2310,
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://explorer.cratd2csmartchain.io",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

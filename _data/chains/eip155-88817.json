@@ -1,8 +1,9 @@
 {
   "name": "Unit Zero Testnet",
   "chain": "Unit Zero",
+  "icon": "unitzero",
   "rpc": ["https://rpc-testnet.unit0.dev"],
-  "faucets": [],
+  "faucets": ["https://faucet-testnet.unit0.dev"],
   "nativeCurrency": {
     "name": "UNIT0",
     "symbol": "UNIT0",

@@ -1,14 +1,9 @@
 {
   "name": "Taiko Katla L2",
   "chain": "ETH",
-  "status": "active",
+  "status": "deprecated",
   "icon": "taiko",
-  "rpc": [
-    "https://rpc.katla.taiko.xyz",
-    "wss://ws.katla.taiko.xyz",
-    "https://taiko-katla.drpc.org",
-    "wss://taiko-katla.drpc.org"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -19,11 +14,5 @@
   "shortName": "tko-katla",
   "chainId": 167008,
   "networkId": 167008,
-  "explorers": [
-    {
-      "name": "blockscout",
-      "url": "https://explorer.katla.taiko.xyz",
-      "standard": "EIP3091"
-    }
-  ]
+  "explorers": []
 }
