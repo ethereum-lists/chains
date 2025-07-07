@@ -30107,6 +30107,19 @@
   "faucets": [],
   "infoURL": "https://www.DataHopper.com"
 }, {
+  "name": "Lumia Beam Testnet",
+  "chainId": 2030232745,
+  "shortName": "lumia-beam-testnet",
+  "networkId": 2030232745,
+  "nativeCurrency": {
+    "name": "Lumia",
+    "symbol": "LUMIA",
+    "decimals": 18
+  },
+  "rpc": ["https://beam-rpc.lumia.org"],
+  "faucets": ["https://beam-faucet.lumia.org/"],
+  "infoURL": "https://lumia.org"
+}, {
   "name": "SKALE Europa Hub",
   "chainId": 2046399126,
   "shortName": "europa",
