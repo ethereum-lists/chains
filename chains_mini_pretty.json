@@ -3626,18 +3626,18 @@
   "faucets": ["https://faucet-testnet.kcc.network"],
   "infoURL": "https://scan-testnet.kcc.network"
 }, {
-  "name": "Cosvm Mainnet",
+  "name": "BuyCex Infinity Chain",
   "chainId": 323,
-  "shortName": "cvm",
+  "shortName": "buycex",
   "networkId": 323,
   "nativeCurrency": {
-    "name": "Cosvm",
-    "symbol": "CVM",
+    "name": "Buycex",
+    "symbol": "BCX",
     "decimals": 18
   },
-  "rpc": ["https://rpc.cosvm.net"],
+  "rpc": ["https://rpc.buycex.net", "wss://socket.buycex.net"],
   "faucets": [],
-  "infoURL": "https://cosvm.network"
+  "infoURL": "https://infinity.buycex.com"
 }, {
   "name": "zkSync Mainnet",
   "chainId": 324,
