@@ -2,8 +2,9 @@
   "name": "Chaos (SKALE Testnet)",
   "title": "Chaos Testnet",
   "chain": "staging-fast-active-bellatrix",
-  "rpc": ["https://staging-v3.skalenodes.com/v1/staging-fast-active-bellatrix"],
-  "faucets": ["https://sfuel.skale.network/staging/chaos"],
+  "status": "deprecated",
+  "rpc": [],
+  "faucets": [],
   "nativeCurrency": {
     "name": "sFUEL",
     "symbol": "sFUEL",
@@ -14,12 +15,5 @@
   "chainId": 1351057110,
   "networkId": 1351057110,
   "slip44": 1,
-  "explorers": [
-    {
-      "name": "Blockscout",
-      "url": "https://staging-fast-active-bellatrix.explorer.staging-v3.skalenodes.com",
-      "icon": "chaos",
-      "standard": "EIP3091"
-    }
-  ]
+  "explorers": []
 }
