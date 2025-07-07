@@ -1,0 +1,45 @@
+{
+  "name": "LibraChain Testnet",
+  "chain": "Axion",
+  "rpc": [
+    "https://testnet-rpc.librachain.com",
+    "wss://testnet-wss.librachain.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Gasless",
+    "symbol": "GAS",
+    "decimals": 18
+  },
+  "infoURL": "https://librachain.com",
+  "shortName": "lib",
+  "chainId": 111222,
+  "networkId": 111222,
+  "slip44": 1000000,
+  "icon": "librachain-gas",
+  "explorers": [
+    {
+      "name": "LibraChain Testnet Explorer",
+      "url": "https://testnet.librachain.com",
+      "standard": "EIP3091",
+      "icon": "librachain-gas"
+    },
+    {
+      "name": "LibraChain ENS Gateway",
+      "url": "https://ens.librachain.com",
+      "standard": "none"
+    }
+  ],
+  "features": [
+    "eip1559",
+    "eip4844",
+    "blob",
+    "merge",
+    "proof-of-stake"
+  ],
+  "ens": {
+    "registry": "0x1D3f679649376B0D1c4066bB3B9816412a42C52E"
+  },
+  "status": "active",
+  "redFlags": []
+}

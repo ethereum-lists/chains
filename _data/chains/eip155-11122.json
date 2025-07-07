@@ -1,0 +1,45 @@
+{
+  "name": "LibraChain Mainnet",
+  "chain": "LIB",
+  "rpc": [
+    "https://mainnet.librachain.com",
+    "wss://mainnet-wss.librachain.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Gasless",
+    "symbol": "GAS",
+    "decimals": 18
+  },
+  "infoURL": "https://librachain.com",
+  "shortName": "lib",
+  "chainId": 11122,
+  "networkId": 11122,
+  "slip44": 1000000,
+  "icon": "librachain-gas",
+  "explorers": [
+    {
+      "name": "LibraChain Mainnet Explorer",
+      "url": "https://explorer.librachain.com",
+      "standard": "EIP3091",
+      "icon": "librachain-gas"
+    },
+    {
+      "name": "LibraChain ENS Gateway",
+      "url": "https://ens.librachain.com",
+      "standard": "none"
+    }
+  ],
+  "features": [
+    "eip1559",
+    "eip4844",
+    "blob",
+    "merge",
+    "proof-of-stake"
+  ],
+  "ens": {
+    "registry": "0x1f12C2Fd6C8bD222A180a2D69b9dCdb0bc5A09a7"
+  },
+  "status": "active",
+  "redFlags": []
+}
