@@ -1,0 +1,23 @@
+{
+  "name": "Universe Testnet",
+  "chain": "Universe",
+  "rpc": ["https://blockchain.dev-universe-bank.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Universe Token",
+    "symbol": "UNI",
+    "decimals": 18
+  },
+  "infoURL": "https://www.universe-bank.com/universal-ledger-system",
+  "shortName": "unitestnet",
+  "chainId": 235711,
+  "networkId": 235711,
+  "icon": "universe",
+  "explorers": [
+    {
+      "name": "Universe Testnet Explorer",
+      "url": "https://blockchain-explorer.dev-universe-bank.com",
+      "standard": "none"
+    }
+  ]
+}

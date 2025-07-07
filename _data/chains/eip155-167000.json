@@ -1,5 +1,5 @@
 {
-  "name": "Taiko Mainnet",
+  "name": "Taiko Alethia",
   "chain": "ETH",
   "status": "active",
   "icon": "taiko",
@@ -22,6 +22,11 @@
     {
       "name": "etherscan",
       "url": "https://taikoscan.io",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Routescan",
+      "url": "https://taikoexplorer.com",
       "standard": "EIP3091"
     }
   ]
