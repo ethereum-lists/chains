@@ -1,7 +1,12 @@
 {
   "name": "Qubetics Mainnet",
   "chain": "Qubetics Mainnet",
-  "rpc": ["https://rpc.qubetics.com"],
+  "rpc": [
+    "https://rpc.qubetics.com",
+    "wss://socket-testnet.qubetics.work",
+    "https://rpc-internal.qubetics.com",
+    "wss://socket-internal.qubetics.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Qubetics Mainnet Token",
