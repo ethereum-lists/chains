@@ -1,6 +1,6 @@
 {
-  "name": "Westend Asset Hub",
-  "chain": "WST",
+  "name": "Westend",
+  "chain": "WND",
   "rpc": ["https://westend-asset-hub-eth-rpc.polkadot.io"],
   "faucets": ["https://faucet.polkadot.io/westend"],
   "nativeCurrency": {
@@ -15,9 +15,8 @@
   "networkId": 420420421,
   "explorers": [
     {
-      "name": "subscan",
-      "icon": "subscan",
-      "url": "https://westend-asset-hub-eth-explorer.parity.io",
+      "name": "blockscout",
+      "url": "https://blockscout-asset-hub.parity-chains-scw.parity.io",
       "standard": "EIP3091"
     }
   ]
