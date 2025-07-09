@@ -26369,11 +26369,11 @@
 }, {
   "name": "Plasma Testnet",
   "chain": "Plasma",
-  "rpc": ["https://ultra-quick-paper.plasma-testnet.quiknode.pro"],
+  "rpc": ["https://testnet-rpc.plasma.to"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Testnet Plasma",
-    "symbol": "tXPL",
+    "symbol": "XPL",
     "decimals": 18
   },
   "infoURL": "https://plasma.to",
@@ -26382,8 +26382,8 @@
   "networkId": 9746,
   "icon": "plasma",
   "explorers": [{
-    "name": "Plasma Explorer",
-    "url": "https://plasma.gas.zip",
+    "name": "RouteScan",
+    "url": "https://testnet.plasmaexplorer.io",
     "icon": "plasma",
     "standard": "EIP3091"
   }]
