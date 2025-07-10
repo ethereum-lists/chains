@@ -1,6 +1,6 @@
 {
-  "name": "Silicon zkEVM Sepolia Testnet",
-  "title": "Silicon zkEVM Sepolia Testnet",
+  "name": "Silicon zkEVM Sepolia Testnet(Deprecated)",
+  "title": "Silicon zkEVM Sepolia Testnet(Deprecated)",
   "chain": "Silicon",
   "rpc": [
     "https://rpc-sepolia.silicon.network",
@@ -13,17 +13,11 @@
     "decimals": 18
   },
   "infoURL": "https://docs.silicon.network",
-  "shortName": "silicon-sepolia-testnet",
+  "shortName": "silicon-sepolia-testnet-deprecated",
   "chainId": 1722641160,
   "networkId": 1722641160,
   "icon": "silicon",
-  "explorers": [
-    {
-      "name": "siliconscope-sepolia",
-      "url": "https://scope-sepolia.silicon.network",
-      "standard": "EIP3091"
-    }
-  ],
+  "explorers": [],
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
