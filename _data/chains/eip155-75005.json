@@ -1,0 +1,32 @@
+{
+  "name": "Bluebyte1 LCX1-Chain",
+  "chain": "Bluebyte1 LCX1-Chain",
+  "rpc": ["https://rpc.bluebyte1-mainnet.network/ext/bc/LCX1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LCX1",
+    "symbol": "LCX1",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://juneo.com/",
+  "shortName": "LCX1",
+  "chainId": 75005,
+  "networkId": 75005,
+  "icon": "bluebyte1-lcx1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://bluebyte1.juneoscan.io/chain/4",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}

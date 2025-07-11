@@ -1,0 +1,32 @@
+{
+  "name": "Bluebyte1 BNT1-Chain",
+  "chain": "Bluebyte1 BNT1-Chain",
+  "rpc": ["https://rpc.bluebyte1-mainnet.network/ext/bc/BNT1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BNT1",
+    "symbol": "BNT1",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://juneo.com/",
+  "shortName": "BNT1",
+  "chainId": 75011,
+  "networkId": 75011,
+  "icon": "bluebyte1-bnt1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://bluebyte1.juneoscan.io/chain/10",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}

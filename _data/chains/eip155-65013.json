@@ -1,0 +1,32 @@
+{
+  "name": "Banana1 AIXBT1-Chain",
+  "chain": "Banana1 AIXBT1-Chain",
+  "rpc": ["https://rpc.banana1-mainnet.network/ext/bc/AIXBT1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AIXBT1",
+    "symbol": "AIXBT1",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://juneo.com/",
+  "shortName": "AIXBT1",
+  "chainId": 65013,
+  "networkId": 65013,
+  "icon": "banana1-aixbt1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://banana1.juneoscan.io/chain/12",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}

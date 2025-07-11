@@ -1,0 +1,32 @@
+{
+  "name": "Bluebyte1 ETC1-Chain",
+  "chain": "Bluebyte1 ETC1-Chain",
+  "rpc": ["https://rpc.bluebyte1-mainnet.network/ext/bc/ETC1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETC1",
+    "symbol": "ETC1",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://juneo.com/",
+  "shortName": "ETC1",
+  "chainId": 75008,
+  "networkId": 75008,
+  "icon": "bluebyte1-etc1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://bluebyte1.juneoscan.io/chain/7",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}

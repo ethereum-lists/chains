@@ -1,0 +1,32 @@
+{
+  "name": "Bluebyte1 BLUEBYTE1-Chain",
+  "chain": "Bluebyte1 BLUEBYTE1-Chain",
+  "rpc": ["https://rpc.bluebyte1-mainnet.network/ext/bc/BBY1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BBY1",
+    "symbol": "BBY1",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://juneo.com/",
+  "shortName": "BBY1",
+  "chainId": 75003,
+  "networkId": 75003,
+  "icon": "bluebyte1-bby1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://bluebyte1.juneoscan.io/chain/2",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}
