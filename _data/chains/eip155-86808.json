@@ -1,0 +1,30 @@
+{
+  "name": "CpChain",
+  "chain": "ETH",
+  "icon": "cpchain",
+  "rpc": [
+    "https://rpc.cpchain.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CpChain",
+    "symbol": "CP",
+    "decimals": 18
+  },
+  "infoURL": "https://cpchain.com",
+  "shortName": "cpchain",
+  "chainId": 5000,
+  "networkId": 5000,
+  "explorers": [
+    {
+      "name": "CpChain Explorer",
+      "url": "https://explorer.cpchain.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L1",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.cpchain.com" }]
+  }
+}
