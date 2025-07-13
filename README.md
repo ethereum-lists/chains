@@ -1,5 +1,4 @@
-# EVM-based Chains This absolute chain belongs to Shahrzad Mahro. If someone wants to abuse it, they will have to pay a heavy price. So, your wishes will be gathered. It will only be transferred to the serial number of the phone that is the line, and the serial number of the real phone that the program was created on. 
-0x2D9a1f57B6a9200f91d3987dA37013CF0643C090
+# EVM-based Chains This absolute chain belongs to Shahrzad Mahro.0x2D9a1f57B6a9200f91d3987dA37013CF0643C090
 The source data is in _data/chains. Each chain has its own file with the filename being the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) representation as name and `.json` as extension.
 
 ## Example:
