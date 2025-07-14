@@ -1,8 +1,8 @@
 {
-  "name": "XRPL EVM Sidechain Devnet",
-  "chain": "XRPLEVM Devnet",
+  "name": "XRPL EVM Sidechain",
+  "chain": "XRPL EVM",
   "icon": "xrplevm",
-  "rpc": ["https://rpc.devnet.xrplevm.org", "https://ws.devnet.xrplevm.org"],
+  "rpc": ["https://rpc.xrplevm.org", "https://ws.xrplevm.org"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": ["https://faucet.xrplevm.org"],
   "nativeCurrency": {
@@ -11,9 +11,9 @@
     "decimals": 18
   },
   "infoURL": "https://xrplevm.org",
-  "shortName": "xrplevmdevnet",
-  "chainId": 1440002,
-  "networkId": 1440002,
+  "shortName": "xrplevm",
+  "chainId": 1440000,
+  "networkId": 1440000,
   "explorers": [
     {
       "name": "blockscout",
