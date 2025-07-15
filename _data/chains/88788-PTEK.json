@@ -1,0 +1,24 @@
+{
+  "name": "PropTech Main Network",
+  "chain": "PropTech",
+  "icon": "ptekcoin",
+  "rpc": ["https://mainnet.ptekcoin.com/"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "nativeCurrency": {
+    "name": "PropTech",
+    "symbol": "PTEK",
+    "decimals": 18
+  },
+  "infoURL": "https://ptek.ai",
+  "shortName": "ptek",
+  "chainId": 88788,
+  "explorers": [
+    {
+      "name": "PTEK Explorer",
+      "url": "https://explorer.ptekcoin.com/",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active",
+  "redFlags": []
+}
