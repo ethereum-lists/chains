@@ -1,0 +1,25 @@
+{
+  "name": "Rome Mainnet 0 Palatine",
+  "chain": "ROME",
+  "rpc": ["https://palatine-i.mainnet-0.romeprotocol.xyz"],
+  "faucets": ["https://deposit.mainnet-0.romeprotocol.xyz"],
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "infoURL": "https://rome.builders",
+  "shortName": "rome-mainnet-0-palatine",
+  "chainId": 7531,
+  "networkId": 7531,
+  "icon": "rome",
+  "explorers": [
+    {
+      "name": "Rome Mainnet 0 Palatine Explorer",
+      "url": "https://romescout-palatine-i.mainnet-0.romeprotocol.xyz",
+      "icon": "rome",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
