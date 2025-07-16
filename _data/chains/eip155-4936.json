@@ -1,0 +1,23 @@
+{
+  "name": "Prodao Mainnet",
+  "chain": "PROD",
+  "rpc": ["https://rpc.prodao.club"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ProDAO Token",
+    "symbol": "PROD",
+    "decimals": 18
+  },
+  "infoURL": "https://prodao.club",
+  "shortName": "prodao",
+  "chainId": 4936,
+  "networkId": 4936,
+  "icon": "prodao",
+  "explorers": [
+    {
+      "name": "ProDAO Explorer",
+      "url": "https://explorer.prodao.club",
+      "standard": "EIP3091"
+    }
+  ]
+}
