@@ -3,7 +3,7 @@
   "title": "Ethereal Testnet",
   "chain": "Ethereal",
   "icon": "etherealtestnet",
-  "rpc": [],
+  "rpc": ["https://rpc.etherealtest.net"],
   "faucets": [],
   "nativeCurrency": {
     "name": "USDe",
@@ -14,5 +14,12 @@
   "shortName": "ethereal-testnet",
   "chainId": 657468,
   "networkId": 657468,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.etherealtest.net",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
 }
