@@ -1,18 +1,19 @@
 {
-  "name": "WMC Testnet",
-  "chain": "WMC",
+  "name": "deprecatedWMC Testnet",
+  "chain": "deprecatedWMC",
   "icon": "wmc",
-  "rpc": ["https://rpc-testnet-base.worldmobile.net"],
-  "faucets": ["https://faucet-testnet-base.worldmobile.net"],
+  "rpc": ["https://deprecated.rpc-testnet-base.worldmobile.net"],
+  "faucets": ["https://deprecated.faucet-testnet-base.worldmobile.net"],
   "nativeCurrency": {
     "name": "WMTx",
     "symbol": "WMTx",
     "decimals": 18
   },
   "infoURL": "https://worldmobiletoken.com",
-  "shortName": "wmtx",
+  "shortName": "deprecated-wmtx",
   "chainId": 42070,
   "networkId": 42070,
+  "status": "deprecated",
   "explorers": [
     {
       "name": "WMC Explorer",
