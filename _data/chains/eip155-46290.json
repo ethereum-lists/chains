@@ -1,0 +1,30 @@
+{
+    "name": "NodeOps Orchestrator",
+    "chain": "nodeops-orchestrator-network",
+    "rpc": ["https://nodeops-orchestrator-network.calderachain.xyz/http"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://nodeops-orchestrator-network.hub.caldera.xyz",
+    "shortName": "nodeops-orchestrator-network",
+    "chainId": 46290,
+    "networkId": 46290,
+    "explorers": [
+      {
+        "name": "NodeOps Orchestrator Caldera Explorer",
+        "url": "https://nodeops-orchestrator-network.calderaexplorer.xyz",
+        "standard": "EIP3091"
+      }
+    ]
+  }
