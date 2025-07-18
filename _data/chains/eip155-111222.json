@@ -1,0 +1,28 @@
+{
+  "name": "LibraChain Testnet",
+  "chain": "LIB",
+  "rpc": [
+    "https://testnet-rpc.librachain.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Libra",
+    "symbol": "LIB",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://librachain.com",
+  "shortName": "libtest",
+  "chainId": 111222,
+  "networkId": 111222,
+  "icon": "libra",
+  "explorers": [
+    {
+      "name": "LibraChain Explorer",
+      "url": "https://testnet.librachain.com",
+      "icon": "libra",
+      "standard": "EIP3091"
+    }
+  ]
+}
+
