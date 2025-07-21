@@ -1,0 +1,24 @@
+{
+  "name": "Jasmy Chain Testnet",
+  "chain": "Jasmy Chain Testnet",
+  "rpc": [
+    "https://rpc_testnet.jasmychain.io",
+    "wss://rpc_testnet.jasmychain.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "JasmyCoin",
+    "symbol": "JASMY",
+    "decimals": 18
+  },
+  "infoURL": "https://jasmychain.io",
+  "shortName": "jasmychain_testnet",
+  "chainId": 681,
+  "networkId": 681,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  }
+}
