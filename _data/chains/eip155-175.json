@@ -1,0 +1,17 @@
+{
+  "name": "OTC",
+  "chain": "OTC",
+  "faucets": [],
+  "icon": "otc",
+  "rpc": ["https://rpc.otc.run", "wss://rpc.otc.run"],
+  "nativeCurrency": {
+    "name": "OTC",
+    "symbol": "OTC",
+    "decimals": 18
+  },
+  "infoURL": "https://otc.network",
+  "shortName": "OTC",
+  "chainId": 175,
+  "networkId": 175,
+  "slip44": 511
+}
