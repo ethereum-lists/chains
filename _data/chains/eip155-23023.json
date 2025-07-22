@@ -1,0 +1,27 @@
+{
+  "name": "PremiumBlock",
+  "chain": "PBLK",
+  "rpc": ["https://rpc.premiumblock.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Premium Block",
+    "symbol": "PBLK",
+    "decimals": 18
+  },
+  "infoURL": "https://scan.premiumblock.org",
+  "shortName": "pblk",
+  "chainId": 23023,
+  "networkId": 23023,
+  "explorers": [
+    {
+      "name": "PremiumBlocks Explorer",
+      "url": "https://scan.premiumblock.org",
+      "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ]
+}

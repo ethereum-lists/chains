@@ -1,0 +1,32 @@
+{
+  "name": "Conwai Mainnet",
+  "chain": "CNW",
+  "rpc": ["https://conwai.calderachain.xyz/http"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Conwai",
+    "symbol": "CNW",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://conwai.net",
+  "shortName": "cnw",
+  "chainId": 668668,
+  "networkId": 668668,
+  "icon": "conwai",
+  "explorers": [
+    {
+      "name": "conwaiscan",
+      "icon": "conwaiscan",
+      "url": "https://conwai.calderaexplorer.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}

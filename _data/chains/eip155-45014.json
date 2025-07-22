@@ -1,0 +1,25 @@
+{
+  "name": "Juneo LINK1-Chain",
+  "chain": "Juneo LINK1-Chain",
+  "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/LINK1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LINK1",
+    "symbol": "LINK1",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://juneo.com/",
+  "shortName": "LINK1",
+  "chainId": 45014,
+  "networkId": 45014,
+  "icon": "juneo-link1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://juneoscan.io/chain/13",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}

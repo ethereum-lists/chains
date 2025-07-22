@@ -1,0 +1,24 @@
+{
+  "name": "Vana",
+  "chain": "Vana",
+  "rpc": ["https://rpc.vana.org/"],
+  "nativeCurrency": {
+    "name": "Vana",
+    "symbol": "VANA",
+    "decimals": 18
+  },
+  "faucets": ["https://faucet.vana.org/"],
+  "infoURL": "https://vana.org",
+  "shortName": "vana",
+  "chainId": 1480,
+  "networkId": 1480,
+  "icon": "vana",
+  "explorers": [
+    {
+      "name": "Vana Block Explorer",
+      "url": "https://vanascan.io",
+      "icon": "vana",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
-  "name": "Digital Smart Chain",
-  "chain": "Digital Smart Chain",
+  "name": "Datacore Smart Chain",
+  "chain": "Datacore Smart Chain",
   "icon": "dscscan",
   "rpc": ["https://rpc01.dscscan.io"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Digital Smart Chain",
+    "name": "Datacore Smart Chain",
     "symbol": "DSC",
     "decimals": 18
   },
@@ -15,7 +15,7 @@
   "networkId": 1555,
   "explorers": [
     {
-      "name": "Digital Smart Chain",
+      "name": "Datacore Smart Chain",
       "url": "https://dscscan.io",
       "standard": "EIP3091"
     }

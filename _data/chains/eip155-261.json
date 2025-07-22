@@ -2,7 +2,7 @@
   "name": "Guru Network Testnet",
   "chain": "tGURU",
   "icon": "GuruNetwork",
-  "rpc": ["https://rpc.gurunetwork.ai/archive/261"],
+  "rpc": ["https://rpc-test.gurunetwork.ai"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": ["https://v2.dex.guru/season-pass/faucet"],
   "nativeCurrency": {
@@ -17,7 +17,7 @@
   "explorers": [
     {
       "name": "guruscan",
-      "url": "https://scan.gurunetwork.ai",
+      "url": "https://sepolia.gurunetwork.ai",
       "standard": "EIP3091"
     }
   ]
