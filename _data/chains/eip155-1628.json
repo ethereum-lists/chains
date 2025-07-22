@@ -1,7 +1,7 @@
 {
   "name": "T-Rex",
   "chain": "T-Rex",
-  "rpc": ["https://rpc.trex.xyz/"],
+  "rpc": ["https://rpc.trex.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "T-REX blockchain explorer",
-      "url": "https://explorer.trex.xyz/",
+      "url": "https://explorer.trex.xyz",
       "standard": "none"
     }
   ]
