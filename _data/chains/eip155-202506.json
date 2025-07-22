@@ -1,6 +1,5 @@
 {
-  "name": "Aurex Platform",
-  "title": "Aurex Platform - Premium Blockchain Network",
+  "name": "Aurex Testnet",
   "chain": "AUREX",
   "rpc": [
     "https://aurexgold.com:3000"
@@ -11,27 +10,16 @@
     "symbol": "AUREX",
     "decimals": 18
   },
-  "features": [
-    {
-      "name": "EIP155"
-    },
-    {
-      "name": "EIP1559"
-    }
-  ],
   "infoURL": "https://aurexgold.com",
   "shortName": "aurex",
   "chainId": 202506,
   "networkId": 202506,
   "slip44": 1,
-  "icon": "aurex",
   "explorers": [
     {
-      "name": "Aurex Explorer",
+      "name": "Aurex Testnet Explorer",
       "url": "https://aurexgold.com:4001",
-      "icon": "aurex",
       "standard": "EIP3091"
     }
-  ],
-  "status": "active"
+  ]
 }
