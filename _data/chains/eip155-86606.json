@@ -1,8 +1,8 @@
 {
   "name": "CpChain Testnet",
   "chain": "CpChain",
-  "rpc": ["https://rpc.testnet.cpchain.com"],
-  "faucets": ["https://faucet.testnet.cpchain.com"],
+  "rpc": ["https://rpc-testnet.cpchain.com"],
+  "faucets": ["https://cpchain-test.pages.dev/faucet"],
   "nativeCurrency": {
     "name": "Testnet CpChain",
     "symbol": "CP",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "CpChain Testnet Explorer",
-      "url": "https://explorer.testnet.cpchain.com",
+      "url": "https://explorer-testnet.cpchain.com",
       "standard": "EIP3091"
     }
   ]
