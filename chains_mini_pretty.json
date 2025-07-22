@@ -5667,6 +5667,19 @@
   "faucets": [],
   "infoURL": "https://fantasiachain.com/"
 }, {
+  "name": "WorldMobileChain-Mainnet",
+  "chainId": 869,
+  "shortName": "WMC",
+  "networkId": 869,
+  "nativeCurrency": {
+    "name": "World Mobile Token",
+    "symbol": "WMTX",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://worldmobile.io/the-chain"
+}, {
   "name": "Electra Test Network",
   "chainId": 871,
   "shortName": "telc",
