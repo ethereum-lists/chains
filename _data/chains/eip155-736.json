@@ -1,0 +1,31 @@
+{
+  "name": "AcadChain Testnet",
+  "chain": "AcadChain",
+  "rpc": ["https://rpc-testnet.acadchain.xyz"],
+  "nativeCurrency": {
+    "name": "ACADCHAIN",
+    "symbol": "ACAD",
+    "decimals": 18
+  },
+  "infoURL": "https://explorer-testnet.acadchain.xyz",
+  "shortName": "acadchain-testnet",
+  "chainId": 736,
+  "networkId": 736,
+  "explorers": [
+    {
+      "name": "tracehawk",
+      "url": "https://explorer-testnet.acadchain.xyz",
+      "standard": "none"
+    }
+  ],
+  "faucets": ["https://faucet-testnet.acadchain.xyz"],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-421614",
+    "bridges": [
+      {
+        "url": "https://bridge-testnet.acadchain.xyz"
+      }
+    ]
+  }
+}
