@@ -1,0 +1,25 @@
+{
+  "name": "XRPL EVM Sidechain Testnet",
+  "chain": "XRPLEVM Testnet",
+  "icon": "xrplevm",
+  "rpc": ["https://rpc.testnet.xrplevm.org", "https://ws.testnet.xrplevm.org"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": ["https://faucet.xrplevm.org"],
+  "nativeCurrency": {
+    "name": "XRP",
+    "symbol": "XRP",
+    "decimals": 18
+  },
+  "infoURL": "https://xrplevm.org",
+  "shortName": "xrplevmtestnet",
+  "chainId": 1449000,
+  "networkId": 1449000,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.testnet.xrplevm.org",
+      "icon": "xrplevm",
+      "standard": "EIP3091"
+    }
+  ]
+}

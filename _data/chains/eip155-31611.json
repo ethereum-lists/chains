@@ -1,9 +1,8 @@
 {
-  "name": "Mezo Matsnet Testnet",
-  "chain": "Mezo",
-  "icon": "mezo",
+  "name": "Mezo Testnet",
+  "chain": "Mezo Testnet",
   "rpc": ["https://rpc.test.mezo.org"],
-  "faucets": ["https://mezo.org/matsnet"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin",
     "symbol": "BTC",
@@ -11,7 +10,7 @@
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://mezo.org/",
-  "shortName": "mezo",
+  "shortName": "mezo-testnet",
   "chainId": 31611,
   "networkId": 31611,
   "explorers": [

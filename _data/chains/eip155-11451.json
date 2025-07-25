@@ -1,5 +1,5 @@
 {
-  "name": "eGoldChain",
+  "name": "eGold Chain",
   "chain": "EGC",
   "icon": "egoldchain",
   "rpc": ["https://rpc.egoldchain.com", "wss://rpc.egoldchain.com"],
@@ -15,7 +15,7 @@
   "networkId": 11451,
   "explorers": [
     {
-      "name": "eGoldChain Block Explorer",
+      "name": "eGold Chain Block Explorer",
       "url": "https://egoldscan.io",
       "standard": "none",
       "icon": "egoldchain"
