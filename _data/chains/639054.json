@@ -1,0 +1,25 @@
+{
+  "name": "Blokista Mainnet",
+  "chain": "BCC",
+  "icon": "blokista",
+  "rpc": [
+    "https://mainnet-rpc.bccscan.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BLOKISTA",
+    "symbol": "BCC",
+    "decimals": 18
+  },
+  "infoURL": "https://bccscan.com",
+  "shortName": "blokista",
+  "chainId": 639054,
+  "networkId": 639054,
+  "explorers": [
+    {
+      "name": "BCCScan",
+      "url": "https://bccscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
