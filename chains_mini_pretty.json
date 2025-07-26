@@ -27832,6 +27832,19 @@
   "faucets": [],
   "infoURL": "https://tingscan.com"
 }, {
+  "name": "Humanity Protocol",
+  "chainId": 6985385,
+  "shortName": "hp",
+  "networkId": 6985385,
+  "nativeCurrency": {
+    "name": "H",
+    "symbol": "H",
+    "decimals": 18
+  },
+  "rpc": ["https://humanity-mainnet.g.alchemy.com/public"],
+  "faucets": [],
+  "infoURL": "https://humanity.org"
+}, {
   "name": "COTI Testnet",
   "chainId": 7082400,
   "shortName": "coti-testnet",
