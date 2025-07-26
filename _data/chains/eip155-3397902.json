@@ -1,8 +1,8 @@
 {
-  "name": "Funki Sepolia Testnet",
+  "name": "Funki Devnet",
   "chain": "ETH",
   "icon": "funki",
-  "rpc": ["https://funki-testnet.alt.technology"],
+  "rpc": ["https://rpc-devnet.funkichain.com"],
   "faucets": ["https://funkichain.com/portfolio"],
   "nativeCurrency": {
     "name": "Ether",
@@ -10,13 +10,13 @@
     "decimals": 18
   },
   "infoURL": "https://funkichain.com",
-  "shortName": "funkisepolia",
-  "chainId": 3397901,
-  "networkId": 3397901,
+  "shortName": "funkidevnet",
+  "chainId": 3397902,
+  "networkId": 3397902,
   "explorers": [
     {
-      "name": "Funki Sepolia Sandbox Explorer",
-      "url": "https://testnet-explorer.funkichain.com",
+      "name": "Funki Devnet",
+      "url": "https://devnet-explorer.funkichain.com",
       "standard": "none"
     }
   ]
