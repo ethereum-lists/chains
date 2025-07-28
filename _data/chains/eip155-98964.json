@@ -1,0 +1,33 @@
+{
+  "name": "Pay1 Network",
+  "chainId": 98964,
+  "shortName": "pay1",
+  "chain": "PAY1",
+  "networkId": 98964,
+  "icon": "pay1",
+  "nativeCurrency": {
+    "name": "Pay1",
+    "symbol": "Pay1",
+    "decimals": 18
+  },
+  "rpc": [
+    "https://rpc.pay1coin.com",
+    "https://rpc0.pay1coin.com",
+    "https://rpc1.pay1coin.com",
+    "https://rpc2.pay1coin.com",
+    "wss://ws.pay1coin.com",
+    "wss://ws0.pay1coin.com",
+    "wss://ws1.pay1coin.com",
+    "wss://ws2.pay1coin.com"
+  ],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "Pay1Scan",
+      "url": "https://pay1scan.io",
+      "icon": "pay1scan",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://pay1coin.com"
+}
