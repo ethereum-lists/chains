@@ -27845,6 +27845,19 @@
   "faucets": [],
   "infoURL": "https://humanity.org"
 }, {
+  "name": "Humanity Protocol testnet",
+  "chainId": 7080969,
+  "shortName": "thp",
+  "networkId": 7080969,
+  "nativeCurrency": {
+    "name": "tHP",
+    "symbol": "tHP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.humanity.org", "https://humanity-testnet.g.alchemy.com/public"],
+  "faucets": ["https://faucets.alchemy.com/faucets/humanity-testnet"],
+  "infoURL": "https://testnet.humanity.org"
+}, {
   "name": "COTI Testnet",
   "chainId": 7082400,
   "shortName": "coti-testnet",
