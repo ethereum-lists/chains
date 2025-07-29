@@ -13,10 +13,22 @@
   },
   "parent": {
     "type": "L2",
-    "chain": "eip155-2"
+    "chain": "eip155-11155111",
+    "bridges": [
+      {
+        "url": "https://superbridge.app/?fromChainId=11155111&toChainId=11142220"
+      }
+    ]
   },
   "rpc": ["https://forno.celo-sepolia.celo-testnet.org"],
   "faucets": ["https://faucet.celo.org"],
-  "infoURL": "https://docs.celo.org/",
-  "explorers": []
+  "infoURL": "https://docs.celo.org",
+  "explorers": [
+    {
+      "name": "Celo Sepolia Explorer",
+      "url": "https://celo-sepolia.blockscout.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
 }
