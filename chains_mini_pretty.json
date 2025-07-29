@@ -3082,11 +3082,11 @@
 }, {
   "name": "Fraxtal",
   "chainId": 252,
-  "shortName": "fraxtal",
+  "shortName": "frax",
   "networkId": 252,
   "nativeCurrency": {
-    "name": "Frax Ether",
-    "symbol": "frxETH",
+    "name": "Frax",
+    "symbol": "FRAX",
     "decimals": 18
   },
   "rpc": ["https://rpc.frax.com", "https://fraxtal-rpc.publicnode.com", "wss://fraxtal-rpc.publicnode.com"],
