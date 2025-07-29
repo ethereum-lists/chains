@@ -1,0 +1,25 @@
+{
+  "name": "ALLx Chain",
+  "chain": "ALLx",
+  "icon": "allx",
+  "rpc": [
+    "https://rpc.allxchain.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ALLx",
+    "symbol": "ALLx",
+    "decimals": 18
+  },
+  "infoURL": "https://allxchain.io",
+  "shortName": "allx",
+  "chainId": 19777,
+  "networkId": 19777,
+  "explorers": [
+    {
+      "name": "ALLx Explorer",
+      "url": "https://explorer.allxchain.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
