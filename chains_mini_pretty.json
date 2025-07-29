@@ -2222,6 +2222,19 @@
   "faucets": ["https://faucet.latam-blockchain.com"],
   "infoURL": "https://latam-blockchain.com"
 }, {
+  "name": "ENI Mainnet",
+  "chainId": 173,
+  "shortName": "eni",
+  "networkId": 173,
+  "nativeCurrency": {
+    "name": "ENI",
+    "symbol": "ENI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.eniac.network"],
+  "faucets": [],
+  "infoURL": "https://eniac.network/"
+}, {
   "name": "OTC",
   "chainId": 175,
   "shortName": "OTC",
@@ -27831,6 +27844,19 @@
   "rpc": ["https://testnet.tingchain.org", "https://public.0xrpc.com/6666689"],
   "faucets": [],
   "infoURL": "https://tingscan.com"
+}, {
+  "name": "ENI Testnet",
+  "chainId": 6912115,
+  "shortName": "eni-test",
+  "networkId": 6912115,
+  "nativeCurrency": {
+    "name": "ENI Testnet Token",
+    "symbol": "ENI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.eniac.network"],
+  "faucets": [],
+  "infoURL": "https://eniac.network/"
 }, {
   "name": "Humanity Protocol",
   "chainId": 6985385,
