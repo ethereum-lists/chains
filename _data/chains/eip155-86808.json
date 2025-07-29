@@ -13,8 +13,8 @@
   },
   "infoURL": "https://cpchain.com",
   "shortName": "cpchain",
-  "chainId": 88608,
-  "networkId": 88608,
+  "chainId": 86608,
+  "networkId": 86608,
   "explorers": [
     {
       "name": "CpChain Explorer",
@@ -25,6 +25,6 @@
   "parent": {
     "type": "L1",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.cpchain.com" }]
+    "bridges": []
   }
 }
