@@ -1,7 +1,7 @@
 {
-  "name": "arena-z-testnet",
-  "title": "Arena-Z-Testnet",
-  "chain": "arena-z-testnet",
+  "name": "arena-z-testnet-deprecated",
+  "title": "Arena-Z-Testnet-deprecated",
+  "chain": "arena-z-testnet-deprecated",
   "rpc": [
     "https://rpc.arena-z.t.raas.gelato.cloud",
     "wss://ws.arena-z.t.raas.gelato.cloud"
@@ -33,5 +33,5 @@
       { "url": "https://testnet-bridge.gelato.network/bridge/arena-z-testnet" }
     ]
   },
-  "status": "active"
+  "status": "deprecated"
 }
