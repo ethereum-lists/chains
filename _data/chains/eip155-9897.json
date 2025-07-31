@@ -3,8 +3,6 @@
   "title": "Arena-Z-Testnet-deprecated",
   "chain": "arena-z-testnet-deprecated",
   "rpc": [
-    "https://rpc.arena-z.t.raas.gelato.cloud",
-    "wss://ws.arena-z.t.raas.gelato.cloud"
   ],
   "nativeCurrency": {
     "name": "Ether",
@@ -19,18 +17,11 @@
   "networkId": 9897,
   "slip44": 60,
   "explorers": [
-    {
-      "name": "blockscout",
-      "url": "https://arena-z.blockscout.com",
-      "icon": "blockscout",
-      "standard": "EIP3091"
-    }
   ],
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
     "bridges": [
-      { "url": "https://testnet-bridge.gelato.network/bridge/arena-z-testnet" }
     ]
   },
   "status": "deprecated"
