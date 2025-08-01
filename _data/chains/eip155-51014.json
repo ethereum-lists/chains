@@ -9,7 +9,7 @@
   "networkId": 51014,
   "nativeCurrency": {
     "name": "Testnet Syndicate",
-    "symbol": "TestnetSYND",
+    "symbol": "SYND",
     "decimals": 18
   },
   "rpc": ["https://risa-testnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"],
@@ -17,13 +17,13 @@
   "explorers": [
     {
       "name": "Risa Testnet Explorer",
-      "url": "https://risa-testnet.explorer.alchemy.com/",
+      "url": "https://risa-testnet.explorer.alchemy.com",
       "standard": "EIP3091"
     }
   ],
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://bridge.arbitrum.io/" }]
+    "bridges": [{ "url": "https://bridge.arbitrum.io" }]
   }
 }
