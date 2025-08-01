@@ -1,0 +1,23 @@
+{
+  "name": "Shinerium Mainnet",
+  "chain": "SHN",
+  "rpc": ["https://rpc.shinerium.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Shinerium",
+    "symbol": "SHN",
+    "decimals": 18
+  },
+  "infoURL": "https://shinerium.org",
+  "shortName": "SHN",
+  "chainId": 505,
+  "networkId": 505,
+  "icon": "shinerium",
+  "explorers": [
+    {
+      "name": "Shinerium Block Explorer",
+      "url": "https://scan.shinerium.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
