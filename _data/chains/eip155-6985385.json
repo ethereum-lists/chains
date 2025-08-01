@@ -1,0 +1,33 @@
+{
+  "name": "Humanity Protocol",
+  "chain": "Humanity",
+  "rpc": ["https://humanity-mainnet.g.alchemy.com/public"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "H",
+    "symbol": "H",
+    "decimals": 18
+  },
+  "infoURL": "https://humanity.org",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161",
+    "bridges": [
+      {
+        "url": "https://bridge.arbitrum.io"
+      }
+    ]
+  },
+  "shortName": "hp",
+  "chainId": 6985385,
+  "networkId": 6985385,
+  "status": "active",
+  "explorers": [
+    {
+      "name": "Humanity Mainnet explorer",
+      "url": "https://humanity-mainnet.explorer.alchemy.com",
+      "standard": "none"
+    }
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }]
+}
