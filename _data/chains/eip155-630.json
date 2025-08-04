@@ -1,0 +1,26 @@
+{
+    "name": "Guru Mainnet",
+    "chain": "GURU",
+    "rpc": ["https://rpc.gurufin.io"],
+    "icon": "gurufin",
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Guru Coin",
+      "symbol": "GXN",
+      "decimals": 18
+    },
+    "features": [],
+    "infoURL": "https://gurufin.io",
+    "shortName": "GXN",
+    "chainId": 630,
+    "networkId": 630,
+    "explorers": [
+      {
+        "name": "Guru Scanner",
+        "url": "https://scan.gurufin.io",
+        "standard": "none"
+      }
+    ],
+    "status": "incubating"
+  }
+  

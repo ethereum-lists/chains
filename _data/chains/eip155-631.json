@@ -1,0 +1,26 @@
+{
+    "name": "Guru Testnet",
+    "chain": "GURU",
+    "rpc": ["https://rpc.gurufin.io"],
+    "icon": "gurufin",
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Test Guru",
+      "symbol": "tGXN",
+      "decimals": 18
+    },
+    "features": [],
+    "infoURL": "https://gurufin.io",
+    "shortName": "tGXN",
+    "chainId": 631,
+    "networkId": 631,
+    "explorers": [
+      {
+        "name": "Guru Scanner",
+        "url": "https://scan.gurufin.io",
+        "standard": "none"
+      }
+    ],
+    "status": "incubating"
+  }
+  
