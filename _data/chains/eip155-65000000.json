@@ -1,7 +1,14 @@
 {
   "name": "Autonity Mainnet",
   "chain": "AUT",
-  "rpc": ["https://rpc.autonity-apis.com", "wss://rpc.autonity-apis.com"],
+  "rpc": [
+    "https://rpc.autonity-apis.com",
+    "wss://rpc.autonity-apis.com",
+    "https://autonity.rpc.web3cdn.network",
+    "wss://autonity.rpc.web3cdn.network",
+    "https://autonity.rpc.subquery.network/public",
+    "wss://autonity.rpc.subquery.network/public"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Auton",

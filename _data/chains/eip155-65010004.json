@@ -3,7 +3,9 @@
   "chain": "AUT",
   "rpc": [
     "https://bakerloo.autonity-apis.com",
-    "wss://bakerloo.autonity-apis.com"
+    "wss://bakerloo.autonity-apis.com",
+    "https://autonity.rpc.web3cdn.network/testnet",
+    "wss://autonity.rpc.web3cdn.network/testnet/ws"
   ],
   "faucets": ["https://autonity.faucetme.pro"],
   "nativeCurrency": {
