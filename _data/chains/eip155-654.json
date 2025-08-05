@@ -1,7 +1,7 @@
 {
-  "name": "Kalichain",
+  "name": "Kalichain  (Deprecated)",
   "chain": "Kalichain",
-  "rpc": ["https://mainnet.kalichain.com"],
+  "rpc": ["https://rpc.kalichain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "kalis",
@@ -9,10 +9,10 @@
     "decimals": 18
   },
   "infoURL": "https://kalichain.com",
-  "shortName": "kalichainMainnet",
+  "shortName": "kalichain-old",
   "chainId": 654,
   "networkId": 654,
-  "icon": "kalichain",
+  "status": "deprecated",
   "explorers": [
     {
       "name": "kalichain explorer",
