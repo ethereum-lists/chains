@@ -1,0 +1,33 @@
+{
+  "name": "brantley-global",
+  "chain": "GBDO",
+  "rpc": [
+    "https://rpc.brantley-global.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GBDO",
+    "symbol": "GBDO",
+    "decimals": 18
+  },
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" },
+    { "name": "EIP1344" },
+    { "name": "EIP2930" },
+    { "name": "EIP2718" }
+  ],
+  "infoURL": "https://brantley-global.com",
+  "shortName": "gbdo",
+  "chainId": 3503995874081207,
+  "networkId": 3503995874081207,
+  "icon": "gbdo",
+  "explorers": [
+    {
+      "name": "globaldash",
+      "url": "https://brantley-global.com/dashboard",
+      "icon": "bg",
+      "standard": "none"
+    }
+  ]
+}
