@@ -1,0 +1,24 @@
+{
+  "name": "Hybrid Testnet (Deprecated)",
+  "chain": "HYB",
+  "icon": "hybridIcon",
+  "rpc": ["https://testnet-rpc.buildonhybrid.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Hybrid",
+    "symbol": "HYB",
+    "decimals": 18
+  },
+  "infoURL": "https://buildonhybrid.com",
+  "shortName": "hyb_deprecated",
+  "chainId": 1224,
+  "status": "deprecated",
+  "networkId": 1224,
+  "explorers": [
+    {
+      "name": "Hybrid Testnet",
+      "url": "https://explorer.buildonhybrid.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

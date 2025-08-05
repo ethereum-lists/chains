@@ -1,0 +1,26 @@
+{
+  "name": "Automata Testnet",
+  "chain": "Automata Testnet",
+  "rpc": [
+    "https://rpc-testnet.ata.network",
+    "https://automata-testnet.alt.technology"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ATA",
+    "symbol": "ATA",
+    "decimals": 18
+  },
+  "infoURL": "https://ata.network",
+  "shortName": "automatatest",
+  "chainId": 1398243,
+  "networkId": 1398243,
+  "icon": "automata",
+  "explorers": [
+    {
+      "name": "Automata Testnet Explorer",
+      "url": "https://explorer-testnet.ata.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

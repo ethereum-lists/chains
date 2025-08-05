@@ -1,0 +1,20 @@
+{
+  "name": "ZenChain",
+  "chain": "ZTC",
+  "icon": "zenchain",
+  "rpc": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ZTC",
+    "symbol": "ZTC",
+    "decimals": 18
+  },
+  "infoURL": "https://zenchain.io",
+  "shortName": "zen",
+  "chainId": 8108,
+  "networkId": 8108,
+  "slip44": 60,
+  "explorers": [],
+  "status": "incubating"
+}

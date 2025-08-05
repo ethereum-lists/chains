@@ -1,0 +1,20 @@
+{
+  "name": "XProtocol",
+  "chain": "XPROTOCOL",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Kick",
+    "symbol": "KICK",
+    "decimals": 18
+  },
+  "shortName": "xprotocol",
+  "chainId": 8386,
+  "networkId": 8386,
+  "status": "incubating",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-8453"
+  },
+  "infoURL": "https://xprotocol.org/"
+}

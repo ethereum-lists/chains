@@ -1,0 +1,28 @@
+{
+  "name": "SX Rollup",
+  "chain": "SX",
+  "icon": "SX",
+  "rpc": ["https://rpc.sx-rollup.gelato.digital"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SX Network",
+    "symbol": "SX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.sx.technology",
+  "shortName": "SXR",
+  "chainId": 4162,
+  "networkId": 4162,
+  "explorers": [
+    {
+      "name": "SX L2 Explorer",
+      "url": "https://explorerl2.sx.technology",
+      "standard": "EIP3091",
+      "icon": "SX"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
+}

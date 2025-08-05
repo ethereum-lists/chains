@@ -1,0 +1,26 @@
+{
+  "name": "Omni",
+  "chain": "Omni",
+  "status": "active",
+  "rpc": ["https://mainnet.omni.network", "wss://wss.mainnet.omni.network"],
+  "features": [{ "name": "EIP155" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Omni",
+    "symbol": "OMNI",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.omni.network",
+  "shortName": "omni",
+  "chainId": 166,
+  "networkId": 166,
+  "slip44": 1,
+  "icon": "omni",
+  "explorers": [
+    {
+      "name": "Omni EVM and cross-chain Explorer",
+      "url": "https://omniscan.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

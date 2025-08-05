@@ -1,0 +1,25 @@
+{
+  "name": "Bahamut ocean",
+  "title": "Bahamut ocean",
+  "chain": "Bahamut",
+  "icon": "bahamut",
+  "rpc": ["https://rpc1.ocean.bahamutchain.com"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FTN",
+    "symbol": "FTN",
+    "decimals": 18
+  },
+  "shortName": "ocean",
+  "infoURL": "https://bahamut.io",
+  "chainId": 4058,
+  "networkId": 4058,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://ocean.ftnscan.com",
+      "standard": "none"
+    }
+  ]
+}

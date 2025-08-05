@@ -1,0 +1,22 @@
+{
+  "name": "Pivotal Mainnet",
+  "chainId": 1648,
+  "networkId": 1648,
+  "chain": "Pivotal",
+  "rpc": ["https://mainnet.pivotalprotocol.com"],
+  "faucets": [],
+  "shortName": "pivotal-mainnet",
+  "nativeCurrency": {
+    "name": "Pivotal ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "http://thepivotal.xyz/",
+  "explorers": [
+    {
+      "name": "Pivotal Scan",
+      "url": "https://pivotalscan.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
