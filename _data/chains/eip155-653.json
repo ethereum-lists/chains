@@ -1,5 +1,5 @@
 {
-  "name": "Kalichain Mainnet (Deprecated)",
+  "name": "Kalichain Testnet",
   "chain": "Kalichain",
   "rpc": ["https://rpc.kalichain.com"],
   "faucets": [],
@@ -9,10 +9,10 @@
     "decimals": 18
   },
   "infoURL": "https://kalichain.com",
-  "shortName": "kalichain-old",
+  "shortName": "kalichain",
   "chainId": 653,
   "networkId": 653,
-  "status": "deprecated",
+  "icon": "kalichain",
   "explorers": [
     {
       "name": "kalichain explorer",
