@@ -2,10 +2,10 @@
   "name": "Primea Network Mainnet",
   "chain": "Primea Network Mainnet",
   "rpc": [
-    "http://rpc.primeanetwork.com/rpc-http",
-    "https://rpc.primeanetwork.com/rpc-https",
-    "ws://rpc.primeanetwork.com/rpc-ws",
-    "wss://rpc.primeanetwork.com/rpc-wss"
+    "http://rpc.primeanetwork.com/",
+    "https://rpc.primeanetwork.com/",
+    "ws://rpc.primeanetwork.com/ws",
+    "wss://rpc.primeanetwork.com/wss"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -18,5 +18,11 @@
   "chainId": 698369,
   "networkId": 698369,
   "icon": "prim",
-  "explorers": []
+  "explorers": [
+    {
+      "name": "Primea Explorer",
+      "url": "http://200.115.122.215:8080",
+      "standard": "EIP3091"
+    }
+  ]
 }
