@@ -2,9 +2,7 @@
   "name": "Sova Sepolia Testnet",
   "chain": "ETH",
   "icon": "sova",
-  "rpc": [
-    "https://rpc.testnet.sova.io"
-  ],
+  "rpc": ["https://rpc.testnet.sova.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
@@ -19,7 +17,7 @@
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://explorer.testnet.sova.io/",
+      "url": "https://explorer.testnet.sova.io",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
