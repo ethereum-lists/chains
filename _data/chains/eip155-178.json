@@ -1,6 +1,6 @@
 {
-  "name": "ABEY Testnet",
-  "chain": "ABEY",
+  "name": "Abey Testnet",
+  "chain": "Abey",
   "rpc": ["https://testrpc.abeychain.com"],
   "features": [{ "name": "EIP155" }],
   "faucets": ["https://testnet-faucet.abeychain.com"],
@@ -13,6 +13,7 @@
   "shortName": "abeyt",
   "chainId": 178,
   "networkId": 178,
+  "icon": "abey",
   "explorers": [
     {
       "name": "abeyscan-testnet",
