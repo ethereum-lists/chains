@@ -23945,6 +23945,19 @@
   "faucets": [],
   "infoURL": "https://metadap.io/"
 }, {
+  "name": "Sova Sepolia Testnet",
+  "chainId": 120893,
+  "shortName": "sovasep",
+  "networkId": 120893,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.sova.io"],
+  "faucets": [],
+  "infoURL": "https://sova.io"
+}, {
   "name": "Rome Devnet Esquiline",
   "chainId": 121212,
   "shortName": "rome-devnet-esquiline",
