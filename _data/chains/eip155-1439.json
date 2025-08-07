@@ -3,8 +3,8 @@
   "chain": "Injective",
   "icon": "injective",
   "rpc": [
-    "https://testnet.sentry.chain.json-rpc.injective.network",
-    "wss://testnet.sentry.chain.json-rpc.injective.network",
+    "https://k8s.testnet.json-rpc.injective.network",
+    "wss://k8s.testnet.ws.injective.network",
     "https://injectiveevm-testnet-rpc.polkachu.com",
     "wss://injectiveevm-testnet-rpc.polkachu.com"
   ],
