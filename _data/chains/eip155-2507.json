@@ -1,0 +1,24 @@
+{
+  "name": "GRX Chain Testnet",
+  "chain": "GRX",
+  "icon": "grxIcon",
+  "rpc": ["https://testnet.grxchain.io"],
+  "faucets": ["https://faucet.grxchain.io"],
+  "nativeCurrency": {
+    "name": "GRX",
+    "symbol": "GRX",
+    "decimals": 18
+  },
+  "infoURL": "https://grxchain.io",
+  "shortName": "TGRX",
+  "chainId": 2507,
+  "networkId": 2507,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "GRX Chain Testnet",
+      "url": "https://testnet.grxscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
