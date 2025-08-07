@@ -1,0 +1,20 @@
+{
+  "name": "Tea Mainnet",
+  "chain": "TEA",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Tea",
+    "symbol": "TEA",
+    "decimals": 18
+  },
+  "infoURL": "https://tea.xyz",
+  "shortName": "tea",
+  "chainId": 6122,
+  "networkId": 6122,
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  },
+  "status": "incubating"
+}
