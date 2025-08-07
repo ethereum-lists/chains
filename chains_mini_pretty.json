@@ -16080,9 +16080,22 @@
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
+  "name": "Plasma Mainnet",
+  "chainId": 9745,
+  "shortName": "plasma-mainnet",
+  "networkId": 9745,
+  "nativeCurrency": {
+    "name": "Plasma",
+    "symbol": "XPL",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://plasma.to"
+}, {
   "name": "Plasma Testnet",
   "chainId": 9746,
-  "shortName": "plasma",
+  "shortName": "plasma-testnet",
   "networkId": 9746,
   "nativeCurrency": {
     "name": "Testnet Plasma",
