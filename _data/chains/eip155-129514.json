@@ -4,7 +4,7 @@
   "rpc": ["https://fuel-testnet.zappayment.org"],
   "faucets": ["https://faucet-testnet.fuel.network/"],
   "nativeCurrency": {
-  "name": "Ethereum",
+    "name": "Ethereum",
     "symbol": "ETH",
     "decimals": 18
   },
@@ -21,9 +21,9 @@
     }
   ],
   "parent": {
-  "type": "L2",
-  "chain": "eip155-11155111",
-  "bridges": [
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [
       {
         "url": "https://app-testnet.fuel.network/bridge"
       }
