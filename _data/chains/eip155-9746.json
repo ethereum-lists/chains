@@ -9,15 +9,14 @@
     "decimals": 18
   },
   "infoURL": "https://plasma.to",
-  "shortName": "plasma",
+  "shortName": "plasma-testnet",
   "chainId": 9746,
   "networkId": 9746,
   "icon": "plasma",
   "explorers": [
     {
-      "name": "RouteScan",
-      "url": "https://testnet.plasmaexplorer.io",
-      "icon": "plasma",
+      "name": "Routescan",
+      "url": "https://testnet.plasmascan.to",
       "standard": "EIP3091"
     }
   ]
