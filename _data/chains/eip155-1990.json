@@ -1,39 +1,22 @@
 {
-    "name": "QIE-Mainnet",
-    "chain": "QIEV3",
-    "rpc": [
-      {
-        "url": "https://rpc1mainnet.qie.digital",
-    
-      },
-        {
-        "url": "https://rpc2mainnet.qie.digital",
-    
-      }
-    ],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "QIE",
-      "symbol": "QIE",
-      "decimals": 18
-    },
-    "features": [
-      {
-        "name": "EIP155"
-      },
-      {
-        "name": "EIP1559"
-      }
-    ],
-    "infoURL": "https://www.qie.digital/",
-    "shortName": "QIEV3",
-    "chainId": 1990,
-    "networkId": 1990,
-    "icon": "QIE",
-    "explorers": [
-      {
-        "name": "QIE mainnet explorer",
-        "url": "https://mainnet.qie.digital/"
-      }
-    ]
+  "name": "QIEMainnet",
+  "chain": "QIEV3",
+  "rpc": ["https://rpc1mainnet.qie.digital","https://rpc5mainnet.qie.digital"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QIE",
+    "symbol": "QIE",
+    "decimals": 18
   },
+  "infoURL": "https://www.qie.digital/",
+  "shortName": "QIEV3",
+  "chainId": 1990,
+  "networkId": 1990,
+  "explorers": [
+    {
+      "name": "QIE Mainnet Explorer",
+      "url": "https://mainnet.qie.digital",
+      "standard": "EIP3091"
+    }
+  ]
+}
