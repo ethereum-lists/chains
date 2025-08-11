@@ -1,9 +1,14 @@
 {
-    "name": "QIE Mainnet",
-    "chain": "QIE",
+    "name": "QIE-Mainnet",
+    "chain": "QIEV3",
     "rpc": [
       {
-        "url": "https://rpc1mainnet.qie.digital"
+        "url": "https://rpc1mainnet.qie.digital",
+    
+      },
+        {
+        "url": "https://rpc2mainnet.qie.digital",
+    
       }
     ],
     "faucets": [],
@@ -21,7 +26,7 @@
       }
     ],
     "infoURL": "https://www.qie.digital/",
-    "shortName": "QIE",
+    "shortName": "QIEV3",
     "chainId": 1990,
     "networkId": 1990,
     "icon": "QIE",
