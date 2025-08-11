@@ -1,7 +1,7 @@
 {
   "name": "QIEMainnet",
   "chain": "QIEV3",
-  "rpc": ["https://rpc1mainnet.qie.digital","https://rpc5mainnet.qie.digital"],
+  "rpc": ["https://rpc1mainnet.qie.digital", "https://rpc5mainnet.qie.digital"],
   "faucets": [],
   "nativeCurrency": {
     "name": "QIE",
@@ -12,10 +12,12 @@
   "shortName": "QIEV3",
   "chainId": 1990,
   "networkId": 1990,
+  "icon": "qiev3",
   "explorers": [
     {
       "name": "QIE Mainnet Explorer",
       "url": "https://mainnet.qie.digital",
+      "icon": "qieexplorer",
       "standard": "EIP3091"
     }
   ]
