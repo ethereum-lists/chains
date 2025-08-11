@@ -1,6 +1,6 @@
 {
-  "name": "QIE-Mainnet",
-  "chain": "QIE",
+  "name": "QIEMainnet",
+  "chain": "QIEMainnet",
   "rpc": ["https://rpc1mainnet.qie.digital","https://rpc5mainnet.qie.digital"],
   "faucets": [],
   "nativeCurrency": {
@@ -9,7 +9,7 @@
     "decimals": 18
   },
   "infoURL": "https://www.qie.digital/",
-  "shortName": "QIE",
+  "shortName": "QIEMainnet",
   "chainId": 1990,
   "networkId": 1990,
   "explorers": [
