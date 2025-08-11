@@ -1,0 +1,25 @@
+{
+  "name": "DogermanCoin Mainnet",
+  "chain": "DGM",
+  "rpc": [
+    "https://rpc.dogermancoin.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DogermanCoin",
+    "symbol": "DGM",
+    "decimals": 18
+  },
+  "infoURL": "https://dogermancoin.com",
+  "shortName": "dgm",
+  "chainId": 1121,
+  "networkId": 1121,
+  "explorers": [
+    {
+      "name": "DogermanCoin Explorer",
+      "url": "https://explorer.dogermancoin.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
+
