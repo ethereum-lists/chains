@@ -2,6 +2,7 @@
   "name": "Reactive Kopli",
   "title": "Reactive Network Testnet Kopli",
   "chain": "REACT",
+  "status": "deprecated",
   "rpc": ["https://kopli-rpc.rnk.dev"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": ["https://dev.reactive.network/docs/kopli-testnet#faucet"],
