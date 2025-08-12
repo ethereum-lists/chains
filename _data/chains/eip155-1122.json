@@ -1,8 +1,15 @@
 {
   "name": "DogermanCoin Localnet",
   "chain": "DGM-local",
+  "icon": "dogerman",
   "rpc": [
-    "http://127.0.0.1:8545"
+    "http://94.75.226.218:19332",
+    "http://94.75.226.218/node-localnet",
+    "http://94.75.226.218/localrpc",
+    "http://94.75.226.218/wallet",
+    "http://94.75.226.218/api",
+    "http://94.75.226.218/support",
+    "http://94.75.226.218/status"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -11,8 +18,16 @@
     "decimals": 18
   },
   "infoURL": "https://dogermancoin.com",
-  "shortName": "dgml",
+  "shortName": "dgm-local",
   "chainId": 1122,
   "networkId": 1122,
-  "explorers": []
+  "apis": [
+    { "name": "Localnet RPC",    "url": "http://94.75.226.218:19332" },
+    { "name": "Node Localnet",   "url": "http://94.75.226.218/node-localnet" },
+    { "name": "Local RPC",       "url": "http://94.75.226.218/localrpc" },
+    { "name": "Wallet RPC",      "url": "http://94.75.226.218/wallet" },
+    { "name": "Public API",      "url": "http://94.75.226.218/api" },
+    { "name": "Support",         "url": "http://94.75.226.218/support" },
+    { "name": "Status Page",     "url": "http://94.75.226.218/status" }
+  ]
 }
