@@ -1,33 +1,66 @@
 {
   "name": "DogermanCoin Localnet",
-  "chain": "DGM-local",
+  "chain": "DGM-LOCAL",
   "icon": "dogerman",
   "rpc": [
-    "http://94.75.226.218:19332",
-    "http://94.75.226.218/node-localnet",
-    "http://94.75.226.218/localrpc",
-    "http://94.75.226.218/wallet",
-    "http://94.75.226.218/api",
-    "http://94.75.226.218/support",
-    "http://94.75.226.218/status"
+    "http://94.75.226.218:11332",
+    "http://94.75.226.218:11332/node",
+    "http://94.75.226.218:11332/wallet",
+    "http://94.75.226.218:11332/api",
+    "http://94.75.226.218:11332/localrpc",
+    "http://94.75.226.218:11332/node-mainnet",
+    "http://94.75.226.218:11332/node-localnet",
+    "http://94.75.226.218:11332/support",
+    "http://94.75.226.218:11332/status"
   ],
-  "faucets": [],
+  "p2p": [
+    "94.75.226.218:11333"
+  ],
+  "faucets": [
+    {
+      "name": "DogermanCoin Localnet Faucet",
+      "url": "https://dogermancoin.com/faucet-localnet"
+    }
+  ],
   "nativeCurrency": {
-    "name": "DogermanCoin",
-    "symbol": "DGM",
+    "name": "DogermanCoin Test Token",
+    "symbol": "tDGM",
     "decimals": 18
   },
   "infoURL": "https://dogermancoin.com",
   "shortName": "dgm-local",
   "chainId": 1122,
   "networkId": 1122,
+  "explorers": [
+    {
+      "name": "DogermanCoin Localnet Explorer",
+      "url": "http://94.75.226.218:8081",
+      "standard": "EIP3091"
+    }
+  ],
   "apis": [
-    { "name": "Localnet RPC",    "url": "http://94.75.226.218:19332" },
-    { "name": "Node Localnet",   "url": "http://94.75.226.218/node-localnet" },
-    { "name": "Local RPC",       "url": "http://94.75.226.218/localrpc" },
-    { "name": "Wallet RPC",      "url": "http://94.75.226.218/wallet" },
-    { "name": "Public API",      "url": "http://94.75.226.218/api" },
-    { "name": "Support",         "url": "http://94.75.226.218/support" },
-    { "name": "Status Page",     "url": "http://94.75.226.218/status" }
+    { "name": "Localnet RPC",     "url": "http://94.75.226.218:11332" },
+    { "name": "Node",             "url": "http://94.75.226.218:11332/node" },
+    { "name": "Wallet RPC",       "url": "http://94.75.226.218:11332/wallet" },
+    { "name": "Public API",       "url": "http://94.75.226.218:11332/api" },
+    { "name": "Local RPC",        "url": "http://94.75.226.218:11332/localrpc" },
+    { "name": "Node Mainnet",     "url": "http://94.75.226.218:11332/node-mainnet" },
+    { "name": "Node Localnet",    "url": "http://94.75.226.218:11332/node-localnet" },
+    { "name": "Support",          "url": "http://94.75.226.218:11332/support" },
+    { "name": "Status Page",      "url": "http://94.75.226.218:11332/status" }
+  ],
+  "features": [
+    "EVM-compatible",
+    "Instant block confirmation for tests",
+    "Multi-currency wallet integration",
+    "Public/Private RPC endpoints",
+    "Custom explorer",
+    "Developer testing environment"
+  ],
+  "social": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/dogermancoin/dogermancoin.git"
+    }
   ]
 }
