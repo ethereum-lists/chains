@@ -5,7 +5,7 @@
   "rpc": ["https://sepolia.hpp.io"],
   "faucets": ["https://faucet.conduit.xyz"],
   "nativeCurrency": {
-    "name": "HPP Ether",
+    "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
@@ -15,15 +15,10 @@
   "networkId": 181228,
   "explorers": [
     {
-      "name": "HPP Sepolia Expolorer",
+      "name": "HPP Sepolia Explorer",
       "url": "https://sepolia-explorer.hpp.io",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ],
-  "parent": {
-    "type": "L2",
-    "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://bridge.arbitrum.io" }]
-  }
+  ]
 }

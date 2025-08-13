@@ -5,7 +5,7 @@
   "rpc": ["https://mainnet.hpp.io"],
   "faucets": ["https://faucet.conduit.xyz"],
   "nativeCurrency": {
-    "name": "HPP Ether",
+    "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
@@ -13,17 +13,12 @@
   "shortName": "hpp-mainnet",
   "chainId": 190415,
   "networkId": 190415,
-  "explorers": [{
-    "name": "HPP Mainnet Explorer",
-    "url": "https://explorer.hpp.io",
-    "icon": "blockscout",
-    "standard": "EIP3091"
-  }],
-  "parent": {
-    "type": "L1",
-    "chain": "eip155-1",
-    "bridges": [{
-      "url": "https://bridge.arbitrum.io"
-    }]
-  }
+  "explorers": [
+    {
+      "name": "HPP Mainnet Explorer",
+      "url": "https://explorer.hpp.io",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
 }
