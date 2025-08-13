@@ -28222,6 +28222,19 @@
   "faucets": [],
   "infoURL": "https://alienxchain.io/home"
 }, {
+  "name": "Celo Sepolia Testnet",
+  "chainId": 11142220,
+  "shortName": "celo-sep",
+  "networkId": 11142220,
+  "nativeCurrency": {
+    "name": "CELO-S",
+    "symbol": "CELO",
+    "decimals": 18
+  },
+  "rpc": ["https://forno.celo-sepolia.celo-testnet.org"],
+  "faucets": ["https://faucet.celo.org"],
+  "infoURL": "https://docs.celo.org"
+}, {
   "name": "Blessnet Sepolia",
   "chainId": 11145513,
   "shortName": "bless-sepolia",
