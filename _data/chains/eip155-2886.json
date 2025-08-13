@@ -1,0 +1,33 @@
+{
+  "name": "DeriW Chain",
+  "chainId": 2886,
+  "shortName": "DeriW Chain",
+  "title": "DeriW Chain",
+  "chain": "DeriW Chain",
+  "networkId": 2886,
+  "icon": "deriW",
+  "rpc": ["https://rpc.deriw.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://deriw.com",
+  "explorers": [
+    {
+      "name": "DeriW Explorer",
+      "url": "https://explorer.deriw.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161",
+    "bridges": [
+      {
+        "url": "https://bridge.arbitrum.io"
+      }
+    ]
+  }
+}
