@@ -1,0 +1,21 @@
+{
+  "name": "KWALA Testnet",
+  "chain": "KWALA",
+  "icon": "kwala",
+  "rpc": ["https://rpc-ohio.kwala.network"],
+  "nativeCurrency": {
+    "name": "KWALA",
+    "symbol": "KWALA",
+    "decimals": 18
+  },
+  "infoURL": "https://kwala.network",
+  "shortName": "kwala",
+  "chainId": 1905,
+  "networkId": 1905,
+  "explorers": [
+    {
+      "name": "KWALA Explorer",
+      "url": "https://kalpscan.io"
+    }
+  ]
+}
