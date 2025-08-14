@@ -1,0 +1,36 @@
+{
+  "name": "Splendor Mainnet",
+  "chain": "SPLENDOR",
+  "icon": "splendor",
+  "rpc": [
+    "https://mainnet-rpc.splendor.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Splendor Token",
+    "symbol": "SPLD",
+    "decimals": 18
+  },
+  "infoURL": "https://splendor.org",
+  "shortName": "spld",
+  "chainId": 2691,
+  "networkId": 2691,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "Splendor Explorer",
+      "url": "https://explorer.splendor.org",
+      "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "status": "active",
+  "testnet": false
+}
