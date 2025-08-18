@@ -1,0 +1,23 @@
+{
+  "name": "Surya",
+  "chain": "OHM",
+  "icon": "surya",
+  "rpc": ["https://suryaexplorer.hstn.me/blockchain"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Surya Coin",
+    "symbol": "OHM",
+    "decimals": 18
+  },
+  "infoURL": "https://suryascan.hstn.me",
+  "shortName": "ohm",
+  "chainId": 7008,
+  "networkId": 7008,
+  "explorers": [
+    {
+      "name": "Suryascan",
+      "url": "https://suryascan.hstn.me",
+      "standard": "EIP3091"
+    }
+  ]
+}
