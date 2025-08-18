@@ -1,0 +1,26 @@
+{
+  "name": "Watr Mainnet",
+  "chain": "WATR",
+  "icon": "watr",
+  "rpc": [
+    "https://rpc.watr.org/ext/bc/EypLFUSzC2wdbFJovYS3Af1E7ch1DJf7KxKoGR5QFPErxQkG1/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WAT",
+    "symbol": "WAT",
+    "decimals": 18
+  },
+  "infoURL": "https://www.watr.org",
+  "shortName": "watr-mainnet",
+  "chainId": 192,
+  "networkId": 192,
+  "explorers": [
+    {
+      "name": "Watr Explorer",
+      "url": "https://explorer.watr.org",
+      "icon": "watr",
+      "standard": "EIP3091"
+    }
+  ]
+}
