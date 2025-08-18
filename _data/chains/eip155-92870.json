@@ -1,9 +1,9 @@
 {
-  "name": "Watr River Testnet",
+  "name": "Watr Testnet",
   "chain": "WATR",
   "icon": "watr",
   "rpc": [
-    "https://rpc-watr-testnet.cogitus.io/QbqyUC5QXwBU23/ext/bc/2ZZiR6T2sJjebQguABb53rRpzme8zfK4R9zt5vMM8MX1oUm3g/rpc"
+    "https://rpc.testnet.watr.org/ext/bc/2ZZiR6T2sJjebQguABb53rRpzme8zfK4R9zt5vMM8MX1oUm3g/rpc"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -18,7 +18,7 @@
   "explorers": [
     {
       "name": "Watr Explorer",
-      "url": "https://explorer-watr-testnet.cogitus.io",
+      "url": "https://explorer.testnet.watr.org",
       "icon": "watr",
       "standard": "EIP3091"
     }
