@@ -5,9 +5,7 @@
     "https://evm.dukong.mantrachain.io",
     "wss://evm.dukong.mantrachain.io/ws"
   ],
-  "faucets": [
-    "https://faucet.dukong.mantrachain.io"
-  ],
+  "faucets": ["https://faucet.dukong.mantrachain.io"],
   "nativeCurrency": {
     "name": "OM",
     "symbol": "OM",
