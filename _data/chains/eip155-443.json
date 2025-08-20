@@ -1,8 +1,8 @@
 {
-  "name": "Ten Testnet",
-  "title": "Ten Sepolia Rollup Testnet",
+  "name": "TEN",
+  "title": "TEN Mainnet",
   "chainId": 443,
-  "shortName": "ten-testnet",
+  "shortName": "ten-mainnet",
   "chain": "ETH",
   "networkId": 443,
   "slip44": 1,
@@ -11,12 +11,13 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://testnet.ten.xyz"],
+  "rpc": ["https://rpc.ten.xyz"],
   "faucets": [],
   "infoURL": "https://ten.xyz",
+  "icon": "ten",
   "explorers": [
     {
-      "name": "Ten Sepolia Rollup Explorer",
+      "name": "TEN Explorer",
       "url": "https://tenscan.io",
       "standard": "none"
     }

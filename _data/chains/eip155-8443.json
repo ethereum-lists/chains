@@ -1,0 +1,30 @@
+{
+  "name": "TEN Testnet",
+  "title": "TEN Sepolia Rollup Testnet",
+  "chainId": 8443,
+  "shortName": "ten-testnet",
+  "chain": "ETH",
+  "networkId": 8443,
+  "slip44": 1,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.ten.xyz"],
+  "faucets": ["https://testnet-faucet.ten.xyz/"],
+  "infoURL": "https://ten.xyz",
+  "icon": "ten",
+  "explorers": [
+    {
+      "name": "TEN Sepolia Rollup Explorer",
+      "url": "https://testnet.tenscan.io",
+      "standard": "none"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-5",
+    "bridges": [{ "url": "https://testnet-bridge.ten.xyz" }]
+  }
+}
