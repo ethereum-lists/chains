@@ -1,0 +1,24 @@
+{
+  "name": "Jzero Chain",
+  "chain": "JZERO",
+  "rpc": ["https://rpc.jzero.xyz"],
+  "faucets": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "nativeCurrency": {
+    "name": "JFIN Token",
+    "symbol": "JFIN",
+    "decimals": 18
+  },
+  "infoURL": "https://jzero.xyz",
+  "shortName": "JZERO",
+  "chainId": 209,
+  "networkId": 209,
+  "icon": "jzero",
+  "explorers": [
+    {
+      "name": "Jzero Explorer",
+      "url": "https://exp.jzero.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
