@@ -1,7 +1,11 @@
 {
   "name": "SnaxChain",
   "chain": "ETH",
-  "rpc": ["https://mainnet.snaxchain.io"],
+  "rpc": [
+    "https://mainnet.snaxchain.io",
+    "https://snaxchain.drpc.org",
+    "wss://snaxchain.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
