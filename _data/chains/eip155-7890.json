@@ -1,0 +1,29 @@
+{
+  "name": "Pan Chain",
+  "chain": "Panchain",
+  "rpc": [
+    "https://rpc.panchain.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Pan Coin",
+    "symbol": "PC",
+    "decimals": 18
+  },
+  "features": [
+    { "name": "EIP155" }
+  ],
+  "infoURL": "https://panchain.io",
+  "shortName": "pcn",
+  "chainId": 7890,
+  "networkId": 7890,
+  "icon": "Panchain",
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://scan.panchain.io",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
