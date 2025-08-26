@@ -1,0 +1,23 @@
+{
+  "name": "ENI Mainnet",
+  "chain": "ENI",
+  "rpc": ["https://rpc.eniac.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EGAS",
+    "symbol": "EGAS",
+    "decimals": 18
+  },
+  "infoURL": "https://eniac.network/",
+  "shortName": "eni",
+  "chainId": 173,
+  "networkId": 173,
+  "icon": "eni",
+  "explorers": [
+    {
+      "name": "ENI Explorer",
+      "url": "https://scan.eniac.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
