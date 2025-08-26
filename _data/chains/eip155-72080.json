@@ -12,5 +12,11 @@
     "symbol": "tNXRA",
     "decimals": 18
   },
-  "explorers": []
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.testnet.nexera.network",
+      "standard": "EIP3091"
+    },
+  ]
 }
