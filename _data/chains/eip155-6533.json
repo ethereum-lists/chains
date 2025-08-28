@@ -1,7 +1,7 @@
 {
-  "name": "Kalichain Mainnet (Deprecated)",
+  "name": "Kalichain Mainnet",
   "chain": "Kalichain",
-  "rpc": ["https://mainnet.kalichain.com"],
+  "rpc": ["https://subnets.avax.network/kalichain/mainnet/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "kalis",
@@ -9,15 +9,14 @@
     "decimals": 18
   },
   "infoURL": "https://kalichain.com",
-  "shortName": "kalichainMainnet-old",
-  "chainId": 654,
-  "networkId": 654,
-  "status": "deprecated",
+  "shortName": "kalichainMainnet",
+  "chainId": 6533,
+  "networkId": 6533,
   "icon": "kalichain",
   "explorers": [
     {
       "name": "kalichain explorer",
-      "url": "https://explorer.kalichain.com",
+      "url": "https://scan.kalichain.com",
       "standard": "EIP3091"
     }
   ]
