@@ -9,7 +9,14 @@
   "chainId": 432,
   "networkId": 432,
   "icon": "GRAMZ",
-  "features": [{ "name": "EIP155" }],
+ "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "explorers": [
     {
       "name": "NutriEmp Explorer",
