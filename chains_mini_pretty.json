@@ -8215,6 +8215,19 @@
   "faucets": [],
   "infoURL": "https://rpc.bethscan.io"
 }, {
+  "name": "OpenLedger Mainnet",
+  "chainId": 1612,
+  "shortName": "open",
+  "networkId": 1612,
+  "nativeCurrency": {
+    "name": "Open",
+    "symbol": "OPEN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.openledger.xyz"],
+  "faucets": [],
+  "infoURL": "https://www.openledger.xyz"
+}, {
   "name": "Ethereum Inscription Mainnet",
   "chainId": 1617,
   "shortName": "etins",
