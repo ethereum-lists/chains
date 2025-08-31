@@ -1,8 +1,8 @@
 {
-  "name": "Quai Network Mainnet",
+  "name": "Quai Network Testnet",
   "chain": "QUAI",
   "icon": "quai",
-  "rpc": ["https://rpc.quai.network/cyprus1"],
+  "rpc": ["https://orchard.rpc.quai.network/cyprus1"],
   "features": [{ "name": "EIP155" }],
   "faucets": [],
   "nativeCurrency": {
@@ -11,14 +11,13 @@
     "decimals": 18
   },
   "infoURL": "https://qu.ai",
-  "shortName": "quai",
-  "chainId": 9,
-  "networkId": 9,
-  "redFlags": ["reusedChainId"],
+  "shortName": "quai-testnet",
+  "chainId": 15000,
+  "networkId": 15000,
   "explorers": [
     {
-      "name": "Quaiscan",
-      "url": "https://quaiscan.io",
+      "name": "Orchard Quaiscan",
+      "url": "https://orchard.quaiscan.io",
       "standard": "EIP3091"
     }
   ]
