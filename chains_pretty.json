@@ -3638,8 +3638,8 @@
     "chain": "eip155-1"
   }
 }, {
-  "name": "ABEY Testnet",
-  "chain": "ABEY",
+  "name": "Abey Testnet",
+  "chain": "Abey",
   "rpc": ["https://testrpc.abeychain.com"],
   "features": [{
     "name": "EIP155"
@@ -3654,14 +3654,16 @@
   "shortName": "abeyt",
   "chainId": 178,
   "networkId": 178,
+  "icon": "abey",
   "explorers": [{
     "name": "abeyscan-testnet",
     "url": "https://testnet.abeyscan.com",
+    "icon": "abey",
     "standard": "EIP3091"
   }]
 }, {
-  "name": "ABEY Mainnet",
-  "chain": "ABEY",
+  "name": "Abey Mainnet",
+  "chain": "Abey",
   "rpc": ["https://rpc.abeychain.com"],
   "features": [{
     "name": "EIP155"
@@ -3676,9 +3678,11 @@
   "shortName": "abey",
   "chainId": 179,
   "networkId": 179,
+  "icon": "abey",
   "explorers": [{
     "name": "abeyscan",
     "url": "https://abeyscan.com",
+    "icon": "abey",
     "standard": "EIP3091"
   }]
 }, {
