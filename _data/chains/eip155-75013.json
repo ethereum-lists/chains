@@ -1,0 +1,32 @@
+{
+  "name": "Bluebyte1 C98-Chain",
+  "chain": "Bluebyte1 C98-Chain",
+  "rpc": ["https://rpc.bluebyte1-mainnet.network/ext/bc/C98/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "C98",
+    "symbol": "C98",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://juneo.com/",
+  "shortName": "C98",
+  "chainId": 75013,
+  "networkId": 75013,
+  "icon": "bluebyte1-c98",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://bluebyte1.juneoscan.io/chain/12",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}
