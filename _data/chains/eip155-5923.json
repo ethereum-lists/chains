@@ -1,0 +1,36 @@
+{
+  "name": "Kadena EVM Testnet 23",
+  "chain": "Kadena",
+  "rpc": [
+    "https://api.evm-testnet.chainweb.com/chainweb/0.0/evm-testnet/chain/23/evm/rpc",
+    "wss://api.evm-testnet.chainweb.com/chainweb/0.0/evm-testnet/chain/23/evm/ws"
+  ],
+  "faucets": ["https://tools.kadena.io/faucet/evm"],
+  "nativeCurrency": {
+    "name": "Kadena",
+    "symbol": "KDA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.kadena.io",
+  "shortName": "kda-evm-testnet-23",
+  "chainId": 5923,
+  "networkId": 5923,
+  "explorers": [
+    {
+      "name": "testnet@chain23 explorer",
+      "url": "http://chain-23.evm-testnet-blockscout.chainweb.com",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Kadena Explorer",
+      "url": "https://explorer.kadena.io/evm-testnet",
+      "standard": "none"
+    },
+    {
+      "name": "Chainweb Explorer",
+      "url": "https://explorer.kadena.io/evm-testnet",
+      "standard": "none"
+    }
+  ],
+  "slip44": 626
+}
