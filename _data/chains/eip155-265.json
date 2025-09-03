@@ -1,0 +1,24 @@
+{
+  "name": "QNMAX Network",
+  "chain": "QNM",
+  "icon": "qnmaxIcon",
+  "rpc": ["https://rpc.qnmax.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QNMAX",
+    "symbol": "QNM",
+    "decimals": 18
+  },
+  "infoURL": "https://qnmax.com",
+  "shortName": "QNM",
+  "chainId": 265,
+  "networkId": 265,
+  "status": "active",
+  "explorers": [
+    {
+      "name": "QNMAX Explorer",
+      "url": "https://explorer.qnmax.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
