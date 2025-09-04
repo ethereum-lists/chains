@@ -1,0 +1,11 @@
+{
+  "name": "QNMAX ADD CHAIN",
+  "packageManager": "yarn@4.4.1",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  },
+  "scripts": {
+    "format:json": "prettier --write '**/*.json'",
+    "lint:json": "prettier --check '**/*.json'"
+  }
+}
