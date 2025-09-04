@@ -1,0 +1,24 @@
+{
+  "name": "Matchain Testnet",
+  "chain": "Matchain",
+  "icon": "matchain",
+  "rpc": ["https://testnet-rpc.matchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BNB",
+    "symbol": "BNB",
+    "decimals": 18
+  },
+  "infoURL": "https://www.matchain.io",
+  "shortName": "tMatchain",
+  "chainId": 699,
+  "networkId": 699,
+  "explorers": [
+    {
+      "name": "Matchscan Testnet",
+      "url": "https://testnet.matchscan.io",
+      "standard": "EIP3091",
+      "icon": "matchain"
+    }
+  ]
+}

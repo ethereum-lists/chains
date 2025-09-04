@@ -1,19 +1,25 @@
 {
-  "name": "Tanssi EVM ContainerChain",
-  "chain": "EVMCC",
+  "name": "Tanssi Demo",
+  "chain": "TANGO",
   "rpc": [
-    "https://fraa-dancebox-3001-rpc.a.dancebox.tanssi.network",
-    "wss://fraa-dancebox-3001-rpc.a.dancebox.tanssi.network"
+    "https://dancelight-2001.tanssi-api.network",
+    "wss://dancelight-2001.tanssi-api.network"
   ],
-  "faucets": [],
+  "faucets": ["https://apps.tanssi.network/demo"],
   "nativeCurrency": {
-    "name": "Unit",
-    "symbol": "Unit",
+    "name": "TANGO",
+    "symbol": "TANGO",
     "decimals": 18
   },
-  "infoURL": "https://tanssi.network",
-  "shortName": "TanssiCC",
+  "infoURL": "https://docs.tanssi.network/builders/tanssi-network/networks/dancebox/demo-evm-containerchain",
+  "shortName": "tango",
   "chainId": 5678,
   "networkId": 5678,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "BlockScout",
+      "url": "https://dancelight-2001-blockscout.tanssi-chains.network",
+      "standard": "EIP3091"
+    }
+  ]
 }

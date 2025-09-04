@@ -1,6 +1,6 @@
 {
   "name": "Swisstronik Testnet",
-  "chain": "SWTR",
+  "chain": "SWTR Testnet",
   "rpc": ["https://json-rpc.testnet.swisstronik.com"],
   "faucets": ["https://faucet.testnet.swisstronik.com"],
   "nativeCurrency": {
@@ -10,7 +10,7 @@
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://www.swisstronik.com",
-  "shortName": "swtr",
+  "shortName": "swtr-testnet",
   "chainId": 1291,
   "networkId": 1291,
   "slip44": 1,

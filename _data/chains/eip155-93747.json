@@ -1,0 +1,22 @@
+{
+  "name": "StratoVM Testnet",
+  "chain": "StratoVM",
+  "rpc": ["https://rpc.stratovm.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SVM",
+    "symbol": "SVM",
+    "decimals": 18
+  },
+  "infoURL": "https://www.stratovm.io/",
+  "shortName": "stratovm",
+  "chainId": 93747,
+  "networkId": 93747,
+  "explorers": [
+    {
+      "name": "StratoVM Block Explorer",
+      "url": "https://explorer.stratovm.io",
+      "standard": "none"
+    }
+  ]
+}

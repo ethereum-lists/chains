@@ -4,8 +4,8 @@
   "icon": "mantle",
   "rpc": [
     "https://rpc.mantle.xyz",
-    "https://mantle.publicnode.com",
-    "wss://mantle.publicnode.com"
+    "https://mantle-rpc.publicnode.com",
+    "wss://mantle-rpc.publicnode.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -18,6 +18,11 @@
   "chainId": 5000,
   "networkId": 5000,
   "explorers": [
+    {
+      "name": "mantlescan",
+      "url": "https://mantlescan.xyz",
+      "standard": "EIP3091"
+    },
     {
       "name": "Mantle Explorer",
       "url": "https://explorer.mantle.xyz",

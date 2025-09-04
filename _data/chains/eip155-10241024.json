@@ -1,0 +1,23 @@
+{
+  "name": "AlienX Mainnet",
+  "chain": "AlienX Mainnet",
+  "rpc": ["https://rpc.alienxchain.io/http"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://alienxchain.io/home",
+  "shortName": "AlienX",
+  "chainId": 10241024,
+  "networkId": 10241024,
+  "icon": "alienx",
+  "explorers": [
+    {
+      "name": "AlienXChain Explorer",
+      "url": "https://explorer.alienxchain.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

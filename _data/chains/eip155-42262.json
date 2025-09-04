@@ -2,7 +2,7 @@
   "name": "Oasis Emerald",
   "chain": "Emerald",
   "icon": "oasis",
-  "rpc": ["https://emerald.oasis.dev", "wss://emerald.oasis.dev/ws"],
+  "rpc": ["https://emerald.oasis.io", "wss://emerald.oasis.io/ws"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Emerald Rose",
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "Oasis Emerald Explorer",
-      "url": "https://explorer.emerald.oasis.dev",
+      "url": "https://explorer.oasis.io/mainnet/emerald",
       "standard": "EIP3091"
     }
   ]

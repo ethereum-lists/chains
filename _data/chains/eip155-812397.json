@@ -1,0 +1,27 @@
+{
+  "name": "SG Verse Mainnet",
+  "chain": "SG Verse",
+  "icon": "sg_verse",
+  "rpc": ["https://rpc.sgverse.net/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "SGV",
+  "chainId": 812397,
+  "networkId": 812397,
+  "explorers": [
+    {
+      "name": "SG Verse Explorer",
+      "url": "https://explorer.sgverse.net",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-248"
+  }
+}

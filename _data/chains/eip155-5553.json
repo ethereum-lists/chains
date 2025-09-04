@@ -1,7 +1,8 @@
 {
-  "name": "Nahmii Testnet",
+  "name": "Nahmii 2 Testnet",
   "chain": "Nahmii",
   "rpc": ["https://l2.testnet.nahmii.io"],
+  "status": "deprecated",
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

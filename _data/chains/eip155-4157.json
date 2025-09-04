@@ -1,0 +1,26 @@
+{
+  "name": "CrossFi Testnet",
+  "title": "CrossFi Testnet",
+  "chain": "XFI",
+  "icon": "crossfi",
+  "rpc": ["https://rpc.testnet.ms"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "XFI",
+    "symbol": "XFI",
+    "decimals": 18
+  },
+  "infoURL": "https://crossfi.org",
+  "shortName": "crossfi-testnet",
+  "chainId": 4157,
+  "networkId": 4157,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "CrossFi Testnet Scan",
+      "url": "https://test.xfiscan.com",
+      "standard": "EIP3091",
+      "icon": "crossfi"
+    }
+  ]
+}

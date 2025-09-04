@@ -1,0 +1,25 @@
+{
+  "name": "WowChain Mainnet",
+  "title": "WowChain Mainnet",
+  "chain": "WowChain",
+  "rpc": ["https://rpc.wowchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dogecoin",
+    "symbol": "DOGE",
+    "decimals": 18
+  },
+  "infoURL": "https://wowchain.io",
+  "shortName": "wow",
+  "chainId": 203,
+  "networkId": 203,
+  "icon": "wowchain",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.wowchain.io",
+      "icon": "wowchain",
+      "standard": "EIP3091"
+    }
+  ]
+}

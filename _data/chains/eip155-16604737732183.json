@@ -1,0 +1,25 @@
+{
+  "name": "Flame Testnet",
+  "chain": "Flame",
+  "rpc": ["https://rpc.flame.dawn-1.astria.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TIA",
+    "symbol": "TIA",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://astria.org",
+  "shortName": "flame-testnet",
+  "chainId": 16604737732183,
+  "networkId": 16604737732183,
+  "icon": "flame",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.flame.dawn-1.astria.org",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

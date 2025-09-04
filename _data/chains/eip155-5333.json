@@ -1,0 +1,24 @@
+{
+  "name": "Netsbo",
+  "chain": "NETSBO",
+  "rpc": ["https://rpc1.netsbo.io", "https://rpc2.netsbo.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Netsbo",
+    "symbol": "NETS",
+    "decimals": 18
+  },
+  "infoURL": "https://netsbo.io",
+  "shortName": "nets",
+  "chainId": 5333,
+  "networkId": 5333,
+  "icon": "netsbo",
+  "explorers": [
+    {
+      "name": "netsbo",
+      "url": "https://explorer.netsbo.io",
+      "icon": "netsbo",
+      "standard": "none"
+    }
+  ]
+}

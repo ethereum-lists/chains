@@ -1,0 +1,24 @@
+{
+  "name": "Elizabeth Testnet",
+  "chain": "Elizabeth",
+  "rpc": ["https://testnet-rpc.timenetwork.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TIME",
+    "symbol": "TIME",
+    "decimals": 18
+  },
+  "infoURL": "https://whitepaper.anttime.net/overview/anttime",
+  "shortName": "TIME",
+  "chainId": 2731,
+  "networkId": 2731,
+  "icon": "timenet",
+  "explorers": [
+    {
+      "name": "Time Network Explorer",
+      "url": "https://testnet-scanner.timenetwork.io",
+      "standard": "none",
+      "icon": "timenet"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "RARI Chain Testnet",
+  "chain": "RARI",
+  "rpc": ["https://testnet.rpc.rarichain.org/http"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://rarichain.org/",
+  "shortName": "rari-testnet",
+  "chainId": 1918988905,
+  "networkId": 1918988905,
+  "explorers": [
+    {
+      "name": "rarichain-testnet-explorer",
+      "url": "https://explorer.rarichain.org",
+      "standard": "EIP3091"
+    }
+  ]
+}

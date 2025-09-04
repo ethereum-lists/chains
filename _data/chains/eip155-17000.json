@@ -4,8 +4,11 @@
   "chain": "ETH",
   "rpc": [
     "https://rpc.holesky.ethpandaops.io",
-    "https://ethereum-holesky.publicnode.com",
-    "wss://ethereum-holesky.publicnode.com"
+    "https://ethereum-holesky-rpc.publicnode.com",
+    "wss://ethereum-holesky-rpc.publicnode.com",
+    "https://holesky.drpc.org",
+    "wss://holesky.drpc.org",
+    "https://rpc-holesky.rockx.com"
   ],
   "faucets": [
     "https://faucet.holesky.ethpandaops.io",
