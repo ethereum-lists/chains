@@ -1,22 +1,22 @@
 {
-  "name": "Plasma Mainnet",
+  "name": "Plasma Devnet",
   "chain": "Plasma",
-  "rpc": ["https://rpc.plasma.to"],
+  "rpc": ["https://devnet-rpc.plasma.to"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Plasma",
+    "name": "Devnet Plasma",
     "symbol": "XPL",
     "decimals": 18
   },
   "infoURL": "https://plasma.to",
-  "shortName": "plasma",
-  "chainId": 9745,
-  "networkId": 9745,
+  "shortName": "plasma-devnet",
+  "chainId": 9747,
+  "networkId": 9747,
   "icon": "plasma",
   "explorers": [
     {
       "name": "Routescan",
-      "url": "https://plasmascan.to",
+      "url": "https://devnet.plasmascan.to",
       "standard": "EIP3091"
     }
   ]
