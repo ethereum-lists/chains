@@ -1,0 +1,29 @@
+{
+  "name": "Risa Testnet",
+  "chain": "Risa Testnet",
+  "shortName": "risa",
+  "infoURL": "https://syndicate.io",
+  "icon": "syndicate",
+  "status": "active",
+  "chainId": 51014,
+  "networkId": 51014,
+  "nativeCurrency": {
+    "name": "Testnet Syndicate",
+    "symbol": "SYND",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.syndicate.io"],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "Risa Testnet Explorer",
+      "url": "https://explorer.testnet.syndicate.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "https://bridge.arbitrum.io" }]
+  }
+}
