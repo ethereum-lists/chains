@@ -1,0 +1,29 @@
+{
+  "name": "Syndicate Commons",
+  "chain": "Commons",
+  "shortName": "commons",
+  "infoURL": "https://syndicate.io",
+  "icon": "syndicate",
+  "status": "active",
+  "chainId": 510003,
+  "networkId": 510003,
+  "nativeCurrency": {
+    "name": "Syndicate",
+    "symbol": "SYND",
+    "decimals": 18
+  },
+  "rpc": ["https://commons.rpc.syndicate.io"],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "Commons Explorer",
+      "url": "https://commons.explorer.syndicate.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-8453",
+    "bridges": [{ "url": "https://bridge.syndicate.io" }]
+  }
+}
