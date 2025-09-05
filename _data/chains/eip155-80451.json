@@ -1,0 +1,21 @@
+{
+  "name": "Geo Genesis",
+  "chain": "Geo Genesis",
+  "rpc": ["https://rpc-geo-genesis-h0q2s21xx8.t.conduit.xyz/"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "infoURL": "https://geobrowser.io",
+  "nativeCurrency": {
+    "name": "The Graph",
+    "symbol": "GRT",
+    "decimals": 18
+  },
+  "shortName": "geo",
+  "chainId": 80451,
+  "networkId": 80451,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161"
+  }
+}

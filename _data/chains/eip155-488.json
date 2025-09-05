@@ -1,0 +1,25 @@
+{
+  "name": "BlackFort Exchange Network",
+  "chain": "BXN",
+  "rpc": ["https://rpc.blackfort.network/mainnet/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BlackFort Token",
+    "symbol": "BXN",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://blackfort.com",
+  "shortName": "BXN",
+  "chainId": 488,
+  "networkId": 488,
+  "icon": "bxn",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blackfortscan.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

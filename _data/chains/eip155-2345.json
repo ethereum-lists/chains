@@ -1,0 +1,24 @@
+{
+  "name": "GOAT Network",
+  "title": "GOAT Network",
+  "chain": "GOAT",
+  "rpc": ["https://rpc.goat.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.goat.network",
+  "shortName": "goat",
+  "chainId": 2345,
+  "networkId": 2345,
+  "icon": "goat",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.goat.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

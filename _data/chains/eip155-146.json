@@ -1,7 +1,11 @@
 {
   "name": "Sonic Mainnet",
   "chain": "sonic",
-  "rpc": ["https://rpc.soniclabs.com"],
+  "rpc": [
+    "https://rpc.soniclabs.com",
+    "https://sonic-rpc.publicnode.com",
+    "wss://sonic-rpc.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sonic",

@@ -1,7 +1,11 @@
 {
   "name": "Sonic Blaze Testnet",
   "chain": "blaze-testnet",
-  "rpc": ["https://rpc.blaze.soniclabs.com"],
+  "rpc": [
+    "https://rpc.blaze.soniclabs.com",
+    "https://sonic-blaze-rpc.publicnode.com",
+    "wss://sonic-blaze-rpc.publicnode.com"
+  ],
   "faucets": ["https://blaze.soniclabs.com/account"],
   "nativeCurrency": {
     "name": "Sonic",
@@ -13,13 +17,5 @@
   "shortName": "blaze",
   "chainId": 57054,
   "networkId": 57054,
-  "icon": "sonic",
-  "explorers": [
-    {
-      "name": "sonic blaze testnet",
-      "url": "https://explorer.blaze.soniclabs.com",
-      "icon": "sonic",
-      "standard": "none"
-    }
-  ]
+  "icon": "sonic"
 }

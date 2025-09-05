@@ -1,0 +1,23 @@
+{
+  "name": "Plasma Testnet",
+  "chain": "Plasma",
+  "rpc": ["https://testnet-rpc.plasma.to"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Testnet Plasma",
+    "symbol": "XPL",
+    "decimals": 18
+  },
+  "infoURL": "https://plasma.to",
+  "shortName": "plasma-testnet",
+  "chainId": 9746,
+  "networkId": 9746,
+  "icon": "plasma",
+  "explorers": [
+    {
+      "name": "Routescan",
+      "url": "https://testnet.plasmascan.to",
+      "standard": "EIP3091"
+    }
+  ]
+}

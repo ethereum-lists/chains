@@ -1,7 +1,7 @@
 {
   "name": "0G-Newton-Testnet",
   "chain": "0G-Testnet",
-  "rpc": ["https://rpc-testnet.0g.ai"],
+  "rpc": ["https://evmrpc-testnet.0g.ai"],
   "faucets": ["https://faucet.0g.ai"],
   "nativeCurrency": {
     "name": "A0GI",
@@ -15,7 +15,7 @@
   "icon": "0gai",
   "explorers": [
     {
-      "name": "0G Chain Explorer",
+      "name": "0G BlockChain Explorer",
       "url": "https://chainscan-newton.0g.ai",
       "standard": "none"
     }

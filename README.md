@@ -92,7 +92,7 @@ There are also aggregated json files with all chains automatically assembled:
  We cannot allow more than one chain with the same chainID - this would open the door to replay attacks.
  The first pull request gets the chainID assigned. When creating a chain we can expect that you read EIP155 which states this repo.
  All pull requests trying to replace a chainID because they think their chain is better than the other will be closed.
- The only way to get a chain reassigned is when the old chain gets deprecated. This can e.g. be used for testnets that are short-lived. But then you will get the redFlag "reusedChaiID" that should be displayed in clients to warn them about the dangers here.
+ The only way to get a chain reassigned is when the old chain gets deprecated. This can e.g. be used for testnets that are short-lived. But then you will get the redFlag "reusedChainID" that should be displayed in clients to warn them about the dangers here.
 
 ## Getting your PR merged
 ### before PR is submitted
@@ -119,7 +119,7 @@ npx prettier --write _data/*/*.json
  * When making changes that fix the CI problems - please re-request a review - otherwise it is too much work to track such changes with so many PRs daily
 
 ## Usages
-### Tools 
+### Tools
  * [MESC](https://paradigmxyz.github.io/mesc)
 
 ### Explorers
@@ -147,6 +147,7 @@ npx prettier --write _data/*/*.json
  * [evmchainlist.org](https://evmchainlist.org)
  * [networks.vercel.app](https://networks.vercel.app)
  * [Wagmi compatible chain configurations](https://spenhouet.com/chains)
+ * [chainlist.simplr.sh - Info packaged single pager](https://chainlist.simplr.sh)
 
 ### Other
  * [FaucETH](https://github.com/komputing/FaucETH)
