@@ -1,0 +1,27 @@
+{
+  "name": "Moonchain",
+  "chain": "MCH",
+  "rpc": ["https://rpc.mchain.ai"],
+  "faucets": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "nativeCurrency": {
+    "name": "Moonchain",
+    "symbol": "MCH",
+    "decimals": 18
+  },
+  "infoURL": "https://mchain.ai",
+  "shortName": "mch",
+  "chainId": 999888,
+  "networkId": 999888,
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-56"
+  },
+  "explorers": [
+    {
+      "name": "Moonchain Explorer",
+      "url": "https://explorer.mchain.ai",
+      "standard": "EIP3091"
+    }
+  ]
+}
