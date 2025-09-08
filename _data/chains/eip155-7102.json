@@ -1,0 +1,23 @@
+{
+  "name": "FullOn EVM Network",
+  "chain": "FLON",
+  "icon": "flon",
+  "rpc": ["https://rpc.evm.flonscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FullOn",
+    "symbol": "FLON",
+    "decimals": 18
+  },
+  "infoURL": "https://fullon.network",
+  "shortName": "flon",
+  "chainId": 7102,
+  "networkId": 7102,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://evm.flonscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
