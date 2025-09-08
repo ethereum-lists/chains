@@ -1,0 +1,24 @@
+{
+  "name": "Tron Nile",
+  "chain": "TRON",
+  "rpc": ["https://nile.trongrid.io/jsonrpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Tron",
+    "symbol": "TRX",
+    "decimals": 6
+  },
+  "infoURL": "https://tron.network",
+  "shortName": "tron-nile",
+  "chainId": 3448148188,
+  "networkId": 3448148188,
+  "icon": "tron",
+  "explorers": [
+    {
+      "name": "nile tronscan",
+      "url": "https://nile.tronscan.org",
+      "icon": "tron",
+      "standard": "none"
+    }
+  ]
+}
