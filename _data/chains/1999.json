@@ -1,0 +1,25 @@
+{
+  "name": "Tenderly Virtual Network",
+  "chain": "TETH",
+  "rpc": [
+    "https://virtual.mainnet.eu.rpc.tenderly.co/ab1215db-feae-435f-8f8b-546fb448d274"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Tether",
+    "symbol": "USDT",
+    "decimals": 18
+  },
+  "infoURL": "https://tenderly.co/",
+  "shortName": "teth",
+  "chainId": 1999,
+  "networkId": 1999,
+  "icon": "tenderly",
+  "explorers": [
+    {
+      "name": "Tenderly Explorer",
+      "url": "https://dashboard.tenderly.co/explorer",
+      "standard": "EIP3091"
+    }
+  ]
+}
