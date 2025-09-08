@@ -1,0 +1,28 @@
+{
+  "name": "Incentiv Testnet",
+  "chain": "TCENT",
+  "rpc": ["https://rpc3.testnet.incentiv.io", "https://rpc2.testnet.incentiv.io", "https://rpc1.testnet.incentiv.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Testnet Incentiv Coin",
+    "symbol": "TCENT",
+    "decimals": 18
+  },
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" }
+  ],
+  "infoURL": "https://incentiv.net",
+  "shortName": "tcent",
+  "chainId": 28802,
+  "networkId": 28802,
+  "icon": "incentiv",
+  "explorers": [
+    {
+      "name": "Incentiv Testnet Explorer",
+      "url": "https://explorer-testnet.incentiv.io/",
+      "icon": "etherscan",
+      "standard": "EIP3091"
+    }
+  ]
+}
