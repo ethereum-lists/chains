@@ -1,0 +1,32 @@
+{
+  "name": "Banana1 KNC1-Chain",
+  "chain": "Banana1 KNC1-Chain",
+  "rpc": ["https://rpc.banana1-mainnet.network/ext/bc/KNC1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "KNC1",
+    "symbol": "KNC1",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://juneo.com/",
+  "shortName": "KNC1",
+  "chainId": 65011,
+  "networkId": 65011,
+  "icon": "banana1-knc1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://banana1.juneoscan.io/chain/10",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}

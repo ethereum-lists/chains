@@ -1,0 +1,32 @@
+{
+  "name": "Banana1 VIRTUAL1-Chain",
+  "chain": "Banana1 VIRTUAL1-Chain",
+  "rpc": ["https://rpc.banana1-mainnet.network/ext/bc/VIRTUAL1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "VIRTUA",
+    "symbol": "VIRTUA",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://juneo.com/",
+  "shortName": "VIRTUAL1",
+  "chainId": 65014,
+  "networkId": 65014,
+  "icon": "banana1-virtual1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://banana1.juneoscan.io/chain/13",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}

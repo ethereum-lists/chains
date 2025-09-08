@@ -1,0 +1,32 @@
+{
+  "name": "Bluebyte1 BORG1-Chain",
+  "chain": "Bluebyte1 BORG1-Chain",
+  "rpc": ["https://rpc.bluebyte1-mainnet.network/ext/bc/BORG1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BORG1",
+    "symbol": "BORG1",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://juneo.com/",
+  "shortName": "BORG1",
+  "chainId": 75007,
+  "networkId": 75007,
+  "icon": "bluebyte1-borg1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://bluebyte1.juneoscan.io/chain/6",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}
