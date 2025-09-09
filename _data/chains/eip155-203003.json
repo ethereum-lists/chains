@@ -1,0 +1,17 @@
+{
+  "name": "US Benchmark Coin",
+  "chain": "USBC",
+  "rpc": ["https://rpc.usbc.xyz:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "US Benchmark Coin",
+    "symbol": "USBC",
+    "decimals": 18
+  },
+  "infoURL": "https://usbc.xyz",
+  "shortName": "usbc",
+  "chainId": 203003,
+  "networkId": 203003,
+  "explorers": [],
+  "status": "active"
+}
