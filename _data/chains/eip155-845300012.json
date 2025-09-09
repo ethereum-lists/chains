@@ -1,7 +1,7 @@
 {
   "name": "MVL Mainnet",
   "chain": "MVL",
-  "rpc": ["https://mvl-rpc.appchain.base.org/"],
+  "rpc": ["https://mvl-rpc.appchain.base.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Mass Vehicle Ledger",
@@ -16,7 +16,7 @@
       "name": "EIP1559"
     }
   ],
-  "infoURL": "https://mvlchain.io/",
+  "infoURL": "https://mvlchain.io",
   "shortName": "mvl",
   "chainId": 845300012,
   "networkId": 845300012,
