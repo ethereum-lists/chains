@@ -1,0 +1,19 @@
+{
+  "name": "EADX Network",
+  "chain": "EADX",
+  "icon": "eadx",
+  "rpc": ["https://rpc.eadx.network"],
+  "faucets": [],
+  "nativeCurrency": { "name": "EDX", "symbol": "EDX", "decimals": 18 },
+  "infoURL": "https://eadxexchange.com",
+  "shortName": "eadx",
+  "chainId": 198724,
+  "networkId": 198724,
+  "explorers": [
+    {
+      "name": "EADX Explorer",
+      "url": "https://explorer.eadx.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
