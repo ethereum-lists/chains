@@ -1,0 +1,46 @@
+{
+  "name": "Form Network",
+  "title": "Form Network",
+  "chain": "form",
+  "icon": "form",
+  "rpc": ["https://rpc.form.network/http", "wss://rpc.form.network/ws"],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://info.form.network",
+  "shortName": "formnetwork",
+  "chainId": 478,
+  "networkId": 478,
+  "explorers": [
+    {
+      "name": "Form Explorer",
+      "url": "https://explorer.form.network",
+      "standard": "EIP3091",
+      "icon": "form"
+    }
+  ],
+  "faucets": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [
+      {
+        "url": "https://bridge.form.network"
+      },
+      {
+        "url": "https://op-bridge.form.network"
+      }
+    ]
+  },
+  "status": "active"
+}

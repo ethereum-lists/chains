@@ -4,8 +4,8 @@
   "rpc": [
     "https://evmos.lava.build",
     "wss://evmos.lava.build/websocket",
-    "https://evmos-evm.publicnode.com",
-    "wss://evmos-evm.publicnode.com"
+    "https://evmos-evm-rpc.publicnode.com",
+    "wss://evmos-evm-rpc.publicnode.com"
   ],
   "faucets": [],
   "nativeCurrency": {

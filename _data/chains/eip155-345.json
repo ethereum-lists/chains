@@ -1,0 +1,24 @@
+{
+  "name": "TSC Mainnet",
+  "chain": "Trust Smart Chain",
+  "rpc": ["https://rpc01.trias.one"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TAS",
+    "symbol": "TAS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.trias.one",
+  "shortName": "TSC",
+  "icon": "netx",
+  "chainId": 345,
+  "networkId": 16,
+  "explorers": [
+    {
+      "name": "tscscan",
+      "url": "https://www.tscscan.io",
+      "icon": "netxscan",
+      "standard": "none"
+    }
+  ]
+}

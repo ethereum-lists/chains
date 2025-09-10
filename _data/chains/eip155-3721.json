@@ -1,0 +1,25 @@
+{
+  "name": "Xone Mainnet",
+  "chain": "XOC",
+  "icon": "Xonechain",
+  "rpc": ["https://rpc.xone.org", "wss://rpc-wss.xone.org"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": ["https://faucet.xone.org/"],
+  "nativeCurrency": {
+    "name": "Xone Coin",
+    "symbol": "XOC",
+    "decimals": 18
+  },
+  "infoURL": "https://xone.org",
+  "shortName": "XOC",
+  "chainId": 3721,
+  "networkId": 3721,
+  "explorers": [
+    {
+      "name": "Xonescan",
+      "url": "https://xscscan.com",
+      "icon": "Xonescan",
+      "standard": "EIP3091"
+    }
+  ]
+}

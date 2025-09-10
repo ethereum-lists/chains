@@ -1,11 +1,12 @@
 {
   "name": "ZEDXION",
   "chain": "ZEDXION",
+  "icon": "zedx",
   "rpc": ["https://mainnet-rpc.zedscan.net"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Zedxion",
-    "symbol": "zedx",
+    "symbol": "ZEDX",
     "decimals": 9
   },
   "infoURL": "https://docs.zedscan.net",

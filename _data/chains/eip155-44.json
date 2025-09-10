@@ -1,10 +1,7 @@
 {
   "name": "Crab Network",
   "chain": "crab",
-  "rpc": [
-    "https://crab-rpc.darwinia.network",
-    "https://crab-rpc.darwiniacommunitydao.xyz"
-  ],
+  "rpc": ["https://crab-rpc.darwinia.network", "https://crab-rpc.dcdao.box"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Crab Network Native Token",
@@ -17,8 +14,8 @@
   "networkId": 44,
   "explorers": [
     {
-      "name": "subscan",
-      "url": "https://crab.subscan.io",
+      "name": "blockscout",
+      "url": "https://crab-scan.darwinia.network",
       "standard": "EIP3091"
     }
   ]

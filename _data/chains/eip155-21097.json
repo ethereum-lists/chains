@@ -1,0 +1,28 @@
+{
+  "name": "Rivest Testnet",
+  "chain": "Inco",
+  "rpc": [
+    "https://validator.rivest.inco.org",
+    "https://gateway.rivest.inco.org"
+  ],
+  "faucets": ["https://faucet.rivest.inco.org"],
+  "nativeCurrency": {
+    "name": "test-Inco",
+    "symbol": "tINCO",
+    "decimals": 18
+  },
+  "infoURL": "https://inco.org",
+  "shortName": "rivest-testnet",
+  "chainId": 21097,
+  "networkId": 21097,
+  "slip44": 1,
+  "icon": "inco",
+  "explorers": [
+    {
+      "name": "Rivest Testnet Explorer",
+      "url": "https://explorer.rivest.inco.org",
+      "standard": "EIP3091",
+      "icon": "inco"
+    }
+  ]
+}
