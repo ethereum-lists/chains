@@ -1,0 +1,15 @@
+{
+  "name": "Umotu Testnet",
+  "chain": "UMTt",
+  "rpc": ["https://rpc.testnet.umotu.com"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "nativeCurrency": { "name": "Umotu Testnet", "symbol": "tUMT", "decimals": 18 },
+  "infoURL": "https://umotu.com",
+  "shortName": "umotu-t",
+  "chainId": 9601,
+  "networkId": 9601,
+  "explorers": [
+    { "name": "umotu-scan-testnet", "url": "https://explorer.testnet.umotu.com", "standard": "EIP3091" }
+  ],
+  "faucets": ["https://faucet.testnet.umotu.com"]
+}
