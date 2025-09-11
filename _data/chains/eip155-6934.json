@@ -1,10 +1,10 @@
 {
   "name": "Xylume TestNet",
   "chain": "XYL",
-  "rpc": ["https://xyl-testnet.glitch.me/rpc/"],
-  "faucets": ["https://debxylen.github.io/XYL_TestNet/faucet.html"],
+  "rpc": ["https://xylume-testnet.sparked.network/rpc/"],
+  "faucets": ["https://debxylen.github.io/Xylume_TestNet/faucet.html"],
   "nativeCurrency": {
-    "name": "XYL",
+    "name": "Xylume",
     "symbol": "XYL",
     "decimals": 18
   },
