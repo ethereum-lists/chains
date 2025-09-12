@@ -1,0 +1,24 @@
+{
+  "name": "Weber Energy MainNet",
+  "chain": "WEN",
+  "rpc": ["https://wenchainmainnet.myweber.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WEN",
+    "symbol": "WEN",
+    "decimals": 18
+  },
+  "infoURL": "https://myweber.org",
+  "shortName": "wen mainnet",
+  "chainId": 883,
+  "networkId": 883,
+  "icon": "wenmain",
+  "explorers": [
+    {
+      "name": "Weber Energy MainNet Explorer",
+      "url": "https://wenmainnet.myweber.org",
+      "icon": "wenmain",
+      "standard": "EIP3091"
+    }
+  ]
+}
