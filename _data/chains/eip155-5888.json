@@ -1,10 +1,7 @@
 {
   "name": "MANTRACHAIN Mainnet",
   "chain": "MANTRACHAIN",
-  "rpc": [
-    "https://evm.mantrachain.io",
-    "wss://evm.mantrachain.io/ws"
-  ],
+  "rpc": ["https://evm.mantrachain.io", "wss://evm.mantrachain.io/ws"],
   "faucets": [],
   "nativeCurrency": {
     "name": "OM",
