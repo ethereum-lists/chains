@@ -8,7 +8,7 @@
     "symbol": "ZIL",
     "decimals": 18
   },
-  "infoURL": "https://www.zilliqa.com/",
+  "infoURL": "https://www.zilliqa.com",
   "shortName": "zil-testnet",
   "chainId": 33101,
   "networkId": 33101,
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "Zilliqa 2 Testnet Explorer",
-      "url": "https://testnet.zilliqa.blockscout.com/",
+      "url": "https://testnet.zilliqa.blockscout.com",
       "standard": "EIP3091"
     }
   ]
