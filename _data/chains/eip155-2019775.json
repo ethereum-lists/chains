@@ -7,9 +7,7 @@
     "https://api.zan.top/node/v1/jovay/testnet/${ZAN_API_KEY}",
     "wss://api.zan.top/node/ws/v1/jovay/testnet/${ZAN_API_KEY}"
   ],
-  "faucets": [
-    "https://zan.top/faucet/jovay"
-  ],
+  "faucets": ["https://zan.top/faucet/jovay"],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
