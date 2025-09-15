@@ -1,0 +1,20 @@
+{
+  "name": "Lightning Vault",
+  "chain": "LVT",
+  "icon": "lvt",
+  "rpc": [
+    "https://lightning-mainnet.site"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lightning Vault Coin",
+    "symbol": "LVC",
+    "decimals": 18
+  },
+  "infoURL": "https://lightning-mainnet.site",
+  "shortName": "lvt",
+  "chainId": 296070,
+  "networkId": 296070,
+  "slip44": 296070,
+  "status": "active"
+}
