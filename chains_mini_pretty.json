@@ -13467,6 +13467,19 @@
   "faucets": ["https://faucet.dukong.mantrachain.io"],
   "infoURL": "https://mantrachain.io"
 }, {
+  "name": "MANTRACHAIN Mainnet",
+  "chainId": 5888,
+  "shortName": "mantrachain",
+  "networkId": 5888,
+  "nativeCurrency": {
+    "name": "OM",
+    "symbol": "OM",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.mantrachain.io", "wss://evm.mantrachain.io/ws"],
+  "faucets": [],
+  "infoURL": "https://mantrachain.io"
+}, {
   "name": "BounceBit Testnet",
   "chainId": 6000,
   "shortName": "bouncebit-testnet",
