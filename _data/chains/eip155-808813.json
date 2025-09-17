@@ -3,7 +3,9 @@
   "chain": "ETH",
   "rpc": [
     "https://bob-sepolia.rpc.gobob.xyz",
-    "wss://bob-sepolia.rpc.gobob.xyz"
+    "wss://bob-sepolia.rpc.gobob.xyz",
+    "https://bob-testnet.drpc.org",
+    "wss://bob-testnet.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
