@@ -19642,7 +19642,7 @@
   "faucets": [],
   "infoURL": "https://www.entangle.fi"
 }, {
-  "name": "Zilliqa EVM Testnet",
+  "name": "Zilliqa 2 Testnet",
   "chainId": 33101,
   "shortName": "zil-testnet",
   "networkId": 33101,
@@ -19651,9 +19651,9 @@
     "symbol": "ZIL",
     "decimals": 18
   },
-  "rpc": ["https://dev-api.zilliqa.com"],
-  "faucets": ["https://dev-wallet.zilliqa.com/faucet?network=testnet"],
-  "infoURL": "https://www.zilliqa.com/"
+  "rpc": ["https://api.testnet.zilliqa.com"],
+  "faucets": ["https://faucet.testnet.zilliqa.com"],
+  "infoURL": "https://www.zilliqa.com"
 }, {
   "name": "Zilliqa 2 EVM proto-testnet",
   "chainId": 33103,
