@@ -25128,6 +25128,19 @@
   "faucets": [],
   "infoURL": "https://studio-blockchain.com"
 }, {
+  "name": "Studio Blockchain Mainnet",
+  "chainId": 240241,
+  "shortName": "stom",
+  "networkId": 240241,
+  "nativeCurrency": {
+    "name": "Studio Token",
+    "symbol": "STO",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.studio-blockchain.com", "https://mainnet2.studio-blockchain.com", "https://mainnet3.studio-blockchain.com", "https://mainnet.studio-scan.com", "https://mainnet2.studio-scan.com", "wss://mainnet.studio-blockchain.com:8547"],
+  "faucets": [],
+  "infoURL": "https://studio-blockchain.com"
+}, {
   "name": "Orange Chain Testnet",
   "chainId": 240515,
   "shortName": "Orange-Chain-Testnet",
