@@ -25427,6 +25427,19 @@
   "faucets": ["https://faucet.bloomgenesis.com"],
   "infoURL": "https://www.bloomgenesis.com"
 }, {
+  "name": "World Mobile Chain Testnet",
+  "chainId": 323432,
+  "shortName": "WMCTEST",
+  "networkId": 323432,
+  "nativeCurrency": {
+    "name": "ATestingToken",
+    "symbol": "WOMOX",
+    "decimals": 18
+  },
+  "rpc": ["https://worldmobile-devnet.g.alchemy.com/public"],
+  "faucets": ["https://testnet-faucet.worldmobile.net"],
+  "infoURL": "https://worldmobile.io/the-chain"
+}, {
   "name": "Camp Network Testnet V2",
   "chainId": 325000,
   "shortName": "CampV2",

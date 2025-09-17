@@ -42053,6 +42053,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "World Mobile Chain Testnet",
+  "chain": "WOMOX",
+  "rpc": ["https://worldmobile-devnet.g.alchemy.com/public"],
+  "faucets": ["https://testnet-faucet.worldmobile.net"],
+  "nativeCurrency": {
+    "name": "ATestingToken",
+    "symbol": "WOMOX",
+    "decimals": 18
+  },
+  "infoURL": "https://worldmobile.io/the-chain",
+  "shortName": "WMCTEST",
+  "chainId": 323432,
+  "networkId": 323432,
+  "explorers": [{
+    "name": "World Mobile Testnet Explorer",
+    "url": "https://testnet-explorer.worldmobile.net",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Camp Network Testnet V2",
   "chain": "ETH",
   "icon": "camp",
