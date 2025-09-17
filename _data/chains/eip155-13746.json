@@ -2,7 +2,12 @@
   "name": "Game7 Testnet",
   "title": "Game7 Testnet",
   "chain": "Game7",
-  "rpc": ["https://testnet-rpc.game7.io", "wss://testnet-rpc.game7.io"],
+  "rpc": [
+    "https://testnet-rpc.game7.io",
+    "wss://testnet-rpc.game7.io",
+    "https://testnet-rpc.game7.build",
+    "wss://testnet-rpc.game7.build"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "TG7T",

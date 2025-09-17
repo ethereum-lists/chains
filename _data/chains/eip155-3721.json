@@ -2,7 +2,7 @@
   "name": "Xone Mainnet",
   "chain": "XOC",
   "icon": "Xonechain",
-  "rpc": ["https://rpc.xone.org"],
+  "rpc": ["https://rpc.xone.org", "wss://rpc-wss.xone.org"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": ["https://faucet.xone.org/"],
   "nativeCurrency": {
