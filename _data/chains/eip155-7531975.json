@@ -1,0 +1,22 @@
+{
+  "name": "Rivool Finance",
+  "chain": "RIVOOL",
+  "rpc": ["https://fraa-dancelight-2013-rpc.a.dancelight.tanssi.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Rivool Token",
+    "symbol": "RVOT",
+    "decimals": 18
+  },
+  "infoURL": "https://apps.tanssi.network/dancelight/2013",
+  "shortName": "rivool",
+  "chainId": 7531975,
+  "networkId": 7531975,
+  "explorers": [
+    {
+      "name": "Subscan",
+      "url": "https://dancelight.subscan.io/parachain/2013",
+      "standard": "none"
+    }
+  ]
+}
