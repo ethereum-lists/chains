@@ -4367,16 +4367,16 @@
   "faucets": [],
   "infoURL": "https://camino.network/"
 }, {
-  "name": "Syndicate Chain",
+  "name": "Syndicate Mainnet",
   "chainId": 510,
-  "shortName": "syndicate-chain-mainnet",
+  "shortName": "syndicate",
   "networkId": 510,
   "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
+    "name": "Syndicate",
+    "symbol": "SYND",
     "decimals": 18
   },
-  "rpc": ["https://rpc-mainnet.syndicate.io"],
+  "rpc": ["https://rpc.syndicate.io"],
   "faucets": [],
   "infoURL": "https://syndicate.io"
 }, {
