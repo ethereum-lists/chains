@@ -1,0 +1,25 @@
+{
+  "name": "VIA",
+  "title": "VIA Network",
+  "chain": "VIA",
+  "rpc": ["https://via.mainnet.viablockchain.dev"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://buildonvia.org",
+  "shortName": "VIA",
+  "chainId": 5223,
+  "networkId": 5223,
+  "icon": "via",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.mainnet.viablockchain.xyz",
+      "icon": "via",
+      "standard": "EIP3091"
+    }
+  ]
+}
