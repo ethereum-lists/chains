@@ -1,0 +1,25 @@
+{
+  "name": "Somnia Mainnet",
+  "chain": "Somnia",
+  "rpc": [
+    "https://api.infra.mainnet.somnia.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Somnia",
+    "symbol": "SOMI",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://somnia.network",
+  "shortName": "SomniaMainnet",
+  "chainId": 5031,
+  "networkId": 5031,
+  "icon": "somnia",
+  "explorers": [{
+    "name": "somnia",
+    "url": "https://explorer.somnia.network",
+    "icon": "somnia",
+    "standard": "EIP3091"
+  }]
+}
