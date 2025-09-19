@@ -1,5 +1,5 @@
 {
-  "name": "Zilliqa EVM",
+  "name": "Zilliqa 2",
   "chain": "ZIL",
   "rpc": ["https://api.zilliqa.com"],
   "faucets": [],
@@ -15,9 +15,9 @@
   "icon": "zilliqa",
   "explorers": [
     {
-      "name": "Zilliqa EVM Explorer",
-      "url": "https://evmx.zilliqa.com",
-      "standard": "none"
+      "name": "Zilliqa 2 Mainnet Explorer",
+      "url": "https://zilliqa.blockscout.com",
+      "standard": "EIP3091"
     }
   ]
 }
