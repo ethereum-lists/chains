@@ -1,5 +1,5 @@
 {
-  "name": "unreal",
+  "name": "unreal-old",
   "title": "unreal testnet for re.al",
   "chain": "unreal",
   "rpc": [
@@ -13,7 +13,7 @@
   },
   "infoURL": "https://raas.gelato.network/rollups/details/public/unreal",
   "faucets": [],
-  "shortName": "unreal",
+  "shortName": "unreal-old",
   "chainId": 18231,
   "networkId": 18231,
   "slip44": 60,
@@ -29,6 +29,7 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://bridge.unreal.gelato.digital" }]
-  }
+    "bridges": []
+  },
+  "status": "deprecated"
 }

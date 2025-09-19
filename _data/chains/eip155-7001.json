@@ -1,10 +1,13 @@
 {
-  "name": "ZetaChain Athens 3 Testnet",
+  "name": "ZetaChain Testnet",
   "chain": "ZetaChain",
   "icon": "zetachain",
   "rpc": [
     "https://zetachain-athens-evm.blockpi.network/v1/rpc/public",
-    "https://zetachain-athens.g.allthatnode.com/archive/evm"
+    "https://zetachain-testnet.public.blastapi.io",
+    "https://zetachain-athens.g.allthatnode.com/archive/evm",
+    "https://7001.rpc.thirdweb.com",
+    "https://zeta-chain-testnet.drpc.org"
   ],
   "faucets": ["https://zetachain.com/docs/reference/faucet"],
   "nativeCurrency": {
@@ -13,7 +16,7 @@
     "decimals": 18
   },
   "infoURL": "https://zetachain.com/docs",
-  "shortName": "zetachain-athens",
+  "shortName": "zetachain-testnet",
   "chainId": 7001,
   "networkId": 7001,
   "slip44": 1,
@@ -21,7 +24,7 @@
   "explorers": [
     {
       "name": "ZetaScan",
-      "url": "https://athens3.explorer.zetachain.com",
+      "url": "https://testnet.zetascan.com",
       "standard": "none"
     }
   ]

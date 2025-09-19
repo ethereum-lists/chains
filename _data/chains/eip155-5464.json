@@ -1,0 +1,32 @@
+{
+  "name": "Saga",
+  "chain": "SAGA",
+  "rpc": ["http://sagaevm-5464-1.jsonrpc.sagarpc.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "gas",
+    "symbol": "GAS",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://www.saga.xyz",
+  "shortName": "saga",
+  "chainId": 5464,
+  "networkId": 5464,
+  "icon": "saga",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://sagaevm-5464-1.sagaexplorer.io",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
