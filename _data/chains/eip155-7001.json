@@ -2,8 +2,11 @@
   "name": "ZetaChain Athens 3 Testnet",
   "chain": "ZetaChain",
   "icon": "zetachain",
-  "rpc": ["https://rpc.ankr.com/zetachain_evm_athens_testnet"],
-  "faucets": ["https://labs.zetachain.com/get-zeta"],
+  "rpc": [
+    "https://zetachain-athens-evm.blockpi.network/v1/rpc/public",
+    "https://zetachain-athens.g.allthatnode.com/archive/evm"
+  ],
+  "faucets": ["https://zetachain.com/docs/reference/faucet"],
   "nativeCurrency": {
     "name": "Zeta",
     "symbol": "ZETA",
@@ -17,15 +20,9 @@
   "status": "active",
   "explorers": [
     {
-      "name": "ZetaChain Athens Testnet Explorer",
+      "name": "ZetaScan",
       "url": "https://athens3.explorer.zetachain.com",
       "standard": "none"
-    },
-    {
-      "name": "blockscout",
-      "url": "https://zetachain-athens-3.blockscout.com",
-      "icon": "blockscout",
-      "standard": "EIP3091"
     }
   ]
 }
