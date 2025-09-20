@@ -27559,6 +27559,19 @@
   "faucets": [],
   "infoURL": "https://x-phere.com/"
 }, {
+  "name": "Jovay Sepolia Testnet",
+  "chainId": 2019775,
+  "shortName": "jovay-sepolia",
+  "networkId": 2019775,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://api.zan.top/public/jovay-testnet", "https://api.zan.top/node/v1/jovay/testnet/${ZAN_API_KEY}", "wss://api.zan.top/node/ws/v1/jovay/testnet/${ZAN_API_KEY}"],
+  "faucets": ["https://zan.top/faucet/jovay"],
+  "infoURL": "https://jovay.io"
+}, {
   "name": "DeBank Testnet",
   "chainId": 2021398,
   "shortName": "dbk",
@@ -27935,6 +27948,19 @@
   "rpc": ["https://jsonrpc-test.imversed.network", "https://ws-jsonrpc-test.imversed.network"],
   "faucets": [],
   "infoURL": "https://imversed.com"
+}, {
+  "name": "Jovay Mainnet",
+  "chainId": 5734951,
+  "shortName": "jovay",
+  "networkId": 5734951,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://api.zan.top/public/jovay-mainnet", "https://api.zan.top/node/v1/jovay/mainnet/${ZAN_API_KEY}", "wss://api.zan.top/node/ws/v1/jovay/mainnet/${ZAN_API_KEY}"],
+  "faucets": [],
+  "infoURL": "https://jovay.io"
 }, {
   "name": "Astar zKyoto",
   "chainId": 6038361,

@@ -45683,6 +45683,35 @@
   "networkId": 1998991,
   "explorers": []
 }, {
+  "name": "Jovay Sepolia Testnet",
+  "chain": "ETH",
+  "status": "active",
+  "rpc": ["https://api.zan.top/public/jovay-testnet", "https://api.zan.top/node/v1/jovay/testnet/${ZAN_API_KEY}", "wss://api.zan.top/node/ws/v1/jovay/testnet/${ZAN_API_KEY}"],
+  "faucets": ["https://zan.top/faucet/jovay"],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://jovay.io",
+  "shortName": "jovay-sepolia",
+  "chainId": 2019775,
+  "networkId": 2019775,
+  "icon": "jovay",
+  "slip44": 1,
+  "explorers": [{
+    "name": "Jovay Testnet Explorer",
+    "url": "https://sepolia-explorer.jovay.io/l2",
+    "standard": "none"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{
+      "url": "https://docs.jovay.io/guide/developer-quickstart"
+    }]
+  }
+}, {
   "name": "DeBank Testnet",
   "chain": "DeBank",
   "rpc": ["http://rpc.testnet.debank.com"],
@@ -46338,6 +46367,32 @@
     "icon": "imversed",
     "standard": "none"
   }]
+}, {
+  "name": "Jovay Mainnet",
+  "chain": "ETH",
+  "status": "incubating",
+  "rpc": ["https://api.zan.top/public/jovay-mainnet", "https://api.zan.top/node/v1/jovay/mainnet/${ZAN_API_KEY}", "wss://api.zan.top/node/ws/v1/jovay/mainnet/${ZAN_API_KEY}"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://jovay.io",
+  "shortName": "jovay",
+  "chainId": 5734951,
+  "networkId": 5734951,
+  "icon": "jovay",
+  "explorers": [{
+    "name": "Jovay Explorer",
+    "url": "https://explorer.jovay.io",
+    "standard": "none"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  }
 }, {
   "name": "Astar zKyoto",
   "shortName": "azkyt",
