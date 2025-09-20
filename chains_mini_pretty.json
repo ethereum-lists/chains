@@ -17948,8 +17948,34 @@
     "symbol": "A0GI",
     "decimals": 18
   },
+  "rpc": [],
+  "faucets": ["https://faucet.0g.ai"],
+  "infoURL": "https://0g.ai"
+}, {
+  "name": "0G-Galileo-Testnet",
+  "chainId": 16601,
+  "shortName": "0gai-galileo-testnet",
+  "networkId": 16601,
+  "nativeCurrency": {
+    "name": "A0GI",
+    "symbol": "A0GI",
+    "decimals": 18
+  },
   "rpc": ["https://evmrpc-testnet.0g.ai"],
   "faucets": ["https://faucet.0g.ai"],
+  "infoURL": "https://0g.ai"
+}, {
+  "name": "0G Mainnet",
+  "chainId": 16661,
+  "shortName": "0g",
+  "networkId": 16661,
+  "nativeCurrency": {
+    "name": "0G",
+    "symbol": "0G",
+    "decimals": 18
+  },
+  "rpc": ["https://evmrpc.0g.ai"],
+  "faucets": [],
   "infoURL": "https://0g.ai"
 }, {
   "name": "IRIShub Testnet",
