@@ -1,0 +1,33 @@
+{
+  "name": "Jovay Mainnet",
+  "chain": "ETH",
+  "status": "incubating",
+  "rpc": [
+    "https://api.zan.top/public/jovay-mainnet",
+    "https://api.zan.top/node/v1/jovay/mainnet/${ZAN_API_KEY}",
+    "wss://api.zan.top/node/ws/v1/jovay/mainnet/${ZAN_API_KEY}"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://jovay.io",
+  "shortName": "jovay",
+  "chainId": 5734951,
+  "networkId": 5734951,
+  "icon": "jovay",
+  "explorers": [
+    {
+      "name": "Jovay Explorer",
+      "url": "https://explorer.jovay.io",
+      "standard": "none"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  }
+}
