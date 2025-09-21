@@ -1,0 +1,25 @@
+{
+  "name": "Lightning Vault Mainnet",
+  "chain": "LV",
+  "icon": "lvt",
+  "rpc": [
+    "https://lightning-mainnet.site/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lightning Vault",
+    "symbol": "LV",
+    "decimals": 18
+  },
+  "infoURL": "https://lightning-mainnet.site",
+  "shortName": "lvt",
+  "chainId": 296070,
+  "networkId": 296070,
+  "explorers": [
+    {
+      "name": "Lightning Vault Explorer",
+      "url": "https://lightning-vault.base44.app",
+      "standard": "EIP3091"
+    }
+  ]
+}
