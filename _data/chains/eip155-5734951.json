@@ -3,7 +3,7 @@
   "chain": "ETH",
   "status": "incubating",
   "rpc": [
-    "https://api.zan.top/public/jovay-mainnet",
+    "https://rpc.jovay.io",
     "https://api.zan.top/node/v1/jovay/mainnet/${ZAN_API_KEY}",
     "wss://api.zan.top/node/ws/v1/jovay/mainnet/${ZAN_API_KEY}"
   ],
