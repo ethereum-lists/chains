@@ -1,0 +1,21 @@
+{
+  "name": "Jasmy Chain",
+  "chain": "Jasmy Chain",
+  "rpc": ["https://rpc.jasmychain.io", "wss://rpc.jasmychain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "JasmyCoin",
+    "symbol": "JASMY",
+    "decimals": 18
+  },
+  "infoURL": "https://jasmychain.io",
+  "shortName": "jasmychain",
+  "chainId": 680,
+  "networkId": 680,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  }
+}
