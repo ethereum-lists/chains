@@ -1,12 +1,8 @@
 {
   "name": "0G-Galileo-Testnet",
   "chain": "0G-Testnet",
-  "rpc": [
-    "https://evmrpc-testnet.0g.ai"
-  ],
-  "faucets": [
-    "https://faucet.0g.ai"
-  ],
+  "rpc": ["https://evmrpc-testnet.0g.ai"],
+  "faucets": ["https://faucet.0g.ai"],
   "nativeCurrency": {
     "name": "0G",
     "symbol": "0G",
