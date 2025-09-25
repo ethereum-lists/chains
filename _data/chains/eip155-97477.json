@@ -1,8 +1,8 @@
 {
-  "name": "Doma Testnet",
-  "title": "Doma Testnet",
+  "name": "Doma",
+  "title": "Doma",
   "chain": "ETH",
-  "rpc": ["https://rpc-testnet.doma.xyz"],
+  "rpc": ["https://rpc.doma.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -10,15 +10,15 @@
     "decimals": 18
   },
   "infoURL": "https://doma.xyz",
-  "shortName": "doma-testnet",
-  "chainId": 97476,
-  "networkId": 97476,
+  "shortName": "doma",
+  "chainId": 97477,
+  "networkId": 97477,
   "icon": "doma",
   "status": "active",
   "explorers": [
     {
-      "name": "Doma Testnet Explorer",
-      "url": "https://explorer-testnet.doma.xyz",
+      "name": "Doma Explorer",
+      "url": "https://explorer.doma.xyz",
       "standard": "EIP3091",
       "icon": "doma"
     }
@@ -26,6 +26,6 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://bridge-testnet.doma.xyz" }]
+    "bridges": [{ "url": "https://bridge.doma.xyz" }]
   }
 }
