@@ -1,33 +1,25 @@
 {
-  "name": "BrainArk Network",
-  "chain": "BAK",
-  "icon": "brainark",
-  "rpc": [
-    "https://rpc.brainark.online"
-  ],
-  "features": [
-    {
-      "name": "EIP155"
+    "name": "BrainArk Network",
+    "chain": "BrainArk",
+    "icon": "brainark",
+    "rpc": [
+      "https://rpc.brainark.online"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BrainArk",
+      "symbol": "BAK",
+      "decimals": 18
     },
-    {
-      "name": "EIP1559"
-    }
-  ],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "BrainArk Token",
-    "symbol": "BAK",
-    "decimals": 18
-  },
-  "infoURL": "https://brainark.online",
-  "shortName": "bak",
-  "chainId": 1236,
-  "networkId": 1236,
-  "explorers": [
-    {
-      "name": "BrainArk Explorer",
-      "url": "https://explorer.brainark.online",
-      "standard": "EIP3091"
-    }
-  ]
-}
+    "infoURL": "https://brainark.online",
+    "shortName": "brainark",
+    "chainId": 1236,
+    "networkId": 1236,
+    "explorers": [
+      {
+        "name": "BrainArk Explorer",
+        "url": "https://explorer.brainark.online",
+        "standard": "EIP3091"
+      }
+    ]
+  }
