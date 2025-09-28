@@ -2231,7 +2231,7 @@
     "symbol": "EGAS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.eniac.network"],
+  "rpc": ["https://rpc.eniac.network", "wss://rpc.eniac.network/ws/"],
   "faucets": [],
   "infoURL": "https://eniac.network/"
 }, {
