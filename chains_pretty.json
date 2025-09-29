@@ -42634,6 +42634,62 @@
     "icon": "hap"
   }]
 }, {
+  "name": "Silent Data Mainnet",
+  "chain": "Silent Data",
+  "rpc": ["https://mainnet.silentdata.com/${SILENTDATA_AUTH_TOKEN}"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.silentdata.com",
+  "shortName": "silent-data-mainnet",
+  "chainId": 380929,
+  "networkId": 380929,
+  "icon": "silentdata",
+  "explorers": [{
+    "name": "Silent Data Mainnet Explorer",
+    "url": "https://explorer-mainnet.rollup.silentdata.com",
+    "icon": "silentdata",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://bridge-mainnet.rollup.silentdata.com"
+    }]
+  }
+}, {
+  "name": "Silent Data Testnet",
+  "chain": "Silent Data",
+  "rpc": ["https://testnet.silentdata.com/${SILENTDATA_AUTH_TOKEN}"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.silentdata.com",
+  "shortName": "silent-data-testnet",
+  "chainId": 381185,
+  "networkId": 381185,
+  "icon": "silentdata-testnet",
+  "explorers": [{
+    "name": "Silent Data Testnet Explorer",
+    "url": "https://explorer-testnet.rollup.silentdata.com",
+    "icon": "silentdata-testnet",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{
+      "url": "https://bridge-testnet.rollup.silentdata.com"
+    }]
+  }
+}, {
   "name": "Metal C-Chain",
   "chain": "Metal",
   "rpc": ["https://api.metalblockchain.org/ext/bc/C/rpc"],

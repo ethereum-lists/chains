@@ -25765,6 +25765,32 @@
   "faucets": [],
   "infoURL": "https://hap.land"
 }, {
+  "name": "Silent Data Mainnet",
+  "chainId": 380929,
+  "shortName": "silent-data-mainnet",
+  "networkId": 380929,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.silentdata.com/${SILENTDATA_AUTH_TOKEN}"],
+  "faucets": [],
+  "infoURL": "https://www.silentdata.com"
+}, {
+  "name": "Silent Data Testnet",
+  "chainId": 381185,
+  "shortName": "silent-data-testnet",
+  "networkId": 381185,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.silentdata.com/${SILENTDATA_AUTH_TOKEN}"],
+  "faucets": [],
+  "infoURL": "https://www.silentdata.com"
+}, {
   "name": "Metal C-Chain",
   "chainId": 381931,
   "shortName": "metal",
