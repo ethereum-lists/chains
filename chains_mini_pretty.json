@@ -7929,6 +7929,19 @@
   "faucets": [],
   "infoURL": "https://rikeza.io"
 }, {
+  "name": "Injective Testnet",
+  "chainId": 1439,
+  "shortName": "injective-testnet",
+  "networkId": 1439,
+  "nativeCurrency": {
+    "name": "Injective",
+    "symbol": "INJ",
+    "decimals": 18
+  },
+  "rpc": ["https://k8s.testnet.json-rpc.injective.network", "wss://k8s.testnet.ws.injective.network", "https://injectiveevm-testnet-rpc.polkachu.com", "wss://injectiveevm-testnet-rpc.polkachu.com"],
+  "faucets": ["https://testnet.faucet.injective.network"],
+  "infoURL": "https://injective.com"
+}, {
   "name": "Living Assets Mainnet",
   "chainId": 1440,
   "shortName": "LAS",
@@ -8552,6 +8565,19 @@
   "rpc": ["https://tea.mining4people.com/rpc", "http://172.104.194.36:8545"],
   "faucets": [],
   "infoURL": "TeaPartyCrypto.com"
+}, {
+  "name": "Injective",
+  "chainId": 1776,
+  "shortName": "injective",
+  "networkId": 1776,
+  "nativeCurrency": {
+    "name": "Injective",
+    "symbol": "INJ",
+    "decimals": 18
+  },
+  "rpc": ["https://sentry.evm-rpc.injective.network", "wss://sentry.evm-ws.injective.network", "https://injectiveevm-rpc.polkachu.com", "wss://injectiveevm-ws.polkachu.com"],
+  "faucets": ["https://injective.com/getinj"],
+  "infoURL": "https://injective.com"
 }, {
   "name": "Gauss Mainnet",
   "chainId": 1777,
