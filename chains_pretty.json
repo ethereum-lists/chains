@@ -26177,6 +26177,21 @@
     "bridges": []
   }
 }, {
+  "name": "GIWA",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://giwa.io",
+  "shortName": "giwa",
+  "chainId": 9134,
+  "networkId": 9134,
+  "status": "incubating"
+}, {
   "name": "Rinia Testnet Old",
   "chain": "FIRE",
   "icon": "rinia",
@@ -38098,6 +38113,28 @@
     "name": "MetaDAP Enterprise Mainnet explorer",
     "url": "https://explorer.chain.metadap.io",
     "standard": "none"
+  }]
+}, {
+  "name": "GIWA Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": ["https://sepolia-rpc.giwa.io"],
+  "faucets": ["https://faucet.giwa.io"],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://giwa.io",
+  "shortName": "giwasepolia",
+  "chainId": 91342,
+  "networkId": 91342,
+  "slip44": 1,
+  "icon": "giwaTestnet",
+  "explorers": [{
+    "name": "GIWA Sepolia Blockscout",
+    "url": "https://sepolia-explorer.giwa.io",
+    "icon": "blockscout",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Combo Testnet",

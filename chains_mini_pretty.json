@@ -15924,6 +15924,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "GIWA",
+  "chainId": 9134,
+  "shortName": "giwa",
+  "networkId": 9134,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://giwa.io"
+}, {
   "name": "Rinia Testnet Old",
   "chainId": 9170,
   "shortName": "_old_tfire",
@@ -23047,6 +23060,19 @@
   "rpc": ["https://rpc.chain.metadap.io", "wss://rpc-ws.chain.metadap.io"],
   "faucets": [],
   "infoURL": "https://metadap.io/"
+}, {
+  "name": "GIWA Sepolia Testnet",
+  "chainId": 91342,
+  "shortName": "giwasepolia",
+  "networkId": 91342,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia-rpc.giwa.io"],
+  "faucets": ["https://faucet.giwa.io"],
+  "infoURL": "https://giwa.io"
 }, {
   "name": "Combo Testnet",
   "chainId": 91715,
