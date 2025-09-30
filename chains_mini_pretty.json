@@ -30549,6 +30549,19 @@
   "faucets": [],
   "infoURL": "https://ultima.io"
 }, {
+  "name": "Tron Nile",
+  "chainId": 3448148188,
+  "shortName": "tron-nile",
+  "networkId": 3448148188,
+  "nativeCurrency": {
+    "name": "Tron",
+    "symbol": "TRX",
+    "decimals": 6
+  },
+  "rpc": ["https://nile.trongrid.io/jsonrpc"],
+  "faucets": [],
+  "infoURL": "https://tron.network"
+}, {
   "name": "OneLedger Testnet Frankenstein",
   "chainId": 4216137055,
   "shortName": "frankenstein",
