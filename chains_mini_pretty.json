@@ -18000,6 +18000,19 @@
     "symbol": "A0GI",
     "decimals": 18
   },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://0g.ai"
+}, {
+  "name": "0G-Testnet-Galileo",
+  "chainId": 16602,
+  "shortName": "0g-testnet-galileo",
+  "networkId": 16602,
+  "nativeCurrency": {
+    "name": "0G",
+    "symbol": "0G",
+    "decimals": 18
+  },
   "rpc": ["https://evmrpc-testnet.0g.ai"],
   "faucets": ["https://faucet.0g.ai"],
   "infoURL": "https://0g.ai"
