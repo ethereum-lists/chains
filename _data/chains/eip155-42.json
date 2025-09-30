@@ -25,5 +25,6 @@
   "shortName": "lukso",
   "chainId": 42,
   "networkId": 42,
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }]
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "redFlags": ["reusedChainId"]
 }
