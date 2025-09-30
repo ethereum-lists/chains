@@ -1,0 +1,25 @@
+{
+  "name": "SAX Chain",
+  "chain": "SAX",
+  "rpc": [
+    "https://rpc.saxchain.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SAX",
+    "symbol": "SAX",
+    "decimals": 18
+  },
+  "infoURL": "https://saxchain.org",
+  "shortName": "sax",
+  "chainId": 55080,
+  "networkId": 55080,
+  "explorers": [
+    {
+      "name": "SAX Explorer",
+      "url": "https://explorer.saxchain.org",
+      "standard": "EIP3091"
+    }
+  ],
+  "icon": "sax"
+}
