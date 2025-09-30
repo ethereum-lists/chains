@@ -1,0 +1,18 @@
+{
+  "name": "Autonomys Mainnet",
+  "chain": "autonomys-mainnet",
+  "rpc": ["https://auto-evm.mainnet.autonomys.xyz/ws"],
+  "icon": "autonomys",
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AI3",
+    "symbol": "AI3",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://www.autonomys.xyz",
+  "shortName": "AMN",
+  "chainId": 870,
+  "networkId": 870,
+  "explorers": []
+}
