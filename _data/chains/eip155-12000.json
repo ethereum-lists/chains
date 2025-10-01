@@ -1,0 +1,17 @@
+{
+  "name": "Kudora Mainnet",
+  "chain": "KUD",
+  "rpc": ["https://rpc.kudora.org", "wss://websocket.kudora.org/"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Kudo",
+    "symbol": "KUD",
+    "decimals": 18
+  },
+  "infoURL": "https://kudora.org/",
+  "shortName": "kud",
+  "chainId": 12000,
+  "networkId": 12000,
+  "slip44": 60
+}
