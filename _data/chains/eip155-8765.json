@@ -1,0 +1,16 @@
+{
+  "name": "Warden Mainnet",
+  "chain": "WARD",
+  "rpc": ["https://evm.wardenprotocol.org", "wss://evm-ws.wardenprotocol.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WARD",
+    "symbol": "WARD",
+    "decimals": 18
+  },
+  "infoURL": "https://wardenprotocol.org",
+  "icon": "warden",
+  "shortName": "ward",
+  "chainId": 8765,
+  "networkId": 8765
+}
