@@ -23334,6 +23334,32 @@
   "faucets": [],
   "infoURL": "https://www.sidrachain.com"
 }, {
+  "name": "Doma Testnet",
+  "chainId": 97476,
+  "shortName": "doma-testnet",
+  "networkId": 97476,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.doma.xyz"],
+  "faucets": [],
+  "infoURL": "https://doma.xyz"
+}, {
+  "name": "Doma",
+  "chainId": 97477,
+  "shortName": "doma",
+  "networkId": 97477,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.doma.xyz"],
+  "faucets": [],
+  "infoURL": "https://doma.xyz"
+}, {
   "name": "Green Chain Testnet",
   "chainId": 97531,
   "shortName": "greenchain",

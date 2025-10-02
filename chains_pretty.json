@@ -38585,6 +38585,63 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Doma Testnet",
+  "title": "Doma Testnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc-testnet.doma.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://doma.xyz",
+  "shortName": "doma-testnet",
+  "chainId": 97476,
+  "networkId": 97476,
+  "icon": "doma",
+  "status": "active",
+  "explorers": [{
+    "name": "Doma Testnet Explorer",
+    "url": "https://explorer-testnet.doma.xyz",
+    "standard": "EIP3091",
+    "icon": "doma"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{
+      "url": "https://bridge-testnet.doma.xyz"
+    }]
+  }
+}, {
+  "name": "Doma",
+  "title": "Doma",
+  "chain": "ETH",
+  "rpc": ["https://rpc.doma.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://doma.xyz",
+  "shortName": "doma",
+  "chainId": 97477,
+  "networkId": 97477,
+  "icon": "doma",
+  "status": "active",
+  "explorers": [{
+    "name": "Doma Explorer",
+    "url": "https://explorer.doma.xyz",
+    "standard": "EIP3091",
+    "icon": "doma"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  }
+}, {
   "name": "Green Chain Testnet",
   "chain": "Green Chain",
   "icon": "greenchain",
