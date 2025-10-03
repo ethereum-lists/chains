@@ -10922,15 +10922,15 @@
   "name": "HyperAGI Mainnet",
   "chainId": 2868,
   "shortName": "hypt",
-  "networkId": 1,
+  "networkId": 2868,
   "nativeCurrency": {
     "name": "Hyperdust",
     "symbol": "HYPT",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.hyperagi.network", "https://rpc.hyperagi.ai"],
   "faucets": [],
-  "infoURL": "https://hyperagi.network"
+  "infoURL": "https://www.hyperagi.ai"
 }, {
   "name": "Chips Network",
   "chainId": 2882,
