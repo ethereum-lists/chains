@@ -1,6 +1,6 @@
 {
   "name": "HashKey Chain Testnet",
-  "title": "HashKey Chain Testnet", 
+  "title": "HashKey Chain Testnet",
   "chain": "HashKey Chain Testnet",
   "rpc": ["https://testnet.hsk.xyz"],
   "faucets": [],
@@ -21,7 +21,6 @@
       "standard": "EIP3091"
     }
   ],
-  "testnet": true,
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111"
