@@ -103,18 +103,18 @@
   "faucets": [],
   "infoURL": "https://ubiqsmart.com"
 }, {
-  "name": "Ubiq Network Testnet",
+  "name": "Quai Network Mainnet",
   "chainId": 9,
-  "shortName": "tubq",
-  "networkId": 2,
+  "shortName": "quai",
+  "networkId": 9,
   "nativeCurrency": {
-    "name": "Ubiq Testnet Ether",
-    "symbol": "TUBQ",
+    "name": "Quai",
+    "symbol": "QUAI",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.quai.network/cyprus1"],
   "faucets": [],
-  "infoURL": "https://ethersocial.org"
+  "infoURL": "https://qu.ai"
 }, {
   "name": "OP Mainnet",
   "chainId": 10,
@@ -17782,6 +17782,19 @@
   "rpc": ["https://explorer-rpc-http.testnet5.stages.humanode.io"],
   "faucets": ["https://t.me/HumanodeTestnet5FaucetBot"],
   "infoURL": "https://humanode.io"
+}, {
+  "name": "Quai Network Testnet",
+  "chainId": 15000,
+  "shortName": "quai-testnet",
+  "networkId": 15000,
+  "nativeCurrency": {
+    "name": "Quai",
+    "symbol": "QUAI",
+    "decimals": 18
+  },
+  "rpc": ["https://orchard.rpc.quai.network/cyprus1"],
+  "faucets": [],
+  "infoURL": "https://qu.ai"
 }, {
   "name": "Immutable zkEVM Devnet",
   "chainId": 15003,
