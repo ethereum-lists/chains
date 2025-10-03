@@ -24751,6 +24751,19 @@
   "faucets": [],
   "infoURL": "https://xfair.ai"
 }, {
+  "name": "NitroGraph Testnet",
+  "chainId": 200024,
+  "shortName": "nitro-testnet",
+  "networkId": 200024,
+  "nativeCurrency": {
+    "name": "Nitro",
+    "symbol": "NOS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.nitrograph.foundation"],
+  "faucets": ["https://faucet-testnet.nitrograph.foundation"],
+  "infoURL": "https://docs.nitrograph.com"
+}, {
   "name": "Milkomeda C1 Testnet",
   "chainId": 200101,
   "shortName": "milkTAda",
