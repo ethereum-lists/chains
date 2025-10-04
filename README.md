@@ -155,3 +155,4 @@ npx prettier --write _data/*/*.json
  * [Smart Contract UI](https://xtools-at.github.io/smartcontract-ui)
 
  * Your project - contact us to add it here!
+> Tip: If a new RPC endpoint is not working, please test it using curl or Postman before submitting.
