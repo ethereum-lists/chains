@@ -2,16 +2,18 @@
   "name": "Xylume TestNet",
   "chain": "XYL",
   "rpc": ["https://xylume-testnet.sparked.network/rpc/"],
-  "faucets": ["https://debxylen.github.io/Xylume_TestNet/faucet.html"],
+  "faucets": ["https://xylume-faucet.vercel.app/"],
   "nativeCurrency": {
     "name": "Xylume",
     "symbol": "XYL",
     "decimals": 18
   },
   "features": [
+    { "name": "EIP20" },
     { "name": "EIP155" },
     { "name": "EIP1559" },
-    { "name": "Directed Acyclic Graph (DAG)" }
+    { "name": "Directed Acyclic Graph (DAG)" },
+    { "name": "Unspent Transaction Output (UTXO)" }
   ],
   "infoURL": "https://debxylen.github.io/Xylume_TestNet",
   "shortName": "xyl",
