@@ -1,0 +1,27 @@
+{
+  "name": "Portal-To-Bitcoin Testnet",
+  "chain": "PTB",
+  "rpc": [
+    "https://testnet.portaltobitcoin.net",
+    "wss://testnet.portaltobitcoin.net/ws"
+  ],
+  "faucets": ["https://faucet.testnet.portaltobitcoin.net"],
+  "nativeCurrency": {
+    "name": "Portal-To-Bitcoin",
+    "symbol": "PTB",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://portaltobitcoin.com",
+  "shortName": "ptb-testnet",
+  "chainId": 7821,
+  "networkId": 7821,
+  "explorers": [
+    {
+      "name": "Portal-To-Bitcoin Explorer",
+      "url": "https://explorer.testnet.portaltobitcoin.net",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
