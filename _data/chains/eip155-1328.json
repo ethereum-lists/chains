@@ -18,6 +18,11 @@
   "icon": "sei",
   "explorers": [
     {
+      "name": "SeiScan",
+      "url": "https://testnet.seiscan.io",
+      "standard": "EIP3091"
+    },
+    {
       "name": "Seitrace",
       "url": "https://seitrace.com",
       "standard": "EIP3091"
