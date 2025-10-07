@@ -2131,16 +2131,16 @@
   "faucets": [],
   "infoURL": "https://docs.omni.network/"
 }, {
-  "name": "Omni",
+  "name": "Nomina",
   "chainId": 166,
-  "shortName": "omni",
+  "shortName": "nom",
   "networkId": 166,
   "nativeCurrency": {
-    "name": "Omni",
-    "symbol": "OMNI",
+    "name": "Nomina",
+    "symbol": "NOM",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.omni.network", "wss://wss.mainnet.omni.network"],
+  "rpc": ["https://mainnet.nomina.io", "wss://wss.mainnet.nomina.io"],
   "faucets": [],
   "infoURL": "https://docs.omni.network"
 }, {
