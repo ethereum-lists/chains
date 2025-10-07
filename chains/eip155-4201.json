@@ -1,7 +1,7 @@
 {
   "name": "LUKSO Testnet",
   "chain": "LUKSO Testnet",
-  "icon": "lukso",
+  "icon": "lukso-testnet",
   "rpc": [
     "https://rpc.testnet.lukso.network",
     "wss://ws-rpc.testnet.lukso.network"
@@ -14,9 +14,9 @@
   },
   "explorers": [
     {
-      "name": "Blockscout",
+      "name": "LUKSO Testnet Execution Explorer",
       "url": "https://explorer.execution.testnet.lukso.network",
-      "standard": "none"
+      "standard": "EIP3091"
     }
   ],
   "infoURL": "https://lukso.network",
