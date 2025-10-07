@@ -1,15 +1,26 @@
 {
-  "name": "pegglecoin",
-  "chain": "42069",
-  "rpc": [],
+  "name": "NovaChain",
+  "chain": "NOVA",
+  "rpc": [
+    "https://backend.nova-chain.io/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "pegglecoin",
-    "symbol": "peggle",
+    "name": "NOVA",
+    "symbol": "NOVA",
     "decimals": 18
   },
-  "infoURL": "https://teampeggle.com",
-  "shortName": "PC",
+  "infoURL": "https://nova-chain.io",
+  "shortName": "nova",
   "chainId": 42069,
-  "networkId": 42069
+  "networkId": 42069,
+  "icon": "novachain",
+  "explorers": [
+    {
+      "name": "NovaChain Explorer",
+      "url": "https://explorer.nova-chain.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "slip44": 1
 }
