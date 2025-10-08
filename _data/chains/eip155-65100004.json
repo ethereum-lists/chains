@@ -1,13 +1,8 @@
 {
   "name": "Autonity Piccadilly (Tiber) Testnet",
+  "status": "deprecated",
   "chain": "AUT",
-  "rpc": [
-    "https://autonity.rpc.web3cdn.network/testnet",
-    "wss://autonity.rpc.web3cdn.network/testnet/ws",
-    "https://autonity-piccadilly.rpc.subquery.network/public",
-    "https://piccadilly.autonity-apis.com",
-    "wss://piccadilly-ws.autonity-apis.com"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Piccadilly Auton",
@@ -20,11 +15,5 @@
   "networkId": 65100004,
   "slip44": 1,
   "icon": "autonity",
-  "explorers": [
-    {
-      "name": "autonity-blockscout",
-      "url": "https://piccadilly.autonity.org",
-      "standard": "EIP3091"
-    }
-  ]
+  "explorers": []
 }
