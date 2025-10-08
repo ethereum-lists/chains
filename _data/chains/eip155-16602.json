@@ -1,0 +1,23 @@
+{
+  "name": "0G-Testnet-Galileo",
+  "chain": "0G-Testnet",
+  "rpc": ["https://evmrpc-testnet.0g.ai"],
+  "faucets": ["https://faucet.0g.ai"],
+  "nativeCurrency": {
+    "name": "0G",
+    "symbol": "0G",
+    "decimals": 18
+  },
+  "infoURL": "https://0g.ai",
+  "shortName": "0g-testnet-galileo",
+  "chainId": 16602,
+  "networkId": 16602,
+  "icon": "0g",
+  "explorers": [
+    {
+      "name": "0G BlockChain Explorer",
+      "url": "https://chainscan-galileo.0g.ai",
+      "standard": "EIP3091"
+    }
+  ]
+}
