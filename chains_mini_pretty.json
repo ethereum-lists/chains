@@ -28625,7 +28625,7 @@
   "faucets": [],
   "infoURL": "https://lummio.net"
 }, {
-  "name": "Memento Testnet",
+  "name": "Memento Testnet (deprecated)",
   "chainId": 12052024,
   "shortName": "memento-test",
   "networkId": 12052024,
@@ -28634,7 +28634,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://test-rpc.mementoblockchain.com/IRkghvI3FfEArEJMr4zC/rpc"],
+  "rpc": [],
   "faucets": [],
   "infoURL": ""
 }, {

@@ -47574,10 +47574,11 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Memento Testnet",
+  "name": "Memento Testnet (deprecated)",
   "chain": "Memento",
-  "rpc": ["https://test-rpc.mementoblockchain.com/IRkghvI3FfEArEJMr4zC/rpc"],
+  "rpc": [],
   "faucets": [],
+  "status": "deprecated",
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
@@ -47587,11 +47588,7 @@
   "shortName": "memento-test",
   "chainId": 12052024,
   "networkId": 12052024,
-  "explorers": [{
-    "name": "Tracehawk",
-    "url": "https://test-explorer.mementoblockchain.com",
-    "standard": "none"
-  }]
+  "explorers": []
 }, {
   "name": "NeoX Testnet T3",
   "chain": "NeoX",
