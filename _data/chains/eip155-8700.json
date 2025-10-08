@@ -5,9 +5,9 @@
   "icon": "autonomys",
   "faucets": [],
   "nativeCurrency": {
+    "decimals": 18,
     "name": "AI3",
-    "symbol": "AI3",
-    "decimals": 18
+    "symbol": "AI3"
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://www.autonomys.xyz",
