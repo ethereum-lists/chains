@@ -26870,16 +26870,29 @@
   "faucets": [],
   "infoURL": "https://inkonchain.com/"
 }, {
-  "name": "Surge Testnet",
+  "name": "Surge deprecated Testnet",
   "chainId": 763374,
-  "shortName": "surge-testnet",
+  "shortName": "surge-deprecated-testnet",
   "networkId": 763374,
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://l2-rpc.surge.staging-nethermind.xyz", "wss://l2-rpc.surge.staging-nethermind.xyz"],
+  "rpc": [],
+  "faucets": [],
+  "infoURL": ""
+}, {
+  "name": "Surge Testnet",
+  "chainId": 763375,
+  "shortName": "surge-testnet",
+  "networkId": 763375,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://l2-rpc.hoodi.surge.wtf", "wss://l2-ws.hoodi.surge.wtf"],
   "faucets": [],
   "infoURL": "https://surge.wtf"
 }, {
