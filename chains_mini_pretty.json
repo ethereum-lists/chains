@@ -15378,6 +15378,19 @@
   "faucets": [],
   "infoURL": "https://helalabs.com"
 }, {
+  "name": "Autonomys Chronos Testnet",
+  "chainId": 8700,
+  "shortName": "ATN",
+  "networkId": 8700,
+  "nativeCurrency": {
+    "decimals": 18,
+    "name": "AI3",
+    "symbol": "AI3"
+  },
+  "rpc": ["https://auto-evm.chronos.autonomys.xyz/ws"],
+  "faucets": [],
+  "infoURL": "https://www.autonomys.xyz"
+}, {
   "name": "TOOL Global Mainnet",
   "chainId": 8723,
   "shortName": "olo",
@@ -26196,7 +26209,7 @@
 }, {
   "name": "Autonomys Taurus Testnet",
   "chainId": 490000,
-  "shortName": "ATN",
+  "shortName": "ATN-deprecated",
   "networkId": 490000,
   "nativeCurrency": {
     "name": "AI3",

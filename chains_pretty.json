@@ -25328,6 +25328,32 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Autonomys Chronos Testnet",
+  "chain": "autonomys-chronos-testnet",
+  "rpc": ["https://auto-evm.chronos.autonomys.xyz/ws"],
+  "icon": "autonomys",
+  "faucets": [],
+  "nativeCurrency": {
+    "decimals": 18,
+    "name": "AI3",
+    "symbol": "AI3"
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://www.autonomys.xyz",
+  "shortName": "ATN",
+  "chainId": 8700,
+  "networkId": 8700,
+  "explorers": [{
+    "name": "Autonomys Chronos EVM Testnet Explorer",
+    "url": "https://explorer.auto-evm.chronos.autonomys.xyz",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "TOOL Global Mainnet",
   "chain": "OLO",
   "rpc": ["https://mainnet-web3.wolot.io"],
@@ -43400,6 +43426,7 @@
   "name": "Autonomys Taurus Testnet",
   "chain": "autonomys-taurus-testnet",
   "rpc": ["https://auto-evm.taurus.autonomys.xyz/ws"],
+  "status": "deprecated",
   "icon": "autonomys",
   "faucets": [],
   "nativeCurrency": {
@@ -43413,15 +43440,10 @@
     "name": "EIP1559"
   }],
   "infoURL": "https://www.autonomys.xyz",
-  "shortName": "ATN",
+  "shortName": "ATN-deprecated",
   "chainId": 490000,
   "networkId": 490000,
-  "explorers": [{
-    "name": "Autonomys Taurus Testnet Explorer",
-    "url": "https://blockscout.taurus.autonomys.xyz",
-    "icon": "blockscout",
-    "standard": "EIP3091"
-  }]
+  "explorers": []
 }, {
   "name": "PUMPFI CHAIN TESTNET",
   "chain": "PUMPFI CHAIN TESTNET",
