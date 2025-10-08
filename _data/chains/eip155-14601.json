@@ -1,0 +1,19 @@
+{
+  "name": "Sonic Testnet",
+  "chain": "sonic-testnet",
+  "rpc": [
+    "https://rpc.testnet.soniclabs.com"
+  ],
+  "faucets": ["https://testnet.soniclabs.com/account"],
+  "nativeCurrency": {
+    "name": "Sonic",
+    "symbol": "S",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://testnet.sonicscan.org",
+  "shortName": "sonic",
+  "chainId": 14601,
+  "networkId": 14601,
+  "icon": "sonic"
+}
