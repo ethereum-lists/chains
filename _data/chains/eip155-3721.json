@@ -2,7 +2,7 @@
   "name": "Xone Mainnet",
   "chain": "XOC",
   "icon": "xone_main",
-  "rpc": ["https://rpc.xone.org", "wss://rpc-wss.xone.org"],
+  "rpc": ["https://rpc.xone.org", "wss://rpc.xone.org"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": ["https://faucet.xone.org/"],
   "nativeCurrency": {
@@ -16,9 +16,9 @@
   "networkId": 3721,
   "explorers": [
     {
-      "name": "Xonescan",
+      "name": "xone_main",
       "url": "https://xonescan.com",
-      "icon": "testnet-xonescan",
+      "icon": "xone_main",
       "standard": "EIP3091"
     }
   ]

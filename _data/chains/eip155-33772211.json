@@ -6,7 +6,7 @@
     "https://rpc-testnet.xone.plus",
     "https://rpc-testnet.xone.org",
     "https://rpc-testnet.knight.center",
-    "wss://wss-rpc-testnet.xone.org"
+    "wss://rpc-testnet.xone.org"
   ],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": ["https://faucet.xone.org/"],
@@ -21,9 +21,9 @@
   "networkId": 33772211,
   "explorers": [
     {
-      "name": "Testnet-Xonescan",
+      "name": "xone_test",
       "url": "https://testnet.xonescan.com",
-      "icon": "testnet-xonescan",
+      "icon": "xone_test",
       "standard": "EIP3091"
     }
   ]
