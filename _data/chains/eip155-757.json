@@ -1,0 +1,31 @@
+{
+	"name": "Capx Mainnet",
+	"chain": "capx-mainnet",
+	"rpc": ["https://capx-mainnet.calderachain.xyz/http"],
+	"faucets": [],
+	"nativeCurrency": {
+		"name": "Capx",
+		"symbol": "CAPX",
+		"decimals": 18
+	},
+	"features": [
+		{
+			"name": "EIP155"
+		},
+		{
+			"name": "EIP1559"
+		}
+	],
+	"infoURL": "https://www.capx.ai/",
+	"shortName": "capx-mainnet",
+	"chainId": 757,
+	"networkId": 757,
+	"icon": "capx",
+	"explorers": [
+		{
+			"name": "Capx Mainnet Caldera Explorer",
+			"url": "https://capx-mainnet.calderaexplorer.xyz",
+			"standard": "EIP3091"
+		}
+	]
+}
