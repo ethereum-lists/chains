@@ -1,0 +1,39 @@
+{
+  "name": "Intuition",
+  "chain": "intuition",
+  "rpc": [
+    "https://rpc.intuition.systems",
+    "https://intuition.calderachain.xyz/http"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TRUST",
+    "symbol": "TRUST",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://www.intuition.systems/",
+  "shortName": "intuition",
+  "chainId": 1155,
+  "networkId": 1155,
+  "icon": "intuition",
+  "explorers": [
+    {
+      "name": "Intuition Explorer",
+      "url": "https://explorer.intuition.systems/",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Intuition Caldera Explorer",
+      "url": "https://intuition.calderaexplorer.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
