@@ -1,9 +1,9 @@
 {
   "name": "Jovay Mainnet",
   "chain": "ETH",
-  "status": "incubating",
+  "status": "active",
   "rpc": [
-    "https://api.zan.top/public/jovay-mainnet",
+    "https://rpc.jovay.io",
     "https://api.zan.top/node/v1/jovay/mainnet/${ZAN_API_KEY}",
     "wss://api.zan.top/node/ws/v1/jovay/mainnet/${ZAN_API_KEY}"
   ],
@@ -21,7 +21,7 @@
   "explorers": [
     {
       "name": "Jovay Explorer",
-      "url": "https://explorer.jovay.io",
+      "url": "https://explorer.jovay.io/l2",
       "standard": "none"
     }
   ],
