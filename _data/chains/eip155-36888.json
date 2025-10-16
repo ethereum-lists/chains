@@ -1,19 +1,14 @@
 {
   "name": "AB Core Mainnet",
   "chain": "AB",
-  "rpc": [
-    "https://rpc.core.ab.org",
-    "https://rpc1.core.ab.org"
-  ],
+  "rpc": ["https://rpc.core.ab.org", "https://rpc1.core.ab.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "AB Token",
     "symbol": "AB",
     "decimals": 18
   },
-  "features": [
-    { "name": "EIP155" }
-  ],
+  "features": [{ "name": "EIP155" }],
   "infoURL": "https://ab.org",
   "shortName": "abcore",
   "chainId": 36888,
