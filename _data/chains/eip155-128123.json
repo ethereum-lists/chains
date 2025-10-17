@@ -1,5 +1,5 @@
 {
-  "name": "Etherlink Testnet",
+  "name": "Etherlink Ghostnet Testnet",
   "chain": "Etherlink",
   "icon": "etherlink",
   "chainId": 128123,
@@ -16,9 +16,10 @@
   "faucets": ["https://faucet.etherlink.com"],
   "explorers": [
     {
-      "name": "Etherlink Testnet Explorer",
-      "url": "https://testnet-explorer.etherlink.com",
+      "name": "Etherlink Ghostnet Testnet Explorer",
+      "url": "https://testnet.explorer.etherlink.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "status": "deprecated"
 }
