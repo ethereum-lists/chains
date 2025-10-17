@@ -4,7 +4,7 @@
   "icon": "etherlink",
   "chainId": 127823,
   "networkId": 127823,
-  "features": [{ "name": "EIP1559" }],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://etherlink.com",
   "shortName": "etlst",
   "nativeCurrency": {
