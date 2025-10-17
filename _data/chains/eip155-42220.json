@@ -12,6 +12,11 @@
   "rpc": ["https://forno.celo.org", "wss://forno.celo.org/ws"],
   "faucets": [],
   "infoURL": "https://docs.celo.org/",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://superbridge.app/celo" }]
+  },
   "explorers": [
     {
       "name": "Celoscan",
@@ -20,8 +25,8 @@
     },
     {
       "name": "blockscout",
-      "url": "https://explorer.celo.org",
-      "standard": "none"
+      "url": "https://celo.blockscout.com",
+      "standard": "EIP3091"
     }
   ]
 }
