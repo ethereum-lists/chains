@@ -1,0 +1,20 @@
+{
+  "name": "DataHaven Stagenet",
+  "chain": "DataHaven",
+  "rpc": [
+    "https://services.datahaven-dev.network/stagenet",
+    "wss://services.datahaven-dev.network/stagenet"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Have",
+    "symbol": "HAVE",
+    "decimals": 18
+  },
+  "infoURL": "https://datahaven.xyz",
+  "shortName": "dhaven-stagenet",
+  "chainId": 1283,
+  "networkId": 1283,
+  "explorers": [],
+  "status": "active"
+}
