@@ -1,0 +1,17 @@
+{
+  "name": "Liberion Mainnet",
+  "chain": "LBR",
+  "icon": "liberion",
+  "rpc": ["https://bc.liberion.com/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Liberion",
+    "symbol": "LBR",
+    "decimals": 18
+  },
+  "infoURL": "https://liberion.com/",
+  "shortName": "lbr",
+  "chainId": 13579,
+  "networkId": 13579,
+  "explorers": []
+}

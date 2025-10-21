@@ -1,0 +1,17 @@
+{
+  "name": "Liberion Testnet",
+  "chain": "LBR",
+  "icon": "liberion",
+  "rpc": ["https://bc.liberion.dev/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Liberion",
+    "symbol": "tLBR",
+    "decimals": 18
+  },
+  "infoURL": "https://liberion.com/",
+  "shortName": "lbr-testnet",
+  "chainId": 13577,
+  "networkId": 13577,
+  "explorers": []
+}
