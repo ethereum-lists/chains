@@ -1,0 +1,21 @@
+{
+  "name": "Memento Mainnet",
+  "chain": "Memento",
+  "rpc": ["https://rpc.mementoblockchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "infoURL": "",
+  "shortName": "memento-mainnet",
+  "chainId": 51888,
+  "networkId": 51888,
+  "explorers": []
+}
