@@ -1,0 +1,25 @@
+{
+  "name": "Orange Chain Testnet",
+  "title": "Orange Chain Testnet",
+  "chain": "Orange Chain",
+  "rpc": ["https://testnet-rpc.orangechain.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://orangechain.xyz",
+  "shortName": "Orange-Chain-Testnet",
+  "chainId": 240515,
+  "networkId": 240515,
+  "icon": "orange",
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://testnet-scan.orangechain.xyz",
+      "icon": "orange",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "X1 Fastnet",
+  "chain": "X1",
+  "rpc": ["https://x1-fastnet.xen.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "XN",
+    "symbol": "XN",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.xen.network/go-x1/",
+  "shortName": "x1-fastnet",
+  "chainId": 4003,
+  "networkId": 4003,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://explorer.x1-fastnet.xen.network",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

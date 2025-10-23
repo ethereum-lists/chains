@@ -1,0 +1,34 @@
+{
+  "name": "Mode Testnet",
+  "chain": "ETH",
+  "rpc": ["https://sepolia.mode.network"],
+  "faucets": ["https://sepoliafaucet.com/"],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.mode.network/",
+  "shortName": "modesep",
+  "chainId": 919,
+  "networkId": 919,
+  "slip44": 1,
+  "icon": "modeTestnet",
+  "explorers": [
+    {
+      "name": "modescout",
+      "url": "https://sepolia.explorer.mode.network",
+      "standard": "none"
+    },
+    {
+      "name": "Routesan",
+      "url": "https://testnet.modescan.io",
+      "standard": "none"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "https://bridge.mode.network/" }]
+  }
+}

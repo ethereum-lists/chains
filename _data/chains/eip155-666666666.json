@@ -1,0 +1,18 @@
+{
+  "name": "Degen Chain",
+  "title": "Degen Chain",
+  "chain": "Degen",
+  "rpc": ["https://rpc.degen.tips"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DEGEN",
+    "symbol": "DEGEN",
+    "decimals": 18
+  },
+  "infoURL": "https://degen.tips",
+  "shortName": "degen-chain",
+  "chainId": 666666666,
+  "networkId": 666666666,
+  "status": "incubating",
+  "icon": "degen"
+}

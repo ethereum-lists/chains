@@ -1,0 +1,23 @@
+{
+  "name": "Dot Blox",
+  "chain": "DTBX",
+  "icon": "dotblox",
+  "rpc": ["https://rpc.dotblox.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dot Blox",
+    "symbol": "DTBX",
+    "decimals": 18
+  },
+  "infoURL": "https://explorer.dotblox.io",
+  "shortName": "DTBX",
+  "chainId": 7923,
+  "networkId": 7923,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.dotblox.io",
+      "standard": "none"
+    }
+  ]
+}

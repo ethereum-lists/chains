@@ -1,0 +1,24 @@
+{
+  "name": "DeFiVerse Testnet",
+  "chain": "DeFiVerse Testnet",
+  "icon": "defiverse",
+  "rpc": ["https://rpc-testnet.defi-verse.org/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Oasys",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "infoURL": "https://defi-verse.org",
+  "shortName": "DFV-testnet",
+  "chainId": 17117,
+  "networkId": 17117,
+  "explorers": [
+    {
+      "name": "DeFiVerse Testnet Explorer",
+      "url": "https://scan-testnet.defi-verse.org",
+      "icon": "defiverse",
+      "standard": "EIP3091"
+    }
+  ]
+}

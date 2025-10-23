@@ -1,0 +1,29 @@
+{
+  "name": "UPchain Mainnet",
+  "chain": "UPchain",
+  "rpc": ["https://rpc.uniport.network"],
+  "nativeCurrency": {
+    "name": "UBTC",
+    "symbol": "UBTC",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "faucets": [],
+  "infoURL": "https://uniport.network",
+  "shortName": "UPchain-mainnet",
+  "chainId": 336666,
+  "networkId": 336666,
+  "icon": "up",
+  "explorers": [
+    {
+      "name": "UPchain Mainnet Explorer",
+      "url": "https://explorer.uniport.network",
+      "icon": "up",
+      "standard": "EIP3091"
+    }
+  ]
+}
