@@ -1,0 +1,23 @@
+{
+  "name": "Lekan Mainnet",
+  "chain": "LRK",
+  "icon": "lekan",
+  "rpc": ["https://rpc.lekan.network", "wss://rpc.lekan.network/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lekan",
+    "symbol": "LRK",
+    "decimals": 18
+  },
+  "infoURL": "https://www.lekan.network",
+  "shortName": "lrk",
+  "chainId": 9009,
+  "networkId": 9009,
+  "explorers": [
+    {
+      "name": "Lekan Explorer",
+      "url": "https://explorer.lekan.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
