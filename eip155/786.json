@@ -1,0 +1,26 @@
+{
+  "name": "Clarity Chain",
+  "shortName": "clarity",
+  "chain": "OrionVM",
+  "chainId": 786,
+  "networkId": 786,
+  "nativeCurrency": {
+    "name": "Clarity Vault Token",
+    "symbol": "CVT",
+    "decimals": 18
+  },
+  "rpc": [
+    "https://rpc.moralis.io/clarity",
+    "https://rpc.coinsdo.com/clarity"
+  ],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "Clarity Explorer",
+      "url": "https://explorer.claritychain.org",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://claritychain.org",
+  "status": "active"
+}
