@@ -15,13 +15,8 @@
   "networkId": 9990,
   "explorers": [
     {
-      "name": "Polkadot.js",
-      "url": "https://polkadot.js.org/apps/?rpc=wss:///wss-async.agung.peaq.network#/explorer",
-      "standard": "none"
-    },
-    {
-      "name": "Subscan",
-      "url": "https://agung-testnet.subscan.io",
+      "name": "peaqscan",
+      "url": "https://testnet.peaqscan.xyz",
       "standard": "none"
     }
   ]
