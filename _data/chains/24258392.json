@@ -1,0 +1,23 @@
+{
+  "name": "Nanch Network",
+  "chain": "NANCH",
+  "rpc": ["https://rpc.nanch.network"],
+  "faucets": ["https://faucets.nanch.network"],
+  "nativeCurrency": {
+    "name": "Nanch",
+    "symbol": "NACH",
+    "decimals": 18
+  },
+  "infoURL": "https://nanch.network",
+  "shortName": "nanch",
+  "chainId": 24258392,
+  "networkId": 24258392,
+  "icon": "nanch",
+  "explorers": [
+    {
+      "name": "NanchScan",
+      "url": "https://nanchscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
