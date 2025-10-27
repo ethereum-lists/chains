@@ -1,25 +1,22 @@
 {
-  "name": "Wanchain Testnet",
-  "chain": "WAN",
-  "rpc": ["https://gwan-ssl.wandevs.org:46891/"],
-  "faucets": [],
+  "name": "HyperEVM",
+  "chain": "HYPE",
   "nativeCurrency": {
-    "name": "Wancoin",
-    "symbol": "WAN",
+    "name": "HYPE",
+    "symbol": "HYPE",
     "decimals": 18
   },
-  "infoURL": "https://testnet.wanscan.org",
-  "shortName": "twan",
-  "chainId": 999,
-  "networkId": 999,
-  "slip44": 1,
-  "icon": "wanchain",
+  "rpc": ["https://rpc.hyperliquid.xyz/evm"],
+  "faucets": [],
   "explorers": [
     {
-      "name": "wanscan",
-      "icon": "wanchain",
-      "url": "https://testnet.wanscan.org",
+      "name": "hyperevmscan",
+      "url": "https://hyperevmscan.io",
       "standard": "EIP3091"
     }
   ]
+  "infoURL": "https://hyperfoundation.org",
+  "shortName": "hyperevm",
+  "chainId": 999,
+  "networkId": 999
 }
