@@ -2,7 +2,7 @@
   "name": "HashKey Chain Testnet",
   "title": "HashKey Chain Testnet",
   "chain": "HashKey Chain Testnet",
-  "rpc": ["https://hashkeychain-testnet.alt.technology"],
+  "rpc": ["https://testnet.hsk.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "HashKey EcoPoints",
@@ -13,11 +13,11 @@
   "shortName": "HSKT",
   "chainId": 133,
   "networkId": 133,
+  "status": "active",
   "explorers": [
     {
-      "name": "blockscout",
-      "url": "https://hashkeychain-testnet-explorer.alt.technology",
-      "icon": "blockscout",
+      "name": "Hashkey Explorer", 
+      "url": "https://testnet-explorer.hsk.xyz",
       "standard": "EIP3091"
     }
   ],
