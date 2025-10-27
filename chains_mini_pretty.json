@@ -21553,6 +21553,32 @@
   "faucets": ["https://www.thinkiumdev.net/faucet"],
   "infoURL": "https://thinkium.net/"
 }, {
+  "name": "POTOS Testnet",
+  "chainId": 60600,
+  "shortName": "potos-testnet",
+  "networkId": 60600,
+  "nativeCurrency": {
+    "name": "POTOS Token",
+    "symbol": "POT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.potos.hk"],
+  "faucets": ["https://faucet-testnet.potos.hk"],
+  "infoURL": "https://potos.hk"
+}, {
+  "name": "POTOS Mainnet",
+  "chainId": 60603,
+  "shortName": "potos",
+  "networkId": 60603,
+  "nativeCurrency": {
+    "name": "POTOS Token",
+    "symbol": "POT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.potos.hk"],
+  "faucets": [],
+  "infoURL": "https://potos.hk"
+}, {
   "name": "BOB",
   "chainId": 60808,
   "shortName": "bob",
