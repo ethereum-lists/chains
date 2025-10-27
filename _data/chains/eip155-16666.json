@@ -1,0 +1,40 @@
+{
+  "name": "MegaETH Testnet",
+  "chain": "MEGA",
+  "rpc": [
+    "https://rpc.testnet.megaeth.com"
+  ],
+  "faucets": [
+    "https://faucet.testnet.megaeth.com"
+  ],
+  "nativeCurrency": {
+    "name": "MEGA",
+    "symbol": "MEGA",
+    "decimals": 18
+  },
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" }
+  ],
+  "infoURL": "https://megaeth.com",
+  "shortName": "mega-test",
+  "chainId": 16600,
+  "networkId": 16600,
+  "icon": "megaeth",
+  "explorers": [
+    {
+      "name": "MegaETH Scan",
+      "url": "https://explorer.testnet.megaeth.com",
+      "icon": "megaeth-scan",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [
+      { "url": "https://bridge.megaeth.com" }
+    ]
+  },
+  "status": "incubating"
+}
