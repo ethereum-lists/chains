@@ -9,14 +9,14 @@
     "symbol": "HSK",
     "decimals": 18
   },
-  "infoURL": "https://hashkeychain.net/",
+  "infoURL": "https://hashkeychain.net",
   "shortName": "hskt",
   "chainId": 133,
   "networkId": 133,
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://testnet-explorer.hashkeychain.net/",
+      "url": "https://testnet-explorer.hashkeychain.net",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
