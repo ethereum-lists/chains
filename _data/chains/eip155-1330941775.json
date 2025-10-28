@@ -1,0 +1,45 @@
+{
+  "name": "OTHORION Mainnet",
+  "chain": "OTHORION",
+  "icon": "othorion",
+  "rpc": [
+    "https://rpc.othorscan.com",
+    "http://160.22.161.24:8545"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OTHORION",
+    "symbol": "OTH",
+    "decimals": 18
+  },
+  "infoURL": "https://othorscan.com",
+  "shortName": "otho",
+  "chainId": 1330941775,
+  "networkId": 1330941775,
+  "slip44": 118,
+  "ens": {
+    "registry": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
+  },
+  "explorers": [
+    {
+      "name": "Othorscan",
+      "url": "https://othorscan.com",
+      "standard": "EIP3091",
+      "icon": "othorion"
+    }
+  ],
+  "parent": {
+    "type": "L1",
+    "chain": "eip155-1330941775"
+  },
+  "status": "active",
+  "redFlags": []
+}

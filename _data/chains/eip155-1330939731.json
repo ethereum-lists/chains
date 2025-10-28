@@ -1,0 +1,38 @@
+{
+  "name": "OTHORION Testnet",
+  "chain": "OTHORION",
+  "icon": "othorion",
+  "rpc": [
+    "https://testnet-rpc.othorscan.com",
+    "http://160.22.161.24:8546"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [
+    "https://testnet.othorscan.com"
+  ],
+  "nativeCurrency": {
+    "name": "OTHORION",
+    "symbol": "OTH",
+    "decimals": 18
+  },
+  "infoURL": "https://othorscan.com",
+  "shortName": "otho-testnet",
+  "chainId": 1330939731,
+  "networkId": 1330939731,
+  "explorers": [
+    {
+      "name": "Othorion Testnet Explorer",
+      "url": "https://testnet.othorscan.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active",
+  "testnet": true
+}
