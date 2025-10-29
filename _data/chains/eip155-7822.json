@@ -1,0 +1,27 @@
+{
+  "name": "Portal-To-Bitcoin Devnet",
+  "chain": "PTB",
+  "rpc": [
+    "https://devnet.portaltobitcoin.net",
+    "wss://devnet.portaltobitcoin.net/ws"
+  ],
+  "faucets": ["https://faucet.devnet.portaltobitcoin.net"],
+  "nativeCurrency": {
+    "name": "Portal-To-Bitcoin",
+    "symbol": "PTB",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://portaltobitcoin.com",
+  "shortName": "ptb-devnet",
+  "chainId": 7822,
+  "networkId": 7822,
+  "explorers": [
+    {
+      "name": "Portal-To-Bitcoin Explorer",
+      "url": "https://explorer.devnet.portaltobitcoin.net",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
