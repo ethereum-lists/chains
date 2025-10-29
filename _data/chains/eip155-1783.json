@@ -1,0 +1,24 @@
+{
+  "name": "Kii Chain",
+  "chain": "KII",
+  "rpc": ["TODO"],
+  "nativeCurrency": {
+    "name": "Kii",
+    "symbol": "KII",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://kiichain.io",
+  "shortName": "kiichain",
+  "chainId": 1783,
+  "networkId": 1783,
+  "icon": "kii",
+  "explorers": [
+    {
+      "name": "KiiExplorer",
+      "url": "https://explorer.kiichain.io",
+      "icon": "kii",
+      "standard": "none"
+    }
+  ]
+}
