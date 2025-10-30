@@ -2,9 +2,7 @@
   "name": "Parallax",
   "chain": "PARALLAX",
   "icon": "parallax",
-  "rpc": [
-    "https://rpc.parallaxchain.org"
-  ],
+  "rpc": ["https://rpc.parallaxchain.org"],
   "features": [{ "name": "EIP155" }],
   "faucets": [],
   "nativeCurrency": {
