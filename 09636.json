@@ -1,0 +1,25 @@
+{
+  "name": "GBTNetwork",
+  "chain": "GBT",
+  "icon": "GBT",
+  "rpc": [
+    "https://gbtnetwork-1989.created.app"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GoldBarTether",
+    "symbol": "GBT",
+    "decimals": 18
+  },
+  "infoURL": "https://gbtnetwork-1989.created.app",
+  "shortName": "gbt",
+  "chainId": 9636,
+  "networkId": 9636,
+  "explorers": [
+    {
+      "name": "GBT Explorer",
+      "url": "https://gbtnetwork-explorer.onrender.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
