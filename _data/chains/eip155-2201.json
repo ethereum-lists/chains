@@ -1,0 +1,29 @@
+{
+  "name": "Stable Testnet",
+  "chain": "Stable",
+  "icon": "stable",
+  "rpc": ["https://stable-jsonrpc.testnet.chain0.dev"],
+  "faucets": ["https://demo.testnet.chain0.dev/faucet"],
+  "nativeCurrency": {
+    "name": "USDT",
+    "symbol": "USDT",
+    "decimals": 18
+  },
+  "infoURL": "https://stable.xyz",
+  "shortName": "stable-testnet",
+  "chainId": 2201,
+  "networkId": 2201,
+  "explorers": [
+    {
+      "name": "Blockscout Explorer",
+      "url": "https://stable-explorer.testnet.chain0.dev",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Stablescan",
+      "url": "https://testnet.stablescan.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
