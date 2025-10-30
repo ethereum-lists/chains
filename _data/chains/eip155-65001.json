@@ -1,0 +1,26 @@
+{
+  "name": "Xaheen Chain",
+  "chain": "Xaheen",
+  "icon": "xaheen",
+  "rpc": [
+    "https://rpc.xaheen.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Xaheen Token",
+    "symbol": "XHT",
+    "decimals": 18
+  },
+  "infoURL": "https://xaheen.org",
+  "shortName": "xaheen",
+  "chainId": 65001,
+  "networkId": 65001,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Xaheen Explorer",
+      "url": "https://explorer.xaheen.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
