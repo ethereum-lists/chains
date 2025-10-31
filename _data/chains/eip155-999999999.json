@@ -1,7 +1,11 @@
 {
   "name": "Zora Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia.rpc.zora.energy"],
+  "rpc": [
+    "https://sepolia.rpc.zora.energy",
+    "https://zora-sepolia.drpc.org",
+    "wss://zora-sepolia.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",

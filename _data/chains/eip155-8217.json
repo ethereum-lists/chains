@@ -1,7 +1,11 @@
 {
   "name": "Kaia Mainnet",
   "chain": "KAIA",
-  "rpc": ["https://public-en.node.kaia.io"],
+  "rpc": [
+    "https://public-en.node.kaia.io",
+    "https://klaytn.drpc.org",
+    "wss://klaytn.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "KAIA",
