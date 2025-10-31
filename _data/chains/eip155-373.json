@@ -1,0 +1,28 @@
+{
+  "name": "Status Network",
+  "title": "Status Network Mainnet",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://status.network",
+  "shortName": "snt",
+  "chainId": 373,
+  "networkId": 373,
+  "icon": "snt",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [
+      {
+        "url": "https://bridge.status.network"
+      }
+    ]
+  },
+  "explorers": [],
+  "status": "incubating"
+}
