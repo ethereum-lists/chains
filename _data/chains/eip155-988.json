@@ -2,13 +2,11 @@
   "name": "Stable Mainnet",
   "chain": "Stable",
   "icon": "stable",
-  "rpc": [
-    "https://rpc.stable.xyz"
-  ],
+  "rpc": ["https://rpc.stable.xyz"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "gasUSDT",
-    "symbol": "gasUSDT",
+    "name": "gUSDT",
+    "symbol": "gUSDT",
     "decimals": 18
   },
   "infoURL": "https://stable.xyz",
