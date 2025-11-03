@@ -10789,6 +10789,32 @@
   "faucets": [],
   "infoURL": "https://apexlayer.xyz/"
 }, {
+  "name": "Splendor Mainnet",
+  "chainId": 2691,
+  "shortName": "spld",
+  "networkId": 2691,
+  "nativeCurrency": {
+    "name": "Splendor Token",
+    "symbol": "SPLD",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.splendor.org", "https://splendor-rpc.org/"],
+  "faucets": [],
+  "infoURL": "https://splendor.org"
+}, {
+  "name": "Splendor Testnet",
+  "chainId": 2692,
+  "shortName": "spldt",
+  "networkId": 2692,
+  "nativeCurrency": {
+    "name": "Splendor Test Token",
+    "symbol": "SPLDT",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.splendor.org"],
+  "faucets": [],
+  "infoURL": "https://splendor.org"
+}, {
   "name": "Morph Testnet",
   "chainId": 2710,
   "shortName": "tmorph",
