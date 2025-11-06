@@ -1,6 +1,6 @@
 {
-  "name": "OLYMPUS EXPLORER",
-  "chain": "OLYMPUS EXPLORER",
+  "name": "Olympus Explorer",
+  "chain": "OLYMPUS",
   "icon": "olym",
   "rpc": ["https://mainnet-rpc.olympusexplorer.io"],
   "faucets": [],
@@ -10,12 +10,12 @@
     "decimals": 18
   },
   "infoURL": "https://olympusexplorer.io",
-  "shortName": "OLYMPUS",
+  "shortName": "OLYM",
   "chainId": 62606,
   "networkId": 62606,
   "explorers": [
     {
-      "name": "OLYMPUS EXPLORER",
+      "name": "Olympus Explorer",
       "url": "https://olympusexplorer.io",
       "icon": "olym",
       "standard": "EIP3091"
