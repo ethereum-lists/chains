@@ -1,7 +1,7 @@
 {
   "name": "DataHaven Testnet",
   "chain": "datahaven-testnet",
-  "icon": "datahaven",
+  "icon": "datahaven-testnet",
   "rpc": [
     "https://services.datahaven-testnet.network/testnet",
     "wss://services.datahaven-testnet.network/testnet"
@@ -15,7 +15,7 @@
     "decimals": 18
   },
   "infoURL": "https://datahaven.xyz",
-  "shortName": "datahaven",
+  "shortName": "datahaven-testnet",
   "chainId": 55931,
   "networkId": 55931,
   "explorers": [
