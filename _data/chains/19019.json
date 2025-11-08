@@ -1,0 +1,24 @@
+{
+  "name": "AMR",
+  "chain": "AMR",
+  "rpc": [
+    "https://rpc.orcaamr.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AMR Coin",
+    "symbol": "AMR",
+    "decimals": 18
+  },
+  "infoURL": "https://orcaamr.com",
+  "shortName": "amr",
+  "chainId": 19019,
+  "networkId": 19019,
+  "explorers": [
+    {
+      "name": "AMRScan",
+      "url": "https://scan.orcaamr.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
