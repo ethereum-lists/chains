@@ -1,5 +1,5 @@
 {
-  "name": "AMR",
+  "name": "AMRChain",
   "chain": "AMR",
   "rpc": [
     "https://rpc.orcaamr.com"
@@ -14,6 +14,11 @@
   "shortName": "amr",
   "chainId": 19019,
   "networkId": 19019,
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "explorers": [
     {
       "name": "AMRScan",
