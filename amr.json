@@ -15,10 +15,12 @@
   "chainId": 19019,
   "networkId": 19019,
   "testnet": false,
-  "icon": "https://violet-fast-mollusk-566.mypinata.cloud/ipfs/bafkreifjzswx5nkdquji5snuvz5q6ze5njhpbzojlqhp7x33byxouvdkue?pinataGatewayToken=zrv1RLOMYGK6-ZZuiqb9vmo2_PxIrIAV2-79HVYf6rZhIqy02sJcfgcLDqVOTQMN",
   "features": [
-    "EIP155"
+    {
+      "name": "EIP155"
+    }
   ],
+  "icon": "amr",
   "explorers": [
     {
       "name": "AMRScan",
