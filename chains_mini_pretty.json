@@ -4978,6 +4978,32 @@
   "faucets": [],
   "infoURL": "https://janction.io"
 }, {
+  "name": "Jasmy Chain",
+  "chainId": 680,
+  "shortName": "jasmychain",
+  "networkId": 680,
+  "nativeCurrency": {
+    "name": "JasmyCoin",
+    "symbol": "JASMY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.jasmychain.io", "wss://rpc.jasmychain.io"],
+  "faucets": [],
+  "infoURL": "https://jasmychain.io"
+}, {
+  "name": "Jasmy Chain Testnet",
+  "chainId": 681,
+  "shortName": "jasmychain_testnet",
+  "networkId": 681,
+  "nativeCurrency": {
+    "name": "JasmyCoin",
+    "symbol": "JASMY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc_testnet.jasmychain.io", "wss://rpc_testnet.jasmychain.io"],
+  "faucets": [],
+  "infoURL": "https://jasmychain.io"
+}, {
   "name": "Karura Network",
   "chainId": 686,
   "shortName": "kar",

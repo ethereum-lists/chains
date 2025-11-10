@@ -8253,6 +8253,46 @@
     "bridges": []
   }
 }, {
+  "name": "Jasmy Chain",
+  "chain": "Jasmy Chain",
+  "rpc": ["https://rpc.jasmychain.io", "wss://rpc.jasmychain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "JasmyCoin",
+    "symbol": "JASMY",
+    "decimals": 18
+  },
+  "infoURL": "https://jasmychain.io",
+  "shortName": "jasmychain",
+  "chainId": 680,
+  "networkId": 680,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  }
+}, {
+  "name": "Jasmy Chain Testnet",
+  "chain": "Jasmy Chain Testnet",
+  "rpc": ["https://rpc_testnet.jasmychain.io", "wss://rpc_testnet.jasmychain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "JasmyCoin",
+    "symbol": "JASMY",
+    "decimals": 18
+  },
+  "infoURL": "https://jasmychain.io",
+  "shortName": "jasmychain_testnet",
+  "chainId": 681,
+  "networkId": 681,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  }
+}, {
   "name": "Karura Network",
   "chain": "KAR",
   "rpc": ["https://eth-rpc-karura.aca-api.network", "wss://eth-rpc-karura.aca-api.network"],
