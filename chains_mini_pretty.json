@@ -13411,9 +13411,9 @@
     "symbol": "TANGO",
     "decimals": 18
   },
-  "rpc": ["https://dancelight-2001.tanssi-api.network", "wss://dancelight-2001.tanssi-api.network"],
+  "rpc": ["https://services.tanssi-testnet.network/dancelight-2001", "wss://services.tanssi-testnet.network/dancelight-2001"],
   "faucets": ["https://apps.tanssi.network/demo"],
-  "infoURL": "https://docs.tanssi.network/builders/tanssi-network/networks/dancebox/demo-evm-containerchain"
+  "infoURL": "https://docs.tanssi.network/builders/tanssi-network/testnet/demo-evm-network/"
 }, {
   "name": "Syscoin Tanenbaum Testnet",
   "chainId": 5700,
