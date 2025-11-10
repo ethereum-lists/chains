@@ -28105,6 +28105,19 @@
   "faucets": [],
   "infoURL": "https://docs.zero.network"
 }, {
+  "name": "Arc Network Testnet",
+  "chainId": 5042002,
+  "shortName": "arc-testnet",
+  "networkId": 5042002,
+  "nativeCurrency": {
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.arc.network", "wss://rpc.testnet.arc.network", "https://rpc.quicknode.testnet.arc.network", "wss://rpc.quicknode.testnet.arc.network", "https://rpc.blockdaemon.testnet.arc.network"],
+  "faucets": ["https://faucet.circle.com/"],
+  "infoURL": "https://arc.network"
+}, {
   "name": "NumBlock Chain",
   "chainId": 5112023,
   "shortName": "NUMB",
