@@ -1,0 +1,17 @@
+{
+  "name": "Stable Mainnet",
+  "chain": "Stable",
+  "icon": "stable",
+  "rpc": ["https://rpc.stable.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "gUSDT",
+    "symbol": "gUSDT",
+    "decimals": 18
+  },
+  "infoURL": "https://stable.xyz",
+  "shortName": "stable",
+  "chainId": 988,
+  "networkId": 988,
+  "explorers": []
+}
