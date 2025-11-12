@@ -1,0 +1,19 @@
+{
+  "name": "Surge deprecated Testnet",
+  "chain": "Surge deprecated Testnet",
+  "status": "deprecated",
+  "rpc": [],
+  "faucets": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "surge-deprecated-testnet",
+  "chainId": 763374,
+  "networkId": 763374,
+  "icon": "surge-testnet",
+  "explorers": []
+}

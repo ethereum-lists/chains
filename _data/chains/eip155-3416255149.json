@@ -1,0 +1,25 @@
+{
+  "name": "Ultima Mainnet",
+  "chain": "ULTIMA",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ultima",
+    "symbol": "ULTIMA",
+    "decimals": 6
+  },
+  "infoURL": "https://ultima.io",
+  "shortName": "ultima",
+  "chainId": 3416255149,
+  "networkId": 3416255149,
+  "slip44": 785,
+  "icon": "ultima",
+  "explorers": [
+    {
+      "name": "ultimachain",
+      "url": "https://ultimachain.info",
+      "icon": "ultima",
+      "standard": "none"
+    }
+  ]
+}

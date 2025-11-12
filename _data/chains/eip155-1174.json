@@ -6,11 +6,17 @@
   "nativeCurrency": {
     "name": "Lith",
     "symbol": "LTH",
-    "decimals": 9
+    "decimals": 18
   },
   "infoURL": "https://litheum.com",
   "shortName": "lith",
   "chainId": 1174,
   "networkId": 1174,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "Litheum Test Network Explorer",
+      "url": "https://explorer.litheum.com",
+      "standard": "EIP3091"
+    }
+  ]
 }

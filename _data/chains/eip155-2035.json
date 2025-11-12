@@ -1,15 +1,16 @@
 {
   "name": "Phala Network",
-  "chain": "PHA",
+  "chain": "ETH",
   "rpc": [],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Phala",
-    "symbol": "PHA",
+    "name": "Ether",
+    "symbol": "ETH",
     "decimals": 18
   },
   "infoURL": "https://phala.network",
-  "shortName": "pha",
+  "shortName": "phala",
   "chainId": 2035,
-  "networkId": 2035
+  "networkId": 2035,
+  "status": "incubating"
 }

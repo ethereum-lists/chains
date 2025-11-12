@@ -2,6 +2,7 @@
   "name": "Corn Testnet",
   "chain": "BTCN",
   "rpc": [
+    "https://testnet.corn-rpc.com",
     "https://rpc.ankr.com/corn_testnet",
     "https://testnet-rpc.usecorn.com"
   ],
@@ -12,7 +13,7 @@
     "decimals": 18
   },
   "infoURL": "https://usecorn.com",
-  "shortName": "btcn-testnet",
+  "shortName": "corn-testnet",
   "chainId": 21000001,
   "networkId": 21000001,
   "explorers": [
