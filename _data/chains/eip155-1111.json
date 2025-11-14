@@ -1,7 +1,12 @@
 {
   "name": "WEMIX3.0 Mainnet",
   "chain": "WEMIX",
-  "rpc": ["https://api.wemix.com", "wss://ws.wemix.com"],
+  "rpc": [
+    "https://api.wemix.com",
+    "wss://ws.wemix.com",
+    "https://wemix.drpc.org",
+    "wss://wemix.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "WEMIX",
