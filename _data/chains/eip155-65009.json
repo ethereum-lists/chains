@@ -1,0 +1,32 @@
+{
+  "name": "Banana1 kBONK1-Chain",
+  "chain": "Banana1 kBONK1-Chain",
+  "rpc": ["https://rpc.banana1-mainnet.network/ext/bc/kBONK1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "kBONK1",
+    "symbol": "kBONK1",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://juneo.com/",
+  "shortName": "kBONK1",
+  "chainId": 65009,
+  "networkId": 65009,
+  "icon": "banana1-kbonk1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://banana1.juneoscan.io/chain/8",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}
