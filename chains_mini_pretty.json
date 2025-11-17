@@ -24374,7 +24374,20 @@
   "faucets": ["https://testnet.mitosis.org/faucet"],
   "infoURL": "https://mitosis.org"
 }, {
-  "name": "Etherlink Testnet",
+  "name": "Etherlink Shadownet Testnet",
+  "chainId": 127823,
+  "shortName": "etlst",
+  "networkId": 127823,
+  "nativeCurrency": {
+    "name": "tez",
+    "symbol": "XTZ",
+    "decimals": 18
+  },
+  "rpc": ["https://node.shadownet.etherlink.com"],
+  "faucets": ["https://faucet.etherlink.com"],
+  "infoURL": "https://etherlink.com"
+}, {
+  "name": "Etherlink Ghostnet Testnet",
   "chainId": 128123,
   "shortName": "etlt",
   "networkId": 128123,
