@@ -2,9 +2,7 @@
   "name": "Datagram Testnet",
   "chain": "DGRAM",
   "icon": "dgram",
-  "rpc": [
-    "https://testnet.datagram.network/rpc"
-  ],
+  "rpc": ["https://testnet.datagram.network/rpc"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
