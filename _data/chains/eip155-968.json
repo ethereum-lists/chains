@@ -2,9 +2,7 @@
   "name": "Datagram",
   "chain": "DGRAM",
   "icon": "dgram",
-  "rpc": [
-    "https://mainnet.datagram.network/rpc"
-  ],
+  "rpc": ["https://mainnet.datagram.network/rpc"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
