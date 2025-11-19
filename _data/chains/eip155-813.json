@@ -2,13 +2,14 @@
   "name": "Qitmeer Network Mainnet",
   "chain": "MEER",
   "rpc": [
+    "https://rpc.woowow.io",
+    "https://qng.rpc.qitmeer.io",
     "https://evm-dataseed1.meerscan.io",
     "https://evm-dataseed2.meerscan.io",
     "https://evm-dataseed3.meerscan.io",
     "https://evm-dataseed.meerscan.com",
-    "https://qng.rpc.qitmeer.io",
-    "https://qng.rpc.dimai.ai",
-    "https://rpc.woowow.io"
+    "https://qng.rpc.dimai.ai"
+    
   ],
   "faucets": [],
   "nativeCurrency": {
