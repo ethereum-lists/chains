@@ -1,0 +1,28 @@
+{
+  "name": "ANDE Network Testnet",
+  "chain": "ANDE",
+  "rpc": [
+    "https://rpc.ande.network"
+  ],
+  "faucets": [
+    "https://faucet.ande.network"
+  ],
+  "nativeCurrency": {
+    "name": "ANDE",
+    "symbol": "ANDE",
+    "decimals": 18
+  },
+  "infoURL": "https://ande.network",
+  "shortName": "ande",
+  "chainId": 6174,
+  "networkId": 6174,
+  "icon": "ande",
+  "explorers": [
+    {
+      "name": "ANDE Explorer",
+      "url": "https://explorer.ande.network",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
