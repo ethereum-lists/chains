@@ -1,8 +1,8 @@
 {
-  "name": "Moca Chain Devnet",
+  "name": "Moca Chain Testnet",
   "chain": "Moca Chain",
-  "rpc": ["https://devnet-rpc.mocachain.org"],
-  "faucets": ["https://devnet-scan.mocachain.org/faucet"],
+  "rpc": ["https://testnet-rpc.mocachain.org"],
+  "faucets": ["https://testnet-scan.mocachain.org/faucet"],
   "nativeCurrency": {
     "name": "MOCA",
     "symbol": "MOCA",
@@ -10,14 +10,14 @@
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://mocachain.org",
-  "shortName": "moca-devnet",
-  "chainId": 5151,
-  "networkId": 5151,
+  "shortName": "moca-testnet",
+  "chainId": 222888,
+  "networkId": 222888,
   "icon": "moca",
   "explorers": [
     {
       "name": "Moca Chain Scan",
-      "url": "https://devnet-scan.mocachain.org",
+      "url": "https://testnet-scan.mocachain.org",
       "icon": "moca",
       "standard": "EIP3091"
     }
