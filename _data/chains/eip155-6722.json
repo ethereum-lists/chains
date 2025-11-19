@@ -1,0 +1,23 @@
+{
+  "name": "Rey Chain Testnet",
+  "chain": "Rey Chain Testnet",
+  "icon": "reychaintestnet",
+  "rpc": ["https://testnet-rpc.reyscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Rey Chain Testnet",
+    "symbol": "REYT",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet-rpc.reyscan.io",
+  "shortName": "REYT",
+  "chainId": 6722,
+  "networkId": 6722,
+  "explorers": [
+    {
+      "name": "Rey Chain Testnet",
+      "url": "https://testnet.reyscan.io",
+      "standard": "none"
+    }
+  ]
+}
