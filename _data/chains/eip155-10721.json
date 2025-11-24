@@ -1,0 +1,26 @@
+{
+  "name": "QuestNet Testnet",
+  "chain": "QuestNet",
+  "icon": "questnet",
+  "rpc": [
+    "https://mqt.network/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MoveQuest Token",
+    "symbol": "MQT",
+    "decimals": 18
+  },
+  "infoURL": "https://mqt.network",
+  "shortName": "questnet",
+  "chainId": 10721,
+  "networkId": 10721,
+  "explorers": [
+    {
+      "name": "QuestNet Explorer",
+      "url": "https://mqt.network/explorer",
+      "standard": "none"
+    }
+  ],
+  "testnet": true
+}
