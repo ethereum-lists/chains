@@ -2,7 +2,10 @@
   "name": "Firechain zkEVM",
   "title": "Firechain zkEVM",
   "chain": "Firechain",
-  "rpc": ["https://rpc.zkevm.thefirechain.com"],
+  "rpc": [
+    "https://rpc-zkevm.thefirechain.com",
+    "https://rpc-zkevm.firestation.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -13,14 +16,14 @@
   "shortName": "firechan-zkEVM",
   "chainId": 814,
   "networkId": 814,
-  "icon": "firechain",
+  "icon": "ethereum",
   "explorers": [],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
     "bridges": [
       {
-        "url": "https://zkevm.bridge.rpc.thefirechain.com"
+        "url": "https://zkevm-bridge-rpc.thefirechain.com"
       }
     ]
   }

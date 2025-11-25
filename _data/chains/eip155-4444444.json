@@ -1,0 +1,33 @@
+{
+  "name": "Altar Testnet",
+  "chain": "Altar",
+  "rpc": ["https://altar-rpc.ceremonies.ai/"],
+  "faucets": ["https://sepoliafaucet.com/"],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://ceremonies.gitbook.io",
+  "shortName": "altarTestnet",
+  "chainId": 4444444,
+  "networkId": 4444444,
+  "slip44": 1,
+  "icon": "altarTestnet",
+  "explorers": [
+    {
+      "name": "altar testnet explorer",
+      "url": "https://altar-explorer.ceremonies.ai",
+      "standard": "none"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [
+      {
+        "url": "https://altar-testnet-yzxhzk61ck-b7590e4db247a680.testnets.rollbridge.app/"
+      }
+    ]
+  }
+}

@@ -1,19 +1,24 @@
 {
-  "name": "Filecoin - Wallaby testnet",
-  "status": "deprecated",
-  "chain": "FIL",
-  "icon": "filecoin",
-  "rpc": [],
+  "name": "Wirex Pay Mainnet",
+  "chain": "WirexPay",
+  "icon": "wpay",
+  "rpc": ["https://rpc.wirexpaychain.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "testnet filecoin",
-    "symbol": "tFIL",
+    "name": "Ethereum",
+    "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "https://filecoin.io",
-  "shortName": "filecoin-wallaby",
+  "infoURL": "https://docs.wirexpaychain.com/tech/wirex-pay-chain",
+  "shortName": "wpay",
   "chainId": 31415,
   "networkId": 31415,
-  "slip44": 1,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "Wirex Pay Explorer",
+      "url": "https://blockscout.wirexpaychain.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "redFlags": ["reusedChainId"]
 }

@@ -1,0 +1,32 @@
+{
+  "name": "Creditcoin Testnet",
+  "chain": "CTC",
+  "icon": "creditcoin",
+  "rpc": ["https://rpc.cc3-testnet.creditcoin.network"],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "nativeCurrency": {
+    "name": "Testnet CTC",
+    "symbol": "tCTC",
+    "decimals": 18
+  },
+  "infoURL": "https://creditcoin.org",
+  "shortName": "ctctest",
+  "chainId": 102031,
+  "networkId": 102031,
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://creditcoin-testnet.blockscout.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

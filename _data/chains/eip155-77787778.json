@@ -1,0 +1,31 @@
+{
+  "name": "0xHash Testnet",
+  "chain": "HETH",
+  "icon": "ethereum",
+  "rpc": ["https://rpc-test.0xhash.io"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "0xHash",
+    "symbol": "HETH",
+    "decimals": 18
+  },
+  "infoURL": "https://0xhash.io",
+  "shortName": "HETH",
+  "chainId": 77787778,
+  "networkId": 77787778,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://test.0xhashscan.io",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://app.optimism.io/bridge/deposit" }]
+  }
+}

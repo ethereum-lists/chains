@@ -1,7 +1,11 @@
 {
   "name": "Neon EVM Devnet",
   "chain": "Solana",
-  "rpc": ["https://devnet.neonevm.org"],
+  "rpc": [
+    "https://devnet.neonevm.org",
+    "https://neon-evm-devnet.drpc.org",
+    "wss://neon-evm-devnet.drpc.org"
+  ],
   "faucets": ["https://neonfaucet.org"],
   "icon": "neon",
   "nativeCurrency": {

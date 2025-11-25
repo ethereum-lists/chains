@@ -1,0 +1,35 @@
+{
+  "name": "unreal-old",
+  "title": "unreal testnet for re.al",
+  "chain": "unreal",
+  "rpc": [
+    "https://rpc.unreal.gelato.digital",
+    "wss://ws.unreal.gelato.digital"
+  ],
+  "nativeCurrency": {
+    "name": "unreal Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://raas.gelato.network/rollups/details/public/unreal",
+  "faucets": [],
+  "shortName": "unreal-old",
+  "chainId": 18231,
+  "networkId": 18231,
+  "slip44": 60,
+  "icon": "unreal",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://unreal.blockscout.com",
+      "icon": "unreal",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": []
+  },
+  "status": "deprecated"
+}
