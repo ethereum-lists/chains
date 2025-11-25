@@ -1845,16 +1845,16 @@
   "faucets": [],
   "infoURL": "https://prodax.io/"
 }, {
-  "name": "Monad Mainnet",
+  "name": "Monad",
   "chainId": 143,
   "shortName": "mon",
   "networkId": 143,
   "nativeCurrency": {
-    "name": "MON Token",
+    "name": "Monad",
     "symbol": "MON",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.monad.xyz"],
   "faucets": [],
   "infoURL": "https://monad.xyz"
 }, {
