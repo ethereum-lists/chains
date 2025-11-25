@@ -1,33 +1,36 @@
 {
-  "name": "ZetaChain Athens 3 Testnet",
+  "name": "ZetaChain Testnet",
   "chain": "ZetaChain",
   "icon": "zetachain",
   "rpc": [
     "https://zetachain-athens-evm.blockpi.network/v1/rpc/public",
-    "wss://zetachain-athens.blockpi.network/rpc/v1/public/websocket",
-    "https://zetachain-testnet-archive.allthatnode.com:8545"
+    "https://zetachain-testnet.public.blastapi.io",
+    "https://zetachain-athens.g.allthatnode.com/archive/evm",
+    "https://7001.rpc.thirdweb.com",
+    "https://zeta-chain-testnet.drpc.org"
   ],
-
-  "faucets": ["https://labs.zetachain.com/get-zeta"],
+  "faucets": [
+    "https://www.zetachain.com/docs/reference/apps/get-testnet-zeta/"
+  ],
   "nativeCurrency": {
     "name": "Zeta",
     "symbol": "ZETA",
     "decimals": 18
   },
   "infoURL": "https://zetachain.com/docs",
-  "shortName": "zetachain-athens",
+  "shortName": "zetachain-testnet",
   "chainId": 7001,
   "networkId": 7001,
   "slip44": 1,
   "status": "active",
   "explorers": [
     {
-      "name": "ZetaChain Athens Testnet Explorer",
-      "url": "https://athens3.explorer.zetachain.com",
+      "name": "ZetaScan",
+      "url": "https://athens.explorer.zetachain.com",
       "standard": "none"
     },
     {
-      "name": "blockscout",
+      "name": "Blockscout",
       "url": "https://zetachain-athens-3.blockscout.com",
       "icon": "blockscout",
       "standard": "EIP3091"

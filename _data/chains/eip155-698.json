@@ -1,0 +1,34 @@
+{
+  "name": "Matchain",
+  "chain": "Matchain",
+  "icon": "matchain",
+  "rpc": ["https://rpc.matchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BNB",
+    "symbol": "BNB",
+    "decimals": 18
+  },
+  "infoURL": "https://www.matchain.io",
+  "shortName": "Matchain",
+  "chainId": 698,
+  "networkId": 698,
+  "slip44": 714,
+  "explorers": [
+    {
+      "name": "Matchscan",
+      "url": "https://matchscan.io",
+      "icon": "matchain",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-56",
+    "bridges": [
+      {
+        "url": "https://bnb-bridge.matchain.io"
+      }
+    ]
+  }
+}

@@ -2,23 +2,35 @@
   "name": "Silicon zkEVM",
   "title": "Silicon zkEVM Mainnet",
   "chain": "Silicon",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.silicon.network",
+    "https://silicon-mainnet.nodeinfra.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "",
+  "infoURL": "https://docs.silicon.network",
   "shortName": "silicon-zk",
   "chainId": 2355,
   "networkId": 2355,
   "icon": "silicon",
-  "explorers": [],
+  "explorers": [
+    {
+      "name": "siliconscope",
+      "url": "https://scope.silicon.network",
+      "standard": "EIP3091"
+    }
+  ],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": []
+    "bridges": [
+      { "url": "https://bridge.silicon.network" },
+      { "url": "https://bridge.orbitchain.io" }
+    ]
   },
-  "status": "incubating"
+  "status": "active"
 }

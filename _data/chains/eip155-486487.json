@@ -1,0 +1,23 @@
+{
+  "name": "Gobbl Testnet",
+  "chain": "Gobbl Testnet",
+  "rpc": ["https://rpc.gobbl.io"],
+  "faucets": ["https://faucet.gobbl.io"],
+  "nativeCurrency": {
+    "name": "Gobbl Token",
+    "symbol": "GOBBL",
+    "decimals": 18
+  },
+  "infoURL": "https://www.gobbl.io/",
+  "shortName": "gbl-testnet",
+  "chainId": 486487,
+  "networkId": 486487,
+  "icon": "gobbl",
+  "explorers": [
+    {
+      "name": "Gobbl Testnet Explorer",
+      "url": "https://explorer.gobbl.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

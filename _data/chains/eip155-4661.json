@@ -1,0 +1,32 @@
+{
+  "name": "AppChain Testnet",
+  "chain": "AppChain Testnet",
+  "rpc": [
+    "https://appchaintestnet.rpc.caldera.xyz/http",
+    "wss://appchaintestnet.rpc.caldera.xyz/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://appchain.xyz",
+  "shortName": "appchaintestnet",
+  "chainId": 4661,
+  "networkId": 4661,
+  "icon": "appchain",
+  "explorers": [
+    {
+      "name": "AppChain Testnet Explorer",
+      "url": "https://appchaintestnet.explorer.caldera.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "https://appchaintestnet.bridge.caldera.xyz" }]
+  }
+}

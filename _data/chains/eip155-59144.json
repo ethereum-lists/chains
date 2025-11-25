@@ -6,7 +6,9 @@
     "https://rpc.linea.build",
     "wss://rpc.linea.build",
     "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}",
-    "wss://linea-mainnet.infura.io/ws/v3/${INFURA_API_KEY}"
+    "wss://linea-mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
+    "https://linea-rpc.publicnode.com",
+    "wss://linea-rpc.publicnode.com"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -2,14 +2,16 @@ name: Run prettier check
 
 on:
   push:
+  pull_request:
+  merge_group:
 
 jobs:
   prettier:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo
-        uses: actions/checkout@v2
-      - uses: actions/cache@v2
+        uses: actions/checkout@v4.2.2
+      - uses: actions/cache@v4
         name: Configure npm caching
         with:
           path: ~/.npm
