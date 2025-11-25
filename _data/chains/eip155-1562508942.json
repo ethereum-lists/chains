@@ -1,11 +1,11 @@
 {
   "name": "SKALE Base",
   "chain": "skale-base",
-  "icon": "skale",
   "rpc": [
     "https://skale-base.skalenodes.com/v1/base",
     "wss://skale-base.skalenodes.com/v1/ws/base"
   ],
+  "faucets": ["http://base-sepolia-faucet.skale.space"],
   "nativeCurrency": {
     "name": "Credits",
     "symbol": "CREDIT",
@@ -18,7 +18,7 @@
   "explorers": [
     {
       "name": "Blockscout",
-      "url": "https://skale-base-explorer.skalenodes.com/",
+      "url": "https://skale-base-explorer.skalenodes.com",
       "standard": "EIP3091"
     }
   ]
