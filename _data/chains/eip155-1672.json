@@ -1,0 +1,16 @@
+{
+    "name": "Pharos Mainnet",
+    "chain": "Pharos",
+    "rpc": ["https://rpc.pharos.xyz"],
+    "nativeCurrency": {
+      "name": "PROS",
+      "symbol": "PROS",
+      "decimals": 18
+    },
+    "infoURL": "https://pharosnetwork.xyz/",
+    "shortName": "pharos",
+    "chainId": 1672,
+    "networkId": 1672,
+    "status": "active"
+  }
+  
