@@ -28183,6 +28183,19 @@
   "faucets": ["https://faucet.electroneum.com"],
   "infoURL": "https://electroneum.com"
 }, {
+  "name": "Reactive Lasna",
+  "chainId": 5318007,
+  "shortName": "lreact",
+  "networkId": 5318007,
+  "nativeCurrency": {
+    "name": "Lasna React",
+    "symbol": "lREACT",
+    "decimals": 18
+  },
+  "rpc": ["https://lasna-rpc.rnk.dev"],
+  "faucets": ["https://dev.reactive.network/reactive-mainnet#get-testnet-react"],
+  "infoURL": "https://reactive.network"
+}, {
   "name": "Reactive Kopli",
   "chainId": 5318008,
   "shortName": "kreact",
