@@ -2,12 +2,7 @@
   "name": "Xone Testnet",
   "chain": "XOC",
   "icon": "xone_test",
-  "rpc": [
-    "https://rpc-testnet.xone.plus",
-    "https://rpc-testnet.xone.org",
-    "https://rpc-testnet.knight.center",
-    "wss://rpc-testnet.xone.org"
-  ],
+  "rpc": ["https://rpc-testnet.xone.plus", "https://rpc-testnet.xone.org", "https://rpc-testnet.knight.center", "wss://rpc-testnet.xone.org"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": ["https://faucet.xone.org/"],
   "nativeCurrency": {
@@ -16,7 +11,7 @@
     "decimals": 18
   },
   "infoURL": "https://xone.org",
-  "shortName": "txoc",
+  "shortName": "XOC",
   "chainId": 33772211,
   "networkId": 33772211,
   "explorers": [
