@@ -1,0 +1,14 @@
+{
+  "name": "Kasplex zkEVM Testnet",
+  "chain": "KASPLEX",
+  "rpc": ["https://rpc.kasplextest.xyz"],
+  "nativeCurrency": {
+    "name": "KAS",
+    "symbol": "KAS",
+    "decimals": 18
+  },
+  "infoURL": "https://kasplex.org/",
+  "shortName": "kasplex",
+  "chainId": 167012,
+  "networkId": 167012
+}
