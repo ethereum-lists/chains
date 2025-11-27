@@ -1,0 +1,22 @@
+{
+  "name": "Bitroot Testnet",
+  "chain": "Bitroot",
+  "rpc": ["https://test-rpc.bitroot.co"],
+  "faucets": ["https://faucet.bitroot.co"],
+  "nativeCurrency": {
+    "name": "BRT",
+    "symbol": "brt",
+    "decimals": 18
+  },
+  "infoURL": "https://www.bitroot.co",
+  "shortName": "brt-testnet",
+  "chainId": 15885,
+  "networkId": 15885,
+  "explorers": [
+    {
+      "name": "testnet-scan",
+      "url": "https://test-scan.bitroot.co",
+      "standard": "EIP3091"
+    }
+  ]
+}

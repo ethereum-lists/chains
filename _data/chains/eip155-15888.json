@@ -1,0 +1,22 @@
+{
+  "name": "Bitroot Network",
+  "chain": "Bitroot",
+  "rpc": ["https://rpc.bitroot.co"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BRT",
+    "symbol": "brt",
+    "decimals": 18
+  },
+  "infoURL": "https://www.bitroot.co",
+  "shortName": "brt",
+  "chainId": 15888,
+  "networkId": 15888,
+  "explorers": [
+    {
+      "name": "brt-scan",
+      "url": "https://scan.bitroot.co",
+      "standard": "EIP3091"
+    }
+  ]
+}
