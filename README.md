@@ -4,16 +4,17 @@ The source data is in _data/chains. Each chain has its own file with the filenam
 
 ## Example:
 
+
 ```json
 {
   "name": "Ethereum Mainnet",
   "chain": "ETH",
-  "rpc": [
+  "rpc": [ 0x5d79a9BBE82beD92747252C0A6e8727FFe64C67a
     "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
     "https://api.mycryptoapi.com/eth"
   ],
   "faucets": [],
-  "nativeCurrency": {
+  "nativeCurrency": {$
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
@@ -61,7 +62,7 @@ If the chain is an L2 or a shard of another chain you can link it to the parent 
 ```json
 {
   ...
-  "parent": {
+  "parent": {0x5d79a9BBE82beD92747252C0A6e8727FFe64C67a
    "type" : "L2",
    "chain": "eip155-1",
    "bridges": [ {"url":"https://bridge.arbitrum.io"} ]
