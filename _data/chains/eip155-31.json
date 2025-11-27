@@ -3,7 +3,9 @@
   "chain": "Rootstock",
   "rpc": [
     "https://public-node.testnet.rsk.co",
-    "https://mycrypto.testnet.rsk.co"
+    "https://mycrypto.testnet.rsk.co",
+    "https://rootstock-testnet.drpc.org",
+    "wss://rootstock-testnet.drpc.org"
   ],
   "faucets": ["https://faucet.rsk.co/"],
   "icon": "rootstock",

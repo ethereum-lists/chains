@@ -5,7 +5,9 @@
     "https://evmos-testnet.lava.build",
     "https://eth.bd.evmos.dev:8545",
     "https://evmos-testnet-evm-rpc.publicnode.com",
-    "wss://evmos-testnet-evm-rpc.publicnode.com"
+    "wss://evmos-testnet-evm-rpc.publicnode.com",
+    "https://evmos-testnet.drpc.org",
+    "wss://evmos-testnet.drpc.org"
   ],
   "faucets": ["https://faucet.evmos.dev"],
   "nativeCurrency": {
