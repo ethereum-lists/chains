@@ -1,16 +1,24 @@
 {
   "name": "Phala Network",
-  "chain": "ETH",
-  "rpc": [],
+  "chain": "PHA",
+  "rpc": ["https://rpc.phala.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "https://phala.network",
-  "shortName": "phala",
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://phala.com",
+  "shortName": "pha",
+  "icon": "phala",
   "chainId": 2035,
   "networkId": 2035,
-  "status": "incubating"
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://explorer.phala.network",
+      "standard": "EIP3091"
+    }
+  ]
 }
