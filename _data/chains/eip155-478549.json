@@ -1,0 +1,26 @@
+{
+  "name": "MintraxChain Mainnet",
+  "chain": "MTX",
+  "rpc": [
+    "https://rpc.mintrax.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Mintrax",
+    "symbol": "MTX",
+    "decimals": 18
+  },
+  "infoURL": "https://mintrax.network",
+  "shortName": "mtx",
+  "chainId": 478549,
+  "networkId": 478549,
+  "icon": "mintrax",
+  "explorers": [
+    {
+      "name": "mintrax-explorer",
+      "url": "https://explorer.mintrax.network",
+      "icon": "mintrax",
+      "standard": "EIP3091"
+    }
+  ]
+}
