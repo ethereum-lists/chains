@@ -1,0 +1,27 @@
+{
+  "name": "PlatON Dev Testnet",
+  "chain": "PlatON",
+  "rpc": [
+    "https://devnet3openapi.platon.network/rpc",
+    "wss://devnet3openapi.platon.network/ws"
+  ],
+  "faucets": ["https://devnet3faucet.platon.network/faucet"],
+  "nativeCurrency": {
+    "name": "LAT",
+    "symbol": "lat",
+    "decimals": 18
+  },
+  "infoURL": "https://www.platon.network",
+  "shortName": "platondev3",
+  "chainId": 20250407,
+  "networkId": 1,
+  "slip44": 1,
+  "icon": "platon",
+  "explorers": [
+    {
+      "name": "PlatON devnet explorer",
+      "url": "https://devnet3scan.platon.network",
+      "standard": "none"
+    }
+  ]
+}
