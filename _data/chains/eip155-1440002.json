@@ -2,7 +2,7 @@
   "name": "XRPL EVM Sidechain Devnet",
   "chain": "XRPLEVM Devnet",
   "icon": "xrplevm",
-  "rpc": ["https://rpc.xrplevm.org", "https://ws.xrplevm.org"],
+  "rpc": ["https://rpc.devnet.xrplevm.org", "wss://ws.devnet.xrplevm.org"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": ["https://faucet.xrplevm.org"],
   "nativeCurrency": {
