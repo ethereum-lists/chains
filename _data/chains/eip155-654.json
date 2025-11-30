@@ -13,6 +13,8 @@
   "chainId": 654,
   "networkId": 654,
   "icon": "kalichain",
+  "deprecated": true,
+  "deprecationNote": "This chain ID has been replaced by chainId 6533 (Kalichain Subnet)",
   "explorers": [
     {
       "name": "kalichain explorer",
