@@ -1,9 +1,7 @@
 {
   "name": "Kalichain Subnet",
   "chain": "Kalichain",
-  "rpc": [
-    "https://subnets.avax.network/kalichain/mainnet/rpc"
-  ],
+  "rpc": ["https://subnets.avax.network/kalichain/mainnet/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Kalis",
