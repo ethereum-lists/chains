@@ -1,0 +1,34 @@
+{
+  "name": "Kalichain",
+  "chain": "Kalichain",
+  "rpc": [
+    "https://subnets.avax.network/kalichain/mainnet/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Kalis",
+    "symbol": "KALIS",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://kalichain.com",
+  "shortName": "kalis",
+  "chainId": 6533,
+  "networkId": 6533,
+  "icon": "kalichain",
+  "explorers": [
+    {
+      "name": "Kalichain Explorer",
+      "url": "https://scan.kalichain.com",
+      "icon": "kalichain",
+      "standard": "EIP3091"
+    }
+  ]
+}
