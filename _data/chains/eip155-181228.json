@@ -1,7 +1,6 @@
 {
   "name": "HPP Sepolia Testnet",
   "chain": "ETH",
-  "icon": "hpp",
   "rpc": ["https://sepolia.hpp.io"],
   "faucets": ["https://faucet.conduit.xyz"],
   "nativeCurrency": {
@@ -13,6 +12,7 @@
   "shortName": "hpp-sepolia",
   "chainId": 181228,
   "networkId": 181228,
+  "icon": "hpp",
   "explorers": [
     {
       "name": "HPP Sepolia Explorer",
@@ -20,5 +20,14 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [
+      {
+        "url": "https://portal.arbitrum.io/bridge"
+      }
+    ]
+  }
 }
