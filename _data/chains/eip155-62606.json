@@ -1,24 +1,24 @@
 {
-  "name": "Olympus Explorer",
-  "chain": "OLYMPUS",
-  "icon": "olym",
-  "rpc": ["https://mainnet-rpc.olympusexplorer.io"],
+  "name": "Apollo Mainnet",
+  "chain": "APOLLO",
+  "icon": "apollo",
+  "rpc": ["https://mainnet-rpc.apolloscan.io"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Olympus",
-    "symbol": "OLYM",
+    "name": "Apollo",
+    "symbol": "APOLLO",
     "decimals": 18
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "infoURL": "https://docs.olympusexplorer.io",
-  "shortName": "OLYM",
+  "infoURL": "https://docs.apolloscan.io",
+  "shortName": "APOLLO",
   "chainId": 62606,
   "networkId": 62606,
   "explorers": [
     {
-      "name": "Olympus Explorer",
-      "url": "https://olympusexplorer.io",
-      "icon": "olym",
+      "name": "Apollo Mainnet",
+      "url": "https://apolloscan.io",
+      "icon": "apollo",
       "standard": "EIP3091"
     }
   ]
