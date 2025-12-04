@@ -22021,6 +22021,19 @@
   "faucets": [],
   "infoURL": "https://cosmicchain.site"
 }, {
+  "name": "Henesys",
+  "chainId": 68414,
+  "shortName": "nxpc",
+  "networkId": 68414,
+  "nativeCurrency": {
+    "name": "NEXPACE",
+    "symbol": "NXPC",
+    "decimals": 18
+  },
+  "rpc": ["https://henesys-rpc.msu.io"],
+  "faucets": [],
+  "infoURL": "https://nexpace.io"
+}, {
   "name": "DM2 Verse Mainnet",
   "chainId": 68770,
   "shortName": "dm2",
