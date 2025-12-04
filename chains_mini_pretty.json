@@ -12466,6 +12466,19 @@
   "faucets": [],
   "infoURL": "https://pikaminter.com"
 }, {
+  "name": "Denergy Testnet",
+  "chainId": 4442,
+  "shortName": "den-testnet",
+  "networkId": 4442,
+  "nativeCurrency": {
+    "name": "WATT",
+    "symbol": "WATT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.denergytestnet.com/"],
+  "faucets": [],
+  "infoURL": "https://d.energy/"
+}, {
   "name": "Htmlcoin Mainnet",
   "chainId": 4444,
   "shortName": "html",
@@ -25946,6 +25959,19 @@
   "rpc": ["https://dgs-rpc.digitsoul.co.th"],
   "faucets": [],
   "infoURL": ""
+}, {
+  "name": "Denergy Network",
+  "chainId": 369369,
+  "shortName": "den-mainnet",
+  "networkId": 369369,
+  "nativeCurrency": {
+    "name": "WATT",
+    "symbol": "WATT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.d.energy/"],
+  "faucets": [],
+  "infoURL": "https://d.energy/"
 }, {
   "name": "HAPchain Testnet",
   "chainId": 373737,
