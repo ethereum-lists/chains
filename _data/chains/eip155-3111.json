@@ -1,0 +1,24 @@
+{
+  "name": "Alpha Chain Mainnet",
+  "chain": "Alpha Chain",
+  "rpc": ["https://rpc.goalpha.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.alphatoken.com/AlphaChain/about-alpha-chain",
+  "shortName": "alpha",
+  "chainId": 3111,
+  "networkId": 3111,
+  "slip44": 1,
+  "icon": "alphachain",
+  "explorers": [
+    {
+      "name": "Alpha Chain Scan",
+      "url": "https://scan.goalpha.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
