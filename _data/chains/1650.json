@@ -1,0 +1,26 @@
+{
+  "name": "IIC Blockchain",
+  "chainId": 1650,
+  "shortName": "iic",
+  "chain": "IIC",
+  "networkId": 1650,
+  "icon": "ipfs://bafybeifopsblw3ljpxuuvx3ryrqpwhhlqmums7mnlg42khty4igvlebhqi",
+  "nativeCurrency": {
+    "name": "Saya Coin",
+    "symbol": "SAYA",
+    "decimals": 18
+  },
+  "rpc": [
+    "https://rpc.iic-blockchain.com"
+  ],
+  "faucets": [],
+  "infoURL": "https://metavtz.com",
+  "status": "active",
+  "explorers": [
+    {
+      "name": "IIC Scan",
+      "url": "https://scan.iic-blockchain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
