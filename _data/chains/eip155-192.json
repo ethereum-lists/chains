@@ -1,0 +1,24 @@
+{
+  "name": "Aeru",
+  "chain": "ARU",
+  "icon": "aru",
+  "rpc": ["https://rpc.aruscan.com", "wss://wss.aruscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Aeru",
+    "symbol": "ARU",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://atheru.org/",
+  "shortName": "aru",
+  "chainId": 192,
+  "networkId": 192,
+  "explorers": [
+    {
+      "name": "aruscan",
+      "url": "https://aruscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
