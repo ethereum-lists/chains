@@ -1,0 +1,25 @@
+{
+  "name": "NFB Chain",
+  "chain": "NFB",
+  "icon": "nfb",
+  "rpc": [
+    "http://nfb.nfzs.live:8545"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NFB",
+    "symbol": "NFB",
+    "decimals": 18
+  },
+  "infoURL": "http://nfb.nfzs.live",
+  "shortName": "nfb",
+  "chainId": 438843,
+  "networkId": 438843,
+  "explorers": [
+    {
+      "name": "NFB Explorer",
+      "url": "http://nfb.nfzs.live:8080",
+      "standard": "none"
+    }
+  ]
+}
