@@ -4302,6 +4302,19 @@
   "faucets": [],
   "infoURL": "https://world.org/world-chain"
 }, {
+  "name": "Camp Network Mainnet",
+  "chainId": 484,
+  "shortName": "CampMainnet",
+  "networkId": 484,
+  "nativeCurrency": {
+    "name": "Camp",
+    "symbol": "CAMP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.camp.raas.gelato.cloud"],
+  "faucets": [],
+  "infoURL": "https://docs.campnetwork.xyz"
+}, {
   "name": "Standard Mainnet",
   "chainId": 486,
   "shortName": "stnd",
