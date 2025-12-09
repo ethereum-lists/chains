@@ -17302,6 +17302,32 @@
   "faucets": ["https://faucet.sardisnetwork.com"],
   "infoURL": "https://mysardis.com"
 }, {
+  "name": "ARK Mainnet",
+  "chainId": 11811,
+  "shortName": "ark",
+  "networkId": 11811,
+  "nativeCurrency": {
+    "name": "ARK Token",
+    "symbol": "ARK",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.ark.io"],
+  "faucets": [],
+  "infoURL": "https://ark.io"
+}, {
+  "name": "ARK Testnet",
+  "chainId": 11812,
+  "shortName": "ark-testnet",
+  "networkId": 11812,
+  "nativeCurrency": {
+    "name": "DARK Token",
+    "symbol": "DARK",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.mainsailhq.com/rpc"],
+  "faucets": ["https://faucet.mainsailhq.com"],
+  "infoURL": "https://ark.io"
+}, {
   "name": "Artela Mainnet",
   "chainId": 11820,
   "shortName": "artela-mainnet",
