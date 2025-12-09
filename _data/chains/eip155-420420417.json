@@ -1,0 +1,23 @@
+{
+  "name": "Polkadot Testnet",
+  "chain": "PAS",
+  "rpc": ["https://services.polkadothub-rpc.com/testnet"],
+  "faucets": ["https://faucet.polkadot.io/"],
+  "nativeCurrency": {
+    "name": "PAS",
+    "symbol": "PAS",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://polkadot.com",
+  "shortName": "pas",
+  "chainId": 420420417,
+  "networkId": 420420417,
+    "explorers": [
+    {
+      "name": "polkascan",
+      "url": "https://testnet.polkascan.io/",
+      "standard": "none"
+    }
+  ]
+}
