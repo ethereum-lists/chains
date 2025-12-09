@@ -28885,6 +28885,19 @@
   "faucets": [],
   "infoURL": "https://pepchain.io"
 }, {
+  "name": "Symbiosis",
+  "chainId": 13863860,
+  "shortName": "symbiosis",
+  "networkId": 13863860,
+  "nativeCurrency": {
+    "name": "Symbiosis",
+    "symbol": "SIS",
+    "decimals": 18
+  },
+  "rpc": ["https://symbiosis.calderachain.xyz/http"],
+  "faucets": [],
+  "infoURL": "https://symbiosis.hub.caldera.xyz"
+}, {
   "name": "Anduschain Mainnet",
   "chainId": 14288640,
   "shortName": "anduschain-mainnet",
