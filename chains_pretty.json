@@ -3952,6 +3952,27 @@
   "chainId": 191,
   "networkId": 191
 }, {
+  "name": "Redmansion Chain",
+  "chain": "RMC",
+  "icon": "redmansion",
+  "rpc": ["https://redmansion.io/srpc/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Redmansion Coin",
+    "symbol": "RMC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.redmansion.io",
+  "shortName": "rmc",
+  "chainId": 192,
+  "networkId": 192,
+  "explorers": [{
+    "name": "Redmansion explorer",
+    "url": "https://redmansion.io",
+    "icon": "redmansion",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Crypto Emergency",
   "chain": "CEM",
   "rpc": ["https://cemchain.com"],
@@ -20701,14 +20722,13 @@
     "standard": "none"
   }]
 }, {
-  "name": "MST Chain",
-  "title": "MST Chain",
+  "name": "MST Mainnet",
   "chain": "MST",
-  "rpc": ["https://mariorpc.mstblockchain.com", "https://craftrpc.mstblockchain.com"],
+  "rpc": ["https://mariorpc.mstblockchain.com", "https://craftrpc.mstblockchain.com", "wss://mariorpc.mstblockchain.com", "wss://craftrpc.mstblockchain.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "MST",
-    "symbol": "MST",
+    "name": "MST Native Coin",
+    "symbol": "MSTC",
     "decimals": 18
   },
   "infoURL": "https://mstblockchain.com",
@@ -20718,7 +20738,7 @@
   "slip44": 4646,
   "icon": "mst",
   "explorers": [{
-    "name": "MST Mainnet Scan",
+    "name": "mstscan",
     "url": "https://mstscan.com",
     "standard": "EIP3091"
   }]

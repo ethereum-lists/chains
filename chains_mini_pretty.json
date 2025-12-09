@@ -2456,6 +2456,19 @@
   "faucets": [],
   "infoURL": "https://filefilego.com"
 }, {
+  "name": "Redmansion Chain",
+  "chainId": 192,
+  "shortName": "rmc",
+  "networkId": 192,
+  "nativeCurrency": {
+    "name": "Redmansion Coin",
+    "symbol": "RMC",
+    "decimals": 18
+  },
+  "rpc": ["https://redmansion.io/srpc/"],
+  "faucets": [],
+  "infoURL": "https://www.redmansion.io"
+}, {
   "name": "Crypto Emergency",
   "chainId": 193,
   "shortName": "cem",
@@ -12570,16 +12583,16 @@
   "faucets": [],
   "infoURL": "https://www.verylabs.io/"
 }, {
-  "name": "MST Chain",
+  "name": "MST Mainnet",
   "chainId": 4646,
   "shortName": "mst",
   "networkId": 4646,
   "nativeCurrency": {
-    "name": "MST",
-    "symbol": "MST",
+    "name": "MST Native Coin",
+    "symbol": "MSTC",
     "decimals": 18
   },
-  "rpc": ["https://mariorpc.mstblockchain.com", "https://craftrpc.mstblockchain.com"],
+  "rpc": ["https://mariorpc.mstblockchain.com", "https://craftrpc.mstblockchain.com", "wss://mariorpc.mstblockchain.com", "wss://craftrpc.mstblockchain.com"],
   "faucets": [],
   "infoURL": "https://mstblockchain.com"
 }, {
