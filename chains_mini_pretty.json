@@ -23100,6 +23100,19 @@
   "faucets": [],
   "infoURL": "https://docs.inoai.info/"
 }, {
+  "name": "Cycle Network Mainnet Frigate",
+  "chainId": 88688,
+  "shortName": "cyclef",
+  "networkId": 88688,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://frigate-rpc-mainnet.cyclenetwork.io"],
+  "faucets": [],
+  "infoURL": "https://www.cyclenetwork.io/"
+}, {
   "name": "ZKasino Mainnet",
   "chainId": 88800,
   "shortName": "ZKasino",

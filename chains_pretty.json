@@ -38218,6 +38218,21 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Cycle Network Mainnet Frigate",
+  "chain": "ETH",
+  "rpc": ["https://frigate-rpc-mainnet.cyclenetwork.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.cyclenetwork.io/",
+  "shortName": "cyclef",
+  "chainId": 88688,
+  "networkId": 88688,
+  "icon": "cycle"
+}, {
   "name": "ZKasino Mainnet",
   "chain": "ZKasino",
   "rpc": ["https://rpc.zkas.zeeve.net"],
