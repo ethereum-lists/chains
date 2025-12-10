@@ -23852,6 +23852,48 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Pruv Testnet",
+  "chain": "PRUV Testnet",
+  "icon": "pruv",
+  "rpc": ["https://rpc.testnet.pruv.network", "wss://rpc.testnet.pruv.network"],
+  "faucets": ["https://faucet.testnet.pruv.network"],
+  "nativeCurrency": {
+    "name": "Pruv",
+    "symbol": "PRUV",
+    "decimals": 18
+  },
+  "infoURL": "https://pruv.gitbook.io/pruv-network/",
+  "shortName": "pruvtestnet",
+  "chainId": 7336,
+  "networkId": 7336,
+  "explorers": [{
+    "name": "Pruv Testnet Explorer",
+    "url": "https://explorer.testnet.pruv.network",
+    "icon": "pruv",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Pruv Mainnet",
+  "chain": "PRUV Mainnet",
+  "icon": "pruv",
+  "rpc": ["https://rpc.pruv.network", "wss://rpc.pruv.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Pruv",
+    "symbol": "PRUV",
+    "decimals": 18
+  },
+  "infoURL": "https://pruv.gitbook.io/pruv-network/",
+  "shortName": "pruvmainnet",
+  "chainId": 7337,
+  "networkId": 7337,
+  "explorers": [{
+    "name": "Pruv Explorer",
+    "url": "https://explorer.pruv.network",
+    "icon": "pruv",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Shyft Mainnet",
   "chain": "SHYFT",
   "icon": "shyft",

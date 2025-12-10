@@ -14455,6 +14455,32 @@
   "faucets": [],
   "infoURL": "https://horizen.io/"
 }, {
+  "name": "Pruv Testnet",
+  "chainId": 7336,
+  "shortName": "pruvtestnet",
+  "networkId": 7336,
+  "nativeCurrency": {
+    "name": "Pruv",
+    "symbol": "PRUV",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.pruv.network", "wss://rpc.testnet.pruv.network"],
+  "faucets": ["https://faucet.testnet.pruv.network"],
+  "infoURL": "https://pruv.gitbook.io/pruv-network/"
+}, {
+  "name": "Pruv Mainnet",
+  "chainId": 7337,
+  "shortName": "pruvmainnet",
+  "networkId": 7337,
+  "nativeCurrency": {
+    "name": "Pruv",
+    "symbol": "PRUV",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.pruv.network", "wss://rpc.pruv.network"],
+  "faucets": [],
+  "infoURL": "https://pruv.gitbook.io/pruv-network/"
+}, {
   "name": "Shyft Mainnet",
   "chainId": 7341,
   "shortName": "shyft",
