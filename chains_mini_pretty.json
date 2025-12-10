@@ -14117,6 +14117,19 @@
   "faucets": [],
   "infoURL": "https://nibiru.fi"
 }, {
+  "name": "billions-testnet",
+  "chainId": 6913,
+  "shortName": "billionstest",
+  "networkId": 6913,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://billions-testnet-rpc.eu-north-2.gateway.fm"],
+  "faucets": ["https://billions-testnet-faucet.eu-north-2.gateway.fm"],
+  "infoURL": "https://billions.network"
+}, {
   "name": "Xylume TestNet",
   "chainId": 6934,
   "shortName": "xyl",
