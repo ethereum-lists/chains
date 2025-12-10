@@ -9944,6 +9944,19 @@
   "faucets": [],
   "infoURL": "https://docs.metaplayer.one/"
 }, {
+  "name": "Memento Testnet",
+  "chainId": 2129,
+  "shortName": "memento-testnet",
+  "networkId": 2129,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.memento.zeeve.online"],
+  "faucets": ["https://faucet.memento.zeeve.online"],
+  "infoURL": ""
+}, {
   "name": "BigShortBets Testnet",
   "chainId": 2136,
   "shortName": "bigsb_testnet",
@@ -27740,6 +27753,19 @@
   "rpc": ["https://node1.amchain.net"],
   "faucets": [],
   "infoURL": "https://hewe.io/"
+}, {
+  "name": "Wirex Pay Testnet",
+  "chainId": 1001996,
+  "shortName": "wirex-testnet",
+  "networkId": 1001996,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-dev.wirexpaychain.com"],
+  "faucets": ["https://faucet-dev.wirexpaychain.com"],
+  "infoURL": "https://docs.wirexpaychain.com/tech/wirex-pay-chain"
 }, {
   "name": "Naga Testnet",
   "chainId": 1008686,

@@ -16303,6 +16303,24 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Memento Testnet",
+  "chain": "Memento",
+  "rpc": ["https://rpc.memento.zeeve.online"],
+  "faucets": ["https://faucet.memento.zeeve.online"],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "",
+  "shortName": "memento-testnet",
+  "chainId": 2129,
+  "networkId": 2129,
+  "explorers": []
+}, {
   "name": "BigShortBets Testnet",
   "chain": "BIGSB Testnet",
   "rpc": ["https://test-market.bigsb.network", "wss://test-market.bigsb.network"],
@@ -46070,6 +46088,29 @@
   "explorers": [{
     "name": "AMCAmChain explorer",
     "url": "https://explorer.amchain.net",
+    "standard": "none"
+  }]
+}, {
+  "name": "Wirex Pay Testnet",
+  "chain": "WirexPay",
+  "icon": "wpay",
+  "rpc": ["https://rpc-dev.wirexpaychain.com"],
+  "faucets": ["https://faucet-dev.wirexpaychain.com"],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "https://docs.wirexpaychain.com/tech/wirex-pay-chain",
+  "shortName": "wirex-testnet",
+  "chainId": 1001996,
+  "networkId": 1001996,
+  "explorers": [{
+    "name": "Wirex Pay Testnet Explorer",
+    "url": "https://explorer-dev.wirexpaychain.com",
     "standard": "none"
   }]
 }, {
