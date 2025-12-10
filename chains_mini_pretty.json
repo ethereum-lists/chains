@@ -8358,6 +8358,19 @@
   "faucets": [],
   "infoURL": "http://thepivotal.xyz/"
 }, {
+  "name": "IIC Blockchain Testnet",
+  "chainId": 1650,
+  "shortName": "iic-testnet",
+  "networkId": 1650,
+  "nativeCurrency": {
+    "name": "Saya Coin",
+    "symbol": "SAYA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.iic-blockchain.com"],
+  "faucets": [],
+  "infoURL": "https://metavtz.com/"
+}, {
   "name": "Btachain",
   "chainId": 1657,
   "shortName": "bta",
