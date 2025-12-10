@@ -2,10 +2,7 @@
   "name": "OGORI",
   "chain": "ORI",
   "icon": "ogori",
-  "rpc": [
-    "https://rpc.ogori.one",
-    "https://harpc.ogori.vn:8545"
-  ],
+  "rpc": ["https://rpc.ogori.one", "https://harpc.ogori.vn:8545"],
   "faucets": [],
   "nativeCurrency": {
     "name": "OGORI",
@@ -19,7 +16,7 @@
   "slip44": 60,
   "explorers": [
     {
-      "name": "Ogori Explorer", 
+      "name": "Ogori Explorer",
       "url": "https://explorer.ogori.one",
       "standard": "blockscout"
     }
