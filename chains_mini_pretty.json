@@ -10126,6 +10126,19 @@
   "faucets": ["https://multiverse.moonsama.com/faucet"],
   "infoURL": "https://moonsama.com"
 }, {
+  "name": "Stable Testnet",
+  "chainId": 2201,
+  "shortName": "stable-testnet",
+  "networkId": 2201,
+  "nativeCurrency": {
+    "name": "gUSDT",
+    "symbol": "gUSDT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.stable.xyz"],
+  "faucets": ["https://faucet.stable.xyz"],
+  "infoURL": "https://stable.xyz"
+}, {
   "name": "Antofy Mainnet",
   "chainId": 2202,
   "shortName": "ABNm",
