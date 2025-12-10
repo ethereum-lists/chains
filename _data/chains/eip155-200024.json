@@ -1,0 +1,24 @@
+{
+  "name": "NitroGraph Testnet",
+  "chain": "NOS",
+  "rpc": ["https://rpc-testnet.nitrograph.foundation"],
+  "icon": "nitrograph",
+  "slip44": 1,
+  "faucets": ["https://faucet-testnet.nitrograph.foundation"],
+  "infoURL": "https://docs.nitrograph.com",
+  "chainId": 200024,
+  "networkId": 200024,
+  "shortName": "nitro-testnet",
+  "explorers": [
+    {
+      "url": "https://explorer-testnet.nitrograph.foundation",
+      "name": "NitroGraphTestnetInfo",
+      "standard": "EIP3091"
+    }
+  ],
+  "nativeCurrency": {
+    "name": "Nitro",
+    "symbol": "NOS",
+    "decimals": 18
+  }
+}
