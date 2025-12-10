@@ -12856,6 +12856,19 @@
   "faucets": [],
   "infoURL": "https://www.testnet.treasurenet.io"
 }, {
+  "name": "Somnia Mainnet",
+  "chainId": 5031,
+  "shortName": "SomniaMainnet",
+  "networkId": 5031,
+  "nativeCurrency": {
+    "name": "Somnia Mainnet",
+    "symbol": "SOMI",
+    "decimals": 18
+  },
+  "rpc": ["https://api.infra.mainnet.somnia.network"],
+  "faucets": [],
+  "infoURL": "https://somnia.network"
+}, {
   "name": "ONIGIRI Test Subnet",
   "chainId": 5039,
   "shortName": "onigiritest",
