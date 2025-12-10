@@ -20149,6 +20149,19 @@
   "faucets": [],
   "infoURL": "https://q.org/"
 }, {
+  "name": "AB Core Mainnet",
+  "chainId": 36888,
+  "shortName": "abcore",
+  "networkId": 36888,
+  "nativeCurrency": {
+    "name": "AB",
+    "symbol": "AB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.core.ab.org", "https://rpc1.core.ab.org"],
+  "faucets": [],
+  "infoURL": "https://ab.org"
+}, {
   "name": "Lens Testnet",
   "chainId": 37111,
   "shortName": "lens-sepolia",
