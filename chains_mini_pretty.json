@@ -27936,6 +27936,19 @@
   "faucets": [],
   "infoURL": "https://ata.network"
 }, {
+  "name": "XRPL EVM Sidechain",
+  "chainId": 1440000,
+  "shortName": "xrplevm",
+  "networkId": 1440000,
+  "nativeCurrency": {
+    "name": "XRP",
+    "symbol": "XRP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.xrplevm.org", "wss://ws.xrplevm.org"],
+  "faucets": ["https://faucet.xrplevm.org"],
+  "infoURL": "https://xrplevm.org"
+}, {
   "name": "XRPL EVM Sidechain Devnet",
   "chainId": 1440002,
   "shortName": "xrplevmdevnet",
@@ -27945,7 +27958,7 @@
     "symbol": "XRP",
     "decimals": 18
   },
-  "rpc": ["https://rpc.xrplevm.org", "https://ws.xrplevm.org"],
+  "rpc": ["https://rpc.devnet.xrplevm.org", "wss://ws.devnet.xrplevm.org"],
   "faucets": ["https://faucet.xrplevm.org"],
   "infoURL": "https://xrplevm.org"
 }, {
@@ -27958,7 +27971,7 @@
     "symbol": "XRP",
     "decimals": 18
   },
-  "rpc": ["https://rpc.testnet.xrplevm.org", "https://ws.testnet.xrplevm.org"],
+  "rpc": ["https://rpc.testnet.xrplevm.org", "wss://ws.testnet.xrplevm.org"],
   "faucets": ["https://faucet.xrplevm.org"],
   "infoURL": "https://xrplevm.org"
 }, {
