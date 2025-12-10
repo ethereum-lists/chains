@@ -13324,16 +13324,16 @@
   "faucets": [],
   "infoURL": "https://docs.egochain.org/"
 }, {
-  "name": "Saga",
+  "name": "SagaEVM",
   "chainId": 5464,
-  "shortName": "saga",
+  "shortName": "sagaevm",
   "networkId": 5464,
   "nativeCurrency": {
     "name": "gas",
     "symbol": "GAS",
     "decimals": 18
   },
-  "rpc": ["http://sagaevm-5464-1.jsonrpc.sagarpc.io"],
+  "rpc": ["https://sagaevm.jsonrpc.sagarpc.io"],
   "faucets": [],
   "infoURL": "https://www.saga.xyz"
 }, {
@@ -29521,6 +29521,19 @@
   "rpc": ["https://c.onical.org", "https://tx.aquacha.in/api"],
   "faucets": ["https://aquacha.in/faucet"],
   "infoURL": "https://aquachain.github.io"
+}, {
+  "name": "Autonity Mainnet",
+  "chainId": 65000000,
+  "shortName": "aut",
+  "networkId": 65000000,
+  "nativeCurrency": {
+    "name": "Auton",
+    "symbol": "ATN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.autonity-apis.com", "wss://rpc.autonity-apis.com", "https://autonity.rpc.web3cdn.network", "wss://autonity.rpc.web3cdn.network", "https://autonity.rpc.subquery.network/public", "wss://autonity.rpc.subquery.network/public"],
+  "faucets": [],
+  "infoURL": "https://autonity.org/"
 }, {
   "name": "Autonity Bakerloo (Thames) Testnet",
   "chainId": 65010000,

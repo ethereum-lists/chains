@@ -1983,14 +1983,6 @@
     "format": "png"
   }]
 }, {
-  "name": "saga",
-  "icons": [{
-    "url": "ipfs://bafkreieuaf4anwbg4s6ptuxszdn5e6q4eodbae2dmyglb4v2o7xbbxepte",
-    "width": 512,
-    "height": 512,
-    "format": "png"
-  }]
-}, {
   "name": "metachain",
   "icons": [{
     "url": "ipfs://QmUH2Ph2hW4upvevEAGCaSo7nd8nthqMx5RrHcrnNZ9Y3g",
@@ -5650,6 +5642,14 @@
   "name": "core",
   "icons": [{
     "url": "ipfs://QmdUgiGaD6fGjhb9x1NvfccvEBBFq2YHSm9yb8FNhpwHkW",
+    "width": 512,
+    "height": 512,
+    "format": "png"
+  }]
+}, {
+  "name": "sagaevm",
+  "icons": [{
+    "url": "ipfs://bafkreieuaf4anwbg4s6ptuxszdn5e6q4eodbae2dmyglb4v2o7xbbxepte",
     "width": 512,
     "height": 512,
     "format": "png"
