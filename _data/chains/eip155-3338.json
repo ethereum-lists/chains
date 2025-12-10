@@ -4,8 +4,15 @@
   "icon": "peaq",
   "rpc": [
     "https://quicknode1.peaq.xyz",
+    "wss://quicknode1.peaq.xyz",
     "https://quicknode2.peaq.xyz",
-    "https://quicknode3.peaq.xyz"
+    "wss://quicknode2.peaq.xyz",
+    "https://quicknode3.peaq.xyz",
+    "wss://quicknode3.peaq.xyz",
+    "https://peaq.api.onfinality.io/public",
+    "wss://peaq.api.onfinality.io/public-ws",
+    "https://peaq-rpc.publicnode.com",
+    "wss://peaq-rpc.publicnode.com"
   ],
   "faucets": [],
   "nativeCurrency": {
