@@ -41677,6 +41677,7 @@
 }, {
   "name": "R0AR Chain",
   "chain": "R0AR Chain",
+  "icon": "r0ar",
   "rpc": ["https://rpc-r0ar.io"],
   "faucets": [],
   "nativeCurrency": {
@@ -41691,6 +41692,7 @@
   "explorers": [{
     "name": "tracehawk",
     "url": "https://r0arscan.io",
+    "icon": "r0ar",
     "standard": "none"
   }]
 }, {
@@ -48439,6 +48441,7 @@
 }, {
   "name": "R0AR Testnet",
   "chain": "R0AR Testnet",
+  "icon": "r0ar",
   "rpc": ["https://testnet.rpc-r0ar.io"],
   "faucets": ["https://testnet.r0arfaucet.io"],
   "nativeCurrency": {
@@ -48453,6 +48456,7 @@
   "explorers": [{
     "name": "tracehawk",
     "url": "https://testnet.r0arscan.io",
+    "icon": "r0ar",
     "standard": "none"
   }]
 }, {
