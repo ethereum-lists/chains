@@ -11903,7 +11903,7 @@
     "symbol": "XOC",
     "decimals": 18
   },
-  "rpc": ["https://rpc.xone.org", "wss://rpc-wss.xone.org"],
+  "rpc": ["https://rpc.xone.org", "https://rpc-node-1.xone.org", "https://rpc-node-2.xone.org", "https://rpc-node-3.xone.org", "https://rpc-node-4.xone.org", "wss://rpc.xone.org"],
   "faucets": ["https://faucet.xone.org/"],
   "infoURL": "https://xone.org"
 }, {
@@ -29654,14 +29654,14 @@
 }, {
   "name": "Xone Testnet",
   "chainId": 33772211,
-  "shortName": "txoc",
+  "shortName": "tXOC",
   "networkId": 33772211,
   "nativeCurrency": {
     "name": "Xone Coin",
     "symbol": "XOC",
     "decimals": 18
   },
-  "rpc": ["https://rpc-testnet.xone.plus", "https://rpc-testnet.xone.org", "https://rpc-testnet.knight.center", "wss://wss-rpc-testnet.xone.org"],
+  "rpc": ["https://rpc-testnet.xone.plus", "https://rpc-testnet.xone.org", "https://rpc-testnet.knight.center", "wss://rpc-testnet.xone.org"],
   "faucets": ["https://faucet.xone.org/"],
   "infoURL": "https://xone.org"
 }, {

@@ -19514,8 +19514,8 @@
 }, {
   "name": "Xone Mainnet",
   "chain": "XOC",
-  "icon": "Xonechain",
-  "rpc": ["https://rpc.xone.org", "wss://rpc-wss.xone.org"],
+  "icon": "xone_main",
+  "rpc": ["https://rpc.xone.org", "https://rpc-node-1.xone.org", "https://rpc-node-2.xone.org", "https://rpc-node-3.xone.org", "https://rpc-node-4.xone.org", "wss://rpc.xone.org"],
   "features": [{
     "name": "EIP155"
   }, {
@@ -19532,9 +19532,9 @@
   "chainId": 3721,
   "networkId": 3721,
   "explorers": [{
-    "name": "Xonescan",
-    "url": "https://xscscan.com",
-    "icon": "Xonescan",
+    "name": "xone_main",
+    "url": "https://xonescan.com",
+    "icon": "xone_main",
     "standard": "EIP3091"
   }]
 }, {
@@ -49296,8 +49296,8 @@
 }, {
   "name": "Xone Testnet",
   "chain": "XOC",
-  "icon": "xone-test",
-  "rpc": ["https://rpc-testnet.xone.plus", "https://rpc-testnet.xone.org", "https://rpc-testnet.knight.center", "wss://wss-rpc-testnet.xone.org"],
+  "icon": "xone_test",
+  "rpc": ["https://rpc-testnet.xone.plus", "https://rpc-testnet.xone.org", "https://rpc-testnet.knight.center", "wss://rpc-testnet.xone.org"],
   "features": [{
     "name": "EIP155"
   }, {
@@ -49310,13 +49310,13 @@
     "decimals": 18
   },
   "infoURL": "https://xone.org",
-  "shortName": "txoc",
+  "shortName": "tXOC",
   "chainId": 33772211,
   "networkId": 33772211,
   "explorers": [{
-    "name": "testnet-xscscan",
-    "url": "https://testnet.xscscan.com",
-    "icon": "testnet-xscscan",
+    "name": "xone_test",
+    "url": "https://testnet.xonescan.com",
+    "icon": "xone_test",
     "standard": "EIP3091"
   }]
 }, {
