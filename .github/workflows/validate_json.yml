@@ -3,6 +3,7 @@ name: Check JSON Schema
 on:
   push:
   pull_request:
+  merge_group:
 
 jobs:
   validate_json:
