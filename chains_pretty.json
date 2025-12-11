@@ -18960,6 +18960,25 @@
   "slip44": 1,
   "status": "incubating"
 }, {
+  "name": "Edge",
+  "chain": "ETH",
+  "rpc": ["https://edge-mainnet.g.alchemy.com/public"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.edgex.exchange",
+  "shortName": "edge",
+  "chainId": 3343,
+  "networkId": 3343,
+  "explorers": [{
+    "name": "Alchemy Explorer",
+    "url": "https://edge-mainnet.explorer.alchemy.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Pentagon Chain",
   "chain": "Pentagon Chain",
   "rpc": ["https://rpc.pentagon.games"],
@@ -33072,6 +33091,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Edge Testnet",
+  "chain": "ETH",
+  "rpc": ["https://edge-testnet.g.alchemy.com/public"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.edgex.exchange",
+  "shortName": "edge-testnet",
+  "chainId": 33431,
+  "networkId": 33431,
+  "explorers": [{
+    "name": "Alchemy Explorer",
+    "url": "https://edge-testnet.explorer.alchemy.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Zilliqa 2 EVM devnet",
   "chain": "ZIL",
   "rpc": ["https://api.zq2-devnet.zilliqa.com"],
@@ -41436,6 +41474,27 @@
   "explorers": [{
     "name": "Lit Chronicle Loa Explorer",
     "url": "https://loa-explorer.litprotocol.com",
+    "icon": "lit",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Lit Chain Mainnet",
+  "chain": "LITKEY",
+  "icon": "lit",
+  "rpc": ["https://lit-chain-rpc.litprotocol.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lit Protocol",
+    "symbol": "LITKEY",
+    "decimals": 18
+  },
+  "infoURL": "https://litprotocol.com",
+  "shortName": "lit",
+  "chainId": 175200,
+  "networkId": 175200,
+  "explorers": [{
+    "name": "Lit Chain Explorer",
+    "url": "https://lit-chain-explorer.litprotocol.com",
     "icon": "lit",
     "standard": "EIP3091"
   }]

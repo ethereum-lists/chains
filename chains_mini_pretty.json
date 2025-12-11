@@ -11543,6 +11543,19 @@
   "faucets": [],
   "infoURL": "https://ethstorage.io/"
 }, {
+  "name": "Edge",
+  "chainId": 3343,
+  "shortName": "edge",
+  "networkId": 3343,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://edge-mainnet.g.alchemy.com/public"],
+  "faucets": [],
+  "infoURL": "https://www.edgex.exchange"
+}, {
   "name": "Pentagon Chain",
   "chainId": 3344,
   "shortName": "PentagonChain",
@@ -20110,6 +20123,19 @@
   "faucets": [],
   "infoURL": "https://slingshotdao.com"
 }, {
+  "name": "Edge Testnet",
+  "chainId": 33431,
+  "shortName": "edge-testnet",
+  "networkId": 33431,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://edge-testnet.g.alchemy.com/public"],
+  "faucets": [],
+  "infoURL": "https://www.edgex.exchange"
+}, {
   "name": "Zilliqa 2 EVM devnet",
   "chainId": 33469,
   "shortName": "zq2-devnet",
@@ -24996,6 +25022,19 @@
   },
   "rpc": ["https://loa-rpc.litprotocol.com"],
   "faucets": ["https://developer.litprotocol.com/support/intro"],
+  "infoURL": "https://litprotocol.com"
+}, {
+  "name": "Lit Chain Mainnet",
+  "chainId": 175200,
+  "shortName": "lit",
+  "networkId": 175200,
+  "nativeCurrency": {
+    "name": "Lit Protocol",
+    "symbol": "LITKEY",
+    "decimals": 18
+  },
+  "rpc": ["https://lit-chain-rpc.litprotocol.com"],
+  "faucets": [],
   "infoURL": "https://litprotocol.com"
 }, {
   "name": "Bitica Chain Mainnet",
