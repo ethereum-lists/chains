@@ -6470,6 +6470,56 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Status Network",
+  "title": "Status Network Mainnet",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://status.network",
+  "shortName": "snt",
+  "chainId": 373,
+  "networkId": 373,
+  "icon": "snt",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://bridge.status.network"
+    }]
+  },
+  "explorers": [],
+  "status": "incubating"
+}, {
+  "name": "Status Network Hoodi",
+  "title": "Status Network Hoodi",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://status.network",
+  "shortName": "snt-hoodi",
+  "chainId": 374,
+  "networkId": 374,
+  "icon": "snt",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-560048",
+    "bridges": [{
+      "url": "https://bridge.status.network"
+    }]
+  },
+  "explorers": [],
+  "status": "incubating"
+}, {
   "name": "ZKAmoeba Testnet",
   "chain": "FIL",
   "rpc": ["https://rpc.testnet.zkamoeba.com:4050/", "https://rpc1.testnet.zkamoeba.com:4050/"],
@@ -50135,6 +50185,26 @@
   "explorers": [{
     "name": "OneLedger Block Explorer",
     "url": "https://mainnet-explorer.oneledger.network",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "SKALE Base Sepolia",
+  "chain": "skale-base-sepolia",
+  "icon": "skale",
+  "rpc": ["https://base-sepolia-testnet.skalenodes.com/v1/jubilant-horrible-ancha", "wss://base-sepolia-testnet.skalenodes.com/v1/ws/jubilant-horrible-ancha"],
+  "faucets": ["http://base-sepolia-faucet.skale.space"],
+  "nativeCurrency": {
+    "name": "Credits",
+    "symbol": "CREDIT",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.skale.space/welcome/skale-on-base",
+  "shortName": "skale-base-sepolia",
+  "chainId": 324705682,
+  "networkId": 324705682,
+  "explorers": [{
+    "name": "Blockscout",
+    "url": "https://base-sepolia-testnet-explorer.skalenodes.com",
     "standard": "EIP3091"
   }]
 }, {

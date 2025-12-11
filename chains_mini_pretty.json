@@ -3912,6 +3912,32 @@
   "faucets": [],
   "infoURL": "http://theconsta.com"
 }, {
+  "name": "Status Network",
+  "chainId": 373,
+  "shortName": "snt",
+  "networkId": 373,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://status.network"
+}, {
+  "name": "Status Network Hoodi",
+  "chainId": 374,
+  "shortName": "snt-hoodi",
+  "networkId": 374,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://status.network"
+}, {
   "name": "ZKAmoeba Testnet",
   "chainId": 380,
   "shortName": "zkamoeba-test",
@@ -30132,6 +30158,19 @@
   "rpc": ["https://mainnet-rpc.oneledger.network"],
   "faucets": [],
   "infoURL": "https://oneledger.io"
+}, {
+  "name": "SKALE Base Sepolia",
+  "chainId": 324705682,
+  "shortName": "skale-base-sepolia",
+  "networkId": 324705682,
+  "nativeCurrency": {
+    "name": "Credits",
+    "symbol": "CREDIT",
+    "decimals": 18
+  },
+  "rpc": ["https://base-sepolia-testnet.skalenodes.com/v1/jubilant-horrible-ancha", "wss://base-sepolia-testnet.skalenodes.com/v1/ws/jubilant-horrible-ancha"],
+  "faucets": ["http://base-sepolia-faucet.skale.space"],
+  "infoURL": "https://docs.skale.space/welcome/skale-on-base"
 }, {
   "name": "Nal Sepolia Testnet",
   "chainId": 328527624,
