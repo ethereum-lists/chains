@@ -24894,6 +24894,19 @@
   "faucets": [],
   "infoURL": "https://taiko.xyz"
 }, {
+  "name": "Taiko Hoodi",
+  "chainId": 167013,
+  "shortName": "tko-hoodi",
+  "networkId": 167013,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.hoodi.taiko.xyz"],
+  "faucets": [],
+  "infoURL": "https://taiko.xyz"
+}, {
   "name": "Zchains",
   "chainId": 168168,
   "shortName": "zchains",
