@@ -2,8 +2,8 @@
   "name": "Tanssi Demo",
   "chain": "TANGO",
   "rpc": [
-    "https://dancelight-2001.tanssi-api.network",
-    "wss://dancelight-2001.tanssi-api.network"
+    "https://services.tanssi-testnet.network/dancelight-2001",
+    "wss://services.tanssi-testnet.network/dancelight-2001"
   ],
   "faucets": ["https://apps.tanssi.network/demo"],
   "nativeCurrency": {
@@ -11,7 +11,7 @@
     "symbol": "TANGO",
     "decimals": 18
   },
-  "infoURL": "https://docs.tanssi.network/builders/tanssi-network/networks/dancebox/demo-evm-containerchain",
+  "infoURL": "https://docs.tanssi.network/builders/tanssi-network/testnet/demo-evm-network/",
   "shortName": "tango",
   "chainId": 5678,
   "networkId": 5678,
