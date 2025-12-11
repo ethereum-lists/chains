@@ -18694,6 +18694,26 @@
   "slip44": 1,
   "explorers": []
 }, {
+  "name": "C9XChain",
+  "chain": "C9XChain",
+  "icon": "c9xchain",
+  "rpc": ["https://services.tanssi-mainnet.network/tanssi-2002", "wss://services.tanssi-mainnet.network/tanssi-2002"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CXC",
+    "symbol": "CXC",
+    "decimals": 18
+  },
+  "infoURL": "https://c9tech.com.br/",
+  "shortName": "c9xchain",
+  "chainId": 3230,
+  "networkId": 3230,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscan-tanssi.c9tech.com.br",
+    "standard": "none"
+  }]
+}, {
   "name": "Dubxcoin network",
   "chain": "DUBX",
   "rpc": ["https://rpcmain.arabianchain.org"],
@@ -29477,6 +29497,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Trexx",
+  "chain": "Trexx",
+  "icon": "trexx",
+  "rpc": ["https://services.tanssi-mainnet.network/tanssi-2003", "wss://services.tanssi-mainnet.network/tanssi-2003"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TRX",
+    "symbol": "TRX",
+    "decimals": 18
+  },
+  "infoURL": "https://trexx.com.br",
+  "shortName": "trexx",
+  "chainId": 13766,
+  "networkId": 13766,
+  "explorers": [{
+    "name": "Tanssi EVM Basic Explorer",
+    "url": "https://evmexplorer.tanssi-chains.network/?rpcUrl=https://services.tanssi-mainnet.network/tanssi-2003",
+    "standard": "none"
+  }]
+}, {
   "name": "Susono",
   "chain": "SUS",
   "rpc": ["https://gateway.opn.network/node/ext/bc/2VsZe5DstWw2bfgdx3YbjKcMsJnNDjni95sZorBEdk9L9Qr9Fr/rpc"],
@@ -31538,6 +31578,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Gotas Social",
+  "chain": "Gotas",
+  "icon": "gotas",
+  "rpc": ["https://services.tanssi-mainnet.network/tanssi-2006", "wss://services.tanssi-mainnet.network/tanssi-2006"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GOTAS",
+    "symbol": "GOTAS",
+    "decimals": 18
+  },
+  "infoURL": "https://gotas.com/",
+  "shortName": "gotas",
+  "chainId": 23232,
+  "networkId": 23232,
+  "explorers": [{
+    "name": "Tanssi EVM Basic Explorer",
+    "url": "https://evmexplorer.tanssi-chains.network/?rpcUrl=https://services.tanssi-mainnet.network/tanssi-2006",
+    "standard": "none"
+  }]
+}, {
   "name": "Oasis Sapphire",
   "chain": "Sapphire",
   "icon": "oasis",
@@ -32198,6 +32258,26 @@
     "name": "blockscout",
     "url": "https://blockscout.com/optimism/bedrock-alpha",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Rivool",
+  "chain": "Rivool",
+  "icon": "rivool",
+  "rpc": ["https://services.tanssi-mainnet.network/tanssi-2005", "wss://services.tanssi-mainnet.network/tanssi-2005"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "RVO",
+    "symbol": "RVO",
+    "decimals": 18
+  },
+  "infoURL": "https://rivool.finance/",
+  "shortName": "rivool",
+  "chainId": 28540,
+  "networkId": 28540,
+  "explorers": [{
+    "name": "Tanssi EVM Basic Explorer",
+    "url": "https://evmexplorer.tanssi-chains.network/?rpcUrl=https://services.tanssi-mainnet.network/tanssi-2005",
+    "standard": "none"
   }]
 }, {
   "name": "Boba Sepolia",
@@ -35214,6 +35294,24 @@
     "url": "https://contract-mainnet.sardisnetwork.com",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Memento Mainnet",
+  "chain": "Memento",
+  "rpc": ["https://rpc.mementoblockchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "",
+  "shortName": "memento-mainnet",
+  "chainId": 51888,
+  "networkId": 51888,
+  "explorers": []
 }, {
   "name": "Electroneum Mainnet",
   "chain": "Electroneum",
@@ -43291,6 +43389,26 @@
   "shortName": "olympus",
   "chainId": 333999,
   "networkId": 333999
+}, {
+  "name": "Scenium",
+  "chain": "Scenium",
+  "icon": "scenium",
+  "rpc": ["https://services.tanssi-mainnet.network/tanssi-2004", "wss://services.tanssi-mainnet.network/tanssi-2004"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SCEN",
+    "symbol": "SCEN",
+    "decimals": 18
+  },
+  "infoURL": "hhttps://www.scenium.io/",
+  "shortName": "scenium",
+  "chainId": 335700,
+  "networkId": 335700,
+  "explorers": [{
+    "name": "Tanssi EVM Basic Explorer",
+    "url": "https://evmexplorer.tanssi-chains.network/?rpcUrl=https://services.tanssi-mainnet.network/tanssi-2004",
+    "standard": "none"
+  }]
 }, {
   "name": "UPchain Testnet",
   "chain": "UPchain",

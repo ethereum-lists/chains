@@ -11361,6 +11361,19 @@
   "faucets": [],
   "infoURL": "https://filecoin.io"
 }, {
+  "name": "C9XChain",
+  "chainId": 3230,
+  "shortName": "c9xchain",
+  "networkId": 3230,
+  "nativeCurrency": {
+    "name": "CXC",
+    "symbol": "CXC",
+    "decimals": 18
+  },
+  "rpc": ["https://services.tanssi-mainnet.network/tanssi-2002", "wss://services.tanssi-mainnet.network/tanssi-2002"],
+  "faucets": [],
+  "infoURL": "https://c9tech.com.br/"
+}, {
   "name": "Dubxcoin network",
   "chainId": 3269,
   "shortName": "dubx",
@@ -17913,6 +17926,19 @@
   "faucets": [],
   "infoURL": "https://game7.io"
 }, {
+  "name": "Trexx",
+  "chainId": 13766,
+  "shortName": "trexx",
+  "networkId": 13766,
+  "nativeCurrency": {
+    "name": "TRX",
+    "symbol": "TRX",
+    "decimals": 18
+  },
+  "rpc": ["https://services.tanssi-mainnet.network/tanssi-2003", "wss://services.tanssi-mainnet.network/tanssi-2003"],
+  "faucets": [],
+  "infoURL": "https://trexx.com.br"
+}, {
   "name": "Susono",
   "chainId": 13812,
   "shortName": "sus",
@@ -19174,6 +19200,19 @@
   "faucets": ["https://faucet.opside.network"],
   "infoURL": "https://opside.network"
 }, {
+  "name": "Gotas Social",
+  "chainId": 23232,
+  "shortName": "gotas",
+  "networkId": 23232,
+  "nativeCurrency": {
+    "name": "GOTAS",
+    "symbol": "GOTAS",
+    "decimals": 18
+  },
+  "rpc": ["https://services.tanssi-mainnet.network/tanssi-2006", "wss://services.tanssi-mainnet.network/tanssi-2006"],
+  "faucets": [],
+  "infoURL": "https://gotas.com/"
+}, {
   "name": "Oasis Sapphire",
   "chainId": 23294,
   "shortName": "sapphire",
@@ -19589,6 +19628,19 @@
   "rpc": ["https://alpha-1-replica-0.bedrock-goerli.optimism.io", "https://alpha-1-replica-1.bedrock-goerli.optimism.io", "https://alpha-1-replica-2.bedrock-goerli.optimism.io", "https://alpha-1-replica-2.bedrock-goerli.optimism.io"],
   "faucets": [],
   "infoURL": "https://community.optimism.io/docs/developers/bedrock"
+}, {
+  "name": "Rivool",
+  "chainId": 28540,
+  "shortName": "rivool",
+  "networkId": 28540,
+  "nativeCurrency": {
+    "name": "RVO",
+    "symbol": "RVO",
+    "decimals": 18
+  },
+  "rpc": ["https://services.tanssi-mainnet.network/tanssi-2005", "wss://services.tanssi-mainnet.network/tanssi-2005"],
+  "faucets": [],
+  "infoURL": "https://rivool.finance/"
 }, {
   "name": "Boba Sepolia",
   "chainId": 28882,
@@ -21318,6 +21370,19 @@
   "rpc": ["https://mainnet-rpc.sardisnetwork.com"],
   "faucets": ["https://faucet.sardisnetwork.com"],
   "infoURL": "https://mysardis.com"
+}, {
+  "name": "Memento Mainnet",
+  "chainId": 51888,
+  "shortName": "memento-mainnet",
+  "networkId": 51888,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mementoblockchain.com"],
+  "faucets": [],
+  "infoURL": ""
 }, {
   "name": "Electroneum Mainnet",
   "chainId": 52014,
@@ -26128,6 +26193,19 @@
   "rpc": ["https://rpc.polis.tech"],
   "faucets": ["https://faucet.polis.tech"],
   "infoURL": "https://polis.tech"
+}, {
+  "name": "Scenium",
+  "chainId": 335700,
+  "shortName": "scenium",
+  "networkId": 335700,
+  "nativeCurrency": {
+    "name": "SCEN",
+    "symbol": "SCEN",
+    "decimals": 18
+  },
+  "rpc": ["https://services.tanssi-mainnet.network/tanssi-2004", "wss://services.tanssi-mainnet.network/tanssi-2004"],
+  "faucets": [],
+  "infoURL": "hhttps://www.scenium.io/"
 }, {
   "name": "UPchain Testnet",
   "chainId": 336655,
