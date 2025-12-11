@@ -14,12 +14,6 @@
   "networkId": 2522,
   "slip44": 1,
   "icon": "fraxtal",
-  "explorers": [
-    {
-      "name": "fraxscan",
-      "url": "https://holesky.fraxscan.com",
-      "standard": "EIP3091"
-    }
-  ],
+  "explorers": [],
   "status": "deprecated"
 }
