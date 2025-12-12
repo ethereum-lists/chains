@@ -26974,17 +26974,17 @@
   "faucets": [],
   "infoURL": "https://www.cmuccdc.org/"
 }, {
-  "name": "Hetu Testnet",
+  "name": "Hetu Mainnet",
   "chainId": 560000,
   "shortName": "HETU",
   "networkId": 560000,
   "nativeCurrency": {
-    "name": "tETH",
-    "symbol": "tETH",
+    "name": "HETU",
+    "symbol": "HETU",
     "decimals": 18
   },
-  "rpc": ["https://rpc.testchainv1.hetuscan.com"],
-  "faucets": ["https:/testchainv1.hetuscan.com"],
+  "rpc": ["https://rpc.va.hetu.org"],
+  "faucets": [],
   "infoURL": "https://hetu.org"
 }, {
   "name": "Rogue Chain",
