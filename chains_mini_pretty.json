@@ -3704,6 +3704,19 @@
   "faucets": [],
   "infoURL": "https://grvt.io/"
 }, {
+  "name": "VirBiCoin",
+  "chainId": 329,
+  "shortName": "virbicoin",
+  "networkId": 329,
+  "nativeCurrency": {
+    "name": "VBC",
+    "symbol": "VBC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.digitalregion.jp"],
+  "faucets": [],
+  "infoURL": "https://vbc.digitalregion.jp"
+}, {
   "name": "Telos zkEVM Testnet",
   "chainId": 331,
   "shortName": "telos-zkevm-testnet",
