@@ -6420,7 +6420,7 @@
   "chainId": 369,
   "networkId": 369,
   "infoURL": "https://pulsechain.com/",
-  "rpc": ["https://rpc.pulsechain.com", "wss://rpc.pulsechain.com", "https://pulsechain-rpc.publicnode.com", "wss://pulsechain-rpc.publicnode.com", "https://rpc-pulsechain.g4mm4.io", "wss://rpc-pulsechain.g4mm4.io"],
+  "rpc": ["https://rpc.pulsechain.com", "https://pulsechain-rpc.publicnode.com", "wss://pulsechain-rpc.publicnode.com", "https://rpc-pulsechain.g4mm4.io"],
   "icon": "pulsechain",
   "slip44": 60,
   "features": [{
@@ -40049,6 +40049,32 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Monsoon Alpha",
+  "chain": "MONSOON ALPHA",
+  "rpc": ["https://alpha.monsoon.rainfall.one"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "RDL",
+    "symbol": "RDL",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "monsoon-alpha",
+  "chainId": 100611,
+  "networkId": 100611,
+  "icon": "monsoon",
+  "explorers": [{
+    "name": "Monsoon Scan",
+    "url": "https://scout.alpha.monsoon.rainfall.one",
+    "icon": "monsoon",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Socotra JUNE-Chain",
   "chain": "Socotra JUNE-Chain",
   "rpc": ["https://rpc.socotra-testnet.network/ext/bc/JUNE/rpc"],
@@ -43135,7 +43161,7 @@
 }, {
   "name": "World Mobile Chain Testnet",
   "chain": "WOMOX",
-  "rpc": ["https://worldmobile-devnet.g.alchemy.com/public"],
+  "rpc": ["https://worldmobile-testnet.g.alchemy.com/public"],
   "faucets": ["https://testnet-faucet.worldmobile.net"],
   "nativeCurrency": {
     "name": "ATestingToken",

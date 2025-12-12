@@ -3895,7 +3895,7 @@
     "symbol": "PLS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.pulsechain.com", "wss://rpc.pulsechain.com", "https://pulsechain-rpc.publicnode.com", "wss://pulsechain-rpc.publicnode.com", "https://rpc-pulsechain.g4mm4.io", "wss://rpc-pulsechain.g4mm4.io"],
+  "rpc": ["https://rpc.pulsechain.com", "https://pulsechain-rpc.publicnode.com", "wss://pulsechain-rpc.publicnode.com", "https://rpc-pulsechain.g4mm4.io"],
   "faucets": [],
   "infoURL": "https://pulsechain.com/"
 }, {
@@ -24192,6 +24192,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Monsoon Alpha",
+  "chainId": 100611,
+  "shortName": "monsoon-alpha",
+  "networkId": 100611,
+  "nativeCurrency": {
+    "name": "RDL",
+    "symbol": "RDL",
+    "decimals": 18
+  },
+  "rpc": ["https://alpha.monsoon.rainfall.one"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Socotra JUNE-Chain",
   "chainId": 101003,
   "shortName": "Socotra-JUNE",
@@ -26047,7 +26060,7 @@
     "symbol": "WOMOX",
     "decimals": 18
   },
-  "rpc": ["https://worldmobile-devnet.g.alchemy.com/public"],
+  "rpc": ["https://worldmobile-testnet.g.alchemy.com/public"],
   "faucets": ["https://testnet-faucet.worldmobile.net"],
   "infoURL": "https://worldmobile.io/the-chain"
 }, {
