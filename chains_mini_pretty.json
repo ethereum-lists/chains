@@ -14323,7 +14323,7 @@
   },
   "rpc": ["https://zetachain-evm.blockpi.network/v1/rpc/public", "https://zetachain-mainnet.g.allthatnode.com/archive/evm", "https://zeta-chain.drpc.org", "https://zetachain-mainnet.public.blastapi.io", "https://7000.rpc.thirdweb.com"],
   "faucets": [],
-  "infoURL": "https://zetachain.com/docs/"
+  "infoURL": "https://zetachain.com/docs"
 }, {
   "name": "ZetaChain Testnet",
   "chainId": 7001,
@@ -14335,7 +14335,7 @@
     "decimals": 18
   },
   "rpc": ["https://zetachain-athens-evm.blockpi.network/v1/rpc/public", "https://zetachain-testnet.public.blastapi.io", "https://zetachain-athens.g.allthatnode.com/archive/evm", "https://7001.rpc.thirdweb.com", "https://zeta-chain-testnet.drpc.org"],
-  "faucets": ["https://www.zetachain.com/docs/reference/apps/get-testnet-zeta/"],
+  "faucets": ["https://zetachain.com/docs/reference/faucet"],
   "infoURL": "https://zetachain.com/docs"
 }, {
   "name": "BST Chain",

@@ -23642,14 +23642,14 @@
     "symbol": "ZETA",
     "decimals": 18
   },
-  "infoURL": "https://zetachain.com/docs/",
+  "infoURL": "https://zetachain.com/docs",
   "shortName": "zetachain-mainnet",
   "chainId": 7000,
   "networkId": 7000,
   "status": "active",
   "explorers": [{
-    "name": "ZetaChain Mainnet Explorer",
-    "url": "https://explorer.zetachain.com",
+    "name": "ZetaScan",
+    "url": "https://zetascan.com",
     "standard": "none"
   }]
 }, {
@@ -23657,7 +23657,7 @@
   "chain": "ZetaChain",
   "icon": "zetachain",
   "rpc": ["https://zetachain-athens-evm.blockpi.network/v1/rpc/public", "https://zetachain-testnet.public.blastapi.io", "https://zetachain-athens.g.allthatnode.com/archive/evm", "https://7001.rpc.thirdweb.com", "https://zeta-chain-testnet.drpc.org"],
-  "faucets": ["https://www.zetachain.com/docs/reference/apps/get-testnet-zeta/"],
+  "faucets": ["https://zetachain.com/docs/reference/faucet"],
   "nativeCurrency": {
     "name": "Zeta",
     "symbol": "ZETA",
@@ -23671,13 +23671,8 @@
   "status": "active",
   "explorers": [{
     "name": "ZetaScan",
-    "url": "https://athens.explorer.zetachain.com",
+    "url": "https://testnet.zetascan.com",
     "standard": "none"
-  }, {
-    "name": "Blockscout",
-    "url": "https://zetachain-athens-3.blockscout.com",
-    "icon": "blockscout",
-    "standard": "EIP3091"
   }]
 }, {
   "name": "BST Chain",
