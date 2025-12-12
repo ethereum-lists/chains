@@ -16171,6 +16171,19 @@
   "faucets": ["https://testnet.qubetics.work/faucet"],
   "infoURL": "https://www.qubetics.com/"
 }, {
+  "name": "Qubetics Mainnet",
+  "chainId": 9030,
+  "shortName": "QubeticsMainnet",
+  "networkId": 9030,
+  "nativeCurrency": {
+    "name": "Qubetics",
+    "symbol": "TICS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.qubetics.com", "wss://socket-testnet.qubetics.work", "https://evm-rpc-arch.qubetics.com", "https://evm-ws-arch.qubetics.com"],
+  "faucets": [],
+  "infoURL": "https://www.qubetics.com"
+}, {
   "name": "Apex Fusion - Nexus Mainnet",
   "chainId": 9069,
   "shortName": "AP3X",
