@@ -21683,6 +21683,32 @@
   "faucets": [],
   "infoURL": "https://flamma.network"
 }, {
+  "name": "DataHaven Mainnet",
+  "chainId": 55930,
+  "shortName": "datahaven",
+  "networkId": 55930,
+  "nativeCurrency": {
+    "name": "HAVE",
+    "symbol": "HAVE",
+    "decimals": 18
+  },
+  "rpc": ["https://services.datahaven-mainnet.network/mainnet", "wss://services.datahaven-mainnet.network/mainnet"],
+  "faucets": [],
+  "infoURL": "https://datahaven.xyz"
+}, {
+  "name": "DataHaven Testnet",
+  "chainId": 55931,
+  "shortName": "datahaven-testnet",
+  "networkId": 55931,
+  "nativeCurrency": {
+    "name": "MOCK",
+    "symbol": "MOCK",
+    "decimals": 18
+  },
+  "rpc": ["https://services.datahaven-testnet.network/testnet", "wss://services.datahaven-testnet.network/testnet"],
+  "faucets": ["https://apps.datahaven.xyz/faucet"],
+  "infoURL": "https://datahaven.xyz"
+}, {
   "name": "Lambda Chain Mainnet",
   "chainId": 56026,
   "shortName": "lambda",
