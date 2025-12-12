@@ -23061,6 +23061,19 @@
   "faucets": [],
   "infoURL": "https://nordekscan.com"
 }, {
+  "name": "Codex",
+  "chainId": 81224,
+  "shortName": "codex",
+  "networkId": 81224,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.codex.xyz", "wss://rpc.codex.xyz"],
+  "faucets": [],
+  "infoURL": "https://www.codex.xyz/"
+}, {
   "name": "Amana Testnet",
   "chainId": 81341,
   "shortName": "amanatest",
@@ -27662,6 +27675,19 @@
   "rpc": ["https://goerli.rpc.zklink.io", "wss://goerli.rpc.zklink.io"],
   "faucets": [],
   "infoURL": "https://zklink.io"
+}, {
+  "name": "Codex Testnet",
+  "chainId": 812242,
+  "shortName": "codex-testnet",
+  "networkId": 812242,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.codex-stg.xyz", "wss://rpc.codex-stg.xyz"],
+  "faucets": [],
+  "infoURL": "https://www.codex.xyz/"
 }, {
   "name": "SG Verse Mainnet",
   "chainId": 812397,

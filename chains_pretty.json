@@ -38179,6 +38179,30 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Codex",
+  "chain": "ETH",
+  "rpc": ["https://rpc.codex.xyz", "wss://rpc.codex.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.codex.xyz/",
+  "shortName": "codex",
+  "chainId": 81224,
+  "networkId": 81224,
+  "icon": "codex",
+  "explorers": [{
+    "name": "Codex Explorer",
+    "url": "https://explorer.codex.xyz",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
+}, {
   "name": "Amana Testnet",
   "chain": "MEER",
   "rpc": [],
@@ -45922,6 +45946,30 @@
     "bridges": [{
       "url": "https://goerli.portal.zklink.io"
     }]
+  }
+}, {
+  "name": "Codex Testnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc.codex-stg.xyz", "wss://rpc.codex-stg.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.codex.xyz/",
+  "shortName": "codex-testnet",
+  "chainId": 812242,
+  "networkId": 812242,
+  "icon": "codex-testnet",
+  "explorers": [{
+    "name": "Codex Testnet Explorer",
+    "url": "https://explorer.codex-stg.xyz",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
   }
 }, {
   "name": "SG Verse Mainnet",
