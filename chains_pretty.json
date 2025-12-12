@@ -9409,7 +9409,7 @@
   "name": "Daily Network Mainnet",
   "chain": "Daily Network",
   "icon": "daily",
-  "rpc": ["https://rpc.mainnet.dailycrypto.net"],
+  "rpc": ["https://rpc.mainnet.dailycrypto.net", "https://rpc-2.mainnet.dailycrypto.net", "https://rpc-3.mainnet.dailycrypto.net"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Daily",
@@ -9429,7 +9429,7 @@
   "name": "Daily Network Testnet",
   "chain": "Daily Network",
   "icon": "daily",
-  "rpc": ["https://rpc.testnet.dailycrypto.net"],
+  "rpc": ["https://rpc.testnet.dailycrypto.net", "https://rpc-2.testnet.dailycrypto.net", "https://rpc-3.testnet.dailycrypto.net"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Daily",
@@ -42253,6 +42253,31 @@
     "standard": "none"
   }]
 }, {
+  "name": "JuChain Testnet",
+  "chain": "JuChain",
+  "rpc": ["https://testnet-rpc.juchain.org", "wss://testnet-ws.juchain.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "JU Testnet Token",
+    "symbol": "JU",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://www.juchain.org",
+  "shortName": "ju-test",
+  "chainId": 202599,
+  "networkId": 202599,
+  "icon": "ju-test",
+  "explorers": [{
+    "name": "JUChain Test Explorer",
+    "url": "https://testnet.juscan.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Jellie",
   "title": "Twala Testnet Jellie",
   "shortName": "twl-jellie",
@@ -42314,6 +42339,31 @@
   "explorers": [{
     "name": "Auroria Testnet Explorer",
     "url": "https://auroria.explorer.stratisevm.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "JuChain Mainnet",
+  "chain": "JuChain",
+  "rpc": ["https://rpc.juchain.org", "wss://ws.juchain.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "JU",
+    "symbol": "JU",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://www.juchain.org",
+  "shortName": "ju",
+  "chainId": 210000,
+  "networkId": 210000,
+  "icon": "ju",
+  "explorers": [{
+    "name": "JUChain Mainnet Explorer",
+    "url": "https://juscan.io",
     "standard": "EIP3091"
   }]
 }, {

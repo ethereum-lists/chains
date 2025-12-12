@@ -5676,7 +5676,7 @@
     "symbol": "DLY",
     "decimals": 18
   },
-  "rpc": ["https://rpc.mainnet.dailycrypto.net"],
+  "rpc": ["https://rpc.mainnet.dailycrypto.net", "https://rpc-2.mainnet.dailycrypto.net", "https://rpc-3.mainnet.dailycrypto.net"],
   "faucets": [],
   "infoURL": "https://dailycrypto.net"
 }, {
@@ -5689,7 +5689,7 @@
     "symbol": "DLY",
     "decimals": 18
   },
-  "rpc": ["https://rpc.testnet.dailycrypto.net"],
+  "rpc": ["https://rpc.testnet.dailycrypto.net", "https://rpc-2.testnet.dailycrypto.net", "https://rpc-3.testnet.dailycrypto.net"],
   "faucets": [],
   "infoURL": "https://dailycrypto.net"
 }, {
@@ -25518,6 +25518,19 @@
   "faucets": [],
   "infoURL": "https://blockfit.io"
 }, {
+  "name": "JuChain Testnet",
+  "chainId": 202599,
+  "shortName": "ju-test",
+  "networkId": 202599,
+  "nativeCurrency": {
+    "name": "JU Testnet Token",
+    "symbol": "JU",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.juchain.org", "wss://testnet-ws.juchain.org"],
+  "faucets": [],
+  "infoURL": "https://www.juchain.org"
+}, {
   "name": "Jellie",
   "chainId": 202624,
   "shortName": "twl-jellie",
@@ -25556,6 +25569,19 @@
   "rpc": ["https://auroria.rpc.stratisevm.com"],
   "faucets": ["https://auroria.faucet.stratisevm.com"],
   "infoURL": "https://www.stratisplatform.com"
+}, {
+  "name": "JuChain Mainnet",
+  "chainId": 210000,
+  "shortName": "ju",
+  "networkId": 210000,
+  "nativeCurrency": {
+    "name": "JU",
+    "symbol": "JU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.juchain.org", "wss://ws.juchain.org"],
+  "faucets": [],
+  "infoURL": "https://www.juchain.org"
 }, {
   "name": "GitAGI Atlas Testnet",
   "chainId": 210049,
