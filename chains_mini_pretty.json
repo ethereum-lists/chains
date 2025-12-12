@@ -3938,6 +3938,19 @@
   "faucets": [],
   "infoURL": "https://status.network"
 }, {
+  "name": "zkXPLA Mainnet",
+  "chainId": 375,
+  "shortName": "zkxpla",
+  "networkId": 375,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zkxpla.io"],
+  "faucets": [],
+  "infoURL": "https://xpla.io"
+}, {
   "name": "ZKAmoeba Testnet",
   "chainId": 380,
   "shortName": "zkamoeba-test",
@@ -4301,6 +4314,19 @@
   "rpc": ["https://rpc.appchain.xyz/http", "wss://rpc.appchain.xyz/ws"],
   "faucets": [],
   "infoURL": "https://appchain.xyz"
+}, {
+  "name": "zkXPLA Testnet",
+  "chainId": 475,
+  "shortName": "zkxpla-testnet",
+  "networkId": 475,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.zkxpla.io"],
+  "faucets": [],
+  "infoURL": "https://xpla.io"
 }, {
   "name": "Form Network",
   "chainId": 478,
