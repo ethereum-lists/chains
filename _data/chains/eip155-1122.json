@@ -1,0 +1,27 @@
+{
+  "name": "Pantanal Chain",
+  "chain": "Pantanal",
+  "icon": "pantanal",
+  "rpc": [
+    "https://node1.pantanalchain.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Panta",
+    "symbol": "PAN",
+    "decimals": 18
+  },
+  "infoURL": "https://explorer.pantanalchain.com",
+  "shortName": "pantanal",
+  "chainId": 1122,
+  "networkId": 1122,
+  "explorers": [
+    {
+      "name": "Pantanal Explorer",
+      "url": "https://explorer.pantanalchain.com",
+      "icon": "pantanal",
+      "standard": "EIP3091"
+    }
+  ]
+}
+
