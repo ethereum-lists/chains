@@ -6187,6 +6187,19 @@
   "faucets": [],
   "infoURL": "https://bittensor.com/"
 }, {
+  "name": "Datagram",
+  "chainId": 968,
+  "shortName": "dgram",
+  "networkId": 968,
+  "nativeCurrency": {
+    "name": "DGRAM",
+    "symbol": "DGRAM",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.datagram.network/rpc"],
+  "faucets": [],
+  "infoURL": "https://doc.datagram.network/introduction/what-is-datagram"
+}, {
   "name": "EthXY",
   "chainId": 969,
   "shortName": "sexy",
