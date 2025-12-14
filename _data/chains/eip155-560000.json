@@ -1,11 +1,11 @@
 {
-  "name": "Hetu Testnet",
+  "name": "Hetu Mainnet",
   "chain": "HETU",
-  "rpc": ["https://rpc.testchainv1.hetuscan.com"],
-  "faucets": ["https:/testchainv1.hetuscan.com"],
+  "rpc": ["https://rpc.va.hetu.org"],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "tETH",
-    "symbol": "tETH",
+    "name": "HETU",
+    "symbol": "HETU",
     "decimals": 18
   },
   "infoURL": "https://hetu.org",
@@ -14,8 +14,8 @@
   "networkId": 560000,
   "explorers": [
     {
-      "name": "Hetu Testnet Scan",
-      "url": "https://testchainv1.hetuscan.com",
+      "name": "Hetu Mainnet Scan",
+      "url": "https://scan.v1.hetu.org",
       "icon": "hetu",
       "standard": "EIP3091"
     }
