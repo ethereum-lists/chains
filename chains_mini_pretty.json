@@ -23100,6 +23100,19 @@
   "faucets": [],
   "infoURL": "https://geobrowser.io"
 }, {
+  "name": "HyperX",
+  "chainId": 80808,
+  "shortName": "hpx",
+  "networkId": 80808,
+  "nativeCurrency": {
+    "name": "HPX",
+    "symbol": "HPX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.hyperx.technology"],
+  "faucets": ["https://faucet.hyperx.technology"],
+  "infoURL": "https://hyperx.technology/"
+}, {
   "name": "Forta Chain",
   "chainId": 80931,
   "shortName": "forta",
