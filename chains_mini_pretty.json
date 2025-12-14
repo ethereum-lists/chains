@@ -30835,6 +30835,19 @@
   "faucets": [],
   "infoURL": "https://cyberdeck.eu"
 }, {
+  "name": "SKALE Base",
+  "chainId": 1187947933,
+  "shortName": "skale-base",
+  "networkId": 1187947933,
+  "nativeCurrency": {
+    "name": "Credits",
+    "symbol": "CREDIT",
+    "decimals": 18
+  },
+  "rpc": ["https://skale-base.skalenodes.com/v1/base", "wss://skale-base.skalenodes.com/v1/ws/base"],
+  "faucets": ["http://base-sepolia-faucet.skale.space"],
+  "infoURL": "https://docs.skale.space/welcome/skale-on-base"
+}, {
   "name": "HUMAN Protocol",
   "chainId": 1273227453,
   "shortName": "human-mainnet",
