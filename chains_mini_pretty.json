@@ -18095,6 +18095,19 @@
   "faucets": ["https://faucet.vitruveo.xyz"],
   "infoURL": "https://www.vitruveo.xyz"
 }, {
+  "name": "Sonic Testnet",
+  "chainId": 14601,
+  "shortName": "sonic-testnet",
+  "networkId": 14601,
+  "nativeCurrency": {
+    "name": "Sonic",
+    "symbol": "S",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.soniclabs.com"],
+  "faucets": ["https://testnet.soniclabs.com/account"],
+  "infoURL": "https://testnet.soniclabs.com"
+}, {
   "name": "Vana Moksha Testnet",
   "chainId": 14800,
   "shortName": "vana-moksha",
