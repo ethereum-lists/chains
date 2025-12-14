@@ -1,0 +1,26 @@
+{
+  "name": "XG Chain",
+  "chain": "XGR",
+  "rpc": [
+    "https://rpc.xg-robo.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "XG ROBO",
+    "symbol": "XGR",
+    "decimals": 18
+  },
+  "infoURL": "https://xg-robo.com",
+  "shortName": "xgrobo",
+  "chainId": 2032950130,
+  "networkId": 2032950130,
+  "icon": "xgrobo",
+  "explorers": [
+    {
+      "name": "xgscan",
+      "url": "https://scan.xg-robo.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
