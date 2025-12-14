@@ -11400,6 +11400,19 @@
   "faucets": [],
   "infoURL": "https://www.satoshivm.io/"
 }, {
+  "name": "Alpha Chain Mainnet",
+  "chainId": 3111,
+  "shortName": "alpha",
+  "networkId": 3111,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.goalpha.org"],
+  "faucets": [],
+  "infoURL": "https://docs.alphatoken.com/AlphaChain/about-alpha-chain"
+}, {
   "name": "Filecoin - Hyperspace testnet",
   "chainId": 3141,
   "shortName": "filecoin-hyperspace",
@@ -26947,6 +26960,19 @@
   "rpc": ["https://subnets.avax.network/playdappne/mainnet/rpc"],
   "faucets": [],
   "infoURL": "https://playdapp.io"
+}, {
+  "name": "Alpha Chain Testnet",
+  "chainId": 511111,
+  "shortName": "alpha-testnet",
+  "networkId": 511111,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.goalpha.org"],
+  "faucets": [],
+  "infoURL": "https://docs.alphatoken.com/AlphaChain/about-alpha-chain"
 }, {
   "name": "CMP-Testnet",
   "chainId": 512512,
