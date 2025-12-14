@@ -18823,6 +18823,19 @@
   "faucets": [],
   "infoURL": "https://docs.decentraconnect.io"
 }, {
+  "name": "Trustivon Testnet",
+  "chainId": 19478,
+  "shortName": "trustivon",
+  "networkId": 19478,
+  "nativeCurrency": {
+    "name": "Trustivon",
+    "symbol": "TC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.trustivon.com"],
+  "faucets": ["https://faucet.trustivon.com"],
+  "infoURL": "https://trustivon.com"
+}, {
   "name": "SEC Testnet",
   "chainId": 19515,
   "shortName": "SEPt",
