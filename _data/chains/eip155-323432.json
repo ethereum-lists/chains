@@ -1,7 +1,7 @@
 {
   "name": "World Mobile Chain Testnet",
   "chain": "WOMOX",
-  "rpc": ["https://worldmobile-devnet.g.alchemy.com/public"],
+  "rpc": ["https://worldmobile-testnet.g.alchemy.com/public"],
   "faucets": ["https://testnet-faucet.worldmobile.net"],
   "nativeCurrency": {
     "name": "ATestingToken",
