@@ -25297,6 +25297,19 @@
   "faucets": [],
   "infoURL": "https://litprotocol.com"
 }, {
+  "name": "HPP Sepolia Testnet",
+  "chainId": 181228,
+  "shortName": "hpp-sepolia",
+  "networkId": 181228,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia.hpp.io"],
+  "faucets": ["https://faucet.conduit.xyz"],
+  "infoURL": "https://www.hpp.io"
+}, {
   "name": "Bitica Chain Mainnet",
   "chainId": 188710,
   "shortName": "bdcc",
@@ -25322,6 +25335,19 @@
   "rpc": ["https://testnet.condor.systems/rpc"],
   "faucets": ["https://faucet.condor.systems"],
   "infoURL": "https://condor.systems"
+}, {
+  "name": "HPP Mainnet",
+  "chainId": 190415,
+  "shortName": "hpp-mainnet",
+  "networkId": 190415,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.hpp.io"],
+  "faucets": [],
+  "infoURL": "https://www.hpp.io"
 }, {
   "name": "Altblockscan Mainnet",
   "chainId": 191919,
