@@ -19525,6 +19525,19 @@
   "faucets": [],
   "infoURL": "https://www.ducatuscoins.com/ducatusx"
 }, {
+  "name": "Horizen Mainnet",
+  "chainId": 26514,
+  "shortName": "horizen",
+  "networkId": 26514,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://horizen.calderachain.xyz/http"],
+  "faucets": [],
+  "infoURL": "https://horizen.hub.caldera.xyz"
+}, {
   "name": "Hertz Network Mainnet",
   "chainId": 26600,
   "shortName": "HTZ",
