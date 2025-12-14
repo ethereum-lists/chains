@@ -18576,6 +18576,19 @@
   "faucets": [],
   "infoURL": "https://esportsblock.org"
 }, {
+  "name": "DMD Diamond",
+  "chainId": 17771,
+  "shortName": "dmd",
+  "networkId": 17771,
+  "nativeCurrency": {
+    "name": "DMD",
+    "symbol": "DMD",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.bit.diamonds"],
+  "faucets": ["https://faucet.bit.diamonds"],
+  "infoURL": "https://bit.diamonds"
+}, {
   "name": "EOS EVM Network",
   "chainId": 17777,
   "shortName": "eos",
