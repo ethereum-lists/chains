@@ -22670,8 +22670,8 @@
   "rpc": ["https://evm.dukong.mantrachain.io", "wss://evm.dukong.mantrachain.io/ws"],
   "faucets": ["https://faucet.dukong.mantrachain.io"],
   "nativeCurrency": {
-    "name": "OM",
-    "symbol": "OM",
+    "name": "MANTRA",
+    "symbol": "MANTRA",
     "decimals": 18
   },
   "infoURL": "https://mantrachain.io",
@@ -22679,12 +22679,12 @@
   "chainId": 5887,
   "networkId": 5887,
   "slip44": 1,
-  "icon": "om",
+  "icon": "mantra",
   "explorers": [{
     "name": "Dukong Explorer",
-    "url": "http://mantrascan.io",
+    "url": "http://mantrascan.io/dukong",
     "standard": "none",
-    "icon": "om"
+    "icon": "mantra"
   }]
 }, {
   "name": "MANTRACHAIN Mainnet",
