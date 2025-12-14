@@ -22229,6 +22229,19 @@
   "faucets": ["https://docs.google.com/forms/d/e/1FAIpQLSdfr1BwUTYepVmmvfVUDRCwALejZ-TUva2YujNpvrEmPAX2pg/viewform", "https://cauldron.pretoriaresearchlab.io/baklava-faucet"],
   "infoURL": "https://docs.celo.org/"
 }, {
+  "name": "Apollo Mainnet",
+  "chainId": 62606,
+  "shortName": "APOLLO",
+  "networkId": 62606,
+  "nativeCurrency": {
+    "name": "Apollo",
+    "symbol": "APOLLO",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.apolloscan.io"],
+  "faucets": [],
+  "infoURL": "https://docs.apolloscan.io"
+}, {
   "name": "MultiVAC Mainnet",
   "chainId": 62621,
   "shortName": "mtv",
