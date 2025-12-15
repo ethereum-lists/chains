@@ -13584,6 +13584,19 @@
   "faucets": [],
   "infoURL": "https://chainverse.info"
 }, {
+  "name": "Jamton",
+  "chainId": 5589,
+  "shortName": "jamton",
+  "networkId": 5589,
+  "nativeCurrency": {
+    "name": "DOTON",
+    "symbol": "DOTON",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.jamton.network/"],
+  "faucets": [],
+  "infoURL": "https://app.jamton.network/"
+}, {
   "name": "opBNB Testnet",
   "chainId": 5611,
   "shortName": "obnbt",
