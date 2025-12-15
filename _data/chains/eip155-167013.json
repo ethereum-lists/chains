@@ -16,7 +16,12 @@
   "networkId": 167013,
   "explorers": [
     {
-      "name": "taikoscan",
+      "name": "Blockscout",
+      "url": "https://blockscout.hoodi.taiko.xyz",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Etherscan",
       "url": "https://hoodi.taikoscan.io",
       "standard": "EIP3091"
     }
