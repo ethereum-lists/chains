@@ -23503,6 +23503,32 @@
   "faucets": [],
   "infoURL": "https://cybertrust.space"
 }, {
+  "name": "CpChain Testnet",
+  "chainId": 86606,
+  "shortName": "cpchain-testnet",
+  "networkId": 86606,
+  "nativeCurrency": {
+    "name": "Testnet CpChain",
+    "symbol": "CP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.cpchain.com"],
+  "faucets": ["https://cpchain-test.pages.dev/faucet"],
+  "infoURL": "https://cpchain.com"
+}, {
+  "name": "CpChain",
+  "chainId": 86608,
+  "shortName": "cpchain",
+  "networkId": 86608,
+  "nativeCurrency": {
+    "name": "CpChain",
+    "symbol": "CP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.cpchain.com"],
+  "faucets": [],
+  "infoURL": "https://cpchain.com"
+}, {
   "name": "Nautilus Proteus Testnet",
   "chainId": 88002,
   "shortName": "NAUTTest",
