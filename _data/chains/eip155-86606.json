@@ -1,0 +1,23 @@
+{
+  "name": "CpChain Testnet",
+  "chain": "CpChain",
+  "rpc": ["https://rpc-testnet.cpchain.com"],
+  "faucets": ["https://cpchain-test.pages.dev/faucet"],
+  "nativeCurrency": {
+    "name": "Testnet CpChain",
+    "symbol": "CP",
+    "decimals": 18
+  },
+  "infoURL": "https://cpchain.com",
+  "shortName": "cpchain-testnet",
+  "chainId": 86606,
+  "networkId": 86606,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "CpChain Testnet Explorer",
+      "url": "https://explorer-testnet.cpchain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
