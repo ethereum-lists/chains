@@ -1,21 +1,14 @@
 {
   "name": "Nanch Network",
   "chain": "NANCH",
-  "rpc": [
-    "https://rpc.nanch.network"
-  ],
-  "faucets": [
-    "https://faucets.nanch.network"
-  ],
+  "rpc": ["https://rpc.nanch.network"],
+  "faucets": ["https://faucets.nanch.network"],
   "nativeCurrency": {
     "name": "NACH",
     "symbol": "NACH",
     "decimals": 18
   },
-  "features": [
-    { "name": "EIP155" },
-    { "name": "EIP1559" }
-  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://nanch.network",
   "shortName": "nanch",
   "chainId": 24258392,
@@ -33,8 +26,6 @@
   "parent": {
     "type": "L1",
     "chain": "eip155-24258392",
-    "bridges": [
-      { "url": "https://bridge.nanch.network" }
-    ]
+    "bridges": [{ "url": "https://bridge.nanch.network" }]
   }
 }
