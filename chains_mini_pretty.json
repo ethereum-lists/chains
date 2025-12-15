@@ -20812,6 +20812,19 @@
   "faucets": ["https://faucet.assetchain.org"],
   "infoURL": "https://docs.assetchain.org"
 }, {
+  "name": "Tempo Testnet",
+  "chainId": 42429,
+  "shortName": "tempotest",
+  "networkId": 42429,
+  "nativeCurrency": {
+    "name": "No native currency",
+    "symbol": "USD",
+    "decimals": 6
+  },
+  "rpc": ["https://rpc.testnet.tempo.xyz"],
+  "faucets": [],
+  "infoURL": "https://tempo.xyz"
+}, {
   "name": "ZKFair Mainnet",
   "chainId": 42766,
   "shortName": "ZKFair-Mainnet",
