@@ -10841,6 +10841,19 @@
   "faucets": [],
   "infoURL": "https://techpay.io/"
 }, {
+  "name": "H2 Chain Mainnet",
+  "chainId": 2582,
+  "shortName": "h2",
+  "networkId": 2582,
+  "nativeCurrency": {
+    "name": "H2 Chain Native Token",
+    "symbol": "H2",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.h2chain.io"],
+  "faucets": [],
+  "infoURL": "https://h2chain.io"
+}, {
   "name": "Pho Blockchain Mainnet",
   "chainId": 2605,
   "shortName": "pho",
@@ -19498,6 +19511,19 @@
   "rpc": ["https://rpc.everclear.raas.gelato.cloud"],
   "faucets": [],
   "infoURL": ""
+}, {
+  "name": "H2 Chain Testnet Lambda",
+  "chainId": 25821,
+  "shortName": "h2-lambda",
+  "networkId": 25821,
+  "nativeCurrency": {
+    "name": "Lambda H2",
+    "symbol": "H2",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.h-1.io"],
+  "faucets": [],
+  "infoURL": "https://h2chain.io"
 }, {
   "name": "AlveyChain Testnet",
   "chainId": 25839,
