@@ -1,7 +1,7 @@
 {
   "name": "Phala Network",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": ["https://rpc.phala.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
