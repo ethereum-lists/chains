@@ -27481,6 +27481,19 @@
   "faucets": [],
   "infoURL": "https://www.gensyn.ai/"
 }, {
+  "name": "Gensyn Mainnet",
+  "chainId": 685689,
+  "shortName": "gensyn-mainnet",
+  "networkId": 685689,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://www.gensyn.ai/"
+}, {
   "name": "Won Network",
   "chainId": 686868,
   "shortName": "WonChain",

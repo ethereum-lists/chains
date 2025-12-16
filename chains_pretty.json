@@ -45600,6 +45600,21 @@
   "networkId": 685685,
   "status": "incubating"
 }, {
+  "name": "Gensyn Mainnet",
+  "chain": "Gensyn",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.gensyn.ai/",
+  "shortName": "gensyn-mainnet",
+  "chainId": 685689,
+  "networkId": 685689,
+  "status": "incubating"
+}, {
   "name": "Won Network",
   "chainId": 686868,
   "shortName": "WonChain",
