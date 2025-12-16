@@ -1,0 +1,23 @@
+{
+  "name": "H2 Chain Mainnet",
+  "chain": "H2",
+  "rpc": ["https://rpc.h2chain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "H2 Chain Native Token",
+    "symbol": "H2",
+    "decimals": 18
+  },
+  "infoURL": "https://h2chain.io",
+  "shortName": "h2",
+  "chainId": 2582,
+  "networkId": 2582,
+  "icon": "h2",
+  "explorers": [
+    {
+      "name": "h2scan",
+      "url": "https://h2scan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

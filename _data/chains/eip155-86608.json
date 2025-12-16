@@ -1,0 +1,22 @@
+{
+  "name": "CpChain",
+  "chain": "Cp",
+  "rpc": ["https://rpc.cpchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CpChain",
+    "symbol": "CP",
+    "decimals": 18
+  },
+  "infoURL": "https://cpchain.com",
+  "shortName": "cpchain",
+  "chainId": 86608,
+  "networkId": 86608,
+  "explorers": [
+    {
+      "name": "CpChain Explorer",
+      "url": "https://explorer.cpchain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
