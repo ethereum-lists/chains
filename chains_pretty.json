@@ -9907,6 +9907,27 @@
     "type": "shard"
   }
 }, {
+  "name": "Ault Blockchain Mainnet",
+  "chain": "AULT",
+  "icon": "ault",
+  "rpc": [],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AULT Token",
+    "symbol": "AULT",
+    "decimals": 18
+  },
+  "infoURL": "https://aultblockchain.com",
+  "shortName": "ault",
+  "chainId": 904,
+  "networkId": 904,
+  "explorers": []
+}, {
   "name": "Portal Fantasy Chain",
   "chain": "PF",
   "icon": "pf",
@@ -28408,6 +28429,27 @@
       "url": "https://testnet-bridge-gelato.gameswift.io/bridge/gameswift-chain-testnet"
     }]
   }
+}, {
+  "name": "Ault Blockchain Testnet",
+  "chain": "AULT",
+  "icon": "ault",
+  "rpc": [],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Testnet AULT Token",
+    "symbol": "AULT",
+    "decimals": 18
+  },
+  "infoURL": "https://aultblockchain.com",
+  "shortName": "ault-testnet",
+  "chainId": 10904,
+  "networkId": 10904,
+  "explorers": []
 }, {
   "name": "Fuse Flash Testnet",
   "chain": "Fuse Flash",

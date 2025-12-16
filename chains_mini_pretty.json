@@ -5966,6 +5966,19 @@
   "faucets": ["https://faucet-testnet.garizon.com"],
   "infoURL": "https://garizon.com"
 }, {
+  "name": "Ault Blockchain Mainnet",
+  "chainId": 904,
+  "shortName": "ault",
+  "networkId": 904,
+  "nativeCurrency": {
+    "name": "AULT Token",
+    "symbol": "AULT",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://aultblockchain.com"
+}, {
   "name": "Portal Fantasy Chain",
   "chainId": 909,
   "shortName": "PF",
@@ -17288,6 +17301,19 @@
   "rpc": ["https://rpc-testnet.gameswift.io", "wss://ws-testnet.gameswift.io"],
   "faucets": [],
   "infoURL": "https://raas.gelato.network/rollups/details/public/gameswift-chain-testnet"
+}, {
+  "name": "Ault Blockchain Testnet",
+  "chainId": 10904,
+  "shortName": "ault-testnet",
+  "networkId": 10904,
+  "nativeCurrency": {
+    "name": "Testnet AULT Token",
+    "symbol": "AULT",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://aultblockchain.com"
 }, {
   "name": "Fuse Flash Testnet",
   "chainId": 10920,
