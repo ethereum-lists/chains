@@ -1,23 +1,18 @@
 {
-  "name": "ENI Testnet",
+  "name": "ENI Testnet (Deprecated)",
   "chain": "ENI",
-  "rpc": ["https://rpc-testnet.eniac.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "EGAS",
     "symbol": "EGAS",
     "decimals": 18
   },
-  "infoURL": "https://eniac.network/",
-  "shortName": "eni-test",
+  "infoURL": "",
+  "shortName": "eni-test-deprecated",
   "chainId": 6912115,
   "networkId": 6912115,
   "icon": "eni-test",
-  "explorers": [
-    {
-      "name": "ENI Testnet Explorer",
-      "url": "https://scan-testnet.eniac.network",
-      "standard": "EIP3091"
-    }
-  ]
+  "explorers": [],
+  "status": "deprecated"
 }
