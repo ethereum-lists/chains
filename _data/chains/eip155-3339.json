@@ -13,5 +13,6 @@
   "chainId": 3339,
   "networkId": 3339,
   "slip44": 1,
-  "status": "incubating"
+  "status": "incubating",
+  "redFlags": ["reusedChainId"]
 }
