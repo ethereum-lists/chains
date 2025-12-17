@@ -14,6 +14,7 @@
   "networkId": 333,
   "slip44": 1,
   "status": "incubating",
+  "redFlags": ["reusedChainId"],
   "parent": {
     "type": "L2",
     "chain": "eip155-1"
