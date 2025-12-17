@@ -20,6 +20,12 @@
   "icon": "sonic",
   "explorers": [
     {
+      "name": "etherscan",
+      "url": "https://sonicscan.org",
+      "icon": "sonic",
+      "standard": "EIP3091"
+    },
+    {
       "name": "sonic",
       "url": "https://explorer.soniclabs.com",
       "icon": "sonic",
