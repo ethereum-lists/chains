@@ -1,10 +1,10 @@
 {
   "name": "CpChain Mainnet",
-  "chain": "Cp",
+  "chain": "CpChain",
   "rpc": ["https://rpc.cpchain.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "CpChain",
+    "name": "CP",
     "symbol": "CP",
     "decimals": 18
   },
