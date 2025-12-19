@@ -1,0 +1,24 @@
+{
+  "name": "ILITY Testnet",
+  "chain": "ILYt",
+  "rpc": [
+    "https://rpc.ility.click"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ILITY Token",
+    "symbol": "ILYt",
+    "decimals": 18
+  },
+  "infoURL": "https://ility.click",
+  "shortName": "ILYt",
+  "chainId": 11123,
+  "networkId": 11123,
+  "explorers": [
+    {
+      "name": "ILITY Testnet Explorer",
+      "url": "https://scan.ility.click",
+      "standard": "EIP3091"
+    }
+  ]
+}
