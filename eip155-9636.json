@@ -1,0 +1,49 @@
+{
+  "name": "GBTNetwork ",
+  "short_name": "GBT",
+  "chain": "GBT",
+  "network": "GBTNetwork",
+  "chainId": 9636,
+  "networkId": 9636,
+  "rpc": [
+    "https://rpc.GBTNetwork.io",
+    "https://rpc2.GBTNetwork.io"
+  ],
+  "nativeCurrency": {
+    "name": "GoldBarTether",
+    "symbol": "GBT",
+    "decimals": 18
+  },
+  "faucets": [],
+  "infoURL": "https://GBTorg.created.app",
+  "explorers": [
+    {
+      "name": "GBT Explorer",
+      "url": "https://GBTNetworkscan.created.app",
+      "standard": "EIP3091"
+    }
+  ],
+  "icon": "https://ucarecdn.com/c28eb92d-8bf1-489f-93b0-a63d9a010813/-/format/auto/",
+  "slip44": 60,
+  "addEthereumChain": {
+    "method": "wallet_addEthereumChain",
+    "params": [
+      {
+        "chainId": "0x25AC",  
+        "chainName": "GBTNetwork",
+        "nativeCurrency": {
+          "name": "GoldBarTether",
+          "symbol": "GBT",
+          "decimals": 18
+        },
+        "rpcUrls": [
+          "https://rpc.GBTNetwork.io",
+          "https://rpc2.GBTNetwork.io"
+        ],
+        "blockExplorerUrls": [
+          "https://GBTNetworkscan.created.app"
+        ]
+      }
+    ]
+  }
+}
