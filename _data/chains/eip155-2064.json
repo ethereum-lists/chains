@@ -1,9 +1,7 @@
 {
   "name": "MFX Network",
   "chain": "MFX",
-  "rpc": [
-    "https://rpc.mfx.network/rpc"
-  ],
+  "rpc": ["https://rpc.mfx.network/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "MFX",
@@ -20,5 +18,5 @@
       "url": "https://explorer.mfx.network",
       "standard": "EIP3091"
     }
-  ],
+  ]
 }
