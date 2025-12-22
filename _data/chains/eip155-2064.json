@@ -1,0 +1,22 @@
+{
+  "name": "MFX Network",
+  "chain": "MFX",
+  "rpc": ["https://rpc.mfx.network/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MFX",
+    "symbol": "MFX",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.mfx.network/integration.html",
+  "shortName": "mfx",
+  "chainId": 2064,
+  "networkId": 2064,
+  "explorers": [
+    {
+      "name": "MFX Explorer",
+      "url": "https://explorer.mfx.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
