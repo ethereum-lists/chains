@@ -1,7 +1,10 @@
 {
     "name": "Pharos Mainnet",
     "chain": "Pharos",
+    "icon": "pharos",
     "rpc": ["https://rpc.pharos.xyz"],
+    "features": [{ "name": "EIP155" }],
+    "faucets": [],
     "nativeCurrency": {
       "name": "PharosCoin",
       "symbol": "PROS",
@@ -11,6 +14,12 @@
     "shortName": "pharos",
     "chainId": 1672,
     "networkId": 1672,
-    "status": "active"
+    "explorers": [
+      {
+        "name": "PharosScan",
+        "url": "https://pharosscan.xyz",
+        "standard": "EIP3091"
+      }
+    ]
   }
   
