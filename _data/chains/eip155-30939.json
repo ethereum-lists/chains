@@ -6,9 +6,7 @@
     "https://rpc-testnet.dilithium3.com",
     "wss://rpc-testnet.dilithium3.com/ws"
   ],
-  "faucets": [
-    "https://faucet-testnet.dilithium3.com"
-  ],
+  "faucets": ["https://faucet-testnet.dilithium3.com"],
   "nativeCurrency": {
     "name": "Dilithium3",
     "symbol": "DLT",
