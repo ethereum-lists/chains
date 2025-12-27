@@ -1,5 +1,5 @@
 {
-    "name": "AMRChain Mainnet",
+    "name": "AMR",
     "chain": "AMR",
     "network": "mainnet",
     "rpc": [
@@ -12,7 +12,7 @@
         "symbol": "AMR",
         "decimals": 18
     },
-    "infoURL": "https://amrchain.com",
+    "infoURL": "https://orcaamr.com",
     "shortName": "amr",
     "chainId": 19019,
     "networkId": 19019,
@@ -20,7 +20,7 @@
     "explorers": [
         {
             "name": "AMRScan",
-            "url": "https://explorer.amrchain.com",
+            "url": "https://scan.orcaamr.com",
             "icon": "amrchain",
             "standard": "EIP3091"
         }
