@@ -1,0 +1,18 @@
+{
+  "name": "Capital Exchange",
+  "chain": "CXM",
+  "rpc": [
+    "https://rpc.capitalexchange.net"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Capital Exchange",
+    "symbol": "CXM",
+    "decimals": 7
+  },
+  "infoURL": "https://www.capitalexchange.markets",
+  "shortName": "CXM",
+  "chainId": 890,
+  "networkId": 890,
+  "explorers": []
+}
