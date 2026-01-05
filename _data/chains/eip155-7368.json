@@ -2,7 +2,7 @@
   "name": "Rarimo",
   "title": "Rarimo Mainnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": ["https://l2.rarimo.com", "wss://wss.l2.rarimo.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Rarimo Ether",
@@ -17,8 +17,19 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": []
+    "bridges": [
+      {
+        "url": "https://l2bridge.rarimo.com"
+      }
+    ]
   },
-  "explorers": [],
-  "status": "incubating"
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://scan.rarimo.com",
+      "standard": "EIP3091",
+      "icon": "rarimo"
+    }
+  ],
+  "status": "active"
 }

@@ -7,14 +7,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout	
-        uses: actions/checkout@v2.3.1
+        uses: actions/checkout@v4.2.2
         with:
           submodules: recursive
       - name: Build
         run: |
           ./gradlew run
       - name: Set Node.js 18.x
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4.2.0
         with:
           node-version: 18.x
       - name: Run yarn install
