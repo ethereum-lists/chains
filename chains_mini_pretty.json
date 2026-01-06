@@ -10516,9 +10516,22 @@
   "faucets": [],
   "infoURL": "https://kroma.network"
 }, {
+  "name": "KiteAI",
+  "chainId": 2366,
+  "shortName": "KiteAI",
+  "networkId": 2366,
+  "nativeCurrency": {
+    "name": "Kite",
+    "symbol": "KITE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.gokite.ai"],
+  "faucets": [],
+  "infoURL": "https://gokite.ai/"
+}, {
   "name": "KiteAI Testnet",
   "chainId": 2368,
-  "shortName": "KiteAI",
+  "shortName": "KiteAITestnet",
   "networkId": 1,
   "nativeCurrency": {
     "name": "Kite",
@@ -23573,7 +23586,7 @@
   "shortName": "cpchain-testnet",
   "networkId": 86606,
   "nativeCurrency": {
-    "name": "Testnet CpChain",
+    "name": "CP",
     "symbol": "CP",
     "decimals": 18
   },
@@ -23581,12 +23594,12 @@
   "faucets": ["https://cpchain-test.pages.dev/faucet"],
   "infoURL": "https://cpchain.com"
 }, {
-  "name": "CpChain",
+  "name": "CpChain Mainnet",
   "chainId": 86608,
   "shortName": "cpchain",
   "networkId": 86608,
   "nativeCurrency": {
-    "name": "CpChain",
+    "name": "CP",
     "symbol": "CP",
     "decimals": 18
   },
