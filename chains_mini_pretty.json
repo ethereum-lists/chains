@@ -22879,6 +22879,19 @@
   "faucets": [],
   "infoURL": "https://icb.network"
 }, {
+  "name": "Nebula",
+  "chainId": 73285,
+  "shortName": "nebula",
+  "networkId": 73285,
+  "nativeCurrency": {
+    "name": "Nebula Cash",
+    "symbol": "NEBX",
+    "decimals": 18
+  },
+  "rpc": ["https://nebula-chain.com/rpc"],
+  "faucets": [],
+  "infoURL": "https://nebula-chain.com"
+}, {
   "name": "Energy Web Volta Testnet",
   "chainId": 73799,
   "shortName": "vt",
