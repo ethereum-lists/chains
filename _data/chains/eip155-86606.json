@@ -4,7 +4,7 @@
   "rpc": ["https://rpc-testnet.cpchain.com"],
   "faucets": ["https://cpchain-test.pages.dev/faucet"],
   "nativeCurrency": {
-    "name": "Testnet CpChain",
+    "name": "CP",
     "symbol": "CP",
     "decimals": 18
   },
@@ -13,6 +13,7 @@
   "chainId": 86606,
   "networkId": 86606,
   "slip44": 1,
+  "icon": "cpchain",
   "explorers": [
     {
       "name": "CpChain Testnet Explorer",
