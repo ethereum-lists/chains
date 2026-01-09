@@ -9333,6 +9333,19 @@
   "faucets": [],
   "infoURL": "https://onuschain.io"
 }, {
+  "name": "Krown Mainnet",
+  "chainId": 1983,
+  "shortName": "krown",
+  "networkId": 1983,
+  "nativeCurrency": {
+    "name": "KROWN",
+    "symbol": "KROWN",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.krown.network", "https://mainnet1.krown.network"],
+  "faucets": [],
+  "infoURL": "https://krown.network"
+}, {
   "name": "Eurus Testnet",
   "chainId": 1984,
   "shortName": "euntest",
@@ -30509,6 +30522,19 @@
   "rpc": ["https://rpc.teamblockchain.team"],
   "faucets": [],
   "infoURL": "https://teamblockchain.team"
+}, {
+  "name": "Krown Testnet",
+  "chainId": 89127398,
+  "shortName": "krown-testnet",
+  "networkId": 89127398,
+  "nativeCurrency": {
+    "name": "KROWN",
+    "symbol": "KROWN",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.krown.network", "https://testnet1.krown.network"],
+  "faucets": ["https://faucet.krown.network"],
+  "infoURL": "https://krown.network"
 }, {
   "name": "Reya Cronos",
   "chainId": 89346162,
