@@ -4,6 +4,14 @@
   "rpc": [
     "https://rpc.capitalexchange.net"
   ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Capital Exchange",
@@ -14,7 +22,12 @@
   "shortName": "CXM",
   "chainId": 890,
   "networkId": 890,
+  "namespace": "eip155",
   "explorers": [
-    "https://explorer.capitalexchange.net"	
+    {
+      "name": "Capital Exchange Explorer",
+      "url": "https://explorer.capitalexchange.net",
+      "standard": "EIP3091"
+    }
   ]
 }
