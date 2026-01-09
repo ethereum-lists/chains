@@ -3743,18 +3743,18 @@
   "faucets": ["https://faucet.omaxray.com/"],
   "infoURL": "https://www.omaxcoin.com/"
 }, {
-  "name": "Web3Q Mainnet",
+  "name": "EthStorage Mainnet",
   "chainId": 333,
-  "shortName": "w3q",
+  "shortName": "es-m",
   "networkId": 333,
   "nativeCurrency": {
-    "name": "Web3Q",
-    "symbol": "W3Q",
+    "name": "Ether",
+    "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.web3q.io:8545"],
+  "rpc": ["https://rpc.mainnet.ethstorage.io:9540"],
   "faucets": [],
-  "infoURL": "https://web3q.io/home.w3q/"
+  "infoURL": "https://ethstorage.io/"
 }, {
   "name": "DFK Chain Test",
   "chainId": 335,
@@ -11565,7 +11565,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["http://mainnet.l2.ethstorage.io:9540"],
+  "rpc": ["https://rpc.mainnet.l2.ethstorage.io:9540"],
   "faucets": [],
   "infoURL": "https://ethstorage.io/"
 }, {
@@ -11578,7 +11578,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["http://testnet.ethstorage.io:9540"],
+  "rpc": ["https://rpc.testnet.ethstorage.io:9546"],
   "faucets": [],
   "infoURL": "https://ethstorage.io/"
 }, {
@@ -11617,7 +11617,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["http://testnet.l2.ethstorage.io:9540"],
+  "rpc": ["https://rpc.testnet.l2.ethstorage.io:9540"],
   "faucets": [],
   "infoURL": "https://ethstorage.io/"
 }, {
@@ -11630,7 +11630,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["http://devnet.ethstorage.io:9540"],
+  "rpc": ["https://rpc.devnet.ethstorage.io:9540"],
   "faucets": [],
   "infoURL": "https://ethstorage.io/"
 }, {
@@ -11647,16 +11647,16 @@
   "faucets": [],
   "infoURL": "https://www.peaq.xyz"
 }, {
-  "name": "EthStorage Mainnet",
+  "name": "EthStorage L2 Devnet",
   "chainId": 3339,
-  "shortName": "es-m",
+  "shortName": "esl2-d",
   "networkId": 3339,
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["http://mainnet.ethstorage.io:9540"],
+  "rpc": ["https://rpc.devnet.l2.ethstorage.io:9540"],
   "faucets": [],
   "infoURL": "https://ethstorage.io/"
 }, {
