@@ -17,10 +17,12 @@
   "chainId": 83592,
   "networkId": 83592,
   "icon": "ktn",
-  "explorers": [{
-    "name": "ktnscan",
-    "url": "https://ktnscan.katronai.com",
-    "icon": "ktnscan",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "ktnscan",
+      "url": "https://ktnscan.katronai.com",
+      "icon": "ktnscan",
+      "standard": "EIP3091"
+    }
+  ]
 }
