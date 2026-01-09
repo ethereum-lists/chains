@@ -25063,6 +25063,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Ethernova Mainnet",
+  "chainId": 121525,
+  "shortName": "ethnova",
+  "networkId": 121525,
+  "nativeCurrency": {
+    "name": "Ethernova",
+    "symbol": "NOVA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.ethnova.net"],
+  "faucets": [],
+  "infoURL": "https://ethnova.net"
+}, {
   "name": "Gemchain",
   "chainId": 123321,
   "shortName": "gemchain",
