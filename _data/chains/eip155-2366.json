@@ -1,23 +1,23 @@
 {
-  "name": "KiteAI Testnet",
+  "name": "KiteAI",
   "chain": "KiteAI",
   "icon": "kite",
-  "rpc": ["https://rpc-testnet.gokite.ai"],
-  "faucets": ["https://faucet.gokite.ai/"],
+  "rpc": ["https://rpc.gokite.ai"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Kite",
     "symbol": "KITE",
     "decimals": 18
   },
   "infoURL": "https://gokite.ai/",
-  "shortName": "KiteAITestnet",
-  "chainId": 2368,
-  "networkId": 1,
+  "shortName": "KiteAI",
+  "chainId": 2366,
+  "networkId": 2366,
   "slip44": 1,
   "explorers": [
     {
       "name": "Kitescan",
-      "url": "https://testnet.kitescan.ai",
+      "url": "https://kitescan.ai",
       "standard": "EIP3091"
     }
   ]
