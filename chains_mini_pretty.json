@@ -23503,6 +23503,19 @@
   "faucets": [],
   "infoURL": "https://esculap.us"
 }, {
+  "name": "Katron AI Mainnet",
+  "chainId": 83592,
+  "shortName": "ktn",
+  "networkId": 83592,
+  "nativeCurrency": {
+    "name": "Katron AI",
+    "symbol": "KTN",
+    "decimals": 18
+  },
+  "rpc": ["https://blockchain-rpc1.katronai.com", "https://blockchain-rpc2.katronai.com"],
+  "faucets": [],
+  "infoURL": "https://network.katronai.com"
+}, {
   "name": "Xprotocol Sepolia",
   "chainId": 83868,
   "shortName": "xprotocolsepolia",
