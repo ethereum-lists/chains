@@ -6993,6 +6993,19 @@
   "faucets": ["https://faucet.dogcoin.network"],
   "infoURL": "https://dogcoin.network"
 }, {
+  "name": "LuxePorts",
+  "chainId": 1122,
+  "shortName": "lxp",
+  "networkId": 1122,
+  "nativeCurrency": {
+    "name": "LuxePorts",
+    "symbol": "LXP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.luxeports.com", "https://erpc.luxeports.com", "wss://rpc.luxeports.com/ws", "wss://erpc.luxeports.com/ws"],
+  "faucets": [],
+  "infoURL": "luxeports.com"
+}, {
   "name": "B2 Testnet",
   "chainId": 1123,
   "shortName": "B2-testnet",
