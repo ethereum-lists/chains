@@ -14138,6 +14138,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "ACiD",
+  "chain": "ACID",
+  "rpc": [],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/NoBanks/ACiD",
+  "shortName": "acid",
+  "chainId": 1714,
+  "networkId": 1714,
+  "status": "incubating",
+  "explorers": []
+}, {
   "name": "Doric Network",
   "chain": "DRC",
   "icon": "doric",

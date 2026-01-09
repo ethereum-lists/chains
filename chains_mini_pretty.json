@@ -8592,6 +8592,19 @@
   "faucets": ["https://faucet.blockchain.or.th"],
   "infoURL": "https://blockchain.or.th"
 }, {
+  "name": "ACiD",
+  "chainId": 1714,
+  "shortName": "acid",
+  "networkId": 1714,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://github.com/NoBanks/ACiD"
+}, {
   "name": "Doric Network",
   "chainId": 1717,
   "shortName": "DRC",
