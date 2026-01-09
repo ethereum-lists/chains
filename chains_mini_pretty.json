@@ -28092,6 +28092,19 @@
   "faucets": [],
   "infoURL": "https://curvescan.io"
 }, {
+  "name": "HyperCluster",
+  "chainId": 838838,
+  "shortName": "HYPEC",
+  "networkId": 838838,
+  "nativeCurrency": {
+    "name": "HyperCluster Token",
+    "symbol": "HYPEC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.hypercluster.org"],
+  "faucets": ["https://faucet.hypercluster.org"],
+  "infoURL": "https://www.hypercluster.org/"
+}, {
   "name": "PRM Testnet",
   "chainId": 839320,
   "shortName": "prmtest",
