@@ -28391,6 +28391,19 @@
   "faucets": [],
   "infoURL": "https://eluv.io"
 }, {
+  "name": "AVI Coin",
+  "chainId": 963369,
+  "shortName": "avi",
+  "networkId": 963369,
+  "nativeCurrency": {
+    "name": "AVI Coin",
+    "symbol": "AVI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.avicoin.org"],
+  "faucets": [],
+  "infoURL": "https://www.avicoin.org"
+}, {
   "name": "Treasure Ruby",
   "chainId": 978657,
   "shortName": "treasure-ruby",
