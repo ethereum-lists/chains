@@ -20006,6 +20006,19 @@
   "faucets": [],
   "infoURL": "https://canxium.org"
 }, {
+  "name": "Ethiq",
+  "chainId": 30303,
+  "shortName": "ethiq",
+  "networkId": 30303,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.ethiq.network", "wss://rpc.ethiq.network"],
+  "faucets": [],
+  "infoURL": "https://www.ethiq.network"
+}, {
   "name": "Movement EVM Legacy",
   "chainId": 30730,
   "shortName": "moveleg",
@@ -28130,6 +28143,19 @@
   "rpc": ["https://chain.deptofgood.com"],
   "faucets": [],
   "infoURL": "https://bloqs4good.com"
+}, {
+  "name": "Testethiq",
+  "chainId": 853211,
+  "shortName": "testethiq",
+  "networkId": 853211,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.ethiq.network", "wss://rpc.testnet.ethiq.network"],
+  "faucets": [],
+  "infoURL": "https://www.ethiq.network"
 }, {
   "name": "Dodao",
   "chainId": 855456,
