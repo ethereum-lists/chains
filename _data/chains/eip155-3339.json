@@ -1,7 +1,7 @@
 {
-  "name": "EthStorage Mainnet",
-  "chain": "EthStorage",
-  "rpc": ["http://mainnet.ethstorage.io:9540"],
+  "name": "EthStorage L2 Devnet",
+  "chain": "EthStorage L2",
+  "rpc": ["https://rpc.devnet.l2.ethstorage.io:9540"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -9,9 +9,10 @@
     "decimals": 18
   },
   "infoURL": "https://ethstorage.io/",
-  "shortName": "es-m",
+  "shortName": "esl2-d",
   "chainId": 3339,
   "networkId": 3339,
   "slip44": 1,
-  "status": "incubating"
+  "status": "incubating",
+  "redFlags": ["reusedChainId"]
 }
