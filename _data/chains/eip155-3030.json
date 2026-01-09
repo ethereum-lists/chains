@@ -1,7 +1,7 @@
 {
   "name": "BC Hyper Chain Mainnet",
   "chain": "BC Hyper Chain",
-  "rpc": ["https://mainapi.bchscan.io"],
+  "rpc": ["https://mainapi.bchscan.io", "https://datahub-asia02.bchscan.io/"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {

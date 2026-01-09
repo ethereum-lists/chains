@@ -1,0 +1,34 @@
+{
+  "name": "Ethiq",
+  "chain": "ETH",
+  "rpc": ["https://rpc.ethiq.network", "wss://rpc.ethiq.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.ethiq.network",
+  "shortName": "ethiq",
+  "chainId": 30303,
+  "networkId": 30303,
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" },
+    { "name": "EIP2718" },
+    { "name": "EIP2930" }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://shell.haqq.network/bridge" }]
+  },
+  "explorers": [
+    {
+      "name": "Ethiq Blockscout",
+      "url": "https://explorer.ethiq.network",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

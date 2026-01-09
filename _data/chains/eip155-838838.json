@@ -1,0 +1,23 @@
+{
+  "name": "HyperCluster",
+  "chain": "HYPEC",
+  "rpc": ["https://rpc.hypercluster.org"],
+  "faucets": ["https://faucet.hypercluster.org"],
+  "nativeCurrency": {
+    "name": "HyperCluster Token",
+    "symbol": "HYPEC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.hypercluster.org/",
+  "shortName": "HYPEC",
+  "chainId": 838838,
+  "networkId": 838838,
+  "icon": "hypercluster",
+  "explorers": [
+    {
+      "name": "HyperCluster Explorer",
+      "url": "https://explorer.hypercluster.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
