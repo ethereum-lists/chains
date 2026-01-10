@@ -1,7 +1,7 @@
 {
   "name": "EthStorage L2 Testnet",
-  "chain": "EthStorage",
-  "rpc": ["http://testnet.l2.ethstorage.io:9540"],
+  "chain": "EthStorage L2",
+  "rpc": ["https://rpc.testnet.l2.ethstorage.io:9540"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -16,6 +16,6 @@
   "status": "incubating",
   "parent": {
     "type": "L2",
-    "chain": "eip155-11155111"
+    "chain": "eip155-110011"
   }
 }
