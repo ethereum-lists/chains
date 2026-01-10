@@ -18368,6 +18368,32 @@
   "faucets": [],
   "infoURL": "https://eosnetwork.com/eos-evm"
 }, {
+  "name": "Bitroot Testnet",
+  "chainId": 15885,
+  "shortName": "bitroot-testnet",
+  "networkId": 15885,
+  "nativeCurrency": {
+    "name": "BRT",
+    "symbol": "BRT",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.bitroot.co"],
+  "faucets": ["https://faucet.bitroot.co"],
+  "infoURL": "https://bitroot.co"
+}, {
+  "name": "Bitroot",
+  "chainId": 15888,
+  "shortName": "bitroot",
+  "networkId": 15888,
+  "nativeCurrency": {
+    "name": "BRT",
+    "symbol": "BRT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.bitroot.co", "https://mainnet-rpc.bitroot.co"],
+  "faucets": [],
+  "infoURL": "https://bitroot.co"
+}, {
   "name": "MetaDot Mainnet",
   "chainId": 16000,
   "shortName": "mtt",
