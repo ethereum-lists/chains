@@ -4653,6 +4653,19 @@
   "faucets": ["https://faucet.testnet.prometheuz.io"],
   "infoURL": ""
 }, {
+  "name": "Validium Network",
+  "chainId": 567,
+  "shortName": "validium-testnet",
+  "networkId": 567,
+  "nativeCurrency": {
+    "name": "Validium",
+    "symbol": "VLDM",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.l2.rpc.validium.network"],
+  "faucets": ["https://testnet.faucet.validium.network"],
+  "infoURL": "https://www.validium.network"
+}, {
   "name": "Dogechain Testnet",
   "chainId": 568,
   "shortName": "dct",
