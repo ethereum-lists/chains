@@ -24764,18 +24764,18 @@
   "faucets": [],
   "infoURL": "https://kaspaclassic.com/"
 }, {
-  "name": "Stratis Mainnet",
+  "name": "Xertra Mainnet",
   "chainId": 105105,
-  "shortName": "stratis",
+  "shortName": "xertra",
   "networkId": 105105,
   "nativeCurrency": {
-    "name": "Stratis",
+    "name": "STRAX",
     "symbol": "STRAX",
     "decimals": 18
   },
-  "rpc": ["https://rpc.stratisevm.com"],
+  "rpc": ["https://rpc.xertra.com"],
   "faucets": [],
-  "infoURL": "https://www.stratisplatform.com"
+  "infoURL": "https://www.xertra.com/"
 }, {
   "name": "Lumoz Chain Testnet",
   "chainId": 105363,
@@ -25965,13 +25965,13 @@
   "shortName": "auroria",
   "networkId": 205205,
   "nativeCurrency": {
-    "name": "Auroria Stratis",
+    "name": "tSTRAX",
     "symbol": "tSTRAX",
     "decimals": 18
   },
-  "rpc": ["https://auroria.rpc.stratisevm.com"],
-  "faucets": ["https://auroria.faucet.stratisevm.com"],
-  "infoURL": "https://www.stratisplatform.com"
+  "rpc": ["https://auroria.rpc.xertra.com"],
+  "faucets": ["https://auroria.faucet.xertra.com"],
+  "infoURL": "https://xertra.com"
 }, {
   "name": "JuChain Mainnet",
   "chainId": 210000,

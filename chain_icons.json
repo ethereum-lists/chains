@@ -3215,14 +3215,6 @@
     "format": "png"
   }]
 }, {
-  "name": "stratis",
-  "icons": [{
-    "url": "ipfs://QmWiRBqfzoZ3GC7oCbYFqbwLyF4uDHM4eYdKUUJ7LHf2EA",
-    "width": 59,
-    "height": 55,
-    "format": "svg"
-  }]
-}, {
   "name": "ezchain",
   "icons": [{
     "url": "ipfs://QmPKJbYCFjGmY9X2cA4b9YQjWYHQncmKnFtKyQh9rHkFTb",
@@ -4204,6 +4196,14 @@
     "url": "ipfs://bafybeifkgtmhnq4sxu6jn22i7ass7aih6ubodr77k6ygtu4tjbvpmkw2ga",
     "width": 500,
     "height": 500,
+    "format": "png"
+  }]
+}, {
+  "name": "xertra",
+  "icons": [{
+    "url": "ipfs://QmV1qG5jcEFhekamTzrMqzMTDRvCGdGQAiJcsHZ9viVwgT",
+    "width": 512,
+    "height": 512,
     "format": "png"
   }]
 }, {
@@ -6262,10 +6262,10 @@
 }, {
   "name": "auroria",
   "icons": [{
-    "url": "ipfs://QmbkTh6qNYUnae5yNjied3qZqVyZcb4x3hfUpJ33bGg9QY",
-    "width": 800,
-    "height": 800,
-    "format": "jpg"
+    "url": "ipfs://QmNuQjnJ1JXkPRDwbFL1oZRpEaPhggPpccteAaxSPYBJJN",
+    "width": 512,
+    "height": 512,
+    "format": "png"
   }]
 }, {
   "name": "juneo-usd1",
