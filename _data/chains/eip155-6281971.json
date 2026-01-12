@@ -2,7 +2,7 @@
   "name": "DogeOS Chikyū Testnet",
   "chain": "DOGEOS",
   "rpc": ["https://rpc.testnet.dogeos.com"],
-  "faucets": [],
+  "faucets": ["https://faucet.testnet.dogeos.com/"],
   "nativeCurrency": {
     "name": "DOGE",
     "symbol": "DOGE",
