@@ -1,0 +1,24 @@
+{
+  "name": "Krown Testnet",
+  "chain": "KROWN",
+  "icon": "krown",
+  "rpc": ["https://testnet.krown.network", "https://testnet1.krown.network"],
+  "faucets": ["https://faucet.krown.network"],
+  "nativeCurrency": {
+    "name": "KROWN",
+    "symbol": "KROWN",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://krown.network",
+  "shortName": "krown-testnet",
+  "chainId": 89127398,
+  "networkId": 89127398,
+  "explorers": [
+    {
+      "name": "Krown Testnet Explorer",
+      "url": "https://explorer-testnet.krown.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
