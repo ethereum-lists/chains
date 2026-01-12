@@ -1,0 +1,22 @@
+{
+  "name": "DogeOS Chikyū Testnet",
+  "chain": "DOGEOS",
+  "rpc": ["https://rpc.testnet.dogeos.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DOGE",
+    "symbol": "DOGE",
+    "decimals": 18
+  },
+  "infoURL": "https://dogeos.com",
+  "shortName": "dogeos-chikyu",
+  "chainId": 6281971,
+  "networkId": 6281971,
+  "explorers": [
+    {
+      "name": "DogeOS Chikyū Testnet",
+      "url": "https://blockscout.testnet.dogeos.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
