@@ -10876,8 +10876,21 @@
     "symbol": "FRAX",
     "decimals": 18
   },
-  "rpc": ["https://rpc.testnet.frax.com", "https://fraxtal-holesky-rpc.publicnode.com", "wss://fraxtal-holesky-rpc.publicnode.com"],
+  "rpc": [],
   "faucets": [],
+  "infoURL": "https://testnet.frax.com"
+}, {
+  "name": "Fraxtal Hoodi Testnet",
+  "chainId": 2523,
+  "shortName": "fraxtal-hoodi-testnet",
+  "networkId": 2523,
+  "nativeCurrency": {
+    "name": "Frax",
+    "symbol": "FRAX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.frax.com"],
+  "faucets": ["https://faucet.testnet.frax.com/"],
   "infoURL": "https://testnet.frax.com"
 }, {
   "name": "inEVM Mainnet",
