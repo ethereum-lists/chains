@@ -4237,6 +4237,19 @@
   "faucets": [],
   "infoURL": "https://gesoten.com/"
 }, {
+  "name": "NutriEmp Chain",
+  "chainId": 432,
+  "shortName": "nutriemp",
+  "networkId": 432,
+  "nativeCurrency": {
+    "name": "GRAMZ",
+    "symbol": "GRAMZ",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.nutriemp-chain.link", "https://rpc.nutriemp.com"],
+  "faucets": [],
+  "infoURL": "https://nutriemp.com"
+}, {
   "name": "Boyaa Mainnet",
   "chainId": 434,
   "shortName": "BYC",
