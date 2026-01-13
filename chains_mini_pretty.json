@@ -20136,6 +20136,19 @@
   "faucets": [],
   "infoURL": "https://movementlabs.xyz"
 }, {
+  "name": "Dilithium3 Testnet",
+  "chainId": 30939,
+  "shortName": "dlt-testnet",
+  "networkId": 30939,
+  "nativeCurrency": {
+    "name": "Dilithium3",
+    "symbol": "DLT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.dilithium3.com", "wss://rpc-testnet.dilithium3.com/ws"],
+  "faucets": ["https://faucet-testnet.dilithium3.com"],
+  "infoURL": "https://dilithium3.com"
+}, {
   "name": "Ethersocial Network",
   "chainId": 31102,
   "shortName": "esn",
