@@ -2,7 +2,12 @@
   "name": "Polkadot Testnet",
   "chain": "PAS",
   "icon": "polkadot-testnet",
-  "rpc": ["https://services.polkadothub-rpc.com/testnet", "wss://services.polkadothub-rpc.com/testnet", "https://eth-rpc.testnet.polkadot.io","wss://eth-rpc.testnet.polkadot.io"],
+  "rpc": [
+    "https://services.polkadothub-rpc.com/testnet",
+    "wss://services.polkadothub-rpc.com/testnet",
+    "https://eth-rpc.testnet.polkadot.io",
+    "wss://eth-rpc.testnet.polkadot.io"
+  ],
   "faucets": ["https://faucet.polkadot.io/"],
   "nativeCurrency": {
     "name": "PAS",
@@ -14,7 +19,7 @@
   "shortName": "pas",
   "chainId": 420420417,
   "networkId": 420420417,
-    "explorers": [
+  "explorers": [
     {
       "name": "blockscout",
       "url": "https://blockscout.testnet.polkadot.io/",

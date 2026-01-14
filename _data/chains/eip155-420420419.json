@@ -2,7 +2,12 @@
   "name": "Polkadot",
   "chain": "DOT",
   "icon": "polkadot",
-  "rpc": ["https://services.polkadothub-rpc.com/mainnet","wss://services.polkadothub-rpc.com/mainnet", "https://eth-rpc.polkadot.io","wss://eth-rpc.polkadot.io"],
+  "rpc": [
+    "https://services.polkadothub-rpc.com/mainnet",
+    "wss://services.polkadothub-rpc.com/mainnet",
+    "https://eth-rpc.polkadot.io",
+    "wss://eth-rpc.polkadot.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DOT",

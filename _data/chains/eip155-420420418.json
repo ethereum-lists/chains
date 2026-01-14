@@ -2,7 +2,10 @@
   "name": "Kusama",
   "chain": "KSM",
   "icon": "kusama",
-  "rpc": ["https://eth-rpc.kusama.polkadot.io", "wss://eth-rpc.kusama.polkadot.io"],
+  "rpc": [
+    "https://eth-rpc.kusama.polkadot.io",
+    "wss://eth-rpc.kusama.polkadot.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "KSM",
@@ -15,7 +18,7 @@
   "chainId": 420420418,
   "networkId": 420420418,
   "explorers": [
-     {
+    {
       "name": "blockscout",
       "url": "https://blockscout.kusama.polkadot.io/",
       "standard": "none"
