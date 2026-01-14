@@ -1,7 +1,8 @@
 {
   "name": "Polkadot Testnet",
   "chain": "PAS",
-  "rpc": ["https://services.polkadothub-rpc.com/testnet"],
+  "icon": "polkadot-testnet",
+  "rpc": ["https://services.polkadothub-rpc.com/testnet", "wss://services.polkadothub-rpc.com/testnet", "https://eth-rpc.testnet.polkadot.io","wss://eth-rpc.testnet.polkadot.io"],
   "faucets": ["https://faucet.polkadot.io/"],
   "nativeCurrency": {
     "name": "PAS",
@@ -15,8 +16,13 @@
   "networkId": 420420417,
     "explorers": [
     {
-      "name": "polkascan",
-      "url": "https://testnet.polkascan.io/",
+      "name": "blockscout",
+      "url": "https://blockscout.testnet.polkadot.io/",
+      "standard": "none"
+    },
+    {
+      "name": "routescan",
+      "url": "https://polkadot.testnet.routescan.io/",
       "standard": "none"
     }
   ]

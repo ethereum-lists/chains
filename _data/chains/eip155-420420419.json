@@ -1,7 +1,8 @@
 {
   "name": "Polkadot",
   "chain": "DOT",
-  "rpc": ["https://asset-hub-eth-rpc.polkadot.io", "https://services.polkadothub-rpc.com/mainnet"],
+  "icon": "polkadot",
+  "rpc": ["https://services.polkadothub-rpc.com/mainnet","wss://services.polkadothub-rpc.com/mainnet", "https://eth-rpc.polkadot.io","wss://eth-rpc.polkadot.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "DOT",
@@ -15,8 +16,13 @@
   "networkId": 420420419,
   "explorers": [
     {
-      "name": "polkascan",
-      "url": "https://polkascan.io/",
+      "name": "blockscout",
+      "url": "https://blockscout.polkadot.io/",
+      "standard": "none"
+    },
+    {
+      "name": "routescan",
+      "url": "https://polkadot.routescan.io/",
       "standard": "none"
     }
   ]
