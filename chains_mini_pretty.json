@@ -2231,7 +2231,20 @@
     "symbol": "EGAS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.eniac.network", "wss://rpc.eniac.network/ws/"],
+  "rpc": ["https://rpc.eniac.network", "https://rpc1.eniac.network", "https://rpc2.eniac.network", "https://enirpc.com", "https://jp.enirpc.com", "https://jp.eniacrpc.net", "wss://rpc.eniac.network/ws/"],
+  "faucets": [],
+  "infoURL": "https://eniac.network/"
+}, {
+  "name": "ENI Testnet",
+  "chainId": 174,
+  "shortName": "eni-test",
+  "networkId": 174,
+  "nativeCurrency": {
+    "name": "EGAS",
+    "symbol": "EGAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.eniac.network"],
   "faucets": [],
   "infoURL": "https://eniac.network/"
 }, {
@@ -29366,18 +29379,18 @@
   "faucets": [],
   "infoURL": "https://tingscan.com"
 }, {
-  "name": "ENI Testnet",
+  "name": "ENI Testnet (Deprecated)",
   "chainId": 6912115,
-  "shortName": "eni-test",
+  "shortName": "eni-test-deprecated",
   "networkId": 6912115,
   "nativeCurrency": {
     "name": "EGAS",
     "symbol": "EGAS",
     "decimals": 18
   },
-  "rpc": ["https://rpc-testnet.eniac.network"],
+  "rpc": [],
   "faucets": [],
-  "infoURL": "https://eniac.network/"
+  "infoURL": ""
 }, {
   "name": "Humanity Protocol",
   "chainId": 6985385,
