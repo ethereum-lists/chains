@@ -2,7 +2,7 @@
   "name": "CX Chain Testnet",
   "chain": "cxchain",
   "icon": "cxchain",
-  "rpc": ["https://subnets.avax.network/cxctestnet/testnet/rpc"],
+  "rpc": ["https://subnets-test.avax.network/en/cxchain"],
   "faucets": [],
   "nativeCurrency": {
     "name": "CX",
@@ -11,13 +11,13 @@
   },
   "infoURL": "https://www.cxchain.xyz/",
   "shortName": "cx-testnet",
-  "chainId": 70707,
-  "networkId": 70707,
+  "chainId": 707071,
+  "networkId": 707071,
   "slip44": 1,
   "explorers": [
     {
       "name": "explorer",
-      "url": "https://subnets-test.avax.network/cxctestnet",
+      "url": "https://subnets-test.avax.network/en/cxchain",
       "standard": "EIP3091"
     }
   ]
