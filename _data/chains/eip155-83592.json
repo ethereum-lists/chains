@@ -1,0 +1,28 @@
+{
+  "name": "Katron AI Mainnet",
+  "chain": "KTN",
+  "rpc": [
+    "https://blockchain-rpc1.katronai.com",
+    "https://blockchain-rpc2.katronai.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Katron AI",
+    "symbol": "KTN",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://network.katronai.com",
+  "shortName": "ktn",
+  "chainId": 83592,
+  "networkId": 83592,
+  "icon": "ktn",
+  "explorers": [
+    {
+      "name": "ktnscan",
+      "url": "https://ktnscan.katronai.com",
+      "icon": "ktnscan",
+      "standard": "EIP3091"
+    }
+  ]
+}
