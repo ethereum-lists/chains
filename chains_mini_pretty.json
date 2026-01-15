@@ -15573,6 +15573,19 @@
   "faucets": [],
   "infoURL": "https://github.com/Qitmeer"
 }, {
+  "name": "Alpen Testnet",
+  "chainId": 8150,
+  "shortName": "alpen-testnet",
+  "networkId": 8150,
+  "nativeCurrency": {
+    "name": "Signet BTC",
+    "symbol": "sBTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.alpenlabs.io"],
+  "faucets": [],
+  "infoURL": "https://alpenlabs.io/"
+}, {
   "name": "Testnet BeOne Chain",
   "chainId": 8181,
   "shortName": "tBOC",
