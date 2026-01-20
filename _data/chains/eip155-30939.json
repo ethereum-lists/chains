@@ -4,7 +4,7 @@
   "icon": "dilithium3",
   "rpc": [
     "https://rpc-testnet.dilithium3.com",
-    "wss://rpc-testnet.dilithium3.com/ws"
+    "wss://ws-testnet.dilithium3.com"
   ],
   "faucets": ["https://faucet-testnet.dilithium3.com"],
   "nativeCurrency": {
@@ -19,7 +19,7 @@
   "slip44": 60,
   "explorers": [
     {
-      "name": "D3 Navigator",
+      "name": "Dilithium3 Explorer",
       "url": "https://explorer-testnet.dilithium3.com",
       "standard": "EIP3091"
     }
