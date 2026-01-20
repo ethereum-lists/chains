@@ -1,9 +1,7 @@
 {
   "name": "WebChain",
   "chain": "WVM",
-  "rpc": [
-    "https://rpc.webchain.e-talk.xyz"
-  ],
+  "rpc": ["https://rpc.webchain.e-talk.xyz"],
   "nativeCurrency": {
     "name": "ETK",
     "symbol": "ETK",
