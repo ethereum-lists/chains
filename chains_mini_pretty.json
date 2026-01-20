@@ -12544,6 +12544,19 @@
   "faucets": ["https://faucet.tipboxcoin.net"],
   "infoURL": "https://tipboxcoin.net"
 }, {
+  "name": "RISE",
+  "chainId": 4153,
+  "shortName": "rise",
+  "networkId": 4153,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.risechain.com/", "wss://rpc.risechain.com/ws"],
+  "faucets": [],
+  "infoURL": "https://risechain.com"
+}, {
   "name": "CrossFi Testnet",
   "chainId": 4157,
   "shortName": "crossfi-testnet",
@@ -29819,7 +29832,7 @@
   },
   "rpc": ["https://testnet.riselabs.xyz", "wss://testnet.riselabs.xyz/ws"],
   "faucets": ["https://faucet.testnet.riselabs.xyz"],
-  "infoURL": "https://www.riselabs.xyz/"
+  "infoURL": "https://risechain.com/"
 }, {
   "name": "R0AR Testnet",
   "chainId": 11166111,
