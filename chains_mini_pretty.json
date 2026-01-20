@@ -6408,6 +6408,19 @@
   "faucets": [],
   "infoURL": "https://binarychain.org"
 }, {
+  "name": "Stable Mainnet",
+  "chainId": 988,
+  "shortName": "stable",
+  "networkId": 988,
+  "nativeCurrency": {
+    "name": "gUSDT",
+    "symbol": "gUSDT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.stable.xyz"],
+  "faucets": [],
+  "infoURL": "https://stable.xyz"
+}, {
   "name": "TOP Mainnet",
   "chainId": 989,
   "shortName": "top",
