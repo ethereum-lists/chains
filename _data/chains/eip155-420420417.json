@@ -23,12 +23,12 @@
     {
       "name": "blockscout",
       "url": "https://blockscout-testnet.polkadot.io",
-      "standard": "none"
+      "standard": "EIP3091"
     },
     {
       "name": "routescan",
       "url": "https://polkadot.testnet.routescan.io",
-      "standard": "none"
+      "standard": "EIP3091"
     }
   ]
 }
