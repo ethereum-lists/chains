@@ -29041,6 +29041,19 @@
   "faucets": [],
   "infoURL": "https://coti.io/"
 }, {
+  "name": "Horizen Testnet",
+  "chainId": 2651420,
+  "shortName": "horizen-testnet",
+  "networkId": 2651420,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://horizen-testnet.rpc.caldera.xyz/http"],
+  "faucets": [],
+  "infoURL": "https://horizen-testnet.hub.caldera.xyz"
+}, {
   "name": "Xterio Chain (ETH)",
   "chainId": 2702128,
   "shortName": "xterio",
