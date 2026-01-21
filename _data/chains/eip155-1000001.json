@@ -2,6 +2,7 @@
   "name": "WebChain",
   "chain": "WVM",
   "rpc": ["https://rpc.webchain.e-talk.xyz"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "ETK",
     "symbol": "ETK",
@@ -16,5 +17,5 @@
       "standard": "EIP3091"
     }
   ],
-  "logo": "webchain"
+  "icon": "webchain"
 }
