@@ -72,6 +72,18 @@ where you need to specify type 2 and the reference to an existing parent. The fi
 You can add a `status` field e.g. to deprecate (via status `deprecated`) a chain (a chain should never be deleted as this would open the door to replay attacks)
 Other options for `status` are `active` (default) or `incubating`
 
+## How to add a new chain (Quick Start)
+
+1.  **Fork** this repository to your GitHub account.
+2.  **Create a file** in the `_data/chains` directory.
+    * The filename **MUST** be `eip155-<your_chain_id>.json` (e.g., `eip155-8453.json` for Base).
+3.  **Add your chain data** using the JSON format described below.
+    * Ensure `name` and `shortName` are unique.
+    * Ensure your RPCs are publicly accessible.
+4.  **Test locally** (optional but recommended):
+    * Run `./gradlew run` in your terminal to verify your JSON is valid.
+5.  **Submit a Pull Request (PR)** to the main repository.
+
 ## Aggregation
 
 There are also aggregated json files with all chains automatically assembled:
