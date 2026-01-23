@@ -163,5 +163,15 @@ If your Pull Request fails the CI checks, check for these common issues:
  * [FaucETH](https://github.com/komputing/FaucETH)
  * [Sourcify playground](https://playground.sourcify.dev)
 
-
  * Your project - contact us to add it here!
+
+## Frequently Asked Questions (FAQ)
+
+**Q: Can I change my Chain ID after it is merged?**
+A: No. Changing a Chain ID creates security risks (replay attacks). The only exception is if the old chain is fully deprecated.
+
+**Q: Why was my PR closed?**
+A: PRs are often closed if the Chain ID conflicts with an existing one, or if the RPC endpoints are not publicly accessible during the automated tests.
+
+**Q: Can I delete a chain?**
+A: Chains should generally be "deprecated" rather than deleted, to preserve history and prevent ID reuse.
