@@ -1,7 +1,7 @@
 {
-  "name": "X Layer Testnet2",
-  "chain": "X Layer Testnet2",
-  "rpc": ["https://testrpc.xlayer.tech/terigon", "https://xlayertestrpc.okx.com/terigon"],
+  "name": "X Layer Testnet",
+  "chain": "X Layer Testnet",
+  "rpc": ["https://testrpc.xlayer.tech", "https://xlayertestrpc.okx.com"],
   "nativeCurrency": {
     "name": "X Layer Global Utility Token in testnet",
     "symbol": "OKB",
@@ -9,10 +9,17 @@
   },
   "features": [],
   "infoURL": "https://www.okx.com/xlayer",
-  "shortName": "tokb",
+  "shortName": "okb",
   "chainId": 1952,
   "networkId": 1952,
   "slip44": 1,
-  "icon": "xlayerTestnet2",
+  "icon": "xlayerTestnet",
+  "explorers": [
+    {
+      "name": "OKLink",
+      "url": "https://www.oklink.com/xlayer-test",
+      "standard": "EIP3091"
+    }
+  ],
   "status": "active"
 }
