@@ -82,7 +82,7 @@ Other options for `status` are `active` (default) or `incubating`
     * Ensure your RPCs are publicly accessible.
 4.  **Test locally** (optional but recommended):
     * Run `./gradlew run` in your terminal to verify your JSON is valid.
-5.  **Submit a Pull Request (PR)** to the main repository.
+5.  **Submit a Pull Request (PR)** to the main repository. 
 
 ## Aggregation
 
@@ -114,6 +114,15 @@ $ ./gradlew run
 BUILD SUCCESSFUL in 7s
 9 actionable tasks: 9 executed
 ```
+
+## Troubleshooting & Common Errors
+
+If your Pull Request fails the CI checks, check for these common issues:
+
+* **RPC Failures:** The CI tests every RPC URL in your JSON. If an RPC is offline, rate-limited, or requires an API key that isn't provided, the check will fail.
+* **Invalid JSON:** Ensure your file is valid JSON (no trailing commas, correct quotes).
+* **Duplicate Chain ID:** You cannot use a Chain ID that is already registered. If you are launching a new testnet, you must generate a new Chain ID.
+* **Icon Issues:** IPFS icons must be publicly resolvable. Do not use private gateways.
 
 ## Usages
 ### Wallets
