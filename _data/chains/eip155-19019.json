@@ -1,0 +1,36 @@
+{
+    "name": "AMR",
+    "chain": "AMR",
+    "network": "mainnet",
+    "rpc": [
+        "https://rpc.orcaamr.com",
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+        "name": "AMR",
+        "symbol": "AMR",
+        "decimals": 18
+    },
+    "infoURL": "https://orcaamr.com",
+    "shortName": "amr",
+    "chainId": 19019,
+    "networkId": 19019,
+    "icon": "amrchain",
+    "explorers": [
+        {
+            "name": "AMRScan",
+            "url": "https://scan.orcaamr.com",
+            "icon": "amrchain",
+            "standard": "EIP3091"
+        }
+    ],
+    "features": [
+        {
+            "name": "EIP155"
+        },
+        {
+            "name": "EIP1559"
+        }
+    ]
+}
+
