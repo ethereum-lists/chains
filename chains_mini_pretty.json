@@ -23308,6 +23308,19 @@
   "faucets": ["https://faucet.vanarchain.com"],
   "infoURL": "https://vanarchain.com"
 }, {
+  "name": "Nillion Network Sepolia Testnet",
+  "chainId": 78651,
+  "shortName": "nilsep",
+  "networkId": 78651,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.nillion.network", "wss://rpc.testnet.nillion.network"],
+  "faucets": [],
+  "infoURL": "https://nillion.com/"
+}, {
   "name": "Gold Smart Chain Testnet",
   "chainId": 79879,
   "shortName": "STANDt",
@@ -24425,6 +24438,19 @@
   "rpc": ["https://testnet-rpc.plume.org", "wss://testnet-rpc.plume.org"],
   "faucets": ["https://faucet.plume.org"],
   "infoURL": "https://plume.org"
+}, {
+  "name": "Nillion Network",
+  "chainId": 98875,
+  "shortName": "nil",
+  "networkId": 98875,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.nillion.network", "wss://rpc.nillion.network"],
+  "faucets": [],
+  "infoURL": "https://nillion.com/"
 }, {
   "name": "Ebi Chain",
   "chainId": 98881,
