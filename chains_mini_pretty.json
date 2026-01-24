@@ -14871,17 +14871,17 @@
   "faucets": [],
   "infoURL": "https://www.meverse.sg"
 }, {
-  "name": "Rome Mainnet 0 Palatine",
+  "name": "Rome Palatine",
   "chainId": 7531,
-  "shortName": "rome-mainnet-0-palatine",
+  "shortName": "rome-palatine",
   "networkId": 7531,
   "nativeCurrency": {
     "name": "RSOL",
     "symbol": "RSOL",
     "decimals": 18
   },
-  "rpc": ["https://palatine-i.mainnet-0.romeprotocol.xyz"],
-  "faucets": ["https://deposit.mainnet-0.romeprotocol.xyz"],
+  "rpc": ["https://palatine.romeprotocol.xyz", "https://palatine2.romeprotocol.xyz"],
+  "faucets": [],
   "infoURL": "https://rome.builders"
 }, {
   "name": "Rome Mainnet 0 Aventine",
