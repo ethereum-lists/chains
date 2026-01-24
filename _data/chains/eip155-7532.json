@@ -1,7 +1,10 @@
 {
   "name": "Rome Aventine",
   "chain": "ROME",
-  "rpc": ["https://aventine.romeprotocol.xyz", "https://aventine2.romeprotocol.xyz"],
+  "rpc": [
+    "https://aventine.romeprotocol.xyz",
+    "https://aventine2.romeprotocol.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "RSOL",

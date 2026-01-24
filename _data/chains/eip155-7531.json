@@ -1,7 +1,10 @@
 {
   "name": "Rome Palatine",
   "chain": "ROME",
-  "rpc": ["https://palatine.romeprotocol.xyz", "https://palatine2.romeprotocol.xyz"],
+  "rpc": [
+    "https://palatine.romeprotocol.xyz",
+    "https://palatine2.romeprotocol.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "RSOL",
