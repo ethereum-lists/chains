@@ -1,5 +1,5 @@
 {
-  "name": "Tempo Testnet",
+  "name": "Tempo Testnet Moderato",
   "chain": "ETH",
   "rpc": ["https://rpc.moderato.tempo.xyz", "wss://rpc.moderato.tempo.xyz"],
   "faucets": [],
@@ -9,7 +9,7 @@
     "decimals": 6
   },
   "infoURL": "https://tempo.xyz",
-  "shortName": "moderato",
+  "shortName": "tempo-moderato",
   "chainId": 42431,
   "networkId": 42431,
   "icon": "tempo",
