@@ -1,0 +1,25 @@
+{
+  "name": “ONN Chain”,
+  "chain": “ONN”,
+  "rpc": [
+    "https://rpc.onnscan.org",
+  ],
+  "faucets": [],
+  "nativeCurrency": {ONN Coin
+    "name": “ONN Coin”,
+    "symbol": “ONN”,
+    "decimals": 18
+  },
+
+  "infoURL": "https://onnscan.com",
+  "shortName": “ONN”,
+  "chainId": 1330,
+  "networkId": 1330,
+  "icon": “onnchain”,
+  "explorers": [{
+    "name": “ONN Chain Explorer“,
+    "url": "https://mainnet.onnscan.org",
+    "icon": “ONN Chain”,
+    "standard": "EIP3091"
+  }]
+}
