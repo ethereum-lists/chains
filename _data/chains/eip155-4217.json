@@ -1,0 +1,24 @@
+{
+  "name": "Tempo Mainnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc.tempo.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "No native currency",
+    "symbol": "USD",
+    "decimals": 6
+  },
+  "infoURL": "https://tempo.xyz",
+  "shortName": "tempo",
+  "chainId": 4217,
+  "networkId": 4217,
+  "icon": "tempo",
+  "explorers": [
+    {
+      "name": "tempo-explorer",
+      "url": "https://explore.mainnet.tempo.xyz",
+      "icon": "tempo",
+      "standard": "EIP3091"
+    }
+  ]
+}
