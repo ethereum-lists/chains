@@ -1,0 +1,22 @@
+{
+  "name": "QVTX Infinite Blockchain",
+  "chain": "QVTX",
+  "rpc": ["https://rpc.qvtx.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QVTX",
+    "symbol": "QVTX",
+    "decimals": 18
+  },
+  "infoURL": "https://qvtx.io",
+  "shortName": "qvtx",
+  "chainId": 20232,
+  "networkId": 20232,
+  "explorers": [
+    {
+      "name": "QVTX Explorer",
+      "url": "https://explorer.qvtx.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
