@@ -1,7 +1,7 @@
 {
   "name": "QVTX Infinite Blockchain",
   "chain": "QVTX",
-  "rpc": ["http://162.254.36.25:8545"],
+  "rpc": ["https://rpc.qvtx.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "QVTX",
@@ -15,8 +15,8 @@
   "explorers": [
     {
       "name": "QVTX Explorer",
-      "url": "http://162.254.36.25:8545",
-      "standard": "none"
+      "url": "https://explorer.qvtx.io",
+      "standard": "EIP3091"
     }
   ]
 }
