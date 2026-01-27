@@ -12531,6 +12531,19 @@
   "faucets": [],
   "infoURL": "https://aioz.network"
 }, {
+  "name": "Citrea Mainnet",
+  "chainId": 4114,
+  "shortName": "citrea",
+  "networkId": 4114,
+  "nativeCurrency": {
+    "name": "Citrea BTC",
+    "symbol": "cBTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mainnet.citrea.xyz"],
+  "faucets": [],
+  "infoURL": "https://citrea.xyz"
+}, {
   "name": "Humans.ai Testnet",
   "chainId": 4139,
   "shortName": "humans_testnet",
