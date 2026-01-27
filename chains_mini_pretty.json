@@ -28690,6 +28690,19 @@
   "faucets": [],
   "infoURL": "https://hewe.io/"
 }, {
+  "name": "WebChain ETK",
+  "chainId": 1000001,
+  "shortName": "wvm",
+  "networkId": 1000001,
+  "nativeCurrency": {
+    "name": "ETK",
+    "symbol": "ETK",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.webchain.e-talk.xyz"],
+  "faucets": [],
+  "infoURL": "https://e-talk.xyz/webchain"
+}, {
   "name": "Wirex Pay Testnet",
   "chainId": 1001996,
   "shortName": "wirex-testnet",
