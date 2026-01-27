@@ -21046,9 +21046,9 @@
   "faucets": ["https://faucet.assetchain.org"],
   "infoURL": "https://docs.assetchain.org"
 }, {
-  "name": "Tempo Testnet",
+  "name": "Tempo Testnet Andantino (Deprecated)",
   "chainId": 42429,
-  "shortName": "tempotest",
+  "shortName": "tempo-andantino",
   "networkId": 42429,
   "nativeCurrency": {
     "name": "No native currency",
@@ -21056,6 +21056,19 @@
     "decimals": 6
   },
   "rpc": ["https://rpc.testnet.tempo.xyz"],
+  "faucets": [],
+  "infoURL": "https://tempo.xyz"
+}, {
+  "name": "Tempo Testnet Moderato",
+  "chainId": 42431,
+  "shortName": "tempo-moderato",
+  "networkId": 42431,
+  "nativeCurrency": {
+    "name": "No native currency",
+    "symbol": "USD",
+    "decimals": 6
+  },
+  "rpc": ["https://rpc.moderato.tempo.xyz", "wss://rpc.moderato.tempo.xyz"],
   "faucets": [],
   "infoURL": "https://tempo.xyz"
 }, {

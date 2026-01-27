@@ -34676,7 +34676,7 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Tempo Testnet",
+  "name": "Tempo Testnet Andantino (Deprecated)",
   "chain": "ETH",
   "rpc": ["https://rpc.testnet.tempo.xyz"],
   "faucets": [],
@@ -34686,9 +34686,31 @@
     "decimals": 6
   },
   "infoURL": "https://tempo.xyz",
-  "shortName": "tempotest",
+  "shortName": "tempo-andantino",
   "chainId": 42429,
   "networkId": 42429,
+  "icon": "tempo",
+  "status": "deprecated",
+  "explorers": [{
+    "name": "tempo-explorer",
+    "url": "https://explore.andantino.tempo.xyz",
+    "icon": "tempo",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Tempo Testnet Moderato",
+  "chain": "ETH",
+  "rpc": ["https://rpc.moderato.tempo.xyz", "wss://rpc.moderato.tempo.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "No native currency",
+    "symbol": "USD",
+    "decimals": 6
+  },
+  "infoURL": "https://tempo.xyz",
+  "shortName": "tempo-moderato",
+  "chainId": 42431,
+  "networkId": 42431,
   "icon": "tempo",
   "explorers": [{
     "name": "tempo-explorer",
