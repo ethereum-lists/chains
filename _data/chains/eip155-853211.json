@@ -1,0 +1,37 @@
+{
+  "name": "Testethiq",
+  "chain": "ETH",
+  "rpc": [
+    "https://rpc.testnet.ethiq.network",
+    "wss://rpc.testnet.ethiq.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.ethiq.network",
+  "shortName": "testethiq",
+  "chainId": 853211,
+  "networkId": 853211,
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" },
+    { "name": "EIP2718" },
+    { "name": "EIP2930" }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "https://shell.haqq.network/bridge" }]
+  },
+  "explorers": [
+    {
+      "name": "Ethiq Blockscout",
+      "url": "https://explorer.testnet.ethiq.network",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
