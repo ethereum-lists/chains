@@ -25763,7 +25763,7 @@
   "name": "Alpen Testnet",
   "chain": "alpen-testnet",
   "rpc": ["https://rpc.testnet.alpenlabs.io"],
-  "faucets": [],
+  "faucets": ["https://faucet.testnet.alpenlabs.io"],
   "nativeCurrency": {
     "name": "Signet BTC",
     "symbol": "sBTC",
