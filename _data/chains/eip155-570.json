@@ -3,11 +3,10 @@
   "chain": "SYS",
   "rpc": [
     "https://rpc.rollux.com",
-    "https://rollux.public-rpc.com",
     "wss://rpc.rollux.com/wss",
-    "https://rpc.ankr.com/rollux/${ANKR_API_KEY}"
+    "https://rpc.ankr.com/rollux"
   ],
-  "faucets": ["https://rollux.id/faucetapp"],
+  "faucets": ["https://rollux.id/faucet"],
   "nativeCurrency": {
     "name": "Syscoin",
     "symbol": "SYS",
@@ -19,7 +18,7 @@
   "networkId": 570,
   "explorers": [
     {
-      "name": "Rollux Explorer",
+      "name": "Rollux Mainnet Explorer",
       "url": "https://explorer.rollux.com",
       "standard": "EIP3091"
     }

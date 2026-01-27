@@ -1,0 +1,22 @@
+{
+  "name": "Xterio Chain (ETH)",
+  "chain": "Xterio",
+  "rpc": ["https://xterio-eth.alt.technology"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://xter.io",
+  "shortName": "xterio",
+  "chainId": 2702128,
+  "networkId": 2702128,
+  "explorers": [
+    {
+      "name": "Xterio Chain (ETH) Explorer",
+      "url": "https://eth.xterscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

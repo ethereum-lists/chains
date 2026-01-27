@@ -3,7 +3,11 @@
   "title": "Tenet Mainnet",
   "chain": "TENET",
   "icon": "tenet",
-  "rpc": ["https://rpc.tenet.org", "https://tenet-evm.publicnode.com"],
+  "rpc": [
+    "https://rpc.tenet.org",
+    "https://tenet-evm.publicnode.com",
+    "wss://tenet-evm.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "TENET",

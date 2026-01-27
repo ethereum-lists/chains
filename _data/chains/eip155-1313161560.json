@@ -1,0 +1,23 @@
+{
+  "name": "PowerGold",
+  "chain": "NEAR",
+  "rpc": ["https://powergold.aurora.dev"],
+  "icon": "powergold",
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.powergold.tech",
+  "shortName": "powergold",
+  "chainId": 1313161560,
+  "networkId": 1313161560,
+  "explorers": [
+    {
+      "name": "PowerGold explorer",
+      "url": "https://explorer.powergold.aurora.dev",
+      "standard": "EIP3091"
+    }
+  ]
+}

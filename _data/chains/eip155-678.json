@@ -1,0 +1,22 @@
+{
+  "name": "Janction",
+  "chain": "Janction",
+  "rpc": ["https://rpc.janction.io", "wss://rpc.janction.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Janction",
+    "symbol": "JCT",
+    "decimals": 18
+  },
+  "infoURL": "https://janction.io",
+  "shortName": "janction",
+  "chainId": 678,
+  "networkId": 678,
+  "icon": "janction",
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  }
+}

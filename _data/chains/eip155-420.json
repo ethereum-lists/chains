@@ -3,7 +3,12 @@
   "chain": "ETH",
   "rpc": [
     "https://goerli.optimism.io",
-    "https://optimism-goerli.publicnode.com"
+    "https://optimism-goerli-rpc.publicnode.com",
+    "wss://optimism-goerli-rpc.publicnode.com",
+    "https://optimism-goerli.gateway.tenderly.co",
+    "wss://optimism-goerli.gateway.tenderly.co",
+    "https://optimism-testnet.drpc.org",
+    "wss://optimism-testnet.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -15,6 +20,7 @@
   "shortName": "ogor",
   "chainId": 420,
   "networkId": 420,
+  "slip44": 1,
   "explorers": [
     {
       "name": "blockscout",

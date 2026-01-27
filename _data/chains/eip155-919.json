@@ -12,11 +12,17 @@
   "shortName": "modesep",
   "chainId": 919,
   "networkId": 919,
+  "slip44": 1,
   "icon": "modeTestnet",
   "explorers": [
     {
       "name": "modescout",
       "url": "https://sepolia.explorer.mode.network",
+      "standard": "none"
+    },
+    {
+      "name": "Routesan",
+      "url": "https://testnet.modescan.io",
       "standard": "none"
     }
   ],

@@ -1,0 +1,28 @@
+{
+  "name": "Carbonium Testnet Network",
+  "chain": "CBR",
+  "rpc": [
+    "https://rpc-dev.carbonium.network/",
+    "https://server-testnet.carbonium.network"
+  ],
+  "nativeCurrency": {
+    "name": "Carbonium",
+    "symbol": "tCBR",
+    "decimals": 18
+  },
+  "infoURL": "https://carbonium.network",
+  "shortName": "tcbr",
+  "chainId": 4040,
+  "networkId": 4040,
+  "slip44": 1,
+  "icon": "cbr",
+  "faucets": ["https://getfaucet.carbonium.network"],
+  "explorers": [
+    {
+      "name": "Carbonium Network tesnet Explorer",
+      "icon": "cbr",
+      "url": "https://testnet.carboniumscan.com",
+      "standard": "none"
+    }
+  ]
+}

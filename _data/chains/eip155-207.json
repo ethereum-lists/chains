@@ -1,0 +1,24 @@
+{
+  "name": "VinuChain Network",
+  "chain": "VinuChain",
+  "rpc": ["https://vinuchain-rpc.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "VinuChain",
+    "symbol": "VC",
+    "decimals": 18
+  },
+  "infoURL": "https://vitainu.org",
+  "shortName": "VC",
+  "chainId": 207,
+  "networkId": 207,
+  "icon": "vitainu",
+  "explorers": [
+    {
+      "name": "VinuScan",
+      "url": "https://vinuscan.com",
+      "icon": "vinuscan",
+      "standard": "none"
+    }
+  ]
+}

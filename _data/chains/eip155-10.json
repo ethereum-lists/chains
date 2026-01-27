@@ -1,7 +1,15 @@
 {
   "name": "OP Mainnet",
   "chain": "ETH",
-  "rpc": ["https://mainnet.optimism.io", "https://optimism.publicnode.com"],
+  "rpc": [
+    "https://mainnet.optimism.io",
+    "https://optimism-rpc.publicnode.com",
+    "wss://optimism-rpc.publicnode.com",
+    "https://optimism.gateway.tenderly.co",
+    "wss://optimism.gateway.tenderly.co",
+    "https://optimism.drpc.org",
+    "wss://optimism.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -23,6 +31,17 @@
       "name": "blockscout",
       "url": "https://optimism.blockscout.com",
       "icon": "blockscout",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://optimism.dex.guru",
+      "icon": "dexguru",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Routescan",
+      "url": "https://mainnet.superscan.network",
       "standard": "EIP3091"
     }
   ]

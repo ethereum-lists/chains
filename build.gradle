@@ -1,7 +1,7 @@
 buildscript {
     ext {
-        KOTLIN_VERSION = "1.9.0"
-        KETHEREUM_VERSION = "0.85.7"
+        KOTLIN_VERSION = "2.3.0"
+        KETHEREUM_VERSION = "0.86.0"
     }
 
     repositories {
@@ -10,7 +10,7 @@ buildscript {
 
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${KOTLIN_VERSION}"
-        classpath 'com.github.ben-manes:gradle-versions-plugin:0.47.0'
+        classpath 'com.github.ben-manes:gradle-versions-plugin:0.53.0'
     }
 }
 
@@ -19,7 +19,7 @@ subprojects {
 
     repositories {
         mavenCentral()
-        maven { url 'https://jitpack.io' }
+        maven { url = uri('https://jitpack.io') }
     }
 }
 

@@ -1,0 +1,25 @@
+{
+  "name": "CyberChain Mainnet",
+  "chain": "XCC",
+  "icon": "cyberchain",
+  "rpc": ["https://rpc.cyberchain.xyz/"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "XCC",
+    "symbol": "XCC",
+    "decimals": 18
+  },
+  "infoURL": "https://cyberchain.xyz",
+  "shortName": "xcc",
+  "chainId": 65535,
+  "networkId": 65535,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "CyberChain explorer",
+      "url": "https://scan.cyberchain.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}

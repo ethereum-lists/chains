@@ -1,0 +1,20 @@
+{
+  "name": "Cuckoo Sepolia",
+  "title": "Cuckoo AI Testnet Sepolia",
+  "chain": "CuckooAI",
+  "rpc": [
+    "https://testnet-rpc.cuckoo.network",
+    "wss://testnet-rpc.cuckoo.network"
+  ],
+  "faucets": ["https://cuckoo.network/portal/faucet/"],
+  "nativeCurrency": {
+    "name": "CuckooAI",
+    "symbol": "CAI",
+    "decimals": 18
+  },
+  "infoURL": "https://cuckoo.network",
+  "shortName": "caisepolia",
+  "chainId": 1210,
+  "networkId": 1210,
+  "explorers": []
+}

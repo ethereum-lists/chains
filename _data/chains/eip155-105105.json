@@ -1,0 +1,23 @@
+{
+  "name": "Xertra Mainnet",
+  "chain": "Xertra",
+  "rpc": ["https://rpc.xertra.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "STRAX",
+    "symbol": "STRAX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.xertra.com/",
+  "shortName": "xertra",
+  "chainId": 105105,
+  "networkId": 105105,
+  "icon": "xertra",
+  "explorers": [
+    {
+      "name": "Xertra Explorer",
+      "url": "https://explorer.xertra.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

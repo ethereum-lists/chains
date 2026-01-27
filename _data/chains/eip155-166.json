@@ -1,0 +1,26 @@
+{
+  "name": "Nomina",
+  "chain": "Nomina",
+  "status": "active",
+  "rpc": ["https://mainnet.nomina.io", "wss://wss.mainnet.nomina.io"],
+  "features": [{ "name": "EIP155" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Nomina",
+    "symbol": "NOM",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.omni.network",
+  "shortName": "nom",
+  "chainId": 166,
+  "networkId": 166,
+  "slip44": 1,
+  "icon": "nom",
+  "explorers": [
+    {
+      "name": "Nomina EVM and cross-chain Explorer",
+      "url": "https://nomscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

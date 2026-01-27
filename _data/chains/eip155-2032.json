@@ -1,0 +1,16 @@
+{
+  "name": "Catalyst",
+  "chain": "CFG",
+  "rpc": ["wss://fullnode.catalyst.cntrfg.com"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Catalyst CFG",
+    "symbol": "NCFG",
+    "decimals": 18
+  },
+  "infoURL": "https://centrifuge.io",
+  "shortName": "ncfg",
+  "chainId": 2032,
+  "networkId": 2032
+}
