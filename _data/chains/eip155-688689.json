@@ -1,0 +1,24 @@
+{
+    "name": "Pharos Atlantic Testnet",
+    "chain": "Pharos",
+    "rpc": ["https://atlantic.dplabs-internal.com"],
+    "faucets": ["https://testnet.pharosnetwork.xyz"],
+    "nativeCurrency": {
+      "name": "PHRS",
+      "symbol": "PHRS",
+      "decimals": 18
+    },
+    "infoURL": "https://atlantic.pharosnetwork.xyz/",
+    "shortName": "pharos-atlantic",
+    "chainId": 688689,
+    "networkId": 688689,
+    "status": "active",
+    "explorers": [
+        {
+          "name": "Pharos Atlantic Testnet Explorer",
+          "url": "https://atlantic.pharosscan.xyz",
+          "standard": "EIP3091"
+        }
+      ]
+  }
+  
