@@ -13007,7 +13007,7 @@
   "name": "Kii Testnet Oro",
   "chain": "KII",
   "rpc": ["https://json-rpc.uno.sentry.testnet.v3.kiivalidator.com"],
-  "faucets": ["https://explorer.kiichain.io/testnet/faucet"],
+  "faucets": ["https://testnet.explorer.kiichain.io/faucet"],
   "nativeCurrency": {
     "name": "Kii",
     "symbol": "KII",
@@ -13021,7 +13021,7 @@
   "icon": "kii",
   "explorers": [{
     "name": "KiiExplorer",
-    "url": "https://explorer.kiichain.io/testnet",
+    "url": "https://testnet.explorer.kiichain.io",
     "icon": "kii",
     "standard": "none"
   }]
@@ -14521,6 +14521,32 @@
     "name": "Gauss Explorer",
     "url": "https://explorer.gaussgang.com",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "KiiChain",
+  "chain": "KII",
+  "rpc": ["https://json-rpc.kiivalidator.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Kii",
+    "symbol": "KII",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://kiichain.io",
+  "shortName": "kiichain",
+  "chainId": 1783,
+  "networkId": 1783,
+  "icon": "kii",
+  "explorers": [{
+    "name": "KiiExplorer",
+    "url": "https://explorer.kiichain.io",
+    "icon": "kii",
+    "standard": "none"
   }]
 }, {
   "name": "ZKBase Sepolia Testnet",
@@ -46390,6 +46416,32 @@
   "explorers": [{
     "name": "TixChain Testnet Subnet Explorer",
     "url": "https://subnets-test.avax.network/tixchain",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "bokuto",
+  "chain": "bokuto",
+  "rpc": ["https://rpc-bokuto.katanarpc.com"],
+  "faucets": ["https://faucet.katana.tools"],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://katana.network",
+  "shortName": "bokuto",
+  "chainId": 737373,
+  "networkId": 737373,
+  "icon": "katana",
+  "explorers": [{
+    "name": "bokutoscan",
+    "url": "https://bokuto.katanascan.com",
+    "icon": "katana",
+    "standard": "EIP3091"
+  }, {
+    "name": "bokuto explorer",
+    "url": "https://explorer-bokuto.katanarpc.com",
+    "icon": "katana",
     "standard": "EIP3091"
   }]
 }, {

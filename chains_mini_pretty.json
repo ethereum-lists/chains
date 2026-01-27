@@ -7913,7 +7913,7 @@
     "decimals": 18
   },
   "rpc": ["https://json-rpc.uno.sentry.testnet.v3.kiivalidator.com"],
-  "faucets": ["https://explorer.kiichain.io/testnet/faucet"],
+  "faucets": ["https://testnet.explorer.kiichain.io/faucet"],
   "infoURL": "https://kiichain.io"
 }, {
   "name": "Geth Testnet",
@@ -8825,6 +8825,19 @@
   "rpc": ["https://rpc.gaussgang.com"],
   "faucets": [],
   "infoURL": "https://gaussgang.com/"
+}, {
+  "name": "KiiChain",
+  "chainId": 1783,
+  "shortName": "kiichain",
+  "networkId": 1783,
+  "nativeCurrency": {
+    "name": "Kii",
+    "symbol": "KII",
+    "decimals": 18
+  },
+  "rpc": ["https://json-rpc.kiivalidator.com"],
+  "faucets": [],
+  "infoURL": "https://kiichain.io"
 }, {
   "name": "ZKBase Sepolia Testnet",
   "chainId": 1789,
@@ -27922,6 +27935,19 @@
   "rpc": ["https://subnets.avax.network/tixchain/testnet/rpc"],
   "faucets": [],
   "infoURL": "https://subnets-test.avax.network/tixchain/details"
+}, {
+  "name": "bokuto",
+  "chainId": 737373,
+  "shortName": "bokuto",
+  "networkId": 737373,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-bokuto.katanarpc.com"],
+  "faucets": ["https://faucet.katana.tools"],
+  "infoURL": "https://katana.network"
 }, {
   "name": "Hemi Sepolia",
   "chainId": 743111,
