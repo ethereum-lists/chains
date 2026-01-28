@@ -2,7 +2,10 @@
   "name": "Defi Oracle Meta Mainnet",
   "chain": "dfiometa",
   "icon": "defioraclemeta",
-  "rpc": ["https://rpc.defi-oracle.io", "wss://wss.defi-oracle.io"],
+  "rpc": [
+    "https://rpc-http-pub.d-bis.org",
+    "https://rpc-http-prv.d-bis.org"
+  ],
   "features": [
     {
       "name": "EIP155"
@@ -17,7 +20,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "https://info.defi-oracle.io/",
+  "infoURL": "https://d-bis.org",
   "shortName": "dfio-meta-main",
   "chainId": 138,
   "networkId": 1,
@@ -27,14 +30,9 @@
   },
   "explorers": [
     {
-      "name": "Blockscout Explorer",
-      "url": "https://blockscout.defi-oracle.io",
-      "standard": "none"
-    },
-    {
-      "name": "Quorum Explorer",
-      "url": "https://explorer.defi-oracle.io",
-      "standard": "none"
+      "name": "Blockscout",
+      "url": "https://explorer.d-bis.org",
+      "standard": "EIP3091"
     }
   ]
 }
