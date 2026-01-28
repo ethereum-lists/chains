@@ -1,11 +1,12 @@
 {
   "name": "Nillion Network Sepolia Testnet",
   "chain": "ETH",
+  "icon": "nillion",
   "rpc": [
     "https://rpc.testnet.nillion.network",
     "wss://rpc.testnet.nillion.network"
   ],
-  "faucets": [],
+  "faucets": ["https://faucet.testnet.nillion.network"],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
