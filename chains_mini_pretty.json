@@ -8501,6 +8501,19 @@
   "faucets": [],
   "infoURL": "https://gravity.xyz"
 }, {
+  "name": "XGR Mainnet",
+  "chainId": 1643,
+  "shortName": "xgr",
+  "networkId": 1643,
+  "nativeCurrency": {
+    "name": "XGR",
+    "symbol": "XGR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.xgr.network", "https://rpc1.xgr.network", "https://rpc2.xgr.network"],
+  "faucets": [],
+  "infoURL": "https://xgr.network"
+}, {
   "name": "Pivotal Mainnet",
   "chainId": 1648,
   "shortName": "pivotal-mainnet",
@@ -9020,6 +9033,19 @@
   "rpc": ["https://rpc.whitechain.io"],
   "faucets": [],
   "infoURL": "https://whitechain.io"
+}, {
+  "name": "XGR Testnet",
+  "chainId": 1879,
+  "shortName": "xgrt",
+  "networkId": 1879,
+  "nativeCurrency": {
+    "name": "XGR",
+    "symbol": "XGR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.xgr.network", "https://rpc1.testnet.xgr.network", "https://rpc2.testnet.xgr.network"],
+  "faucets": ["https://faucet.xgr.network"],
+  "infoURL": "https://xgr.network"
 }, {
   "name": "Gitshock Cartenz Testnet",
   "chainId": 1881,
