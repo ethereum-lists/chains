@@ -42785,6 +42785,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Transparency Solution",
+  "chain": "CLT",
+  "icon": "transparencysolution",
+  "rpc": ["https://rpc-api.transparency.solutions"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ClearToken",
+    "symbol": "CLT",
+    "decimals": 18
+  },
+  "infoURL": "https://transparency.solutions",
+  "shortName": "clts",
+  "chainId": 179170,
+  "networkId": 179170,
+  "explorers": [{
+    "name": "Transparency Solution Explorer",
+    "url": "https://blockchain.transparency.solutions",
+    "icon": "transparencysolution",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "HPP Sepolia Testnet",
   "chain": "ETH",
   "rpc": ["https://sepolia.hpp.io"],

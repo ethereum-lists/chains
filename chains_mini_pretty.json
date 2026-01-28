@@ -25765,6 +25765,19 @@
   "faucets": [],
   "infoURL": "https://litprotocol.com"
 }, {
+  "name": "Transparency Solution",
+  "chainId": 179170,
+  "shortName": "clts",
+  "networkId": 179170,
+  "nativeCurrency": {
+    "name": "ClearToken",
+    "symbol": "CLT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-api.transparency.solutions"],
+  "faucets": [],
+  "infoURL": "https://transparency.solutions"
+}, {
   "name": "HPP Sepolia Testnet",
   "chainId": 181228,
   "shortName": "hpp-sepolia",
