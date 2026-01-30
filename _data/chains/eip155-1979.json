@@ -2,8 +2,9 @@
   "name": "CratD2C Testnet",
   "chain": "CRATD2C",
   "rpc": [
-    "https://cratd2c-testnet-node1.cratd2csmartchain.io/",
-    "https://cratd2c-testnet-node2.cratd2csmartchain.io/"
+    "https://rpc-testnet-1.cratd2csmartchain.io/",
+    "https://rpc-testnet-2.cratd2csmartchain.io/",
+    "https://rpc-testnet-3.cratd2csmartchain.io/"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,8 +14,8 @@
   },
   "infoURL": "https://cratd2csmartchain.io",
   "shortName": "cratd2c-testnet",
-  "chainId": 65349,
-  "networkId": 65349,
+  "chainId": 1979,
+  "networkId": 1979,
   "icon": "cratd2c-testnet",
   "explorers": [
     {
