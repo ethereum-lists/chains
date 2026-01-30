@@ -21,7 +21,12 @@
     },
     {
       "name": "Funki Sepolia Sandbox Explorer",
-      "url": "https://sepolia-sandbox.funkichain.com",
+      "url": "https://testnet-explorer.funkichain.com",
+      "standard": "none"
+    },
+    {
+      "name": "Funki Sepolia Testnet Explorer",
+      "url": "https://testnet.funkiscan.io",
       "standard": "none"
     }
   ]

@@ -1,6 +1,6 @@
 {
-  "name": "Abstract Testnet",
-  "chain": "Abstract Testnet",
+  "name": "Abstract Sepolia Testnet",
+  "chain": "Abstract Sepolia Testnet",
   "rpc": ["https://api.testnet.abs.xyz"],
   "faucets": ["https://faucet.triangleplatform.com/abstract/testnet"],
   "chainId": 11124,
@@ -19,9 +19,9 @@
   },
   "explorers": [
     {
-      "name": "Abstract Block Explorer",
-      "url": "https://explorer.testnet.abs.xyz",
-      "standard": "none"
+      "name": "Abstract Sepolia Testnet Explorer",
+      "url": "https://sepolia.abscan.org",
+      "standard": "EIP3091"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "name": "Fraxtal Testnet",
   "chain": "FRAX",
-  "rpc": ["https://rpc.testnet.frax.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Frax Ether",
-    "symbol": "frxETH",
+    "name": "Frax",
+    "symbol": "FRAX",
     "decimals": 18
   },
   "infoURL": "https://testnet.frax.com",
@@ -14,12 +14,6 @@
   "networkId": 2522,
   "slip44": 1,
   "icon": "fraxtal",
-  "explorers": [
-    {
-      "name": "fraxscan",
-      "url": "https://holesky.fraxscan.com",
-      "standard": "EIP3091"
-    }
-  ],
-  "status": "active"
+  "explorers": [],
+  "status": "deprecated"
 }

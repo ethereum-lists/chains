@@ -1,7 +1,11 @@
 {
   "name": "Sonic Mainnet",
   "chain": "sonic",
-  "rpc": ["https://rpc.soniclabs.com"],
+  "rpc": [
+    "https://rpc.soniclabs.com",
+    "https://sonic-rpc.publicnode.com",
+    "wss://sonic-rpc.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sonic",
@@ -15,6 +19,12 @@
   "networkId": 146,
   "icon": "sonic",
   "explorers": [
+    {
+      "name": "etherscan",
+      "url": "https://sonicscan.org",
+      "icon": "sonic",
+      "standard": "EIP3091"
+    },
     {
       "name": "sonic",
       "url": "https://explorer.soniclabs.com",

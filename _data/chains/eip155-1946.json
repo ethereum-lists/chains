@@ -1,7 +1,7 @@
 {
-  "name": "Minato",
-  "shortName": "minato",
-  "title": "Soneium testnet Minato",
+  "name": "Soneium Testnet Minato",
+  "shortName": "soneium-minato",
+  "title": "Soneium Testnet Minato",
   "chain": "ETH",
   "icon": "minato",
   "rpc": ["https://rpc.minato.soneium.org"],
@@ -17,7 +17,7 @@
   "explorers": [
     {
       "name": "Blockscout Minato explorer",
-      "url": "https://explorer-testnet.soneium.org",
+      "url": "https://soneium-minato.blockscout.com",
       "standard": "EIP3091"
     }
   ],
