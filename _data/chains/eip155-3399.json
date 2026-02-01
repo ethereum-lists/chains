@@ -1,0 +1,24 @@
+{
+  "name": "ByteChain Testnet",
+  "chain": "BEXC",
+  "rpc": [
+    "https://test-rpc.bexc.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BEXC",
+    "symbol": "BEXC",
+    "decimals": 18
+  },
+  "infoURL": "https://bexc.io",
+  "shortName": "bytechain-testnet",
+  "chainId": 3399,
+  "networkId": 3399,
+  "explorers": [
+    {
+      "name": "ByteChain Testnet Explorer",
+      "url": "https://testnet.bexc.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
