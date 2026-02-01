@@ -17952,6 +17952,19 @@
   "faucets": ["https://faucet.brcchain.io"],
   "infoURL": "https://bridge.brcchain.io"
 }, {
+  "name": "L2 Protocol Mainnet",
+  "chainId": 12216,
+  "shortName": "l2p",
+  "networkId": 12216,
+  "nativeCurrency": {
+    "name": "L2P",
+    "symbol": "L2P",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.l2protocol.com", "wss://rpc.l2protocol.com"],
+  "faucets": [],
+  "infoURL": "https://l2protocol.com"
+}, {
   "name": "Fibonacci Mainnet",
   "chainId": 12306,
   "shortName": "fibo",
