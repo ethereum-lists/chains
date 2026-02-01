@@ -1,7 +1,7 @@
 {
   "name": "ONN CHAIN Mainnet",
   "chain": "onn chain",
-  "icon": "onnchain",
+  "icon": "onn",
   "rpc": ["https://mainnet.onnscan.org"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
@@ -18,7 +18,7 @@
     {
       "name": "onnscan",
       "url": "https://onnscan.com",
-      "icon": "onnchain",
+      "icon": "onn",
       "standard": "EIP3091"
     }
   ]
