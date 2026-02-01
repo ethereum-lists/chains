@@ -7201,6 +7201,19 @@
   "faucets": ["https://faucet.flagscan.xyz"],
   "infoURL": "https://testnet-explorer.flagscan.xyz"
 }, {
+  "name": "POC Testnet",
+  "chainId": 1148,
+  "shortName": "poc",
+  "networkId": 1148,
+  "nativeCurrency": {
+    "name": "POC Native Token",
+    "symbol": "POC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.pochain.io"],
+  "faucets": ["https://www.pochain.io/poc-faucet"],
+  "infoURL": "https://www.pochain.io"
+}, {
   "name": "Symplexia Smart Chain",
   "chainId": 1149,
   "shortName": "Plexchain",
