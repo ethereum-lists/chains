@@ -1,0 +1,33 @@
+{
+  "name": "Mandala Chain Testnet",
+  "chain": "MANDALA",
+  "icon": "mandala",
+  "rpc": [
+    "https://rpc1-testnet.mandalachain.io"
+  ],
+  "faucets": [
+    "https://dripper.mandalachain.io"
+  ],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://mandalachain.io",
+  "shortName": "mandala-testnet",
+  "chainId": 20011,
+  "networkId": 20011,
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://explorer.testnet.mandalachain.io",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  },
+  "status": "incubating"
+}
