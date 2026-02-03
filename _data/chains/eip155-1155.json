@@ -1,0 +1,24 @@
+{
+  "name": "ClubMOS Testnet",
+  "chain": "tMOS",
+  "rpc": ["https://rpc-testnet.mosscan.com"],
+  "faucets": ["https://faucet.clubmos.com"],
+  "nativeCurrency": {
+    "name": "ClubMOS",
+    "symbol": "tMOS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.clubmos.com",
+  "shortName": "tMOS",
+  "chainId": 1155,
+  "networkId": 1155,
+  "icon": "mos",
+  "explorers": [
+    {
+      "name": "mosscan",
+      "url": "https://testnet.mosscan.com",
+      "icon": "mosscan",
+      "standard": "EIP3091"
+    }
+  ]
+}
