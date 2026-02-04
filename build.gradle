@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        KOTLIN_VERSION = "2.1.20"
+        KOTLIN_VERSION = "2.3.0"
         KETHEREUM_VERSION = "0.86.0"
     }
 
@@ -19,7 +19,7 @@ subprojects {
 
     repositories {
         mavenCentral()
-        maven { url 'https://jitpack.io' }
+        maven { url = uri('https://jitpack.io') }
     }
 }
 
