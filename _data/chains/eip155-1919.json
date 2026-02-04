@@ -1,5 +1,5 @@
 {
-  "name": "TurkChain 1919",
+  "name": "TurkChain",
   "chain": "TURKCHAIN",
   "rpc": [
     "https://rpc.turkchain1919.com",
@@ -22,8 +22,8 @@
   "icon": "turkchain",
   "explorers": [
     {
-      "name": "TurkChain Explorer",
-      "url": "https://explorer.turkchain1919.com",
+      "name": "TurkScan Explorer",
+      "url": "https://turkscan.com",
       "icon": "turkchain",
       "standard": "EIP3091"
     }
