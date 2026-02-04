@@ -8324,7 +8324,7 @@
 }, {
   "name": "Kalichain Testnet",
   "chain": "Kalichain",
-  "rpc": ["https://rpc.kalichain.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "kalis",
@@ -8336,15 +8336,12 @@
   "chainId": 653,
   "networkId": 653,
   "icon": "kalichain",
-  "explorers": [{
-    "name": "kalichain explorer",
-    "url": "https://explorer.kalichain.com",
-    "standard": "EIP3091"
-  }]
+  "explorers": [],
+  "status": "deprecated"
 }, {
   "name": "Kalichain",
   "chain": "Kalichain",
-  "rpc": ["https://mainnet.kalichain.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "kalis",
@@ -8356,11 +8353,8 @@
   "chainId": 654,
   "networkId": 654,
   "icon": "kalichain",
-  "explorers": [{
-    "name": "kalichain explorer",
-    "url": "https://explorer.kalichain.com",
-    "standard": "EIP3091"
-  }]
+  "explorers": [],
+  "status": "deprecated"
 }, {
   "name": "AmaxSmartchain",
   "chain": "AmaxSmartchain",
