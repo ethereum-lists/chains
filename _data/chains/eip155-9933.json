@@ -1,6 +1,7 @@
 {
   "name": "ByteChain",
   "chain": "BEXC",
+   "icon": "bytechain",
   "rpc": [
     "https://rpc.bexc.io",
     "https://rpc2.bexc.io"
@@ -19,7 +20,6 @@
     {
       "name": "ByteChain Explorer",
       "url": "https://mainnet.bexc.io",
-      "icon": "bytechain",
       "standard": "EIP3091"
     }
   ]
