@@ -1,0 +1,22 @@
+{
+  "name": "StableNet Mainnet",
+  "chain": "StableNet",
+  "rpc": [],
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" },
+    { "name": "EIP7702" },
+    { "name": "EIP2930" }
+  ],
+  "faucets": ["https://faucet.stablenet.network"],
+  "nativeCurrency": {
+    "name": "WKRC",
+    "symbol": "WKRC",
+    "decimals": 18
+  },
+  "shortName": "stablenet",
+  "chainId": 8282,
+  "networkId": 8282,
+  "status": "incubating",
+  "explorers": []
+}
