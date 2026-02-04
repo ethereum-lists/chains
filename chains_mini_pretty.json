@@ -21131,7 +21131,7 @@
   "nativeCurrency": {
     "name": "No native currency",
     "symbol": "USD",
-    "decimals": 6
+    "decimals": 18
   },
   "rpc": ["https://rpc.testnet.tempo.xyz"],
   "faucets": [],
@@ -21144,7 +21144,7 @@
   "nativeCurrency": {
     "name": "No native currency",
     "symbol": "USD",
-    "decimals": 6
+    "decimals": 18
   },
   "rpc": ["https://rpc.moderato.tempo.xyz", "wss://rpc.moderato.tempo.xyz"],
   "faucets": [],
