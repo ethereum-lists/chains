@@ -1,5 +1,5 @@
 {
-  "name": "StableNet TestNet",
+  "name": "StableNet Testnet",
   "chain": "StableNet",
   "rpc": ["https://api.test.stablenet.network","wss://ws.test.stablenet.network"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }, { "name": "EIP7702" }, { "name": "EIP2930" }], 
@@ -15,7 +15,7 @@
   "networkId": 8283,
   "explorers": [
     {
-      "name": "StableNet TestNet Explorer",
+      "name": "StableNet Testnet Explorer",
       "url": "https://explorer.stablenet.network",
       "standard": "EIP3091"
     }
