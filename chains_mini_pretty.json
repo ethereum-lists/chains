@@ -9450,6 +9450,19 @@
   "faucets": [],
   "infoURL": "https://onuschain.io"
 }, {
+  "name": "CratD2C Testnet",
+  "chainId": 1979,
+  "shortName": "cratd2c-testnet",
+  "networkId": 1979,
+  "nativeCurrency": {
+    "name": "CRATD2C",
+    "symbol": "CRAT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet-1.cratd2csmartchain.io/", "https://rpc-testnet-2.cratd2csmartchain.io/", "https://rpc-testnet-3.cratd2csmartchain.io/"],
+  "faucets": [],
+  "infoURL": "https://cratd2csmartchain.io"
+}, {
   "name": "Krown Mainnet",
   "chainId": 1983,
   "shortName": "krown",
@@ -22762,9 +22775,9 @@
   "faucets": [],
   "infoURL": "https://kuma.bid"
 }, {
-  "name": "CratD2C Testnet",
+  "name": "CratD2C Testnet Deprecated",
   "chainId": 65349,
-  "shortName": "cratd2c-testnet",
+  "shortName": "cratd2c-testnet-deprecated",
   "networkId": 65349,
   "nativeCurrency": {
     "name": "CRATD2C",
