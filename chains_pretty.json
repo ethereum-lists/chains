@@ -19211,6 +19211,32 @@
   "networkId": 3270,
   "slip44": 1
 }, {
+  "name": "Irys Mainnet Beta",
+  "chain": "IRYS",
+  "rpc": ["https://mainnet-beta-rpc.irys.xyz/v1/execution-rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Irys",
+    "symbol": "IRYS",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://irys.xyz",
+  "shortName": "irys-mainnet-beta",
+  "chainId": 3282,
+  "networkId": 3282,
+  "icon": "irys",
+  "explorers": [{
+    "name": "Irys Mainnet Beta Explorer",
+    "url": "https://evm-explorer.irys.xyz",
+    "icon": "irys",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Realio Testnet",
   "chain": "Realio Testnet",
   "rpc": ["https://json-rpc.realiostage.network", "https://realio-testnet.json-rpc.decentrio.ventures"],

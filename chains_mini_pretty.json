@@ -11660,6 +11660,19 @@
   "faucets": ["https://faucet.arabianchain.org/"],
   "infoURL": "https://arabianchain.org"
 }, {
+  "name": "Irys Mainnet Beta",
+  "chainId": 3282,
+  "shortName": "irys-mainnet-beta",
+  "networkId": 3282,
+  "nativeCurrency": {
+    "name": "Irys",
+    "symbol": "IRYS",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-beta-rpc.irys.xyz/v1/execution-rpc"],
+  "faucets": [],
+  "infoURL": "https://irys.xyz"
+}, {
   "name": "Realio Testnet",
   "chainId": 3300,
   "shortName": "realiotestnet",
