@@ -1,0 +1,31 @@
+{
+  "name": "StableNet Testnet",
+  "chain": "StableNet",
+  "rpc": [
+    "https://api.test.stablenet.network",
+    "wss://ws.test.stablenet.network"
+  ],
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" },
+    { "name": "EIP7702" },
+    { "name": "EIP2930" }
+  ],
+  "faucets": ["https://faucet.stablenet.network"],
+  "nativeCurrency": {
+    "name": "WKRC",
+    "symbol": "WKRC",
+    "decimals": 18
+  },
+  "infoURL": "https://stablenet.network",
+  "shortName": "stablenet",
+  "chainId": 8283,
+  "networkId": 8283,
+  "explorers": [
+    {
+      "name": "StableNet Testnet Explorer",
+      "url": "https://explorer.stablenet.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
