@@ -1,27 +1,25 @@
 {
-    "name": "Gelatine Network",
-    "chain": "JELLO",
-    "icon": "jello",
-    "rpc": [
-        "https://rpc.pine.ink"
-    ],
-    "faucets": [
-        "https://rpc.pine.ink"
-    ],
-    "nativeCurrency": {
-        "name": "JELLO",
-        "symbol": "JELLO",
-        "decimals": 18
-    },
-    "infoURL": "https://explorer.pine.ink",
-    "shortName": "jello",
-    "chainId": 61564,
-    "networkId": 61564,
-    "explorers": [
-        {
-            "name": "Gelatine Explorer",
-            "url": "https://explorer.pine.ink",
-            "standard": "EIP3091"
-        }
-    ]
+  "name": "Gelatine Network",
+  "chain": "JELLO",
+  "icon": "jello",
+  "rpc": [
+    "https://rpc.pine.ink"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "JELLO",
+    "symbol": "JELLO",
+    "decimals": 18
+  },
+  "infoURL": "https://pine.ink",
+  "shortName": "jello",
+  "chainId": 61564,
+  "networkId": 61564,
+  "explorers": [
+    {
+      "name": "Gelatine Explorer",
+      "url": "https://explorer.pine.ink",
+      "standard": "EIP3091"
+    }
+  ]
 }
