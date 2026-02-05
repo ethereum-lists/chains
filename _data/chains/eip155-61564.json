@@ -2,16 +2,14 @@
   "name": "Gelatine Network",
   "chain": "JELLO",
   "icon": "jello",
-  "rpc": [
-    "https://rpc.pine.ink"
-  ],
-  "faucets": [],
+  "rpc": ["https://rpc.pine.ink"],
+  "faucets": ["https://rpc.pine.ink"],
   "nativeCurrency": {
     "name": "JELLO",
     "symbol": "JELLO",
     "decimals": 18
   },
-  "infoURL": "https://pine.ink",
+  "infoURL": "https://explorer.pine.ink",
   "shortName": "jello",
   "chainId": 61564,
   "networkId": 61564,
