@@ -22554,6 +22554,19 @@
   "faucets": [],
   "infoURL": "https://kaichain.net"
 }, {
+  "name": "Gelatine Network",
+  "chainId": 61564,
+  "shortName": "jello",
+  "networkId": 61564,
+  "nativeCurrency": {
+    "name": "JELLO",
+    "symbol": "JELLO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.pine.ink"],
+  "faucets": ["https://gelatine.pine.ink"],
+  "infoURL": "https://gelatine.pine.ink"
+}, {
   "name": "AxelChain Dev-Net",
   "chainId": 61800,
   "shortName": "aium-dev",
