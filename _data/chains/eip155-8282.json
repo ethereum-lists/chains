@@ -8,11 +8,13 @@
     { "name": "EIP7702" },
     { "name": "EIP2930" }
   ],
+  "faucets": [],
   "nativeCurrency": {
     "name": "WKRC",
     "symbol": "WKRC",
     "decimals": 18
   },
+  "infoURL": "https://stablenet.network",
   "shortName": "stablenet",
   "chainId": 8282,
   "networkId": 8282,
