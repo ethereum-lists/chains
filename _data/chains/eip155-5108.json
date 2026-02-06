@@ -1,0 +1,25 @@
+{
+  "name": "ANY CHAIN MAINNET",
+  "chain": "Any chain",
+  "icon": "ANC",
+  "rpc": ["https://mainnet.anychainscan.org"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ANC COIN",
+    "symbol": "ANC",
+    "decimals": 18
+  },
+  "infoURL": "https://anychainscan.com",
+  "shortName": "anc",
+  "chainId": 5108,
+  "networkId": 5108,
+  "explorers": [
+    {
+      "name": "ancscan",
+      "url": "https://anychainscan.com",
+      "icon": "anc",
+      "standard": "EIP3091"
+    }
+  ]
+}
