@@ -1,7 +1,9 @@
 {
   "name": "Cypherium Mainnet",
   "chain": "CPH",
-  "rpc": ["https://pubnodes.cypherium.io/rpc"],
+  "rpc": [
+    "https://pubnodes.cypherium.io/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Cypherium",
@@ -12,9 +14,10 @@
   "shortName": "cph",
   "chainId": 16166,
   "networkId": 16166,
+  "icon": "Cypherium",
   "explorers": [
     {
-      "name": "Testnet Block Explorer",
+      "name": "Cypherium Explorer (Ethernal)",
       "url": "https://cypherium.tryethernal.com",
       "standard": "EIP3091"
     }
