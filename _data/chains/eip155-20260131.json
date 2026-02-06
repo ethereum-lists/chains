@@ -1,0 +1,25 @@
+{
+  "name": "Meta Assets Chain",
+  "chain": "MA",
+  "icon": "metaassets",
+  "rpc": [
+    "https://rpc.ma-chain.xyz"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MetaAssets",
+    "symbol": "MA",
+    "decimals": 18
+  },
+  "infoURL": "https://ma-chain.xyz",
+  "shortName": "ma",
+  "chainId": 20260131,
+  "networkId": 20260131,
+  "explorers": [
+    {
+      "name": "Meta Assets Chain Explorer",
+      "url": "https://ma-chain.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
