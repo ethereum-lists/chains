@@ -1,0 +1,24 @@
+{
+  "name": "Datachain Rope",
+  "chain": "DATACHAIN",
+  "icon": "datachain",
+  "rpc": ["https://erpc.datachain.network", "wss://ws.datachain.network"],
+  "faucets": ["https://faucet.datachain.network"],
+  "nativeCurrency": {
+    "name": "DC FAT",
+    "symbol": "FAT",
+    "decimals": 18
+  },
+  "infoURL": "https://datachain.network",
+  "shortName": "datachain",
+  "chainId": 271828,
+  "networkId": 271828,
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "explorers": [
+    {
+      "name": "DC Scan",
+      "url": "https://dcscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
