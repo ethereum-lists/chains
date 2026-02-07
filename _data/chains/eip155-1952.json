@@ -1,0 +1,26 @@
+{
+  "name": "X Layer Testnet",
+  "chain": "X Layer Testnet",
+  "rpc": [],
+  "nativeCurrency": {
+    "name": "X Layer Global Utility Token in testnet",
+    "symbol": "OKB",
+    "decimals": 18
+  },
+  "features": [],
+  "faucets": [],
+  "infoURL": "",
+  "shortName": "okb",
+  "chainId": 1952,
+  "networkId": 1952,
+  "slip44": 1,
+  "icon": "xlayerTestnet",
+  "explorers": [
+    {
+      "name": "OKLink",
+      "url": "",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
