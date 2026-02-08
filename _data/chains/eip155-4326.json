@@ -1,16 +1,36 @@
 {
   "name": "MegaETH Mainnet",
-  "chain": "ETH",
+  "chain": "MegaETH",
+  "rpc": [
+    "https://mainnet.megaeth.com/rpc",
+    "wss://mainnet.megaeth.com/ws"
+  ],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
-  "faucets": [],
-  "explorers": [],
   "infoURL": "https://megaeth.com",
   "shortName": "megaeth",
   "chainId": 4326,
-  "networkId": 4326
+  "networkId": 4326,
+  "icon": "megaeth",
+  "explorers": [
+    {
+      "name": "MegaETH Explorer",
+      "url": "https://mega.etherscan.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [
+      {
+        "url": "https://rabbithole.megaeth.com"
+      }
+    ]
+  },
+  "status": "active"
 }
