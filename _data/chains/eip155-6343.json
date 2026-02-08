@@ -1,12 +1,8 @@
 {
   "name": "MegaETH Testnet",
   "chain": "MegaETH",
-  "rpc": [
-    "https://carrot.megaeth.com/rpc"
-  ],
-  "faucets": [
-    "https://testnet.megaeth.com"
-  ],
+  "rpc": ["https://carrot.megaeth.com/rpc"],
+  "faucets": ["https://testnet.megaeth.com"],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",

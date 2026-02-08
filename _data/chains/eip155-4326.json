@@ -1,10 +1,7 @@
 {
   "name": "MegaETH Mainnet",
   "chain": "MegaETH",
-  "rpc": [
-    "https://mainnet.megaeth.com/rpc",
-    "wss://mainnet.megaeth.com/ws"
-  ],
+  "rpc": ["https://mainnet.megaeth.com/rpc", "wss://mainnet.megaeth.com/ws"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
