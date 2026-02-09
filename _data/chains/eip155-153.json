@@ -4,6 +4,7 @@
   "chain": "RBN",
   "chainId": 153,
   "networkId": 153,
+  "icon": "redbelly",
   "slip44": 1,
   "rpc": ["https://governors.testnet.redbelly.network"],
   "faucets": [],
@@ -15,9 +16,9 @@
   },
   "explorers": [
     {
-      "name": "Redbelly Network Testnet Explorer",
-      "url": "https://explorer.testnet.redbelly.network",
-      "standard": "none"
+      "name": "Routescan",
+      "url": "https://redbelly.testnet.routescan.io",
+      "standard": "EIP3091"
     }
   ],
   "status": "active"

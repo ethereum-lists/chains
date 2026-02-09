@@ -1,0 +1,23 @@
+{
+  "name": "Emeraldz",
+  "chain": "EMED",
+  "rpc": ["https://public.0xrpc.com/789789"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EMERALDZ",
+    "symbol": "EMED",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://emeraldzscan.com",
+  "shortName": "emed",
+  "chainId": 789789,
+  "networkId": 789789,
+  "explorers": [
+    {
+      "name": "Emeraldz Explorer",
+      "url": "https://emeraldzscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

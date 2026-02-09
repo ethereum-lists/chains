@@ -1,0 +1,25 @@
+{
+  "name": "Juneo DAI1-Chain",
+  "chain": "Juneo DAI1-Chain",
+  "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/DAI1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DAI1",
+    "symbol": "DAI1",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://juneo.com/",
+  "shortName": "DAI1",
+  "chainId": 45004,
+  "networkId": 45004,
+  "icon": "juneo-dai1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://juneoscan.io/chain/5",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}

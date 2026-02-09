@@ -1,0 +1,25 @@
+{
+  "name": "Citrea Mainnet",
+  "chain": "Citrea",
+  "rpc": ["https://rpc.mainnet.citrea.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Citrea BTC",
+    "symbol": "cBTC",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://citrea.xyz",
+  "shortName": "citrea",
+  "chainId": 4114,
+  "networkId": 4114,
+  "icon": "citrea",
+  "explorers": [
+    {
+      "name": "Citrea Mainnet Explorer",
+      "url": "https://explorer.mainnet.citrea.xyz",
+      "icon": "citrea",
+      "standard": "EIP3091"
+    }
+  ]
+}

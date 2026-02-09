@@ -5,7 +5,7 @@
   "faucets": [],
   "nativeCurrency": {
     "name": "DeepBrainChain",
-    "symbol": "DBC",
+    "symbol": "tDBC",
     "decimals": 18
   },
   "infoURL": "https://www.deepbrainchain.org",
@@ -18,7 +18,7 @@
   "explorers": [
     {
       "name": "DeepBrainChain Testnet",
-      "url": "https://blockscout-testnet.dbcscan.io",
+      "url": "https://testnet.dbcscan.io",
       "icon": "dbc",
       "standard": "EIP3091"
     }

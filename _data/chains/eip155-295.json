@@ -2,7 +2,7 @@
   "name": "Hedera Mainnet",
   "chain": "Hedera",
   "icon": "hedera",
-  "rpc": ["https://mainnet.hashio.io/api"],
+  "rpc": ["https://mainnet.hashio.io/api", "https://hedera.linkpool.pro"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
@@ -17,11 +17,6 @@
   "slip44": 3030,
   "explorers": [
     {
-      "name": "HashScan",
-      "url": "https://hashscan.io/mainnet",
-      "standard": "EIP3091"
-    },
-    {
       "name": "Arkhia Explorer",
       "url": "https://explorer.arkhia.io",
       "standard": "none"
@@ -34,11 +29,6 @@
     {
       "name": "Hedera Explorer",
       "url": "https://hederaexplorer.io",
-      "standard": "none"
-    },
-    {
-      "name": "Ledger Works Explore",
-      "url": "https://explore.lworks.io",
       "standard": "none"
     }
   ]

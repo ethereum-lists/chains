@@ -1,24 +1,19 @@
 {
-  "name": "Autonomys Testnet Nova Domain",
-  "chain": "TATC",
-  "rpc": ["https://nova-0.gemini-3h.subspace.network/ws"],
+  "name": "Autonomys Taurus Testnet",
+  "chain": "autonomys-taurus-testnet",
+  "rpc": ["https://auto-evm.taurus.autonomys.xyz/ws"],
+  "status": "deprecated",
+  "icon": "autonomys",
   "faucets": [],
   "nativeCurrency": {
-    "name": "Test Auto Coin",
-    "symbol": "TATC",
+    "name": "AI3",
+    "symbol": "AI3",
     "decimals": 18
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "infoURL": "https://www.autonomys.net",
-  "shortName": "ATN",
+  "infoURL": "https://www.autonomys.xyz",
+  "shortName": "ATN-deprecated",
   "chainId": 490000,
   "networkId": 490000,
-  "explorers": [
-    {
-      "name": "astral",
-      "url": "https://nova.subspace.network",
-      "icon": "blockscout",
-      "standard": "EIP3091"
-    }
-  ]
+  "explorers": []
 }

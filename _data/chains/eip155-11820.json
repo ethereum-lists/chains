@@ -1,0 +1,23 @@
+{
+  "name": "Artela Mainnet",
+  "chain": "Artela",
+  "rpc": ["https://node-euro.artela.network/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ART",
+    "symbol": "ART",
+    "decimals": 18
+  },
+  "infoURL": "https://artela.network/",
+  "shortName": "artela-mainnet",
+  "chainId": 11820,
+  "networkId": 11820,
+  "icon": "artela",
+  "explorers": [
+    {
+      "name": "ArtelaScan",
+      "url": "https://artscan.artela.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Bionix Testnet",
+  "chain": "Bionix",
+  "rpc": ["https://testnet-chain.bionixnetwork.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bionix",
+    "symbol": "tBIO",
+    "decimals": 18
+  },
+  "icon": "bionix",
+  "infoURL": "https://bionixnetwork.com",
+  "shortName": "tbio",
+  "chainId": 1949,
+  "networkId": 1949,
+  "explorers": [
+    {
+      "name": "Bionix Testnet Explorer",
+      "url": "https://testnet.bionixnetwork.com",
+      "standard": "none"
+    }
+  ]
+}

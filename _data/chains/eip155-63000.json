@@ -1,23 +1,24 @@
 {
-  "name": "eCredits Mainnet",
+  "name": "eSync Network Mainnet",
+  "title": "eSync Network Mainnet",
   "chain": "ECS",
-  "rpc": ["https://rpc.ecredits.com"],
+  "rpc": ["https://rpc.esync.network", "https://rpc.ecredits.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "eCredits",
     "symbol": "ECS",
     "decimals": 18
   },
-  "infoURL": "https://ecredits.com",
-  "shortName": "ecs",
+  "infoURL": "https://esync.network",
+  "shortName": "esync-mainnet",
   "chainId": 63000,
   "networkId": 63000,
-  "icon": "ecredits",
+  "icon": "esync",
   "explorers": [
     {
-      "name": "eCredits MainNet Explorer",
-      "url": "https://explorer.ecredits.com",
-      "icon": "ecredits",
+      "name": "eSync Network Mainnet Explorer",
+      "url": "https://explorer.esync.network",
+      "icon": "esync",
       "standard": "EIP3091"
     }
   ]

@@ -1,0 +1,27 @@
+{
+  "name": "AppLayer Testnet",
+  "chain": "AppLayer",
+  "rpc": ["https://testnet-api.applayer.com"],
+  "faucets": ["https://testnet-faucet.applayer.com"],
+  "nativeCurrency": {
+    "name": "AppLayer",
+    "symbol": "APPL",
+    "decimals": 18
+  },
+  "features": [
+    { "name": "EIP55" },
+    { "name": "EIP155" },
+    { "name": "EIP1559" }
+  ],
+  "infoURL": "https://applayer.com",
+  "shortName": "applayer-testnet",
+  "chainId": 75338,
+  "networkId": 75338,
+  "explorers": [
+    {
+      "name": "Applayer Testnet Explorer",
+      "url": "https://testnet-explorer.applayer.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,23 +1,18 @@
 {
-  "name": "Xchain Testnet",
-  "chain": "Xchain",
+  "name": "Xchain Testnet (Deprecated)",
+  "chain": "XchainDeprecated",
   "icon": "intd",
-  "rpc": ["https://rpc.xchaintest.net"],
-  "faucets": ["https://xchainfaucet.net"],
+  "rpc": [],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Intdestcoin Testnet",
     "symbol": "INTD",
     "decimals": 18
   },
-  "infoURL": "https://xchaintest.net",
-  "shortName": "tINTD",
+  "infoURL": "https://chainlist.org/chain/31754",
+  "shortName": "tINTD_deprecated",
   "chainId": 31754,
   "networkId": 31754,
-  "explorers": [
-    {
-      "name": "Xchain Testnet Explorer",
-      "url": "https://xchaintest.net",
-      "standard": "EIP3091"
-    }
-  ]
+  "status": "deprecated",
+  "explorers": []
 }

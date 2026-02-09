@@ -1,13 +1,13 @@
 {
-  "name": "Zenchain",
-  "chain": "ZCX",
+  "name": "ZenChain",
+  "chain": "ZTC",
   "icon": "zenchain",
   "rpc": [],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
-    "name": "ZCX",
-    "symbol": "ZCX",
+    "name": "ZTC",
+    "symbol": "ZTC",
     "decimals": 18
   },
   "infoURL": "https://zenchain.io",

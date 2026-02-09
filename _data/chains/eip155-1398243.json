@@ -1,7 +1,10 @@
 {
   "name": "Automata Testnet",
   "chain": "Automata Testnet",
-  "rpc": ["https://automata-testnet.alt.technology"],
+  "rpc": [
+    "https://rpc-testnet.ata.network",
+    "https://automata-testnet.alt.technology"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ATA",
@@ -16,7 +19,7 @@
   "explorers": [
     {
       "name": "Automata Testnet Explorer",
-      "url": "https://automata-testnet-explorer.alt.technology",
+      "url": "https://explorer-testnet.ata.network",
       "standard": "EIP3091"
     }
   ]

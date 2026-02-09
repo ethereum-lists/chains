@@ -1,0 +1,33 @@
+{
+  "name": "Pentagon Chain",
+  "chain": "Pentagon Chain",
+  "rpc": ["https://rpc.pentagon.games"],
+  "faucets": ["https://bridge.pentagon.games"],
+  "nativeCurrency": {
+    "name": "Pentagon Chain",
+    "symbol": "PC",
+    "decimals": 18
+  },
+  "icon": "pentagonchain",
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://pentagon.games",
+  "shortName": "PentagonChain",
+  "chainId": 3344,
+  "networkId": 3344,
+  "explorers": [
+    {
+      "name": "Pentagon Chain Explorer",
+      "url": "https://explorer.pentagon.games",
+      "icon": "pentagonchain",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}

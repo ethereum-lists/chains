@@ -1,0 +1,28 @@
+{
+  "name": "NutriEmp Chain",
+  "chain": "nutriemp-chain",
+  "rpc": ["https://rpc.nutriemp-chain.link", "https://rpc.nutriemp.com"],
+  "faucets": [],
+  "nativeCurrency": { "name": "GRAMZ", "symbol": "GRAMZ", "decimals": 18 },
+  "infoURL": "https://nutriemp.com",
+  "shortName": "nutriemp",
+  "chainId": 432,
+  "networkId": 432,
+  "icon": "GRAMZ",
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "explorers": [
+    {
+      "name": "NutriEmp Explorer",
+      "url": "https://explorer.nutriemp-chain.link",
+      "standard": "EIP3091",
+      "icon": "GRAMZ"
+    }
+  ]
+}

@@ -1,32 +1,18 @@
 {
-  "name": "Lucky Network",
-  "chain": "LN",
-  "rpc": [
-    "https://rpc.luckynetwork.org",
-    "wss://ws.lnscan.org",
-    "https://rpc.lnscan.org"
-  ],
+  "name": "Hyperliquid EVM Testnet",
+  "chain": "HYPE",
+  "rpc": ["https://api.hyperliquid-testnet.xyz/evm"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Lucky",
-    "symbol": "L99",
+    "name": "HYPE",
+    "symbol": "HYPE",
     "decimals": 18
   },
-  "infoURL": "https://luckynetwork.org",
-  "shortName": "ln",
+  "infoURL": "https://hyperfoundation.org/",
+  "shortName": "hype-evm-testnet",
   "chainId": 998,
   "networkId": 998,
-  "icon": "lucky",
-  "explorers": [
-    {
-      "name": "blockscout",
-      "url": "https://explorer.luckynetwork.org",
-      "standard": "none"
-    },
-    {
-      "name": "expedition",
-      "url": "https://lnscan.org",
-      "standard": "none"
-    }
-  ]
+  "explorers": [],
+  "redFlags": ["reusedChainId"]
 }

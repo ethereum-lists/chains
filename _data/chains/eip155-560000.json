@@ -1,0 +1,23 @@
+{
+  "name": "Hetu Mainnet",
+  "chain": "HETU",
+  "rpc": ["https://rpc.va.hetu.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "HETU",
+    "symbol": "HETU",
+    "decimals": 18
+  },
+  "infoURL": "https://hetu.org",
+  "shortName": "HETU",
+  "chainId": 560000,
+  "networkId": 560000,
+  "explorers": [
+    {
+      "name": "Hetu Mainnet Scan",
+      "url": "https://scan.v1.hetu.org",
+      "icon": "hetu",
+      "standard": "EIP3091"
+    }
+  ]
+}

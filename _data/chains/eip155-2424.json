@@ -1,0 +1,18 @@
+{
+  "name": "inEVM Testnet",
+  "chain": "inEVM testnet",
+  "icon": "inevm",
+  "rpc": ["https://testnet.rpc.inevm.com/http"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Injective",
+    "symbol": "INJ",
+    "decimals": 18
+  },
+  "infoURL": "https://inevm.com",
+  "shortName": "inevm-testnet",
+  "chainId": 2424,
+  "networkId": 2424,
+  "explorers": [],
+  "status": "active"
+}

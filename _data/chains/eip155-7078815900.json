@@ -1,0 +1,25 @@
+{
+  "name": "Mekong",
+  "chain": "ETH",
+  "rpc": ["https://rpc.mekong.ethpandaops.io"],
+  "faucets": ["https://faucet.mekong.ethpandaops.io"],
+  "nativeCurrency": {
+    "name": "Testnet ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://mekong.ethpandaops.io",
+  "shortName": "mekong",
+  "chainId": 7078815900,
+  "networkId": 7078815900,
+  "icon": "ethereum",
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "Holesky Dora Explorer",
+      "url": "https://explorer.mekong.ethpandaops.io",
+      "icon": "ethereum",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,15 +1,15 @@
 {
-  "name": "Mtt Mainnet",
+  "name": "MTT Network",
   "chain": "MTT",
   "rpc": ["https://evm-rpc.mtt.network"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Mtt mainnet native coin",
+    "name": "MTT Network native coin",
     "symbol": "MTT",
     "decimals": 18
   },
   "infoURL": "https://mtt.network",
-  "shortName": "mtt-mainnet",
+  "shortName": "mtt-network",
   "chainId": 6880,
   "networkId": 6880,
   "icon": "mttnetwork",

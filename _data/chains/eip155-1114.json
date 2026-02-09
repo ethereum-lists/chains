@@ -1,0 +1,26 @@
+{
+  "name": "Core Blockchain Testnet2",
+  "chain": "Core",
+  "icon": "core",
+  "rpc": ["https://rpc.test2.btcs.network/"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": ["https://scan.test2.btcs.network/faucet"],
+  "nativeCurrency": {
+    "name": "Core Blockchain Testnet2 Native Token",
+    "symbol": "tCORE2",
+    "decimals": 18
+  },
+  "infoURL": "https://www.coredao.org",
+  "shortName": "tcore2",
+  "chainId": 1114,
+  "networkId": 1114,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Core Scan Testnet2",
+      "url": "https://scan.test2.btcs.network",
+      "icon": "core",
+      "standard": "EIP3091"
+    }
+  ]
+}

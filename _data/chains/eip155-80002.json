@@ -10,8 +10,8 @@
   ],
   "faucets": ["https://faucet.polygon.technology/"],
   "nativeCurrency": {
-    "name": "MATIC",
-    "symbol": "MATIC",
+    "name": "POL",
+    "symbol": "POL",
     "decimals": 18
   },
   "infoURL": "https://polygon.technology/",
@@ -20,6 +20,11 @@
   "networkId": 80002,
   "slip44": 1,
   "explorers": [
+    {
+      "name": "polygonscan-amoy",
+      "url": "https://amoy.polygonscan.com",
+      "standard": "EIP3091"
+    },
     {
       "name": "polygonamoy",
       "url": "https://www.oklink.com/amoy",

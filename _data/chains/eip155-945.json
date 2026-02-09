@@ -1,12 +1,12 @@
 {
   "name": "Subtensor EVM Testnet",
   "chain": "Bittensor",
-  "rpc": ["https://evm-testnet.dev.opentensor.ai"],
+  "rpc": ["https://test.chain.opentensor.ai"],
   "faucets": [],
   "nativeCurrency": {
     "name": "testTAO",
     "symbol": "TAO",
-    "decimals": 9
+    "decimals": 18
   },
   "infoURL": "https://bittensor.com/",
   "shortName": "bittensor-evm-testnet",

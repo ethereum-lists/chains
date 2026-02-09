@@ -1,0 +1,34 @@
+{
+  "name": "JasmyChain",
+  "chain": "jasmychain",
+  "rpc": ["https://rpc.jasmyscan.net", "wss://rpc.jasmyscan.net/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "JasmyCoin",
+    "symbol": "JASMY",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://jasmy.global",
+  "shortName": "jasmychain",
+  "chainId": 680,
+  "networkId": 680,
+  "icon": "jasmychain",
+  "explorers": [
+    {
+      "name": "jasmyscan",
+      "url": "https://explorer.jasmyscan.net",
+      "icon": "jasmychain",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [
+      {
+        "url": "https://portal.arbitrum.io/bridge?sourceChain=ethereum&destinationChain=jasmychain"
+      }
+    ]
+  }
+}

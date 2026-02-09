@@ -3,6 +3,8 @@
   "chain": "LUKSO",
   "icon": "lukso",
   "rpc": [
+    "https://42.rpc.thirdweb.com",
+    "https://rpc.lukso.sigmacore.io",
     "https://rpc.mainnet.lukso.network",
     "wss://ws-rpc.mainnet.lukso.network"
   ],
@@ -14,8 +16,8 @@
   },
   "explorers": [
     {
-      "name": "Blockscout",
-      "url": "https://explorer.execution.mainnet.lukso.network",
+      "name": "LUKSO Execution Explorer",
+      "url": "https://explorer.lukso.network",
       "standard": "EIP3091"
     }
   ],

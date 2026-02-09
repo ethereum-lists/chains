@@ -1,0 +1,21 @@
+{
+  "name": "Xprotocol Sepolia",
+  "chainId": 83868,
+  "shortName": "xprotocolsepolia",
+  "chain": "Xprotocol Sepolia",
+  "networkId": 83868,
+  "nativeCurrency": {
+    "name": "KICK Testnet Token",
+    "symbol": "KICK",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "explorers": [],
+  "status": "incubating",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-84532"
+  },
+  "infoURL": "https://xprotocol.org/"
+}

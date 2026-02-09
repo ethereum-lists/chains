@@ -1,22 +1,22 @@
 {
-  "name": "F(x)Core Mainnet Network",
-  "chain": "Fxcore",
+  "name": "Pundi AIFX Omnilayer",
+  "chain": "PUNDIAI",
   "rpc": ["https://fx-json-web3.functionx.io:8545"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Function X",
-    "symbol": "FX",
+    "name": "Pundi AIFX",
+    "symbol": "PUNDAI",
     "decimals": 18
   },
-  "infoURL": "https://functionx.io/",
-  "shortName": "FxCore",
+  "infoURL": "https://fx.pundi.ai/",
+  "shortName": "pundiai",
   "chainId": 530,
   "networkId": 530,
-  "icon": "fxcore",
+  "icon": "pundiai",
   "explorers": [
     {
-      "name": "FunctionX Explorer",
-      "url": "https://fx-evm.functionx.io",
+      "name": "PundiScan Explorer",
+      "url": "https://pundiscan.io/evm",
       "standard": "EIP3091"
     }
   ]

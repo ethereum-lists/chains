@@ -1,0 +1,29 @@
+{
+  "name": "ZERO Network",
+  "chain": "ZERONetwork",
+  "icon": "zero",
+  "rpc": ["https://rpc.zerion.io/v1/zero"],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.zero.network" }]
+  },
+  "faucets": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.zero.network",
+  "shortName": "zero-network",
+  "chainId": 543210,
+  "networkId": 543210,
+  "explorers": [
+    {
+      "name": "ZERO Network Explorer",
+      "url": "https://explorer.zero.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

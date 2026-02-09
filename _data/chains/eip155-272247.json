@@ -1,0 +1,23 @@
+{
+  "name": "Nxy Area 51",
+  "chain": "NXY",
+  "rpc": ["https://nxy.social/testnet"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Nxy",
+    "symbol": "NXY",
+    "decimals": 18
+  },
+  "infoURL": "https://nxy.social/l1",
+  "shortName": "nxytest",
+  "chainId": 272247,
+  "networkId": 272247,
+  "slip44": 272247,
+  "explorers": [
+    {
+      "name": "Nxy Explorer",
+      "url": "https://explorer.nxy.social",
+      "standard": "none"
+    }
+  ]
+}

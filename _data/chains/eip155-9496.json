@@ -1,22 +1,22 @@
 {
-  "name": "WeaveVM Testnet",
-  "chain": "WVM",
-  "rpc": ["https://testnet.wvm.dev", "https://testnet-rpc.wvm.dev"],
-  "faucets": [],
+  "name": "Load Alphanet",
+  "chain": "LOAD",
+  "rpc": ["https://alphanet.load.network"],
+  "faucets": ["https://load.network/faucet"],
   "nativeCurrency": {
-    "name": "Testnet WeaveVM Token",
-    "symbol": "tWVM",
+    "name": "Testnet Load Token",
+    "symbol": "tLOAD",
     "decimals": 18
   },
-  "infoURL": "https://wvm.dev",
-  "shortName": "twvm",
+  "infoURL": "https://load.network",
+  "shortName": "tload",
   "chainId": 9496,
   "networkId": 9496,
-  "icon": "weavevm",
+  "icon": "loadnetwork",
   "explorers": [
     {
-      "name": "WeaveVM Explorer",
-      "url": "https://explorer.wvm.dev",
+      "name": "Load Network Explorer",
+      "url": "https://explorer.load.network",
       "standard": "EIP3091"
     }
   ]

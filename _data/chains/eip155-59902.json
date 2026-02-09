@@ -1,7 +1,11 @@
 {
   "name": "Metis Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia.metisdevops.link"],
+  "rpc": [
+    "https://sepolia.metisdevops.link",
+    "https://metis-sepolia-rpc.publicnode.com",
+    "wss://metis-sepolia-rpc.publicnode.com"
+  ],
   "faucets": ["https://sepolia.faucet.metisdevops.link"],
   "nativeCurrency": {
     "name": "tMetis",

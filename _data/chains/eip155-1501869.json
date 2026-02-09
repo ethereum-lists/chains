@@ -1,0 +1,29 @@
+{
+  "name": "Waterfall 9 Test Network",
+  "chain": "Waterfall TestNet9",
+  "rpc": ["https://rpc.testnet9.waterfall.network"],
+  "faucets": ["https://faucet.testnet9.waterfall.network"],
+  "nativeCurrency": {
+    "name": "WATER",
+    "symbol": "WATER",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://waterfall.network",
+  "shortName": "water9",
+  "chainId": 1501869,
+  "networkId": 1501869,
+  "icon": "waterfall",
+  "explorers": [
+    {
+      "name": "Waterfall Explorer Testnet9",
+      "url": "https://explorer.testnet9.waterfall.network",
+      "icon": "waterfall",
+      "standard": "EIP3091"
+    }
+  ]
+}

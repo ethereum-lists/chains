@@ -1,0 +1,25 @@
+{
+  "name": "Vcitychain Mainnet",
+  "chain": "Vcitychain",
+  "rpc": ["https://mainnet-rpc.vcity.app"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Vcity Coin",
+    "symbol": "VCITY",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://vcity.app",
+  "shortName": "vcity",
+  "chainId": 20250825,
+  "networkId": 20250825,
+  "icon": "vcitychain",
+  "explorers": [
+    {
+      "name": "Vcitychain Explorer",
+      "url": "https://blockchain.vcity.app",
+      "icon": "vcitychain",
+      "standard": "none"
+    }
+  ]
+}

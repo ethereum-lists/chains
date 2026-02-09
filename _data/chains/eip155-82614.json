@@ -1,0 +1,31 @@
+{
+  "name": "VEMP Horizon",
+  "chain": "vemp-horizon",
+  "rpc": ["https://vemp-horizon.calderachain.xyz/http"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "VEMP",
+    "symbol": "VEMP",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://www.vemp.xyz/",
+  "shortName": "vemp-horizon",
+  "chainId": 82614,
+  "networkId": 82614,
+  "icon": "vemp-horizon",
+  "explorers": [
+    {
+      "name": "VEMP Horizon Caldera Explorer",
+      "url": "https://vemp-horizon.calderaexplorer.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}

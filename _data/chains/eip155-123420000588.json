@@ -1,0 +1,34 @@
+{
+  "name": "volmex",
+  "title": "Volmex",
+  "chain": "volmex",
+  "rpc": [
+    "https://rpc.volmex.t.raas.gelato.cloud",
+    "wss://ws.volmex.t.raas.gelato.cloud"
+  ],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://raas.gelato.network/rollups/details/public/volmex",
+  "faucets": [],
+  "shortName": "volmex",
+  "chainId": 123420000588,
+  "networkId": 123420000588,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://volmex.cloud.blockscout.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-84532",
+    "bridges": [
+      { "url": "https://testnet-bridge.gelato.network/bridge/volmex" }
+    ]
+  }
+}

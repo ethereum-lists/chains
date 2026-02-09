@@ -1,0 +1,24 @@
+{
+  "name": "EDU Chain",
+  "chain": "EDU Chain",
+  "icon": "occ-mainnet",
+  "rpc": ["https://rpc.edu-chain.raas.gelato.cloud"],
+  "faucets": ["https://bridge.gelato.network/bridge/edu-chain"],
+  "nativeCurrency": {
+    "name": "EDU",
+    "symbol": "EDU",
+    "decimals": 18
+  },
+  "infoURL": "https://raas.gelato.network/rollups/details/public/edu-chain",
+  "shortName": "edu-chain",
+  "chainId": 41923,
+  "networkId": 41923,
+  "explorers": [
+    {
+      "name": "EDU Chain",
+      "url": "https://educhain.blockscout.com",
+      "icon": "occ-mainnet",
+      "standard": "none"
+    }
+  ]
+}

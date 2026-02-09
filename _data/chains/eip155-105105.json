@@ -1,22 +1,22 @@
 {
-  "name": "Stratis Mainnet",
-  "chain": "Stratis",
-  "rpc": ["https://rpc.stratisevm.com"],
+  "name": "Xertra Mainnet",
+  "chain": "Xertra",
+  "rpc": ["https://rpc.xertra.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Stratis",
+    "name": "STRAX",
     "symbol": "STRAX",
     "decimals": 18
   },
-  "infoURL": "https://www.stratisplatform.com",
-  "shortName": "stratis",
+  "infoURL": "https://www.xertra.com/",
+  "shortName": "xertra",
   "chainId": 105105,
   "networkId": 105105,
-  "icon": "stratis",
+  "icon": "xertra",
   "explorers": [
     {
-      "name": "Stratis Explorer",
-      "url": "https://explorer.stratisevm.com",
+      "name": "Xertra Explorer",
+      "url": "https://explorer.xertra.com",
       "standard": "EIP3091"
     }
   ]
