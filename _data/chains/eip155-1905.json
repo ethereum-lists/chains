@@ -1,0 +1,33 @@
+{
+  "name": "XMetals Network",
+  "chain": "XRF",
+  "icon": "xrf",
+  "rpc": [
+    "https://rpc.unicornvr.live"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "XMetals Token",
+    "symbol": "XRF",
+    "decimals": 18
+  },
+  "infoURL": "https://orcaamr.com",
+  "shortName": "xrf",
+  "chainId": 1905,
+  "networkId": 1905,
+  "explorers": [
+    {
+      "name": "XMetals Explorer",
+      "url": "https://scan.orcaamr.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
