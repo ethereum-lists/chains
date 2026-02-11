@@ -1,0 +1,25 @@
+{
+  "name": "Advance Blockchain Mainnet",
+  "chain": "ABC",
+  "rpc": [
+    "https://rpc1.advanceblockchain.io",
+    "https://rpc2.advanceblockchain.io",
+    "wss://rpc1-wss.advanceblockchain.io"
+  ],
+  "nativeCurrency": {
+    "name": "White Bitcoin",
+    "symbol": "WBTC",
+    "decimals": 18
+  },
+  "infoURL": "https://advanceblockchain.io",
+  "shortName": "wbtc",
+  "chainId": 892,
+  "networkId": 892
+  "explorers": [
+    {
+      "name": "advanceblockchainexplorer",
+      "url": "https://explorer.advanceblockchain.io/",
+      "standard": "none"
+    }
+  ]
+}
