@@ -1,13 +1,8 @@
 {
   "name": "BIE",
   "chain": "BIE",
-  "rpc": [
-    "https://rpc.bie.ai",
-    "https://api.bie.ai"
-  ],
-  "faucets": [
-    "https://app.bie.ai/faucet"
-  ],
+  "rpc": ["https://rpc.bie.ai", "https://api.bie.ai"],
+  "faucets": ["https://app.bie.ai/faucet"],
   "nativeCurrency": {
     "name": "BIE",
     "symbol": "BIE",
@@ -34,4 +29,3 @@
     }
   ]
 }
-
