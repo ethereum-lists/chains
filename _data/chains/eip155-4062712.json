@@ -1,0 +1,25 @@
+{
+  "name": "Stakonomy Atlas",
+  "chain": "ATLAS",
+  "rpc": [
+    "https://atlasrpc.stakonomy.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "STAKO",
+    "symbol": "STAKO",
+    "decimals": 18
+  },
+  "infoURL": "https://stakonomy.org",
+  "shortName": "atlas",
+  "chainId": 4062712,
+  "networkId": 4062712,
+  "icon": "stakonomy",
+  "explorers": [
+    {
+      "name": "Stakonomy Atlas Explorer",
+      "url": "https://atlasscan.stakonomy.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
