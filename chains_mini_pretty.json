@@ -7630,6 +7630,19 @@
   "faucets": [],
   "infoURL": "https://metacces.com"
 }, {
+  "name": "Irys Testnet V1",
+  "chainId": 1270,
+  "shortName": "irys-testnet-v1",
+  "networkId": 1270,
+  "nativeCurrency": {
+    "name": "Irys",
+    "symbol": "IRYS",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.irys.xyz/v1/execution-rpc", "https://testnet-rpc-2.irys.xyz/v1/execution-rpc"],
+  "faucets": [],
+  "infoURL": "https://irys.xyz"
+}, {
   "name": "HALO Mainnet",
   "chainId": 1280,
   "shortName": "HO",
@@ -11682,7 +11695,7 @@
     "symbol": "IRYS",
     "decimals": 18
   },
-  "rpc": ["https://mainnet-beta-rpc.irys.xyz/v1/execution-rpc"],
+  "rpc": ["https://mainnet-beta-rpc.irys.xyz/v1/execution-rpc", "https://mainnet-beta-rpc-2.irys.xyz/v1/execution-rpc"],
   "faucets": [],
   "infoURL": "https://irys.xyz"
 }, {

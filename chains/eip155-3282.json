@@ -1,7 +1,10 @@
 {
   "name": "Irys Mainnet Beta",
   "chain": "IRYS",
-  "rpc": ["https://mainnet-beta-rpc.irys.xyz/v1/execution-rpc"],
+  "rpc": [
+    "https://mainnet-beta-rpc.irys.xyz/v1/execution-rpc",
+    "https://mainnet-beta-rpc-2.irys.xyz/v1/execution-rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Irys",
