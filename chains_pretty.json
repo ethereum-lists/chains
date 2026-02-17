@@ -34339,6 +34339,56 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "AMA Testnet",
+  "chain": "AMA",
+  "rpc": ["https://testnet-rpc.ama.one"],
+  "faucets": ["https://mcp.ama.one/testnet-faucet"],
+  "nativeCurrency": {
+    "name": "AMA",
+    "symbol": "AMA",
+    "decimals": 9
+  },
+  "infoURL": "https://ama.one",
+  "shortName": "AMA-TESTNET",
+  "chainId": 36968,
+  "networkId": 36968,
+  "slip44": 1,
+  "status": "incubating",
+  "explorers": [{
+    "name": "AMA Explorer Testnet",
+    "url": "https://testnet-ama.ddns.net",
+    "standard": "none"
+  }, {
+    "name": "AMA Explorer Testnet Alt",
+    "url": "https://testnet.explorer.ama.one",
+    "standard": "none"
+  }]
+}, {
+  "name": "AMA Mainnet",
+  "chain": "AMA",
+  "rpc": ["https://mainnet-rpc.ama.one"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AMA",
+    "symbol": "AMA",
+    "decimals": 9
+  },
+  "infoURL": "https://ama.one",
+  "shortName": "AMA",
+  "chainId": 36969,
+  "networkId": 36969,
+  "slip44": 36969,
+  "status": "active",
+  "explorers": [{
+    "name": "AMA Explorer Mainnet",
+    "url": "https://ama-explorer.ddns.net",
+    "standard": "none"
+  }, {
+    "name": "AMA Explorer Mainnet Alt",
+    "url": "https://explorer.ama.one",
+    "standard": "none"
+  }]
+}, {
   "name": "Lens Testnet",
   "title": "Lens Network Sepolia Testnet",
   "chain": "Lens",

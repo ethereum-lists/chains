@@ -20838,6 +20838,32 @@
   "faucets": [],
   "infoURL": "https://adifoundation.ai"
 }, {
+  "name": "AMA Testnet",
+  "chainId": 36968,
+  "shortName": "AMA-TESTNET",
+  "networkId": 36968,
+  "nativeCurrency": {
+    "name": "AMA",
+    "symbol": "AMA",
+    "decimals": 9
+  },
+  "rpc": ["https://testnet-rpc.ama.one"],
+  "faucets": ["https://mcp.ama.one/testnet-faucet"],
+  "infoURL": "https://ama.one"
+}, {
+  "name": "AMA Mainnet",
+  "chainId": 36969,
+  "shortName": "AMA",
+  "networkId": 36969,
+  "nativeCurrency": {
+    "name": "AMA",
+    "symbol": "AMA",
+    "decimals": 9
+  },
+  "rpc": ["https://mainnet-rpc.ama.one"],
+  "faucets": [],
+  "infoURL": "https://ama.one"
+}, {
   "name": "Lens Testnet",
   "chainId": 37111,
   "shortName": "lens-sepolia",
