@@ -1,0 +1,31 @@
+{
+  "name": "Radius Network Testnet",
+  "chain": "RAD",
+  "rpc": ["https://rpc.testnet.radiustech.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Radius USD",
+    "symbol": "RUSD",
+    "decimals": 18
+  },
+  "infoURL": "https://radiustech.xyz",
+  "shortName": "rad",
+  "chainId": 72344,
+  "networkId": 72344,
+  "icon": "rad",
+  "explorers": [
+    {
+      "name": "Radius Network Testnet Explorer",
+      "url": "https://testnet.radiustech.xyz",
+      "standard": "none"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ]
+}
