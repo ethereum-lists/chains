@@ -1,9 +1,9 @@
 {
-  "name": "Irys Mainnet Beta",
+  "name": "Irys Testnet V1",
   "chain": "IRYS",
   "rpc": [
-    "https://mainnet-beta-rpc.irys.xyz/v1/execution-rpc",
-    "https://mainnet-beta-rpc-2.irys.xyz/v1/execution-rpc"
+    "https://testnet-rpc.irys.xyz/v1/execution-rpc",
+    "https://testnet-rpc-2.irys.xyz/v1/execution-rpc"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,16 +20,16 @@
     }
   ],
   "infoURL": "https://irys.xyz",
-  "shortName": "irys-mainnet-beta",
-  "chainId": 3282,
-  "networkId": 3282,
+  "shortName": "irys-testnet-v1",
+  "chainId": 1270,
+  "networkId": 1270,
   "icon": "irys",
   "explorers": [
     {
-      "name": "Irys Mainnet Beta Explorer",
-      "url": "https://evm-explorer.irys.xyz",
+      "name": "Irys Testnet Explorer",
+      "url": "https://testnet-explorer.irys.xyz",
       "icon": "irys",
-      "standard": "EIP3091"
+      "standard": "none"
     }
   ]
 }
