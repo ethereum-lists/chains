@@ -1,0 +1,24 @@
+{
+  "name": "Vexidus Testnet",
+  "chain": "VEX",
+  "rpc": [
+    "https://vexidus.io/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Vexidus",
+    "symbol": "VXS",
+    "decimals": 9
+  },
+  "infoURL": "https://vexidus.io",
+  "shortName": "vexidus",
+  "chainId": 1618032,
+  "networkId": 1618032,
+  "explorers": [
+    {
+      "name": "VexScan",
+      "url": "https://explorer.vexidus.io",
+      "standard": "none"
+    }
+  ]
+}
