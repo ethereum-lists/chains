@@ -2,7 +2,12 @@
   "name": "Datachain Rope",
   "chain": "DATACHAIN",
   "icon": "datachain",
-  "rpc": ["https://erpc.datachain.network", "wss://ws.datachain.network"],
+  "rpc": [
+    "https://erpc.datachain.network",
+    "wss://ws.datachain.network",
+    "https://erpc.rope.network",
+    "wss://ws.rope.network"
+  ],
   "faucets": ["https://faucet.datachain.network"],
   "nativeCurrency": {
     "name": "DC FAT",
