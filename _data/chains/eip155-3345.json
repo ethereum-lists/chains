@@ -1,0 +1,25 @@
+{
+  "name": "BUB Mainnet",
+  "chain": "BUB",
+  "icon": "bub",
+  "rpc": [
+    "https://node.benefy.cn"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BUB",
+    "symbol": "BUB",
+    "decimals": 8
+  },
+  "infoURL": "",
+  "shortName": "bub",
+  "chainId": 3345,
+  "networkId": 3345,
+  "explorers": [
+    {
+      "name": "BUB Explorer",
+      "url": "https://mainnet.benefy.cn",
+      "standard": "EIP3091"
+    }
+  ]
+}
