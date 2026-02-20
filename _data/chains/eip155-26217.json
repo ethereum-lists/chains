@@ -1,0 +1,28 @@
+{
+  "name": "Integra",
+  "chain": "Integra",
+  "rpc": ["https://adamboudj.integralayer.com/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Integra",
+    "symbol": "IRL",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://integralayer.com",
+  "shortName": "integra",
+  "chainId": 26217,
+  "networkId": 26217,
+  "explorers": [
+    {
+      "name": "Integra Explorer",
+      "url": "https://scan.integralayer.com",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Integra Blockscout",
+      "url": "https://blockscout.integralayer.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
