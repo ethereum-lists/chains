@@ -1,0 +1,31 @@
+{
+  "name": "BIE",
+  "chain": "BIE",
+  "rpc": ["https://rpc.bie.ai", "https://api.bie.ai"],
+  "faucets": ["https://app.bie.ai/faucet"],
+  "nativeCurrency": {
+    "name": "BIE",
+    "symbol": "BIE",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://bie.ai",
+  "shortName": "bie",
+  "chainId": 1342,
+  "networkId": 1342,
+  "icon": "bie",
+  "explorers": [
+    {
+      "name": "BIE Explorer",
+      "url": "https://app.bie.ai/explorer",
+      "standard": "EIP3091"
+    }
+  ]
+}
