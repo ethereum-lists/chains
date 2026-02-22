@@ -1,0 +1,26 @@
+[
+  {
+    "name": "EGoldChain Testnet",
+    "chain": "EGold",
+    "rpc": [
+      "https://testnet-rpc.goldscan.gold"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "EGold",
+      "symbol": "XAU",
+      "decimals": 18
+    },
+    "infoURL": "https://webgold.gold/",
+    "shortName": "WebGold",
+    "chainId": 1933,
+    "networkId": 1933,
+    "explorers": [
+      {
+        "name": "GoldScan Testnet Explorer",
+        "url": "https://testnet.goldscan.gold",
+        "standard": "EIP3091"
+      }
+    ]
+  }
+]
