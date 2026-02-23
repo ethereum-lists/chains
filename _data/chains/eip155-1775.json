@@ -1,0 +1,28 @@
+{
+  "name": "Valygo Smart Contract L1 Testnet",
+  "chain": "Valygo",
+  "rpc": [
+    "https://rpc-testnet.vyoscan.com/ext/bc/2EtAWmKjFbtp1XVVpXEPNoJhBBEsr2L4jaUV582zc7nvDY6Qb1/rpc"
+  ],
+  "faucets": [
+    "https://faucet-testnet.vyoscan.com"
+  ],
+  "nativeCurrency": {
+    "name": "VYO",
+    "symbol": "VYO",
+    "decimals": 18
+  },
+  "infoURL": "https://valygo.com",
+  "shortName": "valygo-smart",
+  "chainId": 1775,
+  "networkId": 1775,
+  "icon": "valygo",
+  "explorers": [
+    {
+      "name": "Valygo Smart Contract Explorer",
+      "url": "https://smart-testnet.vyoscan.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}

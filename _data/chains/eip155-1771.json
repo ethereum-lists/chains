@@ -1,0 +1,26 @@
+{
+  "name": "Valygo Chain",
+  "chain": "VALYGO",
+  "icon": "valygo",
+  "rpc": [
+    "https://rpc.vyoscan.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "VALYGO",
+    "symbol": "VYO",
+    "decimals": 18
+  },
+  "infoURL": "https://valygo.com",
+  "shortName": "vyo",
+  "chainId": 1771,
+  "networkId": 1771,
+  "explorers": [
+    {
+      "name": "Valygo Explorer",
+      "url": "https://explorer.vyoscan.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
