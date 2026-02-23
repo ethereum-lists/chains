@@ -1,0 +1,29 @@
+{
+  "name": "Valygo NFT L1 Testnet",
+  "chain": "VALYGO",
+  "icon": "valygo",
+  "rpc": [
+    "https://rpc-testnet.vyoscan.com/ext/bc/3ouHiy31qmBbEY8Bxchz9dwRKx4F2M2v3u9ZJuKFzmmJrt3oe/rpc"
+  ],
+  "faucets": [
+    "https://faucet-testnet.vyoscan.com"
+  ],
+  "nativeCurrency": {
+    "name": "VALYGO",
+    "symbol": "VYO",
+    "decimals": 18
+  },
+  "infoURL": "https://valygo.com",
+  "shortName": "vyo-nft",
+  "chainId": 1781,
+  "networkId": 1781,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Valygo NFT Explorer",
+      "url": "https://nft-explorer.vyoscan.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
