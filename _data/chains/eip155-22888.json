@@ -1,0 +1,27 @@
+{
+  "name": "Access Network",
+  "chain": "ACCESS",
+  "icon": "access",
+  "chainId": 22888,
+  "shortName": "access",
+  "networkId": 22888,
+  "nativeCurrency": {
+    "name": "Access Coin",
+    "symbol": "ACCESS",
+    "decimals": 18
+  },
+  "rpc": [
+    "https://accesschain.org/rpc"
+  ],
+  "faucets": [],
+  "infoURL": "https://accesschain.org",
+  "explorers": [
+    {
+      "name": "Access Network Explorer",
+      "url": "https://accesschain.org/access-explorer.html",
+      "standard": "EIP3091",
+      "icon": "access"
+    }
+  ],
+  "status": "active"
+}
