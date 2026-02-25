@@ -4,8 +4,8 @@
   "rpc": ["https://evm.mantrachain.io", "wss://evm.mantrachain.io/ws"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "OM",
-    "symbol": "OM",
+    "name": "MANTRA",
+    "symbol": "MANTRA",
     "decimals": 18
   },
   "infoURL": "https://mantrachain.io",
@@ -13,13 +13,19 @@
   "chainId": 5888,
   "networkId": 5888,
   "slip44": 1,
-  "icon": "om",
+  "icon": "mantra",
   "explorers": [
+    {
+      "name": "MANTRA Blockscout Explorer",
+      "url": "https://blockscout.mantrascan.io",
+      "standard": "EIP3091",
+      "icon": "mantra"
+    },
     {
       "name": "MANTRACHAIN Explorer",
       "url": "http://mantrascan.io",
       "standard": "none",
-      "icon": "om"
+      "icon": "mantra"
     }
   ]
 }
