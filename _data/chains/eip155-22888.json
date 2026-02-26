@@ -1,9 +1,7 @@
 {
   "name": "Access Network",
   "chain": "ACCESS",
-  "rpc": [
-    "https://accesschain.org/rpc"
-  ],
+  "rpc": ["https://accesschain.org/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "ACCESS",
@@ -18,7 +16,7 @@
   "explorers": [
     {
       "name": "ACCESS Explorer",
-      "url": "https://accesschain.org",
+      "url": "https://accesschain.org/explorer",
       "standard": "EIP3091"
     }
   ]
