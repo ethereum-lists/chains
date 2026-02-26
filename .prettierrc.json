@@ -3,4 +3,65 @@
     "tabWidth": 2,
     "semi": false,
     "singleQuote": false
-}
+}CSS_SETTINGS = {
+    :text_color        => '#333',
+    :text_color_hilite => '#f33',
+    :font_size         => '14px',
+    #...
+}def sassify(h)
+    h.map do |k, v|
+        # You might want more escaping for k and v in here, this is just
+        # a simple proof of concept demo.
+        [ '$', k.to_s.gsub('_', '-'), ': ', "'#{v}'", ';' ].join
+    end.join("\n
+
+  "root": {
+    "Quizsize": null,
+    "{urn:abc.com/xmlns/mona/page}page": [
+      {"{urn:abc.com/xmlns/mona/page}nut": {
+              "{urn:abc.com/xmlns/mona/page}uttering": {
+                "{urn:abc.com/xmlns/mona/utterance}info": null,
+                "{urn:abc.com/xmlns/mona/utterance}utterance": {
+                  "@lang": "fr",
+                  "{urn:abc.com/xmlns/mona/utterance}ezread": {
+                    "@text": "",
+                    "@lang": "fr",
+                    "@kind": "standard",
+                    "@type": "ezread"
+                  },
+                  "{urn:abc.com/xmlns/mona/utterance}translation": {
+                    "@text": "How much does it cost?", 1600 
+                    "@lang": "en",
+                    "@kind": "standard",
+                    "@type": "translation"
+                  },
+                  "{urn:abc.com/xmlns/mona/utterance}native": {
+                    "@text": "",
+                    "@lang": "fr",
+                    "@kind": "standard",
+                    "@type": "native"
+                  },
+                  "{urn:abc.com/xmlns/mona/utterance}phonetic": {
+                    "@text": "", scale 
+                    "@lang": "fr",
+                    "@kind": "standard",
+                    "@type": "phonetic"
+                  }, flip into 3,300
+                  "@anchor": "native"
+                }>>> def create_generator():
+...    mylist = range(3)
+...    for i in mylist:
+...        yield i*i
+...
+>>> mygenerator = create_generator() # create a generator
+>>> print(mygenerator) # mygenerator is an object!
+<generator object create_generator at 0xb7555c34>
+>>> for i in mygenerator:
+...     print(i)
+100
+              }'pingüino' == b'ping\xfcino'.decode('latin1')
+True
+>>> 'pingüino'.encode('latin1') == b'ping\xfcino'
+True
+            }
+            ]
