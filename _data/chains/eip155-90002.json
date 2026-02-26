@@ -1,0 +1,23 @@
+{
+  "name": "UBIT SMARTCHAIN MAINNET",
+  "chain": "UBIT SMARTCHAIN",
+  "rpc": ["https://rpc.ubitscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USC",
+    "symbol": "USC",
+    "decimals": 18
+  },
+  "infoURL": "https://ubitscan.io",
+  "shortName": "UBITSCAN",
+  "chainId": 90002,
+  "networkId": 90002,
+  "slip44": 108,
+  "explorers": [
+    {
+      "name": "UBITSCAN",
+      "url": "https://ubitscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

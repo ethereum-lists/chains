@@ -1,0 +1,22 @@
+{
+  "name": "Story Testnet",
+  "chain": "Story Testnet",
+  "rpc": ["https://testnet.storyrpc.io"],
+  "faucets": ["https://faucet.story.foundation"],
+  "chainId": 1513,
+  "networkId": 1513,
+  "nativeCurrency": {
+    "name": "IP",
+    "symbol": "IP",
+    "decimals": 18
+  },
+  "infoURL": "https://www.story.foundation",
+  "shortName": "Story",
+  "explorers": [
+    {
+      "name": "Story Iliad Network explorer",
+      "url": "https://testnet.storyscan.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}

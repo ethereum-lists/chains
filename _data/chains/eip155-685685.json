@@ -1,0 +1,16 @@
+{
+  "name": "Gensyn Testnet",
+  "chain": "Gensyn",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.gensyn.ai/",
+  "shortName": "gensyn-test",
+  "chainId": 685685,
+  "networkId": 685685,
+  "status": "incubating"
+}

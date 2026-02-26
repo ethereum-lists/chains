@@ -1,0 +1,25 @@
+{
+  "name": "Reapchain Mainnet",
+  "chain": "REAP",
+  "rpc": ["https://eth.reapchain.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Reap",
+    "symbol": "REAP",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://reapchain.com",
+  "shortName": "reap",
+  "chainId": 221230,
+  "networkId": 221230,
+  "icon": "reapchain",
+  "explorers": [
+    {
+      "name": "Reapchain Dashboard",
+      "url": "https://dashboard.reapchain.org",
+      "icon": "reapchain",
+      "standard": "none"
+    }
+  ]
+}

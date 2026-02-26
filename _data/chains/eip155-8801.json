@@ -1,0 +1,27 @@
+{
+  "name": "Okto Testnet",
+  "chain": "Okto",
+  "rpc": ["https://rpc.okto-testnet.zeeve.online"],
+  "faucets": ["https://faucet.okto-testnet.zeeve.online"],
+  "nativeCurrency": {
+    "name": "Okto",
+    "symbol": "OKTO",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "infoURL": "",
+  "shortName": "okto-testnet",
+  "chainId": 8801,
+  "networkId": 8801,
+  "explorers": [
+    {
+      "name": "Okto Testnet Explorer",
+      "url": "https://explorer.okto-testnet.zeeve.online",
+      "standard": "none"
+    }
+  ]
+}

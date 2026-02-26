@@ -1,0 +1,31 @@
+{
+  "name": "Roburna Mainnet",
+  "chain": "RBA",
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "rpc": ["https://dataseed.roburna.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Roburna",
+    "symbol": "RBA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.roburna.com/",
+  "shortName": "rba",
+  "chainId": 158,
+  "networkId": 158,
+  "icon": "roburna",
+  "explorers": [
+    {
+      "name": "Rbascan Explorer",
+      "url": "https://rbascan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

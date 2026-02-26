@@ -1,0 +1,23 @@
+{
+  "name": "CENNZnet Azalea",
+  "chain": "CENNZnet",
+  "rpc": ["https://cennznet.unfrastructure.io/public"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CPAY",
+    "symbol": "CPAY",
+    "decimals": 18
+  },
+  "infoURL": "https://cennz.net",
+  "shortName": "cennz-a",
+  "chainId": 21337,
+  "networkId": 21337,
+  "icon": "cennz",
+  "explorers": [
+    {
+      "name": "UNcover",
+      "url": "https://uncoverexplorer.com",
+      "standard": "none"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "LiquidLayer Mainnet",
+  "chain": "LiquidLayer",
+  "icon": "lila",
+  "rpc": ["https://mainnet.liquidlayer.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LiquidLayer",
+    "symbol": "LILA",
+    "decimals": 18
+  },
+  "infoURL": "https://scan.liquidlayer.network",
+  "shortName": "LILA",
+  "chainId": 25186,
+  "networkId": 25186,
+  "explorers": [
+    {
+      "name": "LiquidLayer Mainnet Explorer",
+      "url": "https://scan.liquidlayer.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

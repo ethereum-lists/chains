@@ -1,0 +1,28 @@
+{
+  "name": "Polygon zkEVM Testnet",
+  "title": "Polygon zkEVM Testnet",
+  "chain": "Polygon",
+  "rpc": [
+    "https://rpc.public.zkevm-test.net",
+    "https://polygon-zkevm-testnet.drpc.org",
+    "wss://polygon-zkevm-testnet.drpc.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://polygon.technology/solutions/polygon-zkevm/",
+  "shortName": "testnet-zkEVM-mango",
+  "chainId": 1442,
+  "networkId": 1442,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Polygon zkEVM explorer",
+      "url": "https://explorer.public.zkevm-test.net",
+      "standard": "EIP3091"
+    }
+  ]
+}

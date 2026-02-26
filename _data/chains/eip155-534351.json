@@ -1,0 +1,36 @@
+{
+  "name": "Scroll Sepolia Testnet",
+  "chain": "ETH",
+  "status": "active",
+  "rpc": [
+    "https://sepolia-rpc.scroll.io",
+    "https://rpc.ankr.com/scroll_sepolia_testnet",
+    "https://scroll-sepolia.chainstacklabs.com",
+    "https://scroll-testnet-public.unifra.io",
+    "https://scroll-sepolia-rpc.publicnode.com",
+    "wss://scroll-sepolia-rpc.publicnode.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://scroll.io",
+  "shortName": "scr-sepolia",
+  "chainId": 534351,
+  "networkId": 534351,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Scroll Sepolia Etherscan",
+      "url": "https://sepolia.scrollscan.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "https://sepolia.scroll.io/bridge" }]
+  }
+}

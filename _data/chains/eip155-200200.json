@@ -1,0 +1,28 @@
+{
+  "name": "Zoo Mainnet",
+  "chain": "Zoo",
+  "icon": "zoo",
+  "rpc": ["https://api.zoo.network"],
+  "faucets": ["https://faucet.zoo-test.network"],
+  "nativeCurrency": {
+    "name": "Zoo",
+    "symbol": "ZOO",
+    "decimals": 18
+  },
+  "infoURL": "https://zoo.network",
+  "shortName": "zoo",
+  "chainId": 200200,
+  "networkId": 200200,
+  "explorers": [
+    {
+      "name": "Zoo Network Explorer",
+      "url": "https://explore.zoo.network",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Zoo Network Explorer",
+      "url": "https://explore.zoo-test.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

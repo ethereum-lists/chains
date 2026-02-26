@@ -1,0 +1,23 @@
+{
+  "name": "EZChain C-Chain Mainnet",
+  "chain": "EZC",
+  "rpc": ["https://api.ezchain.com/ext/bc/C/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EZChain",
+    "symbol": "EZC",
+    "decimals": 18
+  },
+  "infoURL": "https://ezchain.com",
+  "shortName": "EZChain",
+  "chainId": 2612,
+  "networkId": 2612,
+  "icon": "ezchain",
+  "explorers": [
+    {
+      "name": "ezchain",
+      "url": "https://cchain-explorer.ezchain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

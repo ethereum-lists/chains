@@ -1,0 +1,29 @@
+{
+  "name": "MST Mainnet",
+  "chain": "MST",
+  "rpc": [
+    "https://mariorpc.mstblockchain.com",
+    "https://craftrpc.mstblockchain.com",
+    "wss://mariorpc.mstblockchain.com",
+    "wss://craftrpc.mstblockchain.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MST Native Coin",
+    "symbol": "MSTC",
+    "decimals": 18
+  },
+  "infoURL": "https://mstblockchain.com",
+  "shortName": "mst",
+  "chainId": 4646,
+  "networkId": 4646,
+  "slip44": 4646,
+  "icon": "mst",
+  "explorers": [
+    {
+      "name": "mstscan",
+      "url": "https://mstscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

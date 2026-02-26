@@ -1,0 +1,23 @@
+{
+  "name": "Scalind Testnet",
+  "chain": "ETH",
+  "icon": "scalind",
+  "rpc": ["https://rpc-sepolia.scalind.com"],
+  "faucets": ["https://faucet.scalind.com"],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://scalind.com",
+  "shortName": "sepscal",
+  "chainId": 220,
+  "networkId": 220,
+  "explorers": [
+    {
+      "name": "scalind",
+      "url": "https://explorer-sepolia.scalind.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

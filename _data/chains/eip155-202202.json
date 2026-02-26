@@ -1,0 +1,30 @@
+{
+  "name": "Bethel Sydney",
+  "chain": "Bethel",
+  "rpc": ["https://rpc-sydney.bethel.network"],
+  "faucets": ["https://faucet-sydney.bethel.network"],
+  "nativeCurrency": {
+    "name": "Bethel",
+    "symbol": "BECX",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "",
+  "shortName": "bethel-sydney",
+  "chainId": 202202,
+  "networkId": 202202,
+  "explorers": [
+    {
+      "name": "Betehl Sydney Explorer",
+      "url": "https://sydney.bethel.network",
+      "standard": "none"
+    }
+  ]
+}

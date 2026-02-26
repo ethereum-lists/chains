@@ -1,0 +1,30 @@
+{
+  "name": "Core Blockchain Mainnet",
+  "chain": "Core",
+  "icon": "core",
+  "rpc": [
+    "https://rpc.coredao.org/",
+    "https://rpc-core.icecreamswap.com",
+    "https://core.drpc.org",
+    "wss://core.drpc.org"
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Core Blockchain Native Token",
+    "symbol": "CORE",
+    "decimals": 18
+  },
+  "infoURL": "https://www.coredao.org",
+  "shortName": "core",
+  "chainId": 1116,
+  "networkId": 1116,
+  "explorers": [
+    {
+      "name": "Core Scan",
+      "url": "https://scan.coredao.org",
+      "icon": "core",
+      "standard": "EIP3091"
+    }
+  ]
+}

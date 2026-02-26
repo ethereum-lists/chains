@@ -1,0 +1,22 @@
+{
+  "name": "Modularium",
+  "chain": "EVMCC",
+  "rpc": ["https://fraa-dancebox-3035-rpc.a.dancebox.tanssi.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Modularium",
+    "symbol": "MDM",
+    "decimals": 18
+  },
+  "infoURL": "https://www.rmrk.app/",
+  "shortName": "mdlrm",
+  "chainId": 776877,
+  "networkId": 776877,
+  "explorers": [
+    {
+      "name": "Tanssi Explorer",
+      "url": "https://tanssi-evmexplorer.netlify.app/?rpcUrl=https://fraa-dancebox-3035-rpc.a.dancebox.tanssi.network",
+      "standard": "none"
+    }
+  ]
+}

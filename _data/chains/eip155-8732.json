@@ -1,0 +1,23 @@
+{
+  "name": "Bullions Smart Chain",
+  "chain": "Bullions",
+  "rpc": ["https://rpc.bullionsx.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bullions",
+    "symbol": "BLN",
+    "decimals": 18
+  },
+  "infoURL": "https://www.bullionsx.io",
+  "shortName": "bln",
+  "chainId": 8732,
+  "networkId": 8732,
+  "slip44": 8732,
+  "explorers": [
+    {
+      "name": "Bullionscan",
+      "url": "https://bullionscan.org",
+      "standard": "EIP3091"
+    }
+  ]
+}

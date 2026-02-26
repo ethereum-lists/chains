@@ -1,0 +1,23 @@
+{
+  "name": "AirDAO Mainnet",
+  "chain": "ambnet",
+  "icon": "airdao",
+  "rpc": ["https://network.ambrosus.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Amber",
+    "symbol": "AMB",
+    "decimals": 18
+  },
+  "infoURL": "https://airdao.io",
+  "shortName": "airdao",
+  "chainId": 16718,
+  "networkId": 16718,
+  "explorers": [
+    {
+      "name": "AirDAO Network Explorer",
+      "url": "https://airdao.io/explorer",
+      "standard": "none"
+    }
+  ]
+}

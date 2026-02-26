@@ -1,0 +1,23 @@
+{
+  "name": "Curtis",
+  "chain": "Curtis",
+  "rpc": ["https://rpc.curtis.apechain.com"],
+  "faucets": ["https://curtis.hub.caldera.xyz"],
+  "nativeCurrency": {
+    "name": "ApeCoin",
+    "symbol": "APE",
+    "decimals": 18
+  },
+  "infoURL": "https://curtis.hub.caldera.xyz",
+  "shortName": "curtis",
+  "chainId": 33111,
+  "networkId": 33111,
+  "icon": "curtis",
+  "explorers": [
+    {
+      "name": "Curtis Explorer",
+      "url": "https://explorer.curtis.apechain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

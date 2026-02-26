@@ -1,0 +1,25 @@
+{
+  "name": "Patex",
+  "chain": "ETH",
+  "icon": "patex",
+  "rpc": ["https://rpc.patex.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://patex.io/",
+  "shortName": "peth",
+  "chainId": 789,
+  "networkId": 789,
+  "explorers": [
+    {
+      "name": "patexscan",
+      "url": "https://patexscan.io",
+      "icon": "patex",
+      "standard": "EIP3091"
+    }
+  ]
+}

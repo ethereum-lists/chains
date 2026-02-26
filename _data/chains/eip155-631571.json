@@ -1,0 +1,25 @@
+{
+  "name": "Polter Testnet",
+  "chain": "Geist",
+  "rpc": ["https://geist-polter.g.alchemy.com/public"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Polter GHST",
+    "symbol": "GHST",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://playongeist.com",
+  "shortName": "poltergeist",
+  "chainId": 631571,
+  "networkId": 631571,
+  "status": "active",
+  "icon": "polterGeist",
+  "explorers": [
+    {
+      "name": "Polter Testnet Explorer",
+      "url": "https://polter-testnet.explorer.alchemy.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

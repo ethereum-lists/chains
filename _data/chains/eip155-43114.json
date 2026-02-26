@@ -1,0 +1,35 @@
+{
+  "name": "Avalanche C-Chain",
+  "chain": "AVAX",
+  "icon": "avax",
+  "rpc": [
+    "https://api.avax.network/ext/bc/C/rpc",
+    "https://avalanche-c-chain-rpc.publicnode.com",
+    "wss://avalanche-c-chain-rpc.publicnode.com"
+  ],
+  "features": [{ "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Avalanche",
+    "symbol": "AVAX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.avax.network/",
+  "shortName": "avax",
+  "chainId": 43114,
+  "networkId": 43114,
+  "slip44": 9005,
+  "explorers": [
+    {
+      "name": "Etherscan",
+      "url": "https://snowscan.xyz",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Routescan",
+      "url": "https://snowtrace.io",
+      "standard": "EIP3091"
+    },
+    { "name": "Avascan", "url": "https://avascan.info", "standard": "EIP3091" }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "E-Dollar",
+  "chain": "USD",
+  "icon": "edollar",
+  "rpc": ["https://rpc.e-dollar.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "E-Dollar",
+    "symbol": "USD",
+    "decimals": 18
+  },
+  "infoURL": "https://e-dollar.org",
+  "shortName": "E-Dollar",
+  "chainId": 8087,
+  "networkId": 8087,
+  "explorers": []
+}

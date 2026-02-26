@@ -1,0 +1,25 @@
+{
+  "name": "Rikeza Network Testnet",
+  "title": "Rikeza Network Testnet",
+  "chain": "Rikeza",
+  "icon": "rikeza",
+  "rpc": ["https://testnet-rpc.rikscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Rikeza",
+    "symbol": "RIK",
+    "decimals": 18
+  },
+  "infoURL": "https://rikeza.io",
+  "shortName": "tRIK",
+  "chainId": 12715,
+  "networkId": 12715,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Rikeza Blockchain explorer",
+      "url": "https://testnet.rikscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

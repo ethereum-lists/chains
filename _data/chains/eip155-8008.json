@@ -1,0 +1,24 @@
+{
+  "name": "Polynomial",
+  "chain": "Polynomial",
+  "rpc": ["https://rpc.polynomial.fi"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://polynomial.fi",
+  "shortName": "polynomial",
+  "chainId": 8008,
+  "networkId": 8008,
+  "icon": "polynomial",
+  "explorers": [
+    {
+      "name": "Polynomial Explorer",
+      "url": "https://polynomialscan.io",
+      "standard": "none",
+      "icon": "polynomial"
+    }
+  ]
+}

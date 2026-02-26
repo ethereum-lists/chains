@@ -1,0 +1,26 @@
+{
+  "name": "Aurora Mainnet",
+  "chain": "NEAR",
+  "rpc": [
+    "https://mainnet.aurora.dev",
+    "https://aurora.drpc.org",
+    "wss://aurora.drpc.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://aurora.dev",
+  "shortName": "aurora",
+  "chainId": 1313161554,
+  "networkId": 1313161554,
+  "explorers": [
+    {
+      "name": "Aurora Explorer",
+      "url": "https://explorer.aurora.dev",
+      "standard": "EIP3091"
+    }
+  ]
+}

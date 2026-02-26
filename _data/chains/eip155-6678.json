@@ -1,0 +1,24 @@
+{
+  "name": "Edge Matrix Chain",
+  "chain": "EMC",
+  "icon": "emc",
+  "rpc": ["https://rpc1-mainnet.emc.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Edge Matrix Chain Token",
+    "symbol": "EMC",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "EMC",
+  "chainId": 6678,
+  "networkId": 6678,
+
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://emcscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

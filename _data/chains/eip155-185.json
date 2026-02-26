@@ -1,0 +1,28 @@
+{
+  "name": "Mint Mainnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://rpc.mintchain.io",
+    "https://global.rpc.mintchain.io",
+    "https://asia.rpc.mintchain.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.mintchain.io",
+  "shortName": "mint",
+  "chainId": 185,
+  "networkId": 185,
+  "icon": "mint",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.mintchain.io",
+      "icon": "mint",
+      "standard": "EIP3091"
+    }
+  ]
+}

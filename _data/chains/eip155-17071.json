@@ -1,0 +1,28 @@
+{
+  "name": "Onchain Points",
+  "chain": "POP",
+  "rpc": [
+    "https://rpc.onchainpoints.xyz",
+    "https://rpc-onchain-points-8n0qkkpr2j.t.conduit.xyz/{CONDUIT_API_KEY}"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OnchainPoints.xyz",
+    "symbol": "POP",
+    "decimals": 18
+  },
+  "infoURL": "https://onchainpoints.xyz",
+  "shortName": "pop",
+  "chainId": 17071,
+  "networkId": 17071,
+  "icon": "pop",
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.onchainpoints.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

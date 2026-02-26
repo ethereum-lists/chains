@@ -1,0 +1,24 @@
+{
+  "name": "Shardeum Sphinx 1.X",
+  "chain": "Shardeum",
+  "icon": "shardeum",
+  "rpc": ["https://sphinx.shardeum.org/"],
+  "faucets": ["https://faucet-sphinx.shardeum.org/"],
+  "nativeCurrency": {
+    "name": "Shardeum SHM",
+    "symbol": "SHM",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.shardeum.org/",
+  "shortName": "Sphinx10",
+  "chainId": 8082,
+  "networkId": 8082,
+  "explorers": [
+    {
+      "name": "Shardeum Scan",
+      "url": "https://explorer-sphinx.shardeum.org",
+      "standard": "EIP3091"
+    }
+  ],
+  "redFlags": ["reusedChainId"]
+}

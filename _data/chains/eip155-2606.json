@@ -1,0 +1,29 @@
+{
+  "name": "PoCRNet",
+  "title": "Proof of Climate awaReness mainnet",
+  "chain": "CRC",
+  "status": "active",
+  "rpc": [
+    "https://pocrnet.westeurope.cloudapp.azure.com/http",
+    "wss://pocrnet.westeurope.cloudapp.azure.com/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Climate awaReness Coin",
+    "symbol": "CRC",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/ethereum-pocr/pocrnet",
+  "shortName": "pocrnet",
+  "chainId": 2606,
+  "networkId": 2606,
+  "icon": "pocr",
+  "explorers": [
+    {
+      "name": "Lite Explorer",
+      "url": "https://ethereum-pocr.github.io/explorer/pocrnet",
+      "icon": "pocr",
+      "standard": "EIP3091"
+    }
+  ]
+}

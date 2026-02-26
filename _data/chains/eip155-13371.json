@@ -1,0 +1,28 @@
+{
+  "name": "Immutable zkEVM",
+  "chain": "Immutable zkEVM",
+  "rpc": [
+    "https://rpc.immutable.com",
+    "https://immutable-zkevm.drpc.org",
+    "wss://immutable-zkevm.drpc.org"
+  ],
+  "faucets": ["https://docs.immutable.com/docs/zkEVM/guides/faucet"],
+  "nativeCurrency": {
+    "name": "IMX",
+    "symbol": "IMX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.immutable.com",
+  "shortName": "imx",
+  "chainId": 13371,
+  "networkId": 13371,
+  "icon": "immutable",
+  "explorers": [
+    {
+      "name": "Immutable explorer",
+      "url": "https://explorer.immutable.com",
+      "standard": "EIP3091",
+      "icon": "immutable"
+    }
+  ]
+}

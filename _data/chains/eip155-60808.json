@@ -1,0 +1,35 @@
+{
+  "name": "BOB",
+  "chain": "ETH",
+  "rpc": [
+    "https://rpc.gobob.xyz",
+    "wss://rpc.gobob.xyz",
+    "https://bob-mainnet.public.blastapi.io",
+    "wss://bob-mainnet.public.blastapi.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://gobob.xyz",
+  "shortName": "bob",
+  "chainId": 60808,
+  "networkId": 60808,
+  "icon": "bob",
+  "explorers": [
+    {
+      "name": "bobscout",
+      "url": "https://explorer.gobob.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://app.gobob.xyz" }]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Tabi Testnetv2",
+  "chain": "TabiNetworkv2",
+  "rpc": ["https://rpc.testnetv2.tabichain.com"],
+  "faucets": ["https://carnival.tabichain.com"],
+  "nativeCurrency": {
+    "name": "Tabi",
+    "symbol": "TABI",
+    "decimals": 18
+  },
+  "infoURL": "https://www.tabichain.com",
+  "shortName": "tabitestv2",
+  "chainId": 9788,
+  "networkId": 9788,
+  "explorers": [
+    {
+      "name": "Tabi Testnet V2 Explorer",
+      "url": "https://testnetv2.tabiscan.com",
+      "standard": "none"
+    }
+  ]
+}

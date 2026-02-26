@@ -1,0 +1,32 @@
+{
+  "name": "Sophon Testnet",
+  "chain": "Sophon Testnet",
+  "rpc": ["https://rpc.testnet.sophon.xyz", "wss://rpc.testnet.sophon.xyz/ws"],
+  "nativeCurrency": {
+    "name": "Sophon",
+    "symbol": "SOPH",
+    "decimals": 18
+  },
+  "faucets": [],
+  "infoURL": "",
+  "shortName": "sophon-testnet",
+  "chainId": 531050104,
+  "networkId": 531050104,
+  "explorers": [
+    {
+      "name": "Sophon Block Explorer",
+      "url": "https://explorer.testnet.sophon.xyz",
+      "icon": "sophon-testnet",
+      "standard": "none"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [
+      {
+        "url": "https://portal.testnet.sophon.xyz/bridge"
+      }
+    ]
+  }
+}

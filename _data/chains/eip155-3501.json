@@ -1,0 +1,22 @@
+{
+  "name": "JFIN Chain",
+  "chain": "JFIN",
+  "rpc": ["https://rpc.jfinchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "JFIN Coin",
+    "symbol": "JFIN",
+    "decimals": 18
+  },
+  "infoURL": "https://jfinchain.com",
+  "shortName": "JFIN",
+  "chainId": 3501,
+  "networkId": 3501,
+  "explorers": [
+    {
+      "name": "JFIN Chain Explorer",
+      "url": "https://exp.jfinchain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

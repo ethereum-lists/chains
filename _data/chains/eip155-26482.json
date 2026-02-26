@@ -1,0 +1,26 @@
+{
+  "name": "DucatusX Testnet",
+  "chain": "DUCX",
+  "rpc": [
+    "https://ducx-testnet-node1.rocknblock.io",
+    "https://ducx-testnet-node2.rocknblock.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DUCX",
+    "symbol": "DUCX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.ducatuscoins.com/ducatusx",
+  "shortName": "ducatusx-testnet",
+  "chainId": 26482,
+  "networkId": 26482,
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://explorer-testnet.ducatusx.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "HyperX",
+  "chain": "HyperX",
+  "rpc": ["https://rpc.hyperx.technology"],
+  "faucets": ["https://faucet.hyperx.technology"],
+  "nativeCurrency": {
+    "name": "HPX",
+    "symbol": "HPX",
+    "decimals": 18
+  },
+  "infoURL": "https://hyperx.technology/",
+  "shortName": "hpx",
+  "chainId": 80808,
+  "networkId": 80808,
+  "icon": "hpx",
+  "explorers": [
+    {
+      "name": "HyperX Explorer",
+      "url": "https://scan.hyperx.technology",
+      "standard": "EIP3091"
+    }
+  ]
+}

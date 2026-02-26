@@ -1,0 +1,19 @@
+{
+  "name": "Filecoin - Butterfly testnet",
+  "chain": "FIL",
+  "status": "incubating",
+  "rpc": [],
+  "faucets": ["https://faucet.butterfly.fildev.network"],
+  "nativeCurrency": {
+    "name": "testnet filecoin",
+    "symbol": "tFIL",
+    "decimals": 18
+  },
+  "infoURL": "https://filecoin.io",
+  "shortName": "filecoin-butterfly",
+  "icon": "filecoin",
+  "chainId": 3141592,
+  "networkId": 3141592,
+  "slip44": 1,
+  "explorers": []
+}

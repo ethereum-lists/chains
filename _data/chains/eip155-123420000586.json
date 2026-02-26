@@ -1,0 +1,37 @@
+{
+  "name": "sivo-defi-testnet",
+  "title": "Sivo Defi Testnet",
+  "chain": "sivo-defi-testnet",
+  "rpc": [
+    "https://rpc.sivo-defi-testnet.t.raas.gelato.cloud",
+    "wss://ws.sivo-defi-testnet.t.raas.gelato.cloud"
+  ],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://raas.gelato.network/rollups/details/public/sivo-defi-testnet",
+  "faucets": [],
+  "shortName": "sivo-defi-testnet",
+  "chainId": 123420000586,
+  "networkId": 123420000586,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://sivo-defi-testnet.cloud.blockscout.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [
+      {
+        "url": "https://testnet-bridge.gelato.network/bridge/sivo-defi-testnet"
+      }
+    ]
+  }
+}

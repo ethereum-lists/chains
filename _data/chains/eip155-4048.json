@@ -1,0 +1,23 @@
+{
+  "name": "GANchain L1",
+  "chain": "GAN",
+  "icon": "gpu",
+  "rpc": ["https://rpc.gpu.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GPUnet",
+    "symbol": "GPU",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.gpu.net/",
+  "shortName": "GANchain",
+  "chainId": 4048,
+  "networkId": 4048,
+  "explorers": [
+    {
+      "name": "ganscan",
+      "url": "https://ganscan.gpu.net",
+      "standard": "none"
+    }
+  ]
+}

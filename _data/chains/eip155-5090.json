@@ -1,0 +1,23 @@
+{
+  "name": "Pione Chain Mainnet",
+  "chain": "PIO",
+  "icon": "pio",
+  "rpc": ["https://rpc.pionescan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Pione",
+    "symbol": "PIO",
+    "decimals": 18
+  },
+  "infoURL": "https://pionechain.com",
+  "shortName": "pio",
+  "chainId": 5090,
+  "networkId": 5090,
+  "explorers": [
+    {
+      "name": "Pione Chain Explorer",
+      "url": "https://pionescan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

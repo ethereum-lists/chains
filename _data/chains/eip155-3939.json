@@ -1,0 +1,25 @@
+{
+  "name": "DOS Testnet",
+  "chain": "DOS",
+  "rpc": ["https://test.doschain.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DOS",
+    "symbol": "DOS",
+    "decimals": 18
+  },
+  "infoURL": "http://doschain.io/",
+  "shortName": "dost",
+  "chainId": 3939,
+  "networkId": 3939,
+  "slip44": 1,
+  "icon": "doschain",
+  "explorers": [
+    {
+      "name": "DOScan-Test",
+      "url": "https://test.doscan.io",
+      "icon": "doschain",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "DYNO Testnet",
+  "chain": "DYNO",
+  "rpc": ["https://tapi.dynoprotocol.com"],
+  "faucets": ["https://faucet.dynoscan.io"],
+  "nativeCurrency": {
+    "name": "DYNO Token",
+    "symbol": "tDYNO",
+    "decimals": 18
+  },
+  "infoURL": "https://dynoprotocol.com",
+  "shortName": "tdyno",
+  "chainId": 3967,
+  "networkId": 3967,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "DYNO Explorer",
+      "url": "https://testnet.dynoscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

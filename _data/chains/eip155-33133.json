@@ -1,0 +1,17 @@
+{
+  "name": "Entangle Testnet",
+  "chain": "NGL",
+  "icon": "ngl",
+  "rpc": ["https://evm-testnet.entangle.fi"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Entangle",
+    "symbol": "NGL",
+    "decimals": 18
+  },
+  "infoURL": "https://www.entangle.fi",
+  "shortName": "tngl",
+  "chainId": 33133,
+  "networkId": 33133,
+  "explorers": []
+}

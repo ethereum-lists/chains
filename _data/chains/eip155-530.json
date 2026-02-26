@@ -1,0 +1,23 @@
+{
+  "name": "Pundi AIFX Omnilayer",
+  "chain": "PUNDIAI",
+  "rpc": ["https://fx-json-web3.functionx.io:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Pundi AIFX",
+    "symbol": "PUNDAI",
+    "decimals": 18
+  },
+  "infoURL": "https://fx.pundi.ai/",
+  "shortName": "pundiai",
+  "chainId": 530,
+  "networkId": 530,
+  "icon": "pundiai",
+  "explorers": [
+    {
+      "name": "PundiScan Explorer",
+      "url": "https://pundiscan.io/evm",
+      "standard": "EIP3091"
+    }
+  ]
+}

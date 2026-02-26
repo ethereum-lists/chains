@@ -1,0 +1,29 @@
+{
+  "name": "Shido Network",
+  "chain": "Shido Mainnet",
+  "rpc": [
+    "https://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/rpc",
+    "wss://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/ws",
+    "https://evm.shidoscan.net",
+    "wss://wss.shidoscan.net"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Shido",
+    "symbol": "SHIDO",
+    "decimals": 18
+  },
+  "infoURL": "https://shido.io",
+  "shortName": "Shido",
+  "chainId": 9008,
+  "networkId": 9008,
+  "icon": "shidoChain",
+  "explorers": [
+    {
+      "name": "Shidoscan",
+      "url": "https://shidoscan.com",
+      "standard": "none",
+      "icon": "shidoChain"
+    }
+  ]
+}

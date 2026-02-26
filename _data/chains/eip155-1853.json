@@ -1,0 +1,28 @@
+{
+  "name": "HighOctane Subnet",
+  "chain": "HighOctane Subnet",
+  "rpc": [
+    "https://subnets.avax.network/highoctane/mainnet/rpc",
+    "wss://subnets.avax.network/highoctane/mainnet/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "HighOctane",
+    "symbol": "HO",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://subnets.avax.network/highoctane/details",
+  "shortName": "HighOctane",
+  "chainId": 1853,
+  "networkId": 1853,
+  "icon": "highOctane",
+  "explorers": [
+    {
+      "name": "HighOctane Subnet Explorer",
+      "url": "https://subnets.avax.network/highoctane",
+      "icon": "highOctane",
+      "standard": "EIP3091"
+    }
+  ]
+}

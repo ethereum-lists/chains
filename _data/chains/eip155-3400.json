@@ -1,0 +1,23 @@
+{
+  "name": "Paribu Net Mainnet",
+  "chain": "PRB",
+  "rpc": ["https://rpc.paribu.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PRB",
+    "symbol": "PRB",
+    "decimals": 18
+  },
+  "infoURL": "https://net.paribu.com",
+  "shortName": "prb",
+  "chainId": 3400,
+  "networkId": 3400,
+  "icon": "prb",
+  "explorers": [
+    {
+      "name": "Paribu Net Explorer",
+      "url": "https://explorer.paribu.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

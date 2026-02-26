@@ -1,0 +1,26 @@
+{
+  "name": "OpenEX LONG Testnet",
+  "title": "OpenEX LONG Testnet",
+  "chain": "OEX",
+  "icon": "oex",
+  "rpc": ["https://long.rpc.openex.network/"],
+  "faucets": ["https://long.hub.openex.network/faucet"],
+  "nativeCurrency": {
+    "name": "USDT Testnet",
+    "symbol": "USDT",
+    "decimals": 18
+  },
+  "infoURL": "https://openex.network",
+  "shortName": "oex",
+  "chainId": 7798,
+  "networkId": 7798,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "OpenEX Long Testnet Explorer",
+      "url": "https://scan.long.openex.network",
+      "icon": "oex",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Vitruveo Mainnet",
+  "title": "Vitruveo is a blockchain for Creators",
+  "chain": "Vitruveo",
+  "rpc": ["https://rpc.vitruveo.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Vitruveo Coin",
+    "symbol": "VTRU",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://www.vitruveo.xyz",
+  "shortName": "vitruveo",
+  "chainId": 1490,
+  "networkId": 1490,
+  "icon": "vitruveo",
+  "explorers": [
+    {
+      "name": "Vitruveo Explorer",
+      "url": "https://explorer.vitruveo.xyz",
+      "icon": "vitruveo",
+      "standard": "EIP3091"
+    }
+  ]
+}

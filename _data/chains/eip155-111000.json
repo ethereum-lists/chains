@@ -1,0 +1,25 @@
+{
+  "name": "Siberium Test Network",
+  "chain": "SBR",
+  "rpc": ["https://rpc.test.siberium.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TestSIBR",
+    "symbol": "SIBR",
+    "decimals": 18
+  },
+  "infoURL": "https://siberium.net",
+  "shortName": "testsbr",
+  "chainId": 111000,
+  "networkId": 111000,
+  "slip44": 1,
+  "icon": "siberium",
+  "explorers": [
+    {
+      "name": "Siberium Testnet Explorer - blockscout",
+      "url": "https://explorer.test.siberium.net",
+      "icon": "siberium",
+      "standard": "EIP3091"
+    }
+  ]
+}

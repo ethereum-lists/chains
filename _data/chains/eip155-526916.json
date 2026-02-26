@@ -1,0 +1,23 @@
+{
+  "name": "DoCoin Community Chain",
+  "title": "DoCoin Community Chain",
+  "chain": "DoCoin",
+  "rpc": ["https://rpc.docoin.shop"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DO",
+    "symbol": "DCT",
+    "decimals": 18
+  },
+  "infoURL": "https://docoin.network",
+  "shortName": "DoCoin",
+  "chainId": 526916,
+  "networkId": 526916,
+  "explorers": [
+    {
+      "name": "DoCoin Community Chain Explorer",
+      "url": "https://explorer.docoin.shop",
+      "standard": "EIP3091"
+    }
+  ]
+}

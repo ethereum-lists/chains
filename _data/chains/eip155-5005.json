@@ -1,0 +1,35 @@
+{
+  "name": "Treasurenet Testnet",
+  "chain": "Treasurenet Testnet",
+  "icon": "treasurenet",
+  "rpc": [
+    "https://node0.testnet.treasurenet.io",
+    "https://node1.testnet.treasurenet.io",
+    "https://node2.testnet.treasurenet.io",
+    "https://node3.testnet.treasurenet.io"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "UNIT",
+    "symbol": "UNIT",
+    "decimals": 18
+  },
+  "infoURL": "https://www.testnet.treasurenet.io",
+  "shortName": "tntest",
+  "chainId": 5005,
+  "networkId": 5005,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Treasurenet EVM BlockExplorer",
+      "url": "https://evmexplorer.testnet.treasurenet.io",
+      "icon": "treasurenet",
+      "standard": "none"
+    }
+  ]
+}

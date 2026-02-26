@@ -1,0 +1,23 @@
+{
+  "name": "Bloom Genesis Mainnet",
+  "chain": "Bloom",
+  "icon": "bloom",
+  "rpc": ["https://mainnet-rpc.bloomgenesis.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bloom",
+    "symbol": "BGBC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.bloomgenesis.com",
+  "shortName": "BGBC",
+  "chainId": 333313,
+  "networkId": 333313,
+  "explorers": [
+    {
+      "name": "Bloom Genesis Mainnet",
+      "url": "https://explorer.bloomgenesis.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

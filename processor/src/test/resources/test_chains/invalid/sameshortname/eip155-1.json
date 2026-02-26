@@ -1,0 +1,18 @@
+{
+  "name": "Ethereum Mainnet",
+  "shortName": "willfail",
+  "chain": "ETH",
+  "chainId": 1,
+  "networkId": 1,
+  "rpc": [
+    "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
+    "https://api.mycryptoapi.com/eth"
+  ],
+  "nativeCurrency": {
+    "name": "Goerli Ether",
+    "symbol": "GOR",
+    "decimals": 18
+  },
+  "faucets": [],
+  "infoURL": "https://ethereum.org"
+}

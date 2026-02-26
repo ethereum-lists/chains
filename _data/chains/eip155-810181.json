@@ -1,0 +1,30 @@
+{
+  "name": "zkLink Nova Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": ["https://sepolia.rpc.zklink.io", "wss://sepolia.rpc.zklink.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://zklink.io",
+  "shortName": "zklink-nova-sepolia",
+  "chainId": 810181,
+  "networkId": 810181,
+  "slip44": 1,
+  "icon": "zklink-nova",
+  "explorers": [
+    {
+      "name": "zkLink Nova Block Explorer",
+      "url": "https://sepolia.explorer.zklink.io",
+      "icon": "zklink-nova",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-59141",
+    "bridges": [{ "url": "https://sepolia.portal.zklink.io" }]
+  }
+}

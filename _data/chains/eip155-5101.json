@@ -1,0 +1,18 @@
+{
+  "name": "Syndicate Frame Chain",
+  "title": "Syndicate Frame Chain",
+  "chain": "Syndicate Frame",
+  "rpc": ["https://rpc-frame.syndicate.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://syndicate.io",
+  "shortName": "syndicate-chain-frame",
+  "chainId": 5101,
+  "networkId": 5101,
+  "status": "incubating",
+  "icon": "syndicate"
+}

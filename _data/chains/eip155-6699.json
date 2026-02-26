@@ -1,0 +1,17 @@
+{
+  "name": "OX Chain",
+  "title": "OX Chain",
+  "chain": "OX",
+  "rpc": ["https://rpc.oxscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OX",
+    "symbol": "OX",
+    "decimals": 18
+  },
+  "infoURL": "https://ox.fun/chain",
+  "shortName": "ox-chain",
+  "chainId": 6699,
+  "networkId": 6699,
+  "status": "incubating"
+}

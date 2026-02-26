@@ -1,0 +1,23 @@
+{
+  "name": "Quantum Chain Mainnet",
+  "chain": "QNET",
+  "icon": "qnet",
+  "rpc": ["https://rpc.quantumscan.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Quantum Chain",
+    "symbol": "QNET",
+    "decimals": 18
+  },
+  "infoURL": "https://quantumnetwork.gg",
+  "shortName": "qnet",
+  "chainId": 81720,
+  "networkId": 81720,
+  "explorers": [
+    {
+      "name": "Quantum Scan Mainnet",
+      "url": "https://quantumscan.org",
+      "standard": "EIP3091"
+    }
+  ]
+}

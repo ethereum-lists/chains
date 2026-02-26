@@ -1,0 +1,16 @@
+{
+  "name": "xFair.AI Testnet",
+  "chain": "FAIT",
+  "rpc": ["https://rpc_testnet.xfair.ai", "wss://rpc_testnet.xfair.ai"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FAI",
+    "symbol": "FAI",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://xfair.ai",
+  "shortName": "fait",
+  "chainId": 200000,
+  "networkId": 200000
+}

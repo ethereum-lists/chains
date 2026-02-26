@@ -1,0 +1,19 @@
+{
+  "name": "QuarkChain L2 Testnet",
+  "chain": "QuarkChain",
+  "rpc": ["https://testnet-l2-ethapi.quarkchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QKC",
+    "symbol": "QKC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.quarkchain.io",
+  "shortName": "qkc-l2-t",
+  "chainId": 110011,
+  "networkId": 110011,
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-110000"
+  }
+}

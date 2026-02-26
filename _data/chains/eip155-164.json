@@ -1,0 +1,26 @@
+{
+  "name": "Omni Omega Testnet",
+  "chain": "Omni",
+  "status": "active",
+  "rpc": ["https://omega.omni.network", "wss://wss.omega.omni.network"],
+  "features": [{ "name": "EIP155" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Omni",
+    "symbol": "OMNI",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.omni.network",
+  "shortName": "omni_omega",
+  "chainId": 164,
+  "networkId": 164,
+  "slip44": 1,
+  "icon": "omni",
+  "explorers": [
+    {
+      "name": "Omni EVM and cross-chain Explorer",
+      "url": "https://omega.omniscan.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

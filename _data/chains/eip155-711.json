@@ -1,0 +1,25 @@
+{
+  "name": "Tucana",
+  "chain": "Tucana",
+  "title": "Tucana Testnet",
+  "rpc": ["https://evm-rpc.tucana.zone", "wss://evm-ws.tucana.zone"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Tucana",
+    "symbol": "TUC",
+    "decimals": 18
+  },
+  "infoURL": "https://tucana.zone",
+  "shortName": "tuc",
+  "chainId": 711,
+  "networkId": 711,
+  "slip44": 1,
+  "icon": "tucana",
+  "explorers": [
+    {
+      "name": "Tucana Explorer",
+      "url": "https://explorer.tucana.zone",
+      "standard": "EIP3091"
+    }
+  ]
+}

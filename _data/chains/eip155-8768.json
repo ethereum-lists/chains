@@ -1,0 +1,16 @@
+{
+  "name": "TMY Chain",
+  "chain": "TMY",
+  "icon": "tmychain",
+  "rpc": ["https://node1.tmyblockchain.org/rpc"],
+  "faucets": ["https://faucet.tmychain.org/"],
+  "nativeCurrency": {
+    "name": "TMY",
+    "symbol": "TMY",
+    "decimals": 18
+  },
+  "infoURL": "https://tmychain.org/",
+  "shortName": "tmy",
+  "chainId": 8768,
+  "networkId": 8768
+}

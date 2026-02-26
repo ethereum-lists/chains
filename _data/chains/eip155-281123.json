@@ -1,0 +1,32 @@
+{
+  "name": "Athene Parthenon",
+  "chain": "athene-parthenon",
+  "rpc": [
+    "https://rpc.parthenon.athenescan.io",
+    "wss://ws.parthenon.athenescan.io"
+  ],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://raas.gelato.network/rollups/details/public/athene-parthenon",
+  "faucets": [],
+  "shortName": "athene-parthenon",
+  "chainId": 281123,
+  "networkId": 281123,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://parthenon.athenescan.io",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  },
+  "status": "active"
+}

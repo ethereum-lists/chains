@@ -1,0 +1,23 @@
+{
+  "name": "Super Smart Chain Mainnet",
+  "chain": "SCS",
+  "rpc": ["https://rpc.scschain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Super Chain Native Token",
+    "symbol": "SCS",
+    "decimals": 18
+  },
+  "infoURL": "https://scschain.com",
+  "shortName": "scs",
+  "chainId": 1970,
+  "networkId": 1970,
+  "icon": "super",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://scan.scschain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

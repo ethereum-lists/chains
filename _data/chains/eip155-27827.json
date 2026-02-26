@@ -1,0 +1,27 @@
+{
+  "name": "zeroone Mainnet Subnet",
+  "chain": "ZEROONEMAI",
+  "rpc": ["https://subnets.avax.network/zeroonemai/mainnet/rpc"],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ZERO",
+    "symbol": "ZERO",
+    "decimals": 18
+  },
+  "infoURL": "https://zeroone.art/",
+  "shortName": "zeroonemai",
+  "chainId": 27827,
+  "networkId": 27827,
+  "explorers": [
+    {
+      "name": "ZEROONEMAI Explorer",
+      "url": "https://subnets.avax.network/zeroonemai",
+      "standard": "EIP3091"
+    }
+  ]
+}

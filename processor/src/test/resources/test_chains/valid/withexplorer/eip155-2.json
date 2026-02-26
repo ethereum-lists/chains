@@ -1,0 +1,30 @@
+{
+  "name": "Ethereum Mainnet",
+  "shortName": "eth",
+  "chain": "ETH",
+  "chainId": 2,
+  "networkId": 2,
+  "rpc": [
+    "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
+    "https://api.mycryptoapi.com/eth"
+  ],
+  "faucets": [],
+  "infoURL": "https://ethereum.org",
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "explorers": [
+    {
+      "name": "ethrscan",
+      "url": "https://etherscan.io",
+      "standard": "none"
+    },
+    {
+      "name": "Routescan",
+      "url": "https://ethereum.routescan.io/",
+      "standard": "none"
+    }
+  ]
+}

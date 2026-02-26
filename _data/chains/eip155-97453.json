@@ -1,0 +1,25 @@
+{
+  "name": "Sidra Chain",
+  "chain": "SIDRA",
+  "icon": "sidrachain",
+  "rpc": ["https://node.sidrachain.com"],
+  "features": [{ "name": "EIP155" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sidra Digital Asset",
+    "symbol": "SDA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.sidrachain.com",
+  "shortName": "sidra",
+  "chainId": 97453,
+  "networkId": 97453,
+  "explorers": [
+    {
+      "name": "Sidra Chain Explorer",
+      "url": "https://ledger.sidrachain.com",
+      "icon": "sidrachain",
+      "standard": "EIP3091"
+    }
+  ]
+}

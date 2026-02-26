@@ -1,0 +1,28 @@
+{
+  "name": "Conduit Subnet",
+  "chain": "CONDUIT",
+  "rpc": ["https://subnets.avax.network/conduit/testnet/rpc"],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CON",
+    "symbol": "CON",
+    "decimals": 18
+  },
+  "infoURL": "https://www.avax.network",
+  "shortName": "conduit",
+  "chainId": 78432,
+  "networkId": 78432,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "CONDUIT Explorer",
+      "url": "https://subnets-test.avax.network/conduit",
+      "standard": "EIP3091"
+    }
+  ]
+}

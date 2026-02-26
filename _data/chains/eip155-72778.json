@@ -1,0 +1,26 @@
+{
+  "name": "CAGA crypto Ankara testnet",
+  "chain": "Ankara",
+  "rpc": [
+    "https://www.ankara-cagacrypto.com",
+    "wss://wss.ankara-cagacrypto.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Caga",
+    "symbol": "CAGA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.cagacrypto.com/",
+  "shortName": "caga",
+  "chainId": 72778,
+  "networkId": 72778,
+  "icon": "ankaracaga",
+  "explorers": [
+    {
+      "name": "ankara",
+      "url": "https://explorer.ankara-cagacrypto.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

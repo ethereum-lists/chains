@@ -1,0 +1,25 @@
+{
+  "name": "Credit Smart Chain",
+  "chain": "CREDIT",
+  "rpc": ["https://rpc.creditsmartchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Credit",
+    "symbol": "CREDIT",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://creditsmartchain.com",
+  "shortName": "Credit",
+  "chainId": 13308,
+  "networkId": 13308,
+  "icon": "credit",
+  "explorers": [
+    {
+      "name": "Creditscan",
+      "url": "https://scan.creditsmartchain.com",
+      "icon": "credit",
+      "standard": "EIP3091"
+    }
+  ]
+}

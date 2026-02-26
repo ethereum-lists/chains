@@ -1,0 +1,24 @@
+{
+  "name": "Rangers Protocol Testnet Robin",
+  "chain": "Rangers",
+  "icon": "rangers",
+  "rpc": ["https://robin.rangersprotocol.com/api/jsonrpc"],
+  "faucets": ["https://robin-faucet.rangersprotocol.com"],
+  "nativeCurrency": {
+    "name": "Rangers Protocol Gas",
+    "symbol": "tRPG",
+    "decimals": 18
+  },
+  "infoURL": "https://rangersprotocol.com",
+  "shortName": "trpg",
+  "chainId": 9527,
+  "networkId": 9527,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "rangersscan-robin",
+      "url": "https://robin-rangersscan.rangersprotocol.com",
+      "standard": "none"
+    }
+  ]
+}

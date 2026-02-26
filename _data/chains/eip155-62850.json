@@ -1,0 +1,27 @@
+{
+  "name": "LAOS Sigma Testnet",
+  "title": "LAOS Sigma Testnet",
+  "chain": "LAOS Sigma Testnet",
+  "rpc": [
+    "https://rpc.laossigma.laosfoundation.io",
+    "wss://rpc.laossigma.laosfoundation.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SIGMA",
+    "symbol": "SIGMA",
+    "decimals": 18
+  },
+  "infoURL": "https://laosnetwork.io",
+  "shortName": "laossigma",
+  "chainId": 62850,
+  "networkId": 62850,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://sigma.explorer.laosnetwork.io",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

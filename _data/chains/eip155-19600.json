@@ -1,0 +1,26 @@
+{
+  "name": "LBRY Mainnet",
+  "chain": "LBRY",
+  "icon": "lbry",
+  "rpc": ["https://lbry.nl/rpc"],
+  "features": [{ "name": "EIP155" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LBRY Credits",
+    "symbol": "LBC",
+    "decimals": 8
+  },
+  "infoURL": "https://lbry.com",
+  "shortName": "LBRY",
+  "chainId": 19600,
+  "networkId": 19600,
+  "slip44": 140,
+  "explorers": [
+    {
+      "name": "LBRY Block Explorer",
+      "url": "https://explorer.lbry.com",
+      "icon": "lbry",
+      "standard": "none"
+    }
+  ]
+}

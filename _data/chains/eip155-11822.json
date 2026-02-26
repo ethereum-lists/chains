@@ -1,0 +1,27 @@
+{
+  "name": "Artela Testnet",
+  "chain": "Artela",
+  "rpc": ["https://betanet-rpc1.artela.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ART",
+    "symbol": "ART",
+    "decimals": 18
+  },
+  "infoURL": "https://artela.network/",
+  "shortName": "Artela",
+  "chainId": 11822,
+  "networkId": 11822,
+  "explorers": [
+    {
+      "name": "ArtelaScan",
+      "url": "https://betanet-scan.artela.network",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "OKXExplorer",
+      "url": "https://www.okx.com/web3/explorer/artela-testnet",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Berachain Artio",
+  "chain": "Berachain Artio",
+  "status": "deprecated",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BERA Token",
+    "symbol": "BERA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.berachain.com",
+  "shortName": "berachainArtio",
+  "chainId": 80085,
+  "networkId": 80085,
+  "icon": "berachain",
+  "explorers": [
+    {
+      "name": "Beratrail",
+      "url": "https://artio.beratrail.io",
+      "icon": "berachain",
+      "standard": "none"
+    }
+  ]
+}

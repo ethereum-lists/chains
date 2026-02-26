@@ -1,0 +1,32 @@
+{
+  "name": "Haust Network Testnet",
+  "title": "Haust Network Testnet",
+  "chain": "haust-network-testnet",
+  "rpc": ["https://rpc-testnet.haust.app"],
+  "features": [{ "name": "EIP155" }],
+  "faucets": ["https://faucet.haust.app"],
+  "status": "active",
+  "nativeCurrency": {
+    "name": "HAUST",
+    "symbol": "HAUST",
+    "decimals": 18
+  },
+  "infoURL": "https://haust.network/",
+  "shortName": "HaustTestnet",
+  "chainId": 1523903251,
+  "networkId": 1523903251,
+  "icon": "haust",
+  "explorers": [
+    {
+      "name": "Haust Network Testnet Explorer",
+      "url": "https://explorer-testnet.haust.app",
+      "icon": "haust",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "https://bridge-testnet.haust.app" }]
+  }
+}

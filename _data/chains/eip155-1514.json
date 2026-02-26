@@ -1,0 +1,23 @@
+{
+  "name": "Story",
+  "chain": "STORY",
+  "rpc": ["https://mainnet.storyrpc.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "IP Token",
+    "symbol": "IP",
+    "decimals": 18
+  },
+  "infoURL": "https://story.foundation/",
+  "icon": "story",
+  "shortName": "sty",
+  "chainId": 1514,
+  "networkId": 1514,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://mainnet.storyscan.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}

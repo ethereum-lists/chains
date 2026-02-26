@@ -1,0 +1,26 @@
+{
+  "name": "OpenGPU Mainnet",
+  "chain": "OGPU",
+  "icon": "ogpu",
+  "rpc": ["https://mainnet-rpc.ogpuscan.io", "wss://mainnet-rpc.ogpuscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OGPU",
+    "symbol": "OGPU",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://opengpu.network",
+  "shortName": "ogpu",
+  "chainId": 1071,
+  "networkId": 1071,
+  "redFlags": ["reusedChainId"],
+  "explorers": [
+    {
+      "name": "OpenGPU Explorer",
+      "url": "https://ogpuscan.io",
+      "icon": "ogpu",
+      "standard": "EIP3091"
+    }
+  ]
+}

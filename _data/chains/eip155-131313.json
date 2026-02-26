@@ -1,0 +1,17 @@
+{
+  "name": "Odyssey Chain (Testnet)",
+  "chain": "DIONE",
+  "rpc": ["https://testnode.dioneprotocol.com/ext/bc/D/rpc"],
+  "faucets": ["https://faucet.dioneprotocol.com/"],
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://www.dioneprotocol.com/",
+  "shortName": "DIONE",
+  "chainId": 131313,
+  "networkId": 131313,
+  "icon": "odyssey",
+  "nativeCurrency": {
+    "name": "DIONE",
+    "symbol": "DIONE",
+    "decimals": 18
+  }
+}

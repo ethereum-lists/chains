@@ -1,0 +1,23 @@
+{
+  "name": "DeInfra Mainnet",
+  "chain": "DeInfraMainnet",
+  "rpc": ["https://c100501n3.deinfra.net:443/jsonrpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SK",
+    "symbol": "SK",
+    "decimals": 18
+  },
+  "icon": "deinfra",
+  "infoURL": "https://deinfra.net",
+  "shortName": "deinfra-mainnet",
+  "chainId": 100501,
+  "networkId": 100501,
+  "explorers": [
+    {
+      "name": "Deinfra Mainnet Network Explorer",
+      "url": "https://explorer.deinfra.net",
+      "standard": "EIP3091"
+    }
+  ]
+}

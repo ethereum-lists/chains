@@ -1,0 +1,23 @@
+{
+  "name": "Won Network",
+  "chainId": 686868,
+  "shortName": "WonChain",
+  "chain": "WON",
+  "icon": "won",
+  "networkId": 686868,
+  "nativeCurrency": {
+    "name": "Won",
+    "symbol": "WON",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.wonnetwork.org"],
+  "faucets": ["https://faucet.wondollars.org"],
+  "explorers": [
+    {
+      "name": "Won Explorer",
+      "url": "https://scan.wonnetwork.org",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://wonnetwork.org"
+}

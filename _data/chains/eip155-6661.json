@@ -1,0 +1,30 @@
+{
+  "name": "Cybria Mainnet",
+  "chain": "CYBA",
+  "rpc": ["https://rpc-mainnet.cybria.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Cybria",
+    "symbol": "CYBA",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://cybria.io",
+  "shortName": "cyba",
+  "chainId": 6661,
+  "networkId": 6661,
+  "icon": "cybria",
+  "explorers": [
+    {
+      "name": "Cybria Explorer",
+      "url": "https://cybascan.io",
+      "icon": "cybascan",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155420",
+    "bridges": [{ "url": "https://app.optimism.io/bridge" }]
+  }
+}

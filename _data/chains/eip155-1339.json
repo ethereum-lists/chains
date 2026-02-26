@@ -1,0 +1,29 @@
+{
+  "name": "Elysium Mainnet",
+  "title": "An L1, carbon-neutral, tree-planting, metaverse dedicated blockchain.",
+  "chain": "Elysium",
+  "rpc": ["https://rpc.elysiumchain.tech", "https://rpc.elysiumchain.us"],
+  "faucets": ["https://faucet.elysiumchain.tech"],
+  "nativeCurrency": {
+    "name": "ELY",
+    "symbol": "ELY",
+    "decimals": 18
+  },
+  "infoURL": "https://elysiumchain.tech/",
+  "shortName": "ELY",
+  "chainId": 1339,
+  "networkId": 1339,
+  "icon": "elysium",
+  "explorers": [
+    {
+      "name": "Elysium mainnet explorer",
+      "url": "https://explorer.elysiumchain.tech",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Elysium blockscout explorer",
+      "url": "https://blockscout.elysiumchain.tech",
+      "standard": "EIP3091"
+    }
+  ]
+}

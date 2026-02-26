@@ -1,0 +1,25 @@
+{
+  "name": "ZKSats Mainnet",
+  "title": "ZKSats Mainnet",
+  "chain": "ZKSats",
+  "rpc": ["https://mainnet.zksats.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://zksats.io",
+  "shortName": "ZKSats-Mainnet",
+  "chainId": 305,
+  "networkId": 305,
+  "icon": "zksats",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.zksats.io",
+      "icon": "zksats",
+      "standard": "EIP3091"
+    }
+  ]
+}

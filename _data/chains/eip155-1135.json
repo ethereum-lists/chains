@@ -1,0 +1,25 @@
+{
+  "name": "Lisk",
+  "chain": "ETH",
+  "icon": "lisk",
+  "rpc": ["https://rpc.api.lisk.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://lisk.com",
+  "shortName": "lisk",
+  "chainId": 1135,
+  "networkId": 1135,
+  "slip44": 134,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockscout.lisk.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

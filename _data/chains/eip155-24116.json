@@ -1,0 +1,25 @@
+{
+  "name": "Amauti",
+  "title": "Rails Network Testnet Amauti",
+  "chain": "RAILS",
+  "icon": "railsTestnet",
+  "rpc": ["https://testnet.steamexchange.io"],
+  "faucets": ["https://depot.steamexchange.io/faucet"],
+  "nativeCurrency": {
+    "name": "SteamX",
+    "symbol": "STEAMX",
+    "decimals": 18
+  },
+  "infoURL": "https://steamexchange.io",
+  "shortName": "railst",
+  "chainId": 24116,
+  "networkId": 24116,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://build.steamexchange.io",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

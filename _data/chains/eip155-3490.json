@@ -1,0 +1,25 @@
+{
+  "name": "GTCSCAN",
+  "chain": "GTC",
+  "icon": "gtc",
+  "rpc": ["https://gtc-dataseed.gtcscan.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GTC",
+    "symbol": "GTC",
+    "decimals": 18
+  },
+  "infoURL": "https://gtcscan.io/",
+  "shortName": "gtc",
+  "chainId": 3490,
+  "networkId": 3490,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "GTCScan Explorer",
+      "url": "https://gtcscan.io",
+      "standard": "none",
+      "icon": "gtc"
+    }
+  ]
+}

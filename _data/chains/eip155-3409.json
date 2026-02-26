@@ -1,0 +1,23 @@
+{
+  "name": "Pepe Unchained",
+  "chain": "PEPU",
+  "icon": "pepu",
+  "rpc": ["https://rpc-pepe-unchained-gupg0lo9wf.t.conduit.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PEPU",
+    "symbol": "PEPU",
+    "decimals": 18
+  },
+  "infoURL": "https://pepeunchained.com/",
+  "shortName": "PEPU",
+  "chainId": 3409,
+  "networkId": 3409,
+  "explorers": [
+    {
+      "name": "pepuscan",
+      "url": "https://pepuscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

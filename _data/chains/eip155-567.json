@@ -1,0 +1,28 @@
+{
+  "name": "Validium Network",
+  "chain": "Validium Network Testnet",
+  "rpc": ["https://testnet.l2.rpc.validium.network"],
+  "nativeCurrency": {
+    "name": "Validium",
+    "symbol": "VLDM",
+    "decimals": 18
+  },
+  "faucets": ["https://testnet.faucet.validium.network"],
+  "infoURL": "https://www.validium.network",
+  "shortName": "validium-testnet",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "https://testnet.bridge.validium.network/bridge" }]
+  },
+  "status": "active",
+  "chainId": 567,
+  "networkId": 567,
+  "explorers": [
+    {
+      "name": "Validium Network Testnet Block Explorer",
+      "url": "https://testnet.explorer.validium.network",
+      "standard": "none"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "exSat Testnet",
+  "chain": "exSat",
+  "icon": "exsat",
+  "rpc": ["https://evm-tst3.exsat.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://exsat.network/",
+  "shortName": "txsat",
+  "chainId": 839999,
+  "networkId": 839999,
+  "explorers": [
+    {
+      "name": "exSat Testnet Explorer",
+      "url": "https://scan-testnet.exsat.network",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "" }]
+  }
+}

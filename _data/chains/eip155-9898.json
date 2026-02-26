@@ -1,0 +1,26 @@
+{
+  "name": "Larissa Chain",
+  "title": "Larissa Chain",
+  "chain": "Larissa",
+  "rpc": ["https://rpc.larissa.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Larissa",
+    "symbol": "LRS",
+    "decimals": 18
+  },
+  "infoURL": "https://larissa.network",
+  "shortName": "lrs",
+  "chainId": 9898,
+  "networkId": 1,
+  "slip44": 9898,
+  "status": "active",
+  "icon": "larissa",
+  "explorers": [
+    {
+      "name": "Larissa Scan",
+      "url": "https://scan.larissa.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

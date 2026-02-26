@@ -1,0 +1,37 @@
+{
+  "name": "Songbird Canary-Network",
+  "chain": "SGB",
+  "icon": "songbird",
+  "rpc": [
+    "https://songbird-api.flare.network/ext/C/rpc",
+    "https://01-gravelines-006-01.rpc.tatum.io/ext/bc/C/rpc",
+    "https://01-vinthill-006-02.rpc.tatum.io/ext/bc/C/rpc",
+    "https://02-tokyo-006-03.rpc.tatum.io/ext/bc/C/rpc",
+    "https://rpc.au.cc/songbird",
+    "https://songbird.enosys.global/ext/C/rpc",
+    "https://songbird.solidifi.app/ext/C/rpc"
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Songbird",
+    "symbol": "SGB",
+    "decimals": 18
+  },
+  "infoURL": "https://flare.network",
+  "shortName": "sgb",
+  "chainId": 19,
+  "networkId": 19,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://songbird-explorer.flare.network",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Routescan",
+      "url": "https://songbird.flarescan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

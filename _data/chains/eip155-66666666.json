@@ -1,0 +1,25 @@
+{
+  "name": "Winr Protocol Testnet",
+  "chain": "WINR",
+  "rpc": ["https://rpc-devnet.winr.games"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Winr",
+    "symbol": "WINR",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "https://winr.games",
+  "shortName": "winrtestnet",
+  "chainId": 66666666,
+  "networkId": 66666666,
+  "icon": "winr",
+  "explorers": [
+    {
+      "name": "Winr Protocol Testnet Explorer",
+      "url": "https://explorer-winrprotocoltestnet-wmwv59m23g.t.conduit.xyz",
+      "icon": "winr",
+      "standard": "none"
+    }
+  ]
+}

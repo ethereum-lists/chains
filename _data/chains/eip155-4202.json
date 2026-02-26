@@ -1,0 +1,25 @@
+{
+  "name": "Lisk Sepolia Testnet",
+  "chain": "ETH",
+  "icon": "lisk",
+  "rpc": ["https://rpc.sepolia-api.lisk.com"],
+  "faucets": ["https://app.optimism.io/faucet"],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://lisk.com",
+  "shortName": "lisksep",
+  "chainId": 4202,
+  "networkId": 4202,
+  "slip44": 134,
+  "explorers": [
+    {
+      "name": "liskscout",
+      "url": "https://sepolia-blockscout.lisk.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "ZenChain Testnet",
+  "chain": "ZTC",
+  "icon": "zenchain",
+  "rpc": [
+    "https://zenchain-testnet.api.onfinality.io/public",
+    "wss://zenchain-testnet.api.onfinality.io/public-ws"
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": ["https://facuet.zenchain.io"],
+  "nativeCurrency": {
+    "name": "ZTC",
+    "symbol": "ZTC",
+    "decimals": 18
+  },
+  "infoURL": "https://zenchain.io",
+  "shortName": "zentest",
+  "chainId": 8408,
+  "networkId": 8408,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "zentrace",
+      "url": "https://zentrace.io",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

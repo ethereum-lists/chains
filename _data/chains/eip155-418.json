@@ -1,0 +1,27 @@
+{
+  "name": "LaTestnet",
+  "chain": "LaTestnet",
+  "icon": "lachain-network",
+  "rpc": [
+    "https://rpc.testnet.lachain.network",
+    "https://lachain-testnet.rpc-nodes.cedalio.dev"
+  ],
+  "faucets": ["https://faucet.lachain.network"],
+  "nativeCurrency": {
+    "name": "Test LaCoin",
+    "symbol": "TLA",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "",
+  "shortName": "latestnet",
+  "chainId": 418,
+  "networkId": 418,
+  "explorers": [
+    {
+      "name": "LaTestnet Explorer",
+      "url": "https://testexplorer.lachain.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

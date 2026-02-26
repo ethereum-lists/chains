@@ -1,0 +1,23 @@
+{
+  "name": "Flow EVM Testnet",
+  "chain": "Flow",
+  "rpc": ["https://testnet.evm.nodes.onflow.org"],
+  "faucets": ["https://faucet.flow.com/fund-account"],
+  "nativeCurrency": {
+    "name": "FLOW",
+    "symbol": "FLOW",
+    "decimals": 18
+  },
+  "infoURL": "https://developers.flow.com/evm/about",
+  "shortName": "flow-testnet",
+  "chainId": 545,
+  "networkId": 545,
+  "icon": "flowevm",
+  "explorers": [
+    {
+      "name": "FlowScan Testnet",
+      "url": "https://evm-testnet.flowscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

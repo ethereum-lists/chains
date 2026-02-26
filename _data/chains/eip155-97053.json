@@ -1,0 +1,23 @@
+{
+  "name": "Tetron Testnet Smart Chain",
+  "chain": "Tetron Testnet",
+  "rpc": ["https://test-rpc.tscscan.org"],
+  "faucets": [],
+  "features": [{ "name": "EIP155" }],
+  "nativeCurrency": {
+    "name": "Tetron Testnet",
+    "symbol": "TSC",
+    "decimals": 18
+  },
+  "infoURL": "https://tetronchain.com/",
+  "shortName": "TetronTestnet",
+  "chainId": 97053,
+  "networkId": 97053,
+  "explorers": [
+    {
+      "name": "Tetron Explorer",
+      "url": "https://testnet.tscscan.org",
+      "standard": "EIP3091"
+    }
+  ]
+}

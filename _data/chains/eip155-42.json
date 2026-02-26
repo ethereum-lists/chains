@@ -1,0 +1,30 @@
+{
+  "name": "LUKSO Mainnet",
+  "chain": "LUKSO",
+  "icon": "lukso",
+  "rpc": [
+    "https://42.rpc.thirdweb.com",
+    "https://rpc.lukso.sigmacore.io",
+    "https://rpc.mainnet.lukso.network",
+    "wss://ws-rpc.mainnet.lukso.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LUKSO",
+    "symbol": "LYX",
+    "decimals": 18
+  },
+  "explorers": [
+    {
+      "name": "LUKSO Execution Explorer",
+      "url": "https://explorer.lukso.network",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://lukso.network",
+  "shortName": "lukso",
+  "chainId": 42,
+  "networkId": 42,
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "redFlags": ["reusedChainId"]
+}

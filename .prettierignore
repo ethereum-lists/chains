@@ -1,0 +1,7 @@
+# Using Prettier for JSON files only in _data
+
+# Command to format all existing JSON files
+# npx prettier --write --ignore-unknown _data
+
+model
+processor

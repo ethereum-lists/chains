@@ -1,0 +1,22 @@
+{
+  "name": "Primea Network Mainnet",
+  "chain": "Primea Network Mainnet",
+  "rpc": [
+    "http://rpc.primeanetwork.com/rpc-http",
+    "https://rpc.primeanetwork.com/rpc-https",
+    "ws://rpc.primeanetwork.com/rpc-ws",
+    "wss://rpc.primeanetwork.com/rpc-wss"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GoldPrimeaNetwork",
+    "symbol": "GOLDPN",
+    "decimals": 18
+  },
+  "infoURL": "https://primeanetwork.com",
+  "shortName": "goldpn",
+  "chainId": 698369,
+  "networkId": 698369,
+  "icon": "prim",
+  "explorers": []
+}

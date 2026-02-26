@@ -1,0 +1,16 @@
+{
+  "name": "BigShortBets",
+  "chain": "BIGSB",
+  "rpc": ["https://market.bigsb.io", "wss://market.bigsb.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "infoURL": "https://bigshortbets.com/",
+  "shortName": "bigsb",
+  "chainId": 2137,
+  "networkId": 2137,
+  "explorers": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Vecno Mainnet",
+  "chain": "VE",
+  "rpc": ["https://rpc.vecno.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Vecno",
+    "symbol": "VE",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://vecno.org",
+  "shortName": "ve",
+  "chainId": 65357,
+  "networkId": 65357,
+  "icon": "vecno",
+  "explorers": [
+    {
+      "name": "vecno",
+      "url": "https://explorer.vecno.org",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
