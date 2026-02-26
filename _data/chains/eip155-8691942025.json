@@ -3,10 +3,7 @@
   "title": "ONFA Chain Testnet",
   "chain": "onfa",
   "rpc": [
-    "https://rpc.onfa.io",
-    "https://rpc.onfachain.com",
-    "wss://ws.onfa.io",
-    "wss://ws.onfachain.com"
+    "https://rpc-testnet.onfachain.com",
   ],
   "faucets": [],
   "nativeCurrency": {
