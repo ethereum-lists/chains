@@ -1,29 +1,31 @@
 {
-  "name": "Monad",
-  "chain": "MON",
-  "icon": "monad",
-  "rpc": ["https://rpc.monad.xyz"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "name": "HBD Mainnet",
+  "chain": "HBD Chain",
+  "icon": "hbdchain",
+  "rpc": [
+    "https://rpc.hbdscan.com/",
+    ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Monad",
-    "symbol": "MON",
+    "name": "HBD Chain Native Token",
+    "symbol": "HBD",
     "decimals": 18
   },
-  "infoURL": "https://monad.xyz",
-  "shortName": "mon",
+  "infoURL": "https://www.hbdchain.com/",
+  "shortName": "hbd",
   "chainId": 143,
   "networkId": 143,
-  "slip44": 268435779,
+  "slip44": 966,
   "explorers": [
     {
-      "name": "Monad Vision",
-      "url": "https://monadvision.com",
+      "name": "hbdscan",
+      "url": "https://hbdscan.com",
       "standard": "EIP3091"
     },
     {
-      "name": "Monadscan",
-      "url": "https://monadscan.com",
+      "name": "dexguru",
+      "url": "https://hbd.dex.guru",
+      "icon": "dexguru",
       "standard": "EIP3091"
     }
   ]
