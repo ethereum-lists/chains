@@ -2,10 +2,7 @@
   "name": "Capital Exchange",
   "chain": "CXM",
   "rpc": ["https://rpc.capitalexchange.net"],
-  "features": [
-    { "name": "EIP155" },
-    { "name": "EIP1559" }
-  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
     "name": "Capital Exchange",
