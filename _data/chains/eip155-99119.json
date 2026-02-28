@@ -1,0 +1,24 @@
+{
+  "name": "Dorsen Testnet",
+  "chain": "Dorsen",
+  "rpc": ["https://testnet-rpc.dorsenscan.io"],
+  "faucets": ["https://faucet.dorsenscan.io"],
+  "nativeCurrency": {
+    "name": "Dorsen Chain",
+    "symbol": "tDC",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.dorsenscan.io",
+  "shortName": "dorsen-main",
+  "icon": "dorsen",
+  "chainId": 99119,
+  "networkId": 99119,
+  "explorers": [
+    {
+      "name": "DorsenScan Testnet",
+      "url": "https://testnet.dorsenscan.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
