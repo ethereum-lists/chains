@@ -4,7 +4,18 @@
   "icon": "defioraclemeta",
   "rpc": [
     "https://rpc-http-pub.d-bis.org",
-    "https://rpc-http-prv.d-bis.org"
+    "wss://rpc-ws-pub.d-bis.org",
+    "https://rpc.d-bis.org",
+    "wss://rpc.d-bis.org",
+    "https://rpc2.d-bis.org",
+    "wss://ws.rpc.d-bis.org",
+    "wss://ws.rpc2.d-bis.org",
+    "https://rpc.public-0138.defi-oracle.io",
+    "wss://rpc.public-0138.defi-oracle.io",
+    "https://rpc.defi-oracle.io",
+    "wss://wss.defi-oracle.io",
+    "https://defi-oracle-meta.rpc.thirdweb.com/${THIRDWEB_API_KEY}",
+    "https://138.rpc.thirdweb.com/${THIRDWEB_API_KEY}"
   ],
   "features": [
     {
