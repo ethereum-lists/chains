@@ -1,0 +1,24 @@
+{
+  "name": "ROBOTX Chain",
+  "chain": "ROBOTX",
+  "rpc": [
+    "https://rpc.robotxhub.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ROBOTX",
+    "symbol": "RX",
+    "decimals": 6
+  },
+  "infoURL": "https://robotxhub.io",
+  "shortName": "robotx",
+  "chainId": 5394264,
+  "networkId": 5394264,
+  "explorers": [
+    {
+      "name": "ROBOTX Explorer",
+      "url": "https://explorer.robotxhub.io",
+      "standard": "none"
+    }
+  ]
+}
