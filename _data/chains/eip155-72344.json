@@ -1,21 +1,22 @@
 {
-  "name": "Radius Network Testnet",
-  "chain": "RAD",
+  "name": "Radius Test Network",
+  "chain": "RADIUS",
   "rpc": ["https://rpc.testnet.radiustech.xyz"],
-  "faucets": [],
+  "faucets": ["https://testnet.radiustech.xyz/wallet/"],
   "nativeCurrency": {
     "name": "Radius USD",
     "symbol": "RUSD",
     "decimals": 18
   },
-  "infoURL": "https://radiustech.xyz",
-  "shortName": "rad",
+  "infoURL": "https://testnet.radiustech.xyz",
+  "shortName": "radius-testnet",
   "chainId": 72344,
   "networkId": 72344,
   "icon": "rad",
+  "slip44": 1,
   "explorers": [
     {
-      "name": "Radius Network Testnet Explorer",
+      "name": "Radius Test Network Explorer",
       "url": "https://testnet.radiustech.xyz",
       "standard": "none"
     }
