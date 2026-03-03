@@ -1,0 +1,31 @@
+{
+  "name": "iTani Network Chain Testnet",
+  "chain": "ITN",
+  "icon": "itani",
+  "rpc": [
+    "https://itani-testnet-1009642477948.us-central1.run.app/jsonrpc"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "iTani",
+    "symbol": "ITANI",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/itanidreams-dev/iTani-Network-Chain",
+  "shortName": "itani-testnet",
+  "chainId": 1229800786,
+  "networkId": 1229800786,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "iTani Testnet Explorer",
+      "url": "https://itani-testnet-1009642477948.us-central1.run.app",
+      "standard": "EIP3091"
+    }
+  ]
+}
