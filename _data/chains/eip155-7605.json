@@ -1,12 +1,8 @@
 {
   "name": "AnchorChain Testnet",
   "chain": "ANCH",
-  "rpc": [
-    "https://api-testnet.anchorchain.co.za/rpc"
-  ],
-  "faucets": [
-    "https://api-testnet.anchorchain.co.za/v1/faucet/claim"
-  ],
+  "rpc": ["https://api-testnet.anchorchain.co.za/rpc"],
+  "faucets": ["https://platform-testnet.anchorchain.co.za"],
   "nativeCurrency": {
     "name": "Anchor",
     "symbol": "ANCH",
@@ -16,7 +12,7 @@
   "shortName": "anch-testnet",
   "chainId": 7605,
   "networkId": 7605,
-  "testnet": true,
+  "status": "incubating",
   "explorers": [
     {
       "name": "AnchorChain Testnet Explorer",

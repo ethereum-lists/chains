@@ -1,9 +1,7 @@
 {
   "name": "AnchorChain",
   "chain": "ANCH",
-  "rpc": [
-    "https://api.anchorchain.co.za/rpc"
-  ],
+  "rpc": ["https://api.anchorchain.co.za/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Anchor",
@@ -14,6 +12,7 @@
   "shortName": "anch",
   "chainId": 7206,
   "networkId": 7206,
+  "status": "active",
   "explorers": [
     {
       "name": "AnchorChain Explorer",
