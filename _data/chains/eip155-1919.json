@@ -1,8 +1,8 @@
 {
   "name": "TurkChain",
-  "chain": "TURK",
+  "chain": "TurkChain",
   "rpc": [
-    "https://rpc.turkchain1919.com"
+    "https://rpc.turkscan.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -15,7 +15,7 @@
     { "name": "EIP1559" }
   ],
   "infoURL": "https://turkchain1919.com",
-  "shortName": "turk",
+  "shortName": "turkchain",
   "chainId": 1919,
   "networkId": 1919,
   "icon": "turkchain",
