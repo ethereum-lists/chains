@@ -1,7 +1,6 @@
 {
   "name": "Defi Oracle Meta Mainnet",
   "chain": "dfiometa",
-  "icon": "defioraclemeta",
   "rpc": [
     "https://rpc-http-pub.d-bis.org",
     "wss://rpc-ws-pub.d-bis.org",
@@ -13,18 +12,9 @@
     "https://rpc.public-0138.defi-oracle.io",
     "wss://rpc.public-0138.defi-oracle.io",
     "https://rpc.defi-oracle.io",
-    "wss://wss.defi-oracle.io",
-    "https://defi-oracle-meta.rpc.thirdweb.com/${THIRDWEB_API_KEY}",
-    "https://138.rpc.thirdweb.com/${THIRDWEB_API_KEY}"
+    "wss://wss.defi-oracle.io"
   ],
-  "features": [
-    {
-      "name": "EIP155"
-    },
-    {
-      "name": "EIP1559"
-    }
-  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -34,7 +24,7 @@
   "infoURL": "https://d-bis.org",
   "shortName": "dfio-meta-main",
   "chainId": 138,
-  "networkId": 1,
+  "networkId": 138,
   "slip44": 60,
   "ens": {
     "registry": "0x57f1887a8BF19b14fC0dF6Fd9B2acc9Af147eA85"
