@@ -5,8 +5,8 @@
   "rpc": ["https://rpc.testnet.stable.xyz"],
   "faucets": ["https://faucet.stable.xyz"],
   "nativeCurrency": {
-    "name": "gUSDT",
-    "symbol": "gUSDT",
+    "name": "USDT0",
+    "symbol": "USDT0",
     "decimals": 18
   },
   "infoURL": "https://stable.xyz",
@@ -14,12 +14,6 @@
   "chainId": 2201,
   "networkId": 2201,
   "explorers": [
-    {
-      "name": "Blockscout Explorer",
-      "url": "https://blockscout.testnet.stable.xyz",
-      "icon": "blockscout",
-      "standard": "EIP3091"
-    },
     {
       "name": "Stablescan",
       "url": "https://testnet.stablescan.xyz",
