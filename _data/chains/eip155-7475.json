@@ -1,0 +1,26 @@
+{
+  "name": "SYNRA Testnet",
+  "chain": "SYNRA",
+  "icon": "synra",
+  "rpc": [
+    "https://rpc.synra.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SYN",
+    "symbol": "SYN",
+    "decimals": 18
+  },
+  "infoURL": "https://synra.network",
+  "shortName": "synra-testnet",
+  "chainId": 7475,
+  "networkId": 7475,
+  "explorers": [
+    {
+      "name": "SYNRA Explorer",
+      "url": "https://explorer.synra.network",
+      "standard": "EIP3091"
+    }
+  ],
+  "testnet": true
+}
