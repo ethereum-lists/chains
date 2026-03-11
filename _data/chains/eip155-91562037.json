@@ -5,9 +5,7 @@
     "https://testnetrpc.mstblockchain.com",
     "wss://testnetrpc.mstblockchain.com"
   ],
-  "faucets": [
-    "https://faucet.mstblockchain.com"
-  ],
+  "faucets": ["https://faucet.mstblockchain.com"],
   "nativeCurrency": {
     "name": "MST Native Coin",
     "symbol": "tMSTC",
