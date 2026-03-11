@@ -1,0 +1,23 @@
+{
+  "name": "POC Testnet",
+  "chain": "POC",
+  "rpc": ["https://testnet-rpc.pochain.io"],
+  "faucets": ["https://www.pochain.io/poc-faucet"],
+  "nativeCurrency": {
+    "name": "POC Native Token",
+    "symbol": "POC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.pochain.io",
+  "shortName": "poc",
+  "chainId": 1148,
+  "networkId": 1148,
+  "icon": "pochain",
+  "explorers": [
+    {
+      "name": "pocscan",
+      "url": "https://testnet.pocscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
