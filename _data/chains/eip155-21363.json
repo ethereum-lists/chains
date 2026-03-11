@@ -1,0 +1,24 @@
+{
+  "name": "Lestnet",
+  "chain": "LETH",
+  "rpc": ["https://service.lestnet.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lestnet Ether",
+    "symbol": "LETH",
+    "decimals": 18
+  },
+  "infoURL": "https://lestnet.org",
+  "shortName": "leth",
+  "chainId": 21363,
+  "networkId": 21363,
+  "icon": "lestnet",
+  "explorers": [
+    {
+      "name": "Lestnet Explorer",
+      "url": "https://explore.lestnet.org",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

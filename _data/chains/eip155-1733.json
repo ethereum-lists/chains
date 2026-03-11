@@ -1,0 +1,18 @@
+{
+  "name": "Fuga Testnet",
+  "chain": "Fuga",
+  "rpc": ["https://rpc-testnet.fuga.blue"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FUGA",
+    "symbol": "FUGA",
+    "decimals": 18
+  },
+  "infoURL": "https://fuga.one",
+  "shortName": "FUGA_T",
+  "chainId": 1733,
+  "networkId": 1733,
+  "slip44": 1,
+  "explorers": [],
+  "status": "incubating"
+}

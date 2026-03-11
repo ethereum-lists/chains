@@ -1,0 +1,27 @@
+{
+  "name": "Chiliz Spicy Testnet",
+  "chain": "CHZ",
+  "rpc": ["https://spicy-rpc.chiliz.com"],
+  "faucets": [
+    "https://spicy-faucet.chiliz.com",
+    "https://tatum.io/faucets/chiliz"
+  ],
+  "nativeCurrency": {
+    "name": "Chiliz",
+    "symbol": "CHZ",
+    "decimals": 18
+  },
+  "icon": "chilizspicy",
+  "infoURL": "https://www.chiliz.com/en/chain",
+  "shortName": "chzspicy",
+  "chainId": 88882,
+  "networkId": 88882,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "spicy-explorer",
+      "url": "https://testnet.chiliscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

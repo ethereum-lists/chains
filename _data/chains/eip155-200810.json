@@ -15,7 +15,7 @@
     "decimals": 18
   },
   "infoURL": "https://docs.bitlayer.org/",
-  "shortName": "Bitlayer",
+  "shortName": "btrt",
   "chainId": 200810,
   "networkId": 200810,
   "slip44": 1,
@@ -23,8 +23,8 @@
   "explorers": [
     {
       "name": "bitlayer testnet scan",
-      "url": "https://testnet-scan.bitlayer.org",
-      "standard": "none"
+      "url": "https://testnet.btrscan.com",
+      "standard": "EIP3091"
     }
   ]
 }

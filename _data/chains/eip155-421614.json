@@ -4,7 +4,9 @@
   "chain": "ETH",
   "rpc": [
     "https://sepolia-rollup.arbitrum.io/rpc",
-    "https://arbitrum-sepolia.infura.io/v3/${INFURA_API_KEY}"
+    "https://arbitrum-sepolia.infura.io/v3/${INFURA_API_KEY}",
+    "https://arbitrum-sepolia-rpc.publicnode.com",
+    "wss://arbitrum-sepolia-rpc.publicnode.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -18,6 +20,11 @@
   "networkId": 421614,
   "slip44": 1,
   "explorers": [
+    {
+      "name": "arbiscan-sepolia",
+      "url": "https://sepolia.arbiscan.io",
+      "standard": "EIP3091"
+    },
     {
       "name": "Arbitrum Sepolia Rollup Testnet Explorer",
       "url": "https://sepolia-explorer.arbitrum.io",

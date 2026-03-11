@@ -1,0 +1,25 @@
+{
+  "name": "Monsoon ",
+  "chain": "MONSOON",
+  "rpc": ["https://monsoon.rainfall.one"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "RDP",
+    "symbol": "RDP",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "monsoon",
+  "chainId": 100610,
+  "networkId": 100610,
+  "icon": "monsoon",
+  "explorers": [
+    {
+      "name": "Monsoon Scan",
+      "url": "https://scout.monsoon.rainfall.one",
+      "icon": "monsoon",
+      "standard": "EIP3091"
+    }
+  ]
+}

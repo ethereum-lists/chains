@@ -1,10 +1,11 @@
 {
   "name": "Nahmii 3 Testnet",
   "chain": "Nahmii",
-  "rpc": ["https://ngeth.testnet.n3.nahmii.io"],
+  "rpc": ["https://rpc.testnet.nahmii.io"],
+  "status": "active",
   "faucets": [],
   "nativeCurrency": {
-    "name": "Goerli Ether",
+    "name": "Sepolia Ether",
     "symbol": "ETH",
     "decimals": 18
   },
@@ -17,17 +18,17 @@
   "explorers": [
     {
       "name": "Nahmii 3 Testnet Explorer",
-      "url": "https://explorer.testnet.n3.nahmii.io",
+      "url": "https://explorer.testnet.nahmii.io",
       "icon": "nahmii",
       "standard": "EIP3091"
     }
   ],
   "parent": {
     "type": "L2",
-    "chain": "eip155-3",
+    "chain": "eip155-11155111",
     "bridges": [
       {
-        "url": "https://bridge.testnet.n3.nahmii.io"
+        "url": "https://accounts.testnet.nahmii.io"
       }
     ]
   }

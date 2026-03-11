@@ -1,0 +1,24 @@
+{
+  "name": "AIE Testnet",
+  "chain": "AIE",
+  "rpc": ["https://rpc1-testnet.aiechain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AIE",
+    "symbol": "AIE",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet.aiescan.io",
+  "shortName": "aie",
+  "chainId": 413413,
+  "networkId": 413413,
+  "icon": "aie",
+  "explorers": [
+    {
+      "name": "aiescan-testnet",
+      "icon": "aie",
+      "url": "https://testnet.aiescan.io",
+      "standard": "none"
+    }
+  ]
+}

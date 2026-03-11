@@ -1,0 +1,24 @@
+{
+  "name": "LayerEdge testnet",
+  "chain": "LayerEdge",
+  "rpc": ["https://testnet-rpc.layeredge.io"],
+  "faucets": ["https://testnet-faucet.layeredge.io"],
+  "nativeCurrency": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.layeredge.io",
+  "shortName": "LayerEdge-testnet",
+  "chainId": 3456,
+  "networkId": 3456,
+  "icon": "layerEdge",
+  "explorers": [
+    {
+      "name": "LayerEdge Testnet Explorer",
+      "url": "https://testnet-explorer.layeredge.io",
+      "icon": "layerEdge",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Rome Devnet Esquiline",
+  "chain": "ROME",
+  "rpc": ["https://esquiline-i.devnet.romeprotocol.xyz"],
+  "faucets": ["https://deposit.devnet.romeprotocol.xyz"],
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "infoURL": "https://rome.builders",
+  "shortName": "rome-devnet-esquiline",
+  "chainId": 121212,
+  "networkId": 121212,
+  "icon": "rome",
+  "explorers": [
+    {
+      "name": "Rome Devnet Esquiline Explorer",
+      "url": "https://romescout-esquiline-i.devnet.romeprotocol.xyz",
+      "icon": "rome",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}

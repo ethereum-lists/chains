@@ -1,23 +1,24 @@
 {
-  "name": "X1 Testnet",
-  "chain": "X1",
-  "rpc": ["https://testrpc.x1.tech", "https://x1testrpc.okx.com"],
-  "faucets": ["https://www.okx.com/x1/faucet"],
+  "name": "X Layer Testnet",
+  "chain": "X Layer",
+  "rpc": ["https://testrpc.xlayer.tech", "https://xlayertestrpc.okx.com"],
+  "faucets": ["https://www.okx.com/xlayer/faucet"],
   "nativeCurrency": {
-    "name": "X1 Global Utility Token in testnet",
+    "name": "X Layer Global Utility Token in testnet",
     "symbol": "OKB",
     "decimals": 18
   },
   "features": [],
-  "infoURL": "https://www.okx.com/x1",
+  "infoURL": "https://www.okx.com/xlayer",
   "shortName": "tokb",
   "chainId": 195,
   "networkId": 195,
   "slip44": 1,
+  "icon": "xlayerTestnet",
   "explorers": [
     {
       "name": "OKLink",
-      "url": "https://www.oklink.com/x1-test",
+      "url": "https://www.oklink.com/xlayer-test",
       "standard": "EIP3091"
     }
   ],

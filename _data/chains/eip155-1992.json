@@ -22,11 +22,5 @@
   "chainId": 1992,
   "networkId": 1992,
   "slip44": 60,
-  "explorers": [
-    {
-      "name": "routescan",
-      "url": "https://explorer.hubble.exchange",
-      "standard": "EIP3091"
-    }
-  ]
+  "explorers": []
 }

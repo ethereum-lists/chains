@@ -1,0 +1,25 @@
+{
+  "name": "MANTRACHAIN Mainnet",
+  "chain": "MANTRACHAIN",
+  "rpc": ["https://evm.mantrachain.io", "wss://evm.mantrachain.io/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OM",
+    "symbol": "OM",
+    "decimals": 18
+  },
+  "infoURL": "https://mantrachain.io",
+  "shortName": "mantrachain",
+  "chainId": 5888,
+  "networkId": 5888,
+  "slip44": 1,
+  "icon": "om",
+  "explorers": [
+    {
+      "name": "MANTRACHAIN Explorer",
+      "url": "http://mantrascan.io",
+      "standard": "none",
+      "icon": "om"
+    }
+  ]
+}

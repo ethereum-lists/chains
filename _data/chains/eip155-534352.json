@@ -4,9 +4,10 @@
   "status": "active",
   "rpc": [
     "https://rpc.scroll.io",
-    "https://rpc-scroll.icecreamswap.com",
     "https://rpc.ankr.com/scroll",
-    "https://scroll-mainnet.chainstacklabs.com"
+    "https://scroll-mainnet.chainstacklabs.com",
+    "https://scroll-rpc.publicnode.com",
+    "wss://scroll-rpc.publicnode.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,11 +23,6 @@
     {
       "name": "Scrollscan",
       "url": "https://scrollscan.com",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "Blockscout",
-      "url": "https://blockscout.scroll.io",
       "standard": "EIP3091"
     }
   ],

@@ -1,0 +1,23 @@
+{
+  "name": "Tuxappcoin",
+  "chain": "NEAR",
+  "rpc": ["https://rpc-0x4e454165.aurora-cloud.dev"],
+  "icon": "tuxa",
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TUXA",
+    "symbol": "TUXA",
+    "decimals": 18
+  },
+  "infoURL": "https://x.com/tuxapp_coin",
+  "shortName": "tuxa",
+  "chainId": 1313161573,
+  "networkId": 1313161573,
+  "explorers": [
+    {
+      "name": "TUXA explorer",
+      "url": "https://explorer.tuxa.aurora.dev",
+      "standard": "EIP3091"
+    }
+  ]
+}

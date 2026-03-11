@@ -1,7 +1,7 @@
 {
-  "name": "Omni Testnet",
+  "name": "Omni Testnet (Deprecated)",
   "chain": "Omni",
-  "rpc": ["https://testnet.omni.network"],
+  "rpc": [],
   "features": [{ "name": "EIP155" }],
   "faucets": [],
   "nativeCurrency": {
@@ -10,15 +10,10 @@
     "decimals": 18
   },
   "infoURL": "https://docs.omni.network/",
-  "shortName": "omni_testnet",
+  "shortName": "omni_testnet_deprecated",
   "chainId": 165,
   "networkId": 165,
   "slip44": 1,
-  "explorers": [
-    {
-      "name": "Omni Explorer",
-      "url": "https://testnet.explorer.omni.network",
-      "standard": "EIP3091"
-    }
-  ]
+  "explorers": [],
+  "status": "deprecated"
 }

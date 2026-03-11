@@ -1,0 +1,26 @@
+{
+  "name": "SKALE Base Sepolia",
+  "chain": "skale-base-sepolia",
+  "icon": "skale",
+  "rpc": [
+    "https://base-sepolia-testnet.skalenodes.com/v1/jubilant-horrible-ancha",
+    "wss://base-sepolia-testnet.skalenodes.com/v1/ws/jubilant-horrible-ancha"
+  ],
+  "faucets": ["http://base-sepolia-faucet.skale.space"],
+  "nativeCurrency": {
+    "name": "Credits",
+    "symbol": "CREDIT",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.skale.space/welcome/skale-on-base",
+  "shortName": "skale-base-sepolia",
+  "chainId": 324705682,
+  "networkId": 324705682,
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://base-sepolia-testnet-explorer.skalenodes.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

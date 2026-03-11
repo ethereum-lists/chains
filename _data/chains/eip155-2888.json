@@ -1,6 +1,7 @@
 {
   "name": "Boba Network Goerli Testnet",
   "chain": "ETH",
+  "status": "deprecated",
   "rpc": ["https://goerli.boba.network/", "wss://wss.goerli.boba.network/"],
   "faucets": [],
   "nativeCurrency": {

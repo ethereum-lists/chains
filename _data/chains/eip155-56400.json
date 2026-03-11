@@ -1,0 +1,23 @@
+{
+  "name": "Testnet Zeroone Subnet",
+  "chain": "TESTNETZER",
+  "rpc": ["https://subnets.avax.network/testnetzer/testnet/rpc"],
+  "features": [{ "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ZERO",
+    "symbol": "ZERO",
+    "decimals": 18
+  },
+  "infoURL": "https://zeroone.art/",
+  "shortName": "testnetzer",
+  "chainId": 56400,
+  "networkId": 56400,
+  "explorers": [
+    {
+      "name": "TESTNETZER Explorer",
+      "url": "https://subnets-test.avax.network/testnetzer",
+      "standard": "EIP3091"
+    }
+  ]
+}

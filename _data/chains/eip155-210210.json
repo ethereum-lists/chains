@@ -1,0 +1,26 @@
+{
+  "name": "Sorian Testnet",
+  "chain": "tSOR",
+  "rpc": ["https://testnet-rpc.sorian.io", "https://testnet.rpc.sorian.io"],
+  "faucets": [],
+  "icon": "sorianTestnet",
+  "nativeCurrency": {
+    "name": "Sorian Testnet",
+    "symbol": "tSOR",
+    "decimals": 18
+  },
+
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://mint.sorian.io",
+  "shortName": "sorianTestnet",
+  "chainId": 210210,
+  "networkId": 210210,
+  "explorers": []
+}
