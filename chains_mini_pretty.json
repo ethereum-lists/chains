@@ -26766,6 +26766,19 @@
   "faucets": ["https://faucet.egonscan.com"],
   "infoURL": "https://egonscan.com"
 }, {
+  "name": "Datachain Rope",
+  "chainId": 271828,
+  "shortName": "datachain",
+  "networkId": 271828,
+  "nativeCurrency": {
+    "name": "DC FAT",
+    "symbol": "FAT",
+    "decimals": 18
+  },
+  "rpc": ["https://erpc.datachain.network", "wss://ws.datachain.network", "https://erpc.rope.network", "wss://ws.rope.network"],
+  "faucets": ["https://faucet.datachain.network"],
+  "infoURL": "https://datachain.network"
+}, {
   "name": "Nxy Area 51",
   "chainId": 272247,
   "shortName": "nxytest",
