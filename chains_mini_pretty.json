@@ -15820,6 +15820,32 @@
   "faucets": ["https://faucet.blocktonscan.com/"],
   "infoURL": "https://blocktoncoin.com"
 }, {
+  "name": "StableNet Mainnet",
+  "chainId": 8282,
+  "shortName": "stablenet",
+  "networkId": 8282,
+  "nativeCurrency": {
+    "name": "WKRC",
+    "symbol": "WKRC",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://stablenet.network"
+}, {
+  "name": "StableNet Testnet",
+  "chainId": 8283,
+  "shortName": "stablenet-testnet",
+  "networkId": 8283,
+  "nativeCurrency": {
+    "name": "WKRC",
+    "symbol": "WKRC",
+    "decimals": 18
+  },
+  "rpc": ["https://api.test.stablenet.network", "wss://ws.test.stablenet.network"],
+  "faucets": ["https://faucet.stablenet.network"],
+  "infoURL": "https://stablenet.network"
+}, {
   "name": "KorthoTest",
   "chainId": 8285,
   "shortName": "Kortho",
