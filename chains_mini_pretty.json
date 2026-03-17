@@ -10061,6 +10061,19 @@
   "faucets": [],
   "infoURL": "https://movo.uk"
 }, {
+  "name": "MFX Network",
+  "chainId": 2064,
+  "shortName": "mfx",
+  "networkId": 2064,
+  "nativeCurrency": {
+    "name": "MFX",
+    "symbol": "MFX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mfx.network/rpc"],
+  "faucets": [],
+  "infoURL": "https://docs.mfx.network/integration.html"
+}, {
   "name": "Metacces Mainnet",
   "chainId": 2071,
   "shortName": "ACCES",
