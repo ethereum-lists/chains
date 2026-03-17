@@ -7981,6 +7981,19 @@
   "faucets": ["https://faucet.elysiumchain.tech"],
   "infoURL": "https://elysiumchain.tech/"
 }, {
+  "name": "BIE",
+  "chainId": 1342,
+  "shortName": "bie",
+  "networkId": 1342,
+  "nativeCurrency": {
+    "name": "BIE",
+    "symbol": "BIE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.bie.ai", "https://api.bie.ai"],
+  "faucets": ["https://app.bie.ai/faucet"],
+  "infoURL": "https://bie.ai"
+}, {
   "name": "Blitz Subnet",
   "chainId": 1343,
   "shortName": "blitz",
