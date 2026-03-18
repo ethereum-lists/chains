@@ -1,7 +1,7 @@
 {
   "name": "Pylun Testnet",
-  "title": "Pylun Testnet - EVM Compatible Layer 1 Blockchain",
   "chain": "PYLUN",
+  "icon": "pylun",
   "rpc": [
     "https://rpc.pylun.network",
     "wss://ws.pylun.network"
@@ -12,13 +12,13 @@
   "nativeCurrency": {
     "name": "PYLUN",
     "symbol": "PYLUN",
-    "decimals": 6
+    "decimals": 18
   },
   "infoURL": "https://pylun.network",
-  "shortName": "pylun-testnet",
+  "shortName": "pylun",
   "chainId": 82716,
   "networkId": 82716,
-  "slip44": 1,
+  "slip44": 60,
   "explorers": [
     {
       "name": "PylunScan",
