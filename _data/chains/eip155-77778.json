@@ -1,7 +1,9 @@
 {
   "name": "StreetDog Chain",
   "chain": "SDC",
-  "rpc": ["https://rpc.chain.streetdog.me"],
+  "rpc": [
+    "https://rpc.chain.streetdog.me"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "StreetDog",
@@ -10,6 +12,7 @@
   },
   "infoURL": "https://chain.streetdog.me",
   "shortName": "sdc",
+  "icon": "streetdog",
   "chainId": 77778,
   "networkId": 77778,
   "explorers": [
