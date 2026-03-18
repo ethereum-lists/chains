@@ -13506,17 +13506,17 @@
   "faucets": ["https://citrea.xyz/faucet"],
   "infoURL": "https://citrea.xyz"
 }, {
-  "name": "Seismic devnet",
+  "name": "Seismic Testnet",
   "chainId": 5124,
-  "shortName": "seismic-devnet",
+  "shortName": "seismic-testnet",
   "networkId": 5124,
   "nativeCurrency": {
     "name": "Seismic Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://node-2.seismicdev.net/rpc"],
-  "faucets": ["https://faucet-2.seismicdev.net/"],
+  "rpc": ["https://gcp-1.seismictest.net/rpc", "https://gcp-2.seismictest.net/rpc", "wss://gcp-1.seismictest.net/ws", "wss://gcp-2.seismictest.net/ws"],
+  "faucets": ["https://faucet.seismictest.net"],
   "infoURL": "https://seismic.systems"
 }, {
   "name": "Moca Chain Testnet",
