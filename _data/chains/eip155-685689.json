@@ -1,9 +1,7 @@
 {
   "name": "Gensyn Mainnet",
   "chain": "Gensyn",
-  "rpc": [
-    "https://gensyn-mainnet.g.alchemy.com/public"
-  ],
+  "rpc": ["https://gensyn-mainnet.g.alchemy.com/public"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
