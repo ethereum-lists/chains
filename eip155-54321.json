@@ -1,0 +1,29 @@
+{
+  "name": "SportsChain",
+  "chain": "SPORTS",
+  "icon": "sportschain",
+  "rpc": [
+    "https://rpc.sportschain.io",
+    "https://rpc.testnet.sportschain.io",
+    "http://localhost:8545"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sports Ether",
+    "symbol": "SPT",
+    "decimals": 18
+  },
+  "infoURL": "https://sportschain.io",
+  "shortName": "sports",
+  "chainId": 54321,
+  "networkId": 54321,
+  "slip44": 60,
+  "ens": {},
+  "explorers": [
+    {
+      "name": "SportsChain Explorer",
+      "url": "https://scan.sportschain.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
