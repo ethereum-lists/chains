@@ -19967,6 +19967,32 @@
   "faucets": [],
   "infoURL": "https://ferrum.network"
 }, {
+  "name": "Integra",
+  "chainId": 26217,
+  "shortName": "integra",
+  "networkId": 26217,
+  "nativeCurrency": {
+    "name": "Integra",
+    "symbol": "IRL",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.integralayer.com"],
+  "faucets": [],
+  "infoURL": "https://integralayer.com"
+}, {
+  "name": "Integra Testnet Ormos",
+  "chainId": 26218,
+  "shortName": "integra-testnet",
+  "networkId": 26218,
+  "nativeCurrency": {
+    "name": "Integra",
+    "symbol": "IRL",
+    "decimals": 18
+  },
+  "rpc": ["https://ormos.integralayer.com/rpc"],
+  "faucets": [],
+  "infoURL": "https://integralayer.com"
+}, {
   "name": "DucatusX Testnet",
   "chainId": 26482,
   "shortName": "ducatusx-testnet",

@@ -32877,6 +32877,59 @@
     "standard": "none"
   }]
 }, {
+  "name": "Integra",
+  "chain": "Integra",
+  "rpc": ["https://evm.integralayer.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Integra",
+    "symbol": "IRL",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://integralayer.com",
+  "shortName": "integra",
+  "chainId": 26217,
+  "networkId": 26217,
+  "explorers": [{
+    "name": "Integra Explorer",
+    "url": "https://scan.integralayer.com",
+    "standard": "EIP3091"
+  }, {
+    "name": "Integra Blockscout",
+    "url": "https://blockscout.integralayer.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Integra Testnet Ormos",
+  "chain": "Integra",
+  "rpc": ["https://ormos.integralayer.com/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Integra",
+    "symbol": "IRL",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://integralayer.com",
+  "shortName": "integra-testnet",
+  "chainId": 26218,
+  "networkId": 26218,
+  "slip44": 1,
+  "explorers": [{
+    "name": "Integra Testnet Blockscout",
+    "url": "https://testnet.blockscout.integralayer.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "DucatusX Testnet",
   "chain": "DUCX",
   "rpc": ["https://ducx-testnet-node1.rocknblock.io", "https://ducx-testnet-node2.rocknblock.io"],
