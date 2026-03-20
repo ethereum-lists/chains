@@ -1,0 +1,26 @@
+{
+  "name": "TBURN Mainnet",
+  "chain": "TBURN",
+  "icon": "tburn",
+  "rpc": [
+    "https://tburn.io/rpc"
+  ],
+  "features": [{ "name": "EIP155" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TBURN",
+    "symbol": "TBURN",
+    "decimals": 18
+  },
+  "infoURL": "https://tburn.io",
+  "shortName": "tburn",
+  "chainId": 5800,
+  "networkId": 5800,
+  "explorers": [
+    {
+      "name": "TBURNScan",
+      "url": "https://tburn.io/scan",
+      "standard": "none"
+    }
+  ]
+}
