@@ -3,7 +3,7 @@
   "chain": "TBURN",
   "icon": "tburn",
   "rpc": [
-    "https://tburn.io/rpc"
+    "https://rpc.tburn.io"
   ],
   "features": [{ "name": "EIP155" }],
   "faucets": [],
@@ -19,7 +19,7 @@
   "explorers": [
     {
       "name": "TBURNScan",
-      "url": "https://tburn.io/scan",
+      "url": "https://scan.tburn.io",
       "standard": "none"
     }
   ]
