@@ -25921,6 +25921,19 @@
   "faucets": [],
   "infoURL": "https://litprotocol.com"
 }, {
+  "name": "mfenx",
+  "chainId": 177155,
+  "shortName": "mfenx",
+  "networkId": 177155,
+  "nativeCurrency": {
+    "name": "JULIAN",
+    "symbol": "JULIAN",
+    "decimals": 18
+  },
+  "rpc": ["https://indexer.mfenx.com/rpc"],
+  "faucets": [],
+  "infoURL": "https://mfenx.com/power-house"
+}, {
   "name": "Transparency Solution",
   "chainId": 179170,
   "shortName": "clts",
