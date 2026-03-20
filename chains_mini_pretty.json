@@ -31576,6 +31576,19 @@
   "faucets": [],
   "infoURL": "https://tron.network"
 }, {
+  "name": "Tau Testnet",
+  "chainId": 737998412,
+  "shortName": "tau-testnet",
+  "networkId": 737998412,
+  "nativeCurrency": {
+    "name": "TAU",
+    "symbol": "TAU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.tau.gateway.fm"],
+  "faucets": ["https://faucet.tau.gateway.fm"],
+  "infoURL": "https://presto.gateway.fm/rollups/8bd8406f-a64f-484f-b299-046dd5f24a0f"
+}, {
   "name": "Ancient8",
   "chainId": 888888888,
   "shortName": "ancient8",
