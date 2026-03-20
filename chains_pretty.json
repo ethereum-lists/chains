@@ -52426,9 +52426,60 @@
     "standard": "none"
   }]
 }, {
-  "name": "Asset Hub",
+  "name": "Polkadot Testnet",
+  "chain": "PAS",
+  "icon": "polkadot-testnet",
+  "rpc": ["https://services.polkadothub-rpc.com/testnet", "wss://services.polkadothub-rpc.com/testnet", "https://eth-rpc-testnet.polkadot.io", "wss://eth-rpc-testnet.polkadot.io"],
+  "faucets": ["https://faucet.polkadot.io/"],
+  "nativeCurrency": {
+    "name": "PAS",
+    "symbol": "PAS",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://polkadot.com",
+  "shortName": "pas",
+  "chainId": 420420417,
+  "networkId": 420420417,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout-testnet.polkadot.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Kusama",
+  "chain": "KSM",
+  "icon": "kusama",
+  "rpc": ["https://eth-rpc-kusama.polkadot.io", "wss://eth-rpc-kusama.polkadot.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "KSM",
+    "symbol": "KSM",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://polkadot.com",
+  "shortName": "ksm",
+  "chainId": 420420418,
+  "networkId": 420420418,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout-kusama.polkadot.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Polkadot",
   "chain": "DOT",
-  "rpc": ["https://asset-hub-eth-rpc.polkadot.io"],
+  "icon": "polkadot",
+  "rpc": ["https://services.polkadothub-rpc.com/mainnet", "wss://services.polkadothub-rpc.com/mainnet", "https://eth-rpc.polkadot.io", "wss://eth-rpc.polkadot.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "DOT",
@@ -52440,11 +52491,15 @@
   }, {
     "name": "EIP1559"
   }],
-  "infoURL": "https://polkadot.network",
-  "shortName": "AH",
+  "infoURL": "https://polkadot.com",
+  "shortName": "dot",
   "chainId": 420420419,
   "networkId": 420420419,
-  "explorers": []
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout.polkadot.io",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Westend Asset Hub",
   "chain": "WST",
@@ -52467,14 +52522,15 @@
   "explorers": [{
     "name": "subscan",
     "icon": "subscan",
-    "url": "https://westend-asset-hub-eth-explorer.parity.io",
-    "standard": "EIP3091"
+    "url": "https://assethub-westend.subscan.io",
+    "standard": "none"
   }]
 }, {
   "name": "Paseo PassetHub",
+  "status": "deprecated",
   "chain": "PAS",
-  "rpc": ["https://testnet-passet-hub-eth-rpc.polkadot.io"],
-  "faucets": ["https://faucet.polkadot.io/?parachain=1111"],
+  "rpc": [],
+  "faucets": [],
   "nativeCurrency": {
     "name": "PAS",
     "symbol": "PAS",
@@ -52486,7 +52542,7 @@
     "name": "EIP1559"
   }],
   "infoURL": "https://polkadot.network",
-  "shortName": "pas",
+  "shortName": "pash",
   "chainId": 420420422,
   "networkId": 420420422
 }, {

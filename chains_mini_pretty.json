@@ -31407,18 +31407,44 @@
   "faucets": [],
   "infoURL": "https://gather.network"
 }, {
-  "name": "Asset Hub",
+  "name": "Polkadot Testnet",
+  "chainId": 420420417,
+  "shortName": "pas",
+  "networkId": 420420417,
+  "nativeCurrency": {
+    "name": "PAS",
+    "symbol": "PAS",
+    "decimals": 18
+  },
+  "rpc": ["https://services.polkadothub-rpc.com/testnet", "wss://services.polkadothub-rpc.com/testnet", "https://eth-rpc-testnet.polkadot.io", "wss://eth-rpc-testnet.polkadot.io"],
+  "faucets": ["https://faucet.polkadot.io/"],
+  "infoURL": "https://polkadot.com"
+}, {
+  "name": "Kusama",
+  "chainId": 420420418,
+  "shortName": "ksm",
+  "networkId": 420420418,
+  "nativeCurrency": {
+    "name": "KSM",
+    "symbol": "KSM",
+    "decimals": 18
+  },
+  "rpc": ["https://eth-rpc-kusama.polkadot.io", "wss://eth-rpc-kusama.polkadot.io"],
+  "faucets": [],
+  "infoURL": "https://polkadot.com"
+}, {
+  "name": "Polkadot",
   "chainId": 420420419,
-  "shortName": "AH",
+  "shortName": "dot",
   "networkId": 420420419,
   "nativeCurrency": {
     "name": "DOT",
     "symbol": "DOT",
     "decimals": 18
   },
-  "rpc": ["https://asset-hub-eth-rpc.polkadot.io"],
+  "rpc": ["https://services.polkadothub-rpc.com/mainnet", "wss://services.polkadothub-rpc.com/mainnet", "https://eth-rpc.polkadot.io", "wss://eth-rpc.polkadot.io"],
   "faucets": [],
-  "infoURL": "https://polkadot.network"
+  "infoURL": "https://polkadot.com"
 }, {
   "name": "Westend Asset Hub",
   "chainId": 420420421,
@@ -31435,15 +31461,15 @@
 }, {
   "name": "Paseo PassetHub",
   "chainId": 420420422,
-  "shortName": "pas",
+  "shortName": "pash",
   "networkId": 420420422,
   "nativeCurrency": {
     "name": "PAS",
     "symbol": "PAS",
     "decimals": 18
   },
-  "rpc": ["https://testnet-passet-hub-eth-rpc.polkadot.io"],
-  "faucets": ["https://faucet.polkadot.io/?parachain=1111"],
+  "rpc": [],
+  "faucets": [],
   "infoURL": "https://polkadot.network"
 }, {
   "name": "Deprecated SKALE Europa Hub Testnet",
