@@ -46714,7 +46714,7 @@
 }, {
   "name": "Gensyn Mainnet",
   "chain": "Gensyn",
-  "rpc": [],
+  "rpc": ["https://gensyn-mainnet.g.alchemy.com/public"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -46725,7 +46725,7 @@
   "shortName": "gensyn-mainnet",
   "chainId": 685689,
   "networkId": 685689,
-  "status": "incubating"
+  "status": "active"
 }, {
   "name": "Won Network",
   "chainId": 686868,
