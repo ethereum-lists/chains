@@ -1,0 +1,17 @@
+{
+  "name": "mfenx",
+  "chain": "MFENX",
+  "rpc": ["https://indexer.mfenx.com/rpc"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "JULIAN",
+    "symbol": "JULIAN",
+    "decimals": 18
+  },
+  "infoURL": "https://mfenx.com/power-house",
+  "shortName": "mfenx",
+  "chainId": 177155,
+  "networkId": 177155,
+  "status": "active"
+}
