@@ -30224,6 +30224,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "ONFA Chain Mainnet",
+  "chainId": 12082025,
+  "shortName": "onfachain",
+  "networkId": 12082025,
+  "nativeCurrency": {
+    "name": "ONFA Coin",
+    "symbol": "OFC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.onfachain.com", "https://rpc.onfachain.net", "wss://ws.onfachain.com", "wss://ws.onfachain.net"],
+  "faucets": [],
+  "infoURL": "https://onfachain.com"
+}, {
   "name": "NeoX Testnet T3",
   "chainId": 12227331,
   "shortName": "neox",
