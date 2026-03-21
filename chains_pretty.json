@@ -2813,7 +2813,7 @@
   "name": "Polygon Mainnet",
   "chain": "Polygon",
   "icon": "polygon",
-  "rpc": ["https://polygon-rpc.com/", "https://rpc-mainnet.matic.network", "https://matic-mainnet.chainstacklabs.com", "https://rpc-mainnet.maticvigil.com", "https://rpc-mainnet.matic.quiknode.pro", "https://matic-mainnet-full-rpc.bwarelabs.com", "https://polygon-bor-rpc.publicnode.com", "wss://polygon-bor-rpc.publicnode.com", "https://polygon.gateway.tenderly.co", "wss://polygon.gateway.tenderly.co", "https://polygon.drpc.org", "wss://polygon.drpc.org"],
+  "rpc": ["https://polygon.drpc.org", "wss://polygon.drpc.org", "https://rpc-mainnet.matic.quiknode.pro", "https://polygon-bor-rpc.publicnode.com", "wss://polygon-bor-rpc.publicnode.com", "https://polygon.gateway.tenderly.co", "wss://polygon.gateway.tenderly.co"],
   "faucets": [],
   "nativeCurrency": {
     "name": "POL",
@@ -2830,9 +2830,8 @@
     "url": "https://polygonscan.com",
     "standard": "EIP3091"
   }, {
-    "name": "dexguru",
-    "url": "https://polygon.dex.guru",
-    "icon": "dexguru",
+    "name": "oklink",
+    "url": "https://www.oklink.com/polygon",
     "standard": "EIP3091"
   }]
 }, {
@@ -39197,7 +39196,7 @@
   "title": "Polygon Amoy Testnet",
   "chain": "Polygon",
   "icon": "polygon",
-  "rpc": ["https://rpc-amoy.polygon.technology", "https://polygon-amoy-bor-rpc.publicnode.com", "wss://polygon-amoy-bor-rpc.publicnode.com"],
+  "rpc": ["https://rpc-amoy.polygon.technology", "https://polygon-amoy-bor-rpc.publicnode.com", "wss://polygon-amoy-bor-rpc.publicnode.com", "https://polygon-amoy.drpc.org"],
   "faucets": ["https://faucet.polygon.technology/"],
   "nativeCurrency": {
     "name": "POL",
@@ -39212,10 +39211,6 @@
   "explorers": [{
     "name": "polygonscan-amoy",
     "url": "https://amoy.polygonscan.com",
-    "standard": "EIP3091"
-  }, {
-    "name": "polygonamoy",
-    "url": "https://www.oklink.com/amoy",
     "standard": "EIP3091"
   }]
 }, {
