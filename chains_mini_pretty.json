@@ -12338,16 +12338,16 @@
 }, {
   "name": "DOS Testnet",
   "chainId": 3939,
-  "shortName": "dost",
+  "shortName": "dos-test",
   "networkId": 3939,
   "nativeCurrency": {
     "name": "DOS",
     "symbol": "DOS",
     "decimals": 18
   },
-  "rpc": ["https://test.doschain.com/"],
+  "rpc": ["https://test.doschain.com"],
   "faucets": [],
-  "infoURL": "http://doschain.io/"
+  "infoURL": "https://doschain.com"
 }, {
   "name": "DYNO Mainnet",
   "chainId": 3966,
@@ -15428,7 +15428,7 @@
   },
   "rpc": ["https://main.doschain.com"],
   "faucets": [],
-  "infoURL": "https://doschain.io"
+  "infoURL": "https://doschain.com"
 }, {
   "name": "Teleport",
   "chainId": 8000,
