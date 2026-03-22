@@ -24127,6 +24127,19 @@
   "faucets": [],
   "infoURL": "https://www.cyclenetwork.io/"
 }, {
+  "name": "PropTech Mainnet",
+  "chainId": 88788,
+  "shortName": "ptek",
+  "networkId": 88788,
+  "nativeCurrency": {
+    "name": "PropTech Token",
+    "symbol": "PTEK",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.ptekcoin.com"],
+  "faucets": [],
+  "infoURL": "https://ptek.ai"
+}, {
   "name": "ZKasino Mainnet",
   "chainId": 88800,
   "shortName": "ZKasino",
