@@ -20994,6 +20994,32 @@
   "faucets": ["https://robin-faucet.rangersprotocol.com"],
   "infoURL": "https://rangersprotocol.com"
 }, {
+  "name": "Igra Network",
+  "chainId": 38833,
+  "shortName": "igra",
+  "networkId": 38833,
+  "nativeCurrency": {
+    "name": "iKAS",
+    "symbol": "iKAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.igralabs.com:8545"],
+  "faucets": [],
+  "infoURL": "https://igralabs.com"
+}, {
+  "name": "Igra Testnet",
+  "chainId": 38836,
+  "shortName": "igra-galleon-testnet",
+  "networkId": 38836,
+  "nativeCurrency": {
+    "name": "iKAS",
+    "symbol": "iKAS",
+    "decimals": 18
+  },
+  "rpc": ["https://galleon-testnet.igralabs.com:8545"],
+  "faucets": [],
+  "infoURL": "https://igralabs.com"
+}, {
   "name": "PRM Mainnet",
   "chainId": 39656,
   "shortName": "prm",

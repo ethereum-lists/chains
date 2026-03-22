@@ -34646,6 +34646,56 @@
     "standard": "none"
   }]
 }, {
+  "name": "Igra Network",
+  "chain": "IGRA",
+  "icon": "igra",
+  "rpc": ["https://rpc.igralabs.com:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "iKAS",
+    "symbol": "iKAS",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://igralabs.com",
+  "shortName": "igra",
+  "chainId": 38833,
+  "networkId": 38833,
+  "explorers": [{
+    "name": "Igra Explorer",
+    "url": "https://explorer.igralabs.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Igra Testnet",
+  "chain": "IGRA",
+  "icon": "igra",
+  "rpc": ["https://galleon-testnet.igralabs.com:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "iKAS",
+    "symbol": "iKAS",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://igralabs.com",
+  "shortName": "igra-galleon-testnet",
+  "chainId": 38836,
+  "networkId": 38836,
+  "explorers": [{
+    "name": "Igra Galleon Testnet Explorer",
+    "url": "https://explorer.galleon-testnet.igralabs.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "PRM Mainnet",
   "chain": "prm",
   "icon": "prmIcon",
