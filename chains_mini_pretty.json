@@ -25661,6 +25661,19 @@
   "faucets": [],
   "infoURL": "https://www.dioneprotocol.com"
 }, {
+  "name": "Orqus Testnet",
+  "chainId": 153871,
+  "shortName": "orqus-testnet",
+  "networkId": 153871,
+  "nativeCurrency": {
+    "name": "No native currency",
+    "symbol": "USD",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-test.orqus.io"],
+  "faucets": [],
+  "infoURL": "https://orqus.io"
+}, {
   "name": "CryptoX",
   "chainId": 158245,
   "shortName": "cryptox",
