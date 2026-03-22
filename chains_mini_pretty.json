@@ -24777,6 +24777,32 @@
   "faucets": ["https://faucet.eliberty.ngo"],
   "infoURL": "https://eliberty.ngo"
 }, {
+  "name": "Dorsen Chain",
+  "chainId": 99110,
+  "shortName": "dorsen-test",
+  "networkId": 99110,
+  "nativeCurrency": {
+    "name": "Dorsen Chain",
+    "symbol": "DC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.dorsenscan.io"],
+  "faucets": [],
+  "infoURL": "https://docs.dorsenscan.io"
+}, {
+  "name": "Dorsen Testnet",
+  "chainId": 99119,
+  "shortName": "dorsen-main",
+  "networkId": 99119,
+  "nativeCurrency": {
+    "name": "Dorsen Chain",
+    "symbol": "tDC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.dorsenscan.io"],
+  "faucets": ["https://faucet.dorsenscan.io"],
+  "infoURL": "https://docs.dorsenscan.io"
+}, {
   "name": "Edge Matrix Chain Testnet",
   "chainId": 99876,
   "shortName": "EMCTestnet",

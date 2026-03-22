@@ -41169,6 +41169,48 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Dorsen Chain",
+  "chain": "Dorsen",
+  "rpc": ["https://mainnet-rpc.dorsenscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dorsen Chain",
+    "symbol": "DC",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.dorsenscan.io",
+  "icon": "dorsen",
+  "shortName": "dorsen-test",
+  "chainId": 99110,
+  "networkId": 99110,
+  "explorers": [{
+    "name": "DorsenScan Mainnet",
+    "url": "https://dorsenscan.io",
+    "standard": "EIP3091"
+  }],
+  "status": "active"
+}, {
+  "name": "Dorsen Testnet",
+  "chain": "Dorsen",
+  "rpc": ["https://testnet-rpc.dorsenscan.io"],
+  "faucets": ["https://faucet.dorsenscan.io"],
+  "nativeCurrency": {
+    "name": "Dorsen Chain",
+    "symbol": "tDC",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.dorsenscan.io",
+  "shortName": "dorsen-main",
+  "icon": "dorsen",
+  "chainId": 99119,
+  "networkId": 99119,
+  "explorers": [{
+    "name": "DorsenScan Testnet",
+    "url": "https://testnet.dorsenscan.io",
+    "standard": "EIP3091"
+  }],
+  "status": "active"
+}, {
   "name": "Edge Matrix Chain Testnet",
   "chain": "EMC Testnet",
   "icon": "emctest",
