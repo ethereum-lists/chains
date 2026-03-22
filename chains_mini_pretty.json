@@ -5927,6 +5927,19 @@
   "faucets": [],
   "infoURL": "https://www.wanscan.org"
 }, {
+  "name": "Capital Exchange",
+  "chainId": 890,
+  "shortName": "CXM",
+  "networkId": 890,
+  "nativeCurrency": {
+    "name": "Capital Exchange",
+    "symbol": "CXM",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.capitalexchange.net", "https://rpc.capitalexchangecrypto.com"],
+  "faucets": [],
+  "infoURL": "https://www.capitalexchange.markets"
+}, {
   "name": "MAXI Chain Testnet",
   "chainId": 898,
   "shortName": "maxi-testnet",
