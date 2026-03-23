@@ -1,7 +1,6 @@
 {
   "name": "MegaETH Testnet (Deprecated)",
   "chain": "ETH",
-  
   "nativeCurrency": {
     "name": "MegaETH Testnet Ether",
     "symbol": "ETH",
@@ -10,7 +9,7 @@
   "rpc": [],
   "faucets": [],
   "infoURL": "https://testnet.megaeth.com",
-  "shortName": "megatest",
+  "shortName": "megatest-deprecated",
   "chainId": 6342,
   "networkId": 6342,
   "slip44": 1,
