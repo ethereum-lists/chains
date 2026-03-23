@@ -5303,6 +5303,19 @@
   "faucets": [],
   "infoURL": "https://vrccoin.com"
 }, {
+  "name": "Eden",
+  "chainId": 714,
+  "shortName": "eden",
+  "networkId": 714,
+  "nativeCurrency": {
+    "name": "TIA",
+    "symbol": "TIA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.eden.gateway.fm"],
+  "faucets": [],
+  "infoURL": "https://celestia.org"
+}, {
   "name": "UXLINK ONE Mainnet",
   "chainId": 718,
   "shortName": "uxlink1",
