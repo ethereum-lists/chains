@@ -30445,6 +30445,19 @@
   "faucets": [],
   "infoURL": "https://lambda.im"
 }, {
+  "name": "SATUCHAIN Testnet",
+  "chainId": 17081945,
+  "shortName": "satutestnet",
+  "networkId": 17081945,
+  "nativeCurrency": {
+    "name": "Satu Testnet",
+    "symbol": "tSTU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.satuchain.com", "wss://rpc-testnet.satuchain.com/ws"],
+  "faucets": ["https://faucet.satuchain.com"],
+  "infoURL": "https://satuchain.com"
+}, {
   "name": "Mande Network Mainnet",
   "chainId": 18071918,
   "shortName": "Mande",
