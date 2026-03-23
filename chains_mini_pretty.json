@@ -12739,6 +12739,19 @@
   "faucets": [],
   "infoURL": "https://crossfi.org"
 }, {
+  "name": "Algorand",
+  "chainId": 4160,
+  "shortName": "algo",
+  "networkId": 4160,
+  "nativeCurrency": {
+    "name": "Algo",
+    "symbol": "ALGO",
+    "decimals": 6
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://algorand.co"
+}, {
   "name": "SX Rollup",
   "chainId": 4162,
   "shortName": "SXR",

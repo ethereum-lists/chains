@@ -21032,6 +21032,23 @@
     "standard": "none"
   }]
 }, {
+  "name": "Algorand",
+  "chain": "ALGO",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Algo",
+    "symbol": "ALGO",
+    "decimals": 6
+  },
+  "infoURL": "https://algorand.co",
+  "shortName": "algo",
+  "chainId": 4160,
+  "networkId": 4160,
+  "slip44": 283,
+  "status": "active",
+  "explorers": []
+}, {
   "name": "SX Rollup",
   "chain": "SX",
   "icon": "SX",
