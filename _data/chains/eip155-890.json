@@ -1,11 +1,11 @@
 {
   "name": "Capital Exchange",
   "chain": "CXM",
-  "rpc": ["https://rpc.capitalexchange.net"],
-  "features": [
-    { "name": "EIP155" },
-    { "name": "EIP1559" }
+  "rpc": [
+    "https://rpc.capitalexchange.net",
+    "https://rpc.capitalexchangecrypto.com"
   ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
     "name": "Capital Exchange",
@@ -19,7 +19,7 @@
   "status": "active",
   "explorers": [
     {
-      "name": "Capital Exchange CXM",
+      "name": "Capital Exchange EVM",
       "url": "https://explorer.capitalexchange.net",
       "standard": "EIP3091"
     }
