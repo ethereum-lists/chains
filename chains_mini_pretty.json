@@ -31290,6 +31290,19 @@
   "faucets": [],
   "infoURL": "https://raas.gelato.network/rollups/details/public/reya-cronos"
 }, {
+  "name": "MST Testnet",
+  "chainId": 91562037,
+  "shortName": "mst-testnet",
+  "networkId": 91562037,
+  "nativeCurrency": {
+    "name": "MST Native Coin",
+    "symbol": "tMSTC",
+    "decimals": 18
+  },
+  "rpc": ["https://testnetrpc.mstblockchain.com", "wss://testnetrpc.mstblockchain.com"],
+  "faucets": ["https://faucet.mstblockchain.com"],
+  "infoURL": "https://mstblockchain.com"
+}, {
   "name": "Polygon Blackberry",
   "chainId": 94204209,
   "shortName": "polygon-blackberry",
