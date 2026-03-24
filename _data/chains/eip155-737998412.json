@@ -1,0 +1,30 @@
+{
+  "name": "Tau Testnet",
+  "chain": "Tau",
+  "rpc": ["https://rpc.tau.gateway.fm"],
+  "faucets": ["https://faucet.tau.gateway.fm"],
+  "nativeCurrency": {
+    "name": "TAU",
+    "symbol": "TAU",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://presto.gateway.fm/rollups/8bd8406f-a64f-484f-b299-046dd5f24a0f",
+  "shortName": "tau-testnet",
+  "chainId": 737998412,
+  "networkId": 737998412,
+  "icon": "tau",
+  "explorers": [
+    {
+      "name": "BlockScout",
+      "url": "https://explorer.tau.gateway.fm",
+      "icon": "tau",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "https://bridge.tau.gateway.fm" }]
+  }
+}
