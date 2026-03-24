@@ -5355,6 +5355,19 @@
   "faucets": [],
   "infoURL": "https://lycanchain.com"
 }, {
+  "name": "Bitasset Chain Mainnet",
+  "chainId": 723,
+  "shortName": "bac",
+  "networkId": 723,
+  "nativeCurrency": {
+    "name": "Bitasset Chain Native Token",
+    "symbol": "BAC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.bitassetchain.io"],
+  "faucets": [],
+  "infoURL": "https://bitassetchain.io"
+}, {
   "name": "Blucrates",
   "chainId": 727,
   "shortName": "blu",
@@ -23047,6 +23060,19 @@
   "rpc": ["https://rpc.creatorchain.io"],
   "faucets": [],
   "infoURL": "https://docs.creatorchain.io/"
+}, {
+  "name": "Bitasset Chain Testnet Ploutos",
+  "chainId": 66666,
+  "shortName": "bac-ploutos",
+  "networkId": 66666,
+  "nativeCurrency": {
+    "name": "Bitasset Chain Native Token",
+    "symbol": "BAC",
+    "decimals": 18
+  },
+  "rpc": ["https://ploutos-rpc.bitassetchain.io"],
+  "faucets": [],
+  "infoURL": "https://bitassetchain.io"
 }, {
   "name": "Janus Testnet",
   "chainId": 66988,

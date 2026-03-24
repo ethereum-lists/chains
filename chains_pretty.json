@@ -8944,6 +8944,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Bitasset Chain Mainnet",
+  "chain": "BAC",
+  "rpc": ["https://rpc.bitassetchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bitasset Chain Native Token",
+    "symbol": "BAC",
+    "decimals": 18
+  },
+  "infoURL": "https://bitassetchain.io",
+  "shortName": "bac",
+  "chainId": 723,
+  "networkId": 723,
+  "icon": "bac",
+  "explorers": [{
+    "name": "bacscan",
+    "url": "https://bacscan.net",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Blucrates",
   "chain": "BLU",
   "rpc": ["https://data.bluchain.pro"],
@@ -38333,6 +38353,26 @@
   "explorers": [{
     "name": "creatorchainscan",
     "url": "https://explorer.creatorchain.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Bitasset Chain Testnet Ploutos",
+  "chain": "BAC",
+  "rpc": ["https://ploutos-rpc.bitassetchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bitasset Chain Native Token",
+    "symbol": "BAC",
+    "decimals": 18
+  },
+  "infoURL": "https://bitassetchain.io",
+  "shortName": "bac-ploutos",
+  "chainId": 66666,
+  "networkId": 66666,
+  "icon": "bac",
+  "explorers": [{
+    "name": "bacscan-ploutos",
+    "url": "https://ploutos.bacscan.net",
     "standard": "EIP3091"
   }]
 }, {
