@@ -22320,6 +22320,32 @@
   "faucets": [],
   "infoURL": "https://superposition.so"
 }, {
+  "name": "DUST Testnet",
+  "chainId": 55377,
+  "shortName": "dust-testnet",
+  "networkId": 55377,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.dustproject.org", "wss://rpc.testnet.dustproject.org"],
+  "faucets": [],
+  "infoURL": "https://dustproject.org"
+}, {
+  "name": "DUST Mainnet",
+  "chainId": 55378,
+  "shortName": "dust-mainnet",
+  "networkId": 55378,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.dustproject.org", "wss://rpc.dustproject.org"],
+  "faucets": [],
+  "infoURL": "https://dustproject.org"
+}, {
   "name": "Photon Aurora Testnet",
   "chainId": 55551,
   "shortName": "pton",

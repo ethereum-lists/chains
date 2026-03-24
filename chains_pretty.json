@@ -37011,6 +37011,68 @@
     "bridges": []
   }
 }, {
+  "name": "DUST Testnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc.testnet.dustproject.org", "wss://rpc.testnet.dustproject.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://dustproject.org",
+  "shortName": "dust-testnet",
+  "chainId": 55377,
+  "networkId": 55377,
+  "icon": "dust",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.testnet.dustproject.org",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": []
+  }
+}, {
+  "name": "DUST Mainnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc.dustproject.org", "wss://rpc.dustproject.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://dustproject.org",
+  "shortName": "dust-mainnet",
+  "chainId": 55378,
+  "networkId": 55378,
+  "icon": "dust",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.dustproject.org",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  }
+}, {
   "name": "Photon Aurora Testnet",
   "chain": "Photon",
   "rpc": ["https://rpc-test2.photonchain.io"],
