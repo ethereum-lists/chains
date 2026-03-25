@@ -1,9 +1,7 @@
 {
   "name": "ProbeChain Mainnet",
   "chain": "PROBE",
-  "rpc": [
-    "https://proscan.pro/chain/rydberg-rpc"
-  ],
+  "rpc": ["https://proscan.pro/chain/rydberg-rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Probe",
