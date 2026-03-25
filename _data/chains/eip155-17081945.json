@@ -1,0 +1,28 @@
+{
+  "name": "SATUCHAIN Testnet",
+  "chain": "SATU",
+  "rpc": [
+    "https://rpc-testnet.satuchain.com",
+    "wss://rpc-testnet.satuchain.com/ws"
+  ],
+  "faucets": ["https://faucet.satuchain.com"],
+  "nativeCurrency": {
+    "name": "Satu Testnet",
+    "symbol": "tSTU",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://satuchain.com",
+  "shortName": "satutestnet",
+  "chainId": 17081945,
+  "networkId": 17081945,
+  "icon": "satuchain",
+  "explorers": [
+    {
+      "name": "SATUCHAIN Testnet Explorer",
+      "url": "https://testnet.satuchain.com",
+      "icon": "satuchain",
+      "standard": "EIP3091"
+    }
+  ]
+}
