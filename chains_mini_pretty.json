@@ -15508,6 +15508,19 @@
   "faucets": ["https://chain-docs.teleport.network/testnet/faucet.html"],
   "infoURL": "https://teleport.network"
 }, {
+  "name": "ProbeChain Mainnet",
+  "chainId": 8004,
+  "shortName": "probe",
+  "networkId": 8004,
+  "nativeCurrency": {
+    "name": "Probe",
+    "symbol": "PROBE",
+    "decimals": 18
+  },
+  "rpc": ["https://proscan.pro/chain/rydberg-rpc"],
+  "faucets": [],
+  "infoURL": "https://probechain.org"
+}, {
   "name": "Polynomial",
   "chainId": 8008,
   "shortName": "polynomial",
@@ -21874,7 +21887,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://testnet.zircuit.com"],
+  "rpc": [],
   "faucets": [],
   "infoURL": "https://www.zircuit.com/"
 }, {
