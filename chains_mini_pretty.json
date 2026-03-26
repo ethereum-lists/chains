@@ -30770,6 +30770,19 @@
   "faucets": [],
   "infoURL": "https://www.etposchain.com"
 }, {
+  "name": "Meta Assets Chain",
+  "chainId": 20260131,
+  "shortName": "ma",
+  "networkId": 20260131,
+  "nativeCurrency": {
+    "name": "MetaAssets",
+    "symbol": "MA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.ma-chain.xyz"],
+  "faucets": [],
+  "infoURL": "https://ma-chain.xyz"
+}, {
   "name": "Hokum Testnet",
   "chainId": 20482050,
   "shortName": "hokum-testnet",
