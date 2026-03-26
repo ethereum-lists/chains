@@ -2,15 +2,9 @@
   "name": "IKChain Testnet",
   "chain": "IKChain",
   "icon": "ikchain",
-  "rpc": [
-    "https://testnet-rpc.ikchain.net"
-  ],
-  "features": [
-    { "name": "EIP155" }
-  ],
-  "faucets": [
-    "https://testnet-explorer.ikchain.net"
-  ],
+  "rpc": ["https://testnet-rpc.ikchain.net"],
+  "features": [{ "name": "EIP155" }],
+  "faucets": ["https://testnet-explorer.ikchain.net"],
   "nativeCurrency": {
     "name": "IKCrypto",
     "symbol": "IKCr",
