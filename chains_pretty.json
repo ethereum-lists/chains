@@ -32970,6 +32970,35 @@
     "standard": "none"
   }]
 }, {
+  "name": "Fluent",
+  "chain": "FLUENT",
+  "icon": "fluent",
+  "rpc": ["https://rpc.fluent.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://www.fluent.xyz/",
+  "shortName": "fluent",
+  "chainId": 25363,
+  "networkId": 25363,
+  "explorers": [{
+    "name": "Fluent Explorer",
+    "url": "https://fluentscan.xyz",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
+}, {
   "name": "H2 Chain Testnet Lambda",
   "chain": "H2",
   "rpc": ["https://rpc.h-1.io"],

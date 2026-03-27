@@ -20006,6 +20006,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Fluent",
+  "chainId": 25363,
+  "shortName": "fluent",
+  "networkId": 25363,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.fluent.xyz"],
+  "faucets": [],
+  "infoURL": "https://www.fluent.xyz/"
+}, {
   "name": "H2 Chain Testnet Lambda",
   "chainId": 25821,
   "shortName": "h2-lambda",
