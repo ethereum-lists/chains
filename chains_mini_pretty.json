@@ -16821,6 +16821,19 @@
   "faucets": ["https://load.network/faucet"],
   "infoURL": "https://load.network"
 }, {
+  "name": "Colossus Sepolia Testnet",
+  "chainId": 9511,
+  "shortName": "colsep",
+  "networkId": 9511,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.colossus.credit"],
+  "faucets": [],
+  "infoURL": "https://www.colossus.credit/"
+}, {
   "name": "Rangers Protocol Testnet Robin",
   "chainId": 9527,
   "shortName": "trpg",
