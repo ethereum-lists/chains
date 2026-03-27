@@ -14650,6 +14650,32 @@
   "faucets": ["https://xylume-faucet.vercel.app/"],
   "infoURL": "https://debxylen.github.io/Xylume_TestNet"
 }, {
+  "name": "Monolythium Testnet",
+  "chainId": 6940,
+  "shortName": "lyth-testnet",
+  "networkId": 6940,
+  "nativeCurrency": {
+    "name": "Lythium",
+    "symbol": "LYTH",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.testnet.mononodes.xyz"],
+  "faucets": [],
+  "infoURL": "https://monolythium.com"
+}, {
+  "name": "Monolythium",
+  "chainId": 6941,
+  "shortName": "lyth",
+  "networkId": 6941,
+  "nativeCurrency": {
+    "name": "Lythium",
+    "symbol": "LYTH",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.mainnet.mononodes.xyz"],
+  "faucets": [],
+  "infoURL": "https://monolythium.com"
+}, {
   "name": "Laika Mainnet",
   "chainId": 6942,
   "shortName": "laika",

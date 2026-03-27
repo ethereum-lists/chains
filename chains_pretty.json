@@ -24271,6 +24271,54 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Monolythium Testnet",
+  "chain": "LYTH",
+  "rpc": ["https://evm.testnet.mononodes.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lythium",
+    "symbol": "LYTH",
+    "decimals": 18
+  },
+  "infoURL": "https://monolythium.com",
+  "shortName": "lyth-testnet",
+  "chainId": 6940,
+  "networkId": 6940,
+  "slip44": 1,
+  "icon": "monolythium",
+  "features": [{
+    "name": "EIP155"
+  }],
+  "explorers": [{
+    "name": "Monoscan",
+    "url": "https://testnet.monoscan.xyz",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Monolythium",
+  "chain": "LYTH",
+  "rpc": ["https://evm.mainnet.mononodes.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lythium",
+    "symbol": "LYTH",
+    "decimals": 18
+  },
+  "infoURL": "https://monolythium.com",
+  "shortName": "lyth",
+  "chainId": 6941,
+  "networkId": 6941,
+  "slip44": 60,
+  "icon": "monolythium",
+  "features": [{
+    "name": "EIP155"
+  }],
+  "explorers": [{
+    "name": "Monoscan",
+    "url": "https://monoscan.xyz",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Laika Mainnet",
   "chain": "LAIKA",
   "rpc": ["https://mainnetrpc.laikachain.dog"],
