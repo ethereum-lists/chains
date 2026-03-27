@@ -1,0 +1,24 @@
+{
+  "name": "Nexa Testnet Block",
+  "chain": "Nexa Testnet",
+  "rpc": ["https://rpc-testnet-nodes.nexablockscan.io"],
+  "faucets": ["https://testnet.nexablockscan.io/faucet"],
+  "nativeCurrency": {
+    "name": "Nexa Testnet Token",
+    "symbol": "NEXB",
+    "decimals": 18
+  },
+  "infoURL": "https://www.nexablock.io",
+  "shortName": "NexaTestnet",
+  "chainId": 9024,
+  "networkId": 9024,
+  "icon": "nexaChain",
+  "explorers": [
+    {
+      "name": "Nexablock Testnet Explorer",
+      "url": "https://testnet.nexablockscan.io",
+      "standard": "none",
+      "icon": "nexaChain"
+    }
+  ]
+}

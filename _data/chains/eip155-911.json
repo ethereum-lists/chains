@@ -1,0 +1,25 @@
+{
+  "name": "TAPROOT Mainnet",
+  "title": "TAPROOT Mainnet",
+  "chain": "TAPROOT CHAIN",
+  "rpc": ["https://rpc.taprootchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TBTC",
+    "symbol": "TBTC",
+    "decimals": 18
+  },
+  "infoURL": "https://taprootchain.io",
+  "shortName": "TAPROOT-Mainnet",
+  "chainId": 911,
+  "networkId": 911,
+  "icon": "taproot",
+  "explorers": [
+    {
+      "name": "TAPROOT Scan",
+      "url": "https://scan.taprootchain.io",
+      "icon": "taproot",
+      "standard": "EIP3091"
+    }
+  ]
+}

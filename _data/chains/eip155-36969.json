@@ -1,0 +1,29 @@
+{
+  "name": "AMA Mainnet",
+  "chain": "AMA",
+  "rpc": ["https://mainnet-rpc.ama.one"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AMA",
+    "symbol": "AMA",
+    "decimals": 9
+  },
+  "infoURL": "https://ama.one",
+  "shortName": "AMA",
+  "chainId": 36969,
+  "networkId": 36969,
+  "slip44": 36969,
+  "status": "active",
+  "explorers": [
+    {
+      "name": "AMA Explorer Mainnet",
+      "url": "https://ama-explorer.ddns.net",
+      "standard": "none"
+    },
+    {
+      "name": "AMA Explorer Mainnet Alt",
+      "url": "https://explorer.ama.one",
+      "standard": "none"
+    }
+  ]
+}

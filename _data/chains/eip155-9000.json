@@ -1,28 +1,28 @@
 {
   "name": "Evmos Testnet",
   "chain": "Evmos",
-  "rpc": ["https://ethereum.rpc.evmos.dev"],
-  "faucets": ["https://faucet.evmos.org"],
+  "rpc": [
+    "https://evmos-testnet.lava.build",
+    "https://eth.bd.evmos.dev:8545",
+    "https://evmos-testnet-evm-rpc.publicnode.com",
+    "wss://evmos-testnet-evm-rpc.publicnode.com"
+  ],
+  "faucets": ["https://faucet.evmos.dev"],
   "nativeCurrency": {
-    "name": "Photon",
-    "symbol": "PHOTON",
+    "name": "test-Evmos",
+    "symbol": "tEVMOS",
     "decimals": 18
   },
   "infoURL": "https://evmos.org",
-  "shortName": "evmos-mons",
+  "shortName": "evmos-testnet",
   "chainId": 9000,
   "networkId": 9000,
+  "slip44": 1,
   "icon": "evmos",
   "explorers": [
     {
-      "name": "Evmos EVM Explorer (Blockscout)",
-      "url": "https://evm.evmos.org",
-      "standard": "none",
-      "icon": "evmos"
-    },
-    {
-      "name": "Evmos Cosmos Explorer (Big Dipper)",
-      "url": "https://explorer.evmos.org",
+      "name": "Evmos Explorer (Escan)",
+      "url": "https://testnet.escan.live",
       "standard": "none",
       "icon": "evmos"
     }

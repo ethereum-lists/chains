@@ -1,0 +1,25 @@
+{
+  "name": "Juneo EUR1-Chain",
+  "chain": "Juneo EUR1-Chain",
+  "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/EUR1/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EUR1",
+    "symbol": "EUR1",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://juneo.com/",
+  "shortName": "EUR1",
+  "chainId": 45011,
+  "networkId": 45011,
+  "icon": "juneo-eur1",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://juneoscan.io/chain/6",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}

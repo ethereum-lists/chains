@@ -1,0 +1,27 @@
+{
+  "name": "Mind Smart Chain Testnet",
+  "chain": "tMIND",
+  "icon": "mindchain",
+  "rpc": [
+    "https://testnet-msc.mindchain.info/",
+    "wss://testnet-msc.mindchain.info/ws"
+  ],
+  "faucets": ["https://faucet.mindchain.info/"],
+  "nativeCurrency": {
+    "name": "MIND Coin",
+    "symbol": "tMIND",
+    "decimals": 18
+  },
+  "infoURL": "https://mindchain.info",
+  "shortName": "tMIND",
+  "chainId": 9977,
+  "networkId": 9977,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Mind Chain explorer",
+      "url": "https://testnet.mindscan.info",
+      "standard": "EIP3091"
+    }
+  ]
+}

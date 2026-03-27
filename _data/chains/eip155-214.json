@@ -1,0 +1,23 @@
+{
+  "name": "Shinarium Mainnet",
+  "chain": "Shinarium",
+  "icon": "shinarium",
+  "rpc": ["https://mainnet.shinarium.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Shina Inu",
+    "symbol": "SHI",
+    "decimals": 18
+  },
+  "infoURL": "https://shinarium.org",
+  "shortName": "shinarium",
+  "chainId": 214,
+  "networkId": 214,
+  "explorers": [
+    {
+      "name": "shinascan",
+      "url": "https://shinascan.shinarium.org",
+      "standard": "EIP3091"
+    }
+  ]
+}

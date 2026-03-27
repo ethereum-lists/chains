@@ -1,0 +1,24 @@
+{
+  "name": "CIC Chain Mainnet",
+  "chain": "CIC",
+  "rpc": ["https://xapi.cicscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Crazy Internet Coin",
+    "symbol": "CIC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.cicchain.net",
+  "shortName": "CIC",
+  "chainId": 1353,
+  "networkId": 1353,
+  "icon": "cicchain",
+  "explorers": [
+    {
+      "name": "CICscan",
+      "url": "https://cicscan.com",
+      "icon": "cicchain",
+      "standard": "EIP3091"
+    }
+  ]
+}

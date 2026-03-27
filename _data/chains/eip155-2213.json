@@ -1,0 +1,23 @@
+{
+  "name": "Evanesco Mainnet",
+  "chain": "EVA",
+  "rpc": ["https://seed4.evanesco.org:8546"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EVA",
+    "symbol": "EVA",
+    "decimals": 18
+  },
+  "infoURL": "https://evanesco.org/",
+  "shortName": "evanesco",
+  "chainId": 2213,
+  "networkId": 2213,
+  "icon": "evanesco",
+  "explorers": [
+    {
+      "name": "Evanesco Explorer",
+      "url": "https://explorer.evanesco.org",
+      "standard": "none"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Bitlayer Testnet",
+  "chain": "Bitlayer",
+  "rpc": [
+    "https://testnet-rpc.bitlayer.org",
+    "wss://testnet-ws.bitlayer.org",
+    "https://testnet-rpc.bitlayer-rpc.com",
+    "wss://testnet-ws.bitlayer-rpc.com",
+    "https://rpc.ankr.com/bitlayer_testnet"
+  ],
+  "faucets": ["https://www.bitlayer.org/faucet"],
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.bitlayer.org/",
+  "shortName": "btrt",
+  "chainId": 200810,
+  "networkId": 200810,
+  "slip44": 1,
+  "icon": "bitlayer",
+  "explorers": [
+    {
+      "name": "bitlayer testnet scan",
+      "url": "https://testnet.btrscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

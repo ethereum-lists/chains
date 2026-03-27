@@ -1,0 +1,20 @@
+{
+  "name": "Altair",
+  "chain": "AIR",
+  "icon": "altair",
+  "rpc": [
+    "wss://fullnode.altair.centrifuge.io",
+    "wss://altair.api.onfinality.io/public-ws"
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Altair",
+    "symbol": "AIR",
+    "decimals": 18
+  },
+  "infoURL": "https://centrifuge.io",
+  "shortName": "air",
+  "chainId": 2088,
+  "networkId": 2088
+}

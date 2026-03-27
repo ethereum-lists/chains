@@ -1,24 +1,25 @@
 {
-  "name": "NEXT Smart Chain",
-  "chain": "NSC",
-  "rpc": [
-    "https://rpc.nextsmartchain.com"
-  ],
-  "faucets": [
-    "https://faucet.nextsmartchain.com"
-  ],
+  "name": "KUB Mainnet",
+  "chain": "KUB",
+  "rpc": ["https://rpc.bitkubchain.io", "wss://wss.bitkubchain.io"],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "NEXT",
-    "symbol": "NEXT",
+    "name": "KUB Coin",
+    "symbol": "KUB",
     "decimals": 18
   },
-  "infoURL": "https://www.nextsmartchain.com/",
-  "shortName": "nsc",
+  "infoURL": "https://www.kubchain.com/",
+  "shortName": "kub",
   "chainId": 96,
   "networkId": 96,
-  "explorers": [{
-    "name": "Next Smart Chain Explorer",
-    "url": "https://explorer.nextsmartchain.com",
-    "standard": "none"
-  }]
+  "icon": "kub",
+  "explorers": [
+    {
+      "name": "KUB Mainnet Explorer",
+      "url": "https://kubscan.com",
+      "standard": "none",
+      "icon": "kub"
+    }
+  ],
+  "redFlags": ["reusedChainId"]
 }

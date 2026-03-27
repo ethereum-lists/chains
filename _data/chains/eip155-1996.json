@@ -1,0 +1,23 @@
+{
+  "name": "Sanko",
+  "chain": "Sanko",
+  "rpc": ["https://mainnet.sanko.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DMT",
+    "symbol": "DMT",
+    "decimals": 18
+  },
+  "infoURL": "https://sanko.xyz/",
+  "shortName": "Sanko",
+  "chainId": 1996,
+  "networkId": 1996,
+  "icon": "sanko",
+  "explorers": [
+    {
+      "name": "Sanko Explorer",
+      "url": "https://explorer.sanko.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}

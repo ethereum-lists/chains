@@ -1,0 +1,25 @@
+{
+  "name": "Runic Chain Testnet",
+  "chain": "Runic",
+  "rpc": ["https://rpc-testnet.runic.build"],
+  "faucets": ["https://faucet.runic.build"],
+  "nativeCurrency": {
+    "name": "Bitcoin",
+    "symbol": "rBTC",
+    "decimals": 18
+  },
+  "infoURL": "https://runic.build",
+  "shortName": "runic-testnet",
+  "chainId": 822,
+  "networkId": 822,
+  "status": "active",
+  "icon": "runic-testnet",
+  "explorers": [
+    {
+      "name": "RunicScan",
+      "url": "https://scan.runic.build",
+      "icon": "runic-testnet",
+      "standard": "EIP3091"
+    }
+  ]
+}

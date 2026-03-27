@@ -1,0 +1,26 @@
+{
+  "name": "Sei Testnet",
+  "chain": "Sei",
+  "rpc": [
+    "https://evm-rpc-testnet.sei-apis.com",
+    "wss://evm-ws-testnet.sei-apis.com"
+  ],
+  "faucets": ["https://atlantic-2.app.sei.io/faucet"],
+  "nativeCurrency": {
+    "name": "Sei",
+    "symbol": "SEI",
+    "decimals": 18
+  },
+  "infoURL": "https://www.sei.io",
+  "shortName": "sei-testnet",
+  "chainId": 1328,
+  "networkId": 1328,
+  "icon": "sei",
+  "explorers": [
+    {
+      "name": "Seitrace",
+      "url": "https://seitrace.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

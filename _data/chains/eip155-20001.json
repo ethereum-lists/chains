@@ -1,0 +1,23 @@
+{
+  "name": "Camelark Mainnet",
+  "chainId": 20001,
+  "shortName": "Camelark",
+  "chain": "ETHW",
+  "icon": "camelark",
+  "networkId": 20001,
+  "nativeCurrency": {
+    "name": "EthereumPoW",
+    "symbol": "ETHW",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-http-rpc.camelark.com"],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "CamelarkScan",
+      "url": "https://scan.camelark.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://www.camelark.com"
+}

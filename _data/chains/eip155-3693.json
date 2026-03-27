@@ -1,0 +1,22 @@
+{
+  "name": "Empire Network",
+  "chain": "EMPIRE",
+  "rpc": ["https://rpc.empirenetwork.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Empire",
+    "symbol": "EMPIRE",
+    "decimals": 18
+  },
+  "infoURL": "https://www.empirenetwork.io/",
+  "shortName": "empire",
+  "chainId": 3693,
+  "networkId": 3693,
+  "explorers": [
+    {
+      "name": "Empire Explorer",
+      "url": "https://explorer.empirenetwork.io",
+      "standard": "none"
+    }
+  ]
+}

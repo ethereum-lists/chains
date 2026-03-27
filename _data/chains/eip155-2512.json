@@ -1,0 +1,17 @@
+{
+  "name": "K2 Testnet",
+  "chain": "K2",
+  "icon": "karak",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://karak.network",
+  "shortName": "K2-testnet",
+  "chainId": 2512,
+  "networkId": 2512,
+  "status": "incubating"
+}

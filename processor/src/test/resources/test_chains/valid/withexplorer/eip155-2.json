@@ -2,7 +2,6 @@
   "name": "Ethereum Mainnet",
   "shortName": "eth",
   "chain": "ETH",
-  "network": "mainnet",
   "chainId": 2,
   "networkId": 2,
   "rpc": [
@@ -18,8 +17,13 @@
   },
   "explorers": [
     {
-      "name": "some",
+      "name": "ethrscan",
       "url": "https://etherscan.io",
+      "standard": "none"
+    },
+    {
+      "name": "Routescan",
+      "url": "https://ethereum.routescan.io/",
       "standard": "none"
     }
   ]

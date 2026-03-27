@@ -1,0 +1,23 @@
+{
+  "name": "Poodl Testnet",
+  "chain": "Poodl",
+  "icon": "poodlIcon",
+  "rpc": ["https://testnet-rpc.poodl.org"],
+  "faucets": ["https://faucet.poodl.org"],
+  "nativeCurrency": {
+    "name": "Poodl",
+    "symbol": "POODL",
+    "decimals": 18
+  },
+  "infoURL": "https://poodl.org",
+  "shortName": "poodlt",
+  "chainId": 15257,
+  "networkId": 15257,
+  "explorers": [
+    {
+      "name": "Poodl Testnet Explorer",
+      "url": "https://testnet.poodl.org",
+      "standard": "EIP3091"
+    }
+  ]
+}

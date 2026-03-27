@@ -1,0 +1,24 @@
+{
+  "name": "Wonder Testnet",
+  "chain": "WNDR",
+  "rpc": ["https://rpc.testnet.wonderchain.org"],
+  "faucets": ["https://wonderchain.org/faucet"],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://wonderchain.org",
+  "shortName": "wndr",
+  "chainId": 96371,
+  "networkId": 96371,
+  "icon": "wonder",
+  "explorers": [
+    {
+      "name": "wonderexplorer",
+      "url": "https://explorer.testnet.wonderchain.org",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Santiment Intelligence Network",
+  "chain": "Santiment Intelligence Network",
+  "rpc": ["https://node.sanr.app"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SANR",
+    "symbol": "SANR",
+    "decimals": 18
+  },
+  "infoURL": "https://sanr.app",
+  "shortName": "SANR",
+  "chainId": 32382,
+  "networkId": 32382,
+  "icon": "sanrchain",
+  "parent": {
+    "chain": "eip155-1",
+    "type": "L2",
+    "bridges": [
+      {
+        "url": "https://sanr.app"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "name": "Santiment Intelligence Explorer",
+      "url": "https://app-explorer-pos.sanr.app",
+      "standard": "none"
+    }
+  ]
+}

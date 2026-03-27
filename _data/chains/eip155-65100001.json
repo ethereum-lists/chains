@@ -1,0 +1,25 @@
+{
+  "name": "Autonity Piccadilly (Barada) Testnet",
+  "status": "deprecated",
+  "chain": "AUT",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Piccadilly Auton",
+    "symbol": "ATN",
+    "decimals": 18
+  },
+  "infoURL": "https://autonity.org/",
+  "shortName": "piccadilly-01",
+  "chainId": 65100001,
+  "networkId": 65100001,
+  "slip44": 1,
+  "icon": "autonity",
+  "explorers": [
+    {
+      "name": "autonity-blockscout",
+      "url": "https://piccadilly.autonity.org",
+      "standard": "EIP3091"
+    }
+  ]
+}

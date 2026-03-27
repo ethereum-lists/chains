@@ -3,16 +3,15 @@
   "chain": "QuarkChain",
   "rpc": [
     "https://devnet-s0-ethapi.quarkchain.io",
-    "http://eth-jrpc.devnet.quarkchain.io:39900/"
+    "http://eth-jrpc.devnet.quarkchain.io:39900"
   ],
-  "faucets": [
-  ],
+  "faucets": [],
   "nativeCurrency": {
     "name": "QKC",
     "symbol": "QKC",
     "decimals": 18
   },
-  "infoURL": "https://www.quarkchain.io/",
+  "infoURL": "https://www.quarkchain.io",
   "shortName": "qkc-d-s0",
   "chainId": 110001,
   "networkId": 110001,
@@ -20,9 +19,11 @@
     "chain": "eip155-110000",
     "type": "shard"
   },
-  "explorers": [{
-    "name": "quarkchain-devnet",
-    "url": "https://devnet.quarkchain.io/0",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "quarkchain-devnet",
+      "url": "https://devnet.quarkchain.io/0",
+      "standard": "EIP3091"
+    }
+  ]
 }

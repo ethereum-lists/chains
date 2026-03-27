@@ -1,8 +1,14 @@
 {
-  "name": "XinFin Network Mainnet",
+  "name": "XDC Network",
   "chain": "XDC",
   "rpc": [
-    "https://rpc.xinfin.network"
+    "https://erpc.xinfin.network",
+    "https://rpc.xinfin.network",
+    "https://rpc1.xinfin.network",
+    "https://rpc.xdcrpc.com",
+    "https://erpc.xdcrpc.com",
+    "https://rpc.ankr.com/xdc",
+    "https://rpc.xdc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +19,20 @@
   "infoURL": "https://xinfin.org",
   "shortName": "xdc",
   "chainId": 50,
-  "networkId": 50
+  "networkId": 50,
+  "icon": "xdc",
+  "explorers": [
+    {
+      "name": "xdcscan",
+      "url": "https://xdcscan.com",
+      "icon": "blocksscan",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "openscan",
+      "url": "https://xdcscan.io",
+      "icon": "blocksscan",
+      "standard": "EIP3091"
+    }
+  ]
 }

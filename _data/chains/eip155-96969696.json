@@ -1,0 +1,27 @@
+{
+  "name": " Privix Chain Testnet",
+  "chain": "PRIVIX",
+  "rpc": [
+    "https://testnet-rpc.privixchain.xyz/",
+    "wss://testnet-rpc.privixchain.xyz/ws"
+  ],
+  "faucets": ["https://faucet.privixchain.xyz"],
+  "nativeCurrency": {
+    "name": "Privix Coin",
+    "symbol": "PRIVIX",
+    "decimals": 18
+  },
+  "infoURL": "https://privix.co/",
+  "shortName": "tpsc",
+  "chainId": 96969696,
+  "networkId": 96969696,
+  "icon": "privix",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://testnet.privixscan.io",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Studio Testnet",
+  "chain": "STO",
+  "icon": "studio",
+  "rpc": [
+    "https://rpc.studio-blockchain.com",
+    "wss://ws.studio-blockchain.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Studio Token",
+    "symbol": "STO",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://studio-blockchain.com",
+  "shortName": "sto",
+  "chainId": 240240,
+  "networkId": 240240,
+  "explorers": [
+    {
+      "name": "Studio Scan",
+      "url": "https://studio-scan.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}

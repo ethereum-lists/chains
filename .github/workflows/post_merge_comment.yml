@@ -1,0 +1,15 @@
+on:
+  pull_request_target:
+    types: [closed]
+jobs:
+  comment_on_merged_pr:
+    if: github.event.pull_request.merged
+    runs-on: ubuntu-latest
+    name: Comment after PR merge
+    steps:
+      - name: Comment PR
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          message: |
+            PR merged - please consider contributing some funds to lists.eth

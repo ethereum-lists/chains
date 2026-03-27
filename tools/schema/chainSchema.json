@@ -1,0 +1,145 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "title": "EIP155 Chain Data",
+    "type":"object",
+    "required": ["name","shortName","chain","chainId","networkId","rpc","faucets","infoURL","nativeCurrency"],
+    "properties": {
+        "name":{
+            "type":"string",
+            "description": "Name of the Network"
+        },
+        "shortName":{
+            "type":"string",
+            "pattern": "^[A-Za-z0-9-_]{1,64}$"
+        },
+        "title":{
+            "type":"string",
+            "description": "Optional title for the Network"
+        },
+        "chain":{
+            "type":"string",
+            "description": "Name of the Network"
+        },
+        "icon":{
+            "type":"string",
+            "description": "Icon type"
+        },
+        "rpc":{
+            "type":"array",
+            "items":{
+                "type":"string"
+            }
+        },
+        "faucets":{
+            "type":"array",
+            "items":{
+                "type":"string"
+            }
+        },
+        "features":{
+	    "type":"array",
+            "items":{
+                "type":"object",
+                "properties": {
+                    "name":{
+                        "type":"string",
+			"description": "feature name - e.g. EIP155"
+                    }
+                }
+	    }
+	},
+        "nativeCurrency":{	    
+            "type":"object",
+            "properties": {
+                "name":{
+                    "type":"string",
+                    "description":"Name of the Native Currency"
+                },
+                "symbol":{
+                    "type":"string",
+                    "description":"Symbol of the Native Currency"
+                },
+                "decimals":{
+                    "type":"number",
+                    "description":"Decimal points supported"
+                }
+            }
+        },
+        "infoURL":{
+            "type":"string",
+            "description": "infoURL"
+        },
+        "chainId":{
+            "type":"number",
+            "description": "Chain ID of the Network"
+        },
+        "networkId":{
+            "type":"number",
+            "description": "Network ID of the Network"
+        },
+        "slip44":{
+            "type":"number",
+            "description": "Slip44 of the Network"
+        },
+        "ens":{
+            "type":"object",
+            "properties": {
+                "registry":{
+                    "type":"string"
+                }
+            }
+        },
+        "explorers":{
+            "type":"array",
+            "items":{
+                "type":"object",
+                "properties": {
+                    "name":{
+                        "type":"string"
+                    },
+                    "url":{
+                        "type":"string"
+                    },
+                    "standard":{
+                        "type":"string",
+			"description": "EIP3091 or none"
+                    }
+                }
+            }
+        },
+        "parent":{
+            "type":"object",
+            "properties": {
+                "type":{
+                    "type":"string"
+                },
+                "chain":{
+                    "type":"string"
+                },
+                "bridges":{
+                    "type":"array",
+                    "items": {
+                        "type":"object",
+                        "properties":{
+                            "url": {
+                                "type":"string"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "status":{
+            "type":"string"
+        },
+        "redFlags":{
+            "type":"array",
+            "items":{
+                "type":"string",
+                "enum": ["reusedChainId"]
+            }
+           
+        }
+    },
+    "additionalProperties": false
+}

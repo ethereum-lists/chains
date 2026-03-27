@@ -1,20 +1,17 @@
 {
-  "name": "Dithereum Mainnet",
-  "chain": "DTH",
-  "icon": "dithereum",
-  "rpc": [
-    "https://node-mainnet.dithereum.io"
-  ],
-  "faucets": [
-	"https://faucet.dithereum.org"
-  ],
+  "name": "KardiaChain Mainnet",
+  "chain": "KAI",
+  "icon": "kardiachain",
+  "rpc": ["https://rpc.kardiachain.io"],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "Dither",
-    "symbol": "DTH",
+    "name": "KardiaChain",
+    "symbol": "KAI",
     "decimals": 18
   },
-  "infoURL": "https://dithereum.org",
-  "shortName": "dthmainnet",
+  "infoURL": "https://kardiachain.io",
+  "shortName": "kardiachain",
   "chainId": 24,
-  "networkId": 24
+  "networkId": 0,
+  "redFlags": ["reusedChainId"]
 }

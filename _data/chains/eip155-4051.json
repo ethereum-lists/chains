@@ -1,0 +1,29 @@
+{
+  "name": "Bobaopera Testnet",
+  "chain": "Bobaopera Testnet",
+  "status": "deprecated",
+  "rpc": [
+    "https://testnet.bobaopera.boba.network",
+    "wss://wss.testnet.bobaopera.boba.network",
+    "https://replica.testnet.bobaopera.boba.network",
+    "wss://replica-wss.testnet.bobaopera.boba.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Boba Token",
+    "symbol": "BOBA",
+    "decimals": 18
+  },
+  "infoURL": "https://boba.network",
+  "shortName": "BobaoperaTestnet",
+  "chainId": 4051,
+  "networkId": 4051,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Bobaopera Testnet block explorer",
+      "url": "https://blockexplorer.testnet.bobaopera.boba.network",
+      "standard": "none"
+    }
+  ]
+}

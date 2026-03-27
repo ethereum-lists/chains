@@ -1,0 +1,26 @@
+{
+  "name": "PlatON Mainnet",
+  "chain": "PlatON",
+  "rpc": [
+    "https://openapi2.platon.network/rpc",
+    "wss://openapi2.platon.network/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LAT",
+    "symbol": "lat",
+    "decimals": 18
+  },
+  "infoURL": "https://www.platon.network",
+  "shortName": "platon",
+  "chainId": 210425,
+  "networkId": 1,
+  "icon": "platon",
+  "explorers": [
+    {
+      "name": "PlatON explorer",
+      "url": "https://scan.platon.network",
+      "standard": "none"
+    }
+  ]
+}

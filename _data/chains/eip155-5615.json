@@ -1,0 +1,23 @@
+{
+  "name": "Arcturus Testneet",
+  "chain": "Arcturus",
+  "rpc": ["https://rpc-testnet.arcturuschain.io/"],
+  "faucets": ["https://faucet.arcturuschain.io"],
+  "nativeCurrency": {
+    "name": "tARC",
+    "symbol": "tARC",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://arcturuschain.io",
+  "shortName": "arcturus-testnet",
+  "chainId": 5615,
+  "networkId": 5615,
+  "explorers": [
+    {
+      "name": "explorer-arcturus-testnet",
+      "url": "https://testnet.arcscan.net",
+      "standard": "EIP3091"
+    }
+  ]
+}

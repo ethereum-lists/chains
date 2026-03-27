@@ -1,0 +1,17 @@
+{
+  "name": "Qitmeer Network Privnet",
+  "chain": "MEER",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Qitmeer Privnet",
+    "symbol": "MEER-P",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/Qitmeer",
+  "shortName": "meerpriv",
+  "icon": "meer",
+  "chainId": 8133,
+  "networkId": 8133,
+  "status": "incubating"
+}

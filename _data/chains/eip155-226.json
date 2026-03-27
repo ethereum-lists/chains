@@ -1,0 +1,24 @@
+{
+  "name": "LACHAIN Testnet",
+  "chain": "TLA",
+  "icon": "lachain-io",
+  "rpc": ["https://rpc-testnet.lachain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TLA",
+    "symbol": "TLA",
+    "decimals": 18
+  },
+  "infoURL": "https://lachain.io",
+  "shortName": "TLA",
+  "chainId": 226,
+  "networkId": 226,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://scan-test.lachain.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

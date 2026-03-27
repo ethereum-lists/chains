@@ -1,0 +1,27 @@
+{
+  "name": "Nexi V2 Mainnet",
+  "chain": "Nexi V2",
+  "icon": "nexi",
+  "rpc": [
+    "https://chain.nexiv2.nexilix.com",
+    "https://rpc.chainv1.nexi.technology"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NexiV2",
+    "symbol": "NEXI",
+    "decimals": 18
+  },
+  "infoURL": "https://www.nexi.technology/",
+  "shortName": "NexiV2",
+  "chainId": 4243,
+  "networkId": 4243,
+  "slip44": 2500,
+  "explorers": [
+    {
+      "name": "nexiscan",
+      "url": "https://www.nexiscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
