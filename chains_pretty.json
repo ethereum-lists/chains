@@ -39239,6 +39239,25 @@
     "standard": "none"
   }]
 }, {
+  "name": "StreetDog Chain",
+  "chain": "SDC",
+  "rpc": ["https://rpc.chain.streetdog.me"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "StreetDog",
+    "symbol": "SD",
+    "decimals": 18
+  },
+  "infoURL": "https://chain.streetdog.me",
+  "shortName": "sdc",
+  "chainId": 77778,
+  "networkId": 77778,
+  "explorers": [{
+    "name": "StreetDog Chain Explorer",
+    "url": "https://chain.streetdog.me",
+    "standard": "none"
+  }]
+}, {
   "name": "Firenze test network",
   "chain": "ETH",
   "rpc": ["https://ethnode.primusmoney.com/firenze"],

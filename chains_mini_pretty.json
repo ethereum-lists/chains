@@ -23607,6 +23607,19 @@
   "faucets": [],
   "infoURL": "https://toronet.org"
 }, {
+  "name": "StreetDog Chain",
+  "chainId": 77778,
+  "shortName": "sdc",
+  "networkId": 77778,
+  "nativeCurrency": {
+    "name": "StreetDog",
+    "symbol": "SD",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.chain.streetdog.me"],
+  "faucets": [],
+  "infoURL": "https://chain.streetdog.me"
+}, {
   "name": "Firenze test network",
   "chainId": 78110,
   "shortName": "firenze",
