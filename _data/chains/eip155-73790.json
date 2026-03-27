@@ -1,27 +1,27 @@
 {
-          "name": "NV-CHAIN",
-          "chain": "NVC",
-          "rpc": [
-                        "https://rpc.neurovatic.ai/rpc"
-          ],
-          "faucets": [
-                        "https://faucet.neurovatic.ai"
-          ],
-          "nativeCurrency": {
-                        "name": "NeuroVaticChain",
-                        "symbol": "NVC",
-                        "decimals": 18
-          },
-          "infoURL": "https://neurovatic.ai",
-          "shortName": "nvc",
-          "chainId": 73790,
-          "networkId": 73790,
-          "slip44": 60,
-          "explorers": [
-                        {
+            "name": "NV-CHAIN",
+            "chain": "NVC",
+            "rpc": [
+                          "https://rpc.neurovatic.ai/rpc"
+            ],
+            "faucets": [
+                          "https://faucet.neurovatic.ai"
+            ],
+            "nativeCurrency": {
+                          "name": "NeuroVaticChain",
+                          "symbol": "NVC",
+                          "decimals": 18
+            },
+            "infoURL": "https://neurovatic.ai",
+            "shortName": "nvc",
+            "chainId": 73790,
+            "networkId": 73790,
+            "slip44": 60,
+            "explorers": [
+                          {
                                           "name": "nvScan",
                                           "url": "https://explorer.neurovatic.ai",
                                           "standard": "EIP3091"
-                        }
-          ]
+                          }
+            ]
 }
