@@ -2,7 +2,7 @@
   "name": "Zircuit Testnet",
   "chain": "Zircuit Testnet",
   "icon": "zircuit",
-  "rpc": ["https://testnet.zircuit.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",
@@ -13,12 +13,6 @@
   "shortName": "zircuit-testnet",
   "chainId": 48899,
   "networkId": 48899,
-  "explorers": [
-    {
-      "name": "Zircuit",
-      "url": "https://explorer.testnet.zircuit.com",
-      "icon": "zircuit",
-      "standard": "none"
-    }
-  ]
+  "explorers": [],
+  "status": "deprecated"
 }
