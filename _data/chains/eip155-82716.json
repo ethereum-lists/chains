@@ -2,13 +2,8 @@
   "name": "Pylun Testnet",
   "chain": "PYLUN",
   "icon": "pylun",
-  "rpc": [
-    "https://rpc.pylun.network",
-    "wss://ws.pylun.network"
-  ],
-  "faucets": [
-    "https://faucet.pylun.network"
-  ],
+  "rpc": ["https://rpc.pylun.network", "wss://ws.pylun.network"],
+  "faucets": ["https://faucet.pylun.network"],
   "nativeCurrency": {
     "name": "PYLUN",
     "symbol": "PYLUN",
