@@ -23516,6 +23516,19 @@
   "faucets": [],
   "infoURL": "https://nebula-chain.com"
 }, {
+  "name": "NV-CHAIN",
+  "chainId": 73790,
+  "shortName": "nvc",
+  "networkId": 73790,
+  "nativeCurrency": {
+    "name": "NeuroVatic Coin",
+    "symbol": "NVC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.neurovatic.ai/rpc"],
+  "faucets": ["https://faucet.neurovatic.ai"],
+  "infoURL": "https://neurovatic.ai"
+}, {
   "name": "Energy Web Volta Testnet",
   "chainId": 73799,
   "shortName": "vt",
