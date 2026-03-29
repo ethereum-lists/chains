@@ -4926,6 +4926,32 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "BattleChain Mainnet",
+  "chainId": 626,
+  "shortName": "battlechain",
+  "networkId": 626,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://battlechain.com"
+}, {
+  "name": "BattleChain Testnet",
+  "chainId": 627,
+  "shortName": "battlechain-testnet",
+  "networkId": 627,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.battlechain.com"],
+  "faucets": [],
+  "infoURL": "https://battlechain.com"
+}, {
   "name": "NFB Chain",
   "chainId": 632,
   "shortName": "nfbchain",
