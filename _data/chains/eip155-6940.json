@@ -1,0 +1,29 @@
+{
+  "name": "Monolythium Testnet",
+  "chain": "LYTH",
+  "rpc": ["https://evm.testnet.mononodes.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lythium",
+    "symbol": "LYTH",
+    "decimals": 18
+  },
+  "infoURL": "https://monolythium.com",
+  "shortName": "lyth-testnet",
+  "chainId": 6940,
+  "networkId": 6940,
+  "slip44": 1,
+  "icon": "monolythium",
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "explorers": [
+    {
+      "name": "Monoscan",
+      "url": "https://testnet.monoscan.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
