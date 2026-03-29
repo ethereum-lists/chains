@@ -23749,6 +23749,22 @@
     "icon": "aura"
   }]
 }, {
+  "name": "MegaETH Testnet (Deprecated)",
+  "chain": "ETH",
+  "nativeCurrency": {
+    "name": "MegaETH Testnet Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://testnet.megaeth.com",
+  "shortName": "megatest-deprecated",
+  "chainId": 6342,
+  "networkId": 6342,
+  "slip44": 1,
+  "status": "deprecated"
+}, {
   "name": "MegaETH Testnet",
   "chain": "ETH",
   "nativeCurrency": {
@@ -23760,8 +23776,8 @@
   "faucets": [],
   "infoURL": "https://testnet.megaeth.com",
   "shortName": "megatest",
-  "chainId": 6342,
-  "networkId": 6342,
+  "chainId": 6343,
+  "networkId": 6343,
   "slip44": 1
 }, {
   "name": "Digit Soul Smart Chain",

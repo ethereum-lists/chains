@@ -14338,10 +14338,23 @@
   "faucets": [],
   "infoURL": "https://aura.network"
 }, {
-  "name": "MegaETH Testnet",
+  "name": "MegaETH Testnet (Deprecated)",
   "chainId": 6342,
-  "shortName": "megatest",
+  "shortName": "megatest-deprecated",
   "networkId": 6342,
+  "nativeCurrency": {
+    "name": "MegaETH Testnet Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://testnet.megaeth.com"
+}, {
+  "name": "MegaETH Testnet",
+  "chainId": 6343,
+  "shortName": "megatest",
+  "networkId": 6343,
   "nativeCurrency": {
     "name": "MegaETH Testnet Ether",
     "symbol": "ETH",
