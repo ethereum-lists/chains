@@ -1,0 +1,29 @@
+{
+  "name": "BattleChain Testnet",
+  "chain": "ETH",
+  "rpc": ["https://testnet.battlechain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://battlechain.com",
+  "shortName": "battlechain-testnet",
+  "chainId": 627,
+  "networkId": 627,
+  "slip44": 1,
+  "icon": "battlechain",
+  "explorers": [
+    {
+      "name": "BattleChain Explorer",
+      "url": "https://explorer.testnet.battlechain.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "https://portal.battlechain.com/bridge" }]
+  }
+}
