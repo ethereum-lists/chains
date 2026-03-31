@@ -24192,6 +24192,19 @@
   "faucets": [],
   "infoURL": "https://www.vemp.xyz/"
 }, {
+  "name": "Pylun Testnet",
+  "chainId": 82716,
+  "shortName": "pylun",
+  "networkId": 82716,
+  "nativeCurrency": {
+    "name": "PYLUN",
+    "symbol": "PYLUN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.pylun.network", "wss://ws.pylun.network"],
+  "faucets": ["https://faucet.pylun.network"],
+  "infoURL": "https://pylun.network"
+}, {
   "name": "Xprotocol Testnet",
   "chainId": 83144,
   "shortName": "xprotocoltestnet",
