@@ -9970,6 +9970,19 @@
   "faucets": [],
   "infoURL": "https://edgeless.network"
 }, {
+  "name": "ArmaChain Testnet",
+  "chainId": 2028,
+  "shortName": "arma-testnet",
+  "networkId": 2028,
+  "nativeCurrency": {
+    "name": "tARMA",
+    "symbol": "tARMA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.armascan.io"],
+  "faucets": ["https://armafaucet.io"],
+  "infoURL": "https://armadex.io"
+}, {
   "name": "Centrifuge",
   "chainId": 2031,
   "shortName": "cfg",
