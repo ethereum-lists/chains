@@ -1,0 +1,26 @@
+{
+  "name": "LiterMark Chain",
+  "chain": "LMK",
+  "rpc": [
+    "https://litermark.org/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LiterMark",
+    "symbol": "LMK",
+    "decimals": 18
+  },
+  "infoURL": "https://litermark.com",
+  "shortName": "lmk",
+  "chainId": 5232,
+  "networkId": 5232,
+  "icon": "litermark",
+  "explorers": [
+    {
+      "name": "LMKscan",
+      "url": "https://litermark.org",
+      "icon": "litermark",
+      "standard": "none"
+    }
+  ]
+}
