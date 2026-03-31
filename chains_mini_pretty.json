@@ -23477,6 +23477,19 @@
   "faucets": ["https://faucet.nexera.network"],
   "infoURL": "https://testnet.nexera.network"
 }, {
+  "name": "Radius Test Network",
+  "chainId": 72344,
+  "shortName": "radius-network-testnet",
+  "networkId": 72344,
+  "nativeCurrency": {
+    "name": "Radius USD",
+    "symbol": "RUSD",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.radiustech.xyz"],
+  "faucets": ["https://testnet.radiustech.xyz/wallet/"],
+  "infoURL": "https://testnet.radiustech.xyz"
+}, {
   "name": "CAGA crypto Ankara testnet",
   "chainId": 72778,
   "shortName": "caga",
@@ -28520,6 +28533,19 @@
   "rpc": ["https://subnets.avax.network/tixchain/testnet/rpc"],
   "faucets": [],
   "infoURL": "https://subnets-test.avax.network/tixchain/details"
+}, {
+  "name": "Radius Network",
+  "chainId": 723487,
+  "shortName": "radius",
+  "networkId": 723487,
+  "nativeCurrency": {
+    "name": "Radius USD",
+    "symbol": "RUSD",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.radiustech.xyz"],
+  "faucets": [],
+  "infoURL": "https://network.radiustech.xyz/"
 }, {
   "name": "bokuto",
   "chainId": 737373,
