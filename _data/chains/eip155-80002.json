@@ -7,9 +7,13 @@
     "https://rpc-amoy.polygon.technology",
     "https://polygon-amoy-bor-rpc.publicnode.com",
     "wss://polygon-amoy-bor-rpc.publicnode.com",
-    "https://polygon-amoy.drpc.org"
+    "https://polygon-amoy.drpc.org",
+    "https://polygon-amoy.blockreq.com/v1/rpc/public",
+    "wss://polygon-amoy.blockreq.com/v1/ws/public"
   ],
-  "faucets": ["https://faucet.polygon.technology/"],
+  "faucets": [
+    "https://faucet.polygon.technology/"
+  ],
   "nativeCurrency": {
     "name": "POL",
     "symbol": "POL",
