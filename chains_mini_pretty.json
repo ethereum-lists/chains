@@ -17042,6 +17042,19 @@
   "faucets": ["https://faucet.mainnetz.io"],
   "infoURL": "https://testnet.mainnetz.io"
 }, {
+  "name": "Nepachain",
+  "chainId": 9770,
+  "shortName": "Nepachain",
+  "networkId": 9770,
+  "nativeCurrency": {
+    "name": "Nepacoin",
+    "symbol": "NPC",
+    "decimals": 18
+  },
+  "rpc": ["https://network.nepachain.org", "https://network.nepachain.com"],
+  "faucets": [],
+  "infoURL": "https://docs.nepachain.org/"
+}, {
   "name": "PepeNetwork Mainnet",
   "chainId": 9779,
   "shortName": "pn",
@@ -24555,6 +24568,19 @@
   "rpc": ["https://unite-mainnet.g.alchemy.com/public"],
   "faucets": [],
   "infoURL": "https://unite.io"
+}, {
+  "name": "JAMIROQU.AI",
+  "chainId": 89001,
+  "shortName": "insan",
+  "networkId": 89001,
+  "nativeCurrency": {
+    "name": "INSAN",
+    "symbol": "INSAN",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://www.jamiroqu.ai"
 }, {
   "name": "Pundi AIFX Omnilayer Testnet",
   "chainId": 90001,
