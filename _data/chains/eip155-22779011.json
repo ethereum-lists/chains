@@ -1,6 +1,5 @@
 {
-  "name": "MOS CHAIN",
-  "title": "MOS CHAIN TESTNET",
+  "name": "MosChain Testnet",
   "chain": "MOS",
   "rpc": [
     "https://rpc.moschain.io"
@@ -12,15 +11,14 @@
     "decimals": 18
   },
   "infoURL": "https://moschain.io/",
-  "shortName": "Mos",
+  "shortName": "mos",
   "chainId": 22779011,
   "networkId": 22779011,
-  "icon": "mos",
+  "icon": "Mos",
   "explorers": [
     {
-      "name": "Explorer website",
+      "name": "Explorer website (Blockscout)",
       "url": "https://mosscan.io/",
-      "icon": "mos",
       "standard": "EIP3091"
     }
   ]
