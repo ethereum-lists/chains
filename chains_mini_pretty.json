@@ -19525,6 +19525,32 @@
   "faucets": [],
   "infoURL": "https://www.camelark.com"
 }, {
+  "name": "Mandala Chain",
+  "chainId": 20010,
+  "shortName": "mandala",
+  "networkId": 20010,
+  "nativeCurrency": {
+    "name": "Kepeng",
+    "symbol": "KPG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1-mainnet.mandalachain.io"],
+  "faucets": [],
+  "infoURL": "https://mandalachain.io"
+}, {
+  "name": "Mandala Chain Testnet",
+  "chainId": 20011,
+  "shortName": "mandala-testnet",
+  "networkId": 20011,
+  "nativeCurrency": {
+    "name": "Kepeng Test",
+    "symbol": "KPGT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1-testnet.mandalachain.io"],
+  "faucets": ["https://dripper.mandalachain.io"],
+  "infoURL": "https://mandalachain.io"
+}, {
   "name": "Niza Chain Mainnet",
   "chainId": 20041,
   "shortName": "niza",
