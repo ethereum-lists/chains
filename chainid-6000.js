@@ -2,7 +2,7 @@
   "name": "TBURN Mainnet",
   "chain": "TBURN",
   "rpc": [
-    "https://tburn.io/rpc"
+    "https://rpc.tburn.io"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -18,7 +18,7 @@
   "icon": "tburn",
   "explorers": [{
     "name": "TBURNScan",
-    "url": "https://tburn.io/scan",
+    "url": "https://scan.tburn.io",
     "icon": "tburn",
     "standard": "EIP3091"
   }]
