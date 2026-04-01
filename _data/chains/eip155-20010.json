@@ -26,9 +26,9 @@
     "chain": "eip155-1",
     "bridges": [
       {
-        "url": "https://bridge.arbitrum.io"
+        "url": "https://portal.arbitrum.io/bridge?destinationChain=mandala-chain&sanitized=true&sourceChain=ethereum"
       }
     ]
   },
-  "status": "incubating"
+  "status": "active"
 }

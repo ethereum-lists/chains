@@ -5,8 +5,8 @@
   "rpc": ["https://rpc1-testnet.mandalachain.io"],
   "faucets": ["https://dripper.mandalachain.io"],
   "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
+    "name": "Kepeng Test",
+    "symbol": "KPGT",
     "decimals": 18
   },
   "infoURL": "https://mandalachain.io",
@@ -23,7 +23,12 @@
   ],
   "parent": {
     "type": "L2",
-    "chain": "eip155-11155111"
+    "chain": "eip155-11155111",
+    "bridges": [
+      {
+        "url": "https://portal.arbitrum.io/bridge?destinationChain=mandala-chain-testnet&sanitized=true&sourceChain=sepolia"
+      }
+    ]
   },
-  "status": "incubating"
+  "status": "active"
 }
