@@ -30562,6 +30562,19 @@
   "faucets": [],
   "infoURL": "https://alienxchain.io/home"
 }, {
+  "name": "ClawCoin",
+  "chainId": 11111111,
+  "shortName": "cc",
+  "networkId": 11111111,
+  "nativeCurrency": {
+    "name": "ClawCoin",
+    "symbol": "CC",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.clawcoin.com"],
+  "faucets": [],
+  "infoURL": "https://clawcoin.com"
+}, {
   "name": "Celo Sepolia Testnet",
   "chainId": 11142220,
   "shortName": "celo-sep",
