@@ -8,10 +8,17 @@
     "symbol": "LMK",
     "decimals": 18
   },
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://litermark.com",
   "shortName": "lmk",
   "chainId": 5232,
   "networkId": 5232,
+  "slip44": 60,
+  "status": "active",
   "explorers": [
     {
       "name": "LMKscan",
