@@ -7877,6 +7877,19 @@
   "faucets": [],
   "infoURL": "https://unichain.org"
 }, {
+  "name": "STO Chain",
+  "chainId": 1306,
+  "shortName": "stoc",
+  "networkId": 1306,
+  "nativeCurrency": {
+    "name": "STOC",
+    "symbol": "STOC",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-stoc-mainnet.stochainscan.io"],
+  "faucets": [],
+  "infoURL": "https://www.stochain.io/"
+}, {
   "name": "COINZAX",
   "chainId": 1310,
   "shortName": "zax",
@@ -9722,6 +9735,19 @@
   "rpc": ["https://rpc.testnet.kyotoprotocol.io:8545"],
   "faucets": ["https://faucet.kyotoprotocol.io"],
   "infoURL": "https://kyotoprotocol.io"
+}, {
+  "name": "STO Chain Testnet",
+  "chainId": 1999,
+  "shortName": "tstoc",
+  "networkId": 1999,
+  "nativeCurrency": {
+    "name": "TSTOC",
+    "symbol": "TSTOC",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-stoc-testnet.stochainscan.io"],
+  "faucets": ["https://testnet.stochainscan.io/en/request-faucet"],
+  "infoURL": "https://www.stochain.io/"
 }, {
   "name": "Dogechain Mainnet",
   "chainId": 2000,
