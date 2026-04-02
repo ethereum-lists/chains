@@ -1783,15 +1783,15 @@
   "name": "Defi Oracle Meta Mainnet",
   "chainId": 138,
   "shortName": "dfio-meta-main",
-  "networkId": 1,
+  "networkId": 138,
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.defi-oracle.io", "wss://wss.defi-oracle.io"],
+  "rpc": ["https://rpc-http-pub.d-bis.org", "wss://rpc-ws-pub.d-bis.org", "https://rpc.d-bis.org", "wss://rpc.d-bis.org", "https://rpc2.d-bis.org", "wss://ws.rpc.d-bis.org", "wss://ws.rpc2.d-bis.org", "https://rpc.public-0138.defi-oracle.io", "wss://rpc.public-0138.defi-oracle.io", "https://rpc.defi-oracle.io", "wss://wss.defi-oracle.io"],
   "faucets": [],
-  "infoURL": "https://info.defi-oracle.io/"
+  "infoURL": "https://d-bis.org"
 }, {
   "name": "WoopChain Mainnet",
   "chainId": 139,
