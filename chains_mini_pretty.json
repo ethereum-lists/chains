@@ -6954,6 +6954,19 @@
   "faucets": [],
   "infoURL": "https://humans.ai"
 }, {
+  "name": "Xenea Ubusuna",
+  "chainId": 1096,
+  "shortName": "Xenea",
+  "networkId": 1096,
+  "nativeCurrency": {
+    "name": "Xenea Ubusuna Testnet Token",
+    "symbol": "TXENE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-ubusuna.xeneascan.com"],
+  "faucets": [],
+  "infoURL": "https://xenea.io"
+}, {
   "name": "MOAC mainnet",
   "chainId": 1099,
   "shortName": "moac",
