@@ -32304,6 +32304,19 @@
   "faucets": ["http://base-sepolia-faucet.skale.space"],
   "infoURL": "https://docs.skale.space/welcome/skale-on-base"
 }, {
+  "name": "Mirasmanda",
+  "chainId": 1213549903,
+  "shortName": "mirasmanda",
+  "networkId": 1213549903,
+  "nativeCurrency": {
+    "name": "Gas",
+    "symbol": "GAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.evm.mirasmanda.uz"],
+  "faucets": ["https://faucet.evm.mirasmanda.uz"],
+  "infoURL": "https://asterium.uz/"
+}, {
   "name": "HUMAN Protocol",
   "chainId": 1273227453,
   "shortName": "human-mainnet",
