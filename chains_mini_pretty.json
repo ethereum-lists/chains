@@ -17757,6 +17757,19 @@
   "faucets": ["https://faucet.avax.network/?subnet=num", "https://faucet.num.network"],
   "infoURL": "https://numbersprotocol.io"
 }, {
+  "name": "TrustBitcoin Mainnet",
+  "chainId": 10791,
+  "shortName": "trustbtc",
+  "networkId": 10791,
+  "nativeCurrency": {
+    "name": "TrustBitcoin",
+    "symbol": "TBC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.trustbitcoin.io"],
+  "faucets": [],
+  "infoURL": "https://trustbitcoin.io"
+}, {
   "name": "CryptoCoinPay",
   "chainId": 10823,
   "shortName": "CCP",
