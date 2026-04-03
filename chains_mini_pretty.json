@@ -4328,18 +4328,18 @@
   "faucets": [],
   "infoURL": "https://areon.network"
 }, {
-  "name": "Areon Network Mainnet",
+  "name": "Areum Network Mainnet",
   "chainId": 463,
   "shortName": "area",
   "networkId": 463,
   "nativeCurrency": {
-    "name": "Areon",
+    "name": "Areum",
     "symbol": "AREA",
     "decimals": 18
   },
-  "rpc": ["https://mainnet-rpc.areon.network", "https://mainnet-rpc2.areon.network", "https://mainnet-rpc3.areon.network", "https://mainnet-rpc4.areon.network", "https://mainnet-rpc5.areon.network"],
+  "rpc": ["https://mainnet-rpc.areum.network", "https://mainnet-rpc2.areum.network", "https://mainnet-rpc3.areum.network", "https://mainnet-rpc4.areum.network", "https://mainnet-rpc5.areum.network"],
   "faucets": [],
-  "infoURL": "https://areon.network"
+  "infoURL": "https://areum.network"
 }, {
   "name": "AppChain",
   "chainId": 466,
