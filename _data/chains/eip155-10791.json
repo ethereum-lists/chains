@@ -1,12 +1,8 @@
 {
   "name": "TrustBitcoin Mainnet",
   "chain": "TBC",
-  "rpc": [
-    "https://rpc.trustbitcoin.io"
-  ],
-  "features": [
-    { "name": "EIP155" }
-  ],
+  "rpc": ["https://rpc.trustbitcoin.io"],
+  "features": [{ "name": "EIP155" }],
   "faucets": [],
   "nativeCurrency": {
     "name": "TrustBitcoin",
