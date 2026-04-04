@@ -30562,6 +30562,19 @@
   "faucets": ["https://faucet.soverun.com"],
   "infoURL": "https://soverun.com"
 }, {
+  "name": "SATUCHAIN Mainnet",
+  "chainId": 10111945,
+  "shortName": "satumainnet",
+  "networkId": 10111945,
+  "nativeCurrency": {
+    "name": "Satu",
+    "symbol": "STU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet.satuchain.com", "https://rpc-indo-mainnet.satuchain.com", "wss://rpc-mainnet.satuchain.com/ws"],
+  "faucets": [],
+  "infoURL": "https://satuchain.com"
+}, {
   "name": "AlienX Mainnet",
   "chainId": 10241024,
   "shortName": "AlienX",
