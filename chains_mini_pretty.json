@@ -12973,6 +12973,19 @@
   "faucets": ["https://laikachain.dog/faucets"],
   "infoURL": "https://laikachain.dog"
 }, {
+  "name": "IKChain Testnet",
+  "chainId": 4270,
+  "shortName": "ikchain-testnet",
+  "networkId": 4270,
+  "nativeCurrency": {
+    "name": "IKCrypto",
+    "symbol": "IKCr",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.ikchain.net"],
+  "faucets": ["https://testnet-explorer.ikchain.net"],
+  "infoURL": "https://ikchain.net"
+}, {
   "name": "Echos Chain",
   "chainId": 4321,
   "shortName": "echos",
