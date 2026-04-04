@@ -1,10 +1,7 @@
 {
   "name": "SATUCHAIN Mainnet",
   "chain": "SATU",
-  "rpc": [
-    "https://rpc-mainnet.satuchain.com",
-    "wss://rpc-mainnet.satuchain.com/ws"
-  ],
+  "rpc": ["https://rpc-mainnet.satuchain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Satu",
