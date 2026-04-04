@@ -1,18 +1,15 @@
 {
   "name": "LiterMark Chain",
   "chain": "LMK",
+  "icon": "litermark",
   "rpc": ["https://litermark.org/rpc"],
+  "features": [{ "name": "EIP155" }],
   "faucets": [],
   "nativeCurrency": {
     "name": "LiterMark",
     "symbol": "LMK",
     "decimals": 18
   },
-  "features": [
-    {
-      "name": "EIP155"
-    }
-  ],
   "infoURL": "https://litermark.com",
   "shortName": "lmk",
   "chainId": 5232,
