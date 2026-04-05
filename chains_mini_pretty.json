@@ -30614,6 +30614,19 @@
   "faucets": [],
   "infoURL": "https://alienxchain.io/home"
 }, {
+  "name": "ClawCoin Testnet",
+  "chainId": 11111110,
+  "shortName": "cc-testnet",
+  "networkId": 11111110,
+  "nativeCurrency": {
+    "name": "ClawCoin",
+    "symbol": "CC",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-testnet.clawcoin.com"],
+  "faucets": [],
+  "infoURL": "https://clawcoin.com"
+}, {
   "name": "ClawCoin",
   "chainId": 11111111,
   "shortName": "cc",

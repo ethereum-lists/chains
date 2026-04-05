@@ -51136,6 +51136,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "ClawCoin Testnet",
+  "chain": "CC",
+  "icon": "clawcoin",
+  "rpc": ["https://evm-testnet.clawcoin.com"],
+  "features": [{
+    "name": "EIP155"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ClawCoin",
+    "symbol": "CC",
+    "decimals": 18
+  },
+  "infoURL": "https://clawcoin.com",
+  "shortName": "cc-testnet",
+  "chainId": 11111110,
+  "networkId": 11111110,
+  "slip44": 60,
+  "status": "active"
+}, {
   "name": "ClawCoin",
   "chain": "CC",
   "icon": "clawcoin",
