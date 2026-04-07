@@ -1,7 +1,11 @@
 {
   "name": "1Money Network Testnet",
   "chain": "1Money Testnet",
-  "rpc": ["https://rpc.testnet.1money.network","https://rpc1.testnet.1money.network","https://rpc2.testnet.1money.network"],
+  "rpc": [
+    "https://rpc.testnet.1money.network",
+    "https://rpc1.testnet.1money.network",
+    "https://rpc2.testnet.1money.network"
+  ],
   "faucets": ["https://www.1moneynetwork.com/faucet"],
   "nativeCurrency": {
     "name": "FREE",

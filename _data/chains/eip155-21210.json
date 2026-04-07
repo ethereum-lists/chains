@@ -1,7 +1,11 @@
 {
   "name": "1Money Network Mainnet",
   "chain": "1Money Network",
-  "rpc": ["https://rpc.mainnet.1money.network","https://rpc1.mainnet.1money.network","https://rpc2.mainnet.1money.network"],
+  "rpc": [
+    "https://rpc.mainnet.1money.network",
+    "https://rpc1.mainnet.1money.network",
+    "https://rpc2.mainnet.1money.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "FREE",
@@ -9,7 +13,7 @@
     "decimals": 18
   },
   "features": [{ "name": "EIP155" }],
-  "infoURL": "https://www.1moneynetwork.com/",
+  "infoURL": "https://www.1moneynetwork.com",
   "shortName": "1money",
   "chainId": 21210,
   "networkId": 21210,
