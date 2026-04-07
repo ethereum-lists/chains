@@ -1,0 +1,36 @@
+{
+  "name": "XGR Mainnet",
+  "chain": "XGR",
+  "rpc": [
+    "https://rpc.xgr.network",
+    "https://rpc1.xgr.network",
+    "https://rpc2.xgr.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "XGR",
+    "symbol": "XGR",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://xgr.network",
+  "shortName": "xgr",
+  "chainId": 1643,
+  "networkId": 1643,
+  "icon": "xgr",
+  "explorers": [
+    {
+      "name": "XGRScan",
+      "url": "https://explorer.xgr.network",
+      "icon": "xgr",
+      "standard": "EIP3091"
+    }
+  ]
+}
