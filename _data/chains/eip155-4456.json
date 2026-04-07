@@ -1,0 +1,32 @@
+{
+  "name": "Oxin Testnet",
+  "status": "active",
+  "chain": "OXIN",
+  "icon": "oxin-testnet",
+  "rpc": [
+    "https://testnet-rpc.oxinchain.io",
+    "https://testnet-rpc1.oxinchain.io",
+    "https://testnet-rpc2.oxinchain.io",
+    "https://testnet-rpc3.oxinchain.io",
+    "https://testnet-rpc4.oxinchain.io",
+    "https://testnet-rpc5.oxinchain.io"
+  ],
+  "faucets": ["https://faucet.oxinchain.io"],
+  "nativeCurrency": {
+    "name": "Oxin Coin",
+    "symbol": "OXIN",
+    "decimals": 18
+  },
+  "infoURL": "https://oxinchain.io",
+  "shortName": "oxin-testnet",
+  "chainId": 4456,
+  "networkId": 4456,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "OxinScan",
+      "url": "https://testnet-scan.oxinchain.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
