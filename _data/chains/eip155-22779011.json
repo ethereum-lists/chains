@@ -1,0 +1,24 @@
+{
+  "name": "MOS CHAIN",
+  "title": "MOS CHAIN TESTNET",
+  "chain": "MOS",
+  "rpc": ["https://rpc.moschain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MOS CHAIN",
+    "symbol": "MOS",
+    "decimals": 18
+  },
+  "infoURL": "https://moschain.io/",
+  "shortName": "mostest",
+  "chainId": 22779011,
+  "networkId": 22779011,
+  "icon": "mos",
+  "explorers": [
+    {
+      "name": "Explorer website",
+      "url": "https://mosscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
