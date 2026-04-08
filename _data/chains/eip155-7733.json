@@ -1,0 +1,40 @@
+{
+    "name": "Tajirchain Testnet",
+    "chain": "TJR",
+    "rpc": [
+      "https://rpc.testnet.tajirchain.com",
+      "wss://wss.testnet.tajirchain.com"
+    ],
+    "faucets": [
+      "https://faucet.testnet.tajirchain.com"
+    ],
+    "nativeCurrency": {
+      "name": "Tajirchain Test Token",
+      "symbol": "TJR",
+      "decimals": 18
+    },
+    "features": [
+      { "name": "EIP155" }
+    ],
+    "infoURL": "https://tajirchain.com",
+    "shortName": "tjr-testnet",
+    "chainId": 7733,
+    "networkId": 7733,
+    "icon": "tajirchain",
+    "status": "active",
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111",
+      "bridges": [
+        { "url": "https://bridge.testnet.tajirchain.com" }
+      ]
+    },
+    "explorers": [
+      {
+        "name": "Tajirchain tESTNET Explorer",
+        "url": "https://explorer.testnet.tajirchain.com",
+        "icon": "tajirchain",
+        "standard": "EIP3091"
+      }
+    ]
+  }
