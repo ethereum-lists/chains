@@ -1,0 +1,26 @@
+{
+  "name": "Kortana Testnet",
+  "chain": "DNR",
+  "rpc": [
+    "https://poseidon-rpc.testnet.kortana.xyz/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DINAR",
+    "symbol": "DNR",
+    "decimals": 18
+  },
+  "infoURL": "https://kortana.network",
+  "shortName": "kortana-testnet",
+  "chainId": 72511,
+  "networkId": 72511,
+  "status": "active",
+  "testnet": true,
+  "explorers": [
+    {
+      "name": "Kortana Testnet Explorer",
+      "url": "https://explorer.testnet.kortana.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}

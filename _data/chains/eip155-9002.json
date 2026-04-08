@@ -1,0 +1,25 @@
+{
+  "name": "Kortana Mainnet",
+  "chain": "DNR",
+  "rpc": [
+    "https://zeus-rpc.mainnet.kortana.xyz"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DINAR",
+    "symbol": "DNR",
+    "decimals": 18
+  },
+  "infoURL": "https://kortana.network",
+  "shortName": "kortana",
+  "chainId": 9002,
+  "networkId": 9002,
+  "status": "active",
+  "explorers": [
+    {
+      "name": "Kortana Explorer",
+      "url": "https://explorer.mainnet.kortana.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
