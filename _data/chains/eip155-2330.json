@@ -1,7 +1,12 @@
 {
   "name": "Altcoinchain",
   "chain": "mainnet",
-  "rpc": ["https://rpc0.altcoinchain.org/rpc"],
+  "rpc": [
+    "https://alt-rpc.wattxchange.app",
+    "https://alt-rpc2.minethepla.net",
+    "http://99.248.100.186:8645",
+    "http://62.72.177.111:8145"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Altcoin",
@@ -20,6 +25,16 @@
       "url": "http://expedition.altcoinchain.org",
       "icon": "altcoinchain",
       "standard": "none"
+    },
+    {
+      "name": "AltScan",
+      "url": "https://alt-explorer.wattxchange.app",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "alt-exp",
+      "url": "https://alt-exp.outsidethebox.top",
+      "standard": "EIP3091"
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "name": "WATTx",
+  "chain": "WTX",
+  "rpc": ["https://wtx-rpc.wattxchange.app"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WATTx",
+    "symbol": "WTX",
+    "decimals": 18
+  },
+  "infoURL": "https://wattxchange.app",
+  "shortName": "wtx",
+  "chainId": 2335,
+  "networkId": 2335,
+  "status": "active",
+  "explorers": [
+    {
+      "name": "WTX Explorer",
+      "url": "https://wtx-explorer.wattxchange.app",
+      "standard": "EIP3091"
+    }
+  ]
+}
