@@ -1,0 +1,40 @@
+{
+    "name": "Tajirchain Devnet",
+    "chain": "TJR",
+    "rpc": [
+      "https://rpc.devnet.tajirchain.com",
+      "wss://wss.devnet.tajirchain.com"
+    ],
+    "faucets": [
+      "https://faucet.devnet.tajirchain.com"
+    ],
+    "nativeCurrency": {
+      "name": "Tajirchain Test Token",
+      "symbol": "tTJR",
+      "decimals": 18
+    },
+    "features": [
+      { "name": "EIP155" }
+    ],
+    "infoURL": "https://tajirchain.com",
+    "shortName": "tjr-devnet",
+    "chainId": 21519080,
+    "networkId": 21519080,
+    "icon": "tajirchain",
+    "status": "active",
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111",
+      "bridges": [
+        { "url": "https://bridge.devnet.tajirchain.com" }
+      ]
+    },
+    "explorers": [
+      {
+        "name": "Tajirchain Devnet Explorer",
+        "url": "https://explorer.devnet.tajirchain.com",
+        "icon": "tajirchain",
+        "standard": "EIP3091"
+      }
+    ]
+  }
