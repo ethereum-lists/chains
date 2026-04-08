@@ -1,0 +1,29 @@
+{
+  "name": "Valygo Chain Testnet",
+  "chain": "VALYGO",
+  "icon": "valygo",
+  "rpc": [
+    "https://rpc-testnet.vyoscan.com"
+  ],
+  "faucets": [
+    "https://faucet.vyoscan.com"
+  ],
+  "nativeCurrency": {
+    "name": "VALYGO",
+    "symbol": "VYO",
+    "decimals": 18
+  },
+  "infoURL": "https://valygo.com",
+  "shortName": "vyo-testnet",
+  "chainId": 1772,
+  "networkId": 1772,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Valygo Testnet Explorer",
+      "url": "https://explorer-testnet.vyoscan.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
