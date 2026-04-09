@@ -1,0 +1,26 @@
+[
+  {
+    "name": "EGoldChain Mainnet",
+    "chain": "EGold",
+    "rpc": [
+      "https://rpc.goldscan.gold"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "EGold",
+      "symbol": "XAU",
+      "decimals": 18
+    },
+    "infoURL": "https://webgold.gold/",
+    "shortName": "egold",
+    "chainId": 1932,
+    "networkId": 1932,
+    "explorers": [
+      {
+        "name": "GoldScan Explorer",
+        "url": "https://goldscan.gold",
+        "standard": "EIP3091"
+      }
+    ]
+  }
+]
