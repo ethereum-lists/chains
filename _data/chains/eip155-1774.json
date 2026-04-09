@@ -1,0 +1,29 @@
+{
+  "name": "Valygo Banking L1 Testnet",
+  "chain": "VALYGO",
+  "icon": "valygo",
+  "rpc": [
+    "https://rpc-testnet.vyoscan.com/ext/bc/2AYiFe2ZC78aQKzuGU8ARb9LsxjbFsrW3WPbrediwfoezz2an8/rpc"
+  ],
+  "faucets": [
+    "https://faucet-testnet.vyoscan.com"
+  ],
+  "nativeCurrency": {
+    "name": "VALYGO",
+    "symbol": "VYO",
+    "decimals": 18
+  },
+  "infoURL": "https://valygo.com",
+  "shortName": "vyo-banking",
+  "chainId": 1774,
+  "networkId": 1774,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Valygo Banking Explorer",
+      "url": "https://banking-explorer.vyoscan.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}

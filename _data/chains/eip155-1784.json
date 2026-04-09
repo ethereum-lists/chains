@@ -1,0 +1,29 @@
+{
+  "name": "Valygo Micro Payment L1 Testnet",
+  "chain": "VALYGO",
+  "icon": "valygo",
+  "rpc": [
+    "https://rpc-testnet.vyoscan.com/ext/bc/21sxE2FTe2UmqAxcfcb4hFUTWEM19RocDe4HF4BWwjT78mueEc/rpc"
+  ],
+  "faucets": [
+    "https://faucet-testnet.vyoscan.com"
+  ],
+  "nativeCurrency": {
+    "name": "VALYGO",
+    "symbol": "VYO",
+    "decimals": 18
+  },
+  "infoURL": "https://valygo.com",
+  "shortName": "vyo-micropay",
+  "chainId": 1784,
+  "networkId": 1784,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Valygo Micro Payment Explorer",
+      "url": "https://micropay-explorer.vyoscan.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}

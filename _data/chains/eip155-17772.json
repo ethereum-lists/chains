@@ -1,0 +1,29 @@
+{
+  "name": "Valygo Shadow Chain Testnet",
+  "chain": "VALYGO",
+  "icon": "valygo",
+  "rpc": [
+    "https://rpc-testnet.vyoscan.com/ext/bc/23p3RnnByqFGKr8vyRFm7emmkEPyTkubKooyqBHDQtxCaD9Mr/rpc"
+  ],
+  "faucets": [
+    "https://faucet-testnet.vyoscan.com"
+  ],
+  "nativeCurrency": {
+    "name": "VALYGO",
+    "symbol": "VYO",
+    "decimals": 18
+  },
+  "infoURL": "https://valygo.com",
+  "shortName": "vyo-shadow",
+  "chainId": 17772,
+  "networkId": 17772,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Valygo Shadow Explorer",
+      "url": "https://shadow-explorer.vyoscan.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}

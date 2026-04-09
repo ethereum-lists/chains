@@ -1,0 +1,29 @@
+{
+  "name": "Valygo Carbon Credit L1 Testnet",
+  "chain": "VALYGO",
+  "icon": "valygo",
+  "rpc": [
+    "https://rpc-testnet.vyoscan.com/ext/bc/2AseNmfmzkBnB3LHFPzY7vj3VSxgsFQwRwzRa6tdQgGibafAer/rpc"
+  ],
+  "faucets": [
+    "https://faucet-testnet.vyoscan.com"
+  ],
+  "nativeCurrency": {
+    "name": "VALYGO",
+    "symbol": "VYO",
+    "decimals": 18
+  },
+  "infoURL": "https://valygo.com",
+  "shortName": "vyo-carbon",
+  "chainId": 1780,
+  "networkId": 1780,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Valygo Carbon Credit Explorer",
+      "url": "https://carbon-explorer.vyoscan.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
