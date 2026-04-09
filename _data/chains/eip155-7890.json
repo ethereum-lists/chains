@@ -1,0 +1,24 @@
+{
+  "name": "Panchain Mainnet",
+  "chain": "PC",
+  "rpc": [
+    "https://publicrpc.panchain.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Pan",
+    "symbol": "PC",
+    "decimals": 18
+  },
+  "infoURL": "https://panchain.io",
+  "shortName": "panchain",
+  "chainId": 7890,
+  "networkId": 7890,
+  "explorers": [
+    {
+      "name": "Panchain Explorer",
+      "url": "https://explorer.panchain.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
