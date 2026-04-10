@@ -1,0 +1,22 @@
+{
+  "name": "LIBERTAS Mainnet",
+  "chain": "LBT",
+  "rpc": [
+    "https://rpc.libertas.network"
+  ],
+  "features": [
+    { "name": "EIP155" }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Libertas Token",
+    "symbol": "LBT",
+    "decimals": 18
+  },
+  "infoURL": "https://closefast.tech",
+  "shortName": "libertas",
+  "chainId": 7474,
+  "networkId": 7474,
+  "slip44": 60,
+  "explorers": []
+}
