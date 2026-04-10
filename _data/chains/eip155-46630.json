@@ -25,6 +25,6 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": []
+    "bridges": [{ "url": "https://portal.arbitrum.io/bridge" }]
   }
 }
