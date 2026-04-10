@@ -2,8 +2,14 @@
   "name": "TBURN Mainnet",
   "chain": "TBURN",
   "icon": "tburn",
-  "rpc": ["https://rpc.tburn.io"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [
+    "https://rpc.tburn.io",
+    "https://rpc2.tburn.io",
+    "https://rpc3.tburn.io",
+    "https://rpc4.tburn.io",
+    "https://rpc5.tburn.io"
+  ],
+  "features": [{"name": "EIP155"}, {"name": "EIP1559"}],
   "faucets": [],
   "nativeCurrency": {
     "name": "TBURN",
