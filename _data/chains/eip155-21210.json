@@ -1,10 +1,11 @@
 {
   "name": "1Money Network Mainnet",
-  "chain": "1Money Network",
+  "chain": "1MoneyNetwork",
   "rpc": [
     "https://rpc.mainnet.1money.network",
     "https://rpc1.mainnet.1money.network",
-    "https://rpc2.mainnet.1money.network"
+    "https://rpc2.mainnet.1money.network",
+    "https://rpc3.mainnet.1money.network"
   ],
   "faucets": [],
   "nativeCurrency": {
