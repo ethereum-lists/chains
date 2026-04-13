@@ -1,9 +1,7 @@
 {
   "name": "Seven Chain",
   "chain": "SEVEN",
-  "rpc": [
-    "https://theseven.meme/api/seven-chain/jsonrpc"
-  ],
+  "rpc": ["https://theseven.meme/api/seven-chain/jsonrpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Seven",
