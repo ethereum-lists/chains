@@ -2,8 +2,8 @@
   "name": "Status Network Sepolia",
   "title": "Status Network Sepolia",
   "chain": "ETH",
-  "rpc": ["https://public.sepolia.rpc.status.network"],
-  "faucets": ["https://faucet.status.network/"],
+  "rpc": [],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
@@ -17,19 +17,8 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [
-      {
-        "url": "https://bridge.status.network"
-      }
-    ]
+    "bridges": []
   },
-  "explorers": [
-    {
-      "name": "Blockscout",
-      "url": "https://sepoliascan.status.network",
-      "standard": "EIP3091",
-      "icon": "sn"
-    }
-  ],
-  "status": "active"
+  "explorers": [],
+  "status": "deprecated"
 }
