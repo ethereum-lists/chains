@@ -2,8 +2,8 @@
   "name": "Status Network Hoodi",
   "title": "Status Network Hoodi",
   "chain": "ETH",
-  "rpc": [],
-  "faucets": [],
+  "rpc": ["https://public.hoodi.rpc.status.network"],
+  "faucets": ["https://eth.faucet.status.network/"],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
@@ -23,6 +23,13 @@
       }
     ]
   },
-  "explorers": [],
-  "status": "incubating"
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://hoodiscan.status.network",
+      "standard": "EIP3091",
+      "icon": "snt"
+    }
+  ],
+  "status": "active"
 }
