@@ -8,7 +8,8 @@
     "https://optimism.gateway.tenderly.co",
     "wss://optimism.gateway.tenderly.co",
     "https://optimism.drpc.org",
-    "wss://optimism.drpc.org"
+    "wss://optimism.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/optimism"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,7 +21,6 @@
   "shortName": "oeth",
   "chainId": 10,
   "networkId": 10,
-
   "explorers": [
     {
       "name": "etherscan",
