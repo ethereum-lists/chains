@@ -1,0 +1,29 @@
+{
+  "name": "Seven Chain",
+  "chain": "7chain",
+  "rpc": [
+    "https://theseven.meme/api/seven-chain/jsonrpc"
+  ],
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Seven",
+    "symbol": "SEVEN",
+    "decimals": 18
+  },
+  "infoURL": "https://theseven.meme",
+  "shortName": "7chain",
+  "chainId": 70007,
+  "networkId": 70007,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "Seven Chain Explorer",
+      "url": "https://theseven.meme/blockchain/explorer",
+      "standard": "EIP3091"
+    }
+  ]
+}
