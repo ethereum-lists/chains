@@ -1,0 +1,25 @@
+{
+  "name": "Forma Sketchpad",
+  "chain": "Forma",
+  "rpc": ["https://rpc.sketchpad-1.forma.art"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TIA",
+    "symbol": "TIA",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://forma.art",
+  "shortName": "sketchpad",
+  "chainId": 984123,
+  "networkId": 984123,
+  "icon": "forma",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.sketchpad-1.forma.art",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

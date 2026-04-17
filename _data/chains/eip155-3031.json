@@ -1,0 +1,24 @@
+{
+  "name": "Orlando Chain",
+  "chain": "ORL",
+  "rpc": ["https://rpc-testnet.orlchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Orlando",
+    "symbol": "ORL",
+    "decimals": 18
+  },
+  "infoURL": "https://orlchain.com",
+  "shortName": "ORL",
+  "chainId": 3031,
+  "networkId": 3031,
+  "icon": "orl",
+  "explorers": [
+    {
+      "name": "Orlando (ORL) Explorer",
+      "url": "https://orlscan.com",
+      "icon": "orl",
+      "standard": "EIP3091"
+    }
+  ]
+}

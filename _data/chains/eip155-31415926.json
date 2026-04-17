@@ -1,0 +1,19 @@
+{
+  "name": "Filecoin - Local testnet",
+  "chain": "FIL",
+  "status": "incubating",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "testnet filecoin",
+    "symbol": "tFIL",
+    "decimals": 18
+  },
+  "infoURL": "https://filecoin.io",
+  "shortName": "filecoin-local",
+  "icon": "filecoin",
+  "chainId": 31415926,
+  "networkId": 31415926,
+  "slip44": 1,
+  "explorers": []
+}

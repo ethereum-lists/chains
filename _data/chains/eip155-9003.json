@@ -1,0 +1,24 @@
+{
+  "name": "Qubetics Alpha Testnet",
+  "chain": "Qubetics Alpha Testnet",
+  "rpc": ["https://alphatestnet-evm-rpc.qubetics.work/"],
+  "faucets": ["https://alphatestnet-explorer.qubetics.work/faucet"],
+  "nativeCurrency": {
+    "name": "Qubetics Testnet Token",
+    "symbol": "TICS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.qubetics.com/",
+  "shortName": "QubeticsAlpha",
+  "chainId": 9003,
+  "networkId": 9003,
+  "icon": "qubetics",
+  "explorers": [
+    {
+      "name": "Qubetics Alpha Testnet Explorer",
+      "url": "https://alphatestnet-explorer.qubetics.work/dashboard",
+      "standard": "none",
+      "icon": "qubetics"
+    }
+  ]
+}

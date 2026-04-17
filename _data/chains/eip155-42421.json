@@ -1,0 +1,23 @@
+{
+  "name": "Asset Chain Testnet",
+  "chain": "Asset Chain",
+  "rpc": ["https://enugu-rpc.assetchain.org"],
+  "faucets": ["https://faucet.assetchain.org"],
+  "nativeCurrency": {
+    "name": "Real World Asset",
+    "symbol": "RWA",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.assetchain.org",
+  "shortName": "rwa",
+  "chainId": 42421,
+  "networkId": 42421,
+  "icon": "assetchain",
+  "explorers": [
+    {
+      "name": "Asset Chain Testnet Explorer",
+      "url": "https://scan-testnet.assetchain.org",
+      "standard": "EIP3091"
+    }
+  ]
+}

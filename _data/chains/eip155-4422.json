@@ -1,0 +1,25 @@
+{
+  "name": "Testnet Pika",
+  "chain": "tPKA",
+  "rpc": ["https://testnet-rpc1.pikascan.com"],
+  "faucets": [],
+  "icon": "testnetpsc",
+  "nativeCurrency": {
+    "name": "Testnet Pika",
+    "symbol": "tPKA",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://pikaminter.com",
+  "shortName": "PikaMinter",
+  "chainId": 4422,
+  "networkId": 4422,
+  "explorers": []
+}

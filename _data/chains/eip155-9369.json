@@ -1,0 +1,31 @@
+{
+  "name": "Z Chain",
+  "title": "Z Chain",
+  "chain": "Z",
+  "rpc": ["https://rpc.zchain.org"],
+  "faucets": [],
+  "features": [{ "name": "EIP155" }],
+  "nativeCurrency": {
+    "name": "Z",
+    "symbol": "Z",
+    "decimals": 18
+  },
+  "infoURL": "https://zero.tech",
+  "shortName": "z",
+  "chainId": 9369,
+  "networkId": 9369,
+  "icon": "z",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://zscan.live",
+      "icon": "z",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "bridge.zchain.org" }]
+  }
+}

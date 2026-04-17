@@ -1,0 +1,23 @@
+{
+  "name": "Edgeless Testnet",
+  "chain": "EdgelessTestnet",
+  "rpc": ["https://testnet.rpc.edgeless.network/http"],
+  "features": [{ "name": "EIP155" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Edgeless Wrapped Eth",
+    "symbol": "EwEth",
+    "decimals": 18
+  },
+  "infoURL": "https://edgeless.network",
+  "shortName": "edgeless-testnet",
+  "chainId": 202,
+  "networkId": 202,
+  "explorers": [
+    {
+      "name": "Edgeless Explorer",
+      "url": "https://testnet.explorer.edgeless.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

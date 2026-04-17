@@ -1,0 +1,24 @@
+{
+  "name": "Unite",
+  "chain": "UNITE",
+  "rpc": ["https://unite-mainnet.g.alchemy.com/public"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Unite",
+    "symbol": "UNITE",
+    "decimals": 18
+  },
+  "infoURL": "https://unite.io",
+  "shortName": "unite",
+  "chainId": 88899,
+  "networkId": 88899,
+  "status": "active",
+  "icon": "unite",
+  "explorers": [
+    {
+      "name": "Unite Explorer",
+      "url": "https://unite-mainnet.explorer.alchemy.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

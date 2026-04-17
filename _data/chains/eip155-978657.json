@@ -1,0 +1,25 @@
+{
+  "name": "Treasure Ruby",
+  "chainId": 978657,
+  "shortName": "treasure-ruby",
+  "chain": "TRS",
+  "networkId": 978657,
+  "nativeCurrency": {
+    "name": "Testnet MAGIC",
+    "symbol": "MAGIC",
+    "decimals": 18
+  },
+  "slip44": 1,
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://app.treasure.lol",
+  "icon": "treasureruby",
+  "rpc": [],
+  "faucets": [],
+  "status": "deprecated",
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": []
+  }
+}

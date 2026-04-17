@@ -1,0 +1,23 @@
+{
+  "name": "Bitindi Mainnet",
+  "chain": "BNI",
+  "icon": "bitindi",
+  "rpc": ["https://mainnet-rpc.bitindi.org"],
+  "faucets": ["https://faucet.bitindi.org"],
+  "nativeCurrency": {
+    "name": "BNI",
+    "symbol": "$BNI",
+    "decimals": 18
+  },
+  "infoURL": "https://bitindi.org",
+  "shortName": "BNIm",
+  "chainId": 4099,
+  "networkId": 4099,
+  "explorers": [
+    {
+      "name": "Bitindi",
+      "url": "https://bitindiscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

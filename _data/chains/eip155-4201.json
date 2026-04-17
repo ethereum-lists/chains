@@ -1,0 +1,35 @@
+{
+  "name": "LUKSO Testnet",
+  "chain": "LUKSO Testnet",
+  "icon": "lukso-testnet",
+  "rpc": [
+    "https://rpc.testnet.lukso.network",
+    "wss://ws-rpc.testnet.lukso.network"
+  ],
+  "faucets": ["https://faucet.testnet.lukso.network"],
+  "nativeCurrency": {
+    "name": "TestLYX",
+    "symbol": "LYXt",
+    "decimals": 18
+  },
+  "explorers": [
+    {
+      "name": "LUKSO Testnet Execution Explorer",
+      "url": "https://explorer.execution.testnet.lukso.network",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://lukso.network",
+  "shortName": "lukso-testnet",
+  "chainId": 4201,
+  "networkId": 4201,
+  "slip44": 1,
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ]
+}

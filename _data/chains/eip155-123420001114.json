@@ -1,0 +1,26 @@
+{
+  "name": "Basecamp",
+  "chain": "CAMP",
+  "icon": "camp",
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": ["https://rpc.basecamp.t.raas.gelato.cloud"],
+  "faucets": ["https://www.campnetwork.xyz/faucet_l1"],
+  "nativeCurrency": {
+    "name": "Camp",
+    "symbol": "CAMP",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.campnetwork.xyz/",
+  "shortName": "Basecamp",
+  "chainId": 123420001114,
+  "networkId": 123420001114,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://basecamp.cloud.blockscout.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

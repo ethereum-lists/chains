@@ -1,0 +1,30 @@
+{
+  "name": "ZKcandy Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": ["https://sepolia.rpc.zkcandy.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://zkcandy.io/",
+  "shortName": "zkcandy-sepolia",
+  "chainId": 302,
+  "networkId": 302,
+  "icon": "zkcandy",
+  "explorers": [
+    {
+      "name": "ZKcandy Block Explorer",
+      "url": "https://sepolia.explorer.zkcandy.io",
+      "icon": "zkcandy",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://sepolia.bridge.zkcandy.io/" }]
+  },
+  "redFlags": ["reusedChainId"]
+}

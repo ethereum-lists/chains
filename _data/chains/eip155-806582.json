@@ -1,0 +1,25 @@
+{
+  "name": "Ethpar Testnet",
+  "chain": "ETP",
+  "rpc": ["https://rpc82.testnet.ethpar.net/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ethpar",
+    "symbol": "ETP",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://ethpar.com",
+  "shortName": "ethpar-tesnet",
+  "chainId": 806582,
+  "networkId": 806582,
+  "icon": "ethpar",
+  "explorers": [
+    {
+      "name": "Ethpar Testnet Explorer",
+      "url": "https://dora.testnet.ethpar.net",
+      "icon": "ethpar",
+      "standard": "none"
+    }
+  ]
+}

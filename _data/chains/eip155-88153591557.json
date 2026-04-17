@@ -1,0 +1,34 @@
+{
+  "name": "Arbitrum Blueberry",
+  "title": "Arbitrum Blueberry Testnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://rpc.arb-blueberry.gelato.digital",
+    "wss://ws.arb-blueberry.gelato.digital"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GelatoCGT",
+    "symbol": "CGT",
+    "decimals": 18
+  },
+  "infoURL": "https://raas.gelato.network/rollups/details/public/arb-blueberry",
+  "shortName": "arb-blueberry",
+  "chainId": 88153591557,
+  "networkId": 88153591557,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://arb-blueberry.gelatoscout.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-421614",
+    "bridges": [{ "url": "https://bridge.gelato.network/bridge/arb-blueberry" }]
+  },
+  "status": "active"
+}

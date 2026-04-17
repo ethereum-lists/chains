@@ -1,0 +1,23 @@
+{
+  "name": "Sardis Mainnet",
+  "chain": "SRDX",
+  "icon": "sardis",
+  "rpc": ["https://mainnet-rpc.sardisnetwork.com"],
+  "faucets": ["https://faucet.sardisnetwork.com"],
+  "nativeCurrency": {
+    "name": "Sardis",
+    "symbol": "SRDX",
+    "decimals": 18
+  },
+  "infoURL": "https://mysardis.com",
+  "shortName": "SRDXm",
+  "chainId": 51712,
+  "networkId": 51712,
+  "explorers": [
+    {
+      "name": "Sardis",
+      "url": "https://contract-mainnet.sardisnetwork.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

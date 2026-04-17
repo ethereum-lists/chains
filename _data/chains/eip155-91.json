@@ -1,0 +1,28 @@
+{
+  "name": "Garizon Stage1",
+  "chain": "GAR",
+  "icon": "garizon",
+  "rpc": ["https://s1.garizon.net/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Garizon",
+    "symbol": "GAR",
+    "decimals": 18
+  },
+  "infoURL": "https://garizon.com",
+  "shortName": "gar-s1",
+  "chainId": 91,
+  "networkId": 91,
+  "explorers": [
+    {
+      "name": "explorer",
+      "url": "https://explorer.garizon.com",
+      "icon": "garizon",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "chain": "eip155-90",
+    "type": "shard"
+  }
+}

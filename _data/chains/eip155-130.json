@@ -1,0 +1,32 @@
+{
+  "name": "Unichain",
+  "chain": "ETH",
+  "rpc": [
+    "https://mainnet.unichain.org",
+    "https://unichain-rpc.publicnode.com",
+    "wss://unichain-rpc.publicnode.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://unichain.org",
+  "shortName": "unichain",
+  "chainId": 130,
+  "networkId": 130,
+  "icon": "unichain",
+  "explorers": [
+    {
+      "name": "Unichain Mainnet Explorer",
+      "url": "https://uniscan.xyz",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Unichain Mainnet Explorer",
+      "url": "https://unichain.blockscout.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

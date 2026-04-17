@@ -1,0 +1,24 @@
+{
+  "name": "Filenova Mainnet",
+  "chain": "Filenova",
+  "rpc": ["https://rpc.filenova.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Filecoin",
+    "symbol": "FIL",
+    "decimals": 18
+  },
+  "infoURL": "https://filenova.org",
+  "shortName": "filenova",
+  "chainId": 579,
+  "networkId": 579,
+  "icon": "filenova",
+  "explorers": [
+    {
+      "name": "filenova explorer",
+      "url": "https://scan.filenova.org",
+      "icon": "filenova",
+      "standard": "none"
+    }
+  ]
+}

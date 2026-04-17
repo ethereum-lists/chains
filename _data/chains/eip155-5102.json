@@ -1,0 +1,22 @@
+{
+  "name": "SIC Testnet",
+  "chain": "SIC Testnet",
+  "rpc": ["https://rpc-sic-testnet-zvr7tlkzsi.t.conduit.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.fwb.help/",
+  "shortName": "sic-testnet",
+  "chainId": 5102,
+  "networkId": 5102,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorerl2new-sic-testnet-zvr7tlkzsi.t.conduit.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}

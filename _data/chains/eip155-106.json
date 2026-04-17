@@ -16,9 +16,11 @@
   "shortName": "vlx",
   "chainId": 106,
   "networkId": 106,
-  "explorers": [{
-    "name": "Velas Explorer",
-    "url": "https://evmexplorer.velas.com",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "Velas Explorer",
+      "url": "https://evmexplorer.velas.com",
+      "standard": "EIP3091"
+    }
+  ]
 }

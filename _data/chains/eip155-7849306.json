@@ -1,0 +1,32 @@
+{
+  "name": "Ozean Poseidon Testnet",
+  "chain": "Ozean Poseidon",
+  "rpc": [
+    "https://ozean-testnet.rpc.caldera.xyz/http",
+    "wss://ozean-testnet.rpc.caldera.xyz/ws"
+  ],
+  "faucets": ["https://ozean-testnet.hub.caldera.xyz"],
+  "nativeCurrency": {
+    "name": "USDX",
+    "symbol": "USDX",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.ozean.finance",
+  "shortName": "ozean-poseidon",
+  "chainId": 7849306,
+  "networkId": 7849306,
+  "icon": "ozean",
+  "status": "active",
+  "explorers": [
+    {
+      "name": "Ozean Testnet Explorer",
+      "url": "https://ozean-testnet.explorer.caldera.xyz",
+      "icon": "ozean",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  }
+}

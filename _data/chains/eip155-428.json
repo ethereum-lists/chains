@@ -1,0 +1,23 @@
+{
+  "name": "Geso Verse",
+  "chain": "Geso Verse",
+  "rpc": ["https://rpc.verse.gesoten.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "infoURL": "https://gesoten.com/",
+  "shortName": "GSV",
+  "icon": "gesoten",
+  "chainId": 428,
+  "networkId": 428,
+  "explorers": [
+    {
+      "name": "Geso Verse Explorer",
+      "url": "https://explorer.verse.gesoten.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

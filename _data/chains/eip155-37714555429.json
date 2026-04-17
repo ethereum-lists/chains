@@ -1,0 +1,22 @@
+{
+  "name": "Xai Testnet v2",
+  "chainId": 37714555429,
+  "shortName": "xaitestnet",
+  "chain": "XAI Testnet",
+  "networkId": 37714555429,
+  "nativeCurrency": {
+    "name": "sXai",
+    "symbol": "sXAI",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-v2.xai-chain.net/rpc"],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://testnet-explorer-v2.xai-chain.net",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://xai.games"
+}

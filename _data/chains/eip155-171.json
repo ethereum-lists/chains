@@ -1,0 +1,24 @@
+{
+  "name": "CO2e Chain",
+  "chain": "CO2E",
+  "rpc": ["https://rpc.co2e.cc", "https://rpc.co2ledger.xyz"],
+  "faucets": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "nativeCurrency": {
+    "name": "CO2e Token",
+    "symbol": "CO2E",
+    "decimals": 18
+  },
+  "infoURL": "https://co2e.cc",
+  "shortName": "CO2e",
+  "chainId": 171,
+  "networkId": 171,
+  "icon": "co2e",
+  "explorers": [
+    {
+      "name": "CO2e Explorer",
+      "url": "https://exp.co2e.cc",
+      "standard": "EIP3091"
+    }
+  ]
+}

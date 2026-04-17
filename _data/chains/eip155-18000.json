@@ -1,0 +1,23 @@
+{
+  "name": "Frontier of Dreams Testnet",
+  "chain": "Game Network",
+  "rpc": ["https://rpc.fod.games/"],
+  "nativeCurrency": {
+    "name": "ZKST",
+    "symbol": "ZKST",
+    "decimals": 18
+  },
+  "faucets": [],
+  "shortName": "ZKST",
+  "chainId": 18000,
+  "networkId": 18000,
+  "slip44": 1,
+  "infoURL": "https://goexosphere.com",
+  "explorers": [
+    {
+      "name": "Game Network",
+      "url": "https://explorer.fod.games",
+      "standard": "EIP3091"
+    }
+  ]
+}

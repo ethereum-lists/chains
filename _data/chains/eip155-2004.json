@@ -1,0 +1,23 @@
+{
+  "name": "MetaLink Network",
+  "chain": "MetaLink",
+  "rpc": ["http://77.237.237.69:9933"],
+  "icon": "metaLink",
+  "faucets": [],
+  "shortName": "mtl",
+  "nativeCurrency": {
+    "name": "MetaLink",
+    "symbol": "MTL",
+    "decimals": 18
+  },
+  "infoURL": "http://totwo3.com:3000",
+  "chainId": 2004,
+  "networkId": 2004,
+  "explorers": [
+    {
+      "name": "MetaScan",
+      "url": "http://twoto3.com:3000",
+      "standard": "none"
+    }
+  ]
+}

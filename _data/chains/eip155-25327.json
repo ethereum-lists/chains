@@ -1,0 +1,23 @@
+{
+  "name": "Everclear Mainnet",
+  "chain": "Everclear Mainnet",
+  "rpc": ["https://rpc.everclear.raas.gelato.cloud"],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "faucets": [],
+  "infoURL": "",
+  "shortName": "Everclear",
+  "chainId": 25327,
+  "networkId": 25327,
+  "explorers": [
+    {
+      "name": "Everclear",
+      "url": "https://scan.everclear.org",
+      "icon": "everclear",
+      "standard": "none"
+    }
+  ]
+}

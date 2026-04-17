@@ -1,0 +1,16 @@
+{
+  "name": "XMTP Sepolia",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "infoURL": "https://xmtp.org",
+  "shortName": "xmtp-sepolia",
+  "chainId": 241320161,
+  "networkId": 241320161,
+  "status": "incubating"
+}

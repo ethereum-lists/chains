@@ -1,0 +1,24 @@
+{
+  "name": "Bronos Mainnet",
+  "chain": "Bronos",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BRO",
+    "symbol": "BRO",
+    "decimals": 18
+  },
+  "infoURL": "https://bronos.org",
+  "shortName": "bronos-mainnet",
+  "chainId": 1039,
+  "networkId": 1039,
+  "icon": "bronos",
+  "explorers": [
+    {
+      "name": "Bronos Explorer",
+      "url": "https://broscan.bronos.org",
+      "standard": "none",
+      "icon": "bronos"
+    }
+  ]
+}

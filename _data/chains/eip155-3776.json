@@ -1,0 +1,33 @@
+{
+  "name": "Astar zkEVM",
+  "shortName": "astrzk",
+  "title": "Astar zkEVM Mainnet",
+  "chain": "ETH",
+  "icon": "astar",
+  "rpc": ["https://rpc.startale.com/astar-zkevm"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://astar.network",
+  "chainId": 3776,
+  "networkId": 3776,
+  "explorers": [
+    {
+      "name": "Blockscout Astar zkEVM explorer",
+      "url": "https://astar-zkevm.explorer.startale.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [
+      {
+        "url": "https://portal.astar.network"
+      }
+    ]
+  }
+}

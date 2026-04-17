@@ -1,0 +1,30 @@
+{
+  "name": "Prometheuz Testnet",
+  "chain": "Prometheuz",
+  "rpc": ["https://explorer.testnet.prometheuz.io"],
+  "faucets": ["https://faucet.testnet.prometheuz.io"],
+  "nativeCurrency": {
+    "name": "Pyre",
+    "symbol": "PYRE",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "",
+  "shortName": "prometheuz-testnet",
+  "chainId": 565,
+  "networkId": 565,
+  "explorers": [
+    {
+      "name": "Prometheuz Explorer",
+      "url": "https://explorer.testnet.prometheuz.io",
+      "standard": "none"
+    }
+  ]
+}

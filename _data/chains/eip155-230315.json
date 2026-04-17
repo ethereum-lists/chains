@@ -1,0 +1,24 @@
+{
+  "name": "HashKey Chain Testnet(discard)",
+  "chain": "HashKey",
+  "rpc": ["https://testnet.hashkeychain/rpc"],
+  "faucets": ["https://testnet.hashkeychain/faucet"],
+  "nativeCurrency": {
+    "name": "HashKey Token",
+    "symbol": "tHSK",
+    "decimals": 18
+  },
+  "infoURL": "https://www.hashkey.com",
+  "shortName": "hsktest",
+  "chainId": 230315,
+  "networkId": 230315,
+  "slip44": 1,
+  "icon": "hsk",
+  "explorers": [
+    {
+      "name": "HashKey Chain Testnet Explorer",
+      "url": "https://testnet.hashkeyscan.io",
+      "standard": "none"
+    }
+  ]
+}

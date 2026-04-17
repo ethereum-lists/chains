@@ -1,0 +1,25 @@
+{
+  "name": "COTI",
+  "chainId": 2632500,
+  "shortName": "coti",
+  "chain": "COTI",
+  "networkId": 2632500,
+  "nativeCurrency": {
+    "name": "COTI",
+    "symbol": "COTI",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.coti.io/rpc"],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "COTI Mainnet Explorer",
+      "url": "https://mainnet.cotiscan.io",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://coti.io/",
+  "icon": "coti",
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }]
+}

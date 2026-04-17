@@ -1,0 +1,15 @@
+{
+  "name": "Chain Opera Testnet",
+  "chain": "Chain Opera Testnet",
+  "rpc": ["http://40.78.123.6:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "coai",
+    "symbol": "CO",
+    "decimals": 18
+  },
+  "infoURL": "https://chainopera.ai/",
+  "shortName": "chainopera-testnet",
+  "chainId": 10066,
+  "networkId": 10066
+}

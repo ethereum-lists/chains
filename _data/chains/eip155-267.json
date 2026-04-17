@@ -1,0 +1,34 @@
+{
+  "name": "Neura Testnet",
+  "title": "Neura Testnet",
+  "chain": "NEURA",
+  "icon": "neura",
+  "rpc": ["https://rpc.ankr.com/neura_testnet"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": ["https://testnet.neuraprotocol.io/faucet"],
+  "nativeCurrency": {
+    "name": "Testnet Ankr",
+    "symbol": "ANKR",
+    "decimals": 18
+  },
+  "infoURL": "https://www.neuraprotocol.io/",
+  "shortName": "tneura",
+  "chainId": 267,
+  "networkId": 267,
+  "explorers": [
+    {
+      "name": "ankrscan-neura",
+      "url": "https://testnet.explorer.neuraprotocol.io",
+      "icon": "neura",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "blockscout",
+      "url": "https://explorer.neura-testnet.ankr.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active",
+  "slip44": 1
+}

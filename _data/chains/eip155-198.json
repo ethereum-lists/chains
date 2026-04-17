@@ -1,0 +1,22 @@
+{
+  "name": "Bitchain Mainnet",
+  "chain": "Bit",
+  "rpc": ["https://rpc.bitchain.biz/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.bitchain.biz/",
+  "shortName": "bit",
+  "chainId": 198,
+  "networkId": 198,
+  "explorers": [
+    {
+      "name": "Bitchain Scan",
+      "url": "https://explorer.bitchain.biz",
+      "standard": "EIP3091"
+    }
+  ]
+}

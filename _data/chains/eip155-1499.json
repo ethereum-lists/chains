@@ -1,0 +1,23 @@
+{
+  "name": "iDos Games Chain Testnet",
+  "chain": "IGC",
+  "icon": "igc-testnet",
+  "rpc": ["https://rpc-testnet.idos.games"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "iDos Games Coin",
+    "symbol": "IGC",
+    "decimals": 18
+  },
+  "infoURL": "https://idosgames.com/",
+  "shortName": "IGC",
+  "chainId": 1499,
+  "networkId": 1499,
+  "explorers": [
+    {
+      "name": "IGC-Scan",
+      "url": "https://igcscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

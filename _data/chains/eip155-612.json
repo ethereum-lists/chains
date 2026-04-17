@@ -1,0 +1,23 @@
+{
+  "name": "EIOB Mainnet",
+  "chain": "EIOB",
+  "icon": "eiob",
+  "rpc": ["https://rpc.eiob.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EIOB",
+    "symbol": "EIOB",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "eiob",
+  "chainId": 612,
+  "networkId": 612,
+  "explorers": [
+    {
+      "name": "EIOB Explorer",
+      "url": "https://explorer.eiob.xyz",
+      "standard": "none"
+    }
+  ]
+}

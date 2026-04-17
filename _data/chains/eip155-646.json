@@ -1,0 +1,18 @@
+{
+  "name": "Flow EVM Previewnet",
+  "chain": "Flow",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FLOW",
+    "symbol": "FLOW",
+    "decimals": 18
+  },
+  "infoURL": "https://developers.flow.com/evm/about",
+  "shortName": "flow-previewnet",
+  "chainId": 646,
+  "networkId": 646,
+  "icon": "flowevm",
+  "explorers": [],
+  "status": "deprecated"
+}

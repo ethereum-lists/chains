@@ -12,11 +12,13 @@
   "shortName": "aox",
   "chainId": 200,
   "networkId": 200,
-  "explorers": [{
-    "name": "blockscout",
-    "url": "https://blockscout.com/xdai/arbitrum",
-    "standard": "EIP3091"
-  }],
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockscout.com/xdai/arbitrum",
+      "standard": "EIP3091"
+    }
+  ],
   "parent": {
     "chain": "eip155-100",
     "type": "L2"

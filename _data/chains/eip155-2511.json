@@ -1,0 +1,28 @@
+{
+  "name": "Karak Goerli",
+  "chain": "Karak",
+  "icon": "karak",
+  "status": "deprecated",
+  "rpc": ["https://goerli.node1.karak.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Karak",
+    "symbol": "KRK",
+    "decimals": 18
+  },
+  "infoURL": "https://karak.network",
+  "shortName": "karak-goerli",
+  "chainId": 2511,
+  "networkId": 2511,
+  "explorers": [
+    {
+      "name": "Karak Goerli Explorer",
+      "url": "https://goerli.scan.karak.network",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-5"
+  }
+}

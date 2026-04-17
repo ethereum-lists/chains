@@ -1,0 +1,22 @@
+{
+  "name": "Pivotal Sepolia",
+  "chainId": 16481,
+  "networkId": 16481,
+  "chain": "Pivotal",
+  "rpc": ["https://sepolia.pivotalprotocol.com"],
+  "faucets": [],
+  "shortName": "pivotal-sepolia",
+  "nativeCurrency": {
+    "name": "Pivotal ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "http://thepivotal.xyz/",
+  "explorers": [
+    {
+      "name": "Pivotal Scan",
+      "url": "https://sepolia.pivotalscan.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}

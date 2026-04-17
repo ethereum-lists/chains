@@ -1,0 +1,27 @@
+{
+  "name": "Horizen Gobi Testnet",
+  "shortName": "Gobi",
+  "chain": "Gobi",
+  "icon": "eon",
+  "rpc": [],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Testnet Zen",
+    "symbol": "tZEN",
+    "decimals": 18
+  },
+  "infoURL": "https://horizen.io/",
+  "chainId": 1663,
+  "networkId": 1663,
+  "slip44": 1,
+  "explorers": [],
+  "status": "deprecated"
+}

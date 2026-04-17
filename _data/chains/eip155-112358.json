@@ -1,0 +1,24 @@
+{
+  "name": "Metachain One Mainnet",
+  "chain": "METAO",
+  "icon": "metao",
+  "rpc": ["https://rpc.metachain.one", "https://rpc2.metachain.one"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Metao",
+    "symbol": "METAO",
+    "decimals": 18
+  },
+  "infoURL": "https://metachain.one",
+  "shortName": "metao",
+  "chainId": 112358,
+  "networkId": 112358,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.metachain.one",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "SEC Mainnet",
+  "chain": "SEC",
+  "icon": "secIcon",
+  "rpc": ["https://rpc.secexplorer.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SEP",
+    "symbol": "SEP",
+    "decimals": 18
+  },
+  "infoURL": "https://smartenergychain.org",
+  "shortName": "SECm",
+  "chainId": 19516,
+  "networkId": 19516,
+  "explorers": [
+    {
+      "name": "SEC Mainnet Explorer",
+      "url": "https://secexplorer.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

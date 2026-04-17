@@ -1,0 +1,32 @@
+{
+  "name": "PlayBlock",
+  "chain": "playblock",
+  "rpc": ["https://rpc.playblock.io", "wss://ws.playblock.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PlayBlock",
+    "symbol": "PBG",
+    "decimals": 18
+  },
+  "infoURL": "https://www.playnance.com",
+  "shortName": "playblock",
+  "chainId": 1829,
+  "slip44": 60,
+  "networkId": 1829,
+  "explorers": [
+    {
+      "name": "PlayBlock",
+      "url": "https://explorer.playblock.io",
+      "standard": "none"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161",
+    "bridges": [
+      {
+        "url": "https://bridge.gelato.network/bridge/playblock"
+      }
+    ]
+  }
+}

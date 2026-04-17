@@ -1,0 +1,24 @@
+{
+  "name": "Ekta",
+  "chain": "EKTA",
+  "rpc": ["https://main.ekta.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EKTA",
+    "symbol": "EKTA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.ekta.io",
+  "shortName": "ekta",
+  "chainId": 1994,
+  "networkId": 1994,
+  "icon": "ekta",
+  "explorers": [
+    {
+      "name": "ektascan",
+      "url": "https://ektascan.io",
+      "icon": "ekta",
+      "standard": "EIP3091"
+    }
+  ]
+}

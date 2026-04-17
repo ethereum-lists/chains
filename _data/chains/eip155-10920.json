@@ -1,0 +1,22 @@
+{
+  "name": "Fuse Flash Testnet",
+  "chain": "Fuse Flash",
+  "rpc": [],
+  "faucets": ["https://faucet.quicknode.com"],
+  "nativeCurrency": {
+    "name": "Fuse",
+    "symbol": "FUSE",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://www.fuse.io",
+  "shortName": "fuseflash",
+  "chainId": 10920,
+  "networkId": 10920,
+  "icon": "fuse",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  },
+  "status": "incubating"
+}
