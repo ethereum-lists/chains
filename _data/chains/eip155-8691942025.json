@@ -1,28 +1,28 @@
 {
-  "name": "ONFA Chain",
-  "title": "ONFA Chain",
+  "name": "ONFA Chain Testnet",
+  "title": "ONFA Chain Testnet",
   "chain": "onfa",
   "rpc": [
-    "https://rpc.onfa.io",
-    "https://rpc.onfachain.com",
-    "wss://ws.onfa.io",
-    "wss://ws.onfachain.com"
+    "https://rpc-testnet.onfachain.com",
+    "https://rpc-testnet.onfachain.net",
+    "wss://ws-testnet.onfachain.com",
+    "wss://ws-testnet.onfachain.net"
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Onfa Coin",
+    "name": "ONFA Coin",
     "symbol": "OFC",
     "decimals": 18
   },
-  "infoURL": "https://onfa.io",
-  "shortName": "onfa",
+  "infoURL": "https://onfachain.com",
+  "shortName": "onfachain",
   "chainId": 8691942025,
   "networkId": 8691942025,
   "icon": "onfachain",
   "explorers": [
     {
       "name": "ONFA Scan",
-      "url": "https://onfascan.com",
+      "url": "https://onfascan.io",
       "icon": "onfachain",
       "standard": "EIP3091"
     }
