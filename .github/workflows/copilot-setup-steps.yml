@@ -1,8 +1,3 @@
-name: Copilot Setup Steps
-
-on:
-  push:
-    branches: [ master ]
 
 jobs:
   setup:
