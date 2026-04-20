@@ -1,1 +1,11 @@
+name: Copilot Setup Steps
 
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Setup complete"
