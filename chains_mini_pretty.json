@@ -19846,9 +19846,9 @@
     "symbol": "FREE",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.1money.network"],
+  "rpc": ["https://rpc.mainnet.1money.network", "https://rpc1.mainnet.1money.network", "https://rpc2.mainnet.1money.network", "https://rpc3.mainnet.1money.network"],
   "faucets": [],
-  "infoURL": "https://1money.com"
+  "infoURL": "https://www.1moneynetwork.com"
 }, {
   "name": "DCpay Mainnet",
   "chainId": 21223,
@@ -29583,9 +29583,9 @@
     "symbol": "FREE",
     "decimals": 18
   },
-  "rpc": ["https://testnet.1money.network"],
-  "faucets": [],
-  "infoURL": "https://1money.com"
+  "rpc": ["https://rpc.testnet.1money.network", "https://rpc1.testnet.1money.network", "https://rpc2.testnet.1money.network", "https://rpc3.testnet.1money.network"],
+  "faucets": ["https://www.1moneynetwork.com/faucet"],
+  "infoURL": "https://www.1moneynetwork.com"
 }, {
   "name": "Sharecle Mainnet",
   "chainId": 1234567,
