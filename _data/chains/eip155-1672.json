@@ -1,6 +1,7 @@
 {
     "name": "Pharos Mainnet",
     "chain": "Pharos",
+    "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
     "rpc": ["https://rpc.pharos.xyz"],
     "nativeCurrency": {
       "name": "PROS",
