@@ -1,0 +1,25 @@
+{
+  "name": "Fenine Testnet",
+  "chain": "FEN",
+  "rpc": ["https://rpc.fene.app"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Fenine",
+    "symbol": "FEN",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://fene.app",
+  "shortName": "FEN",
+  "chainId": 920,
+  "networkId": 920,
+  "icon": "fenine",
+  "explorers": [
+    {
+      "name": "Fenine Scan",
+      "url": "https://explorer.fene.app",
+      "icon": "fenine",
+      "standard": "EIP3091"
+    }
+  ]
+}
