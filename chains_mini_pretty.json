@@ -13766,6 +13766,19 @@
   "faucets": [],
   "infoURL": "https://eraswap.info/"
 }, {
+  "name": "LiterMark Chain",
+  "chainId": 5232,
+  "shortName": "lmk",
+  "networkId": 5232,
+  "nativeCurrency": {
+    "name": "LiterMark",
+    "symbol": "LMK",
+    "decimals": 18
+  },
+  "rpc": ["https://litermark.org/rpc"],
+  "faucets": [],
+  "infoURL": "https://litermark.com"
+}, {
   "name": "Humanode Mainnet",
   "chainId": 5234,
   "shortName": "hmnd",
