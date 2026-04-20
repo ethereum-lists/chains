@@ -6,6 +6,31 @@
     "configurations": [
         
         {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+
+
+        {
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+
+        
+        {
             "type": "node-terminal",
             "name": "Terminal debugowania JavaScript",
             "request": "launch",
