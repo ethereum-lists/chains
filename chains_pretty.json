@@ -21469,6 +21469,42 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "TPIX Chain",
+  "chain": "TPIX",
+  "rpc": ["https://rpc.tpix.online"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Thaiprompt Index",
+    "symbol": "TPIX",
+    "decimals": 18
+  },
+  "infoURL": "https://tpix.online",
+  "shortName": "tpix",
+  "chainId": 4289,
+  "networkId": 4289,
+  "icon": "tpix",
+  "explorers": [{
+    "name": "TPIX Chain Explorer",
+    "url": "https://explorer.tpix.online",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "TPIX Chain Testnet",
+  "chain": "TPIX",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Thaiprompt Index",
+    "symbol": "tTPIX",
+    "decimals": 18
+  },
+  "infoURL": "https://tpix.online",
+  "shortName": "tpix-testnet",
+  "chainId": 4290,
+  "networkId": 4290,
+  "icon": "tpix",
+  "explorers": []
+}, {
   "name": "Echos Chain",
   "chain": "Echos",
   "rpc": ["https://rpc-echos-mainnet-0.t.conduit.xyz"],

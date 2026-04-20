@@ -12986,6 +12986,32 @@
   "faucets": ["https://testnet-explorer.ikchain.net"],
   "infoURL": "https://ikchain.net"
 }, {
+  "name": "TPIX Chain",
+  "chainId": 4289,
+  "shortName": "tpix",
+  "networkId": 4289,
+  "nativeCurrency": {
+    "name": "Thaiprompt Index",
+    "symbol": "TPIX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.tpix.online"],
+  "faucets": [],
+  "infoURL": "https://tpix.online"
+}, {
+  "name": "TPIX Chain Testnet",
+  "chainId": 4290,
+  "shortName": "tpix-testnet",
+  "networkId": 4290,
+  "nativeCurrency": {
+    "name": "Thaiprompt Index",
+    "symbol": "tTPIX",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://tpix.online"
+}, {
   "name": "Echos Chain",
   "chainId": 4321,
   "shortName": "echos",
