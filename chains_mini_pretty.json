@@ -6161,6 +6161,19 @@
   "faucets": ["https://sepoliafaucet.com/"],
   "infoURL": "https://docs.mode.network/"
 }, {
+  "name": "Fenine Testnet",
+  "chainId": 920,
+  "shortName": "FEN",
+  "networkId": 920,
+  "nativeCurrency": {
+    "name": "Fenine",
+    "symbol": "FEN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.fene.app"],
+  "faucets": [],
+  "infoURL": "https://fene.app"
+}, {
   "name": "Yidark Chain Mainnet",
   "chainId": 927,
   "shortName": "ydk",
