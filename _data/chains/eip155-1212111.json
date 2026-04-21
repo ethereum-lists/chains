@@ -1,0 +1,29 @@
+{
+  "name": "1Money Sidechain Testnet",
+  "chain": "1MoneySidechain",
+  "rpc": [
+    "https://sidechain.testnet.1money.network",
+    "https://sidechain1.testnet.1money.network",
+    "https://sidechain2.testnet.1money.network",
+    "https://sidechain3.testnet.1money.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FREE",
+    "symbol": "FREE",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://www.1moneynetwork.com",
+  "shortName": "1money-sc-testnet",
+  "icon": "1moneynetwork",
+  "chainId": 1212111,
+  "networkId": 1212111,
+  "explorers": [
+    {
+      "name": "1Money Network Explorer",
+      "url": "https://www.1moneynetwork.com/explorer",
+      "standard": "EIP3091"
+    }
+  ]
+}
