@@ -24351,6 +24351,39 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "BM Chain",
+  "chain": "BMX",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BMX",
+    "symbol": "BMX",
+    "decimals": 18
+  },
+  "infoURL": "https://bm.xyz",
+  "shortName": "bmx",
+  "chainId": 6800,
+  "networkId": 6800,
+  "explorers": [],
+  "status": "incubating"
+}, {
+  "name": "BM Chain Testnet",
+  "chain": "BMX",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BMX",
+    "symbol": "BMX",
+    "decimals": 18
+  },
+  "infoURL": "https://bm.xyz",
+  "shortName": "bmx-testnet",
+  "chainId": 6801,
+  "networkId": 6801,
+  "slip44": 1,
+  "explorers": [],
+  "status": "incubating"
+}, {
   "name": "RACE Mainnet",
   "chain": "ETH",
   "rpc": ["https://racemainnet.io/"],

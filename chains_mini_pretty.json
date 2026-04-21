@@ -14702,6 +14702,32 @@
   "faucets": ["https://faucet.goldsmartchain.com"],
   "infoURL": "https://goldsmartchain.com"
 }, {
+  "name": "BM Chain",
+  "chainId": 6800,
+  "shortName": "bmx",
+  "networkId": 6800,
+  "nativeCurrency": {
+    "name": "BMX",
+    "symbol": "BMX",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://bm.xyz"
+}, {
+  "name": "BM Chain Testnet",
+  "chainId": 6801,
+  "shortName": "bmx-testnet",
+  "networkId": 6801,
+  "nativeCurrency": {
+    "name": "BMX",
+    "symbol": "BMX",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://bm.xyz"
+}, {
   "name": "RACE Mainnet",
   "chainId": 6805,
   "shortName": "raceeth",
