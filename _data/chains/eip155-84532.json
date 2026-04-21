@@ -4,7 +4,9 @@
   "rpc": [
     "https://sepolia.base.org",
     "https://base-sepolia-rpc.publicnode.com",
-    "wss://base-sepolia-rpc.publicnode.com"
+    "wss://base-sepolia-rpc.publicnode.com",
+    "https://base-sepolia.blockreq.com/v1/rpc/public",
+    "wss://base-sepolia.blockreq.com/v1/ws/public"
   ],
   "faucets": [],
   "nativeCurrency": {
