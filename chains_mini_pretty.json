@@ -15300,6 +15300,19 @@
   "faucets": [],
   "infoURL": "https://adilchain.io"
 }, {
+  "name": "CarrChain Mainnet",
+  "chainId": 7667,
+  "shortName": "CarrChain-Mainnet",
+  "networkId": 7667,
+  "nativeCurrency": {
+    "name": "CarrChain Coin",
+    "symbol": "CARR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.carrchain.io"],
+  "faucets": [],
+  "infoURL": "https://carrchain.io"
+}, {
   "name": "The Root Network - Mainnet",
   "chainId": 7668,
   "shortName": "trn-mainnet",
@@ -23841,6 +23854,19 @@
   "faucets": [],
   "infoURL": "https://www.geekout-pte.com"
 }, {
+  "name": "CarrChain Testnet",
+  "chainId": 76672,
+  "shortName": "CarrChain-Testnet",
+  "networkId": 76672,
+  "nativeCurrency": {
+    "name": "CarrChain Coin",
+    "symbol": "CARR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.carrchain.io"],
+  "faucets": ["https://faucet.carrchain.io"],
+  "infoURL": "https://carrchain.io"
+}, {
   "name": "BORAchain mainnet",
   "chainId": 77001,
   "shortName": "BORAchain",
@@ -23880,18 +23906,18 @@
   "faucets": ["https://faucet.vention.network"],
   "infoURL": "https://ventionscan.io"
 }, {
-  "name": "Carrchain Testnet",
+  "name": "CarrChain Testnet (Deprecated)",
   "chainId": 77652,
-  "shortName": "Carrchain-Testnet",
+  "shortName": "Carrchain-Testnet-Deprecated",
   "networkId": 77652,
   "nativeCurrency": {
-    "name": "Carrchain Coin",
+    "name": "CarrChain Coin",
     "symbol": "CARR",
     "decimals": 18
   },
-  "rpc": ["https://rpc-testnetcarrchain.artiffine.com"],
-  "faucets": ["https://faucet-testnetcarrchain.artiffine.com"],
-  "infoURL": "https://explorer-testnetcarrchain.artiffine.com"
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://carrchain.io"
 }, {
   "name": "Cycle Network Mainnet Sailboat",
   "chainId": 77677,

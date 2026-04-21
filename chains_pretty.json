@@ -25360,6 +25360,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "CarrChain Mainnet",
+  "chain": "CarrChain Mainnet",
+  "rpc": ["https://rpc.carrchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CarrChain Coin",
+    "symbol": "CARR",
+    "decimals": 18
+  },
+  "infoURL": "https://carrchain.io",
+  "shortName": "CarrChain-Mainnet",
+  "chainId": 7667,
+  "networkId": 7667,
+  "icon": "carrchain",
+  "explorers": [{
+    "name": "tracehawk",
+    "url": "https://carrscan.io",
+    "standard": "none"
+  }]
+}, {
   "name": "The Root Network - Mainnet",
   "chain": "TRN",
   "rpc": ["https://root.rootnet.live/archive", "wss://root.rootnet.live/archive/ws"],
@@ -39692,6 +39712,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "CarrChain Testnet",
+  "chain": "CarrChain Testnet",
+  "rpc": ["https://rpc-testnet.carrchain.io"],
+  "faucets": ["https://faucet.carrchain.io"],
+  "nativeCurrency": {
+    "name": "CarrChain Coin",
+    "symbol": "CARR",
+    "decimals": 18
+  },
+  "infoURL": "https://carrchain.io",
+  "shortName": "CarrChain-Testnet",
+  "chainId": 76672,
+  "networkId": 76672,
+  "icon": "carrchain",
+  "explorers": [{
+    "name": "tracehawk",
+    "url": "https://testnet.carrscan.io",
+    "standard": "none"
+  }]
+}, {
   "name": "BORAchain mainnet",
   "chain": "BORA",
   "icon": "bora",
@@ -39754,24 +39794,21 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Carrchain Testnet",
-  "chain": "Carrchain Testnet",
-  "rpc": ["https://rpc-testnetcarrchain.artiffine.com"],
-  "faucets": ["https://faucet-testnetcarrchain.artiffine.com"],
+  "name": "CarrChain Testnet (Deprecated)",
+  "chain": "CarrChain Testnet (Deprecated)",
+  "status": "deprecated",
+  "rpc": [],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "Carrchain Coin",
+    "name": "CarrChain Coin",
     "symbol": "CARR",
     "decimals": 18
   },
-  "infoURL": "https://explorer-testnetcarrchain.artiffine.com",
-  "shortName": "Carrchain-Testnet",
+  "infoURL": "https://carrchain.io",
+  "shortName": "Carrchain-Testnet-Deprecated",
   "chainId": 77652,
   "networkId": 77652,
-  "explorers": [{
-    "name": "tracehawk",
-    "url": "https://explorer-testnetcarrchain.artiffine.com",
-    "standard": "none"
-  }]
+  "explorers": []
 }, {
   "name": "Cycle Network Mainnet Sailboat",
   "chain": "ETH",
