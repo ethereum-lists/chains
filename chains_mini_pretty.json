@@ -22138,6 +22138,19 @@
   "faucets": [],
   "infoURL": "https://blessnet.io"
 }, {
+  "name": "Robinhood Chain Testnet",
+  "chainId": 46630,
+  "shortName": "rh-testnet",
+  "networkId": 46630,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.chain.robinhood.com/rpc"],
+  "faucets": [],
+  "infoURL": "https://docs.robinhood.com/chain/"
+}, {
   "name": "Fusion Testnet",
   "chainId": 46688,
   "shortName": "tfsn",
