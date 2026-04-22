@@ -27351,6 +27351,19 @@
   "faucets": [],
   "infoURL": "https://saakuru.network"
 }, {
+  "name": "StreamChain",
+  "chainId": 250611,
+  "shortName": "stc",
+  "networkId": 250611,
+  "nativeCurrency": {
+    "name": "StreamChain",
+    "symbol": "STC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.strmchain.com"],
+  "faucets": [],
+  "infoURL": "https://strmchain.com"
+}, {
   "name": "CELESTIUM Network Testnet",
   "chainId": 252525,
   "shortName": "tclt",
