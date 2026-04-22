@@ -1,0 +1,25 @@
+{
+  "name": "Dexpace Devnet 01",
+  "chain": "DEX",
+  "rpc": [
+    "https://rpc.dexpace.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dexpace",
+    "symbol": "DEX",
+    "decimals": 18
+  },
+  "infoURL": "https://dexpace.io",
+  "shortName": "dexpace-devnet-01",
+  "chainId": 100100101,
+  "networkId": 100100101,
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "Dexpace Devnet Explorer",
+      "url": "https://explorer.dexpace.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
