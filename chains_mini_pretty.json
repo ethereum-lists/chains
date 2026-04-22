@@ -15508,6 +15508,19 @@
   "faucets": [],
   "infoURL": "https://drawchain.io/"
 }, {
+  "name": "DiamondzChain",
+  "chainId": 7791,
+  "shortName": "dzx",
+  "networkId": 7791,
+  "nativeCurrency": {
+    "name": "Diamondz Shadow Game and Movies",
+    "symbol": "SDM",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet.diamondz.baby"],
+  "faucets": [],
+  "infoURL": "https://diamondzshadow.info"
+}, {
   "name": "OpenEX LONG Testnet",
   "chainId": 7798,
   "shortName": "oex",
