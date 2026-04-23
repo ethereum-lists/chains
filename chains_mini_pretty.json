@@ -13155,6 +13155,19 @@
   "faucets": ["https://gruvin.me/htmlcoin"],
   "infoURL": "https://htmlcoin.com"
 }, {
+  "name": "Oxin Chain",
+  "chainId": 4457,
+  "shortName": "oxin",
+  "networkId": 4457,
+  "nativeCurrency": {
+    "name": "Oxin",
+    "symbol": "OXIN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.oxinchain.io", "https://rpc1.oxinchain.io", "https://rpc2.oxinchain.io"],
+  "faucets": [],
+  "infoURL": "https://oxinchain.io"
+}, {
   "name": "Orderly Sepolia Testnet",
   "chainId": 4460,
   "shortName": "orderlyl2",
