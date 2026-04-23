@@ -1,0 +1,25 @@
+{
+  "name": "CChain",
+  "chain": "CChain",
+  "rpc": [
+    "https://rpc.cchain.cc",
+    "wss://wss.cchain.cc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CChain Token",
+    "symbol": "CCC",
+    "decimals": 18
+  },
+  "infoURL": "https://cchain.cc",
+  "shortName": "CChain",
+  "chainId": 2500,
+  "networkId": 2500,
+  "explorers": [
+    {
+      "name": "CChainScan",
+      "url": "https://cchainscan.cc",
+      "standard": "EIP3091"
+    }
+  ]
+}
