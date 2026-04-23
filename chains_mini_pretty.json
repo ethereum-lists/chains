@@ -9017,7 +9017,7 @@
     "symbol": "CRC",
     "decimals": 18
   },
-  "rpc": ["https://cacib-saturn-test.francecentral.cloudapp.azure.com", "wss://cacib-saturn-test.francecentral.cloudapp.azure.com:9443"],
+  "rpc": ["https://rpc1.kerleano.ca-dag.work", "https://rpc2.kerleano.ca-dag.work", "wss://rpc1.kerleano.ca-dag.work/ws", "wss://rpc2.kerleano.ca-dag.work/ws"],
   "faucets": ["https://github.com/ethereum-pocr/kerleano/blob/main/docs/faucet.md"],
   "infoURL": "https://github.com/ethereum-pocr/kerleano"
 }, {
@@ -11240,7 +11240,7 @@
     "symbol": "CRC",
     "decimals": 18
   },
-  "rpc": ["https://pocrnet.westeurope.cloudapp.azure.com/http", "wss://pocrnet.westeurope.cloudapp.azure.com/ws"],
+  "rpc": ["https://rpc1.pocrnet.ca-dag.work", "https://rpc2.pocrnet.ca-dag.work", "wss://rpc1.pocrnet.ca-dag.work/ws", "wss://rpc2.pocrnet.ca-dag.work/ws"],
   "faucets": [],
   "infoURL": "https://github.com/ethereum-pocr/pocrnet"
 }, {
