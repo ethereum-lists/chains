@@ -1,0 +1,121 @@
+{
+    // Użyj funkcji IntelliSense, aby uzyskać informacje o możliwych atrybutach.
+    // Najedź kursorem, aby wyświetlić opisy istniejących atrybutów.
+    // Aby uzyskać więcej informacji, odwiedź stronę: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Attach by Process ID",
+            "processId": "${command:PickJavaProcess}"
+        },
+        {
+            "type": "java",
+            "name": "Launch External Terminal",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+
+        {
+            "name": "Attach",
+            "port": 9229,
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Attach",
+            "port": 9229,
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "args": [
+                "generator"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "Yeoman generator",
+            "program": "${workspaceFolder}/node_modules/yo/lib/cli.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+
+
+        
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+
+
+        {
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+
+        
+        {
+            "type": "node-terminal",
+            "name": "Terminal debugowania JavaScript",
+            "request": "launch",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
