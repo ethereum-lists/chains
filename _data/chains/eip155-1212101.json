@@ -1,17 +1,29 @@
 {
   "name": "1Money Network Testnet",
-  "chain": "1Money Testnet",
-  "rpc": ["https://testnet.1money.network"],
-  "faucets": [],
+  "chain": "1MoneyNetwork",
+  "rpc": [
+    "https://rpc.testnet.1money.network",
+    "https://rpc1.testnet.1money.network",
+    "https://rpc2.testnet.1money.network",
+    "https://rpc3.testnet.1money.network"
+  ],
+  "faucets": ["https://www.1moneynetwork.com/faucet"],
   "nativeCurrency": {
     "name": "FREE",
     "symbol": "FREE",
     "decimals": 18
   },
   "features": [{ "name": "EIP155" }],
-  "infoURL": "https://1money.com",
+  "infoURL": "https://www.1moneynetwork.com",
   "shortName": "1money-testnet",
+  "icon": "1moneynetwork",
   "chainId": 1212101,
   "networkId": 1212101,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "1Money Network Explorer",
+      "url": "https://www.1moneynetwork.com/explorer?network=testnet",
+      "standard": "EIP3091"
+    }
+  ]
 }
