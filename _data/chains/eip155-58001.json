@@ -1,0 +1,45 @@
+{
+  "name": "TBURN L2 ZK-Rollup",
+  "chain": "TBURN",
+  "icon": "tburn",
+  "rpc": [
+    "https://tburn.io/rpc-l2"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TBURN",
+    "symbol": "TBURN",
+    "decimals": 18
+  },
+  "infoURL": "https://tburn.io",
+  "shortName": "tburn-l2",
+  "chainId": 58001,
+  "networkId": 58001,
+  "slip44": 5800,
+  "explorers": [
+    {
+      "name": "TBURN L2 Explorer",
+      "url": "https://tburn.io/explorer",
+      "standard": "none"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-5800",
+    "bridges": [
+      {
+        "url": "https://tburn.io/bridge"
+      }
+    ]
+  },
+  "status": "active",
+  "redFlags": []
+}
