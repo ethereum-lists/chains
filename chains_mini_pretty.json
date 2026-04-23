@@ -28705,16 +28705,16 @@
 }, {
   "name": "Gensyn Testnet",
   "chainId": 685685,
-  "shortName": "gensyn-test",
+  "shortName": "gensyn-testnet",
   "networkId": 685685,
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://gensyn-testnet.g.alchemy.com/public"],
   "faucets": [],
-  "infoURL": "https://www.gensyn.ai/"
+  "infoURL": "https://gensyn.network/"
 }, {
   "name": "Gensyn Mainnet",
   "chainId": 685689,
@@ -28727,7 +28727,7 @@
   },
   "rpc": ["https://gensyn-mainnet.g.alchemy.com/public"],
   "faucets": [],
-  "infoURL": "https://www.gensyn.ai/"
+  "infoURL": "https://gensyn.network/"
 }, {
   "name": "Won Network",
   "chainId": 686868,
