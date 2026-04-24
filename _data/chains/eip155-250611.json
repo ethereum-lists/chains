@@ -1,0 +1,24 @@
+{
+  "name": "StreamChain",
+  "icon": "streamchain",
+  "shortName": "stc",
+  "chain": "STC",
+  "chainId": 250611,
+  "networkId": 250611,
+  "rpc": ["https://rpc.strmchain.com"],
+  "faucets": [],
+  "infoURL": "https://strmchain.com",
+  "nativeCurrency": {
+    "name": "StreamChain",
+    "symbol": "STC",
+    "decimals": 18
+  },
+  "explorers": [
+    {
+      "name": "StreamChain Explorer",
+      "url": "https://explorer.strmchain.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
