@@ -9,13 +9,21 @@
     "symbol": "CELO",
     "decimals": 18
   },
-  "rpc": ["https://forno.celo.org", "wss://forno.celo.org/ws"],
+  "rpc": [
+    "https://forno.celo.org",
+    "wss://forno.celo.org/ws",
+    "https://rpc.swiftnodes.io/rpc/celo"
+  ],
   "faucets": [],
   "infoURL": "https://docs.celo.org/",
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://superbridge.app/celo" }]
+    "bridges": [
+      {
+        "url": "https://superbridge.app/celo"
+      }
+    ]
   },
   "explorers": [
     {

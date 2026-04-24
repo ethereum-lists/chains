@@ -1,7 +1,10 @@
 {
   "name": "Story",
   "chain": "STORY",
-  "rpc": ["https://mainnet.storyrpc.io"],
+  "rpc": [
+    "https://mainnet.storyrpc.io",
+    "https://rpc.swiftnodes.io/rpc/story"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "IP Token",

@@ -5,7 +5,8 @@
   "rpc": [
     "https://rpc.mantle.xyz",
     "https://mantle-rpc.publicnode.com",
-    "wss://mantle-rpc.publicnode.com"
+    "wss://mantle-rpc.publicnode.com",
+    "https://rpc.swiftnodes.io/rpc/mantle"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -32,6 +33,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.mantle.xyz" }]
+    "bridges": [
+      {
+        "url": "https://bridge.mantle.xyz"
+      }
+    ]
   }
 }

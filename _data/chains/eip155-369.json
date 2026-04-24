@@ -9,11 +9,19 @@
     "https://rpc.pulsechain.com",
     "https://pulsechain-rpc.publicnode.com",
     "wss://pulsechain-rpc.publicnode.com",
-    "https://rpc-pulsechain.g4mm4.io"
+    "https://rpc-pulsechain.g4mm4.io",
+    "https://rpc.swiftnodes.io/rpc/pulsechain"
   ],
   "icon": "pulsechain",
   "slip44": 60,
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "ens": {
     "registry": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"

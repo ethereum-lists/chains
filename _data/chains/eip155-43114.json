@@ -5,9 +5,14 @@
   "rpc": [
     "https://api.avax.network/ext/bc/C/rpc",
     "https://avalanche-c-chain-rpc.publicnode.com",
-    "wss://avalanche-c-chain-rpc.publicnode.com"
+    "wss://avalanche-c-chain-rpc.publicnode.com",
+    "https://rpc.swiftnodes.io/rpc/avalanche"
   ],
-  "features": [{ "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Avalanche",
@@ -30,6 +35,10 @@
       "url": "https://snowtrace.io",
       "standard": "EIP3091"
     },
-    { "name": "Avascan", "url": "https://avascan.info", "standard": "EIP3091" }
+    {
+      "name": "Avascan",
+      "url": "https://avascan.info",
+      "standard": "EIP3091"
+    }
   ]
 }

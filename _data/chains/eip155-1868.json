@@ -3,7 +3,10 @@
   "shortName": "soneium",
   "title": "Soneium mainnet",
   "chain": "ETH",
-  "rpc": ["https://rpc.soneium.org"],
+  "rpc": [
+    "https://rpc.soneium.org",
+    "https://rpc.swiftnodes.io/rpc/soneium"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -35,6 +38,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://superbridge.app/soneium" }]
+    "bridges": [
+      {
+        "url": "https://superbridge.app/soneium"
+      }
+    ]
   }
 }
