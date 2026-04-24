@@ -4484,6 +4484,19 @@
   "faucets": [],
   "infoURL": "https://camino.network/"
 }, {
+  "name": "DotOne Smart Chain",
+  "chainId": 505,
+  "shortName": "doto",
+  "networkId": 505,
+  "nativeCurrency": {
+    "name": "Doto",
+    "symbol": "DOTO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.dotone.network"],
+  "faucets": [],
+  "infoURL": "https://dotone.network"
+}, {
   "name": "Syndicate Mainnet",
   "chainId": 510,
   "shortName": "syndicate",
