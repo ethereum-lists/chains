@@ -23633,6 +23633,19 @@
   "faucets": [],
   "infoURL": "https://thinkium.net/"
 }, {
+  "name": "Seven Chain",
+  "chainId": 70007,
+  "shortName": "seven",
+  "networkId": 70007,
+  "nativeCurrency": {
+    "name": "Seven",
+    "symbol": "SEVEN",
+    "decimals": 18
+  },
+  "rpc": ["https://theseven.meme/api/seven-chain/jsonrpc"],
+  "faucets": [],
+  "infoURL": "https://theseven.meme"
+}, {
   "name": "Thinkium Mainnet Chain 103",
   "chainId": 70103,
   "shortName": "TKM103",
