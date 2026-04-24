@@ -15261,6 +15261,19 @@
   "faucets": [],
   "infoURL": "https://rarimo.com"
 }, {
+  "name": "TokClaw Blockchain",
+  "chainId": 7447,
+  "shortName": "TokClaw",
+  "networkId": 7447,
+  "nativeCurrency": {
+    "name": "FEE",
+    "symbol": "FEE",
+    "decimals": 6
+  },
+  "rpc": ["https://rpc.tokclaw.com"],
+  "faucets": [],
+  "infoURL": "https://tokclaw.com"
+}, {
   "name": "Raba Network Mainnet",
   "chainId": 7484,
   "shortName": "raba",
