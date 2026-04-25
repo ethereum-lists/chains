@@ -1,0 +1,24 @@
+{
+  "name": "eGLOBLE Chain",
+  "chain": "eGBL",
+  "rpc": [
+    "https://rpc.egloble.site"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "eGBL",
+    "symbol": "eGBL",
+    "decimals": 18
+  },
+  "infoURL": "https://egloble.site",
+  "shortName": "egbl",
+  "chainId": 224488,
+  "networkId": 224488,
+  "explorers": [
+    {
+      "name": "eGLOBLE Explorer",
+      "url": "https://explorer.egloble.site",
+      "standard": "EIP3091"
+    }
+  ]
+}
