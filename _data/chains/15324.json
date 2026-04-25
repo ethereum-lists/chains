@@ -1,0 +1,17 @@
+{
+  "name": "INFRA Testnet",
+  "chain": "INFRA",
+  "rpc": [
+    "https://ppprototype.vercel.app/api/infra-rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "reAED",
+    "symbol": "reAED",
+    "decimals": 18
+  },
+  "infoURL": "https://infrablockchain.com/",
+  "shortName": "infra-testnet",
+  "chainId": 15324,
+  "networkId": 15324
+}
