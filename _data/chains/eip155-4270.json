@@ -1,0 +1,27 @@
+{
+  "name": "IKChain Testnet",
+  "chain": "IKChain",
+  "icon": "ikchain",
+  "rpc": ["https://testnet-rpc.ikchain.net"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": ["https://testnet-explorer.ikchain.net"],
+  "nativeCurrency": {
+    "name": "IKCrypto",
+    "symbol": "IKCr",
+    "decimals": 18
+  },
+  "infoURL": "https://ikchain.net",
+  "shortName": "ikchain-testnet",
+  "chainId": 4270,
+  "networkId": 4270,
+  "slip44": 1,
+  "status": "active",
+  "explorers": [
+    {
+      "name": "IKChain Testnet Explorer",
+      "url": "https://testnet-explorer.ikchain.net",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
