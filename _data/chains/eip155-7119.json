@@ -2,7 +2,7 @@
   "name": "Sentrix Mainnet",
   "chain": "Sentrix",
   "rpc": [
-    "https://sentrix-rpc.sentriscloud.com/rpc"
+    "https://rpc.sentrixchain.com/rpc"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -17,7 +17,8 @@
   "explorers": [
     {
       "name": "Sentrixscan",
-      "url": "https://sentrixscan.sentriscloud.com"
+      "url": "https://scan.sentrixchain.com",
+      "standard": "none"
     }
   ]
 }
