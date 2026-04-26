@@ -1,12 +1,8 @@
 {
   "name": "Helix Chain",
   "chain": "HLX",
-  "rpc": [
-    "https://rpc.thehelixchain.xyz"
-  ],
-  "faucets": [
-    "https://faucet.thehelixchain.xyz"
-  ],
+  "rpc": ["https://rpc.thehelixchain.xyz"],
+  "faucets": ["https://faucet.thehelixchain.xyz"],
   "nativeCurrency": {
     "name": "Helix",
     "symbol": "HLX",
@@ -19,9 +15,6 @@
   "features": [
     {
       "name": "EIP155"
-    },
-    {
-      "name": "EIP1559"
     }
   ],
   "explorers": [
