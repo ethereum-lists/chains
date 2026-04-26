@@ -27455,6 +27455,19 @@
   "faucets": [],
   "infoURL": "https://saakuru.network"
 }, {
+  "name": "PlasticHero",
+  "chainId": 250210,
+  "shortName": "pth",
+  "networkId": 250210,
+  "nativeCurrency": {
+    "name": "PlasticHero",
+    "symbol": "PTH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.plasticherokorea.com"],
+  "faucets": [],
+  "infoURL": "https://www.plasticherocoin.com"
+}, {
   "name": "StreamChain",
   "chainId": 250611,
   "shortName": "stc",
