@@ -10321,6 +10321,19 @@
   "faucets": [],
   "infoURL": "https://moonsama.com"
 }, {
+  "name": "Parallax",
+  "chainId": 2110,
+  "shortName": "parallax",
+  "networkId": 2110,
+  "nativeCurrency": {
+    "name": "Parallax",
+    "symbol": "LAX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.parallaxprotocol.org"],
+  "faucets": ["https://faucet.parallaxprotocol.org"],
+  "infoURL": "https://parallaxprotocol.org"
+}, {
   "name": "UCHAIN Mainnet",
   "chainId": 2112,
   "shortName": "uchain",
