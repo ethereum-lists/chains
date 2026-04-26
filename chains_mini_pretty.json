@@ -19954,6 +19954,19 @@
   "faucets": [],
   "infoURL": "https://www.1moneynetwork.com"
 }, {
+  "name": "1Money Sidechain Mainnet",
+  "chainId": 21211,
+  "shortName": "1money-sc",
+  "networkId": 21211,
+  "nativeCurrency": {
+    "name": "FREE",
+    "symbol": "FREE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.sidechain.mainnet.1money.network", "https://rpc1.sidechain.mainnet.1money.network", "https://rpc2.sidechain.mainnet.1money.network", "https://rpc3.sidechain.mainnet.1money.network"],
+  "faucets": [],
+  "infoURL": "https://www.1moneynetwork.com"
+}, {
   "name": "DCpay Mainnet",
   "chainId": 21223,
   "shortName": "DCPm",
@@ -29741,6 +29754,19 @@
   },
   "rpc": ["https://rpc.testnet.1money.network", "https://rpc1.testnet.1money.network", "https://rpc2.testnet.1money.network", "https://rpc3.testnet.1money.network"],
   "faucets": ["https://www.1moneynetwork.com/faucet"],
+  "infoURL": "https://www.1moneynetwork.com"
+}, {
+  "name": "1Money Sidechain Testnet",
+  "chainId": 1212111,
+  "shortName": "1money-sc-testnet",
+  "networkId": 1212111,
+  "nativeCurrency": {
+    "name": "FREE",
+    "symbol": "FREE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.sidechain.testnet.1money.network", "https://rpc1.sidechain.testnet.1money.network", "https://rpc2.sidechain.testnet.1money.network", "https://rpc3.sidechain.testnet.1money.network"],
+  "faucets": [],
   "infoURL": "https://www.1moneynetwork.com"
 }, {
   "name": "Sharecle Mainnet",
