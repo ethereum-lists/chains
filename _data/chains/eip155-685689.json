@@ -8,9 +8,26 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "https://www.gensyn.ai/",
+  "infoURL": "https://gensyn.network/",
   "shortName": "gensyn-mainnet",
   "chainId": 685689,
   "networkId": 685689,
+  "icon": "gensyn",
+  "explorers": [
+    {
+      "name": "Gensyn Mainnet Explorer",
+      "url": "https://gensyn-mainnet.explorer.alchemy.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [
+      {
+        "url": "https://stargate.finance/bridge"
+      }
+    ]
+  },
   "status": "active"
 }
