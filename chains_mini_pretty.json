@@ -19759,6 +19759,19 @@
   "faucets": [],
   "infoURL": "https://ultra.io"
 }, {
+  "name": "SuperAIChain Mainnet",
+  "chainId": 19998,
+  "shortName": "sup",
+  "networkId": 19998,
+  "nativeCurrency": {
+    "name": "SUP",
+    "symbol": "SUP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.superaichain.ai"],
+  "faucets": [],
+  "infoURL": "https://superaichain.ai"
+}, {
   "name": "Camelark Mainnet",
   "chainId": 20001,
   "shortName": "Camelark",
