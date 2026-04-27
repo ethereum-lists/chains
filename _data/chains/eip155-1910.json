@@ -1,0 +1,16 @@
+{
+  "name": "KWALA Devnet",
+  "chain": "KWALA",
+  "icon": "kwala",
+  "rpc": ["https://dev-kwala-rpc-node.p2eppl.com"],
+  "nativeCurrency": {
+    "name": "KWALA",
+    "symbol": "KWALA",
+    "decimals": 18
+  },
+  "faucets": [],
+  "infoURL": "https://kwala.network",
+  "shortName": "kwala",
+  "chainId": 1910,
+  "networkId": 1910
+}
