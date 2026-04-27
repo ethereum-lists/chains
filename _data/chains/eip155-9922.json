@@ -1,0 +1,23 @@
+{
+  "name": "JingleX L2",
+  "chain": "JNX",
+  "icon": "jinglex",
+  "rpc": ["https://rpc.jinglex.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "JingleX",
+    "symbol": "JNX",
+    "decimals": 18
+  },
+  "infoURL": "https://jinglex.net",
+  "shortName": "jnx",
+  "chainId": 9922,
+  "networkId": 9922,
+  "explorers": [
+    {
+      "name": "JingleX Explorer",
+      "url": "https://rpc.jinglex.net",
+      "standard": "none"
+    }
+  ]
+}
