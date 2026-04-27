@@ -1,0 +1,25 @@
+{
+  "name": "SuperAIChain Mainnet",
+  "chain": "SuperAIChain",
+  "icon": "superaichain",
+  "rpc": ["https://rpc.superaichain.ai"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SUP",
+    "symbol": "SUP",
+    "decimals": 18
+  },
+  "infoURL": "https://superaichain.ai",
+  "shortName": "sup",
+  "chainId": 19998,
+  "networkId": 19998,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "SuperAIChain Explorer",
+      "url": "https://scan.superaichain.ai",
+      "standard": "EIP3091"
+    }
+  ]
+}
