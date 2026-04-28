@@ -15,5 +15,10 @@
   "chainId": 9922,
   "networkId": 9922,
   "slip44": 60,
-  "explorers": []
+  "explorers": [    {
+      "name": "JingleX Explorer",
+      "url": "https://jinglex.net/explorer",
+      "standard": "none"
+    }
+  ]
 }
