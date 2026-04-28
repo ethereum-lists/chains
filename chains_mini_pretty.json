@@ -17510,6 +17510,19 @@
   "faucets": [],
   "infoURL": "https://espento.network"
 }, {
+  "name": "JingleX L2",
+  "chainId": 9922,
+  "shortName": "jnx",
+  "networkId": 9922,
+  "nativeCurrency": {
+    "name": "JingleX",
+    "symbol": "JNX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.jinglex.net"],
+  "faucets": [],
+  "infoURL": "https://jinglex.net"
+}, {
   "name": "UXER TESTNET NETWORK",
   "chainId": 9966,
   "shortName": "uxer",
