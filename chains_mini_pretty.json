@@ -9047,6 +9047,19 @@
   "faucets": ["https://analogfaucet.com"],
   "infoURL": "https://rabbit.analogscan.com"
 }, {
+  "name": "Ruby Chain Testnet",
+  "chainId": 1810,
+  "shortName": "ruby-testnet",
+  "networkId": 1810,
+  "nativeCurrency": {
+    "name": "Ruby",
+    "symbol": "RUBY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.ruby.testnet.finetry.win", "https://rpc2.ruby.testnet.finetry.win"],
+  "faucets": ["https://faucet.ruby.testnet.finetry.win"],
+  "infoURL": "https://elektrum.io"
+}, {
   "name": "Lif3 Chain Testnet",
   "chainId": 1811,
   "shortName": "lif3-testnet",
