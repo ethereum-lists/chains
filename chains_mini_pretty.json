@@ -25297,6 +25297,19 @@
   "faucets": [],
   "infoURL": "https://www.greenchain.app"
 }, {
+  "name": "Pepe Unchained V2",
+  "chainId": 97741,
+  "shortName": "pepuv2",
+  "networkId": 97741,
+  "nativeCurrency": {
+    "name": "PEPU",
+    "symbol": "PEPU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-pepu-v2-mainnet-0.t.conduit.xyz"],
+  "faucets": [],
+  "infoURL": "https://pepeunchained.com/"
+}, {
   "name": "MetaBenz CHAIN",
   "chainId": 97766,
   "shortName": "metabenzscan",

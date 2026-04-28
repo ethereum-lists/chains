@@ -42092,6 +42092,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Pepe Unchained V2",
+  "chain": "PEPU",
+  "icon": "pepu",
+  "rpc": ["https://rpc-pepu-v2-mainnet-0.t.conduit.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PEPU",
+    "symbol": "PEPU",
+    "decimals": 18
+  },
+  "infoURL": "https://pepeunchained.com/",
+  "shortName": "pepuv2",
+  "chainId": 97741,
+  "networkId": 97741,
+  "explorers": [{
+    "name": "pepuscan",
+    "url": "https://pepuscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "MetaBenz CHAIN",
   "chain": "MetaBenz CHAIN",
   "rpc": ["https://rpc.metabenzscan.com"],
