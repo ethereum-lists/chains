@@ -7331,6 +7331,19 @@
   "faucets": [],
   "infoURL": "https://plexfinance.us/"
 }, {
+  "name": "Intuition Mainnet",
+  "chainId": 1155,
+  "shortName": "intuition",
+  "networkId": 1155,
+  "nativeCurrency": {
+    "name": "TRUST",
+    "symbol": "TRUST",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.intuition.systems"],
+  "faucets": [],
+  "infoURL": "https://intuition.systems"
+}, {
   "name": "Origin Testnet",
   "chainId": 1170,
   "shortName": "auoc",
