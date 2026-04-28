@@ -9972,7 +9972,7 @@
 }, {
   "name": "Capital Exchange",
   "chain": "CXM",
-  "rpc": ["https://rpc.capitalexchange.net", "https://rpc.capitalexchangecrypto.com"],
+  "rpc": [],
   "features": [{
     "name": "EIP155"
   }, {
@@ -9984,16 +9984,12 @@
     "symbol": "CXM",
     "decimals": 18
   },
-  "infoURL": "https://www.capitalexchange.markets",
+  "infoURL": "https://www.capitalexchange.it",
   "shortName": "CXM",
   "chainId": 890,
   "networkId": 890,
-  "status": "active",
-  "explorers": [{
-    "name": "Capital Exchange EVM",
-    "url": "https://explorer.capitalexchange.net",
-    "standard": "EIP3091"
-  }]
+  "status": "deprecated",
+  "explorers": []
 }, {
   "name": "MAXI Chain Testnet",
   "chain": "MAXI",
