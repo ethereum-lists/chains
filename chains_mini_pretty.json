@@ -12583,6 +12583,19 @@
   "faucets": [],
   "infoURL": "https://paynetwork-main.hub.caldera.xyz"
 }, {
+  "name": "Pione Trace Mainnet",
+  "chainId": 3989,
+  "shortName": "ptc",
+  "networkId": 3989,
+  "nativeCurrency": {
+    "name": "Pione Trace",
+    "symbol": "PTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.pionetrace.com"],
+  "faucets": [],
+  "infoURL": "https://pionetrace.com"
+}, {
   "name": "APEX Testnet",
   "chainId": 3993,
   "shortName": "apexsep",
