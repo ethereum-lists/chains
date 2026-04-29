@@ -1,0 +1,25 @@
+{
+  "name": "AXION Mainnet",
+  "chain": "AXION",
+  "icon": "axion",
+  "rpc": [
+    "https://rpc.axiondefi.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AXION",
+    "symbol": "AXION",
+    "decimals": 18
+  },
+  "infoURL": "https://www.axiondefi.com",
+  "shortName": "axion",
+  "chainId": 303030,
+  "networkId": 303030,
+  "explorers": [
+    {
+      "name": "AXSCAN",
+      "url": "https://axscan.axiondefi.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
