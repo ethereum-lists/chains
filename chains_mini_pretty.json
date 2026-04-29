@@ -12466,6 +12466,19 @@
   "faucets": ["https://faucet.tangle.tools"],
   "infoURL": "https://docs.tangle.tools"
 }, {
+  "name": "FAVO Mainnet",
+  "chainId": 3838,
+  "shortName": "favo",
+  "networkId": 3838,
+  "nativeCurrency": {
+    "name": "FAVO",
+    "symbol": "FAVO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.favoscan.com"],
+  "faucets": [],
+  "infoURL": "https://www.favoscan.com"
+}, {
   "name": "Firechain zkEVM Ghostrider",
   "chainId": 3885,
   "shortName": "firechain-zkEVM-testnet",
