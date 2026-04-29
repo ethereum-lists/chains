@@ -9385,6 +9385,19 @@
   "faucets": [],
   "infoURL": "https://mobylab.docs.crescdi.pub.ro/blog/UPB-CRESCDI-Testnet"
 }, {
+  "name": "TurkChain",
+  "chainId": 1919,
+  "shortName": "turk",
+  "networkId": 1919,
+  "nativeCurrency": {
+    "name": "TC",
+    "symbol": "TURK",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.turkscan.com"],
+  "faucets": [],
+  "infoURL": "https://turkscan.com"
+}, {
   "name": "Swellchain",
   "chainId": 1923,
   "shortName": "swellchain",

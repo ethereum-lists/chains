@@ -15526,6 +15526,32 @@
   "networkId": 1918,
   "explorers": []
 }, {
+  "name": "TurkChain",
+  "chain": "TurkChain",
+  "rpc": ["https://rpc.turkscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TC",
+    "symbol": "TURK",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://turkscan.com",
+  "shortName": "turk",
+  "chainId": 1919,
+  "networkId": 1919,
+  "icon": "turkchain",
+  "explorers": [{
+    "name": "turkscan",
+    "url": "https://turkscan.com",
+    "icon": "turkchain",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Swellchain",
   "chain": "ETH",
   "rpc": ["https://swell-mainnet.alt.technology", "https://rpc.ankr.com/swell"],
