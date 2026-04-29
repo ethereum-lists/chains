@@ -21397,6 +21397,19 @@
   "faucets": [],
   "infoURL": "https://j2o.io"
 }, {
+  "name": "CoinAfrica",
+  "chainId": 35147,
+  "shortName": "coina",
+  "networkId": 35147,
+  "nativeCurrency": {
+    "name": "COINA",
+    "symbol": "COINA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.coinafrica.tech"],
+  "faucets": [],
+  "infoURL": "https://coinafrica.tech"
+}, {
   "name": "Q Mainnet",
   "chainId": 35441,
   "shortName": "q",
