@@ -2,9 +2,7 @@
   "name": "WINTG Testnet",
   "chain": "WINTG",
   "icon": "wintg",
-  "rpc": [
-    "https://testnet-rpc.wintg.network"
-  ],
+  "rpc": ["https://testnet-rpc.wintg.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "WINTG",
