@@ -2,20 +2,14 @@
   "name": "Ting Chain Testnet",
   "title": "Ting Chain Testnet",
   "chain": "tingchain",
-  "rpc": [
-    "https://rpc-testnet.tingscan.com",
-    "wss://rpc-testnet.tingscan.com"
-  ],
+  "rpc": ["https://rpc-testnet.tingscan.com", "wss://rpc-testnet.tingscan.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ting",
     "symbol": "TING",
     "decimals": 18
   },
-  "features": [
-    { "name": "EIP155" },
-    { "name": "EIP1559" }
-  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://tingscan.com",
   "shortName": "ting-testnet",
   "chainId": 6666689,
