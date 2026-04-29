@@ -1,5 +1,5 @@
 {
-  "name": "Pepe Unchained",
+  "name": "Pepe Unchained Deprecated",
   "chain": "PEPU",
   "icon": "pepu",
   "rpc": ["https://rpc-pepe-unchained-gupg0lo9wf.t.conduit.xyz"],
@@ -10,9 +10,10 @@
     "decimals": 18
   },
   "infoURL": "https://pepeunchained.com/",
-  "shortName": "PEPU",
+  "shortName": "pepudeprecated",
   "chainId": 3409,
   "networkId": 3409,
+  "status": "deprecated",
   "explorers": [
     {
       "name": "pepuscan",
