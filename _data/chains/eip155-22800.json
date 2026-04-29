@@ -1,0 +1,27 @@
+{
+  "name": "WINTG Testnet",
+  "chain": "WINTG",
+  "icon": "wintg",
+  "rpc": [
+    "https://testnet-rpc.wintg.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WINTG",
+    "symbol": "WTG",
+    "decimals": 18
+  },
+  "infoURL": "https://wintg.network",
+  "shortName": "wintg-testnet",
+  "chainId": 22800,
+  "networkId": 22800,
+  "title": "WINTG Testnet",
+  "status": "active",
+  "explorers": [
+    {
+      "name": "WINTG Scan",
+      "url": "https://scan.wintg.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
