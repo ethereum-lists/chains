@@ -1,8 +1,8 @@
 {
   "name": "edeXa Testnet",
   "chain": "edeXa",
-  "rpc": ["https://rpc.testnet.edexa.network", "https://rpc.testnet.edexa.com"],
-  "faucets": ["https://faucet.edexa.com/"],
+  "rpc": [],
+  "faucets": [],
   "nativeCurrency": {
     "name": "edeXa",
     "symbol": "tEDX",
@@ -14,11 +14,5 @@
   "networkId": 1995,
   "slip44": 1,
   "icon": "edexa",
-  "explorers": [
-    {
-      "name": "edexa-testnet-explorer",
-      "url": "https://explorer.testnet.edexa.network",
-      "standard": "EIP3091"
-    }
-  ]
+  "explorers": []
 }

@@ -1,0 +1,28 @@
+{
+  "name": "Status Network Hoodi",
+  "title": "Status Network Hoodi",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://status.network",
+  "shortName": "snt-hoodi",
+  "chainId": 374,
+  "networkId": 374,
+  "icon": "snt",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-560048",
+    "bridges": [
+      {
+        "url": "https://bridge.status.network"
+      }
+    ]
+  },
+  "explorers": [],
+  "status": "incubating"
+}

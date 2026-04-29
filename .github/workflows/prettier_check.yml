@@ -3,6 +3,7 @@ name: Run prettier check
 on:
   push:
   pull_request:
+  merge_group:
 
 jobs:
   prettier:
