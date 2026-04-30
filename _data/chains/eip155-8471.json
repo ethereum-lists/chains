@@ -1,0 +1,34 @@
+{
+  "name": "Aurigraph Mainnet",
+  "chain": "AUR",
+  "rpc": [
+    "https://rpc.aurigraph.io",
+    "wss://rpc.aurigraph.io/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Aurigraph",
+    "symbol": "AUR",
+    "decimals": 18
+  },
+  "infoURL": "https://aurigraph.io",
+  "shortName": "aur",
+  "chainId": 8471,
+  "networkId": 8471,
+  "explorers": [
+    {
+      "name": "Aurigraph Explorer",
+      "url": "https://explorer.aurigraph.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active",
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ]
+}
