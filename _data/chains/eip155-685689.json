@@ -1,16 +1,33 @@
 {
   "name": "Gensyn Mainnet",
   "chain": "Gensyn",
-  "rpc": [],
+  "rpc": ["https://gensyn-mainnet.g.alchemy.com/public"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "https://www.gensyn.ai/",
+  "infoURL": "https://gensyn.network/",
   "shortName": "gensyn-mainnet",
   "chainId": 685689,
   "networkId": 685689,
-  "status": "incubating"
+  "icon": "gensyn",
+  "explorers": [
+    {
+      "name": "Gensyn Mainnet Explorer",
+      "url": "https://gensyn-mainnet.explorer.alchemy.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [
+      {
+        "url": "https://stargate.finance/bridge"
+      }
+    ]
+  },
+  "status": "active"
 }

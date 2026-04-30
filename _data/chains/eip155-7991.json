@@ -1,0 +1,18 @@
+{
+  "name": "Peeryn",
+  "chain": "PYN",
+  "rpc": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Peeryn",
+    "symbol": "PYN",
+    "decimals": 18
+  },
+  "infoURL": "https://peeryn.com",
+  "shortName": "pyn",
+  "chainId": 7991,
+  "networkId": 7991,
+  "status": "incubating",
+  "explorers": []
+}

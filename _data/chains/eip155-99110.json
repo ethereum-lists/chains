@@ -1,0 +1,24 @@
+{
+  "name": "Dorsen Chain",
+  "chain": "Dorsen",
+  "rpc": ["https://mainnet-rpc.dorsenscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dorsen Chain",
+    "symbol": "DC",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.dorsenscan.io",
+  "icon": "dorsen",
+  "shortName": "dorsen-test",
+  "chainId": 99110,
+  "networkId": 99110,
+  "explorers": [
+    {
+      "name": "DorsenScan Mainnet",
+      "url": "https://dorsenscan.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
