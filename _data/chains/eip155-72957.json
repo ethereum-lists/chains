@@ -1,0 +1,25 @@
+{
+  "name": "Rayls Mainnet",
+  "chain": "Rayls",
+  "icon": "rayls",
+  "rpc": [
+    "https://mainnet-rpc.rayls.com/"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USDr",
+    "symbol": "USDr",
+    "decimals": 18
+  },
+  "infoURL": "https://rayls.com/",
+  "shortName": "rayls",
+  "chainId": 72957,
+  "networkId": 72957,
+  "explorers": [
+    {
+      "name": "Rayls Explorer",
+      "url": "https://mainnet-explorer.rayls.com/",
+      "standard": "EIP3091"
+    }
+  ]
+}
