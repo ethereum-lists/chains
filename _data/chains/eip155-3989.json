@@ -1,0 +1,23 @@
+{
+  "name": "Pione Trace Mainnet",
+  "chain": "PTC",
+  "icon": "ptc",
+  "rpc": ["https://rpc.pionetrace.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Pione Trace",
+    "symbol": "PTC",
+    "decimals": 18
+  },
+  "infoURL": "https://pionetrace.com",
+  "shortName": "ptc",
+  "chainId": 3989,
+  "networkId": 3989,
+  "explorers": [
+    {
+      "name": "Pione Trace Explorer",
+      "url": "https://explorer.pionetrace.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
