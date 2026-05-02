@@ -1,0 +1,30 @@
+{
+  "name": "DimeX",
+  "chain": "DMX",
+  "rpc": [
+    "https://rpc.dimex.world"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DimeX",
+    "symbol": "DMX",
+    "decimals": 18
+  },
+  "infoURL": "https://dimex.world",
+  "shortName": "dmx",
+  "chainId": 1601,
+  "networkId": 1601,
+  "icon": "dmx",
+  "explorers": [
+    {
+      "name": "DimeX",
+      "url": "https://dimex.world",
+      "standard": "EIP3091"
+    }
+  ],
+  "socials": {
+    "website": "https://dimex.world",
+    "telegram": "https://t.me/dimexofficial",
+    "twitter": "https://x.com/DimeXGlobal"
+  }
+}
