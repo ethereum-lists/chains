@@ -1,12 +1,8 @@
 {
   "name": "Sentrix Testnet",
   "chain": "Sentrix",
-  "rpc": [
-    "https://testnet-rpc.sentrixchain.com/rpc"
-  ],
-  "faucets": [
-    "https://faucet.sentrixchain.com"
-  ],
+  "rpc": ["https://testnet-rpc.sentrixchain.com/rpc"],
+  "faucets": ["https://faucet.sentrixchain.com"],
   "nativeCurrency": {
     "name": "Sentrix",
     "symbol": "SRX",
