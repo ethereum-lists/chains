@@ -1,0 +1,23 @@
+{
+  "name": "CarrChain Mainnet",
+  "chain": "CarrChain Mainnet",
+  "rpc": ["https://rpc.carrchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CarrChain Coin",
+    "symbol": "CARR",
+    "decimals": 18
+  },
+  "infoURL": "https://carrchain.io",
+  "shortName": "CarrChain-Mainnet",
+  "chainId": 7667,
+  "networkId": 7667,
+  "icon": "carrchain",
+  "explorers": [
+    {
+      "name": "tracehawk",
+      "url": "https://carrscan.io",
+      "standard": "none"
+    }
+  ]
+}
