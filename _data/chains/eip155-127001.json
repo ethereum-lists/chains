@@ -1,0 +1,28 @@
+{
+ "name": "Gravity",
+ "chain": "Gravity",
+ "icon": "gravity",
+ "rpc": ["https://mainnet-rpc.gravity.xyz"],
+ "faucets": [],
+ "nativeCurrency": {
+   "name": "Gravity",
+   "symbol": "G",
+   "decimals": 18
+ },
+ "features": [
+   { "name": "EIP155" },
+   { "name": "EIP1559" }
+ ],
+ "infoURL": "https://gravity.xyz",
+ "shortName": "grav",
+ "chainId": 127001,
+ "networkId": 127001,
+ "explorers": [
+   {
+	 "name": "Gravity Mainnet Explorer",
+	 "url": "https://mainnet-explorer.gravity.xyz",
+	 "standard": "EIP3091"
+   }
+ ]
+}
+
