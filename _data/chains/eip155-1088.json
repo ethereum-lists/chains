@@ -6,7 +6,8 @@
     "https://metis.drpc.org",
     "wss://metis.drpc.org",
     "https://metis-rpc.publicnode.com",
-    "wss://metis-rpc.publicnode.com"
+    "wss://metis-rpc.publicnode.com",
+    "https://rpc.swiftnodes.io/rpc/metis"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -28,6 +29,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.metis.io" }]
+    "bridges": [
+      {
+        "url": "https://bridge.metis.io"
+      }
+    ]
   }
 }

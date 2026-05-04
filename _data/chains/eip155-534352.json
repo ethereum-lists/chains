@@ -7,7 +7,8 @@
     "https://rpc.ankr.com/scroll",
     "https://scroll-mainnet.chainstacklabs.com",
     "https://scroll-rpc.publicnode.com",
-    "wss://scroll-rpc.publicnode.com"
+    "wss://scroll-rpc.publicnode.com",
+    "https://rpc.swiftnodes.io/rpc/scroll"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -29,6 +30,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://scroll.io/bridge" }]
+    "bridges": [
+      {
+        "url": "https://scroll.io/bridge"
+      }
+    ]
   }
 }

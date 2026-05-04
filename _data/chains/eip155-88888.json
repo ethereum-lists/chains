@@ -5,7 +5,8 @@
   "rpc": [
     "https://rpc.chiliz.com",
     "https://rpc.ankr.com/chiliz",
-    "https://chiliz.publicnode.com"
+    "https://chiliz.publicnode.com",
+    "https://rpc.swiftnodes.io/rpc/chiliz"
   ],
   "faucets": [
     "https://spicy-faucet.chiliz.com",
@@ -20,7 +21,9 @@
   "shortName": "chzmainnet",
   "chainId": 88888,
   "networkId": 88888,
-  "redFlags": ["reusedChainId"],
+  "redFlags": [
+    "reusedChainId"
+  ],
   "explorers": [
     {
       "name": "chiliscan",
