@@ -1,9 +1,7 @@
 {
   "name": "MAKI Chain",
   "chain": "MAKI",
-  "rpc": [
-    "https://rpc.makiai.app"
-  ],
+  "rpc": ["https://rpc.makiai.app"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -13,12 +11,5 @@
   "infoURL": "https://makiai.app",
   "shortName": "maki",
   "chainId": 8000008,
-  "networkId": 8000008,
-  "explorers": [
-    {
-      "name": "MAKI Explorer",
-      "url": "https://explorer.makiai.app",
-      "standard": "EIP3091"
-    }
-  ]
+  "networkId": 8000008
 }
