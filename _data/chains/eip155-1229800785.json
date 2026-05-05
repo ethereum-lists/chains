@@ -1,0 +1,37 @@
+{
+  "name": "iTani Network Chain",
+  "chain": "ITN",
+  "rpc": [
+    {
+      "url": "https://node.itaninetworkchain.com/jsonrpc",
+      "tracking": "none"
+    },
+    {
+      "url": "https://relay.itaninetworkchain.com/jsonrpc",
+      "tracking": "none"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "iTani",
+    "symbol": "ITANI",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/itanidreams-dev/iTani-Network-Chain",
+  "shortName": "itani",
+  "chainId": 1229800785,
+  "networkId": 1229800785,
+  "status": "active",
+  "explorers": [
+    {
+      "name": "iTani Explorer",
+      "url": "https://node.itaninetworkchain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
