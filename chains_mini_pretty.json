@@ -18849,6 +18849,19 @@
   "faucets": [],
   "infoURL": "https://gravity.xyz"
 }, {
+  "name": "Intuition Testnet",
+  "chainId": 13579,
+  "shortName": "intuition-testnet",
+  "networkId": 13579,
+  "nativeCurrency": {
+    "name": "Testnet TRUST",
+    "symbol": "tTRUST",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.rpc.intuition.systems"],
+  "faucets": ["https://intuition-testnet.hub.caldera.xyz"],
+  "infoURL": "https://intuition.systems"
+}, {
   "name": "Kronobit Mainnet",
   "chainId": 13600,
   "shortName": "KNB",
