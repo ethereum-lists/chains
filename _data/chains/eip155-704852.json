@@ -1,0 +1,27 @@
+{
+  "name": "Mars Chain Testnet",
+  "chain": "MARS",
+  "rpc": [
+    "https://rpc-testnet.mars-scan.io",
+    "wss://rpc-testnet.mars-scan.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Mars Coin",
+    "symbol": "MarsC",
+    "decimals": 18  
+  },  
+  "infoURL": "https://testnet-explorer.mars-chain.io/",
+  "shortName": "marschain",
+  "chainId": 704852,
+  "networkId": 704852,
+  "icon": "marschain",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://testnet-explorer.mars-chain.io/",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
