@@ -1,0 +1,16 @@
+﻿{
+  "name": "LIBERTAS Chain",
+  "chain": "LIBERTAS",
+  "icon": "libertas",
+  "rpc": ["https://rpc.libertas.closefast.tech"],
+  "features": [{"name":"EIP155"},{"name":"EIP1559"}],
+  "faucets": [],
+  "nativeCurrency": {"name":"LIBERTAS","symbol":"LBT","decimals":18},
+  "infoURL": "https://closefast.tech",
+  "shortName": "lbt",
+  "chainId": 7474,
+  "networkId": 7474,
+  "slip44": 60,
+  "ens": {},
+  "explorers": [{"name":"LIBERTAS Explorer","url":"https://explorer.libertas.closefast.tech","standard":"EIP3091"}]
+}
