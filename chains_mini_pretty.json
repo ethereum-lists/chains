@@ -13194,6 +13194,19 @@
   "faucets": [],
   "infoURL": "https://memecore.com"
 }, {
+  "name": "ILITY Mainnet",
+  "chainId": 4370,
+  "shortName": "ily",
+  "networkId": 4370,
+  "nativeCurrency": {
+    "name": "ILITY",
+    "symbol": "ILY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.ility.xyz"],
+  "faucets": [],
+  "infoURL": "https://ility.xyz"
+}, {
   "name": "Credit Smart Chain Mainnet",
   "chainId": 4400,
   "shortName": "CreditEdge",
@@ -23788,6 +23801,19 @@
   "rpc": ["https://rpc.condrieu.ethdevops.io:8545"],
   "faucets": ["https://faucet.condrieu.ethdevops.io"],
   "infoURL": "https://condrieu.ethdevops.io"
+}, {
+  "name": "ILITY Testnet",
+  "chainId": 69923,
+  "shortName": "ilyt",
+  "networkId": 69923,
+  "nativeCurrency": {
+    "name": "ILITY Token",
+    "symbol": "ILYt",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.ility.xyz"],
+  "faucets": [],
+  "infoURL": "https://ility.xyz"
 }, {
   "name": "Thinkium Mainnet Chain 0",
   "chainId": 70000,

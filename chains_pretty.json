@@ -21837,6 +21837,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "ILITY Mainnet",
+  "chain": "ILY",
+  "rpc": ["https://rpc.ility.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ILITY",
+    "symbol": "ILY",
+    "decimals": 18
+  },
+  "infoURL": "https://ility.xyz",
+  "shortName": "ily",
+  "chainId": 4370,
+  "networkId": 4370,
+  "icon": "ility",
+  "explorers": [{
+    "name": "ILITY Mainnet Explorer",
+    "url": "https://scan.ility.xyz",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Credit Smart Chain Mainnet",
   "chain": "CREDIT",
   "rpc": ["https://rpc.creditsmartchain.com"],
@@ -39631,6 +39651,26 @@
     "name": "Condrieu explorer",
     "url": "https://explorer.condrieu.ethdevops.io",
     "standard": "none"
+  }]
+}, {
+  "name": "ILITY Testnet",
+  "chain": "ILY",
+  "rpc": ["https://rpc.testnet.ility.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ILITY Token",
+    "symbol": "ILYt",
+    "decimals": 18
+  },
+  "infoURL": "https://ility.xyz",
+  "shortName": "ilyt",
+  "chainId": 69923,
+  "networkId": 69923,
+  "icon": "ility",
+  "explorers": [{
+    "name": "ILITY Testnet Explorer",
+    "url": "https://scan.testnet.ility.xyz",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Thinkium Mainnet Chain 0",
