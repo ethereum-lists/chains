@@ -38664,6 +38664,54 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "EBLA Mainnet",
+  "chain": "EBLA",
+  "icon": "ebla",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EBLA",
+    "symbol": "EBLA",
+    "decimals": 18
+  },
+  "infoURL": "https://eblanetwork.com",
+  "shortName": "ebla",
+  "chainId": 60186,
+  "networkId": 60186,
+  "status": "incubating"
+}, {
+  "name": "EBLA Testnet",
+  "chain": "EBLA",
+  "icon": "ebla",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EBLA",
+    "symbol": "EBLA",
+    "decimals": 18
+  },
+  "infoURL": "https://eblanetwork.com",
+  "shortName": "tebla",
+  "chainId": 60187,
+  "networkId": 60187,
+  "status": "incubating"
+}, {
+  "name": "EBLA Devnet",
+  "chain": "EBLA",
+  "icon": "ebla",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EBLA",
+    "symbol": "EBLA",
+    "decimals": 18
+  },
+  "infoURL": "https://eblanetwork.com",
+  "shortName": "debla",
+  "chainId": 60188,
+  "networkId": 60188,
+  "status": "incubating"
+}, {
   "name": "POTOS Testnet",
   "chain": "POTOS",
   "icon": "potos",

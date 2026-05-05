@@ -23230,6 +23230,45 @@
   "faucets": ["https://www.thinkiumdev.net/faucet"],
   "infoURL": "https://thinkium.net/"
 }, {
+  "name": "EBLA Mainnet",
+  "chainId": 60186,
+  "shortName": "ebla",
+  "networkId": 60186,
+  "nativeCurrency": {
+    "name": "EBLA",
+    "symbol": "EBLA",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://eblanetwork.com"
+}, {
+  "name": "EBLA Testnet",
+  "chainId": 60187,
+  "shortName": "tebla",
+  "networkId": 60187,
+  "nativeCurrency": {
+    "name": "EBLA",
+    "symbol": "EBLA",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://eblanetwork.com"
+}, {
+  "name": "EBLA Devnet",
+  "chainId": 60188,
+  "shortName": "debla",
+  "networkId": 60188,
+  "nativeCurrency": {
+    "name": "EBLA",
+    "symbol": "EBLA",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://eblanetwork.com"
+}, {
   "name": "POTOS Testnet",
   "chainId": 60600,
   "shortName": "potos-testnet",
