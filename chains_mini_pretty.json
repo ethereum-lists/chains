@@ -30861,6 +30861,19 @@
   "faucets": ["https://ozean-testnet.hub.caldera.xyz"],
   "infoURL": "https://docs.ozean.finance"
 }, {
+  "name": "MAKI Chain",
+  "chainId": 8000008,
+  "shortName": "maki",
+  "networkId": 8000008,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.makiai.app"],
+  "faucets": [],
+  "infoURL": "https://makiai.app"
+}, {
   "name": "Plian Mainnet Subchain 1",
   "chainId": 8007736,
   "shortName": "plian-mainnet-l2",
