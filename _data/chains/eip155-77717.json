@@ -1,0 +1,25 @@
+{
+  "name": "Ventures Blockchain",
+  "chain": "VB",
+  "rpc": [
+    "https://rpc.venturesblockchain.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ventures Coin",
+    "symbol": "VC",
+    "decimals": 18
+  },
+  "infoURL": "https://venturesblockchain.io",
+  "shortName": "vb",
+  "chainId": 77717,
+  "networkId": 77717,
+  "icon": "venturesblockchain",
+  "explorers": [
+    {
+      "name": "VB Explorer",
+      "url": "https://explorer.venturesblockchain.io",
+      "standard": "none"
+    }
+  ]
+}
