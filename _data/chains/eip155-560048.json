@@ -3,8 +3,19 @@
   "title": "Ethereum Testnet Hoodi",
   "chain": "ETH",
   "icon": "ethereum",
-  "rpc": ["https://rpc.hoodi.ethpandaops.io"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [
+    "https://rpc.hoodi.ethpandaops.io",
+    "https://eth-hoodi.blockreq.com/v1/rpc/public",
+    "wss://eth-hoodi.blockreq.com/v1/ws/public"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [
     "https://faucet.hoodi.ethpandaops.io",
     "https://hoodi-faucet.pk910.de/"

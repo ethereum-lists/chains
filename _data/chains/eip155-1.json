@@ -20,9 +20,18 @@
     "https://rpc.mevblocker.io/fullprivacy",
     "https://eth.drpc.org",
     "wss://eth.drpc.org",
-    "https://api.securerpc.com/v1"
+    "https://api.securerpc.com/v1",
+    "https://eth-mainnet.blockreq.com/v1/rpc/public",
+    "wss://eth-mainnet.blockreq.com/v1/ws/public"
   ],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

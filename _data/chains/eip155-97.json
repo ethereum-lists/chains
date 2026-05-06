@@ -9,9 +9,13 @@
     "https://data-seed-prebsc-1-s3.bnbchain.org:8545",
     "https://data-seed-prebsc-2-s3.bnbchain.org:8545",
     "https://bsc-testnet-rpc.publicnode.com",
-    "wss://bsc-testnet-rpc.publicnode.com"
+    "wss://bsc-testnet-rpc.publicnode.com",
+    "https://bsc-testnet.blockreq.com/v1/rpc/public",
+    "wss://bsc-testnet.blockreq.com/v1/ws/public"
   ],
-  "faucets": ["https://testnet.bnbchain.org/faucet-smart"],
+  "faucets": [
+    "https://testnet.bnbchain.org/faucet-smart"
+  ],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
     "symbol": "tBNB",
