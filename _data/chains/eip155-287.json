@@ -1,0 +1,22 @@
+{
+  "name": "NetX Mainnet",
+  "chain": "NETX",
+  "rpc": ["https://rpc.tsccan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NETX",
+    "symbol": "NETX",
+    "decimals": 18
+  },
+  "infoURL": "https://tscscan.io",
+  "shortName": "netx",
+  "chainId": 287,
+  "networkId": 287,
+  "explorers": [
+    {
+      "name": "NetX Explorer",
+      "url": "https://tscscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
