@@ -1,0 +1,27 @@
+{
+  "name": "MACos Chain",
+  "chain": "MACOS",
+  "icon": "macos",
+  "rpc": [
+    "https://rpc1.codeupp.xyz"
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MACos Coin",
+    "symbol": "MCOS",
+    "decimals": 18
+  },
+  "infoURL": "https://macosscan.codeupp.xyz",
+  "shortName": "macos",
+  "chainId": 20261,
+  "networkId": 20261,
+  "explorers": [
+    {
+      "name": "MACos Explorer",
+      "url": "https://macosscan.codeupp.xyz",
+      "icon": "macos",
+      "standard": "EIP3091"
+    }
+  ]
+}
