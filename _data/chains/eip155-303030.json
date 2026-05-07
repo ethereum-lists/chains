@@ -1,7 +1,6 @@
 {
   "name": "AXION Network",
   "chain": "AXION",
-  "icon": "axion",
   "rpc": [
     "https://rpc.axiondefi.com"
   ],
@@ -21,5 +20,6 @@
       "url": "https://axscan.axiondefi.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "icon": "axion"
 }
