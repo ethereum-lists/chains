@@ -15408,6 +15408,36 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "KWALA",
+  "chain": "KWALA",
+  "icon": "kwala",
+  "rpc": ["https://rpc-ohio.kwala.network"],
+  "nativeCurrency": {
+    "name": "KWALA",
+    "symbol": "KWALA",
+    "decimals": 18
+  },
+  "faucets": [],
+  "infoURL": "https://kwala.network",
+  "shortName": "kwala",
+  "chainId": 1905,
+  "networkId": 1905
+}, {
+  "name": "KWALA Stagenet",
+  "chain": "KWALA",
+  "icon": "kwala",
+  "rpc": ["https://qa-kwala-rpc-node.p2eppl.com"],
+  "nativeCurrency": {
+    "name": "KWALA",
+    "symbol": "KWALA",
+    "decimals": 18
+  },
+  "faucets": [],
+  "infoURL": "https://kwala.network",
+  "shortName": "kwala-stagenet",
+  "chainId": 1906,
+  "networkId": 1906
+}, {
   "name": "Bitcichain Mainnet",
   "chain": "BITCI",
   "icon": "bitci",
@@ -15468,6 +15498,21 @@
     "url": "https://merklescan.com",
     "standard": "none"
   }]
+}, {
+  "name": "KWALA Devnet",
+  "chain": "KWALA",
+  "icon": "kwala",
+  "rpc": ["https://dev-kwala-rpc-node.p2eppl.com"],
+  "nativeCurrency": {
+    "name": "KWALA",
+    "symbol": "KWALA",
+    "decimals": 18
+  },
+  "faucets": [],
+  "infoURL": "https://kwala.network",
+  "shortName": "kwala-devnet",
+  "chainId": 1910,
+  "networkId": 1910
 }, {
   "name": "Scalind",
   "chain": "ETH",
