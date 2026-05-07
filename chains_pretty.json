@@ -51566,6 +51566,68 @@
   "networkId": 7762959,
   "slip44": 184
 }, {
+  "name": "VALYGO Smart Contract",
+  "chain": "VYO",
+  "rpc": ["https://rpc-gw-1.vyoscan.com/ext/bc/2t51dXsuxUvd9teY9TKEJmgxmxMk3CRF88UYTA4HQgjeYZqzSX/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "VYO",
+    "symbol": "VYO",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://vyochain.com",
+  "shortName": "vyo",
+  "chainId": 7771777,
+  "networkId": 7771777,
+  "icon": "valygo",
+  "explorers": [{
+    "name": "VYOScan",
+    "url": "https://vyoscan.com",
+    "icon": "valygo",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-43114",
+    "bridges": []
+  }
+}, {
+  "name": "VALYGO NFT",
+  "chain": "VYO",
+  "rpc": ["https://rpc-gw-1.vyoscan.com/ext/bc/2RyzsmGypNQZPby1miwMMV8spTvhgd9qd2peNRzU1mErUQqSSw/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "VYO",
+    "symbol": "VYO",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://vyochain.com",
+  "shortName": "vyonft",
+  "chainId": 7773777,
+  "networkId": 7773777,
+  "icon": "valygo",
+  "explorers": [{
+    "name": "VYOScan NFT",
+    "url": "https://nft.vyoscan.com",
+    "icon": "valygo",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-43114",
+    "bridges": []
+  }
+}, {
   "name": "Zora",
   "chain": "ETH",
   "rpc": ["https://rpc.zora.energy/"],

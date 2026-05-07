@@ -30848,6 +30848,32 @@
   "faucets": [],
   "infoURL": "https://musicoin.tw"
 }, {
+  "name": "VALYGO Smart Contract",
+  "chainId": 7771777,
+  "shortName": "vyo",
+  "networkId": 7771777,
+  "nativeCurrency": {
+    "name": "VYO",
+    "symbol": "VYO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-gw-1.vyoscan.com/ext/bc/2t51dXsuxUvd9teY9TKEJmgxmxMk3CRF88UYTA4HQgjeYZqzSX/rpc"],
+  "faucets": [],
+  "infoURL": "https://vyochain.com"
+}, {
+  "name": "VALYGO NFT",
+  "chainId": 7773777,
+  "shortName": "vyonft",
+  "networkId": 7773777,
+  "nativeCurrency": {
+    "name": "VYO",
+    "symbol": "VYO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-gw-1.vyoscan.com/ext/bc/2RyzsmGypNQZPby1miwMMV8spTvhgd9qd2peNRzU1mErUQqSSw/rpc"],
+  "faucets": [],
+  "infoURL": "https://vyochain.com"
+}, {
   "name": "Zora",
   "chainId": 7777777,
   "shortName": "zora",
