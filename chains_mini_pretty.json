@@ -22359,6 +22359,19 @@
   "faucets": [],
   "infoURL": "https://docs.robinhood.com/chain/"
 }, {
+  "name": "Gnodi Mainnet",
+  "chainId": 46634,
+  "shortName": "gnodi",
+  "networkId": 46634,
+  "nativeCurrency": {
+    "name": "Gnodi",
+    "symbol": "GNOD",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.rpc.gnodi.zone"],
+  "faucets": [],
+  "infoURL": "https://gnodi.info"
+}, {
   "name": "Fusion Testnet",
   "chainId": 46688,
   "shortName": "tfsn",

@@ -37118,6 +37118,30 @@
     }]
   }
 }, {
+  "name": "Gnodi Mainnet",
+  "chain": "GNODI",
+  "rpc": ["https://evm.rpc.gnodi.zone"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Gnodi",
+    "symbol": "GNOD",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://gnodi.info",
+  "shortName": "gnodi",
+  "chainId": 46634,
+  "networkId": 46634,
+  "icon": "gnodi",
+  "explorers": [{
+    "name": "gnodiscan",
+    "url": "https://evm.gnodiscanner.com",
+    "icon": "gnodi",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Fusion Testnet",
   "chain": "FSN",
   "icon": "fusion",
