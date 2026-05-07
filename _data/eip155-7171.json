@@ -1,9 +1,7 @@
 {
   "name": "Arxon",
   "chain": "ARX",
-  "rpc": [
-    "https://testnet.arxon.io:9944"
-  ],
+  "rpc": ["https://testnet.arxon.io:9944"],
   "faucets": [],
   "nativeCurrency": {
     "name": "ARX",

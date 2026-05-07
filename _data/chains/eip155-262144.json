@@ -1,24 +1,22 @@
 {
-    "name": "MPCQ Mainnet",
-    "chain": "MPCQ",
-    "rpc": [
-        "https://rpc.moneypoolscash.com"
-    ],
-    "faucets": [],
-    "nativeCurrency": {
-        "name": "MPCQ",
-        "symbol": "MPCQ",
-        "decimals": 18
-    },
-    "infoURL": "https://mpcq.moneypoolscash.com",
-    "shortName": "mpcq",
-    "chainId": 262144,
-    "networkId": 262144,
-    "explorers": [
-        {
-            "name": "MPCQ Explorer",
-            "url": "https://evm-explorer.mpcq.moneypoolscash.com",
-            "standard": "EIP3091"
-        }
-    ]
+  "name": "MPCQ Mainnet",
+  "chain": "MPCQ",
+  "rpc": ["https://rpc.moneypoolscash.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MPCQ",
+    "symbol": "MPCQ",
+    "decimals": 18
+  },
+  "infoURL": "https://mpcq.moneypoolscash.com",
+  "shortName": "mpcq",
+  "chainId": 262144,
+  "networkId": 262144,
+  "explorers": [
+    {
+      "name": "MPCQ Explorer",
+      "url": "https://evm-explorer.mpcq.moneypoolscash.com",
+      "standard": "EIP3091"
+    }
+  ]
 }
