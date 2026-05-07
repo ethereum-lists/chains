@@ -1,0 +1,29 @@
+{
+  "name": "Amero X Mainnet",
+  "chain": "AMX",
+  "rpc": [
+    "https://amxrpc.link/public/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AMX",
+    "symbol": "AMX",
+    "decimals": 18
+  },
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" }
+  ],
+  "infoURL": "https://amerox.io",
+  "shortName": "amx",
+  "chainId": 3535,
+  "networkId": 3535,
+  "icon": "amero_x",
+  "explorers": [
+    {
+      "name": "amero-x-scan",
+      "url": "http://84.32.220.100:4000",
+      "standard": "EIP3091"
+    }
+  ]
+}
