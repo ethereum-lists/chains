@@ -1,0 +1,20 @@
+{
+  "name": "ChainMemory",
+  "chain": "ChainMemory",
+  "rpc": ["https://rpc.chainmemory.ai"],
+  "faucets": ["https://faucet.chainmemory.ai"],
+  "nativeCurrency": {
+    "name": "AIC",
+    "symbol": "AIC",
+    "decimals": 18
+  },
+  "infoURL": "https://chainmemory.ai",
+  "shortName": "cmem",
+  "chainId": 202604,
+  "networkId": 202604,
+  "explorers": [{
+    "name": "ChainMemory Explorer",
+    "url": "https://chainmemory.ai",
+    "standard": "none"
+  }]
+}
