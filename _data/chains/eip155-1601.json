@@ -1,5 +1,5 @@
 {
-  "name": "DimeX",
+  "name": "DimeX Chain",
   "chain": "DMX",
   "rpc": [
     "https://rpc.dimex.world"
@@ -12,11 +12,12 @@
   },
   "infoURL": "https://dimex.world",
   "shortName": "dmx",
+  "icon": "dimex",
   "chainId": 1601,
   "networkId": 1601,
   "explorers": [
     {
-      "name": "DimeX",
+      "name": "DimeX Chain Explorer",
       "url": "https://dimex.world",
       "standard": "EIP3091"
     }
