@@ -1,0 +1,32 @@
+{
+  "name": "VDChain Mainnet",
+  "chain": "VDC",
+  "rpc": [
+    "https://rpc.vdscan.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "VDC",
+    "symbol": "VDC",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://vdscan.io",
+  "shortName": "vdc",
+  "chainId": 882022,
+  "networkId": 882022,
+  "explorers": [
+    {
+      "name": "VDScan",
+      "url": "https://vdscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
