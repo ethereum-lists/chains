@@ -1,0 +1,25 @@
+{
+  "name": "Altcoinchain",
+  "chain": "mainnet",
+  "rpc": ["https://rpc0.altcoinchain.org/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Altcoin",
+    "symbol": "ALT",
+    "decimals": 18
+  },
+  "infoURL": "https://altcoinchain.org",
+  "shortName": "alt",
+  "chainId": 2330,
+  "networkId": 2330,
+  "icon": "altcoinchain",
+  "status": "active",
+  "explorers": [
+    {
+      "name": "expedition",
+      "url": "http://expedition.altcoinchain.org",
+      "icon": "altcoinchain",
+      "standard": "none"
+    }
+  ]
+}

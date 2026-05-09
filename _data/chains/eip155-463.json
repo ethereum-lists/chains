@@ -1,0 +1,29 @@
+{
+  "name": "Areum Network Mainnet",
+  "chain": "Areum",
+  "icon": "areum",
+  "rpc": [
+    "https://mainnet-rpc.areum.network",
+    "https://mainnet-rpc2.areum.network",
+    "https://mainnet-rpc3.areum.network",
+    "https://mainnet-rpc4.areum.network",
+    "https://mainnet-rpc5.areum.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Areum",
+    "symbol": "AREA",
+    "decimals": 18
+  },
+  "infoURL": "https://areum.network",
+  "shortName": "area",
+  "chainId": 463,
+  "networkId": 463,
+  "explorers": [
+    {
+      "name": "Areum Explorer",
+      "url": "https://explorer.areum.network",
+      "standard": "none"
+    }
+  ]
+}

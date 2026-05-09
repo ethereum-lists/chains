@@ -1,0 +1,23 @@
+{
+  "name": "Yidark Chain Mainnet",
+  "chain": "Yidark",
+  "icon": "ydk",
+  "rpc": ["https://rpc.yidark.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Yidark",
+    "symbol": "YDK",
+    "decimals": 18
+  },
+  "infoURL": "https://yidarkscan.com",
+  "shortName": "ydk",
+  "chainId": 927,
+  "networkId": 927,
+  "explorers": [
+    {
+      "name": "Yidarkscan",
+      "url": "https://yidarkscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

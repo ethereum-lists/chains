@@ -1,0 +1,19 @@
+{
+  "name": "Morden Testnet",
+  "title": "Ethereum Classic Morden Testnet",
+  "status": "deprecated",
+  "chain": "ETC",
+  "icon": "ethereumclassictestnet",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Morden Ether",
+    "symbol": "TETC",
+    "decimals": 18
+  },
+  "infoURL": "https://ethereumclassic.org/development/testnets",
+  "shortName": "tetc",
+  "chainId": 62,
+  "networkId": 2,
+  "slip44": 1
+}

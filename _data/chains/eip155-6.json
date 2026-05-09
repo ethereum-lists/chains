@@ -1,0 +1,19 @@
+{
+  "name": "Kotti Testnet",
+  "title": "Ethereum Classic Kotti Testnet",
+  "status": "deprecated",
+  "chain": "ETC",
+  "icon": "ethereumclassictestnet",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Kotti Ether",
+    "symbol": "KOT",
+    "decimals": 18
+  },
+  "infoURL": "https://ethereumclassic.org/development/testnets",
+  "shortName": "kot",
+  "chainId": 6,
+  "networkId": 6,
+  "slip44": 1
+}

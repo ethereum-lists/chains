@@ -1,0 +1,24 @@
+{
+  "name": "BlocX Mainnet",
+  "chain": "BLX",
+  "rpc": ["https://mainnet-rpc.blxscan.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BlocX",
+    "symbol": "BLX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.blocxchain.org/",
+  "shortName": "blx",
+  "chainId": 879151,
+  "networkId": 879151,
+  "icon": "blx",
+  "explorers": [
+    {
+      "name": "BlocX Mainnet Explorer",
+      "url": "https://explorer.blxscan.com",
+      "icon": "blx",
+      "standard": "none"
+    }
+  ]
+}

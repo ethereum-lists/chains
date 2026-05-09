@@ -1,0 +1,25 @@
+{
+  "name": "Socotra JUNE-Chain",
+  "chain": "Socotra JUNE-Chain",
+  "rpc": ["https://rpc.socotra-testnet.network/ext/bc/JUNE/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Socotra JUNE",
+    "symbol": "JUNE",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://juneo.com/",
+  "shortName": "Socotra-JUNE",
+  "chainId": 101003,
+  "networkId": 101003,
+  "icon": "juneoSocotraTestnet",
+  "explorers": [
+    {
+      "name": "Juneo Scan",
+      "url": "https://socotra.juneoscan.io/chain/2",
+      "icon": "juneomainnet",
+      "standard": "none"
+    }
+  ]
+}

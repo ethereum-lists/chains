@@ -1,0 +1,23 @@
+{
+  "name": "Hizoco mainnet",
+  "chain": "HZC",
+  "icon": "hizoco",
+  "rpc": ["https://hizoco.net/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Hizoco",
+    "symbol": "HZC",
+    "decimals": 18
+  },
+  "infoURL": "http://hizoco.net",
+  "shortName": "hzc",
+  "chainId": 80096,
+  "networkId": 80096,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://hizoco.net:38443",
+      "standard": "none"
+    }
+  ]
+}

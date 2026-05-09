@@ -1,0 +1,32 @@
+{
+  "name": "Proof of Play - Boss",
+  "chainId": 70701,
+  "shortName": "pop-boss",
+  "chain": "ETH",
+  "networkId": 70701,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.boss.proofofplay.com"],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "Proof of Play Boss Explorer",
+      "url": "https://explorer.boss.proofofplay.com",
+      "icon": "pop-boss",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://proofofplay.com",
+  "icon": "pop-boss",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161",
+    "bridges": [
+      { "url": "https://bridge.arbitrum.io" },
+      { "url": "https://relay.link/bridge/boss/" }
+    ]
+  }
+}

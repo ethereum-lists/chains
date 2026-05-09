@@ -1,0 +1,37 @@
+{
+  "name": "Polygon Mainnet",
+  "chain": "Polygon",
+  "icon": "polygon",
+  "rpc": [
+    "https://polygon.drpc.org",
+    "wss://polygon.drpc.org",
+    "https://rpc-mainnet.matic.quiknode.pro",
+    "https://polygon-bor-rpc.publicnode.com",
+    "wss://polygon-bor-rpc.publicnode.com",
+    "https://polygon.gateway.tenderly.co",
+    "wss://polygon.gateway.tenderly.co"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "POL",
+    "symbol": "POL",
+    "decimals": 18
+  },
+  "infoURL": "https://polygon.technology/",
+  "shortName": "pol",
+  "chainId": 137,
+  "networkId": 137,
+  "slip44": 966,
+  "explorers": [
+    {
+      "name": "polygonscan",
+      "url": "https://polygonscan.com",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "oklink",
+      "url": "https://www.oklink.com/polygon",
+      "standard": "EIP3091"
+    }
+  ]
+}

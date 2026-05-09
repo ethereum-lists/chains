@@ -1,0 +1,23 @@
+{
+  "name": "Exzo Network Mainnet",
+  "chain": "EXZO",
+  "icon": "exzo",
+  "rpc": ["https://mainnet.exzo.technology"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Exzo",
+    "symbol": "XZO",
+    "decimals": 18
+  },
+  "infoURL": "https://exzo.network",
+  "shortName": "xzo",
+  "chainId": 1229,
+  "networkId": 1229,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://exzoscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

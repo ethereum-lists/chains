@@ -1,0 +1,24 @@
+{
+  "name": "Kyoto Testnet",
+  "chain": "KYOTO",
+  "rpc": ["https://rpc.testnet.kyotoprotocol.io:8545"],
+  "faucets": ["https://faucet.kyotoprotocol.io"],
+  "nativeCurrency": {
+    "name": "Kyoto",
+    "symbol": "KYOTO",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://kyotoprotocol.io",
+  "shortName": "kyoto-testnet",
+  "chainId": 1998,
+  "networkId": 1998,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Kyotoscan",
+      "url": "https://testnet.kyotoscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

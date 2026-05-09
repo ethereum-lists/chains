@@ -1,0 +1,25 @@
+{
+  "name": "Ruby Smart Chain Testnet",
+  "chain": "RUBY",
+  "rpc": ["https://testnet-rchain.rubychain.io/"],
+  "nativeCurrency": {
+    "name": "RUBY Smart Chain Native Token",
+    "symbol": "tRUBY",
+    "decimals": 18
+  },
+  "infoURL": "https://rubychain.io",
+  "faucets": ["https://claim-faucet.rubychain.io/"],
+  "shortName": "tRUBY",
+  "chainId": 1912,
+  "networkId": 1912,
+  "slip44": 1,
+  "icon": "ruby",
+  "explorers": [
+    {
+      "name": "RUBY Smart Chain Testnet Explorer",
+      "icon": "ruby",
+      "url": "https://testnet.rubyscan.net",
+      "standard": "none"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Deriw Devnet",
+  "chainId": 44474237230,
+  "shortName": "deriw-dev",
+  "title": "Deriw Devnet",
+  "chain": "Deriw Devnet",
+  "networkId": 44474237230,
+  "icon": "deriw",
+  "rpc": ["https://rpc.dev.deriw.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Deriw",
+    "symbol": "Der",
+    "decimals": 18
+  },
+  "infoURL": "https://deriw.com",
+  "explorers": [
+    {
+      "name": "Deriw Explorer",
+      "url": "https://explorer.dev.deriw.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-421614",
+    "bridges": [
+      {
+        "url": "https://bridge.arbitrum.io"
+      }
+    ]
+  }
+}

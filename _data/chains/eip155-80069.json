@@ -1,0 +1,24 @@
+{
+  "name": "Berachain Bepolia",
+  "chain": "Berachain",
+  "rpc": ["https://bepolia.rpc.berachain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Testnet BERA Token",
+    "symbol": "BERA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.berachain.com",
+  "shortName": "berachain-bepolia",
+  "chainId": 80069,
+  "networkId": 80069,
+  "icon": "berachain",
+  "explorers": [
+    {
+      "name": "Beratrail",
+      "url": "https://bepolia.beratrail.io",
+      "icon": "berachain",
+      "standard": "none"
+    }
+  ]
+}

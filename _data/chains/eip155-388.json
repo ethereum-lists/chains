@@ -1,0 +1,22 @@
+{
+  "name": "Cronos zkEVM Mainnet",
+  "chain": "CronosZkEVMMainnet",
+  "rpc": ["https://mainnet.zkevm.cronos.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Cronos zkEVM CRO",
+    "symbol": "zkCRO",
+    "decimals": 18
+  },
+  "infoURL": "https://cronos.org/zkevm",
+  "shortName": "zkCRO",
+  "chainId": 388,
+  "networkId": 388,
+  "explorers": [
+    {
+      "name": "Cronos zkEVM (Mainnet) Chain Explorer",
+      "url": "https://explorer.zkevm.cronos.org",
+      "standard": "none"
+    }
+  ]
+}

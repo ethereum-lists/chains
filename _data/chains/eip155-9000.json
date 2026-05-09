@@ -1,0 +1,30 @@
+{
+  "name": "Evmos Testnet",
+  "chain": "Evmos",
+  "rpc": [
+    "https://evmos-testnet.lava.build",
+    "https://eth.bd.evmos.dev:8545",
+    "https://evmos-testnet-evm-rpc.publicnode.com",
+    "wss://evmos-testnet-evm-rpc.publicnode.com"
+  ],
+  "faucets": ["https://faucet.evmos.dev"],
+  "nativeCurrency": {
+    "name": "test-Evmos",
+    "symbol": "tEVMOS",
+    "decimals": 18
+  },
+  "infoURL": "https://evmos.org",
+  "shortName": "evmos-testnet",
+  "chainId": 9000,
+  "networkId": 9000,
+  "slip44": 1,
+  "icon": "evmos",
+  "explorers": [
+    {
+      "name": "Evmos Explorer (Escan)",
+      "url": "https://testnet.escan.live",
+      "standard": "none",
+      "icon": "evmos"
+    }
+  ]
+}

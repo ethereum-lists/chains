@@ -1,0 +1,24 @@
+{
+  "name": "Glue Mainnet",
+  "chain": "GLUE",
+  "rpc": ["https://rpc.glue.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Glue",
+    "symbol": "GLUE",
+    "decimals": 18
+  },
+  "infoURL": "https://glue.net/",
+  "shortName": "glue",
+  "chainId": 1300,
+  "networkId": 1300,
+  "icon": "glue",
+  "explorers": [
+    {
+      "name": "Glue Explorer",
+      "url": "https://explorer.glue.net",
+      "icon": "glue",
+      "standard": "EIP3091"
+    }
+  ]
+}

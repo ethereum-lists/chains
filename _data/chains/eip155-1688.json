@@ -1,0 +1,16 @@
+{
+  "name": "LUDAN Mainnet",
+  "chain": "LUDAN",
+  "rpc": ["https://rpc.ludan.org/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LUDAN",
+    "symbol": "LUDAN",
+    "decimals": 18
+  },
+  "infoURL": "https://www.ludan.org/",
+  "shortName": "LUDAN",
+  "icon": "ludan",
+  "chainId": 1688,
+  "networkId": 1688
+}

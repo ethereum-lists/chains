@@ -1,0 +1,18 @@
+{
+  "name": "MathChain",
+  "chain": "MATH",
+  "rpc": [
+    "https://mathchain-asia.maiziqianbao.net/rpc",
+    "https://mathchain-us.maiziqianbao.net/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MathChain",
+    "symbol": "MATH",
+    "decimals": 18
+  },
+  "infoURL": "https://mathchain.org",
+  "shortName": "MATH",
+  "chainId": 1139,
+  "networkId": 1139
+}

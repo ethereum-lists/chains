@@ -1,0 +1,25 @@
+{
+  "name": "KUB Mainnet",
+  "chain": "KUB",
+  "rpc": ["https://rpc.bitkubchain.io", "wss://wss.bitkubchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "KUB Coin",
+    "symbol": "KUB",
+    "decimals": 18
+  },
+  "infoURL": "https://www.kubchain.com/",
+  "shortName": "kub",
+  "chainId": 96,
+  "networkId": 96,
+  "icon": "kub",
+  "explorers": [
+    {
+      "name": "KUB Mainnet Explorer",
+      "url": "https://kubscan.com",
+      "standard": "none",
+      "icon": "kub"
+    }
+  ],
+  "redFlags": ["reusedChainId"]
+}

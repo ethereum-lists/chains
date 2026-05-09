@@ -1,0 +1,23 @@
+{
+  "name": "Meter Testnet",
+  "chain": "METER Testnet",
+  "rpc": ["https://rpctest.meter.io"],
+  "faucets": ["https://faucet-warringstakes.meter.io"],
+  "nativeCurrency": {
+    "name": "Meter",
+    "symbol": "MTR",
+    "decimals": 18
+  },
+  "infoURL": "https://www.meter.io",
+  "shortName": "MeterTest",
+  "chainId": 83,
+  "networkId": 83,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Meter Testnet Scan",
+      "url": "https://scan-warringstakes.meter.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

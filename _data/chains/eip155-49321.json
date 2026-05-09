@@ -1,0 +1,26 @@
+{
+  "name": "GUNZ Testnet",
+  "chain": "tGUN",
+  "rpc": [
+    "https://rpc.gunz.dev/ext/bc/ryk9vkvNuKtewME2PeCgybo9sdWXGmCkBrrx4VPuZPdVdAak8/rpc"
+  ],
+  "faucets": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "nativeCurrency": {
+    "name": "GUN",
+    "symbol": "GUN",
+    "decimals": 18
+  },
+  "icon": "guntestnet",
+  "infoURL": "https://gunbygunz.com",
+  "shortName": "Stork",
+  "chainId": 49321,
+  "networkId": 49321,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://testnet.gunzscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Zafirium Mainnet",
+  "chain": "ZAFIC",
+  "icon": "zafirium",
+  "rpc": ["https://mainnet.zakumi.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Zakumi Chain Native Token",
+    "symbol": "ZAFIC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.zakumi.io",
+  "shortName": "zafic",
+  "chainId": 1369,
+  "networkId": 1369,
+  "explorers": [
+    {
+      "name": "zafirium-explorer",
+      "url": "https://explorer.zakumi.io",
+      "standard": "none"
+    }
+  ]
+}

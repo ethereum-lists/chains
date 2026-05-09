@@ -1,0 +1,31 @@
+{
+  "name": "Rails",
+  "title": "Rails Network Mainnet",
+  "chain": "RAILS",
+  "icon": "rails",
+  "rpc": ["https://mainnet.steamexchange.io"],
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" },
+    { "name": "EIP6551" }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SteamX",
+    "symbol": "STEAMX",
+    "decimals": 18
+  },
+  "infoURL": "https://steamexchange.io",
+  "shortName": "rails",
+  "chainId": 6278,
+  "networkId": 6278,
+  "slip44": 6278,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explore.steamexchange.io",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "OPTOPIA Testnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc-testnet.optopia.ai"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP1559" }],
+  "infoURL": "https://optopia.ai",
+  "shortName": "OPTOPIA-Testnet",
+  "chainId": 62049,
+  "networkId": 62049,
+  "icon": "optopia",
+  "explorers": [
+    {
+      "name": "optopia-testnet-scan",
+      "url": "https://scan-testnet.optopia.ai",
+      "icon": "optopia",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "https://bridge-testnet.optopia.ai" }]
+  }
+}

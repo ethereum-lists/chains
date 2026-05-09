@@ -1,0 +1,27 @@
+{
+  "name": "Hybrid Chain Network Mainnet",
+  "chain": "HYBRID",
+  "rpc": [
+    "https://coredata-mainnet.hybridchain.ai/",
+    "https://rpc-mainnet.hybridchain.ai"
+  ],
+  "faucets": ["https://faucet-testnet.hybridchain.ai"],
+  "nativeCurrency": {
+    "name": "Hybrid Chain Native Token",
+    "symbol": "HRC",
+    "decimals": 18
+  },
+  "infoURL": "https://hybridchain.ai",
+  "shortName": "hrc",
+  "chainId": 2468,
+  "networkId": 2468,
+  "icon": "hybrid",
+  "explorers": [
+    {
+      "name": "Hybrid Chain Explorer Mainnet",
+      "icon": "hybrid",
+      "url": "https://hybridscan.ai",
+      "standard": "none"
+    }
+  ]
+}

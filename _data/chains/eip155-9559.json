@@ -1,0 +1,25 @@
+{
+  "name": "Neonlink Testnet",
+  "chain": "Neonlink",
+  "rpc": ["https://testnet.neonlink.io"],
+  "faucets": ["https://faucet.neonlink.io/"],
+  "nativeCurrency": {
+    "name": "Neonlink Native Token",
+    "symbol": "tNEON",
+    "decimals": 18
+  },
+  "infoURL": "https://neonlink.io",
+  "shortName": "testneon",
+  "chainId": 9559,
+  "networkId": 9559,
+  "slip44": 1,
+  "icon": "neonlink",
+  "explorers": [
+    {
+      "name": "Neon Blockchain Explorer",
+      "url": "https://testnet-scan.neonlink.io",
+      "standard": "EIP3091",
+      "icon": "neonlink"
+    }
+  ]
+}

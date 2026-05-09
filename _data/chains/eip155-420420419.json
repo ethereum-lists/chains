@@ -1,0 +1,29 @@
+{
+  "name": "Polkadot",
+  "chain": "DOT",
+  "icon": "polkadot",
+  "rpc": [
+    "https://services.polkadothub-rpc.com/mainnet",
+    "wss://services.polkadothub-rpc.com/mainnet",
+    "https://eth-rpc.polkadot.io",
+    "wss://eth-rpc.polkadot.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DOT",
+    "symbol": "DOT",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://polkadot.com",
+  "shortName": "dot",
+  "chainId": 420420419,
+  "networkId": 420420419,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockscout.polkadot.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Astar zKyoto",
+  "shortName": "azkyt",
+  "title": "Astar zkEVM Testnet zKyoto",
+  "chain": "ETH",
+  "icon": "astarzk",
+  "rpc": [
+    "https://rpc.startale.com/zkyoto",
+    "https://rpc.zkyoto.gelato.digital"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://astar.network",
+  "chainId": 6038361,
+  "networkId": 6038361,
+  "explorers": [
+    {
+      "name": "Blockscout zKyoto explorer",
+      "url": "https://astar-zkyoto.blockscout.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [
+      {
+        "url": "https://portal.astar.network"
+      },
+      {
+        "url": "https://bridge.gelato.network/bridge/astar-zkyoto"
+      }
+    ]
+  }
+}

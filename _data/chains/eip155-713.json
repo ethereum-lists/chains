@@ -1,0 +1,33 @@
+{
+  "name": "Vrcscan Mainnet",
+  "chain": "VRC",
+  "rpc": [
+    "https://rpc-mainnet-5.vrcscan.com",
+    "https://rpc-mainnet-6.vrcscan.com",
+    "https://rpc-mainnet-7.vrcscan.com",
+    "https://rpc-mainnet-8.vrcscan.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "VRC Chain",
+    "symbol": "VRC",
+    "decimals": 18
+  },
+  "infoURL": "https://vrccoin.com",
+  "shortName": "vrc",
+  "chainId": 713,
+  "networkId": 713,
+  "explorers": [
+    {
+      "name": "vrcscan",
+      "url": "https://vrcscan.com",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dxbscan",
+      "url": "https://dxb.vrcscan.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "icon": "vrcscan"
+}

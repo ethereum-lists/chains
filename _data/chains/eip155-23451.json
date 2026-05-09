@@ -1,0 +1,24 @@
+{
+  "name": "DreyerX Mainnet",
+  "chain": "DreyerX",
+  "rpc": ["https://rpc.dreyerx.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DreyerX",
+    "symbol": "DRX",
+    "decimals": 18
+  },
+  "infoURL": "https://dreyerx.com",
+  "shortName": "dreyerx",
+  "chainId": 23451,
+  "networkId": 23451,
+  "icon": "dreyerx",
+  "explorers": [
+    {
+      "name": "drxscan",
+      "url": "https://scan.dreyerx.com",
+      "icon": "dreyerx",
+      "standard": "EIP3091"
+    }
+  ]
+}

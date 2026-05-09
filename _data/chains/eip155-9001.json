@@ -1,0 +1,29 @@
+{
+  "name": "Evmos",
+  "chain": "Evmos",
+  "rpc": [
+    "https://evmos.lava.build",
+    "wss://evmos.lava.build/websocket",
+    "https://evmos-evm-rpc.publicnode.com",
+    "wss://evmos-evm-rpc.publicnode.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Evmos",
+    "symbol": "EVMOS",
+    "decimals": 18
+  },
+  "infoURL": "https://evmos.org",
+  "shortName": "evmos",
+  "chainId": 9001,
+  "networkId": 9001,
+  "icon": "evmos",
+  "explorers": [
+    {
+      "name": "Evmos Explorer (Escan)",
+      "url": "https://escan.live",
+      "standard": "none",
+      "icon": "evmos"
+    }
+  ]
+}

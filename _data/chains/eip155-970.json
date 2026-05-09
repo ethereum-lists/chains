@@ -1,0 +1,24 @@
+{
+  "name": "Oort Mainnet",
+  "chain": "Oort Mainnet",
+  "rpc": ["https://mainnet-rpc.oortech.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Oort",
+    "symbol": "OORT",
+    "decimals": 18
+  },
+  "infoURL": "https://oortech.com",
+  "shortName": "ccn",
+  "chainId": 970,
+  "networkId": 970,
+  "icon": "oort",
+  "explorers": [
+    {
+      "name": "Oort Mainnet Explorer",
+      "url": "https://mainnet-scan.oortech.com",
+      "standard": "none",
+      "icon": "oort"
+    }
+  ]
+}

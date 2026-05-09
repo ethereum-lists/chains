@@ -1,0 +1,27 @@
+{
+  "name": "Rootstock Testnet",
+  "chain": "Rootstock",
+  "rpc": [
+    "https://public-node.testnet.rsk.co",
+    "https://mycrypto.testnet.rsk.co"
+  ],
+  "faucets": ["https://faucet.rsk.co/"],
+  "icon": "rootstock",
+  "nativeCurrency": {
+    "name": "Testnet Smart Bitcoin",
+    "symbol": "tRBTC",
+    "decimals": 18
+  },
+  "infoURL": "https://rootstock.io",
+  "shortName": "trsk",
+  "chainId": 31,
+  "networkId": 31,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "RSK Testnet Explorer",
+      "url": "https://explorer.testnet.rsk.co",
+      "standard": "EIP3091"
+    }
+  ]
+}

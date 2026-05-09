@@ -1,0 +1,30 @@
+{
+  "name": "Astar",
+  "chain": "ASTR",
+  "rpc": ["https://rpc.astar.network:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Astar",
+    "symbol": "ASTR",
+    "decimals": 18
+  },
+  "infoURL": "https://astar.network/",
+  "shortName": "astr",
+  "chainId": 592,
+  "networkId": 592,
+  "icon": "astar",
+  "explorers": [
+    {
+      "name": "subscan",
+      "url": "https://astar.subscan.io",
+      "standard": "none",
+      "icon": "subscan"
+    },
+    {
+      "name": "blockscout",
+      "url": "https://blockscout.com/astar",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

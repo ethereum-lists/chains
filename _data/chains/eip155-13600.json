@@ -1,0 +1,25 @@
+{
+  "name": "Kronobit Mainnet",
+  "title": "Kronobit Mainnet",
+  "chain": "KNB",
+  "rpc": ["https://mainnet-rpc.qbitscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Kronobit",
+    "symbol": "KNB",
+    "decimals": 18
+  },
+  "infoURL": "https://kronobit.org",
+  "shortName": "KNB",
+  "chainId": 13600,
+  "networkId": 13600,
+  "icon": "kronobit",
+  "explorers": [
+    {
+      "name": "qbitscan",
+      "url": "https://explorer.qbitscan.com",
+      "icon": "kronobit",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "BNB Smart Chain Mainnet",
+  "chain": "BSC",
+  "rpc": [
+    "https://bsc-dataseed1.bnbchain.org",
+    "https://bsc-dataseed2.bnbchain.org",
+    "https://bsc-dataseed3.bnbchain.org",
+    "https://bsc-dataseed4.bnbchain.org",
+    "https://bsc-dataseed1.defibit.io",
+    "https://bsc-dataseed2.defibit.io",
+    "https://bsc-dataseed3.defibit.io",
+    "https://bsc-dataseed4.defibit.io",
+    "https://bsc-dataseed1.ninicoin.io",
+    "https://bsc-dataseed2.ninicoin.io",
+    "https://bsc-dataseed3.ninicoin.io",
+    "https://bsc-dataseed4.ninicoin.io",
+    "https://bsc-rpc.publicnode.com",
+    "wss://bsc-rpc.publicnode.com",
+    "wss://bsc-ws-node.nariox.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BNB Chain Native Token",
+    "symbol": "BNB",
+    "decimals": 18
+  },
+  "infoURL": "https://www.bnbchain.org/en",
+  "shortName": "bnb",
+  "chainId": 56,
+  "networkId": 56,
+  "slip44": 714,
+  "explorers": [
+    {
+      "name": "bscscan",
+      "url": "https://bscscan.com",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "dexguru",
+      "url": "https://bnb.dex.guru",
+      "icon": "dexguru",
+      "standard": "EIP3091"
+    }
+  ]
+}

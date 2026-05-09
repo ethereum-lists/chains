@@ -1,0 +1,28 @@
+{
+  "name": "DeFiVerse Mainnet",
+  "chain": "DeFiVerse",
+  "icon": "defiverse",
+  "rpc": ["https://rpc.defi-verse.org/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Oasys",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "infoURL": "https://defi-verse.org",
+  "shortName": "DFV",
+  "chainId": 16116,
+  "networkId": 16116,
+  "explorers": [
+    {
+      "name": "DeFiVerse Explorer",
+      "url": "https://scan.defi-verse.org",
+      "icon": "defiverse",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-248"
+  }
+}

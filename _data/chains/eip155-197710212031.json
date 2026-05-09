@@ -1,0 +1,25 @@
+{
+  "name": "Haradev Testnet",
+  "chain": "Ntity",
+  "rpc": ["https://blockchain.haradev.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ntity Haradev",
+    "symbol": "NTTH",
+    "decimals": 18
+  },
+  "infoURL": "https://ntity.io",
+  "shortName": "haradev",
+  "chainId": 197710212031,
+  "networkId": 197710212031,
+  "slip44": 1,
+  "icon": "haradev",
+  "explorers": [
+    {
+      "name": "Haradev Explorer",
+      "url": "https://explorer.haradev.com",
+      "icon": "haradev",
+      "standard": "EIP3091"
+    }
+  ]
+}
