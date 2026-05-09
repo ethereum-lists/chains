@@ -2,13 +2,8 @@
   "name": "MACos Chain",
   "chain": "MACOS",
   "icon": "macos",
-  "rpc": [
-    "https://rpc1.codeupp.xyz"
-  ],
-  "features": [
-    { "name": "EIP155" },
-    { "name": "EIP1559" }
-  ],
+  "rpc": ["https://rpc1.codeupp.xyz"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
     "name": "MACos Coin",
