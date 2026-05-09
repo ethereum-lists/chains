@@ -1,0 +1,27 @@
+{
+  "name": "Nepachain",
+  "chain": "Nepachain",
+  "faucets": [],
+  "rpc": ["https://network.nepachain.org", "https://network.nepachain.com"],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    },
+    {
+      "name": "EIP2930"
+    }
+  ],
+  "nativeCurrency": {
+    "name": "Nepacoin",
+    "symbol": "NPC",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.nepachain.org/",
+  "shortName": "Nepachain",
+  "chainId": 9770,
+  "networkId": 9770,
+  "explorers": []
+}
