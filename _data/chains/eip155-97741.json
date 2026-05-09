@@ -1,8 +1,8 @@
 {
-  "name": "Pepe Unchained Deprecated",
+  "name": "Pepe Unchained V2",
   "chain": "PEPU",
   "icon": "pepu",
-  "rpc": ["https://rpc-pepe-unchained-gupg0lo9wf.t.conduit.xyz"],
+  "rpc": ["https://rpc-pepu-v2-mainnet-0.t.conduit.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "PEPU",
@@ -10,10 +10,9 @@
     "decimals": 18
   },
   "infoURL": "https://pepeunchained.com/",
-  "shortName": "pepudeprecated",
-  "chainId": 3409,
-  "networkId": 3409,
-  "status": "deprecated",
+  "shortName": "pepuv2",
+  "chainId": 97741,
+  "networkId": 97741,
   "explorers": [
     {
       "name": "pepuscan",
