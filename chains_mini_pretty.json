@@ -13714,6 +13714,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Danny",
+  "chainId": 5069,
+  "shortName": "dan",
+  "networkId": 5069,
+  "nativeCurrency": {
+    "name": "Danny",
+    "symbol": "DAN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.dannyscan.com"],
+  "faucets": [],
+  "infoURL": "https://dannychain.com"
+}, {
   "name": "Pione Zero",
   "chainId": 5080,
   "shortName": "pzo",
