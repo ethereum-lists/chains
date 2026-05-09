@@ -4263,16 +4263,16 @@
   "faucets": [],
   "infoURL": "https://nutriemp.com"
 }, {
-  "name": "Boyaa Mainnet",
+  "name": "Boyaa",
   "chainId": 434,
   "shortName": "BYC",
   "networkId": 434,
   "nativeCurrency": {
-    "name": "Boyaa mainnet native coin",
+    "name": "Boyaa native coin",
     "symbol": "BYC",
     "decimals": 18
   },
-  "rpc": ["https://evm-rpc.mainnet.boyaa.network"],
+  "rpc": ["https://rpc.boyaa.network"],
   "faucets": [],
   "infoURL": "https://boyaa.network"
 }, {

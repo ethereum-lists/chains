@@ -7088,12 +7088,12 @@
     "icon": "GRAMZ"
   }]
 }, {
-  "name": "Boyaa Mainnet",
+  "name": "Boyaa",
   "chain": "BYC",
-  "rpc": ["https://evm-rpc.mainnet.boyaa.network"],
+  "rpc": ["https://rpc.boyaa.network"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Boyaa mainnet native coin",
+    "name": "Boyaa native coin",
     "symbol": "BYC",
     "decimals": 18
   },
@@ -7104,7 +7104,7 @@
   "icon": "boyaanetwork",
   "explorers": [{
     "name": "Boyaa explorer",
-    "url": "https://explorer.mainnet.boyaa.network",
+    "url": "https://explorer.boyaa.network",
     "standard": "EIP3091"
   }]
 }, {
