@@ -30809,16 +30809,16 @@
   "faucets": [],
   "infoURL": "https://www.anwang.com"
 }, {
-  "name": "The Ting Blockchain Testnet Explorer",
+  "name": "Ting Chain Testnet",
   "chainId": 6666689,
   "shortName": "ting-testnet",
   "networkId": 6666689,
   "nativeCurrency": {
-    "name": "Ton",
-    "symbol": "Ton",
+    "name": "Ting",
+    "symbol": "TING",
     "decimals": 18
   },
-  "rpc": ["https://testnet.tingchain.org", "https://public.0xrpc.com/6666689"],
+  "rpc": ["https://rpc-testnet.tingscan.com", "wss://rpc-testnet.tingscan.com"],
   "faucets": [],
   "infoURL": "https://tingscan.com"
 }, {
