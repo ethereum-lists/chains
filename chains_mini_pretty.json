@@ -13688,6 +13688,19 @@
   "faucets": [],
   "infoURL": "https://www.ongr.org/"
 }, {
+  "name": "Arc",
+  "chainId": 5042,
+  "shortName": "arc-mainnet",
+  "networkId": 5042,
+  "nativeCurrency": {
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://arc.network"
+}, {
   "name": "Skate Mainnet",
   "chainId": 5050,
   "shortName": "skate",

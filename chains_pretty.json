@@ -22696,6 +22696,22 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Arc",
+  "chain": "Arc",
+  "icon": "arcnetwork",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "infoURL": "https://arc.network",
+  "shortName": "arc-mainnet",
+  "chainId": 5042,
+  "networkId": 5042,
+  "explorers": []
+}, {
   "name": "Skate Mainnet",
   "chain": "ETH",
   "rpc": ["https://rpc.skatechain.org/"],
