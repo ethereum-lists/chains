@@ -15,7 +15,7 @@
     "https://arb1.arbitrum.io/rpc",
     "https://arbitrum-one-rpc.publicnode.com",
     "wss://arbitrum-one-rpc.publicnode.com",
-    "https://rpcfree.com/arbitrum-rpc"
+    "https://rpc.satelink.network/rpc/arbitrum"
   ],
   "faucets": [],
   "explorers": [
@@ -40,6 +40,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.arbitrum.io" }]
+    "bridges": [
+      {
+        "url": "https://bridge.arbitrum.io"
+      }
+    ]
   }
 }
