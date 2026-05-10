@@ -26699,6 +26699,27 @@
   "networkId": 8087,
   "explorers": []
 }, {
+  "name": "Helix Chain",
+  "shortName": "hlx",
+  "chain": "HLX",
+  "chainId": 8088,
+  "networkId": 8088,
+  "rpc": ["https://rpc.thehelixchain.xyz"],
+  "faucets": ["https://faucet.thehelixchain.xyz"],
+  "infoURL": "https://thehelixchain.xyz",
+  "icon": "helix",
+  "nativeCurrency": {
+    "name": "Helix",
+    "symbol": "HLX",
+    "decimals": 18
+  },
+  "explorers": [{
+    "name": "Helix Chain Explorer",
+    "url": "https://explorer.thehelixchain.xyz",
+    "standard": "EIP3091"
+  }],
+  "status": "active"
+}, {
   "name": "StreamuX Blockchain",
   "chain": "StreamuX",
   "rpc": ["https://u0ma6t6heb:KDNwOsRDGcyM2Oeui1p431Bteb4rvcWkuPgQNHwB4FM@u0xy4x6x82-u0e2mg517m-rpc.us0-aws.kaleido.io/"],

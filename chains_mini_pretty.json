@@ -16119,6 +16119,19 @@
   "faucets": [],
   "infoURL": "https://e-dollar.org"
 }, {
+  "name": "Helix Chain",
+  "chainId": 8088,
+  "shortName": "hlx",
+  "networkId": 8088,
+  "nativeCurrency": {
+    "name": "Helix",
+    "symbol": "HLX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.thehelixchain.xyz"],
+  "faucets": ["https://faucet.thehelixchain.xyz"],
+  "infoURL": "https://thehelixchain.xyz"
+}, {
   "name": "StreamuX Blockchain",
   "chainId": 8098,
   "shortName": "StreamuX",
