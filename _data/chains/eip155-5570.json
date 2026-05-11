@@ -2,14 +2,8 @@
   "name": "Treasurenet Aurora",
   "chain": "Treasurenet Aurora",
   "icon": "treasurenet",
-  "rpc": [
-    "https://rpc.treasurenet.io"
-  ],
-  "features": [
-    {
-      "name": "EIP155"
-    }
-  ],
+  "rpc": ["https://rpc.treasurenet.io"],
+  "features": [{ "name": "EIP155" }],
   "faucets": [],
   "nativeCurrency": {
     "name": "UNIT",
