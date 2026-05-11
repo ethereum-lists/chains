@@ -1,0 +1,26 @@
+{
+  "name": "Gotas Social",
+  "chain": "Gotas",
+  "icon": "gotas",
+  "rpc": [
+    "https://services.tanssi-mainnet.network/tanssi-2006",
+    "wss://services.tanssi-mainnet.network/tanssi-2006"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GOTAS",
+    "symbol": "GOTAS",
+    "decimals": 18
+  },
+  "infoURL": "https://gotas.com/",
+  "shortName": "gotas",
+  "chainId": 23232,
+  "networkId": 23232,
+  "explorers": [
+    {
+      "name": "Tanssi EVM Basic Explorer",
+      "url": "https://evmexplorer.tanssi-chains.network/?rpcUrl=https://services.tanssi-mainnet.network/tanssi-2006",
+      "standard": "none"
+    }
+  ]
+}

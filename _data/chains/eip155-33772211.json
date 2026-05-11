@@ -1,12 +1,12 @@
 {
   "name": "Xone Testnet",
   "chain": "XOC",
-  "icon": "xone-test",
+  "icon": "xone_test",
   "rpc": [
     "https://rpc-testnet.xone.plus",
     "https://rpc-testnet.xone.org",
     "https://rpc-testnet.knight.center",
-    "wss://wss-rpc-testnet.xone.org"
+    "wss://rpc-testnet.xone.org"
   ],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": ["https://faucet.xone.org/"],
@@ -16,14 +16,14 @@
     "decimals": 18
   },
   "infoURL": "https://xone.org",
-  "shortName": "txoc",
+  "shortName": "tXOC",
   "chainId": 33772211,
   "networkId": 33772211,
   "explorers": [
     {
-      "name": "testnet-xscscan",
-      "url": "https://testnet.xscscan.com",
-      "icon": "testnet-xscscan",
+      "name": "xone_test",
+      "url": "https://testnet.xonescan.com",
+      "icon": "xone_test",
       "standard": "EIP3091"
     }
   ]

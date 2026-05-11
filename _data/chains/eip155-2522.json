@@ -1,11 +1,7 @@
 {
   "name": "Fraxtal Testnet",
   "chain": "FRAX",
-  "rpc": [
-    "https://rpc.testnet.frax.com",
-    "https://fraxtal-holesky-rpc.publicnode.com",
-    "wss://fraxtal-holesky-rpc.publicnode.com"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Frax",
@@ -18,12 +14,6 @@
   "networkId": 2522,
   "slip44": 1,
   "icon": "fraxtal",
-  "explorers": [
-    {
-      "name": "fraxscan",
-      "url": "https://holesky.fraxscan.com",
-      "standard": "EIP3091"
-    }
-  ],
-  "status": "active"
+  "explorers": [],
+  "status": "deprecated"
 }

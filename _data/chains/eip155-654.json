@@ -1,7 +1,7 @@
 {
   "name": "Kalichain",
   "chain": "Kalichain",
-  "rpc": ["https://mainnet.kalichain.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "kalis",
@@ -13,11 +13,6 @@
   "chainId": 654,
   "networkId": 654,
   "icon": "kalichain",
-  "explorers": [
-    {
-      "name": "kalichain explorer",
-      "url": "https://explorer.kalichain.com",
-      "standard": "EIP3091"
-    }
-  ]
+  "explorers": [],
+  "status": "deprecated"
 }

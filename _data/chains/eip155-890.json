@@ -1,0 +1,19 @@
+{
+  "name": "Capital Exchange",
+  "chain": "CXM",
+  "rpc": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Capital Exchange",
+    "symbol": "CXM",
+    "decimals": 18
+  },
+  "infoURL": "https://www.capitalexchange.it",
+  "shortName": "CXM",
+  "chainId": 890,
+  "networkId": 890,
+  "status": "active",
+  "explorers": [],
+  "status": "deprecated"
+}
