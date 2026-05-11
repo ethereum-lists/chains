@@ -1,9 +1,7 @@
 {
   "name": "NVNM Testnet EVM",
   "chain": "NVNM Testnet EVM",
-  "rpc": [
-    "https://evm.testnet.nvnmchain.io",
-  ],
+  "rpc": ["https://evm.testnet.nvnmchain.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "MANTRA USD",
