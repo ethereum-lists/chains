@@ -1,0 +1,25 @@
+{
+  "name": "BetaX Chain",
+  "chain": "BetaX",
+  "rpc": [
+    "https://rpc.betaxchain.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BetaX Chain",
+    "symbol": "PBX",
+    "decimals": 18
+  },
+  "infoURL": "https://betaxchain.com",
+  "shortName": "betax",
+  "chainId": 290783,
+  "networkId": 290783,
+  "icon": "betax",
+  "explorers": [
+    {
+      "name": "BetaX Explorer",
+      "url": "https://explorer.betaxchain.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
