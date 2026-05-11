@@ -1,6 +1,6 @@
 {
-  "name": "Treasurenet Mainnet Alpha",
-  "chain": "Treasurenet Mainnet Alpha",
+  "name": "Treasurenet Aurora (Deprecated)",
+  "chain": "Treasurenet Aurora",
   "icon": "treasurenet",
   "rpc": [
     "https://node0.treasurenet.io",
@@ -20,13 +20,14 @@
     "decimals": 18
   },
   "infoURL": "https://www.treasurenet.io",
-  "shortName": "treasurenet",
+  "shortName": "treasurenet-deprecated",
   "chainId": 5002,
   "networkId": 5002,
+  "status": "deprecated",
   "explorers": [
     {
       "name": "Treasurenet EVM BlockExplorer",
-      "url": "https://evmexplorer.treasurenet.io",
+      "url": "https://scan.treasurenet.io",
       "icon": "treasurenet",
       "standard": "none"
     }
