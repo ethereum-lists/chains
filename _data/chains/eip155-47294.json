@@ -1,0 +1,25 @@
+{
+  "name": "TXCL Chain",
+  "chain": "TXCL",
+  "rpc": [
+    "https://rpc.txcl.tradexcele.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TXCL",
+    "symbol": "TXCL",
+    "decimals": 18
+  },
+  "infoURL": "https://tradexcele.com/chain",
+  "shortName": "txcl",
+  "chainId": 47294,
+  "networkId": 47294,
+  "icon": "txcl",
+  "explorers": [
+    {
+      "name": "TXCL Explorer",
+      "url": "https://explorer.txcl.tradexcele.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
