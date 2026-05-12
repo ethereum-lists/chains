@@ -14702,6 +14702,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "MIZUHIKI Testnet Awaji",
+  "chainId": 6497,
+  "shortName": "awaji",
+  "networkId": 6497,
+  "nativeCurrency": {
+    "name": "MIZU",
+    "symbol": "MIZU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.awaji.mizuhiki.io"],
+  "faucets": ["https://faucet.awaji.mizuhiki.io"],
+  "infoURL": "https://mizuhiki.io/"
+}, {
   "name": "Peerpay",
   "chainId": 6502,
   "shortName": "Peerpay",
