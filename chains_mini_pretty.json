@@ -16600,6 +16600,19 @@
   "faucets": [],
   "infoURL": "https://www.autonomys.xyz"
 }, {
+  "name": "EB-Chain",
+  "chainId": 8721,
+  "shortName": "ebc",
+  "networkId": 8721,
+  "nativeCurrency": {
+    "name": "EBC",
+    "symbol": "EBC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.ebcscan.net"],
+  "faucets": ["https://ebcscan.net/faucet"],
+  "infoURL": "https://ebcscan.net"
+}, {
   "name": "TOOL Global Mainnet",
   "chainId": 8723,
   "shortName": "olo",
