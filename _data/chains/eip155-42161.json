@@ -28,18 +28,16 @@
       "name": "Arbitrum Explorer",
       "url": "https://explorer.arbitrum.io",
       "standard": "EIP3091"
-    },
-    {
-      "name": "dexguru",
-      "url": "https://arbitrum.dex.guru",
-      "icon": "dexguru",
-      "standard": "EIP3091"
     }
   ],
   "infoURL": "https://arbitrum.io",
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.arbitrum.io" }]
+    "bridges": [
+      {
+        "url": "https://bridge.arbitrum.io"
+      }
+    ]
   }
 }
