@@ -15222,6 +15222,32 @@
   "faucets": [],
   "infoURL": "https://hth.world"
 }, {
+  "name": "Sentrix Chain",
+  "chainId": 7119,
+  "shortName": "srx",
+  "networkId": 7119,
+  "nativeCurrency": {
+    "name": "Sentrix",
+    "symbol": "SRX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.sentrixchain.com"],
+  "faucets": [],
+  "infoURL": "https://sentrixchain.com"
+}, {
+  "name": "Sentrix Testnet",
+  "chainId": 7120,
+  "shortName": "srx-testnet",
+  "networkId": 7120,
+  "nativeCurrency": {
+    "name": "Sentrix",
+    "symbol": "SRX",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.sentrixchain.com"],
+  "faucets": ["https://faucet.sentrixchain.com"],
+  "infoURL": "https://sentrixchain.com"
+}, {
   "name": "Bitrock Mainnet",
   "chainId": 7171,
   "shortName": "bitrock",

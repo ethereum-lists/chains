@@ -25205,6 +25205,46 @@
   "status": "incubating",
   "explorers": []
 }, {
+  "name": "Sentrix Chain",
+  "chain": "Sentrix",
+  "rpc": ["https://rpc.sentrixchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sentrix",
+    "symbol": "SRX",
+    "decimals": 18
+  },
+  "infoURL": "https://sentrixchain.com",
+  "shortName": "srx",
+  "chainId": 7119,
+  "networkId": 7119,
+  "icon": "sentrix",
+  "explorers": [{
+    "name": "Sentrix Scan",
+    "url": "https://scan.sentrixchain.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Sentrix Testnet",
+  "chain": "Sentrix",
+  "rpc": ["https://testnet-rpc.sentrixchain.com"],
+  "faucets": ["https://faucet.sentrixchain.com"],
+  "nativeCurrency": {
+    "name": "Sentrix",
+    "symbol": "SRX",
+    "decimals": 18
+  },
+  "infoURL": "https://sentrixchain.com",
+  "shortName": "srx-testnet",
+  "chainId": 7120,
+  "networkId": 7120,
+  "icon": "sentrix",
+  "explorers": [{
+    "name": "Sentrix Scan Testnet",
+    "url": "https://scan-testnet.sentrixchain.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Bitrock Mainnet",
   "chain": "Bitrock",
   "icon": "bitrock",
