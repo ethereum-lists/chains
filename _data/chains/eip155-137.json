@@ -10,7 +10,8 @@
     "wss://polygon-bor-rpc.publicnode.com",
     "https://polygon.gateway.tenderly.co",
     "wss://polygon.gateway.tenderly.co",
-    "https://rpc.satelink.network/rpc/polygon"
+    "https://rpc.satelink.network/rpc/polygon",
+    "https://rpc.swiftnodes.io/rpc/polygon?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -9,7 +9,8 @@
     "wss://boba-ethereum.gateway.tenderly.co/",
     "wss://gateway.tenderly.co/public/boba-ethereum",
     "https://boba-eth.drpc.org",
-    "wss://boba-eth.drpc.org"
+    "wss://boba-eth.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/boba?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {

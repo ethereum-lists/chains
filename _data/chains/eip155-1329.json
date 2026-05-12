@@ -1,7 +1,8 @@
 {
   "name": "Sei Network",
   "chain": "Sei",
-  "rpc": ["https://evm-rpc.sei-apis.com", "wss://evm-ws.sei-apis.com"],
+  "rpc": ["https://evm-rpc.sei-apis.com", "wss://evm-ws.sei-apis.com",
+"https://evm-rpc.sei-apis.com", "https://rpc.swiftnodes.io/rpc/sei?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sei",

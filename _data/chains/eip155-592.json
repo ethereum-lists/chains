@@ -1,7 +1,8 @@
 {
   "name": "Astar",
   "chain": "ASTR",
-  "rpc": ["https://rpc.astar.network:8545"],
+  "rpc": ["https://rpc.astar.network:8545",
+"https://rpc.swiftnodes.io/rpc/astar?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Astar",

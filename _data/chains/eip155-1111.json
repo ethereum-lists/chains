@@ -1,7 +1,8 @@
 {
   "name": "WEMIX3.0 Mainnet",
   "chain": "WEMIX",
-  "rpc": ["https://api.wemix.com", "wss://ws.wemix.com"],
+  "rpc": ["https://api.wemix.com", "wss://ws.wemix.com",
+"https://api.wemix.com", "https://rpc.swiftnodes.io/rpc/wemix?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "WEMIX",

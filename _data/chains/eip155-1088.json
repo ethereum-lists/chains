@@ -6,7 +6,8 @@
     "https://metis.drpc.org",
     "wss://metis.drpc.org",
     "https://metis-rpc.publicnode.com",
-    "wss://metis-rpc.publicnode.com"
+    "wss://metis-rpc.publicnode.com",
+    "https://rpc.swiftnodes.io/rpc/metis?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {

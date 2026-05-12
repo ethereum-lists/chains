@@ -16,7 +16,8 @@
     "https://moonriver-rpc.publicnode.com",
     "wss://moonriver-rpc.publicnode.com",
     "https://moonriver.drpc.org",
-    "wss://moonriver.drpc.org"
+    "wss://moonriver.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/moonriver?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
