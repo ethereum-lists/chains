@@ -1,8 +1,10 @@
 {
   "name": "Zora",
   "chain": "ETH",
-  "rpc": ["https://rpc.zora.energy/",
-"https://rpc.swiftnodes.io/rpc/zora?key=${SWIFTNODES_API_KEY}"],
+  "rpc": [
+    "https://rpc.zora.energy/",
+    "https://rpc.swiftnodes.io/rpc/zora?key=${SWIFTNODES_API_KEY}"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

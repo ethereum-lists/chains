@@ -1,8 +1,10 @@
 {
   "name": "IoTeX Network Mainnet",
   "chain": "iotex.io",
-  "rpc": ["https://babel-api.mainnet.iotex.io",
-"https://rpc.swiftnodes.io/rpc/iotex?key=${SWIFTNODES_API_KEY}"],
+  "rpc": [
+    "https://babel-api.mainnet.iotex.io",
+    "https://rpc.swiftnodes.io/rpc/iotex?key=${SWIFTNODES_API_KEY}"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "IoTeX",

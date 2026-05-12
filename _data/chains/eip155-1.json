@@ -23,7 +23,14 @@
     "https://api.securerpc.com/v1",
     "https://rpc.swiftnodes.io/rpc/eth?key=${SWIFTNODES_API_KEY}"
   ],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -48,12 +55,6 @@
       "name": "blockscout",
       "url": "https://eth.blockscout.com",
       "icon": "blockscout",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "dexguru",
-      "url": "https://ethereum.dex.guru",
-      "icon": "dexguru",
       "standard": "EIP3091"
     },
     {

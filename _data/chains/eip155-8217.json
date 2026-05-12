@@ -1,8 +1,10 @@
 {
   "name": "Kaia Mainnet",
   "chain": "KAIA",
-  "rpc": ["https://public-en.node.kaia.io",
-"https://rpc.swiftnodes.io/rpc/kaia?key=${SWIFTNODES_API_KEY}"],
+  "rpc": [
+    "https://public-en.node.kaia.io",
+    "https://rpc.swiftnodes.io/rpc/kaia?key=${SWIFTNODES_API_KEY}"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "KAIA",

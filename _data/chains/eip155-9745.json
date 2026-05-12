@@ -1,8 +1,10 @@
 {
   "name": "Plasma Mainnet",
   "chain": "Plasma",
-  "rpc": ["https://rpc.plasma.to",
-"https://rpc.swiftnodes.io/rpc/plasma?key=${SWIFTNODES_API_KEY}"],
+  "rpc": [
+    "https://rpc.plasma.to",
+    "https://rpc.swiftnodes.io/rpc/plasma?key=${SWIFTNODES_API_KEY}"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Plasma",
