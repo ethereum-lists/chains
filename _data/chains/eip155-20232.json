@@ -1,10 +1,10 @@
 {
-    "name": "QVTX DNA Expression",
+    "name": "QVTX DNA Mainnet",
     "chain": "QVTX",
     "rpc": [
-        "https://rpc.qvtx.io:8555",
-        "http://203.161.33.24:8555",
-        "http://162.0.222.112:8555"
+        "https://rpc.qvtx.io",
+        "http://104.207.66.161:8545",
+        "http://159.198.47.12:8545"
     ],
     "features": [
         {
@@ -18,9 +18,9 @@
         "decimals": 18
     },
     "infoURL": "https://qvtx.io",
-    "shortName": "qvtx-dna",
-    "chainId": 42000,
-    "networkId": 42000,
+    "shortName": "qvtx",
+    "chainId": 20232,
+    "networkId": 20232,
     "explorers": [
         {
             "name": "QVTX Explorer",
