@@ -1,9 +1,11 @@
-name: Run prettier check
+name: Prettier Check
 
 on:
-  push:
   pull_request:
-  merge_group:
+  push:
+    branches:
+      - master
+      - main
 
 jobs:
   prettier:
@@ -25,4 +27,4 @@ jobs:
         run: npm install -g prettier@3.8.3
 
       - name: Run prettier
-        run: prettier --check "_data/*/*.json"
+        run: prettier --check "_data/**/*.json"
