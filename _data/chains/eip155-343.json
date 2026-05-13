@@ -1,7 +1,6 @@
 {
   "name": "Capital Exchange SE",
   "chain": "BOURSE",
-  "icon": "bourse",
   "rpc": ["https://rpc.capitalexchange.digital"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
