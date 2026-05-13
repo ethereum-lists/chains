@@ -1,0 +1,24 @@
+{
+  "name": "EarthCreatorChain",
+  "chain": "ECC",
+  "rpc": [
+    "https://rpc.earthcreator.jp"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Earth Creator Coin",
+    "symbol": "ECC",
+    "decimals": 18
+  },
+  "infoURL": "https://earthcreator.jp",
+  "shortName": "ecc",
+  "chainId": 804,
+  "networkId": 804,
+  "explorers": [
+    {
+      "name": "EarthScan",
+      "url": "https://scan.earthcreator.jp",
+      "standard": "EIP3091"
+    }
+  ]
+}
