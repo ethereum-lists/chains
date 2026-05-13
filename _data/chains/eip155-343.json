@@ -1,0 +1,27 @@
+{
+  "name": "Capital Exchange SE",
+  "chain": "BOURSE",
+  "rpc": ["https://rpc.capitalexchange.digital"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bourse",
+    "symbol": "BOURSE",
+    "decimals": 18
+  },
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" }
+  ],
+  "infoURL": "https://www.capitalexchange.markets",
+  "shortName": "bourse",
+  "chainId": 343,
+  "networkId": 343,
+  "icon": "bourse",
+  "explorers": [
+    {
+      "name": "Capital Exchange Markets - Digital",
+      "url": "https://explorer.capitalexchange.se",
+      "standard": "EIP3091"
+    }
+  ]
+}
