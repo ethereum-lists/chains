@@ -5,8 +5,7 @@
   "rpc": [
     "https://zkevm-rpc.com",
     "https://polygon-zkevm.drpc.org",
-    "wss://polygon-zkevm.drpc.org",
-    "https://rpc.swiftnodes.io/rpc/polygon-zkevm?key=${SWIFTNODES_API_KEY}"
+    "wss://polygon-zkevm.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
