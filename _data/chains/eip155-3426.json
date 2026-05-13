@@ -1,0 +1,28 @@
+{
+  "name": "QF Network Mainnet",
+  "chain": "QF",
+  "icon": "qf-network",
+  "rpc": ["https://mainnet.qfnode.net/eth"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Qf",
+    "symbol": "QF",
+    "decimals": 18
+  },
+  "infoURL": "https://qfnetwork.xyz",
+  "shortName": "qf",
+  "chainId": 3426,
+  "networkId": 3426,
+  "explorers": [
+    {
+      "name": "portal.qfnetwork.xyz",
+      "url": "https://portal.qfnetwork.xyz/?rpc=wss%3A%2F%2Fmainnet.qfnode.net#/explorer",
+      "standard": "none"
+    },
+    {
+      "name": "explorer.qfnetwork.xyz",
+      "url": "https://explorer.qfnetwork.xyz",
+      "standard": "none"
+    }
+  ]
+}
