@@ -1,12 +1,8 @@
 {
   "name": "EB-Chain",
   "chain": "EBC",
-  "rpc": [
-    "https://rpc.ebcscan.net"
-  ],
-  "faucets": [
-    "https://ebcscan.net/faucet"
-  ],
+  "rpc": ["https://rpc.ebcscan.net"],
+  "faucets": ["https://ebcscan.net/faucet"],
   "nativeCurrency": {
     "name": "EBC",
     "symbol": "EBC",
