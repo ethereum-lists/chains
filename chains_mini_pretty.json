@@ -31403,7 +31403,7 @@
     "symbol": "OFC",
     "decimals": 18
   },
-  "rpc": ["https://rpc.onfachain.com", "https://rpc.onfachain.net", "wss://ws.onfachain.com", "wss://ws.onfachain.net"],
+  "rpc": ["https://rpc.onfachain.com", "https://rpc.onfachain.net", "https://main.onfachain.net", "wss://ws.onfachain.com", "wss://ws.onfachain.net"],
   "faucets": [],
   "infoURL": "https://onfachain.com"
 }, {
@@ -32251,6 +32251,19 @@
   "rpc": ["https://rpc.testnet.frame.xyz/http"],
   "faucets": ["https://faucet.triangleplatform.com/frame/testnet"],
   "infoURL": "https://www.frame.xyz/"
+}, {
+  "name": "Cryptos Testnet Beta",
+  "chainId": 77777777,
+  "shortName": "cryptos-testnet-beta",
+  "networkId": 77777777,
+  "nativeCurrency": {
+    "name": "Cryptos",
+    "symbol": "CRPTOS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet-beta-evm.cryptos.com"],
+  "faucets": [],
+  "infoURL": "https://cryptos.com"
 }, {
   "name": "0xHash Testnet",
   "chainId": 77787778,
@@ -33617,18 +33630,18 @@
   "faucets": ["https://faucet.pectra-devnet-5.ethpandaops.io"],
   "infoURL": "https://pectra-devnet-5.ethpandaops.io"
 }, {
-  "name": "ONFA Chain",
+  "name": "ONFA Chain Testnet",
   "chainId": 8691942025,
-  "shortName": "onfa",
+  "shortName": "onfatestnet",
   "networkId": 8691942025,
   "nativeCurrency": {
-    "name": "Onfa Coin",
-    "symbol": "OFC",
+    "name": "ONFA Coin",
+    "symbol": "OFCT",
     "decimals": 18
   },
-  "rpc": ["https://rpc.onfa.io", "https://rpc.onfachain.com", "wss://ws.onfa.io", "wss://ws.onfachain.com"],
+  "rpc": ["https://rpc-testnet.onfachain.com", "https://rpc-testnet.onfachain.net", "wss://ws-testnet.onfachain.com", "wss://ws-testnet.onfachain.net"],
   "faucets": [],
-  "infoURL": "https://onfa.io"
+  "infoURL": "https://onfachain.com"
 }, {
   "name": "Palm Testnet",
   "chainId": 11297108099,
