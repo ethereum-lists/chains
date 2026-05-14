@@ -16522,6 +16522,19 @@
   "faucets": [],
   "infoURL": "https://base.org"
 }, {
+  "name": "MYRX-MAINNET",
+  "chainId": 8472,
+  "shortName": "myrx",
+  "networkId": 8472,
+  "nativeCurrency": {
+    "name": "MyRx Token",
+    "symbol": "MRT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.myrxwallet.io"],
+  "faucets": [],
+  "infoURL": "https://myrxwallet.io"
+}, {
   "name": "Chakra Testnet",
   "chainId": 8545,
   "shortName": "ChakraTN",

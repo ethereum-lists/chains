@@ -27373,6 +27373,25 @@
   }],
   "status": "active"
 }, {
+  "name": "MYRX-MAINNET",
+  "chain": "MYRX",
+  "rpc": ["https://rpc.myrxwallet.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MyRx Token",
+    "symbol": "MRT",
+    "decimals": 18
+  },
+  "infoURL": "https://myrxwallet.io",
+  "shortName": "myrx",
+  "chainId": 8472,
+  "networkId": 8472,
+  "explorers": [{
+    "name": "MyRx Explorer",
+    "url": "https://explorer.myrxwallet.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Chakra Testnet",
   "chain": "Chakra Testnet",
   "rpc": ["https://rpcv1-dn-1.chakrachain.io/"],
