@@ -1,18 +1,9 @@
 {
-  "name": "Treasurenet Aurora (Deprecated)",
+  "name": "Treasurenet Aurora",
   "chain": "Treasurenet Aurora",
   "icon": "treasurenet",
-  "rpc": [
-    "https://node0.treasurenet.io",
-    "https://node1.treasurenet.io",
-    "https://node2.treasurenet.io",
-    "https://node3.treasurenet.io"
-  ],
-  "features": [
-    {
-      "name": "EIP155"
-    }
-  ],
+  "rpc": ["https://rpc.treasurenet.io"],
+  "features": [{ "name": "EIP155" }],
   "faucets": [],
   "nativeCurrency": {
     "name": "UNIT",
@@ -20,10 +11,9 @@
     "decimals": 18
   },
   "infoURL": "https://www.treasurenet.io",
-  "shortName": "treasurenet-deprecated",
-  "chainId": 5002,
-  "networkId": 5002,
-  "status": "deprecated",
+  "shortName": "treasurenet",
+  "chainId": 5570,
+  "networkId": 5570,
   "explorers": [
     {
       "name": "Treasurenet EVM BlockExplorer",
