@@ -5,6 +5,7 @@
   "rpc": [
     "https://rpc.onfachain.com",
     "https://rpc.onfachain.net",
+    "https://main.onfachain.net",
     "wss://ws.onfachain.com",
     "wss://ws.onfachain.net"
   ],
@@ -18,6 +19,7 @@
   "shortName": "onfachain",
   "chainId": 12082025,
   "networkId": 12082025,
+  "icon": "onfachain",
   "explorers": [
     {
       "name": "ONFA Scan",
