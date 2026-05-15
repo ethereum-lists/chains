@@ -16,6 +16,7 @@
   "shortName": "cheese",
   "chainId": 69420,
   "networkId": 69420,
+  "redFlags": ["reusedChainId"],
   "status": "incubating",
   "explorers": [
     {
