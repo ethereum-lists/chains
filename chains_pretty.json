@@ -51552,7 +51552,7 @@
   "name": "Safe(AnWang) Mainnet",
   "chain": "Safe(AnWang)",
   "icon": "safe-anwang",
-  "rpc": ["https://rpc.anwang.com"],
+  "rpc": ["https://safe4.anwang.com/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "SAFE(AnWang)",
@@ -51565,7 +51565,7 @@
   "networkId": 6666665,
   "explorers": [{
     "name": "Safe(AnWang) Explorer",
-    "url": "http://safe4.anwang.com",
+    "url": "https://safe4.anwang.com",
     "icon": "safe-anwang",
     "standard": "EIP3091"
   }]
@@ -51573,7 +51573,7 @@
   "name": "Safe(AnWang) Testnet",
   "chain": "Safe(AnWang)",
   "icon": "safe-anwang",
-  "rpc": ["https://rpc-testnet.anwang.com"],
+  "rpc": ["https://safe4testnet.anwang.com/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "SAFE(AnWang)",
@@ -51586,7 +51586,7 @@
   "networkId": 6666666,
   "explorers": [{
     "name": "Safe(AnWang) Testnet Explorer",
-    "url": "http://safe4-testnet.anwang.com",
+    "url": "https://safe4testnet.anwang.com",
     "icon": "safe-anwang",
     "standard": "EIP3091"
   }]
