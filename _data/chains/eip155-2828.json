@@ -1,9 +1,7 @@
 {
   "name": "Candy Chain",
   "chain": "CANDY",
-  "rpc": [
-    "https://publicrpc.candychain.io"
-  ],
+  "rpc": ["https://publicrpc.candychain.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "CANDY",
