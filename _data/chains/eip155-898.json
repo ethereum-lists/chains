@@ -4,8 +4,8 @@
   "rpc": ["https://rpc-testnet.maxi.network"],
   "faucets": ["https://faucet.maxi.network"],
   "nativeCurrency": {
-    "name": "MAXICOIN",
-    "symbol": "MAXI",
+    "name": "MAXI GAS",
+    "symbol": "MGAS",
     "decimals": 18
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],

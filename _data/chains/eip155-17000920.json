@@ -1,0 +1,24 @@
+{
+  "name": "Lambda Chain Testnet",
+  "chain": "Lambda Chain",
+  "rpc": ["https://testnrpc.lambda.im/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://lambda.im",
+  "shortName": "tlambda",
+  "chainId": 17000920,
+  "networkId": 17000920,
+  "slip44": 1,
+  "icon": "lambda-chain",
+  "explorers": [
+    {
+      "name": "Lambda Chain Testnet Explorer",
+      "url": "https://testscan.lambda.im",
+      "standard": "EIP3091"
+    }
+  ]
+}

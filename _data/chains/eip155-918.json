@@ -1,0 +1,25 @@
+{
+  "name": "SlerfChain Mainnet",
+  "title": "SlerfChain Mainnet",
+  "chain": "SLERF CHAIN",
+  "rpc": ["https://rpc.slerfchain.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WSLERF",
+    "symbol": "WSLERF",
+    "decimals": 18
+  },
+  "infoURL": "https://slerfchain.xyz",
+  "shortName": "SlerfChain-Mainnet",
+  "chainId": 918,
+  "networkId": 918,
+  "icon": "slerf",
+  "explorers": [
+    {
+      "name": "SlerfChain Scan",
+      "url": "https://scan.slerfchain.xyz",
+      "icon": "slerf",
+      "standard": "EIP3091"
+    }
+  ]
+}

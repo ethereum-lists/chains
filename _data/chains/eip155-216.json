@@ -1,0 +1,22 @@
+{
+  "name": "Happychain Testnet",
+  "chainId": 216,
+  "networkId": 216,
+  "chain": "Happychain Testnet",
+  "rpc": ["https://rpc.testnet.happy.tech/http"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Happy",
+    "symbol": "HAPPY",
+    "decimals": 18
+  },
+  "shortName": "happytestnet",
+  "infoURL": "https://testnet.happy.tech",
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://explorer.testnet.happy.tech",
+      "standard": "EIP3091"
+    }
+  ]
+}

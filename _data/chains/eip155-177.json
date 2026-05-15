@@ -1,0 +1,34 @@
+{
+  "name": "HashKey Chain",
+  "title": "HashKey Chain",
+  "chain": "HashKey Chain",
+  "rpc": ["https://mainnet.hsk.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "HashKey EcoPoints",
+    "symbol": "HSK",
+    "decimals": 18
+  },
+  "infoURL": "https://hsk.xyz",
+  "shortName": "hsk",
+  "chainId": 177,
+  "networkId": 177,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://hashkey.blockscout.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "blockscout",
+      "url": "https://explorer.hsk.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
+}

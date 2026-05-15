@@ -1,8 +1,7 @@
 {
   "name": "Optopia Mainnet",
-  "status": "incubating",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": ["https://rpc-mainnet.optopia.ai", "https://rpc-mainnet-2.optopia.ai"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -15,9 +14,17 @@
   "chainId": 62050,
   "networkId": 62050,
   "icon": "optopia",
-  "explorers": [],
+  "explorers": [
+    {
+      "name": "optopia-scan",
+      "url": "https://scan.optopia.ai",
+      "icon": "optopia",
+      "standard": "EIP3091"
+    }
+  ],
   "parent": {
     "type": "L2",
-    "chain": "eip155-1"
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.optopia.ai" }]
   }
 }

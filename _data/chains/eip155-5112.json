@@ -1,0 +1,25 @@
+{
+  "name": "Ham",
+  "chain": "Ham",
+  "rpc": ["https://rpc.ham.fun"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://ham.fun",
+  "shortName": "ham",
+  "chainId": 5112,
+  "networkId": 5112,
+  "icon": "ham",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.ham.fun",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}

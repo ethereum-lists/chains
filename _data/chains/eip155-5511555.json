@@ -1,0 +1,24 @@
+{
+  "name": "PointPay Testnet",
+  "chain": "pointpay",
+  "rpc": ["https://rpc-testnet.pointpay.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PointPay",
+    "symbol": "PXP",
+    "decimals": 18
+  },
+  "infoURL": "https://pointpay.io",
+  "shortName": "PPTEST",
+  "chainId": 5511555,
+  "networkId": 5511555,
+  "icon": "pointpay",
+  "explorers": [
+    {
+      "name": "PointPay Testnet Explorer",
+      "url": "https://testnet.pointpay.io",
+      "icon": "pointpay",
+      "standard": "EIP3091"
+    }
+  ]
+}

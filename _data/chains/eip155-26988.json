@@ -1,0 +1,22 @@
+{
+  "name": "Newton Finance Testnet",
+  "chain": "ETH",
+  "rpc": ["https://jp-rpc-testnet-newfi.newpay.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Newton",
+    "symbol": "NEW",
+    "decimals": 18
+  },
+  "infoURL": "https://newtonproject.org",
+  "shortName": "tNewFi",
+  "chainId": 26988,
+  "networkId": 26988,
+  "explorers": [
+    {
+      "name": "NewFi explorer",
+      "url": "https://explorer-testnet-newfi.newpay.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

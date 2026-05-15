@@ -1,0 +1,24 @@
+{
+  "name": "ADF Chain",
+  "chain": "ADF Chain",
+  "icon": "addfillmain",
+  "rpc": ["https://mainnet.adftechnology.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ADDFILL",
+    "symbol": "ADF",
+    "decimals": 18
+  },
+  "infoURL": "https://www.adfstarworld.com/",
+  "shortName": "ADF",
+  "chainId": 1215,
+  "networkId": 1215,
+  "explorers": [
+    {
+      "name": "ADF explorer",
+      "url": "https://explorer.adftechnology.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}

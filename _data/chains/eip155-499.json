@@ -1,8 +1,8 @@
 {
   "name": "Rupaya",
   "chain": "RUPX",
-  "rpc": [],
-  "faucets": [],
+  "rpc": ["https://rpc.rupaya.io"],
+  "faucets": ["https://faucet.rupaya.io"],
   "nativeCurrency": {
     "name": "Rupaya",
     "symbol": "RUPX",
@@ -12,5 +12,12 @@
   "shortName": "rupx",
   "chainId": 499,
   "networkId": 499,
-  "slip44": 499
+  "slip44": 499,
+  "explorers": [
+    {
+      "name": "Rupaya Explorer",
+      "url": "https://scan.rupaya.io",
+      "standard": "EIP3091"
+    }
+  ]
 }

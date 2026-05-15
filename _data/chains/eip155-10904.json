@@ -1,0 +1,18 @@
+{
+  "name": "Ault Blockchain Testnet",
+  "chain": "AULT",
+  "icon": "ault",
+  "rpc": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Testnet AULT Token",
+    "symbol": "AULT",
+    "decimals": 18
+  },
+  "infoURL": "https://aultblockchain.com",
+  "shortName": "ault-testnet",
+  "chainId": 10904,
+  "networkId": 10904,
+  "explorers": []
+}

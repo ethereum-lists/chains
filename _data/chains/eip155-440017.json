@@ -1,0 +1,27 @@
+{
+  "name": "Graphite Mainnet",
+  "chain": "Graphite",
+  "rpc": [
+    "https://anon-entrypoint-1.atgraphite.com",
+    "wss://ws-anon-entrypoint-1.atgraphite.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Graphite",
+    "symbol": "@G",
+    "decimals": 18
+  },
+  "infoURL": "https://atgraphite.com/",
+  "shortName": "graphite",
+  "chainId": 440017,
+  "networkId": 440017,
+  "slip44": 440017,
+  "icon": "graphite",
+  "explorers": [
+    {
+      "name": "Graphite Mainnet Explorer",
+      "url": "https://main.atgraphite.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

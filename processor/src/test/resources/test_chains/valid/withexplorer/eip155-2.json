@@ -17,8 +17,13 @@
   },
   "explorers": [
     {
-      "name": "some",
+      "name": "ethrscan",
       "url": "https://etherscan.io",
+      "standard": "none"
+    },
+    {
+      "name": "Routescan",
+      "url": "https://ethereum.routescan.io/",
       "standard": "none"
     }
   ]

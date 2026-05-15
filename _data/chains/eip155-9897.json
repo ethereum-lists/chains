@@ -1,0 +1,25 @@
+{
+  "name": "arena-z-testnet-deprecated",
+  "title": "Arena-Z-Testnet-deprecated",
+  "chain": "arena-z-testnet-deprecated",
+  "rpc": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "icon": "arena-z",
+  "infoURL": "https://raas.gelato.network/rollups/details/public/arena-z-testnet",
+  "faucets": [],
+  "shortName": "arena-z-testnet-deprecated",
+  "chainId": 9897,
+  "networkId": 9897,
+  "slip44": 60,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": []
+  },
+  "status": "deprecated"
+}

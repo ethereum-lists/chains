@@ -1,0 +1,29 @@
+{
+  "name": "Henesys",
+  "chain": "Henesys",
+  "rpc": ["https://henesys-rpc.msu.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NEXPACE",
+    "symbol": "NXPC",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://nexpace.io",
+  "shortName": "nxpc",
+  "chainId": 68414,
+  "networkId": 68414,
+  "icon": "nexpace",
+  "explorers": [
+    {
+      "name": "Xangle MSU Explorer",
+      "url": "https://msu-explorer.xangle.io",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Avalanche Explorer",
+      "url": "https://subnets.avax.network/henesys",
+      "standard": "EIP3091"
+    }
+  ]
+}

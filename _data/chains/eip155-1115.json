@@ -3,6 +3,7 @@
   "chain": "Core",
   "icon": "core",
   "rpc": ["https://rpc.test.btcs.network/"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": ["https://scan.test.btcs.network/faucet"],
   "nativeCurrency": {
     "name": "Core Blockchain Testnet Native Token",

@@ -1,16 +1,25 @@
 {
-  "name": "Ubiq Network Testnet",
-  "chain": "UBQ",
-  "rpc": [],
+  "name": "Quai Network Mainnet",
+  "chain": "QUAI",
+  "icon": "quai",
+  "rpc": ["https://rpc.quai.network/cyprus1"],
+  "features": [{ "name": "EIP155" }],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Ubiq Testnet Ether",
-    "symbol": "TUBQ",
+    "name": "Quai",
+    "symbol": "QUAI",
     "decimals": 18
   },
-  "infoURL": "https://ethersocial.org",
-  "shortName": "tubq",
+  "infoURL": "https://qu.ai",
+  "shortName": "quai",
   "chainId": 9,
-  "networkId": 2,
-  "slip44": 1
+  "networkId": 9,
+  "redFlags": ["reusedChainId"],
+  "explorers": [
+    {
+      "name": "Quaiscan",
+      "url": "https://quaiscan.io",
+      "standard": "EIP3091"
+    }
+  ]
 }

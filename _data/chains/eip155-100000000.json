@@ -1,0 +1,25 @@
+{
+  "name": "Ethos",
+  "chain": "ETHOS",
+  "rpc": ["https://rpc.ethos.cool"],
+  "faucets": ["https://faucet.ethos.cool"],
+  "nativeCurrency": {
+    "name": "ETHOS",
+    "symbol": "ETHOS",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://ethos.cool",
+  "shortName": "ETHOS",
+  "chainId": 100000000,
+  "networkId": 100000000,
+  "icon": "ethos",
+  "explorers": [
+    {
+      "name": "ethos scan",
+      "url": "https://scan.ethos.cool",
+      "icon": "ethos",
+      "standard": "EIP3091"
+    }
+  ]
+}

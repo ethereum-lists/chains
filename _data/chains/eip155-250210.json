@@ -1,0 +1,24 @@
+{
+  "name": "PlasticHero",
+  "shortName": "pth",
+  "chain": "PTH",
+  "chainId": 250210,
+  "networkId": 250210,
+  "rpc": ["https://rpc.plasticherokorea.com"],
+  "faucets": [],
+  "infoURL": "https://www.plasticherocoin.com",
+  "icon": "plastichero",
+  "nativeCurrency": {
+    "name": "PlasticHero",
+    "symbol": "PTH",
+    "decimals": 18
+  },
+  "explorers": [
+    {
+      "name": "PlasticHero Explorer",
+      "url": "https://explorer.plasticherokorea.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}

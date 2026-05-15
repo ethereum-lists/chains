@@ -1,0 +1,30 @@
+{
+  "name": "Stavanger Public Testnet",
+  "chain": "stavanger",
+  "rpc": ["https://rpc.stavanger.gateway.fm"],
+  "faucets": ["https://faucet.stavanger.gateway.fm"],
+  "nativeCurrency": {
+    "name": "Polygon",
+    "symbol": "POL",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://gateway.fm",
+  "shortName": "stavanger",
+  "chainId": 50591822,
+  "networkId": 50591822,
+  "icon": "stavanger",
+  "explorers": [
+    {
+      "name": "BlockScout",
+      "url": "https://explorer.stavanger.gateway.fm",
+      "icon": "stavanger",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{ "url": "https://bridge.stavanger.gateway.fm" }]
+  }
+}

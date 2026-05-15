@@ -1,7 +1,7 @@
 {
   "name": "Kroma",
   "chain": "ETH",
-  "rpc": ["https://api.kroma.network"],
+  "rpc": ["https://api.kroma.network", "https://rpc-kroma.rockx.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

@@ -1,0 +1,16 @@
+{
+  "name": "Incentiv Devnet",
+  "chain": "Incentiv",
+  "rpc": ["https://rpc.ankr.com/incentiv_devnet"],
+  "faucets": ["https://faucet.incentiv-dev.ankr.network"],
+  "nativeCurrency": {
+    "name": "Testnet INC",
+    "symbol": "INC",
+    "decimals": 18
+  },
+  "infoURL": "https://incentiv.net",
+  "shortName": "tIncentiv",
+  "chainId": 16350,
+  "networkId": 16350,
+  "slip44": 1
+}

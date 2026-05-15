@@ -1,0 +1,31 @@
+{
+  "name": "Bitfinity Network Mainnet",
+  "chain": "BTF",
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "rpc": ["https://mainnet.bitfinity.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bitfinity Token",
+    "symbol": "BTF",
+    "decimals": 18
+  },
+  "infoURL": "https://bitfinity.network",
+  "shortName": "bitfinity-mainnet",
+  "chainId": 355110,
+  "networkId": 355110,
+  "explorers": [
+    {
+      "name": "Bitfinity Mainnet Block Explorer",
+      "url": "https://explorer.mainnet.bitfinity.network",
+      "icon": "bitfinity",
+      "standard": "EIP3091"
+    }
+  ]
+}

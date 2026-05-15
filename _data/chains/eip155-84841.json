@@ -1,0 +1,36 @@
+{
+  "name": "O Chain",
+  "chain": "O",
+  "rpc": [
+    "https://rpc.o.xyz",
+    "https://84841.rpc.thirdweb.com",
+    "wss://rpc.o.xyz"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "O.XYZ",
+    "symbol": "O",
+    "decimals": 18
+  },
+  "infoURL": "https://o.xyz",
+  "shortName": "O",
+  "chainId": 84841,
+  "networkId": 84841,
+  "slip44": 1,
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [
+      { "url": "https://bridge.o.xyz" },
+      { "url": "https://superbridge.o.xyz" }
+    ]
+  },
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.o.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
