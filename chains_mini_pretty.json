@@ -3834,6 +3834,19 @@
   "faucets": [],
   "infoURL": "https://pencilsprotocol.io/"
 }, {
+  "name": "Capital Exchange SE",
+  "chainId": 343,
+  "shortName": "bourse",
+  "networkId": 343,
+  "nativeCurrency": {
+    "name": "Bourse",
+    "symbol": "BOURSE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.capitalexchange.digital"],
+  "faucets": [],
+  "infoURL": "https://www.capitalexchange.markets"
+}, {
   "name": "TSC Mainnet",
   "chainId": 345,
   "shortName": "TSC",
