@@ -1,17 +1,8 @@
 {
   "name": "MyRxWallet Network",
   "chain": "MRT",
-  "rpc": [
-    "https://rpc.myrxwallet.io"
-  ],
-  "features": [
-    {
-      "name": "EIP155"
-    },
-    {
-      "name": "EIP1559"
-    }
-  ],
+  "rpc": ["https://rpc.myrxwallet.io"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
     "name": "MyRx Token",
