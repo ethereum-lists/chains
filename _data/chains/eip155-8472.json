@@ -1,11 +1,15 @@
 {
   "name": "MyrxWallet Network",
   "chain": "MYRX",
-  "icon": "myrxwallet",
-  "rpc": [
-    "https://rpc.myrxwallet.io"
+  "rpc": ["https://rpc.myrxwallet.io"],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
   ],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
     "name": "MRT",
