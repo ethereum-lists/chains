@@ -23971,18 +23971,18 @@
   "faucets": [],
   "infoURL": "https://www.anime.xyz"
 }, {
-  "name": "Condrieu",
+  "name": "CHEESE Blockchain",
   "chainId": 69420,
-  "shortName": "cndr",
+  "shortName": "cheese",
   "networkId": 69420,
   "nativeCurrency": {
-    "name": "Condrieu Testnet Ether",
-    "symbol": "CTE",
+    "name": "CHEESE",
+    "symbol": "CHEESE",
     "decimals": 18
   },
-  "rpc": ["https://rpc.condrieu.ethdevops.io:8545"],
-  "faucets": ["https://faucet.condrieu.ethdevops.io"],
-  "infoURL": "https://condrieu.ethdevops.io"
+  "rpc": ["https://cheesescan.com/rpc", "https://rpc1.cheesescan.com", "https://rpc2.cheesescan.com"],
+  "faucets": ["https://cheesescan.com/faucet"],
+  "infoURL": "https://cheesescan.com"
 }, {
   "name": "ILITY Testnet",
   "chainId": 69923,
