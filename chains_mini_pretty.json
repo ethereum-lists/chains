@@ -11608,6 +11608,19 @@
   "faucets": [],
   "infoURL": "https://morphl2.io"
 }, {
+  "name": "Candy Chain",
+  "chainId": 2828,
+  "shortName": "candy",
+  "networkId": 2828,
+  "nativeCurrency": {
+    "name": "CANDY",
+    "symbol": "CANDY",
+    "decimals": 18
+  },
+  "rpc": ["https://publicrpc.candychain.io"],
+  "faucets": [],
+  "infoURL": "https://candychain.io"
+}, {
   "name": "HyperAGI Mainnet",
   "chainId": 2868,
   "shortName": "hypt",
