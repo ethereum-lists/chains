@@ -1,0 +1,25 @@
+{
+     "name": "Goliath Mainnet",
+     "chain": "Goliath",
+     "rpc": [
+       "https://rpc.goliath.net"
+     ],
+     "faucets": [],
+     "nativeCurrency": {
+       "name": "Onyxcoin",
+       "symbol": "XCN",
+       "decimals": 18
+     },
+     "infoURL": "https://onyx.org",
+     "shortName": "goliath",
+     "chainId": 327,
+     "networkId": 327,
+     "explorers": [
+       {
+         "name": "Goliath Explorer",
+         "url": "https://explorer.goliath.net",
+         "standard": "EIP3091"
+       }
+     ],
+     "status": "active"
+   }
