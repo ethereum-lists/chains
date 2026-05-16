@@ -27391,12 +27391,17 @@
   }],
   "status": "active"
 }, {
-  "name": "MYRX-MAINNET",
+  "name": "MyrxWallet Network",
   "chain": "MYRX",
   "rpc": ["https://rpc.myrxwallet.io"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
   "faucets": [],
   "nativeCurrency": {
-    "name": "MyRx Token",
+    "name": "MRT",
     "symbol": "MRT",
     "decimals": 18
   },
@@ -27405,7 +27410,7 @@
   "chainId": 8472,
   "networkId": 8472,
   "explorers": [{
-    "name": "MyRx Explorer",
+    "name": "MyrxWallet Explorer",
     "url": "https://explorer.myrxwallet.io",
     "standard": "EIP3091"
   }]
