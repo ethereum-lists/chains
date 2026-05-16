@@ -7,7 +7,8 @@
     "https://base.gateway.tenderly.co",
     "wss://base.gateway.tenderly.co",
     "https://base-rpc.publicnode.com",
-    "wss://base-rpc.publicnode.com"
+    "wss://base-rpc.publicnode.com",
+    "https://rpc.swiftnodes.io/rpc/base?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,12 +31,6 @@
       "name": "basescout",
       "url": "https://base.blockscout.com",
       "icon": "blockscout",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "dexguru",
-      "url": "https://base.dex.guru",
-      "icon": "dexguru",
       "standard": "EIP3091"
     },
     {

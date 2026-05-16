@@ -5,7 +5,8 @@
   "rpc": [
     "https://rpc.chiliz.com",
     "https://rpc.ankr.com/chiliz",
-    "https://chiliz.publicnode.com"
+    "https://chiliz.publicnode.com",
+    "https://rpc.swiftnodes.io/rpc/chiliz?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [
     "https://spicy-faucet.chiliz.com",

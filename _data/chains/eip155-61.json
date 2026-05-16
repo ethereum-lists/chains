@@ -11,7 +11,11 @@
     "https://etc.etcdesktop.com",
     "https://etc.mytokenpocket.vip"
   ],
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -28,11 +32,6 @@
       "name": "blockscout-ethereum-classic",
       "url": "https://etc.blockscout.com",
       "standard": "EIP3091"
-    },
-    {
-      "name": "etcnetworkinfo-blockscout-ethereum-classic",
-      "url": "https://explorer-blockscout.etc-network.info",
-      "standard": "none"
     },
     {
       "name": "etcnetworkinfo-alethio-ethereum-classic",

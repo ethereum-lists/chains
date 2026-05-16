@@ -16,7 +16,8 @@
     "https://bsc-dataseed4.ninicoin.io",
     "https://bsc-rpc.publicnode.com",
     "wss://bsc-rpc.publicnode.com",
-    "wss://bsc-ws-node.nariox.org"
+    "wss://bsc-ws-node.nariox.org",
+    "https://rpc.swiftnodes.io/rpc/bsc?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -33,12 +34,6 @@
     {
       "name": "bscscan",
       "url": "https://bscscan.com",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "dexguru",
-      "url": "https://bnb.dex.guru",
-      "icon": "dexguru",
       "standard": "EIP3091"
     }
   ]

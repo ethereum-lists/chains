@@ -4,7 +4,8 @@
   "rpc": [
     "https://rpc.fuse.io",
     "https://fuse.drpc.org",
-    "wss://fuse.drpc.org"
+    "wss://fuse.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/fuse?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {

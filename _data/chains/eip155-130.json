@@ -4,7 +4,8 @@
   "rpc": [
     "https://mainnet.unichain.org",
     "https://unichain-rpc.publicnode.com",
-    "wss://unichain-rpc.publicnode.com"
+    "wss://unichain-rpc.publicnode.com",
+    "https://rpc.swiftnodes.io/rpc/unichain?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {

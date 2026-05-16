@@ -1,7 +1,10 @@
 {
   "name": "Kaia Mainnet",
   "chain": "KAIA",
-  "rpc": ["https://public-en.node.kaia.io"],
+  "rpc": [
+    "https://public-en.node.kaia.io",
+    "https://rpc.swiftnodes.io/rpc/kaia?key=${SWIFTNODES_API_KEY}"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "KAIA",
@@ -14,11 +17,6 @@
   "networkId": 8217,
   "slip44": 8217,
   "explorers": [
-    {
-      "name": "Kaiascope",
-      "url": "https://kaiascope.com",
-      "standard": "EIP3091"
-    },
     {
       "name": "Kaiascan",
       "url": "https://kaiascan.io",

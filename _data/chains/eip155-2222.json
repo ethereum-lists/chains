@@ -12,7 +12,8 @@
     "https://rpc.ankr.com/kava_evm",
     "wss://wevm.kava-rpc.com",
     "https://kava.drpc.org",
-    "wss://kava.drpc.org"
+    "wss://kava.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/kava?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -1,7 +1,12 @@
 {
   "name": "Rootstock Mainnet",
   "chain": "Rootstock",
-  "rpc": ["https://public-node.rsk.co", "https://mycrypto.rsk.co"],
+  "rpc": [
+    "https://public-node.rsk.co",
+    "https://mycrypto.rsk.co",
+    "https://public-node.rsk.co",
+    "https://rpc.swiftnodes.io/rpc/rootstock?key=${SWIFTNODES_API_KEY}"
+  ],
   "faucets": [],
   "icon": "rootstock",
   "nativeCurrency": {
