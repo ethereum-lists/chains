@@ -1,16 +1,14 @@
 {
   "name": "LunaroChain Mainnet",
   "chain": "LNR",
-  "icon": "lunaro",
-  "rpc": [
-    "https://rpc.lunaro.network"
-  ],
+  "rpc": ["https://rpc.lunaro.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Lunaro",
     "symbol": "LNR",
     "decimals": 18
   },
+  "features": [{ "name": "EIP155" }],
   "infoURL": "https://lunaro.network",
   "shortName": "lnr",
   "chainId": 389,
