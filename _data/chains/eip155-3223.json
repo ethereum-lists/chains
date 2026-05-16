@@ -1,22 +1,22 @@
 {
-     "name": "XO Market",
-     "chain": "XO",
-     "rpc": ["https://rpc-mainnet-2.xo.market/"],
-     "faucets": [],
-     "nativeCurrency": {
-       "name": "XO",
-       "symbol": "XO",
-       "decimals": 18
-     },
-     "infoURL": "https://xo.market",
-     "shortName": "xo",
-     "chainId": 3223,
-     "networkId": 3223,
-     "explorers": [
-       {
-         "name": "XO Market Explorer",
-         "url": "https://explorer-mainnet.xo.market",
-         "standard": "EIP3091"
-       }
-     ]
-   }
+  "name": "XO Market",
+  "chain": "XO",
+  "rpc": ["https://rpc-mainnet-2.xo.market/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "XO",
+    "symbol": "XO",
+    "decimals": 18
+  },
+  "infoURL": "https://xo.market",
+  "shortName": "xo",
+  "chainId": 3223,
+  "networkId": 3223,
+  "explorers": [
+    {
+      "name": "XO Market Explorer",
+      "url": "https://explorer-mainnet.xo.market",
+      "standard": "EIP3091"
+    }
+  ]
+}
