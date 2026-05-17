@@ -1,10 +1,7 @@
 {
   "name": "MyRx Network",
   "chain": "MRT",
-  "rpc": [
-    "https://rpc.myrxwallet.io",
-    "wss://rpc.myrxwallet.io"
-  ],
+  "rpc": ["https://rpc.myrxwallet.io", "wss://rpc.myrxwallet.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "MyRx Token",
