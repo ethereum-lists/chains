@@ -1,0 +1,22 @@
+{
+  "name": "Candy Chain",
+  "chain": "CANDY",
+  "rpc": ["https://publicrpc.candychain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CANDY",
+    "symbol": "CANDY",
+    "decimals": 18
+  },
+  "infoURL": "https://candychain.io",
+  "shortName": "candy",
+  "chainId": 2828,
+  "networkId": 2828,
+  "explorers": [
+    {
+      "name": "Candy Chain Explorer",
+      "url": "https://explorer.candychain.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
