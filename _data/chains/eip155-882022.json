@@ -1,9 +1,7 @@
 {
   "name": "VDChain Mainnet",
   "chain": "VDC",
-  "rpc": [
-    "https://rpc.vdscan.io"
-  ],
+  "rpc": ["https://rpc.vdscan.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "VDC",
