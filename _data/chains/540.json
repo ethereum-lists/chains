@@ -1,6 +1,7 @@
 {
   "name": "Nome Progetto Privato",
   "chain": "BESU",
+  "icon": "ethereum",
   "rpc": [],
   "faucets": [],
   "nativeCurrency": {
@@ -11,5 +12,6 @@
   "infoURL": "https://www.tuosito.it",
   "shortName": "besu-priv-540",
   "chainId": 540,
-  "networkId": 540
+  "networkId": 540,
+  "explorers": []
 }
