@@ -2,7 +2,7 @@
   "name": "Nome Progetto Privato",
   "chain": "BESU",
   "icon": "ethereum",
-  "rpc": [],
+  "rpc": "http://localhost:8645",
   "faucets": [],
   "nativeCurrency": {
     "name": "YourToken",
