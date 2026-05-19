@@ -1,0 +1,25 @@
+{
+  "name": "KiiChain",
+  "chain": "KII",
+  "rpc": ["https://json-rpc.kiivalidator.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Kii",
+    "symbol": "KII",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://kiichain.io",
+  "shortName": "kiichain",
+  "chainId": 1783,
+  "networkId": 1783,
+  "icon": "kii",
+  "explorers": [
+    {
+      "name": "KiiExplorer",
+      "url": "https://explorer.kiichain.io",
+      "icon": "kii",
+      "standard": "none"
+    }
+  ]
+}

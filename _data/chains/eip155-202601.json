@@ -1,0 +1,36 @@
+{
+  "name": "Ronin Saigon Testnet",
+  "chain": "ronin",
+  "rpc": [
+    "https://saigon-testnet.roninchain.com/rpc",
+    "https://ronin-saigon.drpc.org"
+  ],
+  "faucets": ["https://faucet.roninchain.com/"],
+  "nativeCurrency": {
+    "name": "Ronin",
+    "symbol": "RON",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://roninchain.com",
+  "shortName": "ronin-saigon",
+  "chainId": 202601,
+  "networkId": 202601,
+  "icon": "ronin",
+  "explorers": [
+    {
+      "name": "Ronin Saigon Explorer",
+      "url": "https://saigon-explorer.roninchain.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [
+      {
+        "url": "https://saigon-testnet-cc58e966ql-f24a704b3d708471.testnets.rollbridge.app/"
+      }
+    ]
+  }
+}

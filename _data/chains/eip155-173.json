@@ -1,7 +1,15 @@
 {
   "name": "ENI Mainnet",
   "chain": "ENI",
-  "rpc": ["https://rpc.eniac.network", "wss://rpc.eniac.network/ws/"],
+  "rpc": [
+    "https://rpc.eniac.network",
+    "https://rpc1.eniac.network",
+    "https://rpc2.eniac.network",
+    "https://enirpc.com",
+    "https://jp.enirpc.com",
+    "https://jp.eniacrpc.net",
+    "wss://rpc.eniac.network/ws/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "EGAS",

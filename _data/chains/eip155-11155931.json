@@ -8,8 +8,12 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "infoURL": "https://www.riselabs.xyz/",
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" },
+    { "name": "EIP7702" }
+  ],
+  "infoURL": "https://risechain.com/",
   "shortName": "rise-testnet",
   "chainId": 11155931,
   "networkId": 11155931,

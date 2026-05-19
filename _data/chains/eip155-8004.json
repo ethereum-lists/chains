@@ -1,0 +1,27 @@
+{
+  "name": "ProbeChain Mainnet",
+  "chain": "PROBE",
+  "rpc": ["https://proscan.pro/chain/rydberg-rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Probe",
+    "symbol": "PROBE",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "infoURL": "https://probechain.org",
+  "shortName": "probe",
+  "chainId": 8004,
+  "networkId": 8004,
+  "explorers": [
+    {
+      "name": "ProScan",
+      "url": "https://proscan.pro/rydberg",
+      "standard": "none"
+    }
+  ]
+}
