@@ -1,7 +1,10 @@
 {
   "name": "Viction",
   "chain": "Viction",
-  "rpc": ["https://rpc.viction.xyz"],
+  "rpc": [
+    "https://rpc.viction.xyz",
+    "https://rpc.nodeflare.app/vic/public"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Viction",
