@@ -1,0 +1,29 @@
+{
+  "name": "QuantumBit",
+  "chain": "QB",
+  "rpc": [
+    "http://134.122.153.31:8545"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QuantumBit",
+    "symbol": "QB",
+    "decimals": 18
+  },
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" }
+  ],
+  "infoURL": "http://134.122.153.31:3000",
+  "shortName": "qb",
+  "chainId": 90909,
+  "networkId": 90909,
+  "icon": "quantumbit",
+  "explorers": [
+    {
+      "name": "QuantumBit Explorer",
+      "url": "http://134.122.153.31:3000",
+      "standard": "none"
+    }
+  ]
+}
