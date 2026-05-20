@@ -1,9 +1,7 @@
 {
   "name": "BEXChain",
   "chain": "BEX",
-  "rpc": [
-    "https://rpc.bexchain.com"
-  ],
+  "rpc": ["https://rpc.bexchain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BEX",
@@ -15,10 +13,7 @@
   "chainId": 140586,
   "networkId": 140586,
   "slip44": 60,
-  "features": [
-    { "name": "EIP155" },
-    { "name": "EIP1559" }
-  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "explorers": [
     {
       "name": "BEXChain Scan",
