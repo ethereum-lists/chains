@@ -1,7 +1,8 @@
 {
-  "name": "MyrxWallet Network",
+  "name": "MyRx Network",
   "chain": "MYRX",
-  "rpc": ["https://rpc.myrxwallet.io"],
+  "icon": "myrx",
+  "rpc": ["https://rpc.myrxwallet.io", "wss://rpc.myrxwallet.io"],
   "features": [
     {
       "name": "EIP155"
@@ -22,7 +23,7 @@
   "networkId": 8472,
   "explorers": [
     {
-      "name": "MyrxWallet Explorer",
+      "name": "MyRx Explorer",
       "url": "https://explorer.myrxwallet.io",
       "standard": "EIP3091"
     }
