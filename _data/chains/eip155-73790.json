@@ -1,7 +1,13 @@
 {
   "name": "NV-CHAIN",
   "chain": "NVC",
-  "rpc": ["https://rpc.neurovatic.ai/rpc"],
+  "rpc": [
+    "https://rpc.neurovatic.ai/rpc",
+    "https://rpc-eu.neurovatic.ai/rpc",
+    "https://rpc-use.neurovatic.ai/rpc",
+    "https://rpc-usw.neurovatic.ai/rpc",
+    "https://rpc-apac.neurovatic.ai/rpc"
+  ],
   "faucets": ["https://faucet.neurovatic.ai"],
   "nativeCurrency": {
     "name": "NeuroVatic Coin",
