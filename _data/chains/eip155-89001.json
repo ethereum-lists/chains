@@ -1,24 +1,17 @@
 {
-  "name": "JAMIROQU.AI",
+  "name": "INSAN",
   "chain": "INSAN",
-  "icon": "insan",
-  "rpc": ["https://rpc.jamiroqu.ai", "https://rpc.capitalexchange.digital"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "INSAN",
     "symbol": "INSAN",
     "decimals": 18
   },
-  "infoURL": "https://www.jamiroqu.ai",
+  "infoURL": "",
   "shortName": "insan",
   "chainId": 89001,
   "networkId": 89001,
-  "status": "active",
-  "explorers": [
-    {
-      "name": "JAMIROQU.AI 89001 INSAN EVM",
-      "url": "https://explorer.jamiroqu.ai",
-      "standard": "EIP3091"
-    }
-  ]
+  "explorers": [],
+  "status": "deprecated"
 }
