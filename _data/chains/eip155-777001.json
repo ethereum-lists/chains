@@ -1,0 +1,31 @@
+{
+  "name": "Khromosome",
+  "chain": "KHROME",
+  "rpc": [
+    "https://rpc.khromosome.xyz",
+    "wss://ws.khromosome.xyz"
+  ],
+  "faucets": [
+    "https://faucet.khromosome.network"
+  ],
+  "nativeCurrency": {
+    "name": "Khrome",
+    "symbol": "KHROME",
+    "decimals": 18
+  },
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" }
+  ],
+  "infoURL": "https://khromosome.network",
+  "shortName": "khrome",
+  "chainId": 777001,
+  "networkId": 777001,
+  "explorers": [
+    {
+      "name": "Khrome Explorer",
+      "url": "https://explorer.khromosome.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
