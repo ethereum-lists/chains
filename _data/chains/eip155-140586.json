@@ -1,0 +1,32 @@
+{
+  "name": "BEXChain",
+  "chain": "BEX",
+  "rpc": ["https://rpc.bexchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BEX",
+    "symbol": "BEX",
+    "decimals": 18
+  },
+  "infoURL": "https://bexchain.com",
+  "shortName": "bexchain",
+  "chainId": 140586,
+  "networkId": 140586,
+  "slip44": 60,
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "explorers": [
+    {
+      "name": "BEXChain Scan",
+      "url": "https://scan.bexchain.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "icon": "bexchain"
+}

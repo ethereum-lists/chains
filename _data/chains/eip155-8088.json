@@ -1,0 +1,24 @@
+{
+  "name": "Helix Chain",
+  "shortName": "hlx",
+  "chain": "HLX",
+  "chainId": 8088,
+  "networkId": 8088,
+  "rpc": ["https://rpc.thehelixchain.xyz"],
+  "faucets": ["https://faucet.thehelixchain.xyz"],
+  "infoURL": "https://thehelixchain.xyz",
+  "icon": "helix",
+  "nativeCurrency": {
+    "name": "Helix",
+    "symbol": "HLX",
+    "decimals": 18
+  },
+  "explorers": [
+    {
+      "name": "Helix Chain Explorer",
+      "url": "https://explorer.thehelixchain.xyz",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
