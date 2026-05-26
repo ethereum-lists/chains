@@ -1,0 +1,24 @@
+{
+  "name": "Mars Chain",
+  "chain": "MARS",
+  "rpc": ["https://rpc.mars-scan.io", "wss://rpc.mars-scan.io/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Mars Coin",
+    "symbol": "MarsC",
+    "decimals": 18
+  },
+  "infoURL": "https://explorer.mars-chain.io/",
+  "shortName": "marschain",
+  "chainId": 704851,
+  "networkId": 704851,
+  "icon": "marschain",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.mars-chain.io/",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
