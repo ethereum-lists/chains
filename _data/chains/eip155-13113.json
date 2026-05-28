@@ -2,12 +2,12 @@
   "name": "RANNTA X-Chain",
   "chain": "RANNTA",
   "icon": "rannta",
-  "rpc": ["https://rpc.rannta.com/api/rpc"],
+  "rpc": ["https://rpc.rannta.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "RANNTA Core X",
     "symbol": "RNTX",
-    "decimals": 13
+    "decimals": 18
   },
   "infoURL": "https://rannta.com",
   "shortName": "rntx",
