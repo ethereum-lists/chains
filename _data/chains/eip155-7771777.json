@@ -1,8 +1,9 @@
 {
-  "name": "VALYGO Smart Contract",
+  "name": "VALYGO Smartchain",
   "chain": "VYO",
   "rpc": [
-    "https://rpc-gw-1.vyoscan.com/ext/bc/2t51dXsuxUvd9teY9TKEJmgxmxMk3CRF88UYTA4HQgjeYZqzSX/rpc"
+    "https://rpc-gw-1.vyoscan.com/ext/bc/2t51dXsuxUvd9teY9TKEJmgxmxMk3CRF88UYTA4HQgjeYZqzSX/rpc",
+    "https://rpc-gw-2.vyoscan.com/ext/bc/2t51dXsuxUvd9teY9TKEJmgxmxMk3CRF88UYTA4HQgjeYZqzSX/rpc"
   ],
   "faucets": [],
   "nativeCurrency": {
