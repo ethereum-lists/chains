@@ -1,0 +1,23 @@
+{
+  "name": "WINTG",
+  "chain": "WINTG",
+  "icon": "wintg",
+  "rpc": ["https://rpc.wintg.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WINTG",
+    "symbol": "WTG",
+    "decimals": 18
+  },
+  "infoURL": "https://wintg.network",
+  "shortName": "wintg",
+  "chainId": 2280,
+  "networkId": 2280,
+  "explorers": [
+    {
+      "name": "WINTG Scan",
+      "url": "https://scan.wintg.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
