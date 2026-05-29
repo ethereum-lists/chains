@@ -13,10 +13,12 @@
   "shortName": "bourse",
   "chainId": 343,
   "networkId": 343,
+  "icon": "bourse",
   "explorers": [
     {
       "name": "Capital Exchange Markets | Digital",
       "url": "https://explorer.capitalexchange.se",
+      "icon": "bourse",
       "standard": "none"
     }
   ]
