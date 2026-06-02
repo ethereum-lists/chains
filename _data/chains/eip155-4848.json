@@ -1,20 +1,27 @@
 {
-  "name": "BlockSurety",
+  "name": "BlockSurety Chain",
   "chain": "BSURE",
-  "rpc": ["https://rpc.blocksurety.net"],
+  "rpc": [
+    "https://rpc.blocksurety.net"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BSURE",
     "symbol": "BSURE",
     "decimals": 18
   },
+  "features": [
+    { "name": "EIP155" }
+  ],
   "infoURL": "https://blocksurety.net",
   "shortName": "bsure",
   "chainId": 4848,
   "networkId": 4848,
-  "explorers": [{
-    "name": "BlockSurety Explorer",
-    "url": "https://blocksurety.net",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "BlockSurety Explorer",
+      "url": "https://blocksurety.net",
+      "standard": "EIP3091"
+    }
+  ]
 }
