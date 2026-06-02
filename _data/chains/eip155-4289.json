@@ -1,0 +1,23 @@
+{
+  "name": "TPIX Chain",
+  "chain": "TPIX",
+  "rpc": ["https://rpc.tpix.online"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Thaiprompt Index",
+    "symbol": "TPIX",
+    "decimals": 18
+  },
+  "infoURL": "https://tpix.online",
+  "shortName": "tpix",
+  "chainId": 4289,
+  "networkId": 4289,
+  "icon": "tpix",
+  "explorers": [
+    {
+      "name": "TPIX Chain Explorer",
+      "url": "https://explorer.tpix.online",
+      "standard": "EIP3091"
+    }
+  ]
+}
