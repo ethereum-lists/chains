@@ -3,7 +3,6 @@
   "chain": "TEA",
   "rpc": ["https://rpc.tea.xyz"],
   "faucets": [],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "nativeCurrency": { "name": "Tea", "symbol": "TEA", "decimals": 18 },
   "infoURL": "https://tea.xyz",
   "shortName": "tea",
