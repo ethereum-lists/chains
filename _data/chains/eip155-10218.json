@@ -3,13 +3,20 @@
   "chain": "ETH",
   "rpc": ["https://tea-sepolia.g.alchemy.com/public"],
   "faucets": ["https://faucet-sepolia.tea.xyz"],
-  "features": [{"name": "EIP155"}, {"name": "EIP1559"}],
-  "nativeCurrency": {"name": "Sepolia Tea", "symbol": "TEA", "decimals": 18},
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "nativeCurrency": { "name": "Sepolia Tea", "symbol": "TEA", "decimals": 18 },
   "infoURL": "https://tea.xyz",
   "shortName": "teasep",
   "chainId": 10218,
   "networkId": 10218,
-  "explorers": [{"name": "blockscout", "url": "https://sepolia.tea.xyz", "icon": "blockscout", "standard": "EIP3091"}],
-  "parent": {"type": "L2", "chain": "eip155-11155111"},
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://sepolia.tea.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": { "type": "L2", "chain": "eip155-11155111" },
   "status": "active"
 }
