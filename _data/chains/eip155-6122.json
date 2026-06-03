@@ -3,14 +3,21 @@
   "chain": "TEA",
   "rpc": ["https://rpc.tea.xyz"],
   "faucets": [],
-  "features": [{"name": "EIP155"}, {"name": "EIP1559"}],
-  "nativeCurrency": {"name": "Tea", "symbol": "TEA", "decimals": 18},
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "nativeCurrency": { "name": "Tea", "symbol": "TEA", "decimals": 18 },
   "infoURL": "https://tea.xyz",
   "shortName": "tea",
   "icon": "tea",
   "chainId": 6122,
   "networkId": 6122,
-  "explorers": [{"name": "blockscout", "url": "https://explorer.tea.xyz", "icon": "blockscout", "standard": "EIP3091"}],
-  "parent": {"type": "L2", "chain": "eip155-1"},
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.tea.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": { "type": "L2", "chain": "eip155-1" },
   "status": "active"
 }
