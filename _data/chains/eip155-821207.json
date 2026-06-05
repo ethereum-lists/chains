@@ -1,0 +1,28 @@
+{
+  "name": "GembaBlockchain Testnet",
+  "chain": "GMB",
+  "icon": "gemba",
+  "rpc": [
+    "https://testnet.gembascan.io/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Gemba",
+    "symbol": "GMB",
+    "decimals": 18
+  },
+  "infoURL": "https://gembascan.io",
+  "shortName": "gembatest",
+  "chainId": 821207,
+  "networkId": 821207,
+  "explorers": [
+    {
+      "name": "GembaScan",
+      "url": "https://testnet.gembascan.io",
+      "icon": "gemba",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active",
+  "title": "GembaBlockchain Testnet"
+}
