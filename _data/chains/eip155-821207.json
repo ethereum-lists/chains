@@ -2,9 +2,7 @@
   "name": "GembaBlockchain Testnet",
   "chain": "GMB",
   "icon": "gemba",
-  "rpc": [
-    "https://testnet.gembascan.io/rpc"
-  ],
+  "rpc": ["https://testnet.gembascan.io/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Gemba",
