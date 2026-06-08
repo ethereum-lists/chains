@@ -10,7 +10,9 @@
     "https://polygon-amoy.drpc.org",
     "https://rpc.satelink.network/rpc/amoy"
   ],
-  "faucets": ["https://faucet.polygon.technology/"],
+  "faucets": [
+    "https://faucet.polygon.technology/"
+  ],
   "nativeCurrency": {
     "name": "POL",
     "symbol": "POL",
