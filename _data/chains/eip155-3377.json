@@ -7,7 +7,7 @@
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Tajirchain Token",
+      "name": "Tajir",
       "symbol": "TJR",
       "decimals": 18
     },
@@ -25,7 +25,8 @@
       "type": "L2",
       "chain": "eip155-1",
       "bridges": [
-        { "url": "https://bridge.tajirchain.com" }
+        { "url": "https://bridge.tajirchain.com" },
+        { "url": "https://ui.agglayer.dev/" }
       ]
     },
     "explorers": [
