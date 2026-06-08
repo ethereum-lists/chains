@@ -1,0 +1,39 @@
+{
+    "name": "Tajirchain",
+    "chain": "TJR",
+    "rpc": [
+      "https://rpc.tajirchain.com",
+      "wss://ws.tajirchain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Tajirchain Token",
+      "symbol": "TJR",
+      "decimals": 18
+    },
+    "features": [
+      { "name": "EIP155" },
+      { "name": "EIP1559" }
+    ],
+    "infoURL": "https://tajirchain.com",
+    "shortName": "tjr",
+    "chainId": 3377,
+    "networkId": 3377,
+    "icon": "tajirchain",
+    "status": "incubating",
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": [
+        { "url": "https://bridge.tajirchain.com" }
+      ]
+    },
+    "explorers": [
+      {
+        "name": "Tajirchain Explorer",
+        "url": "https://explorer.tajirchain.com",
+        "icon": "tajirchain",
+        "standard": "EIP3091"
+      }
+    ]
+  }
