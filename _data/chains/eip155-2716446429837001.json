@@ -1,0 +1,24 @@
+{
+  "name": "Duck Four Four Chain",
+  "chain": "DFFC",
+  "rpc": [
+    "https://rpc-duckchain.duckdns.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Duck Four Four Chain",
+    "symbol": "DFFC",
+    "decimals": 18
+  },
+  "infoURL": "https://duckfourchain.duckdns.org",
+  "shortName": "duckchain",
+  "chainId": 2716446429837001,
+  "networkId": 2716446429837001,
+  "explorers": [
+    {
+      "name": "DuckChain Explorer",
+      "url": "https://duckfourchain.duckdns.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
