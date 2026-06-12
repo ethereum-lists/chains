@@ -1,14 +1,14 @@
 {
   "name": "BEVM Canary",
   "chain": "ChainX",
-  "rpc": ["https://rpc-canary-1.bevm.io/", "https://rpc-canary-2.bevm.io/"],
+  "rpc": ["https://rpc-canary-1.geb.network/", "https://rpc-canary-2.geb.network/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",
     "symbol": "BTC",
     "decimals": 18
   },
-  "infoURL": "https://chainx.org",
+  "infoURL": "https://github.com/chainx-org/ChainX",
   "shortName": "chainx",
   "chainId": 1501,
   "networkId": 1501,
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "bevm canary scan",
-      "url": "https://scan-canary.bevm.io",
+      "url": "https://scan-canary.geb.network",
       "standard": "none"
     }
   ]
