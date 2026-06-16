@@ -1,25 +1,22 @@
 {
-  "name": "Rome Palatine",
+  "name": "Rome Rubicon",
   "chain": "ROME",
-  "rpc": [
-    "https://palatine.romeprotocol.xyz",
-    "https://palatine2.romeprotocol.xyz"
-  ],
-  "faucets": [],
+  "rpc": ["https://rubicon.romeprotocol.xyz"],
+  "faucets": ["https://app.romeprotocol.xyz"],
   "nativeCurrency": {
-    "name": "RSOL",
-    "symbol": "RSOL",
+    "name": "USDC",
+    "symbol": "USDC",
     "decimals": 18
   },
   "infoURL": "https://rome.builders",
-  "shortName": "rome-palatine",
+  "shortName": "rome-rubicon",
   "chainId": 7531,
   "networkId": 7531,
   "icon": "rome",
   "explorers": [
     {
-      "name": "Rome Palatine Explorer",
-      "url": "https://romescout-palatine.romeprotocol.xyz",
+      "name": "Rome Rubicon Via Explorer",
+      "url": "https://via-rubicon.romeprotocol.xyz",
       "icon": "rome",
       "standard": "EIP3091"
     }

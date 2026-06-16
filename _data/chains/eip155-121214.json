@@ -1,11 +1,11 @@
 {
   "name": "Rome Testnet Martius",
   "chain": "ROME",
-  "rpc": ["https://martius-i.testnet.romeprotocol.xyz"],
-  "faucets": ["https://deposit.testnet.romeprotocol.xyz"],
+  "rpc": ["https://martius.testnet.romeprotocol.xyz"],
+  "faucets": ["https://app.testnet.romeprotocol.xyz"],
   "nativeCurrency": {
-    "name": "RSOL",
-    "symbol": "RSOL",
+    "name": "USDC",
+    "symbol": "USDC",
     "decimals": 18
   },
   "infoURL": "https://rome.builders",
@@ -15,8 +15,8 @@
   "icon": "rome",
   "explorers": [
     {
-      "name": "Rome Testnet Martius Explorer",
-      "url": "https://romescout-martius-i.testnet.romeprotocol.xyz",
+      "name": "Rome Testnet Martius Via Explorer",
+      "url": "https://via-martius.testnet.romeprotocol.xyz",
       "icon": "rome",
       "standard": "EIP3091"
     }
