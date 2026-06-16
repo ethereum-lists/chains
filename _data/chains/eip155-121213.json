@@ -1,25 +1,24 @@
 {
-  "name": "Rome Devnet Subura",
+  "name": "Rome Subura Devnet",
   "chain": "ROME",
-  "rpc": ["https://subura-i.devnet.romeprotocol.xyz"],
-  "faucets": ["https://deposit.devnet.romeprotocol.xyz"],
+  "rpc": ["https://subura.devnet.romeprotocol.xyz"],
+  "faucets": ["https://app.devnet.romeprotocol.xyz"],
   "nativeCurrency": {
-    "name": "RSOL",
-    "symbol": "RSOL",
+    "name": "USDC",
+    "symbol": "USDC",
     "decimals": 18
   },
   "infoURL": "https://rome.builders",
-  "shortName": "rome-devnet-subura",
+  "shortName": "subura",
   "chainId": 121213,
   "networkId": 121213,
   "icon": "rome",
   "explorers": [
     {
-      "name": "Rome Devnet Subura Explorer",
-      "url": "https://romescout-subura-i.devnet.romeprotocol.xyz",
+      "name": "Rome Via",
+      "url": "https://via-subura.devnet.romeprotocol.xyz",
       "icon": "rome",
       "standard": "EIP3091"
     }
-  ],
-  "status": "active"
+  ]
 }
