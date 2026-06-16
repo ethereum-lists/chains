@@ -2,8 +2,8 @@
   "name": "AEREDIUM Testnet",
   "title": "AEREDIUM Testnet",
   "chain": "AER",
-  "rpc": ["https://testnet.aeredium.io"],
-  "faucets": [],
+  "rpc": ["https://testnet.rpc.aeredium.io"],
+  "faucets": ["https://aeredium.io/faucet.html"],
   "nativeCurrency": {
     "name": "Testnet AER",
     "symbol": "tAER",
@@ -19,7 +19,7 @@
   "explorers": [
     {
       "name": "AEREDIUM Testnet Explorer",
-      "url": "https://testnet-explorer.aeredium.io",
+      "url": "https://testnet.explorer.aeredium.io",
       "standard": "EIP3091"
     }
   ]
