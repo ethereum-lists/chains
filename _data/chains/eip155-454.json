@@ -1,0 +1,18 @@
+{
+  "name": "TSx Bastion",
+  "chain": "AVAX",
+  "icon": "avax",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Avalanche",
+    "symbol": "AVAX",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP1559" }],
+  "infoURL": "https://github.com/VenomekPL/TSx-Network",
+  "shortName": "tsx-bastion",
+  "chainId": 454,
+  "networkId": 454,
+  "status": "incubating"
+}

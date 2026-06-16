@@ -1,0 +1,18 @@
+{
+  "name": "TSx Testnet",
+  "chain": "AVAX",
+  "icon": "avax",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Avalanche",
+    "symbol": "AVAX",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP1559" }],
+  "infoURL": "https://github.com/VenomekPL/TSx-Network",
+  "shortName": "tsx-testnet",
+  "chainId": 445,
+  "networkId": 445,
+  "status": "incubating"
+}
