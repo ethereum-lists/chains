@@ -2,7 +2,7 @@
   "name": "TSx Bastion",
   "chain": "AVAX",
   "icon": "avax",
-  "rpc": [],
+  "rpc": ["https://subnets.avax.network/tsx-bastion/mainnet/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Avalanche",
@@ -14,5 +14,12 @@
   "shortName": "tsx-bastion",
   "chainId": 445,
   "networkId": 445,
-  "status": "incubating"
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "Avalanche Subnet Explorer",
+      "url": "https://subnets.avax.network/tsx-bastion",
+      "standard": "EIP3091"
+    }
+  ]
 }
