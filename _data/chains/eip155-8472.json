@@ -1,20 +1,23 @@
 {
-  "name": "MyRx Network",
-  "chain": "MRT",
-  "rpc": ["https://rpc.myrxwallet.io", "wss://rpc.myrxwallet.io"],
+  "name": "MYRX Mainnet",
+  "chain": "MYRX",
+  "rpc": [
+    "https://rpc.myrxwallet.io",
+    "wss://rpc.myrxwallet.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "MyRx Token",
-    "symbol": "MRT",
+    "name": "MYRX Token",
+    "symbol": "MYRX",
     "decimals": 18
   },
   "infoURL": "https://myrxwallet.io",
-  "shortName": "mrt",
+  "shortName": "myrx",
   "chainId": 8472,
   "networkId": 8472,
   "explorers": [
     {
-      "name": "MyRx Explorer",
+      "name": "MYRX Explorer",
       "url": "https://explorer.myrxwallet.io",
       "standard": "EIP3091"
     }
