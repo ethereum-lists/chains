@@ -4,7 +4,8 @@
   "rpc": [
     "https://mainnet.mode.network",
     "https://mode.drpc.org",
-    "wss://mode.drpc.org"
+    "wss://mode.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/mode?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {

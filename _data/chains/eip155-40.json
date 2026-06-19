@@ -4,7 +4,8 @@
   "rpc": [
     "https://rpc.telos.net",
     "https://telos.drpc.org",
-    "wss://telos.drpc.org"
+    "wss://telos.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/telos?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
