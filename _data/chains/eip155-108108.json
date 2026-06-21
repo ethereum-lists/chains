@@ -1,0 +1,20 @@
+{
+  "name": "KasturiChain Mainnet",
+  "chain": "Kasturi",
+  "rpc": ["https://rpc.kasturichain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Pyar",
+    "symbol": "PYAR",
+    "decimals": 18
+  },
+  "infoURL": "https://kasturichain.com",
+  "shortName": "kasturi",
+  "chainId": 108108,
+  "networkId": 108108,
+  "explorers": [{
+    "name": "KasturiScan",
+    "url": "https://scan.kasturichain.com",
+    "standard": "EIP3091"
+  }]
+}
