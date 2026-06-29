@@ -1,9 +1,8 @@
 {
   "name": "SWSS Chain",
   "chain": "SWSS",
-  "rpc": [
-    "https://swssrpc.swss.io"
-  ],
+  "icon": "swss",
+  "rpc": ["https://swssrpc.swss.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "SWSS Coin",
