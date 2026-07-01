@@ -2,7 +2,9 @@
   "name": "Robinhood Chain",
   "chain": "Robinhood Chain",
   "icon": "https://cdn.robinhood.com/assets/generated_assets/hoodchain_docsite/rh_favicon_120.png",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.mainnet.chain.robinhood.com"
+  ],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
@@ -12,6 +14,13 @@
   "shortName": "robinhoodchain",
   "chainId": 4663,
   "networkId": 4663,
-  "explorers": [],
-  "status": "incubating"
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://robinhoodchain.blockscout.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
 }
