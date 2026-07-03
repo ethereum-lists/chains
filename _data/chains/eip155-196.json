@@ -1,7 +1,11 @@
 {
   "name": "X Layer Mainnet",
   "chain": "X Layer",
-  "rpc": ["https://rpc.xlayer.tech", "https://xlayerrpc.okx.com"],
+  "rpc": [
+    "https://rpc.xlayer.tech",
+    "https://xlayerrpc.okx.com",
+    "https://rpc.nodeflare.app/xlayer/public"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "X Layer Global Utility Token",
