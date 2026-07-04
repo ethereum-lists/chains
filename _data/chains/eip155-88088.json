@@ -2,7 +2,7 @@
   "name": "PLUS Mainnet",
   "chain": "PLUS",
   "rpc": [
-    "http://13.209.3.178:8545"
+    "https://rpc.plusmain.net"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -12,7 +12,13 @@
   },
   "infoURL": "https://plusmain.net",
   "shortName": "plus",
-  "chainId": 88088,
-  "networkId": 88088,
-  "slip44": 1
+  "chainId": 8478,
+  "networkId": 8478,
+  "explorers": [
+    {
+      "name": "PLUS Explorer",
+      "url": "https://scan.plusmain.net",
+      "standard": "EIP3091"
+    }
+  ]
 }
