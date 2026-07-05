@@ -2,12 +2,8 @@
   "name": "MANORA L2 Testnet",
   "title": "MANORA L2 Testnet",
   "chain": "MANORA",
-  "rpc": [
-    "https://rpc-test.manoracoin.com"
-  ],
-  "faucets": [
-    "https://faucet-test.manoracoin.com"
-  ],
+  "rpc": ["https://rpc-test.manoracoin.com"],
+  "faucets": ["https://faucet-test.manoracoin.com"],
   "nativeCurrency": {
     "name": "MANORA",
     "symbol": "MNR",
