@@ -1,24 +1,25 @@
 {
-    "name": "Cheese Blockchain",
-    "chain": "NCH",
+    "name": "CHEESE Blockchain",
+    "chain": "CHEESE",
     "icon": "cheese",
     "rpc": [
-          "https://cheese-blockchain-production.up.railway.app/rpc"
+          "https://cheeseblockchain.com/api/rpc"
     ],
     "faucets": [],
     "nativeCurrency": {
           "name": "Native Cheesecoin",
           "symbol": "NCH",
-          "decimals": 18
+          "decimals": 6
     },
-    "infoURL": "https://cheese-blockchain.web.app",
-    "shortName": "nch",
+    "infoURL": "https://cheeseblockchain.com",
+    "shortName": "cheese",
     "chainId": 20250,
     "networkId": 20250,
     "explorers": [
           {
-                  "name": "Cheese Blockchain Explorer",
-                  "url": "https://cheese-blockchain.web.app/explorer",
+                  "name": "CHEESE Explorer",
+                  "url": "https://cheeseblockchain.com/explorer",
+                  "icon": "cheese",
                   "standard": "EIP3091"
           }
     ]
