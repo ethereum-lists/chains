@@ -7799,6 +7799,19 @@
   "faucets": [],
   "infoURL": "https://brainark.online"
 }, {
+  "name": "AEREDIUM Testnet",
+  "chainId": 1237,
+  "shortName": "aer-testnet",
+  "networkId": 1237,
+  "nativeCurrency": {
+    "name": "Testnet AER",
+    "symbol": "tAER",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.rpc.aeredium.io"],
+  "faucets": ["https://aeredium.io/faucet.html"],
+  "infoURL": "https://aeredium.io"
+}, {
   "name": "ARC Mainnet",
   "chainId": 1243,
   "shortName": "ARC",
