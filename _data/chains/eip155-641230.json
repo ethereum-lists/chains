@@ -1,14 +1,16 @@
 {
-  "name": "Bear Network Chain Mainnet",
+  "name": "BearNetworkChain Mainnet",
   "chain": "BRNKC",
   "icon": "brnkc",
   "rpc": [
     "https://brnkc-mainnet.bearnetwork.net",
-    "https://brnkc-mainnet1.bearnetwork.net"
+    "https://brnkc-mainnet1.bearnetwork.net",
+    "https://bnes-mainnet.bearnetwork.net",
+    "https://bnes-mainnet1.bearnetwork.net"
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Bear Network Chain Native Token",
+    "name": "BRNKC",
     "symbol": "BRNKC",
     "decimals": 18
   },
@@ -18,7 +20,7 @@
   "networkId": 641230,
   "explorers": [
     {
-      "name": "brnkscan",
+      "name": "BNC Explorer",
       "url": "https://brnkscan.bearnetwork.net",
       "standard": "EIP3091"
     }
