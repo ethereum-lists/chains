@@ -1,9 +1,10 @@
 {
   "name": "Robinhood Chain",
-  "chain": "Robinhood Chain",
+  "chain": "ETH",
   "rpc": [
     "https://rpc.mainnet.chain.robinhood.com"
   ],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
@@ -21,5 +22,14 @@
       "standard": "EIP3091"
     }
   ],
-  "status": "active"
+  "status": "active",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [
+      {
+        "url": "https://portal.arbitrum.io/bridge?destinationChain=robinhood-chain&sourceChain=ethereum"
+      }
+    ]
+  }
 }
