@@ -2,23 +2,22 @@
   "name": "EDU Chain Testnet",
   "chain": "EDU Chain Testnet",
   "icon": "open-campus-codex",
-  "rpc": ["https://rpc.open-campus-codex.gelato.digital"],
+  "rpc": ["https://rpc.testnet.educhain.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "EDU",
     "symbol": "EDU",
     "decimals": 18
   },
-  "infoURL": "https://raas.gelato.network/rollups/details/public/open-campus-codex",
-  "shortName": "open-campus-codex",
+  "infoURL": "https://www.educhain.xyz/",
+  "shortName": "edu-chain-testnet",
   "chainId": 656476,
   "networkId": 656476,
   "explorers": [
     {
-      "name": "Open Campus Codex",
-      "url": "https://edu-chain-testnet.blockscout.com",
-      "icon": "open-campus-codex",
-      "standard": "none"
+      "name": "EDU Chain Testnet Explorer",
+      "url": "https://explorer.testnet.educhain.xyz",
+      "standard": "EIP3091"
     }
   ]
 }
