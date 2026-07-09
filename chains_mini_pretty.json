@@ -30276,6 +30276,19 @@
   "faucets": [],
   "infoURL": "https://posichain.org"
 }, {
+  "name": "CryptoChain",
+  "chainId": 900190,
+  "shortName": "cryptochain",
+  "networkId": 900190,
+  "nativeCurrency": {
+    "name": "CryptoChain Token",
+    "symbol": "CRTC",
+    "decimals": 18
+  },
+  "rpc": ["http://13.233.105.56:8545"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Posichain Testnet Shard 0",
   "chainId": 910000,
   "shortName": "psc-t-s0",
