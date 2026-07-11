@@ -1,30 +1,39 @@
 {
-  "name": "Robinhood Chain Testnet",
-  "title": "Robinhood Chain Testnet",
+  "name": "Robinhood Chain",
+  "title": "Robinhood Chain",
   "chain": "ETH",
-  "rpc": ["https://rpc.testnet.chain.robinhood.com/rpc"],
+  "rpc": [
+    "https://rpc.mainnet.chain.robinhood.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Sepolia Ether",
+    "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
   "infoURL": "https://docs.robinhood.com/chain/",
-  "shortName": "rh-testnet",
-  "chainId": 46630,
-  "networkId": 46630,
+  "shortName": "rh",
+  "chainId": 4663,
+  "networkId": 4663,
   "slip44": 1,
+  "vladTestWallet": "0x4d9302846c057507d32405ba77055473d33beb26",
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://explorer.testnet.chain.robinhood.com",
+      "url": "https://robinhoodchain.blockscout.com",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
   ],
   "parent": {
     "type": "L2",
-    "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://portal.arbitrum.io/bridge" }]
+    "chain": "eip155-1",
+    "bridges": []
+  },
+  "stack": "Arbitrum L2",
+  "dataAvailability": "Ethereum blobs",
+  "walletSupport": {
+    "native": true,
+    "manualSetup": true
   }
 }
