@@ -10,13 +10,16 @@
     "symbol": "ACCESS",
     "decimals": 18
   },
-  "rpc": ["https://accesschainapp.site/rpc", "https://accesschain.org/rpc"],
+  "rpc": [
+    "https://accesschain.org/rpc",
+    "https://accesschainapp.site/rpc"
+  ],
   "faucets": [],
-  "infoURL": "https://accesschainapp.site",
+  "infoURL": "https://accesschain.org",
   "explorers": [
     {
       "name": "Access Network Explorer",
-      "url": "https://accesschainapp.site/explorer",
+      "url": "https://accesschain.org/explorer",
       "standard": "EIP3091",
       "icon": "access"
     }
