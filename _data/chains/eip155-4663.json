@@ -1,9 +1,7 @@
 {
   "name": "Robinhood Chain",
   "chain": "ETH",
-  "rpc": [
-    "https://rpc.mainnet.chain.robinhood.com"
-  ],
+  "rpc": ["https://rpc.mainnet.chain.robinhood.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
