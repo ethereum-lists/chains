@@ -3,7 +3,7 @@
   "shortName": "soneium",
   "title": "Soneium mainnet",
   "chain": "ETH",
-  "rpc": ["https://rpc.soneium.org"],
+  "rpc": ["https://rpc.soneium.org", "https://rpc.nodeflare.app/soneium/public"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
