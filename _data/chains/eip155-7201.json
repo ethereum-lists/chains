@@ -1,0 +1,27 @@
+{
+  "name": "Verdex PRC20 Testnet",
+  "chain": "VDX",
+  "rpc": [
+    "https://rpc.verdexswap.site"
+  ],
+  "faucets": [
+    "https://verdexswap.site/faucet"
+  ],
+  "nativeCurrency": {
+    "name": "Verdex",
+    "symbol": "VDX",
+    "decimals": 18
+  },
+  "infoURL": "https://verdexswap.site",
+  "shortName": "vdx",
+  "chainId": 7201,
+  "networkId": 7201,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "Verdex Block Explorer",
+      "url": "https://verdexswap.site/explorer",
+      "standard": "EIP3091"
+    }
+  ]
+}
