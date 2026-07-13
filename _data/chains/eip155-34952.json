@@ -1,5 +1,6 @@
 {
   "name": "Morph Tachyon Testnet",
+  "title": "Morph Tachyon Testnet",
   "chain": "Morph Tachyon",
   "rpc": ["https://testnet-api.popdex.xyz/api/v1/web3/rpc"],
   "faucets": [],
@@ -17,7 +18,7 @@
     {
       "name": "Morph Tachyon Testnet Explorer",
       "url": "https://testnet-app.popdex.xyz/explorer",
-      "standard": "EIP3091"
+      "standard": "none"
     }
   ]
 }
