@@ -2,8 +2,12 @@
   "name": "ADI Network AB Testnet",
   "title": "ADI Network AB Testnet (prev. UB Smart Chain)",
   "chain": "ADI",
-  "rpc": ["https://rpc.ab.testnet.adifoundation.ai/"],
-  "faucets": ["http://faucet.ab.testnet.adifoundation.ai/"],
+  "rpc": [
+    "https://rpc.ab.testnet.adifoundation.ai/"
+  ],
+  "faucets": [
+    "http://faucet.ab.testnet.adifoundation.ai/"
+  ],
   "nativeCurrency": {
     "name": "ADI",
     "symbol": "ADI",
@@ -19,5 +23,8 @@
       "url": "https://explorer.ab.testnet.adifoundation.ai/",
       "standard": "EIP3091"
     }
+  ],
+  "redFlags": [
+    "reusedChainId"
   ]
 }
