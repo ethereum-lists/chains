@@ -11777,6 +11777,19 @@
   "faucets": [],
   "infoURL": "https://apertum.io"
 }, {
+  "name": "AERE Network",
+  "chainId": 2800,
+  "shortName": "aere",
+  "networkId": 2800,
+  "nativeCurrency": {
+    "name": "AERE",
+    "symbol": "AERE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.aere.network", "https://rpc2.aere.network"],
+  "faucets": [],
+  "infoURL": "https://aere.network"
+}, {
   "name": "Morph Holesky",
   "chainId": 2810,
   "shortName": "hmorph",
