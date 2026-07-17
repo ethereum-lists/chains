@@ -7,7 +7,9 @@
   "rpc": [
     "https://z2-test-node.zetrix.com"
   ],
-  "faucets": [],
+  "faucets": [
+    "https://z2-test-faucet.zetrix.com"
+  ],
   "nativeCurrency": {
     "name": "ZETRIX2",
     "symbol": "ZETRIX2",
