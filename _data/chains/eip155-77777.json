@@ -1,25 +1,25 @@
 {
-  "name": "Toronet Mainnet",
-  "chain": "Toronet",
-  "icon": "toronet",
-  "rpc": ["https://www.toronet.org/rpc2/"],
-  "faucets": [],
+  "name": "Reef Chain",
+  "chain": "REEF",
+  "rpc": [
+    "https://deep-sync-checks.replit.app/api/reef-chain/rpc"
+  ],
+  "faucets": [
+    "https://deep-sync-checks.replit.app/api/reef-chain/fountain"
+  ],
   "nativeCurrency": {
-    "name": "Toroe",
-    "symbol": "TOROE",
+    "name": "REEF",
+    "symbol": "REEF",
     "decimals": 18
   },
-  "infoURL": "https://toronet.org",
-  "shortName": "Toronet",
+  "infoURL": "https://deep-sync-checks.replit.app/reef-chain/dev",
+  "shortName": "reef",
   "chainId": 77777,
   "networkId": 77777,
-  "ens": {
-    "registry": "0x1f45a71f4aAD769E27c969c4359E0e250C67165c"
-  },
   "explorers": [
     {
-      "name": "toronet_explorer",
-      "url": "https://toronet.org/explorer",
+      "name": "Reef Chain Explorer",
+      "url": "https://deep-sync-checks.replit.app/reef-chain",
       "standard": "none"
     }
   ]
