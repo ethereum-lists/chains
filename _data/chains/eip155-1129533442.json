@@ -1,0 +1,19 @@
+{
+  "name": "Casper Testnet",
+  "chain": "CSPR",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Casper",
+    "symbol": "CSPR",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://casper.network",
+  "shortName": "cspr-test",
+  "chainId": 1129533442,
+  "networkId": 1129533442,
+  "slip44": 1,
+  "explorers": [],
+  "status": "incubating"
+}
