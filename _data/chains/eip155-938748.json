@@ -4,12 +4,8 @@
   "chainId": 938748,
   "networkId": 938748,
   "shortName": "z2-testnet",
-  "rpc": [
-    "https://z2-test-node.zetrix.com"
-  ],
-  "faucets": [
-    "https://z2-test-faucet.zetrix.com"
-  ],
+  "rpc": ["https://z2-test-node.zetrix.com"],
+  "faucets": ["https://z2-test-faucet.zetrix.com"],
   "nativeCurrency": {
     "name": "ZETRIX2",
     "symbol": "ZETRIX2",
