@@ -9,7 +9,8 @@
     "https://xrpc.cl/avalanche",
     "https://avalanche-rpc.blockreq.com/v1/rpc/public",
     "https://rpc.swiftnodes.io/rpc/avalanche?key=${SWIFTNODES_API_KEY}",
-    "https://api.blockvectra.com/v1/avax_mainnet/public"
+    "https://api.blockvectra.com/v1/avax_mainnet/public",
+    "https://rpc.solidrpc.io/public/evm/43114"
   ],
   "features": [
     {
