@@ -5,7 +5,8 @@
     "https://rpc.gobob.xyz",
     "wss://rpc.gobob.xyz",
     "https://bob-mainnet.public.blastapi.io",
-    "wss://bob-mainnet.public.blastapi.io"
+    "wss://bob-mainnet.public.blastapi.io",
+    "https://rpc.nodeflare.app/bob/public"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,6 +31,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://app.gobob.xyz" }]
+    "bridges": [
+      {
+        "url": "https://app.gobob.xyz"
+      }
+    ]
   }
 }

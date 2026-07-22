@@ -12,7 +12,8 @@
   "rpc": [
     "https://nova.arbitrum.io/rpc",
     "https://arbitrum-nova-rpc.publicnode.com",
-    "wss://arbitrum-nova-rpc.publicnode.com"
+    "wss://arbitrum-nova-rpc.publicnode.com",
+    "https://rpc.nodeflare.app/nova/public"
   ],
   "faucets": [],
   "explorers": [
@@ -27,6 +28,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.arbitrum.io" }]
+    "bridges": [
+      {
+        "url": "https://bridge.arbitrum.io"
+      }
+    ]
   }
 }
