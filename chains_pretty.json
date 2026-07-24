@@ -22256,7 +22256,7 @@
   }]
 }, {
   "name": "MemeCore",
-  "title": "MemeCore",
+  "title": "MemeCore Mainnet",
   "chain": "MemeCore",
   "icon": "memecore",
   "rpc": ["https://rpc.memecore.net", "wss://ws.memecore.net"],
@@ -22269,6 +22269,10 @@
     "name": "EIP155"
   }, {
     "name": "EIP1559"
+  }, {
+    "name": "EIP4844"
+  }, {
+    "name": "EIP7702"
   }],
   "faucets": [],
   "infoURL": "https://memecore.com",
@@ -22276,15 +22280,11 @@
   "chainId": 4352,
   "networkId": 4352,
   "explorers": [{
-    "name": "OKX-MemeCore",
-    "url": "https://www.okx.com/web3/explorer/memecore",
-    "standard": "EIP3091"
-  }, {
     "name": "MemeCoreScan",
     "url": "https://memecorescan.io",
     "standard": "EIP3091"
   }, {
-    "name": "MemeCore explorer",
+    "name": "Blockscout",
     "url": "https://blockscout.memecore.com",
     "standard": "EIP3091"
   }]
