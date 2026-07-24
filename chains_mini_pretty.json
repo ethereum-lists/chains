@@ -26194,18 +26194,18 @@
   "faucets": [],
   "infoURL": "https://www.ubchain.site"
 }, {
-  "name": "UB Smart Chain",
+  "name": "ADI Network AB Testnet",
   "chainId": 99999,
-  "shortName": "usc",
+  "shortName": "adi-testnet",
   "networkId": 99999,
   "nativeCurrency": {
-    "name": "UBC",
-    "symbol": "UBC",
+    "name": "ADI",
+    "symbol": "ADI",
     "decimals": 18
   },
-  "rpc": ["https://rpc.uschain.network"],
-  "faucets": [],
-  "infoURL": "https://www.ubchain.site/"
+  "rpc": ["https://rpc.ab.testnet.adifoundation.ai/"],
+  "faucets": ["http://faucet.ab.testnet.adifoundation.ai/"],
+  "infoURL": "https://docs.adi.foundation"
 }, {
   "name": "QuarkChain Mainnet Root",
   "chainId": 100000,
