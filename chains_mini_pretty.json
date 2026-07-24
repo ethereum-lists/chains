@@ -22541,6 +22541,19 @@
   "faucets": ["https://faucet.memecore.com/formicarium"],
   "infoURL": "https://memecore.com"
 }, {
+  "name": "Insectarium",
+  "chainId": 43522,
+  "shortName": "insectarium",
+  "networkId": 43522,
+  "nativeCurrency": {
+    "name": "Insectarium M",
+    "symbol": "M",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.insectarium.memecore.net", "wss://ws.insectarium.memecore.net"],
+  "faucets": ["https://faucet.memecore.com/insectarium"],
+  "infoURL": "https://memecore.com"
+}, {
   "name": "ZKFair Testnet",
   "chainId": 43851,
   "shortName": "ZKFair-Testnet",
@@ -33564,6 +33577,19 @@
   "rpc": ["https://rpc.evm.mirasmanda.uz"],
   "faucets": ["https://faucet.evm.mirasmanda.uz"],
   "infoURL": "https://asterium.uz/"
+}, {
+  "name": "iTani Network Chain",
+  "chainId": 1229800785,
+  "shortName": "itani",
+  "networkId": 1229800785,
+  "nativeCurrency": {
+    "name": "iTani",
+    "symbol": "ITANI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.itaninetworkchain.com/jsonrpc", "https://node.itaninetworkchain.com/jsonrpc"],
+  "faucets": [],
+  "infoURL": "https://www.itaninetworkchain.com"
 }, {
   "name": "HUMAN Protocol",
   "chainId": 1273227453,
