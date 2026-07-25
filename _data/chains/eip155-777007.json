@@ -1,0 +1,36 @@
+{
+  "name": "QuasarChain Testnet",
+  "chain": "QC7",
+  "rpc": [
+    "https://rpc.testnet.quasarchain.io"
+  ],
+  "faucets": [
+    "https://faucet.testnet.quasarchain.io"
+  ],
+  "nativeCurrency": {
+    "name": "Quasar",
+    "symbol": "QC7",
+    "decimals": 18
+  },
+  "infoURL": "https://quasarchain.io",
+  "shortName": "qc7t",
+  "chainId": 777007,
+  "networkId": 777007,
+  "explorers": [
+    {
+      "name": "QuasarChain Testnet Explorer",
+      "url": "https://explorer.testnet.quasarchain.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [
+      {
+        "url": "https://bridge.testnet.quasarchain.io"
+      }
+    ]
+  },
+  "status": "active"
+}
