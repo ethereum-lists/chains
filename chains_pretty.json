@@ -40899,6 +40899,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Rayls Mainnet",
+  "chain": "Rayls",
+  "icon": "rayls",
+  "rpc": ["https://mainnet-rpc.rayls.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USD Rayls",
+    "symbol": "USDr",
+    "decimals": 18
+  },
+  "infoURL": "https://rayls.com",
+  "shortName": "rayls",
+  "chainId": 72957,
+  "networkId": 72957,
+  "explorers": [{
+    "name": "Rayls Explorer",
+    "url": "https://explorer.rayls.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Grok Chain Mainnet",
   "chain": "Grok",
   "icon": "grokicon",
@@ -44477,7 +44497,12 @@
 }, {
   "name": "Mars Credit",
   "chain": "MARS",
-  "rpc": ["https://node99-production-dd5f.up.railway.app:443", "https://rpc.marscredit.xyz:443"],
+  "rpc": ["https://rpc.marscredit.xyz:443"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
   "faucets": [],
   "nativeCurrency": {
     "name": "Mars Credit",
@@ -44490,7 +44515,11 @@
   "networkId": 110110,
   "slip44": 1,
   "icon": "marscredit",
-  "explorers": [],
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscan.marscredit.xyz",
+    "standard": "EIP3091"
+  }],
   "redFlags": []
 }, {
   "name": "Siberium Test Network",

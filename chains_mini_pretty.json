@@ -24556,6 +24556,19 @@
   "faucets": [],
   "infoURL": "https://www.cagacrypto.com/"
 }, {
+  "name": "Rayls Mainnet",
+  "chainId": 72957,
+  "shortName": "rayls",
+  "networkId": 72957,
+  "nativeCurrency": {
+    "name": "USD Rayls",
+    "symbol": "USDr",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.rayls.com"],
+  "faucets": [],
+  "infoURL": "https://rayls.com"
+}, {
   "name": "Grok Chain Mainnet",
   "chainId": 72992,
   "shortName": "GrokChain",
@@ -26736,7 +26749,7 @@
     "symbol": "MARS",
     "decimals": 18
   },
-  "rpc": ["https://node99-production-dd5f.up.railway.app:443", "https://rpc.marscredit.xyz:443"],
+  "rpc": ["https://rpc.marscredit.xyz:443"],
   "faucets": [],
   "infoURL": "https://marscredit.xyz/"
 }, {
