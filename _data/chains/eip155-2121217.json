@@ -2,16 +2,9 @@
   "name": "GGCHAIN Mainnet",
   "chain": "GGCHAIN",
   "icon": "ggchain",
-  "rpc": [
-    "https://rpc.gghyper.net"
-  ],
-  "features": [
-    {"name": "EIP155"},
-    {"name": "EIP1559"}
-  ],
-  "faucets": [
-    "https://gghyper.net/faucet"
-  ],
+  "rpc": ["https://rpc.gghyper.net"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": ["https://gghyper.net/faucet"],
   "nativeCurrency": {
     "name": "GG",
     "symbol": "GG",
