@@ -30952,6 +30952,19 @@
   "faucets": [],
   "infoURL": "https://plian.org/"
 }, {
+  "name": "GGCHAIN Mainnet",
+  "chainId": 2121217,
+  "shortName": "ggchain",
+  "networkId": 2121217,
+  "nativeCurrency": {
+    "name": "GG",
+    "symbol": "GG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.gghyper.net"],
+  "faucets": ["https://gghyper.net/faucet"],
+  "infoURL": "https://gghyper.net"
+}, {
   "name": "PlatON Dev Testnet Deprecated",
   "chainId": 2203181,
   "shortName": "platondev",
