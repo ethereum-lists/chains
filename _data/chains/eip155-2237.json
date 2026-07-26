@@ -1,0 +1,27 @@
+{
+  "name": "AEREDIUM Stagenet",
+  "title": "AEREDIUM Stagenet",
+  "chain": "AER",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Stagenet AER",
+    "symbol": "sAER",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://aeredium.io",
+  "shortName": "aer-stagenet",
+  "chainId": 2237,
+  "networkId": 2237,
+  "slip44": 1,
+  "icon": "aeredium",
+  "explorers": []
+}
