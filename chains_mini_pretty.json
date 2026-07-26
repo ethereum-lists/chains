@@ -26935,6 +26935,19 @@
   "faucets": [],
   "infoURL": "https://ethnova.net"
 }, {
+  "name": "SWSS Chain",
+  "chainId": 122605,
+  "shortName": "swss",
+  "networkId": 122605,
+  "nativeCurrency": {
+    "name": "SWSS Coin",
+    "symbol": "SWSS",
+    "decimals": 18
+  },
+  "rpc": ["https://swssrpc.swss.io"],
+  "faucets": [],
+  "infoURL": "https://swss.io"
+}, {
   "name": "Gemchain",
   "chainId": 123321,
   "shortName": "gemchain",
