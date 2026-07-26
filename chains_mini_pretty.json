@@ -19226,6 +19226,19 @@
   "faucets": ["https://docs.immutable.com/docs/zkEVM/guides/faucet"],
   "infoURL": "https://www.immutable.com"
 }, {
+  "name": "Liberty Testnet",
+  "chainId": 13373,
+  "shortName": "lbrty-testnet",
+  "networkId": 13373,
+  "nativeCurrency": {
+    "name": "Liberty",
+    "symbol": "LBRTY",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.libertychain.org"],
+  "faucets": [],
+  "infoURL": "https://libertychain.org"
+}, {
   "name": "Phoenix Mainnet",
   "chainId": 13381,
   "shortName": "Phoenix",
