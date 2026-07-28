@@ -1,12 +1,8 @@
 {
   "name": "Reef Chain",
   "chain": "REEF",
-  "rpc": [
-    "https://deep-sync-checks.replit.app/api/reef-chain/rpc"
-  ],
-  "faucets": [
-    "https://deep-sync-checks.replit.app/api/reef-chain/fountain"
-  ],
+  "rpc": ["https://deep-sync-checks.replit.app/api/reef-chain/rpc"],
+  "faucets": ["https://deep-sync-checks.replit.app/api/reef-chain/fountain"],
   "nativeCurrency": {
     "name": "REEF",
     "symbol": "REEF",
