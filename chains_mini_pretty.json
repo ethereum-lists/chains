@@ -8137,18 +8137,18 @@
   "faucets": [],
   "infoURL": "https://www.alyxchain.com"
 }, {
-  "name": "Story Aeneid Testnet",
+  "name": "Data Network Aeneid Testnet",
   "chainId": 1315,
-  "shortName": "story-aeneid",
+  "shortName": "data-aeneid",
   "networkId": 1315,
   "nativeCurrency": {
-    "name": "IP Token",
-    "symbol": "IP",
+    "name": "DATA",
+    "symbol": "DATA",
     "decimals": 18
   },
-  "rpc": ["https://aeneid.storyrpc.io"],
+  "rpc": ["https://aeneid.datarpc.io"],
   "faucets": [],
-  "infoURL": "https://story.foundation/"
+  "infoURL": "https://datafdn.org/"
 }, {
   "name": "AIA Mainnet",
   "chainId": 1319,
@@ -8631,18 +8631,18 @@
   "faucets": ["https://faucet.story.foundation"],
   "infoURL": "https://www.story.foundation"
 }, {
-  "name": "Story",
+  "name": "Data Network",
   "chainId": 1514,
-  "shortName": "sty",
+  "shortName": "data",
   "networkId": 1514,
   "nativeCurrency": {
-    "name": "IP Token",
-    "symbol": "IP",
+    "name": "DATA",
+    "symbol": "DATA",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.storyrpc.io"],
+  "rpc": ["https://mainnet.datarpc.io"],
   "faucets": [],
-  "infoURL": "https://story.foundation/"
+  "infoURL": "https://datafdn.org/"
 }, {
   "name": "Beagle Messaging Chain",
   "chainId": 1515,
@@ -30181,7 +30181,7 @@
     "symbol": "GMB",
     "decimals": 18
   },
-  "rpc": ["https://testnet.gembascan.io/rpc", "https://rpc1.gembascan.io", "https://rpc2.gembascan.io"],
+  "rpc": ["https://rpc1.gembascan.io", "https://rpc2.gembascan.io", "https://rpc3.gembascan.io"],
   "faucets": [],
   "infoURL": "https://gembachain.io"
 }, {
