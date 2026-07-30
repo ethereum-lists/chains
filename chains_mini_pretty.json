@@ -33747,6 +33747,19 @@
   "faucets": [],
   "infoURL": "https://x.com/tuxapp_coin"
 }, {
+  "name": "Crynux on Near",
+  "chainId": 1313161911,
+  "shortName": "crynux-near",
+  "networkId": 1313161911,
+  "nativeCurrency": {
+    "name": "Crynux",
+    "symbol": "CNX",
+    "decimals": 18
+  },
+  "rpc": ["https://json-rpc.near.crynux.io"],
+  "faucets": [],
+  "infoURL": "https://crynux.io"
+}, {
   "name": "SKALE Titan Hub",
   "chainId": 1350216234,
   "shortName": "titan-mainnet",
