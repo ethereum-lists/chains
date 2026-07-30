@@ -6980,6 +6980,19 @@
   "faucets": [],
   "infoURL": "https://bronos.org"
 }, {
+  "name": "DIA Lasernet Mainnet",
+  "chainId": 1050,
+  "shortName": "DIA",
+  "networkId": 1050,
+  "nativeCurrency": {
+    "name": "DIA Token",
+    "symbol": "DIA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.diadata.org"],
+  "faucets": [],
+  "infoURL": "https://www.diadata.org"
+}, {
   "name": "OpenGPU Mainnet",
   "chainId": 1071,
   "shortName": "ogpu",
