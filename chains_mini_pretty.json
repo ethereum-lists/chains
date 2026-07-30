@@ -15144,6 +15144,19 @@
   "faucets": [],
   "infoURL": "https://paxb.io/"
 }, {
+  "name": "Vexanium Mainnet",
+  "chainId": 6736,
+  "shortName": "vex-mainnet",
+  "networkId": 6736,
+  "nativeCurrency": {
+    "name": "VEX",
+    "symbol": "VEX",
+    "decimals": 18
+  },
+  "rpc": ["https://vexascan.com/rpc"],
+  "faucets": [],
+  "infoURL": "https://vexanium.com"
+}, {
   "name": "Compverse Mainnet",
   "chainId": 6779,
   "shortName": "compverse",

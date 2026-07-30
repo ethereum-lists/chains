@@ -25098,6 +25098,31 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Vexanium Mainnet",
+  "chain": "VEX",
+  "icon": "vex",
+  "rpc": ["https://vexascan.com/rpc"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "VEX",
+    "symbol": "VEX",
+    "decimals": 18
+  },
+  "infoURL": "https://vexanium.com",
+  "shortName": "vex-mainnet",
+  "chainId": 6736,
+  "networkId": 6736,
+  "explorers": [{
+    "name": "vexascan",
+    "url": "https://vexascan.com/evm",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Compverse Mainnet",
   "chain": "CPV",
   "icon": "compverse",
