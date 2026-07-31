@@ -6,9 +6,7 @@
     "https://seleman-edge.mineriafjs.workers.dev/rpc",
     "wss://seleman-ws.monarcaproject.com"
   ],
-  "faucets": [
-    "https://seleman.monarcaproject.com/trust-wallet"
-  ],
+  "faucets": ["https://seleman.monarcaproject.com/trust-wallet"],
   "nativeCurrency": {
     "name": "SELEMAN",
     "symbol": "SMN",
