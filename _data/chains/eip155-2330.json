@@ -1,7 +1,7 @@
 {
   "name": "Altcoinchain",
   "chain": "mainnet",
-  "rpc": ["https://rpc0.altcoinchain.org/rpc"],
+  "rpc": ["https://rpc.wattxchange.app"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Altcoin",
@@ -17,7 +17,7 @@
   "explorers": [
     {
       "name": "expedition",
-      "url": "http://expedition.altcoinchain.org",
+      "url": "https://explorer.altcoinchain.org",
       "icon": "altcoinchain",
       "standard": "none"
     }
