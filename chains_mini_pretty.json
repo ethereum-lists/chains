@@ -28495,6 +28495,19 @@
   "faucets": [],
   "infoURL": "https://zillnet.io"
 }, {
+  "name": "BetaXChain Mainnet",
+  "chainId": 290783,
+  "shortName": "betax",
+  "networkId": 290783,
+  "nativeCurrency": {
+    "name": "PBX",
+    "symbol": "PBX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.betaxchain.org"],
+  "faucets": [],
+  "infoURL": "https://betaxchain.com"
+}, {
   "name": "Cipherem Testnet",
   "chainId": 292003,
   "shortName": "CIP",
