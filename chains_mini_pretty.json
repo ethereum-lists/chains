@@ -32421,6 +32421,19 @@
   "faucets": [],
   "infoURL": "https://ma-chain.xyz"
 }, {
+  "name": "GridMind Testnet",
+  "chainId": 20260532,
+  "shortName": "gridmindt",
+  "networkId": 20260532,
+  "nativeCurrency": {
+    "name": "GridMind Test GRD",
+    "symbol": "tGRD",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.grid-mind.com"],
+  "faucets": ["https://testnet-faucet.grid-mind.com"],
+  "infoURL": "https://www.grid-mind.com/blockchain"
+}, {
   "name": "Hokum Testnet",
   "chainId": 20482050,
   "shortName": "hokum-testnet",
