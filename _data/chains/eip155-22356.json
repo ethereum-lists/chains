@@ -1,7 +1,9 @@
 {
   "name": "WATTx",
   "chain": "WATTx",
-  "rpc": ["http://rpc-wtx.wattxchange.app:8545"],
+  "rpc": [
+    "https://rpc-wtx.wattxchange.app"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "WATTx",
