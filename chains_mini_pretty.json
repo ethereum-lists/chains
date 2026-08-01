@@ -30029,6 +30029,19 @@
   "faucets": [],
   "infoURL": "https://www.rmrk.app/"
 }, {
+  "name": "MANORA L2 Testnet",
+  "chainId": 777772,
+  "shortName": "manora-testnet",
+  "networkId": 777772,
+  "nativeCurrency": {
+    "name": "MANORA",
+    "symbol": "MNR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-test.manoracoin.com"],
+  "faucets": ["https://faucet-test.manoracoin.com"],
+  "infoURL": "https://manoracoin.com"
+}, {
   "name": "Winr Protocol Mainnet",
   "chainId": 777777,
   "shortName": "winr",
