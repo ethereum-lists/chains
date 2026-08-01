@@ -1,0 +1,23 @@
+{
+  "name": "Mantle Hoodi Testnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc.hoodi.mantle.xyz"],
+  "faucets": ["https://faucet.mantle.xyz"],
+  "nativeCurrency": {
+    "name": "Hoodi Mantle",
+    "symbol": "MNT",
+    "decimals": 18
+  },
+  "infoURL": "https://mantle.xyz",
+  "shortName": "mnt-hoodi",
+  "chainId": 50002,
+  "networkId": 50002,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.hoodi.mantle.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}

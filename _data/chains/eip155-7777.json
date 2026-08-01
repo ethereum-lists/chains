@@ -1,29 +1,26 @@
 {
-  "name": "Rise of the Warbots Testnet",
-  "chain": "nmactest",
-  "rpc": [
-    "https://testnet1.riseofthewarbots.com",
-    "https://testnet2.riseofthewarbots.com",
-    "https://testnet3.riseofthewarbots.com",
-    "https://testnet4.riseofthewarbots.com",
-    "https://testnet5.riseofthewarbots.com"
-  ],
+  "name": "TTL Coin",
+  "chain": "TTL",
+  "icon": "ttl",
+  "rpc": ["https://rpc.ttl1.top"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Nano Machines",
-    "symbol": "NMAC",
+    "name": "TTL Coin",
+    "symbol": "TTL",
     "decimals": 18
   },
-  "infoURL": "https://riseofthewarbots.com/",
-  "shortName": "RiseOfTheWarbotsTestnet",
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://github.com/okneo31/ttlcoin",
+  "shortName": "ttl",
   "chainId": 7777,
   "networkId": 7777,
-  "slip44": 1,
   "explorers": [
     {
-      "name": "avascan",
-      "url": "https://testnet.avascan.info/blockchain/2mZ9doojfwHzXN3VXDQELKnKyZYxv7833U8Yq5eTfFx3hxJtiy",
+      "name": "TTL Scan",
+      "url": "https://scan.ttl1.top",
       "standard": "none"
     }
-  ]
+  ],
+  "redFlags": ["reusedChainId"],
+  "status": "active"
 }

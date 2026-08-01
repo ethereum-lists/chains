@@ -1,0 +1,29 @@
+{
+  "name": "MAI Chain Mainnet",
+  "chain": "MAI",
+  "rpc": [
+    "https://mainnet-node-0.maichain.org",
+    "https://mainnet-node-1.maichain.org",
+    "https://mainnet-node-2.maichain.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MAI Chain Native Token",
+    "symbol": "MAI",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP1559" }],
+  "infoURL": "",
+  "shortName": "mai",
+  "chainId": 1019,
+  "networkId": 1019,
+  "icon": "mai",
+  "explorers": [
+    {
+      "name": "maiscan",
+      "url": "https://maiscan.org",
+      "icon": "mai",
+      "standard": "EIP3091"
+    }
+  ]
+}
