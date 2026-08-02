@@ -25505,6 +25505,19 @@
   "faucets": ["https://proteusfaucet.nautchain.xyz"],
   "infoURL": "https://docs.nautchain.xyz"
 }, {
+  "name": "OmniCoin",
+  "chainId": 88008,
+  "shortName": "xom",
+  "networkId": 88008,
+  "nativeCurrency": {
+    "name": "OmniCoin",
+    "symbol": "XOM",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.omnicoin.net"],
+  "faucets": [],
+  "infoURL": "https://app.omnibazaar.com"
+}, {
   "name": "InoAi",
   "chainId": 88559,
   "shortName": "INO",
