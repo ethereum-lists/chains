@@ -2,7 +2,11 @@
   "name": "Robinhood Chain Testnet",
   "title": "Robinhood Chain Testnet",
   "chain": "ETH",
-  "rpc": ["https://rpc.testnet.chain.robinhood.com/rpc"],
+  "rpc": [
+    "https://rpc.testnet.chain.robinhood.com/rpc",
+    "https://robinhood-rpc.publicnode.com",
+    "wss://robinhood-rpc.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
