@@ -6,7 +6,7 @@
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "PLUS Coin",
+    "name": "PLUS",
     "symbol": "PLUS",
     "decimals": 18
   },
@@ -16,8 +16,8 @@
   "networkId": 88088,
   "explorers": [
     {
-      "name": "PLUS Mainnet Explorer",
-      "url": "https://plusmain.net",
+      "name": "PLUS Explorer",
+      "url": "https://plusmain.net/scan",
       "standard": "EIP3091"
     }
   ]
