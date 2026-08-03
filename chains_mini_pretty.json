@@ -7305,6 +7305,19 @@
   "faucets": [],
   "infoURL": "https://www.taker.xyz"
 }, {
+  "name": "Quarrychain Testnet",
+  "chainId": 1129,
+  "shortName": "qry",
+  "networkId": 1129,
+  "nativeCurrency": {
+    "name": "Quarry",
+    "symbol": "QRY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.quarrychain.network"],
+  "faucets": [],
+  "infoURL": "https://quarrychain.network/"
+}, {
   "name": "DeFiChain EVM Network Mainnet",
   "chainId": 1130,
   "shortName": "DFI",
