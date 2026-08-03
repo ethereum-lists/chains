@@ -29561,6 +29561,32 @@
   "faucets": ["https://faucet.hoodi.ethpandaops.io", "https://hoodi-faucet.pk910.de/"],
   "infoURL": "https://hoodi.ethpandaops.io"
 }, {
+  "name": "ONE Chain Testnet",
+  "chainId": 612044,
+  "shortName": "tone",
+  "networkId": 612044,
+  "nativeCurrency": {
+    "name": "TestnetONE",
+    "symbol": "tONE",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.onechain.nexus:22001", "wss://testnet.onechain.nexus:32001"],
+  "faucets": [],
+  "infoURL": "https://onechain.nexus"
+}, {
+  "name": "ONE Chain Mainnet",
+  "chainId": 612055,
+  "shortName": "one",
+  "networkId": 612055,
+  "nativeCurrency": {
+    "name": "ONE",
+    "symbol": "ONE",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.onechain.nexus:22001", "wss://mainnet.onechain.nexus:32001"],
+  "faucets": [],
+  "infoURL": "https://onechain.nexus"
+}, {
   "name": "DJT Testnet",
   "chainId": 621847,
   "shortName": "DJT",
