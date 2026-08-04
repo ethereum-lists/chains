@@ -1,0 +1,26 @@
+{
+  "name": "c8ntinuum",
+  "chain": "CTM",
+  "rpc": [
+    "https://public-evm-rpc.c8ntinuum.com",
+    "https://public-evm-rpc.c8ntinuum.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "c8ntinuum",
+    "symbol": "CTM",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://c8ntinuum.com",
+  "shortName": "c8",
+  "chainId": 2184,
+  "networkId": 2184,
+  "explorers": [
+    {
+      "name": "CTMScan",
+      "url": "https://ctmscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
