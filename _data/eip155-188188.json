@@ -1,0 +1,25 @@
+{
+  "name": "Exavolt",
+  "chain": "EXVT",
+  "icon": "exavolt",
+  "rpc": [
+    "https://rpc.exavolt.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Exavolt",
+    "symbol": "EXVT",
+    "decimals": 18
+  },
+  "infoURL": "https://exavolt.io",
+  "shortName": "exavolt",
+  "chainId": 188188,
+  "networkId": 188188,
+  "explorers": [
+    {
+      "name": "Exavolt Explorer",
+      "url": "https://explorer.exavolt.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
