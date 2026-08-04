@@ -26922,43 +26922,43 @@
   "faucets": [],
   "infoURL": "https://sova.io"
 }, {
-  "name": "Rome Devnet Esquiline",
+  "name": "Rome Esquiline Devnet",
   "chainId": 121212,
   "shortName": "rome-devnet-esquiline",
   "networkId": 121212,
   "nativeCurrency": {
-    "name": "RSOL",
-    "symbol": "RSOL",
+    "name": "Esquiline Gas",
+    "symbol": "GAS",
     "decimals": 18
   },
-  "rpc": ["https://esquiline-i.devnet.romeprotocol.xyz"],
-  "faucets": ["https://deposit.devnet.romeprotocol.xyz"],
+  "rpc": ["https://esquiline.devnet.romeprotocol.xyz"],
+  "faucets": ["https://app.devnet.romeprotocol.xyz"],
   "infoURL": "https://rome.builders"
 }, {
-  "name": "Rome Devnet Subura",
+  "name": "Rome Subura Devnet",
   "chainId": 121213,
   "shortName": "rome-devnet-subura",
   "networkId": 121213,
   "nativeCurrency": {
-    "name": "RSOL",
-    "symbol": "RSOL",
+    "name": "USDC",
+    "symbol": "USDC",
     "decimals": 18
   },
-  "rpc": ["https://subura-i.devnet.romeprotocol.xyz"],
-  "faucets": ["https://deposit.devnet.romeprotocol.xyz"],
+  "rpc": ["https://subura.devnet.romeprotocol.xyz"],
+  "faucets": ["https://app.devnet.romeprotocol.xyz"],
   "infoURL": "https://rome.builders"
 }, {
-  "name": "Rome Testnet Martius",
+  "name": "Rome Martius Testnet",
   "chainId": 121214,
   "shortName": "rome-testnet-martius",
   "networkId": 121214,
   "nativeCurrency": {
-    "name": "RSOL",
-    "symbol": "RSOL",
+    "name": "USDC",
+    "symbol": "USDC",
     "decimals": 18
   },
-  "rpc": ["https://martius-i.testnet.romeprotocol.xyz"],
-  "faucets": ["https://deposit.testnet.romeprotocol.xyz"],
+  "rpc": ["https://martius.testnet.romeprotocol.xyz"],
+  "faucets": ["https://app.testnet.romeprotocol.xyz"],
   "infoURL": "https://rome.builders"
 }, {
   "name": "Rome Testnet Caelian",
