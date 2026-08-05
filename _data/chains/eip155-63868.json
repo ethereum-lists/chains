@@ -1,6 +1,7 @@
 {
   "name": "Veri5",
   "chain": "VERI5",
+  "icon": "veri5",
   "rpc": ["https://rpc0.veri5.network"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
