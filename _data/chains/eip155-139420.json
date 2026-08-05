@@ -14,12 +14,10 @@
   "chainId": 139420,
   "networkId": 139420,
   "slip44": 1,
-  "icon": "midpointcross",
   "explorers": [
     {
       "name": "Midpoint Cross Testnet",
       "url": "https://testnet-transactions.midpointcross.com",
-      "icon": "midpointcross",
       "standard": "EIP3091"
     }
   ]
