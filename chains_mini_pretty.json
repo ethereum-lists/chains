@@ -20474,6 +20474,19 @@
   "faucets": [],
   "infoURL": "https://macosscan.codeupp.xyz"
 }, {
+  "name": "Alpen Testnet III",
+  "chainId": 20310,
+  "shortName": "alpen-testnet-iii",
+  "networkId": 20310,
+  "nativeCurrency": {
+    "name": "Signet BTC",
+    "symbol": "sBTC",
+    "decimals": 18
+  },
+  "rpc": ["https://alpen.testnet.alpen.org"],
+  "faucets": ["https://tally.so/r/aQKLZZ"],
+  "infoURL": "https://docs.alpenlabs.io"
+}, {
   "name": "XUSD ONE StableChain Mainnet",
   "chainId": 20441,
   "shortName": "xusd",
