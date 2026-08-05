@@ -25128,6 +25128,19 @@
   "faucets": [],
   "infoURL": "https://www.forta.org/"
 }, {
+  "name": "Zorin Chain",
+  "chainId": 81008,
+  "shortName": "zrn",
+  "networkId": 81008,
+  "nativeCurrency": {
+    "name": "Zorin",
+    "symbol": "ZRN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zorinscan.org"],
+  "faucets": [],
+  "infoURL": "https://zorinscan.org"
+}, {
   "name": "Nordek Mainnet",
   "chainId": 81041,
   "shortName": "nordek",
