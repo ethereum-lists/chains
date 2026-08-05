@@ -1,9 +1,7 @@
 {
   "name": "Farm Chain",
   "chain": "FMC",
-  "rpc": [
-    "https://rpc.fmcscan.com"
-  ],
+  "rpc": ["https://rpc.fmcscan.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Farm Coin",
