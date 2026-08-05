@@ -12,6 +12,7 @@
   "shortName": "fmc",
   "chainId": 165,
   "networkId": 165,
+  "redFlags": ["reusedChainId"],
   "slip44": 60,
   "explorers": [
     {
