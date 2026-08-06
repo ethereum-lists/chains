@@ -2,7 +2,13 @@
   "name": "Meta Assets Chain",
   "chain": "MA",
   "icon": "metaassets",
-  "rpc": ["https://rpc.ma-chain.xyz"],
+  "rpc": [
+    "https://rpc.ma-chain.xyz",
+    "https://madataseed.xyz",
+    "https://maclive.info",
+    "wss://madataseed.xyz/ws",
+    "wss://maclive.info/ws"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "MetaAssets",

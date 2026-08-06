@@ -1,7 +1,7 @@
 {
   "name": "BattleChain Mainnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": ["https://mainnet.battlechain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -13,8 +13,13 @@
   "chainId": 626,
   "networkId": 626,
   "icon": "battlechain",
-  "status": "incubating",
-  "explorers": [],
+  "explorers": [
+    {
+      "name": "BattleChain Explorer",
+      "url": "https://explorer.battlechain.com",
+      "standard": "EIP3091"
+    }
+  ],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
