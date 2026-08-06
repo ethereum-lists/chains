@@ -12,5 +12,12 @@
   "shortName": "hyve",
   "chainId": 7847,
   "networkId": 7847,
-  "icon": "hyvechain"
+  "icon": "hyvechain",
+  "explorers": [
+    {
+      "name": "HyveChain Explorer",
+      "url": "https://explorer.hyvechain.com",
+      "standard": "EIP3091"
+    }
+  ]
 }
