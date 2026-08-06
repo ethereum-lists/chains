@@ -10815,6 +10815,19 @@
   "faucets": [],
   "infoURL": "https://animechain.ai"
 }, {
+  "name": "Morph Tachyon",
+  "chainId": 2184,
+  "shortName": "morphtachyon",
+  "networkId": 2184,
+  "nativeCurrency": {
+    "name": "BGB",
+    "symbol": "BGB",
+    "decimals": 18
+  },
+  "rpc": ["https://api.popdex.xyz/api/v1/web3/rpc"],
+  "faucets": [],
+  "infoURL": "https://popdex.xyz"
+}, {
   "name": "Game7",
   "chainId": 2187,
   "shortName": "g7",
@@ -21981,6 +21994,19 @@
   "rpc": ["https://mainnet-rpc.zeuschainscan.io"],
   "faucets": [],
   "infoURL": "https://zeuschainscan.io"
+}, {
+  "name": "Morph Tachyon Testnet",
+  "chainId": 34952,
+  "shortName": "morphtachyontestnet",
+  "networkId": 34952,
+  "nativeCurrency": {
+    "name": "BGB",
+    "symbol": "BGB",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-api.popdex.xyz/api/v1/web3/rpc"],
+  "faucets": [],
+  "infoURL": "https://popdex.xyz"
 }, {
   "name": "J2O Taro",
   "chainId": 35011,

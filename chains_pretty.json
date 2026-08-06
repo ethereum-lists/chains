@@ -17790,6 +17790,29 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Morph Tachyon",
+  "title": "Morph Tachyon Mainnet",
+  "chain": "Morph Tachyon",
+  "rpc": ["https://api.popdex.xyz/api/v1/web3/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BGB",
+    "symbol": "BGB",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "https://popdex.xyz",
+  "shortName": "morphtachyon",
+  "chainId": 2184,
+  "networkId": 2184,
+  "explorers": [{
+    "name": "Morph Tachyon Explorer",
+    "url": "https://app.popdex.xyz/explorer",
+    "standard": "none"
+  }]
+}, {
   "name": "Game7",
   "title": "Game7",
   "chain": "Game7",
@@ -36356,6 +36379,29 @@
     "url": "https://zeuschainscan.io",
     "icon": "zeusicon",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Morph Tachyon Testnet",
+  "title": "Morph Tachyon Testnet",
+  "chain": "Morph Tachyon",
+  "rpc": ["https://testnet-api.popdex.xyz/api/v1/web3/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BGB",
+    "symbol": "BGB",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "https://popdex.xyz",
+  "shortName": "morphtachyontestnet",
+  "chainId": 34952,
+  "networkId": 34952,
+  "explorers": [{
+    "name": "Morph Tachyon Testnet Explorer",
+    "url": "https://testnet-app.popdex.xyz/explorer",
+    "standard": "none"
   }]
 }, {
   "name": "J2O Taro",
