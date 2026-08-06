@@ -1,7 +1,7 @@
 {
   "name": "Plasma Mainnet",
   "chain": "Plasma",
-  "rpc": ["https://rpc.plasma.to"],
+  "rpc": ["https://rpc.plasma.to", "https://rpc.nodeflare.app/plasma/public"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Plasma",
