@@ -3392,6 +3392,19 @@
   "faucets": ["https://zkevm.cronos.org/faucet"],
   "infoURL": "https://docs-zkevm.cronos.org"
 }, {
+  "name": "NetX Mainnet",
+  "chainId": 287,
+  "shortName": "netx",
+  "networkId": 287,
+  "nativeCurrency": {
+    "name": "NetX Token",
+    "symbol": "NETX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.netxscan.io"],
+  "faucets": [],
+  "infoURL": "https://netx.world/"
+}, {
   "name": "Boba Network",
   "chainId": 288,
   "shortName": "Boba",
@@ -4821,6 +4834,19 @@
   "rpc": ["https://rpc.filenova.org"],
   "faucets": [],
   "infoURL": "https://filenova.org"
+}, {
+  "name": "NetX Testnet",
+  "chainId": 587,
+  "shortName": "netx-testnet",
+  "networkId": 587,
+  "nativeCurrency": {
+    "name": "NetX Token",
+    "symbol": "NETX",
+    "decimals": 18
+  },
+  "rpc": ["https://testnetrpc.netxscan.io"],
+  "faucets": ["https://netx.world/faucet/"],
+  "infoURL": "https://netx.world/"
 }, {
   "name": "Metis Stardust Testnet",
   "chainId": 588,

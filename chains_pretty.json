@@ -5507,6 +5507,25 @@
   }],
   "status": "deprecated"
 }, {
+  "name": "NetX Mainnet",
+  "chain": "NETX",
+  "rpc": ["https://rpc.netxscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NetX Token",
+    "symbol": "NETX",
+    "decimals": 18
+  },
+  "infoURL": "https://netx.world/",
+  "shortName": "netx",
+  "chainId": 287,
+  "networkId": 287,
+  "explorers": [{
+    "name": "NetXScan",
+    "url": "https://netxscan.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Boba Network",
   "chain": "ETH",
   "rpc": ["https://mainnet.boba.network", "https://replica.boba.network", "https://boba-ethereum.gateway.tenderly.co", "https://gateway.tenderly.co/public/boba-ethereum", "wss://boba-ethereum.gateway.tenderly.co/", "wss://gateway.tenderly.co/public/boba-ethereum", "https://boba-eth.drpc.org", "wss://boba-eth.drpc.org"],
@@ -8038,6 +8057,25 @@
     "url": "https://scan.filenova.org",
     "icon": "filenova",
     "standard": "none"
+  }]
+}, {
+  "name": "NetX Testnet",
+  "chain": "NETX",
+  "rpc": ["https://testnetrpc.netxscan.io"],
+  "faucets": ["https://netx.world/faucet/"],
+  "nativeCurrency": {
+    "name": "NetX Token",
+    "symbol": "NETX",
+    "decimals": 18
+  },
+  "infoURL": "https://netx.world/",
+  "shortName": "netx-testnet",
+  "chainId": 587,
+  "networkId": 587,
+  "explorers": [{
+    "name": "NetXScan Testnet",
+    "url": "https://testnet.netxscan.io",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Metis Stardust Testnet",
