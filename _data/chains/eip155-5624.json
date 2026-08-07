@@ -1,0 +1,28 @@
+{
+  "name": "Kaanch Network",
+  "chain": "KNCH",
+  "icon": "kaanch",
+  "rpc": [
+    "https://evm.kaanch.network"
+  ],
+  "features": [
+    { "name": "EIP155" }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Kaanch",
+    "symbol": "KNCH",
+    "decimals": 18
+  },
+  "infoURL": "https://kaanch.network",
+  "shortName": "knch",
+  "chainId": 5624,
+  "networkId": 5624,
+  "explorers": [
+    {
+      "name": "Kaanchscan",
+      "url": "https://kaanchscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
