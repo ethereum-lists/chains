@@ -1,51 +1,24 @@
-# EVM-based Chains
+# PLUS Mainnet Smart Contracts Audit Package (CertiK Security Verification)
 
-The source data is in _data/chains. Each chain has its own file with the filename being the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) representation as name and `.json` as extension.
+Official Solidity Smart Contracts for PLUS Mainnet (Chain ID: 88088).
 
-## Example:
+## Deployed Smart Contract Addresses & Source Files
 
-```json
-{
-  "name": "Ethereum Mainnet",
-  "chain": "ETH",
-  "rpc": [
-    "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
-    "https://api.mycryptoapi.com/eth"
-  ],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
-    "decimals": 18
-  },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "infoURL": "https://ethereum.org",
-  "shortName": "eth",
-  "chainId": 1,
-  "networkId": 1,
-  "icon": "ethereum",
-  "explorers": [{
-    "name": "etherscan",
-    "url": "https://etherscan.io",
-    "icon": "etherscan",
-    "standard": "EIP3091"
-  }]
-}
-```
+1. **Staking Vault (스테이킹 보상 금고)**
+   - Address: `0x5CfEa22674e2E7d251dEB693c0490b6389334F0f`
+   - File: [`PlusStaking.sol`](./PlusStaking.sol)
 
-When an icon is used in either the network or an explorer, there must be a JSON in _data/icons with the name used.
-(e.g. in the above example there must be a `ethereum.json` and a `etherscan.json` in there) - The icon JSON files look like this:
+2. **WPLUS Token (Wrapped PLUS Token)**
+   - Address: `0x69a9875609258d2fB2B2D7FE84584b491b0FF301`
+   - File: [`WPLUS.sol`](./WPLUS.sol)
 
-```json
+3. **PLUS-USDT Token (Tether USD Bridged)**
+   - Address: `0x55d398326199059f775485246999027b3197955`
+   - File: [`PLUS_USDT.sol`](./PLUS_USDT.sol)
 
-[
-    {
-      "url": "ipfs://QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt",
-      "width": 1000,
-      "height": 1628,
-      "format": "png"
-    }
-]
+4. **PlusGPT AI Token (PGPT Token)**
+   - Address: `0x1acBa8e5f7T58e803f841d7beE1C271F90E92923`
+   - File: [`PlusGPT.sol`](./PlusGPT.sol)
 
 ```
 
