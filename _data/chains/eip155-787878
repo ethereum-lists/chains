@@ -1,0 +1,26 @@
+{
+  "name": "RECYCLEFARM Carbon Network Testnet",
+  "chain": "RECANET Testnet",
+  "rpc": [
+    "https://rpc.recyclefarm.io",
+  ],
+  "faucets": [
+  ],
+  "nativeCurrency": {
+    "name": "tRCF",
+    "symbol": tRCF",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "",
+  "chainId": 787878,
+  "networkId": 787878,
+  "parent": {
+    "chain": "eip155-787878",
+    "type": "shard"
+  },
+  "explorers": [{
+    "name": "recanet-testnet",
+    "url": "https://testnet.recyclefarm.io/",
+  }]
+}
