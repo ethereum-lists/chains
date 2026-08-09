@@ -1,0 +1,23 @@
+{
+  "name": "Haus Chain Testnet",
+  "chain": "HAUS",
+  "rpc": ["https://rpc-testnet.hausserver.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Haus",
+    "symbol": "HAUS",
+    "decimals": 18
+  },
+  "infoURL": "https://hausserver.xyz",
+  "shortName": "t-haus",
+  "chainId": 2443,
+  "networkId": 2443,
+  "status": "active",
+  "explorers": [
+    {
+      "name": "Haus Chain Testnet Explorer",
+      "url": "https://explorer-testnet.hausserver.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
