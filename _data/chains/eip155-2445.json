@@ -1,0 +1,23 @@
+{
+  "name": "Haus Chain",
+  "chain": "HAUS",
+  "rpc": ["https://rpc-mainnet.hausserver.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Haus",
+    "symbol": "HAUS",
+    "decimals": 18
+  },
+  "infoURL": "https://hausserver.xyz",
+  "shortName": "haus",
+  "chainId": 2445,
+  "networkId": 2445,
+  "status": "active",
+  "explorers": [
+    {
+      "name": "Haus Chain Explorer",
+      "url": "https://explorer-mainnet.hausserver.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
