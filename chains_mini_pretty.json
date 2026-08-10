@@ -13207,6 +13207,32 @@
   "faucets": [],
   "infoURL": "https://aioz.network"
 }, {
+  "name": "E Canna Mainnet",
+  "chainId": 4111,
+  "shortName": "ecna",
+  "networkId": 4111,
+  "nativeCurrency": {
+    "name": "E Canna",
+    "symbol": "ECNA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.ecnascan.com"],
+  "faucets": [],
+  "infoURL": "https://ecnascan.com"
+}, {
+  "name": "E Canna Testnet",
+  "chainId": 4112,
+  "shortName": "tecna",
+  "networkId": 4112,
+  "nativeCurrency": {
+    "name": "E Canna Testnet",
+    "symbol": "tECNA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnetrpc.ecnascan.com"],
+  "faucets": ["https://testnetexplorer.ecnascan.com/faucet"],
+  "infoURL": "https://ecnascan.com"
+}, {
   "name": "Citrea Mainnet",
   "chainId": 4114,
   "shortName": "citrea",
