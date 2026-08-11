@@ -1155,7 +1155,7 @@
 }, {
   "name": "BNB Smart Chain Mainnet",
   "chain": "BSC",
-  "rpc": ["https://bsc-dataseed1.bnbchain.org", "https://bsc-dataseed2.bnbchain.org", "https://bsc-dataseed3.bnbchain.org", "https://bsc-dataseed4.bnbchain.org", "https://bsc-dataseed1.defibit.io", "https://bsc-dataseed2.defibit.io", "https://bsc-dataseed3.defibit.io", "https://bsc-dataseed4.defibit.io", "https://bsc-dataseed1.ninicoin.io", "https://bsc-dataseed2.ninicoin.io", "https://bsc-dataseed3.ninicoin.io", "https://bsc-dataseed4.ninicoin.io", "https://bsc-rpc.publicnode.com", "wss://bsc-rpc.publicnode.com", "wss://bsc-ws-node.nariox.org"],
+  "rpc": ["https://bsc-dataseed1.bnbchain.org", "https://bsc-dataseed2.bnbchain.org", "https://bsc-dataseed3.bnbchain.org", "https://bsc-dataseed4.bnbchain.org", "https://bsc-dataseed1.defibit.io", "https://bsc-dataseed2.defibit.io", "https://bsc-dataseed3.defibit.io", "https://bsc-dataseed4.defibit.io", "https://bsc-dataseed1.ninicoin.io", "https://bsc-dataseed2.ninicoin.io", "https://bsc-dataseed3.ninicoin.io", "https://bsc-dataseed4.ninicoin.io", "https://bsc-rpc.publicnode.com", "https://bsc-rpc-public.chainpulse.cc", "wss://bsc-rpc.publicnode.com", "wss://bsc-ws-node.nariox.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
@@ -2004,7 +2004,7 @@
 }, {
   "name": "BNB Smart Chain Testnet",
   "chain": "BSC",
-  "rpc": ["https://data-seed-prebsc-1-s1.bnbchain.org:8545", "https://data-seed-prebsc-2-s1.bnbchain.org:8545", "https://data-seed-prebsc-1-s2.bnbchain.org:8545", "https://data-seed-prebsc-2-s2.bnbchain.org:8545", "https://data-seed-prebsc-1-s3.bnbchain.org:8545", "https://data-seed-prebsc-2-s3.bnbchain.org:8545", "https://bsc-testnet-rpc.publicnode.com", "wss://bsc-testnet-rpc.publicnode.com"],
+  "rpc": ["https://data-seed-prebsc-1-s1.bnbchain.org:8545", "https://data-seed-prebsc-2-s1.bnbchain.org:8545", "https://data-seed-prebsc-1-s2.bnbchain.org:8545", "https://data-seed-prebsc-2-s2.bnbchain.org:8545", "https://data-seed-prebsc-1-s3.bnbchain.org:8545", "https://data-seed-prebsc-2-s3.bnbchain.org:8545", "https://bsc-testnet-rpc.publicnode.com", "https://bsc-rpc-public.chainpulse.cc/testnet", "wss://bsc-testnet-rpc.publicnode.com"],
   "faucets": ["https://testnet.bnbchain.org/faucet-smart"],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
