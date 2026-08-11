@@ -24660,6 +24660,19 @@
   "faucets": [],
   "infoURL": "https://www.nervos.org"
 }, {
+  "name": "EAV7 EAVM",
+  "chainId": 72020,
+  "shortName": "eav7",
+  "networkId": 72020,
+  "nativeCurrency": {
+    "name": "EAV7",
+    "symbol": "EAV7",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.eavscan.com"],
+  "faucets": [],
+  "infoURL": "https://eavscan.com"
+}, {
   "name": "Nexera Testnet",
   "chainId": 72080,
   "shortName": "nxra-testnet",
