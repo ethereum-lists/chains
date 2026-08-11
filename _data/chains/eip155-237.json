@@ -1,11 +1,11 @@
 {
   "name": "AEREDIUM",
-  "chain": "AER",
-  "rpc": ["https://rpc.aeredium.io"],
+  "chain": "AERX",
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
-    "name": "AER",
-    "symbol": "AER",
+    "name": "AERX",
+    "symbol": "AERX",
     "decimals": 18
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
