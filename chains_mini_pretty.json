@@ -8943,6 +8943,19 @@
   "faucets": [],
   "infoURL": "https://horizen.io/"
 }, {
+  "name": "Pharos Mainnet",
+  "chainId": 1672,
+  "shortName": "pharos",
+  "networkId": 1672,
+  "nativeCurrency": {
+    "name": "PharosCoin",
+    "symbol": "PROS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.pharos.xyz"],
+  "faucets": [],
+  "infoURL": "https://pharos.xyz"
+}, {
   "name": "Mint Testnet",
   "chainId": 1686,
   "shortName": "minttest",
