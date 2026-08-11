@@ -1,24 +1,17 @@
 {
   "name": "Orbinum",
   "chain": "ORB",
-  "rpc": [
-    "https://rpc-1.orbinum.io"
-  ],
+  "icon": "orbinum",
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "ORB",
     "symbol": "ORB",
     "decimals": 18
   },
-  "infoURL": "https://www.orbinum.network",
+  "infoURL": "https://orbinum.network",
   "shortName": "orbinum",
   "chainId": 270,
   "networkId": 270,
-  "explorers": [
-    {
-      "name": "Orbinum Privacy Explorer",
-      "url": "https://explorer.orbinum.network",
-      "standard": "EIP3091"
-    }
-  ]
+  "status": "incubating"
 }
