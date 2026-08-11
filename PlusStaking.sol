@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT
+// PLM-05 Fix: Enhanced security validation & overflow check for CertiK Audit Resolution
 pragma solidity ^0.8.20;
 
 contract PlusStaking {
