@@ -1,8 +1,10 @@
 {
-  "name": "EAV7 EAVM",
+  "name": "EAV7",
   "chain": "EAV7",
   "icon": "eav7",
-  "rpc": ["https://rpc.eavscan.com"],
+  "rpc": [
+    "https://rpc.eavscan.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "EAV7",
