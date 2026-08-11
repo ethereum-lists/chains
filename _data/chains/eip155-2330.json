@@ -16,6 +16,12 @@
   "status": "active",
   "explorers": [
     {
+      "name": "ALTScan",
+      "url": "https://alt-exp.wattxchange.app",
+      "icon": "altcoinchain",
+      "standard": "EIP3091"
+    },
+    {
       "name": "expedition",
       "url": "https://explorer.altcoinchain.org",
       "icon": "altcoinchain",
