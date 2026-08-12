@@ -1,0 +1,28 @@
+{
+  "name": "Orden Global Testnet",
+  "title": "Orden Global Testnet",
+  "chain": "OGB",
+  "rpc": [
+    "https://rpc-testnet.ordenglobal-rpc.com",
+    "https://pruebas.ordenglobal-rpc.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Testnet Origen",
+    "symbol": "tORIGEN",
+    "decimals": 18
+  },
+  "infoURL": "https://ordenglobal.org",
+  "shortName": "ogb-test",
+  "chainId": 5534,
+  "networkId": 5534,
+  "slip44": 1,
+  "status": "active",
+  "explorers": [
+    {
+      "name": "ordenscan testnet",
+      "url": "https://testnet.ordenscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
