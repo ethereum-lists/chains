@@ -34482,7 +34482,7 @@
     "symbol": "ACCESS",
     "decimals": 18
   },
-  "rpc": ["https://accesschain.org/rpc"],
+  "rpc": ["https://accesschain.org/rpc", "https://accesschainapp.site/rpc"],
   "faucets": [],
   "infoURL": "https://accesschain.org",
   "explorers": [{
@@ -46930,6 +46930,30 @@
     "icon": "reapchain",
     "standard": "none"
   }]
+}, {
+  "name": "MANORA",
+  "chainId": 221978,
+  "shortName": "mnr",
+  "chain": "MANORA",
+  "networkId": 221978,
+  "icon": "manora",
+  "nativeCurrency": {
+    "name": "Manora",
+    "symbol": "MNR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.manoracoin.com"],
+  "faucets": [],
+  "explorers": [{
+    "name": "MANORA Explorer",
+    "url": "https://explorer.manoracoin.com",
+    "standard": "EIP3091"
+  }],
+  "infoURL": "https://manoracoin.com",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
 }, {
   "name": "Hydration",
   "chain": "HDX",
