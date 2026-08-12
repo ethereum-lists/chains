@@ -7851,7 +7851,7 @@
   "faucets": [],
   "infoURL": "https://brainark.online"
 }, {
-  "name": "AEREDIUM Testnet",
+  "name": "AEREDIUM Testnet 1",
   "chainId": 1237,
   "shortName": "aer-testnet",
   "networkId": 1237,
@@ -7860,8 +7860,8 @@
     "symbol": "tAER",
     "decimals": 18
   },
-  "rpc": ["https://testnet.rpc.aeredium.io"],
-  "faucets": ["https://aeredium.io/faucet.html"],
+  "rpc": [],
+  "faucets": [],
   "infoURL": "https://aeredium.io"
 }, {
   "name": "ARC Mainnet",
@@ -10996,6 +10996,19 @@
   "rpc": ["https://bc.vcex.xyz"],
   "faucets": [],
   "infoURL": "https://bo.vcex.xyz/"
+}, {
+  "name": "AEREDIUM Testnet",
+  "chainId": 2237,
+  "shortName": "sea",
+  "networkId": 2237,
+  "nativeCurrency": {
+    "name": "SEAR",
+    "symbol": "SEAR",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.rpc.aeredium.io"],
+  "faucets": ["https://aeredium.io/faucet.html"],
+  "infoURL": "https://aeredium.io"
 }, {
   "name": "Krest Network",
   "chainId": 2241,
