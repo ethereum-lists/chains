@@ -1,25 +1,35 @@
 {
-  "name": "XANAChain",
-  "chain": "XANAChain",
-  "rpc": ["https://mainnet.xana.net/rpc"],
+  "name": "c8ntinuum",
+  "chain": "CTM",
+  "rpc": [
+    "https://rpc.c8ntinuum.com",
+    "https://rpc.c8ntinuum.io",
+    "https://rpc.c8ntinuum.link"
+  ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "XETA",
-    "symbol": "XETA",
+    "name": "c8ntinuum",
+    "symbol": "CTM",
     "decimals": 18
   },
-
-  "infoURL": "https://xanachain.xana.net/",
-  "shortName": "XANAChain",
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" },
+    { "name": "EIP2930" },
+    { "name": "EIP7702" }
+  ],
+  "infoURL": "https://c8ntinuum.com",
+  "shortName": "ctm",
   "chainId": 8888,
   "networkId": 8888,
-  "icon": "xeta",
+  "icon": "c8ntinuum",
   "explorers": [
     {
-      "name": "XANAChain",
-      "url": "https://xanachain.xana.net",
+      "name": "CTMScan",
+      "url": "https://ctmscan.io",
       "standard": "EIP3091"
     }
   ],
+  "status": "active",
   "redFlags": ["reusedChainId"]
 }
