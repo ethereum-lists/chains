@@ -34852,6 +34852,32 @@
   "faucets": [],
   "infoURL": "https://astria.org"
 }, {
+  "name": "STRATO Mainnet",
+  "chainId": 123354377739506,
+  "shortName": "strato",
+  "networkId": 123354377739506,
+  "nativeCurrency": {
+    "name": "USDST",
+    "symbol": "USDST",
+    "decimals": 18
+  },
+  "rpc": ["https://app.strato.nexus/rpc"],
+  "faucets": [],
+  "infoURL": "https://strato.nexus"
+}, {
+  "name": "STRATO Helium Testnet",
+  "chainId": 195049586845898,
+  "shortName": "strato-testnet",
+  "networkId": 195049586845898,
+  "nativeCurrency": {
+    "name": "USDST",
+    "symbol": "USDST",
+    "decimals": 18
+  },
+  "rpc": ["https://app.testnet.strato.nexus/rpc"],
+  "faucets": [],
+  "infoURL": "https://strato.nexus"
+}, {
   "name": "Yominet",
   "chainId": 428962654539583,
   "shortName": "yomi",
