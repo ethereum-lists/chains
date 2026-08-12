@@ -4,6 +4,13 @@
   "icon": "aglais",
   "rpc": ["https://evm-rpc.testnet.quip.network:20049"],
   "faucets": [],
+  "explorers": [
+    {
+      "name": "Aglais Explorer",
+      "url": "https://explorer.testnet.quip.network",
+      "standard": "EIP3091"
+    }
+  ],
   "nativeCurrency": {
     "name": "AGLS",
     "symbol": "AGLS",
