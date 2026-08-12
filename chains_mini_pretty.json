@@ -12609,6 +12609,19 @@
   "faucets": [],
   "infoURL": "https://jfinpos.com"
 }, {
+  "name": "Amero X Network",
+  "chainId": 3535,
+  "shortName": "amx",
+  "networkId": 3535,
+  "nativeCurrency": {
+    "name": "Amero X",
+    "symbol": "AMX",
+    "decimals": 18
+  },
+  "rpc": ["https://amxrpc.link/public/rpc"],
+  "faucets": [],
+  "infoURL": "https://amxscan.com"
+}, {
   "name": "PandoProject Mainnet",
   "chainId": 3601,
   "shortName": "pando-mainnet",
