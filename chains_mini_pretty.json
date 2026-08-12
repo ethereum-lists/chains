@@ -30874,6 +30874,19 @@
   "faucets": [],
   "infoURL": "https://e-talk.xyz/webchain"
 }, {
+  "name": "Dexpace",
+  "chainId": 1001001,
+  "shortName": "dexpace",
+  "networkId": 1001001,
+  "nativeCurrency": {
+    "name": "Dexpace",
+    "symbol": "DEX",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://dexpace.io"
+}, {
   "name": "Wirex Pay Testnet",
   "chainId": 1001996,
   "shortName": "wirex-testnet",
@@ -33317,6 +33330,19 @@
   "rpc": ["https://rpc.ethos.cool"],
   "faucets": ["https://faucet.ethos.cool"],
   "infoURL": "https://ethos.cool"
+}, {
+  "name": "Dexpace Devnet 01",
+  "chainId": 100100101,
+  "shortName": "dexpace-devnet-01",
+  "networkId": 100100101,
+  "nativeCurrency": {
+    "name": "Dexpace",
+    "symbol": "DEX",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://dexpace.io"
 }, {
   "name": "Oraichain Mainnet",
   "chainId": 108160679,
