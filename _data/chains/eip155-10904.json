@@ -2,7 +2,7 @@
   "name": "Ault Blockchain Testnet",
   "chain": "AULT",
   "icon": "ault",
-  "rpc": [],
+  "rpc": ["https://test-json-rpc.cloud.aultblockchain.xyz"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
@@ -14,5 +14,12 @@
   "shortName": "ault-testnet",
   "chainId": 10904,
   "networkId": 10904,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "Ault Testnet Explorer",
+      "url": "https://ault-testnet.explorer.orynt.tech",
+      "standard": "EIP3091",
+      "icon": "ault"
+    }
+  ]
 }
