@@ -17185,6 +17185,19 @@
   "faucets": ["https://testnetapp.hydrachain.org/faucet"],
   "infoURL": "https://hydrachain.org"
 }, {
+  "name": "Garuda Chain Mainnet",
+  "chainId": 8846,
+  "shortName": "garuda",
+  "networkId": 8846,
+  "nativeCurrency": {
+    "name": "Garuda Digital Coin",
+    "symbol": "GDC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.garudachain.id", "https://rpc2.garudachain.id"],
+  "faucets": [],
+  "infoURL": "https://garudachain.id"
+}, {
   "name": "MARO Blockchain Mainnet",
   "chainId": 8848,
   "shortName": "maro",
