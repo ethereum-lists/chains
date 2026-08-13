@@ -1,13 +1,9 @@
- {
+{
   "name": "Winmar Tech Chain",
   "chain": "WTC",
   "icon": "wtc",
-  "rpc": [
-    "https://winmar.tech/rpc"
-  ],
-  "faucets": [
-    "https://winmar.tech/faucet"
-  ],
+  "rpc": ["https://winmar.tech/rpc"],
+  "faucets": ["https://winmar.tech/faucet"],
   "nativeCurrency": {
     "name": "Winmar Tech Chain",
     "symbol": "WTC",
@@ -24,8 +20,6 @@
       "standard": "EIP3091"
     }
   ],
-  "features": [
-    { "name": "EIP155" }
-  ],
+  "features": [{ "name": "EIP155" }],
   "status": "active"
 }
