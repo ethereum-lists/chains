@@ -27260,6 +27260,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "RPHX Mainnet",
+  "chainId": 130526,
+  "shortName": "rphx",
+  "networkId": 130526,
+  "nativeCurrency": {
+    "name": "RPHX",
+    "symbol": "RPHX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.rphxscan.com"],
+  "faucets": [],
+  "infoURL": "https://rphxscan.com"
+}, {
   "name": "Odyssey Chain (Testnet)",
   "chainId": 131313,
   "shortName": "DIONE",
