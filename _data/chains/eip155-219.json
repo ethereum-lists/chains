@@ -1,0 +1,25 @@
+{
+  "name": "GoodChain",
+  "chain": "GDC",
+  "rpc": [
+    "https://rpc1.goodchainscan.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GDC",
+    "symbol": "GDC",
+    "decimals": 18
+  },
+  "infoURL": "https://goodchainscan.org",
+  "shortName": "gdc",
+  "chainId": 219,
+  "networkId": 219,
+  "explorers": [
+    {
+      "name": "goodchainscan",
+      "url": "https://goodchainscan.org",
+      "standard": "EIP3091"
+    }
+  ],
+  "description": "EVM-compatible PoA blockchain with 3s block time, native GDC currency"
+}
