@@ -5,10 +5,18 @@
     "https://rpc-gel.inkonchain.com",
     "https://rpc-qnd.inkonchain.com",
     "wss://rpc-gel.inkonchain.com",
-    "wss://rpc-qnd.inkonchain.com"
+    "wss://rpc-qnd.inkonchain.com",
+    "https://rpc.nodeflare.app/ink/public"
   ],
   "faucets": ["https://inkonchain.com/faucet"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",

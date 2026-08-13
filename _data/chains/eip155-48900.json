@@ -2,7 +2,10 @@
   "name": "Zircuit Mainnet",
   "chain": "Zircuit Mainnet",
   "icon": "zircuit",
-  "rpc": ["https://mainnet.zircuit.com"],
+  "rpc": [
+    "https://mainnet.zircuit.com",
+    "https://rpc.nodeflare.app/zircuit/public"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",
