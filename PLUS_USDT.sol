@@ -25,12 +25,15 @@ contract WrappedUSDT {
     }
 
     function mint(address to, uint256 amount) external onlyOwner {
+        require(to != address(0), "ERC20: mint to zero address");
+        require(amount > 0, "Amount must be greater than zero");
         totalSupply += amount;
         balanceOf[to] += amount;
         emit Transfer(address(0), to, amount);
     }
 
     function burn(uint256 amount) external {
+        require(amount > 0, "Amount must be greater than zero");
         require(balanceOf[msg.sender] >= amount, "Insufficient balance");
         totalSupply -= amount;
         balanceOf[msg.sender] -= amount;
@@ -38,6 +41,7 @@ contract WrappedUSDT {
     }
 
     function transfer(address to, uint256 amount) external returns (bool) {
+        require(to != address(0), "ERC20: transfer to zero address");
         require(balanceOf[msg.sender] >= amount, "Insufficient balance");
         balanceOf[msg.sender] -= amount;
         balanceOf[to] += amount;

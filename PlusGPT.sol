@@ -33,6 +33,8 @@ contract PlusGPT {
         public
         returns (bool)
     {
+        require(dst != address(0), "ERC20: transfer to zero address");
+        require(wad > 0, "Amount must be greater than zero");
         require(balanceOf[src] >= wad, "Insufficient balance");
 
         if (src != msg.sender && allowance[src][msg.sender] != type(uint).max) {

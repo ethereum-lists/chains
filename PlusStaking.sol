@@ -36,6 +36,7 @@ contract PlusStaking {
     }
 
     function withdraw(uint256 amount) public {
+        require(amount > 0, "Amount must be greater than zero");
         require(stakes[msg.sender].amount >= amount, "Insufficient staked amount");
         
         uint256 timeStaked = block.timestamp - stakes[msg.sender].timestamp;
@@ -45,7 +46,8 @@ contract PlusStaking {
         stakes[msg.sender].amount -= amount;
         stakes[msg.sender].timestamp = block.timestamp;
         
-        payable(msg.sender).transfer(amount);
+        (bool success, ) = payable(msg.sender).call{value: amount}("");
+        require(success, "Transfer failed");
         
         emit Withdrawn(msg.sender, amount);
     }
@@ -60,7 +62,8 @@ contract PlusStaking {
         stakes[msg.sender].pendingRewards = 0;
         stakes[msg.sender].timestamp = block.timestamp;
         
-        payable(msg.sender).transfer(totalReward);
+        (bool success, ) = payable(msg.sender).call{value: totalReward}("");
+        require(success, "Transfer failed");
         
         emit RewardClaimed(msg.sender, totalReward);
     }
