@@ -1,0 +1,35 @@
+{
+  "name": "QVTX Mainnet",
+  "chain": "QVTX",
+  "icon": "qvtx",
+  "rpc": [
+    "https://rpc.qvtx.io"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QVTX",
+    "symbol": "QVTX",
+    "decimals": 18
+  },
+  "infoURL": "https://qvtx.io",
+  "shortName": "qvtx",
+  "chainId": 20232,
+  "networkId": 20232,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "QVTX Explorer",
+      "url": "https://qvtxscan.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
