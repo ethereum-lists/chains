@@ -20552,6 +20552,19 @@
   "faucets": ["https://dripper.mandalachain.io"],
   "infoURL": "https://mandalachain.io"
 }, {
+  "name": "Aglais Testnet (Quip Network)",
+  "chainId": 20033,
+  "shortName": "agls",
+  "networkId": 20033,
+  "nativeCurrency": {
+    "name": "AGLS",
+    "symbol": "AGLS",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-rpc.testnet.quip.network:20049"],
+  "faucets": [],
+  "infoURL": "https://agls.quip.network"
+}, {
   "name": "Niza Chain Mainnet",
   "chainId": 20041,
   "shortName": "niza",
