@@ -24348,6 +24348,19 @@
   "faucets": [],
   "infoURL": "https://playongeist.com"
 }, {
+  "name": "Veri5",
+  "chainId": 63868,
+  "shortName": "veri5",
+  "networkId": 63868,
+  "nativeCurrency": {
+    "name": "Unit",
+    "symbol": "UNIT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc0.veri5.network"],
+  "faucets": [],
+  "infoURL": "https://veri5.technology"
+}, {
   "name": "XCHAIN Testnet",
   "chainId": 64002,
   "shortName": "xct",
