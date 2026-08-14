@@ -11426,6 +11426,19 @@
   "faucets": [],
   "infoURL": "https://polygon.technology/polygon-zkevm"
 }, {
+  "name": "Haus Chain Testnet",
+  "chainId": 2443,
+  "shortName": "t-haus",
+  "networkId": 2443,
+  "nativeCurrency": {
+    "name": "Haus",
+    "symbol": "HAUS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.hausserver.xyz", "wss://rpc-testnet.hausserver.xyz"],
+  "faucets": ["https://faucet-testnet.hausserver.xyz"],
+  "infoURL": "https://www.hausserver.xyz"
+}, {
   "name": "Hybrid Chain Network Testnet",
   "chainId": 2458,
   "shortName": "thrc",
