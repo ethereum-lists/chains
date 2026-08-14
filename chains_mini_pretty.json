@@ -16197,6 +16197,19 @@
   "faucets": ["https://long.hub.openex.network/faucet"],
   "infoURL": "https://openex.network"
 }, {
+  "name": "HyveChain",
+  "chainId": 7847,
+  "shortName": "hyve",
+  "networkId": 7847,
+  "nativeCurrency": {
+    "name": "HYVE",
+    "symbol": "HYVE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.hyvechain.com"],
+  "faucets": [],
+  "infoURL": "https://hyvechain.com"
+}, {
   "name": "MaalChain Testnet",
   "chainId": 7860,
   "shortName": "maal-test",
