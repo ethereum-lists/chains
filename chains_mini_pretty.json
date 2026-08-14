@@ -16015,6 +16015,19 @@
   "faucets": [],
   "infoURL": "https://www.futureverse.com/technology/root"
 }, {
+  "name": "Racaille Smart Chain",
+  "chainId": 7676,
+  "shortName": "rnr",
+  "networkId": 7676,
+  "nativeCurrency": {
+    "name": "Racaille",
+    "symbol": "RNR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.racaille.dev"],
+  "faucets": [],
+  "infoURL": "https://racaille.dev"
+}, {
   "name": "Canto",
   "chainId": 7700,
   "shortName": "canto",
