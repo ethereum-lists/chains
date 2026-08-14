@@ -1,0 +1,22 @@
+{
+  "name": "Reef Chain",
+  "chain": "REEF",
+  "rpc": ["https://deep-sync-checks.replit.app/api/reef-chain/rpc"],
+  "faucets": ["https://deep-sync-checks.replit.app/api/reef-chain/fountain"],
+  "nativeCurrency": {
+    "name": "REEF",
+    "symbol": "REEF",
+    "decimals": 18
+  },
+  "infoURL": "https://deep-sync-checks.replit.app/reef-chain/dev",
+  "shortName": "reef",
+  "chainId": 77888,
+  "networkId": 77888,
+  "explorers": [
+    {
+      "name": "Reef Chain Explorer",
+      "url": "https://deep-sync-checks.replit.app/reef-chain",
+      "standard": "none"
+    }
+  ]
+}
