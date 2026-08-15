@@ -14611,6 +14611,19 @@
   "faucets": [],
   "infoURL": "https://duckchain.io"
 }, {
+  "name": "Orden Global",
+  "chainId": 5550,
+  "shortName": "ogb",
+  "networkId": 5550,
+  "nativeCurrency": {
+    "name": "Origen",
+    "symbol": "ORIGEN",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://ordenglobal.org"
+}, {
   "name": "Nahmii 2 Mainnet",
   "chainId": 5551,
   "shortName": "Nahmii",
@@ -24777,7 +24790,7 @@
   "faucets": [],
   "infoURL": "https://www.nervos.org"
 }, {
-  "name": "EAV7 EAVM",
+  "name": "EAV7",
   "chainId": 72020,
   "shortName": "eav7",
   "networkId": 72020,

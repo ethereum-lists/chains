@@ -24221,6 +24221,21 @@
   "chainId": 5545,
   "networkId": 5545
 }, {
+  "name": "Orden Global",
+  "chain": "OGB",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Origen",
+    "symbol": "ORIGEN",
+    "decimals": 18
+  },
+  "infoURL": "https://ordenglobal.org",
+  "shortName": "ogb",
+  "chainId": 5550,
+  "networkId": 5550,
+  "status": "incubating"
+}, {
   "name": "Nahmii 2 Mainnet",
   "chain": "Nahmii",
   "rpc": ["https://l2.nahmii.io"],
@@ -41301,7 +41316,7 @@
     "standard": "none"
   }]
 }, {
-  "name": "EAV7 EAVM",
+  "name": "EAV7",
   "chain": "EAV7",
   "icon": "eav7",
   "rpc": ["https://rpc.eavscan.com"],
