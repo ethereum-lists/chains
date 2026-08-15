@@ -3,7 +3,8 @@
   "chain": "DFFC",
   "icon": "dffc",
   "rpc": [
-    "https://main-duckchain.zeninhost.xyz"
+    "https://main-duckchain.zeninhost.xyz",
+    "wss://duckfourfourchain-ws.zeninhost.xyz"
   ],
   "faucets": [],
   "nativeCurrency": {
