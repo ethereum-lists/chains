@@ -34631,6 +34631,19 @@
   "faucets": [],
   "infoURL": "https://ancient8.gg/"
 }, {
+  "name": "GUT Network",
+  "chainId": 3078101055,
+  "shortName": "gut",
+  "networkId": 3078101055,
+  "nativeCurrency": {
+    "name": "GUT",
+    "symbol": "GUT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.gut.network"],
+  "faucets": [],
+  "infoURL": "https://gut.network"
+}, {
   "name": "Pirl",
   "chainId": 3125659152,
   "shortName": "pirl",
