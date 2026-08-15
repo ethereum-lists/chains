@@ -1,9 +1,7 @@
 {
   "name": "PLUS Mainnet",
   "chain": "PLUS",
-  "rpc": [
-    "https://plusmain.net/api/rpc"
-  ],
+  "rpc": ["https://rpc.plusmain.net", "https://plusmain.net/api/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "PLUS",
