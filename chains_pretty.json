@@ -5334,6 +5334,22 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Orbinum",
+  "chain": "ORB",
+  "icon": "orbinum",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ORB",
+    "symbol": "ORB",
+    "decimals": 18
+  },
+  "infoURL": "https://orbinum.network",
+  "shortName": "orbinum",
+  "chainId": 270,
+  "networkId": 270,
+  "status": "incubating"
+}, {
   "name": "EgonCoin Mainnet",
   "chain": "EGON",
   "icon": "egonicon",
@@ -19410,6 +19426,26 @@
     "name": "Splendor Testnet Explorer",
     "url": "https://testnet-explorer.splendor.org",
     "icon": "splendor",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Orbinum Testnet",
+  "chain": "ORB",
+  "icon": "orbinum",
+  "rpc": ["https://rpc-1.testnet.orbinum.io", "https://rpc-2.testnet.orbinum.io"],
+  "faucets": ["https://faucet.orbinum.network"],
+  "nativeCurrency": {
+    "name": "ORB",
+    "symbol": "ORB",
+    "decimals": 18
+  },
+  "infoURL": "https://orbinum.network",
+  "shortName": "orbinum-testnet",
+  "chainId": 2700,
+  "networkId": 2700,
+  "explorers": [{
+    "name": "Orbinum Privacy Explorer",
+    "url": "https://explorer.testnet.orbinum.network",
     "standard": "EIP3091"
   }]
 }, {

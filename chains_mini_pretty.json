@@ -3301,6 +3301,19 @@
   "faucets": ["https://myhpbwallet.com/"],
   "infoURL": "https://hpb.io"
 }, {
+  "name": "Orbinum",
+  "chainId": 270,
+  "shortName": "orbinum",
+  "networkId": 270,
+  "nativeCurrency": {
+    "name": "ORB",
+    "symbol": "ORB",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://orbinum.network"
+}, {
   "name": "EgonCoin Mainnet",
   "chainId": 271,
   "shortName": "EGONm",
@@ -11776,6 +11789,19 @@
   "rpc": ["https://testnet-rpc.splendor.org"],
   "faucets": [],
   "infoURL": "https://splendor.org"
+}, {
+  "name": "Orbinum Testnet",
+  "chainId": 2700,
+  "shortName": "orbinum-testnet",
+  "networkId": 2700,
+  "nativeCurrency": {
+    "name": "ORB",
+    "symbol": "ORB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-1.testnet.orbinum.io", "https://rpc-2.testnet.orbinum.io"],
+  "faucets": ["https://faucet.orbinum.network"],
+  "infoURL": "https://orbinum.network"
 }, {
   "name": "Morph Testnet",
   "chainId": 2710,
