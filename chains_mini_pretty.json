@@ -30159,6 +30159,19 @@
   "faucets": [],
   "infoURL": "https://network.radiustech.xyz/"
 }, {
+  "name": "HanChain Mainnet",
+  "chainId": 726578,
+  "shortName": "hanchain",
+  "networkId": 726578,
+  "nativeCurrency": {
+    "name": "HAN",
+    "symbol": "HAN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.hanchain.cc/rpc"],
+  "faucets": [],
+  "infoURL": "https://rpc.hanchain.cc"
+}, {
   "name": "bokuto",
   "chainId": 737373,
   "shortName": "bokuto",
