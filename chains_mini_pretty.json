@@ -17393,18 +17393,18 @@
   "faucets": ["https://faucet-testnet.avenium.io"],
   "infoURL": "https://avenium.io"
 }, {
-  "name": "XANAChain",
+  "name": "c8ntinuum",
   "chainId": 8888,
-  "shortName": "XANAChain",
+  "shortName": "ctm",
   "networkId": 8888,
   "nativeCurrency": {
-    "name": "XETA",
-    "symbol": "XETA",
+    "name": "c8ntinuum",
+    "symbol": "CTM",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.xana.net/rpc"],
+  "rpc": ["https://rpc.c8ntinuum.com", "https://rpc.c8ntinuum.io", "https://rpc.c8ntinuum.link"],
   "faucets": [],
-  "infoURL": "https://xanachain.xana.net/"
+  "infoURL": "https://c8ntinuum.com"
 }, {
   "name": "Vyvo Smart Chain",
   "chainId": 8889,
