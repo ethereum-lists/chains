@@ -25804,6 +25804,19 @@
   "faucets": [],
   "infoURL": "https://app.omnibazaar.com"
 }, {
+  "name": "Shark Network",
+  "chainId": 88118,
+  "shortName": "shark",
+  "networkId": 88118,
+  "nativeCurrency": {
+    "name": "Shark",
+    "symbol": "SHARK",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.rpcshark.com"],
+  "faucets": [],
+  "infoURL": "https://swapshark.net"
+}, {
   "name": "InoAi",
   "chainId": 88559,
   "shortName": "INO",
