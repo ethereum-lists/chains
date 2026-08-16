@@ -1,0 +1,28 @@
+{
+  "name": "ValueX Chain",
+  "chain": "VLX",
+  "rpc": ["https://node.valuex-foundation.com/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ValueX Token",
+    "symbol": "VLX",
+    "decimals": 18
+  },
+  "infoURL": "https://valuex-foundation.com",
+  "shortName": "vlx",
+  "icon": "vlx",
+  "chainId": 90000,
+  "networkId": 90000,
+  "explorers": [
+    {
+      "name": "VLX Explorer",
+      "url": "https://scan.valuex-foundation.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L1",
+    "chain": "eip155-43114",
+    "bridges": []
+  }
+}
