@@ -16,5 +16,6 @@
   "shortName": "dffc",
   "chainId": 2716446429837001,
   "networkId": 2716446429837001,
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "explorers": []
 }
