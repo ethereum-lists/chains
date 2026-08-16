@@ -1,0 +1,16 @@
+{
+  "name": "Gobolchain Testnet",
+  "chain": "GOBOL",
+  "rpc": ["http://13.49.243.148:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Gobol Token",
+    "symbol": "GOBOL",
+    "decimals": 18
+  },
+  "infoURL": "https://gobolchain.org",
+  "shortName": "gobol",
+  "chainId": 4845,
+  "networkId": 4845,
+  "icon": "https://imgur.com/a/eu3xqlv"
+}
