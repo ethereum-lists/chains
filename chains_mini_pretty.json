@@ -2118,18 +2118,18 @@
   "faucets": [],
   "infoURL": "https://docs.omni.network"
 }, {
-  "name": "Omni Testnet (Deprecated)",
+  "name": "Farm Chain",
   "chainId": 165,
-  "shortName": "omni_testnet_deprecated",
+  "shortName": "fmc",
   "networkId": 165,
   "nativeCurrency": {
-    "name": "Omni",
-    "symbol": "OMNI",
+    "name": "Farm Coin",
+    "symbol": "FMC",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.fmcscan.com"],
   "faucets": [],
-  "infoURL": "https://docs.omni.network/"
+  "infoURL": "https://fmcscan.com"
 }, {
   "name": "Nomina",
   "chainId": 166,
