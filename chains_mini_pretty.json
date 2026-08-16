@@ -15144,6 +15144,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "YNX Testnet",
+  "chainId": 6423,
+  "shortName": "ynxtest",
+  "networkId": 6423,
+  "nativeCurrency": {
+    "name": "YNXT",
+    "symbol": "YNXT",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.ynxweb4.com"],
+  "faucets": ["https://www.ynxweb4.com/dapp/faucet"],
+  "infoURL": "https://ynxweb4.com"
+}, {
   "name": "MIZUHIKI Testnet Awaji",
   "chainId": 6497,
   "shortName": "awaji",
