@@ -1,0 +1,24 @@
+{
+  "name": "Veri5",
+  "chain": "VERI5",
+  "icon": "veri5",
+  "rpc": ["https://rpc0.veri5.network"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Unit",
+    "symbol": "UNIT",
+    "decimals": 18
+  },
+  "infoURL": "https://veri5.technology",
+  "shortName": "veri5",
+  "chainId": 63868,
+  "networkId": 63868,
+  "explorers": [
+    {
+      "name": "Veri5 Explorer",
+      "url": "https://explorer.veri5.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

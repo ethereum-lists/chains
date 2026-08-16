@@ -1,0 +1,23 @@
+{
+  "name": "Aglais Testnet (Quip Network)",
+  "chain": "AGLS",
+  "icon": "aglais",
+  "rpc": ["https://evm-rpc.testnet.quip.network:20049"],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "Aglais Explorer",
+      "url": "https://explorer.testnet.quip.network",
+      "standard": "EIP3091"
+    }
+  ],
+  "nativeCurrency": {
+    "name": "AGLS",
+    "symbol": "AGLS",
+    "decimals": 18
+  },
+  "infoURL": "https://agls.quip.network",
+  "shortName": "agls",
+  "chainId": 20033,
+  "networkId": 20033
+}
