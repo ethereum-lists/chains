@@ -31498,6 +31498,19 @@
   "faucets": [],
   "infoURL": "https://coti.io/"
 }, {
+  "name": "Winmar Tech Chain",
+  "chainId": 2640162,
+  "shortName": "wtc",
+  "networkId": 2640162,
+  "nativeCurrency": {
+    "name": "Winmar Tech Chain",
+    "symbol": "WTC",
+    "decimals": 18
+  },
+  "rpc": ["https://winmar.tech/rpc"],
+  "faucets": ["https://winmar.tech/faucet"],
+  "infoURL": "https://winmar.tech"
+}, {
   "name": "Horizen Testnet",
   "chainId": 2651420,
   "shortName": "horizen-testnet",
