@@ -27494,6 +27494,19 @@
   "faucets": [],
   "infoURL": "https://docs.ic-plaza.org/"
 }, {
+  "name": "WheatCoin Mainnet",
+  "chainId": 153043,
+  "shortName": "wheat",
+  "networkId": 153043,
+  "nativeCurrency": {
+    "name": "WheatCoin",
+    "symbol": "WHEAT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mizodevelopment.com"],
+  "faucets": [],
+  "infoURL": "https://itzlalpekhlua.github.io/WheatCoin-Token/"
+}, {
   "name": "Odyssey Chain Mainnet",
   "chainId": 153153,
   "shortName": "Odyssey",
