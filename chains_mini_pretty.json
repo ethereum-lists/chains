@@ -35241,4 +35241,17 @@
   "rpc": ["https://dchain-2716446429837000-1.jsonrpc.sagarpc.io"],
   "faucets": [],
   "infoURL": "https://www.dchain.foundation/"
+}, {
+  "name": "DuckFourFourChain",
+  "chainId": 2716446429837001,
+  "shortName": "dffc",
+  "networkId": 2716446429837001,
+  "nativeCurrency": {
+    "name": "DuckFourFourCoin",
+    "symbol": "DFFC",
+    "decimals": 18
+  },
+  "rpc": ["https://main-duckchain.zeninhost.xyz", "wss://duckfourfourchain-ws.zeninhost.xyz"],
+  "faucets": [],
+  "infoURL": "https://duckfourfourchain.zeninhost.xyz"
 }]
