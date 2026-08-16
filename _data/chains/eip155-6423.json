@@ -2,12 +2,8 @@
   "name": "YNX Testnet",
   "chain": "YNX",
   "icon": "ynx",
-  "rpc": [
-    "https://evm.ynxweb4.com"
-  ],
-  "faucets": [
-    "https://www.ynxweb4.com/dapp/faucet"
-  ],
+  "rpc": ["https://evm.ynxweb4.com"],
+  "faucets": ["https://www.ynxweb4.com/dapp/faucet"],
   "nativeCurrency": {
     "name": "YNXT",
     "symbol": "YNXT",
