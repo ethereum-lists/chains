@@ -1,19 +1,24 @@
 {
-  "name": "Omni Testnet (Deprecated)",
-  "chain": "Omni",
-  "rpc": [],
-  "features": [{ "name": "EIP155" }],
+  "name": "Farm Chain",
+  "chain": "FMC",
+  "rpc": ["https://rpc.fmcscan.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Omni",
-    "symbol": "OMNI",
+    "name": "Farm Coin",
+    "symbol": "FMC",
     "decimals": 18
   },
-  "infoURL": "https://docs.omni.network/",
-  "shortName": "omni_testnet_deprecated",
+  "infoURL": "https://fmcscan.com",
+  "shortName": "fmc",
   "chainId": 165,
   "networkId": 165,
-  "slip44": 1,
-  "explorers": [],
-  "status": "deprecated"
+  "redFlags": ["reusedChainId"],
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "Farm Chain Explorer",
+      "url": "https://fmcscan.com",
+      "standard": "EIP3091"
+    }
+  ]
 }
