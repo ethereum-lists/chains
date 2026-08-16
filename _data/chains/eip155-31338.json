@@ -1,0 +1,29 @@
+{
+  "name": "BitVault BVM20",
+  "chain": "BVM20",
+  "icon": "bitvault",
+  "rpc": [
+    "https://rpc.bitvault.club"
+  ],
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://bitvault.club",
+  "shortName": "bvm20",
+  "chainId": 31338,
+  "networkId": 31338,
+  "explorers": [
+    {
+      "name": "BitVault Explorer",
+      "url": "https://explorer.bitvault.club",
+      "standard": "EIP3091"
+    }
+  ]
+}
