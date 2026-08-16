@@ -21345,6 +21345,19 @@
   "faucets": [],
   "infoURL": "https://integralayer.com"
 }, {
+  "name": "Coinbosa Chain",
+  "chainId": 26262,
+  "shortName": "bosa",
+  "networkId": 26262,
+  "nativeCurrency": {
+    "name": "Coinbosa",
+    "symbol": "BOSA",
+    "decimals": 18
+  },
+  "rpc": ["https://explorer.coinbosa.com/rpc"],
+  "faucets": [],
+  "infoURL": "https://coinbosa.com"
+}, {
   "name": "DucatusX Testnet",
   "chainId": 26482,
   "shortName": "ducatusx-testnet",
