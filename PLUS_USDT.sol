@@ -1,13 +1,19 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
+/**
+ * @title WrappedUSDT
+ * @dev Wrapped USDT contract with zero-address validation, modular transfer logic,
+ *      and immutable state variables.
+ * @notice Resolves CertiK findings PLM-02, PLM-05, PLM-06, PLM-07.
+ */
 contract WrappedUSDT {
-    string public name = "Tether USD (PLUS-Bridged)";
-    string public symbol = "USDT";
-    uint8 public decimals = 18;
+    string public constant name = "Tether USD (PLUS-Bridged)";
+    string public constant symbol = "USDT";
+    uint8  public constant decimals = 18;
+    
     uint256 public totalSupply;
-
-    address public owner;
+    address public immutable owner;
 
     mapping(address => uint256) public balanceOf;
     mapping(address => mapping(address => uint256)) public allowance;
@@ -22,6 +28,14 @@ contract WrappedUSDT {
     modifier onlyOwner() {
         require(msg.sender == owner, "Only owner");
         _;
+    }
+
+    function _transfer(address from, address to, uint256 amount) internal {
+        require(to != address(0), "ERC20: transfer to zero address");
+        require(balanceOf[from] >= amount, "Insufficient balance");
+        balanceOf[from] -= amount;
+        balanceOf[to] += amount;
+        emit Transfer(from, to, amount);
     }
 
     function mint(address to, uint256 amount) external onlyOwner {
@@ -41,27 +55,22 @@ contract WrappedUSDT {
     }
 
     function transfer(address to, uint256 amount) external returns (bool) {
-        require(to != address(0), "ERC20: transfer to zero address");
-        require(balanceOf[msg.sender] >= amount, "Insufficient balance");
-        balanceOf[msg.sender] -= amount;
-        balanceOf[to] += amount;
-        emit Transfer(msg.sender, to, amount);
+        _transfer(msg.sender, to, amount);
         return true;
     }
 
     function approve(address spender, uint256 amount) external returns (bool) {
+        require(spender != address(0), "ERC20: approve to zero address");
         allowance[msg.sender][spender] = amount;
         emit Approval(msg.sender, spender, amount);
         return true;
     }
 
     function transferFrom(address from, address to, uint256 amount) external returns (bool) {
-        require(balanceOf[from] >= amount, "Insufficient balance");
+        require(to != address(0), "ERC20: transfer to zero address");
         require(allowance[from][msg.sender] >= amount, "Allowance exceeded");
-        balanceOf[from] -= amount;
         allowance[from][msg.sender] -= amount;
-        balanceOf[to] += amount;
-        emit Transfer(from, to, amount);
+        _transfer(from, to, amount);
         return true;
     }
 }
