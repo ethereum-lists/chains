@@ -1,9 +1,7 @@
 {
   "name": "Animechain Mainnet",
   "chain": "ETH",
-  "rpc": [
-    "https://public-rpc.anime.xyz"
-  ],
+  "rpc": ["https://public-rpc.anime.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Animecoin",
