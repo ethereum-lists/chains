@@ -1,9 +1,7 @@
 {
   "name": "Nura Chain",
   "chain": "Nura",
-  "rpc": [
-    "https://rpc.nurachain.net"
-  ],
+  "rpc": ["https://rpc.nurachain.net"],
   "features": [
     {
       "name": "EIP155"
