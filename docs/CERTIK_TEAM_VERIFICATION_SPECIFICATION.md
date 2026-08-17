@@ -6,11 +6,11 @@ Official Team Transparency, Corporate Identity, and Infrastructure Specification
 
 ## 1. Corporate Identity & Registered Legal Entity
 
-- **Company Name**: The Harry Media Co., Ltd. ((주)더해리미디어) / THE HARRY MEDIA COMPANY SRL
+- **Company Name**: The Harry Media Co., Ltd. / THE HARRY MEDIA COMPANY SRL
 - **Global Platform Brand**: ZIPPYBOX Platform / PLUS Mainnet Ecosystem
-- **Founder & President**: Eunjin Byun (변은진 대표)
+- **Founder & President**: Eunjin Byun
   - *Profile*: Founder & President of The Harry Media Co., Ltd. Official Alibaba Korea Partner (since 2014). 11+ years of integrated media, IP platform, and global entertainment marketing expertise.
-- **Headquarters Address**: Unit A (A2)-1401, 10 Cheongcho-ro, Deogyang-gu, Goyang-si, Gyeonggi-do, Republic of Korea (대한민국 경기도 고양시 덕양구 청초로 10 A동 1401호)
+- **Headquarters Address**: Unit A (A2)-1401, 10 Cheongcho-ro, Deogyang-gu, Goyang-si, Gyeonggi-do, Republic of Korea
 - **Official Website**: https://www.theharrymedia.com / https://plusmain.net
 - **Official Contact Email**: cosplustwo1@gmail.com
 
@@ -31,7 +31,7 @@ Official Team Transparency, Corporate Identity, and Infrastructure Specification
   - Screenplay & Media Engine Team
 
 - **Blockchain Infrastructure & Mainnet Core Division (PLUS Mainnet)**:
-  - **Sky Yoon (윤하늘)**: Chief System Administrator & Blockchain Business Division Lead (PLUS Mainnet Admin / CertiK SkyHarbor Project Lead)
+  - **Sky Yoon**: Chief System Administrator & Blockchain Business Division Lead (PLUS Mainnet Admin / CertiK SkyHarbor Project Lead)
     - *Role*: EVM L1 Chain Infrastructure, Validator Node Operations, Smart Contract Architecture & Vault Security Governance.
   - Smart Contract Engineering & Vault Security Team
   - EVM L1 Chain Infrastructure & Validator Node Operations
