@@ -1,7 +1,9 @@
 {
   "name": "Liberty Reserve Chain",
   "chain": "LRX",
-  "rpc": ["https://rpc.lrxmining.com"],
+  "rpc": [
+    "https://rpc.lrxmining.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Liberty Reserve",
