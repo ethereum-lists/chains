@@ -17,7 +17,8 @@
     "https://bsc-rpc.publicnode.com",
     "https://bsc-rpc-public.chainpulse.cc",
     "wss://bsc-rpc.publicnode.com",
-    "wss://bsc-ws-node.nariox.org"
+    "wss://bsc-ws-node.nariox.org",
+    "https://rpc.swiftnodes.io/rpc/bsc?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {

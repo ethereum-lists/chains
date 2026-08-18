@@ -16,7 +16,8 @@
     "https://moonbeam-rpc.publicnode.com",
     "wss://moonbeam-rpc.publicnode.com",
     "https://moonbeam.drpc.org",
-    "wss://moonbeam.drpc.org"
+    "wss://moonbeam.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/moonbeam?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
