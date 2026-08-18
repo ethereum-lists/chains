@@ -20682,6 +20682,19 @@
   "faucets": [],
   "infoURL": "https://monad.xyz"
 }, {
+  "name": "CHEESE Blockchain Mainnet",
+  "chainId": 20250,
+  "shortName": "nch",
+  "networkId": 20250,
+  "nativeCurrency": {
+    "name": "Native Cheesecoin",
+    "symbol": "NCH",
+    "decimals": 18
+  },
+  "rpc": ["https://cheeseblockchain.com/api/rpc"],
+  "faucets": [],
+  "infoURL": "https://cheeseblockchain.com"
+}, {
   "name": "MACos Chain",
   "chainId": 20261,
   "shortName": "macos",
