@@ -1,6 +1,7 @@
 {
   "name": "Farm Chain",
   "chain": "FMC",
+  "icon": "fmc",
   "rpc": ["https://rpc.fmcscan.com"],
   "faucets": [],
   "nativeCurrency": {
@@ -20,6 +21,5 @@
       "url": "https://fmcscan.com",
       "standard": "EIP3091"
     }
-  ],
-  "icon": "fmc"
+  ]
 }
