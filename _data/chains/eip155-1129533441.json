@@ -1,0 +1,19 @@
+{
+  "name": "Casper Mainnet",
+  "chain": "CSPR",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Casper",
+    "symbol": "CSPR",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://casper.network",
+  "shortName": "cspr",
+  "chainId": 1129533441,
+  "networkId": 1129533441,
+  "slip44": 506,
+  "explorers": [],
+  "status": "incubating"
+}
