@@ -1,0 +1,27 @@
+{
+  "name": "QuantumPay L1 Mainnet",
+  "chain": "QTM",
+  "rpc": ["https://api.quantumpaychain.org/rpc"],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QuantumPay Token",
+    "symbol": "QTM",
+    "decimals": 18
+  },
+  "infoURL": "https://quantumpaychain.org",
+  "shortName": "qtm-l1",
+  "chainId": 77077,
+  "networkId": 77077,
+  "explorers": [
+    {
+      "name": "QuantumScan",
+      "url": "https://www.quantumpaychain.org/scan",
+      "standard": "EIP3091"
+    }
+  ]
+}
