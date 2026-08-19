@@ -1,10 +1,7 @@
 {
   "name": "Orden Global",
   "chain": "OGB",
-  "rpc": [
-    "https://ordenglobal-rpc.com",
-    "https://rpc.ordenglobal-rpc.com"
-  ],
+  "rpc": ["https://ordenglobal-rpc.com", "https://rpc.ordenglobal-rpc.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Origen",
