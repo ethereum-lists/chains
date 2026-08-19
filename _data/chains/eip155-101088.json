@@ -2,13 +2,15 @@
   "name": "Xitcoin",
   "chain": "XITCOIN",
   "faucets": [],
-  "rpc": ["https://network.xitcoin.org"],
+  "rpc": [
+    "https://network.xitcoin.org"
+  ],
   "nativeCurrency": {
     "name": "Xitcoin",
     "symbol": "XTC",
-    "decimals": 8
+    "decimals": 18
   },
-  "infoURL": "https://github.com/xitcoin-org/pos-chain",
+  "infoURL": "https://xitcoin.gitbook.io/guide/",
   "shortName": "Xitcoin",
   "chainId": 101088,
   "networkId": 101088,
