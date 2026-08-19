@@ -3,13 +3,8 @@
   "chain": "WTC",
   "icon": "wtc",
   "rpc": [
-    {
-      "url": "https://winmar.tech/rpc",
-      "tracking": "none",
-      "trackingPolicyUrl": "https://winmar.tech/privacy"
-    }
+    "https://winmar.tech/rpc"
   ],
-  "privacyPolicyUrl": "https://winmar.tech/privacy",
   "faucets": [
     "https://winmar.tech/faucet"
   ],
