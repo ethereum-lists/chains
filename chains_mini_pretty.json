@@ -6902,6 +6902,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Nura Chain",
+  "chainId": 1020,
+  "shortName": "nura",
+  "networkId": 1020,
+  "nativeCurrency": {
+    "name": "Nura Coin",
+    "symbol": "NURA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.nurachain.net"],
+  "faucets": [],
+  "infoURL": "https://nurachain.net"
+}, {
   "name": "Sakura",
   "chainId": 1022,
   "shortName": "sku",
