@@ -1,12 +1,8 @@
 {
   "name": "Xitcoin Testnet",
   "chain": "XITCOIN",
-  "faucets": [
-    "https://faucet-testnet.xitcoin.org/"
-  ],
-  "rpc": [
-    "https://evm-rpc-testnet.xitcoin.org"
-  ],
+  "faucets": ["https://faucet-testnet.xitcoin.org/"],
+  "rpc": ["https://evm-rpc-testnet.xitcoin.org"],
   "nativeCurrency": {
     "name": "Xitcoin",
     "symbol": "XTC",
