@@ -9,7 +9,8 @@
 
     "https://1rpc.io/one",
     "https://harmony-0.drpc.org",
-    "wss://harmony-0.drpc.org"
+    "wss://harmony-0.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/harmony?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
