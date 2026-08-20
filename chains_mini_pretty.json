@@ -26902,12 +26902,25 @@
   "networkId": 101088,
   "nativeCurrency": {
     "name": "Xitcoin",
-    "symbol": "$XTC",
-    "decimals": 8
+    "symbol": "XTC",
+    "decimals": 18
   },
   "rpc": ["https://network.xitcoin.org"],
   "faucets": [],
-  "infoURL": "https://docs.xitcoin.org/"
+  "infoURL": "https://xitcoin.gitbook.io/guide/"
+}, {
+  "name": "Xitcoin Testnet",
+  "chainId": 101089,
+  "shortName": "xtct",
+  "networkId": 101089,
+  "nativeCurrency": {
+    "name": "Xitcoin",
+    "symbol": "XTC",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-rpc-testnet.xitcoin.org"],
+  "faucets": ["https://faucet-testnet.xitcoin.org/"],
+  "infoURL": "https://xitcoin.gitbook.io/guide/"
 }, {
   "name": "Creditcoin",
   "chainId": 102030,
