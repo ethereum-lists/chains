@@ -1715,7 +1715,7 @@
   "faucets": [],
   "infoURL": "https://namefi.io/"
 }, {
-  "name": "HashKey Chain Testnet",
+  "name": "HSKChain Testnet",
   "chainId": 133,
   "shortName": "HSKT",
   "networkId": 133,
@@ -1726,7 +1726,7 @@
   },
   "rpc": ["https://testnet.hsk.xyz"],
   "faucets": [],
-  "infoURL": "https://hashkeychain.net"
+  "infoURL": "https://hskchain.net"
 }, {
   "name": "iExec Sidechain",
   "chainId": 134,
@@ -2274,7 +2274,7 @@
   "faucets": [],
   "infoURL": "https://www.dcnetio.cloud"
 }, {
-  "name": "HashKey Chain",
+  "name": "HSKChain",
   "chainId": 177,
   "shortName": "hsk",
   "networkId": 177,
@@ -2285,7 +2285,7 @@
   },
   "rpc": ["https://mainnet.hsk.xyz"],
   "faucets": [],
-  "infoURL": "https://hsk.xyz"
+  "infoURL": "https://hskchain.net"
 }, {
   "name": "Abey Testnet",
   "chainId": 178,
@@ -14659,7 +14659,7 @@
     "symbol": "ORIGEN",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://ordenglobal-rpc.com", "https://rpc.ordenglobal-rpc.com"],
   "faucets": [],
   "infoURL": "https://ordenglobal.org"
 }, {
