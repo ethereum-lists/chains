@@ -21,8 +21,13 @@
   "icon": "berachain",
   "explorers": [
     {
-      "name": "Berascan Berachain Block Explorer",
+      "name": "Berascan",
       "url": "https://berascan.com",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Beratrail",
+      "url": "https://beratrail.io",
       "standard": "EIP3091"
     }
   ]
