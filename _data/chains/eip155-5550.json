@@ -1,7 +1,7 @@
 {
   "name": "Orden Global",
   "chain": "OGB",
-  "rpc": [],
+  "rpc": ["https://ordenglobal-rpc.com", "https://rpc.ordenglobal-rpc.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Origen",
@@ -12,5 +12,13 @@
   "shortName": "ogb",
   "chainId": 5550,
   "networkId": 5550,
-  "status": "incubating"
+  "icon": "ordenglobal",
+  "explorers": [
+    {
+      "name": "ordenscan",
+      "url": "https://ordenscan.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
 }

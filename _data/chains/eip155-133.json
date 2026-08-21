@@ -1,7 +1,8 @@
 {
-  "name": "HashKey Chain Testnet",
-  "title": "HashKey Chain Testnet",
-  "chain": "HashKey Chain Testnet",
+  "name": "HSKChain Testnet",
+  "title": "HSKChain Testnet",
+  "chain": "HSKChain Testnet",
+  "icon": "hskchain",
   "rpc": ["https://testnet.hsk.xyz"],
   "faucets": [],
   "nativeCurrency": {
@@ -9,14 +10,14 @@
     "symbol": "HSK",
     "decimals": 18
   },
-  "infoURL": "https://hashkeychain.net",
+  "infoURL": "https://hskchain.net",
   "shortName": "HSKT",
   "chainId": 133,
   "networkId": 133,
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://testnet-explorer.hsk.xyz",
+      "url": "https://testnet-explorer.hskchain.net",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
