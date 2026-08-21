@@ -1,12 +1,11 @@
 {
-  "name": "c8ntinuum",
+  "name": "c8ntinuum Testnet",
   "chain": "CTM",
   "rpc": [
-    "https://rpc.c8ntinuum.com",
-    "https://rpc.c8ntinuum.io",
-    "https://rpc.c8ntinuum.link"
+    "https://rpc-testnet.c8ntinuum.com",
+    "https://rpc-testnet.c8ntinuum.link"
   ],
-  "faucets": [],
+  "faucets": ["https://testnet-faucet.c8ntinuum.io/"],
   "nativeCurrency": {
     "name": "c8ntinuum",
     "symbol": "CTM",
@@ -19,18 +18,17 @@
     { "name": "EIP7702" }
   ],
   "infoURL": "https://c8ntinuum.com",
-  "shortName": "ctm",
+  "shortName": "tctm",
   "chainId": 8888,
   "networkId": 8888,
-  "slip44": 60,
+  "slip44": 1,
   "icon": "c8ntinuum",
   "explorers": [
     {
-      "name": "CTMScan",
-      "url": "https://ctmscan.io",
+      "name": "CTMScan Testnet",
+      "url": "https://testnet.ctmscan.io",
       "standard": "EIP3091"
     }
   ],
-  "status": "active",
   "redFlags": ["reusedChainId"]
 }
