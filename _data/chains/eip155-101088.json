@@ -2,7 +2,7 @@
   "name": "Xitcoin",
   "chain": "XITCOIN",
   "faucets": [],
-  "rpc": ["https://network.xitcoin.org"],
+  "rpc": [],
   "nativeCurrency": {
     "name": "Xitcoin",
     "symbol": "XTC",
@@ -13,5 +13,6 @@
   "chainId": 101088,
   "networkId": 101088,
   "icon": "xitcoin",
-  "explorers": []
+  "explorers": [],
+  "status": "incubating"
 }
