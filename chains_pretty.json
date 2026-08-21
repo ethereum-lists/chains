@@ -11432,6 +11432,7 @@
 }, {
   "name": "Nura Chain",
   "chain": "Nura",
+  "icon": "nura",
   "rpc": ["https://rpc.nurachain.net"],
   "features": [{
     "name": "EIP155"
@@ -46465,6 +46466,7 @@
   "shortName": "mfenx",
   "chainId": 177155,
   "networkId": 177155,
+  "icon": "mfenx",
   "status": "active"
 }, {
   "name": "Transparency Solution",
