@@ -1,9 +1,7 @@
 {
   "name": "Efikcoin Mainnet",
   "chain": "EFC",
-  "rpc": [
-    "https://rpc.efikcoin.com/rpc"
-  ],
+  "rpc": ["https://rpc.efikcoin.com/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Efikcoin",
