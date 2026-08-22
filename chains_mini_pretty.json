@@ -13870,6 +13870,19 @@
   "faucets": [],
   "infoURL": "https://docs.robinhood.com/chain"
 }, {
+  "name": "Intertrain",
+  "chainId": 4683,
+  "shortName": "inte",
+  "networkId": 4683,
+  "nativeCurrency": {
+    "name": "MANNA",
+    "symbol": "MNA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.intertrain.online/rpc"],
+  "faucets": [],
+  "infoURL": "https://intertrain.online"
+}, {
   "name": "IoTeX Network Mainnet",
   "chainId": 4689,
   "shortName": "iotex-mainnet",
