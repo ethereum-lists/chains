@@ -13,11 +13,15 @@
     "symbol": "tBTG",
     "decimals": 18
   },
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://banteng.asia",
   "shortName": "banteng",
   "chainId": 993,
   "networkId": 993,
-  "slip44": 60,
   "explorers": [
     {
       "name": "Banteng Explorer",
