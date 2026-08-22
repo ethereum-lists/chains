@@ -90,18 +90,18 @@
   "faucets": [],
   "infoURL": "https://thaichain.io"
 }, {
-  "name": "Ubiq",
+  "name": "c8ntinuum",
   "chainId": 8,
-  "shortName": "ubq",
+  "shortName": "ctm",
   "networkId": 8,
   "nativeCurrency": {
-    "name": "Ubiq Ether",
-    "symbol": "UBQ",
+    "name": "c8ntinuum",
+    "symbol": "CTM",
     "decimals": 18
   },
-  "rpc": ["https://rpc.octano.dev", "https://pyrus2.ubiqscan.io"],
+  "rpc": ["https://rpc.c8ntinuum.com", "https://rpc.c8ntinuum.io", "https://rpc.c8ntinuum.link"],
   "faucets": [],
-  "infoURL": "https://ubiqsmart.com"
+  "infoURL": "https://c8ntinuum.com"
 }, {
   "name": "Quai Network Mainnet",
   "chainId": 9,
@@ -17419,17 +17419,17 @@
   "faucets": ["https://faucet-testnet.avenium.io"],
   "infoURL": "https://avenium.io"
 }, {
-  "name": "c8ntinuum",
+  "name": "c8ntinuum Testnet",
   "chainId": 8888,
-  "shortName": "ctm",
+  "shortName": "tctm",
   "networkId": 8888,
   "nativeCurrency": {
     "name": "c8ntinuum",
     "symbol": "CTM",
     "decimals": 18
   },
-  "rpc": ["https://rpc.c8ntinuum.com", "https://rpc.c8ntinuum.io", "https://rpc.c8ntinuum.link"],
-  "faucets": [],
+  "rpc": ["https://rpc-testnet.c8ntinuum.com", "https://rpc-testnet.c8ntinuum.link"],
+  "faucets": ["https://testnet-faucet.c8ntinuum.io/"],
   "infoURL": "https://c8ntinuum.com"
 }, {
   "name": "Vyvo Smart Chain",
