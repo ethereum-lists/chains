@@ -9141,6 +9141,28 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "L7C",
+  "chain": "L7C",
+  "rpc": ["https://l7c.ai/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "L7C",
+    "symbol": "L7C",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "https://l7c.ai",
+  "shortName": "l7c",
+  "chainId": 717,
+  "networkId": 717,
+  "explorers": [{
+    "name": "L7C",
+    "url": "https://l7c.ai",
+    "standard": "none"
+  }]
+}, {
   "name": "UXLINK ONE Mainnet",
   "chain": "UXLINK ONE",
   "rpc": ["https://rpc.uxlinkone.com"],

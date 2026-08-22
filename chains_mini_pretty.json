@@ -5472,6 +5472,19 @@
   "faucets": [],
   "infoURL": "https://celestia.org"
 }, {
+  "name": "L7C",
+  "chainId": 717,
+  "shortName": "l7c",
+  "networkId": 717,
+  "nativeCurrency": {
+    "name": "L7C",
+    "symbol": "L7C",
+    "decimals": 18
+  },
+  "rpc": ["https://l7c.ai/rpc"],
+  "faucets": [],
+  "infoURL": "https://l7c.ai"
+}, {
   "name": "UXLINK ONE Mainnet",
   "chainId": 718,
   "shortName": "uxlink1",
