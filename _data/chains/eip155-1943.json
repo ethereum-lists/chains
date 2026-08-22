@@ -1,0 +1,27 @@
+{
+  "name": "Vitreus Mainnet",
+  "chain": "VTRS",
+  "rpc": ["https://rpc-mainnet.vtrs.io", "wss://rpc-mainnet.vtrs.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Energy",
+    "symbol": "VNRG",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "infoURL": "https://vitreus.io",
+  "shortName": "vtrs",
+  "chainId": 1943,
+  "networkId": 1943,
+  "explorers": [
+    {
+      "name": "Vitreus Explorer",
+      "url": "https://explorer.vtrs.io",
+      "standard": "none"
+    }
+  ]
+}
