@@ -1,15 +1,10 @@
 {
   "name": "Intertrain",
   "chain": "INTE",
-  "rpc": [
-    "https://rpc.intertrain.online/rpc"
-  ],
+  "icon": "intertrain",
+  "rpc": ["https://rpc.intertrain.online/rpc"],
   "faucets": [],
-  "nativeCurrency": {
-    "name": "MANNA",
-    "symbol": "MNA",
-    "decimals": 18
-  },
+  "nativeCurrency": { "name": "MANNA", "symbol": "MNA", "decimals": 18 },
   "infoURL": "https://intertrain.online",
   "shortName": "inte",
   "chainId": 4683,
