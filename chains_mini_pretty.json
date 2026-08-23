@@ -6122,18 +6122,18 @@
   "faucets": [],
   "infoURL": "https://www.wanscan.org"
 }, {
-  "name": "CXM",
+  "name": "MarsChain Mainnet",
   "chainId": 890,
-  "shortName": "CXM",
+  "shortName": "marschain",
   "networkId": 890,
   "nativeCurrency": {
-    "name": "CXM",
-    "symbol": "CXM",
+    "name": "MARS",
+    "symbol": "MARS",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpcs.marschain.net/"],
   "faucets": [],
-  "infoURL": ""
+  "infoURL": "https://marschain.net/"
 }, {
   "name": "MAXI Chain Testnet",
   "chainId": 898,
