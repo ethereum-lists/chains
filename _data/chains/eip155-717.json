@@ -1,7 +1,7 @@
 {
-  "name": "L7C",
-  "chain": "L7C",
-  "rpc": ["https://l7c.ai/rpc"],
+  "name": "L7",
+  "chain": "L7",
+  "rpc": ["https://rpc.l7c.ai"],
   "faucets": [],
   "nativeCurrency": {
     "name": "L7C",
@@ -15,7 +15,7 @@
   "networkId": 717,
   "explorers": [
     {
-      "name": "L7C",
+      "name": "L7",
       "url": "https://l7c.ai",
       "standard": "none"
     }
