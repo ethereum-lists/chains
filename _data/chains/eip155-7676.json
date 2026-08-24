@@ -1,0 +1,25 @@
+{
+  "name": "Racaille Smart Chain",
+  "chain": "RNR",
+  "icon": "racaille",
+  "rpc": ["https://rpc.racaille.dev"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Racaille",
+    "symbol": "RNR",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://racaille.dev",
+  "shortName": "rnr",
+  "chainId": 7676,
+  "networkId": 7676,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.racaille.dev",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
