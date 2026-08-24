@@ -9957,6 +9957,19 @@
   "faucets": [],
   "infoURL": "https://cratd2csmartchain.io"
 }, {
+  "name": "INNBC Chain Mainnet",
+  "chainId": 1982,
+  "shortName": "innbc",
+  "networkId": 1982,
+  "nativeCurrency": {
+    "name": "InnovativeBioresearchCoin",
+    "symbol": "INNBC",
+    "decimals": 18
+  },
+  "rpc": ["https://innbcchain.io/rpc"],
+  "faucets": [],
+  "infoURL": "https://innbcchain.io"
+}, {
   "name": "Krown Mainnet",
   "chainId": 1983,
   "shortName": "krown",
