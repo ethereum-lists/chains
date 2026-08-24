@@ -2,7 +2,7 @@
   "name": "iExec Sidechain",
   "chain": "Bellecour",
   "icon": "rlc",
-  "rpc": ["https://bellecour.iex.ec"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "xRLC",
@@ -14,12 +14,5 @@
   "chainId": 134,
   "networkId": 134,
   "status": "deprecated",
-  "explorers": [
-    {
-      "name": "blockscout",
-      "url": "https://blockscout.bellecour.iex.ec",
-      "icon": "blockscout",
-      "standard": "EIP3091"
-    }
-  ]
+  "explorers": []
 }
