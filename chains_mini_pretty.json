@@ -34436,6 +34436,19 @@
   "faucets": [],
   "infoURL": "https://raptorchain.io"
 }, {
+  "name": "Torium Testnet",
+  "chainId": 1414484564,
+  "shortName": "torium-testnet",
+  "networkId": 1414484564,
+  "nativeCurrency": {
+    "name": "Torium Test Token",
+    "symbol": "tTOR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.torium.network", "wss://ws.testnet.torium.network"],
+  "faucets": ["https://faucet.testnet.torium.network"],
+  "infoURL": "https://torium.network"
+}, {
   "name": "Zephyr Testnet",
   "chainId": 1417429182,
   "shortName": "zephyr",
