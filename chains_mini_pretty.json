@@ -21020,6 +21020,19 @@
   "faucets": [],
   "infoURL": "https://hupayx.io"
 }, {
+  "name": "KriptoAman Mainnet",
+  "chainId": 22028,
+  "shortName": "kriptoaman",
+  "networkId": 22028,
+  "nativeCurrency": {
+    "name": "KriptoAman",
+    "symbol": "KAM",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.kriptoaman.com"],
+  "faucets": [],
+  "infoURL": "https://kriptoaman.com"
+}, {
   "name": "AirDAO Testnet",
   "chainId": 22040,
   "shortName": "airdao-test",
