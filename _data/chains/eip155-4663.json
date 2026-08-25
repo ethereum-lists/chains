@@ -3,7 +3,8 @@
   "chain": "ETH",
   "rpc": [
     "https://rpc.mainnet.chain.robinhood.com",
-    "https://rpc.arrowrpc.com"
+    "https://rpc.arrowrpc.com",
+    "https://4663.rpc.hypersync.xyz/${ENVIO_API_TOKEN}"
   ],
   "faucets": [],
   "nativeCurrency": {
