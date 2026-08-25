@@ -9736,6 +9736,19 @@
   "faucets": ["https://claim-faucet.arvix.network"],
   "infoURL": "https://arvix.network"
 }, {
+  "name": "Vitreus Mainnet",
+  "chainId": 1943,
+  "shortName": "vtrs",
+  "networkId": 1943,
+  "nativeCurrency": {
+    "name": "VNRG",
+    "symbol": "VNRG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet.vtrs.io", "wss://rpc-mainnet.vtrs.io"],
+  "faucets": [],
+  "infoURL": "https://vitreus.io"
+}, {
   "name": "ONUS Chain Testnet",
   "chainId": 1945,
   "shortName": "onus-testnet",
