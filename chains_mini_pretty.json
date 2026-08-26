@@ -8462,6 +8462,19 @@
   "faucets": [],
   "infoURL": "https://www.joseon.com/"
 }, {
+  "name": "Midpoint Cross",
+  "chainId": 1394,
+  "shortName": "midx",
+  "networkId": 1394,
+  "nativeCurrency": {
+    "name": "Midpoint Cross",
+    "symbol": "MIDX",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.midpointcross.com"],
+  "faucets": [],
+  "infoURL": "https://www.midpointcross.com"
+}, {
   "name": "Polygon zkEVM Testnet old",
   "chainId": 1402,
   "shortName": "zkevmtest",
@@ -27571,6 +27584,19 @@
   "rpc": ["https://sepolia-rpc.form.network/http", "wss://sepolia-rpc.form.network/ws"],
   "faucets": ["https://info.form.network/faucet"],
   "infoURL": "https://sepolia-info.form.network"
+}, {
+  "name": "Midpoint Cross Testnet",
+  "chainId": 139420,
+  "shortName": "midxt",
+  "networkId": 139420,
+  "nativeCurrency": {
+    "name": "Midpoint Cross Testnet",
+    "symbol": "tMIDX",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.midpointcross.com"],
+  "faucets": [],
+  "infoURL": "https://www.midpointcross.com"
 }, {
   "name": "BEXChain",
   "chainId": 140586,
