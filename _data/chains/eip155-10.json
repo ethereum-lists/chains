@@ -2,6 +2,7 @@
   "name": "OP Mainnet",
   "chain": "ETH",
   "rpc": [
+    "https://rpc.l7c.ai/op",
     "https://mainnet.optimism.io",
     "https://optimism-rpc.publicnode.com",
     "wss://optimism-rpc.publicnode.com",
@@ -31,17 +32,6 @@
       "name": "blockscout",
       "url": "https://optimism.blockscout.com",
       "icon": "blockscout",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "dexguru",
-      "url": "https://optimism.dex.guru",
-      "icon": "dexguru",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "Routescan",
-      "url": "https://mainnet.superscan.network",
       "standard": "EIP3091"
     }
   ]
