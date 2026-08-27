@@ -1,0 +1,22 @@
+{
+  "name": "Animica",
+  "chain": "ANM",
+  "rpc": ["https://mainnet.animica.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Animica",
+    "symbol": "ANM",
+    "decimals": 9
+  },
+  "infoURL": "https://animica.org",
+  "shortName": "anm",
+  "chainId": 149,
+  "networkId": 149,
+  "explorers": [
+    {
+      "name": "Animica Explorer",
+      "url": "https://explorer.animica.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
