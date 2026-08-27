@@ -19,6 +19,12 @@
   "networkId": 4663,
   "explorers": [
     {
+      "name": "robinscan",
+      "url": "https://robinscan.io",
+      "icon": "robinscan",
+      "standard": "EIP3091"
+    },
+    {
       "name": "blockscout",
       "url": "https://robinhoodchain.blockscout.com",
       "icon": "blockscout",
