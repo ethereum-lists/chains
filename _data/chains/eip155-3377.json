@@ -1,9 +1,7 @@
 {
   "name": "Tajir Chain",
   "chain": "TJR",
-  "rpc": [
-    "https://rpc.tajirchain.com"
-  ],
+  "rpc": ["https://rpc.tajirchain.com"],
   "nativeCurrency": {
     "name": "Tajir",
     "symbol": "TJR",
@@ -15,12 +13,15 @@
   "chainId": 3377,
   "networkId": 3377,
   "icon": "tajir",
-  "explorers": [{
-    "name": "Tajir Explorer",
-    "url": "https://explorer.tajirchain.com",
-    "icon": "tajir",
-    "standard": "EIP3091"
-  }],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "Tajir Explorer",
+      "url": "https://explorer.tajirchain.com",
+      "icon": "tajir",
+      "standard": "EIP3091"
+    }
+  ],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
