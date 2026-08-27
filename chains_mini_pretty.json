@@ -20565,6 +20565,19 @@
   "faucets": ["https://faucet.trustivon.com"],
   "infoURL": "https://trustivon.com"
 }, {
+  "name": "QMS Testnet",
+  "chainId": 19480,
+  "shortName": "qmstest",
+  "networkId": 19480,
+  "nativeCurrency": {
+    "name": "QMS",
+    "symbol": "QMS",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://qms.finance"
+}, {
   "name": "SEC Testnet",
   "chainId": 19515,
   "shortName": "SEPt",

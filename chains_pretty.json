@@ -34037,6 +34037,22 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "QMS Testnet",
+  "chain": "QMS",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QMS",
+    "symbol": "QMS",
+    "decimals": 18
+  },
+  "infoURL": "https://qms.finance",
+  "shortName": "qmstest",
+  "chainId": 19480,
+  "networkId": 19480,
+  "slip44": 1,
+  "status": "incubating"
+}, {
   "name": "SEC Testnet",
   "chain": "SEC",
   "icon": "secIcon",
