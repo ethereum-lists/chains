@@ -20826,6 +20826,39 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Tajir Chain",
+  "chain": "TJR",
+  "rpc": ["https://rpc.tajirchain.com"],
+  "nativeCurrency": {
+    "name": "Tajir",
+    "symbol": "TJR",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://tajirchain.com",
+  "shortName": "tjr",
+  "chainId": 3377,
+  "networkId": 3377,
+  "icon": "tajir",
+  "faucets": [],
+  "explorers": [{
+    "name": "Tajir Explorer",
+    "url": "https://explorer.tajirchain.com",
+    "icon": "tajir",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://bridge.tajirchain.com"
+    }]
+  }
+}, {
   "name": "Paribu Net Mainnet",
   "chain": "PRB",
   "rpc": ["https://rpc.paribu.network"],

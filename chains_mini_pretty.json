@@ -12622,6 +12622,19 @@
   "faucets": [],
   "infoURL": "https://www.meroneum.ai/"
 }, {
+  "name": "Tajir Chain",
+  "chainId": 3377,
+  "shortName": "tjr",
+  "networkId": 3377,
+  "nativeCurrency": {
+    "name": "Tajir",
+    "symbol": "TJR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.tajirchain.com"],
+  "faucets": [],
+  "infoURL": "https://tajirchain.com"
+}, {
   "name": "Paribu Net Mainnet",
   "chainId": 3400,
   "shortName": "prb",
