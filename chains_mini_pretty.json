@@ -9788,6 +9788,19 @@
   "faucets": [],
   "infoURL": "https://soneium.org"
 }, {
+  "name": "QMS",
+  "chainId": 1948,
+  "shortName": "qms",
+  "networkId": 1948,
+  "nativeCurrency": {
+    "name": "QMS",
+    "symbol": "QMS",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://qms.finance"
+}, {
   "name": "Bionix Testnet",
   "chainId": 1949,
   "shortName": "tbio",

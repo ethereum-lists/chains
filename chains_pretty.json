@@ -16197,6 +16197,21 @@
     }]
   }
 }, {
+  "name": "QMS",
+  "chain": "QMS",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QMS",
+    "symbol": "QMS",
+    "decimals": 18
+  },
+  "infoURL": "https://qms.finance",
+  "shortName": "qms",
+  "chainId": 1948,
+  "networkId": 1948,
+  "status": "incubating"
+}, {
   "name": "Bionix Testnet",
   "chain": "Bionix",
   "rpc": ["https://testnet-chain.bionixnetwork.com"],
