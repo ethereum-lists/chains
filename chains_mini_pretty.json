@@ -34579,6 +34579,19 @@
   "faucets": ["https://faucet.testnet.torium.network"],
   "infoURL": "https://torium.network"
 }, {
+  "name": "TWIX Mainnet",
+  "chainId": 1415006552,
+  "shortName": "twix",
+  "networkId": 1415006552,
+  "nativeCurrency": {
+    "name": "TWIX",
+    "symbol": "TWIX",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.twixchain.com"],
+  "faucets": [],
+  "infoURL": "https://twixchain.com"
+}, {
   "name": "Zephyr Testnet",
   "chainId": 1417429182,
   "shortName": "zephyr",
