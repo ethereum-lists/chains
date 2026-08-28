@@ -33386,6 +33386,27 @@
     "standard": "none"
   }]
 }, {
+  "name": "Nagara Testnet",
+  "chain": "NGRX",
+  "rpc": ["https://testnet.nagara.network", "wss://testnet.nagara.network"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": ["https://bagi-bagi.nagara.network"],
+  "nativeCurrency": {
+    "name": "Nagara Testnet Token",
+    "symbol": "tNGRX",
+    "decimals": 18
+  },
+  "infoURL": "https://nagara.network",
+  "shortName": "tngrx",
+  "chainId": 16869,
+  "networkId": 16869,
+  "slip44": 1,
+  "status": "active"
+}, {
   "name": "IVAR Chain Testnet",
   "chain": "IVAR",
   "icon": "ivar",

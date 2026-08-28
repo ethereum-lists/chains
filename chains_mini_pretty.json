@@ -20188,6 +20188,19 @@
   "faucets": [],
   "infoURL": "https://airdao.io"
 }, {
+  "name": "Nagara Testnet",
+  "chainId": 16869,
+  "shortName": "tngrx",
+  "networkId": 16869,
+  "nativeCurrency": {
+    "name": "Nagara Testnet Token",
+    "symbol": "tNGRX",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.nagara.network", "wss://testnet.nagara.network"],
+  "faucets": ["https://bagi-bagi.nagara.network"],
+  "infoURL": "https://nagara.network"
+}, {
   "name": "IVAR Chain Testnet",
   "chainId": 16888,
   "shortName": "tivar",
