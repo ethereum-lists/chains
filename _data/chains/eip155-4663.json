@@ -3,6 +3,8 @@
   "chain": "ETH",
   "rpc": [
     "https://rpc.mainnet.chain.robinhood.com",
+    "https://robinhood-rpc.publicnode.com",
+    "wss://robinhood-rpc.publicnode.com",
     "https://rpc.arrowrpc.com"
   ],
   "faucets": [],
@@ -17,14 +19,15 @@
   "networkId": 4663,
   "explorers": [
     {
-      "name": "blockscout",
-      "url": "https://robinhoodchain.blockscout.com",
-      "icon": "blockscout",
+      "name": "robinscan",
+      "url": "https://robinscan.io",
+      "icon": "robinscan",
       "standard": "EIP3091"
     },
     {
-      "name": "HoodScan",
-      "url": "https://hoodscan.ai",
+      "name": "blockscout",
+      "url": "https://robinhoodchain.blockscout.com",
+      "icon": "blockscout",
       "standard": "EIP3091"
     }
   ],
