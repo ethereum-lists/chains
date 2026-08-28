@@ -33386,6 +33386,21 @@
     "standard": "none"
   }]
 }, {
+  "name": "Nagara",
+  "chain": "NGRX",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Nagara",
+    "symbol": "NGRX",
+    "decimals": 18
+  },
+  "infoURL": "https://nagara.network",
+  "shortName": "ngrx",
+  "chainId": 16868,
+  "networkId": 16868,
+  "status": "incubating"
+}, {
   "name": "Nagara Testnet",
   "chain": "NGRX",
   "rpc": ["https://testnet.nagara.network", "wss://testnet.nagara.network"],
