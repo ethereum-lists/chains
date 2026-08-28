@@ -1,0 +1,24 @@
+{
+  "name": "Smart Technology Chain Mainnet",
+  "chain": "Smart Technology Chain",
+  "icon": "stc",
+  "rpc": ["https://rpc.stcexplorer.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SEP",
+    "symbol": "SEP",
+    "decimals": 18
+  },
+  "infoURL": "https://smartenergypays.io/",
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "shortName": "stc-mainnet",
+  "chainId": 19518,
+  "networkId": 19518,
+  "explorers": [
+    {
+      "name": "Smart Technology Chain Explorer",
+      "url": "https://stcexplorer.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
