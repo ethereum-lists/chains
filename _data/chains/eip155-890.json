@@ -23,7 +23,8 @@
   "icon": "marschain",
   "redFlags": ["reusedChainId"],
   "explorers": [
-    {
+      "icon": "marschain",
+{
       "name": "MarsChain Explorer",
       "url": "https://explorer.marschain.net",
       "standard": "EIP3091"
