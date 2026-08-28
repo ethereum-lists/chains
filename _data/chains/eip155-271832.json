@@ -2,7 +2,7 @@
   "name": "MBTX Nexus",
   "chain": "MBTX",
   "rpc": [
-    "https://turner-sussex-maintained-relative.trycloudflare.com"
+    "https://bias-flickr-trains-baghdad.trycloudflare.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -10,7 +10,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "https://mbtux.uxi.rocks/mbtx/",
+  "infoURL": "https://mbtux.uxi.rocks/mbtx",
   "shortName": "mbtxl2",
   "chainId": 271832,
   "networkId": 271832,
@@ -21,7 +21,7 @@
   "explorers": [
     {
       "name": "MBTX Nexus Explorer",
-      "url": "https://mbtux.uxi.rocks/mbtx/",
+      "url": "https://mbtux.uxi.rocks/mbtx",
       "standard": "EIP3091"
     }
   ]
