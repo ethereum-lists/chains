@@ -1,0 +1,22 @@
+{
+  "name": "NVNM Chain",
+  "chain": "NVNM",
+  "rpc": ["https://evm.nvnmchain.io", "wss://evm.nvnmchain.io/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "mantraUSD",
+    "symbol": "mantraUSD",
+    "decimals": 18
+  },
+  "infoURL": "https://nvnmchain.io",
+  "shortName": "nvnm",
+  "chainId": 1611,
+  "networkId": 1611,
+  "explorers": [
+    {
+      "name": "NVNM EVM Explorer",
+      "url": "https://evm.explorer.nvnmchain.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

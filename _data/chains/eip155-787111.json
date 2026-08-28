@@ -1,0 +1,26 @@
+{
+  "name": "NVNM Chain Testnet",
+  "chain": "NVNM",
+  "rpc": [
+    "https://evm.testnet.nvnmchain.io",
+    "wss://evm.testnet.nvnmchain.io/ws"
+  ],
+  "faucets": ["https://faucet.testnet.nvnmchain.io"],
+  "nativeCurrency": {
+    "name": "mantraUSD",
+    "symbol": "mantraUSD",
+    "decimals": 18
+  },
+  "infoURL": "https://nvnmchain.io",
+  "shortName": "nvnm-testnet",
+  "chainId": 787111,
+  "networkId": 787111,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "NVNM EVM Testnet Explorer",
+      "url": "https://explorer.evm.testnet.nvnmchain.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
