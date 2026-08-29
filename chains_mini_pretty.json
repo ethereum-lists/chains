@@ -25284,6 +25284,19 @@
   "faucets": [],
   "infoURL": "https://www.boraportal.com"
 }, {
+  "name": "Autyon Testnet",
+  "chainId": 77077,
+  "shortName": "autyon",
+  "networkId": 77077,
+  "nativeCurrency": {
+    "name": "Autyon",
+    "symbol": "AUT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.autyon.io"],
+  "faucets": ["https://faucet.autyon.io"],
+  "infoURL": "https://autyon.io"
+}, {
   "name": "Foundry Chain Testnet",
   "chainId": 77238,
   "shortName": "fnc",
