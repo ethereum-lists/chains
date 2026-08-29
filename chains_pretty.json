@@ -11116,6 +11116,29 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Banteng Chain Testnet",
+  "chain": "BTG",
+  "icon": "banteng",
+  "rpc": ["https://rpc1.banteng.asia", "https://rpc2.banteng.asia", "https://rpc3.banteng.asia"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Banteng Coin",
+    "symbol": "tBTG",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "https://banteng.asia",
+  "shortName": "banteng",
+  "chainId": 993,
+  "networkId": 993,
+  "explorers": [{
+    "name": "Banteng Explorer",
+    "url": "https://explorer.banteng.asia",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "5ireChain Mainnet",
   "chain": "5ireChain",
   "rpc": ["https://rpc.5ire.network"],

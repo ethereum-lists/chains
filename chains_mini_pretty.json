@@ -6681,6 +6681,19 @@
   "faucets": ["https://faucet.eliberty.ngo"],
   "infoURL": "https://eliberty.ngo"
 }, {
+  "name": "Banteng Chain Testnet",
+  "chainId": 993,
+  "shortName": "banteng",
+  "networkId": 993,
+  "nativeCurrency": {
+    "name": "Banteng Coin",
+    "symbol": "tBTG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1.banteng.asia", "https://rpc2.banteng.asia", "https://rpc3.banteng.asia"],
+  "faucets": [],
+  "infoURL": "https://banteng.asia"
+}, {
   "name": "5ireChain Mainnet",
   "chainId": 995,
   "shortName": "5ire",
