@@ -23165,14 +23165,14 @@
     }]
   }
 }, {
-  "name": "Intertrain",
+  "name": "Intertrain Mainnet",
   "chain": "INTE",
   "icon": "intertrain",
   "rpc": ["https://rpc.intertrain.online/rpc"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "MANNA",
-    "symbol": "MNA",
+    "name": "WorldStreet USD",
+    "symbol": "USDW",
     "decimals": 18
   },
   "infoURL": "https://intertrain.online",

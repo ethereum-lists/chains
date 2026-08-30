@@ -13961,13 +13961,13 @@
   "faucets": [],
   "infoURL": "https://docs.robinhood.com/chain"
 }, {
-  "name": "Intertrain",
+  "name": "Intertrain Mainnet",
   "chainId": 4683,
   "shortName": "inte",
   "networkId": 4683,
   "nativeCurrency": {
-    "name": "MANNA",
-    "symbol": "MNA",
+    "name": "WorldStreet USD",
+    "symbol": "USDW",
     "decimals": 18
   },
   "rpc": ["https://rpc.intertrain.online/rpc"],
