@@ -20916,6 +20916,19 @@
   "faucets": [],
   "infoURL": "https://xusd.co"
 }, {
+  "name": "Final Chain",
+  "chainId": 20678,
+  "shortName": "final",
+  "networkId": 20678,
+  "nativeCurrency": {
+    "name": "vETH",
+    "symbol": "vETH",
+    "decimals": 18
+  },
+  "rpc": ["https://chain.final-de.fi"],
+  "faucets": [],
+  "infoURL": "https://final-de.fi"
+}, {
   "name": "Callisto Testnet",
   "chainId": 20729,
   "shortName": "CLOTestnet",
@@ -23437,6 +23450,19 @@
   "rpc": ["https://rpc.rei.network", "wss://rpc.rei.network"],
   "faucets": [],
   "infoURL": "https://rei.network/"
+}, {
+  "name": "Final Testnet",
+  "chainId": 48359,
+  "shortName": "final-test",
+  "networkId": 48359,
+  "nativeCurrency": {
+    "name": "Testnet vETH",
+    "symbol": "vETH",
+    "decimals": 18
+  },
+  "rpc": ["https://test-chain.final-de.fi"],
+  "faucets": [],
+  "infoURL": "https://final-de.fi"
 }, {
   "name": "Space Subnet Testnet",
   "chainId": 48795,
