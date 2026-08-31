@@ -16,11 +16,13 @@
   "chainId": 787111,
   "networkId": 787111,
   "slip44": 1,
+  "icon": "nvnm",
   "explorers": [
     {
       "name": "NVNM EVM Testnet Explorer",
       "url": "https://explorer.evm.testnet.nvnmchain.io",
-      "standard": "EIP3091"
+      "standard": "EIP3091",
+      "icon": "nvnm"
     }
   ]
 }

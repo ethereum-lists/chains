@@ -12,11 +12,13 @@
   "shortName": "nvnm",
   "chainId": 1611,
   "networkId": 1611,
+  "icon": "nvnm",
   "explorers": [
     {
       "name": "NVNM EVM Explorer",
       "url": "https://evm.explorer.nvnmchain.io",
-      "standard": "EIP3091"
+      "standard": "EIP3091",
+      "icon": "nvnm"
     }
   ]
 }
