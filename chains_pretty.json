@@ -43445,6 +43445,25 @@
     "standard": "none"
   }]
 }, {
+  "name": "PLUS Mainnet",
+  "chain": "PLUS",
+  "rpc": ["https://rpc.plusmain.net", "https://plusmain.net/api/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PLUS",
+    "symbol": "PLUS",
+    "decimals": 18
+  },
+  "infoURL": "https://plusmain.net",
+  "shortName": "plus",
+  "chainId": 88088,
+  "networkId": 88088,
+  "explorers": [{
+    "name": "PLUS Explorer",
+    "url": "https://plusmain.net/scan",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Shark Network",
   "chain": "SHARK",
   "rpc": ["https://rpc.rpcshark.com"],

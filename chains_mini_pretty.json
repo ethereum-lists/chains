@@ -26090,6 +26090,19 @@
   "faucets": [],
   "infoURL": "https://app.omnibazaar.com"
 }, {
+  "name": "PLUS Mainnet",
+  "chainId": 88088,
+  "shortName": "plus",
+  "networkId": 88088,
+  "nativeCurrency": {
+    "name": "PLUS",
+    "symbol": "PLUS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.plusmain.net", "https://plusmain.net/api/rpc"],
+  "faucets": [],
+  "infoURL": "https://plusmain.net"
+}, {
   "name": "Shark Network",
   "chainId": 88118,
   "shortName": "shark",
