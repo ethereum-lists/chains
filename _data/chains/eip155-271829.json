@@ -3,12 +3,8 @@
   "title": "Datachain Rope Testnet",
   "chain": "DATACHAIN",
   "icon": "datachain",
-  "rpc": [
-    "https://testnet.erpc.datachain.network"
-  ],
-  "faucets": [
-    "https://faucet.datachain.network"
-  ],
+  "rpc": ["https://testnet.erpc.datachain.network"],
+  "faucets": ["https://faucet.datachain.network"],
   "nativeCurrency": {
     "name": "DC FAT",
     "symbol": "FAT",
@@ -19,10 +15,7 @@
   "chainId": 271829,
   "networkId": 271829,
   "slip44": 1,
-  "features": [
-    { "name": "EIP155" },
-    { "name": "EIP1559" }
-  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "explorers": [
     {
       "name": "DC Scan Testnet",
