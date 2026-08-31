@@ -2653,7 +2653,7 @@
 }, {
   "name": "VinuChain Testnet",
   "chainId": 206,
-  "shortName": "VCTEST",
+  "shortName": "vc-testnet",
   "networkId": 206,
   "nativeCurrency": {
     "name": "VinuChain",
@@ -2662,20 +2662,20 @@
   },
   "rpc": ["https://vinufoundation-rpc.com"],
   "faucets": [],
-  "infoURL": "https://vitainu.org"
+  "infoURL": "https://vinuchain.org"
 }, {
-  "name": "VinuChain Network",
+  "name": "VinuChain",
   "chainId": 207,
-  "shortName": "VC",
+  "shortName": "vc",
   "networkId": 207,
   "nativeCurrency": {
     "name": "VinuChain",
     "symbol": "VC",
     "decimals": 18
   },
-  "rpc": ["https://vinuchain-rpc.com"],
+  "rpc": ["https://rpc.vinuchain.org"],
   "faucets": [],
-  "infoURL": "https://vitainu.org"
+  "infoURL": "https://vinuchain.org"
 }, {
   "name": "Structx Mainnet",
   "chainId": 208,
