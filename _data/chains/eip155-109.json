@@ -2,7 +2,11 @@
   "name": "Shibarium",
   "chain": "Shibarium",
   "icon": "shibarium",
-  "rpc": ["https://rpc.shibrpc.com", "https://shib.nownodes.io"],
+  "rpc": [
+    "https://rpc.shibrpc.com",
+    "https://shib.nownodes.io",
+    "https://rpc.swiftnodes.io/rpc/shibarium?key=${SWIFTNODES_API_KEY}"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BONE Shibarium",

@@ -5,7 +5,8 @@
   "rpc": [
     "https://api.avax.network/ext/bc/C/rpc",
     "https://avalanche-c-chain-rpc.publicnode.com",
-    "wss://avalanche-c-chain-rpc.publicnode.com"
+    "wss://avalanche-c-chain-rpc.publicnode.com",
+    "https://rpc.swiftnodes.io/rpc/avalanche?key=${SWIFTNODES_API_KEY}"
   ],
   "features": [{ "name": "EIP1559" }],
   "faucets": [],

@@ -12,7 +12,8 @@
     "wss://polygon.gateway.tenderly.co",
     "https://rpc.satelink.network/rpc/polygon",
     "https://rpcfree.com/polygon-rpc",
-    "wss://rpc.satelink.network/rpc/ws/polygon"
+    "wss://rpc.satelink.network/rpc/ws/polygon",
+    "https://rpc.swiftnodes.io/rpc/polygon?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {

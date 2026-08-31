@@ -8,7 +8,8 @@
     "https://optimism.gateway.tenderly.co",
     "wss://optimism.gateway.tenderly.co",
     "https://optimism.drpc.org",
-    "wss://optimism.drpc.org"
+    "wss://optimism.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/optimism?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -6,7 +6,8 @@
     "https://cronos-evm-rpc.publicnode.com",
     "wss://cronos-evm-rpc.publicnode.com",
     "https://cronos.drpc.org",
-    "wss://cronos.drpc.org"
+    "wss://cronos.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/cronos?key=${SWIFTNODES_API_KEY}"
   ],
   "features": [{ "name": "EIP1559" }],
   "faucets": [],
