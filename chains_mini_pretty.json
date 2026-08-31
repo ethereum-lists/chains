@@ -16366,6 +16366,19 @@
   "faucets": [],
   "infoURL": "https://drawchain.io/"
 }, {
+  "name": "WCAHT",
+  "chainId": 7789,
+  "shortName": "wcaht",
+  "networkId": 7789,
+  "nativeCurrency": {
+    "name": "WCAHT",
+    "symbol": "WCAHT",
+    "decimals": 18
+  },
+  "rpc": ["https://denvion.com/eth"],
+  "faucets": [],
+  "infoURL": "https://denvion.com"
+}, {
   "name": "DiamondzChain",
   "chainId": 7791,
   "shortName": "dzx",
