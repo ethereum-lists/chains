@@ -1,24 +1,23 @@
 {
-  "name": "ASHCHAIN",
-  "chain": "ASH",
+  "name": "ASHCHAIN Mainnet",
+  "chain": "ASHCHAIN",
   "rpc": ["https://evm-rpc.ashchain.io", "https://evm-rpc2.ashchain.io"],
-  "faucets": ["https://ashchain.io/faucet"],
+  "faucets": ["https://faucet.ashchain.io"],
   "nativeCurrency": {
     "name": "ASH",
     "symbol": "ASH",
     "decimals": 18
   },
   "infoURL": "https://ashchain.io",
-  "shortName": "ash",
+  "shortName": "ashchain",
   "chainId": 50366,
   "networkId": 50366,
-  "icon": "ashchain",
   "explorers": [
     {
       "name": "ASHCHAIN Explorer",
-      "url": "https://ashchain.io/explorer",
-      "standard": "none"
+      "url": "https://scan.ashchain.io",
+      "standard": "EIP3091"
     }
   ],
-  "status": "active"
+  "redFlags": []
 }
