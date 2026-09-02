@@ -29361,6 +29361,25 @@
     "icon": "qubetics"
   }]
 }, {
+  "name": "Lithosphere Mainnet",
+  "chain": "LITHO",
+  "rpc": ["https://rpc-mainnet.litho.ai"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LITHO",
+    "symbol": "LITHO",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.litho.ai",
+  "shortName": "litho",
+  "chainId": 9005,
+  "networkId": 9005,
+  "explorers": [{
+    "name": "Lithoscan",
+    "url": "https://lithoscan.ai",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Shido Testnet Block",
   "chain": "Shido Testnet",
   "rpc": ["https://rpc-testnet-nodes.shidoscan.com", "wss://wss-testnet-nodes.shidoscan.com"],

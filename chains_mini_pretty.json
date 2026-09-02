@@ -17718,6 +17718,19 @@
   "faucets": ["https://alphatestnet-explorer.qubetics.work/faucet"],
   "infoURL": "https://www.qubetics.com/"
 }, {
+  "name": "Lithosphere Mainnet",
+  "chainId": 9005,
+  "shortName": "litho",
+  "networkId": 9005,
+  "nativeCurrency": {
+    "name": "LITHO",
+    "symbol": "LITHO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet.litho.ai"],
+  "faucets": [],
+  "infoURL": "https://docs.litho.ai"
+}, {
   "name": "Shido Testnet Block",
   "chainId": 9007,
   "shortName": "ShidoTestnet",
