@@ -30874,6 +30874,19 @@
   "faucets": ["https://faucet.testnet.nvnmchain.io"],
   "infoURL": "https://nvnmchain.io"
 }, {
+  "name": "WANNA Chain",
+  "chainId": 787878,
+  "shortName": "wanna",
+  "networkId": 787878,
+  "nativeCurrency": {
+    "name": "WANNA",
+    "symbol": "WANNA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.wannachain.com"],
+  "faucets": [],
+  "infoURL": "https://scan.wannachain.com"
+}, {
   "name": "Emeraldz",
   "chainId": 789789,
   "shortName": "emed",

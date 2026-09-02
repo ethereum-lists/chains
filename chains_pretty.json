@@ -51570,6 +51570,25 @@
     "icon": "nvnm"
   }]
 }, {
+  "name": "WANNA Chain",
+  "chain": "WANNA",
+  "rpc": ["https://rpc.wannachain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WANNA",
+    "symbol": "WANNA",
+    "decimals": 18
+  },
+  "infoURL": "https://scan.wannachain.com",
+  "shortName": "wanna",
+  "chainId": 787878,
+  "networkId": 787878,
+  "explorers": [{
+    "name": "wannascan",
+    "url": "https://scan.wannachain.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Emeraldz",
   "chain": "EMED",
   "rpc": ["https://public.0xrpc.com/789789"],
