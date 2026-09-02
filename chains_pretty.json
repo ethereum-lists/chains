@@ -26528,6 +26528,39 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Pocket Chain",
+  "chain": "PCKT",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PCKT",
+    "symbol": "PCKT",
+    "decimals": 18
+  },
+  "infoURL": "https://pocket.fi",
+  "shortName": "pckt",
+  "chainId": 7258,
+  "networkId": 7258,
+  "explorers": [],
+  "status": "incubating"
+}, {
+  "name": "Pocket Chain Testnet",
+  "chain": "PCKT",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PCKT",
+    "symbol": "PCKT",
+    "decimals": 18
+  },
+  "infoURL": "https://pocket.fi",
+  "shortName": "pckt-testnet",
+  "chainId": 7259,
+  "networkId": 7259,
+  "slip44": 1,
+  "explorers": [],
+  "status": "incubating"
+}, {
   "name": "XPLA Verse",
   "chain": "XPLA Verse",
   "icon": "xpla_verse",

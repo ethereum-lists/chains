@@ -15976,6 +15976,32 @@
   "faucets": ["https://faucet.zeuschainscan.io"],
   "infoURL": "https://testnet-explorer.zeuschainscan.io"
 }, {
+  "name": "Pocket Chain",
+  "chainId": 7258,
+  "shortName": "pckt",
+  "networkId": 7258,
+  "nativeCurrency": {
+    "name": "PCKT",
+    "symbol": "PCKT",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://pocket.fi"
+}, {
+  "name": "Pocket Chain Testnet",
+  "chainId": 7259,
+  "shortName": "pckt-testnet",
+  "networkId": 7259,
+  "nativeCurrency": {
+    "name": "PCKT",
+    "symbol": "PCKT",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://pocket.fi"
+}, {
   "name": "XPLA Verse",
   "chainId": 7300,
   "shortName": "XPLAVERSE",
