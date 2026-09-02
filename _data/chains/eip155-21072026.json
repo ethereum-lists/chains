@@ -1,0 +1,25 @@
+{
+  "name": "Zagros Mainnet",
+  "chain": "ZAGROS",
+  "rpc": [
+    "https://rpc.zagros.network",
+    "https://rpc.zagrosnetwork.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Zagros",
+    "symbol": "ZAGROS",
+    "decimals": 18
+  },
+  "infoURL": "https://zagros.network",
+  "shortName": "zagros",
+  "chainId": 21072026,
+  "networkId": 21072026,
+  "explorers": [
+    {
+      "name": "ZagrosRadar",
+      "url": "https://zagrosradar.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
