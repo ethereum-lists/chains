@@ -1,0 +1,14 @@
+{
+  "name": "AgentsCoin",
+  "chain": "AGENT",
+  "rpc": ["https://rpc.agents-coin.com"],
+  "faucets": ["https://faucet.agents-coin.com"],
+  "nativeCurrency": { "name": "AgentsCoin", "symbol": "AGENT", "decimals": 18 },
+  "infoURL": "https://agents-coin.com",
+  "shortName": "agentscoin",
+  "chainId": 24368,
+  "networkId": 24368,
+  "explorers": [
+    { "name": "Blockscout", "url": "https://explorer.agents-coin.com", "standard": "EIP3091" }
+  ]
+}
