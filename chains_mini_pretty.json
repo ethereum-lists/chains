@@ -29145,6 +29145,19 @@
   "faucets": ["https://faucet.datachain.network"],
   "infoURL": "https://datachain.network"
 }, {
+  "name": "Datachain Rope Testnet",
+  "chainId": 271829,
+  "shortName": "rope-testnet",
+  "networkId": 271829,
+  "nativeCurrency": {
+    "name": "DC FAT",
+    "symbol": "FAT",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.erpc.datachain.network"],
+  "faucets": ["https://faucet.datachain.network"],
+  "infoURL": "https://datachain.network"
+}, {
   "name": "Nxy Area 51",
   "chainId": 272247,
   "shortName": "nxytest",
