@@ -34967,6 +34967,30 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "SushiiCoin",
+  "chain": "SHCX",
+  "rpc": ["https://coin.sushii.dev/evm"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SushiiCoin",
+    "symbol": "SHCX",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://coin.sushii.dev",
+  "shortName": "shcx",
+  "chainId": 21320,
+  "networkId": 21320,
+  "explorers": [{
+    "name": "SushiiCoin Explorer",
+    "url": "https://coin.sushii.dev",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "CENNZnet Azalea",
   "chain": "CENNZnet",
   "rpc": ["https://cennznet.unfrastructure.io/public"],

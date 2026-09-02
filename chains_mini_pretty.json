@@ -21111,6 +21111,19 @@
   "faucets": ["https://faucet.dcpay.io"],
   "infoURL": "https://dcpay.io"
 }, {
+  "name": "SushiiCoin",
+  "chainId": 21320,
+  "shortName": "shcx",
+  "networkId": 21320,
+  "nativeCurrency": {
+    "name": "SushiiCoin",
+    "symbol": "SHCX",
+    "decimals": 18
+  },
+  "rpc": ["https://coin.sushii.dev/evm"],
+  "faucets": [],
+  "infoURL": "https://coin.sushii.dev"
+}, {
   "name": "CENNZnet Azalea",
   "chainId": 21337,
   "shortName": "cennz-a",
