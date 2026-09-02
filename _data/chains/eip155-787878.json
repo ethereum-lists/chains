@@ -1,8 +1,8 @@
 {
-  "name": "WANNA Chain Testnet",
+  "name": "WANNA Chain",
   "chain": "WANNA",
   "rpc": ["https://rpc.wannachain.com"],
-  "faucets": ["https://scan.wannachain.com/faucet/"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "WANNA",
     "symbol": "WANNA",
