@@ -1,10 +1,7 @@
 {
   "name": "Zagros Mainnet",
   "chain": "ZAGROS",
-  "rpc": [
-    "https://rpc.zagros.network",
-    "https://rpc.zagrosnetwork.com"
-  ],
+  "rpc": ["https://rpc.zagros.network", "https://rpc.zagrosnetwork.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Zagros",
