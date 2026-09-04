@@ -16275,6 +16275,19 @@
   "faucets": [],
   "infoURL": "https://canto.io"
 }, {
+  "name": "RWA Chain",
+  "chainId": 7741,
+  "shortName": "rwachain",
+  "networkId": 7741,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.rwa-chain.io"],
+  "faucets": [],
+  "infoURL": "https://rwa-chain.io"
+}, {
   "name": "Phron Testnet",
   "chainId": 7744,
   "shortName": "phr",
