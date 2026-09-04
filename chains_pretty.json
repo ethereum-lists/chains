@@ -23155,7 +23155,7 @@
 }, {
   "name": "Robinhood Chain",
   "chain": "ETH",
-  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://robinhood-rpc.publicnode.com", "wss://robinhood-rpc.publicnode.com", "https://rpc.arrowrpc.com"],
+  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://robinhood-rpc.publicnode.com", "wss://robinhood-rpc.publicnode.com", "https://rpc.arrowrpc.com", "https://rpc.ordofi.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -23192,8 +23192,8 @@
   "rpc": ["https://rpc.intertrain.online/rpc"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "WorldStreet USD",
-    "symbol": "USDW",
+    "name": "WorldStreet Kash",
+    "symbol": "WSK",
     "decimals": 18
   },
   "infoURL": "https://intertrain.online",

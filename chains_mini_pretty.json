@@ -13970,7 +13970,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://robinhood-rpc.publicnode.com", "wss://robinhood-rpc.publicnode.com", "https://rpc.arrowrpc.com"],
+  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://robinhood-rpc.publicnode.com", "wss://robinhood-rpc.publicnode.com", "https://rpc.arrowrpc.com", "https://rpc.ordofi.network"],
   "faucets": [],
   "infoURL": "https://docs.robinhood.com/chain"
 }, {
@@ -13979,8 +13979,8 @@
   "shortName": "inte",
   "networkId": 4683,
   "nativeCurrency": {
-    "name": "WorldStreet USD",
-    "symbol": "USDW",
+    "name": "WorldStreet Kash",
+    "symbol": "WSK",
     "decimals": 18
   },
   "rpc": ["https://rpc.intertrain.online/rpc"],
