@@ -4,7 +4,8 @@
   "rpc": [
     "https://rpc.soniclabs.com",
     "https://sonic-rpc.publicnode.com",
-    "wss://sonic-rpc.publicnode.com"
+    "wss://sonic-rpc.publicnode.com",
+    "https://rpc.swiftnodes.io/rpc/sonic?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {

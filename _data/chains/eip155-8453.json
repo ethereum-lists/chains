@@ -10,7 +10,8 @@
     "wss://base-rpc.publicnode.com",
     "https://rpcfree.com/base-rpc",
     "https://rpc.baseazul.dev",
-    "https://rpc.satelink.network/rpc/base"
+    "https://rpc.satelink.network/rpc/base",
+    "https://rpc.swiftnodes.io/rpc/base?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
