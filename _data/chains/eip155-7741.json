@@ -1,0 +1,20 @@
+{
+  "name": "RWA Chain",
+  "chain": "RWA",
+  "rpc": ["https://rpc.rwa-chain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://rwa-chain.io",
+  "shortName": "rwachain",
+  "chainId": 7741,
+  "networkId": 7741,
+  "status": "incubating",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
+}
