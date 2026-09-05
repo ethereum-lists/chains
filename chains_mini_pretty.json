@@ -33357,6 +33357,19 @@
   "faucets": [],
   "infoURL": "https://usecorn.com"
 }, {
+  "name": "Zagros Mainnet",
+  "chainId": 21072026,
+  "shortName": "zagros",
+  "networkId": 21072026,
+  "nativeCurrency": {
+    "name": "Zagros",
+    "symbol": "ZAGROS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zagros.network", "https://rpc.zagrosnetwork.com"],
+  "faucets": [],
+  "infoURL": "https://zagros.network"
+}, {
   "name": "Excelon Mainnet",
   "chainId": 22052002,
   "shortName": "xlon",
