@@ -25440,6 +25440,19 @@
   "faucets": ["https://faucet.foundryscan.org"],
   "infoURL": "https://foundrychain.org"
 }, {
+  "name": "RWA Chain Sepolia",
+  "chainId": 77410,
+  "shortName": "rwachain-sepolia",
+  "networkId": 77410,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia-rpc.rwa-chain.io"],
+  "faucets": [],
+  "infoURL": "https://rwa-chain.io"
+}, {
   "name": "Vention Smart Chain Mainnet",
   "chainId": 77612,
   "shortName": "vscm",
