@@ -1,0 +1,18 @@
+{
+  "name": "Cyberia Mainnet",
+  "chain": "cyberia-mainnet",
+  "rpc": ["https://rpc.cyberia.church"],
+  "icon": "cyberia",
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Cyber",
+    "symbol": "CYBER",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://cyberia.church",
+  "shortName": "CYBER",
+  "chainId": 49406,
+  "networkId": 49406,
+  "explorers": []
+}
