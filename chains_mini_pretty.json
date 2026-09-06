@@ -20942,6 +20942,19 @@
   "faucets": [],
   "infoURL": "https://monad.xyz"
 }, {
+  "name": "Molibra",
+  "chainId": 20226,
+  "shortName": "moli",
+  "networkId": 20226,
+  "nativeCurrency": {
+    "name": "Molibra",
+    "symbol": "MOLI",
+    "decimals": 18
+  },
+  "rpc": ["https://molibra.org"],
+  "faucets": [],
+  "infoURL": "https://molibra.org"
+}, {
   "name": "CHEESE Blockchain Mainnet",
   "chainId": 20250,
   "shortName": "nch",
