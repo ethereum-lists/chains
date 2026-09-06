@@ -30915,6 +30915,25 @@
   "chainId": 10086,
   "networkId": 10086
 }, {
+  "name": "Gate Layer",
+  "shortName": "GateLayer",
+  "chain": "GT",
+  "chainId": 10088,
+  "networkId": 10088,
+  "rpc": ["https://gatelayer-mainnet.gatenode.cc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GateToken",
+    "symbol": "GT",
+    "decimals": 18
+  },
+  "explorers": [{
+    "name": "GateLayer",
+    "url": "https://www.gatescan.org/gatelayer",
+    "standard": "EIP3091"
+  }],
+  "infoURL": "https://gatechain.io/gatelayer"
+}, {
   "name": "MetaNova Verse",
   "chain": "MNV",
   "rpc": ["https://web3.metanovaverse.com"],

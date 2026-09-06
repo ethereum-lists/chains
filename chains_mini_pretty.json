@@ -18706,6 +18706,19 @@
   "faucets": [],
   "infoURL": "https://sjis.me"
 }, {
+  "name": "Gate Layer",
+  "chainId": 10088,
+  "shortName": "GateLayer",
+  "networkId": 10088,
+  "nativeCurrency": {
+    "name": "GateToken",
+    "symbol": "GT",
+    "decimals": 18
+  },
+  "rpc": ["https://gatelayer-mainnet.gatenode.cc"],
+  "faucets": [],
+  "infoURL": "https://gatechain.io/gatelayer"
+}, {
   "name": "MetaNova Verse",
   "chainId": 10096,
   "shortName": "mnv",
