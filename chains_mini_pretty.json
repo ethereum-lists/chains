@@ -2690,6 +2690,19 @@
   "faucets": [],
   "infoURL": "https://structx.io"
 }, {
+  "name": "Ri-Nn Chain",
+  "chainId": 209,
+  "shortName": "ri-nn",
+  "networkId": 209,
+  "nativeCurrency": {
+    "name": "RIN",
+    "symbol": "RIN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.ri-nn.io"],
+  "faucets": [],
+  "infoURL": "https://ri-nn.io"
+}, {
   "name": "Bitnet",
   "chainId": 210,
   "shortName": "BTN",
@@ -2806,6 +2819,19 @@
   "rpc": ["https://rpc.soter.one"],
   "faucets": [],
   "infoURL": "https://www.soterone.com"
+}, {
+  "name": "Ri-Nn Testnet",
+  "chainId": 219,
+  "shortName": "ri-nn-testnet",
+  "networkId": 219,
+  "nativeCurrency": {
+    "name": "RIN",
+    "symbol": "RIN",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.ri-nn.io"],
+  "faucets": [],
+  "infoURL": "https://ri-nn.io"
 }, {
   "name": "Scalind Testnet",
   "chainId": 220,
