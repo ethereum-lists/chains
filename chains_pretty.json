@@ -34702,13 +34702,14 @@
     "decimals": 18
   },
   "infoURL": "https://molibra.org",
+  "icon": "molibra",
   "shortName": "moli",
   "chainId": 20226,
   "networkId": 20226,
   "explorers": [{
     "name": "Moliscan",
     "url": "https://molibra.org/molibra/moliscan",
-    "standard": "none"
+    "standard": "EIP3091"
   }]
 }, {
   "name": "CHEESE Blockchain Mainnet",
