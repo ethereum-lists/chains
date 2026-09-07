@@ -12071,6 +12071,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Vordium",
+  "chain": "VORD",
+  "rpc": ["https://rpc.vordium.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Vordium",
+    "symbol": "VORD",
+    "decimals": 18
+  },
+  "infoURL": "https://vordium.com",
+  "shortName": "vord",
+  "chainId": 1110,
+  "networkId": 1110,
+  "explorers": [{
+    "name": "vordscan",
+    "url": "https://vordscan.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "WEMIX3.0 Mainnet",
   "chain": "WEMIX",
   "rpc": ["https://api.wemix.com", "wss://ws.wemix.com"],
@@ -27087,11 +27106,19 @@
   "shortName": "rwachain",
   "chainId": 7741,
   "networkId": 7741,
-  "status": "incubating",
+  "status": "active",
   "parent": {
     "type": "L2",
-    "chain": "eip155-1"
-  }
+    "chain": "eip155-8453",
+    "bridges": [{
+      "url": "https://rwa-chain.io/explorer/bridge"
+    }]
+  },
+  "explorers": [{
+    "name": "RWA Chain Explorer",
+    "url": "https://explorer.rwa-chain.io",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Phron Testnet",
   "chain": "PHR",

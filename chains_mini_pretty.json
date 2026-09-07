@@ -7279,6 +7279,19 @@
   "faucets": [],
   "infoURL": "https://blx.org"
 }, {
+  "name": "Vordium",
+  "chainId": 1110,
+  "shortName": "vord",
+  "networkId": 1110,
+  "nativeCurrency": {
+    "name": "Vordium",
+    "symbol": "VORD",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.vordium.com"],
+  "faucets": [],
+  "infoURL": "https://vordium.com"
+}, {
   "name": "WEMIX3.0 Mainnet",
   "chainId": 1111,
   "shortName": "wemix",
