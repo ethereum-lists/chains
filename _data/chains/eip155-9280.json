@@ -1,12 +1,8 @@
 {
   "name": "Rabbit Chain Testnet",
   "chain": "RAB",
-  "rpc": [
-    "https://rpc-testnet.rabbitchain.org"
-  ],
-  "faucets": [
-    "https://rabbitchain.org/platform/faucet"
-  ],
+  "rpc": ["https://rpc-testnet.rabbitchain.org"],
+  "faucets": ["https://rabbitchain.org/platform/faucet"],
   "nativeCurrency": {
     "name": "Test RAB",
     "symbol": "tRAB",
