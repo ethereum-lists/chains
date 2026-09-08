@@ -12,9 +12,21 @@
   "shortName": "rwachain",
   "chainId": 7741,
   "networkId": 7741,
-  "status": "incubating",
+  "status": "active",
   "parent": {
     "type": "L2",
-    "chain": "eip155-1"
-  }
+    "chain": "eip155-8453",
+    "bridges": [
+      {
+        "url": "https://rwa-chain.io/explorer/bridge"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "name": "RWA Chain Explorer",
+      "url": "https://explorer.rwa-chain.io",
+      "standard": "EIP3091"
+    }
+  ]
 }
