@@ -18017,6 +18017,19 @@
   "faucets": [],
   "infoURL": "https://network.codefin.pro"
 }, {
+  "name": "Rabbit Chain Testnet",
+  "chainId": 9280,
+  "shortName": "rabt",
+  "networkId": 9280,
+  "nativeCurrency": {
+    "name": "Test RAB",
+    "symbol": "tRAB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.rabbitchain.org"],
+  "faucets": ["https://rabbitchain.org/platform/faucet"],
+  "infoURL": "https://rabbitchain.org"
+}, {
   "name": "Galactica-Reticulum",
   "chainId": 9302,
   "shortName": "GNET",
