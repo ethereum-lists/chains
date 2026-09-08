@@ -1,0 +1,29 @@
+{
+  "name": "ZENX Network",
+  "chain": "ZENX",
+  "rpc": [
+    "https://zenx.network/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ZENX",
+    "symbol": "ZENX",
+    "decimals": 18
+  },
+  "infoURL": "https://zenx.network",
+  "shortName": "zenx",
+  "chainId": 88991,
+  "networkId": 88991,
+  "explorers": [
+    {
+      "name": "ZENX Explorer",
+      "url": "https://zenx.network",
+      "standard": "none"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ]
+}
