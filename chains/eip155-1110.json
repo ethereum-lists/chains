@@ -1,0 +1,22 @@
+{
+  "name": "Vordium",
+  "chain": "VORD",
+  "rpc": ["https://rpc.vordium.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Vordium",
+    "symbol": "VORD",
+    "decimals": 18
+  },
+  "infoURL": "https://vordium.com",
+  "shortName": "vord",
+  "chainId": 1110,
+  "networkId": 1110,
+  "explorers": [
+    {
+      "name": "vordscan",
+      "url": "https://vordscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

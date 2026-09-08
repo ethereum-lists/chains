@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Ruby gem facets — geometric brilliant cut -->
+  <defs>
+    <linearGradient id="topFacet" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FB6E94"/>
+      <stop offset="100%" stop-color="#E0115F"/>
+    </linearGradient>
+    <linearGradient id="leftFacet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0115F"/>
+      <stop offset="100%" stop-color="#A01047"/>
+    </linearGradient>
+    <linearGradient id="rightFacet" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E0115F"/>
+      <stop offset="100%" stop-color="#A01047"/>
+    </linearGradient>
+    <linearGradient id="bottomFacet" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A01047"/>
+      <stop offset="100%" stop-color="#5D082A"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="35%" cy="30%" r="35%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Dark background circle -->
+  <circle cx="128" cy="128" r="128" fill="#0a0a0a"/>
+
+  <!-- Top crown facets -->
+  <polygon points="64,80 192,80 160,40 96,40" fill="url(#topFacet)" stroke="#5D082A" stroke-width="1"/>
+
+  <!-- Center top facet -->
+  <polygon points="96,40 160,40 128,80" fill="#FB6E94" opacity="0.9"/>
+
+  <!-- Left & right side facets -->
+  <polygon points="64,80 96,40 32,80" fill="url(#leftFacet)" stroke="#5D082A" stroke-width="1"/>
+  <polygon points="192,80 224,80 160,40" fill="url(#rightFacet)" stroke="#5D082A" stroke-width="1"/>
+
+  <!-- Pavilion (bottom triangular facets) -->
+  <polygon points="32,80 224,80 128,216" fill="url(#bottomFacet)" stroke="#5D082A" stroke-width="1.5"/>
+
+  <!-- Inner facet lines -->
+  <line x1="64" y1="80" x2="128" y2="216" stroke="#5D082A" stroke-width="1" opacity="0.7"/>
+  <line x1="128" y1="80" x2="128" y2="216" stroke="#5D082A" stroke-width="1" opacity="0.7"/>
+  <line x1="192" y1="80" x2="128" y2="216" stroke="#5D082A" stroke-width="1" opacity="0.7"/>
+
+  <!-- Top-left highlight -->
+  <polygon points="64,80 96,40 128,80" fill="#FB6E94" opacity="0.4"/>
+
+  <!-- Shine overlay -->
+  <ellipse cx="105" cy="60" rx="22" ry="12" fill="url(#shine)"/>
+</svg>
