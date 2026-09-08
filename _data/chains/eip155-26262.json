@@ -1,0 +1,23 @@
+{
+  "name": "Coinbosa Chain",
+  "chain": "BOSA",
+  "rpc": ["https://explorer.coinbosa.com/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Coinbosa",
+    "symbol": "BOSA",
+    "decimals": 18
+  },
+  "infoURL": "https://coinbosa.com",
+  "shortName": "bosa",
+  "chainId": 26262,
+  "networkId": 26262,
+  "icon": "coinbosa",
+  "explorers": [
+    {
+      "name": "Coinbosa Explorer",
+      "url": "https://explorer.coinbosa.com",
+      "standard": "none"
+    }
+  ]
+}

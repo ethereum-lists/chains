@@ -1,0 +1,22 @@
+{
+  "name": "OmniCoin",
+  "chain": "OmniCoin",
+  "rpc": ["https://rpc.omnicoin.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OmniCoin",
+    "symbol": "XOM",
+    "decimals": 18
+  },
+  "infoURL": "https://app.omnibazaar.com",
+  "shortName": "xom",
+  "chainId": 88008,
+  "networkId": 88008,
+  "explorers": [
+    {
+      "name": "OmniCoin Explorer",
+      "url": "https://explorer.omnicoin.net",
+      "standard": "none"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Crynux on Near",
+  "chain": "ETH",
+  "rpc": ["https://json-rpc.near.crynux.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Crynux",
+    "symbol": "CNX",
+    "decimals": 18
+  },
+  "infoURL": "https://crynux.io",
+  "shortName": "crynux-near",
+  "chainId": 1313161911,
+  "networkId": 1313161911,
+  "icon": "crynux",
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-397"
+  }
+}

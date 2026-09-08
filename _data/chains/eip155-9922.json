@@ -4,16 +4,18 @@
   "icon": "jinglex",
   "rpc": ["https://rpc.jinglex.net"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "JingleX",
-    "symbol": "JNX",
-    "decimals": 18
-  },
+  "faucets": ["https://jinglex.net/faucet"],
+  "nativeCurrency": { "name": "JingleX", "symbol": "JNX", "decimals": 18 },
   "infoURL": "https://jinglex.net",
   "shortName": "jnx",
   "chainId": 9922,
   "networkId": 9922,
   "slip44": 60,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "JingleX Explorer",
+      "url": "https://jinglex.net/explorer",
+      "standard": "none"
+    }
+  ]
 }

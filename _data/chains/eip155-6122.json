@@ -1,20 +1,22 @@
 {
   "name": "Tea Mainnet",
   "chain": "TEA",
-  "rpc": [],
+  "rpc": ["https://rpc.tea.xyz", "https://tea.drpc.org"],
   "faucets": [],
-  "nativeCurrency": {
-    "name": "Tea",
-    "symbol": "TEA",
-    "decimals": 18
-  },
+  "nativeCurrency": { "name": "Tea", "symbol": "TEA", "decimals": 18 },
   "infoURL": "https://tea.xyz",
   "shortName": "tea",
+  "icon": "tea",
   "chainId": 6122,
   "networkId": 6122,
-  "parent": {
-    "type": "L2",
-    "chain": "eip155-1"
-  },
-  "status": "incubating"
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.tea.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": { "type": "L2", "chain": "eip155-1" },
+  "status": "active"
 }

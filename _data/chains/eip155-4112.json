@@ -1,0 +1,25 @@
+{
+  "name": "E Canna Testnet",
+  "title": "E Canna Testnet",
+  "chain": "tECNA",
+  "rpc": ["https://testnetrpc.ecnascan.com"],
+  "faucets": ["https://testnetexplorer.ecnascan.com/faucet"],
+  "nativeCurrency": {
+    "name": "E Canna Testnet",
+    "symbol": "tECNA",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://ecnascan.com",
+  "shortName": "tecna",
+  "chainId": 4112,
+  "networkId": 4112,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "ecnascan-testnet",
+      "url": "https://testnetexplorer.ecnascan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

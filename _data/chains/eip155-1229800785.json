@@ -1,0 +1,31 @@
+{
+  "name": "iTani Network Chain",
+  "chain": "ITANI",
+  "rpc": [
+    "https://rpc.itaninetworkchain.com/jsonrpc",
+    "https://node.itaninetworkchain.com/jsonrpc"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "iTani",
+    "symbol": "ITANI",
+    "decimals": 18
+  },
+  "infoURL": "https://www.itaninetworkchain.com",
+  "shortName": "itani",
+  "chainId": 1229800785,
+  "networkId": 1229800785,
+  "explorers": [
+    {
+      "name": "iTani Explorer",
+      "url": "https://explorer.itaninetworkchain.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "icon": "itani"
+}

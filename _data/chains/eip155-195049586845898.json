@@ -1,0 +1,23 @@
+{
+  "name": "STRATO Helium Testnet",
+  "chain": "STRATO",
+  "rpc": ["https://app.testnet.strato.nexus/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USDST",
+    "symbol": "USDST",
+    "decimals": 18
+  },
+  "infoURL": "https://strato.nexus",
+  "shortName": "strato-testnet",
+  "chainId": 195049586845898,
+  "networkId": 195049586845898,
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "stratoscan",
+      "url": "https://stratoscan.testnet.strato.nexus",
+      "standard": "EIP3091"
+    }
+  ]
+}

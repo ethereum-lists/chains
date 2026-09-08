@@ -1,0 +1,24 @@
+{
+  "name": "GGCHAIN Mainnet",
+  "chain": "GGCHAIN",
+  "icon": "ggchain",
+  "rpc": ["https://rpc.gghyper.net"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": ["https://gghyper.net/faucet"],
+  "nativeCurrency": {
+    "name": "GG",
+    "symbol": "GG",
+    "decimals": 18
+  },
+  "infoURL": "https://gghyper.net",
+  "shortName": "ggchain",
+  "chainId": 2121217,
+  "networkId": 2121217,
+  "explorers": [
+    {
+      "name": "GGCHAIN Explorer",
+      "url": "https://explorer.gghyper.net",
+      "standard": "EIP3091"
+    }
+  ]
+}

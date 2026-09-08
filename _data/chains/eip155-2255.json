@@ -1,0 +1,24 @@
+{
+  "name": "ClubMOS",
+  "chain": "CMX",
+  "rpc": ["https://rpc.mosscan.com"],
+  "faucets": ["https://faucet.clubmos.com"],
+  "nativeCurrency": {
+    "name": "ClubMOS",
+    "symbol": "CMX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.clubmos.com",
+  "shortName": "CMX",
+  "chainId": 2255,
+  "networkId": 2255,
+  "icon": "mos",
+  "explorers": [
+    {
+      "name": "mosscan",
+      "url": "https://mosscan.com",
+      "icon": "mosscan",
+      "standard": "EIP3091"
+    }
+  ]
+}

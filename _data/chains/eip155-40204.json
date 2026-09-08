@@ -1,0 +1,16 @@
+{
+  "name": "Citrate",
+  "chain": "CITRATE",
+  "rpc": ["https://rpc.citrate.ai", "wss://rpc.citrate.ai"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SALT",
+    "symbol": "SALT",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://citrate.ai",
+  "shortName": "citrate",
+  "chainId": 40204,
+  "networkId": 40204
+}

@@ -1,0 +1,24 @@
+{
+  "name": "DIA Lasernet Mainnet",
+  "chain": "DIA",
+  "icon": "dia",
+  "rpc": ["https://rpc.diadata.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DIA Token",
+    "symbol": "DIA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.diadata.org",
+  "shortName": "DIA",
+  "chainId": 1050,
+  "networkId": 1050,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.diadata.org",
+      "standard": "EIP3091",
+      "icon": "dia"
+    }
+  ]
+}

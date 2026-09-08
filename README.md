@@ -148,6 +148,7 @@ npx prettier --write _data/*/*.json
  * [networks.vercel.app](https://networks.vercel.app)
  * [Wagmi compatible chain configurations](https://spenhouet.com/chains)
  * [chainlist.simplr.sh - Info packaged single pager](https://chainlist.simplr.sh)
+ * [ChainIndex.dev](https://chainindex.dev/)
 
 ### Other
  * [FaucETH](https://github.com/komputing/FaucETH)

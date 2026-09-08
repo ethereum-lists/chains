@@ -1,0 +1,25 @@
+{
+  "name": "NirmalX Smart Chain",
+  "chain": "NRXN",
+  "icon": "nrxn",
+  "rpc": ["https://rpc.nirmalxscan.com"],
+  "features": [{ "name": "EIP155" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NirmalX Nova",
+    "symbol": "NRXN",
+    "decimals": 18
+  },
+  "infoURL": "https://nirmalxscan.com/",
+  "shortName": "nrxn",
+  "chainId": 15526,
+  "networkId": 15526,
+  "explorers": [
+    {
+      "name": "NirmalX Explorer",
+      "url": "https://nirmalxscan.com",
+      "icon": "nrxn",
+      "standard": "EIP3091"
+    }
+  ]
+}

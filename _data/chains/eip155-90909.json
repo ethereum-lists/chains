@@ -1,0 +1,24 @@
+{
+  "name": "QuantumBit",
+  "chain": "QB",
+  "rpc": ["https://quantumbit.foo/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QuantumBit",
+    "symbol": "QB",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://quantumbit.foo",
+  "shortName": "qb",
+  "chainId": 90909,
+  "networkId": 90909,
+  "icon": "quantumbit",
+  "explorers": [
+    {
+      "name": "QuantumBit Explorer",
+      "url": "https://quantumbit.foo",
+      "standard": "none"
+    }
+  ]
+}

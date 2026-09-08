@@ -1,0 +1,17 @@
+{
+  "name": "CryptoChain",
+  "chain": "CRTC",
+  "rpc": ["http://13.233.105.56:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CryptoChain Token",
+    "symbol": "CRTC",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "cryptochain",
+  "chainId": 900190,
+  "networkId": 900190,
+  "slip44": 60,
+  "explorers": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "TURKLEDGER",
+  "chain": "TURKLEDGER",
+  "rpc": ["https://rpc.turkledger.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TurkLedger",
+    "symbol": "TRYL",
+    "decimals": 18
+  },
+  "infoURL": "https://turkledger.com",
+  "shortName": "turkledger",
+  "chainId": 18818,
+  "networkId": 18818,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "TURKLEDGER Explorer",
+      "url": "https://explorer.turkledger.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "CoinAfrica",
+  "chain": "CoinAfrica",
+  "rpc": ["https://rpc.coinafrica.tech"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "COINA",
+    "symbol": "COINA",
+    "decimals": 18
+  },
+  "infoURL": "https://coinafrica.tech",
+  "shortName": "coina",
+  "chainId": 35147,
+  "networkId": 35147,
+  "explorers": [
+    {
+      "name": "CoinA-Scan",
+      "url": "https://coinascan.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "icon": "coina"
+}

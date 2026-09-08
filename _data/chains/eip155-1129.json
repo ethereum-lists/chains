@@ -1,0 +1,24 @@
+{
+  "name": "Quarrychain Testnet",
+  "chain": "QuarryChain",
+  "icon": "quarrychain",
+  "rpc": ["https://rpc.testnet.quarrychain.network"],
+  "features": [{ "name": "EIP155" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Quarry",
+    "symbol": "QRY",
+    "decimals": 18
+  },
+  "infoURL": "https://quarrychain.network/",
+  "shortName": "qry",
+  "chainId": 1129,
+  "networkId": 1129,
+  "explorers": [
+    {
+      "name": "QuarryScan",
+      "url": "https://explorer.testnet.quarrychain.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
