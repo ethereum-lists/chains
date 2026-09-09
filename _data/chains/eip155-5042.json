@@ -13,5 +13,11 @@
   "shortName": "arc-mainnet",
   "chainId": 5042,
   "networkId": 5042,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "Arcscan",
+      "url": "https://arc-scan.io",
+      "standard": "EIP3091"
+    }
+  ]
 }
