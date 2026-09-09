@@ -1,0 +1,17 @@
+{
+  "name": "FractalAI",
+  "chainId": 62124,
+  "shortName": "frac",
+  "chain": "FRAC",
+  "networkId": 62124,
+  "nativeCurrency": {
+    "name": "Fractal",
+    "symbol": "FRAC",
+    "decimals": 18
+  },
+  "rpc": [
+    "https://api.fractalai.net.co"
+  ],
+  "faucets": [],
+  "infoURL": "https://fractalai.net.co"
+}
