@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Molibra">
+  <!-- The mark: gold on the void, the same two colours as the chain's pages.
+       An M drawn as two ascending strokes meeting at a vertex - a fork that
+       resolves, which is what the chain's own fork choice does. -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD100"/>
+      <stop offset="1" stop-color="#c9a600"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="#07070a"/>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="10.5" fill="none" stroke="#FFD100" stroke-opacity=".22" stroke-width="1.5"/>
+  <path d="M14 46 V20 L32 38 L50 20 V46"
+        fill="none" stroke="url(#g)" stroke-width="6"
+        stroke-linecap="square" stroke-linejoin="miter"/>
+  <circle cx="32" cy="38" r="3.4" fill="#07070a" stroke="#FFD100" stroke-width="2"/>
+</svg>

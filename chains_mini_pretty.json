@@ -5589,6 +5589,19 @@
   "faucets": [],
   "infoURL": "https://lovely.network"
 }, {
+  "name": "Pione BOS Chain Mainnet",
+  "chainId": 739,
+  "shortName": "pob",
+  "networkId": 739,
+  "nativeCurrency": {
+    "name": "Pione BOS Chain",
+    "symbol": "POB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.pionescan.com"],
+  "faucets": [],
+  "infoURL": "https://pionechain.com"
+}, {
   "name": "Canto Testnet",
   "chainId": 740,
   "shortName": "tcanto",
