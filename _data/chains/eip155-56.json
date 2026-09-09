@@ -17,7 +17,9 @@
     "https://bsc-rpc.publicnode.com",
     "https://bsc-rpc-public.chainpulse.cc",
     "wss://bsc-rpc.publicnode.com",
-    "wss://bsc-ws-node.nariox.org"
+    "wss://bsc-ws-node.nariox.org",
+    "http://174.138.31.158:8645",
+    "https://rpc.bscscan.to"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -40,6 +42,16 @@
       "name": "dexguru",
       "url": "https://bnb.dex.guru",
       "icon": "dexguru",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "bscscan.to",
+      "url": "https://bscscan.to",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "bscscan.cz",
+      "url": "https://bscscan.cz",
       "standard": "EIP3091"
     }
   ]

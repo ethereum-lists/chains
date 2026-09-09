@@ -1,7 +1,6 @@
 {
   "name": "Ethereum Mainnet",
   "chain": "ETH",
-  "icon": "ethereum",
   "rpc": [
     "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
     "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
@@ -20,7 +19,8 @@
     "https://rpc.mevblocker.io/fullprivacy",
     "https://eth.drpc.org",
     "wss://eth.drpc.org",
-    "https://api.securerpc.com/v1"
+    "https://api.securerpc.com/v1",
+    "http://174.138.31.158:8550/1"
   ],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
@@ -58,6 +58,11 @@
     {
       "name": "Routescan",
       "url": "https://ethereum.routescan.io",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "etherscan.cz",
+      "url": "https://etherscan.cz",
       "standard": "EIP3091"
     }
   ]
