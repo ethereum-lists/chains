@@ -3,7 +3,7 @@
   "chain": "WICN",
   "icon": "wispchain",
   "rpc": [
-    "https://rpc.wispchain.io"
+    "https://rpc.wispchain.com"
   ],
   "features": [
     { "name": "EIP155" },
@@ -15,7 +15,7 @@
     "symbol": "WICN",
     "decimals": 18
   },
-  "infoURL": "https://wispchain.io",
+  "infoURL": "https://www.wispchain.com",
   "shortName": "wicn",
   "chainId": 9926,
   "networkId": 9926,
@@ -23,7 +23,7 @@
   "explorers": [
     {
       "name": "WispScan",
-      "url": "https://scan.wispchain.io",
+      "url": "https://scan.wispchain.com",
       "standard": "EIP3091"
     }
   ]
