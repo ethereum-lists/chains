@@ -1,0 +1,30 @@
+{
+  "name": "WispChain Mainnet",
+  "chain": "WICN",
+  "icon": "wispchain",
+  "rpc": [
+    "https://rpc.wispchain.io"
+  ],
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WispCoin",
+    "symbol": "WICN",
+    "decimals": 18
+  },
+  "infoURL": "https://wispchain.io",
+  "shortName": "wicn",
+  "chainId": 9926,
+  "networkId": 9926,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "WispScan",
+      "url": "https://scan.wispchain.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
