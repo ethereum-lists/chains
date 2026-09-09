@@ -1,0 +1,26 @@
+{
+  "name": "Azcon Energy",
+  "chain": "AZCON",
+  "rpc": [
+    "https://rpc.azconenergy.com.br"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Azcon",
+    "symbol": "AZCON",
+    "decimals": 18
+  },
+  "infoURL": "https://www.azconenergy.com.br",
+  "shortName": "azcon",
+  "chainId": 598,
+  "networkId": 598,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Azcon Explorer",
+      "url": "https://explorer.azconenergy.com.br",
+      "standard": "EIP3091"
+    }
+  ],
+  "icon": "azcon"
+}
