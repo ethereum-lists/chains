@@ -7279,16 +7279,16 @@
   "faucets": [],
   "infoURL": "https://blx.org"
 }, {
-  "name": "Vordium",
+  "name": "Vordium Legacy",
   "chainId": 1110,
-  "shortName": "vord",
+  "shortName": "vord-legacy",
   "networkId": 1110,
   "nativeCurrency": {
     "name": "Vordium",
     "symbol": "VORD",
     "decimals": 18
   },
-  "rpc": ["https://rpc.vordium.com"],
+  "rpc": [],
   "faucets": [],
   "infoURL": "https://vordium.com"
 }, {
@@ -27350,6 +27350,19 @@
   "rpc": ["https://evm-rpc-testnet.xitcoin.org"],
   "faucets": ["https://faucet-testnet.xitcoin.org/"],
   "infoURL": "https://xitcoin.gitbook.io/guide/"
+}, {
+  "name": "Vordium",
+  "chainId": 101101,
+  "shortName": "vord",
+  "networkId": 101101,
+  "nativeCurrency": {
+    "name": "Vordium",
+    "symbol": "VORD",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.vordium.com"],
+  "faucets": [],
+  "infoURL": "https://vordium.com"
 }, {
   "name": "Creditcoin",
   "chainId": 102030,

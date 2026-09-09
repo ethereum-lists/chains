@@ -1,8 +1,8 @@
 {
-  "name": "Vordium",
+  "name": "Vordium Legacy",
   "chain": "VORD",
   "icon": "vordium",
-  "rpc": ["https://rpc.vordium.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Vordium",
@@ -10,14 +10,9 @@
     "decimals": 18
   },
   "infoURL": "https://vordium.com",
-  "shortName": "vord",
+  "shortName": "vord-legacy",
   "chainId": 1110,
   "networkId": 1110,
-  "explorers": [
-    {
-      "name": "vordscan",
-      "url": "https://vordscan.io",
-      "standard": "EIP3091"
-    }
-  ]
+  "status": "deprecated",
+  "explorers": []
 }

@@ -12071,10 +12071,10 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Vordium",
+  "name": "Vordium Legacy",
   "chain": "VORD",
   "icon": "vordium",
-  "rpc": ["https://rpc.vordium.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Vordium",
@@ -12082,14 +12082,11 @@
     "decimals": 18
   },
   "infoURL": "https://vordium.com",
-  "shortName": "vord",
+  "shortName": "vord-legacy",
   "chainId": 1110,
   "networkId": 1110,
-  "explorers": [{
-    "name": "vordscan",
-    "url": "https://vordscan.io",
-    "standard": "EIP3091"
-  }]
+  "status": "deprecated",
+  "explorers": []
 }, {
   "name": "WEMIX3.0 Mainnet",
   "chain": "WEMIX",
@@ -45552,6 +45549,26 @@
   "explorers": [{
     "name": "Xitcoin Testnet Explorer",
     "url": "https://evm-explorer-testnet.xitcoin.org",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Vordium",
+  "chain": "VORD",
+  "icon": "vordium",
+  "rpc": ["https://rpc.vordium.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Vordium",
+    "symbol": "VORD",
+    "decimals": 18
+  },
+  "infoURL": "https://vordium.com",
+  "shortName": "vord",
+  "chainId": 101101,
+  "networkId": 101101,
+  "explorers": [{
+    "name": "vordscan",
+    "url": "https://vordscan.io",
     "standard": "EIP3091"
   }]
 }, {
