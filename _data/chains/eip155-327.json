@@ -1,0 +1,29 @@
+{
+  "name": "Onyx Mainnet",
+  "chain": "XCN",
+  "rpc": [
+    "https://rpc.onyx.org",
+    "https://rpc.goliath.net",
+    "wss://rpc.onyx.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Onyxcoin",
+    "symbol": "XCN",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://docs.onyx.org",
+  "shortName": "onyx",
+  "chainId": 327,
+  "networkId": 327,
+  "icon": "onyx",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.onyx.org",
+      "icon": "onyx",
+      "standard": "EIP3091"
+    }
+  ]
+}
