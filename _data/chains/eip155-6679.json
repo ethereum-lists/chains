@@ -1,0 +1,25 @@
+{
+  "name": "Fychain",
+  "chain": "FYC",
+  "rpc": [
+    "https://rpc.fychain.org",
+    "https://rpc2.fychain.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Fychain",
+    "symbol": "FYC",
+    "decimals": 18
+  },
+  "infoURL": "https://fychain.org",
+  "shortName": "fyc",
+  "chainId": 6679,
+  "networkId": 6679,
+  "explorers": [
+    {
+      "name": "Fychain Explorer",
+      "url": "https://explorer.fychain.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
