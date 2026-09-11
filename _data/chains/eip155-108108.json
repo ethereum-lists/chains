@@ -8,11 +8,17 @@
   "nativeCurrency": {
     "name": "Nilashyam",
     "symbol": "NILA",
-    "decimals": 8
+    "decimals": 18
   },
   "infoURL": "https://yugala.org",
   "shortName": "kasturi",
   "chainId": 108108,
   "networkId": 108108,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "Satya Darshana",
+      "url": "https://satya.kasturisundari.xyz",
+      "standard": "none"
+    }
+  ]
 }
