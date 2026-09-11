@@ -1,0 +1,25 @@
+{
+  "name": "QoreChain",
+  "chain": "QORE",
+  "icon": "qorechain",
+  "rpc": [
+    "https://evm.qore.host"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QoreChain",
+    "symbol": "QOR",
+    "decimals": 18
+  },
+  "infoURL": "https://www.qorechain.io",
+  "shortName": "qor",
+  "chainId": 9801,
+  "networkId": 9801,
+  "explorers": [
+    {
+      "name": "QoreChain Explorer",
+      "url": "https://explore.qore.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
