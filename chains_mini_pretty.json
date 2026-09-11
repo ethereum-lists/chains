@@ -33045,6 +33045,19 @@
   "faucets": [],
   "infoURL": "https://onfachain.com"
 }, {
+  "name": "Winmar Chain Mainnet",
+  "chainId": 12142816,
+  "shortName": "winmar",
+  "networkId": 12142816,
+  "nativeCurrency": {
+    "name": "Winmar Coin",
+    "symbol": "WMC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.winmarchain.org"],
+  "faucets": [],
+  "infoURL": "https://scan.winmarchain.org"
+}, {
   "name": "NeoX Testnet T3",
   "chainId": 12227331,
   "shortName": "neox",
