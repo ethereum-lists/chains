@@ -1,0 +1,25 @@
+{
+  "name": "TSx Horizon",
+  "chain": "AVAX",
+  "icon": "avax",
+  "rpc": ["https://subnets.avax.network/tsx-horizon/mainnet/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Avalanche",
+    "symbol": "AVAX",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP1559" }],
+  "infoURL": "https://github.com/VenomekPL/TSx-Network",
+  "shortName": "tsx-horizon",
+  "chainId": 455,
+  "networkId": 455,
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "Avalanche Subnet Explorer",
+      "url": "https://subnets.avax.network/tsx-horizon",
+      "standard": "EIP3091"
+    }
+  ]
+}
