@@ -1,0 +1,28 @@
+{
+  "name": "QoreChain",
+  "chain": "QORE",
+  "rpc": [
+    "https://evm.qore.host"
+  ],
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QOR",
+    "symbol": "QOR",
+    "decimals": 18
+  },
+  "infoURL": "https://www.qorechain.io",
+  "shortName": "qore",
+  "chainId": 9801,
+  "networkId": 9801,
+  "explorers": [
+    {
+      "name": "QoreChain Explorer",
+      "url": "https://explore.qore.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
