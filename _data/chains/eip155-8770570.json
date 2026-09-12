@@ -1,0 +1,28 @@
+{
+  "name": "daventre Chain",
+  "chain": "DEV",
+  "rpc": [
+    "https://rpc.8770570.xyz"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DEV",
+    "symbol": "DEV",
+    "decimals": 18
+  },
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" }
+  ],
+  "infoURL": "http://8770570.xyz",
+  "shortName": "daventre",
+  "chainId": 8770570,
+  "networkId": 8770570,
+  "explorers": [
+    {
+      "name": "daventre Explorer",
+      "url": "https://explorer.8770570.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
