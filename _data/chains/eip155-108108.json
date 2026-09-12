@@ -1,12 +1,10 @@
 {
-  "name": "KasturiChain",
-  "chain": "KasturiChain",
-  "rpc": [
-    "https://rpc.yugala.org"
-  ],
+  "name": "KasturiChain Mainnet",
+  "chain": "KASTURI",
+  "rpc": ["https://rpc.yugala.org"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Nilashyama",
+    "name": "Nilashyam",
     "symbol": "NILA",
     "decimals": 18
   },
@@ -18,7 +16,7 @@
     {
       "name": "Satya Explorer",
       "url": "https://satya.kasturisundari.xyz",
-      "standard": "none"
+      "standard": "EIP3091"
     }
   ]
 }
