@@ -1,0 +1,26 @@
+{
+  "name": "Barron Trump",
+  "chain": "BTRUMP",
+  "icon": "barrontrump",
+  "rpc": [
+    "https://rpc.trumpscan.org",
+    "wss://ws.trumpscan.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Barron Trump",
+    "symbol": "BTRUMP",
+    "decimals": 18
+  },
+  "infoURL": "https://trumpscan.org",
+  "shortName": "btrump",
+  "chainId": 7717,
+  "networkId": 7717,
+  "explorers": [
+    {
+      "name": "Barron Trump Explorer",
+      "url": "https://trumpscan.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
