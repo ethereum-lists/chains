@@ -40513,7 +40513,7 @@
   "name": "Ink",
   "chain": "ETH",
   "rpc": ["https://rpc-gel.inkonchain.com", "https://rpc-qnd.inkonchain.com", "wss://rpc-gel.inkonchain.com", "wss://rpc-qnd.inkonchain.com"],
-  "faucets": ["https://inkonchain.com/faucet"],
+  "faucets": [],
   "features": [{
     "name": "EIP155"
   }, {
@@ -51564,7 +51564,7 @@
   "name": "Ink Sepolia",
   "chain": "ETH",
   "rpc": ["https://rpc-gel-sepolia.inkonchain.com", "wss://ws-gel-sepolia.inkonchain.com"],
-  "faucets": [],
+  "faucets": ["https://inkonchain.com/faucet"],
   "features": [{
     "name": "EIP155"
   }, {

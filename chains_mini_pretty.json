@@ -24358,7 +24358,7 @@
     "decimals": 18
   },
   "rpc": ["https://rpc-gel.inkonchain.com", "https://rpc-qnd.inkonchain.com", "wss://rpc-gel.inkonchain.com", "wss://rpc-qnd.inkonchain.com"],
-  "faucets": ["https://inkonchain.com/faucet"],
+  "faucets": [],
   "infoURL": "https://inkonchain.com"
 }, {
   "name": "COINSEC Network",
@@ -30897,7 +30897,7 @@
     "decimals": 18
   },
   "rpc": ["https://rpc-gel-sepolia.inkonchain.com", "wss://ws-gel-sepolia.inkonchain.com"],
-  "faucets": [],
+  "faucets": ["https://inkonchain.com/faucet"],
   "infoURL": "https://inkonchain.com/"
 }, {
   "name": "Surge deprecated Testnet",
