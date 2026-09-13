@@ -11763,6 +11763,26 @@
     "icon": "dia"
   }]
 }, {
+  "name": "Bighive Mainnet",
+  "chain": "BIGHIVE",
+  "rpc": ["https://rpc.bighive-beets.io/osc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Beets",
+    "symbol": "BEETS",
+    "decimals": 18
+  },
+  "infoURL": "https://bighive-beets.io",
+  "shortName": "bighive",
+  "chainId": 1062,
+  "networkId": 1062,
+  "explorers": [{
+    "name": "BDBS",
+    "url": "https://bdbs.bighive-beets.io",
+    "standard": "EIP3091"
+  }],
+  "status": "incubating"
+}, {
   "name": "OpenGPU Mainnet",
   "chain": "OGPU",
   "icon": "ogpu",

@@ -7110,6 +7110,19 @@
   "faucets": [],
   "infoURL": "https://www.diadata.org"
 }, {
+  "name": "Bighive Mainnet",
+  "chainId": 1062,
+  "shortName": "bighive",
+  "networkId": 1062,
+  "nativeCurrency": {
+    "name": "Beets",
+    "symbol": "BEETS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.bighive-beets.io/osc"],
+  "faucets": [],
+  "infoURL": "https://bighive-beets.io"
+}, {
   "name": "OpenGPU Mainnet",
   "chainId": 1071,
   "shortName": "ogpu",
