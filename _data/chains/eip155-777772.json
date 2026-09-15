@@ -1,0 +1,28 @@
+{
+  "name": "MANORA L2 Testnet",
+  "title": "MANORA L2 Testnet",
+  "chain": "MANORA",
+  "rpc": ["https://rpc-test.manoracoin.com"],
+  "faucets": ["https://faucet-test.manoracoin.com"],
+  "nativeCurrency": {
+    "name": "MANORA",
+    "symbol": "MNR",
+    "decimals": 18
+  },
+  "infoURL": "https://manoracoin.com",
+  "shortName": "manora-testnet",
+  "chainId": 777772,
+  "networkId": 777772,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "MANORA Explorer",
+      "url": "https://test.manoracoin.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  }
+}

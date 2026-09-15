@@ -1,0 +1,28 @@
+{
+  "name": "Maroo Testnet",
+  "chain": "MAROO",
+  "icon": "maroo",
+  "rpc": ["https://rpc-testnet.maroo.io"],
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" },
+    { "name": "EIP7702" }
+  ],
+  "faucets": ["https://faucet.maroo.io"],
+  "nativeCurrency": {
+    "name": "Testnet OKRW",
+    "symbol": "tOKRW",
+    "decimals": 18
+  },
+  "infoURL": "https://maroo.io",
+  "shortName": "maroo-testnet",
+  "chainId": 450815,
+  "networkId": 450815,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer-testnet.maroo.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

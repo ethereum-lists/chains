@@ -1,0 +1,21 @@
+{
+  "name": "Crynux on Base Sepolia",
+  "chain": "ETH",
+  "rpc": ["https://json-rpc.base-sepolia.crynux.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Crynux",
+    "symbol": "CNX",
+    "decimals": 18
+  },
+  "infoURL": "https://crynux.io",
+  "shortName": "crynux-base-sepolia",
+  "chainId": 188962142,
+  "networkId": 188962142,
+  "icon": "crynux",
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-84532"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Crynux on Base",
+  "chain": "ETH",
+  "rpc": ["https://json-rpc.base.crynux.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Crynux",
+    "symbol": "CNX",
+    "decimals": 18
+  },
+  "infoURL": "https://crynux.io",
+  "shortName": "crynux-base",
+  "chainId": 18896214,
+  "networkId": 18896214,
+  "icon": "crynux",
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-8453"
+  }
+}

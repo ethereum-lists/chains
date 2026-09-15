@@ -8,7 +8,10 @@
     "wss://base.gateway.tenderly.co",
     "https://base-rpc.publicnode.com",
     "wss://base-rpc.publicnode.com",
-    "https://rpcfree.com/base-rpc"
+    "https://rpcfree.com/base-rpc",
+    "https://rpc.baseazul.dev",
+    "https://rpc.satelink.network/rpc/base",
+    "https://xrpc.cl/base"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -37,11 +40,6 @@
       "name": "dexguru",
       "url": "https://base.dex.guru",
       "icon": "dexguru",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "Routescan",
-      "url": "https://base.superscan.network",
       "standard": "EIP3091"
     }
   ],
