@@ -11760,6 +11760,7 @@
 }, {
   "name": "Bighive Mainnet",
   "chain": "BIGHIVE",
+  "icon": "bighive",
   "rpc": ["https://rpc.bighive-beets.io/osc"],
   "faucets": [],
   "nativeCurrency": {
@@ -13216,6 +13217,40 @@
     "url": "https://omscan.omplatform.com",
     "standard": "none"
   }]
+}, {
+  "name": "Miracle Chain Mainnet",
+  "chain": "MIRX",
+  "icon": "mirx",
+  "rpc": ["https://rpc.miraclechain.com/http", "wss://rpc.miraclechain.com/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PNIC",
+    "symbol": "PNIC",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://miraclechain.com",
+  "shortName": "MIRX",
+  "chainId": 1247,
+  "networkId": 1247,
+  "status": "active",
+  "explorers": [{
+    "name": "MIRX Scan",
+    "url": "https://mirxscan.com",
+    "icon": "mirx",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161",
+    "bridges": [{
+      "url": "https://hub.miraclechain.com"
+    }]
+  }
 }, {
   "name": "Dogether Mainnet",
   "chain": "Dogether",
@@ -52368,6 +52403,40 @@
     "icon": "blx",
     "standard": "none"
   }]
+}, {
+  "name": "Miracle Chain Testnet",
+  "chain": "MIRX",
+  "icon": "mirx",
+  "rpc": ["https://rpc.miraclechain.dev/http", "wss://rpc.miraclechain.dev/ws"],
+  "faucets": ["https://hub.miraclechain.dev"],
+  "nativeCurrency": {
+    "name": "PNIC",
+    "symbol": "PNIC",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://miraclechain.com",
+  "shortName": "MIRXTEST",
+  "chainId": 886699,
+  "networkId": 886699,
+  "status": "active",
+  "explorers": [{
+    "name": "MIRX Scan Testnet",
+    "url": "https://dev.mirxscan.com",
+    "icon": "mirx",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-421614",
+    "bridges": [{
+      "url": "https://hub.miraclechain.dev"
+    }]
+  }
 }, {
   "name": "REXX Mainnet",
   "title": "REXX Mainnet",

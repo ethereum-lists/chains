@@ -8020,6 +8020,19 @@
   "faucets": [],
   "infoURL": "https://omplatform.com/"
 }, {
+  "name": "Miracle Chain Mainnet",
+  "chainId": 1247,
+  "shortName": "MIRX",
+  "networkId": 1247,
+  "nativeCurrency": {
+    "name": "PNIC",
+    "symbol": "PNIC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.miraclechain.com/http", "wss://rpc.miraclechain.com/ws"],
+  "faucets": [],
+  "infoURL": "https://miraclechain.com"
+}, {
   "name": "Dogether Mainnet",
   "chainId": 1248,
   "shortName": "Dogether",
@@ -31341,6 +31354,19 @@
   "rpc": ["https://mainnet-rpc.blxscan.com/"],
   "faucets": [],
   "infoURL": "https://www.blocxchain.org/"
+}, {
+  "name": "Miracle Chain Testnet",
+  "chainId": 886699,
+  "shortName": "MIRXTEST",
+  "networkId": 886699,
+  "nativeCurrency": {
+    "name": "PNIC",
+    "symbol": "PNIC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.miraclechain.dev/http", "wss://rpc.miraclechain.dev/ws"],
+  "faucets": ["https://hub.miraclechain.dev"],
+  "infoURL": "https://miraclechain.com"
 }, {
   "name": "REXX Mainnet",
   "chainId": 888882,
