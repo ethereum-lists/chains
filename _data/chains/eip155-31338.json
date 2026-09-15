@@ -1,18 +1,11 @@
 {
   "name": "BitVault BVM20",
   "chain": "BVM20",
-  "icon": "bitvault",
-  "rpc": [
-    "https://rpc.bitvault.club"
-  ],
-  "features": [
-    { "name": "EIP155" },
-    { "name": "EIP1559" }
-  ],
+  "rpc": ["https://rpc.bitvault.club"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
+    "name": "BitVault Wrapped",
+    "symbol": "BVTW",
     "decimals": 18
   },
   "infoURL": "https://bitvault.club",
