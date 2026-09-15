@@ -12232,6 +12232,32 @@
   "faucets": ["https://xfaucet.xenonchain.com"],
   "infoURL": "https://xenonchain.com"
 }, {
+  "name": "AXON Finance",
+  "chainId": 2966,
+  "shortName": "axon",
+  "networkId": 2966,
+  "nativeCurrency": {
+    "name": "AXON",
+    "symbol": "AXON",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://axonfinance.xyz"
+}, {
+  "name": "AXON Finance Testnet",
+  "chainId": 2967,
+  "shortName": "axon-testnet",
+  "networkId": 2967,
+  "nativeCurrency": {
+    "name": "AXON",
+    "symbol": "AXON",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.axonfinance.xyz"],
+  "faucets": ["https://faucet.axonfinance.xyz"],
+  "infoURL": "https://axonfinance.xyz"
+}, {
   "name": "BitYuan Mainnet",
   "chainId": 2999,
   "shortName": "bty",
