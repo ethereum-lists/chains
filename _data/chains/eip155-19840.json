@@ -1,13 +1,12 @@
 {
   "name": "NOMATRIX Chain",
   "chain": "NXC",
-  "icon": "nomatrix",
   "rpc": [
-    "https://rpc.nomatrixchain.tech"
+    "http://75.119.142.94:8545"
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "NOMATRIX Coin",
+    "name": "NXC",
     "symbol": "NXC",
     "decimals": 18
   },
