@@ -1,0 +1,24 @@
+{
+  "name": "Final Chain",
+  "chain": "Final",
+  "rpc": ["https://chain.final-de.fi"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "vETH",
+    "symbol": "vETH",
+    "decimals": 18
+  },
+  "infoURL": "https://final-de.fi",
+  "shortName": "final",
+  "chainId": 20678,
+  "networkId": 20678,
+  "explorers": [
+    {
+      "name": "Final Explorer",
+      "url": "https://explorer.final-de.fi",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "incubating"
+}
