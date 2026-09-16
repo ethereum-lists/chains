@@ -14360,9 +14360,9 @@
     "symbol": "USDC",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.mainnet.arc.io", "https://rpc.blockdaemon.mainnet.arc.io", "https://rpc.drpc.mainnet.arc.io", "https://rpc.quicknode.mainnet.arc.io"],
   "faucets": [],
-  "infoURL": "https://arc.network"
+  "infoURL": "https://arc.io"
 }, {
   "name": "Skate Mainnet",
   "chainId": 5050,
