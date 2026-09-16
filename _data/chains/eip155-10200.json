@@ -11,7 +11,7 @@
     "https://gnosis-chiado.drpc.org",
     "wss://gnosis-chiado.drpc.org"
   ],
-  "faucets": ["https://gnosisfaucet.com"],
+  "faucets": ["https://faucet.gnosischain.com"],
   "nativeCurrency": {
     "name": "Chiado xDAI",
     "symbol": "XDAI",
@@ -23,12 +23,6 @@
   "networkId": 10200,
   "slip44": 1,
   "explorers": [
-    {
-      "name": "blockscout-chiadochain",
-      "url": "https://blockscout.chiadochain.net",
-      "icon": "blockscout",
-      "standard": "EIP3091"
-    },
     {
       "name": "blockscout",
       "url": "https://gnosis-chiado.blockscout.com",
