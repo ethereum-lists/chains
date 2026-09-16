@@ -2,7 +2,10 @@
   "name": "Arc",
   "chain": "Arc",
   "icon": "arcnetwork",
-  "rpc": ["https://arc-rpc.publicnode.com","wss://arc-rpc.publicnode.com"],
+  "rpc": [
+    "https://arc-rpc.publicnode.com",
+    "wss://arc-rpc.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "USDC",
