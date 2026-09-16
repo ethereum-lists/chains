@@ -3,7 +3,9 @@
   "chain": "ETH",
   "rpc": [
     "https://rpc-gel-sepolia.inkonchain.com",
-    "wss://ws-gel-sepolia.inkonchain.com"
+    "wss://ws-gel-sepolia.inkonchain.com",
+    "https://ink-sepolia-rpc.publicnode.com",
+    "wss://ink-sepolia-rpc.publicnode.com"
   ],
   "faucets": ["https://inkonchain.com/faucet"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
