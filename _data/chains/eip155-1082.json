@@ -1,0 +1,25 @@
+{
+  "name": "Anannta",
+  "chain": "ANANTA",
+  "rpc": [
+    "https://rpc-anant.ananntascan.io",
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Anannta",
+    "symbol": "ANANT",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" },{ name: "EVM" },{ name: "Cosmos-SDK" },{ "name": "EIP1559" }],
+  "infoURL": "https://anannta.io",
+  "shortName": "anta",
+  "chainId": 1082,
+  "networkId": 1082,
+  "icon": "anannta",
+  "explorers": [{
+    "name": "Anannta Explorer",
+    "url": "https://ananntascan.io",  
+    "icon": "anannta",
+    "standard": "EIP3091"
+  }]
+}
