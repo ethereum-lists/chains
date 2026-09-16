@@ -5,7 +5,9 @@
     "https://rpc-gel.inkonchain.com",
     "https://rpc-qnd.inkonchain.com",
     "wss://rpc-gel.inkonchain.com",
-    "wss://rpc-qnd.inkonchain.com"
+    "wss://rpc-qnd.inkonchain.com",
+    "https://ink-rpc.publicnode.com",
+    "wss://ink-rpc.publicnode.com"
   ],
   "faucets": [],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
