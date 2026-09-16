@@ -1,22 +1,22 @@
 {
-  "name": "Story",
-  "chain": "STORY",
-  "rpc": ["https://mainnet.storyrpc.io"],
+  "name": "Data Network",
+  "chain": "DATA",
+  "rpc": ["https://mainnet.datarpc.io"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "IP Token",
-    "symbol": "IP",
+    "name": "DATA",
+    "symbol": "DATA",
     "decimals": 18
   },
-  "infoURL": "https://story.foundation/",
-  "icon": "story",
-  "shortName": "sty",
+  "infoURL": "https://datafdn.org/",
+  "icon": "data",
+  "shortName": "data",
   "chainId": 1514,
   "networkId": 1514,
   "explorers": [
     {
       "name": "blockscout",
-      "url": "https://mainnet.storyscan.xyz",
+      "url": "https://datanetscan.io",
       "standard": "EIP3091"
     }
   ]

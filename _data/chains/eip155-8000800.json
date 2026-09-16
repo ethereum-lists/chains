@@ -1,0 +1,23 @@
+{
+  "name": "JMDT Testnet",
+  "chain": "JMDT",
+  "rpc": ["https://testnetrpc.jmdt.io"],
+  "faucets": ["https://faucet.jmdt.io"],
+  "nativeCurrency": {
+    "name": "Test JMDT",
+    "symbol": "tJMDT",
+    "decimals": 18
+  },
+  "infoURL": "https://jmdt.io",
+  "shortName": "tjmdt",
+  "chainId": 8000800,
+  "networkId": 8000800,
+  "icon": "jmdt",
+  "explorers": [
+    {
+      "name": "JMDT Testnet Explorer",
+      "url": "https://explorer.jmdt.io/testnet",
+      "standard": "EIP3091"
+    }
+  ]
+}

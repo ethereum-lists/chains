@@ -1,0 +1,23 @@
+{
+  "name": "GUT Network",
+  "chain": "GUT",
+  "rpc": ["https://rpc.gut.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GUT",
+    "symbol": "GUT",
+    "decimals": 18
+  },
+  "infoURL": "https://gut.network",
+  "shortName": "gut",
+  "chainId": 3078101055,
+  "networkId": 3078101055,
+  "icon": "gut",
+  "explorers": [
+    {
+      "name": "GUT Explorer",
+      "url": "https://explorer.gut.network",
+      "standard": "none"
+    }
+  ]
+}
