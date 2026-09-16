@@ -1,0 +1,20 @@
+{
+  "name": "QoreChain Testnet",
+  "title": "QoreChain Testnet Diana",
+  "chain": "QORE",
+  "icon": "qorechain",
+  "rpc": [
+    "https://evm-testnet.qore.host"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QoreChain Testnet",
+    "symbol": "QOR",
+    "decimals": 18
+  },
+  "infoURL": "https://www.qorechain.io",
+  "shortName": "qor-testnet",
+  "chainId": 9800,
+  "networkId": 9800,
+  "slip44": 1
+}
