@@ -1,9 +1,7 @@
 {
   "name": "PeerCash Testnet",
   "chain": "PEER",
-  "rpc": [
-    "https://testrpc.peercash.io"
-  ],
+  "rpc": ["https://testrpc.peercash.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "PeerCash",
