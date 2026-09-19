@@ -1,0 +1,25 @@
+{
+  "name": "Genesis Network",
+  "chain": "GNS",
+  "icon": "genesis-gns",
+  "rpc": [
+    "https://rpc.gnsscan.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Genesis",
+    "symbol": "GNS",
+    "decimals": 18
+  },
+  "infoURL": "https://master.gnsscan.com",
+  "shortName": "gns",
+  "chainId": 383838,
+  "networkId": 383838,
+  "explorers": [
+    {
+      "name": "Genesis Explorer",
+      "url": "https://master.gnsscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
