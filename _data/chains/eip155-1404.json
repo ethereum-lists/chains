@@ -1,0 +1,28 @@
+{
+  "name": "BlockDAG",
+  "chain": "BDAG",
+  "rpc": ["https://rpc.blockdag.works", "https://rpc.blockdag.engineering/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BDAG",
+    "symbol": "BDAG",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://blockdag.network",
+  "shortName": "bdag",
+  "chainId": 1404,
+  "networkId": 1404,
+  "explorers": [
+    {
+      "name": "BlockDAG Explorer",
+      "url": "https://explorer.blockdag.engineering",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "BlockDAG Super Explorer",
+      "url": "https://explorer.blockdag.works",
+      "standard": "EIP3091"
+    }
+  ]
+}
