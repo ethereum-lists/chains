@@ -1,0 +1,25 @@
+{
+  "name": "BRDPoSChain",
+  "chain": "BRDPoS",
+  "icon": "brdpos",
+  "rpc": [
+    "https://rpc.birr.foundation"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Birr",
+    "symbol": "BRC",
+    "decimals": 18
+  },
+  "infoURL": "https://birr.foundation",
+  "shortName": "brdpos",
+  "chainId": 3669,
+  "networkId": 3669,
+  "explorers": [
+    {
+      "name": "BRDPoSChain Explorer",
+      "url": "https://birr.foundation",
+      "standard": "none"
+    }
+  ]
+}
