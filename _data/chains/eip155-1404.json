@@ -1,0 +1,22 @@
+{
+  "name": "BlockDAG",
+  "chain": "BDAG",
+  "rpc": ["https://rpc.bdagexplorer.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BlockDAG",
+    "symbol": "BDAG",
+    "decimals": 18
+  },
+  "infoURL": "https://bdagexplorer.com",
+  "shortName": "bdag",
+  "chainId": 1404,
+  "networkId": 1404,
+  "explorers": [
+    {
+      "name": "BDAG Explorer",
+      "url": "https://explorer.bdagexplorer.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
