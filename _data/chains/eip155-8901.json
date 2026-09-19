@@ -1,0 +1,27 @@
+{
+  "name": "Onyx Testnet",
+  "chain": "XCN",
+  "rpc": ["https://rpc.testnet.goliath.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Onyxcoin",
+    "symbol": "XCN",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://docs.onyx.org",
+  "shortName": "onyx-testnet",
+  "chainId": 8901,
+  "networkId": 8901,
+  "icon": "onyx",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://testnet.explorer.goliath.net",
+      "icon": "onyx",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "incubating"
+}
+``
