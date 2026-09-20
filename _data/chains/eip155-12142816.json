@@ -1,20 +1,28 @@
 {
-  "name": "Winmar Chain Mainnet",
+  "name": "Winmar Chain",
   "chain": "WMC",
-  "rpc": ["https://rpc.winmarchain.org"],
+  "rpc": [
+    "https://rpc.winmarchain.io",
+    "https://rpc.winmarchain.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Winmar Coin",
     "symbol": "WMC",
     "decimals": 18
   },
-  "infoURL": "https://scan.winmarchain.org",
+  "infoURL": "https://winmarchain.io",
   "shortName": "winmar",
   "chainId": 12142816,
   "networkId": 12142816,
   "explorers": [
     {
       "name": "Winmar Chain Explorer",
+      "url": "https://scan.winmarchain.io",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Winmar Chain Explorer Alternate",
       "url": "https://scan.winmarchain.org",
       "standard": "EIP3091"
     }
