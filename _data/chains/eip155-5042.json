@@ -2,10 +2,7 @@
   "name": "Arc",
   "chain": "Arc",
   "icon": "arcnetwork",
-  "rpc": [
-    "https://arc.drpc.org", 
-    "wss://arc.drpc.org"
-  ],
+  "rpc": ["https://arc.drpc.org", "wss://arc.drpc.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "USDC",
