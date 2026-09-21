@@ -14074,7 +14074,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://robinhood-rpc.publicnode.com", "wss://robinhood-rpc.publicnode.com", "https://rpc.arrowrpc.com", "https://rpc.ordofi.network", "wss://rpc.ordofi.network"],
+  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://robinhood-rpc.publicnode.com", "wss://robinhood-rpc.publicnode.com", "https://rpc.arrowrpc.com", "https://rpc.ordofi.network", "wss://rpc.ordofi.network", "https://robinhood.drpc.org", "wss://robinhood.drpc.org"],
   "faucets": [],
   "infoURL": "https://docs.robinhood.com/chain"
 }, {
@@ -14360,7 +14360,7 @@
     "symbol": "USDC",
     "decimals": 18
   },
-  "rpc": ["https://rpc.mainnet.arc.io", "https://rpc.blockdaemon.mainnet.arc.io", "https://rpc.drpc.mainnet.arc.io", "https://rpc.quicknode.mainnet.arc.io", "https://rpc.beamrpc.com", "wss://rpc.beamrpc.com"],
+  "rpc": ["https://rpc.mainnet.arc.io", "https://rpc.blockdaemon.mainnet.arc.io", "https://rpc.drpc.mainnet.arc.io", "https://rpc.quicknode.mainnet.arc.io", "https://rpc.beamrpc.com", "wss://rpc.beamrpc.com", "https://arc.drpc.org", "wss://arc.drpc.org"],
   "faucets": [],
   "infoURL": "https://arc.io"
 }, {
@@ -23616,7 +23616,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.testnet.chain.robinhood.com/rpc", "https://robinhood-sepolia-rpc.publicnode.com", "wss://robinhood-sepolia-rpc.publicnode.com"],
+  "rpc": ["https://rpc.testnet.chain.robinhood.com/rpc", "https://robinhood-sepolia-rpc.publicnode.com", "wss://robinhood-sepolia-rpc.publicnode.com", "https://robinhood-testnet.drpc.org", "wss://robinhood-testnet.drpc.org"],
   "faucets": [],
   "infoURL": "https://docs.robinhood.com/chain/"
 }, {
@@ -32352,7 +32352,7 @@
     "symbol": "USDC",
     "decimals": 18
   },
-  "rpc": ["https://rpc.testnet.arc.network", "wss://rpc.testnet.arc.network", "https://rpc.quicknode.testnet.arc.network", "wss://rpc.quicknode.testnet.arc.network", "https://rpc.blockdaemon.testnet.arc.network"],
+  "rpc": ["https://rpc.testnet.arc.network", "wss://rpc.testnet.arc.network", "https://rpc.quicknode.testnet.arc.network", "wss://rpc.quicknode.testnet.arc.network", "https://rpc.blockdaemon.testnet.arc.network", "https://arc-testnet.drpc.org", "wss://arc-testnet.drpc.org"],
   "faucets": ["https://faucet.circle.com/"],
   "infoURL": "https://arc.network"
 }, {

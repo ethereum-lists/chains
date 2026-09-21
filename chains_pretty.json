@@ -23312,7 +23312,7 @@
 }, {
   "name": "Robinhood Chain",
   "chain": "ETH",
-  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://robinhood-rpc.publicnode.com", "wss://robinhood-rpc.publicnode.com", "https://rpc.arrowrpc.com", "https://rpc.ordofi.network", "wss://rpc.ordofi.network"],
+  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://robinhood-rpc.publicnode.com", "wss://robinhood-rpc.publicnode.com", "https://rpc.arrowrpc.com", "https://rpc.ordofi.network", "wss://rpc.ordofi.network", "https://robinhood.drpc.org", "wss://robinhood.drpc.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -23851,7 +23851,7 @@
   "name": "Arc",
   "chain": "Arc",
   "icon": "arcnetwork",
-  "rpc": ["https://rpc.mainnet.arc.io", "https://rpc.blockdaemon.mainnet.arc.io", "https://rpc.drpc.mainnet.arc.io", "https://rpc.quicknode.mainnet.arc.io", "https://rpc.beamrpc.com", "wss://rpc.beamrpc.com"],
+  "rpc": ["https://rpc.mainnet.arc.io", "https://rpc.blockdaemon.mainnet.arc.io", "https://rpc.drpc.mainnet.arc.io", "https://rpc.quicknode.mainnet.arc.io", "https://rpc.beamrpc.com", "wss://rpc.beamrpc.com", "https://arc.drpc.org", "wss://arc.drpc.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "USDC",
@@ -39235,7 +39235,7 @@
   "name": "Robinhood Chain Testnet",
   "title": "Robinhood Chain Testnet",
   "chain": "ETH",
-  "rpc": ["https://rpc.testnet.chain.robinhood.com/rpc", "https://robinhood-sepolia-rpc.publicnode.com", "wss://robinhood-sepolia-rpc.publicnode.com"],
+  "rpc": ["https://rpc.testnet.chain.robinhood.com/rpc", "https://robinhood-sepolia-rpc.publicnode.com", "wss://robinhood-sepolia-rpc.publicnode.com", "https://robinhood-testnet.drpc.org", "wss://robinhood-testnet.drpc.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
@@ -54089,7 +54089,7 @@
   "name": "Arc Network Testnet",
   "chain": "Arc Network",
   "icon": "arcnetwork",
-  "rpc": ["https://rpc.testnet.arc.network", "wss://rpc.testnet.arc.network", "https://rpc.quicknode.testnet.arc.network", "wss://rpc.quicknode.testnet.arc.network", "https://rpc.blockdaemon.testnet.arc.network"],
+  "rpc": ["https://rpc.testnet.arc.network", "wss://rpc.testnet.arc.network", "https://rpc.quicknode.testnet.arc.network", "wss://rpc.quicknode.testnet.arc.network", "https://rpc.blockdaemon.testnet.arc.network", "https://arc-testnet.drpc.org", "wss://arc-testnet.drpc.org"],
   "faucets": ["https://faucet.circle.com/"],
   "nativeCurrency": {
     "name": "USDC",
