@@ -12479,6 +12479,19 @@
   "faucets": [],
   "infoURL": "https://filecoin.io"
 }, {
+  "name": "AVI OS",
+  "chainId": 3210,
+  "shortName": "avi-os",
+  "networkId": 3210,
+  "nativeCurrency": {
+    "name": "AVI",
+    "symbol": "AVI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-os.avicoin.org"],
+  "faucets": [],
+  "infoURL": "https://os.avicoin.org"
+}, {
   "name": "XO Market",
   "chainId": 3223,
   "shortName": "xo",
