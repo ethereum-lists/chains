@@ -2,7 +2,16 @@
   "name": "Arc",
   "chain": "Arc",
   "icon": "arcnetwork",
-  "rpc": ["https://arc.drpc.org", "wss://arc.drpc.org"],
+  "rpc": [
+    "https://rpc.mainnet.arc.io",
+    "https://rpc.blockdaemon.mainnet.arc.io",
+    "https://rpc.drpc.mainnet.arc.io",
+    "https://rpc.quicknode.mainnet.arc.io",
+    "https://rpc.beamrpc.com",
+    "wss://rpc.beamrpc.com",
+    "https://arc.drpc.org",
+    "wss://arc.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "USDC",
