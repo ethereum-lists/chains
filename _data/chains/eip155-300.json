@@ -4,7 +4,8 @@
   "rpc": [
     "https://sepolia.era.zksync.dev",
     "https://zksync-sepolia.drpc.org",
-    "wss://zksync-sepolia.drpc.org"
+    "wss://zksync-sepolia.drpc.org",
+    "https://hostdefi.com/api/rpc/zksync-sepolia"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -29,7 +30,13 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://bridge.zksync.io/" }]
+    "bridges": [
+      {
+        "url": "https://bridge.zksync.io/"
+      }
+    ]
   },
-  "redFlags": ["reusedChainId"]
+  "redFlags": [
+    "reusedChainId"
+  ]
 }

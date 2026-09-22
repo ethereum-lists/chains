@@ -9,9 +9,12 @@
     "https://gnosis-chiado-rpc.publicnode.com",
     "wss://gnosis-chiado-rpc.publicnode.com",
     "https://gnosis-chiado.drpc.org",
-    "wss://gnosis-chiado.drpc.org"
+    "wss://gnosis-chiado.drpc.org",
+    "https://hostdefi.com/api/rpc/gnosis-chiado"
   ],
-  "faucets": ["https://faucet.gnosischain.com"],
+  "faucets": [
+    "https://faucet.gnosischain.com"
+  ],
   "nativeCurrency": {
     "name": "Chiado xDAI",
     "symbol": "XDAI",

@@ -2,8 +2,18 @@
   "name": "Monad Testnet",
   "chain": "MON",
   "icon": "monad",
-  "rpc": ["https://testnet-rpc.monad.xyz"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [
+    "https://testnet-rpc.monad.xyz",
+    "https://hostdefi.com/api/rpc/monad-testnet"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Testnet MON Token",

@@ -4,9 +4,12 @@
   "rpc": [
     "https://evm-t3.cronos.org",
     "https://cronos-testnet.drpc.org",
-    "wss://cronos-testnet.drpc.org"
+    "wss://cronos-testnet.drpc.org",
+    "https://hostdefi.com/api/rpc/cronos-testnet"
   ],
-  "faucets": ["https://cronos.org/faucet"],
+  "faucets": [
+    "https://cronos.org/faucet"
+  ],
   "nativeCurrency": {
     "name": "Cronos Test Coin",
     "symbol": "TCRO",

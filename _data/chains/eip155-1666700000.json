@@ -1,8 +1,13 @@
 {
   "name": "Harmony Testnet Shard 0",
   "chain": "Harmony",
-  "rpc": ["https://api.s0.b.hmny.io"],
-  "faucets": ["https://faucet.pops.one"],
+  "rpc": [
+    "https://api.s0.b.hmny.io",
+    "https://hostdefi.com/api/rpc/harmony-testnet"
+  ],
+  "faucets": [
+    "https://faucet.pops.one"
+  ],
   "nativeCurrency": {
     "name": "ONE",
     "symbol": "ONE",

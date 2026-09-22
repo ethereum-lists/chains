@@ -4,15 +4,22 @@
   "rpc": [
     "https://rpc.blaze.soniclabs.com",
     "https://sonic-blaze-rpc.publicnode.com",
-    "wss://sonic-blaze-rpc.publicnode.com"
+    "wss://sonic-blaze-rpc.publicnode.com",
+    "https://hostdefi.com/api/rpc/sonic-blaze"
   ],
-  "faucets": ["https://blaze.soniclabs.com/account"],
+  "faucets": [
+    "https://blaze.soniclabs.com/account"
+  ],
   "nativeCurrency": {
     "name": "Sonic",
     "symbol": "S",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://blaze.soniclabs.com",
   "shortName": "blaze",
   "chainId": 57054,

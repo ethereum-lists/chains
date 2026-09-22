@@ -2,7 +2,10 @@
   "name": "Polygon zkEVM Cardona Testnet",
   "title": "Polygon zkEVM Cardona Testnet",
   "chain": "Polygon",
-  "rpc": ["https://rpc.cardona.zkevm-rpc.com"],
+  "rpc": [
+    "https://rpc.cardona.zkevm-rpc.com",
+    "https://hostdefi.com/api/rpc/polygon-zkevm-cardona"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -24,6 +27,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://bridge-ui.cardona.zkevm-rpc.com" }]
+    "bridges": [
+      {
+        "url": "https://bridge-ui.cardona.zkevm-rpc.com"
+      }
+    ]
   }
 }

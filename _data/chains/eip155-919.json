@@ -1,8 +1,13 @@
 {
   "name": "Mode Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia.mode.network"],
-  "faucets": ["https://sepoliafaucet.com/"],
+  "rpc": [
+    "https://sepolia.mode.network",
+    "https://hostdefi.com/api/rpc/mode-sepolia"
+  ],
+  "faucets": [
+    "https://sepoliafaucet.com/"
+  ],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
@@ -29,6 +34,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://bridge.mode.network/" }]
+    "bridges": [
+      {
+        "url": "https://bridge.mode.network/"
+      }
+    ]
   }
 }

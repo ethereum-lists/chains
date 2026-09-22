@@ -9,9 +9,12 @@
     "https://opbnb-testnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5",
     "wss://opbnb-testnet.nodereal.io/ws/v1/e9a36765eb8a40b9bd12e680a1fd2bc5",
     "https://opbnb-testnet-rpc.publicnode.com",
-    "wss://opbnb-testnet-rpc.publicnode.com"
+    "wss://opbnb-testnet-rpc.publicnode.com",
+    "https://hostdefi.com/api/rpc/opbnb-testnet"
   ],
-  "faucets": ["https://testnet.bnbchain.org/faucet-smart"],
+  "faucets": [
+    "https://testnet.bnbchain.org/faucet-smart"
+  ],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
     "symbol": "tBNB",

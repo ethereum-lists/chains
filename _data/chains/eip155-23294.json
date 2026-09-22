@@ -2,7 +2,11 @@
   "name": "Oasis Sapphire",
   "chain": "Sapphire",
   "icon": "oasis",
-  "rpc": ["https://sapphire.oasis.io", "wss://sapphire.oasis.io/ws"],
+  "rpc": [
+    "https://sapphire.oasis.io",
+    "wss://sapphire.oasis.io/ws",
+    "https://hostdefi.com/api/rpc/oasis-sapphire"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sapphire Rose",

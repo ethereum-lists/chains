@@ -4,9 +4,12 @@
   "rpc": [
     "https://sepolia.metisdevops.link",
     "https://metis-sepolia-rpc.publicnode.com",
-    "wss://metis-sepolia-rpc.publicnode.com"
+    "wss://metis-sepolia-rpc.publicnode.com",
+    "https://hostdefi.com/api/rpc/metis-sepolia"
   ],
-  "faucets": ["https://sepolia.faucet.metisdevops.link"],
+  "faucets": [
+    "https://sepolia.faucet.metisdevops.link"
+  ],
   "nativeCurrency": {
     "name": "tMetis",
     "symbol": "tMETIS",
@@ -26,6 +29,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://bridge.metis.io" }]
+    "bridges": [
+      {
+        "url": "https://bridge.metis.io"
+      }
+    ]
   }
 }
