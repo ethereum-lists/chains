@@ -22372,6 +22372,19 @@
   "faucets": [],
   "infoURL": "https://web3games.com/"
 }, {
+  "name": "Numen Mainnet",
+  "chainId": 32026,
+  "shortName": "numn",
+  "networkId": 32026,
+  "nativeCurrency": {
+    "name": "Numen",
+    "symbol": "NUMN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.numen-network.org", "wss://rpc.numen-network.org"],
+  "faucets": [],
+  "infoURL": "https://numen-network.org"
+}, {
   "name": "BasedAI",
   "chainId": 32323,
   "shortName": "basedai",
@@ -29521,6 +29534,19 @@
   "rpc": ["https://api.calibration.node.glif.io/rpc/v1", "https://rpc.ankr.com/filecoin_testnet", "https://filecoin-calibration.chainstacklabs.com/rpc/v1", "https://filecoin-calibration.chainup.net/rpc/v1", "https://calibration.filfox.info/rpc/v1", "https://filecoin-calibration.drpc.org", "wss://filecoin-calibration.drpc.org"],
   "faucets": ["https://faucet.calibration.fildev.network/"],
   "infoURL": "https://filecoin.io"
+}, {
+  "name": "Numen Testnet",
+  "chainId": 320261,
+  "shortName": "tnumn",
+  "networkId": 320261,
+  "nativeCurrency": {
+    "name": "Testnet Numen",
+    "symbol": "tNUMN",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.rpc.numen-network.org", "wss://testnet.rpc.numen-network.org"],
+  "faucets": [],
+  "infoURL": "https://numen-network.org"
 }, {
   "name": "Parex Mainnet",
   "chainId": 322202,
