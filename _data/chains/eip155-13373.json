@@ -1,0 +1,23 @@
+{
+  "name": "Liberty Testnet",
+  "chain": "LBRTY",
+  "icon": "lbrty",
+  "rpc": ["https://testnet-rpc.libertychain.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Liberty",
+    "symbol": "LBRTY",
+    "decimals": 18
+  },
+  "infoURL": "https://libertychain.org",
+  "shortName": "lbrty-testnet",
+  "chainId": 13373,
+  "networkId": 13373,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.libertychain.org",
+      "standard": "EIP3091"
+    }
+  ]
+}

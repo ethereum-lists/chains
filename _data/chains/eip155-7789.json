@@ -1,0 +1,23 @@
+{
+  "name": "WCAHT",
+  "chain": "WCAHT",
+  "icon": "wcaht",
+  "rpc": ["https://denvion.com/eth"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WCAHT",
+    "symbol": "WCAHT",
+    "decimals": 18
+  },
+  "infoURL": "https://denvion.com",
+  "shortName": "wcaht",
+  "chainId": 7789,
+  "networkId": 7789,
+  "explorers": [
+    {
+      "name": "WCAHT Explorer",
+      "url": "https://denvion.com/explorer",
+      "standard": "EIP3091"
+    }
+  ]
+}

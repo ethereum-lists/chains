@@ -1,0 +1,23 @@
+{
+  "name": "Imperium Mainnet",
+  "chain": "IMP",
+  "rpc": [
+    "https://rpc.imperiumscan.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Imperium",
+    "symbol": "IMP",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://imperiumscan.com",
+  "shortName": "imp",
+  "chainId": 9819,
+  "networkId": 9819,
+  "explorers": [{
+    "name": "Imperium Scan",
+    "url": "https://imperiumscan.com",
+    "standard": "none"
+  }]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "ZORYQ EVM Testnet",
+  "chain": "ZORYQ",
+  "rpc": [
+    "https://zoryq-evm-node-live-production.up.railway.app/rpc"
+  ],
+  "faucets": [
+    "https://zoryq-evm-node-live-production.up.railway.app/start"
+  ],
+  "nativeCurrency": {
+    "name": "ZORYQ Testnet",
+    "symbol": "ZQ",
+    "decimals": 18
+  },
+  "infoURL": "https://zoryq-evm-node-live-production.up.railway.app/start",
+  "shortName": "zoryqt",
+  "chainId": 5919065,
+  "networkId": 5919065,
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "explorers": [
+    {
+      "name": "ZORYQ Testnet Explorer",
+      "url": "https://zoryq-evm-node-live-production.up.railway.app/explorer",
+      "standard": "EIP3091"
+    }
+  ]
+}

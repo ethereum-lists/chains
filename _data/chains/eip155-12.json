@@ -12,5 +12,12 @@
   "shortName": "kal",
   "chainId": 12,
   "networkId": 12,
-  "slip44": 1
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Metadium Testnet Explorer",
+      "url": "https://testnetexplorer.metadium.com",
+      "standard": "EIP3091"
+    }
+  ]
 }

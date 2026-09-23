@@ -1,0 +1,24 @@
+{
+  "name": "AERE Network",
+  "chain": "AERE",
+  "icon": "aere",
+  "rpc": ["https://rpc.aere.network", "https://rpc2.aere.network"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AERE",
+    "symbol": "AERE",
+    "decimals": 18
+  },
+  "infoURL": "https://aere.network",
+  "shortName": "aere",
+  "chainId": 2800,
+  "networkId": 2800,
+  "explorers": [
+    {
+      "name": "AERE Explorer",
+      "url": "https://explorer.aere.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
