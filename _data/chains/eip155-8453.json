@@ -11,7 +11,8 @@
     "https://rpcfree.com/base-rpc",
     "https://rpc.baseazul.dev",
     "https://rpc.satelink.network/rpc/base",
-    "https://xrpc.cl/base"
+    "https://xrpc.cl/base",
+    "https://rpc.swiftnodes.io/rpc/base?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
