@@ -8,9 +8,7 @@
     "wss://avalanche-fuji-c-chain-rpc.publicnode.com",
     "https://hostdefi.com/api/rpc/avalanche-fuji"
   ],
-  "faucets": [
-    "https://faucet.avax-test.network/"
-  ],
+  "faucets": ["https://faucet.avax-test.network/"],
   "nativeCurrency": {
     "name": "Avalanche",
     "symbol": "AVAX",

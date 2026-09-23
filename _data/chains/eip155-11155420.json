@@ -7,9 +7,7 @@
     "wss://optimism-sepolia.drpc.org",
     "https://hostdefi.com/api/rpc/optimism-sepolia"
   ],
-  "faucets": [
-    "https://app.optimism.io/faucet"
-  ],
+  "faucets": ["https://app.optimism.io/faucet"],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",

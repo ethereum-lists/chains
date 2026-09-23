@@ -2,10 +2,7 @@
   "name": "Monad",
   "chain": "MON",
   "icon": "monad",
-  "rpc": [
-    "https://rpc.monad.xyz",
-    "https://hostdefi.com/api/rpc/monad"
-  ],
+  "rpc": ["https://rpc.monad.xyz", "https://hostdefi.com/api/rpc/monad"],
   "features": [
     {
       "name": "EIP155"

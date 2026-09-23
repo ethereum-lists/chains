@@ -7,9 +7,7 @@
     "wss://sonic-blaze-rpc.publicnode.com",
     "https://hostdefi.com/api/rpc/sonic-blaze"
   ],
-  "faucets": [
-    "https://blaze.soniclabs.com/account"
-  ],
+  "faucets": ["https://blaze.soniclabs.com/account"],
   "nativeCurrency": {
     "name": "Sonic",
     "symbol": "S",

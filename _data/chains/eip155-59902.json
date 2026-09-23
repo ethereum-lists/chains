@@ -7,9 +7,7 @@
     "wss://metis-sepolia-rpc.publicnode.com",
     "https://hostdefi.com/api/rpc/metis-sepolia"
   ],
-  "faucets": [
-    "https://sepolia.faucet.metisdevops.link"
-  ],
+  "faucets": ["https://sepolia.faucet.metisdevops.link"],
   "nativeCurrency": {
     "name": "tMetis",
     "symbol": "tMETIS",

@@ -7,9 +7,7 @@
     "wss://cronos-testnet.drpc.org",
     "https://hostdefi.com/api/rpc/cronos-testnet"
   ],
-  "faucets": [
-    "https://cronos.org/faucet"
-  ],
+  "faucets": ["https://cronos.org/faucet"],
   "nativeCurrency": {
     "name": "Cronos Test Coin",
     "symbol": "TCRO",

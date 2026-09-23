@@ -5,9 +5,7 @@
     "https://babel-api.testnet.iotex.io",
     "https://hostdefi.com/api/rpc/iotex-testnet"
   ],
-  "faucets": [
-    "https://faucet.iotex.io/"
-  ],
+  "faucets": ["https://faucet.iotex.io/"],
   "nativeCurrency": {
     "name": "IoTeX",
     "symbol": "IOTX",

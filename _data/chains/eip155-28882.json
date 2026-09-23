@@ -9,9 +9,7 @@
     "wss://gateway.tenderly.co/public/boba-sepolia",
     "https://hostdefi.com/api/rpc/boba-sepolia"
   ],
-  "faucets": [
-    "https://www.l2faucet.com/boba"
-  ],
+  "faucets": ["https://www.l2faucet.com/boba"],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",

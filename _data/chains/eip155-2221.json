@@ -9,9 +9,7 @@
     "wss://kava-testnet.drpc.org",
     "https://hostdefi.com/api/rpc/kava-testnet"
   ],
-  "faucets": [
-    "https://faucet.kava.io"
-  ],
+  "faucets": ["https://faucet.kava.io"],
   "nativeCurrency": {
     "name": "TKava",
     "symbol": "TKAVA",

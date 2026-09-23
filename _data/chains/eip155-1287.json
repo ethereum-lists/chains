@@ -17,9 +17,7 @@
     "wss://moonbase-alpha.drpc.org",
     "https://hostdefi.com/api/rpc/moonbase-alpha"
   ],
-  "faucets": [
-    "https://faucet.moonbeam.network/"
-  ],
+  "faucets": ["https://faucet.moonbeam.network/"],
   "nativeCurrency": {
     "name": "Dev",
     "symbol": "DEV",
