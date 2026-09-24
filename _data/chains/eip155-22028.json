@@ -1,7 +1,9 @@
 {
   "name": "ZEVARYQ Mainnet",
   "chain": "ZVQ",
-  "rpc": ["https://rpc.kriptoaman.com"],
+  "rpc": [
+    "https://rpc.kriptoaman.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ZEVARYQ",
@@ -12,7 +14,7 @@
   "shortName": "zevaryq",
   "chainId": 22028,
   "networkId": 22028,
-  "icon": "kriptoaman",
+  "icon": "zevaryq",
   "status": "active",
   "explorers": [
     {
