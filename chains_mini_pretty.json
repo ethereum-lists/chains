@@ -8579,6 +8579,19 @@
   "faucets": [],
   "infoURL": "https://polygon.technology/solutions/polygon-zkevm/"
 }, {
+  "name": "BlockDAG",
+  "chainId": 1404,
+  "shortName": "bdag",
+  "networkId": 1404,
+  "nativeCurrency": {
+    "name": "BlockDAG",
+    "symbol": "BDAG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.bdagexplorer.com/"],
+  "faucets": [],
+  "infoURL": "https://bdagexplorer.com"
+}, {
   "name": "Silicon zkEVM Sepolia Testnet(Deprecated)",
   "chainId": 1414,
   "shortName": "silicon-sepolia-testnet-deprecated",
