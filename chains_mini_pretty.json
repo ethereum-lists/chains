@@ -30523,6 +30523,19 @@
   "faucets": ["https://faucet.hoodi.ethpandaops.io", "https://hoodi-faucet.pk910.de/"],
   "infoURL": "https://hoodi.ethpandaops.io"
 }, {
+  "name": "PeerCash Testnet",
+  "chainId": 563321,
+  "shortName": "pctest",
+  "networkId": 563321,
+  "nativeCurrency": {
+    "name": "PeerCash",
+    "symbol": "PEER",
+    "decimals": 18
+  },
+  "rpc": ["https://testrpc.peercash.io"],
+  "faucets": [],
+  "infoURL": "https://peercash.io"
+}, {
   "name": "ONE Chain Testnet",
   "chainId": 612044,
   "shortName": "tone",

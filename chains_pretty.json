@@ -50942,6 +50942,25 @@
     "standard": "none"
   }]
 }, {
+  "name": "PeerCash Testnet",
+  "chain": "PEER",
+  "rpc": ["https://testrpc.peercash.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PeerCash",
+    "symbol": "PEER",
+    "decimals": 18
+  },
+  "infoURL": "https://peercash.io",
+  "shortName": "pctest",
+  "chainId": 563321,
+  "networkId": 563321,
+  "explorers": [{
+    "name": "PeerCash Testnet Explorer",
+    "url": "https://testexplorer.peercash.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "ONE Chain Testnet",
   "chain": "ONE",
   "rpc": ["https://testnet.onechain.nexus:22001", "wss://testnet.onechain.nexus:32001"],
