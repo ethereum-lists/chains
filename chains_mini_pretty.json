@@ -33370,6 +33370,19 @@
   "faucets": [],
   "infoURL": "https://crynux.io"
 }, {
+  "name": "Crynux on RH",
+  "chainId": 18896215,
+  "shortName": "crynux-rh",
+  "networkId": 18896215,
+  "nativeCurrency": {
+    "name": "Crynux",
+    "symbol": "CNX",
+    "decimals": 18
+  },
+  "rpc": ["https://json-rpc.rh.crynux.io"],
+  "faucets": [],
+  "infoURL": "https://crynux.io"
+}, {
   "name": "DeepBrainChain Testnet",
   "chainId": 19850818,
   "shortName": "tDBC",
@@ -34355,6 +34368,19 @@
     "decimals": 18
   },
   "rpc": ["https://json-rpc.base-sepolia.crynux.io"],
+  "faucets": [],
+  "infoURL": "https://crynux.io"
+}, {
+  "name": "Crynux on RH Testnet",
+  "chainId": 188962150,
+  "shortName": "crynux-rh-testnet",
+  "networkId": 188962150,
+  "nativeCurrency": {
+    "name": "Testnet Crynux",
+    "symbol": "CNX",
+    "decimals": 18
+  },
+  "rpc": ["https://json-rpc.rh-testnet.crynux.io"],
   "faucets": [],
   "infoURL": "https://crynux.io"
 }, {
