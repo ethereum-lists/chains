@@ -17874,6 +17874,19 @@
   "faucets": [],
   "infoURL": "https://evmos.org"
 }, {
+  "name": "Kortana",
+  "chainId": 9002,
+  "shortName": "kortana",
+  "networkId": 9002,
+  "nativeCurrency": {
+    "name": "Dinar",
+    "symbol": "DNR",
+    "decimals": 18
+  },
+  "rpc": ["https://zeus-rpc.mainnet.kortana.xyz"],
+  "faucets": [],
+  "infoURL": "https://kortana.network"
+}, {
   "name": "Qubetics Alpha Testnet",
   "chainId": 9003,
   "shortName": "QubeticsAlpha",
