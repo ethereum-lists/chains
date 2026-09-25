@@ -1,7 +1,10 @@
 {
   "name": "Mantle Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://rpc.sepolia.mantle.xyz"],
+  "rpc": [
+    "https://rpc.sepolia.mantle.xyz",
+    "https://hostdefi.com/api/rpc/mantle-sepolia"
+  ],
   "faucets": ["https://faucet.sepolia.mantle.xyz"],
   "nativeCurrency": {
     "name": "Sepolia Mantle",

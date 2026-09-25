@@ -6,7 +6,8 @@
     "https://boba-sepolia.gateway.tenderly.co",
     "https://gateway.tenderly.co/public/boba-sepolia",
     "wss://boba-sepolia.gateway.tenderly.co/",
-    "wss://gateway.tenderly.co/public/boba-sepolia"
+    "wss://gateway.tenderly.co/public/boba-sepolia",
+    "https://hostdefi.com/api/rpc/boba-sepolia"
   ],
   "faucets": ["https://www.l2faucet.com/boba"],
   "nativeCurrency": {
@@ -18,7 +19,6 @@
   "shortName": "BobaSepolia",
   "chainId": 28882,
   "networkId": 28882,
-
   "explorers": [
     {
       "name": "Routescan",

@@ -4,7 +4,8 @@
   "rpc": [
     "https://mainnet.era.zksync.io",
     "https://zksync.drpc.org",
-    "wss://zksync.drpc.org"
+    "wss://zksync.drpc.org",
+    "https://hostdefi.com/api/rpc/zksync-era"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -28,6 +29,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.zksync.io/" }]
+    "bridges": [
+      {
+        "url": "https://bridge.zksync.io/"
+      }
+    ]
   }
 }

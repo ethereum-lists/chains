@@ -1,7 +1,10 @@
 {
   "name": "Fuse Sparknet",
   "chain": "fuse",
-  "rpc": ["https://rpc.fusespark.io"],
+  "rpc": [
+    "https://rpc.fusespark.io",
+    "https://hostdefi.com/api/rpc/fuse-spark"
+  ],
   "faucets": ["https://get.fusespark.io"],
   "nativeCurrency": {
     "name": "Spark",

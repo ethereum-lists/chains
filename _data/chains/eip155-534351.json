@@ -8,7 +8,8 @@
     "https://scroll-sepolia.chainstacklabs.com",
     "https://scroll-testnet-public.unifra.io",
     "https://scroll-sepolia-rpc.publicnode.com",
-    "wss://scroll-sepolia-rpc.publicnode.com"
+    "wss://scroll-sepolia-rpc.publicnode.com",
+    "https://hostdefi.com/api/rpc/scroll-sepolia"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -31,6 +32,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://sepolia.scroll.io/bridge" }]
+    "bridges": [
+      {
+        "url": "https://sepolia.scroll.io/bridge"
+      }
+    ]
   }
 }

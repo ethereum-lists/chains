@@ -2,7 +2,10 @@
   "name": "DFK Chain",
   "chain": "DFK",
   "icon": "dfk",
-  "rpc": ["https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc"],
+  "rpc": [
+    "https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc",
+    "https://hostdefi.com/api/rpc/avalanche-dfk"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Jewel",
