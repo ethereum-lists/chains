@@ -1,0 +1,28 @@
+{
+  "name": "PMT Mainnet",
+  "chain": "PMT",
+  "rpc": [
+    "https://node1.pmtchain.com",
+    "https://node2.pmtchain.com",
+    "https://node3.pmtchain.com",
+    "https://node4.pmtchain.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PMT",
+    "symbol": "PMT",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://publicmasterpiece.com",
+  "shortName": "pmt",
+  "chainId": 290290,
+  "networkId": 290290,
+  "explorers": [
+    {
+      "name": "PMTScan",
+      "url": "https://pmtscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
