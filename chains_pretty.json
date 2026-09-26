@@ -52087,6 +52087,36 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Syrax Chain Testnet",
+  "chain": "SRX",
+  "rpc": ["https://rpc.syrax.global"],
+  "faucets": ["https://www.syrax.global/faucet.html"],
+  "nativeCurrency": {
+    "name": "Syrax Token",
+    "symbol": "SRX",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://www.syrax.global",
+  "shortName": "syrax-testnet",
+  "chainId": 797290,
+  "networkId": 797290,
+  "slip44": 1,
+  "explorers": [{
+    "name": "Syrax Chain Explorer",
+    "url": "https://explorer.syrax.global",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  },
+  "status": "active"
+}, {
   "name": "OctaSpace",
   "chain": "OCTA",
   "rpc": ["https://rpc.octa.space", "wss://rpc.octa.space"],

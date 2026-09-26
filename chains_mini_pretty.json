@@ -31199,6 +31199,19 @@
   "faucets": [],
   "infoURL": "https://emeraldzscan.com"
 }, {
+  "name": "Syrax Chain Testnet",
+  "chainId": 797290,
+  "shortName": "syrax-testnet",
+  "networkId": 797290,
+  "nativeCurrency": {
+    "name": "Syrax Token",
+    "symbol": "SRX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.syrax.global"],
+  "faucets": ["https://www.syrax.global/faucet.html"],
+  "infoURL": "https://www.syrax.global"
+}, {
   "name": "OctaSpace",
   "chainId": 800001,
   "shortName": "octa",
