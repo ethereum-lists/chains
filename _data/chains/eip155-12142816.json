@@ -1,7 +1,7 @@
 {
   "name": "Winmar Chain",
   "chain": "WMC",
-  "rpc": ["https://rpc.winmarchain.io", "https://rpc.winmarchain.org"],
+  "rpc": ["https://rpc.winmarchain.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Winmar Coin",
@@ -16,11 +16,6 @@
     {
       "name": "Winmar Chain Explorer",
       "url": "https://scan.winmarchain.io",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "Winmar Chain Explorer Alternate",
-      "url": "https://scan.winmarchain.org",
       "standard": "EIP3091"
     }
   ]
