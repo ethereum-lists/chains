@@ -1,0 +1,25 @@
+{
+  "name": "SCDO Shard 0",
+  "chain": "SCDO",
+  "icon": "scdo0",
+  "rpc": ["https://scdoscan.io/rpc/0"],
+  "faucets": ["https://scdoscan.io/start.html#faucet"],
+  "nativeCurrency": {
+    "name": "SCDO",
+    "symbol": "SCDO",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://scdoscan.io",
+  "shortName": "scdo0",
+  "chainId": 5680,
+  "networkId": 5680,
+  "explorers": [
+    {
+      "name": "scdoscan",
+      "url": "https://scdoscan.io",
+      "icon": "scdo",
+      "standard": "EIP3091"
+    }
+  ]
+}
