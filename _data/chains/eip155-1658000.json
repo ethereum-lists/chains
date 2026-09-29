@@ -1,0 +1,27 @@
+{
+  "name": "Bana Mainnet",
+  "chain": "BWA",
+  "rpc": ["https://rpc.banascan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BWA",
+    "symbol": "BWA",
+    "decimals": 18
+  },
+  "infoURL": "https://banascan.com",
+  "shortName": "bana",
+  "chainId": 1658000,
+  "networkId": 1658000,
+  "explorers": [
+    {
+      "name": "BanaScan",
+      "url": "https://banascan.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  },
+  "status": "active"
+}
