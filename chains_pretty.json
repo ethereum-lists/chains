@@ -14418,6 +14418,31 @@
   },
   "redFlags": ["reusedChainId"]
 }, {
+  "name": "CRYMAD Chain",
+  "chain": "CMX",
+  "rpc": ["https://rpc.cmxofficial.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CryMadX",
+    "symbol": "CMX-R",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://cmxofficial.com",
+  "shortName": "cmxr",
+  "chainId": 1475,
+  "networkId": 1475,
+  "icon": "cmxr",
+  "explorers": [{
+    "name": "CRYMAD Chain Explorer",
+    "url": "https://explorer.cmxofficial.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Vana",
   "chain": "Vana",
   "rpc": ["https://rpc.vana.org/"],
@@ -26929,6 +26954,31 @@
     "icon": "rarimo"
   }],
   "status": "active"
+}, {
+  "name": "CRYMAD Chain L2",
+  "chain": "CMX",
+  "rpc": ["https://rpcl2.cmxofficial.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CryMadX",
+    "symbol": "CMX-R",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://cmxofficial.com",
+  "shortName": "cmxr-l2",
+  "chainId": 7373,
+  "networkId": 7373,
+  "icon": "cmxr",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1475"
+  },
+  "explorers": []
 }, {
   "name": "TokClaw Blockchain",
   "shortName": "TokClaw",

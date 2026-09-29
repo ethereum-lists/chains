@@ -8748,6 +8748,19 @@
   "faucets": [],
   "infoURL": "https://zkbase.org/"
 }, {
+  "name": "CRYMAD Chain",
+  "chainId": 1475,
+  "shortName": "cmxr",
+  "networkId": 1475,
+  "nativeCurrency": {
+    "name": "CryMadX",
+    "symbol": "CMX-R",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.cmxofficial.com"],
+  "faucets": [],
+  "infoURL": "https://cmxofficial.com"
+}, {
   "name": "Vana",
   "chainId": 1480,
   "shortName": "vana",
@@ -16222,6 +16235,19 @@
   "rpc": ["https://l2.rarimo.com", "wss://wss.l2.rarimo.com"],
   "faucets": [],
   "infoURL": "https://rarimo.com"
+}, {
+  "name": "CRYMAD Chain L2",
+  "chainId": 7373,
+  "shortName": "cmxr-l2",
+  "networkId": 7373,
+  "nativeCurrency": {
+    "name": "CryMadX",
+    "symbol": "CMX-R",
+    "decimals": 18
+  },
+  "rpc": ["https://rpcl2.cmxofficial.com"],
+  "faucets": [],
+  "infoURL": "https://cmxofficial.com"
 }, {
   "name": "TokClaw Blockchain",
   "chainId": 7447,
