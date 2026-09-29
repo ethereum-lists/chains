@@ -3,7 +3,7 @@
   "chain": "QMS",
   "rpc": ["https://rpc.testnet.qms.finance", "wss://rpc.testnet.qms.finance"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "faucets": ["https://faucet.testnet.qms.finance"],
+  "faucets": [],
   "nativeCurrency": { "name": "QMS", "symbol": "QMS", "decimals": 18 },
   "infoURL": "https://qms.finance",
   "shortName": "qmstest",
