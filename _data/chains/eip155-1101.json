@@ -5,8 +5,7 @@
   "rpc": [
     "https://zkevm-rpc.com",
     "https://polygon-zkevm.drpc.org",
-    "wss://polygon-zkevm.drpc.org",
-    "https://rpc.swiftnodes.io/rpc/polygon-zkevm?key=${SWIFTNODES_API_KEY}"
+    "wss://polygon-zkevm.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -19,7 +18,14 @@
   "chainId": 1101,
   "networkId": 1101,
   "icon": "zkevm",
-  "explorers": [],
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://zkevm.polygonscan.com",
+      "icon": "zkevm",
+      "standard": "EIP3091"
+    }
+  ],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
