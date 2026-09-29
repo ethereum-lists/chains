@@ -42542,8 +42542,8 @@
 }, {
   "name": "SELEMAN Chain",
   "chain": "SMN",
-  "rpc": ["https://seleman.monarcaproject.com/rpc", "https://seleman-edge.mineriafjs.workers.dev/rpc", "wss://seleman-ws.monarcaproject.com"],
-  "faucets": ["https://seleman.monarcaproject.com/trust-wallet"],
+  "rpc": ["https://explorer.primevertexlabs.com.mx/rpc", "https://seleman-edge.mineriafjs.workers.dev/rpc", "wss://explorer-ws.primevertexlabs.com.mx"],
+  "faucets": ["https://explorer.primevertexlabs.com.mx/trust-wallet", "https://explorer.primevertexlabs.com.mx/faucet"],
   "nativeCurrency": {
     "name": "SELEMAN",
     "symbol": "SMN",
@@ -42554,14 +42554,14 @@
   }, {
     "name": "EIP1559"
   }],
-  "infoURL": "https://seleman.monarcaproject.com/seleman-chain",
+  "infoURL": "https://explorer.primevertexlabs.com.mx/seleman-chain",
   "shortName": "seleman",
   "chainId": 73571,
   "networkId": 73571,
   "slip44": 73571,
   "explorers": [{
     "name": "seleman",
-    "url": "https://seleman.monarcaproject.com",
+    "url": "https://explorer.primevertexlabs.com.mx",
     "standard": "EIP3091"
   }]
 }, {

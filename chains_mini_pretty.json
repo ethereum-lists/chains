@@ -25527,9 +25527,9 @@
     "symbol": "SMN",
     "decimals": 18
   },
-  "rpc": ["https://seleman.monarcaproject.com/rpc", "https://seleman-edge.mineriafjs.workers.dev/rpc", "wss://seleman-ws.monarcaproject.com"],
-  "faucets": ["https://seleman.monarcaproject.com/trust-wallet"],
-  "infoURL": "https://seleman.monarcaproject.com/seleman-chain"
+  "rpc": ["https://explorer.primevertexlabs.com.mx/rpc", "https://seleman-edge.mineriafjs.workers.dev/rpc", "wss://explorer-ws.primevertexlabs.com.mx"],
+  "faucets": ["https://explorer.primevertexlabs.com.mx/trust-wallet", "https://explorer.primevertexlabs.com.mx/faucet"],
+  "infoURL": "https://explorer.primevertexlabs.com.mx/seleman-chain"
 }, {
   "name": "NV-CHAIN",
   "chainId": 73790,
