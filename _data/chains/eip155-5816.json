@@ -9,15 +9,13 @@
     "symbol": "SHIB",
     "decimals": 18
   },
-  "rpc": [
-    "https://rpc.shib.club/"
-  ],
+  "rpc": ["https://rpc.shib.club/"],
   "faucets": [],
   "infoURL": "https://doc.shib.club/",
   "explorers": [
     {
       "name": "Shib Explorer",
-      "url": "https://explorer.shib.club/",
+      "url": "https://explorer.shib.club",
       "standard": "EIP3091"
     }
   ]
