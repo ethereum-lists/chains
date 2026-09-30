@@ -28066,6 +28066,19 @@
   "faucets": [],
   "infoURL": "https://rphxscan.com"
 }, {
+  "name": "Mersennet Testnet",
+  "chainId": 131071,
+  "shortName": "mrsnt",
+  "networkId": 131071,
+  "nativeCurrency": {
+    "name": "Mersennet",
+    "symbol": "MRSN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mersennet.com", "wss://rpc.mersennet.com"],
+  "faucets": ["https://faucet.mersennet.com"],
+  "infoURL": "https://mersennet.com"
+}, {
   "name": "Odyssey Chain (Testnet)",
   "chainId": 131313,
   "shortName": "DIONE",

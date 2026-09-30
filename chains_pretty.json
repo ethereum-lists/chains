@@ -46757,6 +46757,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Mersennet Testnet",
+  "title": "Mersennet Public Testnet",
+  "chain": "MRSN",
+  "rpc": ["https://rpc.mersennet.com", "wss://rpc.mersennet.com"],
+  "faucets": ["https://faucet.mersennet.com"],
+  "nativeCurrency": {
+    "name": "Mersennet",
+    "symbol": "MRSN",
+    "decimals": 18
+  },
+  "infoURL": "https://mersennet.com",
+  "shortName": "mrsnt",
+  "chainId": 131071,
+  "networkId": 131071,
+  "slip44": 1,
+  "explorers": [{
+    "name": "Mersennet Explorer",
+    "url": "https://explorer.mersennet.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Odyssey Chain (Testnet)",
   "chain": "DIONE",
   "rpc": ["https://testnode.dioneprotocol.com/ext/bc/D/rpc"],
