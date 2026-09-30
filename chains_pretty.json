@@ -44042,6 +44042,20 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Atoshi Original Mainnet",
+  "chain": "ATOS",
+  "rpc": ["https://rpc.atoshinetwork.xyz", "https://explorer.atoshinetwork.xyz/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Atoshi",
+    "symbol": "ATOS",
+    "decimals": 18
+  },
+  "infoURL": "https://explorer.atoshinetwork.xyz",
+  "shortName": "atmain",
+  "chainId": 88188,
+  "networkId": 88188
+}, {
   "name": "InoAi",
   "chain": "INOAI",
   "faucets": [],

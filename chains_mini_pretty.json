@@ -26467,6 +26467,19 @@
   "faucets": [],
   "infoURL": "https://swapshark.net"
 }, {
+  "name": "Atoshi Original Mainnet",
+  "chainId": 88188,
+  "shortName": "atmain",
+  "networkId": 88188,
+  "nativeCurrency": {
+    "name": "Atoshi",
+    "symbol": "ATOS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.atoshinetwork.xyz", "https://explorer.atoshinetwork.xyz/rpc"],
+  "faucets": [],
+  "infoURL": "https://explorer.atoshinetwork.xyz"
+}, {
   "name": "InoAi",
   "chainId": 88559,
   "shortName": "INO",
