@@ -5,7 +5,7 @@
   "icon": "neura",
   "rpc": ["https://rpc.ankr.com/neura_testnet"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "faucets": [],
+  "faucets": ["https://testnet.neuraprotocol.io/faucet"],
   "nativeCurrency": {
     "name": "Testnet Ankr",
     "symbol": "ANKR",
