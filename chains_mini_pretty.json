@@ -11257,6 +11257,19 @@
   "faucets": ["https://faucet.clubmos.com"],
   "infoURL": "https://www.clubmos.com"
 }, {
+  "name": "Moca Chain Mainnet",
+  "chainId": 2288,
+  "shortName": "moca",
+  "networkId": 2288,
+  "nativeCurrency": {
+    "name": "MOCA",
+    "symbol": "MOCA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mocachain.org"],
+  "faucets": [],
+  "infoURL": "https://mocachain.org"
+}, {
   "name": "BOMB Chain",
   "chainId": 2300,
   "shortName": "bomb",
@@ -14598,18 +14611,18 @@
   "faucets": ["https://faucet.seismictest.net"],
   "infoURL": "https://seismic.systems"
 }, {
-  "name": "Moca Chain Testnet",
+  "name": "Moca Chain Devnet",
   "chainId": 5151,
-  "shortName": "MOCA",
+  "shortName": "moca-devnet",
   "networkId": 5151,
   "nativeCurrency": {
     "name": "MOCA",
     "symbol": "MOCA",
     "decimals": 18
   },
-  "rpc": ["https://testnet-rpc.mechain.tech"],
-  "faucets": ["https://faucet.mechain.tech"],
-  "infoURL": "https://mechain.tech"
+  "rpc": ["https://rpc.devnet-2.mocachain.dev"],
+  "faucets": [],
+  "infoURL": "https://mocachain.org"
 }, {
   "name": "Bahamut",
   "chainId": 5165,
@@ -29118,6 +29131,19 @@
   "rpc": ["https://testnet.deeplnetwork.org"],
   "faucets": ["https://faucet.deeplnetwork.org"],
   "infoURL": "https://deeplnetwork.org"
+}, {
+  "name": "Moca Chain Testnet",
+  "chainId": 222888,
+  "shortName": "moca-testnet",
+  "networkId": 222888,
+  "nativeCurrency": {
+    "name": "MOCA",
+    "symbol": "MOCA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.mocachain.org"],
+  "faucets": ["https://faucet.mocachain.org"],
+  "infoURL": "https://mocachain.org"
 }, {
   "name": "B20 Testnet",
   "chainId": 223344,
