@@ -1,0 +1,24 @@
+{
+  "name": "SCDO Shard0 (EVM)",
+  "chain": "SCDO",
+  "rpc": [
+    "https://scdoscan.io/rpc/0"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SCDO",
+    "symbol": "SCDO",
+    "decimals": 18
+  },
+  "infoURL": "https://scdoscan.io",
+  "shortName": "scdo",
+  "chainId": 5680,
+  "networkId": 5680,
+  "explorers": [
+    {
+      "name": "SCDO Scan",
+      "url": "https://scdoscan.io",
+      "standard": "none"
+    }
+  ]
+}
