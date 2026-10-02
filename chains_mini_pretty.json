@@ -5719,6 +5719,19 @@
   "faucets": [],
   "infoURL": "https://cheapeth.org/"
 }, {
+  "name": "PXA Chain",
+  "chainId": 784,
+  "shortName": "pxa",
+  "networkId": 784,
+  "nativeCurrency": {
+    "name": "PXA",
+    "symbol": "PXA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.pxachain.com"],
+  "faucets": [],
+  "infoURL": "https://pxachain.com"
+}, {
   "name": "AUTHEO Testnet",
   "chainId": 785,
   "shortName": "autheo-Test-Chain",

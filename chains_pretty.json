@@ -9519,6 +9519,25 @@
   "chainId": 777,
   "networkId": 777
 }, {
+  "name": "PXA Chain",
+  "chain": "PXA",
+  "rpc": ["https://rpc.pxachain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PXA",
+    "symbol": "PXA",
+    "decimals": 18
+  },
+  "infoURL": "https://pxachain.com",
+  "shortName": "pxa",
+  "chainId": 784,
+  "networkId": 784,
+  "explorers": [{
+    "name": "PXA Explorer",
+    "url": "https://explorer.pxachain.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "AUTHEO Testnet",
   "chain": "AUTHEO Testnet",
   "rpc": ["https://testnet-rpc1.autheo.com"],
