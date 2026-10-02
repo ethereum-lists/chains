@@ -3964,6 +3964,19 @@
   "faucets": [],
   "infoURL": "https://www.thetatoken.org/"
 }, {
+  "name": "Dancore",
+  "chainId": 362,
+  "shortName": "dnc",
+  "networkId": 362,
+  "nativeCurrency": {
+    "name": "Dancore",
+    "symbol": "DNC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.dancorescan.com"],
+  "faucets": [],
+  "infoURL": "https://dancore.io"
+}, {
   "name": "Theta Sapphire Testnet",
   "chainId": 363,
   "shortName": "theta-sapphire",
