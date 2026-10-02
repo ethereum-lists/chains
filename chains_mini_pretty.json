@@ -25076,6 +25076,19 @@
   "faucets": ["https://onmidas.xyz/developers#faucet"],
   "infoURL": "https://onmidas.xyz"
 }, {
+  "name": "MigoChain Testnet",
+  "chainId": 64460,
+  "shortName": "migo-test",
+  "networkId": 64460,
+  "nativeCurrency": {
+    "name": "MigoCoin",
+    "symbol": "MIGO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.migochain.org", "wss://rpc.testnet.migochain.org/ws"],
+  "faucets": [],
+  "infoURL": "https://github.com/MigoChain/MigoChain-Core"
+}, {
   "name": "CratD2C Testnet Deprecated",
   "chainId": 65349,
   "shortName": "cratd2c-testnet-deprecated",
