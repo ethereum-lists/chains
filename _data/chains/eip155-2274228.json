@@ -1,0 +1,33 @@
+{
+  "name": "CashCat Chain",
+  "chainId": 2274228,
+  "shortName": "cashcat",
+  "chain": "CASHCAT",
+  "networkId": 2274228,
+  "nativeCurrency": {
+    "name": "Cash Cat",
+    "symbol": "CASHCAT",
+    "decimals": 18
+  },
+  "rpc": [
+    "https://rpc.cashcat.network"
+  ],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "CashCat Explorer",
+      "url": "https://explorer.cashcat.network",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://cashcat.network",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-4663",
+    "bridges": [
+      {
+        "url": "https://bridge.cashcat.network"
+      }
+    ]
+  }
+}
