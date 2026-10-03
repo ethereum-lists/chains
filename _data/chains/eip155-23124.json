@@ -1,0 +1,24 @@
+{
+  "name": "Fem",
+  "chain": "FEM",
+  "icon": "fem",
+  "rpc": [
+    "https://femchain.up.railway.app"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Fem",
+    "symbol": "FEM",
+    "decimals": 18
+  },
+  "infoURL": "https://fem.network",
+  "shortName": "fem",
+  "chainId": 23124,
+  "networkId": 23124,
+  "slip44": 60,
+  "explorers": [],
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" }
+  ]
+}
