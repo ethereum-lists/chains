@@ -5,7 +5,8 @@
   "rpc": [
     "https://zkevm-rpc.com",
     "https://polygon-zkevm.drpc.org",
-    "wss://polygon-zkevm.drpc.org"
+    "wss://polygon-zkevm.drpc.org",
+    "https://hostdefi.com/api/rpc/polygon-zkevm"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -29,6 +30,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.zkevm-rpc.com" }]
+    "bridges": [
+      {
+        "url": "https://bridge.zkevm-rpc.com"
+      }
+    ]
   }
 }

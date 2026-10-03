@@ -5,7 +5,8 @@
   "rpc": [
     "https://api.avax-test.network/ext/bc/C/rpc",
     "https://avalanche-fuji-c-chain-rpc.publicnode.com",
-    "wss://avalanche-fuji-c-chain-rpc.publicnode.com"
+    "wss://avalanche-fuji-c-chain-rpc.publicnode.com",
+    "https://hostdefi.com/api/rpc/avalanche-fuji"
   ],
   "faucets": ["https://faucet.avax-test.network/"],
   "nativeCurrency": {
