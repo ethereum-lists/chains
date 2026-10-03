@@ -1,0 +1,22 @@
+{
+  "name": "Shib Mainnet",
+  "chainId": 5816,
+  "shortName": "shib",
+  "chain": "SHIB",
+  "networkId": 5816,
+  "nativeCurrency": {
+    "name": "SHIB",
+    "symbol": "SHIB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.shib.club/"],
+  "faucets": [],
+  "infoURL": "https://doc.shib.club/",
+  "explorers": [
+    {
+      "name": "Shib Explorer",
+      "url": "https://explorer.shib.club",
+      "standard": "EIP3091"
+    }
+  ]
+}
