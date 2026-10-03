@@ -6,7 +6,8 @@
     "https://sonic-rpc.publicnode.com",
     "wss://sonic-rpc.publicnode.com",
     "https://sonic.drpc.org",
-    "wss://sonic.drpc.org"
+    "wss://sonic.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/sonic?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
