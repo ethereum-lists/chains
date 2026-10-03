@@ -1,7 +1,6 @@
 {
-  "name": "SCDO Shard 0",
+  "name": "SCDO Shard0",
   "chain": "SCDO",
-  "icon": "scdo0",
   "rpc": ["https://scdoscan.io/rpc/0"],
   "faucets": ["https://scdoscan.io/start.html#faucet"],
   "nativeCurrency": {
@@ -18,7 +17,6 @@
     {
       "name": "scdoscan",
       "url": "https://scdoscan.io",
-      "icon": "scdo",
       "standard": "EIP3091"
     }
   ]
