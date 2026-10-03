@@ -10854,6 +10854,19 @@
   "faucets": [],
   "infoURL": "https://centrifuge.io"
 }, {
+  "name": "PikoChain",
+  "chainId": 2099,
+  "shortName": "pikochain",
+  "networkId": 2099,
+  "nativeCurrency": {
+    "decimals": 18,
+    "name": "PIKO",
+    "symbol": "PIKO"
+  },
+  "rpc": ["https://pikochain.serveousercontent.com"],
+  "faucets": [],
+  "infoURL": "https://pikochain.serveousercontent.com"
+}, {
   "name": "Ecoball Mainnet",
   "chainId": 2100,
   "shortName": "eco",
