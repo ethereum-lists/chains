@@ -20951,8 +20951,8 @@
     "symbol": "QMS",
     "decimals": 18
   },
-  "rpc": [],
-  "faucets": [],
+  "rpc": ["https://rpc.testnet.qms.finance", "wss://rpc.testnet.qms.finance"],
+  "faucets": ["https://faucet.testnet.qms.finance"],
   "infoURL": "https://qms.finance"
 }, {
   "name": "SEC Testnet",
