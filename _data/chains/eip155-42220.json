@@ -9,7 +9,11 @@
     "symbol": "CELO",
     "decimals": 18
   },
-  "rpc": ["https://forno.celo.org", "wss://forno.celo.org/ws"],
+  "rpc": [
+    "https://forno.celo.org",
+    "wss://forno.celo.org/ws",
+    "https://rpc.hostdefi.com/api/rpc/celo"
+  ],
   "faucets": [],
   "infoURL": "https://docs.celo.org/",
   "parent": {
