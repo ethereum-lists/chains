@@ -1,0 +1,27 @@
+{
+  "name": "Banteng Chain Testnet",
+  "chain": "BTG",
+  "rpc": [
+    "https://rpc1.banteng.asia",
+    "https://rpc2.banteng.asia",
+    "https://banteng-rpc.ymzkb.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Banteng Coin",
+    "symbol": "tBTG",
+    "decimals": 18
+  },
+  "infoURL": "https://banteng.asia",
+  "shortName": "tbanteng",
+  "chainId": 993,
+  "networkId": 993,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "Banteng Explorer",
+      "url": "https://explorer.banteng.asia",
+      "standard": "EIP3091"
+    }
+  ]
+}
