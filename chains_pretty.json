@@ -53881,6 +53881,31 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Bana Mainnet",
+  "chain": "BWA",
+  "icon": "bana",
+  "rpc": ["https://rpc.banascan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BWA",
+    "symbol": "BWA",
+    "decimals": 18
+  },
+  "infoURL": "https://banascan.com",
+  "shortName": "bana",
+  "chainId": 1658000,
+  "networkId": 1658000,
+  "explorers": [{
+    "name": "BanaScan",
+    "url": "https://banascan.com",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  },
+  "status": "active"
+}, {
   "name": "Primea Network Testnet",
   "chain": "Primea Network Testnet",
   "rpc": ["http://test-rpc.primeanetwork.com/rpc-http", "https://test-rpc.primeanetwork.com/rpc-https", "ws://test-rpc.primeanetwork.com/rpc-ws", "wss://test-rpc.primeanetwork.com/rpc-wss"],

@@ -32226,6 +32226,19 @@
   "faucets": [],
   "infoURL": "https://xter.io"
 }, {
+  "name": "Bana Mainnet",
+  "chainId": 1658000,
+  "shortName": "bana",
+  "networkId": 1658000,
+  "nativeCurrency": {
+    "name": "BWA",
+    "symbol": "BWA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.banascan.com"],
+  "faucets": [],
+  "infoURL": "https://banascan.com"
+}, {
   "name": "Primea Network Testnet",
   "chainId": 1698369,
   "shortName": "test-goldpn",
