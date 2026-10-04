@@ -29652,6 +29652,19 @@
   "faucets": [],
   "infoURL": "https://zillnet.io"
 }, {
+  "name": "PMT Mainnet",
+  "chainId": 290290,
+  "shortName": "pmt",
+  "networkId": 290290,
+  "nativeCurrency": {
+    "name": "PMT",
+    "symbol": "PMT",
+    "decimals": 18
+  },
+  "rpc": ["https://node1.pmtchain.com", "https://node2.pmtchain.com", "https://node3.pmtchain.com", "https://node4.pmtchain.com"],
+  "faucets": [],
+  "infoURL": "https://publicmasterpiece.com"
+}, {
   "name": "BetaXChain Mainnet",
   "chainId": 290783,
   "shortName": "betax",
