@@ -11543,6 +11543,19 @@
   "faucets": ["https://evm-faucet.nexis.network"],
   "infoURL": "https://nexis.network/"
 }, {
+  "name": "Aeva Testnet",
+  "chainId": 2382,
+  "shortName": "aeva-testnet",
+  "networkId": 2382,
+  "nativeCurrency": {
+    "name": "AEVA",
+    "symbol": "AEVA",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.aevachain.com"],
+  "faucets": ["https://faucet.aevachain.com"],
+  "infoURL": "https://aevachain.com"
+}, {
   "name": "TAC Turin",
   "chainId": 2390,
   "shortName": "tacchain_2390-1",
