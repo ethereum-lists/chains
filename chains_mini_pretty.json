@@ -15521,6 +15521,19 @@
   "faucets": ["https://faucet.awaji.mizuhiki.io"],
   "infoURL": "https://mizuhiki.io/"
 }, {
+  "name": "MIZUHIKI Mainnet",
+  "chainId": 6498,
+  "shortName": "MIZUHIKI",
+  "networkId": 6498,
+  "nativeCurrency": {
+    "name": "MIZU",
+    "symbol": "MIZU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mizuhiki.io"],
+  "faucets": [],
+  "infoURL": "https://mizuhiki.io/"
+}, {
   "name": "Peerpay",
   "chainId": 6502,
   "shortName": "Peerpay",
