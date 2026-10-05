@@ -7,8 +7,6 @@
     "wss://wss.api.moonbeam.network",
     "https://moonbeam.public.blastapi.io",
     "wss://moonbeam.public.blastapi.io",
-    "https://moonbeam-rpc.dwellir.com",
-    "wss://moonbeam-rpc.dwellir.com",
     "https://moonbeam.api.onfinality.io/public",
     "wss://moonbeam.api.onfinality.io/public-ws",
     "https://moonbeam.unitedbloc.com",
@@ -30,9 +28,10 @@
   "networkId": 1284,
   "explorers": [
     {
-      "name": "moonscan",
-      "url": "https://moonbeam.moonscan.io",
-      "standard": "none"
+      "name": "subscan",
+      "url": "https://moonbeam.subscan.io",
+      "standard": "none",
+      "icon": "subscan"
     }
   ]
 }

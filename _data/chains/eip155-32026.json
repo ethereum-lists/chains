@@ -1,0 +1,23 @@
+{
+  "name": "Numen Mainnet",
+  "chain": "NUMN",
+  "rpc": ["https://rpc.numen-network.org", "wss://rpc.numen-network.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Numen",
+    "symbol": "NUMN",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://numen-network.org",
+  "shortName": "numn",
+  "chainId": 32026,
+  "networkId": 32026,
+  "explorers": [
+    {
+      "name": "Numen Explorer",
+      "url": "https://explorer.numen-network.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
