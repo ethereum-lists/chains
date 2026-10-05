@@ -28,9 +28,10 @@
   "networkId": 1284,
   "explorers": [
     {
-      "name": "moonscan",
-      "url": "https://moonbeam.moonscan.io",
-      "standard": "none"
+      "name": "subscan",
+      "url": "https://moonbeam.subscan.io",
+      "standard": "none",
+      "icon": "subscan"
     }
   ]
 }

@@ -27,9 +27,10 @@
   "slip44": 1,
   "explorers": [
     {
-      "name": "moonscan",
-      "url": "https://moonbase.moonscan.io",
-      "standard": "none"
+      "name": "subscan",
+      "url": "https://moonbase.subscan.io",
+      "standard": "none",
+      "icon": "subscan"
     }
   ]
 }

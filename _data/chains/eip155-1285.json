@@ -28,9 +28,10 @@
   "networkId": 1285,
   "explorers": [
     {
-      "name": "moonscan",
-      "url": "https://moonriver.moonscan.io",
-      "standard": "none"
+      "name": "subscan",
+      "url": "https://moonriver.subscan.io",
+      "standard": "none",
+      "icon": "subscan"
     }
   ]
 }
