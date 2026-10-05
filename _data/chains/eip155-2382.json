@@ -1,0 +1,24 @@
+{
+  "name": "Aeva Testnet",
+  "chain": "AEVA",
+  "rpc": ["https://evm.aevachain.com"],
+  "faucets": ["https://faucet.aevachain.com"],
+  "nativeCurrency": {
+    "name": "AEVA",
+    "symbol": "AEVA",
+    "decimals": 18
+  },
+  "infoURL": "https://aevachain.com",
+  "shortName": "aeva-testnet",
+  "chainId": 2382,
+  "networkId": 2382,
+  "icon": "aeva",
+  "explorers": [
+    {
+      "name": "Aeva Explorer",
+      "url": "https://explorer.aevachain.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
