@@ -1,0 +1,23 @@
+{
+  "name": "LXON Mainnet",
+  "chain": "LXON",
+  "rpc": ["https://rpc.lxon.network", "http://35.206.121.139:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LXON",
+    "symbol": "XON",
+    "decimals": 18
+  },
+  "infoURL": "https://lxon.io",
+  "shortName": "lxon",
+  "chainId": 724,
+  "networkId": 724,
+  "icon": "lxon",
+  "explorers": [
+    {
+      "name": "LXON Explorer",
+      "url": "https://explorer.lxon.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
