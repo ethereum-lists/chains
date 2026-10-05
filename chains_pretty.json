@@ -25090,6 +25090,32 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "SCDO Shard0",
+  "chain": "SCDO",
+  "icon": "scdo",
+  "rpc": ["https://scdoscan.io/rpc/0"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SCDO",
+    "symbol": "SCDO",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://scdoscan.io",
+  "shortName": "scdo0",
+  "chainId": 5680,
+  "networkId": 5680,
+  "explorers": [{
+    "name": "scdoscan",
+    "url": "https://scdoscan.io",
+    "icon": "scdo",
+    "standard": "none"
+  }]
+}, {
   "name": "Syscoin Tanenbaum Testnet",
   "chain": "SYS",
   "rpc": ["https://rpc.tanenbaum.io", "wss://rpc.tanenbaum.io/wss", "https://syscoin-tanenbaum-evm.publicnode.com", "wss://syscoin-tanenbaum-evm.publicnode.com"],

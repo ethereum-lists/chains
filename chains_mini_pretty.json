@@ -15118,6 +15118,19 @@
   "faucets": ["https://apps.tanssi.network/demo"],
   "infoURL": "https://docs.tanssi.network/builders/tanssi-network/testnet/demo-evm-network/"
 }, {
+  "name": "SCDO Shard0",
+  "chainId": 5680,
+  "shortName": "scdo0",
+  "networkId": 5680,
+  "nativeCurrency": {
+    "name": "SCDO",
+    "symbol": "SCDO",
+    "decimals": 18
+  },
+  "rpc": ["https://scdoscan.io/rpc/0"],
+  "faucets": [],
+  "infoURL": "https://scdoscan.io"
+}, {
   "name": "Syscoin Tanenbaum Testnet",
   "chainId": 5700,
   "shortName": "tsys",
