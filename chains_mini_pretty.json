@@ -593,7 +593,7 @@
     "symbol": "RING",
     "decimals": 18
   },
-  "rpc": ["https://rpc.darwinia.network", "https://darwinia-rpc.dcdao.box", "https://darwinia-rpc.dwellir.com", "https://darwinia.rpc.subquery.network/public"],
+  "rpc": ["https://rpc.darwinia.network", "https://darwinia-rpc.dcdao.box", "https://darwinia.rpc.subquery.network/public"],
   "faucets": [],
   "infoURL": "https://darwinia.network"
 }, {
@@ -3856,7 +3856,7 @@
     "symbol": "SDN",
     "decimals": 18
   },
-  "rpc": ["https://shiden.api.onfinality.io/public", "https://shiden-rpc.dwellir.com", "https://shiden.public.blastapi.io", "wss://shiden.api.onfinality.io/public-ws", "wss://shiden.public.blastapi.io", "wss://shiden-rpc.dwellir.com"],
+  "rpc": ["https://shiden.api.onfinality.io/public", "https://shiden.public.blastapi.io", "wss://shiden.api.onfinality.io/public-ws", "wss://shiden.public.blastapi.io"],
   "faucets": [],
   "infoURL": "https://shiden.astar.network/"
 }, {
@@ -8133,7 +8133,7 @@
     "symbol": "GLMR",
     "decimals": 18
   },
-  "rpc": ["https://rpc.api.moonbeam.network", "wss://wss.api.moonbeam.network", "https://moonbeam.public.blastapi.io", "wss://moonbeam.public.blastapi.io", "https://moonbeam-rpc.dwellir.com", "wss://moonbeam-rpc.dwellir.com", "https://moonbeam.api.onfinality.io/public", "wss://moonbeam.api.onfinality.io/public-ws", "https://moonbeam.unitedbloc.com", "wss://moonbeam.unitedbloc.com", "https://moonbeam-rpc.publicnode.com", "wss://moonbeam-rpc.publicnode.com", "https://moonbeam.drpc.org", "wss://moonbeam.drpc.org"],
+  "rpc": ["https://rpc.api.moonbeam.network", "wss://wss.api.moonbeam.network", "https://moonbeam.public.blastapi.io", "wss://moonbeam.public.blastapi.io", "https://moonbeam.api.onfinality.io/public", "wss://moonbeam.api.onfinality.io/public-ws", "https://moonbeam.unitedbloc.com", "wss://moonbeam.unitedbloc.com", "https://moonbeam-rpc.publicnode.com", "wss://moonbeam-rpc.publicnode.com", "https://moonbeam.drpc.org", "wss://moonbeam.drpc.org"],
   "faucets": [],
   "infoURL": "https://moonbeam.network/networks/moonbeam/"
 }, {
@@ -8146,7 +8146,7 @@
     "symbol": "MOVR",
     "decimals": 18
   },
-  "rpc": ["https://rpc.api.moonriver.moonbeam.network", "wss://wss.api.moonriver.moonbeam.network", "https://moonriver.public.blastapi.io", "wss://moonriver.public.blastapi.io", "https://moonriver-rpc.dwellir.com", "wss://moonriver-rpc.dwellir.com", "https://moonriver.api.onfinality.io/public", "wss://moonriver.api.onfinality.io/public-ws", "https://moonriver.unitedbloc.com", "wss://moonriver.unitedbloc.com", "https://moonriver-rpc.publicnode.com", "wss://moonriver-rpc.publicnode.com", "https://moonriver.drpc.org", "wss://moonriver.drpc.org"],
+  "rpc": ["https://rpc.api.moonriver.moonbeam.network", "wss://wss.api.moonriver.moonbeam.network", "https://moonriver.public.blastapi.io", "wss://moonriver.public.blastapi.io", "https://moonriver.api.onfinality.io/public", "wss://moonriver.api.onfinality.io/public-ws", "https://moonriver.unitedbloc.com", "wss://moonriver.unitedbloc.com", "https://moonriver-rpc.publicnode.com", "wss://moonriver-rpc.publicnode.com", "https://moonriver.drpc.org", "wss://moonriver.drpc.org"],
   "faucets": [],
   "infoURL": "https://moonbeam.network/networks/moonriver/"
 }, {
@@ -8172,7 +8172,7 @@
     "symbol": "DEV",
     "decimals": 18
   },
-  "rpc": ["https://rpc.api.moonbase.moonbeam.network", "wss://wss.api.moonbase.moonbeam.network", "https://moonbase-alpha.public.blastapi.io", "wss://moonbase-alpha.public.blastapi.io", "https://moonbase-rpc.dwellir.com", "wss://moonbase-rpc.dwellir.com", "https://moonbeam-alpha.api.onfinality.io/public", "wss://moonbeam-alpha.api.onfinality.io/public-ws", "https://moonbase.unitedbloc.com", "wss://moonbase.unitedbloc.com", "https://moonbase-alpha.drpc.org", "wss://moonbase-alpha.drpc.org"],
+  "rpc": ["https://rpc.api.moonbase.moonbeam.network", "wss://wss.api.moonbase.moonbeam.network", "https://moonbase-alpha.public.blastapi.io", "wss://moonbase-alpha.public.blastapi.io", "https://moonbeam-alpha.api.onfinality.io/public", "wss://moonbeam-alpha.api.onfinality.io/public-ws", "https://moonbase.unitedbloc.com", "wss://moonbase.unitedbloc.com", "https://moonbase-alpha.drpc.org", "wss://moonbase-alpha.drpc.org"],
   "faucets": ["https://faucet.moonbeam.network/"],
   "infoURL": "https://docs.moonbeam.network/learn/platform/networks/moonbase/"
 }, {
@@ -10616,7 +10616,7 @@
     "symbol": "CFG",
     "decimals": 18
   },
-  "rpc": ["https://fullnode.centrifuge.io", "wss://fullnode.centrifuge.io", "https://centrifuge-parachain.api.onfinality.io/public", "wss://centrifuge-parachain.api.onfinality.io/public-ws", "https://centrifuge-rpc.dwellir.com", "wss://centrifuge-rpc.dwellir.com", "https://rpc-centrifuge.luckyfriday.io", "wss://rpc-centrifuge.luckyfriday.io"],
+  "rpc": ["https://fullnode.centrifuge.io", "wss://fullnode.centrifuge.io", "https://centrifuge-parachain.api.onfinality.io/public", "wss://centrifuge-parachain.api.onfinality.io/public-ws", "https://rpc-centrifuge.luckyfriday.io", "wss://rpc-centrifuge.luckyfriday.io"],
   "faucets": [],
   "infoURL": "https://centrifuge.io"
 }, {
@@ -15091,6 +15091,19 @@
   "rpc": ["https://rpc-main1.qiblockchain.online/", "https://rpc-main2.qiblockchain.online/"],
   "faucets": [],
   "infoURL": "https://qiblockchain.online/"
+}, {
+  "name": "Konstellation",
+  "chainId": 5667,
+  "shortName": "kons",
+  "networkId": 5667,
+  "nativeCurrency": {
+    "name": "KASH",
+    "symbol": "KASH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://github.com/Konstellation-Network"
 }, {
   "name": "Filenova Testnet",
   "chainId": 5675,
@@ -24517,6 +24530,32 @@
   "faucets": [],
   "infoURL": "https://zeroone.art/"
 }, {
+  "name": "Konstellation Testnet",
+  "chainId": 56671,
+  "shortName": "kons-test",
+  "networkId": 56671,
+  "nativeCurrency": {
+    "name": "KASH",
+    "symbol": "KASH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://github.com/Konstellation-Network"
+}, {
+  "name": "Konstellation Devnet",
+  "chainId": 56672,
+  "shortName": "kons-dev",
+  "networkId": 56672,
+  "nativeCurrency": {
+    "name": "KASH",
+    "symbol": "KASH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://github.com/Konstellation-Network"
+}, {
   "name": "VELO Labs Mainnet",
   "chainId": 56789,
   "shortName": "VELO",
@@ -29154,7 +29193,7 @@
     "symbol": "HEI",
     "decimals": 18
   },
-  "rpc": ["https://rpc.heima-parachain.heima.network", "wss://rpc.heima-parachain.heima.network", "https://litentry-rpc.dwellir.com", "wss://litentry-rpc.dwellir.com"],
+  "rpc": ["https://rpc.heima-parachain.heima.network", "wss://rpc.heima-parachain.heima.network"],
   "faucets": [],
   "infoURL": "https://heima.network"
 }, {
