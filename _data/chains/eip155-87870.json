@@ -1,0 +1,23 @@
+{
+  "name": "PSYROB Testnet",
+  "chain": "PSYROB",
+  "rpc": ["https://rpc.psyrob.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PSY",
+    "symbol": "PSY",
+    "decimals": 18
+  },
+  "infoURL": "https://psyrob.com",
+  "shortName": "psyrob",
+  "chainId": 87870,
+  "networkId": 87870,
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "PSYROB Explorer",
+      "url": "https://explorer.psyrob.com",
+      "standard": "none"
+    }
+  ]
+}
