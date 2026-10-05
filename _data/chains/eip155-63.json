@@ -9,7 +9,10 @@
     "https://geth-mordor.etc-network.info"
   ],
   "features": [{ "name": "EIP155" }],
-  "faucets": ["https://easy.hebeswap.com/#/faucet"],
+  "faucets": [
+    "https://easy.hebeswap.com/#/faucet",
+    "https://faucet.mordortest.net"
+  ],
   "nativeCurrency": {
     "name": "Mordor Ether",
     "symbol": "METC",
