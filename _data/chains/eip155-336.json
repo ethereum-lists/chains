@@ -3,11 +3,9 @@
   "chain": "SDN",
   "rpc": [
     "https://shiden.api.onfinality.io/public",
-    "https://shiden-rpc.dwellir.com",
     "https://shiden.public.blastapi.io",
     "wss://shiden.api.onfinality.io/public-ws",
-    "wss://shiden.public.blastapi.io",
-    "wss://shiden-rpc.dwellir.com"
+    "wss://shiden.public.blastapi.io"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -26,12 +24,6 @@
       "url": "https://shiden.subscan.io",
       "standard": "none",
       "icon": "subscan"
-    },
-    {
-      "name": "blockscout",
-      "url": "https://blockscout.com/shiden",
-      "icon": "blockscout",
-      "standard": "EIP3091"
     }
   ]
 }
