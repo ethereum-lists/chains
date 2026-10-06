@@ -10084,7 +10084,7 @@
     "decimals": 18
   },
   "rpc": ["https://testnetrpc.scschain.com"],
-  "faucets": ["https://testnet.scschain.com"],
+  "faucets": [],
   "infoURL": "https://testnet.scschain.com"
 }, {
   "name": "Super Smart Chain Mainnet",
@@ -31196,7 +31196,7 @@
     "decimals": 18
   },
   "rpc": ["https://rpc-bokuto.katanarpc.com"],
-  "faucets": ["https://faucet.katana.tools"],
+  "faucets": [],
   "infoURL": "https://katana.network"
 }, {
   "name": "Hemi Sepolia",
@@ -36175,7 +36175,7 @@
     "decimals": 18
   },
   "rpc": ["https://api.zeniq.network"],
-  "faucets": ["https://faucet.nomo.zone/", "https://faucet.zeniq.net/"],
+  "faucets": ["https://faucet.nomo.zone/"],
   "infoURL": "https://www.zeniq.dev/"
 }, {
   "name": "PDC Mainnet",
