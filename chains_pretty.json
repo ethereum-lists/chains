@@ -664,7 +664,7 @@
   "name": "Rootstock Testnet",
   "chain": "Rootstock",
   "rpc": ["https://public-node.testnet.rsk.co", "https://mycrypto.testnet.rsk.co"],
-  "faucets": ["https://faucet.rsk.co/"],
+  "faucets": [],
   "icon": "rootstock",
   "nativeCurrency": {
     "name": "Testnet Smart Bitcoin",
@@ -2075,7 +2075,7 @@
   "name": "Gnosis",
   "chain": "GNO",
   "icon": "gnosis",
-  "rpc": ["https://rpc.gnosischain.com", "https://rpc.gnosis.gateway.fm", "https://rpc.ankr.com/gnosis", "https://gnosischain-rpc.gateway.pokt.network", "https://gnosis-mainnet.public.blastapi.io", "https://gnosis.api.onfinality.io/public", "https://gnosis.blockpi.network/v1/rpc/public", "https://web3endpoints.com/gnosischain-mainnet", "https://gnosis.oat.farm", "wss://rpc.gnosischain.com/wss", "https://gnosis-rpc.publicnode.com", "wss://gnosis-rpc.publicnode.com"],
+  "rpc": ["https://rpc.gnosischain.com", "https://rpc.gnosis.gateway.fm", "https://rpc.ankr.com/gnosis", "https://gnosis-mainnet.public.blastapi.io", "https://gnosis.api.onfinality.io/public", "https://gnosis.blockpi.network/v1/rpc/public", "https://web3endpoints.com/gnosischain-mainnet", "https://gnosis.oat.farm", "wss://rpc.gnosischain.com/wss", "https://gnosis-rpc.publicnode.com", "wss://gnosis-rpc.publicnode.com"],
   "faucets": ["https://faucet.gnosischain.com", "https://stakely.io/faucet/gnosis-chain-xdai", "https://faucet.prussia.dev/xdai"],
   "nativeCurrency": {
     "name": "xDAI",
@@ -18485,7 +18485,7 @@
 }, {
   "name": "Kava",
   "chain": "KAVA",
-  "rpc": ["https://evm.kava.io", "https://kava-rpc.gateway.pokt.network", "https://kava-evm.rpc.thirdweb.com", "wss://wevm.kava.io", "https://kava-evm-rpc.publicnode.com", "wss://kava-evm-rpc.publicnode.com", "https://evm.kava-rpc.com", "https://rpc.ankr.com/kava_evm", "wss://wevm.kava-rpc.com", "https://kava.drpc.org", "wss://kava.drpc.org"],
+  "rpc": ["https://evm.kava.io", "https://kava-evm.rpc.thirdweb.com", "wss://wevm.kava.io", "https://kava-evm-rpc.publicnode.com", "wss://kava-evm-rpc.publicnode.com", "https://evm.kava-rpc.com", "https://rpc.ankr.com/kava_evm", "wss://wevm.kava-rpc.com", "https://kava.drpc.org", "wss://kava.drpc.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Kava",
