@@ -22876,6 +22876,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "GenLayer Testnet",
+  "chain": "GEN",
+  "rpc": ["https://rpc.testnet-chain.genlayer.com"],
+  "faucets": ["https://testnet-faucet.genlayer.foundation"],
+  "nativeCurrency": {
+    "name": "GEN Token",
+    "symbol": "GEN",
+    "decimals": 18
+  },
+  "infoURL": "https://genlayer.com",
+  "shortName": "genlayer-testnet",
+  "chainId": 4221,
+  "networkId": 4221,
+  "explorers": [{
+    "name": "GenLayer Testnet Explorer",
+    "url": "https://explorer.testnet-chain.genlayer.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Nexi Mainnet",
   "chain": "Nexi",
   "icon": "nexi",
@@ -57156,6 +57175,21 @@
     "url": "https://www.beastkingdom.io/travelsong",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "GenLayer Mainnet",
+  "chain": "GEN",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GEN Token",
+    "symbol": "GEN",
+    "decimals": 18
+  },
+  "infoURL": "https://genlayer.com",
+  "shortName": "genlayer",
+  "chainId": 42424242,
+  "networkId": 42424242,
+  "status": "incubating"
 }, {
   "name": "maistestsubnet",
   "chain": "MAI",

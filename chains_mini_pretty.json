@@ -13831,6 +13831,19 @@
   "faucets": [],
   "infoURL": "https://tempo.xyz"
 }, {
+  "name": "GenLayer Testnet",
+  "chainId": 4221,
+  "shortName": "genlayer-testnet",
+  "networkId": 4221,
+  "nativeCurrency": {
+    "name": "GEN Token",
+    "symbol": "GEN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet-chain.genlayer.com"],
+  "faucets": ["https://testnet-faucet.genlayer.foundation"],
+  "infoURL": "https://genlayer.com"
+}, {
   "name": "Nexi Mainnet",
   "chainId": 4242,
   "shortName": "nexi",
@@ -34136,6 +34149,19 @@
   "rpc": ["https://kingdomchain.observer/rpc"],
   "faucets": [],
   "infoURL": "https://www.beastkingdom.io/"
+}, {
+  "name": "GenLayer Mainnet",
+  "chainId": 42424242,
+  "shortName": "genlayer",
+  "networkId": 42424242,
+  "nativeCurrency": {
+    "name": "GEN Token",
+    "symbol": "GEN",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://genlayer.com"
 }, {
   "name": "maistestsubnet",
   "chainId": 43214913,
