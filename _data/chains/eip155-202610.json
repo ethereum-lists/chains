@@ -1,0 +1,20 @@
+{
+  "name": "MIAMA Chain",
+  "chain": "MIAMA",
+  "icon": "miama",
+  "rpc": [
+    "https://miama.vidainnovasystem.top/rpc"
+  ],
+  "faucets": [
+    "https://t.me/IDCryptoSci_bot"
+  ],
+  "nativeCurrency": {
+    "name": "MIAMA",
+    "symbol": "MIAMA",
+    "decimals": 18
+  },
+  "infoURL": "https://miama.vidainnovasystem.top",
+  "shortName": "miama",
+  "chainId": 202610,
+  "networkId": 202610
+}
