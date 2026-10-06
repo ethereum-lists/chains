@@ -11556,6 +11556,19 @@
   "faucets": ["https://faucet.aevachain.com"],
   "infoURL": "https://aevachain.com"
 }, {
+  "name": "Aeva Mainnet",
+  "chainId": 2383,
+  "shortName": "aeva",
+  "networkId": 2383,
+  "nativeCurrency": {
+    "name": "AEVA",
+    "symbol": "AEVA",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.aevachain.app"],
+  "faucets": [],
+  "infoURL": "https://aevachain.org"
+}, {
   "name": "TAC Turin",
   "chainId": 2390,
   "shortName": "tacchain_2390-1",

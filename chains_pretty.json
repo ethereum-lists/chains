@@ -19054,6 +19054,27 @@
   }],
   "status": "active"
 }, {
+  "name": "Aeva Mainnet",
+  "chain": "AEVA",
+  "rpc": ["https://evm.aevachain.app"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AEVA",
+    "symbol": "AEVA",
+    "decimals": 18
+  },
+  "infoURL": "https://aevachain.org",
+  "shortName": "aeva",
+  "chainId": 2383,
+  "networkId": 2383,
+  "icon": "aeva",
+  "explorers": [{
+    "name": "Aeva Explorer",
+    "url": "https://aevascan.com",
+    "standard": "EIP3091"
+  }],
+  "status": "active"
+}, {
   "name": "TAC Turin",
   "title": "TAC Testnet Turin",
   "chain": "TAC",
