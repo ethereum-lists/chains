@@ -30484,6 +30484,19 @@
   "faucets": [],
   "infoURL": "https://www.openchain.live"
 }, {
+  "name": "Bitcoin Swap",
+  "chainId": 482120,
+  "shortName": "btcwchain",
+  "networkId": 482120,
+  "nativeCurrency": {
+    "name": "Bitcoin Swap",
+    "symbol": "BTCw",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.btcw.tech", "wss://rpc.btcw.tech/ws"],
+  "faucets": [],
+  "infoURL": "https://btcw.tech"
+}, {
   "name": "World Chain Sepolia Testnet Deprecated",
   "chainId": 484752,
   "shortName": "wcsep-dep",
