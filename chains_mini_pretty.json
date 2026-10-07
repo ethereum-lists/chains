@@ -30874,6 +30874,19 @@
   "faucets": [],
   "infoURL": "https://onechain.nexus"
 }, {
+  "name": "PeerCash",
+  "chainId": 620156,
+  "shortName": "peer",
+  "networkId": 620156,
+  "nativeCurrency": {
+    "name": "PeerCash",
+    "symbol": "PEER",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.peercash.io"],
+  "faucets": [],
+  "infoURL": "https://peercash.io"
+}, {
   "name": "DJT Testnet",
   "chainId": 621847,
   "shortName": "DJT",

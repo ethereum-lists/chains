@@ -51530,6 +51530,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "PeerCash",
+  "chain": "PEER",
+  "icon": "peercash",
+  "rpc": ["https://rpc.peercash.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PeerCash",
+    "symbol": "PEER",
+    "decimals": 18
+  },
+  "infoURL": "https://peercash.io",
+  "shortName": "peer",
+  "chainId": 620156,
+  "networkId": 620156,
+  "explorers": [{
+    "name": "PeerCash Explorer",
+    "url": "https://explorer.peercash.io",
+    "icon": "peercash",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "DJT Testnet",
   "chain": "DJT",
   "icon": "djt",
