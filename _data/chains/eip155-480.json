@@ -5,7 +5,8 @@
     "https://worldchain-mainnet.g.alchemy.com/public",
     "https://480.rpc.thirdweb.com",
     "https://worldchain-mainnet.gateway.tenderly.co",
-    "wss://worldchain-mainnet.gateway.tenderly.co"
+    "wss://worldchain-mainnet.gateway.tenderly.co",
+    "https://hostdefi.com/api/rpc/worldchain"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,9 +23,15 @@
     "type": "L2",
     "chain": "eip155-1",
     "bridges": [
-      { "url": "https://world-chain.superbridge.app" },
-      { "url": "https://app.across.to/bridge?destinationChainId=480" },
-      { "url": "https://worldchain-mainnet.bridge.alchemy.com" }
+      {
+        "url": "https://world-chain.superbridge.app"
+      },
+      {
+        "url": "https://app.across.to/bridge?destinationChainId=480"
+      },
+      {
+        "url": "https://worldchain-mainnet.bridge.alchemy.com"
+      }
     ]
   },
   "explorers": [

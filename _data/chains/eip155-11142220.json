@@ -4,7 +4,14 @@
   "shortName": "celo-sep",
   "chain": "CELO",
   "networkId": 11142220,
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "slip44": 60,
   "nativeCurrency": {
     "name": "CELO",
@@ -20,7 +27,10 @@
       }
     ]
   },
-  "rpc": ["https://forno.celo-sepolia.celo-testnet.org"],
+  "rpc": [
+    "https://forno.celo-sepolia.celo-testnet.org",
+    "https://hostdefi.com/api/rpc/celo-sepolia"
+  ],
   "faucets": ["https://faucet.celo.org"],
   "infoURL": "https://docs.celo.org",
   "explorers": [

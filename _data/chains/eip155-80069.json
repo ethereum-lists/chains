@@ -1,7 +1,10 @@
 {
   "name": "Berachain Bepolia",
   "chain": "Berachain",
-  "rpc": ["https://bepolia.rpc.berachain.com"],
+  "rpc": [
+    "https://bepolia.rpc.berachain.com",
+    "https://hostdefi.com/api/rpc/berachain-bepolia"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Testnet BERA Token",

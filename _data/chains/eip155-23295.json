@@ -4,7 +4,8 @@
   "icon": "oasis",
   "rpc": [
     "https://testnet.sapphire.oasis.io",
-    "wss://testnet.sapphire.oasis.io/ws"
+    "wss://testnet.sapphire.oasis.io/ws",
+    "https://hostdefi.com/api/rpc/oasis-sapphire-testnet"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -5,7 +5,8 @@
     "https://worldchain-sepolia.g.alchemy.com/public",
     "https://4801.rpc.thirdweb.com",
     "https://worldchain-sepolia.gateway.tenderly.co",
-    "wss://worldchain-sepolia.gateway.tenderly.co"
+    "wss://worldchain-sepolia.gateway.tenderly.co",
+    "https://hostdefi.com/api/rpc/worldchain-sepolia"
   ],
   "faucets": [
     "https://www.alchemy.com/faucets/world-chain-sepolia",
@@ -24,7 +25,11 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://worldchain-sepolia.bridge.alchemy.com" }]
+    "bridges": [
+      {
+        "url": "https://worldchain-sepolia.bridge.alchemy.com"
+      }
+    ]
   },
   "explorers": [
     {
