@@ -12,7 +12,7 @@
     "https://arc.drpc.org",
     "wss://arc.drpc.org"
   ],
-  "faucets": [],
+  "faucets": ["https://apexfaucet.xyz/arc/faucet/"],
   "nativeCurrency": {
     "name": "USDC",
     "symbol": "USDC",
