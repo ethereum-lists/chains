@@ -21241,6 +21241,19 @@
   "faucets": [],
   "infoURL": "https://niza.io"
 }, {
+  "name": "Noion Testnet",
+  "chainId": 20047,
+  "shortName": "noion-testnet",
+  "networkId": 20047,
+  "nativeCurrency": {
+    "name": "Noion",
+    "symbol": "NOION",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.noion.xyz/eth"],
+  "faucets": ["https://faucet.noion.xyz"],
+  "infoURL": "https://noion.xyz"
+}, {
   "name": "Niza Chain Testnet",
   "chainId": 20073,
   "shortName": "niza_testnet",
@@ -27712,6 +27725,19 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.vordium.com"],
+  "faucets": [],
+  "infoURL": "https://vordium.com"
+}, {
+  "name": "Vordium Testnet",
+  "chainId": 101102,
+  "shortName": "vord-testnet",
+  "networkId": 101102,
+  "nativeCurrency": {
+    "name": "Vordium Testnet",
+    "symbol": "VORD",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.vordium.com"],
   "faucets": [],
   "infoURL": "https://vordium.com"
 }, {

@@ -35155,6 +35155,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Noion Testnet",
+  "chain": "NOION",
+  "rpc": ["https://rpc.noion.xyz/eth"],
+  "faucets": ["https://faucet.noion.xyz"],
+  "nativeCurrency": {
+    "name": "Noion",
+    "symbol": "NOION",
+    "decimals": 18
+  },
+  "infoURL": "https://noion.xyz",
+  "shortName": "noion-testnet",
+  "chainId": 20047,
+  "networkId": 20047,
+  "explorers": [{
+    "name": "NoionScan",
+    "url": "https://scan.noion.xyz",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Niza Chain Testnet",
   "chain": "NIZA",
   "icon": "niza",
@@ -46141,6 +46160,27 @@
   "explorers": [{
     "name": "vordscan",
     "url": "https://vordscan.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Vordium Testnet",
+  "chain": "VORD",
+  "icon": "vordium",
+  "rpc": ["https://rpc-testnet.vordium.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Vordium Testnet",
+    "symbol": "VORD",
+    "decimals": 18
+  },
+  "infoURL": "https://vordium.com",
+  "shortName": "vord-testnet",
+  "chainId": 101102,
+  "networkId": 101102,
+  "slip44": 1,
+  "explorers": [{
+    "name": "vordscan testnet",
+    "url": "https://testnet.vordscan.io",
     "standard": "EIP3091"
   }]
 }, {
