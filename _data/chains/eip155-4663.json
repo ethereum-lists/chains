@@ -9,7 +9,8 @@
     "https://rpc.ordofi.network",
     "wss://rpc.ordofi.network",
     "https://robinhood.drpc.org",
-    "wss://robinhood.drpc.org"
+    "wss://robinhood.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/robinhood?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {

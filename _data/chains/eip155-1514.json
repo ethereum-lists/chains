@@ -1,7 +1,10 @@
 {
   "name": "Data Network",
   "chain": "DATA",
-  "rpc": ["https://mainnet.datarpc.io"],
+  "rpc": [
+    "https://mainnet.datarpc.io",
+    "https://rpc.swiftnodes.io/rpc/story?key=${SWIFTNODES_API_KEY}"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DATA",

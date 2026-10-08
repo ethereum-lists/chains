@@ -5,7 +5,8 @@
     "https://build.onbeam.com/rpc",
     "wss://build.onbeam.com/ws",
     "https://subnets.avax.network/beam/mainnet/rpc",
-    "wss://subnets.avax.network/beam/mainnet/ws"
+    "wss://subnets.avax.network/beam/mainnet/ws",
+    "https://rpc.swiftnodes.io/rpc/beam?key=${SWIFTNODES_API_KEY}"
   ],
   "features": [
     {
