@@ -4226,7 +4226,7 @@
   "name": "opBNB Mainnet",
   "icon": "bnbchain",
   "chain": "opBNB",
-  "rpc": ["https://opbnb-mainnet-rpc.bnbchain.org", "https://opbnb-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3", "wss://opbnb-mainnet.nodereal.io/ws/v1/64a9df0874fb4a93b9d0a3849de012d3", "https://opbnb-mainnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5", "wss://opbnb-mainnet.nodereal.io/ws/v1/e9a36765eb8a40b9bd12e680a1fd2bc5", "https://opbnb-rpc.publicnode.com", "wss://opbnb-rpc.publicnode.com", "https://opbnb.drpc.org", "wss://opbnb.drpc.org"],
+  "rpc": ["https://opbnb-mainnet-rpc.bnbchain.org", "https://opbnb-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3", "wss://opbnb-mainnet.nodereal.io/ws/v1/64a9df0874fb4a93b9d0a3849de012d3", "https://opbnb-mainnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5", "wss://opbnb-mainnet.nodereal.io/ws/v1/e9a36765eb8a40b9bd12e680a1fd2bc5", "https://opbnb-rpc.publicnode.com", "wss://opbnb-rpc.publicnode.com", "https://opbnb.drpc.org", "wss://opbnb.drpc.org", "https://opbnb-rpc.blockreq.com/v1/rpc/public"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
@@ -4240,7 +4240,7 @@
   "slip44": 714,
   "explorers": [{
     "name": "opbnbscan",
-    "url": "https://mainnet.opbnbscan.com",
+    "url": "https://opbnbscan.com",
     "standard": "EIP3091"
   }]
 }, {
@@ -23539,7 +23539,7 @@
 }, {
   "name": "Robinhood Chain",
   "chain": "ETH",
-  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://robinhood-rpc.publicnode.com", "wss://robinhood-rpc.publicnode.com", "https://rpc.arrowrpc.com", "https://rpc.ordofi.network", "wss://rpc.ordofi.network", "https://robinhood.drpc.org", "wss://robinhood.drpc.org"],
+  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://robinhood-rpc.publicnode.com", "wss://robinhood-rpc.publicnode.com", "https://rpc.arrowrpc.com", "https://rpc.ordofi.network", "wss://rpc.ordofi.network", "https://robinhood.drpc.org", "wss://robinhood.drpc.org", "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -23551,11 +23551,6 @@
   "chainId": 4663,
   "networkId": 4663,
   "explorers": [{
-    "name": "robinscan",
-    "url": "https://robinscan.io",
-    "icon": "robinscan",
-    "standard": "EIP3091"
-  }, {
     "name": "blockscout",
     "url": "https://robinhoodchain.blockscout.com",
     "icon": "blockscout",
@@ -41214,7 +41209,7 @@
   "name": "Linea",
   "title": "Linea Mainnet",
   "chain": "ETH",
-  "rpc": ["https://rpc.linea.build", "wss://rpc.linea.build", "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://linea-mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://linea-rpc.publicnode.com", "wss://linea-rpc.publicnode.com"],
+  "rpc": ["https://rpc.linea.build", "wss://rpc.linea.build", "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://linea-mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://linea-rpc.publicnode.com", "wss://linea-rpc.publicnode.com", "https://linea-rpc.blockreq.com/v1/rpc/public"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Linea Ether",
@@ -41241,11 +41236,6 @@
   }, {
     "name": "Blockscout",
     "url": "https://explorer.linea.build",
-    "standard": "EIP3091",
-    "icon": "linea"
-  }, {
-    "name": "L2scan",
-    "url": "https://linea.l2scan.co",
     "standard": "EIP3091",
     "icon": "linea"
   }],
