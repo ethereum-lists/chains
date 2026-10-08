@@ -1,0 +1,17 @@
+{
+  "name": "CitizenChain",
+  "chain": "GMB",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GMB",
+    "symbol": "GMB",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://www.crcfrcn.com",
+  "shortName": "gmb",
+  "chainId": 2027,
+  "networkId": 2027,
+  "status": "incubating"
+}

@@ -10594,6 +10594,19 @@
   "faucets": [],
   "infoURL": "https://edgeless.network"
 }, {
+  "name": "CitizenChain",
+  "chainId": 2027,
+  "shortName": "gmb",
+  "networkId": 2027,
+  "nativeCurrency": {
+    "name": "GMB",
+    "symbol": "GMB",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://www.crcfrcn.com"
+}, {
   "name": "ArmaChain Testnet",
   "chainId": 2028,
   "shortName": "arma-testnet",
@@ -21240,6 +21253,19 @@
   "rpc": ["https://nizascan.io/rpc"],
   "faucets": [],
   "infoURL": "https://niza.io"
+}, {
+  "name": "Noion Testnet",
+  "chainId": 20047,
+  "shortName": "noion-testnet",
+  "networkId": 20047,
+  "nativeCurrency": {
+    "name": "Noion",
+    "symbol": "NOION",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.noion.xyz/eth"],
+  "faucets": ["https://faucet.noion.xyz"],
+  "infoURL": "https://noion.xyz"
 }, {
   "name": "Niza Chain Testnet",
   "chainId": 20073,
