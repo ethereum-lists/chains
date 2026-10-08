@@ -1,0 +1,22 @@
+{
+  "name": "Noion Testnet",
+  "chain": "NOION",
+  "rpc": ["https://rpc.noion.xyz/eth"],
+  "faucets": ["https://faucet.noion.xyz"],
+  "nativeCurrency": {
+    "name": "Noion",
+    "symbol": "NOION",
+    "decimals": 18
+  },
+  "infoURL": "https://noion.xyz",
+  "shortName": "noion-testnet",
+  "chainId": 20047,
+  "networkId": 20047,
+  "explorers": [
+    {
+      "name": "NoionScan",
+      "url": "https://scan.noion.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}
