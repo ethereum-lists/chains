@@ -21410,6 +21410,32 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Clutch",
+  "chainId": 20770,
+  "shortName": "clutch",
+  "networkId": 20770,
+  "nativeCurrency": {
+    "name": "Clutch",
+    "symbol": "CLT",
+    "decimals": 18
+  },
+  "rpc": ["https://api.clutchprotocol.io/rpc"],
+  "faucets": [],
+  "infoURL": "https://clutchprotocol.io"
+}, {
+  "name": "Clutch Testnet",
+  "chainId": 20771,
+  "shortName": "clutch-test",
+  "networkId": 20771,
+  "nativeCurrency": {
+    "name": "Clutch",
+    "symbol": "CLT",
+    "decimals": 18
+  },
+  "rpc": ["https://api-stage.clutchprotocol.io/rpc"],
+  "faucets": [],
+  "infoURL": "https://clutchprotocol.io"
+}, {
   "name": "Fluent Developer Preview",
   "chainId": 20993,
   "shortName": "fluent-dev-net",

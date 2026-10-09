@@ -35434,6 +35434,46 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Clutch",
+  "chain": "CLT",
+  "rpc": ["https://api.clutchprotocol.io/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Clutch",
+    "symbol": "CLT",
+    "decimals": 18
+  },
+  "infoURL": "https://clutchprotocol.io",
+  "shortName": "clutch",
+  "chainId": 20770,
+  "networkId": 20770,
+  "status": "incubating",
+  "explorers": [{
+    "name": "Clutch Explorer",
+    "url": "https://explorer.clutchprotocol.io",
+    "standard": "none"
+  }]
+}, {
+  "name": "Clutch Testnet",
+  "chain": "CLT",
+  "rpc": ["https://api-stage.clutchprotocol.io/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Clutch",
+    "symbol": "CLT",
+    "decimals": 18
+  },
+  "infoURL": "https://clutchprotocol.io",
+  "shortName": "clutch-test",
+  "chainId": 20771,
+  "networkId": 20771,
+  "slip44": 1,
+  "explorers": [{
+    "name": "Clutch Testnet Explorer",
+    "url": "https://explorer-stage.clutchprotocol.io",
+    "standard": "none"
+  }]
+}, {
   "name": "Fluent Developer Preview",
   "chain": "Fluent",
   "rpc": ["https://rpc.dev.gblend.xyz"],
