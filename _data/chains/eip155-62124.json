@@ -11,5 +11,13 @@
   },
   "rpc": ["https://api.fractalai.net.co"],
   "faucets": [],
-  "infoURL": "https://fractalai.net.co"
+  "infoURL": "https://fractalai.net.co",
+  "explorers": [
+    {
+      "name": "FractalAI Explorer",
+      "url": "https://fractalai.net.co/explorer",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
 }
