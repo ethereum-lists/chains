@@ -1,0 +1,31 @@
+{
+  "name": "OMNI Network",
+  "chain": "OMNI",
+  "icon": "omni-network",
+  "rpc": [
+    "https://omni-rpc-gateway-853859261845.us-central1.run.app",
+    "https://omni-network-39821.web.app/rpc"
+  ],
+  "faucets": [
+    "https://omni-network-39821.web.app"
+  ],
+  "nativeCurrency": {
+    "name": "OMNI Native Token",
+    "symbol": "OMNI",
+    "decimals": 18
+  },
+  "infoURL": "https://omni-network-39821.web.app",
+  "shortName": "omni",
+  "chainId": 39821,
+  "networkId": 39821,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "OMNI Explorer",
+      "url": "https://omni-explorer-39821.web.app",
+      "icon": "omni-network",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
