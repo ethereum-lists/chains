@@ -4,7 +4,8 @@
   "rpc": [
     "https://sepolia.optimism.io",
     "https://optimism-sepolia.drpc.org",
-    "wss://optimism-sepolia.drpc.org"
+    "wss://optimism-sepolia.drpc.org",
+    "https://optimism-sepolia-rpc.blockreq.com/v1/rpc/public"
   ],
   "faucets": ["https://app.optimism.io/faucet"],
   "nativeCurrency": {
