@@ -32820,9 +32820,9 @@
     "symbol": "USDC",
     "decimals": 18
   },
-  "rpc": ["https://rpc.testnet.arc.network", "wss://rpc.testnet.arc.network", "https://rpc.quicknode.testnet.arc.network", "wss://rpc.quicknode.testnet.arc.network", "https://rpc.blockdaemon.testnet.arc.network", "https://arc-testnet.drpc.org", "wss://arc-testnet.drpc.org"],
+  "rpc": ["https://rpc.testnet.arc.io", "wss://rpc.testnet.arc.io", "https://rpc.blockdaemon.testnet.arc.io", "wss://rpc.blockdaemon.testnet.arc.io:443/websocket", "https://rpc.drpc.testnet.arc.io", "wss://rpc.drpc.testnet.arc.io", "https://rpc.quicknode.testnet.arc.io", "wss://rpc.quicknode.testnet.arc.io", "https://arc-testnet.drpc.org", "wss://arc-testnet.drpc.org"],
   "faucets": ["https://faucet.circle.com/"],
-  "infoURL": "https://arc.network"
+  "infoURL": "https://arc.io"
 }, {
   "name": "NumBlock Chain",
   "chainId": 5112023,
