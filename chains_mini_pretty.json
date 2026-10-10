@@ -2712,7 +2712,7 @@
     "symbol": "BTN",
     "decimals": 18
   },
-  "rpc": ["https://rpc.bitnet.money", "https://rpc.btnscan.com", "https://rpc.btn.network", "https://rpc.bitnetmoney.com", "https://rpc.btn-network.org"],
+  "rpc": ["https://rpc.bitnetmoney.com"],
   "faucets": [],
   "infoURL": "https://bitnet.technology"
 }, {
@@ -15170,7 +15170,7 @@
   "faucets": ["https://apps.tanssi.network/demo"],
   "infoURL": "https://docs.tanssi.network/builders/tanssi-network/testnet/demo-evm-network/"
 }, {
-  "name": "SCDO Shard0",
+  "name": "SCDO Shard0 EVM",
   "chainId": 5680,
   "shortName": "scdo0",
   "networkId": 5680,

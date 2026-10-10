@@ -4335,7 +4335,7 @@
   "name": "Bitnet",
   "chain": "BTN",
   "icon": "bitnet",
-  "rpc": ["https://rpc.bitnet.money", "https://rpc.btnscan.com", "https://rpc.btn.network", "https://rpc.bitnetmoney.com", "https://rpc.btn-network.org"],
+  "rpc": ["https://rpc.bitnetmoney.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitnet",
@@ -25159,7 +25159,7 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "SCDO Shard0",
+  "name": "SCDO Shard0 EVM",
   "chain": "SCDO",
   "icon": "scdo",
   "rpc": ["https://scdoscan.io/rpc/0"],
