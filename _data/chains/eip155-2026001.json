@@ -1,0 +1,27 @@
+{
+  "name": "PISO Chain Mainnet",
+  "chain": "PISO",
+  "rpc": [
+    "https://piso-rpc-dev.loca.lt",
+    "http://127.0.0.1:8545"
+  ],
+  "faucets": [
+    "https://piso-chain.vercel.app/"
+  ],
+  "nativeCurrency": {
+    "name": "PISO",
+    "symbol": "PISO",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/314-hash/piso-chain",
+  "shortName": "piso",
+  "chainId": 2026001,
+  "networkId": 2026001,
+  "explorers": [
+    {
+      "name": "PISO Explorer",
+      "url": "https://piso-chain.vercel.app/explorer",
+      "standard": "EIP3091"
+    }
+  ]
+}
