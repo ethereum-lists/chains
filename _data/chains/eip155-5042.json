@@ -13,7 +13,7 @@
     "wss://arc.drpc.org",
     "https://arc-rpc.blockreq.com/v1/rpc/public"
   ],
-  "faucets": [],
+  "faucets": ["https://apexfaucet.xyz/arc/faucet/"],
   "nativeCurrency": {
     "name": "USDC",
     "symbol": "USDC",
