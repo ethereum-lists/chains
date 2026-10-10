@@ -1,0 +1,22 @@
+{
+  "name": "NetX Mainnet",
+  "chain": "NETX",
+  "rpc": ["https://rpc.netxscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NetX Token",
+    "symbol": "NETX",
+    "decimals": 18
+  },
+  "infoURL": "https://netx.world/",
+  "shortName": "netx",
+  "chainId": 287,
+  "networkId": 287,
+  "explorers": [
+    {
+      "name": "NetXScan",
+      "url": "https://netxscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

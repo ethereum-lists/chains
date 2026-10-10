@@ -1,0 +1,24 @@
+{
+  "name": "Midpoint Cross",
+  "chain": "MIDX",
+  "rpc": ["https://mainnet.midpointcross.com"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Midpoint Cross",
+    "symbol": "MIDX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.midpointcross.com",
+  "shortName": "midx",
+  "chainId": 1394,
+  "networkId": 1394,
+  "icon": "midx",
+  "explorers": [
+    {
+      "name": "Midpoint Cross",
+      "url": "https://transactions.midpointcross.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

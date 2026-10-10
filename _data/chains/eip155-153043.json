@@ -1,0 +1,30 @@
+{
+  "name": "WheatCoin Mainnet",
+  "chain": "WHEAT",
+  "rpc": ["https://rpc.mizodevelopment.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WheatCoin",
+    "symbol": "WHEAT",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://itzlalpekhlua.github.io/WheatCoin-Token/",
+  "shortName": "wheat",
+  "chainId": 153043,
+  "networkId": 153043,
+  "explorers": [
+    {
+      "name": "WheatCoin Explorer",
+      "url": "https://explorer.mizodevelopment.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

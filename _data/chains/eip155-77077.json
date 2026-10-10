@@ -1,0 +1,23 @@
+{
+  "name": "Autyon Testnet",
+  "chain": "AUT",
+  "rpc": ["https://rpc.autyon.io"],
+  "faucets": ["https://faucet.autyon.io"],
+  "nativeCurrency": {
+    "name": "Autyon",
+    "symbol": "AUT",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://autyon.io",
+  "shortName": "autyon",
+  "chainId": 77077,
+  "networkId": 77077,
+  "explorers": [
+    {
+      "name": "autscan",
+      "url": "https://autscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

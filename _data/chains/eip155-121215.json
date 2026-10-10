@@ -1,11 +1,11 @@
 {
   "name": "Rome Testnet Caelian",
   "chain": "ROME",
-  "rpc": ["https://caelian-i.testnet.romeprotocol.xyz"],
-  "faucets": ["https://deposit.testnet.romeprotocol.xyz"],
+  "rpc": [],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "RSOL",
-    "symbol": "RSOL",
+    "name": "USDC",
+    "symbol": "USDC",
     "decimals": 18
   },
   "infoURL": "https://rome.builders",
@@ -13,13 +13,5 @@
   "chainId": 121215,
   "networkId": 121215,
   "icon": "rome",
-  "explorers": [
-    {
-      "name": "Rome Testnet Caelian Explorer",
-      "url": "https://romescout-caelian-i.testnet.romeprotocol.xyz",
-      "icon": "rome",
-      "standard": "EIP3091"
-    }
-  ],
-  "status": "active"
+  "status": "deprecated"
 }

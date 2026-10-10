@@ -1,7 +1,7 @@
 {
   "name": "Altcoinchain",
   "chain": "mainnet",
-  "rpc": ["https://rpc0.altcoinchain.org/rpc"],
+  "rpc": ["https://rpc.wattxchange.app"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Altcoin",
@@ -16,8 +16,14 @@
   "status": "active",
   "explorers": [
     {
+      "name": "ALTScan",
+      "url": "https://alt-exp.wattxchange.app",
+      "icon": "altcoinchain",
+      "standard": "EIP3091"
+    },
+    {
       "name": "expedition",
-      "url": "http://expedition.altcoinchain.org",
+      "url": "https://explorer.altcoinchain.org",
       "icon": "altcoinchain",
       "standard": "none"
     }

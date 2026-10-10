@@ -1,18 +1,32 @@
 {
-  "name": "CXM",
-  "chain": "CXM",
-  "rpc": [],
+  "name": "MarsChain Mainnet",
+  "chain": "MARS",
+  "rpc": ["https://rpcs.marschain.net/"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "CXM",
-    "symbol": "CXM",
+    "name": "MARS",
+    "symbol": "MARS",
     "decimals": 18
   },
-  "infoURL": "",
-  "shortName": "CXM",
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://marschain.net/",
+  "shortName": "marschain",
   "chainId": 890,
   "networkId": 890,
-  "status": "active",
-  "explorers": [],
-  "status": "deprecated"
+  "icon": "marschain",
+  "redFlags": ["reusedChainId"],
+  "explorers": [
+    {
+      "name": "MarsChain Explorer",
+      "url": "https://explorer.marschain.net",
+      "standard": "EIP3091"
+    }
+  ]
 }

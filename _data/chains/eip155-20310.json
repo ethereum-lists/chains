@@ -1,0 +1,26 @@
+{
+  "name": "Alpen Testnet III",
+  "chain": "alpen-testnet-iii",
+  "rpc": ["https://alpen.testnet.alpen.org"],
+  "faucets": ["https://tally.so/r/aQKLZZ"],
+  "nativeCurrency": {
+    "name": "Signet BTC",
+    "symbol": "sBTC",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://docs.alpenlabs.io",
+  "shortName": "alpen-testnet-iii",
+  "chainId": 20310,
+  "networkId": 20310,
+  "slip44": 1,
+  "icon": "alpen",
+  "explorers": [
+    {
+      "name": "Alpen Testnet Explorer",
+      "url": "https://explorer.testnet.alpen.org",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

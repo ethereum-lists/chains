@@ -8,7 +8,9 @@
     "https://optimism.gateway.tenderly.co",
     "wss://optimism.gateway.tenderly.co",
     "https://optimism.drpc.org",
-    "wss://optimism.drpc.org"
+    "wss://optimism.drpc.org",
+    "https://xrpc.cl/optimism",
+    "https://optimism-rpc.blockreq.com/v1/rpc/public"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,7 +22,6 @@
   "shortName": "oeth",
   "chainId": 10,
   "networkId": 10,
-
   "explorers": [
     {
       "name": "etherscan",
@@ -31,17 +32,6 @@
       "name": "blockscout",
       "url": "https://optimism.blockscout.com",
       "icon": "blockscout",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "dexguru",
-      "url": "https://optimism.dex.guru",
-      "icon": "dexguru",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "Routescan",
-      "url": "https://mainnet.superscan.network",
       "standard": "EIP3091"
     }
   ]

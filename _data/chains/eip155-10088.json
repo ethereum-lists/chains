@@ -1,0 +1,22 @@
+{
+  "name": "Gate Layer",
+  "shortName": "GateLayer",
+  "chain": "GT",
+  "chainId": 10088,
+  "networkId": 10088,
+  "rpc": ["https://gatelayer-mainnet.gatenode.cc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GateToken",
+    "symbol": "GT",
+    "decimals": 18
+  },
+  "explorers": [
+    {
+      "name": "GateLayer",
+      "url": "https://www.gatescan.org/gatelayer",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://gatechain.io/gatelayer"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Torium Testnet",
+  "chain": "Torium",
+  "rpc": [
+    "https://rpc.testnet.torium.network",
+    "wss://ws.testnet.torium.network"
+  ],
+  "faucets": ["https://faucet.testnet.torium.network"],
+  "nativeCurrency": {
+    "name": "Torium Test Token",
+    "symbol": "tTOR",
+    "decimals": 18
+  },
+  "infoURL": "https://torium.network",
+  "shortName": "torium-testnet",
+  "chainId": 1414484564,
+  "networkId": 1414484564,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Torium Testnet Explorer",
+      "url": "https://explorer.testnet.torium.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

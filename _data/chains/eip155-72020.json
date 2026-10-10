@@ -1,0 +1,23 @@
+{
+  "name": "EAV7",
+  "chain": "EAV7",
+  "icon": "eav7",
+  "rpc": ["https://rpc.eavscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EAV7",
+    "symbol": "EAV7",
+    "decimals": 18
+  },
+  "infoURL": "https://eavscan.com",
+  "shortName": "eav7",
+  "chainId": 72020,
+  "networkId": 72020,
+  "explorers": [
+    {
+      "name": "EAV7 Scan",
+      "url": "https://eavscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

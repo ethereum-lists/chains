@@ -1,0 +1,29 @@
+{
+  "name": "Recyclefarm Carbon Network Sepolia",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://recyclefarm.org/",
+  "shortName": "recasep",
+  "chainId": 82696765,
+  "networkId": 82696765,
+  "slip44": 1,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  }
+}
