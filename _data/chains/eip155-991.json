@@ -2,9 +2,7 @@
   "name": "Banteng Chain",
   "chain": "BTG",
   "icon": "banteng",
-  "rpc": [
-    "https://rpc.banteng.asia"
-  ],
+  "rpc": ["https://rpc.banteng.asia"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Banteng Coin",
@@ -12,7 +10,7 @@
     "decimals": 18
   },
   "infoURL": "https://banteng.asia",
-  "shortName": "banteng",
+  "shortName": "banteng-mainnet",
   "chainId": 991,
   "networkId": 991,
   "slip44": 60,
