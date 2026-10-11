@@ -4335,7 +4335,7 @@
   "name": "Bitnet",
   "chain": "BTN",
   "icon": "bitnet",
-  "rpc": ["https://rpc.bitnet.money", "https://rpc.btnscan.com", "https://rpc.btn.network", "https://rpc.bitnetmoney.com", "https://rpc.btn-network.org"],
+  "rpc": ["https://rpc.bitnetmoney.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitnet",
@@ -24069,7 +24069,7 @@
   "chain": "Arc",
   "icon": "arcnetwork",
   "rpc": ["https://rpc.mainnet.arc.io", "https://rpc.blockdaemon.mainnet.arc.io", "https://rpc.drpc.mainnet.arc.io", "https://rpc.quicknode.mainnet.arc.io", "https://rpc.beamrpc.com", "wss://rpc.beamrpc.com", "https://arc.drpc.org", "wss://arc.drpc.org", "https://arc-rpc.blockreq.com/v1/rpc/public"],
-  "faucets": [],
+  "faucets": ["https://apexfaucet.xyz/arc/faucet/"],
   "nativeCurrency": {
     "name": "USDC",
     "symbol": "USDC",
