@@ -1,0 +1,27 @@
+{
+  "name": "HanChain Mainnet",
+  "chain": "HAN",
+  "rpc": ["https://rpc.hanchain.cc/rpc"],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "HAN",
+    "symbol": "HAN",
+    "decimals": 18
+  },
+  "infoURL": "https://rpc.hanchain.cc",
+  "shortName": "hanchain",
+  "chainId": 726578,
+  "networkId": 726578,
+  "explorers": [
+    {
+      "name": "HanChain Explorer",
+      "url": "https://rpc.hanchain.cc",
+      "standard": "EIP3091"
+    }
+  ]
+}

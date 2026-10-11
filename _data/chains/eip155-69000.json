@@ -1,7 +1,7 @@
 {
   "name": "Animechain Mainnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": ["https://public-rpc.anime.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Animecoin",
@@ -12,9 +12,10 @@
   "shortName": "anime",
   "chainId": 69000,
   "networkId": 69000,
+  "icon": "anime",
   "explorers": [
     {
-      "name": "Animechain explorer",
+      "name": "Animechain Explorer",
       "url": "https://explorer.anime.xyz",
       "standard": "EIP3091"
     }

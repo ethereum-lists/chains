@@ -1,23 +1,36 @@
 {
-  "name": "Ubiq",
-  "chain": "UBQ",
-  "rpc": ["https://rpc.octano.dev", "https://pyrus2.ubiqscan.io"],
+  "name": "c8ntinuum",
+  "chain": "CTM",
+  "rpc": [
+    "https://rpc.c8ntinuum.com",
+    "https://rpc.c8ntinuum.io",
+    "https://rpc.c8ntinuum.link"
+  ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Ubiq Ether",
-    "symbol": "UBQ",
+    "name": "c8ntinuum",
+    "symbol": "CTM",
     "decimals": 18
   },
-  "infoURL": "https://ubiqsmart.com",
-  "shortName": "ubq",
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" },
+    { "name": "EIP2930" },
+    { "name": "EIP7702" }
+  ],
+  "infoURL": "https://c8ntinuum.com",
+  "shortName": "ctm",
   "chainId": 8,
   "networkId": 8,
-  "slip44": 108,
+  "slip44": 60,
+  "icon": "c8ntinuum",
   "explorers": [
     {
-      "name": "ubiqscan",
-      "url": "https://ubiqscan.io",
+      "name": "CTMScan",
+      "url": "https://ctmscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "status": "active",
+  "redFlags": ["reusedChainId"]
 }

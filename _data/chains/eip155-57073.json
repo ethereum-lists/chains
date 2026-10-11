@@ -7,7 +7,7 @@
     "wss://rpc-gel.inkonchain.com",
     "wss://rpc-qnd.inkonchain.com"
   ],
-  "faucets": ["https://inkonchain.com/faucet"],
+  "faucets": [],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "nativeCurrency": {
     "name": "Ether",
