@@ -17302,6 +17302,19 @@
   "faucets": ["https://testnet.beonescan.com/faucet"],
   "infoURL": "https://testnet.beonescan.com"
 }, {
+  "name": "Mersennet",
+  "chainId": 8191,
+  "shortName": "mrsn",
+  "networkId": 8191,
+  "nativeCurrency": {
+    "name": "Mersennet",
+    "symbol": "MRSN",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://mersennet.com"
+}, {
   "name": "Torus Mainnet",
   "chainId": 8192,
   "shortName": "tqf",
@@ -30691,6 +30704,19 @@
   "rpc": ["https://rpc.etherfair.org"],
   "faucets": [],
   "infoURL": "https://etherfair.org/"
+}, {
+  "name": "Mersennet Privacy Testnet",
+  "chainId": 524287,
+  "shortName": "mrsnp",
+  "networkId": 524287,
+  "nativeCurrency": {
+    "name": "Mersennet",
+    "symbol": "MRSN",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://mersennet.com"
 }, {
   "name": "DoCoin Community Chain",
   "chainId": 526916,
