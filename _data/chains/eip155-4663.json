@@ -9,7 +9,8 @@
     "https://rpc.ordofi.network",
     "wss://rpc.ordofi.network",
     "https://robinhood.drpc.org",
-    "wss://robinhood.drpc.org"
+    "wss://robinhood.drpc.org",
+    "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,12 +23,6 @@
   "chainId": 4663,
   "networkId": 4663,
   "explorers": [
-    {
-      "name": "robinscan",
-      "url": "https://robinscan.io",
-      "icon": "robinscan",
-      "standard": "EIP3091"
-    },
     {
       "name": "blockscout",
       "url": "https://robinhoodchain.blockscout.com",
