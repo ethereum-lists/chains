@@ -1,13 +1,8 @@
 {
   "name": "MIAMA Chain",
   "chain": "MIAMA",
-  "icon": "miama",
-  "rpc": [
-    "https://miama.vidainnovasystem.top/rpc"
-  ],
-  "faucets": [
-    "https://t.me/IDCryptoSci_bot"
-  ],
+  "rpc": ["https://miama.vidainnovasystem.top/rpc"],
+  "faucets": ["https://t.me/IDCryptoSci_bot"],
   "explorers": [
     {
       "name": "miama-explorer",
