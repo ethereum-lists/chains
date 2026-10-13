@@ -8,6 +8,13 @@
   "faucets": [
     "https://t.me/IDCryptoSci_bot"
   ],
+  "explorers": [
+    {
+      "name": "miama-explorer",
+      "url": "https://miama.vidainnovasystem.top/explorador",
+      "standard": "EIP3091"
+    }
+  ],
   "nativeCurrency": {
     "name": "MIAMA",
     "symbol": "MIAMA",
