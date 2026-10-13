@@ -31171,6 +31171,37 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "EGGY Chain",
+  "chain": "EGGY",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EGG",
+    "symbol": "EGG",
+    "decimals": 18
+  },
+  "infoURL": "https://eggychain.com",
+  "shortName": "eggy",
+  "chainId": 9988,
+  "networkId": 9988,
+  "status": "incubating"
+}, {
+  "name": "EGGY Chain Testnet",
+  "chain": "EGGY",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Test EGG",
+    "symbol": "tEGG",
+    "decimals": 18
+  },
+  "infoURL": "https://eggychain.com",
+  "shortName": "eggy-testnet",
+  "chainId": 9989,
+  "networkId": 9989,
+  "slip44": 1,
+  "status": "incubating"
+}, {
   "name": "Agung Network",
   "chain": "Agung",
   "icon": "agung",
@@ -54313,6 +54344,30 @@
   "networkId": 1698369,
   "icon": "prim",
   "explorers": []
+}, {
+  "name": "QuantPay Chain",
+  "chain": "QPC",
+  "icon": "quantpay",
+  "rpc": ["https://rpc.quantpay.sh"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QuantPay Chain",
+    "symbol": "QPC",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "https://quantpay.sh",
+  "shortName": "qpc",
+  "chainId": 1716125,
+  "networkId": 1716125,
+  "status": "active",
+  "explorers": [{
+    "name": "QPC Explorer",
+    "url": "https://explorer.quantpay.sh",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Turkey Demo Dev",
   "chain": "ETH",

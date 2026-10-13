@@ -18849,6 +18849,32 @@
   "faucets": [],
   "infoURL": "https://mfevscan.com"
 }, {
+  "name": "EGGY Chain",
+  "chainId": 9988,
+  "shortName": "eggy",
+  "networkId": 9988,
+  "nativeCurrency": {
+    "name": "EGG",
+    "symbol": "EGG",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://eggychain.com"
+}, {
+  "name": "EGGY Chain Testnet",
+  "chainId": 9989,
+  "shortName": "eggy-testnet",
+  "networkId": 9989,
+  "nativeCurrency": {
+    "name": "Test EGG",
+    "symbol": "tEGG",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://eggychain.com"
+}, {
   "name": "Agung Network",
   "chainId": 9990,
   "shortName": "AGNG",
@@ -32498,6 +32524,19 @@
   "rpc": ["http://test-rpc.primeanetwork.com/rpc-http", "https://test-rpc.primeanetwork.com/rpc-https", "ws://test-rpc.primeanetwork.com/rpc-ws", "wss://test-rpc.primeanetwork.com/rpc-wss"],
   "faucets": [],
   "infoURL": "https://primeanetwork.com"
+}, {
+  "name": "QuantPay Chain",
+  "chainId": 1716125,
+  "shortName": "qpc",
+  "networkId": 1716125,
+  "nativeCurrency": {
+    "name": "QuantPay Chain",
+    "symbol": "QPC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.quantpay.sh"],
+  "faucets": [],
+  "infoURL": "https://quantpay.sh"
 }, {
   "name": "Turkey Demo Dev",
   "chainId": 1731313,
