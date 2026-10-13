@@ -58695,7 +58695,7 @@
   "name": "Polkadot Testnet",
   "chain": "PAS",
   "icon": "polkadot-testnet",
-  "rpc": ["https://services.polkadothub-rpc.com/testnet", "wss://services.polkadothub-rpc.com/testnet", "https://eth-rpc-testnet.polkadot.io", "wss://eth-rpc-testnet.polkadot.io"],
+  "rpc": ["https://eth-rpc-testnet.polkadot.io", "wss://eth-rpc-testnet.polkadot.io"],
   "faucets": ["https://faucet.polkadot.io/"],
   "nativeCurrency": {
     "name": "PAS",
@@ -58745,7 +58745,7 @@
   "name": "Polkadot",
   "chain": "DOT",
   "icon": "polkadot",
-  "rpc": ["https://services.polkadothub-rpc.com/mainnet", "wss://services.polkadothub-rpc.com/mainnet", "https://eth-rpc.polkadot.io", "wss://eth-rpc.polkadot.io"],
+  "rpc": ["https://eth-rpc.polkadot.io", "wss://eth-rpc.polkadot.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "DOT",
