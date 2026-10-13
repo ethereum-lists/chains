@@ -19706,7 +19706,7 @@
     "symbol": "PHO",
     "decimals": 18
   },
-  "infoURL": "phochain.org",
+  "infoURL": "https://phochain.org",
   "shortName": "pho",
   "chainId": 2605,
   "networkId": 2605,
@@ -48174,6 +48174,26 @@
   "chainId": 197197,
   "networkId": 197197,
   "status": "incubating"
+}, {
+  "name": "Alchemy L2 Devnet",
+  "chain": "ALCHEMY",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://alchemy.xyz",
+  "shortName": "alchemy-devnet",
+  "chainId": 197198,
+  "networkId": 197198,
+  "slip44": 1,
+  "status": "incubating",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  }
 }, {
   "name": "Lydia Coin Testnet",
   "chain": "LYDIA-TESTNET",

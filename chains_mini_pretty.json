@@ -11957,7 +11957,7 @@
   },
   "rpc": ["https://mainnet.phochain.org"],
   "faucets": [],
-  "infoURL": "phochain.org"
+  "infoURL": "https://phochain.org"
 }, {
   "name": "PoCRNet",
   "chainId": 2606,
@@ -28928,6 +28928,19 @@
   "chainId": 197197,
   "shortName": "alchemy",
   "networkId": 197197,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://alchemy.xyz"
+}, {
+  "name": "Alchemy L2 Devnet",
+  "chainId": 197198,
+  "shortName": "alchemy-devnet",
+  "networkId": 197198,
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
