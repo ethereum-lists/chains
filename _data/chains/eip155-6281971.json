@@ -3,7 +3,10 @@
   "chain": "DogeOS",
   "icon": "dogeos",
   "rpc": ["https://rpc.testnet.dogeos.com"],
-  "faucets": ["https://faucet.testnet.dogeos.com"],
+  "faucets": [
+    "https://faucet.testnet.dogeos.com",
+    "https://faucets.chain.link/dogeos-testnet-chikyu"
+  ],
   "nativeCurrency": {
     "name": "Dogecoin",
     "symbol": "DOGE",
