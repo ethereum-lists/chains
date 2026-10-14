@@ -9,7 +9,14 @@
     "symbol": "DOGE",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://www.dogeos.com",
   "shortName": "dogeos-chikyu",
   "chainId": 6281971,
@@ -18,6 +25,11 @@
     {
       "name": "DogeOS Chikyu Testnet Explorer",
       "url": "https://blockscout.testnet.dogeos.com",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "L2Scan",
+      "url": "https://dogeos-testnet.l2scan.co",
       "standard": "EIP3091"
     }
   ]
