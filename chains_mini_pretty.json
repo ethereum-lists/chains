@@ -21358,6 +21358,19 @@
   "faucets": [],
   "infoURL": "https://cheeseblockchain.com"
 }, {
+  "name": "SGA Chain",
+  "chainId": 20260,
+  "shortName": "sga",
+  "networkId": 20260,
+  "nativeCurrency": {
+    "name": "MITOSE",
+    "symbol": "MoSE",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://sgamainnet.ai"
+}, {
   "name": "MACos Chain",
   "chainId": 20261,
   "shortName": "macos",
