@@ -58443,8 +58443,8 @@
 }, {
   "name": "Neon EVM Devnet",
   "chain": "Solana",
-  "rpc": ["https://devnet.neonevm.org", "https://neon-evm-devnet.drpc.org", "wss://neon-evm-devnet.drpc.org"],
-  "faucets": ["https://neonfaucet.org"],
+  "rpc": [],
+  "faucets": [],
   "icon": "neon",
   "nativeCurrency": {
     "name": "Neon",
@@ -58455,16 +58455,8 @@
   "shortName": "neonevm-devnet",
   "chainId": 245022926,
   "networkId": 245022926,
-  "explorers": [{
-    "name": "neonscan",
-    "url": "https://devnet.neonscan.org",
-    "standard": "EIP3091"
-  }, {
-    "name": "blockscout",
-    "url": "https://neon-devnet.blockscout.com",
-    "icon": "blockscout",
-    "standard": "EIP3091"
-  }]
+  "explorers": [],
+  "status": "deprecated"
 }, {
   "name": "Neon EVM Devnet Rollup",
   "chain": "Solana",
@@ -58484,7 +58476,7 @@
 }, {
   "name": "Neon EVM Mainnet",
   "chain": "Solana",
-  "rpc": ["https://neon-proxy-mainnet.solana.p2p.org", "https://neon-evm.drpc.org", "wss://neon-evm.drpc.org"],
+  "rpc": ["https://operator-proxy.neonevm.org"],
   "faucets": [],
   "icon": "neon",
   "nativeCurrency": {
@@ -58497,14 +58489,11 @@
   "chainId": 245022934,
   "networkId": 245022934,
   "explorers": [{
-    "name": "neonscan",
-    "url": "https://neonscan.org",
-    "standard": "EIP3091"
-  }, {
     "name": "native",
     "url": "https://neon.blockscout.com",
     "standard": "EIP3091"
-  }]
+  }],
+  "status": "deprecated"
 }, {
   "name": "Neon EVM TestNet",
   "status": "deprecated",

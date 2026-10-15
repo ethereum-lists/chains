@@ -34939,8 +34939,8 @@
     "symbol": "NEON",
     "decimals": 18
   },
-  "rpc": ["https://devnet.neonevm.org", "https://neon-evm-devnet.drpc.org", "wss://neon-evm-devnet.drpc.org"],
-  "faucets": ["https://neonfaucet.org"],
+  "rpc": [],
+  "faucets": [],
   "infoURL": "https://neon-labs.org"
 }, {
   "name": "Neon EVM Devnet Rollup",
@@ -34965,7 +34965,7 @@
     "symbol": "NEON",
     "decimals": 18
   },
-  "rpc": ["https://neon-proxy-mainnet.solana.p2p.org", "https://neon-evm.drpc.org", "wss://neon-evm.drpc.org"],
+  "rpc": ["https://operator-proxy.neonevm.org"],
   "faucets": [],
   "infoURL": "https://neonevm.org"
 }, {
