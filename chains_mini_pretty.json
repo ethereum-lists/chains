@@ -21891,6 +21891,19 @@
   "faucets": ["https://faucet.kymaticscan.online"],
   "infoURL": "https://testnet-explorer.kymaticscan.online"
 }, {
+  "name": "Incentiv Mainnet",
+  "chainId": 24101,
+  "shortName": "incentiv",
+  "networkId": 24101,
+  "nativeCurrency": {
+    "name": "CENT",
+    "symbol": "CENT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.incentiv.io", "https://rpc-archive.incentiv.io"],
+  "faucets": [],
+  "infoURL": "https://incentiv.io"
+}, {
   "name": "Amauti",
   "chainId": 24116,
   "shortName": "railst",
