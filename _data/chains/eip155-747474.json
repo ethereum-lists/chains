@@ -4,7 +4,8 @@
   "rpc": [
     "https://rpc.katana.network",
     "https://katana.gateway.tenderly.co/",
-    "https://rpc.katanarpc.com/"
+    "https://rpc.katanarpc.com/",
+    "https://rpc.swiftnodes.io/rpc/katana?key=${SWIFTNODES_API_KEY}"
   ],
   "features": [
     {
