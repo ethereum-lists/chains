@@ -12,7 +12,9 @@
   "rpc": [
     "https://forno.celo.org",
     "wss://forno.celo.org/ws",
-    "https://celo-rpc.blockreq.com/v1/rpc/public"
+    "https://celo-rpc.blockreq.com/v1/rpc/public",
+    "https://coord.taifoon.dev/gw/rpc/42220",
+    "wss://coord.taifoon.dev/gw/ws/42220"
   ],
   "faucets": [],
   "infoURL": "https://docs.celo.org/",
