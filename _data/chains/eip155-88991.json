@@ -1,13 +1,8 @@
 {
   "name": "Otckas Testnet",
   "chain": "OKAS",
-  "icon": "okas",
-  "rpc": [
-    "https://rpc.otckas.com"
-  ],
-  "faucets": [
-    "https://faucet.otckas.com"
-  ],
+  "rpc": ["https://rpc.otckas.com"],
+  "faucets": ["https://faucet.otckas.com"],
   "nativeCurrency": {
     "name": "Otckas",
     "symbol": "OKAS",
