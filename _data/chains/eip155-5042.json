@@ -11,7 +11,9 @@
     "wss://rpc.beamrpc.com",
     "https://arc.drpc.org",
     "wss://arc.drpc.org",
-    "https://arc-rpc.blockreq.com/v1/rpc/public"
+    "https://arc-rpc.blockreq.com/v1/rpc/public",
+    "https://coord.taifoon.dev/gw/rpc/5042",
+    "wss://coord.taifoon.dev/gw/ws/5042"
   ],
   "faucets": ["https://apexfaucet.xyz/arc/faucet/"],
   "nativeCurrency": {
