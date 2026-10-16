@@ -19885,7 +19885,7 @@
 }, {
   "name": "Splendor Mainnet",
   "chain": "SPLENDOR",
-  "rpc": ["https://mainnet-rpc.splendor.org", "https://splendor-rpc.org/"],
+  "rpc": ["https://mainnet-rpc.splendor.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Splendor Token",
@@ -43399,7 +43399,7 @@
   "name": "Dragonfly Mainnet (Hexapod)",
   "chain": "Dragonfly",
   "icon": "dragonfly",
-  "rpc": ["https://dragonfly-rpc.switch.ch", "https://dragonfly-rpc.kore-technologies.ch", "https://dragonfly-rpc.phoenix-systems.io", "https://dragonfly-rpc.block-spirit.ch"],
+  "rpc": ["https://dragonfly-rpc.switch.ch", "https://dragonfly-rpc.phoenix-systems.io", "https://dragonfly-rpc.block-spirit.ch"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Dragonfly",
@@ -45222,7 +45222,7 @@
   "name": "Mantis Testnet (Hexapod)",
   "chain": "Mantis",
   "icon": "mantis",
-  "rpc": ["https://mantis-rpc.switch.ch", "https://mantis-rpc.kore-technologies.ch", "https://mantis-rpc.phoenix-systems.io"],
+  "rpc": ["https://mantis-rpc.switch.ch", "https://mantis-rpc.phoenix-systems.io"],
   "faucets": ["https://mantis.switch.ch/faucet", "https://mantis.kore-technologies.ch/faucet", "https://mantis.phoenix-systems.io/faucet", "https://mantis.block-spirit.ch/faucet"],
   "nativeCurrency": {
     "name": "Mantis",
@@ -53950,6 +53950,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "DogeOS",
+  "chain": "DogeOS",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dogecoin",
+    "symbol": "DOGE",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://www.dogeos.com",
+  "icon": "dogeos",
+  "shortName": "dogeos",
+  "chainId": 1122005,
+  "networkId": 1122005,
+  "status": "incubating"
+}, {
   "name": "Tiltyard Subnet",
   "chain": "TILTYARD",
   "rpc": ["https://subnets.avax.network/tiltyard/testnet/rpc"],
@@ -55333,6 +55354,35 @@
   "explorers": [{
     "name": "Block Chain LOL Berachain Testnet Blockscout Explorer",
     "url": "https://explorer.block-chain.lol",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "DogeOS Chikyu Testnet",
+  "chain": "DogeOS",
+  "icon": "dogeos",
+  "rpc": ["https://rpc.testnet.dogeos.com"],
+  "faucets": ["https://faucet.testnet.dogeos.com", "https://faucets.chain.link/dogeos-testnet-chikyu"],
+  "nativeCurrency": {
+    "name": "Dogecoin",
+    "symbol": "DOGE",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://www.dogeos.com",
+  "shortName": "dogeos-chikyu",
+  "chainId": 6281971,
+  "networkId": 6281971,
+  "explorers": [{
+    "name": "DogeOS Chikyu Testnet Explorer",
+    "url": "https://blockscout.testnet.dogeos.com",
+    "standard": "EIP3091"
+  }, {
+    "name": "L2Scan",
+    "url": "https://dogeos-testnet.l2scan.co",
     "standard": "EIP3091"
   }]
 }, {

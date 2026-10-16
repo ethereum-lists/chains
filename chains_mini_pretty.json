@@ -12072,7 +12072,7 @@
     "symbol": "SPLD",
     "decimals": 18
   },
-  "rpc": ["https://mainnet-rpc.splendor.org", "https://splendor-rpc.org/"],
+  "rpc": ["https://mainnet-rpc.splendor.org"],
   "faucets": [],
   "infoURL": "https://splendor.org"
 }, {
@@ -26086,7 +26086,7 @@
     "symbol": "DFLY",
     "decimals": 18
   },
-  "rpc": ["https://dragonfly-rpc.switch.ch", "https://dragonfly-rpc.kore-technologies.ch", "https://dragonfly-rpc.phoenix-systems.io", "https://dragonfly-rpc.block-spirit.ch"],
+  "rpc": ["https://dragonfly-rpc.switch.ch", "https://dragonfly-rpc.phoenix-systems.io", "https://dragonfly-rpc.block-spirit.ch"],
   "faucets": [],
   "infoURL": "https://hexapod.network"
 }, {
@@ -27204,7 +27204,7 @@
     "symbol": "MANTIS",
     "decimals": 18
   },
-  "rpc": ["https://mantis-rpc.switch.ch", "https://mantis-rpc.kore-technologies.ch", "https://mantis-rpc.phoenix-systems.io"],
+  "rpc": ["https://mantis-rpc.switch.ch", "https://mantis-rpc.phoenix-systems.io"],
   "faucets": ["https://mantis.switch.ch/faucet", "https://mantis.kore-technologies.ch/faucet", "https://mantis.phoenix-systems.io/faucet", "https://mantis.block-spirit.ch/faucet"],
   "infoURL": "https://hexapod.network"
 }, {
@@ -32304,6 +32304,19 @@
   "faucets": [],
   "infoURL": "https://netmind.ai"
 }, {
+  "name": "DogeOS",
+  "chainId": 1122005,
+  "shortName": "dogeos",
+  "networkId": 1122005,
+  "nativeCurrency": {
+    "name": "Dogecoin",
+    "symbol": "DOGE",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://www.dogeos.com"
+}, {
   "name": "Tiltyard Subnet",
   "chainId": 1127469,
   "shortName": "tiltyard",
@@ -33096,6 +33109,19 @@
   "rpc": ["https://block-chain.alt.technology"],
   "faucets": ["https://faucet.block-chain.lol/"],
   "infoURL": "https://block-chain.lol/"
+}, {
+  "name": "DogeOS Chikyu Testnet",
+  "chainId": 6281971,
+  "shortName": "dogeos-chikyu",
+  "networkId": 6281971,
+  "nativeCurrency": {
+    "name": "Dogecoin",
+    "symbol": "DOGE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.dogeos.com"],
+  "faucets": ["https://faucet.testnet.dogeos.com", "https://faucets.chain.link/dogeos-testnet-chikyu"],
+  "infoURL": "https://www.dogeos.com"
 }, {
   "name": "Safe(AnWang) Mainnet",
   "chainId": 6666665,
