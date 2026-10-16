@@ -3275,6 +3275,19 @@
   "faucets": [],
   "infoURL": "https://surnet.org"
 }, {
+  "name": "ENI Network",
+  "chainId": 263,
+  "shortName": "eni-network",
+  "networkId": 263,
+  "nativeCurrency": {
+    "name": "ENI",
+    "symbol": "ENI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.eni.top"],
+  "faucets": [],
+  "infoURL": "https://eniac.network"
+}, {
   "name": "Neura",
   "chainId": 266,
   "shortName": "neura",
