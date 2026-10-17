@@ -1,9 +1,7 @@
 {
   "name": "SRC Chain",
   "chain": "SRC",
-  "rpc": [
-    "https://mainnet.srcecosystem.com"
-  ],
+  "rpc": ["https://mainnet.srcecosystem.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "SRC",
@@ -18,7 +16,8 @@
   "explorers": [
     {
       "name": "SRC Chain Explorer",
-      "url": "https://explorer.srcecosystem.com"
+      "url": "https://explorer.srcecosystem.com",
+      "standard": "EIP3091"
     }
   ]
 }
