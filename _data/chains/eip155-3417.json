@@ -1,0 +1,24 @@
+{
+  "name": "Xode",
+  "chain": "XODE",
+  "icon": "xode",
+  "rpc": ["https://eth-rpc.xode.net"],
+  "features": [{ "name": "EIP155" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Xode",
+    "symbol": "XON",
+    "decimals": 18
+  },
+  "infoURL": "https://xode.net",
+  "shortName": "xode",
+  "chainId": 3417,
+  "networkId": 3417,
+  "explorers": [
+    {
+      "name": "Xode Blockscanner",
+      "url": "https://blockscanner.xode.net",
+      "standard": "none"
+    }
+  ]
+}
