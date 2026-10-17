@@ -14,7 +14,8 @@
     "https://rpcfree.com/polygon-rpc",
     "wss://rpc.satelink.network/rpc/ws/polygon",
     "https://xrpc.cl/polygon",
-    "https://polygon-bor-rpc.blockreq.com/v1/rpc/public"
+    "https://polygon-bor-rpc.blockreq.com/v1/rpc/public",
+    "https://rpc.swiftnodes.io/rpc/polygon?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
