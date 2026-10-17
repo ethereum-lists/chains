@@ -27117,6 +27117,45 @@
   "faucets": [],
   "infoURL": "https://miracleplay.gg"
 }, {
+  "name": "WireFluid Devnet",
+  "chainId": 92531,
+  "shortName": "wirefluid-devnet",
+  "networkId": 92531,
+  "nativeCurrency": {
+    "name": "WIRE",
+    "symbol": "WIRE",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://wirefluid.com"
+}, {
+  "name": "WireFluid Testnet",
+  "chainId": 92532,
+  "shortName": "wirefluid-testnet",
+  "networkId": 92532,
+  "nativeCurrency": {
+    "name": "WIRE",
+    "symbol": "WIRE",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://wirefluid.com"
+}, {
+  "name": "WireFluid Mainnet",
+  "chainId": 92533,
+  "shortName": "wirefluid",
+  "networkId": 92533,
+  "nativeCurrency": {
+    "name": "WIRE",
+    "symbol": "WIRE",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://wirefluid.com"
+}, {
   "name": "LiquidLayer Testnet",
   "chainId": 93572,
   "shortName": "tLILA",

@@ -45094,6 +45094,71 @@
     "standard": "none"
   }]
 }, {
+  "name": "WireFluid Devnet",
+  "chain": "WIRE",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WIRE",
+    "symbol": "WIRE",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://wirefluid.com",
+  "shortName": "wirefluid-devnet",
+  "chainId": 92531,
+  "networkId": 92531,
+  "slip44": 1,
+  "status": "incubating",
+  "icon": "wirefluid"
+}, {
+  "name": "WireFluid Testnet",
+  "chain": "WIRE",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WIRE",
+    "symbol": "WIRE",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://wirefluid.com",
+  "shortName": "wirefluid-testnet",
+  "chainId": 92532,
+  "networkId": 92532,
+  "slip44": 1,
+  "status": "incubating",
+  "icon": "wirefluid"
+}, {
+  "name": "WireFluid Mainnet",
+  "chain": "WIRE",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WIRE",
+    "symbol": "WIRE",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://wirefluid.com",
+  "shortName": "wirefluid",
+  "chainId": 92533,
+  "networkId": 92533,
+  "status": "incubating",
+  "icon": "wirefluid"
+}, {
   "name": "LiquidLayer Testnet",
   "chain": "LILA",
   "icon": "lila",
