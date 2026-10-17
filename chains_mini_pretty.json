@@ -18520,7 +18520,7 @@
     "symbol": "XPL",
     "decimals": 18
   },
-  "rpc": ["https://rpc.plasma.to"],
+  "rpc": ["https://rpc.plasma.to", "https://rpc.swiftnodes.io/rpc/plasma?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://plasma.to"
 }, {
