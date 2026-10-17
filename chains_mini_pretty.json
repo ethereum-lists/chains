@@ -2712,7 +2712,7 @@
     "symbol": "BTN",
     "decimals": 18
   },
-  "rpc": ["https://rpc.bitnetmoney.com"],
+  "rpc": ["https://rpc.bitnetmoney.com", "https://rpc.bitnetmoney.org"],
   "faucets": [],
   "infoURL": "https://bitnet.technology"
 }, {
@@ -26934,6 +26934,19 @@
   "rpc": ["https://unite-mainnet.g.alchemy.com/public"],
   "faucets": [],
   "infoURL": "https://unite.io"
+}, {
+  "name": "Otckas Testnet",
+  "chainId": 88991,
+  "shortName": "okas-testnet",
+  "networkId": 88991,
+  "nativeCurrency": {
+    "name": "Otckas",
+    "symbol": "OKAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.otckas.com"],
+  "faucets": ["https://faucet.otckas.com"],
+  "infoURL": "https://otckas.com"
 }, {
   "name": "INSAN",
   "chainId": 89001,

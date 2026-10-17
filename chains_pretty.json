@@ -4335,7 +4335,7 @@
   "name": "Bitnet",
   "chain": "BTN",
   "icon": "bitnet",
-  "rpc": ["https://rpc.bitnetmoney.com"],
+  "rpc": ["https://rpc.bitnetmoney.com", "https://rpc.bitnetmoney.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitnet",
@@ -4348,7 +4348,11 @@
   "networkId": 210,
   "explorers": [{
     "name": "Bitnet Explorer",
-    "url": "https://btnscan.com",
+    "url": "https://explorer.bitnetmoney.com",
+    "standard": "EIP3091"
+  }, {
+    "name": "BitnetScan",
+    "url": "https://bitnetscan.vercel.app",
     "standard": "EIP3091"
   }]
 }, {
@@ -44776,6 +44780,25 @@
   "explorers": [{
     "name": "Unite Explorer",
     "url": "https://unite-mainnet.explorer.alchemy.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Otckas Testnet",
+  "chain": "OKAS",
+  "rpc": ["https://rpc.otckas.com"],
+  "faucets": ["https://faucet.otckas.com"],
+  "nativeCurrency": {
+    "name": "Otckas",
+    "symbol": "OKAS",
+    "decimals": 18
+  },
+  "infoURL": "https://otckas.com",
+  "shortName": "okas-testnet",
+  "chainId": 88991,
+  "networkId": 88991,
+  "explorers": [{
+    "name": "OtckasScan",
+    "url": "https://explorer.otckas.com",
     "standard": "EIP3091"
   }]
 }, {
