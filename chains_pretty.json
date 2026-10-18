@@ -230,7 +230,7 @@
 }, {
   "name": "OP Mainnet",
   "chain": "ETH",
-  "rpc": ["https://mainnet.optimism.io", "https://optimism-rpc.publicnode.com", "wss://optimism-rpc.publicnode.com", "https://optimism.gateway.tenderly.co", "wss://optimism.gateway.tenderly.co", "https://optimism.drpc.org", "wss://optimism.drpc.org", "https://xrpc.cl/optimism", "https://optimism-rpc.blockreq.com/v1/rpc/public"],
+  "rpc": ["https://mainnet.optimism.io", "https://optimism-rpc.publicnode.com", "wss://optimism-rpc.publicnode.com", "https://optimism.gateway.tenderly.co", "wss://optimism.gateway.tenderly.co", "https://optimism.drpc.org", "wss://optimism.drpc.org", "https://xrpc.cl/optimism", "https://optimism-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/optimism?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -2807,7 +2807,7 @@
   "name": "Polygon Mainnet",
   "chain": "Polygon",
   "icon": "polygon",
-  "rpc": ["https://polygon.drpc.org", "wss://polygon.drpc.org", "https://rpc-mainnet.matic.quiknode.pro", "https://polygon-bor-rpc.publicnode.com", "wss://polygon-bor-rpc.publicnode.com", "https://polygon.gateway.tenderly.co", "wss://polygon.gateway.tenderly.co", "https://rpc.satelink.network/rpc/polygon", "https://rpcfree.com/polygon-rpc", "wss://rpc.satelink.network/rpc/ws/polygon", "https://xrpc.cl/polygon", "https://polygon-bor-rpc.blockreq.com/v1/rpc/public"],
+  "rpc": ["https://polygon.drpc.org", "wss://polygon.drpc.org", "https://rpc-mainnet.matic.quiknode.pro", "https://polygon-bor-rpc.publicnode.com", "wss://polygon-bor-rpc.publicnode.com", "https://polygon.gateway.tenderly.co", "wss://polygon.gateway.tenderly.co", "https://rpc.satelink.network/rpc/polygon", "https://rpcfree.com/polygon-rpc", "wss://rpc.satelink.network/rpc/ws/polygon", "https://xrpc.cl/polygon", "https://polygon-bor-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/polygon?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "POL",
