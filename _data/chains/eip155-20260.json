@@ -1,7 +1,7 @@
 {
   "name": "SGA Chain",
   "chain": "SGA",
-  "rpc": [],
+  "rpc": ["https://rpc.sgamainnet.ai"],
   "faucets": [],
   "nativeCurrency": {
     "name": "MITOSE",
@@ -12,5 +12,11 @@
   "shortName": "sga",
   "chainId": 20260,
   "networkId": 20260,
-  "status": "incubating"
+  "explorers": [
+    {
+      "name": "SGA Scan",
+      "url": "https://explorer.sgamainnet.ai",
+      "standard": "EIP3091"
+    }
+  ]
 }
