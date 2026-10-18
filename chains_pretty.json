@@ -31327,7 +31327,7 @@
 }, {
   "name": "Smart Bitcoin Cash",
   "chain": "smartBCH",
-  "rpc": ["https://smartbch.greyh.at", "https://smartbch.fountainhead.cash/mainnet"],
+  "rpc": ["https://smartbch.greyh.at", "https://rpc-mainnet.smartbch.org", "https://smartbch.fountainhead.cash/mainnet"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin Cash",
@@ -43296,7 +43296,7 @@
   "name": "RWA Chain Sepolia",
   "chain": "RWA",
   "rpc": ["https://sepolia-rpc.rwa-chain.io"],
-  "faucets": ["https://testnet.rwa-chain.io/explorer/faucet"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
@@ -43313,10 +43313,7 @@
   }],
   "parent": {
     "type": "L2",
-    "chain": "eip155-84532",
-    "bridges": [{
-      "url": "https://testnet.rwa-chain.io/explorer/bridge"
-    }]
+    "chain": "eip155-84532"
   }
 }, {
   "name": "Vention Smart Chain Mainnet",

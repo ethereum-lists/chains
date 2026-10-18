@@ -18962,7 +18962,7 @@
     "symbol": "BCH",
     "decimals": 18
   },
-  "rpc": ["https://smartbch.greyh.at", "https://smartbch.fountainhead.cash/mainnet"],
+  "rpc": ["https://smartbch.greyh.at", "https://rpc-mainnet.smartbch.org", "https://smartbch.fountainhead.cash/mainnet"],
   "faucets": [],
   "infoURL": "https://smartbch.org/"
 }, {
@@ -26009,7 +26009,7 @@
     "decimals": 18
   },
   "rpc": ["https://sepolia-rpc.rwa-chain.io"],
-  "faucets": ["https://testnet.rwa-chain.io/explorer/faucet"],
+  "faucets": [],
   "infoURL": "https://rwa-chain.io"
 }, {
   "name": "Vention Smart Chain Mainnet",
