@@ -31327,7 +31327,7 @@
 }, {
   "name": "Smart Bitcoin Cash",
   "chain": "smartBCH",
-  "rpc": ["https://smartbch.greyh.at", "https://rpc-mainnet.smartbch.org", "https://smartbch.fountainhead.cash/mainnet"],
+  "rpc": ["https://smartbch.greyh.at", "https://smartbch.fountainhead.cash/mainnet"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin Cash",
@@ -39101,7 +39101,7 @@
   "name": "Avalanche C-Chain",
   "chain": "AVAX",
   "icon": "avax",
-  "rpc": ["https://api.avax.network/ext/bc/C/rpc", "https://avalanche-c-chain-rpc.publicnode.com", "wss://avalanche-c-chain-rpc.publicnode.com", "https://xrpc.cl/avalanche", "https://avalanche-rpc.blockreq.com/v1/rpc/public"],
+  "rpc": ["https://api.avax.network/ext/bc/C/rpc", "https://avalanche-c-chain-rpc.publicnode.com", "wss://avalanche-c-chain-rpc.publicnode.com", "https://xrpc.cl/avalanche", "https://avalanche-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/avalanche?key=${SWIFTNODES_API_KEY}"],
   "features": [{
     "name": "EIP1559"
   }],
@@ -43296,7 +43296,7 @@
   "name": "RWA Chain Sepolia",
   "chain": "RWA",
   "rpc": ["https://sepolia-rpc.rwa-chain.io"],
-  "faucets": [],
+  "faucets": ["https://testnet.rwa-chain.io/explorer/faucet"],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
@@ -43313,7 +43313,10 @@
   }],
   "parent": {
     "type": "L2",
-    "chain": "eip155-84532"
+    "chain": "eip155-84532",
+    "bridges": [{
+      "url": "https://testnet.rwa-chain.io/explorer/bridge"
+    }]
   }
 }, {
   "name": "Vention Smart Chain Mainnet",
