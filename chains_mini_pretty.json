@@ -18962,7 +18962,7 @@
     "symbol": "BCH",
     "decimals": 18
   },
-  "rpc": ["https://smartbch.greyh.at", "https://rpc-mainnet.smartbch.org", "https://smartbch.fountainhead.cash/mainnet"],
+  "rpc": ["https://smartbch.greyh.at", "https://smartbch.fountainhead.cash/mainnet"],
   "faucets": [],
   "infoURL": "https://smartbch.org/"
 }, {
@@ -26009,7 +26009,7 @@
     "decimals": 18
   },
   "rpc": ["https://sepolia-rpc.rwa-chain.io"],
-  "faucets": [],
+  "faucets": ["https://testnet.rwa-chain.io/explorer/faucet"],
   "infoURL": "https://rwa-chain.io"
 }, {
   "name": "Vention Smart Chain Mainnet",
@@ -34461,6 +34461,19 @@
   "rpc": ["https://kingdomchain.observer/rpc"],
   "faucets": [],
   "infoURL": "https://www.beastkingdom.io/"
+}, {
+  "name": "BB84",
+  "chainId": 42069000,
+  "shortName": "bb84",
+  "networkId": 42069000,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://bb84.com"
 }, {
   "name": "GenLayer Mainnet",
   "chainId": 42424242,
