@@ -18,7 +18,8 @@
     "https://rpcfree.com/arbitrum-rpc",
     "https://rpc.satelink.network/rpc/arbitrum",
     "https://xrpc.cl/arbitrum",
-    "https://arbitrum-one-rpc.blockreq.com/v1/rpc/public"
+    "https://arbitrum-one-rpc.blockreq.com/v1/rpc/public",
+    "https://rpc.swiftnodes.io/rpc/arbitrum?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "explorers": [
