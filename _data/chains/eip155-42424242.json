@@ -1,9 +1,7 @@
 {
   "name": "GenLayer Mainnet",
   "chain": "GEN",
-  "rpc": [
-    "https://rpc.chain.genlayer.com"
-  ],
+  "rpc": ["https://rpc.chain.genlayer.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "GEN Token",
