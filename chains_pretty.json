@@ -22915,7 +22915,7 @@
   "name": "Layer Edge Mainnet",
   "title": "EDGEN",
   "chain": "EDGEN",
-  "rpc": ["https://layeredge-mainnet-evm.itrocket.net", "https://layeredge.rpc.subquery.network/public", "https://rpc.layeredge.io", "https://rpc.layeredge.foundation"],
+  "rpc": ["https://layeredge.rpc.subquery.network/public", "https://rpc.layeredge.io", "https://rpc.layeredge.foundation"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Layer Edge",
@@ -25202,10 +25202,10 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "SCDO Shard0 EVM",
+  "name": "SCDO Shard0",
   "chain": "SCDO",
   "icon": "scdo",
-  "rpc": ["https://scdoscan.io/rpc/0", "https://apeccapital.org/rpc/0"],
+  "rpc": ["https://scdo.com.au/rpc/0", "https://apeccapital.org/rpc/0"],
   "faucets": [],
   "nativeCurrency": {
     "name": "SCDO",
@@ -25217,15 +25217,15 @@
   }, {
     "name": "EIP1559"
   }],
-  "infoURL": "https://scdoscan.io",
-  "shortName": "scdo0",
+  "infoURL": "https://scdo.com.au",
+  "shortName": "scdo",
   "chainId": 5680,
   "networkId": 5680,
   "explorers": [{
-    "name": "scdoscan",
-    "url": "https://scdoscan.io",
+    "name": "SCDO Scan",
+    "url": "https://scdo.com.au/scan",
     "icon": "scdo",
-    "standard": "EIP3091"
+    "standard": "none"
   }]
 }, {
   "name": "Syscoin Tanenbaum Testnet",
