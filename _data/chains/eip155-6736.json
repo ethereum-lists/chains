@@ -2,10 +2,7 @@
   "name": "Vexanium Mainnet",
   "chain": "VEX",
   "icon": "vex",
-  "rpc": [
-    "https://vexascan.com/rpc",
-    "https://api.windcrypto.com/rpc"
-  ],
+  "rpc": ["https://vexascan.com/rpc", "https://api.windcrypto.com/rpc"],
   "features": [
     {
       "name": "EIP155"
