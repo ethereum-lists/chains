@@ -12,11 +12,13 @@
   "shortName": "yo",
   "chainId": 9009,
   "networkId": 9009,
+  "icon": "yochain",
   "explorers": [
     {
       "name": "YoChain Explorer",
       "url": "https://explorer.yochain.network",
-      "standard": "EIP3091"
+      "standard": "EIP3091",
+      "icon": "yochain"
     }
   ]
 }
