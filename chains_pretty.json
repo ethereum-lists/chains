@@ -7546,6 +7546,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "SciMatic",
+  "chain": "SCI",
+  "rpc": ["https://rpc.scimatic.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SCI",
+    "symbol": "SCI",
+    "decimals": 18
+  },
+  "infoURL": "https://scimatic.net",
+  "shortName": "sci",
+  "chainId": 481,
+  "networkId": 481,
+  "explorers": [{
+    "name": "SciMatic Explorer",
+    "url": "https://explorer.scimatic.net",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Camp Network Mainnet",
   "chain": "CAMP",
   "icon": "camp",
@@ -22896,7 +22915,7 @@
   "name": "Layer Edge Mainnet",
   "title": "EDGEN",
   "chain": "EDGEN",
-  "rpc": ["https://layeredge-mainnet-evm.itrocket.net", "https://layeredge.rpc.subquery.network/public", "https://rpc.layeredge.io", "https://rpc.layeredge.foundation"],
+  "rpc": ["https://layeredge.rpc.subquery.network/public", "https://rpc.layeredge.io", "https://rpc.layeredge.foundation"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Layer Edge",

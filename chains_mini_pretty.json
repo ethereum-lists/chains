@@ -4523,6 +4523,19 @@
   "faucets": [],
   "infoURL": "https://world.org/world-chain"
 }, {
+  "name": "SciMatic",
+  "chainId": 481,
+  "shortName": "sci",
+  "networkId": 481,
+  "nativeCurrency": {
+    "name": "SCI",
+    "symbol": "SCI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.scimatic.net"],
+  "faucets": [],
+  "infoURL": "https://scimatic.net"
+}, {
   "name": "Camp Network Mainnet",
   "chainId": 484,
   "shortName": "CampMainnet",
@@ -13853,7 +13866,7 @@
     "symbol": "EDGEN",
     "decimals": 18
   },
-  "rpc": ["https://layeredge-mainnet-evm.itrocket.net", "https://layeredge.rpc.subquery.network/public", "https://rpc.layeredge.io", "https://rpc.layeredge.foundation"],
+  "rpc": ["https://layeredge.rpc.subquery.network/public", "https://rpc.layeredge.io", "https://rpc.layeredge.foundation"],
   "faucets": [],
   "infoURL": "https://layeredge.io"
 }, {
