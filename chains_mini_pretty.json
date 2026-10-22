@@ -7006,19 +7006,6 @@
   "faucets": [],
   "infoURL": "https://www.newtonproject.org/"
 }, {
-  "name": "Phase Mainnet",
-  "chainId": 1015,
-  "shortName": "phase",
-  "networkId": 1015,
-  "nativeCurrency": {
-    "name": "PHASE",
-    "symbol": "PHASE",
-    "decimals": 18
-  },
-  "rpc": [],
-  "faucets": [],
-  "infoURL": "https://phase.xyz"
-}, {
   "name": "MAI Chain Mainnet",
   "chainId": 1019,
   "shortName": "mai",
@@ -14256,7 +14243,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://robinhood-rpc.publicnode.com", "wss://robinhood-rpc.publicnode.com", "https://rpc.ordofi.network", "wss://rpc.ordofi.network", "https://robinhood.drpc.org", "wss://robinhood.drpc.org", "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public", "https://api.blockvectra.com/v1/robinhood_mainnet/public", "https://robinhood.daybreak-rpc.network", "https://rpc.swiftnodes.io/rpc/robinhood?key=${SWIFTNODES_API_KEY}"],
+  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://robinhood-rpc.publicnode.com", "wss://robinhood-rpc.publicnode.com", "https://rpc.arrowrpc.com", "https://rpc.ordofi.network", "wss://rpc.ordofi.network", "https://robinhood.drpc.org", "wss://robinhood.drpc.org", "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public", "https://api.blockvectra.com/v1/robinhood_mainnet/public", "https://robinhood.daybreak-rpc.network", "https://rpc.swiftnodes.io/rpc/robinhood?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://docs.robinhood.com/chain"
 }, {
@@ -28534,19 +28521,6 @@
   "faucets": ["https://info.form.network/faucet"],
   "infoURL": "https://sepolia-info.form.network"
 }, {
-  "name": "ValueChain Testnet",
-  "chainId": 138565,
-  "shortName": "valuechain-testnet",
-  "networkId": 138565,
-  "nativeCurrency": {
-    "name": "SOSO",
-    "symbol": "SOSO",
-    "decimals": 18
-  },
-  "rpc": ["https://testnet.valuechain.xyz", "wss://testnet-ws.valuechain.xyz"],
-  "faucets": [],
-  "infoURL": "https://sodex.com/documentation/for-developers/developers/valuechain-evm"
-}, {
   "name": "Midpoint Cross Testnet",
   "chainId": 139420,
   "shortName": "midxt",
@@ -29001,19 +28975,6 @@
   "rpc": ["https://testnet.condor.systems/rpc"],
   "faucets": ["https://faucet.condor.systems"],
   "infoURL": "https://condor.systems"
-}, {
-  "name": "Phase Fabric Testnet",
-  "chainId": 190277,
-  "shortName": "phase-fabric",
-  "networkId": 190277,
-  "nativeCurrency": {
-    "name": "Test PHASE",
-    "symbol": "tPHASE",
-    "decimals": 18
-  },
-  "rpc": [],
-  "faucets": [],
-  "infoURL": "https://phase.xyz"
 }, {
   "name": "HPP Mainnet",
   "chainId": 190415,
@@ -30028,19 +29989,6 @@
   "rpc": ["https://sepolia.zillnet.io/rpc"],
   "faucets": [],
   "infoURL": "https://zillnet.io"
-}, {
-  "name": "ValueChain",
-  "chainId": 286623,
-  "shortName": "valuechain",
-  "networkId": 286623,
-  "nativeCurrency": {
-    "name": "SOSO",
-    "symbol": "SOSO",
-    "decimals": 18
-  },
-  "rpc": ["https://mainnet.valuechain.xyz", "wss://mainnet-ws.valuechain.xyz"],
-  "faucets": [],
-  "infoURL": "https://sodex.com/documentation/for-developers/developers/valuechain-evm"
 }, {
   "name": "PMT Mainnet",
   "chainId": 290290,
