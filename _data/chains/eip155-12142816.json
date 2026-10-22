@@ -1,7 +1,10 @@
 {
   "name": "Winmar Chain",
   "chain": "WMC",
-  "rpc": ["https://rpc.winmarchain.io"],
+  "rpc": [
+    "https://rpc.winmarchain.io",
+    "https://rpc.winmarchain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Winmar Coin",
