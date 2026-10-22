@@ -8,7 +8,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://api.mycryptoapi.com/eth", "https://cloudflare-eth.com", "https://ethereum-rpc.publicnode.com", "wss://ethereum-rpc.publicnode.com", "https://mainnet.gateway.tenderly.co", "wss://mainnet.gateway.tenderly.co", "https://rpc.blocknative.com/boost", "https://rpc.flashbots.net", "https://rpc.flashbots.net/fast", "https://rpc.mevblocker.io", "https://rpc.mevblocker.io/fast", "https://rpc.mevblocker.io/noreverts", "https://rpc.mevblocker.io/fullprivacy", "https://eth.drpc.org", "wss://eth.drpc.org", "https://api.securerpc.com/v1", "https://xrpc.cl/eth", "https://ethereum-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/eth?key=${SWIFTNODES_API_KEY}"],
+  "rpc": ["https://mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://api.mycryptoapi.com/eth", "https://cloudflare-eth.com", "https://ethereum-rpc.publicnode.com", "wss://ethereum-rpc.publicnode.com", "https://mainnet.gateway.tenderly.co", "wss://mainnet.gateway.tenderly.co", "https://rpc.blocknative.com/boost", "https://rpc.flashbots.net", "https://rpc.flashbots.net/fast", "https://rpc.mevblocker.io", "https://rpc.mevblocker.io/fast", "https://rpc.mevblocker.io/noreverts", "https://rpc.mevblocker.io/fullprivacy", "https://eth.drpc.org", "wss://eth.drpc.org", "https://api.securerpc.com/v1", "https://xrpc.cl/eth", "https://ethereum-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/eth?key=${SWIFTNODES_API_KEY}", "https://api.blockvectra.com/v1/eth_mainnet/public"],
   "faucets": [],
   "infoURL": "https://ethereum.org"
 }, {
@@ -723,7 +723,7 @@
     "symbol": "BNB",
     "decimals": 18
   },
-  "rpc": ["https://bsc-dataseed1.bnbchain.org", "https://bsc-dataseed2.bnbchain.org", "https://bsc-dataseed3.bnbchain.org", "https://bsc-dataseed4.bnbchain.org", "https://bsc-dataseed1.defibit.io", "https://bsc-dataseed2.defibit.io", "https://bsc-dataseed3.defibit.io", "https://bsc-dataseed4.defibit.io", "https://bsc-dataseed1.ninicoin.io", "https://bsc-dataseed2.ninicoin.io", "https://bsc-dataseed3.ninicoin.io", "https://bsc-dataseed4.ninicoin.io", "https://bsc-rpc.publicnode.com", "https://bsc-rpc-public.chainpulse.cc", "https://rpc.backrunshield.com", "wss://bsc-rpc.publicnode.com", "wss://bsc-ws-node.nariox.org", "https://xrpc.cl/bsc", "https://bsc-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/bsc?key=${SWIFTNODES_API_KEY}"],
+  "rpc": ["https://bsc-dataseed1.bnbchain.org", "https://bsc-dataseed2.bnbchain.org", "https://bsc-dataseed3.bnbchain.org", "https://bsc-dataseed4.bnbchain.org", "https://bsc-dataseed1.defibit.io", "https://bsc-dataseed2.defibit.io", "https://bsc-dataseed3.defibit.io", "https://bsc-dataseed4.defibit.io", "https://bsc-dataseed1.ninicoin.io", "https://bsc-dataseed2.ninicoin.io", "https://bsc-dataseed3.ninicoin.io", "https://bsc-dataseed4.ninicoin.io", "https://bsc-rpc.publicnode.com", "https://bsc-rpc-public.chainpulse.cc", "https://rpc.backrunshield.com", "wss://bsc-rpc.publicnode.com", "wss://bsc-ws-node.nariox.org", "https://xrpc.cl/bsc", "https://bsc-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/bsc?key=${SWIFTNODES_API_KEY}", "https://api.blockvectra.com/v1/bsc_mainnet/public"],
   "faucets": [],
   "infoURL": "https://www.bnbchain.org/en"
 }, {
@@ -1776,7 +1776,7 @@
     "symbol": "POL",
     "decimals": 18
   },
-  "rpc": ["https://polygon.drpc.org", "wss://polygon.drpc.org", "https://rpc-mainnet.matic.quiknode.pro", "https://polygon-bor-rpc.publicnode.com", "wss://polygon-bor-rpc.publicnode.com", "https://polygon.gateway.tenderly.co", "wss://polygon.gateway.tenderly.co", "https://rpc.satelink.network/rpc/polygon", "https://rpcfree.com/polygon-rpc", "wss://rpc.satelink.network/rpc/ws/polygon", "https://xrpc.cl/polygon", "https://polygon-bor-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/polygon?key=${SWIFTNODES_API_KEY}"],
+  "rpc": ["https://polygon.drpc.org", "wss://polygon.drpc.org", "https://rpc-mainnet.matic.quiknode.pro", "https://polygon-bor-rpc.publicnode.com", "wss://polygon-bor-rpc.publicnode.com", "https://polygon.gateway.tenderly.co", "wss://polygon.gateway.tenderly.co", "https://rpc.satelink.network/rpc/polygon", "https://rpcfree.com/polygon-rpc", "wss://rpc.satelink.network/rpc/ws/polygon", "https://xrpc.cl/polygon", "https://polygon-bor-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/polygon?key=${SWIFTNODES_API_KEY}", "https://api.blockvectra.com/v1/polygon_mainnet/public"],
   "faucets": [],
   "infoURL": "https://polygon.technology/"
 }, {
@@ -7005,6 +7005,19 @@
   "rpc": ["https://global.rpc.mainnet.newtonproject.org"],
   "faucets": [],
   "infoURL": "https://www.newtonproject.org/"
+}, {
+  "name": "Phase Mainnet",
+  "chainId": 1015,
+  "shortName": "phase",
+  "networkId": 1015,
+  "nativeCurrency": {
+    "name": "PHASE",
+    "symbol": "PHASE",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://phase.xyz"
 }, {
   "name": "MAI Chain Mainnet",
   "chainId": 1019,
@@ -14243,7 +14256,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://robinhood-rpc.publicnode.com", "wss://robinhood-rpc.publicnode.com", "https://rpc.arrowrpc.com", "https://rpc.ordofi.network", "wss://rpc.ordofi.network", "https://robinhood.drpc.org", "wss://robinhood.drpc.org", "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public", "https://api.blockvectra.com/v1/robinhood_mainnet/public", "https://robinhood.daybreak-rpc.network", "https://rpc.swiftnodes.io/rpc/robinhood?key=${SWIFTNODES_API_KEY}"],
+  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://robinhood-rpc.publicnode.com", "wss://robinhood-rpc.publicnode.com", "https://rpc.ordofi.network", "wss://rpc.ordofi.network", "https://robinhood.drpc.org", "wss://robinhood.drpc.org", "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public", "https://api.blockvectra.com/v1/robinhood_mainnet/public", "https://robinhood.daybreak-rpc.network", "https://rpc.swiftnodes.io/rpc/robinhood?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://docs.robinhood.com/chain"
 }, {
@@ -17545,7 +17558,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.base.org/", "https://developer-access-mainnet.base.org/", "https://base.gateway.tenderly.co", "wss://base.gateway.tenderly.co", "https://base-rpc.publicnode.com", "wss://base-rpc.publicnode.com", "https://rpcfree.com/base-rpc", "https://rpc.baseazul.dev", "https://rpc.satelink.network/rpc/base", "https://xrpc.cl/base", "https://base-rpc.blockreq.com/v1/rpc/public", "https://base.daybreak-rpc.network", "https://rpc.swiftnodes.io/rpc/base?key=${SWIFTNODES_API_KEY}"],
+  "rpc": ["https://mainnet.base.org/", "https://developer-access-mainnet.base.org/", "https://base.gateway.tenderly.co", "wss://base.gateway.tenderly.co", "https://base-rpc.publicnode.com", "wss://base-rpc.publicnode.com", "https://rpcfree.com/base-rpc", "https://rpc.baseazul.dev", "https://rpc.satelink.network/rpc/base", "https://xrpc.cl/base", "https://base-rpc.blockreq.com/v1/rpc/public", "https://base.daybreak-rpc.network", "https://rpc.swiftnodes.io/rpc/base?key=${SWIFTNODES_API_KEY}", "https://api.blockvectra.com/v1/base_mainnet/public"],
   "faucets": [],
   "infoURL": "https://base.org"
 }, {
@@ -23408,7 +23421,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}", "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}", "https://arb1.arbitrum.io/rpc", "https://arbitrum-one-rpc.publicnode.com", "wss://arbitrum-one-rpc.publicnode.com", "https://rpcfree.com/arbitrum-rpc", "https://rpc.satelink.network/rpc/arbitrum", "https://xrpc.cl/arbitrum", "https://arbitrum-one-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/arbitrum?key=${SWIFTNODES_API_KEY}"],
+  "rpc": ["https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}", "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}", "https://arb1.arbitrum.io/rpc", "https://arbitrum-one-rpc.publicnode.com", "wss://arbitrum-one-rpc.publicnode.com", "https://rpcfree.com/arbitrum-rpc", "https://rpc.satelink.network/rpc/arbitrum", "https://xrpc.cl/arbitrum", "https://arbitrum-one-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/arbitrum?key=${SWIFTNODES_API_KEY}", "https://api.blockvectra.com/v1/arb_mainnet/public"],
   "faucets": [],
   "infoURL": "https://arbitrum.io"
 }, {
@@ -28521,6 +28534,19 @@
   "faucets": ["https://info.form.network/faucet"],
   "infoURL": "https://sepolia-info.form.network"
 }, {
+  "name": "ValueChain Testnet",
+  "chainId": 138565,
+  "shortName": "valuechain-testnet",
+  "networkId": 138565,
+  "nativeCurrency": {
+    "name": "SOSO",
+    "symbol": "SOSO",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.valuechain.xyz", "wss://testnet-ws.valuechain.xyz"],
+  "faucets": [],
+  "infoURL": "https://sodex.com/documentation/for-developers/developers/valuechain-evm"
+}, {
   "name": "Midpoint Cross Testnet",
   "chainId": 139420,
   "shortName": "midxt",
@@ -28975,6 +29001,19 @@
   "rpc": ["https://testnet.condor.systems/rpc"],
   "faucets": ["https://faucet.condor.systems"],
   "infoURL": "https://condor.systems"
+}, {
+  "name": "Phase Fabric Testnet",
+  "chainId": 190277,
+  "shortName": "phase-fabric",
+  "networkId": 190277,
+  "nativeCurrency": {
+    "name": "Test PHASE",
+    "symbol": "tPHASE",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://phase.xyz"
 }, {
   "name": "HPP Mainnet",
   "chainId": 190415,
@@ -29989,6 +30028,19 @@
   "rpc": ["https://sepolia.zillnet.io/rpc"],
   "faucets": [],
   "infoURL": "https://zillnet.io"
+}, {
+  "name": "ValueChain",
+  "chainId": 286623,
+  "shortName": "valuechain",
+  "networkId": 286623,
+  "nativeCurrency": {
+    "name": "SOSO",
+    "symbol": "SOSO",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.valuechain.xyz", "wss://mainnet-ws.valuechain.xyz"],
+  "faucets": [],
+  "infoURL": "https://sodex.com/documentation/for-developers/developers/valuechain-evm"
 }, {
   "name": "PMT Mainnet",
   "chainId": 290290,
@@ -33717,7 +33769,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.sepolia.org", "https://rpc2.sepolia.org", "https://rpc.sepolia.ethpandaops.io", "https://sepolia.infura.io/v3/${INFURA_API_KEY}", "wss://sepolia.infura.io/v3/${INFURA_API_KEY}", "https://sepolia.gateway.tenderly.co", "wss://sepolia.gateway.tenderly.co", "https://ethereum-sepolia-rpc.publicnode.com", "wss://ethereum-sepolia-rpc.publicnode.com", "https://sepolia.drpc.org", "wss://sepolia.drpc.org", "https://eth-sepolia.g.alchemy.com/v2/WddzdzI2o9S3COdT73d5w6AIogbKq4X-", "https://xrpc.cl/sepolia", "https://ethereum-sepolia-rpc.blockreq.com/v1/rpc/public"],
+  "rpc": ["https://rpc.sepolia.org", "https://rpc2.sepolia.org", "https://rpc.sepolia.ethpandaops.io", "https://sepolia.infura.io/v3/${INFURA_API_KEY}", "wss://sepolia.infura.io/v3/${INFURA_API_KEY}", "https://sepolia.gateway.tenderly.co", "wss://sepolia.gateway.tenderly.co", "https://ethereum-sepolia-rpc.publicnode.com", "wss://ethereum-sepolia-rpc.publicnode.com", "https://sepolia.drpc.org", "wss://sepolia.drpc.org", "https://eth-sepolia.g.alchemy.com/v2/WddzdzI2o9S3COdT73d5w6AIogbKq4X-", "https://xrpc.cl/sepolia", "https://ethereum-sepolia-rpc.blockreq.com/v1/rpc/public", "https://api.blockvectra.com/v1/eth_sepolia/public"],
   "faucets": ["http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"],
   "infoURL": "https://sepolia.otterscan.io"
 }, {
