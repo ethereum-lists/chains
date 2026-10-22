@@ -6008,6 +6008,32 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "ZKsync Era Testnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc.zksync-era-testnet.zksync.dev", "wss://rpc.zksync-era-testnet.zksync.dev/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://zksync.io/",
+  "shortName": "zksync-era-testnet",
+  "chainId": 312,
+  "networkId": 312,
+  "slip44": 1,
+  "icon": "zksync-era",
+  "explorers": [{
+    "name": "ZKsync Era Block Explorer",
+    "url": "https://block-explorer.zksync-era-testnet.zksync.dev",
+    "icon": "zksync-era",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  }
+}, {
   "name": "Neurochain Mainnet",
   "chain": "NCN",
   "rpc": ["https://nc-rpc-prd1.neurochain.io", "https://nc-rpc-prd2.neurochain.io"],
