@@ -14243,7 +14243,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://robinhood-rpc.publicnode.com", "wss://robinhood-rpc.publicnode.com", "https://rpc.arrowrpc.com", "https://rpc.ordofi.network", "wss://rpc.ordofi.network", "https://robinhood.drpc.org", "wss://robinhood.drpc.org", "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public", "https://api.blockvectra.com/v1/robinhood_mainnet/public", "https://robinhood.daybreak-rpc.network", "https://rpc.swiftnodes.io/rpc/robinhood?key=${SWIFTNODES_API_KEY}"],
+  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://robinhood-rpc.publicnode.com", "wss://robinhood-rpc.publicnode.com", "https://rpc.ordofi.network", "wss://rpc.ordofi.network", "https://robinhood.drpc.org", "wss://robinhood.drpc.org", "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public", "https://api.blockvectra.com/v1/robinhood_mainnet/public", "https://robinhood.daybreak-rpc.network", "https://rpc.swiftnodes.io/rpc/robinhood?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://docs.robinhood.com/chain"
 }, {
@@ -25865,7 +25865,7 @@
     "symbol": "SMN",
     "decimals": 18
   },
-  "rpc": ["https://explorer.primevertexlabs.com.mx/rpc", "https://seleman-edge.mineriafjs.workers.dev/rpc", "wss://explorer-ws.primevertexlabs.com.mx"],
+  "rpc": ["https://explorer.primevertexlabs.com.mx/rpc", "wss://explorer-ws.primevertexlabs.com.mx"],
   "faucets": ["https://explorer.primevertexlabs.com.mx/trust-wallet", "https://explorer.primevertexlabs.com.mx/faucet"],
   "infoURL": "https://explorer.primevertexlabs.com.mx/seleman-chain"
 }, {
