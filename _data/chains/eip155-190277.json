@@ -1,0 +1,17 @@
+{
+  "name": "Phase Fabric Testnet",
+  "chain": "PHASE",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Test PHASE",
+    "symbol": "tPHASE",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://phase.xyz",
+  "shortName": "phase-fabric",
+  "chainId": 190277,
+  "networkId": 190277,
+  "status": "incubating"
+}
