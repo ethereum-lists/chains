@@ -1,0 +1,23 @@
+{
+  "name": "PRANA Mainnet",
+  "chain": "PRANA",
+  "rpc": ["https://rpc.prana.melek.salon"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PRANA",
+    "symbol": "PRANA",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://wiki.soapbox.community/wiki/PRANA",
+  "shortName": "prana",
+  "chainId": 712217,
+  "networkId": 712217,
+  "explorers": [
+    {
+      "name": "PRANAScan",
+      "url": "https://pranascan.soapbox.community",
+      "standard": "EIP3091"
+    }
+  ]
+}
