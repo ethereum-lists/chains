@@ -15508,6 +15508,19 @@
   "faucets": [],
   "infoURL": "https://laosnetwork.io"
 }, {
+  "name": "MAYA CHAIN",
+  "chainId": 6292,
+  "shortName": "maya",
+  "networkId": 6292,
+  "nativeCurrency": {
+    "name": "Maya 3G",
+    "symbol": "M3G",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mayachain.io"],
+  "faucets": [],
+  "infoURL": "https://mayachain.io"
+}, {
   "name": "NFB Chain Testnet",
   "chainId": 6320,
   "shortName": "nfbchaintest",
