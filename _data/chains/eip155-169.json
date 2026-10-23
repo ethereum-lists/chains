@@ -4,7 +4,8 @@
   "rpc": [
     "https://pacific-rpc.manta.network/http",
     "https://manta-pacific.drpc.org",
-    "wss://manta-pacific.drpc.org"
+    "wss://manta-pacific.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/manta?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
