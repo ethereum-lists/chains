@@ -1,0 +1,28 @@
+{
+  "name": "MBTX Nexus",
+  "chain": "MBTX",
+  "rpc": [
+    "https://candied-undecided-straggler.ngrok-free.dev/l2"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://mbtux.uxi.rocks/mbtx",
+  "shortName": "mbtxl2",
+  "chainId": 271832,
+  "networkId": 271832,
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-271831"
+  },
+  "explorers": [
+    {
+      "name": "MBTX Nexus Explorer",
+      "url": "https://mbtux.uxi.rocks/mbtx",
+      "standard": "EIP3091"
+    }
+  ]
+}
