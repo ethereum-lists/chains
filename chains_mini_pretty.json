@@ -24569,6 +24569,19 @@
   "faucets": [],
   "infoURL": "https://toronet.org"
 }, {
+  "name": "MST Coral Testnet",
+  "chainId": 54635,
+  "shortName": "mst-coral-testnet",
+  "networkId": 54635,
+  "nativeCurrency": {
+    "name": "MST Coral Coin",
+    "symbol": "tMSTC",
+    "decimals": 18
+  },
+  "rpc": ["https://coralrpc.mstblockchain.com", "wss://coralrpc.mstblockchain.com"],
+  "faucets": ["https://coral-faucet.mstblockchain.com"],
+  "infoURL": "https://mstblockchain.com"
+}, {
   "name": "Titan",
   "chainId": 55004,
   "shortName": "teth",

@@ -40853,6 +40853,27 @@
     "standard": "none"
   }]
 }, {
+  "name": "MST Coral Testnet",
+  "chain": "MST",
+  "rpc": ["https://coralrpc.mstblockchain.com", "wss://coralrpc.mstblockchain.com"],
+  "faucets": ["https://coral-faucet.mstblockchain.com"],
+  "nativeCurrency": {
+    "name": "MST Coral Coin",
+    "symbol": "tMSTC",
+    "decimals": 18
+  },
+  "infoURL": "https://mstblockchain.com",
+  "shortName": "mst-coral-testnet",
+  "chainId": 54635,
+  "networkId": 54635,
+  "slip44": 1,
+  "icon": "mst",
+  "explorers": [{
+    "name": "mstscan",
+    "url": "https://coral.mstscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Titan",
   "chain": "ETH",
   "rpc": ["https://rpc.titan.tokamak.network", "wss://rpc.titan.tokamak.network"],
