@@ -1,10 +1,7 @@
 {
   "name": "Humanity Protocol testnet",
   "chain": "Humanity",
-  "rpc": [
-    "https://rpc.testnet.humanity.org",
-    "https://humanity-testnet.g.alchemy.com/public"
-  ],
+  "rpc": ["https://humanity-testnet.g.alchemy.com/public"],
   "faucets": ["https://faucets.alchemy.com/faucets/humanity-testnet"],
   "nativeCurrency": {
     "name": "tHP",
