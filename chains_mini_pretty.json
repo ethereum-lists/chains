@@ -12765,6 +12765,19 @@
   "faucets": [],
   "infoURL": "https://debounce.network"
 }, {
+  "name": "Two-Trader Mainnet",
+  "chainId": 3330,
+  "shortName": "t2t",
+  "networkId": 3330,
+  "nativeCurrency": {
+    "name": "Two-Trader",
+    "symbol": "T2T",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.two-trader.io"],
+  "faucets": [],
+  "infoURL": "https://www.two-trader.com"
+}, {
   "name": "ZCore Testnet",
   "chainId": 3331,
   "shortName": "zcrbeach",
