@@ -12293,9 +12293,9 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.morphl2.io", "wss://rpc.morphl2.io:8443", "https://rpc-quicknode.morphl2.io", "wss://rpc-quicknode.morphl2.io"],
+  "rpc": ["https://rpc-bgw.morph.network", "wss://rpc-bgw.morph.network", "https://rpc.morph.network", "wss://rpc.morph.network", "https://rpc-quicknode.morph.network", "wss://rpc-quicknode.morph.network"],
   "faucets": [],
-  "infoURL": "https://morphl2.io"
+  "infoURL": "https://morph.network"
 }, {
   "name": "CandyChain",
   "chainId": 2828,
@@ -34614,7 +34614,7 @@
     "symbol": "GEN",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.chain.genlayer.com"],
   "faucets": [],
   "infoURL": "https://genlayer.com"
 }, {
