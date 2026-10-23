@@ -30085,6 +30085,27 @@
     "icon": "shidoChain"
   }]
 }, {
+  "name": "YoChain",
+  "chain": "YO",
+  "rpc": ["https://rpc.yochain.network", "wss://rpc.yochain.network/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "YO",
+    "symbol": "YO",
+    "decimals": 18
+  },
+  "infoURL": "https://yochain.network",
+  "shortName": "yo",
+  "chainId": 9009,
+  "networkId": 9009,
+  "icon": "yochain",
+  "explorers": [{
+    "name": "YoChain Explorer",
+    "url": "https://explorer.yochain.network",
+    "standard": "EIP3091",
+    "icon": "yochain"
+  }]
+}, {
   "name": "BerylBit Mainnet",
   "chain": "BRB",
   "rpc": ["https://mainnet.berylbit.io"],

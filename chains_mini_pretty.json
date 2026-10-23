@@ -18173,6 +18173,19 @@
   "faucets": [],
   "infoURL": "https://shido.io"
 }, {
+  "name": "YoChain",
+  "chainId": 9009,
+  "shortName": "yo",
+  "networkId": 9009,
+  "nativeCurrency": {
+    "name": "YO",
+    "symbol": "YO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.yochain.network", "wss://rpc.yochain.network/ws"],
+  "faucets": [],
+  "infoURL": "https://yochain.network"
+}, {
   "name": "BerylBit Mainnet",
   "chainId": 9012,
   "shortName": "brb",
