@@ -6,7 +6,8 @@
     "https://sepolia-rollup.arbitrum.io/rpc",
     "https://arbitrum-sepolia.infura.io/v3/${INFURA_API_KEY}",
     "https://arbitrum-sepolia-rpc.publicnode.com",
-    "wss://arbitrum-sepolia-rpc.publicnode.com"
+    "wss://arbitrum-sepolia-rpc.publicnode.com",
+    "https://arbitrum-sepolia-rpc.blockreq.com/v1/rpc/public"
   ],
   "faucets": [],
   "nativeCurrency": {

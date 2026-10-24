@@ -3,10 +3,12 @@
   "title": "Morph Mainnet",
   "chain": "ETH",
   "rpc": [
-    "https://rpc.morphl2.io",
-    "wss://rpc.morphl2.io:8443",
-    "https://rpc-quicknode.morphl2.io",
-    "wss://rpc-quicknode.morphl2.io"
+    "https://rpc-bgw.morph.network",
+    "wss://rpc-bgw.morph.network",
+    "https://rpc.morph.network",
+    "wss://rpc.morph.network",
+    "https://rpc-quicknode.morph.network",
+    "wss://rpc-quicknode.morph.network"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -14,7 +16,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "https://morphl2.io",
+  "infoURL": "https://morph.network",
   "shortName": "morph",
   "chainId": 2818,
   "networkId": 2818,
@@ -22,13 +24,13 @@
   "explorers": [
     {
       "name": "Morph Mainnet Explorer",
-      "url": "https://explorer.morphl2.io",
+      "url": "https://explorer.morph.network",
       "standard": "EIP3091"
     }
   ],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.morphl2.io/" }]
+    "bridges": [{ "url": "https://bridge.morph.network/" }]
   }
 }
