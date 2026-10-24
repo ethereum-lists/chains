@@ -24465,6 +24465,19 @@
   "faucets": [],
   "infoURL": "https://cytonic.com"
 }, {
+  "name": "Regulated Layer One",
+  "chainId": 53147,
+  "shortName": "rl1",
+  "networkId": 53147,
+  "nativeCurrency": {
+    "name": "RL1 Ether",
+    "symbol": "RETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://rl1.network"
+}, {
   "name": "DOID",
   "chainId": 53277,
   "shortName": "DOID",
@@ -26089,6 +26102,19 @@
   "rpc": ["https://testnet-rpc.foundryscan.org/"],
   "faucets": ["https://faucet.foundryscan.org"],
   "infoURL": "https://foundrychain.org"
+}, {
+  "name": "ZETAPHY Testnet",
+  "chainId": 77390,
+  "shortName": "zetaphy-testnet",
+  "networkId": 77390,
+  "nativeCurrency": {
+    "name": "ZETAPHY",
+    "symbol": "ZTPHY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.sawasdeecoin.com"],
+  "faucets": ["https://app.sawasdeecoin.com/?tab=earn"],
+  "infoURL": "https://app.sawasdeecoin.com"
 }, {
   "name": "RWA Chain Sepolia",
   "chainId": 77410,
