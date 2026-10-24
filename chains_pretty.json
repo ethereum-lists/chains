@@ -47673,7 +47673,7 @@
 }, {
   "name": "ValueChain Testnet",
   "chain": "ValueChain",
-  "rpc": ["https://testnet.valuechain.xyz", "wss://testnet-ws.valuechain.xyz"],
+  "rpc": ["https://testnet.valuechain.xyz"],
   "features": [{
     "name": "EIP155"
   }, {
@@ -50154,7 +50154,7 @@
 }, {
   "name": "ValueChain",
   "chain": "ValueChain",
-  "rpc": ["https://mainnet.valuechain.xyz", "wss://mainnet-ws.valuechain.xyz"],
+  "rpc": ["https://mainnet.valuechain.xyz"],
   "features": [{
     "name": "EIP155"
   }, {
