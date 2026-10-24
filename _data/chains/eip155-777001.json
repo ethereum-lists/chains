@@ -1,0 +1,26 @@
+{
+  "name": "TOOG Chain",
+  "chain": "TOOG",
+  "rpc": [
+    "https://toog-proxy.toog-chain.workers.dev/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TEST",
+    "symbol": "TEST",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://toog-chain.workers.dev",
+  "shortName": "toog",
+  "chainId": 777001,
+  "networkId": 777001,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "TOOG Explorer",
+      "url": "https://toog-proxy.toog-chain.workers.dev/",
+      "standard": "EIP3091"
+    }
+  ]
+}
