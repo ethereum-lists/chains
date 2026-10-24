@@ -35593,6 +35593,19 @@
   "faucets": [],
   "infoURL": "https://ptcscan.io"
 }, {
+  "name": "MobileNode Chain",
+  "chainId": 973164827,
+  "shortName": "mobilenode",
+  "networkId": 973164827,
+  "nativeCurrency": {
+    "name": "MobileNode Coin",
+    "symbol": "MNC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mobilenode.ru"],
+  "faucets": [],
+  "infoURL": "https://chain.mobilenode.ru"
+}, {
   "name": "SKALE Calypso Hub Testnet",
   "chainId": 974399131,
   "shortName": "calypso-testnet",
