@@ -5,11 +5,14 @@
     "https://rpc.mainnet.chain.robinhood.com",
     "https://robinhood-rpc.publicnode.com",
     "wss://robinhood-rpc.publicnode.com",
-    "https://rpc.arrowrpc.com",
     "https://rpc.ordofi.network",
     "wss://rpc.ordofi.network",
     "https://robinhood.drpc.org",
-    "wss://robinhood.drpc.org"
+    "wss://robinhood.drpc.org",
+    "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public",
+    "https://api.blockvectra.com/v1/robinhood_mainnet/public",
+    "https://robinhood.daybreak-rpc.network",
+    "https://rpc.swiftnodes.io/rpc/robinhood?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,12 +25,6 @@
   "chainId": 4663,
   "networkId": 4663,
   "explorers": [
-    {
-      "name": "robinscan",
-      "url": "https://robinscan.io",
-      "icon": "robinscan",
-      "standard": "EIP3091"
-    },
     {
       "name": "blockscout",
       "url": "https://robinhoodchain.blockscout.com",
