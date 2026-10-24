@@ -1,0 +1,23 @@
+{
+  "name": "SRC Chain",
+  "chain": "SRC",
+  "rpc": ["https://mainnet.srcecosystem.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SRC",
+    "symbol": "SRC",
+    "decimals": 18
+  },
+  "infoURL": "https://srcecosystem.com",
+  "shortName": "srcchain",
+  "chainId": 5291,
+  "networkId": 5291,
+  "icon": "src-chain",
+  "explorers": [
+    {
+      "name": "SRC Chain Explorer",
+      "url": "https://explorer.srcecosystem.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
