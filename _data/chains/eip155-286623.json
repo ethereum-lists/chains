@@ -1,7 +1,7 @@
 {
   "name": "ValueChain",
   "chain": "ValueChain",
-  "rpc": ["https://mainnet.valuechain.xyz", "wss://mainnet-ws.valuechain.xyz"],
+  "rpc": ["https://mainnet.valuechain.xyz"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
