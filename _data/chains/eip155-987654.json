@@ -1,0 +1,27 @@
+{
+  "name": "DEXORA Chain",
+  "chain": "DEXORA",
+  "rpc": [
+    "https://exchange.dexoraverse.tech/rpc"
+  ],
+  "faucets": [
+    "https://exchange.dexoraverse.tech/#/explorer"
+  ],
+  "nativeCurrency": {
+    "name": "Dexoraverse",
+    "symbol": "DVR",
+    "decimals": 18
+  },
+  "infoURL": "https://dexoraverse.tech",
+  "shortName": "dexora",
+  "chainId": 987654,
+  "networkId": 987654,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Dexora Explorer",
+      "url": "https://exchange.dexoraverse.tech/#/explorer",
+      "standard": "none"
+    }
+  ]
+}
