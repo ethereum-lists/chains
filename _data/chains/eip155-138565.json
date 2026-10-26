@@ -1,7 +1,7 @@
 {
   "name": "ValueChain Testnet",
   "chain": "ValueChain",
-  "rpc": ["https://testnet.valuechain.xyz", "wss://testnet-ws.valuechain.xyz"],
+  "rpc": ["https://testnet.valuechain.xyz"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
