@@ -12115,6 +12115,19 @@
   "faucets": [],
   "infoURL": "https://apexlayer.xyz/"
 }, {
+  "name": "Eoraptor",
+  "chainId": 2679,
+  "shortName": "eoraptor",
+  "networkId": 2679,
+  "nativeCurrency": {
+    "name": "EPR",
+    "symbol": "EPR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.eoraptor.org", "https://rpc2.eoraptor.org"],
+  "faucets": [],
+  "infoURL": "https://www.eoraptordex.com"
+}, {
   "name": "Splendor Mainnet",
   "chainId": 2691,
   "shortName": "spld",
