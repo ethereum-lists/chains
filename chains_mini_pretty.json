@@ -3050,7 +3050,7 @@
     "symbol": "TAC",
     "decimals": 18
   },
-  "rpc": ["https://rpc.tac.build", "https://rpc.ankr.com/tac", "https://ws.rpc.tac.build"],
+  "rpc": ["https://rpc-public.tac.build", "wss://rpc-public.tac.build"],
   "faucets": [],
   "infoURL": "https://tac.build/"
 }, {
@@ -11656,7 +11656,7 @@
     "symbol": "TAC",
     "decimals": 18
   },
-  "rpc": ["https://spb.rpc.tac.build", "https://rpc.ankr.com/tac_spb", "https://spb-ws.rpc.tac.build"],
+  "rpc": ["https://rpc-public-spb.tac.build", "wss://rpc-public-spb.tac.build"],
   "faucets": ["https://spb.faucet.tac.build/"],
   "infoURL": "https://tac.build/"
 }, {
@@ -31757,6 +31757,19 @@
   "rpc": ["https://subnets.avax.network/lamina1tes/testnet/rpc"],
   "faucets": [],
   "infoURL": "https://fuji.lamina1.com/"
+}, {
+  "name": "Liberium",
+  "chainId": 767366,
+  "shortName": "liberium",
+  "networkId": 767366,
+  "nativeCurrency": {
+    "name": "Liberium",
+    "symbol": "LIB",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://github.com/ozgurcuk/Liberium-Network"
 }, {
   "name": "Lamina1 Identity Testnet",
   "chainId": 767368,
