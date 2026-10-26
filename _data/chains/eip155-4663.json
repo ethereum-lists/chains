@@ -12,7 +12,8 @@
     "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public",
     "https://api.blockvectra.com/v1/robinhood_mainnet/public",
     "https://robinhood.daybreak-rpc.network",
-    "https://rpc.swiftnodes.io/rpc/robinhood?key=${SWIFTNODES_API_KEY}"
+    "https://rpc.swiftnodes.io/rpc/robinhood?key=${SWIFTNODES_API_KEY}",
+    "https://4663.rpc.hypersync.xyz/${ENVIO_API_TOKEN}"
   ],
   "faucets": [],
   "nativeCurrency": {
