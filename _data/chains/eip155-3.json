@@ -6,10 +6,7 @@
     "https://ropsten.infura.io/v3/${INFURA_API_KEY}",
     "wss://ropsten.infura.io/ws/v3/${INFURA_API_KEY}"
   ],
-  "faucets": [
-    "http://fauceth.komputing.org?chain=3&address=${ADDRESS}",
-    "https://faucet.ropsten.be?${ADDRESS}"
-  ],
+  "faucets": ["https://faucet.ropsten.be?${ADDRESS}"],
   "nativeCurrency": {
     "name": "Ropsten Ether",
     "symbol": "ETH",

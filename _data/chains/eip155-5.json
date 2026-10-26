@@ -12,7 +12,6 @@
     "wss://goerli.gateway.tenderly.co"
   ],
   "faucets": [
-    "http://fauceth.komputing.org?chain=5&address=${ADDRESS}",
     "https://goerli-faucet.slock.it?address=${ADDRESS}",
     "https://faucet.goerli.mudit.blog"
   ],
