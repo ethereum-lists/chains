@@ -19,7 +19,7 @@
     "https://ethereum-sepolia-rpc.blockreq.com/v1/rpc/public",
     "https://api.blockvectra.com/v1/eth_sepolia/public"
   ],
-  "faucets": ["http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
