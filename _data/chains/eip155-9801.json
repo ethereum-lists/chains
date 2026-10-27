@@ -2,9 +2,7 @@
   "name": "QoreChain",
   "chain": "QORE",
   "icon": "qorechain",
-  "rpc": [
-    "https://evm.qore.host"
-  ],
+  "rpc": ["https://evm.qore.host"],
   "faucets": [],
   "nativeCurrency": {
     "name": "QoreChain",
