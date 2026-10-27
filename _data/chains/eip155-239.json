@@ -3,11 +3,7 @@
   "title": "TAC Mainnet",
   "chain": "TAC",
   "icon": "tac",
-  "rpc": [
-    "https://rpc.tac.build",
-    "https://rpc.ankr.com/tac",
-    "https://ws.rpc.tac.build"
-  ],
+  "rpc": ["https://rpc-public.tac.build", "wss://rpc-public.tac.build"],
   "faucets": [],
   "nativeCurrency": {
     "name": "TAC",
