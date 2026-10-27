@@ -22398,6 +22398,19 @@
   "faucets": [],
   "infoURL": "https://xferchain.org"
 }, {
+  "name": "TractSafe Testnet",
+  "chainId": 28282,
+  "shortName": "trct-test",
+  "networkId": 28282,
+  "nativeCurrency": {
+    "name": "TractSafe",
+    "symbol": "TRCT",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://tractsafe.com"
+}, {
   "name": "Vizing Testnet",
   "chainId": 28516,
   "shortName": "Vizing-Testnet",
@@ -26648,6 +26661,19 @@
   "rpc": ["https://rpc.quantumscan.org"],
   "faucets": [],
   "infoURL": "https://quantumnetwork.gg"
+}, {
+  "name": "TractSafe Mainnet",
+  "chainId": 82228,
+  "shortName": "trct",
+  "networkId": 82228,
+  "nativeCurrency": {
+    "name": "TractSafe",
+    "symbol": "TRCT",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://tractsafe.com"
 }, {
   "name": "Smart Layer Network Testnet",
   "chainId": 82459,

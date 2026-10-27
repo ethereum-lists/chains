@@ -37034,6 +37034,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "TractSafe Testnet",
+  "chain": "TRCT",
+  "status": "incubating",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TractSafe",
+    "symbol": "TRCT",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://tractsafe.com",
+  "shortName": "trct-test",
+  "chainId": 28282,
+  "networkId": 28282,
+  "icon": "tractsafe"
+}, {
   "name": "Vizing Testnet",
   "title": "Vizing Testnet",
   "chain": "Vizing Testnet",
@@ -44327,6 +44348,27 @@
     "url": "https://quantumscan.org",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "TractSafe Mainnet",
+  "chain": "TRCT",
+  "status": "incubating",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TractSafe",
+    "symbol": "TRCT",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://tractsafe.com",
+  "shortName": "trct",
+  "chainId": 82228,
+  "networkId": 82228,
+  "icon": "tractsafe"
 }, {
   "name": "Smart Layer Network Testnet",
   "chain": "SLN",
