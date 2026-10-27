@@ -31810,6 +31810,19 @@
   "faucets": [],
   "infoURL": "https://fuji.lamina1.com/"
 }, {
+  "name": "Ostia DevNet",
+  "chainId": 770101,
+  "shortName": "ostia-devnet",
+  "networkId": 770101,
+  "nativeCurrency": {
+    "name": "Test ROME",
+    "symbol": "tROME",
+    "decimals": 18
+  },
+  "rpc": ["https://ostia.devnet.romeprotocol.xyz/rpc"],
+  "faucets": ["https://ostia.devnet.romeprotocol.xyz/faucet"],
+  "infoURL": "https://docs.rome.builders/canton-zk-evm"
+}, {
   "name": "Modularium",
   "chainId": 776877,
   "shortName": "mdlrm",
