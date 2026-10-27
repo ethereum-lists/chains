@@ -13207,18 +13207,18 @@
   "faucets": [],
   "infoURL": "https://islamicoin.finance"
 }, {
-  "name": "Jouleverse Mainnet",
+  "name": "Jouleverse",
   "chainId": 3666,
   "shortName": "jouleverse",
   "networkId": 3666,
   "nativeCurrency": {
-    "name": "J",
+    "name": "Joule",
     "symbol": "J",
     "decimals": 18
   },
-  "rpc": ["https://rpc.jnsdao.com:8503"],
-  "faucets": [],
-  "infoURL": "https://jnsdao.com"
+  "rpc": ["https://rpc.jnsdao.com"],
+  "faucets": ["https://faucet.jnsdao.com"],
+  "infoURL": "https://jouleverse.com"
 }, {
   "name": "Bittex Mainnet",
   "chainId": 3690,

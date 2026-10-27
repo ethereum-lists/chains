@@ -21768,19 +21768,20 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Jouleverse Mainnet",
-  "chain": "Jouleverse",
-  "rpc": ["https://rpc.jnsdao.com:8503"],
-  "faucets": [],
+  "name": "Jouleverse",
+  "chain": "J",
+  "rpc": ["https://rpc.jnsdao.com"],
+  "faucets": ["https://faucet.jnsdao.com"],
   "nativeCurrency": {
-    "name": "J",
+    "name": "Joule",
     "symbol": "J",
     "decimals": 18
   },
-  "infoURL": "https://jnsdao.com",
+  "infoURL": "https://jouleverse.com",
   "shortName": "jouleverse",
   "chainId": 3666,
   "networkId": 3666,
+  "icon": "jouleverse",
   "explorers": [{
     "name": "jscan",
     "url": "https://jscan.jnsdao.com",
