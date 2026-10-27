@@ -12544,6 +12544,19 @@
   "faucets": [],
   "infoURL": "https://www.rebuschain.com"
 }, {
+  "name": "VYRE",
+  "chainId": 3045,
+  "shortName": "vyre",
+  "networkId": 3045,
+  "nativeCurrency": {
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.vyrechain.com"],
+  "faucets": [],
+  "infoURL": "https://vyrechain.com"
+}, {
   "name": "Bifrost Mainnet",
   "chainId": 3068,
   "shortName": "bfc",
