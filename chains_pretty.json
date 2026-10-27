@@ -56,7 +56,7 @@
   "title": "Ethereum Testnet Ropsten",
   "chain": "ETH",
   "rpc": ["https://ropsten.infura.io/v3/${INFURA_API_KEY}", "wss://ropsten.infura.io/ws/v3/${INFURA_API_KEY}"],
-  "faucets": ["http://fauceth.komputing.org?chain=3&address=${ADDRESS}", "https://faucet.ropsten.be?${ADDRESS}"],
+  "faucets": ["https://faucet.ropsten.be?${ADDRESS}"],
   "nativeCurrency": {
     "name": "Ropsten Ether",
     "symbol": "ETH",
@@ -70,17 +70,13 @@
   "ens": {
     "registry": "0x112234455c3a32fd11230c42e7bccd4a84e02010"
   },
-  "explorers": [{
-    "name": "etherscan",
-    "url": "https://ropsten.etherscan.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": []
 }, {
   "name": "Rinkeby",
   "title": "Ethereum Testnet Rinkeby",
   "chain": "ETH",
   "rpc": ["https://rinkeby.infura.io/v3/${INFURA_API_KEY}", "wss://rinkeby.infura.io/ws/v3/${INFURA_API_KEY}"],
-  "faucets": ["http://fauceth.komputing.org?chain=4&address=${ADDRESS}", "https://faucet.rinkeby.io"],
+  "faucets": ["https://faucet.rinkeby.io"],
   "nativeCurrency": {
     "name": "Rinkeby Ether",
     "symbol": "ETH",
@@ -94,17 +90,13 @@
   "ens": {
     "registry": "0xe7410170f87102df0055eb195163a03b7f2bff4a"
   },
-  "explorers": [{
-    "name": "etherscan-rinkeby",
-    "url": "https://rinkeby.etherscan.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": []
 }, {
   "name": "Goerli",
   "title": "Ethereum Testnet Goerli",
   "chain": "ETH",
   "rpc": ["https://goerli.infura.io/v3/${INFURA_API_KEY}", "wss://goerli.infura.io/v3/${INFURA_API_KEY}", "https://rpc.goerli.mudit.blog/", "https://ethereum-goerli-rpc.publicnode.com", "wss://ethereum-goerli-rpc.publicnode.com", "https://goerli.gateway.tenderly.co", "wss://goerli.gateway.tenderly.co"],
-  "faucets": ["http://fauceth.komputing.org?chain=5&address=${ADDRESS}", "https://goerli-faucet.slock.it?address=${ADDRESS}", "https://faucet.goerli.mudit.blog"],
+  "faucets": ["https://goerli-faucet.slock.it?address=${ADDRESS}", "https://faucet.goerli.mudit.blog"],
   "nativeCurrency": {
     "name": "Goerli Ether",
     "symbol": "ETH",
@@ -118,16 +110,7 @@
   "ens": {
     "registry": "0x112234455c3a32fd11230c42e7bccd4a84e02010"
   },
-  "explorers": [{
-    "name": "etherscan-goerli",
-    "url": "https://goerli.etherscan.io",
-    "standard": "EIP3091"
-  }, {
-    "name": "blockscout-goerli",
-    "url": "https://eth-goerli.blockscout.com",
-    "icon": "blockscout",
-    "standard": "EIP3091"
-  }]
+  "explorers": []
 }, {
   "name": "Kotti Testnet",
   "title": "Ethereum Classic Kotti Testnet",
@@ -1441,17 +1424,13 @@
   "title": "Optimism Testnet Kovan",
   "chain": "ETH",
   "rpc": ["https://kovan.optimism.io/"],
-  "faucets": ["http://fauceth.komputing.org?chain=69&address=${ADDRESS}"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Kovan Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "explorers": [{
-    "name": "etherscan",
-    "url": "https://kovan-optimistic.etherscan.io",
-    "standard": "EIP3091"
-  }],
+  "explorers": [],
   "infoURL": "https://optimism.io",
   "shortName": "okov",
   "chainId": 69,
@@ -51183,17 +51162,9 @@
     "decimals": 18
   },
   "rpc": ["https://rinkeby.arbitrum.io/rpc"],
-  "faucets": ["http://fauceth.komputing.org?chain=421611&address=${ADDRESS}"],
+  "faucets": [],
   "infoURL": "https://arbitrum.io",
-  "explorers": [{
-    "name": "arbiscan-testnet",
-    "url": "https://testnet.arbiscan.io",
-    "standard": "EIP3091"
-  }, {
-    "name": "arbitrum-rinkeby",
-    "url": "https://rinkeby-explorer.arbitrum.io",
-    "standard": "EIP3091"
-  }],
+  "explorers": [],
   "parent": {
     "type": "L2",
     "chain": "eip155-4",
@@ -54566,7 +54537,7 @@
   "title": "Kintsugi merge testnet",
   "chain": "ETH",
   "rpc": ["https://rpc.kintsugi.themerge.dev"],
-  "faucets": ["http://fauceth.komputing.org?chain=1337702&address=${ADDRESS}", "https://faucet.kintsugi.themerge.dev"],
+  "faucets": ["https://faucet.kintsugi.themerge.dev"],
   "nativeCurrency": {
     "name": "kintsugi Ethere",
     "symbol": "kiETH",
@@ -54576,11 +54547,7 @@
   "shortName": "kintsugi",
   "chainId": 1337702,
   "networkId": 1337702,
-  "explorers": [{
-    "name": "kintsugi explorer",
-    "url": "https://explorer.kintsugi.themerge.dev",
-    "standard": "EIP3091"
-  }]
+  "explorers": []
 }, {
   "name": "Kiln",
   "chain": "ETH",
@@ -56687,7 +56654,7 @@
   "title": "Ethereum Testnet Sepolia",
   "chain": "ETH",
   "rpc": ["https://rpc.sepolia.org", "https://rpc2.sepolia.org", "https://rpc.sepolia.ethpandaops.io", "https://sepolia.infura.io/v3/${INFURA_API_KEY}", "wss://sepolia.infura.io/v3/${INFURA_API_KEY}", "https://sepolia.gateway.tenderly.co", "wss://sepolia.gateway.tenderly.co", "https://ethereum-sepolia-rpc.publicnode.com", "wss://ethereum-sepolia-rpc.publicnode.com", "https://sepolia.drpc.org", "wss://sepolia.drpc.org", "https://eth-sepolia.g.alchemy.com/v2/WddzdzI2o9S3COdT73d5w6AIogbKq4X-", "https://xrpc.cl/sepolia", "https://ethereum-sepolia-rpc.blockreq.com/v1/rpc/public", "https://api.blockvectra.com/v1/eth_sepolia/public"],
-  "faucets": ["http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
