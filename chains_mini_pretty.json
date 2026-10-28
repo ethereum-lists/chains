@@ -15157,6 +15157,19 @@
   "faucets": [],
   "infoURL": "https://chainverse.info"
 }, {
+  "name": "OneX Smart Chain",
+  "chainId": 5559,
+  "shortName": "onex",
+  "networkId": 5559,
+  "nativeCurrency": {
+    "name": "BOSG",
+    "symbol": "BOSG",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://github.com/onex-chain"
+}, {
   "name": "Jamton",
   "chainId": 5589,
   "shortName": "jamton",
@@ -15312,6 +15325,19 @@
   "rpc": ["https://testnet-rpc.satoshichain.io"],
   "faucets": ["https://faucet.satoshichain.io"],
   "infoURL": "https://satoshichain.net"
+}, {
+  "name": "OneX Smart Chain Testnet",
+  "chainId": 5775,
+  "shortName": "onex-testnet",
+  "networkId": 5775,
+  "nativeCurrency": {
+    "name": "Testnet BOSG",
+    "symbol": "sBOSG",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://github.com/onex-chain"
 }, {
   "name": "Ganache",
   "chainId": 5777,
