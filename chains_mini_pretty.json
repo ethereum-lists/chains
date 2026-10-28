@@ -20721,6 +20721,19 @@
   "faucets": ["https://faucet.incentiv-dev.ankr.network"],
   "infoURL": "https://incentiv.net"
 }, {
+  "name": "16ane Mainnet",
+  "chainId": 16463,
+  "shortName": "16ane",
+  "networkId": 16463,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://16ane.net"
+}, {
   "name": "Pivotal Sepolia",
   "chainId": 16481,
   "shortName": "pivotal-sepolia",
@@ -28910,6 +28923,19 @@
   "rpc": ["https://mainnet-rpc.evedex.com"],
   "faucets": [],
   "infoURL": "https://evedex.com"
+}, {
+  "name": "16ane Sepolia Testnet",
+  "chainId": 164632,
+  "shortName": "16ane-sep",
+  "networkId": 164632,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://16ane.net"
 }, {
   "name": "Eclat Mainnet",
   "chainId": 165279,
