@@ -30133,6 +30133,32 @@
   "faucets": [],
   "infoURL": "https://nxy.social/l1"
 }, {
+  "name": "BrainChain Testnet",
+  "chainId": 274630,
+  "shortName": "brainchain-testnet",
+  "networkId": 274630,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.usebrainchain.com"],
+  "faucets": [],
+  "infoURL": "https://usebrainchain.com/testnet"
+}, {
+  "name": "BrainChain",
+  "chainId": 274663,
+  "shortName": "brainchain",
+  "networkId": 274663,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.usebrainchain.com"],
+  "faucets": [],
+  "infoURL": "https://usebrainchain.com"
+}, {
   "name": "Social Smart Chain Mainnet",
   "chainId": 281121,
   "shortName": "SoChain",
