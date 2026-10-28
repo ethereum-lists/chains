@@ -31051,6 +31051,53 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "QoreChain Testnet",
+  "title": "QoreChain Testnet Diana",
+  "chain": "QORE",
+  "icon": "qorechain",
+  "rpc": ["https://evm-testnet.qore.host", "wss://evm-ws-testnet.qore.host"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QoreChain Testnet",
+    "symbol": "QOR",
+    "decimals": 18
+  },
+  "infoURL": "https://www.qorechain.io",
+  "shortName": "qor-testnet",
+  "chainId": 9800,
+  "networkId": 9800,
+  "slip44": 1
+}, {
+  "name": "QoreChain",
+  "chain": "QORE",
+  "icon": "qorechain",
+  "rpc": ["https://evm.qore.host"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QoreChain",
+    "symbol": "QOR",
+    "decimals": 18
+  },
+  "infoURL": "https://www.qorechain.io",
+  "shortName": "qor",
+  "chainId": 9801,
+  "networkId": 9801,
+  "explorers": [{
+    "name": "QoreChain Explorer",
+    "url": "https://explore.qore.network",
+    "standard": "none"
+  }]
+}, {
   "name": "IMPERIUM TESTNET",
   "chain": "tIMP",
   "rpc": ["https://data-aws-testnet.imperiumchain.com", "https://data-aws2-testnet.imperiumchain.com"],
@@ -53249,6 +53296,25 @@
   "explorers": [{
     "name": "Tanssi Explorer",
     "url": "https://tanssi-evmexplorer.netlify.app/?rpcUrl=https://fraa-dancebox-3035-rpc.a.dancebox.tanssi.network",
+    "standard": "none"
+  }]
+}, {
+  "name": "INKG Sovereign EVM",
+  "chain": "INKG",
+  "rpc": ["https://rpc.inkg.org/rpc/777001"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "INKG",
+    "symbol": "INKG",
+    "decimals": 18
+  },
+  "infoURL": "https://inkg.org",
+  "shortName": "inkg",
+  "chainId": 777001,
+  "networkId": 777001,
+  "explorers": [{
+    "name": "INKG Explorer",
+    "url": "https://futurebdetbank.com/explorer.html",
     "standard": "none"
   }]
 }, {

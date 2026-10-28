@@ -18784,6 +18784,32 @@
   "faucets": [],
   "infoURL": "http://optimusz7.com"
 }, {
+  "name": "QoreChain Testnet",
+  "chainId": 9800,
+  "shortName": "qor-testnet",
+  "networkId": 9800,
+  "nativeCurrency": {
+    "name": "QoreChain Testnet",
+    "symbol": "QOR",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-testnet.qore.host", "wss://evm-ws-testnet.qore.host"],
+  "faucets": [],
+  "infoURL": "https://www.qorechain.io"
+}, {
+  "name": "QoreChain",
+  "chainId": 9801,
+  "shortName": "qor",
+  "networkId": 9801,
+  "nativeCurrency": {
+    "name": "QoreChain",
+    "symbol": "QOR",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.qore.host"],
+  "faucets": [],
+  "infoURL": "https://www.qorechain.io"
+}, {
   "name": "IMPERIUM TESTNET",
   "chainId": 9818,
   "shortName": "tIMP",
@@ -31926,6 +31952,19 @@
   "rpc": ["https://fraa-dancebox-3035-rpc.a.dancebox.tanssi.network"],
   "faucets": [],
   "infoURL": "https://www.rmrk.app/"
+}, {
+  "name": "INKG Sovereign EVM",
+  "chainId": 777001,
+  "shortName": "inkg",
+  "networkId": 777001,
+  "nativeCurrency": {
+    "name": "INKG",
+    "symbol": "INKG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.inkg.org/rpc/777001"],
+  "faucets": [],
+  "infoURL": "https://inkg.org"
 }, {
   "name": "MANORA L2 Testnet",
   "chainId": 777772,
