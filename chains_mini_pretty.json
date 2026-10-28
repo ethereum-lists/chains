@@ -30952,6 +30952,19 @@
   "faucets": [],
   "infoURL": "https://worldcoin.org/"
 }, {
+  "name": "Gully Chain Testnet",
+  "chainId": 485590,
+  "shortName": "gully-test",
+  "networkId": 485590,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.gullychain.xyz"],
+  "faucets": ["https://faucet.gullychain.xyz"],
+  "infoURL": "https://gullychain.xyz"
+}, {
   "name": "Gobbl Testnet",
   "chainId": 486487,
   "shortName": "gbl-testnet",
