@@ -1,0 +1,22 @@
+{
+  "name": "Zorin Chain",
+  "chain": "ZRN",
+  "rpc": ["https://rpc.zorinscan.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Zorin",
+    "symbol": "ZRN",
+    "decimals": 18
+  },
+  "infoURL": "https://zorinscan.org",
+  "shortName": "zrn",
+  "chainId": 81008,
+  "networkId": 81008,
+  "explorers": [
+    {
+      "name": "ZorinScan",
+      "url": "https://zorinscan.org",
+      "standard": "none"
+    }
+  ]
+}

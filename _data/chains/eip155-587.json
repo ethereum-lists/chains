@@ -1,0 +1,22 @@
+{
+  "name": "NetX Testnet",
+  "chain": "NETX",
+  "rpc": ["https://testnetrpc.netxscan.io"],
+  "faucets": ["https://netx.world/faucet/"],
+  "nativeCurrency": {
+    "name": "NetX Token",
+    "symbol": "NETX",
+    "decimals": 18
+  },
+  "infoURL": "https://netx.world/",
+  "shortName": "netx-testnet",
+  "chainId": 587,
+  "networkId": 587,
+  "explorers": [
+    {
+      "name": "NetXScan Testnet",
+      "url": "https://testnet.netxscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

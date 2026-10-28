@@ -1,0 +1,31 @@
+{
+  "name": "RWA Chain Sepolia",
+  "chain": "RWA",
+  "rpc": ["https://sepolia-rpc.rwa-chain.io"],
+  "faucets": ["https://testnet.rwa-chain.io/explorer/faucet"],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://rwa-chain.io",
+  "shortName": "rwachain-sepolia",
+  "chainId": 77410,
+  "networkId": 77410,
+  "explorers": [
+    {
+      "name": "RWA Chain Sepolia Explorer",
+      "url": "https://sepolia-explorer.rwa-chain.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-84532",
+    "bridges": [
+      {
+        "url": "https://testnet.rwa-chain.io/explorer/bridge"
+      }
+    ]
+  }
+}

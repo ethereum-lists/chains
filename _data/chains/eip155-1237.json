@@ -1,9 +1,10 @@
 {
-  "name": "AEREDIUM Testnet",
-  "title": "AEREDIUM Testnet",
+  "name": "AEREDIUM Testnet 1",
+  "title": "AEREDIUM Testnet 1",
   "chain": "AER",
-  "rpc": ["https://testnet.rpc.aeredium.io"],
-  "faucets": ["https://aeredium.io/faucet.html"],
+  "status": "deprecated",
+  "rpc": [],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Testnet AER",
     "symbol": "tAER",
@@ -16,11 +17,5 @@
   "networkId": 1237,
   "slip44": 1,
   "icon": "aeredium",
-  "explorers": [
-    {
-      "name": "AEREDIUM Testnet Explorer",
-      "url": "https://testnet.explorer.aeredium.io",
-      "standard": "EIP3091"
-    }
-  ]
+  "explorers": []
 }

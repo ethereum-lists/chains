@@ -1,0 +1,21 @@
+{
+  "name": "Crynux on RH Testnet",
+  "chain": "ETH",
+  "rpc": ["https://json-rpc.rh-testnet.crynux.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Testnet Crynux",
+    "symbol": "CNX",
+    "decimals": 18
+  },
+  "infoURL": "https://crynux.io",
+  "shortName": "crynux-rh-testnet",
+  "chainId": 188962150,
+  "networkId": 188962150,
+  "icon": "crynux",
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-46630"
+  }
+}

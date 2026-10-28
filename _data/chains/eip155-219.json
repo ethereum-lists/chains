@@ -1,0 +1,23 @@
+{
+  "name": "Ri-Nn Testnet",
+  "chain": "RIN",
+  "icon": "rinn",
+  "rpc": ["https://testnet-rpc.ri-nn.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "RIN",
+    "symbol": "RIN",
+    "decimals": 18
+  },
+  "infoURL": "https://ri-nn.io",
+  "shortName": "ri-nn-testnet",
+  "chainId": 219,
+  "networkId": 219,
+  "explorers": [
+    {
+      "name": "Ri-Nn Testnet Scan",
+      "url": "https://testnet-scan.ri-nn.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

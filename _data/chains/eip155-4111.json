@@ -1,0 +1,23 @@
+{
+  "name": "E Canna Mainnet",
+  "chain": "ECNA",
+  "rpc": ["https://rpc.ecnascan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "E Canna",
+    "symbol": "ECNA",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://ecnascan.com",
+  "shortName": "ecna",
+  "chainId": 4111,
+  "networkId": 4111,
+  "explorers": [
+    {
+      "name": "ecnascan",
+      "url": "https://explorer.ecnascan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
