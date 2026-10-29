@@ -11998,6 +11998,19 @@
   "faucets": [],
   "infoURL": "https://h2chain.io"
 }, {
+  "name": "BlueChain",
+  "chainId": 2583,
+  "shortName": "blue",
+  "networkId": 2583,
+  "nativeCurrency": {
+    "name": "BLUE",
+    "symbol": "BLUE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.chain.blue.org.mx"],
+  "faucets": [],
+  "infoURL": "https://chain.blue.org.mx"
+}, {
   "name": "Pho Blockchain Mainnet",
   "chainId": 2605,
   "shortName": "pho",
