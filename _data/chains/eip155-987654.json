@@ -4,9 +4,7 @@
   "rpc": [
     "https://exchange.dexoraverse.tech/rpc"
   ],
-  "faucets": [
-    "https://exchange.dexoraverse.tech/#/explorer"
-  ],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Dexoraverse",
     "symbol": "DVR",
@@ -20,7 +18,7 @@
   "explorers": [
     {
       "name": "Dexora Explorer",
-      "url": "https://exchange.dexoraverse.tech/#/explorer",
+      "url": "https://exchange.dexoraverse.tech",
       "standard": "none"
     }
   ]
