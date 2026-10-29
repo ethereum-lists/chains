@@ -10850,8 +10850,8 @@
     "symbol": "ZIG",
     "decimals": 18
   },
-  "rpc": [],
-  "faucets": [],
+  "rpc": ["https://public-zigchain-testnet-evm-rpc.numia.xyz"],
+  "faucets": ["https://faucet.zigchain.com"],
   "infoURL": "https://zigchain.com/"
 }, {
   "name": "MFX Network",
@@ -30262,6 +30262,19 @@
   "rpc": ["https://rpc.parthenon.athenescan.io", "wss://ws.parthenon.athenescan.io"],
   "faucets": [],
   "infoURL": "https://raas.gelato.network/rollups/details/public/athene-parthenon"
+}, {
+  "name": "Regulated Layer One Testnet",
+  "chainId": 281182,
+  "shortName": "rl1-testnet",
+  "networkId": 281182,
+  "nativeCurrency": {
+    "name": "RL1 Ether",
+    "symbol": "RETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://rl1.network"
 }, {
   "name": "Zillion Sepolia Testnet",
   "chainId": 282828,

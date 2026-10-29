@@ -17847,8 +17847,13 @@
 }, {
   "name": "ZIGChain Testnet",
   "chain": "ZIG",
-  "rpc": [],
-  "faucets": [],
+  "rpc": ["https://public-zigchain-testnet-evm-rpc.numia.xyz"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": ["https://faucet.zigchain.com"],
   "nativeCurrency": {
     "name": "ZIG",
     "symbol": "ZIG",
@@ -17858,7 +17863,12 @@
   "shortName": "zigchain-testnet",
   "chainId": 2061,
   "networkId": 2061,
-  "status": "incubating"
+  "slip44": 1,
+  "explorers": [{
+    "name": "ZIGScan",
+    "url": "https://testnet.zigscan.org",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "MFX Network",
   "chain": "MFX",
@@ -50374,6 +50384,24 @@
     "type": "L2",
     "chain": "eip155-11155111"
   },
+  "status": "active"
+}, {
+  "name": "Regulated Layer One Testnet",
+  "chain": "RL1-TESTNET",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "RL1 Ether",
+    "symbol": "RETH",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "https://rl1.network",
+  "shortName": "rl1-testnet",
+  "chainId": 281182,
+  "networkId": 281182,
   "status": "active"
 }, {
   "name": "Zillion Sepolia Testnet",
