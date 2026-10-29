@@ -5,7 +5,8 @@
     "https://canto.slingshot.finance",
     "https://canto-rpc.ansybl.io",
     "https://mainnode.plexnode.org:8545",
-    "https://canto.gravitychain.io/"
+    "https://canto.gravitychain.io/",
+    "https://rpc.swiftnodes.io/rpc/canto?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
