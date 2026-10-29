@@ -3,12 +3,11 @@
   "chain": "Etica Protocol (ETI/EGAZ)",
   "icon": "etica",
   "rpc": [
+    "https://rpc.eticahub.com",
     "https://eticamainnet.eticaprotocol.org",
     "https://eticamainnet.eticascan.org"
   ],
-  "faucets": [
-    "http://faucet.etica-stats.org/"
-  ],
+  "faucets": ["http://faucet.etica-stats.org/"],
   "nativeCurrency": {
     "name": "EGAZ",
     "symbol": "EGAZ",
