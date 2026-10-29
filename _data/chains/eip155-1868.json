@@ -3,7 +3,10 @@
   "shortName": "soneium",
   "title": "Soneium mainnet",
   "chain": "ETH",
-  "rpc": ["https://rpc.soneium.org"],
+  "rpc": [
+    "https://rpc.soneium.org",
+    "https://rpc.swiftnodes.io/rpc/soneium?key=${SWIFTNODES_API_KEY}"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -23,7 +26,7 @@
     },
     {
       "name": "OKLink",
-      "url": "https://www.okx.com/web3/explorer/soneium",
+      "url": "https://soneium.blockscout.com",
       "standard": "EIP3091"
     },
     {
