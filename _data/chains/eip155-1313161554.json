@@ -4,7 +4,8 @@
   "rpc": [
     "https://mainnet.aurora.dev",
     "https://aurora.drpc.org",
-    "wss://aurora.drpc.org"
+    "wss://aurora.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/aurora?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
