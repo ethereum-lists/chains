@@ -1,0 +1,32 @@
+{
+  "name": "WITNESS CHAIN",
+  "title": "WITNESS CHAIN",
+  "chain": "Witness-Chain",
+  "rpc": ["https://sequencer.witnesschain.com"],
+  "nativeCurrency": {
+    "name": "ETHER",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "faucets": [],
+  "infoURL": "https://www.witnesschain.com",
+  "shortName": "Witness",
+  "chainId": 1702448187,
+  "networkId": 1702448187,
+  "icon": "witness",
+  "explorers": [
+    {
+      "name": "Witness Chain Explorer",
+      "url": "https://explorer.witnesschain.com",
+      "icon": "witness",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.witnesschain.com" }]
+  },
+  "features": [{ "name": "EIP155" }],
+  "status": "active"
+}

@@ -12,5 +12,12 @@
   "shortName": "meta",
   "chainId": 11,
   "networkId": 11,
-  "slip44": 916
+  "slip44": 916,
+  "explorers": [
+    {
+      "name": "Metadium Explorer",
+      "url": "https://explorer.metadium.com",
+      "standard": "EIP3091"
+    }
+  ]
 }

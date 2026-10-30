@@ -1,10 +1,7 @@
 {
   "name": "IOST Mainnet",
   "chain": "iost",
-  "rpc": [
-    "https://iost-mainnet.alt.technology",
-    "wss://iost-mainnet.alt.technology/ws"
-  ],
+  "rpc": ["https://l2-mainnet.iost.io", "wss://l2-mainnet.iost.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
@@ -20,7 +17,7 @@
   "explorers": [
     {
       "name": "IOSTscan",
-      "url": "https://iost-mainnet-explorer.alt.technology",
+      "url": "https://l2-scan.iost.io",
       "standard": "EIP3091"
     }
   ],
@@ -29,7 +26,7 @@
     "chain": "eip155-56",
     "bridges": [
       {
-        "url": "https://10910bc5-8382-4ef5-bdc7-4c54c8f57e75.bridges.rollbridge.app/"
+        "url": "https://l2-bridge.iost.io"
       }
     ]
   }

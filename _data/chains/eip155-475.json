@@ -1,0 +1,23 @@
+{
+  "name": "zkXPLA Testnet",
+  "chain": "zkXPLA",
+  "rpc": ["https://testnet-rpc.zkxpla.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://xpla.io",
+  "shortName": "zkxpla-testnet",
+  "chainId": 475,
+  "networkId": 475,
+  "icon": "xpla",
+  "explorers": [
+    {
+      "name": "zkXPLA Testnet Explorer",
+      "url": "https://testnet-explorer.zkxpla.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

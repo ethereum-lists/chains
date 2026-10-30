@@ -1,0 +1,34 @@
+{
+  "name": "RISE",
+  "chain": "ETH",
+  "rpc": ["https://rpc.risechain.com/", "wss://rpc.risechain.com/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" },
+    { "name": "EIP7702" }
+  ],
+  "infoURL": "https://risechain.com",
+  "shortName": "rise",
+  "chainId": 4153,
+  "networkId": 4153,
+  "icon": "rise",
+  "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://explorer.risechain.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.risechain.com" }]
+  }
+}

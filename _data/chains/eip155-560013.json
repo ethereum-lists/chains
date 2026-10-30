@@ -1,0 +1,29 @@
+{
+  "name": "Rogue Chain",
+  "chainId": 560013,
+  "shortName": "rogue",
+  "chain": "ROGUE",
+  "networkId": 560013,
+  "icon": "rogue",
+  "nativeCurrency": {
+    "name": "Rogue",
+    "symbol": "ROGUE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.roguechain.io/rpc", "wss://rpc.roguechain.io/ws"],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "Roguescan",
+      "url": "https://roguescan.io",
+      "icon": "rogue",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://roguechain.io",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161",
+    "bridges": [{ "url": "https://bridge.arbitrum.io" }]
+  }
+}

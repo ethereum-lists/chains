@@ -13,13 +13,11 @@
   "chainId": 272520,
   "networkId": 272520,
   "slip44": 272520,
-  "icon": "nxy",
   "explorers": [
     {
       "name": "Nxy Explorer",
       "url": "https://explorer.nxy.social",
-      "standard": "none",
-      "icon": "nxy"
+      "standard": "none"
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "name": "Data Network Aeneid Testnet",
+  "chain": "DATA",
+  "rpc": ["https://aeneid.datarpc.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DATA",
+    "symbol": "DATA",
+    "decimals": 18
+  },
+  "infoURL": "https://datafdn.org/",
+  "icon": "data",
+  "shortName": "data-aeneid",
+  "chainId": 1315,
+  "networkId": 1315,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://aeneid.datanetscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

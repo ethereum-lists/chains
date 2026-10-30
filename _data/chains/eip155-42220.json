@@ -9,9 +9,18 @@
     "symbol": "CELO",
     "decimals": 18
   },
-  "rpc": ["https://forno.celo.org", "wss://forno.celo.org/ws"],
+  "rpc": [
+    "https://forno.celo.org",
+    "wss://forno.celo.org/ws",
+    "https://celo-rpc.blockreq.com/v1/rpc/public"
+  ],
   "faucets": [],
   "infoURL": "https://docs.celo.org/",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://superbridge.app/celo" }]
+  },
   "explorers": [
     {
       "name": "Celoscan",
@@ -20,8 +29,8 @@
     },
     {
       "name": "blockscout",
-      "url": "https://explorer.celo.org",
-      "standard": "none"
+      "url": "https://celo.blockscout.com",
+      "standard": "EIP3091"
     }
   ]
 }

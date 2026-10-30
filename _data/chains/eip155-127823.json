@@ -1,0 +1,24 @@
+{
+  "name": "Etherlink Shadownet Testnet",
+  "chain": "Etherlink",
+  "icon": "etherlink",
+  "chainId": 127823,
+  "networkId": 127823,
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://etherlink.com",
+  "shortName": "etlst",
+  "nativeCurrency": {
+    "name": "tez",
+    "symbol": "XTZ",
+    "decimals": 18
+  },
+  "rpc": ["https://node.shadownet.etherlink.com"],
+  "faucets": ["https://faucet.etherlink.com"],
+  "explorers": [
+    {
+      "name": "Etherlink Shadownet Testnet Explorer",
+      "url": "https://shadownet.explorer.etherlink.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

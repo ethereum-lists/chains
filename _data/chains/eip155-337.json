@@ -1,0 +1,23 @@
+{
+  "name": "R5 Network",
+  "chain": "r5",
+  "rpc": ["https://rpc.r5.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "R5",
+    "symbol": "R5",
+    "decimals": 18
+  },
+  "infoURL": "https://r5.network",
+  "shortName": "r5",
+  "chainId": 337,
+  "networkId": 337,
+  "icon": "r5",
+  "explorers": [
+    {
+      "name": "R5 Explorer",
+      "url": "https://explorer.r5.network",
+      "standard": "EIP3091"
+    }
+  ]
+}

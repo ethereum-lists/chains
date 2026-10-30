@@ -1,0 +1,25 @@
+{
+  "name": "pectra-devnet-5",
+  "chain": "ETH",
+  "rpc": ["https://rpc.pectra-devnet-5.ethpandaops.io"],
+  "faucets": ["https://faucet.pectra-devnet-5.ethpandaops.io"],
+  "nativeCurrency": {
+    "name": "Testnet ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://pectra-devnet-5.ethpandaops.io",
+  "shortName": "pectra5",
+  "chainId": 7088110746,
+  "networkId": 7088110746,
+  "icon": "ethereum",
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "Explorer",
+      "url": "https://explorer.pectra-devnet-5.ethpandaops.io",
+      "icon": "ethereum",
+      "standard": "EIP3091"
+    }
+  ]
+}

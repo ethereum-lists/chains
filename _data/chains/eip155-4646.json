@@ -1,15 +1,16 @@
 {
-  "name": "MST Chain",
-  "title": "MST Chain",
+  "name": "MST Mainnet",
   "chain": "MST",
   "rpc": [
     "https://mariorpc.mstblockchain.com",
-    "https://craftrpc.mstblockchain.com"
+    "https://craftrpc.mstblockchain.com",
+    "wss://mariorpc.mstblockchain.com",
+    "wss://craftrpc.mstblockchain.com"
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "MST",
-    "symbol": "MST",
+    "name": "MST Native Coin",
+    "symbol": "MSTC",
     "decimals": 18
   },
   "infoURL": "https://mstblockchain.com",
@@ -20,7 +21,7 @@
   "icon": "mst",
   "explorers": [
     {
-      "name": "MST Mainnet Scan",
+      "name": "mstscan",
       "url": "https://mstscan.com",
       "standard": "EIP3091"
     }

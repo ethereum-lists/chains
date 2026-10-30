@@ -1,0 +1,22 @@
+{
+  "name": "Edge",
+  "chain": "ETH",
+  "rpc": ["https://edge-mainnet.g.alchemy.com/public"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.edgex.exchange",
+  "shortName": "edge",
+  "chainId": 3343,
+  "networkId": 3343,
+  "explorers": [
+    {
+      "name": "Alchemy Explorer",
+      "url": "https://edge-mainnet.explorer.alchemy.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

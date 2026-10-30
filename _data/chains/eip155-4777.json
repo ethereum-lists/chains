@@ -1,5 +1,5 @@
 {
-  "name": "BlackFort Exchange Network Testnet",
+  "name": "BlackFort Exchange Network Testnet DEPRECATED",
   "chain": "TBXN",
   "rpc": ["https://testnet.blackfort.network/rpc"],
   "faucets": [],
@@ -22,5 +22,6 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "status": "deprecated"
 }

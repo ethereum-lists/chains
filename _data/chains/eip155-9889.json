@@ -1,0 +1,25 @@
+{
+  "name": "pointledger",
+  "chain": "pointledger",
+  "icon": "pointledger",
+  "rpc": ["https://rpc.pointledger.net"],
+  "faucets": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "nativeCurrency": {
+    "name": "PLG",
+    "symbol": "PLG",
+    "decimals": 18
+  },
+  "infoURL": "https://pointledger.net",
+  "shortName": "pointledger",
+  "chainId": 9889,
+  "networkId": 9889,
+  "explorers": [
+    {
+      "name": "pointledger Explorer",
+      "url": "https://exp.pointledger.net",
+      "icon": "pointledger",
+      "standard": "EIP3091"
+    }
+  ]
+}

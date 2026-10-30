@@ -1,8 +1,8 @@
 {
-  "name": "Previewnet",
+  "name": "Flow EVM Previewnet",
   "chain": "Flow",
-  "rpc": ["https://previewnet.evm.nodes.onflow.org"],
-  "faucets": ["https://previewnet-faucet.onflow.org"],
+  "rpc": [],
+  "faucets": [],
   "nativeCurrency": {
     "name": "FLOW",
     "symbol": "FLOW",
@@ -13,12 +13,6 @@
   "chainId": 646,
   "networkId": 646,
   "icon": "flowevm",
-  "explorers": [
-    {
-      "name": "EVM on Flow Block Explorer (PreviewNet)",
-      "url": "https://eth.flowscan.io",
-      "standard": "EIP3091"
-    }
-  ],
+  "explorers": [],
   "status": "deprecated"
 }

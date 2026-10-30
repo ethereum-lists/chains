@@ -1,0 +1,27 @@
+{
+  "name": "Realio",
+  "chain": "Realio",
+  "rpc": [
+    "https://json-rpc.realio.network",
+    "https://realio.json-rpc.decentrio.ventures"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Rio",
+    "symbol": "RIO",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://www.realio.network",
+  "shortName": "realio",
+  "chainId": 3301,
+  "networkId": 3301,
+  "icon": "realio",
+  "explorers": [
+    {
+      "name": "Realio Explorer",
+      "url": "https://explorer.realio.network",
+      "standard": "none"
+    }
+  ]
+}

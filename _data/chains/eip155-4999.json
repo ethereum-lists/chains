@@ -1,6 +1,6 @@
 {
-  "name": "BlackFort Exchange Network",
-  "chain": "BXN",
+  "name": "BlackFort Exchange Network Deprecated",
+  "chain": "BXNdpr",
   "rpc": [
     "https://mainnet.blackfort.network/rpc",
     "https://mainnet-1.blackfort.network/rpc",
@@ -10,12 +10,12 @@
   "faucets": [],
   "nativeCurrency": {
     "name": "BlackFort Token",
-    "symbol": "BXN",
+    "symbol": "BXNdpr",
     "decimals": 18
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://blackfort.exchange",
-  "shortName": "BXN",
+  "shortName": "BXNdpr",
   "chainId": 4999,
   "networkId": 4999,
   "icon": "bxn",
@@ -26,5 +26,6 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "status": "deprecated"
 }

@@ -1,0 +1,31 @@
+{
+  "name": "ONFA Chain Mainnet",
+  "title": "ONFA Chain Mainnet",
+  "chain": "onfa",
+  "rpc": [
+    "https://rpc.onfachain.com",
+    "https://rpc.onfachain.net",
+    "https://main.onfachain.net",
+    "wss://ws.onfachain.com",
+    "wss://ws.onfachain.net"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ONFA Coin",
+    "symbol": "OFC",
+    "decimals": 18
+  },
+  "infoURL": "https://onfachain.com",
+  "shortName": "onfachain",
+  "chainId": 12082025,
+  "networkId": 12082025,
+  "icon": "onfachain",
+  "explorers": [
+    {
+      "name": "ONFA Scan",
+      "url": "https://onfascan.io",
+      "icon": "onfachain",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Datagram",
+  "chain": "DGRAM",
+  "icon": "dgram",
+  "rpc": ["https://mainnet.datagram.network/rpc"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DGRAM",
+    "symbol": "DGRAM",
+    "decimals": 18
+  },
+  "infoURL": "https://doc.datagram.network/introduction/what-is-datagram",
+  "shortName": "dgram",
+  "chainId": 968,
+  "networkId": 968,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.datagram.network",
+      "icon": "dgram",
+      "standard": "EIP3091"
+    }
+  ]
+}

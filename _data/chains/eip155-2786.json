@@ -1,0 +1,27 @@
+{
+  "name": "Apertum",
+  "title": "Apertum",
+  "chain": "APTM",
+  "rpc": [
+    "https://rpc.apertum.io/ext/bc/YDJ1r9RMkewATmA7B35q1bdV18aywzmdiXwd9zGBq3uQjsCnn/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Apertum",
+    "symbol": "APTM",
+    "decimals": 18
+  },
+  "infoURL": "https://apertum.io",
+  "shortName": "aptm",
+  "chainId": 2786,
+  "networkId": 2786,
+  "icon": "apertum",
+  "explorers": [
+    {
+      "name": "Apertum Explorer",
+      "url": "https://explorer.apertum.io",
+      "icon": "apertum",
+      "standard": "EIP3091"
+    }
+  ]
+}

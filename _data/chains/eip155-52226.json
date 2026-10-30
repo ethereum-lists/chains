@@ -1,0 +1,28 @@
+{
+  "name": "Cytonic Ethereum Testnet",
+  "chain": "CytonicEVM",
+  "rpc": ["http://rpc.evm.testnet.cytonic.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Cytonic",
+    "symbol": "CCC",
+    "decimals": 18
+  },
+  "infoURL": "https://cytonic.com",
+  "shortName": "CEVM",
+  "chainId": 52226,
+  "networkId": 52226,
+  "icon": "cytonic_l2",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.evm.testnet.cytonic.com",
+      "icon": "cytonic_l2",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-52225"
+  }
+}

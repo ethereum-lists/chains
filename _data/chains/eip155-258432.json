@@ -1,0 +1,25 @@
+{
+  "name": "Althea L1 Mainnet",
+  "chain": "ALTHEA",
+  "icon": "althea",
+  "rpc": ["https://rpc.althea.zone"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Althea",
+    "symbol": "ALTHEA",
+    "decimals": 18
+  },
+  "infoURL": "https://althea.net",
+  "shortName": "ALTHEA",
+  "chainId": 258432,
+  "networkId": 258432,
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "Mintscan",
+      "url": "https://mintscan.io/althea",
+      "standard": "none"
+    }
+  ]
+}

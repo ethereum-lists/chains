@@ -2,7 +2,7 @@
   "name": "Liquichain",
   "shortName": "Liquichain",
   "chain": "LQC",
-  "rpc": [],
+  "rpc": ["https://mainnet.liquichain.io/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Licoin",

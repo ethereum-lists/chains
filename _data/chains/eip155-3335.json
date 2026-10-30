@@ -1,21 +1,27 @@
 {
-  "name": "EthStorage L2 Devnet",
-  "chain": "EthStorage",
-  "rpc": ["http://devnet.l2.ethstorage.io:9540"],
+  "name": "QuarkChain L2 Beta Testnet",
+  "chain": "QuarkChain",
+  "rpc": ["https://rpc.beta.testnet.l2.quarkchain.io:8545"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
+    "name": "QKC",
+    "symbol": "QKC",
     "decimals": 18
   },
-  "infoURL": "https://ethstorage.io/",
-  "shortName": "esl2-d",
+  "infoURL": "https://www.quarkchain.io",
+  "shortName": "qkcl2-b",
   "chainId": 3335,
   "networkId": 3335,
   "slip44": 1,
-  "status": "incubating",
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111"
-  }
+  },
+  "explorers": [
+    {
+      "name": "quarkchain-beta-test",
+      "url": "https://explorer.beta.testnet.l2.quarkchain.io",
+      "standard": "EIP3091"
+    }
+  ]
 }

@@ -1,0 +1,25 @@
+{
+  "name": "MUD Chain",
+  "chain": "MUD",
+  "rpc": ["https://rpc.mud.network"],
+  "faucets": ["https://faucet.mud.network"],
+  "nativeCurrency": {
+    "name": "MUD",
+    "symbol": "MUD",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://mud.network",
+  "shortName": "MUD",
+  "chainId": 168169,
+  "networkId": 168169,
+  "icon": "mud",
+  "explorers": [
+    {
+      "name": "MUD Chain Scan",
+      "url": "https://scan.mud.network",
+      "icon": "mud",
+      "standard": "EIP3091"
+    }
+  ]
+}

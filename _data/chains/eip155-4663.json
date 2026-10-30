@@ -1,0 +1,55 @@
+{
+  "name": "Robinhood Chain",
+  "chain": "ETH",
+  "rpc": [
+    "https://rpc.mainnet.chain.robinhood.com",
+    "https://robinhood-rpc.publicnode.com",
+    "wss://robinhood-rpc.publicnode.com",
+    "https://rpc.ordofi.network",
+    "wss://rpc.ordofi.network",
+    "https://robinhood.drpc.org",
+    "wss://robinhood.drpc.org",
+    "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public",
+    "https://api.blockvectra.com/v1/robinhood_mainnet/public",
+    "https://robinhood.daybreak-rpc.network",
+    "https://rpc.swiftnodes.io/rpc/robinhood?key=${SWIFTNODES_API_KEY}"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.robinhood.com/chain",
+  "shortName": "robinhoodchain",
+  "chainId": 4663,
+  "networkId": 4663,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://robinhoodchain.blockscout.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "hoodscan",
+      "url": "https://hoodscan.co",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "stonkscan",
+      "url": "https://stonkscan.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [
+      {
+        "url": "https://portal.arbitrum.io/bridge?destinationChain=robinhood-chain&sourceChain=ethereum"
+      }
+    ]
+  }
+}

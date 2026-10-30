@@ -1,22 +1,25 @@
 {
-  "name": "BEVM Mainnet",
-  "chain": "BEVM",
-  "rpc": ["https://rpc-mainnet-1.bevm.io/", "https://rpc-mainnet-2.bevm.io/"],
+  "name": "GEB Mainnet",
+  "chain": "GEB",
+  "rpc": [
+    "https://rpc-mainnet-1.geb.network/",
+    "https://rpc-mainnet-2.geb.network/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",
     "symbol": "BTC",
     "decimals": 18
   },
-  "infoURL": "https://bevm.io",
-  "shortName": "bevm",
+  "infoURL": "https://geb.network",
+  "shortName": "geb",
   "chainId": 11501,
   "networkId": 11501,
-  "icon": "bevm",
+  "icon": "geb",
   "explorers": [
     {
-      "name": "bevm mainnet scan",
-      "url": "https://scan-mainnet.bevm.io",
+      "name": "geb mainnet scan",
+      "url": "https://scan.geb.network",
       "standard": "none"
     },
     {

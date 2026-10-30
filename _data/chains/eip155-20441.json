@@ -1,0 +1,24 @@
+{
+  "name": "XUSD ONE StableChain Mainnet",
+  "chain": "XUSD ONE",
+  "icon": "xusd",
+  "rpc": ["https://xusd.live"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "XUSD ONE",
+    "symbol": "X1",
+    "decimals": 18
+  },
+  "infoURL": "https://xusd.co",
+  "shortName": "xusd",
+  "chainId": 20441,
+  "networkId": 20441,
+  "explorers": [
+    {
+      "name": "xusdscan",
+      "url": "https://xusdscan.com",
+      "icon": "xusdscan",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,29 +1,26 @@
 {
-  "name": "ShimmerEVM Testnet Deprecated",
-  "title": "ShimmerEVM Testnet Deprecated",
-  "chain": "ShimmerEVM",
-  "icon": "shimmerevm",
-  "rpc": [],
-  "faucets": [
-    "https://evm-toolkit.evm.testnet.shimmer.network",
-    "https://evm-faucet.testnet.shimmer.network"
-  ],
+  "name": "OpenGPU Mainnet",
+  "chain": "OGPU",
+  "icon": "ogpu",
+  "rpc": ["https://mainnet-rpc.ogpuscan.io", "wss://mainnet-rpc.ogpuscan.io"],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "SMR",
-    "symbol": "SMR",
+    "name": "OGPU",
+    "symbol": "OGPU",
     "decimals": 18
   },
-  "infoURL": "https://shimmer.network",
-  "shortName": "shimmerevm-testnet-deprecated",
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://opengpu.network",
+  "shortName": "ogpu",
   "chainId": 1071,
   "networkId": 1071,
-  "slip44": 1,
+  "redFlags": ["reusedChainId"],
   "explorers": [
     {
-      "name": "explorer",
-      "url": "https://explorer.evm.testnet.shimmer.network",
+      "name": "OpenGPU Explorer",
+      "url": "https://ogpuscan.io",
+      "icon": "ogpu",
       "standard": "EIP3091"
     }
-  ],
-  "status": "deprecated"
+  ]
 }

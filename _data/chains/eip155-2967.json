@@ -1,0 +1,24 @@
+{
+  "name": "AXON Finance Testnet",
+  "chain": "AXON",
+  "rpc": ["https://rpc-testnet.axonfinance.xyz"],
+  "faucets": ["https://faucet.axonfinance.xyz"],
+  "nativeCurrency": {
+    "name": "AXON",
+    "symbol": "AXON",
+    "decimals": 18
+  },
+  "infoURL": "https://axonfinance.xyz",
+  "shortName": "axon-testnet",
+  "chainId": 2967,
+  "networkId": 2967,
+  "status": "active",
+  "explorers": [
+    {
+      "name": "AXON Finance Testnet Explorer",
+      "url": "https://explorer-testnet.axonfinance.xyz",
+      "standard": "EIP3091"
+    }
+  ],
+  "icon": "axon"
+}

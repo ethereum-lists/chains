@@ -1,6 +1,7 @@
 {
-  "name": "CratD2C Testnet",
+  "name": "CratD2C Testnet Deprecated",
   "chain": "CRATD2C",
+  "status": "deprecated",
   "rpc": [
     "https://cratd2c-testnet-node1.cratd2csmartchain.io/",
     "https://cratd2c-testnet-node2.cratd2csmartchain.io/"
@@ -12,7 +13,7 @@
     "decimals": 18
   },
   "infoURL": "https://cratd2csmartchain.io",
-  "shortName": "cratd2c-testnet",
+  "shortName": "cratd2c-testnet-deprecated",
   "chainId": 65349,
   "networkId": 65349,
   "icon": "cratd2c-testnet",

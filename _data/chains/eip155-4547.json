@@ -1,0 +1,27 @@
+{
+  "name": "TRUMPCHAIN",
+  "chain": "trumpchain",
+  "rpc": [
+    "https://testnet.trumpchain.dev/http",
+    "wss://testnet.trumpchain.dev/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Official Trump",
+    "symbol": "TRUMP",
+    "decimals": 18
+  },
+  "infoURL": "https://trumpchain.dev",
+  "shortName": "TRUMPCHAIN",
+  "chainId": 4547,
+  "networkId": 4547,
+  "icon": "trump",
+  "explorers": [
+    {
+      "name": "TRUMPCHAIN Explorer",
+      "url": "https://explorer.trumpchain.dev",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}

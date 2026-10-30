@@ -2,21 +2,21 @@
   "name": "Blast Mainnet",
   "chain": "ETH",
   "icon": "blastIcon",
-  "rpc": ["https://rpc.blastblockchain.com"],
+  "rpc": ["https://zkevmrpc.blastchain.org"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
+    "name": "One World Chain",
+    "symbol": "OWCT",
     "decimals": 18
   },
-  "infoURL": "https://docs.blastblockchain.com",
+  "infoURL": "https://docs.blastchain.org",
   "shortName": "blast",
   "chainId": 238,
   "networkId": 238,
   "explorers": [
     {
       "name": "Blast Mainnet",
-      "url": "https://scan.blastblockchain.com",
+      "url": "https://blastchain.org",
       "standard": "EIP3091"
     }
   ]

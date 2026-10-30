@@ -7,7 +7,15 @@
     "https://base.gateway.tenderly.co",
     "wss://base.gateway.tenderly.co",
     "https://base-rpc.publicnode.com",
-    "wss://base-rpc.publicnode.com"
+    "wss://base-rpc.publicnode.com",
+    "https://rpcfree.com/base-rpc",
+    "https://rpc.baseazul.dev",
+    "https://rpc.satelink.network/rpc/base",
+    "https://xrpc.cl/base",
+    "https://base-rpc.blockreq.com/v1/rpc/public",
+    "https://base.daybreak-rpc.network",
+    "https://rpc.swiftnodes.io/rpc/base?key=${SWIFTNODES_API_KEY}",
+    "https://api.blockvectra.com/v1/base_mainnet/public"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -39,8 +47,8 @@
       "standard": "EIP3091"
     },
     {
-      "name": "Routescan",
-      "url": "https://base.superscan.network",
+      "name": "Codex Scan",
+      "url": "https://scan.codex.io/base",
       "standard": "EIP3091"
     }
   ],

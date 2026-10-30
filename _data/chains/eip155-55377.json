@@ -1,0 +1,33 @@
+{
+  "name": "DUST Testnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://rpc.testnet.dustproject.org",
+    "wss://rpc.testnet.dustproject.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://dustproject.org",
+  "shortName": "dust-testnet",
+  "chainId": 55377,
+  "networkId": 55377,
+  "icon": "dust",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.testnet.dustproject.org",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": []
+  }
+}

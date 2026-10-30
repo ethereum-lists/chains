@@ -1,11 +1,8 @@
 {
-  "name": "arena-z-testnet",
-  "title": "Arena-Z-Testnet",
-  "chain": "arena-z-testnet",
-  "rpc": [
-    "https://rpc.arena-z.t.raas.gelato.cloud",
-    "wss://ws.arena-z.t.raas.gelato.cloud"
-  ],
+  "name": "arena-z-testnet-deprecated",
+  "title": "Arena-Z-Testnet-deprecated",
+  "chain": "arena-z-testnet-deprecated",
+  "rpc": [],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
@@ -14,24 +11,15 @@
   "icon": "arena-z",
   "infoURL": "https://raas.gelato.network/rollups/details/public/arena-z-testnet",
   "faucets": [],
-  "shortName": "arena-z-testnet",
+  "shortName": "arena-z-testnet-deprecated",
   "chainId": 9897,
   "networkId": 9897,
   "slip44": 60,
-  "explorers": [
-    {
-      "name": "blockscout",
-      "url": "https://arena-z.blockscout.com",
-      "icon": "blockscout",
-      "standard": "EIP3091"
-    }
-  ],
+  "explorers": [],
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [
-      { "url": "https://testnet-bridge.gelato.network/bridge/arena-z-testnet" }
-    ]
+    "bridges": []
   },
-  "status": "active"
+  "status": "deprecated"
 }

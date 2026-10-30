@@ -1,7 +1,7 @@
 {
   "name": "Electroneum Mainnet",
   "chain": "Electroneum",
-  "rpc": ["https://rpc.electroneum.com"],
+  "rpc": ["https://rpc.electroneum.com", "https://rpc.ankr.com/electroneum"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Electroneum",

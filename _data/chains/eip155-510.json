@@ -1,18 +1,29 @@
 {
-  "name": "Syndicate Chain",
-  "title": "Syndicate Chain",
+  "name": "Syndicate Mainnet",
   "chain": "Syndicate",
-  "rpc": ["https://rpc-mainnet.syndicate.io"],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
-    "decimals": 18
-  },
+  "shortName": "syndicate",
   "infoURL": "https://syndicate.io",
-  "shortName": "syndicate-chain-mainnet",
+  "icon": "syndicate",
+  "status": "active",
   "chainId": 510,
   "networkId": 510,
-  "status": "incubating",
-  "icon": "syndicate"
+  "nativeCurrency": {
+    "name": "Syndicate",
+    "symbol": "SYND",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.syndicate.io"],
+  "faucets": [],
+  "explorers": [
+    {
+      "name": "Syndicate Explorer",
+      "url": "https://explorer.syndicate.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.arbitrum.io" }]
+  }
 }

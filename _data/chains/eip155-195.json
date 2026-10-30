@@ -1,26 +1,25 @@
 {
-  "name": "X Layer Testnet",
+  "name": "X Layer Testnet(Deprecated)",
   "chain": "X Layer",
-  "rpc": ["https://testrpc.xlayer.tech", "https://xlayertestrpc.okx.com"],
-  "faucets": ["https://www.okx.com/xlayer/faucet"],
+  "rpc": [],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "X Layer Global Utility Token in testnet",
-    "symbol": "OKB",
+    "name": "X Layer Global Utility Token in testnet(Deprecated)",
+    "symbol": "OKBDep",
     "decimals": 18
   },
   "features": [],
-  "infoURL": "https://www.okx.com/xlayer",
-  "shortName": "tokb",
+  "infoURL": "",
+  "shortName": "tokb-dep",
   "chainId": 195,
   "networkId": 195,
   "slip44": 1,
-  "icon": "xlayerTestnet",
   "explorers": [
     {
       "name": "OKLink",
-      "url": "https://www.oklink.com/xlayer-test",
+      "url": "https://www.oklink.com/zh-hans/x-layer-testnet",
       "standard": "EIP3091"
     }
   ],
-  "status": "active"
+  "status": "deprecated"
 }

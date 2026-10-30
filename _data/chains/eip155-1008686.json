@@ -1,0 +1,24 @@
+{
+  "name": "Naga Testnet",
+  "chain": "Naga",
+  "rpc": ["https://rpc.nagafintech.com", "wss://rpc.nagafintech.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Naga",
+    "symbol": "Naga",
+    "decimals": 18
+  },
+  "infoURL": "https://stablecoin.nagafintech.com/#/app/home",
+  "shortName": "Naga",
+  "chainId": 1008686,
+  "networkId": 1008686,
+  "icon": "naga",
+  "explorers": [
+    {
+      "name": "Naga Explorer Testnet",
+      "url": "https://explorer.nagafintech.com",
+      "icon": "naga",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Pione BOS Chain Mainnet",
+  "chain": "POB",
+  "icon": "pob",
+  "rpc": ["https://rpc.pionescan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Pione BOS Chain",
+    "symbol": "POB",
+    "decimals": 18
+  },
+  "infoURL": "https://pionechain.com",
+  "shortName": "pob",
+  "chainId": 739,
+  "networkId": 739,
+  "explorers": [
+    {
+      "name": "Pione BOS Chain Explorer",
+      "url": "https://pionescan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

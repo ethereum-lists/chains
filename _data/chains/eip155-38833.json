@@ -1,0 +1,24 @@
+{
+  "name": "Igra Network",
+  "chain": "IGRA",
+  "icon": "igra",
+  "rpc": ["https://rpc.igralabs.com:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "iKAS",
+    "symbol": "iKAS",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://igralabs.com",
+  "shortName": "igra",
+  "chainId": 38833,
+  "networkId": 38833,
+  "explorers": [
+    {
+      "name": "Igra Explorer",
+      "url": "https://explorer.igralabs.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,11 +1,9 @@
 {
   "name": "Berachain Artio",
   "chain": "Berachain Artio",
-  "rpc": [
-    "https://artio.rpc.berachain.com",
-    "https://rpc.ankr.com/berachain_testnet"
-  ],
-  "faucets": ["https://artio.faucet.berachain.com"],
+  "status": "deprecated",
+  "rpc": [],
+  "faucets": [],
   "nativeCurrency": {
     "name": "BERA Token",
     "symbol": "BERA",

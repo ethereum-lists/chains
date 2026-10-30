@@ -1,10 +1,8 @@
 {
   "name": "Mars Credit",
   "chain": "MARS",
-  "rpc": [
-    "https://node99-production-dd5f.up.railway.app:443",
-    "https://rpc.marscredit.xyz:443"
-  ],
+  "rpc": ["https://rpc.marscredit.xyz:443"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
     "name": "Mars Credit",
@@ -17,6 +15,12 @@
   "networkId": 110110,
   "slip44": 1,
   "icon": "marscredit",
-  "explorers": [],
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockscan.marscredit.xyz",
+      "standard": "EIP3091"
+    }
+  ],
   "redFlags": []
 }

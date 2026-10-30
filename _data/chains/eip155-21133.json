@@ -1,21 +1,21 @@
 {
-  "name": "All About Healthy",
+  "name": "All About Health",
   "chain": "AAH",
-  "rpc": ["https://rpc.c4ex.net"],
-  "faucets": ["https://t.me/c4eiAirdrop"],
+  "rpc": ["https://rpc.aah.name"],
+  "faucets": ["https://aah.name"],
   "nativeCurrency": {
     "name": "AAH",
     "symbol": "AAH",
     "decimals": 18
   },
-  "infoURL": "https://c4ex.net",
+  "infoURL": "https://aah.name",
   "shortName": "aah",
   "chainId": 21133,
   "networkId": 21133,
   "explorers": [
     {
       "name": "AAH Blockscout",
-      "url": "https://exp.c4ex.net",
+      "url": "https://exp.aah.name",
       "icon": "aah",
       "standard": "EIP3091"
     }
