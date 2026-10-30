@@ -1,12 +1,23 @@
 {
-  "name": "EKI Chain",
-  "chain": "EKI",
-  "rpc": ["https://eki-chain.onrender.com"],
+  "name": "Darwinia Koi Testnet",
+  "chain": "Darwinia Koi",
+  "rpc": ["https://koi-rpc.darwinia.network"],
   "faucets": [],
-  "nativeCurrency": {"name": "EKI","symbol": "EKI","decimals": 18},
-  "infoURL": "https://eki-chain.onrender.com",
-  "shortName": "eki",
+  "nativeCurrency": {
+    "name": "Koi Network Native Token",
+    "symbol": "KRING",
+    "decimals": 18
+  },
+  "infoURL": "https://darwinia.network/",
+  "shortName": "darwinia-koi",
   "chainId": 701,
   "networkId": 701,
-  "explorers": []
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://koi-scan.darwinia.network",
+      "standard": "EIP3091"
+    }
+  ]
 }

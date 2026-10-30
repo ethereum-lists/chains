@@ -1,0 +1,13 @@
+{
+  "name": "EKI Chain",
+  "chain": "EKI",
+  "rpc": ["https://eki-chain.onrender.com"],
+  "faucets": [],
+  "nativeCurrency": {"name":"EKI","symbol":"EKI","decimals":18},
+  "infoURL": "https://eki-chain.onrender.com",
+  "shortName": "eki",
+  "chainId": 70101,
+  "networkId": 70101,
+  "explorers": [],
+  "status": "active"
+}
