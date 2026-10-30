@@ -360,20 +360,10 @@ fun checkChain(chainFile: File, onlineCheck: Boolean, verbose: Boolean = false) 
             }
 
             if (onlineCheck) {
-                try {
-                    val request = Request.Builder().url(url).build()
-                    val code = okHttpClient.newCall(request).execute().code
-                    if (code / 100 != 2 && code != 403) { // etherscan throws a 403 because of cloudflare - so we need to allow it :cry
-                        throw (CantReachExplorerException(url, code))
-                    }
-                } catch (e: java.net.UnknownHostException) {
-                    println("Warning: Could not resolve explorer URL: $url - skipping online validation")
-                } catch (e: Exception) {
-                    // Re-throw our custom exceptions, but swallow other network errors
-                    if (e is CantReachExplorerException) {
-                        throw e
-                    }
-                    println("Warning: Network error validating explorer URL: $url - skipping online validation")
+                val request = Request.Builder().url(url).build();
+                val code = okHttpClient.newCall(request).execute().code
+                if (code / 100 != 2 && code != 403 ) { // etherscan throws a 403 because of cloudflare - so we need to allow it :cry
+                    throw (CantReachExplorerException(url, code))
                 }
             }
         }
