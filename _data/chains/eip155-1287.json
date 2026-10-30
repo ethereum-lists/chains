@@ -7,8 +7,6 @@
     "wss://wss.api.moonbase.moonbeam.network",
     "https://moonbase-alpha.public.blastapi.io",
     "wss://moonbase-alpha.public.blastapi.io",
-    "https://moonbase-rpc.dwellir.com",
-    "wss://moonbase-rpc.dwellir.com",
     "https://moonbeam-alpha.api.onfinality.io/public",
     "wss://moonbeam-alpha.api.onfinality.io/public-ws",
     "https://moonbase.unitedbloc.com",
@@ -29,9 +27,10 @@
   "slip44": 1,
   "explorers": [
     {
-      "name": "moonscan",
-      "url": "https://moonbase.moonscan.io",
-      "standard": "none"
+      "name": "subscan",
+      "url": "https://moonbase.subscan.io",
+      "standard": "none",
+      "icon": "subscan"
     }
   ]
 }

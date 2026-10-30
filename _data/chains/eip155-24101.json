@@ -1,0 +1,22 @@
+{
+  "name": "Incentiv Mainnet",
+  "chain": "Incentiv",
+  "rpc": ["https://rpc.incentiv.io", "https://rpc-archive.incentiv.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CENT",
+    "symbol": "CENT",
+    "decimals": 18
+  },
+  "infoURL": "https://incentiv.io",
+  "shortName": "incentiv",
+  "chainId": 24101,
+  "networkId": 24101,
+  "explorers": [
+    {
+      "name": "Incentiv Mainnet Explorer",
+      "url": "https://explorer.incentiv.io",
+      "standard": "none"
+    }
+  ]
+}
