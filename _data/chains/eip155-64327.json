@@ -1,0 +1,29 @@
+{
+  "name": "Midas Testnet",
+  "chain": "MIDS",
+  "rpc": ["https://rpc.testnet.onmidas.xyz"],
+  "faucets": ["https://onmidas.xyz/developers#faucet"],
+  "nativeCurrency": {
+    "name": "Midas",
+    "symbol": "MIDS",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://onmidas.xyz",
+  "shortName": "midas-testnet",
+  "chainId": 64327,
+  "networkId": 64327,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Midas Explorer",
+      "url": "https://explorer.testnet.onmidas.xyz",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  },
+  "status": "active"
+}

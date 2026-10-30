@@ -9,7 +9,9 @@
     "wss://optimism.gateway.tenderly.co",
     "https://optimism.drpc.org",
     "wss://optimism.drpc.org",
-    "https://xrpc.cl/optimism"
+    "https://xrpc.cl/optimism",
+    "https://optimism-rpc.blockreq.com/v1/rpc/public",
+    "https://rpc.swiftnodes.io/rpc/optimism?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
