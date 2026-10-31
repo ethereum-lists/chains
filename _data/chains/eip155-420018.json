@@ -1,0 +1,18 @@
+{
+  "name": "QVTX ByteID Anchor",
+  "chain": "QVTX",
+  "rpc": [
+    "https://rpc.qvtxaeon.io/_rpc/420018",
+    "https://rpc.quantvestrix.io/_rpc/420018"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QVTX",
+    "symbol": "QVTX",
+    "decimals": 18
+  },
+  "infoURL": "https://quantvestrix.io",
+  "shortName": "qvtxa",
+  "chainId": 420018,
+  "networkId": 420018
+}
