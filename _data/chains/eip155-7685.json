@@ -1,0 +1,14 @@
+{
+  "name": "SOVL1 Mainnet",
+  "chain": "SOVL1",
+  "rpc": [],
+  "features": [{ "name": "EIP155" }],
+  "faucets": [],
+  "nativeCurrency": { "name": "SOVL1", "symbol": "SOVL1", "decimals": 18 },
+  "infoURL": "https://sovereign.com.ky",
+  "shortName": "sovl1",
+  "chainId": 7685,
+  "networkId": 7685,
+  "status": "incubating",
+  "explorers": []
+}

@@ -1,0 +1,21 @@
+{
+  "name": "16ane Mainnet",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://16ane.net",
+  "shortName": "16ane",
+  "chainId": 16463,
+  "networkId": 16463,
+  "status": "incubating",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
+}
