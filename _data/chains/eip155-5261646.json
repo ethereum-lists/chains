@@ -3,6 +3,7 @@
   "title": "Pinch Mainnet",
   "status": "active",
   "chain": "PINCH",
+  "icon": "pinch",
   "rpc": ["https://167-233-120-69.nip.io/rpc"],
   "features": [{ "name": "EIP155" }],
   "faucets": [],
@@ -14,5 +15,12 @@
   "infoURL": "https://167-233-120-69.nip.io",
   "shortName": "pinch",
   "chainId": 5261646,
-  "networkId": 5261646
+  "networkId": 5261646,
+  "explorers": [
+    {
+      "name": "Pinch Explorer",
+      "url": "https://167-233-120-69.nip.io/explorer",
+      "standard": "EIP3091"
+    }
+  ]
 }
