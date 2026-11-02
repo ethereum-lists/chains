@@ -1,9 +1,7 @@
 {
   "name": "Riverbit Testnet",
   "chain": "RBT",
-  "rpc": [
-    "https://rpc.riverbit.io"
-  ],
+  "rpc": ["https://pre.riverbit.io/api/rpc?chainId=12589"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Riverbit token",
