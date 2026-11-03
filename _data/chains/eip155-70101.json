@@ -1,0 +1,12 @@
+{
+  "name": "EKI Mainnet",
+  "chain": "EKI",
+  "rpc": ["https://www.eki-chain.cloud-ip.cc/rpc"],
+  "faucets": [],
+  "nativeCurrency": {"name": "EKI", "symbol": "EKI", "decimals": 18},
+  "infoURL": "https://www.eki-chain.cloud-ip.cc",
+  "shortName": "eki",
+  "chainId": 70101,
+  "networkId": 70101,
+  "explorers": [{"name": "EKI Explorer", "url": "https://www.eki-chain.cloud-ip.cc/explorer", "standard": "EIP3091"}]
+}
