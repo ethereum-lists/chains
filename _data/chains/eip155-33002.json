@@ -1,0 +1,17 @@
+{
+  "name": "Zero (EVM Zone)",
+  "title": "Zero [EVM Zone]",
+  "chain": "ZERO",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ZRO",
+    "symbol": "ZRO",
+    "decimals": 18
+  },
+  "infoURL": "https://layerzero.network/zero",
+  "shortName": "zero-evm",
+  "chainId": 33002,
+  "networkId": 33002,
+  "status": "incubating"
+}
