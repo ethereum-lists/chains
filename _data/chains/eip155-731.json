@@ -1,0 +1,19 @@
+{
+  "name": "Telcoin Network",
+  "chain": "TEL",
+  "icon": "telcoin",
+  "rpc": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Telcoin",
+    "symbol": "TEL",
+    "decimals": 18
+  },
+  "infoURL": "https://telcoin.network",
+  "shortName": "tn",
+  "chainId": 731,
+  "networkId": 731,
+  "status": "incubating",
+  "explorers": []
+}
