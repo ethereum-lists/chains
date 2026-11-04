@@ -1,0 +1,17 @@
+{
+  "name": "DAGCore Mainnet",
+  "chain": "DGCR",
+  "rpc": ["https://rpc.dgcr.dagcore.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DAGCore",
+    "symbol": "DGCR",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://dagcore.net",
+  "shortName": "dgcr",
+  "chainId": 32427,
+  "networkId": 32427,
+  "status": "incubating"
+}
