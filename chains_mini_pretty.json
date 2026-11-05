@@ -14910,6 +14910,19 @@
   "faucets": [],
   "infoURL": "https://thefirechain.com"
 }, {
+  "name": "SRC Chain",
+  "chainId": 5291,
+  "shortName": "srcchain",
+  "networkId": 5291,
+  "nativeCurrency": {
+    "name": "SRC",
+    "symbol": "SRC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.srcecosystem.com"],
+  "faucets": [],
+  "infoURL": "https://srcecosystem.com"
+}, {
   "name": "Uzmi Network Mainnet",
   "chainId": 5315,
   "shortName": "UZMI",
