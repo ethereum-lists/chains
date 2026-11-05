@@ -2,7 +2,7 @@
   "name": "Cronos Mainnet",
   "chain": "CRO",
   "rpc": [
-    "https://evm.cronos.org",
+    "https://evm.cronos.com",
     "https://cronos-evm-rpc.publicnode.com",
     "wss://cronos-evm-rpc.publicnode.com",
     "https://cronos.drpc.org",
@@ -23,7 +23,7 @@
   "explorers": [
     {
       "name": "Cronos Explorer",
-      "url": "https://explorer.cronos.org",
+      "url": "https://explorer.cronos.com",
       "standard": "none"
     }
   ]
