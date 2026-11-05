@@ -1,0 +1,18 @@
+{
+  "name": "Zero (ATLAS Zone) Devnet",
+  "title": "Zero [ATLAS Zone] Devnet",
+  "chain": "ZERO",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ZRO",
+    "symbol": "ZRO",
+    "decimals": 18
+  },
+  "infoURL": "https://layerzero.network/zero",
+  "shortName": "zero-atlas-devnet",
+  "chainId": 93003,
+  "networkId": 93003,
+  "slip44": 1,
+  "status": "incubating"
+}
