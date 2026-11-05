@@ -1,0 +1,23 @@
+{
+  "name": "Two-Trader Mainnet",
+  "chain": "T2T",
+  "rpc": ["https://rpc.two-trader.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Two-Trader",
+    "symbol": "T2T",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://www.two-trader.com",
+  "shortName": "t2t",
+  "chainId": 3330,
+  "networkId": 3330,
+  "explorers": [
+    {
+      "name": "Two-Trader Explorer",
+      "url": "https://explorer.two-trader.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

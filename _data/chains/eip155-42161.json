@@ -19,7 +19,8 @@
     "https://rpc.satelink.network/rpc/arbitrum",
     "https://xrpc.cl/arbitrum",
     "https://arbitrum-one-rpc.blockreq.com/v1/rpc/public",
-    "https://rpc.swiftnodes.io/rpc/arbitrum?key=${SWIFTNODES_API_KEY}"
+    "https://rpc.swiftnodes.io/rpc/arbitrum?key=${SWIFTNODES_API_KEY}",
+    "https://api.blockvectra.com/v1/arb_mainnet/public"
   ],
   "faucets": [],
   "explorers": [

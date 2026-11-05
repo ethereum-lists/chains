@@ -1,0 +1,25 @@
+{
+  "name": "BrainChain",
+  "chain": "ETH",
+  "rpc": ["https://rpc.usebrainchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://usebrainchain.com",
+  "shortName": "brainchain",
+  "chainId": 274663,
+  "networkId": 274663,
+  "status": "active",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-4663",
+    "bridges": [
+      {
+        "url": "https://usebrainchain.com/network"
+      }
+    ]
+  }
+}
