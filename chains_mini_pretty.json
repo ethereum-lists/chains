@@ -20123,6 +20123,19 @@
   "faucets": [],
   "infoURL": "https://rss3.io"
 }, {
+  "name": "Riverbit Testnet",
+  "chainId": 12589,
+  "shortName": "riverbit-testnet",
+  "networkId": 12589,
+  "nativeCurrency": {
+    "name": "Riverbit token",
+    "symbol": "RBT",
+    "decimals": 18
+  },
+  "rpc": ["https://pre.riverbit.io/api/rpc?chainId=12589"],
+  "faucets": [],
+  "infoURL": "https://pre.riverbit.io/explorer"
+}, {
   "name": "Rikeza Network Testnet",
   "chainId": 12715,
   "shortName": "tRIK",
