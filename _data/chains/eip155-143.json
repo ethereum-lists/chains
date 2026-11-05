@@ -2,7 +2,7 @@
   "name": "Monad",
   "chain": "MON",
   "icon": "monad",
-  "rpc": ["https://rpc.monad.xyz"],
+  "rpc": ["https://rpc.monad.xyz", "https://moltnode.ag/monad"],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
