@@ -2,7 +2,7 @@
   "name": "QuantPay Chain",
   "chain": "QPC",
   "icon": "quantpay",
-  "rpc": ["https://rpc.quantpay.sh"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "QuantPay Chain",
@@ -18,12 +18,6 @@
   "shortName": "qpc",
   "chainId": 1716125,
   "networkId": 1716125,
-  "status": "active",
-  "explorers": [
-    {
-      "name": "QPC Explorer",
-      "url": "https://explorer.quantpay.sh",
-      "standard": "EIP3091"
-    }
-  ]
+  "status": "deprecated",
+  "explorers": []
 }
