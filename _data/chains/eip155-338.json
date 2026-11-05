@@ -6,13 +6,13 @@
     "https://cronos-testnet.drpc.org",
     "wss://cronos-testnet.drpc.org"
   ],
-  "faucets": ["https://cronos.org/faucet"],
+  "faucets": ["https://faucet.cronos.com/"],
   "nativeCurrency": {
     "name": "Cronos Test Coin",
     "symbol": "TCRO",
     "decimals": 18
   },
-  "infoURL": "https://cronos.org",
+  "infoURL": "https://cronos.com/",
   "shortName": "tcro",
   "chainId": 338,
   "networkId": 338,
