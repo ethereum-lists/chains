@@ -1,0 +1,30 @@
+{
+  "name": "Supra Mainnet",
+  "chain": "SUPRA",
+  "icon": "supra",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Supra",
+    "symbol": "SUPRA",
+    "decimals": 18
+  },
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" },
+    { "name": "EIP2930" },
+    { "name": "EIP7702" }
+  ],
+  "infoURL": "https://supra.com",
+  "shortName": "supra",
+  "chainId": 535558,
+  "networkId": 535558,
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "SupraScan",
+      "url": "https://suprascan.io",
+      "standard": "none"
+    }
+  ]
+}
