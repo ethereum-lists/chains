@@ -1,7 +1,7 @@
 {
   "name": "GenLayer Mainnet",
   "chain": "GEN",
-  "rpc": [],
+  "rpc": ["https://rpc.chain.genlayer.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "GEN Token",
@@ -12,5 +12,20 @@
   "shortName": "genlayer",
   "chainId": 42424242,
   "networkId": 42424242,
-  "status": "incubating"
+  "explorers": [
+    {
+      "name": "GenLayer Explorer",
+      "url": "https://scan.chain.genlayer.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "icon": "genlayer"
 }

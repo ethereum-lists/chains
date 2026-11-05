@@ -1,0 +1,35 @@
+{
+  "name": "Gully Chain Testnet",
+  "title": "Gully Chain Testnet (Arbitrum Orbit L3)",
+  "chain": "ETH",
+  "icon": "gullychain",
+  "rpc": ["https://testnet-rpc.gullychain.xyz"],
+  "faucets": ["https://faucet.gullychain.xyz"],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://gullychain.xyz",
+  "shortName": "gully-test",
+  "chainId": 485590,
+  "networkId": 485590,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Gully Chain Testnet Explorer",
+      "url": "https://testnet-explorer.gullychain.xyz",
+      "icon": "gullychain",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-421614",
+    "bridges": [
+      {
+        "url": "https://testnet-bridge.gullychain.xyz"
+      }
+    ]
+  }
+}

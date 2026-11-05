@@ -1,0 +1,22 @@
+{
+  "name": "Otckas Testnet",
+  "chain": "OKAS",
+  "rpc": ["https://rpc.otckas.com"],
+  "faucets": ["https://faucet.otckas.com"],
+  "nativeCurrency": {
+    "name": "Otckas",
+    "symbol": "OKAS",
+    "decimals": 18
+  },
+  "infoURL": "https://otckas.com",
+  "shortName": "okas-testnet",
+  "chainId": 88991,
+  "networkId": 88991,
+  "explorers": [
+    {
+      "name": "OtckasScan",
+      "url": "https://explorer.otckas.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

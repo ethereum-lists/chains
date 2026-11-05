@@ -1,0 +1,21 @@
+{
+  "name": "Regulated Layer One Testnet",
+  "chain": "RL1-TESTNET",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "RL1 Ether",
+    "symbol": "RETH",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "infoURL": "https://rl1.network",
+  "shortName": "rl1-testnet",
+  "chainId": 281182,
+  "networkId": 281182,
+  "status": "active"
+}
