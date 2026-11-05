@@ -1,21 +1,21 @@
 {
   "name": "MobileNode Chain",
   "chain": "MNC",
-  "rpc": ["https://rpc.mobilenode.ru"],
+  "rpc": ["https://rpc.mnc.mobi"],
   "faucets": [],
   "nativeCurrency": {
     "name": "MobileNode Coin",
     "symbol": "MNC",
     "decimals": 18
   },
-  "infoURL": "https://chain.mobilenode.ru",
+  "infoURL": "https://mnc.mobi",
   "shortName": "mobilenode",
   "chainId": 973164827,
   "networkId": 973164827,
   "explorers": [
     {
       "name": "MobileNode Explorer",
-      "url": "https://explorer.mobilenode.ru",
+      "url": "https://explorer.mnc.mobi",
       "standard": "none"
     }
   ]
