@@ -1,0 +1,30 @@
+{
+  "name": "Stapleport",
+  "chain": "SP",
+  "rpc": ["https://rpc.stapleport.com"],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Stapleport USD",
+    "symbol": "USDSP",
+    "decimals": 18
+  },
+  "infoURL": "https://stapleport.com",
+  "shortName": "sp",
+  "chainId": 78753,
+  "networkId": 78753,
+  "explorers": [
+    {
+      "name": "blockscan",
+      "url": "https://blockscan.stapleport.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
