@@ -1,0 +1,30 @@
+{
+  "name": "LXON",
+  "chain": "LXON",
+  "rpc": [
+    "https://www.lxon.in/rpc",
+    "https://lxon.in/rpc"
+  ],
+  "faucets": [
+    "https://www.lxon.in/apps/faucet/"
+  ],
+  "features": [
+    { "name": "EIP155" }
+  ],
+  "nativeCurrency": {
+    "name": "LXON",
+    "symbol": "LXON",
+    "decimals": 18
+  },
+  "infoURL": "https://www.lxon.in",
+  "shortName": "lxon",
+  "chainId": 724,
+  "networkId": 724,
+  "explorers": [
+    {
+      "name": "LXON Block Explorer",
+      "url": "https://www.lxon.in/apps/block-explorer",
+      "standard": "none"
+    }
+  ]
+}
