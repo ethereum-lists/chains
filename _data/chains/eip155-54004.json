@@ -1,17 +1,18 @@
 {
-  "name": "Shinerium Mainnet",
+  "name": "Shinerium Testnet",
   "chain": "SHN",
   "rpc": [],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Shinerium",
+    "name": "Shine",
     "symbol": "SHN",
     "decimals": 18
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "infoURL": "https://shinerium.org",
-  "shortName": "shn",
-  "chainId": 5019,
-  "networkId": 5019,
+  "shortName": "tshn",
+  "chainId": 54004,
+  "networkId": 54004,
+  "icon": "shinerium",
   "status": "incubating"
 }
