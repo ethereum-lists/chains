@@ -1,0 +1,18 @@
+{
+  "name": "Shinerium Mainnet",
+  "chain": "SHN",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Shine",
+    "symbol": "SHN",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://shinerium.org",
+  "shortName": "shn",
+  "chainId": 54040,
+  "networkId": 54040,
+  "icon": "shinerium",
+  "status": "incubating"
+}
