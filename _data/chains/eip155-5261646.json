@@ -4,7 +4,7 @@
   "status": "active",
   "chain": "PINCH",
   "icon": "pinch",
-  "rpc": ["https://167-233-120-69.nip.io/rpc"],
+  "rpc": ["https://pinch.network/rpc"],
   "features": [{ "name": "EIP155" }],
   "faucets": [],
   "nativeCurrency": {
@@ -12,14 +12,14 @@
     "symbol": "PINCH",
     "decimals": 18
   },
-  "infoURL": "https://167-233-120-69.nip.io",
+  "infoURL": "https://pinch.network",
   "shortName": "pinch",
   "chainId": 5261646,
   "networkId": 5261646,
   "explorers": [
     {
       "name": "Pinch Explorer",
-      "url": "https://167-233-120-69.nip.io/explorer",
+      "url": "https://pinch.network/explorer",
       "standard": "EIP3091"
     }
   ]
