@@ -1,7 +1,10 @@
 {
   "name": "Zora",
   "chain": "ETH",
-  "rpc": ["https://rpc.zora.energy/"],
+  "rpc": [
+    "https://rpc.zora.energy/",
+    "https://api.blockvectra.com/v1/zora_mainnet/public"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

@@ -1,7 +1,10 @@
 {
   "name": "Metal L2",
   "chain": "Metal L2",
-  "rpc": ["https://rpc.metall2.com"],
+  "rpc": [
+    "https://rpc.metall2.com",
+    "https://api.blockvectra.com/v1/metall2_mainnet/public"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",
