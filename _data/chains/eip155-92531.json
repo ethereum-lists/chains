@@ -1,0 +1,26 @@
+{
+  "name": "WireFluid Devnet",
+  "chain": "WIRE",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WIRE",
+    "symbol": "WIRE",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://wirefluid.com",
+  "shortName": "wirefluid-devnet",
+  "chainId": 92531,
+  "networkId": 92531,
+  "slip44": 1,
+  "status": "incubating",
+  "icon": "wirefluid"
+}

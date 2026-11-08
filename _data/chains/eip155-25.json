@@ -6,7 +6,8 @@
     "https://cronos-evm-rpc.publicnode.com",
     "wss://cronos-evm-rpc.publicnode.com",
     "https://cronos.drpc.org",
-    "wss://cronos.drpc.org"
+    "wss://cronos.drpc.org",
+    "https://cronos-rpc.blockreq.com/v1/rpc/public"
   ],
   "features": [{ "name": "EIP1559" }],
   "faucets": [],

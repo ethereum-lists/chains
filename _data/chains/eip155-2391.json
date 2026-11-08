@@ -3,11 +3,7 @@
   "title": "TAC Testnet SPB",
   "chain": "TAC",
   "icon": "tactestnet",
-  "rpc": [
-    "https://spb.rpc.tac.build",
-    "https://rpc.ankr.com/tac_spb",
-    "https://spb-ws.rpc.tac.build"
-  ],
+  "rpc": ["https://rpc-public-spb.tac.build", "wss://rpc-public-spb.tac.build"],
   "faucets": ["https://spb.faucet.tac.build/"],
   "nativeCurrency": {
     "name": "TAC",

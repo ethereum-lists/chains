@@ -2,7 +2,7 @@
   "name": "RWA Chain Sepolia",
   "chain": "RWA",
   "rpc": ["https://sepolia-rpc.rwa-chain.io"],
-  "faucets": [],
+  "faucets": ["https://testnet.rwa-chain.io/explorer/faucet"],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
@@ -21,6 +21,11 @@
   ],
   "parent": {
     "type": "L2",
-    "chain": "eip155-84532"
+    "chain": "eip155-84532",
+    "bridges": [
+      {
+        "url": "https://testnet.rwa-chain.io/explorer/bridge"
+      }
+    ]
   }
 }
