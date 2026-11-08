@@ -1,0 +1,23 @@
+{
+  "name": "PIO Testnet",
+  "chain": "PIO",
+  "rpc": ["https://rpc.piochain.online", "wss://ws.piochain.online"],
+  "faucets": ["https://explorer.piochain.online/faucet"],
+  "nativeCurrency": {
+    "name": "Test PIO",
+    "symbol": "tPIO",
+    "decimals": 18
+  },
+  "infoURL": "https://explorer.piochain.online",
+  "shortName": "piochain-testnet",
+  "chainId": 9192,
+  "networkId": 9192,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "PIO Explorer",
+      "url": "https://explorer.piochain.online",
+      "standard": "EIP3091"
+    }
+  ]
+}
