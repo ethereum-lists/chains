@@ -1,0 +1,26 @@
+{
+  "name": "AVI OS",
+  "chain": "AVI",
+  "rpc": ["https://rpc-os.avicoin.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AVI",
+    "symbol": "AVI",
+    "decimals": 18
+  },
+  "infoURL": "https://os.avicoin.org",
+  "shortName": "avi-os",
+  "chainId": 3210,
+  "networkId": 3210,
+  "explorers": [
+    {
+      "name": "AVI OS Explorer",
+      "url": "https://explorer.avicoin.org",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-963369"
+  }
+}

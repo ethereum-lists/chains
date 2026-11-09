@@ -1,0 +1,23 @@
+{
+  "name": "Imperium Testnet",
+  "chain": "tIMP",
+  "rpc": [
+    "https://rpc-testnet.imperiumscan.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Test Imperium",
+    "symbol": "tIMP",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://imperiumscan.com",
+  "shortName": "timp",
+  "chainId": 9818,
+  "networkId": 9818,
+  "explorers": [{
+    "name": "Imperium Scan",
+    "url": "https://imperiumscan.com",
+    "standard": "none"
+  }]
+}

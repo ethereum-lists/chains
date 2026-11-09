@@ -1,0 +1,23 @@
+{
+  "name": "HyveChain",
+  "chain": "HYVE",
+  "rpc": ["https://rpc.hyvechain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "HYVE",
+    "symbol": "HYVE",
+    "decimals": 18
+  },
+  "infoURL": "https://hyvechain.com",
+  "shortName": "hyve",
+  "chainId": 7847,
+  "networkId": 7847,
+  "icon": "hyvechain",
+  "explorers": [
+    {
+      "name": "HyveChain Explorer",
+      "url": "https://explorer.hyvechain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "MigoChain Testnet",
+  "title": "MigoChain Testnet",
+  "chain": "MIGO",
+  "rpc": [
+    "https://rpc.testnet.migochain.org",
+    "wss://rpc.testnet.migochain.org/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MigoCoin",
+    "symbol": "MIGO",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/MigoChain/MigoChain-Core",
+  "shortName": "migo-test",
+  "chainId": 64460,
+  "networkId": 64460,
+  "slip44": 1,
+  "status": "active",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.testnet.migochain.org",
+      "standard": "EIP3091"
+    }
+  ]
+}

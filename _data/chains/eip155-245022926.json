@@ -1,12 +1,8 @@
 {
   "name": "Neon EVM Devnet",
   "chain": "Solana",
-  "rpc": [
-    "https://devnet.neonevm.org",
-    "https://neon-evm-devnet.drpc.org",
-    "wss://neon-evm-devnet.drpc.org"
-  ],
-  "faucets": ["https://neonfaucet.org"],
+  "rpc": [],
+  "faucets": [],
   "icon": "neon",
   "nativeCurrency": {
     "name": "Neon",
@@ -17,17 +13,6 @@
   "shortName": "neonevm-devnet",
   "chainId": 245022926,
   "networkId": 245022926,
-  "explorers": [
-    {
-      "name": "neonscan",
-      "url": "https://devnet.neonscan.org",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "blockscout",
-      "url": "https://neon-devnet.blockscout.com",
-      "icon": "blockscout",
-      "standard": "EIP3091"
-    }
-  ]
+  "explorers": [],
+  "status": "deprecated"
 }

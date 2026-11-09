@@ -1,0 +1,18 @@
+{
+  "name": "TractSafe Testnet",
+  "chain": "TRCT",
+  "status": "incubating",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TractSafe",
+    "symbol": "TRCT",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://tractsafe.com",
+  "shortName": "trct-test",
+  "chainId": 28282,
+  "networkId": 28282,
+  "icon": "tractsafe"
+}

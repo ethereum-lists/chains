@@ -6,7 +6,9 @@
     "https://berachain-rpc.publicnode.com",
     "wss://berachain-rpc.publicnode.com",
     "https://rpc.berachain-apis.com",
-    "wss://rpc.berachain-apis.com"
+    "wss://rpc.berachain-apis.com",
+    "https://berachain-rpc.blockreq.com/v1/rpc/public",
+    "https://rpc.swiftnodes.io/rpc/berachain?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,13 +23,8 @@
   "icon": "berachain",
   "explorers": [
     {
-      "name": "Berascan",
+      "name": "Berascan Berachain Block Explorer",
       "url": "https://berascan.com",
-      "standard": "EIP3091"
-    },
-    {
-      "name": "Beratrail",
-      "url": "https://beratrail.io",
       "standard": "EIP3091"
     }
   ]

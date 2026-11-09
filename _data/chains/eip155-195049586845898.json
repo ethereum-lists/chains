@@ -1,6 +1,7 @@
 {
   "name": "STRATO Helium Testnet",
   "chain": "STRATO",
+  "icon": "strato",
   "rpc": ["https://app.testnet.strato.nexus/rpc"],
   "faucets": [],
   "nativeCurrency": {
@@ -17,6 +18,7 @@
     {
       "name": "stratoscan",
       "url": "https://stratoscan.testnet.strato.nexus",
+      "icon": "strato",
       "standard": "EIP3091"
     }
   ]

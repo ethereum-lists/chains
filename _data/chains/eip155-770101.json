@@ -1,0 +1,26 @@
+{
+  "name": "Ostia DevNet",
+  "chain": "Ostia",
+  "rpc": ["https://ostia.devnet.romeprotocol.xyz/rpc"],
+  "faucets": ["https://ostia.devnet.romeprotocol.xyz/faucet"],
+  "nativeCurrency": {
+    "name": "Test ROME",
+    "symbol": "tROME",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.rome.builders/canton-zk-evm",
+  "shortName": "ostia-devnet",
+  "chainId": 770101,
+  "networkId": 770101,
+  "slip44": 1,
+  "icon": "rome",
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "Ostia DevNet explorer",
+      "url": "https://ostia.devnet.romeprotocol.xyz",
+      "icon": "rome",
+      "standard": "EIP3091"
+    }
+  ]
+}

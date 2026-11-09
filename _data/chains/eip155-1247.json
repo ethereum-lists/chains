@@ -1,0 +1,42 @@
+{
+  "name": "Miracle Chain Mainnet",
+  "chain": "MIRX",
+  "icon": "mirx",
+  "rpc": ["https://rpc.miraclechain.com/http", "wss://rpc.miraclechain.com/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PNIC",
+    "symbol": "PNIC",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://miraclechain.com",
+  "shortName": "MIRX",
+  "chainId": 1247,
+  "networkId": 1247,
+  "status": "active",
+  "explorers": [
+    {
+      "name": "MIRX Scan",
+      "url": "https://mirxscan.com",
+      "icon": "mirx",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161",
+    "bridges": [
+      {
+        "url": "https://hub.miraclechain.com"
+      }
+    ]
+  }
+}
