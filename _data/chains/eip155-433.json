@@ -1,9 +1,7 @@
 {
   "name": "D Mainnet",
   "chain": "Dchain",
-  "rpc": [
-    "https://eth.dfoundation.io"
-  ],
+  "rpc": ["https://eth.platformd.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Dchain",
@@ -11,7 +9,7 @@
     "decimals": 18
   },
   "features": [{ "name": "EIP1559" }],
-  "infoURL": "https://dfoundation.io",
+  "infoURL": "https://platoformd.io",
   "shortName": "d-mainnet",
   "chainId": 433,
   "networkId": 433,

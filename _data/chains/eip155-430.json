@@ -1,9 +1,7 @@
 {
   "name": "D Testnet",
   "chain": "Dchain",
-  "rpc": [
-    "https://eth-testnet.dfoundation.io"
-  ],
+  "rpc": ["https://eth-testnet.platformd.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Dchain",
@@ -11,7 +9,7 @@
     "decimals": 18
   },
   "features": [{ "name": "EIP1559" }],
-  "infoURL": "https://dfoundation.io",
+  "infoURL": "https://platformd.io",
   "shortName": "d-testnet",
   "chainId": 430,
   "networkId": 430,
