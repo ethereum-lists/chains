@@ -1,26 +1,22 @@
 {
-  "name": "PISO Chain Mainnet",
+  "name": "PISO Chain",
   "chain": "PISO",
-  "rpc": [
-    "https://rpc.piso-chain.org"
-  ],
-  "faucets": [
-    "https://faucet.piso-chain.org"
-  ],
+  "rpc": ["https://rpc.pisochain.com"],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "PISO Coin",
+    "name": "PISO",
     "symbol": "PISO",
     "decimals": 18
   },
-  "infoURL": "https://github.com/314-hash/piso-chain",
+  "infoURL": "https://pisochain.com",
   "shortName": "piso",
   "chainId": 2026001,
   "networkId": 2026001,
-  "slip44": 2028,
+  "slip44": 60,
   "explorers": [
     {
-      "name": "PISO Explorer",
-      "url": "https://explorer.piso-chain.org",
+      "name": "PISO Chain Explorer",
+      "url": "https://pisochain.com",
       "standard": "EIP3091"
     }
   ]
