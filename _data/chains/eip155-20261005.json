@@ -1,0 +1,22 @@
+{
+  "name": "FOBIX Network",
+  "chain": "FBX",
+  "rpc": ["https://rpc.fobix.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FOBIX",
+    "symbol": "FBX",
+    "decimals": 18
+  },
+  "infoURL": "https://fobix.network",
+  "shortName": "fbx",
+  "chainId": 20261005,
+  "networkId": 20261005,
+  "explorers": [
+    {
+      "name": "FOBIX Scan",
+      "url": "https://scan.fobix.network",
+      "standard": "EIP3091"
+    }
+  ]
+}
