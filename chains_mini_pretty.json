@@ -1295,7 +1295,7 @@
     "symbol": "XDAI",
     "decimals": 18
   },
-  "rpc": ["https://rpc.gnosischain.com", "https://rpc.gnosis.gateway.fm", "https://rpc.ankr.com/gnosis", "https://gnosis-mainnet.public.blastapi.io", "https://gnosis.api.onfinality.io/public", "https://gnosis.blockpi.network/v1/rpc/public", "https://gnosis.oat.farm", "wss://rpc.gnosischain.com/wss", "https://gnosis-rpc.publicnode.com", "wss://gnosis-rpc.publicnode.com", "https://gnosis-rpc.blockreq.com/v1/rpc/public"],
+  "rpc": ["https://rpc.gnosischain.com", "https://rpc.gnosis.gateway.fm", "https://rpc.ankr.com/gnosis", "https://gnosis-mainnet.public.blastapi.io", "https://gnosis.api.onfinality.io/public", "https://gnosis.blockpi.network/v1/rpc/public", "https://gnosis.oat.farm", "wss://rpc.gnosischain.com/wss", "https://gnosis-rpc.publicnode.com", "wss://gnosis-rpc.publicnode.com", "https://gnosis-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/gnosis?key=${SWIFTNODES_API_KEY}"],
   "faucets": ["https://faucet.gnosischain.com", "https://stakely.io/faucet/gnosis-chain-xdai", "https://faucet.prussia.dev/xdai"],
   "infoURL": "https://docs.gnosischain.com"
 }, {
@@ -7288,7 +7288,7 @@
     "symbol": "METIS",
     "decimals": 18
   },
-  "rpc": ["https://andromeda.metis.io/?owner=1088", "https://metis.drpc.org", "wss://metis.drpc.org", "https://metis-rpc.publicnode.com", "wss://metis-rpc.publicnode.com"],
+  "rpc": ["https://andromeda.metis.io/?owner=1088", "https://metis.drpc.org", "wss://metis.drpc.org", "https://metis-rpc.publicnode.com", "wss://metis-rpc.publicnode.com", "https://rpc.swiftnodes.io/rpc/metis?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://www.metis.io"
 }, {
@@ -27012,6 +27012,19 @@
   "rpc": ["https://rpc.cpchain.com"],
   "faucets": [],
   "infoURL": "https://cpchain.com"
+}, {
+  "name": "PSYROB Testnet",
+  "chainId": 87870,
+  "shortName": "psyrob",
+  "networkId": 87870,
+  "nativeCurrency": {
+    "name": "PSY",
+    "symbol": "PSY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.psyrob.com"],
+  "faucets": [],
+  "infoURL": "https://psyrob.com"
 }, {
   "name": "Nautilus Proteus Testnet",
   "chainId": 88002,
