@@ -27871,6 +27871,19 @@
   "faucets": ["https://faucet.dorsenscan.io"],
   "infoURL": "https://docs.dorsenscan.io"
 }, {
+  "name": "Kinetiq Elysium Testnet",
+  "chainId": 99801,
+  "shortName": "elysium-testnet",
+  "networkId": 99801,
+  "nativeCurrency": {
+    "name": "HYPE",
+    "symbol": "HYPE",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.elysium.kinetiq.xyz"],
+  "faucets": [],
+  "infoURL": "https://elysium.kinetiq.xyz"
+}, {
   "name": "Edge Matrix Chain Testnet",
   "chainId": 99876,
   "shortName": "EMCTestnet",
@@ -27896,6 +27909,19 @@
   "rpc": ["https://rpc1-sepolia.emc.network"],
   "faucets": [],
   "infoURL": ""
+}, {
+  "name": "Elysium",
+  "chainId": 99901,
+  "shortName": "elysium",
+  "networkId": 99901,
+  "nativeCurrency": {
+    "name": "HYPE",
+    "symbol": "HYPE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.elysium.kinetiq.xyz"],
+  "faucets": [],
+  "infoURL": "https://elysium.kinetiq.xyz"
 }, {
   "name": "UB Smart Chain(testnet)",
   "chainId": 99998,
