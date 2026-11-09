@@ -1,0 +1,24 @@
+{
+  "name": "Elysium",
+  "chain": "HYPE",
+  "rpc": [
+    "https://rpc.elyscan.live"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "HYPE",
+    "symbol": "HYPE",
+    "decimals": 18
+  },
+  "infoURL": "https://elyscan.live",
+  "shortName": "elysium",
+  "chainId": 99901,
+  "networkId": 99901,
+  "explorers": [
+    {
+      "name": "Elyscan",
+      "url": "https://elyscan.live",
+      "standard": "none"
+    }
+  ]
+}
