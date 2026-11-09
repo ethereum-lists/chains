@@ -1,0 +1,25 @@
+{
+  "name": "Mirasmanda UAT",
+  "chain": "MIRASMANDA",
+  "rpc": ["https://rpc-uat.evm.mirasmanda.uz"],
+  "faucets": ["https://faucet-uat.evm.mirasmanda.uz"],
+  "nativeCurrency": {
+    "name": "Gas",
+    "symbol": "GAS",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://asterium.uz/",
+  "shortName": "mirasmanda-uat",
+  "chainId": 1215655279,
+  "networkId": 1215655279,
+  "icon": "mirasmanda",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockscout-uat.evm.mirasmanda.uz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
