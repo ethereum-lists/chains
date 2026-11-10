@@ -1,0 +1,14 @@
+{
+  "name": "NEX Chain",
+  "chain": "NEX",
+  "rpc": ["https://rpc.getnexwallet.com"],
+  "faucets": [],
+  "nativeCurrency": { "name": "NEXC", "symbol": "NEXC", "decimals": 18 },
+  "infoURL": "https://getnexwallet.com",
+  "shortName": "nexc",
+  "chainId": 6396,
+  "networkId": 6396,
+  "explorers": [
+    { "name": "NEX Explorer", "url": "https://explorer.getnexwallet.com", "standard": "EIP3091" }
+  ]
+}
