@@ -21,7 +21,9 @@
     "https://eth.drpc.org",
     "wss://eth.drpc.org",
     "https://xrpc.cl/eth",
-    "https://ethereum-rpc.blockreq.com/v1/rpc/public"
+    "https://ethereum-rpc.blockreq.com/v1/rpc/public",
+    "https://rpc.swiftnodes.io/rpc/eth?key=${SWIFTNODES_API_KEY}",
+    "https://api.blockvectra.com/v1/eth_mainnet/public"
   ],
   "features": [
     {
@@ -60,6 +62,11 @@
     {
       "name": "Routescan",
       "url": "https://ethereum.routescan.io",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Codex Scan",
+      "url": "https://scan.codex.io/eth",
       "standard": "EIP3091"
     }
   ]

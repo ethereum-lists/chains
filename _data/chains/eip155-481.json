@@ -1,0 +1,22 @@
+{
+  "name": "SciMatic",
+  "chain": "SCI",
+  "rpc": ["https://rpc.scimatic.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SCI",
+    "symbol": "SCI",
+    "decimals": 18
+  },
+  "infoURL": "https://scimatic.net",
+  "shortName": "sci",
+  "chainId": 481,
+  "networkId": 481,
+  "explorers": [
+    {
+      "name": "SciMatic Explorer",
+      "url": "https://explorer.scimatic.net",
+      "standard": "EIP3091"
+    }
+  ]
+}

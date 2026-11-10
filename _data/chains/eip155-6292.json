@@ -1,0 +1,28 @@
+{
+  "name": "MAYA CHAIN",
+  "chain": "MAYA",
+  "rpc": ["https://rpc.mayachain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Maya 3G",
+    "symbol": "M3G",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://mayachain.io",
+  "shortName": "maya",
+  "chainId": 6292,
+  "networkId": 6292,
+  "explorers": [
+    {
+      "name": "MayaScan",
+      "url": "https://scan.mayachain.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://scan.mayachain.io/bridge" }]
+  }
+}
