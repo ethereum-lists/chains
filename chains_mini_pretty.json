@@ -36096,7 +36096,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.aurora.dev", "https://aurora.drpc.org", "wss://aurora.drpc.org"],
+  "rpc": ["https://mainnet.aurora.dev", "https://aurora.drpc.org", "wss://aurora.drpc.org", "https://rpc.swiftnodes.io/rpc/aurora?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://aurora.dev"
 }, {
