@@ -8,7 +8,8 @@
     "https://scroll-mainnet.chainstacklabs.com",
     "https://scroll-rpc.publicnode.com",
     "wss://scroll-rpc.publicnode.com",
-    "https://scroll-rpc.blockreq.com/v1/rpc/public"
+    "https://scroll-rpc.blockreq.com/v1/rpc/public",
+    "https://rpc.swiftnodes.io/rpc/scroll?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
