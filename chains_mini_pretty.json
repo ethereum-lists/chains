@@ -8458,7 +8458,7 @@
     "symbol": "SEI",
     "decimals": 18
   },
-  "rpc": ["https://evm-rpc.sei-apis.com", "wss://evm-ws.sei-apis.com"],
+  "rpc": ["https://evm-rpc.sei-apis.com", "wss://evm-ws.sei-apis.com", "https://rpc.swiftnodes.io/rpc/sei?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://www.sei.io"
 }, {
