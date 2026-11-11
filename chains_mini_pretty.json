@@ -1581,7 +1581,7 @@
     "symbol": "FUSE",
     "decimals": 18
   },
-  "rpc": ["https://rpc.fuse.io", "https://fuse.drpc.org", "wss://fuse.drpc.org"],
+  "rpc": ["https://rpc.fuse.io", "https://fuse.drpc.org", "wss://fuse.drpc.org", "https://rpc.swiftnodes.io/rpc/fuse?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://fuse.io/"
 }, {
@@ -7470,7 +7470,7 @@
     "symbol": "CORE",
     "decimals": 18
   },
-  "rpc": ["https://rpc.coredao.org/", "https://rpc-core.icecreamswap.com", "https://core.drpc.org", "wss://core.drpc.org"],
+  "rpc": ["https://rpc.coredao.org/", "https://rpc-core.icecreamswap.com", "https://core.drpc.org", "wss://core.drpc.org", "https://rpc.swiftnodes.io/rpc/core?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://www.coredao.org"
 }, {
