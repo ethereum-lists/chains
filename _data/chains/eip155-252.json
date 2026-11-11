@@ -4,7 +4,8 @@
   "rpc": [
     "https://rpc.frax.com",
     "https://fraxtal-rpc.publicnode.com",
-    "wss://fraxtal-rpc.publicnode.com"
+    "wss://fraxtal-rpc.publicnode.com",
+    "https://api.blockvectra.com/v1/fraxtal_mainnet/public"
   ],
   "faucets": [],
   "nativeCurrency": {
