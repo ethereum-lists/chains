@@ -9,7 +9,8 @@
     "wss://linea-mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
     "https://linea-rpc.publicnode.com",
     "wss://linea-rpc.publicnode.com",
-    "https://linea-rpc.blockreq.com/v1/rpc/public"
+    "https://linea-rpc.blockreq.com/v1/rpc/public",
+    "https://rpc.swiftnodes.io/rpc/linea?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -35,12 +36,6 @@
     {
       "name": "Etherscan",
       "url": "https://lineascan.build",
-      "standard": "EIP3091",
-      "icon": "linea"
-    },
-    {
-      "name": "Blockscout",
-      "url": "https://explorer.linea.build",
       "standard": "EIP3091",
       "icon": "linea"
     }
