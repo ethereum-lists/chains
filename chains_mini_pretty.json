@@ -7405,7 +7405,7 @@
     "symbol": "WEMIX",
     "decimals": 18
   },
-  "rpc": ["https://api.wemix.com", "wss://ws.wemix.com"],
+  "rpc": ["https://api.wemix.com", "wss://ws.wemix.com", "https://rpc.swiftnodes.io/rpc/wemix?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://wemix.com"
 }, {
