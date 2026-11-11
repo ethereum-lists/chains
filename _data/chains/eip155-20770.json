@@ -1,0 +1,23 @@
+{
+  "name": "Clutch",
+  "chain": "CLT",
+  "rpc": ["https://api.clutchprotocol.io/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Clutch",
+    "symbol": "CLT",
+    "decimals": 18
+  },
+  "infoURL": "https://clutchprotocol.io",
+  "shortName": "clutch",
+  "chainId": 20770,
+  "networkId": 20770,
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "Clutch Explorer",
+      "url": "https://explorer.clutchprotocol.io",
+      "standard": "none"
+    }
+  ]
+}

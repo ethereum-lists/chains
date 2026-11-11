@@ -1,0 +1,21 @@
+{
+  "name": "MFENX Native 2026",
+  "chain": "MFENX",
+  "rpc": [
+    "https://rpc.mfenx.com/2026/",
+    "https://license.mfenx.com/network/2026/"
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "JULIAN",
+    "symbol": "JULIAN",
+    "decimals": 18
+  },
+  "infoURL": "https://mfenx.com/status.html",
+  "shortName": "mfenx2026",
+  "chainId": 2026092601,
+  "networkId": 2026092601,
+  "icon": "mfenx",
+  "status": "incubating"
+}

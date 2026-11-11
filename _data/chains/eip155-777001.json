@@ -1,0 +1,22 @@
+{
+  "name": "INKG Sovereign EVM",
+  "chain": "INKG",
+  "rpc": ["https://rpc.inkg.org/rpc/777001"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "INKG",
+    "symbol": "INKG",
+    "decimals": 18
+  },
+  "infoURL": "https://inkg.org",
+  "shortName": "inkg",
+  "chainId": 777001,
+  "networkId": 777001,
+  "explorers": [
+    {
+      "name": "INKG Explorer",
+      "url": "https://futurebdetbank.com/explorer.html",
+      "standard": "none"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Miracle Chain Testnet",
+  "chain": "MIRX",
+  "icon": "mirx",
+  "rpc": ["https://rpc.miraclechain.dev/http", "wss://rpc.miraclechain.dev/ws"],
+  "faucets": ["https://hub.miraclechain.dev"],
+  "nativeCurrency": {
+    "name": "PNIC",
+    "symbol": "PNIC",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://miraclechain.com",
+  "shortName": "MIRXTEST",
+  "chainId": 886699,
+  "networkId": 886699,
+  "status": "active",
+  "explorers": [
+    {
+      "name": "MIRX Scan Testnet",
+      "url": "https://dev.mirxscan.com",
+      "icon": "mirx",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-421614",
+    "bridges": [
+      {
+        "url": "https://hub.miraclechain.dev"
+      }
+    ]
+  }
+}

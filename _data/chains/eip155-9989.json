@@ -1,0 +1,17 @@
+{
+  "name": "EGGY Chain Testnet",
+  "chain": "EGGY",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Test EGG",
+    "symbol": "tEGG",
+    "decimals": 18
+  },
+  "infoURL": "https://eggychain.com",
+  "shortName": "eggy-testnet",
+  "chainId": 9989,
+  "networkId": 9989,
+  "slip44": 1,
+  "status": "incubating"
+}

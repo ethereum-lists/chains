@@ -1,0 +1,23 @@
+{
+  "name": "QuantPay Chain",
+  "chain": "QPC",
+  "icon": "quantpay",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QuantPay Chain",
+    "symbol": "QPC",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "infoURL": "https://quantpay.sh",
+  "shortName": "qpc",
+  "chainId": 1716125,
+  "networkId": 1716125,
+  "status": "deprecated",
+  "explorers": []
+}
