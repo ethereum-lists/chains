@@ -39543,6 +39543,10 @@
     "name": "Avascan",
     "url": "https://avascan.info",
     "standard": "EIP3091"
+  }, {
+    "name": "Codex Scan",
+    "url": "https://scan.codex.io/avax",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Boba Avax",
@@ -43769,6 +43773,7 @@
 }, {
   "name": "ZETAPHY Testnet",
   "chain": "ZETAPHY",
+  "icon": "zetaphy",
   "rpc": ["https://rpc.sawasdeecoin.com"],
   "faucets": ["https://app.sawasdeecoin.com/?tab=earn"],
   "nativeCurrency": {
@@ -61954,7 +61959,7 @@
 }, {
   "name": "Haradev Testnet",
   "chain": "Ntity",
-  "rpc": ["https://blockchain.haradev.com"],
+  "rpc": ["https://rpc.haradev.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ntity Haradev",
