@@ -1,0 +1,30 @@
+{
+  "name": "Stapleport Testnet",
+  "chain": "SP",
+  "rpc": ["https://rpc-test.stapleport.com"],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": ["https://faucet.stapleport.com"],
+  "nativeCurrency": {
+    "name": "Stapleport USD",
+    "symbol": "USDSP",
+    "decimals": 18
+  },
+  "infoURL": "https://stapleport.com",
+  "shortName": "spt",
+  "chainId": 78756,
+  "networkId": 78756,
+  "explorers": [
+    {
+      "name": "blockscan-test",
+      "url": "https://blockscan-test.stapleport.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
