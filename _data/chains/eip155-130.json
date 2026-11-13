@@ -6,7 +6,9 @@
     "https://unichain-rpc.publicnode.com",
     "wss://unichain-rpc.publicnode.com",
     "https://unichain-rpc.blockreq.com/v1/rpc/public",
-    "https://rpc.swiftnodes.io/rpc/unichain?key=${SWIFTNODES_API_KEY}"
+    "https://rpc.swiftnodes.io/rpc/unichain?key=${SWIFTNODES_API_KEY}",
+    "https://rpc.nodeflare.app/unichain/public",
+    "wss://rpc.nodeflare.app/unichain/ws/public"
   ],
   "faucets": [],
   "nativeCurrency": {
