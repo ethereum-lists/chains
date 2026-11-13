@@ -21579,6 +21579,19 @@
   "faucets": [],
   "infoURL": "https://molibra.org"
 }, {
+  "name": "QVTX Aeon",
+  "chainId": 20232,
+  "shortName": "qvtx2",
+  "networkId": 20232,
+  "nativeCurrency": {
+    "name": "QVTX",
+    "symbol": "QVTX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.qvtxaeon.io/_rpc/20232", "https://rpc.quantvestrix.io/_rpc/20232"],
+  "faucets": [],
+  "infoURL": "https://quantvestrix.io"
+}, {
   "name": "CHEESE Blockchain Mainnet",
   "chainId": 20250,
   "shortName": "nch",

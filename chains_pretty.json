@@ -35714,6 +35714,20 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "QVTX Aeon",
+  "chain": "QVTX",
+  "rpc": ["https://rpc.qvtxaeon.io/_rpc/20232", "https://rpc.quantvestrix.io/_rpc/20232"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QVTX",
+    "symbol": "QVTX",
+    "decimals": 18
+  },
+  "infoURL": "https://quantvestrix.io",
+  "shortName": "qvtx2",
+  "chainId": 20232,
+  "networkId": 20232
+}, {
   "name": "CHEESE Blockchain Mainnet",
   "chain": "CHEESE",
   "icon": "cheese",
