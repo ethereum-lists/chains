@@ -1,0 +1,18 @@
+{
+  "name": "Zero (ATLAS Zone) Testnet",
+  "title": "Zero [ATLAS Zone] Testnet",
+  "chain": "ZERO",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ZRO",
+    "symbol": "ZRO",
+    "decimals": 18
+  },
+  "infoURL": "https://layerzero.network/zero",
+  "shortName": "zero-atlas-testnet",
+  "chainId": 43003,
+  "networkId": 43003,
+  "slip44": 1,
+  "status": "incubating"
+}
