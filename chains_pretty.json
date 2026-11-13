@@ -11617,7 +11617,7 @@
 }, {
   "name": "Phase Mainnet",
   "chain": "PHASE",
-  "rpc": [],
+  "rpc": ["https://rpc-main.phase.xyz", "wss://rpc-main.phase.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "PHASE",
@@ -11633,7 +11633,11 @@
   "shortName": "phase",
   "chainId": 1015,
   "networkId": 1015,
-  "status": "incubating"
+  "explorers": [{
+    "name": "Phase Explorer",
+    "url": "https://explorer.phase.xyz",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "MAI Chain Mainnet",
   "chain": "MAI",
