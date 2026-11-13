@@ -5,8 +5,6 @@
     "https://rpc.mainnet.chain.robinhood.com",
     "https://robinhood-rpc.publicnode.com",
     "wss://robinhood-rpc.publicnode.com",
-    "https://rpc.ordofi.network",
-    "wss://rpc.ordofi.network",
     "https://robinhood.drpc.org",
     "wss://robinhood.drpc.org",
     "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public",
@@ -39,6 +37,11 @@
     {
       "name": "stonkscan",
       "url": "https://stonkscan.io",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Codex Scan",
+      "url": "https://scan.codex.io/robinhood",
       "standard": "EIP3091"
     }
   ],
