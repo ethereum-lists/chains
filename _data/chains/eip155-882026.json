@@ -1,0 +1,34 @@
+{
+  "name": "Warga Network Mainnet",
+  "chain": "WRG",
+  "icon": "warga",
+  "rpc": [
+    "https://umkmrumahan.com/rpc"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WargaCoin",
+    "symbol": "WRG",
+    "decimals": 18
+  },
+  "infoURL": "https://umkmrumahan.com/home",
+  "shortName": "wrg",
+  "chainId": 882026,
+  "networkId": 882026,
+  "explorers": [
+    {
+      "name": "Warga Network Explorer",
+      "url": "https://umkmrumahan.com/explorer",
+      "icon": "warga",
+      "standard": "EIP3091"
+    }
+  ]
+}
