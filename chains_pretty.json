@@ -51524,6 +51524,20 @@
     "standard": "none"
   }]
 }, {
+  "name": "QVTX ByteID Anchor",
+  "chain": "QVTX",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QVTX",
+    "symbol": "QVTX",
+    "decimals": 18
+  },
+  "infoURL": "https://quantvestrix.com",
+  "shortName": "qvtxa",
+  "chainId": 420018,
+  "networkId": 420018
+}, {
   "name": "Vector Smart Chain",
   "chain": "VSC",
   "icon": "vectorsmartgas",

@@ -30913,6 +30913,19 @@
   "faucets": [],
   "infoURL": "hhttps://rpc.infinaeon.com"
 }, {
+  "name": "QVTX ByteID Anchor",
+  "chainId": 420018,
+  "shortName": "qvtxa",
+  "networkId": 420018,
+  "nativeCurrency": {
+    "name": "QVTX",
+    "symbol": "QVTX",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://quantvestrix.com"
+}, {
   "name": "Vector Smart Chain",
   "chainId": 420042,
   "shortName": "vsg",
