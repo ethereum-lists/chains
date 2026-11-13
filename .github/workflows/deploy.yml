@@ -31,7 +31,7 @@ jobs:
         run: |
           cp -a output/. website/public/
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+        uses: JamesIves/github-pages-deploy-action@v4.9.0
         with:
           branch: gh-pages
           folder: website/public
