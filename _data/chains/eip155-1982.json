@@ -1,17 +1,25 @@
 {
-  "name": "INNBC Chain Mainnet",
+  "name": "INNBC Chain",
   "chain": "INNBC",
+  "icon": "innbc",
   "rpc": ["https://innbcchain.io/rpc"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "InnovativeBioresearchCoin",
+    "name": "INNBC Chain",
     "symbol": "INNBC",
     "decimals": 18
   },
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "infoURL": "https://innbcchain.io",
+  "infoURL": "https://www.innbcchain.io",
   "shortName": "innbc",
   "chainId": 1982,
   "networkId": 1982,
-  "status": "active"
+  "status": "active",
+  "explorers": [
+    {
+      "name": "INNBCScan",
+      "url": "https://www.innbcscan.io",
+      "standard": "EIP3091"
+    }
+  ]
 }
