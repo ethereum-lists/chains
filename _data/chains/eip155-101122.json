@@ -1,0 +1,18 @@
+{
+  "name": "Intain Markets Testnet",
+  "chain": "IMA",
+  "rpc": [
+    "http://20.253.174.32:80/ext/bc/2ALtzRYgRpRWnTgjdrMArkMvU6RTpcjs7VWmupqYaPrHDrHLSd/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Intain Markets",
+    "symbol": "IMA",
+    "decimals": 18
+  },
+  "infoURL": "https://imuat.intainmarkets.us",
+  "shortName": "ima-test",
+  "chainId": 101122,
+  "networkId": 101122,
+  "explorers": []
+}
