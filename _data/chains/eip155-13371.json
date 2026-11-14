@@ -4,7 +4,8 @@
   "rpc": [
     "https://rpc.immutable.com",
     "https://immutable-zkevm.drpc.org",
-    "wss://immutable-zkevm.drpc.org"
+    "wss://immutable-zkevm.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/immutable-zkevm?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": ["https://docs.immutable.com/docs/zkEVM/guides/faucet"],
   "nativeCurrency": {
