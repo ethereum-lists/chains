@@ -7,23 +7,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout	
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v7.0.1
         with:
           submodules: recursive
       - name: Build
         run: |
           ./gradlew run
       - name: Set Node.js 18.x
-        uses: actions/setup-node@v4.2.0
+        uses: actions/setup-node@v7.1.0
         with:
           node-version: 18.x
       - name: Run yarn install
-        uses: borales/actions-yarn@v4
+        uses: borales/actions-yarn@v5
         with:
          dir: 'website'
          cmd: install # will run `yarn install` command
       - name: Run yarn build
-        uses: borales/actions-yarn@v4
+        uses: borales/actions-yarn@v5
         with:
           dir: 'website'
           cmd: run build # will run `yarn test` command     
@@ -31,7 +31,7 @@ jobs:
         run: |
           cp -a output/. website/public/
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+        uses: JamesIves/github-pages-deploy-action@v4.9.0
         with:
           branch: gh-pages
           folder: website/public
