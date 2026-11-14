@@ -1,0 +1,23 @@
+{
+  "name": "zkSYS Mainnet",
+  "chain": "ZKSYS",
+  "rpc": ["https://rpc-zk.syscoin.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Syscoin",
+    "symbol": "SYS",
+    "decimals": 18
+  },
+  "infoURL": "https://syscoin.org",
+  "shortName": "zksys",
+  "chainId": 5757,
+  "networkId": 5757,
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "zkSYS Block Explorer",
+      "url": "https://explorer-zk.syscoin.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
