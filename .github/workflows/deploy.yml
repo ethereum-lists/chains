@@ -18,12 +18,12 @@ jobs:
         with:
           node-version: 18.x
       - name: Run yarn install
-        uses: borales/actions-yarn@v4
+        uses: borales/actions-yarn@v5
         with:
          dir: 'website'
          cmd: install # will run `yarn install` command
       - name: Run yarn build
-        uses: borales/actions-yarn@v4
+        uses: borales/actions-yarn@v5
         with:
           dir: 'website'
           cmd: run build # will run `yarn test` command     
