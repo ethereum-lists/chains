@@ -1,15 +1,17 @@
 {
-  "name": "pegglecoin",
-  "chain": "42069",
-  "rpc": [],
+  "name": "ATOM Protocol Mainnet",
+  "chain": "ATOM",
+  "rpc": [
+    "https://coated-judge-automobiles-flu.trycloudflare.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "pegglecoin",
-    "symbol": "peggle",
+    "name": "ATOM",
+    "symbol": "ATOM",
     "decimals": 18
   },
-  "infoURL": "https://teampeggle.com",
-  "shortName": "PC",
+  "infoURL": "https://github.com/kalimurk/Atom-",
+  "shortName": "atom-42069",
   "chainId": 42069,
   "networkId": 42069
 }
