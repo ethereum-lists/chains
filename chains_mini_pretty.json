@@ -17926,6 +17926,19 @@
   "faucets": [],
   "infoURL": "https://www.iota.org"
 }, {
+  "name": "QVTX",
+  "chainId": 8825,
+  "shortName": "qvtx",
+  "networkId": 8825,
+  "nativeCurrency": {
+    "name": "QVTX",
+    "symbol": "QVTX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.qvtxaeon.io/_rpc/8825", "https://rpc.quantvestrix.io/_rpc/8825"],
+  "faucets": [],
+  "infoURL": "https://quantvestrix.io"
+}, {
   "name": "Hydra Chain Testnet",
   "chainId": 8844,
   "shortName": "THYDRA",
@@ -27595,7 +27608,7 @@
     "decimals": 18
   },
   "rpc": ["https://mantis-rpc.switch.ch", "https://mantis-rpc.phoenix-systems.io"],
-  "faucets": ["https://mantis.switch.ch/faucet", "https://mantis.kore-technologies.ch/faucet", "https://mantis.phoenix-systems.io/faucet", "https://mantis.block-spirit.ch/faucet"],
+  "faucets": ["https://mantis.switch.ch/faucet", "https://mantis.phoenix-systems.io/faucet", "https://mantis.block-spirit.ch/faucet"],
   "infoURL": "https://hexapod.network"
 }, {
   "name": "Tetron Testnet Smart Chain",
