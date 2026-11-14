@@ -3,7 +3,10 @@
   "shortName": "soneium",
   "title": "Soneium mainnet",
   "chain": "ETH",
-  "rpc": ["https://rpc.soneium.org"],
+  "rpc": [
+    "https://rpc.soneium.org",
+    "https://api.blockvectra.com/v1/soneium_mainnet/public"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
