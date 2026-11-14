@@ -4,7 +4,8 @@
   "rpc": [
     "https://mainnet.mode.network",
     "https://mode.drpc.org",
-    "wss://mode.drpc.org"
+    "wss://mode.drpc.org",
+    "https://api.blockvectra.com/v1/mode_mainnet/public"
   ],
   "faucets": [],
   "nativeCurrency": {
