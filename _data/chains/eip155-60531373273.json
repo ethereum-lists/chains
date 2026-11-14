@@ -1,0 +1,31 @@
+{
+  "name": "Latheon Testnet",
+  "title": "Latheon Test Chain (Arbitrum Orbit on Arbitrum Sepolia)",
+  "chain": "LTH",
+  "rpc": ["https://rpc.testnet.latheon.xyz"],
+  "faucets": ["https://explorer.testnet.latheon.xyz/faucet"],
+  "nativeCurrency": {
+    "name": "Latheon Test Token",
+    "symbol": "LTH",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://latheon.xyz",
+  "shortName": "lth-test",
+  "chainId": 60531373273,
+  "networkId": 60531373273,
+  "slip44": 1,
+  "status": "active",
+  "explorers": [
+    {
+      "name": "Latheon Testnet Explorer",
+      "url": "https://explorer.testnet.latheon.xyz",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-421614",
+    "bridges": [{ "url": "https://latheon.xyz/bridge" }]
+  }
+}
