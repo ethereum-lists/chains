@@ -33734,19 +33734,6 @@
   "faucets": ["https://faucet.testnet.dogeos.com", "https://faucets.chain.link/dogeos-testnet-chikyu"],
   "infoURL": "https://www.dogeos.com"
 }, {
-  "name": "ACI Network Testnet",
-  "chainId": 6567731,
-  "shortName": "aci-testnet",
-  "networkId": 6567731,
-  "nativeCurrency": {
-    "name": "Sepolia Ether",
-    "symbol": "ETH",
-    "decimals": 18
-  },
-  "rpc": [],
-  "faucets": [],
-  "infoURL": "https://aci-token.net"
-}, {
   "name": "Safe(AnWang) Mainnet",
   "chainId": 6666665,
   "shortName": "SafeMainnet",
