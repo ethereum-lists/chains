@@ -48190,6 +48190,23 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Lattice Testnet",
+  "chain": "Lattice",
+  "status": "incubating",
+  "rpc": ["https://api.zan.top/node/v1/lattice/testnet/${ZAN_API_KEY}"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USDC Mock",
+    "symbol": "USDC.m",
+    "decimals": 6
+  },
+  "infoURL": "",
+  "shortName": "lattice-testnet",
+  "chainId": 141421,
+  "networkId": 141421,
+  "slip44": 1,
+  "explorers": []
+}, {
   "name": "Bitharvest Chain Testnet",
   "chain": "Bitharvest Chain Testnet",
   "rpc": ["https://rpc-testnet.bthscan.io/"],

@@ -28924,6 +28924,19 @@
   "faucets": [],
   "infoURL": "https://magape.io"
 }, {
+  "name": "Lattice Testnet",
+  "chainId": 141421,
+  "shortName": "lattice-testnet",
+  "networkId": 141421,
+  "nativeCurrency": {
+    "name": "USDC Mock",
+    "symbol": "USDC.m",
+    "decimals": 6
+  },
+  "rpc": ["https://api.zan.top/node/v1/lattice/testnet/${ZAN_API_KEY}"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Bitharvest Chain Testnet",
   "chainId": 141491,
   "shortName": "BitharvestTestnet",
