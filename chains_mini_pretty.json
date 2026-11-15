@@ -33604,6 +33604,19 @@
   "faucets": ["https://faucet.electroneum.com"],
   "infoURL": "https://electroneum.com"
 }, {
+  "name": "Pinch",
+  "chainId": 5261646,
+  "shortName": "pinch",
+  "networkId": 5261646,
+  "nativeCurrency": {
+    "name": "Pinch",
+    "symbol": "PINCH",
+    "decimals": 18
+  },
+  "rpc": ["https://pinch.network/rpc"],
+  "faucets": [],
+  "infoURL": "https://pinch.network"
+}, {
   "name": "Reactive Lasna",
   "chainId": 5318007,
   "shortName": "lreact",
@@ -33720,6 +33733,19 @@
   "rpc": ["https://rpc.testnet.dogeos.com"],
   "faucets": ["https://faucet.testnet.dogeos.com", "https://faucets.chain.link/dogeos-testnet-chikyu"],
   "infoURL": "https://www.dogeos.com"
+}, {
+  "name": "ACI Network Testnet",
+  "chainId": 6567731,
+  "shortName": "aci-testnet",
+  "networkId": 6567731,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://aci-token.net"
 }, {
   "name": "Safe(AnWang) Mainnet",
   "chainId": 6666665,
