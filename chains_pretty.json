@@ -10823,7 +10823,12 @@
 }, {
   "name": "ZIGChain",
   "chain": "ZIG",
-  "rpc": [],
+  "rpc": ["https://public-zigchain-evm-rpc.numia.xyz"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
   "faucets": [],
   "nativeCurrency": {
     "name": "ZIG",
@@ -10834,7 +10839,11 @@
   "shortName": "zigchain",
   "chainId": 944,
   "networkId": 944,
-  "status": "incubating"
+  "explorers": [{
+    "name": "ZIGScan",
+    "url": "https://zigscan.org",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Subtensor EVM Testnet",
   "chain": "Bittensor",
