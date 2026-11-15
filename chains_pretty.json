@@ -53303,7 +53303,7 @@
 }, {
   "name": "katana",
   "chain": "katana",
-  "rpc": ["https://rpc.katana.network", "https://katana.gateway.tenderly.co/", "https://rpc.katanarpc.com/"],
+  "rpc": ["https://rpc.katana.network", "https://katana.gateway.tenderly.co/", "https://rpc.katanarpc.com/", "https://rpc.swiftnodes.io/rpc/katana?key=${SWIFTNODES_API_KEY}"],
   "features": [{
     "name": "EIP155"
   }, {
@@ -56700,7 +56700,7 @@
 }, {
   "name": "Zora",
   "chain": "ETH",
-  "rpc": ["https://rpc.zora.energy/"],
+  "rpc": ["https://rpc.zora.energy/", "https://rpc.swiftnodes.io/rpc/zora?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
