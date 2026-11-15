@@ -2,20 +2,23 @@
   "name": "DuckFourFourChain",
   "chain": "DFFC",
   "icon": "dffc",
-  "rpc": [
-    "https://main-duckchain.zeninhost.xyz",
-    "wss://duckfourfourchain-ws.zeninhost.xyz"
-  ],
+  "rpc": ["https://main-duckchain.zeninhost.xyz"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "DuckFourFourCoin",
+    "name": "DuckFourFourChain",
     "symbol": "DFFC",
     "decimals": 18
   },
-  "infoURL": "https://duckfourfourchain.zeninhost.xyz",
+  "infoURL": "https://explorer-duckfourfourchain.zeninhost.xyz",
   "shortName": "dffc",
   "chainId": 2716446429837001,
   "networkId": 2716446429837001,
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "explorers": []
+  "explorers": [
+    {
+      "name": "DuckFourFourChain Explorer",
+      "url": "https://explorer-duckfourfourchain.zeninhost.xyz",
+      "standard": "EIP3091"
+    }
+  ]
 }
