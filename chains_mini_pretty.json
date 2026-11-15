@@ -23048,6 +23048,71 @@
   "faucets": ["https://dev-wallet.zilliqa.com/faucet?network=isolated_server"],
   "infoURL": "https://www.zilliqa.com/"
 }, {
+  "name": "Zero (Beacon Chain)",
+  "chainId": 33000,
+  "shortName": "zero-beacon",
+  "networkId": 33000,
+  "nativeCurrency": {
+    "name": "ZRO",
+    "symbol": "ZRO",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://layerzero.network/zero"
+}, {
+  "name": "Zero (System Zone)",
+  "chainId": 33001,
+  "shortName": "zero-system",
+  "networkId": 33001,
+  "nativeCurrency": {
+    "name": "ZRO",
+    "symbol": "ZRO",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://layerzero.network/zero"
+}, {
+  "name": "Zero (EVM Zone)",
+  "chainId": 33002,
+  "shortName": "zero-evm",
+  "networkId": 33002,
+  "nativeCurrency": {
+    "name": "ZRO",
+    "symbol": "ZRO",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://layerzero.network/zero"
+}, {
+  "name": "Zero (ATLAS Zone)",
+  "chainId": 33003,
+  "shortName": "zero-atlas",
+  "networkId": 33003,
+  "nativeCurrency": {
+    "name": "ZRO",
+    "symbol": "ZRO",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://layerzero.network/zero"
+}, {
+  "name": "Zero (Payments Zone)",
+  "chainId": 33004,
+  "shortName": "zero-payments",
+  "networkId": 33004,
+  "nativeCurrency": {
+    "name": "ZRO",
+    "symbol": "ZRO",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://layerzero.network/zero"
+}, {
   "name": "Entangle Mainnet",
   "chainId": 33033,
   "shortName": "ngl",
@@ -23827,6 +23892,71 @@
   "rpc": ["http://35.215.120.180:8545"],
   "faucets": [],
   "infoURL": "https://ethereum.org"
+}, {
+  "name": "Zero (Beacon Chain) Testnet",
+  "chainId": 43000,
+  "shortName": "zero-beacon-testnet",
+  "networkId": 43000,
+  "nativeCurrency": {
+    "name": "ZRO",
+    "symbol": "ZRO",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://layerzero.network/zero"
+}, {
+  "name": "Zero (System Zone) Testnet",
+  "chainId": 43001,
+  "shortName": "zero-system-testnet",
+  "networkId": 43001,
+  "nativeCurrency": {
+    "name": "ZRO",
+    "symbol": "ZRO",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://layerzero.network/zero"
+}, {
+  "name": "Zero (EVM Zone) Testnet",
+  "chainId": 43002,
+  "shortName": "zero-evm-testnet",
+  "networkId": 43002,
+  "nativeCurrency": {
+    "name": "ZRO",
+    "symbol": "ZRO",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://layerzero.network/zero"
+}, {
+  "name": "Zero (ATLAS Zone) Testnet",
+  "chainId": 43003,
+  "shortName": "zero-atlas-testnet",
+  "networkId": 43003,
+  "nativeCurrency": {
+    "name": "ZRO",
+    "symbol": "ZRO",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://layerzero.network/zero"
+}, {
+  "name": "Zero (Payments Zone) Testnet",
+  "chainId": 43004,
+  "shortName": "zero-payments-testnet",
+  "networkId": 43004,
+  "nativeCurrency": {
+    "name": "ZRO",
+    "symbol": "ZRO",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://layerzero.network/zero"
 }, {
   "name": "Athereum",
   "chainId": 43110,
@@ -27493,6 +27623,71 @@
   "rpc": [],
   "faucets": [],
   "infoURL": "https://wirefluid.com"
+}, {
+  "name": "Zero (Beacon Chain) Devnet",
+  "chainId": 93000,
+  "shortName": "zero-beacon-devnet",
+  "networkId": 93000,
+  "nativeCurrency": {
+    "name": "ZRO",
+    "symbol": "ZRO",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://layerzero.network/zero"
+}, {
+  "name": "Zero (System Zone) Devnet",
+  "chainId": 93001,
+  "shortName": "zero-system-devnet",
+  "networkId": 93001,
+  "nativeCurrency": {
+    "name": "ZRO",
+    "symbol": "ZRO",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://layerzero.network/zero"
+}, {
+  "name": "Zero (EVM Zone) Devnet",
+  "chainId": 93002,
+  "shortName": "zero-evm-devnet",
+  "networkId": 93002,
+  "nativeCurrency": {
+    "name": "ZRO",
+    "symbol": "ZRO",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://layerzero.network/zero"
+}, {
+  "name": "Zero (ATLAS Zone) Devnet",
+  "chainId": 93003,
+  "shortName": "zero-atlas-devnet",
+  "networkId": 93003,
+  "nativeCurrency": {
+    "name": "ZRO",
+    "symbol": "ZRO",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://layerzero.network/zero"
+}, {
+  "name": "Zero (Payments Zone) Devnet",
+  "chainId": 93004,
+  "shortName": "zero-payments-devnet",
+  "networkId": 93004,
+  "nativeCurrency": {
+    "name": "ZRO",
+    "symbol": "ZRO",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://layerzero.network/zero"
 }, {
   "name": "LiquidLayer Testnet",
   "chainId": 93572,
@@ -33733,6 +33928,19 @@
   "rpc": ["https://rpc.testnet.dogeos.com"],
   "faucets": ["https://faucet.testnet.dogeos.com", "https://faucets.chain.link/dogeos-testnet-chikyu"],
   "infoURL": "https://www.dogeos.com"
+}, {
+  "name": "ACI Network Testnet",
+  "chainId": 6567731,
+  "shortName": "aci-testnet",
+  "networkId": 6567731,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://aci-token.net"
 }, {
   "name": "Safe(AnWang) Mainnet",
   "chainId": 6666665,
