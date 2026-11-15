@@ -1,10 +1,7 @@
 {
   "name": "Edge",
   "chain": "ETH",
-  "rpc": [
-    "https://edge-mainnet.g.alchemy.com/public",
-    "https://moltnode.ag/edge"
-  ],
+  "rpc": ["https://edge-mainnet.g.alchemy.com/public"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
