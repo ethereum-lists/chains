@@ -17519,7 +17519,7 @@
     "symbol": "KAIA",
     "decimals": 18
   },
-  "rpc": ["https://public-en.node.kaia.io"],
+  "rpc": ["https://public-en.node.kaia.io", "https://rpc.swiftnodes.io/rpc/kaia?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://kaia.io"
 }, {
@@ -28494,6 +28494,19 @@
   "rpc": ["https://rpc-testnet.vordium.com"],
   "faucets": [],
   "infoURL": "https://vordium.com"
+}, {
+  "name": "Intain Markets Testnet",
+  "chainId": 101122,
+  "shortName": "ima-test",
+  "networkId": 101122,
+  "nativeCurrency": {
+    "name": "Intain Markets",
+    "symbol": "IMA",
+    "decimals": 18
+  },
+  "rpc": ["http://20.253.174.32:80/ext/bc/2ALtzRYgRpRWnTgjdrMArkMvU6RTpcjs7VWmupqYaPrHDrHLSd/rpc"],
+  "faucets": [],
+  "infoURL": "https://imuat.intainmarkets.us"
 }, {
   "name": "Creditcoin",
   "chainId": 102030,
