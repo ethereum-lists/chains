@@ -12,7 +12,8 @@
   "rpc": [
     "https://forno.celo.org",
     "wss://forno.celo.org/ws",
-    "https://celo-rpc.blockreq.com/v1/rpc/public"
+    "https://celo-rpc.blockreq.com/v1/rpc/public",
+    "https://api.blockvectra.com/v1/celo_mainnet/public"
   ],
   "faucets": [],
   "infoURL": "https://docs.celo.org/",
