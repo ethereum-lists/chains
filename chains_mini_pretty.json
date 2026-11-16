@@ -31654,6 +31654,45 @@
   "faucets": [],
   "infoURL": "besceco.finance"
 }, {
+  "name": "Supra Testnet",
+  "chainId": 535556,
+  "shortName": "supra-testnet",
+  "networkId": 535556,
+  "nativeCurrency": {
+    "name": "Supra",
+    "symbol": "SUPRA",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://supra.com"
+}, {
+  "name": "Supra Mainnet",
+  "chainId": 535558,
+  "shortName": "supra",
+  "networkId": 535558,
+  "nativeCurrency": {
+    "name": "Supra",
+    "symbol": "SUPRA",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://supra.com"
+}, {
+  "name": "Supra Devnet",
+  "chainId": 535600,
+  "shortName": "supra-devnet",
+  "networkId": 535600,
+  "nativeCurrency": {
+    "name": "Supra",
+    "symbol": "SUPRA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-devnet.supra.com/rpc/v1/eth", "wss://rpc-devnet.supra.com/rpc/v1/eth"],
+  "faucets": [],
+  "infoURL": "https://supra.com"
+}, {
   "name": "OverProtocol Testnet",
   "chainId": 541764,
   "shortName": "overprotocol-testnet",
