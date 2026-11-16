@@ -1,1 +1,26 @@
-
+{
+  "name": "CITIDAN",
+  "chain": "CITIDAN",
+  "rpc": [
+    "https://ethereum-rpc.publicnode.com",
+    "https://node.citidan.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CITIDAN",
+    "symbol": "CITIDAN",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://node.citidan.com",
+  "shortName": "citidan",
+  "chainId": 18,
+  "networkId": 18,
+  "icon": "citidan",
+  "explorers": [{
+    "name": "etherscan",
+    "url": "https://etherscan.io",
+    "icon": "etherscan",
+    "standard": "EIP3091"
+  }]
+}
