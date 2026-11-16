@@ -24075,6 +24075,19 @@
   "faucets": [],
   "infoURL": "https://zkfair.io"
 }, {
+  "name": "QDay Mainnet",
+  "chainId": 44001,
+  "shortName": "qday",
+  "networkId": 44001,
+  "nativeCurrency": {
+    "name": "QDay Token",
+    "symbol": "QDAY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.qday.io"],
+  "faucets": [],
+  "infoURL": "https://qday.io"
+}, {
   "name": "QDAY Aevum Testnet",
   "chainId": 44005,
   "shortName": "tqday",
