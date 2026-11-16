@@ -10,7 +10,8 @@
     "https://blast.blockpi.network/v1/rpc/public",
     "https://blast-rpc.publicnode.com",
     "wss://blast-rpc.publicnode.com",
-    "https://rpc.swiftnodes.io/rpc/blast?key=${SWIFTNODES_API_KEY}"
+    "https://rpc.swiftnodes.io/rpc/blast?key=${SWIFTNODES_API_KEY}",
+    "https://rpc.driftguard.live/blast"
   ],
   "faucets": [],
   "nativeCurrency": {

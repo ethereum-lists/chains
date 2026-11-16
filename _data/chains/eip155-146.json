@@ -7,7 +7,8 @@
     "wss://sonic-rpc.publicnode.com",
     "https://sonic.drpc.org",
     "wss://sonic.drpc.org",
-    "https://sonic-rpc.blockreq.com/v1/rpc/public"
+    "https://sonic-rpc.blockreq.com/v1/rpc/public",
+    "https://rpc.driftguard.live/sonic"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -15,7 +16,11 @@
     "symbol": "S",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://soniclabs.com",
   "shortName": "sonic",
   "chainId": 146,
