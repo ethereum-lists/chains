@@ -1,18 +1,14 @@
 {
   "name": "SVPChain Testnet",
   "chain": "SVP",
-  "rpc": [
-    "https://svp-dataseed1-testnet.svpchain.org",
-    "https://svp-dataseed2-testnet.svpchain.org",
-    "https://svp-dataseed3-testnet.svpchain.org"
-  ],
+  "rpc": ["https://dataseeds.svpchain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "SVP Token",
     "symbol": "SVP",
     "decimals": 18
   },
-  "infoURL": "https://svpchain.org",
+  "infoURL": "https://svpchain.com",
   "shortName": "svptest",
   "chainId": 2517,
   "networkId": 2517,
