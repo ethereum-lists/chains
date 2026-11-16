@@ -22983,6 +22983,19 @@
   "faucets": [],
   "infoURL": "https://sanr.app"
 }, {
+  "name": "DAGCore Mainnet",
+  "chainId": 32427,
+  "shortName": "dgcr",
+  "networkId": 32427,
+  "nativeCurrency": {
+    "name": "DAGCore",
+    "symbol": "DGCR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.dgcr.dagcore.net"],
+  "faucets": [],
+  "infoURL": "https://dagcore.net"
+}, {
   "name": "Bitgert Mainnet",
   "chainId": 32520,
   "shortName": "Brise",
