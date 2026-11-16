@@ -24075,6 +24075,19 @@
   "faucets": [],
   "infoURL": "https://zkfair.io"
 }, {
+  "name": "QDAY Aevum Testnet",
+  "chainId": 44005,
+  "shortName": "tqday",
+  "networkId": 44005,
+  "nativeCurrency": {
+    "name": "QDAY Testnet Token",
+    "symbol": "tQDAY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-test.qday.info"],
+  "faucets": ["https://faucet.qday.info"],
+  "infoURL": "https://qday.io"
+}, {
   "name": "Frenchain",
   "chainId": 44444,
   "shortName": "FREN",
