@@ -8,7 +8,8 @@
     "https://scroll-mainnet.chainstacklabs.com",
     "https://scroll-rpc.publicnode.com",
     "wss://scroll-rpc.publicnode.com",
-    "https://scroll-rpc.blockreq.com/v1/rpc/public"
+    "https://scroll-rpc.blockreq.com/v1/rpc/public",
+    "https://rpc.driftguard.live/scroll"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,6 +31,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://scroll.io/bridge" }]
+    "bridges": [
+      {
+        "url": "https://scroll.io/bridge"
+      }
+    ]
   }
 }
