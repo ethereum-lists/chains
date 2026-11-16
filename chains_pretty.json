@@ -45498,7 +45498,7 @@
   "name": "Chiliz Chain Mainnet",
   "chain": "CHZ",
   "icon": "chilizchain",
-  "rpc": ["https://rpc.chiliz.com", "https://rpc.ankr.com/chiliz", "https://chiliz.publicnode.com"],
+  "rpc": ["https://rpc.chiliz.com", "https://rpc.ankr.com/chiliz", "https://chiliz.publicnode.com", "https://rpc.swiftnodes.io/rpc/chiliz?key=${SWIFTNODES_API_KEY}"],
   "faucets": ["https://spicy-faucet.chiliz.com", "https://tatum.io/faucets/chiliz"],
   "nativeCurrency": {
     "name": "Chiliz",
