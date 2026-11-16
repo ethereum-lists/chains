@@ -1,11 +1,7 @@
 {
   "name": "SVPChain Testnet",
   "chain": "SVP",
-  "rpc": [
-    "https://svp-dataseed1-testnet.svpchain.org",
-    "https://svp-dataseed2-testnet.svpchain.org",
-    "https://svp-dataseed3-testnet.svpchain.org"
-  ],
+  "rpc": ["https://svp-dataseeds-testnet.svpchain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "SVP Token",
