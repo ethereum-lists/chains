@@ -26610,6 +26610,32 @@
   "faucets": ["https://faucet.testnet.nillion.network"],
   "infoURL": "https://nillion.com/"
 }, {
+  "name": "Stapleport",
+  "chainId": 78753,
+  "shortName": "sp",
+  "networkId": 78753,
+  "nativeCurrency": {
+    "name": "Stapleport USD",
+    "symbol": "USDSP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.stapleport.com"],
+  "faucets": [],
+  "infoURL": "https://stapleport.com"
+}, {
+  "name": "Stapleport Testnet",
+  "chainId": 78756,
+  "shortName": "spt",
+  "networkId": 78756,
+  "nativeCurrency": {
+    "name": "Stapleport USD",
+    "symbol": "USDSP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-test.stapleport.com"],
+  "faucets": ["https://faucet.stapleport.com"],
+  "infoURL": "https://stapleport.com"
+}, {
   "name": "Gold Smart Chain Testnet",
   "chainId": 79879,
   "shortName": "STANDt",
