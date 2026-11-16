@@ -14,12 +14,5 @@
   "networkId": 42429,
   "icon": "tempo",
   "status": "deprecated",
-  "explorers": [
-    {
-      "name": "tempo-explorer",
-      "url": "https://explore.andantino.tempo.xyz",
-      "icon": "tempo",
-      "standard": "EIP3091"
-    }
-  ]
+  "explorers": []
 }
