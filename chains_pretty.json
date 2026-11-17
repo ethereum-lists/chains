@@ -520,7 +520,7 @@
 }, {
   "name": "Cronos Mainnet",
   "chain": "CRO",
-  "rpc": ["https://evm.cronos.org", "https://cronos-evm-rpc.publicnode.com", "wss://cronos-evm-rpc.publicnode.com", "https://cronos.drpc.org", "wss://cronos.drpc.org", "https://cronos-rpc.blockreq.com/v1/rpc/public"],
+  "rpc": ["https://evm.cronos.com", "https://cronos-evm-rpc.publicnode.com", "wss://cronos-evm-rpc.publicnode.com", "https://cronos.drpc.org", "wss://cronos.drpc.org", "https://cronos-rpc.blockreq.com/v1/rpc/public"],
   "features": [{
     "name": "EIP1559"
   }],
@@ -530,13 +530,13 @@
     "symbol": "CRO",
     "decimals": 18
   },
-  "infoURL": "https://cronos.org/",
+  "infoURL": "https://cronos.com/",
   "shortName": "cro",
   "chainId": 25,
   "networkId": 25,
   "explorers": [{
     "name": "Cronos Explorer",
-    "url": "https://explorer.cronos.org",
+    "url": "https://explorer.cronos.com",
     "standard": "none"
   }]
 }, {
@@ -6438,21 +6438,21 @@
 }, {
   "name": "Cronos Testnet",
   "chain": "CRO",
-  "rpc": ["https://evm-t3.cronos.org", "https://cronos-testnet.drpc.org", "wss://cronos-testnet.drpc.org"],
-  "faucets": ["https://cronos.org/faucet"],
+  "rpc": ["https://evm-t3.cronos.com", "https://cronos-testnet.drpc.org", "wss://cronos-testnet.drpc.org"],
+  "faucets": ["https://faucet.cronos.com/"],
   "nativeCurrency": {
     "name": "Cronos Test Coin",
     "symbol": "TCRO",
     "decimals": 18
   },
-  "infoURL": "https://cronos.org",
+  "infoURL": "https://cronos.com/",
   "shortName": "tcro",
   "chainId": 338,
   "networkId": 338,
   "slip44": 1,
   "explorers": [{
     "name": "Cronos Testnet Explorer",
-    "url": "https://explorer.cronos.org/testnet",
+    "url": "https://explorer.cronos.com/testnet",
     "standard": "none"
   }]
 }, {
@@ -23344,7 +23344,7 @@
 }, {
   "name": "Beam",
   "chain": "BEAM",
-  "rpc": ["https://build.onbeam.com/rpc", "wss://build.onbeam.com/ws", "https://subnets.avax.network/beam/mainnet/rpc", "wss://subnets.avax.network/beam/mainnet/ws"],
+  "rpc": ["https://build.onbeam.com/rpc", "wss://build.onbeam.com/ws", "https://subnets.avax.network/beam/mainnet/rpc", "wss://subnets.avax.network/beam/mainnet/ws", "https://rpc.swiftnodes.io/rpc/beam?key=${SWIFTNODES_API_KEY}"],
   "features": [{
     "name": "EIP1559"
   }],

@@ -320,9 +320,9 @@
     "symbol": "CRO",
     "decimals": 18
   },
-  "rpc": ["https://evm.cronos.org", "https://cronos-evm-rpc.publicnode.com", "wss://cronos-evm-rpc.publicnode.com", "https://cronos.drpc.org", "wss://cronos.drpc.org", "https://cronos-rpc.blockreq.com/v1/rpc/public"],
+  "rpc": ["https://evm.cronos.com", "https://cronos-evm-rpc.publicnode.com", "wss://cronos-evm-rpc.publicnode.com", "https://cronos.drpc.org", "wss://cronos.drpc.org", "https://cronos-rpc.blockreq.com/v1/rpc/public"],
   "faucets": [],
-  "infoURL": "https://cronos.org/"
+  "infoURL": "https://cronos.com/"
 }, {
   "name": "Genesis L1 testnet",
   "chainId": 26,
@@ -3908,9 +3908,9 @@
     "symbol": "TCRO",
     "decimals": 18
   },
-  "rpc": ["https://evm-t3.cronos.org", "https://cronos-testnet.drpc.org", "wss://cronos-testnet.drpc.org"],
-  "faucets": ["https://cronos.org/faucet"],
-  "infoURL": "https://cronos.org"
+  "rpc": ["https://evm-t3.cronos.com", "https://cronos-testnet.drpc.org", "wss://cronos-testnet.drpc.org"],
+  "faucets": ["https://faucet.cronos.com/"],
+  "infoURL": "https://cronos.com/"
 }, {
   "name": "Pencils Protocol",
   "chainId": 339,
@@ -14100,7 +14100,7 @@
     "symbol": "BEAM",
     "decimals": 18
   },
-  "rpc": ["https://build.onbeam.com/rpc", "wss://build.onbeam.com/ws", "https://subnets.avax.network/beam/mainnet/rpc", "wss://subnets.avax.network/beam/mainnet/ws"],
+  "rpc": ["https://build.onbeam.com/rpc", "wss://build.onbeam.com/ws", "https://subnets.avax.network/beam/mainnet/rpc", "wss://subnets.avax.network/beam/mainnet/ws", "https://rpc.swiftnodes.io/rpc/beam?key=${SWIFTNODES_API_KEY}"],
   "faucets": ["https://faucet.onbeam.com"],
   "infoURL": "https://www.onbeam.com"
 }, {
