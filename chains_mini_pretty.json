@@ -4974,7 +4974,7 @@
     "symbol": "ASTR",
     "decimals": 18
   },
-  "rpc": ["https://rpc.astar.network:8545"],
+  "rpc": ["https://rpc.astar.network:8545", "https://rpc.swiftnodes.io/rpc/astar?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://astar.network/"
 }, {
