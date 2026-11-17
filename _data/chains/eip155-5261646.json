@@ -1,0 +1,26 @@
+{
+  "name": "Pinch",
+  "title": "Pinch Mainnet",
+  "status": "active",
+  "chain": "PINCH",
+  "icon": "pinch",
+  "rpc": ["https://pinch.network/rpc"],
+  "features": [{ "name": "EIP155" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Pinch",
+    "symbol": "PINCH",
+    "decimals": 18
+  },
+  "infoURL": "https://pinch.network",
+  "shortName": "pinch",
+  "chainId": 5261646,
+  "networkId": 5261646,
+  "explorers": [
+    {
+      "name": "Pinch Explorer",
+      "url": "https://pinch.network/explorer",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Riverbit Testnet",
+  "chain": "RBT",
+  "rpc": ["https://pre.riverbit.io/api/rpc?chainId=12589"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Riverbit token",
+    "symbol": "RBT",
+    "decimals": 18
+  },
+  "infoURL": "https://pre.riverbit.io/explorer",
+  "shortName": "riverbit-testnet",
+  "chainId": 12589,
+  "networkId": 12589,
+  "explorers": [
+    {
+      "name": "Riverbit Testnet Explorer",
+      "url": "https://pre.riverbit.io/explorer",
+      "standard": "none"
+    }
+  ]
+}
