@@ -1,28 +1,21 @@
 {
-  "name": "LXON Mainnet",
+  "name": "LXON",
   "chain": "LXON",
-  "rpc": ["https://rpc.lxon.in"],
+  "rpc": [
+    "https://rpc.lxon.in"
+  ],
   "faucets": [],
+  "features": [
+    { "name": "EIP155" }
+  ],
   "nativeCurrency": {
-    "name": "XON",
-    "symbol": "XON",
+    "name": "LXON",
+    "symbol": "LXON",
     "decimals": 18
   },
-  "features": [
-    {
-      "name": "EIP155"
-    }
-  ],
   "infoURL": "https://www.lxon.in",
   "shortName": "lxon",
   "chainId": 724,
   "networkId": 724,
-  "explorers": [
-    {
-      "name": "LXON Explorer",
-      "url": "https://explorer.lxon.in",
-      "standard": "EIP3091"
-    }
-  ],
-  "status": "active"
+  "explorers": []
 }
