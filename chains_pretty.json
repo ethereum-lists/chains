@@ -20019,7 +20019,7 @@
   }, {
     "name": "EIP1559"
   }],
-  "infoURL": "https://www.eoraptordex.com",
+  "infoURL": "https://www.eoraptor.org",
   "shortName": "eoraptor",
   "chainId": 2679,
   "networkId": 2679,
@@ -23798,7 +23798,7 @@
 }, {
   "name": "IoTeX Network Mainnet",
   "chain": "iotex.io",
-  "rpc": ["https://babel-api.mainnet.iotex.io"],
+  "rpc": ["https://babel-api.mainnet.iotex.io", "https://rpc.swiftnodes.io/rpc/iotex?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "IoTeX",
@@ -52677,7 +52677,7 @@
   "name": "Scroll",
   "chain": "ETH",
   "status": "active",
-  "rpc": ["https://rpc.scroll.io", "https://rpc.ankr.com/scroll", "https://scroll-mainnet.chainstacklabs.com", "https://scroll-rpc.publicnode.com", "wss://scroll-rpc.publicnode.com", "https://scroll-rpc.blockreq.com/v1/rpc/public"],
+  "rpc": ["https://rpc.scroll.io", "https://rpc.ankr.com/scroll", "https://scroll-mainnet.chainstacklabs.com", "https://scroll-rpc.publicnode.com", "wss://scroll-rpc.publicnode.com", "https://scroll-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/scroll?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

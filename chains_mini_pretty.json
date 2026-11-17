@@ -12139,7 +12139,7 @@
   },
   "rpc": ["https://rpc.eoraptor.org", "https://rpc2.eoraptor.org"],
   "faucets": [],
-  "infoURL": "https://www.eoraptordex.com"
+  "infoURL": "https://www.eoraptor.org"
 }, {
   "name": "Splendor Mainnet",
   "chainId": 2691,
@@ -14347,7 +14347,7 @@
     "symbol": "IOTX",
     "decimals": 18
   },
-  "rpc": ["https://babel-api.mainnet.iotex.io"],
+  "rpc": ["https://babel-api.mainnet.iotex.io", "https://rpc.swiftnodes.io/rpc/iotex?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://iotex.io"
 }, {
@@ -31650,7 +31650,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.scroll.io", "https://rpc.ankr.com/scroll", "https://scroll-mainnet.chainstacklabs.com", "https://scroll-rpc.publicnode.com", "wss://scroll-rpc.publicnode.com", "https://scroll-rpc.blockreq.com/v1/rpc/public"],
+  "rpc": ["https://rpc.scroll.io", "https://rpc.ankr.com/scroll", "https://scroll-mainnet.chainstacklabs.com", "https://scroll-rpc.publicnode.com", "wss://scroll-rpc.publicnode.com", "https://scroll-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/scroll?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://scroll.io"
 }, {
