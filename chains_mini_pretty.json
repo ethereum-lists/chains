@@ -24894,6 +24894,32 @@
   "faucets": [],
   "infoURL": "https://defikingdoms.com"
 }, {
+  "name": "Shinerium Testnet",
+  "chainId": 54004,
+  "shortName": "tshn",
+  "networkId": 54004,
+  "nativeCurrency": {
+    "name": "Shine",
+    "symbol": "SHN",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://shinerium.org"
+}, {
+  "name": "Shinerium Mainnet",
+  "chainId": 54040,
+  "shortName": "shn",
+  "networkId": 54040,
+  "nativeCurrency": {
+    "name": "Shine",
+    "symbol": "SHN",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://shinerium.org"
+}, {
   "name": "Graphite Testnet",
   "chainId": 54170,
   "shortName": "graphiteTest",

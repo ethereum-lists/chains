@@ -41358,6 +41358,48 @@
     "standard": "none"
   }]
 }, {
+  "name": "Shinerium Testnet",
+  "chain": "SHN",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Shine",
+    "symbol": "SHN",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://shinerium.org",
+  "shortName": "tshn",
+  "chainId": 54004,
+  "networkId": 54004,
+  "icon": "shinerium",
+  "status": "incubating"
+}, {
+  "name": "Shinerium Mainnet",
+  "chain": "SHN",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Shine",
+    "symbol": "SHN",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://shinerium.org",
+  "shortName": "shn",
+  "chainId": 54040,
+  "networkId": 54040,
+  "icon": "shinerium",
+  "status": "incubating"
+}, {
   "name": "Graphite Testnet",
   "chain": "Graphite",
   "rpc": ["https://anon-entrypoint-test-1.atgraphite.com", "wss://ws-anon-entrypoint-test-1.atgraphite.com"],
