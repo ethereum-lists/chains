@@ -1,0 +1,24 @@
+{
+  "name": "Elysium",
+  "chain": "Elysium",
+  "rpc": ["https://rpc.elysium.kinetiq.xyz"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "HYPE",
+    "symbol": "HYPE",
+    "decimals": 18
+  },
+  "infoURL": "https://elysium.kinetiq.xyz",
+  "shortName": "elysium",
+  "chainId": 99901,
+  "networkId": 99901,
+  "icon": "elysium-kinetiq",
+  "explorers": [
+    {
+      "name": "Elysium Explorer",
+      "url": "https://elysium.kinetiq.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}

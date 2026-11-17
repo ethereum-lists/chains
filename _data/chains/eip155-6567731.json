@@ -1,0 +1,21 @@
+{
+  "name": "ACI Network Testnet",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://aci-token.net",
+  "shortName": "aci-testnet",
+  "chainId": 6567731,
+  "networkId": 6567731,
+  "slip44": 1,
+  "status": "incubating",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  }
+}

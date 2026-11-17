@@ -1,0 +1,18 @@
+{
+  "name": "QVTX",
+  "chain": "QVTX",
+  "rpc": [
+    "https://rpc.qvtxaeon.io/_rpc/8825",
+    "https://rpc.quantvestrix.io/_rpc/8825"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QVTX",
+    "symbol": "QVTX",
+    "decimals": 18
+  },
+  "infoURL": "https://quantvestrix.io",
+  "shortName": "qvtx",
+  "chainId": 8825,
+  "networkId": 8825
+}
