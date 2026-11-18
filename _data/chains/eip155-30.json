@@ -1,7 +1,11 @@
 {
   "name": "Rootstock Mainnet",
   "chain": "Rootstock",
-  "rpc": ["https://public-node.rsk.co", "https://mycrypto.rsk.co"],
+  "rpc": [
+    "https://public-node.rsk.co",
+    "https://mycrypto.rsk.co",
+    "https://api.blockvectra.com/v1/rootstock_mainnet/public"
+  ],
   "faucets": [],
   "icon": "rootstock",
   "nativeCurrency": {
