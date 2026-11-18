@@ -515,7 +515,7 @@
     "symbol": "TLOS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.telos.net", "https://telos.drpc.org", "wss://telos.drpc.org"],
+  "rpc": ["https://rpc.telos.net", "https://telos.drpc.org", "wss://telos.drpc.org", "https://rpc.swiftnodes.io/rpc/telos?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://telos.net"
 }, {
@@ -4051,7 +4051,7 @@
     "symbol": "PLS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.pulsechain.com", "https://pulsechain-rpc.publicnode.com", "wss://pulsechain-rpc.publicnode.com", "https://rpc-pulsechain.g4mm4.io"],
+  "rpc": ["https://rpc.pulsechain.com", "https://pulsechain-rpc.publicnode.com", "wss://pulsechain-rpc.publicnode.com", "https://rpc-pulsechain.g4mm4.io", "https://rpc.swiftnodes.io/rpc/pulsechain?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://pulsechain.com/"
 }, {
