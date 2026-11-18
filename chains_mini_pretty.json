@@ -5641,6 +5641,19 @@
   "faucets": [],
   "infoURL": "https://lovely.network"
 }, {
+  "name": "Telcoin Network",
+  "chainId": 731,
+  "shortName": "tn",
+  "networkId": 731,
+  "nativeCurrency": {
+    "name": "Telcoin",
+    "symbol": "TEL",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://telcoin.network"
+}, {
   "name": "Pione BOS Chain Mainnet",
   "chainId": 739,
   "shortName": "pob",
@@ -10518,14 +10531,14 @@
 }, {
   "name": "Adiri",
   "chainId": 2017,
-  "shortName": "tel",
+  "shortName": "adiri",
   "networkId": 2017,
   "nativeCurrency": {
     "name": "Telcoin",
     "symbol": "TEL",
     "decimals": 18
   },
-  "rpc": ["https://rpc.telcoin.network", "https://adiri.tel", "https://node1.telcoin.network", "https://node2.telcoin.network", "https://node3.telcoin.network", "https://node4.telcoin.network"],
+  "rpc": ["https://rpc.adiri.tel", "https://rpc.adiri.telcoin.network", "https://adiri.rpc.telcoin.network"],
   "faucets": ["https://telcoin.network/faucet"],
   "infoURL": "https://telcoin.network"
 }, {
