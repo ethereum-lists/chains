@@ -4051,7 +4051,7 @@
     "symbol": "PLS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.pulsechain.com", "https://pulsechain-rpc.publicnode.com", "wss://pulsechain-rpc.publicnode.com", "https://rpc-pulsechain.g4mm4.io"],
+  "rpc": ["https://rpc.pulsechain.com", "https://pulsechain-rpc.publicnode.com", "wss://pulsechain-rpc.publicnode.com", "https://rpc-pulsechain.g4mm4.io", "https://rpc.swiftnodes.io/rpc/pulsechain?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://pulsechain.com/"
 }, {
@@ -23330,7 +23330,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.mode.network", "https://mode.drpc.org", "wss://mode.drpc.org"],
+  "rpc": ["https://mainnet.mode.network", "https://mode.drpc.org", "wss://mode.drpc.org", "https://rpc.swiftnodes.io/rpc/mode?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://docs.mode.network/"
 }, {
