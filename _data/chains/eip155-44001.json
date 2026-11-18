@@ -1,0 +1,24 @@
+{
+  "name": "QDay Mainnet",
+  "chain": "QDAY",
+  "rpc": ["https://rpc.qday.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QDay Token",
+    "symbol": "QDAY",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://qday.io",
+  "shortName": "qday",
+  "chainId": 44001,
+  "networkId": 44001,
+  "explorers": [
+    {
+      "name": "QDay Explorer",
+      "url": "https://explorer.qday.io",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
