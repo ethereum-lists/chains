@@ -1,0 +1,21 @@
+{
+  "name": "Regulated Layer One",
+  "chain": "RL1",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "RL1 Ether",
+    "symbol": "RETH",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "infoURL": "https://rl1.network",
+  "shortName": "rl1",
+  "chainId": 53147,
+  "networkId": 53147,
+  "status": "active"
+}

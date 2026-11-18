@@ -1,0 +1,24 @@
+{
+  "name": "Vordium Testnet",
+  "chain": "VORD",
+  "icon": "vordium",
+  "rpc": ["https://rpc-testnet.vordium.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Vordium Testnet",
+    "symbol": "VORD",
+    "decimals": 18
+  },
+  "infoURL": "https://vordium.com",
+  "shortName": "vord-testnet",
+  "chainId": 101102,
+  "networkId": 101102,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "vordscan testnet",
+      "url": "https://testnet.vordscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}

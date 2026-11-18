@@ -11,7 +11,8 @@
     "https://opbnb-rpc.publicnode.com",
     "wss://opbnb-rpc.publicnode.com",
     "https://opbnb.drpc.org",
-    "wss://opbnb.drpc.org"
+    "wss://opbnb.drpc.org",
+    "https://opbnb-rpc.blockreq.com/v1/rpc/public"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -27,7 +28,7 @@
   "explorers": [
     {
       "name": "opbnbscan",
-      "url": "https://mainnet.opbnbscan.com",
+      "url": "https://opbnbscan.com",
       "standard": "EIP3091"
     }
   ]

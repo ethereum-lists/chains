@@ -1,0 +1,19 @@
+{
+  "name": "SOVL1 Testnet",
+  "chain": "SOVL1",
+  "rpc": [],
+  "features": [{ "name": "EIP155" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SOVL1 Testnet",
+    "symbol": "tSOVL1",
+    "decimals": 18
+  },
+  "infoURL": "https://sovereign.com.ky",
+  "shortName": "tsovl1",
+  "chainId": 76851,
+  "networkId": 76851,
+  "slip44": 1,
+  "status": "incubating",
+  "explorers": []
+}

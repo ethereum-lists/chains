@@ -1,0 +1,23 @@
+{
+  "name": "ENI Network",
+  "chain": "ENI",
+  "rpc": ["https://rpc.eni.top"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ENI",
+    "symbol": "ENI",
+    "decimals": 18
+  },
+  "infoURL": "https://eniac.network",
+  "shortName": "eni-network",
+  "chainId": 263,
+  "networkId": 263,
+  "icon": "eni-network",
+  "explorers": [
+    {
+      "name": "ENI Network Explorer",
+      "url": "https://scan.eni.top",
+      "standard": "EIP3091"
+    }
+  ]
+}

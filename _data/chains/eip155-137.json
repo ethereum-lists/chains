@@ -13,7 +13,10 @@
     "https://rpc.satelink.network/rpc/polygon",
     "https://rpcfree.com/polygon-rpc",
     "wss://rpc.satelink.network/rpc/ws/polygon",
-    "https://xrpc.cl/polygon"
+    "https://xrpc.cl/polygon",
+    "https://polygon-bor-rpc.blockreq.com/v1/rpc/public",
+    "https://rpc.swiftnodes.io/rpc/polygon?key=${SWIFTNODES_API_KEY}",
+    "https://api.blockvectra.com/v1/polygon_mainnet/public"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -35,6 +38,11 @@
     {
       "name": "oklink",
       "url": "https://www.oklink.com/polygon",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Codex Scan",
+      "url": "https://scan.codex.io/polygon",
       "standard": "EIP3091"
     }
   ]

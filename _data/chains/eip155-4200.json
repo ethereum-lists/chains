@@ -2,11 +2,7 @@
   "name": "Merlin Mainnet",
   "title": "Merlin Mainnet",
   "chain": "Merlin",
-  "rpc": [
-    "https://rpc.merlinchain.io",
-    "https://merlin-mainnet-enterprise.unifra.io",
-    "https://rpc-merlin.rockx.com"
-  ],
+  "rpc": ["https://rpc.merlinchain.io", "https://rpc-merlin.rockx.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",

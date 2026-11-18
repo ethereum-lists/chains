@@ -5,7 +5,10 @@
   "rpc": [
     "https://rpc.testnet.chain.robinhood.com/rpc",
     "https://robinhood-sepolia-rpc.publicnode.com",
-    "wss://robinhood-sepolia-rpc.publicnode.com"
+    "wss://robinhood-sepolia-rpc.publicnode.com",
+    "https://robinhood-testnet.drpc.org",
+    "wss://robinhood-testnet.drpc.org",
+    "https://api.blockvectra.com/v1/robinhood_testnet/public"
   ],
   "faucets": [],
   "nativeCurrency": {
