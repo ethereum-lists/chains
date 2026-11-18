@@ -7282,6 +7282,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "D Testnet",
+  "chain": "Dchain",
+  "rpc": ["https://eth-testnet.platformd.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dchain",
+    "symbol": "DT",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://platformd.io",
+  "shortName": "d-testnet",
+  "chainId": 430,
+  "networkId": 430,
+  "icon": "d-chain",
+  "explorers": []
+}, {
   "name": "NutriEmp Chain",
   "chain": "nutriemp-chain",
   "rpc": ["https://rpc.nutriemp-chain.link", "https://rpc.nutriemp.com"],
@@ -7307,6 +7326,25 @@
     "standard": "EIP3091",
     "icon": "GRAMZ"
   }]
+}, {
+  "name": "D Mainnet",
+  "chain": "Dchain",
+  "rpc": ["https://eth.platformd.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Dchain",
+    "symbol": "DT",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://platoformd.io",
+  "shortName": "d-mainnet",
+  "chainId": 433,
+  "networkId": 433,
+  "icon": "d-chain",
+  "explorers": []
 }, {
   "name": "Boyaa",
   "chain": "BYC",

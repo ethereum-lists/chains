@@ -4393,6 +4393,19 @@
   "faucets": [],
   "infoURL": "https://gesoten.com/"
 }, {
+  "name": "D Testnet",
+  "chainId": 430,
+  "shortName": "d-testnet",
+  "networkId": 430,
+  "nativeCurrency": {
+    "name": "Dchain",
+    "symbol": "DT",
+    "decimals": 18
+  },
+  "rpc": ["https://eth-testnet.platformd.io"],
+  "faucets": [],
+  "infoURL": "https://platformd.io"
+}, {
   "name": "NutriEmp Chain",
   "chainId": 432,
   "shortName": "nutriemp",
@@ -4405,6 +4418,19 @@
   "rpc": ["https://rpc.nutriemp-chain.link", "https://rpc.nutriemp.com"],
   "faucets": [],
   "infoURL": "https://nutriemp.com"
+}, {
+  "name": "D Mainnet",
+  "chainId": 433,
+  "shortName": "d-mainnet",
+  "networkId": 433,
+  "nativeCurrency": {
+    "name": "Dchain",
+    "symbol": "DT",
+    "decimals": 18
+  },
+  "rpc": ["https://eth.platformd.io"],
+  "faucets": [],
+  "infoURL": "https://platoformd.io"
 }, {
   "name": "Boyaa",
   "chainId": 434,
