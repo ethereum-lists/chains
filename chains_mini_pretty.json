@@ -9699,14 +9699,14 @@
 }, {
   "name": "Whitechain",
   "chainId": 1875,
-  "shortName": "wbt",
+  "shortName": "wch",
   "networkId": 1875,
   "nativeCurrency": {
     "name": "WhiteBIT Coin",
     "symbol": "WBT",
     "decimals": 18
   },
-  "rpc": ["https://rpc.whitechain.io"],
+  "rpc": ["https://rpc.whitechain.io", "https://rpc.ankr.com/whitechain"],
   "faucets": [],
   "infoURL": "https://whitechain.io"
 }, {
