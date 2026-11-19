@@ -6217,7 +6217,7 @@
 }, {
   "name": "zkSync Mainnet",
   "chain": "ETH",
-  "rpc": ["https://mainnet.era.zksync.io", "https://zksync.drpc.org", "wss://zksync.drpc.org"],
+  "rpc": ["https://mainnet.era.zksync.io", "https://zksync.drpc.org", "wss://zksync.drpc.org", "https://rpc.swiftnodes.io/rpc/zksync?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
