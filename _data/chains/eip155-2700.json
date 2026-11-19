@@ -2,10 +2,7 @@
   "name": "Orbinum Testnet",
   "chain": "ORB",
   "icon": "orbinum",
-  "rpc": [
-    "https://rpc-1.testnet.orbinum.io",
-    "https://rpc-2.testnet.orbinum.io"
-  ],
+  "rpc": ["https://rpc.testnet.orbinum.io"],
   "faucets": ["https://faucet.orbinum.network"],
   "nativeCurrency": {
     "name": "ORB",
