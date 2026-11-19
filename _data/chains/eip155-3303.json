@@ -1,0 +1,24 @@
+{
+  "name": "QuantumAI Blockchain",
+  "chain": "QBC",
+  "rpc": ["https://qvm.qbc.network/jsonrpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QBC",
+    "symbol": "QBC",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://qbc.network",
+  "shortName": "qbc",
+  "chainId": 3303,
+  "networkId": 3303,
+  "status": "active",
+  "explorers": [
+    {
+      "name": "QBC Explorer",
+      "url": "https://qbc.network/explorer",
+      "standard": "none"
+    }
+  ]
+}
