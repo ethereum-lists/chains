@@ -1,0 +1,27 @@
+{
+  "name": "NVDA CHAIN",
+  "chain": "NVDA",
+  "status": "incubating",
+  "rpc": ["https://rpc.nvdachain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NVDA Stock Token",
+    "symbol": "NVDA",
+    "decimals": 18
+  },
+  "infoURL": "https://nvdachain.com",
+  "shortName": "nvda",
+  "chainId": 32768,
+  "networkId": 32768,
+  "explorers": [
+    {
+      "name": "NVDA CHAIN explorer",
+      "url": "https://explorer.nvdachain.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-4663"
+  }
+}
