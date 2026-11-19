@@ -3466,7 +3466,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.boba.network", "https://boba-ethereum.gateway.tenderly.co", "https://gateway.tenderly.co/public/boba-ethereum", "wss://boba-ethereum.gateway.tenderly.co/", "wss://gateway.tenderly.co/public/boba-ethereum", "https://boba-eth.drpc.org", "wss://boba-eth.drpc.org"],
+  "rpc": ["https://mainnet.boba.network", "https://boba-ethereum.gateway.tenderly.co", "https://gateway.tenderly.co/public/boba-ethereum", "wss://boba-ethereum.gateway.tenderly.co/", "wss://gateway.tenderly.co/public/boba-ethereum", "https://boba-eth.drpc.org", "wss://boba-eth.drpc.org", "https://rpc.swiftnodes.io/rpc/boba?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://boba.network"
 }, {
