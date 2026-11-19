@@ -9706,7 +9706,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.soneium.org"],
+  "rpc": ["https://rpc.soneium.org", "https://rpc.swiftnodes.io/rpc/soneium?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://soneium.org"
 }, {
