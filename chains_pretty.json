@@ -520,7 +520,7 @@
 }, {
   "name": "Cronos Mainnet",
   "chain": "CRO",
-  "rpc": ["https://evm.cronos.com", "https://cronos-evm-rpc.publicnode.com", "wss://cronos-evm-rpc.publicnode.com", "https://cronos.drpc.org", "wss://cronos.drpc.org", "https://cronos-rpc.blockreq.com/v1/rpc/public"],
+  "rpc": ["https://evm.cronos.com", "https://cronos-evm-rpc.publicnode.com", "wss://cronos-evm-rpc.publicnode.com", "https://cronos.drpc.org", "wss://cronos.drpc.org", "https://cronos-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/cronos?key=${SWIFTNODES_API_KEY}"],
   "features": [{
     "name": "EIP1559"
   }],
@@ -5047,7 +5047,7 @@
 }, {
   "name": "Fraxtal",
   "chain": "FRAX",
-  "rpc": ["https://rpc.frax.com", "https://fraxtal-rpc.publicnode.com", "wss://fraxtal-rpc.publicnode.com"],
+  "rpc": ["https://rpc.frax.com", "https://fraxtal-rpc.publicnode.com", "wss://fraxtal-rpc.publicnode.com", "https://rpc.swiftnodes.io/rpc/fraxtal?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Frax",
