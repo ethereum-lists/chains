@@ -1,15 +1,26 @@
 {
-  "name": "cheapETH",
-  "chain": "cheapETH",
-  "rpc": ["https://node.cheapeth.org/rpc"],
+  "name": "NGN Chain 777",
+  "chain": "NGN",
+  "icon": "ngn",
+  "rpc": [
+    "https://ngn-chain.onrender.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "cTH",
-    "symbol": "cTH",
+    "name": "NGN Token",
+    "symbol": "NGN",
     "decimals": 18
   },
-  "infoURL": "https://cheapeth.org/",
-  "shortName": "cth",
+  "infoURL": "https://ngn-chain.onrender.com",
+  "shortName": "ngn777",
   "chainId": 777,
-  "networkId": 777
+  "networkId": 777,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "NGN Explorer",
+      "url": "https://ngn-chain.onrender.com/explorer",
+      "standard": "EIP3091"
+    }
+  ]
 }
