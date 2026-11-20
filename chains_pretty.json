@@ -3028,7 +3028,7 @@
 }, {
   "name": "Sonic Mainnet",
   "chain": "sonic",
-  "rpc": ["https://rpc.soniclabs.com", "https://sonic-rpc.publicnode.com", "wss://sonic-rpc.publicnode.com", "https://sonic.drpc.org", "wss://sonic.drpc.org", "https://sonic-rpc.blockreq.com/v1/rpc/public"],
+  "rpc": ["https://rpc.soniclabs.com", "https://sonic-rpc.publicnode.com", "wss://sonic-rpc.publicnode.com", "https://sonic.drpc.org", "wss://sonic.drpc.org", "https://sonic-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/sonic?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sonic",
@@ -14783,7 +14783,7 @@
 }, {
   "name": "Data Network",
   "chain": "DATA",
-  "rpc": ["https://mainnet.datarpc.io"],
+  "rpc": ["https://mainnet.datarpc.io", "https://rpc.swiftnodes.io/rpc/story?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "DATA",
@@ -48971,7 +48971,7 @@
   "chain": "ETH",
   "status": "active",
   "icon": "taiko",
-  "rpc": ["https://rpc.mainnet.taiko.xyz", "https://taiko-rpc.publicnode.com", "wss://taiko-rpc.publicnode.com"],
+  "rpc": ["https://rpc.mainnet.taiko.xyz", "https://taiko-rpc.publicnode.com", "wss://taiko-rpc.publicnode.com", "https://rpc.swiftnodes.io/rpc/taiko?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

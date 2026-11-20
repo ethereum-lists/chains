@@ -1893,7 +1893,7 @@
     "symbol": "S",
     "decimals": 18
   },
-  "rpc": ["https://rpc.soniclabs.com", "https://sonic-rpc.publicnode.com", "wss://sonic-rpc.publicnode.com", "https://sonic.drpc.org", "wss://sonic.drpc.org", "https://sonic-rpc.blockreq.com/v1/rpc/public"],
+  "rpc": ["https://rpc.soniclabs.com", "https://sonic-rpc.publicnode.com", "wss://sonic-rpc.publicnode.com", "https://sonic.drpc.org", "wss://sonic.drpc.org", "https://sonic-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/sonic?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://soniclabs.com"
 }, {
@@ -8978,7 +8978,7 @@
     "symbol": "DATA",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.datarpc.io"],
+  "rpc": ["https://mainnet.datarpc.io", "https://rpc.swiftnodes.io/rpc/story?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://datafdn.org/"
 }, {
@@ -29440,7 +29440,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.mainnet.taiko.xyz", "https://taiko-rpc.publicnode.com", "wss://taiko-rpc.publicnode.com"],
+  "rpc": ["https://rpc.mainnet.taiko.xyz", "https://taiko-rpc.publicnode.com", "wss://taiko-rpc.publicnode.com", "https://rpc.swiftnodes.io/rpc/taiko?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://taiko.xyz"
 }, {
