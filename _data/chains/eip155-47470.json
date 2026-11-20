@@ -1,0 +1,17 @@
+{
+  "name": "DAGREX Testnet",
+  "chain": "DAGR",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DAGREX Testnet",
+    "symbol": "tDAGR",
+    "decimals": 18
+  },
+  "infoURL": "https://dagrex.net",
+  "shortName": "dagr-testnet",
+  "chainId": 47470,
+  "networkId": 47470,
+  "slip44": 1,
+  "status": "incubating"
+}
