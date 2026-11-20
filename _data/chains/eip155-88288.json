@@ -1,0 +1,21 @@
+{
+  "name": "Memento Testnet",
+  "chain": "Memento",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://mementoblockchain.com",
+  "shortName": "memento-sepolia",
+  "chainId": 88288,
+  "networkId": 88288,
+  "explorers": [],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  }
+}
