@@ -301,7 +301,7 @@
   "name": "Flare Mainnet",
   "chain": "FLR",
   "icon": "flare",
-  "rpc": ["https://flare-api.flare.network/ext/C/rpc", "https://flare.rpc.thirdweb.com", "https://flare-bundler.etherspot.io", "https://rpc.ankr.com/flare", "https://01-gravelines-003-01.rpc.tatum.io/ext/bc/C/rpc", "https://01-vinthill-003-02.rpc.tatum.io/ext/bc/C/rpc", "https://rpc.au.cc/flare", "https://flare.enosys.global/ext/C/rpc", "https://flare.solidifi.app/ext/C/rpc"],
+  "rpc": ["https://flare-api.flare.network/ext/C/rpc", "https://flare.rpc.thirdweb.com", "https://flare-bundler.etherspot.io", "https://rpc.ankr.com/flare", "https://01-gravelines-003-01.rpc.tatum.io/ext/bc/C/rpc", "https://01-vinthill-003-02.rpc.tatum.io/ext/bc/C/rpc", "https://rpc.au.cc/flare", "https://flare.enosys.global/ext/C/rpc", "https://flare.solidifi.app/ext/C/rpc", "https://rpc.swiftnodes.io/rpc/flare?key=${SWIFTNODES_API_KEY}"],
   "features": [{
     "name": "EIP155"
   }, {
@@ -2944,7 +2944,7 @@
   "name": "Monad",
   "chain": "MON",
   "icon": "monad",
-  "rpc": ["https://rpc.monad.xyz"],
+  "rpc": ["https://rpc.monad.xyz", "https://rpc.swiftnodes.io/rpc/monad?key=${SWIFTNODES_API_KEY}"],
   "features": [{
     "name": "EIP155"
   }, {
@@ -3028,7 +3028,7 @@
 }, {
   "name": "Sonic Mainnet",
   "chain": "sonic",
-  "rpc": ["https://rpc.soniclabs.com", "https://sonic-rpc.publicnode.com", "wss://sonic-rpc.publicnode.com", "https://sonic.drpc.org", "wss://sonic.drpc.org", "https://sonic-rpc.blockreq.com/v1/rpc/public"],
+  "rpc": ["https://rpc.soniclabs.com", "https://sonic-rpc.publicnode.com", "wss://sonic-rpc.publicnode.com", "https://sonic.drpc.org", "wss://sonic.drpc.org", "https://sonic-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/sonic?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sonic",

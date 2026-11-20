@@ -11,7 +11,8 @@
     "https://01-vinthill-003-02.rpc.tatum.io/ext/bc/C/rpc",
     "https://rpc.au.cc/flare",
     "https://flare.enosys.global/ext/C/rpc",
-    "https://flare.solidifi.app/ext/C/rpc"
+    "https://flare.solidifi.app/ext/C/rpc",
+    "https://rpc.swiftnodes.io/rpc/flare?key=${SWIFTNODES_API_KEY}"
   ],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
