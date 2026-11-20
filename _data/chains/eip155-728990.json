@@ -1,5 +1,5 @@
 {
-  "name": "Zebvix Mainnet",
+  "name": "Zebvix PoS Mainnet",
   "chain": "ZBX",
   "rpc": ["https://rpc.zebvixchain.com/"],
   "faucets": [],
@@ -10,8 +10,8 @@
   },
   "infoURL": "https://zebvixchain.com/",
   "shortName": "zbx",
-  "chainId": 728989,
-  "networkId": 728989,
+  "chainId": 728990,
+  "networkId": 728990,
   "explorers": [
     {
       "name": "Zebvix Scan",
