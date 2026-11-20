@@ -2179,7 +2179,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://pacific-rpc.manta.network/http", "https://manta-pacific.drpc.org", "wss://manta-pacific.drpc.org"],
+  "rpc": ["https://pacific-rpc.manta.network/http", "https://manta-pacific.drpc.org", "wss://manta-pacific.drpc.org", "https://rpc.swiftnodes.io/rpc/manta?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://pacific-info.manta.network"
 }, {
@@ -11344,7 +11344,7 @@
     "symbol": "KAVA",
     "decimals": 18
   },
-  "rpc": ["https://evm.kava.io", "https://kava-evm.rpc.thirdweb.com", "wss://wevm.kava.io", "https://kava-evm-rpc.publicnode.com", "wss://kava-evm-rpc.publicnode.com", "https://evm.kava-rpc.com", "https://rpc.ankr.com/kava_evm", "wss://wevm.kava-rpc.com", "https://kava.drpc.org", "wss://kava.drpc.org"],
+  "rpc": ["https://evm.kava.io", "https://kava-evm.rpc.thirdweb.com", "wss://wevm.kava.io", "https://kava-evm-rpc.publicnode.com", "wss://kava-evm-rpc.publicnode.com", "https://evm.kava-rpc.com", "https://rpc.ankr.com/kava_evm", "wss://wevm.kava-rpc.com", "https://kava.drpc.org", "wss://kava.drpc.org", "https://rpc.swiftnodes.io/rpc/kava?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "infoURL": "https://www.kava.io"
 }, {
