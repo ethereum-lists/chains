@@ -1,23 +1,22 @@
 {
-  "name": "PXA Chain",
-  "chain": "PXA",
-  "rpc": ["https://rpc.pxachain.com"],
+  "name": "Ritual Network",
+  "chain": "RITUAL",
+  "rpc": ["https://rpc.ritualfoundation.org"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "PXA",
-    "symbol": "PXA",
+    "name": "RITUAL",
+    "symbol": "RITUAL",
     "decimals": 18
   },
-  "infoURL": "https://pxachain.com",
-  "shortName": "pxa",
+  "infoURL": "https://ritualfoundation.org",
+  "shortName": "ritual",
   "chainId": 784,
   "networkId": 784,
   "explorers": [
     {
-      "name": "PXA Explorer",
-      "url": "https://explorer.pxachain.com",
+      "name": "Ritual Network Explorer",
+      "url": "https://explorer.ritualfoundation.org",
       "standard": "EIP3091"
     }
-  ],
-  "icon": "pxa"
+  ]
 }
