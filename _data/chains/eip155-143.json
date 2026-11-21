@@ -2,7 +2,10 @@
   "name": "Monad",
   "chain": "MON",
   "icon": "monad",
-  "rpc": ["https://rpc.monad.xyz"],
+  "rpc": [
+    "https://rpc.monad.xyz",
+    "https://rpc.swiftnodes.io/rpc/monad?key=${SWIFTNODES_API_KEY}"
+  ],
   "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
@@ -24,6 +27,11 @@
     {
       "name": "Monadscan",
       "url": "https://monadscan.com",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Codex Scan",
+      "url": "https://scan.codex.io/mon",
       "standard": "EIP3091"
     }
   ]
