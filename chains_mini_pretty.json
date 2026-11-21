@@ -4263,6 +4263,19 @@
   "faucets": [],
   "infoURL": "https://syndr.com"
 }, {
+  "name": "Maroo",
+  "chainId": 410,
+  "shortName": "maroo",
+  "networkId": 410,
+  "nativeCurrency": {
+    "name": "OKRW",
+    "symbol": "OKRW",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://maroo.io"
+}, {
   "name": "Pepe Chain Mainnet",
   "chainId": 411,
   "shortName": "pepe",
@@ -23645,6 +23658,19 @@
   "rpc": ["https://rpc.citrate.ai", "wss://rpc.citrate.ai"],
   "faucets": [],
   "infoURL": "https://citrate.ai"
+}, {
+  "name": "Maroo Preview",
+  "chainId": 41001,
+  "shortName": "maroo-preview",
+  "networkId": 41001,
+  "nativeCurrency": {
+    "name": "OKRW",
+    "symbol": "OKRW",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://maroo.io"
 }, {
   "name": "Aleph Zero EVM",
   "chainId": 41455,
