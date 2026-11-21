@@ -2530,7 +2530,7 @@
     "symbol": "OKB",
     "decimals": 18
   },
-  "rpc": ["https://rpc.xlayer.tech", "https://xlayerrpc.okx.com"],
+  "rpc": ["https://rpc.xlayer.tech", "https://xlayerrpc.okx.com", "https://api.blockvectra.com/v1/xlayer_mainnet/public"],
   "faucets": [],
   "infoURL": "https://www.okx.com/xlayer"
 }, {
@@ -30650,7 +30650,7 @@
     "decimals": 18
   },
   "rpc": ["https://erpc.datachain.network", "wss://ws.datachain.network", "https://erpc.rope.network", "wss://ws.rope.network"],
-  "faucets": ["https://faucet.datachain.network"],
+  "faucets": [],
   "infoURL": "https://datachain.network"
 }, {
   "name": "Datachain Rope Testnet",

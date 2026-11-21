@@ -4047,7 +4047,7 @@
 }, {
   "name": "X Layer Mainnet",
   "chain": "X Layer",
-  "rpc": ["https://rpc.xlayer.tech", "https://xlayerrpc.okx.com"],
+  "rpc": ["https://rpc.xlayer.tech", "https://xlayerrpc.okx.com", "https://api.blockvectra.com/v1/xlayer_mainnet/public"],
   "faucets": [],
   "nativeCurrency": {
     "name": "X Layer Global Utility Token",
@@ -50957,7 +50957,7 @@
   "chain": "DATACHAIN",
   "icon": "datachain",
   "rpc": ["https://erpc.datachain.network", "wss://ws.datachain.network", "https://erpc.rope.network", "wss://ws.rope.network"],
-  "faucets": ["https://faucet.datachain.network"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "DC FAT",
     "symbol": "FAT",
