@@ -1,0 +1,27 @@
+{
+  "name": "PKW Chain",
+  "chain": "PKW",
+  "icon": "pkw",
+  "rpc": [
+    "https://api.pkwblockchain.website"
+  ],
+  "faucets": [
+    "https://faucet.pkwblockchain.website"
+  ],
+  "nativeCurrency": {
+    "name": "PKW",
+    "symbol": "PKW",
+    "decimals": 18
+  },
+  "infoURL": "https://wolfdevempire.com",
+  "shortName": "pkw",
+  "chainId": 20269,
+  "networkId": 20269,
+  "explorers": [
+    {
+      "name": "PKW Explorer",
+      "url": "https://explorer.pkwblockchain.website",
+      "standard": "EIP3091"
+    }
+  ]
+}
