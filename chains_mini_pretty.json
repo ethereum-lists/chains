@@ -8498,7 +8498,7 @@
     "decimals": 18
   },
   "rpc": ["https://evm-rpc-testnet.sei-apis.com", "wss://evm-ws-testnet.sei-apis.com"],
-  "faucets": ["https://atlantic-2.app.sei.io/faucet"],
+  "faucets": [],
   "infoURL": "https://www.sei.io"
 }, {
   "name": "Sei Network",
@@ -25424,7 +25424,7 @@
     "decimals": 18
   },
   "rpc": ["https://sepolia.metisdevops.link", "https://metis-sepolia-rpc.publicnode.com", "wss://metis-sepolia-rpc.publicnode.com"],
-  "faucets": ["https://sepolia.faucet.metisdevops.link"],
+  "faucets": [],
   "infoURL": "https://www.metis.io"
 }, {
   "name": "Genesys Code Mainnet",
