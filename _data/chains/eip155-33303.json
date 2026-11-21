@@ -1,0 +1,30 @@
+{
+  "name": "QOM",
+  "chain": "QOM",
+  "rpc": ["https://rpc.qomx.io"],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QOMX",
+    "symbol": "QOMX",
+    "decimals": 18
+  },
+  "infoURL": "https://qomx.io",
+  "shortName": "qomx",
+  "chainId": 33303,
+  "networkId": 33303,
+  "explorers": [
+    {
+      "name": "QOM Scan",
+      "url": "https://scan.qomx.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
