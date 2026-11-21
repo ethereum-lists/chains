@@ -2530,7 +2530,7 @@
     "symbol": "OKB",
     "decimals": 18
   },
-  "rpc": ["https://rpc.xlayer.tech", "https://xlayerrpc.okx.com"],
+  "rpc": ["https://rpc.xlayer.tech", "https://xlayerrpc.okx.com", "https://api.blockvectra.com/v1/xlayer_mainnet/public"],
   "faucets": [],
   "infoURL": "https://www.okx.com/xlayer"
 }, {
@@ -24058,7 +24058,7 @@
     "symbol": "AVAX",
     "decimals": 18
   },
-  "rpc": ["https://api.avax.network/ext/bc/C/rpc", "https://avalanche-c-chain-rpc.publicnode.com", "wss://avalanche-c-chain-rpc.publicnode.com", "https://xrpc.cl/avalanche", "https://avalanche-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/avalanche?key=${SWIFTNODES_API_KEY}"],
+  "rpc": ["https://api.avax.network/ext/bc/C/rpc", "https://avalanche-c-chain-rpc.publicnode.com", "wss://avalanche-c-chain-rpc.publicnode.com", "https://xrpc.cl/avalanche", "https://avalanche-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/avalanche?key=${SWIFTNODES_API_KEY}", "https://api.blockvectra.com/v1/avax_mainnet/public"],
   "faucets": [],
   "infoURL": "https://www.avax.network/"
 }, {
@@ -25371,7 +25371,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.linea.build", "wss://rpc.linea.build", "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://linea-mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://linea-rpc.publicnode.com", "wss://linea-rpc.publicnode.com", "https://linea-rpc.blockreq.com/v1/rpc/public"],
+  "rpc": ["https://rpc.linea.build", "wss://rpc.linea.build", "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://linea-mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://linea-rpc.publicnode.com", "wss://linea-rpc.publicnode.com", "https://linea-rpc.blockreq.com/v1/rpc/public", "https://api.blockvectra.com/v1/linea_mainnet/public"],
   "faucets": [],
   "infoURL": "https://linea.build"
 }, {
