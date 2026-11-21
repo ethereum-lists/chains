@@ -1,7 +1,7 @@
 {
   "name": "Whitechain",
-  "chain": "WBT",
-  "rpc": ["https://rpc.whitechain.io"],
+  "chain": "WCH",
+  "rpc": ["https://rpc.whitechain.io", "https://rpc.ankr.com/whitechain"],
   "faucets": [],
   "nativeCurrency": {
     "name": "WhiteBIT Coin",
@@ -9,7 +9,7 @@
     "decimals": 18
   },
   "infoURL": "https://whitechain.io",
-  "shortName": "wbt",
+  "shortName": "wch",
   "chainId": 1875,
   "networkId": 1875,
   "icon": "whitechain",
@@ -19,5 +19,10 @@
       "url": "https://explorer.whitechain.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{ "url": "https://bridge.whitechain.io" }]
+  }
 }
