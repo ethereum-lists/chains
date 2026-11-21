@@ -1,5 +1,5 @@
 {
-  "name": "Xitcoin Testnet",
+  "name": "Xitchain Testnet",
   "chain": "XITCOIN",
   "faucets": ["https://faucet-testnet.xitchain.com/"],
   "rpc": ["https://evm-rpc-testnet.xitchain.com"],
@@ -15,7 +15,7 @@
   "icon": "xitcoin",
   "explorers": [
     {
-      "name": "Xitcoin Testnet Explorer",
+      "name": "Xitchain Testnet Explorer",
       "url": "https://evm-explorer-testnet.xitchain.com",
       "standard": "EIP3091"
     }
