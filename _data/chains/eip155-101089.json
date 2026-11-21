@@ -1,14 +1,14 @@
 {
   "name": "Xitcoin Testnet",
   "chain": "XITCOIN",
-  "faucets": ["https://faucet-testnet.xitcoin.org/"],
-  "rpc": ["https://evm-rpc-testnet.xitcoin.org"],
+  "faucets": ["https://faucet-testnet.xitchain.com/"],
+  "rpc": ["https://evm-rpc-testnet.xitchain.com"],
   "nativeCurrency": {
     "name": "Xitcoin",
     "symbol": "XTC",
     "decimals": 18
   },
-  "infoURL": "https://xitcoin.gitbook.io/guide/",
+  "infoURL": "https://xitcoin.com/chain/",
   "shortName": "xtct",
   "chainId": 101089,
   "networkId": 101089,
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "Xitcoin Testnet Explorer",
-      "url": "https://evm-explorer-testnet.xitcoin.org",
+      "url": "https://evm-explorer-testnet.xitchain.com",
       "standard": "EIP3091"
     }
   ]
