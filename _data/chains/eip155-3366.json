@@ -2,11 +2,7 @@
   "name": "Meroneum",
   "chain": "MERON",
   "icon": "meron",
-  "rpc": [
-    "https://mainnet-node1.meronscan.ai/",
-    "https://mainnet-node2.meronscan.ai/",
-    "https://mainnet-node3.meronscan.ai/"
-  ],
+  "rpc": ["https://mainnet-node1.meronscan.ai/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "MERON",
