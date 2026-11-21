@@ -20188,6 +20188,19 @@
   "faucets": [],
   "infoURL": "https://rss3.io"
 }, {
+  "name": "Riverbit Mainnet",
+  "chainId": 12588,
+  "shortName": "riverbit",
+  "networkId": 12588,
+  "nativeCurrency": {
+    "name": "Riverbit token",
+    "symbol": "RBT",
+    "decimals": 18
+  },
+  "rpc": ["https://app.riverbit.io/api/rpc?chainId=12588"],
+  "faucets": [],
+  "infoURL": "https://app.riverbit.io"
+}, {
   "name": "Riverbit Testnet",
   "chainId": 12589,
   "shortName": "riverbit-testnet",
