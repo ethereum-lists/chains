@@ -1,0 +1,34 @@
+{
+  "name": "SteemVM",
+  "title": "SteemVM Mainnet (SteemVM-Manaslu-81630)",
+  "chain": "SteemVM",
+  "icon": "steemvm",
+  "rpc": ["https://evm.steemvmscan.com", "wss://evm-ws.steemvmscan.com"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Steem",
+    "symbol": "STEEM",
+    "decimals": 18
+  },
+  "infoURL": "https://svmapp.com",
+  "shortName": "steemvm",
+  "chainId": 81630,
+  "networkId": 81630,
+  "slip44": 60,
+  "status": "active",
+  "explorers": [
+    {
+      "name": "SteemVM Blockscout",
+      "url": "https://evmscan.steemvmscan.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "SVM Scan",
+      "url": "https://steemvmscan.com",
+      "icon": "steemvm",
+      "standard": "none"
+    }
+  ]
+}
