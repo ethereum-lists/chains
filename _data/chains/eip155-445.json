@@ -1,0 +1,32 @@
+{
+  "name": "TSX Testnet",
+  "chain": "TSX",
+  "icon": "tsx",
+  "rpc": ["https://testnet.tsx.network/rpc"],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": ["https://tsx.network/faucet"],
+  "nativeCurrency": {
+    "name": "TSX",
+    "symbol": "TSX",
+    "decimals": 18
+  },
+  "infoURL": "https://tsx.network",
+  "shortName": "tsx-testnet",
+  "chainId": 445,
+  "networkId": 445,
+  "explorers": [
+    {
+      "name": "TSX Explorer",
+      "url": "https://scan.tsx.network/testnet",
+      "icon": "tsx",
+      "standard": "EIP3091"
+    }
+  ]
+}
