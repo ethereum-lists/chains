@@ -7640,6 +7640,10 @@
     "url": "https://worldchain-mainnet.explorer.alchemy.com",
     "icon": "blockscout",
     "standard": "EIP3091"
+  }, {
+    "name": "Codex Scan",
+    "url": "https://scan.codex.io/worldchain",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "SciMatic",
@@ -42116,6 +42120,10 @@
     "name": "Ink Explorer",
     "url": "https://explorer.inkonchain.com",
     "standard": "EIP3091"
+  }, {
+    "name": "Codex Scan",
+    "url": "https://scan.codex.io/ink",
+    "standard": "EIP3091"
   }],
   "status": "active"
 }, {
@@ -44748,6 +44756,10 @@
   "explorers": [{
     "name": "Berascan Berachain Block Explorer",
     "url": "https://berascan.com",
+    "standard": "EIP3091"
+  }, {
+    "name": "Codex Scan",
+    "url": "https://scan.codex.io/bera",
     "standard": "EIP3091"
   }]
 }, {
