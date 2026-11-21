@@ -25,7 +25,8 @@
     "https://ethereum-rpc.blockreq.com/v1/rpc/public",
     "https://rpc.swiftnodes.io/rpc/eth?key=${SWIFTNODES_API_KEY}",
     "https://api.blockvectra.com/v1/eth_mainnet/public",
-    "https://eth.backrun.io"
+    "https://eth.backrun.io",
+    "https://ethereum-mainnet.rpc.thyme.sh/public"
   ],
   "features": [
     {

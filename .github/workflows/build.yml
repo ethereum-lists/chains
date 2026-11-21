@@ -13,7 +13,7 @@ jobs:
 
       - name: Get changed files
         id: changed-files
-        uses: step-security/changed-files@v45.0.1
+        uses: step-security/changed-files@v47.0.5
 
       - name: Check changed files
         run: |
