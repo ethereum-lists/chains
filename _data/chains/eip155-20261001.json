@@ -1,0 +1,40 @@
+{
+  "name": "Cookchain Mainnet",
+  "chain": "COOK",
+  "rpc": [
+    "https://rpc.cookscan.net/evm",
+    "https://rpc.cookdex.net",
+    "https://rpc.ldbl.net",
+    "https://rpc.zeven.zone"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "COOK",
+    "symbol": "COOK",
+    "decimals": 18
+  },
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "infoURL": "https://cookscan.net",
+  "shortName": "cook",
+  "chainId": 20261001,
+  "networkId": 20261001,
+  "explorers": [
+    {
+      "name": "Cookscan",
+      "url": "https://cookscan.net",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Cookchain Blockscout",
+      "url": "https://blockscout.cookscan.net",
+      "standard": "EIP3091"
+    }
+  ]
+}
