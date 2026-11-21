@@ -13272,6 +13272,19 @@
   "faucets": [],
   "infoURL": "https://islamicoin.finance"
 }, {
+  "name": "ZETAPHY",
+  "chainId": 3659,
+  "shortName": "zetaphy",
+  "networkId": 3659,
+  "nativeCurrency": {
+    "name": "ZETAPHY",
+    "symbol": "ZTPHY",
+    "decimals": 18
+  },
+  "rpc": ["https://129-221-199-191.sslip.io"],
+  "faucets": ["https://app.sawasdeecoin.com/?tab=earn"],
+  "infoURL": "https://app.sawasdeecoin.com"
+}, {
   "name": "Jouleverse",
   "chainId": 3666,
   "shortName": "jouleverse",
