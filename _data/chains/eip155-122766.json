@@ -1,0 +1,15 @@
+{
+  "name": "ACE Chain Testnet",
+  "chain": "ACE",
+  "rpc": ["https://testnet.acechain.io/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ACE",
+    "symbol": "ACE",
+    "decimals": 9
+  },
+  "infoURL": "https://acechain.io",
+  "shortName": "acechain-testnet",
+  "chainId": 122766,
+  "networkId": 122766
+}

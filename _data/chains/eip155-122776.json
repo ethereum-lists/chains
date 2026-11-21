@@ -1,0 +1,16 @@
+{
+  "name": "ACE Chain",
+  "chain": "ACE",
+  "rpc": ["https://rpc.acechain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ACE",
+    "symbol": "ACE",
+    "decimals": 9
+  },
+  "infoURL": "https://acechain.io",
+  "shortName": "acechain",
+  "chainId": 122776,
+  "networkId": 122776,
+  "status": "incubating"
+}
