@@ -1,11 +1,7 @@
 {
   "name": "X Layer Mainnet",
   "chain": "X Layer",
-  "rpc": [
-    "https://rpc.xlayer.tech",
-    "https://xlayerrpc.okx.com",
-    "https://api.blockvectra.com/v1/xlayer_mainnet/public"
-  ],
+  "rpc": ["https://rpc.xlayer.tech", "https://xlayerrpc.okx.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "X Layer Global Utility Token",
