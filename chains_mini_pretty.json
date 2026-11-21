@@ -37322,6 +37322,19 @@
   "faucets": [],
   "infoURL": "https://deriw.com"
 }, {
+  "name": "Latheon Testnet",
+  "chainId": 60531373273,
+  "shortName": "lth-test",
+  "networkId": 60531373273,
+  "nativeCurrency": {
+    "name": "Latheon Test Token",
+    "symbol": "LTH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.latheon.xyz"],
+  "faucets": ["https://explorer.testnet.latheon.xyz/faucet"],
+  "infoURL": "https://latheon.xyz"
+}, {
   "name": "Arbitrum Blueberry",
   "chainId": 88153591557,
   "shortName": "arb-blueberry",
