@@ -1,0 +1,24 @@
+{
+  "name": "ZETAPHY",
+  "chain": "ZETAPHY",
+  "icon": "zetaphy",
+  "rpc": ["https://129-221-199-191.sslip.io"],
+  "faucets": ["https://app.sawasdeecoin.com/?tab=earn"],
+  "nativeCurrency": {
+    "name": "ZETAPHY",
+    "symbol": "ZTPHY",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://app.sawasdeecoin.com",
+  "shortName": "zetaphy",
+  "chainId": 3659,
+  "networkId": 3659,
+  "explorers": [
+    {
+      "name": "ZETAPHY Explorer",
+      "url": "https://explorer.sawasdeecoin.com/?network=mainnet",
+      "standard": "none"
+    }
+  ]
+}
