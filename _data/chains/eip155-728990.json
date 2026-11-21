@@ -1,0 +1,22 @@
+{
+  "name": "Zebvix Mainnet",
+  "chain": "ZBX",
+  "rpc": ["https://rpc.zebvixchain.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Zebvix",
+    "symbol": "ZBX",
+    "decimals": 18
+  },
+  "infoURL": "https://zebvixchain.com/",
+  "shortName": "zbx",
+  "chainId": 728990,
+  "networkId": 728990,
+  "explorers": [
+    {
+      "name": "Zebvix Scan",
+      "url": "https://scan.zebvixchain.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
