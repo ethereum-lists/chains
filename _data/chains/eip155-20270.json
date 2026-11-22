@@ -23,5 +23,9 @@
       "url": "https://explorer.pkwblockchain.website",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-20269"
+  }
 }
