@@ -1,16 +1,24 @@
 {
-  "name": "Proton Testnet",
-  "chain": "XPR",
-  "rpc": ["https://protontestnet.greymass.com/"],
+  "name": "SwissLedger",
+  "chain": "SWISS",
+  "rpc": ["https://swiss-ledger-rpc.noku.io"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Proton",
-    "symbol": "XPR",
-    "decimals": 4
+    "name": "SWISS",
+    "symbol": "SWISS",
+    "decimals": 18
   },
-  "infoURL": "https://protonchain.com",
-  "shortName": "xpr",
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://ledger.swiss",
+  "shortName": "swissledger",
   "chainId": 110,
   "networkId": 110,
-  "slip44": 1
+  "redFlags": ["reusedChainId"],
+  "explorers": [
+    {
+      "name": "Explorer",
+      "url": "https://explorer.ledger.swiss",
+      "standard": "EIP3091"
+    }
+  ]
 }
