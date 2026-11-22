@@ -3,8 +3,9 @@
   "chain": "Etica Protocol (ETI/EGAZ)",
   "icon": "etica",
   "rpc": [
-    "https://eticamainnet.eticascan.org",
-    "https://eticamainnet.eticaprotocol.org"
+    "https://rpc.eticahub.com",
+    "https://eticamainnet.eticaprotocol.org",
+    "https://eticamainnet.eticascan.org"
   ],
   "faucets": ["http://faucet.etica-stats.org/"],
   "nativeCurrency": {
@@ -17,6 +18,11 @@
   "chainId": 61803,
   "networkId": 61803,
   "explorers": [
+    {
+      "name": "EticaHub Explorer",
+      "url": "https://eticahub.com/explorer",
+      "standard": "EIP3091"
+    },
     {
       "name": "eticascan",
       "url": "https://eticascan.org",
