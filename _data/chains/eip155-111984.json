@@ -1,0 +1,27 @@
+{
+  "name": "Rubin",
+  "chain": "RIT",
+  "icon": "rubin",
+  "rpc": [
+    "https://evm-rpc.mainnet.rubin.trade",
+    "https://evm-rpc.mainnet.ritbit.xyz"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "RIT",
+    "symbol": "RIT",
+    "decimals": 18
+  },
+  "infoURL": "https://rubin.trade",
+  "shortName": "rubin",
+  "chainId": 111984,
+  "networkId": 111984,
+  "explorers": [
+    {
+      "name": "Rubin Explorer",
+      "url": "https://explorer.rubin.trade/ritbit-mainnet",
+      "icon": "rubin",
+      "standard": "EIP3091"
+    }
+  ]
+}

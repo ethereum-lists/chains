@@ -1,0 +1,28 @@
+{
+  "name": "Rubin Testnet",
+  "chain": "RIT",
+  "icon": "rubin",
+  "rpc": [
+    "https://evm-rpc.testnet.rubin.trade",
+    "https://evm-rpc.testnet.ritbit.xyz"
+  ],
+  "faucets": ["https://faucet.testnet.ritbit.xyz"],
+  "nativeCurrency": {
+    "name": "RIT",
+    "symbol": "RIT",
+    "decimals": 18
+  },
+  "infoURL": "https://rubin.trade",
+  "shortName": "rubin-testnet",
+  "chainId": 202006,
+  "networkId": 202006,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Rubin Explorer",
+      "url": "https://explorer.rubin.trade/ritbit-testnet",
+      "icon": "rubin",
+      "standard": "EIP3091"
+    }
+  ]
+}
