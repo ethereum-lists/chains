@@ -27,5 +27,9 @@
       "url": "https://funkiscan.io",
       "standard": "none"
     }
-  ]
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
 }
