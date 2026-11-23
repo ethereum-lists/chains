@@ -2,11 +2,7 @@
   "name": "MAAL Chain",
   "chain": "MAAL",
   "icon": "maal",
-  "rpc": [
-    "https://node1-mainnet.maalscan.io/",
-    "https://node2-mainnet.maalscan.io/",
-    "https://node3-mainnet.maalscan.io/"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "MAAL",
@@ -17,6 +13,7 @@
   "shortName": "maal",
   "chainId": 786,
   "networkId": 786,
+  "status": "deprecated",
   "explorers": [
     {
       "name": "maalscan",

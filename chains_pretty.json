@@ -9741,7 +9741,7 @@
   "name": "MAAL Chain",
   "chain": "MAAL",
   "icon": "maal",
-  "rpc": ["https://node1-mainnet.maalscan.io/", "https://node2-mainnet.maalscan.io/", "https://node3-mainnet.maalscan.io/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "MAAL",
@@ -9752,6 +9752,7 @@
   "shortName": "maal",
   "chainId": 786,
   "networkId": 786,
+  "status": "deprecated",
   "explorers": [{
     "name": "maalscan",
     "url": "https://maalscan.io",
@@ -39619,7 +39620,7 @@
 }, {
   "name": "Tempo Testnet Andantino (Deprecated)",
   "chain": "ETH",
-  "rpc": ["https://rpc.testnet.tempo.xyz"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "No native currency",
@@ -39632,12 +39633,7 @@
   "networkId": 42429,
   "icon": "tempo",
   "status": "deprecated",
-  "explorers": [{
-    "name": "tempo-explorer",
-    "url": "https://explore.andantino.tempo.xyz",
-    "icon": "tempo",
-    "standard": "EIP3091"
-  }]
+  "explorers": []
 }, {
   "name": "Tempo Testnet Moderato",
   "chain": "ETH",
@@ -47383,7 +47379,7 @@
 }, {
   "name": "VeChain Testnet",
   "chain": "VeChain",
-  "rpc": ["https://rpc-testnet.vechain.energy"],
+  "rpc": [],
   "faucets": ["https://faucet.vecha.in"],
   "nativeCurrency": {
     "name": "VeChain",
@@ -47395,11 +47391,7 @@
   "chainId": 100010,
   "networkId": 100010,
   "slip44": 1,
-  "explorers": [{
-    "name": "VeChain Explorer",
-    "url": "https://explore-testnet.vechain.org",
-    "standard": "none"
-  }]
+  "explorers": []
 }, {
   "name": "QuarkChain L2 Mainnet",
   "chain": "QuarkChain",
