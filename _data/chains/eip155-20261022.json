@@ -1,0 +1,22 @@
+{
+  "name": "RUDA Mainnet",
+  "chain": "RUDA",
+  "rpc": ["https://rudaexplorer.org/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "RUDA",
+    "symbol": "RUDA",
+    "decimals": 18
+  },
+  "infoURL": "https://rudaexplorer.org",
+  "shortName": "ruda",
+  "chainId": 20261022,
+  "networkId": 20261022,
+  "explorers": [
+    {
+      "name": "RUDA Explorer",
+      "url": "https://rudaexplorer.org",
+      "standard": "none"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "RUDA Testnet",
+  "chain": "RUDA",
+  "rpc": ["https://test.rudaexplorer.org/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Test RUDA",
+    "symbol": "T-RUDA",
+    "decimals": 18
+  },
+  "infoURL": "https://test.rudaexplorer.org",
+  "shortName": "ruda-testnet",
+  "chainId": 20261118,
+  "networkId": 20261118,
+  "explorers": [
+    {
+      "name": "RUDA Test Explorer",
+      "url": "https://test.rudaexplorer.org",
+      "standard": "none"
+    }
+  ]
+}
