@@ -1,0 +1,25 @@
+{
+  "name": "APN NETWORK",
+  "chain": "APN",
+  "icon": "apn",
+  "rpc": [
+    "https://apnprotocol.ng/api/rpc"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "APN Coin",
+    "symbol": "APN",
+    "decimals": 18
+  },
+  "infoURL": "https://apnprotocol.ng",
+  "shortName": "apn",
+  "chainId": 2342026,
+  "networkId": 2342026,
+  "explorers": [
+    {
+      "name": "APNScan",
+      "url": "https://apnprotocol.ng/explorer",
+      "standard": "EIP3091"
+    }
+  ]
+}
