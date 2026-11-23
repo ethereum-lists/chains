@@ -1,0 +1,17 @@
+{
+  "name": "Incentium Testnet",
+  "chain": "ICT",
+  "rpc": ["https://evm-testnet.incentium.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Incentium",
+    "symbol": "ICT",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://incentium.org",
+  "shortName": "ict-testnet",
+  "chainId": 20261118,
+  "networkId": 20261118,
+  "slip44": 1
+}
