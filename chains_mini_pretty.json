@@ -24972,6 +24972,32 @@
   "faucets": [],
   "infoURL": "https://cytonic.com"
 }, {
+  "name": "Quinvium",
+  "chainId": 52401,
+  "shortName": "qu",
+  "networkId": 52401,
+  "nativeCurrency": {
+    "name": "Quinvium",
+    "symbol": "QU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.quinvium.com"],
+  "faucets": [],
+  "infoURL": "https://quinvium.com"
+}, {
+  "name": "Quinvium Testnet",
+  "chainId": 52402,
+  "shortName": "qu-test",
+  "networkId": 52402,
+  "nativeCurrency": {
+    "name": "Quinvium Testnet",
+    "symbol": "tQU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1.quinvium.com"],
+  "faucets": [],
+  "infoURL": "https://quinvium.com"
+}, {
   "name": "Regulated Layer One",
   "chainId": 53147,
   "shortName": "rl1",

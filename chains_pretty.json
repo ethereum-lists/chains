@@ -41514,6 +41514,45 @@
     "chain": "eip155-52225"
   }
 }, {
+  "name": "Quinvium",
+  "chain": "QU",
+  "rpc": ["https://rpc.quinvium.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Quinvium",
+    "symbol": "QU",
+    "decimals": 18
+  },
+  "infoURL": "https://quinvium.com",
+  "shortName": "qu",
+  "chainId": 52401,
+  "networkId": 52401,
+  "explorers": [{
+    "name": "Quinvium Explorer",
+    "url": "https://explorer.quinvium.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Quinvium Testnet",
+  "chain": "QU",
+  "rpc": ["https://rpc1.quinvium.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Quinvium Testnet",
+    "symbol": "tQU",
+    "decimals": 18
+  },
+  "infoURL": "https://quinvium.com",
+  "shortName": "qu-test",
+  "chainId": 52402,
+  "networkId": 52402,
+  "slip44": 1,
+  "explorers": [{
+    "name": "Quinvium Testnet Explorer",
+    "url": "https://testnet.quinvium.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Regulated Layer One",
   "chain": "RL1",
   "rpc": [],
