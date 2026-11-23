@@ -7460,6 +7460,84 @@
     }]
   }
 }, {
+  "name": "TSX Testnet",
+  "chain": "TSX",
+  "icon": "tsx",
+  "rpc": ["https://testnet.tsx.network/rpc"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": ["https://tsx.network/faucet"],
+  "nativeCurrency": {
+    "name": "TSX",
+    "symbol": "TSX",
+    "decimals": 18
+  },
+  "infoURL": "https://tsx.network",
+  "shortName": "tsx-testnet",
+  "chainId": 445,
+  "networkId": 445,
+  "explorers": [{
+    "name": "TSX Explorer",
+    "url": "https://scan.tsx.network/testnet",
+    "icon": "tsx",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "TSX Bastion",
+  "chain": "TSX",
+  "icon": "tsx",
+  "rpc": ["https://bastion.tsx.network/rpc"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TSX",
+    "symbol": "TSX",
+    "decimals": 18
+  },
+  "infoURL": "https://tsx.network",
+  "shortName": "tsx-bastion",
+  "chainId": 454,
+  "networkId": 454,
+  "explorers": [{
+    "name": "TSX Explorer",
+    "url": "https://scan.tsx.network/bastion",
+    "icon": "tsx",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "TSX Horizon",
+  "chain": "TSX",
+  "icon": "tsx",
+  "rpc": ["https://horizon.tsx.network/rpc"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TSX",
+    "symbol": "TSX",
+    "decimals": 18
+  },
+  "infoURL": "https://tsx.network",
+  "shortName": "tsx-horizon",
+  "chainId": 455,
+  "networkId": 455,
+  "explorers": [{
+    "name": "TSX Explorer",
+    "url": "https://scan.tsx.network/horizon",
+    "icon": "tsx",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "ARZIO Chain",
   "chain": "ARZIO",
   "icon": "arzio",

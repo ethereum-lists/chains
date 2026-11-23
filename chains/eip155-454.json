@@ -1,0 +1,32 @@
+{
+  "name": "TSX Bastion",
+  "chain": "TSX",
+  "icon": "tsx",
+  "rpc": ["https://bastion.tsx.network/rpc"],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TSX",
+    "symbol": "TSX",
+    "decimals": 18
+  },
+  "infoURL": "https://tsx.network",
+  "shortName": "tsx-bastion",
+  "chainId": 454,
+  "networkId": 454,
+  "explorers": [
+    {
+      "name": "TSX Explorer",
+      "url": "https://scan.tsx.network/bastion",
+      "icon": "tsx",
+      "standard": "EIP3091"
+    }
+  ]
+}

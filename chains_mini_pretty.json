@@ -4484,6 +4484,45 @@
   "faucets": [],
   "infoURL": "https://synapseprotocol.com"
 }, {
+  "name": "TSX Testnet",
+  "chainId": 445,
+  "shortName": "tsx-testnet",
+  "networkId": 445,
+  "nativeCurrency": {
+    "name": "TSX",
+    "symbol": "TSX",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.tsx.network/rpc"],
+  "faucets": ["https://tsx.network/faucet"],
+  "infoURL": "https://tsx.network"
+}, {
+  "name": "TSX Bastion",
+  "chainId": 454,
+  "shortName": "tsx-bastion",
+  "networkId": 454,
+  "nativeCurrency": {
+    "name": "TSX",
+    "symbol": "TSX",
+    "decimals": 18
+  },
+  "rpc": ["https://bastion.tsx.network/rpc"],
+  "faucets": [],
+  "infoURL": "https://tsx.network"
+}, {
+  "name": "TSX Horizon",
+  "chainId": 455,
+  "shortName": "tsx-horizon",
+  "networkId": 455,
+  "nativeCurrency": {
+    "name": "TSX",
+    "symbol": "TSX",
+    "decimals": 18
+  },
+  "rpc": ["https://horizon.tsx.network/rpc"],
+  "faucets": [],
+  "infoURL": "https://tsx.network"
+}, {
   "name": "ARZIO Chain",
   "chainId": 456,
   "shortName": "arzio",
