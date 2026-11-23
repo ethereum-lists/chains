@@ -55804,6 +55804,26 @@
     "icon": "sharecle"
   }]
 }, {
+  "name": "Primium Testnet",
+  "chain": "PRIMIUM",
+  "rpc": ["https://node1-testnet.codexnetwork.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DEX",
+    "symbol": "DEX",
+    "decimals": 18
+  },
+  "infoURL": "https://staking-testnet.codexnetwork.org/",
+  "shortName": "primium-testnet",
+  "chainId": 1234571,
+  "networkId": 1234571,
+  "slip44": 1,
+  "explorers": [{
+    "name": "Primium Explorer",
+    "url": "https://explorer-testnet.codexnetwork.org",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "zKatana",
   "shortName": "azktn",
   "title": "Astar zkEVM Testnet zKatana",

@@ -33409,6 +33409,19 @@
   "faucets": [],
   "infoURL": "https://sharecle.com/"
 }, {
+  "name": "Primium Testnet",
+  "chainId": 1234571,
+  "shortName": "primium-testnet",
+  "networkId": 1234571,
+  "nativeCurrency": {
+    "name": "DEX",
+    "symbol": "DEX",
+    "decimals": 18
+  },
+  "rpc": ["https://node1-testnet.codexnetwork.org"],
+  "faucets": [],
+  "infoURL": "https://staking-testnet.codexnetwork.org/"
+}, {
   "name": "zKatana",
   "chainId": 1261120,
   "shortName": "azktn",
