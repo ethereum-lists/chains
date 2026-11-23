@@ -37406,6 +37406,47 @@
     }]
   }
 }, {
+  "name": "ArmChain Mainnet",
+  "chain": "ARM",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ARM",
+    "symbol": "ARM",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://armchain.org",
+  "shortName": "arm",
+  "chainId": 27600,
+  "networkId": 27600,
+  "status": "incubating"
+}, {
+  "name": "ArmChain Testnet",
+  "chain": "ARM",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Testnet ARM",
+    "symbol": "ARM",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://armchain.org",
+  "shortName": "tarm",
+  "chainId": 27601,
+  "networkId": 27601,
+  "slip44": 1,
+  "status": "incubating"
+}, {
   "name": "zeroone Mainnet Subnet",
   "chain": "ZEROONEMAI",
   "rpc": ["https://subnets.avax.network/zeroonemai/mainnet/rpc"],

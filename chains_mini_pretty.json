@@ -22593,6 +22593,32 @@
   "faucets": [],
   "infoURL": "https://www.nanon.network"
 }, {
+  "name": "ArmChain Mainnet",
+  "chainId": 27600,
+  "shortName": "arm",
+  "networkId": 27600,
+  "nativeCurrency": {
+    "name": "ARM",
+    "symbol": "ARM",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://armchain.org"
+}, {
+  "name": "ArmChain Testnet",
+  "chainId": 27601,
+  "shortName": "tarm",
+  "networkId": 27601,
+  "nativeCurrency": {
+    "name": "Testnet ARM",
+    "symbol": "ARM",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://armchain.org"
+}, {
   "name": "zeroone Mainnet Subnet",
   "chainId": 27827,
   "shortName": "zeroonemai",
