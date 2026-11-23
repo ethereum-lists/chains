@@ -56598,6 +56598,30 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Pagachain",
+  "chain": "Pagachain",
+  "rpc": ["https://pagachain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Cent",
+    "symbol": "CENT",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://explorer.pagachain.com",
+  "shortName": "pagachain",
+  "chainId": 3690369,
+  "networkId": 3690369,
+  "explorers": [{
+    "name": "Pagachain Explorer",
+    "url": "https://explorer.pagachain.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "AltLayer Zero Gas Network",
   "chain": "ETH",
   "rpc": ["https://zero.alt.technology"],

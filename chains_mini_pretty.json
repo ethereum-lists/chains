@@ -33890,6 +33890,19 @@
   "faucets": [],
   "infoURL": "https://manta-testnet.caldera.dev/"
 }, {
+  "name": "Pagachain",
+  "chainId": 3690369,
+  "shortName": "pagachain",
+  "networkId": 3690369,
+  "nativeCurrency": {
+    "name": "Cent",
+    "symbol": "CENT",
+    "decimals": 18
+  },
+  "rpc": ["https://pagachain.com"],
+  "faucets": [],
+  "infoURL": "https://explorer.pagachain.com"
+}, {
   "name": "AltLayer Zero Gas Network",
   "chainId": 4000003,
   "shortName": "alt-zerogas",
