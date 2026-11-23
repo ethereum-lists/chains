@@ -27117,6 +27117,19 @@
   "faucets": [],
   "infoURL": "https://blast.io/"
 }, {
+  "name": "SteemVM",
+  "chainId": 81630,
+  "shortName": "steemvm",
+  "networkId": 81630,
+  "nativeCurrency": {
+    "name": "Steem",
+    "symbol": "STEEM",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.steemvmscan.com", "wss://evm-ws.steemvmscan.com"],
+  "faucets": [],
+  "infoURL": "https://svmapp.com"
+}, {
   "name": "Quantum Chain Mainnet",
   "chainId": 81720,
   "shortName": "qnet",
