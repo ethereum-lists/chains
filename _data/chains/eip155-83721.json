@@ -1,0 +1,28 @@
+{
+  "name": "VERA SmartChain Testnet",
+  "title": "VERA SmartChain Testnet",
+  "chain": "VERA",
+  "rpc": [
+    "https://testnet-rpc.verachain.cloud"
+  ],
+  "faucets": [
+    "https://testnet-faucet.verachain.cloud"
+  ],
+  "nativeCurrency": {
+    "name": "VERA",
+    "symbol": "VERA",
+    "decimals": 18
+  },
+  "infoURL": "https://verachain.cloud",
+  "shortName": "verat",
+  "chainId": 83721,
+  "networkId": 83721,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "VERA Explorer",
+      "url": "https://testnet-explorer.verachain.cloud/explorer",
+      "standard": "EIP3091"
+    }
+  ]
+}
