@@ -2,7 +2,7 @@
   "name": "Bitnet",
   "chain": "BTN",
   "icon": "bitnet",
-  "rpc": ["https://rpc.bitnetmoney.com", "https://rpc.bitnetmoney.org"],
+  "rpc": ["https://rpc.bitnetmoney.org", "https://rpc.bitnetmoney.com", "https://rpc.bitnet-community.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitnet",
@@ -16,12 +16,17 @@
   "explorers": [
     {
       "name": "Bitnet Explorer",
+      "url": "https://explorer.bitnetmoney.org",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Bitnet Explorer(Backup)",
       "url": "https://explorer.bitnetmoney.com",
       "standard": "EIP3091"
     },
     {
       "name": "BitnetScan",
-      "url": "https://bitnetscan.vercel.app",
+      "url": "https://scan.bitnet-community.org",
       "standard": "EIP3091"
     }
   ]
