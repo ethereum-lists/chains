@@ -1,0 +1,23 @@
+{
+  "name": "Syscoin Gateway Mainnet",
+  "chain": "SYS",
+  "rpc": ["https://rpc-gw.syscoin.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Syscoin",
+    "symbol": "SYS",
+    "decimals": 18
+  },
+  "infoURL": "https://syscoin.org",
+  "shortName": "syscoin-gateway",
+  "chainId": 57570,
+  "networkId": 57570,
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "Syscoin Gateway Block Explorer",
+      "url": "https://explorer-gw.syscoin.org",
+      "standard": "EIP3091"
+    }
+  ]
+}
