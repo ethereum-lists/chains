@@ -1,0 +1,18 @@
+{
+  "name": "Yoa Testnet",
+  "chain": "YOA",
+  "rpc": [],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Yoa Testnet Yoa",
+    "symbol": "tYOA",
+    "decimals": 18
+  },
+  "infoURL": "https://yoa.network",
+  "shortName": "yoa-testnet",
+  "chainId": 2990,
+  "networkId": 2990,
+  "slip44": 1,
+  "status": "incubating"
+}
