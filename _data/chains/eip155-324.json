@@ -4,7 +4,8 @@
   "rpc": [
     "https://mainnet.era.zksync.io",
     "https://zksync.drpc.org",
-    "wss://zksync.drpc.org"
+    "wss://zksync.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/zksync?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,6 +23,11 @@
       "name": "zkSync Era Block Explorer",
       "url": "https://explorer.zksync.io",
       "icon": "zksync-era",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Codex Scan",
+      "url": "https://scan.codex.io/zksync",
       "standard": "EIP3091"
     }
   ],
