@@ -1,0 +1,28 @@
+{
+  "name": "ANT CHAIN",
+  "chain": "ANT",
+  "rpc": ["https://rpc.antchain.tech"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ANT",
+    "symbol": "ANT",
+    "decimals": 18
+  },
+  "infoURL": "https://antchain.tech",
+  "shortName": "antchain",
+  "chainId": 26800,
+  "networkId": 26800,
+  "explorers": [
+    {
+      "name": "ANT CHAIN Explorer",
+      "url": "https://antchain.tech/explorer",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-4663",
+    "bridges": [{ "url": "https://antchain.tech/bridge/" }]
+  },
+  "status": "active"
+}
