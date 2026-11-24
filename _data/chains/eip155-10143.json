@@ -16,6 +16,11 @@
   "networkId": 10143,
   "slip44": 1,
   "explorers": [
+  {
+     "name": "Valopers",
+     "url": "https://testnet.monad.valopers.com",
+     "standard": "EIP3091"
+   },
     {
       "name": "Monad Testnet Explorer",
       "url": "https://testnet.monadexplorer.com",
