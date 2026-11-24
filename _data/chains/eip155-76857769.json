@@ -1,0 +1,18 @@
+{
+  "name": "Lumera",
+  "chain": "LUMERA",
+  "rpc": ["https://evm-rpc.lumera.io"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lumera",
+    "symbol": "LUME",
+    "decimals": 18
+  },
+  "infoURL": "https://lumera.io",
+  "shortName": "lumera",
+  "chainId": 76857769,
+  "networkId": 76857769,
+  "slip44": 60,
+  "icon": "lumera"
+}
