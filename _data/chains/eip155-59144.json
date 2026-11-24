@@ -10,7 +10,8 @@
     "https://linea-rpc.publicnode.com",
     "wss://linea-rpc.publicnode.com",
     "https://linea-rpc.blockreq.com/v1/rpc/public",
-    "https://api.blockvectra.com/v1/linea_mainnet/public"
+    "https://api.blockvectra.com/v1/linea_mainnet/public",
+    "https://rpc.swiftnodes.io/rpc/linea?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
