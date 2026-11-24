@@ -1,14 +1,14 @@
 {
   "name": "DotOne Smart Chain",
   "chain": "DOTO",
-  "rpc": ["https://rpc.dotone.network"],
+  "rpc": ["https://rpc.dotone.online"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Doto",
     "symbol": "DOTO",
     "decimals": 18
   },
-  "infoURL": "https://dotone.network",
+  "infoURL": "https://dotone.online",
   "shortName": "doto",
   "chainId": 505,
   "networkId": 505,
@@ -16,7 +16,7 @@
   "explorers": [
     {
       "name": "DotOne Smart Chain Explorer",
-      "url": "https://explorer.dotone.network",
+      "url": "https://dotscan.one",
       "icon": "dotonechain",
       "standard": "EIP3091"
     }
