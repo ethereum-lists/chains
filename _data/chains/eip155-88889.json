@@ -1,0 +1,34 @@
+{
+  "name": "KuSpin Testnet",
+  "chain": "KSP",
+  "icon": "kuspin",
+  "rpc": [
+    "https://testnet-rpc.kuspin.app",
+    "wss://testnet-rpc.kuspin.app/ws"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Test KuSpin",
+    "symbol": "tKSP",
+    "decimals": 18
+  },
+  "infoURL": "https://kuspin.app",
+  "shortName": "tksp",
+  "chainId": 88889,
+  "networkId": 88889,
+  "explorers": [
+    {
+      "name": "KuSpin Explorer",
+      "url": "https://explorer.kuspin.app",
+      "standard": "EIP3091"
+    }
+  ]
+}
