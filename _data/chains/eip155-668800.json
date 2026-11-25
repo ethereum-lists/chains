@@ -1,0 +1,27 @@
+{
+  "name": "LONGYU",
+  "chain": "LONGYU",
+  "rpc": ["https://rpc.longyu.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BNB Chain Native Token",
+    "symbol": "BNB",
+    "decimals": 18
+  },
+  "infoURL": "https://longyu.network",
+  "shortName": "longyu",
+  "chainId": 668800,
+  "networkId": 668800,
+  "explorers": [
+    {
+      "name": "LONGYU Scan",
+      "url": "https://explorer.longyu.network",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-56",
+    "bridges": [{ "url": "https://bridge.longyu.network" }]
+  }
+}

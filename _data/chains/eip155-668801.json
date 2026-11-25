@@ -1,0 +1,28 @@
+{
+  "name": "LONGYU Testnet",
+  "chain": "LONGYU",
+  "rpc": ["https://rpc-testnet.longyu.network"],
+  "faucets": ["https://testnet.longyu.network/faucet"],
+  "nativeCurrency": {
+    "name": "BNB Chain Native Token",
+    "symbol": "tBNB",
+    "decimals": 18
+  },
+  "infoURL": "https://longyu.network",
+  "shortName": "longyu-testnet",
+  "chainId": 668801,
+  "networkId": 668801,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "LONGYU Scan",
+      "url": "https://scan-testnet.longyu.network",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-97",
+    "bridges": [{ "url": "https://testnet.longyu.network/bridge.html" }]
+  }
+}
