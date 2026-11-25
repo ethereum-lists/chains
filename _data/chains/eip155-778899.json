@@ -1,0 +1,24 @@
+{
+  "name": "PulseOne Mainnet",
+  "chain": "PLSO",
+  "rpc": [
+    "https://rpc.pulseone.top"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PulseOne",
+    "symbol": "PLSO",
+    "decimals": 18
+  },
+  "infoURL": "https://dex.pulseone.top",
+  "shortName": "plso",
+  "chainId": 778899,
+  "networkId": 778899,
+  "explorers": [
+    {
+      "name": "PulseOne Explorer",
+      "url": "https://explorer.pulseone.top",
+      "standard": "EIP3091"
+    }
+  ]
+}
