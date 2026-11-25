@@ -1,0 +1,19 @@
+{
+  "name": "Atheron Lab",
+  "title": "Atheron Lab (test network)",
+  "chain": "ATON",
+  "rpc": [
+    "https://rpc-lab.aton-chain.com/public"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ATHR",
+    "symbol": "ATHR",
+    "decimals": 18
+  },
+  "infoURL": "https://aton-chain.com",
+  "shortName": "aton-lab",
+  "chainId": 28662,
+  "networkId": 28662,
+  "slip44": 1
+}
