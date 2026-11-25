@@ -5,7 +5,9 @@
     "https://mainnet.unichain.org",
     "https://unichain-rpc.publicnode.com",
     "wss://unichain-rpc.publicnode.com",
-    "https://unichain-rpc.blockreq.com/v1/rpc/public"
+    "https://unichain-rpc.blockreq.com/v1/rpc/public",
+    "https://rpc.swiftnodes.io/rpc/unichain?key=${SWIFTNODES_API_KEY}",
+    "https://rpc.nodeflare.app/unichain/public"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -27,6 +29,11 @@
     {
       "name": "Unichain Mainnet Explorer",
       "url": "https://unichain.blockscout.com",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Codex Scan",
+      "url": "https://scan.codex.io/unichain",
       "standard": "EIP3091"
     }
   ]
