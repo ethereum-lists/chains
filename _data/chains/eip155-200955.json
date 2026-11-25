@@ -1,0 +1,16 @@
+{
+  "name": "MMIX Testnet",
+  "chain": "MMIX",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MMIX Coin",
+    "symbol": "MMIX",
+    "decimals": 18
+  },
+  "infoURL": "https://mmix.io/",
+  "shortName": "mmix-testnet",
+  "chainId": 200955,
+  "networkId": 200955,
+  "status": "incubating"
+}
