@@ -1,0 +1,24 @@
+{
+  "name": "Bronk Network",
+  "chain": "BRONK",
+  "rpc": ["https://rpc.bronkxbank.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bronk",
+    "symbol": "BRONK",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://bronkxbank.com",
+  "shortName": "bronk",
+  "chainId": 8819,
+  "networkId": 8819,
+  "explorers": [
+    {
+      "name": "Bronk Explorer",
+      "url": "https://explorer.bronkxbank.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
