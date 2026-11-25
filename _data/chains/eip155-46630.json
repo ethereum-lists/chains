@@ -10,7 +10,7 @@
     "wss://robinhood-testnet.drpc.org",
     "https://api.blockvectra.com/v1/robinhood_testnet/public"
   ],
-  "faucets": [],
+  "faucets": ["https://faucet.testnet.chain.robinhood.com"],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
