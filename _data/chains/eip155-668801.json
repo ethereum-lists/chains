@@ -2,7 +2,7 @@
   "name": "LONGYU Testnet",
   "chain": "LONGYU",
   "rpc": ["https://rpc-testnet.longyu.network"],
-  "faucets": [],
+  "faucets": ["https://testnet.longyu.network/faucet"],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
     "symbol": "tBNB",
