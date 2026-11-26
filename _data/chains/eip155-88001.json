@@ -21,10 +21,12 @@
   "chainId": 88001,
   "networkId": 88001,
   "slip44": 1,
+  "icon": "azore",
   "explorers": [
     {
       "name": "Azorescan Floripa",
       "url": "https://floripa.azorescan.com",
+      "icon": "azore",
       "standard": "EIP3091"
     }
   ]
