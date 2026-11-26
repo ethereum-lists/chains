@@ -1,0 +1,23 @@
+{
+  "name": "Phase Mainnet",
+  "chain": "PHASE",
+  "rpc": ["https://rpc-main.phase.xyz", "wss://rpc-main.phase.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PHASE",
+    "symbol": "PHASE",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://phase.xyz",
+  "shortName": "phase",
+  "chainId": 1015,
+  "networkId": 1015,
+  "explorers": [
+    {
+      "name": "Phase Explorer",
+      "url": "https://explorer.phase.xyz",
+      "standard": "EIP3091"
+    }
+  ]
+}

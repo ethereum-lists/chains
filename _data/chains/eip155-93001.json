@@ -1,0 +1,18 @@
+{
+  "name": "Zero (System Zone) Devnet",
+  "title": "Zero [System Zone] Devnet",
+  "chain": "ZERO",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ZRO",
+    "symbol": "ZRO",
+    "decimals": 18
+  },
+  "infoURL": "https://layerzero.network/zero",
+  "shortName": "zero-system-devnet",
+  "chainId": 93001,
+  "networkId": 93001,
+  "slip44": 1,
+  "status": "incubating"
+}

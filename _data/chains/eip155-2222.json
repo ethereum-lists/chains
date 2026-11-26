@@ -3,7 +3,6 @@
   "chain": "KAVA",
   "rpc": [
     "https://evm.kava.io",
-    "https://kava-rpc.gateway.pokt.network",
     "https://kava-evm.rpc.thirdweb.com",
     "wss://wevm.kava.io",
     "https://kava-evm-rpc.publicnode.com",
@@ -12,7 +11,8 @@
     "https://rpc.ankr.com/kava_evm",
     "wss://wevm.kava-rpc.com",
     "https://kava.drpc.org",
-    "wss://kava.drpc.org"
+    "wss://kava.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/kava?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {

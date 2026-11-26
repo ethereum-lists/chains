@@ -1,0 +1,24 @@
+{
+  "name": "CRYMAD Chain",
+  "chain": "CMX",
+  "rpc": ["https://rpc.cmxofficial.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CryMadX",
+    "symbol": "CMX-R",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://cmxofficial.com",
+  "shortName": "cmxr",
+  "chainId": 1475,
+  "networkId": 1475,
+  "icon": "cmxr",
+  "explorers": [
+    {
+      "name": "CRYMAD Chain Explorer",
+      "url": "https://explorer.cmxofficial.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

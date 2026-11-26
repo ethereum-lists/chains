@@ -1,0 +1,23 @@
+{
+  "name": "Clutch Testnet",
+  "chain": "CLT",
+  "rpc": ["https://api-stage.clutchprotocol.io/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Clutch",
+    "symbol": "CLT",
+    "decimals": 18
+  },
+  "infoURL": "https://clutchprotocol.io",
+  "shortName": "clutch-test",
+  "chainId": 20771,
+  "networkId": 20771,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Clutch Testnet Explorer",
+      "url": "https://explorer-stage.clutchprotocol.io",
+      "standard": "none"
+    }
+  ]
+}

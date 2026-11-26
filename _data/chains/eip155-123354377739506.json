@@ -1,6 +1,7 @@
 {
   "name": "STRATO Mainnet",
   "chain": "STRATO",
+  "icon": "strato",
   "rpc": ["https://app.strato.nexus/rpc"],
   "faucets": [],
   "nativeCurrency": {
@@ -16,6 +17,7 @@
     {
       "name": "stratoscan",
       "url": "https://stratoscan.strato.nexus",
+      "icon": "strato",
       "standard": "EIP3091"
     }
   ]

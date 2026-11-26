@@ -1,7 +1,7 @@
 {
   "name": "VeChain Testnet",
   "chain": "VeChain",
-  "rpc": ["https://rpc-testnet.vechain.energy"],
+  "rpc": [],
   "faucets": ["https://faucet.vecha.in"],
   "nativeCurrency": {
     "name": "VeChain",
@@ -13,11 +13,5 @@
   "chainId": 100010,
   "networkId": 100010,
   "slip44": 1,
-  "explorers": [
-    {
-      "name": "VeChain Explorer",
-      "url": "https://explore-testnet.vechain.org",
-      "standard": "none"
-    }
-  ]
+  "explorers": []
 }

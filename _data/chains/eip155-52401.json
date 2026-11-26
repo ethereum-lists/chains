@@ -1,0 +1,22 @@
+{
+  "name": "Quinvium",
+  "chain": "QU",
+  "rpc": ["https://rpc.quinvium.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Quinvium",
+    "symbol": "QU",
+    "decimals": 18
+  },
+  "infoURL": "https://quinvium.com",
+  "shortName": "qu",
+  "chainId": 52401,
+  "networkId": 52401,
+  "explorers": [
+    {
+      "name": "Quinvium Explorer",
+      "url": "https://explorer.quinvium.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

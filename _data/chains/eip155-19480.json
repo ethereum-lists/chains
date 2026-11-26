@@ -1,13 +1,21 @@
 {
   "name": "QMS Testnet",
   "chain": "QMS",
-  "rpc": [],
-  "faucets": [],
+  "rpc": ["https://rpc.testnet.qms.finance", "wss://rpc.testnet.qms.finance"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": ["https://faucet.testnet.qms.finance"],
   "nativeCurrency": { "name": "QMS", "symbol": "QMS", "decimals": 18 },
   "infoURL": "https://qms.finance",
   "shortName": "qmstest",
   "chainId": 19480,
   "networkId": 19480,
   "slip44": 1,
-  "status": "incubating"
+  "explorers": [
+    {
+      "name": "QMS Testnet Explorer",
+      "url": "https://testnet.qmsscan.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
 }

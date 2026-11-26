@@ -4,7 +4,11 @@
   "rpc": [
     "https://rpc.soniclabs.com",
     "https://sonic-rpc.publicnode.com",
-    "wss://sonic-rpc.publicnode.com"
+    "wss://sonic-rpc.publicnode.com",
+    "https://sonic.drpc.org",
+    "wss://sonic.drpc.org",
+    "https://sonic-rpc.blockreq.com/v1/rpc/public",
+    "https://rpc.swiftnodes.io/rpc/sonic?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,6 +34,11 @@
       "url": "https://explorer.soniclabs.com",
       "icon": "sonic",
       "standard": "none"
+    },
+    {
+      "name": "Codex Scan",
+      "url": "https://scan.codex.io/sonic",
+      "standard": "EIP3091"
     }
   ]
 }

@@ -7,7 +7,9 @@
     "https://rpc.ankr.com/scroll",
     "https://scroll-mainnet.chainstacklabs.com",
     "https://scroll-rpc.publicnode.com",
-    "wss://scroll-rpc.publicnode.com"
+    "wss://scroll-rpc.publicnode.com",
+    "https://scroll-rpc.blockreq.com/v1/rpc/public",
+    "https://rpc.swiftnodes.io/rpc/scroll?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,6 +25,11 @@
     {
       "name": "Scrollscan",
       "url": "https://scrollscan.com",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Codex Scan",
+      "url": "https://scan.codex.io/scroll",
       "standard": "EIP3091"
     }
   ],

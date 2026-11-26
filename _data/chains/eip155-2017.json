@@ -4,12 +4,9 @@
   "chain": "TEL",
   "icon": "telcoin",
   "rpc": [
-    "https://rpc.telcoin.network",
-    "https://adiri.tel",
-    "https://node1.telcoin.network",
-    "https://node2.telcoin.network",
-    "https://node3.telcoin.network",
-    "https://node4.telcoin.network"
+    "https://rpc.adiri.tel",
+    "https://rpc.adiri.telcoin.network",
+    "https://adiri.rpc.telcoin.network"
   ],
   "faucets": ["https://telcoin.network/faucet"],
   "nativeCurrency": {
@@ -18,7 +15,7 @@
     "decimals": 18
   },
   "infoURL": "https://telcoin.network",
-  "shortName": "tel",
+  "shortName": "adiri",
   "chainId": 2017,
   "networkId": 2017,
   "slip44": 1,

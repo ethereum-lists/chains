@@ -1,0 +1,16 @@
+{
+  "name": "OneX Smart Chain Testnet",
+  "chain": "ONEX",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Testnet BOSG",
+    "symbol": "sBOSG",
+    "decimals": 18
+  },
+  "infoURL": "https://github.com/onex-chain",
+  "shortName": "onex-testnet",
+  "chainId": 5775,
+  "networkId": 5775,
+  "status": "incubating"
+}

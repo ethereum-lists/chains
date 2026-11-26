@@ -1,0 +1,24 @@
+{
+  "name": "Riverbit Mainnet",
+  "chain": "RBT",
+  "icon": "riverbit",
+  "rpc": ["https://app.riverbit.io/api/rpc?chainId=12588"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Riverbit token",
+    "symbol": "RBT",
+    "decimals": 18
+  },
+  "infoURL": "https://app.riverbit.io",
+  "shortName": "riverbit",
+  "chainId": 12588,
+  "networkId": 12588,
+  "explorers": [
+    {
+      "name": "Riverbit Explorer",
+      "url": "https://app.riverbit.io/explorer",
+      "icon": "riverbit",
+      "standard": "none"
+    }
+  ]
+}
