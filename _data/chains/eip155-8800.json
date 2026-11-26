@@ -20,10 +20,12 @@
   "shortName": "aze",
   "chainId": 8800,
   "networkId": 8800,
+  "icon": "azore",
   "explorers": [
     {
       "name": "Azorescan",
       "url": "https://azorescan.com",
+      "icon": "azore",
       "standard": "EIP3091"
     }
   ]
