@@ -1,0 +1,25 @@
+{
+  "name": "Alpen Mainnet",
+  "chain": "alpen",
+  "rpc": ["https://alpen.mainnet.alpen.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://alpen.org",
+  "shortName": "alpen",
+  "chainId": 29032,
+  "networkId": 29032,
+  "icon": "alpen",
+  "explorers": [
+    {
+      "name": "Alpen Explorer",
+      "url": "https://explorer.mainnet.alpen.org",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
