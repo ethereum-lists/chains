@@ -23,7 +23,8 @@
     "https://bsc-rpc.blockreq.com/v1/rpc/public",
     "https://rpc.swiftnodes.io/rpc/bsc?key=${SWIFTNODES_API_KEY}",
     "https://api.blockvectra.com/v1/bsc_mainnet/public",
-    "https://bsc.backrun.io"
+    "https://bsc.backrun.io",
+    "https://rpc.solidrpc.io/public/evm/56"
   ],
   "faucets": [],
   "nativeCurrency": {
