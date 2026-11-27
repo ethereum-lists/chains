@@ -1,0 +1,23 @@
+{
+  "name": "UnyKorn Record Chain",
+  "chain": "UNYR",
+  "rpc": ["https://proof.unykorn.org/api/evm"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "UNYR",
+    "symbol": "UNYR",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://chain.unykorn.ai",
+  "shortName": "unyr",
+  "chainId": 37332,
+  "networkId": 37332,
+  "explorers": [
+    {
+      "name": "UnyKorn Record Chain explorer",
+      "url": "https://proof.unykorn.org/explorer",
+      "standard": "none"
+    }
+  ]
+}
