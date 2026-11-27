@@ -1,5 +1,5 @@
 {
-  "name": "Memento Testnet",
+  "name": "Memento Testnet 2129 (deprecated)",
   "chain": "Memento",
   "rpc": ["https://rpc.memento.zeeve.online"],
   "faucets": ["https://faucet.memento.zeeve.online"],
@@ -17,5 +17,6 @@
   "shortName": "memento-testnet",
   "chainId": 2129,
   "networkId": 2129,
-  "explorers": []
+  "explorers": [],
+  "status": "deprecated"
 }

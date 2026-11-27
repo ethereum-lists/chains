@@ -1,5 +1,5 @@
 {
-  "name": "Memento Mainnet",
+  "name": "Memento Mainnet (deprecated)",
   "chain": "Memento",
   "rpc": ["https://rpc.mementoblockchain.com"],
   "faucets": [],
@@ -17,5 +17,6 @@
   "shortName": "memento-mainnet",
   "chainId": 51888,
   "networkId": 51888,
-  "explorers": []
+  "explorers": [],
+  "status": "deprecated"
 }
