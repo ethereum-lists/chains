@@ -1,0 +1,15 @@
+{
+  "name": "Aegis Testnet",
+  "chain": "AEG",
+  "rpc": ["https://rpc-testnet.crywal.best"],
+  "faucets": ["https://faucet.crywal.best"],
+  "nativeCurrency": {
+    "name": "Aegis",
+    "symbol": "AEG",
+    "decimals": 18
+  },
+  "infoURL": "https://crywal.best",
+  "shortName": "aegis-testnet",
+  "chainId": 2000251,
+  "networkId": 2000251
+}
