@@ -1,0 +1,15 @@
+{
+  "name": "Aegis",
+  "chain": "AEG",
+  "rpc": ["https://rpc.你的域名"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Aegis",
+    "symbol": "AEG",
+    "decimals": 18
+  },
+  "infoURL": "https://你的官网",
+  "shortName": "aegis",
+  "chainId": 200025,
+  "networkId": 200025
+}
