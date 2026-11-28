@@ -1,0 +1,15 @@
+{
+  "name": "Aegis Testnet",
+  "chain": "AEG",
+  "rpc": ["https://rpc-testnet.你的域名"],
+  "faucets": ["https://faucet.你的域名"],
+  "nativeCurrency": {
+    "name": "Aegis",
+    "symbol": "AEG",
+    "decimals": 18
+  },
+  "infoURL": "https://你的官网",
+  "shortName": "aegis-testnet",
+  "chainId": 2000251,
+  "networkId": 2000251
+}
