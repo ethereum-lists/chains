@@ -5,7 +5,8 @@
     "https://mainnet.era.zksync.io",
     "https://zksync.drpc.org",
     "wss://zksync.drpc.org",
-    "https://rpc.swiftnodes.io/rpc/zksync?key=${SWIFTNODES_API_KEY}"
+    "https://rpc.swiftnodes.io/rpc/zksync?key=${SWIFTNODES_API_KEY}",
+    "https://rpc.driftguard.live/zksync"
   ],
   "faucets": [],
   "nativeCurrency": {
