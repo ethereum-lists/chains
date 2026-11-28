@@ -1,0 +1,21 @@
+{
+  "name": "CTDN",
+  "chain": "CTDN",
+  "rpc": [
+    "https://rpc.citidan.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CTDN",
+    "symbol": "CTDN",
+    "decimals": 18
+  },
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" }
+  ],
+  "infoURL": "https://node.citidan.com",
+  "shortName": "ctdn",
+  "chainId": 9871,
+  "networkId": 9871
+}
