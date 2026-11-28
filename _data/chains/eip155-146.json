@@ -8,7 +8,8 @@
     "https://sonic.drpc.org",
     "wss://sonic.drpc.org",
     "https://sonic-rpc.blockreq.com/v1/rpc/public",
-    "https://rpc.swiftnodes.io/rpc/sonic?key=${SWIFTNODES_API_KEY}"
+    "https://rpc.swiftnodes.io/rpc/sonic?key=${SWIFTNODES_API_KEY}",
+    "https://rpc.driftguard.live/sonic"
   ],
   "faucets": [],
   "nativeCurrency": {
